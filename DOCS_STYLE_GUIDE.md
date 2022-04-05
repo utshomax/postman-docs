@@ -218,8 +218,8 @@ Indent code blocks using spaces.
 
 Use single backticks for inline references to the following API constructs:
 
-* HTTP verbs (`GET`, `POST`, `PUT`, `PATCH`, `DELETE`, etc)
-* status codes (`200 OK` etc)
+* HTTP verbs (such as `GET`, `POST`, `PUT`, `PATCH`, or `DELETE`)
+* status codes (`200 OK`)
 * parameter names
 * variable names
 * JSON object and field names
@@ -301,7 +301,7 @@ Keep your images focused on what's relevant, but show enough of your screen to i
 
 Include alternative text for images.
 
-Surround images with a 1px border dark grey, ideally `#4a4a4a`.
+Surround images with a 1px border dark gray, ideally `#4a4a4a`.
 
 Use JPG format for images, and optimize them to minimize file size.
 
