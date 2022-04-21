@@ -50,7 +50,7 @@ Postman provides several ways to create a mock server. Create a mock server from
 * [Creating a mock server using a template](#creating-a-mock-server-using-a-template)
 * [Creating a mock server using a collection](#creating-a-mock-server-using-a-collection)
 * [Creating a mock server from an API](#creating-a-mock-server-from-an-api)
-* [Creating a mock server from the History](#creating-a-mock-server-from-the-history)
+* [Creating a mock server from History](#creating-a-mock-server-from-history)
 * [Next steps](#next-steps)
 
 ## Creating a mock server from scratch
@@ -74,7 +74,7 @@ Select the **Use a template** option to create a mock server based on a predefin
 
 ## Creating a mock server using a collection
 
-Select the **Use a collection** option to create a mock server based on an existing collection in your current workspace. You can then use the mock server to simulate or test each of the endpoints in your collection.
+Select the **Use a collection** option to create a mock server based on an existing collection in your current workspace. You can use the mock server to simulate or test each of the endpoints in your collection.
 
 1. Select **Mock Servers** in the sidebar and select **+**.
 1. Select **Use a collection** and select the collection you want to use.
@@ -97,9 +97,17 @@ If you want to generate a mocks collection from an API or add a mock to an API c
 
     * **Add existing mock server:** Select an existing mock server in the list, and then select **Add Mock Server**.
 
-## Creating a mock server from the History
+## Creating a mock server from history
 
-You can build a mock based on requests from your Postman history. In __History__ on the left, hover over a request or date and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> __> Mock Request__.
+You can create a mock server based on one or more requests in your Postman history. Postman automatically adds the requests to a new collection for the mock server.
+
+1. Select **History** in the sidebar.
+1. Hover over a request, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, and then select **Mock Request**.
+
+    > To base your mock server on all of the requests for a single day, hover over a date heading in the history. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, and then select **Mock Requests**.
+
+1. Enter a name for the mock server. If you want, you can also select various configuration options. Learn more about configuring a mock server.
+1. When you're ready, select **Create Mock Server**.
 
 <img alt="Mock history" src="https://assets.postman.com/postman-docs/mock-history-v8.jpg" width="350px"/>
 
