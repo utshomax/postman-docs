@@ -67,9 +67,9 @@ Select **Save** to save the request in a collection. [Collections](/docs/sending
 
 <img alt="Save a request" src="https://assets.postman.com/postman-docs/mock-examples-step2a-v9-1.jpg" width="808px">
 
-Select **New Collection** at the bottom of the **Save Request** dialog box. Enter `C1` for the collection name and select **Create**. Then select **Save** to save the request to the new collection.
+Enter a **Request name**. Instead of selecting an existing collection in **Save to**, select **New Collection**. Enter `C1` for the collection name and select **Create**. Then select **Save** to save the request to the new collection.
 
-<img alt="Save a request dialog box" src="https://assets.postman.com/postman-docs/mock-examples-step2b-v9-1.jpg" width="482px">
+<img alt="Save a request to a new collection" src="https://assets.postman.com/postman-docs/mock-examples-step2b-v9-1.jpg" width="482px">
 
 ### Step 3: Save a response as an example
 
@@ -77,7 +77,7 @@ To save the response you received from the Postman Echo service, select **Save R
 
 <img alt="Save an example" src="https://assets.postman.com/postman-docs/mock-examples-step3a-v9-1.jpg" width="808px">
 
-Select **Collections** in the left sidebar, expand the `C1` collection and the request, and then select the example to open it.
+Select **Collections** in the sidebar, expand the `C1` collection and the request, and then select the example to open it.
 
 <img alt="Open an example" src="https://assets.postman.com/postman-docs/mock-examples-step3b-v9-1.jpg" width="456px">
 
@@ -87,7 +87,7 @@ To rename the example, select the edit icon <img alt="Edit icon" src="https://as
 
 ### Step 4: Create a mock server for the collection
 
-Now that you've added an example to your collection, you're ready to set up a mock server. Select **Collections** in the left sidebar. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the `C1` collection, and then select **Mock collection**.
+Now that you've added an example to your collection, you're ready to set up a mock server. Select **Collections** in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the `C1` collection, and then select **Mock collection**.
 
 <img alt="Mock a collection" src="https://assets.postman.com/postman-docs/mock-examples-step4a-v9-1.jpg" width="455px">
 
@@ -98,7 +98,7 @@ For **Mock server name**, enter `M1`. You can also specify other details for you
 * If your saved example uses [environment variables](/docs/sending-requests/managing-environments/) (like `{{base_url}}/my/path`), you must select the corresponding **Environment** or the mock server won't work. In this case, the example doesn't use any variables, so you can select **No Environment**.
 * By default, mock servers are publicly accessible. If you select the **Make mock server private** check box, the mock server will no longer be public. You can share it with team members and [provide permission](/docs/collaborating-in-postman/roles-and-permissions/) to edit or view. For now, do not select this check box.
 
-When you're done configuring the mock server, select **Create Mock Server**. You can access the mock server at any time by selecting **Mock Servers** in the left sidebar.
+When you're done configuring the mock server, select **Create Mock Server**. You can access the mock server at any time by selecting **Mock Servers** in the sidebar.
 
 <img alt="Create a mock server" src="https://assets.postman.com/postman-docs/mock-examples-step4b-v9-1.jpg" width="779px">
 
@@ -106,9 +106,9 @@ When you're done configuring the mock server, select **Create Mock Server**. You
 
 ### Step 5: Send a request to the mock server
 
-Now that you've created the mock server `M1`, you can try sending a request to the mock endpoint.
+Now that you've created the mock server `M1`, you can send a request to the mock endpoint.
 
-First, copy the mock server URL. Select **Mock Servers** in the left sidebar, select the `M1` mock server, and then select **Copy Mock URL**.
+First, copy the mock server URL. Select **Mock Servers** in the sidebar, select the `M1` mock server, and then select **Copy Mock URL**.
 
 <img alt="Copy mock URL" src="https://assets.postman.com/postman-docs/mock-examples-step5a-v9-1.jpg" width="808px">
 
@@ -124,7 +124,7 @@ You do, however, have a saved example with the path `/get` and the request metho
 
 ### Step 6: Add another example
 
-To further demonstrate how responses from the mock service are entirely dependent on your saved examples, try adding another example to the `C1` collection. Repeat steps 1 to 3 above to save a request to the collection and then save the response as an example `E2`, this time using the request URL `https://postman-echo.com/test`.
+To further demonstrate how responses from the mock service are entirely dependent on your saved examples, add another example to the `C1` collection. Repeat steps 1 to 3 above to save a request to the collection and then save the response as an example `E2`, this time using the request URL `https://postman-echo.com/test`.
 
 <img alt="Add a second example" src="https://assets.postman.com/postman-docs/mock-examples-step6a-v9-1.jpg" width="808px">
 
@@ -137,7 +137,7 @@ Finally, repeat step 5 above, but this time add the path `/test` to the end of t
 
 <img alt="Send another request to the mock server" src="https://assets.postman.com/postman-docs/mock-examples-step6b-v9-1.jpg" width="808px">
 
-> **Your examples can vary depending on the URL endpoint, request method, or status code.** If you have multiple examples, you can choose to save each example under a unique endpoint URL, like you saw in this demonstration with `/get` and `/test`. If you have saved examples with different response status codes, you can send an authenticated request to the mock server along with the `x-mock-response-code` header specifying which integer response code your returned response should match.
+> **Your examples can vary depending on the URL endpoint, request method, or status code.** If you have multiple examples, you can choose to save each example under a unique endpoint URL, like you saw in this demonstration with `/get` and `/test`. If you have saved examples with different response status codes, you can send an authenticated request to the mock server along with the `x-mock-response-code` header specifying which integer response code your returned response needs to match.
 
 ## Generating random data with dynamic variables
 

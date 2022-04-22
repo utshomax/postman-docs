@@ -104,7 +104,7 @@ pm.test("Status test", function () {
 
 Select __Send__ to run your request and open __Test Results__ in the response section. The tab header displays how many tests passed and how many ran in total. You can also toggle between passed, skipped, and failed test results.
 
-If the request returned a `200` status code, the test passes. Try changing the expected status code in your test script and running the request again.
+If the request returned a `200` status code, the test passes. To see what happens with a different status code, change the expected status code in your test script and run the request again.
 
 ### Formatting test result messages with pm.expect
 
@@ -152,7 +152,7 @@ You can add test scripts to a collection, a folder, or a single request within a
 
 Adding scripts to collections and folders enables you to test the workflows in your API project. This helps to ensure that your requests cover typical scenarios, providing a reliable experience for application users.
 
-You can update collection and folder scripts by selecting the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the collection or folder name, and selecting __Edit__. Choose the __Tests__ tab to add or update your script. You can also add collection scripts when you first create a collection.
+You can update collection and folder scripts by selecting the view more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection or folder name, and selecting __Edit__. Choose the __Tests__ tab to add or update your script. You can also add collection scripts when you first create a collection.
 
 When you [run a collection](/docs/running-collections/intro-to-collection-runs/) you will see the test results output by the collection runner.
 

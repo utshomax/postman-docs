@@ -38,7 +38,7 @@ contextual_links:
 
 ---
 
-One way to [share your Postman collections](/docs/collaborating-in-postman/sharing/) is to create a stand-alone Run in Postman button. The Run in Postman <img alt="Run in Postman button icon" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg" width="100px"/> button allows users to fork the collections. You can embed the button in your website or a README to let developers interact with your API more quickly.
+One way to [share your Postman collections](/docs/collaborating-in-postman/sharing/) is to create a stand-alone Run in Postman button. The Run in Postman button <img alt="Run in Postman button" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg" width="100px"/> allows users to fork the collections. You can embed the button in your website or a README to let developers interact with your API more quickly.
 
 > Being a user, you can still create the **Run in Postman** button from API specification formats like OpenAPI and RAML. To create a button for the standard you use, first convert the file to a collection by [importing it into Postman](/docs/getting-started/importing-and-exporting-data/) or by [authoring your specification in Postman](/docs/designing-and-developing-your-api/the-api-workflow/) to generate a collection.
 
@@ -54,7 +54,7 @@ Make sure you're signed in to your Postman account, and that you have a collecti
 > Note: If the collection is present in a public workspace, you can directly embed the copied code where you would like the button to be displayed. If the collection is present in a team or a personal workspace, [share the collection to a public workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) to create the **Run in Postman** button.
 
 * In Postman, open the collection you want to share.
-* Next to the collection name, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> to expand the collection details and select **Share collection** to open a modal.
+* Next to the collection name, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to expand the collection details and select **Share collection** to open a modal.
 
 * Tab over to **Via Run in Postman**.
 * Choose a live or static button:
@@ -62,7 +62,7 @@ Make sure you're signed in to your Postman account, and that you have a collecti
     > To create a live button, you need to share the collection to a public workspace. If you don't have a public workspace to share to, you can create a new one using the modal. For users on Enterprise plans, you need to have a [community manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) role to [create a new public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/).
     * **Static button**: This button uses Markdown, so you can display it in a README, blog, or other Markdown document.
 
-* You can optionally include an environment to embed with your collection. On the left, select the **Environment** drop-down and choose the environment.
+* You can optionally include an environment to embed with your collection. Select the **Add an environment** dropdown list and choose the environment.
 * Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy Code**.
 
 ![Create a Run in Postman button modal](https://assets.postman.com/postman-docs/run-in-postman-9.14.jpg)

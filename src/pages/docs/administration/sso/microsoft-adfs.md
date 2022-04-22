@@ -19,8 +19,7 @@ Before you configure Microsoft Active Directory Federation Services (AD FS) to w
 
 * An Active Directory instance where all users have an email address attribute.
 * A SSL certificate from the AD FS server.
-* A server that runs Microsoft Server 2012 or 2008. **Note**: This guide uses screenshots from Server 2012R2,
-but similar steps should be possible in other versions.
+* A server that runs Microsoft Server 2012 or 2008. **Note**: This guide uses screenshots from Server 2012R2, but similar steps are possible in other versions.
 
 After you meet these basic requirements, install AD FS on your server.
 
@@ -51,7 +50,7 @@ To add a Relying Party Trust:
 
   On the Actions sidebar, select "Add Relying Party Trust" to start the configuration wizard for a new trust.
 
-  Select the **Claims aware** button in the Welcome screen and then select the **Start** button.
+  Select **Claims aware** in the Welcome screen and then select **Start**.
 
 [![relying party trust](https://assets.postman.com/postman-docs/ENT-Relying-Party-Trust.png)](https://assets.postman.com/postman-docs/ENT-Relying-Party-Trust.png)
 
@@ -83,7 +82,7 @@ To add a Relying Party Trust:
 
 In the next two screens, the wizard displays an overview of your settings.
 
-In the final screen, use the **Close** button to exit and open the "Claim Rules" editor.
+In the final screen, select **Close** to exit and open the "Claim Rules" editor.
 
 **Step 3** - Create claim rules.
 
@@ -93,38 +92,30 @@ After the relying party trust has been created, you can create the claim rules.
 
 To create a new rule:
 
-Select "Add Rule". Then create a "Send LDAP Attributes as Claims" rule.
+1. Select **Add Rule**. Then create a **Send LDAP Attributes as Claims** rule.
 
-[![add rule](https://assets.postman.com/postman-docs/ENT-Add-Rule.jpeg)](https://assets.postman.com/postman-docs/ENT-Add-Rule.jpeg)
+    [![add rule](https://assets.postman.com/postman-docs/ENT-Add-Rule.jpeg)](https://assets.postman.com/postman-docs/ENT-Add-Rule.jpeg)
 
-Using the Active Directory as your attribute store, perform these actions:
+1. Use the Active Directory as your attribute store. In the **LDAP Attribute** column, select **E-Mail Addresses**.
+1. In the **Outgoing Claim Type**, select **E-Mail Address**.
 
-   In the LDAP Attribute column, select "E-Mail Addresses".
-   In the Outgoing Claim Type, select "E-Mail Address".
+    [![active directory](https://assets.postman.com/postman-docs/ENT-Active-Directory.jpeg)](https://assets.postman.com/postman-docs/ENT-Active-Directory.jpeg)
 
-[![active directory](https://assets.postman.com/postman-docs/ENT-Active-Directory.jpeg)](https://assets.postman.com/postman-docs/ENT-Active-Directory.jpeg)
+1. Select **Finish** to save the new rule.
+1. Select **Add Rule** to create another new rule and select **Transform an Incoming Claim** as the template.
 
-   Select the **Finish** button to save the new rule.
+    [![incoming claim](https://assets.postman.com/postman-docs/ENT-Transform-Incoming-Claim.jpeg)](https://assets.postman.com/postman-docs/ENT-Transform-Incoming-Claim.jpeg)
 
-   Select "Add Rule" to create another new rule and select "Transform an Incoming Claim" as the template.
+1. In **Incoming Claim Type**, select **E-mail Address**.
+1. In **Outgoing Claim Type**, select **Name ID**.
+1. In **Outgoing Name ID Format**, select **Email**.
 
-[![incoming claim](https://assets.postman.com/postman-docs/ENT-Transform-Incoming-Claim.jpeg)](https://assets.postman.com/postman-docs/ENT-Transform-Incoming-Claim.jpeg)
+    > Use the default setting **Pass through all claim values**.
 
-In the next screen perform these actions:
+    [![pass through claim values](https://assets.postman.com/postman-docs/ENT-Pass-through-all-claim-values.jpeg)](https://assets.postman.com/postman-docs/ENT-Pass-through-all-claim-values.jpeg)
 
-   In "Incoming Claim Type", select "E-mail Address".
-
-   In "Outgoing Claim Type", select "Name ID".
-
-   In "Outgoing Name ID Format", select "Email".
-
-  **Note**: Use the default setting: "Pass through all claim values".
-
-[![pass through claim values](https://assets.postman.com/postman-docs/ENT-Pass-through-all-claim-values.jpeg)](https://assets.postman.com/postman-docs/ENT-Pass-through-all-claim-values.jpeg)
-
-   Select the **Finish** button to create the claim rule.
-
-You should see two transform rules. Select "Edit Claim Issuance Policy" to confirm.
+1. Select **Finish** to create the claim rule.
+1. There are two transform rules. Select **Edit Claim Issuance Policy** to confirm.
 
 [![edit claim issuance](https://assets.postman.com/postman-docs/ENT-Edit-Claim-Issuance-Policy.jpeg)](https://assets.postman.com/postman-docs/ENT-Edit-Claim-Issuance-Policy.jpeg)
 
@@ -142,7 +133,7 @@ After the setup, you must submit your Identity Provider's details to Postman.
 
 Download the FederationMetadata.xml. You can generally find this file at: `https://<Federation Service name>/FederationMetadata/2007-06/FederationMetadata.xml`
 
-Collect the Identity Provider Single Sign-On URL, Identity Provider Issuer, and X.509 Certificate from the metadata file and enter these values in the [Team](https://app.getpostman.com/dashboard/teams) page in the AD FS Identity Provider Details dialog.
+Collect the Identity Provider Single Sign-On URL, Identity Provider Issuer, and X.509 Certificate from the metadata file and enter these values in the [Team](https://app.getpostman.com/dashboard/teams) page under **Identity Provider Details**.
 
 **Step 6** Enable the RelayState parameter on your ADFS servers.
 
