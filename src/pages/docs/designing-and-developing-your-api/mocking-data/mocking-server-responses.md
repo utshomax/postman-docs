@@ -15,10 +15,8 @@ contextual_links:
 warning: false
 ---
 
-Server stubs enable you to simulate server down and other 5xx responses on your mock server. Instead of adding a server level example to each endpoint and path in your API, you can define one or more server stubs.
+Server stubs enable you to simulate internal server errors and other 5xx responses on your mock server. A 5xx response status code indicates the server cannot complete the request (for example, if your API is unavailable). Instead of adding a server error scenario to each endpoint stub in your mock server, you can create one or more server stubs.
 
-Each server stub simulates the 5xx error you specify, and you can set one server response to be active at a time. Your mock server will return the active server response for all requests.
+Create a server stub to simulate a server error scenario with the 5xx response status code you specify. You can set one server response to be active at a time. Your mock server will return the active server response for all requests. This enables you to test how other applications react when receiving a 5xx response from your API.
 
-Users can define mock responses(5xx) at the server level instead of adding server-level examples on each path.
 
-Create server stubs to simulate a server down scenario. All your requests exposed on this Mock Server will start returning the active server response.
