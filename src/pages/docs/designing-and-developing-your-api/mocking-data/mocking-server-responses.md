@@ -15,8 +15,50 @@ contextual_links:
 warning: false
 ---
 
-Server stubs enable you to simulate internal server errors and other 5xx responses on your mock server. A 5xx response status code indicates the server cannot complete the request (for example, if your API is unavailable). Instead of adding a server error scenario to each endpoint stub in your mock server, you can create one or more server stubs.
+Server stubs enable you to simulate internal server errors and other 5xx responses on your mock server. A 5xx response status code indicates the server cannot complete the request (for example, if your API is unavailable). Instead of adding a server error scenario to each endpoint stub in your mock server, you can add one or more server stubs.
 
-Create a server stub to simulate a server error scenario with the 5xx response status code you specify. You can set one server response to be active at a time. Your mock server will return the active server response for all requests. This enables you to test how other applications react when receiving a 5xx response from your API.
+A server stub simulates a server error scenario with the 5xx response status code you specify. You can set one server response to be active at a time. Your mock server will return the active server response for all requests. This enables you to test how other applications react when receiving a 5xx response from your API.
 
+## Contents
+
+* [Adding a server stub](#adding-a-server-stub)
+* [Working with server stubs](#working-with-server-stubs)
+* [Setting an active server response](#setting-an-active-server-response)
+* [Testing server responses](#testing-server-responses)
+
+## Adding a server stub
+
+Add a server stub to your mock server to simulate a server error scenario with a specific 5xx response status code.
+
+1. Select **Mock Servers** in the sidebar, and then select a mock server.
+1. On the **Stubs** tab, select **+** next to **Server Stubs**. Postman creates a new _Internal Server Error_ stub.
+1. Select the new server stub and customize it for the server error scenario you want to simulate:
+
+    * To rename the server stub, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> and enter a new name.
+    * Select the 5xx **Status Code** you want the mock server to return.
+    * On the **Body** tab, enter the response body you want the mock server to return and select a content type.
+    * On the **Header** tab, enter any key-value pairs you want the mock server to return.
+
+1. Select **Save** to save your changes.
+
+## Working with server stubs
+
+After adding a server stub, you can take the following actions:
+
+* To modify a server stub, select it and change the status code, response body, or headers. When you're finished, select **Save**.
+* To rename a server stub, hover over it and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">. Select **Rename** and enter a new name.
+* To duplicate a server stub, hover over it and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">. Select **Duplicate**. You can modify the duplicated server stub as needed.
+* To delete a server stub, select it and then select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
+
+## Setting an active server response
+
+Set an active server response to have your mock server simulate different server error scenarios. A mock server can have one active server response at a time. Your mock server will return the active server response for all requests made to the mock server.
+
+1. Select **Mock Servers** in the sidebar, and then select a mock server.
+1. On the **Stubs** tab, under **Server Stubs**, select the server response you want to make active.
+1. Turn on the **Set as active** toggle. A checkmark appears next to the server response to indicate it is active.
+
+> If you make a server response active, all other server responses are set to inactive.
+
+## Testing server responses
 
