@@ -58,7 +58,7 @@ Set an active server response to have your mock server simulate different server
 1. On the **Stubs** tab, under **Server Stubs**, select the server response you want to make active.
 1. Turn on the **Set as active** toggle.
 
-A checkmark appears next to the server response to indicate it is active. All other server responses are set to inactive.
+A checkmark appears next to the server response to indicate it's active. All other server responses are set to inactive.
 
 > You can also make a server response active or inactive by hovering over it and selecting the checkmark icon.
 
@@ -70,3 +70,5 @@ You can test a server response by using Postman to send a request to your mock s
 1. On the **Stubs** tab, under **Server Stubs**, select a server response.
 1. Select **Test Response**. Postman opens a new request with the URL of the mock server.
 1. Select **Send** to send the request. You can view the response and status code in the response pane.
+
+> If your mock server is private, you need to add an `x-api-key` header with a valid [Postman API key](/docs/developer/intro-api/) to the request.
