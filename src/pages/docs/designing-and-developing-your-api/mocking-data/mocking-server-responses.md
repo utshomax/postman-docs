@@ -30,7 +30,7 @@ A server stub simulates a server error scenario with the 5xx response status cod
 
 Add a server stub to your mock server to simulate a server error scenario with a specific 5xx response status code.
 
-1. Select **Mock Servers** in the sidebar, and then select a mock server.
+1. Select **Mock Servers** in the sidebar and select a mock server.
 1. On the **Stubs** tab, select **+** next to **Server Stubs**. Postman creates a new _Internal Server Error_ stub.
 1. Select the new server stub and customize it for the server error scenario you want to simulate:
 
@@ -47,7 +47,7 @@ After adding a server stub, you can take the following actions:
 
 * To modify a server stub, select it and change the status code, response body, or headers. When you're finished, select **Save**.
 * To rename a server stub, hover over it and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">. Select **Rename** and enter a new name.
-* To duplicate a server stub, hover over it and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">. Select **Duplicate**. You can modify the duplicated server stub as needed.
+* To duplicate a server stub, hover over it and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">. Select **Duplicate**. Modify the duplicated server stub as needed and select **Save** when you're finished.
 * To delete a server stub, select it and then select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
 
 ## Setting an active server response
