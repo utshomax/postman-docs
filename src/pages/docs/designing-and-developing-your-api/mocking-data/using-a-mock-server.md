@@ -73,20 +73,20 @@ After adding an endpoint stub, you can take the following actions:
 If you define more than one scenario for the same endpoint stub, you can set one scenario as the default. When you make a call to the endpoint, the mock server will return a response based on the default scenario.
 
 1. Select **Mock Servers** in the sidebar, and then select a mock server.
-1. On the **Stubs** tab, under **Endpoint Stubs**, select the scenario you want to set as default.
+1. On the **Stubs** tab, under **Endpoint Stubs**, select the scenario you want to set as the default.
 1. Turn on the **Set as default** toggle.
 
 A checkmark appears next to the scenario to indicate it's the default for that endpoint stub.
 
 > You can also set a scenario as the default by hovering over it and selecting the checkmark icon.
 
-## Testing server responses
+## Testing an endpoint
 
-You can test a server response by using Postman to send a request to your mock server.
+You can test an endpoint by using Postman to send a request to your mock server. The mock server will return a response based on the scenario you select.
 
 1. Select **Mock Servers** in the sidebar, and then select a mock server.
-1. On the **Stubs** tab, under **Server Stubs**, select a server response.
-1. Select **Test Response**. Postman opens a new request with the URL of the mock server.
+1. On the **Stubs** tab, under an endpoint stub, select a scenario.
+1. Select **Test Endpoint**. Postman opens a new request with the URL of the mock server and the path defined in the scenario.
 1. Select **Send** to send the request. You can view the response and status code in the response pane.
 
 > If your mock server is private, you need to add an `x-api-key` header with a valid [Postman API key](/docs/developer/intro-api/) to the request.
