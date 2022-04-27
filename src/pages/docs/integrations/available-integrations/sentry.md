@@ -1,6 +1,6 @@
 ---
 title: "Sentry"
-updated: 2022-04-15
+updated: 2022-04-30
 search_keyword: "Sentry, Sentry.io, error tracking"
 contextual_links:
   - type: section
@@ -13,7 +13,7 @@ contextual_links:
     url: "/docs/monitoring-your-api/intro-monitors/"
 ---
 
-Sentry.io is an error tracking system which supports a wide range of server, browser, desktop and native mobile languages and frameworks.
+Sentry.io is an error tracking system which supports a wide range of server, browser, desktop and native mobile languages and frameworks. It provides a detailed view of handled and unhandled errors with a stack trace for easy debugging.
 
 This integration allows you to see Sentry issues inside of the Postman API builder.
 
