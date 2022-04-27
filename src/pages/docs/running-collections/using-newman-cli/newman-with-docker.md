@@ -16,9 +16,6 @@ contextual_links:
   - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
-  - type: link
-    name: "Using the Newman Docker image in Windows, hassle free"
-    url: "https://blog.postman.com/using-the-newman-docker-image-in-windows/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -64,11 +61,11 @@ $ docker run -t postman/newman run "https://www.getpostman.com/collections/0d035
 
 The URL is a shareable public link to your collection. To get this link:
 
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the collection name.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name.
 1. Select **Share collection**.
 1. Select **Get public link**.
 
-At this stage, you should see the [Collection](/docs/sending-requests/intro-to-collections/) running in Newman and the output displayed in the terminal.
+At this stage, the [Collection](/docs/sending-requests/intro-to-collections/) runs in Newman and the output displays in the terminal.
 
 The entry point to the Docker image is Newman. So you can use all Newman command-line parameters. You can also run locally stored collection files. The README of the image outlines how to mount shared data volumes.
 

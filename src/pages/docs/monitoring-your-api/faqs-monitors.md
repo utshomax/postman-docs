@@ -71,7 +71,7 @@ A monitor is visible to all users who have access to the workspace the monitor w
 
 ### Who can edit my monitors?
 
-Monitors can be edited in their respective workspace by members who have been granted [Editor permissions](/docs/collaborating-in-postman/roles-and-permissions/) on the monitor. To review or manage which team members have Editor or Viewer permissions on a specific monitor, open your workspace and select **Monitors** in the sidebar. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to a monitor, and then select **Manage Roles**.
+Monitors can be edited in their respective workspace by members who have been granted [Editor permissions](/docs/collaborating-in-postman/roles-and-permissions/) on the monitor. To review or manage which team members have Editor or Viewer permissions on a specific monitor, open your workspace and select **Monitors** in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a monitor, and then select **Manage Roles**.
 
 ### Can I move a monitor?
 
@@ -79,7 +79,7 @@ Monitors cannot be moved between workspaces. If you move a collection out of the
 
 ### Can I delete a monitor?
 
-You can delete a monitor at any time. Once deleted, all run history for the monitor is deleted too. If you want to retain the history, then you should pause the monitor instead of deleting it.
+You can delete a monitor at any time. Once deleted, all run history for the monitor is deleted too. If you want to retain the history, pause the monitor instead of deleting it.
 
 ### Where do monitors run?
 

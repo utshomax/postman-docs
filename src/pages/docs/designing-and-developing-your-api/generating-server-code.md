@@ -20,11 +20,8 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Create APIs directly within the Postman app"
-    url: "https://blog.postman.com/postman-7-1-create-apis-directly-within-the-postman-app/"
-  - type: link
-    name: "Negative Testing for More Resilient APIs"
-    url: "https://blog.postman.com/negative-testing-for-more-resilient-apis/"
+    name: "The Reimagined API-First Workflow, Part 1: for Developers"
+    url: "https://blog.postman.com/the-reimagined-api-first-workflow-for-developers/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -47,7 +44,7 @@ To generate server side boilerplate from your OpenAPI 3 spec:
 
 1. Open the API tab.
 1. Select an API containing an OpenAPI 3 specification.
-1. In the right sidebar, select the code generation icon **\<\/\>**.
+1. In the right sidebar, select the code generation icon <img alt="Code snippet icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px">.
    <img alt="Edit API" src="https://assets.postman.com/postman-docs/api-codegen.jpg" width="350px"/>
 1. In the **Code Generation** panel, choose the language and framework for which you want to generate boilerplate and select **Generate Code**.
 

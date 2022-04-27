@@ -20,8 +20,11 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Create APIs directly within the Postman app"
-    url: "https://blog.postman.com/postman-7-1-create-apis-directly-within-the-postman-app/"
+    name: "Integrated API Monitoring in Postman"
+    url: "https://blog.postman.com/integrated-api-monitoring-in-postman/"
+  - type: link
+    name: "Monitor APIs with Postman and New Relic"
+    url: "https://blog.postman.com/monitor-apis-with-postman-and-new-relic/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -106,7 +109,7 @@ Once you've added a monitor integration to an API version, you can take the foll
   <img alt="Edit an API monitor" src="https://assets.postman.com/postman-docs/observe-api-integrations-modify-v9-10.jpg" width="332px">
 
 * Hover over a monitor and select **Run** to immediately run the monitor.
-* Hover over a monitor and select the **Remove** icon <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="18px"> to remove the monitor from the API version. (The monitor and its associated integrations are not deleted.)
+* Hover over a monitor and select the remove icon <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="16px"> to remove the monitor from the API version. (The monitor and its associated integrations are not deleted.)
 
 ## Viewing New Relic APM metrics
 
@@ -169,4 +172,4 @@ At the top of the dashboard tab, you can:
 
     <img src="https://assets.postman.com/postman-docs/api-builder-apm-page.jpg" alt="New Relic APM" width="350px"/>
 
-To reconfigure the connection to New Relic, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> and choose **Edit integration**. You can then change the nickname, API key, services, dashboards or region. You can also choose **Delete integration** to remove the connection.
+To reconfigure the connection to New Relic, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and choose **Edit integration**. You can then change the nickname, API key, services, dashboards or region. You can also choose **Delete integration** to remove the connection.

@@ -19,14 +19,11 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Reverse engineering an API"
-    url: "https://medium.com/better-practices/reverse-engineering-an-api-403fae885303"
-  - type: link
-    name: "Using Postman Proxy to Capture and Inspect API Calls from iOS or Android Devices"
-    url: "https://blog.postman.com/using-postman-proxy-to-capture-and-inspect-api-calls-from-ios-or-android-devices/"
-  - type: link
     name: "Capture Responses Using the Postman Proxy"
     url: "https://blog.postman.com/capture-responses-using-the-postman-proxy/"
+  - type: link
+    name: "Reverse engineering an API"
+    url: "https://medium.com/better-practices/reverse-engineering-an-api-403fae885303"
 
 warning: false
 
@@ -153,7 +150,7 @@ There are several controls you can use to limit, organize, and investigate traff
 * Use the search box to look for specific requests.
 * Select **>** next to a request to expand it and see more details.
 * Select the URL in the **URL** column to open the request as a new API request in Postman.
-* Below the request list, there are controls to change the collection where the traffic is being sent, and if it should be grouped by domain name or endpoints.
+* Below the request list, there are controls to change the collection where the traffic is being sent, and if it needs to be grouped by domain name or endpoints.
 
 When you select one or more requests from the list on the **Requests** tab, you can use the following controls:
 
@@ -183,7 +180,7 @@ The **Overview** displays summary graphs of the traffic captured in the session.
 
 The **Requests** and **Cookies** tabs display requests, responses, and cookies, similar to the same tabs available during a capture session. The same options for searching, expanding, saving, and deleting items described in Step 4 are available. You can also add selected requests to a collection. Use the controls at the bottom of the table to limit the number of items per page and view the pages of results.
 
-You can rename a proxy debug session by selecting the name at the top of the window and entering a new name. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the debug session name to rename or delete the session.
+You can rename a proxy debug session by selecting the name at the top of the window and entering a new name. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the debug session name to rename or delete the session.
 
 ## Next steps
 

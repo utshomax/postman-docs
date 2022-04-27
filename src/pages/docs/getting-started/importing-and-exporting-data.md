@@ -20,20 +20,8 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Sync your specs"
-    url: "https://blog.postman.com/sync-your-specs/"
-  - type: link
-    name: "Importing SoapUI projects into Postman"
-    url: "https://blog.postman.com/importing-soapui-projects-into-postman/"
-  - type: link
-    name: "Importing RAML folders into Postman"
-    url: "https://blog.postman.com/supporting-raml-folders-in-postman/"
-  - type: link
-    name: "Introducing Postman Collection Format Schema"
-    url: "https://blog.postman.com/introducing-postman-collection-format-schema/"
-  - type: link
-    name: "Travelogue of Postman Collections Format v2"
-    url: "https://blog.postman.com/travelogue-of-postman-collection-format-v2/"
+    name: "Latest Updates to Syncing Your Specs with Collections"
+    url: "https://blog.postman.com/latest-updates-to-syncing-your-specs-with-collections/"
   - type: link
     name: "Postman Supports WSDL"
     url: "https://blog.postman.com/postman-now-supports-wsdl/"
@@ -93,7 +81,7 @@ You can import Postman data you exported earlier, including collections, environ
 
 ### Converting Postman collections from v1 to v2
 
-Postman no longer supports the collection v1 format and will return an error if you try to import a collection in this format.
+Postman no longer supports the collection v1 format and will return an error if you import a collection in this format.
 
 You can convert your collection's format from v1 to v2 to import it into Postman:
 
@@ -164,7 +152,7 @@ You can import data in bulk from a GitHub repository.
 
 1. In Postman, select your GitHub organization, repository, and branch, then select **Continue**.
 
-1. Confirm the files you would like to import into Postman. You can also select **Generate collection from imported APIs** and select what you would like to link this collection as. Select **Show advanced settings** to control how Postman should generate collections based on your file types, then select **Import**.
+1. Confirm the files you would like to import into Postman. You can also select **Generate collection from imported APIs** and select what you would like to link this collection as. Select **Show advanced settings** to control how Postman generates collections based on your file types, then select **Import**.
 
    ![Confirm import from github](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
 
@@ -192,7 +180,7 @@ You can export your Postman data, including collections, environments, data dump
 
 ### Exporting collections
 
-1. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the collection, then select **Export**.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection, then select **Export**.
 
    <img alt="Export collection" src="https://assets.postman.com/postman-docs/export-collection-v9.1.jpg" width="350px" />
 
@@ -208,14 +196,13 @@ You can also export your environments from Postman.
 
 1. Select the **Environments** tab from the left navigation menu.
 1. Select an environment to export.
-1. In the top right corner, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
-1. Select **Export** to download your newly generated JSON file.
+1. In the main work area, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select **Export** to download your newly generated JSON file.
 
 ### Exporting data dumps
 
 You can export a data dump of all your collections, environments, globals, and header presets in Postman.
 
-1. Select the gear icon in the upper-right corner to open **Settings**.
+1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Settings**.
 
    ![Export data dump](https://assets.postman.com/postman-docs/import-export-data-dump-menu.jpg)
 

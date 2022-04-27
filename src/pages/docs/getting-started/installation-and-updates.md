@@ -23,9 +23,6 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "First 5 things to try if you're new to Postman"
-    url: "https://blog.postman.com/first-5-things-to-try-if-youre-new-to-postman/"
-  - type: link
     name: "Introducing the Postman Agent: Send API Requests from Your Browser without Limits"
     url: "https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/"
   - type: section
@@ -159,7 +156,7 @@ From Postman for Web, you can select the agent you would like to use for your re
 
 <img alt="Select agent" src="https://assets.postman.com/postman-docs/select-agent-for-requests.gif">
 
-> If you try to send a request and it isn't successful because the agent isn't selected, you will see a link in the response area that you can select to switch to the agent and try your request again.
+> If you send a request and it isn't successful because the agent isn't selected, you will see a link in the response area that you can select to switch to the agent and send your request again.
 
 ### Web limitations
 
@@ -171,7 +168,7 @@ Postman for Web is under active development. There are a few features you can cu
 
 ## Updating Postman
 
-Postman will notify you when a major update is available. For other updates, you will see a dot on the settings icon. If the indicator is red instead of orange, it indicates a failed update.
+Postman will notify you when a major update is available. For other updates, you will see a dot on the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">. If the indicator is red instead of orange, it indicates a failed update.
 
 ![Update Ready](https://assets.postman.com/postman-docs/update-ready-v86.jpg)
 
@@ -243,7 +240,7 @@ Some known errors are as follows:
 
 ### Update not available
 
-If you are using Postman for Linux, and installed the app with the Ubuntu Software Center or Snap Store, you may not see the __Check for updates__ option. This is because the updates are handled by the store, which should automatically update Postman on a regular cadence.
+If you are using Postman for Linux, and installed the app with the Ubuntu Software Center or Snap Store, you may not see the __Check for updates__ option. This is because the updates are handled by the store, which automatically updates Postman on a regular cadence.
 
 ## Next steps
 

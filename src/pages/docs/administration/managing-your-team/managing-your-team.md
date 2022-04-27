@@ -56,7 +56,7 @@ Under **Members**, select the roles next to the user you would like to update. S
 
 Each team member must have a minimum of one role assigned to them.
 
-Teams may have two support accounts at no additional cost. Support accounts are defined as members with only admin and/or billing roles.
+Teams may have two support accounts at no additional cost. Support accounts are defined as members with only admin or billing roles.
 
 > Roles can also be assigned via [groups](/docs/administration/managing-your-team/user-groups/).
 
@@ -82,7 +82,7 @@ Select [**Invite links**](https://go.postman.co/settings/team/manage-invite-link
 
 To copy the invite URL, hover over a row and select the copy icon <img alt="Copy link icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> to the right.
 
-To revoke an invitation, hover over the invitation and select the trash can icon <img alt="Delete link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to the right.
+To revoke an invitation, hover over the invitation and select the delete icon <img alt="Delete link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to the right.
 
 ## Changing team size
 
@@ -90,7 +90,7 @@ To change your team size, see [Changing your plan](/docs/administration/billing/
 
 ## Removing team members
 
-To remove a member from your team, go to your team's page > **Members and groups**. Select the <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> icon next the team member's name.
+To remove a member from your team, go to your team's page > **Members and groups**. Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next the team member's name.
 
 ![Removing a team member](https://assets.postman.com/postman-docs/remove-member.jpg)
 

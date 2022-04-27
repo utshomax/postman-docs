@@ -12,14 +12,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Cisco DevNet"
-    url: "https://www.postman.com/case-studies/cisco-devnet/"
-  - type: link
-    name: "Imgur"
-    url: "https://www.postman.com/case-studies/imgur/"
-  - type: subtitle
     name: "Videos"
   - type: link
     name: "API Documentation | The Exploratory"
@@ -33,8 +25,19 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Simplifying API documentation for a great first user experience"
-    url: "https://blog.postman.com/simplifying-api-documentation-for-a-great-first-user-experience/"
+    name: "Introducing The Good Documentation Checklist"
+    url: "https://blog.postman.com/postman-good-documentation-checklist/"
+  - type: link
+    name: "Design Your Own Style Guide with This Public Workspace Linter"
+    url: "https://blog.postman.com/design-your-style-guide-public-workspace-linter/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Cisco DevNet"
+    url: "https://www.postman.com/case-studies/cisco-devnet/"
+  - type: link
+    name: "Imgur"
+    url: "https://www.postman.com/case-studies/imgur/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -75,7 +78,7 @@ Postman automatically generates basic documentation for any collection you creat
 To make your documentation even more valuable to users, [add descriptions](/docs/publishing-your-api/authoring-your-documentation/) to the items in your collection. Any descriptions you add are automatically included in the documentation for your collection.
 
 1. Select **Collections** in the sidebar, and then select a collection, folder, or request.
-1. Select **Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the context bar.
+1. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the context bar.
 1. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description.
 1. Compose your new content, and then select **Save**. To learn more about using Postman's built-in editing tools, see [Authoring your docs](/docs/publishing-your-api/authoring-your-documentation/).
 

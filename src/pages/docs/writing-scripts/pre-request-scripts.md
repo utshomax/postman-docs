@@ -18,16 +18,21 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Get and Set Variables | Postman Level Up"
+    url: "https://youtu.be/EKv6n-jY9lU"
+  - type: subtitle
     name: "Blog Posts"
+  - type: link
+    name: "Autocomplete Now Available in Postman Script Editor"
+    url: "https://blog.postman.com/postman-script-editor-autocomplete/"
+  - type: link
+    name: "When and How to Use JSON Serialization in Postman"
+    url: "https://blog.postman.com/when-and-how-to-use-json-serialization-in-postman/"
   - type: link
     name: "Germaphobia collection (see pre-request scripts in action)"
     url: "https://blog.postman.com/germaphobia/"
-  - type: link
-    name: "The Good Collection (take advantage of the pre-request)"
-    url: "https://blog.postman.com/the-good-collection/"
-  - type: link
-    name: "Keep it DRY with collection and folder elements"
-    url: "https://blog.postman.com/keep-it-dry-with-collection-and-folder-elements/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -60,7 +65,7 @@ When you select __Send__, the code will execute before Postman sends the request
 
 You can add pre-request scripts to entire collections as well as to folders within collections. In both cases, your pre-request script will run before every request in the collection or folder. This allows you to define commonly used pre-processing or debugging steps you need to execute for multiple requests.
 
-To add pre-processing to a group of requests, locate the collection or folder in __Collections__ on the left of Postman. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> to view more actions, then select __Edit__.
+To add pre-processing to a group of requests, locate the collection or folder in __Collections__ in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select __Edit__.
 
 <img src="https://assets.postman.com/postman-docs/edit-collection-action-v8.jpg" alt="Collection Actions" width="300px"/>
 

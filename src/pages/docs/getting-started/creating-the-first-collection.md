@@ -21,11 +21,6 @@ contextual_links:
   - type: link
     name: "30 days of Postman for developers"
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
-  - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "The Good Collection"
-    url: "https://blog.postman.com/the-good-collection/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -45,8 +40,7 @@ You can create a new request from the sidebar in Postman. Select __New__ &gt; __
 
 <img alt="Create new request sidebar" src="https://assets.postman.com/postman-docs/create-new-request-sidebar-v9.jpg"/>
 
-Enter a request in the request builder and select **Save** to open the **Save Request** dialog box.
-
+1. Enter a request in the request builder and select **Save**.
 1. Create a new collection by selecting **New Collection**. Enter a collection name, and then select **Create**.
 
     <img alt="Save request to collection" src="https://assets.postman.com/postman-docs/save-request-to-collection-v9.jpg" width="400px"/>

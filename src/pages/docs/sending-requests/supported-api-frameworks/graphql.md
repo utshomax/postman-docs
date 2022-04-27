@@ -20,14 +20,6 @@ contextual_links:
     name: "GraphQL introspection | Postman Level Up"
     url: "https://youtu.be/k-j3FwTjJkE"
   - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Postman v7.2 Supports GraphQL"
-    url: "https://blog.postman.com/postman-v7-2-supports-graphql/"
-  - type: link
-    name: "Working with GraphQL collection"
-    url: "https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-c0dd3eb3-5258-4ddd-a6e4-2780c5212e33?ctx=documentation"
-  - type: subtitle
     name: "Public Workspaces"
   - type: link
     name: "Public GraphQL APIs"
@@ -35,6 +27,9 @@ contextual_links:
   - type: link
     name: "GraphQL Examples"
     url:  "https://www.postman.com/devrel/workspace/f12c0652-9c9d-4813-968b-c8ed0b3f0022"
+  - type: link
+    name: "Working with GraphQL collection"
+    url: "https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-c0dd3eb3-5258-4ddd-a6e4-2780c5212e33?ctx=documentation"
   - type: section
     name: "Next Steps"
   - type: link
@@ -95,7 +90,7 @@ You can also import a schema manually. When you [create or import a GraphQL sche
 
     ![Edit the API schema](https://assets.postman.com/postman-docs/graphql-schema-definition.jpg)
 
-1. Return to your **GraphQL** body. Select your schema from the dropdown list. You may need to refresh by selecting the <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> refresh icon.
+1. Return to your **GraphQL** body. Select your schema from the dropdown list. You may need to refresh by selecting the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
 1. Begin editing your query. Postman will now suggest autocomplete options from the data within your new GraphQL schema.
 
 ![GraphQL autocomplete](https://assets.postman.com/postman-docs/graphql-autocomplete.jpg)
