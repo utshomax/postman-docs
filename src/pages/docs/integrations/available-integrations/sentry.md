@@ -13,9 +13,9 @@ contextual_links:
     url: "/docs/monitoring-your-api/intro-monitors/"
 ---
 
-Sentry.io is an error tracking system which supports a wide range of server, browser, desktop and native mobile languages and frameworks. It provides a detailed view of handled and unhandled errors with a stack trace for easy debugging.
+Sentry.io is a real-time error tracking and performance monitoring system for frontend and backend applications. It supports a wide range of frameworks and languages, including JavaScript, Node, Python, and many more. Sentry provides a detailed view of handled and unhandled errors with a stack trace for easy debugging.
 
-This integration allows you to see Sentry issues inside of the Postman API builder.
+To set up Sentry integration for you API, you'll need to create an API key in Sentry and configure your API in Postman. After you set up the integration, you can view Sentry issues in the Postman API builder.
 
 ## Get a Sentry API key
 

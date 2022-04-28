@@ -860,6 +860,10 @@ export const leftNavItems = [
             url: '/docs/integrations/available-integrations/pagerduty/',
           },
           {
+            name: 'Sentry',
+            url: '/docs/integrations/available-integrations/sentry/',
+          },
+          {
             name: 'Splunk',
             url: '/docs/integrations/available-integrations/splunk/',
           },
