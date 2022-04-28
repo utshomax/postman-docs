@@ -23,8 +23,6 @@ To set up Sentry integration for you API, you'll need to create an [auth token](
 1. Create a new [internal integration](https://docs.sentry.io/product/integrations/integration-platform/). Sentry automatically generates an auth token for the integration.
 1. Copy the new auth token.  (You might want to save the token somewhere safe.)
 
-> You can manage your auth tokens on the [Sentry Auth Tokens page](https://sentry.io/settings/account/api/auth-tokens/).
-
 ## Configuring a Sentry integration
 
 1. Open your API by selecting **APIs** in the sidebar, and then selecting an API and a version.
