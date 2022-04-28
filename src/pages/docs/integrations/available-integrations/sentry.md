@@ -13,7 +13,7 @@ contextual_links:
     url: "/docs/monitoring-your-api/intro-monitors/"
 ---
 
-[Sentry](https://sentry.io/welcome/) is a real-time error tracking system for frontend and backend applications. It supports a wide range of frameworks and languages, including JavaScript, Node, Python, and many more. Sentry provides a detailed view of handled and unhandled errors with a stack trace for easy debugging.
+[Sentry](https://sentry.io/welcome/) is a real-time error tracking system for frontend and backend applications. It supports a wide range of frameworks and languages, including JavaScript, Node, Python, and many more. Sentry provides a detailed view of handled and unhandled issues with a stack trace for easy debugging.
 
 To set up Sentry integration for you API, you'll need to create an [auth token](https://docs.sentry.io/api/auth/) in Sentry and configure your API in Postman. After you set up the integration, you can view Sentry issues in the Postman API builder.
 
@@ -22,6 +22,8 @@ To set up Sentry integration for you API, you'll need to create an [auth token](
 1. Sign in to [Sentry](https://sentry.io/auth/login/).
 1. Create a new [internal integration](https://docs.sentry.io/product/integrations/integration-platform/). Sentry automatically generates an auth token for the integration.
 1. Copy the new auth token.  (You might want to save the token somewhere safe.)
+
+> You can manage your auth tokens on the [Sentry Auth Tokens page](https://sentry.io/settings/account/api/auth-tokens/).
 
 ## Configuring a Sentry integration
 
@@ -36,6 +38,17 @@ To set up Sentry integration for you API, you'll need to create an [auth token](
 
     SCREENSHOT
 
-## Incidents on Sentry
+## Viewing Sentry issues
 
-An incident on Sentry consists of basic information ...
+After you set up a Sentry integration, information for Sentry issues is available in Postman. For each issue you can view the level, if it's handled or not, when it was first and last seen, the number of events, and the number of affected users.
+
+To view Sentry issues, open an API version and select the **Monitoring** tab. The most recent issues are listed under **Sentry**.
+
+* Expand an issue to see more details, or select an issue to open it in Sentry.
+* To view all Sentry issues, select **View all issues**.
+* Use the **Environment** dropdown list to filter issues by [Sentry environment](https://docs.sentry.io/product/sentry-basics/environments/).
+* Use the **Duration** dropdown list to view issues for a longer or shorter time period.
+* To see the latest issues, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
+* To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
+
+SCREENSHOT
