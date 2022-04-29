@@ -90,3 +90,24 @@ You can test an endpoint by using Postman to send a request to your mock server.
 1. Select **Send** to send the request. You can view the response and status code in the response pane.
 
 > If your mock server is private, you need to add an `x-api-key` header with a valid [Postman API key](/docs/developer/intro-api/) to the request.
+
+## Making calls to a mock server
+
+> If your mock server is private, you need to add an `x-api-key` header with a valid [Postman API key](/docs/developer/intro-api/) to the request.
+
+## Configuring a mock server
+
+Configure a mock server to control who can access it or to simulate network delay when making calls. If you based your mock server on a collection, you can also customize the environment and release used by the mock server.
+
+1. Select **Mock Servers** in the sidebar, and then select a mock server.
+1. Select the **Config** tab.
+1. Change any configuration options:
+
+    * **Access Control** - Mock servers are publicly available by default. To make your mock server private, select the checkbox. To make a call to a private mock server, you need to add an `x-api-key` header with a valid [Postman API key](/docs/developer/intro-api/) to the request.
+    * **Set Network Delay** - You can simulate network delay when making a call to the mock server. Select **2G** or **3G** to simulate the delay of legacy mobile networks, or select **Custom** an enter a delay value in milliseconds.
+    * **Environment** - For collection-based mock servers, you can select the Postman [environment](/docs/sending-requests/managing-environments/) to use.
+    * **Release** - For collection-based mock servers, you can select the [release](/docs/designing-and-developing-your-api/versioning-an-api/) to use.
+
+1. Select **Save** to save your changes.
+
+## Viewing call logs
