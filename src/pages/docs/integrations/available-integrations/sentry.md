@@ -45,7 +45,7 @@ To view Sentry issues, open an API version and select the **Monitoring** tab. Th
 
 * Expand an issue to see more details, or select an issue to open it in Sentry.
 * To view all Sentry issues, select **View all issues**.
-* Use the **Environment** dropdown list to filter issues by [Sentry environment](https://docs.sentry.io/product/sentry-basics/environments/).
+* Use the **Environments** dropdown list to filter issues by [Sentry environment](https://docs.sentry.io/product/sentry-basics/environments/).
 * Use the **Duration** dropdown list to view issues for a longer or shorter time period.
 * To see the latest issues, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
