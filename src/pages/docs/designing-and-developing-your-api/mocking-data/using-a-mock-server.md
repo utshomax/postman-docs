@@ -91,10 +91,6 @@ You can test an endpoint by using Postman to send a request to your mock server.
 
 > If your mock server is private, you need to add an `x-api-key` header with a valid [Postman API key](/docs/developer/intro-api/) to the request.
 
-## Making calls to a mock server
-
-> If your mock server is private, you need to add an `x-api-key` header with a valid [Postman API key](/docs/developer/intro-api/) to the request.
-
 ## Configuring a mock server
 
 Configure a mock server to control who can access it or to simulate network delay when making calls. If you based your mock server on a collection, you can also customize the environment and release used by the mock server.
