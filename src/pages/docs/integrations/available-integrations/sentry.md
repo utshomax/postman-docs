@@ -15,7 +15,7 @@ contextual_links:
 
 [Sentry](https://sentry.io/welcome/) is a real-time error tracking system for applications and APIs. It supports a wide range of frameworks and languages, including JavaScript, Node, Python, and more. Sentry provides a detailed view of handled and unhandled issues with a stack trace for easy debugging.
 
-To set up Sentry integration for your API, you'll need to create an [auth token](https://docs.sentry.io/api/auth/) in Sentry and configure your API in Postman. After you set up the integration, you can view Sentry issues in the Postman API builder.
+To set up Sentry integration for your API, you'll need to create an [auth token](https://docs.sentry.io/api/auth/) in Sentry and configure your API in Postman. After you set up the integration, you can view Sentry issues in the Postman API Builder.
 
 ## Creating a Sentry auth token
 
