@@ -30,7 +30,7 @@ To set up Sentry integration for you API, you'll need to create an [auth token](
 1. Select the **Monitoring** tab.
 1. Under **Connect Postman to your monitoring workflows**, select **Sentry**.
 1. Enter a **Nickname** to help you recognize the integration later.
-1. Enter your Sentry **Organization slug**. You can get the slug from your browser's address bar or in Sentry in **Settings > General Settings**. Use the format: `https://sentry.io/organizations/<organisation_slug>/`
+1. Enter your Sentry **Organization slug**. You can get the slug from your browser's address bar or in Sentry in **Settings > General Settings**. Use the format: `https://sentry.io/organizations/<organization_slug>/`
 1. For **Access token**, enter your Sentry auth token.
 1. Select the **Sentry project** used for your API.
 1. Select **Add integration**.
