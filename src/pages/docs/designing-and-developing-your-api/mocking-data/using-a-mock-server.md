@@ -111,3 +111,11 @@ Configure a mock server to control who can access it or to simulate network dela
 1. Select **Save** to save your changes.
 
 ## Viewing call logs
+
+Postman logs a record of all calls made to a mock server. Use the call log to view the requests sent to and the responses sent from your mock server.
+
+To view logged calls, select **Mock Servers** in the sidebar, select a mock server, and then select the **Call Logs** tab. For each logged call, you can view the date and time received, the request method and path, and the scenario used for the response.
+
+* Expand a request to see the full request headers, request body, response headers, and response body.
+* Enter a search term in the box to filter the call log based on the response scenario.
+* Select **Refresh** <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> to view the latest calls to the mock server.
