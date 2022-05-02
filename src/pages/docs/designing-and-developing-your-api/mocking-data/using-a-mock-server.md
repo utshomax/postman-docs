@@ -29,7 +29,7 @@ You can configure the mock server to customize how it responds to requests. Afte
 
 ## Viewing mock servers
 
-To make calls to a mock server, you need to know the mock server's URL and the endpoints that have been defined for it. You can find the URL, the available endpoints and scenarios, by selecting a mock server in Postman. You can then make calls to the mock server by creating a new request in Postman or using another application.
+To make calls to a mock server, you need to know the mock server's URL and the endpoints that have been defined for it. You can find the URL and the available endpoints and scenarios by selecting a mock server in Postman. You can then make calls to the mock server by creating a new request in Postman or using another application.
 
 To view a mock server, select **Mock Servers** in the sidebar, and then select a mock server.
 
@@ -39,7 +39,17 @@ To view a mock server, select **Mock Servers** in the sidebar, and then select a
 
 ## Making calls to a mock server
 
-To make calls to a mock server:
+To make a call to a mock server endpoint, first add the endpoint path to the end of the mock server URL. Then send the request using the appropriate HTTP method. For example: `GET https://<mock-server-url>/users`
+
+You can send a request to a mock server from within Postman:
+
+1. On the **Stubs** tab, under an endpoint stub, select a scenario.
+1. Select **Test Endpoint**. Postman opens a new request with the URL of the mock server and the path defined in the scenario.
+1. Select **Send** to send the request. You can view the response and status code in the response pane.
+
+When you make a call, the mock server returns a response based on the scenario that mostly closely matches the request. For example, under the `/users` endpoint stub, you can have two different scenarios, `/users?id=123` and `/users?id-456`. If you send a request to `http://<mock-server-url>/users?id-123`, the mock server returns the response defined in the `/users/id=123` scenario. Learn more about [how mock servers match scenarios](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/).
+
+> In Postman, you can use an environment variable to store the mock server URL.
 
 ## Working with mock servers
 
