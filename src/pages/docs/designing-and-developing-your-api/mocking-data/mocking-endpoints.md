@@ -15,9 +15,9 @@ contextual_links:
 warning: false
 ---
 
-You can make calls to a mock server to simulate interacting with your API for development or testing purposes. A mock server uses endpoint stubs to mock the paths and behavior of your API under various scenarios. Depending on how you created it, your mock server may already include endpoint stubs, and you can add more as needed.
+A mock server uses endpoint stubs to mock the paths and behavior of your API under various scenarios. Depending on how you created it, your mock server may already include endpoint stubs, and you can add more as needed.
 
-Use Postman or another application to make calls to the mock server URL and the endpoints you defined. You can configure the mock server to customize how it responds to requests. After making calls to the mock server, view the call logs to see details about incoming requests and outgoing responses.
+You can define one or more scenarios to simulate different ways of using an endpoint. If an endpoint has multiple scenarios, you can set one scenario to be the default for that endpoint.
 
 ## Contents
 
