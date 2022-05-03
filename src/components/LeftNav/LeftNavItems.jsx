@@ -420,25 +420,45 @@ export const leftNavItems = [
         url: '/docs/designing-and-developing-your-api/validating-elements-against-schema/',
       },
       {
-        name: 'Mocking Data',
+        name: 'Mocking an API',
         subParentSlug: 'mocking-data',
-        slug: '/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/',
+        slug: '/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/',
         subMenuItems2: [
           {
-            name: 'Setting up mock servers',
+            name: 'Mock servers overview',
+            url: '/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/',
+          },
+          {
+            name: 'Creating a mock server',
+            url: '/docs/designing-and-developing-your-api/mocking-data/creating-a-mock-server/',
+          },
+          {
+            name: 'Using a mock server',
+            url: '/docs/designing-and-developing-your-api/mocking-data/using-a-mock-server/',
+          },
+          {
+            name: 'Mocking endpoints',
+            url: '/docs/designing-and-developing-your-api/mocking-data/mocking-endpoints/',
+          },
+          {
+            name: 'Mocking server responses',
+            url: '/docs/designing-and-developing-your-api/mocking-data/mocking-server-responses/',
+          },
+          {
+            name: 'Understanding scenario matching',
+            url: '/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/',
+          },
+          {
+            name: 'OLD Setting up mock servers',
             url: '/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/',
           },
           {
-            name: 'Mocking with examples',
+            name: 'OLD Mocking with examples',
             url: '/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/',
           },
           {
-            name: 'Mocking with the Postman API',
+            name: 'OLD Mocking with the Postman API',
             url: '/docs/designing-and-developing-your-api/mocking-data/mock-with-api/',
-          },
-          {
-            name: 'Understanding example matching',
-            url: '/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/',
           },
         ],
       },
