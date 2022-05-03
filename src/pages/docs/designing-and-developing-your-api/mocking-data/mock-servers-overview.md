@@ -33,27 +33,29 @@ contextual_links:
 warning: false
 ---
 
-Postman enables you to create mock servers to assist with API development and testing. A mock server simulates the behavior of a real API server by accepting requests and returning responses. The responses can include example data that's similar to what your API would return in a production environment.
+Postman enables you to create mock servers to assist with API development and testing. A mock server simulates the behavior of a real API server by accepting requests and returning responses. The responses can include sample data similar to what your API would return in a production environment.
 
 To view existing mock servers in your workspace, or to create a new mock server, select **Mock Servers** in the side bar.
 
 ## Contents
 
-* [Using a mock server for API development](#using-a-mock-server-for-api-development)
+* [Mock servers and API development](#mock-servers-and-api-development)
 * [How Postman's mock servers work](#how-postmans-mock-servers-work)
 * [Next steps](#next-steps)
 
-## Using a mock server for API development
+## Mock servers and API development
 
-Mock servers can help you throughout the API development lifecycle.
+Throughout the API development lifecycle, there are times when interacting with a production-ready API isn't practical or possible. Maybe you need to develop an integration with an API that's still in development. Or maybe you want to test an API's behavior without affecting live data. That's where a mock server can help.
 
-A mock server can help developers and tests to understand how an API works by viewing how responses are defined for different usage scenarios. You can use the mock server to integrate with an API that's not yet available in production, or to test an API without using production data.
+You can send a request to a mock server's endpoints, just like you would to your API's endpoints. Based on the request, the mock server returns a response with pre-defined example data, or even with dynamic data. This enables you to simulate interactions with your API without having to make calls to a fully-functioning API server.
 
-use for prototyping, try out the API as you design it
-run tests without having to make calls against a live system, to verify requests and responses, and find errors or dependencies
-run tests that are hard to run on real servers due to security reasons or without using real data, allows you to send multiple requests
-front end devs can use to understand how backend responds to requests
-enables consumers to work with your API before it's production-ready, can get feedback sooner
+Here are some more ways you can use mock servers for API development:
+
+* View example requests and responses for different usage scenarios to understand how an API works
+* Mock external systems to avoid being blocked if a dependency is unavailable
+* Perform tests that can't be run on live servers due to security or data integrity reasons
+* Simulate internal server errors and other 5xx responses without having to take down your API server
+* Prototype an API so you can get early feedback from consumers
 
 ## How Postman's mock servers work
 
