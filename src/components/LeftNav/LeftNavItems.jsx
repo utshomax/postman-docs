@@ -445,7 +445,7 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/mocking-data/mocking-server-responses/',
           },
           {
-            name: 'Understanding scenario matching',
+            name: 'Scenario matching',
             url: '/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/',
           },
           {

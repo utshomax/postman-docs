@@ -23,19 +23,20 @@ You can configure the mock server to customize how it responds to requests. Afte
 
 * [Viewing mock servers](#viewing-mock-servers)
 * [Making calls to a mock server](#making-calls-to-a-mock-server)
-* [Working with mock servers](#working-with-mock-servers)
 * [Configuring a mock server](#configuring-a-mock-server)
 * [Viewing call logs](#viewing-call-logs)
+* [Adding optional request headers](#adding-optional-request-headers)
 
 ## Viewing mock servers
 
-To make calls to a mock server, you need to know the mock server's URL and the endpoints that have been defined for it. You can find the URL and the available endpoints and scenarios by selecting a mock server in Postman. You can then make calls to the mock server by creating a new request in Postman or using another application.
+To make calls to a mock server, you need to know the mock server's URL and the endpoints that have been defined for it. You can find the URL and the available endpoints and scenarios by viewing a mock server in Postman. You can then make calls to the mock server by creating a new request in Postman or using another application.
 
 To view a mock server, select **Mock Servers** in the sidebar, and then select a mock server.
 
 * The available endpoints are listed under **Endpoint Stubs**. Each endpoint stub can have one or more scenarios, which represent different ways of using an endpoint. Learn more about [endpoint stubs and scenarios](/docs/designing-and-developing-your-api/mocking-data/mocking-endpoints/).
 * The available server responses are listed under **Server Stubs**. You can use server responses to simulate internal server errors and other 5xx status codes. Learn more about [server responses](/docs/designing-and-developing-your-api/mocking-data/mocking-server-responses/).
 * To get the URL of the mock server, select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy URL**. By default, mock servers are publicly available. To make a mock server private, see [Configuring a mock server](#configuring-a-mock-server).
+* To view additional details, select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the context bar. You can view the mock server URL, the associated collection and environment (if any), and usage information.
 
 ## Making calls to a mock server
 
@@ -50,14 +51,6 @@ You can send a request to a mock server from within Postman:
 When you make a call, the mock server returns a response based on the scenario that mostly closely matches the request. For example, under the `/users` endpoint stub, you can have two different scenarios, `/users?id=123` and `/users?id-456`. If you send a request to `http://<mock-server-url>/users?id-123`, the mock server returns the response defined in the `/users/id=123` scenario. Learn more about [how mock servers match scenarios](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/).
 
 > In Postman, you can use an environment variable to store the mock server URL.
-
-## Working with mock servers
-
-While viewing a mock server, you can take the following actions:
-
-* To view additional details, select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the context bar. You can view the mock server URL, the associated collection and environment (if any), and usage information.
-* To rename a mock server, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">. Select **Rename** and enter a new name.
-* To delete a mock server, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and select **Delete**.
 
 ## Configuring a mock server
 
@@ -83,3 +76,23 @@ To view logged calls, select **Mock Servers** in the sidebar, select a mock serv
 * Expand a request to see the full request headers, request body, response headers, and response body.
 * Enter a search term in the box to filter the call log based on the response scenario.
 * Select **Refresh** <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> to view the latest calls to the mock server.
+
+## Adding optional request headers
+
+Postman mock servers accept optional headers you can use to customize how the mock server responds to requests. Using these headers, you can specify which saved examples the mock server will return. Without these headers, the mock server will follow a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to decide which example to return in a response.
+
+### Matching a response code
+
+Use the header `x-mock-response-code` to specify the HTTP response code the returned response will match. For example, `500` will return an example with the HTTP 500 response.
+
+### Matching a response name or ID
+
+Use the headers `x-mock-response-name` or `x-mock-response-id` to specify the exact response you want the mock server to return by matching the `id` or the `name` of the saved example. You can get the example response `id` or `name` by using the Postman API to [GET a Single Collection](https://documenter.getpostman.com/view/12959542/UV5XjJV8?&_ga=2.100400478.1771040895.1644854022-1154140310.1627600155#a6a282df-907e-438b-8fe6-e5efaa60b8bf) and searching for your example in the response.
+
+### Matching a request body or header
+
+Use the headers `x-mock-match-request-body` or `x-mock-match-request-headers` to specify the exact response you want the mock server to return by matching the headers or body of the saved example.
+
+* To enable request body matching, set the value of `x-mock-match-request-body` to `true`.
+
+* To enable request header matching, include the header `x-mock-match-request-headers` and set its value to a comma-separated string of header keys that you want to match against the saved examples. Header matching isn't case-sensitive.

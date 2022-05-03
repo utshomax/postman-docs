@@ -46,6 +46,7 @@ Postman provides several ways to create a mock server. Create a mock server from
 * [Creating a mock server using a collection](#creating-a-mock-server-using-a-collection)
 * [Creating a mock server from an API](#creating-a-mock-server-from-an-api)
 * [Creating a mock server from History](#creating-a-mock-server-from-history)
+* [Renaming or deleting a mock server](#renaming-or-deleting-a-mock-server)
 * [Next steps](#next-steps)
 
 ## Creating a mock server from scratch
@@ -104,6 +105,13 @@ You can create a mock server based on one or more requests in your Postman histo
 1. When you're ready, select **Create Mock Server**.
 
 <img alt="Mock history" src="https://assets.postman.com/postman-docs/mock-history-v8.jpg" width="350px"/>
+
+## Renaming or deleting a mock server
+
+After creating a mock server, you can take the following actions:
+
+* To rename a mock server, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">. Select **Rename** and enter a new name.
+* To delete a mock server, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and select **Delete**.
 
 ## Next steps
 
