@@ -61,13 +61,13 @@ Here are some more ways you can use mock servers for API development:
 
 In Postman, you can select **Mock Servers** in the sidebar to create a new mock server, add endpoints, and define example response data. At the same time, Postman does some work behind the scenes to keep everything organized. Here are some important concepts to keep in mind as you create and use mock servers in Postman:
 
-* **Collections** - Postman uses a collection to store all the endpoints for your mock server. When you create a mock server, you can choose to create a new collection or use an existing collection. You can also generate a collection from your API schema to begin mocking your API right away.
+* **Collections** - Postman uses a [collection](/docs/sending-requests/intro-to-collections/) to store all the endpoints for your mock server. When you create a mock server, you can choose to create a new collection or use an existing collection. You can also generate a collection from your API schema to begin mocking your API right away.
 
 * **Endpoint stubs** - Add an endpoint stub to your mock server to simulate an API endpoint, such as `GET /users`. Each endpoint stub corresponds to a request in the mock server's collection .
 
 * **Scenarios** - Scenarios represent different use cases for an endpoint. With scenarios, the mock server can send different data in response to different inputs. For example, you might have two scenarios for the `GET /users` endpoint stub, each with different query parameters and response bodies.
 
-* **Examples** - Postman users examples to store the request and response information for each scenario. When you add a scenario to an endpoint stub, Postman adds an example to the corresponding request in the mock server's collection.
+* **Examples** - Postman users [examples](/docs/sending-requests/examples/) to store the request and response information for each scenario. When you add a scenario to an endpoint stub, Postman adds an example to the corresponding request in the mock server's collection.
 
 * **Matching algorithm** - When the mock server receives a request, it locates the example that most closely matches the request method, path, headers, and (optionally) body. The mock server then returns the response defined in the example for that scenario. (You can also set a default response for an endpoint.)
 
@@ -76,3 +76,5 @@ In Postman, you can select **Mock Servers** in the sidebar to create a new mock 
 * **Access control** - Mock servers can be public or private. To make a call to a private mock server, you need to add an `x-api-key` header with a valid [Postman API key](/docs/developer/intro-api/) to the request.
 
 ## Next steps
+
+To begin mocking your API, [create a new mock server](/docs/designing-and-developing-your-api/mocking-data/creating-a-mock-server/) from scratch, from an existing collection, or from your API schema. [Add endpoints and scenarios](/docs/designing-and-developing-your-api/mocking-data/mocking-endpoints/) for various use cases, and then [use your mock server](/docs/designing-and-developing-your-api/mocking-data/using-a-mock-server/) to simulate making calls to your API. You can also [simulate server errors](/docs/designing-and-developing-your-api/mocking-data/mocking-server-responses/) and other 5xx status response codes.
