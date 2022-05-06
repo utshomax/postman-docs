@@ -31,6 +31,8 @@ You can define one or more scenarios to simulate different ways of using an endp
 
 Add endpoint stubs to your mock server to simulate one or more of your API's endpoints. An endpoint stub includes an method (such as `GET`) and a path (such as `/users`). You can define one or more scenarios for each endpoint stub.
 
+> When you add an endpoint stub, Postman adds a corresponding request to the mock server's collection.
+
 1. Select **Mock Servers** in the sidebar and select a mock server.
 1. On the **Stubs** tab, select **+** next to **Endpoint Stubs**.
 1. Select the new endpoint stub and customize it for the endpoint you want to simulate:
@@ -53,6 +55,8 @@ Add endpoint stubs to your mock server to simulate one or more of your API's end
 Scenarios represent different use cases for an endpoint stub. For example, you might define two scenarios for the same endpoint, each with a different set of query parameters and a different response body.
 
 When an endpoint is called, the mock server returns a response based on the scenario that best matches the request. You can also set a default response for an endpoint.
+
+> When you add a scenario to an endpoint stub, Postman adds a corresponding example in the mock server's collection. The example is saved under the request for that endpoint stub.
 
 1. Select **Mock Servers** in the sidebar, and then select a mock server.
 1. On the **Stubs** tab, under an endpoint stub, select the empty scenario labeled _Define Scenario_.

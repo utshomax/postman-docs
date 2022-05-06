@@ -50,7 +50,21 @@ You can send a request to a mock server from within Postman:
 
 When you make a call, the mock server returns a response based on the scenario that mostly closely matches the request. For example, under the `/users` endpoint stub, you can have two different scenarios, `/users?id=123` and `/users?id-456`. If you send a request to `http://<mock-server-url>/users?id-123`, the mock server returns the response defined in the `/users/id=123` scenario. Learn more about [how mock servers match scenarios](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/).
 
-> In Postman, you can use an environment variable to store the mock server URL.
+### Mock server usage limits
+
+Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of free mock server calls per month. View your [Postman billing dashboard](https://go.postman.co/usage) to view your usage or purchase additional blocks of mock server calls.
+
+### Storing the mock server URL in a variable
+
+In Postman, you can use an [environment](/docs/sending-requests/managing-environments/) variable to store the mock server URL and reference it across requests. For example, if you have a production server and a mock server, you can create an environment for each server. In each environment, add a variable with the same name and use it to store the mock server URL and the production server URL. Use the variable in your requests, and then switch between environments to change which server (mock or production) you want to call.
+
+### Using HTTP access control for a mock
+
+In addition to using Postman to make requests to mock endpoints, you can also make those requests in a browser.
+
+A web browser makes a cross-origin HTTP request when it requests a resource from a domain, protocol, or port that's different from its own. [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) is a standard that defines a way in which a browser and server can interact securely, in this case referring to how a web browser interacts with the mock endpoints hosted on the Postman mock server.
+
+CORS is enabled for Postman mock servers. This means you can stub your web apps with mocked data using the mock endpoints. Development or production web apps can then make requests to your Postman mock endpoint and receive example responses.
 
 ## Configuring a mock server
 
