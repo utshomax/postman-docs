@@ -91,6 +91,16 @@ To view logged calls, select **Mock Servers** in the sidebar, select a mock serv
 * Enter a search term in the box to filter the call log based on the response scenario.
 * Select **Refresh** <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> to view the latest calls to the mock server.
 
+### Troubleshooting mock calls
+
+You can use the mock call log to troubleshoot your requests to mock servers.
+
+[![Mock Call Error](https://assets.postman.com/postman-docs/mock-not-found-v8.jpg)](https://assets.postman.com/postman-docs/mock-not-found-v8.jpg)
+
+If you see `No matching requests` listed in the **Response** column your mock server might not be set up correctly. Make sure [you have at least one scenario for the endpoint stub](/docs/designing-and-developing-your-api/mocking-data/mocking-endpoints/#defining-scenarios).
+
+In the case of a service outage, you will get a `502`, `503`, or `504` response. Check the Postman [status page](https://status.postman.com/) for updates if you encounter this.
+
 ## Adding optional request headers
 
 Postman mock servers accept optional headers you can use to customize how the mock server responds to requests. Using these headers, you can specify which saved examples the mock server will return. Without these headers, the mock server will follow a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to decide which example to return in a response.
