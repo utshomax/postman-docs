@@ -26,6 +26,7 @@ You can define one or more scenarios to simulate different ways of using an endp
 * [Working with endpoint stubs](#working-with-endpoint-stubs)
 * [Setting a default response](#setting-a-default-response)
 * [Testing an endpoint](#testing-an-endpoint)
+* [Generating random data with dynamic variables](#generating-random-data-with-dynamic-variables)
 
 ## Adding an endpoint stub
 
@@ -102,3 +103,37 @@ You can test an endpoint by using Postman to send a request to your mock server.
 1. Select **Send** to send the request. You can view the response and status code in the response pane.
 
 > If your mock server is private, you need to add an `x-api-key` header with a valid [Postman API key](/docs/developer/intro-api/) to the request.
+
+## Generating random data with dynamic variables
+
+When creating a scenario, you define the data to be returned by the mock server. However, there may be cases when you want the mock server to return a response containing random data.
+
+To have your mock server return random data, use [dynamic variables](/docs/writing-scripts/script-references/variables-list/) in your scenario's response body. Dynamic variables are resolved as part of the mock server response and replaced with random data. Dynamic variables are useful for generating random data when mocking an API, and you can use them for exploratory testing and writing rich, data-driven tests.
+
+For example, your scenario's response body might contain dynamic variables as follows:
+
+```json
+{
+    "name": "{{$randomFullName}}",
+    "userName": "{{$randomUserName}}",
+    "location": "{{$randomCity}}",
+    "company": "{{$randomCompanyName}}",
+    "jobTitle": "{{$randomJobTitle}}",
+    "updatedAt": "{{$timestamp}}"
+}
+```
+
+When you call the mock server endpoint, you'll see the response data change to something like:
+
+```json
+{
+    "name": "Cielo McClure",
+    "userName": "Aurelie.Lockman",
+    "location": "Kubhaven",
+    "company": "Runolfsdottir, Bernhard and Hodkiewicz",
+    "jobTitle": "Direct Branding Liaison",
+    "updatedAt": "1565088856"
+}
+```
+
+> See [Dynamic Variables](/docs/writing-scripts/script-references/variables-list/) for a full list of dynamic variables for generating random data.
