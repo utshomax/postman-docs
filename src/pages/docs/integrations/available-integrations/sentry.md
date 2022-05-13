@@ -38,7 +38,7 @@ To set up Sentry integration for your API, you'll need to create an [auth token]
 1. Select the **Sentry project** used for your API.
 1. Select **Add integration**.
 
-    <img alt="Connecting to Sentry" src="https://assets.postman.com/postman-docs/sentry-connection-v9-xx.jpg" width="522px"/>
+    <img alt="Connecting to Sentry" src="https://assets.postman.com/postman-docs/sentry-connection-v9-19.jpg" width="516px"/>
 
 ## Viewing Sentry issues
 
@@ -53,4 +53,4 @@ To view Sentry issues, open an API version and select the **Monitoring** tab. Th
 * To view the latest issues, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
 
-<img alt="Viewing Sentry issues" src="https://assets.postman.com/postman-docs/sentry-view-issues-v9-xx.jpg"/>
+<img alt="Viewing Sentry issues" src="https://assets.postman.com/postman-docs/sentry-view-issues-v9-19.jpg"/>
