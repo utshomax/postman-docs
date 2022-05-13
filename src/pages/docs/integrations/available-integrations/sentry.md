@@ -30,7 +30,10 @@ To set up Sentry integration for your API, you'll need to create an [auth token]
 1. Select the **Monitoring** tab.
 1. Under **Connect Postman to your monitoring workflows**, select **Sentry**.
 1. Enter a **Nickname** to help you recognize the integration later.
-1. Enter your Sentry **Organization slug**. You can get the slug from your browser's address bar or in Sentry in **Settings > General Settings**. Use the format: `https://sentry.io/organizations/<organization_slug>/`
+1. Enter your Sentry **Organization slug**. You can find the organization slug in Sentry in **Settings > General Settings**.
+
+    >You can also get the organization slug from your browser's address bar when you are logged in to Sentry. Locate the slug in the Sentry URL as follows: `https://sentry.io/organizations/<organization_slug>/`
+
 1. For **Access token**, enter your Sentry auth token.
 1. Select the **Sentry project** used for your API.
 1. Select **Add integration**.
@@ -43,11 +46,11 @@ After you set up a Sentry integration, information for Sentry issues is availabl
 
 To view Sentry issues, open an API version and select the **Monitoring** tab. The most recent issues are listed under **Sentry**.
 
-* Expand an issue to see more details, or select an issue to open it in Sentry.
+* Expand an issue to view more details, or select an issue to open it in Sentry.
 * To view all Sentry issues, select **View all issues**.
 * Use the **Environments** dropdown list to filter issues by [Sentry environment](https://docs.sentry.io/product/sentry-basics/environments/).
 * Use the **Duration** dropdown list to view issues for a longer or shorter time period.
-* To see the latest issues, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
+* To view the latest issues, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
 
 <img alt="Viewing Sentry issues" src="https://assets.postman.com/postman-docs/sentry-view-issues-v9-xx.jpg"/>
