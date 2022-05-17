@@ -6,6 +6,9 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
+    name: "Mock servers overview"
+    url: "/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/"
+  - type: link
     name: "Sending requests"
     url: "/docs/sending-requests/requests/"
   - type: link
@@ -15,9 +18,9 @@ contextual_links:
 warning: false
 ---
 
-You can make calls to a mock server to simulate interacting with your API for development or testing purposes. Use Postman or another application to make calls to the mock server URL and the endpoints you defined.
+You can make calls to a mock server to simulate interacting with your API for development or testing purposes. Use Postman or another application to make calls to the mock server's endpoints. The mock server will respond with the data defined in the closest matching scenario.
 
-You can configure the mock server to customize how it responds to requests. After making calls to the mock server, view the call logs to see details about incoming requests and outgoing responses.
+You can configure the mock server to control access and customize how it responds to requests. You can also customize how the mock server responds by adding optional request headers. After making calls to the mock server, view the call logs to see details about incoming requests and outgoing responses.
 
 ## Contents
 
@@ -36,7 +39,7 @@ To view a mock server, select **Mock Servers** in the sidebar, and then select a
 * The available endpoints are listed under **Endpoint Stubs**. Each endpoint stub can have one or more scenarios, which represent different ways of using an endpoint. Learn more about [endpoint stubs and scenarios](/docs/designing-and-developing-your-api/mocking-data/mocking-endpoints/).
 * The available server responses are listed under **Server Stubs**. You can use server responses to simulate internal server errors and other 5xx status codes. Learn more about [server responses](/docs/designing-and-developing-your-api/mocking-data/mocking-server-responses/).
 * To get the URL of the mock server, select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy URL**. By default, mock servers are publicly available. To make a mock server private, see [Configuring a mock server](#configuring-a-mock-server).
-* To view additional details, select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the context bar. You can view the mock server URL, the associated collection and environment (if any), and usage information.
+* To view additional details, select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. You can view the mock server URL, the associated collection and environment (if any), and usage information.
 
 ## Making calls to a mock server
 
@@ -44,11 +47,11 @@ To make a call to a mock server endpoint, first add the endpoint path to the end
 
 You can send a request to a mock server from within Postman:
 
-1. On the **Stubs** tab, under an endpoint stub, select a scenario.
-1. Select **Test Endpoint**. Postman opens a new request with the URL of the mock server and the path defined in the scenario.
+1. On the **Stubs** tab, expand an endpoint stub and select a scenario.
+1. Select <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-external-link.jpg#icon" width="18px"> **Test Response**. Postman opens a new request with the URL of the mock server and the path defined in the scenario.
 1. Select **Send** to send the request. You can view the response and status code in the response pane.
 
-When you make a call, the mock server returns a response based on the scenario that mostly closely matches the request. For example, under the `/users` endpoint stub, you can have two different scenarios, `/users?id=123` and `/users?id-456`. If you send a request to `http://<mock-server-url>/users?id-123`, the mock server returns the response defined in the `/users/id=123` scenario. Learn more about [how mock servers match scenarios](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/).
+When you make a call, the mock server returns a response based on the scenario that mostly closely matches the request. For example, under the `/users` endpoint stub, you can have two different scenarios, `/users?id=123` and `/users?id=456`. If you send a request to `http://<mock-server-url>/users?id=123`, the mock server returns the response defined in the `/users?id=123` scenario. Learn more about [how mock servers match scenarios](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/).
 
 ### Mock server usage limits
 
@@ -56,30 +59,32 @@ Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number
 
 ### Storing the mock server URL in a variable
 
-In Postman, you can use an [environment](/docs/sending-requests/managing-environments/) variable to store the mock server URL and reference it across requests. For example, if you have a production server and a mock server, you can create an environment for each server. In each environment, add a variable with the same name and use it to store the mock server URL and the production server URL. Use the variable in your requests, and then switch between environments to change which server (mock or production) you want to call.
+In Postman, you can use an [environment](/docs/sending-requests/managing-environments/) variable to store the mock server URL and reference it across requests. For example, if you have a production server and a mock server, you can create an environment for each server. In each environment, add a variable with the same name, such as `url`.
 
-### Using HTTP access control for a mock
+Use the variable to store the mock server URL (in the mock environment) and the production server URL (in the production environment). If you use the variable in your requests, you can switch between environments to change which server (mock or production) you want to call.
 
-In addition to using Postman to make requests to mock endpoints, you can also make those requests in a browser.
+### Using HTTP access control
 
-A web browser makes a cross-origin HTTP request when it requests a resource from a domain, protocol, or port that's different from its own. [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) is a standard that defines a way in which a browser and server can interact securely, in this case referring to how a web browser interacts with the mock endpoints hosted on the Postman mock server.
+In addition to using Postman to make calls to a mock server's endpoints, you can also make those requests in a browser.
+
+A web browser makes a cross-origin HTTP request when it requests a resource from a domain, protocol, or port that's different from its own. [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) is a standard that defines a way in which a browser and server can interact securely. In this case, CORS refers to how a web browser interacts with the mock endpoints hosted on the Postman mock server.
 
 CORS is enabled for Postman mock servers. This means you can stub your web apps with mocked data using the mock endpoints. Development or production web apps can then make requests to your Postman mock endpoint and receive example responses.
 
 ## Configuring a mock server
 
-Configure a mock server to control who can access it or to simulate network delay when making calls. If you based your mock server on a collection, you can also customize the environment and release used by the mock server.
+Configure a mock server to control who can access it or to simulate network delay when making calls. You can also customize the environment and release used by the mock server.
 
-1. Select **Mock Servers** in the sidebar, and then select a mock server.
+1. Select **Mock Servers** in the sidebar and select a mock server.
 1. Select the **Config** tab.
-1. Change any configuration options:
+1. Change any of the configuration options:
 
     * **Access Control** - Mock servers are publicly available by default. To make your mock server private, select the checkbox. To make a call to a private mock server, you need to add an `x-api-key` header with a valid [Postman API key](/docs/developer/intro-api/) to the request.
-    * **Set Network Delay** - You can simulate network delay when making a call to the mock server. Select **2G** or **3G** to simulate the delay of legacy mobile networks, or select **Custom** an enter a delay value in milliseconds.
-    * **Environment** - For collection-based mock servers, you can select the Postman [environment](/docs/sending-requests/managing-environments/) to use.
-    * **Release** - For collection-based mock servers, you can select the [release](/docs/designing-and-developing-your-api/versioning-an-api/) to use.
+    * **Set Network Delay** - You can simulate network delay when making a call to the mock server. Select **2G** or **3G** to simulate the delay of legacy mobile networks, or select **Custom** and enter a delay value in milliseconds.
+    * **Environment** - Select the Postman [environment](/docs/sending-requests/managing-environments/) for the mock server to use.
+    * **Release** - If the collection used for the mock server has more than one release, you can select the [release](/docs/designing-and-developing-your-api/versioning-an-api/) to use.
 
-1. Select **Save** to save your changes.
+1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save your changes.
 
 ## Viewing call logs
 
