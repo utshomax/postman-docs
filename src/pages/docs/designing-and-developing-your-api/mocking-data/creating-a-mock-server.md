@@ -59,6 +59,8 @@ Select the **Create from scratch** option to create an empty mock server. You ca
 
 > When you create a mock server from scratch, Postman also creates an empty [collection](/docs/sending-requests/intro-to-collections/) named **New Collection** for the mock server. Postman also creates an empty [environment](/docs/sending-requests/managing-environments/) named **New Mock Server**.
 
+<img alt="Creating a mock server from scratch" src="https://assets.postman.com/postman-docs/mock-create-from-scratch-v9-19.jpg" width="580px"/>
+
 ## Creating a mock server using a template
 
 Select the **Use a template** option to create a mock server based on a predefined template. You can choose from a variety of mock server templates designed for simulating server responses, testing a sample API, and more. Your new mock server is fully configured, so you can begin using it right away or customize it as needed.
@@ -70,6 +72,8 @@ Select the **Use a template** option to create a mock server based on a predefin
 
 > When you create a mock server from a template, Postman creates a [collection](/docs/sending-requests/intro-to-collections/) with predefined requests for the mock server. Postman also creates an [environment](/docs/sending-requests/managing-environments/) for the mock server.
 
+<img alt="Creating a mock server from a template" src="https://assets.postman.com/postman-docs/mock-create-from-template-v9-19.jpg" width="580px"/>
+
 ## Creating a mock server using a collection
 
 Select the **Use a collection** option to create a mock server based on an existing collection in your current workspace. You can use the mock server to simulate or test each of the endpoints in your collection.
@@ -79,6 +83,8 @@ Select the **Use a collection** option to create a mock server based on an exist
 1. (Optional) Select the checkbox to save the mock server URL as an [environment variable](/docs/sending-requests/managing-environments/#editing-environment-variables). Postman will create an [environment](/docs/sending-requests/managing-environments/) named **New Mock Server** with a `url` variable that's set to the URL of the new mock server.
 1. Select **Create Mock Server**.
 1. Type a new name for the mock server and press **Enter**. (If the name isn't highlighted, hover over the name and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.)
+
+<img alt="Creating a mock server from a collection" src="https://assets.postman.com/postman-docs/mock-create-from-collection-v9-19.jpg" width="580px"/>
 
 ## Creating a mock server from an API
 
@@ -95,6 +101,8 @@ You can create a mock server from the **Overview** tab in the API Builder. Postm
 1. Enter a name for the mock server. You can also select various configuration options. Learn more about [configuring a mock server](/docs/designing-and-developing-your-api/mocking-data/using-a-mock-server/#configuring-a-mock-server).
 1. When you're ready, select **Create Mock Server**.
 
+<img alt="Creating a mock server from an API" src="https://assets.postman.com/postman-docs/mock-create-from-api-v9-19.jpg" width="530px"/>
+
 ## Creating a mock server from history
 
 You can create a mock server based on one or more requests in your Postman history. Postman automatically adds the requests to a new collection for the mock server.
@@ -107,7 +115,7 @@ You can create a mock server based on one or more requests in your Postman histo
 1. Enter a name for the mock server. If you want, you can also select various configuration options. Learn more about [configuring a mock server](/docs/designing-and-developing-your-api/mocking-data/using-a-mock-server/#configuring-a-mock-server).
 1. When you're ready, select **Create Mock Server**.
 
-<img alt="Mock history" src="https://assets.postman.com/postman-docs/mock-history-v8.jpg" width="350px"/>
+<img alt="Creating a mock server from history" src="https://assets.postman.com/postman-docs/mock-create-from-history-v9-19.jpg" width="507px"/>
 
 ## Renaming or deleting a mock server
 
