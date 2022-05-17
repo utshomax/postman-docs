@@ -6,29 +6,14 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
+    name: "Mock servers overview"
+    url: "/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/"
+  - type: link
     name: "Sending requests"
     url: "/docs/sending-requests/requests/"
   - type: link
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
-    name: "Additional Resources"
-  - type: subtitle
-    name: "Videos"
-  - type: link
-    name: "Mock Servers | The Exploratory"
-    url: "https://youtu.be/n_7UUghLpco"
-  - type: link
-    name: "Dynamic Mock Behavior | Postman Level Up"
-    url: "https://youtu.be/av7SZo9sZAE"
-  - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Using Mock Servers throughout the API Lifecycle"
-    url:  "https://blog.postman.com/using-mock-servers-throughout-the-api-lifecycle/"
-  - type: link
-    name: "Introducing Postman Mock Call Logs"
-    url:  "https://blog.postman.com/introducing-postman-mock-call-logs/"
 
 warning: false
 ---
@@ -126,4 +111,4 @@ After creating a mock server, you can take the following actions:
 
 ## Next steps
 
-Start [using your new mock server](/docs/designing-and-developing-your-api/mocking-data/using-a-mock-server/), or learn about configuring your mock server with new [endpoints](/docs/designing-and-developing-your-api/mocking-data/mocking-endpoints/) and [server responses](/docs/designing-and-developing-your-api/mocking-data/mocking-server-responses/).
+Start [using your new mock server](/docs/designing-and-developing-your-api/mocking-data/using-a-mock-server/), or configure your mock server with new [endpoints](/docs/designing-and-developing-your-api/mocking-data/mocking-endpoints/) and [server responses](/docs/designing-and-developing-your-api/mocking-data/mocking-server-responses/).
