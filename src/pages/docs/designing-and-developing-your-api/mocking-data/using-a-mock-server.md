@@ -56,6 +56,8 @@ You can send a request to a mock server from within Postman:
 
 1. Select **Send** to send the request. You can view the response and status code in the response pane.
 
+    > If the mock server is private, you need to add an `x-api-key` header with a valid [Postman API key](/docs/developer/intro-api/) to the request.
+
 <img alt="Making a call to a mock server" src="https://assets.postman.com/postman-docs/mock-view-scenarios-v9-19.jpg"/>
 
 When you make a call, the mock server returns a response based on the scenario that mostly closely matches the request. For example, under the `/users` endpoint stub, you can have two different scenarios, `/users?id=123` and `/users?id=456`. If you send a request to `http://<mock-server-url>/users?id=123`, the mock server returns the response defined in the `/users?id=123` scenario. Learn more about [how mock servers match scenarios](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/).
