@@ -20,7 +20,7 @@ warning: false
 
 You can make calls to a mock server to simulate interacting with your API for development or testing purposes. Use Postman or another application to make calls to the mock server's endpoints. The mock server will respond with the data defined in the closest matching scenario.
 
-You can configure the mock server to control access and customize how it responds to requests. You can also customize how the mock server responds by adding optional request headers. After making calls to the mock server, view the call logs to see details about incoming requests and outgoing responses.
+You can configure the mock server to control access and customize how it responds to requests. You can also customize how the mock server responds by adding optional request headers. After making calls to the mock server, use the call logs to view details about incoming requests and outgoing responses.
 
 ## Contents
 
@@ -38,7 +38,7 @@ To view a mock server, select **Mock Servers** in the sidebar, and then select a
 
 * The available endpoints are listed under **Endpoint Stubs**. Each endpoint stub can have one or more scenarios, which represent different ways of using an endpoint. Learn more about [endpoint stubs and scenarios](/docs/designing-and-developing-your-api/mocking-data/mocking-endpoints/).
 * The available server responses are listed under **Server Stubs**. You can use server responses to simulate internal server errors and other 5xx status codes. Learn more about [server responses](/docs/designing-and-developing-your-api/mocking-data/mocking-server-responses/).
-* To get the URL of the mock server, select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy URL**. By default, mock servers are publicly available. To make a mock server private, see [Configuring a mock server](#configuring-a-mock-server).
+* To get the URL of the mock server, select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy URL**. By default, mock servers are publicly available. To make a mock server private, [configure access control](#configuring-a-mock-server) for the mock server.
 * To view additional details, select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. You can view the mock server URL, the associated collection and environment (if any), and usage information.
 
 ## Making calls to a mock server
@@ -49,6 +49,9 @@ You can send a request to a mock server from within Postman:
 
 1. On the **Stubs** tab, expand an endpoint stub and select a scenario.
 1. Select <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-external-link.jpg#icon" width="18px"> **Test Response**. Postman opens a new request with the URL of the mock server and the path defined in the scenario.
+
+    > If the request URL is stored in an environment variable (for example, `{{url}}/users`) make sure the environment associated with the mock server is active in the [environment selector](/docs/sending-requests/managing-environments/#selecting-an-active-environment). Learn more about [storing the mock server URL in a variable](#storing-the-mock-server-url-in-a-variable).
+
 1. Select **Send** to send the request. You can view the response and status code in the response pane.
 
 When you make a call, the mock server returns a response based on the scenario that mostly closely matches the request. For example, under the `/users` endpoint stub, you can have two different scenarios, `/users?id=123` and `/users?id=456`. If you send a request to `http://<mock-server-url>/users?id=123`, the mock server returns the response defined in the `/users?id=123` scenario. Learn more about [how mock servers match scenarios](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/).
@@ -90,29 +93,29 @@ Configure a mock server to control who can access it or to simulate network dela
 
 Postman logs a record of all calls made to a mock server. Use the call log to view the requests sent to and the responses sent from your mock server.
 
-To view logged calls, select **Mock Servers** in the sidebar, select a mock server, and then select the **Call Logs** tab. For each logged call, you can view the date and time received, the request method and path, and the scenario used for the response.
+To view logged calls, select **Mock Servers** in the sidebar, select a mock server, and then select the **Call Logs** tab. For each logged call, you can view the date and time the request was received, the request method and path, and the scenario used for the response.
 
-* Expand a request to see the full request headers, request body, response headers, and response body.
+* Expand a request to view the full request headers, request body, response headers, and response body.
 * Enter a search term in the box to filter the call log based on the response scenario.
 * Select **Refresh** <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> to view the latest calls to the mock server.
 
 ### Troubleshooting mock calls
 
-You can use the mock call log to troubleshoot your requests to mock servers.
+You can use the call log to troubleshoot your requests to mock servers.
 
 [![Mock Call Error](https://assets.postman.com/postman-docs/mock-not-found-v8.jpg)](https://assets.postman.com/postman-docs/mock-not-found-v8.jpg)
 
-If you see `No matching requests` listed in the **Response** column your mock server might not be set up correctly. Make sure [you have at least one scenario for the endpoint stub](/docs/designing-and-developing-your-api/mocking-data/mocking-endpoints/#defining-scenarios).
+If the error `No matching requests` appears in the **Response** column, your mock server might not be set up correctly. Make sure [you have at least one scenario for the endpoint stub](/docs/designing-and-developing-your-api/mocking-data/mocking-endpoints/#defining-scenarios).
 
-In the case of a service outage, you will get a `502`, `503`, or `504` response. Check the Postman [status page](https://status.postman.com/) for updates if you encounter this.
+In the case of a Postman service outage, you will get a `502`, `503`, or `504` response. Check the Postman [status page](https://status.postman.com/) for updates.
 
 ## Adding optional request headers
 
-Postman mock servers accept optional headers you can use to customize how the mock server responds to requests. Using these headers, you can specify which saved examples the mock server will return. Without these headers, the mock server will follow a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to decide which example to return in a response.
+Postman mock servers accept optional headers you can use to customize how the mock server responds to requests. With these headers, you can specify which saved examples (that is, which scenarios) the mock server will return. Without these headers, the mock server will follow a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to decide which example to return in a response.
 
 ### Matching a response code
 
-Use the header `x-mock-response-code` to specify the HTTP response code the returned response will match. For example, `500` will return an example with the HTTP 500 response.
+Use the header `x-mock-response-code` to specify the HTTP response status code the returned response will match. For example, `500` will return an example with the 500 status code.
 
 ### Matching a response name or ID
 
