@@ -41,6 +41,8 @@ To view a mock server, select **Mock Servers** in the sidebar, and then select a
 * To get the URL of the mock server, select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy URL**. By default, mock servers are publicly available. To make a mock server private, [configure access control](#configuring-a-mock-server) for the mock server.
 * To view additional details, select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. You can view the mock server URL, the associated collection and environment (if any), and usage information.
 
+<img alt="Viewing a mock server" src="https://assets.postman.com/postman-docs/mock-view-stubs-v9-19.jpg"/>
+
 ## Making calls to a mock server
 
 To make a call to a mock server endpoint, first add the endpoint path to the end of the mock server URL. Then send the request using the appropriate HTTP method. For example: `GET https://<mock-server-url>/users`
@@ -54,6 +56,8 @@ You can send a request to a mock server from within Postman:
 
 1. Select **Send** to send the request. You can view the response and status code in the response pane.
 
+<img alt="Making a call to a mock server" src="https://assets.postman.com/postman-docs/mock-view-scenarios-v9-19.jpg"/>
+
 When you make a call, the mock server returns a response based on the scenario that mostly closely matches the request. For example, under the `/users` endpoint stub, you can have two different scenarios, `/users?id=123` and `/users?id=456`. If you send a request to `http://<mock-server-url>/users?id=123`, the mock server returns the response defined in the `/users?id=123` scenario. Learn more about [how mock servers match scenarios](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/).
 
 ### Mock server usage limits
@@ -65,6 +69,8 @@ Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number
 In Postman, you can use an [environment](/docs/sending-requests/managing-environments/) variable to store the mock server URL and reference it across requests. For example, if you have a production server and a mock server, you can create an environment for each server. In each environment, add a variable with the same name, such as `url`.
 
 Use the variable to store the mock server URL (in the mock environment) and the production server URL (in the production environment). If you use the variable in your requests, you can switch between environments to change which server (mock or production) you want to call.
+
+<img alt="Storing the mock server URL in a variable" src="https://assets.postman.com/postman-docs/mock-url-variable-v9-19.jpg"/>
 
 ### Using HTTP access control
 
@@ -89,6 +95,8 @@ Configure a mock server to control who can access it or to simulate network dela
 
 1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save your changes.
 
+<img alt="Configuring a mock server" src="https://assets.postman.com/postman-docs/mock-config-v9-19.jpg"/>
+
 ## Viewing call logs
 
 Postman logs a record of all calls made to a mock server. Use the call log to view the requests sent to and the responses sent from your mock server.
@@ -99,11 +107,13 @@ To view logged calls, select **Mock Servers** in the sidebar, select a mock serv
 * Enter a search term in the box to filter the call log based on the response scenario.
 * Select **Refresh** <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> to view the latest calls to the mock server.
 
+<img alt="Viewing call longs" src="https://assets.postman.com/postman-docs/mock-call-logs-v9-19.jpg"/>
+
 ### Troubleshooting mock calls
 
 You can use the call log to troubleshoot your requests to mock servers.
 
-[![Mock Call Error](https://assets.postman.com/postman-docs/mock-not-found-v8.jpg)](https://assets.postman.com/postman-docs/mock-not-found-v8.jpg)
+<img alt="Troubleshooting a mock server" src="https://assets.postman.com/postman-docs/mock-troubleshooting-v9-19.jpg"/>
 
 If the error `No matching requests` appears in the **Response** column, your mock server might not be set up correctly. Make sure [you have at least one scenario for the endpoint stub](/docs/designing-and-developing-your-api/mocking-data/mocking-endpoints/#defining-scenarios).
 
