@@ -1,6 +1,6 @@
 ---
 title: "Mocking server responses"
-updated: 2022-04-30
+updated: 2022-05-19
 page_id: "mocking_server_responses"
 contextual_links:
   - type: section

@@ -1,6 +1,6 @@
 ---
 title: "Mocking endpoints"
-updated: 2022-04-30
+updated: 2022-05-19
 page_id: "mocking_endpoints"
 contextual_links:
   - type: section

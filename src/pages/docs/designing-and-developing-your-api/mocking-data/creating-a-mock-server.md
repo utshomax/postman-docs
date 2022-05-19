@@ -1,6 +1,6 @@
 ---
 title: "Creating a mock server"
-updated: 2022-04-30
+updated: 2022-05-19
 page_id: "creating_a_mock_server"
 contextual_links:
   - type: section

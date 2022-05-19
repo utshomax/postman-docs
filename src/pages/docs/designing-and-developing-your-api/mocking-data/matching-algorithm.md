@@ -1,7 +1,6 @@
 ---
 title: "Example matching"
-order: 87
-updated: 2021-09-28
+updated: 2022-05-19
 page_id: "matching_algorithm"
 search_keyword: "x-mock-response-name, x-mock-response-id, requestMethod, mockPath"
 contextual_links:
