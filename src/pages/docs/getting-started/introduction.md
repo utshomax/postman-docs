@@ -92,7 +92,7 @@ If you're developing a back-end, working API-first, or need to monitor API perfo
 * [Defining an API from a schema](/docs/designing-and-developing-your-api/the-api-workflow/)
 * [Monitoring test runs](/docs/monitoring-your-api/intro-monitors/)
 * [Analyzing API performance](/docs/reports/reports-overview/)
-* [Mocking responses](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
+* [Mocking responses](/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/)
 
 ### Publishing APIs
 

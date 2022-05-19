@@ -27,8 +27,8 @@ contextual_links:
     name: "Documenting your API"
     url: "/docs/publishing-your-api/documenting-your-api/"
   - type: link
-    name: "Setting up mock servers"
-    url: "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
+    name: "Mock servers overview"
+    url: "/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/"
 
 warning: false
 ---
@@ -53,7 +53,7 @@ In Postman, an example is a tightly-coupled request and response pair. Each exam
 
 Having multiple examples for one request is useful for illustrating the different ways an endpoint can respond to a request. You might have examples that respond with different status codes (such as 200 or 404) or that return different data (or no data at all).
 
-Examples are useful in several ways. Developers and testers can refer to examples to better understand how an endpoint functions in different scenarios. Examples can also be used to [set up mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), so developers and testers can start [writing code](/docs/writing-scripts/test-scripts/) against your API—even before it's complete. In addition, you can include examples in your API's [public documentation](/docs/publishing-your-api/publishing-your-docs/) to help anyone in the world who uses your API.
+Examples are useful in several ways. Developers and testers can refer to examples to better understand how an endpoint functions in different scenarios. Examples can also be used to [set up mock servers](/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/), so developers and testers can start [writing code](/docs/writing-scripts/test-scripts/) against your API—even before it's complete. In addition, you can include examples in your API's [public documentation](/docs/publishing-your-api/publishing-your-docs/) to help anyone in the world who uses your API.
 
 ## Adding an example
 
@@ -123,10 +123,10 @@ Postman automatically [generates documentation](/docs/publishing-your-api/docume
 
 <img alt="Examples in documentation" src="https://assets.postman.com/postman-docs/documentation-including-examples-v9.jpg" width="663px">
 
-Examples provide additional details and clarification for your API and help your team to collaborate on API development. Front-end developers, back-end developers, and testers can all work in parallel, using the examples in the documentation for guidance or to set up [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
+Examples provide additional details and clarification for your API and help your team to collaborate on API development. Front-end developers, back-end developers, and testers can all work in parallel, using the examples in the documentation for guidance or to set up [mock servers](/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/).
 
 > You can [publish your documentation](/docs/publishing-your-api/publishing-your-docs/) to make your examples publicly available to anyone in the world.
 
 ## Next steps
 
-Use examples to [set up a mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) or include examples in your [API documentation](/docs/publishing-your-api/documenting-your-api/).
+Use examples to [set up a mock server](/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/) or include examples in your [API documentation](/docs/publishing-your-api/documenting-your-api/).

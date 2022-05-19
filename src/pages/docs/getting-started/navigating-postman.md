@@ -105,7 +105,7 @@ The Postman sidebar provides access to the fundamental elements of Postman:
 * [Collections](/docs/getting-started/creating-the-first-collection/)
 * [APIs](/docs/designing-and-developing-your-api/creating-an-api/)
 * [Environments](/docs/sending-requests/managing-environments/#creating-environments)
-* [Mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
+* [Mock servers](/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/)
 * [Monitors](/docs/running-collections/scheduling-collection-runs/)
 * [History](#history)
 

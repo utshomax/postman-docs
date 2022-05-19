@@ -1,5 +1,5 @@
 ---
-title: "Scenario matching"
+title: "Example matching"
 order: 87
 updated: 2021-09-28
 page_id: "matching_algorithm"

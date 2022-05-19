@@ -53,7 +53,7 @@
 	},
 	{
 		"from": "/docs/designing-and-developing-your-api/mocking-data/",
-		"to": "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
+		"to": "/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/"
 	},
 	{
 		"from": "/docs/designing-and-developing-your-api/monitoring-your-api/",
@@ -65,7 +65,7 @@
 	},
 	{
 		"from": "/docs/designing_and_developing_your_api/mocking_data/",
-		"to": "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
+		"to": "/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/"
 	},
 	{
 		"from": "/docs/designing_and_developing_your_api/monitoring_your_api/",
@@ -981,7 +981,7 @@
 	},
 	{
 		"from": "/docs/postman/mock-servers/intro-to-mock-servers/",
-		"to": "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
+		"to": "/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/"
 	},
 	{
 		"from": "/docs/postman/mock-servers/matching-algorithm/",
@@ -997,11 +997,11 @@
 	},
 	{
 		"from": "/docs/postman/mock-servers/setting-up-mock/",
-		"to": "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
+		"to": "/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/"
 	},
 	{
 		"from": "/docs/postman/mock_servers/intro_to_mock_servers/",
-		"to": "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
+		"to": "/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/"
 	},
 	{
 		"from": "/docs/postman/mock_servers/matching_algorithm/",
@@ -1017,7 +1017,7 @@
 	},
 	{
 		"from": "/docs/postman/mock_servers/setting_up_mock/",
-		"to": "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
+		"to": "/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/"
 	},
 	{
 		"from": "/docs/postman/monitors/faqs-monitors/",
@@ -1930,5 +1930,9 @@
 	{
 		"from": "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/",
 		"to": "/docs/reports/reports-overview/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/",
+		"to": "/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/"
 	}
 ]

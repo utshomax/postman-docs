@@ -445,19 +445,15 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/mocking-data/mocking-server-responses/',
           },
           {
-            name: 'Scenario matching',
+            name: 'Example matching',
             url: '/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/',
           },
           {
-            name: 'OLD Setting up mock servers',
-            url: '/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/',
-          },
-          {
-            name: 'OLD Mocking with examples',
+            name: 'Mocking with examples',
             url: '/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/',
           },
           {
-            name: 'OLD Mocking with the Postman API',
+            name: 'Mocking with the Postman API',
             url: '/docs/designing-and-developing-your-api/mocking-data/mock-with-api/',
           },
         ],
