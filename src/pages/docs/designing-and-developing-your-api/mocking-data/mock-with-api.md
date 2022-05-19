@@ -44,7 +44,6 @@ Setting up a [mock server](/docs/designing-and-developing-your-api/mocking-data/
 * [Step 3: Create a mock server with the Postman API](#step-3-create-a-mock-server-with-the-postman-api)
 * [Step 4: Get the mock server URL](#step-4-get-the-mock-server-url)
 * [Step 5: Send a request to the mock server](#step-5-send-a-request-to-the-mock-server)
-* [Adding optional request headers](#adding-optional-request-headers)
 
 ## Step 1: Set up a collection for mocking
 
@@ -131,23 +130,3 @@ There's no need to add an `x-api-key` header, as the mock server is public, so j
 <img alt="Sending a request to the mock server" src="https://assets.postman.com/postman-docs/mock-api-mock-response-v9-14.jpg" width="893px">
 
 Notice that the response is identical to the example you saved for `Request 1`. That's because the mock server uses the example to create a response. If you added more requests and examples to the collection, send them to the mock server using the mock server URL and the request path.
-
-## Adding optional request headers
-
-Postman mock servers accept optional headers you can use to customize how the mock server responds to requests. Using these headers, you can specify which saved examples the mock server will return. Without these headers, the mock server will follow a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to decide which example to return in a response.
-
-### Matching a response code
-
-Use the header `x-mock-response-code` to specify the HTTP response code the returned response will match. For example, `500` will return an example with the HTTP 500 response.
-
-### Matching a response name or ID
-
-Use the headers `x-mock-response-name` or `x-mock-response-id` to specify the exact response you want the mock server to return by matching the `id` or the `name` of the saved example. You can get the example response `id` or `name` by using the Postman API to [GET a Single Collection](https://documenter.getpostman.com/view/12959542/UV5XjJV8?&_ga=2.100400478.1771040895.1644854022-1154140310.1627600155#a6a282df-907e-438b-8fe6-e5efaa60b8bf) and searching for your example in the response.
-
-### Matching a request body or header
-
-Use the headers `x-mock-match-request-body` or `x-mock-match-request-headers` to specify the exact response you want the mock server to return by matching the headers or body of the saved example.
-
-* To enable request body matching, set the value of `x-mock-match-request-body` to `true`.
-
-* To enable request header matching, include the header `x-mock-match-request-headers` and set its value to a comma-separated string of header keys that you want to match against the saved examples. Header matching isn't case-sensitive.
