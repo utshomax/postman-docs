@@ -1932,6 +1932,10 @@
 		"to": "/docs/reports/reports-overview/"
 	},
 	{
+		"from": "/docs/designing-and-developing-your-api/versioning-an-api/",
+		"to": "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
+	},
+	{
 		"from": "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/",
 		"to": "/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/"
 	}
