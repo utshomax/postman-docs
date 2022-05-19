@@ -2,7 +2,7 @@
 title: "Mocking with examples"
 page_id: "mocking_with_examples"
 updated: 2022-05-19
-search_keyword: "x-mock-response-code"
+search_keyword: "x-mock-response-code, GraphQL"
 contextual_links:
   - type: section
     name: "Prerequisites"

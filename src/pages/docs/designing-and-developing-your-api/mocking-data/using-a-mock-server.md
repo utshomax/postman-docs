@@ -2,6 +2,7 @@
 title: "Using a mock server"
 updated: 2022-05-19
 page_id: "using_a_mock_server"
+search_keyword: "x-mock-response-code, x-mock-response-name, x-mock-response-id, x-mock-match-request-body, x-mock-match-request-headers"
 contextual_links:
   - type: section
     name: "Prerequisites"
