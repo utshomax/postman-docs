@@ -58,7 +58,7 @@ In Postman, open a new request by selecting **+** or by selecting **New > HTTP R
 
 This request calls the [Postman Echo](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) service which you can use to test REST or SOAP clients and make sample API calls. The resulting response displays in the response pane below the request.
 
-<img alt="Send a request" src="https://assets.postman.com/postman-docs/mock-examples-step1-v9-1.jpg"">
+<img alt="Send a request" src="https://assets.postman.com/postman-docs/mock-examples-step1-v9-1.jpg">
 
 ### Step 2: Save the request to a collection
 
@@ -114,13 +114,13 @@ Next, create a new request by selecting **+** or by selecting **New > HTTP Reque
 
 Sending this request returns an error. The reason is because you didn't add a path to the mock server URL, and there's no matching saved example with an undefined path and the request method `GET`. Responses returned by the mock service are entirely dependent on the URL and method in your saved examples.
 
-You do, however, have a saved example with the path `/get` and the request method `GET`. Add `/get` to the end of the mock server URL and send the request again. This time you receive the expected response from the mock server.
+You do have a saved example with the path `/get` and the request method `GET`. Add `/get` to the end of the mock server URL and send the request again. This time you receive the expected response from the mock server.
 
 <img alt="Mock server correct response" src="https://assets.postman.com/postman-docs/mock-examples-step5c-v9-1.jpg">
 
 ### Step 6: Add another example
 
-To further demonstrate how responses from the mock service are entirely dependent on your saved examples, add another example to the `C1` collection. Repeat steps 1 to 3 above to save a request to the collection and then save the response as an example `E2`, this time using the request URL `https://postman-echo.com/test`.
+To further show how responses from the mock service are entirely dependent on your saved examples, add another example to the `C1` collection. Repeat steps 1 to 3 above to save a request to the collection and then save the response as an example `E2`, this time using the request URL `https://postman-echo.com/test`.
 
 <img alt="Add a second example" src="https://assets.postman.com/postman-docs/mock-examples-step6a-v9-1.jpg">
 
@@ -129,7 +129,7 @@ Sending a `GET` request to `https://postman-echo.com/test` returns a 404 error, 
 * **Example E1** - `GET` request to path `/get`
 * **Example E2** - `GET` request to path `/test`
 
-Finally, repeat step 5 above, but this time add the path `/test` to the end of the mock server URL when sending the request. This returns the expected 404 response.
+Now repeat step 5 above, but this time add the path `/test` to the end of the mock server URL when sending the request. This returns the expected 404 response.
 
 <img alt="Send another request to the mock server" src="https://assets.postman.com/postman-docs/mock-examples-step6b-v9-1.jpg">
 
@@ -137,14 +137,14 @@ Finally, repeat step 5 above, but this time add the path `/test` to the end of t
 
 ## Using query parameters
 
-Postman's mock service uses a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to select the most appropriate saved example to return in response to a request. As part of this algorithm, the mock server looks at the query parameters when matching requests to saved examples. If you have examples that differ only in their query parameters, you can mock different responses for different query parameters on the same request path. In this case, the mock server will return the exact response matching that request path and the corresponding query parameters.
+Postman's mock service uses a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to select the most appropriate saved example to return in response to a request. As part of this algorithm, the mock server looks at the query parameters when matching requests to saved examples. If you have examples that differ in their query parameters, you can mock different responses for different query parameters on the same request path. In this case, the mock server will return the exact response matching that request path and the corresponding query parameters.
 
 Here's a scenario that illustrates how matching query parameters works:
 
 * The collection **Query Params Demo** has one request **Request1** with two examples, **Example1** and **Example2**.
 * In **Example1**, the parameter `id` has a value of `1`:
 
-    <img alt="Query parameters example 1" src="https://assets.postman.com/postman-docs/mock-examples-params1-v9-1.jpg"">
+    <img alt="Query parameters example 1" src="https://assets.postman.com/postman-docs/mock-examples-params1-v9-1.jpg">
 
 * In **Example2**, the parameter `id` has a value of `5`:
 
