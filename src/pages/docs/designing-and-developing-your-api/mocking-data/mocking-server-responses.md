@@ -44,6 +44,8 @@ Add a server stub to your mock server to simulate a server error scenario with a
 
 1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save your changes.
 
+<img alt="Adding a server stub" src="https://assets.postman.com/postman-docs/mock-add-server-response-v9-19.jpg"/>
+
 ## Working with server stubs
 
 After adding a server stub, you can take the following actions:
@@ -65,13 +67,18 @@ A checkmark appears next to the server response to indicate it's active. All oth
 
 > You can also make a server response active or inactive by hovering over it and selecting the checkmark icon.
 
+<img alt="Setting an active server response" src="https://assets.postman.com/postman-docs/mock-active-server-response-v9-19.jpg"/>
+
 ## Testing server responses
 
-You can test a server response by using Postman to send a request to your mock server.
+You can test a server response by using Postman to send a request to your mock server. Make sure the server response is [set to active](#setting-an-active-server-response) before testing it.
 
 1. Select **Mock Servers** in the sidebar and select a mock server.
 1. On the **Stubs** tab, under **Server Stubs**, select a server response.
+1. Make the server response is active by turning on the **Set as active** toggle. (If the server response is not set to active, you'll get a `404 Not Found` response.)
 1. Select <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-external-link.jpg#icon" width="18px"> **Test Response**. Postman opens a new request with the URL of the mock server.
 1. Select **Send** to send the request. You can view the response and status code in the response pane.
 
 > If your mock server is private, you need to add an `x-api-key` header with a valid [Postman API key](/docs/developer/intro-api/) to the request.
+
+<img alt="Testing a server response" src="https://assets.postman.com/postman-docs/mock-server-response-save-v9-19.jpg"/>
