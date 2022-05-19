@@ -39,7 +39,7 @@ To view a mock server, select **Mock Servers** in the sidebar, and then select a
 * The available endpoints are listed under **Endpoint Stubs**. Each endpoint stub can have one or more scenarios, which represent different ways of using an endpoint. Learn more about [endpoint stubs and scenarios](/docs/designing-and-developing-your-api/mocking-data/mocking-endpoints/).
 * The available server responses are listed under **Server Stubs**. You can use server responses to simulate internal server errors and other 5xx status codes. Learn more about [server responses](/docs/designing-and-developing-your-api/mocking-data/mocking-server-responses/).
 * To get the URL of the mock server, select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy URL**. By default, mock servers are publicly available. To make a mock server private, [configure access control](#configuring-a-mock-server) for the mock server.
-* To view additional details, select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. You can view the mock server URL, the associated collection and environment (if any), and usage information.
+* To view more details, select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. You can view the mock server URL, the associated collection and environment (if any), and usage information.
 
 <img alt="Viewing a mock server" src="https://assets.postman.com/postman-docs/mock-view-stubs-v9-19.jpg"/>
 
@@ -60,11 +60,11 @@ You can send a request to a mock server from within Postman:
 
 <img alt="Making a call to a mock server" src="https://assets.postman.com/postman-docs/mock-view-scenarios-v9-19.jpg"/>
 
-When you make a call, the mock server returns a response based on the scenario that mostly closely matches the request. For example, under the `/users` endpoint stub, you can have two different scenarios, `/users?id=123` and `/users?id=456`. If you send a request to `http://<mock-server-url>/users?id=123`, the mock server returns the response defined in the `/users?id=123` scenario. Learn more about [how mock servers match scenarios](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/).
+When you make a call, the mock server returns a response based on the scenario that best matches the request. For example, under the `/users` endpoint stub, you can have two different scenarios, `/users?id=123` and `/users?id=456`. If you send a request to `http://<mock-server-url>/users?id=123`, the mock server returns the response defined in the `/users?id=123` scenario. Learn more about [how mock servers match scenarios](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/).
 
 ### Mock server usage limits
 
-Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of free mock server calls per month. View your [Postman billing dashboard](https://go.postman.co/usage) to view your usage or purchase additional blocks of mock server calls.
+Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of free mock server calls per month. View your [Postman billing dashboard](https://go.postman.co/usage) to view your usage or purchase more blocks of mock server calls.
 
 ### Storing the mock server URL in a variable
 
@@ -76,7 +76,7 @@ Use the variable to store the mock server URL (in the mock environment) and the 
 
 ### Using HTTP access control
 
-In addition to using Postman to make calls to a mock server's endpoints, you can also make those requests in a browser.
+While you can use Postman to make calls to a mock server's endpoints, you can also make those requests in a browser.
 
 A web browser makes a cross-origin HTTP request when it requests a resource from a domain, protocol, or port that's different from its own. [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) is a standard that defines a way in which a browser and server can interact securely. In this case, CORS refers to how a web browser interacts with the mock endpoints hosted on the Postman mock server.
 
@@ -117,13 +117,13 @@ You can use the call log to troubleshoot your requests to mock servers.
 
 <img alt="Troubleshooting a mock server" src="https://assets.postman.com/postman-docs/mock-troubleshooting-v9-19.jpg"/>
 
-If the error `No matching requests` appears in the **Response** column, your mock server might not be set up correctly. Make sure [you have at least one scenario for the endpoint stub](/docs/designing-and-developing-your-api/mocking-data/mocking-endpoints/#defining-scenarios).
+If the error `No matching requests` appears in the **Response** column, check the configuration of your mock server. Make sure [you have at least one scenario for the endpoint stub](/docs/designing-and-developing-your-api/mocking-data/mocking-endpoints/#defining-scenarios).
 
-In the case of a Postman service outage, you will get a `502`, `503`, or `504` response. Check the Postman [status page](https://status.postman.com/) for updates.
+If there is a Postman service outage, you will get a `502`, `503`, or `504` response. Check the Postman [status page](https://status.postman.com/) for updates.
 
 ## Adding optional request headers
 
-Postman mock servers accept optional headers you can use to customize how the mock server responds to requests. With these headers, you can specify which saved examples (that is, which scenarios) the mock server will return. Without these headers, the mock server will follow a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to decide which example to return in a response.
+Postman mock servers accept optional headers you can use to customize how the mock server responds to requests. With these headers, you can specify which saved examples the mock server will return. Without these headers, the mock server will follow a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to decide which example to return in a response.
 
 ### Matching a response code
 

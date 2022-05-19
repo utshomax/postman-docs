@@ -64,7 +64,7 @@ When an endpoint is called, the mock server returns a response based on the scen
 1. Select **Mock Servers** in the sidebar and select a mock server.
 1. On the **Stubs** tab, select an endpoint stub, and then select **Add Scenario**.
 1. Enter a name for the scenario. (If the name isn't highlighted, hover over the name and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.)
-1. Enter any **Params** or **Headers** you want the mock server to match when selecting the best response to return. If you entered parameters or headers for the endpoint stub, these values are pre-filled. You can modify them as needed for each scenario.
+1. Enter any **Params** or **Headers** you want the mock server to match when selecting the best response to return. If you entered parameters or headers for the endpoint stub, these values are pre-filled. You can change them as needed for each scenario.
 
     * To deactivate a parameter or header, clear its checkbox.
     * To change the order of items, drag the handle to the left of a parameter or header.
@@ -85,7 +85,7 @@ When an endpoint is called, the mock server returns a response based on the scen
 
 After adding an endpoint stub, you can take the following actions:
 
-* To modify an endpoint stub, select it and change the method, request URL and path, parameters, or headers. When you're finished, select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save**.
+* To edit an endpoint stub, select it and change the method, request URL and path, parameters, or headers. When you're finished, select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save**.
 * To rename an endpoint stub, hover over it and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">. Select **Rename** and enter a new name.
 * To delete an endpoint stub, select it and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
 
@@ -107,7 +107,7 @@ You can test an endpoint by using Postman to send a request to your mock server.
 
 ## Generating random data with dynamic variables
 
-When creating a scenario, you define the data to be returned by the mock server. However, there may be cases when you want the mock server to return a response containing random data.
+When creating a scenario, you define the data to be returned by the mock server. In some cases, you may want the mock server to return a response containing random data.
 
 To have your mock server return random data, use [dynamic variables](/docs/writing-scripts/script-references/variables-list/) in your scenario's response body. Dynamic variables are resolved as part of the mock server response and replaced with random data. Dynamic variables are useful for generating random data when mocking an API, and you can use them for exploratory testing and writing rich, data-driven tests.
 

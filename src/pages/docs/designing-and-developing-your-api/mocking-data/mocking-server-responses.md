@@ -18,7 +18,7 @@ contextual_links:
 warning: false
 ---
 
-Server stubs enable you to simulate internal server errors and other 5xx responses on your mock server. A 5xx response status code indicates the server cannot complete the request (for example, if your API is unavailable). Instead of adding a 5xx error scenario to each endpoint stub in your mock server, you can add one or more server stubs.
+Server stubs enable you to simulate internal server errors and other 5xx responses on your mock server. A 5xx response status code indicates the server can't complete the request (for example, if your API is unavailable). Instead of adding a 5xx error scenario to each endpoint stub in your mock server, you can add one or more server stubs.
 
 A server stub simulates a server error scenario with the 5xx response status code you specify. You can set one server response to be active at a time. Your mock server will return the active server response for all requests. This enables you to test how other applications react when receiving a 5xx response from your API.
 
@@ -50,9 +50,9 @@ Add a server stub to your mock server to simulate a server error scenario with a
 
 After adding a server stub, you can take the following actions:
 
-* To modify a server stub, select it and change the status code, body, or headers. When you're finished, select **Save**.
+* To edit a server stub, select it and change the status code, body, or headers. When you're finished, select **Save**.
 * To rename a server stub, hover over it and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">. Select **Rename** and enter a new name.
-* To duplicate a server stub, hover over it and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">. Select **Duplicate** and modify the duplicated server stub as needed. Select **Save** when you're finished.
+* To duplicate a server stub, hover over it and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">. Select **Duplicate** and edit the duplicated server stub as needed. Select **Save** when you're finished.
 * To delete a server stub, select it and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
 
 ## Setting an active server response
@@ -63,7 +63,7 @@ Set an active server response to have your mock server simulate different server
 1. On the **Stubs** tab, under **Server Stubs**, select the server response you want to make active.
 1. Turn on the **Set as active** toggle.
 
-A checkmark appears next to the server response to indicate it's active. All other server responses are set to inactive.
+A checkmark appears next to the server response to show it's active. All other server responses are set to inactive.
 
 > You can also make a server response active or inactive by hovering over it and selecting the checkmark icon.
 
@@ -75,7 +75,7 @@ You can test a server response by using Postman to send a request to your mock s
 
 1. Select **Mock Servers** in the sidebar and select a mock server.
 1. On the **Stubs** tab, under **Server Stubs**, select a server response.
-1. Make the server response is active by turning on the **Set as active** toggle. (If the server response is not set to active, you'll get a `404 Not Found` response.)
+1. Make the server response is active by turning on the **Set as active** toggle. (If the server response isn't set to active, you'll get a `404 Not Found` response.)
 1. Select <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-external-link.jpg#icon" width="18px"> **Test Response**. Postman opens a new request with the URL of the mock server.
 1. Select **Send** to send the request. You can view the response and status code in the response pane.
 
