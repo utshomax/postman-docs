@@ -51,6 +51,8 @@ Add endpoint stubs to your mock server to simulate one or more of your API's end
 
 1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save your changes.
 
+<img alt="Adding an endpoint stub" src="https://assets.postman.com/postman-docs/mock-add-endpoint-v9-19.jpg"/>
+
 ## Defining scenarios
 
 Scenarios represent different use cases for an endpoint stub. For example, you might define two scenarios for the same endpoint, each with a different set of query parameters and a different response body.
@@ -77,6 +79,8 @@ When an endpoint is called, the mock server returns a response based on the scen
 
 1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save your changes.
 
+<img alt="Adding a scenario" src="https://assets.postman.com/postman-docs/mock-add-scenario-v9-19.jpg"/>
+
 ## Working with endpoint stubs
 
 After adding an endpoint stub, you can take the following actions:
@@ -98,6 +102,8 @@ You can test an endpoint by using Postman to send a request to your mock server.
 1. Select **Send** to send the request. You can view the response and status code in the response pane.
 
     > If the mock server is private, you need to add an `x-api-key` header with a valid [Postman API key](/docs/developer/intro-api/) to the request.
+
+<img alt="Making a call to a mock server" src="https://assets.postman.com/postman-docs/mock-view-scenarios-v9-19.jpg"/>
 
 ## Generating random data with dynamic variables
 
