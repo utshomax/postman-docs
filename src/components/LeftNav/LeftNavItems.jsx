@@ -356,7 +356,7 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Designing and Developing your API',
+    name: 'Designing and Developing Your API',
     parentSlug: 'designing-and-developing-your-api',
     url: '/docs/designing-and-developing-your-api/the-api-workflow/',
     subMenuItems1: [
