@@ -40,7 +40,7 @@ Select the **Create from scratch** option to create an empty mock server. You ca
 
 1. Select **Mock Servers** in the sidebar and select **+**.
 1. Select **Create from scratch** and select **Create Mock Server**.
-1. Type a new name for the mock server and press **Enter**. (If the name isn't highlighted, hover over the name and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.)
+1. Enter a new name for the mock server. (If the name isn't highlighted, hover over the name and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.)
 
 > When you create a mock server from scratch, Postman also creates an empty [collection](/docs/sending-requests/intro-to-collections/) named **New Collection** for the mock server. Postman also creates an empty [environment](/docs/sending-requests/managing-environments/) named **New Mock Server**.
 
@@ -53,7 +53,7 @@ Select the **Use a template** option to create a mock server based on a predefin
 1. Select **Mock Servers** in the sidebar and select **+**.
 1. Select **Use a template** and select the template you want to use.
 1. Select **Create Mock Server**.
-1. Type a new name for the mock server and press **Enter**. (If the name isn't highlighted, hover over the name and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.)
+1. Enter a new name for the mock server. (If the name isn't highlighted, hover over the name and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.)
 
 > When you create a mock server from a template, Postman creates a [collection](/docs/sending-requests/intro-to-collections/) with predefined requests for the mock server. Postman also creates an [environment](/docs/sending-requests/managing-environments/) for the mock server.
 
@@ -67,7 +67,7 @@ Select the **Use a collection** option to create a mock server based on an exist
 1. Select **Use a collection** and select the collection you want to use for the mock server.
 1. (Optional) Select the checkbox to save the mock server URL as an [environment variable](/docs/sending-requests/managing-environments/#editing-environment-variables). Postman will create an [environment](/docs/sending-requests/managing-environments/) named **New Mock Server** with a `url` variable that's set to the URL of the new mock server.
 1. Select **Create Mock Server**.
-1. Type a new name for the mock server and press **Enter**. (If the name isn't highlighted, hover over the name and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.)
+1. Enter a new name for the mock server. (If the name isn't highlighted, hover over the name and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.)
 
 <img alt="Creating a mock server from a collection" src="https://assets.postman.com/postman-docs/mock-create-from-collection-v9-19.jpg" width="580px"/>
 

@@ -1,5 +1,5 @@
 ---
-title: "Mocking Endpoints"
+title: "Mocking endpoints"
 updated: 2022-04-30
 page_id: "mocking_endpoints"
 contextual_links:
