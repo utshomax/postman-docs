@@ -79,7 +79,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 ### Editor settings
 
-**Editor** settings affect code-related text such as request and response bodies, pre-request scripts, and tests. To revert back to default text settings, select **Reset**. <!-- TODO: not sure that this is still going to be a feature -->
+**Editor** settings affect code-related text such as request and response bodies, pre-request scripts, and tests. To revert back to default text settings, select **Reset**. <!-- TODO: not in the spec, need to confirm that this is still going to be a feature -->
 
 * **Font family:** Enter one or more font family names separated by commas. Postman uses the first available font family to display code text.
 * **Font size (`px`):** Enter the font size in pixels to use for code text.
