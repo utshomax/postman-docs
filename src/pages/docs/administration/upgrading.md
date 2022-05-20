@@ -38,15 +38,15 @@ Postman v9 provides a consistent, improved API development experience. The Postm
 
 ## Upgrading to Postman v9
 
-You can move from Postman v7 or v8 to Postman v9 by updating the app via **Settings** > **Update** > **Download update**.
+You can move from Postman v7 or v8 to Postman v9 by updating the app. Select the setting icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">, select **Update**, then select **Download update**.
 
-<img alt="Settings Update" src ="https://assets.postman.com/postman-docs/settings-update-v8-to-v9.jpg"/>
+<!-- TODO: update screenshot once build is avail -->
 
-You will need to restart Postman to install the update. Select __Restart and Install Update__.
+You need to restart Postman to install the update. Select __Restart and Install Update__.
 
 <img alt="Restart and install modal" src ="https://assets.postman.com/postman-docs/restart-and-install-update-v8.jpg" width="450px"/>
 
-You can start using Postman v9 and access the new UI and features once the update is completed.
+You can start using Postman v9 and access the new features once the update is completed.
 
 > Postman v9.4 is the last version of Postman that supports both 32-bit and 64-bit Windows. All versions of Postman following v9.4 will only work on 64-bit Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
 
