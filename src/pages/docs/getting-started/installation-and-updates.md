@@ -168,15 +168,13 @@ Postman for Web is under active development. There are a few features you can cu
 
 ## Updating Postman
 
-Postman will notify you when a major update is available. For other updates, you will see a dot on the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">. If the indicator is red instead of orange, it indicates a failed update.
-
-![Update Ready](https://assets.postman.com/postman-docs/update-ready-v86.jpg)
+Postman automatically downloads minor updates and bug fixes, and will notify you when a major update is available. An orange dot on the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> indicates that an update is available. If the indicator is red instead of orange, it indicates a failed update. <!-- TODO: ensure this is still true -->
 
 Select the update option to download or install the latest update. You will see a notification when the download is complete, prompting you to restart Postman to apply the updates. If you don't want to update yet, choose __Later__ to auto-update the next time you open Postman.
 
-You can configure your preferences to enable automatic download for major updates in __Settings__ &gt; __Update__. Postman automatically downloads minor updates and bug fixes.
+To configure your preferences to enable automatic download for major updates, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">, then select __Update__. Turn on **Automatically download major updates**.
 
-<img alt="Check for updates" src="https://assets.postman.com/postman-docs/settings-updates-v9.jpg"/>
+<!-- TODO: updated screenshot when build is avail -->
 
 ## Postman Chrome app (deprecated)
 
@@ -196,9 +194,7 @@ The Postman Desktop app is built on [Electron](https://www.electronjs.org/), and
 
 To switch from the Chrome app to native, [download](https://www.postman.com/downloads/) Postman and [sign in to your account](https://go.postman.co/). Start the native app, and your history and collections will be automatically synced.
 
-Alternatively, if you don't want to sign in to your Postman account, you can bulk export your Postman data from the Chrome app, and then bulk import into the new native app at __Settings__ &gt; __Data__.
-
-![Import Export Data](https://assets.postman.com/postman-docs/export-data-v86.jpg)
+Alternatively, if you don't want to sign in to your Postman account, you can bulk export your Postman data from the Chrome app, and then bulk import into the new native app. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, select **Data**, then select the files you want to import.
 
 > Note that importing will overwrite your existing data. For more on bulk import, see [Importing Postman data](/docs/getting-started/importing-and-exporting-data/).
 
