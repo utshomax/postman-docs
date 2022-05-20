@@ -175,11 +175,9 @@ You can also export your environments from Postman.
 
 You can export a data dump of all your collections, environments, globals, and header presets in Postman.
 
-1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Settings**.
+1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header.
 
-   ![Export data dump](https://assets.postman.com/postman-docs/import-export-data-dump-menu.jpg)
-
-1. Select the **Data** tab, then **Export Data** to start your request for the data dump.
+1. Select **Data**, then **Export Data** to start your request for the data dump.
 
 1. Select **Export Data** to confirm the data types you need to export.
 
