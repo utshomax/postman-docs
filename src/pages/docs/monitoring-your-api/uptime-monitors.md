@@ -40,7 +40,7 @@ Create a new uptime monitor to track the availability of a single API endpoint, 
 1. Select **Monitors** in the sidebar, and then select **+**.
 1. Under **API endpoint or URL**, select **Continue**.
 
-    <img alt="Selecting what you want to monitor" src="https://assets.postman.com/postman-docs/monitor-landing-uptime-v9-19.jpg" width="716px"/>
+    <img alt="Selecting what you want to monitor" src="https://assets.postman.com/postman-docs/monitor-landing-uptime-v9-19.jpg"/>
 
 1. Enter the **URL** you want to monitor. *Uptime monitors can only monitor URLs, API endpoints, and websites that are publicly available over the internet. Only HTTP and HTTPS are supported.*
 1. For **Monitor name**, enter a descriptive name that will help you identify the monitor later.
