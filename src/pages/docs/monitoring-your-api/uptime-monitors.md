@@ -38,7 +38,10 @@ Use the uptime monitor dashboard to quickly check if the API endpoint is current
 Create a new uptime monitor to track the availability of a single API endpoint, website, or other URL. The uptime monitor sends an email notification to your team whenever downtime is detected, or when the service is once again up and available.
 
 1. Select **Monitors** in the sidebar, and then select **+**.
-1. Select **Create an Uptime Monitor** in the right pane.
+1. Under **API endpoint or URL**, select **Continue**.
+
+<img alt="Selecting what you want to monitor" src="https://assets.postman.com/postman-docs/monitor-landing-uptime-v9-19.jpg" width="716px"/>
+
 1. Enter the **URL** you want to monitor. *Uptime monitors can only monitor URLs, API endpoints, and websites that are publicly available over the internet. Only HTTP and HTTPS are supported.*
 1. For **Monitor name**, enter a descriptive name that will help you identify the monitor later.
 1. Configure any optional details for the monitor:
@@ -50,7 +53,7 @@ Create a new uptime monitor to track the availability of a single API endpoint, 
 
 1. Select **Create Uptime Monitor**.
 
-<img alt="Creating an uptime monitor" src="https://assets.postman.com/postman-docs/monitors-uptime-create-v9-9.jpg" width="491px"/>
+    <img alt="Creating an uptime monitor" src="https://assets.postman.com/postman-docs/monitors-uptime-create-v9-9.jpg" width="491px"/>
 
 ## Viewing uptime monitor results
 
