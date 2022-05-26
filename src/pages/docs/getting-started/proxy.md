@@ -99,7 +99,7 @@ System proxy settings are enabled by default. Any request made through Postman w
 
 Select **Use the system proxy** to turn the system proxy on or off. When you clear the checkbox, all the requests are made directly. However, regardless of the proxy setting in the app, Postman will still use the system proxy if there is an environment variable set.
 
-If **Use System Proxy** and the **Custom Proxy Configuration** are both turned on, then the **Custom Proxy Configuration** will take precedence.
+If **Use System Proxy** and **Custom Proxy Configuration** are both turned on, then the **Custom Proxy Configuration** will take precedence.
 
 ### Troubleshooting proxy configurations
 

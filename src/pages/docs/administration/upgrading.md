@@ -38,7 +38,7 @@ Postman v9 provides a consistent, improved API development experience. The Postm
 
 ## Upgrading to Postman v9
 
-You can move from Postman v7 or v8 to Postman v9 by updating the app. Select the setting icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">, select **Update**, then select **Download update**.
+You can move from Postman v7 or v8 to Postman v9 by updating the app. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> > **Update** > **Download update**.
 
 <!-- TODO: update screenshot once build is avail -->
 
