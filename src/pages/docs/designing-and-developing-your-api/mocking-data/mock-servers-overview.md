@@ -66,7 +66,7 @@ Here are some important concepts to keep in mind as you create and use mock serv
 
 * **Collections** - Postman uses a [collection](/docs/sending-requests/intro-to-collections/) to store all the endpoints for your mock server. When you create a mock server, you can choose to create a new collection or use an existing collection. You can also generate a collection from your API schema to begin mocking your API right away.
 
-* **Endpoint stubs** - Add an [endpoint stub](/docs/designing-and-developing-your-api/mocking-data/mocking-endpoints/) to your mock server to simulate an API endpoint, such as `GET /users`. Each endpoint stub corresponds to a request in the mock server's collection .
+* **Endpoint stubs** - Add an [endpoint stub](/docs/designing-and-developing-your-api/mocking-data/mocking-endpoints/) to your mock server to simulate an API endpoint, such as `GET /users`. Each endpoint stub corresponds to a request in the mock server's collection.
 
 * **Scenarios** - [Scenarios](/docs/designing-and-developing-your-api/mocking-data/mocking-endpoints/#defining-scenarios) represent different use cases for an endpoint. With scenarios, the mock server can send different data in response to different inputs. For example, you might have two scenarios for the `GET /users` endpoint stub, each with different query parameters and response bodies.
 
