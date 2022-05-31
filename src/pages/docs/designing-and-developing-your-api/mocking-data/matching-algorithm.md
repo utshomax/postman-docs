@@ -19,7 +19,7 @@ contextual_links:
 warning: false
 ---
 
-Using the Postman [mock service](/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/) requires the following: a collection with requests, a mock server, and saved request examples. You can save as many examples to a collection as you want, and the mock server will return these examples predictably. But how does the mock decide which example to return?
+Using Postman's [mock servers](/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/) requires a collection with requests and saved request examples. You can save as many examples to a collection as you want, and the mock server will return these examples predictably. Postman uses a matching algorithm to determine which examples to return.
 
 ## Mock server elements
 
@@ -51,7 +51,7 @@ Any responses that aren't in the expected format are removed from the matching p
 
 ### 2. HTTP method
 
-Any responses that aren't the same HTTP method type are removed from the matching process. For example, if the mock request you sent was `POST` to `https://M1.mock.pstmn.io/test`, all saved examples whose method type isn't `POST` are disregarded.
+Any responses that aren't the same HTTP method type are removed from the matching process. For example, if the mock request you sent was `POST` to `https://M1.mock.pstmn.io/test`, all saved examples for which the method type isn't `POST` are disregarded.
 
 ### 3. Filter by URL
 
@@ -68,7 +68,7 @@ Here's an example of how the algorithm filters by URL:
 
 ### 4. Wildcards
 
-All unresolved variables in an example’s request, that don’t exist in the mock server’s associated environment, are treated as  wildcard variables. Wildcard variables act as capture groups for dynamic URL segments. This is useful if some segments of the API’s URL map to resource identifiers, like user IDs, user names, or file names.
+All unresolved variables in an example’s request, which don’t exist in the mock server’s associated environment, are treated as  wildcard variables. Wildcard variables act as capture groups for dynamic URL segments. This is useful if some segments of the API’s URL map to resource identifiers, like user IDs, user names, or file names.
 
 For example, you can mock an endpoint that returns a user profile by ID. The endpoint takes in the user ID from the URL and returns the user ID in the response. On calling `GET {{url}}/users/{{userId}}`, the endpoint returns:
 
@@ -79,7 +79,7 @@ For example, you can mock an endpoint that returns a user profile by ID. The end
 }
 ```
 
-To match a request like this in your mock server, you can use a variable in the request URL of your example. You don't need to hard code values in the example. Instead, you can match any request sent to your mock server that matches the pattern `GET /users/<userId>`. To do this, you just need to replace the dynamic segments.
+To match a request like this in your mock server, you can use a variable in the request URL of your example. You don't need to hard-code values in the example. Instead, you can match any request sent to your mock server that matches the pattern `GET /users/<userId>`. To do this, you just need to replace the dynamic segments.
 
 Wildcard matching applies to entire URL path segments. The same example, `GET {{url}}/users/{{userId}}`, can serve `GET /users/1`, `GET /users/100`, or even `GET /users/carol`. But this example won't match `GET /users/another/segment`.
 

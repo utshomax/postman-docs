@@ -18,7 +18,7 @@ contextual_links:
 warning: false
 ---
 
-A mock server simulates the behavior of a real API by returning predefined data in response to different scenarios. Create a mock server to test or integrate with an API before it's production ready or without using production data.
+A _mock server_ simulates the behavior of a real API by returning predefined data in response to different scenarios. Create a mock server to test or integrate with an API before it's production ready without using production data.
 
 Postman provides several ways to create a mock server. Create a mock server from scratch to define all the endpoints and scenarios yourself. Or use a template to create a fully configured mock server and start using it right away. You can also create a mock server from a collection, an API, or the Postman History.
 

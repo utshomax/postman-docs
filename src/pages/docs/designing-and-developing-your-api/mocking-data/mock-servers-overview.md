@@ -33,9 +33,9 @@ contextual_links:
 warning: false
 ---
 
-Postman enables you to create mock servers to assist with API development and testing. A mock server simulates the behavior of a real API server by accepting requests and returning responses. The responses can include example data similar to what your API would return in a production environment.
+Postman enables you to create _mock servers_ to assist with API development and testing. A mock server simulates the behavior of a real API server by accepting requests and returning responses. The responses can include example data similar to what your API would return in a production environment.
 
-To view existing mock servers in your workspace, or to create a new mock server, select **Mock Servers** in the side bar.
+To view existing mock servers in your workspace, or to create a new mock server, select **Mock Servers** in the sidebar.
 
 ## Contents
 
@@ -70,7 +70,7 @@ Here are some important concepts to keep in mind as you create and use mock serv
 
 * **Scenarios** - [Scenarios](/docs/designing-and-developing-your-api/mocking-data/mocking-endpoints/#defining-scenarios) represent different use cases for an endpoint. With scenarios, the mock server can send different data in response to different inputs. For example, you might have two scenarios for the `GET /users` endpoint stub, each with different query parameters and response bodies.
 
-* **Examples** - Postman users [examples](/docs/sending-requests/examples/) to store the request and response information for each scenario. When you add a scenario to an endpoint stub, Postman adds an example to the corresponding request in the mock server's collection.
+* **Examples** - Postman uses [examples](/docs/sending-requests/examples/) to store the request and response information for each scenario. When you add a scenario to an endpoint stub, Postman adds an example to the corresponding request in the mock server's collection.
 
 * **Server stubs** - You can add server stubs to simulate internal server errors and other 5xx responses on your mock server.
 

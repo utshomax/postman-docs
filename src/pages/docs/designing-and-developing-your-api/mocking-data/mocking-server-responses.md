@@ -75,7 +75,7 @@ You can test a server response by using Postman to send a request to your mock s
 
 1. Select **Mock Servers** in the sidebar and select a mock server.
 1. On the **Stubs** tab, under **Server Stubs**, select a server response.
-1. Make the server response is active by turning on the **Set as active** toggle. (If the server response isn't set to active, you'll get a `404 Not Found` response.)
+1. Make the server response active by turning on the **Set as active** toggle. (If the server response isn't set to active, you'll get a `404 Not Found` response.)
 1. Select <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-external-link.jpg#icon" width="18px"> **Test Response**. Postman opens a new request with the URL of the mock server.
 1. Select **Send** to send the request. You can view the response and status code in the response pane.
 

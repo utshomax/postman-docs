@@ -120,7 +120,7 @@ You do have a saved example with the path `/get` and the request method `GET`. A
 
 ### Step 6: Add another example
 
-To further show how responses from the mock service are entirely dependent on your saved examples, add another example to the `C1` collection. Repeat steps 1 to 3 above to save a request to the collection and then save the response as an example `E2`, this time using the request URL `https://postman-echo.com/test`.
+To further show how responses from the mock service are entirely dependent on your saved examples, add another example to the `C1` collection. Repeat steps 1 through 3 above to save a request to the collection and then save the response as an example `E2`, this time using the request URL `https://postman-echo.com/test`.
 
 <img alt="Add a second example" src="https://assets.postman.com/postman-docs/mock-examples-step6a-v9-1.jpg">
 
