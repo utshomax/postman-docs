@@ -33,9 +33,11 @@ contextual_links:
 warning: false
 ---
 
-Postman enables you to create _mock servers_ to assist with API development and testing. A mock server simulates the behavior of a real API server by accepting requests and returning responses. The responses can include example data similar to what your API would return in a production environment.
+Postman enables you to create _mock servers_ to assist with API development and testing. A mock server simulates the behavior of a real API server by accepting requests and returning responses. The responses include example (mock) data similar to what your real API would return in a production environment.
 
 To view existing mock servers in your workspace, or to create a new mock server, select **Mock Servers** in the sidebar.
+
+<img alt="Viewing mock servers" src="https://assets.postman.com/postman-docs/mock-servers-v9-19.jpg"/>
 
 ## Contents
 
@@ -70,7 +72,7 @@ Here are some important concepts to keep in mind as you create and use mock serv
 
 * **Scenarios** - [Scenarios](/docs/designing-and-developing-your-api/mocking-data/mocking-endpoints/#defining-scenarios) represent different use cases for an endpoint. With scenarios, the mock server can send different data in response to different inputs. For example, you might have two scenarios for the `GET /users` endpoint stub, each with different query parameters and response bodies.
 
-* **Examples** - Postman uses [examples](/docs/sending-requests/examples/) to store the request and response information for each scenario. When you add a scenario to an endpoint stub, Postman adds an example to the corresponding request in the mock server's collection.
+* **Examples** - Postman uses [examples](/docs/sending-requests/examples/) to store the request and response information for each scenario. Each scenario corresponds to an example in the collection.
 
 * **Server stubs** - You can add server stubs to simulate internal server errors and other 5xx responses on your mock server.
 
@@ -79,7 +81,7 @@ Here are some important concepts to keep in mind as you create and use mock serv
 Endpoint stubs, scenarios, and collections all play a part in making your mock server work. Here's what happens when you send a request to the mock server:
 
 1. Each endpoint defined for the mock server corresponds to a request in the mock server's collection. Similarly, each scenario corresponds to an example saved under a request in the collection.
-1. When the mock server receives a request, it uses a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to locate the saved example that best matches the request's method, path, headers, and (optionally) body.
+1. When the mock server receives a request, it uses a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to locate the saved example that best matches the request's method, path, and query parameters. You can also add optional headers to a request to have the mock server match the request's headers, body, or a specified response code.
 1. The mock server returns the response data defined in the saved example.
 
 > Mock servers are public by default, but you can choose to make a mock server private. Learn more about [controlling access to mock servers](/docs/designing-and-developing-your-api/mocking-data/using-a-mock-server/#configuring-a-mock-server).
