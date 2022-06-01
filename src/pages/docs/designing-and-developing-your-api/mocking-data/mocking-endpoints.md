@@ -20,7 +20,7 @@ warning: false
 
 A mock server uses endpoint stubs to mock the paths and behavior of your API. Depending on how you created it, your mock server may already include endpoint stubs, and you can add more stubs as needed.
 
-You can define one or more scenarios for each endpoint stub. Scenarios represent different ways of using an endpoint. For each scenario, you can specify the data you want the mock server to return. After you create endpoints and scenarios, you can test your mock server by sending requests to it within Postman.
+You can define one or more scenarios for each endpoint stub. Scenarios represent different ways of using an endpoint. For each scenario, you can specify the data you want the mock server to return. After you create endpoints and scenarios, you can test your mock server by sending requests to it within Postman or using any client you prefer.
 
 ## Contents
 
@@ -49,13 +49,13 @@ Add endpoint stubs to your mock server to simulate one or more of your API's end
     * To change the order of items, drag the handle to the left of a parameter or header.
     * To delete an item, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to the right of a parameter or header.
 
-1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save your changes.
+1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save your changes. (You can also select **⌘+S** or **Ctrl+S** to save.)
 
 <img alt="Adding an endpoint stub" src="https://assets.postman.com/postman-docs/mock-add-endpoint-v9-19.jpg"/>
 
 ## Defining scenarios
 
-Scenarios represent different use cases for an endpoint stub. For example, you might define two scenarios for the same endpoint, each with a different set of query parameters and a different response body.
+Scenarios represent different ways of using an endpoint stub. For example, you might define two scenarios for the same endpoint, each with a different set of query parameters and a different response body.
 
 When an endpoint is called, the mock server returns a response based on the scenario that best matches the request. Learn more about [scenario matching](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/).
 
@@ -70,14 +70,14 @@ When an endpoint is called, the mock server returns a response based on the scen
     * To change the order of items, drag the handle to the left of a parameter or header.
     * To delete an item, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to the right of a parameter or header.
 
-1. To use body matching for this scenario, enter the request body you want the mock server to match when selecting the best response to return. Learn more about [matching a request body](/docs/designing-and-developing-your-api/mocking-data/using-a-mock-server/#matching-a-request-body-or-header).
+1. To use body matching, enter the request body you want the mock server to match when selecting the best response to return. Learn more about [matching a request body](/docs/designing-and-developing-your-api/mocking-data/using-a-mock-server/#matching-a-request-body-or-header).
 1. Customize the response data the mock server will return for this scenario:
 
     * **Body** - Enter the response body and select a data type.
     * **Headers** - Enter the response headers.
     * **Status code** - Select the response status code.
 
-1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save your changes.
+1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save your changes. (You can also select **⌘+S** or **Ctrl+S** to save.)
 
 <img alt="Adding a scenario" src="https://assets.postman.com/postman-docs/mock-add-scenario-v9-19.jpg"/>
 

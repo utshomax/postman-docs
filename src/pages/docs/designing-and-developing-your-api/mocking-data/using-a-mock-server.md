@@ -53,7 +53,7 @@ You can send a request to a mock server from within Postman:
 1. On the **Stubs** tab, expand an endpoint stub and select a scenario.
 1. Select <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-external-link.jpg#icon" width="18px"> **Test Response**. Postman opens a new request with the URL of the mock server and the path defined in the scenario.
 
-    > If the request URL is stored in an environment variable (for example, `{{url}}/users`) make sure the environment containing the URL is active in the [environment selector](/docs/sending-requests/managing-environments/#selecting-an-active-environment). Learn more about [storing the mock server URL in a variable](#storing-the-mock-server-url-in-a-variable).
+    > If the mock server URL is stored in an environment variable (for example, `{{url}}/users`) make sure the environment containing the URL is active in the [environment selector](/docs/sending-requests/managing-environments/#selecting-an-active-environment). Learn more about [storing the mock server URL in a variable](#storing-the-mock-server-url-in-a-variable).
 
 1. Select **Send** to send the request. You can view the response and status code in the response pane.
 
