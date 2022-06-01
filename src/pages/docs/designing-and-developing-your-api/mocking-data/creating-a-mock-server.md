@@ -18,9 +18,9 @@ contextual_links:
 warning: false
 ---
 
-A _mock server_ simulates the behavior of a real API by returning predefined data in response to different scenarios. Create a mock server to test or integrate with an API before it's production ready without using production data.
+A _mock server_ simulates the behavior of a real API by returning predefined data in response to different scenarios. Create a mock server to test or integrate with an API before it's production-ready, or without affecting production data.
 
-Postman provides several ways to create a mock server. Create a mock server from scratch to define all the endpoints and scenarios yourself. Or use a template to create a fully configured mock server and start using it right away. You can also create a mock server from a collection, an API, or the Postman History.
+Postman provides several ways to create a mock server. Create a mock server from scratch to define all the endpoints and scenarios yourself. Or use a template to create a fully configured mock server and start using it right away. You can also create a mock server from an existing collection, an API, or the Postman History.
 
 > You must sign into a Postman account to create a mock server.
 
@@ -55,7 +55,7 @@ Select the **Use a template** option to create a mock server based on a predefin
 1. Select **Create Mock Server**.
 1. Enter a new name for the mock server. (If the name isn't highlighted, hover over the name and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.)
 
-> When you create a mock server from a template, Postman creates a [collection](/docs/sending-requests/intro-to-collections/) with predefined requests for the mock server. Postman also creates an [environment](/docs/sending-requests/managing-environments/) for the mock server.
+> When you create a mock server from a template, Postman creates a [collection](/docs/sending-requests/intro-to-collections/) with predefined requests for the mock server. Postman also creates an [environment](/docs/sending-requests/managing-environments/) with a `url` variable set to the mock server's URL. You can use this URL to test mock responses.
 
 <img alt="Creating a mock server from a template" src="https://assets.postman.com/postman-docs/mock-create-from-template-v9-19.jpg" width="580px"/>
 
@@ -81,7 +81,7 @@ You can create a mock server from the **Overview** tab in the API Builder. Postm
 
     * **Generate from API schema** - Postman will generate a new collection for your mock server based on your API schema. Enter a collection name. You can configure how Postman will generate the collection by selecting **Show advanced settings**. When you're ready, select **Generate Collection and Continue**.
     * **Use an existing collection** - Select the collection you want to use for the mock server and select **Select Collection and Continue**.
-    * **Create a new collection** - Enter the requests your collection will contain and select **Create Collection and Continue**.
+    * **Create a new collection** - Enter the requests and examples your collection will contain and select **Create Collection and Continue**.
 
 1. Enter a name for the mock server. You can also select various configuration options. Learn more about [configuring a mock server](/docs/designing-and-developing-your-api/mocking-data/using-a-mock-server/#configuring-a-mock-server).
 1. When you're ready, select **Create Mock Server**.
@@ -90,7 +90,7 @@ You can create a mock server from the **Overview** tab in the API Builder. Postm
 
 ## Creating a mock server from history
 
-You can create a mock server based on one or more requests in your Postman history. Postman automatically adds the requests to a new collection for the mock server.
+You can create a mock server based on one or more requests in your Postman history. Postman automatically adds the requests and examples to a new collection for the mock server.
 
 1. Select **History** in the sidebar.
 1. Hover over a request, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, and select **Mock Request**.
