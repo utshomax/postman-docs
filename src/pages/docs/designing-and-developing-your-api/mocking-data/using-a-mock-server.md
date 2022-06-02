@@ -110,7 +110,7 @@ To view logged calls, select **Mock Servers** in the sidebar, select a mock serv
 * Enter a search term in the box to filter the call log based on the response scenario.
 * Select **Refresh** <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> to view the latest calls to the mock server.
 
-> You can also get the call logs for a mock server using the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/request/12959542-f25efa16-1813-4279-8a89-a94ba968533e).
+> You can also get the call logs for a mock server using the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/request/12959542-f25efa16-1813-4279-8a89-a94ba968533e). The Postman API gives you additional options for filtering and sorting call logs.
 
 <img alt="Viewing call longs" src="https://assets.postman.com/postman-docs/mock-call-logs-v9-19.jpg"/>
 

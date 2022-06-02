@@ -20,7 +20,7 @@ warning: false
 
 A mock server uses endpoint stubs to mock the paths and behavior of your API. Depending on how you created it, your mock server may already include endpoint stubs, and you can add more stubs as needed.
 
-You can define one or more scenarios for each endpoint stub. Scenarios represent different ways of using an endpoint. For each scenario, you can specify the data you want the mock server to return. After you create endpoints and scenarios, you can test your mock server by sending requests to it within Postman or using any client you prefer.
+You can define one or more scenarios for each endpoint stub. Scenarios represent different ways of using an endpoint. For each scenario, you can specify the data you want the mock server to return. After you create endpoint stubs and scenarios, you can test your mock server by sending requests to it within Postman or using any client you prefer.
 
 ## Contents
 
@@ -32,7 +32,7 @@ You can define one or more scenarios for each endpoint stub. Scenarios represent
 
 ## Adding an endpoint stub
 
-Add endpoint stubs to your mock server to simulate one or more of your API's endpoints. An endpoint stub includes a method (such as `GET`) and a path (such as `/users`). You can define one or more [scenarios](#defining-scenarios) for each endpoint stub.
+Add endpoint stubs to your mock server to simulate your API's endpoints. An endpoint stub includes a method (such as `GET`) and a path (such as `/users`). You can define one or more [scenarios](#defining-scenarios) for each endpoint stub.
 
 > When you add an endpoint stub, Postman adds a corresponding request to the mock server's collection.
 
@@ -44,7 +44,7 @@ Add endpoint stubs to your mock server to simulate one or more of your API's end
     * Select a method in the dropdown list, or leave `GET` selected.
     * Enter the request URL and path. (By default, Postman adds a `{{url}}` [environment variable](/docs/designing-and-developing-your-api/mocking-data/using-a-mock-server/#storing-the-mock-server-url-in-a-variable) for the request URL.)
 
-1. Enter any **Params** or **Headers** you want the mock server to match when selecting the best response to return. These parameters and headers will be pre-filled for any scenarios you create for this endpoint stub.
+1. Enter any **Params** or **Headers** you want to use for this endpoint. These parameters and headers will be pre-filled for any scenarios you add to this endpoint stub.
 
     * To change the order of items, drag the handle to the left of a parameter or header.
     * To delete an item, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to the right of a parameter or header.
@@ -55,22 +55,22 @@ Add endpoint stubs to your mock server to simulate one or more of your API's end
 
 ## Defining scenarios
 
-Scenarios represent different ways of using an endpoint stub. For example, you might define two scenarios for the same endpoint, each with a different set of query parameters and a different response body.
+Scenarios represent different ways of using an endpoint stub. For example, you might define two scenarios for the same endpoint, each with the same path but a different set of query parameters.
 
-When an endpoint is called, the mock server returns a response based on the scenario that best matches the request. Learn more about [scenario matching](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/).
+When an endpoint is called, the mock server returns a response based on the scenario that [best matches the request](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/). By default, the mock server will match a request's method, path, and query parameters. You can [add optional headers](/docs/designing-and-developing-your-api/mocking-data/using-a-mock-server/#matching-a-request-body-or-header) to a request to also match the requests's headers or body.
 
 > When you add a scenario to an endpoint stub, Postman adds a corresponding example in the mock server's collection. The example is saved under the request for that endpoint stub.
 
 1. Select **Mock Servers** in the sidebar and select a mock server.
 1. On the **Stubs** tab, select an endpoint stub, and then select **Add Scenario**.
 1. Enter a name for the scenario. (If the name isn't highlighted, hover over the name and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.)
-1. Enter any **Params** or **Headers** you want the mock server to match when selecting the best response to return. If you entered parameters or headers for the endpoint stub, these values are pre-filled. You can change them as needed for each scenario.
+1. Enter any **Params** or **Headers** you want to use for this scenario. If you entered parameters or headers for the endpoint stub, these values are pre-filled. You can change them as needed for each scenario.
 
     * To deactivate a parameter or header, clear its checkbox.
     * To change the order of items, drag the handle to the left of a parameter or header.
     * To delete an item, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to the right of a parameter or header.
 
-1. To use body matching, enter the request body you want the mock server to match when selecting the best response to return. Learn more about [matching a request body](/docs/designing-and-developing-your-api/mocking-data/using-a-mock-server/#matching-a-request-body-or-header).
+1. Enter any **Body** content you want to use for this scenario.
 1. Customize the response data the mock server will return for this scenario:
 
     * **Body** - Enter the response body and select a data type.
