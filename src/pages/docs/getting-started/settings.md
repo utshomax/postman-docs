@@ -1,7 +1,7 @@
 ---
 title: "Setting up Postman"
 order: 8.1
-updated: 2022-02-16
+updated: 2022-06-02
 page_id: "settings"
 search_keyword: "GPU, hardware acceleration, shortcut, shortcuts, keyboard shortcuts"
 contextual_links:
@@ -71,7 +71,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 **To make collaboration easier, store files in your working directory.** Storing files in your working directory ensures that requests in shared collections always work. As long as you and your teammates use the same files and working directory location, shared requests will run across everyone's systems. Learn more about [sending body data](/docs/sending-requests/requests/#sending-body-data).
 
-**The working directory is also used by Newman.** Store files you want to upload to Newman in the working directory path saved in the collection. Learn more about [file uploads in Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/#file-uploads).
+**The working directory is also used by Newman.** Store files you want to upload to Newman in the working directory path saved in the collection. Learn more about [file uploads in Newman](/docs/running-collections/using-newman-cli/newman-file-uploads/).
 
 **You can't change the working directory in Postman for Web.** When you upload a file, Postman for Web creates a new folder with a random name in the `~/Postman/files` directory. Postman stores the uploaded file in the new folder so you can use it when sending requests. To automatically sync files you upload to Postman for Web with your local working directory, make sure you are using the [Postman Desktop Agent](/docs/getting-started/installation-and-updates/#using-postman-on-the-web).
 
@@ -79,14 +79,14 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 ### Editor settings
 
-**Editor** settings affect code-related text such as request and response bodies, pre-request scripts, and tests. To revert back to default text settings, select **Reset**. <!-- TODO: not in the spec, need to confirm that this is still going to be a feature -->
+**Editor** settings affect code-related text such as request and response bodies, pre-request scripts, and tests. To revert back to default text settings, select **Reset**.
 
-* **Font family:** Enter one or more font family names separated by commas. Postman uses the first available font family to display code text.
-* **Font size (`px`):** Enter the font size in pixels to use for code text.
-* **Indentation count:** Enter the number of indentation characters to use for each code level.
-* **Indentation type:** Select the indentation character type to use (**Space** or **Tab**).
-* **Auto close brackets:** Turn this on to automatically add a closing bracket when you enter an opening bracket.
-* **Auto close quotes:** Turn this on to automatically add a closing quotation mark when you enter an opening quotation mark.
+* **Font Family** - Enter one or more font family names separated by commas. Postman uses the first available font family to display code text.
+* **Font Size (`px`)** - Enter the font size in pixels to use for code text.
+* **Indentation count** - Enter the number of indentation characters to use for each code level.
+* **Indentation type** - Select the indentation character type to use (**Space** or **Tab**).
+* **Auto close brackets** - Turn this on to automatically add a closing bracket when you enter an opening bracket.
+* **Auto close quotes** - Turn this on to automatically add a closing quotation mark when you enter an opening quotation mark.
 
 ## Themes
 

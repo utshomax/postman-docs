@@ -79,7 +79,7 @@ Custom proxy settings are turned off by default. To turn them on, select **Add a
 * **Proxy Type** - Choose the type of proxy server by selecting the appropriate checkboxes. By default, both `HTTP` and `HTTPS` are checked. This means that both HTTP and HTTPS requests will go through the proxy server.
 * **Proxy Server** - Enter the **host** or **IP address** (without protocol) and the **port** of the proxy server.
 * **Proxy Auth** - Postman uses the system's proxy configurations by default. To send API requests, select the option **This proxy requires authentication.** Turning this on makes the requests use Basic Authentication method, which requires a **Username** and a **Password**.
-* **Proxy Bypass** - Enter comma-separated hosts for which the requests bypass the proxy settings.
+* **Proxy Bypass** - Enter comma-separated hosts for which the requests will bypass the proxy settings.
 
 <!-- TODO: add screenshot when build is available -->
 
