@@ -156,7 +156,7 @@ From Postman for Web, you can select the agent you would like to use for your re
 
 <img alt="Select agent" src="https://assets.postman.com/postman-docs/select-agent-for-requests.gif">
 
-> If you send a request and it isn't successful because the agent isn't selected, you will see a link in the response area that you can select to switch to the agent and send your request again.
+> If you send a request and it isn't successful because the agent isn't selected, you can use the provided link in the response area to switch to the agent and send your request again.
 
 ### Web limitations
 
@@ -168,9 +168,9 @@ Postman for Web is under active development. There are a few features you can cu
 
 ## Updating Postman
 
-Postman automatically downloads minor updates and bug fixes, and will notify you when a major update is available. An orange dot on the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> indicates that an update is available. If the indicator is red instead of orange, it indicates a failed update. <!-- TODO: ensure this is still true -->
+Postman notifies you when a major update is available. For other updates, there is a dot on the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">. If the indicator is red instead of orange, it indicates a failed update. <!-- TODO: ensure this is still true -->
 
-Select the update option to download or install the latest update. You will see a notification when the download is complete, prompting you to restart Postman to apply the updates. If you don't want to update yet, choose __Later__ to auto-update the next time you open Postman.
+Select the update option to download or install the latest update. Postman notifies you when the download is complete and prompts you to restart Postman to apply the updates. If you don't want to update yet, choose __Later__ to auto-update the next time you open Postman.
 
 To configure your preferences to enable automatic download for major updates, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">, then select __Update__. Turn on **Automatically download major updates**.
 
@@ -217,7 +217,7 @@ If you encounter any issues installing and running Postman, check out the follow
 
 ### Update failed error
 
-If you see an __Update Failed__ notification in Postman, you can use the DevTools to investigate.
+If you get an __Update Failed__ notification in Postman, you can use the DevTools to investigate.
 
 ![update-error-dialog](https://assets.postman.com/postman-docs/update-error-dialog.png)
 
@@ -236,7 +236,7 @@ Some known errors are as follows:
 
 ### Update not available
 
-If you are using Postman for Linux, and installed the app with the Ubuntu Software Center or Snap Store, you may not see the __Check for updates__ option. This is because the updates are handled by the store, which automatically updates Postman on a regular cadence.
+If you are using Postman for Linux, and installed the app with the Ubuntu Software Center or Snap Store, you may not have the __Check for updates__ option. This is because the updates are handled by the store, which automatically updates Postman on a regular cadence.
 
 ## Next steps
 
