@@ -17,14 +17,62 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
 ---
 
-> [__Reports are available on all Postman Enterprise plans.__](https://www.postman.com/pricing)
+> [**Reports are available on all Postman Enterprise plans.**](https://www.postman.com/pricing)
 
-The __Security Audit__ report provides metrics including an overview of your total collections scanned, collections with exposed tokens, total exposed tokens, and separate visualizations of exposed tokens by type and over time. This report consolidates the findings of the Postman token scanner from public documentation. Learn more about the Postman [Token Scanner](/docs/api-security/token-scanner/).
+The **Security Audit** report dashboard provides metrics including an overview of your total collections scanned, collections with exposed tokens, total exposed tokens, and separate visualizations of exposed tokens by type and over time. This report consolidates the findings of the Postman token scanner from public documentation. Learn more about the Postman [Token Scanner](/docs/api-security/token-scanner/). This section has five reports:
 
-The **Security Audit** report provides the following information for the past 30 days:
+* [API security](#api-security)
+* [Exposed tokens in public documentation](#exposed-tokens-in-public-documentation)
+* [Security warnings in public APIs](#security-warnings-in-public-apis)
+* [Security warnings in team APIs](#security-warnings-in-team-apis)
+* [Security warnings in Private Network APIs](#security-warnings-in-private-network-apis)
 
-* __Published documentation scanned__ - The number of published documentation sets that were reviewed by the Token Scanner.
-* __Published documentation with exposed tokens__ - The number of published documentation sets that have an exposed token.
-* __Total exposed tokens__ - The number of tokens that are exposed across all published documentation sets.
-* __Exposed tokens by type__ - The number of exposed tokens by type.
-* __Exposed tokens over time__ - The number of tokens that were exposed each day.
+## API security
+
+The **API security** report provides the following information for the past 30 days: <!-- TODO: should it be API security rather than security audit? -->
+
+* **APIs scanned last month** -
+* **Security warnings in Public APIs** -
+
+## Exposed tokens in public documentation
+
+The **Exposed tokens in public documentation** report provides the following information for the past 30 days:
+
+* **Published documentation scanned** - The number of published documentation sets that were reviewed by the Token Scanner.
+* **Published documentation with exposed tokens** - The number of published documentation sets that have an exposed token.
+* **Total exposed tokens** - The number of tokens that are exposed across all published documentation sets.
+* **Exposed tokens by type** - The number of exposed tokens by type.
+* **Exposed tokens over time** - The number of tokens that were exposed each day.
+
+## Security warnings in public APIs
+
+The **Security warnings in public APIs** report provides the following information for the past 30 days:
+
+* **Total active warnings** - The total number of active warnings for your publicly available APIs.
+* **API schemas with security warnings** -
+* **Active warnings over time** -
+* **Active warnings by severity** - The number of active warnings for your publicly available APIs, broken down by warning severity.
+* **Active warnings by type** -
+* **Active warnings over time by type** -
+
+## Security warnings in team APIs
+
+The **Security warnings in team APIs** report provides the following information for the past 30 days:
+
+* **Total active warnings** -
+* **API schemas with security warnings** -
+* **Active warnings over time** -
+* **Active warnings by severity** -
+* **Active warnings by type** -
+* **Active warnings over time by type** -
+
+## Security warnings in Private Network APIs
+
+The **Security warnings in Private Network APIs** report provides the following information for the past 30 days:
+
+* **Total active warnings** -
+* **API schemas with security warnings** -
+* **Active warnings over time** -
+* **Active warnings by severity** -
+* **Active warnings by type** -
+* **Active warnings over time by type** -
