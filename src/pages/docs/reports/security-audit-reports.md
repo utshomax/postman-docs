@@ -1,5 +1,5 @@
 ---
-title: "Security audit reports"
+title: "API security reports"
 updated: 2022-05-19
 warning: false
 contextual_links:
@@ -19,13 +19,13 @@ contextual_links:
 
 > [**Reports are available on all Postman Enterprise plans.**](https://www.postman.com/pricing)
 
-The **Security Audit** report dashboard provides metrics including an overview of your total collections scanned, collections with exposed tokens, total exposed tokens, and separate visualizations of exposed tokens by type and over time. This report consolidates the findings of the Postman token scanner from public documentation. Learn more about the Postman [Token Scanner](/docs/api-security/token-scanner/). This section has five reports:
+The **API Security** report dashboard provides metrics including an overview of your total collections scanned, collections with exposed tokens, total exposed tokens, and separate visualizations of exposed tokens by type and over time. This report consolidates the findings of the Postman token scanner from public documentation. Learn more about the Postman [Token Scanner](/docs/api-security/token-scanner/). This section has five reports:
 
 * [API security](#api-security)
-* [Exposed tokens in public documentation](#exposed-tokens-in-public-documentation)
 * [Security warnings in public APIs](#security-warnings-in-public-apis)
 * [Security warnings in team APIs](#security-warnings-in-team-apis)
 * [Security warnings in Private Network APIs](#security-warnings-in-private-network-apis)
+* [Exposed tokens in public documentation](#exposed-tokens-in-public-documentation)
 
 ## API security
 
@@ -33,16 +33,6 @@ The **API security** report provides the following information for the past 30 d
 
 * **APIs scanned last month** -
 * **Security warnings in Public APIs** -
-
-## Exposed tokens in public documentation
-
-The **Exposed tokens in public documentation** report provides the following information for the past 30 days:
-
-* **Published documentation scanned** - The number of published documentation sets that were reviewed by the Token Scanner.
-* **Published documentation with exposed tokens** - The number of published documentation sets that have an exposed token.
-* **Total exposed tokens** - The number of tokens that are exposed across all published documentation sets.
-* **Exposed tokens by type** - The number of exposed tokens by type.
-* **Exposed tokens over time** - The number of tokens that were exposed each day.
 
 ## Security warnings in public APIs
 
@@ -76,3 +66,13 @@ The **Security warnings in Private Network APIs** report provides the following 
 * **Active warnings by severity** -
 * **Active warnings by type** -
 * **Active warnings over time by type** -
+
+## Exposed tokens in public documentation
+
+The **Exposed tokens in public documentation** report provides the following information for the past 30 days:
+
+* **Published documentation scanned** - The number of published documentation sets that were reviewed by the Token Scanner.
+* **Published documentation with exposed tokens** - The number of published documentation sets that have an exposed token.
+* **Total exposed tokens** - The number of tokens that are exposed across all published documentation sets.
+* **Exposed tokens by type** - The number of exposed tokens by type.
+* **Exposed tokens over time** - The number of tokens that were exposed each day.
