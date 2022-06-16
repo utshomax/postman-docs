@@ -29,43 +29,42 @@ The **API Security** report dashboard provides metrics including an overview of 
 
 ## API security
 
-The **API security** report provides the following information for the past 30 days: <!-- TODO: should it be API security rather than security audit? -->
+The **API security** report provides the following information for the past 30 days:
 
-* **APIs scanned last month** -
-* **Security warnings in Public APIs** -
+* **API schemas scanned last month** - The number of public, team, and private API schemas scanned.
+* **Security warnings in Public APIs** - The number of security warnings for your publicly available APIs, broken down by warning severity.
+* **Security warnings in Team APIs** - The number of security warnings for your team APIs, broken down by warning severity.
+* **Security warnings in Private Network APIs** - The number of security warnings for your Private Network APIs, broken down by warning severity.
 
 ## Security warnings in public APIs
 
 The **Security warnings in public APIs** report provides the following information for the past 30 days:
 
-* **Total active warnings** - The total number of active warnings for your publicly available APIs.
-* **API schemas with security warnings** -
-* **Active warnings over time** -
-* **Active warnings by severity** - The number of active warnings for your publicly available APIs, broken down by warning severity.
-* **Active warnings by type** -
-* **Active warnings over time by type** -
+* **Total active warnings** - The number of active warnings for your publicly available APIs, broken down by warning severity.
+* **APIs with security warnings** - The number of your publicly available APIs that have security warnings, versus the number of your publicly available APIs that don't have security warnings.
+* **Active warnings over time** - For each of the last 30 days, the number of active security warnings for your publicly available APIs.
+* **Active warnings by type** - The number of active security warnings for your publicly available APIs, broken down by warning type.
+* **Active warnings over time by type** - For each of the last 30 days, the number of active security warnings for your publicly available APIs, broken down by warning type.
 
 ## Security warnings in team APIs
 
 The **Security warnings in team APIs** report provides the following information for the past 30 days:
 
-* **Total active warnings** -
-* **API schemas with security warnings** -
-* **Active warnings over time** -
-* **Active warnings by severity** -
-* **Active warnings by type** -
-* **Active warnings over time by type** -
+* **Total active warnings** - The number of active warnings for your team APIs, broken down by warning severity.
+* **API schemas with security warnings** - The number of your team APIs that have security warnings, versus the number of your team APIs that don't have security warnings.
+* **Active warnings over time** - For each of the last 30 days, the number of active security warnings for your team APIs.
+* **Active warnings by type** - The number of active security warnings for your team APIs, broken down by warning type.
+* **Active warnings over time by type** - For each of the last 30 days, the number of active security warnings for your team APIs, broken down by warning type.
 
 ## Security warnings in Private Network APIs
 
 The **Security warnings in Private Network APIs** report provides the following information for the past 30 days:
 
-* **Total active warnings** -
-* **API schemas with security warnings** -
-* **Active warnings over time** -
-* **Active warnings by severity** -
-* **Active warnings by type** -
-* **Active warnings over time by type** -
+* **Total active warnings** - The number of active warnings for your Private Network APIs, broken down by warning severity.
+* **API schemas with security warnings** - The number of your Private Network APIs that have security warnings, versus the number of your Private Network APIs that don't have security warnings.
+* **Active warnings over time** - For each of the last 30 days, the number of active security warnings for your Private Network APIs.
+* **Active warnings by type** - The number of active security warnings for your Private Network APIs, broken down by warning type.
+* **Active warnings over time by type** - For each of the last 30 days, the number of active security warnings for your Private Network APIs, broken down by warning type.
 
 ## Exposed tokens in public documentation
 
