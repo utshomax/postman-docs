@@ -858,6 +858,10 @@ export const leftNavItems = [
             url: '/docs/integrations/available-integrations/bitbucket/',
           },
           {
+            name: 'Bitbucket Pipelines',
+            url: '/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/',
+          },
+          {
             name: 'Circle CI',
             url: '/docs/integrations/available-integrations/ci-integrations/circleci/',
           },
@@ -880,6 +884,10 @@ export const leftNavItems = [
           {
             name: 'GitLab',
             url: '/docs/integrations/available-integrations/gitlab/',
+          },
+          {
+            name: 'GitLab CI/CD',
+            url: '/docs/integrations/available-integrations/ci-integrations/gitlab-ci/',
           },
           {
             name: 'Jenkins',
