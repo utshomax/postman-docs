@@ -43,6 +43,7 @@ To set up CI integration for your API, first set up your CI project and then con
 
 To connect your API to your CI project, see the steps for your CI tool:
 
+* [Azure DevOps Pipelines](/docs/integrations/available-integrations/ci-integrations/azure-devops-pipelines/)
 * [Bitbucket Pipelines](/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/)
 * [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/)
 * [GitLab CI/CD](/docs/integrations/available-integrations/ci-integrations/gitlab-ci/)
@@ -57,6 +58,7 @@ To run your API tests along with each build, first generate the Newman configura
 
 To configure Newman to run API tests, see the steps for your CI tool:
 
+* [Azure DevOps Pipelines](/docs/integrations/available-integrations/ci-integrations/azure-devops-pipelines/#configuring-newman-for-azure-devops-pipelines)
 * [Bitbucket Pipelines](/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/#configuring-newman-for-bitbucket-pipelines)
 * [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/#configuring-newman-for-circleci)
 * [GitLab CI/CD](/docs/integrations/available-integrations/ci-integrations/gitlab-ci/#configuring-newman-for-gitlab-cicd)
