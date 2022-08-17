@@ -44,7 +44,7 @@ If you haven't already, create a pipeline in the repository you use for your API
 
 ## Viewing build status
 
-After you set up an Azure DevOps Pipelines integration, information for build jobs is available in Postman. For each build you can view the branch, start time, duration, and status (`Success` or `Failed`). You can also view the results of collection runs that are [configured in your pipeline using Newman](#viewing-collection-run-details).
+After you set up an Azure DevOps Pipelines integration, information for build jobs is available in Postman. For each build you can view the branch, start time, duration, and status (`Succeeded` or `Failed`). You can also view the results of collection runs that are [configured in your pipeline using Newman](#viewing-collection-run-details).
 
 To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
 
