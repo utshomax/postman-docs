@@ -1,7 +1,6 @@
 import React from 'react';
 import { connectSearchBox, connectHits } from 'react-instantsearch-dom';
 
-import './_search.scss';
 
 const SearchBox = ({ currentRefinement, refine }) => (
   <div className="ais-SearchBox">

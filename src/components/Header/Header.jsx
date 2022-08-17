@@ -3,6 +3,7 @@ import './Header.scss';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 import Dropdown from './Dropdown';
 import $ from 'jquery';
+import { SearchWrapperStyling } from '../Search/navSearchStyling';
 
 // Get Cookie for Sign In toggler
 const getCookie = (a) => {
@@ -605,7 +606,7 @@ class Header extends React.Component {
               </li>
             </ul>
             {/* Aloglia Widgets */}
-            <div className="form-inline header__search">
+            <SearchWrapperStyling className="form-inline header__search">
               <svg
                 className="nav-search__icon"
                 width="16"
@@ -622,7 +623,7 @@ class Header extends React.Component {
               </svg>
             
               <Dropdown />
-            </div>
+            </SearchWrapperStyling>
           </div>
         </nav>
       </>

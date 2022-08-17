@@ -396,68 +396,6 @@
     margin-bottom: 0px;
     padding: 12px;
   }
-  /* Searchbox */
-  & form {
-    @media screen and (max-width: 992px) {
-      display: inline-block;
-      margin-top: 16px;
-      margin-left: -8px;
-    }
-  }
-
-  & input[type="search"] {
-    background-color: transparent;
-    border-color: rgba(0, 0, 0, 0.24);
-    border-width: 1px;
-    font-size: 13px;
-    padding: 4px 24px 4px 28px;
-    height: 32px;
-    margin: 0;
-    width: 256px;
-    border-radius: $borderRadiusSmall;
-    &:focus {
-      border: 1px solid #74aef6;
-      box-shadow: 0 0 0 2px #74aef6;
-      outline: none;
-    }
-    &::-webkit-input-placeholder {
-      /* Chrome/Opera/Safari */
-      color: $grey_40;
-    }
-    &::-moz-placeholder {
-      /* Firefox 19+ */
-      color: $grey_40;
-    }
-    &:-ms-input-placeholder {
-      /* IE 10+ */
-      color: $grey_40;
-    }
-    &:-moz-placeholder {
-      /* Firefox 18- */
-      color: $grey_40;
-    }
-  }
-  & label {
-    display: flex;
-    margin: 0;
-  }
-  /* Search Icon */
-  & svg.nav-search__icon {
-    position: absolute;
-    bottom: auto;
-    margin-left: 8px;
-    @media screen and (max-width: 992px) {
-      position: relative;
-      bottom: -9px;
-      margin-left: -9px;
-      left: 16px;
-    }
-  }
-  :-webkit-direct-focus {
-    outline-color: none;
-    outline-style: auto;
-    outline-width: 0;
-  }
 }
 
 // Orange Button (Sign Up / Launch Postman)
@@ -535,45 +473,6 @@ a.button__sign-in {
   @media (max-width: 992px) {
     margin-left: 16px;
   }
-}
-
-
-
-
-// Algolia Search Styling
-// the result styling is in _search.scss
-.searchbox {
-  ::placeholder {
-    color: #1c272b;
-  }
-  .ais-SearchBox-submit, .ais-SearchBox-reset {
-    display: none;
-  }
-}
-
-.ais-Pagination-list {
-  list-style: none;
-  display: flex;
-  flex-direction: row; 
-  a {
-    padding: 8px 16px;
-    color: $gray-2;
-    &:hover {
-      color: $blue_70;
-      background-color: $grey_10;
-      border: none;
-    }
-  }
-  .ais-Pagination-item--firstPage {
-    display: none;
-  }
-  .ais-Pagination-link--selected {
-    color: $grey_90;
-  }
-  .ais-Pagination-item--previousPage > .ais-Pagination-link {
-    color: $gray-2;
-  }
-
 }
 
 /* Used for Nav Bars (Do not remove) */
