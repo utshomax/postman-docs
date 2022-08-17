@@ -86,6 +86,32 @@ const SearchWrapper = styled.div`
     color: #0053B8;
     text-decoration: none;
   }
+
+  .ais-Pagination-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row; 
+  
+    a {
+      padding: 8px 16px;
+      color: #666;
+  
+      &:hover {
+        color:  ${(props) => props.theme.colors.blue_70};
+        background-color:  ${(props) => props.theme.colors.grey_10};
+        border: none;
+      }
+    }
+    .ais-Pagination-item--firstPage {
+      display: none;
+    }
+    .ais-Pagination-link--selected {
+      color:  ${(props) => props.theme.colors.grey_90};
+    }
+    .ais-Pagination-item--previousPage > .ais-Pagination-link {
+      color: #666;
+    }
+  }
 `
 const Breadcrumbs = styled.p`
   margin: 50px 0 15px 0;
