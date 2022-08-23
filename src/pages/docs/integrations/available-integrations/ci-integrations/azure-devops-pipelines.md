@@ -92,25 +92,37 @@ To generate configuration code for Newman:
 
 <img alt="Generate Newman configuration" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-generate-newman-v9-19.jpg" width="548px">
 
-To add the Newman configuration to your Bitbucket pipeline:
+To add the Newman configuration to your Azure DevOps pipeline:
 
 1. Edit the `azure-pipelines.yml` file in your repository.
 1. Add the Newman configuration you copied from Postman to the `azure-pipelines.yml` file:
     * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
-1. Commit and push the changes to your remote repository. This will automatically start a build in Azure Pipelines.
+1. Commit and push the changes to your remote repository. This will automatically start a build in Azure DevOps Pipelines.
 1. To view the test results in Postman, open your API and select the **Test** tab. Learn more about [Viewing collection run details](#viewing-collection-run-details).
 
 ### Example azure-pipelines.yml file
 
 ```yaml
-image: node:16
+trigger:
+- master
 
-pipelines:
-  default:
-    - step:
-        name: Run collection via newman
-        script:
-          - 'npm i -g newman'
-          - 'npm i -g newman-reporter-postman-cloud'
-          - newman run "https://api.getpostman.com/collections/4946945-3673316a-9a35-4b0d-a148-3566b490798d?apikey=$POSTMAN_API_KEY" -r postman-cloud --reporter-apiKey "$POSTMAN_API_KEY" --reporter-workspaceId "34f3a42c-18a7-4ad6-83fb-2c05767d63a7" --reporter-integrationIdentifier "46689-${BITBUCKET_PIPELINE_UUID}"
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '16.x'
+  displayName: 'Install Node.js'
+
+- script: |
+    npm install -g newman newman-reporter-postman-cloud
+  displayName: 'Install Newman and Postman Cloud Reporter'
+
+- task: CmdLine@2
+  displayName: 'Run Postman collection'
+  env:
+    POSTMAN_API_KEY: $(POSTMAN_API_KEY)
+  inputs:
+    script: newman run "https://api.getpostman.com/collections/4946945-3673316a-9a35-4b0d-a148-3566b490798d?apikey=${POSTMAN_API_KEY}" -r postman-cloud --reporter-apiKey "${POSTMAN_API_KEY}" --reporter-workspaceId "34f3a42c-18a7-4ad6-83fb-2c05767d63a7" --reporter-integrationIdentifier "46689-$(Build.BuildId)"
 ```
