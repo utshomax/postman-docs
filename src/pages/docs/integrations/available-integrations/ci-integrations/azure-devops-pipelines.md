@@ -97,7 +97,7 @@ To add the Newman configuration to your Azure DevOps pipeline:
 1. Edit the `azure-pipelines.yml` file in your repository.
 1. Add the Newman configuration you copied from Postman to the `azure-pipelines.yml` file:
     * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
-1. Commit and push the changes to your remote repository. This will automatically start a build in Azure DevOps Pipelines.
+1. Commit and push the changes to your remote repository. This will automatically start a build in Azure DevOps.
 1. To view the test results in Postman, open your API and select the **Test** tab. Learn more about [Viewing collection run details](#viewing-collection-run-details).
 
 ### Example azure-pipelines.yml file
