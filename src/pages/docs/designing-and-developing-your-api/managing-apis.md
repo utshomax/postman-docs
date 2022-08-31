@@ -29,6 +29,8 @@ contextual_links:
 
 When you [define your APIs](/docs/designing-and-developing-your-api/the-api-workflow/) in Postman using the API Builder, each API is associated with a workspace. You can share access to your APIs, discuss them in comments, and view schema activity.
 
+## Contents
+
 - [Sharing APIs](#sharing-apis)
 - [Collaborating on APIs](#collaborating-on-apis)
 - [Watching APIs](#watching-apis)
@@ -51,7 +53,7 @@ You can move APIs to shared workspaces to collaborate with your team.
 
 In the sidebar, select the API you want to share, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
-Use the search bar to find the workspace you'd like to move the API to, or filter by workspace visibility by selecting the icon to the right of the search bar.
+Use the search bar to find the workspace you'd like to move the API to, or filter by workspace visibility by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px">.
 
 You can share APIs to personal, private, team, and public workspaces that you have access to. Shared private, team, and public workspaces allow you to collaborate with others.
 
@@ -67,7 +69,7 @@ Select the workspace, then **Move** **API**.
 
 Note that collections, documentation, monitors, mock servers, and environments of the API will not move with the API to the new workspace automatically.
 
-Collections and environments must be [moved separately](/docs/collaborating-in-postman/sharing/#moving-postman-entities-to-collaborative-workspaces). Documentation, monitors, and mock servers must be re-configured in the new workspace.
+Collections and environments must be [moved separately](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces). Documentation, monitors, and mock servers must be re-configured in the new workspace.
 
 ## Watching APIs
 
@@ -77,13 +79,11 @@ Select __Watch__ to start watching the API.
 
 <img src="https://assets.postman.com/postman-docs/watch-button-v9.jpg" alt="Watch Option" width="350px"/>
 
-Select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The popup will indicate further information about the change that was made to the API.
+For more information about the changes to the API, select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header.
 
-![Notification Watch API](https://assets.postman.com/postman-docs/v8-watch-notification2.jpg)
+You will also receive an email with the information regarding who made the change, what the change was, and when it was made.
 
-You will also receive an email with the information regarding who has made the change, what the change was, and when it was made.
-
-> You will not receive notifications for changes made by yourself.
+> You will not receive notifications for changes that you made.
 
 ## Commenting on APIs
 

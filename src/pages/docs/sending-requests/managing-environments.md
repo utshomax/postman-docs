@@ -31,11 +31,19 @@ contextual_links:
   - type: link
     name: "Securely Using API Keys in Postman"
     url: "https://blog.postman.com/how-to-use-api-keys/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Hathway"
+    url: "https://www.postman.com/case-studies/hathway/"
+  - type: link
+    name: "VideoAmp"
+    url: "https://www.postman.com/case-studies/videoamp/"
   - type: section
     name: "Next Steps"
   - type: link
     name: "Collaborating with your team"
-    url: "/docs/collaborating-in-postman/collaboration-intro/"
+    url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
   - type: link
     name: "Version control for collections"
     url:  "/docs/collaborating-in-postman/version-control-for-collections/"
@@ -61,10 +69,11 @@ An environment is a set of [variables](/docs/sending-requests/variables/) you ca
     * [Using an environment in Editor role](#using-an-environment-in-editor-role)
     * [Forking environments](#forking-environments)
     * [Viewing pull requests, forks, and environment details](#viewing-pull-requests-forks-and-environment-details)
+* [Next steps](#next-steps)
 
 ## Creating environments
 
-Postman displays the active environment in the environment selector, located in the header.
+Postman displays the active environment in the environment selector, located in the top right of the workbench.
 
 You can access all environments from __Environments__ in the sidebar. Select the set active icon <img alt="Set active icon" src="https://assets.postman.com/postman-docs/icon-checkmark-v9.jpg#icon" width="16px"> next to an environment to make it the active environment.
 
@@ -88,7 +97,7 @@ Select __Save__ to save any environment variables you have added.
 
 ### Adding environment variables
 
-You can add variables to an active (currently selected) environment by opening the environment from the left of Postman and editing in the tab that opens.
+You can add variables to an active (currently selected) environment by opening the environment from the sidebar and editing it in the tab that opens.
 
 ![Edit environment](https://assets.postman.com/postman-docs/environment-editor-tab-v9.13.jpg)
 
@@ -105,7 +114,7 @@ Enter a name for your variable, and specify its __Initial__ and __Current__ valu
 * The __Initial Value__ is synced to your account using the Postman servers. It's shared with any collaborators who have access to the environment.
 * The __Current Value__ is used in your local instance of Postman, and is never synced to your account or shared with your team _unless you choose to persist it_.
 
-To update the synced variable with your local value, set the initial value to the current value by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to the right of the variable row and choosing __Persist__. To reset your local (current) value with the synced value shared with your workspace / collaborators, select __Reset__. You can persist or reset all values in the environment using __Persist All__ and __Reset All__.
+To update the synced variable with your local value, set the initial value to the current value by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and choosing __Persist__. To reset your local (current) value with the synced value shared with your workspace / collaborators, select __Reset__. You can persist or reset all values in the environment using __Persist All__ and __Reset All__.
 
 You can also define environment variables by **Type**. Variables are automatically assigned the default type when created, which is shown as plain text and has no additional properties. You can change sensitive variables to [secret type](/docs/sending-requests/variables/#variable-types), which masks the initial and current values for all workspace members. Secret type can be used to prevent unintentional disclosure of sensitive data, including API secrets, passwords, tokens, and keys.
 
@@ -125,7 +134,7 @@ To view the variables in an environment, select its name. You can edit, add, and
 
 ### Selecting an active environment
 
-To use the variables in an environment, select it from the environment selector at the top right of Postman.
+To use the variables in an environment, select it from the environment selector at the top right of the workbench.
 
 <img src="https://assets.postman.com/postman-docs/environment-selector-v9.13.jpg" alt="Environment selector" width="300px"/>
 
@@ -201,7 +210,7 @@ You can move environments to shared workspaces to collaborate with your team.
 
 In the sidebar, select the environment you want to share, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
-Use the search bar to find the workspace you'd like to move the environment to, or filter by workspace visibility by selecting the icon to the right of the search bar.
+Use the search bar to find the workspace you want to move the environment to, or filter by workspace visibility by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px">.
 
 You can share environments to personal, private, team, and public workspaces that you have access to. Shared private, team, and public workspaces allow you to collaborate with others.
 
@@ -215,7 +224,7 @@ Select the workspace, then **Move**  **Environment**.
 
 <img alt="Move environment" src="https://assets.postman.com/postman-docs/move-environment-v9.1.jpg" width="400px"/>
 
-Note that monitors, mock servers, and integrations in the original workspace that are using the environment may no longer work and will need to be re-configured in the new workspace. Collections and APIs that use the environment must be [moved separately](/docs/collaborating-in-postman/sharing/#moving-postman-entities-to-collaborative-workspaces).
+Note that monitors, mock servers, and integrations in the original workspace that are using the environment may no longer work and will need to be re-configured in the new workspace. Collections and APIs that use the environment must be [moved separately](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces).
 
 You can manage roles on an environment by navigating to it in the sidebar, selecting it, then selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Manage Roles**.
 
@@ -255,7 +264,7 @@ If you have edit access to an environment, you can update the variable values fr
 
 When you edit the initial value of a shared environment variable, your updated value will be reflected for everyone who has access to the environment, so ensure that you only do this when you are happy for your value to be synced with the Postman servers.
 
-> If you clear the checkbox for a variable in your environment, it will only be available to collaborators who also have Editor access to the environment. The variable's listing will also indicate whether it is active. Anyone with the Viewer role for the environment won't be able to access the cleared variable. </br></br> ![Turn off environment variable](https://assets.postman.com/postman-docs/environment-editor-unchecked-var-v9.13.jpg)
+> If you clear the checkbox for a variable in your environment, it will only be available to collaborators who also have Editor access to the environment. The variable's listing will also indicate whether it's active. Anyone with the Viewer role for the environment won't be able to access the cleared variable. </br></br> ![Turn off environment variable](https://assets.postman.com/postman-docs/environment-editor-unchecked-var-v9.13.jpg)
 
 With the Editor role, you can [configure access for other team members](#managing-environment-roles). If you need to specify access but don't have the Editor role, you can [request access](#requesting-environment-access).
 
@@ -263,7 +272,7 @@ With the Editor role, you can [configure access for other team members](#managin
 
 You can fork environments to change them without impacting their base versions, or to contribute to their development without having Editor access. To fork an environment:
 
-1. Hover over the environment in the sidebar and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to the right of the environment's name.
+1. Hover over the environment in the sidebar and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 2. Select **Create a Fork**.
 
 > You can also fork an environment by selecting **Fork** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the environment overview tab.
@@ -284,7 +293,7 @@ If you have [Editor access](/docs/collaborating-in-postman/roles-and-permissions
 
 Shared environments allow you to leverage collaboration within Postman. Check out some more resources on how you can work with team members on your API development projects:
 
-* [Collaborating in Postman](/docs/collaborating-in-postman/collaboration-intro/)
-* [Intro to workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/)
-* [Managing and sharing APIs](/docs/designing-and-developing-your-api/managing-apis/)
-* [Version control for collections](/docs/collaborating-in-postman/version-control-for-collections/)
+* To learn more about how to use Postman with your team, visit [Collaborating in Postman](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/).
+* To learn more about how create a workspace in Postman, visit [Intro to workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
+* To learn more about how to share access to your APIs, visit [Managing and sharing APIs](/docs/designing-and-developing-your-api/managing-apis/).
+* To learn how to use version control to collaboratively build an API, visit [Using version control](/docs/collaborating-in-postman/version-control-for-collections/).
