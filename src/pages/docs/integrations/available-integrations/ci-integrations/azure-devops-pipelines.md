@@ -13,7 +13,7 @@ contextual_links:
 
 [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/) is a continuous integration (CI) and continuous delivery (CD) service that's integrated with Microsoft Azure DevOps. Software development teams can use Azure Pipelines to automatically build, test, and deploy code in Azure DevOps.
 
-To set up an Azure DevOps Pipelines integration for your API, first create a pipeline in the version control system of your choice, and then configure your API in Postman. After you set up the integration, you can view the status of builds from within Postman.
+To set up an Azure DevOps Pipelines integration for your API, first create a repository in a [version control system supported by Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/repos/). Create a pipeline in the repository, and then configure your API in Postman. After you set up the integration, you can view the status of builds (pipelines) from within Postman.
 
 > Azure DevOps Pipelines integration isn't available on Azure DevOps Server (hosted on-premises).
 
@@ -27,7 +27,7 @@ To set up an Azure DevOps Pipelines integration for your API, first create a pip
 
 ## Creating a pipeline in Azure DevOps
 
-If you haven't already, create a pipeline in the repository you use for your API. To create a pipeline, you add an `azure-pipelines.yml` file to your repository. You define your pipeline in this YAML file. To learn more, see [the Azure Pipelines documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/pipelines-get-started).
+If you haven't already, create a repository in a version control system supported by Azure Pipelines. To create a pipeline, add a YAML file in your repository. You define your pipeline in this YAML file. To learn more, see [the Azure Pipelines documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/pipelines-get-started).
 
 ## Configuring an Azure DevOps Pipelines integration
 
@@ -35,7 +35,7 @@ If you haven't already, create a pipeline in the repository you use for your API
 1. Select the **Test** tab.
 1. Under **Connect to CI/CD Builds**, select **Azure DevOps**.
 1. You'll be prompted to allow Postman to access your Azure DevOps account. After you grant access, you can close the browser tab and return to Postman.
-1. Enter a **Nickname** to help you recognize the integration later.
+1. Enter a **Nickname** to help you recognize the integration later. Postman pre-fills a nickname in the format `Azure DevOps Pipelines-{API_NAME}`, and you can edit it if you want.
 1. Enter the Azure DevOps **Organization Name** where you created the project pipeline.
 1. Select the **CI project** used for your API.
 1. Select **Connect**.
@@ -44,7 +44,7 @@ If you haven't already, create a pipeline in the repository you use for your API
 
 ## Viewing build status
 
-After you set up an Azure DevOps Pipelines integration, information for build jobs is available in Postman. For each build you can view the branch, start time, duration, and status (`Succeeded` or `Failed`). You can also view the results of collection runs that are [configured in your pipeline using Newman](#viewing-collection-run-details).
+After you set up an Azure DevOps Pipelines integration, information for build jobs (pipeline runs) is available in Postman. For each build you can view the branch, start time, duration, and status (`Succeeded` or `Failed`). You can also view the results of collection runs that are [configured in your pipeline using Newman](#viewing-collection-run-details).
 
 To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
 
@@ -72,7 +72,7 @@ To view details for collections that were run as part of a build, first [configu
 
 ## Configuring Newman for Azure DevOps Pipelines
 
-With the help of Newman and the Postman API, you can run API tests created in Postman as part of your Azure DevOps pipeline. First generate the Newman configuration code in Postman. Then add the configuration code to the `azure-pipelines.yml` file in your repository.
+With the help of Newman and the Postman API, you can run API tests created in Postman as part of your Azure DevOps pipeline. First generate the Newman configuration code in Postman. Then add the configuration code to the YAML file in your repository.
 
 Each time the pipeline runs, Newman runs the collections that contain your tests. You can view the results of your tests in Postman. You an also configure the [Postman cloud reporter](https://www.npmjs.com/package/newman-reporter-postman-cloud) to send detailed collection run information back to Postman.
 
@@ -94,13 +94,13 @@ To generate configuration code for Newman:
 
 To add the Newman configuration to your Azure DevOps pipeline:
 
-1. Edit the `azure-pipelines.yml` file in your repository.
+1. Edit the YAML file in your repository.
 1. Add the Newman configuration you copied from Postman to the `azure-pipelines.yml` file:
-    * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
+    * Replace all instances of `$(POSTMAN_API_KEY)` and `${POSTMAN_API_KEY}` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
 1. Commit and push the changes to your remote repository. This will automatically start a build in Azure DevOps.
 1. To view the test results in Postman, open your API and select the **Test** tab. Learn more about [Viewing collection run details](#viewing-collection-run-details).
 
-### Example azure-pipelines.yml file
+### Example YAML file
 
 ```yaml
 trigger:
