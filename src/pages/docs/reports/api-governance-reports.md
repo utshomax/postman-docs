@@ -27,8 +27,38 @@ The **API Security** report dashboard provides metrics including an overview of 
 
 ## API Governance
 
+The **API Governance** report provides the following information for the past 30 days:
+
+* **Compliance** -
+* **Non-compliance** -
+* **API compliance over time** -
+* **Current API landscape** -
+* **APIs with most violations** -
+* **Top rules violated** -
+
 ## Public APIs
+
+* **Compliance** -
+* **Non-compliance** -
+* **API compliance over time** -
+* **Current API landscape** -
+* **Top 3 rules violated** -
+* **Top 3 APIs with most violations** -
 
 ## Team APIs
 
+* **Compliance** -
+* **Non-compliance** -
+* **API compliance over time** -
+* **Current API landscape** -
+* **Top rules violated** -
+* **Top 3 APIs with most violations** -
+
 ## Private Network APIs
+
+* **Compliance** -
+* **Non-compliance** -
+* **API compliance over time** -
+* **Current API landscape** -
+* **Top 3 rules violated** -
+* **Top 3 APIs with most violations** -
