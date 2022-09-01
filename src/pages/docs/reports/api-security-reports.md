@@ -27,39 +27,44 @@ The **API Security** report dashboard provides metrics including an overview of 
 
 ## API Security
 
-The **API security** report provides the following information for the past 30 days:
+The **API Security** report provides the following information for the past 30 days:
 
-* **API schemas scanned last month** - The number of public, team, and private API schemas scanned.
-* **Security warnings in Public APIs** - The number of security warnings for your publicly available APIs, broken down by warning severity.
-* **Security warnings in Team APIs** - The number of security warnings for your team APIs, broken down by warning severity.
-* **Security warnings in Private Network APIs** - The number of security warnings for your Private Network APIs, broken down by warning severity.
+* **Compliance** -
+* **Non-compliance** -
+* **API compliance over time** -
+* **Current API landscape** -
+* **APIs with most violations** -
+* **Top rules violated** -
 
 ## Public APIs
 
-The **Security warnings in public APIs** report provides the following information for the past 30 days:
+The **Public APIs** report provides the following information for the past 30 days:
 
-* **Total active warnings** - The number of active warnings for your publicly available APIs, broken down by warning severity.
-* **APIs with security warnings** - The number of your publicly available APIs that have security warnings, versus the number of your publicly available APIs that don't have security warnings.
-* **Active warnings over time** - For each of the last 30 days, the number of active security warnings for your publicly available APIs.
-* **Active warnings by type** - The number of active security warnings for your publicly available APIs, broken down by warning type.
-* **Active warnings over time by type** - For each of the last 30 days, the number of active security warnings for your publicly available APIs, broken down by warning type.
+* **Compliance** -
+* **Non-compliance** -
+* **API compliance over time** -
+* **Current API landscape** -
+* **Top 3 rules violated** -
+* **Top 3 APIs with most violations** -
 
 ## Team APIs
 
-The **Security warnings in team APIs** report provides the following information for the past 30 days:
+The **Team APIs** report provides the following information for the past 30 days:
 
-* **Total active warnings** - The number of active warnings for your team APIs, broken down by warning severity.
-* **API schemas with security warnings** - The number of your team APIs that have security warnings, versus the number of your team APIs that don't have security warnings.
-* **Active warnings over time** - For each of the last 30 days, the number of active security warnings for your team APIs.
-* **Active warnings by type** - The number of active security warnings for your team APIs, broken down by warning type.
-* **Active warnings over time by type** - For each of the last 30 days, the number of active security warnings for your team APIs, broken down by warning type.
+* **Compliance** -
+* **Non-compliance** -
+* **API compliance over time** -
+* **Current API landscape** -
+* **Top 3 rules violated** -
+* **Top 3 APIs with most violations** -
 
 ## Private Network APIs
 
-The **Security warnings in Private Network APIs** report provides the following information for the past 30 days:
+The **Private Network APIs** report provides the following information for the past 30 days:
 
-* **Total active warnings** - The number of active warnings for your Private Network APIs, broken down by warning severity.
-* **API schemas with security warnings** - The number of your Private Network APIs that have security warnings, versus the number of your Private Network APIs that don't have security warnings.
-* **Active warnings over time** - For each of the last 30 days, the number of active security warnings for your Private Network APIs.
-* **Active warnings by type** - The number of active security warnings for your Private Network APIs, broken down by warning type.
-* **Active warnings over time by type** - For each of the last 30 days, the number of active security warnings for your Private Network APIs, broken down by warning type.
+* **Compliance** -
+* **Non-compliance** -
+* **API compliance over time** -
+* **Current API landscape** -
+* **Top 3 rules violated** -
+* **Top 3 APIs with most violations** -
