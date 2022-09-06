@@ -18,7 +18,7 @@ contextual_links:
 
 > [**Reports are available on all Postman Enterprise plans.**](https://www.postman.com/pricing)
 
-The **API Security** report dashboard provides metrics including an overview of <!-- TODO: fill this in -->. This section has two reports:
+The **API Security** report dashboard provides metrics relevant to your team's [API Governance](/docs/api-governance/api-governance-overview/) rule compliance. This section has two reports:
 
 * [Public APIs](#public-apis)
 * [Private Network APIs](#private-network-apis)
