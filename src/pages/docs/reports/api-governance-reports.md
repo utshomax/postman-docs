@@ -18,53 +18,29 @@ contextual_links:
 
 > [**Reports are available on all Postman Enterprise plans.**](https://www.postman.com/pricing)
 
-The **API Security** report dashboard provides metrics including an overview of <!-- TODO: fill this in -->. This section has four reports:
+The **API Security** report dashboard provides metrics including an overview of <!-- TODO: fill this in -->. This section has two reports:
 
-* [API Governance](#api-governance)
 * [Public APIs](#public-apis)
-* [Team APIs](#team-apis)
 * [Private Network APIs](#private-network-apis)
-
-## API Governance
-
-The **API Governance** report provides the following information for the past 30 days:
-
-* **Compliance** - The number of APIs owned by your team that do not have any API Governance warnings.
-* **Non-compliance** - The average number of API Governance warnings per API.
-* **API compliance over time** - Per day over the last 30 days, the number of APIs without API Governance warnings and the number of APIs with API Governance warnings.
-* **Current API landscape** - The number of APIs owned by your team, broken down by the number of API Governance warnings in each.
-* **APIs with most violations** - The APIs owned by your team that have the most API Governance rule violations.
-* **Top rules violated** - The API Governance rules that are most frequently violated in APIs owned by your team.
 
 ## Public APIs
 
-The **Public APIs** report provides the following information for the past 30 days:
+The **Public APIs** report provides the following information for APIs in your team's [public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) over the past 30 days:
 
-* **Compliance** -
-* **Non-compliance** -
-* **API compliance over time** -
-* **Current API landscape** -
-* **Top 3 rules violated** -
-* **Top 3 APIs with most violations** -
-
-## Team APIs
-
-The **Team APIs** report provides the following information for the past 30 days:
-
-* **Compliance** -
-* **Non-compliance** -
-* **API compliance over time** -
-* **Current API landscape** -
-* **Top rules violated** -
-* **Top 3 APIs with most violations** -
+* **Conformance** - The number of APIs in your team's public workspaces that don't have any API Governance rule violations.
+* **Non-conformance** - The average number of API Governance rule violations per API in your team's public workspaces.
+* **API conformance over time** - Per day over the last 30 days, the number of APIs without API Governance rule violations and the number of APIs with API Governance rule violations.
+* **Current API landscape** - The number of APIs in your team's public workspaces, broken down by the number of API Governance rule violations in each.
+* **Top 3 rules violated** - The three API Governance rules that are most frequently violated in APIs in your team's public workspaces.
+* **Top 3 APIs with most violations** - The three APIs in your team's public workspaces that most frequently have API Governance rule violations.
 
 ## Private Network APIs
 
-The **Private Network APIs** report provides the following information for the past 30 days:
+The **Private Network APIs** report provides the following information for APIs in your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/) over the past 30 days:
 
-* **Compliance** -
-* **Non-compliance** -
-* **API compliance over time** -
-* **Current API landscape** -
-* **Top 3 rules violated** -
-* **Top 3 APIs with most violations** -
+* **Conformance** - The number of APIs in your team's Private API Network that don't have any API Governance rule violations.
+* **Non-conformance** - The average number of API Governance rule violations per API in your team's Private API Network.
+* **API conformance over time** - Per day over the last 30 days, the number of APIs without API Governance rule violations and the number of APIs with API Governance rule violations.
+* **Current API landscape** - The number of APIs in your team's Private API Network, broken down by the number of API Governance rule violations in each.
+* **Top 3 rules violated** - The three API Governance rules that are most frequently violated in APIs in your team's Private API Network.
+* **Top 3 APIs with most violations** - The three APIs in your team's Private API Network that most frequently have API Governance rule violations.

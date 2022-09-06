@@ -18,53 +18,29 @@ contextual_links:
 
 > [**Reports are available on all Postman Enterprise plans.**](https://www.postman.com/pricing)
 
-The **API Security** report dashboard provides metrics including an overview of <!-- TODO: fill this in --> This section has four reports:
+The **API Security** report dashboard provides metrics including an overview of <!-- TODO: fill this in --> This section has two reports:
 
-* [API Security](#api-security)
 * [Public APIs](#public-apis)
-* [Team APIs](#team-apis)
 * [Private Network APIs](#private-network-apis)
-
-## API Security
-
-The **API Security** report provides the following information for the past 30 days:
-
-* **Compliance** -
-* **Non-compliance** -
-* **API compliance over time** -
-* **Current API landscape** -
-* **APIs with most violations** -
-* **Top rules violated** -
 
 ## Public APIs
 
-The **Public APIs** report provides the following information for the past 30 days:
+The **Public APIs** report provides the following information for APIs in your team's [public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) over the past 30 days:
 
-* **Compliance** -
-* **Non-compliance** -
-* **API compliance over time** -
-* **Current API landscape** -
-* **Top 3 rules violated** -
-* **Top 3 APIs with most violations** -
-
-## Team APIs
-
-The **Team APIs** report provides the following information for the past 30 days:
-
-* **Compliance** -
-* **Non-compliance** -
-* **API compliance over time** -
-* **Current API landscape** -
-* **Top 3 rules violated** -
-* **Top 3 APIs with most violations** -
+* **Conformance** - The number of APIs in your team's public workspaces that don't have any API Security rule violations.
+* **Non-conformance** - The average number of API Security rule violations per API in your team's public workspaces.
+* **API conformance over time** - Per day over the last 30 days, the number of APIs without API Security rule violations and the number of APIs with API Security rule violations.
+* **Current API landscape** - The number of APIs in your team's public workspaces, broken down by the number of API Security rule violations in each.
+* **Top 3 rules violated** - The three API Security rules that are most frequently violated in APIs in your team's public workspaces.
+* **Top 3 APIs with most violations** - The three APIs in your team's public workspaces that most frequently have API Security rule violations.
 
 ## Private Network APIs
 
-The **Private Network APIs** report provides the following information for the past 30 days:
+The **Private Network APIs** report provides the following information for APIs in your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/) over the past 30 days:
 
-* **Compliance** -
-* **Non-compliance** -
-* **API compliance over time** -
-* **Current API landscape** -
-* **Top 3 rules violated** -
-* **Top 3 APIs with most violations** -
+* **Conformance** - The number of APIs in your team's Private API Network that don't have any API Security rule violations.
+* **Non-conformance** - The average number of API Security rule violations per API in your team's Private API Network.
+* **API conformance over time** - Per day over the last 30 days, the number of APIs without API Security rule violations and the number of APIs with API Security rule violations.
+* **Current API landscape** - The number of APIs in your team's Private API Network, broken down by the number of API Security rule violations in each.
+* **Top 3 rules violated** - The three API Security rules that are most frequently violated in APIs in your team's Private API Network.
+* **Top 3 APIs with most violations** - The three APIs in your team's Private API Network that most frequently have API Security rule violations.
