@@ -58,7 +58,7 @@ To run your API tests along with each build, first generate the Newman configura
 
 To configure Newman to run API tests, see the steps for your CI tool:
 
-* [Azure DevOps Pipelines](/docs/integrations/available-integrations/ci-integrations/azure-devops-pipelines/#configuring-newman-for-azure-devops-pipelines)
+* [Azure DevOps Pipelines](/docs/integrations/available-integrations/ci-integrations/azure-devops-pipelines/#configuring-the-postman-cli-for-azure-devops-pipelines)
 * [Bitbucket Pipelines](/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/#configuring-newman-for-bitbucket-pipelines)
 * [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/#configuring-newman-for-circleci)
 * [GitLab CI/CD](/docs/integrations/available-integrations/ci-integrations/gitlab-ci/#configuring-newman-for-gitlab-cicd)

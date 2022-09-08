@@ -23,7 +23,7 @@ To set up an Azure DevOps Pipelines integration for your API, first create a rep
 * [Configuring an Azure DevOps Pipelines integration](#configuring-an-azure-devops-pipelines-integration)
 * [Viewing build status](#viewing-build-status)
 * [Viewing collection run details](#viewing-collection-run-details)
-* [Configuring Newman for Azure DevOps Pipelines](#configuring-newman-for-azure-devops-pipelines)
+* [Configuring the Postman CLI for Azure DevOps Pipelines](#configuring-the-postman-cli-for-azure-devops-pipelines)
 
 ## Creating a pipeline in Azure DevOps
 
@@ -44,7 +44,7 @@ If you haven't already, create a repository in a version control system supporte
 
 ## Viewing build status
 
-After you set up an Azure DevOps Pipelines integration, information for build jobs (pipeline runs) is available in Postman. For each build you can view the branch, start time, duration, and status (`Succeeded` or `Failed`). You can also view the results of collection runs that are [configured in your pipeline using Newman](#viewing-collection-run-details).
+After you set up an Azure DevOps Pipelines integration, information for build jobs (pipeline runs) is available in Postman. For each build you can view the branch, start time, duration, and status (`Succeeded` or `Failed`). You can also view the results of collection runs that are [configured in your pipeline using the Postman CLI](#viewing-collection-run-details).
 
 To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
 
@@ -62,40 +62,38 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 
 ## Viewing collection run details
 
-Using Newman, you can run Postman collections with your API tests as part of an Azure DevOps pipeline. The Postman cloud reporter can send details about the collection runs back to Postman.
+Using the Postman CLI, you can run Postman collections with your API tests as part of an Azure DevOps pipeline.
 
-To view details for collections that were run as part of a build, first [configure Newman for Azure DevOps Pipelines](#configuring-newman-for-azure-devops-pipelines) and then start a new build in Azure DevOps. To learn more about starting builds, see [the Azure Pipelines documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/runs). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
+To view details for collections that were run as part of a build, first [configure the Postman CLI for Azure DevOps Pipelines](#configuring-the-postman-cli-for-azure-devops-pipelines) and then start a new build in Azure DevOps. To learn more about starting builds, see [the Azure Pipelines documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/runs). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
 
 <img alt="View Azure DevOps Pipelines collection runs" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-collection-runs-v9-19.jpg">
 
 > Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
 
-## Configuring Newman for Azure DevOps Pipelines
+## Configuring the Postman CLI for Azure DevOps Pipelines
 
-With the help of Newman and the Postman API, you can run API tests created in Postman as part of your Azure DevOps pipeline. First generate the Newman configuration code in Postman. Then add the configuration code to the YAML file in your repository.
+With the help of the Postman CLI and the Postman API, you can run API tests created in Postman as part of your Azure DevOps pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to the YAML file in your repository.
 
-Each time the pipeline runs, Newman runs the collections that contain your tests. You can view the results of your tests in Postman. You an also configure the [Postman cloud reporter](https://www.npmjs.com/package/newman-reporter-postman-cloud) to send detailed collection run information back to Postman.
+Each time the pipeline runs, the Postman CLI runs the collections that contain your tests. You can view the results of your tests in Postman.
 
 > Before you begin, make sure you’ve already [set up an integration](#configuring-an-azure-devops-pipelines-integration) between your API version and Azure DevOps Pipelines.
 
-To generate configuration code for Newman:
+To generate configuration code for the Postman CLI:
 
 1. Open your API version and select the **Test** tab.
 1. Under **CI/CD Builds**, select **View All Builds**.
-1. Select **Configure Newman**.
-1. Select a **Collection** to run during pipeline builds. To be available in the dropdown list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
+1. Select **Configure Postman CLI**.
+1. Select a **Collection** to run during pipeline builds. To be available in the list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
+1. (Optional) Select the check box to test the API's schema against configured governance and security rules.
+1. Select the **Operating system** for your CI/CD pipeline.
+1. Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy** to copy the Postman CLI configuration, and then select **Finish**.
 
-    > If needed, select **+ Add More** to select other collections to run.
+<img alt="Generate the Postman CLI configuration" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-v10.jpg" width="548px">
 
-1. (Optional) Select the check box to use the Postman cloud reporter to send collection run information back to Postman. You can view the collection run details in the Postman **History** and on the API version **Test** tab.
-1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
-
-<img alt="Generate Newman configuration" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-generate-newman-v9-19.jpg" width="548px">
-
-To add the Newman configuration to your Azure DevOps pipeline:
+To add the Postman CLI configuration to your Azure DevOps pipeline:
 
 1. Create a new YAML file in your repository, and then edit the file.
-1. Add the Newman configuration you copied from Postman to the YAML file:
+1. Add the Postman CLI configuration you copied from Postman to the YAML file:
     * Replace all instances of `$(POSTMAN_API_KEY)` and `${POSTMAN_API_KEY}` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
 1. Commit and push the changes to your remote repository. This will automatically start a build in Azure DevOps.
 1. To view the test results in Postman, open your API and select the **Test** tab. Learn more about [Viewing collection run details](#viewing-collection-run-details).
