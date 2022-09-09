@@ -16,12 +16,14 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
 ---
 
-> [**Reports are available on all Postman Enterprise plans.**](https://www.postman.com/pricing)
+> **This Enterprise feature is in beta.** During the beta period, it may not be available to all [Postman Enterprise](https://www.postman.com/pricing) users and is subject to potential changes.
 
 The **API Governance** report dashboard provides metrics relevant to your team's [API Governance](/docs/api-governance/api-governance-overview/) rule compliance. This section has two reports:
 
 * [Public APIs](#public-apis)
 * [Private Network APIs](#private-network-apis)
+
+You can use these reports to answer API governance questions about APIs owned by your team that are part of the [Public API Network](/docs/getting-started/exploring-public-api-network/) and your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
 
 ## Public APIs
 
