@@ -21,6 +21,9 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
+    name: "Postman Essentials: Exploring the Collection Format"
+    url: "https://blog.postman.com/postman-essentials-exploring-the-collection-format/"
+  - type: link
     name: "Latest Updates to Syncing Your Specs with Collections"
     url: "https://blog.postman.com/latest-updates-to-syncing-your-specs-with-collections/"
   - type: link
@@ -115,7 +118,7 @@ See the [Postman Collection Transformer](https://github.com/postmanlabs/postman-
 
 To import your API specifications into Postman, see [Importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
 
-## Importing from GitHub repositories
+### Importing from GitHub repositories
 
 > You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
@@ -133,7 +136,7 @@ You can import data in bulk from a GitHub repository.
 
 You will receive a confirmation once the import has completed. You can view your imported files and generated collections in Postman.
 
-## Importing from Bitbucket repositories
+### Importing from Bitbucket repositories
 
 > You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
@@ -149,7 +152,7 @@ You can import data in bulk from a Bitbucket repository.
 
 You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
 
-## Importing from GitLab repositories
+### Importing from GitLab repositories
 
 > You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
@@ -165,7 +168,7 @@ You can import data in bulk from a GitLab repository.
 
 You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
 
-## Importing from Azure DevOps repositories
+### Importing from Azure DevOps repositories
 
 > You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
 

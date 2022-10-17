@@ -9,12 +9,33 @@ contextual_links:
     url: "https://www.postman.com/downloads/"
   - type: section
     name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
   - type: link
-    name: "Postman Now Supports gRPC"
-    url: "https://blog.postman.com/postman-now-supports-grpc/"
+    name: "Working with gRPC | The Exploratory"
+    url: "https://youtu.be/RbHOs2xchGE"
   - type: link
-    name: "Latest Advancements to Postman’s gRPC Support"
-    url: "https://blog.postman.com/latest-advancements-to-postmans-grpc-support/"
+    name: "From Zero to Proto - Design and Test a gRPC API"
+    url: "https://youtu.be/EA4eCY0tkpA"
+  - type: link
+    name: "How We Built It: gRPC support"
+    url: "https://youtu.be/XaryQIjm4h0"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Postman v10 and gRPC: What You Can Do"
+    url: "https://blog.postman.com/postman-v10-and-grpc-what-you-can-do/"
+  - type: link
+    name: "Understanding Asynchronous APIs"
+    url: "https://blog.postman.com/understanding-asynchronous-apis/"
+  - type: link
+    name: "How to Choose HTTP or gRPC for Your Next API"
+    url: "https://blog.postman.com/how-to-choose-http-or-grpc-for-your-next-api/"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "Public gRPC APIs"
+    url:  "https://www.postman.com/devrel/workspace/public-grpc-apis"
 ---
 
 _gRPC_ is a schema-driven Remote Procedure Call (RPC) framework often used to enable inter-service communication. Being RPC-based, it facilitates client-server communication over a function call instead of an HTTP call. gRPC has gained significant popularity because of its easier abstraction than HTTP, support across multiple languages, and high performance.
@@ -27,7 +48,7 @@ Postman has a client interface to work with gRPC services and the API Builder in
 
 You can use the [Postman API Builder](/docs/designing-and-developing-your-api/the-api-workflow/) to create the service definition using protobuf IDL and maintain it as a single source of truth for your API project.
 
-<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/grpc-client-overview/grpc-request.jpg" alt="gRPC request interface">
+<img src="https://assets.postman.com/postman-docs/v10/grpc-echo-request.jpg" alt="gRPC request interface">
 
 ## Next steps
 

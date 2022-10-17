@@ -1,6 +1,6 @@
 ---
 title: "Viewing documentation"
-updated: 2022-09-15
+updated: 2022-10-04
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -27,9 +27,6 @@ contextual_links:
   - type: link
     name: "Publishing your docs"
     url: "/docs/publishing-your-api/publishing-your-docs/"
-
-warning: false
-
 ---
 
 Documentation helps you get more out of the collections and APIs that you work with in Postman. View documentation to learn more about the requests in a collection or how to interact with an API's endpoints.
@@ -62,15 +59,17 @@ To view documentation for a collection:
 
 <img alt="View complete documentation" src="https://assets.postman.com/postman-docs/documentation-view-complete-v9.jpg" width="566px"/>
 
+> If your collection has [gRPC requests](/docs/sending-requests/grpc/grpc-request-interface/#the-right-sidebar) or [WebSocket requests](/docs/sending-requests/websocket/websocket/#documenting-requests), the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> isn't available for collections or folders. Select a collection or folder in the sidebar to view its description. You can't view complete collection documentation for collections with gRPC or WebSocket requests.
+
 The documentation includes a [description](/docs/publishing-your-api/authoring-your-documentation/#adding-descriptions-to-your-documentation) of each request, as well as details such as the method and URL, the required authorization type, and any headers or parameters. For each request, you can view sample code in various client languages, together with example response bodies and headers.
 
 Use the following options to customize the appearance of the documentation:
 
-* **Release Tag** - If the documentation has multiple [release tags](/docs/publishing-your-api/documenting-your-api/#documenting-releases), you can select a specific release to view.
+* **Version** - If the documentation has multiple versions, you can select a specific version to view. (You can no longer create versions or releases for collections in Postman v10, but API producers can [publish versions of an API](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).)
 * **Language** - Select a language to use for sample code.
-* **Code Generation Settings** - Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to customize settings for the currently selected language.
+* **Code Generation Settings** - Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to customize settings for the selected language.
 
-[![Viewing a release](https://assets.postman.com/postman-docs/documentation-view-release-v9.jpg)](https://assets.postman.com/postman-docs/documentation-view-release-v9.jpg)
+<img alt="Viewing collection documentation" src="https://assets.postman.com/postman-docs/v10/documentation-view-full-docs-v10.jpg" />
 
 > Another way to view documentation is to visit your [user profile](https://postman.co/me/collections). Select the **Collections** tab for a list of collections that have been shared with you as well as your own collections. Select a collection to view its documentation.
 
@@ -84,12 +83,14 @@ To view documentation for an API:
 
     > You can also search for APIs on the [Private API Network](https://go.postman.co/network/private) or the [Public API Network](https://www.postman.com/explore/apis).
 
-1. Select a documentation source in the left pane:
+1. Select a documentation source on the API's overview:
 
-    * **Schema Documentation** - Select an API, and then select **Definition**. (Schema documentation is only available for OpenAPI 3.0 schemas.)
-    * **Collection Documentation** - Select a collection inside the API, and then select an item to view a specific path or request. To get the sample code in a different language, select it in the **Language** menu.
+    * To view schema documentation, under **Definition**, select **View schema documentation**. (Schema documentation is available for OpenAPI 3.0 schemas.)
+    * To view collection documentation, expand a collection and select **View full documentation**. To get sample code in a different language, select it in the **Language** menu.
 
 <img alt="Viewing API documentation" src="https://assets.postman.com/postman-docs/v10/documentation-view-schema-docs-v10a.jpg" width="1106px">
+
+> API developers can publish different versions of an API. You can view documentation for each published version. Learn more about [viewing a published API version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/#viewing-a-published-api-version).
 
 ## Viewing public documentation
 
@@ -99,7 +100,7 @@ Each request entry has a description of the request, the method and URL, the req
 
 Use the options in the header to customize the appearance of the documentation:
 
-* **Release Tag** - If the documentation has multiple [release tags](/docs/publishing-your-api/documenting-your-api/#documenting-releases), you can select a specific release to view.
+* **Release Tag** - If the documentation has multiple release tags, you can select a specific release to view. (You can no longer create versions or releases for collections in Postman v10, but API producers can [publish versions of an API](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).)
 * **Environment** - If an [environment](/docs/publishing-your-api/documenting-your-api/#associating-environments-with-documentation) was published with the documentation, you can select it to populate any variables.
 * **Layout** - **Double column** displays sample code in a column next to the documentation. **Single column** displays sample code inline beneath each request.
 * **Language** - Select a language to use for sample code.

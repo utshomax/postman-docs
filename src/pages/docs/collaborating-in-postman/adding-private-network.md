@@ -20,8 +20,8 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Introducing the New Private API Network for Easier Discovery"
-    url: "https://blog.postman.com/new-private-api-network-for-easier-discovery/"
+    name: "Improved Internal API Discovery with the Redesigned Private API Network"
+    url: "https://blog.postman.com/improving-api-discovery-with-the-redesigned-private-api-network/"
   - type: link
     name: "Introducing the API Network Manager Role and Approval Process"
     url: "https://blog.postman.com/introducing-private-api-network-manager-role-and-approval-process/"
@@ -264,9 +264,9 @@ The APIs that you publish to the Private API Network reflect the latest state of
 
 #### Publishing specific API versions
 
-If your API is connected to a Git repository, you need to publish an API version to update your team workspace with the latest changes. When you publish a version, the API's definition and linked elements (collections and environments) are synced to the Postman cloud.
+Publishing a version creates a static representation of your API that consumers can view on the Private API Network. If your API is connected to a Git repository, you need to publish an API version to update your team workspace with the latest changes. When you publish a version, the API's definition and collections are synced to the Postman cloud.
 
-API consumers can view the latest published version on the Private API Network. Learn more about [publishing an API version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).
+Learn more about [publishing an API version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).
 
 #### Importing APIs from a code repository
 

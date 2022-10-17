@@ -15,7 +15,7 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Postman Space Camp | Design and Prototype an API in Postman"
+    name: "Postman Intergalactic | Design and Prototype an API in Postman"
     url: "https://youtu.be/r4kb3jOSsmk"
   - type: section
     name: "Next Steps"
@@ -25,11 +25,11 @@ contextual_links:
 ---
 
 You can validate your API definitions as you write them in Postman<!--, and validate your elements (collections and tests) against your schema-->. This helps keep your API well-defined<!--and ensures that your elements are in sync with your schema-->. If there is a syntax error in the definition<!--or elements don't match it-->, Postman will present a list of issues that have been found, as well as fixes for these issues. <!--You can then apply fixes to the API elements and revalidate them.-->
-<!--
+
 ## Contents
 
 * [Validating API definitions](#validating-api-definitions)
-* [Accessing issues](#accessing-issues)-->
+* [Validating elements](#validating-elements)
 
 ## Validating API definitions
 

@@ -12,10 +12,13 @@ contextual_links:
     name: "Working With Your Team in Postman | The Exploratory"
     url: "https://youtu.be/5lscUV-Exac"
   - type: link
-    name: "Postman Space Camp | Working with Your Team in Postman"
+    name: "Postman Intergalactic | Working with Your Team in Postman"
     url: "https://youtu.be/OifhKJCd_-M"
   - type: subtitle
     name: "Blog Posts"
+  - type: link
+    name: "Solving Problems Together with Postman Workspaces"
+    url: "https://blog.postman.com/solving-problems-together-with-postman-workspaces/"
   - type: link
     name: "Get More Out of Postman by Collaborating with Your Team"
     url: "https://blog.postman.com/get-more-out-of-postman-by-collaborating-with-your-team/"
@@ -69,7 +72,7 @@ Note that items related to what you're moving won't move with the element automa
 
 * **Collections** - Monitors will pause and stay in the current workspace.
 
-* **APIs** - Collections and environments linked to the API will automatically move with the API to the new workspace.
+* **APIs** - The API's collections will move with the API to the new workspace.
 
 * **Environments** - Monitors, mock servers, and integrations using the environment may no longer work.
 

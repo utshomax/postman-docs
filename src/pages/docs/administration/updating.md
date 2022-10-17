@@ -16,15 +16,18 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Test-driving the Latest Postman Release: v9 and Flows"
-    url: "https://youtu.be/j-fkJLbOpjk"
+    name: "Unboxing What’s New in Postman v10 | Postman Intergalactic"
+    url: "https://youtu.be/LmEl7rHYhxU"
   - type: subtitle
     name: "Blog Posts"
   - type: link
+    name: "Announcing Postman v10: The API Platform for an API-First World"
+    url: "https://blog.postman.com/announcing-postman-v10/"
+  - type: link
     name: "The New Postman API Platform: Redefining API Management for the API-First World"
     url: "https://blog.postman.com/new-postman-api-platform-redefining-api-management-for-api-first-world/"
-
 ---
+
 This section describes the steps to migrate your team to the latest version of Postman.
 
 Postman v10 provides a consistent, improved API development experience. The Postman desktop app and the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) are equally empowering—which one you use is a matter of preference for your workflows.
@@ -99,6 +102,8 @@ If you'd like to downgrade to Postman v9 or below to continue working with a tea
 ### Downloading Postman v9
 
 Use the following links to download the latest Postman v9 version for your platform.
+
+> The Postman desktop app will update to the latest major version. If you turn off automatic major updates, the app will continue using v9.
 
 * [Download Postman v9 for macOS (Intel chip) 64-bit](https://go.pstmn.io/dl-osx64-v9-latest)
 * [Download Postman v9 for macOS (Apple chip) 64-bit](https://go.pstmn.io/dl-osxarm64-v9-latest)
