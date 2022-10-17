@@ -59,6 +59,7 @@ To run your API tests along with each build and, optionally, your API Governance
 
 To configure the Postman CLI to run API tests, see the steps for your CI tool:
 
+* [Azure DevOps Pipelines](/docs/integrations/available-integrations/ci-integrations/azure-devops-pipelines/#configuring-the-postman-cli-for-azure-devops-pipelines)
 * [Bitbucket Pipelines](/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/#configuring-the-postman-cli-for-bitbucket-pipelines)
 * [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/#configuring-the-postman-cli-for-circleci)
 * [GitHub Actions](/docs/integrations/available-integrations/ci-integrations/github-actions/#configuring-the-postman-cli-for-github-actions)
