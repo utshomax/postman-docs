@@ -985,8 +985,8 @@ export const leftNavItems = [
             url: '/docs/integrations/available-integrations/azure-devops/',
           },
           {
-            name: 'Azure DevOps Pipelines',
-            url: '/docs/integrations/available-integrations/ci-integrations/azure-devops-pipelines/',
+            name: 'Azure Pipelines',
+            url: '/docs/integrations/available-integrations/ci-integrations/azure-pipelines/',
           },
           {
             name: 'BigPanda',
