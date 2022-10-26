@@ -92,6 +92,6 @@ To set up a CI integration:
 1. Select **Test and Automation**.
 1. Under **Automate**, select the CI integration you want to add.
 
-<img alt="Connecting to CI/CD" src="https://assets.postman.com/postman-docs/v10/api-builder-automate.jpg" />
+<img alt="Connecting to CI/CD" src="https://assets.postman.com/postman-docs/v10/api-builder-automate-v10.jpg" />
 
 To learn more about how CI integrations work, and for detailed configuration steps, see [CI integrations](/docs/integrations/ci-integrations/).
