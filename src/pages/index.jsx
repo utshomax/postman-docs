@@ -10,7 +10,8 @@ import SEO from '../components/seo';
 import upcomingEvents from '../../bff-data/events.json';
 import { LandingCard } from '../components/MarketingPages/Cards';
 import '../../styles/config/_pm-icons.css';
-import { ButtonStyles, LinkStyles } from '../../styles/ButtonStyles';
+import { LinkStyles } from '../../styles/ButtonStyles';
+import { BaseButton } from 'aether-marketing';
 
 const EventsWrapper = styled.div`
 margin-bottom: 48px;
@@ -230,11 +231,15 @@ class IndexPage extends React.Component {
                     <br />
                     Check out the docs and support resources!
                   </p>
-                  <ButtonStyles>
-                  <a href="/docs/getting-started/introduction/" className="btn primary-hollow mb-5">
+                  <BaseButton
+                    href="/docs/getting-started/introduction/" 
+                    className="mb-5"
+                    as='a'
+                    buttonType="secondary"
+                    target="same-tab"
+                    >
                     Explore the Docs
-                  </a>
-                  </ButtonStyles>
+                  </BaseButton>
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
                   <img
