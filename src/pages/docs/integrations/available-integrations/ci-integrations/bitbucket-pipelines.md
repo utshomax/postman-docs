@@ -77,8 +77,8 @@ Each time the pipeline runs, the Postman CLI runs the collections that contain y
 
 To generate configuration code for the Postman CLI:
 
-1. Open your API version and select the **Test** tab.
-1. Under **CI/CD Builds**, select **View All Builds**.
+1. Open your API and select **Test and Automation**.
+1. Under the repository name, select **View All Builds**.
 1. Select **Configure Postman CLI**.
 1. Select a **Collection** to run during pipeline builds. To be available in the list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
 1. (Optional) Select the checkbox to enforce API Governance and API Security rules each time the CI/CD pipeline runs ([Enterprise teams only](https://www.postman.com/pricing/)).
