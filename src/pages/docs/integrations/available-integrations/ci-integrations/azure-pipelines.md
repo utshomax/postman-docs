@@ -87,7 +87,7 @@ Each time the pipeline runs, the Postman CLI runs the collections that contain y
 
 > Before you begin, make sure you’ve already [set up an integration](#configuring-an-azure-pipelines-integration) between your API version and Azure Pipelines.
 
-To generate configuration code for the Postman CLI:
+To generate configuration code for the Postman CLI, do the following:
 
 1. Open your API and select **Test and Automation**.
 1. Under the repository name, select **View All Builds**.
@@ -99,7 +99,7 @@ To generate configuration code for the Postman CLI:
 
 <img alt="Generate the Postman CLI configuration" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-v10-3.jpg" />
 
-To add the Postman CLI configuration to your Azure DevOps pipeline:
+To add the Postman CLI configuration to your Azure DevOps pipeline, do the following:
 
 1. Create a new YAML file in your repository, and then edit the file.
 1. Add the Postman CLI configuration you copied from Postman to the YAML file:
