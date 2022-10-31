@@ -33,7 +33,7 @@ If you haven't already, create a repository for your API in a version control sy
 ## Configuring an Azure Pipelines integration
 
 1. Open your API by selecting **APIs** in the sidebar. *Each API version can be linked to one CI project*.
-1. Select the **Test and Automation**.
+1. Select **Test and Automation**.
 1. Under **Automate**, select **Azure Pipelines**.
 1. You'll be prompted to allow Postman to access your Azure DevOps account. After you grant access, you can close the browser tab and return to Postman.
 
