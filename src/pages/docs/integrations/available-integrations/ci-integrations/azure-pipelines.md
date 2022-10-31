@@ -1,8 +1,6 @@
 ---
 title: "Azure Pipelines"
-page_id: "azure-pipelines"
-updated: 2022-10-20
-warning: false
+updated: 2022-10-31
 contextual_links:
   - type: section
     name: "Prerequisites"
