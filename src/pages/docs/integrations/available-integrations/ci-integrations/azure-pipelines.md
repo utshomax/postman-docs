@@ -40,7 +40,7 @@ If you haven't already, create a repository for your API in a version control sy
     > **Make sure to enable third-party application access for your organization.** In Azure DevOps, go to your [organization settings](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops), select **Policies**, and turn on the toggle next to **Third-party application access via OAuth**.
 
 1. Enter a **Nickname** to help you recognize the integration later. Postman pre-fills a nickname in the format `Azure Pipelines-{API_NAME}`, and you can edit it if you want.
-1. Select the Azure DevOps **Organization** with your pipeline.
+1. Select the Azure **DevOps organization** with your pipeline.
 1. Select the Azure **DevOps project** used for your API.
 1. Select **Connect**.
 
