@@ -44,7 +44,7 @@ If you haven't already, create a repository for your API in a version control sy
 1. Select the Azure **DevOps project** used for your API.
 1. Select **Connect**.
 
-<img alt="Connect to Azure DevOps Pipelines" src="https://assets.postman.com/postman-docs/v10/azure-pipelines-connect-project-v10.jpg" width="518px">
+<img alt="Connect to Azure Pipelines" src="https://assets.postman.com/postman-docs/v10/azure-pipelines-connect-project-v10.jpg" width="518px">
 
 ## Viewing build status
 
