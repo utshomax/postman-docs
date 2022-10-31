@@ -58,7 +58,6 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 * To view a build in Azure DevOps, select the build name.
 * To get the latest build status information, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
-* To view more details for a build, use the arrows to expand a build and expand **Build Steps**. For each build step you can view the name, duration, and status.
 
 <img alt="View all Azure Pipelines builds" src="https://assets.postman.com/postman-docs/v10/azure-collection-runs-v10.jpg">
 
