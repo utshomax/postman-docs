@@ -39,10 +39,10 @@ If you haven't already, create a repository for your API in a version control sy
 
 1. Enter a **Nickname** to help you recognize the integration later. Postman pre-fills a nickname in the format `Azure Pipelines-{API_NAME}`, and you can edit it if you want.
 1. Select the Azure **DevOps organization** with your pipeline.
-1. Select the Azure **DevOps project** used for your API.
+1. Select the Azure **DevOps repository** used for your API.
 1. Select **Connect**.
 
-<img alt="Connect to Azure Pipelines" src="https://assets.postman.com/postman-docs/v10/azure-pipelines-connect-project-v10.jpg" width="518px">
+<img alt="Connect to Azure Pipelines" src="https://assets.postman.com/postman-docs/v10/azure-pipelines-connect-repository-v10.jpg" width="518px">
 
 ## Viewing build status
 
@@ -85,7 +85,7 @@ With the help of the Postman CLI and the Postman API, you can run API tests crea
 
 Each time the pipeline runs, the Postman CLI runs the collections that contain your tests. You can view the results of your tests in Postman.
 
-> Before you begin, make sure you’ve already [set up an integration](#configuring-an-azure-pipelines-integration) between your API version and Azure Pipelines.
+> Before you begin, make sure you’ve already [set up an integration](#configuring-an-azure-pipelines-integration) between your API and Azure Pipelines.
 
 To generate configuration code for the Postman CLI, do the following:
 
@@ -103,6 +103,6 @@ To add the Postman CLI configuration to your Azure DevOps pipeline, do the follo
 
 1. Create a new YAML file in your repository, and then edit the file.
 1. Add the Postman CLI configuration you copied from Postman to the YAML file:
-    * Replace all instances of `$(POSTMAN_API_KEY)` and `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
+    * Replace all instances of `$(POSTMAN_API_KEY)` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
 1. Commit and push the changes to your remote repository. This will automatically start a build in Azure DevOps.
 1. To view the test results in Postman, open your API and select **Test and Automation**. Learn more about [Viewing collection run details](#viewing-collection-run-details).
