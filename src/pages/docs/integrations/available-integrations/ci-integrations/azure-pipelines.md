@@ -11,7 +11,7 @@ contextual_links:
 
 [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/) is a continuous integration (CI) and continuous delivery (CD) service that's integrated with Microsoft Azure DevOps. Software development teams can use Azure Pipelines to automatically build, test, and deploy code in Azure DevOps.
 
-To set up an Azure Pipelines integration for your API, first create a repository in a [version control system supported by Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/repos/). Create a pipeline in the repository, and then configure your API in Postman. After you set up the integration, you can view the status of builds (pipelines) from within Postman.
+To set up an Azure Pipelines integration for your API, first create a pipeline in Azure DevOps and then configure your API in Postman. <!-- repository in a [version control system supported by Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/repos/). Create a pipeline in the repository, and then configure your API in Postman.-->After you set up the integration, you can view the status of builds (pipelines) from within Postman.
 
 > The Azure Pipelines integration isn't available on Azure DevOps Server (hosted on-premises).
 
@@ -26,7 +26,9 @@ To set up an Azure Pipelines integration for your API, first create a repository
 
 ## Creating a pipeline in Azure DevOps
 
-If you haven't already, create a repository for your API in a version control system supported by Azure Pipelines. Then create a pipeline in the repository. To create a pipeline, add a YAML file in your repository. You define your pipeline in this YAML file. To learn more, see [the Azure Pipelines documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/pipelines-get-started).
+<!-- If you haven't already, create a repository for your API in a version control system supported by Azure Pipelines. Then create a pipeline in the repository. To create a pipeline, add a YAML file in your repository. You define your pipeline in this YAML file. To learn more, see [the Azure Pipelines documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/pipelines-get-started).-->
+
+If you haven't already, create a pipeline in the [Azure Repos Git repository](https://learn.microsoft.com/en-us/azure/devops/pipelines/repos/azure-repos-git?view=azure-devops&tabs=yaml) you use for your API. To learn more about Azure Repos, see [the Azure Repos documentation](https://learn.microsoft.com/en-us/azure/devops/repos/?view=azure-devops). To create a pipeline, add a YAML file in your repository. You define your pipeline in this YAML file. To learn more, see [the Azure Pipelines documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/pipelines-get-started).
 
 ## Configuring an Azure Pipelines integration
 
@@ -81,7 +83,7 @@ To view the results of API Governance and API Security checks that ran as part o
 
 ## Configuring the Postman CLI for Azure Pipelines
 
-With the help of the Postman CLI and the Postman API, you can run API tests created in Postman as part of your Azure DevOps pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to the YAML file in your repository.
+With the help of the Postman CLI and the Postman API, you can run API tests created in Postman as part of your Azure DevOps pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to the YAML file in your Azure Repos Git repository.
 
 Each time the pipeline runs, the Postman CLI runs the collections that contain your tests. You can view the results of your tests in Postman.
 
@@ -101,7 +103,7 @@ To generate configuration code for the Postman CLI, do the following:
 
 To add the Postman CLI configuration to your Azure DevOps pipeline, do the following:
 
-1. Create a new YAML file in your repository, and then edit the file.
+1. Create a new YAML file in your Azure Repos Git repository, and then edit the file.
 1. Add the Postman CLI configuration you copied from Postman to the YAML file:
     * Replace all instances of `$(POSTMAN_API_KEY)` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
 1. Commit and push the changes to your remote repository. This will automatically start a build in Azure DevOps.
