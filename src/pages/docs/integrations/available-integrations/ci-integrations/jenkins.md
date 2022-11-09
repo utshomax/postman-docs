@@ -91,8 +91,8 @@ Each time a build runs, the Postman CLI runs the collections that contain your t
 
 To generate configuration code for the Postman CLI:
 
-1. Open your API version and select **Test and Automation**.
-1. Under **CI/CD Builds**, select **View Builds**.
+1. Open your API and select **Test and Automation**.
+1. Under the repository name, select **View Builds**.
 1. Select **Configure Postman CLI**.
 1. Select a **Collection** to run during pipeline builds. To be available in the dropdown list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
 1. (Optional) Select the checkbox to enforce API Governance and API Security rules each time the CI/CD pipeline runs ([Enterprise teams only](https://www.postman.com/pricing/)).
@@ -108,4 +108,4 @@ To add the Postman CLI configuration to your Jenkins pipeline:
     * Replace `your_nodejs_configured_tool_name` with the name of your Node.js tool, for example, `node`.
     * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
 1. Select **Save** and then run the pipeline using the new configuration.
-1. To view the test results in Postman, open your API version and select **Test and Automation**. For more help, see [Viewing collection run details](#viewing-collection-run-details).
+1. To view the test results in Postman, open your API and select **Test and Automation**. For more help, see [Viewing collection run details](#viewing-collection-run-details).
