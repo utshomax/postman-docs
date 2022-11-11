@@ -588,6 +588,10 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/',
           },
           {
+            name: 'Creating dynamic mock responses',
+            url: '/docs/designing-and-developing-your-api/mocking-data/creating-dynamic-responses/',
+          },
+          {
             name: 'Mocking with examples',
             url: '/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/',
           },
