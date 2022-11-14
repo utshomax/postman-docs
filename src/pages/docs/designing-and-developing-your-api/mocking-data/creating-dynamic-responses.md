@@ -16,7 +16,7 @@ contextual_links:
     url: "https://youtu.be/av7SZo9sZAE"
 ---
 
-Intro
+You can use saved examples to define static responses that are returned by your mock server. However, there may be cases when you want the mock server to return dynamic responses that include variables or random data. You might also want the mock server to generate contextual responses that include data from the incoming request.
 
 ## Contents
 
@@ -26,7 +26,7 @@ Intro
 
 ## Using variables with mock servers
 
-[Variables](/docs/sending-requests/variables/) enable you to store values and use them in your requests and saved examples. If you change the value of a variable, the new value is used wherever the variable occurs..
+[Variables](/docs/sending-requests/variables/) enable you to store values and use them in your requests and saved examples. If you change the value of a variable, the new value is used wherever the variable occurs.
 
 Postman mock servers support [environment variables](/docs/sending-requests/variables/#defining-environment-variables) and [collection variables](/docs/sending-requests/variables/#defining-collection-variables). (Mock servers don't support using global variables.)
 
@@ -40,8 +40,6 @@ When you use an environment or collection variable in a saved example, the mock 
 > If you save the URL of a mock server to a [variable](/docs/sending-requests/variables/), you can reference it across requests. For example, if you have a production server and a mock server, you can have an [environment](/docs/sending-requests/managing-environments/) for each server. In each environment, create a variable with the same name for the mock URL. By using the variable in your requests, you can switch between the two environments to call the production server or the mock server.
 
 ## Generating random data with dynamic variables
-
-In this demonstration, you defined the data to be returned by the mock server in your examples. However, there may be cases when you want the mock server to return a response containing random data.
 
 To have your mock server return random data, use [dynamic variables](/docs/writing-scripts/script-references/variables-list/) in your example's response body. Dynamic variables are resolved as part of the mock server response and replaced with random data. Dynamic variables are useful for generating random data when mocking an API, and you can use them for exploratory testing and writing rich, data-driven tests.
 
@@ -75,4 +73,18 @@ When you call the mock server endpoint, the response data will change to somethi
 
 ## Generating contextual mock responses
 
-Using templates
+With template support, Postman mock servers can generate responses that vary based on the incoming response. Template helpers give you access to data from the incoming request, including the request body, query parameters, path variables, and headers. You can than include that data in the response sent by the mock server.
+
+To create contextual responses, add one more template helpers to a saved example in your mocked collection. You can use the following template helpers in your saved examples:
+
+* `$body`
+* `$queryParams`
+* `$pathVariables`
+* `$headers`
+
+Use object-path syntax to access specific values in the helpers. You can also define a default value for a helper in case the mock server can’t resolve the variable. For example:
+
+* `{{$body}}` - Access the complete request body
+* `{{$body 'path.to.property'}}` - Access a specific property from body
+* `{{$body 'path' 'default value'}}` - Define a default value for a property
+* `{{$body 'a\.a'}}` - Access the `a.a` key from the body, which itself has a `.` in the key
