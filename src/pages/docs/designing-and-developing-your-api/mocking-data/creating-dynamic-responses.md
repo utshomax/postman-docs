@@ -16,7 +16,7 @@ contextual_links:
     url: "https://youtu.be/av7SZo9sZAE"
 ---
 
-You can use saved examples to define static responses that are returned by your mock server. However, there may be cases when you want the mock server to return dynamic responses that include variables or random data. You might also want the mock server to generate contextual responses that include data from the incoming request.
+You can use [saved examples](/docs/sending-requests/examples/) to define static responses that are returned by your [mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/). However, there may be cases when you want the mock server to return dynamic responses that include variable or random data. You might also want the mock server to generate contextual responses that include data from the incoming request.
 
 ## Contents
 
@@ -41,7 +41,7 @@ When you use an environment or collection variable in a saved example, the mock 
 
 ## Generating random data with dynamic variables
 
-To have your mock server return random data, use [dynamic variables](/docs/writing-scripts/script-references/variables-list/) in your example's response body. Dynamic variables are resolved as part of the mock server response and replaced with random data. Dynamic variables are useful for generating random data when mocking an API, and you can use them for exploratory testing and writing rich, data-driven tests.
+To have your mock server return random data, use [dynamic variables](/docs/writing-scripts/script-references/variables-list/) in your example's response body. Dynamic variables are resolved as part of the mock server response and replaced with random data. Dynamic variables are useful for generating random data when mocking an API. Use them for exploratory testing and writing rich, data-driven tests.
 
 For instance, your example's response body might contain dynamic variables as follows:
 
@@ -73,18 +73,62 @@ When you call the mock server endpoint, the response data will change to somethi
 
 ## Generating contextual mock responses
 
-With template support, Postman mock servers can generate responses that vary based on the incoming response. Template helpers give you access to data from the incoming request, including the request body, query parameters, path variables, and headers. You can than include that data in the response sent by the mock server.
+With template support, Postman mock servers can generate responses that vary based on the incoming response. Template helpers give you access to data from the incoming request, such as the body, query parameters, path variables, and headers. You can include that data in the response sent by the mock server.
 
-To create contextual responses, add one more template helpers to a saved example in your mocked collection. You can use the following template helpers in your saved examples:
+### Using template helpers
 
-* `$body`
-* `$queryParams`
-* `$pathVariables`
-* `$headers`
+To create contextual responses, add one or more template helpers to a saved example in the mocked collection. You can use the following template helpers in your saved examples:
 
-Use object-path syntax to access specific values in the helpers. You can also define a default value for a helper in case the mock server can’t resolve the variable. For example:
+* `$body` - Access the body of the incoming request
+* `$queryParams` - Access the query parameters of the incoming request
+* `$pathVariables` - Access the path variables of the incoming request
+* `$headers` - Access the headers of the incoming request
+
+Use [object-path](https://www.npmjs.com/package/object-path) syntax to access specific values in the helpers. You can also define a default value for a helper in case the mock server can’t resolve the variable. For example:
 
 * `{{$body}}` - Access the complete request body
-* `{{$body 'path.to.property'}}` - Access a specific property from body
+* `{{$body 'path.to.property'}}` - Access a specific property from the request body
 * `{{$body 'path' 'default value'}}` - Define a default value for a property
-* `{{$body 'a\.a'}}` - Access the `a.a` key from the body, which itself has a `.` in the key
+* `{{$body 'a\.a'}}` - From the request body, access the key `a.a` which has a dot (`.`) in the key name
+
+### Contextual response example
+
+This example shows how to use a template helper to access data from the body of the incoming request and return that data in the response from the mock server.
+
+1. In the mocked collection, [create a new request](/docs/sending-requests/requests/#creating-requests) with the following body data:
+
+    ```json
+    {
+        "username": "postman",
+        "password": "12345"
+    }
+    ```
+
+1. [Add an example](/docs/sending-requests/examples/) to the request. Then add the following body data to the example (notice the `{{body}}` template helper):
+
+    ```json
+    {
+        "username": {{body 'username' 'postman'}},
+        "id": {{$randomUUID}}
+    }
+    ```
+
+1. [Send the request to the mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#making-requests-to-mock-servers) and use different values for `username` in the request body.
+
+    For example, if you send the following request body:
+
+    ```json
+    {
+        "username": "s-morgenstern",
+        "password": "12345"
+    }
+    ```
+
+    Then the mock server will return a response like:
+
+    ```json
+    {
+        "username": "s-morgenstern",
+        "id": "f81a3c93-18a1-4a0b-8ea0-62c9c072fa8c"
+    }
+    ```
