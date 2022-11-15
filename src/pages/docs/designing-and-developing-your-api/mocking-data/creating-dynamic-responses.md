@@ -16,7 +16,7 @@ contextual_links:
     url: "https://youtu.be/av7SZo9sZAE"
 ---
 
-You can use [saved examples](/docs/sending-requests/examples/) to define static responses that are returned by your [mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/). However, there may be cases when you want the mock server to return dynamic responses that include variable or random data. You might also want the mock server to generate contextual responses that include data from the incoming request.
+You can use [saved examples](/docs/sending-requests/examples/) to define static responses that are returned by your [mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/). However, there may be cases when you want the mock server to return dynamic responses that include variable or random data. You might also want the mock server to generate contextual responses that include data from the incoming request. With dynamic mock responses, you can simulate various scenarios without having to create a saved example for each scenario.
 
 ## Contents
 
@@ -104,7 +104,7 @@ This example shows how to use a template helper to access data from the body of 
     }
     ```
 
-1. [Add an example](/docs/sending-requests/examples/) to the request. Then add the following body data to the example (notice the `{{body}}` template helper):
+1. [Add an example](/docs/sending-requests/examples/) to the request. Then add the following body data to the example. The `{{body}}` template helper is used to access the `username` value:
 
     ```json
     {
@@ -124,7 +124,7 @@ This example shows how to use a template helper to access data from the body of 
     }
     ```
 
-    Then the mock server will return a response like:
+    Then the mock server will return a response with the `username` value from the incoming request:
 
     ```json
     {
