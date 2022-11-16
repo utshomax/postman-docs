@@ -105,9 +105,15 @@ const Footer = () => {
 
   const isFooterReady = JSON.stringify(footerData) !== '{}';
   // asynchronous bff call to get footer data
-  const [data] = useState(isFooterReady ? footerData : {})
+  const [data, setData] = useState(isFooterReady ? footerData : {})
+
+  useEffect(() => {
+    if (process.env.NODE_ENV === 'production') {
+      setData(footerData)
+    }
+  },[])
   const columns = data.items.splice(0, 5);
-  console.log(columns)
+ 
   return (
     <FooterWrapper>
       <section id="Footer" className="pb-5 section">
@@ -123,7 +129,7 @@ const Footer = () => {
                   </span>
                 </FooterImgWrapper>
                 {/* Product */}
-                <div className="col-6 col-md-2 offset-md-1 col-lg-2 offset-lg-2 order-1 order-md-2 mb-5">
+                <div className="col-6 col-md-2 offset-md-1 col-lg-2 offset-lg-2 order-1 order-md-2 mb-5 d-flex justify-content-md-left">
                   {columns.slice(0, 1).map((item) => (
                     <nav aria-labelledby={item.arialabelledby} key={uuidv4()}>
                       <h2 className="footer-col-title" id={item.arialabelledby}>
