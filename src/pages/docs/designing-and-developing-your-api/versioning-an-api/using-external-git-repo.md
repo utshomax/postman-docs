@@ -1,6 +1,7 @@
 ---
 title: 'Using a remote Git repository'
 updated: 2022-09-15
+search_keyword: "whitelist, whitelist IP"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -41,7 +42,7 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 ---
 
-> __[GitHub Enterprise Server, GitLab Self-Managed, and Azure DevOps Server (hosted on-premises) integrations are only available on Postman Enterprise plans.](https://www.postman.com/pricing)__
+> **[GitHub Enterprise Server, GitLab Self-Managed, and Azure DevOps Server (hosted on-premises) integrations are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 You can connect a GitHub, Bitbucket, GitLab, or Azure DevOps repository to your API to sync your API definitions and collections between Postman and the repository.
 
