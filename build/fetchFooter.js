@@ -58,70 +58,70 @@ function fetchFooter() {
                         "items": [
                           {
                             "title": "What is Postman?",
-                            "url": "/product/what-is-postman/",
+                            "url": "https://www.postman.com/product/what-is-postman/",
                             "category": "global-footer",
                             "label": "what-is-postman",
                             "ariaLabel": "Read more about what Postman is"
                           },
                           {
                             "title": "API repository",
-                            "url": "/product/api-repository/",
+                            "url": "https://www.postman.com/product/api-repository/",
                             "category": "global-footer",
                             "label": "api-repository",
                             "ariaLabel": "Read more about A P I repository"
                           },
                           {
                             "title": "Tools",
-                            "url": "/product/tools/",
+                            "url": "https://www.postman.com/product/tools/",
                             "category": "global-footer",
                             "label": "tools",
                             "ariaLabel": "Read more about Postman tools"
                           },
                           {
                             "title": "Governance",
-                            "url": "/product/governance/",
+                            "url": "https://www.postman.com/product/governance/",
                             "category": "global-footer",
                             "label": "governance",
                             "ariaLabel": "Read more about Postman governance"
                           },
                           {
                             "title": "Workspaces",
-                            "url": "/product/workspaces/",
+                            "url": "https://www.postman.com/product/workspaces/",
                             "category": "global-footer",
                             "label": "workspaces",
                             "ariaLabel": "Read more about Postman workspaces"
                           },
                           {
                             "title": "Integrations",
-                            "url": "/product/integrations/",
+                            "url": "https://www.postman.com/product/integrations/",
                             "category": "global-footer",
                             "label": "integrations",
                             "ariaLabel": "Read more about Postman integrations"
                           },
                           {
                             "title": "Enterprise",
-                            "url": "/postman-enterprise/",
+                            "url": "https://www.postman.com/postman-enterprise/",
                             "category": "global-footer",
                             "label": "enterprise",
                             "ariaLabel": "Read more about Postman enterprise"
                           },
                           {
                             "title": "Plans and pricing",
-                            "url": "/pricing/",
+                            "url": "https://www.postman.com/pricing/",
                             "category": "global-footer",
                             "label": "plans-and-pricing",
                             "ariaLabel": "Read more about Postman plans and pricing"
                           },
                           {
                             "title": "Download the app",
-                            "url": "/downloads/",
+                            "url": "https://www.postman.com/downloads/",
                             "category": "global-footer",
                             "label": "download-the-app",
                             "ariaLabel": "Visit the download page for the Postman app"
                           },
                           {
                             "title": "Support Center",
-                            "url": "/support/",
+                            "url": "https://www.postman.com/support/",
                             "category": "global-footer",
                             "label": "support-center",
                             "ariaLabel": "Visit the Postman support center"
@@ -137,35 +137,35 @@ function fetchFooter() {
                         "items": [
                           {
                             "title": "About",
-                            "url": "/company/about-postman/",
+                            "url": "https://www.postman.com/company/about-postman/",
                             "category": "global-footer",
                             "label": "about",
                             "ariaLabel": "Read more about Postman, the company"
                           },
                           {
                             "title": "Careers and culture",
-                            "url": "/company/careers/",
+                            "url": "https://www.postman.com/company/careers/",
                             "category": "global-footer",
                             "label": "careers-and-culture",
                             "ariaLabel": "Read more about careers and culture at Postman"
                           },
                           {
                             "title": "Press and media",
-                            "url": "/company/press-media/",
+                            "url": "https://www.postman.com/company/press-media/",
                             "category": "global-footer",
                             "label": "press-and-media",
                             "ariaLabel": "Read more about press and media for Postman"
                           },
                           {
                             "title": "Contact us",
-                            "url": "/company/contact-us/",
+                            "url": "https://www.postman.com/company/contact-us/",
                             "category": "global-footer",
                             "label": "contact-us",
                             "ariaLabel": "Contact us at Postman"
                           },
                           {
                             "title": "Partner program",
-                            "url": "/partner-program/",
+                            "url": "https://www.postman.com/partner-program/",
                             "category": "global-footer",
                             "label": "partner-program",
                             "ariaLabel": "Read more about Postman Ecosystem Partner Program"
@@ -181,7 +181,7 @@ function fetchFooter() {
                         "items": [
                           {
                             "title": "Trust and Security",
-                            "url": "/trust/",
+                            "url": "https://www.postman.com/trust/",
                             "hrefType": "internal",
                             "category": "global-footer",
                             "label": "security",
@@ -189,7 +189,7 @@ function fetchFooter() {
                           },
                           {
                             "title": "Privacy policy",
-                            "url": "/legal/privacy-policy/",
+                            "url": "https://www.postman.com/legal/privacy-policy/",
                             "hrefType": "internal",
                             "category": "global-footer",
                             "label": "privacy-policy",
@@ -197,7 +197,7 @@ function fetchFooter() {
                           },
                           {
                             "title": "Terms",
-                            "url": "/legal/terms/",
+                            "url": "https://www.postman.com/legal/terms/",
                             "category": "global-footer",
                             "label": "terms",
                             "ariaLabel": "Read more about Postman's terms'"
@@ -358,37 +358,37 @@ function fetchFooter() {
                         "items": [
                           {
                             "title": "Postman Galaxy",
-                            "url": "/postman-galaxy/",
+                            "url": "https://www.postman.com/postman-galaxy/",
                             "category": "global-footer",
                             "label": "postman-galaxy"
                           },
                           {
                             "title": "Privacy",
-                            "url": "/legal/privacy-policy/",
+                            "url": "https://www.postman.com/legal/privacy-policy/",
                             "category": "global-footer",
                             "label": "privacy"
                           },
                           {
                             "title": "Terms",
-                            "url": "/legal/terms/",
+                            "url": "https://www.postman.com/legal/terms/",
                             "category": "global-footer",
                             "label": "terms"
                           },
                           {
                             "title": "Careers",
-                            "url": "/company/careers/",
+                            "url": "https://www.postman.com/company/careers/",
                             "category": "global-footer",
                             "label": "careers"
                           },
                           {
                             "title": "Support",
-                            "url": "/support/",
+                            "url": "https://www.postman.com/support/",
                             "category": "global-footer",
                             "label": "support"
                           },
                           {
                             "title": "Trust Center",
-                            "url": "/trust/",
+                            "url": "https://www.postman.com/trust/",
                             "category": "global-footer",
                             "label": "trust-center"
                           }
