@@ -106,13 +106,13 @@ const Footer = () => {
   const [data, setData] = useState(footerData)
 
   useEffect(() => {
-    if (process.env.NODE_ENV === 'production') {
+    if (process.env.NODE_ENV === 'production' && data) {
       setData(footerData)
     }
   }, [])
   
   const columns = data.items.splice(0, 5);
- 
+ console.log(columns)
   return (
     <FooterWrapper>
       <section id="Footer" className="pb-5 section">

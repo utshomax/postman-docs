@@ -353,50 +353,8 @@ function fetchFooter() {
                             "arialabel": "Visit our YouTube Channel"
                           }
                         ]
-                      },
-                      {
-                        "items": [
-                          {
-                            "title": "Postman Galaxy",
-                            "url": "https://www.postman.com/postman-galaxy/",
-                            "category": "global-footer",
-                            "label": "postman-galaxy"
-                          },
-                          {
-                            "title": "Privacy",
-                            "url": "https://www.postman.com/legal/privacy-policy/",
-                            "category": "global-footer",
-                            "label": "privacy"
-                          },
-                          {
-                            "title": "Terms",
-                            "url": "https://www.postman.com/legal/terms/",
-                            "category": "global-footer",
-                            "label": "terms"
-                          },
-                          {
-                            "title": "Careers",
-                            "url": "https://www.postman.com/company/careers/",
-                            "category": "global-footer",
-                            "label": "careers"
-                          },
-                          {
-                            "title": "Support",
-                            "url": "https://www.postman.com/support/",
-                            "category": "global-footer",
-                            "label": "support"
-                          },
-                          {
-                            "title": "Trust Center",
-                            "url": "https://www.postman.com/trust/",
-                            "category": "global-footer",
-                            "label": "trust-center"
-                          }
-                        ],
-                        "title": "© 2022 Postman, Inc. All rights reserved."
                       }
                     ],
-                    "copy": "© 2022 Postman, Inc. All rights reserved."
                   }), (err) => {
                     if (err) {
                       /* eslint-disable no-console */
