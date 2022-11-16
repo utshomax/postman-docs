@@ -105,13 +105,16 @@ function targetStringGenerator(target) {
 const Footer = () => {
 
   const [data, setData] = useState(footerDataLocal)
+  const [path, setPath] = useState(document.location.pathname)
 
   useEffect(() => {
+    setPath(document.location.pathname)
     if (process.env.NODE_ENV === 'production') { 
-      setData(footerData)
+      setData(footerData);
+      setPath(document.location.pathname)
     }
 
-  }, []) /* <-- add this to mimic component mounted behaviour and fire only once on first render*/
+  }, [path]) /* <-- add this to mimic component mounted behaviour and fire only once on first render*/
 
   const columns = data.items.splice(0, 4);
    
@@ -122,6 +125,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-sm-8 offset-sm-2 col-md-12 offset-md-0">
               <div className="row">
+                {console.log(document.location.pathname)}
                 {/* First column */}
                 <FooterImgWrapper className="col-6 col-md-3 col-lg-2 order-12 order-md-0 pad-md-right align-self-center">
                   <img className="footer-img" src='https://voyager.postman.com/illustration/postman-footer-rocket-launch.svg' alt="Postman" />
