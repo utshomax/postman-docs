@@ -103,15 +103,14 @@ function targetStringGenerator(target) {
 
 const Footer = () => {
 
-  const isFooterReady = JSON.stringify(footerData) !== '{}';
-  // asynchronous bff call to get footer data
-  const [data, setData] = useState(isFooterReady ? footerData : {})
+  const [data, setData] = useState(footerData)
 
   useEffect(() => {
     if (process.env.NODE_ENV === 'production') {
       setData(footerData)
     }
-  },[])
+  }, [])
+  
   const columns = data.items.splice(0, 5);
  
   return (

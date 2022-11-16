@@ -220,7 +220,7 @@ function fetchFooter() {
                             "ariaLabel": "Read more about Postman payments"
                           },
                           {
-                            "title": "Aritficial Intelligence",
+                            "title": "Artificial Intelligence",
                             "url": "https://www.postman.com/category/artificial-intelligence",
                             "hrefType": "internal",
                             "category": "global-footer",
