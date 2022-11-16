@@ -81,15 +81,32 @@ To create contextual responses, add one or more template helpers to a saved exam
 
 * `$body` - Access the body of the incoming request
 * `$queryParams` - Access the query parameters of the incoming request
-* `$pathVariables` - Access the path variables of the incoming request
+* `$pathSegments` - Access the path segments of the incoming request (such as `/product/id/details`)
 * `$headers` - Access the headers of the incoming request
 
-Use [object-path](https://www.npmjs.com/package/object-path) syntax to access specific values in the helpers. You can also define a default value for a helper in case the mock server can’t resolve the variable. For example:
+Use [object-path](https://www.npmjs.com/package/object-path) syntax to access specific values in the helpers. You can also define a default value for a helper in case the mock server can’t resolve the variable.
 
-* `{{$body}}` - Access the complete request body
-* `{{$body 'path.to.property'}}` - Access a specific property from the request body
-* `{{$body 'path' 'default value'}}` - Define a default value for a property
-* `{{$body 'a\.a'}}` - From the request body, access the key `a.a` which has a dot (`.`) in the key name
+The following table shows some ways you can use helpers in your saved examples.
+
+| Template&nbsp;helper&nbsp;example&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Data returned |
+| ----------- | ----------- |
+| `{{$body}}` | Return the full request body |
+| `{{$body 'path.to.property'}}` | Return a specific property from the request body |
+| `{{$headers 'header-key'}}` | Return the value of a specific request header |
+| `{{$queryParams 'parameter-key'}}` | Return the value of a specific query parameter |
+| `{{$pathSegments '1'}}` | Return the second segment of the request path (for example, if the request path is `/product/12345/details` then return `12345`) |
+| `{{$body 'property' 'default value'}}` | Define a default value for a property |
+| `{{$body 'a\.a'}}` | Return the key `a.a` which has a dot (`.`) in the key name |
+
+Here are some ways you can use helpers in your saved examples:
+
+* `{{$body}}` - Return the full request body
+* `{{$body 'path.to.property'}}` - Return a specific property from the request body
+* `{{$headers 'header-key'}}` - Return the value of a specific request header
+* `{{$queryParams 'parameter-key'}}` - Return the value of a specific query parameter
+* `{{$pathSegments '1'}}` - Return the second segment of the request path (for example, if the request path is `/product/12345/details` then return `12345`)
+* `{{$body 'property' 'default value'}}` - Define a default value for a property
+* `{{$body 'a\.a'}}` - Return the key `a.a` which has a dot (`.`) in the key name
 
 ### Contextual response example
 
@@ -104,11 +121,11 @@ This example shows how to use a template helper to access data from the body of 
     }
     ```
 
-1. [Add an example](/docs/sending-requests/examples/) to the request. Then add the following body data to the example. The `{{body}}` template helper is used to access the `username` value:
+1. [Add an example](/docs/sending-requests/examples/) to the request. Then add the following body data to the example. The `{{$body}}` template helper is used to access the `username` value:
 
     ```json
     {
-        "username": {{body 'username' 'postman'}},
+        "username": {{$body 'username' 'postman'}},
         "id": {{$randomUUID}}
     }
     ```
@@ -129,6 +146,6 @@ This example shows how to use a template helper to access data from the body of 
     ```json
     {
         "username": "s-morgenstern",
-        "id": "f81a3c93-18a1-4a0b-8ea0-62c9c072fa8c"
+        id": 40717fb0-c45b-4ad5-9f55-75020e8dcd95
     }
     ```
