@@ -129,7 +129,7 @@ const Footer = () => {
                   </span>
                 </FooterImgWrapper>
                 {/* Product */}
-                <div className="col-6 col-md-2 offset-md-1 col-lg-2 offset-lg-2 order-1 order-md-2 mb-5 d-flex justify-content-md-left">
+                <div className="col-6 col-md-2 offset-md-1 col-lg-2 offset-lg-2 order-1 order-md-2 mb-5">
                   {columns.slice(0, 1).map((item) => (
                     <nav aria-labelledby={item.arialabelledby} key={uuidv4()}>
                       <h2 className="footer-col-title" id={item.arialabelledby}>
@@ -165,7 +165,7 @@ const Footer = () => {
                     </nav>
                   ))}
                 </div>
-                <div className="col-6 col-md-2 order-2 order-md-3 d-flex justify-content-md-center flex-column ">
+                <div className="col-6 col-md-2 order-2 order-md-3 ">
                   {/* Company - stacked top */}
                   {columns.slice(1, 2).map((item) => (
                     <div key={uuidv4()}>
@@ -248,7 +248,7 @@ const Footer = () => {
                   ))}
                 </div>
                 {/* API Categories */}
-                <div className="col-6 col-md-2 order-3 order-md-3 d-flex justify-content-md-center">
+                <div className="col-6 col-md-2 order-3 order-md-3r">
 
                   {columns.slice(3, 4).map((item) => (
                     <nav aria-labelledby={item.arialabelledby} key={uuidv4()}>
@@ -287,7 +287,7 @@ const Footer = () => {
 
                 </div>
                 {/* API Categories */}
-                <div className="col-6 col-md-2 order-3 order-md-3 d-flex justify-content-md-center">
+                <div className="col-6 col-md-2 order-3 order-md-3">
                   <div className="row">
                     {columns.slice(4, 5).map((item) => (
                       <div className="col-sm-12" key={uuidv4()}>
