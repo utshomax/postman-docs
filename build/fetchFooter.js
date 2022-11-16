@@ -12,7 +12,6 @@ const requestOptions = {
 require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
-
 const host = process.env.BFF_FOOTER_URL || ''
 
 function fetchFooter() {
@@ -202,6 +201,66 @@ function fetchFooter() {
                             "category": "global-footer",
                             "label": "terms",
                             "ariaLabel": "Read more about Postman's terms'"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "API categories",
+                        "arialabelledby": "api-categories",
+                        "category": "global-footer",
+                        "label": "api-categories",
+                        "id": "api-categories",
+                        "items": [
+                          {
+                            "title": "Payments",
+                            "url": "https://www.postman.com/category/payments",
+                            "hrefType": "internal",
+                            "category": "global-footer",
+                            "label": "payments",
+                            "ariaLabel": "Read more about Postman payments"
+                          },
+                          {
+                            "title": "Aritficial Intelligence",
+                            "url": "https://www.postman.com/category/artificial-intelligence",
+                            "hrefType": "internal",
+                            "category": "global-footer",
+                            "label": "artificial-intelligence",
+                            "ariaLabel": "Read more about Postman's artificial intelligence"
+                          },
+                          {
+                            "title": "Communication",
+                            "url": "https://www.postman.com/category/communication",
+                            "category": "global-footer",
+                            "label": "communication",
+                            "ariaLabel": "Read more about communication"
+                          },
+                          {
+                            "title": "Data Analytics",
+                            "url": "https://www.postman.com/category/data-analytics",
+                            "category": "global-footer",
+                            "label": "data-analytics",
+                            "ariaLabel": "Read more about Postman's data analytics"
+                          },
+                          {
+                            "title": "Developer Productivity",
+                            "url": "https://www.postman.com/category/developer-productivity",
+                            "category": "global-footer",
+                            "label": "developer-productivity",
+                            "ariaLabel": "Read more about developer productivity"
+                          },
+                          {
+                            "title": "DevOps",
+                            "url": "https://www.postman.com/category/devops",
+                            "category": "global-footer",
+                            "label": "devops",
+                            "ariaLabel": "Read more about devOps'"
+                          },
+                          {
+                            "title": "Financial Services",
+                            "url": "https://www.postman.com/category/financial-services",
+                            "category": "global-footer",
+                            "label": "financial-services",
+                            "ariaLabel": "Read more about financial services'"
                           }
                         ]
                       },

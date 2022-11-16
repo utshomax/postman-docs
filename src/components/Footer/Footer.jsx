@@ -1,7 +1,6 @@
 import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import styled from 'styled-components';
-import footerDataLocal from '../../../build/footerDev.json';
 import footerData from '../../../bff-data/footer.json';
 import { useEffect, useState } from 'react';
 
@@ -102,40 +101,13 @@ function targetStringGenerator(target) {
   return null;
 }
 
-// const runtime = typeof document === 'object';
-
-// useState to update data / signals component to rerender
-// asynchronous bff call to get data
 const Footer = () => {
-  // const data = (process.env.NODE_ENV === 'development') && footerDataLocal;
 
-  // let data = footerDataLocal;
-  // (process.env.NODE_ENV === 'development') ? data = footerDataLocal : data = footerData;
-
-  const [data, setData] = useState(footerDataLocal)
-
-  useEffect(() => {
-    if (process.env.NODE_ENV === 'production') { 
-      setData(footerData)
-    }
-    // if (process.env.NODE_ENV === 'production') { 
-    //   try { 
-    //     window.pm.bff(
-    //       'footer',
-    //       (d) => {
-    //         setData(JSON.parse(d))
-    //       }
-    //     )
-    //   } catch (err) {
-    //     if (window.pm && typeof window.pm.log === 'function') {
-    //       window.pm.log(err);
-    //     }
-    //   }
-    // }
-  }, []) /* <-- add this to mimic component mounted behaviour and fire only once on first render*/
-
-  const columns = data.items.splice(0, 4);
-   
+  const isFooterReady = JSON.stringify(footerData) !== '{}';
+  // asynchronous bff call to get footer data
+  const [data] = useState(isFooterReady ? footerData : {})
+  const columns = data.items.splice(0, 5);
+  console.log(columns)
   return (
     <FooterWrapper>
       <section id="Footer" className="pb-5 section">
@@ -143,15 +115,15 @@ const Footer = () => {
           <div className="row">
             <div className="col-sm-8 offset-sm-2 col-md-12 offset-md-0">
               <div className="row">
-                {/* First column */}
-                <FooterImgWrapper className="col-6 col-md-3 col-lg-2 order-12 order-md-0 pad-md-right align-self-center">
+                {/* Copyright */}
+                <FooterImgWrapper className="col-8 offset-2 col-md-3 offset-md-0 col-lg-2 order-12 order-md-0 pad-md-right align-self-center">
                   <img className="footer-img" src='https://voyager.postman.com/illustration/postman-footer-rocket-launch.svg' alt="Postman" />
                   <span className="col-12 d-none d-md-block copyright">
                     {data.copyright}
                   </span>
                 </FooterImgWrapper>
-                {/* Second column */}
-                <div className="col-6 col-md-3 offset-md-1 col-lg-3 offset-lg-2 order-1 order-md-2 mb-5">
+                {/* Product */}
+                <div className="col-6 col-md-2 offset-md-1 col-lg-2 offset-lg-2 order-1 order-md-2 mb-5">
                   {columns.slice(0, 1).map((item) => (
                     <nav aria-labelledby={item.arialabelledby} key={uuidv4()}>
                       <h2 className="footer-col-title" id={item.arialabelledby}>
@@ -187,8 +159,8 @@ const Footer = () => {
                     </nav>
                   ))}
                 </div>
-                <div className="col-6 col-md-3 order-2 order-md-3">
-                  {/* Third column - stacked - top */}
+                <div className="col-6 col-md-2 order-2 order-md-3 d-flex justify-content-md-center flex-column ">
+                  {/* Company - stacked top */}
                   {columns.slice(1, 2).map((item) => (
                     <div key={uuidv4()}>
                       <nav
@@ -228,7 +200,7 @@ const Footer = () => {
                       </nav>
                     </div>
                   ))}
-                  {/* Third column - stacked - bottom */}
+                  {/* Company stacked bottom */}
                   {columns.slice(2, 3).map((item) => (
                     <div key={uuidv4()}>
                       <nav
@@ -269,10 +241,49 @@ const Footer = () => {
                     </div>
                   ))}
                 </div>
-                {/* Fourth column */}
-                <div className="col-6 col-md-2 col-lg-2 order-3 order-md-4">
+                {/* API Categories */}
+                <div className="col-6 col-md-2 order-3 order-md-3 d-flex justify-content-md-center">
+
+                  {columns.slice(3, 4).map((item) => (
+                    <nav aria-labelledby={item.arialabelledby} key={uuidv4()}>
+                      <h2 className="footer-col-title" id={item.arialabelledby}>
+                        {item.title}
+                      </h2>
+                      <ColumnWrapper className="column">
+                        {(item.items
+                          && item.items.map((link) => (
+                            <li className="column-row" key={uuidv4()}>
+                              <a
+                                className="column-link"
+                                id={link.id}
+                                href={link.url}
+                                rel={relStringGenerator(link.target)}
+                                target={targetStringGenerator(link.target)}
+                                onClick={() => {
+                                  triggerGA(link.category, link.label);
+                                }}
+                              >
+                                {link.span ? (
+                                  <>
+                                    {link.title}
+                                    <span>{link.span}</span>
+                                  </>
+                                ) : (
+                                  <>{link.title}</>
+                                )}
+                              </a>
+                            </li>
+                          )))
+                          || ''}
+                      </ColumnWrapper>
+                    </nav>
+                  ))}
+
+                </div>
+                {/* API Categories */}
+                <div className="col-6 col-md-2 order-3 order-md-3 d-flex justify-content-md-center">
                   <div className="row">
-                    {columns.slice(3, 4).map((item) => (
+                    {columns.slice(4, 5).map((item) => (
                       <div className="col-sm-12" key={uuidv4()}>
                         <nav
                           aria-labelledby={item.arialabelledby}
