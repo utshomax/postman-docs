@@ -41,7 +41,7 @@ function fetchFooter() {
                   /* eslint-enable */
                 });
               } else {
-                console.log('The footer endpoint returned unusable data..')
+                console.log('The footer endpoint returned unusable data..==============================>', respData)
                 fs.writeFile(path.join(
                   'bff-data',
                   'footer.json',
