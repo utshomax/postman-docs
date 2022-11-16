@@ -84,29 +84,17 @@ To create contextual responses, add one or more template helpers to a saved exam
 * `$pathSegments` - Access the path segments of the incoming request (such as `/product/id/details`)
 * `$headers` - Access the headers of the incoming request
 
-Use [object-path](https://www.npmjs.com/package/object-path) syntax to access specific values in the helpers. You can also define a default value for a helper in case the mock server can’t resolve the variable.
+Use [object-path](https://www.npmjs.com/package/object-path) syntax to access specific values in the helpers. You can also define a default value for a helper in case the mock server can’t resolve the variable. The following table shows some ways you can use helpers in your saved examples.
 
-The following table shows some ways you can use helpers in your saved examples.
-
-| Template&nbsp;helper&nbsp;example&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Data returned |
+| Template helper | Data returned |
 | ----------- | ----------- |
 | `{{$body}}` | Return the full request body |
-| `{{$body 'path.to.property'}}` | Return a specific property from the request body |
+| `{{$body 'path.to.property'}}` | Return the value of a specific property from the request body |
 | `{{$headers 'header-key'}}` | Return the value of a specific request header |
 | `{{$queryParams 'parameter-key'}}` | Return the value of a specific query parameter |
 | `{{$pathSegments '1'}}` | Return the second segment of the request path (for example, if the request path is `/product/12345/details` then return `12345`) |
 | `{{$body 'property' 'default value'}}` | Define a default value for a property |
-| `{{$body 'a\.a'}}` | Return the key `a.a` which has a dot (`.`) in the key name |
-
-Here are some ways you can use helpers in your saved examples:
-
-* `{{$body}}` - Return the full request body
-* `{{$body 'path.to.property'}}` - Return a specific property from the request body
-* `{{$headers 'header-key'}}` - Return the value of a specific request header
-* `{{$queryParams 'parameter-key'}}` - Return the value of a specific query parameter
-* `{{$pathSegments '1'}}` - Return the second segment of the request path (for example, if the request path is `/product/12345/details` then return `12345`)
-* `{{$body 'property' 'default value'}}` - Define a default value for a property
-* `{{$body 'a\.a'}}` - Return the key `a.a` which has a dot (`.`) in the key name
+| `{{$body 'a\.a'}}` | Return the value of the property `a.a` which has a dot (`.`) in the key name |
 
 ### Contextual response example
 
@@ -121,6 +109,8 @@ This example shows how to use a template helper to access data from the body of 
     }
     ```
 
+    ![Creating a new request](https://assets.postman.com/postman-docs/v10/mock-server-template-request-v10.jpg)
+
 1. [Add an example](/docs/sending-requests/examples/) to the request. Then add the following body data to the example. The `{{$body}}` template helper is used to access the `username` value:
 
     ```json
@@ -130,7 +120,9 @@ This example shows how to use a template helper to access data from the body of 
     }
     ```
 
-1. [Send the request to the mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#making-requests-to-mock-servers) and use different values for `username` in the request body.
+    ![Adding a template helper to an example](https://assets.postman.com/postman-docs/v10/mock-server-template-example-v10.jpg)
+
+1. [Send the request to the mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#making-requests-to-mock-servers) using different values for `username` in the request body.
 
     For example, if you send the following request body:
 
@@ -146,6 +138,8 @@ This example shows how to use a template helper to access data from the body of 
     ```json
     {
         "username": "s-morgenstern",
-        id": 40717fb0-c45b-4ad5-9f55-75020e8dcd95
+        id": c90df098-1dd7-4160-afe3-f053bf7aa43f
     }
     ```
+
+    ![Getting a contextual response from the mock server](https://assets.postman.com/postman-docs/v10/mock-server-template-response-v10.jpg)
