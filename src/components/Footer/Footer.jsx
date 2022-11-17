@@ -2,7 +2,7 @@ import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import styled from 'styled-components';
 import footerData from '../../../bff-data/footer.json';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 
 const FooterWrapper = styled.footer`
@@ -103,16 +103,9 @@ function targetStringGenerator(target) {
 
 const Footer = () => {
 
-  const [data, setData] = useState(footerData)
+  const [data] = useState(footerData);
+  const columns = data.items.slice(0, 5);
 
-  useEffect(() => {
-    if (process.env.NODE_ENV === 'production' && data) {
-      setData(footerData)
-    }
-  }, [])
-  
-  const columns = data.items.splice(0, 5);
- console.log(columns)
   return (
     <FooterWrapper>
       <section id="Footer" className="pb-5 section">
