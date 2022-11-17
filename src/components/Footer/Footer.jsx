@@ -116,7 +116,7 @@ const Footer = () => {
 
   }, [path]) /* <-- add this to mimic component mounted behaviour and fire only once on first render*/
 
-  const columns = data.items.splice(0, 4);
+  const columns = data.items.slice(0, 4);
    
   return (
     <FooterWrapper>
