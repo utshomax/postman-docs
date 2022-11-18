@@ -3,6 +3,8 @@ import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import styled from 'styled-components';
 
+import footerData from '../../../bff-data/footer.json';
+
 const FooterWrapper = styled.footer`
   border-top: 1px solid ${(props) => props.theme.colors.grey_30};
   background-color: ${(props) => props.theme.colors.grey_00};
@@ -106,12 +108,28 @@ class FooterComponent extends React.Component {
 
     this.state = {
       data: JSON.parse(data),
+      footer: '',
     };
   }
 
+  // componentDidMount() {
+  //   const config = {
+  //     withCredentials: true,
+  //     headers: { 
+  //       "Access-Control-Allow-Origin": "*", 
+  //       "Content-Type": "application/json;charset=UTF-8"
+  //     }
+  //   }
+  //   const url = `https://www.postman-beta.com/mkapi/footer.json`;
+
+  //   // axios.get(url, config).then(res => this.setState({footer: res.data}))
+  //   axios.get(url, config).then(res => console.log(res))
+  // }
+
   render() {
-    const { data } = this.state;
-    const columns = data.items.splice(0, 4);
+    // const { data, footer } = this.state;
+    const data = footerData;
+    const columns = footerData.items.splice(0, 4);
 
     return (
       <FooterWrapper>
@@ -121,6 +139,9 @@ class FooterComponent extends React.Component {
               <div className="col-sm-8 offset-sm-2 col-md-12 offset-md-0">
                 <div className="row">
                   {/* First column */}
+                 
+                  {console.log('FOOTER Footer => ', footerData)}
+                  
                   <FooterImgWrapper className="col-6 col-md-3 col-lg-2 order-12 order-md-0 pad-md-right align-self-center">
                     <img className="footer-img" src='https://voyager.postman.com/illustration/postman-footer-rocket-launch.svg' alt="Postman" />
                     <span className="col-12 d-none d-md-block copyright">

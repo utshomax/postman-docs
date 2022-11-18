@@ -8,6 +8,7 @@ import { theme } from '../../styles/theme';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import upcomingEvents from '../../bff-data/events.json';
+import footerData from '../../bff-data/footer.json';
 import { LandingCard } from '../components/MarketingPages/Cards';
 import '../../styles/config/_pm-icons.css';
 import { BaseLink, BaseLinkStyles, BaseButton } from 'aether-marketing';
@@ -180,6 +181,7 @@ class IndexPage extends React.Component {
   }
 
   componentDidMount() {
+      
     const pix = document.createElement('script');
     pix.language = 'JavaScript1.1';
     pix.src = '//pixel.mathtag.com/event/js?mt_id=1538259&mt_adid=244742&mt_exem=&mt_excl=&v1=&v2=&v3=&s1=&s2=&s3=';
@@ -227,6 +229,7 @@ class IndexPage extends React.Component {
             <div className="container">
               <div className="row">
                 <div className="col-sm-12 col-md-5 col-lg-6 align-self-center">
+                  {console.log('footerData', footerData)}
                   <h1>Postman Learning Center</h1>
                   <p className="subtitle">
                     Learn how to use Postman.

@@ -4,6 +4,7 @@ import Dropdown from './Dropdown';
 import $ from 'jquery';
 import {PrimaryNavbarV6, SecondaryNavbarV6, NavStyles, DropdownStyles, CTAButton} from './HeaderStyles.jsx' ;
 import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
+import axios from 'axios';
 
 // Get Cookie for Sign In toggler
 const getCookie = (a) => {
@@ -74,6 +75,7 @@ class Header extends React.Component {
       beta: '',
       cookie: '',
       hidden: true,
+      navbar: '',
     };
   }
 
@@ -86,6 +88,13 @@ class Header extends React.Component {
       beta,
     });
 
+     // get navbar data from api
+      axios.get(`www.postman.com/mkapi/navbar.json`)
+      .then((res) => {
+        this.setState({navbar: res})
+        console.log('res', this.state.navbar)
+      })
+   
     /* eslint-disable react/prop-types */
     const { waitBeforeShow } = this.props;
     /* eslint-enable react/prop-types */
@@ -99,6 +108,7 @@ class Header extends React.Component {
       $('.nav-primary').toggleClass('activeMenu');
       $('.nav-secondary').toggleClass('activeMenu');
     });
+
     // Dropdown Slideup Animation
     function showBsDropdown() {
       $(this)
@@ -111,6 +121,7 @@ class Header extends React.Component {
         .addClass('show');
     }
     $('.dropdown').on('show.bs.dropdown', showBsDropdown);
+
     // Dropdown Slidedown Animation
     function hideBsDropdown() {
       $(this)
@@ -123,6 +134,7 @@ class Header extends React.Component {
     }
     $('.dropdown').on('hide.bs.dropdown', hideBsDropdown);
   }
+
 
   showTargetElement = () => {
     // Show Sign In Button if user is not logged in (mobile)
@@ -216,6 +228,13 @@ class Header extends React.Component {
       <>
         <PrimaryNavbarV6 className="navbar-v6 ">
           <NavStyles className="navbar navbar-expand-lg navbar-light nav-primary ">
+            
+           
+              
+              
+            
+            
+          
             <a className="navbar-brand" href="https://www.postman.com">
               <div className="navbar-logo-container">
                 <img src="https://voyager.postman.com/logo/postman-logo-icon-orange.svg" alt="Postman" width="32" height="32" />
