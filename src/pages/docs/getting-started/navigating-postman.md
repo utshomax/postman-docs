@@ -48,6 +48,7 @@ Postman has a variety of tools, views, and controls to help you manage your API 
 * [Header](#header)
 * [Sidebar](#sidebar)
 * [Workbench](#workbench)
+    * [Focus mode](#focus-mode)
     * [Tabs](#tabs)
     * [Right sidebar](#right-sidebar)
     * [Environment selector and environment quick look](#environment-selector-and-environment-quick-look)
@@ -146,6 +147,12 @@ To save request responses in your history, select the more actions icon <img alt
 ## Workbench
 
 Whether you're working with a collection, an API, or another element type, the Postman workbench is where you do the majority of your work. [Tabs](#tabs) enable you to organize your work, while the [right sidebar](#right-sidebar) gives you access to element-specific tools like documentation. The [environment selector and environment quick look](#environment-selector-and-environment-quick-look) enable you to manage variables.
+
+### Focus mode
+
+With _focus mode_, you can collapse the Postman header and sidebar and concentrate on the workbench. To turn focus mode on or off from the Postman web app, select **Control+⌘+Period (.)** or **Ctrl+Alt+Period (.)**. To turn focus mode on or off from the Postman desktop app, select **View** > **Focus Mode**.
+
+To access an element in the collapsed sidebar without leaving focus mode, hover over the element's icon.
 
 ### Tabs
 
