@@ -68,15 +68,13 @@ const LoginCheck = (props) => {
   return <></>;
 };
 
-const Header = () => {
+const Header = (props) => {
 
   const [beta, setBeta] = useState('');
   const [cookie, setCookie] = useState('');
   const [hidden, setHidden] = useState(true);
   const [data, setData] = useState(navbarDataLocal);
   const [visibleHelloBar] = useState();
-  const [waitBeforeShow] = useState();
-
 
   useEffect(() => {
     const cookie = getCookie('getpostmanlogin');
@@ -86,13 +84,14 @@ const Header = () => {
     setBeta(beta);
 
     if (process.env.NODE_ENV === 'production') { 
-      setData(navbarDataLocal);
-      // setData(navbarData); // gets data fron bff generated file
+      setData(navbarData); // gets data fron bff generated file
     }
 
-    // setTimeout(() => {
-    //   setHidden(false)
-    // }, waitBeforeShow);
+    const { waitBeforeShow } = props;
+
+    setTimeout(() => {
+      setHidden(false)
+    }, waitBeforeShow);
 
     /* Applies styling for sticky nav */
     $('#secondaryNav').on('click', () => {
@@ -125,7 +124,7 @@ const Header = () => {
     $('.dropdown').on('hide.bs.dropdown', hideBsDropdown);
   }, [])
 
- function showTargetElement() {
+ const showTargetElement = () => {
     // Show Sign In Button if user is not logged in (mobile)
     const cookie = getCookie('getpostmanlogin');
     const signInButton = document.querySelector('.mobile-sign-in');
@@ -156,7 +155,7 @@ const Header = () => {
     }
   }
 
-  function hideTargetElement() {
+  const hideTargetElement = () => {
     // Hide Sign In Button if user is not logged in (mobile)
     const signInButton = document.querySelector('.mobile-sign-in');
     const cookie = getCookie('getpostmanlogin');
@@ -187,7 +186,7 @@ const Header = () => {
     }
   }
 
-  function showTargetElementLC() {
+  const showTargetElementLC = () => {
     // LC Mobile Icon Transition
     const togglerSecondary = document
       .getElementById('secondaryNav')
@@ -198,7 +197,7 @@ const Header = () => {
     }
   }
 
-  function hideTargetElementLC() {
+  const hideTargetElementLC = () => {
     const toggleChevron = document.getElementById('navbar-chevron-icons');
     const togglerSecondary = document
       .getElementById('secondaryNav')
@@ -248,15 +247,13 @@ const Header = () => {
           </button>
           <div
             id="navbarSupportedContent"
-            className={`collapse navbar-collapse${!visibleHelloBar ? 'noBar' : ''
-              }`}
+            className={`collapse navbar-collapse ${!visibleHelloBar ? 'noBar' : ''}`}
           >
             {/* Primary Navbar */}
             <ul className="navbar-nav mr-auto">
             {data.items.map((item) => (
                 item.dropdown && item.dropdown && (
                   <li className="nav-item dropdown" key={item.title}>
-                    {console.log('ITEM.TITLE', item.title)}
                     <a
                       className="nav-link dropdown-toggle"
                       href="##"
@@ -286,7 +283,7 @@ const Header = () => {
                           { item.columns && item.columns && 
                           <div className="row dropdown-col-menu">
                             { item.columns.map((col) => (
-                              <div className="col-sm-6 col-md-4 dropdown-col">
+                              <div className="col-sm-6 col-md-4 dropdown-col" key={col.title}>
                                 <h6 className="dropdown-header">{col.title}</h6>
                                 {col.subItemsCol.map((link) => (
                                   <a
