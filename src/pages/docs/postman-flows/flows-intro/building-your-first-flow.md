@@ -42,7 +42,6 @@ This flow requires a single GET call.
 1. In the **Send Request** block, select **Add request** and select the GET request you created earlier.
 1. Connect the **Start** block to the **Send Request** block.
 1. Create a **String** block below the **Start** block.
-1. 
 
 ![Making your first send request](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-send-request.gif)
 
