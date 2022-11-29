@@ -23,17 +23,26 @@ This page walks you through your first flow, calling the Pokémon API and printi
 
 This flow requires a single GET call.
 
-1. Create a new collection and add a request.
+1. Create a new collection and add a GET request.
 1. Run the request once with the URL `https://pokeapi.co/api/v2/pokemon?limit=200`.
 1. Save the request as an example so that Postman Flows can automatically detect the structure for easier access later.
+1. Replace the request URL `https://pokeapi.co/api/v2/pokemon?limit=200` with the variable `{{URL}}`.
+1. Select **Save**.
 
 ![Building your request](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-api-request.gif)
 
 ## Making your first send request
 
+1. Select **Flows**.
+1. Select **New Flow**.
+1. Right-click in the Flows workspace to open a list of blocks.
+1. Select **Start** from the list to create a **Start** block.
+    > You can type the block's name in the **Search** field to find it faster.
+1. Right-click in the workspace again and create a **Send Request** block.
+1. In the **Send Request** block, select **Add request** and select the GET request you created earlier.
 1. Connect the **Start** block to the **Send Request** block.
-1. Select the request you created earlier.
-1. Add a **String** block to connect to the URL variable.
+1. Create a **String** block below the **Start** block.
+1. 
 
 ![Making your first send request](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-send-request.gif)
 
