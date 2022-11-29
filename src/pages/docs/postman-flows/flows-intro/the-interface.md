@@ -11,7 +11,7 @@ The Postman Flows interface has three main parts: the toolbar, the context bar, 
 * [Context bar](#context-bar)
 * [Console](#console)
 
-![interface](https://assets.postman.com/postman-labs-docs/interface/updated-interface-main.png)
+![interface](https://assets.postman.com/postman-labs-docs/interface/v10/updated-interface-main-v10.jpg)
 
 ## Toolbar
 
