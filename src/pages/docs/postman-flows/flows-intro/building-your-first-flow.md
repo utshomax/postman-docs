@@ -50,6 +50,8 @@ This flow requires a single GET call.
 1. Create a **Select** block.
     > Because you saved an example earlier, the structure of the returned data auto-populates in the block.
 1. Select `/body/results`.
+1. Create a **Log** block and connect it to the **Select** block.
+1. Select **Run**.
 1. View the results in the **Log** block.
 
 ![Log results to console](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-log-to-console.gif)
