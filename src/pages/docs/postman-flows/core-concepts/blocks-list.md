@@ -10,7 +10,7 @@ The [blocks](../blocks/) available in Postman Flows are described below.
 ## Contents
 
 * [Data blocks](#data-blocks)
-* [Trigger blocks])
+* [Trigger block](#trigger-block)
 * [Logic blocks](#logic-blocks)
 * [Looping blocks](#looping-blocks)
 * [Task blocks](#task-blocks)
@@ -37,7 +37,9 @@ Invokes a request in a collection.
 
 **Failure:** Contains the response of a failed (If tests are assigned to the request and any fail or, in the absence of tests, a non 2xx HTTP status code is received) API call which can then be connected to another block or variable value to extract a field from the response.
 
-Enables the free-hand structuring of data.
+### Delay
+
+Waits the specified amount of time before allowing data through.
 
 ![Delay Block](https://assets.postman.com/postman-labs-docs/all-blocks/delay-block.png)
 
@@ -47,11 +49,15 @@ Enables the free-hand structuring of data.
 
 **Delay (in ms):** The amount of time in Milliseconds to wait.
 
+## Trigger block
+
 ### Start
 
 Used as the entry point for [Running Flows on the Cloud](../../running-flows-on-the-cloud/webhooks/). Can be configred to hold test data for testing locally by clicking on the gear icon and will act as a webhook endpoint that accepts data when running on the cloud.
 
 ![Start Block](https://assets.postman.com/postman-labs-docs/all-blocks/combined-start-block.png)
+
+## Logic blocks
 
 ### If
 
@@ -77,15 +83,7 @@ Executes [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) sy
 
 **Out:** Outputs the result of the query.
 
-### Template
-
-Enables the free-hand structuring of data, such as the pasting of JSON data. Also supports [FQL](../../flows-query-language/introduction-to-fql/).
-
-![Template Block](https://assets.postman.com/postman-labs-docs/all-blocks/template-block.png)
-
-**Variables:** Named data or assigned values that can then be accessed using FQL.
-
-**Out:** Outputs the data entered in the textbox.
+## Looping blocks
 
 ### For
 
@@ -123,11 +121,25 @@ Performs a loop a specified number of times.
 
 **Index:** The index of the current run starting at 0 for the first run.
 
+## Output block
+
 ### Log (Console)
 
 Prints the input to the console.
 
 ![Log Block](https://assets.postman.com/postman-labs-docs/all-blocks/log-block.png)
+
+## Data blocks
+
+### Template
+
+Enables the free-hand structuring of data, such as the pasting of JSON data. Also supports [FQL](../../flows-query-language/introduction-to-fql/).
+
+![Template Block](https://assets.postman.com/postman-labs-docs/all-blocks/template-block.png)
+
+**Variables:** Named data or assigned values that can then be accessed using FQL.
+
+**Out:** Outputs the data entered in the textbox.
 
 ### String
 
@@ -197,12 +209,12 @@ Structured data that can hold any of the other value block types or a record its
 
 ### Create Variable
 
-Assigns a value to a variable that can then be accessed with the **Get Variable** block anywhere in the Flow. The input is any value.
+Assigns a value to a variable that can then be accessed with the **Get Variable** block anywhere in the flow. The input is any value.
 
 ![Create Varibale Block](https://assets.postman.com/postman-labs-docs/all-blocks/create-variable-block.png)
 
-### Record
+### Get Variable
 
-Structured data that can hold any of the other value block types or a record itself.
+Gets the specified variable's value from anywhere in the flow.
 
 ![Get Variable Block](https://assets.postman.com/postman-labs-docs/all-blocks/get-variable-block.png)
