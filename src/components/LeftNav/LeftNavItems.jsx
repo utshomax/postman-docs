@@ -71,6 +71,10 @@ export const leftNavItems = [
         url: '/docs/getting-started/creating-the-first-collection/',
       },
       {
+        name: 'About the Postman Agent',
+        url: '/docs/getting-started/about-postman-agent/',
+      },
+      {
         name: 'Using the Scratch Pad',
         url: '/docs/getting-started/using-scratch-pad/',
       },
