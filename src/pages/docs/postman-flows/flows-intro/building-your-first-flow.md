@@ -56,9 +56,10 @@ Begin by creating a new collection and adding a GET request.
 
 ## Logging the output to the console
 
-1. Create a **Select** block.
+1. Create a **Select** block to the right of the **Send Request** block.
     > Because you saved an example earlier, the structure of the returned data auto-populates in the block.
-1. Select `/body/results`.
+1. Connect the **Select** block to the port next to **Success** on the **Send Request** block.
+1. In the **Select** block, select `/body/results`.
 1. Create a **Log** block and connect it to the **Select** block.
 1. Select **Run**.
 1. Select **Console** to view the results.
