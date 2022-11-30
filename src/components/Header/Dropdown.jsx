@@ -13,6 +13,9 @@ import {
 import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
 import { CustomHits } from '../Search/searchPreview.jsx';
 
+import { DocSearch } from '@docsearch/react';
+import '@docsearch/css';
+
   const searchOnlyKey = process.env.NODE_ENV === 'development' ? '003daeb8de202d4a917c2395628d75a8' : '69f2c5376f1a90912c6c3b6b772c25bc';
   const algoliaIndex = process.env.NODE_ENV === 'development' ? 'dev_docs' : 'docs';
 
@@ -63,53 +66,11 @@ const Dropdown = () => {
   return (
     <SearchWrapperStyling className="form-inline header__search">
       <div className="wrapper" ref={ref}>
-        <InstantSearch
-          searchClient={searchClient}
-          indexName={algoliaIndex}
-          refresh={refresh}
-        >
-          <Configure hitsPerPage={5} />
-
-          {/* forcefeed className because component does not accept natively as prop */}
-          <SearchBox
-            id="search-lc"
-            className="searchbox"
-            class="ais-SearchBox-input"
-            submit={<></>}
-            reset={<></>}
-            translations={{
-              placeholder: 'Search Postman Docs',
-            }}
-            onKeyUp={(event) => {
-              setHasInput(event.currentTarget.value.length > 2)
-            }}
-          />
-          <div className={!hasInput ? 'input-empty' : 'input-value'}>
-            <div className="container">
-              <div className="row">
-                <div className="col-12">
-                  <CustomHits hitComponent={Hits} />
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-12">
-                  <Pagination
-                    translations={{
-                      previous: '← Previous',
-                      next: 'Next →',
-                      first: '«',
-                      last: '»',
-                      ariaPrevious: 'Previous page',
-                      ariaNext: 'Next page',
-                      ariaFirst: 'First page',
-                      ariaLast: 'Last page',
-                    }}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </InstantSearch>
+      <DocSearch
+          appId="ZTQZHUI64N"
+          indexName="learning-postman"
+          apiKey="43f8c0ab6b866ec14cbdf61f458d4c30"
+        />
       </div>
     </SearchWrapperStyling>
   );

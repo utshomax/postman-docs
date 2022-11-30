@@ -1,9 +1,17 @@
 import React from 'react';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
-import Dropdown from './Dropdown';
+// import Dropdown from './Dropdown';
 import $ from 'jquery';
 import {PrimaryNavbarV6, SecondaryNavbarV6, NavStyles, DropdownStyles, CTAButton} from './HeaderStyles.jsx' ;
-import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
+// import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
+
+// import { DocSearch } from '@docsearch/react';
+
+// import '@docsearch/css';
+// import { env } from 'shelljs';
+
+import { DocSearch } from '@docsearch/react';
+import '@docsearch/css';
 
 // Get Cookie for Sign In toggler
 const getCookie = (a) => {
@@ -608,7 +616,7 @@ class Header extends React.Component {
                 </li>
               </ul>
               {/* Aloglia Widgets */}
-              <SearchWrapperStyling className="form-inline header__search">
+              {/* <SearchWrapperStyling className="form-inline header__search">
                 <svg
                   className="nav-search__icon"
                   width="16"
@@ -622,12 +630,26 @@ class Header extends React.Component {
                     clipRule="evenodd"
                     d="M9.87147 9.16437C10.5768 8.30243 11 7.20063 11 6C11 3.23858 8.76142 1 6 1C3.23858 1 1 3.23858 1 6C1 8.76142 3.23858 11 6 11C7.20063 11 8.30243 10.5768 9.16437 9.87147L9.89648 10.6036L9.64648 10.8536L13.5758 14.7829C13.8101 15.0172 14.19 15.0172 14.4243 14.7829L14.7829 14.4243C15.0172 14.19 15.0172 13.8101 14.7829 13.5758L10.8536 9.64648L10.6036 9.89648L9.87147 9.16437ZM6 10C8.20914 10 10 8.20914 10 6C10 3.79086 8.20914 2 6 2C3.79086 2 2 3.79086 2 6C2 8.20914 3.79086 10 6 10Z"
                   />
-                </svg>
+                </svg> */}
 
-                <Dropdown />
-              </SearchWrapperStyling>
+                {/* <Dropdown /> */}
+                {/* <DocSearch
+                  appId="ZTQZHUI64N"
+                  indexName="learning-postman"
+                  apiKey="4f84f291900cf671d1765124820014b6"
+                /> */}
+                {/* <label for="ALGOLIA_DOCUSEARCH_INPUT_SELCTOR">DocSearch</label> */}
+                {/* <input type="input" id="ALGOLIA_DOCUSEARCH_INPUT_SELCTOR" name="ALGOLIA_DOCUSEARCH_INPUT_SELCTOR"></input> */}
+              {/* </SearchWrapperStyling> */}
+              <DocSearch
+          appId="ZTQZHUI64N"
+          indexName="learning-postman"
+          apiKey="43f8c0ab6b866ec14cbdf61f458d4c30"
+          debug="true"
+        />
             </div>
           </NavStyles>
+          
         </SecondaryNavbarV6>
       </>
     );
