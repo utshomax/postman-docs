@@ -41,17 +41,18 @@ Begin by creating a new collection and adding a GET request.
 
 ## Making your first send request in Postman Flows
 
-1. Select **Flows**.
-1. Select **New Flow**.
+1. Select **New** &gt; **Flows**. A **Start** block appears automatically.
 1. Right-click in the Flows workspace to open a list of blocks.
-1. Select **Start** from the list to create a **Start** block.
+1. Select **Send Request** from the list to create a **Send Request** block.
     > You can type the block's name in the **Search** field to find it faster.
-1. Right-click in the workspace again and create a **Send Request** block.
-1. In the **Send Request** block, select **Add request** and select the GET request you created earlier.
+1. Connect the **Start** block to the **Send Request** block.
+1. In the **Send Request** block, select **Add request**.
+1. Select **Random user API**.
+1. Select the GET request you created earlier.
 1. Connect the **Start** block to the **Send Request** block.
 1. Create a **String** block below the **Start** block.
-
-![Making your first send request](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-send-request.gif)
+1. In the **String** block, enter the text `https://randomuser.me/api/?results=200`.
+1. Connect the **String** block to the port next to `{{URL}}` on the **Send Request** block.
 
 ## Logging the output to the console
 
@@ -61,8 +62,6 @@ Begin by creating a new collection and adding a GET request.
 1. Create a **Log** block and connect it to the **Select** block.
 1. Select **Run**.
 1. Select **Console** to view the results.
-
-![Log results to console](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-log-to-console.gif)
 
 ## Checking for the next page of results
 
