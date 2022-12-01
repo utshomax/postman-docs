@@ -79,8 +79,8 @@ You can connect to a GitHub, Bitbucket, GitLab, or Azure DevOps repository hoste
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect repository**, select **Connect** and select the type of repository you want to connect to.
 1. A browser tab opens asking you to log in to your repository. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
-1. On the **Connect your repository** page, enter the **Organization** or **Workspace** and the **Repository** where the API will be stored. (For GitLab, **Organization** refers to a **Group**, and **Repository** refers to a **Project**.)
-1. Select the **Active branch** for the API. Any changes you make in Postman are stored in the active branch. (You can switch to another branch to make it the active branch at any time.)
+1. On the **Connect your repository** page, select the **Organization** or **Workspace** and the **Repository** where the API will be stored. (For GitLab, **Organization** refers to a **Group**, and **Repository** refers to a **Project**.)
+1. Select the **Initial branch** for the API. Any changes you make in Postman are stored in the initial active branch. (You can switch to another branch to make it the active branch at any time.)
 1. Select an **API schema directory** and **Collection directory** where API definitions and collections will be stored in the repository. Keep in mind the following:
 
     * If you leave these fields blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repository.
@@ -90,6 +90,17 @@ You can connect to a GitHub, Bitbucket, GitLab, or Azure DevOps repository hoste
 1. Select **Connect Repository**.
 
 <img alt="Connecting to a cloud-hosted repo" src="https://assets.postman.com/postman-docs/v10/api-builder-remote-repo-v10.jpg" width ="562px"/>
+
+#### Managing connected accounts for cloud-hosted repositories
+
+After you connect an API to a cloud-hosted repository, other editors of the API must authenticate to be able to contribute the API. Postman will prompt editors to enter their token the next time they open the API.
+
+After connecting to one repository, you can connect to other repositories in your organization without having to re-authenticate. When connecting to a repository, select **Change** under **Organization** if you want to use a different organization.
+
+You can also connect to a provider's other services without having to re-authenticate. For example, if you connect to a GitHub repository, you can connect to [GitHub Actions](/docs/integrations/available-integrations/ci-integrations/github-actions/) without having to authenticate again. When you open an API, Postman will prompt you to connect to services you're already authenticated with.
+
+Postman securely stores your authorized accounts. To manage services you've authorized with, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, select **Settings**, and select the **Connected accounts** tab. Learn more about [managing connected accounts](/docs/getting-started/settings/#connected-accounts).
+
 
 ### Connecting to an on-premises repository
 
@@ -112,6 +123,8 @@ You can connect to a GitHub Enterprise Server, GitLab Self-Managed, or Azure Dev
     > **For GitHub Enterprise Server, you can use a classic token or a fine-grained token.** If using a [fine-grained token](https://github.blog/2022-10-18-introducing-fine-grained-personal-access-tokens-for-github/), ensure the token has access to the repository and has the following Repository permissions: `Contents (Read and write)` and `Metadata (Read-only)`.
 
 1. Select **Authenticate**.
+1. On the **Connect your repository** page, select the **Organization** or **Workspace** and the **Repository** where the API will be stored. (For GitLab, **Organization** refers to a **Group**, and **Repository** refers to a **Project**.)
+1. Select the **Initial branch** for the API. Any changes you make in Postman are stored in the initial active branch. (You can switch to another branch to make it the active branch at any time.)
 1. Select an **API schema directory** and **Collection directory** where API definitions and collections will be stored in the repository. Keep in mind the following:
 
     * If you leave these fields blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repository.
@@ -124,7 +137,9 @@ You can connect to a GitHub Enterprise Server, GitLab Self-Managed, or Azure Dev
 
 After you connect an API to a GitHub Enterprise Server repository, other editors of the API must enter their own personal access token to be able to access the collections and definitions in the API. Postman will prompt editors to enter their token the next time they open the API.
 
-Postman securely stores your personal access token. After connecting to one GitHub Enterprise Server repository, you can connect to other repositories using the same domain URL without having to re-enter your token. To manage your saved tokens, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, select **Settings**, and select the **Connected accounts** tab. Learn more about [managing connected accounts](/docs/getting-started/settings/#connected-accounts).
+After connecting to one GitHub Enterprise Server repository, you can connect to other repositories using the same domain URL without having to re-enter your token. When connecting to a repository, select **Change** under **Authenticated Domain** if you want to use a different domain URL.
+
+Postman securely stores your personal access token. To manage your saved tokens, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, select **Settings**, and select the **Connected accounts** tab. Learn more about [managing connected accounts](/docs/getting-started/settings/#connected-accounts).
 
 ## Disconnecting a remote repository
 
