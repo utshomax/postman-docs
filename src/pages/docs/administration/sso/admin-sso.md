@@ -21,6 +21,13 @@ contextual_links:
 
 > **[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
 
+## Contents
+
+* [Configuring single sign-on](#configuring-single-sign-on)
+* [Edit SSO settings](#edit-sso-settings)
+* [Managing user accounts](#managing-user-accounts)
+* [Next steps](#next-steps)
+
 ## Configuring single sign-on
 
 Only a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can configure single sign-on (SSO) for a Postman team.
@@ -29,13 +36,13 @@ Only a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-r
 1. Select **Add Authentication Method**.
 1. Select the authentication type.
 1. Enter an authentication name that's identifiable to your team.
-1. Select **Proceed**.
+1. Select **Continue**.
 
 <img src="https://assets.postman.com/postman-docs/add-auth-method.jpg" width="350px" alt="Authentication Method"/>
 
 > Always check with your authentication provider dashboard or your IT support staff for the correct information to complete a modal.
 
-In the "Service Provider Details (Postman)" screen, the Entity ID, and the URLs for the Login and ACS are already populated.
+In the "Service provider details (Postman)" screen, the Entity ID, and the URLs for the Login and ACS are already populated.
 
 As a next step, you must fill in the details in the **Identity Provider Details** section. Enter your authentication certificate from your identity provider in "X.509 Certificate".
 
@@ -80,8 +87,6 @@ This section describes the following topics:
 * [Managing team logins](#managing-team-logins)
 
 * [Removing team access](#removing-team-access)
-
-* [Next steps](#next-steps)
 
 ### Creating end user accounts
 
