@@ -36,15 +36,17 @@ The [blocks](../blocks/) available in Postman Flows are described below.
 <!-- vale Postman.Avoid = YES -->
 ### Bool
 
+<img alt="Bool block" src="https://assets.postman.com/postman-labs-docs/all-blocks/bool-block.png" width="118px"/>
+
 True or False.
 
-![Bool Block](https://assets.postman.com/postman-labs-docs/all-blocks/bool-block.png)
 <!-- vale Postman.Spelling = YES -->
+
 ### Collect
 
-Collects the results of a for loop, and outputs a list and an event when it has finished.
+<img alt="Collect block" src="https://assets.postman.com/postman-labs-docs/all-blocks/collect-block.png" width="118px"/>
 
-![Collect Block](https://assets.postman.com/postman-labs-docs/all-blocks/collect-block.png)
+Collects the results of a for loop, and outputs a list and an event when it has finished.
 
 **Item**: Takes in a single item from a for loop.
 
@@ -54,21 +56,21 @@ Collects the results of a for loop, and outputs a list and an event when it has 
 
 ### Create Variable
 
-Assigns a value to a variable that can then be accessed with the **Get Variable**block anywhere in the flow. The input is any value.
+<img alt="Create Variable block" src="https://assets.postman.com/postman-labs-docs/all-blocks/create-variable-block.png" width="136px"/>
 
-![Create Variable Block](https://assets.postman.com/postman-labs-docs/all-blocks/create-variable-block.png)
+Assigns a value to a variable that can then be accessed with the **Get Variable** block anywhere in the flow. The input is any value.
 
 ### Date
 
-Emits the specified date.
+<img alt="Date block" src="https://assets.postman.com/postman-labs-docs/all-blocks/date-block.png" width="164px"/>
 
-![Date Block](https://assets.postman.com/postman-labs-docs/all-blocks/date-block.png)
+Emits the specified date.
 
 ### Date & Time
 
-Emits the specified date and time.
+<img alt="Date &amp; Time block" src="https://assets.postman.com/postman-labs-docs/all-blocks/date-and-time-block.png" width="221px"/>
 
-![Date And Time Block](https://assets.postman.com/postman-labs-docs/all-blocks/date-and-time-block.png)
+Emits the specified date and time.
 
 ### Delay
 
