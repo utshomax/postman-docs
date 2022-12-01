@@ -68,9 +68,9 @@ If you're learning to carry out a specific task or workflow in Postman, check ou
 * [__Testing APIs__](#testing-apis)
 * [__Building and managing APIs__](#building-and-managing-apis)
 * [__Publishing APIs__](#publishing-apis)
+* [__Creating API workflows__](#creating-api-workflows)
 * [__Collaborating with your team__](#collaborating-with-your-team)
 * [__Developing with Postman__](#developing-with-postman)
-* [__Postman Flows__](#postman-flows)
 
 ### Making requests
 

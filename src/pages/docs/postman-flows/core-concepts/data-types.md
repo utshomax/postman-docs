@@ -103,7 +103,7 @@ const list: number[] = [1, 2, 3, 4, 5]
 
 The tuple data type represent an ordered sequence of finite elements. The values for each element of the tuple can be of different types. Unlike Lists, tuples can't be an infinite stream. Tuples have a fixed size and their size must be known beforehand.
 
-This is a typescript equivalent of a tuple.
+This is a TypeScript equivalent of a tuple.
 
 ```ts
 const list: [string, number, boolean] = ["flows", 20, true]
