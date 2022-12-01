@@ -5,8 +5,6 @@ updated: 2022-11-30
 
 The [blocks](../blocks/) available in Postman Flows are described below.
 
-![All the Blocks](https://assets.postman.com/postman-labs-docs/all-blocks/combined-all-blocks.png)
-
 ## Contents
 <!-- vale Postman.Spelling = NO -->
 <!-- vale Postman.Avoid = NO -->
@@ -76,9 +74,9 @@ Emits the specified date and time.
 
 Waits the specified amount of time before allowing data through.
 
-![Delay Block](https://assets.postman.com/postman-labs-docs/all-blocks/delay-block.png)
+<img alt="Delay block" src="https://assets.postman.com/postman-labs-docs/all-blocks/delay-block.png" width="212px"/>
 
-**Data (input)**:Triggers the block to start the delay.
+**Data (input)**: Triggers the block to start the delay.
 
 **Data (output)**: Once the delay is complete, passes through whatever data was input.
 
@@ -86,9 +84,9 @@ Waits the specified amount of time before allowing data through.
 
 ### Evaluate
 
-Executes [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) syntax to query structured data.
+<img alt="Evaluate block" src="https://assets.postman.com/postman-labs-docs/all-blocks/evaluate-block.png" width="318px"/>
 
-![Evaluate Block](https://assets.postman.com/postman-labs-docs/all-blocks/evaluate-block.png)
+Executes [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) syntax to query structured data.
 
 **Variables**: Named data or assigned values that can then be accessed using FQL.
 
@@ -98,9 +96,9 @@ Executes [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) sy
 
 ### For
 
-Loops over each item in a list.
+<img alt="For block" src="https://assets.postman.com/postman-labs-docs/all-blocks/for-block.png" width="111px"/>
 
-![For Block](https://assets.postman.com/postman-labs-docs/all-blocks/for-block.png)
+Loops over each item in a list.
 
 **List**: A list of values like `[1,2,3]` or `["one","two","three"]`.
 
@@ -110,9 +108,9 @@ Loops over each item in a list.
 
 ### Get Variable
 
-Gets the specified variable's value from anywhere in the flow.
+<img alt="Get Variable block" src="https://assets.postman.com/postman-labs-docs/all-blocks/get-variable-block.png" width="153px"/>
 
-![Get Variable Block](https://assets.postman.com/postman-labs-docs/all-blocks/get-variable-block.png)
+Gets the specified variable's value from anywhere in the flow.
 
 ### If
 <!-- vale Postman.Spelling = NO -->
