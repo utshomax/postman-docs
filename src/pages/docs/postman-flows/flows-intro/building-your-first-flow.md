@@ -25,27 +25,19 @@ Begin by creating a new collection and adding a GET request.
 
 1. In your workspace, select **New** &gt; **Collection**.
 
-    <img alt="Create new collection" src="https://assets.postman.com/postman-docs/v10/new-request-v10.jpg"/>
+    <img alt="Create new collection" src="https://assets.postman.com/postman-docs/v10/select-new-collection-v10.jpg"/>
 1. Name the collection **Random user API**.
-1. Add a request to your new collection with the request URL `https://randomuser.me/api/?results=200`.
-1. Enter the request URL `https://randomuser.me/api/?results=200`.
-1. Select **Cancel**.
-1. Select **New Collection**.
-1. Name the collection **Random user API**, and then select **Create**.
-
-    <img alt="Save request to collection" src="https://assets.postman.com/postman-docs/v10/flows-save-request-v10.jpg" width=400/>
-
-1. Select **Save**.
+1. Add a request to your **Random user API** collection with the request URL `https://randomuser.me/api/?results=200`.
 1. Select **Send**.
 1. Select **Save Response** &gt; **Save as example**.
     > Saving the request as an example enables Postman Flows to automatically detect the structure for easier access later.
-1. Replace the request URL `https://randomuser.me/api/?results=200` with the variable `{{URL}}`.
+1. Select the request you created and replace the URL `https://randomuser.me/api/?results=200` with the variable `{{URL}}`.
 1. Select **Save**.
 
 ## Making your first send request in Postman Flows
 
 1. Select **New** &gt; **Flows**. A **Start** block appears automatically.
-1. Right-click in the Flows workspace to open a list of blocks.
+1. Right-click in the **New Flow** workspace to open a list of blocks.
 1. Select **Send Request** from the list to create a **Send Request** block.
     > You can type the block's name in the **Search** field to find it faster.
 1. Connect the **Start** block to the **Send Request** block.
@@ -53,9 +45,13 @@ Begin by creating a new collection and adding a GET request.
 1. Select **Random user API**.
 1. Select the GET request you created earlier.
 1. Connect the **Start** block to the **Send Request** block.
+
+    <img alt="Connect Start to Send Request" src="https://assets.postman.com/postman-docs/v10/flows-send-request-1-v10.jpg"/>
+
 1. Create a **String** block below the **Start** block.
 1. In the **String** block, enter the text `https://randomuser.me/api/?results=200`.
 1. Connect the **String** block to the port next to `{{URL}}` on the **Send Request** block.
+    <img alt="Connect String to Send Request" src="https://assets.postman.com/postman-docs/v10/flows-string-connect-v10.jpg"/>
 
 ## Logging the output to the console
 
