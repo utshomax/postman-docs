@@ -23,19 +23,20 @@ This page walks you through your first flow, calling the Random User API and pri
 
 Begin by creating a new collection and adding a GET request.
 
-1. In your workspace, select **New** &gt; **HTTP Request**.
+1. In your workspace, select **New** &gt; **Collection**.
 
-    <img alt="Create new request" src="https://assets.postman.com/postman-docs/v10/new-request-v10.jpg"/>
-
+    <img alt="Create new collection" src="https://assets.postman.com/postman-docs/v10/new-request-v10.jpg"/>
+1. Name the collection **Random user API**.
+1. Add a request to your new collection with the request URL `https://randomuser.me/api/?results=200`.
 1. Enter the request URL `https://randomuser.me/api/?results=200`.
-1. Select **Send**.
-1. Select **Save**.
+1. Select **Cancel**.
 1. Select **New Collection**.
 1. Name the collection **Random user API**, and then select **Create**.
 
     <img alt="Save request to collection" src="https://assets.postman.com/postman-docs/v10/flows-save-request-v10.jpg" width=400/>
 
 1. Select **Save**.
+1. Select **Send**.
 1. Select **Save Response** &gt; **Save as example**.
     > Saving the request as an example enables Postman Flows to automatically detect the structure for easier access later.
 1. Replace the request URL `https://randomuser.me/api/?results=200` with the variable `{{URL}}`.
