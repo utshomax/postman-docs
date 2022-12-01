@@ -113,10 +113,11 @@ Loops over each item in a list.
 Gets the specified variable's value from anywhere in the flow.
 
 ### If
+
+<img alt="If block" src="https://assets.postman.com/postman-labs-docs/all-blocks/updated-if-block.png" width="245px"/>
+
 <!-- vale Postman.Spelling = NO -->
   Takes an input boolean and data, and takes a different branch depending on the result.
-
-  ![If Block](https://assets.postman.com/postman-labs-docs/all-blocks/updated-if-block.png)
 
   **True/False**: Takes in a bool value.
 
@@ -128,49 +129,51 @@ Gets the specified variable's value from anywhere in the flow.
 
 Emits the specified list of values. Each item can be any type of block, for example, a date block, a string or record.
 
-![List Block](https://assets.postman.com/postman-labs-docs/all-blocks/list-block.png)
+<img alt="List block" src="https://assets.postman.com/postman-docs/v10/list-block-v10.jpg" width="159px"/>
 
 ### Log (console)
 
 Prints the input to the console.
 
-![Log Block](https://assets.postman.com/postman-labs-docs/all-blocks/log-block.png)
+<img alt="Log (console) block" src="https://assets.postman.com/postman-labs-docs/all-blocks/log-block.png" width="78px"/>
+
 <!-- vale Postman.Avoid = NO -->
 ### Now
 
 Emits the current date and time.
 
-![Now Block](https://assets.postman.com/postman-labs-docs/all-blocks/now-block.png)
+<img alt="Now block" src="https://assets.postman.com/postman-labs-docs/all-blocks/now-block.png" width="69px"/>
 <!-- vale Postman.Avoid = YES -->
+
 ### Null
 
 Emits a null value.
 
-![Null Block](https://assets.postman.com/postman-labs-docs/all-blocks/null-block.png)
+<img alt="Null block" src="https://assets.postman.com/postman-labs-docs/all-blocks/null-block.png" width="35px"/>
 
 ### Number
 
 A whole or decimal number.
 
-![Number Block](https://assets.postman.com/postman-labs-docs/all-blocks/number-block.png)
+<img alt="Number block" src="https://assets.postman.com/postman-labs-docs/all-blocks/number-block.png" width="93px"/>
 
 ### Record
 
 Structured data that can hold any of the other value block types or a record itself. Data is organized by having a key and a value.
 
-![Record Block](https://assets.postman.com/postman-labs-docs/all-blocks/record-block.png)
+<img alt="Record block" src="https://assets.postman.com/postman-labs-docs/all-blocks/record-block.png" width="245px"/>
 
 ### Regex
 
 Emits a regular expression.
 
-![Regex Block](https://assets.postman.com/postman-labs-docs/all-blocks/regex-block.png)
+<img alt="Regex block" src="https://assets.postman.com/postman-labs-docs/all-blocks/regex-block.png" width="121px"/>
 
 ### Repeat
 
 Performs a loop a specified number of times.
 
-![Repeat Block](https://assets.postman.com/postman-labs-docs/all-blocks/repeat-block.png)
+<img alt="Repeat block" src="https://assets.postman.com/postman-labs-docs/all-blocks/repeat-block.png" width="129px"/>
 
 **Count**: The number of times to run the block.
 
@@ -182,13 +185,13 @@ Performs a loop a specified number of times.
 
 Parses a data stream to select a subset of the data available. If the input data is from a send request with a saved example, will auto-fill the path as items are clicked in the menu. Otherwise can be navigated using the forward slash to select sub-items. For example `/body/results` for a field named results in the body of a request.
 
-![Select Block](https://assets.postman.com/postman-labs-docs/all-blocks/select-block.png)
+<img alt="Select block" src="https://assets.postman.com/postman-labs-docs/all-blocks/select-block.png" width="142px"/>
 
 ### Send Request
 
 Invokes a request in a collection.
 
-![Send Request Block](https://assets.postman.com/postman-labs-docs/all-blocks/send-request-block.png)
+<img alt="Send Request block" src="https://assets.postman.com/postman-labs-docs/all-blocks/send-request-block.png" width="237px"/>
 
 **Send**: When any connection fires an event to this port, the block will invoke the specified request.
 
@@ -206,19 +209,19 @@ Invokes a request in a collection.
 
 Used as the entry point for [Running Flows on the Cloud](../../running-flows-on-the-cloud/webhooks/). Can be configred to hold test data for testing locally by selecting the gear icon and will act as a webhook endpoint that accepts data when running on the cloud.
 
-![Start Block](https://assets.postman.com/postman-labs-docs/all-blocks/combined-start-block.png)
+<img alt="Start block" src="https://assets.postman.com/postman-labs-docs/all-blocks/combined-start-block.png" width="110px"/>
 
 ### String
 
 Emits the string that you enter.
 
-![String Block](https://assets.postman.com/postman-labs-docs/all-blocks/string-block.png)
+<img alt="String block" src="https://assets.postman.com/postman-labs-docs/all-blocks/string-block.png" width="143px"/>
 
 ### Template
 
 Enables the free-hand structuring of data, such as the pasting of JSON data. Also supports [FQL](../../flows-query-language/introduction-to-fql/).
 
-![Template Block](https://assets.postman.com/postman-labs-docs/all-blocks/template-block.png)
+<img alt="Template block" src="https://assets.postman.com/postman-labs-docs/all-blocks/template-block.png" width="245px"/>
 
 **Variables**: Named data or assigned values that can then be accessed using FQL.
 
