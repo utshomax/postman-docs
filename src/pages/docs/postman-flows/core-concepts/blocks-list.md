@@ -72,9 +72,9 @@ Emits the specified date and time.
 
 ### Delay
 
-Waits the specified amount of time before allowing data through.
-
 <img alt="Delay block" src="https://assets.postman.com/postman-labs-docs/all-blocks/delay-block.png" width="212px"/>
+
+Waits the specified amount of time before allowing data through.
 
 **Data (input)**: Triggers the block to start the delay.
 
@@ -127,53 +127,53 @@ Gets the specified variable's value from anywhere in the flow.
 <!-- vale Postman.Spelling = YES -->
 ### List
 
-Emits the specified list of values. Each item can be any type of block, for example, a date block, a string or record.
-
 <img alt="List block" src="https://assets.postman.com/postman-docs/v10/list-block-v10.jpg" width="159px"/>
+
+Emits the specified list of values. Each item can be any type of block, for example, a date block, a string or record.
 
 ### Log (console)
 
-Prints the input to the console.
-
 <img alt="Log (console) block" src="https://assets.postman.com/postman-labs-docs/all-blocks/log-block.png" width="78px"/>
+
+Prints the input to the console.
 
 <!-- vale Postman.Avoid = NO -->
 ### Now
 
-Emits the current date and time.
-
 <img alt="Now block" src="https://assets.postman.com/postman-labs-docs/all-blocks/now-block.png" width="69px"/>
+
+Emits the current date and time.
 <!-- vale Postman.Avoid = YES -->
 
 ### Null
 
-Emits a null value.
-
 <img alt="Null block" src="https://assets.postman.com/postman-labs-docs/all-blocks/null-block.png" width="35px"/>
+
+Emits a null value.
 
 ### Number
 
-A whole or decimal number.
-
 <img alt="Number block" src="https://assets.postman.com/postman-labs-docs/all-blocks/number-block.png" width="93px"/>
+
+A whole or decimal number.
 
 ### Record
 
-Structured data that can hold any of the other value block types or a record itself. Data is organized by having a key and a value.
-
 <img alt="Record block" src="https://assets.postman.com/postman-labs-docs/all-blocks/record-block.png" width="245px"/>
+
+Structured data that can hold any of the other value block types or a record itself. Data is organized by having a key and a value.
 
 ### Regex
 
-Emits a regular expression.
-
 <img alt="Regex block" src="https://assets.postman.com/postman-labs-docs/all-blocks/regex-block.png" width="121px"/>
+
+Emits a regular expression.
 
 ### Repeat
 
-Performs a loop a specified number of times.
-
 <img alt="Repeat block" src="https://assets.postman.com/postman-labs-docs/all-blocks/repeat-block.png" width="129px"/>
+
+Performs a loop a specified number of times.
 
 **Count**: The number of times to run the block.
 
@@ -183,15 +183,15 @@ Performs a loop a specified number of times.
 
 ### Select
 
-Parses a data stream to select a subset of the data available. If the input data is from a send request with a saved example, will auto-fill the path as items are clicked in the menu. Otherwise can be navigated using the forward slash to select sub-items. For example `/body/results` for a field named results in the body of a request.
-
 <img alt="Select block" src="https://assets.postman.com/postman-labs-docs/all-blocks/select-block.png" width="142px"/>
+
+Parses a data stream to select a subset of the data available. If the input data is from a send request with a saved example, will auto-fill the path as items are clicked in the menu. Otherwise can be navigated using the forward slash to select sub-items. For example `/body/results` for a field named results in the body of a request.
 
 ### Send Request
 
-Invokes a request in a collection.
-
 <img alt="Send Request block" src="https://assets.postman.com/postman-labs-docs/all-blocks/send-request-block.png" width="237px"/>
+
+Invokes a request in a collection.
 
 **Send**: When any connection fires an event to this port, the block will invoke the specified request.
 
@@ -205,23 +205,24 @@ Invokes a request in a collection.
 
 **Failure**: Contains the response of a failed API call if tests are assigned to the request and any fail or (if there are no tests) a non 2xx HTTP status code is received. The API call can then be connected to another block or variable value to extract a field from the response.
 <!-- vale Postman.ComplexWords = YES -->
-### Start
 
-Used as the entry point for [Running Flows on the Cloud](../../running-flows-on-the-cloud/webhooks/). Can be configred to hold test data for testing locally by selecting the gear icon and will act as a webhook endpoint that accepts data when running on the cloud.
+### Start
 
 <img alt="Start block" src="https://assets.postman.com/postman-labs-docs/all-blocks/combined-start-block.png" width="110px"/>
 
-### String
+Used as the entry point for [Running Flows on the Cloud](../../running-flows-on-the-cloud/webhooks/). Can be configred to hold test data for testing locally by selecting the gear icon and will act as a webhook endpoint that accepts data when running on the cloud.
 
-Emits the string that you enter.
+### String
 
 <img alt="String block" src="https://assets.postman.com/postman-labs-docs/all-blocks/string-block.png" width="143px"/>
 
+Emits the string that you enter.
+
 ### Template
 
-Enables the free-hand structuring of data, such as the pasting of JSON data. Also supports [FQL](../../flows-query-language/introduction-to-fql/).
-
 <img alt="Template block" src="https://assets.postman.com/postman-labs-docs/all-blocks/template-block.png" width="245px"/>
+
+Enables the free-hand structuring of data, such as the pasting of JSON data. Also supports [FQL](../../flows-query-language/introduction-to-fql/).
 
 **Variables**: Named data or assigned values that can then be accessed using FQL.
 
