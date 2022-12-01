@@ -9,7 +9,7 @@ This page walks you through your first flow, calling the Random User API and pri
 
 <!-- vale Postman.Spelling = NO -->
 
-* [Creating a collection and adding a request](#creating-a-collection-and-adding-a-request)
+* [Creating a request and a collection](#creating-a-request-and-a-collection)
 * [Making your first send request in Postman Flows](#making-your-first-send-request-in-postman-flows)
 * [Logging the output to the console](#logging-the-output-to-the-console)
 * [Checking for the next page of results](#checking-for-the-next-page-of-results)
@@ -19,7 +19,7 @@ This page walks you through your first flow, calling the Random User API and pri
 
 <!-- vale Postman.Spelling = YES -->
 
-## Creating a collection and adding a request
+## Creating a request and a collection
 
 Begin by creating a new collection and adding a GET request.
 
@@ -28,12 +28,14 @@ Begin by creating a new collection and adding a GET request.
     <img alt="Create new request" src="https://assets.postman.com/postman-docs/v10/new-request-v10.jpg"/>
 
 1. Enter the request URL `https://randomuser.me/api/?results=200`.
-1. Select **Save**.
-1. Create a new collection by selecting **New Collection**. Name the collection **Random user API**, and then select **Create**.
-
-    <img alt="Save request to collection" src="https://assets.postman.com/postman-docs/save-request-to-collection-v9.jpg" width="400px"/>
-1. Select **Save**.
 1. Select **Send**.
+1. Select **Save**.
+1. Select **New Collection**.
+1. Name the collection **Random user API**, and then select **Create**.
+
+    <img alt="Save request to collection" src="https://assets.postman.com/postman-docs/v10/flows-save-request-v10.jpg" width=400/>
+
+1. Select **Save**.
 1. Select **Save Response** &gt; **Save as example**.
     > Saving the request as an example enables Postman Flows to automatically detect the structure for easier access later.
 1. Replace the request URL `https://randomuser.me/api/?results=200` with the variable `{{URL}}`.
