@@ -1,8 +1,6 @@
 ---
 title: "Setting up Postman"
-order: 8.1
-updated: 2022-06-02
-page_id: "settings"
+updated: 2022-12-01
 search_keyword: "GPU, hardware acceleration, shortcut, shortcuts, keyboard shortcuts"
 contextual_links:
   - type: section
@@ -25,9 +23,6 @@ contextual_links:
   - type: link
     name: "Sending your first request"
     url: "/docs/getting-started/sending-the-first-request/"
-
-warning: false
-
 ---
 
 Postman automatically chooses default values for some settings so you can get right to work. Make changes to settings at any time based on your use case or to customize your Postman experience.
@@ -120,13 +115,13 @@ Use the **Certificates** tab to add and manage CA certificates and client certif
 
 ## Connected accounts
 
-Use the **Connected accounts** tab to manage accounts and tokens used to authorize Postman with third-party applications. For example, when you use a personal access token to [connect an API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#connecting-to-an-on-premises-repository), Postman securely stores your token.
+Use the **Connected accounts** tab to manage saved accounts and tokens used to authorize Postman with third-party applications. For example, when you use a personal access token to [connect an API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#connecting-to-an-on-premises-repository), Postman securely stores your token.
 
-You can manage your saved tokens on the **Connected accounts** tab:
+You can manage your saved accounts and tokens on the **Connected accounts** tab:
 
-* To view a saved token, select the view icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">.
-* To edit a saved token, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. For example, if a token expired, you can edit it and enter a new valid token.
-* To remove a saved token, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">. Any integrations that use the token will stop working until you reauthorize them.
+* To view a saved account or token, select the view icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">.
+* To edit a saved account or token, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. For example, if a token expired, you can edit it and enter a new valid token.
+* To remove a saved account or token, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">. Any integrations that use the account or token will stop working until you reauthorize them.
 
 ![Connected accounts](https://assets.postman.com/postman-docs/v10/settings-connected-accounts-v10.jpg)
 
