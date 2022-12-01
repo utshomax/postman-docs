@@ -30,7 +30,7 @@ contextual_links:
 
 ## Configuring single sign-on
 
-Only a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can configure single sign-on (SSO) for a Postman team.
+Only a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can configure single sign-on (SSO) for a Postman team. To configure SSO, add an authentication method, and then configure the identity provider details.
 
 1. Go to [Team Settings](https://app.getpostman.com/dashboard/teams/edit), then select **Authentication**.
 1. Select **Add Authentication Method**.
@@ -38,17 +38,19 @@ Only a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-r
 1. Enter an authentication name that's identifiable to your team.
 1. Select **Continue**.
 
-<img src="https://assets.postman.com/postman-docs/add-auth-method.jpg" width="350px" alt="Authentication Method"/>
+    <img src="https://assets.postman.com/postman-docs/add-auth-method.jpg" width="350px" alt="Authentication Method"/>
 
-> Always check with your authentication provider dashboard or your IT support staff for the correct information to complete a modal.
+    > Always check with your authentication provider dashboard or your IT support staff for the correct information to complete a modal.
 
-In the "Service provider details (Postman)" screen, the Entity ID, and the URLs for the Login and ACS are already populated.
+1. In the **Service provider details (Postman)** section, the Entity ID, and the URLs for the Login and ACS are already populated. Optionally, you can select **Sign SAML requests** for Postman to sign authentication requests sent to the identity provider. Select **Download** to download the certificate, and then send the certificate to your identity provider.
+1. Fill in the **Identity provider details** section. From your identity provider, enter your SSO URL, Identity provider issuer, and X.509 Certificate.
+1. Select **Save Authentication**.
 
-As a next step, you must fill in the details in the **Identity Provider Details** section. Enter your authentication certificate from your identity provider in "X.509 Certificate".
+    > To continue configuring the identity provider details later, select **Configure Later**. When you're ready to configure the identity provider details, see [Edit SSO settings](#edit-sso-settings).
 
    [![details](https://assets.postman.com/postman-docs/server-provider-details.jpg)](https://assets.postman.com/postman-docs/server-provider-details.jpg)
 
-To enter details in the **Identity Provider Details** section, you must sign in to your IDP account and fetch details. Refer to the corresponding section of the documentation and follow the outlined procedure there:
+To enter details in the **Identity Provider Details** section, you must sign in to your identity provider account and fetch details. Refer to the corresponding section of the documentation and follow the outlined procedure there:
 
 * [Setting up SSO with Google Workspace](/docs/administration/sso/google-workspace/)
 
