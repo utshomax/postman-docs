@@ -36,7 +36,7 @@ The [blocks](../blocks/) available in Postman Flows are described below.
 
 <img alt="Bool block" src="https://assets.postman.com/postman-labs-docs/all-blocks/bool-block.png" width="118px"/>
 
-True or False.
+True or false.
 
 <!-- vale Postman.Spelling = YES -->
 
@@ -80,7 +80,7 @@ Waits the specified amount of time before allowing data through.
 
 **Data (output)**: Once the delay is complete, passes through whatever data was input.
 
-**Delay (in ms)**: The amount of time in Milliseconds to wait.
+**Delay (in ms)**: The amount of time in milliseconds to wait.
 
 ### Evaluate
 
@@ -88,7 +88,7 @@ Waits the specified amount of time before allowing data through.
 
 Executes [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) syntax to query structured data.
 
-**Variables**: Named data or assigned values that can then be accessed using FQL.
+**Variables**: Named data or assigned values that can be accessed using FQL.
 
 **Text entry block**: Freeform query using FQL.
 
@@ -129,7 +129,7 @@ Gets the specified variable's value from anywhere in the flow.
 
 <img alt="List block" src="https://assets.postman.com/postman-docs/v10/list-block-v10.jpg" width="159px"/>
 
-Emits the specified list of values. Each item can be any type of block, for example, a date block, a string or record.
+Emits the specified list of values. Each item can be any type of block, for example, a date block, a string, or a record.
 
 ### Log (console)
 
@@ -185,7 +185,7 @@ Performs a loop a specified number of times.
 
 <img alt="Select block" src="https://assets.postman.com/postman-labs-docs/all-blocks/select-block.png" width="142px"/>
 
-Parses a data stream to select a subset of the data available. If the input data is from a send request with a saved example, will auto-fill the path as items are clicked in the menu. Otherwise can be navigated using the forward slash to select sub-items. For example `/body/results` for a field named results in the body of a request.
+Parses a data stream to select a subset of the data available. If the input data is from a send request with a saved example, auto-fills the path as items are selected in the menu. Otherwise can be navigated using the forward slash to select sub-items. For example `/body/results` for a field named results in the body of a request.
 
 ### Send Request
 
@@ -193,24 +193,24 @@ Parses a data stream to select a subset of the data available. If the input data
 
 Invokes a request in a collection.
 
-**Send**: When any connection fires an event to this port, the block will invoke the specified request.
+**Send**: When any connection fires an event to this port, the block invokes the specified request.
 
-**Environment**: Lets you select which Postman Environment to use with your request.
+**Environment**: Lets you select which Postman environment to use with your request.
 
-**Body Type**: The schema that your data uses (for example JSON or XML). Auto will try to auto-detect which schema is being used.
+**Body Type**: The schema that your data uses (for example JSON or XML). **Auto** will try to auto-detect which schema is being used.
 
-**Variables**: Will auto-populate with any `{{variable}}` that's in the specified request. Variables can either be assigned a value in the block itself, or have a value passed in.
+**Variables**: Auto-populates with any `{{variable}}` that's in the specified request. Variables can either be assigned a value in the block itself, or have a value passed in.
 <!-- vale Postman.ComplexWords = NO -->
-**Success**: Contains the response of a successful API call if tests are assigned to the request and all pass or (if there are no tests) a 2xx HTTP status code is received. The API call can then be connected to another block or variable value to extract a field from the response.
+**Success**: Contains the response of a successful API call if tests are assigned to the request and all pass or, if there are no tests, a 2xx HTTP status code is received. The API call can then be connected to another block or variable value to extract a field from the response.
 
-**Failure**: Contains the response of a failed API call if tests are assigned to the request and any fail or (if there are no tests) a non 2xx HTTP status code is received. The API call can then be connected to another block or variable value to extract a field from the response.
+**Failure**: Contains the response of a failed API call if tests are assigned to the request and any fail or, if there are no tests, a non 2xx HTTP status code is received. The API call can then be connected to another block or variable value to extract a field from the response.
 <!-- vale Postman.ComplexWords = YES -->
 
 ### Start
 
 <img alt="Start block" src="https://assets.postman.com/postman-labs-docs/all-blocks/combined-start-block.png" width="110px"/>
 
-Used as the entry point for [Running Flows on the Cloud](../../running-flows-on-the-cloud/webhooks/). Can be configred to hold test data for testing locally by selecting the gear icon and will act as a webhook endpoint that accepts data when running on the cloud.
+Used as the entry point for [running flows on the cloud](../../running-flows-on-the-cloud/webhooks/). Can be configured to hold test data for testing locally by selecting the gear icon and will act as a webhook endpoint that accepts data when running on the cloud.
 
 ### String
 
@@ -224,6 +224,6 @@ Emits the string that you enter.
 
 Enables the free-hand structuring of data, such as the pasting of JSON data. Also supports [FQL](../../flows-query-language/introduction-to-fql/).
 
-**Variables**: Named data or assigned values that can then be accessed using FQL.
+**Variables**: Named data or assigned values that can be accessed using FQL.
 
 **Out**: Outputs the data entered in the text box.
