@@ -34,28 +34,27 @@ Postman provides an API development toolchain aimed at integrating with your wor
 
 ## Adding integrations
 
-To view available integrations, select **Integrations** on the Postman **[Home](http://go.postman.co/)** page, then select **Browse All Integrations**. On the **[Browse Integrations](https://go.postman.co/integrations/browse)** page, search for and select the tool or service you want to integrate with.
+To view available integrations, select **Integrations** on the Postman **[Home](http://go.postman.co/)** page, then select **Browse All Integrations**. On the **[Browse Integrations](https://go.postman.co/integrations/browse)** page, search and select the tool or service you want to integrate with.
 
-![Workspace Integrations](https://assets.postman.com/postman-docs/browse-integrations.jpg)
+![Browse all integrations](https://assets.postman.com/postman-docs/v10/integrations-browse-all-v10.jpg)
 
 Each integration's page explains how to use the integration and what it can do. Depending on the tool or service you're integrating with, more than one integration may be available. Select **Add Integration** next to the integration you want to add. Enter your account authorization details and any other required information to complete the setup process.
 
-![Add Integrations](https://assets.postman.com/postman-docs/add-integration-b.jpg)
-
+![Add an integrations](https://assets.postman.com/postman-docs/v10/integrations-add-v10.jpg)
 
 ## Viewing or editing integrations
 
-You can view integrations that have been configured for your team from the **[Browse Integrations](https://go.postman.co/integrations/browse)** page. Search for an select the tool or service you want to view integrations for. Select **View** or **View All** next to an integrations to view any integrations that have already been configured.
+You can view the integrations that have been configured for your team from the **[Browse Integrations](https://go.postman.co/integrations/browse)** page. Search and select the tool or service you want to view integrations for. Select **View** or **View All** next to an integration to view any integrations that have already been configured.
 
-> You can also view integrations configured for a collection or monitor. Open the collection or monitor, and then select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right side bar to view any configured integrations.
+> You can also view integrations that have been configured for a collection or monitor. Open the collection or monitor, and then select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar to view any configured integrations.
 
 Select a configured integration to view more details. From here you can take the following actions:
 
-* Refresh Run Log
-* Edit Integration
-* Delete Integration
+* **Refresh Run Log** - View the most recent integration runs.
+* **Edit Integration** - Change any configuration settings for the integration, then select **Save Changes**. Not all settings can be changed, depending on the integration. If needed, delete the integration and add a new integration with the settings you want.
+* **Delete Integration** - Delete the integration. You can add the integration again later if needed.
 
-![Workspace Integrations](https://assets.postman.com/postman-docs/integrations-from-teammates.jpg)
+![View or edit an integration](https://assets.postman.com/postman-docs/v10/integrations-view-v10.jpg)
 
 ## Installed apps
 
@@ -83,6 +82,6 @@ Postman supports implementing static IP addresses for the following integrations
 
 ## CI integrations
 
-Postman integrates with some of the most widely-used Continuous Integration and Continuous Delivery (CI/CD) tools. After you set up CI integration for your API, you can view the status of builds or kick off a new build, all from within Postman. You can also run API tests created in Postman as part of your CI pipeline.
+Postman integrates with some of the most widely used Continuous Integration and Continuous Delivery (CI/CD) tools. After you set up CI integration for your API, you can view the status of builds or kick off a new build, all from within Postman. You can also run API tests created in Postman as part of your CI pipeline.
 
 To learn more about how CI integrations work, and for detailed configuration steps, see [CI integrations](/docs/integrations/ci-integrations/).
