@@ -37,7 +37,7 @@ Begin by creating a new collection and adding a GET request.
 ## Making your first send request in Postman Flows
 
 1. Select **New** &gt; **Flows**. A **Start** block appears automatically.
-1. Right-click in the **New Flow** workspace to open a list of blocks.
+1. Right-click in the **New Flow** canvas to open a list of blocks.
 1. Select **Send Request** from the list to create a **Send Request** block.
 
     > You can type the block's name in the **Search** field to find it faster.
