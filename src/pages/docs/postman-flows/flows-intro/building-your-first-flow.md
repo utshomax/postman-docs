@@ -25,13 +25,13 @@ Begin by creating a new collection and adding a GET request.
 
 1. In your workspace, select **New** &gt; **Collection**.
 1. Name the collection **Pokemon API**.
-1. Add a request to your **Pokemon API** collection with the request URL `https://pokeapi.co/api/v2/pokemon?limit=200`.
+1. Add a request to your **Pokemon API** collection with this request URL: `https://pokeapi.co/api/v2/pokemon?limit=200`
 1. Select **Send**.
 1. Select **Save Response** &gt; **Save as example**.
 
     > Saving the response as an example enables Postman Flows to automatically detect the structure for easier access later.
 
-1. Select the request you created and replace the URL `https://pokeapi.co/api/v2/pokemon?limit=200` with the variable `{{URL}}`.
+1. Select the request you created and replace the URL `https://pokeapi.co/api/v2/pokemon?limit=200` with this variable: `{{URL}}`
 1. Select **Save**.
 
 ## Making your first send request in Postman Flows
@@ -39,13 +39,15 @@ Begin by creating a new collection and adding a GET request.
 1. Select **New** &gt; **Flows**. A **Start** block appears automatically.
 1. Right-click in the **New Flow** workspace to open a list of blocks.
 1. Select **Send Request** from the list to create a **Send Request** block.
+
     > You can type the block's name in the **Search** field to find it faster.
-1. Connect the **Start** block to the **Send Request** block.
+
+1. Connect the **Start** block to the **Send Request** block.<!-- TODO: add graphic -->
 1. In the **Send Request** block, select **Add request**.
 1. Select **Pokemon API**.
-1. Select the GET request you created earlier.sele
+1. Select the GET request you created earlier.
 1. Create a **String** block below the **Start** block.
-1. In the **String** block, enter the text `https://pokeapi.co/api/v2/pokemon?limit=200`.
+1. In the **String** block, enter this URL: `https://pokeapi.co/api/v2/pokemon?limit=200`
 1. Connect the **String** block to the port next to `{{URL}}` on the **Send Request** block.
 
 ## Logging the output to the console
