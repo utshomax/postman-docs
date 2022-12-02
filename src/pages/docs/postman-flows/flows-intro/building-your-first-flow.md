@@ -24,8 +24,6 @@ This page walks you through your first flow, calling the Pokemon API and printin
 Begin by creating a new collection and adding a GET request.
 
 1. In your workspace, select **New** &gt; **Collection**.
-
-    <img alt="Create new collection" src="https://assets.postman.com/postman-docs/v10/select-new-collection-v10.jpg"/>
 1. Name the collection **Pokemon API**.
 1. Add a request to your **Pokemon API** collection with the request URL `https://pokeapi.co/api/v2/pokemon?limit=200`.
 1. Select **Send**.
@@ -46,14 +44,9 @@ Begin by creating a new collection and adding a GET request.
 1. In the **Send Request** block, select **Add request**.
 1. Select **Pokemon API**.
 1. Select the GET request you created earlier.
-1. Connect the **Start** block to the **Send Request** block.
-
-    <img alt="Connect Start to Send Request" src="https://assets.postman.com/postman-docs/v10/flows-send-request-1-v10.jpg"/>
-
 1. Create a **String** block below the **Start** block.
 1. In the **String** block, enter the text `https://pokeapi.co/api/v2/pokemon?limit=200`.
 1. Connect the **String** block to the port next to `{{URL}}` on the **Send Request** block.
-    <img alt="Connect String to Send Request" src="https://assets.postman.com/postman-docs/v10/flows-string-connect-v10.jpg"/>
 
 ## Logging the output to the console
 
