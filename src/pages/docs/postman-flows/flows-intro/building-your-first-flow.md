@@ -77,8 +77,13 @@ Begin by creating a new collection and adding a GET request.
 
 In this example, the **Evaluate** block outputs `true` if `has_next` isn't null, or `false` if `has_next` is null.
 
-1. Create an **If** block. The **Evaluate** block sends either `true` or `false`, which determines which branch the **If** block uses.
-1. Connect the **Select** block to the **If** block. The **Select** block sends the URL of the next set of Pokémon, used in the next step.
+1. Create an **If** block and connect its **True/False** port to the **Evaluate** block's **Out** port.
+
+    > The **Evaluate** block sends either `true` or `false`, which determines which branch the **If** block uses.
+
+1. Connect the `body/next` **Select** block's right port to the  **If** block's **Data** port.
+
+    > The **Select** block sends the URL of the next set of Pokémon, used in the next step.
 
 ![**If** block](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-if-block.gif)
 
