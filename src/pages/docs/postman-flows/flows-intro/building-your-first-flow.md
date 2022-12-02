@@ -64,10 +64,11 @@ Begin by creating a new collection and adding a GET request.
 
 ## Checking for the next page of results
 
-1. Create another **Select** block and connect it to **Success** port on the **Send Request** block.
-1. Enter `/body/next` to get the link to the next set of 200 results.
-1. Create an **Evaluate** block to the right of the new **Select** block and connect it to right port on the **Select** block.
-1. In the **Evaluate** block, select the **key** field (below **Variables**) and enter `has_next`. This assigns the **Evalaute** block to the variable `has_next`.
+1. Create another **Select** block and connect it to **Success** port on the **Send Request** block.<!-- TODO: add graphic -->
+1. In the **Select** block you just created, enter `/body/next` to get the link to the next set of 200 results.
+1. Create an **Evaluate** block to the right of the `/body/next` **Select** block and connect it to right port on the **Select** block.<!-- TODO: add graphic -->
+1. In the **Evaluate** block, select the field below **Variables** and enter `has_next`. This assigns the **Evalaute** block to the variable `has_next`.<!-- TODO: add graphic -->
+1. At the top of the **Evaluate** block, enter `!=
 
     > If `has_next` is null, then the flow has reached the last set of 200 results.
 
@@ -79,11 +80,11 @@ Begin by creating a new collection and adding a GET request.
 
 In this example, the **Evaluate** block outputs `true` if `has_next` isn't null, or `false` if `has_next` is null.
 
-1. Create an **If** block and connect its **True/False** port to the **Evaluate** block's **Out** port.
+1. Create an **If** block and connect its **True/False** port to the **Evaluate** block's **Out** port.<!-- TODO: add graphic -->
 
     > The **Evaluate** block sends either `true` or `false`, which determines which branch the **If** block uses.
 
-1. Connect the `body/next` **Select** block's right port to the  **If** block's **Data** port.
+1. Connect the `body/next` **Select** block's right port to the  **If** block's **Data** port.<!-- TODO: add graphic -->
 
     > The **Select** block sends the URL of the next set of Pokémon, used in the next step.
 
@@ -95,8 +96,8 @@ In this example, `has_next` isn't null, so another set of Pokémon is available.
 
 <!-- vale Postman.Spelling = YES -->
 
-1. Connect the **If** block's TRUE output to the **Send Request** block's URL port. This passes the new `URL` variable to the **Send Request** block.
-1. Connect the **If** block's FALSE output to the **Send Request** block's Send port. This triggers the send event port of the block so it runs again.
+1. Connect the **If** block's TRUE port to the **Send Request** block's URL port. This passes the new `URL` variable to the **Send Request** block.
+1. Also connect the **If** block's TRUE port to the **Send Request** block's Send port. This triggers the send event port of the block so it runs again.
 
 ![Calling the **Send Request** block again](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-next-url.gif)
 
