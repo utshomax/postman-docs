@@ -43,7 +43,7 @@ Begin by creating a new collection and adding a GET request.
 1. Connect the **Start** block to the **Send Request** block.
 1. In the **Send Request** block, select **Add request**.
 1. Select **Pokemon API**.
-1. Select the GET request you created earlier.
+1. Select the GET request you created earlier.sele
 1. Create a **String** block below the **Start** block.
 1. In the **String** block, enter the text `https://pokeapi.co/api/v2/pokemon?limit=200`.
 1. Connect the **String** block to the port next to `{{URL}}` on the **Send Request** block.
@@ -62,9 +62,12 @@ Begin by creating a new collection and adding a GET request.
 
 ## Checking for the next page of results
 
-1. Create another **Select** block and enter `/body/next` to get the link to the next set of 200 results.
-1. Create an **Evaluate** block.
-1. Assign it to the variable `has_next` to see if it exists. If it's null that means this was the last set.
+1. Create another **Select** block and connect it to **Success** port on the **Send Request** block.
+1. Enter `/body/next` to get the link to the next set of 200 results.
+1. Create an **Evaluate** block to the right of the new **Select** block and connect it to right port on the **Select** block.
+1. In the **Evaluate** block, select the **key** field (below **Variables**) and enter `has_next`. This assigns the **Evalaute** block to the variable `has_next`.
+
+    > If `has_next` is null, then the flow has reached the last set of 200 results.
 
 <!-- vale Postman.Spelling = NO -->
 
