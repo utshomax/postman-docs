@@ -1,6 +1,6 @@
 ---
 title: "Integrating with Postman"
-updated: 2022-04-29
+updated: 2022-12-02
 search_keyword: "whitelist, whitelist IP"
 contextual_links:
   - type: section
@@ -64,21 +64,19 @@ Learn more about [adding and using installed apps in integrations](/docs/integra
 
 ## Static IP support
 
-You can use static IP addresses to enable integrations and custom webhooks for Postman Collection backups that need to access hosted (private) networks behind firewalls that require IP addresses from an allowlist.
+You must allowlist a static IP address to enable integrations and custom webhooks that access hosted (private) networks. Static IP support is available for the following integrations:
 
-Contact your IT team to allowlist the following static IP in your firewall to enable collection backup integrations and webhooks:
+* [GitHub custom domain backup](/docs/integrations/available-integrations/github/#backup-collections-to-github-on-custom-domain)
+* [GitLab custom domain backup](/docs/integrations/available-integrations/gitlab/#backup-your-postman-collections-to-gitlab-on-a-custom-domain)
+* [Custom webhooks](/docs/integrations/webhooks/)
+
+Contact your IT team to allowlist the following static IP in your firewall:
 
 * US East: `3.212.102.200`
 
-Once you allowlist this IP address, calls for the integrations and webhooks will be able to connect to your network and allow the integrations and webhooks to work as expected.
+Once you allowlist this IP address, collection backup integrations and custom webhooks will be able to connect to your private network.
 
 > DNS records use the public IP address for instances that are behind a firewall or that can't be accessed on the internet.
-
-Postman supports implementing static IP addresses for the following integrations and webhooks:
-
-* [Custom Webhooks](/docs/integrations/webhooks/)
-* [GitHub Custom Domain Backup](/docs/integrations/available-integrations/github/#backup-collections-to-github-on-custom-domain)
-* [GitLab Custom Domain Backup](/docs/integrations/available-integrations/gitlab/#backup-your-postman-collections-to-gitlab-on-a-custom-domain)
 
 ## CI integrations
 
