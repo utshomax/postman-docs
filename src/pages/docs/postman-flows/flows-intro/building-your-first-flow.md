@@ -30,7 +30,9 @@ Begin by creating a new collection and adding a GET request.
 1. Add a request to your **Pokemon API** collection with the request URL `https://pokeapi.co/api/v2/pokemon?limit=200`.
 1. Select **Send**.
 1. Select **Save Response** &gt; **Save as example**.
-    > Saving the request as an example enables Postman Flows to automatically detect the structure for easier access later.
+
+    > Saving the response as an example enables Postman Flows to automatically detect the structure for easier access later.
+
 1. Select the request you created and replace the URL `https://pokeapi.co/api/v2/pokemon?limit=200` with the variable `{{URL}}`.
 1. Select **Save**.
 
