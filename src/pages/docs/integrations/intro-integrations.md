@@ -26,24 +26,36 @@ Postman provides an API development toolchain aimed at integrating with your wor
 
 ## Contents
 
-* [Accessing integrations](#accessing-integrations)
+* [Adding integrations](#adding-integrations)
+* [Viewing or editing integrations](#viewing-or-editing-integrations)
 * [Installed apps](#installed-apps)
 * [Static IP support](#static-ip-support)
 * [CI integrations](#ci-integrations)
 
-## Accessing integrations
+## Adding integrations
 
-You can access integrations by navigating to [Browse Integrations](https://go.postman.co/integrations/browse) from your [Home page](http://go.postman.co/) and selecting "Integrations" from the menu on the left. Search and select the integration you wish to add to your workspace.
+To view available integrations, select **Integrations** on the Postman **[Home](http://go.postman.co/)** page, then select **Browse All Integrations**. On the **[Browse Integrations](https://go.postman.co/integrations/browse)** page, search for and select the tool or service you want to integrate with.
 
 ![Workspace Integrations](https://assets.postman.com/postman-docs/browse-integrations.jpg)
 
-Each integration's page explains how to use the integration and what it could do. If available, you can select **View** or **View All** to view previously configured integrations for the selected integration.
-
-![Workspace Integrations](https://assets.postman.com/postman-docs/integrations-from-teammates.jpg)
-
-Select __Add Integration__ to configure your integration. Enter the required information for account and access authorization. Select your workspace to add the integration to and complete the setup process.
+Each integration's page explains how to use the integration and what it can do. Depending on the tool or service you're integrating with, more than one integration may be available. Select **Add Integration** next to the integration you want to add. Enter your account authorization details and any other required information to complete the setup process.
 
 ![Add Integrations](https://assets.postman.com/postman-docs/add-integration-b.jpg)
+
+
+## Viewing or editing integrations
+
+You can view integrations that have been configured for your team from the **[Browse Integrations](https://go.postman.co/integrations/browse)** page. Search for an select the tool or service you want to view integrations for. Select **View** or **View All** next to an integrations to view any integrations that have already been configured.
+
+> You can also view integrations configured for a collection or monitor. Open the collection or monitor, and then select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right side bar to view any configured integrations.
+
+Select a configured integration to view more details. From here you can take the following actions:
+
+* Refresh Run Log
+* Edit Integration
+* Delete Integration
+
+![Workspace Integrations](https://assets.postman.com/postman-docs/integrations-from-teammates.jpg)
 
 ## Installed apps
 
