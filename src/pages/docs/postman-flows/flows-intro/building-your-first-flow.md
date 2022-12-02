@@ -3,7 +3,7 @@ title: "Building your first flow"
 updated: 2022-11-17
 ---
 
-This page walks you through your first flow, calling the Random User API and printing out the list to the console. The Random User API can return over 1,000 results but this flow will print two hundred at a time to the console.
+This page walks you through your first flow, calling the Pokemon API and printing out the list to the console. The Pokemon API returns over 1,000 results but this flow will print two hundred at a time to the console until it reaches the end of the list.
 
 ## Contents
 
@@ -26,12 +26,12 @@ Begin by creating a new collection and adding a GET request.
 1. In your workspace, select **New** &gt; **Collection**.
 
     <img alt="Create new collection" src="https://assets.postman.com/postman-docs/v10/select-new-collection-v10.jpg"/>
-1. Name the collection **Random user API**.
-1. Add a request to your **Random user API** collection with the request URL `https://randomuser.me/api/?results=200`.
+1. Name the collection **Pokemon API**.
+1. Add a request to your **Pokemon API** collection with the request URL `https://pokeapi.co/api/v2/pokemon?limit=200`.
 1. Select **Send**.
 1. Select **Save Response** &gt; **Save as example**.
     > Saving the request as an example enables Postman Flows to automatically detect the structure for easier access later.
-1. Select the request you created and replace the URL `https://randomuser.me/api/?results=200` with the variable `{{URL}}`.
+1. Select the request you created and replace the URL `https://pokeapi.co/api/v2/pokemon?limit=200` with the variable `{{URL}}`.
 1. Select **Save**.
 
 ## Making your first send request in Postman Flows
@@ -42,14 +42,14 @@ Begin by creating a new collection and adding a GET request.
     > You can type the block's name in the **Search** field to find it faster.
 1. Connect the **Start** block to the **Send Request** block.
 1. In the **Send Request** block, select **Add request**.
-1. Select **Random user API**.
+1. Select **Pokemon API**.
 1. Select the GET request you created earlier.
 1. Connect the **Start** block to the **Send Request** block.
 
     <img alt="Connect Start to Send Request" src="https://assets.postman.com/postman-docs/v10/flows-send-request-1-v10.jpg"/>
 
 1. Create a **String** block below the **Start** block.
-1. In the **String** block, enter the text `https://randomuser.me/api/?results=200`.
+1. In the **String** block, enter the text `https://pokeapi.co/api/v2/pokemon?limit=200`.
 1. Connect the **String** block to the port next to `{{URL}}` on the **Send Request** block.
     <img alt="Connect String to Send Request" src="https://assets.postman.com/postman-docs/v10/flows-string-connect-v10.jpg"/>
 
