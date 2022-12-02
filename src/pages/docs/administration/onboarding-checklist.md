@@ -34,13 +34,11 @@ When you're getting started using Postman within your organization, you can carr
 
 ## Setting up Postman
 
-Postman can be accessed [on the web](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) with the [Postman Desktop Agent](https://www.postman.com/downloads/postman-agent/). Postman is available as a standalone app for Windows, Mac, and Linux. Make sure everyone who would like to use Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/).
+You can access Postman [on the web](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) with any of the [Postman Agents](/docs/getting-started/about-postman-agent/). Postman is available as a standalone app for Windows, Mac, and Linux. Make sure everyone who would like to use Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/).
 
-For the Postman web version, you can also manually select the agent for your requests: **Cloud Agent**, **Desktop Agent**, or **Browser Agent**. To learn more about the agent used for your request, select the agent selector from the Postman footer. You can use **Auto-select** to turn the auto-select agent on or off. Once you enable the option for Auto-select, Postman will automatically select the best agent for your requests.
+> If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agents](/docs/getting-started/about-postman-agent/) for more information.
 
-<img alt="Auto-select agent" src="https://assets.postman.com/postman-docs/auto-select-agent.jpg" width="350px">
-
-You can either enable **Auto-select** option or manually select the agent (**Cloud**, **Desktop**, or **Browser**) you would like to use for your requests.
+For the Postman web app, you can use **Auto-select** to turn the Auto-Select agent on or off. Once you enable the option for Auto-select, Postman will automatically select the best agent for your requests. You can also manually select the agent for your requests: **Cloud Agent**, **Desktop Agent**, or **Browser Agent**. See [Selecting a Postman Agent for requests](/docs/getting-started/about-postman-agent/#selecting-a-postman-agent-for-requests) for more information.
 
 You may want to contact your IT team to establish what the procedure is for adding a new piece of software. This varies from organization to organization, however, the following points are common:
 
