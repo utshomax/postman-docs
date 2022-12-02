@@ -20,7 +20,7 @@ contextual_links:
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
 ---
 
-Postman provides an API development toolchain aimed at integrating with your workflow. The Postman team develops an open ecosystem in conjunction with industry partners to build integrations that facilitate your API projects. Integrations allow you to automate sharing data and functionality between Postman and other tools you might use for your API development.
+You can connect Postman to your API workflows with integrations for popular third-party tools. Use integrations to automatically share data between Postman and the other tools you rely on for API development. Sync your collections and API definitions to a source control repository. Send monitor alerts to your team messaging app. Or view your continuous integration (CI) builds from within Postman.
 
 > **The maximum number of integrations you can use is determined by your Postman plan. [Learn more about what's included with each plan](https://www.postman.com/pricing/).**
 
