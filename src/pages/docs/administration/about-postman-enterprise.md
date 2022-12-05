@@ -10,7 +10,7 @@ The Postman Enterprise plan is for organizations that need advanced identity man
 * [Enterprise features](#enterprise-features)
     * [Reports](#reports)
     * [Advanced identity management](#advanced-identity-management)
-    * [API Governance and API Security features](#apigovernance-and-api-security-features)
+    * [API Governance and API Security features](#api-governance-and-api-security-features)
     * [Collaboration](#collaboration)
     * [Administration](#administration)
 * [Purchasing a Postman Enterprise plan](#purchasing-a-postman-enterprise-plan)
@@ -27,10 +27,10 @@ Postman Enterprise enables you to access reports that give you insights into the
 
 Postman Enterprise gives you access to advanced identity management features, including:
 
-* **Role-based access control (RBAC)** - Postman Enterprise RBAC enables you to give the right members of your team access to the right tools and data. To learn more about the team-level roles available to Enterprise teams, including Super Admin, Community Manager, and API Network Manager, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
-* **User groups** - An Enterprise plan enables you to organize members of your team into groups, then assign roles and permissions according to each group's function. To learn more about user groups, see [Managing user groups](/docs/administration/managing-your-team/user-groups/).
-* **Single sign-on (SSO)** - You can enable your team members to sign in to Postman Enterprise using your organization's [identity provider](/docs/administration/sso/intro-sso/#identity-providers-supported). To learn more about setting up SSO for your team, see [Intro to SSO](/docs/administration/sso/intro-sso/).
-* **System for cross-domain identity management (SCIM)** - Setting up SCIM enables you to automatically provision and de-provision team members and organize them into [user groups](/docs/administration/managing-your-team/user-groups/). To learn more about enabling SCIM for your team, see [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/).
+* **Role-based access control (RBAC)** - Postman Enterprise RBAC enables you to give the right users on your team access to the right tools and data. To learn more about the team-level roles available to Enterprise teams, including Super Admin, Community Manager, and API Network Manager, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
+* **User groups** - An Enterprise plan enables you to organize users on your team into groups, then assign roles and permissions according to each group's function. To learn more about user groups, see [Managing user groups](/docs/administration/managing-your-team/user-groups/).
+* **Single sign-on (SSO)** - You can enable users on your team to sign in to Postman Enterprise using your organization's [identity provider](/docs/administration/sso/intro-sso/#identity-providers-supported). To learn more about setting up SSO for your team, see [Intro to SSO](/docs/administration/sso/intro-sso/).
+* **System for cross-domain identity management (SCIM)** - Setting up SCIM enables you to automatically provision and de-provision users on your team and organize them into [user groups](/docs/administration/managing-your-team/user-groups/). To learn more about enabling SCIM for your team, see [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/).
 * **Domain capture** - Domain capture enables you to consolidate all your organization's users into a single Postman team and ensure that any new users who sign up for Postman with your domain are automatically added. To learn more about setting up domain capture, see [Configuring domain capture](/docs/administration/managing-your-team/configuring-domain-capture/).
 
 ### API Governance and API Security features
@@ -39,7 +39,7 @@ Postman Enterprise provides you with advanced API Governance and API Security fe
 
 * **Custom token scanner** - Create a [custom token scanner](/docs/administration/token-scanner/#custom-alerts) to proactively check for security leaks.
 * **Public link governance** - View and manage elements like workspaces, documentation, and collection links that your team [makes public](/docs/collaborating-in-postman/manage-public-elements/).
-* **Audit logs** - Use [audit logs](/docs/administration/audit-logs/) to understand how your team members are using Postman.
+* **Audit logs** - Use [audit logs](/docs/administration/audit-logs/) to understand how users on your team are using Postman.
 * **API Governance and API Security warnings** - Customizable API Governance and API Security warnings enable you to apply standards consistently throughout your API development process's [design](/docs/api-governance/api-definition/api-definition-warnings/) and [testing](/docs/api-governance/api-testing/api-testing-warnings/) phases. You can also use the [Postman CLI](/docs/postman-cli/postman-cli-overview/) to return API Governance and API Security warnings.
 * **Static IP monitoring** - Use collection-based monitors to monitor APIs that are behind a restricted firewall. To learn more about static IP monitoring, see [Running monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/).
 
@@ -61,4 +61,4 @@ After you purchase a Postman Enterprise plan, you can customize it to meet your 
 
 ## Purchasing a Postman Enterprise plan
 
-To purchase a Postman Enterprise plan, contact the [Postman sales team](https://www.postman.com/company/contact-sales/). To learn more, see [Purchasing Postman](/docs/administration/buying/). Afterward you purchase your plan, a member of the Postman team will help set up Postman Enterprise for your organization.
+To purchase a Postman Enterprise plan, contact the [Postman sales team](https://www.postman.com/company/contact-sales/). To learn more, see [Purchasing Postman](/docs/administration/buying/). After you purchase your plan, the Postman team will help set up Postman Enterprise for your organization.

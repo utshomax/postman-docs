@@ -53,14 +53,14 @@ Roles define user permissions within a Postman team and a user's level of access
 
 With the [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you have the power to define Postman access at the team level. You can use Postman's role-based access control system to limit visibility of team resources, define your development workflow, and give access to administrative and billing personnel. Each user on a team must have at least one role attached to them, and can hold multiple roles simultaneously.
 
-You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to team members, based on the functions those team members require:
+You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to users on a team, based on the functions those users require:
 
-* **Super Admin** - Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, API Network Manager, and Developer roles can perform ([Enterprise plans only](https://www.postman.com/pricing)).
-* **Admin** - Manages team members and team settings.
-* **Billing** - Manages team plan and payments. Billing roles can be granted by a Super Admin, Team Admin, or by a fellow team member with a Billing role.
+* **Super Admin** - Manages everything within a team, including team settings, users, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Users with this role can perform all actions that Admin, Billing, Community Manager, API Network Manager, and Developer roles can perform ([Enterprise plans only](https://www.postman.com/pricing)).
+* **Admin** - Manages users on the team and team settings.
+* **Billing** - Manages team plan and payments. Billing roles can be granted by a Super Admin, Team Admin, or by a fellow user on the team with a Billing role.
 * **Developer** - Has access to all team resources and workspaces.
 * **Community Manager** - Manages the public visibility of workspaces and team profile ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
-* **API Network Manager** - Manages a team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/), including adding APIs and reviewing requests to add APIs. A Super Admin or another team member with the API Network Manager role can grant this role to a user ([Enterprise plans only](https://www.postman.com/pricing)).
+* **API Network Manager** - Manages a team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/), including adding APIs and reviewing requests to add APIs. A Super Admin or another user on the team with the API Network Manager role can grant this role to a user ([Enterprise plans only](https://www.postman.com/pricing)).
 * **Partner Manager** (Internal, [Enterprise plans only](https://www.postman.com/pricing)) - Manages all [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners. To learn more, see [Partner roles](#partner-roles).
 * **Partner** (External, [Enterprise plans only](https://www.postman.com/pricing)) - All partners are automatically granted the Partner role at the team level. Partners can only access the [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) they've been invited to. To learn more, see [Partner roles](#partner-roles).
 
@@ -93,7 +93,7 @@ Team roles offer high-level access control:
 
 &ast;&ast;&ast; Enterprise plans only. Teams that don't use the [optional approval process workflow](/docs/collaborating-in-postman/adding-private-network/#using-the-approval-process-workflow) for the Private API Network can allow users with [an API Editor role](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) to add APIs to the Private API Network instead.
 
-> **Postman support users**. Members with a Developer or Super Admin role consume a paid seat on your team. Team members who have only Admin or Billing roles become support users and don’t consume paid slots. Each team can have two support users.
+> **Postman support users**. Members with a Developer or Super Admin role consume a paid seat on your team. Users on the team who have only Admin or Billing roles become support users and don’t consume paid seats. Each team can have two support users.
 
 ### Managing team roles
 
@@ -127,7 +127,7 @@ The following roles control access at a workspace level:
 
 ## Element-based roles
 
-At the element level, you can assign roles to team members that decide their level of access to Postman [collections](#collection-roles), [APIs](#api-roles), [mock servers](#mock-server-roles), and [monitors](#monitor-roles).
+At the element level, you can assign roles to users on the team that decide their level of access to Postman [collections](#collection-roles), [APIs](#api-roles), [mock servers](#mock-server-roles), and [monitors](#monitor-roles).
 
 ### Collection roles
 
