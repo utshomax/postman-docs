@@ -5,11 +5,11 @@ updated: 2022-11-17
 
 <!-- vale Postman.Spelling = NO -->
 <!-- vale Postman.Weasel = NO -->
-Since Postman Flows is a dataflow language, it understands all kinds of values and associates types with data. Flows is a hybrid typed language, so it performs static type checking to provide features like auto-complete and early warning. Flows also performs some dynamic type checking during execution.
+Postman Flows is a dataflow language, which means it understands all kinds of values and associates types with data. Flows is a hybrid typed language, so it performs static type checking to provide features like auto-complete and early warning. Flows also performs some dynamic type checking during execution.
 <!-- vale Postman.Weasel = YES -->
 <!-- vale Postman.Spelling = YES -->
 
-Since most Flow programmers have a JavaScript or TypeScript background, or are programming in an API-First language for the first time, the vocabulary of the types resembles JavaScript and TypeScript.
+Because most Flow programmers have a JavaScript or TypeScript background, or are programming in an API-First language for the first time, the vocabulary of the types resembles JavaScript and TypeScript.
 
 ## Contents
 
@@ -87,7 +87,7 @@ A _regex_ value is automatically converted to a _string_ if required.
 
 ## Abstract types
 
-> All complex and abstract data types in Flows are built on the concept of Streams internally.
+> All complex and abstract data types in Flows are built on the concept of streams internally.
 
 ### List
 
