@@ -40,7 +40,7 @@ To view available integrations, select **Integrations** on the Postman **[Home](
 
 Each integration's page explains how to use the integration and what it can do. Depending on the tool or service you're integrating with, more than one integration may be available. Select **Add Integration** next to the integration you want to add. Enter your account authorization details and any other required information to complete the setup process.
 
-![Add an integrations](https://assets.postman.com/postman-docs/v10/integrations-add-v10.jpg)
+![Add an integration](https://assets.postman.com/postman-docs/v10/integrations-add-v10.jpg)
 
 ## Viewing or editing integrations
 
