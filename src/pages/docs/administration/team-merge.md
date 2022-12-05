@@ -49,7 +49,7 @@ Team migration can occur in different ways depending on your needs and preferred
 
 You can choose either [centralized](#choosing-centralized-migration) or [distributed](#choosing-distributed-migration) migration to export your team data.
 
-> As a precautionary measure prior to migrating data, Admins and team members are strongly encouraged to perform a [JSON data dump backup through a bulk export](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
+> As a precautionary measure prior to migrating data, Admins and users on the team are strongly encouraged to perform a [JSON data dump backup through a bulk export](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
 
 ### Choosing centralized migration
 
@@ -67,7 +67,7 @@ Don't choose distributed migration if your organization relies on the following:
 
 * Postman-published documentation–URLs would need to be republished from your new team instance.
 * Mocks and monitors—you would need to recreate these.
-* Your team members have a lot of important content in their personal workspaces that must be transferred.
+* Users on your team have a lot of important content in their personal workspaces that must be transferred.
 
 See [performing centralized migration](#performing-centralized-migration) to choose this option.
 
@@ -104,16 +104,16 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 * [Export all data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) at once with a [JSON data dump](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
 * The appointed Admin can then [re-import into the new team](/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman).
     * All collections included in the data dump will be imported into your selected workspace.
-* When your new team is ready for team members to join, the Admin on the new team can send invitations to all other team members. The invite link will prompt them to join the new team. Once they've joined the new team, you can [remove them from the original team](/docs/administration/managing-your-team/managing-your-team/#removing-team-members).
+* When your new team is ready for users to join, the Admin on the new team can send invitations to all other users on the team. The invite link will prompt them to join the new team. Once they've joined the new team, you can [remove them from the original team](/docs/administration/managing-your-team/managing-your-team/#removing-team-members).
 * At this point, you can [re-share and organize collections into team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces).
-* Once the last team member from your earlier team has migrated to your new one, the original team will be deleted along with all of the data within it. You can then begin [collaborating](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) in your new team. To learn more about collaborating in Postman, watch [Working with your team in Postman](https://youtu.be/5lscUV-Exac).
+* Once the last user from your earlier team has migrated to your new one, the original team will be deleted along with all of the data within it. You can then begin [collaborating](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) in your new team. To learn more about collaborating in Postman, watch [Working with your team in Postman](https://youtu.be/5lscUV-Exac).
 
 ### Performing distributed migration
 
-* Your team members need to [export](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) their Postman data prior to moving to your new team. You can use this as an opportunity to clean up and reorganize your workspaces.
-* Team members can [leave the earlier team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#leaving-a-team) and [join your new team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team). They can then re-import Postman data into their respective team workspaces, creating new workspaces where necessary.
+* Users on your team need to [export](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) their Postman data prior to moving to your new team. You can use this as an opportunity to clean up and reorganize your workspaces.
+* Users can [leave the earlier team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#leaving-a-team) and [join your new team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team). They can then re-import Postman data into their respective team workspaces, creating new workspaces where necessary.
     * By default, the person who imports a collection or environment is automatically assigned the Editor role (learn more about [roles](/docs/collaborating-in-postman/roles-and-permissions/)). Everyone else on the team will be assigned as a Viewer.
-* Once the last team member from your earlier team has migrated to your new one, the original team will be deleted along with all of the data within it. You can then begin [collaborating](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) in your new team. To learn more about collaborating in Postman, watch [Working with your team in Postman](https://youtu.be/5lscUV-Exac).
+* Once the last user from your earlier team has migrated to your new one, the original team will be deleted along with all of the data within it. You can then begin [collaborating](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) in your new team. To learn more about collaborating in Postman, watch [Working with your team in Postman](https://youtu.be/5lscUV-Exac).
     * If you change your team email to a non-company domain email (for example, Gmail or Yahoo), your original team will continue indefinitely. You can keep a personal account with your current data and use a work email for a work account. Keeping both accounts in use can help when you migrate data.
     * Keep in mind items that will need to be recreated (such as monitors and mocks).
 
@@ -153,7 +153,7 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 
 * **What happens to the earlier team once everyone leaves?**
 
-    If it's a free team, the team is deleted after the last member leaves the team. Previous members of the deleted team will no longer have access to the team's workspaces, including personal workspaces, or any elements in them. Users can [export their Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) prior to leaving the team to ensure it stays with them.
+    If it's a free team, the team is deleted after the last user leaves the team. Previous users of the deleted team will no longer have access to the team's workspaces, including personal workspaces, or any elements in them. Users can [export their Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) prior to leaving the team to ensure it stays with them.
 
     If it's a paid team, you must contact [Postman support](https://www.postman.com/support/) to cancel the plan subscription before you can leave the team.
 
@@ -161,5 +161,5 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 
 Now that you know how to migrate data between teams, you might also be interested in learning how to manage team roles and set up SSO:
 
-* To learn how to manage your team roles, invite team members to workspaces, and adjust your team size, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).
+* To learn how to manage your team roles, invite users to workspaces, and adjust your team size, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).
 * To learn how to set up single sign-on (SSO) for your Postman team, visit [Configure SSO](/docs/administration/sso/admin-sso/). (_Professional and Enterprise plans only_.)

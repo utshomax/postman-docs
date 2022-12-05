@@ -241,7 +241,7 @@ Your Auto-Flex billing cycle is dependent on your team's plan:
 
 At any time during your Auto-Flex billing cycle, your team can [invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) users regardless of available seats.
 
-Before your Auto-Flex billing cycle renews, all Billing and Admin team members receive a notification about any new users you added during that time period.
+Before your Auto-Flex billing cycle renews, all Billing and Admin users on the team receive a notification about any new users you added during that time period.
 
 > Annual plans receive a notification two weeks before their quarterly cycle renews, and monthly plans receive a notification one week before their monthly cycle renews.
 
@@ -255,8 +255,8 @@ You won't be billed if the number of users has remained unchanged during your Au
 
 In your [billing dashboard](http://go.postman.co/billing), you can view:
 
-* Your current number of additional team members
-* How much you will be billed at the end of your cycle (unless you add or remove team members in the interim)
+* Your current number of additional users on the team
+* How much you will be billed at the end of your cycle (unless you add or remove users in the interim)
 * Additional information about your Auto-Flex and regular billing cycles
 
 <img alt="Billing overview with auto flex" src="https://assets.postman.com/postman-docs/auto-flex-dash-9.14.jpg" />
