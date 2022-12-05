@@ -11,7 +11,7 @@ contextual_links:
     url: "/docs/integrations/ci-integrations/"
 ---
 
-[Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines) is a continuous integration (CI) and continuous delivery (CD) service that's integrated with Bitbucket Cloud. Software development teams can use Bitbucket Pipelines to automatically build, test, and deploy code in Bitbucket.
+[Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines) is a continuous integration and continuous delivery (CI/CD) service that's integrated with Bitbucket Cloud. Software development teams can use Bitbucket Pipelines to automatically build, test, and deploy code in Bitbucket.
 
 To set up a Bitbucket Pipelines integration for your API, first create a pipeline in Bitbucket and then configure your API in Postman. After you set up the integration, you can view the status of builds or start a new build, all from within Postman.
 

@@ -12,7 +12,7 @@ contextual_links:
 
 > **[GitHub Actions self-hosted runners are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-[GitHub Actions](https://docs.github.com/en/actions) is a continuous integration (CI) and continuous delivery (CD) service that's integrated with GitHub. Software development teams can use GitHub Actions to automatically build, test, and deploy code in GitHub.
+[GitHub Actions](https://docs.github.com/en/actions) is a continuous integration and continuous delivery (CI/CD) service that's integrated with GitHub. Software development teams can use GitHub Actions to automatically build, test, and deploy code in GitHub.
 
 To set up a GitHub Actions integration for your API, first create a pipeline in GitHub and then configure your API in Postman. After you set up the integration, you can view the status of builds from within Postman.
 
