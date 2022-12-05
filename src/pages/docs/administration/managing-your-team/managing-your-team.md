@@ -93,7 +93,7 @@ When you remove a user from your team, you will still retain access to any data 
 
 <img alt="Confirmation for removing a team member" src="https://assets.postman.com/postman-docs/remove-user-from-team-v9.2.jpg" width="400px"/>
 
-> Note that when you remove a member from your team, this doesn't automatically reduce the number of paid slots for your team unless the member was added by [Auto-Flex](/docs/administration/billing/#utilizing-auto-flex) during the current Auto-Flex cycle. If you want to reduce the number of paid slots on your team, a member of your team with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [edit your plan](/docs/administration/billing/#changing-your-plan).
+> Note that when you remove a member from your team, this doesn't automatically reduce the number of paid seats for your team unless the member was added by [Auto-Flex](/docs/administration/billing/#utilizing-auto-flex) during the current Auto-Flex cycle. If you want to reduce the number of paid seats on your team, a member of your team with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [edit your plan](/docs/administration/billing/#changing-your-plan).
 
 ### Managing team roles
 
@@ -107,7 +107,7 @@ Search for a specific user by typing their name or email in the search field. Yo
 
 > Each team member must have at least one team role assigned to them.
 
-Teams can have two support accounts at no extra cost. Support accounts are members with only Admin or Billing roles. Members with a Super Admin or Developer role will consume a paid slot on your team.
+Teams can have two support accounts at no extra cost. Support accounts are members with only Admin or Billing roles. Members with a Super Admin or Developer role will consume a paid seat on your team.
 
 For full details about the Postman team roles that you can assign as a Team Admin, see [Team roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). Some roles are only available for teams with [Postman Professional or Enterprise](https://www.postman.com/pricing) plans.
 
@@ -125,7 +125,7 @@ You can manage your team size or upgrade your plan at any time during your team'
 
 If you want to change your team's size, you have two different options:
 
-* **Change the number of paid slots** - Team members with the Billing role can change your team's number of paid slots in the [billing dashboard](https://go.postman.co/billing/overview).
+* **Change the number of paid seats** - Team members with the Billing role can change your team's number of paid seats in the [billing dashboard](https://go.postman.co/billing/overview).
 * **Enable Auto-Flex** - Your team can invite more users without having to pay in advance for more seats with [Auto-Flex](/docs/administration/billing/#utilizing-auto-flex).
 
 For more information, see [Team and plan changes](/docs/administration/billing/#team-and-plan-changes).
