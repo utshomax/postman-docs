@@ -56,7 +56,7 @@ To access the list of pull requests, go to the element and select the pull reque
 
 <img src="https://assets.postman.com/postman-docs/v10/open-pull-request-list-v10.jpg" alt="Pull request list" width="350px"/>
 
-When you're tagged as a reviewer on a pull request, Postman notifies you when a team member creates a pull request:
+When you're tagged as a reviewer on a pull request, Postman notifies you when a user on the team creates a pull request:
 
 * Select the notifications icon <img alt="Notification icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header to view the notification. Select **View Pull Request** to view the pull request.
 * You will also receive an email with information about the pull request's title, the element included in the pull request, and who created the pull request. Select **Review Changes** in the email to access the pull request in Postman.
@@ -123,7 +123,7 @@ After you approve the pull request, its status in the list of pull requests is `
 
 ## Pulling updates during a pull request
 
-You can keep your forked collections and environments up to date with any changes to the parent element, for example if another team member has merged changes into the parent element.
+You can keep your forked collections and environments up to date with any changes to the parent element, for example if another user has merged changes into the parent element.
 
 1. [Create the pull request.](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/#creating-pull-requests) Postman will warn you that the parent element has changed since you last updated it.
 1. Select **Pull Changes** to update your fork with the changes to the parent element.

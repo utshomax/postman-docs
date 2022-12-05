@@ -93,7 +93,7 @@ Team roles offer high-level access control:
 
 &ast;&ast;&ast; Enterprise plans only. Teams that don't use the [optional approval process workflow](/docs/collaborating-in-postman/adding-private-network/#using-the-approval-process-workflow) for the Private API Network can allow users with [an API Editor role](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) to add APIs to the Private API Network instead.
 
-> **Postman support users**. Members with a Developer or Super Admin role consume a paid seat on your team. Users on the team who have only Admin or Billing roles become support users and don’t consume paid seats. Each team can have two support users.
+> **Postman support users**. Users with a Developer or Super Admin role consume a paid seat on your team. Users on the team who have only Admin or Billing roles become support users and don’t consume paid seats. Each team can have two support users.
 
 ### Managing team roles
 
@@ -234,7 +234,7 @@ Update monitor roles | &#x2714; |
 
 > **[Partner roles are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-Partner roles relate to [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) and are applied at the team and workspace level. There are different partner roles you can assign to team members and external partners:
+Partner roles relate to [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) and are applied at the team and workspace level. There are different partner roles you can assign to users on your team and external partners:
 
 |  | For team members | For partners |
 | --- |:---:| --- |
@@ -254,6 +254,6 @@ All partners are assigned Workspace Editor or Viewer roles when invited to a Par
 
 ## Next steps
 
-Now that you understand the roles available to team members, you can manage your team's level of access and control more effectively.
+Now that you understand the roles available to users, you can manage your team's level of access and control more effectively.
 
 * To learn more about team management, including managing team roles and inviting collaborators to join your team, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).

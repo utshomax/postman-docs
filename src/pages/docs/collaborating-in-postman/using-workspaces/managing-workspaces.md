@@ -102,9 +102,9 @@ The visibility setting for a workspace determines who can access it. You must be
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
 1. Select a **Visibility** for the workspace:
     * **Personal** - Only you can access.
-    * **Private** - Only invited team members can access ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
-    * **Team** - All team members can access.
-    * **Partner** - Only invited team members and [partners](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) can access ([Enterprise plans only](https://www.postman.com/pricing)).
+    * **Private** - Only invited users on the team can access ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
+    * **Team** - All users on the team can access.
+    * **Partner** - Only invited users on the team and [partners](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) can access ([Enterprise plans only](https://www.postman.com/pricing)).
     * **Public** - Everyone can view.
 1. Select **Update**.
 
@@ -114,7 +114,7 @@ The visibility setting for a workspace determines who can access it. You must be
 
 ## Sharing workspaces
 
-You can invite team members, [groups](/docs/administration/managing-your-team/user-groups/), and external users to collaborate in a workspace by navigating to the workspace and selecting **Invite** in the upper-right corner.
+You can invite users on the team, [groups](/docs/administration/managing-your-team/user-groups/), and external users to collaborate in a workspace by navigating to the workspace and selecting **Invite** in the upper-right corner.
 
 <img alt="Share team workspace" src="https://assets.postman.com/postman-docs/share-workspace-9.4.jpg" width="400px"/>
 
@@ -126,7 +126,7 @@ Your ability to share workspaces with teammates depends on your [workspace role]
 
 > When you invite a collaborator to a personal workspace, it's automatically converted into a team workspace.
 
-Individual team members and groups you invite will be notified of your request to collaborate.
+Individual users on the team and groups you invite will be notified of your request to collaborate.
 
 External users who aren't on your Postman team will receive an invitation to join immediately if you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). On Free, Basic, and Professional plans, users with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin.
 
@@ -138,11 +138,11 @@ You can also invite collaborators by selecting <img alt="Link icon" src="https:/
 
 > Private workspaces are only available to [Professional and Enterprise](https://www.postman.com/pricing/) teams.
 
-Team members can [request access to a private workspace](#accessing-private-workspaces) if another team member with access provides them with a link to it. All Workspace Admins will be notified of requests for access by the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> and by email. Select **Respond to Request** to review requests for access.
+Users on the team can [request access to a private workspace](#accessing-private-workspaces) if another user with access provides them with a link to it. All Workspace Admins will be notified of requests for access by the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> and by email. Select **Respond to Request** to review requests for access.
 
 <img alt="Respond to request for access to private workspace" src="https://assets.postman.com/postman-docs/workspace-admin-respond-rfa-private-workspace-v9.16.jpg" width="400px"/>
 
-You can assign a [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to define a user's permissions within the workspace, then select **Approve** to grant them access. You can also choose to reject a request for access by selecting **Deny**. Team members who have requested access will be notified of your decision in Postman and by email.
+You can assign a [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to define a user's permissions within the workspace, then select **Approve** to grant them access. You can also choose to reject a request for access by selecting **Deny**. Users on the team who have requested access will be notified of your decision in Postman and by email.
 
 > Requests for access to private workspaces expire if they aren't reviewed within 15 days. If this occurs, Postman will notify the affected users to resubmit their request for access.
 
@@ -169,7 +169,7 @@ To change the role of people in a workspace, or to remove someone from a workspa
 
 ## Watching a workspace
 
-Watch a workspace to receive an email or in-app notification when a team member modifies anything in the workspace, such as changing the workspace visibility or updating an element in the workspace.
+Watch a workspace to receive an email or in-app notification when a user on the team modifies anything in the workspace, such as changing the workspace visibility or updating an element in the workspace.
 
 To start watching a workspace, select <img alt="Watch icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> **Watch** in the workspace's **Overview** tab. Select the count next to **Watch** to access the list of people who are watching the workspace.
 
@@ -204,7 +204,7 @@ To move an element to a different workspace, do the following:
 
 ## Seeing who is in your workspace
 
-The list of avatars in the Postman header shows you who's active in your workspace. If you're in a private or team workspace, this list will include all team members who are currently active in the workspace, as well as all team members who are currently inactive, but have visited the workspace before.
+The list of avatars in the Postman header shows you who's active in your workspace. If you're in a private or team workspace, this list will include all users on the team who are currently active in the workspace, as well as all users on the team who are currently inactive, but have visited the workspace before.
 
 If you're in a public workspace, this list will include all active users with [public profiles](/docs/getting-started/postman-account/#making-your-profile-public) as well as users who've chosen to remain anonymous by not enabling their public profile.
 

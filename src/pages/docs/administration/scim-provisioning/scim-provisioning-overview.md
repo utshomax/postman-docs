@@ -18,7 +18,7 @@ contextual_links:
 
 Postman supports [SCIM](https://datatracker.ietf.org/doc/html/rfc7642) (System for Cross-domain Identity Management), allowing you to automate user provisioning and de-provisioning for your team. With this feature, you can efficiently deploy Postman at scale across your organization and control access to it with your identity provider.
 
-You can enable SCIM provisioning with the [SCIM API](#configuring-scim-with-the-scim-api), [Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), or [Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/). You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable SCIM for your team. With SCIM enabled, users won't have the option to leave your team on their own, and won't be able to change their account email or password. Only Team Admins will have the right to remove team members.
+You can enable SCIM provisioning with the [SCIM API](#configuring-scim-with-the-scim-api), [Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), or [Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/). You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable SCIM for your team. With SCIM enabled, users won't have the option to leave your team on their own, and won't be able to change their account email or password. Only Team Admins will have the right to remove users from the team.
 
 ## Contents
 
@@ -54,7 +54,7 @@ Postman supports the following provisioning features:
 
     * **Reactivate user**: Reactivates an existing deactivated user by unblocking the account's authentication into Postman and adds the account back to your Postman team.
 
-* **Create group**: Creates a new [user group](/docs/administration/managing-your-team/user-groups/) in Postman. When you assign the Postman app to a group, Postman creates a new account for each group member, adds each account to your organization's Postman team, and activates authentication for each user. If an existing Postman account uses an email that matches a group member's email ID, an [email invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) to join your Postman team is sent to that user. Once the user accepts the invite, they'll be added to your team.
+* **Create group**: Creates a new [user group](/docs/administration/managing-your-team/user-groups/) in Postman. When you assign the Postman app to a group, Postman creates a new account for each user, adds each account to your organization's Postman team, and activates authentication for each user. If an existing Postman account uses an email that matches a user's email ID, an [email invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) to join your Postman team is sent to that user. Once the user accepts the invite, they'll be added to your team.
 
     > Newly created groups will have the Developer role in Postman by default. You can later [update group roles in Postman](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
 
@@ -66,7 +66,7 @@ Postman supports the following provisioning features:
 
     * **Update group attributes**: Updates a group's name in Postman.
 
-    * **Update group members**: Adds or removes members from a group in Postman.
+    * **Update group members**: Adds or removes users from a group in Postman.
 
 Postman doesn't support the following provisioning features:
 

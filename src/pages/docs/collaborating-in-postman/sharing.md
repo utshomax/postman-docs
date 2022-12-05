@@ -57,7 +57,7 @@ To copy an element's URL to your clipboard, you can also hover over the element'
 
 ### Sharing using names, emails, or groups
 
-You can share collections, APIs, and environments directly with collaborators, including team members, groups, and external users.
+You can share collections, APIs, and environments directly with collaborators, including users on the team, groups, and external users.
 
 1. From the element you want to share, select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share**.
 1. Select **With people**.
@@ -67,7 +67,7 @@ You can share collections, APIs, and environments directly with collaborators, i
 
 <img alt="Share a collection using name, email, or group" src="https://assets.postman.com/postman-docs/v10/share-element-with-people-v10.jpg"/>
 
-Postman will tell the individual team members and groups you shared the element with about your request to collaborate.
+Postman will tell the users and groups you shared the element with about your request to collaborate.
 
 If the element you want to share is in a personal workspace, you'll be prompted to either change the workspace visibility to Team or to create a new team workspace to place the element in. For more information, see [Collaborating in team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/).
 
@@ -114,7 +114,7 @@ If you want to share a link with other users, select **Link to collection in pub
 
 ## Sharing elements with external users
 
-> Your team must have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#utilizing-auto-flex) to invite more team members.
+> Your team must have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#utilizing-auto-flex) to invite more users.
 
 When you share a collection, external users who aren't on your Postman team will receive an invitation to join your team right away if you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
 
