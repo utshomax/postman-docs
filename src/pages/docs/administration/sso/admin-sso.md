@@ -26,47 +26,55 @@ contextual_links:
 * [Configuring single sign-on](#configuring-single-sign-on)
 * [Edit SSO settings](#edit-sso-settings)
 * [Managing user accounts](#managing-user-accounts)
+* [Troubleshooting](#troubleshooting)
 * [Next steps](#next-steps)
 
 ## Configuring single sign-on
 
-Only a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can configure single sign-on (SSO) for a Postman team. To configure SSO, add an authentication method, and then configure the identity provider details.
+Only a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can configure single sign-on (SSO) for a Postman team. To configure SSO, add an authentication method, and then configure the Identity Provider (IdP) details.
+
+To add an authentication method, do the following:
 
 1. Go to [Team Settings](https://app.getpostman.com/dashboard/teams/edit), then select **Authentication**.
 1. Select **Add Authentication Method**.
 1. Select the authentication type.
 1. Enter an authentication name that's identifiable to your team.
-1. Select **Continue**.
+1. Select **Continue** to [configure the identity provider details](#configuring-the-identity-provider-details).
 
     <img src="https://assets.postman.com/postman-docs/add-auth-method.jpg" width="350px" alt="Authentication Method"/>
 
     > Always check with your authentication provider dashboard or your IT support staff for the correct information to complete a modal.
 
+### Configuring the identity provider details
+
+After [adding the authentication method](#configuring-single-sign-on), you can configure the identity provider details. To continue configuring the identity provider details later, select **Configure Later**. When you're ready to continue configuring the identity provider details, see [Edit SSO settings](#edit-sso-settings).
+
 1. In the **Service provider details (Postman)** section, the Entity ID, and the URLs for the Login and ACS are already populated. Optionally, you can select **Sign SAML requests** for Postman to sign authentication requests sent to the identity provider. Select **Download** to download the certificate, and then send the certificate to your identity provider.
-1. Fill in the **Identity provider details** section. From your identity provider, enter your SSO URL, Identity provider issuer, and X.509 Certificate.
+1. Fill in the **Identity provider details** section. From your IdP account, enter your SSO URL, Identity provider issuer, and X.509 Certificate.
+
+    To enter details in the **Identity provider details** section, you must sign in to your IdP account and fetch details. Refer to the corresponding section of the documentation and follow the outlined procedure there:
+
+    * [Setting up SSO with Google Workspace](/docs/administration/sso/google-workspace/)
+
+    * [Setting up SSO with Okta](/docs/administration/sso/okta/)*
+
+    * [Setting up SSO with Duo](/docs/administration/sso/duo/)*
+
+    * [Setting up SSO with OneLogin](/docs/administration/sso/onelogin/)*
+
+    * [Setting up SSO with Ping Identity](/docs/administration/sso/ping-identity/)*
+
+    * [Setting up SSO with Azure AD](/docs/administration/sso/azure-ad/)*
+
+    * [Setting up SSO with Microsoft AD FS](/docs/administration/sso/microsoft-adfs/)*
+
+    &#42; Only available on Enterprise plans.
+
+1. (Optional) Select the [**Automatically add new users**](#automatically-adding-new-users) checkbox if you want new users using this authentication method to be automatically added to your team.
+
 1. Select **Save Authentication**.
 
-    > To continue configuring the identity provider details later, select **Configure Later**. When you're ready to configure the identity provider details, see [Edit SSO settings](#edit-sso-settings).
-
    [![details](https://assets.postman.com/postman-docs/server-provider-details.jpg)](https://assets.postman.com/postman-docs/server-provider-details.jpg)
-
-To enter details in the **Identity Provider Details** section, you must sign in to your identity provider account and fetch details. Refer to the corresponding section of the documentation and follow the outlined procedure there:
-
-* [Setting up SSO with Google Workspace](/docs/administration/sso/google-workspace/)
-
-* [Setting up SSO with Okta](/docs/administration/sso/okta/)*
-
-* [Setting up SSO with Duo](/docs/administration/sso/duo/)*
-
-* [Setting up SSO with OneLogin](/docs/administration/sso/onelogin/)*
-
-* [Setting up SSO with Ping Identity](/docs/administration/sso/ping-identity/)*
-
-* [Setting up SSO with Azure AD](/docs/administration/sso/azure-ad/)*
-
-* [Setting up SSO with Microsoft AD FS](/docs/administration/sso/microsoft-adfs/)*
-
-&#42; Only available on Enterprise plans.
 
 ## Edit SSO settings
 
@@ -92,32 +100,34 @@ This section describes the following topics:
 
 ### Creating end user accounts
 
-You can create an account for a user in the Identity Provider (IdP).
+You can create an account for a user in the IdP.
 
-The first time a new user logs in to Postman through the IdP, a Postman account is created under two conditions—the team has seats available and the [**Automatically add new users**](#automatically-adding-new-users) checkbox was enabled during SSO configuration.
+The first time a new user logs in to Postman through the IdP, a Postman account is created under two conditions—the team has seats available and the [**Automatically add new users**](#automatically-adding-new-users) checkbox was selected during [SSO configuration](#configuring-the-identity-provider-details).
 
-The user will be automatically associated to the team with a **developer** role and have access to team resources.
+The user will be automatically associated to the team with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and have access to team resources.
 
 ### Adding existing user accounts
 
-If a Postman user logs in to Postman through a team's IdP, the user will be automatically added to the team if **one of the following** is true:
+If a Postman user logs in to Postman through a team's IdP, the user will be automatically added to the team if one of the following is true:
 
-* The team has available slots and the [**Automatically add new users**](#automatically-adding-new-users) checkbox in your configuration is enabled.
-* An admin has invited the user to join the team.
+* The team has available seats and the [**Automatically add new users**](#automatically-adding-new-users) checkbox in your configuration is selected.
+* An Admin has [invited the user](/docs/administration/managing-your-team/managing-your-team/#inviting-users) to join the team.
 
 ### Automatically adding new users
 
-The **Automatically add new users** checkbox in your SSO configuration determines whether users with accounts in your SSO system will be allowed to join your team automatically by signing in to Postman with SSO. If this is enabled, users with or without existing Postman accounts can join your team by heading to the [Enterprise sign in page](https://identity.getpostman.com/enterprise/login) and logging in with SSO.
+The **Automatically add new users** checkbox in your [SSO configuration](#configuring-the-identity-provider-details) determines whether users with accounts in your SSO system will be allowed to join your team automatically by signing in to Postman with SSO. If this is selected, users with or without existing Postman accounts can join your team by going to the [Enterprise sign in page](https://identity.getpostman.com/enterprise/login) and logging in with SSO.
 
-> **Automatically add new users** will only work if your team has user slots available. Your team size won't be automatically increased if more users sign in with SSO.
+> **Automatically add new users** will only work if your team has user seats available. Your team size won't be automatically increased if more users sign in with SSO.
 
 ### Managing team logins
 
-By default, Postman only supports Service Provider initiated logins for Postman Professional or Enterprise teams utilizing SSO. Your team must use the [Enterprise login page](https://identity.getpostman.com/enterprise/login) in order to sign in to Postman. If you require users be able to sign in from your SSO portal, you can generate and copy the RelayState from your [Postman team settings](http://go.postman.co/settings/team/auth) and save it in your IDP configuration. This ensures an extra level of security when logins are initiated through a source unknown to Postman.
+By default, Postman only supports Service Provider (Postman) initiated logins for Postman Professional or Enterprise teams utilizing SSO. Your team must use the [Enterprise login page](https://identity.getpostman.com/enterprise/login) in order to sign in to Postman. If you require users be able to sign in from your SSO portal, you can generate and copy the Relay state from your [SSO configuration](#configuring-the-identity-provider-details) and save it in your IdP configuration. This ensures an extra level of security when logins are initiated through a source unknown to Postman.
 
 ### Removing team access
 
 You must [remove users from your team in Postman](/docs/administration/managing-your-team/managing-your-team/#removing-team-members) to prevent access to shared resources. When you remove a user from your team, you'll still retain access to any data they have shared with the team. You'll also be able to reassign their personal workspaces and the data within them to a remaining team member so that the team doesn't lose access to any unshared work.
+
+## Troubleshooting
 
 ## Next steps
 
