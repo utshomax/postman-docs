@@ -3,7 +3,7 @@ title: "Building your first flow"
 updated: 2022-11-17
 ---
 
-This page walks you through your first flow, calling the Pokemon API and printing out the list to the console. The Pokemon API returns over 1,000 results but this flow will print two hundred at a time to the console until it reaches the end of the list.
+This page walks you through your first flow, calling the Pokémon API and printing out the list to the console. The Pokémon API returns over 1,000 results but this flow will print two hundred at a time to the console until it reaches the end of the list.
 
 ## Contents
 
@@ -21,7 +21,7 @@ This page walks you through your first flow, calling the Pokemon API and printin
 
 ## Creating a request and a collection
 
-Begin by creating a new collection and adding a GET request.
+Begin by creating a new collection and adding a GET request. The flow you create later will use this collection.
 
 1. In your workspace, select **New** &gt; **Collection**.
 1. Name the collection **Pokemon API**.
