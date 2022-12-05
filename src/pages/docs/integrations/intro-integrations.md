@@ -20,7 +20,7 @@ contextual_links:
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
 ---
 
-You can connect Postman to your API workflows with integrations for popular third-party tools. Use integrations to automatically share data between Postman and the other tools you rely on for API development. Sync your collections and API definitions to a source control repository. Send monitor alerts to your team messaging app. Or view your continuous integration (CI) builds from within Postman.
+You can connect Postman to your API workflows with integrations for popular third-party solutions. Use integrations to automatically share data between Postman and the other tools you rely on for API development. Sync your collections and API definitions to a source control repository. Send monitor alerts to your monitoring service or team messaging app. Or view your continuous integration (CI) builds from within Postman.
 
 > **The maximum number of integrations you can use is determined by your Postman plan. [Learn more about what's included with each plan](https://www.postman.com/pricing/).**
 
@@ -80,6 +80,6 @@ Once you allowlist this IP address, collection backup integrations and custom we
 
 ## CI integrations
 
-Postman integrates with some of the most widely used Continuous Integration and Continuous Delivery (CI/CD) tools. After you set up CI integration for your API, you can view the status of builds or kick off a new build, all from within Postman. You can also run API tests created in Postman as part of your CI pipeline.
+Postman integrates with some of the most widely used Continuous Integration and Continuous Delivery (CI/CD) tools. After you set up CI integration for your API, you can view the status of builds or start a new build, all from within Postman. You can also run API tests created in Postman as part of your CI pipeline.
 
 To learn more about how CI integrations work, and for detailed configuration steps, see [CI integrations](/docs/integrations/ci-integrations/).
