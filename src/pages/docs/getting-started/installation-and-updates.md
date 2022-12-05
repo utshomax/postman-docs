@@ -47,7 +47,6 @@ To get an earlier version of the Postman desktop app, see [Installing earlier ve
     * [Linux](#installing-postman-on-linux)
 * [Using the Postman web app](#using-the-postman-web-app)
     * [Browser requirements](#browser-requirements)
-    * [Installing the Postman Desktop Agent](#installing-the-postman-desktop-agent)
     * [Web limitations](#web-limitations)
 * [Updating Postman](#updating-postman)
 * [Chrome app (deprecated)](#postman-chrome-app-deprecated)
