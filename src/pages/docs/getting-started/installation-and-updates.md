@@ -128,7 +128,7 @@ Categories=Development;
 
 You can use Postman in your web browser to carry out your API development and testing tasks in conjunction with the Postman Agents. To access the Postman web app, visit [go.postman.co/home](https://go.postman.co/home).
 
-> If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agents](/docs/getting-started/about-postman-agent/) for more information.
+> If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/about-postman-agent/) for more information.
 
 ### Browser requirements
 
