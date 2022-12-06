@@ -254,6 +254,6 @@ All partners are assigned Workspace Editor or Viewer roles when invited to a Par
 
 ## Next steps
 
-Now that you understand the roles available to users, you can manage your team's level of access and control more effectively.
+After learning about the roles available to users, you can manage your team's level of access and control more effectively.
 
 * To learn more about team management, including managing team roles and inviting collaborators to join your team, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).
