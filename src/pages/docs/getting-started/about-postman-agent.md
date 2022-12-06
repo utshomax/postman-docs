@@ -1,5 +1,5 @@
 ---
-title: "About the Postman Agents"
+title: "About the Postman Agent"
 updated: 2022-12-06
 contextual_links:
   - type: section
