@@ -67,7 +67,7 @@ You can share collections, APIs, and environments directly with collaborators, i
 
 <img alt="Share a collection using name, email, or group" src="https://assets.postman.com/postman-docs/v10/share-element-with-people-v10.jpg"/>
 
-Postman will tell the users and groups you shared the element with about your request to collaborate.
+Postman will tell the individual team members and groups you shared the element with about your request to collaborate.
 
 If the element you want to share is in a personal workspace, you'll be prompted to either change the workspace visibility to Team or to create a new team workspace to place the element in. For more information, see [Collaborating in team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/).
 
