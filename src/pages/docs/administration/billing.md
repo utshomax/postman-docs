@@ -51,7 +51,7 @@ For help with any account or billing issues, go to Postman's [Support Center](ht
 
     * [Purchasing add-ons](#purchasing-add-ons)
 
-    * [Utilizing Auto-Flex](#utilizing-auto-flex)
+    * [Using Auto-Flex](#using-auto-flex)
 
         * [Billing for Auto-Flex](#billing-for-auto-flex)
 
@@ -225,7 +225,7 @@ You can purchase more blocks of monitoring requests, mock server calls, and cust
 
 Update the number of monitoring blocks, mock server blocks, and custom domains you would like to have included in your team plan, then select **Next** to confirm your changes.
 
-### Utilizing Auto-Flex
+### Using Auto-Flex
 
 [Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. With Auto-Flex enabled, your team can [invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) users without having to pay in advance for more seats, then opt to retain or remove them before being [billed](#billing-for-auto-flex).
 
