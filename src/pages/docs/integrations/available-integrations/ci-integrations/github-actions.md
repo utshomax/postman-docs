@@ -75,7 +75,7 @@ To view details for collections that were run as part of a build, first [configu
 
 ## Viewing API Governance and API Security rule violations
 
-Using the Postman CLI, you can enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) using the [`api lint` command](/docs/postman-cli/postman-cli-options/#governance-and-security) ([Enterprise teams only](https://www.postman.com/pricing/)).
+Using the Postman CLI, you can enforce [Postman API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) using the [`api lint` command](/docs/postman-cli/postman-cli-options/#governance-and-security) ([Enterprise teams only](https://www.postman.com/pricing/)).
 
 To view the results of API Governance and API Security checks that ran as part of the build, first [configure the Postman CLI for GitHub Actions](#configuring-the-postman-cli-for-github-actions) and then start a new build on GitHub. After the build is complete, use the arrows to expand a build and expand an API definition to view any rule violations.
 

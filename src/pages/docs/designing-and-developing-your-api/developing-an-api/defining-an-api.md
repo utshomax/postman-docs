@@ -143,7 +143,7 @@ To delete a file or folder, select the more actions icon <img alt="More actions 
 
 > [This feature is available on Postman Enterprise plans.](https://www.postman.com/pricing)
 
-As you create your API definition in the editor, Postman automatically checks it against [API Governance and API Security](/docs/api-governance/api-governance-overview/) rules configured for your team. Postman displays any rule violations below the editor. Resolving these issues enables you improve your API definition.
+As you create your API definition in the editor, Postman automatically checks it against the [Postman API Governance and API Security](/docs/api-governance/api-governance-overview/) rules configured for your team. Postman displays any rule violations below the editor. Resolving these issues enables you improve your API definition.
 
 <img alt="OpenAPI 3.0 rule violations" src="https://assets.postman.com/postman-docs/v10/api-definition-rule-violations-openapi3-v10.jpg" width="800px"/>
 
