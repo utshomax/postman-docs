@@ -915,7 +915,7 @@ export const leftNavItems = [
         url: '/docs/administration/team-settings/',
       },
       {
-        name: 'Utilizing audit logs',
+        name: 'Using audit logs',
         url: '/docs/administration/audit-logs/',
       },
       {
