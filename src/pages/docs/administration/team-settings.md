@@ -92,6 +92,6 @@ See [Configuring SSO for a team](/docs/administration/sso/admin-sso/) for detail
 
 Select **Roles and Permissions** from the left menu to view a complete list of permissions for users' roles at a team, collection, workspace, API, and mock server level.
 
-View [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/) for more information on roles you can assign to users on your team. Then, check out [Managing your team](/docs/administration/managing-your-team/managing-your-team/) for an overview of managing roles and users within your Postman team.
+View [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/) for more information on roles you can assign to team members. Then, check out [Managing your team](/docs/administration/managing-your-team/managing-your-team/) for an overview of managing roles and users within your Postman team.
 
 <img alt="Roles and permissions descriptions" src="https://assets.postman.com/postman-docs/dashboard-view-roles-and-permissions-v9.1.jpg"/>
