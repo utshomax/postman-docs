@@ -47,6 +47,7 @@ To get an earlier version of the Postman desktop app, see [Installing earlier ve
     * [Linux](#installing-postman-on-linux)
 * [Using the Postman web app](#using-the-postman-web-app)
     * [Browser requirements](#browser-requirements)
+    * [Installing the Postman Desktop Agent](#installing-the-postman-desktop-agent)
     * [Web limitations](#web-limitations)
 * [Updating Postman](#updating-postman)
 * [Chrome app (deprecated)](#postman-chrome-app-deprecated)
@@ -138,6 +139,10 @@ The Postman web app is optimized for the following browsers:
 * Firefox (76 and higher)
 * Edge (79 and higher)
 * Safari (13.1.1 and higher)
+
+### Installing the Postman Desktop Agent
+
+If you are using the Postman web app, Postman recommends downloading and installing the [Postman Desktop Agent](/docs/getting-started/about-postman-agent/#the-postman-desktop-agent), a micro-application that runs locally on your desktop. The Postman Desktop Agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers and acts as your agent for making API requests from the Postman web app.
 
 ### Web limitations
 
