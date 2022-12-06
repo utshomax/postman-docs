@@ -93,7 +93,7 @@ When you remove a user from your team, you will still retain access to any data 
 
 <img alt="Confirmation for removing a team member" src="https://assets.postman.com/postman-docs/remove-user-from-team-v9.2.jpg" width="400px"/>
 
-> Note that when you remove a user from your team, this doesn't automatically reduce the number of paid seats for your team unless the user was added by [Auto-Flex](/docs/administration/billing/#utilizing-auto-flex) during the current Auto-Flex cycle. If you want to reduce the number of paid seats on your team, a user on your team with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [edit your plan](/docs/administration/billing/#changing-your-plan).
+> Note that when you remove a user from your team, this doesn't automatically reduce the number of paid seats for your team unless the user was added by [Auto-Flex](/docs/administration/billing/#utilizing-auto-flex) during the current Auto-Flex cycle. If you want to reduce the number of paid seats on your team, a team member with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [edit your plan](/docs/administration/billing/#changing-your-plan).
 
 ### Managing team roles
 
@@ -105,7 +105,7 @@ Search for a specific user by typing their name or email in the search field. Yo
 
 <img alt="Edit team roles" src="https://assets.postman.com/postman-docs/v10/update-team-roles-v10.1.jpg"/>
 
-> Each user on the team must have at least one team role assigned to them.
+> Each team member must have at least one team role assigned to them.
 
 Teams can have two support accounts at no extra cost. Support accounts are users with only Admin or Billing roles. Users with a Super Admin or Developer role will consume a paid seat on your team.
 

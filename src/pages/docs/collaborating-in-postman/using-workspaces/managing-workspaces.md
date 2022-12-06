@@ -169,7 +169,7 @@ To change the role of people in a workspace, or to remove someone from a workspa
 
 ## Watching a workspace
 
-Watch a workspace to receive an email or in-app notification when a user on the team modifies anything in the workspace, such as changing the workspace visibility or updating an element in the workspace.
+Watch a workspace to receive an email or in-app notification when a team member modifies anything in the workspace, such as changing the workspace visibility or updating an element in the workspace.
 
 To start watching a workspace, select <img alt="Watch icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> **Watch** in the workspace's **Overview** tab. Select the count next to **Watch** to access the list of people who are watching the workspace.
 

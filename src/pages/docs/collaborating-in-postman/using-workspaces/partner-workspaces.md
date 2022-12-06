@@ -115,7 +115,7 @@ To invite users on the team to a Partner Workspace, do the following:
 
 ## Collaborating in a Partner Workspace
 
-The collaborative experience that Partner Workspaces offer depends on your role and status as a user on the team or external partner.
+The collaborative experience that Partner Workspaces offer depends on your role and status as a team member or external partner.
 
 ### Collaborating as a team member
 

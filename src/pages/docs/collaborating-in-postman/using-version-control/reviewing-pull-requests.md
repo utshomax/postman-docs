@@ -56,7 +56,7 @@ To access the list of pull requests, go to the element and select the pull reque
 
 <img src="https://assets.postman.com/postman-docs/v10/open-pull-request-list-v10.jpg" alt="Pull request list" width="350px"/>
 
-When you're tagged as a reviewer on a pull request, Postman notifies you when a user on the team creates a pull request:
+When you're tagged as a reviewer on a pull request, Postman notifies you when a team member creates a pull request:
 
 * Select the notifications icon <img alt="Notification icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header to view the notification. Select **View Pull Request** to view the pull request.
 * You will also receive an email with information about the pull request's title, the element included in the pull request, and who created the pull request. Select **Review Changes** in the email to access the pull request in Postman.

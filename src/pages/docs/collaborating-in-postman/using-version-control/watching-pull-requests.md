@@ -29,7 +29,7 @@ contextual_links:
     url: "https://www.postman.com/case-studies/youi/"
 ---
 
-The watch option enables you to receive an in-app notification when a user on the team modifies the pull request. If you watch a pull request, you will get notifications about actions such as adding a new comment, approving or removing approval, merging, and editing or declining a pull request.
+The watch option enables you to receive an in-app notification when a team member modifies the pull request. If you watch a pull request, you will get notifications about actions such as adding a new comment, approving or removing approval, merging, and editing or declining a pull request.
 
 ## Contents
 
