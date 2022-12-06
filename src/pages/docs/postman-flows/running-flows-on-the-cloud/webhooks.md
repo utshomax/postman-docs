@@ -9,11 +9,11 @@ To create a flow that executes on the Postman servers, create a **Start** block.
 
 ## Contents
 
-* [Testing Flows locally](#testing-flows-locally)
+* [Testing flows locally](#testing-flows-locally)
 * [Deploy your flow](#deploy-your-flow)
 * [Trigger the webhook](#trigger-the-webhook)
 
-## Testing Flows locally
+## Testing flows locally
 
 Before starting, enter your test data and run it to see the output on your local console. Test data can be added by clicking the gear icon on the **Start** block. The test data can either be in text or JSON format.
 

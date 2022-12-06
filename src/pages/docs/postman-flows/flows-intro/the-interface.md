@@ -20,16 +20,16 @@ The toolbar gives you access to tools you can use to manipulate the canvas.
 
 * **Zoom controls**
 
-  Use the toolbar to zoom in or out the canvas. Fit-to-view adjusts the zoom level to fit your entire Flow on the visible canvas.
+  Use the toolbar to zoom in or out the canvas. Fit-to-view adjusts the zoom level to fit your entire flow on the visible canvas.
 
   You can also press and hold **⌘** or **Ctrl** while scrolling to zoom in or out.
   ![Zoom](https://assets.postman.com/postman-labs-docs/interface/updated-interface-zoom-controls.gif)
 
 * **Run**
 
-  Select **Run** to start the Flow you've built on the canvas. During an active run, select **Stop** to stop the Flow.
+  Select **Run** to start the flow you've built on the canvas. During an active run, select **Stop** to stop the flow.
 
-  ![Start a Flow](https://assets.postman.com/postman-labs-docs/interface/updated-interface-start-flow.gif)
+  ![Start a flow](https://assets.postman.com/postman-labs-docs/interface/updated-interface-start-flow.gif)
 
 * **Add block**
 
@@ -39,13 +39,13 @@ The toolbar gives you access to tools you can use to manipulate the canvas.
 
 * **Text**
 
-  You can add rich markdown on the canvas to describe what your Flow is doing. Press `T` or select the text icon on the toolbar and place the text block on the canvas.
+  You can add rich markdown on the canvas to describe what your flow is doing. Press `T` or select the text icon on the toolbar and place the text block on the canvas.
 
   ![add text](https://assets.postman.com/postman-labs-docs/interface/updated-interface-add-annotations.gif)
 
 ## Context bar
 
-The context bar is the place where you'll see more information about your Flow and its current state.
+The context bar is the place where you'll see more information about your flow and its current state.
 ![context bar](https://assets.postman.com/postman-labs-docs/interface/updated-interface-context-bar.png)
 
 * **Element info**
@@ -56,17 +56,17 @@ The context bar is the place where you'll see more information about your Flow a
 
 * **Execution errors**
 
-  When your Flow encounters an error while running, you can read the logs in the **Execution issues** pane.
+  When your flow encounters an error while running, you can read the logs in the **Execution issues** pane.
 
   ![execution errors](https://assets.postman.com/postman-labs-docs/interface/updated-interface-execution-error-eval-block.gif)
 
 * **Forks**
 
-  A list of all the forks of the Flow that have been created.
+  A list of all the forks of the flow that have been created.
 
-* **Flow Information**
+* **Flow information**
 
-  You can see the Flow ID and add a summary for your Flow in the **Info** pane.
+  You can see the flow ID and add a summary for your flow in the **Info** pane.
 
 ## Console
 
