@@ -1,6 +1,6 @@
 ---
 title: "About the Postman Agents"
-updated: 2022-11-30
+updated: 2022-12-06
 contextual_links:
   - type: section
     name: "Additional Resources"
