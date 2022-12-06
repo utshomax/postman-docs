@@ -40,7 +40,7 @@ You can access Postman [on the web](/docs/getting-started/installation-and-updat
 
 For the Postman web app, you can use **Auto-select** to turn the Auto-Select agent on or off. Once you enable the option for Auto-select, Postman will automatically select the best agent for your requests. You can also manually select the agent for your requests: **Cloud Agent**, **Desktop Agent**, or **Browser Agent**. See [Selecting a Postman Agent for requests](/docs/getting-started/about-postman-agent/#selecting-a-postman-agent-for-requests) for more information.
 
-You may want to contact your IT team to establish what the procedure is for adding a new piece of software. This varies from organization to organization, however, the following points are common:
+Contact your IT team to establish what the procedure is for adding a new piece of software. This varies from organization to organization, however, the following points are common:
 
 * Your IT team may need to add an exception to device policy allowing for Postman to be installed on employee workstations. Provide a [Postman download link​](https://www.postman.com/downloads/) to the IT team to help establish this exception.
     * If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), your IT team can opt to deploy the Postman Enterprise app across your organization. For more information, see [Managing Enterprise deployment](/docs/administration/managing-enterprise-deployment/).
