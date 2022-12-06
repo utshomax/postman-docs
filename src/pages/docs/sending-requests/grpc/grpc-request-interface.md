@@ -179,7 +179,7 @@ The server you are using is unreachable with the current client settings. If you
 
 In order to use all of Postman's gRPC features, you must run the Postman Desktop Agent.
 
-Learn more about [installing the Postman Desktop Agent](/docs/getting-started/about-postman-agent/#the-postman-desktop-agent)
+Learn more about [installing the Postman Desktop Agent](/docs/getting-started/about-postman-agent/#the-postman-desktop-agent).
 
 ## Next steps
 
