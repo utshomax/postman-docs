@@ -138,7 +138,7 @@ To use the variables in an environment, select it from the environment selector 
 
 To check a variable value at a glance, use the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px">.
 
-When you choose an environment using the environment selector, Postman treats it as the active environment and runs all requests against that environment (if your requests reference environment variables).
+When you choose an environment using the environment selector, Postman treats it as the active environment and runs all requests with values from that environment (if your requests reference environment variables).
 
 To use an environment variable value in a request, reference it by name, surrounded with [double curly braces](/docs/sending-requests/variables/):
 
