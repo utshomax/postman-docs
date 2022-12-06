@@ -36,7 +36,7 @@ When you're getting started using Postman within your organization, you can carr
 
 You can access Postman [on the web](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) with any of the [Postman Agents](/docs/getting-started/about-postman-agent/). Postman is available as a standalone app for Windows, Mac, and Linux. Make sure everyone who would like to use Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/).
 
-> If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agents](/docs/getting-started/about-postman-agent/) for more information.
+> If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/about-postman-agent/) for more information.
 
 For the Postman web app, you can use **Auto-select** to turn the Auto-Select agent on or off. Once you enable the option for Auto-select, Postman will automatically select the best agent for your requests. You can also manually select the agent for your requests: **Cloud Agent**, **Desktop Agent**, or **Browser Agent**. See [Selecting a Postman Agent for requests](/docs/getting-started/about-postman-agent/#selecting-a-postman-agent-for-requests) for more information.
 
