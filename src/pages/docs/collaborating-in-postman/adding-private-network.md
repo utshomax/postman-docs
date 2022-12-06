@@ -100,7 +100,7 @@ An [API Network Manager](/docs/collaborating-in-postman/roles-and-permissions/#t
 
 * Add any element to the team's Private API Network
 * Create and edit folders
-* Assign this role to other users
+* Assign this role to other team members
 
 > You must have either [the Super Admin role or the API Network Manager role](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles) to assign this role to a user.
 
@@ -128,7 +128,7 @@ To turn on the approval process workflow, do the following:
 
 <img alt="Turn on the Private API Network approval process" src="https://assets.postman.com/postman-docs/v10/private-api-network-approval-process-v10.jpg"/>
 
-Once you have turned on the approval process, any user with the Editor role for an element can [request to add it to the Private API Network](#editor-requesting-to-add-an-element).
+Once you have turned on the approval process, any team member with the Editor role for an element can [request to add it to the Private API Network](#editor-requesting-to-add-an-element).
 
 ### Editor: Requesting to add an element
 
@@ -320,7 +320,7 @@ To remove elements from your Private API Network, do the following:
 
     <img alt="Remove element from Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-remove-element-v10.jpg" width="250px"/>
 
-After you remove the element, users on your team won't have access to it through the Private API Network.
+After you remove the element, team members won't have access to it through the Private API Network.
 
 ## Private API Network reports
 

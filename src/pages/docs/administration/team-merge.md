@@ -67,7 +67,7 @@ Don't choose distributed migration if your organization relies on the following:
 
 * Postman-published documentation–URLs would need to be republished from your new team instance.
 * Mocks and monitors—you would need to recreate these.
-* Users on your team have a lot of important content in their personal workspaces that must be transferred.
+* Team members have a lot of important content in their personal workspaces that must be transferred.
 
 See [performing centralized migration](#performing-centralized-migration) to choose this option.
 
@@ -110,7 +110,7 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 
 ### Performing distributed migration
 
-* Users on your team need to [export](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) their Postman data prior to moving to your new team. You can use this as an opportunity to clean up and reorganize your workspaces.
+* Team members need to [export](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) their Postman data prior to moving to your new team. You can use this as an opportunity to clean up and reorganize your workspaces.
 * Users can [leave the earlier team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#leaving-a-team) and [join your new team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team). They can then re-import Postman data into their respective team workspaces, creating new workspaces where necessary.
     * By default, the person who imports a collection or environment is automatically assigned the Editor role (learn more about [roles](/docs/collaborating-in-postman/roles-and-permissions/)). Everyone else on the team will be assigned as a Viewer.
 * Once the last user from your earlier team has migrated to your new one, the original team will be deleted along with all of the data within it. You can then begin [collaborating](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) in your new team. To learn more about collaborating in Postman, watch [Working with your team in Postman](https://youtu.be/5lscUV-Exac).
