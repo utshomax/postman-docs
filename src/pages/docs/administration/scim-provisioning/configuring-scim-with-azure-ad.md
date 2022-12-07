@@ -76,7 +76,7 @@ To map Postman user attributes to Azure AD user attributes, do the following:
 
     &#x2a; For `userPrincipalName`, set the value for **Matching precedence** to `1`.
 
-    > You must remove any existing attribute mappings to avoid any conflicts or mismatches. Select **Delete** next to any mappings that are not on this list to remove them.
+    > You must remove any existing attribute mappings that are not on this list to avoid any conflicts or mismatches. Select **Delete** next to any mappings that are not on this list to remove them.
 
 
 1. Select **Save** to commit any changes.
@@ -97,7 +97,7 @@ To map Postman group attributes to Azure AD group attributes, do the following:
 
     &#x2a; For `displayName`, set the value for **Matching precedence** to `1`.
 
-    > You must remove any existing attribute mappings to avoid any conflicts or mismatches. Select **Delete** next to any mappings that are not on this list to remove them.
+    > You must remove any existing attribute mappings that are not on this list to avoid any conflicts or mismatches. Select **Delete** next to any mappings that are not on this list to remove them.
 
 1. Select **Save** to commit any changes.
 
