@@ -33,7 +33,7 @@ Postman applies security rules to your [API definition](/docs/api-governance/api
 To access the configuration page for API definitions, do the following:
 
 1. Go to the [Postman home screen](https://go.postman.co/).
-1. Select **API Security** from the team information panel.
+1. Select **API Security** from the team information pane.
 1. Make sure that **API Definitions** is selected.
 
 ### Turning configured rules on and off
@@ -81,7 +81,7 @@ Postman applies security rules configured for your [API requests](/docs/api-gove
 To access the configuration page for requests, do the following:
 
 1. Go to the [Postman home screen](https://go.postman.co/).
-1. Select **API Security** from the team information panel.
+1. Select **API Security** from the team information pane.
 1. Select **Requests**.
 
 ### Turning configured rules on and off

@@ -78,7 +78,7 @@ Postman validates a request when it's sent. If there are issues with the request
 
 You can review the issues found during validation to fix issues in your collections or schemas.
 
-If an issue arises when you run a request, select the warning message next to the name of the request (for example, **1 issue**). This will open a panel on the right indicating detailed information about which component of the request is affected and what the issue itself is, and a direct link to the API against which the request is validated. Select the link to open the API within Postman.
+If an issue arises when you run a request, select the warning message next to the name of the request (for example, **1 issue**). This will open a pane on the right indicating detailed information about which component of the request is affected and what the issue itself is, and a direct link to the API against which the request is validated. Select the link to open the API within Postman.
 
 > You can select a specific issue to access the relevant request component.
 

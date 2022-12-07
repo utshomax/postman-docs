@@ -44,7 +44,7 @@ To set up provisioning with Azure AD, do the following:
 1. Select **+ Create your own application**.
 1. Enter a name, then select **Integrate any other application you don't find in the gallery**.
 1. Select **Add** to create an app object. This adds the new Postman app to the list of enterprise applications and opens to the app management screen.
-1. In the app management screen, select **Provisioning** in the left panel.
+1. In the app management screen, select **Provisioning** in the left pane.
 1. In the **Provisioning Mode** menu, select **Automatic**.
 1. In the **Tenant URL** field, enter the Postman SCIM endpoint: `https://api.getpostman.com/scim/v2/`
 1. In the **Secret Token** field, enter your [SCIM API key](/docs/administration/scim-provisioning/scim-provisioning-overview/#generating-scim-api-key).
@@ -97,4 +97,4 @@ To map Postman group attributes to Azure AD group attributes, do the following:
 1. Once your configuration is complete, set the **Provisioning Status** to **On**.
 1. Select **Save**.
 
-Once the first cycle has started, you can select **Provisioning logs** in the Azure AD left panel to monitor the actions done in Postman by the provisioning service.
+Once the first cycle has started, you can select **Provisioning logs** in the Azure AD left pane to monitor the actions done in Postman by the provisioning service.
