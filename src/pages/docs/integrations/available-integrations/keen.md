@@ -28,7 +28,7 @@ Setting up a Keen integration requires you to get a project ID and API key befor
 
     ![keen dashboard](https://assets.postman.com/postman-docs/keen-write-key.jpg)
 
-## Configuring Postman monitors
+## Configuring Postman Monitors
 
 1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 
@@ -42,7 +42,7 @@ Setting up a Keen integration requires you to get a project ID and API key befor
 
     ![keen dashboard](https://assets.postman.com/postman-docs/keen-add-integration.jpg)
 
-1. Enter your integration information to connect Keen IO to Postman Monitors for API-based computation, S3 backups, and building visualizations in the **Send Monitor Run Results** page.
+1. Enter your integration information to connect Keen IO to monitors for API-based computation, S3 backups, and building visualizations in the **Send Monitor Run Results** page.
 
     ![keen dashboard](https://assets.postman.com/postman-docs/keen-add-integration-configuration.jpg)
 
@@ -50,7 +50,7 @@ Setting up a Keen integration requires you to get a project ID and API key befor
 
 ## Viewing data in Keen IO
 
-Within a few minutes, data will start flowing into Keen IO if your Monitor is running. If you’ve sent the results of multiple Postman Monitors to Keen, you’ll be able to segment by Monitor name/id, Collection name/id, error code, and so on.
+Within a few minutes, data will start flowing into Keen IO if your Monitor is running. If you’ve sent the results of multiple monitors to Keen, you’ll be able to segment by Monitor name/id, Collection name/id, error code, and so on.
 
 Here’s a preview of analyses from the Postman Monitors integration. You can build visualizations into dashboards that your team or customers can view with [Keen dashboard templates](https://keen.io/docs/visualize/data-visualization-library/create-dashboard/).
 

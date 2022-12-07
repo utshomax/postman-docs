@@ -56,4 +56,4 @@ This integration triggers incidents in PagerDuty based on your [Postman monitor 
 
 ## Viewing PagerDuty results
 
-The PagerDuty console updates continuously to display any incidents that result from your Postman monitors. If the selected monitor fails, PagerDuty notifies you according to the formatting and business rules you set.
+The PagerDuty console updates continuously to display any incidents that result from your Postman Monitors. If the selected monitor fails, PagerDuty notifies you according to the formatting and business rules you set.

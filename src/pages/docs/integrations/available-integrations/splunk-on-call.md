@@ -38,7 +38,7 @@ If you are using teams in Splunk On-Call, you can route alerts to specific teams
 1. Select **Add Key**.
 1. Enter the API key you copied from the **Integrations** page and select an escalation policy.
 
-## Configuring Postman monitors
+## Configuring Postman Monitors
 
 1. On the **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 

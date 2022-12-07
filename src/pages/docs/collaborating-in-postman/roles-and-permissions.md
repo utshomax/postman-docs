@@ -214,7 +214,7 @@ Move mock server | &#x2714; |
 
 ## Monitor roles
 
-You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types for Postman monitors: **Editor** and **Viewer**.
+You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types for Postman Monitors: **Editor** and **Viewer**.
 
 * **Editor** - Can view monitor metadata, metrics, jobs, and runs. Can run, update, delete, pause, and resume the monitor.
 * **Viewer** - Can view monitor metadata, metrics, jobs, and runs.

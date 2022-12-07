@@ -22,7 +22,7 @@ contextual_links:
 
 Splunk is a monitoring service for cloud-scale applications. It combines data from servers, databases, tools, and services to present a unified view of an entire stack. This integration allows you to configure your Postman Monitors to send metrics to Splunk where you can visualize and compare them with other metrics.
 
-Setting up a Splunk integration requires you to get an HTTP Event Collector (HEC) Token from Splunk and configure your Postman Monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
+Setting up a Splunk integration requires you to get an HTTP Event Collector (HEC) Token from Splunk and configure your monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
 
 ## Retrieving your Splunk HEC token
 
