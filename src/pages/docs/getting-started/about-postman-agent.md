@@ -29,13 +29,15 @@ From the Postman web app, you can select the **Auto-select** toggle for Postman 
 
 ## The Postman Agents
 
-Postman has three different agents for your requests.
+Postman has three different agents you can use to send your API requests.
 
 ### The Postman Desktop Agent
 
 The Postman Desktop Agent is a micro-application that runs locally on your desktop. It enables you to bypass the limitations that exist in the browser by allowing API requests to originate in the browser, but be routed through your local machine and network. The Postman Desktop Agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers and acts as your agent for making API requests from the Postman web app.
 
-You will be prompted to download and install the Desktop Agent so you can make requests from the Postman web app. You can also download the agent directly from [the Postman Agent page](https://www.postman.com/downloads/postman-agent/). Once you have the Desktop Agent installed, open it and then you will be able to use it with web requests.
+In the [agent selector](#selecting-a-postman-agent-for-requests), you will be prompted to download and install the Desktop Agent so you can make requests from the Postman web app. Select **Download desktop agent** to download the Desktop Agent. You can also download the agent directly from [the Postman Agent page](https://www.postman.com/downloads/postman-agent/). Once you have the Desktop Agent installed, open it and then you will be able to use it with web requests.
+
+> The Postman Desktop Agent doesn't support Safari web browser. You must use a different web browser or agent.
 
 ### The Postman Cloud Agent
 
@@ -52,7 +54,7 @@ The Postman Browser Agent sends API requests using your browser, with some [limi
 1. Select **Auto-select agent**, **Cloud Agent**, **Desktop Agent**, or **Browser Agent** from the Postman footer.
 1. Select the agent you would like to use for your requests:
 
-    * Select the **Auto-select** toggle for Postman to automatically select the best agent for your requests.
+    * Select the **Auto-select** toggle for Postman to automatically select the best agent for your requests. If the **Auto-select** toggle is selected, Postman selects agents in the following order: Desktop, Cloud, and Browser.
 
         > You must download, install, and then open the [Desktop Agent](#the-postman-desktop-agent) for Postman to automatically select it.
 
