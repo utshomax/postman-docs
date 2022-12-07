@@ -78,7 +78,6 @@ To map Postman user attributes to Azure AD user attributes, do the following:
 
     > You must remove any existing attribute mappings that are not on this list to avoid any conflicts or mismatches. Select **Delete** next to any mappings that are not on this list to remove them.
 
-
 1. Select **Save** to commit any changes.
 
 ### Mapping group attributes (Optional)
