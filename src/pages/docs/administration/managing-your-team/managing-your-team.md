@@ -63,7 +63,7 @@ You can invite users to your Postman team by navigating to [Manage Team](https:/
 
 Or, you can invite a user to join your team with a link. To do so, select **Get Link**.
 
-Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can send invitations for any role type. On Free, Basic, and Professional plans, users with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin.
+Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can send invitations for any role type. On Free, Basic, and Professional plans, team members with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin.
 
 If users aren't a Team Admin or a Developer inviting another Developer on a Free, Basic, or Professional plan, their request to add external users to your Postman team will be shared with you for approval. You can review these requests in your [team dashboard](https://go.postman.co/settings/team/members) and choose to approve or dismiss them. If you approve the request, Postman will send an invitation to the individual.
 
@@ -125,14 +125,14 @@ You can manage your team size or upgrade your plan at any time during your team'
 
 If you want to change your team's size, you have two different options:
 
-* **Change the number of paid seats** - Users with the Billing role can change your team's number of paid seats in the [billing dashboard](https://go.postman.co/billing/overview).
+* **Change the number of paid seats** - Team members with the Billing role can change your team's number of paid seats in the [billing dashboard](https://go.postman.co/billing/overview).
 * **Enable Auto-Flex** - Your team can invite more users without having to pay in advance for more seats with [Auto-Flex](/docs/administration/billing/#utilizing-auto-flex).
 
 For more information, see [Team and plan changes](/docs/administration/billing/#team-and-plan-changes).
 
 ### Upgrading your plan
 
-Users with the Billing role can upgrade your team plan in the [billing dashboard](https://go.postman.co/billing/overview). For more information, see [Changing your plan](/docs/administration/billing/#changing-your-plan).
+Team members with the Billing role can upgrade your team plan in the [billing dashboard](https://go.postman.co/billing/overview). For more information, see [Changing your plan](/docs/administration/billing/#changing-your-plan).
 
 ## Updating your team’s Postman version
 

@@ -238,7 +238,7 @@ To export an environment, select it and select the more actions icon <img alt="M
 
 You can manage roles on an environment by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the upper right > **Manage Roles**.
 
-You can assign collaborators the Editor or Viewer role. Users with the Viewer role can only edit the current values of variables, but they can use the environment when sending requests. If a user requires edit access, they can request it when viewing the environment in the editor.
+You can assign collaborators the Editor or Viewer role. Team members with the Viewer role can only edit the current values of variables, but they can use the environment when sending requests. If a user requires edit access, they can request it when viewing the environment in the editor.
 
 For more details, see [Environment roles](/docs/collaborating-in-postman/roles-and-permissions/#environment-roles).
 

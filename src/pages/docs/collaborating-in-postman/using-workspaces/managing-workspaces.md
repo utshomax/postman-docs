@@ -128,7 +128,7 @@ Your ability to share workspaces with teammates depends on your [workspace role]
 
 Individual team members and groups you invite will be notified of your request to collaborate.
 
-External users who aren't on your Postman team will receive an invitation to join immediately if you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). On Free, Basic, and Professional plans, users with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin.
+External users who aren't on your Postman team will receive an invitation to join immediately if you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). On Free, Basic, and Professional plans, team members with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin.
 
 You can also invite collaborators by selecting <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> **Copy Invite Link** and sharing the link with them outside of Postman. When individuals select the link, Postman will prompt them to sign in or sign up. If you're a Team Admin or a Developer inviting another Developer on a Free, Basic, or Professional plan, they'll be automatically added to your team. If you aren't a Team Admin or a Developer as described, your request to add external users to your Postman team will be shared with your Team Admins for approval.
 
