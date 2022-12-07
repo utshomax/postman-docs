@@ -45,7 +45,7 @@ Before you sign up for a Postman account, either download and open the [desktop 
 
 Postman prompts you to sign in or sign up. Select __Create Account__. You can sign up using an email address or using your Google account:
 
-* **Email** - Enter your email and create a username and password. Check the box to agree to the __Terms of Use__, which you can view by selecting the link, and select __Create free account__. Postman will send you an email to confirm your account. Follow the instructions in the email to complete your account setup.
+* **Email** - Enter your email and create a username and password. Check the checkbox to agree to the __Terms of Use__, which you can view by selecting the link, and select __Create free account__. Postman will send you an email to confirm your account. Follow the instructions in the email to complete your account setup.
 * **Google account** - Select __Sign up with Google__ and follow the instructions.
 
 When you sign up for a Postman account, you'll be prompted to provide some information about yourself, including your name and role, to help customize your Postman experience. Enter your details and select __Continue__.
@@ -97,7 +97,7 @@ If you're on an Enterprise plan, you must contact your Team Admins to update the
 
 If you're on a Professional, Basic, or Free plan, you can reset your password if you're already signed in by navigating to your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Settings** > **Account**. Select **Edit Password**.
 
-If you aren't signed in to your Postman account, you can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login) page. Select __Trouble signing in?__ Enter your account email, select the __I'm not a robot__ box, and select __Submit__. Postman will send you an email with instructions for recovering access to your account.
+If you aren't signed in to your Postman account, you can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login) page. Select __Trouble signing in?__ Enter your account email, select the __I'm not a robot__ checkbox, and select __Submit__. Postman will send you an email with instructions for recovering access to your account.
 
 > If you still have trouble logging into your Postman account, contact [Postman support](https://support.postman.com/hc/en-us).
 
@@ -117,7 +117,7 @@ Once you're no longer a member of any Postman team, you can permanently delete y
 
 You can update your [notification preferences](https://go.postman.co/settings/me/notifications/) by selecting your avatar in the upper-right corner > **Settings** > **Notifications**.
 
-You can opt in to or out of email or in-app notifications about security, usage, monitors, and comments by selecting or de-selecting the boxes next to each item. Select **Update Preferences** to save changes.
+You can opt in to or out of email or in-app notifications about security, usage, monitors, and comments by selecting or de-selecting the checkboxes next to each item. Select **Update Preferences** to save changes.
 
 In addition to email and in-app notifications, you can also send many notifications to Slack using the [Slack integration](/docs/integrations/available-integrations/slack/). After you add the Slack integration, you can select notification events in the **On Slack** column. These notifications are sent to Slack by the integration.
 

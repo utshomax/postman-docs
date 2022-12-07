@@ -123,7 +123,7 @@ The **Messages** pane has the following controls:
 
 The following are displayed for each message:
 
-* If you hover over a message, a check box is displayed. Select the check boxes for two messages, and the time difference between the messages will be displayed. Select **Deselect** to remove the time display.
+* If you hover over a message, a checkbox is displayed. Select the checkboxes for two messages, and the time difference between the messages will be displayed. Select **Deselect** to remove the time display.
   [![WebSocket time difference](https://assets.postman.com/postman-docs/websocket-time-difference.gif)](https://assets.postman.com/postman-docs/websocket-time-difference.gif)
 * Select the arrow next to a message to expand or collapse it.
 * The time is displayed as your local time.

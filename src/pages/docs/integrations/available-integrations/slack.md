@@ -94,7 +94,7 @@ After adding the integration, you can specify which notifications are sent to Sl
 
 <img alt="Update notification preferences" src="https://assets.postman.com/postman-docs/v10/notification-preferences-v10.jpg">
 
-In the Slack column, you can opt in to or out of notifications such as security, usage, monitors, and comments. Select or de-select the boxes next to each item. Select **Update Preferences** to save changes.
+In the Slack column, you can opt in to or out of notifications such as security, usage, monitors, and comments. Select or de-select the checkboxes next to each item. Select **Update Preferences** to save changes.
 
 > You can't receive notifications in Slack when team members modify pull requests. You can receive notifications in Slack when you're mentioned in pull request comments. Select **I’m mentioned in a comment** in the **On Slack** column. To learn more about adding comments to pull requests, see [Adding comments](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#adding-comments).
 
