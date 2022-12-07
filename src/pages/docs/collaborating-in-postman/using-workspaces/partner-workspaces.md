@@ -103,13 +103,13 @@ Partner invites must be accepted by the email ID you provide when inviting the i
 
 > Partners will sign in to your team with a Postman username and password, even if your team is restricted to signing in with [SSO](/docs/administration/sso/intro-sso/).
 
-Workspace Admins and Partner Managers can invite users on the team to Partner Workspaces.
+Workspace Admins and Partner Managers can invite team members to Partner Workspaces.
 
-To invite users on the team to a Partner Workspace, do the following:
+To invite team members to a Partner Workspace, do the following:
 
 1. Open the workspace and select **Invite** in the upper-right corner.
 1. Select **Team members**, then **Continue**.
-1. Enter the name, email, or group name of the users on the team.
+1. Enter the name, email, or group name of the team members.
 1. Set their [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
 1. Select **Send Invites**.
 
@@ -119,9 +119,9 @@ The collaborative experience that Partner Workspaces offer depends on your role 
 
 ### Collaborating as a team member
 
-Partner Workspaces are only visible to invited users on the team, similar to [private workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). Once invited, you can access Partner Workspaces as you would access any other workspace. To open one, select **Workspaces** in the Postman header, then select the Partner Workspace.
+Partner Workspaces are only visible to invited team members, similar to [private workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). Once invited, you can access Partner Workspaces as you would access any other workspace. To open one, select **Workspaces** in the Postman header, then select the Partner Workspace.
 
-Within a Partner Workspace, users on the team can have different workspace roles: Admin, Editor, and Viewer. To learn more, see [Workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
+Within a Partner Workspace, team members can have different workspace roles: Admin, Editor, and Viewer. To learn more, see [Workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
 
 Users can also be assigned the team-level Partner Manager role. Partner Managers can view all Partner Workspaces within an organization, and can control their settings, visibility, and partner invites. To learn more, see [Managing users and roles](#managing-users-and-roles).
 

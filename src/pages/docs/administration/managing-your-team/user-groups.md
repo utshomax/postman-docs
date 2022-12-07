@@ -51,7 +51,7 @@ Give your group a name and description, add your users, and select the team role
 
 <img alt="Create a group form" src="https://assets.postman.com/postman-docs/create-a-group-9.5.jpg" width="500px"/>
 
-Users on the team will receive an email and in-app notification when added to a group.
+Team members will receive an email and in-app notification when added to a group.
 
 > If you add a user with a support-only role (Admin or Billing) to a group that gives them a Developer role, they will automatically take up an available paid spot on your Postman team. If no spots are available, you won't be able to grant access to the group with that user.
 

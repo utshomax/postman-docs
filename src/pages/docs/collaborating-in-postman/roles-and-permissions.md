@@ -56,7 +56,7 @@ With the [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to users on a team, based on the functions those users require:
 
 * **Super Admin** - Manages everything within a team, including team settings, users, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Users with this role can perform all actions that Admin, Billing, Community Manager, API Network Manager, and Developer roles can perform ([Enterprise plans only](https://www.postman.com/pricing)).
-* **Admin** - Manages users on the team and team settings.
+* **Admin** - Manages team members and team settings.
 * **Billing** - Manages team plan and payments. Billing roles can be granted by a Super Admin, Team Admin, or by a fellow team member with a Billing role.
 * **Developer** - Has access to all team resources and workspaces.
 * **Community Manager** - Manages the public visibility of workspaces and team profile ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
@@ -93,7 +93,7 @@ Team roles offer high-level access control:
 
 &ast;&ast;&ast; Enterprise plans only. Teams that don't use the [optional approval process workflow](/docs/collaborating-in-postman/adding-private-network/#using-the-approval-process-workflow) for the Private API Network can allow users with [an API Editor role](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) to add APIs to the Private API Network instead.
 
-> **Postman support users**. Users with a Developer or Super Admin role consume a paid seat on your team. Users on the team who have only Admin or Billing roles become support users and don’t consume paid seats. Each team can have two support users.
+> **Postman support users**. Users with a Developer or Super Admin role consume a paid seat on your team. Team members who have only Admin or Billing roles become support users and don’t consume paid seats. Each team can have two support users.
 
 ### Managing team roles
 
@@ -127,7 +127,7 @@ The following roles control access at a workspace level:
 
 ## Element-based roles
 
-At the element level, you can assign roles to users on the team that decide their level of access to Postman [collections](#collection-roles), [APIs](#api-roles), [mock servers](#mock-server-roles), and [monitors](#monitor-roles).
+At the element level, you can assign roles to team members that decide their level of access to Postman [collections](#collection-roles), [APIs](#api-roles), [mock servers](#mock-server-roles), and [monitors](#monitor-roles).
 
 ### Collection roles
 

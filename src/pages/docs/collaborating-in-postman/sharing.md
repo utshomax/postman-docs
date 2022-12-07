@@ -57,7 +57,7 @@ To copy an element's URL to your clipboard, you can also hover over the element'
 
 ### Sharing using names, emails, or groups
 
-You can share collections, APIs, and environments directly with collaborators, including users on the team, groups, and external users.
+You can share collections, APIs, and environments directly with collaborators, including team members, groups, and external users.
 
 1. From the element you want to share, select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share**.
 1. Select **With people**.

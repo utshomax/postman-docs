@@ -44,18 +44,18 @@ Workspaces enable you to organize your Postman work and collaborate with teammat
 With a [Postman account](/docs/getting-started/postman-account/) you can create various types of workspaces:
 
 * **Personal** - Personal workspaces are only visible to you.
-* **Private** - Private workspaces are only visible to you and to any users on the team you invite to them ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
+* **Private** - Private workspaces are only visible to you and to any team members you invite to them ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
 * **Team** - Team workspaces enable you to share projects with collaborators and manage access to them within your team.
-* **Partner** - Only invited users on the team and [partners](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) can access partner workspaces ([Enterprise plans only](https://www.postman.com/pricing)).
+* **Partner** - Only invited team members and [partners](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) can access partner workspaces ([Enterprise plans only](https://www.postman.com/pricing)).
 * **Public** - [Public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) enable you to collaborate on entities with anyone across the world.
 
 By adding an element to a workspace, collaborators with access to the workspace will also be able to access the element by default with read-only permissions. You can [configure access settings](/docs/collaborating-in-postman/roles-and-permissions/) for the workspace on an individual basis to give permissions depending on the account.
 
-Workspaces can also create visibility for the projects within a team, as collections in a workspace are visible to all users on the team with access to the workspace. Request history is also saved to a workspace, which can aid collaborative debugging efforts.
+Workspaces can also create visibility for the projects within a team, as collections in a workspace are visible to all team members with access to the workspace. Request history is also saved to a workspace, which can aid collaborative debugging efforts.
 
 _Workspace as an element_ represents a whole container where being an Admin gives you full access to the workspace. This concept works like the inheritance property where you will have Editor access to all the elements within that particular workspace.
 
-> For Postman Professional and Enterprise teams, a private workspace is a team workspace that's only visible to the user who created it, plus users on the team who have been invited to join it. Private workspaces let teams restrict access to APIs, collections, environments, mocks, and monitors that are relevant only to a particular group.
+> For Postman Professional and Enterprise teams, a private workspace is a team workspace that's only visible to the user who created it, plus team members who have been invited to join it. Private workspaces let teams restrict access to APIs, collections, environments, mocks, and monitors that are relevant only to a particular group.
 
 ## Creating a new workspace
 

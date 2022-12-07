@@ -69,7 +69,7 @@ Select **Reset filters** to remove the filters from the activity feed.
 
 Filtering by user will display the actions the specified user carried out. To filter by user, select **People** at the top of the activity feed and select the user or users. You can search for a specific user by typing their name in the search field.
 
-> The user list will only show the users that are part of the workspace, not all users on the team.
+> The user list will only show the users that are part of the workspace, not all team members.
 
 #### Filtering by element
 

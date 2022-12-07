@@ -49,7 +49,7 @@ Team migration can occur in different ways depending on your needs and preferred
 
 You can choose either [centralized](#choosing-centralized-migration) or [distributed](#choosing-distributed-migration) migration to export your team data.
 
-> As a precautionary measure prior to migrating data, Admins and users on the team are strongly encouraged to perform a [JSON data dump backup through a bulk export](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
+> As a precautionary measure prior to migrating data, Admins and team members are strongly encouraged to perform a [JSON data dump backup through a bulk export](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
 
 ### Choosing centralized migration
 
@@ -104,7 +104,7 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 * [Export all data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) at once with a [JSON data dump](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
 * The appointed Admin can then [re-import into the new team](/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman).
     * All collections included in the data dump will be imported into your selected workspace.
-* When your new team is ready for users to join, the Admin on the new team can send invitations to all other users on the team. The invite link will prompt them to join the new team. Once they've joined the new team, you can [remove them from the original team](/docs/administration/managing-your-team/managing-your-team/#removing-team-members).
+* When your new team is ready for users to join, the Admin on the new team can send invitations to all other team members. The invite link will prompt them to join the new team. Once they've joined the new team, you can [remove them from the original team](/docs/administration/managing-your-team/managing-your-team/#removing-team-members).
 * At this point, you can [re-share and organize collections into team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces).
 * Once the last user from your earlier team has migrated to your new one, the original team will be deleted along with all of the data within it. You can then begin [collaborating](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) in your new team. To learn more about collaborating in Postman, watch [Working with your team in Postman](https://youtu.be/5lscUV-Exac).
 
