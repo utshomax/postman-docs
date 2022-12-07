@@ -33,7 +33,7 @@ To set up a Jenkins integration for your API, first create an API token in Jenki
 1. Select your user name at the upper right, and then select **Configure**.
 1. Select **Add new Token**.
 1. Enter a name for the token and select **Generate**.
-1. Copy the new token. (You might want to save the token somewhere safe.)
+1. Copy the new token. (Save the token somewhere safe.)
 
 ## Configuring a Jenkins integration
 
