@@ -67,7 +67,7 @@ To map Postman user attributes to Azure AD user attributes, do the following:
 1. Under **Target Object Actions**, select **Create**, **Update**, and **Delete**.
 1. Under **Attribute Mappings**, select **Add New Mapping** to map the following attributes:
 
-    Azure AD attribute | SCIM attribute | Postman attribute | Mapping type | Match objects using this attribute | Apply this mapping
+    Azure AD attribute | Target attribute | Postman attribute | Mapping type | Match objects using this attribute | Apply this mapping
     --- | --- | --- | --- | --- | ---
     `userPrincipalName` &#x2a; | `userName` | `email` | Direct | Yes | Always
     `surname` | `name.familyName` | `name`  | Direct| No | Always
@@ -89,7 +89,7 @@ To map Postman group attributes to Azure AD group attributes, do the following:
 1. Under **Target Object Actions**, enable **Create**, **Update**, and **Delete**.
 1. Under **Attribute Mappings**, select **Add New Mapping** to map the following attributes:
 
-    Azure AD attribute | SCIM attribute | Postman attribute | Mapping type | Match objects using this attribute | Apply this mapping
+    Azure AD attribute | Target attribute | Postman attribute | Mapping type | Match objects using this attribute | Apply this mapping
     --- | --- | --- | --- | --- | ---
     `displayName` &#x2a; |	`displayName` | `Group name` | Direct | Yes | Always
     `members` | `members` |	`Group members` | Direct | No | Always
