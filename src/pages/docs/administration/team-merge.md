@@ -111,9 +111,9 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 ### Performing distributed migration
 
 * Team members need to [export](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) their Postman data prior to moving to your new team. You can use this as an opportunity to clean up and reorganize your workspaces.
-* Users can [leave the earlier team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#leaving-a-team) and [join your new team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team). They can then re-import Postman data into their respective team workspaces, creating new workspaces where necessary.
+* Users can [leave the previous team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#leaving-a-team) and [join your new team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team). They can then re-import Postman data into their respective team workspaces, creating new workspaces where necessary.
     * By default, the person who imports a collection or environment is automatically assigned the Editor role (learn more about [roles](/docs/collaborating-in-postman/roles-and-permissions/)). Everyone else on the team will be assigned as a Viewer.
-* Once the last user from your earlier team has migrated to your new one, the original team will be deleted along with all of the data within it. You can then begin [collaborating](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) in your new team. To learn more about collaborating in Postman, watch [Working with your team in Postman](https://youtu.be/5lscUV-Exac).
+* Once the last user from your previous team has migrated to your new one, the original team will be deleted along with all of the data within it. You can then begin [collaborating](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) in your new team. To learn more about collaborating in Postman, watch [Working with your team in Postman](https://youtu.be/5lscUV-Exac).
     * If you change your team email to a non-company domain email (for example, Gmail or Yahoo), your original team will continue indefinitely. You can keep a personal account with your current data and use a work email for a work account. Keeping both accounts in use can help when you migrate data.
     * Keep in mind items that will need to be recreated (such as monitors and mocks).
 
@@ -147,11 +147,11 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 
     You will need to [reassign roles (workspace, collection, and environment level)](/docs/collaborating-in-postman/roles-and-permissions/), [recreate workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-a-new-workspace), [recreate monitors](/docs/monitoring-your-api/setting-up-monitor/), [recreate mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), [re-import API schemas](/docs/getting-started/importing-and-exporting-data/#importing-api-specifications), and [republish documentation from your new team pages](/docs/publishing-your-api/publishing-your-docs/).
 
-* **What happens to published documentation from my earlier team?**
+* **What happens to published documentation from my previous team?**
 
-    Your documentation links will break since the earlier team is no longer active. New documentation URLs will need to be generated when collections are [republished from your new team pages](/docs/publishing-your-api/publishing-your-docs/). If you are [publishing to a custom domain](/docs/publishing-your-api/custom-doc-domains/), unpublish and remove the domain from your earlier team in order to add it to your new team and republish.
+    Your documentation links will break since the previous team is no longer active. New documentation URLs will need to be generated when collections are [republished from your new team pages](/docs/publishing-your-api/publishing-your-docs/). If you are [publishing to a custom domain](/docs/publishing-your-api/custom-doc-domains/), unpublish and remove the domain from your previous team in order to add it to your new team and republish.
 
-* **What happens to the earlier team once everyone leaves?**
+* **What happens to the previous team once everyone leaves?**
 
     If it's a free team, the team is deleted after the last user leaves the team. Previous users of the deleted team will no longer have access to the team's workspaces, including personal workspaces, or any elements in them. Users can [export their Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) prior to leaving the team to ensure it stays with them.
 
