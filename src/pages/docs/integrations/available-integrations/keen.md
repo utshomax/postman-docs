@@ -42,7 +42,7 @@ Setting up a Keen integration requires you to get a project ID and API key befor
 
     ![keen dashboard](https://assets.postman.com/postman-docs/keen-add-integration.jpg)
 
-1. Enter your integration information to connect Keen IO to Postman monitors for API-based computation, S3 backups, and building visualizations in the **Send Monitor Run Results** page.
+1. Enter your integration information to connect Keen IO to Postman Monitors for API-based computation, S3 backups, and building visualizations in the **Send Monitor Run Results** page.
 
     ![keen dashboard](https://assets.postman.com/postman-docs/keen-add-integration-configuration.jpg)
 
