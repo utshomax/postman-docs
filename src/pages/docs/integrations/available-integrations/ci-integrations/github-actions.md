@@ -83,7 +83,7 @@ To view the results of API Governance and API Security checks that ran as part o
 
 ## Configuring the Postman CLI for GitHub Actions
 
-With the help of the Postman CLI and the Postman API, you can run Postman collections with your API tests created in Postman as part of your GitHub pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to a YAML file in the `.github/workflows` directory in your GitHub repository.
+With the help of the Postman CLI and the Postman API, you can run Postman collections with your API tests as part of your GitHub pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to a YAML file in the `.github/workflows` directory in your GitHub repository.
 
 Each time the pipeline runs, the Postman CLI runs the collections that contain your tests. You can view the results of your tests in Postman. You an also enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) ([Enterprise teams only](https://www.postman.com/pricing/)).
 

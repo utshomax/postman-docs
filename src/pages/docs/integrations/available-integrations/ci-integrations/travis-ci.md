@@ -66,7 +66,7 @@ To view the results of API Governance and API Security checks that ran as part o
 
 ## Configuring the Postman CLI for Travis CI
 
-With the help of the Postman CLI and the Postman API, you can run Postman collections with your API tests created in Postman as part of your Travis CI pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to the `.travis.yml` file in your Travis CI project.
+With the help of the Postman CLI and the Postman API, you can run Postman collections with your API tests as part of your Travis CI pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to the `.travis.yml` file in your Travis CI project.
 
 You an also enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) ([Enterprise teams only](https://www.postman.com/pricing/)).
 
