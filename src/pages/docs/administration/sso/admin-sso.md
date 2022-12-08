@@ -41,7 +41,7 @@ To add an authentication method, do the following:
 1. Enter an authentication name that's identifiable to your team.
 1. Select **Continue** to [configure the identity provider details](#configuring-the-identity-provider-details).
 
-    <img src="https://assets.postman.com/postman-docs/add-auth-method.jpg" width="350px" alt="Authentication Method"/>
+    <img src="https://assets.postman.com/postman-docs/v10/add-auth-method-v10.jpg" width="600px" alt="Authentication Method"/>
 
     > Always check with your authentication provider dashboard or your IT support staff for the correct information to complete a modal.
 
@@ -74,15 +74,19 @@ After [adding the authentication method](#configuring-single-sign-on), you can c
 
 1. Select **Save Authentication**.
 
-   [![details](https://assets.postman.com/postman-docs/server-provider-details.jpg)](https://assets.postman.com/postman-docs/server-provider-details.jpg)
+   <img alt="" src="https://assets.postman.com/postman-docs/v10/configure-identity-provider-details-v10.jpg"/>
 
 ## Edit SSO settings
 
 After configuring an SSO authentication method for your Postman team, you can select the **Status** toggle to turn it on or off. This is a team-level option, so this setting applies to the whole team.
 
-To update the settings for an authentication method, select **Edit**.
-
 <img alt="" src="https://assets.postman.com/postman-docs/admin-sso-turn-on-auth-method-v9.jpg" width="800px"/>
+
+To update the settings for an authentication method, select **Edit**. Then select **Continue** to update the identity provider details.
+
+To delete an authentication method, select **Edit**, then select **Delete**.
+
+<img alt="" src="https://assets.postman.com/postman-docs/v10/edit-auth-method-v10.jpg" width="600px"/>
 
 ## Managing user accounts
 
