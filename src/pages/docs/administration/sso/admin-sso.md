@@ -49,10 +49,10 @@ To add an authentication method, do the following:
 
 After [adding the authentication method](#configuring-single-sign-on), you can configure the identity provider details. To continue configuring the identity provider details later, select **Configure Later**. When you're ready to continue configuring the identity provider details, see [Edit SSO settings](#edit-sso-settings).
 
-1. In the **Service provider details (Postman)** section, the Entity ID, and the URLs for the Login and ACS are already populated. Optionally, you can select **Sign SAML requests** for Postman to sign authentication requests sent to the identity provider. Select **Download** to download the certificate, and then send the certificate to your identity provider.
-1. Fill in the **Identity provider details** section. From your IdP account, enter your SSO URL, Identity provider issuer, and X.509 Certificate.
+1. In the **Service provider details (Postman)** section, the **Entity ID**, **Login URL**, and **ACS URL** are already populated. Optionally, you can select the **Sign SAML requests** checkbox for Postman to sign authentication requests sent to the identity provider. Select **Download** to download the certificate, and then send the certificate to your identity provider.
+1. Fill in the **Identity provider details** section. From your IdP account, enter your **SSO URL**, **Identity provider issuer**, and **X.509 Certificate**. Instead, you can upload a metadata file to configure the identity provider details in one step.
 
-    To enter details in the **Identity provider details** section, you must sign in to your IdP account and fetch details. Refer to the corresponding section of the documentation and follow the outlined procedure there:
+    To enter details in the **Identity provider details** section, you must sign in to your IdP account and get the details. Refer to the corresponding section of the documentation and follow the outlined procedure there:
 
     * [Setting up SSO with Google Workspace](/docs/administration/sso/google-workspace/)
 
@@ -121,13 +121,23 @@ The **Automatically add new users** checkbox in your [SSO configuration](#config
 
 ### Managing team logins
 
-By default, Postman only supports Service Provider (Postman) initiated logins for Postman Professional or Enterprise teams utilizing SSO. Your team must use the [Enterprise login page](https://identity.getpostman.com/enterprise/login) in order to sign in to Postman. If you require users be able to sign in from your SSO portal, you can generate and copy the Relay state from your [SSO configuration](#configuring-the-identity-provider-details) and save it in your IdP configuration. This ensures an extra level of security when logins are initiated through a source unknown to Postman.
+By default, Postman only supports Service Provider (Postman) initiated logins for Postman Professional or Enterprise teams using SSO. Your team must use the [Enterprise login page](https://identity.getpostman.com/enterprise/login) in order to sign in to Postman. If you require users be able to sign in from your SSO portal, you can generate and copy the Relay state from your [SSO configuration](#configuring-the-identity-provider-details) and save it in your IdP configuration. This ensures an extra level of security when logins are initiated through a source unknown to Postman.
 
 ### Removing team access
 
 You must [remove users from your team in Postman](/docs/administration/managing-your-team/managing-your-team/#removing-team-members) to prevent access to shared resources. When you remove a user from your team, you'll still retain access to any data they have shared with the team. You'll also be able to reassign their personal workspaces and the data within them to a remaining team member so that the team doesn't lose access to any unshared work.
 
 ## Troubleshooting
+
+If you're unable to log in to Postman using SSO, or you experience other SSO configuration issues, see the following common issues:
+
+Issue | Resolving the issue
+--- | ---
+Your IdP returns a 404 error after logging in to Postman using SSO. | Make sure the **SSO URL** is correctly copied from your IdP to your [SSO configuration](#configuring-the-identity-provider-details) in Postman.
+Postman returns a 500 error after logging in to Postman using SSO. | Make sure the **X.509 Certificate** is correctly copied from your IdP to your [SSO configuration](#configuring-the-identity-provider-details) in Postman.
+Postman returns a 404 error after logging in to Postman using SSO. | Make sure the values in the **Service provider details (Postman)** section are correctly copied from your [SSO configuration](#configuring-the-identity-provider-details) in Postman to your IdP.
+Postman returns a page explaining the sign-in request expired after logging in to Postman using SSO. | Make sure the **Relay state** is correctly copied from your [SSO configuration](#configuring-the-identity-provider-details) in Postman to your IdP.
+An email address isn't associated with your Postman account in your [Postman team member list](/docs/administration/managing-your-team/managing-your-team/). | In your IdP configuration settings, make sure the username format is set to **Email**.
 
 ## Next steps
 
