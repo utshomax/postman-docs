@@ -2,7 +2,7 @@
 title: "Authorizing requests"
 order: 22
 page_id: "authorization"
-updated: 2021-11-01
+updated: 2022-12-08
 search_keyword: "WWW-Authenticate, x-www-form-urlencoded"
 contextual_links:
   - type: section
