@@ -54,7 +54,7 @@ To view build jobs, open an API and select **Test and Automation**. The most rec
 Select **View All Builds** to view the full list of build jobs. From here you can take the following actions:
 
 * Use the dropdown lists to filter jobs by branch or build status.
-* To view a build in CircleCI, hover over a build and select **View build details**.
+* To open a build in CircleCI, hover over a build and select **View build details**.
 * To start a new build, select **Run Build**. Select or enter the name of the branch to use and select **Run Build**.
 * To get the latest build status information, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
@@ -71,7 +71,7 @@ To view the results of API Governance and API Security checks that ran as part o
 
 ## Configuring the Postman CLI for CircleCI
 
-With the help of the Postman CLI and the Postman API, you can run API tests created in Postman as part of your CircleCI pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to the `config.yml` file in your CircleCI project.
+With the help of the Postman CLI and the Postman API, you can run Postman collections with your API tests created in Postman as part of your CircleCI pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to the `config.yml` file in your CircleCI project.
 
 You an also enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) ([Enterprise teams only](https://www.postman.com/pricing/)).
 
