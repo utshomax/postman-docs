@@ -61,7 +61,7 @@ You can move from Postman v8 to Postman v9 by navigating to **Settings** and sel
 
 <img alt="Settings Update" src ="https://assets.postman.com/postman-docs/settings-update-v8-to-v9.jpg"/>
 
-You will need to restart Postman to install the update. **Select Restart and Install Update**.
+You will need to restart Postman to install the update. Select **Restart and Install Update**.
 
 <img alt="Restart and install modal" src ="https://assets.postman.com/postman-docs/restart-and-install-update-v8.jpg" width="450px"/>
 
