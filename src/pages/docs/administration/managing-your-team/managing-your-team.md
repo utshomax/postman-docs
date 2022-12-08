@@ -57,15 +57,21 @@ You can invite collaborators, remove existing team members, and update user perm
 
 ### Inviting users
 
-You can invite users to your Postman team by navigating to [Manage Team](https://go.postman.co/settings/team/members) and selecting **Invite People**. Enter the email addresses of the individuals you'd like to invite and select **Add**. Assign these users one or more [team roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), then select **Send Invites**.
+1. On [Manage Team](https://go.postman.co/settings/team/members), select **Invite People**.
+1. Enter the email addresses of the individuals you want to invite.
 
-<img alt="Invite users to team" src="https://assets.postman.com/postman-docs/team-invite-people-v9.1.0.jpg" width="350px"/>
+    > You can also upload a .txt or .csv file with the email addresses of the people you want to invite. To do so, select **Add from file**.
 
-Or, you can invite a user to join your team with a link. To do so, select **Get Link**.
+1. Use **Roles** to assign these users one or more [team roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
+1. Select **Send Invite**.
 
-Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can send invitations for any role type. On Free, Basic, and Professional plans, users with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin.
+<img alt="Invite users to team" src="https://assets.postman.com/postman-docs/v10/team-invite-people-v10.jpg" width="400px"/>
 
-If users aren't a Team Admin or a Developer inviting another Developer on a Free, Basic, or Professional plan, their request to add external users to your Postman team will be shared with you for approval. You can review these requests in your [team dashboard](https://go.postman.co/settings/team/members) and choose to approve or dismiss them. If you approve the request, Postman will send an invitation to the individual.
+You can also invite a user to join your team with a link. To do so, select **Copy Invite Link**.
+
+Team [Admins and Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can send invitations for any role type. On [Free, Basic, and Professional plans](https://www.postman.com/pricing/), users with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin.
+
+If the team member sending the invitation isn't a Team Admin or a Developer inviting another Developer on a Free, Basic, or Professional plan, their request to add external users to your Postman team will be shared with you for approval. You can review these requests in your [team dashboard](https://go.postman.co/settings/team/members) and choose to approve or dismiss them. If you approve the request, Postman will send an invitation to the individual. <!-- TODO: verify -->
 
 You can also allow Postman users from your company to request to join your team by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#enabling-team-discovery).
 
