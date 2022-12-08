@@ -321,6 +321,22 @@ To manually refresh a token, do the following:
 1. Turn **Auto-refresh access token** off.
 1. Select **Refresh** next to the token expiration time.
 
+#### Sharing an OAuth 2.0 access token
+
+To allow other Postman users to view and use an OAuth 2.0 access token, do the following:
+
+1. Select **Share access token**.
+1. Select **Sync Token**.
+
+<img alt="Share an OAuth 2.0 access token" src="https://assets.postman.com/postman-docs/v10/authorization-oauth2-share-v10.jpg" width="500px"/>
+
+To revoke other users' access to a synced token, do the following:
+
+1. Turn **Share access token** off.
+1. Select **Remove Synced Token**.
+
+After you revoke access, other users with access to the request won't be able to see or use the token.
+
 ### Hawk authentication
 
 Hawk authentication enables you to authorize requests using partial cryptographic verification.
