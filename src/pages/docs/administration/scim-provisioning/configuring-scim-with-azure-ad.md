@@ -92,7 +92,6 @@ To map Postman group attributes to Azure AD group attributes, do the following:
     --- | --- | --- | --- | --- | ---
     `displayName` &#x2a; |	`displayName` | `Group name` | Direct | Yes | Always
     `members` | `members` |	`Group members` | Direct | No | Always
-    `objectId` | `externalId` |	`externalId` | Direct | No | Always
 
     &#x2a; For `displayName`, set the value for **Matching precedence** to `1`.
 
