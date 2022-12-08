@@ -323,7 +323,7 @@ To manually refresh a token, do the following:
 
 #### Sharing an OAuth 2.0 access token
 
-To allow other Postman users to view and use an OAuth 2.0 access token, do the following:
+To enable other Postman users to view and use an OAuth 2.0 access token, do the following:
 
 1. Select **Share access token**.
 1. Select **Sync Token**.
