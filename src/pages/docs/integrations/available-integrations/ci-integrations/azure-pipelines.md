@@ -83,7 +83,7 @@ To view the results of API Governance and API Security checks that ran as part o
 
 ## Configuring the Postman CLI for Azure Pipelines
 
-With the help of the Postman CLI and the Postman API, you can run Postman collections with your API tests created in Postman as part of your Azure DevOps pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to the YAML file in your Azure Repos repository.
+With the help of the Postman CLI and the Postman API, you can run Postman collections with your API tests as part of your Azure DevOps pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to the YAML file in your Azure Repos repository.
 
 Each time the pipeline runs, the Postman CLI runs the collections that contain your tests. You can view the results of your tests in Postman.
 
