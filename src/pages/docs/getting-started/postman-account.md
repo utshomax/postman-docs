@@ -103,7 +103,7 @@ If you're on an Enterprise plan, you must contact your Team Admins to update the
 
 If you're on a Professional, Basic, or Free plan, you can change your password if you're already signed in by navigating to your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Settings** > **Account**. Select **Change Password**.
 
-If you aren't signed in to your Postman account, you can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login) page. Select __Trouble signing in?__ Enter your account email, select the __I'm not a robot__ checkbox, and select __Submit__. Postman will send you an email with instructions for recovering access to your account.
+If you aren't signed in to your Postman account, you can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login) page. Select __Trouble signing in?__. Enter your account email, select the __I'm not a robot__ checkbox, and select __Submit__. Postman will send you an email with instructions for recovering access to your account.
 
 > If you still have trouble logging into your Postman account, contact [Postman support](https://support.postman.com/hc/en-us).
 
