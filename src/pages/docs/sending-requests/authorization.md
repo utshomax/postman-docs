@@ -23,6 +23,9 @@ contextual_links:
   - type: link
     name: "Inheriting Auth Details | Postman Level Up"
     url: "https://www.youtube.com/watch?v=WFiYsfSkyXE&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=2"
+  - type: link
+    name: "Automatically Refresh OAuth2.0 Access Tokens | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=FAhs9TBK-xU"
   - type: subtitle
     name: "Case Studies"
   - type: link
@@ -60,6 +63,7 @@ You can pass auth details along with any request you send in Postman. Auth data 
         * [Password credentials](#password-credentials)
         * [Client credentials](#client-credentials)
         * [Requesting an OAuth 2.0 token](#requesting-an-oauth-20-token)
+        * [Refreshing an OAuth 2.0 token](#refreshing-an-oauth-20-token)
     * [Hawk authentication](#hawk-authentication)
     * [AWS Signature](#aws-signature)
     * [NTLM authentication](#ntlm-authentication)
@@ -303,6 +307,19 @@ Any successfully retrieved tokens will be listed in the request __Available Toke
 If authentication fails or times out, Postman will display an error message. You can check the error details in the console, __Retry__ to try authentication again, or edit your auth details before continuing.
 
 > Deleting a token in Postman doesn't revoke access. Only the server that issues the token can revoke it.
+
+#### Refreshing an OAuth 2.0 token
+
+Before it expires, Postman will automatically refresh an OAuth 2.0 token that you generated in the Postman app. Auto-refreshing is the default behavior, and you can turn this feature off and on by selecting **Auto-refresh access token**.
+
+With auto-refresh, Postman refreshes the token in the background before you send a request that uses it. The refreshed access token is updated wherever it's used, including in execution environments like [monitors](/docs/monitoring-your-api/intro-monitors/), [Collection Runner](/docs/running-collections/running-collections-overview/), [flows](/docs/postman-flows/flows-intro/flows-overview/), [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), and the [Postman CLI](/docs/postman-cli/postman-cli-overview/).
+
+<img alt="Auto-refresh an OAuth 2.0 access token" src="https://assets.postman.com/postman-docs/v10/authorization-oauth2-auto-refresh-v10.jpg" width="500px"/>
+
+To manually refresh a token, do the following:
+
+1. Turn **Auto-refresh access token** off.
+1. Select **Refresh** next to the token expiration time.
 
 ### Hawk authentication
 
