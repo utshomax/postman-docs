@@ -107,7 +107,7 @@ Search for a specific user by typing their name or email in the search field. Yo
 
 > Each team member must have at least one team role assigned to them.
 
-Teams can have two support accounts at no extra cost. Support accounts are users with only Admin or Billing roles. Users with a Super Admin or Developer role will consume a paid seat on your team.
+Teams can have two support accounts at no extra cost. Support accounts are team members with only Admin or Billing roles. Team members with a Super Admin or Developer role will consume a paid seat on your team.
 
 For full details about the Postman team roles that you can assign as a Team Admin, see [Team roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). Some roles are only available for teams with [Postman Professional or Enterprise](https://www.postman.com/pricing) plans.
 
