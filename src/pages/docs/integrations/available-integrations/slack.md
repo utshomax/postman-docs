@@ -67,6 +67,8 @@ The Postman to Slack integration enables you to send Postman notifications to a 
 
 1. Return to Postman, and complete the steps in the relevant section below for your integration type.
 
+> **You can view your configured integrations on the [Browse Integrations](https://go.postman.co/integrations/browse) page.** You can also view integrations that have been configured for a monitor by opening the monitor and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Learn more about [viewing or editing integrations](/docs/integrations/intro-integrations/#viewing-or-editing-integrations).
+
 ## Send your monitor run results to Slack
 
 > This integration works with collection-based monitors. Before you begin, make sure you've [created at least one collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/). To integrate an uptime monitor with Slack, see [Send uptime monitor notifications to Slack](#send-uptime-monitor-notifications-to-slack).
