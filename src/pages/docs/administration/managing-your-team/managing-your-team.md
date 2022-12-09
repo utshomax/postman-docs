@@ -97,7 +97,7 @@ When you remove a user from your team, you will still retain access to any data 
 
 ### Managing team roles
 
-Each user must have one or more team roles, which will allow them to perform various actions within your team. Roles can be granted to users individually, or to users of a [group](/docs/administration/managing-your-team/user-groups/).
+Each team member must have one or more team roles, which will allow them to perform various actions within your team. Roles can be granted to team members individually, or to team members who are part of a [group](/docs/administration/managing-your-team/user-groups/).
 
 You can change the roles of team members by selecting **Team** in the upper right > [**Manage Team**](https://go.postman.co/settings/team/members).
 
