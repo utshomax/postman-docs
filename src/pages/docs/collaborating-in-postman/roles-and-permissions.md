@@ -55,8 +55,8 @@ With the [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team
 
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to team members, based on the functions those team members require:
 
-* **Super Admin** - Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, API Network Manager, and Developer roles can perform ([Enterprise plans only](https://www.postman.com/pricing)).
-* **Admin** - Manages team members and team settings.
+* **Super Admin** - Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, API Network Manager, Developer, Monitor Editor, and Monitor Viewer roles can perform ([Enterprise plans only](https://www.postman.com/pricing)).
+* **Admin** - Manages team members and team settings. Can also view monitor metadata and run, pause, and resume monitors.
 * **Billing** - Manages team plan and payments. Billing roles can be granted by a Super Admin, Team Admin, or by a fellow team member with a Billing role.
 * **Developer** - Has access to all team resources and workspaces.
 * **Community Manager** - Manages the public visibility of workspaces and team profile ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
@@ -216,19 +216,21 @@ Move mock server | &#x2714; |
 
 You can [assign](/docs/monitoring-your-api/faqs-monitors/#who-can-edit-my-monitors) two role types for Postman monitors: **Editor** and **Viewer**.
 
+* **Super Admin** - Can view monitor metadata and run, pause, and resume monitors.
+* **Admin** - Can view monitor metadata and run, pause, and resume monitors.
 * **Editor** - Can view monitor metadata, metrics, jobs, and runs. Can run, update, delete, pause, and resume the monitor.
 * **Viewer** - Can view monitor metadata, metrics, jobs, and runs.
 
-Monitor server | Editor | Viewer
---- | --- | ---
-View monitor | &#x2714; | &#x2714;
-View monitor metadata, results, activity, and summary metrics | &#x2714; | &#x2714;
-Create monitor read integrations | &#x2714; | &#x2714;
-View monitor based integrations | &#x2714; | &#x2714;
-Edit and delete monitor | &#x2714; |
-Run, pause, and resume monitor | &#x2714; |
-Move monitor | &#x2714; |
-Update monitor roles | &#x2714; |
+Monitor server | Editor | Viewer | Super Admin | Admin |
+--- | --- | --- | --- | --- |
+View monitor | &#x2714; | &#x2714; | &#x2714; | &#x2714;
+View monitor metadata, results, activity, and summary metrics | &#x2714; | &#x2714; | &#x2714; | &#x2714;
+Create monitor read integrations | &#x2714; | &#x2714; | |
+View monitor based integrations | &#x2714; | &#x2714; | |
+Edit and delete monitor | &#x2714; | |
+Run, pause, and resume monitor | &#x2714; | | &#x2714; | &#x2714;
+Move monitor | &#x2714; | |
+Update monitor roles | &#x2714; | |
 
 ## Partner roles
 
