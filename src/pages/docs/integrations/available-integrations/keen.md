@@ -48,6 +48,8 @@ Setting up a Keen integration requires you to get a project ID and API key befor
 
 1. Select **Add Integration**. You can send the results of multiple monitors to the same Keen IO collection.
 
+> **You can view your configured integrations on the [Browse Integrations](https://go.postman.co/integrations/browse) page.** You can also view integrations that have been configured for a monitor by opening the monitor and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Learn more about [viewing or editing integrations](/docs/integrations/intro-integrations/#viewing-or-editing-integrations).
+
 ## Viewing data in Keen IO
 
 Within a few minutes, data will start flowing into Keen IO if your Monitor is running. If you’ve sent the results of multiple Postman Monitors to Keen, you’ll be able to segment by Monitor name/id, Collection name/id, error code, and so on.
