@@ -312,7 +312,7 @@ If authentication fails or times out, Postman will display an error message. You
 
 Before it expires, Postman will automatically refresh an OAuth 2.0 token that you generated in the Postman app. Auto-refreshing is the default behavior, and you can turn this feature off and on by selecting **Auto-refresh access token**.
 
-With auto-refresh, Postman refreshes the token in the background before you send a request that uses it. The refreshed access token is updated wherever it's used, including in execution environments like [monitors](/docs/monitoring-your-api/intro-monitors/), [Collection Runner](/docs/running-collections/running-collections-overview/), [flows](/docs/postman-flows/flows-intro/flows-overview/), [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), and the [Postman CLI](/docs/postman-cli/postman-cli-overview/).
+With auto-refresh, Postman refreshes the token in the background before you send a request that uses it. The refreshed access token is updated wherever it's used, including in execution environments like [monitors](/docs/monitoring-your-api/intro-monitors/), [Collection Runner](/docs/running-collections/running-collections-overview/), [Flows](/docs/postman-flows/flows-intro/flows-overview/), [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), and the [Postman CLI](/docs/postman-cli/postman-cli-overview/).
 
 <img alt="Auto-refresh an OAuth 2.0 access token" src="https://assets.postman.com/postman-docs/v10/authorization-oauth2-auto-refresh-v10.jpg" width="500px"/>
 
