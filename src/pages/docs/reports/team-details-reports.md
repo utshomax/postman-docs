@@ -66,7 +66,7 @@ The **Resource usage** report gives more information on how your team is using P
 
 ### Team slots
 
-Billed slot usage across your team.
+Billed seat usage across your team.
 
 * **Billed slots** - The used billed slots compared to unused billed slots for your team.
 * **Unbilled slots** - The number of slots that will be billed at the next [Auto-Flex renewal](/docs/administration/billing/#utilizing-auto-flex).
