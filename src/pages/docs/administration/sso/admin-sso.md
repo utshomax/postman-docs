@@ -70,7 +70,7 @@ After [adding the authentication method](#configuring-single-sign-on), you can c
 
     &#42; Only available on Enterprise plans.
 
-1. (Optional) Select the [**Automatically add new users**](#automatically-adding-new-users) checkbox if you want new users using this authentication method to be automatically added to your team.
+1. (Optional) Select the [**Automatically add new users**](#automatically-adding-new-users) checkbox if you want users to automatically join your team the first time they log in to Postman through this IdP.
 
 1. Select **Save Authentication**.
 
@@ -104,24 +104,26 @@ This section describes the following topics:
 
 ### Creating end user accounts
 
-You can create an account for a user in the IdP.
-
-The first time a new user logs in to Postman through the IdP, a Postman account is created under two conditions—the team has seats available and the [**Automatically add new users**](#automatically-adding-new-users) checkbox was selected during [SSO configuration](#configuring-the-identity-provider-details).
+The first time a new Postman user [logs in to Postman through the IdP](/docs/administration/sso/user-sso/), a Postman account is created and the user is automatically added to the team if the following is true: the team has seats available and the [**Automatically add new users**](#automatically-adding-new-users) checkbox was selected during [SSO configuration](#configuring-the-identity-provider-details).
 
 The user will be automatically associated to the team with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and have access to team resources.
 
+> If the required conditions aren't met to automatically join the team, all Team Admins will receive your request to join the team.
+
 ### Adding existing user accounts
 
-If a Postman user logs in to Postman through a team's IdP, the user will be automatically added to the team if one of the following is true:
+The first time an existing Postman user [logs in to Postman through the IdP](/docs/administration/sso/user-sso/), the user is automatically added to the team if one of the following is true:
 
-* The team has available seats and the [**Automatically add new users**](#automatically-adding-new-users) checkbox in your configuration is selected.
-* An Admin has [invited the user](/docs/administration/managing-your-team/managing-your-team/#inviting-users) to join the team.
+* The team has available seats and the [**Automatically add new users**](#automatically-adding-new-users) checkbox was selected during [SSO configuration](#configuring-the-identity-provider-details).
+* A Team Admin has [invited the user](/docs/administration/managing-your-team/managing-your-team/#inviting-users) to join the team.
+
+> If the required conditions aren't met to automatically join the team, all Team Admins will receive your request to join the team.
 
 ### Automatically adding new users
 
-The **Automatically add new users** checkbox in your [SSO configuration](#configuring-the-identity-provider-details) determines whether users with accounts in your SSO system will be allowed to join your team automatically by signing in to Postman with SSO. If this is selected, users with or without existing Postman accounts can join your team by going to the [Enterprise sign in page](https://identity.getpostman.com/enterprise/login) and logging in with SSO.
+The **Automatically add new users** checkbox in your [SSO configuration](#configuring-the-identity-provider-details) determines whether users with accounts in your IdP are allowed to join your team automatically by [logging in to Postman through the IdP](/docs/administration/sso/user-sso/). If this is selected, users with or without existing Postman accounts can join your team by going to the [Enterprise sign in page](https://identity.getpostman.com/enterprise/login) and logging in with SSO.
 
-> **Automatically add new users** will only work if your team has user seats available. Your team size won't be automatically increased if more users sign in with SSO.
+> **Automatically add new users** will only work if your team has user seats available. Your team size won't automatically increase if more users sign in with SSO.
 
 ### Managing team logins
 
