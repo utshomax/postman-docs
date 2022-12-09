@@ -64,6 +64,7 @@ You can pass auth details along with any request you send in Postman. Auth data 
         * [Client credentials](#client-credentials)
         * [Requesting an OAuth 2.0 token](#requesting-an-oauth-20-token)
         * [Refreshing an OAuth 2.0 token](#refreshing-an-oauth-20-token)
+        * [Sharing an OAuth 2.0 token](#sharing-an-oauth-20-access-token)
     * [Hawk authentication](#hawk-authentication)
     * [AWS Signature](#aws-signature)
     * [NTLM authentication](#ntlm-authentication)
