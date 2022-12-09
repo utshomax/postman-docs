@@ -132,7 +132,7 @@ To import data in bulk from a GitHub repository, do the following:
 
 1. Select the files you want to import into Postman. You can also select **Generate collection from imported APIs** and select what you want to link this collection as. Select **Show advanced settings** to control how Postman generates collections based on your file types, then select **Import**.
 
-   ![Confirm import from github](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
+   ![Confirm import from GitHub](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
 
 You will receive a confirmation once the import has completed. You can view your imported files and generated collections in Postman.
 
