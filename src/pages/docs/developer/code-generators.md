@@ -83,6 +83,6 @@ Since the code generator module is an open-source project, if there is a languag
 
 ## Next steps
 
-If you're using Postman to work with client applications, you could also capture request data:
+If you're using Postman to work with client applications, you can also capture request data:
 
 * To learn more about capturing request data, visit [Capturing HTTP requests](/docs/sending-requests/capturing-request-data/capturing-http-requests/).

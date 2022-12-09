@@ -17,7 +17,7 @@ contextual_links:
 
 > **[Groups are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-With Postman groups, you can organize users into groups that reflect your organizational structure. Groups enable you to manage access to your team and onboard new users.
+With Postman groups, you can organize users into groups that reflect your organizational structure. Groups enable you to manage access to your team and onboard new team members.
 
 You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to create, manage, and delete groups.
 

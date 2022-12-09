@@ -187,7 +187,7 @@ To deny a request, do the following:
 
 ## Adding elements to the Private API Network
 
-To add an element to the Private API Network, it must be in the [API Builder](/docs/designing-and-developing-your-api/creating-an-api/) in a team or public workspace. You can't add an element to the Private API Network unless all users have at least view access to the element. Learn more about team [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
+To add an element to the Private API Network, it must be in the [API Builder](/docs/designing-and-developing-your-api/creating-an-api/) in a team or public workspace. You can't add an element to the Private API Network unless all team members have at least view access to the element. Learn more about team [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
 
 * **If your team uses the [optional approval process](#using-the-approval-process-workflow)**, team members with the Editor role must [submit a request](#editor-requesting-to-add-an-element) to add an element to the Private API Network and an API Network Manager must [approve the request](#api-network-manager-reviewing-requests-to-add-elements). API Network Managers can add elements directly to the Private API Network.
 * **If your team doesn't use the optional approval process**, any user with an Editor role for an element can add it to the Private API Network.

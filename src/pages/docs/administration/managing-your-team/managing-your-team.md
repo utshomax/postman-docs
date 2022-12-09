@@ -53,7 +53,7 @@ Once you've created your Postman team, you can take the following steps to enabl
 
 ## Managing team members
 
-You can invite collaborators, remove existing users, and update user permissions at any time directly in Postman.
+You can invite collaborators, remove existing team members, and update user permissions at any time directly in Postman.
 
 ### Inviting users
 
