@@ -97,7 +97,7 @@ When you remove a user from your team, you will still retain access to any data 
 
 ### Managing team roles
 
-Each user must have one or more team roles, which will allow them to perform various actions within your team. Roles can be granted to users individually, or to users of a [group](/docs/administration/managing-your-team/user-groups/).
+Each team member must have one or more team roles, which will allow them to perform various actions within your team. Roles can be granted to team members individually, or to team members who are part of a [group](/docs/administration/managing-your-team/user-groups/).
 
 You can change the roles of team members by selecting **Team** in the upper right > [**Manage Team**](https://go.postman.co/settings/team/members).
 
@@ -107,7 +107,7 @@ Search for a specific user by typing their name or email in the search field. Yo
 
 > Each team member must have at least one team role assigned to them.
 
-Teams can have two support accounts at no extra cost. Support accounts are users with only Admin or Billing roles. Users with a Super Admin or Developer role will consume a paid seat on your team.
+Teams can have two support accounts at no extra cost. Support accounts are team members with only Admin or Billing roles. Team members with a Super Admin or Developer role will consume a paid seat on your team.
 
 For full details about the Postman team roles that you can assign as a Team Admin, see [Team roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). Some roles are only available for teams with [Postman Professional or Enterprise](https://www.postman.com/pricing) plans.
 
