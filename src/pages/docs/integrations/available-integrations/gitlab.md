@@ -35,11 +35,11 @@ With Postman v10, you can connect a GitLab repository to an API in the API Build
 
 1. If you don’t already have a Personal Access Token from GitLab, [generate a new one](https://gitlab.com/-/profile/personal_access_tokens).
 
-   ![gitlab create token](https://assets.postman.com/postman-docs/gitlab-create-token.jpg)
+   ![GitLab create token](https://assets.postman.com/postman-docs/gitlab-create-token.jpg)
 
 1. Save the generated token to use later.
 
-   ![gitlab save token](https://assets.postman.com/postman-docs/gitlab-save-token.jpg)
+   ![GitLab save token](https://assets.postman.com/postman-docs/gitlab-save-token.jpg)
 
 ## Configuring a backup for Postman collections in GitLab
 
@@ -49,7 +49,7 @@ With Postman v10, you can connect a GitLab repository to an API in the API Build
 
 1. You can select **View** or **View All** for a list of all the integrations created by your team.
 
-   ![gitlab add integration](https://assets.postman.com/postman-docs/gitlab-add-integration.jpg)
+   ![GitLab add integration](https://assets.postman.com/postman-docs/gitlab-add-integration.jpg)
 
 The above screen provides you the following two options:
 
@@ -60,7 +60,7 @@ The above screen provides you the following two options:
 
 1. Select **Add Integration** to enter your GitLab token to start the integration.
 
-   ![enter gitlab token](https://assets.postman.com/postman-docs/gitlab-backup-collection-authenticate.jpg)
+   ![Enter GitLab token](https://assets.postman.com/postman-docs/gitlab-backup-collection-authenticate.jpg)
 
 1. Enter your GitLab Personal Access Token and select **Authenticate and Proceed**.
 
@@ -68,7 +68,7 @@ The above screen provides you the following two options:
 
 1. In **Advanced Options** you can enter a custom directory name or leave `Postman Collections` as the default. You can specify a branch for commit or the default branch of the repository will be used.
 
-    ![gitlab integration configuration](https://assets.postman.com/postman-docs/gitlab-backup-collection-configuration.jpg)
+    ![GitLab integration configuration](https://assets.postman.com/postman-docs/gitlab-backup-collection-configuration.jpg)
 
 1. Select **Add Integration** to save your integration configuration.
 
@@ -106,4 +106,4 @@ Every change that is saved to your Postman Collection automatically commits chan
 
 You can go to your GitLab domain and view your backed-up collections, as illustrated in the screen below:
 
-![gitlab advanced options 2](https://assets.postman.com/postman-docs/gitlab-gray7.jpg)
+![GitLab advanced options 2](https://assets.postman.com/postman-docs/gitlab-gray7.jpg)
