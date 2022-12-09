@@ -16,8 +16,7 @@ contextual_links:
 
 Postman enables you to sync your Postman APIs to Microsoft Azure DevOps, an open-source Git repository manager, with the Postman to Azure DevOps integration.
 
-Setting up an Azure DevOps integration requires you to authenticate with Azure Devops and configure how you would like to back up your collections.
-
 ## API sync with Azure DevOps
 
-Postman 9.0 introduced the ability to connect a Git repository to an API. Instead of using an integration, you can directly connect an Azure DevOps repo to an API in the API Builder. This provides two-way sync of schemas and associated collections, plus adds features for syncing branches and release tags between Postman and your repo. For more information on the repo sync feature, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
+With Postman v10, you can connect an Azure DevOps repository to an API in the API Builder. Once connected, you can sync your API's definition and associated collections between Postman and Azure DevOps. You can switch branches, pull changes from the repository, and push changes to the repository, all from within Postman. To learn more about syncing your API with Azure DevOps, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
+
