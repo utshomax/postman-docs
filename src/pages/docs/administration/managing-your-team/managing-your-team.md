@@ -71,7 +71,7 @@ You can also invite a user to join your team with a link. To do so, select **Cop
 
 Team [Admins and Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can send invitations for any role type. On [Free, Basic, and Professional plans](https://www.postman.com/pricing/), users with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin.
 
-If the team member sending the invitation isn't a Team Admin or a Developer inviting another Developer on a Free, Basic, or Professional plan, their request to add external users to your Postman team will be shared with you for approval. You can review these requests in your [team dashboard](https://go.postman.co/settings/team/members) and choose to approve or dismiss them. If you approve the request, Postman will send an invitation to the individual. <!-- TODO: verify -->
+If the team member sending the invitation isn't a Developer inviting another Developer on a Free, Basic, or Professional plan or a Team Admin on any plan, their request to add external users to your Postman team will be shared with you for approval. You can review these requests in your [team dashboard](https://go.postman.co/settings/team/members) and choose to approve or dismiss them. If you approve the request, Postman will send an invitation to the individual. <!-- TODO: verify -->
 
 You can also allow Postman users from your company to request to join your team by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#enabling-team-discovery).
 
@@ -79,7 +79,7 @@ You can also allow Postman users from your company to request to join your team 
 
 #### Managing invitations
 
-You can review the invitations your team has sent by opening your [team dashboard](https://go.postman.co/settings/team/members) and selecting [**Invite links**](https://go.postman.co/settings/team/manage-invite-links) from the left-hand menu. The list provides information about which users generated links, when they were generated, their expiry date, and their URL.
+You can review the invitations your team has sent by opening your [team dashboard](https://go.postman.co/settings/team/members) and selecting [**Invite links**](https://go.postman.co/settings/team/manage-invite-links) from the left menu. The list provides information about which users generated links, when they were generated, when they expire, and their URL.
 
 <img alt="Invite links dashboard" src="https://assets.postman.com/postman-docs/team-manage-invite-links-v9.2.jpg"/>
 
@@ -87,7 +87,9 @@ To copy an active invite URL, hover over a row and select the copy icon <img alt
 
 To revoke an active invitation, hover over the invitation and select the delete icon <img alt="Delete link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px" />.
 
-You can review invite requests team members have submitted in your [team dashboard](https://go.postman.co/settings/team/members) under **Suggestions**. To respond to a request, hover over the individual and select **Invite** or the dismiss suggestion icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px">. If an invite has been sent to a suggested user, but they haven't yet joined your team, you'll have the option to resend it, copy the invite link, or dismiss it.
+You can review invite requests team members have submitted in your [team dashboard](https://go.postman.co/settings/team/members) under **Invites sent**. To resend an invite, hover over the individual's name and select **Resend Invite**. To copy the invite link, select the copy invite link icon <img alt="Copy invite link icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px">. To delete the invite, select the revoke invite icon <img alt="Revoke invite icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px">.
+
+<!-- TODO: screenshot -->
 
 ### Removing team members
 
@@ -95,11 +97,11 @@ To remove a member from your team, go to your [team dashboard](https://go.postma
 
 ![Removing a team member](https://assets.postman.com/postman-docs/v10/remove-team-member-v10.jpg)
 
-When you remove a user from your team, you will still retain access to any data they have shared with the team. Reassign their personal workspaces to another team member to ensure the team continues to have access to any unshared work done by the user being removed. Then to confirm, select **Remove Member**.
+When you remove a user from your team, you will still retain access to any data they have shared with the team. Reassign their personal workspaces to another team member to ensure the team continues to have access to any unshared work done by the user being removed. To confirm the removal, select **Remove Member**.
 
 <img alt="Confirmation for removing a team member" src="https://assets.postman.com/postman-docs/remove-user-from-team-v9.2.jpg" width="400px"/>
 
-> Note that when you remove a member from your team, this doesn't automatically reduce the number of paid slots for your team unless the member was added by [Auto-Flex](/docs/administration/billing/#utilizing-auto-flex) during the current Auto-Flex cycle. If you want to reduce the number of paid slots on your team, a member of your team with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [edit your plan](/docs/administration/billing/#changing-your-plan).
+> Note that when you remove a member from your team, this doesn't automatically reduce the number of paid seats for your team unless the member was added by [Auto-Flex](/docs/administration/billing/#utilizing-auto-flex) during the current Auto-Flex cycle. If you want to reduce the number of paid seats on your team, a member of your team with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [edit your plan](/docs/administration/billing/#changing-your-plan).
 
 ### Managing team roles
 
