@@ -8,13 +8,13 @@ A common Postman Flows use case is to take data from one response, and pipe that
 
 > Check out the example flow: [Pass data from requests](https://www.postman.com/postman/workspace/example-flows/flow/62fdd3360a222e16840ce44b)
 
-1. **Add two Send Request blocks**
+1. **Add two Send Request blocks**.
 
    Create two **Send Request** blocks by selecting **+ Block** on the toolbar. Select **Create a Post** for the first request and **Update Post** for the second request.
 
    ![Add two requests](https://assets.postman.com/postman-labs-docs/chaining-requests/updated-chaining-add-two-requests.gif)
 
-2. **Pipe the event from output to input**
+1. **Pipe the event from output to input**.
 
    You need to tell the flow how the [message](/docs/postman-flows/core-concepts/messages/) will *flow*. To do that, connect the **Success** output of the first block to the **Send** and **Variables** input of the second block.
 
@@ -23,7 +23,7 @@ A common Postman Flows use case is to take data from one response, and pipe that
    > 1. On flow execution, the success event from the source block is passed over to the **Send** and **Variables** ports of the target block using the pipe connection.
    > 2. The data being passed into the variable will automatically populate the structure and enable quick access to select the data if you have a saved example response in your collection.
 
-3. **Manually print out the response JSON data**
+1. **Manually print out the response JSON data**.
 
    At this point, without a saved example you don't know what the output of the send request looks like. Add the **Log** block to see the output.
 
@@ -46,7 +46,7 @@ A common Postman Flows use case is to take data from one response, and pipe that
      statusCode: 201
    ```
 
-4. **Use the response in request variables**
+1. **Use the response in request variables**.
 
    Flows flatten complex objects to key-value pairs in the **Send Request** block. The above message gets converted to the following, and you will be able to use the values of complex objects in your requests using the variable syntax of `/body/resource_id`.
 
@@ -65,7 +65,7 @@ A common Postman Flows use case is to take data from one response, and pipe that
        - Customer
    ```
 
-5. **Start the flow**
+1. **Start the flow**.
 
    Start the flow and the data will *flow* through!
 

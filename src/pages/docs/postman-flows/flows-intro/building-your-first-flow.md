@@ -24,8 +24,8 @@ This page walks you through your first flow, calling the Pokémon API and printi
 Begin by creating a new collection and adding a GET request. The flow you create later will use this collection.
 
 1. In your workspace, select **New** &gt; **Collection**. Name the collection **Pokemon API**.
-1. Add a request to your **Pokemon API** collection with this request URL: `https://pokeapi.co/api/v2/pokemon?limit=200`
-1. Select **Send**, then select **Save Response** &gt; **Save as example**. In the request you created, replace the URL `https://pokeapi.co/api/v2/pokemon?limit=200` with this variable: `{{URL}}`
+1. Add a request to your **Pokemon API** collection with this request URL: `https://pokeapi.co/api/v2/pokemon?limit=200`.
+1. Select **Send**, then select **Save Response** &gt; **Save as example**. In the request you created, replace the URL `https://pokeapi.co/api/v2/pokemon?limit=200` with this variable: `{{URL}}`.
 
     > Saving the response as an example enables Postman Flows to automatically detect the structure for easier access later.
 
@@ -60,7 +60,7 @@ Begin by creating a new collection and adding a GET request. The flow you create
 1. In the **Select** block you just created, enter `/body/next` to get the link to the next set of 200 results.
 1. Create an **Evaluate** block to the right of the `/body/next` **Select** block and connect it to right port on the **Select** block.<!-- TODO: add graphic -->
 1. In the **Evaluate** block, select the field below **Variables** and enter `has_next`. This assigns the **Evalaute** block to the variable `has_next`.<!-- TODO: add graphic -->
-1. At the top of the **Evaluate** block, enter `has_next != null`
+1. At the top of the **Evaluate** block, enter `has_next != null`.
 
     > If `has_next` is null, then the flow has reached the last set of 200 results.
 
