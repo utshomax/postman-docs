@@ -155,7 +155,7 @@ Once you're no longer a member of any Postman team, you can permanently delete y
 
 You can update your [notification preferences](https://go.postman.co/settings/me/notifications/) by selecting your avatar in the upper-right corner > **Settings** > **Notifications**.
 
-You can opt in to or out of email or in-app notifications about security, usage, monitors, and comments by selecting or de-selecting the checkboxes next to each item. Select **Update Preferences** to save changes.
+You can opt in to or out of email or in-app notifications about security, usage, monitors, and comments by selecting or clearing the checkboxes next to each item. Select **Update Preferences** to save changes.
 
 In addition to email and in-app notifications, you can also send many notifications to Slack using the [Slack integration](/docs/integrations/available-integrations/slack/). After you add the Slack integration, you can select notification events in the **On Slack** column. These notifications are sent to Slack by the integration.
 
