@@ -17,7 +17,7 @@ The Postman Enterprise plan is for organizations that need advanced identity man
 
 ## Enterprise features
 
-Postman Enterprise has features for reporting, advanced identity management, API Governance and API Security, collaboration, and administration.
+Postman Enterprise has features for reporting, advanced identity management, API governance and API security, collaboration, and administration.
 
 ### Reports
 
@@ -35,12 +35,12 @@ Postman Enterprise gives you access to advanced identity management features, in
 
 ### API Governance and API Security features
 
-Postman Enterprise provides you with advanced API Governance and API Security features:
+Postman Enterprise provides you with advanced API governance and API security features:
 
 * **Custom token scanner** - Create a [custom token scanner](/docs/administration/token-scanner/#custom-alerts) to proactively check for security leaks.
 * **Public link governance** - View and manage elements like workspaces, documentation, and collection links that your team [makes public](/docs/collaborating-in-postman/manage-public-elements/).
-* **Audit logs** - Use [audit logs](/docs/administration/audit-logs/) to understand how team members are using Postman.
-* **API Governance and API Security warnings** - Customizable API Governance and API Security warnings enable you to apply standards consistently throughout your API development process's [design](/docs/api-governance/api-definition/api-definition-warnings/) and [testing](/docs/api-governance/api-testing/api-testing-warnings/) phases. You can also use the [Postman CLI](/docs/postman-cli/postman-cli-overview/) to return API Governance and API Security warnings.
+* **Audit logs** - Use [audit logs](/docs/administration/audit-logs/) to understand how your team members are using Postman.
+* **Configurable API governance and API security warnings** - Custom API governance and API security warnings enable you to apply standards consistently throughout your API development process's [design](/docs/api-governance/api-definition/api-definition-warnings/) and [testing](/docs/api-governance/api-testing/api-testing-warnings/) phases. You can also use the [Postman CLI](/docs/postman-cli/postman-cli-overview/) to return Postman API Governance and API Security warnings.
 * **Static IP monitoring** - Use collection-based monitors to monitor APIs that are behind a restricted firewall. To learn more about static IP monitoring, see [Running monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/).
 
 ### Collaboration

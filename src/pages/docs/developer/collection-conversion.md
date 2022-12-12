@@ -51,4 +51,4 @@ Each of these Node.js modules is available through npm or by cloning directly fr
 
 After learning the fundamentals of using converters to automate Postman Collection runs with your development, testing, or deployment pipeline, learn about using the Postman API in your CI/CD workflow:
 
-* To learn more about accessing collections using the Postman API to run inside your Continuous Integration / Continuous Deployment (CI/CD) environments, visit [CI with Postman API](/docs/running-collections/using-newman-cli/continuous-integration/).
+* To learn more about accessing collections using the Postman API to run inside your continuous integration and continuous deployment (CI/CD) environments, visit [CI with Postman API](/docs/running-collections/using-newman-cli/continuous-integration/).

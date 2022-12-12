@@ -51,7 +51,7 @@ For help with any account or billing issues, go to Postman's [Support Center](ht
 
     * [Purchasing add-ons](#purchasing-add-ons)
 
-    * [Utilizing Auto-Flex](#utilizing-auto-flex)
+    * [Using Auto-Flex](#using-auto-flex)
 
         * [Billing for Auto-Flex](#billing-for-auto-flex)
 
@@ -129,7 +129,7 @@ To use direct debit as your payment method, do the following:
     > This process will verify your bank account immediately. If you want to use a manual verification process instead, see [Verifying your bank account manually](#verifying-your-bank-account-manually).
 
 1. To accept the Terms and Privacy Policy,  select **Agree**. You can select **Learn more** to view the whole policy.
-1. Stripe, the payment service Postman uses, will open a new window where you can log into your bank account. Select **Continue**.
+1. Stripe, the payment service Postman uses, will open a new window where you can log in to your bank account. Select **Continue**.
 1. Select the account you want to use, then select **Link account**. After Stripe verifies the account, select **Done**. Stripe will return you to the Postman billing dashboard.
 1. Select **Add account**.
 
@@ -225,7 +225,7 @@ You can purchase more blocks of monitoring requests, mock server calls, and cust
 
 Update the number of monitoring blocks, mock server blocks, and custom domains you would like to have included in your team plan, then select **Next** to confirm your changes.
 
-### Utilizing Auto-Flex
+### Using Auto-Flex
 
 [Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. With Auto-Flex enabled, your team can [invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) users without having to pay in advance for more seats, then opt to retain or remove them before being [billed](#billing-for-auto-flex).
 
