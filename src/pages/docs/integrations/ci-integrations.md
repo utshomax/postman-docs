@@ -31,7 +31,7 @@ contextual_links:
     url: "/docs/integrations/available-integrations/ci-integrations/travis-ci/"
 ---
 
-Continuous Integration and Continuous Delivery (CI/CD) are a core part of the [API development workflow](/docs/designing-and-developing-your-api/the-api-workflow/). Postman integrates with popular CI tools so you can view details about API builds in the same place where you define and test your API.
+Continuous integration and continuous delivery (CI/CD) are a core part of the [API development workflow](/docs/designing-and-developing-your-api/the-api-workflow/). Postman integrates with popular CI tools so you can view details about API builds in the same place where you define and test your API.
 
 After you set up CI integration, you can view the status of builds or start a new build, all from within Postman. You can also run API tests created in Postman as part of your CI pipeline using the [Postman CLI](/docs/postman-cli/postman-cli-overview/) and the Postman API.
 
@@ -50,7 +50,7 @@ To connect your API to your CI project, see the steps for your CI tool:
 
 ## Configuring the Postman CLI for CI
 
-Running API tests as part of your CI pipeline helps to keep expectations between your API producers and consumers in sync. The Postman CLI can also perform [API Governance and API Security checks](/docs/api-governance/api-governance-overview/) as part of your CI pipeline ([Enterprise teams only](https://www.postman.com/pricing/)).
+Running API tests as part of your CI pipeline helps to keep expectations between your API producers and consumers in sync. The Postman CLI can also perform [Postman API Governance and API Security checks](/docs/api-governance/api-governance-overview/) as part of your CI pipeline ([Enterprise teams only](https://www.postman.com/pricing/)).
 
 To run your API tests along with each build and, optionally, your API Governance and API Security checks, first generate the Postman CLI configuration code in Postman. Then add the configuration code to your CI project. Each time a CI build runs, the Postman CLI uses the Postman API to run the collections that contain your tests. You can view the results of your tests in Postman.
 

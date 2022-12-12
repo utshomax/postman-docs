@@ -114,7 +114,7 @@ If you want to share a link with other users, select **Link to collection in pub
 
 ## Sharing elements with external users
 
-> Your team must have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#utilizing-auto-flex) to invite more team members.
+> Your team must have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#using-auto-flex) to invite more team members.
 
 When you share a collection, external users who aren't on your Postman team will receive an invitation to join your team right away if you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
 

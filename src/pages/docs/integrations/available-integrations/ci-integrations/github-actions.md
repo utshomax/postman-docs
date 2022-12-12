@@ -12,7 +12,7 @@ contextual_links:
 
 > **[GitHub Actions self-hosted runners are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-[GitHub Actions](https://docs.github.com/en/actions) is a continuous integration (CI) and continuous delivery (CD) service that's integrated with GitHub. Software development teams can use GitHub Actions to automatically build, test, and deploy code in GitHub.
+[GitHub Actions](https://docs.github.com/en/actions) is a continuous integration and continuous delivery (CI/CD) service that's integrated with GitHub. Software development teams can use GitHub Actions to automatically build, test, and deploy code in GitHub.
 
 To set up a GitHub Actions integration for your API, first create a pipeline in GitHub and then configure your API in Postman. After you set up the integration, you can view the status of builds from within Postman.
 
@@ -75,7 +75,7 @@ To view details for collections that were run as part of a build, first [configu
 
 ## Viewing API Governance and API Security rule violations
 
-Using the Postman CLI, you can enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) using the [`api lint` command](/docs/postman-cli/postman-cli-options/#governance-and-security) ([Enterprise teams only](https://www.postman.com/pricing/)).
+Using the Postman CLI, you can enforce [Postman API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) using the [`api lint` command](/docs/postman-cli/postman-cli-options/#governance-and-security) ([Enterprise teams only](https://www.postman.com/pricing/)).
 
 To view the results of API Governance and API Security checks that ran as part of the build, first [configure the Postman CLI for GitHub Actions](#configuring-the-postman-cli-for-github-actions) and then start a new build on GitHub. After the build is complete, use the arrows to expand a build and expand an API definition to view any rule violations.
 

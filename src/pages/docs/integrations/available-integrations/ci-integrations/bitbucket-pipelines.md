@@ -11,7 +11,7 @@ contextual_links:
     url: "/docs/integrations/ci-integrations/"
 ---
 
-[Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines) is a continuous integration (CI) and continuous delivery (CD) service that's integrated with Bitbucket Cloud. Software development teams can use Bitbucket Pipelines to automatically build, test, and deploy code in Bitbucket.
+[Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines) is a continuous integration and continuous delivery (CI/CD) service that's integrated with Bitbucket Cloud. Software development teams can use Bitbucket Pipelines to automatically build, test, and deploy code in Bitbucket.
 
 To set up a Bitbucket Pipelines integration for your API, first create a pipeline in Bitbucket and then configure your API in Postman. After you set up the integration, you can view the status of builds or start a new build, all from within Postman.
 
@@ -61,7 +61,7 @@ To view details for collections that were run as part of a build, first [configu
 
 ## Viewing API Governance and API Security rule violations
 
-Using the Postman CLI, you can enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) using the [`api lint` command](/docs/postman-cli/postman-cli-options/#governance-and-security) ([Enterprise teams only](https://www.postman.com/pricing/)).
+Using the Postman CLI, you can enforce [Postman API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) using the [`api lint` command](/docs/postman-cli/postman-cli-options/#governance-and-security) ([Enterprise teams only](https://www.postman.com/pricing/)).
 
 To view the results of API Governance and API Security checks that ran as part of the build, first [configure the Postman CLI for Bitbucket Pipelines](#configuring-the-postman-cli-for-bitbucket-pipelines) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand an API definition to view any rule violations.
 
