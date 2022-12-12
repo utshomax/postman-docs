@@ -34,9 +34,9 @@ contextual_links:
 warning: false
 ---
 
-Continuous Integration (CI) is a development practice that requires developers to regularly merge code updates into a shared repository. It involves the process of automating the build and testing of code every time a developer commits code updates.
+Continuous integration (CI) is a development practice that requires developers to regularly merge code updates into a shared repository. It involves the process of automating the build and testing of code every time a developer commits code updates.
 
-You can access collections using the Postman API to run inside your Continuous Integration / Continuous Deployment (CI/CD) environments.
+You can access collections using the Postman API to run inside your Continuous integration and continuous deployment (CI/CD) environments.
 
 Before you get started:
 
@@ -44,7 +44,7 @@ Before you get started:
 * Get a [Postman API key](https://docs.api.getpostman.com/#authentication). If you don't have one, you can [generate an API key](/docs/developer/intro-api/#generating-a-postman-api-key).
 * Make sure you have a Postman Collection that tests your localhost server, and note the UID of the collection.
 
-> **Developing an API?** Postman offers built-in tools to integrate your API with some of the most widely-used Continuous Integration (CI) tools. After you set up CI integration for your API, you can view the status of builds or kick off a new build, all from within Postman. You can also use Newman to run API tests as part of your CI pipeline. To learn more, see [CI integrations](/docs/integrations/ci-integrations/).
+> **Developing an API?** Postman offers built-in tools to integrate your API with some of the most widely-used continuous integration (CI) tools. After you set up CI for your API, you can view the status of builds or kick off a new build, all from within Postman. You can also use Newman to run API tests as part of your CI pipeline. To learn more, see [CI integrations](/docs/integrations/ci-integrations/).
 
 ## Step 1: Install Node
 

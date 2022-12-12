@@ -49,7 +49,7 @@ When the Postman CLI runs a collection, the collection and its tests execute loc
 
 1. On the Collection Runner, select **Automate runs via CLI**.
 
-    <img alt="Automate runs using Postman CLI" src="https://assets.postman.com/postman-docs/v10/pcli-automate-cli-v10-2.jpg">
+    <img alt="Automate runs using the Postman CLI" src="https://assets.postman.com/postman-docs/v10/pcli-automate-cli-v10-2.jpg">
 
 1. In the **Postman CLI command** window, select **Add API Key**.
 
@@ -85,7 +85,7 @@ When the collections run to your satisfaction, you can copy the commands into yo
 
 1. On the Collection Runner, select **Automate runs via CLI**.
 
-    <img alt="Automate runs using Postman CLI" src="https://assets.postman.com/postman-docs/v10/pcli-automate-cli-v10-2.jpg">
+    <img alt="Automate runs using the Postman CLI" src="https://assets.postman.com/postman-docs/v10/pcli-automate-cli-v10-2.jpg">
 
 1. Under **Run on CI/CD**, select **Configure command**.
 
