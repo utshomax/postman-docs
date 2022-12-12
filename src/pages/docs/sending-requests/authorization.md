@@ -311,23 +311,17 @@ If authentication fails or times out, Postman will display an error message. You
 
 #### Refreshing an OAuth 2.0 token
 
-Before it expires, Postman will automatically refresh an OAuth 2.0 token that you generated in the Postman app. Auto-refreshing is the default behavior, and you can turn this feature off and on by selecting **Auto-refresh access token**.
+Before an OAuth 2.0 token generated in Postman expires, Postman automatically refreshes it in the background before you send a request that uses it. The refreshed access token is updated in any requests that it's used in. Auto-refreshing is the default behavior.
 
-With auto-refresh, Postman refreshes the token in the background before you send a request that uses it. The refreshed access token is updated wherever it's used, including in execution environments like [monitors](/docs/monitoring-your-api/intro-monitors/), [Collection Runner](/docs/running-collections/running-collections-overview/), [Flows](/docs/postman-flows/flows-intro/flows-overview/), [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), and the [Postman CLI](/docs/postman-cli/postman-cli-overview/).
+To turn this feature off or on, select **Auto-refresh access token**.
 
 <img alt="Auto-refresh an OAuth 2.0 access token" src="https://assets.postman.com/postman-docs/v10/authorization-oauth2-auto-refresh-v10.jpg" width="500px"/>
 
-To manually refresh a token, do the following:
-
-1. Turn **Auto-refresh access token** off.
-1. Select **Refresh** next to the token expiration time.
+To manually refresh a token, select **Refresh** next to the token expiration time.
 
 #### Sharing an OAuth 2.0 access token
 
-To enable other Postman users to view and use an OAuth 2.0 access token, do the following:
-
-1. Select **Share access token**.
-1. Select **Sync Token**.
+To enable other Postman users to view and use an OAuth 2.0 access token, select **Share access token**.
 
 <img alt="Share an OAuth 2.0 access token" src="https://assets.postman.com/postman-docs/v10/authorization-oauth2-share-v10.jpg" width="500px"/>
 
