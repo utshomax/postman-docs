@@ -3,14 +3,14 @@ title: "Building your first flow"
 updated: 2022-11-17
 ---
 
-This page walks you through your first flow, calling the Pokémon API and printing out the list to the console. The Pokémon API returns over 1,000 results, and this flow will print two hundred at a time to the console.
+This page walks you through your first flow, calling the Pokémon API and printing out the list to the console. The Pokémon API returns over 1,000 results, but this flow will print two hundred at a time to the console until it reaches the end of the list.
 
 ## Contents
 
 <!-- vale Postman.Spelling = NO -->
 
-* [Creating your API request](#creating-your-api-request)
-* [Making your first send request](#making-your-first-send-request)
+* [Creating a request and a collection](#creating-a-request-and-a-collection)
+* [Making your first send request in Postman Flows](#making-your-first-send-request-in-postman-flows)
 * [Logging the output to the console](#logging-the-output-to-the-console)
 * [Checking for the next page of results](#checking-for-the-next-page-of-results)
 * [Using an If block to branch based on has_next being null](#using-an-if-block-to-branch-based-on-has_next-being-null)
@@ -19,38 +19,50 @@ This page walks you through your first flow, calling the Pokémon API and printi
 
 <!-- vale Postman.Spelling = YES -->
 
-## Creating your API request
+## Creating a request and a collection
 
-This flow requires a single GET call.
+Begin by creating a new collection and adding a GET request. The flow you create later will use this collection.
 
-1. Create a new collection and add a request.
-1. Run the request once with the URL `https://pokeapi.co/api/v2/pokemon?limit=200`.
-1. Save the request as an example so that Postman Flows can automatically detect the structure for easier access later.
+1. In your workspace, select **New** &gt; **Collection**. Name the collection **Pokemon API**.
+1. Add a request to your **Pokemon API** collection with this request URL: `https://pokeapi.co/api/v2/pokemon?limit=200`.
+1. Select **Send**, then select **Save Response** &gt; **Save as example**. In the request you created, replace the URL `https://pokeapi.co/api/v2/pokemon?limit=200` with this variable: `{{URL}}`.
 
-![Building your request](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-api-request.gif)
+    > Saving the response as an example enables Postman Flows to automatically detect the structure for easier access later.
 
-## Making your first send request
+1. Select **Save**.
 
-1. Connect the **Start** block to the **Send Request** block.
-1. Select the request you created earlier.
-1. Add a **String** block to connect to the URL variable.
+## Making your first send request in Postman Flows
 
-![Making your first send request](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-send-request.gif)
+1. Select **New** &gt; **Flows**. A **Start** block appears automatically.
+1. Right-click in the **New Flow** canvas to open a list of blocks and select **Send Request**.
+
+    > You can type the block's name in the **Search** field to find it faster.
+
+1. Connect the **Start** block to the **Send Request** block.<!-- TODO: add graphic -->
+1. In the **Send Request** block, select **Add request** and select **Pokemon API**. Then select the GET request you created earlier.
+1. Create a **String** block below the **Start** block and enter this URL: `https://pokeapi.co/api/v2/pokemon?limit=200`
+1. Connect the **String** block to the port next to `{{URL}}` on the **Send Request** block.
 
 ## Logging the output to the console
 
-1. Create a **Select** block.
-    > Because you saved an example earlier, the structure of the returned data auto-populates in the block.
-1. Select `/body/results`.
-1. View the results in the **Log** block.
+1. Create a **Select** block to the right of the **Send Request** block.
 
-![Log results to console](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-log-to-console.gif)
+    > Because you saved an example earlier, the structure of the returned data auto-populates in the block.
+
+1. Connect the **Select** block to the port next to **Success** on the **Send Request** block.
+1. Select the **Select** block and select `/body/results`.
+1. Create a **Log** block and connect it to the **Select** block, then select **Run**.
+1. Select **Console** to view the results.
 
 ## Checking for the next page of results
 
-1. Create another **Select** block and enter `/body/next` to get the link to the next set of 200 results.
-1. Create an **Evaluate** block.
-1. Assign it to the variable `has_next` to see if it exists. If it's null that means this was the last set.
+1. Create another **Select** block and connect it to **Success** port on the **Send Request** block.<!-- TODO: add graphic -->
+1. In the **Select** block you just created, enter `/body/next` to get the link to the next set of 200 results.
+1. Create an **Evaluate** block to the right of the `/body/next` **Select** block and connect it to right port on the **Select** block.<!-- TODO: add graphic -->
+1. In the **Evaluate** block, select the field below **Variables** and enter `has_next`. This assigns the **Evalaute** block to the variable `has_next`.<!-- TODO: add graphic -->
+1. At the top of the **Evaluate** block, enter `has_next != null`.
+
+    > If `has_next` is null, then the flow has reached the last set of 200 results.
 
 <!-- vale Postman.Spelling = NO -->
 
@@ -60,8 +72,13 @@ This flow requires a single GET call.
 
 In this example, the **Evaluate** block outputs `true` if `has_next` isn't null, or `false` if `has_next` is null.
 
-1. Create an **If** block. The **Evaluate** block sends either `true` or `false`, which determines which branch the **If** block uses.
-1. Connect the **Select** block to the **If** block. The **Select** block sends the URL of the next set of Pokémon, used in the next step.
+1. Create an **If** block and connect its **True/False** port to the **Evaluate** block's **Out** port.<!-- TODO: add graphic -->
+
+    > The **Evaluate** block sends either `true` or `false`, which determines which branch the **If** block uses.
+
+1. Connect the `body/next` **Select** block's right port to the  **If** block's **Data** port.<!-- TODO: add graphic -->
+
+    > The **Select** block sends the URL of the next set of Pokémon, used in the next step.
 
 ![**If** block](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-if-block.gif)
 
@@ -71,8 +88,8 @@ In this example, `has_next` isn't null, so another set of Pokémon is available.
 
 <!-- vale Postman.Spelling = YES -->
 
-1. Connect the **If** block's TRUE output to the **Send Request** block's URL port. This passes the new `URL` variable to the **Send Request** block.
-1. Connect the **If** block's FALSE output to the **Send Request** block's Send port. This triggers the send event port of the block so it runs again.
+1. Connect the **If** block's TRUE port to the **Send Request** block's URL port. This passes the new `URL` variable to the **Send Request** block.
+1. Also connect the **If** block's TRUE port to the **Send Request** block's Send port. This triggers the send event port of the block so it runs again.
 
 ![Calling the **Send Request** block again](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-next-url.gif)
 
