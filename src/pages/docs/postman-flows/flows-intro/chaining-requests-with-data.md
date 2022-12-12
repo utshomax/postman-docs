@@ -6,7 +6,7 @@ warning: false
 
 A common Postman Flows use case is to take data from one response, and pipe that to another request. Consider an example of creating a post then using the ID of that post in the next request to update it.
 
-> Check out the example flow: [Pass data from requests](https://www.postman.com/postman/workspace/example-flows/flow/62fdd3360a222e16840ce44b)
+> Check out the example flow [Pass data from requests](https://www.postman.com/postman/workspace/example-flows/flow/62fdd3360a222e16840ce44b).
 
 1. **Add two Send Request blocks**
 
