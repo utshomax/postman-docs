@@ -29,9 +29,9 @@ contextual_links:
     url: "/docs/api-governance/api-definition/openapi2/"
 ---
 
-Postman recommends that you follow API Governance and API Security rules when you create your API definition. A rule violation doesn't mean that your API definition is broken. Instead, it indicates that there are potential security risks that your API might be vulnerable to, or potential design issues that might impact its usability. Postman highlights these rule violations and helps you understand their implications and possible ways to fix them. Postman supports API Governance and API Security rules for API definitions in [OpenAPI 3.0](/docs/api-governance/api-definition/openapi3/) and [OpenAPI 2.0](/docs/api-governance/api-definition/openapi2/) format.
+Following Postman API Governance and API Security rules when you create an API definition helps you create consistent and secure APIs. When your API definition violates one of these rules, it doesn't mean that the definition is broken. Instead, it indicates that there are potential security risks that your API might be vulnerable to, or potential design issues that might impact its usability. Postman highlights these rule violations and helps you understand their implications and possible ways to fix them. Postman supports API governance and API security rules for API definitions in [OpenAPI 3.0](/docs/api-governance/api-definition/openapi3/) and [OpenAPI 2.0](/docs/api-governance/api-definition/openapi2/) format.
 
-> **Rule customization**. [Enterprise teams](https://www.postman.com/pricing/) can also customize the rules that Postman applies to API definitions. For more information, see [Configuring API Governance rules](/docs/api-governance/configurable-rules/configuring-api-governance-rules/) and [Configuring API Security rules](/docs/api-governance/configurable-rules/configuring-api-security-rules/).
+> **Rule customization**. [Enterprise teams](https://www.postman.com/pricing/) can also customize the rules that Postman applies to API definitions. For more information, see [Configuring API governance rules](/docs/api-governance/configurable-rules/configuring-api-governance-rules/) and [Configuring API security rules](/docs/api-governance/configurable-rules/configuring-api-security-rules/).
 
 <img alt="OpenAPI 3.0 rule violations" src="https://assets.postman.com/postman-docs/v10/api-definition-rule-violations-openapi3-v10.1.jpg" />
 
@@ -56,7 +56,7 @@ To learn more about how rule violations can help you create consistent and secur
 
 > [This feature is available on Postman Enterprise plans.](https://www.postman.com/pricing)
 
-You can configure your CI/CD pipelines to enforce the [API Governance](/docs/api-governance/configurable-rules/configuring-api-governance-rules/) and [API Security](/docs/api-governance/configurable-rules/configuring-api-security-rules/) rules configured for your team with the help of [Postman CLI](/docs/postman-cli/postman-cli-overview/).
+You can configure your CI/CD pipelines to enforce the [API Governance](/docs/api-governance/configurable-rules/configuring-api-governance-rules/) and [API Security](/docs/api-governance/configurable-rules/configuring-api-security-rules/) rules configured for your team with the help of the [Postman CLI](/docs/postman-cli/postman-cli-overview/).
 
 On the Postman CLI configuration page, select **Run Governance and Security rules**. This will generate the Postman CLI configuration. You can use this in your CI/CD configuration to enforce your API Governance and API Security rules each time the CI/CD pipeline runs.
 

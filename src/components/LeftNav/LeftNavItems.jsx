@@ -915,7 +915,7 @@ export const leftNavItems = [
         url: '/docs/administration/team-settings/',
       },
       {
-        name: 'Utilizing audit logs',
+        name: 'Using audit logs',
         url: '/docs/administration/audit-logs/',
       },
       {
@@ -1203,16 +1203,16 @@ export const leftNavItems = [
             url: '/docs/integrations/available-integrations/pagerduty/',
           },
           {
+            name: 'Slack',
+            url: '/docs/integrations/available-integrations/slack/',
+          },
+          {
             name: 'Splunk',
             url: '/docs/integrations/available-integrations/splunk/',
           },
           {
             name: 'Splunk On-Call',
             url: '/docs/integrations/available-integrations/splunk-on-call/',
-          },
-          {
-            name: 'Slack',
-            url: '/docs/integrations/available-integrations/slack/',
           },
           {
             name: 'Statuspage',
