@@ -126,7 +126,7 @@ If your GitHub integration has issues or your data isn't pushed to GitHub, make 
 
 * You added the GitHub integration in the same workspace as the content you want to push to the GitHub repository.
 * You selected the correct GitHub integration in Postman. For example, if you use [GitHub Enterprise Server on a custom domain](#backing-up-collections-to-github-enterprise-server), make sure you selected the **Backup a collection (custom domain)** integration.
-* You initialized your GitHub repository with a `README.md` file. When creating a new repository, you can select the **Add a README file** check box.
+* You initialized your GitHub repository with a `README.md` file. When creating a new repository, you can select the **Add a README file** checkbox.
 * You selected the correct permissions when creating your GitHub [personal access token](#generating-a-github-personal-access-token):
 
     * **Classic token** - Make sure to select the `repo` and `user` scopes.

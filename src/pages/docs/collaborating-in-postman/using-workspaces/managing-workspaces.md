@@ -128,7 +128,7 @@ Your ability to share workspaces with teammates depends on your [workspace role]
 
 Individual team members and groups you invite will be notified of your request to collaborate.
 
-External users who aren't on your Postman team will receive an invitation to join immediately if you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). On Free, Basic, and Professional plans, users with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin.
+External users who aren't on your Postman team will receive an invitation to join immediately if you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). On Free, Basic, and Professional plans, team members with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin.
 
 You can also invite collaborators by selecting <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> **Copy Invite Link** and sharing the link with them outside of Postman. When individuals select the link, Postman will prompt them to sign in or sign up. If you're a Team Admin or a Developer inviting another Developer on a Free, Basic, or Professional plan, they'll be automatically added to your team. If you aren't a Team Admin or a Developer as described, your request to add external users to your Postman team will be shared with your Team Admins for approval.
 
@@ -138,7 +138,7 @@ You can also invite collaborators by selecting <img alt="Link icon" src="https:/
 
 > Private workspaces are only available to [Professional and Enterprise](https://www.postman.com/pricing/) teams.
 
-Team members can [request access to a private workspace](#accessing-private-workspaces) if another team member with access provides them with a link to it. All Workspace Admins will be notified of requests for access by the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> and by email. Select **Respond to Request** to review requests for access.
+Team members can [request access to a private workspace](#accessing-private-workspaces) if another user with access provides them with a link to it. All Workspace Admins will be notified of requests for access by the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> and by email. Select **Respond to Request** to review requests for access.
 
 <img alt="Respond to request for access to private workspace" src="https://assets.postman.com/postman-docs/workspace-admin-respond-rfa-private-workspace-v9.16.jpg" width="400px"/>
 
@@ -224,6 +224,6 @@ Deleting a workspace removes the workspace and all data in it from Postman. Use 
 
 ## Next steps
 
-Now that you understand the fundamentals of managing and using workspaces, you might want to track activities in a workspace:
+After learning about the fundamentals of managing and using workspaces, you can learn about tracking activities in a workspace:
 
-* To learn about the workspace changelog and how to use it to track recent activity, visit [Viewing workspace activity](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/).
+* [Viewing workspace activity](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/)

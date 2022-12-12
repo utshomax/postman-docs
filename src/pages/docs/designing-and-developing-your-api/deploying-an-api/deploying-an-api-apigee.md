@@ -36,7 +36,7 @@ To create a custom role, do the following:
 1. Log on to the [Google Cloud Platform console](https://console.cloud.google.com/home/dashboard) and go to your project settings.
 1. Select **Roles** in the left navigation pane, and then select **+ Create Role**.
 1. Enter the required details for the role, and then select **+ Add permissions**.
-1. Select the check box next to the following permission properties (enter a property name to locate it in the list):
+1. Select the checkbox next to the following permission properties (enter a property name to locate it in the list):
 
     * `apigee.deployments.list`
     * `apigee.environments.list`
