@@ -221,7 +221,7 @@ You can [assign](/docs/monitoring-your-api/faqs-monitors/#who-can-edit-my-monito
 * **Editor** - Can view monitor metadata, metrics, jobs, and runs. Can run, update, delete, pause, and resume the monitor.
 * **Viewer** - Can view monitor metadata, metrics, jobs, and runs.
 
-Monitor server | Super Admin | Admin | Editor | Viewer |
+Monitors | Super Admin | Admin | Editor | Viewer |
 --- | --- | --- | --- | --- |
 View monitor | &#x2714; | &#x2714; | &#x2714; | &#x2714;
 View monitor metadata, results, activity, and summary metrics | &#x2714; | &#x2714; | &#x2714; | &#x2714;
