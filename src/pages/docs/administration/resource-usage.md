@@ -31,21 +31,21 @@ Refer to the following sections to understand what happens when your resource us
 
 ## Mock usage
 
-Your Postman plan gives you a limited number of requests that can be sent to your [Postman mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) each month. Requests to all of your mock servers count toward this same limit. After the limit is reached, you will get a `Usage limit reached` error in the response pane when sending a request to one of your mock servers.
+Your Postman plan gives you a limited number of requests that can be sent to your [Postman mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) each month. Requests to all of your mock servers count toward this same limit. After the limit is reached, you will get a `Usage limit reached` error message when sending a request to one of your mock servers.
 
-SCREENSHOT
+![Mock server usage error](https://assets.postman.com/postman-docs/v10/usage-error-mocks-v10.jpg)
 
-If you want to make more requests to your mock server before your monthly limit resets, you can upgrade your plan or [purchase an add-on](/docs/administration/billing/#purchasing-add-ons).
+If you want to make more requests to your mock server before your monthly limit resets, you can [purchase an add-on](/docs/administration/billing/#purchasing-add-ons) or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
 
 ## Monitoring usage
 
 Your Postman plan gives you a limited number of requests that can be run by your [Postman Monitors](/docs/monitoring-your-api/setting-up-monitor/) each month. Requests run by your [scheduled collection runs](/docs/running-collections/scheduling-collection-runs/) count toward this same limit. After the limit is reached, you will get a notification by email and in the Postman app letting you know that you've reached the usage limit for monitors.
 
-SCREENSHOT
+<img alt="Monitors usage error" src="https://assets.postman.com/postman-docs/v10/usage-error-monitors-v10.jpg" width="361px"/>
 
-Once you've reached your usage limit, your monitors and scheduled collection runs will no longer run on their configured schedules and can't be run manually. If you want to resume running your monitors and scheduled collection runs before your monthly limit resets, you can upgrade your plan or [purchase an add-on](/docs/administration/billing/#purchasing-add-ons).
+Once you've reached your usage limit, your monitors and scheduled collection runs will no longer run on their configured schedules and can't be run manually. If you want to resume running your monitors and scheduled collection runs before your monthly limit resets, you can [purchase an add-on](/docs/administration/billing/#purchasing-add-ons) or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
 
-> For more information about viewing your monitor usage, go to [Managing monitor usage](/docs/monitoring-your-api/monitor-usage/).
+> Learn more about [viewing and managing your monitor usage](/docs/monitoring-your-api/monitor-usage/).
 
 ## Custom domains
 
@@ -59,10 +59,10 @@ Once you've reached your usage limit, your monitors and scheduled collection run
 
 ## Cloud agent usage
 
-After the limit is reached, you will get an error in the response pane when sending a request:
+The [Postman Cloud Agent](/docs/getting-started/installation-and-updates/#selecting-the-agent-for-requests) enables you to send requests from the Postman web app without encountering Cross Object Resource Sharing (CORS) limitations. Your Postman plan gives you a limited number of requests that can be sent using the Cloud Agent each month. After the limit is reached, you will get a `Cloud Agent Error` message when sending a request from the Postman web app using the Cloud Agent.
 
-Could not send request
+![Cloud Agent usage error](https://assets.postman.com/postman-docs/v10/usage-error-agent-v10.jpg)
 
-Cloud Agent Error: You've reached the monthly usage limit of Cloud Agent calls. Select a different agent.
+If you want to continue sending requests from the Postman web app before your monthly limit resets, switch to the Postman Desktop Agent. In the error message, select **Use Postman's Desktop Agent**. If you haven't already installed the Desktop Agent, you'll be prompted to download it.
 
-To fix, switch to the Browser Agent or Desktop Agent. Link to new Agents page when it's live.
+> Learn more about [installing and using the Postman Desktop Agent](/docs/getting-started/installation-and-updates/#installing-the-postman-desktop-agent).
