@@ -115,7 +115,7 @@ For full details about the Postman team roles that you can assign as a Team Admi
 
 > **[Partners are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-You can manage external partners similarly to internal team users. To learn more, see [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
+You can manage external partners similarly to internal team members. To learn more, see [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
 
 ## Managing your team’s Postman plan
 
