@@ -85,7 +85,7 @@ You can review invite requests team members have submitted in your [team dashboa
 
 ### Removing team members
 
-To remove a user from your team, go to your [team dashboard](https://go.postman.co/settings/team/members). Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the user's name.
+To remove a member from your team, go to your [team dashboard](https://go.postman.co/settings/team/members). Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the team member's name.
 
 ![Removing a team member](https://assets.postman.com/postman-docs/v10/remove-team-member-v10.jpg)
 
