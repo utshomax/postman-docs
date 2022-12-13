@@ -51,7 +51,7 @@ For help with any account or billing issues, go to Postman's [Support Center](ht
 
     * [Purchasing add-ons](#purchasing-add-ons)
 
-    * [Utilizing Auto-Flex](#utilizing-auto-flex)
+    * [Using Auto-Flex](#using-auto-flex)
 
         * [Billing for Auto-Flex](#billing-for-auto-flex)
 
@@ -129,7 +129,7 @@ To use direct debit as your payment method, do the following:
     > This process will verify your bank account immediately. If you want to use a manual verification process instead, see [Verifying your bank account manually](#verifying-your-bank-account-manually).
 
 1. To accept the Terms and Privacy Policy,  select **Agree**. You can select **Learn more** to view the whole policy.
-1. Stripe, the payment service Postman uses, will open a new window where you can log into your bank account. Select **Continue**.
+1. Stripe, the payment service Postman uses, will open a new window where you can log in to your bank account. Select **Continue**.
 1. Select the account you want to use, then select **Link account**. After Stripe verifies the account, select **Done**. Stripe will return you to the Postman billing dashboard.
 1. Select **Add account**.
 
@@ -181,7 +181,7 @@ Add or update your company name, billing email, address, and your VAT ID if appl
 
 ### Failed payments
 
-If you have a payment method on file, Postman will automatically attempt three times to charge it. If this is unsuccessful, [Billing team members](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) receive an email notification. Use the link in the email to access and pay for your [invoice](#using-the-pay-now-option).
+If you have a payment method on file, Postman will automatically attempt three times to charge it. If this is unsuccessful, team members with the [Billing team role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) receive an email notification. Use the link in the email to access and pay for your [invoice](#using-the-pay-now-option).
 
 If payment is unsuccessful, Postman offers a grace period of 21 days to avoid service disruption. For invoice-based teams, this means 21 days following the due date listed on the invoice.
 
@@ -225,7 +225,7 @@ You can purchase more blocks of monitoring requests, mock server calls, and cust
 
 Update the number of monitoring blocks, mock server blocks, and custom domains you would like to have included in your team plan, then select **Next** to confirm your changes.
 
-### Utilizing Auto-Flex
+### Using Auto-Flex
 
 [Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. With Auto-Flex enabled, your team can [invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) users without having to pay in advance for more seats, then opt to retain or remove them before being [billed](#billing-for-auto-flex).
 
@@ -247,7 +247,7 @@ Before your Auto-Flex billing cycle renews, all Billing and Admin team members r
 
 You can use this reminder to make any necessary changes to your team before the end of your current Auto-Flex cycle, when you will be billed for any newly added users.
 
-> If you have already been billed for the users you added and retained in an earlier Auto-Flex cycle, you can't remove those slots until your plan renews.
+> If you have already been billed for the users you added and retained in an earlier Auto-Flex cycle, you can't remove those seats until your plan renews.
 
 You won't be billed if the number of users has remained unchanged during your Auto-Flex cycle, or if you remove any additional users prior to Auto-Flex billing.
 
@@ -256,7 +256,7 @@ You won't be billed if the number of users has remained unchanged during your Au
 In your [billing dashboard](http://go.postman.co/billing), you can view:
 
 * Your current number of additional team members
-* How much you will be billed at the end of your cycle (unless you add or remove team members in the interim)
+* How much you will be billed at the end of your cycle (unless you add or remove users in the interim)
 * Additional information about your Auto-Flex and regular billing cycles
 
 <img alt="Billing overview with auto flex" src="https://assets.postman.com/postman-docs/auto-flex-dash-9.14.jpg" />
@@ -271,7 +271,7 @@ If you have canceled your Postman plan and want to reverse this action, select *
 
 ## Next steps
 
-Now that you know how to navigate the billing dashboard, you might also want to learn more about the Billing role and managing your team.
+After learning how to navigate the billing dashboard, you can learn more about the Billing role and managing your team.
 
 * To learn more about the Billing team role, visit [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
 * For information on team management, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).

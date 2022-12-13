@@ -12,7 +12,7 @@ contextual_links:
 
 > **[GitHub Actions self-hosted runners are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-[GitHub Actions](https://docs.github.com/en/actions) is a continuous integration (CI) and continuous delivery (CD) service that's integrated with GitHub. Software development teams can use GitHub Actions to automatically build, test, and deploy code in GitHub.
+[GitHub Actions](https://docs.github.com/en/actions) is a continuous integration and continuous delivery (CI/CD) service that's integrated with GitHub. Software development teams can use GitHub Actions to automatically build, test, and deploy code in GitHub.
 
 To set up a GitHub Actions integration for your API, first create a pipeline in GitHub and then configure your API in Postman. After you set up the integration, you can view the status of builds from within Postman.
 
@@ -57,7 +57,7 @@ To view build jobs, open an API and select **Test and Automation**. The most rec
 Select **View All Builds** to view the full list of build jobs. From here you can take the following actions:
 
 * Use the dropdown lists to filter jobs by branch or build status.
-* To view a build in GitHub, select the build name.
+* To open a build in GitHub, select the build name.
 * To get the latest build status information, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
@@ -75,7 +75,7 @@ To view details for collections that were run as part of a build, first [configu
 
 ## Viewing API Governance and API Security rule violations
 
-Using the Postman CLI, you can enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) using the [`api lint` command](/docs/postman-cli/postman-cli-options/#governance-and-security) ([Enterprise teams only](https://www.postman.com/pricing/)).
+Using the Postman CLI, you can enforce [Postman API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) using the [`api lint` command](/docs/postman-cli/postman-cli-options/#governance-and-security) ([Enterprise teams only](https://www.postman.com/pricing/)).
 
 To view the results of API Governance and API Security checks that ran as part of the build, first [configure the Postman CLI for GitHub Actions](#configuring-the-postman-cli-for-github-actions) and then start a new build on GitHub. After the build is complete, use the arrows to expand a build and expand an API definition to view any rule violations.
 
@@ -83,7 +83,7 @@ To view the results of API Governance and API Security checks that ran as part o
 
 ## Configuring the Postman CLI for GitHub Actions
 
-With the help of the Postman CLI and the Postman API, you can run API tests created in Postman as part of your GitHub pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to a YAML file in the `.github/workflows` directory in your GitHub repository.
+With the help of the Postman CLI and the Postman API, you can run Postman collections with your API tests as part of your GitHub pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to a YAML file in the `.github/workflows` directory in your GitHub repository.
 
 Each time the pipeline runs, the Postman CLI runs the collections that contain your tests. You can view the results of your tests in Postman. You an also enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) ([Enterprise teams only](https://www.postman.com/pricing/)).
 

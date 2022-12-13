@@ -72,6 +72,8 @@ To configure a Microsoft Teams integration, you will need to first create a Micr
 
 1. Select **Add Integration** to access your monitors in the **Configured Integrations** view. You can also select the **Advanced Options** link to indicate if you want notifications on completion of all monitor runs, or if you want notifications for three monitor run failures and then the first successful monitor run.
 
+    > **You can view your configured integrations on the [Browse Integrations](https://go.postman.co/integrations/browse) page.** You can also view integrations that have been configured for a monitor by opening the monitor and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Learn more about [viewing or editing integrations](/docs/integrations/intro-integrations/#viewing-or-editing-integrations).
+
     [![ms_teams monRun](https://assets.postman.com/postman-docs/msteams-monitor-results-add-q.jpg)](https://assets.postman.com/postman-docs/msteams-monitor-results-add-q.jpg)
 
 ## Messages in Microsoft Teams

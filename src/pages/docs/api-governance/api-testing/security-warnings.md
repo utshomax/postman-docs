@@ -247,6 +247,6 @@ The `X-Frame-Options` header is set to `Allow`. This means all websites can load
 
 Issue description | Possible fix
 --- | ---
-The `X-Content-Type-Options` header isn’t configured correctly. This means an attacker could upload a HTML file disguised as a different file type that the web server accepts (for example, a JPEG or a .ZIP file). The browser renders the uploaded file as an HTML file, then the attacker can execute an XSS attack. | To turn off MIME sniffing in Internet Explorer and Chrome, use the `X-Content-Type-Options: nosniff` HTTP header. This requires the browser to use the MIME type sent by the server. Since the browser will no longer analyze the file, the website owner must make sure that they’re sending the appropriate MIME information.
+The `X-Content-Type-Options` header isn’t configured correctly. This means an attacker could upload a HTML file disguised as a different file type that the web server accepts (for example, a JPEG or a zip file). The browser renders the uploaded file as an HTML file, then the attacker can execute an XSS attack. | To turn off MIME sniffing in Internet Explorer and Chrome, use the `X-Content-Type-Options: nosniff` HTTP header. This requires the browser to use the MIME type sent by the server. Since the browser will no longer analyze the file, the website owner must make sure that they’re sending the appropriate MIME information.
 
 <!-- vale Postman.Weasel = YES -->

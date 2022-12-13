@@ -74,7 +74,7 @@ Keep the following tips in mind when using the `postman.setNextRequest()` functi
 
 ### setNextRequest() only works when you run an entire collection
 
-The `postman.setNextRequest()` function has no effect when you run a request using **Send** and is only used when you run a collection using the Collection Runner, Postman CLI, or Newman.
+The `postman.setNextRequest()` function has no effect when you run a request using **Send** and is only used when you run a collection using the Collection Runner, the Postman CLI, or Newman.
 
 ### Use setNextRequest() in pre-request or test scripts
 
@@ -103,6 +103,6 @@ Learn more about [running collections or folders](/docs/running-collections/intr
 
 ## Next steps
 
-Now that you know how to build request workflows, you might also be interested in writing scripts:
+After learning about how to build request workflows, you can write some scripts.
 
 * To learn more about writing pre-request and test scripts, visit [Scripting in Postman](/docs/writing-scripts/intro-to-scripts/).
