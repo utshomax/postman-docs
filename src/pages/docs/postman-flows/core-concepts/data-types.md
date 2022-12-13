@@ -9,7 +9,7 @@ Postman Flows is a dataflow language, which means it understands all kinds of va
 <!-- vale Postman.Weasel = YES -->
 <!-- vale Postman.Spelling = YES -->
 
-Because most Flow programmers have a JavaScript or TypeScript background, or are programming in an API-First language for the first time, the vocabulary of the types resembles JavaScript and TypeScript.
+Because most flow programmers have a JavaScript or TypeScript background, or are programming in an API-First language for the first time, the vocabulary of the types resembles JavaScript and TypeScript.
 
 ## Contents
 
@@ -46,7 +46,7 @@ The _boolean_ value gets automatically converted to a _number_ or a _string_ if 
 
 <!-- vale Postman.Spelling = NO -->
 
-The string type is used to represent textual data. It's a UTF-8 encoded list of characters. Like JavaScript, strings in Flows are also immutable. For example, once a string is created, it can't be modified. But you can create new strings out of existing strings using operators like _concat_ or _substring_.
+The string type is used to represent textual data. It's a UTF-8 encoded list of characters. Like JavaScript, strings in flows are also immutable. For example, once a string is created, it can't be modified. But you can create new strings out of existing strings using operators like _concat_ or _substring_.
 
 <!-- vale Postman.Spelling = YES -->
 
@@ -67,7 +67,7 @@ A _number_ value gets automatically converted to a _string_ or _boolean_ if requ
 
 ### Timestamp
 
-Unlike JavaScript, Flows views dates as a first-class type and provides a data type for storing dates. Dates are stored in accordance with [RFC 3339](https://datatracker.ietf.org/doc/html/rfc3339).
+Unlike JavaScript, Postman Flows views dates as a first-class type and provides a data type for storing dates. Dates are stored in accordance with [RFC 3339](https://datatracker.ietf.org/doc/html/rfc3339).
 
 A _timestamp_ value is automatically converted to a _string_ or _number_ if required.
 
@@ -87,7 +87,7 @@ A _regex_ value is automatically converted to a _string_ if required.
 
 ## Abstract types
 
-> All complex and abstract data types in Flows are built on the concept of streams internally.
+> All complex and abstract data types in flows are built on the concept of streams internally.
 
 ### List
 
@@ -103,7 +103,7 @@ const list: number[] = [1, 2, 3, 4, 5]
 
 The tuple data type represent an ordered sequence of finite elements. The values for each element of the tuple can be of different types. Unlike Lists, tuples can't be an infinite stream. Tuples have a fixed size and their size must be known beforehand.
 
-This is a typescript equivalent of a tuple.
+This is a TypeScript equivalent of a tuple.
 
 ```ts
 const list: [string, number, boolean] = ["flows", 20, true]

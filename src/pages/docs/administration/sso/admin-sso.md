@@ -95,14 +95,14 @@ The user will be automatically associated to the team with a **developer** role 
 
 If a Postman user logs in to Postman through a team's IdP, the user will be automatically added to the team if **one of the following** is true:
 
-* The team has available slots and the [**Automatically add new users**](#automatically-adding-new-users) checkbox in your configuration is enabled.
+* The team has available seats and the [**Automatically add new users**](#automatically-adding-new-users) checkbox in your configuration is enabled.
 * An admin has invited the user to join the team.
 
 ### Automatically adding new users
 
 The **Automatically add new users** checkbox in your SSO configuration determines whether users with accounts in your SSO system will be allowed to join your team automatically by signing in to Postman with SSO. If this is enabled, users with or without existing Postman accounts can join your team by heading to the [Enterprise sign in page](https://identity.getpostman.com/enterprise/login) and logging in with SSO.
 
-> **Automatically add new users** will only work if your team has user slots available. Your team size won't be automatically increased if more users sign in with SSO.
+> **Automatically add new users** will only work if your team has user seats available. Your team size won't be automatically increased if more users sign in with SSO.
 
 ### Managing team logins
 

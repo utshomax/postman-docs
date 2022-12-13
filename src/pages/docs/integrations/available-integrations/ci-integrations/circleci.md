@@ -31,7 +31,7 @@ To set up CircleCI integration for your API, first create an API token in Circle
 1. Sign in to [CircleCI](https://app.circleci.com/settings/user/tokens) and go to **User Settings > Personal API Tokens**.
 1. Select **Create New Token**.
 1. Enter a **Token Name** and select **Add API Token**.
-1. Select **Copy** to copy the new token. (You might want to save the token somewhere safe.)
+1. Select **Copy** to copy the new token. (Save the token somewhere safe.)
 
 ## Configuring a CircleCI integration
 

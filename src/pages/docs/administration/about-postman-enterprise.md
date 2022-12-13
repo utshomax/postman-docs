@@ -10,7 +10,7 @@ The Postman Enterprise plan is for organizations that need advanced identity man
 * [Enterprise features](#enterprise-features)
     * [Reports](#reports)
     * [Advanced identity management](#advanced-identity-management)
-    * [API Governance and API Security features](#apigovernance-and-api-security-features)
+    * [API Governance and API Security features](#api-governance-and-api-security-features)
     * [Collaboration](#collaboration)
     * [Administration](#administration)
 * [Purchasing a Postman Enterprise plan](#purchasing-a-postman-enterprise-plan)
@@ -27,9 +27,9 @@ Postman Enterprise enables you to access reports that give you insights into the
 
 Postman Enterprise gives you access to advanced identity management features, including:
 
-* **Role-based access control (RBAC)** - Postman Enterprise RBAC enables you to give the right members of your team access to the right tools and data. To learn more about the team-level roles available to Enterprise teams, including Super Admin, Community Manager, and API Network Manager, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
-* **User groups** - An Enterprise plan enables you to organize members of your team into groups, then assign roles and permissions according to each group's function. To learn more about user groups, see [Managing user groups](/docs/administration/managing-your-team/user-groups/).
-* **Single sign-on (SSO)** - You can enable your team members to sign in to Postman Enterprise using your organization's [identity provider](/docs/administration/sso/intro-sso/#identity-providers-supported). To learn more about setting up SSO for your team, see [Intro to SSO](/docs/administration/sso/intro-sso/).
+* **Role-based access control (RBAC)** - Postman Enterprise RBAC enables you to give the right team members access to the right tools and data. To learn more about the team-level roles available to Enterprise teams, including Super Admin, Community Manager, and API Network Manager, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
+* **User groups** - An Enterprise plan enables you to organize team members into groups, then assign roles and permissions according to each group's function. To learn more about user groups, see [Managing user groups](/docs/administration/managing-your-team/user-groups/).
+* **Single sign-on (SSO)** - You can enable team members to sign in to Postman Enterprise using your organization's [identity provider](/docs/administration/sso/intro-sso/#identity-providers-supported). To learn more about setting up SSO for your team, see [Intro to SSO](/docs/administration/sso/intro-sso/).
 * **System for cross-domain identity management (SCIM)** - Setting up SCIM enables you to automatically provision and de-provision team members and organize them into [user groups](/docs/administration/managing-your-team/user-groups/). To learn more about enabling SCIM for your team, see [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/).
 * **Domain capture** - Domain capture enables you to consolidate all your organization's users into a single Postman team and ensure that any new users who sign up for Postman with your domain are automatically added. To learn more about setting up domain capture, see [Configuring domain capture](/docs/administration/managing-your-team/configuring-domain-capture/).
 
@@ -47,7 +47,7 @@ Postman Enterprise provides you with advanced API governance and API security fe
 
 Postman Enterprise enables your organization to collaborate internally and with partners:
 
-* **Private API Network** - Users with the Enterprise-only API Network Manager role can approve which APIs to add to your Private API Network. For more information, see [Using the approval process workflow](/docs/collaborating-in-postman/adding-private-network/#using-the-approval-process-workflow).
+* **The Private API Network** - Team members with the Enterprise-only API Network Manager role can approve which APIs to add to your Private API Network. For more information, see [Using the approval process workflow](/docs/collaborating-in-postman/adding-private-network/#using-the-approval-process-workflow).
 * **Partner workspaces** - Your organization can invite partners to a shared workspace to collaborate and build products and services with your APIs. To learn more about partner workspaces, see [Partner workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
 * **Advanced version control** - Manage permissions for reviewers and assign merge checks for forks on Postman elements. For more details, see [Pull request settings](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/#pull-request-settings).
 
@@ -61,4 +61,4 @@ After you purchase a Postman Enterprise plan, you can customize it to meet your 
 
 ## Purchasing a Postman Enterprise plan
 
-To purchase a Postman Enterprise plan, contact the [Postman sales team](https://www.postman.com/company/contact-sales/). To learn more, see [Purchasing Postman](/docs/administration/buying/). Afterward you purchase your plan, a member of the Postman team will help set up Postman Enterprise for your organization.
+To purchase a Postman Enterprise plan, contact the [Postman sales team](https://www.postman.com/company/contact-sales/). To learn more, see [Purchasing Postman](/docs/administration/buying/). After you purchase your plan, the Postman team will help set up Postman Enterprise for your organization.

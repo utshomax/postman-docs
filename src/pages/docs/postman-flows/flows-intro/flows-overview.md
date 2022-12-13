@@ -9,9 +9,9 @@ contextual_links:
     url: "https://www.postman.com/downloads/"
 ---
 
-_Postman Flows_ is a visual tool for creating API workflows. You can use Flows to chain requests, handle data, and create real-world workflows in your Postman workspace.
+_Postman Flows_ is a visual tool for creating API workflows. You can use flows to chain requests, handle data, and create real-world workflows in your Postman workspace.
 
-The following topics will help you get started or learn about core concepts of Flows.
+The following topics will help you get started or learn about core concepts of Postman Flows.
 
 ## Contents
 
@@ -21,7 +21,7 @@ The following topics will help you get started or learn about core concepts of F
 
 ## Quick start
 
-* [Step-by-step guide to building your first Flow](/docs/postman-flows/flows-intro/building-your-first-flow/)
+* [Step-by-step guide to building your first flow](/docs/postman-flows/flows-intro/building-your-first-flow/)
 * [Running requests in sequence](/docs/postman-flows/flows-intro/running-requests-in-sequence/)
 * [Chaining requests with data](/docs/postman-flows/flows-intro/chaining-requests-with-data/)
 

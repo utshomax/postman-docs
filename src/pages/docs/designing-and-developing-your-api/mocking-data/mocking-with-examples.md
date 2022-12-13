@@ -98,7 +98,7 @@ For **Mock server name**, enter `M1`. You can also specify other details for you
 
 * **Collection** is already set to `C1`, as you chose to mock this collection.
 * If your saved example uses [environment variables](/docs/sending-requests/managing-environments/) (like `{{base_url}}/my/path`), you must select the corresponding **Environment** or the mock server won't work. In this case, the example doesn't use any variables, so you can select **No Environment**.
-* By default, mock servers are publicly accessible. If you select the **Make mock server private** check box, the mock server will no longer be public. You can share it with team members and [provide permission](/docs/collaborating-in-postman/roles-and-permissions/) to edit or view. For now, do not select this check box.
+* By default, mock servers are publicly accessible. If you select the **Make mock server private** checkbox, the mock server will no longer be public. You can share it with team members and [provide permission](/docs/collaborating-in-postman/roles-and-permissions/) to edit or view. For now, do not select this checkbox.
 
 When you're done configuring the mock server, select **Create Mock Server**. You can access the mock server at any time by selecting **Mock Servers** in the sidebar.
 
