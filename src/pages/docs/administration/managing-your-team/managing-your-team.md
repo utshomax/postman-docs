@@ -47,8 +47,8 @@ Postman provides a variety of options to customize your team's experience, from 
 
 Once you've created your Postman team, you can take the following steps to enable an efficient onboarding process for end users:
 
-* Use the [Onboarding checklist](/docs/administration/onboarding-checklist/) to ensure that Postman is accessible on employee devices and functions as expected.
-* [Enable team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/) to allow fellow Postman users from your organization to request to join your team.
+* Use the [Onboarding checklist](/docs/administration/onboarding-checklist/) to ensure that Postman is available on employee devices and that it functions as expected.
+* [Enable team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/) to let other Postman users from your organization request to join your team.
 * [Configure SSO](/docs/administration/sso/admin-sso/) ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
 * [Configure SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) ([Enterprise plans only](https://www.postman.com/pricing)).
 
@@ -76,7 +76,7 @@ Team [Admins and Super Admins](/docs/collaborating-in-postman/roles-and-permissi
 
 If the team member sending the invitation isn't a Developer inviting another Developer on a Free, Basic, or Professional plan or a Team Admin on any plan, their request to add external users to your Postman team will be shared with you for approval. You can review these requests in your [team dashboard](https://go.postman.co/settings/team/members) and choose to approve or dismiss them. If you approve the request, Postman sends an invitation to the individual.
 
-You can also allow Postman users from your company to request to join your team by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#enabling-team-discovery).
+You can also let Postman users from your company request to join your team by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#enabling-team-discovery).
 
 > [Postman Enterprise](https://www.postman.com/pricing) teams can enable [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/), which enables you to create, update, and deactivate user accounts at scale through your identity provider.
 
@@ -145,10 +145,10 @@ Team members with the Billing role can upgrade your team plan in the [billing da
 
 ## Updating your team’s Postman version
 
-If your team isn't on the latest version of the desktop app, you can update your team to ensure everyone has access to the complete API development experience that Postman has to offer. To do so, see [Updating your team to the current version of Postman](/docs/administration/updating/).
+If your team isn't on the latest version of the desktop app, you can update your team to ensure everyone has access to the complete Postman API development experience. To do so, see [Updating your team to the current version of Postman](/docs/administration/updating/).
 
 ## Next steps
 
-Now that you have set up your Postman team, you can use reports to get insights into your team's API development, including tests, documentation, and monitoring coverage.
+After you set up your Postman team, you can use reports to get insights into your team's API development, including tests, documentation, and monitoring coverage.
 
 * To learn more about Postman's reporting feature, visit [Using reports](/docs/reports/reports-overview/). (_[Enterprise teams](https://www.postman.com/pricing/) only._)
