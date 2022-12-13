@@ -23,10 +23,10 @@ h2, h3, h4 {
   scroll-margin-top: 2em;
 }
 
-.doc-page {
-  a {
+.doc-page > a {
     ${BaseLinkStyles.componentStyle.rules}
   }
+.doc-page {
   padding-left: 40px !important;
   padding-top: 40px;
   padding-bottom: 40px;

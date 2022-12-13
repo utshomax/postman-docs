@@ -106,7 +106,7 @@ You can use custom alerts to scan your team's proprietary tokens and any third-p
 
 > **[Custom alerts are available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
 
-Your team can add a total of five alerts. You must be a **Community Manager** or member with both **Developer** and **Admin** roles to add custom alerts.
+Your team can add a total of five alerts. You must be a **Community Manager** or team member with both **Developer** and **Admin** roles to add custom alerts.
 
 To add custom alerts, do the following:
 

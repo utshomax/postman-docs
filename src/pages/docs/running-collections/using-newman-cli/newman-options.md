@@ -101,7 +101,7 @@ $ newman run -h
 
 Newman, by default, exits with a status code of 0 if everything runs well, such as without any exceptions.
 
-Continuous integration tools respond to these exit codes and correspondingly pass or fail a build.
+Continuous integration (CI) tools respond to these exit codes and correspondingly pass or fail a build.
 
 You can use `-x` or `--suppress-exit-code` to override the default exit code for the current run.
 

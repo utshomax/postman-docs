@@ -49,7 +49,7 @@ Postman will switch to your new workspace when you create it. You can move betwe
 
 ## Next steps
 
-Now that you have learned how to create a workspace, you can use them to collaborate with your team.
+After learning how to create a workspace, you can use them to collaborate with your team.
 
 * To learn how to invite other users to join your new workspace, visit [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 * To learn more about using workspaces for your team and projects, visit [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
