@@ -125,7 +125,7 @@ The experience for captured users depends on their prior team status:
     * Postman support will contact your Team Admins to discuss how to approach this prior to verifying the domain you've added to your team.
     * All existing user sessions are revoked.
     * The next time the user logs in, they will be prompted to leave their existing team.
-    * They will need to contact [Postman support](https://www.postman.com/support/) to assign the Admin role to another user and remove them from the team. The data that solely belongs to them and hasn't been shared will be moved with them.
+    * They will need to contact [Postman support](https://www.postman.com/support/) to assign the Admin role to another team member and remove them from the team. The data that solely belongs to them and hasn't been shared will be moved with them.
     * Users can authenticate into your organization's team using SSO.
     * They will lose access to all data from their previous teams, including personal workspaces. No data will be transferred from their previous teams to their new team.
 

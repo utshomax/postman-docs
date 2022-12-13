@@ -85,7 +85,7 @@ You can review invite requests team members have submitted in your [team dashboa
 
 ### Removing team members
 
-To remove a user from your team, go to your [team dashboard](https://go.postman.co/settings/team/members). Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the user's name.
+To remove a member from your team, go to your [team dashboard](https://go.postman.co/settings/team/members). Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the team member's name.
 
 ![Removing a team member](https://assets.postman.com/postman-docs/v10/remove-team-member-v10.jpg)
 
@@ -115,7 +115,7 @@ For full details about the Postman team roles that you can assign as a Team Admi
 
 > **[Partners are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-You can manage external partners similarly to internal team users. To learn more, see [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
+You can manage external partners similarly to internal team members. To learn more, see [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
 
 ## Managing your team’s Postman plan
 
