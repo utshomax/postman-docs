@@ -3,7 +3,7 @@ title: "Using Spectral in Postman"
 updated: 2022-09-15
 ---
 
-Spectral is a linting engine that helps you define custom rules and enforce them on JSON and YAML files. Postman supports Spectral v6 rules for the configured [API Governance](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules) and [API Security](/docs/api-governance/configurable-rules/configuring-api-security-rules/#adding-custom-rules) rules for your team.
+Spectral is a linting engine that helps you define custom rules and enforce them on JSON and YAML files. Postman supports Spectral v6 rules for the configurable [API governance](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules) and [API security](/docs/api-governance/configurable-rules/configuring-api-security-rules/#adding-custom-rules) rules for your team.
 
 ## Contents
 
@@ -84,7 +84,7 @@ rules:
 
 To be valid in Postman, your Spectral document can't contain any properties beyond those listed here. For the full list of rules and their descriptions, see [Spectral rule properties](#spectral-rule-properties).
 
-You will find each rule defined in `rules` in the **Custom Rules** section in the configurable [API Governance](/docs/api-governance/configurable-rules/configuring-api-governance-rules/) or [API Security](/docs/api-governance/configurable-rules/configuring-api-security-rules/) pages.
+You will find each rule defined in `rules` in the **Custom Rules** section in the configurable [API governance](/docs/api-governance/configurable-rules/configuring-api-governance-rules/) or [API security](/docs/api-governance/configurable-rules/configuring-api-security-rules/) pages.
 
 > Remember to turn on your custom rules after you create or import them.
 

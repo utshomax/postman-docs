@@ -28,7 +28,7 @@ contextual_links:
 
 Datadog is a monitoring service for cloud-scale applications. It combines data from servers, databases, tools, and services to present a unified view of an entire stack. This integration allows you to configure your Postman Monitors to send metrics to Datadog where you can visualize and compare them with other metrics.
 
-Setting up a Datadog integration requires you to get an API key from Datadog and configure your Postman Monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
+Setting up a Datadog integration requires you to get an API key from Datadog and configure your Postman monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
 
 > **You can also view Datadog application performance management (APM) metrics in the Postman API Builder.** Viewing APM metrics is a separate integration from sending monitor results to Datadog. Learn more about [viewing Datadog APM metrics](/docs/designing-and-developing-your-api/observing-an-api/datadog-apm/).
 
@@ -61,6 +61,8 @@ Setting up a Datadog integration requires you to get an API key from Datadog and
    * Optionally indicate if you want to send events for completed runs or send metrics for each run.
 
 1. Select **Add Integration**.
+
+> **You can view your configured integrations on the [Browse Integrations](https://go.postman.co/integrations/browse) page.** You can also view integrations that have been configured for a monitor by opening the monitor and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Learn more about [viewing or editing integrations](/docs/integrations/intro-integrations/#viewing-or-editing-integrations).
 
 ## Viewing data in Datadog
 

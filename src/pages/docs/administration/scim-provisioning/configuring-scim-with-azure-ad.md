@@ -44,7 +44,7 @@ To set up provisioning with Azure AD, do the following:
 1. Select **+ Create your own application**.
 1. Enter a name, then select **Integrate any other application you don't find in the gallery**.
 1. Select **Add** to create an app object. This adds the new Postman app to the list of enterprise applications and opens to the app management screen.
-1. In the app management screen, select **Provisioning** in the left panel.
+1. In the app management screen, select **Provisioning** in the left pane.
 1. In the **Provisioning Mode** menu, select **Automatic**.
 1. In the **Tenant URL** field, enter the Postman SCIM endpoint: `https://api.getpostman.com/scim/v2/`
 1. In the **Secret Token** field, enter your [SCIM API key](/docs/administration/scim-provisioning/scim-provisioning-overview/#generating-scim-api-key).
@@ -67,11 +67,16 @@ To map Postman user attributes to Azure AD user attributes, do the following:
 1. Under **Target Object Actions**, select **Create**, **Update**, and **Delete**.
 1. Under **Attribute Mappings**, select **Add New Mapping** to map the following attributes:
 
-    Azure AD attribute | SCIM attribute | Postman attribute
-    --- | --- | ---
-    `userPrincipalName` | `userName` | `email`
-    `{givenName, surname}` | `{givenName, familyName}` | `name`
-    `Switch([IsSoftDeleted], , "False", "True", "True", "False")` | `active` | `active`
+    Azure AD attribute | Target attribute | Postman attribute | Mapping type | Match objects using this attribute | Apply this mapping
+    --- | --- | --- | --- | --- | ---
+    `userPrincipalName` &#x2a; | `userName` | `email` | Direct | Yes | Always
+    `surname` | `name.familyName` | `name`  | Direct| No | Always
+    `givenName` | `name.givenName` | `name` | Direct | No | Always
+    `Switch([IsSoftDeleted], , "False", "True", "True", "False")` | `active` | `active` | Expression | No | Always
+
+    &#x2a; For `userPrincipalName`, set the value for **Matching precedence** to `1`.
+
+    > You must remove any existing attribute mappings that are not on this list to avoid any conflicts or mismatches. Select **Delete** next to any mappings that are not on this list to remove them.
 
 1. Select **Save** to commit any changes.
 
@@ -83,11 +88,14 @@ To map Postman group attributes to Azure AD group attributes, do the following:
 1. Under **Target Object Actions**, enable **Create**, **Update**, and **Delete**.
 1. Under **Attribute Mappings**, select **Add New Mapping** to map the following attributes:
 
-    Azure AD attribute | SCIM attribute | Postman attribute
-    --- | --- | ---
-    `displayName` |	`displayName` | `Group name`
-    `members` | `members` |	`Group members`
-    `objectId` | `externalId` |	`externalId`
+    Azure AD attribute | Target attribute | Postman attribute | Mapping type | Match objects using this attribute | Apply this mapping
+    --- | --- | --- | --- | --- | ---
+    `displayName` &#x2a; |	`displayName` | `Group name` | Direct | Yes | Always
+    `members` | `members` |	`Group members` | Direct | No | Always
+
+    &#x2a; For `displayName`, set the value for **Matching precedence** to `1`.
+
+    > You must remove any existing attribute mappings that are not on this list to avoid any conflicts or mismatches. Select **Delete** next to any mappings that are not on this list to remove them.
 
 1. Select **Save** to commit any changes.
 
@@ -97,4 +105,4 @@ To map Postman group attributes to Azure AD group attributes, do the following:
 1. Once your configuration is complete, set the **Provisioning Status** to **On**.
 1. Select **Save**.
 
-Once the first cycle has started, you can select **Provisioning logs** in the Azure AD left panel to monitor the actions done in Postman by the provisioning service.
+Once the first cycle has started, you can select **Provisioning logs** in the Azure AD left pane to monitor the actions done in Postman by the provisioning service.

@@ -123,7 +123,7 @@ After you approve the pull request, its status in the list of pull requests is `
 
 ## Pulling updates during a pull request
 
-You can keep your forked collections and environments up to date with any changes to the parent element, for example if another team member has merged changes into the parent element.
+You can keep your forked collections and environments up to date with any changes to the parent element, for example if another user has merged changes into the parent element.
 
 1. [Create the pull request.](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/#creating-pull-requests) Postman will warn you that the parent element has changed since you last updated it.
 1. Select **Pull Changes** to update your fork with the changes to the parent element.
