@@ -153,7 +153,7 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 
 * **What happens to the previous team once everyone leaves?**
 
-    If it's a free team, the team is deleted after the last user leaves the team. Previous users of the deleted team will no longer have access to the team's workspaces, including personal workspaces, or any elements in them. Users can [export their Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) prior to leaving the team to ensure it stays with them.
+    If it's a free team, the team is deleted after the last team member leaves the team. Previous users of the deleted team will no longer have access to the team's workspaces, including personal workspaces, or any elements in them. Users can [export their Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) prior to leaving the team to ensure it stays with them.
 
     If it's a paid team, you must contact [Postman support](https://www.postman.com/support/) to cancel the plan subscription before you can leave the team.
 
