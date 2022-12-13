@@ -63,7 +63,7 @@ You can invite users to your Postman team by navigating to [Manage Team](https:/
 
 Or, you can invite a user to join your team with a link. To do so, select **Get Link**.
 
-Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can send invitations for any role type. On Free, Basic, and Professional plans, users with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin.
+Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can send invitations for any role type. On Free, Basic, and Professional plans, team members with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin.
 
 If users aren't a Team Admin or a Developer inviting another Developer on a Free, Basic, or Professional plan, their request to add external users to your Postman team will be shared with you for approval. You can review these requests in your [team dashboard](https://go.postman.co/settings/team/members) and choose to approve or dismiss them. If you approve the request, Postman will send an invitation to the individual.
 
@@ -89,7 +89,7 @@ To remove a member from your team, go to your [team dashboard](https://go.postma
 
 ![Removing a team member](https://assets.postman.com/postman-docs/v10/remove-team-member-v10.jpg)
 
-When you remove a user from your team, you will still retain access to any data they have shared with the team. Reassign their personal workspaces to another team member to ensure the team continues to have access to any unshared work done by the user being removed. Then to confirm, select **Remove Member**.
+When you remove a user from your team, you will still retain access to any data they have shared with the team. Reassign their personal workspaces to another user to ensure the team continues to have access to any unshared work done by the user being removed. Then to confirm, select **Remove Member**.
 
 <img alt="Confirmation for removing a team member" src="https://assets.postman.com/postman-docs/remove-user-from-team-v9.2.jpg" width="400px"/>
 
@@ -97,7 +97,7 @@ When you remove a user from your team, you will still retain access to any data 
 
 ### Managing team roles
 
-Each team member must have one or more team roles, which will allow them to perform various actions within your team. Roles can be granted to users individually, or to members of a [group](/docs/administration/managing-your-team/user-groups/).
+Each team member must have one or more team roles, which will allow them to perform various actions within your team. Roles can be granted to team members individually, or to team members who are part of a [group](/docs/administration/managing-your-team/user-groups/).
 
 You can change the roles of team members by selecting **Team** in the upper right > [**Manage Team**](https://go.postman.co/settings/team/members).
 
@@ -107,7 +107,7 @@ Search for a specific user by typing their name or email in the search field. Yo
 
 > Each team member must have at least one team role assigned to them.
 
-Teams can have two support accounts at no extra cost. Support accounts are members with only Admin or Billing roles. Members with a Super Admin or Developer role will consume a paid slot on your team.
+Teams can have two support accounts at no extra cost. Support accounts are team members with only Admin or Billing roles. Team members with a Super Admin or Developer role will consume a paid seat on your team.
 
 For full details about the Postman team roles that you can assign as a Team Admin, see [Team roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). Some roles are only available for teams with [Postman Professional or Enterprise](https://www.postman.com/pricing) plans.
 

@@ -181,7 +181,7 @@ Add or update your company name, billing email, address, and your VAT ID if appl
 
 ### Failed payments
 
-If you have a payment method on file, Postman will automatically attempt three times to charge it. If this is unsuccessful, [Billing team members](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) receive an email notification. Use the link in the email to access and pay for your [invoice](#using-the-pay-now-option).
+If you have a payment method on file, Postman will automatically attempt three times to charge it. If this is unsuccessful, team members with the [Billing team role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) receive an email notification. Use the link in the email to access and pay for your [invoice](#using-the-pay-now-option).
 
 If payment is unsuccessful, Postman offers a grace period of 21 days to avoid service disruption. For invoice-based teams, this means 21 days following the due date listed on the invoice.
 
@@ -247,7 +247,7 @@ Before your Auto-Flex billing cycle renews, all Billing and Admin team members r
 
 You can use this reminder to make any necessary changes to your team before the end of your current Auto-Flex cycle, when you will be billed for any newly added users.
 
-> If you have already been billed for the users you added and retained in an earlier Auto-Flex cycle, you can't remove those slots until your plan renews.
+> If you have already been billed for the users you added and retained in an earlier Auto-Flex cycle, you can't remove those seats until your plan renews.
 
 You won't be billed if the number of users has remained unchanged during your Auto-Flex cycle, or if you remove any additional users prior to Auto-Flex billing.
 
@@ -256,7 +256,7 @@ You won't be billed if the number of users has remained unchanged during your Au
 In your [billing dashboard](http://go.postman.co/billing), you can view:
 
 * Your current number of additional team members
-* How much you will be billed at the end of your cycle (unless you add or remove team members in the interim)
+* How much you will be billed at the end of your cycle (unless you add or remove users in the interim)
 * Additional information about your Auto-Flex and regular billing cycles
 
 <img alt="Billing overview with auto flex" src="https://assets.postman.com/postman-docs/auto-flex-dash-9.14.jpg" />
@@ -271,7 +271,7 @@ If you have canceled your Postman plan and want to reverse this action, select *
 
 ## Next steps
 
-Now that you know how to navigate the billing dashboard, you might also want to learn more about the Billing role and managing your team.
+After learning how to navigate the billing dashboard, you can learn more about the Billing role and managing your team.
 
 * To learn more about the Billing team role, visit [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
 * For information on team management, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).
