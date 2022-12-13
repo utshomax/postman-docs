@@ -59,7 +59,7 @@ You can invite collaborators, remove existing team members, and update user perm
 ### Inviting users
 
 1. From your [team dashboard](https://go.postman.co/settings/team/members), select **Invite People**.
-1. Enter the email addresses of the individuals you want to invite.
+1. Enter the email addresses of the people you want to invite.
 
     > You can also upload a .txt or .csv file with the email addresses of the people you want to invite. To do so, select **Add from file**.
 
@@ -90,7 +90,7 @@ To copy an active invite URL, hover over a row and select the copy icon <img alt
 
 To revoke an active invitation, hover over the invitation and select the delete icon <img alt="Delete link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px" />.
 
-You can review also pending invite requests that team members have submitted in your [team dashboard](https://go.postman.co/settings/team/members) under **Invites sent**. To resend an invite, hover over the individual's name and select **Resend Invite**. To copy the invite link, select the copy invite link icon <img alt="Copy invite link icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px">. To delete the invite, select the revoke invite icon <img alt="Revoke invite icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px">.
+You can also review pending invite requests that team members have submitted in your [team dashboard](https://go.postman.co/settings/team/members) under **Invites sent**. To resend an invite, hover over the individual's name and select **Resend Invite**. To copy the invite link, select the copy invite link icon <img alt="Copy invite link icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px">. To delete the invite, select the revoke invite icon <img alt="Revoke invite icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px">.
 
 <img alt="Review invites sent" src="https://assets.postman.com/postman-docs/v10/team-manage-invite-requests-v10.jpg"/>
 
@@ -104,7 +104,7 @@ When you remove a user from your team, you will still retain access to any data 
 
 <img alt="Confirmation for removing a team member" src="https://assets.postman.com/postman-docs/remove-user-from-team-v9.2.jpg" width="400px"/>
 
-> Note that when you remove a member from your team, this doesn't automatically reduce the number of paid seats for your team unless the member was added by [Auto-Flex](/docs/administration/billing/#utilizing-auto-flex) during the current Auto-Flex cycle. If you want to reduce the number of paid seats on your team, a member of your team with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [edit your plan](/docs/administration/billing/#changing-your-plan).
+> Note that when you remove a member from your team, this doesn't automatically reduce the number of paid seats for your team unless the member was added by [Auto-Flex](/docs/administration/billing/#using-auto-flex) during the current Auto-Flex cycle. If you want to reduce the number of paid seats on your team, a member of your team with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [edit your plan](/docs/administration/billing/#changing-your-plan).
 
 ### Managing team roles
 
@@ -135,7 +135,7 @@ You can manage your team size or upgrade your plan at any time during your team'
 If you want to change your team's size, you have two different options:
 
 * **Change the number of paid seats** - Team members with the Billing role can change your team's number of paid seats in the [billing dashboard](https://go.postman.co/billing/overview).
-* **Turn on Auto-Flex** - Your team can invite more users without having to pay in advance for more seats with [Auto-Flex](/docs/administration/billing/#utilizing-auto-flex).
+* **Turn on Auto-Flex** - Your team can invite more users without having to pay in advance for more seats with [Auto-Flex](/docs/administration/billing/#using-auto-flex).
 
 For more information, see [Team and plan changes](/docs/administration/billing/#team-and-plan-changes).
 
