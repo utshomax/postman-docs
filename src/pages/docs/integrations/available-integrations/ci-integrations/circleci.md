@@ -31,7 +31,7 @@ To set up CircleCI integration for your API, first create an API token in Circle
 1. Sign in to [CircleCI](https://app.circleci.com/settings/user/tokens) and go to **User Settings > Personal API Tokens**.
 1. Select **Create New Token**.
 1. Enter a **Token Name** and select **Add API Token**.
-1. Select **Copy** to copy the new token. (You might want to save the token somewhere safe.)
+1. Select **Copy** to copy the new token. (Save the token somewhere safe.)
 
 ## Configuring a CircleCI integration
 
@@ -63,7 +63,7 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 
 ## Viewing API Governance and API Security rule violations
 
-Using the Postman CLI, you can enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) using the [`api lint` command](/docs/postman-cli/postman-cli-options/#governance-and-security) ([Enterprise teams only](https://www.postman.com/pricing/)).
+Using the Postman CLI, you can enforce [Postman API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) using the [`api lint` command](/docs/postman-cli/postman-cli-options/#governance-and-security) ([Enterprise teams only](https://www.postman.com/pricing/)).
 
 To view the results of API Governance and API Security checks that ran as part of the build, first [configure the Postman CLI for CircleCI](#configuring-the-postman-cli-for-circleci) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand an API definition to view any rule violations.
 

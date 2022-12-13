@@ -33,7 +33,7 @@ To set up a Jenkins integration for your API, first create an API token in Jenki
 1. Select your user name at the upper right, and then select **Configure**.
 1. Select **Add new Token**.
 1. Enter a name for the token and select **Generate**.
-1. Copy the new token. (You might want to save the token somewhere safe.)
+1. Copy the new token. (Save the token somewhere safe.)
 
 ## Configuring a Jenkins integration
 
@@ -80,7 +80,7 @@ To view details for collections that were run as part of a build, first [configu
 
 ## Viewing API Governance and API Security rule violations
 
-Using the Postman CLI, you can enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) using the [`api lint` command](/docs/postman-cli/postman-cli-options/#governance-and-security) ([Enterprise teams only](https://www.postman.com/pricing/)).
+Using the Postman CLI, you can enforce [Postman API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) using the [`api lint` command](/docs/postman-cli/postman-cli-options/#governance-and-security) ([Enterprise teams only](https://www.postman.com/pricing/)).
 
 To view the results of API Governance and API Security checks that ran as part of the build, first [configure the Postman CLI for Jenkins](#configuring-the-postman-cli-for-jenkins) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand an API definition to view any rule violations.
 

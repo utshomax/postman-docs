@@ -105,7 +105,7 @@ Exporting an OpenAPI definition makes it available in the connected Azure API Ma
 1. Select the service you want to export to, and then select **Export API**.
 1. Select the source of the definition you want to export. You can select the current definition or any [published version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/) of the definition.
 1. Enter a brief description for the export.
-1. (Optional) If you want to export the definition to an existing revision, select the check box. Select the **Revision ID** of the revision you want to update.
+1. (Optional) If you want to export the definition to an existing revision, select the checkbox. Select the **Revision ID** of the revision you want to update.
 
     > If you don't select the checkbox, Postman exports the API to a new revision.
 

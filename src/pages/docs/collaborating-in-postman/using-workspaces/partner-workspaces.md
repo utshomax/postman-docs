@@ -58,7 +58,7 @@ To convert an existing workspace to a Partner Workspace, do the following:
 
 Anyone with permissions to change workspace visibility can request to convert a workspace into a Partner Workspace, but it must be approved by a [Partner Manager](#managing-users-and-roles). If you're not a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or Partner Manager, Postman will mention this and you can add an optional note to your request. Postman will notify you when a Partner Manager reviews your request and approves or denies it.
 
-> When a workspace is converted to a Partner Workspace, Postman sends in-app and email notifications to all workspace members.
+> When a workspace is converted to a Partner Workspace, Postman sends in-app and email notifications to all workspace users.
 
 ## Setting up a Partner Workspace
 
@@ -123,7 +123,7 @@ Partner Workspaces are only visible to invited team members, similar to [private
 
 Within a Partner Workspace, team members can have different workspace roles: Admin, Editor, and Viewer. To learn more, see [Workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
 
-Team members can also be assigned the team-level Partner Manager role. Partner Managers can view all Partner Workspaces within an organization, and can control their settings, visibility, and partner invites. To learn more, see [Managing users and roles](#managing-users-and-roles).
+Users can also be assigned the team-level Partner Manager role. Partner Managers can view all Partner Workspaces within an organization, and can control their settings, visibility, and partner invites. To learn more, see [Managing users and roles](#managing-users-and-roles).
 
 ### Collaborating as a partner
 
@@ -137,11 +137,11 @@ At the team level, all external partners are automatically assigned the Partner 
 
 ## Managing a Partner Workspace
 
-Workspace Admins and Partner Managers manage workspace settings, members, and roles within a Partner Workspace. Partner Leads also manage members and roles of partners in Partner Workspaces.
+Workspace Admins and Partner Managers manage workspace settings, users, and roles within a Partner Workspace. Partner Leads also manage users and roles of partners in Partner Workspaces.
 
 ### Managing users and roles
 
-You can assign partner roles based on the functions team members and partners require. You can [assign](/docs/administration/managing-your-team/managing-your-team/) partner roles at the team level:
+You can assign partner roles based on the functions users and partners require. You can [assign](/docs/administration/managing-your-team/managing-your-team/) partner roles at the team level:
 
 * **Partner Manager** (Internal) - Manages all Partner Workspaces within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners.
 * **Partner** (External) - All partners are automatically granted the Partner role at the team level. Partners can only access the Partner Workspaces they've been invited to.
@@ -191,4 +191,4 @@ Workspace Admins and Partner Managers can delete Partner Workspaces.
 1. Select **Remove all partners**, then select **Update**.
 1. Select **Delete Workspace**.
 
-> Postman notifies all workspace members in-app and by email when you delete a Partner Workspace.
+> Postman notifies all workspace users in-app and by email when you delete a Partner Workspace.

@@ -51,7 +51,7 @@ Select **View changes** under an item to view the collection diff. If a diff is 
 
 ## Viewing workspace activity
 
-You can [access the activity feed in Postman](#accessing-the-activity-feed-from-postman). The activity feed will show information on who added or removed collections, environments, or elements from the workspace as well as members joining and leaving the workspace. You can [filter this information](#filtering-the-activity-feed) directly within the activity feed.
+You can [access the activity feed in Postman](#accessing-the-activity-feed-from-postman). The activity feed will show information on who added or removed collections, environments, or elements from the workspace as well as users joining and leaving the workspace. You can [filter this information](#filtering-the-activity-feed) directly within the activity feed.
 
 You can also [view who's active in your workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#seeing-who-is-in-your-workspace).
 
