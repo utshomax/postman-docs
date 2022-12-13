@@ -33,7 +33,7 @@ Postman provides a variety of options to customize your team's experience, from 
 * [Managing team members](#managing-team-members)
     * [Inviting users](#inviting-users)
         * [Understanding invite permissions](#understanding-invite-permissions)
-        * [Managing invitations](#managing-invitations)
+    * [Managing invites](#managing-invites)
     * [Removing team members](#removing-team-members)
     * [Managing team roles](#managing-team-roles)
     * [Managing partners](#managing-partners)
@@ -72,27 +72,41 @@ You can also invite a user to join your team with a link. To do so, select **Cop
 
 #### Understanding invite permissions
 
-Team [Admins and Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can send invitations for any role type. On [Free, Basic, and Professional plans](https://www.postman.com/pricing/), users with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin.
+As a Team [Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can directly send invites for any role type. On [Free, Basic, and Professional plans](https://www.postman.com/pricing/), team members with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin. You can review pending invites on your [team dashboard](https://go.postman.co/settings/team/members) under **Invites sent**. For more details, see [Managing invites](#managing-invites).
 
-If the team member sending the invitation isn't a Developer inviting another Developer on a Free, Basic, or Professional plan or a Team Admin on any plan, their request to add external users to your Postman team will be shared with you for approval. You can review these requests in your [team dashboard](https://go.postman.co/settings/team/members) and choose to approve or dismiss them. If you approve the request, Postman sends an invitation to the individual.
+If the team member sending the invite isn't a Developer inviting another Developer on a Free, Basic, or Professional plan or a Team Admin on any plan, their suggestion to add external users to your Postman team will be shared with you for approval. You can review these invite suggestions in your [team dashboard](https://go.postman.co/settings/team/members) under **Suggestions**. For more details, see [Managing invites](#managing-invites).
 
 You can also let Postman users from your company request to join your team by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#enabling-team-discovery).
 
 > [Postman Enterprise](https://www.postman.com/pricing) teams can enable [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/), which enables you to create, update, and deactivate user accounts at scale through your identity provider.
 
-#### Managing invitations
+### Managing invites
 
-You can review the invitations your team has sent by opening your [team dashboard](https://go.postman.co/settings/team/members) and selecting [**Invite links**](https://go.postman.co/settings/team/manage-invite-links) from the left menu. The list provides information about which users generated links, when they were generated, when they expire, and their URL.
+As a Team Admin, you can manage [pending invites](#invites-sent), review [suggestions](#suggestions) from team members without permission to send invites directly, and review [invite links](#invite-links).
+
+#### Invites sent
+
+You can also review pending invites that team members have submitted in your [team dashboard](https://go.postman.co/settings/team/members) under **Invites sent**. To resend an invite, hover over the person's name and select **Resend Invite**. To copy the invite link, select the copy invite link icon <img alt="Copy invite link icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px">. To delete the invite, select the revoke invite icon <img alt="Revoke invite icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px">.
+
+<img alt="Review invites sent" src="https://assets.postman.com/postman-docs/v10/team-manage-invite-requests-v10.jpg"/>
+
+#### Suggestions
+
+If a team member who isn't a Developer inviting another Developer on a Free, Basic, or Professional plan or a Team Admin on any plan, you or another team member with the Admin or Super Admin role must review the invite suggestion. You can review these invite suggestions in your [team dashboard](https://go.postman.co/settings/team/members) under **Suggestions**.
+
+To approve the suggestion and invite the user to your team, select **Invite**. To delete the invite, select the revoke invite icon <img alt="Revoke invite icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px">.
+
+<img alt="Review invite suggestions" src="https://assets.postman.com/postman-docs/v10/team-manage-invite-suggestions-v10.jpg"/>
+
+#### Invite links
+
+You can review the invites your team has sent by opening your [team dashboard](https://go.postman.co/settings/team/members) and selecting [**Invite links**](https://go.postman.co/settings/team/manage-invite-links) from the left menu. The list provides information about which users generated links, when they were generated, when they expire, and their URL.
 
 <img alt="Invite links dashboard" src="https://assets.postman.com/postman-docs/team-manage-invite-links-v9.2.jpg"/>
 
-To copy an active invite URL, hover over a row and select the copy icon <img alt="Copy link icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px">.
+To copy an active invite URL, hover over its row and select the copy icon <img alt="Copy link icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px">.
 
-To revoke an active invitation, hover over the invitation and select the delete icon <img alt="Delete link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px" />.
-
-You can also review pending invite requests that team members have submitted in your [team dashboard](https://go.postman.co/settings/team/members) under **Invites sent**. To resend an invite, hover over the individual's name and select **Resend Invite**. To copy the invite link, select the copy invite link icon <img alt="Copy invite link icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px">. To delete the invite, select the revoke invite icon <img alt="Revoke invite icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px">.
-
-<img alt="Review invites sent" src="https://assets.postman.com/postman-docs/v10/team-manage-invite-requests-v10.jpg"/>
+To revoke an active invite, hover over its row and select the delete icon <img alt="Delete link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px" />.
 
 ### Removing team members
 
