@@ -61,7 +61,7 @@ You can invite collaborators, remove existing team members, and update user perm
 1. From your [team dashboard](https://go.postman.co/settings/team/members), select **Invite People**.
 1. Enter the email addresses of the people you want to invite.
 
-    > You can also upload a .txt or .csv file with the email addresses of the people you want to invite. To do so, select **Add from file**.
+    > You can also upload a text or CSV file with the email addresses of the people you want to invite. To do so, select **Add from file**.
 
 1. Use **Roles** to assign these users one or more [team roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
 1. Select **Send Invite**.
