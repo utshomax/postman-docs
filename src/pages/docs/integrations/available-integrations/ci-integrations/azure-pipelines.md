@@ -40,11 +40,11 @@ If you haven't already, create a pipeline in the [Azure Repos Git repository](ht
     > **Make sure to enable third-party application access for your organization.** In Azure DevOps, go to your [organization settings](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops), select **Policies**, and turn on the toggle next to **Third-party application access via OAuth**.
 
 1. Enter a **Nickname** to help you recognize the integration later. Postman pre-fills a nickname in the format `Azure Pipelines-{API_NAME}`, and you can edit it if you want.
-1. Select the Azure **DevOps organization** with your API repository.
-1. Select the Azure **DevOps repository** used for your API.
+1. Select the Azure DevOps **Organization** with your API repository.
+1. Select the Azure **Repository** used for your API.
 1. Select **Connect**.
 
-<img alt="Connect to Azure Pipelines" src="https://assets.postman.com/postman-docs/v10/azure-pipelines-connect-repository-v10.jpg" width="518px">
+<img alt="Connect to Azure Pipelines" src="https://assets.postman.com/postman-docs/v10/azure-pipelines-connect-repository-2-v10.jpg" width="518px">
 
 ## Viewing build status
 
