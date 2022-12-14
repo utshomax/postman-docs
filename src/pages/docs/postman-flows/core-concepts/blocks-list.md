@@ -18,7 +18,7 @@ The [blocks](../blocks/) available in Postman Flows are described below.
 
 <img alt="Template block" src="https://assets.postman.com/postman-labs-docs/all-blocks/template-block.png" width="245px"/>
 
-Enables the free-hand structuring of data, such as the pasting of JSON data. Also supports [FQL](../../flows-query-language/introduction-to-fql/).
+Enables the free-hand structuring of data, such as the pasting of JSON data. Also supports [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/).
 
 **Variables**: Named data or assigned values that can be accessed using FQL.
 
@@ -112,7 +112,7 @@ Emits the string that you enter.
 
 <img alt="Start block" src="https://assets.postman.com/postman-labs-docs/all-blocks/combined-start-block.png" width="110px"/>
 
-Used as the entry point for [running flows on the cloud](../../running-flows-on-the-cloud/webhooks/). Can be configured to hold test data for testing locally by selecting the gear icon and will act as a webhook endpoint that accepts data when running on the cloud.
+Used as the entry point for [running flows on the cloud](/docs/postman-flows/running-flows-on-the-cloud/webhooks/). Can be configured to hold test data for testing locally by selecting the gear icon and will act as a webhook endpoint that accepts data when running on the cloud.
 
 ## Logic blocks
 
