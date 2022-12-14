@@ -49,6 +49,12 @@ Once you've reached your usage limit, your monitors and scheduled collection run
 
 ## Custom domains
 
+Postman Basic, Professional, and Enterprise plans give you a limited number of [custom domains](/docs/publishing-your-api/custom-doc-domains/) you can use when publishing API documentation. After the limit is reached, you won't be able to add a new custom domain.
+
+![Custom domains limit reached](https://assets.postman.com/postman-docs/v10/usage-error-custom-domains-v10.jpg)
+
+To add a new custom domain, delete one of your existing custom domains or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+
 ## Storage usage
 
 ## Postman API usage
@@ -61,8 +67,8 @@ Once you've reached your usage limit, your monitors and scheduled collection run
 
 The [Postman Cloud Agent](/docs/getting-started/installation-and-updates/#selecting-the-agent-for-requests) enables you to send requests from the Postman web app without encountering Cross Object Resource Sharing (CORS) limitations. Your Postman plan gives you a limited number of requests that can be sent using the Cloud Agent each month. After the limit is reached, you will get a `Cloud Agent Error` message when sending a request from the Postman web app using the Cloud Agent.
 
-![Cloud Agent usage error](https://assets.postman.com/postman-docs/v10/usage-error-agent-v10.jpg)
+![Cloud Agent usage error](https://assets.postman.com/postman-docs/v10/usage-error-cloud-agent-v10.jpg)
 
-If you want to continue sending requests from the Postman web app before your monthly limit resets, switch to the Postman Desktop Agent. In the error message, select **Use Postman's Desktop Agent**. If you haven't already installed the Desktop Agent, you'll be prompted to download it.
+If you want to continue sending requests from the Postman web app before your monthly limit resets, [upgrade your plan](/docs/administration/billing/#team-and-plan-changes) or switch to the Postman Desktop Agent. In the error message, select **Use Postman's Desktop Agent**. If you haven't already installed the Desktop Agent, you'll be prompted to download it.
 
 > Learn more about [installing and using the Postman Desktop Agent](/docs/getting-started/installation-and-updates/#installing-the-postman-desktop-agent).
