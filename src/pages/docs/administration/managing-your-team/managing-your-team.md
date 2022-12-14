@@ -47,7 +47,7 @@ Postman provides a variety of options to customize your team's experience, from 
 
 Once you've created your Postman team, you can take the following steps to enable an efficient onboarding process for end users:
 
-* Use the [Onboarding checklist](/docs/administration/onboarding-checklist/) to ensure that Postman is available on employee devices and that it functions as expected.
+* Use the [Onboarding checklist](/docs/administration/onboarding-checklist/) to ensure that Postman is available on all devices used by your organization and that it functions as expected.
 * [Enable team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/) to let other Postman users from your organization request to join your team.
 * [Configure SSO](/docs/administration/sso/admin-sso/) ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
 * [Configure SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) ([Enterprise plans only](https://www.postman.com/pricing)).
@@ -92,7 +92,7 @@ You can also review pending invites that team members have submitted in your [te
 
 #### Suggestions
 
-If a team member who isn't a Developer inviting another Developer on a Free, Basic, or Professional plan or a Team Admin on any plan, you or another team member with the Admin or Super Admin role must review the invite suggestion. You can review these invite suggestions in your [team dashboard](https://go.postman.co/settings/team/members) under **Suggestions**.
+If the team member sending an invite isn't a Developer inviting another Developer (on Free, Basic, or Professional plans) or if they aren't a Team Admin (on any plan), you or another team member with the Admin or Super Admin role must review the invite suggestion. You can review these invite suggestions in your [team dashboard](https://go.postman.co/settings/team/members) under **Suggestions**.
 
 To approve the suggestion and invite the user to your team, select **Invite**. To delete the invite, select the revoke invite icon <img alt="Revoke invite icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px">.
 
@@ -126,7 +126,7 @@ Each team member must have one or more team roles assigned to them, which will a
 
 You can change a team member's roles from your [team dashboard](https://go.postman.co/settings/team/members).
 
-Search for a specific user by typing their name or email in the search field. You can also filter users by role type. Select the roles next to the user you'd like to update, then select the roles you'd like to assign or remove. Select **Update Roles** to confirm your changes.
+Search for a specific user by typing their name or email address in the search field. You can also filter users by role type. Select the roles next to the user you'd like to update, then select the roles you'd like to assign or remove. Select **Update Roles** to confirm your changes.
 
 <img alt="Edit team roles" src="https://assets.postman.com/postman-docs/v10/update-team-roles-v10.1.jpg"/>
 
