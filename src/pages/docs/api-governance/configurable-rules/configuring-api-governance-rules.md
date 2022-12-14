@@ -22,7 +22,7 @@ You can customize the API Governance rules that Postman applies to your [API def
 ## Accessing the configurable API Governance rules
 
 1. Go to the [Postman home screen](https://go.postman.co/).
-1. Select **API Governance** from the team information panel.
+1. Select **API Governance** from the team information pane.
 
 ## Adding rules to your API Governance configuration
 
@@ -62,8 +62,8 @@ You can also select **Upload file(s)** to upload a new rule in valid YAML or JSO
 
 Your team can turn individual governance rules on or off to meet your development needs:
 
-* To turn a governance rule on, select the toggle next to the rule name. You and your team members will see violations for this rule in your API's definition.
-* To turn a governance rule off, select the toggle next to the rule name. You and your team members won't see violations for this rule in your API's definition.
+* To turn a governance rule on, select the toggle next to the rule name. You and team members will see violations for this rule in your API's definition.
+* To turn a governance rule off, select the toggle next to the rule name. You and team members won't see violations for this rule in your API's definition.
 
 <img alt="Turn individual rules on and off" src="https://assets.postman.com/postman-docs/v10/api-governance-configuration-turn-rules-off-v10.jpg" width="800px"/>
 

@@ -17,7 +17,7 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 ---
 
-> [__Reports are available on all Postman Enterprise plans.__](https://www.postman.com/pricing)
+> [**Reports are available on all Postman Enterprise plans.**](https://www.postman.com/pricing)
 
 The **Team details** dashboard shows team-level metrics, including team overview, team size, billing details, team activity, and workspaces. This section has three reports:
 
@@ -52,6 +52,7 @@ The **Team activity** report gives more details about your team members' activit
     * Creating, editing, and deleting collections, APIs, environments, mocks, and monitors.
 
     > This metric doesn't include the following actions:
+    >
     > * Creating a workspace, changing its visibility, adding users, or assigning roles
     > * Administrative or billing-related tasks that happen outside of a workspace
     > * Adding integrations

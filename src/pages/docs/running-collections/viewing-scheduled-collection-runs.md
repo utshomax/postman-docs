@@ -36,7 +36,7 @@ You can run collections at specific times each day or week. For example, you may
 
 You can view your scheduled collection runs in Postman by navigating to your workspace and selecting **Collections > Your collection > Runs > Scheduled runs**.
 
-<img src="https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-3-v10.jpg" alt="View scheduled collection run in tab"/>
+<img src="https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10.jpg" alt="View scheduled collection run in tab"/>
 
 Hover over your scheduled collection run and select **View**.
 

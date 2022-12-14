@@ -33,7 +33,7 @@ To set up a Jenkins integration for your API, first create an API token in Jenki
 1. Select your user name at the upper right, and then select **Configure**.
 1. Select **Add new Token**.
 1. Enter a name for the token and select **Generate**.
-1. Copy the new token. (You might want to save the token somewhere safe.)
+1. Copy the new token. (Save the token somewhere safe.)
 
 ## Configuring a Jenkins integration
 
@@ -61,7 +61,7 @@ To view build jobs, open an API and select **Test and Automation**. The most rec
 Select **View Builds** to view the full list of build jobs. From here you can take the following actions:
 
 * Use the dropdown list to filter jobs by build status.
-* To view a build in Jenkins, select the build name.
+* To open a build in Jenkins, hover over a build and select **View build details**.
 * To start a new build, select **Run Build**.
 * To get the latest build status information, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
@@ -88,7 +88,7 @@ To view the results of API Governance and API Security checks that ran as part o
 
 ## Configuring the Postman CLI for Jenkins
 
-With the help of the Postman CLI and the Postman API, you can run API tests created in Postman as part of your Jenkins pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to your Jenkins pipeline.
+With the help of the Postman CLI and the Postman API, you can run Postman collections with your API tests as part of your Jenkins pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to your Jenkins pipeline.
 
 Each time a build runs, the Postman CLI runs the collections that contain your tests. You can view the results of your tests in Postman. You an also enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) ([Enterprise teams only](https://www.postman.com/pricing/)).
 

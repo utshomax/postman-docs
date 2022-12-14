@@ -33,7 +33,7 @@ Postman applies security rules to your [API definition](/docs/api-governance/api
 To access the configuration page for API definitions, do the following:
 
 1. Go to the [Postman home screen](https://go.postman.co/).
-1. Select **API Security** from the team information panel.
+1. Select **API Security** from the team information pane.
 1. Make sure that **API Definitions** is selected.
 
 ### Turning configured rules on and off
@@ -43,7 +43,7 @@ To access the configuration page for API definitions, do the following:
 Your team can turn individual security rules on or off to meet your development needs:
 
 * To turn a security rule on, select the toggle next to the rule name. You and your team members will see violations for this rule in your API's definition.
-* To turn a security rule off, select the toggle next to the rule name. You and your team members won't see violations for this rule in your API's definition.
+* To turn a security rule off, select the toggle next to the rule name. You and team members won't see violations for this rule in your API's definition.
 
 <img alt="Turn individual rules on and off" src="https://assets.postman.com/postman-docs/v10/api-security-configuration-turn-rules-off-v10.jpg" width="800px"/>
 
@@ -81,14 +81,14 @@ Postman applies security rules configured for your [API requests](/docs/api-gove
 To access the configuration page for requests, do the following:
 
 1. Go to the [Postman home screen](https://go.postman.co/).
-1. Select **API Security** from the team information panel.
+1. Select **API Security** from the team information pane.
 1. Select **Requests**.
 
 ### Turning configured rules on and off
 
 Your team can turn individual security rules on or off to meet your development needs:
 
-* To turn a security rule on, select the toggle next to the rule name. You and your team members will see violations for this rule in your API's definition.
-* To turn a security rule off, select the toggle next to the rule name. You and your team members won't see violations for this rule in your API's definition.
+* To turn a security rule on, select the toggle next to the rule name. You and team members will see violations for this rule in your API's definition.
+* To turn a security rule off, select the toggle next to the rule name. You and team members won't see violations for this rule in your API's definition.
 
 <img alt="Turn individual rules on and off" src="https://assets.postman.com/postman-docs/v10/api-security-configuration-requests-turn-rules-off-v10.jpg" width="800px"/>
