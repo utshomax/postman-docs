@@ -214,7 +214,7 @@ Move mock server | &#x2714; |
 
 ## Monitor roles
 
-You can [assign](/docs/monitoring-your-api/faqs-monitors/#who-can-edit-my-monitors) two role types for Postman Monitors: **Editor** and **Viewer**.
+You can [assign](/docs/monitoring-your-api/faqs-monitors/#who-can-edit-my-monitors) four role types for Postman Monitors: **Editor** and **Viewer**.
 
 * **Super Admin** - Can view monitor metadata and run, pause, and resume monitors.
 * **Admin** - Can view monitor metadata and run, pause, and resume monitors.
