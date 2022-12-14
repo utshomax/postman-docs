@@ -89,7 +89,7 @@ To remove a member from your team, go to your [team dashboard](https://go.postma
 
 ![Removing a team member](https://assets.postman.com/postman-docs/v10/remove-team-member-v10.jpg)
 
-When you remove a user from your team, you will still retain access to any data they have shared with the team. Reassign their personal workspaces to another user to ensure the team continues to have access to any unshared work done by the user being removed. Then to confirm, select **Remove Member**.
+When you remove a team member from your team, you will still retain access to any data they have shared with the team. Reassign their personal workspaces to another team member to ensure the team continues to have access to any unshared work done by the user being removed. Then to confirm, select **Remove Member**.
 
 <img alt="Confirmation for removing a team member" src="https://assets.postman.com/postman-docs/remove-user-from-team-v9.2.jpg" width="400px"/>
 
