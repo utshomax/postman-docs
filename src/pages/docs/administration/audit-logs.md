@@ -1,5 +1,5 @@
 ---
-title: "Utilizing audit logs"
+title: "Using audit logs"
 order: 126
 page_id: "audit_logs"
 updated: 2022-03-01
