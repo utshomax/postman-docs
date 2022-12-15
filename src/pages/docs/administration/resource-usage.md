@@ -57,6 +57,12 @@ To add a new custom domain, delete one of your existing custom domains or [upgra
 
 ## Storage usage
 
+You Postman plan gives you a limited amount of storage for [uploaded images](/docs/publishing-your-api/authoring-your-documentation/#uploading-an-image) in your API documentation. [Data files](/docs/running-collections/working-with-data-files/) uploaded when running collections or monitors count toward this same limit. After the limit is reached, you will get an error message when uploading an image or data file.
+
+SCREENSHOT
+
+To upgrade your available storage, contact [Postman support](https://www.postman.com/support/).
+
 ## Postman API usage
 
 ## Serverless requests
