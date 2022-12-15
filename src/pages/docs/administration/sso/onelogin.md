@@ -56,6 +56,6 @@ To continue configuring your Postman app, do the following:
 
 ## Next steps
 
-Now that you have set up SSO with OneLogin, you might also be interested in setting up SCIM provisioning:
+Now that you have set up SSO with OneLogin, you can learn about setting up SCIM provisioning:
 
 * To learn more, visit [Configuring SCIM with OneLogin](/docs/administration/scim-provisioning/configuring-scim-with-onelogin/). (_[Enterprise teams](https://www.postman.com/pricing/) only._)
