@@ -15,6 +15,7 @@ The following examples describe how to use FQL to get basic values from JSON dat
 * [Select an entire array](#select-an-entire-array)
 * [Return one field of every object in an array](#return-one-field-of-every-object-in-an-array)
 * [Return fields that contain special characters in the key name](#return-fields-that-contain-special-characters-in-the-key-name)
+* [Get the number of elements in a list](#get-the-number-of-elements-in-a-list)
 
 ## Example JSON
 
@@ -167,4 +168,18 @@ phones.number
 
 ``` json
 "myuser123"
+```
+
+## Get the number of elements in a list
+
+### FQL
+
+``` javascript
+$count(phones)
+```
+
+### Result
+
+``` json
+2
 ```

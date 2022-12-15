@@ -124,3 +124,17 @@ $contains(payments[0].description, 'recurring')
 ``` json
 true
 ```
+
+## Get only unique payment amounts
+
+### FQL
+
+``` javascript
+$distinct(payments.amount)
+```
+
+### Result
+
+``` json
+[110.48, 24.49, 35.56]
+```
