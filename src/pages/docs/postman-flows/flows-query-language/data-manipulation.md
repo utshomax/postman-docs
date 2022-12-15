@@ -565,7 +565,7 @@ $formatNumber(4593, '$#,###.00')
 "$4,593.00"
 ```
 
-## Convert a number to words
+## Convert a number into words
 
 `I` can also be used instead of `w` for roman numerals.
 
