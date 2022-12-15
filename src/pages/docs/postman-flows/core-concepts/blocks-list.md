@@ -1,6 +1,6 @@
 ---
 title: "List of blocks"
-updated: 2022-11-30
+updated: 2022-12-15
 ---
 
 The [blocks](../blocks/) available in Postman Flows are described below.
@@ -18,9 +18,9 @@ The [blocks](../blocks/) available in Postman Flows are described below.
 
 <img alt="Template block" src="https://assets.postman.com/postman-labs-docs/all-blocks/template-block.png" width="245px"/>
 
-Enables the free-hand structuring of data, such as the pasting of JSON data. Also supports [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/).
+Enables the free-hand structuring of data and inclusion of variables in the format `{{variable}}`
 
-**Variables** - Named data or assigned values that can be accessed using FQL.
+**Variables** - Named data or assigned values that can be assigned in the text using the `{{variable}}` format.
 
 **Out** - Outputs the data entered in the text box.
 
