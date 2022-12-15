@@ -597,8 +597,6 @@ $parseInteger("four hundred and ninety-three thousand, eight hundred and forty",
 493840
 ```
 
-
-
 ## Convert words to a number
 
 `I` can also be used instead of `w` for roman numerals.
