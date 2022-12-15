@@ -521,7 +521,7 @@ $power(2,3)
 8
 ```
 
-## Get the squareroot of a number
+## Get the square root of a number
 
 ### FQL
 
