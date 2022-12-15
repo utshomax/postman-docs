@@ -430,7 +430,7 @@ $boolean(`customer info`.total_value > 250) ? 'high-value customer' : 'not a hig
 ### Result
 
 ``` json
-"high value customer"
+"high-value customer"
 ```
 
 ## Generate a new random invoice number
