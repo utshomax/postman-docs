@@ -93,11 +93,11 @@ Because they run Postman requests and scripts, collection-based monitors can be 
 * **Monitor the security of your endpoints** - Continuously test APIs for known security vulnerabilities.
 * **Visualize results on the monitor dashboard** - Get better visibility into API performance over time and identify trends.
 
-> For more examples of Postman Monitors in action, visit the [Postman API Monitoring Examples public workspace](https://www.postman.com/postman/workspace/postman-api-monitoring-examples/overview) to find example collections for some common monitoring use cases. You can collaborate on the collections in the workspace by [creating a fork](/docs/collaborating-in-postman/using-version-control/forking-entities/#creating-a-fork), or modify the collections for your team's use by [exporting and importing them into your team workspace](/docs/getting-started/importing-and-exporting-data/#exporting-collections).
+> For more examples of monitors in action, visit the [Postman API Monitoring Examples public workspace](https://www.postman.com/postman/workspace/postman-api-monitoring-examples/overview) to find example collections for some common monitoring use cases. You can collaborate on the collections in the workspace by [creating a fork](/docs/collaborating-in-postman/using-version-control/forking-entities/#creating-a-fork), or modify the collections for your team's use by [exporting and importing them into your team workspace](/docs/getting-started/importing-and-exporting-data/#exporting-collections).
 
 ## Next steps
 
-Now that you understand the fundamentals of API monitoring, you can set up a collection-based monitor or an uptime monitor:
+After learning the fundamentals of API monitoring, you can set up a collection-based monitor or an uptime monitor:
 
 * To learn how to set up a new collection-based monitor, visit [Setting up a collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/).
 * To learn how to start monitoring uptime for an API endpoint, visit [Monitoring API uptime](/docs/monitoring-your-api/uptime-monitors/).

@@ -92,4 +92,4 @@ Go to the **Service definition** tab and select **Create New API**. This brings 
 
 ## Next steps
 
-Now that you know how to use a service definition inside a request, learn more about [creating and managing protobuf APIs using the API Builder](/docs/designing-and-developing-your-api/the-api-workflow/).
+Learn more about [creating and managing protobuf APIs using the API Builder](/docs/designing-and-developing-your-api/the-api-workflow/).

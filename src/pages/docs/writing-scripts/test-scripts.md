@@ -84,7 +84,7 @@ To add tests to a request, open the request and enter your code in the **Tests**
 
 1. Go to the **Scripts** tab in your gRPC request.
 2. Select the execution hook (**Before invoke** or **After response**) to which you want to add a test.
-3. Use [snippets](#using-snippets) from the right panel to add a test or write customized assertion.
+3. Use [snippets](#using-snippets) from the right pane to add a test or write customized assertion.
 
 Both the execution hooks are available for all gRPC requests regardless of the method type being unary, client streaming, server streaming, or bidirectional streaming. Your scripts can include however many tests you need and will save along with the rest of your request when you select **Save**.
 
@@ -156,7 +156,7 @@ Your scripts can include however many tests you need and will save along with th
 
 ### Using snippets
 
-You can use a curated list of commonly-used test code snippets to write your tests. **Snippets** are available in the right panel of the script editor. Selecting a snippet adds the required code automatically to your script, helping you get started quickly with your testing. Once added to your script, you can edit the snippets to meet your specific testing requirements.
+You can use a curated list of commonly-used test code snippets to write your tests. **Snippets** are available in the right pane of the script editor. Selecting a snippet adds the required code automatically to your script, helping you get started quickly with your testing. Once added to your script, you can edit the snippets to meet your specific testing requirements.
 
 ## Testing collections and folders
 
@@ -181,7 +181,7 @@ If you are having trouble with your tests:
 
 ## Next steps
 
-Now that you know the fundamentals of writing tests in Postman, you might also be interested in learning how to write more complex tests and use them with other Postman utilities.
+After writing tests in Postman, you could write more complex tests and use them with other Postman utilities.
 
 * For more information about what you can do using the `pm` object, check out some test script [examples](/docs/writing-scripts/script-references/test-examples/) and visit the [Postman Sandbox API reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/).
 * To learn how to use tests in conjunction with monitoring, which enables you to confirm that your API meets performance requirements, visit [Monitoring your APIs](/docs/monitoring-your-api/intro-monitors/).

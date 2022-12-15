@@ -71,11 +71,11 @@ After making a WebSocket connection, you can use the editor pane to compose and 
 
 In the bottom left corner of the editor, you can select the format of your message: **Text**, **JSON**, **XML**, **HTML**, or **Binary**. If you select **Binary**, you can then select **Base64** or **Hexadecimal**. The editor has syntax highlighting according to the selected format. You can also select **{}** to beautify JSON, XML, or HTML messages.
 
-When you have finished composing your message, select **Send**. The sent message will remain in the window, in case you want to change it and re-send, or save it.
+When you have finished composing your message, select **Send**. The sent message will remain in the window, in case you want to change it and resend, or save it.
 
 ### Saving messages
 
-You can also save composed messages, then re-send them later.
+You can also save composed messages, then resend them later.
 
 To save a message, do the following:
 
@@ -123,7 +123,7 @@ The **Messages** pane has the following controls:
 
 The following are displayed for each message:
 
-* If you hover over a message, a check box is displayed. Select the check boxes for two messages, and the time difference between the messages will be displayed. Select **Deselect** to remove the time display.
+* If you hover over a message, a checkbox is displayed. Select the checkboxes for two messages, and the time difference between the messages will be displayed. Select **Deselect** to remove the time display.
   [![WebSocket time difference](https://assets.postman.com/postman-docs/websocket-time-difference.gif)](https://assets.postman.com/postman-docs/websocket-time-difference.gif)
 * Select the arrow next to a message to expand or collapse it.
 * The time is displayed as your local time.
@@ -143,7 +143,7 @@ In an expanded message:
 
 In Socket.IO, you have the ability to listen to specific events. The **Messages** pane will display the received events for which you've added listeners. Events will be color-coded by event to make them easier to find.
 
-The **Listeners** panel shows listener events. To listen to a new event, enter the name of an event and select **+** to add it. Select the toggle next to an event to turn listening on or off for that event. If you hover over the toggle, you can delete the event listener.
+The **Listeners** pane shows listener events. To listen to a new event, enter the name of an event and select **+** to add it. Select the toggle next to an event to turn listening on or off for that event. If you hover over the toggle, you can delete the event listener.
 
 [![Socket.IO message body](https://assets.postman.com/postman-docs/socketio-message-body.jpg)](https://assets.postman.com/postman-docs/socketio-message-body.jpg)
 

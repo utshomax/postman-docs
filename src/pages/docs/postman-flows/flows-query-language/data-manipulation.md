@@ -25,10 +25,10 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 * [Replace string with another](#replace-string-with-another)
 * [Base64 encode a string](#base64-encode-a-string)
 * [Base64 decode a string](#base64-decode-a-string)
-* [Encode a url component](#encode-a-url-component)
-* [Decode a url component](#decode-a-url-component)
-* [Encode an entire url](#encode-an-entire-url)
-* [Decode entire url](#decode-entire-url)
+* [Encode a URL component](#encode-a-url-component)
+* [Decode a URL component](#decode-a-url-component)
+* [Encode an entire URL](#encode-an-entire-url)
+* [Decode entire URL](#decode-entire-url)
 * [Append to an array](#append-to-an-array)
 * [If then else](#if-then-else)
 * [Generate a new random invoice number](#generate-a-new-random-invoice-number)
@@ -42,7 +42,11 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 * [Format a number with decimals and dollar sign](#format-a-number-with-decimals-and-dollar-sign)
 * [Convert a number to words](#convert-a-number-to-words)
 * [Convert words to a number](#convert-words-to-a-number)
-* [Time and date formatting](#time-and-date-formatting)
+* [Get the current time in ISO 8601 format](#get-the-current-time-in-iso-8601-format)
+* [Get the current time in Unix milliseconds since the epoch](#get-the-current-time-in-unix-milliseconds-since-the-epoch)
+* [Convert from a specific date format into Unix epoch time](#convert-from-a-specific-date-format-into-unix-epoch-time)
+* [Convert from Unix epoch time into a specific date format](#convert-from-unix-epoch-time-into-a-specific-date-format)
+* [Time and Date formatting](#time-and-date-formatting)
 
 ## Example JSON
 
@@ -341,7 +345,7 @@ $base64decode("c29tZSBkYXRhIGhlcmU=")
 "some data here"
 ```
 
-## Encode a url component
+## Encode a URL component
 
 ### FQL
 
@@ -355,7 +359,7 @@ $encodeUrlComponent("?city=melbourne")
 "%3Fcity%3Dmelbourne
 ```
 
-## Decode a url component
+## Decode a URL component
 
 ### FQL
 
@@ -369,7 +373,7 @@ $decodeUrlComponent("%3Fcity%3Dmelbourne")
 "?city=melbourne"
 ```
 
-## Encode an entire url
+## Encode an entire URL
 
 ### FQL
 
@@ -383,7 +387,7 @@ $encodeUrl('https://faketranslatewebsite.com/?phrase=こんにちは')
 "https://faketranslatewebsite.com/?phrase=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF"
 ```
 
-## Decode entire url
+## Decode entire URL
 
 ### FQL
 

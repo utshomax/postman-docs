@@ -131,7 +131,7 @@ Please note that Algolia search won't work when running the app locally. If you 
 
 ## Right sidebar - recent blog posts
 
-The right sidebar has a feature flag for pulling in up to three contextual, recent blog posts based on a tag. This functionality and flag can be found in the front matter of the doc `.md` files. It utilizes our webhook and backend-for-frontend (BFF) service to source the latest 100 blog posts from blog.postman.com.
+The right sidebar has a feature flag for pulling in up to three contextual, recent blog posts based on a tag. This functionality and flag can be found in the front matter of the doc `.md` files. It uses our webhook and backend-for-frontend (BFF) service to source the latest 100 blog posts from blog.postman.com.
 
 Two example docs using `dynamic_blog`:
 
