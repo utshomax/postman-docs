@@ -20,7 +20,7 @@ The [blocks](../blocks/) available in Postman Flows are described below.
 
 Enables the free-hand structuring of data and inclusion of variables in the format `{{variable}}`
 
-**Variables** - Named data or assigned values that can be assigned in the text using the `{{variable}}` format in the text.
+**Variables** - Named data or assigned values that can be assigned in the text using the `{{variable}}` format.
 
 **Out** - Outputs the data entered in the text box.
 
