@@ -71,6 +71,12 @@ To upgrade your available storage, contact [Postman support](https://www.postman
 
 ## Integrations
 
+Your Postman plan gives you a limited number of [integrations](/docs/integrations/intro-integrations/) you can add to connect Postman to third-party tools you use for API development. After the limit is reached, you won't be able to add a new integration. You will get a notification in the Postman app when attempting to add a new integration.
+
+<img alt="Integrations limit reached" src="https://assets.postman.com/postman-docs/v10/usage-error-integrations-v10.jpg" width="361px"/>
+
+To add a new integration, delete one of your existing integrations or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+
 ## Cloud agent usage
 
 The [Postman Cloud Agent](/docs/getting-started/installation-and-updates/#selecting-the-agent-for-requests) enables you to send requests from the Postman web app without encountering Cross Object Resource Sharing (CORS) limitations. Your Postman plan gives you a limited number of requests that can be sent using the Cloud Agent each month. After the limit is reached, you will get a `Cloud Agent Error` message when sending a request from the Postman web app using the Cloud Agent.
