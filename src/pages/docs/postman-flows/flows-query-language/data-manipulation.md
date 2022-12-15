@@ -41,7 +41,7 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 * [Convert a number to hex or binary](#convert-a-number-to-hex-or-binary)
 * [Format a number with decimals and dollar sign](#format-a-number-with-decimals-and-dollar-sign)
 * [Convert a number into words](#convert-a-number-into-words)
-* [Convert words to a number](#convert-words-to-a-number)
+* [Convert words into a number](#convert-words-into-a-number)
 * [Get the current time in ISO 8601 format](#get-the-current-time-in-iso-8601-format)
 * [Get the current time in Unix milliseconds since the epoch](#get-the-current-time-in-unix-milliseconds-since-the-epoch)
 * [Convert from a specific date format into Unix epoch time](#convert-from-a-specific-date-format-into-unix-epoch-time)
