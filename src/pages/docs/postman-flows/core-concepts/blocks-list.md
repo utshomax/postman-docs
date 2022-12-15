@@ -18,7 +18,7 @@ The [blocks](../blocks/) available in Postman Flows are described below.
 
 <img alt="Template block" src="https://assets.postman.com/postman-labs-docs/all-blocks/template-block.png" width="245px"/>
 
-Enables the free-hand structuring of data and allows the inclusion of variables in the format `{{variable}}`
+Enables the free-hand structuring of data and inclusion of variables in the format `{{variable}}`
 
 **Variables** - Named data or assigned values that can be assigned in the text using the `{{variable}}` format in the text.
 
