@@ -30,7 +30,7 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 * [Encode an entire URL](#encode-an-entire-url)
 * [Decode entire URL](#decode-entire-url)
 * [Append to an array](#append-to-an-array)
-* [If then else](#if-then-else)
+* [If-then-else](#if-then-else)
 * [Generate a new random invoice number](#generate-a-new-random-invoice-number)
 * [Convert a string into JSON](#convert-a-string-into-json)
 * [Get the absolute difference between two numbers](#get-the-absolute-difference-between-two-numbers)
