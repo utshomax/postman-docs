@@ -435,7 +435,7 @@ $boolean(`customer info`.total_value > 250) ? 'high-value customer' : 'not a hig
 
 ## Generate a new random invoice number
 
-Will generate a random whole number between 1 and 1000 for the invoice.
+Generates a random whole number between 1 and 1000 for the invoice.
 
 ### FQL
 
