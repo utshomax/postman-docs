@@ -451,7 +451,7 @@ Will generate a random whole number between 1 and 1000 for the invoice.
 
 ## Convert a string into JSON
 
-Enables the string to be formatted into JSON so it can be queried with FQL. This assume you have the following string `{"Feedback Type":"Bug Report"}` stored as a variable named `input`.
+Enables the string to be formatted into JSON so it can be queried with FQL. This assumes you have the following string `{"Feedback Type":"Bug Report"}` stored as a variable named `input`.
 
 ### FQL
 
