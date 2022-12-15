@@ -347,6 +347,7 @@ button.close {
     outline: none
   }
 }
+
 button.close:not(:disabled):not(.disabled):hover {
   opacity: 1;
 }
