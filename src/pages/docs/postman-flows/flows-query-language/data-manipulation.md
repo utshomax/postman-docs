@@ -1,6 +1,6 @@
 ---
 title: "Data manipulation"
-updated: 2022-11-17
+updated: 2022-12-15
 ---
 
 You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to perform math functions, manipulate strings and arrays, and interact with the data in your responses in several ways. Sample data and FQL examples are below.
@@ -30,6 +30,18 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 * [Encode an entire url](#encode-an-entire-url)
 * [Decode entire url](#decode-entire-url)
 * [Append to an array](#append-to-an-array)
+* [If then else](#if-then-else)
+* [Generate a new random invoice number](#generate-a-new-random-invoice-number)
+* [Convert a string into JSON](#convert-a-string-into-json)
+* [Get the absolute difference between two numbers](#get-the-absolute-difference-between-two-numbers)
+* [Round up a number](#round-up-a-number)
+* [Round down a number](#round-down-a-number)
+* [Raise a number to a power](#raise-a-number-to-a-power)
+* [Get the squareroot of a number](#get-the-squareroot-of-a-number)
+* [Convert a number to hex or binary](#convert-a-number-to-hex-or-binary)
+* [Format a number with decimals and dollar sign](#format-a-number-with-decimals-and-dollar-sign)
+* [Convert a number to words](#convert-a-number-to-words)
+* [Convert words to a number](#convert-words-to-a-number)
 * [Time and date formatting](#time-and-date-formatting)
 
 ## Example JSON
@@ -287,7 +299,7 @@ $join(customer_info.associated_usernames)
 
 ## Replace string with another
 
-Finds the instances of `recurring` in the first parameter string and replaces it with renewing, limited to the first instance found (optionally specified with the `1`). Using a regex instead of `renewing` is also supported.
+Finds the instances of `recurring` in the first parameter string and replaces it with renewing, limited to the first instance found (optionally specified with the `1`). Using a regex instead of `recurring` is also supported.
 
 ### FQL
 
@@ -400,6 +412,205 @@ $append([1,2,3], [4,5,6])
 ``` json
 [1,2,3,4,5,6]
 ```
+
+## If-then-else
+
+The `$boolean` value is the true/false test. The second value the output for true and the final value is the output for false.
+
+### FQL
+
+``` javascript
+$boolean(`customer info`.total_value > 250) ? 'high value customer' : 'not a high value customer'
+```
+
+### Result
+
+``` json
+"high value customer"
+```
+
+## Generate a new random invoice number
+
+Will generate a random whole number between 1 and 1000 for the invoice.
+
+### FQL
+
+``` javascript
+'Invoice number ' & $round($random()*1000)
+```
+
+### Result
+
+``` json
+"Invoice number 891"
+```
+
+## Convert a string into JSON
+
+Allows the string to be formatted into JSON such that it can be queried via FQL. Assume you have the following string `{"Feedback Type":"Bug Report"}` stored as a variable named `input`.
+
+### FQL
+
+``` javascript
+$jsonParse(input)
+```
+
+### Result
+
+``` json
+{"Feedback Type":"Bug Report"}
+```
+
+## Get the absolute difference between two numbers
+
+### FQL
+
+``` javascript
+$abs(4.56 - 6.78)
+```
+
+### Result
+
+``` json
+2.22
+```
+
+## Round up a number
+
+### FQL
+
+``` javascript
+$ceil(3.45)
+```
+
+### Result
+
+``` json
+4
+```
+
+## Round down a number
+
+### FQL
+
+``` javascript
+$floor(3.99)
+```
+
+### Result
+
+``` json
+3
+```
+
+## Raise a number to a power
+
+### FQL
+
+``` javascript
+$power(2,3)
+```
+
+### Result
+
+``` json
+8
+```
+
+## Get the squareroot of a number
+
+### FQL
+
+``` javascript
+$sqrt(9)
+```
+
+### Result
+
+``` json
+3
+```
+
+## Convert a number to hex or binary
+
+Converts `3000` to hex, using base 2 instead of 16 would convert it to binary.
+
+### FQL
+
+``` javascript
+$formatBase(3000, 16)
+```
+
+### Result
+
+``` json
+"bb8"
+```
+
+## Format a number with decimals and dollar sign
+
+### FQL
+
+``` javascript
+$formatNumber(4593, '$#,###.00')
+```
+
+### Result
+
+``` json
+"$4,593.00"
+```
+
+## Convert a number to words
+
+`I` can also be used instead of `w` for roman numerals.
+
+### FQL
+
+``` javascript
+$formatInteger(493840, 'w')
+```
+
+### Result
+
+``` json
+"four hundred and ninety-three thousand, eight hundred and forty"
+```
+
+## Convert words to a number
+
+`I` can also be used instead of `w` for roman numerals.
+
+### FQL
+
+``` javascript
+$parseInteger("four hundred and ninety-three thousand, eight hundred and forty", 'w')
+```
+
+### Result
+
+``` json
+493840
+```
+
+
+
+## Convert words to a number
+
+`I` can also be used instead of `w` for roman numerals.
+
+### FQL
+
+``` javascript
+$parseInteger("four hundred and ninety-three thousand, eight hundred and forty", 'w')
+```
+
+### Result
+
+``` json
+493840
+```
+
 <!-- ## Time and date parsing -->
 <!-- TODO: Technically this 'Time and date parsing' H2 should be an H1. Deleting for now. Maybe break this doc into two docs in the future.-->
 
