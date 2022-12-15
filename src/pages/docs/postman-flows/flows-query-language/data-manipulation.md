@@ -581,7 +581,7 @@ $formatInteger(493840, 'w')
 "four hundred and ninety-three thousand, eight hundred and forty"
 ```
 
-## Convert words to a number
+## Convert words into a number
 
 `I` can also be used instead of `w` for roman numerals.
 
