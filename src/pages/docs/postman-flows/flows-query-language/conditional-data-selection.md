@@ -12,6 +12,7 @@ You can use [Flows Query Language](/docs/postman-flows/flows-query-language/intr
 * [Filter for the invoice numbers of recurring payments](#filter-for-the-invoice-numbers-of-recurring-payments)
 * [When your filter matches a single record](#when-your-filter-matches-a-single-record)
 * [Checking if a field contains a value](#checking-if-a-field-contains-a-value)
+* [Get only unique payment amounts](#get-only-unique-payment-amounts)
 
 ## Example JSON
 
