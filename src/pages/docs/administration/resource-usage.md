@@ -67,6 +67,12 @@ To upgrade your available storage, contact [Postman support](https://www.postman
 
 ## Postman API usage
 
+Your Postman plan gives you a limited number of requests that can be sent to the [Postman API](/docs/developer/intro-api/) each month. After the limit is reached, you will get a `Service limit exhausted` error message when sending a request to the Postman API.
+
+![Postman API usage error](https://assets.postman.com/postman-docs/v10/usage-error-api-v10.jpg)
+
+If you want to make more requests to the Postman API before your monthly limit resets, you can [purchase an add-on](/docs/administration/billing/#purchasing-add-ons) or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+
 ## Serverless requests
 
 ## Integrations
