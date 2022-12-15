@@ -1,6 +1,6 @@
 ---
 title: "Conditional data selection"
-updated: 2022-12-16
+updated: 2022-12-15
 ---
 
 You can use [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to filter for specific data in your responses. Sample data and FQL examples are below.
