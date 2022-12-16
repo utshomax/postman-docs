@@ -8,10 +8,10 @@ You can use [Flows Query Language](/docs/postman-flows/flows-query-language/intr
 ## Contents
 
 * [Example JSON](#example-json)
-* [Filtering query results for objects with specific key/value pairs](#filtering-query-results-for-objects-with-specific-keyvalue-pairs)
-* [Navigating your filtered results](#navigating-your-filtered-results)
-* [Returning a single record](#returning-a-single-record)
-* [Checking if a field has a specific value](#checking-if-a-field-has-a-specific-value)
+* [Filter query results for objects with specific key/value pairs](#filter-query-results-for-objects-with-specific-keyvalue-pairs)
+* [Navigate your filtered results](#navigate-your-filtered-results)
+* [Return a single record](#return-a-single-record)
+* [Check if a field has a specific value](#check-if-a-field-has-a-specific-value)
 
 ## Example JSON
 
@@ -54,7 +54,7 @@ The examples below use this JSON data:
     }
 ```
 
-## Filtering query results for objects with specific key/value pairs
+## Filter query results for objects with specific key/value pairs
 
 The example below filters for objects in the `payments` array that have the key/value pair `"description": "recurring subscription"`.
 
@@ -83,7 +83,7 @@ payments[description='recurring subscription']
 ]
 ```
 
-## Navigating your filtered results
+## Navigate your filtered results
 
 FQL uses the same syntax to navigate filtered query results as it does to navigate JSON data. The example below gets the values from the `invoice.number` fields in the `payments` array.
 
@@ -99,7 +99,7 @@ FQL uses the same syntax to navigate filtered query results as it does to naviga
  ["101301","101303"]
  ```
 
-## Returning a single record
+## Return a single record
 
 When a filter has a single result, it returns as a record instead of an array. The filter below returns a single result as a record.
 
@@ -115,7 +115,7 @@ When a filter has a single result, it returns as a record instead of an array. T
 "101304"
 ```
 
-## Checking if a field has a specific value
+## Check if a field has a specific value
 
 FQL can check if your query results have a specific key/value pair and return `true` or `false`. The example below checks the first item in the `payments` array for the key/value pair `"description": "recurring"`.
 
