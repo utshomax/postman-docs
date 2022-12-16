@@ -106,6 +106,8 @@ address
 
 ## Select a specific index in an array
 
+To access individual values in an array in a JSON file, specify an index number between square brackets after the array's name.
+
 ### FQL
 
 ``` javascript
@@ -121,6 +123,8 @@ phones[0].number
 ```
 
 ## Select an entire array
+
+Enter the name of an array in the JSON file to retrieve all the data within that array.
 
 ### FQL
 
@@ -147,6 +151,8 @@ phones
 
 ## Return one field of every object in an array
 
+To return a specific field from multiple objects in an array, enter the array's name and the field's name, separated by a dot.
+
 ### FQL
 
 ``` javascript
@@ -162,6 +168,8 @@ phones.number
 ```
 
 ## Return fields that contain special characters in the key name
+
+If a field in the JSON file contains special characters (like spaces), put the field's name in single quotes.
 
 ### FQL
 
