@@ -2,7 +2,7 @@
 title: "Authorizing requests"
 order: 22
 page_id: "authorization"
-updated: 2021-11-01
+updated: 2022-12-12
 search_keyword: "WWW-Authenticate, x-www-form-urlencoded"
 contextual_links:
   - type: section
@@ -23,6 +23,9 @@ contextual_links:
   - type: link
     name: "Inheriting Auth Details | Postman Level Up"
     url: "https://www.youtube.com/watch?v=WFiYsfSkyXE&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=2"
+  - type: link
+    name: "Automatically Refresh OAuth2.0 Access Tokens | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=FAhs9TBK-xU"
   - type: subtitle
     name: "Case Studies"
   - type: link
@@ -60,6 +63,8 @@ You can pass auth details along with any request you send in Postman. Auth data 
         * [Password credentials](#password-credentials)
         * [Client credentials](#client-credentials)
         * [Requesting an OAuth 2.0 token](#requesting-an-oauth-20-token)
+        * [Refreshing an OAuth 2.0 token](#refreshing-an-oauth-20-token)
+        * [Sharing an OAuth 2.0 token](#sharing-an-oauth-20-access-token)
     * [Hawk authentication](#hawk-authentication)
     * [AWS Signature](#aws-signature)
     * [NTLM authentication](#ntlm-authentication)
@@ -303,6 +308,29 @@ Any successfully retrieved tokens will be listed in the request __Available Toke
 If authentication fails or times out, Postman will display an error message. You can check the error details in the console, __Retry__ to try authentication again, or edit your auth details before continuing.
 
 > Deleting a token in Postman doesn't revoke access. Only the server that issues the token can revoke it.
+
+#### Refreshing an OAuth 2.0 token
+
+Before an OAuth 2.0 token generated in Postman expires, Postman automatically refreshes it in the background before you send a request that uses it. The refreshed access token is updated in any requests that it's used in. Auto-refreshing is the default behavior.
+
+To turn this feature off or on, select **Auto-refresh access token**.
+
+<img alt="Auto-refresh an OAuth 2.0 access token" src="https://assets.postman.com/postman-docs/v10/authorization-oauth2-auto-refresh-v10.jpg" width="500px"/>
+
+To manually refresh a token, select **Refresh** next to the token expiration time.
+
+#### Sharing an OAuth 2.0 access token
+
+To enable other Postman users to view and use an OAuth 2.0 access token, select **Share access token**.
+
+<img alt="Share an OAuth 2.0 access token" src="https://assets.postman.com/postman-docs/v10/authorization-oauth2-share-v10.jpg" width="500px"/>
+
+To revoke other users' access to a synced token, do the following:
+
+1. Turn **Share access token** off.
+1. Select **Remove Synced Token**.
+
+After you revoke access, other users with access to the request won't be able to see or use the token.
 
 ### Hawk authentication
 
