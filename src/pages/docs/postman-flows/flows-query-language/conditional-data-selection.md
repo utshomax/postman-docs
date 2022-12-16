@@ -3,14 +3,14 @@ title: "Conditional data selection"
 updated: 2022-11-16
 ---
 
-You can use [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to filter for specific data in your responses. Sample data and FQL examples are below.
+You can use [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to filter for specific data in your responses. Multiple responses return in an array. Single responses return as a single record. Sample data and FQL examples are below.
 
 ## Contents
 
 * [Example JSON](#example-json)
-* [Filter for a customer's recurring subscription payments](#filter-for-a-customers-recurring-subscription-payments)
-* [Filter for the invoice numbers of recurring payments](#filter-for-the-invoice-numbers-of-recurring-payments)
-* [When your filter matches a single record](#when-your-filter-matches-a-single-record)
+* [Filtering query results for objects with specific key/value pairs](#filtering-query-results-for-objects-with-specific-keyvalue-pairs)
+* [Navigating your filtered results](#navigating-your-filtered-results)
+* [Returning a single record](#returning-a-single-record)
 * [Checking if a field contains a value](#checking-if-a-field-contains-a-value)
 
 ## Example JSON
@@ -85,6 +85,8 @@ payments[description='recurring subscription']
 
 ## Navigating your filtered results
 
+FQL uses the same syntax to navigate filtered query results as it does to navigate JSON data. The example below gets the values from the `invoice.number` fields in the `payments` array.
+
 ### FQL
 
  ``` javascript
@@ -97,9 +99,9 @@ payments[description='recurring subscription']
  ["101301","101303"]
  ```
 
-## When your filter matches a single record
+## Returning a single record
 
-It returns a single record, not an array.
+When a filter has a single result, it returns as a record instead of an array. The filter below returns a single result as a record.
 
 ### FQL
 
@@ -114,6 +116,8 @@ It returns a single record, not an array.
 ```
 
 ## Checking if a field contains a value
+
+FQL can check if your query results have a specific key/value pair and return `true` or `false`. The example below checks the first item in the `payments` array for the key/value pair `"description": "recurring"`.
 
 ### FQL
 
