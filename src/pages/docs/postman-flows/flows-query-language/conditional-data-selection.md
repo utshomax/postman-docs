@@ -15,7 +15,7 @@ You can use [Flows Query Language](/docs/postman-flows/flows-query-language/intr
 
 ## Example JSON
 
-The following examples use the following JSON data returned by an endpoint:
+The examples below use this JSON data:
 
 ``` json
     {
@@ -54,7 +54,9 @@ The following examples use the following JSON data returned by an endpoint:
     }
 ```
 
-## Filter for a customer's recurring subscription payments
+## Filtering query results for objects with specific key/value pairs
+
+The example below filters for objects in the `payments` array that have the key/value pair `"description": "recurring subscription"`.
 
 ### FQL
 
@@ -81,7 +83,7 @@ payments[description='recurring subscription']
 ]
 ```
 
-## Filter for the invoice numbers of recurring payments
+## Navigating your filtered results
 
 ### FQL
 
