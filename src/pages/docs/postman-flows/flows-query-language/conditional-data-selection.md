@@ -11,7 +11,7 @@ You can use [Flows Query Language](/docs/postman-flows/flows-query-language/intr
 * [Filtering query results for objects with specific key/value pairs](#filtering-query-results-for-objects-with-specific-keyvalue-pairs)
 * [Navigating your filtered results](#navigating-your-filtered-results)
 * [Returning a single record](#returning-a-single-record)
-* [Checking if a field contains a value](#checking-if-a-field-contains-a-value)
+* [Checking if a field has a specific value](#checking-if-a-field-has-a-specific-value)
 
 ## Example JSON
 
@@ -115,7 +115,7 @@ When a filter has a single result, it returns as a record instead of an array. T
 "101304"
 ```
 
-## Checking if a field contains a value
+## Checking if a field has a specific value
 
 FQL can check if your query results have a specific key/value pair and return `true` or `false`. The example below checks the first item in the `payments` array for the key/value pair `"description": "recurring"`.
 
