@@ -151,15 +151,13 @@ phones
 
 ## Return one field of every object in an array
 
-To return a specific field from multiple objects in an array, enter the array's name and the field's name, separated by a dot.
+To return a specific field from multiple objects in an array, enter the array's name then the field's name, separated by a dot.
 
 ### FQL
 
 ``` javascript
 phones.number
 ```
-
-<br/>
 
 ### Result
 
