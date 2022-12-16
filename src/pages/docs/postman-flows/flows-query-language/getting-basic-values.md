@@ -3,7 +3,7 @@ title: "Getting basic values"
 updated: 2022-11-17
 ---
 
-The following examples describe how to use FQL to get basic values from JSON data.
+FQL uses location path syntax to extract values from JSON structures. The following examples demonstrate several examples of getting basic values from JSON data.
 
 ## Contents
 
@@ -47,6 +47,8 @@ The following examples use the following JSON data returned by an endpoint:
 
 ## Get a top-level field
 
+To access a top-level field with FQL, enter the field's name.
+
 ### FQL
 
 ``` javascript
@@ -63,6 +65,8 @@ name
 
 ## Get a nested field
 
+To access fields below the top level, use field names separated by dot '.' delimiters.
+
 ### FQL
 
 ``` javascript
@@ -78,6 +82,8 @@ address.city
 ```
 
 ## Get an entire object
+
+Enter the name of an object in the JSON file to retrieve all the data within that object.
 
 ### FQL
 
