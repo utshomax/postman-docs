@@ -159,6 +159,8 @@ To return a specific field from multiple objects in an array, enter the array's 
 phones.number
 ```
 
+<br/>
+
 ### Result
 
 ``` json
