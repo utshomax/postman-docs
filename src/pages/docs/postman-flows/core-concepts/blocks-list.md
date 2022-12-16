@@ -1,6 +1,6 @@
 ---
 title: "List of blocks"
-updated: 2022-11-30
+updated: 2022-12-15
 ---
 
 The [blocks](../blocks/) available in Postman Flows are described below.
@@ -18,11 +18,11 @@ The [blocks](../blocks/) available in Postman Flows are described below.
 
 <img alt="Template block" src="https://assets.postman.com/postman-labs-docs/all-blocks/template-block.png" width="245px"/>
 
-Enables the free-hand structuring of data, such as the pasting of JSON data. Also supports [FQL](../../flows-query-language/introduction-to-fql/).
+Enables the free-hand structuring of data and inclusion of variables in the format `{{variable}}`
 
-**Variables**: Named data or assigned values that can be accessed using FQL.
+**Variables** - Named data or assigned values that can be assigned in the text using the `{{variable}}` format.
 
-**Out**: Outputs the data entered in the text box.
+**Out** - Outputs the data entered in the text box.
 
 ### Get Variable
 
@@ -112,7 +112,7 @@ Emits the string that you enter.
 
 <img alt="Start block" src="https://assets.postman.com/postman-labs-docs/all-blocks/combined-start-block.png" width="110px"/>
 
-Used as the entry point for [running flows on the cloud](../../running-flows-on-the-cloud/webhooks/). Can be configured to hold test data for testing locally by selecting the gear icon and will act as a webhook endpoint that accepts data when running on the cloud.
+Used as the entry point for [running flows on the cloud](/docs/postman-flows/running-flows-on-the-cloud/webhooks/). Can be configured to hold test data for testing locally by selecting the gear icon and will act as a webhook endpoint that accepts data when running on the cloud.
 
 ## Logic blocks
 
@@ -123,11 +123,11 @@ Used as the entry point for [running flows on the cloud](../../running-flows-on-
 <!-- vale Postman.Spelling = NO -->
   Takes an input boolean and data, and takes a different branch depending on the result.
 
-  **True/False**: Takes in a bool value.
+  **True/False** - Takes in a bool value.
 
-  **Data**: Receives data or an event from another block.
+  **Data** - Receives data or an event from another block.
 
-  **Outputs**: Sends the data to either the True or False pathway depending on the value of the bool sent in the first connection.
+  **Outputs** - Sends the data to either the True or False pathway depending on the value of the bool sent in the first connection.
 <!-- vale Postman.Spelling = YES -->
 
 ### Evaluate
@@ -136,11 +136,11 @@ Used as the entry point for [running flows on the cloud](../../running-flows-on-
 
 Executes [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) syntax to query structured data.
 
-**Variables**: Named data or assigned values that can be accessed using FQL.
+**Variables** - Named data or assigned values that can be accessed using FQL.
 
-**Text entry block**: Freeform query using FQL.
+**Text entry block** - Freeform query using FQL.
 
-**Out**: Outputs the result of the query.
+**Out** - Outputs the result of the query.
 
 ## Looping blocks
 
@@ -150,11 +150,11 @@ Executes [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) sy
 
 Performs a loop a specified number of times.
 
-**Count**: The number of times to run the block.
+**Count** - The number of times to run the block.
 
-**Start**: Triggers the block.
+**Start** - Triggers the block.
 
-**Index**: The index of the current run starting at 0 for the first run.
+**Index** - The index of the current run starting at 0 for the first run.
 
 ### For
 
@@ -162,11 +162,11 @@ Performs a loop a specified number of times.
 
 Loops over each item in a list.
 
-**List**: A list of values like `[1,2,3]` or `["one","two","three"]`.
+**List** - A list of values like `[1,2,3]` or `["one","two","three"]`.
 
-**Start**: Receives an event to trigger the block to start.
+**Start** - Receives an event to trigger the block to start.
 
-**Item**: Outputs a single item from the loop.
+**Item** - Outputs a single item from the loop.
 
 ### Collect
 
@@ -174,11 +174,11 @@ Loops over each item in a list.
 
 Collects the results of a for loop, and outputs a list and an event when it has finished.
 
-**Item**: Takes in a single item from a for loop.
+**Item** - Takes in a single item from a for loop.
 
-**List**: Creates a list of all items sent to this block in the for loop.
+**List** - Creates a list of all items sent to this block in the for loop.
 
-**Finish**: Sends an event when the block is complete (when the for loop has ended and every item is in a new list).
+**Finish** - Sends an event when the block is complete (when the for loop has ended and every item is in a new list).
 
 ## Tasks blocks
 
@@ -188,11 +188,11 @@ Collects the results of a for loop, and outputs a list and an event when it has 
 
 Waits the specified amount of time before allowing data through.
 
-**Data (input)**: Triggers the block to start the delay.
+**Data (input)** - Triggers the block to start the delay.
 
-**Data (output)**: Once the delay is complete, passes through whatever data was input.
+**Data (output)** - Once the delay is complete, passes through whatever data was input.
 
-**Delay (in ms)**: The amount of time in milliseconds to wait.
+**Delay (in ms)** - The amount of time in milliseconds to wait.
 
 ### Send Request
 
@@ -200,17 +200,17 @@ Waits the specified amount of time before allowing data through.
 
 Invokes a request in a collection.
 
-**Send**: When any connection fires an event to this port, the block invokes the specified request.
+**Send** - When any connection fires an event to this port, the block invokes the specified request.
 
-**Environment**: Lets you select which Postman environment to use with your request.
+**Environment** - Lets you select which Postman environment to use with your request.
 
-**Body Type**: The schema that your data uses (for example JSON or XML). **Auto** will try to auto-detect which schema is being used.
+**Body Type** - The schema that your data uses (for example JSON or XML). **Auto** will try to auto-detect which schema is being used.
 
-**Variables**: Auto-populates with any `{{variable}}` that's in the specified request. Variables can either be assigned a value in the block itself, or have a value passed in.
+**Variables** - Auto-populates with any `{{variable}}` that's in the specified request. Variables can either be assigned a value in the block itself, or have a value passed in.
 <!-- vale Postman.ComplexWords = NO -->
-**Success**: Contains the response of a successful API call if tests are assigned to the request and all pass or, if there are no tests, a 2xx HTTP status code is received. The API call can then be connected to another block or variable value to extract a field from the response.
+**Success** - Contains the response of a successful API call if tests are assigned to the request and all pass or, if there are no tests, a 2xx HTTP status code is received. The API call can then be connected to another block or variable value to extract a field from the response.
 
-**Failure**: Contains the response of a failed API call if tests are assigned to the request and any fail or, if there are no tests, a non 2xx HTTP status code is received. The API call can then be connected to another block or variable value to extract a field from the response.
+**Failure** - Contains the response of a failed API call if tests are assigned to the request and any fail or, if there are no tests, a non 2xx HTTP status code is received. The API call can then be connected to another block or variable value to extract a field from the response.
 <!-- vale Postman.ComplexWords = YES -->
 
 ## Output block

@@ -86,6 +86,7 @@ Using log statements at appropriate locations in your test scripts can help you 
 * `console.info()`
 * `console.warn()`
 * `console.error()`
+* `console.clear()`
 
 [![Console info](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)
 
