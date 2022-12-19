@@ -19,7 +19,7 @@ FQL uses location path syntax to extract values from JSON structures. The follow
 
 ## Example JSON
 
-The following examples use the following JSON data returned by an endpoint:
+The examples below use this JSON data:
 
 ``` json
 {

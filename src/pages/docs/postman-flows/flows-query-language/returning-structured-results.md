@@ -1,6 +1,6 @@
 ---
 title: "Returning structured data"
-updated: 2022-11-17
+updated: 2022-12-19
 ---
 
 The following examples describe how to use FQL to return structured data from JSON data.
@@ -10,12 +10,12 @@ The following examples describe how to use FQL to return structured data from JS
 * [Example JSON](#example-json)
 * [Return multiple objects as an array](#return-multiple-objects-as-an-array)
 * [Return an array of a single field from multiple objects](#return-an-array-of-a-single-field-from-multiple-objects)
-* [Collapse multiple objects into a single key:value pair](#collapse-multiple-objects-into-a-single-keyvalue-pair)
+* [Collapse multiple objects into a single key-value pair](#collapse-multiple-objects-into-a-single-key-value-pair)
 * [Collapse and group results by a shared field value](#collapse-and-group-results-by-a-shared-field-value)
 
 ## Example JSON
 
-The following examples use the following JSON data returned by an endpoint:
+The examples below use this JSON data:
 
 ``` json
 {
@@ -28,7 +28,7 @@ The following examples use the following JSON data returned by an endpoint:
     },
     "work_address": {
         "street": "583 W. Island Drive",
-        "city": "Maimi",
+        "city": "Miami",
         "state": "FL",
         "zip": "44456"
     },
@@ -61,6 +61,8 @@ The following examples use the following JSON data returned by an endpoint:
 
 ## Return multiple objects as an array
 
+Enter multiple objects' names, separated by commas, between a set of square brackets to get an array of their values.
+
 ### FQL
 
 ``` javascript
@@ -74,7 +76,7 @@ The following examples use the following JSON data returned by an endpoint:
 ``` json
 [
     {"street": "123 Park Avenue","city": "Atlanta","state": "GA","zip": "12345"},
-    {"street": "583 W. Island Drive","city": "Maimi","state": "FL","zip": "44456" },
+    {"street": "583 W. Island Drive","city": "Miami","state": "FL","zip": "44456" },
     {"street": "232 Ravensburg Road","city": "Durham","state": "NC","zip": "03948"}
 ]
 ```
@@ -82,6 +84,8 @@ The following examples use the following JSON data returned by an endpoint:
 ---
 
 ## Return an array of a single field from multiple objects
+
+Add a dot and a specific field's name to a bracketed list of object names to return that field's value from each object.
 
 ### FQL
 
@@ -94,10 +98,10 @@ The following examples use the following JSON data returned by an endpoint:
 ### Result
 
 ``` json
-["Atlanta","Maimi","Durham"]
+["Atlanta","Miami","Durham"]
 ```
 
-## Collapse multiple objects into a single key:value pair
+## Collapse multiple objects into a single key-value pair
 
 ### FQL
 
