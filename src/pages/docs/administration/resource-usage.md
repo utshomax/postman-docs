@@ -34,7 +34,7 @@ Your Postman plan gives you a limited number of requests that can be sent to you
 
 ![Mock server usage error](https://assets.postman.com/postman-docs/v10/usage-error-mocks-v10.jpg)
 
-To make more requests to your mock servers before your monthly limit resets, you can [enable pay-as-you go](/docs/administration/billing/#managing-add-ons), [purchase an add-on](/docs/administration/billing/#purchasing-add-ons), or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+To make more requests to your mock servers before your monthly limit resets, you can [enable pay-as-you-go](/docs/administration/billing/#managing-add-ons), [purchase an add-on](/docs/administration/billing/#purchasing-add-ons), or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
 
 ## Monitoring usage
 
