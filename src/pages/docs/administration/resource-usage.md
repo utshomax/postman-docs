@@ -56,7 +56,7 @@ To add a new custom domain, delete one of your existing custom domains, [purchas
 
 ## Storage usage
 
-Your Postman plan gives you a limited amount of storage for [uploaded images](/docs/publishing-your-api/authoring-your-documentation/#uploading-an-image) in your API documentation. You will get an error message when attempting to upload an image that would exceed your storage limit.
+Your Postman plan gives you a limited amount of storage for [uploaded images](/docs/publishing-your-api/authoring-your-documentation/#uploading-an-image) in your API documentation. You will get an error message if you try to upload an image that would exceed your storage limit.
 
 <img alt="Storage usage error" src="https://assets.postman.com/postman-docs/v10/usage-error-upload-v10.jpg" width="305px"/>
 
