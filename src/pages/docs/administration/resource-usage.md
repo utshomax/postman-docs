@@ -12,7 +12,7 @@ contextual_links:
     url: "https://go.postman.co/billing/add-ons/overview"
 ---
 
-Postman provides you with a limited number of resources you can use each month, depending on your Postman plan. Monthly resources include calls to the Postman API, requests made by monitors and scheduled collection runs, mock server requests, serverless requests, and Cloud Agent requests. Your Postman plan also has other limits, such as the number of integrations you can create, the number of custom domains, and image and file storage.
+Postman provides you with a limited number of resources you can use each month, depending on your Postman plan. Monthly resources include calls to the Postman API, requests made by monitors and scheduled collection runs, mock server requests, and Cloud Agent requests. Your Postman plan also has other limits, such as the number of integrations you can create, the number of custom domains, and storage for uploaded images.
 
 To find out what the resource limits are for your plan, go to the [Postman Plans and Pricing page](https://www.postman.com/pricing/). To view the resources you are using, go to your [Resource Usage dashboard](https://go.postman.co/billing/add-ons/overview). You can view how close you are to your limits and when your monthly limits will reset. If you need more resources, you can [purchase an add-on](/docs/administration/billing/#purchasing-add-ons) or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
 
@@ -25,7 +25,6 @@ Refer to the following sections to understand what happens when your resource us
 * [Custom domains](#custom-domains)
 * [Storage usage](#storage-usage)
 * [Postman API usage](#postman-api-usage)
-* [Serverless requests](#serverless-requests)
 * [Integrations](#integrations)
 * [Cloud Agent usage](#cloud-agent-usage)
 
@@ -35,7 +34,7 @@ Your Postman plan gives you a limited number of requests that can be sent to you
 
 ![Mock server usage error](https://assets.postman.com/postman-docs/v10/usage-error-mocks-v10.jpg)
 
-If you want to make more requests to your mock server before your monthly limit resets, you can [purchase an add-on](/docs/administration/billing/#purchasing-add-ons) or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+If you want to make more requests to your mock servers before your monthly limit resets, you can [purchase an add-on](/docs/administration/billing/#purchasing-add-ons) or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
 
 ## Monitoring usage
 
@@ -73,11 +72,9 @@ Your Postman plan gives you a limited number of requests that can be sent to the
 
 If you want to make more requests to the Postman API before your monthly limit resets, you can [purchase an add-on](/docs/administration/billing/#purchasing-add-ons) or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
 
-## Serverless requests
-
 ## Integrations
 
-Your Postman plan gives you a limited number of [integrations](/docs/integrations/intro-integrations/) you can add to connect Postman to third-party tools you use for API development. After the limit is reached, you won't be able to add a new integration. You will get a notification in the Postman app when attempting to add a new integration.
+Your Postman plan gives you a limited number of [integrations](/docs/integrations/intro-integrations/) for connecting Postman to third-party tools you use for API development. After the limit is reached, you won't be able to add a new integration. You will get a notification in the Postman app when attempting to add a new integration.
 
 <img alt="Integrations limit reached" src="https://assets.postman.com/postman-docs/v10/usage-error-integrations-v10.jpg" width="361px"/>
 
@@ -85,10 +82,10 @@ To add a new integration, delete one of your existing integrations or [upgrade y
 
 ## Cloud Agent usage
 
-The [Postman Cloud Agent](/docs/getting-started/installation-and-updates/#selecting-the-agent-for-requests) enables you to send requests from the Postman web app without encountering Cross Object Resource Sharing (CORS) limitations. Your Postman plan gives you a limited number of requests that can be sent using the Cloud Agent each month. After the limit is reached, you will get a `Cloud Agent Error` message when sending a request from the Postman web app using the Cloud Agent.
+The [Postman Cloud Agent](/docs/getting-started/about-postman-agent/#the-postman-cloud-agent) enables you to send requests from the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) without encountering Cross Object Resource Sharing (CORS) limitations. Your Postman plan gives you a limited number of requests that can be sent using the Cloud Agent each month. After the limit is reached, you will get a `Cloud Agent Error` message when sending a request from the Postman web app using the Cloud Agent.
 
 ![Cloud Agent usage error](https://assets.postman.com/postman-docs/v10/usage-error-cloud-agent-v10.jpg)
 
 If you want to continue sending requests from the Postman web app before your monthly limit resets, [upgrade your plan](/docs/administration/billing/#team-and-plan-changes) or switch to the Postman Desktop Agent. In the error message, select **Use Postman's Desktop Agent**. If you haven't already installed the Desktop Agent, you'll be prompted to download it.
 
-> Learn more about [installing and using the Postman Desktop Agent](/docs/getting-started/installation-and-updates/#installing-the-postman-desktop-agent).
+> Learn more about [installing and using the Postman Desktop Agent](/docs/getting-started/about-postman-agent/#the-postman-desktop-agent).

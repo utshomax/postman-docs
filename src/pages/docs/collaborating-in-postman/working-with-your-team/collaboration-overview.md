@@ -103,7 +103,7 @@ Open the Postman usage menu to review your team's limits for custom domains, ima
 * **Free users** - In the Postman header, select the menu next to **Upgrade**.
 * **Paid users** - In the Postman header, select **Team**.
 
-Select **Resource Usage** to view your usage period and detailed usage of mock servers, monitoring, custom domains, image and file storage, the Postman API, serverless requests, integrations, and the Postman Cloud Agent.
+Select **Resource Usage** to view your usage period and detailed usage of mock servers, monitoring, custom domains, image and file storage, the Postman API, integrations, and the Postman Cloud Agent.
 
 <img src="https://assets.postman.com/postman-docs/team-dropdown-resource-usage-v9-25.jpg" alt="Team resource usage information" width="342px"/>
 
