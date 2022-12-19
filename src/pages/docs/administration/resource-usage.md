@@ -70,7 +70,7 @@ Your Postman plan gives you a limited number of requests that can be sent to the
 
 ![Postman API usage error](https://assets.postman.com/postman-docs/v10/usage-error-api-v10.jpg)
 
-To make more requests to the Postman API before your monthly limit resets, you can [purchase an add-on](/docs/administration/billing/#purchasing-add-ons) or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+To make more requests to the Postman API before your monthly limit resets, you can [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
 
 ## Integrations
 
