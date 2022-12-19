@@ -33,7 +33,9 @@ Your [Team Settings](https://go.postman.co/settings/team/general) enable you to 
 ## Contents
 
 * [Accessing team settings](#accessing-team-settings)
-* [Editing your team profile](#editing-your-team-profile)
+* [Managing your team profile](#managing-your-team-profile)
+    * [Editing your team profile](#editing-your-team-profile)
+    * [Enable your team's public profile](#enable-your-teams-public-profile)
 * [Making your team discoverable](#making-your-team-discoverable)
 * [Adding custom domains](#adding-custom-domains)
 * [Updating billing details](#updating-billing-details)
@@ -46,29 +48,63 @@ You can access team settings by selecting **Team** in the header, then selecting
 
 <img alt="Team menu with Team Settings selected" src="https://assets.postman.com/postman-docs/team-settings-menu-selected.jpg" width="350px"/>
 
-## Editing your team profile
+## Managing your team profile
+
+Your team profile gives you a way to share important information about your team with other Postman users. The profile brings together all your team's public resources in one place, and can serve as a developer portal for your API's consumers.
+
+Your team profile includes:
+
+* A short summary about your team and the work you do
+* Social media links like your GitHub profile
+* A list containing links to your team members' profiles
+* A **Team Description** section
+* A **Highlights** section with pinned elements
+* Links to all your team's public collections, APIs, workspaces, and flows
+
+<!-- TODO: screenshot -->
+
+### Editing your team profile
 
 When you select **Team Settings**, you will be automatically directed to **Team Profile**. Here, you can edit your team's logo, cover photo, domain, favicon, and profile visibility.
 
-<img alt="Edit team profile" src="https://assets.postman.com/postman-docs/edit-team-profile-full-v9.1.jpg"/>
+<!-- TODO: new screenshot -->
 
-**Customize your team's look.** Keep in mind the following when uploading a logo, cover photo, or favicon:
+* **Team summary** - Select **Add team summary**. Use this space to add a summary about your team and the work you do, up to 140 characters. To edit your team summary, hover over the section and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.
+* **Social links** - Select **Add social links**. You can add a link to your website and links to social media accounts. To edit these links, hover over the section and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.
+* **Members** - To manage your team members, hover over this section and select **Manage**. <!-- TODO: confirm -->
+* **About your team** - Select **Add Team Description**. To update your team description, hover over the section and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. The editor supports Markdown, or you can use the built-in text formatting tools.
+* **Highlights** - This section lets you show off your team's work to other Postman users. If you don't choose any elements to pin to this section, Postman displays the most popular elements that you've worked on. To update the highlighted elements, hover over the section and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. Add or remove the desired elements, then select **Save**.
+
+#### Customizing your team's branding
+
+You can also add a **team logo**, **cover photo**, and **favicon** to establish your team identity and ensure consistent branding.
+
+To add these assets, do the following:
+
+1. In **Team settings**, select **Team profile**.
+1. To add a team logo and cover photo, hover over the desired section and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">, then upload the image you want to use.
+1. To add a favicon, select **Upload** under the **Favicon** section.
+
+<!-- TODO: screenshot -->
+
+Keep the following in mind when you upload a logo, cover photo, or favicon:
 
 * Logos and cover photos must be 500 KB or less in size and must be in **.jpg**, **.jpeg**, or **.png** format.
 * Logos must have a 1:1 aspect ratio (height:width), and cover photos must have a 1:7.5 aspect ratio. If your image has a different aspect ratio, Postman prompts you to select a part of your image to display.
 * Favicons must be in **.ico** format, no larger than 32x32 pixels, and 500 KB or less in size. Your favicon appears on the browser tab of your team's published documentation site.
 
-**Make your team discoverable.** If you enable your team's public profile, your team will be visible on Postman's [API Network](/docs/collaborating-in-postman/adding-private-network/), along with any [APIs](/docs/collaborating-in-postman/adding-private-network/#adding-your-apis), [collections](/docs/publishing-your-api/publishing-your-docs/), and [workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) your team has published. You can also add an **About your team** section, a link to your website, and links to social media accounts to your team's public profile.
+### Enable your team's public profile
 
-<!-- An informative and inviting public profile can help increase adoption of your API.
+If you enable your team's public profile, your team will be visible on Postman's [API Network](/docs/collaborating-in-postman/adding-private-network/), along with any [APIs](/docs/collaborating-in-postman/adding-private-network/#adding-your-apis), [collections](/docs/publishing-your-api/publishing-your-docs/), and [workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) your team has published.
 
-Consider adding more information and assets to your team profile:
+A public team profile encourages other users to collaborate with you in a public workspace, allows you to ask for contributions and gather feedback, and increases your API's discovery in search results. A public team profile also shows up on the [Public API Network](https://www.postman.com/explore).
 
-* Add a **team logo**, **cover photo**, and **favicon** to establish your identity and ensure consistent branding.
-* Add information to the **About your team** section to help potential collaborators understand who your team is and what you do.
-* Add links to your team's website and social profiles to give potential collaborators other ways to engage with your team.
+To make your [team profile](https://go.postman.co/settings/team/general) public, do the following:
 
-<img alt="Enable team profile" src="https://assets.postman.com/postman-docs/edit-team-profile-v9.1.0.jpg"/> -->
+1. In **Team settings**, select **Team profile**.
+1. Select **Make team profile public** to set the profile to public.
+
+<!-- TODO: screenshot -->
 
 ## Making your team discoverable
 
