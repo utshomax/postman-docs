@@ -60,6 +60,16 @@ When you select **Team Settings**, you will be automatically directed to **Team 
 
 **Make your team discoverable.** If you enable your team's public profile, your team will be visible on Postman's [API Network](/docs/collaborating-in-postman/adding-private-network/), along with any [APIs](/docs/collaborating-in-postman/adding-private-network/#adding-your-apis), [collections](/docs/publishing-your-api/publishing-your-docs/), and [workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) your team has published. You can also add an **About your team** section, a link to your website, and links to social media accounts to your team's public profile.
 
+<!-- An informative and inviting public profile can help increase adoption of your API.
+
+Consider adding more information and assets to your team profile:
+
+* Add a **team logo**, **cover photo**, and **favicon** to establish your identity and ensure consistent branding.
+* Add information to the **About your team** section to help potential collaborators understand who your team is and what you do.
+* Add links to your team's website and social profiles to give potential collaborators other ways to engage with your team.
+
+<img alt="Enable team profile" src="https://assets.postman.com/postman-docs/edit-team-profile-v9.1.0.jpg"/> -->
+
 ## Making your team discoverable
 
 You can select **Team Discovery** from the left-hand menu to view your options for making your team discoverable to other Postman users with email addresses from your team's domain.
