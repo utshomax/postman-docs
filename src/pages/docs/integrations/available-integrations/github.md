@@ -92,6 +92,8 @@ Every change saved to your Postman collection automatically commits changes to y
 
 <img alt="Collection backup in GitHub" src="https://assets.postman.com/postman-docs/v10/integrations-github-repo-v10.jpg" />
 
+> **You can view your configured integrations on the [Browse Integrations](https://go.postman.co/integrations/browse) page.** You can also view integrations that have been configured for a collection by opening the collection and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Learn more about [viewing or editing integrations](/docs/integrations/intro-integrations/#viewing-or-editing-integrations).
+
 ## Backing up collections to GitHub Enterprise Server
 
 You can back up a Postman collection to a GitHub Enterprise Server repository on a custom domain. Follow the same step as [backing up collections to GitHub](#backing-up-collections-to-github) with the following differences.
@@ -124,7 +126,7 @@ If your GitHub integration has issues or your data isn't pushed to GitHub, make 
 
 * You added the GitHub integration in the same workspace as the content you want to push to the GitHub repository.
 * You selected the correct GitHub integration in Postman. For example, if you use [GitHub Enterprise Server on a custom domain](#backing-up-collections-to-github-enterprise-server), make sure you selected the **Backup a collection (custom domain)** integration.
-* You initialized your GitHub repository with a `README.md` file. When creating a new repository, you can select the **Add a README file** check box.
+* You initialized your GitHub repository with a `README.md` file. When creating a new repository, you can select the **Add a README file** checkbox.
 * You selected the correct permissions when creating your GitHub [personal access token](#generating-a-github-personal-access-token):
 
     * **Classic token** - Make sure to select the `repo` and `user` scopes.

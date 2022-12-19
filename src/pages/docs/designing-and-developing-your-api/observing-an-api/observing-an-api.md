@@ -23,7 +23,7 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
-You can use Postman monitors to observe the performance and availability of your APIs. <!-- After you link a collection-based monitor, you can view monitor results in the API Builder. -->
+You can use Postman Monitors to observe the performance and availability of your APIs. <!-- After you link a collection-based monitor, you can view monitor results in the API Builder. -->
 
 Monitor integrations enable you to send the results of collection-based monitors to Slack, Splunk, and other channels. You can also view application performance management (APM) metrics from New Relic or Datadog within Postman.
 
@@ -77,7 +77,7 @@ For more about creating a monitor, see [Setting up a collection-based monitor](/
 
 ## Connecting to monitor integrations
 
-Postman integrations enable you to send the results of collection-based monitors to a variety of applications and channels, such as Slack, Microsoft Teams, Datadog, or Splunk. You can also send monitor results to a custom webhook to integrate Postman monitors with your specific workflow.
+Postman integrations enable you to send the results of collection-based monitors to a variety of applications and channels, such as Slack, Microsoft Teams, Datadog, or Splunk. You can also send monitor results to a custom webhook to integrate monitors with your specific workflow.
 
 <!-- The **Monitoring** view in the API Builder provides one place to manage all your API's integrations for collection-based monitors. You can set up a new integration, track results, and view your configured monitor integrations.
 

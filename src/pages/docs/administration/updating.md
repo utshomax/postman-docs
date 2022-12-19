@@ -49,7 +49,7 @@ If you are using Postman v9.13 or later, Postman automatically downloads updates
 
 <img alt="Settings Update" src ="https://assets.postman.com/postman-docs/v10/settings-update-v9-to-v10.jpg"/>
 
-You will need to restart Postman to install the update. Select __Restart and Install Update__.
+You will need to restart Postman to install the update. Select **Restart and Install Update**.
 
 <img alt="Restart and install" src ="https://assets.postman.com/postman-docs/v10/restart-and-install-update-v9-to-v10.jpg"/>
 
@@ -61,7 +61,7 @@ You can move from Postman v8 to Postman v9 by navigating to **Settings** and sel
 
 <img alt="Settings Update" src ="https://assets.postman.com/postman-docs/settings-update-v8-to-v9.jpg"/>
 
-You will need to restart Postman to install the update. Select __Restart and Install Update__.
+You will need to restart Postman to install the update. Select **Restart and Install Update**.
 
 <img alt="Restart and install modal" src ="https://assets.postman.com/postman-docs/restart-and-install-update-v8.jpg" width="450px"/>
 
@@ -75,15 +75,15 @@ You can start using Postman v9 once the update is completed.
 
 Non-team users on v7 can update to v8 by navigating to **Settings** and selecting **Update**, then **Download update**.
 
-It's important to make sure your work is synced so that no data is lost during the update. Select __Verify Sync__.
+It's important to make sure your work is synced so that no data is lost during the update. Select **Verify Sync**.
 
 <img alt="Verify Sync modal" src ="https://assets.postman.com/postman-docs/verify-sync-before-updating-v8.jpg" width="450px"/>
 
-Once your work is synced, you can update to Postman v8. Select __Update to v8__.
+Once your work is synced, you can update to Postman v8. Select **Update to v8**.
 
 <img alt="Work in Sync modal" src ="https://assets.postman.com/postman-docs/sync-update-confirmed-v8.jpg" width="450px"/>
 
-You will need to restart Postman to install the update. Select __Restart and Install Update__.
+You will need to restart Postman to install the update. Select **Restart and Install Update**.
 
 <img alt="Restart and install modal" src ="https://assets.postman.com/postman-docs/restart-and-install-update-v8.jpg" width="450px"/>
 
@@ -91,7 +91,7 @@ You can start using Postman v8 once the update is completed.
 
 ### Updating to v8 as a team
 
-Team members on v7 can update to v8 by navigating to **Settings** and selecting **Update**, then **Download update**. You don't need an approval from an admin to update from v7 to v8.
+Users on v7 can update to v8 by navigating to **Settings** and selecting **Update**, then **Download update**. You don't need an approval from an admin to update from v7 to v8.
 
 > If you're on a team and download Postman v8 while the rest of your team is using Postman v7, you will still be able to use v8. Syncing and collaboration won't be affected.
 

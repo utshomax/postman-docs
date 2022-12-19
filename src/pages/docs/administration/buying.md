@@ -30,7 +30,7 @@ Visit the [pricing page](https://www.postman.com/pricing) to purchase a Postman 
 During the buying process you will be prompted to supply the following details:
 
 * Your billing cycle (monthly or annual).
-* How many paid user slots you need (you'll need a paid slot for anyone who needs to access the relevant Postman features, but each team has two free slots you can use for account management or billing).
+* How many paid user seats you need (you'll need a paid seat for anyone who needs to access the relevant Postman features, but each team has two free seats you can use for account management or billing).
 * Your account email and [role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) (Admin if you're going to be using the paid Postman plan yourself, or Billing if you are only making the purchase).
     * If you choose the Billing role you can also enter an admin email address, which is where your account activation email will be sent so that the administrator can get your Postman plan set up.
 
@@ -39,7 +39,7 @@ Once your plan configuration is in place you can enter your payment details. __Y
 * For security reasons, Postman doesn't store any payment method data. The data is stored only by payment provider Stripe, who are certified to PCI Service Provider Level 1.
 * Review the details of your plan to ensure they're correct before you submit your payment details.
 * After payment, you'll receive a confirmation with the transaction ID. Use this ID for any communication with Postman.
-* The designated admin will receive an activation link where you can begin inviting your team members. Billing-only users will receive a link to join the team in the Billing role.
+* The assigned Admin will receive an activation link where you can begin inviting users. Billing-only users will receive a link to join the team in the Billing role.
 
 ## Next steps
 

@@ -71,6 +71,10 @@ export const leftNavItems = [
         url: '/docs/getting-started/creating-the-first-collection/',
       },
       {
+        name: 'About the Postman Agent',
+        url: '/docs/getting-started/about-postman-agent/',
+      },
+      {
         name: 'Using the Scratch Pad',
         url: '/docs/getting-started/using-scratch-pad/',
       },
@@ -915,7 +919,7 @@ export const leftNavItems = [
         url: '/docs/administration/team-settings/',
       },
       {
-        name: 'Utilizing audit logs',
+        name: 'Using audit logs',
         url: '/docs/administration/audit-logs/',
       },
       {
@@ -1199,16 +1203,16 @@ export const leftNavItems = [
             url: '/docs/integrations/available-integrations/pagerduty/',
           },
           {
+            name: 'Slack',
+            url: '/docs/integrations/available-integrations/slack/',
+          },
+          {
             name: 'Splunk',
             url: '/docs/integrations/available-integrations/splunk/',
           },
           {
             name: 'Splunk On-Call',
             url: '/docs/integrations/available-integrations/splunk-on-call/',
-          },
-          {
-            name: 'Slack',
-            url: '/docs/integrations/available-integrations/slack/',
           },
           {
             name: 'Statuspage',

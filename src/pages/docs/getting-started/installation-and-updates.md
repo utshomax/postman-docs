@@ -72,7 +72,7 @@ Postman is available for macOS 10.11 (El Capitan) and later.
 
     > Make sure to download the **Mac Apple Chip** version if you have a Mac with the M1 or M2 processor.
 
-1. If your browser downloads the file as a ZIP file, find the file in the **Downloads** folder and unzip it.
+1. If your browser downloads the file as a zip file, find the file in the **Downloads** folder and unzip it.
 1. In the **Downloads** folder, double-click the `Postman` file to install it.
 1. When prompted, move the file to your __Applications__ folder. This will ensure that future updates can be installed correctly.
 
@@ -127,7 +127,9 @@ Categories=Development;
 
 ## Using the Postman web app
 
-You can use Postman in your web browser to carry out your API development and testing tasks in conjunction with the Postman Agent. To access the Postman web app, visit [go.postman.co/home](https://go.postman.co/home).
+You can use Postman in your web browser to carry out your API development and testing tasks in conjunction with the Postman Agents. To access the Postman web app, visit [go.postman.co/home](https://go.postman.co/home).
+
+> If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/about-postman-agent/) for more information.
 
 ### Browser requirements
 
@@ -140,24 +142,7 @@ The Postman web app is optimized for the following browsers:
 
 ### Installing the Postman Desktop Agent
 
-If you are using the Postman web app, you also need to download the Postman Desktop Agent, a micro-application that runs locally on your desktop. The Desktop Agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers and acts as your agent for making API calls from the Postman web app.
-
-You will be prompted to download and install the Desktop Agent so that you can make requests from the Postman web app. You can also download the agent directly from [the Postman Agent page](https://www.postman.com/downloads/postman-agent/). Once you have the Desktop Agent installed you will be able to use it with web requests.
-
-To learn more about the Postman Desktop Agent, read the [Introducing the Postman Agent](https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/) blog post.
-
-### Selecting the agent for requests
-
-From the Postman web app, you can select the agent you would like to use for your requests:
-
-* **Auto-select** - Postman automatically selects the best agent to use for your request.
-* **Cloud** - Manually select this option to send HTTP requests using Postman's cloud servers.
-* **Desktop** - Manually select this option to send requests using the Postman Desktop Agent.
-* **Browser** - Manually select this option to send requests using your browser, with some [limitations](#web-limitations).
-
-<img alt="Select agent" src="https://assets.postman.com/postman-docs/select-agent-for-requests.gif">
-
-> If you send a request and it isn't successful because the agent isn't selected, you can use the provided link in the response area to switch to the agent and send your request again.
+If you are using the Postman web app, Postman recommends downloading and installing the [Postman Desktop Agent](/docs/getting-started/about-postman-agent/#the-postman-desktop-agent), a micro-application that runs locally on your desktop. The Postman Desktop Agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers and acts as your agent for making API requests from the Postman web app.
 
 ### Web limitations
 
