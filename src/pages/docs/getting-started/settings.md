@@ -34,6 +34,17 @@ Postman automatically chooses default values for some settings so you can get ri
 
 To change settings in Postman, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and then select **Settings**. In the Postman desktop app, you can also select **⌘+Comma (,)** or **Ctrl+Comma (,)**.
 
+## Contents
+
+* [General](#general)
+* [Themes](#themes)
+* [Shortcuts](#shortcuts)
+* [Data](#data)
+* [Add-ons](#add-ons)
+* [Certificates](#certificates)
+* [Proxy](#proxy)
+* [About](#about)
+
 ## General
 
 Use the settings on the **General** tab to configure how Postman sends requests or to customize the Postman user interface.
@@ -94,9 +105,9 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 ## Themes
 
-Pick your pleasure: select a light or dark theme for Postman.
+Select a **Light** or **Dark** theme for Postman. If you're using the Postman desktop app, you can also select **System Default**, which syncs your Postman theme to your operating system settings.
 
-[![Themes settings](https://assets.postman.com/postman-docs/themes-settings-v8-9.jpg)](https://assets.postman.com/postman-docs/themes-settings-v8-9.jpg)
+<img alt="Select a theme" src="https://assets.postman.com/postman-docs/v10/settings-theme-v10.jpg" width="700px"/>
 
 ## Shortcuts
 
