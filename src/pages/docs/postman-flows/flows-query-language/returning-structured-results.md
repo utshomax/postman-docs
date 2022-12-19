@@ -85,7 +85,7 @@ Enter multiple objects' names, separated by commas, between a set of square brac
 
 ## Return an array of a single field from multiple objects
 
-Add a dot and a specific field's name to a bracketed list of object names to return that field's value from each object.
+Add a dot and a specific key to a bracketed list of object names to return that key's value from each object.
 
 ### FQL
 
