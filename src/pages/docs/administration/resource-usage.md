@@ -34,7 +34,7 @@ Your Postman plan gives you a limited number of requests that can be sent to you
 
 ![Mock server usage error](https://assets.postman.com/postman-docs/v10/usage-error-mocks-v10.jpg)
 
-If you want to make more requests to your mock servers before your monthly limit resets, you can [purchase an add-on](/docs/administration/billing/#purchasing-add-ons) or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+To make more requests to your mock servers before your monthly limit resets, you can [enable pay-as-you go](/docs/administration/billing/#managing-add-ons), [purchase an add-on](/docs/administration/billing/#purchasing-add-ons), or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
 
 ## Monitoring usage
 
@@ -42,7 +42,7 @@ Your Postman plan gives you a limited number of requests that can be run by your
 
 <img alt="Monitors usage error" src="https://assets.postman.com/postman-docs/v10/usage-error-monitors-v10.jpg" width="361px"/>
 
-Once you've reached your usage limit, your monitors and scheduled collection runs will no longer run on their configured schedules and can't be run manually. If you want to resume running your monitors and scheduled collection runs before your monthly limit resets, you can [purchase an add-on](/docs/administration/billing/#purchasing-add-ons) or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+Once you've reached your usage limit, your monitors and scheduled collection runs will no longer run on their configured schedules and can't be run manually. To resume running your monitors and scheduled collection runs before your monthly limit resets, you can [enable pay-as-you go](/docs/administration/billing/#managing-add-ons), [purchase an add-on](/docs/administration/billing/#purchasing-add-ons), or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
 
 > Learn more about [viewing and managing your monitor usage](/docs/monitoring-your-api/monitor-usage/).
 
@@ -52,7 +52,7 @@ Postman Basic, Professional, and Enterprise plans give you a limited number of [
 
 ![Custom domains limit reached](https://assets.postman.com/postman-docs/v10/usage-error-custom-domains-v10.jpg)
 
-To add a new custom domain, delete one of your existing custom domains or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+To add a new custom domain, delete one of your existing custom domains, [purchase an add-on](/docs/administration/billing/#purchasing-add-ons), or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
 
 ## Storage usage
 
@@ -70,7 +70,7 @@ Your Postman plan gives you a limited number of requests that can be sent to the
 
 ![Postman API usage error](https://assets.postman.com/postman-docs/v10/usage-error-api-v10.jpg)
 
-If you want to make more requests to the Postman API before your monthly limit resets, you can [purchase an add-on](/docs/administration/billing/#purchasing-add-ons) or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+To make more requests to the Postman API before your monthly limit resets, you can [purchase an add-on](/docs/administration/billing/#purchasing-add-ons) or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
 
 ## Integrations
 
@@ -86,6 +86,6 @@ The [Postman Cloud Agent](/docs/getting-started/about-postman-agent/#the-postman
 
 ![Cloud Agent usage error](https://assets.postman.com/postman-docs/v10/usage-error-cloud-agent-v10.jpg)
 
-If you want to continue sending requests from the Postman web app before your monthly limit resets, [upgrade your plan](/docs/administration/billing/#team-and-plan-changes) or switch to the Postman Desktop Agent. In the error message, select **Use Postman's Desktop Agent**. If you haven't already installed the Desktop Agent, you'll be prompted to download it.
+To continue sending requests from the Postman web app before your monthly limit resets, [upgrade your plan](/docs/administration/billing/#team-and-plan-changes) or switch to the Postman Desktop Agent. In the error message, select **Use Postman's Desktop Agent**. If you haven't already installed the Desktop Agent, you'll be prompted to download it.
 
 > Learn more about [installing and using the Postman Desktop Agent](/docs/getting-started/about-postman-agent/#the-postman-desktop-agent).
