@@ -20,7 +20,7 @@ Refer to the following sections to understand what happens when your resource us
 
 ## Contents
 
-* [Mock usage](#mock-usage)
+* [Mock server usage](#mock-server-usage)
 * [Monitoring usage](#monitoring-usage)
 * [Custom domains](#custom-domains)
 * [Storage usage](#storage-usage)
@@ -28,7 +28,7 @@ Refer to the following sections to understand what happens when your resource us
 * [Integrations](#integrations)
 * [Cloud Agent usage](#cloud-agent-usage)
 
-## Mock usage
+## Mock server usage
 
 Your Postman plan gives you a limited number of requests that can be sent to your [Postman mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) each month. Requests to all of your mock servers count toward this same limit. After the limit is reached, you will get a `Usage limit reached` error message when sending a request to one of your mock servers.
 
