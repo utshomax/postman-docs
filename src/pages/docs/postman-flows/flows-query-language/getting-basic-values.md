@@ -1,6 +1,6 @@
 ---
 title: "Getting basic values"
-updated: 2022-11-17
+updated: 2022-12-15
 ---
 
 FQL uses location path syntax to extract values from JSON structures. The following examples demonstrate several examples of getting basic values from JSON data.
@@ -15,6 +15,7 @@ FQL uses location path syntax to extract values from JSON structures. The follow
 * [Select an entire array](#select-an-entire-array)
 * [Return one field of every object in an array](#return-one-field-of-every-object-in-an-array)
 * [Return fields that contain special characters in the key name](#return-fields-that-contain-special-characters-in-the-key-name)
+* [Get the number of elements in a list](#get-the-number-of-elements-in-a-list)
 
 ## Example JSON
 
@@ -183,4 +184,18 @@ If a field in the JSON file contains special characters (like spaces), put the f
 
 ``` json
 "myuser123"
+```
+
+## Get the number of elements in a list
+
+### FQL
+
+``` javascript
+$count(phones)
+```
+
+### Result
+
+``` json
+2
 ```

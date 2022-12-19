@@ -1,6 +1,6 @@
 ---
 title: "Conditional data selection"
-updated: 2022-11-16
+updated: 2022-12-15
 ---
 
 You can use [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to filter for specific data in your responses. Multiple responses return in an array. Single responses return as a single record. Sample data and FQL examples are below.
@@ -129,4 +129,18 @@ $contains(payments[0].description, 'recurring')
 
 ``` json
 true
+```
+
+## Get only unique payment amounts
+
+### FQL
+
+``` javascript
+$distinct(payments.amount)
+```
+
+### Result
+
+``` json
+[110.48, 24.49, 35.56]
 ```
