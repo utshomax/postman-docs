@@ -8,7 +8,7 @@ You can use [Flows Query Language](/docs/postman-flows/flows-query-language/intr
 ## Contents
 
 * [Example JSON](#example-json)
-* [Filter query results for objects with specific key/value pairs](#filter-query-results-for-objects-with-specific-keyvalue-pairs)
+* [Filter query results for objects with specific key-value pairs](#filter-query-results-for-objects-with-specific-key-value-pairs)
 * [Navigate your filtered results](#navigate-your-filtered-results)
 * [Return a single record](#return-a-single-record)
 * [Check if a field has a specific value](#check-if-a-field-has-a-specific-value)
@@ -54,9 +54,9 @@ The examples below use this JSON data:
     }
 ```
 
-## Filter query results for objects with specific key/value pairs
+## Filter query results for objects with specific key-value pairs
 
-The example below filters for objects in the `payments` array that have the key/value pair `"description": "recurring subscription"`.
+The example below filters for objects in the `payments` array that have the key-value pair `"description": "recurring subscription"`.
 
 ### FQL
 
@@ -117,7 +117,7 @@ When a filter has a single result, it returns as a record instead of an array. T
 
 ## Check if a field has a specific value
 
-FQL can check if your query results have a specific key/value pair and return `true` or `false`. The example below checks the first item in the `payments` array for the key/value pair `"description": "recurring"`.
+FQL can check if your query results have a specific key-value pair and return `true` or `false`. The example below checks the first item in the `payments` array for the key-value pair `"description": "recurring"`.
 
 ### FQL
 
