@@ -62,7 +62,9 @@ The **Team activity** report gives more details about your team members' activit
 
 ## Resource usage
 
-The **Resource usage** report gives more information on how your team is using Postman resources, including:
+The **Resource usage** report gives more information on how your team is using Postman resources.
+
+> To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).
 
 ### Team slots
 
