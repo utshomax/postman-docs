@@ -103,9 +103,9 @@ To learn how to manage team roles in Postman, see [Managing your team](/docs/adm
 
 You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) three role types in Postman workspaces: **Admin**, **Editor**, and **Viewer**. Partner Workspaces offer an additional role type: **Partner Lead**.
 
-* **Admin** - Can manage workspace resources and settings
-* **Editor** - Can create and edit workspace resources
-* **Viewer** - Can view, fork, and export workspace resources
+* **Admin** - Can manage workspace resources and settings.
+* **Editor** ([Paid plans only](https://www.postman.com/pricing)) - Can create and edit workspace resources.
+* **Viewer** ([Paid plans only](https://www.postman.com/pricing)) - Can view, fork, and export workspace resources.
 * **Partner Lead** (External, [Enterprise plans only](https://www.postman.com/pricing)) - Can invite other partners from their organization to join a [Partner Workspace](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/). To learn more, see [Partner roles](#partner-roles).
 
 The following roles control access at a workspace level:
