@@ -56,7 +56,7 @@ The examples below use this JSON data:
 
 ## Filter query results for objects with specific key/value pairs
 
-The example below filters for objects in the `payments` array that have the key/value pair `"description": "recurring subscription"`.
+The example below filters for objects in the `payments` array that have the key-value pair `"description": "recurring subscription"`.
 
 ### FQL
 
