@@ -1,7 +1,7 @@
 ---
 title: "Defining roles"
 order: 72
-updated: 2022-05-11
+updated: 2022-12-19
 page_id: "roles_and_permissions"
 warning: false
 contextual_links:
