@@ -53,7 +53,7 @@ Roles define user permissions within a Postman team and a user's level of access
 
 With the [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you have the power to define Postman access at the team level. You can use Postman's role-based access control system to limit visibility of team resources, define your development workflow, and give access to administrative and billing personnel. Each user on a team must have at least one role attached to them, and can hold multiple roles simultaneously.
 
-You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to users on a team, based on the functions those users require:
+You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to team members, based on the functions those team members require:
 
 * **Super Admin** - Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, API Network Manager, Developer, Monitor Editor, and Monitor Viewer roles can perform ([Enterprise plans only](https://www.postman.com/pricing)).
 * **Admin** - Manages team members and team settings. Can also view monitor metadata and run, pause, and resume monitors.
@@ -256,6 +256,6 @@ All partners are assigned Workspace Editor or Viewer roles when invited to a Par
 
 ## Next steps
 
-After learning about the roles available to users, you can manage your team's level of access and control more effectively.
+After learning about the roles available to team members, you can manage your team's level of access and control more effectively.
 
 * To learn more about team management, including managing team roles and inviting collaborators to join your team, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).

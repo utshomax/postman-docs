@@ -58,7 +58,7 @@ To convert an existing workspace to a Partner Workspace, do the following:
 
 Anyone with permissions to change workspace visibility can request to convert a workspace into a Partner Workspace, but it must be approved by a [Partner Manager](#managing-users-and-roles). If you're not a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or Partner Manager, Postman will mention this and you can add an optional note to your request. Postman will notify you when a Partner Manager reviews your request and approves or denies it.
 
-> When a workspace is converted to a Partner Workspace, Postman sends in-app and email notifications to all workspace users.
+> When a workspace is converted to a Partner Workspace, Postman sends in-app and email notifications to all workspace members.
 
 ## Setting up a Partner Workspace
 
@@ -191,4 +191,4 @@ Workspace Admins and Partner Managers can delete Partner Workspaces.
 1. Select **Remove all partners**, then select **Update**.
 1. Select **Delete Workspace**.
 
-> Postman notifies all workspace users in-app and by email when you delete a Partner Workspace.
+> Postman notifies all workspace members in-app and by email when you delete a Partner Workspace.
