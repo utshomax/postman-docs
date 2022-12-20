@@ -61,7 +61,7 @@ The examples below use this JSON data:
 
 ## Return multiple objects as an array
 
-Enter multiple objects' names, separated by commas, between a set of square brackets to get an array of their values.
+Enter multiple objects' names as an array to get an array of their values.
 
 ### FQL
 
@@ -85,7 +85,7 @@ Enter multiple objects' names, separated by commas, between a set of square brac
 
 ## Return an array of a single field from multiple objects
 
-Add a dot and a specific key to a bracketed list of object names to return that key's value from each object.
+Add a dot and a key name to a bracketed list of object names to return that key's value from each object.
 
 ### FQL
 
@@ -102,6 +102,8 @@ Add a dot and a specific key to a bracketed list of object names to return that 
 ```
 
 ## Collapse multiple objects into a single key-value pair
+
+Create an array of key-value pairs from specific keys and values in an object.
 
 ### FQL
 
