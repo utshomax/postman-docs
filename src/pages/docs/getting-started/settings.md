@@ -34,6 +34,17 @@ Postman automatically chooses default values for some settings so you can get ri
 
 To change settings in Postman, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and then select **Settings**. In the Postman desktop app, you can also select **⌘+Comma (,)** or **Ctrl+Comma (,)**.
 
+## Contents
+
+* [General](#general)
+* [Themes](#themes)
+* [Shortcuts](#shortcuts)
+* [Data](#data)
+* [Add-ons](#add-ons)
+* [Certificates](#certificates)
+* [Proxy](#proxy)
+* [About](#about)
+
 ## General
 
 Use the settings on the **General** tab to configure how Postman sends requests or to customize the Postman user interface.
@@ -61,7 +72,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 **The working directory is also used by Newman.** Store files you want to upload to Newman in the working directory path saved in the collection. Learn more about [file uploads in Newman](/docs/running-collections/using-newman-cli/newman-file-uploads/).
 
-**You can't change the working directory in the Postman web app.** When you upload a file, the Postman web app creates a new folder with a random name in the `~/Postman/files` directory. Postman stores the uploaded file in the new folder so you can use it when sending requests. To automatically sync files you upload to the Postman web app with your local working directory, make sure you are using the [Postman Desktop Agent](/docs/getting-started/installation-and-updates/#using-the-postman-web-app).
+**You can't change the working directory in the Postman web app.** When you upload a file, the Postman web app creates a new folder with a random name in the `~/Postman/files` directory. Postman stores the uploaded file in the new folder so you can use it when sending requests. To automatically sync files you upload to the Postman web app with your local working directory, make sure you are using the [Postman Desktop Agent](/docs/getting-started/about-postman-agent/#the-postman-desktop-agent).
 
 **Use caution with files located outside your working directory.** To use files located outside your working directory when sending requests, turn on **Allow reading files outside working directory**. This option gives third-party collections the ability to read any file on your system. Use caution, and make sure you trust all third-party collections you are using before enabling this option.
 
@@ -94,9 +105,9 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 ## Themes
 
-Pick your pleasure: select a light or dark theme for Postman.
+Select a **Light** or **Dark** theme for Postman. If you're using the Postman desktop app, you can also select **System Default**, which syncs your Postman theme to your operating system settings.
 
-[![Themes settings](https://assets.postman.com/postman-docs/themes-settings-v8-9.jpg)](https://assets.postman.com/postman-docs/themes-settings-v8-9.jpg)
+<img alt="Select a theme" src="https://assets.postman.com/postman-docs/v10/settings-theme-v10.jpg" width="700px"/>
 
 ## Shortcuts
 
