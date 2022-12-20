@@ -45,6 +45,8 @@ The Postman Cloud Agent enables you to bypass the limitations that exist in the 
 
 Your team can make a set number of requests using the Postman Cloud Agent each month. Your [team's usage limits](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#team-usage-limits) are based on your [plan type](https://www.postman.com/pricing/). To view your team's usage of the Postman Cloud Agent, see [Managing add-ons](/docs/administration/billing/#managing-add-ons).
 
+> To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).
+
 ### The Postman Browser Agent
 
 The Postman Browser Agent sends API requests using your browser, with some [limitations](/docs/getting-started/installation-and-updates/#web-limitations). You might experience the CORS limitations of browsers when using the Postman Browser Agent.
