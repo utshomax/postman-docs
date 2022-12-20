@@ -85,7 +85,7 @@ Enter multiple objects' names as an array to get an array of their values.
 
 ## Return an array of a single field from multiple objects
 
-Add a dot and a key name to a bracketed list of object names to return that key's value from each object.
+Add a dot and a key name to an array of object names to return that key's value from each object.
 
 ### FQL
 
@@ -103,7 +103,7 @@ Add a dot and a key name to a bracketed list of object names to return that key'
 
 ## Collapse multiple objects into a single key-value pair
 
-Create an array of key-value pairs from specific keys and values in an object.
+Add a dot and a key-value pair to an object's name to return an array of key-value pairs composed of values from within the object.
 
 ### FQL
 
