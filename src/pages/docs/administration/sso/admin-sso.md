@@ -47,34 +47,35 @@ To add an authentication method, do the following:
 
 ### Configuring the identity provider details
 
-After [adding the authentication method](#configuring-single-sign-on), you can configure the identity provider details. To continue configuring the identity provider details later, select **Configure Later**. When you're ready to continue configuring the identity provider details, see [Edit SSO settings](#edit-sso-settings).
+After [adding the authentication method](#configuring-single-sign-on), you can configure the identity provider details.
 
-1. In the **Service provider details (Postman)** section, the **Entity ID**, **Login URL**, and **ACS URL** are already populated. Optionally, you can select the **Sign SAML requests** checkbox for Postman to sign authentication requests sent to the identity provider. Select **Download** to download the certificate, and then send the certificate to your identity provider.
-1. Fill in the **Identity provider details** section. From your IdP account, enter your **SSO URL**, **Identity provider issuer**, and **X.509 Certificate**. Instead, you can upload a metadata file to configure the identity provider details in one step.
+> To continue configuring the identity provider details later, select **Configure Later**. When you're ready to continue configuring the identity provider details, see [Edit SSO settings](#edit-sso-settings).
 
-    To enter details in the **Identity provider details** section, you must sign in to your IdP account and get the details. Refer to the corresponding section of the documentation and follow the outlined procedure there:
+In the **Service provider details (Postman)** section, the **Entity ID**, **Login URL**, and **ACS URL** are already populated. Optionally, you can select the **Sign SAML requests** checkbox for Postman to sign authentication requests sent to the identity provider. Select **Download** to download the certificate, and then send the certificate to your identity provider.
 
-    * [Setting up SSO with Google Workspace](/docs/administration/sso/google-workspace/)
+Fill in the **Identity provider details** section. From your IdP account, enter your **SSO URL**, **Identity provider issuer**, and **X.509 Certificate**. Instead, you can upload a metadata file to configure the identity provider details in one step.
 
-    * [Setting up SSO with Okta](/docs/administration/sso/okta/)*
+<img alt="" src="https://assets.postman.com/postman-docs/v10/configure-identity-provider-details-v10.jpg"/>
 
-    * [Setting up SSO with Duo](/docs/administration/sso/duo/)*
+To enter details in the **Identity provider details** section, you must sign in to your IdP account and get the details. Refer to the corresponding section of the documentation and follow the outlined procedure there:
 
-    * [Setting up SSO with OneLogin](/docs/administration/sso/onelogin/)*
+* [Setting up SSO with Google Workspace](/docs/administration/sso/google-workspace/)
 
-    * [Setting up SSO with Ping Identity](/docs/administration/sso/ping-identity/)*
+* [Setting up SSO with Okta](/docs/administration/sso/okta/)*
 
-    * [Setting up SSO with Azure AD](/docs/administration/sso/azure-ad/)*
+* [Setting up SSO with Duo](/docs/administration/sso/duo/)*
 
-    * [Setting up SSO with Microsoft AD FS](/docs/administration/sso/microsoft-adfs/)*
+* [Setting up SSO with OneLogin](/docs/administration/sso/onelogin/)*
 
-    &#42; Only available on Enterprise plans.
+* [Setting up SSO with Ping Identity](/docs/administration/sso/ping-identity/)*
 
-1. (Optional) Select the [**Automatically add new users**](#automatically-adding-new-users) checkbox if you want users to automatically join your team the first time they log in to Postman through this IdP.
+* [Setting up SSO with Azure AD](/docs/administration/sso/azure-ad/)*
 
-1. Select **Save Authentication**.
+* [Setting up SSO with Microsoft AD FS](/docs/administration/sso/microsoft-adfs/)*
 
-   <img alt="" src="https://assets.postman.com/postman-docs/v10/configure-identity-provider-details-v10.jpg"/>
+&#42; Only available on Enterprise plans.
+
+Optionally, you can select the [**Automatically add new users**](#automatically-adding-new-users) checkbox if you want users to automatically join your team the first time they log in to Postman through this IdP.
 
 ## Edit SSO settings
 
@@ -117,13 +118,15 @@ The first time an existing Postman user [logs in to Postman through the IdP](/do
 * The team has available seats and the [**Automatically add new users**](#automatically-adding-new-users) checkbox was selected during [SSO configuration](#configuring-the-identity-provider-details).
 * A Team Admin has [invited the user](/docs/administration/managing-your-team/managing-your-team/#inviting-users) to join the team.
 
+The user will be automatically associated to the team with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and have access to team resources.
+
 > If the required conditions aren't met to automatically join the team, all Team Admins will receive your request to join the team.
 
 ### Automatically adding new users
 
 The **Automatically add new users** checkbox in your [SSO configuration](#configuring-the-identity-provider-details) determines whether users with accounts in your IdP are allowed to join your team automatically by [logging in to Postman through the IdP](/docs/administration/sso/user-sso/). If this is selected, users with or without existing Postman accounts can join your team by going to the [Enterprise sign in page](https://identity.getpostman.com/enterprise/login) and logging in with SSO.
 
-> **Automatically add new users** will only work if your team has user seats available. Your team size won't be automatically increased if more users sign in with SSO.
+> **Automatically add new users** will only work if your team has user seats available. Your team size won't automatically increase if more users sign in with SSO.
 
 ### Managing team logins
 
