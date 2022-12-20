@@ -126,6 +126,8 @@ phones.{type: number}
 
 ## Collapse and group results by a shared field value
 
+Add open and close square brackets to return values as an array if they have the same field name.
+
 ### FQL
 
 ``` javascript
