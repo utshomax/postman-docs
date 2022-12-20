@@ -1,21 +1,21 @@
 ---
 title: "Conditional data selection"
-updated: 2022-11-16
+updated: 2022-12-15
 ---
 
-You can use [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to filter for specific data in your responses. Sample data and FQL examples are below.
+You can use [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to filter for specific data in your responses. Multiple responses return in an array. Single responses return as a single record. Sample data and FQL examples are below.
 
 ## Contents
 
 * [Example JSON](#example-json)
-* [Filter for a customer's recurring subscription payments](#filter-for-a-customers-recurring-subscription-payments)
-* [Filter for the invoice numbers of recurring payments](#filter-for-the-invoice-numbers-of-recurring-payments)
-* [When your filter matches a single record](#when-your-filter-matches-a-single-record)
-* [Checking if a field contains a value](#checking-if-a-field-contains-a-value)
+* [Filter query results for objects with specific key-value pairs](#filter-query-results-for-objects-with-specific-key-value-pairs)
+* [Navigate your filtered results](#navigate-your-filtered-results)
+* [Return a single record](#return-a-single-record)
+* [Check if a field has a specific value](#check-if-a-field-has-a-specific-value)
 
 ## Example JSON
 
-The following examples use the following JSON data returned by an endpoint:
+The examples below use this JSON data:
 
 ``` json
     {
@@ -54,7 +54,9 @@ The following examples use the following JSON data returned by an endpoint:
     }
 ```
 
-## Filter for a customer's recurring subscription payments
+## Filter query results for objects with specific key-value pairs
+
+The example below filters for objects in the `payments` array that have the key-value pair `"description": "recurring subscription"`.
 
 ### FQL
 
@@ -81,7 +83,9 @@ payments[description='recurring subscription']
 ]
 ```
 
-## Filter for the invoice numbers of recurring payments
+## Navigate your filtered results
+
+FQL uses the same syntax to navigate filtered query results as it does to navigate JSON data. The example below gets the values from the `invoice.number` fields in the `payments` array.
 
 ### FQL
 
@@ -95,9 +99,9 @@ payments[description='recurring subscription']
  ["101301","101303"]
  ```
 
-## When your filter matches a single record
+## Return a single record
 
-It returns a single record, not an array.
+When a filter has a single result, it returns as a record instead of an array. The filter below returns a single result as a record.
 
 ### FQL
 
@@ -111,7 +115,9 @@ It returns a single record, not an array.
 "101304"
 ```
 
-## Checking if a field contains a value
+## Check if a field has a specific value
+
+FQL can check if your query results have a specific key-value pair and return `true` or `false`. The example below checks the first item in the `payments` array for the key-value pair `"description": "recurring"`.
 
 ### FQL
 
@@ -123,4 +129,18 @@ $contains(payments[0].description, 'recurring')
 
 ``` json
 true
+```
+
+## Get only unique payment amounts
+
+### FQL
+
+``` javascript
+$distinct(payments.amount)
+```
+
+### Result
+
+``` json
+[110.48, 24.49, 35.56]
 ```

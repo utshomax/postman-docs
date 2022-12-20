@@ -1,9 +1,9 @@
 ---
 title: "Getting basic values"
-updated: 2022-11-17
+updated: 2022-12-15
 ---
 
-The following examples describe how to use FQL to get basic values from JSON data.
+FQL uses location path syntax to extract values from JSON structures. The following examples demonstrate several examples of getting basic values from JSON data.
 
 ## Contents
 
@@ -15,6 +15,7 @@ The following examples describe how to use FQL to get basic values from JSON dat
 * [Select an entire array](#select-an-entire-array)
 * [Return one field of every object in an array](#return-one-field-of-every-object-in-an-array)
 * [Return fields that contain special characters in the key name](#return-fields-that-contain-special-characters-in-the-key-name)
+* [Get the number of elements in a list](#get-the-number-of-elements-in-a-list)
 
 ## Example JSON
 
@@ -43,7 +44,11 @@ The following examples use the following JSON data returned by an endpoint:
 }
 ```
 
+> To use this sample data in your flow, select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> in the **Start** block and paste the data into the **Config** field.
+
 ## Get a top-level field
+
+To access a top-level field with FQL, enter the field's name.
 
 ### FQL
 
@@ -61,6 +66,8 @@ name
 
 ## Get a nested field
 
+To access fields below the top level, use field names separated by dot '.' delimiters.
+
 ### FQL
 
 ``` javascript
@@ -76,6 +83,8 @@ address.city
 ```
 
 ## Get an entire object
+
+Enter the name of an object in the JSON file to retrieve all the data within that object.
 
 ### FQL
 
@@ -98,6 +107,8 @@ address
 
 ## Select a specific index in an array
 
+To access individual values in an array in a JSON file, specify an index number between square brackets after the array's name.
+
 ### FQL
 
 ``` javascript
@@ -113,6 +124,8 @@ phones[0].number
 ```
 
 ## Select an entire array
+
+Enter the name of an array in the JSON file to retrieve all the data within that array.
 
 ### FQL
 
@@ -139,6 +152,8 @@ phones
 
 ## Return one field of every object in an array
 
+To return a specific field from multiple objects in an array, enter the array's name then the field's name, separated by a dot.
+
 ### FQL
 
 ``` javascript
@@ -155,6 +170,8 @@ phones.number
 
 ## Return fields that contain special characters in the key name
 
+If a field in the JSON file contains special characters (like spaces), put the field's name in single quotes.
+
 ### FQL
 
 ``` javascript
@@ -167,4 +184,18 @@ phones.number
 
 ``` json
 "myuser123"
+```
+
+## Get the number of elements in a list
+
+### FQL
+
+``` javascript
+$count(phones)
+```
+
+### Result
+
+``` json
+2
 ```

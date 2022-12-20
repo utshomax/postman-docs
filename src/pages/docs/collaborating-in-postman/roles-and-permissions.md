@@ -1,7 +1,7 @@
 ---
 title: "Defining roles"
 order: 72
-updated: 2022-05-11
+updated: 2022-12-19
 page_id: "roles_and_permissions"
 warning: false
 contextual_links:
@@ -53,10 +53,10 @@ Roles define user permissions within a Postman team and a user's level of access
 
 With the [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you have the power to define Postman access at the team level. You can use Postman's role-based access control system to limit visibility of team resources, define your development workflow, and give access to administrative and billing personnel. Each user on a team must have at least one role attached to them, and can hold multiple roles simultaneously.
 
-You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to users on a team, based on the functions those users require:
+You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to team members, based on the functions those team members require:
 
-* **Super Admin** - Manages everything within a team, including team settings, users, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, API Network Manager, and Developer roles can perform ([Enterprise plans only](https://www.postman.com/pricing)).
-* **Admin** - Manages team members and team settings.
+* **Super Admin** - Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, API Network Manager, Developer, Monitor Editor, and Monitor Viewer roles can perform ([Enterprise plans only](https://www.postman.com/pricing)).
+* **Admin** - Manages team members and team settings. Can also view monitor metadata and run, pause, and resume monitors.
 * **Billing** - Manages team plan and payments. Billing roles can be granted by a Super Admin, Team Admin, or by a fellow team member with a Billing role.
 * **Developer** - Has access to all team resources and workspaces.
 * **Community Manager** - Manages the public visibility of workspaces and team profile ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
@@ -103,9 +103,9 @@ To learn how to manage team roles in Postman, see [Managing your team](/docs/adm
 
 You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) three role types in Postman workspaces: **Admin**, **Editor**, and **Viewer**. Partner Workspaces offer an additional role type: **Partner Lead**.
 
-* **Admin** - Can manage workspace resources and settings
-* **Editor** - Can create and edit workspace resources
-* **Viewer** - Can view, fork, and export workspace resources
+* **Admin** - Can manage workspace resources and settings.
+* **Editor** ([Paid plans only](https://www.postman.com/pricing)) - Can create and edit workspace resources.
+* **Viewer** ([Paid plans only](https://www.postman.com/pricing)) - Can view, fork, and export workspace resources.
 * **Partner Lead** (External, [Enterprise plans only](https://www.postman.com/pricing)) - Can invite other partners from their organization to join a [Partner Workspace](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/). To learn more, see [Partner roles](#partner-roles).
 
 The following roles control access at a workspace level:
@@ -214,21 +214,23 @@ Move mock server | &#x2714; |
 
 ## Monitor roles
 
-You can [assign](/docs/monitoring-your-api/faqs-monitors/#who-can-edit-my-monitors) two role types for Postman Monitors: **Editor** and **Viewer**.
+You can [assign](/docs/monitoring-your-api/faqs-monitors/#who-can-edit-my-monitors) four role types for Postman Monitors: **Editor** and **Viewer**.
 
+* **Super Admin** - Can view monitor metadata and run, pause, and resume monitors.
+* **Admin** - Can view monitor metadata and run, pause, and resume monitors.
 * **Editor** - Can view monitor metadata, metrics, jobs, and runs. Can run, update, delete, pause, and resume the monitor.
 * **Viewer** - Can view monitor metadata, metrics, jobs, and runs.
 
-Monitor server | Editor | Viewer
---- | --- | ---
-View monitor | &#x2714; | &#x2714;
-View monitor metadata, results, activity, and summary metrics | &#x2714; | &#x2714;
-Create monitor read integrations | &#x2714; | &#x2714;
-View monitor based integrations | &#x2714; | &#x2714;
-Edit and delete monitor | &#x2714; |
-Run, pause, and resume monitor | &#x2714; |
-Move monitor | &#x2714; |
-Update monitor roles | &#x2714; |
+Monitors | Super Admin | Admin | Editor | Viewer |
+--- | --- | --- | --- | --- |
+View monitor | &#x2714; | &#x2714; | &#x2714; | &#x2714;
+View monitor metadata, results, activity, and summary metrics | &#x2714; | &#x2714; | &#x2714; | &#x2714;
+Create monitor read integrations | | | &#x2714; | &#x2714;
+View monitor based integrations | | | &#x2714; | &#x2714;
+Edit and delete monitor | | | &#x2714; |
+Run, pause, and resume monitor | &#x2714; | &#x2714; | &#x2714; |
+Move monitor | | | &#x2714; |
+Update monitor roles | | |  &#x2714; |
 
 ## Partner roles
 
@@ -254,6 +256,6 @@ All partners are assigned Workspace Editor or Viewer roles when invited to a Par
 
 ## Next steps
 
-After learning about the roles available to users, you can manage your team's level of access and control more effectively.
+After learning about the roles available to team members, you can manage your team's level of access and control more effectively.
 
 * To learn more about team management, including managing team roles and inviting collaborators to join your team, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).

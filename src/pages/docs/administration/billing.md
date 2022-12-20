@@ -71,11 +71,13 @@ The billing overview is your billing dashboard's default view. You can view the 
 
 ### Managing add-ons
 
-In your [billing dashboard](http://go.postman.co/billing), select **Resource usage** on the left to view your team's usage of mock servers, monitoring, custom domains, image and file storage, the Postman API, serverless requests, integrations, and the Postman Cloud Agent.
+In your [billing dashboard](http://go.postman.co/billing), select **Resource usage** on the left to view your team's usage of mock servers, monitoring, custom domains, image and file storage, the Postman API, integrations, and the Postman Cloud Agent.
+
+> To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).
 
 <img alt="Add-ons usage and purchase" src="https://assets.postman.com/postman-docs/resource-usage-9.13.jpg" />
 
-> Select **View detailed usage** next to **Monitoring Usage** to view your team's active monitors and their impact on your team's usage during the current billing period.
+Select **View detailed usage** next to **Monitoring Usage** to view your team's active monitors and their impact on your team's usage during the current billing period.
 
 You can opt to allow or disallow overages for mock server and monitor usage by selecting **Pay-as-you-go** for each item. If enabled, you will be charged on a pay-as-you-go basis.
 

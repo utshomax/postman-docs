@@ -86,6 +86,7 @@ Using log statements at appropriate locations in your test scripts can help you 
 * `console.info()`
 * `console.warn()`
 * `console.error()`
+* `console.clear()`
 
 [![Console info](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)
 
@@ -107,6 +108,7 @@ Issue | Resolving the issue
 **TLS version** | Postman supports TLS version 1.2 and higher, which [may not be supported if you are using an older browser or operating system](https://support.postman.com/hc/en-us/articles/360041392573-Deprecating-TLS-1-0-and-TLS-1-1).
 **Postman errors** | It's possible that Postman might be making invalid requests to your API server. You can confirm this by checking your server logs, if available. If you believe this is happening, contact the Postman team using the [GitHub issue tracker](https://github.com/postmanlabs/postman-app-support/issues).
 **Unresolved variables** | An unresolved variable isn't defined in an active scope that's available for the request it’s used in. For more information on why this happens and how to solve the problem, see [Fixing unresolved variables](/docs/sending-requests/variables/#fixing-unresolved-variables).
+**CORS** |If the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) fails to send your request, you may be experiencing a Cross Object Resource Sharing (CORS) error. Make sure you're using the best [Postman Agent](/docs/getting-started/about-postman-agent/) for your request.
 
 ## Getting help
 
