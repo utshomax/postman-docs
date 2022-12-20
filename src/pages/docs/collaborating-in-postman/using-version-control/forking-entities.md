@@ -90,6 +90,8 @@ To access the list of forks for a collection, environment, or flow, do the follo
 
 ## Pulling updates from a parent element
 
+> Forked flows don't support pulling updates.
+
 You can pull updates from a parent element into a fork without going through the [pull request process](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/).
 
 1. Hover over the fork in the sidebar.
@@ -102,6 +104,8 @@ You can pull updates from a parent element into a fork without going through the
 To pull updates from a parent element during the pull request process, see [Pulling updates during a pull request](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#pulling-updates-during-a-pull-request).
 
 ## Merging changes from a fork
+
+> Forked flows don't support merging changes.
 
 If you have Editor access on the element, you can _merge_ a fork into the parent element without going through the [pull request process](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/). For example, if you’re using forks in a personal workspace to organize your work, you can merge changes in a fork directly back into the parent element. If you're collaborating with others, though, merging directly lacks the safeguards built into the pull request process. Many teams require pull requests as part of their [version control workflow](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/).
 
@@ -126,6 +130,8 @@ To merge changes from a fork without opening a pull request, do the following:
 To merge changes during the pull request process, see [Merging changes from a pull request](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#merging-changes-from-a-pull-request).
 
 ## Resolving conflicts from a fork
+
+> Forked flows don't support resolving conflicts.
 
 A merge conflict happens when you try to merge changes into an updated parent element and Postman isn't able to automatically resolve the differences between the two. If there's a conflict when you try to merge a fork, you'll need to decide how you want to resolve it before continuing.
 

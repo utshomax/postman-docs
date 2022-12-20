@@ -60,7 +60,7 @@ The right sidebar is the place where you'll see more information about your flow
 
   ![execution errors](https://assets.postman.com/postman-labs-docs/interface/updated-interface-execution-error-eval-block.gif)
 
-* **Forks**
+* [**Forks**](/docs/collaborating-in-postman/using-version-control/forking-entities/)
 
   A list of all the forks of the flow that have been created.
 

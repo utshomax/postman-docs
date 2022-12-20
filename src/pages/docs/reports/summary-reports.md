@@ -44,6 +44,8 @@ To be included in this metric, an API must have [**Team** or **Public** visibili
 
 * **Resource usage** - The number of used and unused integrations, mock calls, monitor requests, and Postman API calls across your team, calculated as the amount that have been used or not used from your total resource limit.
 
+    > To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).
+
 ## How people are interacting with your publicly shared work
 
 Metrics in this section reflect all views and actions on publicly shared work, regardless of whether the user is a team member or not.

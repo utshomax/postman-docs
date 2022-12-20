@@ -58,7 +58,7 @@ To convert an existing workspace to a Partner Workspace, do the following:
 
 Anyone with permissions to change workspace visibility can request to convert a workspace into a Partner Workspace, but it must be approved by a [Partner Manager](#managing-users-and-roles). If you're not a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or Partner Manager, Postman will mention this and you can add an optional note to your request. Postman will notify you when a Partner Manager reviews your request and approves or denies it.
 
-> When a workspace is converted to a Partner Workspace, Postman sends in-app and email notifications to all workspace users.
+> When a workspace is converted to a Partner Workspace, Postman sends in-app and email notifications to all workspace members.
 
 ## Setting up a Partner Workspace
 
@@ -99,7 +99,7 @@ To invite partners to a Partner Workspace, do the following:
 1. (Workspace Admins and Partner Managers only) Select **Make them Partner Lead** if you'd like them to also be able to manage and invite partners within the workspace.
 1. Select **Invite Partners**.
 
-Partner invites must be accepted by the email ID you provide when inviting the individual. If a partner would like to use a different email ID, or if an invite was mistakenly sent, you can [revoke the invite](/docs/administration/managing-your-team/managing-your-team/#managing-invitations) and send a new one.
+Partner invites must be accepted by the email address you provided when you invited the individual. If a partner would like to use a different email address, or if an invite was mistakenly sent, you can [revoke the invite](/docs/administration/managing-your-team/managing-your-team/#managing-invites) and send a new one.
 
 > Partners will sign in to your team with a Postman username and password, even if your team is restricted to signing in with [SSO](/docs/administration/sso/intro-sso/).
 
@@ -191,4 +191,4 @@ Workspace Admins and Partner Managers can delete Partner Workspaces.
 1. Select **Remove all partners**, then select **Update**.
 1. Select **Delete Workspace**.
 
-> Postman notifies all workspace users in-app and by email when you delete a Partner Workspace.
+> Postman notifies all workspace members in-app and by email when you delete a Partner Workspace.
