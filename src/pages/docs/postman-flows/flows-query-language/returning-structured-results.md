@@ -61,7 +61,7 @@ The examples below use this JSON data:
 
 ## Return multiple objects as an array
 
-The example below returns three objects' key-value pairs as an array.
+The example below returns three objects as an array.
 
 ### FQL
 
@@ -85,7 +85,7 @@ The example below returns three objects' key-value pairs as an array.
 
 ## Return an array of a single field from multiple objects
 
-The example below gets the values of the `city` key in three objects and returns the values as an array.
+The example below gets the values of the `city` key from three objects and returns the values as an array.
 
 ### FQL
 
@@ -103,7 +103,7 @@ The example below gets the values of the `city` key in three objects and returns
 
 ## Collapse multiple objects into a single key-value pair
 
-Return an array of key-value pairs composed of values from within an object. The example below gets the values of the `type` and `number` keys from objects in the `phones` array and returns them as an array of key-value pairs.
+Return an array of key-value pairs composed of values from an object. The example below gets the values of the `type` and `number` keys from objects in the `phones` array and returns them as an array of key-value pairs.
 
 ### FQL
 
@@ -126,7 +126,7 @@ phones.{type: number}
 
 ## Collapse and group results by a shared field value
 
-Return an object with key-value pairs composed of values from within an object. Group returned values in an array if they have the same key name in their respective objects. The example below groups the values of `Cell` keys from two different objects in the `phones` array.
+Return an object with key-value pairs composed of values from an object. Group returned values in an array if they have the same key name in their respective objects. The example below groups the values of `Cell` keys from two different objects in the `phones` array.
 
 ### FQL
 
