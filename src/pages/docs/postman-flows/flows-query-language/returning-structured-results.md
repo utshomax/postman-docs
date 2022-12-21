@@ -103,7 +103,7 @@ The example below gets the values of the `city` key in three objects and returns
 
 ## Collapse multiple objects into a single key-value pair
 
-Return an array of key-value pairs composed of values from within an object. The example below gets the values of the `type` and `number` keys from the `phones` object and returns them as an array of key-value pairs.
+Return an array of key-value pairs composed of values from within an object. The example below gets the values of the `type` and `number` keys from objects in the `phones` array and returns them as an array of key-value pairs.
 
 ### FQL
 
@@ -126,7 +126,7 @@ phones.{type: number}
 
 ## Collapse and group results by a shared field value
 
-Return an object with key-value pairs composed of values from within an object. Group values together in an array if they have the same key name in their respective objects. The example below returns the values of `Cell` keys from different objects in a single array.
+Return an object with key-value pairs composed of values from within an object. Group returned values in an array if they have the same key name in their respective objects. The example below groups the values of `Cell` keys from two different objects in the `phones` array.
 
 ### FQL
 
