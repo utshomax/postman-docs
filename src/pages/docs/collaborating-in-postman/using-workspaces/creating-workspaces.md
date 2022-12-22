@@ -51,7 +51,7 @@ With a [Postman account](/docs/getting-started/postman-account/) you can create 
 
 By adding an element to a workspace, collaborators with access to the workspace will also be able to access the element by default with read-only permissions. You can [configure access settings](/docs/collaborating-in-postman/roles-and-permissions/) for the workspace on an individual basis to give permissions depending on the account.
 
-Workspaces can also create visibility for the projects within a team, as collections in a workspace are visible to all team members with access to the workspace. Request history is also saved to a workspace, which can aid collaborative debugging efforts.
+Workspaces can also create visibility for the projects within a team, as collections in a workspace are visible to all team members with access to the workspace.
 
 _Workspace as an element_ represents a whole container where being an Admin gives you full access to the workspace. This concept works like the inheritance property where you will have Editor access to all the elements within that particular workspace.
 
