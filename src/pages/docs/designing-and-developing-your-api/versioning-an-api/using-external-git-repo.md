@@ -115,11 +115,13 @@ You can connect to a GitHub Enterprise Server, GitLab Self-Managed, or Azure Dev
 
 1. Select **Connect Repository**.
 
-#### Managing connected accounts
+#### Managing connected accounts for on-premises repositories
 
 After you connect an API to an on-premises Git repository, other editors of the API must enter their own personal access token to be able to access the collections and definitions in the API. Postman will prompt editors to enter their token the next time they open the API.
 
-Postman securely stores your personal access token. After connecting to an on-premises repository, you can connect to other repositories using the same domain URL without having to re-enter your token. To manage your saved tokens, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, select **Settings**, and select the **Connected accounts** tab. Learn more about [managing connected accounts](/docs/getting-started/settings/#connected-accounts).
+Postman securely stores your personal access token. After connecting to an on-premises repository, you can connect to other repositories using the same domain URL without having to re-enter your token. When connecting to a repository, select **Change** under **Authenticated Domain** if you want to use a different domain URL.
+
+To manage your saved tokens, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, select **Settings**, and select the **Connected accounts** tab. Learn more about [managing connected accounts](/docs/getting-started/settings/#connected-accounts).
 
 ## Disconnecting a remote repository
 
