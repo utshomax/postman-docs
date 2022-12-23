@@ -95,7 +95,7 @@ import "messages/HelloRequest.proto"
 
 ```
 
-In this scenario, you'll need to configure the parent directory of `enums` and `messages` i.e. `proto` as your import path in Postman. The added import path can look something like this: `/Users/johndoe/projects/my-app/protos/`. You can configure import paths in a request using the **Import paths option** in the **Import flow** after you select the file to import.
+In this scenario, you'll need to configure the parent directory of `enums` and `messages` i.e. `protos` as your import path in Postman. The added import path can look something like this: `/Users/johndoe/projects/my-app/protos/`. You can configure import paths in a request using the **Import paths option** in the **Import flow** after you select the file to import.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-service-definition/adding-import-paths.gif" alt="Adding import paths">
 
