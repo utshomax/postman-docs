@@ -80,7 +80,19 @@ Instead of importing a `.proto` file from your local system, you can also fetch 
 
 ### Adding import paths
 
-Sometimes, gRPC APIs can depend on specific services that are shared by multiple APIs. These common services are defined in a separate schema that's referred to by other APIs through `import` directives. For such a scenario, you can add this common `.proto` file (schema) to the request using the **Import paths option** in the **Import flow** after you select the file to import.
+Sometimes, gRPC schemas can be divided into multiple .proto files. These .proto files are referred through *import directives* in a schema. Import directives containing absolute paths (e.g. `/Users/johndoe/projects/my-app/protos/enums/NumericEnum.proto`) and relative paths (`../enums/NumericEnum.proto`) are auto resolved by Postman and don't require any additional configuration. In rest of the cases, make sure you add the parent directories of the import directives mentioned in the schema. Consider the example file structure below:
+
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-service-definition/import-path-file-structure.jpg" width="400px" alt="Example file structure">
+
+In the example here, the `root.proto` contains import directives that refer to other .proto files in the `protos` folder. These import directives could look something like this in the schema:
+
+```
+import "enums/NumericEnum.proto"
+import "messages/EmptyMessage.proto"
+import "messages/HelloResponse.proto"
+import "messages/HelloRequest.proto"
+```
+In this scenario, you'll need to configure the parent directory of `enums` and `messages` i.e. `proto` as your import path in Postman. The added import path can look something like this: `/Users/johndoe/projects/my-app/protos/`. You can configure import paths in a request using the **Import paths option** in the **Import flow** after you select the file to import.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-service-definition/adding-import-paths.gif" alt="Adding import paths">
 
