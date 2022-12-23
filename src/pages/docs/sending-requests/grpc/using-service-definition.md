@@ -87,11 +87,14 @@ Sometimes, gRPC schemas can be divided into multiple .proto files. These .proto 
 In the example here, the `root.proto` contains import directives that refer to other .proto files in the `protos` folder. These import directives could look something like this in the schema:
 
 ```
+
 import "enums/NumericEnum.proto"
 import "messages/EmptyMessage.proto"
 import "messages/HelloResponse.proto"
 import "messages/HelloRequest.proto"
+
 ```
+
 In this scenario, you'll need to configure the parent directory of `enums` and `messages` i.e. `proto` as your import path in Postman. The added import path can look something like this: `/Users/johndoe/projects/my-app/protos/`. You can configure import paths in a request using the **Import paths option** in the **Import flow** after you select the file to import.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-service-definition/adding-import-paths.gif" alt="Adding import paths">
