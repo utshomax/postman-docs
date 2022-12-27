@@ -127,7 +127,9 @@ payments.{description & ' annual cost' : amount*12}
 ]
 ```
 
-## Cast a string into a number
+## Convert a string into a number
+
+FQL can convert one data type into a different data type. The example below converts the string `"281.01"` in the `customer_info` object into the number `281.01`.
 
 ### FQL
 
@@ -142,6 +144,8 @@ $number(customer_info.total_value)
 ```
 
 ## Convert a number into a string
+
+FQL can convert one data type into a different data type. The example below gets the number value from the `amount` key in the first object in the `payments` array and converts it into the string `"110.48"`.
 
 ### FQL
 
