@@ -63,7 +63,7 @@ Choose centralized migration if the following conditions apply:
 
 * Your organization prefers to have one person perform the migration.
 
-Don't choose distributed migration if your organization relies on the following:
+Don't choose centralized migration if your organization relies on the following:
 
 * Postman-published documentation–URLs would need to be republished from your new team instance.
 * Mocks and monitors—you would need to recreate these.
