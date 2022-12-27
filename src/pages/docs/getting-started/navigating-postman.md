@@ -133,7 +133,7 @@ Your history also includes [collection runs](/docs/running-collections/intro-to-
 * Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to remove the request from your history.
 * Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> to access other actions, including creating a monitor, documentation, or mock server for the request.
 
-> When you make requests in a [shared workspace](http://localhost:8000/docs/collaborating-in-postman/using-workspaces/creating-workspaces/), your request history is visible to you but not to other team members in the workspace.
+> When you make requests in a [shared workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/), your request history is visible to you but not to other team members in the workspace.
 
 #### Clearing your history
 
