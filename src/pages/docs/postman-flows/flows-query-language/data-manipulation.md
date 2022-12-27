@@ -92,7 +92,7 @@ The examples below use the following JSON data:
 
 ## Sum numerical values
 
-Get values from every instance of a key-value pair in an object and add the values together.
+Get values from every instance of a key-value pair in an object or array, add the values together, and return the result. The example below gets every `amount` field's value in the `payments` array and returns their sum.
 
 ### FQL
 
@@ -106,9 +106,9 @@ $sum(payments.amount)
 "$281.01"
 ```
 
-## Modify strings and group and sum by description
+## Insert strings and group and sum by description
 
-
+This example gets every `description` value in the `payments` array and appends the string `annual cost`. It then gets the `amount` value below each `description` field, multiplies it by 12, and appends it to its corresponding result. The results are grouped by `description` field.
 
 ### FQL
 
