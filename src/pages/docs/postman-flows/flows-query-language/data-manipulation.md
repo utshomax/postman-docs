@@ -92,7 +92,7 @@ The examples below use the following JSON data:
 
 ## Sum numerical values
 
-Get values from every instance of a key-value pair in an object or array, add the values together, and return the result. The example below gets every `amount` field's value in the `payments` array and returns their sum.
+The `$sum()` function gets values from every instance of a key-value pair in an object or array, adds the values together, and returns the result. The example below gets every `amount` field's value in the `payments` array and returns their sum.
 
 ### FQL
 
@@ -108,7 +108,7 @@ $sum(payments.amount)
 
 ## Insert strings and group and sum by description
 
-This example gets every `description` value in the `payments` array and appends the string `annual cost`. It then gets the `amount` value below each `description` field, multiplies it by 12, and appends it to its corresponding result. The results are grouped by `description` field.
+The example below gets every `description` value in the `payments` array and appends the string `annual cost`. It then gets the `amount` value below each `description` field, multiplies it by 12, and appends it to its corresponding result. The results are grouped by `description` field.
 
 ### FQL
 
@@ -129,7 +129,7 @@ payments.{description & ' annual cost' : amount*12}
 
 ## Convert a string into a number
 
-FQL can convert one data type into a different data type. The example below converts the string `"281.01"` in the `customer_info` object into the number `281.01`.
+You can convert a string into a number with the `$number()` function. The example below converts the string `"281.01"` in the `customer_info` object into the number `281.01`.
 
 ### FQL
 
@@ -145,7 +145,7 @@ $number(customer_info.total_value)
 
 ## Convert a number into a string
 
-FQL can convert one data type into a different data type. The example below gets the number value from the `amount` key in the first object in the `payments` array and converts it into the string `"110.48"`.
+You can convert a number into a string with the `$string()` function. The example below gets the number value from the `amount` key in the first object in the `payments` array and converts it into the string `"110.48"`.
 
 ### FQL
 
@@ -175,9 +175,9 @@ $length(payments[0].description)
 22
 ```
 
-## Return part of a string using substring
+## Return part of a string
 
-The first number is optional and specifies the offset, and the second is the number of characters you are selecting. Negative numbers can also be used for the offset.
+The `$substring()` function returns part of a specified string. In the example below, The `3` is optional and specifies the offset, and the `6` is the number of characters you are selecting. Negative numbers can also be used for the offset.
 
 ### FQL
 
@@ -193,7 +193,7 @@ $substring(payments[0].description, 3, 6)
 
 ## Get the string before the first occurrence of a pattern
 
-Returns the substring before the specified occurrence of `subscription` . If `subscription` is not found it returns the entire string.
+In the example below, the `$subsringBefore()` function Returns the substring before the specified occurrence of `subscription` . If it doesn't find `subscription` it returns the entire string.
 
 ### FQL
 
@@ -225,7 +225,7 @@ $substringAfter(payments[0].description, 'recurring')
 
 ## Transform a string to all uppercase
 
-FQL can make all the characters in a string uppercase.
+The `$uppercase()` function makes all the characters in a string uppercase.
 
 ### FQL
 
@@ -241,7 +241,7 @@ $uppercase(payments[0].description)
 
 ## Transform a string to all lowercase
 
-FQL can make all the characters in a string lowercase.
+The `$lowercase()` function makes all the characters in a string lowercase.
 
 ### FQL
 
@@ -257,7 +257,7 @@ $lowercase(customer_info.'customer field')
 
 ## Trim a string
 
-Removes excess leading and trailing spaces, converts newline, carriage return, line feeds, and tabs into a single space character, and reduces consecutive spaces into a single space character.
+The `$trim()` function removes excess leading and trailing spaces, converts newline, carriage return, line feed, and tab characters into a single space character, and reduces consecutive spaces into a single space character.
 
 ### FQL
 
@@ -273,7 +273,7 @@ $trim(customer_info.unformatted_customer_field)
 
 ## Pad a string
 
-If the second parameter is a positive number it pads the string with the third parameter. If the second parameter is negative it pads the front of the string with the character(s) optionally specified. (Third parameter characters will default to space if left blank.)
+The `pad()` function adds spaces or characters to a string. If the second parameter is a positive number it pads the string with the third parameter. If the second parameter is negative it pads the front of the string with the character(s) optionally specified. (Third parameter characters will default to space if left blank.)
 
 ### FQL
 
@@ -289,7 +289,7 @@ $pad(customer_info.'customer field', 15, '#')
 
 ## Split a string into an array of components
 
-Returns the string split on the separator specified in the second parameter and optionally limited by the third parameter. A regex can also be used instead of a string.
+The `$split()` function returns the string split on the separator specified in the second parameter and optionally limited by the third parameter. You can also use a regex instead of a string.
 
 ### FQL
 
@@ -305,6 +305,8 @@ $split(payments[1].description, " ", 2)
 
 ## Join an array of strings into a single string
 
+The `$join()` function creates a single string from an array of strings. The example below gets the array from the `associated_usernames` key and returns the array's values as a single string.
+
 ### FQL
 
 ``` javascript
@@ -317,9 +319,9 @@ $join(customer_info.associated_usernames)
 "user1, myuser, online_user"
 ```
 
-## Replace string with another
+## Replace one string with another
 
-Finds the instances of `recurring` in the first parameter string and replaces it with renewing, limited to the first instance found (optionally specified with the `1`). Using a regex instead of `recurring` is also supported.
+In the example below, the `$replace()` function finds the instances of `recurring` in the first parameter string and replaces them with `renewing`, limited to the first instance found (optionally specified with the `1`). You could also use a regex instead of `recurring`.
 
 ### FQL
 
