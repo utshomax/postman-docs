@@ -1,6 +1,6 @@
 ---
 title: "Data manipulation"
-updated: 2022-12-15
+updated: 2022-12-27
 ---
 
 You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to perform math functions, manipulate strings and arrays, and interact with the data in your responses in several ways. Sample data and FQL examples are below.
@@ -50,7 +50,7 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 
 ## Example JSON
 
-The following examples use the following JSON data returned by an endpoint:
+The examples below use the following JSON data:
 
 ``` json
     {
@@ -92,6 +92,8 @@ The following examples use the following JSON data returned by an endpoint:
 
 ## Sum numerical values
 
+Get values from every instance of a key-value pair in an object and add the values together.
+
 ### FQL
 
 ``` javascript
@@ -105,6 +107,8 @@ $sum(payments.amount)
 ```
 
 ## Modify strings and group and sum by description
+
+
 
 ### FQL
 
@@ -167,7 +171,7 @@ $length(payments[0].description)
 
 ## Return part of a string using substring
 
-The first number is optional and specifies the offset, and the second is the number of characters you are selecting. Negative numbers can also be used for the offest.
+The first number is optional and specifies the offset, and the second is the number of characters you are selecting. Negative numbers can also be used for the offset.
 
 ### FQL
 
