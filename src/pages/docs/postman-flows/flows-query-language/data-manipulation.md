@@ -161,6 +161,8 @@ $string(payments[0].amount)
 
 ## Return the length of a string
 
+The `$length()` function returns the length of the specified string. The example below returns the length of the string in the first `description` key-value pair in the `payments` array.
+
 ### FQL
 
 ``` javascript
@@ -207,6 +209,8 @@ $substringBefore(payments[0].description, 'subscription')
 
 ## Get the string after the first occurrence of a pattern
 
+The `$substringAfter()` function finds a pattern and returns the string immediately following the pattern. The example below returns the string that follows `recurring` in the `description` key-value pair in the first object of the `payments` array.
+
 ### FQL
 
 ``` javascript
@@ -221,6 +225,8 @@ $substringAfter(payments[0].description, 'recurring')
 
 ## Transform a string to all uppercase
 
+FQL can make all the characters in a string uppercase.
+
 ### FQL
 
 ``` javascript
@@ -234,6 +240,8 @@ $uppercase(payments[0].description)
 ```
 
 ## Transform a string to all lowercase
+
+FQL can make all the characters in a string lowercase.
 
 ### FQL
 
