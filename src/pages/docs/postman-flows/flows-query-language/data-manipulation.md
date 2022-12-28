@@ -319,7 +319,7 @@ $join(customer_info.associated_usernames)
 "user1, myuser, online_user"
 ```
 
-## Replace one string with another
+## Replace one string with another string
 
 In the example below, the `$replace()` function finds the instances of `recurring` in the first parameter string and replaces them with `renewing`, limited to the first instance found (optionally specified with the `1`). You could also use a regex instead of `recurring`.
 
@@ -337,6 +337,8 @@ $replace(payments[0].description,"recurring", "renewing", 1)
 
 ## Base64 encode a string
 
+The `$base64encode()` function converts a string to base64 encoding. The example below converts the string `'some data here'` into `"c29tZSBkYXRhIGhlcmU="`.
+
 ### FQL
 
 ``` javascript
@@ -350,6 +352,8 @@ $base64encode('some data here')
 ```
 
 ## Base64 decode a string
+
+The `$base64decode` function converts a base64-encoded string into a human-readable string. The example below converts `"c29tZSBkYXRhIGhlcmU="` into `"some data here"`.
 
 ### FQL
 
@@ -365,6 +369,8 @@ $base64decode("c29tZSBkYXRhIGhlcmU=")
 
 ## Encode a URL component
 
+The `$encodeUrlComponent()` function replaces certain characters with their UTF-8 encoded versions. The example below replaces `?` with `%3F`, and `=` with `%3D`.
+
 ### FQL
 
 ``` javascript
@@ -378,6 +384,8 @@ $encodeUrlComponent("?city=melbourne")
 ```
 
 ## Decode a URL component
+
+The `$decodeUrlComponent()` function replaces UTF-8 encoded characters with their original versions. The example below replaces `%3F` with `?`, and `$3D` with `=`.
 
 ### FQL
 
@@ -614,9 +622,6 @@ $parseInteger("four hundred and ninety-three thousand, eight hundred and forty",
 ``` json
 493840
 ```
-
-<!-- ## Time and date parsing -->
-<!-- TODO: Technically this 'Time and date parsing' H2 should be an H1. Deleting for now. Maybe break this doc into two docs in the future.-->
 
 ## Get the current time in ISO 8601 format
 
