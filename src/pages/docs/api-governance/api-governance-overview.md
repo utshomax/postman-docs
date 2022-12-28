@@ -5,6 +5,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API Governance | The Exploratory"
+    url: "https://youtu.be/fuquGWdYAGA"
+  - type: subtitle
     name: "Blog Posts"
   - type: link
     name: "API Governance with Postman v10"
