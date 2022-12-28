@@ -465,7 +465,7 @@ $boolean(`customer info`.total_value > 250) ? 'high-value customer' : 'not a hig
 
 ## Generate a new random invoice number
 
-Generates a random whole number between 1 and 1000 for the invoice.
+The `$round($random()) function generates a random whole number. The example below generates a random whole number between 1 and 1000 and returns the number appended to the string "Invoice number ".
 
 ### FQL
 
@@ -481,7 +481,7 @@ Generates a random whole number between 1 and 1000 for the invoice.
 
 ## Convert a string into JSON
 
-Enables the string to be formatted into JSON so it can be queried with FQL. This assumes you have the following string `{"Feedback Type":"Bug Report"}` stored as a variable named `input`.
+The `$jsonParse()` function enables the string to be formatted into JSON so it can be queried with FQL. The example below assumes you have the string `{"Feedback Type":"Bug Report"}` stored as a variable named `input`.
 
 ### FQL
 
@@ -497,6 +497,8 @@ $jsonParse(input)
 
 ## Get the absolute difference between two numbers
 
+The `$abs()` function returns the absolute difference between two numbers. Absolute difference is the distance between two values on a number line. Absolute difference is always positive.
+
 ### FQL
 
 ``` javascript
@@ -510,6 +512,8 @@ $abs(4.56 - 6.78)
 ```
 
 ## Round up a number
+
+The `$ceil()` function rounds a number up to the next whole number.
 
 ### FQL
 
@@ -525,6 +529,8 @@ $ceil(3.45)
 
 ## Round down a number
 
+The `floor()` function rounds a number down to the previous whole number.
+
 ### FQL
 
 ``` javascript
@@ -538,6 +544,8 @@ $floor(3.99)
 ```
 
 ## Raise a number to a power
+
+The `$power()` function raises the first number to the power of the second number. The example below raises 2 (the base) to the power of 3 (the exponent).
 
 ### FQL
 
@@ -553,6 +561,8 @@ $power(2,3)
 
 ## Get the square root of a number
 
+The `$sqrt()` function returns the square root of a number.
+
 ### FQL
 
 ``` javascript
@@ -567,7 +577,7 @@ $sqrt(9)
 
 ## Convert a number to hex or binary
 
-Converts `3000` to hex, using base 2 instead of 16 would convert it to binary.
+The `formatBase()` function converts a number to hex or binary. The example below converts `3000` to hex. Using base 2 instead of 16 would convert `3000` to binary.
 
 ### FQL
 
@@ -583,6 +593,8 @@ $formatBase(3000, 16)
 
 ## Format a number with decimals and dollar sign
 
+The `$formatNumber()` function formats the given number with a dollar sign and two decimal places.
+
 ### FQL
 
 ``` javascript
@@ -597,7 +609,7 @@ $formatNumber(4593, '$#,###.00')
 
 ## Convert a number into words
 
-`I` can also be used instead of `w` for roman numerals.
+The `$formatInteger` function converts numbers into their written-out forms or roman numerals. The example below converts the number `493840` into the string "four hundred and ninety-three thousand, eight hundred and forty". Using `I` instead of `w` in the example below would return roman numerals instead of words.
 
 ### FQL
 
