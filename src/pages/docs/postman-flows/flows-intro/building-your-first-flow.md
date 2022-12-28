@@ -21,27 +21,47 @@ This page walks you through your first flow, calling the Pokémon API and printi
 
 ## Creating a request and a collection
 
-Begin by creating a new collection and adding a GET request. The flow you create later will use this collection.
+Begin by creating a new collection and adding a GET request. You'll use this collection with the flow you'll create later.
 
 1. In your workspace, select **New** &gt; **Collection**. Name the collection **Pokemon API**.
-1. Add a request to your **Pokemon API** collection with this request URL: `https://pokeapi.co/api/v2/pokemon?limit=200`.
-1. Select **Send**, then select **Save Response** &gt; **Save as example**. In the request you created, replace the URL `https://pokeapi.co/api/v2/pokemon?limit=200` with this variable: `{{URL}}`.
+1. [Add a request](/docs/getting-started/sending-the-first-request/) with this URL: `https://pokeapi.co/api/v2/pokemon?limit=200`.
+
+    ![Add a request](https://assets.postman.com/postman-docs/v10/flow-first-request-v10.jpg)
+
+1. Select **Send**, then select **Save Response** &gt; **Save as example**.
 
     > Saving the response as an example enables Postman Flows to automatically detect the structure for easier access later.
+
+1. Replace the URL `https://pokeapi.co/api/v2/pokemon?limit=200` with the variable `{{URL}}`.
+
+    ![Replace the URL](https://assets.postman.com/postman-docs/v10/flow-replace-the-url-v10.jpg)
 
 1. Select **Save**.
 
 ## Making your first send request in Postman Flows
 
-1. Select **New** &gt; **Flows**. A **Start** block appears automatically.
-1. Right-click in the **New Flow** canvas to open a list of blocks and select **Send Request**.
+1. Select **New** &gt; **Flows**. Your new flow appears with a **Start** block already in place.
+
+    > You can click and drag the canvas to reposition your flow.
+
+    ![New flow](https://assets.postman.com/postman-docs/v10/flow-start-block-v10.jpg)
+
+1. Right-click the canvas to the right of the **Start** block. From the list of blocks that opens, select **Send Request**.
 
     > You can type the block's name in the **Search** field to find it faster.
 
-1. Connect the **Start** block to the **Send Request** block.<!-- TODO: add graphic -->
+1. Connect the **Start** block to the **Send Request** block.
+
+    ![Add Send Request block](https://assets.postman.com/postman-docs/v10/flow-add-send-request-v10.jpg)
+
 1. In the **Send Request** block, select **Add request** and select **Pokemon API**. Then select the GET request you created earlier.
-1. Create a **String** block below the **Start** block and enter this URL: `https://pokeapi.co/api/v2/pokemon?limit=200`
+
+    ![Select request](https://assets.postman.com/postman-docs/v10/flow-select-request-v10.jpg)
+
+1. Create a **String** block below the **Start** block and enter the URL `https://pokeapi.co/api/v2/pokemon?limit=200`.
 1. Connect the **String** block to the port next to `{{URL}}` on the **Send Request** block.
+
+    ![Add a String block](https://assets.postman.com/postman-docs/v10/flow-add-string-block-v10.jpg)
 
 ## Logging the output to the console
 
