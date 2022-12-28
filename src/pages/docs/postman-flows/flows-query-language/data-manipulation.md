@@ -625,7 +625,7 @@ $formatInteger(493840, 'w')
 
 ## Convert words into a number
 
-`I` can also be used instead of `w` for roman numerals.
+The `$parseInteger` function converts written-out numbers or roman numerals into numeric values. The example below converts the string "four hundred and ninety-three thousand, eight hundred and forty" into the number `493840`. Using `I` instead of `w` in the example below would convert roman numerals instead of words.
 
 ### FQL
 
@@ -641,6 +641,8 @@ $parseInteger("four hundred and ninety-three thousand, eight hundred and forty",
 
 ## Get the current time in ISO 8601 format
 
+The `$now()` function returns the current time in ISO 8601 format.
+
 ### FQL
 
 ``` javascript
@@ -654,6 +656,8 @@ $now()
 ```
 
 ## Get the current time in Unix milliseconds since the epoch
+
+The `millis()` function returns the current time in Unix milliseconds since the epoch.
 
 ### FQL
 
@@ -669,7 +673,7 @@ $millis()
 
 ## Convert from a specific date format into Unix epoch time
 
-See the formatting section below for details on date formatting.
+The `$toMillis` function converts a given date format into Unix epoch time. See the formatting section below for details on date formatting.
 
 ### FQL
 
@@ -685,7 +689,7 @@ $toMillis('10/12/2018 11:39 PM', '[M]/[D]/[Y] [h]:[m] [P]')
 
 ## Convert from Unix epoch time into a specific date format
 
-See the formatting section below for details on date formatting.
+The `$fromMillis()` function converts Unix epoch time into a different date format. See the formatting section below for details on date formatting.
 
 ### FQL
 
