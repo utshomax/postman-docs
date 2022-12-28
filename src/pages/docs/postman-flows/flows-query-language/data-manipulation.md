@@ -369,7 +369,7 @@ $base64decode("c29tZSBkYXRhIGhlcmU=")
 
 ## Encode a URL component
 
-The `$encodeUrlComponent()` function replaces certain characters with their UTF-8 encoded versions. The example below replaces `?` with `%3F`, and `=` with `%3D`.
+The `$encodeUrlComponent()` function replaces certain characters in a URL component with their UTF-8 encoded versions. The example below replaces `?` with `%3F`, and `=` with `%3D`.
 
 ### FQL
 
@@ -385,7 +385,7 @@ $encodeUrlComponent("?city=melbourne")
 
 ## Decode a URL component
 
-The `$decodeUrlComponent()` function replaces UTF-8 encoded characters with their original versions. The example below replaces `%3F` with `?`, and `$3D` with `=`.
+The `$decodeUrlComponent()` function replaces UTF-8 encoded characters in a URL component with their original versions. The example below replaces `%3F` with `?`, and `$3D` with `=`.
 
 ### FQL
 
@@ -401,6 +401,8 @@ $decodeUrlComponent("%3Fcity%3Dmelbourne")
 
 ## Encode an entire URL
 
+The `$encodeUrl()` function replaces certain characters in a URL with UTF-8 encoded characters. The example below replaces `こんにちは` with `%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF`
+
 ### FQL
 
 ``` javascript
@@ -414,6 +416,8 @@ $encodeUrl('https://faketranslatewebsite.com/?phrase=こんにちは')
 ```
 
 ## Decode entire URL
+
+The `$decodeUrl()` function replaces UTF-8 encoded characters in a URL with their original versions. The example below replaces `%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF` with `こんにちは`.
 
 ### FQL
 
@@ -429,7 +433,7 @@ $decodeUrl("https://faketranslatewebsite.com/?phrase=%E3%81%93%E3%82%93%E3%81%AB
 
 ## Append to an array
 
-Can combine two arrays, an array and a single value, or two strings into an array.
+The `$append()` function can combine two arrays, an array and a single value, or two strings into an array.
 
 ### FQL
 
@@ -445,7 +449,7 @@ $append([1,2,3], [4,5,6])
 
 ## If-then-else
 
-The `$boolean` value is the true/false test. The second value the output for true and the final value is the output for false.
+The `$boolean` value is a true/false test. The second value is the output for true and the final value is the output for false. The example below tests if the `total_value` field's value is greater than 250. Since the value is greater than 250, the function returns "high-value customer".
 
 ### FQL
 
