@@ -9,11 +9,11 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 
 * [Example JSON](#example-json)
 * [Sum numerical values](#sum-numerical-values)
-* [Modify strings and group and sum by description](#modify-strings-and-group-and-sum-by-description)
-* [Cast a string into a number](#cast-a-string-into-a-number)
+* [Insert strings then group and sum results by description](#insert-strings-then-group-and-sum-results-by-description)
+* [Convert a string into a number](#convert-a-string-into-a-number)
 * [Convert a number into a string](#convert-a-number-into-a-string)
 * [Return the length of a string](#return-the-length-of-a-string)
-* [Return part of a string using substring](#return-part-of-a-string-using-substring)
+* [Return part of a string](#return-part-of-a-string)
 * [Get the string before the first occurrence of a pattern](#get-the-string-before-the-first-occurrence-of-a-pattern)
 * [Get the string after the first occurrence of a pattern](#get-the-string-after-the-first-occurrence-of-a-pattern)
 * [Transform a string to all uppercase](#transform-a-string-to-all-uppercase)
@@ -22,7 +22,7 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 * [Pad a string](#pad-a-string)
 * [Split a string into an array of components](#split-a-string-into-an-array-of-components)
 * [Join an array of strings into a single string](#join-an-array-of-strings-into-a-single-string)
-* [Replace string with another](#replace-string-with-another)
+* [Replace one string with another string](#replace-one-string-with-another-string)
 * [Base64 encode a string](#base64-encode-a-string)
 * [Base64 decode a string](#base64-decode-a-string)
 * [Encode a URL component](#encode-a-url-component)
@@ -106,7 +106,7 @@ $sum(payments.amount)
 "$281.01"
 ```
 
-## Insert strings and group and sum by description
+## Insert strings then group and sum results by description
 
 The example below gets every `description` value in the `payments` array and appends the string `annual cost`. It then gets the `amount` value below each `description` field, multiplies it by 12, and appends it to its corresponding result. The results are grouped by `description` field.
 
