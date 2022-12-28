@@ -3,10 +3,12 @@ title: "GitLab CI/CD"
 updated: 2022-09-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
   - type: link
-    name: "CI Integrations"
-    url: "/docs/integrations/ci-integrations/"
+    name: "Postman Enterprise with GitLab"
+    url: "https://youtu.be/SrXDe_drkrc"
 ---
 
 > **[GitLab Self-Managed integrations are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
