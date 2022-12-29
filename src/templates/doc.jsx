@@ -15,7 +15,7 @@ import { useModal } from '../components/modules/Modal';
 import PreviousAndNextLinks from '../components/modules/PreviousAndNextLinks';
 import BreadCrumbsLinks from '../components/modules/BreadCrumbsLinks';
 import LoadQualtrics from '../components/modules/loadQualtrics';
-import { BaseLinkStyles, BaseLink } from 'aether-marketing';
+import { BaseLinkStyles, BaseLink, UnorderedListStyles, OrderedListStyles, } from 'aether-marketing';
 
 const DocWrapper = styled.div`
   /* Used for Deeplinking */   
@@ -50,56 +50,11 @@ h2, h3, h4 {
   }
 
   ul {
-    margin-left: 16px;
-    margin-bottom: 24px;
-
-    li::marker {
-      padding-inline-start: 39px;
-      color: ${(props) => props.theme.colors.orange_30};
-    }
-
-    &::after,
-      &::before {
-      display: inline-block;
-      direction: rtl !important;
-      margin-left: -28px !important;
-      padding-right: 16px !important;
-      width: 28px !important;
-      } 
-    
-    li {
-      margin-bottom: 8px;
-      line-height: 1.625;
-      padding: 0 0 0 16px;
-
-      li::before {
-        direction: rtl !important;
-        margin-left: -28px !important;
-        padding-right: 16px !important;
-        width: 28px !important;
-      }
-    }
-    li::before {
-      direction: rtl !important;
-      margin-left: -28px !important;
-      padding-right: 16px !important;
-      width: 28px !important;
-    }
-
-    list-style-type: '✦';
-
-    li::marker {
-      color: ${(props) => props.theme.colors.orange_30};
+    ${UnorderedListStyles.componentStyle.rules}
   }
 
   ol {
-    li {
-      padding-left: 10px;
-      margin-bottom: 8px;
-    }
-    li::marker {
-      color: $${(props) => props.theme.colors.grey_70};
-    }
+    ${OrderedListStyles.componentStyle.rules}
   } 
 
   @media (max-width: 765px) {
