@@ -117,7 +117,7 @@ In this example, `has_next` isn't null, so another set of Pokémon is available.
 1. Connect the **If** block's TRUE port to the **Send Request** block's URL port. This passes the new `URL` variable to the **Send Request** block.
 1. Also connect the **If** block's TRUE port to the **Send Request** block's Send port. This triggers the send event port of the block so it runs again.
 
-![Calling the **Send Request** block again](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-next-url.gif)
+    ![Connect the If block](https://assets.postman.com/postman-docs/v10/flow-connect-if-v10.jpg)
 
 ## Watching it run
 
@@ -127,6 +127,5 @@ After the above steps are completed, the flow runs and logs all the Pokémon to 
 
 <!-- vale Postman.Vocab = YES -->
 
-![Watching it run](https://assets.postman.com/postman-labs-docs/building-your-first-flow/watching-flow-run.gif)
-
+![Watch it run](https://assets.postman.com/postman-docs/v10/flow-watch-it-run-v10.gif)
 Congratulations, you've created your first flow!
