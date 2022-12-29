@@ -75,19 +75,24 @@ Begin by creating a new collection and adding a GET request. You'll use this col
 1. Create a **Log** block and connect it to the **Select** block, then select **Run**.
 1. Select **Console** to view the results.
 
+    ![Add a Log block](https://assets.postman.com/postman-docs/v10/flow-add-log-v10.jpg)
+
 ## Checking for the next page of results
 
-1. Create another **Select** block and connect it to **Success** port on the **Send Request** block.<!-- TODO: add graphic -->
-1. In the **Select** block you just created, enter `/body/next` to get the link to the next set of 200 results.
+1. Create another **Select** block and connect it to the **Success** port on the **Send Request** block.
+
+    ![Add another Select block](https://assets.postman.com/postman-docs/v10/flow-add-another-select-v10.jpg)
+
+1. In the **Select** block you just created, select **Enter path...** and select `/body/next` to get the link to the next set of 200 results.
 1. Create an **Evaluate** block to the right of the `/body/next` **Select** block and connect it to right port on the **Select** block.<!-- TODO: add graphic -->
-1. In the **Evaluate** block, select the field below **Variables** and enter `has_next`. This assigns the **Evalaute** block to the variable `has_next`.<!-- TODO: add graphic -->
+1. In the **Evaluate** block, select `value1` below **Variables** and replace `value1` with `has_next`. This assigns the `/body/next` value from the **Select** block to the `has_next` variable in the **Evaluate** block.
 1. At the top of the **Evaluate** block, enter `has_next != null`.
 
     > If `has_next` is null, then the flow has reached the last set of 200 results.
 
-<!-- vale Postman.Spelling = NO -->
+    ![Add an Evaluate block](https://assets.postman.com/postman-docs/v10/flow-add-eval-block-v10.jpg)
 
-![Evaluate has_next](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-check-for-next-result.gif)
+<!-- vale Postman.Spelling = NO -->
 
 ## Using an If block to branch based on has_next being null
 
