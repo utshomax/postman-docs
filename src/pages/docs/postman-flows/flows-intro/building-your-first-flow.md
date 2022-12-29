@@ -55,7 +55,6 @@ Begin by creating a new collection and adding a GET request. You'll use this col
     ![Add Send Request block](https://assets.postman.com/postman-docs/v10/flow-add-send-request-v10.jpg)
 
 1. In the **Send Request** block, select **Add request** and select **Pokemon API**. Then select the GET request you created earlier.
-
     ![Select request](https://assets.postman.com/postman-docs/v10/flow-select-request-v10.jpg)
 
 1. Create a **String** block below the **Start** block and enter the URL `https://pokeapi.co/api/v2/pokemon?limit=200`.
@@ -66,11 +65,13 @@ Begin by creating a new collection and adding a GET request. You'll use this col
 ## Logging the output to the console
 
 1. Create a **Select** block to the right of the **Send Request** block.
-
-    > Because you saved an example earlier, the structure of the returned data auto-populates in the block.
-
 1. Connect the **Select** block to the port next to **Success** on the **Send Request** block.
 1. Select the **Select** block and select `/body/results`.
+
+    > Because you saved an example earlier, the returned data's structure auto-populates in the block.
+
+    ![Add a Select block](https://assets.postman.com/postman-docs/v10/flow-add-select-v10.jpg)
+
 1. Create a **Log** block and connect it to the **Select** block, then select **Run**.
 1. Select **Console** to view the results.
 
