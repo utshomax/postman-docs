@@ -10,7 +10,7 @@ import SEO from '../components/seo';
 import upcomingEvents from '../../bff-data/events.json';
 import { LandingCard } from '../components/MarketingPages/Cards';
 import '../../styles/config/_pm-icons.css';
-import { BaseLink, BaseLinkStyles, BaseButton } from 'aether-marketing';
+import { BaseLink, BaseLinkStyles, BaseButton, SectionStyles, VideoComponent } from 'aether-marketing';
 
 const EventsWrapper = styled.div`
 a {
@@ -150,7 +150,7 @@ function getEvents(sortedUpcomingEvents) {
             {' '}
             <BaseLink
               style={{ fontSize: 'inherit' }}
-              href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md"
+              src="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md"
               target="same-tab"
               linkType="arrowLink"
             >
@@ -235,7 +235,7 @@ class IndexPage extends React.Component {
                     Check out the docs and support resources!
                   </p>
                   <BaseButton
-                    href="/docs/getting-started/introduction/" 
+                    src="/docs/getting-started/introduction/" 
                     className="mb-5"
                     as='a'
                     buttonType="secondary"
@@ -258,7 +258,7 @@ class IndexPage extends React.Component {
           </HeroWrapper>
         </div>
         <div className="container">
-          <section className="row section">
+          <SectionStyles className="row">
             <div className="col-sm-12">
               <h2 className="mb-5">Design, develop, and collaborate on your API projects</h2>
               <div className="row justify-content-center">
@@ -318,12 +318,12 @@ class IndexPage extends React.Component {
                 </div>
               </div>
             </div>
-          </section>
+          </SectionStyles>
           <div className="container-fluid" >
             <HRStyles/>
           </div>
           {/* Youtube Video Section */}
-          <section className="row section align-items-center">
+          <SectionStyles className="row align-items-center">
             <div className="col-lg-4">
               <h2>Intro to Postman</h2>
               <p>Learn the Postman fundamentals in this video course for beginners.</p>
@@ -332,29 +332,24 @@ class IndexPage extends React.Component {
               </p>
             </div>
             <div className="col-lg-8">
-              <div className="embed-responsive embed-responsive-16by9 img-frame">
-                <iframe
-                  loading="lazy"
-                  className="embed-responsive-item "
-                  src="https://www.youtube.com/embed/2oOSnxZ28fA?rel=0&origin=https://learning.postman.com/"
-                  title="Intro to Postman"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
-              </div>
+              <VideoComponent
+                src="https://www.youtube.com/embed/2oOSnxZ28fA?rel=0&origin=https://learning.postman.com/"
+                muted="false"
+                border="true"
+              ></VideoComponent>
             </div>
-          </section>
+          </SectionStyles>
           <div className="container-fluid" >
             <HRStyles/>
           </div>
           {/* Events Section */}
-          <section className="row section">
+          <SectionStyles className="row">
             <div className="col-12 col col-lg-4 text-left mb-5">
               <div className="sticky-top" style={{ top: '75px', zIndex: '0' }}>
                 <h2 id="upcoming-events">Upcoming Postman Events</h2>
                 <p>
                   <BaseLink 
-                    href="https://www.twitch.tv/getpostman" 
+                    src="https://www.twitch.tv/getpostman" 
                     target="new-tab-external-nofollow"
                     >
                     Follow us
@@ -363,7 +358,7 @@ class IndexPage extends React.Component {
                   on Twitch or
                   {' '}
                   <BaseLink
-                    href="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw"
+                    src="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw"
                     target="new-tab-external-nofollow"
                   >
                     subscribe
@@ -378,11 +373,11 @@ class IndexPage extends React.Component {
                 {getEvents(sortedUpcomingEvents)}
               </div>
             </div>
-          </section>
+          </SectionStyles>
           <div className="container-fluid" >
             <HRStyles/>
           </div>
-          <section className="row section">
+          <SectionStyles className="row">
             <div className="col-sm-6 col-lg-3 mb-sm-4 mb-md-0 pr-md-5">
               <LandingCard
                 title="Postman support"
@@ -419,7 +414,7 @@ class IndexPage extends React.Component {
                 link="https://www.postman.com/postman/workspace/postman-answers/"
               />
             </div>
-          </section>
+          </SectionStyles>
         </div>
       </Layout>
     );
