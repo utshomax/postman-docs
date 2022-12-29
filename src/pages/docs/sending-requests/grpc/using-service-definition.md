@@ -80,11 +80,13 @@ Instead of importing a `.proto` file from your local system, you can also fetch 
 
 ### Adding import paths
 
-Sometimes, gRPC schemas can be divided into multiple .proto files. These .proto files are referred through *import directives* in a schema. Import directives containing absolute paths (e.g. `/Users/johndoe/projects/my-app/protos/enums/NumericEnum.proto`) and relative paths (`../enums/NumericEnum.proto`) are auto resolved by Postman and don't require any additional configuration. In rest of the cases, make sure you add the parent directories of the import directives mentioned in the schema. Consider the example file structure below:
+Sometimes, gRPC schemas can be divided into multiple .proto files. These .proto files are referred through *import directives* in a schema. Import directives containing absolute paths (e.g. `/Users/johndoe/projects/my-app/protos/enums/NumericEnum.proto`) and relative paths (`../enums/NumericEnum.proto`) are automatically resolved by Postman and don't require any additional configuration. If the import directives do not contain absolute or relative paths, you must add their parent directories.
+
+Consider this example file structure:
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-service-definition/import-path-file-structure.jpg" width="400px" alt="Example file structure">
 
-In the example here, the `root.proto` contains import directives that refer to other .proto files in the `protos` folder. These import directives could look something like this in the schema:
+In this example, `root.proto` contains import directives that refer to other .proto files in the `protos` folder. These import directives could look something like this in the schema:
 
 ```
 
