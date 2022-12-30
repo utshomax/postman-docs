@@ -3,7 +3,7 @@
     "media": "https://voyager.postman.com/logo/postman-logo-white-horiz.svg",
     "items": [
         {
-            "title": "Product Dev",
+            "title": "Product",
             "dropdown": "true",
             "subItems": [
                 {
@@ -69,6 +69,10 @@
                         {
                             "title": "Docs",
                             "url": "https://learning.postman.com/docs/getting-started/introduction/"
+                        },
+                        {
+                            "title": "White papers",
+                            "url": "https://www.postman.com/whitepaper/"
                         },
                         {
                             "title": "Breaking changes show",
