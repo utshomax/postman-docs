@@ -1,8 +1,7 @@
 import React, { useState, useEffect }  from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
-
-const { v4: uuidv4 } = require('uuid');
+import { v4 as uuidv4 } from 'uuid';
 
 const sectionHandler = (e) => {
   document.location.href = e.target.getAttribute('data-section');
@@ -174,11 +173,11 @@ const renderTwoLevelList = (item, runtime) => {
             </div>
           </div>
           {active && (
-            <ChildItemsWrapper>
+            <ChildItemsWrapper key={uuidv4()}>
               {item.subMenuItems1.map(
                 (sItem) => (sItem.url && (
                   <li key={uuidv4()} className={`child ${window.location.pathname === sItem.url ? 'currentUrl' : ''}`}>
-                    <Link data-click={sItem.name} to={sItem.url}>{sItem.name}</Link>
+                    <Link data-click={sItem.name} to={sItem.url} key={uuidv4()}>{sItem.name}</Link>
                   </li>
                 )) || (
                     <li
@@ -209,7 +208,7 @@ const renderTwoLevelList = (item, runtime) => {
                             {sItem.subMenuItems2.map(
                               (ssItem) => ssItem.url && (
                                 <li key={uuidv4()} className={`child ${document.location.pathname === ssItem.url ? 'currentUrl' : ''}`}>
-                                  <Link to={ssItem.url} data-click={sItem.name} className="ssItem second-child">{ssItem.name}</Link>
+                                  <Link key={uuidv4()} to={ssItem.url} data-click={sItem.name} className="ssItem second-child">{ssItem.name}</Link>
                                 </li>
                               ),
                             )}

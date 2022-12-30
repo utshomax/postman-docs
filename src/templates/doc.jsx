@@ -8,7 +8,7 @@ import EditDoc from '../components/Shared/EditDoc';
 import { leftNavItems } from '../components/LeftNav/LeftNavItems';
 import LeftNav from '../components/LeftNav/LeftNav';
 import SEO from '../components/seo';
-const { v4: uuidv4 } = require('uuid');
+import { v4 as uuidv4 } from 'uuid';
 import styled from 'styled-components';
 import 'prismjs/themes/prism-tomorrow.css';
 import { useModal } from '../components/modules/Modal';
@@ -346,7 +346,7 @@ const DocPage = ({ data }) => {
               <RightColumnWrapper className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">
                 <hr className="d-block d-lg-none" />
                 <EditDoc />
-                <DisplayContextualLinks data={data} />
+                <DisplayContextualLinks data={data} key={uuidv4()} />
                 <div className="sticky">
                   <div> 
                     <p>
