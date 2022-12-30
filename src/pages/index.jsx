@@ -334,7 +334,6 @@ class IndexPage extends React.Component {
             <div className="col-lg-8">
               <VideoComponent
                 src="https://www.youtube.com/embed/2oOSnxZ28fA?rel=0&origin=https://learning.postman.com/"
-                muted="false"
                 border="true"
               ></VideoComponent>
             </div>

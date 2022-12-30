@@ -356,7 +356,7 @@ const DocPage = ({ data }) => {
                     </p>
                     <BaseLink 
                       className="sticky"
-                      href="https://www.postman.com/newsletter-signup/"
+                      src="https://www.postman.com/newsletter-signup/"
                       target="same-tab"
                       linkType="arrowLink"
                       >
