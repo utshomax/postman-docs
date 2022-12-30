@@ -49,14 +49,6 @@ h2, h3, h4 {
     margin-bottom: 0;
   }
 
-  ul {
-    ${UnorderedListStyles.componentStyle.rules}
-  }
-
-  ol {
-    ${OrderedListStyles.componentStyle.rules}
-  } 
-
   @media (max-width: 765px) {
     padding-left: 30px !important;
     padding-right: 30px !important;
@@ -208,6 +200,15 @@ code[class*="language-"] {
     color: ${(props) => props.theme.colors.blue_80};
 }
 `
+const DocContent = styled.div`
+  ul {
+    ${UnorderedListStyles.componentStyle.rules}
+  }
+
+  ol {
+    ${OrderedListStyles.componentStyle.rules}
+  } 
+`
 
 const RightColumnWrapper = styled.aside`
   margin-top: 0px;
@@ -276,10 +277,11 @@ const DocPage = ({ data }) => {
           </nav>
           <div className="col">
             <div className="row row-eq-height">
+            
               <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 doc-page ml-xl-5">
                 <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
                 <h1>{post.frontmatter.title}</h1>
-                <div id="LoadDoc" />
+                <DocContent id="LoadDoc" />
                 {
                   excerptCount ?
                     <div className='events__alert mb-3'>
