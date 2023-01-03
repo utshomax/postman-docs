@@ -18,15 +18,13 @@ When your [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#tea
 
 Your Team Admin can share a **Login URL** that was generated during the SSO configuration. The **Login URL** will automatically redirect you to your configured Identity Provider.
 
-To sign into Postman, do the following:
+## Signing in to Postman
 
-1. Select **Sign In** in the upper-right corner of Postman
-1. Select **Home** in the upper-left, then select **Sign in**
-1. Open [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner
+To [sign in to Postman](/docs/getting-started/postman-account/#signing-into-postman), select **Sign In** in the upper-right corner or select **Home** in the upper-left corner, then **Sign In**. You can also go to [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner of the page.
 
-When you opt to sign into the Postman desktop app, your default browser will automatically open a webpage asking you to sign into Postman.
+When you sign in using the Postman desktop app, the app will open a new screen that directs you to sign in from your browser. Your default browser will automatically open a webpage asking you to sign into Postman.
 
-> Your browser will open within a few seconds. If it doesn't, select **open your browser** in Postman. <img src="https://assets.postman.com/postman-docs/sign-in-with-web-browser.jpg" alt="Sign in with web browser"/>
+> Your browser will open within a few seconds. If it doesn't, select **open it manually** or **copy the URL** in Postman. <img src="https://assets.postman.com/postman-docs/sign-in-with-web-browser.jpg" alt="Sign in with web browser"/>
 
 <!-- -->
 
