@@ -32,7 +32,7 @@ Begin by creating a new collection and adding a GET request. You'll use this col
 
     > Saving the response as an example enables Postman Flows to automatically detect the structure for easier access later.
 
-1. Replace the URL `https://pokeapi.co/api/v2/pokemon?limit=200` with the variable `{{URL}}`.
+1. Select the GET request and replace the URL `https://pokeapi.co/api/v2/pokemon?limit=200` with the variable `{{URL}}`.
 
     ![Replace the URL](https://assets.postman.com/postman-docs/v10/flow-replace-the-url-v10.jpg)
 
@@ -66,13 +66,16 @@ Begin by creating a new collection and adding a GET request. You'll use this col
 
 1. Create a **Select** block to the right of the **Send Request** block.
 1. Connect the **Select** block to the port next to **Success** on the **Send Request** block.
+
+    ![Add a Select block](https://assets.postman.com/postman-docs/v10/flow-add-select-1-v10.jpg)
+
 1. Select the **Select** block and select `/body/results`.
 
     > Because you saved an example earlier, the returned data's structure auto-populates in the block.
 
-    ![Add a Select block](https://assets.postman.com/postman-docs/v10/flow-add-select-v10.jpg)
+    ![Select /body/results](https://assets.postman.com/postman-docs/v10/flow-body-results-v10.jpg)
 
-1. Create a **Log** block and connect it to the **Select** block, then select **Run**.
+1. Create a **Log** block and connect it to the right side of the **Select** block, then select **Run**.
 1. Select **Console** to view the results.
 
     ![Add a Log block](https://assets.postman.com/postman-docs/v10/flow-add-log-v10.jpg)
@@ -83,14 +86,17 @@ Begin by creating a new collection and adding a GET request. You'll use this col
 
     ![Add another Select block](https://assets.postman.com/postman-docs/v10/flow-add-another-select-v10.jpg)
 
-1. In the **Select** block you just created, select **Enter path...** and select `/body/next` to get the link to the next set of 200 results.
-1. Create an **Evaluate** block to the right of the `/body/next` **Select** block and connect it to right port on the **Select** block.<!-- TODO: add graphic -->
+1. In the **Select** block you created, select **Enter path...** and select `/body/next` to get the link to the next set of 200 results.
+1. Create an **Evaluate** block to the right of the `/body/next` **Select** block and connect it to right port on the **Select** block.
+
+    ![Add an Evaluate block](https://assets.postman.com/postman-docs/v10/flow-add-eval-block-1-v10.jpg)
+
 1. In the **Evaluate** block, select `value1` below **Variables** and replace `value1` with `has_next`. This assigns the `/body/next` value from the **Select** block to the `has_next` variable in the **Evaluate** block.
 1. At the top of the **Evaluate** block, enter `has_next != null`.
 
     > If `has_next` is null, then the flow has reached the last set of 200 results.
 
-    ![Add an Evaluate block](https://assets.postman.com/postman-docs/v10/flow-add-eval-block-v10.jpg)
+    ![Select /body/next](https://assets.postman.com/postman-docs/v10/flow-add-eval-block-v10.jpg)
 
 <!-- vale Postman.Spelling = NO -->
 
