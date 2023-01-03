@@ -42,7 +42,7 @@ Begin by creating a new collection and adding a GET request. You'll use this col
 
 1. Select **New** &gt; **Flows**. Your new flow appears with a **Start** block already in place.
 
-    > You can click and drag the canvas to reposition your flow.
+    > You can select and drag the canvas to reposition your flow.
 
     ![New flow](https://assets.postman.com/postman-docs/v10/flow-start-block-v10.jpg)
 
@@ -121,7 +121,7 @@ In this example, `has_next` isn't null, so another set of Pokémon is available.
 <!-- vale Postman.Spelling = YES -->
 
 1. Connect the **If** block's TRUE port to the **Send Request** block's URL port. This passes the new `URL` variable to the **Send Request** block.
-1. Also connect the **If** block's TRUE port to the **Send Request** block's Send port. This triggers the send event port of the block so it runs again.
+1. Also connect the **If** block's TRUE port to the **Send Request** block's Send port. This triggers the send event so it runs again.
 
     ![Connect the If block](https://assets.postman.com/postman-docs/v10/flow-connect-if-v10.jpg)
 
@@ -129,7 +129,7 @@ In this example, `has_next` isn't null, so another set of Pokémon is available.
 
 <!-- vale Postman.Vocab = NO -->
 
-After the above steps are completed, the flow runs and logs all the Pokémon to the console.
+After completing the above steps, select **Run**. The flow runs and logs all the Pokémon to the console.
 
 <!-- vale Postman.Vocab = YES -->
 
