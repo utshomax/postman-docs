@@ -39,7 +39,6 @@ html {
 body, p {
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif;
   color: #212121;
-  font-feature-settings: "ss01", "onum", "zero";
   font-size: 16px;
   font-weight: 400;
   text-rendering: geometricPrecision;
@@ -90,7 +89,6 @@ h3,
 .h3 {
   font-family: 'Degular-Display-Semibold', system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif;
   font-weight: 600;
-  font-feature-settings: 'kern' 1, 'ss01' 1, 'salt' 1;
 }
 
 h4,
@@ -271,7 +269,6 @@ strong,
 .section {
   padding: 40px 0;
   margin-bottom: 0;
-  font-size: 14px;
   @media (min-width: 768px) {
     padding: 80px 0;
   }
