@@ -5,7 +5,9 @@ import $ from 'jquery';
 import {PrimaryNavbarV6, SecondaryNavbarV6, NavStyles, DropdownStyles, CTAButton} from './HeaderStyles.jsx' ;
 import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
 import navbarData from '../../../bff-data/navbar.json';
-import navbarDataLocal from '../../../build/navbarDev.json';
+
+// For local TOPNAVBAR TESTING
+// import navbarDataLocal from '../../../build/navbarDev.json';
 
 // Get Cookie for Sign In toggler
 const getCookie = (a) => {
@@ -73,7 +75,7 @@ const Header = (props) => {
   const [beta, setBeta] = useState('');
   const [cookie, setCookie] = useState('');
   const [hidden, setHidden] = useState(true);
-  const [data, setData] = useState(navbarDataLocal);
+  const [data, setData] = useState(navbarData);
   const [visibleHelloBar] = useState();
 
   useEffect(() => {
@@ -83,9 +85,11 @@ const Header = (props) => {
     setCookie(cookie);
     setBeta(beta);
 
-    if (process.env.NODE_ENV === 'production') { 
-      setData(navbarData); // gets data fron bff generated file
-    }
+    // FOR LOCAL TOP NAVBAR TESTING: comment in navbarDataLocal import and below
+    // **************************************************************************
+    // if (process.env.NODE_ENV === 'development') { 
+    //   setData(navbarDataLocal);
+    // }
 
     const { waitBeforeShow } = props;
 
