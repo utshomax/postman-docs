@@ -15,7 +15,7 @@ import { useModal } from '../components/modules/Modal';
 import PreviousAndNextLinks from '../components/modules/PreviousAndNextLinks';
 import BreadCrumbsLinks from '../components/modules/BreadCrumbsLinks';
 import LoadQualtrics from '../components/modules/loadQualtrics';
-import { BaseLinkStyles, BaseLink } from 'aether-marketing';
+import { BaseLinkStyles, BaseLink, UnorderedListStyles, OrderedListStyles, } from 'aether-marketing';
 
 const DocWrapper = styled.div`
   /* Used for Deeplinking */   
@@ -48,59 +48,6 @@ h2, h3, h4 {
   img[src$='#icon'] {
     margin-bottom: 0;
   }
-
-  ul {
-    margin-left: 16px;
-    margin-bottom: 24px;
-
-    li::marker {
-      padding-inline-start: 39px;
-      color: ${(props) => props.theme.colors.orange_30};
-    }
-
-    &::after,
-      &::before {
-      display: inline-block;
-      direction: rtl !important;
-      margin-left: -28px !important;
-      padding-right: 16px !important;
-      width: 28px !important;
-      } 
-    
-    li {
-      margin-bottom: 8px;
-      line-height: 1.625;
-      padding: 0 0 0 16px;
-
-      li::before {
-        direction: rtl !important;
-        margin-left: -28px !important;
-        padding-right: 16px !important;
-        width: 28px !important;
-      }
-    }
-    li::before {
-      direction: rtl !important;
-      margin-left: -28px !important;
-      padding-right: 16px !important;
-      width: 28px !important;
-    }
-
-    list-style-type: '✦';
-
-    li::marker {
-      color: ${(props) => props.theme.colors.orange_30};
-  }
-
-  ol {
-    li {
-      padding-left: 10px;
-      margin-bottom: 8px;
-    }
-    li::marker {
-      color: $${(props) => props.theme.colors.grey_70};
-    }
-  } 
 
   @media (max-width: 765px) {
     padding-left: 30px !important;
@@ -253,6 +200,15 @@ code[class*="language-"] {
     color: ${(props) => props.theme.colors.blue_80};
 }
 `
+const DocContent = styled.div`
+  ul {
+    ${UnorderedListStyles.componentStyle.rules}
+  }
+
+  ol {
+    ${OrderedListStyles.componentStyle.rules}
+  } 
+`
 
 const RightColumnWrapper = styled.aside`
   margin-top: 0px;
@@ -321,10 +277,11 @@ const DocPage = ({ data }) => {
           </nav>
           <div className="col">
             <div className="row row-eq-height">
+            
               <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 doc-page ml-xl-5">
                 <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
                 <h1>{post.frontmatter.title}</h1>
-                <div id="LoadDoc" />
+                <DocContent id="LoadDoc" />
                 {
                   excerptCount ?
                     <div className='events__alert mb-3'>
@@ -356,7 +313,7 @@ const DocPage = ({ data }) => {
                     </p>
                     <BaseLink 
                       className="sticky"
-                      href="https://www.postman.com/newsletter-signup/"
+                      src="https://www.postman.com/newsletter-signup/"
                       target="same-tab"
                       linkType="arrowLink"
                       >
