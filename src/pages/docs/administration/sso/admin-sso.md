@@ -130,11 +130,11 @@ The **Automatically add new users** checkbox in your [SSO configuration](#config
 
 ### Managing team logins
 
-By default, Postman only supports Service Provider (Postman) initiated logins for Postman Professional or Enterprise teams using SSO. Your team must use the [Enterprise login page](https://identity.getpostman.com/enterprise/login) in order to sign in to Postman. If you require users be able to sign in from your SSO portal, you can generate and copy the Relay state from your [SSO configuration](#configuring-the-identity-provider-details) and save it in your IdP configuration. This ensures an extra level of security when logins are initiated through a source unknown to Postman.
+By default, Postman only supports Service Provider (Postman) initiated logins for Postman Professional or Enterprise teams using SSO. Your team must use the [Enterprise login page](https://identity.getpostman.com/enterprise/login) to sign in to Postman. If you require users be able to sign in from your SSO portal, you can generate and copy the Relay state from your [SSO configuration](#configuring-the-identity-provider-details) and save it in your IdP configuration. This ensures an extra level of security when logins are initiated through a source unknown to Postman.
 
 ### Removing team access
 
-You must [remove users from your team in Postman](/docs/administration/managing-your-team/managing-your-team/#removing-team-members) to prevent access to shared resources. When you remove a user from your team, you'll still retain access to any data they have shared with the team. You'll also be able to reassign their personal workspaces and the data within them to a remaining team member so that the team doesn't lose access to any unshared work.
+You must [remove users from your team in Postman](/docs/administration/managing-your-team/managing-your-team/#removing-team-members) to prevent access to shared resources. When you remove a user from your team, you'll still retain access to any data they have shared with the team. You'll also be able to reassign their personal workspaces and the data within them to a remaining team member. This way the team doesn't lose access to any unshared work.
 
 ## Troubleshooting
 
