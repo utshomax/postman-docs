@@ -13,7 +13,7 @@ This page walks you through your first flow, calling the Pokémon API and printi
 * [Making your first send request in Postman Flows](#making-your-first-send-request-in-postman-flows)
 * [Logging the output to the console](#logging-the-output-to-the-console)
 * [Checking for the next page of results](#checking-for-the-next-page-of-results)
-* [Using an If block to branch based on has_next being null](#using-an-if-block-to-branch-based-on-has_next-being-null)
+* [Using an If block to branch based on response data](#using-an-if-block-to-branch-based-on-response-data)
 * [Calling the request with the next URL](#calling-the-request-with-the-next-url)
 * [Watching it run](#watching-it-run)
 
@@ -24,7 +24,7 @@ This page walks you through your first flow, calling the Pokémon API and printi
 Begin by creating a new collection and adding a GET request. You'll use this collection with the flow you'll create later.
 
 1. In your workspace, select **New** &gt; **Collection**. Name the collection **Pokemon API**.
-1. [Add a request](/docs/getting-started/sending-the-first-request/) with this URL: `https://pokeapi.co/api/v2/pokemon?limit=200`.
+1. [Add a GET request](/docs/getting-started/sending-the-first-request/) with this URL: `https://pokeapi.co/api/v2/pokemon?limit=200`.
 
     ![Add a request](https://assets.postman.com/postman-docs/v10/flow-first-request-v10.jpg)
 
@@ -69,7 +69,7 @@ Begin by creating a new collection and adding a GET request. You'll use this col
 
     ![Add a Select block](https://assets.postman.com/postman-docs/v10/flow-add-select-1-v10.jpg)
 
-1. Select the **Select** block and select `/body/results`.
+1. In the **Select** block, select **Enter path...** and select `/body/results`.
 
     > Because you saved an example earlier, the returned data's structure auto-populates in the block.
 
@@ -91,7 +91,7 @@ Begin by creating a new collection and adding a GET request. You'll use this col
 
     ![Add an Evaluate block](https://assets.postman.com/postman-docs/v10/flow-add-eval-block-1-v10.jpg)
 
-1. In the **Evaluate** block, select `value1` below **Variables** and replace `value1` with `has_next`. This assigns the `/body/next` value from the **Select** block to the `has_next` variable in the **Evaluate** block.
+1. In the **Evaluate** block, select `key` below **Variables** and replace `key` with `has_next`. This assigns the `/body/next` value from the **Select** block to the `has_next` variable in the **Evaluate** block.
 1. At the top of the **Evaluate** block, enter `has_next != null`.
 
     > If `has_next` is null, then the flow has reached the last set of 200 results.
@@ -100,7 +100,7 @@ Begin by creating a new collection and adding a GET request. You'll use this col
 
 <!-- vale Postman.Spelling = NO -->
 
-## Using an If block to branch based on has_next being null
+## Using an If block to branch based on response data
 
 In this example, the **Evaluate** block outputs `true` if `has_next` isn't null, or `false` if `has_next` is null.
 
