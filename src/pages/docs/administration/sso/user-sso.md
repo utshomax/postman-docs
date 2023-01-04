@@ -24,7 +24,7 @@ To [sign in to Postman](/docs/getting-started/postman-account/#signing-into-post
 
 When you sign in using the Postman desktop app, the app will open a new screen that directs you to sign in from your browser. Your default browser will automatically open a webpage asking you to sign in to Postman.
 
-> Your browser will open within a few seconds. If it doesn't, select **open it manually** or **copy the URL** in Postman. <img src="https://assets.postman.com/postman-docs/sign-in-with-web-browser.jpg" alt="Sign in with web browser"/>
+> Your browser will open within a few seconds. If it doesn't, select **open it manually** or **copy the URL** in Postman. <img src="https://assets.postman.com/postman-docs/v10/sign-in-with-web-browser-v10-2.jpg" alt="Sign in with web browser"/>
 
 <!-- -->
 
