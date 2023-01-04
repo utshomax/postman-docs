@@ -70,8 +70,6 @@ Keep in mind the following when connecting to a repository:
 
 * **For GitHub connections, there's a limit of ten auth tokens per user per application imposed by GitHub.** If you create more than ten connections with the same user, the additional tokens will be revoked in the order that they were created. Teams can use other Postman accounts to create more than ten integrations.
 
-    > If you used the earlier standalone GitHub integration for two-way sync of an API definition, you must delete the existing integration to connect a repository to your API. An existing integration will continue to function, but you can't add new integrations for two-way sync to an API definition.
-
 ### Connecting to a cloud-hosted repository
 
 You can connect to a GitHub, Bitbucket, GitLab, or Azure DevOps repository hosted in the cloud.
