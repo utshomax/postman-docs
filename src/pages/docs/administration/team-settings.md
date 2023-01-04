@@ -65,7 +65,7 @@ Your team profile includes:
 
 ### Editing your team profile
 
-When you select **Team Settings**, you will be automatically directed to **Team Profile**. Here, you can edit your team's logo, cover photo, domain, favicon, and profile visibility.
+When you select **Team Settings**, you will be automatically directed to your **Team profile**. Here, you can edit your team's logo, cover photo, domain, favicon, and profile visibility.
 
 <!-- TODO: new screenshot -->
 
