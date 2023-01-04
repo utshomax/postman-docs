@@ -75,7 +75,7 @@ Use the following options to customize the appearance of the documentation:
 
 ## Viewing API documentation
 
-Postman automatically generates API docs for any OpenAPI 3.0 schema [defined in the API Builder](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/). API developers can also [create detailed documentation](/docs/publishing-your-api/documenting-your-api/#generating-api-documentation) for any API to help consumers understand and interact with their API's endpoints.
+Postman automatically generates API docs for any OpenAPI 2.0 and 3.0 API [defined in the API Builder](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/). API developers can also [create detailed documentation](/docs/publishing-your-api/documenting-your-api/#generating-api-documentation) for any API to help consumers understand and interact with their API's endpoints.
 
 To view documentation for an API, do the following:
 
@@ -85,7 +85,7 @@ To view documentation for an API, do the following:
 
 1. Select a documentation source on the API's overview:
 
-    * To view schema documentation, under **Definition**, select **View schema documentation**. (Schema documentation is available for OpenAPI 3.0 schemas.)
+    * To view schema documentation, under **Definition**, select **View schema documentation**. (Schema documentation is available for OpenAPI 2.0 and 3.0 definitions.)
     * To view collection documentation, expand a collection and select **View full documentation**. To get sample code in a different language, select it in the **Language** menu.
 
 <img alt="Viewing API documentation" src="https://assets.postman.com/postman-docs/v10/documentation-view-schema-docs-v10a.jpg" width="1106px">
