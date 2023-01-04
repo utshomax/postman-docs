@@ -1,6 +1,6 @@
 ---
 title: "Generating API documentation"
-updated: 2022-10-04
+updated: 2022-01-04
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -84,15 +84,15 @@ Collections with gRPC or WebSocket requests use a different format than collecti
 
 ## Generating API documentation
 
-The API Builder provides one place to view, create, and manage all of your API's documentation. Postman automatically generates API docs for any OpenAPI 3.0 definition. You can also add detailed documentation to any API by generating a collection from the API or by adding a copy of an existing collection.
+The API Builder provides one place to view, create, and manage all of your API's documentation. Postman automatically generates API docs for any OpenAPI 2.0 or 3.0 definition. You can also add detailed documentation to any API by generating a collection from the API or by adding a copy of an existing collection.
 
 ### Viewing schema documentation
 
-If you are [designing an API](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/) based on the OpenAPI 3.0 specification, Postman automatically creates documentation based on your API definition.
+If you are [designing an API](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/) based on the OpenAPI 2.0 or 3.0 specification, Postman automatically creates documentation based on your API definition.
 
 The API documentation includes complete API, path, and operation information, such as authentication methods, parameters, request bodies, response bodies and headers, and examples. The documentation also includes information for various data models, such as required attributes, default, minimum, and maximum values, and other constraints.
 
-To view the documentation for an OpenAPI 3.0 API, do the following:
+To view the documentation for an OpenAPI 2.0 or 3.0 API, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, under **Definition**, select **View schema documentation**.
