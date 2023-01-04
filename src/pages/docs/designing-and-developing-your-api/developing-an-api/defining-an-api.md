@@ -1,6 +1,6 @@
 ---
 title: 'Editing an API definition'
-updated: 2022-12-06
+updated: 2023-02-04
 search_keyword: "schema, spec, API schema, API spec, API specification, API definition"
 contextual_links:
   - type: section
@@ -96,7 +96,7 @@ In the upper right of the API definition editor are options to beautify the cont
 
 ## Working with multi-file API definitions
 
-Your API definition can span multiple files and folders. This is called a _multi-file API definition_. Multi-file API definitions are supported in OpenAPI 3.0 and Protobuf 2.0 and 3.0 APIs.
+Your API definition can span multiple files and folders. This is called a _multi-file API definition_. Multi-file API definitions are supported in OpenAPI 2.0 and 3.0 APIs and Protobuf 2 and 3 APIs.
 
 A multi-file API definition consists of the following components:
 
@@ -115,9 +115,9 @@ A multi-file API definition consists of the following components:
 
 An API definition's root file contains references to other files in the API definition. If you made a tree diagram of the relationships between all files in an API definition, the root file would be the file at the top of the tree. When you [create a new API definition](/docs/designing-and-developing-your-api/creating-an-api/) or [import an API](/docs/designing-and-developing-your-api/importing-an-api/), Postman determines the root file based on the references across the files. API definitions don't support references which are external links or present within a separate API.
 
-For OpenAPI 3.0 API definitions, Postman detects root files based on the content and references within files while importing or creating an API definition. You can't set a file as root for OpenAPI 3.0. OpenAPI can have one root file. If you delete the root file, Postman will recalculate the next candidate for the root file automatically.
+For OpenAPI 2.0 and 3.0 API definitions, Postman detects root files based on the content and references within files while importing or creating an API definition. You can't set a file as root for OpenAPI definitions. OpenAPI definitions can have one root file. If you delete the root file, Postman will recalculate the next candidate for the root file automatically.
 
-For Protobuf API definitions, while importing the API, Postman detects all files which have service definitions present in them and marks one as the root. You can set another file as root if there's more than one candidate for root file. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a Protobuf file in the sidebar and select **Mark as root**.
+For Protobuf 2 and 3 API definitions, while importing the API, Postman detects all files which have service definitions present in them and marks one as the root. You can set another file as root if there's more than one candidate for root file. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a Protobuf file in the sidebar and select **Mark as root**.
 
 ### Editing a multi-file API definition
 
@@ -131,7 +131,7 @@ You can add files and folders to a multi-file API definition. In the sidebar, se
 
 To add a file to a folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a folder, then select **Add file**. You can rearrange files and folders by dragging them in the sidebar. You can also rename or delete a file or folder by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
-> When you add a file to a single-file Open API 3.0 definition, or to a Protobuf 2.0 or 3.0 definition, it's converted to a multi-file API definition. The existing definition file becomes the root file.
+> When you add a file to a single-file Open API 2.0 or 3.0 definition, or to a Protobuf 2 or 3 definition, it's converted to a multi-file API definition. The existing definition file becomes the root file.
 
 ### Deleting files and folders
 
