@@ -61,7 +61,7 @@ Your team profile includes:
 * A **Highlights** section with pinned elements
 * Links to all your team's public collections, APIs, workspaces, and flows
 
-<!-- TODO: screenshot -->
+<img alt="Example of a filled-in team profile" src="https://assets.postman.com/postman-docs/v10/team-settings-overview-v10.jpg" width="800px"/>
 
 ### Editing your team profile
 
