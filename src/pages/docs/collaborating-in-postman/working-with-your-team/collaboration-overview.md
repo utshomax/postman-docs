@@ -49,7 +49,7 @@ The first time you create a team, do the following:
 5. (Optional) Invite collaborators to your team by email or sharing an invite link.
 6. Select **Continue** or **Maybe Later**.
 
-If you are a member of two or more teams, you can also create another team. To create another team, do the following:
+If you're a member of two or more teams, you can also create another team. To create another team, do the following:
 
 1. Select your avatar in the upper-right corner > **+ Create Team**.
 1. Follow the team creation steps in this section.
@@ -83,9 +83,11 @@ When you leave a team, your personal workspaces within the team and their data w
 
 ### Switching between teams
 
-You can sign in to multiple teams at the same time with your Postman account. To switch between teams, select your avatar in the top right. Select a team to open or select **+ Create Team** to create a new team.
+If you belong to multiple teams, you can sign in to them at the same time with your Postman account. To switch between teams, select your avatar in the top right. Select a team to open.
 
 <img alt="Switch teams" src="https://assets.postman.com/postman-docs/team-account-switcher-v9.2.1.jpg" width="350px">
+
+If you're a member of two or more teams, you can also select **+ Create Team** to create a new team.
 
 ## Leaving a team
 
