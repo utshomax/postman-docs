@@ -26,10 +26,10 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "WhatsApp"
+    name: "WhatsApp uses API documentation tools to enhance collaboration"
     url:  "https://www.postman.com/case-studies/whatsapp/"
   - type: link
-    name: "SEI Novus"
+    name: "SEI uses documentation to keep business use cases solved"
     url: "https://www.postman.com/case-studies/sei-novus/"
   - type: section
     name: "Next Steps"
