@@ -65,13 +65,13 @@ During the sign up process, you have the option to create or join a [team](/docs
 
 ## Signing into Postman
 
-You can sign in to Postman by selecting **Sign In** in the upper-right corner or by selecting **Home** in the upper-left corner, then **Sign In**. You can also go to [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner of the page.
+You can sign in to the Postman desktop app by selecting **Sign In** in the upper-right corner or by selecting **Home** in the upper-left corner, then **Sign In**. You can also go to [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner of the page.
 
 When you sign in using the Postman desktop app, the app will open a new screen that directs you to _Sign in from your browser to continue_. Your default browser will automatically open a webpage asking you to sign in to Postman. If your browser doesn't open within a few seconds, select either the **open it manually** or **copy the URL** link in Postman.
 
 > You can opt out of the sign in process at any time by going back to Postman and selecting **Skip and take me to Postman Desktop App**.
 
-Sign in to Postman in your browser by entering your account credentials or signing in with Google. If you're signing in to a Postman Professional or Enterprise team with SSO enabled, opt to **Sign in with SSO**.
+Sign in to Postman in your browser by entering your account credentials or signing in with Google. If you're signing in to a Postman Professional or Enterprise team with SSO enabled, opt to **Sign in with SSO**. To learn more, see [Logging in to an SSO team](/docs/administration/sso/user-sso/).
 
 Select **Stay signed in for 30 days** if you want to remain signed in after your current session for 30 days before re-authenticating. If you don't want to remain signed in on the computer you're working on, clear this checkbox. Note that Postman will prompt you to sign in again after 30 minutes.
 
