@@ -8,6 +8,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Partner Workspaces for Enterprise"
+    url: "https://youtu.be/gT55ui8UOHw"
+  - type: subtitle
     name: "Blog Posts"
   - type: link
     name: "Introducing Partner Workspaces: An Exclusive Space to Collaborate with Your API Partners"
