@@ -1,6 +1,6 @@
 ---
 title: "Generating API documentation"
-updated: 2022-01-04
+updated: 2023-01-05
 contextual_links:
   - type: section
     name: "Prerequisites"
