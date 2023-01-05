@@ -10,6 +10,18 @@ contextual_links:
     name: "Download and Install"
     url: "https://www.postman.com/downloads/"
   - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Enable Two-Factor Authentication"
+    url: "https://youtu.be/nmzEmrVWGQw"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Secure Your Postman Account with Two-Factor Authentication"
+    url: "https://blog.postman.com/secure-your-postman-account-with-two-factor-authentication/"
+  - type: section
     name: "Next Steps"
   - type: link
     name: "Customizing your Postman profile"
