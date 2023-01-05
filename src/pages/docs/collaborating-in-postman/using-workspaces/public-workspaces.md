@@ -58,7 +58,7 @@ Anyone in the Postman community can access a _public workspace_. A public worksp
 
 ## Making your team profile public
 
-Before other Postman users can work with your team in a public workspace, your team needs to have a public team profile. A public team profile encourages other users to collaborate with you in a public workspace, allows you to ask for contributions and gather feedback, and increases your API's discovery in search results. A public team profile also shows up on the [Public API Network](https://www.postman.com/explore).
+Before other Postman users can work with your team in a public workspace, your team needs to have a public team profile. A public team profile encourages other users to collaborate with you in a public workspace, enables you to ask for contributions and gather feedback, and increases your API's discovery in search results. A public team profile also shows up on the [Public API Network](https://www.postman.com/explore).
 
 To make your [team profile](https://go.postman.co/settings/team/general) public, do the following:
 

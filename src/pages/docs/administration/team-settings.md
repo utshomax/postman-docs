@@ -95,9 +95,9 @@ Keep the following in mind when you upload a logo, cover photo, or favicon:
 
 ### Making your team profile public
 
-If you enable your team's public profile, your team will be visible on Postman's [API Network](/docs/collaborating-in-postman/adding-private-network/), along with any [APIs](/docs/collaborating-in-postman/adding-private-network/#adding-your-apis), [collections](/docs/publishing-your-api/publishing-your-docs/), and [workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) your team has published.
+If you enable your team's public profile, your team will be visible on Postman's [API Network](/docs/collaborating-in-postman/adding-private-network/), along with any [APIs](/docs/collaborating-in-postman/adding-private-network/#adding-apis), [collections](/docs/publishing-your-api/publishing-your-docs/), and [workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) your team has published.
 
-A public team profile encourages other users to collaborate with you in a public workspace, allows you to ask for contributions and gather feedback, and increases your API's discovery in search results. A public team profile also shows up on the [Public API Network](https://www.postman.com/explore).
+A public team profile encourages other users to collaborate with you in a public workspace, enables you to ask for contributions and gather feedback, and increases your API's discovery in search results. A public team profile also shows up on the [Public API Network](https://www.postman.com/explore).
 
 To make your [team profile](https://go.postman.co/settings/team/general) public, do the following:
 
