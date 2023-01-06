@@ -13,6 +13,9 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "API Lifecycle, Part 2: Monitor and Deploy an API | Postman Intergalactic"
+    url: "https://youtu.be/voAUfBx8fnE"
+  - type: link
     name: "Continuous Testing with Postman | Webinar"
     url: "https://youtu.be/sB2HHrezQOo"
   - type: subtitle
@@ -36,7 +39,7 @@ Postman contains a full-featured [testing sandbox](/docs/writing-scripts/script-
 
 The following example shows how to set up a Jenkins build that uses Newman to run a collection. If the collection passes all tests, the Jenkins build will be marked as successful. This uses a Jenkins install running locally, but you'll typically be running it on a build server for production use.
 
-> **Developing an API?** Postman offers built-in tools to integrate your API with some of the most widely-used Continuous Integration (CI) tools, including Jenkins. After you set up CI integration for your API, you can view the status of builds or kick off a new build, all from within Postman. You can also use Newman to run API tests as part of your CI pipeline. To learn more, see [CI integrations](/docs/integrations/ci-integrations/).
+> **Developing an API?** Postman offers built-in tools to integrate your API with some of the most widely-used continuous integration (CI) tools, including Jenkins. After you set up CI for your API, you can view the status of builds or kick off a new build, all from within Postman. You can also use Newman to run API tests as part of your CI pipeline. To learn more, see [CI integrations](/docs/integrations/ci-integrations/).
 
 ## Contents
 
@@ -90,7 +93,7 @@ After you've created the collection, [export it as a JSON file](/docs/getting-st
 
    Jenkins indicates that the build has failed with a red cross next to the build in the build history. This is because of the intentionally failed tests in the collection.
 
-1. Select the build in the history list, then select **Console Output** to see what Newman returned.
+1. Select the build in the history list, then select **Console Output** to inspect what Newman returned.
 
 1. Fix these tests inside your collection. Export it and then run the build again.
 
@@ -98,14 +101,14 @@ Jenkins indicates that the build succeeded with a green checkmark.
 
 ## Configure frequency of runs
 
-To set the frequency with which Jenkins runs Newman:
+To set the frequency with which Jenkins runs Newman, do the following:
 
 1. Open the build window.
 1. Select **Configure**.
 1. Go to **Build Triggers** and select **Build periodically**.
 1. Enter a schedule. The syntax for setting the frequency to every 30 minutes is `H/(30) * * * *`.
 
-    > Select the help icon next to **Schedule** to see information on how to specify the build frequency.
+    > Select the help icon next to **Schedule** to learn how to specify the build frequency.
 1. Select **Save**.
 
 Jenkins will now run Newman at your desired frequency and will tell you if the build failed or succeeded.

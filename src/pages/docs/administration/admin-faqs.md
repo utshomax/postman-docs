@@ -21,7 +21,8 @@ For administrative and team management frequently asked questions, check out Pos
 
 The Help Center provides frequently asked questions that you may encounter as a Postman [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), including:
 
-* [Account FAQs](https://support.postman.com/hc/en-us/categories/115000609185-My-Account)
-* [Collaboration FAQs](https://support.postman.com/hc/en-us/categories/115000609165-Collaboration)
-* [Postman Enterprise FAQs](https://support.postman.com/hc/en-us/categories/115000604709-Postman-Enterprise)
-* [Billing FAQs](https://support.postman.com/hc/en-us/categories/115000609205-Billing-and-Payment)
+* [Account FAQs](https://support.postman.com/hc/en-us/sections/8180192954903-Account)
+* [Team FAQs](https://support.postman.com/hc/en-us/sections/8180228102551-Teams)
+* [Configuration FAQs](https://support.postman.com/hc/en-us/sections/8180233406615-Postman-configuration-)
+* [Security and Compliance FAQs](https://support.postman.com/hc/en-us/sections/8180247005975-Security-and-Compliance)
+* [Billing and Payment FAQs](https://support.postman.com/hc/en-us/categories/115000609205-Billing-and-Payment)

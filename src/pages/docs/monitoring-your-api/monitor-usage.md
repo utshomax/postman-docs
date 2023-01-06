@@ -16,6 +16,8 @@ warning: false
 
 Postman provides tools to help you manage your team's monitor usage. Track the number of monitoring requests that have been made against your plan's monthly maximum, and enable overages or purchase additional blocks if needed. You can also view all of the monitors your team has created to make sure you're not exceeding monitor activity limits.
 
+> To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).
+
 ## Contents
 
 * [Viewing monitor usage](#viewing-monitor-usage)
@@ -35,7 +37,7 @@ The Monitoring Usage Details dashboard shows your team's current billing period,
 
 [![monitoring usage details](https://assets.postman.com/postman-docs/monitoring-usage-details2.jpg)](https://assets.postman.com/postman-docs/monitoring-usage-details2.jpg)
 
-> **Concerned about overages?** Use the [Monitoring Usage Details dashboard](https://go.postman.co/usage/monitors) to see all of your team's active monitors in one place. You'll also find information to help you and your team make informed decisions on things like monitoring frequency. Learn more about [monitor overages](#allowing-monitor-overages).
+> **Concerned about overages?** Go to your [Monitoring Usage Details dashboard](https://go.postman.co/usage/monitors) for a list of all of your team's active monitors in one place. You'll also find information to help you and your team make informed decisions on things like monitoring frequency. Learn more about [monitor overages](#allowing-monitor-overages).
 
 ## How Postman calculates monitor usage
 
@@ -59,7 +61,7 @@ With a paid Postman account, you have the option to allow monitoring overages. O
 
 Instead of paying for overages after reaching your monthly usage limit, you have the option to purchase additional blocks of monitoring calls. Purchasing blocks may offer savings compared the pay-as-you-go rate, depending on the number of monitoring calls your team makes.
 
-To purchase additional monitoring call blocks:
+To purchase additional monitoring call blocks, do the following:
 
 1. Select **Team > Resource Usage**.
 1. Under **Monitoring Usage**, select **View detailed usage** to open the [Monitoring Usage Details dashboard](https://go.postman.co/usage/monitors).
@@ -71,7 +73,7 @@ To purchase additional monitoring call blocks:
 
 ## Monitor activity limits
 
-Postman maintains default limits on various team and user actions to ensure the overall performance and availability of monitoring. Postman will email your Team Admins if your team encounters these limits. In addition, team members will see an alert in Postman.
+Postman maintains default limits on various team and user actions to ensure the overall performance and availability of monitoring. Postman will email your Team Admins if your team encounters these limits. In addition, team members will get an alert in Postman.
 
 Postman maintains the following monitoring limits per team:
 

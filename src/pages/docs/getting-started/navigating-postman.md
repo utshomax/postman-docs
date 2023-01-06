@@ -2,7 +2,7 @@
 title: "Navigating Postman"
 order: 3
 page_id: "navigating_postman"
-updated: 2021-04-06
+updated: 2022-11-16
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -22,14 +22,17 @@ contextual_links:
   - type: link
     name: "Universal Search | Postman Level Up"
     url: "https://www.youtube.com/watch?v=1K6Pl6o_tj8"
+  - type: link
+    name: "Find Related Collections | Postman Level Up"
+    url: "https://youtu.be/d7Nq7Vo4nHc"
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Postman Now Recommends Related Collections in Requests"
-    url: "https://blog.postman.com/postman-now-recommends-collections-in-requests/"
-  - type: link
     name: "How Postman Designers Built the New Universal Search Feature"
     url: "https://blog.postman.com/how-postman-designers-built-the-new-universal-search-feature/"
+  - type: link
+    name: "Introducing Bulk Actions on Postman’s Sidebar"
+    url: "https://blog.postman.com/introducing-sidebar-bulk-actions/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -44,38 +47,36 @@ Postman has a variety of tools, views, and controls to help you manage your API 
 
 * [Header](#header)
 * [Sidebar](#sidebar)
-* [Main work area](#main-work-area)
+* [Workbench](#workbench)
     * [Tabs](#tabs)
     * [Right sidebar](#right-sidebar)
     * [Environment selector and environment quick look](#environment-selector-and-environment-quick-look)
 * [Footer](#footer)
 
-[![Postman app](https://assets.postman.com/postman-docs/navigating-postman-app-overview-v9.15.jpg)](https://assets.postman.com/postman-docs/navigating-postman-app-overview-v9.15.jpg)
+<img alt="Postman app" src="https://assets.postman.com/postman-docs/v10/navigating-postman-app-overview-5-v10.jpg" width="1100px"/>
 
 ## Header
 
 The header enables you to create workspaces, access reports, explore the public API network, search in Postman, view sync status and notifications, and access your settings, account, and [Postman plan](/docs/administration/buying/).
 
-<img alt="Postman header left side" src="https://assets.postman.com/postman-docs/navigating-postman-header-left-v9.15.jpg" width="500px"/>
+<img alt="Postman header left side" src="https://assets.postman.com/postman-docs/navigating-postman-header-left-v9.19.jpg" width="350px"/>
 
-* **Home** - Go to your personal home page, which includes alerts, announcements, your activity feed, your recently visited workspaces, and links to resources for [your team](/docs/collaborating-in-postman/collaboration-intro/) if applicable.
+* **Home** - Go to your personal home page, which includes alerts, announcements, your activity feed, your recently visited workspaces, and links to resources for [your team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) if applicable.
 * **Workspaces** - Search for workspaces, view your recently visited workspaces, or [create a new workspace](/docs/getting-started/creating-your-first-workspace/).
 * **API Network** - Explore the [Public API Network](/docs/getting-started/exploring-public-api-network/) and access your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
-* **Reports** - _Available for Postman Enterprise and select Postman Professional plans_. View [reports](/docs/reports/reports-overview/) with details about your team, workspaces, and APIs, and your security audit.
 * **Explore** - Browse public APIs, teams, workspaces, and collections on Postman.
 
 <img alt="Expanded view of the Search Postman field" src="https://assets.postman.com/postman-docs/navigating-postman-search-v9.15.jpg" width="500px"/>
 
 * <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Search Postman** - Search all workspaces, collections, APIs, and teams in Postman. For more details on searching in Postman, see [Search Postman](#search-postman).
 
-<img alt="Postman header right side" src="https://assets.postman.com/postman-docs/navigating-postman-header-right-v9.15.jpg" width="350px"/>
+<img alt="Postman header right side" src="https://assets.postman.com/postman-docs/navigating-postman-header-right-v9.19.2.jpg" width="300px"/>
 
-* <img alt="Sync online icon" src="https://assets.postman.com/postman-docs/icon-sync-online.jpg#icon" width="16px"> **Sync status** - See if you are connected to Postman's servers and your data is [syncing](/docs/getting-started/syncing/).
 * **Invite** - If you have an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) on a workspace, you can invite other users to collaborate.
 * <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> **Settings** - Access [Postman settings](/docs/getting-started/settings/) and other Postman resources.
 * <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> **Notifications** - View recent activity from your team, get notifications about Postman updates, and see pull requests, comment activity, and other important information.
 * **Your avatar** - View your profile, access your [account and notification settings](/docs/getting-started/postman-account/), see all active sessions for your account, or sign out of your account.
-* **Team** (_paid plans_) or **Upgrade** (_free plan_) - View resource usage and access your [billing dashboard](/docs/administration/billing/) and other account management tools.
+* **Team** (_paid plans_) or **Upgrade** (_free plan_) - View [resource usage](/docs/administration/resource-usage/) and access your [billing dashboard](/docs/administration/billing/) and other account management tools.
 
 ### Search Postman
 
@@ -83,7 +84,7 @@ To search in Postman, select __Search Postman__ in the header then enter your se
 
 > For signed-out users, search results only include public resources.
 
-If you don't find what you are looking for in the list of results, select __Search all workspaces, collections, APIs and teams__ and you can find all the results in one page.
+If you don't find what you are looking for in the list of results, select __Search all workspaces, collections, APIs and teams__ to see all the results in one page.
 
 <img alt="Search all" src ="https://assets.postman.com/postman-docs/search-all-workspaces-collections-and-teams-v9.5.jpg"/>
 
@@ -93,10 +94,10 @@ You can also sort results using __Sort by__ on the right by selecting _Most rele
 
 Depending on the element type, the search results contain different information:
 
-* For _workspaces_, the search result contains the workspace type, summary, who published it, and when was it published.
-* For _collections_, the search result contains the workspace type, whether the collection is a fork or not, who published it, and when was it published.
-* For _APIs_, the search result contains the name and summary of the API, the API's owner (either an individual user or a team), and the workspace type.
-* For _teams_, the search result contains the name and summary of the team. Selecting the team name redirects you to the team profile.
+* For _workspaces_, the search result shows the workspace type, summary, who published it, and when was it published.
+* For _collections_, the search result shows the workspace type, whether the collection is a fork or not, who published it, and when was it published.
+* For _APIs_, the search result shows the name and summary of the API, the API's owner (either an individual user or a team), and the workspace type.
+* For _teams_, the search result shows the name and summary of the team. Selecting the team name redirects you to the team profile.
 
 ## Sidebar
 
@@ -107,9 +108,14 @@ The Postman sidebar provides access to the fundamental elements of Postman:
 * [Environments](/docs/sending-requests/managing-environments/#creating-environments)
 * [Mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
 * [Monitors](/docs/running-collections/scheduling-collection-runs/)
+* [Flows](/docs/postman-flows/flows-intro/flows-overview/)
 * [History](#history)
 
 <img alt="Sidebar focused on Collections" src="https://assets.postman.com/postman-docs/navigating-postman-sidebar-v9.15.jpg" width="350px"/>
+
+To see the task options that are available for elements in the sidebar, select the element's name then select the more options icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">. The task options will vary depending on the type of element you've selected.
+
+For collections, folders and requests inside a collection, and requests in History, you can select more than one element at a time. Press and hold **⌘** or **Ctrl**, then select the desired elements. For elements that are next to each other, press and hold **Shift**, then select the desired elements. For collections and their contents, you can also use [keyboard shortcuts](/docs/getting-started/settings/#shortcuts) for tasks like copying, pasting, and deleting.
 
 To hide the sidebar, select the hide sidebar icon <img alt="Hide sidebar icon" src="https://assets.postman.com/postman-docs/icon-hide-sidebar-v9.jpg#icon" width="18px"> from the [footer](#footer).
 
@@ -117,7 +123,7 @@ To hide the sidebar, select the hide sidebar icon <img alt="Hide sidebar icon" s
 
 To access the requests you've made, select __History__ in the sidebar. When you're signed in to Postman, your history [syncs](/docs/getting-started/syncing/) across your devices.
 
-Select a request to open it again in a new tab. You can select more than one request by pressing **⌘** or **Ctrl** and selecting the requests.
+Select a request to open it again in a new tab. To select more than one request, press and hold **⌘** or **Ctrl**, then select the requests.
 
 <img alt="History Request" src="https://assets.postman.com/postman-docs/history-request-v9.jpg" width="350px"/>
 
@@ -137,17 +143,19 @@ To save request responses in your history, select the more actions icon <img alt
 
 > You can't use the __Save Responses__ option with requests from [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
 
-## Main work area
+## Workbench
 
-Whether you're working with a collection, an API, or another element type, the center section of Postman is where you do the majority of your work. [Tabs](#tabs) enable you to organize your work, while the [right sidebar](#right-sidebar) gives you access to element-specific tools like documentation, and the [environment selector and environment quick look](#environment-selector-and-environment-quick-look) enable you to manage variables.
+Whether you're working with a collection, an API, or another element type, the Postman workbench is where you do the majority of your work. [Tabs](#tabs) enable you to organize your work, while the [right sidebar](#right-sidebar) gives you access to element-specific tools like documentation. The [environment selector and environment quick look](#environment-selector-and-environment-quick-look) enable you to manage variables.
 
 ### Tabs
 
 Tabs allow you to organize and work between requests.
 
+> This section describes how tabs work in the Postman desktop app. By default, tabs in the Postman web app work this way as well. You can choose to use browser tabs instead, which enables you to use a different tab for each open Postman element. For more information, see [Browser tabs in the Postman web app](#browser-tabs-in-the-postman-web-app).
+
 #### Opening a new tab
 
-To open a new tab, select __+__ in the middle of the screen.
+To open a new tab, select __+__ in the workbench.
 
 > You can also select **⌘+T** or **Ctrl+T** to open a new tab.
 
@@ -160,6 +168,20 @@ You can set whether Postman opens requests in new tabs. Select the settings icon
 #### Saving or discarding changes
 
 If a tab has unsaved changes, Postman displays a dot next to the tab name. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save the changes. To close the tab and discard changes, select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> then select **Don't save**.
+
+#### Renaming and linking elements
+
+To rename an element, hover over the element's name in the workbench to display the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. Select the edit icon and enter a new name.
+
+<img alt="Rename elements" src="https://assets.postman.com/postman-docs/v10/rename-element-v10.jpg" width="300px"/>
+
+To copy a link to an element, hover over the element's name in the workbench to display the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px">. Select the link icon to copy the element's URL to your clipboard.
+
+<img alt="Copy link to elements" src="https://assets.postman.com/postman-docs/v10/copy-link-to-element-v10.jpg" width="300px"/>
+
+If the element is in a personal workspace that no one can access, a popup window will display when you select the link icon. The popup window enables you to invite people to your personal workspace before sharing the link. To invite people to your personal workspace, select **Invite People**. To learn more about inviting people to collaborate in a workspace, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
+
+<img alt="Invite people before sharing link to element" src="https://assets.postman.com/postman-docs/v10/copy-link-to-element-invite-v10.jpg" width="300px"/>
 
 #### Viewing conflicts
 
@@ -177,7 +199,7 @@ To manage your open tabs or to access recently closed tabs, select the more acti
 * **Duplicate Selected Tab** - _(Desktop app only)_ Duplicates the current tab. This doesn't create a copy of the request, so when you duplicate a tab any edits you make are reflected in the original request.
 * **Close Selected Tab** - Closes the current tab. If the tab has unsaved changes, Postman asks if you want to save before closing.
 * **Force Close Selected Tab** - Closes the current tab without saving any changes.
-* **Close All but Selected Tab** - Closes all tabs except the one you are currently working in.
+* **Close All but Selected Tab** - Closes all tabs except the one you're working in.
 * **Close All Tabs** - Closes all tabs. If any tabs contain unsaved changes, Postman will ask if you want to save before closing.
 * **Force Close All Tabs** - Closes all tabs without saving any changes.
 
@@ -187,48 +209,65 @@ You can also manage your open tabs or open a new tab by right-clicking on an exi
 
 > **Closing unsaved tabs.** You can set whether Postman asks whether you want to save when you close a tab that has changes. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to open **Settings**. Under **Requests**, select **Always ask when closing unsaved tabs** to turn this option on or off.
 
-If you have a lot of tabs open, they might overflow the area of the tab bar. To go to tabs that are outside the viewable area, select the arrows to the left or right of the tab bar.
+If you have a lot of tabs open, they might overflow the area of the tab bar. To go to tabs that are outside the viewable area, select the arrows next to the tab bar.
 
 <img alt="Scroll to view tabs" src="https://assets.postman.com/postman-docs/tab-navigation-scroll.jpg" width="800px"/>
+
+#### Browser tabs in the Postman web app
+
+By default, the Postman web app uses in-app tabs like the Postman desktop app does. You can optionally choose to use browser tabs instead. With this setting turned on, there is only one collection overview or request in the main work area at a time, and you can open more Postman elements in new browser tabs. This enables you to work across workspaces or to use different environments in the same workspace.
+
+If you've saved changes to a request, when you select a new element Postman will open it in the main work area area. If the request has unsaved changes, Postman will prompt you to save or discard your changes.
+
+To open a workspace, environment, or request in a new browser tab, press and hold **⌘+Shift** or **Ctrl+Shift** and select the element you want to open.
+
+To open an in-app link in a new browser tab, press and hold **⌘** or **Ctrl** and select the link you want to open.
+
+To turn this behavior on or off in the Postman web app, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Remove tabs** in the **User interface** section.
 
 ### Right sidebar
 
 The right sidebar gives you access to more tools, including documentation, comments, code snippets, and request information, based on which kind of Postman element you select.
 
-<img alt="Postman right sidebar showing Documentation view" src="https://assets.postman.com/postman-docs/navigating-postman-right-sidebar-v9.15.jpg" width="400px"/>
+<img alt="Postman right sidebar showing Documentation view" src="https://assets.postman.com/postman-docs/v10/navigating-postman-right-sidebar-v10.jpg" width="400px"/>
 
 Tool | Available for | Description
 --- | --- | ---
 **Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> | Collections, requests | See the [documentation](/docs/publishing-your-api/publishing-your-docs/) for a collection or for a specific request.
-**Comments** <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> | Collections, requests, APIs | Leave [comments](/docs/collaborating-in-postman/commenting-on-collections/) on a specific part of a request or an API.
+**Comments** <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> | Collections, requests, APIs | Leave [comments](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/) on a specific part of a request or an API.
 **Code** <img alt="Code snippet icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px"> | Requests, APIs, history | Generate [code snippets](/docs/sending-requests/generate-code-snippets/) in a variety of languages and frameworks that you can use in other apps.
-**Info** <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> | Collections, requests, APIs, environments, mock servers, monitors | See details about the element, including its ID, when it was created, who created it, and more.
 **Related collections** <img alt="Related Collections icon" src="https://assets.postman.com/postman-docs/collection-rec-lightbulb-icon2.jpg#icon" width="16px"/> | Requests, history | View public collections from the [Public API Network](/docs/getting-started/exploring-public-api-network/) that share the same base URL as your request and include API documentation.
+**Info** <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> | Collections, requests, APIs, environments, mock servers, monitors, flows | See details about the element, including its ID, when it was created, who created it, and more.
 **Changelog** <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> | Collections, APIs | Use the [changelog](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#viewing-the-collection-changelog) to see changes that you and your collaborators have made. Available on [Postman Basic, Professional, and Enterprise plans](https://www.postman.com/pricing/).
 **Pull requests** <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px"> | Collections, environments | View any [pull requests](/docs/collaborating-in-postman/version-control/#creating-pull-requests) for a Postman element.
-**Forks** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> | Collections, environments | View any [forks](/docs/collaborating-in-postman/version-control/#forking-postman-entities) of a Postman element.
+**Forks** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> | Collections, environments, flows | View any [forks](/docs/collaborating-in-postman/version-control/#forking-postman-entities) of a Postman element.
 **Activity feed** <img alt="Activity feed icon" src="https://assets.postman.com/postman-docs/icon-activity-feed-v9.jpg#icon" width="16px"> | Monitors | View the activity feed for a [monitor](/docs/monitoring-your-api/intro-monitors/).
+**Flow Element Info** <img alt="Flow Element Info icon" src="https://assets.postman.com/postman-docs/v10/flow-element-info-v10.jpg#icon" width="21px"> | Flows | View the input and output of the selected block.
+**Released Versions** <img alt="Released Versions icon" src="https://assets.postman.com/postman-docs/v10/released-versions-v10.jpg#icon" width="21px"> | Flows | View your released flows.
+**Execution issues** <img alt="Execution issues icon" src="https://assets.postman.com/postman-docs/v10/execution-issues-v10.jpg#icon" width="21px"> | Flows | View a flow's execution issues, if any.
 
 ### Environment selector and environment quick look
 
 The environment selector enables you to choose which [environment](/docs/sending-requests/managing-environments/) to use in your work. Select an environment from the menu to set it as the active environment, which gives you access to the variables in that environment.
 
-<img src="https://assets.postman.com/postman-docs/environment-selector-v9.13.jpg" alt="Environment selector" width="300">
+<img src="https://assets.postman.com/postman-docs/v10/environment-selector-v10.jpg" alt="Environment selector" width="200px">
 
-To check a variable value at a glance, use the quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">.
+To check a variable value at a glance, use the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px">.
 
 ## Footer
 
 The footer on the bottom of Postman enables you to find and replace text, open the console, capture requests and cookies, open __Bootcamp__, and access several other tools.
 
-<img alt="Postman footer left view" src="https://assets.postman.com/postman-docs/navigating-postman-footer-left-v9.jpg" width="300px"/>
+<img alt="Postman footer left view" src="https://assets.postman.com/postman-docs/navigating-postman-footer-left-v9.19.jpg" width="300px"/>
 
 * <img alt="Hide sidebar icon" src="https://assets.postman.com/postman-docs/icon-hide-sidebar-v9.jpg#icon" width="18px"> **Hide sidebar** - Close or reopen the [sidebar](#sidebar).
-* <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Find and replace** - _(Postman Desktop app only)_ Search the current workspace. You can also use the shortcuts **⌘+Shift+F** or **Ctrl+Shift+F**. Enter your search string then select **Find**. Limit your search to a specific element type by selecting **Collections**, **Environments**, **Globals**, or **Open tabs**. To replace your search term in a selected element, select **Replace in selected**.
+* <img alt="Checkmark icon" src="https://assets.postman.com/postman-docs/icon-checkmark-v9.jpg#icon" width="16px"> **Sync status** - See if you are connected to Postman's servers and your data is [syncing](/docs/getting-started/syncing/).
+* <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Find and replace** - _(Postman desktop app only)_ Search the current workspace. You can also use the shortcuts **⌘+Shift+F** or **Ctrl+Shift+F**. Enter your search string then select **Find**. Limit your search to a specific element type by selecting **Collections**, **Environments**, **Globals**, or **Open tabs**. To replace your search term in a selected element, select **Replace in selected**.
 * <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** - [Inspect and debug](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) your Postman requests.
 
-<img alt="Postman footer right view" src="https://assets.postman.com/postman-docs/navigating-postman-footer-right-v9.jpg" width="900px"/>
+<img alt="Postman footer right view" src="https://assets.postman.com/postman-docs/v10/navigating-postman-footer-right-v10.jpg" width="900px"/>
 
+* <img alt="Git branch icon" src="https://assets.postman.com/postman-docs/icon-source-control.jpg#icon" width="16px"/> **Git branch icon** - For [APIs using a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/), switch branches and open the **Source Control** pane.
 * <img alt="Cookies icon" src="https://assets.postman.com/postman-docs/icon-cookies.jpg#icon" width="16px"> **Cookies** - View, manage, and sync [cookies](/docs/sending-requests/cookies/).
 * <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** - Start a [Postman proxy or Interceptor session](/docs/sending-requests/capturing-request-data/capture-overview/).
 * <img alt="Bootcamp icon" src="https://assets.postman.com/postman-docs/icon-bootcamp-v9.jpg#icon" width="16px"> **Bootcamp** - Access an [in-app classroom](https://postman.postman.co/bootcamp) that teaches you how to use Postman, from the basics to advanced topics.

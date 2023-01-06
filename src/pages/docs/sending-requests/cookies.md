@@ -38,7 +38,7 @@ Postman's cookie manager enables you to view and edit cookies that are associate
 
 A computer _cookie_ is more formally known as an HTTP cookie, a web cookie, an Internet cookie, or a browser cookie. The name is a shorter version of “magic cookie,” which is a term for a packet of data that a computer receives and then sends back without changing or altering it.
 
-A cookie typically contains two pieces of data: a unique ID for each user and a site name. Cookies enable websites to retrieve this information when you revisit them, so that they can remember you and your preferences and tailor page content for you based on this information. Without cookies, you’d have to sign in again after you leave a site or rebuild your shopping cart if you accidentally closed a web page. This makes cookies an important a part of the internet experience.
+A cookie typically has two pieces of data: a unique ID for each user and a site name. Cookies enable websites to retrieve this information when you revisit them, so that they can remember you and your preferences and tailor page content for you based on this information. Without cookies, you’d have to sign in again after you leave a site or rebuild your shopping cart if you closed a web page. This makes cookies an important a part of the internet experience.
 
 ## Using the cookie manager
 
@@ -52,7 +52,7 @@ The **Manage Cookies** window displays a list of domains and the cookies associa
 
 ### Creating cookies
 
-To add a new cookie for a domain, select **+ Add Cookie** below the domain. A pre-generated cookie string compliant with [HTTP State Management standards](https://datatracker.ietf.org/doc/html/rfc6265#section-4.1) is created.
+To add a new cookie for a domain, select **+ Add Cookie**. A pre-generated cookie string compliant with [HTTP State Management standards](https://datatracker.ietf.org/doc/html/rfc6265#section-4.1) is created.
 
 ```js
 <cookieName>=<cookieValue>; path=/; domain=.domain.com; HttpOnly; Secure; Expires=Tue, 19 Jan 2038 03:14:07 GMT;
@@ -63,7 +63,7 @@ Postman supports the following attributes:
 * **cookieName**, **cookieValue** - The name of the cookie and the value stored in it.
 * **Domain** - The domain Postman will send the cookie to.
 * **Path** - The URL path that the cookie is restricted to. If the path is `/`, the cookie will be sent to all requests in the specified domain.
-* **HttpOnly** - If present, the cookie won't be accessible to the client-side scripts run on the page (for example, with `document.cookie` in JavaScript). The cookie will only be added to the cookie header in requests that are made. This field does not have an effect on Postman's behavior.
+* **HttpOnly** - If present, the cookie won't be accessible to the client-side scripts run on the page (for example, with `document.cookie` in JavaScript). The cookie will only be added to the cookie header in requests that are made. This field doesn't have an effect on Postman's behavior.
 * **Secure** - If present, the cookie is only sent when the URL begins with `https://` and won't be sent over an insecure connection.
 * **Expires** - The time after which the cookie will expire and not be sent by Postman.
 
@@ -95,7 +95,7 @@ To delete a domain and all cookies associated with it, select <img alt="Close ic
 
 When you add a domain to the allowlist, cookies for that domain can be accessed in scripts.
 
-To add a domain to the allowlist:
+To add a domain to the allowlist, do the following:
 
 1. Open a request, then select **Cookies** (under **Send**).
 1. In the **Manage Cookies** window, select **Domains Allowlist**.
@@ -167,9 +167,21 @@ To clear all cookies for a URL, use the `.clear()` function. This function takes
 cookieJar.clear(URL, callback (error));
 ```
 
-### Properties not yet supported
+### Deleting and then setting cookies in sequence
 
-The following properties that are not supported by Postman:
+To clear all cookies for a URL `.clear()` and then place a cookie into a cookie jar `.set()`, use a callback function.
+
+Function calls execute asynchronously. Use a callback function to ensure functions execute in sequence:
+
+```js
+cookieJar.clear(URL, (error) => {
+    jar.set(URL, cookie name, cookie value, callback(error, cookie));
+});
+```
+
+### Properties not supported
+
+The following properties aren't supported by Postman:
 
 * `SameSite`
 * Cookie Prefixes:

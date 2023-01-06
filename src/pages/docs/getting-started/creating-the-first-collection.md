@@ -20,6 +20,14 @@ contextual_links:
     name: "Group Requests in Collections | Postman Level Up"
     url: "https://youtu.be/ghHX4FGvVyA"
   - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Twitter"
+    url:  "https://www.postman.com/case-studies/twitter/"
+  - type: link
+    name: "Werner Enterprises"
+    url:  "https://www.postman.com/case-studies/werner/"
+  - type: subtitle
     name: "Public Workspaces"
   - type: link
     name: "30 days of Postman for developers"
@@ -37,11 +45,13 @@ Postman Collections are a group of saved requests. Every request you send in Pos
 
 ## Creating your first collection
 
-To create a new collection, you can start by creating a new request first:
+To create a new collection, you can start by creating a new request first. You can create a new request from the sidebar in Postman.
 
-You can create a new request from the sidebar in Postman. Select __New__ &gt; __HTTP Request__.
+To create a collection, do the following:
 
-<img alt="Create new request sidebar" src="https://assets.postman.com/postman-docs/create-new-request-sidebar-v9.jpg"/>
+1. Select __New__ &gt; __HTTP Request__.
+
+    <img alt="Create new request" src="https://assets.postman.com/postman-docs/v10/new-request-v10.jpg"/>
 
 1. Enter a request in the request builder and select **Save**.
 1. Create a new collection by selecting **New Collection**. Enter a collection name, and then select **Create**.
@@ -50,12 +60,12 @@ You can create a new request from the sidebar in Postman. Select __New__ &gt; __
 
 1. Select **Save** to save the request in the new collection.
 
-Congratulations! You can see all your collections under **Collections** in the sidebar, as shown below:
+Congratulations! Postman lists all your collections under **Collections** in the sidebar, as shown below:
 
 <img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/creating-first-collection-v9.jpg" width="400px"/>
 
 <img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/creating-first-collection-v8.jpg" width="400px"/>
 
-> You can also create a new collection from your workspace's **Overview** tab. Under **In this workspace** on the right of Postman, hover over **Collections** and select the **+** icon.
+> You can also create a new collection from your workspace's **Overview** tab. Under **In this workspace**, hover over **Collections** and select the **+** icon.
 >
 > <img alt="Create new request overview" src="https://assets.postman.com/postman-docs/create-new-collection-v9.jpg" width="300px"/>

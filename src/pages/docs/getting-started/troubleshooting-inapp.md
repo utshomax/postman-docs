@@ -8,9 +8,9 @@ updated: 2022-03-29
 
 Sometimes things go wrong! If you're having trouble with the Postman app, there are several resources that can help you diagnose and fix the problem.
 
-If you have questions about Postman beyond what's covered in this guide, see [Postman's Help Center](https://support.postman.com/hc/en-us) for answers to [frequently asked questions about the Postman app](https://support.postman.com/hc/en-us/categories/115000609125-Postman-App).
+If you have questions about Postman beyond what's covered in this guide, see [Postman's Help Center](https://support.postman.com/hc/en-us) for answers to [frequently asked questions about the Postman app](https://support.postman.com/hc/en-us/categories/8180165300503-FAQs).
 
-> This guide specifically discusses troubleshooting issues with the Postman app. To troubleshoot issues with Postman requests, see [Troubleshooting requests](/docs/sending-requests/troubleshooting-api-requests/). To troubleshoot issues with Postman monitors, see [Troubleshooting monitors](/docs/monitoring-your-api/troubleshooting-monitors/).
+> This guide specifically discusses troubleshooting issues with the Postman app. To troubleshoot issues with Postman requests, see [Troubleshooting requests](/docs/sending-requests/troubleshooting-api-requests/). To troubleshoot issues with Postman Monitors, see [Troubleshooting monitors](/docs/monitoring-your-api/troubleshooting-monitors/).
 
 ## Contacting Postman product support
 
@@ -40,8 +40,19 @@ To locate the logs in Linux, open Postman and go to **View > Developer > View Lo
 
 The DevTools console provides internal debugging entries for Postman that may be useful in troubleshooting problems with the app.
 
-To access the DevTools console logs, go to **View > Developer > Show DevTools (current view)**. In the DevTools window, select __Console__ to see the app debug logs.
+To access the DevTools console logs, go to **View > Developer > Show DevTools (current view)**. In the DevTools window, select __Console__ to access the app debug logs.
 
 ## Checking Postman's status
 
 Wondering if Postman is experiencing issues? Check the [Postman Status page](https://status.postman.com/), which lets you know if Postman is experiencing degraded performance, outages, or is undergoing maintenance.
+
+## Hardware acceleration
+
+Postman takes advantage of your computer's built-in graphics hardware to speed up the rendering of onscreen graphics. Sometimes your computer's specific GPU, drivers, or operating system may cause issues with hardware acceleration. If you see screen artifacts or other glitches, turning off hardware acceleration might solve the problem.
+
+To activate or deactivate hardware acceleration in Postman:
+
+* On macOS, select **Postman > Hardware Acceleration**.
+* On Windows or Linux, select **Help > Hardware Acceleration**.
+
+Restart Postman to apply the new setting. Disabling hardware acceleration may affect performance or CPU usage.

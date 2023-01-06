@@ -15,11 +15,11 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "How to Send API Requests"
-    url: "https://youtu.be/8mBmLDbpIH8"
-  - type: link
     name: "Intro to Postman | Part 1: Send a Request"
     url: "https://youtu.be/2oOSnxZ28fA"
+  - type: link
+    name: "How to use an API? | Intro to APIs Part 2"
+    url:  "https://youtu.be/woRuedXZyi4"
   - type: link
     name: "Upload a File via POST Request | Postman Level Up"
     url: "https://youtu.be/S7bwkys6D0E"
@@ -58,7 +58,7 @@ For example, if you're building a client application (such as a mobile or web ap
 
 When you send a request, Postman displays the response received from the API server in a way that lets you examine, visualize, and if necessary troubleshoot it.
 
-[![Request Sent](https://assets.postman.com/postman-docs/sent-request-v9.jpg)](https://assets.postman.com/postman-docs/sent-request-v9.jpg)
+<img alt="Request builder with a successful response" src="https://assets.postman.com/postman-docs/v10/postman-request-builder-v10.jpg" width="750px"/>
 
 If you have never sent a request before, check out [sending your first request](/docs/getting-started/sending-the-first-request/) before you continue.
 
@@ -85,7 +85,7 @@ Your requests can include multiple details determining the data Postman will sen
 
 You can create a new request from the Postman home screen, by using __New__ &gt; __HTTP Request__, or by selecting __+__ to open a new tab.
 
-[![New Screen](https://assets.postman.com/postman-docs/new-request-v9.jpg)](https://assets.postman.com/postman-docs/new-request-v9.jpg)
+![Create New Screen](https://assets.postman.com/postman-docs/v10/new-request-v10.jpg)
 
 Select __Save__ to create your request. You can give your request a name and description, and choose or create a collection to save it in.
 
@@ -97,7 +97,7 @@ Once your new tab is open, you can specify the details you need for your request
 
 If you have a request you want to run, you will need to know the URL, method, and other optional values such as auth and parameters.
 
-To test sending a request in Postman, you can set the URL to the Postman Echo sample API endpoint `https://postman-echo.com/get` and the method to `GET`, then select __Send__ to see what happens.
+To test sending a request in Postman, you can set the URL to the Postman Echo sample API endpoint `https://postman-echo.com/get` and the method to `GET`, then select __Send__.
 
 > Open the __Bootcamp__ in Postman and follow __Designing and mocking APIs__ to import some requests you can use for exploring Postman.
 
@@ -129,7 +129,7 @@ By default Postman will select the `GET` method for new request. `GET` methods a
 
 For example, if you're working with an API for a To Do list application, you might use a `GET` method to retrieve the current list of tasks, a `POST` method to create a new task, and a `PUT` or `PATCH` method to edit an existing task.
 
-Postman supports a number of additional request methods by default, and you can use custom methods. Select the method dropdown list, edit the method name text, and save your new method. To delete a method, hover over it in the list and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
+Postman supports a number of extra request methods by default, and you can use custom methods. Select the method dropdown list, edit the method name text, and save your new method. To delete a method, hover over it in the list and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
 
 > To test the `https://postman-echo.com/get` endpoint, leave the `GET` method selected and select __Send__.
 
@@ -146,7 +146,7 @@ You can send path and query parameters with your requests using the URL field an
 * Query parameters are appended to the end of the request URL, following `?` and listed in key value pairs, separated by `&` using the following syntax: `?id=1&type=new`
 * Path parameters form part of the request URL, and are referenced using placeholders preceded by `:` as in the following example: `/customer/:id`
 
-To send a query parameter, add it directly to the URL or open __Params__ and enter the name and value. _You can enter your query parameters in either the URL or UI fields and it will update elsewhere._
+To send a query parameter, add it directly to the URL or open __Params__ and enter the name and value. When you enter your query parameters in either the URL or the **Params** fields, these values will update everywhere they're used in Postman.
 
 > Parameters aren't automatically URL-encoded. Right-click selected text, and choose __EncodeURIComponent__ to manually encode a parameter value.
 
@@ -156,7 +156,7 @@ To send a path parameter, enter the parameter name into the URL field, after a c
 
 You can add descriptions to your parameters and they'll appear for anyone sharing the request (for example in your workspace) or viewing your API documentation.
 
-> You can use the __Bulk Edit__ option if you prefer to enter your parameters in text instead of using the UI.
+> You can use the __Bulk Edit__ option if you prefer to enter your parameters in plain text instead of using the request builder.
 
 If your request doesn't require body data, auth, or headers, select __Send__. Otherwise, set up your [body](#sending-body-data), [auth](#authenticating-requests), and [headers](#configuring-request-headers).
 
@@ -183,7 +183,7 @@ Website forms often send data to APIs as `multipart/form-data`. You can replicat
 
 [![Form Data](https://assets.postman.com/postman-docs/form-data-v9.jpg)](https://assets.postman.com/postman-docs/form-data-v9.jpg)
 
-> You can attach files using form data. When you repeatedly make API calls that send the same files, Postman will persist your file paths for subsequent use. This also helps you run collections that contain requests requiring file upload. Uploading multiple files each with their own content type isn't supported.
+> You can attach files using form data. When you repeatedly make API calls that send the same files, Postman will persist your file paths for later use. This also helps you run collections that contain requests requiring file upload. Uploading multiple files each with their own content type isn't supported.
 
 #### URL-encoded
 
@@ -211,7 +211,7 @@ You can use __binary__ data to send information you can't enter manually in the 
 
 You can send GraphQL queries with your Postman requests by selecting the __GraphQL__ tab in the request __Body__. Enter your code in the __Query__ area and any variables in the __GraphQL Variables__ section.
 
-Check out [Using GraphQL](/docs/sending-requests/supported-api-frameworks/graphql/) section for more information on GraphQL, including how to enable __Autocomplete__ powered by Postman API schemas.
+Check out [Using GraphQL](/docs/sending-requests/graphql/graphql/) for more information on GraphQL, including how to enable __Autocomplete__ powered by Postman API schemas.
 
 ### Authenticating requests
 
@@ -227,7 +227,7 @@ Once your auth and other request details are set up, select __Send__ to run your
 
 ### Configuring request headers
 
-Some APIs require you to send particular headers along with requests, typically to provide additional metadata about the operation you are performing. You can set these up in the __Headers__ tab. Enter any key-value pairs you need and Postman will send them along with your request. As you enter text, Postman prompts you with common options you can use to autocomplete your setup, such as `Content-Type`.
+Some APIs require you to send particular headers along with requests, typically to provide more metadata about the operation you are performing. You can set these up in the __Headers__ tab. Enter any key-value pairs you need and Postman will send them along with your request. As you enter text, Postman prompts you with common options you can use to autocomplete your setup, such as `Content-Type`.
 
 ![Header Types](https://assets.postman.com/postman-docs/presets-v9.jpg)
 
@@ -235,11 +235,11 @@ Some APIs require you to send particular headers along with requests, typically 
 
 #### Autogenerated headers
 
-Postman will automatically add certain headers to your requests based on your request selections and settings. Select __hidden__ at the top of the headers tab to see what Postman will send with your request.
+Postman will automatically add certain headers to your requests based on your request selections and settings. Select __hidden__ at the top of the headers tab for information about what Postman will send with your request.
 
 <img alt="Hidden Headers" src="https://assets.postman.com/postman-docs/hidden-headers-button.jpg" width="400px"/>
 
-Hover over a header to see its detail. Postman will indicate why the header has been added. The detail will indicate how to deactivate or override a header value if you need to.
+Hover over a header for details about it. Postman will indicate why the header has been added. The detail will indicate how to deactivate or override a header value if you need to.
 
 <img alt="Host Header" src="https://assets.postman.com/postman-docs/autogenerated-host-header-v9.jpg" width="350px"/>
 
@@ -253,7 +253,7 @@ If you need to go to a different part of the app, Postman will show a link on th
 
 If a header has been added based on your auth setup, [select the __Authorization__ tab](/docs/sending-requests/authorization/) to change it.
 
-To alter cookie headers, [amend the cookie setup](/docs/sending-requests/cookies/) for the domain you're sending the request to.
+To alter cookie headers, [change the cookie setup](/docs/sending-requests/cookies/) for the domain you're sending the request to.
 
 To deactivate an autogenerated header directly in __Headers__, uncheck its checkbox. To override an autogenerated header value, uncheck the autogenerated entry and add a separate entry for the header, listing its name in the __Key__ field and specifying your value in the __Value__ field.
 
@@ -291,11 +291,11 @@ The processor is turned on by default in Postman, but you can turn off encoding 
 
 ## Troubleshooting your requests
 
-Postman will indicate any whitespace or invalid characters in parts of your request that may not function as expected so that you can rectify your values. You will see characters highlighted in the request method, URL (including the path), parameters, headers (including your key names), and body.
+Postman will indicate any whitespace or invalid characters in parts of your request that may not function as expected so that you can rectify your values. Invalid characters are highlighted in the request method, URL (including the path), parameters, headers (including your key names), and body.
 
 <img alt="Invalid Characters" src="https://assets.postman.com/postman-docs/invalid-character-message-v9.jpg" width="400px"/>
 
-If Postman isn't able to send your request or doesn't receive a response, you will see details outlining the error. Select __View in Console__ to see an overview of your request and identify the source of the issue.
+If Postman isn't able to send your request or doesn't receive a response, you will get a message with details about the error. Select __View in Console__ to get an overview of your request and to help identify the source of the issue.
 
 If your request doesn't work as expected, check out some [troubleshooting tips](/docs/sending-requests/troubleshooting-api-requests/).
 

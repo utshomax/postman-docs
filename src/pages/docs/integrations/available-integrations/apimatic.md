@@ -25,8 +25,6 @@ To set up an APIMatic integration with Postman, you will need:
 
 ## Configuring an APIMatic integration
 
-To back up a collection periodically to a GitHub repository:
-
 1. On the Postman **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 1. Type **APIMatic** into the search bar and select the result.
 
@@ -56,3 +54,5 @@ Once the integration has been created, select it to view details about the integ
 <img alt="APIMatic integration run log" src="https://assets.postman.com/postman-docs/apimatic-run-log-v9.jpg" width="500px"/>
 
 This integration runs once a day at 12:00 UTC. If you make changes to your collection, they're picked up by the converter in its next run. If no updates are made to your collection, no updates are pushed to GitHub.
+
+> **You can view your configured integrations on the [Browse Integrations](https://go.postman.co/integrations/browse) page.** You can also view integrations that have been configured for a collection by opening the collection and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Learn more about [viewing or editing integrations](/docs/integrations/intro-integrations/#viewing-or-editing-integrations).

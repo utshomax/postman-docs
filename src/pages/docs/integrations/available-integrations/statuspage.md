@@ -20,7 +20,7 @@ contextual_links:
 
 ---
 
-Atlassian Statuspage an uptime and incident communication tools. You can use Statuspage to create a home page for your customers so they can monitor if subsystems or services within your site are operational, and find out more information on system outages or failures. A great example of a Statuspage home page is Postman's status page, located at [status.postman.com](https://status.postman.com).
+Atlassian Statuspage is an uptime and incident communication tools. You can use Statuspage to create a home page for your customers so they can monitor if subsystems or services within your site are operational, and find out more information on system outages or failures. An example of a Statuspage home page is Postman's status page, located at [status.postman.com](https://status.postman.com).
 
 The Statuspage integration enables you to send metrics like response times to Statuspage and create and communicate incidents in case of a failure. When a Postman monitor test run fails, this integration can then send updates to Statuspage.
 
@@ -31,32 +31,40 @@ Make sure to create your Statuspage account and create a page and components bef
 ## Retrieving your Statuspage API Key
 
 1. Sign in to [Statuspage](https://manage.statuspage.io/login).
-2. Select your avatar icon in the bottom left of the page.
-3. On the user menu, select **API info**.
-![Statuspage API key](https://assets.postman.com/postman-docs/statuspage-api-key.jpg)
-4. Select **Create key** to create a new key, or find an existing key you want to use.
-5. Copy the API key for later use.
+1. Select your avatar icon in the bottom left of the page.
+1. On the user menu, select **API info**.
+
+    ![Statuspage API key](https://assets.postman.com/postman-docs/statuspage-api-key.jpg)
+
+1. Select **Create key** to create a new key, or find an existing key you want to use.
+1. Copy the API key for later use.
 
 ## Integration Setup
 
 1. On your Home page, go to **Integrations**, select **Browse All Integrations**, and select **Statuspage** in the list of third-party integrations.
 1. Select **Add Integration**.
 1. In the **Authenticate** tab, enter the Statuspage API key you copied above.
-![Statuspage add integration](https://assets.postman.com/postman-docs/add-integration-statuspage.jpg)
+
+    ![Statuspage add integration](https://assets.postman.com/postman-docs/add-integration-statuspage.jpg)
+
 1. Select **Authenticate and Proceed**. The **Configure** tab is shown.
 1. Enter a nickname for the integration.
 1. Select a workspace from the list which contains the monitor you would like to use.
 1. Select the monitor you wish to use from the list.
 1. Select a Statuspage page where the monitor updates will be sent. This list will be populated with the pages you have created in Statuspage.
 1. Select one or both Statuspage actions. See [Link monitor to component](#link-monitor-to-component) and [Create incident when monitoring run fails](#create-incident-when-monitoring-run-fails) for information on how to fill in these sections.
-![Configure Statuspage](https://assets.postman.com/postman-docs/configure-statuspage.jpg)
+
+    ![Configure Statuspage](https://assets.postman.com/postman-docs/configure-statuspage.jpg)
+
 1. Select **Add Integration**.
+
+> **You can view your configured integrations on the [Browse Integrations](https://go.postman.co/integrations/browse) page.** You can also view integrations that have been configured for a monitor by opening the monitor and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Learn more about [viewing or editing integrations](/docs/integrations/intro-integrations/#viewing-or-editing-integrations).
 
 ### Link monitor to component
 
-When this action is configured, if the specified monitor fails a test run, it will change the status of the linked component.
+When the **Link a monitor to a component** action is configured, if the specified monitor fails a test run, it will change the status of the linked component.
 
-If you select the **Link a monitor to a component** action, enter the following:
+To configure the **Link a monitor to a component** action, do the following:
 
 1. Select a component from the list. The list will be populated with the components you have created in Statuspage.
 1. Select a component success status from the list. This status will be displayed in Statuspage when the linked monitor is running as expected.
@@ -71,9 +79,9 @@ When a component's status is changed due to a failed test run, it will remain in
 
 ### Create incident when monitoring run fails
 
-When this action is configured, if the specified monitor fails a test run, a Statuspage incident is created. The incident provides context to customers on why the failure happened, and what will be done to address it.
+When the **Create incident when monitoring run fails** action is configured, if the specified monitor fails a test run, a Statuspage incident is created. The incident provides context to customers on why the failure happened, and what will be done to address it.
 
-If you select the **Create incident when monitoring run fails** action, enter the following:
+To configure the **Create incident when monitoring run fails** action, do the following:
 
 1. Enter a name for the incident name. This is the text shown to customers when they see the incident.
 1. Select an Incident status from the list.

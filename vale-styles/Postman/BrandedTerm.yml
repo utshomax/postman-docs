@@ -30,3 +30,5 @@ swap:
   Postman collection: Postman Collection
   launchpad: Launchpad
   '(?:trust center|Trust center)': Trust Center
+  Workbench: workbench
+  Postman enterprise: Postman Enterprise

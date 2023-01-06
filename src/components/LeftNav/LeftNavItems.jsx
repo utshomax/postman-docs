@@ -30,7 +30,7 @@
 
 export const leftNavItems = [
   {
-    name: 'Getting Started',
+    name: 'Getting started',
     parentSlug: 'getting-started',
     url: '/docs/getting-started/introduction/',
     subMenuItems1: [
@@ -39,7 +39,7 @@ export const leftNavItems = [
         url: '/docs/getting-started/introduction/',
       },
       {
-        name: 'Installing and Updating',
+        name: 'Installing and updating Postman',
         url: '/docs/getting-started/installation-and-updates/',
       },
       {
@@ -55,6 +55,10 @@ export const leftNavItems = [
         url: '/docs/getting-started/postman-account/',
       },
       {
+        name: 'Customizing your Postman profile',
+        url: '/docs/getting-started/postman-profile/',
+      },
+      {
         name: 'Syncing your work',
         url: '/docs/getting-started/syncing/',
       },
@@ -65,6 +69,10 @@ export const leftNavItems = [
       {
         name: 'Creating your first collection',
         url: '/docs/getting-started/creating-the-first-collection/',
+      },
+      {
+        name: 'About the Postman Agent',
+        url: '/docs/getting-started/about-postman-agent/',
       },
       {
         name: 'Using the Scratch Pad',
@@ -93,7 +101,7 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Sending Requests',
+    name: 'Sending requests',
     parentSlug: 'sending-requests',
     url: '/docs/sending-requests/requests/',
     subMenuItems1: [
@@ -146,7 +154,7 @@ export const leftNavItems = [
         url: '/docs/sending-requests/troubleshooting-api-requests/',
       },
       {
-        name: 'Capturing Request Data',
+        name: 'Capturing request data',
         subParentSlug: 'capturing-request-data',
         slug: '/docs/sending-requests/capturing-request-data/capture-overview/',
         subMenuItems2: [
@@ -173,28 +181,64 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Supported API Frameworks',
-        subParentSlug: 'supported-api-frameworks',
-        slug: '/docs/sending-requests/supported-api-frameworks/graphql/',
+        name: 'Querying with GraphQL',
+        url: '/docs/sending-requests/graphql/graphql/',
+      },
+      {
+        name: 'Using gRPC requests',
+        subParentSlug: 'grpc',
+        slug: '/docs/sending-requests/grpc/grpc-client-overview/',
         subMenuItems2: [
           {
-            name: 'Querying with GraphQL',
-            url: '/docs/sending-requests/supported-api-frameworks/graphql/',
+            name: 'gRPC overview',
+            url: '/docs/sending-requests/grpc/grpc-client-overview/',
           },
           {
-            name: 'Using WebSocket Requests',
-            url: '/docs/sending-requests/supported-api-frameworks/websocket/',
+            name: 'Using the gRPC request interface',
+            url: '/docs/sending-requests/grpc/grpc-request-interface/',
           },
           {
-            name: 'Making SOAP Requests',
-            url: '/docs/sending-requests/supported-api-frameworks/making-soap-requests/',
+            name: 'Invoking your first gRPC request',
+            url: '/docs/sending-requests/grpc/first-grpc-request/',
+          },
+          {
+            name: 'Working with service definitions',
+            url: '/docs/sending-requests/grpc/using-service-definition/',
+          },
+          {
+            name: 'Scripting in gRPC requests',
+            url: '/docs/sending-requests/grpc/scripting-in-grpc-request/',
+          },
+          {
+            name: 'gRPC test examples',
+            url: '/docs/sending-requests/grpc/test-examples/',
+          },
+          {
+            name: 'Postman Sandbox API',
+            url: '/docs/sending-requests/grpc/postman-sandbox-api/',
+          },
+          {
+            name: 'Using gRPC mock servers',
+            url: '/docs/sending-requests/grpc/using-grpc-mock/',
+          },
+          {
+            name: 'Understanding gRPC types',
+            url: '/docs/sending-requests/grpc/understanding-grpc-types/',
           },
         ],
+      },
+      {
+        name: 'Using WebSocket requests',
+        url: '/docs/sending-requests/websocket/websocket/',
+      },
+      {
+        name: 'Using SOAP requests',
+        url: '/docs/sending-requests/soap/making-soap-requests/',
       },
     ],
   },
   {
-    name: 'Writing Scripts',
+    name: 'Writing scripts',
     parentSlug: 'writing-scripts',
     url: '/docs/writing-scripts/intro-to-scripts/',
     subMenuItems1: [
@@ -236,17 +280,29 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Running Collections',
+    name: 'Running collections',
     parentSlug: 'running-collections',
-    url: '/docs/running-collections/intro-to-collection-runs/',
+    url: '/docs/running-collections/running-collections-overview/',
     subMenuItems1: [
+      {
+        name: 'Running collections overview',
+        url: '/docs/running-collections/running-collections-overview/',
+      },
       {
         name: 'Using the Collection Runner',
         url: '/docs/running-collections/intro-to-collection-runs/',
       },
       {
-        name: 'Scheduling runs with monitors',
+        name: 'Scheduling collection runs',
         url: '/docs/running-collections/scheduling-collection-runs/',
+      },
+      {
+        name: 'Viewing scheduled collection runs',
+        url: '/docs/running-collections/viewing-scheduled-collection-runs/',
+      },
+      {
+        name: 'Scheduling collection runs with monitors',
+        url: '/docs/running-collections/scheduling-collection-runs-monitors/',
       },
       {
         name: 'Triggering runs with webhooks',
@@ -270,6 +326,22 @@ export const leftNavItems = [
             url: '/docs/running-collections/using-newman-cli/command-line-integration-with-newman/',
           },
           {
+            name: 'Installing and running Newman',
+            url: '/docs/running-collections/using-newman-cli/installing-running-newman/',
+          },
+          {
+            name: 'Newman command options',
+            url: '/docs/running-collections/using-newman-cli/newman-options/',
+          },
+          {
+            name: 'Uploading files in Newman',
+            url: '/docs/running-collections/using-newman-cli/newman-file-uploads/',
+          },
+          {
+            name: 'Using Newman custom reporters',
+            url: '/docs/running-collections/using-newman-cli/newman-custom-reporters/',
+          },
+          {
             name: 'Newman with Docker',
             url: '/docs/running-collections/using-newman-cli/newman-with-docker/',
           },
@@ -290,13 +362,150 @@ export const leftNavItems = [
     ],
   },
   {
+    name: 'Using Postman Flows',
+    parentSlug: 'postman-flows',
+    url: '/docs/postman-flows/flows-intro/flows-overview/',
+    subMenuItems1: [
+      {
+        name: 'Getting Started',
+        subParentSlug: 'flows-intro',
+        slug: '/docs/postman-flows/flows-intro/flows-overview/',
+        subMenuItems2: [
+          {
+            name: 'Postman Flows overview',
+            url: '/docs/postman-flows/flows-intro/flows-overview/',
+          },
+          {
+            name: 'The Postman Flows interface',
+            url: '/docs/postman-flows/flows-intro/the-interface/',
+          },
+          {
+            name: 'Building your first flow',
+            url: '/docs/postman-flows/flows-intro/building-your-first-flow/',
+          },
+          {
+            name: 'Running requests in sequence',
+            url: '/docs/postman-flows/flows-intro/running-requests-in-sequence/',
+          },
+          {
+            name: 'Chaining requests with data',
+            url: '/docs/postman-flows/flows-intro/chaining-requests-with-data/',
+          },
+        ],
+      },
+      {
+        name: 'Core concepts',
+        subParentSlug: 'core-concepts',
+        slug: '/docs/postman-flows/core-concepts/blocks/',
+        subMenuItems2: [
+          {
+            name: 'About blocks',
+            url: '/docs/postman-flows/core-concepts/blocks/',
+          },
+          {
+            name: 'About messages',
+            url: '/docs/postman-flows/core-concepts/messages/',
+          },
+          {
+            name: 'About data types',
+            url: '/docs/postman-flows/core-concepts/data-types/',
+          },
+          {
+            name: 'List of blocks',
+            url: '/docs/postman-flows/core-concepts/blocks-list/',
+          },
+        ],
+      },
+      {
+        name: 'Flows Query Language',
+        subParentSlug: 'flows-query-language',
+        slug: '/docs/postman-flows/flows-query-language/introduction-to-fql/',
+        subMenuItems2: [
+          {
+            name: 'Introduction to FQL',
+            url: '/docs/postman-flows/flows-query-language/introduction-to-fql/',
+          },
+          {
+            name: 'Getting basic values',
+            url: '/docs/postman-flows/flows-query-language/getting-basic-values/',
+          },
+          {
+            name: 'Conditional data selection',
+            url: '/docs/postman-flows/flows-query-language/conditional-data-selection/',
+          },
+          {
+            name: 'Returning structured data',
+            url: '/docs/postman-flows/flows-query-language/returning-structured-results/',
+          },
+          {
+            name: 'Data manipulation',
+            url: '/docs/postman-flows/flows-query-language/data-manipulation/',
+          },
+        ],
+      },
+      {
+        name: 'Running flows on the cloud',
+        subParentSlug: 'webhooks',
+        slug: '/docs/postman-flows/running-flows-on-the-cloud/webhooks/',
+        subMenuItems2: [
+          {
+            name: 'Using Flows webhooks',
+            url: '/docs/postman-flows/running-flows-on-the-cloud/webhooks/',
+          },
+        ]
+      },
+    ],
+  },
+  {
+    name: 'Using the Postman CLI',
+    parentSlug: 'postman-cli',
+    url: '/docs/postman-cli/postman-cli-overview/',
+    subMenuItems1: [
+      {
+        name: 'Postman CLI overview',
+        url: '/docs/postman-cli/postman-cli-overview/',
+      },
+      {
+        name: 'Installing the Postman CLI',
+        url: '/docs/postman-cli/postman-cli-installation/',
+      },
+      {
+        name: 'Postman CLI command options',
+        url: '/docs/postman-cli/postman-cli-options/',
+      },
+      {
+        name: 'Running a collection with the Postman CLI',
+        url: '/docs/postman-cli/postman-cli-run-collection/',
+      },
+    ],
+  },
+  {
     name: 'Collaborating in Postman',
     parentSlug: 'collaborating-in-postman',
-    url: '/docs/collaborating-in-postman/collaboration-intro/',
+    url: '/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/',
     subMenuItems1: [
       {
         name: 'Working with your team',
-        url: '/docs/collaborating-in-postman/collaboration-intro/',
+        subParentSlug: 'working-with-your-team',
+        slug: '/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/',
+        subMenuItems2: [
+          {
+            name: 'Collaboration overview',
+            url: '/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/',
+          },
+          {
+            name: 'Enabling team discovery',
+            url: '/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/',
+          },
+          {
+            name: 'Collaborating in team workspaces',
+            url: '/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/',
+          },
+          {
+            name: 'Discussing your work',
+            url: '/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/',
+          },
+        ],
       },
       {
         name: 'Defining roles',
@@ -315,19 +524,38 @@ export const leftNavItems = [
         url: '/docs/collaborating-in-postman/adding-private-network/',
       },
       {
-        name: 'Commenting on collections',
-        url: '/docs/collaborating-in-postman/commenting-on-collections/',
-      },
-      {
         name: 'Using version control',
-        url: '/docs/collaborating-in-postman/version-control/',
+        subParentSlug: 'using-version-control',
+        slug: '/docs/collaborating-in-postman/using-version-control/version-control-overview/',
+        subMenuItems2: [
+          {
+            name: 'Version control overview',
+            url: '/docs/collaborating-in-postman/using-version-control/version-control-overview/',
+          },
+          {
+            name: 'Forking Postman entities',
+            url: '/docs/collaborating-in-postman/using-version-control/forking-entities/',
+          },
+          {
+            name: 'Creating pull requests',
+            url: '/docs/collaborating-in-postman/using-version-control/creating-pull-requests/',
+          },
+          {
+            name: 'Reviewing pull requests',
+            url: '/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/',
+          },
+          {
+            name: 'Watching pull requests',
+            url: '/docs/collaborating-in-postman/using-version-control/watching-pull-requests/',
+          },
+        ],
       },
       {
         name: 'Managing public elements',
         url: '/docs/collaborating-in-postman/manage-public-elements/',
       },
       {
-        name: 'Using Workspaces',
+        name: 'Using workspaces',
         subParentSlug: 'using-workspaces',
         slug: '/docs/collaborating-in-postman/using-workspaces/creating-workspaces/',
         subMenuItems2: [
@@ -338,6 +566,10 @@ export const leftNavItems = [
           {
             name: 'Using and managing workspaces',
             url: '/docs/collaborating-in-postman/using-workspaces/managing-workspaces/',
+          },
+          {
+            name: 'Partner workspaces',
+            url: '/docs/collaborating-in-postman/using-workspaces/partner-workspaces/'
           },
           {
             name: 'Public workspaces',
@@ -356,12 +588,12 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Designing and Developing your API',
+    name: 'Designing and developing your API',
     parentSlug: 'designing-and-developing-your-api',
     url: '/docs/designing-and-developing-your-api/the-api-workflow/',
     subMenuItems1: [
       {
-        name: 'API Development Overview',
+        name: 'API development overview',
         url: '/docs/designing-and-developing-your-api/the-api-workflow/',
       },
       {
@@ -373,20 +605,50 @@ export const leftNavItems = [
         url: '/docs/designing-and-developing-your-api/importing-an-api/',
       },
       {
-        name: 'Versioning APIs',
-        url: '/docs/designing-and-developing-your-api/versioning-an-api/',
-      },
-      {
-        name: 'Defining an API Specification',
-        url: '/docs/designing-and-developing-your-api/defining-an-api/',
+        name: 'Using API version control',
+        subParentSlug: 'versioning-an-api',
+        slug: '/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/',
+        subMenuItems2: [
+          {
+            name: 'API version control overview',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/',
+          },
+          {
+            name: 'Using a remote Git repository',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/',
+          },
+          {
+            name: 'Managing changes using Git',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/',
+          },
+          {
+            name: 'Publishing an API version',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/api-versions/',
+          },
+        ],
       },
       {
         name: 'Developing an API',
-        url: '/docs/designing-and-developing-your-api/developing-an-api/',
-      },
-      {
-        name: 'Generating server code',
-        url: '/docs/designing-and-developing-your-api/generating-server-code/',
+        subParentSlug: 'developing-an-api',
+        slug: '/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/',
+        subMenuItems2: [
+          {
+            name: 'Editing an API definition',
+            url: '/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/',
+          },
+          {
+            name: 'Adding elements to an API',
+            url: '/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/',
+          },
+          {
+            name: 'Generating server code',
+            url: '/docs/designing-and-developing-your-api/developing-an-api/generating-server-code/',
+          },
+          {
+            name: 'Validating APIs',
+            url: '/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/',
+          },
+        ],
       },
       {
         name: 'Testing an API',
@@ -405,22 +667,41 @@ export const leftNavItems = [
             name: 'Deploying an AWS API',
             url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/',
           },
+          {
+            name: 'Deploying an Apigee API',
+            url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-apigee/',
+          },
+          {
+            name: 'Deploying an Azure API',
+            url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-azure/',
+          },
         ],
       },
       {
         name: 'Observing an API',
-        url: '/docs/designing-and-developing-your-api/observing-an-api/',
+        subParentSlug: 'observing-an-api',
+        slug: '/docs/designing-and-developing-your-api/observing-an-api/observing-an-api/',
+        subMenuItems2: [
+          {
+            name: 'Observing an API',
+            url: '/docs/designing-and-developing-your-api/observing-an-api/observing-an-api/',
+          },
+          {
+            name: 'Viewing New Relic metrics',
+            url: '/docs/designing-and-developing-your-api/observing-an-api/new-relic-apm/',
+          },
+          {
+            name: 'Viewing Datadog metrics',
+            url: '/docs/designing-and-developing-your-api/observing-an-api/datadog-apm/',
+          },
+        ],
       },
       {
         name: 'Managing and sharing APIs',
         url: '/docs/designing-and-developing-your-api/managing-apis/',
       },
       {
-        name: 'Validating APIs',
-        url: '/docs/designing-and-developing-your-api/validating-elements-against-schema/',
-      },
-      {
-        name: 'Mocking Data',
+        name: 'Mocking an API',
         subParentSlug: 'mocking-data',
         slug: '/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/',
         subMenuItems2: [
@@ -445,12 +726,12 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Publishing Your API',
+    name: 'Documenting your API',
     parentSlug: 'publishing-your-api',
     url: '/docs/publishing-your-api/documenting-your-api/',
     subMenuItems1: [
       {
-        name: 'Documenting your API',
+        name: 'Generating API documentation',
         url: '/docs/publishing-your-api/documenting-your-api/',
       },
       {
@@ -491,7 +772,7 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Monitoring Your API',
+    name: 'Monitoring your API',
     parentSlug: 'monitoring-your-api',
     url: '/docs/monitoring-your-api/intro-monitors/',
     subMenuItems1: [
@@ -530,30 +811,68 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'API Security',
-    parentSlug: 'api-security',
-    url: '/docs/api-security/token-scanner/',
+    name: 'API Governance',
+    parentSlug: 'api-governance',
+    url: '/docs/api-governance/api-governance-overview/',
     subMenuItems1: [
       {
-        name: 'Token Scanner',
-        url: '/docs/api-security/token-scanner/',
+        name: 'API Governance and API Security in Postman',
+        url: '/docs/api-governance/api-governance-overview/',
       },
       {
-        name: 'Security Warnings',
-        subParentSlug: 'security-warnings',
-        slug: '/docs/api-security/security-warnings/security-warnings-overview/',
+        name: 'API definition',
+        subParentSlug: 'api-definition',
+        slug: '/docs/api-governance/api-definition/api-definition-warnings/',
         subMenuItems2: [
           {
-            name: 'API schema security warnings',
-            url: '/docs/api-security/security-warnings/security-warnings-overview/',
+            name: 'Rule violations in the API definition',
+            url: '/docs/api-governance/api-definition/api-definition-warnings/',
           },
           {
-            name: 'OpenAPI 3.0 warnings',
-            url: '/docs/api-security/security-warnings/openapi3/',
+            name: 'OpenAPI 3.0 rules',
+            url: '/docs/api-governance/api-definition/openapi3/',
           },
           {
-            name: 'OpenAPI 2.0 warnings',
-            url: '/docs/api-security/security-warnings/openapi2/',
+            name: 'OpenAPI 2.0 rules',
+            url: '/docs/api-governance/api-definition/openapi2/',
+          },
+        ],
+      },
+      {
+        name: 'Requests',
+        subParentSlug: 'api-testing',
+        slug: '/docs/api-governance/api-testing/api-testing-warnings/',
+        subMenuItems2: [
+          {
+            name: 'Warnings in API requests',
+            url: '/docs/api-governance/api-testing/api-testing-warnings/',
+          },
+          {
+            name: 'Security warnings',
+            url: '/docs/api-governance/api-testing/security-warnings/',
+          },
+        ],
+      },
+      {
+        name: 'Configurable rules',
+        subParentSlug: 'configurable-rules',
+        slug: '/docs/api-governance/configurable-rules/configurable-rules-overview/',
+        subMenuItems2: [
+          {
+            name: 'Configurable rules overview',
+            url: '/docs/api-governance/configurable-rules/configurable-rules-overview/',
+          },
+          {
+            name: 'Configuring API Governance rules',
+            url: '/docs/api-governance/configurable-rules/configuring-api-governance-rules/',
+          },
+          {
+            name: 'Configuring API Security rules',
+            url: '/docs/api-governance/configurable-rules/configuring-api-security-rules/',
+          },
+          {
+            name: 'Using Spectral in Postman',
+            url: '/docs/api-governance/configurable-rules/spectral/',
           },
         ],
       },
@@ -565,7 +884,7 @@ export const leftNavItems = [
     url: '/docs/administration/managing-your-team/managing-your-team/',
     subMenuItems1: [
       {
-        name: 'Managing Your Team',
+        name: 'Managing your team',
         subParentSlug: 'managing-your-team',
         slug: '/docs/administration/managing-your-team/managing-your-team/',
         subMenuItems2: [
@@ -592,12 +911,24 @@ export const leftNavItems = [
         url: '/docs/administration/billing/',
       },
       {
+        name: 'About resource usage',
+        url: '/docs/administration/resource-usage/',
+      },
+      {
+        name: 'About Postman Enterprise',
+        url: '/docs/administration/about-postman-enterprise/'
+      },
+      {
         name: 'Configuring team settings',
         url: '/docs/administration/team-settings/',
       },
       {
-        name: 'Utilizing audit logs',
+        name: 'Using audit logs',
         url: '/docs/administration/audit-logs/',
+      },
+      {
+        name: 'Token scanner',
+        url: '/docs/administration/token-scanner/',
       },
       {
         name: 'Onboarding checklist',
@@ -655,12 +986,12 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'SCIM Provisioning',
+        name: 'SCIM provisioning',
         subParentSlug: 'scim-provisioning',
         slug: '/docs/administration/scim-provisioning/scim-provisioning-overview/',
         subMenuItems2: [
           {
-            name: 'SCIM Provisioning Overview',
+            name: 'SCIM provisioning overview',
             url: '/docs/administration/scim-provisioning/scim-provisioning-overview/',
           },
           {
@@ -678,8 +1009,8 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Upgrading your team to the current version of Postman',
-        url: '/docs/administration/upgrading/',
+        name: 'Updating your team to the current version of Postman',
+        url: '/docs/administration/updating/',
       },
       {
         name: 'Managing Enterprise deployment',
@@ -692,7 +1023,7 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Using Reports',
+    name: 'Using reports',
     parentSlug: 'reports',
     url: '/docs/reports/reports-overview/',
     subMenuItems1: [
@@ -723,7 +1054,7 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Developer Resources',
+    name: 'Developer resources',
     parentSlug: 'developer',
     url: '/docs/developer/resources-intro/',
     subMenuItems1: [
@@ -771,11 +1102,15 @@ export const leftNavItems = [
         url: '/docs/integrations/webhooks/',
       },
       {
-        name: 'CI Integrations',
+        name: 'Installed apps',
+        url: '/docs/integrations/installed-apps/'
+      },
+      {
+        name: 'CI integrations',
         url: '/docs/integrations/ci-integrations/',
       },
       {
-        name: 'Available Integrations',
+        name: 'Available integrations',
         subParentSlug: 'available-integrations',
         slug: '/docs/integrations/available-integrations/apimatic/',
         subMenuItems2: [
@@ -800,7 +1135,11 @@ export const leftNavItems = [
             url: '/docs/integrations/available-integrations/bitbucket/',
           },
           {
-            name: 'Circle CI',
+            name: 'Bitbucket Pipelines',
+            url: '/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/',
+          },
+          {
+            name: 'CircleCI',
             url: '/docs/integrations/available-integrations/ci-integrations/circleci/',
           },
           {
@@ -820,8 +1159,16 @@ export const leftNavItems = [
             url: '/docs/integrations/available-integrations/github/',
           },
           {
+            name: 'GitHub Actions',
+            url: '/docs/integrations/available-integrations/ci-integrations/github-actions/',
+          },
+          {
             name: 'GitLab',
             url: '/docs/integrations/available-integrations/gitlab/',
+          },
+          {
+            name: 'GitLab CI/CD',
+            url: '/docs/integrations/available-integrations/ci-integrations/gitlab-ci/',
           },
           {
             name: 'Jenkins',
@@ -864,16 +1211,16 @@ export const leftNavItems = [
             url: '/docs/integrations/available-integrations/sentry/',
           },
           {
+            name: 'Slack',
+            url: '/docs/integrations/available-integrations/slack/',
+          },
+          {
             name: 'Splunk',
             url: '/docs/integrations/available-integrations/splunk/',
           },
           {
             name: 'Splunk On-Call',
             url: '/docs/integrations/available-integrations/splunk-on-call/',
-          },
-          {
-            name: 'Slack',
-            url: '/docs/integrations/available-integrations/slack/',
           },
           {
             name: 'Statuspage',

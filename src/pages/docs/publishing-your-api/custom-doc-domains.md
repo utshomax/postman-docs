@@ -25,7 +25,7 @@ contextual_links:
 warning: false
 ---
 
-> __[Custom documentation domains are available on Postman Basic, Professional, and Enterprise plans.](https://www.postman.com/pricing)__
+> **[Custom documentation domains are available on Postman Basic, Professional, and Enterprise plans.](https://www.postman.com/pricing)**
 
 You can use a custom domain for your API documentation.
 
@@ -35,7 +35,7 @@ In the Postman web dashboard, select [Team Settings](https://go.postman.co/setti
 
 [![edit view for team](https://assets.postman.com/postman-docs/edit-team-profile-a.jpg)](https://assets.postman.com/postman-docs/edit-team-profile-a.jpg)
 
-In the __Custom Domains__ section, you will see a list of domains indicated with verification status. Select __Add custom domain__.
+The __Custom Domains__ section contains a list of domains with the verification status of each. Select __Add custom domain__.
 
 [![custom domain dashboard](https://assets.postman.com/postman-docs/dashboard-view-custom-domains-v9.1.jpg)](https://assets.postman.com/postman-docs/dashboard-view-custom-domains-v9.1.jpg)
 
@@ -47,7 +47,7 @@ Select __Proceed__ to verify the domain.
 
 ## Verifying your domain
 
-When you add a custom domain, you will see a modal displaying the DNS records required to verify domain ownership. To verify that you control the domain you're attempting to add, you must add these provided tokens as DNS records to your domain for TXT and CNAME.
+When you add a custom domain, Postman displays the DNS records required to verify domain ownership. To verify that you control the domain you're attempting to add, you must add these provided tokens as DNS records to your domain for TXT and CNAME.
 
 [![see TXT and CNAME](https://assets.postman.com/postman-docs/verfication-tokens-1.jpg)](https://assets.postman.com/postman-docs/verfication-tokens-1.jpg)
 
@@ -55,8 +55,8 @@ When you add a custom domain, you will see a modal displaying the DNS records re
 
 For DNS records, verify the ownership with a DNS web service provider. In a separate browser tab, go to the DNS provider’s console and add the following two new records.
 
-1. A TXT record for `postman-echo.com` verifies the ownership of the domain. The value must be the same as the token shown in the modal. Add the TXT record to the __root domain__. For example if you're adding `example.com` or `api.example.com`, add the TXT record to `example.com`.
-2. A CNAME record for `docs.postman-echo.com`, as shown in the modal. This value must be `phs.getpostman.com`. Add the CNAME record to the URL that's associated with your public documentation.
+* A TXT record for `postman-echo.com` verifies the ownership of the domain. The value must be the same as the token shown in the modal. Add the TXT record to the __root domain__. For example if you're adding `example.com` or `api.example.com`, add the TXT record to `example.com`.
+* A CNAME record for `docs.postman-echo.com`, as shown in the modal. This value must be `phs.getpostman.com`. Add the CNAME record to the URL that's associated with your public documentation.
 
 To verify the domain, check the __I've added the TXT and CNAME records__ checkbox, then select __Verify Domain__. A confirmation message will indicate that the domain has been verified.
 

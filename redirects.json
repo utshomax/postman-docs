@@ -721,15 +721,23 @@
 	},
 	{
 		"from": "/docs/postman/collections/version-control-for-collections/",
-		"to": "/docs/collaborating-in-postman/version-control-for-collections/"
+		"to": "/docs/collaborating-in-postman/using-version-control/version-control-overview/"
 	},
 	{
 		"from": "/docs/postman/collections/version_control/",
-		"to": "/docs/collaborating-in-postman/version-control-for-collections/"
+		"to": "/docs/collaborating-in-postman/using-version-control/version-control-overview/"
 	},
 	{
 		"from": "/docs/postman/collections/version_control_for_collections/",
-		"to": "/docs/collaborating-in-postman/version-control-for-collections/"
+		"to": "/docs/collaborating-in-postman/using-version-control/version-control-overview/"
+	},
+	{
+		"from": "/docs/collaborating-in-postman/version-control-for-collections/",
+		"to": "/docs/collaborating-in-postman/using-version-control/version-control-overview/"
+	},
+	{
+		"from": "/docs/collaborating-in-postman/version-control/",
+		"to": "/docs/collaborating-in-postman/using-version-control/version-control-overview/"
 	},
 	{
 		"from": "/docs/postman/collections/working-with-openAPI/",
@@ -769,7 +777,7 @@
 	},
 	{
 		"from": "/docs/postman/design-and-develop-apis/validating-elements-against-schema/",
-		"to": "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 	},
 	{
 		"from": "/docs/postman/design-and-develop-apis/versioning-an-api/",
@@ -801,7 +809,7 @@
 	},
 	{
 		"from": "/docs/postman/design_and_develop_apis/validating_elements_against_schema/",
-		"to": "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 	},
 	{
 		"from": "/docs/postman/design_and_develop_apis/versioning_an_api/",
@@ -1193,7 +1201,7 @@
 	},
 	{
 		"from": "/docs/postman/sending-api-requests/graphql/",
-		"to": "/docs/sending-requests/supported-api-frameworks/graphql/"
+		"to": "/docs/sending-requests/graphql/graphql/"
 	},
 	{
 		"from": "/docs/postman/sending-api-requests/history/",
@@ -1209,7 +1217,7 @@
 	},
 	{
 		"from": "/docs/postman/sending-api-requests/making-soap-requests/",
-		"to": "/docs/sending-requests/supported-api-frameworks/making-soap-requests/"
+		"to": "/docs/sending-requests/soap/making-soap-requests/"
 	},
 	{
 		"from": "/docs/postman/sending-api-requests/proxy/",
@@ -1229,7 +1237,7 @@
 	},
 	{
 		"from": "/docs/postman/sending-api-requests/validating-requests-against-schema/",
-		"to": "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 	},
 	{
 		"from": "/docs/postman/sending-api-requests/visualizer/",
@@ -1265,7 +1273,7 @@
 	},
 	{
 		"from": "/docs/postman/sending_api_requests/graphql/",
-		"to": "/docs/sending-requests/supported-api-frameworks/graphql/"
+		"to": "/docs/sending-requests/graphql/graphql/"
 	},
 	{
 		"from": "/docs/postman/sending_api_requests/history/",
@@ -1281,7 +1289,7 @@
 	},
 	{
 		"from": "/docs/postman/sending_api_requests/making_soap_requests/",
-		"to": "/docs/sending-requests/supported-api-frameworks/making-soap-requests/"
+		"to": "/docs/sending-requests/soap/making-soap-requests/"
 	},
 	{
 		"from": "/docs/postman/sending_api_requests/proxy/",
@@ -1301,7 +1309,7 @@
 	},
 	{
 		"from": "/docs/postman/sending_api_requests/validating_requests_against_schema/",
-		"to": "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 	},
 	{
 		"from": "/docs/postman/sending_api_requests/visualizer/",
@@ -1745,7 +1753,7 @@
 	},
 	{
 		"from": "/docs/sending-requests/supported-api-frameworks/",
-		"to": "/docs/sending-requests/supported-api-frameworks/graphql/"
+		"to": "/docs/sending-requests/graphql/graphql/"
 	},
 	{
 		"from": "/docs/sending_and_viewing_responses/responses/",
@@ -1761,7 +1769,7 @@
 	},
 	{
 		"from": "/docs/sending_requests/supported_api_frameworks/",
-		"to": "/docs/sending-requests/supported-api-frameworks/graphql/"
+		"to": "/docs/sending-requests/graphql/graphql/"
 	},
 	{
 		"from": "/docs/writing-scripts/",
@@ -1832,8 +1840,32 @@
 		"to": "/docs/integrations/available-integrations/splunk-on-call/"
 	},
 	{
+		"from": "/docs/api-security/",
+		"to": "/docs/api-governance/api-governance-overview/"
+	},
+	{
 		"from": "/docs/api-security/security-warnings/",
-		"to": "/docs/api-security/security-warnings/security-warnings-overview/"
+		"to": "/docs/api-governance/api-definition/api-definition-warnings/"
+	},
+	{
+		"from": "/docs/api-security/security-warnings/security-warnings-overview/",
+		"to": "/docs/api-governance/api-definition/api-definition-warnings/"
+	},
+	{
+		"from": "/docs/api-security/security-warnings/openapi3/",
+		"to": "/docs/api-governance/api-definition/openapi3/"
+	},
+	{
+		"from": "/docs/api-security/security-warnings/openapi2/",
+		"to": "/docs/api-governance/api-definition/openapi2/"
+	},
+	{
+		"from": "/docs/api-security/token-scanner/",
+		"to": "/docs/administration/token-scanner/"
+	},
+	{
+		"from": "/docs/api-governance/api-testing/",
+		"to": "/docs/api-governance/api-testing/api-testing-warnings/"
 	},
 	{
 		"from": "/docs/designing-and-developing-your-api/watching-an-api/",
@@ -1924,11 +1956,63 @@
 		"to": "/docs/administration/sso/ping-identity/"
 	},
 	{
-		"from": "/docs/collaborating-in-postman/version-control-for-collections/",
-		"to": "/docs/collaborating-in-postman/version-control/"
-	},
-	{
 		"from": "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/",
 		"to": "/docs/reports/reports-overview/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/versioning-an-api/",
+		"to": "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
+	},
+	{
+		"from": "/docs/administration/upgrading/",
+		"to": "/docs/administration/updating/"
+	},
+	{
+		"from": "/docs/collaborating-in-postman/collaboration-intro/",
+		"to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
+	},
+	{
+		"from": "/docs/collaborating-in-postman/commenting-on-collections/",
+		"to": "/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/observing-an-api/",
+		"to": "/docs/designing-and-developing-your-api/observing-an-api/observing-an-api/"
+	},
+	{
+		"from": "/docs/sending-requests/supported-api-frameworks/graphql/",
+		"to": "/docs/sending-requests/graphql/graphql/"
+	},
+	{
+		"from": "/docs/sending-requests/supported-api-frameworks/websocket/",
+		"to": "/docs/sending-requests/websocket/websocket/"
+	},
+	{
+		"from": "/docs/sending-requests/supported-api-frameworks/making-soap-requests/",
+		"to": "/docs/sending-requests/soap/making-soap-requests/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/versioning-an-api/api-statuses/",
+		"to": "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/defining-an-api/",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/developing-an-api/",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/generating-server-code/",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/generating-server-code/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/versioning-an-api/api-releases/",
+		"to": "/docs/designing-and-developing-your-api/versioning-an-api/api-versions/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/validating-elements-against-schema/",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 	}
 ]

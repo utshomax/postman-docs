@@ -31,11 +31,11 @@ tags:
 
 ---
 
-Continuous Integration (CI) is a development practice that encourages developers to regularly commit their code changes to a shared repository, usually several times a day. Committing early and often helps the team avoid technical debt and detect problems quickly, when conflicts are still relatively easy to fix.
+Continuous integration (CI) is a development practice that encourages developers to regularly commit their code changes to a shared repository, usually several times a day. Committing early and often helps the team avoid technical debt and detect problems.
 
-With CI, every code commit triggers an automated process that builds the code and runs tests. The process can even deploy the updated code if all checks pass, a practice referred to as Continuous Delivery (CD).
+With CI, every code commit triggers an automated process that builds the code and runs tests. The process can even deploy the updated code if all checks pass, a practice referred to as continuous delivery (CD).
 
-> **Developing an API?** Postman offers built-in tools to integrate your API with some of the most widely-used Continuous Integration (CI) tools, including Travis CI. After you set up CI integration for your API, you can view the status of builds or kick off a new build, all from within Postman. You can also use Newman to run API tests as part of your CI pipeline. To learn more, see [CI integrations](/docs/integrations/ci-integrations/).
+> **Developing an API?** Postman offers built-in tools to integrate your API with some of the most widely-used continuous integration (CI) tools, including Travis CI. After you set up CI for your API, you can view the status of builds or kick off a new build, all from within Postman. You can also use Newman to run API tests as part of your CI pipeline. To learn more, see [CI integrations](/docs/integrations/ci-integrations/).
 
 ## Running Postman tests with Travis CI
 
@@ -112,13 +112,15 @@ This example shows you how to integrate Postman with [Travis CI](https://travis-
 
 1. Commit all the changes to your local project and push them to your public GitHub repo.
 
-    Travis CI will automatically trigger a build and run  your tests every time you push a commit to your repo. Open the [Travis CI dashboard](https://app.travis-ci.com/dashboard) to see the status of your build. If all went well, your build passed successfully.
+    Travis CI will automatically trigger a build and run  your tests every time you push a commit to your repo. Open the [Travis CI dashboard](https://app.travis-ci.com/dashboard) to get details about the status of your build. If all went well, your build passed successfully.
 
     [![Travis CI build successful](https://assets.postman.com/postman-docs/travis-ci-build-success.jpg)](https://assets.postman.com/postman-docs/travis-ci-build-success.jpg)
 
 ## Fixing test failures
 
-To see what things look like when a test fails, make a change in your imported "Hello Word" collection in Postman so that one of the test breaks.
+What do things look like when a test fails? To find out, make a change in your imported "Hello Word" collection in Postman so that one of the test breaks.
+
+To view a failed test, do the following:
 
 1. Open the collection, select the "Hello World" request, and then select the **Tests** tab.
 
@@ -132,18 +134,8 @@ To see what things look like when a test fails, make a change in your imported "
 
     [![Travis CI build failed](https://assets.postman.com/postman-docs/travis-ci-build-failed.jpg)](https://assets.postman.com/postman-docs/travis-ci-build-failed.jpg)
 
-1. Select the failed build link to view the build logs in Travis CI. Looking at the logs, you can see that the assertion failed. If this was your own collection, you could use the error message to help understand why the test failed and debug the problem.
+1. Select the failed build link to view the build logs in Travis CI. The logs will tell you that the assertion failed. If this was your own collection, you could use the error message to help understand why the test failed and debug the problem.
 
     [![Travis CI error log](https://assets.postman.com/postman-docs/travis-ci-error-log.jpg)](https://assets.postman.com/postman-docs/travis-ci-error-log.jpg)
 
 1. For this example, if you want, you can correct the error in the test in Postman and export the collection again. As before, rename the JSON file, add it to the `tests` folder in your local project, then commit and push. This time your build in Travis CI will be successful.
-
-## Next Steps
-
-For more information about collection runs, see the following topics.
-
-* [Using the Collection Runner](/docs/running-collections/intro-to-collection-runs/)
-* [Importing data files](/docs/running-collections/working-with-data-files/)
-* [Building request workflows](/docs/running-collections/building-workflows/)
-* [Integrating with Jenkins](/docs/running-collections/using-newman-cli/integration-with-jenkins/)
-* [Newman with Docker](/docs/running-collections/using-newman-cli/newman-with-docker/)
