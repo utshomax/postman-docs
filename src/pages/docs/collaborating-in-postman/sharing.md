@@ -19,6 +19,9 @@ contextual_links:
   - type: link
     name: "How to Share Postman Collections"
     url: "https://youtu.be/b9VlFDlwKvI"
+  - type: link
+    name: "Share Collection JSON via a Link | Postman Level Up"
+    url: "https://youtu.be/tw7x3yBpU1Y"
   - type: section
     name: "Next Steps"
   - type: link

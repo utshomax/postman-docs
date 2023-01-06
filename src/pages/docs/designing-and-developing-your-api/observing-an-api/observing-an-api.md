@@ -11,6 +11,9 @@ contextual_links:
     name: "Additional Resources"
   - type: subtitle
     name: "Videos"
+  - type: link
+    name: "Observability for APIs | Postman Intergalactic"
+    url: "https://youtu.be/Wkng1VXQAaU"
   - type: subtitle
     name: "Blog Posts"
   - type: link
