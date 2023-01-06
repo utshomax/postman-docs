@@ -46,7 +46,7 @@ class EditDoc extends Component {
         buttonType="secondary"
         as="a"
         id="GTM-LC-id" 
-        href={`https://github.com/postmanlabs/postman-docs/blob/develop/src/pages${pathRoute}.md`} 
+        src={`https://github.com/postmanlabs/postman-docs/blob/develop/src/pages${pathRoute}.md`} 
         target="new-tab-external-nofollow"
         >
         <SvgWrapper >
