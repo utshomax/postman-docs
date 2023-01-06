@@ -7,6 +7,13 @@ contextual_links:
   - type: link
     name: "Download and Install"
     url: "https://www.postman.com/downloads/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Announcing Postman Flows Early Access"
+    url: "https://blog.postman.com/announcing-postman-flows-early-access/"
 ---
 
 _Postman Flows_ is a visual tool for creating API workflows. You can use flows to chain requests, handle data, and create real-world workflows in your Postman workspace.
