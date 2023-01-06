@@ -9,6 +9,9 @@ contextual_links:
   - type: link
     name: "The Reimagined API-First Workflow | The Exploratory"
     url: "https://youtu.be/rTTAVlUxfDc"
+  - type: link
+    name: "Are you API-first? | The Exploratory"
+    url: "https://youtu.be/6brCRaqxNe8"
   - type: dynamic_blog
     name: "Blog Posts"
     blog_tag: "api-first"
