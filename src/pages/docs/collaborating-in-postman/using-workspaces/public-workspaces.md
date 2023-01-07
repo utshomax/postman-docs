@@ -34,7 +34,7 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "WhatsApp"
+    name: "WhatsApp uses a public workspace to augment documentation"
     url:  "https://www.postman.com/case-studies/whatsapp/"
 
 ---
