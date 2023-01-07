@@ -7,6 +7,13 @@ contextual_links:
   - type: link
     name: "Download and Install"
     url: "https://www.postman.com/downloads/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Announcing Postman Flows Early Access"
+    url: "https://blog.postman.com/announcing-postman-flows-early-access/"
   - type: subtitle
     name: "Case Studies"
   - type: link

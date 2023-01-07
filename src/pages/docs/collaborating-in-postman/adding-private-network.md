@@ -17,6 +17,9 @@ contextual_links:
   - type: link
     name: "Private API Network | The Exploratory"
     url: "https://youtu.be/1SINcytmKsc"
+  - type: link
+    name: "Private API Network"
+    url: "https://youtu.be/cbPT4dMFIDw"
   - type: subtitle
     name: "Blog Posts"
   - type: link
