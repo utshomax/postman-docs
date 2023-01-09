@@ -18,13 +18,15 @@ Postman Flows gets data with [API requests](/docs/getting-started/sending-the-fi
 
 ### Getting data with an API request
 
-Postman Flows can get data using a request from one of your existing collections by creating a **Send Request** block and selecting the request from the **Add request** field. If your collection includes a [saved response](/docs/sending-requests/responses/#saving-responses), the **Send Request** block will preload the response's structure so you can select specific fields from within the response.
+In Postman Flows, a **Send Request** block can get data using a request from one of your existing collections. If your collection includes a [saved response](/docs/sending-requests/responses/#saving-responses), the **Send Request** block will preload the response's structure so you can get values from specific key-value pairs inside the response.
 
 1. [Create a collection](/docs/getting-started/creating-the-first-collection/) named Random User Collection and add a GET request with this URL: `https://randomuser.me/api/`.
 
 1. Select **Send**.
 
     ![Create a request](https://assets.postman.com/postman-docs/v10/flow-get-request-v10.jpg)
+
+1. Select **Save**.
 
 1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/) and connect a **Send Request** block to the **Start** block.
 
@@ -33,6 +35,10 @@ Postman Flows can get data using a request from one of your existing collections
 1. In the **Send Request** block, select **Add request > Random User Collection > New Request**. Each time your new flow executes, it will get data using the Random User Collection request you created earlier.
 
     ![Select data](https://assets.postman.com/postman-docs/v10/flow-select-data-v10.jpg)
+
+1. Connect a **Log** block to the **Send Request** block's **Success** port.
+
+1. Select **Console** then select **Run**. The console displays the entire response, including request headers, response headers, and the response body.
 
 ### Getting data from the Start block
 
