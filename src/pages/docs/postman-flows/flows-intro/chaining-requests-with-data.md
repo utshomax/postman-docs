@@ -44,13 +44,13 @@ In this example, a flow's **Send Request** block gets data with a collection's G
 
 ### Getting data from the Start block
 
-In this example, the flow takes all the data that is pasted into the **Start** block and passes it to a **Select** block. You can tell the **Select** block to get a value from a key-value pair in the response. The **Select** block then passes the specified data to the **Log** block.
+In this example, the flow takes all the data that is pasted into the **Start** block and passes it to a **Select** block. You can tell the **Select** block to get a value from a specific key-value pair in the response. The **Select** block then passes the specified data to the **Log** block.
 
 1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/) and select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> in the **Start** block.
 
     ![Select the gear icon](https://assets.postman.com/postman-docs/v10/flow-start-configure-v10.jpg)
 
-1. Select **Enter incoming data** and paste in the sample data below. Your new flow will use this data every time it executes.
+1. Select **Enter incoming data** and paste in the sample data below. Your new flow will use this data every time it executes. This data includes an array named `results` and an object named `info`. The `results` array has several key-value pairs and objects. The `info` object has four key-value pairs.
 
    ``` json
    {
