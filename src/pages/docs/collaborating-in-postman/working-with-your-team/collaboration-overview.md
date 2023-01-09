@@ -49,7 +49,7 @@ The first time you create a team, do the following:
 5. (Optional) Invite collaborators to your team by email or sharing an invite link.
 6. Select **Continue** or **Maybe Later**.
 
-If you're a member of two or more teams, you can also create another team. To create another team, do the following:
+If you're a member of two or more teams, you can create additional teams. To create a new team, do the following:
 
 1. Select your avatar in the upper-right corner > **+ Create Team**.
 1. Follow the team creation steps in this section.
