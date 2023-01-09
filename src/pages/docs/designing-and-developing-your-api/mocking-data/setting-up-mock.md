@@ -26,10 +26,10 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "The Trevor Project"
+    name: "The Trevor Project uses mock servers to understand API responses early"
     url: "https://www.postman.com/case-studies/the-trevor-project/"
   - type: link
-    name: "OVO"
+    name: "OVO accelerated integration implementation with mock servers"
     url: "https://www.postman.com/case-studies/ovo/"
   - type: section
     name: "Next Steps"
