@@ -1,6 +1,6 @@
 ---
 title: 'Using a remote Git repository'
-updated: 2022-12-29
+updated: 2023-01-09
 search_keyword: "whitelist, whitelist IP"
 contextual_links:
   - type: section
@@ -98,12 +98,12 @@ You can connect to a GitHub Enterprise Server, GitLab Self-Managed, or Azure Dev
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect repository**, select **Connect** and select the type of repository you want to connect to.
 1. Enter the **Domain URL** of your repository. You can enter a new domain or select a domain you've used before from the list. Use the base URL of your enterprise server, for example: `https://my-git-server.example.com`
-1. Enter a **Personal access token** to access the repository. Ensure that the token has the required permissions as specified on the **Connect repository** page.
+1. Enter a **Personal access token** to access the repository. Ensure that the token has the required permissions as specified on the **Connect your repository** page.
 
     > **For GitHub Enterprise Server, you can use a classic token or a fine-grained token.** If using a [fine-grained token](https://github.blog/2022-10-18-introducing-fine-grained-personal-access-tokens-for-github/), ensure the token has access to the repository and has the following Repository permissions: `Contents (Read and write)` and `Metadata (Read-only)`.
 
 1. Select **Next**.
-1. On the **Connect your repository** page, enter the **Organization** and the **Repository** where the API will be stored. (For GitLab, enter the **Group** and **Project** for your API.)
+1. Enter the **Organization** and the **Repository** where the API will be stored. (For GitLab, enter the **Group** and **Project** for your API.)
 1. Select the **Initial branch** for the API. Any changes you make in Postman are stored in the initial active branch. (You can switch to another branch to make it the active branch at any time.)
 1. Select an **API schema directory** and **Collection directory** where API definitions and collections will be stored in the repository. Keep in mind the following:
 
