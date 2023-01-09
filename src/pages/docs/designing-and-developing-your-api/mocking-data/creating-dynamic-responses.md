@@ -73,7 +73,7 @@ When you call the mock server endpoint, the response data will change to somethi
 
 ## Generating contextual mock responses
 
-With template support, Postman mock servers can generate responses that vary based on the incoming response. Template helpers give you access to data from the incoming request, such as the body, query parameters, path segments, and headers. You can include that data in the response sent by the mock server.
+With template support, Postman mock servers can generate responses that vary based on the incoming request. Template helpers give you access to data from the incoming request, such as the body, query parameters, path segments, and headers. You can include that data in the response sent by the mock server.
 
 ### Using template helpers
 
