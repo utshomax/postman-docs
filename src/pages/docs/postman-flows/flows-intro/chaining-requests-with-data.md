@@ -8,9 +8,9 @@ Data moves through Postman Flows by passing from one block to another. This docu
 
 ## Contents
 
-* Getting data
-* Passing data between blocks
-* Displaying data in the console
+* [Getting data](#getting-data)
+* [Passing an entire response between blocks](#passing-an-entire-response-between-blocks)
+* [Passing specfic response data between blocks](#passing-specific-response-data-between-blocks)
 
 ## Getting data
 
@@ -141,6 +141,101 @@ When your flow gets data from an API request or the **Start** block, you can pas
 
     ![Run the flow](https://assets.postman.com/postman-docs/v10/flow-run-flow-v10.jpg)
 
-## Passing specific data from a reponse between blocks
+## Passing specific response data between blocks
 
-You can use [Flows Query Language (FQL)](/docs/postman-flows/flows-query-language/introduction-to-fql/) to extract and process data from responses and **Start** block data. This example gets the value of the `country` field from a sample response in the **Start** block.
+You can use [Flows Query Language (FQL)](/docs/postman-flows/flows-query-language/introduction-to-fql/) to extract and process data from responses and **Start** block data. This example gets the value of the `country` field from sample response data in the **Start** block.
+
+1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/) and select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> in the **Start** block.
+
+    ![Select the gear icon](https://assets.postman.com/postman-docs/v10/flow-start-configure-v10.jpg)
+
+1. Select **Enter incoming data** and paste in the sample data below. Your new flow will use this data every time it executes.
+
+   ``` json
+   {
+      "results": [
+         {
+               "gender": "female",
+               "name": {
+                  "title": "Miss",
+                  "first": "Astrid",
+                  "last": "Klingenberg"
+               },
+               "location": {
+                  "street": {
+                     "number": 2547,
+                     "name": "Lyseskrenten"
+                  },
+                  "city": "Tvedestrand",
+                  "state": "Oppland",
+                  "country": "Norway",
+                  "postcode": "6523",
+                  "coordinates": {
+                     "latitude": "44.5909",
+                     "longitude": "130.7502"
+                  },
+                  "timezone": {
+                     "offset": "+9:00",
+                     "description": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+                  }
+               },
+               "email": "astrid.klingenberg@example.com",
+               "login": {
+                  "uuid": "263e48e9-1d6d-4d18-9458-27b1b7bad1b9",
+                  "username": "lazycat514",
+                  "password": "francois",
+                  "salt": "YAY2fGhq",
+                  "md5": "0ed2300b7aad0843267d658db0f22f2a",
+                  "sha1": "57ef1b1c5cac06feb6712ac863b7c9d6292e400e",
+                  "sha256": "5312eee0d8693e522aa62814fb49fb3239bad5326ca0f37011a97704978a4add"
+               },
+               "dob": {
+                  "date": "1984-03-11T08:50:14.752Z",
+                  "age": 38
+               },
+               "registered": {
+                  "date": "2003-09-27T19:45:20.432Z",
+                  "age": 19
+               },
+               "phone": "57680755",
+               "cell": "96350131",
+               "id": {
+                  "name": "FN",
+                  "value": "11038429851"
+               },
+               "picture": {
+                  "large": "https://randomuser.me/api/portraits/women/68.jpg",
+                  "medium": "https://randomuser.me/api/portraits/med/women/68.jpg",
+                  "thumbnail": "https://randomuser.me/api/portraits/thumb/women/68.jpg"
+               },
+               "nat": "NO"
+         }
+      ],
+      "info": {
+         "seed": "4be1e2e93f6d34ba",
+         "results": 1,
+         "page": 1,
+         "version": "1.4"
+      }
+   }
+   ```
+
+1. Select **JSON** in the **Language** field.
+
+1. Connect a **Select** block to the **Start** block.
+
+1. In the **Select** block, select **Enter path...**.
+
+    ![Select Enter path...](https://assets.postman.com/postman-docs/v10/flow-enter-path-v10.jpg)
+
+1. Select **results** then scroll down to the **country** field and select it.
+
+1. Connect a **Log** block to the **Select** block.
+
+    ![Add a Log block](https://assets.postman.com/postman-docs/v10/flow-add-log-block-1-v10.jpg)
+
+1. Select **Console**.
+
+1. Select **Run**. `"Norway"` appears in the console.
+
+    ![Select Ran and open the console](https://assets.postman.com/postman-docs/v10/flow-console-country-v10.jpg)
