@@ -1119,8 +1119,16 @@ export const leftNavItems = [
             url: '/docs/integrations/available-integrations/apimatic/',
           },
           {
+            name: 'Apigee API Gateway',
+            url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-apigee/',
+          },
+          {
             name: 'AWS API Gateway',
             url: '/docs/integrations/available-integrations/aws-api-gateway/',
+          },
+          {
+            name: 'Azure API Management',
+            url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-azure/',
           },
           {
             name: 'Azure DevOps',
