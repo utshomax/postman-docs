@@ -23,7 +23,7 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Radio-Canada"
+    name: "Radio Canada uses Postman's Slack integration for notifications"
     url: "https://www.postman.com/case-studies/radio-canada/"
   - type: subtitle
     name: "Public Workspaces"

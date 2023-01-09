@@ -17,6 +17,9 @@ contextual_links:
   - type: link
     name: "Private API Network | The Exploratory"
     url: "https://youtu.be/1SINcytmKsc"
+  - type: link
+    name: "Private API Network"
+    url: "https://youtu.be/cbPT4dMFIDw"
   - type: subtitle
     name: "Blog Posts"
   - type: link
@@ -28,7 +31,7 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "ChargeHub"
+    name: "ChargeHub plans to improve internal discovery with a Private API Network"
     url: "https://www.postman.com/case-studies/chargehub/"
     search_keyword: "Private API Network, API sharing, folders, network listing, filtering apis, publish versions, github import, private apis, adding apis"
 
