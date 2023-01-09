@@ -18,7 +18,7 @@ Postman Flows gets data with [API requests](/docs/getting-started/sending-the-fi
 
 ### Getting data with an API request
 
-In Postman Flows, a **Send Request** block can get data using a request from one of your existing collections. If your collection includes a [saved response](/docs/sending-requests/responses/#saving-responses), the **Send Request** block will preload the response's structure so you can get values from specific key-value pairs inside the response.
+In this example, a flow's **Send Request** block gets data with a collection's GET request. The **Send Request** block then passes all the data to a **Log** block.
 
 1. [Create a collection](/docs/getting-started/creating-the-first-collection/) named Random User Collection and add a GET request with this URL: `https://randomuser.me/api/`.
 
@@ -32,15 +32,19 @@ In Postman Flows, a **Send Request** block can get data using a request from one
 
     ![Create a flow and add a Send Request block](https://assets.postman.com/postman-docs/v10/flow-data-send-request-v10.jpg)
 
-1. In the **Send Request** block, select **Add request > Random User Collection > New Request**. Each time your new flow executes, it will get data using the Random User Collection request you created earlier.
+1. In the **Send Request** block, select **Add request > Random User Collection > New Request**. Each time your new flow executes, the flow will get data using the GET request from the Random User Collection request you created earlier.
 
     ![Select data](https://assets.postman.com/postman-docs/v10/flow-select-data-v10.jpg)
 
 1. Connect a **Log** block to the **Send Request** block's **Success** port.
 
-1. Select **Console** then select **Run**. The console displays the entire response, including request headers, response headers, and the response body.
+    ![Add a Log block](https://assets.postman.com/postman-docs/v10/flow-add-log-block-2-v10.jpg)
+
+1. Select **Console** then select **Run**. The **Log** block sends the entire response to the console, including request headers, response headers, and the response body.
 
 ### Getting data from the Start block
+
+In this example, the flow takes all the data that is pasted into the **Start** block and passes it to a **Select** block. You can tell the **Select** block to get a value from a key-value pair in the response. The **Select** block then passes the specified data to the **Log** block.
 
 1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/) and select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> in the **Start** block.
 
@@ -119,7 +123,7 @@ In Postman Flows, a **Send Request** block can get data using a request from one
 
 ## Passing an entire response between blocks
 
-When your flow gets data from an API request or the **Start** block, you can pass that data to other blocks. This example gets response data using an API request in a **Send Request** block, then takes specific data from the response and passes it to an **Evaluate** block and then to a **Log** block.
+When your flow gets data from either an API request or the **Start** block, you can pass that data to other blocks so they can process it. The example below gets response data using an API request in a **Send Request** block, then passes the entire response to a **Log** block.
 
 1. [Create a collection](/docs/getting-started/creating-the-first-collection/) named Random User Collection and add a GET request with this URL: `https://randomuser.me/api/`.
 
@@ -143,13 +147,13 @@ When your flow gets data from an API request or the **Start** block, you can pas
 
     ![Connect a Log block](https://assets.postman.com/postman-docs/v10/flow-add-log-block-v10.jpg)
 
-1. Select **Run** then select **Console**. The flow gets response data from the API request in the **Send Request** block and passes the entire response to the **Log** block, which displays the data in the Console.
+1. Select **Run** then select **Console**. The flow gets response data from the API request in the **Send Request** block and passes the entire response to the **Log** block, which displays the data in the console.
 
     ![Run the flow](https://assets.postman.com/postman-docs/v10/flow-run-flow-v10.jpg)
 
 ## Passing specific response data between blocks
 
-You can use [Flows Query Language (FQL)](/docs/postman-flows/flows-query-language/introduction-to-fql/) to extract and process data from responses and **Start** block data. This example gets the value of the `country` field from sample response data in the **Start** block.
+You can use a **Select** block to extract values from responses. The example below gets the value of the `country` field from sample response data in the **Start** block.
 
 1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/) and select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> in the **Start** block.
 
@@ -226,7 +230,7 @@ You can use [Flows Query Language (FQL)](/docs/postman-flows/flows-query-languag
    }
    ```
 
-1. Select **JSON** in the **Language** field.
+1. Select **JSON** from the **Language** dropdown list.
 
 1. Connect a **Select** block to the **Start** block.
 
