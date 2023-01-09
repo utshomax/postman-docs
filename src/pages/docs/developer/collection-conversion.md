@@ -15,7 +15,7 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Youi"
+    name: "Youi plans to convert docs into collections"
     url: "https://www.postman.com/case-studies/youi/"
   - type: section
     name: "Next Steps"

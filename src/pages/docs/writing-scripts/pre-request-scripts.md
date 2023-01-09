@@ -33,10 +33,10 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Twitter"
+    name: "Twitter uses pre-request scripts to create a testing environment"
     url:  "https://www.postman.com/case-studies/twitter/"
   - type: link
-    name: "Toast"
+    name: "Toast chains requests automatically with pre-request scripts"
     url:  "https://www.postman.com/case-studies/toast/"
   - type: section
     name: "Next Steps"
