@@ -47,7 +47,7 @@ To continue configuring your SAML application, do the following:
 
     <img alt="SAML signing certificate in Azure AD" src="https://assets.postman.com/postman-docs/saml-signing-certificate-azuread.jpg"/>
 
-1. In Postman, upload the Federation Metadata XML file under **Identity provider metadata file**. Or, you can enter the **SSO URL**, **Identity Provider Issuer**, and **X.509 Certificate** individually under **Identity Provider Details**.
+1. In Postman, upload the Federation Metadata XML file under **Identity provider metadata file**. Or, you can enter the **SSO URL**, **Identity provider issuer**, and **X.509 Certificate** individually under **Identity provider details**.
 
 1. Select **Save Authentication** in Postman.
 

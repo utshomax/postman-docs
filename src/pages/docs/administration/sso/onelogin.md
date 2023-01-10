@@ -43,7 +43,7 @@ To continue configuring your Postman app, do the following:
     <img alt="Generate relay state in Postman" src="https://assets.postman.com/postman-docs/generate-relay-state-v9.14.jpg" width="350px"/>
 
 1. Select **SSO** on the left in OneLogin.
-1. Copy the **Issuer URL** and add it as the **Identity Provider Issuer** in Postman.
+1. Copy the **Issuer URL** and add it as the **Identity provider issuer** in Postman.
 
     <img alt="OneLogin SSO Enable SAML 2.0" src="https://assets.postman.com/postman-docs/onelogin-sso.jpg"/>
 

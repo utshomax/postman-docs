@@ -14,33 +14,39 @@ contextual_links:
 
 > **[SSO with Duo is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-You must be an administrator in your Duo organization to configure SSO for your team.
+To configure SSO with Duo, you can configure a SAML application. You must be an administrator in your Duo organization to configure SSO for your team.
 
-## Setting up a custom SAML application in Duo
+## Configuring SSO with Duo
 
-1. Head over to the applications page from the Duo dashboard. Select **Protect an Application**.
+Before configuring the Postman app in Duo, you must [configure SSO in Postman](/docs/administration/sso/admin-sso/). When choosing the **Authentication Type**, select **Duo**. Name your authentication and **Continue**.
 
-     [![duo dashboard](https://assets.postman.com/postman-docs/duo_dashboard.png)](https://assets.postman.com/postman-docs/duo_dashboard.png)
+<img alt="Configure identity provider details in Postman" src="https://assets.postman.com/postman-docs/configure-identity-provider-details-v9.14.jpg"/>
 
-1. Search for "SAML - Service Provider" and select the **Protect this Application** link.
-     [![duo protect](https://assets.postman.com/postman-docs/duo_protect.png)](https://assets.postman.com/postman-docs/duo_protect.png)
+To continue configuring your Postman app, do the following:
 
-1. Enter `Postman` as the service provider. The service provider details can be found on the Postman [Edit Team Details page](https://go.postman.co/settings/team/general). Other fields can either be left blank or set to the default value.
-     [![duo provider](https://assets.postman.com/postman-docs/duo_provider.png)](https://assets.postman.com/postman-docs/duo_provider.png)
+1. Open your Duo admin panel in a new tab.
+1. Go to **Applications** and select **Protect an Application**.
+1. Search for "SAML - Service Provider" and select **Protect this Application** from the results.
+1. Take the service provider details from Postman and add them to your SAML configuration in Duo:
 
      | **Field** | **Value** |
      |---|---|
-     | Service Provider Name | Postman |
-     | Entity ID | *collect it from the Postman team details page* |
-     | Assertion Consumer Service | *collect it from the Postman team details page* |
-     | NameID format | EmailAddress |
+     | Service provider name | `Postman` |
+     | Entity ID | Add the **Entity ID** from Postman |
+     | Assertion Consumer Service | Add the **ACS URL** from Postman |
+     | NameID format | `EmailAddress` |
 
-1. After configuring the service provider details, select **Save Configuration**.
-     [![duo save](https://assets.postman.com/postman-docs/duo_save.png)](https://assets.postman.com/postman-docs/duo_save.png)
+     > Other fields can either be left blank or set to the default value.
 
-1. Download the configuration file.
-     [![duo download](https://assets.postman.com/postman-docs/duo_download.png)](https://assets.postman.com/postman-docs/duo_download.png)
+     <img alt="duo provider" src="https://assets.postman.com/postman-docs/duo_provider.png"/>
 
-1. Duo requires your cloud application to be added to the Duo Access Gateway. Refer to this [guide for setting this up](https://duo.com/docs/dag-generic).
+1. Select **Save Configuration** in Duo.
 
-1. Once the setup is complete, submit your Identity Provider's details to Postman. Collect the `Identity Provider Single Sign-On URL`, `Identity Provider Issuer`, and `X.509 Certificate` from the Duo configuration page and fill these values in your Postman [Edit Team Details page](https://go.postman.co/settings/team/general) within the **Duo Identity Provider Details** modal. For more details on this last step, review [setting up SSO in Postman](/docs/administration/sso/admin-sso/).
+1. Download the configuration file from Duo.
+     <img alt="duo download configuration file" src="https://assets.postman.com/postman-docs/duo_download.png"/>
+
+1. Duo requires you to add your cloud application to the Duo Access Gateway. Refer to this [guide for setting this up](https://duo.com/docs/dag-generic).
+
+1. In Postman, upload the XML metadata file under **Identity provider metadata file**. Or, you can enter the **SSO URL**, **Identity provider issuer**, and **X.509 Certificate** individually under **Identity provider details**.
+
+1. Select **Save Authentication** in Postman.
