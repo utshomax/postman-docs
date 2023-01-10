@@ -739,7 +739,7 @@ export const leftNavItems = [
         url: '/docs/publishing-your-api/documenting-your-api/',
       },
       {
-        name: 'Authoring your docs',
+        name: 'Writing your docs',
         url: '/docs/publishing-your-api/authoring-your-documentation/',
       },
       {
