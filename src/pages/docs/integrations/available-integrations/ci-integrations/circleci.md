@@ -77,15 +77,15 @@ You an also enforce [API Governance and API Security rules each time the pipelin
 
 To generate configuration code for the Postman CLI, do the following:
 
-1. Open your API version and select **Test and Automation**.
-1. Under **CI/CD Builds**, select **View All Builds**.
+1. Open your API and select **Test and Automation**.
+1. Under the repository name, select **View All Builds**.
 1. Select **Configure Postman CLI**.
 1. Select a **Collection** to run during pipeline builds. To be available in the dropdown list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
 1. (Optional) Select the checkbox to enforce API Governance and API Security rules each time the CI/CD pipeline runs ([Enterprise teams only](https://www.postman.com/pricing/)).
 1. Select the **Operating system** for your CI/CD pipeline.
 1. Select **Copy Postman CLI Command** to copy the Postman CLI configuration.
 
-<img alt="Generate the Postman CLI configuration" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-v10-2.jpg" width="548px">
+<img alt="Generate the Postman CLI configuration" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-v10-3.jpg" />
 
 To add the Postman CLI configuration to your CircleCI project, do the following:
 
