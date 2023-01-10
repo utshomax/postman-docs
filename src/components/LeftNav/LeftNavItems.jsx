@@ -391,6 +391,10 @@ export const leftNavItems = [
             name: 'Chaining requests with data',
             url: '/docs/postman-flows/flows-intro/chaining-requests-with-data/',
           },
+          {
+            name: 'Using authorization with Postman Flows',
+            url: '/docs/postman-flows/flows-intro/using-auth-with-flows/',
+          },
         ],
       },
       {
