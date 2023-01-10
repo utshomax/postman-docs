@@ -41,6 +41,7 @@ To set up CI integration for your API, first set up your CI project and then con
 
 To connect your API to your CI project, see the steps for your CI tool:
 
+* [Azure Pipelines](/docs/integrations/available-integrations/ci-integrations/azure-pipelines/)
 * [Bitbucket Pipelines](/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/)
 * [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/)
 * [GitHub Actions](/docs/integrations/available-integrations/ci-integrations/github-actions/)
@@ -56,6 +57,7 @@ To run your API tests along with each build and, optionally, your API Governance
 
 To configure the Postman CLI to run API tests, see the steps for your CI tool:
 
+* [Azure Pipelines](/docs/integrations/available-integrations/ci-integrations/azure-pipelines/#configuring-the-postman-cli-for-azure-pipelines)
 * [Bitbucket Pipelines](/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/#configuring-the-postman-cli-for-bitbucket-pipelines)
 * [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/#configuring-the-postman-cli-for-circleci)
 * [GitHub Actions](/docs/integrations/available-integrations/ci-integrations/github-actions/#configuring-the-postman-cli-for-github-actions)
