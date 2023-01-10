@@ -99,9 +99,9 @@ You can connect to a GitHub Enterprise Server, GitLab Self-Managed, or Azure Dev
 1. Under **Connect repository**, select **Connect** and select the type of repository you want to connect to.
 1. Enter the **Domain URL** of your repository. You can enter a new domain or select a domain you've used before from the list. Format the domain URL as follows:
 
-    * **GitHub Enterprise Server** - Use the base URL of your server, for example: `https://my-github-server.example.com`
-    * **GitLab Self-Managed** - Use the base URL of your server, for example: `gitlab.example.com`
-    * **Azure DevOps Server** - Use the name and port of your server along with the collection, for example: `https://my-azure-server:8080/my-collection`
+    * **GitHub Enterprise Server** - Use the base URL of your Git server, for example: `https://my-github-server.example.com`
+    * **GitLab Self-Managed** - Use the base URL of your Git server, for example: `https://gitlab.example.com`
+    * **Azure DevOps Server** - Use the name and port of your Git server along with the collection, for example: `https://my-azure-server:8080/my-collection`
 
 1. Enter a **Personal access token** to access the repository. Ensure that the token has the required permissions as specified on the **Connect your repository** page.
 
