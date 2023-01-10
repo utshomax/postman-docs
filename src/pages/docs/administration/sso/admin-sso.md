@@ -75,7 +75,7 @@ To enter details in the **Identity provider details** section, you must sign in 
 
 &#42; Only available on Enterprise plans.
 
-Optionally, you can select the [**Automatically add new users**](#automatically-adding-new-users) checkbox if you want users to automatically join your team the first time they log in to Postman through this IdP.
+Optionally, you can select the [**Automatically add new users**](#automatically-adding-new-users) checkbox if you want users to automatically join your team the first time they sign in to Postman through this IdP.
 
 ## Edit SSO settings
 
@@ -105,7 +105,7 @@ This section describes the following topics:
 
 ### Creating end user accounts
 
-The first time a new Postman user [logs in to Postman through the IdP](/docs/administration/sso/user-sso/), a Postman account is created and the user is automatically added to the team if the following is true: the team has seats available and the [**Automatically add new users**](#automatically-adding-new-users) checkbox was selected during [SSO configuration](#configuring-the-identity-provider-details).
+The first time a new Postman user [signs in to Postman through the IdP](/docs/administration/sso/user-sso/), a Postman account is created and the user is automatically added to the team if the following is true: the team has seats available and the [**Automatically add new users**](#automatically-adding-new-users) checkbox was selected during [SSO configuration](#configuring-the-identity-provider-details).
 
 The user will be automatically associated to the team with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and have access to team resources.
 
@@ -113,7 +113,7 @@ The user will be automatically associated to the team with a [Developer role](/d
 
 ### Adding existing user accounts
 
-The first time an existing Postman user [logs in to Postman through the IdP](/docs/administration/sso/user-sso/), the user is automatically added to the team if one of the following is true:
+The first time an existing Postman user [signs in to Postman through the IdP](/docs/administration/sso/user-sso/), the user is automatically added to the team if one of the following is true:
 
 * The team has available seats and the [**Automatically add new users**](#automatically-adding-new-users) checkbox was selected during [SSO configuration](#configuring-the-identity-provider-details).
 * A Team Admin has [invited the user](/docs/administration/managing-your-team/managing-your-team/#inviting-users) to join the team.
@@ -124,13 +124,13 @@ The user will be automatically associated to the team with a [Developer role](/d
 
 ### Automatically adding new users
 
-The **Automatically add new users** checkbox in your [SSO configuration](#configuring-the-identity-provider-details) determines whether users with accounts in your IdP are allowed to join your team automatically by [logging in to Postman through the IdP](/docs/administration/sso/user-sso/). If this is selected, users with or without existing Postman accounts can join your team by going to the [Enterprise sign in page](https://identity.getpostman.com/enterprise/login) and logging in with SSO.
+The **Automatically add new users** checkbox in your [SSO configuration](#configuring-the-identity-provider-details) determines whether users with accounts in your IdP are allowed to join your team automatically by [signing in to Postman through the IdP](/docs/administration/sso/user-sso/). If this is selected, users with or without existing Postman accounts can join your team by going to the [Enterprise sign in page](https://identity.getpostman.com/enterprise/login) and signing in with SSO.
 
 > **Automatically add new users** will only work if your team has user seats available. Your team size won't automatically increase if more users sign in with SSO.
 
 ### Managing team logins
 
-By default, Postman only supports Service Provider (Postman) initiated logins for Postman Professional or Enterprise teams using SSO. Your team must use the [Enterprise login page](https://identity.getpostman.com/enterprise/login) to sign in to Postman. If you require users be able to sign in from your SSO portal, you can generate and copy the Relay state from your [SSO configuration](#configuring-the-identity-provider-details) and save it in your IdP configuration. This ensures an extra level of security when logins are initiated through a source unknown to Postman.
+By default, Postman only supports Service Provider (Postman) initiated sign-ins for Postman Professional or Enterprise teams using SSO. Your team must use the [Enterprise sign in page](https://identity.getpostman.com/enterprise/login) to sign in to Postman. If you require users be able to sign in from your SSO portal, you can generate and copy the Relay state from your [SSO configuration](#configuring-the-identity-provider-details) and save it in your IdP configuration. This ensures an extra level of security when sign-ins are initiated through a source unknown to Postman.
 
 ### Removing team access
 
@@ -138,14 +138,14 @@ You must [remove users from your team in Postman](/docs/administration/managing-
 
 ## Troubleshooting
 
-If you're unable to log in to Postman using SSO, or you experience other SSO configuration issues, see the following common issues:
+If you're unable to sign in to Postman using SSO, or you experience other SSO configuration issues, see the following common issues:
 
 Issue | Resolving the issue
 --- | ---
-Your IdP returns a 404 error after logging in to Postman using SSO. | Make sure the **SSO URL** is correctly copied from your IdP to your [SSO configuration](#configuring-the-identity-provider-details) in Postman.
-Postman returns a 500 error after logging in to Postman using SSO. | Make sure the **X.509 Certificate** is correctly copied from your IdP to your [SSO configuration](#configuring-the-identity-provider-details) in Postman.
-Postman returns a 404 error after logging in to Postman using SSO. | Make sure the values in the **Service provider details (Postman)** section are correctly copied from your [SSO configuration](#configuring-the-identity-provider-details) in Postman to your IdP.
-Postman returns a page explaining the sign-in request expired after logging in to Postman using SSO. | Make sure the **Relay state** is correctly copied from your [SSO configuration](#configuring-the-identity-provider-details) in Postman to your IdP.
+Your IdP returns a 404 error after signing in to Postman using SSO. | Make sure the **SSO URL** is correctly copied from your IdP to your [SSO configuration](#configuring-the-identity-provider-details) in Postman.
+Postman returns a 500 error after signing in to Postman using SSO. | Make sure the **X.509 Certificate** is correctly copied from your IdP to your [SSO configuration](#configuring-the-identity-provider-details) in Postman.
+Postman returns a 404 error after signing in to Postman using SSO. | Make sure the values in the **Service provider details (Postman)** section are correctly copied from your [SSO configuration](#configuring-the-identity-provider-details) in Postman to your IdP.
+Postman returns a page explaining the sign-in request expired after signing in to Postman using SSO. | Make sure the **Relay state** is correctly copied from your [SSO configuration](#configuring-the-identity-provider-details) in Postman to your IdP.
 An email address isn't associated with your Postman account in your [Postman team member list](/docs/administration/managing-your-team/managing-your-team/). | In your IdP configuration settings, make sure the username format is set to **Email**.
 
 ## Next steps

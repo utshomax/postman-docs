@@ -24,7 +24,7 @@ To configure SSO with OneLogin, you can use the available Postman app. You must 
 
 ## Configuring SSO with OneLogin
 
-Before configuring the Postman app in OneLogin, you must [configure SSO in Postman](/docs/administration/sso/admin-sso/). When choosing the **Authentication Type**, select **OneLogin**. Name your authentication and **Proceed**.
+Before configuring the Postman app in OneLogin, you must [configure SSO in Postman](/docs/administration/sso/admin-sso/). When choosing the **Authentication Type**, select **OneLogin**. Name your authentication and **Continue**.
 
 <img alt="Configure identity provider details in Postman" src="https://assets.postman.com/postman-docs/configure-identity-provider-details-v9.14.jpg"/>
 
@@ -47,7 +47,7 @@ To continue configuring your Postman app, do the following:
 
     <img alt="OneLogin SSO Enable SAML 2.0" src="https://assets.postman.com/postman-docs/onelogin-sso.jpg"/>
 
-1. Copy the **SAML 2.0 Endpoint (HTTP)** and add it as **Identity Provider SSO URL** in Postman.
+1. Copy the **SAML 2.0 Endpoint (HTTP)** and add it as **SSO URL** in Postman.
 1. Select **View Details** under **X.509 Certificate**. Copy the **X.509 Certificate** and add it under **X.509 Certificate** in Postman.
 
 1. Select **Save Authentication** in Postman to complete the configuration.

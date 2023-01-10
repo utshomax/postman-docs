@@ -14,7 +14,7 @@ contextual_links:
 
 > **[SSO with Duo is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-*Note: An admin of your Duo organization must create the SAML application.*
+You must be an administrator in your Duo organization to configure SSO for your team.
 
 ## Setting up a custom SAML application in Duo
 
