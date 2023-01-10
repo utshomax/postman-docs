@@ -24,7 +24,7 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Reputation"
+    name: "Reputation imports data files with Postman"
     url: "https://www.postman.com/case-studies/reputation/"
 
 warning: false

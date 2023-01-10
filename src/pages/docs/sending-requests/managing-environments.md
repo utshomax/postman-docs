@@ -34,10 +34,10 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Hathway"
+    name: "Hathway uses separate environments for each client"
     url: "https://www.postman.com/case-studies/hathway/"
   - type: link
-    name: "VideoAmp"
+    name: "VideoAmp uses environments to test updates"
     url: "https://www.postman.com/case-studies/videoamp/"
   - type: section
     name: "Next Steps"
