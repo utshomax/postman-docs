@@ -710,6 +710,10 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/',
           },
           {
+            name: 'Creating dynamic mock responses',
+            url: '/docs/designing-and-developing-your-api/mocking-data/creating-dynamic-responses/',
+          },
+          {
             name: 'Mocking with examples',
             url: '/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/',
           },
@@ -1119,8 +1123,16 @@ export const leftNavItems = [
             url: '/docs/integrations/available-integrations/apimatic/',
           },
           {
+            name: 'Apigee API Gateway',
+            url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-apigee/',
+          },
+          {
             name: 'AWS API Gateway',
             url: '/docs/integrations/available-integrations/aws-api-gateway/',
+          },
+          {
+            name: 'Azure API Management',
+            url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-azure/',
           },
           {
             name: 'Azure DevOps',
