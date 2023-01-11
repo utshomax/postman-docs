@@ -8,19 +8,18 @@ Some APIs require authorization like a secret key to access their data. The exam
 ## Contents
 
 * Create a secret key for the API
+* Create a variable for the secret key
 * Create a collection and a request
-* Create an environment and a variable
-* Create your flow
+* Create a flow
 
 ## Create a secret key for the API
 
 This example flow uses a secret key to access the OpenAI API. To get your secret key:
 
 1. In your browser, go to https://beta.openai.com/account/api-keys and select **Sign up**.
-
 1. Follow the prompts to create and sign into an OpenAI account.
-
-1. Return to https://beta.openai.com/account/api-keys and create a secret key. Copy and paste your secret key in a secure but accessible location. You'll use it in a later step.
+1. Return to https://beta.openai.com/account/api-keys and create a secret key.
+1. Copy and paste your secret key in a secure but accessible location. You'll use it in a later step.
 
 ## Create a variable for the secret key
 
@@ -53,7 +52,7 @@ By assigning your secret key value to a variable, you can keep it secure and eas
 
     ![Create a flow and add a Send Request block](https://assets.postman.com/postman-docs/v10/flow-data-send-request-v10.jpg)
 
-1. In the **Send Request** block, select **Add request > Random User Collection > New Request**.
+1. In the **Send Request** block, select **Add request > OpenAI Collection > New Request**.
 
     ![Select data](https://assets.postman.com/postman-docs/v10/flow-select-data-v10.jpg)
 
@@ -61,6 +60,6 @@ By assigning your secret key value to a variable, you can keep it secure and eas
 
     ![Connect a Log block](https://assets.postman.com/postman-docs/v10/flow-add-log-block-v10.jpg)
 
-1. Select **Run** then select **Console**. The flow gets response data from the API request in the **Send Request** block and passes the entire response to the **Log** block, which displays the data in the console.
+1. Select **Run** then select **Console**. The API accepts the authorization credentials and the response appears in the console.
 
     ![Run the flow](https://assets.postman.com/postman-docs/v10/flow-run-flow-v10.jpg)
