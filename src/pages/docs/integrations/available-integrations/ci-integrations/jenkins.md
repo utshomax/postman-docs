@@ -61,7 +61,7 @@ To view build jobs, open an API and select **Test and Automation**. The most rec
 Select **View Builds** to view the full list of build jobs. From here you can take the following actions:
 
 * Use the dropdown list to filter jobs by build status.
-* To open a build in Jenkins, hover over a build and select **View build details**.
+* To open a build in Jenkins, select the build name.
 * To start a new build, select **Run Build**.
 * To get the latest build status information, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
