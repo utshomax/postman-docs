@@ -34,7 +34,7 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Writing your documentation"
+    name: "Writing your docs"
     url: "/docs/publishing-your-api/authoring-your-documentation/"
   - type: link
     name: "Publishing your docs"
