@@ -74,7 +74,7 @@ To add or edit the description for an existing collection, folder, or request, d
 
 ### Writing descriptions in the Postman editor
 
-To write a description using rich text editing tools, select the **Postman editor** option. The Postman editor enables you to write a description without having to write any Markdown code. Use the tools on the toolbar to work with text and other content, as you would in a typical word processor. Or use common keyboard shortcuts to format text, like **⌘+B** or **Ctrl+B** to make text bold.
+To write a description using rich text editing tools, select the **Postman editor** option. You can use the Postman editor to write a description without having to write any Markdown code. Use the tools on the toolbar to work with text and other content, as you would in a typical word processor. Or use common keyboard shortcuts to format text, like **⌘+B** or **Ctrl+B** to make text bold.
 
 <img alt="Postman editor" src="https://assets.postman.com/postman-docs/documentation-use-postman-editor-v9-1.jpg" width="560px">
 
