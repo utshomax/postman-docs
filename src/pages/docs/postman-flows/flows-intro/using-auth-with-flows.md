@@ -7,10 +7,10 @@ Some APIs require authorization like a secret key to access their data. The exam
 
 ## Contents
 
-* Create a secret key for the API
-* Create a variable for the secret key
-* Create a collection and a request
-* Create a flow
+* [Create a secret key for the API](#create-a-secret-key-for-the-api)
+* [Create a variable for the secret key](#create-a-variable-for-the-secret-key)
+* [Create a collection and a request](#create-a-collection-and-a-request)
+* [Create a flow](#create-a-flow)
 
 ## Create a secret key for the API
 
