@@ -810,7 +810,7 @@ export const leftNavItems = [
         url: '/docs/reports/api-governance-reports/',
       },
       {
-        name: 'Security Audit reports',
+        name: 'Token Scanner reports',
         url: '/docs/reports/security-audit-reports/',
       },
     ],

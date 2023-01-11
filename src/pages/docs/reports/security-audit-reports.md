@@ -1,6 +1,6 @@
 ---
-title: "Security audit reports"
-updated: 2022-09-15
+title: "Token Scanner report"
+updated: 2023-01-11
 warning: false
 contextual_links:
   - type: section
@@ -19,9 +19,9 @@ contextual_links:
 
 > [**Reports are available on all Postman Enterprise plans.**](https://www.postman.com/pricing)
 
-The **Security Audit** report provides metrics including an overview of your total collections scanned, collections with exposed tokens, total exposed tokens, and separate visualizations of exposed tokens by type and over time. This report consolidates the findings of the Postman token scanner from public documentation. Learn more about the Postman [Token Scanner](/docs/api-security/token-scanner/).
+The **Token Scanner** report provides metrics including an overview of your total collections scanned, collections with exposed tokens, total exposed tokens, and separate visualizations of exposed tokens by type and over time. This report consolidates the findings of the Postman Token Scanner from your public documentation. Learn more about the Postman [Token Scanner](/docs/api-security/token-scanner/).
 
-The **Security Audit** report provides the following information for the past 30 days:
+The Token Scanner report provides the following information for the past 30 days:
 
 * **Published documentation scanned** - The number of published documentation sets that were reviewed by the Token Scanner.
 * **Published documentation with exposed tokens** - The number of published documentation sets that have an exposed token.
