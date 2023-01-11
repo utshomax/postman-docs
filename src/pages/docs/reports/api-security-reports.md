@@ -34,7 +34,6 @@ The **Public APIs** report provides the following information for APIs in your t
 * **API conformance over time** - Per day over the last 30 days, the number of APIs without API Security rule violations and the number of APIs with API Security rule violations.
 * **Current API landscape** - The number of APIs in your team's public workspaces, broken down by the number of API Security rule violations in each.
 * **Top 3 rules violated** - The three API Security rules that are most frequently violated in APIs in your team's public workspaces.
-* **Top 3 APIs with most violations** - The three APIs in your team's public workspaces that most frequently have API Security rule violations.
 
 ## Private Network APIs
 
@@ -45,4 +44,3 @@ The **Private Network APIs** report provides the following information for APIs 
 * **API conformance over time** - Per day over the last 30 days, the number of APIs without API Security rule violations and the number of APIs with API Security rule violations.
 * **Current API landscape** - The number of APIs in your team's Private API Network, broken down by the number of API Security rule violations in each.
 * **Top 3 rules violated** - The three API Security rules that are most frequently violated in APIs in your team's Private API Network.
-* **Top 3 APIs with most violations** - The three APIs in your team's Private API Network that most frequently have API Security rule violations.
