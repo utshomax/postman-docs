@@ -31,7 +31,7 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "ChargeHub"
+    name: "ChargeHub plans to improve internal discovery with a Private API Network"
     url: "https://www.postman.com/case-studies/chargehub/"
     search_keyword: "Private API Network, API sharing, folders, network listing, filtering apis, publish versions, github import, private apis, adding apis"
 
