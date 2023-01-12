@@ -43,20 +43,22 @@ Select **Proceed** to verify the custom domain.
 
 ## Verifying your domain
 
-When you add a custom domain, Postman displays the DNS records required to verify domain ownership. To verify that you control the domain you're attempting to add, you must add these provided tokens as DNS records to your domain for TXT and CNAME.
+After you add a custom domain, Postman displays the DNS records required to verify domain ownership. To verify that you control the domain you're attempting to add, you must add these provided tokens to your domain as TXT and CNAME records. After adding the TXT and CNAME records in your domain registrar, you can complete the verification in Postman team settings.
 
-[![see TXT and CNAME](https://assets.postman.com/postman-docs/verfication-tokens-1.jpg)](https://assets.postman.com/postman-docs/verfication-tokens-1.jpg)
+![Custom domain TXT and CNAM records](https://assets.postman.com/postman-docs/v10/custom-domains-dns-records-v10.jpg)
 
-## Adding DNS records
+### Adding DNS records
 
 For DNS records, verify the ownership with a DNS web service provider. In a separate browser tab, go to the DNS provider’s console and add the following two new records.
 
 * A TXT record for `postman-echo.com` verifies the ownership of the domain. The value must be the same as the token shown in the modal. Add the TXT record to the __root domain__. For example if you're adding `example.com` or `api.example.com`, add the TXT record to `example.com`.
 * A CNAME record for `docs.postman-echo.com`, as shown in the modal. This value must be `phs.getpostman.com`. Add the CNAME record to the URL that's associated with your public documentation.
 
+### Completing the verification
+
 To verify the domain, check the __I've added the TXT and CNAME records__ checkbox, then select __Verify Domain__. A confirmation message will indicate that the domain has been verified.
 
-[![verify_domain](https://assets.postman.com/postman-docs/docs-verify-domain-1.jpg)](https://assets.postman.com/postman-docs/docs-verify-domain-1.jpg)
+![Completing domain verification](https://assets.postman.com/postman-docs/v10/custom-domains-verify-v10.jpg)
 
 > Postman uses LetsEncrypt as an SSL certificate provider to enable hosting public documentation on your domain. LetsEncrypt generates a certificate implicitly if your domain has no CAA records. If your domain has CAA records set, then LetsEncrypt needs an explicit CAA record to issue a certificate for that domain. To enable LetsEncrypt issue this certificate, refer to the [LetsEncrypt Documentation](https://letsencrypt.org/docs/caa/).
 
