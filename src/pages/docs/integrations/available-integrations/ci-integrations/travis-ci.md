@@ -49,7 +49,7 @@ To view build jobs, open an API and select **Test and Automation**. The most rec
 Select **View All Builds** to view the full list of build jobs. From here you can take the following actions:
 
 * Use the dropdown lists to filter jobs by branch or build status.
-* To open a build in Travis CI, hover over a build and select **View build details**.
+* To open a build in Travis CI, select the build name.
 * To start a new build, select **Run Build**. Select or enter the name of the branch to use and select **Run Build**.
 * To get the latest build status information, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
@@ -72,15 +72,15 @@ You an also enforce [API Governance and API Security rules each time the pipelin
 
 To generate configuration code for the Postman CLI, do the following:
 
-1. Open your API version and select **Test and Automation**.
-1. Under **CI/CD Builds**, select **View All Builds**.
+1. Open your API and select **Test and Automation**.
+1. Under the repository name, select **View All Builds**.
 1. Select **Configure Postman CLI**.
 1. Select a **Collection** to run during pipeline builds. To be available in the dropdown list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
 1. (Optional) Select the checkbox to enforce API Governance and API Security rules each time the CI/CD pipeline runs ([Enterprise teams only](https://www.postman.com/pricing/)).
 1. Select the **Operating system** for your CI/CD pipeline.
 1. Select **Copy Postman CLI Command** to copy the Postman CLI configuration.
 
-<img alt="Generate the Postman CLI configuration" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-v10-2.jpg" width="548px">
+<img alt="Generate the Postman CLI configuration" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-v10-3.jpg" />
 
 To add the Postman CLI configuration to your Travis CI project, do the following:
 

@@ -24,10 +24,10 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Intuit"
+    name: "Intuit uses Postman's code generator at hackathons"
     url: "https://www.postman.com/case-studies/intuit/"
   - type: link
-    name: "ShipEngine"
+    name: "ShipEngine uses Postman's code generator to integrate API requests"
     url: "https://www.postman.com/case-studies/shipengine/"
   - type: section
     name: "Next Steps"

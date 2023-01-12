@@ -9,6 +9,11 @@ contextual_links:
   - type: link
     name: "Customize Your Public Profile | Postman Level Up"
     url:  "https://youtu.be/xM_sskJmZNM"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Tell Your API Story with Your Postman Profile"
+    url: "https://blog.postman.com/tell-your-api-story-with-your-postman-profile/"
   - type: section
     name: "Next Steps"
   - type: link

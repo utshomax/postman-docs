@@ -597,9 +597,6 @@ $parseInteger("four hundred and ninety-three thousand, eight hundred and forty",
 493840
 ```
 
-<!-- ## Time and date parsing -->
-<!-- TODO: Technically this 'Time and date parsing' H2 should be an H1. Deleting for now. Maybe break this doc into two docs in the future.-->
-
 ## Get the current time in ISO 8601 format
 
 ### FQL
