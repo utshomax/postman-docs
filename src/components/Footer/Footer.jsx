@@ -250,7 +250,6 @@ const Footer = () => {
                 </div>
                 {/* API Categories */}
                 <div className="col-6 col-md-2 order-3 order-md-4">
-
                   {columns.slice(3, 4).map((item) => (
                     <nav aria-labelledby={item.arialabelledby} key={uuidv4()}>
                       <h2 className="footer-col-title" id={item.arialabelledby}>
@@ -287,7 +286,7 @@ const Footer = () => {
                   ))}
 
                 </div>
-                {/* API Categories */}
+                {/* Social media icons */}
                 <div className="col-6 col-md-2 order-4 order-md-5">
                   <div className="row">
                     {columns.slice(4, 5).map((item) => (
@@ -358,6 +357,5 @@ const Footer = () => {
     </FooterWrapper>
   );
 };
-
 
 export default Footer;
