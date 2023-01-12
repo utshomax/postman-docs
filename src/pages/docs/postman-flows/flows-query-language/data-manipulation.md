@@ -1,6 +1,6 @@
 ---
 title: "Data manipulation"
-updated: 2022-12-27
+updated: 2022-01-12
 ---
 
 You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to perform math functions, manipulate strings and arrays, and interact with the data in your responses in several ways. Sample data and FQL examples are below.
@@ -14,6 +14,7 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 * [Insert strings then group and sum results by description](#insert-strings-then-group-and-sum-results-by-description)
 * [Return the length of a string](#return-the-length-of-a-string)
 * [Return part of a string](#return-part-of-a-string)
+* [Convert a string into a number](#convert-a-string-into-a-number)
 * [Get the string before the first occurrence of a pattern](#get-the-string-before-the-first-occurrence-of-a-pattern)
 * [Get the string after the first occurrence of a pattern](#get-the-string-after-the-first-occurrence-of-a-pattern)
 * [Transform a string to all uppercase](#transform-a-string-to-all-uppercase)
@@ -26,7 +27,6 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 * [Base64 encode a string](#base64-encode-a-string)
 * [Base64 decode a string](#base64-decode-a-string)
 * [Convert a string into JSON](#convert-a-string-into-json)
-* [Convert a string into a number](#convert-a-string-into-a-number)
 
 ### Working with numbers
 
@@ -48,7 +48,7 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 * [Encode a URL component](#encode-a-url-component)
 * [Decode a URL component](#decode-a-url-component)
 * [Encode an entire URL](#encode-an-entire-url)
-* [Decode entire URL](#decode-entire-url)
+* [Decode an entire URL](#decode-an-entire-url)
 
 ### Working with date and time
 
@@ -105,22 +105,6 @@ The examples below use the following JSON data:
 
 ```
 
-## Sum numerical values
-
-The `$sum()` function gets values from every instance of a key-value pair in an object or array, adds the values together, and returns the result. The example below gets every `amount` field's value in the `payments` array and returns their sum.
-
-### FQL
-
-``` javascript
-$sum(payments.amount)
-```
-
-### Result
-
-``` json
-"$281.01"
-```
-
 ## Insert strings then group and sum results by description
 
 The example below gets every `description` value in the `payments` array and appends the string `annual cost`. It then gets the `amount` value below each `description` field, multiplies it by 12, and appends it to its corresponding result. The results are grouped by `description` field.
@@ -140,38 +124,6 @@ payments.{description & ' annual cost' : amount*12}
     {"recurring subscription annual cost": 1325.76},
     {"recurring subscription deluxe annual cost": 426.72}
 ]
-```
-
-## Convert a string into a number
-
-You can convert a string into a number with the `$number()` function. The example below converts the string `"281.01"` in the `customer_info` object into the number `281.01`.
-
-### FQL
-
-``` javascript
-$number(customer_info.total_value)
-```
-
-### Result
-
-``` json
-281.01
-```
-
-## Convert a number into a string
-
-You can convert a number into a string with the `$string()` function. The example below gets the number value from the `amount` key in the first object in the `payments` array and converts it into the string `"110.48"`.
-
-### FQL
-
-``` javascript
-$string(payments[0].amount)
-```
-
-### Result
-
-``` json
-"110.48"
 ```
 
 ## Return the length of a string
@@ -382,118 +334,6 @@ $base64decode("c29tZSBkYXRhIGhlcmU=")
 "some data here"
 ```
 
-## Encode a URL component
-
-The `$encodeUrlComponent()` function replaces certain characters in a URL component with their UTF-8 encoded versions. The example below replaces `?` with `%3F`, and `=` with `%3D`.
-
-### FQL
-
-``` javascript
-$encodeUrlComponent("?city=melbourne")
-```
-
-### Result
-
-``` json
-"%3Fcity%3Dmelbourne
-```
-
-## Decode a URL component
-
-The `$decodeUrlComponent()` function replaces UTF-8 encoded characters in a URL component with their original versions. The example below replaces `%3F` with `?`, and `$3D` with `=`.
-
-### FQL
-
-``` javascript
-$decodeUrlComponent("%3Fcity%3Dmelbourne")
-```
-
-### Result
-
-``` json
-"?city=melbourne"
-```
-
-## Encode an entire URL
-
-The `$encodeUrl()` function replaces certain characters in a URL with UTF-8 encoded characters. The example below replaces `こんにちは` with `%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF`
-
-### FQL
-
-``` javascript
-$encodeUrl('https://faketranslatewebsite.com/?phrase=こんにちは')
-```
-
-### Result
-
-``` json
-"https://faketranslatewebsite.com/?phrase=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF"
-```
-
-## Decode entire URL
-
-The `$decodeUrl()` function replaces UTF-8 encoded characters in a URL with their original versions. The example below replaces `%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF` with `こんにちは`.
-
-### FQL
-
-``` javascript
-$decodeUrl("https://faketranslatewebsite.com/?phrase=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF")
-```
-
-### Result
-
-``` json
-"https://faketranslatewebsite.com/?phrase=こんにちは"
-```
-
-## Append to an array
-
-The `$append()` function can combine two arrays, an array and a single value, or two strings into an array.
-
-### FQL
-
-``` javascript
-$append([1,2,3], [4,5,6])
-```
-
-### Result
-
-``` json
-[1,2,3,4,5,6]
-```
-
-## If-then-else
-
-The `$boolean` value is a true/false test. The second value is the output for true and the final value is the output for false. The example below tests if the `total_value` field's value is greater than 250. Since the value is greater than 250, the function returns "high-value customer".
-
-### FQL
-
-``` javascript
-$boolean(`customer info`.total_value > 250) ? 'high-value customer' : 'not a high-value customer'
-```
-
-### Result
-
-``` json
-"high-value customer"
-```
-
-## Generate a new random invoice number
-
-The `$round($random()) function generates a random whole number. The example below generates a random whole number between 1 and 1000 and returns the number appended to the string "Invoice number ".
-
-### FQL
-
-``` javascript
-'Invoice number ' & $round($random()*1000)
-```
-
-### Result
-
-``` json
-"Invoice number 891"
-```
-
 ## Convert a string into JSON
 
 The `$jsonParse()` function enables the string to be formatted into JSON so it can be queried with FQL. The example below assumes you have the string `{"Feedback Type":"Bug Report"}` stored as a variable named `input`.
@@ -508,6 +348,38 @@ $jsonParse(input)
 
 ``` json
 {"Feedback Type":"Bug Report"}
+```
+
+## Convert a string into a number
+
+You can convert a string into a number with the `$number()` function. The example below converts the string `"281.01"` in the `customer_info` object into the number `281.01`.
+
+### FQL
+
+``` javascript
+$number(customer_info.total_value)
+```
+
+### Result
+
+``` json
+281.01
+```
+
+## Sum numerical values
+
+The `$sum()` function gets values from every instance of a key-value pair in an object or array, adds the values together, and returns the result. The example below gets every `amount` field's value in the `payments` array and returns their sum.
+
+### FQL
+
+``` javascript
+$sum(payments.amount)
+```
+
+### Result
+
+``` json
+"$281.01"
 ```
 
 ## Get the absolute difference between two numbers
@@ -654,6 +526,102 @@ $parseInteger("four hundred and ninety-three thousand, eight hundred and forty",
 493840
 ```
 
+## Generate a new random invoice number
+
+The `$round($random()) function generates a random whole number. The example below generates a random whole number between 1 and 1000 and returns the number appended to the string "Invoice number ".
+
+### FQL
+
+``` javascript
+'Invoice number ' & $round($random()*1000)
+```
+
+### Result
+
+``` json
+"Invoice number 891"
+```
+
+## Convert a number into a string
+
+You can convert a number into a string with the `$string()` function. The example below gets the number value from the `amount` key in the first object in the `payments` array and converts it into the string `"110.48"`.
+
+### FQL
+
+``` javascript
+$string(payments[0].amount)
+```
+
+### Result
+
+``` json
+"110.48"
+```
+
+## Encode a URL component
+
+The `$encodeUrlComponent()` function replaces certain characters in a URL component with their UTF-8 encoded versions. The example below replaces `?` with `%3F`, and `=` with `%3D`.
+
+### FQL
+
+``` javascript
+$encodeUrlComponent("?city=melbourne")
+```
+
+### Result
+
+``` json
+"%3Fcity%3Dmelbourne
+```
+
+## Decode a URL component
+
+The `$decodeUrlComponent()` function replaces UTF-8 encoded characters in a URL component with their original versions. The example below replaces `%3F` with `?`, and `$3D` with `=`.
+
+### FQL
+
+``` javascript
+$decodeUrlComponent("%3Fcity%3Dmelbourne")
+```
+
+### Result
+
+``` json
+"?city=melbourne"
+```
+
+## Encode an entire URL
+
+The `$encodeUrl()` function replaces certain characters in a URL with UTF-8 encoded characters. The example below replaces `こんにちは` with `%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF`
+
+### FQL
+
+``` javascript
+$encodeUrl('https://faketranslatewebsite.com/?phrase=こんにちは')
+```
+
+### Result
+
+``` json
+"https://faketranslatewebsite.com/?phrase=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF"
+```
+
+## Decode an entire URL
+
+The `$decodeUrl()` function replaces UTF-8 encoded characters in a URL with their original versions. The example below replaces `%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF` with `こんにちは`.
+
+### FQL
+
+``` javascript
+$decodeUrl("https://faketranslatewebsite.com/?phrase=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF")
+```
+
+### Result
+
+``` json
+"https://faketranslatewebsite.com/?phrase=こんにちは"
+```
+
 ## Get the current time in ISO 8601 format
 
 The `$now()` function returns the current time in ISO 8601 format.
@@ -739,3 +707,35 @@ $fromMillis(1539387540000, '[Y]-[M]-[D] [H]:[m]:[s] [z]')
 | z	| timezone but modified where to include a prefix as a time offset using GMT |
 | C	| calendar: the name or abbreviation of a calendar name |
 | E	| era: the name of a baseline for the numbering of years, for example the reign of a monarch |
+
+## Append to an array
+
+The `$append()` function can combine two arrays, an array and a single value, or two strings into an array.
+
+### FQL
+
+``` javascript
+$append([1,2,3], [4,5,6])
+```
+
+### Result
+
+``` json
+[1,2,3,4,5,6]
+```
+
+## If-then-else
+
+The `$boolean` value is a true/false test. The second value is the output for true and the final value is the output for false. The example below tests if the `total_value` field's value is greater than 250. Since the value is greater than 250, the function returns "high-value customer".
+
+### FQL
+
+``` javascript
+$boolean(`customer info`.total_value > 250) ? 'high-value customer' : 'not a high-value customer'
+```
+
+### Result
+
+``` json
+"high-value customer"
+```
