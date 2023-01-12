@@ -4,7 +4,7 @@ updated: 2022-01-10
 warning: false
 ---
 
-Data moves through Postman Flows by passing from one block to another. This document describes how Postman Flows gets and handles data.
+Postman Flows can get data from API requests or directly from the **Start** block. This document describes how Postman Flows gets and handles data.
 
 ## Contents
 
@@ -123,7 +123,7 @@ In this example, the flow takes all the data that is pasted into the **Start** b
 
 ## Passing an entire response between blocks
 
-When your flow gets data from either an API request or the **Start** block, you can pass that data to other blocks so they can process it. The example below gets response data using an API request in a **Send Request** block, then passes the entire response to a **Log** block.
+When your flow gets data from either a **Send Request** block or the **Start** block, you can pass that data to other blocks. The example below gets response data using an API request in a **Send Request** block, then passes the entire response to a **Log** block.
 
 1. [Create a collection](/docs/getting-started/creating-the-first-collection/) named Random User Collection and add a GET request with this URL: `https://randomuser.me/api/`.
 
