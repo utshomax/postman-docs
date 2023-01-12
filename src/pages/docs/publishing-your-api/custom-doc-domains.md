@@ -27,7 +27,7 @@ You cn host your [published API documentation](/docs/publishing-your-api/publish
 
 ## Adding a custom domain
 
-Access [team settings](https://go.postman.co/settings/team/general) by selecting **Team** in the header, then selecting **Team Settings**.
+Access [Team Settings](https://go.postman.co/settings/team/general) by selecting **Team** in the header, then selecting **Team Settings**.
 
 <img alt="Team menu with Team Settings selected" src="https://assets.postman.com/postman-docs/team-settings-menu-selected.jpg" width="350px"/>
 
@@ -43,7 +43,7 @@ Select **Proceed** to verify the custom domain.
 
 ## Verifying your domain
 
-After you add a custom domain, Postman displays the DNS records required to verify domain ownership. To verify that you control the domain you're attempting to add, you must copy the provided tokens and use them to add TXT and CNAME records to your domain. After adding the TXT and CNAME records to your domain, you can complete the verification in Postman team settings.
+After you add a custom domain, Postman displays the DNS records required to verify domain ownership. To verify that you control the domain you're attempting to add, you must copy the provided tokens and use them to add TXT and CNAME records to your domain. After adding the TXT and CNAME records to your domain, you can complete the verification in Team Settings.
 
 ![Custom domain TXT and CNAM records](https://assets.postman.com/postman-docs/v10/custom-domains-dns-records-v10.jpg)
 
@@ -63,17 +63,15 @@ To add DNS records to your domain, open another browser tab and sign into your d
 
 ### Completing the verification
 
-To verify the domain, check the __I've added the TXT and CNAME records__ checkbox, then select __Verify Domain__. A confirmation message will indicate that the domain has been verified.
+To complete the verification, return to Team Settings in Postman. Select the checkbox next to **The TXT and CNAME records have been added** and select **Verify Domain**. Postman displays a message confirming the domain has been verified.
 
 ![Completing domain verification](https://assets.postman.com/postman-docs/v10/custom-domains-verify-v10.jpg)
 
-> Postman uses LetsEncrypt as an SSL certificate provider to enable hosting public documentation on your domain. LetsEncrypt generates a certificate implicitly if your domain has no CAA records. If your domain has CAA records set, then LetsEncrypt needs an explicit CAA record to issue a certificate for that domain. To enable LetsEncrypt issue this certificate, refer to the [LetsEncrypt Documentation](https://letsencrypt.org/docs/caa/).
+If you don't want to verify the domain now, select **Verify Later**. To copy the TXT and CNAME tokens again, select **View Details** next to a domain. To remove a custom domain, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the domain.
 
-If you don't want to verify the domain now, select __Verify Later__.
+> Postman uses LetsEncrypt as an SSL certificate provider to enable hosting public documentation on your domain. LetsEncrypt generates a certificate implicitly if your domain has no CAA records. If your domain has CAA records set, then LetsEncrypt needs an explicit CAA record to issue a certificate for that domain. To enable LetsEncrypt to issue this certificate, refer to the [LetsEncrypt documentation](https://letsencrypt.org/docs/caa/).
 
-You can remove the custom domain by selecting __Delete Custom Domain__.
-
-> Your DNS settings may take up to 24 hours to take effect, and you may receive an error message in the interim. To check the status, you can visit [this website](https://www.whatsmydns.net/).
+> It may take up to 24 hours for the new DNS settings to take effect. Until then, you may get an error message. To check the status of the DNS change, visit [whatsmydns.net](https://www.whatsmydns.net/).
 
 ## Troubleshooting DNS issues
 
