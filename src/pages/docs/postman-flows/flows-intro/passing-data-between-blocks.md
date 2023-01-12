@@ -4,7 +4,7 @@ updated: 2022-01-10
 warning: false
 ---
 
-Postman Flows can get data from API requests or directly from the **Start** block. This document describes how Postman Flows gets and handles data.
+Postman Flows can get data from API requests or directly from the **Start** block. This document describes how Postman Flows gets data and passes it between blocks.
 
 ## Contents
 
@@ -13,9 +13,9 @@ Postman Flows can get data from API requests or directly from the **Start** bloc
 
 ## Getting data
 
-Postman Flows gets data with [API requests](/docs/getting-started/sending-the-first-request/) from existing collections in your workspace. Postman Flows also accepts data pasted into the **Start** block.
+Postman Flows gets data with [API requests](/docs/getting-started/sending-the-first-request/) from existing collections in your workspace, or from data pasted into the **Start** block.
 
-### Getting data with an API request
+### Getting and passing data with an API request
 
 In this example, a flow's **Send Request** block gets data with a collection's GET request. The **Send Request** block then passes all the data to a **Log** block.
 
@@ -43,13 +43,13 @@ In this example, a flow's **Send Request** block gets data with a collection's G
 
 ### Getting data from the Start block
 
-In this example, the flow takes all the data that is pasted into the **Start** block and passes it to a **Select** block. The **Select** block specifies what data to pass to the **Log** block.
+In this example, the flow gets data from the **Start** block and passes it to a **Select** block. The **Select** block passes the `results` array to the **Log** block.
 
 1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/) and select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> in the **Start** block.
 
     ![Select the gear icon](https://assets.postman.com/postman-docs/v10/flow-start-configure-v10.jpg)
 
-1. Select **Enter incoming data** and paste in the sample data below. Your new flow will use this data every time it executes. This data includes an array named `results` and an object named `info`. The `results` array has several key-value pairs and objects. The `info` object has four key-value pairs.
+1. Select **Enter incoming data** and paste in the sample data below. Your new flow will use this data every time it executes.
 
    ``` json
    {
