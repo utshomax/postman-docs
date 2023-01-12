@@ -33,12 +33,11 @@ Access [team settings](https://go.postman.co/settings/team/general) by selecting
 
 Select **Custom domains** from the left-hand menu. You can view custom domains that have been added for your team and the verification status for each domain. Select **View Details** next to a domain get the verification records needed to [verify your domain](#verifying-your-domain).
 
-
-[![custom domain dashboard](https://assets.postman.com/postman-docs/dashboard-view-custom-domains-v9.1.jpg)](https://assets.postman.com/postman-docs/dashboard-view-custom-domains-v9.1.jpg)
+![Viewing custom domains](https://assets.postman.com/postman-docs/v10/custom-domains-view-v10.jpg)
 
 To add a new domain, select **Add custom domain** and enter the URL of your domain. You can enter your main domain (like `example.com`) or a subdomain (like `docs.example.com`).
 
-[![add custom domain](https://assets.postman.com/postman-docs/add-custom-domain-v9.1.jpg)](https://assets.postman.com/postman-docs/add-custom-domain-v9.1.jpg)
+![Adding a custom domain](https://assets.postman.com/postman-docs/v10/custom-domains-add-v10.jpg)
 
 Select **Proceed** to verify the custom domain.
 
