@@ -5,19 +5,21 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API Governance | The Exploratory"
+    url: "https://youtu.be/fuquGWdYAGA"
+  - type: subtitle
     name: "Blog Posts"
+  - type: link
+    name: "What Is the Purpose of API Governance?"
+    url: "https://blog.postman.com/what-is-the-purpose-of-api-governance/"
   - type: link
     name: "API Governance with Postman v10"
     url: "https://blog.postman.com/api-governance-with-postman-v10/"
   - type: link
-    name: "Introducing API Security in Postman v10"
-    url: "https://blog.postman.com/introducing-api-security-in-postman-v10/"
-  - type: link
     name: "Staying Relevant with an Iterative API Governance Strategy"
     url: "https://blog.postman.com/iterative-api-governance-strategy-postman/"
-  - type: link
-    name: "Apply Airtight Governance Across a Well-Known API Lifecycle"
-    url: "https://blog.postman.com/apply-airtight-governance-across-api-lifecycle/"
 ---
 
 API governance is the practice of defining and applying development rules that promote consistent API behaviors across your organization's API landscape. And a robust API security posture means that your organization has development rules that promote security-first API behaviors. The _Postman API Governance_ and _Postman API Security_ features can identify inconsistencies or weaknesses in your APIs, then recommend possible fixes or improvements. With these features, you can create better and more secure APIs that follow industry best practices.

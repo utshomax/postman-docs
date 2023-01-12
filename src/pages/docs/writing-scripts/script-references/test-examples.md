@@ -31,7 +31,7 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "iQmetrix"
+    name: "iQmetrix uses test scripts to pass data and build workflows"
     url: "https://www.postman.com/case-studies/iqmetrix/"
   - type: subtitle
     name: "Public Workspaces"
