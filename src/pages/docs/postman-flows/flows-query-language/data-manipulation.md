@@ -8,10 +8,10 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 ## Contents
 
 * [Example JSON](#example-json)
-* [Sum numerical values](#sum-numerical-values)
+
+### Working with strings
+
 * [Insert strings then group and sum results by description](#insert-strings-then-group-and-sum-results-by-description)
-* [Convert a string into a number](#convert-a-string-into-a-number)
-* [Convert a number into a string](#convert-a-number-into-a-string)
 * [Return the length of a string](#return-the-length-of-a-string)
 * [Return part of a string](#return-part-of-a-string)
 * [Get the string before the first occurrence of a pattern](#get-the-string-before-the-first-occurrence-of-a-pattern)
@@ -25,14 +25,12 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 * [Replace one string with another string](#replace-one-string-with-another-string)
 * [Base64 encode a string](#base64-encode-a-string)
 * [Base64 decode a string](#base64-decode-a-string)
-* [Encode a URL component](#encode-a-url-component)
-* [Decode a URL component](#decode-a-url-component)
-* [Encode an entire URL](#encode-an-entire-url)
-* [Decode entire URL](#decode-entire-url)
-* [Append to an array](#append-to-an-array)
-* [If-then-else](#if-then-else)
-* [Generate a new random invoice number](#generate-a-new-random-invoice-number)
 * [Convert a string into JSON](#convert-a-string-into-json)
+* [Convert a string into a number](#convert-a-string-into-a-number)
+
+### Working with numbers
+
+* [Sum numerical values](#sum-numerical-values)
 * [Get the absolute difference between two numbers](#get-the-absolute-difference-between-two-numbers)
 * [Round up a number](#round-up-a-number)
 * [Round down a number](#round-down-a-number)
@@ -42,11 +40,28 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 * [Format a number with decimals and dollar sign](#format-a-number-with-decimals-and-dollar-sign)
 * [Convert a number into words](#convert-a-number-into-words)
 * [Convert words into a number](#convert-words-into-a-number)
+* [Generate a new random invoice number](#generate-a-new-random-invoice-number)
+* [Convert a number into a string](#convert-a-number-into-a-string)
+
+### Working with URLs
+
+* [Encode a URL component](#encode-a-url-component)
+* [Decode a URL component](#decode-a-url-component)
+* [Encode an entire URL](#encode-an-entire-url)
+* [Decode entire URL](#decode-entire-url)
+
+### Working with date and time
+
 * [Get the current time in ISO 8601 format](#get-the-current-time-in-iso-8601-format)
 * [Get the current time in Unix milliseconds since the epoch](#get-the-current-time-in-unix-milliseconds-since-the-epoch)
 * [Convert from a specific date format into Unix epoch time](#convert-from-a-specific-date-format-into-unix-epoch-time)
 * [Convert from Unix epoch time into a specific date format](#convert-from-unix-epoch-time-into-a-specific-date-format)
 * [Time and Date formatting](#time-and-date-formatting)
+
+## Working with logic and arrays
+
+* [Append to an array](#append-to-an-array)
+* [If-then-else](#if-then-else)
 
 ## Example JSON
 
