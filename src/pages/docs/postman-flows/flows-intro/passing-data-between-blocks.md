@@ -9,7 +9,6 @@ Postman Flows can get data from API requests or directly from the **Start** bloc
 ## Contents
 
 * [Getting data](#getting-data)
-* [Passing an entire response between blocks](#passing-an-entire-response-between-blocks)
 * [Passing specfic response data between blocks](#passing-specific-response-data-between-blocks)
 
 ## Getting data
@@ -131,39 +130,9 @@ In this example, the flow takes all the data that is pasted into the **Start** b
 
 1. Select **Run** then select **Console**. The flow gets response data from the **Start** block, routes it to the **Select** block, and passes the entire response to the **Log** block, which displays the data in the console.
 
-## Passing an entire response between blocks
-
-When your flow gets data from either a **Send Request** block or the **Start** block, you can pass that data to other blocks. The example below gets response data using an API request in a **Send Request** block, then passes the entire response to a **Log** block.
-
-1. [Create a collection](/docs/getting-started/creating-the-first-collection/) named Random User Collection and add a GET request with this URL: `https://randomuser.me/api/`.
-
-1. Select **Send** then **Save Response > Save as example**.
-
-    ![Save an example response](https://assets.postman.com/postman-docs/v10/flow-get-random-user-2-v10.jpg)
-
-1. Select the **GET New Request** tab and select **Save**.
-
-    ![Save the GET request](https://assets.postman.com/postman-docs/v10/flow-save-request-v10.jpg)
-
-1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/) and connect a **Send Request** block to the **Start** block.
-
-    ![Create a flow and add a Send Request block](https://assets.postman.com/postman-docs/v10/flow-data-send-request-v10.jpg)
-
-1. In the **Send Request** block, select **Add request > Random User Collection > New Request**.
-
-    ![Select data](https://assets.postman.com/postman-docs/v10/flow-select-data-v10.jpg)
-
-1. Connect a **Log** block to the **Send Request** block's **Success** port.
-
-    ![Connect a Log block](https://assets.postman.com/postman-docs/v10/flow-add-log-block-v10.jpg)
-
-1. Select **Run** then select **Console**. The flow gets response data from the API request in the **Send Request** block and passes the entire response to the **Log** block, which displays the data in the console.
-
-    ![Run the flow](https://assets.postman.com/postman-docs/v10/flow-run-flow-v10.jpg)
-
 ## Passing specific response data between blocks
 
-You can use a **Select** block to extract values from responses. The example below gets the value of the `country` field from sample response data in the **Start** block.
+You can use extract specific values from responses in a number of ways. The example below uses a **Select** block to get the `country` field value from sample response data in the **Start** block.
 
 1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/) and select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> in the **Start** block.
 
