@@ -44,7 +44,7 @@ In this example, a flow's **Send Request** block gets data with a collection's G
 
 ### Getting data from the Start block
 
-In this example, the flow takes all the data that is pasted into the **Start** block and passes it to a **Select** block. You can tell the **Select** block to get a value from a specific key-value pair in the response. The **Select** block then passes the specified data to the **Log** block.
+In this example, the flow takes all the data that is pasted into the **Start** block and passes it to a **Select** block. The **Select** block specifies what data to pass to the **Log** block.
 
 1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/) and select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> in the **Start** block.
 
@@ -120,6 +120,16 @@ In this example, the flow takes all the data that is pasted into the **Start** b
       }
    }
    ```
+
+1. Select the **Language** dropdown list and select **JSON**.
+
+1. Connect a **Select** block to the **Start** block.
+
+1. In the **Select** block, select **Enter path...** and select `results`. This selects all the data received from the **Start** block.
+
+1. Connect a **Log** block to the **Select** block.
+
+1. Select **Run** then select **Console**. The flow gets response data from the **Start** block, routes it to the **Select** block, and passes the entire response to the **Log** block, which displays the data in the console.
 
 ## Passing an entire response between blocks
 
