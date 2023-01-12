@@ -130,7 +130,7 @@ const Footer = () => {
                   </span>
                 </FooterImgWrapper>
                 {/* Product */}
-                <div className="col-6 col-md-2 order-2 order-md-3 offset-md-2 mb-5 mb-md-0">
+                <div className="col-6 col-md-2 offset-md-1 col-lg-2 offset-lg-2 order-1 order-md-2 mb-5">
                   {columns.slice(0, 1).map((item) => (
                     <nav aria-labelledby={item.arialabelledby} key={uuidv4()}>
                       <h2 className="footer-col-title" id={item.arialabelledby}>
