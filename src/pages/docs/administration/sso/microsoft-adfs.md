@@ -42,7 +42,7 @@ Before configuring your server in Microsoft AD FS, you must [configure SSO in Po
 
 <img alt="Configure identity provider details in Postman" src="https://assets.postman.com/postman-docs/configure-identity-provider-details-v9.14.jpg"/>
 
-To continue configuring your application, complete the following tasks in order:
+To continue configuring your server, complete the following tasks in order:
 
 * [Add a Relying Party Trust](#add-a-relying-party-trust)
 * [Create claim rules](#create-claim-rules)
