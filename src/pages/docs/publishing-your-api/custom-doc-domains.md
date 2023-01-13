@@ -40,7 +40,7 @@ Access [Team Settings](https://go.postman.co/settings/team/general) by selecting
 
 <img alt="Team menu with Team Settings selected" src="https://assets.postman.com/postman-docs/team-settings-menu-selected.jpg" width="350px"/>
 
-Select **Custom domains** from the left-hand menu. You can view custom domains that have been added for your team and the verification status for each domain. Select **View Details** next to a domain get the verification records needed to [verify your domain](#verifying-your-domain).
+Select **Custom domains** to view custom domains that have been added for your team and the verification status for each domain. Select **View Details** next to a domain get the verification records needed to [verify your domain](#verifying-your-domain).
 
 ![Viewing custom domains](https://assets.postman.com/postman-docs/v10/custom-domains-view-v10.jpg)
 
@@ -78,7 +78,7 @@ To complete the verification, return to Team Settings in Postman. Select the che
 
 If you don't want to verify the domain at this time, select **Verify Later**. To copy the TXT and CNAME tokens again, select **View Details** next to a domain. To remove a custom domain, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the domain.
 
-> Postman uses LetsEncrypt as an SSL certificate provider to enable hosting public documentation on your domain. LetsEncrypt generates a certificate implicitly if your domain has no CAA records. If your domain already has CAA records, then LetsEncrypt needs an explicit CAA record to issue a certificate for that domain. To enable LetsEncrypt to issue the certificate, refer to the [LetsEncrypt documentation](https://letsencrypt.org/docs/caa/).
+> Postman uses Let's Encrypt as an SSL certificate provider to enable hosting public documentation on your domain. Let's Encrypt generates a certificate implicitly if your domain has no CAA records. If your domain already has CAA records, then Let's Encrypt needs an explicit CAA record to issue a certificate for that domain. To enable Let's Encrypt to issue the certificate, refer to the [Let's Encrypt documentation](https://letsencrypt.org/docs/caa/).
 
 <!-- -->
 
