@@ -731,7 +731,7 @@ The `$boolean` value is a true/false test. The second value is the output for tr
 ### FQL
 
 ``` javascript
-$boolean(`customer info`.total_value > 250) ? 'high-value customer' : 'not a high-value customer'
+$boolean(customer_info.total_value > 250) ? 'high-value customer' : 'not a high-value customer'
 ```
 
 ### Result
