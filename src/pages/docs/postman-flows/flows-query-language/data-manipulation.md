@@ -73,7 +73,7 @@ The examples below use the following JSON data:
             "customer field": "Customer data",
             "unformatted_customer_field": " customer \n stuff ",
             "total_value": "281.01",
-            "associated_usernames": ["user1, myuser, online_user"]
+            "associated_usernames": ["user1", "myuser", "online_user"]
         },
         "payments": [
             {
@@ -240,7 +240,7 @@ $trim(customer_info.unformatted_customer_field)
 
 ## Pad a string
 
-The `pad()` function adds spaces or characters to a string. If the second parameter is a positive number, it pads the string with the third parameter. If the second parameter is negative, it pads the front of the string with the character(s) optionally specified. (Third parameter characters will default to space if left blank.)
+The `pad()` function adds spaces or characters to a string so that the total length of the string equals the second parameter. If the second parameter is a positive number, it pads the end of the string with the third parameter. If the second parameter is negative, it pads the front of the string with the third parameter. (Third parameter characters default to spaces if left blank.)
 
 ### FQL
 
@@ -283,7 +283,7 @@ $join(customer_info.associated_usernames)
 ### Result
 
 ``` json
-"user1, myuser, online_user"
+"user1myuseronline_user"
 ```
 
 ## Replace one string with another string
