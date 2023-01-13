@@ -12,7 +12,7 @@ contextual_links:
 
 gRPC is a schema-driven framework. This means the client and server must adhere to a standard agreement (schema) while invoking and executing a request. A service definition enables this. On the client side, a service definition makes the client aware of all the services and methods the server supports and message payload structure, supported fields and data types. Anything that doesn’t follow the regulations enforced by the service definition would result in an error. During the execution of the request, the service definition is used to serialize the information exchanged between both parties.
 
-gRPC uses [Protocol Buffers (protobuf)](https://developers.google.com/protocol-buffers/docs/overview) as the Interface Definition Language (IDL) to define the service definition. While creating a gRPC request, you will need to add the appropriate service definition to the request in order to choose a method that you want to invoke. You can configure the service definition by heading to the **Service definition** tab in a gRPC request.
+gRPC uses [protobufs (protocol buffers)](https://developers.google.com/protocol-buffers/docs/overview) as the Interface Definition Language (IDL) to define the service definition. While creating a gRPC request, you will need to add the appropriate service definition to the request in order to choose a method that you want to invoke. You can configure the service definition by heading to the **Service definition** tab in a gRPC request.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-service-definition/service-definition-tab.jpeg" alt="Service definition tab">
 
@@ -86,7 +86,7 @@ Consider this example file structure:
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-service-definition/import-path-file-structure.jpg" width="400px" alt="Example file structure">
 
-In this example, `root.proto` contains import directives that refer to other .proto files in the `protos` folder. These import directives could look something like this in the schema:
+In this example, `root.proto` contains import directives that refer to other `.proto` files in the `protos` folder. These import directives could look something like this in the schema:
 
 ```
 
@@ -97,13 +97,13 @@ import "messages/HelloRequest.proto"
 
 ```
 
-In this scenario, you'll need to configure the parent directory of `enums` and `messages` i.e. `protos` as your import path in Postman. The added import path can look something like this: `/Users/johndoe/projects/my-app/protos/`. You can configure import paths in a request using the **Import paths option** in the **Import flow** after you select the file to import.
+In this scenario, you'll need to configure the parent directory of `enums` and `messages` (in other words, `protos`) as your import path in Postman. The added import path can look something like this: `/Users/johndoe/projects/my-app/protos/`. You can configure import paths in a request using the **Import paths option** in the **Import flow** after you select the file to import.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-service-definition/adding-import-paths.gif" alt="Adding import paths">
 
 ### Creating a new protobuf API
 
-Go to the **Service definition** tab and select **Create New API**. This brings up the create new API flow where you will have to name the new API and the version and select the type of API you want to create. Postman supports creating a protobuf API in _protobuf 2_ and _protobuf 3_. Once you’re done, select **Create New API**. This opens the API in the Postman API Builder in a new tab.
+Go to the **Service definition** tab and select **Create New API**. This brings up the create new API flow where you will have to name the new API and the version and select the type of API you want to create. Postman supports creating a protobuf API in versions 2 and 3 of the [protobuf language](https://protobuf.dev/reference/protobuf/). Once you’re done, select **Create New API**. This opens the API in the Postman API Builder in a new tab.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-service-definition/create-new-api.jpeg" alt="Creating a new API">
 

@@ -40,7 +40,7 @@ contextual_links:
 
 _gRPC_ is a schema-driven Remote Procedure Call (RPC) framework often used to enable inter-service communication. Being RPC-based, it facilitates client-server communication over a function call instead of an HTTP call. gRPC has gained significant popularity because of its easier abstraction than HTTP, support across multiple languages, and high performance.
 
-gRPC uses [Protocol Buffers (protobuf)](https://developers.google.com/protocol-buffers/docs/overview) as the Interface Definition Language (IDL) to define the API interface (service definition) which serves as a contract between the client and the server specifying the supported services and methods.
+gRPC uses [protobufs (protocol buffers)](https://developers.google.com/protocol-buffers/docs/overview) as the Interface Definition Language (IDL) to define the API interface (service definition) which serves as a contract between the client and the server specifying the supported services and methods.
 
 ## Developing gRPC APIs with Postman
 

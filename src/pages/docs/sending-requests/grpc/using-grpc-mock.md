@@ -34,7 +34,7 @@ In an API-first design lifecycle, you may be designing a new feature that depend
 
 ## Using a gRPC mock server
 
-Before creating a gRPC mock server, you must have an API definition. This can either be an API in your workspace, a `.proto` file you want to import, or you can create a new API using the Postman API Builder.
+Before creating a gRPC mock server, you must have an API definition. This can either be an API in your workspace, a protobut (protocol buffer) file you want to import, or you can create a new API using the Postman API Builder.
 
 To create the gRPC mock server, do the following:
 
