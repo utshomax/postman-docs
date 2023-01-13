@@ -160,7 +160,7 @@ $substring(payments[0].description, 3, 6)
 
 ## Get the string before the first occurrence of a pattern
 
-In the example below, the `$subsringBefore()` function Returns the substring before the specified occurrence of `subscription` . If it doesn't find `subscription` it returns the entire string.
+In the example below, the `$substringBefore()` function returns the substring before the specified occurrence of `subscription` . If it doesn't find `subscription`, it returns the entire string.
 
 ### FQL
 
