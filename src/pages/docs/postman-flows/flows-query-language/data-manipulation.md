@@ -240,7 +240,7 @@ $trim(customer_info.unformatted_customer_field)
 
 ## Pad a string
 
-The `pad()` function adds spaces or characters to a string. If the second parameter is a positive number it pads the string with the third parameter. If the second parameter is negative it pads the front of the string with the character(s) optionally specified. (Third parameter characters will default to space if left blank.)
+The `pad()` function adds spaces or characters to a string. If the second parameter is a positive number, it pads the string with the third parameter. If the second parameter is negative, it pads the front of the string with the character(s) optionally specified. (Third parameter characters will default to space if left blank.)
 
 ### FQL
 
