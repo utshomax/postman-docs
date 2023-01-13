@@ -656,7 +656,7 @@ $millis()
 
 ## Convert from a specific date format into Unix epoch time
 
-The `$toMillis` function converts a given date format into Unix epoch time. See the formatting section below for details on date formatting.
+The `$toMillis()` function converts a given date format into Unix epoch time. See the formatting section below for details on date formatting.
 
 ### FQL
 
