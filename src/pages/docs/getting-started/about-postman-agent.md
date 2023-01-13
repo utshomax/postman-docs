@@ -16,7 +16,7 @@ contextual_links:
     url: "https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/"
 ---
 
-Postman has multiple agents you can use to send your API requests from the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app): the Desktop Agent, Cloud Agent, or Browser Agent.
+Postman has multiple agents you can use to send your API requests from the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app): the Postman Desktop Agent, Postman Cloud Agent, or Postman Browser Agent.
 
 From the Postman web app, you can select the **Auto-select** toggle for Postman to automatically select the best agent for your requests. You can also manually select the agent for your requests.
 
@@ -33,7 +33,7 @@ Postman has three different agents you can use to send your API requests.
 
 ### The Postman Desktop Agent
 
-The Postman Desktop Agent is a micro-application that runs locally on your desktop. It enables you to bypass the limitations that exist in the browser by allowing API requests to originate in the browser, but be routed through your local machine and network. The Postman Desktop Agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers and acts as your agent for making API requests from the Postman web app.
+The Postman Desktop Agent is a micro-application that runs locally on your desktop. It enables you to bypass the limitations that exist in the browser by allowing API requests to originate in the browser, but be routed through your local machine and network. The Desktop Agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers and acts as your agent for making API requests from the Postman web app.
 
 In the [agent selector](#selecting-a-postman-agent-for-requests), you will be prompted to download and install the Desktop Agent so you can make requests from the Postman web app. Select **Download desktop agent** to download the Desktop Agent. You can also download the agent directly from [the Postman Agent page](https://www.postman.com/downloads/postman-agent/). Once you have the Desktop Agent installed, open it and then you will be able to use it with web requests.
 
@@ -41,7 +41,7 @@ In the [agent selector](#selecting-a-postman-agent-for-requests), you will be pr
 
 ### The Postman Cloud Agent
 
-The Postman Cloud Agent enables you to bypass the limitations that exist in the browser by allowing API requests to originate in the browser, but be routed through Postman's cloud servers. The Postman Cloud Agent overcomes the CORS limitations of browsers and acts as your agent for making API requests from the Postman web app.
+The Postman Cloud Agent enables you to bypass the limitations that exist in the browser by allowing API requests to originate in the browser, but be routed through Postman's cloud servers. The Cloud Agent overcomes the CORS limitations of browsers and acts as your agent for making API requests from the Postman web app.
 
 Your team can make a set number of requests using the Postman Cloud Agent each month. Your [team's usage limits](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#team-usage-limits) are based on your [plan type](https://www.postman.com/pricing/). To view your team's usage of the Postman Cloud Agent, see [Managing add-ons](/docs/administration/billing/#managing-add-ons).
 
@@ -60,7 +60,7 @@ The Postman Browser Agent sends API requests using your browser, with some [limi
 
         > You must download, install, and then open the [Desktop Agent](#the-postman-desktop-agent) for Postman to automatically select it.
 
-    * You can also manually select the agent for your requests:
+    * You can also manually select the Postman agent to use for your requests:
 
         * **Cloud Agent** - Send HTTP requests using Postman's cloud servers.
         * **Desktop Agent** - Send requests using the Postman Desktop Agent.
