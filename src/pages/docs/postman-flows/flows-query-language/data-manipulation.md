@@ -571,7 +571,7 @@ $encodeUrlComponent("?city=melbourne")
 ### Result
 
 ``` json
-"%3Fcity%3Dmelbourne
+"%3Fcity%3Dmelbourne"
 ```
 
 ## Decode a URL component
