@@ -26,20 +26,20 @@ To continue configuring your SAML application, do the following:
 
 1. Open your Google admin panel in a new tab.
 1. Select **Apps**.
-   [![gsuite admin](https://assets.postman.com/postman-docs/gsuite_admin.png)](https://assets.postman.com/postman-docs/gsuite_admin.png)
+   ![gsuite admin](https://assets.postman.com/postman-docs/gsuite_admin.png)
 
 1. Select **SAML apps**.
-   [![gsuite saml apps](https://assets.postman.com/postman-docs/gsuite_saml_apps.png)](https://assets.postman.com/postman-docs/gsuite_saml_apps.png)
+   ![gsuite saml apps](https://assets.postman.com/postman-docs/gsuite_saml_apps.png)
 
 1. Create a new SAML app.
-   [![gsuite create new](https://assets.postman.com/postman-docs/gsuite_create_new.png)](https://assets.postman.com/postman-docs/gsuite_create_new.png)
+   ![gsuite create new](https://assets.postman.com/postman-docs/gsuite_create_new.png)
 
 1. Select **SETUP MY OWN CUSTOM APP**.
-   [![gsuite setup](https://assets.postman.com/postman-docs/gsuite_setup.png)](https://assets.postman.com/postman-docs/gsuite_setup.png)
+   ![gsuite setup](https://assets.postman.com/postman-docs/gsuite_setup.png)
 
 1. In Postman, enter the **SSO URL**, **Identity provider issuer**, and **X.509 Certificate** individually under **Identity provider details**, and then select **Next**.
 
-   [![gsuite google IdP](https://assets.postman.com/postman-docs/gsuite_google_IdP.png)](https://assets.postman.com/postman-docs/gsuite_google_IdP.png)
+   ![gsuite google IdP](https://assets.postman.com/postman-docs/gsuite_google_IdP.png)
 
 1. Select **Save Authentication** in Postman.
 
@@ -47,7 +47,7 @@ To continue configuring your SAML application, do the following:
 
     > Other fields can either be left blank or set to the default value.
 
-   [![gsuite basic info](https://assets.postman.com/postman-docs/gsuite_basic_info.png)](https://assets.postman.com/postman-docs/gsuite_basic_info.png)
+   ![gsuite basic info](https://assets.postman.com/postman-docs/gsuite_basic_info.png)
 
 1. Take the **ACS URL** and **Entity ID** from Postman and add them to your SAML configuration in Google Workspace.
 
@@ -57,4 +57,4 @@ To continue configuring your SAML application, do the following:
 
 1. Select **EMAIL** as the Name ID format, and then select **Next**.
 
-    [![gsuite service provider](https://assets.postman.com/postman-docs/gsuite_service_provider.png)](https://assets.postman.com/postman-docs/gsuite_service_provider.png)
+    ![gsuite service provider](https://assets.postman.com/postman-docs/gsuite_service_provider.png)
