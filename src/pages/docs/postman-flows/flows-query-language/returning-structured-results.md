@@ -103,7 +103,7 @@ The example below gets the values of the `city` key from three objects and retur
 
 ## Collapse multiple objects into a single key-value pair
 
-FQL can returns an array of key-value pairs composed of values from an object. The example below gets the values of the `type` and `number` keys from objects in the `phones` array and returns them as an array of key-value pairs.
+FQL can return an array of key-value pairs composed of values from an object. The example below gets the values of the `type` and `number` keys from objects in the `phones` array and returns them as an array of key-value pairs.
 
 ### FQL
 
