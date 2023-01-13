@@ -528,7 +528,7 @@ $parseInteger("four hundred and ninety-three thousand, eight hundred and forty",
 
 ## Generate a new random invoice number
 
-The `$round($random()) function generates a random whole number. The example below generates a random whole number between 1 and 1000 and returns the number appended to the string "Invoice number ".
+The `$round($random())` function generates a random whole number. The example below generates a random whole number between 1 and 1000 and returns the number appended to the string "Invoice number ".
 
 ### FQL
 
