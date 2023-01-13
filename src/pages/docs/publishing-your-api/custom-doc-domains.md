@@ -58,7 +58,7 @@ After you add a custom domain, Postman displays the DNS records required to veri
 
 ### Adding DNS records
 
-To add DNS records to your domain, open another browser tab and sign into your domain registrar or DNS provider. Add a TXT record and a CNAME record to your domain using the tokens provided by Postman.
+To add DNS records to your domain, open another browser tab and sign in to your domain registrar or DNS provider. Add a TXT record and a CNAME record to your domain using the tokens provided by Postman.
 
 * **TXT record** - Add a new TXT record to your domain. For **Name**, enter `@`to add the record to the root domain. For **Value**, use the TXT token string copied from Postman.
 
