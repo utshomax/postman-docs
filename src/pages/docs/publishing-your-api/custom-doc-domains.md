@@ -23,7 +23,16 @@ contextual_links:
 
 > **[Custom documentation domains are available on Postman Basic, Professional, and Enterprise plans.](https://www.postman.com/pricing)**
 
-You cn host your [published API documentation](/docs/publishing-your-api/publishing-your-docs/) on your own custom domain instead of on `getpostman.com`. After you add and verify a custom domain, users can access your API documentation using the custom domain.
+You can host your [published API documentation](/docs/publishing-your-api/publishing-your-docs/) on your own custom domain instead of on `getpostman.com`. After you add and verify a custom domain, users can access your API documentation using the custom domain.
+
+## Contents
+
+* [Adding a custom domain](#adding-a-custom-domain)
+* [Verifying your domain](#verifying-your-domain)
+    * [Adding DNS records](#adding-dns-records)
+    * [Completing the verification](#completing-the-verification)
+* [Troubleshooting DNS issues](#troubleshooting-dns-issues)
+* [Publishing documentation on your custom domain](#publishing-documentation-on-your-custom-domain)
 
 ## Adding a custom domain
 
@@ -43,13 +52,13 @@ Select **Proceed** to verify the custom domain.
 
 ## Verifying your domain
 
-After you add a custom domain, Postman displays the DNS records required to verify domain ownership. To verify that you control the domain you're attempting to add, you must copy the provided tokens and use them to add TXT and CNAME records to your domain. After adding the TXT and CNAME records to your domain, you can complete the verification in Team Settings.
+After you add a custom domain, Postman displays the DNS records required to verify domain ownership. To verify that you control the domain you're attempting to add, copy the provided tokens and use them to add TXT and CNAME records to your domain. After adding the TXT and CNAME records to your domain, you can complete the verification in Team Settings.
 
 ![Custom domain TXT and CNAM records](https://assets.postman.com/postman-docs/v10/custom-domains-dns-records-v10.jpg)
 
 ### Adding DNS records
 
-To add DNS records to your domain, open another browser tab and sign into your domain registrar or DNS provider. You must add a TXT record and a CNAME record using the tokens provided by Postman.
+To add DNS records to your domain, open another browser tab and sign into your domain registrar or DNS provider. Add a TXT record and a CNAME record to your domain using the tokens provided by Postman.
 
 * **TXT record** - Add a new TXT record to your domain. For **Name**, enter `@`to add the record to the root domain. For **Value**, use the TXT token string copied from Postman.
 
@@ -59,7 +68,7 @@ To add DNS records to your domain, open another browser tab and sign into your d
 
     ![Adding a CNAME record](https://assets.postman.com/postman-docs/v10/custom-domains-add-cname.jpg)
 
-> The steps for adding TXT and CNAME records can vary depending on the domain registrar or DNS provider. Check your provider's documentation if you need more help.
+> The steps for adding TXT and CNAME records can vary depending on the domain registrar or DNS provider and may look different than what's shown above. Check your provider's documentation if you need more help.
 
 ### Completing the verification
 
@@ -69,23 +78,19 @@ To complete the verification, return to Team Settings in Postman. Select the che
 
 If you don't want to verify the domain now, select **Verify Later**. To copy the TXT and CNAME tokens again, select **View Details** next to a domain. To remove a custom domain, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the domain.
 
-> Postman uses LetsEncrypt as an SSL certificate provider to enable hosting public documentation on your domain. LetsEncrypt generates a certificate implicitly if your domain has no CAA records. If your domain has CAA records set, then LetsEncrypt needs an explicit CAA record to issue a certificate for that domain. To enable LetsEncrypt to issue this certificate, refer to the [LetsEncrypt documentation](https://letsencrypt.org/docs/caa/).
+> Postman uses LetsEncrypt as an SSL certificate provider to enable hosting public documentation on your domain. LetsEncrypt generates a certificate implicitly if your domain has no CAA records. If your domain already has CAA records, then LetsEncrypt needs an explicit CAA record to issue a certificate for that domain. To enable LetsEncrypt to issue the certificate, refer to the [LetsEncrypt documentation](https://letsencrypt.org/docs/caa/).
 
-> It may take up to 24 hours for the new DNS settings to take effect. Until then, you may get an error message. To check the status of the DNS change, visit [whatsmydns.net](https://www.whatsmydns.net/).
+> It may take up to 24 hours for the new DNS settings to take effect. Until then, you may get an error message when accessing your custom domain. To check the status of the DNS change, visit [whatsmydns.net](https://www.whatsmydns.net/).
 
 ## Troubleshooting DNS issues
 
-If you receive the error message
+If you get an error message when trying to add a TXT or CNAME record to your domain, check the following:
 
-```
-RRSet of type CNAME with DNS name <subdomain.domain.com> is not permitted as it conflicts with other records with the same DNS name in zone <domain.com>
-```
+* **CNAME records cannot co-exist with any other records for a domain.** If you already have a record for the subdomain where you want to host your public documentation, you need to change the record type to CNAME or add a new subdomain.
 
-when adding your first domain, note that CNAME records cannot co-exist with any other records for a domain. You will need to either edit the existing record type for your subdomain to CNAME or add a new subdomain.
+* **You can't add the CNAME record to the root domain.** The TXT record `@` is used to verify the ownership of the root domain. Instead, add the CNAME record to the subdomain where you want to host your public documentation (such as `docs.example.com`) and set the value to `phs.getpostman.com`.
 
-If you receive the same message when adding your second domain, note that since the TXT record verifies the ownership of the domain, the value will be the same as the token already added for the root domain. Add the CNAME record to the URL that's associated with your public documentation, for which the value will be `phs.getpostman.com`.
-
-## Publishing a collection on your custom domain
+## Publishing documentation on your custom domain
 
 When your domain is verified, you can use it to [publish your API documentation](/docs/publishing-your-api/publishing-your-docs/). If you have a collection already published, you can edit it to use the new domain.
 
