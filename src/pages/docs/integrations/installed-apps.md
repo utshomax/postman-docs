@@ -48,7 +48,7 @@ You can add a new installed app from [Team Settings](https://go.postman.co/setti
 1. In Postman, select **Team > Team Settings**.
 1. Select **Installed apps**.
 1. Select the third-party app or service you want to add (for example, **Add Slack**).
-1. A browser tab opens asking you to log in to the third-party app or service. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
+1. A browser tab opens asking you to sign in to the third-party app or service. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
 
 The new installed app appears on the Installed Apps page in [Team Settings](https://go.postman.co/settings/team/general).
 
@@ -62,7 +62,7 @@ You can add a new installed app when adding a [supported integration](#supported
 1. Select **Browse All Integrations**.
 1. Search for and select the app or service you want to connect to (for example, **[Slack](https://go.postman.co/integrations/service/slack)**).
 1. Select **Add Integration** next to the integration you want to add.
-1. A browser tab opens asking you to log in to the third-party app or service. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
+1. A browser tab opens asking you to sign in to the third-party app or service. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
 1. Select the checkbox to add the app for your team.
 1. Enter any other required information and select **Add Integration**.
 
@@ -105,7 +105,7 @@ If an installed app is deleted, any integrations you added using the installed a
 1. Search for and select the type of integration you want to edit. (For example, search for **Slack** and select **Post monitoring results**.)
 1. Select the integration, and then select **Edit Integration**.
 1. A message and red warning icon let you know you're no longer authenticated with the app or service. Select **Reauthenticate**.
-1. A browser tab opens asking you to log in to the third-party app or service. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
+1. A browser tab opens asking you to sign in to the third-party app or service. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
 1. Select **Save Changes**.
 
 <img alt="Re-authenticating an integration" src="https://assets.postman.com/postman-docs/installed-apps-reauthorize-v9-24.jpg" width="530px">

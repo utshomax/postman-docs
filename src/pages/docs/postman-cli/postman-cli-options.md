@@ -51,7 +51,7 @@ postman -v
 
 ## Logging in and logging out
 
-You can use the Postman CLI to log in and out of Postman with the `login` and `logout` commands, described below:
+You can use the Postman CLI to sign in and out of Postman with the `login` and `logout` commands, described below:
 
 ### postman login
 
