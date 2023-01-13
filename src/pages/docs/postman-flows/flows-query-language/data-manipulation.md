@@ -1,6 +1,6 @@
 ---
 title: "Data manipulation"
-updated: 2022-01-12
+updated: 2023-01-12
 ---
 
 You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to perform math functions, manipulate strings and arrays, and interact with the data in your responses in several ways. Sample data and FQL examples are below.
@@ -58,7 +58,7 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 * [Convert from Unix epoch time into a specific date format](#convert-from-unix-epoch-time-into-a-specific-date-format)
 * [Time and Date formatting](#time-and-date-formatting)
 
-## Working with logic and arrays
+### Working with logic and arrays
 
 * [Append to an array](#append-to-an-array)
 * [If-then-else](#if-then-else)
