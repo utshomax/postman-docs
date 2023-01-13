@@ -68,7 +68,7 @@ To add DNS records to your domain, open another browser tab and sign into your d
 
     ![Adding a CNAME record](https://assets.postman.com/postman-docs/v10/custom-domains-add-cname.jpg)
 
-> The steps for adding TXT and CNAME records can vary depending on the domain registrar or DNS provider and may look different than what's shown above. Check your provider's documentation if you need more help.
+> The steps for adding TXT and CNAME records can vary depending on the domain registrar or DNS provider and may look different than what's shown. Check your provider's documentation if you need more help.
 
 ### Completing the verification
 
@@ -76,22 +76,24 @@ To complete the verification, return to Team Settings in Postman. Select the che
 
 ![Completing domain verification](https://assets.postman.com/postman-docs/v10/custom-domains-verify-v10.jpg)
 
-If you don't want to verify the domain now, select **Verify Later**. To copy the TXT and CNAME tokens again, select **View Details** next to a domain. To remove a custom domain, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the domain.
+If you don't want to verify the domain at this time, select **Verify Later**. To copy the TXT and CNAME tokens again, select **View Details** next to a domain. To remove a custom domain, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the domain.
 
 > Postman uses LetsEncrypt as an SSL certificate provider to enable hosting public documentation on your domain. LetsEncrypt generates a certificate implicitly if your domain has no CAA records. If your domain already has CAA records, then LetsEncrypt needs an explicit CAA record to issue a certificate for that domain. To enable LetsEncrypt to issue the certificate, refer to the [LetsEncrypt documentation](https://letsencrypt.org/docs/caa/).
+
+<!-- -->
 
 > It may take up to 24 hours for the new DNS settings to take effect. Until then, you may get an error message when accessing your custom domain. To check the status of the DNS change, visit [whatsmydns.net](https://www.whatsmydns.net/).
 
 ## Troubleshooting DNS issues
 
-If you get an error message when trying to add a TXT or CNAME record to your domain, check the following:
+If you get an error message when trying to add a TXT or CNAME record to your domain, check the following requirements:
 
-* **CNAME records cannot co-exist with any other records for a domain.** If you already have a record for the subdomain where you want to host your public documentation, you need to change the record type to CNAME or add a new subdomain.
+* **CNAME records can't co-exist with other records for the same domain.** If you already have a record for the subdomain where you want to host your public documentation, you need to change the record type to CNAME or add a new subdomain.
 
 * **You can't add the CNAME record to the root domain.** The TXT record `@` is used to verify the ownership of the root domain. Instead, add the CNAME record to the subdomain where you want to host your public documentation (such as `docs.example.com`) and set the value to `phs.getpostman.com`.
 
 ## Publishing documentation on your custom domain
 
-When your domain is verified, you can use it to [publish your API documentation](/docs/publishing-your-api/publishing-your-docs/). If you have a collection already published, you can edit it to use the new domain.
+After your custom domain is verified, you can use it to [publish your API documentation](/docs/publishing-your-api/publishing-your-docs/#making-your-documentation-public). If you have a collection that's already published, you can [edit the publication settings](/docs/publishing-your-api/publishing-your-docs/#changing-publication-settings) to use the new domain.
 
-[![publish collection](https://assets.postman.com/postman-docs/publish-collection-edit-1.jpg)](https://assets.postman.com/postman-docs/publish-collection-edit-1.jpg)
+![Publishing on a custom domain](https://assets.postman.com/postman-docs/v10/custom-domains-publish-v10.jpg)
