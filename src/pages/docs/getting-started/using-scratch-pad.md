@@ -55,7 +55,7 @@ When you leave the Scratch Pad, your data remains there and isn't automatically 
 To export saved Scratch Pad data, do the following:
 
 1. Go to the Scratch Pad.
-1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Settings** > **Data**.
+1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Settings > Data**.
 1. Select **Export Data**.
 1. Choose a directory in which to save the file, then select **Save**.
 

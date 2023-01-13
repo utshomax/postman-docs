@@ -154,7 +154,7 @@ In one to two business days, Stripe will make a small test deposit into your ban
 
 To verify your bank account using the test deposit, do the following:
 
-1. After the test deposit arrives in your bank account, go back to the Postman billing dashboard. Select **Plans and payments** > **Payment methods**.
+1. After the test deposit arrives in your bank account, go back to the Postman billing dashboard. Select **Plans and payments > Payment methods**.
 1. Hover over the bank account and select **Verify**.
 1. Under **Enter code**, paste the six digit transaction code from the test deposit. Select **Verify**.
 1. Select **Confirm** to accept the Terms and Privacy Policy.

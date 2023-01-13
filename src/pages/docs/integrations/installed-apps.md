@@ -45,7 +45,7 @@ You can add an installed app from Team Settings or when adding a new integration
 
 You can add a new installed app from [Team Settings](https://go.postman.co/settings/team/general).
 
-1. In Postman, select **Team** > **Team Settings**.
+1. In Postman, select **Team > Team Settings**.
 1. Select **Installed apps**.
 1. Select the third-party app or service you want to add (for example, **Add Slack**).
 1. A browser tab opens asking you to log in to the third-party app or service. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
@@ -74,7 +74,7 @@ The integration is added, and the new installed app appears on the Installed App
 
 ## Managing installed apps
 
-You can view all installed apps in [Team Settings](https://go.postman.co/settings/team/general).  In Postman, select **Team** > **Team Settings**, and then select **Installed apps**. You can view the app name, what it's connected to, and who set up the connection.
+You can view all installed apps in [Team Settings](https://go.postman.co/settings/team/general).  In Postman, select **Team > Team Settings**, and then select **Installed apps**. You can view the app name, what it's connected to, and who set up the connection.
 
 To delete an installed app, select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete Account** next to the installed app. You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to delete an installed app.
 

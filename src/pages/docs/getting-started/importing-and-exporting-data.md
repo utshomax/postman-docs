@@ -124,7 +124,7 @@ To import your API specifications into Postman, see [Importing an API](/docs/des
 
 To import data in bulk from a GitHub repository, do the following:
 
-1. In Postman, select **Import** > **Code repository** > **GitHub**.
+1. In Postman, select **Import > Code repository > GitHub**.
 
 1. Confirm your GitHub account and **Authorize postmanlabs** to access your repositories.
 
@@ -142,7 +142,7 @@ You will receive a confirmation once the import has completed. You can view your
 
 To import data in bulk from a Bitbucket repository, do the following:
 
-1. In Postman, select **Import** > **Code repository** > **Bitbucket**.
+1. In Postman, select **Import > Code repository > Bitbucket**.
 
 1. Confirm your Bitbucket account and **Authorize Postman** to access your repositories.
 
@@ -158,7 +158,7 @@ You will receive a confirmation once the import has completed. You can now view 
 
 To import data in bulk from a GitLab repository, do the following:
 
-1. In Postman, select **Import** > **Code repository** > **GitLab**.
+1. In Postman, select **Import > Code repository > GitLab**.
 
 1. Confirm your GitLab account and **Authorize Postman** to access your repositories.
 
@@ -176,7 +176,7 @@ Before you begin, enable third-party application access for your organization. I
 
 To import data in bulk from a Azure DevOps repository, do the following:
 
-1. In Postman, select **Import** > **Code repository** > **Azure**.
+1. In Postman, select **Import > Code repository > Azure**.
 
 1. Confirm your Azure DevOps account and **Authorize Postman** to access your repositories.
 

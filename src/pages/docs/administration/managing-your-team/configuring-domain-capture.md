@@ -44,7 +44,7 @@ It's recommended that you enable [SSO provisioning](/docs/administration/scim-pr
 
 ## Enabling domain capture
 
-To enable domain capture, open Postman and select **Team** > **Team Settings** in the upper-right. Select **Authentication** in the left sidebar.
+To enable domain capture, open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
 
 Confirm that your team has only the SSO authentication method enabled. Then, select the **Domains** tab.
 

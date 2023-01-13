@@ -125,7 +125,7 @@ The approval process enables an API Network Manager to control the process of ad
 
 To turn on the approval process workflow, do the following:
 
-1. In the Postman header, select **Team** > **Team Settings**.
+1. In the Postman header, select **Team > Team Settings**.
 1. Select **Private API Network**.
 1. Turn on the approval process.
 

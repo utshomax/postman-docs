@@ -92,7 +92,7 @@ The following is an example of a set of monitor results when sent to Slack:
 
 For the **Receive Postman Notification** integration, after allowing Slack permissions, your integration will be configured.
 
-After adding the integration, you can specify which notifications are sent to Slack. Update your [notification preferences](https://go.postman.co/settings/me/notifications) by selecting your avatar in the upper-right corner > **Settings** > **Notifications**.
+After adding the integration, you can specify which notifications are sent to Slack. Update your [notification preferences](https://go.postman.co/settings/me/notifications) by selecting your avatar in the upper-right corner > **Settings > Notifications**.
 
 <img alt="Update notification preferences" src="https://assets.postman.com/postman-docs/v10/notification-preferences-v10.jpg">
 

@@ -106,7 +106,7 @@ You can read comments made on the request and on request parameters from the app
 You can make changes to comments you've already posted. Other team members can't edit your comments.
 
 1. In Postman, open the collection with the comment you want to edit.
-2. Find the comment and select **Comment** > **Edit**.
+2. Find the comment and select **Comment > Edit**.
 
 <img src="https://assets.postman.com/postman-docs/editing-a-comment-v8.jpg" alt="Edit comment" width="395px">
 

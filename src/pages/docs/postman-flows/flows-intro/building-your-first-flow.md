@@ -23,12 +23,12 @@ This page walks you through your first flow, calling the Pokémon API and printi
 
 Begin by creating a new collection and adding a GET request. You'll use this collection with the flow you'll create later.
 
-1. In your workspace, select **New** &gt; **Collection**. Name the collection **Pokemon API**.
+1. In your workspace, select **New > Collection**. Name the collection **Pokemon API**.
 1. [Add a GET request](/docs/getting-started/sending-the-first-request/) with this URL: `https://pokeapi.co/api/v2/pokemon?limit=200`.
 
     ![Add a request](https://assets.postman.com/postman-docs/v10/flow-first-request-v10.jpg)
 
-1. Select **Send**, then select **Save Response** &gt; **Save as example**.
+1. Select **Send**, then select **Save Response > Save as example**.
 
     > Saving the response as an example enables Postman Flows to automatically detect the structure for easier access later.
 
@@ -40,7 +40,7 @@ Begin by creating a new collection and adding a GET request. You'll use this col
 
 ## Making your first send request in Postman Flows
 
-1. Select **New** &gt; **Flows**. Your new flow appears with a **Start** block already in place.
+1. Select **New > Flows**. Your new flow appears with a **Start** block already in place.
 
     > You can select and drag the canvas to reposition your flow.
 

@@ -53,7 +53,7 @@ Postman delivers the scan results in the [Security audit reports](/docs/reports/
 
 ## Token scanner dashboard
 
-You can view your team's configured [default](#default-alerts) and [custom](#custom-alerts) alerts in your [data security dashboard](https://go.postman.co/settings/team/token-scanner). Select **Team** in the upper-right > **Team Settings**. Then, select **Data security** on the left, and select **Token scanner**.
+You can view your team's configured [default](#default-alerts) and [custom](#custom-alerts) alerts in your [data security dashboard](https://go.postman.co/settings/team/token-scanner). Select **Team** in the Postman header, then select **Team Settings**. Then, select **Data security** on the left, and select **Token scanner**.
 
 <img alt="Data security dashboard" src="https://assets.postman.com/postman-docs/data-security-dashboard.jpg"/>
 
@@ -110,7 +110,7 @@ Your team can add a total of five alerts. You must be a **Community Manager** or
 
 To add custom alerts, do the following:
 
-1. Go to **Team** > **Team Settings** > **Token scanner**.
+1. Go to **Team > Team Settings > Token scanner**.
 2. In the **Custom alerts** section, select **Add Alert**.
 3. On the **Add Alert** page, define the custom token.
 

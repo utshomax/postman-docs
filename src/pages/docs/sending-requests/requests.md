@@ -83,11 +83,11 @@ If you have never sent a request before, check out [sending your first request](
 
 Your requests can include multiple details determining the data Postman will send to the API you are working with. Enter a URL and choose a method, then optionally specify a variety of other details.
 
-You can create a new request from the Postman home screen, by using __New__ &gt; __HTTP Request__, or by selecting __+__ to open a new tab.
+You can create a new request from the Postman home screen, by using **New > HTTP Request**, or by selecting **+** to open a new tab.
 
 ![Create New Screen](https://assets.postman.com/postman-docs/v10/new-request-v10.jpg)
 
-Select __Save__ to create your request. You can give your request a name and description, and choose or create a collection to save it in.
+Select **Save** to create your request. You can give your request a name and description, and choose or create a collection to save it in.
 
 Once your new tab is open, you can specify the details you need for your request.
 
@@ -285,9 +285,9 @@ The processor will encode characters depending on where they occur in the URL:
 | Query | `"` `#` `&` `'` `<` `=` `>` `SPACE` |
 | Userinfo | `"` `<` `>` `` ` `` `#` `?` `{` `}` `/` `:` `;` `=` `@` `[` `\` `]` `^` | `SPACE` |
 
-The processor is turned on by default in Postman, but you can turn off encoding if you are working with an unusual server implementation. To turn this setting on or off in your request, select __Settings__ &gt; __Encode URL automatically__.
+The processor is turned on by default in Postman, but you can turn off encoding if you are working with an unusual server implementation. To turn this setting on or off in your request, select **Settings > Encode URL automatically**.
 
-> You can selectively encode parts of your URL by highlighting the text and right-clicking, then choosing __EncodeURIComponent__.
+> You can selectively encode parts of your URL by highlighting the text and right-clicking, then choosing **EncodeURIComponent**.
 
 ## Troubleshooting your requests
 
