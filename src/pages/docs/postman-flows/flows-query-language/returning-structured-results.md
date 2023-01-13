@@ -81,8 +81,6 @@ The example below returns three objects as an array.
 ]
 ```
 
----
-
 ## Return an array of a single field from multiple objects
 
 The example below gets the values of the `city` key from three objects and returns the values as an array.
