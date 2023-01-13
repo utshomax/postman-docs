@@ -176,7 +176,7 @@ $substringBefore(payments[0].description, 'subscription')
 
 ## Get the string after the first occurrence of a pattern
 
-The `$substringAfter()` function finds a pattern and returns the string immediately following the pattern. The example below returns the string that follows `recurring` in the `description` key-value pair in the first object of the `payments` array.
+The `$substringAfter()` function finds a pattern and returns the substring immediately following the pattern. The example below returns the substring that follows `recurring` in the `description` key-value pair in the first object of the `payments` array.
 
 ### FQL
 
