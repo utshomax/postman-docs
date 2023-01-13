@@ -168,7 +168,7 @@ PKG installer packages have the following capabilities:
 * You can select between system-wide, per-user installation, or custom installation disks.
 * They don't require reboots after installation.
 * They're fully configurable for silent installation.
-* Apple Silicon is supported.
+* Apple silicon is supported.
 
 ### Installing a PKG installer package
 

@@ -25,7 +25,7 @@ You can download and install the Postman CLI manually or programmatically (with 
 
 * [System requirements](#system-requirements)
 * [Windows installation](#windows-installation)
-* [Mac (Apple chip) installation](#mac-apple-chip-installation)
+* [Mac (Apple silicon) installation](#mac-apple-silicon-installation)
 * [Mac (Intel) installation](#mac-intel-installation)
 * [Linux installation](#linux-installation)
 
@@ -41,9 +41,9 @@ Run the following commands to install the Postman CLI for Windows. This will dow
 powershell.exe -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/install/win64.ps1'))"
 ```
 
-## Mac (Apple chip) installation
+## Mac (Apple silicon) installation
 
-Run the following command to install the Postman CLI for Macs with Apple M1/M2 chips. This will download an install script and run it. The install script creates a `/usr/local/bin` directory if it doesn't exist yet, then installs a `postman` binary there.
+Run the following command to install the Postman CLI for Macs with an Apple silicon processor. This will download an install script and run it. The install script creates a `/usr/local/bin` directory if it doesn't exist yet, then installs a `postman` binary there.
 
 ``` bash
 curl -o- "https://dl-cli.pstmn.io/install/osx_arm64.sh" | sh
