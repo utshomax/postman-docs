@@ -58,7 +58,7 @@ For DNS records, verify the ownership with a DNS web service provider. In a sepa
 * A TXT record for `postman-echo.com` verifies the ownership of the domain. The value must be the same as the token shown in the modal. Add the TXT record to the __root domain__. For example if you're adding `example.com` or `api.example.com`, add the TXT record to `example.com`.
 * A CNAME record for `docs.postman-echo.com`, as shown in the modal. This value must be `phs.getpostman.com`. Add the CNAME record to the URL that's associated with your public documentation.
 
-To verify the domain, check the __I've added the TXT and CNAME records__ checkbox, then select __Verify Domain__. A confirmation message will indicate that the domain has been verified.
+To verify the domain, select the **I've added the TXT and CNAME records** checkbox, then select **Verify Domain**. A confirmation message will indicate that the domain has been verified.
 
 [![verify_domain](https://assets.postman.com/postman-docs/docs-verify-domain-1.jpg)](https://assets.postman.com/postman-docs/docs-verify-domain-1.jpg)
 

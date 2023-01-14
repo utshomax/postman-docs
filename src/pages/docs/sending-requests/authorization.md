@@ -393,7 +393,7 @@ To use NTLM authentication, do the following:
 
 1. In the __Authorization__ tab for a request, select __NTLM Authentication__ from the __Type__ dropdown list.
 
-1. Enter your __Username__ and __Password__ for NTLM access (use variables to avoid entering the values directly). You can optionally specify advanced parameters, but Postman will try to autocomplete these if necessary. By default your request will run a second time after extracting data received from the first. You can turn off this behavior by checking the checkbox.
+1. Enter your __Username__ and __Password__ for NTLM access (use variables to avoid entering the values directly). You can optionally specify advanced parameters, but Postman will try to autocomplete these if necessary. By default your request will run a second time after extracting data received from the first. You can turn off this behavior by selecting the checkbox.
 
 Advanced parameters for NTLM auth are as follows:
 
