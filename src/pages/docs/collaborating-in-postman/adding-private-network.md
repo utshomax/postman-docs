@@ -79,12 +79,12 @@ There are several ways to search, filter, and sort elements in the Private API N
 * To search by name, enter the full or partial element name into  **Search elements**.
 * To filter based on the person who added the element, select **Added by**, then select the name of the team member.
 * To filter by element type, select **Type**, then select **API**, **Collection**, or **Workspace**.
-* To sort elements, select **Sort by**. Options are:
+* To sort elements, select the **Sort by** dropdown list. Options are:
     * **Recently added** - Sort elements by the date they were added.
     * **A to Z** - Sort elements alphabetically.
     * **Trending this week** - Sort elements by your team's usage this week.
     * **Trending this month** - Sort elements by your team's usage this month.
-* To sort folders, sub-folders, and elements alphabetically or by date added, select **Sort By** (<img alt="Sort icon" src="https://assets.postman.com/postman-docs/icon-sort.jpg#icon" width="16px">) from the Overview section.
+* To sort folders, sub-folders, and elements alphabetically or by date added, select the sort icon <img alt="Sort icon" src="https://assets.postman.com/postman-docs/icon-sort.jpg#icon" width="16px"> from the Overview section.
 
 <img alt="Private API List" src="https://assets.postman.com/postman-docs/v10/private-api-network-list-v10.jpg"/>
 
