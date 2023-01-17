@@ -9,15 +9,17 @@ Postman Flows can get data from API requests or directly from the **Start** bloc
 ## Contents
 
 * [Getting data](#getting-data)
-* [Passing specfic response data between blocks](#passing-specific-response-data-between-blocks)
+    * [With an API request](#getting-data-with-an-api-request)
+    * [From the **Start** block](#getting-data-from-the-start-block)
+* [Passing specfied data between blocks](#passing-specified-data-between-blocks)
 
 ## Getting data
 
 Postman Flows gets data with [API requests](/docs/getting-started/sending-the-first-request/) from existing collections in your workspace, or from data pasted into the **Start** block.
 
-### Getting and passing data with an API request
+### Getting data with an API request
 
-In this example, a flow's **Send Request** block gets data with a collection's GET request. The **Send Request** block then passes all the data to a **Log** block.
+In this example, the **Send Request** block gets data using a collection's GET request. The **Send Request** block then passes all the data to a **Log** block.
 
 1. [Create a collection](/docs/getting-started/creating-the-first-collection/) named Random User Collection and add a GET request with this URL: `https://randomuser.me/api/`.
 
@@ -43,11 +45,11 @@ In this example, a flow's **Send Request** block gets data with a collection's G
 
 ### Getting data from the Start block
 
-In this example, the flow gets data from the **Start** block and passes it to a **Select** block. The **Select** block passes the `results` array to the **Log** block.
+In this example, the flow gets data from the **Start** block and passes it to an **Evaluate** block. The **Evaluate** block passes the `results` array to the **Log** block.
 
 1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/) and select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> in the **Start** block.
 
-    ![Select the gear icon](https://assets.postman.com/postman-docs/v10/flow-start-configure-v10.jpg)
+    ![Select the gear icon](https://assets.postman.com/postman-docs/v10/flow-start-configure-1-v10.jpg)
 
 1. Select **Enter incoming data** and paste in the sample data below. Your new flow will use this data every time it executes.
 
@@ -122,17 +124,19 @@ In this example, the flow gets data from the **Start** block and passes it to a 
 
 1. Select the **Language** dropdown list and select **JSON**.
 
-1. Connect a **Select** block to the **Start** block.
+1. Connect an **Evaluate** block to the **Start** block.
 
-1. In the **Select** block, select **Enter path...** and select `results`. This selects all the data received from the **Start** block.
+1. In the **Evaluate** block, select **key** and enter `body`. This assigns all the data received from the **Start** block to the variable `body`.
 
-1. Connect a **Log** block to the **Select** block.
+1. In the **Evaluate** block, select **Enter FQL query** and enter `body`. This sends all the data in the `body` variable to the **Evaluate** block's output.
 
-1. Select **Run** then select **Console**. The flow gets response data from the **Start** block, routes it to the **Select** block, and passes the entire response to the **Log** block, which displays the data in the console.
+1. Connect a **Log** block to the **Evaluate** block.
 
-## Passing specific response data between blocks
+1. Select **Run** then select **Console**. The flow gets the data from the **Start** block, routes it to the **Evaluate** block, and passes the entire response to the **Log** block, which displays the data in the console.
 
-You can use extract specific values from responses in a number of ways. The example below uses a **Select** block to get the `country` field value from sample response data in the **Start** block.
+## Passing specified data between blocks
+
+You can extract specific values from response data in a number of ways using variables and [Flows Query Language (FQL)](/docs/postman-flows/flows-query-language/introduction-to-fql/). The example below uses a **Select** block to get the `country` field value from sample response data in the **Start** block.
 
 1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/) and select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> in the **Start** block.
 
@@ -211,20 +215,20 @@ You can use extract specific values from responses in a number of ways. The exam
 
 1. Select **JSON** from the **Language** dropdown list.
 
-1. Connect a **Select** block to the **Start** block.
+1. Connect an **Evaluate** block to the **Start** block.
 
-1. In the **Select** block, select **Enter path...**.
+1. In the **Evaluate** block, select **key** and enter `body`.
 
-    ![Select Enter path...](https://assets.postman.com/postman-docs/v10/flow-enter-path-v10.jpg)
+    <!--TODO: Update image -->![Select Enter path...](https://assets.postman.com/postman-docs/v10/flow-enter-path-v10.jpg)
 
 1. Select **results** then scroll down to the **country** field and select it.
 
 1. Connect a **Log** block to the **Select** block.
 
-    ![Add a Log block](https://assets.postman.com/postman-docs/v10/flow-add-log-block-1-v10.jpg)
+    <!--TODO: Update image -->![Add a Log block](https://assets.postman.com/postman-docs/v10/flow-add-log-block-1-v10.jpg)
 
 1. Select **Console**.
 
 1. Select **Run**. `"Norway"` appears in the console.
 
-    ![Select Ran and open the console](https://assets.postman.com/postman-docs/v10/flow-console-country-v10.jpg)
+    <!--TODO: Update image -->![Select Ran and open the console](https://assets.postman.com/postman-docs/v10/flow-console-country-v10.jpg)
