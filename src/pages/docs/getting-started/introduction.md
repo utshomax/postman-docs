@@ -24,16 +24,11 @@ contextual_links:
     name: "Intro to Postman playlist"
     url: "https://youtube.com/playlist?list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ"
   - type: link
-    name: "Postman Space Camp: An Introduction for Developers"
+    name: "Postman Intergalactic: An Introduction for Developers"
     url: "https://youtu.be/8MOzaTsVRKg"
   - type: link
     name: "Postman Community Forum | Postman Level Up"
     url:  "https://youtu.be/Ks_4H58eCQc"
-  - type: subtitle
-    name: "Public Workspaces"
-  - type: link
-    name: "30 days of Postman for developers"
-    url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
   - type: subtitle
     name: "Blog Posts"
   - type: link
@@ -42,12 +37,19 @@ contextual_links:
   - type: link
     name: "10 Postman Features Everyone Should Know"
     url: "https://blog.postman.com/10-postman-features-everyone-should-know/"
-
+  - type: link
+    name: "What Do 37,000 Developers Say About Postman? 3 Key Things"
+    url: "https://blog.postman.com/what-developers-say-about-postman/"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "30 days of Postman for developers"
+    url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
 ---
 
 Welcome to the Postman docs! This is the place to find official information on how to use Postman in your API projects.
 
-<img alt="Postman full view" src="https://assets.postman.com/postman-docs/intro-postman-request-selected-v9.19.2.jpg" width="1200px"/>
+<img alt="Postman full view" src="https://assets.postman.com/postman-docs/v10/intro-postman-request-selected-3-v10.jpg" width="1100px"/>
 
 If you're starting to learn about APIs and Postman, you can use a variety of channels both in and outside Postman:
 
@@ -66,6 +68,7 @@ If you're learning to carry out a specific task or workflow in Postman, check ou
 * [__Testing APIs__](#testing-apis)
 * [__Building and managing APIs__](#building-and-managing-apis)
 * [__Publishing APIs__](#publishing-apis)
+* [__Using Postman Flows__](#using-postman-flows)
 * [__Collaborating with your team__](#collaborating-with-your-team)
 * [__Developing with Postman__](#developing-with-postman)
 
@@ -103,6 +106,13 @@ If you're exposing an API for public use, Postman can support developer onboardi
 
 * [Publishing documentation](/docs/publishing-your-api/documenting-your-api/)
 * [Using Run in Postman](/docs/publishing-your-api/run-in-postman/introduction-run-button/)
+
+### Using Postman Flows
+
+If you're creating an API workflow, you can use Postman Flows:
+
+* [Building your first flow](/docs/postman-flows/flows-intro/building-your-first-flow/)
+* [About blocks](/docs/postman-flows/core-concepts/blocks/)
 
 ### Collaborating with your team
 

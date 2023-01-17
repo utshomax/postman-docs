@@ -8,9 +8,9 @@ updated: 2022-03-29
 
 Sometimes things go wrong! If you're having trouble with the Postman app, there are several resources that can help you diagnose and fix the problem.
 
-If you have questions about Postman beyond what's covered in this guide, see [Postman's Help Center](https://support.postman.com/hc/en-us) for answers to [frequently asked questions about the Postman app](https://support.postman.com/hc/en-us/categories/115000609125-Postman-App).
+If you have questions about Postman beyond what's covered in this guide, see [Postman's Help Center](https://support.postman.com/hc/en-us) for answers to [frequently asked questions about the Postman app](https://support.postman.com/hc/en-us/categories/8180165300503-FAQs).
 
-> This guide specifically discusses troubleshooting issues with the Postman app. To troubleshoot issues with Postman requests, see [Troubleshooting requests](/docs/sending-requests/troubleshooting-api-requests/). To troubleshoot issues with Postman monitors, see [Troubleshooting monitors](/docs/monitoring-your-api/troubleshooting-monitors/).
+> This guide specifically discusses troubleshooting issues with the Postman app. To troubleshoot issues with Postman requests, see [Troubleshooting requests](/docs/sending-requests/troubleshooting-api-requests/). To troubleshoot issues with Postman Monitors, see [Troubleshooting monitors](/docs/monitoring-your-api/troubleshooting-monitors/).
 
 ## Contacting Postman product support
 

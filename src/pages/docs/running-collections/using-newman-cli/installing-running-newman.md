@@ -111,7 +111,7 @@ Newman provides a rich set of options to customize a run. Learn more at [Newman 
 
 ## Using Newman with CI/CD
 
-By default, Newman exits with a status code of 0 if everything runs as expected with no exceptions. You can configure your continuous integration tools to respond to Newman's exit codes and correspondingly pass or fail a build. You can also use the `--bail` flag to make Newman stop the run if it encounters a test case error with a status code of 1, which can then be picked up by your CI tool or build system.
+By default, Newman exits with a status code of 0 if everything runs as expected with no exceptions. You can configure your continuous integration (CI) tools to respond to Newman's exit codes and correspondingly pass or fail a build. You can also use the `--bail` flag to make Newman stop the run if it encounters a test case error with a status code of 1, which can then be picked up by your CI tool or build system.
 
 ## Using Newman as a Node.js library
 

@@ -21,6 +21,9 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
+    name: "Postman Essentials: Exploring the Collection Format"
+    url: "https://blog.postman.com/postman-essentials-exploring-the-collection-format/"
+  - type: link
     name: "Latest Updates to Syncing Your Specs with Collections"
     url: "https://blog.postman.com/latest-updates-to-syncing-your-specs-with-collections/"
   - type: link
@@ -69,7 +72,7 @@ You can import collections or your API specifications directly into Postman.
 
 To import your data into Postman, select **Import** in upper left:
 
-![Import data into Postman](https://assets.postman.com/postman-docs/import-export-import-ui-v9-6.jpg)
+![Import data into Postman](https://assets.postman.com/postman-docs/v10/import-export-import-ui-v10-2.jpg)
 
 You can import your data from files, folders, links, raw text, or code repositories.
 
@@ -85,9 +88,9 @@ You can import Postman data you exported earlier, including collections, environ
 
 ### Converting Postman collections from v1 to v2
 
-Postman no longer supports the collection v1 format and will return an error if you import a collection in this format.
+Postman no longer supports the collection v1 format and will return an error if you import a collection in this format. You can convert your collection's format from v1 to v2 to import it into Postman.
 
-You can convert your collection's format from v1 to v2 to import it into Postman:
+To convert your collection's format from v1 to v2, do the following:
 
 1. In the terminal of your choice, enter the following command to install the Postman Collection Transformer.
 
@@ -115,11 +118,11 @@ See the [Postman Collection Transformer](https://github.com/postmanlabs/postman-
 
 To import your API specifications into Postman, see [Importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
 
-## Importing from GitHub repositories
+### Importing from GitHub repositories
 
 > You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
-You can import data in bulk from a GitHub repository.
+To import data in bulk from a GitHub repository, do the following:
 
 1. In Postman, select **Import** > **Code repository** > **GitHub**.
 
@@ -129,15 +132,15 @@ You can import data in bulk from a GitHub repository.
 
 1. Select the files you want to import into Postman. You can also select **Generate collection from imported APIs** and select what you want to link this collection as. Select **Show advanced settings** to control how Postman generates collections based on your file types, then select **Import**.
 
-   ![Confirm import from github](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
+   ![Confirm import from GitHub](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
 
 You will receive a confirmation once the import has completed. You can view your imported files and generated collections in Postman.
 
-## Importing from Bitbucket repositories
+### Importing from Bitbucket repositories
 
 > You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
-You can import data in bulk from a Bitbucket repository.
+To import data in bulk from a Bitbucket repository, do the following:
 
 1. In Postman, select **Import** > **Code repository** > **Bitbucket**.
 
@@ -149,11 +152,11 @@ You can import data in bulk from a Bitbucket repository.
 
 You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
 
-## Importing from GitLab repositories
+### Importing from GitLab repositories
 
 > You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
-You can import data in bulk from a GitLab repository.
+To import data in bulk from a GitLab repository, do the following:
 
 1. In Postman, select **Import** > **Code repository** > **GitLab**.
 
@@ -165,11 +168,13 @@ You can import data in bulk from a GitLab repository.
 
 You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
 
-## Importing from Azure DevOps repositories
+### Importing from Azure DevOps repositories
 
 > You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
-You can import data in bulk from a Azure DevOps repository. Before you begin, make sure to enable third-party application access for your organization. If you don't enable third-party access, Postman won't be able to connect to your repo. In Azure DevOps, go to your [organization settings](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops), select **Policies**, and turn on the toggle next to **Third-party application access via OAuth**.
+Before you begin, enable third-party application access for your organization. If you don't enable third-party access, Postman won't be able to connect to your repo. In Azure DevOps, go to your [organization settings](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops), select **Policies**, and turn on the toggle next to **Third-party application access via OAuth**.
+
+To import data in bulk from a Azure DevOps repository, do the following:
 
 1. In Postman, select **Import** > **Code repository** > **Azure**.
 
@@ -210,8 +215,6 @@ You can also export your environments from Postman.
 You can export a data dump of all your collections, environments, globals, and header presets in Postman.
 
 1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Settings**.
-
-   ![Export data dump](https://assets.postman.com/postman-docs/import-export-data-dump-menu.jpg)
 
 1. Select the **Data** tab, then **Export Data** to start your request for the data dump.
 

@@ -48,13 +48,11 @@ To configure a Microsoft Teams integration, you will need to first create a Micr
 
 1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 
-    ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+    <img alt="Home page and integrations" src="https://assets.postman.com/postman-docs/v10/home-integrations-v10.jpg" width="390px">
 
 1. Search and select **Microsoft Teams**.
 
 ### Add a team activity feed to Microsoft Teams
-
-To add a team activity feed to Microsoft Teams:
 
 1. Select **Add Integration**.
 
@@ -66,8 +64,6 @@ To add a team activity feed to Microsoft Teams:
 
 ### Send monitor run results in Microsoft Teams
 
-To send monitor run results to Microsoft Teams:
-
 1. Select **Add Integration**.
 
 1. In the **Monitor Run Results** page, select the monitor whose results you want to send to Microsoft Teams, and enter the notification URL.
@@ -75,6 +71,8 @@ To send monitor run results to Microsoft Teams:
     [![ms_teams monRun](https://assets.postman.com/postman-docs/ms-teams-send-mon-run-v9-a.jpg)](https://assets.postman.com/postman-docs/ms-teams-send-mon-run-v9-a.jpg)
 
 1. Select **Add Integration** to access your monitors in the **Configured Integrations** view. You can also select the **Advanced Options** link to indicate if you want notifications on completion of all monitor runs, or if you want notifications for three monitor run failures and then the first successful monitor run.
+
+    > **You can view your configured integrations on the [Browse Integrations](https://go.postman.co/integrations/browse) page.** You can also view integrations that have been configured for a monitor by opening the monitor and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Learn more about [viewing or editing integrations](/docs/integrations/intro-integrations/#viewing-or-editing-integrations).
 
     [![ms_teams monRun](https://assets.postman.com/postman-docs/msteams-monitor-results-add-q.jpg)](https://assets.postman.com/postman-docs/msteams-monitor-results-add-q.jpg)
 

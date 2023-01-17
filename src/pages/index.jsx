@@ -2,19 +2,90 @@ import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import { v4 as uuidv4 } from 'uuid';
+import styled from 'styled-components';
+import '../../styles/config/normalize.css';
+import { theme } from '../../styles/theme';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import upcomingEvents from '../../bff-data/events.json';
 import { LandingCard } from '../components/MarketingPages/Cards';
-import '../../styles/config/normalize.css';
-import '../components/MarketingPages/Buttons.scss';
-import './index.scss';
 import '../../styles/config/_pm-icons.css';
+import { BaseLink, BaseLinkStyles, BaseButton, SectionStyles, VideoComponent } from 'aether-marketing';
 
-const heroBackground = {
-  backgroundColor: '#f9f9f9',
-  padding: '48px 80px',
-};
+const EventsWrapper = styled.div`
+a {
+  ${BaseLinkStyles.componentStyle.rules}
+}
+
+margin-bottom: 48px;
+@media (min-width: 992px) {
+        padding-left: 48px;
+    }
+    
+.events__alert {
+    border: 4px dashed ${theme.colors.blue_10};
+    border-radius: ${theme.borderRadius.medium};
+    padding: .75rem 1.25rem;
+    color: #0C5460;
+    color: ${theme.colors.blue_80};
+}
+// Upcoming Event Section styles
+
+.event-date {
+    font-family: 'Degular-Display-Semibold', system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    text-transform: uppercase;
+    @media (max-width: 992px) {
+      justify-content:initial;
+      margin-top: 8px;
+    }
+}
+.event-location {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: ${theme.colors.orange_40};
+    padding-bottom: 16px;
+}
+.event-description-wrapper {
+    @media (min-width: 992px) {
+        padding-left: 48px !important;
+    }
+}
+.event-month {
+    @media screen and (max-width: 576px){
+        font-size: 16px;
+    }
+}
+.link-style{
+    height: 24px;
+    color: ${theme.colors.blue_60};
+    text-decoration: none;
+}
+`
+const HeroWrapper = styled.section`
+  background-color: ${(props) => props.theme.colors.grey_05};
+  padding: 48px 80px;
+    @media (max-width: 991px) {
+        padding: 40px !important;
+      }
+    .hero-image {
+        margin: 0px;
+    }
+    .img-frame {
+        border-radius: ${(props) => props.theme.borderRadius.medium};
+        border: 8px solid ${(props) => props.theme.colors.grey_20};// $grey_20
+        box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.32);
+    }
+`
+
+const HRStyles = styled.hr`
+  border: 0;
+  margin-top: 0;
+  border-top: 1px solid ${(props) => props.theme.colors.grey_30};
+  margin-bottom: 0;
+`;
 
 const months = [
   'Jan',
@@ -41,8 +112,8 @@ function getEvents(sortedUpcomingEvents) {
       const eventDate = `${eventMonth}/${eventDay}/${eventYear}`;
       const eventInformation = `${event.location} - ${eventDate} ${event.time}`;
       return (
-        <div className={`col-12 col-lg-10 offset-lg-1 event-single-wrapper`} key={uuidv4()}>
-          <div className="row">
+        <EventsWrapper className="col-12 col-lg-10 offset-lg-1 " key={uuidv4()}>
+          <div className="row ">
             <div className="col-12 col-lg-3 event-date event-month">
               {/* <span className="event-month"> */}
               {`${months[eventMonthIndex]}`}
@@ -55,7 +126,7 @@ function getEvents(sortedUpcomingEvents) {
               <h4 className="event-title">{event.title}</h4>
               <p>{event.description}</p>
               <OutboundLink
-                className="event-link-wrapper link-style"
+                className="event-link-wrapper"
                 href={event.link}
                 target="_blank"
                 rel="noopener"
@@ -64,7 +135,7 @@ function getEvents(sortedUpcomingEvents) {
               </OutboundLink>
             </div>
           </div>
-        </div>
+        </EventsWrapper>
       );
     })
   ) || (
@@ -72,22 +143,22 @@ function getEvents(sortedUpcomingEvents) {
       {/* If there are no events, and events.json is an object
         where development eq true */}
       {!Array.isArray(upcomingEvents) && upcomingEvents.development ? (
-        <div className="events__alert" role="alert">
+        <EventsWrapper className="events__alert" role="alert">
           <p>
             You are currently in develop mode. Dynamic events will not be displayed
             locally.
-            <a
-              className="link-style"
+            {' '}
+            <BaseLink
               style={{ fontSize: 'inherit' }}
-              href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md"
-              target="_blank"
-              rel="noopener"
+              src="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md"
+              target="same-tab"
+              linkType="arrowLink"
             >
               See Contributing doc for details
-            </a>
+            </BaseLink>
             .
           </p>
-        </div>
+        </EventsWrapper>
       ) : (
         <>
           {/* else we know we have 0 upcoming events, and we are not
@@ -152,7 +223,7 @@ class IndexPage extends React.Component {
       <Layout>
         <SEO title="Learning Center" slug="/" />
         <div className="container-fluid">
-          <section className="row section align-items-center hero" style={heroBackground}>
+          <HeroWrapper className="row section align-items-center hero" >
             <div className="container">
               <div className="row">
                 <div className="col-sm-12 col-md-5 col-lg-6 align-self-center">
@@ -163,9 +234,15 @@ class IndexPage extends React.Component {
                     <br />
                     Check out the docs and support resources!
                   </p>
-                  <a href="/docs/getting-started/introduction/" className="btn btn__primary-hollow mb-5">
+                  <BaseButton
+                    src="/docs/getting-started/introduction/" 
+                    className="mb-5"
+                    as='a'
+                    buttonType="secondary"
+                    target="same-tab"
+                    >
                     Explore the Docs
-                  </a>
+                  </BaseButton>
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
                   <img
@@ -178,10 +255,10 @@ class IndexPage extends React.Component {
                 </div>
               </div>
             </div>
-          </section>
+          </HeroWrapper>
         </div>
         <div className="container">
-          <section className="row section">
+          <SectionStyles className="row">
             <div className="col-sm-12">
               <h2 className="mb-5">Design, develop, and collaborate on your API projects</h2>
               <div className="row justify-content-center">
@@ -214,11 +291,11 @@ class IndexPage extends React.Component {
                 </div>
                 <div className="col-sm-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
                   <LandingCard
-                    title="Postman Space Camp"
-                    description="See previous and upcoming educational webinars."
-                    cta="See webinars"
-                    link="https://www.postman.com/events/postman-space-camp/"
-                    icon="https://voyager.postman.com/icon/camp-tent-icon-postman.svg"
+                    title="Postman Intergalactic"
+                    description="A series of educational trainings taught by Postman team members with a live Q&A."
+                    cta="See upcoming webinars"
+                    link="https://www.postman.com/events/intergalactic/"
+                    icon="https://voyager.postman.com/icon/product-ufo-icon-postman.svg"
                   />
                 </div>
                 <div className="col-sm-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
@@ -241,12 +318,12 @@ class IndexPage extends React.Component {
                 </div>
               </div>
             </div>
-          </section>
+          </SectionStyles>
           <div className="container-fluid" >
-            <hr/>
+            <HRStyles/>
           </div>
           {/* Youtube Video Section */}
-          <section className="row section align-items-center">
+          <SectionStyles className="row align-items-center">
             <div className="col-lg-4">
               <h2>Intro to Postman</h2>
               <p>Learn the Postman fundamentals in this video course for beginners.</p>
@@ -255,45 +332,36 @@ class IndexPage extends React.Component {
               </p>
             </div>
             <div className="col-lg-8">
-              <div className="embed-responsive embed-responsive-16by9 img-frame">
-                <iframe
-                  loading="lazy"
-                  className="embed-responsive-item "
-                  src="https://www.youtube.com/embed/2oOSnxZ28fA?rel=0&origin=https://learning.postman.com/"
-                  title="Intro to Postman"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
-              </div>
+              <VideoComponent
+                src="https://www.youtube.com/embed/2oOSnxZ28fA?rel=0&origin=https://learning.postman.com/"
+                border="true"
+              ></VideoComponent>
             </div>
-          </section>
+          </SectionStyles>
           <div className="container-fluid" >
-            <hr/>
+            <HRStyles/>
           </div>
           {/* Events Section */}
-          <section className="row section">
+          <SectionStyles className="row">
             <div className="col-12 col col-lg-4 text-left mb-5">
               <div className="sticky-top" style={{ top: '75px', zIndex: '0' }}>
                 <h2 id="upcoming-events">Upcoming Postman Events</h2>
                 <p>
-                  <a 
-                    className="link-style" 
-                    href="https://www.twitch.tv/getpostman" 
-                    target="_blank" 
-                    rel="noopener">
+                  <BaseLink 
+                    src="https://www.twitch.tv/getpostman" 
+                    target="new-tab-external-nofollow"
+                    >
                     Follow us
-                  </a>
+                  </BaseLink>
                   {' '}
                   on Twitch or
                   {' '}
-                  <a
-                    className="link-style"
-                    href="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw"
-                    target="_blank"
-                    rel="noopener"
+                  <BaseLink
+                    src="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw"
+                    target="new-tab-external-nofollow"
                   >
                     subscribe
-                  </a>
+                  </BaseLink>
                   {' '}
                   to our YouTube channel so you don’t miss when we go live.
                 </p>
@@ -304,11 +372,11 @@ class IndexPage extends React.Component {
                 {getEvents(sortedUpcomingEvents)}
               </div>
             </div>
-          </section>
+          </SectionStyles>
           <div className="container-fluid" >
-            <hr/>
+            <HRStyles/>
           </div>
-          <section className="row section">
+          <SectionStyles className="row">
             <div className="col-sm-6 col-lg-3 mb-sm-4 mb-md-0 pr-md-5">
               <LandingCard
                 title="Postman support"
@@ -345,7 +413,7 @@ class IndexPage extends React.Component {
                 link="https://www.postman.com/postman/workspace/postman-answers/"
               />
             </div>
-          </section>
+          </SectionStyles>
         </div>
       </Layout>
     );

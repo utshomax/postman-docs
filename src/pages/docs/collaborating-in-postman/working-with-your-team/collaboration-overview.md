@@ -13,7 +13,7 @@ contextual_links:
     name: "Working With Your Team in Postman | The Exploratory"
     url: "https://youtu.be/5lscUV-Exac"
   - type: link
-    name: "Postman Space Camp | Working with Your Team in Postman"
+    name: "Postman Intergalactic | Working with Your Team in Postman"
     url: "https://youtu.be/OifhKJCd_-M"
   - type: dynamic_blog
     name: "Blog Posts"
@@ -25,7 +25,7 @@ contextual_links:
 
 Postman provides a variety of tools to enable and enhance collaboration within your team. You can ease the onboarding process by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/), allowing users in your organization to request to join your Postman team. You can also create [team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/), where team members can share their work and collaborate on API projects. Users can [discuss their work](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/) directly in Postman by commenting on collections and APIs, including on specific requests, versions, and inline on schemas and scripts.
 
-To get the most out of Postman's collaboration features, [create](#creating-a-team) or [join](#joining-a-team) a team. You can be a member of multiple Postman teams, regardless of if they're Postman Free, Basic, Professional, or Enterprise.
+To get the most out of Postman's collaboration features, [create](#creating-a-team) or [join](#joining-a-team) a team. You can be a member of up to five Postman teams, regardless of if they're Postman Free, Basic, Professional, or Enterprise.
 
 > Note that if an Enterprise team within your organization implements [domain capture](/docs/administration/managing-your-team/configuring-domain-capture/), you won't be able to remain on or join extra Postman teams with your captured accounts.
 
@@ -40,18 +40,23 @@ To get the most out of Postman's collaboration features, [create](#creating-a-te
 
 ## Creating a team
 
-To create a Postman team:
+The first time you create a team, do the following:
 
-1. Select your avatar in the upper-right corner > **Create a team**. If you're already a member of a Postman team, select **+ Create Team**.
+1. Select the arrow next to **Team** (if you’re on a paid plan) or **Upgrade** (if you’re on a free plan), then select **Create team**.
 2. Select **Set Up Your Team**.
-3. (Optional) Provide a team name, URL, and logo, and decide if you'd like to turn on [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/).
+3. (Optional) Provide a team name, URL, and logo, and decide if you want to turn on [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/).
 4. Select **Continue**.
-5. (Optional) Invite collaborators to your team by email or share an invite link.
+5. (Optional) Invite collaborators to your team by email or sharing an invite link.
 6. Select **Continue** or **Maybe Later**.
 
-[Postman Free](https://www.postman.com/pricing/) lets teams of up to three work together at no cost. If you'd like to collaborate with more team members, features, and increased usage limits, you can [upgrade](/docs/administration/billing/#changing-your-plan) to a Basic, Professional, or Enterprise plan. To do so, select **Upgrade** in the upper-right corner.
+If you're a member of two or more teams, you can create additional teams. To create a new team, do the following:
 
-If you're an individual Postman user and create a Postman team, your personal workspaces and the data within them are transferred to the team. When you leave a team, your personal workspaces and the data within them will remain with the team and no longer be accessible to you.
+1. Select your avatar in the upper-right corner > **+ Create Team**.
+1. Follow the team creation steps in this section.
+
+[Postman Free](https://www.postman.com/pricing/) lets teams of up to three work together at no cost. If you want to collaborate with more team members, features, and increased usage limits, you can [upgrade](/docs/administration/billing/#changing-your-plan) to a Basic, Professional, or Enterprise plan. To do so, select **Upgrade** in the upper-right corner.
+
+If you're an individual Postman user and create a Postman team through the flow mentioned above, you can choose to transfer your personal workspaces and the data within them to the team or keep them separate. When you leave a team, your personal workspaces within the team and their data will remain with the team and no longer be accessible to you.
 
 > For more information on setting up Postman within your organization, check out the [Onboarding checklist](/docs/administration/onboarding-checklist/).
 
@@ -66,18 +71,23 @@ There are several ways you can join a Postman team:
 * **SCIM provisioning** - If your organization has enabled [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/), you may be added to your organization's Postman team and receive an email invite. Select **Join Team** in the email and [sign in to Postman with SSO](/docs/administration/sso/user-sso/).
 * **Domain capture** - If your organization has configured [domain capture](/docs/administration/managing-your-team/configuring-domain-capture/) and you use or create an account associated with a verified domain, Postman will [notify](/docs/administration/managing-your-team/configuring-domain-capture/#user-experience) you when you next sign in that your account is managed by your organization.
 
-If you're an individual Postman user and join a Postman team, your personal workspaces and the data within them are transferred to the team. When you leave a team, your personal workspaces and the data within them will remain with the team and no longer be accessible to you.
+You can be a member of up to five Postman teams, regardless of if they're Postman Free, Basic, Professional, or Enterprise. However, if an Enterprise team within your organization implements domain capture, you won't be able to remain on or join extra Postman teams with your captured accounts.
 
-To retain ownership and access to your personal workspaces as an individual Postman user, you can [create a free Postman team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team).
+If you're an individual Postman user and join a team, you can choose to transfer your personal workspaces and the data within them to the team or keep them separate. In certain cases, your personal workspaces and the data within them automatically transfer when you join a team:
 
-* If you create an independent team prior to joining another Postman team, your work will remain with your personal team and you will retain ownership of it.
-* If you're already on a Postman team, you can [export the data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) you'd like to retain a copy of and [import that data](/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman) into your independent team's workspaces.
+* If you [request to join a team](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#finding-teams-within-your-organization) and are approved by a Team Admin.
+* If the team has [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) enabled.
+* If the team has [domain capture](/docs/administration/managing-your-team/configuring-domain-capture/) enabled.
+
+When you leave a team, your personal workspaces within the team and their data will remain with the team and no longer be accessible to you.
 
 ### Switching between teams
 
-You can sign in to multiple teams at the same time with your Postman account. To switch between teams, select your avatar in the top right. Select a team to open or select **+ Create Team** to create a new team.
+If you belong to multiple teams, you can sign in to them at the same time with your Postman account. To switch between teams, select your avatar in the top right. Select a team to open.
 
 <img alt="Switch teams" src="https://assets.postman.com/postman-docs/team-account-switcher-v9.2.1.jpg" width="350px">
+
+If you're a member of two or more teams, you can also select **+ Create Team** to create a new team.
 
 ## Leaving a team
 
@@ -89,11 +99,9 @@ Select **Leave Team** to the right of a team to leave it. If you're a member of 
 
 When you leave a team, you no longer have access to the team's workspaces, including personal workspaces, or any of the elements in them. You must reassign your personal workspaces to a remaining team member before leaving.
 
-<img src="https://assets.postman.com/postman-docs/dashboard-teams-leave-team-confirm-v9.2.jpg" alt="Leave and delete team" width="400px"/>
+<img src="https://assets.postman.com/postman-docs/leave-team-confirmation-v10.jpg" alt="Leave and delete team" width="400px"/>
 
-If you're the last member to leave a team, the team will be deleted. You will no longer have access to the team's workspaces, including personal workspaces, or any elements in them.
-
-> Learn how to [export your Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data).
+If you're the last member to leave a team, the team will be deleted. You will no longer have access to the team's workspaces, including personal workspaces, or any elements in them. [Export your Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) prior to leaving the team to ensure it stays with you.
 
 ## Team usage limits
 
@@ -104,7 +112,9 @@ Open the Postman usage menu to review your team's limits for custom domains, ima
 * **Free users** - In the Postman header, select the menu next to **Upgrade**.
 * **Paid users** - In the Postman header, select **Team**.
 
-Select **Resource Usage** to view your usage period and detailed usage of mock servers, monitoring, custom domains, image and file storage, the Postman API, serverless requests, integrations, and the Postman Cloud Agent.
+Select **Resource Usage** to view your usage period and detailed usage of mock servers, monitoring, custom domains, image and file storage, the Postman API, integrations, and the Postman Cloud Agent.
+
+> To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).
 
 <img src="https://assets.postman.com/postman-docs/team-dropdown-resource-usage-v9-25.jpg" alt="Team resource usage information" width="342px"/>
 

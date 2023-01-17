@@ -29,7 +29,7 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "SEI Novus"
+    name: "SEI Novus integrated Newman into its CI/CD process for regression testing"
     url:  "https://www.postman.com/case-studies/sei-novus/"
   - type: section
     name: "Next Steps"
@@ -38,11 +38,13 @@ contextual_links:
     url: "/docs/developer/intro-api/"
 warning: false
 ---
-Newman is a command-line Collection Runner for Postman. It enables you to run and test a Postman Collection directly from the command line. It's built with extensibility in mind so that you can integrate it with your continuous integration servers and build systems.
+Newman is a command-line Collection Runner for Postman. It enables you to run and test a Postman Collection directly from the command line. It's built with extensibility in mind so that you can integrate it with your continuous integration (CI) servers and build systems.
 
 Newman maintains feature parity with Postman and allows you to run collections the way they're executed inside the collection runner in Postman.
 
 Newman resides in the [npm registry](https://www.npmjs.com/package/newman) and on [GitHub](https://github.com/postmanlabs/newman).
+
+You can also run collections from the command line using the [Postman CLI](/docs/postman-cli/postman-cli-overview/). For more information on the differences between Newman and the Postman CLI, see [deciding which command-line companion to use](/docs/postman-cli/postman-cli-overview/#deciding-which-command-line-companion-to-use).
 
 [![Running Newman](https://assets.postman.com/postman-docs/newman-running-in-terminal.gif)](https://assets.postman.com/postman-docs/newman-running-in-terminal.gif)
 

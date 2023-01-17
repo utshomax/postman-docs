@@ -1,5 +1,5 @@
 ---
-title: "Utilizing audit logs"
+title: "Using audit logs"
 order: 126
 page_id: "audit_logs"
 updated: 2022-03-01
@@ -12,7 +12,7 @@ contextual_links:
     url: "/docs/administration/managing-your-team/managing-your-team/"
 ---
 
-> __[Audit logs are available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
+> **[Audit logs are available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
 
 Audit logs display events related to your team, users, and billing. Team Admins can review audit logs to get information about:
 

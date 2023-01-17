@@ -1,15 +1,13 @@
 ---
 title: 'Deploying to an Apigee API gateway'
-page_id: 'deploying_an_api_apigee'
-updated: 2022-02-07
+updated: 2022-09-15
 search_keyword: "deploy, apigee, api gateway"
-warning: false
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Developing an API"
-    url: "/docs/designing-and-developing-your-api/developing-an-api/"
+    name: "API development overview"
+    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -17,7 +15,6 @@ contextual_links:
   - type: link
     name: "Introducing Powerful Integrations"
     url: "https://blog.postman.com/the-new-postman-api-platform/"
-
 ---
 
 [Apigee X](https://cloud.google.com/apigee) enables developers to manage access to their APIs by abstracting services behind a secure proxy layer. Once connected to Apigee X, you can view your API deployment status and history from within Postman.
@@ -34,12 +31,12 @@ contextual_links:
 
 When setting up the connection to Apigee, you need to enter a service account email and a private key. You can create the required items in your Google Cloud project. Follow the steps below to [add a custom role](https://cloud.google.com/iam/docs/creating-custom-roles), [create a service account](https://cloud.google.com/iam/docs/creating-managing-service-accounts), and [generate a private key](https://cloud.google.com/iam/docs/creating-managing-service-account-keys).
 
-To create a custom role:
+To create a custom role, do the following:
 
 1. Log on to the [Google Cloud Platform console](https://console.cloud.google.com/home/dashboard) and go to your project settings.
 1. Select **Roles** in the left navigation pane, and then select **+ Create Role**.
 1. Enter the required details for the role, and then select **+ Add permissions**.
-1. Select the check box next to the following permission properties (enter a property name to locate it in the list):
+1. Select the checkbox next to the following permission properties (enter a property name to locate it in the list):
 
     * `apigee.deployments.list`
     * `apigee.environments.list`
@@ -55,7 +52,7 @@ To create a custom role:
 
 <img alt="Adding a custom role" src="https://assets.postman.com/postman-docs/apigee-custom-role-v9-13.jpg" width="564px"/>
 
-To create a service account:
+To create a service account, do the following:
 
 1. Select **Service Accounts** in the left navigation pane.
 1. Select **+ Create Service Account**.
@@ -68,7 +65,7 @@ To create a service account:
 
 <img alt="Creating a service account" src="https://assets.postman.com/postman-docs/apigee-service-account-v9-13.jpg" width="564px"/>
 
-To generate a private key:
+To generate a private key, do the following:
 
 1. Select the new service account to open it and select the **Keys** tab.
 1. Select **Add key** and select **Create new key**.
@@ -80,11 +77,9 @@ Your browser will automatically download a JSON file that has values for `client
 
 ## Connecting to Apigee X
 
-To connect to Apigee X in Postman, select **APIs** in the sidebar, and then select the API and version you want to connect. Select the **Deployments** tab, and then select **Apigee X**.
+To connect to Apigee X in Postman, select **APIs** in the sidebar and select an API. Select **Deployments**, and then select **Apigee X**.
 
-<img alt="Connecting to an API Gateway" src="https://assets.postman.com/postman-docs/deployments-api-gateway-v9-11.jpg" width="916px"/>
-
-First, authenticate with Apigee X:
+To authenticate with Apigee X, do the following:
 
 1. Enter the **Service Account Email** and **Private Key**. You can find the values in the JSON file you downloaded.
 
@@ -94,11 +89,11 @@ First, authenticate with Apigee X:
 
 <img alt="Apigee X authentication" src="https://assets.postman.com/postman-docs/apigee-authenticate-v9-13.jpg" width="575px"/>
 
-Next, set up the connection to Apigee X:
+To set up the connection to Apigee X, do the following:
 
 1. Select the **Organization** that has the proxy you want to connect to Postman.
 1. Enter a **Nickname** for this integration.
-1. Select the **API Proxy** that you want to connect to your API version in Postman.
+1. Select the **API Proxy** that you want to connect to your API in Postman.
 1. Select one or more **Environments** where you deploy your API in Apigee X.
 1. Select **Complete Setup**.
 
@@ -106,15 +101,15 @@ Next, set up the connection to Apigee X:
 
 ## Viewing Apigee X deployments
 
-After connecting to Apigee X, you can view the deployment status and history for your API schemas in Postman. Select **APIs** in the sidebar, select an API and version, and then select the **Deployments** tab.
+After connecting to Apigee X, you can view the deployment status and history for your API definitions in Postman. Select **APIs** in the sidebar and select an API. Select **Deployments**.
 
 * For your API proxy, you can view the latest revision, source, creation date, and date last updated.
 * For each proxy endpoint, you can view the name and base paths.
 * For each Apigee environment, you can view the description, date last updated, status, deployed revision, and deployment date.
 
-<img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/apigee-viewing-deployments-v9-13.jpg" width="956px"/>
+<img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/v10/apigee-viewing-deployments-v10.jpg" width="956px"/>
 
-From the **Deployments** tab, you can take the following actions:
+From the **Deployments** view, you can take the following actions:
 
 * To view your API proxy in Apigee X, select the **Latest Revision** or a **Deployed Revision.**
 * To view performance metrics for your API proxy in Apigee X, select **API Metrics**.

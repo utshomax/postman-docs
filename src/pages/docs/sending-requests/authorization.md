@@ -2,7 +2,7 @@
 title: "Authorizing requests"
 order: 22
 page_id: "authorization"
-updated: 2021-11-01
+updated: 2022-12-12
 search_keyword: "WWW-Authenticate, x-www-form-urlencoded"
 contextual_links:
   - type: section
@@ -23,10 +23,13 @@ contextual_links:
   - type: link
     name: "Inheriting Auth Details | Postman Level Up"
     url: "https://www.youtube.com/watch?v=WFiYsfSkyXE&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=2"
+  - type: link
+    name: "Automatically Refresh OAuth2.0 Access Tokens | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=FAhs9TBK-xU"
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Intuit"
+    name: "Intuit uses Postman's authentication protocols"
     url: "https://www.postman.com/case-studies/intuit/"
   - type: subtitle
     name: "Next Steps"
@@ -60,6 +63,8 @@ You can pass auth details along with any request you send in Postman. Auth data 
         * [Password credentials](#password-credentials)
         * [Client credentials](#client-credentials)
         * [Requesting an OAuth 2.0 token](#requesting-an-oauth-20-token)
+        * [Refreshing an OAuth 2.0 token](#refreshing-an-oauth-20-token)
+        * [Sharing an OAuth 2.0 token](#sharing-an-oauth-20-access-token)
     * [Hawk authentication](#hawk-authentication)
     * [AWS Signature](#aws-signature)
     * [NTLM authentication](#ntlm-authentication)
@@ -105,7 +110,7 @@ Postman won't send authorization details with a request unless you specify an au
 
 ### API key
 
-With API key auth, you send a key-value pair to the API either in the request headers or query parameters. In the request __Authorization__ tab, select __API Key__ from the __Type__ list. Enter your key name and value, and select either __Header__ or __Query Params__ from the __Add to__ dropdown list. You can store your values in variables for additional security.
+With API key auth, you send a key-value pair to the API either in the request headers or query parameters. In the request __Authorization__ tab, select __API Key__ from the __Type__ list. Enter your key name and value, and select either __Header__ or __Query Params__ from the __Add to__ dropdown list. You can store your values in variables for extra security.
 
 [![API Key Auth](https://assets.postman.com/postman-docs/api-key-auth-selection-v9.jpg)](https://assets.postman.com/postman-docs/api-key-auth-selection-v9.jpg)
 
@@ -127,7 +132,7 @@ Bearer <Your API key>
 
 Basic authentication involves sending a verified username and password with your request. In the request __Authorization__ tab, select __Basic Auth__ from the __Type__ dropdown list.
 
-Enter your API username and password in the __Username__ and __Password__ fields. For additional security, store these in variables.
+Enter your API username and password in the __Username__ and __Password__ fields. For extra security, store these in variables.
 
 In the request __Headers__, the Authorization header passes the API a Base64 encoded string representing your username and password values, appended to the text `Basic` as follows:
 
@@ -143,12 +148,12 @@ In the __Authorization__ tab for a request, select __Digest Auth__ from the __Ty
 
 > If you don't want Postman to automatically extract the data, select **Yes, disable retrying the request** in the left column. If you do this, you will need to complete the advanced fields and run each request manually.
 
-Setting the fields in the **Advanced** section is optional; Postman will populate them automatically when your first request runs.
+Setting the fields in the **Advanced** section is optional. Postman will populate them automatically when your first request runs.
 
 * **Realm** - A string specified by the server in the `WWW-Authenticate` response header.
 * **Nonce** - A unique string specified by the server in the `WWW-Authenticate` response header.
 * **Algorithm** - A string that indicates a pair of algorithms used to produce the digest and a checksum. Postman supports `MD5` and `SHA` algorithms.
-* **qop** - The quality of protection applied to the message. The value must be one of the alternatives specified by the server in the `WWW-Authenticate` response header.
+* **qop** - The quality of protection applied to the message. The value must be one of the options specified by the server in the `WWW-Authenticate` response header.
 * **Nonce Count** - The hexadecimal count of the number of requests (including the current request) that the client has sent with the nonce value in this request.
 * **Client Nonce** - An opaque quoted string value provided by the client, used by both client and server to avoid chosen plaintext attacks, to provide mutual authentication, and to provide some message integrity protection.
 * **Opaque** - A string of data specified by the server in the `WWW-Authenticate` response header, which will be used unchanged with URIs in the same protection space.
@@ -166,7 +171,7 @@ OAuth 1.0 is sometimes referred to as "two-legged" (auth only between client and
 
 > Postman supports [OAuth Core 1.0 Revision A](https://oauth.net/core/1.0a/).
 
-To use OAuth 1.0:
+To use OAuth 1.0, do the following:
 
 1. In the __Authorization__ tab for a request, select __OAuth 1.0__ from the __Type__ dropdown list.
 
@@ -175,7 +180,7 @@ To use OAuth 1.0:
    * If your server requires an `HMAC` or `PLAINTEXT` signature, Postman will provide __Consumer Key__, __Consumer Secret__, __Access Token__, and __Token Secret__ fields.
    * If you're using an `RSA` signature, Postman will present __Consumer Key__, __Access Token__, and __Private Key__ inputs.
 
-1. You can optionally set advanced details—otherwise Postman will attempt to autocomplete these.
+1. You can optionally set advanced details—otherwise Postman will try to autocomplete these.
 
 1. You can include the auth details either in the request headers or in the body / URL. Select one from the **Add authorization to** dropdown list. Open the __Headers__ or __Body__ tab if you want to check how the details will be included with the request.
 
@@ -202,11 +207,11 @@ The OAuth 1.0 auth parameter values are as follows:
     * **Nonce** - A random string generated by the client.
     * **Version** - The version of the OAuth authentication protocol (1.0).
     * **Realm** - A string specified by the server in the `WWW-Authenticate` response header.
-    * **Include body hash** - Hash for integrity check with request bodies _other than_ `application/x-www-form-urlencoded`. (Disabled when you're using callback URL / verifier.)
+    * **Include body hash** - Hash for integrity check with request bodies _other than_ `application/x-www-form-urlencoded`. (Deactivated when you're using callback URL / verifier.)
 
 > If your server implementation of OAuth 1.0 requires it, select __Add empty parameters to signature__.
 >
-> You can also select the box to __Encode the parameters in the authorization header__ for your request.
+> You can also select the checkbox to __Encode the parameters in the authorization header__ for your request.
 
 ### OAuth 2.0
 
@@ -219,7 +224,7 @@ An example OAuth 2.0 flow could run as follows:
 * The service provider validates these details and returns an access token.
 * The client uses the access token to request the user data with the service provider.
 
-To use OAuth 2.0:
+To use OAuth 2.0, do the following:
 
 1. In the __Authorization__ tab for a request, select __OAuth 2.0__ from the __Type__ dropdown list. Specify if you want pass the auth details in the request URL or headers.
 
@@ -237,7 +242,7 @@ To use OAuth 2.0:
 
 #### Authorization code
 
-Authorization code grant type requires the user to authenticate with the provider—an authorization code is then sent back to the client app, extracted, and exchanged with the provider for an access token to authenticate subsequent requests.
+Authorization code grant type requires the user to authenticate with the provider—an authorization code is then sent back to the client app, extracted, and exchanged with the provider for an access token to authenticate later requests.
 
 To use authorization code grant type, enter a __Callback URL__ for your client application (which needs to be registered with the API provider), together with various details provided by the API service including __Auth URL__, __Access Token URL__, __Client ID__, and __Client Secret__.
 
@@ -245,13 +250,13 @@ To use authorization code grant type, enter a __Callback URL__ for your client a
 
 #### Authorization code (with PKCE)
 
-You can use PKCE (Proof Key for Code Exchange) with OAuth 2.0. When you select __Authorization Code (With PKCE)__ two additional fields will become available for __Code Challenge Method__ and __Code Verifier__. You can opt to use `SHA-256` or `Plain` algorithms to generate the code challenge. The verifier is an optional 43-128 character string to connect the authorization request to the token request.
+You can use PKCE (Proof Key for Code Exchange) with OAuth 2.0. When you select __Authorization Code (With PKCE)__ two more fields will become available for __Code Challenge Method__ and __Code Verifier__. You can opt to use `SHA-256` or `Plain` algorithms to generate the code challenge. The verifier is an optional 43-128 character string to connect the authorization request to the token request.
 
 > __Authorization code (With PKCE)__ grant type coupled with __Authorize using browser__ is recommended to prevent auth code interception attacks.
 
 #### Implicit
 
-Implicit grant type returns an access token to the client without requiring the additional auth code step (and is therefore less secure).
+Implicit grant type returns an access token to the client without requiring the extra auth code step (and is therefore less secure).
 
 To use implicit grant type with your requests in Postman, enter a __Callback URL__ you have registered with the API provider, the provider __Auth URL__, and a __Client ID__ for the app you have registered.
 
@@ -277,8 +282,8 @@ On the **Configuration Options** tab:
 
 * **Token Name** - The name you want to use for the token.
 * **Grant Type** - A dropdown list of options. This will depend on the API service provider requirements.
-* **Callback URL** - The client application callback URL to redirect to after auth. This must be registered with the API provider. If not provided, Postman will use a default empty URL and attempt to extract the code or access token from it. If this doesn't work for your API, you can use the following URL: `https://oauth.pstmn.io/v1/browser-callback`
-    * **Authorize using browser** - You can enter your credentials in your web browser, instead of the pop-up that appears in Postman by default when you use the __Authorization code__ or __Implicit__ grant type. Checking this box will set the __Callback URL__ to return to Postman. If you opt to authorize using the browser, make sure pop-ups are deactivated for the callback URL, otherwise it won't work.
+* **Callback URL** - The client application callback URL to redirect to after auth. This must be registered with the API provider. If not provided, Postman will use a default empty URL and try to extract the code or access token from it. If this doesn't work for your API, you can use the following URL: `https://oauth.pstmn.io/v1/browser-callback`
+    * **Authorize using browser** - You can enter your credentials in your web browser, instead of the pop-up that appears in Postman by default when you use the __Authorization code__ or __Implicit__ grant type. Select this checkbox to set the __Callback URL__ to return to Postman. If you opt to authorize using the browser, make sure pop-ups are deactivated for the callback URL, otherwise it won't work.
 * **Auth URL** - The endpoint for the API provider authorization server, to retrieve the auth code.
 * **Access Token URL** - The provider's authentication server, to exchange an authorization code for an access token.
 * **Client ID** - The ID for your client application registered with the API provider.
@@ -294,23 +299,48 @@ On the **Advanced Options** tab:
 
 When your config is complete, select __Get New Access Token__.
 
-> When you use __Authorization code__ or __Implicit__ grant type, you will be prompted to supply your credentials to retrieve an access token to use in subsequent requests. By default Postman will display a pop-up browser when you select __Request Token__. You can alternatively choose to authenticate using your system's default web browser. Select __Authorize using browser__ and the __Callback URL__ will autofill to return to Postman when you have completed auth in the browser, so that your requests can use the token returned on successful authentication.
+> When you use __Authorization code__ or __Implicit__ grant type, you will be prompted to supply your credentials to retrieve an access token to use in later requests. By default Postman will display a pop-up browser when you select __Request Token__. You can instead choose to authenticate using your system's default web browser. Select __Authorize using browser__ and the __Callback URL__ will autofill to return to Postman when you have completed auth in the browser, so that your requests can use the token returned on successful authentication.
 
 A token from the API includes its details, together with the expiry, and optionally a refresh token you can use to retrieve a new access token when your current one expires. Select __Use Token__ to select the returned value.
 
 Any successfully retrieved tokens will be listed in the request __Available Tokens__ dropdown list. Select one to send with your request. Select __Manage Tokens__ in the dropdown list to view more details or delete your tokens.
 
-If authentication fails or times out, Postman will display an error message. You can check the error details in the console, __Retry__ to attempt authentication again, or edit your auth details before continuing.
+If authentication fails or times out, Postman will display an error message. You can check the error details in the console, __Retry__ to try authentication again, or edit your auth details before continuing.
 
 > Deleting a token in Postman doesn't revoke access. Only the server that issues the token can revoke it.
+
+#### Refreshing an OAuth 2.0 token
+
+Before an OAuth 2.0 token generated in Postman expires, Postman automatically refreshes it in the background before you send a request that uses it. The refreshed access token is updated in any requests that it's used in. Auto-refreshing is the default behavior.
+
+To turn this feature off or on, select **Auto-refresh access token**.
+
+<img alt="Auto-refresh an OAuth 2.0 access token" src="https://assets.postman.com/postman-docs/v10/authorization-oauth2-auto-refresh-v10.jpg" width="500px"/>
+
+To manually refresh a token, select **Refresh** next to the token expiration time.
+
+#### Sharing an OAuth 2.0 access token
+
+To enable other Postman users to view and use an OAuth 2.0 access token, select **Share access token**.
+
+<img alt="Share an OAuth 2.0 access token" src="https://assets.postman.com/postman-docs/v10/authorization-oauth2-share-v10.jpg" width="500px"/>
+
+To revoke other users' access to a synced token, do the following:
+
+1. Turn **Share access token** off.
+1. Select **Remove Synced Token**.
+
+After you revoke access, other users with access to the request won't be able to see or use the token.
 
 ### Hawk authentication
 
 Hawk authentication enables you to authorize requests using partial cryptographic verification.
 
+To use Hawk authentication, do the following:
+
 1. In the __Authorization__ tab for a request, select __Hawk Authentication__ from the __Type__ dropdown list.
 
-1. Enter your details in the __Hawk Auth ID__, __Hawk Auth Key__, and __Algorithm__ fields. You can optionally set advanced details, but Postman will attempt to generate values for them if necessary.
+1. Enter your details in the __Hawk Auth ID__, __Hawk Auth Key__, and __Algorithm__ fields. You can optionally set advanced details, but Postman will try to generate values for them if necessary.
 
 > When the required details are complete in the __Authorization__ tab for your request, Postman will add them to the __Headers__.
 
@@ -336,6 +366,8 @@ The official AWS Signature documentation provides more detail:
 * [Signing and Authenticating REST Requests](https://docs.aws.amazon.com/AmazonS3/latest/userguide/RESTAuthentication.html)
 * [Use Postman to Call an API](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-call-api.html)
 
+To use AWS Signature, do the following:
+
 1. In the __Authorization__ tab for a request, select __AWS Signature__ from the __Type__ dropdown list.
 
 1. Select the location where Postman will append your AWS auth details using the __Add authorization data to__ dropdown list, choosing the request headers or URL.
@@ -343,7 +375,7 @@ The official AWS Signature documentation provides more detail:
     * If you select __Request Headers__, Postman will add `Authorization` and `X-Amz-` prefixed fields in the __Headers__ tab.
     * If you select __Request URL__, Postman will add the auth details in __Params__ with keys prefixed `X-Amz-`.
 
-1. Enter your access key and secret values directly in the fields. For additional security, you can use [secret variables](/docs/sending-requests/variables/#variable-types) for these values.
+1. Enter your access key and secret values directly in the fields. For extra security, you can use [secret variables](/docs/sending-requests/variables/#variable-types) for these values.
 
 1. You can optionally set advanced fields, but Postman will autogenerate these if necessary.
 
@@ -357,9 +389,11 @@ The AWS Signature parameters are as follows:
 
 Windows Challenge/Response (NTLM) is the authorization flow for the Windows operating system and for standalone systems.
 
+To use NTLM authentication, do the following:
+
 1. In the __Authorization__ tab for a request, select __NTLM Authentication__ from the __Type__ dropdown list.
 
-1. Enter your __Username__ and __Password__ for NTLM access (use variables to avoid entering the values directly). You can optionally specify advanced parameters, but Postman will attempt to autocomplete these if necessary. By default your request will run a second time after extracting data received from the first. You can turn off this behavior by checking the checkbox.
+1. Enter your __Username__ and __Password__ for NTLM access (use variables to avoid entering the values directly). You can optionally specify advanced parameters, but Postman will try to autocomplete these if necessary. By default your request will run a second time after extracting data received from the first. You can turn off this behavior by checking the checkbox.
 
 Advanced parameters for NTLM auth are as follows:
 
@@ -368,11 +402,13 @@ Advanced parameters for NTLM auth are as follows:
 
 ### Akamai EdgeGrid
 
- Akamai EdgeGrid is an authorization helper developed and used by Akamai.
+Akamai EdgeGrid is an authorization helper developed and used by Akamai.
+
+To use Akamai EdgeGrid, do the following:
 
 1. In the __Authorization__ tab for a request, select __Akamai EdgeGrid__ from the __Type__ dropdown list.
 
-1. Enter your __Access Token__, __Client Token__, and __Client Secret__, using variables for additional security—you will receive these details when you register a client application with Akamai.
+1. Enter your __Access Token__, __Client Token__, and __Client Secret__, using variables for extra security—you will receive these details when you register a client application with Akamai.
 
 > When the required details are complete in the __Authorization__ tab for your request, Postman will add them to the __Headers__.
 

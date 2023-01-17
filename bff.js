@@ -4,6 +4,8 @@ const crypto = require('crypto');
 const pingWebHook = require('./build/pingWebHook');
 const fetchBlogPosts = require('./build/fetchBlogPosts');
 const fetchEvents = require('./build/fetchEvents');
+const fetchFooter = require('./build/fetchFooter');
+const fetchNavbar = require('./build/fetchNavbar');
 const fetchPmTech = require('./build/fetchPmTech');
 const { allow } = require('./package.json');
 
@@ -42,10 +44,12 @@ const prefetch = async () => {
   await pingWebHook();
   fetchBlogPosts();
   fetchEvents();
+  fetchFooter();
+  fetchNavbar();
 
   let pmTech = '';
 
-  if (process.env.PM_TECH) {
+  if (process.env.PM_TECH_RT) {
     pmTech = await fetchPmTech();
 
     pmTech = pmTech;
@@ -83,7 +87,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','${GTMCode}');`;
 
-  const script = (process.env.PM_TECH
+  const script = (process.env.PM_TECH_RT
       && `
 ${pmTech}
 setTimeout(function(){

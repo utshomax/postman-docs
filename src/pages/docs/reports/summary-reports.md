@@ -14,7 +14,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Validating APIs against schema"
-    url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
+    url: "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 ---
 
 > [__Reports are available on all Postman Enterprise plans.__](https://www.postman.com/pricing)
@@ -43,6 +43,8 @@ To be included in this metric, an API must have [**Team** or **Public** visibili
     > * Adding integrations
 
 * **Resource usage** - The number of used and unused integrations, mock calls, monitor requests, and Postman API calls across your team, calculated as the amount that have been used or not used from your total resource limit.
+
+    > To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).
 
 ## How people are interacting with your publicly shared work
 

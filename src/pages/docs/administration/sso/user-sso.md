@@ -12,13 +12,13 @@ contextual_links:
     url: "/docs/administration/sso/intro-sso/"
 ---
 
-> __[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
+> **[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
 
 When your [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) has enabled single sign-on (**SSO**) for Postman, you can sign in to Postman with a [configured Identity provider](/docs/administration/sso/intro-sso/).
 
 Your Team Admin can share a **Login URL** that was generated during the SSO configuration. The **Login URL** will automatically redirect you to your configured Identity Provider.
 
-To sign into Postman:
+To sign into Postman, do the following:
 
 1. Select **Sign In** in the upper-right corner of Postman
 1. Select **Home** in the upper-left, then select **Sign in**

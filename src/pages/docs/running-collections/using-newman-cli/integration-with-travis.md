@@ -31,11 +31,11 @@ tags:
 
 ---
 
-Continuous Integration (CI) is a development practice that encourages developers to regularly commit their code changes to a shared repository, usually several times a day. Committing early and often helps the team avoid technical debt and detect problems.
+Continuous integration (CI) is a development practice that encourages developers to regularly commit their code changes to a shared repository, usually several times a day. Committing early and often helps the team avoid technical debt and detect problems.
 
-With CI, every code commit triggers an automated process that builds the code and runs tests. The process can even deploy the updated code if all checks pass, a practice referred to as Continuous Delivery (CD).
+With CI, every code commit triggers an automated process that builds the code and runs tests. The process can even deploy the updated code if all checks pass, a practice referred to as continuous delivery (CD).
 
-> **Developing an API?** Postman offers built-in tools to integrate your API with some of the most widely-used Continuous Integration (CI) tools, including Travis CI. After you set up CI integration for your API, you can view the status of builds or kick off a new build, all from within Postman. You can also use Newman to run API tests as part of your CI pipeline. To learn more, see [CI integrations](/docs/integrations/ci-integrations/).
+> **Developing an API?** Postman offers built-in tools to integrate your API with some of the most widely-used continuous integration (CI) tools, including Travis CI. After you set up CI for your API, you can view the status of builds or kick off a new build, all from within Postman. You can also use Newman to run API tests as part of your CI pipeline. To learn more, see [CI integrations](/docs/integrations/ci-integrations/).
 
 ## Running Postman tests with Travis CI
 
@@ -119,6 +119,8 @@ This example shows you how to integrate Postman with [Travis CI](https://travis-
 ## Fixing test failures
 
 What do things look like when a test fails? To find out, make a change in your imported "Hello Word" collection in Postman so that one of the test breaks.
+
+To view a failed test, do the following:
 
 1. Open the collection, select the "Hello World" request, and then select the **Tests** tab.
 
