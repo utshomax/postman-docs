@@ -64,8 +64,12 @@ Any responses that aren't the same HTTP method type as the incoming request are 
 The matching algorithm checks any custom headers passed in the incoming request in the following order:
 
 1. If the `x-mock-response-code` header is provided, the algorithm filters out all examples that don't have a matching response status code.
-1. If the `x-mock-response-id` header is provided, the algorithm selects the example with the matching response ID and returns the example as the response. An error is returned if no example is found with a matching ID.
-1. If the `x-mock-response-name` header is provided, the algorithm selects the example with the matching name and returns the example as the response. If more than one example has the same name, Postman sorts the examples by ID and returns the example that comes first in the list. An error is returned if no example is found with a matching name.
+1. If the `x-mock-response-id` header is provided, the algorithm selects the example with the matching response ID and returns the example as the response. If no example is found with a matching ID, the matching process stops and an error is returned.
+1. If the `x-mock-response-name` header is provided, the algorithm selects the example with the matching name and returns the example as the response.
+
+    * If more than one example has the same name, Postman sorts the examples by ID and returns the first example in the list with a `200` response status code.
+    * If no matching example has a `200` response code, Postman returns the first example in the sorted list.
+    * If no example is found with a matching name, the matching process stops and an error is returned.
 
 ### 4. Filter by URL
 
@@ -109,7 +113,9 @@ You can [turn on header and body matching](/docs/designing-and-developing-your-a
 
 The matching algorithm checks the matching scores of the remaining examples and returns the example with the highest score.
 
-> If more than one example has the same matching score, the algorithm returns the example that comes last in lexicographical order by ID.
+  * If more than one example has the highest score, Postman sorts the examples by ID and returns the first example in the list with a `200` response status code.
+  * If none of the highest-scoring examples has a `200` response code, Postman returns the first example in the sorted list.
+
 
 ## Using wildcard variables
 
