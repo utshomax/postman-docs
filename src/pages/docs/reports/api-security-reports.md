@@ -16,8 +16,6 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
 ---
 
-> **This Enterprise feature is in beta.** During the beta period, it may not be available to all [Postman Enterprise](https://www.postman.com/pricing) users and is subject to potential changes.
-
 The **API Security** report dashboard provides metrics relevant to the [API Security](/docs/api-governance/api-testing/api-testing-warnings/) posture of your Postman APIs. This section has two reports:
 
 * [Public APIs](#public-apis)
