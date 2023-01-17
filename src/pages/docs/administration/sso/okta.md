@@ -68,10 +68,11 @@ Now, download the encryption certificate. Select the **Download as file** link (
 
 ### Okta - Step 7
 
-Configure the options as shown below. Ensure your field options reflect these values.
+Configure the options as shown in [step 6](#okta---step-6). Ensure your field options reflect these values.
+
 [![okta advanced](https://assets.postman.com/postman-docs/Okta-SAML-Adv-Settings.png)](https://assets.postman.com/postman-docs/Okta-SAML-Adv-Settings.png)
 
-For the Encryption Certificate, upload the encryption file in the **Encryption Certificate** field shown above. Remember, you downloaded the encryption file earlier using the **Download as a file** link in Postman's Service Provider Details section. Select **Next** to continue.
+For the Encryption Certificate, upload the encryption file in the **Encryption Certificate** field. Remember, you downloaded the encryption file earlier using the **Download as a file** link in Postman's Service Provider Details section. Select **Next** to continue.
 
 ### Okta - Step 8
 

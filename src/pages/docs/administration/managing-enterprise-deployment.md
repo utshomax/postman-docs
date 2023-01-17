@@ -208,7 +208,7 @@ pkgutil --volume / --files <the bundle id>
 pkgutil --volume "$HOME" --files <the bundle id>
 ```
 
-You can proceed to remove the PKG by deleting the files printed out by the above commands relative to `$HOME` depending on if the PKG was installed system-wide or per-user.
+You can remove the PKG by deleting the files printed out by these commands relative to `$HOME`, depending on if the PKG was installed system-wide or per user.
 
 After removal, you must notify macOS that the PKG was removed:
 
