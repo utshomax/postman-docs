@@ -127,15 +127,12 @@ In this example, the flow gets data from the **Start** block and passes it to an
     ![Select JSON](https://assets.postman.com/postman-docs/v10/flow-passing-data-start-1-v10.jpg)
 
 1. Connect an **Evaluate** block to the **Start** block.
-
 1. In the **Evaluate** block, select **key** and enter `body`. This assigns all the data received from the **Start** block to the variable `body`.
 
     ![Select Enter path...](https://assets.postman.com/postman-docs/v10/flow-body-v10.jpg)
 
 1. In the **Evaluate** block, select **Enter FQL query** and enter `body`. This sends all the data in the `body` variable to the **Evaluate** block's output.
-
 1. Connect a **Log** block to the **Evaluate** block.
-
 1. Select **Console** then select **Run**. The flow gets the data from the **Start** block, routes it to the **Evaluate** block, and passes the entire response to the **Log** block, which displays the data in the console.
 
 ## Passing specified data between blocks
@@ -222,19 +219,16 @@ You can extract specific values from response data in a number of ways using var
     ![Select JSON](https://assets.postman.com/postman-docs/v10/flow-passing-data-start-1-v10.jpg)
 
 1. Connect an **Evaluate** block to the **Start** block.
-
 1. In the **Evaluate** block, select **key** and enter `body`. This assigns all the data received from the **Start** block to the variable `body`.
 
     ![Select Enter path...](https://assets.postman.com/postman-docs/v10/flow-body-v10.jpg)
 
-1. In the **Evaluate** block, select **Enter FQL query** and enter `body.results.location.country`. This navigates the response data with FQL and extracts the value for the `country` field.
-
+1. In the **Evaluate** block, select **Enter FQL query** and enter `body.results.location.country`. This navigates the response data with [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) and extracts the value for the `country` field.
 1. Connect a **Log** block to the **Evaluate** block.
 
     ![Add a Log block](https://assets.postman.com/postman-docs/v10/flow-add-log-block-data-v10.jpg)
 
 1. Select **Console**.
-
 1. Select **Run**. `"Norway"` appears in the console.
 
     ![Open the console and select Run](https://assets.postman.com/postman-docs/v10/flow-console-country-1-v10.jpg)
