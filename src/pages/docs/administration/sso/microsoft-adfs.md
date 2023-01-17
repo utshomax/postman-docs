@@ -51,37 +51,31 @@ Relying Party Trust defines the connection between Microsoft AD FS and Postman.
 1. Open AD FS Management on your computer.
 1. Select the **Relying Party Trusts** folder.
 1. On the Actions sidebar, select **Add Relying Party Trust** to start the configuration wizard for a new trust.
-1. In the Welcome screen, select **Claims aware** and then select **Start**.
+1. In the Welcome screen, select **Start**.
 
-    ![relying party trust](https://assets.postman.com/postman-docs/ENT-Relying-Party-Trust.png)
+    ![Add a relying party trust](https://assets.postman.com/postman-docs/v10/ENT-Relying-Party-Trust-v10.jpg)
 
 1. In the Select Data Source screen, select **Enter data about the party manually** and then select **Next**.
-
-    [![select data source](https://assets.postman.com/postman-docs/ENT-Enter-Data-About-Party-Manually.jpeg)](https://assets.postman.com/postman-docs/ENT-Enter-Data-About-Party-Manually.jpeg)
-
 1. In the Specify Display Name screen, enter a display name you'll recognize later and then select **Next**. You can optionally add notes.
-
-    ![display name](https://assets.postman.com/postman-docs/ENT-display-name.jpeg)
+1. In the Choose Profile screen, select **AD FS profile** and then select **Next**.
 
 1. In the Configure Certificate screen, upload the **Encryption Certificate** downloaded from Postman or use the default certificate settings, and then select **Next**.
 
-    ![encryption cert](https://assets.postman.com/postman-docs/ENT-configure-cert.jpeg)
+    ![Upload encryption certificate](https://assets.postman.com/postman-docs/v10/ENT-configure-cert-v10.jpg)
 
 1. In the Configure URL screen, select **Enable support for the SAML 2.0 WebSSO protocol**.
 1. Take the **ACS URL** from Postman and add it as your **Relying party SAML 2.0 SSO service URL**, and then select **Next**.
 
-    ![acs url](https://assets.postman.com/postman-docs/ENT-ACS-URL.jpeg)
+    ![Add the ACS URL](https://assets.postman.com/postman-docs/ENT-ACS-URL.jpg)
 
-1. In the Configure Identifiers screen, take the **Entity ID** from Postman and add it as your **Relying party trust identifier**, and then select **Next**.
+1. In the Configure Identifiers screen, take the **Entity ID** from Postman and add it as your **Relying party trust identifier**, and then select **Add**. Then select **Next**.
 
-    <!-- TODO: this image needs to be updated: The Relying party trust identifier field input should be blurred -->
-    ![replying party trust identifier](https://assets.postman.com/postman-docs/ENT-Relying-party-trust-identifier.jpeg)
+    ![Add the entity ID](https://assets.postman.com/postman-docs/v10/ENT-Relying-party-trust-identifier-v10.jpg)
 
-1. In the Choose Access Control Policy screen, select **Permit everyone** and then select **Next**.
+1. In the Configure Multi-factor Authentication Now? screen, select **I do not want to configure multi-factor authentication settings for this relying party trust at this time**.
 
-    ![permit everyone](https://assets.postman.com/postman-docs/ENT-Permit-everyone.jpeg)
-
-1. In the next two screens, review your settings and then select **Next**.
+1. In the Choose Issuance Authorization Rules screen, select **Permit all users to access this relying party** and then select **Next**.
+1. In the Ready to Add Trust screen, review your settings and then select **Next**.
 1. In the Finish screen, select **Close** to exit and open the [Claim Rules editor](#create-claim-rules).
 
 ### Create claim rules
