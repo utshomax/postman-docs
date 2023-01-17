@@ -14,7 +14,7 @@ contextual_links:
 
 > **[SSO with Okta is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-You must be an admin of your Okta organization in order to create this custom SAML application. You can set up your custom SAML application by using the available Postman app in Okta or by configuring it directly in Okta.
+To configure SSO with Okta, you can use the available Postman app in Okta or create a custom SAML application. You must be an administrator in both Okta and Postman to configure SSO for your team.
 
 ## Contents
 
