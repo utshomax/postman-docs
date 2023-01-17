@@ -27,8 +27,8 @@ After you meet these minimum requirements, install Microsoft AD FS on your serve
     * [Add a Relying Party Trust](#add-a-relying-party-trust)
     * [Create claim rules](#create-claim-rules)
     * [Adjust the trust settings](#adjust-the-trust-settings)
-    * [Submit Identity Provider details](#submit-identity-provider-details)
     * [Enable the RelayState parameter on your AD FS servers](#enable-the-relaystate-parameter-on-your-ad-fs-servers)
+    * [Submit Identity Provider details](#submit-identity-provider-details)
 
 ## Configuring SSO with Microsoft AD FS
 
@@ -41,12 +41,12 @@ To continue configuring your server, complete the following tasks in order:
 * [Add a Relying Party Trust](#add-a-relying-party-trust)
 * [Create claim rules](#create-claim-rules)
 * [Adjust the trust settings](#adjust-the-trust-settings)
-* [Submit Identity Provider details](#submit-identity-provider-details)
 * [Enable the RelayState parameter on your AD FS servers](#enable-the-relaystate-parameter-on-your-ad-fs-servers)
+* [Submit Identity Provider details](#submit-identity-provider-details)
 
 ### Add a Relying Party Trust
 
-Relying Party Trust defines the connection between Microsoft AD FS and Postman.
+The relying party trust defines the connection between Microsoft AD FS and Postman.
 
 1. Open AD FS Management on your computer.
 1. Select the **Relying Party Trusts** folder.
@@ -83,56 +83,36 @@ Relying Party Trust defines the connection between Microsoft AD FS and Postman.
 After you create the relying party trust, you can create two claim rules. The first rule uses the [Send LDAP Attributes as Claims](https://learn.microsoft.com/en-us/windows-server/identity/ad-fs/operations/create-a-rule-to-send-ldap-attributes-as-claims) rule template, and the second rule uses the [Transform an Incoming Claim](https://learn.microsoft.com/en-us/windows-server/identity/ad-fs/operations/create-a-rule-to-transform-an-incoming-claim) rule template.
 
 1. Open AD FS Management on your computer.
-1. Select the **Relying Party Trusts** folder.
-1. On the Actions sidebar, select **Edit Claim Issuance Policy** to start the configuration wizard for a new rule.
+1. Select the **Relying Party Trusts** folder, and then select the [relying party trust you created](#add-a-relying-party-trust).
+1. On the Actions sidebar, select **Edit Claim Rules** to start the configuration wizard for a new rule.
 1. Select **Add Rule** to create a new rule.
 
-    ![claim rules](https://assets.postman.com/postman-docs/ENT-claim-rules.jpeg)
+    ![Edit claim rules](https://assets.postman.com/postman-docs/v10/ENT-claim-rules-v10.jpg)
 
 1. In the Select Rule Template screen, select **Send LDAP Attributes as Claims** as the claim rule template, and then select **Next**.
+1. In the Configure Rule screen, enter a claim rule name you'll recognize later. Select **Active Directory** as the attribute store. In the **LDAP Attribute** column, select **E-Mail Addresses**. In the **Outgoing Claim Type** column, select **E-Mail Address**. Then select **Finish**.
 
-    ![add rule](https://assets.postman.com/postman-docs/ENT-Add-Rule.jpeg)
+    ![Configure Send LDAP Attributes as Claims](https://assets.postman.com/postman-docs/v10/ENT-ldap-attributes-as-claims-v10.jpg)
 
-1. In the Configure Rule screen, enter a claim rule name you'll recognize later.
-1. Select **Active Directory** as the attribute store.
-1. In the **LDAP Attribute** column, select **E-Mail Addresses**. In the **Outgoing Claim Type** column, select **E-Mail Address**.
-
-    ![active directory](https://assets.postman.com/postman-docs/ENT-Active-Directory.jpeg)
-
-1. Select **Finish**.
 1. Select **Add Rule** to create another new rule.
 1. In the Select Rule Template screen, select **Transform an Incoming Claim** as the claim rule template, and then select **Next**.
+1. In the Configure Rule screen, enter a claim rule name you'll recognize later. Select **E-mail Address** as the incoming claim type. Select **Name ID** as the outgoing claim type. Select **Email** as the outgoing name ID format. Select **Pass through all claim values**. Then select **Finish**.
 
-    ![incoming claim](https://assets.postman.com/postman-docs/ENT-Transform-Incoming-Claim.jpeg)
+    ![Configure Transform an Incoming Claim](https://assets.postman.com/postman-docs/v10/ENT-transform-incoming-claim-v10.jpg)
 
-1. In the Configure Rule screen, enter a claim rule name you'll recognize later.
-1. Select **E-mail Address** as the incoming claim type. Select **Name ID** as the outgoing claim type. Select **Email** as the outgoing name ID format.
-1. Select **Pass through all claim values**.
+1. Select **Apply**, and then select **OK** to save the new rules.
 
-    ![pass through claim values](https://assets.postman.com/postman-docs/ENT-Pass-through-all-claim-values.jpeg)
-
-1. Select **Finish**.
-1. Select **OK** to save the new rules.
-
-![edit claim issuance](https://assets.postman.com/postman-docs/ENT-Edit-Claim-Issuance-Policy.jpeg)
+![Edit claim rules result](https://assets.postman.com/postman-docs/v10/ENT-Edit-Claim-Rules-v10.jpg)
 
 ### Adjust the trust settings
 
 1. Open AD FS Management on your computer.
-1. Select the **Relying Party Trusts** folder.
-1. Select the [Relying Party Trust you created](#add-a-relying-party-trust).
+1. Select the **Relying Party Trusts** folder, and then select the [relying party trust you created](#add-a-relying-party-trust).
 1. In the Actions sidebar, select **Properties**.
-1. Select the Advanced tab. Select **SHA-1** as the secure hash algorithm, and then select **OK**.
+1. Select the Advanced tab. Select **SHA-1** as the secure hash algorithm.
+1. Select **Apply**, and then select **OK**.
 
-![adjusting trust](https://assets.postman.com/postman-docs/ENT-Adjusting-trust-settings.jpeg)
-
-### Submit Identity Provider details
-
-After the setup, submit your Identity Provider's details to Postman.
-
-1. Download the Federation Metadata XML file from Microsoft AD FS. You can often find this file at: `https://<Federation Service name>/FederationMetadata/2007-06/FederationMetadata.xml`.
-1. In Postman, upload the Federation Metadata XML file under **Identity provider metadata** file. Or, you can enter the **SSO URL**, **Identity provider issuer**, and **X.509 Certificate** individually under **Identity provider details**.
-1. Select **Save Authentication** in Postman.
+    ![Adjusting trust settings](https://assets.postman.com/postman-docs/v10/ENT-Adjusting-trust-settings-v10.jpg)
 
 ### Enable the RelayState parameter on your AD FS servers
 
@@ -165,3 +145,11 @@ Finally, enable the RelayState parameter on your Microsoft AD FS servers.
 1. For both Microsoft AD FS 2.0 and 3.0, restart the Active Directory Federation Services (`adfssrv`) service.
 
     > If you're using Microsoft AD FS 3.0 you only need to restart the Active Directory Federation Services (`adfssrv`) service on your Microsoft AD FS 3.0 servers, not the WAP servers.
+
+### Submit Identity Provider details
+
+After the setup, submit your Identity Provider's details to Postman.
+
+1. Download the Federation Metadata XML file from Microsoft AD FS. You can often find this file at: `https://<Federation Service name>/FederationMetadata/2007-06/FederationMetadata.xml`.
+1. In Postman, upload the Federation Metadata XML file under **Identity provider metadata** file. Or, you can enter the **SSO URL**, **Identity provider issuer**, and **X.509 Certificate** individually under **Identity provider details**.
+1. Select **Save Authentication** in Postman.
