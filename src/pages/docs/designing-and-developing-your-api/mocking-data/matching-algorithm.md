@@ -68,7 +68,7 @@ The matching algorithm checks any custom headers passed in the incoming request 
 1. If the `x-mock-response-name` header is provided, the algorithm selects the example with the matching name and returns the example as the response.
 
     * If more than one example has the same name, Postman sorts the examples by ID and returns the first example in the list with a `200` response status code.
-    * If no matching example has a `200` response code, Postman returns the first example in the sorted list.
+    * If none of the matching examples has a `200` response code, Postman returns the first example in the sorted list.
     * If no example is found with a matching name, the matching process stops and an error is returned.
 
 ### 4. Filter by URL
@@ -92,13 +92,20 @@ An example starts with a score of 100. The algorithm goes through the following 
 
 ### 5. Filter by parameters
 
-After matching URLs, the algorithm examines the parameters for each example (such as `{{url}}/path?status=pass`). The matching score is further adjusted based on how closely the request and example parameters match.
+After matching URLs, the algorithm examines the parameters for each example (such as `{{url}}/path?status=pass`). The matching score is further adjusted based on the number of parameter matches, partial parameter matches, and missing parameters.
 
-| Parameter matching step | Matching score adjustment |
+* **Parameter match** - A key-value pair in the example matches a key-value pair in the incoming request.
+* **Partial parameter match** - A key in the example matches a key in the incoming request, but the values for the keys don't match.
+* **Missing parameter** - A key in the example is not found in the incoming request.
+
+The number of matching parameters is used to calculate the _matching percentage_. The matching percentage equals the number of parameter matches divided by the total number of parameter matches, partial parameter matches, and missing parameters.
+
+| Parameter matching result | Matching score adjustment |
 | ----------- | ----------- |
-| Parameter match is perfect | Increased by 10 |
-| Parameter match is case insensitive | Increased by 5 |
-| Parameters don't match | Reduced by 10 |
+| All parameters match (case sensitive) | Increased by 10 |
+| All parameters match (case insensitive) | Increased by 5 |
+| Some parameters match | Increased by 10 multiplied by the matching percentage |
+| No parameters match | Reduced by the number of missing parameters |
 
 ### 6. Check for header and body matching
 
