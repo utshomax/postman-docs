@@ -1,7 +1,12 @@
 ---
 title: "API Security reports"
-updated: 2022-09-15
+updated: 2023-01-18
 contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "API Governance and API Security in Postman"
+    url: "/docs/api-governance/api-governance-overview/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -9,11 +14,6 @@ contextual_links:
   - type: link
     name: "Introducing New Postman Reports for Enterprises"
     url: "https://blog.postman.com/introducing-new-postman-reports-for-enterprises/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Validating APIs against schema"
-    url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
 ---
 
 The **API Security** report dashboard provides metrics relevant to the [API Security](/docs/api-governance/api-testing/api-testing-warnings/) posture of your Postman APIs. This section has two reports:

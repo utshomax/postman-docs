@@ -3,17 +3,17 @@ title: "API Governance reports"
 updated: 2022-09-15
 contextual_links:
   - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "API Governance and API Security in Postman"
+    url: "/docs/api-governance/api-governance-overview/"
+  - type: section
     name: "Additional Resources"
   - type: subtitle
     name: "Blog Posts"
   - type: link
     name: "Introducing New Postman Reports for Enterprises"
     url: "https://blog.postman.com/introducing-new-postman-reports-for-enterprises/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Validating APIs against schema"
-    url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
 ---
 
 The **API Governance** report dashboard provides metrics relevant to your team's [API Governance](/docs/api-governance/api-governance-overview/) rule compliance. This section has two reports:

@@ -4,17 +4,17 @@ updated: 2023-01-11
 warning: false
 contextual_links:
   - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Token Scanner"
+    url: "/docs/administration/token-scanner/"
+  - type: section
     name: "Additional Resources"
   - type: subtitle
     name: "Blog Posts"
   - type: link
     name: "Introducing New Postman Reports for Enterprises"
     url: "https://blog.postman.com/introducing-new-postman-reports-for-enterprises/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Validating APIs against schema"
-    url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
 ---
 
 The **Token Scanner** report provides metrics including an overview of your total collections scanned, collections with exposed tokens, total exposed tokens, and separate visualizations of exposed tokens by type and over time. This report consolidates the findings of the Postman Token Scanner from your public documentation. Learn more about the Postman [Token Scanner](/docs/api-security/token-scanner/).
