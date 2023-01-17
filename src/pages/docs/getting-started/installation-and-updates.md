@@ -33,7 +33,7 @@ contextual_links:
 
 ---
 
-Postman is available on the web at **[go.postman.co/home](https://go.postman.co/home)** and as a native desktop app for Mac (Intel and Apple), Windows (32-bit / 64-bit), and Linux (64-bit) operating systems.
+Postman is available on the web at **[go.postman.co/home](https://go.postman.co/home)** and as a native desktop app for Mac (Intel or Apple silicon), Windows (Intel 32-bit or 64-bit), and Linux (64-bit) operating systems.
 
 To get the latest version of the Postman desktop app, visit the [download page](https://www.postman.com/downloads/) and select **Download** for your platform.
 
@@ -62,7 +62,7 @@ Postman is available for Windows 7 and later.
 1. [Download](https://www.postman.com/downloads/) the latest Postman version.
 1. Select and run the `.exe` file to install Postman.
 
-> Postman v9.4 is the last version of Postman that supports both 32-bit and 64-bit Windows. All versions of Postman following v9.4 will only work on 64-bit Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
+> Postman v9.4 is the last version of Postman that supports both 32-bit and 64-bit Windows. All versions of Postman following v9.4 will only work on 64-bit x86 Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
 
 ## Installing Postman on Mac
 
@@ -109,7 +109,7 @@ Type=Application
 Categories=Development;
 ```
 
-> Postman supports the following distributions:
+> Postman supports the following distributions on x86-64 hardware:
 >
 > * Ubuntu 14.04 and newer
 > * Fedora 24

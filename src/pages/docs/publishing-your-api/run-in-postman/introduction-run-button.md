@@ -31,10 +31,10 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Twitter"
+    name: "Twitter uses Run in Postman buttons to automate importing"
     url:  "https://www.postman.com/case-studies/twitter/"
   - type: link
-    name: "Box"
+    name: "Box's Run In Postman button loads collection into its app"
     url:  "https://www.postman.com/case-studies/box/"
   - type: section
     name: "Next steps"
