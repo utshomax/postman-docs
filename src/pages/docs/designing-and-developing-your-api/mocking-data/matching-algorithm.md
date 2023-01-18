@@ -96,7 +96,7 @@ After matching URLs, the algorithm examines the parameters for each example (suc
 
 * **Parameter match** - A key-value pair in the example matches a key-value pair in the incoming request.
 * **Partial parameter match** - A key in the example matches a key in the incoming request, but the values for the keys don't match.
-* **Missing parameter** - A key in the example is not found in the incoming request.
+* **Missing parameter** - A key in the example isn't found in the incoming request.
 
 The number of matching parameters is used to calculate the _matching percentage_. The matching percentage equals the number of parameter matches divided by the total number of parameter matches, partial parameter matches, and missing parameters.
 
@@ -122,9 +122,8 @@ When header and body matching are enabled:
 
 The matching algorithm checks the matching scores of the remaining examples and returns the example with the highest score.
 
-  * If more than one example has the highest score, Postman sorts the examples by ID and returns the first example in the list with a `200` response status code.
-  * If none of the highest-scoring examples has a `200` response code, Postman returns the first example in the sorted list.
-
+* If more than one example has the highest score, Postman sorts the examples by ID and returns the first example in the list with a `200` response status code.
+* If none of the highest-scoring examples has a `200` response code, Postman returns the first example in the sorted list.
 
 ## Using wildcard variables
 
