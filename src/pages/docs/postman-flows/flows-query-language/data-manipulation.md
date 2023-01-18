@@ -256,7 +256,7 @@ $pad(customer_info.'customer field', 15, '#')
 
 ## Split a string into an array of components
 
-The `$split()` function returns the string split on the separator specified in the second parameter and optionally limited by the third parameter. You can also use a regex instead of a string.
+The `$split()` function returns the string split on the separator specified in the second parameter and optionally limited by the third parameter. You can also use a regex instead of a string.<!-- TODO: Figure out what regex engine this uses and add some examples of it. -->
 
 ### FQL
 
