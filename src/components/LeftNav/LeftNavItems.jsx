@@ -367,7 +367,7 @@ export const leftNavItems = [
     url: '/docs/postman-flows/flows-intro/flows-overview/',
     subMenuItems1: [
       {
-        name: 'Getting Started',
+        name: 'Getting started',
         subParentSlug: 'flows-intro',
         slug: '/docs/postman-flows/flows-intro/flows-overview/',
         subMenuItems2: [
@@ -388,8 +388,8 @@ export const leftNavItems = [
             url: '/docs/postman-flows/flows-intro/running-requests-in-sequence/',
           },
           {
-            name: 'Chaining requests with data',
-            url: '/docs/postman-flows/flows-intro/chaining-requests-with-data/',
+            name: 'Passing data between blocks',
+            url: '/docs/postman-flows/flows-intro/passing-data-between-blocks/',
           },
         ],
       },
