@@ -16,9 +16,9 @@ Most APIs require authorization to access their data. Postman Flows can include 
 
 This example flow uses a secret key to access the OpenAI API. To get your secret key:
 
-1. In your browser, go to https://beta.openai.com/account/api-keys and select **Sign up**.
+1. In your browser, go to [https://beta.openai.com/account/api-keys](https://beta.openai.com/account/api-keys) and select **Sign up**.
 1. Follow the prompts to create and sign into an OpenAI account.
-1. Return to https://beta.openai.com/account/api-keys and create a secret key.
+1. Return to [https://beta.openai.com/account/api-keys](https://beta.openai.com/account/api-keys) and create a secret key.
 1. Copy and paste your secret key in a secure but accessible location. You'll use it in a later step.
 
 ## Create a variable for the secret key
