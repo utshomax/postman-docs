@@ -133,6 +133,9 @@ In this example, the flow gets data from the **Start** block and passes it to an
 
 1. In the **Evaluate** block, select **Enter FQL query** and enter `body`. This sends all the data in the `body` variable to the **Evaluate** block's output.
 1. Connect a **Log** block to the **Evaluate** block.
+
+    ![Connect a Log block](https://assets.postman.com/postman-docs/v10/flow-body-log-v10.jpg)
+
 1. Select **Console** then select **Run**. The flow gets the data from the **Start** block, routes it to the **Evaluate** block, and passes the entire response to the **Log** block, which displays the data in the console.
 
 ## Passing specified data between blocks
@@ -229,6 +232,6 @@ You can extract specific values from response data in a number of ways using var
     ![Add a Log block](https://assets.postman.com/postman-docs/v10/flow-add-log-block-data-v10.jpg)
 
 1. Select **Console**.
-1. Select **Run**. `"Norway"` appears in the console.
+1. Select **Run**. The **Start** block sends its data to the **Evaluate** block. The FQL in the **Evaluate** block gets the value of the `country` field (`"Norway"`) in the response data and sends it to the **Log** block. `"Norway"` appears in the console.
 
     ![Open the console and select Run](https://assets.postman.com/postman-docs/v10/flow-console-country-1-v10.jpg)
