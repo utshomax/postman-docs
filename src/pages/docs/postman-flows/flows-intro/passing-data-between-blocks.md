@@ -25,7 +25,7 @@ In this example, the **Send Request** block gets data using a collection's GET r
 
 1. Select **Send**.
 
-    ![Create a request](https://assets.postman.com/postman-docs/v10/flow-get-request-v10.jpg)
+    ![Select Send](https://assets.postman.com/postman-docs/v10/flow-get-request-v10.jpg)
 
 1. Select **Save**.
 
@@ -35,7 +35,7 @@ In this example, the **Send Request** block gets data using a collection's GET r
 
 1. In the **Send Request** block, select **Add request > Random User Collection > New Request**. Each time the flow executes, it will get data using the GET request from the Random User Collection request you created earlier.
 
-    ![Select data](https://assets.postman.com/postman-docs/v10/flow-select-data-v10.jpg)
+    ![Select Add request](https://assets.postman.com/postman-docs/v10/flow-select-data-v10.jpg)
 
 1. Connect a **Log** block to the **Send Request** block's **Success** port.
 
@@ -129,7 +129,7 @@ In this example, the flow gets data from the **Start** block and passes it to an
 1. Connect an **Evaluate** block to the **Start** block.
 1. In the **Evaluate** block, select **key** and enter `body`. This assigns all the data received from the **Start** block to the variable `body`.
 
-    ![Select Enter path...](https://assets.postman.com/postman-docs/v10/flow-body-v10.jpg)
+    ![Add variable body](https://assets.postman.com/postman-docs/v10/flow-body-v10.jpg)
 
 1. In the **Evaluate** block, select **Enter FQL query** and enter `body`. This sends all the data in the `body` variable to the **Evaluate** block's output.
 1. Connect a **Log** block to the **Evaluate** block.
@@ -224,7 +224,7 @@ You can extract specific values from response data in a number of ways using var
 1. Connect an **Evaluate** block to the **Start** block.
 1. In the **Evaluate** block, select **key** and enter `body`. This assigns all the data received from the **Start** block to the variable `body`.
 
-    ![Select Enter path...](https://assets.postman.com/postman-docs/v10/flow-body-v10.jpg)
+    ![Add variable body](https://assets.postman.com/postman-docs/v10/flow-body-v10.jpg)
 
 1. In the **Evaluate** block, select **Enter FQL query** and enter `body.results.location.country`. This navigates the response data with [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) and extracts the value for the `country` field.
 1. Connect a **Log** block to the **Evaluate** block.
