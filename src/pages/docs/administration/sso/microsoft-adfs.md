@@ -142,7 +142,7 @@ Enable the RelayState parameter on your Microsoft AD FS servers, and then restar
     </microsoft.identityServer.web>
     ```
 
-1. For Microsoft AD FS 2.0, run IISReset to restart IIS.
+1. For Microsoft AD FS 2.0, run `IISReset` to restart IIS.
 1. For both Microsoft AD FS 2.0 and 3.0, restart the Active Directory Federation Services (`adfssrv`) service.
 
     > If you're using Microsoft AD FS 3.0 you only need to restart the Active Directory Federation Services (`adfssrv`) service on your Microsoft AD FS 3.0 servers, not the WAP servers.
