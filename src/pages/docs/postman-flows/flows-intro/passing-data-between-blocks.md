@@ -21,7 +21,7 @@ These examples get response data with [API requests](/docs/getting-started/sendi
 
 In this example, the **Send Request** block gets data using a collection's GET request. The **Send Request** block then passes all the data to a **Log** block.
 
-1. [Create a collection](/docs/getting-started/creating-the-first-collection/) named Random User Collection and add a GET request with this URL: `https://randomuser.me/api/`.
+1. [Create a collection](/docs/getting-started/creating-the-first-collection/) named `Random User Collection` and add a GET request with this URL: `https://randomuser.me/api/`.
 
 1. Select **Send**.
 
