@@ -142,7 +142,7 @@ In this example, the flow gets data from the **Start** block and passes it to an
 
 You can extract specific values from response data in a number of ways using variables and [Flows Query Language (FQL)](/docs/postman-flows/flows-query-language/introduction-to-fql/). The example below uses FQL in an **Evaluate** block to get the `country` field value from sample response data in the **Start** block.
 
-1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/) and select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> in the **Start** block.
+1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/) and select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the **Start** block.
 
     ![Select the gear icon](https://assets.postman.com/postman-docs/v10/flow-start-configure-v10.jpg)
 
