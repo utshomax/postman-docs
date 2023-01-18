@@ -26,13 +26,15 @@ You can use these reports to answer questions about the security posture of APIs
 
 ## API Security
 
-For APIs owned by your team that are in the Public API Network or in your team's Private API Network, and for APIs with a version that has been published internally to your team, the API security report provides the following information over the past 30 days:
+For APIs owned by your team that are in the Public API Network or in your team's Private API Network, and for APIs with a version that has been published internally to your team, the API Security report provides the following information over the past 30 days:
 
 * **Conformance** - The number of APIs that don't have any API Security rule violations.
 * **Non-conformance** - The average number of API Security rule violations per API.
 * **API conformance over time** - Per day over the last 30 days, the number of APIs without API Security rule violations and the number of APIs with API Security rule violations.
 * **Current API landscape** - The number of APIs, broken down by the number of API Security rule violations in each.
 * **Top 3 rules violated** - The three API Security rules that are most frequently violated in APIs.
+
+For specific details about the APIs in the **Current API landscape** and **Top 3 rules violated** charts, select some data in the chart. This opens the **Drill Down** pane, which contains links to the APIs and more information about them.
 
 ## Public APIs
 
@@ -44,6 +46,8 @@ The **Public APIs** report provides the following information for APIs in your t
 * **Current API landscape** - The number of APIs in your team's public workspaces, broken down by the number of API Security rule violations in each.
 * **Top 3 rules violated** - The three API Security rules that are most frequently violated in APIs in your team's public workspaces.
 
+For specific details about the APIs in the **Current API landscape** and **Top 3 rules violated** charts, select some data in the chart. This opens the **Drill Down** pane, which contains links to the APIs and more information about them.
+
 ## Private Network APIs
 
 The **Private Network APIs** report provides the following information for APIs in your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/) over the past 30 days:
@@ -53,3 +57,5 @@ The **Private Network APIs** report provides the following information for APIs 
 * **API conformance over time** - Per day over the last 30 days, the number of APIs without API Security rule violations and the number of APIs with API Security rule violations.
 * **Current API landscape** - The number of APIs in your team's Private API Network, broken down by the number of API Security rule violations in each.
 * **Top 3 rules violated** - The three API Security rules that are most frequently violated in APIs in your team's Private API Network.
+
+For specific details about the APIs in the **Current API landscape** and **Top 3 rules violated** charts, select some data in the chart. This opens the **Drill Down** pane, which contains links to the APIs and more information about them.

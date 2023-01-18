@@ -26,3 +26,5 @@ The Token Scanner report provides the following information for the past 30 days
 * **Total exposed tokens** - The number of tokens that are exposed across all published documentation sets.
 * **Exposed tokens by type** - The number of exposed tokens by type.
 * **Exposed tokens over time** - The number of tokens that were exposed each day.
+
+For more details, select some data in one of the charts. This opens the **Drill Down** pane, which contains links to the collections that contain exposed tokens, when the collection was scanned, and who published the collection.
