@@ -109,12 +109,14 @@ The number of matching parameters is used to calculate the _matching percentage_
 
 ### 6. Check for header and body matching
 
-You can [turn on header and body matching](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#matching-request-body-and-headers) in the mock server configuration. When these settings are turned on:
+You can [enable header and body matching](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#matching-request-body-and-headers) in the mock server configuration. You can also enable header and body matching by passing the custom header `x-mock-match-request-body` or `x-mock-match-request-headers` with the request. (These custom headers have higher precedence than header or body matching values specified in the mock server configuration.)
+
+When header and body matching are enabled:
 
 * The algorithm first filters out all examples that don't match the specified request headers. Header matching is case insensitive.
 * The algorithm then filters out all examples that don't match the request body.
 
-> You can also enable header and body matching by passing the custom header `x-mock-match-request-body` or `x-mock-match-request-headers` with the request. These custom headers have higher precedence than header or body matching values specified in the mock server configuration.
+> **Even if body matching isn't enabled, the matching algorithm still considers the request body.** If an example's body matches the request body, the example's matching score is increased by 5. If the example's body doesn't match the request body, the example's score isn't adjusted, and the example isn't removed from the matching process.
 
 ### 7. Select the highest matching score
 
