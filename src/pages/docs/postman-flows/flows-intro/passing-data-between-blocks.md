@@ -33,7 +33,7 @@ In this example, the **Send Request** block gets data using a collection's GET r
 
     ![Create a flow and add a Send Request block](https://assets.postman.com/postman-docs/v10/flow-data-send-request-v10.jpg)
 
-1. In the **Send Request** block, select **Add request > Random User Collection > New Request**. Each time your new flow executes, the flow will get data using the GET request from the Random User Collection request you created earlier.
+1. In the **Send Request** block, select **Add request > Random User Collection > New Request**. Each time the flow executes, it will get data using the GET request from the Random User Collection request you created earlier.
 
     ![Select data](https://assets.postman.com/postman-docs/v10/flow-select-data-v10.jpg)
 
@@ -51,7 +51,7 @@ In this example, the flow gets data from the **Start** block and passes it to an
 
     ![Select the gear icon](https://assets.postman.com/postman-docs/v10/flow-start-configure-1-v10.jpg)
 
-1. Select **Enter incoming data** and paste in the sample data below. Your new flow will use this data every time it executes.
+1. Select **Enter incoming data** and paste in the sample data below. The flow will use this data every time it executes.
 
    ``` json
    {
@@ -146,7 +146,7 @@ You can extract specific values from response data in a number of ways using var
 
     ![Select the gear icon](https://assets.postman.com/postman-docs/v10/flow-start-configure-v10.jpg)
 
-1. Select **Enter incoming data** and paste in the sample data below. Your new flow will use this data every time it executes.
+1. Select **Enter incoming data** and paste in the sample data below. The flow will use this data every time it executes.
 
    ``` json
    {
