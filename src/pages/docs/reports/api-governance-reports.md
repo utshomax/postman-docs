@@ -16,12 +16,21 @@ contextual_links:
     url: "https://blog.postman.com/introducing-new-postman-reports-for-enterprises/"
 ---
 
-The **API Governance** report dashboard provides metrics relevant to your team's [API Governance](/docs/api-governance/api-governance-overview/) rule compliance. This section has two reports:
+The **API Governance** report dashboard provides metrics relevant to your team's [API Governance](/docs/api-governance/api-governance-overview/) rule compliance. This section has three reports:
 
+* [API Governance](#api-governance)
 * [Public APIs](#public-apis)
 * [Private Network APIs](#private-network-apis)
 
 You can use these reports to answer API governance questions about APIs owned by your team that are part of the [Public API Network](/docs/getting-started/exploring-public-api-network/) and your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
+
+## API Governance
+
+* **Conformance** - The number of APIs that don't have any API Governance rule violations.
+* **Non-conformance** - The average number of API Governance rule violations per API.
+* **API conformance over time** - Per day over the last 30 days, the number of APIs without API Governance rule violations and the number of APIs with API Governance rule violations.
+* **Current API landscape** - The number of APIs, broken down by the number of API Governance rule violations in each.
+* **Top 3 rules violated** - The three API Governance rules that are most frequently violated in APIs.
 
 ## Public APIs
 
