@@ -65,7 +65,7 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 
 ## Example JSON
 
-The examples below use the following JSON data:
+The examples below use this JSON data:
 
 ``` json
     {
