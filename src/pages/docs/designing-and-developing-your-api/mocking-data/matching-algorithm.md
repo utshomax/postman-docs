@@ -69,7 +69,7 @@ The matching algorithm checks any custom headers passed in the incoming request 
 
     * If more than one example has the same name, Postman sorts the examples by ID and returns the first example in the list with a `200` response status code.
     * If none of the matching examples has a `200` response code, Postman returns the first example in the sorted list.
-    * If no example is found with a matching name, the matching process stops and an error is returned.
+    * If no example is found with a matching name, the matching process stops and Postman returns and error.
 
 ### 4. Filter by URL
 
@@ -96,7 +96,7 @@ After matching URLs, the algorithm examines the parameters for each example (suc
 
 * **Parameter match** - A key-value pair in the example matches a key-value pair in the incoming request.
 * **Partial parameter match** - A key in the example matches a key in the incoming request, but the values for the keys don't match.
-* **Missing parameter** - A key in the example isn't found in the incoming request.
+* **Missing parameter** - A key is present in the example or the incoming request but not in both.
 
 The number of matching parameters is used to calculate the _matching percentage_. The matching percentage equals the number of parameter matches divided by the total number of parameter matches, partial parameter matches, and missing parameters.
 
@@ -113,10 +113,10 @@ You can [enable header and body matching](/docs/designing-and-developing-your-ap
 
 When header and body matching are enabled:
 
-* The algorithm first filters out all examples that don't match the specified request headers. Header matching is case insensitive.
-* The algorithm then filters out all examples that don't match the request body.
+1. The algorithm first filters out all examples that don't match the specified request headers. Header matching is case insensitive.
+1. The algorithm then filters out all examples that don't match the request body.
 
-> **Even if body matching isn't enabled, the matching algorithm still considers the request body.** If an example's body matches the request body, the example's matching score is increased by 5. If the example's body doesn't match the request body, the example's score isn't adjusted, and the example isn't removed from the matching process.
+> **When body matching isn't enabled, the matching algorithm still considers the request body.** If an example's body matches the request body, the example's matching score is increased by 5. If the example's body doesn't match the request body, the example's score isn't adjusted, and the example isn't removed from the matching process.
 
 ### 7. Select the highest matching score
 
