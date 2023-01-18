@@ -69,7 +69,7 @@ The matching algorithm checks any custom headers passed in the incoming request 
 
     * If more than one example has the same name, Postman sorts the examples by ID and returns the first example in the list with a `200` response status code.
     * If none of the matching examples has a `200` response code, Postman returns the first example in the sorted list.
-    * If no example is found with a matching name, the matching process stops and Postman returns and error.
+    * If no example is found with a matching name, the matching process stops and Postman returns an error.
 
 ### 4. Filter by URL
 
