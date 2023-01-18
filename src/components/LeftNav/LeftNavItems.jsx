@@ -367,7 +367,7 @@ export const leftNavItems = [
     url: '/docs/postman-flows/flows-intro/flows-overview/',
     subMenuItems1: [
       {
-        name: 'Getting Started',
+        name: 'Getting started',
         subParentSlug: 'flows-intro',
         slug: '/docs/postman-flows/flows-intro/flows-overview/',
         subMenuItems2: [
