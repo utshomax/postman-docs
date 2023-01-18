@@ -51,7 +51,7 @@ In this example, the flow gets data from the **Start** block and passes it to an
 
     ![Select the gear icon](https://assets.postman.com/postman-docs/v10/flow-start-configure-1-v10.jpg)
 
-1. Select **Enter incoming data** and paste in the sample data below. The flow will use this data every time it executes.
+1. Select **Enter Incoming Data** and paste in the sample data below. The flow will use this data every time it executes.
 
    ``` json
    {
@@ -146,7 +146,7 @@ You can extract specific values from response data in a number of ways using var
 
     ![Select the gear icon](https://assets.postman.com/postman-docs/v10/flow-start-configure-v10.jpg)
 
-1. Select **Enter incoming data** and paste in the sample data below. The flow will use this data every time it executes.
+1. Select **Enter Incoming Data** and paste in the sample data below. The flow will use this data every time it executes.
 
    ``` json
    {
