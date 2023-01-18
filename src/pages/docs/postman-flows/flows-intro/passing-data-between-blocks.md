@@ -4,7 +4,7 @@ updated: 2022-01-10
 warning: false
 ---
 
-Postman Flows can get data with [API requests](/docs/getting-started/sending-the-first-request/) or directly from the **Start** block. This document shows examples of Postman Flows getting data using both methods and passing data between blocks.
+Postman Flows can get data with [API requests](/docs/getting-started/sending-the-first-request/) or directly from the **Start** block. This tutorial shows examples of Postman Flows getting data using both methods and passing data between blocks.
 
 ## Contents
 
