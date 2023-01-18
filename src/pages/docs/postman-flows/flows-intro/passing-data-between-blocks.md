@@ -4,18 +4,18 @@ updated: 2022-01-10
 warning: false
 ---
 
-Postman Flows can get data from API requests or directly from the **Start** block. This document describes how Postman Flows gets data and passes it between blocks.
+Postman Flows can get data with [API requests](/docs/getting-started/sending-the-first-request/) or directly from the **Start** block. This document shows examples of Postman Flows getting data using both methods and passing data between blocks.
 
 ## Contents
 
-* [Getting data](#getting-data)
+* [Getting data and passing it between blocks](#getting-data-and-passing-it-between-blocks)
     * [With an API request](#getting-data-with-an-api-request)
     * [From the **Start** block](#getting-data-from-the-start-block)
 * [Passing specfied data between blocks](#passing-specified-data-between-blocks)
 
-## Getting data
+## Getting data and passing it between blocks
 
-Postman Flows gets data with [API requests](/docs/getting-started/sending-the-first-request/) from existing collections in your workspace, or from data pasted into the **Start** block.
+These examples get response data with [API requests](/docs/getting-started/sending-the-first-request/) from existing collections in your workspace and from data pasted into the **Start** block. In these examples, the entire response is passed between blocks.
 
 ### Getting data with an API request
 
