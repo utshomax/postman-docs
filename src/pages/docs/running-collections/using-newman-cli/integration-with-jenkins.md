@@ -13,7 +13,7 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "API Lifecycle, Part 2: Monitor and Deploy an API | Postman Space Camp"
+    name: "API Lifecycle, Part 2: Monitor and Deploy an API | Postman Intergalactic"
     url: "https://youtu.be/voAUfBx8fnE"
   - type: link
     name: "Continuous Testing with Postman | Webinar"
@@ -39,7 +39,7 @@ Postman contains a full-featured [testing sandbox](/docs/writing-scripts/script-
 
 The following example shows how to set up a Jenkins build that uses Newman to run a collection. If the collection passes all tests, the Jenkins build will be marked as successful. This uses a Jenkins install running locally, but you'll typically be running it on a build server for production use.
 
-> **Developing an API?** Postman offers built-in tools to integrate your API with some of the most widely-used Continuous Integration (CI) tools, including Jenkins. After you set up CI integration for your API, you can view the status of builds or kick off a new build, all from within Postman. You can also use Newman to run API tests as part of your CI pipeline. To learn more, see [CI integrations](/docs/integrations/ci-integrations/).
+> **Developing an API?** Postman offers built-in tools to integrate your API with some of the most widely-used continuous integration (CI) tools, including Jenkins. After you set up CI for your API, you can view the status of builds or kick off a new build, all from within Postman. You can also use Newman to run API tests as part of your CI pipeline. To learn more, see [CI integrations](/docs/integrations/ci-integrations/).
 
 ## Contents
 
@@ -101,7 +101,7 @@ Jenkins indicates that the build succeeded with a green checkmark.
 
 ## Configure frequency of runs
 
-To set the frequency with which Jenkins runs Newman:
+To set the frequency with which Jenkins runs Newman, do the following:
 
 1. Open the build window.
 1. Select **Configure**.

@@ -14,10 +14,10 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Validating APIs against schema"
-    url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
+    url: "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 ---
 
-> [__Reports are available on all Postman Enterprise plans.__](https://www.postman.com/pricing)
+> [**Reports are available on all Postman Enterprise plans.**](https://www.postman.com/pricing)
 
 The **Team details** dashboard shows team-level metrics, including team overview, team size, billing details, team activity, and workspaces. This section has three reports:
 
@@ -52,6 +52,7 @@ The **Team activity** report gives more details about your team members' activit
     * Creating, editing, and deleting collections, APIs, environments, mocks, and monitors.
 
     > This metric doesn't include the following actions:
+    >
     > * Creating a workspace, changing its visibility, adding users, or assigning roles
     > * Administrative or billing-related tasks that happen outside of a workspace
     > * Adding integrations
@@ -61,14 +62,16 @@ The **Team activity** report gives more details about your team members' activit
 
 ## Resource usage
 
-The **Resource usage** report gives more information on how your team is using Postman resources, including:
+The **Resource usage** report gives more information on how your team is using Postman resources.
+
+> To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).
 
 ### Team slots
 
 Billed seat usage across your team.
 
 * **Billed slots** - The used billed slots compared to unused billed slots for your team.
-* **Unbilled slots** - The number of slots that will be billed at the next [Auto-Flex renewal](/docs/administration/billing/#utilizing-auto-flex).
+* **Unbilled slots** - The number of slots that will be billed at the next [Auto-Flex renewal](/docs/administration/billing/#using-auto-flex).
 * **Used slots over time** - The number of billed slots and unbilled slots used by your team in the last six months.
 
 ### Mock server calls

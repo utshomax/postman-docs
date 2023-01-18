@@ -46,6 +46,7 @@ Use workspaces to organize your work in Postman and collaborate with teammates (
     * [Changing workspace visibility](#changing-workspace-visibility)
 * [Sharing workspaces](#sharing-workspaces)
     * [Approving requests for access to private workspaces](#approving-requests-for-access-to-private-workspaces)
+    * [Adding workspaces to the Private API Network](#adding-workspaces-to-the-private-api-network)
 * [Managing workspace roles](#managing-workspace-roles)
 * [Watching a workspace](#watching-a-workspace)
 * [Moving elements to workspaces](#moving-elements-to-workspaces)
@@ -61,7 +62,7 @@ To open a workspace, select **Workspaces** in the Postman header. Select a works
 
 The workspace's **Overview** tab displays a summary and description of the workspace, as well as a list of recent activity. On the right, there is a list of the number of Postman elements like collections and APIs in the workspace and a list of recent contributors.
 
-<img alt="Workspace overview" src="https://assets.postman.com/postman-docs/workspace-overview-v9.19.jpg" width="1000px"/>
+<img alt="Workspace overview" src="https://assets.postman.com/postman-docs/v10/workspace-overview-v10.jpg" width="1000px"/>
 
 ### Getting the workspace ID
 
@@ -71,7 +72,7 @@ To view the workspace ID, select the information icon <img alt="Information icon
 
 ### Accessing private workspaces
 
-> Private workspaces are only available to [Professional and Enterprise](https://www.postman.com/pricing/) teams.
+> **[Private workspaces are available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing/)**
 
 To collaborate in a private workspace, you must be [invited](#sharing-workspaces) by a Workspace Editor or Admin, or request access to it and be approved. If you're using the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) and navigate to a link a teammate has shared to a private workspace or an element within one, you'll have the option to request access to the workspace.
 
@@ -97,18 +98,17 @@ On the workspace's **Overview** tab, select the workspace name, summary, or desc
 
 The visibility setting for a workspace determines who can access it. You must be a [Workspace Admin](#managing-workspace-roles) to change the visibility for a workspace.
 
-To change workspace visibility:
-
 1. Select **Workspaces** in the Postman header, and then select a workspace.
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
 1. Select a **Visibility** for the workspace:
     * **Personal** - Only you can access.
     * **Private** - Only invited team members can access ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
     * **Team** - All team members can access.
+    * **Partner** - Only invited team members and [partners](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) can access ([Enterprise plans only](https://www.postman.com/pricing)).
     * **Public** - Everyone can view.
 1. Select **Update**.
 
-<img alt="Changing workspace visibility" src="https://assets.postman.com/postman-docs/workspace-visibility-v9.jpg" width="521px"/>
+<img alt="Changing workspace visibility" src="https://assets.postman.com/postman-docs/v10/edit-workspace-visibility-v10.jpg" width="450px"/>
 
 > You always have one personal workspace in Postman. If you change the visibility of all of your personal workspaces to private, team, or public, Postman creates a new personal workspace for you.
 
@@ -126,15 +126,19 @@ Your ability to share workspaces with teammates depends on your [workspace role]
 
 > When you invite a collaborator to a personal workspace, it's automatically converted into a team workspace.
 
-Individual team members and groups you invite will be notified immediately of your request to collaborate. External users who aren't on your Postman team will receive an invitation to join immediately if you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). If you aren't a Team Admin, your request to add external users to your Postman team will be shared with your Team Admins for approval.
+Individual team members and groups you invite will be notified of your request to collaborate.
 
-You can also invite collaborators by selecting <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> **Copy Invite Link** and sharing the link with them outside of Postman. When individuals select the link, Postman will prompt them to sign in or sign up. If you are a Team Admin inviting an external user, they'll be automatically added to your team. If you aren't a Team Admin, a request to add them to your Postman team will be shared with your Team Admins for approval.
+External users who aren't on your Postman team will receive an invitation to join immediately if you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). On Free, Basic, and Professional plans, team members with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin.
+
+You can also invite collaborators by selecting <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> **Copy Invite Link** and sharing the link with them outside of Postman. When individuals select the link, Postman will prompt them to sign in or sign up. If you're a Team Admin or a Developer inviting another Developer on a Free, Basic, or Professional plan, they'll be automatically added to your team. If you aren't a Team Admin or a Developer as described, your request to add external users to your Postman team will be shared with your Team Admins for approval.
+
+> Inviting collaborators to [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) is different than inviting them to other types of workspaces. To learn more, see [Inviting collaborators to a Partner Workspace](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/#inviting-collaborators-to-a-partner-workspace).
 
 ### Approving requests for access to private workspaces
 
 > Private workspaces are only available to [Professional and Enterprise](https://www.postman.com/pricing/) teams.
 
-Team members can [request access to a private workspace](#accessing-private-workspaces) if another team member with access provides them with a link to it. All Workspace Admins will be notified of requests for access by the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> and by email. Select **Respond to Request** to review requests for access.
+Team members can [request access to a private workspace](#accessing-private-workspaces) if another user with access provides them with a link to it. All Workspace Admins will be notified of requests for access by the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> and by email. Select **Respond to Request** to review requests for access.
 
 <img alt="Respond to request for access to private workspace" src="https://assets.postman.com/postman-docs/workspace-admin-respond-rfa-private-workspace-v9.16.jpg" width="400px"/>
 
@@ -142,11 +146,15 @@ You can assign a [workspace role](/docs/collaborating-in-postman/roles-and-permi
 
 > Requests for access to private workspaces expire if they aren't reviewed within 15 days. If this occurs, Postman will notify the affected users to resubmit their request for access.
 
+### Adding workspaces to the Private API Network
+
+You can also share workspaces with your teammates by adding them to your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/). To learn more, see [Adding workspaces](/docs/collaborating-in-postman/adding-private-network/#adding-workspaces).
+
 ## Managing workspace roles
 
 Access to elements within a workspace is controlled using [workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles). Roles can be assigned to an individual user or to a [user group](/docs/administration/managing-your-team/user-groups/).
 
-To change the role of people in a workspace, or to remove someone from a workspace:
+To change the role of people in a workspace, or to remove someone from a workspace, do the following:
 
 1. Select **Workspaces** in the Postman header, and then select a workspace.
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
@@ -165,8 +173,6 @@ Watch a workspace to receive an email or in-app notification when a team member 
 
 To start watching a workspace, select <img alt="Watch icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> **Watch** in the workspace's **Overview** tab. Select the count next to **Watch** to access the list of people who are watching the workspace.
 
-<img alt="Watching a workspace" src="https://assets.postman.com/postman-docs/watching-a-workspace-v9.jpg"/>
-
 To access your notifications, select the notification icon <img alt="Bell icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The notification list shows details about changes to workspaces you are watching. You will also receive an email with information about the change, who made it, and when.
 
 To stop watching a workspace, select **Unwatch** in the workspace's **Overview** tab.
@@ -177,9 +183,13 @@ To stop watching a workspace, select **Unwatch** in the workspace's **Overview**
 
 Workspaces can contain elements such as collections, APIs, environments, mock servers, and monitors. A particular element can exist only in a single workspace. If needed, you can move elements to a different workspace.
 
+> The API's collections will move with the API to the new workspace.
+
+<!-- -->
+
 > Monitors can't be moved. If you move a collection that has an active monitor, the associated monitor is paused and stays in the original workspace.
 
-To move an element to a different workspace:
+To move an element to a different workspace, do the following:
 
 1. Select **Collections**, **APIs**, **Environments**, or **Mock Servers** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an element and then select **Move**.
@@ -204,8 +214,6 @@ If you're in a public workspace, this list will include all active users with [p
 
 Deleting a workspace removes the workspace and all data in it from Postman. Use caution, as once you delete a workspace it's gone forever. You must be a [Workspace Admin](#managing-workspace-roles) to delete a workspace.
 
-To delete a workspace:
-
 1. Select **Workspaces** in the Postman header, and then select a workspace.
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
 1. Select **Delete Workspace**.
@@ -216,6 +224,6 @@ To delete a workspace:
 
 ## Next steps
 
-Now that you understand the fundamentals of managing and using workspaces, you might want to track activities in a workspace:
+After learning about the fundamentals of managing and using workspaces, you can learn about tracking activities in a workspace:
 
-* To learn about the workspace changelog and how to use it to track recent activity, visit [Viewing workspace activity](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/).
+* [Viewing workspace activity](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/)

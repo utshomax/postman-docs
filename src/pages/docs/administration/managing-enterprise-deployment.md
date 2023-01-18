@@ -18,7 +18,7 @@ contextual_links:
 
 ---
 
-> __[Postman app versioning and the Postman Enterprise App (currently in beta) are only available to Postman Enterprise teams.](https://www.postman.com/pricing)__
+> **[Postman app versioning and the Postman Enterprise App (currently in beta) are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 Postman Enterprise offers greater control to administrators looking to deploy and manage Postman at scale. Team Admins can choose to [manage Postman app versioning](#managing-postman-app-versioning) with Postman support, or [deploy the Postman Enterprise app](#deploying-the-postman-enterprise-app) to their organization.
 
@@ -49,7 +49,7 @@ Postman Enterprise offers greater control to administrators looking to deploy an
 
 ## Managing Postman app versioning
 
-Postman app versioning enables you to set a team-wide version of Postman. You can choose to set Postman v8 or Postman v9 as your team's version. App versioning is a back-end operation and must be requested by a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
+Postman app versioning enables you to set a team-wide version of Postman. You can choose to set Postman v8, Postman v9, or Postman v10 as your team's version. App versioning is a back-end operation and must be requested by a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
 
 To request this change, reach out to your Postman Account Manager or [contact Postman support](https://www.postman.com/support/).
 
@@ -79,7 +79,7 @@ The `INSTALLDIR` public property is used to select a custom installation directo
 
 For example, you can run the following command to perform a system-wide installation to a custom directory:
 
-```
+``` shell
 msiexec /i path/to/package.msi INSTALLDIR=C:\custom
 ```
 

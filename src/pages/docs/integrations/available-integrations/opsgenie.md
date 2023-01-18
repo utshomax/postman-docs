@@ -34,8 +34,6 @@ The Postman to Opsgenie integration enables you to configure [Postman Monitors](
 
 ## Get the Opsgenie API key
 
-To integrate with Opsgenie, get your Opsgenie API key:
-
 1. Sign in to your Opsgenie account.
 1. Select the **Teams** tab.
 1. Select the team that will own the integration and receive alert notifications.
@@ -50,7 +48,7 @@ For more information, refer to [Create an API integration](https://support.atlas
 
 1. From the **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 
-    ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+    <img alt="Home page and integrations" src="https://assets.postman.com/postman-docs/v10/home-integrations-v10.jpg" width="390px">
 
 1. Search and select **Opsgenie**.
 
@@ -70,6 +68,8 @@ For more information, refer to [Create an API integration](https://support.atlas
     <img src="https://assets.postman.com/postman-docs/opsgenie-save-configuration-b.jpg" alt="Save opsgenie configuration" width="500px"/>
 
 1. After you create the integration, you have access to a list of all of the integrations created by your team. Select an integration to inspect its run logs.
+
+    > **You can view your configured integrations on the [Browse Integrations](https://go.postman.co/integrations/browse) page.** You can also view integrations that have been configured for a monitor by opening the monitor and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Learn more about [viewing or editing integrations](/docs/integrations/intro-integrations/#viewing-or-editing-integrations).
 
     ![View integration run log](https://assets.postman.com/postman-docs/opsgenie-run-logs.jpg)
 

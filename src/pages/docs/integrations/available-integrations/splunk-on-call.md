@@ -29,6 +29,8 @@ This integration enables you to configure [Postman Monitors](/docs/monitoring-yo
    [![View API key](https://assets.postman.com/postman-docs/splunk-on-call-copy-api-key.jpg)](https://assets.postman.com/postman-docs/splunk-on-call-copy-api-key.jpg)
 1. Copy the API Key and save it for later.
 
+## Routing alerts to specific teams
+
 If you are using teams in Splunk On-Call, you can route alerts to specific teams by pairing routing keys with escalation policies.
 
 1. Select the **Settings** tab, then select **Routing Keys**.
@@ -36,11 +38,11 @@ If you are using teams in Splunk On-Call, you can route alerts to specific teams
 1. Select **Add Key**.
 1. Enter the API key you copied from the **Integrations** page and select an escalation policy.
 
-## Configuring Postman monitors
+## Configuring Postman Monitors
 
 1. On the **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 
-    ![Home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+    <img alt="Home page and integrations" src="https://assets.postman.com/postman-docs/v10/home-integrations-v10.jpg" width="390px">
 
 1. Search and select **Splunk On-Call**.
 1. Select **Add Integration** and enter the following:
@@ -59,6 +61,8 @@ If you are using teams in Splunk On-Call, you can route alerts to specific teams
 1. Select the name of the integration you added to view the monitoring results.
 
    ![Splunk On-Call add integration](https://assets.postman.com/postman-docs/splunk-on-call-view-all-integrations.jpg)
+
+> **You can view your configured integrations on the [Browse Integrations](https://go.postman.co/integrations/browse) page.** You can also view integrations that have been configured for a monitor by opening the monitor and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Learn more about [viewing or editing integrations](/docs/integrations/intro-integrations/#viewing-or-editing-integrations).
 
 ## Incidents on Splunk On-Call
 

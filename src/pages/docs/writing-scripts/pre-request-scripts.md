@@ -33,10 +33,10 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Twitter"
+    name: "Twitter uses pre-request scripts to create a testing environment"
     url:  "https://www.postman.com/case-studies/twitter/"
   - type: link
-    name: "Toast"
+    name: "Toast chains requests automatically with pre-request scripts"
     url:  "https://www.postman.com/case-studies/toast/"
   - type: section
     name: "Next Steps"
@@ -69,7 +69,7 @@ An example usage of pre-request scripting could be as follows:
 
 ## Scripting before your request runs
 
-To include code you want to execute before Postman sends a request:
+To include code you want to execute before Postman sends a request, do the following:
 
 1. Select __Collections__ in the sidebar.
 1. Open the request, then select the __Pre-request Script__ tab.
@@ -84,7 +84,7 @@ You can add pre-request scripts to entire collections and folders within collect
 
 > You can define a pre-request script when you first create a collection or folder, or at any time after that.
 
-To add pre-request scripts to a collection or folder:
+To add pre-request scripts to a collection or folder, do the following:
 
 1. Select __Collections__ in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select __Edit__.
@@ -99,6 +99,6 @@ To add pre-request scripts to a collection or folder:
 
 ## Next steps
 
-Now that you have learned the basics of writing pre-request test scripts, you may be interested in extending your scripts:
+After learning the basics of writing pre-request test scripts, you can extend your scripts:
 
 * To learn more about how to use the `pm` object, visit the [Postman JavaScript reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/).

@@ -24,10 +24,10 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Intuit"
+    name: "Intuit uses Postman's code generator at hackathons"
     url: "https://www.postman.com/case-studies/intuit/"
   - type: link
-    name: "ShipEngine"
+    name: "ShipEngine uses Postman's code generator to integrate API requests"
     url: "https://www.postman.com/case-studies/shipengine/"
   - type: section
     name: "Next Steps"
@@ -44,7 +44,7 @@ warning: false
 
 Postman can convert an API request into a code snippet, and you can choose the programming language or framework. You can use this generated code snippet in your front-end applications.
 
-> This guide has information about generating code snippets from API requests. For information about generating server-side boilerplate code from an API specification, see [Generating server code](/docs/designing-and-developing-your-api/generating-server-code/).
+> This guide has information about generating code snippets from API requests. For information about generating server-side boilerplate code from an API specification, see [Generating server code](/docs/designing-and-developing-your-api/developing-an-api/generating-server-code/).
 
 ## Contents
 
@@ -54,7 +54,7 @@ Postman can convert an API request into a code snippet, and you can choose the p
 
 ## Generating code snippets in Postman
 
-1. Open the request you want to use for a code snippet, then select the code icon <img alt="Code icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px"> in the right panel.
+1. Open the request you want to use for a code snippet, then select the code icon <img alt="Code icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px"> in the right pane.
 
     <img src="https://assets.postman.com/postman-docs/generate-code-right-sidebar-v9.jpg" width="300px" alt="Open code snippets"/>
 

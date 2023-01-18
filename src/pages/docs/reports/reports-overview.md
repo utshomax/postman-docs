@@ -14,7 +14,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Validating APIs against schema"
-    url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
+    url: "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 ---
 
 > [__Reports are available on all Postman Enterprise plans.__](https://www.postman.com/pricing)
@@ -33,13 +33,13 @@ Access your reports in your [Postman reports dashboard](https://go.postman.co/re
 
 ## Getting started with reports
 
-Reports give information about activity in Postman, including [sharing your API](/docs/designing-and-developing-your-api/managing-apis/), [adding a collection to the API](/docs/designing-and-developing-your-api/defining-an-api/#generating-a-collection), and [sending a request](/docs/sending-requests/requests/) from the collection.
+Reports give information about activity in Postman, including [sharing your API](/docs/designing-and-developing-your-api/managing-apis/), [adding a collection to the API](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/#adding-a-collection), and [sending a request](/docs/sending-requests/requests/) from the collection.
 
 To view your reports dashboard:
 
 * Select **Home** in the Postman header, then select **Reports** from the team information section on the left.
 
-To access a specific API's report:
+To access a specific API's report, do the following:
 
 1. On the report dashboard, select **All APIs** > **View Report by API**.
 1. Search for the API name, or scroll through the list to find it.

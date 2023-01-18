@@ -22,11 +22,11 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Twitter"
+    name: "Twitter maintains collection with 23+ endpoints"
     url:  "https://www.postman.com/case-studies/twitter/"
   - type: link
-    name: "Reputation"
-    url:  "https://www.postman.com/case-studies/reputation/"
+    name: "Werner Enterprises saves 3 hours per week with collections"
+    url:  "https://www.postman.com/case-studies/werner/"
   - type: subtitle
     name: "Public Workspaces"
   - type: link
@@ -45,11 +45,13 @@ Postman Collections are a group of saved requests. Every request you send in Pos
 
 ## Creating your first collection
 
-To create a new collection, you can start by creating a new request first:
+To create a new collection, you can start by creating a new request first. You can create a new request from the sidebar in Postman.
 
-You can create a new request from the sidebar in Postman. Select __New__ &gt; __HTTP Request__.
+To create a collection, do the following:
 
-<img alt="Create new request sidebar" src="https://assets.postman.com/postman-docs/create-new-request-sidebar-v9.jpg"/>
+1. Select __New__ &gt; __HTTP Request__.
+
+    <img alt="Create new request" src="https://assets.postman.com/postman-docs/v10/new-request-v10.jpg"/>
 
 1. Enter a request in the request builder and select **Save**.
 1. Create a new collection by selecting **New Collection**. Enter a collection name, and then select **Create**.

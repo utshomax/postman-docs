@@ -7,11 +7,9 @@ const { v4: uuidv4 } = require('uuid');
 const frontmatter = require('@github-docs/frontmatter');
 const redirects = require('./redirects.json');
 // const HeaderJson = require('./src/components/Header/Header.data.json');
-const FooterJson = require('./src/components/Footer/Footer.data.json');
 const { execSync } = require("child_process")
 const ignorePaths = [];
 
-// const { google } = require('googleapis');
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
@@ -96,7 +94,7 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 };
 
-/* Create Header and Footer
+/* Create Header
 /************************************************************************ */
 exports.sourceNodes = async ({
   actions,
@@ -172,5 +170,4 @@ exports.sourceNodes = async ({
   
   createNode(prepareNode(mdFrontmatterCharacterCount, 'frontmatterLength'));
   createNode(prepareNode(output.docs, 'leftNavLinks'));
-  createNode(prepareNode(FooterJson, 'FooterLinks'));
 };

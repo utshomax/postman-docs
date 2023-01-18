@@ -2,6 +2,7 @@
 title: Running monitors using static IPs
 order: 93
 page_id: "using_static_IPs_to_monitor"
+search_keyword: "whitelist, whitelist IP"
 updated: 2022-2-14
 warning: false
 contextual_links:
@@ -24,7 +25,7 @@ contextual_links:
     url: "/docs/integrations/intro-integrations/"
 ---
 
-> __[Static IP address monitoring is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
+> **[Static IP address monitoring is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
 
 Postman's static IP feature enables you to use [collection-based monitors](/docs/monitoring-your-api/setting-up-monitor/) to monitor APIs that are behind a restricted firewall. This feature is available to all Postman Professional and Enterprise customers, provided your IT team [allowlists](#allowlisting-static-ip-addresses) the associated static IP addresses. The provided static IP addresses are fixed to their specified region and are shared by all customers who use this feature.
 
@@ -65,6 +66,6 @@ Under **Regions**, choose the **Manually select region** option. Select your des
 
 ## Next steps
 
-Now that you know how to monitor APIs that are behind a restricted firewall, you might also be interested in setting up an integration with other tools in your development workflow.
+After learning how to monitor APIs that are behind a restricted firewall, you can set up an integration with other tools in your development workflow.
 
 * To learn how to set up integrations for your monitor results, see [Integrating with Postman](/docs/integrations/intro-integrations/).

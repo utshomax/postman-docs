@@ -22,7 +22,7 @@ contextual_links:
 
 Coralogix is a machine learning powered log analytics platform which drastically improves the delivery and maintenance process for software providers. This integration allows you to configure your Postman Monitors to send metrics to Coralogix where you can visualize and compare metrics.
 
-Setting up a Coralogix integration requires you to get an API key from Coralogix and configure your Postman Monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
+Setting up a Coralogix integration requires you to get an API key from Coralogix and configure your Postman monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
 
 ## Retrieving your Coralogix private key
 
@@ -38,7 +38,7 @@ Setting up a Coralogix integration requires you to get an API key from Coralogix
 
 1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 
-    ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+    <img alt="Home page and integrations" src="https://assets.postman.com/postman-docs/v10/home-integrations-v10.jpg" width="390px">
 
 1. Select **Browse All Integrations**.
 
@@ -59,6 +59,8 @@ Setting up a Coralogix integration requires you to get an API key from Coralogix
     * **Advanced Options** - Show the Advanced Options to indicate if you want to send collection or environment details for each run.
 
 1. Select **Add Integration** to save the configuration.
+
+> **You can view your configured integrations on the [Browse Integrations](https://go.postman.co/integrations/browse) page.** You can also view integrations that have been configured for a monitor by opening the monitor and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Learn more about [viewing or editing integrations](/docs/integrations/intro-integrations/#viewing-or-editing-integrations).
 
 ## Analyzing metrics in Coralogix
 

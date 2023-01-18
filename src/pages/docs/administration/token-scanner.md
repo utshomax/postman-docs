@@ -1,8 +1,8 @@
 ---
-title: "Token Scanner"
+title: "Token scanner"
 order: 115
 page_id: "token-scanner"
-updated: 2021-11-09
+updated: 2022-11-30
 search_keyword: "password security, secret scanning, secret, API key security"
 warning: false
 contextual_links:
@@ -32,10 +32,10 @@ The Postman Token Scanner scans your public workspaces, collections, environment
 ## Contents
 
 * [Use cases](#use-cases)
+* [Token scanner dashboard](#token-scanner-dashboard)
 * [Supported tokens](#supported-tokens)
     * [Default alerts](#default-alerts)
     * [Custom alerts](#custom-alerts)
-* [Token scanner dashboard](#token-scanner-dashboard)
 * [Protecting Postman API keys in GitHub](#protecting-postman-api-keys-in-github)
 
 ## Use cases
@@ -46,21 +46,27 @@ A scan starts whenever team members do any of the following actions:
 * Share a collection or environment to a public workspace.
 * Make changes to a collection or environment that's present in a public workspace.
 * Write new documentation for a Postman Collection and make it public.
-* Make any changes to publicly available Postman documentation.
 
 Postman delivers the scan results in the [Security audit reports](/docs/reports/security-audit-reports/) section of the [**Reports** dashboard](/docs/reports/reports-overview/).
 
-> **[Security Audit Reports are available on Postman Enterprise plans only.](https://www.postman.com/pricing/)**
+> **[Security Audit Reports are available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
+
+## Token scanner dashboard
+
+You can view your team's configured [default](#default-alerts) and [custom](#custom-alerts) alerts in your [data security dashboard](https://go.postman.co/settings/team/token-scanner). Select **Team** in the upper-right > **Team Settings**. Then, select **Data security** on the left, and select **Token scanner**.
+
+<img alt="Data security dashboard" src="https://assets.postman.com/postman-docs/data-security-dashboard.jpg"/>
 
 ## Supported tokens
 
-The Token Scanner will scan a variety of tokens by default. You can also add your team's proprietary third-party app tokens that aren't supported yet using [custom alerts](#custom-alerts).
+The Token Scanner scans a variety of tokens [by default](#default-alerts). You can also add your team's proprietary third-party app tokens that aren't supported yet using [custom alerts](#custom-alerts).
 
 ### Default alerts
 
 By default, the Token Scanner scans tokens issued by the following service providers:
 
 * Airtable API Key
+* Akamai API Key
 * Amazon MWS Token
 * Basic Auth
 * Bearer Token
@@ -73,9 +79,11 @@ By default, the Token Scanner scans tokens issued by the following service provi
 * Google API Key
 * Google OAuth Token
 * Microsoft Outlook Team Webhook URL
+* New Relic User Key
 * OpenSSH Private Key
 * PGP Private Key
 * Postman API Key
+* Postman Collection Access Key
 * RSA Private Key
 * SendGrid API Key
 * Sendinblue Key
@@ -88,26 +96,23 @@ By default, the Token Scanner scans tokens issued by the following service provi
 * Stripe Secret Key
 * Telegram Bot Access Token
 * Twilio API Key
+* Twitter Bearer Token
+* Typeform API Key
+* Zapier Webhook URL
 
 ### Custom alerts
 
 You can use custom alerts to scan your team's proprietary tokens and any third-party app tokens that aren't scanned by default.
 
-> **[Custom alerts are available on Postman Enterprise plans only](https://www.postman.com/pricing/)**.
+> **[Custom alerts are available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
 
-Your team can add a total of five alerts. You must be a **Community Manager** or member with both **Developer** and **Admin** roles to add custom alerts.
+Your team can add a total of five alerts. You must be a **Community Manager** or team member with both **Developer** and **Admin** roles to add custom alerts.
 
-To add custom alerts:
+To add custom alerts, do the following:
 
 1. Go to **Team** > **Team Settings** > **Token scanner**.
 2. In the **Custom alerts** section, select **Add Alert**.
 3. On the **Add Alert** page, define the custom token.
-
-## Token scanner dashboard
-
-You can view your team's configured [default](#default-alerts) and [custom](#custom-alerts) alerts in your [data security dashboard](https://go.postman.co/settings/team/token-scanner). Select **Team** in the upper-right > **Team Settings**. Then, select **Data security** on the left, and select **Token scanner**.
-
-<img alt="Data security dashboard" src="https://assets.postman.com/postman-docs/data-security-dashboard.jpg"/>
 
 ## Protecting Postman API keys in GitHub
 

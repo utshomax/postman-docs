@@ -12,7 +12,18 @@ contextual_links:
   - type: link
     name: "Defining roles"
     url: "/docs/collaborating-in-postman/roles-and-permissions/"
-
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Requesting Edit Access | Postman Level Up"
+    url: "https://youtu.be/H-93OfONSsg"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "2 Ways to Access and Edit a Postman Element"
+    url: "https://blog.postman.com/access-and-edit-postman-element/"
 warning: false
 
 ---
@@ -34,7 +45,7 @@ If you can view an element in a workspace but can't edit it, there is a lock ico
 
 <img alt="Collection Lock" src="https://assets.postman.com/postman-docs/collection-lock-v9-14.jpg" width="292px">
 
-To request Editor role access for an element:
+To request Editor role access for an element, do the following:
 
 1. Select **Collections**, **APIs**, **Environments**, **Mock Servers**, or **Monitors** in the sidebar.
 

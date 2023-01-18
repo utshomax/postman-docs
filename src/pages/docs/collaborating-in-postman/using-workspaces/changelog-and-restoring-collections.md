@@ -30,6 +30,7 @@ Each Postman Collection has a changelog that covers create, update, transfer, an
 ## Contents
 
 * Viewing changes to a [collection](#viewing-the-collection-changelog), [workspace](#viewing-workspace-activity), or [team](#viewing-team-activity)
+* [Hiding diffs in the changelog](#hiding-diffs-in-the-changelog)
 * [Restoring collections](#restoring-collections)
 * [Exporting team activity](#exporting-team-activity-to-other-platforms)
 * [Next steps](#next-steps)
@@ -50,15 +51,13 @@ Select **View changes** under an item to view the collection diff. If a diff is 
 
 ## Viewing workspace activity
 
-You can [access the activity feed in Postman](#accessing-the-activity-feed-from-postman). The activity feed will show information on who added or removed collections, environments, or elements from the workspace as well as members joining and leaving the workspace. You can [filter this information](#filtering-the-activity-feed) directly within the activity feed.
+You can [access the activity feed in Postman](#accessing-the-activity-feed-from-postman). The activity feed will show information on who added or removed collections, environments, or elements from the workspace as well as users joining and leaving the workspace. You can [filter this information](#filtering-the-activity-feed) directly within the activity feed.
 
 You can also [view who's active in your workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#seeing-who-is-in-your-workspace).
 
 ### Accessing the activity feed from Postman
 
 To access the activity feed in Postman, select the **Overview** tab. Go to the **Activity** section to learn about events that have occurred within the workspace.
-
-[![Activity feed from postman](https://assets.postman.com/postman-docs/activity-feed-overview-v8.jpg)](https://assets.postman.com/postman-docs/activity-feed-overview-v8.jpg)
 
 ### Filtering the activity feed
 
@@ -68,31 +67,39 @@ Select **Reset filters** to remove the filters from the activity feed.
 
 #### Filtering by user
 
-Filtering by user will display the actions the specified user carried out.
-To filter by user, select **User** at the top of the activity feed and select the user or users. You can search for a specific user by typing their name in the search field. Once you have selected the user, select **Apply**.
+Filtering by user will display the actions the specified user carried out. To filter by user, select **People** at the top of the activity feed and select the user or users. You can search for a specific user by typing their name in the search field.
 
 > The user list will only show the users that are part of the workspace, not all team members.
 
-[![Activity filtering by user](https://assets.postman.com/postman-docs/filter-by-user.gif)](https://assets.postman.com/postman-docs/filter-by-user.gif)
-
 #### Filtering by element
 
-Filtering by element will display the actions carried out on the selected element type. Available elements are `Workspace`, `API`, `Collection`, and `Environment`.
-To filter by element, select **Entity** at the top of the activity feed and select the element. You can search for a specific element by typing its name in the search field. Once you have selected the element, select **Apply**.
+Filtering by element will display the actions carried out on the selected element type. The available elements are **Workspace**, **API**, **Collection**, **Environment**, **Monitor**, and **Mock servers**.
+
+To filter by element, select **Elements** at the top of the activity feed and select the element or elements. You can search for a specific element by typing its name in the search field.
 
 > You can access the changelog of a specific collection by selecting **View Changelog** next to actions on collections.
-
-[![Activity filtering by element](https://assets.postman.com/postman-docs/filter-by-entity.gif)](https://assets.postman.com/postman-docs/filter-by-entity.gif)
 
 ## Viewing team activity
 
 You can review your team's activity with a Postman Basic, Professional, or Enterprise account. To do so, select **Home** in the upper-left. You can view your team **Activity Feed** on the right.
 
+## Hiding diffs in the changelog
+
+If you have an [Editor role](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) for a collection, you can hide specific actions in its [changelog](#viewing-the-collection-changelog). When you hide a changelog entry's diff, users who don’t have Editor permissions on the collection can't view that diff in the changelog. This enables you to protect sensitive data in a public collection.
+
+Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> for the changelog entry, then select **Hide diff for this change**.
+
+<img alt="Hide a diff in the changelog" src="https://assets.postman.com/postman-docs/v10/changelog-hide-diff-v10.jpg" width="425px"/>
+
+To unhide the diff, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> for the changelog entry, then select  **Show diff to all users**. Once you unhide the diff, all users will be able to view it in the changelog.
+
+<img alt="Unhide a diff in the changelog" src="https://assets.postman.com/postman-docs/v10/changelog-unhide-diff-v10.jpg" width="425px"/>
+
 ## Restoring collections
 
 You can use the [changelog](#viewing-the-collection-changelog) to restore a collection to an earlier point in time.
 
-To restore a collection from the changelog:
+To restore a collection from the changelog, do the following:
 
 1. Select a session to expand it.
 2. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the change you'd like to restore your collection to, then select **Restore to this change**.

@@ -20,8 +20,13 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "How to Make Money Using Postman: Chaining Requests"
-    url: "https://blog.postman.com/how-to-make-money-using-postman-chaining-requests/"
+    name: "3 Ways to Build Workflows in Postman"
+    url: "https://blog.postman.com/3-ways-to-build-workflows-in-postman/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "WhatsApp uses workflows to incorporate automation for messages"
+    url:  "https://www.postman.com/case-studies/whatsapp/"
 
 warning: false
 
@@ -67,9 +72,9 @@ The collection run will stop after Postman completes the current request.
 
 Keep the following tips in mind when using the `postman.setNextRequest()` function.
 
-### setNextRequest() only works in Collection Runner
+### setNextRequest() only works when you run an entire collection
 
-The `postman.setNextRequest()` function has no effect when you run a request using **Send** and is only used when you run a collection.
+The `postman.setNextRequest()` function has no effect when you run a request using **Send** and is only used when you run a collection using the Collection Runner, the Postman CLI, or Newman.
 
 ### Use setNextRequest() in pre-request or test scripts
 
@@ -77,7 +82,7 @@ You can use `postman.setNextRequest()` in the pre-request script or the test scr
 
 ### Specify the next request using the request ID
 
-Instead of specifying the name of the request to run next, you can provide the request ID. To find the request ID, open a request and select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the context bar at right.
+Instead of specifying the name of the request to run next, you can provide the request ID. To find the request ID, open a request and select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar.
 
 Note that the ID shown is the user ID followed by the request ID. Omit the first eight digits and dash to get the request ID. You can also get the request ID using the `pm.info.requestId` function (see [Scripting Workflows](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#scripting-workflows)).
 
@@ -98,6 +103,6 @@ Learn more about [running collections or folders](/docs/running-collections/intr
 
 ## Next steps
 
-Now that you know how to build request workflows, you might also be interested in writing scripts:
+After learning about how to build request workflows, you can write some scripts.
 
 * To learn more about writing pre-request and test scripts, visit [Scripting in Postman](/docs/writing-scripts/intro-to-scripts/).
