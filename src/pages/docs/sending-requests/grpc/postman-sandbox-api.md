@@ -7,8 +7,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Scripting in gRPC request"
-    url: "/docs/sending-requests/grpc/writing-tests/#scripting-in-grpc-request"
+    name: "Scripting in gRPC requests"
+    url: "/docs/sending-requests/grpc/scripting-in-grpc-request/"
   - type: link
     name: "Using variables"
     url: "https://learning.postman.com/docs/sending-requests/variables/"
