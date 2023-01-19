@@ -43,7 +43,7 @@ Anyone in the Postman community can access a _public workspace_. A public worksp
 
 ## Contents
 
-* [Enabling your team profile](#enabling-your-team-profile)
+* [Making your team profile public](#making-your-team-profile-public)
 * [Creating a public workspace](#creating-a-public-workspace)
 * [Inviting collaboration on a public workspace](#inviting-collaboration-on-a-public-workspace)
     * [Sharing a public workspace](#sharing-a-public-workspace)
@@ -56,9 +56,9 @@ Anyone in the Postman community can access a _public workspace_. A public worksp
 * [Collaborating in another user's public workspace](#collaborating-in-another-users-public-workspace)
 * [Next steps](#next-steps)
 
-## Enabling your team profile
+## Making your team profile public
 
-Before other Postman users can work with your team in a public workspace, your team needs to have a public profile. A public team profile will encourage others to collaborate with you in a public workspace, allow you to ask for contributions and gather feedback, and will help increase your API's discovery in search results. A public team profile will also show up on the [Public API Network](https://www.postman.com/explore).
+Before other Postman users can work with your team in a public workspace, your team needs to have a public team profile. A public team profile encourages other users to collaborate with you in a public workspace, enables you to ask for contributions and gather feedback, and increases your API's discovery in search results. A public team profile also shows up on the [Public API Network](https://www.postman.com/explore).
 
 To make your [team profile](https://go.postman.co/settings/team/general) public, do the following:
 
@@ -66,15 +66,7 @@ To make your [team profile](https://go.postman.co/settings/team/general) public,
 1. Select **Team profile**.
 1. Select **Make team profile public** to set the profile to public.
 
-An informative and inviting public profile can help increase adoption of your API. Consider adding more information and assets to your team profile:
-
-* Add a **team logo**, **cover photo**, and **favicon** to establish your identity and ensure consistent branding.
-* Add information to the **About your team** section to help potential collaborators understand who your team is and what you do.
-* Add links to your team's website and social profiles to give potential collaborators other ways to engage with your team.
-
-<img alt="Enable team profile" src="https://assets.postman.com/postman-docs/edit-team-profile-v9.1.0.jpg"/>
-
-For more tips on how to create a public profile, see [How to create your Postman profile](https://blog.postman.com/how-to-create-your-postman-public-profile/) on the Postman blog.
+For information on how to create a public profile, see [Editing your team profile](/docs/administration/team-settings/#editing-your-team-profile).
 
 ## Creating a public workspace
 
@@ -110,7 +102,7 @@ When you make a workspace public, Postman sends in-app and email notifications t
 
 An informative and inviting public workspace can help increase adoption of your APIs. To invite collaboration from other users on your public workspace, you need to have:
 
-* A complete [public team profile](#enabling-your-team-profile).
+* A complete [public team profile](#making-your-team-profile-public).
 * A complete [workspace overview](#editing-public-workspace-details), including a name, summary, and description.
 * Descriptive [documentation](/docs/publishing-your-api/documenting-your-api/) for your APIs.
 

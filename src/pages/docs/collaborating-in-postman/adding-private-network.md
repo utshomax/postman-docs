@@ -195,6 +195,8 @@ To add an element to the Private API Network, it must be in the [API Builder](/d
 * **If your team uses the [optional approval process](#using-the-approval-process-workflow)**, team members with the Editor role must [submit a request](#editor-requesting-to-add-an-element) to add an element to the Private API Network and an API Network Manager must [approve the request](#api-network-manager-reviewing-requests-to-add-elements). API Network Managers can add elements directly to the Private API Network.
 * **If your team doesn't use the optional approval process**, any user with an Editor role for an element can add it to the Private API Network.
 
+> You can add elements to the Private API Network from the API Builder and with the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-b7c02959-88ca-4e2f-9b68-99538eed4533?ctx=documentation).
+
 ### Adding workspaces
 
 If your team uses the [optional approval process](#using-the-approval-process-workflow), only an API Network Manager can add workspaces directly to the Private API Network. Workspace Editors must [request to add a workspace](#requesting-to-add-an-api). If your team doesn't use the approval process, any user with Editor access for the workspace can add it to the Private API Network.
@@ -281,6 +283,8 @@ Once you've added elements to your Private API Network, you can manage them by o
 
 * **If your team uses the [optional approval process](#using-the-approval-process-workflow)**, a user with the API Network Manager can complete these tasks.
 * **If your team doesn't use the optional approval process**, any user with an Editor role can complete these tasks.
+
+> You can manage elements within the [Private API Network](#navigating-the-private-api-network) or with the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-b7c02959-88ca-4e2f-9b68-99538eed4533?ctx=documentation).
 
 ### Organizing with folders
 
