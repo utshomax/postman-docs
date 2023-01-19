@@ -1,9 +1,6 @@
 ---
 title: "Duo"
-order: 136
-updated: 2020-05-22
-page_id: "duo"
-warning: false
+updated: 2023-01-19
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -20,7 +17,7 @@ To configure SSO with Duo, you can configure a SAML application. You must be an 
 
 Before configuring the SAML application in Duo, you must [configure SSO in Postman](/docs/administration/sso/admin-sso/). When choosing the **Authentication Type**, select **Duo**. Name your authentication and **Continue**.
 
-<img alt="Configure identity provider details in Postman" src="https://assets.postman.com/postman-docs/configure-identity-provider-details-v9.14.jpg"/>
+<img alt="Configure identity provider details in Postman" src="https://assets.postman.com/postman-docs/v10/configure-identity-provider-v10.jpg"/>
 
 To continue configuring your SAML application, do the following:
 

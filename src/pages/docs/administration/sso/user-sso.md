@@ -1,9 +1,6 @@
 ---
 title: "Logging in to an SSO team"
-order: 133
-updated: 2021-02-08
-page_id: "user_sso"
-warning: false
+updated: 2023-01-19
 contextual_links:
   - type: section
     name: "Prerequisites"

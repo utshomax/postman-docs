@@ -1,9 +1,6 @@
 ---
 title: "Google Workspace"
-order: 137
-updated: 2020-05-22
-page_id: "google_workspace"
-warning: false
+updated: 2023-01-19
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -20,7 +17,7 @@ To configure SSO with Google Workspace, you can configure a SAML application. Yo
 
 Before configuring the SAML application in Google Workspace, you must [configure SSO in Postman](/docs/administration/sso/admin-sso/). When choosing the **Authentication Type**, select **GSuite**. Name your authentication and **Continue**.
 
-<img alt="Configure identity provider details in Postman" src="https://assets.postman.com/postman-docs/configure-identity-provider-details-v9.14.jpg"/>
+<img alt="Configure identity provider details in Postman" src="https://assets.postman.com/postman-docs/v10/configure-identity-provider-v10.jpg"/>
 
 To continue configuring your SAML application, do the following:
 

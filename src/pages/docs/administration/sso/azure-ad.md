@@ -1,9 +1,6 @@
 ---
 title: "Azure AD"
-order: 135
 updated: 2022-03-14
-page_id: "azure_ad"
-warning: false
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -26,7 +23,7 @@ To configure SSO with Azure Active Directory (AD), you can use the available Pos
 
 Before configuring a SAML application in Azure AD, you must [configure SSO in Postman](/docs/administration/sso/admin-sso/). When choosing the **Authentication Type**, select **SAML 2.0**. Name your authentication and **Continue**.
 
-<img alt="Configure identity provider details in Postman" src="https://assets.postman.com/postman-docs/configure-identity-provider-details-v9.14.jpg"/>
+<img alt="Configure identity provider details in Postman" src="https://assets.postman.com/postman-docs/v10/configure-identity-provider-v10.jpg"/>
 
 To continue configuring your SAML application, do the following:
 

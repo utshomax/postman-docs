@@ -1,9 +1,6 @@
 ---
 title: "OneLogin"
-order: 139
 updated: 2022-03-16
-page_id: "onelogin"
-warning: false
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -26,7 +23,7 @@ To configure SSO with OneLogin, you can use the available Postman app. You must 
 
 Before configuring the Postman app in OneLogin, you must [configure SSO in Postman](/docs/administration/sso/admin-sso/). When choosing the **Authentication Type**, select **OneLogin**. Name your authentication and **Continue**.
 
-<img alt="Configure identity provider details in Postman" src="https://assets.postman.com/postman-docs/configure-identity-provider-details-v9.14.jpg"/>
+<img alt="Configure identity provider details in Postman" src="https://assets.postman.com/postman-docs/v10/configure-identity-provider-v10.jpg"/>
 
 To continue configuring your Postman app, do the following:
 

@@ -1,9 +1,6 @@
 ---
 title: "Configuring SSO for a team"
-order: 132
-updated: 2020-08-06
-page_id: "admin_sso"
-warning: false
+updated: 2023-01-19
 contextual_links:
   - type: section
     name: "Prerequisites"

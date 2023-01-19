@@ -1,9 +1,6 @@
 ---
 title: "Ping Identity"
-order: 140
 updated: 2020-05-22
-page_id: "ping_identity"
-warning: false
 contextual_links:
   - type: section
     name: "Prerequisites"

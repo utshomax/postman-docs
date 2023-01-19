@@ -1,9 +1,6 @@
 ---
 title: 'Okta'
-order: 138
-updated: 2021-01-20
-page_id: 'okta'
-warning: false
+updated: 2023-01-19
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -27,7 +24,7 @@ To configure SSO with Okta, you can use the available Postman app in Okta or cre
 
 Before configuring SSO in Okta, you must [configure SSO in Postman](/docs/administration/sso/admin-sso/). When choosing the **Authentication Type**, select **Okta**. Name your authentication and **Continue**.
 
-<img alt="Configure identity provider details in Postman" src="https://assets.postman.com/postman-docs/configure-identity-provider-details-v9.14.jpg"/>
+<img alt="Configure identity provider details in Postman" src="https://assets.postman.com/postman-docs/v10/configure-identity-provider-v10.jpg"/>
 
 To continue configuring SSO with Okta, choose one of the following:
 
@@ -88,21 +85,21 @@ To continue configuring your custom SAML application, do the following:
 
 1. Select **Create App Integration**.
 
-    [![okta_new app](https://assets.postman.com/postman-docs/Okta-Create-Application.png)](https://assets.postman.com/postman-docs/Okta-Create-Application.png)
+    ![okta_new app](https://assets.postman.com/postman-docs/Okta-Create-Application.png)
 
 1. In the Create a New Application Integration screen, select **SAML 2.0** and then select **Next**.
 
-    [![okta choose saml](https://assets.postman.com/postman-docs/Okta-Choose-SAML.png)](https://assets.postman.com/postman-docs/Okta-Choose-SAML.png)
+    ![okta choose saml](https://assets.postman.com/postman-docs/Okta-Choose-SAML.png)
 
 1. In the **General Settings** tab, enter an app name you'll recognize later, and then select **Next**.
 
 1. In the **Configure SAML** tab, take the **ACS URL**  from Postman and add it as your **Single sign on URL**. Take the **Entity ID**  from Postman and add it as your **Audience URI (SP Entity ID)**. Select **EmailAddress** as the name ID format.
 
-    [![!okta service provider](https://assets.postman.com/postman-docs/okta_service_provider.png)](https://assets.postman.com/postman-docs/okta_service_provider.png)
+    ![!okta service provider](https://assets.postman.com/postman-docs/okta_service_provider.png)
 
 1. Select **Show Advanced Settings**. Select **Encrypted** as the assertion encryption, **AES128-CBC** as the encryption algorithm, and **RSA-1.5** as the key transport algorithm. Upload the **Encryption Certificate** downloaded from Postman.
 
-    [![okta advanced](https://assets.postman.com/postman-docs/Okta-SAML-Adv-Settings.png)](https://assets.postman.com/postman-docs/Okta-SAML-Adv-Settings.png)
+    ![okta advanced](https://assets.postman.com/postman-docs/Okta-SAML-Adv-Settings.png)
 
 1. In the **Feedback** tab, select **I'm an Okta customer adding an internal app** then select **Finish**.
 
