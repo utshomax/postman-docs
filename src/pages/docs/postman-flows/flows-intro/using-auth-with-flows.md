@@ -37,7 +37,7 @@ By assigning your secret key value to a variable, you can keep your key secure a
 
 ## Create a collection and a request
 
-1. [Create a collection](/docs/getting-started/creating-the-first-collection/) named OpenAI Collection and add a GET request with this URL: `https://api.openai.com/v1/models`.
+1. [Create a collection](/docs/getting-started/creating-the-first-collection/) named `OpenAI Collection` and add a GET request with this URL: `https://api.openai.com/v1/models`.
 
     ![Create a collection and request](https://assets.postman.com/postman-docs/v10/flow-auth-collection-v10.jpg)
 
