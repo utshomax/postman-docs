@@ -1,6 +1,6 @@
 ---
 title: "Using authorization with Postman Flows"
-updated: 2022-01-10
+updated: 2023-01-10
 ---
 
 Most APIs require authorization to access their data. Postman Flows can include credentials in its API requests, explicitly or as variables. This tutorial creates a simple flow that uses a global variable to access the OpenAI API with a secret key.
@@ -17,7 +17,7 @@ Most APIs require authorization to access their data. Postman Flows can include 
 This example flow uses a secret key to access the OpenAI API. To get your secret key:
 
 1. In your browser, go to [https://beta.openai.com/account/api-keys](https://beta.openai.com/account/api-keys) and select **Sign up**.
-1. Follow the prompts to create and sign into an OpenAI account.
+1. Follow the prompts to create and sign in to an OpenAI account.
 1. Return to [https://beta.openai.com/account/api-keys](https://beta.openai.com/account/api-keys) and create a secret key.
 1. Copy and paste your secret key in a secure but accessible location. You'll use it in a later step.
 
@@ -37,7 +37,7 @@ By assigning your secret key value to a variable, you can keep your key secure a
 
 ## Create a collection and a request
 
-1. [Create a collection](/docs/getting-started/creating-the-first-collection/) named OpenAI Collection and add a GET request with this URL: `https://api.openai.com/v1/models`.
+1. [Create a collection](/docs/getting-started/creating-the-first-collection/) named `OpenAI Collection` and add a GET request with this URL: `https://api.openai.com/v1/models`.
 
     ![Create a collection and request](https://assets.postman.com/postman-docs/v10/flow-auth-collection-v10.jpg)
 
