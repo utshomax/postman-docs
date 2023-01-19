@@ -391,6 +391,10 @@ export const leftNavItems = [
             name: 'Passing data between blocks',
             url: '/docs/postman-flows/flows-intro/passing-data-between-blocks/',
           },
+          {
+            name: 'Using authorization with Postman Flows',
+            url: '/docs/postman-flows/flows-intro/using-auth-with-flows/',
+          },
         ],
       },
       {
