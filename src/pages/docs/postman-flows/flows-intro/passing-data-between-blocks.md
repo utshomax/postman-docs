@@ -1,6 +1,6 @@
 ---
 title: "Passing data between blocks"
-updated: 2022-01-18
+updated: 2023-01-18
 warning: false
 ---
 
