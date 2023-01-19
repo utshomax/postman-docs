@@ -27,7 +27,7 @@ By assigning your secret key value to a variable, you can keep your key secure a
 
 1. In  your Postman workspace, select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> in the [workbench](/docs/getting-started/navigating-postman/#environment-selector-and-environment-quick-look).
 1. Next to **Globals**, select **Edit** (or **Add**).
-1. Add a variable named `auth` and paste your secret key in the **INITIAL VALUE** field.
+1. Add a variable named `auth` and paste `Bearer <your secret key>` in the **INITIAL VALUE** field. For example: `Bearer ab-123456789876543212345678987654321`
 1. Under **TYPE**, select **secret** from the dropdown list.
 
     ![Create a variable](https://assets.postman.com/postman-docs/v10/flow-auth-create-variable-v10.jpg)
@@ -61,6 +61,6 @@ By assigning your secret key value to a variable, you can keep your key secure a
     ![Select data](https://assets.postman.com/postman-docs/v10/flow-auth-send-request-v10.jpg)
 
 1. Connect a **Log** block to the **Send Request** block's **Success** port.
-1. Select **Run** then select **Console**. The flow gets your secret key from the `{{auth}}` variable and includes it in the API request. The API accepts the secret key and sends the response with a `200 OK` code, visible in the console.
+1. Select **Run** then select **Console**. The flow gets your secret key from the `{{auth}}` variable and includes it in the API request. The API accepts the secret key and sends the response with a `200` code, visible in the console.
 
     ![Run the flow](https://assets.postman.com/postman-docs/v10/flow-auth-run-v10.jpg)
