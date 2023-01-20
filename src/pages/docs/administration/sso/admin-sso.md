@@ -71,7 +71,7 @@ To update the settings for an authentication method, select **Edit**.
 
 This section describes the following topics:
 
-* [Creating end user accounts](#creating-end-user-accounts)
+* [Creating user accounts](#creating-user-accounts)
 
 * [Adding existing user accounts](#adding-existing-user-accounts)
 
@@ -83,7 +83,7 @@ This section describes the following topics:
 
 * [Next steps](#next-steps)
 
-### Creating end user accounts
+### Creating user accounts
 
 You can create an account for a user in the Identity Provider (IdP).
 
