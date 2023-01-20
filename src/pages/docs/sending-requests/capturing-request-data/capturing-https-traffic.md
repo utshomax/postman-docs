@@ -130,15 +130,15 @@ To install the security certificate on CentOS and Red Hat Enterprise Linux, do t
 
 To install the security certificate on Ubuntu, do the following:
 
-1. Create the directory for the CA certificate with the command below.
+1. Create the directory for the CA certificate with this command:
 
     `sudo mkdir -p /usr/share/ca-certificates/extra`
 
-1. Copy `postman-proxy-ca.crt` to the new folder with the command below.
+1. Copy `postman-proxy-ca.crt` to the new folder with this command:
 
     `sudo cp ~/.config/Postman/proxy/postman-proxy-ca.crt /usr/share/ca-certificates/extra/postman-proxy-ca.crt`
 
-1. Add the certificate to the system with the two commands below.
+1. Add the certificate to the system with these two commands:
 
     `sudo dpkg-reconfigure ca-certificates`
 

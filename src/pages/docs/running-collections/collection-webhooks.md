@@ -35,7 +35,7 @@ Webhooks for a collection can only be created using the [Postman API](/docs/deve
 
 ### Accessing the request body in scripts
 
-The request body of the webhook is available inside the `globals.previousRequest` object. In order to use it, first parse the `globals.previousRequest` object. The data sent to the webhook is available in the `data` parameter inside the parsed object, as shown in the code snippet below.
+The request body of the webhook is available inside the `globals.previousRequest` object. In order to use it, first parse the `globals.previousRequest` object. The data sent to the webhook is available in the `data` parameter inside the parsed object, as shown in this code snippet.
 
 ```js
 var previousRequest = JSON.parse(globals.previousRequest),

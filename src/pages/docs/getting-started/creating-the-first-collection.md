@@ -60,7 +60,7 @@ To create a collection, do the following:
 
 1. Select **Save** to save the request in the new collection.
 
-Congratulations! Postman lists all your collections under **Collections** in the sidebar, as shown below:
+After you save the request, your new collection and the request are listed under **Collections** in the sidebar.
 
 <img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/creating-first-collection-v9.jpg" width="400px"/>
 

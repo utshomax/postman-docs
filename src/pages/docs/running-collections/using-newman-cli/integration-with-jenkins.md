@@ -63,7 +63,7 @@ The following example shows how to set up a Jenkins build that uses Newman to ru
 
 ## Create a Postman Collection
 
-For this example, you'll need a Postman Collection that contains a few requests with tests. For this example, you can import a sample "Hello World" collection into your workspace by selecting the **Run in Postman** button below.
+For this example, you'll need a Postman Collection that contains a few requests with tests. For this example, you can import a sample "Hello World" collection into your workspace by selecting this **Run in Postman** button.
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/92cc7527bbab2bedffbd?action=collection%2Fimport)
 

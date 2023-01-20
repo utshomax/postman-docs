@@ -49,7 +49,7 @@ Sign in to [Splunk](https://login.splunk.com) and follow the [steps from Splunk]
 
    * Name your new integration.
    * Select the workspace and monitor whose data you would like to send to Splunk.
-   * Enter your Splunk HEC token, as described above.
+   * Enter your Splunk HEC token, as described in the [Retrieving your Splunk HEC token](#retrieving-your-splunk-hec-token).
    * Enter your Splunk host URL and port.
 
    [![splunk integration configuration](https://assets.postman.com/postman-docs/splunk-add-integration.jpg)](https://assets.postman.com/postman-docs/splunk-add-integration.jpg)

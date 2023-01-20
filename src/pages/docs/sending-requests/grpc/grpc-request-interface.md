@@ -47,7 +47,7 @@ The request section includes the required configurations to connect to the serve
 
 * **Server URL** - Defines the endpoint where the service is hosted. A gRPC URL often starts with `grpc://` instead of `http://` or `https://`. While creating a new request, you can also browse through URLs you've used by selecting the URL field. This helps you create the request faster if you’re testing multiple methods on the same endpoint.
 
-* **Method** - Select the method you wish to invoke using the method selector dropdown. The list of methods is populated by the service definition. Method types are described in detail in the [invoking different types of methods](#invoking-different-types-of-methods) section below.
+* **Method** - Select the method you wish to invoke using the method selector dropdown. The list of methods is populated by the service definition. For more details about the method types, see the [Invoking different types of methods](#invoking-different-types-of-methods) section.
 
 * **Payload** - A gRPC payload has items to aid the server in executing the request:
 
