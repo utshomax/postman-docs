@@ -42,7 +42,9 @@ To change settings in Postman, select the settings icon <img alt="Settings icon"
 * [Data](#data)
 * [Add-ons](#add-ons)
 * [Certificates](#certificates)
+* [Connected accounts](#connected-accounts)
 * [Proxy](#proxy)
+* [Update](#update)
 * [About](#about)
 
 ## General
