@@ -136,7 +136,7 @@ pm.test('"grpc-status-details-bin" response trailer is "dummy-value"', () => {
 
 In the case of multiple response messages (a request with the server or bidirectional streaming method), the tests in this section check all the messages for the given assertion. For a request with the unary or client streaming method where there is only one response message, the assertion is tested on that single message only.
 
-Also, when writing assertions using `pm.response.messages.to.*`, you will be asserting on an array of message content and not the complete [`pm.response`](/docs/sending-requests/grpc/postman-sandbox-api/#pmresponse) message object.
+Also, when writing assertions using `pm.response.messages.to.*`, you will be asserting on an array of message content and not the complete [pm.response](/docs/sending-requests/grpc/postman-sandbox-api/#pmresponse) message object.
 
 You can test the assertions in this section on request messages as well using the `pm.request` object.
 

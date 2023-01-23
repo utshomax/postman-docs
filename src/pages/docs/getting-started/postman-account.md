@@ -40,7 +40,7 @@ Signing up for a Postman account is optional, and you can use the Postman deskto
 ## Contents
 
 * [Signing up for a Postman account](#signing-up-for-a-postman-account)
-* [Signing into Postman](#signing-into-postman)
+* [Signing in to Postman](#signing-in-to-postman)
 * [Updating your account settings](#updating-your-account-settings)
     * [Changing your email address](#changing-your-email-address)
     * [Resetting your password](#resetting-your-password)
@@ -75,7 +75,7 @@ During the sign up process, you have the option to create or join a [team](/docs
 
 > To learn more about joining and creating teams, see the [Collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/).
 
-## Signing into Postman
+## Signing in to Postman
 
 You can sign in to Postman by selecting **Sign In** in the upper-right corner or by selecting **Home** in the upper-left corner, then **Sign In**. You can also go to [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner of the page.
 
@@ -117,7 +117,7 @@ If you're on a Professional, Basic, or Free plan, you can change your password i
 
 If you aren't signed in to your Postman account, you can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login) page. Select **Trouble signing in?**. Enter your account email, select the **I'm not a robot** checkbox, and select **Submit**. Postman will send you an email with instructions for recovering access to your account.
 
-> If you still have trouble logging into your Postman account, contact [Postman support](https://support.postman.com/hc/en-us).
+> If you still have trouble signing in to your Postman account, contact [Postman support](https://support.postman.com/hc/en-us).
 
 If you're on an Enterprise plan, you must contact your Team Admins to update the password associated with your Postman account.
 
@@ -141,7 +141,7 @@ Once you've enabled two-factor authentication, you must provide both your passwo
 
 If you're signed in to Postman and would like to regenerate your recovery codes, open your [account settings](https://go.postman.co/settings/me/account/) and select **Regenerate recovery codes**.
 
-> If you lose access to your device and can't access your authenticator app, select **Use a recovery code** when signing into Postman. If you've lost your recovery codes, [email Postman support](mailto:help@postman.com) from a registered email address for help.
+> If you lose access to your device and can't access your authenticator app, select **Use a recovery code** when signing in to Postman. If you've lost your recovery codes, [email Postman support](mailto:help@postman.com) from a registered email address for help.
 
 ### Turning off two-factor authentication
 
@@ -175,7 +175,7 @@ In addition to email and in-app notifications, you can also send many notificati
 
 ## Managing your active sessions
 
-You can manage your [active Postman sessions](https://go.postman.co/settings/me/sessions/) by selecting your avatar in the Postman header, then selecting **Active Sessions**. You can view all of the devices you're logged in to Postman on and revoke any sessions you no longer use or recognize. You can also choose to **Revoke all sessions**.
+You can manage your [active Postman sessions](https://go.postman.co/settings/me/sessions/) by selecting your avatar in the Postman header, then selecting **Active Sessions**. You can view all of the devices you're signed in to Postman on and revoke any sessions you no longer use or recognize. You can also choose to **Revoke all sessions**.
 
 <img alt="Active sessions" src="https://assets.postman.com/postman-docs/dashboard-active-sessions-revoke-v9.2.jpg">
 
@@ -198,6 +198,6 @@ For more details on Postman's security policies and standards, visit the Postman
 
 ## Next steps
 
-Now that you have created a Postman account, you're ready to start working! When you are logged into Postman, you are connected to the Postman servers and your work is continuously backed up.
+Now that you have created a Postman account, you're ready to start working! When you are signed in to Postman, you are connected to the Postman servers and your work is continuously backed up.
 
 * To learn more about how Postman syncs your data, visit [Syncing your work](/docs/getting-started/syncing/).

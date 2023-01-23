@@ -26,7 +26,7 @@ Commands and options for using the Postman CLI.
 ## Contents
 
 * [Basic command line options](#basic-command-line-options)
-* [Logging and and logging out](#logging-in-and-logging-out)
+* [Signing in and and out](#signing-in-and--out)
 * [Running collections](#running-collections)
 * [Governance and security](#governance-and-security)
 
@@ -49,7 +49,7 @@ postman -v
 | `--help`, `-h` | Returns information about Postman CLI commands and options.|
 | `--version`, `-v`| Returns the version number for the Postman CLI.|
 
-## Logging in and logging out
+## Signing in and out
 
 You can use the Postman CLI to sign in and out of Postman with the [`login`](#postman-login) and [`logout`](#postman-logout) commands.
 
