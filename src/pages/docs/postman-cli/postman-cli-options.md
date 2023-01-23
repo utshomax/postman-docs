@@ -55,7 +55,7 @@ You can use the Postman CLI to sign in and out of Postman with the [`login`](#po
 
 ### postman login
 
-This command authenticates the user and locally caches the [Postman API key](/docs/developer/intro-api#generating-a-postman-api-key). `login` requires one option, `--with-api-key`, that accepts the Postman API key. The `login` command is required only once per session. Once you've logged in, you remain logged in until you use the `logout` command or your Postman API key expires.
+This command authenticates the user and locally caches the [Postman API key](/docs/developer/intro-api#generating-a-postman-api-key). `login` requires one option, `--with-api-key`, that accepts the Postman API key. The `login` command is required only once per session. Once you've signed in, you remain signed in until you use the `logout` command or your Postman API key expires.
 
 #### Example
 
@@ -65,7 +65,7 @@ postman login --with-api-key ABCD-1234-1234-1234-1234-1234
 
 ### postman logout
 
-This command logs you out of Postman and deletes the stored API key.
+This command signs you out of Postman and deletes the stored API key.
 
 #### Example
 
