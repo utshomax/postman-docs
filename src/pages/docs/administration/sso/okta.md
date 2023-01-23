@@ -141,7 +141,7 @@ Now, go to the Postman [Edit Team Details](https://go.postman.co/settings/team/g
 
 [![details](https://assets.postman.com/postman-docs/Okta-IDP-Details.png)](https://assets.postman.com/postman-docs/Okta-IDP-Details.png)
 
-Now, download the encryption certificate by selecting **Download as file** (shown in red circle). You will upload this file in the **Okta SAML** configuration section, which is explained in [Okta - Step 7](#okta---step-7).
+Now, download the encryption certificate by selecting **Download as file** (shown in the red circle). You will upload this file in the **Okta SAML** configuration section, which is explained in [Okta - Step 7](#okta---step-7).
 
 Go to your Okta account. Go to the **Sign On** tab and select **Edit**.
 [![details](https://assets.postman.com/postman-docs/Okta-New-Integ3.png)](https://assets.postman.com/postman-docs/Okta-New-Integ3.png)
