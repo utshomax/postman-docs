@@ -4,10 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-    - main
-
-env:
-  BRANCH: ${{github.ref_name}}
+    - 'main'
 
 jobs:
   build:
@@ -55,7 +52,7 @@ jobs:
           npm install
           npm run clean
           npm run build:prod 
-          aws s3 sync ./public/ s3://${{secrets.PROD_BUCKET_NAME}}/${{ env.BRANCH }}/ --delete
+          aws s3 sync ./public/ s3://${{secrets.PROD_BUCKET_NAME}}/main/ --delete
       
       - name: invalidate the CDN
         uses: chetan/invalidate-cloudfront-action@v2
