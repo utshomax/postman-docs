@@ -34,7 +34,7 @@ You can leave comments on APIs, collections, and requests to collaborate with yo
 
 You can leave comments on collections from Postman.
 
-> Team members must have access to the collection in question in order to post comments.
+> Team members must have access to a collection to post comments on it.
 
 1. Sign in to [Postman](https://go.postman.co/).
 2. At the top, select a **Workspace** and then select the **Collections** tab.

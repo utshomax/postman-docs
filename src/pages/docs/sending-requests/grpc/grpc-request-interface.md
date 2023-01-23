@@ -41,7 +41,7 @@ Create a new gRPC request by selecting the **New** button in the sidebar which b
 
 ## The request section
 
-The request section includes the required configurations to connect to the server and execute the selected method. Requests need a server URL, a service definition, and a selected method in order to be invoked. Based on the API requirements, you may have to pass message payloads, metadata, and authorization details along with the request. You may also have to configure TLS and other certificates based on the requirements.
+The request section includes the required configurations to connect to the server and execute the selected method. Requests need a server URL, a service definition, and a selected method to be invoked. Based on the API requirements, you may have to pass message payloads, metadata, and authorization details along with the request. You may also have to configure TLS and other certificates based on the requirements.
 
 <img src="https://assets.postman.com/postman-docs/v10/grpc-request-sections.jpg" alt="Request pane" />
 
@@ -177,7 +177,7 @@ The server you are using is unreachable with the current client settings. If you
 
 ### Switch to Postman Desktop Agent to connect with a gRPC server
 
-In order to use all of Postman's gRPC features, you must run the Postman Desktop Agent.
+To use all of Postman's gRPC features, you must run the Postman Desktop Agent.
 
 Learn more about [installing the Postman Desktop Agent](/docs/getting-started/about-postman-agent/#the-postman-desktop-agent).
 
