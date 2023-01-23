@@ -84,7 +84,7 @@ There are several ways to search, filter, and sort elements in the Private API N
     * **A to Z** - Sort elements alphabetically.
     * **Trending this week** - Sort elements by your team's usage this week.
     * **Trending this month** - Sort elements by your team's usage this month.
-* To sort folders, sub-folders, and elements alphabetically or by date added, select the sort icon <img alt="Sort icon" src="https://assets.postman.com/postman-docs/icon-sort.jpg#icon" width="16px"> from the Overview section.
+* To sort folders, sub-folders, and elements alphabetically or by date added, select the sort icon <img alt="Sort icon" src="https://assets.postman.com/postman-docs/icon-sort.jpg#icon" width="16px"> from the sidebar.
 
 <img alt="Private API List" src="https://assets.postman.com/postman-docs/v10/private-api-network-list-v10.jpg"/>
 
