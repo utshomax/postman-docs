@@ -56,7 +56,7 @@ If you're a member of two or more teams, you can create additional teams. To cre
 
 [Postman Free](https://www.postman.com/pricing/) lets teams of up to three work together at no cost. If you want to collaborate with more team members, features, and increased usage limits, you can [upgrade](/docs/administration/billing/#changing-your-plan) to a Basic, Professional, or Enterprise plan. To do so, select **Upgrade** in the upper-right corner.
 
-If you're an individual Postman user and create a Postman team through the flow mentioned above, you can choose to transfer your personal workspaces and the data within them to the team or keep them separate. When you leave a team, your personal workspaces within the team and their data will remain with the team and no longer be accessible to you.
+If you're an individual Postman user and create a Postman team through the flow mentioned above, you can choose to transfer your personal workspaces and the data within them to the team or keep them separate. (Your personal workspaces and data may transfer to your team automatically in some situations; see [Joining a team](#joining-a-team) for details.) When you leave a team, your personal workspaces within the team and their data will remain with the team and no longer be accessible to you.
 
 > For more information on setting up Postman within your organization, check out the [Onboarding checklist](/docs/administration/onboarding-checklist/).
 
