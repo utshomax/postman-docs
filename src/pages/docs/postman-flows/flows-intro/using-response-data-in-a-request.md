@@ -3,7 +3,7 @@ title: "Using response data in a request"
 updated: 2023-01-25
 ---
 
-This tutorial shows how to take data from a GET response and use it in a GET request.
+This tutorial shows how to take data from a GET response and use it in a GET request in [Postman Flows](/docs/postman-flows/flows-intro/flows-overview/).
 
 The Random User API returns a randomly chosen set of user data for each GET request, unless you include a seed as a query parameter. This tutorial takes the seed from a GET response and includes it as a query parameter in another GET request so that both GET requests return the same user’s data.
 
