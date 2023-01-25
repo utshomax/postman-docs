@@ -9,12 +9,12 @@ The Random User API returns a different set of user data for each GET request, u
 
 ## Contents
 
-* Create a collection and a request
-* Create a flow
+* [Create a collection and a request](#create-a-collection-and-a-request)
+* [Create a flow](#create-a-flow)
 
 ## Create a collection and a request
 
-1. Create a collection named `Random User Collection` and add a GET request named First Request.
+1. Create a collection named `Random User Collection` and add a GET request named `First Request`.
 1. Enter this URL in the request: `https://randomuser.me/api/`.
 
     ![Create a collection and request](https://assets.postman.com/postman-docs/v10/flow-send-info-first-request-v10.jpg)
@@ -25,16 +25,13 @@ The Random User API returns a different set of user data for each GET request, u
 
 1. Select the **GET First Request** tab and select **Save**.
 1. Add another GET request named `Seeded Request`.
-
-    ![Create another request](https://assets.postman.com/postman-docs/v10/flow-send-info-seeded-request-v10.jpg)
-
 1. Enter the same URL as the first request: `https://randomuser.me/api/`.
 1. Select **Key** and enter seed.
 1. Select **Value** and enter the variable `{{seedVar}}`.
 
-    > The variable is unresolved in the request now, but it will receive a value in Postman Flows.
-
     ![Add the seed variable](https://assets.postman.com/postman-docs/v10/flow-send-info-seedVar-v10.jpg)
+
+    > The variable is unresolved in the request now, but it will receive a value in Postman Flows.
 
 1. Select **Save**.
 
@@ -64,4 +61,4 @@ The Random User API returns a different set of user data for each GET request, u
 
     ![Open the console](https://assets.postman.com/postman-docs/v10/flow-send-info-console-v10.jpg)
 
-The first **Send Request** block gets a single random user’s data and sends the data to a **Select** block. The **Select** block selects the value of the seed field and passes that value to the next **Send Request** block. That **Send Request** block uses the seed value as a parameter, returning the same random user as the first **Send Request** block.
+The first **Send Request** block gets a single random user’s data and sends the response data to a **Select** block. The **Select** block selects the value of the **seed** field from the response data and passes that value to the next **Send Request** block. That **Send Request** block uses the first request's seed as a parameter, returning the same random user as the first **Send Request** block.
