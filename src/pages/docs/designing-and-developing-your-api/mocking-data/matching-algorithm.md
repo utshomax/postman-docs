@@ -6,14 +6,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Mock servers overview"
-    url: "/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
+    name: "Setting up mock servers"
+    url: "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
 ---
 
 Using Postman's [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) requires a collection with requests and saved request examples. You can save as many examples to a collection as you want, and the mock server will return these examples predictably. Postman uses a matching algorithm to decide which examples to return.
