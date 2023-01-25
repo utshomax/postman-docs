@@ -5,7 +5,7 @@ updated: 2023-01-25
 
 This tutorial shows how to take data from a GET response and use it in a GET request.
 
-The Random User API returns a different set of user data for each GET request, unless you include a seed as a parameter. This tutorial takes the seed from a GET response and includes the seed as a parameter in another GET request. Both GET requests will return the same user’s data.
+The Random User API returns a randomly chosen set of user data for each GET request, unless you include a seed as a query parameter. This tutorial takes the seed from a GET response and includes it as a query parameter in another GET request so that both GET requests return the same user’s data.
 
 ## Contents
 
@@ -48,10 +48,10 @@ The Random User API returns a different set of user data for each GET request, u
     ![Create a Select block](https://assets.postman.com/postman-docs/v10/flow-send-info-select-block-v10.jpg)
 
 1. Create another **Send Request** block but don’t connect it yet.
+1. In the new **Send Request** block, select **Add request > Random User Collection > Seeded Request**. The `{{seedVar}}` variable appears at the bottom of the block.
 
     ![Create a Send Request block](https://assets.postman.com/postman-docs/v10/flow-send-info-second-send-block-v10.jpg)
 
-1. In the new **Send Request** block, select **Add request > Random User Collection > Seeded Request**. The `{{seedVar}}` variable appears at the bottom of the block.
 1. Connect the **Select** block to the port next to `{{seedVar}}`.
 1. Connect a **Log** block to the second **Send Request** block’s **Success** port.
 
