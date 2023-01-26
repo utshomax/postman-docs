@@ -751,7 +751,7 @@ $boolean(customer_info.total_value > 250) ? 'high-value customer' : 'not a high-
 
 ## Partition an array
 
-Breaks an array up into smaller arrays and returns the smaller arrays as a list.
+The `$partition()` function breaks an array up into smaller arrays and returns the smaller arrays as a list.
 
 ### FQL
 
