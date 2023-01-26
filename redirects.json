@@ -1,5 +1,9 @@
 [
 	{
+		"from": "/docs/postman-flows/flows-intro/chaining-requests-with-data/",
+		"to": "/docs/postman-flows/flows-intro/passing-data-between-blocks/"
+	},
+	{
 		"from": "/concepts/",
 		"to": "/docs/"
 	},
