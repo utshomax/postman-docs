@@ -802,7 +802,7 @@ $filter(input.payments[].amount,fn($v,$i,$a) { $v > 40})
 
 ## Collapse an array to a single value
 
-Applies the function to every element in the array. In this case, it adds all the elements of the array together.
+The `reduce()` function applies a function to every element in the array. In this example, it adds all the elements of the array together.
 
 ### FQL
 
