@@ -29,7 +29,7 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Intuit"
+    name: "Intuit uses Postman's authentication protocols"
     url: "https://www.postman.com/case-studies/intuit/"
   - type: subtitle
     name: "Next Steps"

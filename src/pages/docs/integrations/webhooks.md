@@ -21,7 +21,7 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Paylocity"
+    name: "Paylocity integrates custom webhooks with CI/CD tools"
     url: "https://www.postman.com/case-studies/paylocity/"
   - type: subtitle
     name: "Public Workspaces"

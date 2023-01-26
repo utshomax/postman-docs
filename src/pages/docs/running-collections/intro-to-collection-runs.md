@@ -27,10 +27,10 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Lightspeed"
+    name: "Lightspeed uses a collection runner to improve testing and QA times"
     url: "https://www.postman.com/case-studies/lightspeed-commerce/"
   - type: link
-    name: "iQmetrix"
+    name: "iQmetrix uses a collection runner to automate tasks in other systems"
     url: "https://www.postman.com/case-studies/iqmetrix/"
 
 warning: false

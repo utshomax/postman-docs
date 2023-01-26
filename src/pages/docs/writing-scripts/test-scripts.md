@@ -32,10 +32,10 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "SEI Novus"
+    name: "SEI Novus keeps data in sync with financial market changes using tests"
     url: "https://www.postman.com/case-studies/sei-novus/"
   - type: link
-    name: "VTEX"
+    name: "VTEX monitors data by running tests every two minutes"
     url: "https://www.postman.com/case-studies/vtex/"
   - type: subtitle
     name: "Public Workspaces"

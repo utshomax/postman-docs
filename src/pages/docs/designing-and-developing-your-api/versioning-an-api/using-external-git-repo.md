@@ -1,6 +1,6 @@
 ---
 title: 'Using a remote Git repository'
-updated: 2022-12-01
+updated: 2023-01-09
 search_keyword: "whitelist, whitelist IP"
 contextual_links:
   - type: section
@@ -70,8 +70,6 @@ Keep in mind the following when connecting to a repository:
 
 * **For GitHub connections, there's a limit of ten auth tokens per user per application imposed by GitHub.** If you create more than ten connections with the same user, the additional tokens will be revoked in the order that they were created. Teams can use other Postman accounts to create more than ten integrations.
 
-    > If you used the earlier standalone GitHub integration for two-way sync of an API definition, you must delete the existing integration to connect a repository to your API. An existing integration will continue to function, but you can't add new integrations for two-way sync to an API definition.
-
 ### Connecting to a cloud-hosted repository
 
 You can connect to a GitHub, Bitbucket, GitLab, or Azure DevOps repository hosted in the cloud.
@@ -103,19 +101,24 @@ To manage services you've authorized with, select the settings icon <img alt="Se
 
 ### Connecting to an on-premises repository
 
-> **Use the [Postman desktop app](/docs/getting-started/installation-and-updates/) to connect to GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server.** You can't use the [Postman web app](https://learning.postman.com/docs/getting-started/installation-and-updates/#using-the-postman-web-app) to connect to an on-premises GitHub repository.
+> **Use the [Postman desktop app](/docs/getting-started/installation-and-updates/) to connect to GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server.** You can't use the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) to connect to an on-premises GitHub repository.
 
 You can connect to a GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server repository hosted on-premises.
 
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect repository**, select **Connect** and select the type of repository you want to connect to.
-1. Enter the **Domain URL** of your repository. You can enter a new domain or select a domain you've used before from the list. Use the base URL of your enterprise server, for example: `https://my-git-server.example.com`
-1. Enter a **Personal access token** to access the repository. Ensure that the token has the required permissions as specified on the **Connect repository** page.
+1. Enter the **Domain URL** of your repository. You can enter a new domain or select a domain you've used before from the list. Format the domain URL as follows:
+
+    * **GitHub Enterprise Server** - Use the base URL of your Git server, for example: `https://my-github-server.example.com`
+    * **GitLab Self-Managed** - Use the base URL of your Git server, for example: `https://gitlab.example.com`
+    * **Azure DevOps Server** - Use the name and port of your Git server along with the collection, for example: `https://my-azure-server:8080/my-collection`
+
+1. Enter a **Personal access token** to access the repository. Ensure that the token has the required permissions as specified on the **Connect your repository** page.
 
     > **For GitHub Enterprise Server, you can use a classic token or a fine-grained token.** If using a [fine-grained token](https://github.blog/2022-10-18-introducing-fine-grained-personal-access-tokens-for-github/), ensure the token has access to the repository and has the following Repository permissions: `Contents (Read and write)` and `Metadata (Read-only)`.
 
 1. Select **Next**.
-1. On the **Connect your repository** page, enter the **Organization** and the **Repository** where the API will be stored. (For GitLab, enter the **Group** and **Project** for your API.)
+1. Enter the **Organization** and the **Repository** where the API will be stored. (For GitLab, enter the **Group** and **Project** for your API.)
 1. Select the **Initial branch** for the API. Any changes you make in Postman are stored in the initial active branch. (You can switch to another branch to make it the active branch at any time.)
 1. Select an **API schema directory** and **Collection directory** where API definitions and collections will be stored in the repository. Keep in mind the following:
 

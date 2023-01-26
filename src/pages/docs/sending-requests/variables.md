@@ -37,7 +37,7 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Paylocity"
+    name: "Paylocity uses variables to automate workflows"
     url: "https://www.postman.com/case-studies/paylocity/"
   - type: section
     name: "Next Steps"

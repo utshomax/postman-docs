@@ -26,10 +26,10 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "The Trevor Project"
+    name: "The Trevor Project uses mock servers to understand API responses early"
     url: "https://www.postman.com/case-studies/the-trevor-project/"
   - type: link
-    name: "OVO"
+    name: "OVO accelerated integration implementation with mock servers"
     url: "https://www.postman.com/case-studies/ovo/"
   - type: section
     name: "Next Steps"
@@ -52,7 +52,6 @@ When you send a request to a mock server, Postman matches the request to a saved
     * [Editing the mock server configuration](#editing-the-mock-server-configuration)
     * [Matching request body and headers](#matching-request-body-and-headers)
 * [Making requests to mock servers](#making-requests-to-mock-servers)
-    * [Using variables with mock servers](#using-variables-with-mock-servers)
     * [Using HTTP access control for a mock](#using-http-access-control-for-a-mock)
 * [Viewing mock calls](#viewing-mock-calls)
     * [Troubleshooting mock calls](#troubleshooting-mock-calls)
@@ -116,7 +115,7 @@ Configure your [mock server details](#configuring-mock-server-details).
 
 To configure your new mock server, give it a name. You can select an optional environment to have your mock sever use environment variables. You can also configure a delay before the mock server sends responses to simulate network delays.
 
-> You can save the mock URL to an [environment variable](/docs/sending-requests/variables/) in a new environment. You can then reference the variable in your requests by making the new environment active before sending the request. Learn more about [using variables with mock servers](#using-variables-with-mock-servers).
+> You can save the mock URL to an [environment variable](/docs/sending-requests/variables/) in a new environment. You can then reference the variable in your requests by making the new environment active before sending the request. Learn more about [using variables with mock servers](/docs/designing-and-developing-your-api/mocking-data/creating-dynamic-responses/#using-variables-with-mock-servers).
 
 If you choose to make your mock server private, you need to add a [Postman API key](/docs/developer/intro-api/) in the request header when sending requests to the mock server: `x-api-key:<Your-Postman-API-key>`. If you [share the collection](/docs/collaborating-in-postman/sharing/), others can use their Postman API keys to make calls to the mock server.
 
@@ -187,21 +186,6 @@ When you send a request to the mock server, the mock server sends back a respons
 If you configured a delay for your mock server, Postman waits the specified period of time before sending the response.
 
 > Your Postman account gives you a limited number of free mock server calls per month. Check your [usage limits](https://go.postman.co/usage).
-
-### Using variables with mock servers
-
-[Variables](/docs/sending-requests/variables/) enable you to store values and use them in your requests and saved examples. If you change the value of a variable, the new value is used wherever the variable occurs..
-
-Postman mock servers support [environment variables](/docs/sending-requests/variables/#defining-environment-variables) and [collection variables](/docs/sending-requests/variables/#defining-collection-variables). (Mock servers don't support using global variables.)
-
-* To use environment variables, select the environment in the [mock server's configuration](#editing-the-mock-server-configuration).
-* To use collection variables, define them on the **Variables** tab in the [collection you are mocking](/docs/sending-requests/variables/#defining-collection-variables).
-
-When you use an environment or collection variable in a saved example, the mock server resolves the variable and replaces it with the variable's initial value. If an environment variable and a collection variable have the same name, Postman uses the environment variable. Learn more about [variable scopes](/docs/sending-requests/variables/#variable-scopes).
-
-<img alt="Using variables with mock servers" src="https://assets.postman.com/postman-docs/v10/mock-server-using-variables-v10.jpg" width="467px" />
-
-> If you save the URL of a mock server to a [variable](/docs/sending-requests/variables/), you can reference it across requests. For example, if you have a production server and a mock server, you can have an [environment](/docs/sending-requests/managing-environments/) for each server. In each environment, create a variable with the same name for the mock URL. By using the variable in your requests, you can switch between the two environments to call the production server or the mock server.
 
 ### Using HTTP access control for a mock
 

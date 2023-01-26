@@ -25,7 +25,7 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Youi"
+    name: "Youi uses version control to build and test updates locally before merging"
     url: "https://www.postman.com/case-studies/youi/"
   - type: section
     name: "Next Steps"

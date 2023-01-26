@@ -30,10 +30,10 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Hathway"
+    name: "Hathway uses monitors to identify issues with integrations"
     url: "https://www.postman.com/case-studies/hathway/"
   - type: link
-    name: "Momentive"
+    name: "Momentive tracks production API performance with monitors"
     url: "https://www.postman.com/case-studies/momentive/"
   - type: subtitle
     name: "Public Workspaces"
