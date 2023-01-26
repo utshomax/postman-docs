@@ -786,7 +786,7 @@ $map(input.payments[].amount,$string)
 
 ## Filter for values
 
-In this example, the `$filter()` function returns values greater than 40 from `amount` fields in the `payments` array. 
+In this example, the `$filter()` function returns values greater than 40 from `amount` fields in the `payments` array.
 
 ### FQL
 
