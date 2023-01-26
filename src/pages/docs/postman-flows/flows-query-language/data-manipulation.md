@@ -64,7 +64,7 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 * [If-then-else](#if-then-else)
 * [Partition an array](#partition-an-array)
 * [Perform an action on each value in an array](#perform-an-action-on-each-value-in-an-array)
-* [Filter for values ](#filter-for-values)
+* [Filter for values](#filter-for-values)
 * [Collapse an array to a single value](#collapse-an-array-to-a-single-value)
 * [Sort an array](#sort-an-array)
 
@@ -782,7 +782,7 @@ $map(input.payments[].amount,$string)
 ["110.48", "24.49", "110.48", "35.56"]
 ```
 
-## Filter for values 
+## Filter for values
 
 ### FQL
 
@@ -812,7 +812,7 @@ $reduce(input.payments[].amount,fn($i, $j){$i + $j})
 281.01
 ```
 
-## Sort an array 
+## Sort an array
 
 Sorts an array by the function specified where `$j` is the current item and `$i` is the next item.
 
