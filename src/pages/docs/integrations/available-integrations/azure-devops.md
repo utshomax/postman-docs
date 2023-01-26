@@ -14,7 +14,7 @@ contextual_links:
 
 > **[Azure DevOps Server (hosted on-premises) integrations are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-Postman enables you to sync your Postman APIs to Microsoft Azure DevOps, a Git repository manager, with the [Postman to Azure DevOps integration](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/).
+Postman enables you to sync your Postman APIs to Git repositories hosted in Microsoft Azure DevOps with the [Postman to Azure DevOps integration](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/).
 
 ## API sync with Azure DevOps
 
