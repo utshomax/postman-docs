@@ -99,7 +99,7 @@ When the collections run to your satisfaction, you can copy the commands into yo
 
 1. Select the  copy icon <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> to copy the Postman CLI configuration.
 
-<img alt="Generate Postman CLI" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-collections-v10.jpg">
+<img alt="Generate Postman CLI" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-v10-3.jpg" />
 
 ## Running a collection in a specific order
 

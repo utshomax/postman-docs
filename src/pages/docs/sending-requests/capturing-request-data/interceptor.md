@@ -25,7 +25,7 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "VideoAmp"
+    name: "VideoAmp uses Postman Interceptor to identify UI and browser errors"
     url: "https://www.postman.com/case-studies/videoamp/"
 
 warning: false

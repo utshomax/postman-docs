@@ -29,7 +29,7 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "SEI Novus"
+    name: "SEI Novus integrated Newman into its CI/CD process for regression testing"
     url:  "https://www.postman.com/case-studies/sei-novus/"
   - type: section
     name: "Next Steps"

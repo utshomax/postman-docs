@@ -22,10 +22,10 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Twitter"
+    name: "Twitter maintains collection with 23+ endpoints"
     url:  "https://www.postman.com/case-studies/twitter/"
   - type: link
-    name: "Werner Enterprises"
+    name: "Werner Enterprises saves 3 hours per week with collections"
     url:  "https://www.postman.com/case-studies/werner/"
   - type: subtitle
     name: "Public Workspaces"

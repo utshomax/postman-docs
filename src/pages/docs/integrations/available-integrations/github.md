@@ -17,7 +17,7 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Reputation"
+    name: "Reputation uses Postman with GitHub to streamline its CI/CD pipeline"
     url: "https://www.postman.com/case-studies/reputation/"
 
 ---

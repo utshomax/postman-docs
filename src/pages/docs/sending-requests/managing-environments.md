@@ -34,10 +34,10 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Hathway"
+    name: "Hathway uses separate environments for each client"
     url: "https://www.postman.com/case-studies/hathway/"
   - type: link
-    name: "VideoAmp"
+    name: "VideoAmp uses environments to test updates"
     url: "https://www.postman.com/case-studies/videoamp/"
   - type: section
     name: "Next Steps"
@@ -283,7 +283,7 @@ You can view all pull requests, forks, and details about an environment from the
 
 * To view pull requests, select the pull request icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px">
 * To view forks, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="16px">
-* To view additional information about the environment, including its ID, author, and any mock servers or monitors that use it, select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">
+* To view additional information about the environment, including its ID, creator, and any mock servers or monitors that use it, select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">
 
 If you have [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#environment-roles) on the environment, you can [review pull requests](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#reviewing-pull-requests) and [merge changes into the parent environment](/docs/collaborating-in-postman/using-version-control/forking-entities/#merging-changes-from-a-fork).
 

@@ -25,7 +25,7 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "WhatsApp"
+    name: "WhatsApp uses workflows to incorporate automation for messages"
     url:  "https://www.postman.com/case-studies/whatsapp/"
 
 warning: false

@@ -367,7 +367,7 @@ export const leftNavItems = [
     url: '/docs/postman-flows/flows-intro/flows-overview/',
     subMenuItems1: [
       {
-        name: 'Getting Started',
+        name: 'Getting started',
         subParentSlug: 'flows-intro',
         slug: '/docs/postman-flows/flows-intro/flows-overview/',
         subMenuItems2: [
@@ -388,8 +388,12 @@ export const leftNavItems = [
             url: '/docs/postman-flows/flows-intro/running-requests-in-sequence/',
           },
           {
-            name: 'Chaining requests with data',
-            url: '/docs/postman-flows/flows-intro/chaining-requests-with-data/',
+            name: 'Passing data between blocks',
+            url: '/docs/postman-flows/flows-intro/passing-data-between-blocks/',
+          },
+          {
+            name: 'Using authorization with Postman Flows',
+            url: '/docs/postman-flows/flows-intro/using-auth-with-flows/',
           },
         ],
       },
@@ -710,6 +714,10 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/',
           },
           {
+            name: 'Creating dynamic mock responses',
+            url: '/docs/designing-and-developing-your-api/mocking-data/creating-dynamic-responses/',
+          },
+          {
             name: 'Mocking with examples',
             url: '/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/',
           },
@@ -735,7 +743,7 @@ export const leftNavItems = [
         url: '/docs/publishing-your-api/documenting-your-api/',
       },
       {
-        name: 'Authoring your docs',
+        name: 'Writing your docs',
         url: '/docs/publishing-your-api/authoring-your-documentation/',
       },
       {
@@ -1119,12 +1127,24 @@ export const leftNavItems = [
             url: '/docs/integrations/available-integrations/apimatic/',
           },
           {
+            name: 'Apigee API Gateway',
+            url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-apigee/',
+          },
+          {
             name: 'AWS API Gateway',
             url: '/docs/integrations/available-integrations/aws-api-gateway/',
           },
           {
+            name: 'Azure API Management',
+            url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-azure/',
+          },
+          {
             name: 'Azure DevOps',
             url: '/docs/integrations/available-integrations/azure-devops/',
+          },
+          {
+            name: 'Azure Pipelines',
+            url: '/docs/integrations/available-integrations/ci-integrations/azure-pipelines/',
           },
           {
             name: 'BigPanda',
