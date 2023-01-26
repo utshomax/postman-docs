@@ -769,6 +769,7 @@ $partition(payments,2)
 ```
 
 ## Perform an action on each value in an array
+In this example, the `$map()` function gets the numerical values from the `amount` fields in the `payments` array and converts them to strings with the `$string()` function.
 
 ### FQL
 
