@@ -62,6 +62,15 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 
 * [Append to an array](#append-to-an-array)
 * [If-then-else](#if-then-else)
+* [Partition an array](#partition-an-array)
+* [Perform an action on each value in an array](#perform-an-action-on-each-value-in-an-array)
+* [Filter for values ](#filter-for-values)
+* [Collapse an array to a single value](#collapse-an-array-to-a-single-value)
+* [Sort an array](#sort-an-array)
+
+### Working with objects
+
+* [Perform an action on each value in an object](#perform-an-action-on-each-value-in-an-object)
 
 ## Example JSON
 
@@ -738,4 +747,97 @@ $boolean(customer_info.total_value > 250) ? 'high-value customer' : 'not a high-
 
 ``` json
 "high-value customer"
+```
+
+## Partition an array
+
+Breaks an array up into smaller arrays and returns the smaller arrays as a list.
+
+### FQL
+
+``` javascript
+$partition(payments,2)
+```
+
+### Result
+
+``` json
+[
+ [{"invoice_number": "101301","date": "2022-09-11T16:12:34.494Z","description": "recurring subscription","amount": 110.48},{"invoice_number": "101302","date": "2022-09-29T14:45:13.148Z","description": "one time purchase","amount": 24.49}],
+ [{"invoice_number": "101303","date": "2022-10-11T16:12:34.683Z","description": "recurring subscription","amount": 110.48},{"invoice_number": "101304","date": "2022-10-12T11:45:22.182Z","description": "recurring subscription deluxe","amount": 35.56}]
+]
+```
+
+## Perform an action on each value in an array
+
+### FQL
+
+``` javascript
+$map(input.payments[].amount,$string)
+```
+
+### Result
+
+``` json
+["110.48", "24.49", "110.48", "35.56"]
+```
+
+## Filter for values 
+
+### FQL
+
+``` javascript
+$filter(input.payments[].amount,fn($v,$i,$a) { $v > 40})
+```
+
+### Result
+
+``` json
+[110.48, 110.48]
+```
+
+## Collapse an array to a single value
+
+Applies the function to every element in the array. In this case, it adds all the elements of the array together.
+
+### FQL
+
+``` javascript
+$reduce(input.payments[].amount,fn($i, $j){$i + $j})
+```
+
+### Result
+
+``` json
+281.01
+```
+
+## Sort an array 
+
+Sorts an array by the function specified where `$j` is the current item and `$i` is the next item.
+
+### FQL
+
+``` javascript
+$sort(input.payments[].amount,fn($i, $j){$i < $j})
+```
+
+### Result
+
+``` json
+[110.48, 110.48, 35.56, 24.49]
+```
+
+## Perform an action on each value in an object
+
+### FQL
+
+``` javascript
+$each({"transaction_id": "inv_80394", "description": "buying 20 units of data"},$uppercase)
+```
+
+### Result
+
+``` json
+["INV_80394", "BUYING 20 UNITS OF DATA"]
 ```
