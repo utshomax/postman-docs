@@ -834,6 +834,8 @@ $sort(input.payments[].amount,fn($i, $j){$i < $j})
 
 ## Perform an action on each value in an object
 
+In this example, the `$each()` function converts every string value in an object to uppercase.
+
 ### FQL
 
 ``` javascript
