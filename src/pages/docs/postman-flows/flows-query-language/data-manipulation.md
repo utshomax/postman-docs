@@ -818,7 +818,7 @@ $reduce(input.payments[].amount,fn($i, $j){$i + $j})
 
 ## Sort an array
 
-Sorts an array by the function specified where `$j` is the current item and `$i` is the next item.
+The `$sort()` function sorts an array by the function specified where `$j` is the current item and `$i` is the next item.
 
 ### FQL
 
