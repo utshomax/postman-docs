@@ -21,6 +21,9 @@ contextual_links:
   - type: link
     name: "API Fest 2022 | Workshop by Kin Lane on Designing API Schemas"
     url: "https://youtu.be/gGOB3oM2cE4"
+  - type: link
+    name: "OpenAPI 3.0: From Idea to Implementation"
+    url: "https://www.youtube.com/live/JEBd78U9aBo?feature=share"
   - type: subtitle
     name: "Blog Posts"
   - type: link
