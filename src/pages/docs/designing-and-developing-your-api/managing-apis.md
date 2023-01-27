@@ -1,6 +1,6 @@
 ---
 title: 'Managing and sharing APIs'
-updated: 2022-09-15
+updated: 2023-01-30
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -30,6 +30,7 @@ When you [define your APIs](/docs/designing-and-developing-your-api/the-api-work
 
 - [Sharing APIs](#sharing-apis)
 - [Collaborating on APIs](#collaborating-on-apis)
+- [Watching APIs](#watching-apis)
 - [Commenting on APIs](#commenting-on-apis)
 - [Using the Changelog](#using-the-changelog)
 
@@ -62,6 +63,20 @@ You can move APIs to personal, private, team, and public workspaces that you hav
 Select the workspace, then select **Move API**. Any collections in the API will move with the API to the new workspace.
 
 <img alt="Move API" src="https://assets.postman.com/postman-docs/move-api-v9.1.jpg" width="400px"/>
+
+## Watching APIs
+
+The watch option enables you to receive an email or in-app notification when a team member belonging to the same workspace modifies the API. For example, you'll receive a notification when a team member updates the API's definition, adds an element to the API, adds a comment to the API, and so on.
+
+Select __Watch__ to start watching the API.
+
+<img src="https://assets.postman.com/postman-docs/v10/watch-api-v10.jpg" alt="Watch Option" width="249px"/>
+
+For more information about the changes to the API, select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header.
+
+You will also receive an email with the information regarding who made the change, what the change was, and when it was made.
+
+> You will not receive notifications for changes that you made.
 
 ## Commenting on APIs
 
