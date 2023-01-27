@@ -19,7 +19,6 @@ contextual_links:
   - type: link
     name: "Better Practices for Git Version Control in Postman"
     url: "https://blog.postman.com/better-practices-for-git-version-control-in-postman/"
-  - type: section
 ---
 
 After you connect to a remote Git repository, you can use Postman to make changes to your API and collaborate with others. Any changes you make to your API's definition or collections always happen on a branch. You can work on any branch in your repository.
