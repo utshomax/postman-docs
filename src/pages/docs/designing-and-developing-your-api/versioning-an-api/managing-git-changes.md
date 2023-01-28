@@ -14,6 +14,9 @@ contextual_links:
   - type: link
     name: "Git Workflows in Postman | The Exploratory"
     url: "https://youtu.be/cB7mCuYeuAU"
+  - type: link
+    name: "API Versioning in Postman using Bitbucket"
+    url: "https://youtu.be/SO_88TQ2dkE"
   - type: subtitle
     name: "Blog Posts"
   - type: link
