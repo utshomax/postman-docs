@@ -2026,5 +2026,9 @@
 	{
 		"from": "/docs/postman-flows/core-concepts/messages/",
 		"to": "/docs/postman-flows/flows-intro/flows-overview/#messages"
+	},
+	{
+		"from": "/docs/postman-flows/flows-intro/building-your-first-flow/",
+		"to": "/docs/postman-flows/tutorials/building-your-first-flow/"
 	}
 ]
