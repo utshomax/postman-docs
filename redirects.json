@@ -2030,5 +2030,17 @@
 	{
 		"from": "/docs/postman-flows/flows-intro/building-your-first-flow/",
 		"to": "/docs/postman-flows/tutorials/building-your-first-flow/"
+	},
+	{
+		"from": "/docs/postman-flows/flows-intro/flows-overview/",
+		"to": "/docs/postman-flows/getting-started/building-your-first-flow/"
+	},
+	{
+		"from": "/docs/postman-flows/flows-intro/the-interface/",
+		"to": "/docs/postman-flows/getting-started/the-interface/"
+	},
+	{
+		"from": "/docs/postman-flows/core-concepts/blocks-list/",
+		"to": "/docs/postman-flows/reference/blocks-list/"
 	}
 ]
