@@ -96,7 +96,7 @@ In the upper right of the API definition editor are options to beautify the cont
 
 ## Working with multi-file API definitions
 
-Your API definition can span multiple files and folders. This is called a _multi-file API definition_. Multi-file API definitions are supported in OpenAPI 3.0 and Protobuf 2.0 and 3.0 APIs.
+Your API definition can span multiple files and folders. This is called a _multi-file API definition_. Multi-file API definitions are supported in OpenAPI 3.0 and protobuf 2.0 and 3.0 APIs.
 
 A multi-file API definition consists of the following components:
 
@@ -131,7 +131,7 @@ You can add files and folders to a multi-file API definition. In the sidebar, se
 
 To add a file to a folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a folder, then select **Add file**. You can rearrange files and folders by dragging them in the sidebar. You can also rename or delete a file or folder by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
-> When you add a file to a single-file Open API 3.0 definition, or to a Protobuf 2.0 or 3.0 definition, it's converted to a multi-file API definition. The existing definition file becomes the root file.
+> When you add a file to a single-file Open API 3.0 definition, or to a protobuf 2.0 or 3.0 definition, it's converted to a multi-file API definition. The existing definition file becomes the root file.
 
 ### Deleting files and folders
 
