@@ -34,9 +34,9 @@ The following topics will help you get started or learn about core concepts of P
 
 ## Quick start
 
-* [Step-by-step guide to building your first flow](/docs/postman-flows/flows-intro/building-your-first-flow/)
-* [Running requests in sequence](/docs/postman-flows/flows-intro/running-requests-in-sequence/)
-* [Chaining requests with data](/docs/postman-flows/flows-intro/chaining-requests-with-data/)
+* [Step-by-step guide to building your first flow](/docs/postman-flows/tutorials/building-your-first-flow/)
+* [Running requests in sequence](/docs/postman-flows/tutorials/running-requests-in-sequence/)
+* [Passing data between blocks](/docs/postman-flows/tutorials/passing-data-between-blocks/)
 
 ## Blocks
 
