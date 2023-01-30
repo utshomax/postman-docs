@@ -26,7 +26,7 @@ Commands and options for using the Postman CLI.
 ## Contents
 
 * [Basic command line options](#basic-command-line-options)
-* [Signing in and and out](#signing-in-and--out)
+* [Signing in and out](#signing-in-and-out)
 * [Running collections](#running-collections)
 * [Governance and security](#governance-and-security)
 
