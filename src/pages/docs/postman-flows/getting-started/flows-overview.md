@@ -50,7 +50,7 @@ Every block has either an input, an output, or both. You can pass a message pack
 
 ### Block anatomy
 
-![](https://assets.postman.com/postman-labs-docs/block/updated-block-anatomy.png)
+![Block anatomy](https://assets.postman.com/postman-labs-docs/block/updated-block-anatomy.png)
 
 1. **Name** - Name of the block.
 

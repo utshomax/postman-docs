@@ -4,6 +4,10 @@
 		"to": "/docs/postman-flows/tutorials/passing-data-between-blocks/"
 	},
 	{
+		"from": "/docs/postman-flows/flows-intro/passing-data-between-blocks/",
+		"to": "/docs/postman-flows/tutorials/passing-data-between-blocks/"
+	},
+	{
 		"from": "/concepts/",
 		"to": "/docs/"
 	},
@@ -2044,8 +2048,8 @@
 		"to": "/docs/postman-flows/tutorials/using-auth-with-flows/"
 	},
 	{
-		"from": "/docs/postman-flows/core-concepts/blocks-list/",
-		"to": "/docs/postman-flows/reference/blocks-list/"
+		"from": "/docs/postman-flows/flows-intro/using-auth-with-flows/",
+		"to": "/docs/postman-flows/tutorials/using-auth-with-flows/"
 	},
 	{
 		"from": "/docs/postman-flows/core-concepts/blocks/",
@@ -2054,10 +2058,6 @@
 	{
 		"from": "/docs/postman-flows/core-concepts/messages/",
 		"to": "/docs/postman-flows/flows-intro/flows-overview/"
-	},
-	{
-		"from": "/docs/postman-flows/core-concepts/data-types/",
-		"to": "/docs/postman-flows/reference/data-types/"
 	},
 	{
 		"from": "/docs/postman-flows/core-concepts/blocks-list/",

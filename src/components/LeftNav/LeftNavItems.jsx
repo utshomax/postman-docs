@@ -426,7 +426,7 @@ export const leftNavItems = [
             url: '/docs/postman-flows/flows-query-language/getting-basic-values/',
           },
           {
-            name: 'Selecting conditional text',
+            name: 'Selecting conditional data',
             url: '/docs/postman-flows/flows-query-language/conditional-data-selection/',
           },
           {
