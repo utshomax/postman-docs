@@ -82,6 +82,14 @@ There are three types of blocks:
 * **Data blocks** create data of a specific type.
 * **Logic blocks** perform actions on data to transform them. These are synchronous in nature.
 
+## Messages
+
+A _message_ is a single packet of data. A message could be a string or number, or it could be a large complex data structure like a list of users, or an entire movie.
+
+Data structures like lists can also be converted to streams which can be processed by blocks asynchronously.
+
+> When a message flows from one block another, the actual data doesn't move but a pointer to the message is passed along.
+
 ## Contribute
 
 Postman would love to hear what you're making with Flows, what issues you face while doing so, and what new features you'd like to see in Postman Flows. Head on over to the [discussions page](https://github.com/postmanlabs/postman-flows/discussions) to start or join a conversation.
