@@ -57,7 +57,7 @@ Under the first step "General Settings", enter an application name and then sele
 Under the second step “Configure SAML”, section A “SAML Settings”, enter the Postman service provider details which can be found on the Postman [Edit Team Details](https://go.postman.co/settings/team/general) page. To update the identity provider details, go to _Authentication > <My_Okta_Integration_Name>_ and select **Edit**. Next, select **Proceed**. Ensure you are in the following screen after the completion of this step:
 [![details](https://assets.postman.com/postman-docs/server-provider-details.jpg)](https://assets.postman.com/postman-docs/server-provider-details.jpg)
 
-Now, download the encryption certificate from Postman. Select **Download as file**.
+Download the encryption certificate from Postman. Select **Download as file**.
 
 [![details](https://assets.postman.com/postman-docs/Okta-IDP-Details.png)](https://assets.postman.com/postman-docs/Okta-IDP-Details.png)
 
@@ -137,11 +137,11 @@ In the following screen, enter a name in the **Application Label** field and sel
 
 ### Postman - Step 4
 
-Now, go to the Postman [Edit Team Details](https://go.postman.co/settings/team/general) page. To update the identity provider details, go to _Authentication > <My_Okta_Integration_Name>_ and select **Edit**. Next, select **Proceed**. Ensure you are in the following screen after the completion of this step:
+Go to the Postman [Edit Team Details](https://go.postman.co/settings/team/general) page. To update the identity provider details, go to _Authentication > <My_Okta_Integration_Name>_ and select **Edit**. Next, select **Proceed**. Ensure you are in the following screen after the completion of this step:
 
 [![details](https://assets.postman.com/postman-docs/Okta-IDP-Details.png)](https://assets.postman.com/postman-docs/Okta-IDP-Details.png)
 
-Now, download the encryption certificate by selecting **Download as file** (shown in the red circle). You will upload this file in the **Okta SAML** configuration section, which is explained in [Okta - Step 7](#okta---step-7).
+Download the encryption certificate by selecting **Download as file** (shown in the red circle). You will upload this file in the **Okta SAML** configuration section, which is explained in [Okta - Step 7](#okta---step-7).
 
 Go to your Okta account. Go to the **Sign On** tab and select **Edit**.
 [![details](https://assets.postman.com/postman-docs/Okta-New-Integ3.png)](https://assets.postman.com/postman-docs/Okta-New-Integ3.png)

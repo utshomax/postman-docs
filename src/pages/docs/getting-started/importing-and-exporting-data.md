@@ -150,7 +150,7 @@ To import data in bulk from a Bitbucket repository, do the following:
 
 1. Select the files you want to import into Postman. You can also select **Generate collection from imported APIs** and select what you want to link this collection as. Select **Show advanced settings** to control how Postman generates collections based on your file types, then select **Import**.
 
-You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
+You will receive a confirmation once the import has completed. You can view your newly imported files and generated collections in Postman.
 
 ### Importing from GitLab repositories
 
@@ -166,7 +166,7 @@ To import data in bulk from a GitLab repository, do the following:
 
 1. Select the files you want to import into Postman. You can also select **Generate collection from imported APIs** and select what you want to link this collection as. Select **Show advanced settings** to control how Postman generates collections based on your file types, then select **Import**.
 
-You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
+You will receive a confirmation once the import has completed. You can view your newly imported files and generated collections in Postman.
 
 ### Importing from Azure DevOps repositories
 
@@ -184,7 +184,7 @@ To import data in bulk from a Azure DevOps repository, do the following:
 
 1. Select the files you want to import into Postman. You can also select **Generate collection from imported APIs** and select what you want to link this collection as. Select **Show advanced settings** to control how Postman generates collections based on your file types, then select **Import**.
 
-You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
+You will receive a confirmation once the import has completed. You can view your newly imported files and generated collections in Postman.
 
 ## Exporting Postman data
 

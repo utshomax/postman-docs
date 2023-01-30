@@ -111,7 +111,7 @@ To set the frequency with which Jenkins runs Newman, do the following:
     > Select the help icon next to **Schedule** to learn how to specify the build frequency.
 1. Select **Save**.
 
-Jenkins will now run Newman at your desired frequency and will tell you if the build failed or succeeded.
+Jenkins runs Newman at your desired frequency and tells you if the build failed or succeeded.
 
 In a real-world build environment, Newman will be part of your production environment. You can set up notifications and customize Jenkins as per your needs. You can use a wide variety of other configurations to make your collection more dynamic.
 
