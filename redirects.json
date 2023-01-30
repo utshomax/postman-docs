@@ -2018,11 +2018,11 @@
 	{
 		"from": "/docs/designing-and-developing-your-api/validating-elements-against-schema/",
 		"to": "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
-	}
+	},
 	{
 		"from": "/docs/postman-flows/core-concepts/blocks/",
 		"to": "/docs/postman-flows/flows-intro/flows-overview/#blocks"
-	}
+	},
 	{
 		"from": "/docs/postman-flows/core-concepts/messages/",
 		"to": "/docs/postman-flows/flows-intro/flows-overview/#messages"
