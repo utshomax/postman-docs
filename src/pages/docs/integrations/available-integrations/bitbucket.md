@@ -61,7 +61,7 @@ Select your collection to back up, the repository you'd like to back it up to, a
 
 ![Bitbucket configuration](https://assets.postman.com/postman-docs/bitbucket-configure-bb.jpg)
 
-Your new integration will now appear in a list along with previously created integrations.
+Your new integration appears in a list along with previously created integrations.
 
 ![Configured integrations](https://assets.postman.com/postman-docs/bitbucket-add-integration-bb.jpg)
 

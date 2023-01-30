@@ -114,7 +114,7 @@ In Postman, make sure both the system proxy and custom proxy are turned off.
 If you still can't send requests, the problem might be due to environment variables configured for your operating system. If there are environment variables, Postman will use the system proxy and ignore the proxy settings in Postman. Do one of the following:
 
 * Remove the environment variables `http_proxy`, `https_proxy`, `HTTP_PROXY`, and `HTTPS_PROXY` from your shell profile or operating system configuration.
-* Create an executable file using the code for your operating system below. Run the file to open the Postman desktop app without any of the proxy environment variables set.
+* Create an executable file using the code for your operating system. Run the file to open the Postman desktop app without any of the proxy environment variables set.
 
     * **Windows** - Create a `postman.bat` file with the following code:
 
@@ -140,7 +140,7 @@ If you still can't send requests, the problem might be due to environment variab
 
 Make sure to [configure basic authentication](#configuring-the-default-proxy) for the default proxy in the Postman desktop app.
 
-You can also start Postman with the appropriate environment variables. Create an executable file using the code for your operating system below. Run the file to open the Postman desktop app using your proxy configuration.
+You can also start Postman with the appropriate environment variables. Create an executable file using the code for your operating system. Run the file to open the Postman desktop app using your proxy configuration.
 
 * **Windows** - Create a `postman.bat` file with the following code:
 
