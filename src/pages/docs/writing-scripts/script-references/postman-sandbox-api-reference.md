@@ -78,6 +78,12 @@ pm.variables.has(variableName:String):function → Boolean
 pm.variables.get(variableName:String):function → *
 ```
 
+* Get the value of the Postman variable with the specified name and append it to a string using the `+` operator:
+
+```js
+String + pm.variables.get(variableName:String)
+```
+
 * Set a local variable with the specified name and value:
 
 ```js
@@ -156,6 +162,12 @@ pm.environment.has(variableName:String):function → Boolean
 pm.environment.get(variableName:String):function → *
 ```
 
+* Get the variable with the specified name in the active environment and append it to a string using the `+` operator:
+
+```js
+String + pm.environment.get(variableName:String)
+```
+
 * Set the variable with the specified name and value in the active environment:
 
 ```js
@@ -212,6 +224,12 @@ pm.collectionVariables.has(variableName:String):function → Boolean
 pm.collectionVariables.get(variableName:String):function → *
 ```
 
+* Return the value of the collection variable with the specified name and append it to a string using the `+` operator:
+
+```js
+String + pm.collectionVariables.get(variableName:String)
+```
+
 * Set a collection variable with the specified name and value:
 
 ```js
@@ -264,6 +282,12 @@ pm.globals.has(variableName:String):function → Boolean
 
 ```js
 pm.globals.get(variableName:String):function → *
+```
+
+* Return the value of the global variable with the specified name and append it to a string using the `+` operator:
+
+```js
+String + pm.globals.get(variableName:String)
 ```
 
 * Set a global variable with specified name and value:
@@ -320,6 +344,12 @@ pm.iterationData.has(variableName:String):function → boolean
 
 ```js
 pm.iterationData.get(variableName:String):function → *
+```
+
+* Return the variable from the iteration data with the specified name and append it to a string using the `+` operator:
+
+```js
+String + pm.iterationData.get(variableName:String)
 ```
 
 * Return the iteration data variables in an object:
