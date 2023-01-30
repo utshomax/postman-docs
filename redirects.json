@@ -2020,6 +2020,34 @@
 		"to": "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 	},
 	{
+		"from": "/docs/postman-flows/flows-intro/flows-overview/",
+		"to": "/docs/postman-flows/getting-started/flows-overview/"
+	},
+	{
+		"from": "/docs/postman-flows/flows-intro/the-interface/",
+		"to": "/docs/postman-flows/getting-started/the-interface/"
+	},
+	{
+		"from": "/docs/postman-flows/flows-intro/building-your-first-flow/",
+		"to": "/docs/postman-flows/tutorials/building-your-first-flow/"
+	},
+	{
+		"from": "/docs/postman-flows/getting-started/running-requests-in-sequence/",
+		"to": "/docs/postman-flows/tutorials/running-requests-in-sequence/"
+	},
+	{
+		"from": "/docs/postman-flows/getting-started/passing-data-between-blocks/",
+		"to": "/docs/postman-flows/tutorials/passing-data-between-blocks/"
+	},
+	{
+		"from": "/docs/postman-flows/getting-started/using-auth-with-flows/",
+		"to": "/docs/postman-flows/tutorials/using-auth-with-flows/"
+	},
+	{
+		"from": "/docs/postman-flows/core-concepts/blocks-list/",
+		"to": "/docs/postman-flows/reference/blocks-list/"
+	},
+	{
 		"from": "/docs/postman-flows/core-concepts/blocks/",
 		"to": "/docs/postman-flows/flows-intro/flows-overview/#blocks"
 	},
@@ -2028,19 +2056,19 @@
 		"to": "/docs/postman-flows/flows-intro/flows-overview/#messages"
 	},
 	{
-		"from": "/docs/postman-flows/flows-intro/building-your-first-flow/",
-		"to": "/docs/postman-flows/tutorials/building-your-first-flow/"
-	},
-	{
-		"from": "/docs/postman-flows/flows-intro/flows-overview/",
-		"to": "/docs/postman-flows/getting-started/building-your-first-flow/"
-	},
-	{
-		"from": "/docs/postman-flows/flows-intro/the-interface/",
-		"to": "/docs/postman-flows/getting-started/the-interface/"
+		"from": "/docs/postman-flows/core-concepts/data-types/",
+		"to": "/docs/postman-flows/reference/data-types/"
 	},
 	{
 		"from": "/docs/postman-flows/core-concepts/blocks-list/",
 		"to": "/docs/postman-flows/reference/blocks-list/"
+	},
+	{
+		"from": "/docs/postman-flows/core-concepts/data-types/",
+		"to": "/docs/postman-flows/reference/data-types/"
+	},
+	{
+		"from": "/docs/postman-flows/running-flows-on-the-cloud/webhooks/",
+		"to": "/docs/postman-flows/tutorials/webhooks/"
 	}
 ]
