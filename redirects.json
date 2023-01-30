@@ -2049,11 +2049,11 @@
 	},
 	{
 		"from": "/docs/postman-flows/core-concepts/blocks/",
-		"to": "/docs/postman-flows/flows-intro/flows-overview/#blocks"
+		"to": "/docs/postman-flows/flows-intro/flows-overview/"
 	},
 	{
 		"from": "/docs/postman-flows/core-concepts/messages/",
-		"to": "/docs/postman-flows/flows-intro/flows-overview/#messages"
+		"to": "/docs/postman-flows/flows-intro/flows-overview/"
 	},
 	{
 		"from": "/docs/postman-flows/core-concepts/data-types/",
