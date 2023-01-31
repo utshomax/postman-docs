@@ -201,7 +201,7 @@ The SQL error stack trace is exposed in the response body. This means an attacke
 
 ## Cross-site scripting
 
-Cross-Site scripting ([XSS](https://owasp.org/www-community/attacks/xss/)) attacks are a type of injection in which a malicious script is injected into a trusted website. XSS attacks occur when an attacker uses a web application to send malicious code, most often a browser-side script, to a different end user.
+Cross-Site scripting ([XSS](https://owasp.org/www-community/attacks/xss/)) attacks are a type of injection in which a malicious script is injected into a trusted website. XSS attacks occur when an attacker uses a web application to send malicious code, most often a browser-side script, to a different user.
 
 ### Sensitive cookie without `HttpOnly` flag
 

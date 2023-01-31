@@ -129,12 +129,12 @@ To further demonstrate how responses from the mock service are entirely dependen
 
 <img alt="Add a second example" src="https://assets.postman.com/postman-docs/mock-examples-step6a-v9-1.jpg" width="808px">
 
-Sending a `GET` request to `https://postman-echo.com/test` returns a 404 error, which you saved as another example. The collection `C1` now has two requests and two saved examples:
+Sending a `GET` request to `https://postman-echo.com/test` returns a 404 error, which you saved as another example. The collection `C1` has two requests and two saved examples:
 
 * **Example E1** - `GET` request to path `/get`
 * **Example E2** - `GET` request to path `/test`
 
-Finally, repeat step 5 above, but this time add the path `/test` to the end of the mock server URL when sending the request. This returns the expected 404 response.
+Finally, repeat [step 5](#step-5-send-a-request-to-the-mock-server), but this time add the path `/test` to the end of the mock server URL when sending the request. This returns the expected 404 response.
 
 <img alt="Send another request to the mock server" src="https://assets.postman.com/postman-docs/v10/mock-examples-step6b-v10.jpg" width="750px">
 

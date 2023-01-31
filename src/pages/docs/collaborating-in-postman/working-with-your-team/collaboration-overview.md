@@ -51,7 +51,7 @@ The first time you create a team, do the following:
 
 If you're a member of two or more teams, you can create additional teams. To create a new team, do the following:
 
-1. Select your avatar in the upper-right corner > **+ Create Team**.
+1. Select your avatar in the Postman header, then select **+ Create Team**.
 1. Follow the team creation steps in this section.
 
 [Postman Free](https://www.postman.com/pricing/) lets teams of up to three work together at no cost. If you want to collaborate with more team members, features, and increased usage limits, you can [upgrade](/docs/administration/billing/#changing-your-plan) to a Basic, Professional, or Enterprise plan. To do so, select **Upgrade** in the upper-right corner.

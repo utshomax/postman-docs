@@ -70,7 +70,7 @@ Postman is available for macOS 10.11 (El Capitan) and later.
 
 1. [Download](https://www.postman.com/downloads/) the latest Postman version.
 
-    > Make sure to download the **Mac Apple Chip** version if you have a Mac with the M1 or M2 processor.
+    > Make sure to download the **Mac Apple Chip** version if you have a Mac with an Apple silicon processor.
 
 1. If your browser downloads the file as a zip file, find the file in the **Downloads** folder and unzip it.
 1. In the **Downloads** folder, double-click the `Postman` file to install it.
@@ -142,7 +142,7 @@ The Postman web app is optimized for the following browsers:
 
 ### Installing the Postman Desktop Agent
 
-If you are using the Postman web app, Postman recommends downloading and installing the [Postman Desktop Agent](/docs/getting-started/about-postman-agent/#the-postman-desktop-agent), a micro-application that runs locally on your desktop. The Postman Desktop Agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers and acts as your agent for making API requests from the Postman web app.
+If you are using the Postman web app, Postman recommends downloading and installing the [Postman Desktop Agent](/docs/getting-started/about-postman-agent/#the-postman-desktop-agent), a micro-application that runs locally on your desktop. The Desktop Agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers and acts as your agent for making API requests from the Postman web app.
 
 ### Web limitations
 
@@ -181,7 +181,7 @@ The Postman desktop app is built on [Electron](https://www.electronjs.org/), and
 
 To switch from the Chrome app to native, [download](https://www.postman.com/downloads/) Postman and [sign in to your account](https://go.postman.co/). Start the native app, and your history and collections will be automatically synced.
 
-Alternatively, if you don't want to sign in to your Postman account, you can bulk export your Postman data from the Chrome app, and then bulk import into the new native app at __Settings__ &gt; __Data__.
+Alternatively, if you don't want to sign in to your Postman account, you can bulk export your Postman data from the Chrome app, and then bulk import into the new native app at **Settings > Data**.
 
 ![Import Export Data](https://assets.postman.com/postman-docs/export-data-v86.jpg)
 
@@ -210,7 +210,7 @@ If you get an __Update Failed__ notification in Postman, you can use the DevTool
 
 ![update-error-dialog](https://assets.postman.com/postman-docs/v10/update-error-dialog.jpg)
 
-Open the DevTools using __View__ &gt; __Developer__ &gt; __Show DevTools (Current View)__.
+Open the DevTools using **View > Developer > Show DevTools (Current View)**.
 
 Some known errors are as follows:
 

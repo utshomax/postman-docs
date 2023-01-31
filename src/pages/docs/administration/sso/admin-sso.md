@@ -90,17 +90,19 @@ To delete an authentication method, select **Edit**, then select **Delete**.
 
 This section describes the following topics:
 
-* [Creating end user accounts](#creating-end-user-accounts)
+* [Creating user accounts](#creating-user-accounts)
 
 * [Adding existing user accounts](#adding-existing-user-accounts)
 
 * [Automatically adding new users](#automatically-adding-new-users)
 
-* [Managing team logins](#managing-team-logins)
+* [Managing team sign ins](#managing-team-sign-ins)
 
 * [Removing team access](#removing-team-access)
 
-### Creating end user accounts
+* [Next steps](#next-steps)
+
+### Creating user accounts
 
 The first time a new Postman user [signs in to Postman through the IdP](/docs/administration/sso/user-sso/), a Postman account is created and the user is automatically added to the team if the following is true: the team has seats available and the [**Automatically add new users**](#automatically-adding-new-users) checkbox was selected during [SSO configuration](#configuring-the-identity-provider-details).
 
@@ -125,9 +127,9 @@ The **Automatically add new users** checkbox in your [SSO configuration](#config
 
 > **Automatically add new users** will only work if your team has user seats available. Your team size won't automatically increase if more users sign in with SSO.
 
-### Managing team logins
+### Managing team sign ins
 
-By default, Postman only supports Service Provider (Postman) initiated sign-ins for Postman Professional or Enterprise teams using SSO. Your team must use the [Enterprise sign in page](https://identity.getpostman.com/enterprise/login) to sign in to Postman. If you require users be able to sign in from your SSO portal, you can generate and copy the Relay state from your [SSO configuration](#configuring-the-identity-provider-details) and save it in your IdP configuration. This ensures an extra level of security when sign-ins are initiated through a source unknown to Postman.
+By default, Postman only supports Service Provider initiated sign ins for Postman Professional or Enterprise teams using SSO. Your team must use the [Enterprise sign in page](https://identity.getpostman.com/enterprise/login) to sign in to Postman. If you require users be able to sign in from your SSO portal, you can generate and copy the RelayState from your [Postman team settings](http://go.postman.co/settings/team/auth) and save it in your IDP configuration. This ensures an extra level of security when the sign in process is initiated through a source unknown to Postman.
 
 ### Removing team access
 
@@ -149,5 +151,5 @@ An email address isn't associated with your Postman account in your [Postman tea
 
 Now that you've set up SSO for your team, you might be interested in learning about how your team will interact with SSO and continuing on with SCIM provisioning.
 
-* To learn more about the user experience, see [Logging in to an SSO team](/docs/administration/sso/user-sso/).
+* To learn more about the user experience, see [Signing in to an SSO team](/docs/administration/sso/user-sso/).
 * If your team is on a Postman Enterprise plan, check out [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/).

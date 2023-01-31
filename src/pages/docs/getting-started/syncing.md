@@ -19,13 +19,13 @@ warning: false
 
 ---
 
-Postman automatically syncs changes across all devices that are linked to your account, including edits, updates, additions, or deletions. As long as you're signed into Postman, and have a reliable internet connection, your data will sync.
+Postman automatically syncs changes across all devices that are linked to your account, including edits, updates, additions, or deletions. As long as you're signed in to Postman, and have a reliable internet connection, your data will sync.
 
 * When you _sign out_, Postman removes your synced data from your local storage.
 * When you _sign back in_, Postman restores your data from the cloud.
 * When you _reload_, Postman automatically retrieves the most recent version of your data.
 
-You can have up to three devices logged in to your Postman account simultaneously, such as your work computer, personal computer, and phone.
+You can have up to three devices signed in to your Postman account simultaneously, such as your work computer, personal computer, and phone.
 
 ## Understanding sync states
 
