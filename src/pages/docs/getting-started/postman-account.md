@@ -123,7 +123,7 @@ If you're on an Enterprise plan, you must contact your Team Admins to update the
 
 ### Setting up two-factor authentication
 
-If you sign in to Postman using a username/email and password, you can set up two-factor authentication for your account:
+If you sign in to Postman using a username or email and a password, you can set up two-factor authentication for your account:
 
 1. Open your [account settings](https://go.postman.co/settings/me/account/) page by selecting your avatar in the Postman header, then selecting **Settings > Account**.
 1. Select **Enable 2FA**.
