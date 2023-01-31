@@ -41,7 +41,7 @@ To continue configuring your Postman app, do the following:
 
 1. Select **Browse App Catalog**.
 
-1. Search for "Postman". Select the Postman app from the results, and then select **Add**.
+1. Search for "Postman". Select the Postman app from the results, and then select **Add Integration**.
 
 1. In the General Settings screen, enter an application label you'll recognize later, and then select **Done**.
 
@@ -61,7 +61,7 @@ To continue configuring your Postman app, do the following:
 
     ![details](https://assets.postman.com/postman-docs/Okta-New-Integ4.png)
 
-1. Select **View Setup Instructions** to display the identity provider details.
+1. Select **View SAML setup instructions** to display SAML configuration instructions, including the identity provider details.
 
     ![okta sign on](https://assets.postman.com/postman-docs/okta_sign_on.png)
 
