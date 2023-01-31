@@ -41,7 +41,7 @@ To view your reports dashboard:
 
 To access a specific API's report, do the following:
 
-1. On the report dashboard, select **All APIs** > **View Report by API**.
+1. On the report dashboard, select **All APIs > View Report by API**.
 1. Search for the API name, or scroll through the list to find it.
 
     > You can also access the report for a specific API by going to the [API's overview page](/docs/designing-and-developing-your-api/the-api-workflow/#navigating-the-api-builder) and select **Reports**.

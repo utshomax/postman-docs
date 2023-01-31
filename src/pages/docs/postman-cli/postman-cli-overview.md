@@ -34,7 +34,7 @@ The Postman CLI is a secure command-line companion for Postman. It is secured an
 
 * Run a collection with its collection ID or path.
 * Send run results to Postman by default.
-* Supports log in and log out.
+* Supports sign in and sign out.
 * Check API definitions against configured API Governance and API Security rules
 
 ## Contents
@@ -56,7 +56,7 @@ The table below shows some high-level differences between the Postman CLI and Ne
 | Distributed as a downloadable package | Distributed on npm |
 | Downloadable programmatically | Downloadable programmatically
 | Not available as a library | Available as a library
-| Supports log in and log out | Doesn't support log in and log out |
+| Supports sign in and sign out | Doesn't support sign in and sign out |
 | Checks API definition against configured API Governance and API Security rules | Doesn't check API definition against configured API Governance and API Security rules |
 
 ## Deciding which command-line companion to use

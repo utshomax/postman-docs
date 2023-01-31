@@ -106,7 +106,7 @@ Use the following links to download the latest Postman v9 version for your platf
 > The Postman desktop app will update to the latest major version. If you turn off automatic major updates, the app will continue using v9.
 
 * [Download Postman v9 for macOS (Intel chip) 64-bit](https://go.pstmn.io/dl-osx64-v9-latest)
-* [Download Postman v9 for macOS (Apple chip) 64-bit](https://go.pstmn.io/dl-osxarm64-v9-latest)
+* [Download Postman v9 for macOS (Apple silicon) 64-bit](https://go.pstmn.io/dl-osxarm64-v9-latest)
 * [Download Postman v9 for Windows 64-bit](https://go.pstmn.io/dl-win64-v9-latest)
 * [Download Postman v9 for Linux 64-bit](https://go.pstmn.io/dl-linux64-v9-latest)
 

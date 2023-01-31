@@ -98,7 +98,7 @@ To convert your collection's format from v1 to v2, do the following:
    sudo npm install -g postman-collection-transformer
    ```
 
-1. Convert an individual Postman Collection from v1 to v2 by entering the command below.
+1. Convert an individual Postman Collection from v1 to v2 by entering this command:
 
    ```bash
    postman-collection-transformer convert -i <path to the input Postman Collection file> -o <path to the downloaded Postman file> -j 1.0.0 -p 2.0.0 -P
@@ -124,7 +124,7 @@ To import your API specifications into Postman, see [Importing an API](/docs/des
 
 To import data in bulk from a GitHub repository, do the following:
 
-1. In Postman, select **Import** > **Code repository** > **GitHub**.
+1. In Postman, select **Import > Code repository > GitHub**.
 
 1. Confirm your GitHub account and **Authorize postmanlabs** to access your repositories.
 
@@ -142,7 +142,7 @@ You will receive a confirmation once the import has completed. You can view your
 
 To import data in bulk from a Bitbucket repository, do the following:
 
-1. In Postman, select **Import** > **Code repository** > **Bitbucket**.
+1. In Postman, select **Import > Code repository > Bitbucket**.
 
 1. Confirm your Bitbucket account and **Authorize Postman** to access your repositories.
 
@@ -150,7 +150,7 @@ To import data in bulk from a Bitbucket repository, do the following:
 
 1. Select the files you want to import into Postman. You can also select **Generate collection from imported APIs** and select what you want to link this collection as. Select **Show advanced settings** to control how Postman generates collections based on your file types, then select **Import**.
 
-You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
+You will receive a confirmation once the import has completed. You can view your newly imported files and generated collections in Postman.
 
 ### Importing from GitLab repositories
 
@@ -158,7 +158,7 @@ You will receive a confirmation once the import has completed. You can now view 
 
 To import data in bulk from a GitLab repository, do the following:
 
-1. In Postman, select **Import** > **Code repository** > **GitLab**.
+1. In Postman, select **Import > Code repository > GitLab**.
 
 1. Confirm your GitLab account and **Authorize Postman** to access your repositories.
 
@@ -166,7 +166,7 @@ To import data in bulk from a GitLab repository, do the following:
 
 1. Select the files you want to import into Postman. You can also select **Generate collection from imported APIs** and select what you want to link this collection as. Select **Show advanced settings** to control how Postman generates collections based on your file types, then select **Import**.
 
-You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
+You will receive a confirmation once the import has completed. You can view your newly imported files and generated collections in Postman.
 
 ### Importing from Azure DevOps repositories
 
@@ -176,7 +176,7 @@ Before you begin, enable third-party application access for your organization. I
 
 To import data in bulk from a Azure DevOps repository, do the following:
 
-1. In Postman, select **Import** > **Code repository** > **Azure**.
+1. In Postman, select **Import > Code repository > Azure**.
 
 1. Confirm your Azure DevOps account and **Authorize Postman** to access your repositories.
 
@@ -184,7 +184,7 @@ To import data in bulk from a Azure DevOps repository, do the following:
 
 1. Select the files you want to import into Postman. You can also select **Generate collection from imported APIs** and select what you want to link this collection as. Select **Show advanced settings** to control how Postman generates collections based on your file types, then select **Import**.
 
-You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
+You will receive a confirmation once the import has completed. You can view your newly imported files and generated collections in Postman.
 
 ## Exporting Postman data
 

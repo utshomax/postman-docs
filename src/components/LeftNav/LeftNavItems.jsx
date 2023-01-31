@@ -395,6 +395,10 @@ export const leftNavItems = [
             name: 'Using authorization with Postman Flows',
             url: '/docs/postman-flows/flows-intro/using-auth-with-flows/',
           },
+          {
+            name: 'Using response data in a request',
+            url: '/docs/postman-flows/flows-intro/using-response-data-in-a-request/',
+          },
         ],
       },
       {
@@ -960,7 +964,7 @@ export const leftNavItems = [
             url: '/docs/administration/sso/admin-sso/',
           },
           {
-            name: 'Logging in to an SSO team',
+            name: 'Signing in to an SSO team',
             url: '/docs/administration/sso/user-sso/',
           },
           {

@@ -74,7 +74,17 @@ There are two ways to access the Private API Network:
 * Select **Home** from the Postman header, then select **Private API Network** in your team information on the left side.
 * Select **API Network** from the Postman header, then select **Private API Network**.
 
-In the Private API Network, you can filter elements by name using the search box. Select **Added by** to filter based on the person who added the element. Select **Type** to filter by the type of element. Select **Sort by** to sort elements based on name and date added. You can also filter folders, sub-folders, and elements based on name and date added.
+There are several ways to search, filter, and sort elements in the Private API Network.
+
+* To search by name, enter the full or partial element name into  **Search elements**.
+* To filter based on the person who added the element, select **Added by**, then select the name of the team member.
+* To filter by element type, select **Type**, then select **API**, **Collection**, or **Workspace**.
+* To sort elements, select the **Sort by** dropdown list. Options are:
+    * **Recently added** - Sort elements by the date they were added.
+    * **A to Z** - Sort elements alphabetically.
+    * **Trending this week** - Sort elements by your team's usage this week.
+    * **Trending this month** - Sort elements by your team's usage this month.
+* To sort folders, sub-folders, and elements alphabetically or by date added, select the sort icon <img alt="Sort icon" src="https://assets.postman.com/postman-docs/icon-sort.jpg#icon" width="16px"> from the sidebar.
 
 <img alt="Private API List" src="https://assets.postman.com/postman-docs/v10/private-api-network-list-v10.jpg"/>
 
@@ -125,7 +135,7 @@ The approval process enables an API Network Manager to control the process of ad
 
 To turn on the approval process workflow, do the following:
 
-1. In the Postman header, select **Team** > **Team Settings**.
+1. In the Postman header, select **Team > Team Settings**.
 1. Select **Private API Network**.
 1. Turn on the approval process.
 
