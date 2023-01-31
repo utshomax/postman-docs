@@ -131,7 +131,7 @@ To use direct debit as your payment method, do the following:
     > This process will verify your bank account immediately. If you want to use a manual verification process instead, see [Verifying your bank account manually](#verifying-your-bank-account-manually).
 
 1. To accept the Terms and Privacy Policy,  select **Agree**. You can select **Learn more** to view the whole policy.
-1. Stripe, the payment service Postman uses, will open a new window where you can log in to your bank account. Select **Continue**.
+1. Stripe, the payment service Postman uses, will open a new window where you can sign in to your bank account. Select **Continue**.
 1. Select the account you want to use, then select **Link account**. After Stripe verifies the account, select **Done**. Stripe will return you to the Postman billing dashboard.
 1. Select **Add account**.
 
@@ -154,7 +154,7 @@ In one to two business days, Stripe will make a small test deposit into your ban
 
 To verify your bank account using the test deposit, do the following:
 
-1. After the test deposit arrives in your bank account, go back to the Postman billing dashboard. Select **Plans and payments** > **Payment methods**.
+1. After the test deposit arrives in your bank account, go back to the Postman billing dashboard. Select **Plans and payments > Payment methods**.
 1. Hover over the bank account and select **Verify**.
 1. Under **Enter code**, paste the six digit transaction code from the test deposit. Select **Verify**.
 1. Select **Confirm** to accept the Terms and Privacy Policy.

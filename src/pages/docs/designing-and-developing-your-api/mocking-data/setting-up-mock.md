@@ -42,7 +42,7 @@ Postman enables you to create _mock servers_ to assist with API development and 
 
 When you send a request to a mock server, Postman matches the request to a saved example in your collection. Postman then responds with the data you added to the example. To view existing mock servers in your workspace, select **Mock Servers** in the sidebar.
 
-> You need to be signed into a Postman account to create a mock server.
+> You need to be signed in to a Postman account to create a mock server.
 
 ## Contents
 

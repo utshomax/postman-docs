@@ -149,7 +149,7 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 
 * **What happens to published documentation from my previous team?**
 
-    Your documentation links will break since the previous team is no longer active. New documentation URLs will need to be generated when collections are [republished from your new team pages](/docs/publishing-your-api/publishing-your-docs/). If you are [publishing to a custom domain](/docs/publishing-your-api/custom-doc-domains/), unpublish and remove the domain from your previous team in order to add it to your new team and republish.
+    Your documentation links will break since the previous team is no longer active. New documentation URLs will need to be generated when collections are [republished from your new team pages](/docs/publishing-your-api/publishing-your-docs/). If you are [publishing to a custom domain](/docs/publishing-your-api/custom-doc-domains/), unpublish and remove the domain from your previous team to add it to your new team and republish.
 
 * **What happens to the previous team once everyone leaves?**
 

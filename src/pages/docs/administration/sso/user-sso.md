@@ -1,5 +1,5 @@
 ---
-title: "Logging in to an SSO team"
+title: "Signing in to an SSO team"
 order: 133
 updated: 2021-02-08
 page_id: "user_sso"
@@ -18,13 +18,13 @@ When your [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#tea
 
 Your Team Admin can share a **Login URL** that was generated during the SSO configuration. The **Login URL** will automatically redirect you to your configured Identity Provider.
 
-To sign into Postman, do the following:
+To sign in to Postman, do the following:
 
 1. Select **Sign In** in the upper-right corner of Postman
 1. Select **Home** in the upper-left, then select **Sign in**
 1. Open [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner
 
-When you opt to sign into the Postman desktop app, your default browser will automatically open a webpage asking you to sign into Postman.
+When you opt to sign in to the Postman desktop app, your default browser will automatically open a webpage asking you to sign in to Postman.
 
 > Your browser will open within a few seconds. If it doesn't, select **open your browser** in Postman. <img src="https://assets.postman.com/postman-docs/sign-in-with-web-browser.jpg" alt="Sign in with web browser"/>
 
@@ -32,7 +32,7 @@ When you opt to sign into the Postman desktop app, your default browser will aut
 
 > You must finish signing in within five minutes once you start the process from Postman. If you go beyond this time, you must return to Postman and restart the sign in process.
 
-Sign into Postman by selecting **Sign in with SSO**.
+Sign in to Postman by selecting **Sign in with SSO**.
 
 <img src="https://assets.postman.com/postman-docs/sign-in-v9.16.jpg" alt="Sign in" width="350px"/>
 

@@ -29,8 +29,8 @@ Team discovery encourages collaboration by easing the onboarding process for new
 
 ## Enabling team discovery
 
-* Free users: Next to your avatar, select the dropdown list next to **Upgrade** > **Manage Team**.
-* Paid users: Next to your avatar, select **Team** > **Manage Team**.
+* Free users: Next to your avatar, select the dropdown list next to **Upgrade > Manage Team**.
+* Paid users: Next to your avatar, select **Team > Manage Team**.
 
 In [Team Settings](https://go.postman.co/settings/team/general), select **Team discovery** on the left, then select **Enable team discovery**. This will enable anyone from your domain to find and request to join your team.
 

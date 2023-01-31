@@ -35,7 +35,7 @@ Only a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-r
 
 > Always check with your authentication provider dashboard or your IT support staff for the correct information to complete a modal.
 
-In the "Service Provider Details (Postman)" screen, the Entity ID, and the URLs for the Login and ACS are already populated.
+In the **Service Provider Details (Postman)** screen, the **Entity ID**, the **Login URL**, and the **ACS URL** are already populated.
 
 As a next step, you must fill in the details in the **Identity Provider Details** section. Enter your authentication certificate from your identity provider in "X.509 Certificate".
 
@@ -71,19 +71,19 @@ To update the settings for an authentication method, select **Edit**.
 
 This section describes the following topics:
 
-* [Creating end user accounts](#creating-end-user-accounts)
+* [Creating user accounts](#creating-user-accounts)
 
 * [Adding existing user accounts](#adding-existing-user-accounts)
 
 * [Automatically adding new users](#automatically-adding-new-users)
 
-* [Managing team logins](#managing-team-logins)
+* [Managing team sign ins](#managing-team-sign-ins)
 
 * [Removing team access](#removing-team-access)
 
 * [Next steps](#next-steps)
 
-### Creating end user accounts
+### Creating user accounts
 
 You can create an account for a user in the Identity Provider (IdP).
 
@@ -100,13 +100,13 @@ If a Postman user logs in to Postman through a team's IdP, the user will be auto
 
 ### Automatically adding new users
 
-The **Automatically add new users** checkbox in your SSO configuration determines whether users with accounts in your SSO system will be allowed to join your team automatically by signing in to Postman with SSO. If this is enabled, users with or without existing Postman accounts can join your team by heading to the [Enterprise sign in page](https://identity.getpostman.com/enterprise/login) and logging in with SSO.
+The **Automatically add new users** checkbox in your SSO configuration determines whether users with accounts in your SSO system will be allowed to join your team automatically by signing in to Postman with SSO. If this is enabled, users with or without existing Postman accounts can join your team by heading to the [Enterprise sign in page](https://identity.getpostman.com/enterprise/login) and signing in with SSO.
 
 > **Automatically add new users** will only work if your team has user seats available. Your team size won't be automatically increased if more users sign in with SSO.
 
-### Managing team logins
+### Managing team sign ins
 
-By default, Postman only supports Service Provider initiated logins for Postman Professional or Enterprise teams using SSO. Your team must use the [Enterprise login page](https://identity.getpostman.com/enterprise/login) in order to sign in to Postman. If you require users be able to sign in from your SSO portal, you can generate and copy the RelayState from your [Postman team settings](http://go.postman.co/settings/team/auth) and save it in your IDP configuration. This ensures an extra level of security when logins are initiated through a source unknown to Postman.
+By default, Postman only supports Service Provider initiated sign ins for Postman Professional or Enterprise teams using SSO. Your team must use the [Enterprise sign in page](https://identity.getpostman.com/enterprise/login) to sign in to Postman. If you require users be able to sign in from your SSO portal, you can generate and copy the RelayState from your [Postman team settings](http://go.postman.co/settings/team/auth) and save it in your IDP configuration. This ensures an extra level of security when the sign in process is initiated through a source unknown to Postman.
 
 ### Removing team access
 
@@ -116,5 +116,5 @@ You must [remove users from your team in Postman](/docs/administration/managing-
 
 Now that you've set up SSO for your team, you might be interested in learning about how your team will interact with SSO and continuing on with SCIM provisioning.
 
-* To learn more about the user experience, see [Logging in to an SSO team](/docs/administration/sso/user-sso/).
+* To learn more about the user experience, see [Signing in to an SSO team](/docs/administration/sso/user-sso/).
 * If your team is on a Postman Enterprise plan, check out [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/).

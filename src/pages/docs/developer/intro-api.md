@@ -63,7 +63,7 @@ You will need an [API key](#generating-a-postman-api-key) to access the Postman 
 
 You need a valid API Key to send requests to the Postman API.
 
-1. Open your [API Keys page](https://go.postman.co/settings/me/api-keys). Select your avatar in the upper-right corner > **Settings**. Then select **API keys**.
+1. Open your [API Keys page](https://go.postman.co/settings/me/api-keys). Select your avatar in the Postman header, then select **Settings**. Then select **API keys**.
 
 1. If you don't have any keys yet you'll be prompted to create one. Select __Generate API Key__.
 
