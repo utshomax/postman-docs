@@ -319,7 +319,7 @@ To turn this feature off or on, select **Auto-refresh access token**.
 
 To manually refresh a token, select **Refresh** next to the token expiration time.
 
-> Note that this feature is available only when manually sending the request and functionality has not been extended for scheduled runs or monitors on the same collection.
+> Auto-refresh is only available when manually sending the request, and not for scheduled runs or monitors on the same collection.
 
 #### Sharing an OAuth 2.0 access token
 
