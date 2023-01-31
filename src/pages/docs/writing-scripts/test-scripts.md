@@ -24,8 +24,8 @@ contextual_links:
     name: "Intro to Postman | Advanced API Tests"
     url: "https://youtu.be/vVDZxeS865g"
   - type: link
-    name: "Testing with Snippets | Postman Level Up"
-    url: "https://youtu.be/QGNJ0wh5Ry0"
+    name: "Review Test Results in Postman | The Exploratory"
+    url: "https://youtu.be/S3GKLTVRtmE"
   - type: dynamic_blog
     name: "Blog Posts"
     blog_tag: "testing"

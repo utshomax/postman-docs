@@ -14,6 +14,11 @@ contextual_links:
   - type: link
     name: "Dynamic Mock Behavior | Postman Level Up"
     url: "https://youtu.be/av7SZo9sZAE"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Introducing Support for Templating in Postman Mock Servers"
+    url: "https://blog.postman.com/introducing-support-for-templating-in-postman-mock-servers/"
 ---
 
 You can use [collection examples](/docs/sending-requests/examples/) to define static responses that are returned by your [mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/). However, there may be cases when you want the mock server to return dynamic responses that include variable or random data. You might also want the mock server to return contextual responses to your request. With dynamic mock responses, you can simulate various scenarios without having to create an example for each scenario.

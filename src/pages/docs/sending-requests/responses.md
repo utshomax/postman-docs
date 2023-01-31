@@ -16,6 +16,9 @@ contextual_links:
   - type: link
     name: "How to Inspect API Responses"
     url:  "https://youtu.be/31wBZyBdbgw"
+  - type: link
+    name: "Review Test Results in Postman | The Exploratory"
+    url: "https://youtu.be/S3GKLTVRtmE"
   - type: section
     name: "Next Steps"
   - type: link
