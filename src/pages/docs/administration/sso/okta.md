@@ -53,31 +53,21 @@ To continue configuring your Postman app, do the following:
 
     ![View sign on method settings](https://assets.postman.com/postman-docs/v10/okta-edit-settings-v10.jpg)
 
-1. In Postman, select **Generate relay state**. In Okta, add the generated value as the **Default Relay State**.
-
-    <img alt="Generate relay state in Postman" src="https://assets.postman.com/postman-docs/generate-relay-state-v9.14.jpg" width="350px"/>
+1. Take the **Relay state** generated from Postman and add it as your **Default Relay State** in Okta.
 
 1. Upload the **Encryption Certificate** downloaded from Postman.
 
-1. Take the **ACS URL** from Postman and add it to your configuration in Okta.
-
-1. Select **Email** as the application username format, and then select **Save**.
+1. Take the **ACS URL** from Postman and add it to your configuration in Okta, and then select **Save**.
 
     ![Edit sign on method settings](https://assets.postman.com/postman-docs/v10/okta-edit-saml-settings-v10.jpg)
 
 1. Select **View SAML setup instructions** to display SAML configuration instructions, including the identity provider details.
 
-    ![View identity provider details](https://assets.postman.com/postman-docs/v10/okta-view-saml-setup-v10.jpg)
+    ![View identity provider details](https://assets.postman.com/postman-docs/v10/okta-view-saml-setup-v10-2.jpg)
 
 1. In Postman, enter the **SSO URL**, **Identity provider issuer**, and **X.509 Certificate** individually under **Identity provider details**.
 
 1. Select **Save Authentication** in Postman.
-
-<!-- 1. Select the **Assignments** tab, and then select **Assign > Assign to People**.
-
-    1. Search for team members to assign to teh Postman app in Okta. For each team member you'd like to assign, select **Assign**.
-
-    1. Select **Save and Go Back** to assign more team members, and then select **Done**. -->
 
 ### Configuring SSO using a custom SAML app
 
@@ -111,9 +101,7 @@ To continue configuring your custom SAML application, do the following:
 
     ![View sign on method settings](https://assets.postman.com/postman-docs/v10/okta-edit-custom-app-settings-v10.jpg)
 
-1. In Postman, select **Generate relay state**. In Okta, add the generated value as the **Default Relay State**, and then select **Save**.
-
-    <img alt="Generate relay state in Postman" src="https://assets.postman.com/postman-docs/generate-relay-state-v9.14.jpg" width="350px"/>
+1. Take the **Relay state** generated from Postman and add it as your **Default Relay State** in Okta, and then select **Save**.
 
 1. Select **View SAML setup instructions** to display the identity provider details.
 
