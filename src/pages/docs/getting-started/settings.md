@@ -51,7 +51,7 @@ To change settings in Postman, select the settings icon <img alt="Settings icon"
 
 Use the settings on the **General** tab to configure how Postman sends requests or to customize the Postman user interface.
 
-[![General settings](https://assets.postman.com/postman-docs/settings-detail-v8-9.jpg)](https://assets.postman.com/postman-docs/settings-detail-v8-9.jpg)
+[![General settings](https://assets.postman.com/postman-docs/v10/settings-detail-v10.jpg)](https://assets.postman.com/postman-docs/v10/settings-detail-v10.jpg)
 
 ### Request
 
