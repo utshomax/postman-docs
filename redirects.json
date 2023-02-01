@@ -2025,11 +2025,11 @@
 	},
 	{
 		"from": "/docs/postman-flows/flows-intro/flows-overview/",
-		"to": "/docs/postman-flows/getting-started/flows-overview/"
+		"to": "/docs/postman-flows/gs/flows-overview/"
 	},
 	{
 		"from": "/docs/postman-flows/flows-intro/the-interface/",
-		"to": "/docs/postman-flows/getting-started/the-interface/"
+		"to": "/docs/postman-flows/gs/the-interface/"
 	},
 	{
 		"from": "/docs/postman-flows/flows-intro/building-your-first-flow/",
@@ -2040,11 +2040,11 @@
 		"to": "/docs/postman-flows/tutorials/running-requests-in-sequence/"
 	},
 	{
-		"from": "/docs/postman-flows/getting-started/passing-data-between-blocks/",
+		"from": "/docs/postman-flows/gs/passing-data-between-blocks/",
 		"to": "/docs/postman-flows/tutorials/passing-data-between-blocks/"
 	},
 	{
-		"from": "/docs/postman-flows/getting-started/using-auth-with-flows/",
+		"from": "/docs/postman-flows/gs/using-auth-with-flows/",
 		"to": "/docs/postman-flows/tutorials/using-auth-with-flows/"
 	},
 	{

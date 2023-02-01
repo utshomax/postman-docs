@@ -364,20 +364,20 @@ export const leftNavItems = [
   {
     name: 'Using Postman Flows',
     parentSlug: 'postman-flows',
-    url: '/docs/postman-flows/getting-started/flows-overview/',
+    url: '/docs/postman-flows/gs/flows-overview/',
     subMenuItems1: [
       {
         name: 'Getting started',
-        subParentSlug: 'getting-started',
-        slug: '/docs/postman-flows/getting-started/flows-overview/',
+        subParentSlug: 'gs',
+        slug: '/docs/postman-flows/gs/flows-overview/',
         subMenuItems2: [
           {
             name: 'Postman Flows overview',
-            url: '/docs/postman-flows/getting-started/flows-overview/',
+            url: '/docs/postman-flows/gs/flows-overview/',
           },
           {
             name: 'The Postman Flows interface',
-            url: '/docs/postman-flows/getting-started/the-interface/',
+            url: '/docs/postman-flows/gs/the-interface/',
           },
         ],
       },
