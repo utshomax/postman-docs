@@ -161,7 +161,7 @@ To change the request order in a scheduled run, do the following:
 
     ![Schedule runs](https://assets.postman.com/postman-docs/v10/schedule-runs-3-v10.jpg)
 
-1. Under **RUN ORDER**, change the order by dragging and dropping requests. Skip a request by unchecking its checkbox.
+1. Under **RUN ORDER**, change the order by dragging and dropping requests. Skip a request by clearing its checkbox.
 
     ![Custom run order v10](https://assets.postman.com/postman-docs/v10/scr-custom-order-v10.gif)
 

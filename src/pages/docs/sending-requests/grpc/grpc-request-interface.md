@@ -41,13 +41,13 @@ Create a new gRPC request by selecting the **New** button in the sidebar which b
 
 ## The request section
 
-The request section includes the required configurations to connect to the server and execute the selected method. Requests need a server URL, a service definition, and a selected method in order to be invoked. Based on the API requirements, you may have to pass message payloads, metadata, and authorization details along with the request. You may also have to configure TLS and other certificates based on the requirements.
+The request section includes the required configurations to connect to the server and execute the selected method. Requests need a server URL, a service definition, and a selected method to be invoked. Based on the API requirements, you may have to pass message payloads, metadata, and authorization details along with the request. You may also have to configure TLS and other certificates based on the requirements.
 
 <img src="https://assets.postman.com/postman-docs/v10/grpc-request-sections.jpg" alt="Request pane" />
 
 * **Server URL** - Defines the endpoint where the service is hosted. A gRPC URL often starts with `grpc://` instead of `http://` or `https://`. While creating a new request, you can also browse through URLs you've used by selecting the URL field. This helps you create the request faster if you’re testing multiple methods on the same endpoint.
 
-* **Method** - Select the method you wish to invoke using the method selector dropdown. The list of methods is populated by the service definition. Method types are described in detail in the [invoking different types of methods](#invoking-different-types-of-methods) section below.
+* **Method** - Select the method you wish to invoke using the method selector dropdown. The list of methods is populated by the service definition. For more details about the method types, see the [Invoking different types of methods](#invoking-different-types-of-methods) section.
 
 * **Payload** - A gRPC payload has items to aid the server in executing the request:
 
@@ -151,7 +151,7 @@ The response section has the following items:
 
 The right sidebar gives you access to more tools and information like documentation, commenting, and request details. Open a gRPC request, and then select an option in the right sidebar:
 
-* **Request documentation** - Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> to view documentation for a request. When you select a method, Postman automatically generates documentation for the payload fields and data types using the Protobuf definition. You can also add a description to help users understand and use the request. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description, then write your content using Postman's [built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/).
+* **Request documentation** - Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> to view documentation for a request. When you select a method, Postman automatically generates documentation for the payload fields and data types using the protobuf definition. You can also add a description to help users understand and use the request. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description, then write your content using Postman's [built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/).
 
     > You can also add a description to your collection's overview or a folder in your collection. Select the collection or folder in the sidebar, then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description.
 
@@ -177,7 +177,7 @@ The server you are using is unreachable with the current client settings. If you
 
 ### Switch to Postman Desktop Agent to connect with a gRPC server
 
-In order to use all of Postman's gRPC features, you must run the Postman Desktop Agent.
+To use all of Postman's gRPC features, you must run the Postman Desktop Agent.
 
 Learn more about [installing the Postman Desktop Agent](/docs/getting-started/about-postman-agent/#the-postman-desktop-agent).
 

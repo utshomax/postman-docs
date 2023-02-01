@@ -37,7 +37,7 @@ The Postman to Opsgenie integration enables you to configure [Postman Monitors](
 1. Sign in to your Opsgenie account.
 1. Select the **Teams** tab.
 1. Select the team that will own the integration and receive alert notifications.
-1. Select **Integrations** > **Add integration**.
+1. Select **Integrations > Add integration**.
 1. From the list of integrations, select the [**API integration**](https://support.atlassian.com/opsgenie/docs/what-is-a-default-api-integration/) option.
 1. On the configuration page, fill in your information and select **Save Integration**.
 1. Copy your API Key and save it for later.

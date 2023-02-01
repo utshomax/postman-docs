@@ -13,14 +13,14 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Postman | How to Connect to Your Git Repository"
-    url: "https://youtu.be/8jJHXLVYOh0"
-  - type: link
     name: "Git Workflows in Postman | The Exploratory"
     url: "https://youtu.be/cB7mCuYeuAU"
   - type: link
     name: "Integrating GitLab in Postman's API Builder"
     url: "https://youtu.be/ecAQv9gZEKk"
+  - type: link
+    name: "API Versioning in Postman using Bitbucket"
+    url: "https://youtu.be/SO_88TQ2dkE"
   - type: subtitle
     name: "Blog Posts"
   - type: link
@@ -76,7 +76,7 @@ You can connect to a GitHub, Bitbucket, GitLab, or Azure DevOps repository hoste
 
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect repository**, select **Connect** and select the type of repository you want to connect to.
-1. A browser tab opens asking you to log in to your repository. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
+1. A browser tab opens asking you to sign in to your repository. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
 1. On the **Connect your repository** page, enter the **Organization** or **Workspace** and the **Repository** where the API will be stored. (For GitLab, enter the **Group** and **Project** for your API.)
 1. Select the **Initial branch** for the API. Any changes you make in Postman are stored in the initial active branch. (You can switch to another branch to make it the active branch at any time.)
 1. Select an **API schema directory** and **Collection directory** where API definitions and collections will be stored in the repository. Keep in mind the following:

@@ -15,6 +15,11 @@ contextual_links:
     name: "Publish an API Version"
     url: "https://youtu.be/DirFZZ7_wRI"
   - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "How to Make Your APIs Available to More Consumers"
+    url: "https://blog.postman.com/how-to-make-your-apis-available-to-more-consumers/"
+  - type: subtitle
     name: "Next Steps"
   - type: link
     name: "Managing and sharing APIs"

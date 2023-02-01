@@ -142,7 +142,7 @@ Basic <Base64 encoded username and password>
 
 ### Digest auth
 
-With Digest auth, the client sends a first request to the API, and the server responds with a few details, including a number that can be used only once (a _nonce_), a realm value, and a `401` unauthorized response. You then send back an encrypted array of data including a username and password combined with the data received from the server in the first request. The server uses the passed data to generate an encrypted string and compares it against what you sent in order to authenticate your request.
+With Digest auth, the client sends a first request to the API, and the server responds with a few details, including a number that can be used only once (a _nonce_), a realm value, and a `401` unauthorized response. You then send back an encrypted array of data including a username and password combined with the data received from the server in the first request. The server uses the passed data to generate an encrypted string and compares it against what you sent to authenticate your request.
 
 In the __Authorization__ tab for a request, select __Digest Auth__ from the __Type__ dropdown list. Postman will present fields for both stages of authentication request. It will autocomplete the fields for the second request in the **Advanced** section using data returned from the server by the first request. To enable Postman to automate the flow, enter __Username__ and __Password__ values (or variables) and these will be sent with the second request.
 
@@ -234,7 +234,7 @@ To use OAuth 2.0, do the following:
 
    > Once you have a token value generated and added, it will appear in the request __Headers__.
 
-1. Enter the details for your client application, and any auth details from the service provider. This allows you to replicate your application auth flow inside Postman in order to test authenticated requests.
+1. Enter the details for your client application, and any auth details from the service provider. This allows you to replicate your application auth flow inside Postman to test authenticated requests.
 
    > You can share token credentials with your team by selecting the sync token icon <img alt="Syncing icon" src="https://assets.postman.com/postman-docs/icon-syncing-v9.jpg#icon" width="16px"> next to an available token. By default Postman won't sync your token in case you don't want to share it.
 
@@ -319,6 +319,8 @@ To turn this feature off or on, select **Auto-refresh access token**.
 
 To manually refresh a token, select **Refresh** next to the token expiration time.
 
+> Auto-refresh is only available when manually sending the request, and not for scheduled runs or monitors on the same collection.
+
 #### Sharing an OAuth 2.0 access token
 
 To enable other Postman users to view and use an OAuth 2.0 access token, select **Share access token**.
@@ -393,7 +395,7 @@ To use NTLM authentication, do the following:
 
 1. In the __Authorization__ tab for a request, select __NTLM Authentication__ from the __Type__ dropdown list.
 
-1. Enter your __Username__ and __Password__ for NTLM access (use variables to avoid entering the values directly). You can optionally specify advanced parameters, but Postman will try to autocomplete these if necessary. By default your request will run a second time after extracting data received from the first. You can turn off this behavior by checking the checkbox.
+1. Enter your __Username__ and __Password__ for NTLM access (use variables to avoid entering the values directly). You can optionally specify advanced parameters, but Postman will try to autocomplete these if necessary. By default your request will run a second time after extracting data received from the first. You can turn off this behavior by selecting the checkbox.
 
 Advanced parameters for NTLM auth are as follows:
 

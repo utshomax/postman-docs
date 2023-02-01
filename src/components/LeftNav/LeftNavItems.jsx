@@ -964,7 +964,7 @@ export const leftNavItems = [
             url: '/docs/administration/sso/admin-sso/',
           },
           {
-            name: 'Logging in to an SSO team',
+            name: 'Signing in to an SSO team',
             url: '/docs/administration/sso/user-sso/',
           },
           {

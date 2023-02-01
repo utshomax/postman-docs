@@ -34,7 +34,7 @@ You can leave comments on APIs, collections, and requests to collaborate with yo
 
 You can leave comments on collections from Postman.
 
-> Team members must have access to the collection in question in order to post comments.
+> Team members must have access to a collection to post comments on it.
 
 1. Sign in to [Postman](https://go.postman.co/).
 2. At the top, select a **Workspace** and then select the **Collections** tab.
@@ -106,7 +106,7 @@ You can read comments made on the request and on request parameters from the app
 You can make changes to comments you've already posted. Other team members can't edit your comments.
 
 1. In Postman, open the collection with the comment you want to edit.
-2. Find the comment and select **Comment** > **Edit**.
+2. Find the comment and select **Comment > Edit**.
 
 <img src="https://assets.postman.com/postman-docs/editing-a-comment-v8.jpg" alt="Edit comment" width="395px">
 
