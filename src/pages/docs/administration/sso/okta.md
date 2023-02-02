@@ -91,7 +91,7 @@ To continue configuring your custom SAML application, do the following:
 
     ![Configure advanced custom SAML settings](https://assets.postman.com/postman-docs/v10/okta-edit-custom-advanced-saml-settings-v10.jpg)
 
-1. In the **Feedback** tab, select **I'm an Okta customer adding an internal app** then select **Finish**.
+1. In the **Feedback** tab, select **I'm an Okta customer adding an internal app**. Select **This is an internal app that we have created** as the app type, and then select **Finish**.
 
 1. Select the **Sign On** tab, and then select **View SAML setup instructions** to display the Identity Provider details.
 
