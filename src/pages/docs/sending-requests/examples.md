@@ -67,7 +67,8 @@ When saving a [response](/docs/sending-requests/responses/) in Postman, you have
 
 <img alt="Save a response as an example" src="https://assets.postman.com/postman-docs/v10/examples-save-response-v10.jpg" width="750px">
 
-> You can't add examples to gRPC or WebSocket requests. For WebSocket requests, you can [save messages](/docs/sending-requests/websocket/websocket/#saving-messages) with the request.
+> You can't add examples to WebSocket requests. For WebSocket requests, you can [save messages](/docs/sending-requests/websocket/websocket/#saving-messages) with the request.
+> For gRPC examples with streaming methods, you must stop streaming before saving the example. See [Using the gRPC request interface](/docs/sending-requests/grpc/grpc-request-interface/#the-response-section) for more information.
 
 ### Adding a custom example
 
