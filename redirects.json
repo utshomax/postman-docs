@@ -2040,7 +2040,7 @@
 		"to": "/docs/postman-flows/tutorials/running-requests-in-sequence/"
 	},
 	{
-		"from": "/docs/postman-flows/gs/passing-data-between-blocks/",
+		"from": "/docs/postman-flows/flows-intro/passing-data-between-blocks/",
 		"to": "/docs/postman-flows/tutorials/passing-data-between-blocks/"
 	},
 	{
