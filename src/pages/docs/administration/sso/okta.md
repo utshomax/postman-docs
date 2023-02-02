@@ -5,8 +5,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to SSO"
-    url: "/docs/administration/sso/intro-sso/"
+    name: "Configuring SSO for a team"
+    url: "/docs/administration/sso/admin-sso/"
 ---
 
 > **[SSO with Okta is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
@@ -53,15 +53,11 @@ To continue configuring your Postman app, do the following:
 
     ![View sign on method settings](https://assets.postman.com/postman-docs/v10/okta-edit-settings-v10.jpg)
 
-1. Take the **Relay state** generated from Postman and add it as your **Default Relay State** in Okta.
-
-1. Upload the **Encryption Certificate** downloaded from Postman.
-
-1. Take the **ACS URL** from Postman and add it to your configuration in Okta, and then select **Save**.
+1. Take the **Relay state** generated from Postman and add it as your **Default Relay State**. Upload the **Encryption Certificate** downloaded from Postman. Take the **ACS URL** from Postman and add it to your configuration in Okta, and then select **Save**.
 
     ![Edit sign on method settings](https://assets.postman.com/postman-docs/v10/okta-edit-saml-settings-v10.jpg)
 
-1. Select **View SAML setup instructions** to display SAML configuration instructions, including the identity provider details.
+1. Select **View SAML setup instructions** to display SAML configuration instructions, including the Identity Provider details.
 
     ![View identity provider details](https://assets.postman.com/postman-docs/v10/okta-view-saml-setup-v10-2.jpg)
 
@@ -87,7 +83,7 @@ To continue configuring your custom SAML application, do the following:
 
 1. In the **General Settings** tab, enter an app name you'll recognize later, and then select **Next**.
 
-1. In the **Configure SAML** tab, take the **ACS URL**  from Postman and add it as your **Single sign-on URL**. Take the **Entity ID**  from Postman and add it as your **Audience URI (SP Entity ID)**. Select **EmailAddress** as the name ID format.
+1. In the **Configure SAML** tab, take the **ACS URL**  from Postman and add it as your **Single sign-on URL**. Take the **Entity ID**  from Postman and add it as your **Audience URI (SP Entity ID)**. Take the **Relay state** generated from Postman and add it as your **Default RelayState**. Select **EmailAddress** as the name ID format.
 
     ![Configure custom SAML settings](https://assets.postman.com/postman-docs/v10/okta-edit-custom-saml-settings-v10.jpg)
 
@@ -97,13 +93,7 @@ To continue configuring your custom SAML application, do the following:
 
 1. In the **Feedback** tab, select **I'm an Okta customer adding an internal app** then select **Finish**.
 
-1. Select the **Sign On** tab, and then select **Edit**.
-
-    ![View sign on method settings](https://assets.postman.com/postman-docs/v10/okta-edit-custom-app-settings-v10.jpg)
-
-1. Take the **Relay state** generated from Postman and add it as your **Default Relay State** in Okta, and then select **Save**.
-
-1. Select **View SAML setup instructions** to display the identity provider details.
+1. Select the **Sign On** tab, and then select **View SAML setup instructions** to display the Identity Provider details.
 
     ![View identity provider details](https://assets.postman.com/postman-docs/v10/okta-view-custom-saml-setup-v10.jpg)
 
