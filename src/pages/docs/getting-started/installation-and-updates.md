@@ -109,7 +109,7 @@ Type=Application
 Categories=Development;
 ```
 
-> Postman supports the following distributions on x86-64 or arm64 hardware:
+> Postman supports the following Linux distributions:
 >
 > * Ubuntu 14.04 and newer
 > * Fedora 24
