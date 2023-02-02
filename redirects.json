@@ -2044,10 +2044,6 @@
 		"to": "/docs/postman-flows/tutorials/passing-data-between-blocks/"
 	},
 	{
-		"from": "/docs/postman-flows/gs/using-auth-with-flows/",
-		"to": "/docs/postman-flows/tutorials/using-auth-with-flows/"
-	},
-	{
 		"from": "/docs/postman-flows/flows-intro/using-auth-with-flows/",
 		"to": "/docs/postman-flows/tutorials/using-auth-with-flows/"
 	},
