@@ -1,6 +1,6 @@
 ---
 title: "Installing and updating Postman"
-updated: 2022-09-02
+updated: 2023-02-02
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -109,13 +109,13 @@ Type=Application
 Categories=Development;
 ```
 
-> Postman supports the following distributions on x86-64 hardware:
+> Postman supports the following distributions on x86-64 or arm64 hardware:
 >
 > * Ubuntu 14.04 and newer
 > * Fedora 24
 > * Debian 8 and newer
 >
-> The support of certain Linux distributions depends on if they're supported by Electron. Refer to [Electron's documentation](https://www.electronjs.org/docs/tutorial/support#linux).
+> The support of certain Linux distributions depends on if they're supported by Electron. Refer to [Electron's documentation](https://www.electronjs.org/docs/latest/development/build-instructions-linux).
 >
 > It's recommended you install [Snap](https://snapcraft.io/postman) as it includes all the libraries that the app needs and they're bundled with the app itself.
 >
