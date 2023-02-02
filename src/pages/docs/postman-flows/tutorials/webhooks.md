@@ -1,5 +1,5 @@
 ---
-title: "Using webhooks with flows"
+title: "Using webhooks with Postman Flows"
 updated: 2022-11-30
 ---
 

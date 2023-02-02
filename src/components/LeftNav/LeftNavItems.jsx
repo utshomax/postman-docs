@@ -399,7 +399,7 @@ export const leftNavItems = [
             url: '/docs/postman-flows/tutorials/running-requests-in-sequence/',
           },
           {
-            name: 'Using authorization with flows',
+            name: 'Using authorization with Postman Flows',
             url: '/docs/postman-flows/tutorials/using-auth-with-flows/',
           },
           {
@@ -407,7 +407,7 @@ export const leftNavItems = [
             url: '/docs/postman-flows/tutorials/using-response-data-in-a-request/',
           },
           {
-            name: 'Using webhooks with flows',
+            name: 'Using webhooks with Postman Flows',
             url: '/docs/postman-flows/tutorials/webhooks/',
           },
         ],

@@ -40,7 +40,7 @@ The following topics will help you get started or learn about core concepts of P
 
 ## Blocks
 
-Blocks are the atomic pieces used to create a flow. Every block has a specific purpose, such as performing tasks, creating data, transforming data, and much more.
+Blocks are the basic units used to create a flow. Every block has a specific purpose, such as performing tasks, creating data, transforming data, and much more.
 
 ### Block fundamentals
 
