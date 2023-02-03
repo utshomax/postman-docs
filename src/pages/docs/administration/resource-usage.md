@@ -1,6 +1,6 @@
 ---
 title: "About resource usage"
-updated: 2022-12-19
+updated: 2023-02-06
 contextual_links:
   - type: section
     name: "Additional Resources"
@@ -22,6 +22,7 @@ Refer to the following sections to understand what happens when your resource us
 
 * [Mock server usage](#mock-server-usage)
 * [Monitoring usage](#monitoring-usage)
+* [Collection runs usage](#collection-runs-usage)
 * [Custom domains](#custom-domains)
 * [Storage usage](#storage-usage)
 * [Postman API usage](#postman-api-usage)
@@ -45,6 +46,15 @@ Your Postman plan gives you a limited number of requests that can be run by your
 Once you've reached your usage limit, your monitors and scheduled collection runs will no longer run on their configured schedules and can't be run manually. To resume running your monitors and scheduled collection runs before your monthly limit resets, you can [enable pay-as-you-go](/docs/administration/billing/#managing-add-ons), [purchase an add-on](/docs/administration/billing/#purchasing-add-ons), or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
 
 > Learn more about [viewing and managing your monitor usage](/docs/monitoring-your-api/monitor-usage/).
+
+## Collection runs usage
+
+Your Postman plan gives you a limited number of local [collection runs](/docs/running-collections/intro-to-collection-runs/) you can use each month. After the limit is reached, you will get a notification by email and in the Postman app letting you know that you've reached the usage limit for collection runs.
+
+Once you've reached your usage limit, you will no longer be able to run your collections locally in Postman. To resume running collections before your monthly limit resets, you can [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+
+> Requests run in the cloud by your [scheduled collection runs](/docs/running-collections/scheduling-collection-runs/) count toward your [monitoring usage](#monitoring-usage). Scheduled collection runs in the cloud do not count toward your local collection runs usage.
+
 
 ## Custom domains
 
