@@ -56,7 +56,7 @@ Postman supports the following provisioning features:
 
 * **Create group** - Creates a new [user group](/docs/administration/managing-your-team/user-groups/) in Postman. When you assign the Postman app to a group, Postman creates a new account for each user, adds each account to your organization's Postman team, and activates authentication for each user. If an existing Postman account uses an email that matches a user's email ID, an [email invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) to join your Postman team is sent to that user. Once the user accepts the invite, they'll be added to your team.
 
-    > Newly created groups will have the Developer role in Postman by default. You can later [update group roles in Postman](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
+    > Newly created groups will have the Developer role in Postman by default. You can later [update group roles in Postman](/docs/administration/managing-your-team/user-groups/#editing-team-roles-for-a-group). Also, you can later [control a group's access to workspaces and individual Postman entities](/docs/administration/managing-your-team/user-groups/#managing-roles-on-workspaces-and-postman-entities), such as collections and APIs.
 
 * **Delete group** - Deletes a user group in Postman. User accounts that were part of the deleted group are deactivated in Postman.
 
@@ -66,7 +66,9 @@ Postman supports the following provisioning features:
 
     * **Update group attributes** - Updates a group's name in Postman.
 
-    * **Update group members** - Adds or removes users from a group in Postman. Add users to a group in Postman to assign users to team roles. Users in the group inherit team roles assigned to the group. You can also control a group's access to workspaces and Postman entities, such as collections and APIs. To learn more about controlling a group's access at the team level, workspace level, and on Postman entities, see [Managing access control for a group](/docs/administration/managing-your-team/user-groups/#managing-access-control-for-a-group).
+    * **Update group members** - Adds or removes users from a group in Postman.
+
+        > The newly added user will have the roles assigned to the group. You can later [update group roles in Postman](/docs/administration/managing-your-team/user-groups/#editing-team-roles-for-a-group).
 
 Postman doesn't support the following provisioning features:
 
