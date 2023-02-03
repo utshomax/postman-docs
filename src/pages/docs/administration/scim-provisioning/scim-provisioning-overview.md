@@ -68,7 +68,7 @@ Postman supports the following provisioning features:
 
     * **Update group members** - Adds or removes users from a group in Postman.
 
-        > The newly added user will have the roles assigned to the group. You can later [update group roles in Postman](/docs/administration/managing-your-team/user-groups/#editing-team-roles-for-a-group).
+        > Users have the roles assigned to the group. You can later [update group roles in Postman](/docs/administration/managing-your-team/user-groups/#editing-team-roles-for-a-group).
 
 Postman doesn't support the following provisioning features:
 
