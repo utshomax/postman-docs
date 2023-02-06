@@ -49,11 +49,11 @@ Once you've reached your usage limit, your monitors and scheduled collection run
 
 ## Collection runs usage
 
-Your Postman plan gives you a limited number of manual [collection runs](/docs/running-collections/intro-to-collection-runs/) you can use each month. You will get a notification in the Collection Runner when you are approaching your usage limit.
+Your Postman plan gives you a limited number of [collection runs](/docs/running-collections/intro-to-collection-runs/) you can use each month. This limit applies to collections that you run in a workspace or the Scratch Pad using the **Run manually** option (not [scheduled collection runs](/docs/running-collections/scheduling-collection-runs/) in the Postman cloud). Each iteration counts as a single run. You will get a notification in the Collection Runner when you are approaching your usage limit. (Collection run usage doesn't appear on the Resource Usage dashboard.)
 
 Once you've reached your usage limit, you will no longer be able to run your collections using the **Run manually** option. To resume running collections before your monthly limit resets, you can [upgrade your plan](/docs/administration/billing/#team-and-plan-changes), [schedule collection runs](/docs/running-collections/scheduling-collection-runs/) in the Postman cloud, or run collections using the [Postman CLI](/docs/postman-cli/postman-cli-run-collection/) or [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
 
-> Requests run in the Postman cloud by your [scheduled collection runs](/docs/running-collections/scheduling-collection-runs/) count toward your [monitoring usage](#monitoring-usage). Scheduled collection runs do not count toward your manual collection runs usage.
+> Requests run in the Postman cloud by your [scheduled collection runs](/docs/running-collections/scheduling-collection-runs/) count toward your [monitoring usage](#monitoring-usage). Scheduled collection runs don't count toward your collection runs usage.
 
 ## Custom domains
 

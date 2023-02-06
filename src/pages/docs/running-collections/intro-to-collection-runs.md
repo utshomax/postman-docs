@@ -102,7 +102,7 @@ To access more data about what happened when a request executed, do the followin
 
 1. To return to the summary of the run, select __View Results__.
 
-> Your [Postman plan](https://www.postman.com/pricing/) provides you with a limited number of manual collection runs you can use each month. You will get a notification in the Collection Runner when you are approaching your usage limit. Learn more about [resource usage](/docs/administration/resource-usage/) in Postman.
+> Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of collection runs you can use each month. This limit applies to collections that you run in a workspace or the Scratch Pad using the **Run manually** option (not [scheduled collection runs](/docs/running-collections/scheduling-collection-runs/) in the Postman cloud). Each iteration counts as a single run. You will get a notification in the Collection Runner when you are approaching your usage limit. Learn more about [resource usage](/docs/administration/resource-usage/) in Postman.
 
 ### Viewing test results
 
