@@ -41,8 +41,6 @@ The _Collection Runner_ enables you to run a collection's requests in a specifie
 
 You can configure the Collection Runner to meet your development needs. You can run collections using a specific environment, and can pass data files into a run. Collection runs enable you to automate your API testing, and you can schedule runs to run in the Postman cloud with the [Collection Runner](/docs/running-collections/scheduling-collection-runs/) or with [monitors](/docs/running-collections/scheduling-collection-runs-monitors/). You can also integrate collection runs with your CI/CD pipeline using [the Postman CLI](/docs/postman-cli/postman-cli-overview/), a Postman tool that enables you to run and test collections directly from the command line.
 
-> Your [Postman plan](https://www.postman.com/pricing/) provides you with a limited number of local collection runs you can use each month. To check your collection run usage, select **Team > Resource Usage** to open the [Resource Usage dashboard](https://go.postman.co/usage). Learn more about [resource usage](/docs/administration/resource-usage/) in Postman.
-
 ![Collection Runner results page overview](https://assets.postman.com/postman-docs/v10/collection-runner-overview-1-v10.jpg)
 
 ## Contents
@@ -103,6 +101,8 @@ To access more data about what happened when a request executed, do the followin
 1. To view more details, including any log statements used in your collection, select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> __Console__ from the footer.
 
 1. To return to the summary of the run, select __View Results__.
+
+> Your [Postman plan](https://www.postman.com/pricing/) provides you with a limited number of manual collection runs you can use each month. You will get a notification in the Collection Runner when you are approaching your usage limit. Learn more about [resource usage](/docs/administration/resource-usage/) in Postman.
 
 ### Viewing test results
 
