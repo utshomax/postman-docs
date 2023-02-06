@@ -51,13 +51,13 @@ To change settings in Postman, select the settings icon <img alt="Settings icon"
 
 Use the settings on the **General** tab to configure how Postman sends requests or to customize the Postman user interface.
 
-[![General settings](https://assets.postman.com/postman-docs/settings-detail-v8-9.jpg)](https://assets.postman.com/postman-docs/settings-detail-v8-9.jpg)
+[![General settings](https://assets.postman.com/postman-docs/v10/settings-detail-v10.jpg)](https://assets.postman.com/postman-docs/v10/settings-detail-v10.jpg)
 
 ### Request
 
 * **Trim keys and values in request body** - Turn this on to trim parameters when sending requests with form data or url-encoded data.
 * **SSL certificate verification** - Turn this off to prevent Postman from checking the validity of SSL certificates when making requests.
-* **Always open requests in new tab** - By default, when you select a request in a collection, Postman opens the request in the preview tab. Turn this on to always open requests in a new tab.
+* **Always open sidebar item in new tab** - By default, when you select a sidebar item, Postman opens it in the preview tab. Turn this on to always open sidebar items in a new tab.
 * **Always ask when closing unsaved tabs** - By default, Postman asks if you want to save any unsaved changes when closing a tab. Turn this off to always discard unsaved changes when closing a tab.
 * **Language detection** - By default, Postman automatically detects the correct media type for the response body based on the Content-Type header. Select **JSON** to always use JSON rendering for the response body.
 * **Request Timeout in ms** - Enter how long (in milliseconds) Postman will wait for a response before timing out. If you enter **0**, Postman will wait for a response forever.
@@ -84,7 +84,6 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 * **Send Postman Token header** - (Recommended) Turn this on to send a random Postman token with an XMLHttpRequest. Sending a random token ensures the receiving server handles one request at a time, even when the requests send with the same parameters. The token can also aid debugging and help you distinguish between requests on the server side.
 * **Retain headers when clicking on links** - When you select a link in a response, Postman creates a new `GET` request with the link URL. Turn this on to keep the headers from the earlier request in the new request. Retaining headers is useful if you mainly access protected resources.
 * **Automatically follow redirects** - Turn this off to prevent requests that return a 3xx series response from automatically redirecting.
-* **Send anonymous usage data to Postman** - Postman gathers basic, anonymous usage data to help with product improvement. Turn this off to stop sending anonymous usage data to Postman.
 
 ### User interface
 
@@ -104,6 +103,11 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 * **Indentation type** - Select the indentation character type to use (**Space** or **Tab**).
 * **Auto close brackets** - Turn this on to automatically add a closing bracket when you enter an opening bracket.
 * **Auto close quotes** - Turn this on to automatically add a closing quotation mark when you enter an opening quotation mark.
+
+### Application
+
+* **Send anonymous usage data to Postman** - Postman gathers basic, anonymous usage data to help with product improvement. Turn this off to stop sending anonymous usage data to Postman.
+* **Connection Mode** - Configure how to connect to Postman servers using either **Auto** (default) or **HTTP**.
 
 ## Themes
 
@@ -133,7 +137,7 @@ Use the **Certificates** tab to add and manage CA certificates and client certif
 
 ## Connected accounts
 
-Use the **Connected accounts** tab to manage accounts and tokens used to authorize Postman with third-party applications. For example, when you use a personal access token to [connect an API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#connecting-to-an-on-premises-repository), Postman securely stores your token.
+_Desktop app only._ You can use the **Connected accounts** tab to manage the accounts and tokens used to authorize Postman with third-party applications. For example, when you use a personal access token to [connect an API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#connecting-to-an-on-premises-repository), Postman securely stores your token.
 
 You can manage your saved tokens on the **Connected accounts** tab:
 
@@ -142,6 +146,8 @@ You can manage your saved tokens on the **Connected accounts** tab:
 * To remove a saved token, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">. Any integrations that use the token will stop working until you reauthorize them.
 
 ![Connected accounts](https://assets.postman.com/postman-docs/v10/settings-connected-accounts-v10.jpg)
+
+You will not see this tab unless you have an [on-premises Git integration](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#connecting-to-an-on-premises-repository).
 
 ## Proxy
 
