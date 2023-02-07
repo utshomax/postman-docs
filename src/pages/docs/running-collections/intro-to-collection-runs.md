@@ -84,6 +84,10 @@ You can configure the Collection Runner to meet your development needs. You can 
 
 1. When you've completed your configuration, select **Run (collection name)**.
 
+> Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of collection runs you can use each month. This limit applies to collections that you run in a workspace or the Scratch Pad using the **Run manually** option. This limit doesn't apply to [scheduled collection runs](/docs/running-collections/scheduling-collection-runs/) in the Postman cloud. A collection run with multiple iterations counts as a single run.
+>
+> A message will display in the Collection Runner when you're approaching your usage limit. Learn more about [resource usage](/docs/administration/resource-usage/) in Postman.
+
 ## Running your collections
 
 When running collections manually, Postman displays a summary of your request executions and test results in real time.
@@ -101,8 +105,6 @@ To access more data about what happened when a request executed, do the followin
 1. To view more details, including any log statements used in your collection, select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> __Console__ from the footer.
 
 1. To return to the summary of the run, select __View Results__.
-
-> Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of collection runs you can use each month. This limit applies to collections that you run in a workspace or the Scratch Pad using the **Run manually** option (not [scheduled collection runs](/docs/running-collections/scheduling-collection-runs/) in the Postman cloud). Each iteration counts as a single run. You will get a notification in the Collection Runner when you're approaching your usage limit. Learn more about [resource usage](/docs/administration/resource-usage/) in Postman.
 
 ### Viewing test results
 
