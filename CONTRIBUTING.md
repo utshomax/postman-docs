@@ -100,7 +100,7 @@ https://assets.postman.com/postman-docs/<filename>.jpg
 
 ## Adding and editing code blocks
 
-If you would like to add, edit, or replace Markdown code blocks you are welcome to do so. There are two things in which you need to know:
+If you would like to add, edit, or replace Markdown code blocks you are welcome to do so. There are two things you need to know:
 
 * We use Prism.js in a Gatsby plugin [gatsby-remark-prismjs](https://www.gatsbyjs.com/plugins/gatsby-remark-prismjs/#usage-in-markdown "See usage in markdown documentation")
 * Add a language declaration after the opening three backticks ` ``` ` For example:
