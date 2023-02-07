@@ -364,63 +364,51 @@ export const leftNavItems = [
   {
     name: 'Using Postman Flows',
     parentSlug: 'postman-flows',
-    url: '/docs/postman-flows/flows-intro/flows-overview/',
+    url: '/docs/postman-flows/gs/flows-overview/',
     subMenuItems1: [
       {
         name: 'Getting started',
-        subParentSlug: 'flows-intro',
-        slug: '/docs/postman-flows/flows-intro/flows-overview/',
+        subParentSlug: 'gs',
+        slug: '/docs/postman-flows/gs/flows-overview/',
         subMenuItems2: [
           {
             name: 'Postman Flows overview',
-            url: '/docs/postman-flows/flows-intro/flows-overview/',
+            url: '/docs/postman-flows/gs/flows-overview/',
           },
           {
             name: 'The Postman Flows interface',
-            url: '/docs/postman-flows/flows-intro/the-interface/',
-          },
-          {
-            name: 'Building your first flow',
-            url: '/docs/postman-flows/flows-intro/building-your-first-flow/',
-          },
-          {
-            name: 'Running requests in sequence',
-            url: '/docs/postman-flows/flows-intro/running-requests-in-sequence/',
-          },
-          {
-            name: 'Passing data between blocks',
-            url: '/docs/postman-flows/flows-intro/passing-data-between-blocks/',
-          },
-          {
-            name: 'Using authorization with Postman Flows',
-            url: '/docs/postman-flows/flows-intro/using-auth-with-flows/',
-          },
-          {
-            name: 'Using response data in a request',
-            url: '/docs/postman-flows/flows-intro/using-response-data-in-a-request/',
+            url: '/docs/postman-flows/gs/the-interface/',
           },
         ],
       },
       {
-        name: 'Core concepts',
-        subParentSlug: 'core-concepts',
-        slug: '/docs/postman-flows/core-concepts/blocks/',
+        name: 'Postman Flows tutorials',
+        subParentSlug: 'tutorials',
+        slug: '/docs/postman-flows/tutorials/building-your-first-flow/',
         subMenuItems2: [
           {
-            name: 'About blocks',
-            url: '/docs/postman-flows/core-concepts/blocks/',
+            name: 'Building your first flow',
+            url: '/docs/postman-flows/tutorials/building-your-first-flow/',
           },
           {
-            name: 'About messages',
-            url: '/docs/postman-flows/core-concepts/messages/',
+            name: 'Passing data between blocks',
+            url: '/docs/postman-flows/tutorials/passing-data-between-blocks/',
           },
           {
-            name: 'About data types',
-            url: '/docs/postman-flows/core-concepts/data-types/',
+            name: 'Running requests in sequence',
+            url: '/docs/postman-flows/tutorials/running-requests-in-sequence/',
           },
           {
-            name: 'List of blocks',
-            url: '/docs/postman-flows/core-concepts/blocks-list/',
+            name: 'Using authorization with Postman Flows',
+            url: '/docs/postman-flows/tutorials/using-auth-with-flows/',
+          },
+          {
+            name: 'Using response data in a request',
+            url: '/docs/postman-flows/tutorials/using-response-data-in-a-request/',
+          },
+          {
+            name: 'Using webhooks with Postman Flows',
+            url: '/docs/postman-flows/tutorials/webhooks/',
           },
         ],
       },
@@ -430,7 +418,7 @@ export const leftNavItems = [
         slug: '/docs/postman-flows/flows-query-language/introduction-to-fql/',
         subMenuItems2: [
           {
-            name: 'Introduction to FQL',
+            name: 'Introduction to Flows Query Language',
             url: '/docs/postman-flows/flows-query-language/introduction-to-fql/',
           },
           {
@@ -438,7 +426,7 @@ export const leftNavItems = [
             url: '/docs/postman-flows/flows-query-language/getting-basic-values/',
           },
           {
-            name: 'Conditional data selection',
+            name: 'Selecting conditional data',
             url: '/docs/postman-flows/flows-query-language/conditional-data-selection/',
           },
           {
@@ -446,19 +434,23 @@ export const leftNavItems = [
             url: '/docs/postman-flows/flows-query-language/returning-structured-results/',
           },
           {
-            name: 'Data manipulation',
+            name: 'Manipulating data',
             url: '/docs/postman-flows/flows-query-language/data-manipulation/',
           },
         ],
       },
       {
-        name: 'Running flows on the cloud',
-        subParentSlug: 'webhooks',
-        slug: '/docs/postman-flows/running-flows-on-the-cloud/webhooks/',
+        name: 'Postman Flows reference',
+        subParentSlug: 'reference',
+        slug: '/docs/postman-flows/reference/blocks-list/',
         subMenuItems2: [
           {
-            name: 'Using Flows webhooks',
-            url: '/docs/postman-flows/running-flows-on-the-cloud/webhooks/',
+            name: 'Postman Flows blocks',
+            url: '/docs/postman-flows/reference/blocks-list/',
+          },
+          {
+            name: 'Postman Flows data types',
+            url: '/docs/postman-flows/reference/data-types/',
           },
         ]
       },
