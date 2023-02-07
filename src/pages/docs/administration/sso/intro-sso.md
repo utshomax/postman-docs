@@ -46,21 +46,21 @@ Professional plans:
 
 Enterprise plans:
 
-* [Google Workspace](/docs/administration/sso/google-workspace/)
-* [Okta](/docs/administration/sso/okta/)
-* [OneLogin](/docs/administration/sso/onelogin/)
-* [Duo](/docs/administration/sso/duo/)
-* [Ping Identity](/docs/administration/sso/ping-identity/)
 * [Microsoft AD FS](/docs/administration/sso/microsoft-adfs/)
 * [Azure AD](/docs/administration/sso/azure-ad/)
 * [Custom SAML](/docs/administration/sso/admin-sso/)
+* [Duo](/docs/administration/sso/duo/)
+* [Google Workspace](/docs/administration/sso/google-workspace/)
+* [Okta](/docs/administration/sso/okta/)
+* [OneLogin](/docs/administration/sso/onelogin/)
+* [Ping Identity](/docs/administration/sso/ping-identity/)
 
 ### SSO setup for SAML 2.0 compliant IdPs
 
-Most SAML 2.0 compliant identity providers require the same information about the service provider for setup (Postman is the service provider). These values are specific to a Postman team and are available after configuring SSO in the Edit Team Page.
+Most SAML 2.0 compliant identity providers require the same information about the service provider for setup (Postman is the service provider). These values are specific to a Postman team and are available after [configuring SSO](/docs/administration/sso/admin-sso/).
 
-Learn more about [setting up SSO](/docs/administration/sso/admin-sso/).
+> While configuring your IdP, make sure the user’s email address is set in attribute statements.
 
-**Note** - While configuring your IdP, make sure the user’s email address is set in attribute statements.
+<!-- -->
 
-**Note** - Postman’s form-based authentication mechanism and Google OAuth 2.0 remain enabled even if SSO is configured for a team.
+> Postman’s form-based authentication mechanism and Google OAuth 2.0 remain enabled even if SSO is configured for a team.
