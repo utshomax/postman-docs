@@ -1,5 +1,5 @@
 ---
-title: "List of blocks"
+title: "Postman Flows blocks"
 updated: 2022-12-15
 ---
 
