@@ -127,7 +127,7 @@ The **Automatically add new users** checkbox in your [authentication method](#co
 
 ### Managing team sign ins
 
-By default, Postman only supports Service Provider (Postman) initiated sign ins for Postman Professional or Enterprise teams using SSO. Your team must [sign in to Postman through the IdP](/docs/administration/sso/user-sso/). If you require users to sign in from your SSO portal, you can generate and copy the **Relay state** from your [authentication method](#configuring-single-sign-on), and then save it in your IdP. This ensures an extra level of security when the sign in process is initiated through a source unknown to Postman.
+By default, Postman only supports Service Provider (Postman) initiated sign ins for Postman [Professional or Enterprise teams](https://www.postman.com/pricing/) using SSO. Your team must [sign in to Postman through the IdP](/docs/administration/sso/user-sso/). If you require users to sign in from your SSO portal, you can generate and copy the **Relay state** from your [authentication method](#configuring-single-sign-on), and then save it in your IdP. This ensures an extra level of security when the sign in process is initiated through a source unknown to Postman.
 
 ### Removing team access
 
