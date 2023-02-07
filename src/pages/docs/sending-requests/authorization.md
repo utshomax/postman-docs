@@ -65,6 +65,7 @@ You can pass auth details along with any request you send in Postman. Auth data 
         * [Requesting an OAuth 2.0 token](#requesting-an-oauth-20-token)
         * [Refreshing an OAuth 2.0 token](#refreshing-an-oauth-20-token)
         * [Sharing an OAuth 2.0 token](#sharing-an-oauth-20-access-token)
+        * [Changing the OAuth 2.0 token type](#changing-the-oauth-20-token-type)
     * [Hawk authentication](#hawk-authentication)
     * [AWS Signature](#aws-signature)
     * [NTLM authentication](#ntlm-authentication)
@@ -333,6 +334,14 @@ To revoke other users' access to a synced token, do the following:
 1. Select **Remove Synced Token**.
 
 After you revoke access, other users with access to the request won't be able to see or use the token.
+
+#### Changing the OAuth 2.0 token type
+
+Postman supports using access tokens or ID tokens for OAuth 2.0 authorization. An _access token_ enables an OAuth client to make calls to an API. An _ID token_ contains information about the authenticated user. This information can be used by an OAuth client to customize their experience.
+
+To change the type of token used for authorization, select **Access token** or **ID token** in the **Use Token Type** dropdown list.
+
+<img alt="Change the OAuth 2.0 token type" src="https://assets.postman.com/postman-docs/v10/authorization-oauth2-token-type-v10.jpg" width="500px"/>
 
 ### Hawk authentication
 
