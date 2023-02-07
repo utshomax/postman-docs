@@ -36,7 +36,7 @@ contextual_links:
 
 Postman's _version control_ features can help you and your team to collaboratively build an API. You can fork a collection or environment, make updates to the fork, create a pull request, and merge your changes into the parent element.
 
-> Version control for collections and environments is different from API versioning. For information on managing multiple versions of APIs, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
+> Version control for collections and environments is different from API versioning. For information on managing multiple versions of APIs, see [API version control overview](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/).
 
 ## Forking Postman entities
 

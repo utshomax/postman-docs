@@ -24,8 +24,8 @@ contextual_links:
     name: "API Fest 2022 | Workshop on Coding an API using an API Schema"
     url: "https://youtu.be/RMiG9tzw5tg"
   - type: link
-    name: "Getting Started with OpenAPI in Postman | Postman Intergalactic"
-    url: "https://youtu.be/YRzpziA35Mg"
+    name: "OpenAPI 3.0: From Idea to Implementation"
+    url: "https://www.youtube.com/live/JEBd78U9aBo?feature=share"
   - type: section
     name: "Next Steps"
   - type: link

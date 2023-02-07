@@ -20,6 +20,11 @@ contextual_links:
     name: "GraphQL introspection | Postman Level Up"
     url: "https://youtu.be/k-j3FwTjJkE"
   - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Don’t Panic: A Developer’s Guide to Building Secure GraphQL APIs"
+    url: "https://blog.postman.com/how-to-build-secure-graphql-apis/"
+  - type: subtitle
     name: "Public Workspaces"
   - type: link
     name: "Public GraphQL APIs"
