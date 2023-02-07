@@ -72,7 +72,7 @@ To enter details in the **Identity provider details** section, you must sign in 
 
 &#42; Only available on Enterprise plans.
 
-Optionally, you can select the [**Automatically add new users**](#automatically-adding-new-users) checkbox if you want users to automatically join your team the first time they sign in to Postman through this IdP.
+Optionally, you can select the [**Automatically add new users**](#automatically-adding-new-users) checkbox if you want users to automatically join your team. The first time users sign in to Postman through this IdP they will automatically join the team.
 
 ## Editing SSO settings
 
@@ -80,7 +80,7 @@ After configuring the [authentication method](#configuring-single-sign-on) for y
 
 <img alt="" src="https://assets.postman.com/postman-docs/admin-sso-turn-on-auth-method-v9.jpg" width="800px"/>
 
-To update the settings for an authentication method, select **Edit**. Then select **Continue** to update the IdP details.
+To update the settings for an authentication method, select **Edit**, then select **Continue**.
 
 To delete an authentication method, select **Edit**, then select **Delete**.
 
@@ -121,7 +121,7 @@ The user will be automatically associated to the team with a [Developer role](/d
 
 ### Automatically adding new users
 
-The **Automatically add new users** checkbox in your [authentication method](#configuring-single-sign-on) determines whether users with accounts in your IdP are allowed to join your team automatically by [signing in to Postman through the IdP](/docs/administration/sso/user-sso/).
+The **Automatically add new users** checkbox in your [authentication method](#configuring-single-sign-on) determines whether users with accounts in your IdP can automatically join your team. [Sign in to Postman through the IdP](/docs/administration/sso/user-sso/) to automatically join the team.
 
 > **Automatically add new users** will only work if your team has user seats available. Your team size won't automatically increase if more users sign in with SSO.
 
@@ -135,15 +135,18 @@ You must [remove users from your team in Postman](/docs/administration/managing-
 
 ## Troubleshooting
 
-If you're unable to sign in to Postman using SSO, or you experience other SSO issues, see the following common issues:
+Learn more about common SSO issues and how to troubleshoot them.
 
-Issue | Resolving the issue
---- | ---
-Your IdP returns a 404 error after signing in to Postman using SSO. | Make sure the **SSO URL** is correctly copied from your IdP to your [authentication method](#configuring-single-sign-on) in Postman.
-Postman returns a 500 error after signing in to Postman using SSO. | Make sure the **X.509 Certificate** is correctly copied from your IdP to your [authentication method](#configuring-single-sign-on) in Postman.
-Postman returns a 404 error after signing in to Postman using SSO. | Make sure the values in the **Service provider details (Postman)** section are correctly copied from your [authentication method](#configuring-single-sign-on) in Postman to your IdP.
-Postman returns a page explaining the sign-in request expired after signing in to Postman using SSO. | Make sure the **Relay state** is correctly copied from your [authentication method](#configuring-single-sign-on) in Postman to your IdP.
-An email address isn't associated with your Postman account in your [Postman team member list](/docs/administration/managing-your-team/managing-your-team/). | In your IdP configuration settings, make sure the username format is set to **Email**.
+If you experience an error after signing in to Postman using SSO, see the following errors and possible solutions:
+
+* **Your IdP returns a 404 error.** Make sure the **SSO URL** is correctly copied from your IdP to your [authentication method](#configuring-single-sign-on) in Postman.
+* **Postman returns a 500 error.** Make sure the **X.509 Certificate** is correctly copied from your IdP to your [authentication method](#configuring-single-sign-on) in Postman.
+* **Postman returns a 404 error.** Make sure the values in the **Service provider details (Postman)** section are correctly copied from your [authentication method](#configuring-single-sign-on) in Postman to your IdP.
+* **Postman returns a page explaining that the sign-in request expired.** Make sure the **Relay state** is correctly copied from your [authentication method](#configuring-single-sign-on) in Postman to your IdP.
+
+For more common SSO issues, see the following:
+
+* **An email address isn't associated with your team members.** In your IdP configuration settings, make sure the username format is set to **Email**.
 
 ## Next steps
 
