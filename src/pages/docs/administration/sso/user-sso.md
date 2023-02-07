@@ -44,7 +44,7 @@ To sign in to Postman with SSO, do the following:
 
 1. Select the [configured authentication method](/docs/administration/sso/admin-sso/#configuring-single-sign-on) you want to sign in with.
 
-1. Postman will redirect you to the configured SSO provider. Enter your SSO details to sign in.
+1. Postman will redirect you to the configured IdP. Enter your SSO details to sign in.
 
     > The first time you sign in to Postman, you may need to carry out extra steps to set up access to your IdP account. Sign in using SSO and follow your provider's steps to connect the account to Postman.
 
