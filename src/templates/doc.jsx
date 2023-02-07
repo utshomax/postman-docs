@@ -207,6 +207,9 @@ const DocContent = styled.div`
 
   ol {
     ${OrderedListStyles.componentStyle.rules}
+    li > ol {
+      list-style: lower-alpha;
+    }
   } 
 `
 
