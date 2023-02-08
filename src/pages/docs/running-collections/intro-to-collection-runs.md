@@ -1,6 +1,6 @@
 ---
 title: "Using the Collection Runner"
-updated: 2022-11-09
+updated: 2023-02-06
 search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
   - type: section
@@ -83,6 +83,10 @@ You can configure the Collection Runner to meet your development needs. You can 
     > You can alter the flow of execution from your request scripts using `setNextRequest` to [create workflows](/docs/running-collections/building-workflows/).
 
 1. When you've completed your configuration, select **Run (collection name)**.
+
+> Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of collection runs you can use each month. This limit applies to collections that you run in a workspace or the Scratch Pad using the **Run manually** option. This limit doesn't apply to [scheduled collection runs](/docs/running-collections/scheduling-collection-runs/) in the Postman cloud. A collection run with multiple iterations counts as a single run.
+>
+> A message will display in the Collection Runner when you're approaching your usage limit. Learn more about [resource usage](/docs/administration/resource-usage/) in Postman.
 
 ## Running your collections
 
