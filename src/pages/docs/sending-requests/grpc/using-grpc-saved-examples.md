@@ -25,9 +25,7 @@ You can save, edit, and create example responses for gRPC requests. These [saved
 
 * [Saving an example gRPC response](#saving-an-example-grpc-response)
 * [Editing a saved gRPC response](#editing-a-saved-grpc-response)
-    * Editing a unary response
-    * Editing a streaming response
-* Creating an example gRPC response without an api call
+* [Creating an example gRPC response without an api call](#creating-an-example-grpc-response-without-an-api-call)
 
 ## Saving an example gRPC response
 
@@ -43,12 +41,41 @@ This example will create and execute a server streaming request, then save the r
 
 1. Select the **Select a method** dropdown and select **LotsOfGreetings**.
 
-1. Select **Generate example message**. This creates a sample message using the service definition itself so that you don’t have to set the correct fields and data types.
+1. Select **Generate example message**.
 
 1. Replace the sample string data with your name (or any other string) and select **Invoke**. A single message appears in the response section and the connection status is **STREAMING**.
 
 1. Select **End Streaming**. More messages appear in the response section, including the example message with your edited string.
 
-1. Select **Save as Example**. The saved example opens in a new tab.
+  > You can't save a gRPC example while streaming is active.
+
+1. Select **Save as Example**. The saved example opens in a new tab and you can see the saved example under the request in the sidebar.
 
 ## Editing a saved gRPC response
+
+1. Select a saved gRPC response in the sidebar.
+
+1. In the response section, select the message you want to edit.
+
+1. Select the entire response and replace it with `Not found`.
+
+1. Select `NOT_FOUND` from the status code dropdown list.
+
+1. Select **Save**.
+
+## Creating an example gRPC response without an api call
+
+1. In the sidebar, hover over a gRPC collection.
+
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and select **Add request > gRPC Request**.
+
+1. Hover over the gRPC request you created, select the more actions icon, and select **Add example**.
+
+1. In the new example that opens, select the response section and enter the following text:
+
+    ``` json
+    {
+        "Test response": "Response successful"
+    }
+
+1. Select **Save**.
