@@ -64,7 +64,8 @@ This example will create and execute a unary request. To learn about invoking th
 1. Replace the sample string data with your name (or any other string) and select **Invoke**.
 
 Once the method is invoked, the server processes the information passed and returns a response.
-<!--TODO: Add a section describing how to save examples with gRPC, including unary and streaming methods. -->
+
+  > You can save, edit, and create gRPC responses. See [Using gRPC saved examples](/docs/sending-requests/grpc/using-grpc-saved-examples/) for more information.
 
 ## Next steps
 

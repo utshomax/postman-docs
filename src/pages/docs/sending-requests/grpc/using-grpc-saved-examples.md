@@ -19,3 +19,30 @@ contextual_links:
     url: "https://youtu.be/RbHOs2xchGE"
 ---
 
+You can save, edit, and create example responses for gRPC requests. These [saved examples](/docs/sending-requests/examples/) can help consumers understand, document, and mock what responses will look like even before the API is up and running. gRPC saved examples are basically a blank canvas where you can create responses for any use case.
+
+## Contents
+
+* [Saving an example gRPC response](#saving-an-example-grpc-response)
+* Editing a saved gRPC response
+    * Editing a unary response
+    * Editing a streaming response
+* Creating an example gRPC response without an api call
+
+## Saving an example gRPC response
+
+This example will create and execute a server streaming request, then save the response as an example.
+
+> If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/about-postman-agent/) for more information.
+
+1. In Postman, select  **New > gRPC Request** to open a request in a new tab.
+
+    <img src="https://assets.postman.com/postman-docs/v10/grpc-new-request.gif" alt="New gRPC request" />
+
+1. Select **Server URL** and enter `grpc.postman-echo.com`.
+
+1. Select the **Select a methods** dropdown and select **LotsOfReplies**.
+
+1. Select **Generate example message**. This creates a sample message using the service definition itself so that you don’t have to set the correct fields and data types.
+
+1. Replace the sample string data with your name (or any other string) and select **Invoke**. Multiple responses appear in the response section.
