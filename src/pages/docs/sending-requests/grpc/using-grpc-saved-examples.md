@@ -24,7 +24,7 @@ You can save, edit, and create example responses for gRPC requests. These [saved
 ## Contents
 
 * [Saving an example gRPC response](#saving-an-example-grpc-response)
-* Editing a saved gRPC response
+* [Editing a saved gRPC response](#editing-a-saved-grpc-response)
     * Editing a unary response
     * Editing a streaming response
 * Creating an example gRPC response without an api call
@@ -41,8 +41,14 @@ This example will create and execute a server streaming request, then save the r
 
 1. Select **Server URL** and enter `grpc.postman-echo.com`.
 
-1. Select the **Select a methods** dropdown and select **LotsOfReplies**.
+1. Select the **Select a method** dropdown and select **LotsOfGreetings**.
 
 1. Select **Generate example message**. This creates a sample message using the service definition itself so that you don’t have to set the correct fields and data types.
 
-1. Replace the sample string data with your name (or any other string) and select **Invoke**. Multiple responses appear in the response section.
+1. Replace the sample string data with your name (or any other string) and select **Invoke**. A single message appears in the response section and the connection status is **STREAMING**.
+
+1. Select **End Streaming**. More messages appear in the response section, including the example message with your edited string.
+
+1. Select **Save as Example**. The saved example opens in a new tab.
+
+## Editing a saved gRPC response
