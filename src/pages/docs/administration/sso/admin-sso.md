@@ -40,7 +40,7 @@ To begin adding an authentication method, do the following:
 
     <img src="https://assets.postman.com/postman-docs/v10/add-auth-method-v10.jpg" width="600px" alt="Authentication Method"/>
 
-    > Always check with your authentication provider dashboard or your IT support staff for the correct information to complete a modal.
+    > Always check with your authentication provider dashboard or your IT support staff for the correct information to configure SSO.
 
 ### Configuring the identity provider details
 
