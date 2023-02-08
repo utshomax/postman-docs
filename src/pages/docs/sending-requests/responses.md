@@ -166,6 +166,9 @@ If it finds any potential security risks, Postman adds the number of warnings to
 
 <img alt="Security tab showing one warning" src="https://assets.postman.com/postman-docs/v10/api-response-security-tab-v10.jpg" width="900px"/>
 
+> You can hide the number of security warnings that Postman displays in the **Security** tab if this number is not important to you. In the Postman header, select the settings icon
+<img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">, then select **Settings > General** and turn off **Security Warnings count**. While the number of warnings will no longer display next to the **Security** tab, you can still select this tab to see any warnings.
+
 To view the list of security warnings and to get more information about specific warnings, do the following:
 
 1. Select **Security** to view the warnings.
