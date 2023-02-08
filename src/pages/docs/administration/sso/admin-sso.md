@@ -30,7 +30,7 @@ Your [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-rol
 
 ## Configuring single sign-on
 
-To add an authentication method, do the following:
+To begin adding an authentication method, do the following:
 
 1. Go to [Team Settings](https://app.getpostman.com/dashboard/teams/edit), then select **Authentication**.
 1. Select **Add Authentication Method**.
@@ -72,7 +72,7 @@ To enter details in the **Identity provider details** section, you must sign in 
 
 &#42; Only available on Enterprise plans.
 
-Optionally, you can select the [**Automatically add new users**](#automatically-adding-new-users) checkbox if you want users to automatically join your team. The first time users sign in to Postman through this IdP they will automatically join the team.
+Optionally, you can select the [**Automatically add new users**](#automatically-adding-new-users) checkbox if you want users to automatically join your team. The first time users sign in to Postman using this authentication method they will automatically join the team.
 
 ## Editing SSO settings
 
@@ -102,7 +102,7 @@ This section describes the following topics:
 
 ### Creating user accounts
 
-The first time a new Postman user [signs in to Postman through the IdP](/docs/administration/sso/user-sso/), a Postman account is created and the user is automatically added to the team if the following is true: the team has seats available and the [**Automatically add new users**](#automatically-adding-new-users) checkbox was selected during [authentication method configuration](#configuring-single-sign-on).
+The first time a new Postman user [signs in to Postman using the authentication method](/docs/administration/sso/user-sso/), a Postman account is created and the user is automatically added to the team if the following is true: the team has seats available and the [**Automatically add new users**](#automatically-adding-new-users) checkbox was selected during [authentication method configuration](#configuring-single-sign-on).
 
 The user will be automatically associated to the team with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and have access to team resources.
 
@@ -110,7 +110,7 @@ The user will be automatically associated to the team with a [Developer role](/d
 
 ### Adding existing user accounts
 
-The first time an existing Postman user [signs in to Postman through the IdP](/docs/administration/sso/user-sso/), the user is automatically added to the team if one of the following is true:
+The first time an existing Postman user [signs in to Postman using the authentication method](/docs/administration/sso/user-sso/), the user is automatically added to the team if one of the following is true:
 
 * The team has available seats and the [**Automatically add new users**](#automatically-adding-new-users) checkbox was selected during [authentication method configuration](#configuring-single-sign-on).
 * A Team Admin has [invited the user](/docs/administration/managing-your-team/managing-your-team/#inviting-users) to join the team.
@@ -121,13 +121,13 @@ The user will be automatically associated to the team with a [Developer role](/d
 
 ### Automatically adding new users
 
-The **Automatically add new users** checkbox in your [authentication method](#configuring-single-sign-on) determines whether users with accounts in your IdP can automatically join your team. [Sign in to Postman through the IdP](/docs/administration/sso/user-sso/) to automatically join the team.
+The **Automatically add new users** checkbox in your [authentication method](#configuring-single-sign-on) determines whether users with accounts in your IdP can automatically join your team. [Sign in to Postman using the authentication method](/docs/administration/sso/user-sso/) to automatically join the team.
 
 > **Automatically add new users** will only work if your team has user seats available. Your team size won't automatically increase if more users sign in with SSO.
 
 ### Managing team sign ins
 
-By default, Postman only supports Service Provider (Postman) initiated sign ins for Postman [Professional or Enterprise teams](https://www.postman.com/pricing/) using SSO. Your team must [sign in to Postman through the IdP](/docs/administration/sso/user-sso/). If you require users to sign in from your SSO portal, you can generate and copy the **Relay state** from your [authentication method](#configuring-single-sign-on), and then save it in your IdP. This ensures an extra level of security when the sign in process is initiated through a source unknown to Postman.
+By default, Postman only supports Service Provider (Postman)-initiated sign ins for Postman [Professional or Enterprise teams](https://www.postman.com/pricing/). Your team must [sign in to Postman using the authentication method](/docs/administration/sso/user-sso/). If you require users to sign in using an IdP-initiated sign in from your SSO portal, you can generate and copy the **Relay state** from your [authentication method](#configuring-single-sign-on), and then save it in your IdP configuration. This ensures an extra level of security when the sign in process is initiated through a source unknown to Postman.
 
 ### Removing team access
 
