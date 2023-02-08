@@ -65,10 +65,10 @@ This example will create and execute a unary request. To learn about invoking th
 
 Once the method is invoked, the server processes the information passed and returns a response.
 
-  > You can save, edit, and create gRPC responses. See [Using gRPC saved examples](/docs/sending-requests/grpc/using-grpc-saved-examples/) for more information.
+  > You can save, edit, and create gRPC responses. See [Using gRPC saved examples](/docs/sending-requests/grpc/using-grpc-saved-examples/) to learn more.
 
 ## Next steps
 
 Try invoking some other methods available on the gRPC bin server and see how things act differently.
 
-When you’re done, learn more about [Using the gRPC request interface](/docs/sending-requests/grpc/grpc-request-interface/).
+When you’re done, learn more about [using the gRPC request interface](/docs/sending-requests/grpc/grpc-request-interface/).

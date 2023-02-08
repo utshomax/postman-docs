@@ -127,7 +127,7 @@ The response section has the following items:
 
 * **More information** - This section gives you key information regarding performance and if the execution was successful. You can assess the performance of the API using the information on how long the execution took. The status code gives you information explaining whether the execution was successful. The status code `0 OK` signifies successful execution. In case of an error, a gRPC-based implementation returns different status codes for different error scenarios which help you understand the cause and figure out the next set of actions by hovering on it.
 
-* **Save as example** - You can save responses to your gRPC requests as [examples](/docs/sending-requests/examples/). For streaming methods, you must end streaming before you can save an example.
+* **Save as example** - You can save responses to your gRPC requests as [examples](/docs/sending-requests/examples/). For streaming methods, you must end streaming before you can save an example. See [Using grpc saved examples](/docs/sending-requests/grpc/using-grpc-saved-examples/) to learn more.
 
 * **Wrap text button** - Selecting this button adjusts the width of the response body according to the width of the response area, making it easier to read longer responses without scrolling.
 

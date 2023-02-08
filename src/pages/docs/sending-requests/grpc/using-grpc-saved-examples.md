@@ -19,15 +19,16 @@ contextual_links:
     url: "https://youtu.be/RbHOs2xchGE"
 ---
 
-You can save, edit, and create example responses for gRPC requests. These [saved examples](/docs/sending-requests/examples/) can help consumers understand, document, and mock what responses will look like even before the API is up and running. gRPC saved examples are basically a blank canvas where you can create responses for any use case.
+You can save, edit, and create examples for gRPC requests. These [saved examples](/docs/sending-requests/examples/) can help API consumers understand and document what responses will look like even before the API is up and running. gRPC saved examples are basically a blank canvas where you can create responses for any use case.
 
 ## Contents
 
-* [Saving an example gRPC response](#saving-an-example-grpc-response)
-* [Editing a saved gRPC response](#editing-a-saved-grpc-response)
-* [Creating an example gRPC response without an api call](#creating-an-example-grpc-response-without-an-api-call)
+* [Saving a gRPC example](#saving-a-grpc-example)
+* [Editing a gRPC saved example](#editing-a-grpc-saved-example)
+* [Creating a gRPC saved example without an api call](#creating-a-grpc-saved-example-without-an-api-call)
+* [Creating example-specific documentation in the context bar](#creating-example-specific-documentation-in-the-context-bar)
 
-## Saving an example gRPC response
+## Saving a gRPC example
 
 This example will create and execute a server streaming request, then save the response as an example.
 
@@ -51,7 +52,7 @@ This example will create and execute a server streaming request, then save the r
 
 1. Select **Save as Example**. The saved example opens in a new tab and you can see the saved example under the request in the sidebar.
 
-## Editing a saved gRPC response
+## Editing a gRPC saved example
 
 1. Select a saved gRPC response in the sidebar.
 
@@ -63,7 +64,7 @@ This example will create and execute a server streaming request, then save the r
 
 1. Select **Save**.
 
-## Creating an example gRPC response without an api call
+## Creating a gRPC saved example without an api call
 
 1. In the sidebar, hover over a gRPC collection.
 
@@ -79,3 +80,13 @@ This example will create and execute a server streaming request, then save the r
     }
 
 1. Select **Save**.
+
+## Creating example-specific documentation in the context bar
+
+1. In the sidebar, select a gRPC saved example.
+
+1. In the right sidebar, select the the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px">.
+
+1. Hover over **Add example description...** and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.
+
+1. Enter your documentation for this example and select **Save**.
