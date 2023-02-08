@@ -80,7 +80,12 @@ If you're building a client app or want to connect to an API, check out some Pos
 * [Authorizing requests](/docs/sending-requests/authorization/)
 * [Grouping requests in collections](/docs/sending-requests/intro-to-collections/)
 * [Using variables](/docs/sending-requests/variables/)
-* [Visualizing data](/docs/sending-requests/visualizer/)
+
+1. [Visualizing data](/docs/sending-requests/visualizer/)
+1. [Visualizing data](/docs/sending-requests/visualizer/)
+    1. [Visualizing data](/docs/sending-requests/visualizer/)
+    1. [Visualizing data](/docs/sending-requests/visualizer/)
+
 
 ### Testing APIs
 
