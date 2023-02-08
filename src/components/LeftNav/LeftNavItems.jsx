@@ -222,6 +222,10 @@ export const leftNavItems = [
             url: '/docs/sending-requests/grpc/using-grpc-mock/',
           },
           {
+            name: 'Using gRPC saved examples',
+            url: '/docs/sending-requests/grpc/using-grpc-saved-examples/',
+          },
+          {
             name: 'Understanding gRPC types',
             url: '/docs/sending-requests/grpc/understanding-grpc-types/',
           },
