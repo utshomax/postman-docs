@@ -48,7 +48,7 @@ This example will create and execute a server streaming request, then save the r
 
 1. Select **End Streaming**. More messages appear in the response section, including the example message with your edited string.
 
-  > You can't save a gRPC example while streaming is active.
+    > You can't save a gRPC example while streaming is active.
 
 1. Select **Save as Example**. The saved example opens in a new tab and you can see the saved example under the request in the sidebar.
 
