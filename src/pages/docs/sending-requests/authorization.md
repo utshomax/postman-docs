@@ -339,7 +339,7 @@ After you revoke access, other users with access to the request won't be able to
 
 Postman supports using access tokens or ID tokens for OAuth 2.0 authorization. An _access token_ enables an OAuth client to make calls to an API. An _ID token_ contains information about the authenticated user. This information can be used by an OAuth client to customize their experience.
 
-To change the type of token used for authorization, select **Access token** or **ID token** in the **Use Token Type** dropdown list.
+If an ID token is present, you can select the token type (**Access token** or **ID token**) in the **Use Token Type** dropdown list. (If no ID token is present, this dropdown list isn't available.)
 
 <img alt="Change the OAuth 2.0 token type" src="https://assets.postman.com/postman-docs/v10/authorization-oauth2-token-type-v10.jpg" width="500px"/>
 
