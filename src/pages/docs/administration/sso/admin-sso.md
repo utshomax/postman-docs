@@ -46,7 +46,7 @@ To begin adding an authentication method, do the following:
 
 After [adding the authentication method](#configuring-single-sign-on), you can configure the IdP details.
 
-> To continue configuring the IdP details later, select **Configure Later**. When you're ready to continue configuring the IdP details, see [Editing SSO settings](#editing-sso-settings).
+> To configure the IdP details later, select **Configure Later**. When you're ready to continue configuring the IdP details, see [Editing SSO settings](#editing-sso-settings).
 
 In the **Service provider details (Postman)** section, the **Entity ID**, **Login URL**, and **ACS URL** are already populated.
 
