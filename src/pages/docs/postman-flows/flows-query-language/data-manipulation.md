@@ -1,5 +1,5 @@
 ---
-title: "Data manipulation"
+title: "Manipulating data"
 updated: 2023-01-12
 ---
 
