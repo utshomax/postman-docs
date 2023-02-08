@@ -63,6 +63,7 @@ Use the settings on the **General** tab to configure how Postman sends requests 
 * **Request Timeout in ms** - Enter how long (in milliseconds) Postman will wait for a response before timing out. If you enter **0**, Postman will wait for a response forever.
 * **Max response size in MB** - Enter the largest response size (in megabytes) that Postman will download. For responses that exceed this limit, Postman asks if you want to increase the size limit or download the response. If you enter **0**, Postman downloads responses of any size. Rendering large responses may affect Postman's performance.
 * **Request Validation** - Turn this off to prevent Postman from attempting to validate requests in collections linked to an API schema.
+* **Security Warnings count** - Turn this off to hide the number of [security warnings](/docs/api-governance/api-testing/api-testing-warnings/#viewing-security-warnings-for-api-requests) Postman finds when you send a collection request.
 
 ### Working directory
 
