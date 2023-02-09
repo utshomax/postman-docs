@@ -75,13 +75,23 @@ This example will create and execute a server streaming request, then save the r
 
 ## Editing a gRPC saved example
 
-1. Select a saved gRPC response in the sidebar.
+1. Select a gRPC saved example in the sidebar.
 
-1. In the response section, select the message you want to edit.
+    ![Select a saved example](https://assets.postman.com/postman-docs/v10/grpc-save-example-1select-example-v10.jpg)
 
-1. Select the entire response and replace it with `Not found`.
+1. In the response section, select the message you want to edit. The editor opens below the message.
 
-1. Select `NOT_FOUND` from the status code dropdown list.
+    ![Select a message](https://assets.postman.com/postman-docs/v10/grpc-save-example-2select-message-v10.jpg)
+
+1. Replace the `reply` response with `Not found` or any string.
+
+    ![Edit the message](https://assets.postman.com/postman-docs/v10/grpc-save-example-3edit-message-v10.jpg)
+
+1. Select the message again to close the editor.
+
+1. Hover over a message. A handle appears to the left of the message. Select and drag the handle to reposition the message in the timeline.
+
+    ![Reposition the message](https://assets.postman.com/postman-docs/v10/grpc-save-example-4reposition-v10.jpg)
 
 1. Select **Save**.
 
