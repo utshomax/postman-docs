@@ -1,6 +1,6 @@
 ---
 title: "Using gRPC saved examples"
-updated: 2023-02-08
+updated: 2023-02-09
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -22,18 +22,18 @@ contextual_links:
     url: "https://youtu.be/RbHOs2xchGE"
 ---
 
-You can save, edit, and create examples for gRPC requests. These [saved examples](/docs/sending-requests/examples/) can help API consumers understand and document what responses will look like even before the API is up and running. gRPC saved examples are basically a blank canvas where you can create responses for any use case.
+You can save, edit, and create [examples](/docs/sending-requests/examples/) for gRPC requests. You can also include documentation with each gRPC saved example. gRPC saved examples can help API consumers understand and document what responses will look like even before the API is up and running. gRPC saved examples are basically a blank canvas where you can create responses for any use case.
 
 ## Contents
 
 * [Saving a gRPC example](#saving-a-grpc-example)
 * [Editing a gRPC saved example](#editing-a-grpc-saved-example)
-* [Creating a gRPC saved example without an api call](#creating-a-grpc-saved-example-without-an-api-call)
-* [Creating example-specific documentation in the context bar](#creating-example-specific-documentation-in-the-context-bar)
+* [Creating a gRPC saved example without an API call](#creating-a-grpc-saved-example-without-an-api-call)
+* [Creating example-specific documentation](#creating-example-specific-documentation)
 
 ## Saving a gRPC example
 
-This example will create and execute a server streaming request, then save the response as an example.
+This example creates and executes a client streaming request, then saves the response as a gRPC saved example.
 
 > If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/about-postman-agent/) for more information.
 
@@ -75,7 +75,9 @@ This example will create and execute a server streaming request, then save the r
 
 ## Editing a gRPC saved example
 
-1. Select a gRPC saved example in the sidebar.
+1. [Create a gRPC request, save it to a collection, and save a gRPC example.](#saving-a-grpc-example)
+
+1. Select the gRPC saved example in the sidebar.
 
     ![Select a saved example](https://assets.postman.com/postman-docs/v10/grpc-save-example-1select-example-v10.jpg)
 
@@ -95,29 +97,38 @@ This example will create and execute a server streaming request, then save the r
 
 1. Select **Save**.
 
-## Creating a gRPC saved example without an api call
+## Creating a gRPC saved example without an API call
 
-1. In the sidebar, hover over a gRPC collection.
+1. Create a gRPC request and add it to a collection.
 
-1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and select **Add request > gRPC Request**.
+1. Hover over the gRPC request you created, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
-1. Hover over the gRPC request you created, select the more actions icon, and select **Add example**.
+1. Select **Add example**.
 
-1. In the new example that opens, select the response section and enter the following text:
+    ![Select Add example](https://assets.postman.com/postman-docs/v10/grpc-create-example-1add-v10.jpg)
 
-    ``` json
-    {
-        "Test response": "Response successful"
-    }
+1. An empty example opens in the workbench and appears below the request in the sidebar.
+
+    ![New example](https://assets.postman.com/postman-docs/v10/grpc-create-example-2save-v10.jpg)
+
+1. [Edit the gRPC saved example.](#editing-a-grpc-saved-example)
 
 1. Select **Save**.
 
-## Creating example-specific documentation in the context bar
+## Creating example-specific documentation
 
-1. In the sidebar, select a gRPC saved example.
+1. [Create a gRPC request, save it to a collection, and save a gRPC example.](#saving-a-grpc-example)
+
+1. Select the gRPC saved example in the sidebar.
+
+    ![Select a saved example](https://assets.postman.com/postman-docs/v10/grpc-save-example-1select-example-v10.jpg)
 
 1. In the right sidebar, select the the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px">.
 
 1. Hover over **Add example description...** and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.
 
-1. Enter your documentation for this example and select **Save**.
+    ![Select the edit icon](https://assets.postman.com/postman-docs/v10/grpc-doc-example-1edit-v10.jpg)
+
+1. Enter your documentation for the gRPC saved example and select **Save**.
+
+    ![Save documentation](https://assets.postman.com/postman-docs/v10/grpc-doc-example-1save-v10.jpg)
