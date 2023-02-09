@@ -47,7 +47,7 @@ This example creates and executes a client streaming request, then saves the res
 
 1. Select **Generate example message**.
 
-1. Replace the sample string data with your name (or any other string).
+1. Replace the example message string data with your name (or any other string).
 
 1. Save the gRPC request to a collection.
 
@@ -101,7 +101,7 @@ This example creates and executes a client streaming request, then saves the res
 
 1. Create a gRPC request and add it to a collection.
 
-1. Hover over the gRPC request you created, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
+1. Hover over the gRPC request you created and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
 1. Select **Add example**.
 
@@ -112,6 +112,8 @@ This example creates and executes a client streaming request, then saves the res
     ![New example](https://assets.postman.com/postman-docs/v10/grpc-create-example-2save-v10.jpg)
 
 1. [Edit the gRPC saved example.](#editing-a-grpc-saved-example)
+
+    > For examples with streaming methods, select the **Add a Message** button to create a message, then edit the message.
 
 1. Select **Save**.
 
