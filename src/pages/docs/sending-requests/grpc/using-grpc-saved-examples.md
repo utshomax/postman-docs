@@ -10,6 +10,9 @@ contextual_links:
   - type: link
     name: "Specifying examples"
     url: "/docs/sending-requests/examples/"
+  - type: link
+    name: "Grouping requests in collections"
+    url: "/docs/sending-requests/intro-to-collections/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -36,19 +39,25 @@ This example will create and execute a server streaming request, then save the r
 
 1. In Postman, select  **New > gRPC Request** to open a request in a new tab.
 
-    <img src="https://assets.postman.com/postman-docs/v10/grpc-new-request.gif" alt="New gRPC request" />
-
-1. Select **Server URL** and enter `grpc.postman-echo.com`.
+1. Select **Enter Server URL** and enter `grpc.postman-echo.com`.
 
 1. Select the **Select a method** dropdown and select **LotsOfGreetings**.
 
 1. Select **Generate example message**.
 
-1. Replace the sample string data with your name (or any other string) and select **Invoke**. A single message appears in the response section and the connection status is **STREAMING**.
+1. Replace the sample string data with your name (or any other string).
 
-1. Select **End Streaming**. More messages appear in the response section, including the example message with your edited string.
+1. Save the gRPC request to a collection.
 
-    > You can't save a gRPC example while streaming is active.
+    > gRPC examples can't be saved if the request isn't part of a collection.
+
+1. Select **Invoke**. A `Sent request` message appears in the response section and the connection status is **STREAMING**.
+
+1. Select **Send**. A response message with your string appears in the response section.
+
+1. Select **End Streaming**. More messages appear in the response section, including a `reply` message with your string.
+
+    > gRPC examples can't be saved while streaming is active.
 
 1. Select **Save as Example**. The saved example opens in a new tab and you can see the saved example under the request in the sidebar.
 
