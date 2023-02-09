@@ -39,9 +39,11 @@ This example will create and execute a server streaming request, then save the r
 
 1. In Postman, select  **New > gRPC Request** to open a request in a new tab.
 
-1. Select **Enter Server URL** and enter `grpc.postman-echo.com`.
+1. Select **Enter Server URL** and enter `grpcb.in:9001`.
 
 1. Select the **Select a method** dropdown and select **LotsOfGreetings**.
+
+    ![New gRPC request](https://assets.postman.com/postman-docs/v10/grpc-save-example-1request-v10.jpg)
 
 1. Select **Generate example message**.
 
@@ -49,17 +51,27 @@ This example will create and execute a server streaming request, then save the r
 
 1. Save the gRPC request to a collection.
 
-    > gRPC examples can't be saved if the request isn't part of a collection.
+    ![gRPC request](https://assets.postman.com/postman-docs/v10/grpc-save-example-2collection-v10.jpg)
+
+    > gRPC examples can't be saved unless the request is in a collection.
 
 1. Select **Invoke**. A `Sent request` message appears in the response section and the connection status is **STREAMING**.
 
 1. Select **Send**. A response message with your string appears in the response section.
 
+    ![Response message](https://assets.postman.com/postman-docs/v10/grpc-save-example-3send-v10.jpg)
+
 1. Select **End Streaming**. More messages appear in the response section, including a `reply` message with your string.
 
     > gRPC examples can't be saved while streaming is active.
 
-1. Select **Save as Example**. The saved example opens in a new tab and you can see the saved example under the request in the sidebar.
+1. Select **Save as Example**.
+
+    ![gRPC Save example button](https://assets.postman.com/postman-docs/v10/grpc-save-example-4saveExampleButton-v10.jpg)
+
+    The saved example opens in a new tab and you can see the saved example under the request in the sidebar.
+
+    ![gRPC saved example](https://assets.postman.com/postman-docs/v10/grpc-save-example-4savedExample-v10.jpg)
 
 ## Editing a gRPC saved example
 
