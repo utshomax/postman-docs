@@ -211,6 +211,24 @@ const DocContent = styled.div`
       list-style: lower-alpha;
     }
   } 
+  //  anchor link tag styling
+  a.anchor.before {
+    top: 0.2em;
+    padding-right: 8px;
+
+    svg {
+      width: auto;
+      height: 0.9em;
+      display: block;
+    }
+  }
+
+  a.anchor:hover {
+    display: block;
+    border: none !important;
+  }
+
+  
 `
 
 const RightColumnWrapper = styled.aside`
