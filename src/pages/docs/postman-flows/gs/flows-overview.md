@@ -33,7 +33,7 @@ Postman Flows enable you to:
 
 ![Postman Flows](https://assets.postman.com/postman-docs/v10/flow-watch-it-run-v10.gif)
 
-The following topics will help you get started or learn about core concepts of Postman Flows.
+The following topics will help get you started with core concepts about Postman Flows.
 
 ## Contents
 
