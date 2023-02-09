@@ -58,6 +58,11 @@ The examples below use this JSON data:
 
 The example below filters for objects in the `payments` array that have the key-value pair `"description": "recurring subscription"`.
 
+|        |                                                                      |
+|--------|----------------------------------------------------------------------|
+| **FQL** | `payments[description='recurring subscription']`     |
+| **Result**  | `[`<br>&nbsp;&nbsp;&nbsp;&nbsp;`{`<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"invoice_number": "101301",`<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"date": "2022-09-11T16:12:34.494Z",`                                           |
+
 ### FQL
 
 ``` javascript
@@ -87,60 +92,123 @@ payments[description='recurring subscription']
 
 FQL uses the same syntax to navigate filtered query results as it does to navigate JSON data. The example below gets the values from the `invoice.number` fields in the `payments` array.
 
-### FQL
+|        |                                                                      |
+|--------|----------------------------------------------------------------------|
+| **FQL** | `payments[description='recurring subscription'].invoice_number`     |
+| **Result**  | `["101301","101303"]`                                           |
 
- ``` javascript
- payments[description='recurring subscription'].invoice_number
- ```
+## Navigate your filtered results
 
-### Result
+FQL uses the same syntax to navigate filtered query results as it does to navigate JSON data. The example below gets the values from the `invoice.number` fields in the `payments` array.
 
- ```json
- ["101301","101303"]
- ```
+<p style="margin-bottom:-40px">&nbsp;</p>
+
+|        |                                                                      |
+|--------|----------------------------------------------------------------------|
+| **FQL** | `payments[description='recurring subscription'].invoice_number`     |
+| **Result**  | `["101301","101303"]`                                           |
+
+<p style="margin-bottom:-10px">&nbsp;</p>
+
+## Navigate your filtered results
+
+FQL uses the same syntax to navigate filtered query results as it does to navigate JSON data. The example below gets the values from the `invoice.number` fields in the `payments` array.
+
+<p style="margin-bottom:-40px">&nbsp;</p>
+
+| FQL    |                                        |
+|--------|----------------------------------------------------------------------|
+| **Syntax**  | `array[key='value'].field` |
+| **Example** | `payments[description='recurring subscription'].invoice_number` |
+| **Result**  | `["101301","101303"]`                                           |
+
+<p style="margin-bottom:-10px">&nbsp;</p>
+
+## HTML Table Example
+
+FQL uses the same syntax to navigate filtered query results as it does to navigate JSON data. The example below gets the values from the `invoice.number` fields in the `payments` array.
+
+<table class="ref-table">
+<tbody>
+<tr>
+<td><strong>FQL</strong></td>
+<td>payments[description='recurring subscription'].invoice_number</td>
+</tr>
+<tr>
+<td><strong>Result</strong></td>
+<td>["101301","101303"]<br />"invoice_number": "101301", <br />"date": "2022-09-11T16:12:34.494Z", <br />"description": "recurring subscription", <br />"amount": 110.48<br />"another": thing<br />"more:": stuff</td>
+</tr>
+<tr>
+<td><strong>New row</strong></td>
+<td>Some new text</td>
+</tr>
+<tr>
+<td><strong>Another</strong></td>
+<td>More stuff</td>
+</tr>
+</tbody>
+</table>
+
+## Row and column span example
+
+<table>
+<thead>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Row 1</td>
+    <td>Thing 1</td>
+    <td rowspan="2">This is a row span between two rows</td>
+  </tr>
+  <tr>
+    <td>Row 2</td>
+    <td>Thing 2</td>
+  </tr>
+  <tr>
+    <td colspan="2">This is a column span across two columns</td>
+    <td>This is a row</td>
+  </tr>
+</tbody>
+</table>
 
 ## Return a single record
 
 When a filter has a single result, it returns as a record instead of an array. The filter below returns a single result as a record.
 
-### FQL
+<p style="margin-bottom:-40px">&nbsp;</p>
 
- ``` javascript
- payments[description='recurring subscription deluxe'].invoice_number
- ```
+|        |                                                                      |
+|--------|----------------------------------------------------------------------|
+| **FQL** | `payments[description='recurring subscription deluxe'].invoice_number`     |
+| **Result**  | `"101304"`                                           |
 
-### Result
-
-``` json
-"101304"
-```
+<p style="margin-bottom:-10px">&nbsp;</p>
 
 ## Check if a field has a specific value
 
 FQL can check if your query results have a specific key-value pair and return `true` or `false`. The example below checks the first item in the `payments` array for the key-value pair `"description": "recurring"`.
 
-### FQL
+<p style="margin-bottom:-40px">&nbsp;</p>
 
-``` javascript
-$contains(payments[0].description, 'recurring')
-```
+|        |                                                                      |
+|--------|----------------------------------------------------------------------|
+| **FQL** | `$contains(payments[0].description, 'recurring')`     |
+| **Result**  | `true`                                           |
 
-### Result
-
-``` json
-true
-```
+<p style="margin-bottom:-10px">&nbsp;</p>
 
 ## Get only unique payment amounts
 
-### FQL
+<p style="margin-bottom:-40px">&nbsp;</p>
 
-``` javascript
-$distinct(payments.amount)
-```
+|        |                                                                      |
+|--------|----------------------------------------------------------------------|
+| **FQL** | `$distinct(payments.amount))`     |
+| **Result**  | `[110.48, 24.49, 35.56]`                                           |
 
-### Result
-
-``` json
-[110.48, 24.49, 35.56]
-```
+<p style="margin-bottom:-10px">&nbsp;</p>

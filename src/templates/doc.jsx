@@ -18,7 +18,7 @@ import LoadQualtrics from '../components/modules/loadQualtrics';
 import { BaseLinkStyles, BaseLink, UnorderedListStyles, OrderedListStyles, } from 'aether-marketing';
 
 const DocWrapper = styled.div`
-  /* Used for Deeplinking */   
+  /* Used for Deeplinking */
 h2, h3, h4 {
   scroll-margin-top: 2em;
 }
@@ -53,7 +53,7 @@ h2, h3, h4 {
     padding-left: 30px !important;
     padding-right: 30px !important;
   }
-} 
+}
 
 
 /* Blockquotes */
@@ -105,7 +105,19 @@ thead:first-child:hover tr{
 code[class*="language-"] {
   word-break: break-word !important;
   overflow-wrap: break-word !important;
-  
+
+}
+
+.ref-table {
+  border-top: solid #E4E4E4 1px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  tbody>tr{
+    vertical-align: top;
+   }
+  tbody>tr>:nth-child(2){
+    font-family: 'IBM Plex Mono',SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace !important;
+   }
 }
 
 .gatsby-highlight {
@@ -118,7 +130,7 @@ code[class*="language-"] {
   word-break: break-word;
 
   code[class*="language-"],
-  .token.comment, 
+  .token.comment,
   .token.string,
   .token.number,
   .token.boolean,
@@ -210,7 +222,7 @@ const DocContent = styled.div`
     li > ol {
       list-style: lower-alpha;
     }
-  } 
+  }
 `
 
 const RightColumnWrapper = styled.aside`
@@ -239,16 +251,16 @@ const DocPage = ({ data }) => {
   const [modalData] = useState(data.markdownRemark);
   const post = data.markdownRemark;
   // Last modified date - bottom
-  // Last modified time - top 
+  // Last modified time - top
   const { lastModifiedDate, lastModifiedTime } = data.markdownRemark.fields;
-  // Breadcrumbs (top of page) & Previous and Next Links (bottom of page) 
+  // Breadcrumbs (top of page) & Previous and Next Links (bottom of page)
   const { parentLink, subParentLink, previous, next } = data;
 
   let excerptLength = data.markdownRemark.excerpt.length;
   let excerptCount = process.env.GATSBY_EXCERPT_COUNT;
   let overIndexLimit = excerptLength > 6700 ? (excerptLength - 6700) : 0;
 
-  // Right side links 
+  // Right side links
   const DisplayContextualLinks = (props) => {
     const { data } = props;
     const doc = data.markdownRemark;
@@ -263,7 +275,7 @@ const DocPage = ({ data }) => {
       const parsedHTML = parser.parseFromString(modalData.html, 'text/html');
       // allows images to display as modal when clicked
       useModal(parsedHTML);
-      document.getElementById("LoadDoc").innerHTML = parsedHTML.body.innerHTML;   
+      document.getElementById("LoadDoc").innerHTML = parsedHTML.body.innerHTML;
     }, []);
 
     return (
@@ -280,7 +292,7 @@ const DocPage = ({ data }) => {
           </nav>
           <div className="col">
             <div className="row row-eq-height">
-            
+
               <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 doc-page ml-xl-5">
                 <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
                 <h1>{post.frontmatter.title}</h1>
@@ -308,13 +320,13 @@ const DocPage = ({ data }) => {
                 <EditDoc />
                 <DisplayContextualLinks data={data} />
                 <div className="sticky">
-                  <div> 
+                  <div>
                     <p>
-                      <span className="font-weight-bold">Postman Newsletter</span> 
+                      <span className="font-weight-bold">Postman Newsletter</span>
                       <br></br>
                       Subscribe for product updates, API best practices.
                     </p>
-                    <BaseLink 
+                    <BaseLink
                       className="sticky"
                       src="https://www.postman.com/newsletter-signup/"
                       target="same-tab"
