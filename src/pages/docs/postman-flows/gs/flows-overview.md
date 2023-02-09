@@ -23,6 +23,16 @@ contextual_links:
 
 _Postman Flows_ is a visual tool for creating API workflows. You can use flows to chain requests, handle data, and create real-world workflows in your Postman workspace.
 
+Postman Flows enable you to:
+
+* Create workflows with APIs from the [Public API Network](https://www.postman.com/explore)
+
+* Do anything with data using [Flows Query Language (FQL)](/docs/postman-flows/flows-query-language/introduction-to-fql/)
+
+* Integrate with anything using [webhooks](/docs/postman-flows/tutorials/webhooks/)
+
+![Postman Flows](https://assets.postman.com/postman-docs/v10/flow-watch-it-run-v10.gif)
+
 The following topics will help you get started or learn about core concepts of Postman Flows.
 
 ## Contents
