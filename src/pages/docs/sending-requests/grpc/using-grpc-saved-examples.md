@@ -41,7 +41,7 @@ This example creates and executes a client streaming request, then saves the res
 
 1. Select **Enter Server URL** and enter `grpcb.in:9001`.
 
-1. Select the **Select a method** dropdown and select **LotsOfGreetings**.
+1. Select the **Select a method** dropdown list and select **LotsOfGreetings**.
 
     ![New gRPC request](https://assets.postman.com/postman-docs/v10/grpc-save-example-1request-v10.jpg)
 
