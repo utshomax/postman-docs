@@ -72,9 +72,15 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 **To make collaboration easier, store files in your working directory.** Storing files in your working directory ensures that requests in shared collections always work. As long as you and your teammates use the same files and working directory location, shared requests will run across everyone's systems. Learn more about [sending body data](/docs/sending-requests/requests/#sending-body-data).
 
-**The working directory is also used by Newman.** Store files you want to upload to Newman in the working directory path saved in the collection. Learn more about [file uploads in Newman](/docs/running-collections/using-newman-cli/newman-file-uploads/).
-
 **You can't change the working directory in the Postman web app.** When you upload a file, the Postman web app creates a new folder with a random name in the `~/Postman/files` directory. Postman stores the uploaded file in the new folder so you can use it when sending requests. To automatically sync files you upload to the Postman web app with your local working directory, make sure you are using the [Postman Desktop Agent](/docs/getting-started/about-postman-agent/#the-postman-desktop-agent).
+
+> If you choose a different working directory than `~/Postman/files` for the Postman desktop app, you will still be able to work between the Postman desktop app and the Postman web app, but the process has a few more steps:
+>
+> * To access a file from the Postman desktop app using the web app, copy it from the desktop app’s working directory into `~/Postman/files` so the web app has access to it.
+> * To access a file from the Postman web app using the desktop app, find the file in `~/Postman/files`. When you add a file to a request using the web app, it creates a randomly named folder to `~/Postman/files`. Copy this folder into your desktop app’s working directory so the desktop app has access to it.
+> * If you’re sharing a request with other users, each user must have the files present in the correct working directory. If one user adds a file to a request using the Postman web app, they need to share the randomly created folder and file with all users who want to use this request, and this folder must be copied to each user’s working directory.
+
+**The working directory is also used by Newman.** Store files you want to upload to Newman in the working directory path saved in the collection. Learn more about [file uploads in Newman](/docs/running-collections/using-newman-cli/newman-file-uploads/).
 
 **Use caution with files located outside your working directory.** To use files located outside your working directory when sending requests, turn on **Allow reading files outside working directory**. This option gives third-party collections the ability to read any file on your system. Use caution, and make sure you trust all third-party collections you are using before enabling this option.
 
@@ -147,7 +153,7 @@ You can manage your saved tokens on the **Connected accounts** tab:
 
 ![Connected accounts](https://assets.postman.com/postman-docs/v10/settings-connected-accounts-v10.jpg)
 
-You will not see this tab unless you have an [on-premises Git integration](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#connecting-to-an-on-premises-repository).
+You won't see this tab unless you have an [on-premises Git integration](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#connecting-to-an-on-premises-repository).
 
 ## Proxy
 
