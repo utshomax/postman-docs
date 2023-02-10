@@ -26,7 +26,7 @@ contextual_links:
 
 In an API-first design lifecycle, you may be designing a new feature that depends on new API endpoints, but another team is responsible for implementing those endpoints, and aren't finished yet. Instead of being blocked by this, you can use a mock server, which will return sample data for requests to the API's endpoints, simulating the behavior of a real API. You can then use the mock server to test your API, before it's even implemented by the other team.
 
-> [Saved examples](src/pages/docs/sending-requests/using-grpc-saved-examples/) are also useful for developing endpoint-dependent features before the API is complete and accessible.
+> [Saved examples](/docs/sending-requests/using-grpc-saved-examples/) are also useful for developing endpoint-dependent features before the API is complete and accessible.
 
 ## Contents
 
