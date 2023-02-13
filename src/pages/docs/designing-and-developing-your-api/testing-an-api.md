@@ -17,6 +17,9 @@ contextual_links:
   - type: link
     name: "An Introduction for Testers | Postman Intergalactic"
     url: "https://youtu.be/EwlBogHckP0"
+  - type: link
+    name: "15 Days of Postman for Testers | Test Challenge"
+    url: "https://youtu.be/3_w2Bz0BnlY"
   - type: subtitle
     name: "Blog Posts"
   - type: link

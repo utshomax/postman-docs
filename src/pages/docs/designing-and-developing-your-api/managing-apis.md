@@ -1,6 +1,6 @@
 ---
 title: 'Managing and sharing APIs'
-updated: 2023-01-05
+updated: 2023-01-30
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -30,6 +30,7 @@ When you [define your APIs](/docs/designing-and-developing-your-api/the-api-work
 
 - [Sharing APIs](#sharing-apis)
 - [Collaborating on APIs](#collaborating-on-apis)
+- [Watching APIs](#watching-apis)
 - [Commenting on APIs](#commenting-on-apis)
 - [Using the Changelog](#using-the-changelog)
 
@@ -51,7 +52,7 @@ In the sidebar, select the API you want to share, then select the more actions i
 
 Use the search bar to find the workspace you'd like to move the API to, or filter by workspace visibility by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px">.
 
-You can move APIs to personal, private, team, and public workspaces that you have access to. Shared private, team, and public workspaces allow you to collaborate with others.
+You can move APIs to personal, private, team, and public workspaces that you have access to. Shared private, team, and public workspaces enable you to collaborate with others.
 
 > You can't move APIs from team, private, or public workspaces to a personal workspace.
 
@@ -63,13 +64,27 @@ Select the workspace, then select **Move API**. Any collections in the API will 
 
 <img alt="Move API" src="https://assets.postman.com/postman-docs/move-api-v9.1.jpg" width="400px"/>
 
+## Watching APIs
+
+The watch option enables you to receive an email or in-app notification when a team member belonging to the same workspace modifies the API. For example, you'll receive a notification when a team member updates the API's definition, adds an element to the API, or adds a comment to the API.
+
+Select __Watch__ to start watching the API.
+
+<img src="https://assets.postman.com/postman-docs/v10/watch-api-v10.jpg" alt="Watch Option" width="249px"/>
+
+For more information about the changes to the API, select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header.
+
+You will also receive an email with the information regarding who made the change, what the change was, and when it was made.
+
+> You won't receive notifications for changes that you made.
+
 ## Commenting on APIs
 
 You can discuss your APIs with collaborators in Postman, keeping the conversation in context and available to other stakeholders. Anyone with access to the API can comment.
 
-To leave a comment on an API, select an API in the sidebar to expand it, then select **Definition**. Select an API definition file in the sidebar to open it, then switch to comment mode by selecting the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> above the editor. To leave an inline comment, highlight part of the definition, enter your comment, and select **Add Comment**.
+To leave a comment on an API, select an API in the sidebar to expand it, then select **Definition**. Select an API definition file in the sidebar to open it, then switch to comment mode by selecting the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the editor pane. To leave an inline comment, highlight part of the definition, enter your comment, and select **Add Comment**.
 
-> You can't add comments to APIs with [multi-file API definitions](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#working-with-multi-file-api-definitions). (All OpenAPI 2.0 and 3.0 APIs and Protobuf 2 and 3 APIs are considered multi-file APIs, even when containing a single file.)
+> You can't add comments to APIs with [multi-file API definitions](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#working-with-multi-file-api-definitions). (All OpenAPI 2.0 and 3.0 and protobuf 2 and 3 APIs are considered multi-file APIs, even when containing a single file.)
 
 <img alt="Commenting on an API" src="https://assets.postman.com/postman-docs/v10/api-builder-add-comment-v10.jpg" />
 
@@ -85,7 +100,7 @@ To edit, delete, or link to one of your comments, go to the comment section and 
 
 [![API comment manage](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)
 
-> With Admin permissions you can delete comments made by any contributor, but you can't update or modify comments.
+> With Admin permissions you can delete comments made by any contributor, but you can't update or change comments.
 
 ## Using the Changelog
 

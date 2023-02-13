@@ -1,6 +1,6 @@
 ---
 title: 'Using a remote Git repository'
-updated: 2023-01-09
+updated: 2023-01-26
 search_keyword: "whitelist, whitelist IP"
 contextual_links:
   - type: section
@@ -13,14 +13,14 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Postman | How to Connect to Your Git Repository"
-    url: "https://youtu.be/8jJHXLVYOh0"
-  - type: link
     name: "Git Workflows in Postman | The Exploratory"
     url: "https://youtu.be/cB7mCuYeuAU"
   - type: link
     name: "Integrating GitLab in Postman's API Builder"
     url: "https://youtu.be/ecAQv9gZEKk"
+  - type: link
+    name: "API Versioning in Postman using Bitbucket"
+    url: "https://youtu.be/SO_88TQ2dkE"
   - type: subtitle
     name: "Blog Posts"
   - type: link
@@ -66,7 +66,7 @@ Keep in mind the following when connecting to a repository:
 
 * **You can connect an API to one remote repository.** You can't connect an API to more than one repository, and you can't connect more than one API to the same repository.
 
-* **For Azure DevOps connections, make sure to enable third-party application access for your organization.** If you don't enable third-party access, Postman won't be able to connect to your repository. In Azure DevOps, go to your [organization settings](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops), select **Policies**, and turn on the toggle next to **Third-party application access via OAuth**.
+* **For Azure DevOps connections, make sure to enable third-party application access for your organization.** If you don't enable third-party access, Postman won't be able to connect to your repository. In Azure DevOps, go to your [organization settings](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops), select **Policies**, and turn on the toggle next to **Third-party application access via OAuth**. (Enabling third-party access isn't required for connecting to an Azure DevOps Server repository hosted on-premises.)
 
 * **For GitHub connections, there's a limit of ten auth tokens per user per application imposed by GitHub.** If you create more than ten connections with the same user, the additional tokens will be revoked in the order that they were created. Teams can use other Postman accounts to create more than ten integrations.
 
@@ -76,7 +76,7 @@ You can connect to a GitHub, Bitbucket, GitLab, or Azure DevOps repository hoste
 
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect repository**, select **Connect** and select the type of repository you want to connect to.
-1. A browser tab opens asking you to log in to your repository. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
+1. A browser tab opens asking you to sign in to your repository. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
 1. On the **Connect your repository** page, enter the **Organization** or **Workspace** and the **Repository** where the API will be stored. (For GitLab, enter the **Group** and **Project** for your API.)
 1. Select the **Initial branch** for the API. Any changes you make in Postman are stored in the initial active branch. (You can switch to another branch to make it the active branch at any time.)
 1. Select an **API schema directory** and **Collection directory** where API definitions and collections will be stored in the repository. Keep in mind the following:

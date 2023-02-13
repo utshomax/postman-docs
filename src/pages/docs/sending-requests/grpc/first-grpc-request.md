@@ -31,7 +31,7 @@ To get started with gRPC, create a request and invoke it using an echo endpoint.
 
 APIs provide a structured way for one application to access the capabilities of another application. Typically, this communication happens over the internet by way of an API server. A client application (like a mobile app) sends a request to the server, and after the request processes, the server returns a response to the client.
 
-A gRPC request consists of the server URL where the service is hosted, the method to be invoked on the server, and a request payload that has the message and required information on how the request will be executed. Since gRPC is a schema-driven framework, the request also needs to have a service definition (schema) reference that has information on the services, methods, message fields, and data types supported by the server. The client must follow the service definition in order to avoid errors.
+A gRPC request consists of the server URL where the service is hosted, the method to be invoked on the server, and a request payload that has the message and required information on how the request will be executed. Since gRPC is a schema-driven framework, the request also needs to have a service definition (schema) reference that has information on the services, methods, message fields, and data types supported by the server. The client must follow the service definition to avoid errors.
 
 gRPC supports four types of methods that allow the client and server to interact in different ways as per the required use case:
 
@@ -49,7 +49,7 @@ This example will create and execute a unary request. To learn about invoking th
 
 > If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/about-postman-agent/) for more information.
 
-1. In Postman, select  __New__ &gt; __gRPC Request__ to open a request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**, then select __gRPC Request__.)
+1. In Postman, select  **New > gRPC Request** to open a request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**, then select **gRPC Request**.)
 
     <img src="https://assets.postman.com/postman-docs/v10/grpc-new-request.gif" alt="New gRPC request" />
 

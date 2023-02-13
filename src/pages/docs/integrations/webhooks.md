@@ -111,7 +111,7 @@ Postman Monitors enable you to run your collections on a schedule without any ma
 
 You can also configure advanced options to alert you when a monitor run completes or when three failures occur and the first monitor run after those failures completes successfully.
 
-Whenever your monitor runs, the results will now be posted to your webhook.
+Whenever your monitor runs, the results are posted to your webhook.
 
 ### Example monitor result schema
 

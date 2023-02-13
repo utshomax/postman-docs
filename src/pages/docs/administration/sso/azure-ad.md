@@ -32,15 +32,15 @@ To continue configuring your SAML application, do the following:
 
 1. Open your Azure AD management portal in a new tab.
 1. Go to **Enterprise applications** and select **+ New application**.
-1. Search for "Postman" and select the Postman app from the results > **Create**. Or, you can **+ Create your own application**.
-1. Select **Set up single sign on** > **SAML**.
+1. Search for "Postman" and select the Postman app from the results, then select **Create**. Or, you can **+ Create your own application**.
+1. Select **Set up single sign on > SAML**.
 1. Take the **Entity ID**, **Login URL**, and **ACS URL** from Postman and add them to your SAML configuration in Azure AD.
 
     <img alt="Basic SAML configuration in Azure AD" src="https://assets.postman.com/postman-docs/basic-saml-config-azuread.jpg"/>
 1. In Postman, select **Generate relay state** and add the generated value to your SAML configuration in Azure AD.
 
     <img alt="Generate relay state in Postman" src="https://assets.postman.com/postman-docs/generate-relay-state-v9.14.jpg" width="350px"/>
-1. Under **Attributes & Claims** in Azure AD, select **Edit** > **+ Add new claim**. Map the `Unique User Identifier (Name ID)` to the `user.mail` value.
+1. Under **Attributes & Claims** in Azure AD, select **Edit > Add new claim**. Map the `Unique User Identifier (Name ID)` to the `user.mail` value.
 
     <img alt="Attributes and claims in Azure AD" src="https://assets.postman.com/postman-docs/attributes-claims-config-azuread.jpg"/>
 1. **Download** the Federation Metadata XML file in Azure AD under **SAML Signing Certificate**.

@@ -134,13 +134,13 @@ Postman logs events related to your [team](#team), [users](#users), and [billing
 | Removed Group Role | A role was removed from a group. |
 | Removed Group Member | A user was removed from a group. |
 | Deleted Group | A user deleted a group. |
-| Successful Login via Password | A user logged in with their password.   |
-| Successful Login via Google | A user logged in through Google. |
-| Successful Login via SSO | A user logged in through SSO. |
+| Successful Login via Password | A user signed in with their password.   |
+| Successful Login via Google | A user signed in through Google. |
+| Successful Login via SSO | A user signed in through SSO. |
 | Reset Password | A user reset their password. |
 | Changed Password | A user changed their password. |
 | User Session Revoked | A user revoked their session. |
-| User Logout | A user logged out. |
+| User Logout | A user signed out. |
 
 ### Billing
 

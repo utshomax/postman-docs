@@ -71,7 +71,10 @@ To import an API from AWS API Gateway, do the following:
 1. Select **API Gateway**, then select **AWS API Gateway**.
 1. Connect to the AWS API Gateway as follows.
 
-When importing an API from AWS API Gateway, you can choose to authenticate by [creating an AWS IAM role](#authenticating-with-an-aws-iam-role) or by [using an AWS access key](#authenticating-with-an-aws-access-key). Follow the steps for your chosen method below.
+When importing an API from AWS API Gateway, you can choose to authenticate by creating an AWS IAM role or by using an AWS access key. Follow the steps for your chosen method:
+
+* [Authenticating with an AWS IAM role](#authenticating-with-an-aws-iam-role)
+* [Authenticating with an AWS access key](#authenticating-with-an-aws-access-key)
 
 ### Authenticating with an AWS IAM role
 

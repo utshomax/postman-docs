@@ -38,7 +38,7 @@ You can access Postman [on the web](/docs/getting-started/installation-and-updat
 
 > If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/about-postman-agent/) for more information.
 
-For the Postman web app, you can use **Auto-select** to turn the Auto-Select agent on or off. Once you enable the option for Auto-select, Postman will automatically select the best agent for your requests. You can also manually select the agent for your requests: **Cloud Agent**, **Desktop Agent**, or **Browser Agent**. See [Selecting a Postman Agent for requests](/docs/getting-started/about-postman-agent/#selecting-a-postman-agent-for-requests) for more information.
+For the Postman web app, you can use **Auto-select** to turn the Auto-Select agent on or off. Once you enable the option for Auto-select, Postman will automatically select the best agent for your requests. You can also manually select the Postman agent to use for your requests: **Cloud Agent**, **Desktop Agent**, or **Browser Agent**. See [Selecting a Postman Agent for requests](/docs/getting-started/about-postman-agent/#selecting-a-postman-agent-for-requests) for more information.
 
 Contact your IT team to establish what the procedure is for adding a new piece of software. This varies from organization to organization, however, the following points are common:
 
@@ -67,7 +67,7 @@ You can add your teammates from your [team dashboard](https://go.postman.co/team
 
 ### Check your setup
 
-Before you start work in full, it’s best to check the functionality of Postman within your organization and ensure everything operates as expected. If you don't have access to Postman and a Postman account, find a team member who does to help you test the configuration. Depending on your organization's IT policy you may need to make requests of your IT team in order to get up and running as well.
+Before you start work in full, it’s best to check the functionality of Postman within your organization and ensure everything operates as expected. If you don't have access to Postman and a Postman account, find a team member who does to help you test the configuration. Depending on your organization's IT policy you may need to make requests of your IT team to get up and running as well.
 
 Ensure you are connected to your organization's network and test the following:
 

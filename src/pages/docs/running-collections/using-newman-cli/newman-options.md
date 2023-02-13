@@ -136,7 +136,7 @@ For example, a data file such as the one shown below runs _two_ iterations, with
 $ newman run mycollection.json -d data.json
 ```
 
-Here's an example of the CSV file for the above set of variables:
+Here's an example of the CSV file for this set of variables:
 
 ```bash
 url, user_id, id, token_id

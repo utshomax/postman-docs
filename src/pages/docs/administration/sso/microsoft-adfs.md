@@ -5,8 +5,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to SSO"
-    url: "/docs/administration/sso/intro-sso/"
+    name: "Configuring SSO for a team"
+    url: "/docs/administration/sso/admin-sso/"
 ---
 
 > **[SSO with Microsoft AD FS is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
