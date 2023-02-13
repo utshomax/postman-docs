@@ -8,14 +8,14 @@ contextual_links:
     name: "Setting up mock servers"
     url: "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Dynamic Mock Behavior | Postman Level Up"
     url: "https://youtu.be/av7SZo9sZAE"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing Support for Templating in Postman Mock Servers"
     url: "https://blog.postman.com/introducing-support-for-templating-in-postman-mock-servers/"

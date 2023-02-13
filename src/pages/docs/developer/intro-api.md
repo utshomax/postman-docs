@@ -11,7 +11,7 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -21,7 +21,7 @@ contextual_links:
     name: "User Info from the Postman API | Postman Level Up"
     url: "https://www.youtube.com/watch?v=k2bvdqxDcsU"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Filtering and Sorting APIs Using the Postman API"
     url: "https://blog.postman.com/filtering-and-sorting-apis-using-the-postman-api/"
@@ -32,7 +32,7 @@ contextual_links:
     name: "Introducing APIs to Access and Manage Server-Level Responses on a Mock Server"
     url: "https://blog.postman.com/apis-to-access-manage-server-level-responses-mock-server/"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Postman API"
     url:  "https://www.postman.com/postman/workspace/postman-public-workspace/collection/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a?ctx=documentation"
@@ -40,7 +40,7 @@ contextual_links:
     name: "Postman Public Workspace"
     url:  "https://www.postman.com/postman/workspace/405e0480-49cf-463b-8052-6c0d05a8e8f3"
   - type: subtitle
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Continuous Integration"
     url: "/docs/running-collections/using-newman-cli/continuous-integration/"

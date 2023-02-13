@@ -8,9 +8,9 @@ contextual_links:
     name: "CI Integrations"
     url: "/docs/integrations/ci-integrations/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "A New Postman Integration for Azure DevOps Users"
     url: "https://blog.postman.com/postman-integration-for-azure-devops-users/"
