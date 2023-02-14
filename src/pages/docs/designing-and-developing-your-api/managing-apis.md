@@ -80,27 +80,53 @@ You will also receive an email with the information regarding who made the chang
 
 ## Commenting on APIs
 
-You can discuss your APIs with collaborators in Postman, keeping the conversation in context and available to other stakeholders. Anyone with access to the API can comment.
+You can discuss your APIs with collaborators in Postman, keeping the conversation in context and available to other stakeholders. Anyone with access to the API can comment. You can comment on an API, or you can leave an inline comment on an API definition.
 
-To leave a comment on an API, select an API in the sidebar to expand it, then select **Definition**. Select an API definition file in the sidebar to open it, then switch to comment mode by selecting the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the editor pane. To leave an inline comment, highlight part of the definition, enter your comment, and select **Add Comment**.
+To comment on an API:
 
-> You can't add comments to APIs with [multi-file API definitions](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#working-with-multi-file-api-definitions). (All OpenAPI 3.0 and protobuf 2 and 3 APIs are considered multi-file APIs, even when containing a single file.)
+1. Select an API in the sidebar.
+1. Select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
+1. If there are existing comments, select **Add Comment** to add a new comment.
+1. Enter your comment and select **Add Comment**.
+
+SCREENSHOT OF COMMENT BOX
+
+To leave an inline comment on an API definition:
+
+1. Select an API in the sidebar to expand it.
+1. Select **Definition** under the API, then select the definition file you want to comment on.
+1. Switch to comment mode by selecting the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the editor pane.
+1. Highlight part of the definition, enter your comment, and select **Add Comment**.
 
 <img alt="Commenting on an API" src="https://assets.postman.com/postman-docs/v10/api-builder-add-comment-v10.jpg" />
 
+> To make sure you're viewing the latest comments, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> in the comment box.
+
 ### Formatting comments
 
-You can use Markdown in your comments—check out the [Markdown Cheatsheet on Github](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for tips on formatting.
+You can use Markdown in your comments. For help, check out the [Markdown Cheatsheet on Github](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for tips on formatting.
 
-If you want to call the attention of a collaborator in comment, you can tag them by typing `@` followed by their name—choose the person from the auto-suggested list. When you tag a member in your comment, Postman will send them a notification.
+If you want to call the attention of a collaborator in comment, you can tag them by typing `@` followed by their name. Choose the person from the auto-suggested list. When you tag a member in your comment, Postman will send them a notification.
 
 ### Editing, deleting, or linking to a comment
 
-To edit, delete, or link to one of your comments, go to the comment section and hover over the comment you wish to manage. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to edit the comment, the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to delete, or the anchor icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> to get a direct link to the comment.
+To manage comments for an API, select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar. To manage comments for an API definition, open a definition file and switch to comment mode by selecting the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the editor pane.
+
+Hover over the comment you want to manage and do one of the following:
+
+* Select the anchor icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> to get a direct link to the comment.
+* Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to edit the comment.
+* Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to delete the comment.
 
 [![API comment manage](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)
 
-> With Admin permissions you can delete comments made by any contributor, but you can't update or change comments.
+> If you have Admin permissions, you can delete comments made by any contributor, but you can't edit comments left by others.
+
+### Resolving comments
+
+You can resolve inline comments for an API definition after the comments have been addressed. Open a definition file and switch to comment mode by selecting the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the editor pane. Select **Resolve** to resolve a comment and any associated replies.
+
+SCREENSHOT
 
 ## Using the Changelog
 
