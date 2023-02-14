@@ -100,7 +100,7 @@ Examples are stored in a collection with their associated requests. You can try 
 
     ![Trying example](https://assets.postman.com/postman-docs/v10/sending-example-response-v10.jpg)
 
-1. Try the example in the new request, and review the request details.
+1. Review the request and response details.
 
     ![Open example as a request](https://assets.postman.com/postman-docs/v10/sending-example-response-duplicate-request-v10.jpg)
 
