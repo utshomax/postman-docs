@@ -56,19 +56,21 @@ Fill in the **Identity provider details** section. From your IdP account, enter 
 
 To enter details in the **Identity provider details** section, you must sign in to your IdP account and get the details. Refer to the corresponding section of the documentation and follow the outlined procedure there:
 
-* [Setting up SSO with Microsoft AD FS](/docs/administration/sso/microsoft-adfs/)*
+* [Microsoft AD FS](/docs/administration/sso/microsoft-adfs/)*
 
-* [Setting up SSO with Azure AD](/docs/administration/sso/azure-ad/)*
+* [Azure AD](/docs/administration/sso/azure-ad/)*
 
-* [Setting up SSO with Duo](/docs/administration/sso/duo/)*
+* [Custom SAML](/docs/administration/sso/intro-sso/#sso-setup-for-saml-20-compliant-idps)*
 
-* [Setting up SSO with Google Workspace](/docs/administration/sso/google-workspace/)
+* [Duo](/docs/administration/sso/duo/)*
 
-* [Setting up SSO with Okta](/docs/administration/sso/okta/)*
+* [Google Workspace](/docs/administration/sso/google-workspace/)
 
-* [Setting up SSO with OneLogin](/docs/administration/sso/onelogin/)*
+* [Okta](/docs/administration/sso/okta/)*
 
-* [Setting up SSO with Ping Identity](/docs/administration/sso/ping-identity/)*
+* [OneLogin](/docs/administration/sso/onelogin/)*
+
+* [Ping Identity](/docs/administration/sso/ping-identity/)*
 
 &#42; Only available on Enterprise plans.
 
