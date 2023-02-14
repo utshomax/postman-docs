@@ -14,7 +14,7 @@ contextual_links:
     name: "Requests"
     url: "/docs/sending-requests/requests/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -32,7 +32,7 @@ contextual_links:
     name: "Intuit uses Postman's authentication protocols"
     url: "https://www.postman.com/case-studies/intuit/"
   - type: subtitle
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Troubleshooting your Requests"
     url: "/docs/sending-requests/troubleshooting-api-requests/"

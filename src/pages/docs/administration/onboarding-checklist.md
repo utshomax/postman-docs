@@ -7,7 +7,7 @@ page_id: "onboarding_checklist"
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: link
     name: "Security and Compliance: A Shared Responsibility Model"
     url: "https://www.postman.com/trust/shared-responsibility/"
@@ -15,7 +15,7 @@ contextual_links:
     name: "Managing your team"
     url: "/docs/administration/managing-your-team/managing-your-team/"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Manage Large Teams in Postman with Workspaces, Permissions, and Version Control"
     url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"

@@ -11,14 +11,14 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Youi plans to convert docs into collections"
     url: "https://www.postman.com/case-studies/youi/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Continuous Integration"
     url: "/docs/running-collections/using-newman-cli/continuous-integration/"
