@@ -6,9 +6,9 @@ page_id: "scim_provisioning_overview"
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing User Management in Postman with SCIM"
     url: "https://blog.postman.com/introducing-user-management-in-postman-with-scim/"

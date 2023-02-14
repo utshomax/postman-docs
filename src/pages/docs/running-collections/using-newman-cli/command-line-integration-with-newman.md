@@ -9,7 +9,7 @@ contextual_links:
     name: "Using the Collection Runner"
     url: "/docs/running-collections/intro-to-collection-runs/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -19,7 +19,7 @@ contextual_links:
     name: "Using Custom Reporters with Newman"
     url: "https://youtu.be/Nxdxx-VaYno"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Next-Level Automation Tricks for Newman"
     url: "https://blog.postman.com/automation-tricks-for-newman/"
@@ -32,7 +32,7 @@ contextual_links:
     name: "SEI Novus integrated Newman into its CI/CD process for regression testing"
     url:  "https://www.postman.com/case-studies/sei-novus/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Intro to the Postman API"
     url: "/docs/developer/intro-api/"

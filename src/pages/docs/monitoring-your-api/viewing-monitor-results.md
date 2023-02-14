@@ -5,7 +5,7 @@ page_id: "viewing_monitor_results"
 updated: 2022-07-05
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Case Studies"
   - type: link

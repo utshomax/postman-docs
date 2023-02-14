@@ -11,7 +11,7 @@ contextual_links:
     name: "Working with your team"
     url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -21,7 +21,7 @@ contextual_links:
     name: "Private API Network"
     url: "https://youtu.be/cbPT4dMFIDw"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "How to Make Your APIs Available to More Consumers"
     url: "https://blog.postman.com/how-to-make-your-apis-available-to-more-consumers/"

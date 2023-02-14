@@ -6,9 +6,9 @@ warning: false
 updated: 2022-03-02
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing Domain Capture: Group Your Organization’s Postman Users into a Single Team"
     url: "https://blog.postman.com/introducing-domain-capture/"

@@ -3,7 +3,7 @@ title: "GitLab CI/CD"
 updated: 2022-09-15
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link

@@ -21,7 +21,7 @@ contextual_links:
     name: "How We Built It: gRPC support"
     url: "https://youtu.be/XaryQIjm4h0"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Postman v10 and gRPC: What You Can Do"
     url: "https://blog.postman.com/postman-v10-and-grpc-what-you-can-do/"
@@ -32,7 +32,7 @@ contextual_links:
     name: "How to Choose HTTP or gRPC for Your Next API"
     url: "https://blog.postman.com/how-to-choose-http-or-grpc-for-your-next-api/"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Public gRPC APIs"
     url:  "https://www.postman.com/devrel/workspace/public-grpc-apis"

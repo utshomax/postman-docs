@@ -3,7 +3,7 @@ title: 'Importing and exporting data'
 updated: 2022-06-03
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -19,7 +19,7 @@ contextual_links:
     name: "Generate a Collection From a Specification | Postman Level Up"
     url: "https://youtu.be/gljWt9tDKOY"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Postman Essentials: Exploring the Collection Format"
     url: "https://blog.postman.com/postman-essentials-exploring-the-collection-format/"
@@ -30,7 +30,7 @@ contextual_links:
     name: "Postman Supports WSDL"
     url: "https://blog.postman.com/postman-now-supports-wsdl/"
   - type: subtitle
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Using the API Builder"
     url: "/docs/designing-and-developing-your-api/the-api-workflow/"

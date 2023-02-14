@@ -11,14 +11,14 @@ contextual_links:
     name: "Newman on the command line"
     url: "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Postman Public Workspace"
     url:  "https://www.postman.com/postman/workspace/405e0480-49cf-463b-8052-6c0d05a8e8f3"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Postman API"
     url: "/docs/developer/intro-api/"
