@@ -132,7 +132,7 @@ Bearer <Your API key>
 
 ### JWT bearer
 
-Postman also supports generating JWT bearer tokens to authorize requests. You can enter a payload in an an editor, and JWT tokens are generated and added to the request. In the request __Authorization__ tab, select __JWT Bearer__ from the __Type__ dropdown list.
+Postman also supports generating JWT bearer tokens to authorize requests. You can enter a payload in an editor, and JWT tokens are generated and added to the request. In the request __Authorization__ tab, select __JWT Bearer__ from the __Type__ dropdown list.
 
 * **Add JWT token to** -  Select **Request Header** or **Query Param** to specify how the JWT token will be added to your request.
 * **Algorithm** - Select an algorithm to use for the JWT token. Supported algorithms include:
@@ -149,10 +149,9 @@ Postman also supports generating JWT bearer tokens to authorize requests. You ca
 
 In the Advanced configuration section, you can also configure the following items. If you don't configure them, they are generated automatically.
 
-* **Header prefix** - An optional prefix to use at the start of headers.
+* **Header prefix** - An optional prefix to use at the start of headers. This header prefix is part of the request and not a part of JWT.
 
-* **Headers** - Any custom headers you also want to send in the JWT token.
-
+* **Headers** - Any custom headers you also want to send in the JWT token. Headers pertaining to the selected algorithm are automatically added.
 ### Basic auth
 
 Basic authentication involves sending a verified username and password with your request. In the request __Authorization__ tab, select __Basic Auth__ from the __Type__ dropdown list.
