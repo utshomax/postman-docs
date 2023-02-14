@@ -14,7 +14,7 @@ contextual_links:
     name: "Postman CLI command options"
     url: "/docs/postman-cli/postman-cli-options/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link

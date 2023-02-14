@@ -6,7 +6,7 @@ page_id: "team-merge"
 warning: false
 contextual_links:
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Configuring SSO"
     url: "/docs/administration/sso/admin-sso/"

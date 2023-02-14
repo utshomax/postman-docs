@@ -10,9 +10,9 @@ contextual_links:
     name: "Creating workspaces"
     url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Stay On Top of Your Evolving Collections with Postman’s New Changelog"
     url: "https://blog.postman.com/stay-on-top-of-evolving-collections-postman-new-changelog/"
