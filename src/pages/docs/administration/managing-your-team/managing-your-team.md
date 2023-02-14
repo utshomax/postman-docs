@@ -6,14 +6,14 @@ page_id: "managing_your_team"
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Postman 101 for Admins"
     url: "https://youtu.be/rEKvQO8EYR8"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "How to Securely Deploy Postman at Scale, Part 1: User Management"
     url: "https://blog.postman.com/how-to-securely-deploy-postman-at-scale-user-management/"

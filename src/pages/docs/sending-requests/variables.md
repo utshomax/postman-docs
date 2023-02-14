@@ -11,7 +11,7 @@ contextual_links:
     name: "Sending requests"
     url:  "/docs/sending-requests/requests/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -27,7 +27,7 @@ contextual_links:
     name: "Manage CLI Environment Variables | Postman Level Up"
     url: "https://youtu.be/n8O2KP-Zx8I"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "How to Securely Deploy Postman at Scale, Part 2: Information Management"
     url: "https://blog.postman.com/how-to-securely-deploy-postman-at-scale-part-2-information-management/"
@@ -40,7 +40,7 @@ contextual_links:
     name: "Paylocity uses variables to automate workflows"
     url: "https://www.postman.com/case-studies/paylocity/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"

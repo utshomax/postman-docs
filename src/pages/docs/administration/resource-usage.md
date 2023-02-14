@@ -3,7 +3,7 @@ title: "About resource usage"
 updated: 2023-02-06
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: link
     name: "Postman Plans and Pricing"
     url: "https://www.postman.com/pricing/"
