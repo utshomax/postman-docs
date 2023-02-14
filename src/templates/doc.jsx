@@ -108,6 +108,12 @@ code[class*="language-"] {
 
 }
 
+pre {
+  font-family: 'IBM Plex Mono',SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace !important;
+  line-height: 24px;
+  margin-bottom: 0px;
+}
+
 .ref-table {
   border-top: solid #E4E4E4 1px;
   margin-top: 0px;
@@ -115,7 +121,10 @@ code[class*="language-"] {
   tbody>tr{
     vertical-align: top;
    }
-  tbody>tr>:nth-child(2){
+  tbody>tr>:nth-child(1){
+    font-weight: bold;
+   }
+   tbody>tr>:nth-child(2){
     font-family: 'IBM Plex Mono',SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace !important;
    }
 }
