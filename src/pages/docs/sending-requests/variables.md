@@ -73,7 +73,7 @@ _Variables_ enable you to store and reuse values in Postman. By storing a value 
 To create and use a variable, do the following:
 
 1. Select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> in the [workbench](/docs/getting-started/navigating-postman/#environment-selector-and-environment-quick-look).
-1. Next to **Globals**, select __Edit__.
+1. Next to **Globals**, select __Edit__ (or __Add__ if no variables have been added yet).
 1. Add a variable named `my_variable` and give it an initial value of `Hello`.
 1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save**, then close the environment tab.
 1. Open a new request tab and enter `https://postman-echo.com/get?var={{my_variable}}` as the URL. Hover over the variable name to inspect the variable's value and scope.
@@ -113,10 +113,10 @@ In order from broadest to narrowest, these scopes are: _global_, _collection_, _
 * **Data variables** come from external CSV and JSON files to define data sets you can use when running collections with [Newman](/docs/running-collections/using-newman-cli/) or the [Collection Runner](/docs/running-collections/intro-to-collection-runs/). Data variables have current values, which don't persist beyond request or collection runs.
 * **Local variables** are temporary variables that are accessed in your request scripts. Local variable values are scoped to a single request or collection run, and are no longer available when the run is complete. Local variables are suitable if you need a value to override all other variable scopes but don't want the value to persist once execution has ended.
 
+![Variable scope](https://assets.postman.com/postman-docs/v10/var-scope-v10.jpg)
+
 > If a variable with the same name is declared in two different scopes, the value stored in the variable with narrowest scope will be used. For example, if there is a global variable named `username` and a local variable named `username`, the local value will be used when the request runs.
-
-<!--  -->
-
+<!-- -->
 > Postman stores variables as strings. If you store objects or arrays, remember to `JSON.stringify()` them before storing, and `JSON.parse()` them when you retrieve them.
 
 ## Variable types

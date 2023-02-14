@@ -1056,7 +1056,15 @@ export const leftNavItems = [
         url: '/docs/reports/all-apis-reports/',
       },
       {
-        name: 'Security Audit reports',
+        name: 'API Security reports',
+        url: '/docs/reports/api-security-reports/',
+      },
+      {
+        name: 'API Governance reports',
+        url: '/docs/reports/api-governance-reports/',
+      },
+      {
+        name: 'Token Scanner reports',
         url: '/docs/reports/security-audit-reports/',
       },
     ],
