@@ -91,7 +91,7 @@ To create a new environment, do the following:
 
    <img src="https://assets.postman.com/postman-docs/environment-create-new-v9.13.jpg" alt="Create new environment" width="300px"/>
 
-1. Enter a name for your environment, and initialize it with any variables you need—you can alternatively specify variables for the environment later.
+1. Enter a name for your environment, and initialize it with any variables you need. You can also specify variables for the environment later.
 
 1. Select __Save__ to save any environment variables you have added.
 
