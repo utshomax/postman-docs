@@ -9,7 +9,7 @@ contextual_links:
     name: "API version control overview"
     url: "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -22,7 +22,7 @@ contextual_links:
     name: "API Versioning in Postman using Bitbucket"
     url: "https://youtu.be/SO_88TQ2dkE"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Announcing Postman’s Redesigned API Builder with Native Git Support"
     url: "https://blog.postman.com/announcing-postmans-redesigned-api-builder-with-native-git-support/"
@@ -33,7 +33,7 @@ contextual_links:
     name: "Syncing Your Specs with Collections"
     url: "https://blog.postman.com/latest-updates-to-syncing-your-specs-with-collections/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Reports overview"
     url: "/docs/reports/reports-overview/"

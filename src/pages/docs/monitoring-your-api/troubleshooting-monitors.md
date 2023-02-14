@@ -9,7 +9,7 @@ contextual_links:
     name: "Intro to Monitoring"
     url: "/docs/monitoring-your-api/intro-monitors/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Troubleshooting API requests"
     url: "/docs/sending-requests/troubleshooting-api-requests/"
