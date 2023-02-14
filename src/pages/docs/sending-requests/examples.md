@@ -96,19 +96,19 @@ Examples are stored in a collection with their associated requests. You can try 
 
 1. Select **Collections** in the sidebar.
 1. Select a request, and then select an example to open it.
-1. Select **Try** to open the example as a request in a new tab.
+1. Select **Try** to open the example as a request in a new tab. The request will automatically send in the new tab.
 
     ![Trying example](https://assets.postman.com/postman-docs/v10/sending-example-response-v10.jpg)
 
-1. You can try the example in the new request. Select **Send**, and then review the response.
+1. Try the example in the new request, and review the request details.
 
-    ![Duplicate request](https://assets.postman.com/postman-docs/v10/sending-example-response-duplicate-request-v10.jpg)
+    ![Open example as a request](https://assets.postman.com/postman-docs/v10/sending-example-response-duplicate-request-v10.jpg)
 
     > The new request isn't automatically saved.
 
-    The name of the example response you're trying is next to the request's name in the workbench. Select the example response's name to open it in a separate tab.
+    The name of the example you're trying is next to the request's name in the workbench. Select the example's name to open it in a separate tab.
 
-    <img alt="Select example response name" src="https://assets.postman.com/postman-docs/v10/example-response-name-v10.jpg" width="500px">
+    <img alt="Select example name" src="https://assets.postman.com/postman-docs/v10/example-response-name-v10.jpg" width="500px">
 
 1. Optionally, you can select **Save** to save the new request to a new or existing collection in your workspace.
 1. Choose a location to save the new request, and then select **Save**.
