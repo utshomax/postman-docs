@@ -10,14 +10,14 @@ contextual_links:
     name: "Working with your team"
     url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Creating a Workspace | Postman Level Up"
     url: "https://youtu.be/I10RCvMbPi0"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Solving Problems Together with Postman Workspaces"
     url: "https://blog.postman.com/solving-problems-together-with-postman-workspaces/"
@@ -27,7 +27,7 @@ contextual_links:
     name: "Movember Foundation"
     url: "https://www.postman.com/case-studies/movember-foundation/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Using and managing workspaces"
     url: "/docs/collaborating-in-postman/using-workspaces/managing-workspaces/"

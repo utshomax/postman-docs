@@ -10,7 +10,7 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Continuous Integration"
     url: "/docs/running-collections/using-newman-cli/continuous-integration/"

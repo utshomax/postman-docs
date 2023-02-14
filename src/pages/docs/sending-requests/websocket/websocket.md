@@ -9,14 +9,14 @@ contextual_links:
     name: "Installing and updating"
     url: "/docs/getting-started/installation-and-updates/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "WebSocket Requests | Postman Level Up"
     url: "https://youtu.be/H-7EZVj9D-k"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Save and Document WebSocket Requests in Collections"
     url: "https://blog.postman.com/save-and-document-websocket-requests-in-collections/"

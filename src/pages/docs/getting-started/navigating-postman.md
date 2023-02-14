@@ -10,7 +10,7 @@ contextual_links:
     name: "Download and Install"
     url: "https://www.postman.com/downloads/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -26,7 +26,7 @@ contextual_links:
     name: "Find Related Collections | Postman Level Up"
     url: "https://youtu.be/d7Nq7Vo4nHc"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "How Postman Designers Built the New Universal Search Feature"
     url: "https://blog.postman.com/how-postman-designers-built-the-new-universal-search-feature/"
@@ -34,7 +34,7 @@ contextual_links:
     name: "Introducing Bulk Actions on Postman’s Sidebar"
     url: "https://blog.postman.com/introducing-sidebar-bulk-actions/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Sending your first request"
     url: "/docs/getting-started/sending-the-first-request/"

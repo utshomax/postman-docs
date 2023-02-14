@@ -11,9 +11,9 @@ contextual_links:
     name: "Developing an API"
     url: "/docs/designing-and-developing-your-api/developing-an-api/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Announcing the Postman Microsoft Azure Integration Partnership"
     url: "https://blog.postman.com/announcing-postman-microsoft-azure-integration-partnership/"
