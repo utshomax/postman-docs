@@ -113,7 +113,7 @@ Examples are stored in a collection with their associated requests. You can try 
 1. Optionally, you can select **Save** to save the new request to a new or existing collection in your workspace.
 1. Choose a location to save the new request, and then select **Save**.
 
-    <img alt="Save request" src="https://assets.postman.com/postman-docs/v10/sending-example-response-save-request-v10.jpg" width="450px">
+    <img alt="Save request" src="https://assets.postman.com/postman-docs/v10/sending-example-response-save-request-v10-2.jpg" width="450px">
 
 ## Editing an example
 
@@ -145,7 +145,7 @@ To edit an example after trying it, do the following:
 1. Optionally, you can select **Save** to save the new request to a new or existing collection in your workspace.
 1. Choose a location to save the new request, and then select **Save**.
 
-    <img alt="Save request" src="https://assets.postman.com/postman-docs/v10/sending-example-response-save-request-v10.jpg" width="450px">
+    <img alt="Save request" src="https://assets.postman.com/postman-docs/v10/sending-example-response-save-request-v10-2.jpg" width="450px">
 
 ## Duplicating an example
 
