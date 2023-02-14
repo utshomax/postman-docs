@@ -11,7 +11,7 @@ contextual_links:
     name: "Using variables"
     url:  "/docs/sending-requests/variables/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -21,7 +21,7 @@ contextual_links:
     name: "Intro to Postman | Chain Requests"
     url: "https://youtu.be/4fULCou_7Wc"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "How to Control Access to Variables, Workflows, and More"
     url:  "https://blog.postman.com/postman-environments-how-to-control-access-to-variables-workflows-and-more/"
@@ -40,7 +40,7 @@ contextual_links:
     name: "VideoAmp uses environments to test updates"
     url: "https://www.postman.com/case-studies/videoamp/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Collaborating with your team"
     url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"

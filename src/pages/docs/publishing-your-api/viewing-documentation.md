@@ -8,7 +8,7 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -23,7 +23,7 @@ contextual_links:
     name: "Imgur"
     url: "https://www.postman.com/case-studies/imgur/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Publishing your docs"
     url: "/docs/publishing-your-api/publishing-your-docs/"
