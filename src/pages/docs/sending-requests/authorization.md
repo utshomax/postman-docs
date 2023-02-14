@@ -152,6 +152,7 @@ In the Advanced configuration section, you can also configure the following item
 * **Header prefix** - An optional prefix to use at the start of headers. This header prefix is part of the request and not a part of JWT.
 
 * **Headers** - Any custom headers you also want to send in the JWT token. Headers pertaining to the selected algorithm are automatically added.
+
 ### Basic auth
 
 Basic authentication involves sending a verified username and password with your request. In the request __Authorization__ tab, select __Basic Auth__ from the __Type__ dropdown list.
