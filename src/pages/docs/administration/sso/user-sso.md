@@ -39,7 +39,7 @@ To sign in to Postman with SSO, do the following:
 
     <img src="https://assets.postman.com/postman-docs/postman-sign-in-sso-v9.16.jpg" alt="Sign in with SSO" width="350px"/>
 
-1. Select the [configured authentication method](/docs/administration/sso/admin-sso/#configuring-single-sign-on) you want to sign in with.
+1. Select the authentication method you want to sign in with.
 
 1. Postman will redirect you to the configured IdP. Enter your SSO details to sign in.
 
