@@ -89,7 +89,7 @@ To comment on an API:
 1. If there are existing comments, select **Add Comment** to add a new comment.
 1. Enter your comment and select **Add Comment**.
 
-SCREENSHOT OF COMMENT BOX
+<img alt="Commenting on an API" src="https://assets.postman.com/postman-docs/v10/api-builder-add-comment-v10-10.jpg" width="443px" />
 
 To leave an inline comment on an API definition:
 
@@ -98,7 +98,7 @@ To leave an inline comment on an API definition:
 1. Switch to comment mode by selecting the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the editor pane.
 1. Highlight part of the definition, enter your comment, and select **Add Comment**.
 
-<img alt="Commenting on an API" src="https://assets.postman.com/postman-docs/v10/api-builder-add-comment-v10.jpg" />
+<img alt="Adding an inline comment" src="https://assets.postman.com/postman-docs/v10/api-builder-comment-mode-v10-10.jpg" />
 
 > To make sure you're viewing the latest comments, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> in the comment box.
 
@@ -118,15 +118,15 @@ Hover over the comment you want to manage and do one of the following:
 * Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to edit the comment.
 * Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to delete the comment.
 
-[![API comment manage](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)
+<img alt="Managing an API comment" src="https://assets.postman.com/postman-docs/v10/api-builder-manage-comment-v10-10.jpg" width="443px" />
 
-> If you have the Admin role for the workspace, you can delete comments made by any contributor, but you can't edit comments left by others.
+> If you have the Admin role for the workspace, you can delete comments made by any contributor, but you can't edit comments made by others.
 
 ### Resolving comments
 
 You can resolve inline comments for an API definition after the comments have been addressed. Open a definition file and switch to comment mode by selecting the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the editor pane. Select **Resolve** to resolve a comment and any associated replies.
 
-SCREENSHOT
+<img alt="Resolving an API comment" src="https://assets.postman.com/postman-docs/v10/api-builder-resolve-comment-v10-10.jpg" width="443px" />
 
 > You can't undo resolving a comment, but you can view resolved comments by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px"> in the comments pane.
 
