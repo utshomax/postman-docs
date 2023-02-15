@@ -65,7 +65,7 @@ This example will create and execute a unary request. To learn about invoking th
 
 Once the method is invoked, the server processes the information passed and returns a response.
 
-  > You can save, edit, and create gRPC responses. See [Using gRPC saved examples](/docs/sending-requests/grpc/using-grpc-saved-examples/) to learn more.
+  > You can save, edit, and create gRPC responses. See [Using gRPC saved examples](/docs/sending-requests/grpc/using-grpc-examples/) to learn more.
 
 ## Next steps
 

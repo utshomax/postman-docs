@@ -21,7 +21,7 @@ contextual_links:
     name: "Working with gRPC | The Exploratory"
     url: "https://youtu.be/RbHOs2xchGE"
 ---
-
+<!-- TODO: Add blog post link to front matter -->
 You can save, edit, and create [examples](/docs/sending-requests/examples/) for gRPC requests. You can also include documentation with each gRPC saved example. gRPC saved examples can help API consumers understand and document what responses will look like even before the API is up and running. gRPC saved examples are basically a blank canvas where you can create responses for any use case.
 
 ## Contents
