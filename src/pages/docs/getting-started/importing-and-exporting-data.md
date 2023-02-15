@@ -236,4 +236,3 @@ The [Export page](http://go.postman.co/me/export) shows information about your e
 * **Download** - The zipped file is ready to download.
 
 When the export is ready, you will receive an email with link to download a zipped file with the data dump. You can also download the file from the Export page using **Download**.
-
