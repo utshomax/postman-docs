@@ -207,6 +207,9 @@ const DocContent = styled.div`
 
   ol {
     ${OrderedListStyles.componentStyle.rules}
+    li > ol {
+      list-style: lower-alpha;
+    }
   } 
 `
 
@@ -307,7 +310,7 @@ const DocPage = ({ data }) => {
                 <div className="sticky">
                   <div> 
                     <p>
-                      <span className="font-weight-bold">Postman Newsletter</span> 
+                      <span className="font-weight-bold">Postman newsletter</span> 
                       <br></br>
                       Subscribe for product updates, API best practices.
                     </p>

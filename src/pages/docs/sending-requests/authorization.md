@@ -14,7 +14,7 @@ contextual_links:
     name: "Requests"
     url: "/docs/sending-requests/requests/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -32,7 +32,7 @@ contextual_links:
     name: "Intuit uses Postman's authentication protocols"
     url: "https://www.postman.com/case-studies/intuit/"
   - type: subtitle
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Troubleshooting your Requests"
     url: "/docs/sending-requests/troubleshooting-api-requests/"
@@ -53,6 +53,7 @@ You can pass auth details along with any request you send in Postman. Auth data 
     * [No auth](#no-auth)
     * [API key](#api-key)
     * [Bearer token](#bearer-token)
+    * [JWT bearer](#jwt-bearer)
     * [Basic auth](#basic-auth)
     * [Digest auth](#digest-auth)
     * [OAuth 1.0](#oauth-10)
@@ -65,6 +66,7 @@ You can pass auth details along with any request you send in Postman. Auth data 
         * [Requesting an OAuth 2.0 token](#requesting-an-oauth-20-token)
         * [Refreshing an OAuth 2.0 token](#refreshing-an-oauth-20-token)
         * [Sharing an OAuth 2.0 token](#sharing-an-oauth-20-access-token)
+        * [Changing the OAuth 2.0 token type](#changing-the-oauth-20-token-type)
     * [Hawk authentication](#hawk-authentication)
     * [AWS Signature](#aws-signature)
     * [NTLM authentication](#ntlm-authentication)
@@ -127,6 +129,29 @@ Bearer <Your API key>
 ```
 
 > If a custom prefix is needed, use an [API Key](#api-key) with a key of __Authorization__.
+
+### JWT bearer
+
+Postman also supports generating JWT bearer tokens to authorize requests. You can enter a payload in an editor, and JWT tokens are generated and added to the request. In the request __Authorization__ tab, select __JWT Bearer__ from the __Type__ dropdown list.
+
+* **Add JWT token to** -  Select **Request Header** or **Query Param** to specify how the JWT token will be added to your request.
+* **Algorithm** - Select an algorithm to use for the JWT token. Supported algorithms include:
+
+    * **HS** - HMAC with SHA
+    * **RS** - RSA (RSASSA-PKCS1-v1_5) with SHA
+    * **ES** - ECDSA with SHA
+    * **PS** - RSA (RSASSA-PSS) with SHA
+
+* **Secret** - The secret that’s used with the HMAC-SHA algorithm.
+* **Secret Base64 encoded** - If the secret is encoded in the base-64 format.
+
+* **Payload** - Enter the payload data for your JWT token, in JSON format.
+
+In the Advanced configuration section, you can also configure the following items. If you don't configure them, they are generated automatically.
+
+* **Header prefix** - An optional prefix to use at the start of headers. This header prefix is part of the request and not a part of JWT.
+
+* **Headers** - Any custom headers you also want to send in the JWT token. Headers pertaining to the selected algorithm are automatically added.
 
 ### Basic auth
 
@@ -333,6 +358,14 @@ To revoke other users' access to a synced token, do the following:
 1. Select **Remove Synced Token**.
 
 After you revoke access, other users with access to the request won't be able to see or use the token.
+
+#### Changing the OAuth 2.0 token type
+
+Postman supports using access tokens or ID tokens for OAuth 2.0 authorization. An _access token_ enables an OAuth client to make calls to an API. An _ID token_ contains information about the authenticated user. This information can be used by an OAuth client to customize their experience.
+
+If an ID token is present, you can select the token type (**Access token** or **ID token**) in the **Use Token Type** dropdown list. (If no ID token is present, this dropdown list isn't available.)
+
+<img alt="Change the OAuth 2.0 token type" src="https://assets.postman.com/postman-docs/v10/authorization-oauth2-token-type-v10.jpg" width="500px"/>
 
 ### Hawk authentication
 

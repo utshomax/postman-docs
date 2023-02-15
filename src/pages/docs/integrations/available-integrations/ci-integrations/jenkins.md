@@ -10,14 +10,14 @@ contextual_links:
     name: "CI Integrations"
     url: "/docs/integrations/ci-integrations/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Integrate Jenkins in Postman"
     url: "https://youtu.be/PAlEp2AmSl4"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Stay on Top of Your API Builds with Postman’s Jenkins Integration"
     url: "https://blog.postman.com/stay-on-top-of-your-api-builds-witih-postmans-jenkins-integration/"

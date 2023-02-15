@@ -10,7 +10,7 @@ contextual_links:
     name: "Working with your team"
     url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -23,7 +23,7 @@ contextual_links:
     name: "Share Collection JSON via a Link | Postman Level Up"
     url: "https://youtu.be/tw7x3yBpU1Y"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Creating Workspaces"
     url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
