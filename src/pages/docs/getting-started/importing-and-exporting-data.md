@@ -214,6 +214,8 @@ You can also export your environments from Postman.
 
 You can export a data dump of all your collections, environments, globals, and header presets in Postman.
 
+> You can only export individual collections and environments from the Scratch Pad. You can't make bulk data exports of all collections and environments at once.
+
 1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Settings**.
 
 1. Select the **Data** tab, then **Export Data** to start your request for the data dump.
@@ -235,4 +237,3 @@ The [Export page](http://go.postman.co/me/export) shows information about your e
 
 When the export is ready, you will receive an email with link to download a zipped file with the data dump. You can also download the file from the Export page using **Download**.
 
-> You can only export individual collections and environments from the Scratch Pad. You can't make bulk data exports of all collections and environments at once.
