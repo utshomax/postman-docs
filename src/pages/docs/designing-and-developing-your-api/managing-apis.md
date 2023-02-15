@@ -82,7 +82,7 @@ You will also receive an email with the information regarding who made the chang
 
 You can discuss your APIs with collaborators in Postman, keeping the conversation in context and available to other stakeholders. Anyone with access to the API can comment. You can comment on an API, or you can leave inline comments on an API definition.
 
-To comment on an API:
+To comment on an API, do the following:
 
 1. Select an API in the sidebar.
 1. Select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
