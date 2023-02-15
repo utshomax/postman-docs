@@ -53,6 +53,7 @@ You can pass auth details along with any request you send in Postman. Auth data 
     * [No auth](#no-auth)
     * [API key](#api-key)
     * [Bearer token](#bearer-token)
+    * [JWT bearer](#jwt-bearer)
     * [Basic auth](#basic-auth)
     * [Digest auth](#digest-auth)
     * [OAuth 1.0](#oauth-10)
@@ -128,6 +129,29 @@ Bearer <Your API key>
 ```
 
 > If a custom prefix is needed, use an [API Key](#api-key) with a key of __Authorization__.
+
+### JWT bearer
+
+Postman also supports generating JWT bearer tokens to authorize requests. You can enter a payload in an editor, and JWT tokens are generated and added to the request. In the request __Authorization__ tab, select __JWT Bearer__ from the __Type__ dropdown list.
+
+* **Add JWT token to** -  Select **Request Header** or **Query Param** to specify how the JWT token will be added to your request.
+* **Algorithm** - Select an algorithm to use for the JWT token. Supported algorithms include:
+
+    * **HS** - HMAC with SHA
+    * **RS** - RSA (RSASSA-PKCS1-v1_5) with SHA
+    * **ES** - ECDSA with SHA
+    * **PS** - RSA (RSASSA-PSS) with SHA
+
+* **Secret** - The secret that’s used with the HMAC-SHA algorithm.
+* **Secret Base64 encoded** - If the secret is encoded in the base-64 format.
+
+* **Payload** - Enter the payload data for your JWT token, in JSON format.
+
+In the Advanced configuration section, you can also configure the following items. If you don't configure them, they are generated automatically.
+
+* **Header prefix** - An optional prefix to use at the start of headers. This header prefix is part of the request and not a part of JWT.
+
+* **Headers** - Any custom headers you also want to send in the JWT token. Headers pertaining to the selected algorithm are automatically added.
 
 ### Basic auth
 
