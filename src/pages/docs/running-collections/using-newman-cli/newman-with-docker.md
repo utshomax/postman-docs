@@ -10,14 +10,14 @@ contextual_links:
     name: "Command-line integration with Newman"
     url: "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Intro to the Postman API"
     url: "/docs/developer/intro-api/"

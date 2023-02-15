@@ -11,7 +11,7 @@ contextual_links:
     name: "Working with your team"
     url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -21,7 +21,7 @@ contextual_links:
     name: "Private API Network"
     url: "https://youtu.be/cbPT4dMFIDw"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "How to Make Your APIs Available to More Consumers"
     url: "https://blog.postman.com/how-to-make-your-apis-available-to-more-consumers/"
@@ -33,7 +33,6 @@ contextual_links:
   - type: link
     name: "ChargeHub plans to improve internal discovery with a Private API Network"
     url: "https://www.postman.com/case-studies/chargehub/"
-    search_keyword: "Private API Network, API sharing, folders, network listing, filtering apis, publish versions, github import, private apis, adding apis"
 
 ---
 
