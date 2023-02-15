@@ -8,14 +8,14 @@ contextual_links:
     name: "API development overview"
     url: "/docs/designing-and-developing-your-api/the-api-workflow/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Working With Your Team in Postman | The Exploratory"
     url: "https://youtu.be/5lscUV-Exac"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Using API version control"
     url: "/docs/designing-and-developing-your-api/versioning-an-api/"
