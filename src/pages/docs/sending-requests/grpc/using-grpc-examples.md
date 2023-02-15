@@ -30,7 +30,7 @@ APIs can be complex, and so can the guidelines for using them. Examples help con
 
 * [Saving a gRPC example](#saving-a-grpc-example)
 * [Editing a gRPC example](#editing-a-grpc-example)
-* [Creating a gRPC example without an API call](#creating-a-grpc-example-without-an-api-call)
+* [Creating a gRPC example from scratch](#creating-a-grpc-example-from-scratch)
 * [Creating example-specific documentation](#creating-example-specific-documentation)
 
 ## Saving a gRPC example
@@ -99,7 +99,7 @@ This example creates and executes a client streaming request, then saves the res
 
 1. Select **Save**.
 
-## Creating a gRPC example without an API call
+## Creating a gRPC example from scratch
 
 1. Create a gRPC request and add it to a collection.
 
