@@ -22,7 +22,9 @@ contextual_links:
     url: "https://youtu.be/RbHOs2xchGE"
 ---
 <!-- TODO: Add blog post link to front matter -->
-You can save, edit, and create [examples](/docs/sending-requests/examples/) for gRPC requests. You can also include documentation with each gRPC example. gRPC examples can help API consumers understand and document what responses will look like even before the API is up and running. gRPC examples are basically a blank canvas where you can create responses for any use case.
+You can save, edit, and share gRPC request-response pairs as [examples](/docs/sending-requests/examples/). You can even create gRPC examples from scratch.
+
+APIs can be complex, and so can the guidelines for using them. Examples help consumers understand APIs by capturing the request sent from the client and the response received from the server in a single visual snapshot. You can combine these snapshots in a request and store the request in a collection to illustrate how the API functions under different scenarios. Examples help API producers tell the world beautifully what their API is about.
 
 ## Contents
 
