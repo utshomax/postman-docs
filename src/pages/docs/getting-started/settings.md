@@ -123,7 +123,18 @@ Select a **Light** or **Dark** theme for Postman. If you're using the Postman de
 
 ## Shortcuts
 
-The **Shortcuts** tab displays all the keyboard shortcuts available in Postman. To turn off keyboard shortcuts, select the **Shortcuts** toggle.
+The **Shortcuts** tab displays all the keyboard shortcuts available in Postman. You can use the default shortcuts, or if you're using the Postman desktop app customize them according to your preferences.
+
+To customize a shortcut, select it and then enter your preferred shortcut. Custom shortcuts must meet the following requirents:
+
+* Shortcuts can't overlap with system shortcuts.
+* Shortcuts can't overlap with existing Postman shortcuts.
+* **[macOS only]** Shortcuts must include the (⌃), (⌥), (⇧), or (⌘) key.
+* **[Windows only]** Shortcuts must include the Ctrl, Alt, or Shift key.
+
+You can revert to the default shortcuts at any time by selecting **Restore Defaults**. To turn off keyboard shortcuts entirely, select the **Keyboard shortcuts** toggle.
+
+<img alt="Keyboard shortcuts" src="https://assets.postman.com/postman-docs/shortcuts-v10.10.jpg" width="700px"/>
 
 Some shortcuts aren't available in the Postman web app. Also, shortcut modifier keys in Postman may differ depending on your operating system. For example, to open a new tab select **⌘+T** on macOS or **Ctrl+T** on Windows or Linux.
 
