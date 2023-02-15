@@ -1,6 +1,6 @@
 ---
 title: 'Managing and sharing APIs'
-updated: 2023-01-30
+updated: 2023-02-15
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -102,33 +102,43 @@ To leave an inline comment on an API definition:
 
 > To make sure you're viewing the latest comments, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> in the comment box.
 
-### Formatting comments
+### Formatting API comments
 
 You can use Markdown in your comments. Check out the [Markdown Cheatsheet on Github](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for tips on formatting.
 
 To mention a collaborator in a comment, type `@` followed by their name, then choose the person from the auto-suggested list. When you mention a member in a comment, Postman sends them a notification.
 
-### Editing, deleting, or linking to a comment
+### Editing, deleting, or linking to an API comment
 
 To manage API comments, select an API or a definition file in the sidebar, then select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
 
 Hover over the comment you want to manage and do one of the following:
 
-* Select the anchor icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> to get a direct link to the comment.
-* Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to edit the comment.
-* Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to delete the comment.
+- Select the anchor icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> to get a direct link to the comment.
+- Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to edit the comment.
+- Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to delete the comment.
 
 <img alt="Managing an API comment" src="https://assets.postman.com/postman-docs/v10/api-builder-manage-comment-v10-10.jpg" width="443px" />
 
 > If you have the Admin role for the workspace, you can delete comments made by any contributor, but you can't edit comments made by others.
 
-### Resolving comments
+### Resolving API comments
 
 You can resolve inline comments for an API definition after the comments have been addressed. Open a definition file and switch to comment mode by selecting the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the editor pane. Select **Resolve** to resolve a comment and any associated replies.
 
 <img alt="Resolving an API comment" src="https://assets.postman.com/postman-docs/v10/api-builder-resolve-comment-v10-10.jpg" width="443px" />
 
 > You can't undo resolving a comment, but you can view resolved comments by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px"> in the comments pane.
+
+### Commenting on Git-linked APIs
+
+You can [connect a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/) to your API to sync your API between Postman and the repository. There are some differences to keep in mind when commenting on Git-linked APIs:
+
+- API producers can add comments to an API. API consumers can't add comments to an API, but they can add comments to a [published version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).
+- Comments are associated with a branch. If you add a comment while working on one branch, those comments won't be visible when you [switch to another branch](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/#switching-branches).
+- You must [commit and push changes](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/#committing-and-pushing-changes) on a branch before you can comment on that branch.
+- When you [merge a branch](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/#creating-a-pull-request), comments remain on the branch being merged and aren't merged to the target branch.
+- When you [publish an API version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/), comments aren't published with the API.
 
 ## Using the Changelog
 
