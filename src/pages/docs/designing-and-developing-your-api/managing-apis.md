@@ -91,7 +91,7 @@ To comment on an API:
 
 <img alt="Commenting on an API" src="https://assets.postman.com/postman-docs/v10/api-builder-add-comment-v10-10.jpg" width="443px" />
 
-To leave an inline comment on an API definition:
+To leave an inline comment on an API definition, do the following:
 
 1. Select an API in the sidebar to expand it.
 1. Select **Definition** under the API, then select the definition file you want to comment on.
