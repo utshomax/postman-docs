@@ -189,14 +189,30 @@ Alternatively, if you don't want to sign in to your Postman account, you can bul
 
 ## Using Postman behind a firewall
 
-Postman's infrastructure runs on Amazon's AWS platform. If you are operating behind a network firewall, you will need to allow the following domains to make WebSocket connections for Postman:
+Postman's infrastructure runs on Amazon's AWS platform. If you are operating behind a network firewall, you'll need to allow the following domains to make WebSocket connections for Postman:
 
 * `\*.getpostman.com`
 * `\*.postman.co`
 * `\*.pstmn.io`
 * `\*postman.com`
 
-By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443).
+By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443). For Postman v10, allow the following domains:
+
+Postman web app - websocket connections:
+
+* `https://bifrost-web-v10.gw.postman.com`
+* `https://bifrost-web-public-v10.gw.postman.com`
+* `https://bifrost-web-v10.gw.postman.co`
+
+Postman desktop app - websocket connections:
+
+* `https://bifrost-v10-global.gw.postman.com`
+* `https://bifrost-premium-v10-global.gw.postman.com`
+
+Postman desktop app - HTTP connections:
+
+* `https://bifrost-https-v10.gw.postman.com`
+* `https://bifrost-premium-https-v10.gw.postman.com`
 
 Postman doesn't have a fixed IP range that can be provided. If necessary, refer to the [current AWS IP ranges](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html) and allow the broad range provided.
 
