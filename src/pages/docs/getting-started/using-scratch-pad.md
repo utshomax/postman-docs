@@ -50,11 +50,11 @@ While you are in the Scratch Pad, you can:
 
 ## Exporting data from the Scratch Pad
 
-When you leave the Scratch Pad, your data remains there and isn't automatically transferred to your workspace. But you can export individual collections and environments from the Scratch Pad as JSON, then import it to a workspace.
+When you leave the Scratch Pad, your data remains there and isn't automatically transferred to your workspace. But you can export individual collections and environments from the Scratch Pad as JSON, then import them to a workspace.
 
 For more information on exporting a single collection or an environment, see [Exporting Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data).
 
-> You can only export individual collections and environments from the Scratch Pad. You can't make bulk data exports of all collections and environments at once.
+> You can export individual collections and environments from the Scratch Pad. You can't make bulk data exports of all collections and environments at once.
 
 ## Importing data from the Scratch Pad
 
