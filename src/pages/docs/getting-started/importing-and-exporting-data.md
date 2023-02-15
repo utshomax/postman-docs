@@ -235,4 +235,4 @@ The [Export page](http://go.postman.co/me/export) shows information about your e
 
 When the export is ready, you will receive an email with link to download a zipped file with the data dump. You can also download the file from the Export page using **Download**.
 
-> Data exports from the Scratch Pad are downloaded directly instead of being emailed to you. See [Exporting data from the Scratch Pad](/docs/getting-started/using-scratch-pad/#exporting-data-from-the-scratch-pad) for more details.
+> You can only export individual collections and environments from the Scratch Pad. You can't make bulk data exports of all collections and environments at once.
