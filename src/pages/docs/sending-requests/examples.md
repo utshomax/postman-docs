@@ -8,7 +8,7 @@ contextual_links:
     name: "Sending requests"
     url: "/docs/sending-requests/requests/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -20,7 +20,7 @@ contextual_links:
     name: "Imgur"
     url: "https://www.postman.com/case-studies/imgur/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Documenting your API"
     url: "/docs/publishing-your-api/documenting-your-api/"

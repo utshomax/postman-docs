@@ -6,14 +6,14 @@ updated: 2022-09-15
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Partner Workspaces for Enterprise"
     url: "https://youtu.be/gT55ui8UOHw"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing Partner Workspaces: An Exclusive Space to Collaborate with Your API Partners"
     url: "https://blog.postman.com/introducing-partner-workspaces/"
