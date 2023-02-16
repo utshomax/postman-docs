@@ -107,7 +107,7 @@ To leave an inline comment on an API definition, do the following:
 
 You can use Markdown in your comments. Check out the [Markdown Cheatsheet on GitHub](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for tips on formatting.
 
-To mention a collaborator in a comment, type `@` followed by their name, then choose the person from the auto-suggested list. When you mention a member in a comment, Postman sends them a notification.
+To mention a collaborator in a comment, type `@` followed by their name, then choose the person from the auto-suggested list. When you mention a user in a comment, Postman sends them a notification.
 
 ### Editing, deleting, or linking to an API comment
 
