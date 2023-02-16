@@ -3,7 +3,7 @@ title: 'Importing and exporting data'
 updated: 2022-06-03
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -19,7 +19,7 @@ contextual_links:
     name: "Generate a Collection From a Specification | Postman Level Up"
     url: "https://youtu.be/gljWt9tDKOY"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Postman Essentials: Exploring the Collection Format"
     url: "https://blog.postman.com/postman-essentials-exploring-the-collection-format/"
@@ -30,7 +30,7 @@ contextual_links:
     name: "Postman Supports WSDL"
     url: "https://blog.postman.com/postman-now-supports-wsdl/"
   - type: subtitle
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Using the API Builder"
     url: "/docs/designing-and-developing-your-api/the-api-workflow/"
@@ -214,6 +214,8 @@ You can also export your environments from Postman.
 
 You can export a data dump of all your collections, environments, globals, and header presets in Postman.
 
+> You can export individual collections and environments from the Scratch Pad. You can't make bulk data exports of all collections and environments at once.
+
 1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Settings**.
 
 1. Select the **Data** tab, then **Export Data** to start your request for the data dump.
@@ -234,5 +236,3 @@ The [Export page](http://go.postman.co/me/export) shows information about your e
 * **Download** - The zipped file is ready to download.
 
 When the export is ready, you will receive an email with link to download a zipped file with the data dump. You can also download the file from the Export page using **Download**.
-
-> Data exports from the Scratch Pad are downloaded directly instead of being emailed to you. See [Exporting data from the Scratch Pad](/docs/getting-started/using-scratch-pad/#exporting-data-from-the-scratch-pad) for more details.

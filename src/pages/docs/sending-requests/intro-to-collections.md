@@ -9,7 +9,7 @@ contextual_links:
     name: "Sending requests"
     url: "/docs/sending-requests/requests/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -19,7 +19,7 @@ contextual_links:
     name: "Create a Postman Collection | Postman Level Up"
     url: "https://youtu.be/NlrPjuXEaZ8"
   - type: dynamic_blog
-    name: "Blog Posts"
+    name: "Blog posts"
     blog_tag: "collections"
   - type: subtitle
     name: "Case Studies"
@@ -27,7 +27,7 @@ contextual_links:
     name: "Ping Identity"
     url: "https://www.postman.com/case-studies/pingidentity/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Using the Collection Runner"
     url: "/docs/running-collections/intro-to-collection-runs/"

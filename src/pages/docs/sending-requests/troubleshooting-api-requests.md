@@ -8,7 +8,7 @@ contextual_links:
     name: "Sending requests"
     url: "/docs/sending-requests/requests/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -18,12 +18,12 @@ contextual_links:
     name: "Clear the Console | Postman Level Up"
     url: "https://youtu.be/assHxTMirnk"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Powerful Debugging with the Postman Console"
     url: "https://blog.postman.com/powerful-debugging-with-the-postman-console/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Using the Collection Runner"
     url: "/docs/running-collections/intro-to-collection-runs/"

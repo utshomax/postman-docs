@@ -3,7 +3,7 @@ title: 'API development overview'
 updated: 2022-09-15
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -13,10 +13,10 @@ contextual_links:
     name: "Are you API-first? | The Exploratory"
     url: "https://youtu.be/6brCRaqxNe8"
   - type: dynamic_blog
-    name: "Blog Posts"
+    name: "Blog posts"
     blog_tag: "api-first"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Managing APIs"
     url: "/docs/designing-and-developing-your-api/managing-apis/"
