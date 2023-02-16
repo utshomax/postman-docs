@@ -35,21 +35,17 @@ APIs can be complex, and so can the guidelines for using them. Examples help con
 
 ## Saving a gRPC example
 
-This example creates and executes a client streaming request, then saves the response as a gRPC example.
+This procedure creates and executes a client streaming request, then saves the response as a gRPC example.
 
 > If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/about-postman-agent/) for more information.
 
 1. In Postman, select  **New > gRPC Request** to open a request in a new tab.
 
-1. Select **Enter Server URL** and enter `grpcb.in:9001`.
+1. Select **Enter Server URL** and enter `grpc.postman-echo.com`.
 
-1. Select the **Select a method** dropdown list and select **LotsOfGreetings**.
+1. Select the **Select a method** dropdown list. When the list of methods has loaded, select **SayHello**.
 
     ![New gRPC request](https://assets.postman.com/postman-docs/v10/grpc-save-example-1request-v10.jpg)
-
-1. Select **Generate example message**.
-
-1. Replace the example message string data with your name (or any other string).
 
 1. Save the gRPC request to a collection.
 
@@ -57,15 +53,7 @@ This example creates and executes a client streaming request, then saves the res
 
     > gRPC examples can't be saved unless the request is in a collection.
 
-1. Select **Invoke**. A `Sent request` message appears in the response section and the connection status is **STREAMING**.
-
-1. Select **Send**. A response message with your string appears in the response section.
-
-    ![Response message](https://assets.postman.com/postman-docs/v10/grpc-save-example-3send-v10.jpg)
-
-1. Select **End Streaming**. More messages appear in the response section, including a `reply` message with your string.
-
-    > gRPC examples can't be saved while streaming is active.
+1. Select **Invoke**. A `reply` message appears in the response section.
 
 1. Select **Save as Example**.
 
@@ -101,7 +89,7 @@ This example creates and executes a client streaming request, then saves the res
 
 ## Creating a gRPC example from scratch
 
-1. Create a gRPC request and add it to a collection.
+1. Create a gRPC request with the `LotsOfReplies` method (or any streaming method) and add it to a collection.
 
 1. Hover over the gRPC request you created and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
@@ -113,9 +101,9 @@ This example creates and executes a client streaming request, then saves the res
 
     ![New example](https://assets.postman.com/postman-docs/v10/grpc-create-example-2save-v10.jpg)
 
-1. [Edit the gRPC example.](#editing-a-grpc-example)
+1. In the sidebar, select the example you created.
 
-    > For examples with streaming methods, select the **Add a Message** button to create a message, then edit the message.
+1. Select the **Add a Message** dropdown and select **Message stream**. This creates a dummy message stream automatically using the message structure defined in the protobuf schema.
 
 1. Select **Save**.
 
