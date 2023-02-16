@@ -80,7 +80,9 @@ You will also receive an email with the information regarding who made the chang
 
 ## Commenting on APIs
 
-You can discuss your APIs with collaborators in Postman, keeping the conversation in context and available to other stakeholders. Anyone with access to the API can comment. You can comment on an API, or you can leave inline comments on an API definition.
+You can discuss your APIs with collaborators in Postman, keeping the conversation in context and available to other stakeholders.
+
+API producers ([Editor role](/docs/collaborating-in-postman/roles-and-permissions/#api-roles)) can add comments to an API. API consumers ([Viewer role](/docs/collaborating-in-postman/roles-and-permissions/#api-roles)) can't add comments to an API and won't see comments made by API producers. However, API consumers can comment on [published versions](#commenting-on-published-apis) of an API.
 
 To comment on an API, do the following:
 
