@@ -103,6 +103,8 @@ This procedure creates and executes a client streaming request, then saves the r
 
 1. Select the **Add a Message** dropdown and select **Message stream**. This creates a dummy message stream automatically using the message structure defined in the protobuf schema.
 
+    ![Select Message stream](https://assets.postman.com/postman-docs/v10/grpc-create-example-3stream-v10.jpg)
+
 1. Select **Save**.
 
 ## Creating example-specific documentation
