@@ -1,6 +1,6 @@
 ---
 title: "Manipulating data"
-updated: 2023-01-12
+updated: 2023-02-14
 ---
 
 You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to perform math functions, manipulate strings and arrays, and interact with the data in your responses in several ways. Sample data and FQL examples are below.
@@ -56,6 +56,12 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 * [Get the current time in Unix milliseconds since the epoch](#get-the-current-time-in-unix-milliseconds-since-the-epoch)
 * [Convert from a specific date format into Unix epoch time](#convert-from-a-specific-date-format-into-unix-epoch-time)
 * [Convert from Unix epoch time into a specific date format](#convert-from-unix-epoch-time-into-a-specific-date-format)
+* [Get the day/month/year from a date](#get-the-daymonthyear-from-a-date)
+* [Get the time from a date](#get-the-time-from-a-date)
+* [Get the day of the week from a date](#get-the-day-of-the-week-from-a-date)
+* [Compare two dates](#compare-two-dates)
+* [Increase a date by one day](#increase-a-date-by-one-day)
+* [Get the difference betwen two dates](#get-the-difference-betwen-two-dates)
 * [Time and Date formatting](#time-and-date-formatting)
 
 ### Working with logic and arrays
@@ -693,6 +699,92 @@ $fromMillis(1539387540000, '[Y]-[M]-[D] [H]:[m]:[s] [z]')
 
 ``` json
 "2018-10-12 23:39:00 GMT+00:00"
+```
+
+## Get the day/month/year from a date
+
+### FQL
+
+``` javascript
+$year('2023-02-11') & '-' & $month('2023-02-11') & '-' & $day('2023-02-11')
+```
+
+### Result
+
+``` json
+"2023-2-11"
+```
+
+## Get the time from a date
+
+### FQL
+
+``` javascript
+$hours($now()) & ':' & $minutes($now()) & ':' & $seconds($now()) & ':' & $milliSeconds($now())
+```
+
+### Result
+
+``` json
+"19:23:8:143"
+```
+
+## Get the day of the week from a date
+
+0=Sunday, 1=Monday,...etc
+
+### FQL
+
+``` javascript
+$dayOfTheWeek($now())
+```
+
+### Result
+
+``` json
+2
+```
+
+## Compare two dates
+
+### FQL
+
+``` javascript
+$hasSameDate('2023-02-01', '2023-02-08', ['month', 'year'])
+```
+
+### Result
+
+``` json
+true
+```
+
+## Increase a date by one day
+
+### FQL
+
+``` javascript
+$datePlus('2023-02-07', 1, 'days')
+```
+
+### Result
+
+``` json
+1675814400000
+```
+
+## Get the difference betwen two dates
+
+### FQL
+
+``` javascript
+$diffDate('2023-02-08', '2023-01-22', 'days')
+```
+
+### Result
+
+``` json
+17
 ```
 
 ## Time and date formatting
