@@ -81,7 +81,7 @@ This procedure creates and executes a client streaming request, then saves the r
 
 1. Hover over a message. A handle appears to the left of the message. Select and drag the handle to reposition the message in the timeline.
 
-    ![Reposition the message](https://assets.postman.com/postman-docs/v10/grpc-save-example-4reposition-1-v10.jpg)
+    ![Reposition the message](https://assets.postman.com/postman-docs/v10/grpc-save-example-4reposition-2-v10.jpg)
 
 1. Select **Save**.
 
