@@ -37,7 +37,7 @@ APIs can be complex, and so can the guidelines for using them. Examples help con
 
 This procedure creates and executes a client streaming request, then saves the response as a gRPC example.
 
-> If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/about-postman-agent/) for more information.
+> If you are using the Postman web app, you must use the Postman Desktop Agent. See [About the Postman Agent](/docs/getting-started/about-postman-agent/) for more information.
 
 1. In Postman, select  **New > gRPC Request** to open a request in a new tab.
 
@@ -45,11 +45,11 @@ This procedure creates and executes a client streaming request, then saves the r
 
 1. Select the **Select a method** dropdown list. When the list of methods has loaded, select **SayHello**.
 
-    ![New gRPC request](https://assets.postman.com/postman-docs/v10/grpc-save-example-1request-v10.jpg)
+    ![New gRPC request](https://assets.postman.com/postman-docs/v10/grpc-save-example-1request-1-v10.jpg)
 
 1. Save the gRPC request to a collection.
 
-    ![gRPC request](https://assets.postman.com/postman-docs/v10/grpc-save-example-2collection-v10.jpg)
+    ![gRPC request](https://assets.postman.com/postman-docs/v10/grpc-save-example-2collection-1-v10.jpg)
 
     > gRPC examples can't be saved unless the request is in a collection.
 
@@ -57,11 +57,11 @@ This procedure creates and executes a client streaming request, then saves the r
 
 1. Select **Save as Example**.
 
-    ![gRPC Save example button](https://assets.postman.com/postman-docs/v10/grpc-save-example-4saveExampleButton-v10.jpg)
+    ![gRPC Save example button](https://assets.postman.com/postman-docs/v10/grpc-save-example-4saveExampleButton-1-v10.jpg)
 
     The saved example opens in a new tab and you can see the saved example under the request in the sidebar.
 
-    ![gRPC example](https://assets.postman.com/postman-docs/v10/grpc-save-example-4savedExample-v10.jpg)
+    ![gRPC example](https://assets.postman.com/postman-docs/v10/grpc-save-example-4savedExample-1-v10.jpg)
 
 ## Editing a gRPC example
 
@@ -69,21 +69,19 @@ This procedure creates and executes a client streaming request, then saves the r
 
 1. Select the gRPC example in the sidebar.
 
-    ![Select a gRPC example](https://assets.postman.com/postman-docs/v10/grpc-save-example-1select-example-v10.jpg)
+    ![Select a gRPC example](https://assets.postman.com/postman-docs/v10/grpc-save-example-1select-example-1-v10.jpg)
 
 1. In the response section, select the message you want to edit. The editor opens below the message.
 
-    ![Select a message](https://assets.postman.com/postman-docs/v10/grpc-save-example-2select-message-v10.jpg)
+    ![Select a message](https://assets.postman.com/postman-docs/v10/grpc-save-example-2select-message-1-v10.jpg)
 
 1. Replace the `reply` response with `Not found` or any string.
-
-    ![Edit the message](https://assets.postman.com/postman-docs/v10/grpc-save-example-3edit-message-v10.jpg)
 
 1. Select the message again to close the editor.
 
 1. Hover over a message. A handle appears to the left of the message. Select and drag the handle to reposition the message in the timeline.
 
-    ![Reposition the message](https://assets.postman.com/postman-docs/v10/grpc-save-example-4reposition-v10.jpg)
+    ![Reposition the message](https://assets.postman.com/postman-docs/v10/grpc-save-example-4reposition-1-v10.jpg)
 
 1. Select **Save**.
 
@@ -113,14 +111,14 @@ This procedure creates and executes a client streaming request, then saves the r
 
 1. Select the gRPC example in the sidebar.
 
-    ![Select a saved example](https://assets.postman.com/postman-docs/v10/grpc-save-example-1select-example-v10.jpg)
+    ![Select a saved example](https://assets.postman.com/postman-docs/v10/grpc-save-example-1select-example-1-v10.jpg)
 
 1. In the right sidebar, select the the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px">.
 
 1. Hover over **Add example description...** and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.
 
-    ![Select the edit icon](https://assets.postman.com/postman-docs/v10/grpc-doc-example-1edit-v10.jpg)
+    ![Select the edit icon](https://assets.postman.com/postman-docs/v10/grpc-doc-example-1edit-1-v10.jpg)
 
 1. Enter your documentation for the gRPC example and select **Save**.
 
-    ![Save documentation](https://assets.postman.com/postman-docs/v10/grpc-doc-example-1save-v10.jpg)
+    ![Save documentation](https://assets.postman.com/postman-docs/v10/grpc-doc-example-1save-1-v10.jpg)
