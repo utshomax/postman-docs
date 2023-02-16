@@ -129,8 +129,8 @@ To customize a shortcut, select it and then enter your preferred shortcut. Custo
 
 * Shortcuts can't overlap with system shortcuts.
 * Shortcuts can't overlap with existing Postman shortcuts.
-* **[macOS only]** Shortcuts must include the (⌃), (⌥), (⇧), or (⌘) key.
-* **[Windows only]** Shortcuts must include the Ctrl, Alt, or Shift key.
+* **[macOS only]** Shortcuts must include the **Control** (**⌃**), **Option** (**⌥**), **Shift** (**⇧**), or **Command** (**⌘**) key.
+* **[Windows only]** Shortcuts must include the **Ctrl**, **Alt**, or **Shift** key.
 
 You can revert to the default shortcuts at any time by selecting **Restore Defaults**. To turn off keyboard shortcuts entirely, select the **Keyboard shortcuts** toggle.
 
