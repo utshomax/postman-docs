@@ -123,7 +123,7 @@ Select a **Light** or **Dark** theme for Postman. If you're using the Postman de
 
 ## Shortcuts
 
-The **Shortcuts** tab displays all the keyboard shortcuts available in Postman. You can use the default shortcuts, or if you're using the Postman desktop app customize them according to your preferences.
+The **Shortcuts** tab displays all the keyboard shortcuts available in Postman. You can use the default shortcuts, or customize them if you're using the Postman desktop app.
 
 To customize a shortcut, select it and then enter your preferred shortcut. Custom shortcuts must meet the following requirents:
 
