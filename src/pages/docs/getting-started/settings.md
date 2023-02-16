@@ -132,7 +132,7 @@ To customize a shortcut, select it and then enter your preferred shortcut. Custo
 * **[macOS only]** Shortcuts must include the **Control** (**⌃**), **Option** (**⌥**), **Shift** (**⇧**), or **Command** (**⌘**) key.
 * **[Windows only]** Shortcuts must include the **Ctrl**, **Alt**, or **Shift** key.
 
-You can revert to the default shortcuts at any time by selecting **Restore Defaults**. To turn off keyboard shortcuts entirely, select the **Keyboard shortcuts** toggle.
+You can revert to the default shortcuts by selecting **Restore Defaults**. To turn off keyboard shortcuts entirely, select the **Keyboard shortcuts** toggle.
 
 <img alt="Keyboard shortcuts" src="https://assets.postman.com/postman-docs/shortcuts-v10.10.jpg" width="700px"/>
 
