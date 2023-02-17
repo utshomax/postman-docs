@@ -3,7 +3,7 @@ title: "Using custom domains"
 updated: 2023-01-12
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -15,7 +15,7 @@ contextual_links:
     name: "Imgur"
     url: "https://www.postman.com/case-studies/imgur/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Publishing your docs"
     url: "/docs/publishing-your-api/publishing-your-docs/"
@@ -54,7 +54,7 @@ Select **Proceed** to verify the custom domain.
 
 After you add a custom domain, Postman displays the DNS records required to verify domain ownership. To verify that you control the domain you're attempting to add, copy the provided tokens and use them to add TXT and CNAME records to your domain. After adding the TXT and CNAME records to your domain, you can complete the verification in Team Settings.
 
-![Custom domain TXT and CNAM records](https://assets.postman.com/postman-docs/v10/custom-domains-dns-records-v10.jpg)
+![Custom domain TXT and CNAM records](https://assets.postman.com/postman-docs/v10/custom-domains-dns-records-v10-9a.jpg)
 
 ### Adding DNS records
 
@@ -66,7 +66,7 @@ To add DNS records to your domain, open another browser tab and sign in to your 
 
 * **CNAME record** - Add a new CNAME record to your domain. For **Name**, enter the subdomain where you want to host your public documentation (for example, `docs.example.com`). For value, enter `phs.getpostman.com`.
 
-    ![Adding a CNAME record](https://assets.postman.com/postman-docs/v10/custom-domains-add-cname.jpg)
+    ![Adding a CNAME record](https://assets.postman.com/postman-docs/v10/custom-domains-cname-record.jpg)
 
 > The steps for adding TXT and CNAME records can vary depending on the domain registrar or DNS provider and may look different than what's shown. Check your provider's documentation if you need more help.
 

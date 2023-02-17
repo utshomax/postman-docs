@@ -11,7 +11,7 @@ contextual_links:
     name: "Test script examples"
     url: "/docs/writing-scripts/script-references/test-examples/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -21,12 +21,12 @@ contextual_links:
     name: "Data Encryption with CryptoJS"
     url: "https://youtu.be/W_Gj1Q0lEOU"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Adding External Libraries in Postman"
     url: "https://blog.postman.com/adding-external-libraries-in-postman/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Developing with Postman utilities"
     url: "/docs/developer/resources-intro/"

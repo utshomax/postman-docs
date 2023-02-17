@@ -14,7 +14,7 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -24,12 +24,12 @@ contextual_links:
     name: "Dynamic Mock Behavior | Postman Level Up"
     url: "https://youtu.be/av7SZo9sZAE"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Shifting Left with Postman"
     url: "https://blog.postman.com/shifting-left-with-postman/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Test scripts"
     url: "/docs/writing-scripts/test-scripts/"
@@ -129,12 +129,12 @@ To further demonstrate how responses from the mock service are entirely dependen
 
 <img alt="Add a second example" src="https://assets.postman.com/postman-docs/mock-examples-step6a-v9-1.jpg" width="808px">
 
-Sending a `GET` request to `https://postman-echo.com/test` returns a 404 error, which you saved as another example. The collection `C1` now has two requests and two saved examples:
+Sending a `GET` request to `https://postman-echo.com/test` returns a 404 error, which you saved as another example. The collection `C1` has two requests and two saved examples:
 
 * **Example E1** - `GET` request to path `/get`
 * **Example E2** - `GET` request to path `/test`
 
-Finally, repeat step 5 above, but this time add the path `/test` to the end of the mock server URL when sending the request. This returns the expected 404 response.
+Finally, repeat [step 5](#step-5-send-a-request-to-the-mock-server), but this time add the path `/test` to the end of the mock server URL when sending the request. This returns the expected 404 response.
 
 <img alt="Send another request to the mock server" src="https://assets.postman.com/postman-docs/v10/mock-examples-step6b-v10.jpg" width="750px">
 

@@ -8,7 +8,7 @@ contextual_links:
     name: "API development overview"
     url: "/docs/designing-and-developing-your-api/the-api-workflow/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -24,10 +24,10 @@ contextual_links:
     name: "API Fest 2022 | Workshop on Coding an API using an API Schema"
     url: "https://youtu.be/RMiG9tzw5tg"
   - type: link
-    name: "Getting Started with OpenAPI in Postman | Postman Intergalactic"
-    url: "https://youtu.be/YRzpziA35Mg"
+    name: "OpenAPI 3.0: From Idea to Implementation"
+    url: "https://www.youtube.com/live/JEBd78U9aBo?feature=share"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Managing APIs"
     url: "/docs/designing-and-developing-your-api/managing-apis/"
@@ -60,7 +60,7 @@ To start using the API Builder, you can create a new API in your workspace. You 
     * [Use a collection as a starting point for your API](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/). Select a collection in your workspace you want to use and add a copy of it to your API. You can also create new collections in your API.
     * [Import an existing API definition](/docs/designing-and-developing-your-api/importing-an-api/) from a file, a folder, a code repository, or an API gateway.
 
-> Postman supports OpenAPI (versions 1.0, 2.0, 3.0, and 3.1), RAML (0.8 and 1.0), Protobuf (2 and 3), GraphQL, or WSDL (1.0 and 2.0) definitions. OpenAPI definitions can be JSON or YAML. RAML definitions must be YAML. Protobuf definitions are PROTO files. GraphQL definitions can be JSON or GraphQL SDL. WSDL definitions must be XML.
+> Postman supports OpenAPI (versions 1.0, 2.0, 3.0, and 3.1), RAML (0.8 and 1.0), protobuf (protocol buffer) (2.0 and 3.0), GraphQL, or WSDL (1.0 and 2.0) definitions. OpenAPI definitions can be JSON or YAML. RAML definitions must be YAML. Protobuf definitions are `.proto` files. GraphQL definitions can be JSON or GraphQL SDL. WSDL definitions must be XML.
 
 ## Updating an API
 

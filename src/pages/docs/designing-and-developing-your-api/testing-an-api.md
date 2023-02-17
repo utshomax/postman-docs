@@ -8,7 +8,7 @@ contextual_links:
     name: "Grouping requests in Collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -17,8 +17,11 @@ contextual_links:
   - type: link
     name: "An Introduction for Testers | Postman Intergalactic"
     url: "https://youtu.be/EwlBogHckP0"
+  - type: link
+    name: "15 Days of Postman for Testers | Test Challenge"
+    url: "https://youtu.be/3_w2Bz0BnlY"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "The Reimagined API-First Workflow, Part 2: for Testers"
     url: "https://blog.postman.com/the-reimagined-api-first-workflow-for-testers/"
@@ -26,12 +29,12 @@ contextual_links:
     name: "Negative Testing for More Resilient APIs"
     url: "https://blog.postman.com/negative-testing-for-more-resilient-apis/"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Unbreakable API"
     url: "https://www.postman.com/postman/workspace/unbreakable-api/overview"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Managing and sharing APIs"
     url: "/docs/designing-and-developing-your-api/managing-apis/"

@@ -4,14 +4,14 @@ updated: 2022-05-19
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing New Postman Reports for Enterprises"
     url: "https://blog.postman.com/introducing-new-postman-reports-for-enterprises/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Validating APIs against schema"
     url: "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
@@ -41,7 +41,7 @@ To view your reports dashboard:
 
 To access a specific API's report, do the following:
 
-1. On the report dashboard, select **All APIs** > **View Report by API**.
+1. On the report dashboard, select **All APIs > View Report by API**.
 1. Search for the API name, or scroll through the list to find it.
 
     > You can also access the report for a specific API by going to the [API's overview page](/docs/designing-and-developing-your-api/the-api-workflow/#navigating-the-api-builder) and select **Reports**.

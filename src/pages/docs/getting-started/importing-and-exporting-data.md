@@ -3,7 +3,7 @@ title: 'Importing and exporting data'
 updated: 2022-06-03
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -19,7 +19,7 @@ contextual_links:
     name: "Generate a Collection From a Specification | Postman Level Up"
     url: "https://youtu.be/gljWt9tDKOY"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Postman Essentials: Exploring the Collection Format"
     url: "https://blog.postman.com/postman-essentials-exploring-the-collection-format/"
@@ -30,7 +30,7 @@ contextual_links:
     name: "Postman Supports WSDL"
     url: "https://blog.postman.com/postman-now-supports-wsdl/"
   - type: subtitle
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Using the API Builder"
     url: "/docs/designing-and-developing-your-api/the-api-workflow/"
@@ -98,7 +98,7 @@ To convert your collection's format from v1 to v2, do the following:
    sudo npm install -g postman-collection-transformer
    ```
 
-1. Convert an individual Postman Collection from v1 to v2 by entering the command below.
+1. Convert an individual Postman Collection from v1 to v2 by entering this command:
 
    ```bash
    postman-collection-transformer convert -i <path to the input Postman Collection file> -o <path to the downloaded Postman file> -j 1.0.0 -p 2.0.0 -P
@@ -124,7 +124,7 @@ To import your API specifications into Postman, see [Importing an API](/docs/des
 
 To import data in bulk from a GitHub repository, do the following:
 
-1. In Postman, select **Import** > **Code repository** > **GitHub**.
+1. In Postman, select **Import > Code repository > GitHub**.
 
 1. Confirm your GitHub account and **Authorize postmanlabs** to access your repositories.
 
@@ -142,7 +142,7 @@ You will receive a confirmation once the import has completed. You can view your
 
 To import data in bulk from a Bitbucket repository, do the following:
 
-1. In Postman, select **Import** > **Code repository** > **Bitbucket**.
+1. In Postman, select **Import > Code repository > Bitbucket**.
 
 1. Confirm your Bitbucket account and **Authorize Postman** to access your repositories.
 
@@ -150,7 +150,7 @@ To import data in bulk from a Bitbucket repository, do the following:
 
 1. Select the files you want to import into Postman. You can also select **Generate collection from imported APIs** and select what you want to link this collection as. Select **Show advanced settings** to control how Postman generates collections based on your file types, then select **Import**.
 
-You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
+You will receive a confirmation once the import has completed. You can view your newly imported files and generated collections in Postman.
 
 ### Importing from GitLab repositories
 
@@ -158,7 +158,7 @@ You will receive a confirmation once the import has completed. You can now view 
 
 To import data in bulk from a GitLab repository, do the following:
 
-1. In Postman, select **Import** > **Code repository** > **GitLab**.
+1. In Postman, select **Import > Code repository > GitLab**.
 
 1. Confirm your GitLab account and **Authorize Postman** to access your repositories.
 
@@ -166,7 +166,7 @@ To import data in bulk from a GitLab repository, do the following:
 
 1. Select the files you want to import into Postman. You can also select **Generate collection from imported APIs** and select what you want to link this collection as. Select **Show advanced settings** to control how Postman generates collections based on your file types, then select **Import**.
 
-You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
+You will receive a confirmation once the import has completed. You can view your newly imported files and generated collections in Postman.
 
 ### Importing from Azure DevOps repositories
 
@@ -176,7 +176,7 @@ Before you begin, enable third-party application access for your organization. I
 
 To import data in bulk from a Azure DevOps repository, do the following:
 
-1. In Postman, select **Import** > **Code repository** > **Azure**.
+1. In Postman, select **Import > Code repository > Azure**.
 
 1. Confirm your Azure DevOps account and **Authorize Postman** to access your repositories.
 
@@ -184,7 +184,7 @@ To import data in bulk from a Azure DevOps repository, do the following:
 
 1. Select the files you want to import into Postman. You can also select **Generate collection from imported APIs** and select what you want to link this collection as. Select **Show advanced settings** to control how Postman generates collections based on your file types, then select **Import**.
 
-You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
+You will receive a confirmation once the import has completed. You can view your newly imported files and generated collections in Postman.
 
 ## Exporting Postman data
 
@@ -214,6 +214,8 @@ You can also export your environments from Postman.
 
 You can export a data dump of all your collections, environments, globals, and header presets in Postman.
 
+> You can export individual collections and environments from the Scratch Pad. You can't make bulk data exports of all collections and environments at once.
+
 1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Settings**.
 
 1. Select the **Data** tab, then **Export Data** to start your request for the data dump.
@@ -234,5 +236,3 @@ The [Export page](http://go.postman.co/me/export) shows information about your e
 * **Download** - The zipped file is ready to download.
 
 When the export is ready, you will receive an email with link to download a zipped file with the data dump. You can also download the file from the Export page using **Download**.
-
-> Data exports from the Scratch Pad are downloaded directly instead of being emailed to you. See [Exporting data from the Scratch Pad](/docs/getting-started/using-scratch-pad/#exporting-data-from-the-scratch-pad) for more details.

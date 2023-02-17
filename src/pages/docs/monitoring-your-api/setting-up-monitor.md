@@ -8,14 +8,14 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "API Monitoring | The Exploratory"
     url: "https://youtu.be/tDQzY1Hn2LY"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Integrated API Monitoring in Postman"
     url: "https://blog.postman.com/integrated-api-monitoring-in-postman/"
@@ -67,7 +67,9 @@ You can create a new monitor from scratch or select a collection to monitor:
 
 ## Configuring a collection-based monitor
 
-Give your new monitor a **Monitor name** and select the **Collection** you want the monitor to run. (Depending on the method you chose to create the monitor, the collection might already be selected.) If the collection has multiple tags, select the **Collection tag** to use. You can also add an **Environment** if you would like the monitor to use one.
+Give your new monitor a **Monitor name** and select the **Collection** you want the monitor to run. Depending on the method you chose to create the monitor, the collection might already be selected.
+
+If the collection has multiple tags, select the **Collection tag** to use. (You can no longer create release tags for collections in Postman v10, but you can [publish versions of an API](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).) You can also add an **Environment** if you would like the monitor to use one.
 
 See the following sections for other configuration options you can select for your monitor. When you're finished, select **Create Monitor** to create the new monitor.
 

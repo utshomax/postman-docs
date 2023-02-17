@@ -11,19 +11,19 @@ contextual_links:
     name: "Command-line integration with Newman"
     url: "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Continuous Testing with Postman | Webinar"
     url: "https://youtu.be/sB2HHrezQOo"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Continuous API Testing with Postman"
     url: "https://blog.postman.com/continuous-api-testing-with-postman/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Intro to scripts"
     url: "/docs/writing-scripts/intro-to-scripts/"
@@ -68,7 +68,7 @@ Run the following Newman command with the appropriate parameters:
 newman run https://api.getpostman.com/collections/{{collection_uid}}?apikey={{postman-api-key-here}}
 ```
 
-If you need to provide an environment to the collection, change the above command to the following:
+If you need to provide an environment to the collection, add the `--environment` option with the appropriate parameters to the Newman command:
 
 ```bash
 newman run https://api.getpostman.com/collections/{{collection_uid}}?apikey={{postman-api-key-here}}

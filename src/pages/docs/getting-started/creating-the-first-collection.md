@@ -10,7 +10,7 @@ contextual_links:
     name: "Download and Install"
     url: "https://www.postman.com/downloads/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -28,12 +28,12 @@ contextual_links:
     name: "Werner Enterprises saves 3 hours per week with collections"
     url:  "https://www.postman.com/case-studies/werner/"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "30 days of Postman for developers"
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Sending your first request"
     url: "/docs/getting-started/sending-the-first-request/"
@@ -49,7 +49,7 @@ To create a new collection, you can start by creating a new request first. You c
 
 To create a collection, do the following:
 
-1. Select __New__ &gt; __HTTP Request__.
+1. Select **New > HTTP Request**.
 
     <img alt="Create new request" src="https://assets.postman.com/postman-docs/v10/new-request-v10.jpg"/>
 
@@ -60,7 +60,7 @@ To create a collection, do the following:
 
 1. Select **Save** to save the request in the new collection.
 
-Congratulations! Postman lists all your collections under **Collections** in the sidebar, as shown below:
+After you save the request, your new collection and the request are listed under **Collections** in the sidebar.
 
 <img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/creating-first-collection-v9.jpg" width="400px"/>
 

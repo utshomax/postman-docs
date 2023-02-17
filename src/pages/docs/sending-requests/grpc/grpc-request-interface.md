@@ -21,7 +21,7 @@ contextual_links:
 
 gRPC requests in Postman include a variety of tools, views, and controls to help you use and test your gRPC services effectively and efficiently. This topic highlights the parts of the request interface and how to use it.
 
-<img src="https://assets.postman.com/postman-docs/v10/grpc-request-callouts-v10.jpg" alt="gRPC request interface" />
+<img src="https://assets.postman.com/postman-docs/v10/grpc-request-callouts-2-v10.jpg" alt="gRPC request interface" />
 
 ## Contents
 
@@ -41,13 +41,13 @@ Create a new gRPC request by selecting the **New** button in the sidebar which b
 
 ## The request section
 
-The request section includes the required configurations to connect to the server and execute the selected method. Requests need a server URL, a service definition, and a selected method in order to be invoked. Based on the API requirements, you may have to pass message payloads, metadata, and authorization details along with the request. You may also have to configure TLS and other certificates based on the requirements.
+The request section includes the required configurations to connect to the server and execute the selected method. Requests need a server URL, a service definition, and a selected method to be invoked. Based on the API requirements, you may have to pass message payloads, metadata, and authorization details along with the request. You may also have to configure TLS and other certificates based on the requirements.
 
 <img src="https://assets.postman.com/postman-docs/v10/grpc-request-sections.jpg" alt="Request pane" />
 
 * **Server URL** - Defines the endpoint where the service is hosted. A gRPC URL often starts with `grpc://` instead of `http://` or `https://`. While creating a new request, you can also browse through URLs you've used by selecting the URL field. This helps you create the request faster if you’re testing multiple methods on the same endpoint.
 
-* **Method** - Select the method you wish to invoke using the method selector dropdown. The list of methods is populated by the service definition. Method types are described in detail in the [invoking different types of methods](#invoking-different-types-of-methods) section below.
+* **Method** - Select the method you wish to invoke using the method selector dropdown. The list of methods is populated by the service definition. For more details about the method types, see the [Invoking different types of methods](#invoking-different-types-of-methods) section.
 
 * **Payload** - A gRPC payload has items to aid the server in executing the request:
 
@@ -116,7 +116,6 @@ To invoke a bidirectional streaming method, select the method from the **Method 
 Once you invoke a method, the server gives back the appropriate response that appears in the response area.
 
 <!--TODO: image with callouts, with Postman echo service shown -->
-
 The response section has the following items:
 
 * **Response** - A response payload has three types of information:
@@ -126,6 +125,8 @@ The response section has the following items:
     * **Metadata (Initial) and Trailing metadata** - Metadata returned by the server typically consists of information about the execution.
 
 * **More information** - This section gives you key information regarding performance and if the execution was successful. You can assess the performance of the API using the information on how long the execution took. The status code gives you information explaining whether the execution was successful. The status code `0 OK` signifies successful execution. In case of an error, a gRPC-based implementation returns different status codes for different error scenarios which help you understand the cause and figure out the next set of actions by hovering on it.
+
+* **Save as example** - You can save responses to your gRPC requests as [examples](/docs/sending-requests/examples/). For streaming methods, you must end streaming before you can save an example. See [Using gRPC examples](/docs/sending-requests/grpc/using-grpc-examples/) to learn more.
 
 * **Wrap text button** - Selecting this button adjusts the width of the response body according to the width of the response area, making it easier to read longer responses without scrolling.
 
@@ -151,7 +152,7 @@ The response section has the following items:
 
 The right sidebar gives you access to more tools and information like documentation, commenting, and request details. Open a gRPC request, and then select an option in the right sidebar:
 
-* **Request documentation** - Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> to view documentation for a request. When you select a method, Postman automatically generates documentation for the payload fields and data types using the Protobuf definition. You can also add a description to help users understand and use the request. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description, then write your content using Postman's [built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/).
+* **Request documentation** - Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> to view documentation for a request. When you select a method, Postman automatically generates documentation for the payload fields and data types using the protobuf definition. You can also add a description to help users understand and use the request. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description, then write your content using Postman's [built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/).
 
     > You can also add a description to your collection's overview or a folder in your collection. Select the collection or folder in the sidebar, then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description.
 
@@ -177,7 +178,7 @@ The server you are using is unreachable with the current client settings. If you
 
 ### Switch to Postman Desktop Agent to connect with a gRPC server
 
-In order to use all of Postman's gRPC features, you must run the Postman Desktop Agent.
+To use all of Postman's gRPC features, you must run the Postman Desktop Agent.
 
 Learn more about [installing the Postman Desktop Agent](/docs/getting-started/about-postman-agent/#the-postman-desktop-agent).
 

@@ -7,6 +7,14 @@ contextual_links:
   - type: link
     name: "CI Integrations"
     url: "/docs/integrations/ci-integrations/"
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "A New Postman Integration for Azure DevOps Users"
+    url: "https://blog.postman.com/postman-integration-for-azure-devops-users/"
+
 ---
 
 [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/) is a continuous integration (CI) and continuous delivery (CD) service that's integrated with Microsoft Azure DevOps. Software development teams can use Azure Pipelines to automatically build, test, and deploy code in Azure DevOps.

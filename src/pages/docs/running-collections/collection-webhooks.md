@@ -18,7 +18,7 @@ contextual_links:
     name: "Postman Webhooks | Postman Level Up"
     url: "https://youtu.be/wdLvXKkXhLk"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Building a Slack Bot with the Twitch API and Postman"
     url:  "https://blog.postman.com/building-slack-bot-with-twitch-api-and-postman/"
@@ -35,7 +35,7 @@ Webhooks for a collection can only be created using the [Postman API](/docs/deve
 
 ### Accessing the request body in scripts
 
-The request body of the webhook is available inside the `globals.previousRequest` object. In order to use it, first parse the `globals.previousRequest` object. The data sent to the webhook is available in the `data` parameter inside the parsed object, as shown in the code snippet below.
+The request body of the webhook is available inside the `globals.previousRequest` object. To use it, first parse the `globals.previousRequest` object. The data sent to the webhook is available in the `data` parameter inside the parsed object, as shown in this code snippet.
 
 ```js
 var previousRequest = JSON.parse(globals.previousRequest),

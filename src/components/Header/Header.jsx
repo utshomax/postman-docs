@@ -4,10 +4,10 @@ import Dropdown from './Dropdown';
 import $ from 'jquery';
 import {PrimaryNavbarV6, SecondaryNavbarV6, NavStyles, DropdownStyles, CTAButton} from './HeaderStyles.jsx' ;
 import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
-import navbarData from '../../../bff-data/navbar.json';
+// import navbarData from '../../../bff-data/navbar.json';
 
 // For local TOPNAVBAR TESTING
-// import navbarDataLocal from '../../../build/navbarDev.json';
+import navbarDataLocal from '../../../build/navbarDev.json';
 
 // Get Cookie for Sign In toggler
 const getCookie = (a) => {
@@ -75,7 +75,7 @@ const Header = (props) => {
   const [beta, setBeta] = useState('');
   const [cookie, setCookie] = useState('');
   const [hidden, setHidden] = useState(true);
-  const [data, setData] = useState(navbarData);
+  const [data, setData] = useState(navbarDataLocal);
   const [visibleHelloBar] = useState();
 
   useEffect(() => {
@@ -287,7 +287,12 @@ const Header = (props) => {
                           { item.columns && item.columns &&
                           <div className="row dropdown-col-menu">
                             { item.columns.map((col) => (
-                              <div className="col-sm-6 col-md-4 dropdown-col" key={col.title}>
+                              <div
+                              className={
+                                item.isWidthShort
+                                  ? 'col-sm-6 col-md-6 dropdown-col'
+                                  : 'col-sm-6 col-md-4 dropdown-col'
+                              } key={col.title}>
                                 <h6 className="dropdown-header">{col.title}</h6>
                                 {col.subItemsCol.map((link) => (
                                   <a

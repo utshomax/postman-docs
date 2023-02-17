@@ -9,14 +9,14 @@ contextual_links:
     name: "API development overview"
     url: "/docs/designing-and-developing-your-api/the-api-workflow/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Import Multi File API Definitions | Postman Level Up"
     url: "https://youtu.be/RqVJV9LQORc"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Stay on Top of Your API Deployments: AWS API Gateway Integration"
     url: "https://blog.postman.com/deployments-aws-api-gateway-integration/"
@@ -71,7 +71,10 @@ To import an API from AWS API Gateway, do the following:
 1. Select **API Gateway**, then select **AWS API Gateway**.
 1. Connect to the AWS API Gateway as follows.
 
-When importing an API from AWS API Gateway, you can choose to authenticate by [creating an AWS IAM role](#authenticating-with-an-aws-iam-role) or by [using an AWS access key](#authenticating-with-an-aws-access-key). Follow the steps for your chosen method below.
+When importing an API from AWS API Gateway, you can choose to authenticate by creating an AWS IAM role or by using an AWS access key. Follow the steps for your chosen method:
+
+* [Authenticating with an AWS IAM role](#authenticating-with-an-aws-iam-role)
+* [Authenticating with an AWS access key](#authenticating-with-an-aws-access-key)
 
 ### Authenticating with an AWS IAM role
 

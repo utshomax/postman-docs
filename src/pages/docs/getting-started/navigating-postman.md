@@ -10,7 +10,7 @@ contextual_links:
     name: "Download and Install"
     url: "https://www.postman.com/downloads/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -26,7 +26,7 @@ contextual_links:
     name: "Find Related Collections | Postman Level Up"
     url: "https://youtu.be/d7Nq7Vo4nHc"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "How Postman Designers Built the New Universal Search Feature"
     url: "https://blog.postman.com/how-postman-designers-built-the-new-universal-search-feature/"
@@ -34,7 +34,7 @@ contextual_links:
     name: "Introducing Bulk Actions on Postman’s Sidebar"
     url: "https://blog.postman.com/introducing-sidebar-bulk-actions/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Sending your first request"
     url: "/docs/getting-started/sending-the-first-request/"
@@ -53,14 +53,15 @@ Postman has a variety of tools, views, and controls to help you manage your API 
     * [Environment selector and environment quick look](#environment-selector-and-environment-quick-look)
 * [Footer](#footer)
 
-<img alt="Postman app" src="https://assets.postman.com/postman-docs/v10/navigating-postman-app-overview-5-v10.jpg" width="1100px"/>
+<img alt="Postman app" src="https://assets.postman.com/postman-docs/postman-desktop-app-v10.10.jpg"/>
 
 ## Header
 
 The header enables you to create workspaces, access reports, explore the public API network, search in Postman, view sync status and notifications, and access your settings, account, and [Postman plan](/docs/administration/buying/).
 
-<img alt="Postman header left side" src="https://assets.postman.com/postman-docs/navigating-postman-header-left-v9.19.jpg" width="350px"/>
+<img alt="Postman header left side" src="https://assets.postman.com/postman-docs/postman-desktop-app-header-v10.10.jpg" width="350px"/>
 
+* **&#8592; &#8594;** - Navigate backward and forward through pages you've visited within Postman. _(Postman desktop app only)_
 * **Home** - Go to your personal home page, which includes alerts, announcements, your activity feed, your recently visited workspaces, and links to resources for [your team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) if applicable.
 * **Workspaces** - Search for workspaces, view your recently visited workspaces, or [create a new workspace](/docs/getting-started/creating-your-first-workspace/).
 * **API Network** - Explore the [Public API Network](/docs/getting-started/exploring-public-api-network/) and access your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/).

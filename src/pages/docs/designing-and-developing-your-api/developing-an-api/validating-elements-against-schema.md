@@ -11,14 +11,14 @@ contextual_links:
     name: "Managing and sharing APIs"
     url: "/docs/designing-and-developing-your-api/managing-apis/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Postman Intergalactic | Design and Prototype an API in Postman"
     url: "https://youtu.be/r4kb3jOSsmk"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Reports overview"
     url: "/docs/reports/reports-overview/"
@@ -87,7 +87,7 @@ If your issue relates to another element, open your API from the sidebar and loc
 * Documentation and collections are on the API's overview.
 * To view tests, select **Test and Automation**.
 
-If Postman finds any issues during validation, view them by selecting **Issues found** > **View issues**. This will take you to a page summarizing validation issues.
+If Postman finds any issues during validation, view them by selecting **Issues found > View issues**. This will take you to a page summarizing validation issues.
 
 ## Updating API elements
 

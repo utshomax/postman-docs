@@ -9,7 +9,7 @@ contextual_links:
     name: "Using the Collection Runner"
     url: "/docs/running-collections/intro-to-collection-runs/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -19,12 +19,12 @@ contextual_links:
     name: "Using Custom Reporters with Newman"
     url: "https://youtu.be/Nxdxx-VaYno"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Newman: run and test your collections from the command line"
     url: "https://blog.postman.com/newman-run-and-test-your-collections-from-the-command-line/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Intro to the Postman API"
     url: "/docs/developer/intro-api/"
@@ -136,7 +136,7 @@ For example, a data file such as the one shown below runs _two_ iterations, with
 $ newman run mycollection.json -d data.json
 ```
 
-Here's an example of the CSV file for the above set of variables:
+Here's an example of the CSV file for this set of variables:
 
 ```bash
 url, user_id, id, token_id

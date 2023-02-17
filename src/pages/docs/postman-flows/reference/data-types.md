@@ -1,5 +1,5 @@
 ---
-title: "About data types"
+title: "Postman Flows data types"
 updated: 2022-11-17
 ---
 

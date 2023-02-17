@@ -10,14 +10,14 @@ contextual_links:
     name: "Running collections on the command line with Newman"
     url: "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Intro to the Postman API"
     url: "/docs/developer/intro-api/"
@@ -47,7 +47,7 @@ This example shows you how to integrate Postman with [Travis CI](https://travis-
 
 ## Getting started
 
-1. **Choose the Postman Collection with your tests.** In most cases, you'll already have a Postman Collection with your tests. For this example, you can import a sample "Hello World" collection into your workspace by selecting the **Run in Postman** button below.
+1. **Choose the Postman Collection with your tests.** In most cases, you'll already have a Postman Collection with your tests. For this example, you can import a sample "Hello World" collection into your workspace by selecting this **Run in Postman** button.
 
     [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/92cc7527bbab2bedffbd?action=collection%2Fimport)
 

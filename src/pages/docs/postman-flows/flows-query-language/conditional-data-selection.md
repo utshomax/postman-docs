@@ -1,5 +1,5 @@
 ---
-title: "Conditional data selection"
+title: "Selecting conditional data"
 updated: 2022-12-15
 ---
 

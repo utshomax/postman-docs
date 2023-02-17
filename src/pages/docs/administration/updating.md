@@ -12,14 +12,14 @@ contextual_links:
     name: "Installing and updating"
     url: "/docs/getting-started/installation-and-updates/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Unboxing What’s New in Postman v10 | Postman Intergalactic"
     url: "https://youtu.be/LmEl7rHYhxU"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Announcing Postman v10: The API Platform for an API-First World"
     url: "https://blog.postman.com/announcing-postman-v10/"
@@ -106,7 +106,7 @@ Use the following links to download the latest Postman v9 version for your platf
 > The Postman desktop app will update to the latest major version. If you turn off automatic major updates, the app will continue using v9.
 
 * [Download Postman v9 for macOS (Intel chip) 64-bit](https://go.pstmn.io/dl-osx64-v9-latest)
-* [Download Postman v9 for macOS (Apple chip) 64-bit](https://go.pstmn.io/dl-osxarm64-v9-latest)
+* [Download Postman v9 for macOS (Apple silicon) 64-bit](https://go.pstmn.io/dl-osxarm64-v9-latest)
 * [Download Postman v9 for Windows 64-bit](https://go.pstmn.io/dl-win64-v9-latest)
 * [Download Postman v9 for Linux 64-bit](https://go.pstmn.io/dl-linux64-v9-latest)
 

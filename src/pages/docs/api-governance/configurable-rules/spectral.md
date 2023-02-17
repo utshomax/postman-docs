@@ -62,7 +62,7 @@ Spectral identifies each rule with a key, which can be any JSON-compatible strin
 
 Postman supports many of Spectral's features, though not all.
 
-Whether it's created within Postman or imported from another source, a Spectral document needs to contain the properties shown in the example below:
+Whether it's created within Postman or imported from another source, a Spectral document needs to contain the properties shown in this example:
 
 ```json
 rules:

@@ -9,7 +9,7 @@ contextual_links:
     name: "Command-line integration with Newman"
     url: "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -19,12 +19,12 @@ contextual_links:
     name: "Continuous Testing with Postman | Webinar"
     url: "https://youtu.be/sB2HHrezQOo"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Intro to the Postman API"
     url: "/docs/developer/intro-api/"
@@ -63,7 +63,7 @@ The following example shows how to set up a Jenkins build that uses Newman to ru
 
 ## Create a Postman Collection
 
-For this example, you'll need a Postman Collection that contains a few requests with tests. For this example, you can import a sample "Hello World" collection into your workspace by selecting the **Run in Postman** button below.
+For this example, you'll need a Postman Collection that contains a few requests with tests. For this example, you can import a sample "Hello World" collection into your workspace by selecting this **Run in Postman** button.
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/92cc7527bbab2bedffbd?action=collection%2Fimport)
 
@@ -111,7 +111,7 @@ To set the frequency with which Jenkins runs Newman, do the following:
     > Select the help icon next to **Schedule** to learn how to specify the build frequency.
 1. Select **Save**.
 
-Jenkins will now run Newman at your desired frequency and will tell you if the build failed or succeeded.
+Jenkins runs Newman at your desired frequency and tells you if the build failed or succeeded.
 
 In a real-world build environment, Newman will be part of your production environment. You can set up notifications and customize Jenkins as per your needs. You can use a wide variety of other configurations to make your collection more dynamic.
 

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import styled from 'styled-components';
-// import footerDataLocal from '../../../build/footerDev.json';
-import footerData from '../../../bff-data/footer.json';
+import footerDataLocal from '../../../build/footerDev.json';
+// import footerData from '../../../bff-data/footer.json';
 
 
 const FooterWrapper = styled.footer`
@@ -104,7 +104,7 @@ function targetStringGenerator(target) {
 
 const Footer = () => {
 
-  const [data] = useState(footerData) // change to footerDataLocal for local development w/ dummy data from build/footerDev.json
+  const [data] = useState(footerDataLocal) // change to footerDataLocal for local development w/ dummy data from build/footerDev.json
 
   const columns = data.items.slice(0, 5);
    
