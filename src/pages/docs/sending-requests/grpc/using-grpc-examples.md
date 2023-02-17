@@ -69,21 +69,20 @@ This walkthrough creates and executes a client streaming request, then saves the
 
 1. Select the gRPC example in the sidebar.
 
-    ![Select a gRPC example](https://assets.postman.com/postman-docs/v10/grpc-save-example-1select-example-1-v10.jpg)
+    ![Select a gRPC example](https://assets.postman.com/postman-docs/v10/grpc-save-example-1select-example-2-v10.jpg)
 
-1. In the response section, select the message you want to edit. The editor opens below the message.
+1. In the response section, select the **Status code** dropdown and select **2 UNKNOWN**.
+    > The status codes are automatically populated based on the protobuf schema.
 
-    ![Select a message](https://assets.postman.com/postman-docs/v10/grpc-save-example-2select-message-1-v10.jpg)
+    ![Select a status code](https://assets.postman.com/postman-docs/v10/grpc-save-example-2status-1-v10.jpg)
 
-1. Replace the `reply` response with `Not found` or any string.
+    The response updates automatically.
 
-1. Select the message again to close the editor.
-
-1. Hover over a message. A handle appears to the left of the message. Select and drag the handle to reposition the message in the timeline.
-
-    ![Reposition the message](https://assets.postman.com/postman-docs/v10/grpc-save-example-4reposition-2-v10.jpg)
+    ![Status code 2 Unknown](https://assets.postman.com/postman-docs/v10/grpc-save-example-2unknown-1-v10.jpg)
 
 1. Select **Save**.
+
+This walkthrough and the one before it use unary methods. The next walkthrough gives you a look at a streaming method and how its messages differ from unary methods.
 
 ## Creating a gRPC example from scratch
 
