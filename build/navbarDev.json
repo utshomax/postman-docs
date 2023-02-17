@@ -47,7 +47,7 @@
             "dropdown": "true",
             "columns": [
               {
-                "title": "Learn More",
+                "title": "Learn more",
                 "subItemsCol": [
                   {
                     "title": "Postman Enterprise",
