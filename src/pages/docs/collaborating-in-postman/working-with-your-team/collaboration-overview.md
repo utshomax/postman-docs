@@ -79,7 +79,7 @@ If you're an individual Postman user and join a team, you can choose to transfer
 * If the team has [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) enabled.
 * If the team has [domain capture](/docs/administration/managing-your-team/configuring-domain-capture/) enabled.
 
-When you leave a team, your personal workspaces within the team and their data will remain with the team and no longer be accessible to you. Personal workspaces in a team context equates to visibility and not data ownership.
+When you leave a team, your personal workspaces within the team and their data will remain with the team and no longer be accessible to you. (Personal workspaces in a team refers to workspace visibility and not data ownership.)
 
 ### Switching between teams
 
