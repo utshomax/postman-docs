@@ -93,18 +93,18 @@ This walkthrough creates and executes a client streaming request, then saves the
 
 1. Select **Add example**.
 
-    ![Select Add example](https://assets.postman.com/postman-docs/v10/grpc-create-example-1add-3-v10.jpg)
+    ![Select Add example](https://assets.postman.com/postman-docs/v10/grpc-create-example-1add-4-v10.jpg)
 
 1. An empty example opens in the workbench and appears below the request in the sidebar.
-    ![New example](https://assets.postman.com/postman-docs/v10/grpc-create-example-2save-3-v10.jpg)
+    ![New example](https://assets.postman.com/postman-docs/v10/grpc-create-example-2save-4-v10.jpg)
 
 1. Select the **Add a Message** dropdown and select **Message stream**.
 
-    ![Select Message stream](https://assets.postman.com/postman-docs/v10/grpc-create-example-3stream-1-v10.jpg)
+    ![Select Message stream](https://assets.postman.com/postman-docs/v10/grpc-create-example-3stream-2-v10.jpg)
 
-    This creates a dummy message stream automatically using the message structure defined in the protobuf schema.
+    This creates a sample message stream automatically using the message structure defined in the protobuf schema.
 
-    ![Dummy message stream](https://assets.postman.com/postman-docs/v10/grpc-create-example-4messages-v10.jpg)
+    ![Sample message stream](https://assets.postman.com/postman-docs/v10/grpc-create-example-4messages-1-v10.jpg)
 
 1. Select **Save**.
 
