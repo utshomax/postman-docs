@@ -14,7 +14,7 @@ contextual_links:
     name: "Receiving responses"
     url:  "/docs/sending-requests/responses/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -27,7 +27,7 @@ contextual_links:
     name: "Review Test Results in Postman | The Exploratory"
     url: "https://youtu.be/S3GKLTVRtmE"
   - type: dynamic_blog
-    name: "Blog Posts"
+    name: "Blog posts"
     blog_tag: "testing"
   - type: subtitle
     name: "Case Studies"
@@ -38,12 +38,12 @@ contextual_links:
     name: "VTEX monitors data by running tests every two minutes"
     url: "https://www.postman.com/case-studies/vtex/"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Test examples in Postman"
     url: "https://www.postman.com/postman/workspace/test-examples-in-postman/overview"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Test Examples"
     url: "/docs/writing-scripts/script-references/test-examples/"

@@ -9,7 +9,7 @@ contextual_links:
     name: "Creating an API"
     url: "/docs/designing-and-developing-your-api/creating-an-api/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -25,7 +25,7 @@ contextual_links:
     name: "OpenAPI 3.0: From Idea to Implementation"
     url: "https://www.youtube.com/live/JEBd78U9aBo?feature=share"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "The Reimagined API-First Workflow, Part 1: for Developers"
     url: "https://blog.postman.com/the-reimagined-api-first-workflow-for-developers/"
@@ -33,7 +33,7 @@ contextual_links:
     name: "Shifting Left with Postman"
     url: "https://blog.postman.com/shifting-left-with-postman/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Managing APIs"
     url: "/docs/designing-and-developing-your-api/managing-apis/"

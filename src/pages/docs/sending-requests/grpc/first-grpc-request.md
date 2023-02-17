@@ -13,7 +13,7 @@ contextual_links:
     name: "Working with gRPC | The Exploratory"
     url: "https://youtu.be/RbHOs2xchGE"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Public gRPC APIs"
     url:  "https://www.postman.com/devrel/workspace/public-grpc-apis"

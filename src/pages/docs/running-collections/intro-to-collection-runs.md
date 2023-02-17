@@ -12,7 +12,7 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -22,7 +22,7 @@ contextual_links:
     name: "Intro to Postman | Run a Collection"
     url: "https://youtu.be/8UR1NzuT7jg"
   - type: dynamic_blog
-    name: "Blog Posts"
+    name: "Blog posts"
     blog_tag: "collections"
   - type: subtitle
     name: "Case Studies"

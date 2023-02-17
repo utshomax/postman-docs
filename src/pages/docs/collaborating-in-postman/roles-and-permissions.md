@@ -11,7 +11,7 @@ contextual_links:
     name: "Working with your team"
     url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -21,7 +21,7 @@ contextual_links:
     name: "Working With Your Team in Postman | The Exploratory"
     url: "https://youtu.be/5lscUV-Exac"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Manage large teams in Postman with workspaces, permissions & more"
     url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"
@@ -165,7 +165,8 @@ The following roles control access at an API level:
 | Edit and delete APIs |  &#x2714;     |     |
 | Manage roles on APIs  |  &#x2714;   |   |
 | Share APIs  |   &#x2714;   | &#x2714;   |
-| Comment on APIs |   &#x2714;   | &#x2714;   |
+| Comment on APIs |   &#x2714;   |    |
+| Comment on published API versions |   &#x2714;   | &#x2714;   |
 | Create new API versions |  &#x2714;   |    |
 | Update schema |  &#x2714;   |    |
 | Generate collections from the schema |   &#x2714;  |    |

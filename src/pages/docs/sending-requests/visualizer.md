@@ -12,7 +12,7 @@ contextual_links:
     name: "Intro to scripts"
     url: "/docs/writing-scripts/intro-to-scripts/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -25,10 +25,10 @@ contextual_links:
     name: "Create a Custom OneSignal Dashboard Using Postman Visualizer"
     url: "https://youtu.be/Prgff3__-mw"
   - type: dynamic_blog
-    name: "Blog Posts"
+    name: "Blog posts"
     blog_tag: "visualizer"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Sample Visualizations"
     url: "https://www.postman.com/postman/workspace/sample-visualizations/overview"
