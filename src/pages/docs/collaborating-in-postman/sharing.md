@@ -130,7 +130,7 @@ If you aren't a Developer on a Free, Basic or Professional plan or a Team Admin 
 
 ### Allowing external users to view collections
 
-You can allow external users who aren't on your Postman team to view collections.
+You can allow external users who aren't in your Postman team to view collections.
 
 To allow external users to view a collection, do the following:
 
@@ -142,4 +142,6 @@ To allow external users to view a collection, do the following:
 
 > Anyone who has access to the collection URL can view the collection.
 
-Postman will require the external user to sign in to Postman before they can view the collection. External users who sign in to Postman using the collection URL are added to the team with the Guest role. To learn how to change an external user's role, see [Managing guests](/docs/administration/managing-your-team/managing-your-team/#managing-guests).
+Postman will require the external user to sign in to Postman before they can view the collection. External users who sign in to Postman using the collection URL are assigned the Guest role in the team. To learn how to change an external user's role, see [Managing guests](/docs/administration/managing-your-team/managing-your-team/#managing-guests).
+
+You can turn off the toggle next to **Allow people outside your team to view this collection**. When you turn this off, external users can no longer be assigned the Guest role. External users already assigned the Guest role will continue to have access to the collection. To remove external users already assigned the Guest role, see [Removing team members](/docs/administration/managing-your-team/managing-your-team/#removing-team-members).
