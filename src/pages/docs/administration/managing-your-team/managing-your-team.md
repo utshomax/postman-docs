@@ -37,6 +37,7 @@ Postman provides a variety of options to customize your team's experience, from 
     * [Removing team members](#removing-team-members)
     * [Managing team roles](#managing-team-roles)
     * [Managing partners](#managing-partners)
+    * [Managing guests](#managing-guests)
 * [Managing your team’s Postman plan](#managing-your-teams-postman-plan)
     * [Changing team size](#changing-team-size)
     * [Upgrading your plan](#upgrading-your-plan)
@@ -139,6 +140,12 @@ For full details about the Postman team roles that you can assign as a Team Admi
 > **[Partners are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 You can manage external partners similarly to internal team members. To learn more, see [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
+
+### Managing guests
+
+You can manage external users who have permission to view specific collections. External users who have permission to view a specific collection are assigned the Guest role. A Team Admin can change an external user's role to the Developer role by selecting **Convert**. When you change an external user's role from the Guest role to the Developer role, they are added to the team and get access to all team resources and workspaces.
+
+To learn more about sharing collections with external users, see [Allowing external users to view collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
 
 ## Managing your team’s Postman plan
 

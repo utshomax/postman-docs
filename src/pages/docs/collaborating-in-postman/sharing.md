@@ -48,6 +48,7 @@ To share your work using workspaces, you need to be signed in to your [Postman a
     * [Sharing using a Run in Postman button](#sharing-using-a-run-in-postman-button)
     * [Sharing using the Postman API](#sharing-using-the-postman-api)
 * [Sharing elements with external users](#sharing-elements-with-external-users)
+    * [Allowing external users to view collections](#allowing-external-users-to-view-collections)
 
 ## Sharing Postman elements
 
@@ -126,3 +127,19 @@ If you have a [Developer role](/docs/collaborating-in-postman/roles-and-permissi
 If you aren't a Developer on a Free, Basic or Professional plan or a Team Admin on any plan, a Team Admin must approve your request to share an element with an external user.
 
 > If your team has [SSO enabled](/docs/administration/sso/intro-sso/), external users will be required to sign in using your team's SSO.
+
+### Allowing external users to view collections
+
+You can allow external users who aren't on your Postman team to view collections.
+
+To allow external users to view a collection, do the following:
+
+1. From the element you want to share, select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share**.
+1. Select **With people**.
+1. Turn on the toggle next to **Allow people outside your team to view this collection**.
+1. Select the copy icon <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> to copy the collection URL.
+1. Send the collection URL to the external user who you want to view the collection.
+
+> Anyone who has access to the collection URL can view the collection.
+
+Postman will require the external user to sign in to Postman before they can view the collection. External users who sign in to Postman using the collection URL are added to the team with the Guest role. To learn how to change an external user's role, see [Managing guests](/docs/administration/managing-your-team/managing-your-team/#managing-guests).
