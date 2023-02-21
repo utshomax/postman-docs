@@ -134,7 +134,7 @@ You can allow external users who aren't in your Postman team to view collections
 
 To allow external users to view a collection, do the following:
 
-1. From the element you want to share, select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share**.
+1. From the collection you want to share, select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share**.
 1. Select **With people**.
 1. Turn on the toggle next to **Allow people outside your team to view this collection**.
 1. Select the copy icon <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> to copy the collection URL.
