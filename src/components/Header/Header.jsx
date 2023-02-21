@@ -75,7 +75,7 @@ const Header = (props) => {
   const [beta, setBeta] = useState('');
   const [cookie, setCookie] = useState('');
   const [hidden, setHidden] = useState(true);
-  const [data, setData] = useState(navbarDataLocal);
+  const [data, setData] = useState(navbarData);
   const [visibleHelloBar] = useState();
 
   useEffect(() => {
