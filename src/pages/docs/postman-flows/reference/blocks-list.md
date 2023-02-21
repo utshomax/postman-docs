@@ -118,21 +118,23 @@ Used as the entry point for [running flows on the cloud](/docs/postman-flows/run
 
 ### If
 
-<img alt="If block" src="https://assets.postman.com/postman-labs-docs/all-blocks/updated-if-block.png" width="245px"/>
+<img alt="If block" src="https://assets.postman.com/postman-labs-docs/all-blocks/refactored-if-block.png" width="245px"/>
 
 <!-- vale Postman.Spelling = NO -->
-  Takes an input boolean and data, and takes a different branch depending on the result.
+  Takes any number of variables and data, and takes a different branch depending on the result of the FQL condition.
 
-  **True/False** - Takes in a bool value.
+  **Variables** - Named data or assigned values.
+
+  **Text entry block** - Freeform query using FQL that evalutes to true or false.
 
   **Data** - Receives data or an event from another block.
 
-  **Outputs** - Sends the data to either the True or False pathway depending on the value of the bool sent in the first connection.
+  **Outputs** - Sends the data to either the True or False pathway depending on the value of the FQL condition.
 <!-- vale Postman.Spelling = YES -->
 
 ### Evaluate
 
-<img alt="Evaluate block" src="https://assets.postman.com/postman-labs-docs/all-blocks/evaluate-block.png" width="318px"/>
+<img alt="Evaluate block" src="https://assets.postman.com/postman-labs-docs/all-blocks/updated-evaluate-block.png" width="318px"/>
 
 Executes [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) syntax to query structured data.
 
@@ -220,3 +222,9 @@ Invokes a request in a collection.
 <img alt="Log (console) block" src="https://assets.postman.com/postman-labs-docs/all-blocks/log-block.png" width="78px"/>
 
 Prints the input to the console.
+
+### Output
+
+<img alt="Output block" src="https://assets.postman.com/postman-labs-docs/all-blocks/output-block.png" width="412px"/>
+
+Displays the data passed through the port. The drop down menu lets you select from JSON, charts, tables, videos, images, etc.
