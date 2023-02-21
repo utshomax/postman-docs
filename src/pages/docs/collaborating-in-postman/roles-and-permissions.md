@@ -165,7 +165,8 @@ The following roles control access at an API level:
 | Edit and delete APIs |  &#x2714;     |     |
 | Manage roles on APIs  |  &#x2714;   |   |
 | Share APIs  |   &#x2714;   | &#x2714;   |
-| Comment on APIs |   &#x2714;   | &#x2714;   |
+| Comment on APIs |   &#x2714;   |    |
+| Comment on published API versions |   &#x2714;   | &#x2714;   |
 | Create new API versions |  &#x2714;   |    |
 | Update schema |  &#x2714;   |    |
 | Generate collections from the schema |   &#x2714;  |    |

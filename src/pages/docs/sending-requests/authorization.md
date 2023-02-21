@@ -144,6 +144,7 @@ Postman also supports generating JWT bearer tokens to authorize requests. You ca
 
 * **Secret** - The secret that’s used with the HMAC-SHA algorithm.
 * **Secret Base64 encoded** - If the secret is encoded in the base-64 format.
+* **Private key** - The private key for signing the token for RS, ES, and PS algorithms. Select **Select file** to upload a private key in PKCS #8 format.
 
 * **Payload** - Enter the payload data for your JWT token, in JSON format.
 
