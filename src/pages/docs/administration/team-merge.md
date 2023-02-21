@@ -98,7 +98,7 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 
 ### Performing centralized migration
 
-* The appointed Admin on the original team will inherit ownership of all shared and unshared data. To do this they can [access the existing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#accessing-workspaces).
+* The appointed Admin on the original team will inherit ownership of all shared and unshared data.
     * Data from team workspaces you haven't joined won't be present in the export.
     * By default, the person who imports a collection or environment is automatically assigned the Editor role (learn more about [roles](/docs/collaborating-in-postman/roles-and-permissions/)). Everyone else on the team will be assigned as Viewer.
 * [Export all data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) at once with a [JSON data dump](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
