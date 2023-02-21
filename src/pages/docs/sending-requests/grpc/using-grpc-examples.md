@@ -86,7 +86,7 @@ This walkthrough edits a gRPC example.
 
 ## Creating a gRPC example from scratch
 
-This walkthrough uses a streaming method to create a gRPC example. Note how streaming methods' messages differ from unary methods' messages.
+This walkthrough uses a streaming method to create a gRPC example. Note how streaming method messages differ from unary method messages.
 
 1. Create a gRPC request with the `LotsOfReplies` method (or any streaming method) and save it to a collection.
 
