@@ -35,7 +35,7 @@ APIs can be complex, and so can the guidelines for using them. Examples help you
 
 ## Saving a gRPC example
 
-This walkthrough creates and executes a client streaming request, then saves the response as a gRPC example.
+This walkthrough creates and executes a unary request, then saves the response as a gRPC example.
 
 > If you are using the Postman web app, you must use the Postman Desktop Agent. See [About the Postman Agent](/docs/getting-started/about-postman-agent/) for more information.
 
@@ -65,7 +65,9 @@ This walkthrough creates and executes a client streaming request, then saves the
 
 ## Editing a gRPC example
 
-1. [Create a gRPC request, save it to a collection, and save a gRPC example.](#saving-a-grpc-example)
+This walkthrough edits a gRPC example.
+
+1. [Create a unary gRPC request, save it to a collection, and save a gRPC example.](#saving-a-grpc-example)
 
 1. Select the gRPC example in the sidebar.
 
@@ -82,9 +84,9 @@ This walkthrough creates and executes a client streaming request, then saves the
 
 1. Select **Save**.
 
-This walkthrough and the one before it use unary methods. The next walkthrough gives you a look at a streaming method and how its messages differ from unary methods.
-
 ## Creating a gRPC example from scratch
+
+This walkthrough uses a streaming method to create a gRPC example. Note how streaming methods' messages differ from unary methods' messages.
 
 1. Create a gRPC request with the `LotsOfReplies` method (or any streaming method) and save it to a collection.
 
