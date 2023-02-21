@@ -703,6 +703,8 @@ $fromMillis(1539387540000, '[Y]-[M]-[D] [H]:[m]:[s] [z]')
 
 ## Get the day/month/year from a date
 
+The `$year()`, `$month()`, and `$day()` functions return their respective components from a year-month-day date format.
+
 ### FQL
 
 ``` javascript
@@ -716,6 +718,8 @@ $year('2023-02-11') & '-' & $month('2023-02-11') & '-' & $day('2023-02-11')
 ```
 
 ## Get the time from a date
+
+The `$hours()`, `$minutes()`, `$seconds()`, and `$milliseconds()` functions return their respective values from a given date. The example below uses the `$now()` function for the date.
 
 ### FQL
 
@@ -731,7 +735,7 @@ $hours($now()) & ':' & $minutes($now()) & ':' & $seconds($now()) & ':' & $milliS
 
 ## Get the day of the week from a date
 
-0=Sunday, 1=Monday,...etc
+The `$dayOfTheWeek()` function accepts a date and returns a number corresponding to a day of the week. `0` is Sunday, `1` is Monday, and so on.
 
 ### FQL
 
@@ -746,6 +750,8 @@ $dayOfTheWeek($now())
 ```
 
 ## Compare two dates
+
+The `$hasSameDate()` function accepts two or more dates with parameters specifying values in the dates. The function compares the values specified by the parameters and returns `true` if they are identical, or `false` if they are not.
 
 ### FQL
 
