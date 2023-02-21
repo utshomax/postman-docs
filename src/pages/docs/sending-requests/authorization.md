@@ -1,7 +1,5 @@
 ---
 title: "Authorizing requests"
-order: 22
-page_id: "authorization"
 updated: 2022-12-12
 search_keyword: "WWW-Authenticate, x-www-form-urlencoded"
 contextual_links:
@@ -36,9 +34,6 @@ contextual_links:
   - type: link
     name: "Troubleshooting your Requests"
     url: "/docs/sending-requests/troubleshooting-api-requests/"
-
-warning: false
-
 ---
 
 APIs use authorization to ensure that client requests access data securely. This can involve authenticating the sender of a request and confirming that they have permission to access or manipulate the relevant data. If you're building an API, you can choose from a variety of auth models. If you're integrating a third-party API, the required authorization will be specified by the API provider.
@@ -304,7 +299,7 @@ Enter the provider's __Access Token URL__, together with the __Client ID__ and _
 
 The full list of parameters to request a new access token is as follows, depending on your grant type.
 
-On the **Configuration Options** tab:
+On the **Configuration Options** tab, enter details about the token:
 
 * **Token Name** - The name you want to use for the token.
 * **Grant Type** - A dropdown list of options. This will depend on the API service provider requirements.
@@ -318,10 +313,7 @@ On the **Configuration Options** tab:
 * **State** - An opaque value to prevent cross-site request forgery.
 * **Client Authentication** - Send a Basic Auth request in the header, or client credentials in the request body. After upgrading to a new version, change the value here to avoid problems with client authentication.
 
-On the **Advanced Options** tab:
-
-* **Resource** - A URI that indicates the resource or target service where the token is intended to be used.
-* **Audience** - A URI that indicates the target audience or service where the token is intended to be used.
+On the **Advanced Options** tab, define any custom parameters you want to send with auth requests, token requests, or refresh requests. For each key-value pair you define, select an option to send the parameter in the request body or the request URL.
 
 When your config is complete, select __Get New Access Token__.
 
