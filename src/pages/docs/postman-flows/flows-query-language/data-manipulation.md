@@ -767,6 +767,8 @@ true
 
 ## Increase a date by one day
 
+The `$datePlus()` function accepts a date (formatted as `YYYY-MM-DD` or milliseconds since epoch), the number of units you want to add, and the date component you want to advance (`years`, `months`, `days`, `hours`, `minutes`, `seconds`, or `milliseconds`). The function returns the increased date as milliseconds since epoch.
+
 ### FQL
 
 ``` javascript
@@ -780,6 +782,8 @@ $datePlus('2023-02-07', 1, 'days')
 ```
 
 ## Get the difference betwen two dates
+
+The `$diffDate()` function accepts two dates (formatted as `YYYY-MM-DD` or milliseconds since epoch) and a component of each date (`years`, `months`, `days`, `hours`, `minutes`, `seconds`, or `milliseconds`), then returns the difference between the two dates' component.
 
 ### FQL
 
