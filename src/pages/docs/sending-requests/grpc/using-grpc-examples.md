@@ -149,6 +149,8 @@ This walkthrough creates two gRPC saved examples with different request messages
 
 1. Select the gRPC request.
 
-1. Select the drop-down list next to Use Example Message and notice the messages from all the examples under the request and how they are grouped under their respective saved example names.
+1. Select the drop-down list next to Use Example Message. Notice the messages from all the examples under the request and how they are grouped under their respective saved example names.
 
-1. Select a message from the dropdown list and save the request.
+1. Select a message from the list. You can scroll or search for a specific string.
+
+1. Select **Save**.
