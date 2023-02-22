@@ -339,13 +339,13 @@ If authentication fails or times out, Postman will display an error message. You
 
 Before an OAuth 2.0 token generated in Postman expires, Postman automatically refreshes it in the background before you send a request that uses it. The refreshed access token is updated in any requests that it's used in. Auto-refreshing is the default behavior.
 
-To turn this feature off or on, select **Auto-refresh access token**.
+To turn this feature off or on, select **Auto-refresh access token**. To manually refresh a token, select **Refresh** next to the token expiration time.
+
+Auto-refresh is available when a refresh token is present. If no refresh token is present, the **Auto-fresh access token** toggle and the manual **Refresh** option aren't available. To check if a refresh token is present, select **Manage Tokens** in the **Token** dropdown list.
 
 <img alt="Auto-refresh an OAuth 2.0 access token" src="https://assets.postman.com/postman-docs/v10/authorization-oauth2-auto-refresh-v10.jpg" width="500px"/>
 
-To manually refresh a token, select **Refresh** next to the token expiration time.
-
-> Auto-refresh is only available when manually sending the request, and not for scheduled runs or monitors on the same collection.
+> You can use auto-refresh when manually sending the request. Auto-refresh isn't used for scheduled runs or monitors for the same collection.
 
 #### Sharing an OAuth 2.0 access token
 
@@ -364,7 +364,7 @@ After you revoke access, other users with access to the request won't be able to
 
 Postman supports using access tokens or ID tokens for OAuth 2.0 authorization. An _access token_ enables an OAuth client to make calls to an API. An _ID token_ contains information about the authenticated user. This information can be used by an OAuth client to customize their experience.
 
-If an ID token is present, you can select the token type (**Access token** or **ID token**) in the **Use Token Type** dropdown list. (If no ID token is present, this dropdown list isn't available.)
+If an ID token is present, you can select the token type (**Access token** or **ID token**) in the **Use Token Type** dropdown list. If no ID token is present, this dropdown list isn't available. To check if an ID token is present, select **Manage Tokens** in the **Token** dropdown list.
 
 <img alt="Change the OAuth 2.0 token type" src="https://assets.postman.com/postman-docs/v10/authorization-oauth2-token-type-v10.jpg" width="500px"/>
 
