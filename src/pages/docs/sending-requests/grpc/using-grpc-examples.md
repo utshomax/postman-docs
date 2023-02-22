@@ -126,3 +126,29 @@ This walkthrough uses a streaming method to create a gRPC example. Note how stre
 1. Enter your documentation for the gRPC example and select **Save**.
 
     ![Save documentation](https://assets.postman.com/postman-docs/v10/grpc-doc-example-1save-1-v10.jpg)
+
+## Using messages from saved examples
+
+When you want to add an example message to your gRPC request, you can select from a list that shows all the messages in all the examples associated with that request. This is much easier and faster than opening and reviewing each saved example’s messages individually.
+
+This walkthrough creates two gRPC saved examples with different request messages and shows how to add the messages to a gRPC request.
+
+1. Create a gRPC request with the URL `grpc.postman-echo.com` and the `SayHello` method.
+
+1. Select **Use Example Message**. A message from the protobuf schema appears in the request section.
+
+1. Save the request to a collection.
+
+1. Invoke the request and save the example. Name the example `Example 1`.
+
+1. Hover over the example you saved and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
+
+1. Select **Duplicate** and name the new example `Example 2`.
+
+1. Edit the saved example's request message to include your name (or any string) and select **Save**.
+
+1. Select the gRPC request.
+
+1. Select the drop-down list next to Use Example Message and notice the messages from all the examples under the request and how they are grouped under their respective saved example names.
+
+1. Select a message from the dropdown list and save the request.
