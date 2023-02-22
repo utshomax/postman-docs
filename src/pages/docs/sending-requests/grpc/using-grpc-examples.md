@@ -133,13 +133,17 @@ When you want to add an example message to your gRPC request, you can select fro
 
 This walkthrough creates two gRPC saved examples with different request messages and shows how to add the messages to a gRPC request.
 
-1. Create a gRPC request with the URL `grpc.postman-echo.com` and the `SayHello` method.
+1. Create a gRPC request with the URL `grpc.postman-echo.com` and the `SayHello` method, and add it to a collection.
 
 1. Select **Use Example Message**. A message from the protobuf schema appears in the request section.
 
-1. Save the request to a collection.
+    ![Use Example Message](https://assets.postman.com/postman-docs/v10/grpc-message-example-1-v10.jpg)
 
-1. Invoke the request and save the example. Name the example `Example 1`.
+1. Select **Save**.
+
+1. Select **Invoke** and [save the example](#saving-a-grpc-example). Name the example `Example 1`.
+
+    ![Example 1](https://assets.postman.com/postman-docs/v10/grpc-message-example1-1-v10.jpg)
 
 1. Hover over the example you saved and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
@@ -147,9 +151,13 @@ This walkthrough creates two gRPC saved examples with different request messages
 
 1. Edit the `Example 2` request message to include your name (or any string) and select **Save**.
 
+    ![Example 2](https://assets.postman.com/postman-docs/v10/grpc-message-example2-1-v10.jpg)
+
 1. Select the gRPC request.
 
-1. Select the drop-down list next to **Use Example Message**. The messages from both examples appear, grouped under their respective saved example names.
+1. Select the dropdown list next to **Use Example Message**. The messages from both examples appear, grouped under their respective saved example names.
+
+    ![Example messages dropdown](https://assets.postman.com/postman-docs/v10/grpc-message-save-1-v10.jpg)
 
 1. Select a message from the list. You can scroll through the list or enter a string in the search bar.
 
