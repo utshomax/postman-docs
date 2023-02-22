@@ -143,7 +143,9 @@ You can manage external partners similarly to internal team members. To learn mo
 
 ### Managing guests
 
-You can manage external users who have permission to view specific collections. External users who have permission to view a specific collection are assigned the Guest role. A Team Admin can change an external user's role to the Developer role by selecting **Convert**. When you change an external user's role from the Guest role to the Developer role, they are added to the team and get access to all team resources and workspaces.
+You can manage external users who have permission to view specific collections and send requests in the collections. External users with these permissions are assigned the [Guest role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). A Team Admin can change an external user's role to the Developer role by selecting **Convert**. When you change an external user's role from the Guest role to the Developer role, they are added to the team and get access to all team resources and workspaces.
+
+![Convert Guest role](https://assets.postman.com/postman-docs/v10/convert-guest-role-v10.jpg)
 
 > Your team must have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#using-auto-flex) to change an external user's role from the Guest role to the Developer role.
 

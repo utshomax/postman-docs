@@ -69,7 +69,7 @@ You can share collections, APIs, and environments directly with collaborators, i
 1. If you have an Editor role for the element you are sharing, you can give your new collaborators a **Viewer** or **Editor** [role](/docs/collaborating-in-postman/roles-and-permissions/) on the element. If you have a Viewer role for the element, you can share it, but you won't be able to assign roles.
 1. Select **Share Collection**.
 
-<img alt="Share a collection using name, email, or group" src="https://assets.postman.com/postman-docs/v10/share-element-with-people-v10.jpg"/>
+<img alt="Share a collection using name, email, or group" src="https://assets.postman.com/postman-docs/v10/share-element-with-people-v10-2.jpg"/>
 
 Postman will tell the individual team members and groups you shared the element with about your request to collaborate.
 
@@ -90,7 +90,7 @@ You can share collections in a website or README with a Run in Postman button.
 
 For more information on making and using a Run in Postman button, read [Creating Run in Postman buttons](/docs/publishing-your-api/run-in-postman/creating-run-button/).
 
-<img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/v10/share-collection-run-in-postman-v10.jpg"/>
+<img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/v10/share-collection-run-in-postman-v10-2.jpg"/>
 
 ### Sharing using the Postman API
 
@@ -110,11 +110,11 @@ Anyone with this link has read-only access to the collection's JSON. The data th
 
 > Collection JSON links expire after 60 days of inactivity.
 
-<img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/v10/share-collection-via-api-v10.jpg"/>
+<img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/v10/share-collection-via-api-v10-2.jpg"/>
 
 If you want to share a link with other users, select **Link to collection in public workspace** to provide a link to the collection. Anyone with this link can view and fork your collection.
 
-<img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/v10/share-collection-link-v10.jpg"/>
+<img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/v10/share-collection-link-v10-2.jpg"/>
 
 ## Sharing elements with external users
 
@@ -130,13 +130,16 @@ If you aren't a Developer on a Free, Basic or Professional plan or a Team Admin 
 
 ## Allowing external users to view collections
 
-You can allow external users who aren't in your Postman team to view a specific collection. Once you allow external users to view a specific collection, send them the collection URL to view the collection.
+You can allow external users who aren't in your Postman team to view a specific collection and send requests in that collection. Once you allow external users to view a specific collection, send them the collection URL to view the collection.
 
 1. From the collection you want to share, select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share**.
 1. Select **With people**.
-1. Turn on the toggle next to **Allow people outside your team to view this collection**.
-1. Select **Copy Link** <!--the copy icon <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> -->to copy the collection URL.
-1. Send the collection URL to external users who you want to view the collection. Postman requires external users to sign in to Postman before they can view the collection. External users who sign in to Postman using the collection URL are assigned the Guest role in the team.
+1. Turn on the toggle next to **Allow Guests with link to view collection**.
+1. Select **Copy Link** to copy the collection URL.
+
+    ![Copy collection URL](https://assets.postman.com/postman-docs/v10/copy-guest-link-collection-v10-2.jpg)
+
+1. Send the collection URL to external users who you want to view the collection. Postman requires external users to sign in to Postman before they can view the collection. External users who sign in to Postman using the collection URL are assigned the [Guest role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) in the team.
 
 > Anyone who has access to the collection URL can view the collection.
 
@@ -144,4 +147,4 @@ The collection must be in a team workspace. If the collection is in a personal o
 
 To learn how to change an external user's role, see [Managing guests](/docs/administration/managing-your-team/managing-your-team/#managing-guests). To learn how an external user can request a role change, see [Requesting Editor role access for a collection as an external user](/docs/collaborating-in-postman/requesting-access-to-collections/#requesting-editor-role-access-for-a-collection-as-an-external-user).
 
-You can turn off the toggle next to **Allow people outside your team to view this collection**. When you turn this off, external users can no longer be assigned the Guest role. External users already assigned the Guest role will continue to have access to the collection. To remove external users already assigned the Guest role, see [Removing team members](/docs/administration/managing-your-team/managing-your-team/#removing-team-members).
+You can turn off the toggle next to **Allow Guests with link to view collection**. When you turn this off, external users can no longer be assigned the Guest role. External users already assigned the Guest role will continue to have access to the collection. To remove external users already assigned the Guest role, see [Removing team members](/docs/administration/managing-your-team/managing-your-team/#removing-team-members).

@@ -75,6 +75,8 @@ You can request Editor role access for a collection if you're an [external user 
 1. Select the collection.
 1. Select **Request to Edit**.
 
+![Request Editor role](https://assets.postman.com/postman-docs/v10/guest-role-request-to-edit-v10.jpg)
+
 Postman will send in-app and email notifications to team members with Editor role access on the collection.
 
 ## Approving requests for access
