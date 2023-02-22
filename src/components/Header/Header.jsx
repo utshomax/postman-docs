@@ -4,9 +4,9 @@ import Dropdown from './Dropdown';
 import $ from 'jquery';
 import {PrimaryNavbarV6, SecondaryNavbarV6, NavStyles, DropdownStyles, CTAButton} from './HeaderStyles.jsx' ;
 import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
-// import navbarData from '../../../bff-data/navbar.json';
-
-// For local TOPNAVBAR TESTING
+// prod nav data
+import navbarData from '../../../bff-data/navbar.json';
+// fallback nav data
 import navbarDataLocal from '../../../build/navbarDev.json';
 
 // Get Cookie for Sign In toggler
@@ -75,7 +75,7 @@ const Header = (props) => {
   const [beta, setBeta] = useState('');
   const [cookie, setCookie] = useState('');
   const [hidden, setHidden] = useState(true);
-  const [data, setData] = useState(navbarDataLocal);
+  const [data, setData] = useState(navbarData);
   const [visibleHelloBar] = useState();
 
   useEffect(() => {
@@ -84,12 +84,13 @@ const Header = (props) => {
 
     setCookie(cookie);
     setBeta(beta);
+    const navbarKeys = ['items', 'media', 'type'];
 
-    // FOR LOCAL TOP NAVBAR TESTING: comment in navbarDataLocal import and below
-    // **************************************************************************
-    // if (process.env.NODE_ENV === 'development') { 
-    //   setData(navbarDataLocal);
-    // }
+    if (navbarKeys.every(key => Object.keys(navbarData).includes(key))) {
+      setData(navbarData)
+    } else {
+      setData(navbarDataLocal)
+    }
 
     const { waitBeforeShow } = props;
 
@@ -410,7 +411,7 @@ const Header = (props) => {
                 </a>
               </li>
             </ul>
-            {/* Aloglia Widgets */}
+            {/* Algolia Widgets */}
             <SearchWrapperStyling className="form-inline header__search">
               <svg
                 className="nav-search__icon"
