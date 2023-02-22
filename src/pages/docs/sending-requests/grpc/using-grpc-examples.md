@@ -145,7 +145,7 @@ This walkthrough creates two gRPC saved examples with different request messages
 
     ![Example 1](https://assets.postman.com/postman-docs/v10/grpc-message-example1-1-v10.jpg)
 
-1. Hover over the example you saved and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
+1. In the sidebar, hover over the example you saved and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
 1. Select **Duplicate** and name the new example `Example 2`.
 
@@ -153,12 +153,12 @@ This walkthrough creates two gRPC saved examples with different request messages
 
     ![Example 2](https://assets.postman.com/postman-docs/v10/grpc-message-example2-1-v10.jpg)
 
-1. Select the gRPC request.
+1. In the sidebar, select the gRPC request.
 
-1. Select the dropdown list next to **Use Example Message**. The messages from both examples appear, grouped under their respective saved example names.
+1. Select the dropdown list next to **Use Example Message**. The messages from both saved examples appear, grouped under their respective saved example names.
 
     ![Example messages dropdown](https://assets.postman.com/postman-docs/v10/grpc-message-save-1-v10.jpg)
 
-1. Select a message from the list. You can scroll through the list or enter a string in the search bar.
+1. Select a message from the list.
 
 1. Select **Save**.
