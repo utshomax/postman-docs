@@ -2,7 +2,7 @@
 title: "Sharing your work"
 order: 73.1
 page_id: "sharing"
-updated: 2022-11-30
+updated: 2023-02-22
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -48,7 +48,7 @@ To share your work using workspaces, you need to be signed in to your [Postman a
     * [Sharing using a Run in Postman button](#sharing-using-a-run-in-postman-button)
     * [Sharing using the Postman API](#sharing-using-the-postman-api)
 * [Sharing elements with external users](#sharing-elements-with-external-users)
-    * [Allowing external users to view collections](#allowing-external-users-to-view-collections)
+* [Allowing external users to view collections](#allowing-external-users-to-view-collections)
 
 ## Sharing Postman elements
 
@@ -120,7 +120,7 @@ If you want to share a link with other users, select **Link to collection in pub
 
 > Your team must have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#using-auto-flex) to invite more team members.
 
-When you share a collection, external users who aren't on your Postman team will receive an invitation to join your team right away if you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
+When you [share a collection](#sharing-postman-elements), external users who aren't on your Postman team will receive an invitation to join your team right away if you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
 
 If you have a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) on your team and you are on a Free, Basic, or Professional plan, external users you share an element with are added to your team as Developers automatically, without the need for approval by a Team Admin.
 
@@ -128,20 +128,20 @@ If you aren't a Developer on a Free, Basic or Professional plan or a Team Admin 
 
 > If your team has [SSO enabled](/docs/administration/sso/intro-sso/), external users will be required to sign in using your team's SSO.
 
-### Allowing external users to view collections
+## Allowing external users to view collections
 
-You can allow external users who aren't in your Postman team to view collections.
-
-To allow external users to view a collection, do the following:
+You can allow external users who aren't in your Postman team to view a specific collection. Once you allow external users to view a specific collection, send them the collection URL to view the collection.
 
 1. From the collection you want to share, select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share**.
 1. Select **With people**.
 1. Turn on the toggle next to **Allow people outside your team to view this collection**.
-1. Select the copy icon <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> to copy the collection URL.
-1. Send the collection URL to the external user who you want to view the collection.
+1. Select **Copy Link** <!--the copy icon <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> -->to copy the collection URL.
+1. Send the collection URL to external users who you want to view the collection. Postman requires external users to sign in to Postman before they can view the collection. External users who sign in to Postman using the collection URL are assigned the Guest role in the team.
 
 > Anyone who has access to the collection URL can view the collection.
 
-Postman will require the external user to sign in to Postman before they can view the collection. External users who sign in to Postman using the collection URL are assigned the Guest role in the team. To learn how to change an external user's role, see [Managing guests](/docs/administration/managing-your-team/managing-your-team/#managing-guests).
+The collection must be in a team workspace. If the collection is in a personal or private workspace, external users will be unable to view the collection. For more information, see [Collaborating in team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/).
+
+To learn how to change an external user's role, see [Managing guests](/docs/administration/managing-your-team/managing-your-team/#managing-guests). To learn how an external user can request a role change, see [Requesting Editor role access for a collection as an external user](/docs/collaborating-in-postman/requesting-access-to-collections/#requesting-editor-role-access-for-a-collection-as-an-external-user).
 
 You can turn off the toggle next to **Allow people outside your team to view this collection**. When you turn this off, external users can no longer be assigned the Guest role. External users already assigned the Guest role will continue to have access to the collection. To remove external users already assigned the Guest role, see [Removing team members](/docs/administration/managing-your-team/managing-your-team/#removing-team-members).
