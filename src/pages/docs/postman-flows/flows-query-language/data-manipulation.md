@@ -493,54 +493,6 @@ $formatBase(3000, 16)
 "bb8"
 ```
 
-## Format a number with decimals and dollar sign
-
-The `$formatNumber()` function formats the given number with a dollar sign and two decimal places.
-
-### FQL
-
-``` javascript
-$formatNumber(4593, '$#,###.00')
-```
-
-### Result
-
-``` json
-"$4,593.00"
-```
-
-## Convert a number into words
-
-The `$formatInteger` function converts numbers into their written-out forms or roman numerals. The example below converts the number `493840` into the string "four hundred and ninety-three thousand, eight hundred and forty". Using `I` instead of `w` in the example below would return roman numerals instead of words.
-
-### FQL
-
-``` javascript
-$formatInteger(493840, 'w')
-```
-
-### Result
-
-``` json
-"four hundred and ninety-three thousand, eight hundred and forty"
-```
-
-## Convert words into a number
-
-The `$parseInteger` function converts written-out numbers or roman numerals into numeric values. The example below converts the string "four hundred and ninety-three thousand, eight hundred and forty" into the number `493840`. Using `I` instead of `w` in the example below would convert roman numerals instead of words.
-
-### FQL
-
-``` javascript
-$parseInteger("four hundred and ninety-three thousand, eight hundred and forty", 'w')
-```
-
-### Result
-
-``` json
-493840
-```
-
 ## Generate a new random invoice number
 
 The `$round($random())` function generates a random whole number. The example below generates a random whole number between 1 and 1000 and returns the number appended to the string "Invoice number ".

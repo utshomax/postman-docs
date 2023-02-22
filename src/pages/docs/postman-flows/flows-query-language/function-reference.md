@@ -17,6 +17,7 @@ All [Flows Query Language](/docs/postman-flows/flows-query-language/introduction
 * [count](#count)
 * [decodeUrl](#decodeUrl)
 * [decodeUrlComponent](#decodeUrlComponent)
+* [deleteKeys](#deleteKeys)
 * [distinct](#distinct)
 * [each](#each)
 * [encodeUrl](#encodeUrl)
@@ -26,8 +27,6 @@ All [Flows Query Language](/docs/postman-flows/flows-query-language/introduction
 * [filter](#filter)
 * [floor](#floor)
 * [formatBase](#formatBase)
-* [formatInteger](#formatInteger)
-* [formatNumber](#formatNumber)
 * [fromMillis](#fromMillis)
 * [join](#join)
 * [json](#json)
@@ -43,7 +42,6 @@ All [Flows Query Language](/docs/postman-flows/flows-query-language/introduction
 * [number](#number)
 * [not](#not)
 * [pad](#pad)
-* [parseInteger](#parseInteger)
 * [partition](#partition)
 * [power](#power)
 * [replace](#replace)
@@ -210,6 +208,18 @@ $decodeUrlComponent($val: string) => string //decodes string from a component fo
 $decodeUrlComponent("%3Fx%3Dtest") -> "?x=test"
 ```
 
+## deleteKeys
+
+``` javascript
+$deleteKeys($obj:Object, $keys: Array<string> ) => Object //Deletes the $key(s) from an $obj.
+```
+
+### Basic usage
+
+``` javascript
+$deleteKeys({'a': 1, 'b': 2, 'c':3}, ['b', 'c']) -> { 'a': 1 }
+```
+
 ## distinct
 
 ``` javascript
@@ -330,34 +340,6 @@ $formatBase($num: number, $base?: number) => string //converts $num to a string 
 
 ``` javascript
 $formatBase(100, 2) -> "1100100"
-```
-
-## formatInteger
-
-``` javascript
-$formatInteger($num: number, $format: string) => string //formats $num using the $format string. The picture is in fn:format-integer as defined in the XPath F&O 3.1 specification
-```
-
-### Basic usage
-
-``` javascript
-$formatInteger(2789, 'w') -> "two thousand, seven hundred and eighty-nine"
-$formatInteger(1999, 'I') -> "MCMXCIX"
-```
-
-## formatNumber
-
-``` javascript
-$formatNumber($num: number, $picture?: string) => string //formats $num using the optional $picture string. The $picture uses decimal format section of the XPath F&O 3.1 specification
-```
-
-### Basic usage
-
-``` javascript
-$formatNumber(12345.6, '#,###.00') -> "12,345.60"
-$formatNumber(1234.5678, "00.000e0") -> "12.346e2"
-$formatNumber(34.555, "#0.00;(#0.00)") -> "34.56"
-$formatNumber(-34.555, "#0.00;(#0.00)") -> "(34.56)"
 ```
 
 ## fromMillis
@@ -567,19 +549,6 @@ $pad($str: string, $length: number, $pad?: string) => string //returns a copy of
 ``` javascript
 $pad("foo", 5) -> "foo  "
 $pad("foo", 5, "-") -> "foo--"
-```
-
-## parseInteger
-
-``` javascript
-$parseInteger($str: string, $picture: string) => number //parses $str using the $picture string. The picture is in fn:format-integer as defined in the XPath F&O 3.1 specification
-```
-
-### Basic usage
-
-``` javascript
-$parseInteger("twelve thousand, four hundred and seventy-six", 'w') -> 12476
-$parseInteger('12,345,678', '#,##0') -> 12345678
 ```
 
 ## partition
