@@ -441,6 +441,10 @@ export const leftNavItems = [
             name: 'Manipulating data',
             url: '/docs/postman-flows/flows-query-language/data-manipulation/',
           },
+          {
+            name: 'Function reference',
+            url: '/docs/postman-flows/flows-query-language/function-reference/',
+          },
         ],
       },
       {
