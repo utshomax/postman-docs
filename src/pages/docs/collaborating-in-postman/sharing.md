@@ -49,6 +49,7 @@ To share your work using workspaces, you need to be signed in to your [Postman a
     * [Sharing using the Postman API](#sharing-using-the-postman-api)
 * [Sharing elements with external users](#sharing-elements-with-external-users)
 * [Allowing external users to view collections](#allowing-external-users-to-view-collections)
+    * [Changing external user access to collections](#changing-external-user-access-to-collections)
 
 ## Sharing Postman elements
 
@@ -139,12 +140,28 @@ You can allow external users who aren't in your Postman team to view a specific 
 
     ![Copy collection URL](https://assets.postman.com/postman-docs/v10/copy-guest-link-collection-v10-2.jpg)
 
-1. Send the collection URL to external users who you want to view the collection. Postman requires external users to sign in to Postman before they can view the collection. External users who sign in to Postman using the collection URL are assigned the [Guest role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) in the team.
+1. Send the collection URL to external users who you want to view the collection. Postman requires external users to sign in to Postman before they can view the collection. External users who sign in to Postman using the collection URL are assigned the [Guest role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) at the team level and a limited [Viewer role](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) at the collection level.
 
 > Anyone who has access to the collection URL can view the collection.
 
 The collection must be in a team workspace. If the collection is in a personal or private workspace, external users will be unable to view the collection. For more information, see [Collaborating in team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/).
 
-To learn how to change an external user's role, see [Managing guests](/docs/administration/managing-your-team/managing-your-team/#managing-guests). To learn how an external user can request a role change, see [Requesting Editor role access for a collection as an external user](/docs/collaborating-in-postman/requesting-access-to-collections/#requesting-editor-role-access-for-a-collection-as-an-external-user).
+### Changing external user access to collections
 
-You can turn off the toggle next to **Allow Guests with link to view collection**. When you turn this off, external users can no longer be assigned the Guest role. External users already assigned the Guest role will continue to have access to the collection. To remove external users already assigned the Guest role, see [Removing team members](/docs/administration/managing-your-team/managing-your-team/#removing-team-members).
+You can change an external user's role at the team and collection levels. You can also revoke access to viewing collections for new and existing external users.
+
+To learn how to change an external user's team role, see [Managing guests](/docs/administration/managing-your-team/managing-your-team/#managing-guests). To learn how an external user can request a role change, see [Requesting Editor role access for a collection as an external user](/docs/collaborating-in-postman/requesting-access-to-collections/#requesting-editor-role-access-for-a-collection-as-an-external-user).
+
+You can turn off the toggle next to **Allow Guests with link to view collection**. When you turn this off, external users can no longer be assigned the Guest role at the team level and the limited Viewer role at the collection level. External users already assigned the Guest role at the team level and the limited Viewer role at the collection level will continue to have access to the collection.
+
+To remove external users at the team level, see [Removing team members](/docs/administration/managing-your-team/managing-your-team/#removing-team-members).
+
+To remove external users at the collection level, do the following:
+
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name and select **Manage roles**.
+1. Select **Remove** for the users you want to revoke access to the collection.
+1. Select **Update Roles**.
+
+    ![Remove external user at collection level](https://assets.postman.com/postman-docs/v10/remove-guest-role-at-collection-level-v10.jpg)
+
+> Removing external users from collections doesn't revoke their access to the workspace the collection is in. To revoke their entire access to the team, see [Removing team members](/docs/administration/managing-your-team/managing-your-team/#removing-team-members).
