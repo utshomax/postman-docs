@@ -149,4 +149,4 @@ This walkthrough shows how to easly add messages to a client-streaming request.
 
 1. Open the dropdown again and select a different message.
 
-    You can see how this simplifies things when you're invoking a client streaming method and you need to send multiple message payloads in one go.
+You can see how this simplifies things when you're invoking a client streaming method and you need to send multiple message payloads in one go.
