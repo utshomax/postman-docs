@@ -1,6 +1,6 @@
 ---
 title: 'Adding elements to an API'
-updated: 2022-09-15
+updated: 2023-03-15
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -27,8 +27,6 @@ contextual_links:
 ---
 
 Your API in Postman can include more than an API definition. You can add elements such as collections to help you document and test your API.
-
-<!-- To add an element, it must be in the same workspace as your API. The element will inherit the [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) of the API you are adding it to. -->
 
 > When you add a collection, an independent copy of the collection is added to the API. The copy in the API will no longer be in sync with the original. If you move or delete an API, any collections contained in the API are moved or deleted with it.
 
@@ -74,18 +72,6 @@ To generate a new collection from your API definition, do the following:
 The collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
 
 > You can also generate a collection when you import an API. For more information, see [importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
-<!--
-## Adding an environment
-
-An environment is a set of related variables you can use in Postman requests. Add an environment to resolve any variables used in the collections linked to your API.
-
-To add an environment to your API:
-
-1. Select **Environments** in the left sidebar.
-1. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an environment and select **Add to API**.
-1. Select the **API** you want to add the environment to, then select **Add environment**.
-
-This makes a copy of the environment in your API, which is not synced with the original. The environment displays under your API in the sidebar. Select the environment to view or add variables. Learn more about [managing environments](/docs/sending-requests/managing-environments/). -->
 
 ## Forking a collection
 
