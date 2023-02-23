@@ -547,8 +547,8 @@ $pad($str: string, $length: number, $pad?: string) => string //returns a copy of
 ### Basic usage
 
 ``` javascript
-$pad("foo", 5) -> "foo  "
-$pad("foo", 5, "-") -> "foo--"
+$pad("example", 5) -> "example  "
+$pad("example", 5, "-") -> "example--"
 ```
 
 ## partition
@@ -760,7 +760,7 @@ $sum([1,2,3,4]) -> 10
 ## tomillis
 
 ``` javascript
-$toMillis($val:string, $picture?: string) => number //converts a string to a number of milliseconds since the epoch. $picture is optional, if not provided it will default to ISO format. Picture specs are as per Unicode date format standards  
+$toMillis($val:string, $picture?: string) => number //converts a string to a number of milliseconds since the epoch. $picture is optional, if not provided it will default to ISO format. Picture specs are as per Unicode date format standards
 ```
 
 ### Basic usage
