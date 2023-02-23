@@ -135,7 +135,7 @@ This walkthrough shows how to easly add messages to a client-streaming request.
 
 1. Create a gRPC request with the `LotsOfGreetings` method, and save it in a collection.
 
-1. [Create an example for the request](#creating-a-grpc-example-from-scratch) with at least two different `"greeting"` messages.
+1. [Create an example for the request](#creating-a-grpc-example-from-scratch) with two different `"greeting"` messages.
 
     ![Create an example](https://assets.postman.com/postman-docs/v10/grpc-example-message1-1-v10.jpg)
 
