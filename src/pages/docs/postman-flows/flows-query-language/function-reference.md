@@ -1,6 +1,6 @@
 ---
 title: "Function Reference"
-updated: 2023-02-14
+updated: 2023-02-23
 ---
 
 All [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) functions are documented below.
@@ -17,7 +17,6 @@ All [Flows Query Language](/docs/postman-flows/flows-query-language/introduction
 * [count](#count)
 * [decodeUrl](#decodeurl)
 * [decodeUrlComponent](#decodeurlcomponent)
-* [deleteKeys](#deletekeys)
 * [distinct](#distinct)
 * [each](#each)
 * [encodeUrl](#encodeurl)
@@ -206,18 +205,6 @@ $decodeUrlComponent($val: string) => string //decodes string from a component fo
 
 ``` javascript
 $decodeUrlComponent("%3Fx%3Dtest") -> "?x=test"
-```
-
-## deleteKeys
-
-``` javascript
-$deleteKeys($obj:Object, $keys: Array<string> ) => Object //Deletes the $key(s) from an $obj.
-```
-
-### Basic usage
-
-``` javascript
-$deleteKeys({'a': 1, 'b': 2, 'c':3}, ['b', 'c']) -> { 'a': 1 }
 ```
 
 ## distinct
