@@ -37,9 +37,6 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 * [Raise a number to a power](#raise-a-number-to-a-power)
 * [Get the square root of a number](#get-the-square-root-of-a-number)
 * [Convert a number to hex or binary](#convert-a-number-to-hex-or-binary)
-* [Format a number with decimals and dollar sign](#format-a-number-with-decimals-and-dollar-sign)
-* [Convert a number into words](#convert-a-number-into-words)
-* [Convert words into a number](#convert-words-into-a-number)
 * [Generate a new random invoice number](#generate-a-new-random-invoice-number)
 * [Convert a number into a string](#convert-a-number-into-a-string)
 
