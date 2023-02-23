@@ -10,7 +10,7 @@ contextual_links:
     name: "Sending requests"
     url: "/docs/sending-requests/requests/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -20,7 +20,7 @@ contextual_links:
     name: "Review Test Results in Postman | The Exploratory"
     url: "https://youtu.be/S3GKLTVRtmE"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"

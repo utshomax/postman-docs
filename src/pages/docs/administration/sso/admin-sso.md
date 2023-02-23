@@ -8,7 +8,7 @@ contextual_links:
     name: "Intro to SSO"
     url: "/docs/administration/sso/intro-sso/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link

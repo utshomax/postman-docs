@@ -222,6 +222,10 @@ export const leftNavItems = [
             url: '/docs/sending-requests/grpc/using-grpc-mock/',
           },
           {
+            name: 'Using gRPC examples',
+            url: '/docs/sending-requests/grpc/using-grpc-examples/',
+          },
+          {
             name: 'Understanding gRPC types',
             url: '/docs/sending-requests/grpc/understanding-grpc-types/',
           },
@@ -436,6 +440,10 @@ export const leftNavItems = [
           {
             name: 'Manipulating data',
             url: '/docs/postman-flows/flows-query-language/data-manipulation/',
+          },
+          {
+            name: 'Function reference',
+            url: '/docs/postman-flows/flows-query-language/function-reference/',
           },
         ],
       },

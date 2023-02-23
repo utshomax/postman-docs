@@ -11,14 +11,14 @@ contextual_links:
     name: "Intro to scripts"
     url: "/docs/writing-scripts/intro-to-scripts/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Control Workflows with postman.setNextRequest() | Postman Level Up"
     url: "https://youtu.be/Oxsdv1VFRsE"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "3 Ways to Build Workflows in Postman"
     url: "https://blog.postman.com/3-ways-to-build-workflows-in-postman/"
