@@ -69,7 +69,7 @@ Postman will send an email notification to the person you selected. Once they ap
 
 ### Requesting Editor role access for a collection as an external user
 
-You can request Editor role access for a collection if you're an [external user who is allowed to view the collection](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
+You can request Editor role access for a collection if you're an [external user who is allowed to view the collection](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections). When you get Editor role access to a collection, your [team role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) also changes from the Guest role to the Developer role. This team role change adds you to the team and gives you access to all team resources and workspaces.
 
 1. Select **Collections** in the sidebar.
 1. Select the collection.
@@ -77,7 +77,9 @@ You can request Editor role access for a collection if you're an [external user 
 
 ![Request Editor role](https://assets.postman.com/postman-docs/v10/guest-role-request-to-edit-v10.jpg)
 
-Postman will send in-app and email notifications to team members with Editor role access on the collection.
+> Your team must have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#using-auto-flex) to give an external user Editor role access to a collection.
+
+Postman will send in-app and email notifications to team members with Editor role access to the collection.
 
 ## Approving requests for access
 
