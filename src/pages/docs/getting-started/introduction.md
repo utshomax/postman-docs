@@ -49,8 +49,6 @@ contextual_links:
 
 Welcome to the Postman docs! This is the place to find official information on how to use Postman in your API projects.
 
-<img alt="Postman full view" src="https://assets.postman.com/postman-docs/v10/intro-postman-request-selected-3-v10.jpg" width="1100px"/>
-
 If you're starting to learn about APIs and Postman, you can use a variety of channels both in and outside Postman:
 
 * [__Send your first request!__](/docs/getting-started/sending-the-first-request/)
