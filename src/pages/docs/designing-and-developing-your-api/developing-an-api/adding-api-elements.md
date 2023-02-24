@@ -33,6 +33,7 @@ Your API in Postman can include more than an API definition. You can add element
 ## Contents
 
 * [Adding a collection](#adding-a-collection)
+* [Keeping a collection in sync with an API](#keeping-a-collection-in-sync-with-an-api)
 * [Forking a collection](#forking-a-collection)
 * [Deleting elements from an API](#deleting-elements-from-an-api)
 
@@ -58,7 +59,7 @@ To add an existing collection to your API, do the following:
 1. On the API's overview, next to **Collections**, select **+** and select **Copy existing collection**.
 1. Select an available collection and select **Copy Collection**.
 
-The copy of the collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
+The copy of the collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View complete collection documentation**.
 
 ### Generating a collection
 
@@ -66,12 +67,45 @@ To generate a new collection from your API definition, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, next to **Collections**, select **+** and select **Generate from definition**.
+1. Select the checkbox if you want Postman to suggest updates for the collection when the API definition changes. Selecting the checkbox will enable schema syncing for the collection. Learn more about [keeping a collection in sync with an API](#keeping-a-collection-in-sync-with-an-api).
 1. Change any settings to customize the new collection.
 1. Select **Generate Collection**.
 
-The collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
+The collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View complete collection documentation**.
 
 > You can also generate a collection when you import an API. For more information, see [importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
+
+## Keeping a collection in sync with an API
+
+When you [generate a collection](#generating-a-collection) from an API definition, Postman creates a collection with requests that match what's defined in the API. If you update the API definition, for example by adding a path, those changes won't be reflected in the generated collection.
+
+In this case, you could repeat the process of generating a collection from the API definition. However, this new collection wouldn't include any changes you might have made to the first collection you generated. For example, you might have added documentation content or endpoints for test setup to the collection that you want to keep. That's where schema syncing comes in.
+
+### Enabling schema syncing
+
+You can enable schema syncing for any collection that's been added to an API. When schema syncing is enabled, Postman will alert you when there are differences between the API definition and the collection.
+
+To enable schema syncing for a collection, do the following:
+
+1. Select **APIs** in the sidebar and select an API.
+1. On the API's overview, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection and select **Enable Schema Syncing**.
+
+> If you want to turn off schema syncing, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection and select **Disable Schema Syncing**.
+
+### Updating a collection based on the API definition
+
+When schema syncing is enabled, the **Update collection** icon appears when Postman detects differences between the collection and the API definition. Differences can occur when the API definition is changed, for example by adding, removing, or modifying endpoints. Differences can also occur when requests are added, removed, or modified in the collection. You can review the differences and, if you choose, update the collection with the suggested changes.
+
+To update a collection based on the API definition, do the following:
+
+1. Select the **Update collection** icon next to the collection in the sidebar and on the API's overview.
+1. Review the suggested updates to the collection:
+
+    * **Add requests** - These requests will be added to the collection based on paths found in the API definition. Select the arrow next to a request for more details.
+    * **Modified requests** - These requests will be updated to match the paths in the API definition.
+    * **Remove requests** - These requests don't match any paths in the API definition. Select the checkbox next to a request if you want to remove it from the collection. Clear the checkbox next to a request if you want to keep it in the collection.
+
+1. When you're ready to make the suggested updates to the collection, select **Update Collection**.
 
 ## Forking a collection
 
@@ -92,4 +126,4 @@ To delete a collection from an API, do the following:
 1. Select **APIs** in the sidebar and select an API.
 1. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection and select **Delete**.
 
-> You can also delete a collection by selecting the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to a collection on the API's overview.
+> You can also delete a collection from the API's overview. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection and select **Delete**.
