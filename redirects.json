@@ -2066,5 +2066,9 @@
 	{
 		"from": "/docs/postman-flows/running-flows-on-the-cloud/webhooks/",
 		"to": "/docs/postman-flows/tutorials/webhooks/"
+	},
+	{
+		"from": "/docs/getting-started/introduction/",
+		"to": "/docs/introduction/introduction/"
 	}
 ]
