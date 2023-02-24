@@ -182,7 +182,14 @@ export const leftNavItems = [
       },
       {
         name: 'Querying with GraphQL',
-        url: '/docs/sending-requests/graphql/graphql/',
+        subParentSlug: 'graphql',
+        slug: '/docs/sending-requests/graphql/graphql-overview/',
+        subMenuItems2: [
+          {
+            name: 'GraphQL overview',
+            url: '/docs/sending-requests/graphql/graphql-overview/'
+          }
+        ]
       },
       {
         name: 'Using gRPC requests',
