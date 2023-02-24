@@ -187,8 +187,24 @@ export const leftNavItems = [
         subMenuItems2: [
           {
             name: 'GraphQL overview',
-            url: '/docs/sending-requests/graphql/graphql-overview/'
-          }
+            url: '/docs/sending-requests/graphql/graphql-overview/',
+          },
+          {
+            name: 'GraphQL client overview',
+            url: '/docs/sending-requests/graphql/graphql-client-overview/',
+          },
+          {
+            name: 'Using the GraphQL client interface',
+            url: '/docs/sending-requests/graphql/graphql-client-interface/',
+          },
+          {
+            name: 'Making your first request with the GraphQL client',
+            url: '/docs/sending-requests/graphql/graphql-client-first-request/',
+          },
+          {
+            name: 'Using GraphQL with the HTTP request interface',
+            url: '/docs/sending-requests/graphql/graphql-http/',
+          },
         ]
       },
       {
