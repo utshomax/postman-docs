@@ -56,7 +56,7 @@ GraphQL requests in Postman include a variety of tools, views, and controls to h
 * [Understanding the response](#understanding-the-response)
 * [Creating and executing multiple queries](#creating-and-executing-multiple-queries)
 * [Using the right sidebar](#using-the-right-sidebar)
-* [Next step](#next-step)
+* [Next steps](#next-steps)
 
 ## Creating a new request
 
