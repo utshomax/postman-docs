@@ -131,7 +131,7 @@ This walkthrough uses a streaming method to create a gRPC example. Note how stre
 
 While invoking a request, you can work with message payloads stored in the examples. This not only enables you to test the example scenarios by yourself, but also speeds up your debugging workflow. This is much easier and faster than opening and reviewing each example’s messages individually.
 
-This walkthrough shows how to easly add messages to a client-streaming request.
+This walkthrough shows how to easly add messages to a client-streaming request:
 
 1. Create a gRPC request with the `LotsOfGreetings` method, and save it in a collection.
 
