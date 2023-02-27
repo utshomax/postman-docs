@@ -1,5 +1,5 @@
 ---
-title: "Best Practices"
+title: "Public API Network best practices"
 updated: 2023-02-01
 ---
 
@@ -13,7 +13,7 @@ Cross-linking to your API’s documentation and to your Postman collection creat
 
 ### Linking To A Workspace
 
-Public Workspaces can be linked to by using the team name and workspace name in this format: 
+Public Workspaces can be linked to by using the team name and workspace name in this format:
 
 ```postman.co/[team-name]/workspace/[workspace-name]/overview```
 
@@ -35,10 +35,9 @@ Workspaces are a grouping of schemas, collections, variables, tests, and more th
 
 Collections can divide requests into folders by domain, team, service, or use case.
 
-
 ## Writing Detailed Documentation
 
-Write detailed [documentation](https://learning.postman.com/docs/publishing-your-api/authoring-your-documentation/) for each collection and request. 
+Write detailed [documentation](https://learning.postman.com/docs/publishing-your-api/authoring-your-documentation/) for each collection and request.
 Standardize the language around your workspace and its APIs will create a fluid experience for a developer learning how to interact with your systems.Use meaningful names for requests , collections, and folders
 
 Name requests by the actions developers expect. Reuse variables through out your collection and keep their names clear and concise to the values they hold.
@@ -57,7 +56,6 @@ Collections have a space for documentation. Here or in a folder would be a good 
 ### Detail Authorization
 
 Create documentation around how to authorize with your API. You can mention this in the documentation overview or in it’s own folder if you have several different API request workflows or a more complicated authorization schema.
-
 
 ## Creating Multiple Environments for Different Use Cases
 
