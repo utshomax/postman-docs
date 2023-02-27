@@ -32,11 +32,11 @@ export const leftNavItems = [
   {
     name: 'Introduction',
     parentSlug: 'introduction',
-    url: '/docs/introduction/introduction/',
+    url: '/docs/introduction/overview/',
     subMenuItems1: [
       {
-        name: 'Introduction',
-        url: '/docs/introduction/introduction/',
+        name: 'Overview',
+        url: '/docs/introduction/overview/',
       },
       {
         name: 'Resources',
