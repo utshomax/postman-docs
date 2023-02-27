@@ -54,5 +54,5 @@ Postman gives you a client interface to debug and document your API using a Grap
 
 To learn more about using the GraphQL client:
 
-* [Using the GraphQL Request interface](/docs/sending-requests/graphql/graphql-client/graphql-client-interface/)
-* [Making your first GraphQL query](/docs/sending-requests/graphql/graphql-client/graphql-client-first-request/)
+* [Using the GraphQL Request interface](/docs/sending-requests/graphql/graphql-client-interface/)
+* [Making your first GraphQL query](/docs/sending-requests/graphql/graphql-client-first-request/)
