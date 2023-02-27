@@ -44,7 +44,7 @@ warning: false
 
 ---
 
-GraphQL requests in Postman include a variety of tools, views, and controls to help you debug and document your GraphQL API effectively and efficiently. This topic highlights the parts of the request interface and explains how to use them.
+GraphQL requests in Postman include a variety of tools, views, and controls to help you debug and document your GraphQL API effectively and efficiently. This document highlights the parts of the request interface and explains how to use them.
 
 <img src="https://assets.postman.com/postman-labs-docs/graphql-docs/request-full-view.jpg" alt="Different sections of a GraphQL request">
 
@@ -111,7 +111,7 @@ While executing a subscription type query that returns multiple responses over a
 <img src="https://assets.postman.com/postman-labs-docs/graphql-docs/response-stream.jpg" alt="Different sections of the response stream">
 
 * **Response stream** - The response stream has the request and the responses arranged in reverse chronological order (latest appears on the top).
-* **Expand/collapse response** - You can take an in-depth look at the response content by expanding it within the response stream.
+* **Expand/collapse response** - You can take atopicn in-depth look at the response content by expanding it within the response stream.
 * **Search for response** - You can use the high-level search input to search for particular responses.
 * **Filter** - Adjust the view based on the type of messages using the message filter. Instead of all messages, you can choose to view the ones Sent from the client or Received from the server.
 * **Clear** - The **Clear** button hides all the messages exchanged from the view, cleaning up the response area so that you can focus on the new messages. You can restore the messages using the **Restore** button in the hidden view.

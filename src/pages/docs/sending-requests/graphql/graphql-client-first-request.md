@@ -50,7 +50,7 @@ Get started with GraphQL by creating a query and executing it using Postman’s 
 
 * [About GraphQL request](#about-graphql-request)
 * [Making a GraphQL query with Postman](#making-a-graphql-query-with-postman)
-* [Next steps](#next-step)
+* [Next steps](#next-steps)
 
 ## About GraphQL Request
 
@@ -76,8 +76,8 @@ This example creates and executes a GraphQL query using the interactive query bu
 1. Enter your name and age in the input boxes next to `name` and `age`. You should also see a fully formed query based on your selections on the right.
 1. Hit **Query**.
 
-![First GraphQL Query](https://blog.postman.com/wp-content/uploads/2023/02/graphql-schema-explorer.gif)
+![First GraphQL Query](https://assets.postman.com/postman-docs/v10/graphql-schema-explorer-v10.gif)
 
-## Next step
+## Next steps
 
 Try making a mutation and a subscription type query using the same endpoint and observe the difference in behavior.
