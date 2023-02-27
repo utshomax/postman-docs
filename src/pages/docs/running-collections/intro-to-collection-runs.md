@@ -1,6 +1,6 @@
 ---
 title: "Using the Collection Runner"
-updated: 2023-02-06
+updated: 2023-03-15
 search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
   - type: section
@@ -32,9 +32,6 @@ contextual_links:
   - type: link
     name: "iQmetrix uses a collection runner to automate tasks in other systems"
     url: "https://www.postman.com/case-studies/iqmetrix/"
-
-warning: false
-
 ---
 
 The _Collection Runner_ enables you to run a collection's requests in a specified sequence. It logs your request [test results](/docs/writing-scripts/test-scripts/) and can use [scripts](/docs/writing-scripts/intro-to-scripts/) to pass data between requests and alter the request workflow.
@@ -70,8 +67,8 @@ You can configure the Collection Runner to meet your development needs. You can 
     * **Iterations** - The number of iterations for your collection run. You can also run collections multiple times with different data sets to [build workflows](/docs/running-collections/building-workflows/).
     * **Delay** - An interval delay in milliseconds between each request.
     * **Data** - A [data file](/docs/running-collections/working-with-data-files/) for the collection run.
+    * **Persist responses for a session** - Log the response headers and bodies so you can review them after running the collection. Responses are available for the most recent session of collection runs and after that are discarded. For large collections, persisting responses may affect performance.
     * **Advanced settings**
-      * **Save responses** - Save response headers and bodies to the log to review them later. For large collection runs, this setting can affect performance.
       * **Keep variable values** - Persist the variables used in the run, so that any variables updated by the run will remain changed after it completes. If you don't persist variables, changes aren't saved after the run completes. _Note that persisting variables in the collection run will update the current value only._
       * **Run collection without using stored cookies** - If your requests use cookies, you can optionally deactivate them for a collection run.
       * **Save cookies after collection run** - Save the cookies used in this session to the cookie manager. Any values changed by requests during the run will remain after it completes.
