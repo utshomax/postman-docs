@@ -48,13 +48,10 @@ Postman can make HTTP calls using GraphQL, an open-source data query and manipul
 
 You can use GraphQL with Postman in two ways:
 
-* [Using the Postman GraphQL client](#using-the-postman-graphql-client)
-* [Using the Postman HTTP request interface](#using-the-postman-http-request-interface)
+* Using the Postman GraphQL client
 
-## Using the Postman GraphQL client
+    Postman's GraphQL client enables you to easily explore schemas with introspection and quickly build queries, mutations, and subscriptions to get the data you need. See the [GraphQL client overview](/docs/sending-requests/graphql/graphql-client-overview/) to learn more.
 
-Postman's GraphQL client enables you to easily explore schemas with introspection and quickly build queries, mutations, and subscriptions to get the data you need. See the [GraphQL client overview](/docs/sending-requests/graphql/graphql-client-overview/) to learn more.
+* Using the Postman HTTP request interface
 
-## Using the Postman HTTP request interface
-
-Postman's HTTP request interface supports sending GraphQL queries in the request body, using GraphQL variables, and introspection and importing GraphQL schemas. See [Using GraphQL requests with the HTTP request interface](/docs/sending-requests/graphql/graphql-http/) to learn more.
+    Postman's HTTP request interface supports sending GraphQL queries in the request body, using GraphQL variables, and introspection and importing GraphQL schemas. See [Using GraphQL requests with the HTTP request interface](/docs/sending-requests/graphql/graphql-http/) to learn more.
