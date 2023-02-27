@@ -49,32 +49,23 @@ Welcome to the Postman docs! This is the place to find official information on h
 <!-- TODO: longer lede, then a transition to contents -->
 
 If you're learning to carry out a specific task or workflow in Postman, check out the following topics to find resources:
-<!-- TODO: contents -->
 
 ## Getting started
 
-<!-- TODO: FIX -->
-
-[getting started](/docs/getting-started/overview/).
+To get started using Postman, check out the [getting started](/docs/getting-started/overview/) section.
 
 ## Sending requests
 
-<!-- TODO: FIX -->
-
-* [__Send your first request!__](/docs/getting-started/sending-the-first-request/)
-
-[Sending requests](/docs/sending-requests/requests/)
+You can send requests in Postman to connect to APIs you are working with. To learn more about how to send requests, see
+[sending requests](/docs/sending-requests/requests/) and learn how to [send your first request](/docs/getting-started/sending-the-first-request/).
 
 ## Writing scripts
 
-<!-- TODO: FIX -->
-
-[Writing scripts](/docs/writing-scripts/intro-to-scripts/)
+Postman has a powerful runtime based on Node.js that allows you to add dynamic behavior to requests and collections. You can write scripts that run before or after request execution to perform API tests, build requests that can contain dynamic parameters, pass data between requests, and more. To learn more about scripts, see [scripting in Postman](/docs/writing-scripts/intro-to-scripts/).
 
 ## Running collections
-<!-- TODO: FIX -->
 
-[Running collections](/docs/running-collections/running-collections-overview/)
+Postman Collections are groups of saved requests, which can then be run together. You can run collections manually, on a schedule, from a CI/CD pipeline, or from a webhook. To learn more about collections, see the [running collections overview](/docs/running-collections/running-collections-overview/).
 
 ## Using Postman Flows
 
@@ -96,9 +87,11 @@ To learn more about collaboration in Postman, see the [collaboration overview](/
 
 ## Designing and developing your API
 
-<!-- TODO: FIX -->
+Postman supports API-first development with the API Builder. Use the API Builder to design your API in Postman. Your API definition can then act as the single source of truth for your API project.
 
-[API workflow](/docs/designing-and-developing-your-api/the-api-workflow/)
+You can connect various elements of your API development and testing process to your API definition, such as collections, documentation, tests, and monitors. You can also sync your API in Postman with a Git repository.
+
+To learn more about API-first development, see the [API development overview](/docs/designing-and-developing-your-api/the-api-workflow/).
 
 ## Documenting your API
 
@@ -110,21 +103,19 @@ To learn more about documenting your API, see [Generating API documentation](/do
 
 ## Monitoring your API
 
-<!-- TODO: FIX -->
+Postman Monitors give you continuous visibility into the health and performance of your APIs. Monitors enable you to run API test scripts, chain together multiple requests, and validate critical API flows. A Monitor runs a series of requests from the Postman cloud on a schedule you set. To learn more about using Monitors, see [monitoring your APIs](/docs/monitoring-your-api/intro-monitors/).
 
-[Monitoring](/docs/monitoring-your-api/intro-monitors/)
+## API Governance and API Security
 
-## API Governance and Security
+API governance is the practice of defining and applying development rules that promote consistent API behaviors across your organization's API landscape. And a robust API security posture means that your organization has development rules that promote security-first API behaviors. The Postman API Governance and Postman API Security features can identify inconsistencies or weaknesses in your APIs, then recommend possible fixes or improvements.
 
-<!-- TODO: FIX -->
-
-[Governance and security](/docs/api-governance/api-governance-overview/)
+To learn more about Postman's API Governance and API Security features, see [API Governance and API Security in Postman](/docs/api-governance/api-governance-overview/).
 
 ## Administration
 
-<!-- TODO: FIX -->
+Postman provides a variety of options to customize your team's experience, from the initial setup to ongoing team and plan management. As a Team Admin, you can streamline the onboarding process for your team, manage access control, and keep your team up to date with the latest version of Postman.
 
-[Administration](/docs/administration/managing-your-team/managing-your-team/)
+To learn more about administering your Postman team, see the [Administration](/docs/administration/managing-your-team/managing-your-team/) section.
 
 ## Using reports
 
@@ -134,48 +125,8 @@ To learn more about how to use reports, see [reports overview](/docs/reports/rep
 
 ## Developer resources
 
-<!-- TODO: FIX -->
-
-[Developer resources](/docs/developer/resources-intro/)
+If you're integrating Postman with your CI/CD workflow or are developing with Postman APIs or libraries, check out the [developer resources](/docs/developer/resources-intro/).
 
 ## Integrations
 
 You can connect Postman to your API workflows with integrations for popular third-party solutions. Use integrations to automatically share data between Postman and the other tools you rely on for API development. For more information, see [integrating with Postman](/docs/integrations/intro-integrations/).
-
-## OLD BELOW HERE
-
-### Making requests
-
-If you're building a client app or want to connect to an API, check out some Postman essentials:
-
-* [Connecting to APIs](/docs/sending-requests/requests/)
-* [Authorizing requests](/docs/sending-requests/authorization/)
-* [Grouping requests in collections](/docs/sending-requests/intro-to-collections/)
-* [Using variables](/docs/sending-requests/variables/)
-* [Visualizing data](/docs/sending-requests/visualizer/)
-
-### Testing APIs
-
-If you're testing an API, you can use Postman to automate various parts of the process:
-
-* [Writing test scripts](/docs/writing-scripts/test-scripts/)
-* [Automating workflows with the collection runner](/docs/running-collections/intro-to-collection-runs/)
-* [Capturing HTTP requests](/docs/sending-requests/capturing-request-data/capturing-http-requests/)
-* [Test script examples](/docs/writing-scripts/script-references/test-examples/)
-
-### Building and managing APIs
-
-If you're developing a back-end, working API-first, or need to monitor API performance, Postman utilities can streamline your workflows:
-
-* [Defining an API from a schema](/docs/designing-and-developing-your-api/the-api-workflow/)
-* [Monitoring test runs](/docs/monitoring-your-api/intro-monitors/)
-* [Analyzing API performance](/docs/reports/reports-overview/)
-* [Mocking responses](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
-
-### Developing with Postman
-
-If you're integrating Postman with your CI/CD workflow or are developing with Postman APIs or libraries, check out these resources:
-
-* [Integrating with a development pipeline](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/)
-* [Developing with Postman utilities](/docs/developer/resources-intro/)
-* [Postman API](/docs/developer/intro-api/)
