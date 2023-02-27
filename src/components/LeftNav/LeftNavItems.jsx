@@ -465,17 +465,6 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Sharing Workspaces on API Network',
-    parentSlug: 'public-api-network',
-    url: '/docs/public-api-network/overview/intro',
-    subMenuItems1: [
-      {
-        name: 'Workspace Best Practices',
-        url: '/docs/public-api-network/best-practices/best-practices/',
-      },
-    ]
-  },
-  {
     name: 'Using the Postman CLI',
     parentSlug: 'postman-cli',
     url: '/docs/postman-cli/postman-cli-overview/',
@@ -793,6 +782,21 @@ export const leftNavItems = [
         ],
       },
     ],
+  },
+  {
+    name: 'Sharing Workspaces on API Network',
+    parentSlug: 'public-api-network',
+    url: '/docs/public-api-network/overview/intro/',
+    subMenuItems1: [
+      {
+        name: 'API Network overview',
+        url: '/docs/public-api-network/overview/intro/'
+      },
+      {
+        name: 'Public API Network best practices',
+        url: '/docs/public-api-network/best-practices/best-practices/',
+      },
+    ]
   },
   {
     name: 'Monitoring your API',
