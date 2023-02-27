@@ -51,9 +51,12 @@ export const leftNavItems = [
   {
     name: 'Getting started',
     parentSlug: 'getting-started',
-    url: '/docs/getting-started/installation-and-updates/',
+    url: '/docs/getting-started/overview/',
     subMenuItems1: [
-
+      {
+        name: 'Getting started',
+        url: '/docs/getting-started/overview',
+      },
       {
         name: 'Installing and updating Postman',
         url: '/docs/getting-started/installation-and-updates/',

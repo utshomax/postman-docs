@@ -55,6 +55,8 @@ If you're learning to carry out a specific task or workflow in Postman, check ou
 
 <!-- TODO: FIX -->
 
+[getting started](/docs/getting-started/overview/).
+
 ## Sending requests
 
 <!-- TODO: FIX -->
@@ -100,9 +102,11 @@ To learn more about collaboration in Postman, see the [collaboration overview](/
 
 ## Documenting your API
 
-<!-- TODO: FIX -->
+Documentation is an important part of any collection or API. Good documentation helps the people who use your collection to understand what it does and how each request works. And comprehensive API documentation lets your consumers know what endpoints are available and how to interact with them.
 
-[Documenting your API](/docs/publishing-your-api/documenting-your-api/)
+Once you've generated documentation for your collection or API, users can view the documentation in Postman. By default your documentation is private, so you must share a collection or API with others before they can access it. If you're creating a public API, you can publish your documentation to make it publicly available to anyone with a web browser.
+
+To learn more about documenting your API, see [Generating API documentation](/docs/publishing-your-api/documenting-your-api/).
 
 ## Monitoring your API
 
@@ -136,9 +140,7 @@ To learn more about how to use reports, see [reports overview](/docs/reports/rep
 
 ## Integrations
 
-<!-- TODO: FIX -->
-
-[Integrations](/docs/integrations/intro-integrations/)
+You can connect Postman to your API workflows with integrations for popular third-party solutions. Use integrations to automatically share data between Postman and the other tools you rely on for API development. For more information, see [integrating with Postman](/docs/integrations/intro-integrations/).
 
 ## OLD BELOW HERE
 
@@ -169,13 +171,6 @@ If you're developing a back-end, working API-first, or need to monitor API perfo
 * [Monitoring test runs](/docs/monitoring-your-api/intro-monitors/)
 * [Analyzing API performance](/docs/reports/reports-overview/)
 * [Mocking responses](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
-
-### Publishing APIs
-
-If you're exposing an API for public use, Postman can support developer onboarding:
-
-* [Publishing documentation](/docs/publishing-your-api/documenting-your-api/)
-* [Using Run in Postman](/docs/publishing-your-api/run-in-postman/introduction-run-button/)
 
 ### Developing with Postman
 
