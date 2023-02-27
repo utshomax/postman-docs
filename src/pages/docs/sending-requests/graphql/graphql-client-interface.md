@@ -134,6 +134,6 @@ The right sidebar gives you access to tools and information like documentation, 
 * **Comments** - Select the comments icon to collaborate with your teammates as you work on an API. You can use `@` to tag others to ask a question, give feedback, and discuss your API.
 * **Info** - Select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> to view details about a request, like the request ID and creation date.
 
-## Next step
+## Next steps
 
 After learning about the basic interface elements, try [making your first GraphQL query](/postman-api-client/graphql-client/first-graphql-request/).
