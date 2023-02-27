@@ -44,9 +44,7 @@ contextual_links:
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
 ---
 
-Welcome to the Postman docs! This is the place to find official information on how to use Postman in your API projects.
-
-<!-- TODO: longer lede, then a transition to contents -->
+Welcome to the Postman Learning Center docs! This is the place to find official information on how to use Postman in your API projects.
 
 If you're learning to carry out a specific task or workflow in Postman, check out the following topics to find resources:
 
