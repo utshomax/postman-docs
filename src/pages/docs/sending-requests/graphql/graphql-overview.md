@@ -1,5 +1,5 @@
 ---
-title: "Using GraphQL requests"
+title: "GraphQL overview"
 page_id: "graphql"
 updated: 2023-02-24
 contextual_links:
