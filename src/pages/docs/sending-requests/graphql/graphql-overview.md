@@ -44,7 +44,7 @@ warning: false
 
 ---
 
-Postman can make HTTP calls using GraphQL, an open-source data query and manipulation language for APIs, in addition to REST.
+Postman can make HTTP calls using GraphQL, an open-source data query and manipulation language for APIs.
 
 You can use GraphQL with Postman in two ways:
 
