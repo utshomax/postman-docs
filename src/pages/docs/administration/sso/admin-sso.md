@@ -36,7 +36,7 @@ To begin adding an authentication method, do the following:
 1. Select **Add Authentication Method**.
 1. Select the authentication type.
 1. Enter an authentication name that's identifiable to your team.
-1. Select **Continue** to [configure the IdP details](#configuring-the-identity-provider-details).
+1. Select **Continue** to [configure the IdP details](#configuring-the-idp-details).
 
     <img src="https://assets.postman.com/postman-docs/v10/add-auth-method-v10.jpg" width="600px" alt="Authentication Method"/>
 
