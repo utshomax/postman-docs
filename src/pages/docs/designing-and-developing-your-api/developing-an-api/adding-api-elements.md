@@ -88,19 +88,19 @@ You can enable update suggestions for any collection that's been added to an API
 To enable update suggestions for a collection, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
-1. On the API's overview, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection and select **Enable update suggestions**.
+1. On the API's overview, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection and select **Enable update suggestions from definition**.
 
-> If you want to turn off suggestions, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection and select **Disable update suggestions**.
+> If you want to turn off suggestions, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection and select **Disable update suggestions from definition**.
 
 ### Updating a collection based on the API definition
 
-When suggestions are enabled, the **Update collection** icon appears if Postman detects differences between the collection and the API definition. Differences can occur if the API definition is changed, for example by adding, removing, or modifying endpoints. Differences can also occur if requests are added, removed, or modified in the collection. You can review the differences and, if you choose, update the collection with the suggested changes.
+When suggestions are enabled, the update collection icon <img alt="Update collection icon" src="https://assets.postman.com/postman-docs/v10/icon-update-collection-v10.jpg#icon" width="16px"> appears next to a collection if Postman detects differences between the collection and the API definition. Differences can occur if the API definition is changed, for example by adding, removing, or modifying endpoints. Differences can also occur if requests are added, removed, or modified in the collection. You can review the differences and, if you choose, update the collection with the suggested changes.
 
 To update a collection based on the API definition, do the following:
 
-1. Select the **Update collection** icon next to the collection on the API's overview.
+1. Select the update collection icon next to the collection on the API's overview.
 
-    <img alt="Update collection icon" src="https://assets.postman.com/postman-docs/v10/update-suggestions-icon-v10.jpg" width="545px" >
+    <img alt="Update collection icon" src="https://assets.postman.com/postman-docs/v10/schema-sync-icon-v10.jpg" width="542px" >
 
 1. Review the suggested updates to the collection:
 
@@ -110,7 +110,7 @@ To update a collection based on the API definition, do the following:
 
 1. When you're ready to make the suggested updates to the collection, select **Update Collection**.
 
-<img alt="Review collection update suggestions" src="https://assets.postman.com/postman-docs/v10/update-suggestions-v10.jpg" >
+<img alt="Review collection update suggestions" src="https://assets.postman.com/postman-docs/v10/schema-sync-review-v10.jpg" >
 
 ## Forking a collection
 
