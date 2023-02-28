@@ -37,9 +37,6 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 * [Raise a number to a power](#raise-a-number-to-a-power)
 * [Get the square root of a number](#get-the-square-root-of-a-number)
 * [Convert a number to hex or binary](#convert-a-number-to-hex-or-binary)
-* [Format a number with decimals and dollar sign](#format-a-number-with-decimals-and-dollar-sign)
-* [Convert a number into words](#convert-a-number-into-words)
-* [Convert words into a number](#convert-words-into-a-number)
 * [Generate a new random invoice number](#generate-a-new-random-invoice-number)
 * [Convert a number into a string](#convert-a-number-into-a-string)
 
@@ -491,54 +488,6 @@ $formatBase(3000, 16)
 
 ``` json
 "bb8"
-```
-
-## Format a number with decimals and dollar sign
-
-The `$formatNumber()` function formats the given number with a dollar sign and two decimal places.
-
-### FQL
-
-``` javascript
-$formatNumber(4593, '$#,###.00')
-```
-
-### Result
-
-``` json
-"$4,593.00"
-```
-
-## Convert a number into words
-
-The `$formatInteger` function converts numbers into their written-out forms or roman numerals. The example below converts the number `493840` into the string "four hundred and ninety-three thousand, eight hundred and forty". Using `I` instead of `w` in the example below would return roman numerals instead of words.
-
-### FQL
-
-``` javascript
-$formatInteger(493840, 'w')
-```
-
-### Result
-
-``` json
-"four hundred and ninety-three thousand, eight hundred and forty"
-```
-
-## Convert words into a number
-
-The `$parseInteger` function converts written-out numbers or roman numerals into numeric values. The example below converts the string "four hundred and ninety-three thousand, eight hundred and forty" into the number `493840`. Using `I` instead of `w` in the example below would convert roman numerals instead of words.
-
-### FQL
-
-``` javascript
-$parseInteger("four hundred and ninety-three thousand, eight hundred and forty", 'w')
-```
-
-### Result
-
-``` json
-493840
 ```
 
 ## Generate a new random invoice number

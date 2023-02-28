@@ -9,7 +9,7 @@
 	},
 	{
 		"from": "/concepts/",
-		"to": "/docs/"
+		"to": "/docs/getting-started/introduction/"
 	},
 	{
 		"from": "/docs/",
@@ -21,11 +21,11 @@
 	},
 	{
 		"from": "/docs/administration/migrating_to_v7/",
-		"to": "/docs/administration/upgrading/"
+		"to": "/docs/administration/updating/"
 	},
 	{
 		"from": "/docs/administration/upgrading-to-v8/",
-		"to": "/docs/administration/upgrading/"
+		"to": "/docs/administration/updating/"
 	},
 	{
 		"from": "/docs/administration/sso/",
@@ -37,7 +37,7 @@
 	},
 	{
 		"from": "/docs/collaborating-in-postman/",
-		"to": "/docs/collaborating-in-postman/collaboration-intro/"
+		"to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
 	},
 	{
 		"from": "/docs/collaborating-in-postman/using-workspaces/",
@@ -45,7 +45,7 @@
 	},
 	{
 		"from": "/docs/collaborating_in_postman/",
-		"to": "/docs/collaborating-in-postman/collaboration-intro/"
+		"to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
 	},
 	{
 		"from": "/docs/collaborating_in_postman/using_workspaces/",
@@ -201,27 +201,27 @@
 	},
 	{
 		"from": "/docs/postman-enterprise/sso/saml-duo/",
-		"to": "/docs/administration/sso/saml-duo/"
+		"to": "/docs/administration/sso/duo/"
 	},
 	{
 		"from": "/docs/postman-enterprise/sso/saml-gsuite/",
-		"to": "/docs/administration/sso/saml-gsuite/"
+		"to": "/docs/administration/sso/google-workspace/"
 	},
 	{
 		"from": "/docs/postman-enterprise/sso/saml-in-azure-ad/",
-		"to": "/docs/administration/sso/saml-in-azure-ad/"
+		"to": "/docs/administration/sso/azure-ad/"
 	},
 	{
 		"from": "/docs/postman-enterprise/sso/saml-okta/",
-		"to": "/docs/administration/sso/saml-okta/"
+		"to": "/docs/administration/sso/okta/"
 	},
 	{
 		"from": "/docs/postman-enterprise/sso/saml-onelogin/",
-		"to": "/docs/administration/sso/saml-onelogin/"
+		"to": "/docs/administration/sso/onelogin/"
 	},
 	{
 		"from": "/docs/postman-enterprise/sso/saml-ping/",
-		"to": "/docs/administration/sso/saml-ping/"
+		"to": "/docs/administration/sso/ping-identity/"
 	},
 	{
 		"from": "/docs/postman-enterprise/sso/user-sso/",
@@ -389,7 +389,7 @@
 	},
 	{
 		"from": "/docs/postman-pro/managing-pro/migrating-to-v7/",
-		"to": "/docs/administration/upgrading/"
+		"to": "/docs/administration/updating/"
 	},
 	{
 		"from": "/docs/postman-pro/managing-pro/purchasing-pro/",
@@ -517,11 +517,11 @@
 	},
 	{
 		"from": "/docs/postman/collaboration/collaboration-intro/",
-		"to": "/docs/collaborating-in-postman/collaboration-intro/"
+		"to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
 	},
 	{
 		"from": "/docs/postman/collaboration/collaboration_intro/",
-		"to": "/docs/collaborating-in-postman/collaboration-intro/"
+		"to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
 	},
 	{
 		"from": "/docs/postman/collaboration/managing-your-team/",
@@ -901,7 +901,7 @@
 	},
 	{
 		"from": "/docs/postman/launching-postman/collaboration/",
-		"to": "/docs/collaborating-in-postman/collaboration-intro/"
+		"to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
 	},
 	{
 		"from": "/docs/postman/launching-postman/creating-the-first-collection/",
@@ -949,7 +949,7 @@
 	},
 	{
 		"from": "/docs/postman/launching_postman/collaboration/",
-		"to": "/docs/collaborating-in-postman/collaboration-intro/"
+		"to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
 	},
 	{
 		"from": "/docs/postman/launching_postman/creating_the_first_collection/",
@@ -1109,7 +1109,7 @@
 	},
 	{
 		"from": "/docs/postman/notifications/",
-		"to": "/docs/collaborating-in-postman/collaboration-intro/"
+		"to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
 	},
 	{
 		"from": "/docs/postman/postman-api/continuous-integration/",
@@ -1657,7 +1657,7 @@
 	},
 	{
 		"from": "/docs/postman_pro/managing_postman_pro/migrating_to_v7/",
-		"to": "/docs/administration/upgrading/"
+		"to": "/docs/administration/updating/"
 	},
 	{
 		"from": "/docs/postman_pro/managing_postman_pro/roles_and_permissions/",
@@ -1693,7 +1693,7 @@
 	},
 	{
 		"from": "/docs/postman_pro/managing_pro/migrating_to_v7/",
-		"to": "/docs/administration/upgrading/"
+		"to": "/docs/administration/updating/"
 	},
 	{
 		"from": "/docs/postman_pro/managing_pro/purchasing_pro/",
@@ -1797,15 +1797,15 @@
 	},
 	{
 		"from": "/getting-started/",
-		"to": "/docs/"
+		"to": "/docs/getting-started/introduction/"
 	},
 	{
 		"from": "/getting_started/",
-		"to": "/docs/"
+		"to": "/docs/getting-started/introduction/"
 	},
 	{
 		"from": "/qa/",
-		"to": "/docs/"
+		"to": "/docs/getting-started/introduction/"
 	},
 	{
 		"from": "/reference/",
@@ -1817,7 +1817,7 @@
 	},
 	{
 		"from": "/docs/administration/migrating-to-v7/",
-		"to": "/docs/administration/upgrading/"
+		"to": "/docs/administration/updating/"
 	},
 	{
 		"from": "/docs/administration/managing-your-team/",
@@ -1976,7 +1976,7 @@
 		"to": "/docs/administration/updating/"
 	},
 	{
-		"from": "/docs/collaborating-in-postman/collaboration-intro/",
+		"from": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/",
 		"to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
 	},
 	{

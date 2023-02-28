@@ -1,6 +1,6 @@
 ---
 title: "Function Reference"
-updated: 2023-02-14
+updated: 2023-02-23
 ---
 
 All [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) functions are documented below.
@@ -15,23 +15,21 @@ All [Flows Query Language](/docs/postman-flows/flows-query-language/introduction
 * [ceil](#ceil)
 * [contains](#contains)
 * [count](#count)
-* [decodeUrl](#decodeUrl)
-* [decodeUrlComponent](#decodeUrlComponent)
+* [decodeUrl](#decodeurl)
+* [decodeUrlComponent](#decodeurlcomponent)
 * [distinct](#distinct)
 * [each](#each)
-* [encodeUrl](#encodeUrl)
-* [encodeUrlComponent](#encodeUrlComponent)
+* [encodeUrl](#encodeurl)
+* [encodeUrlComponent](#encodeurlcomponent)
 * [eval](#eval)
 * [exists](#exists)
 * [filter](#filter)
 * [floor](#floor)
-* [formatBase](#formatBase)
-* [formatInteger](#formatInteger)
-* [formatNumber](#formatNumber)
-* [fromMillis](#fromMillis)
+* [formatBase](#formatbase)
+* [fromMillis](#frommillis)
 * [join](#join)
 * [json](#json)
-* [jsonParse](#jsonParse)
+* [jsonParse](#jsonparse)
 * [keys](#keys)
 * [length](#length)
 * [lookup](#lookup)
@@ -43,7 +41,6 @@ All [Flows Query Language](/docs/postman-flows/flows-query-language/introduction
 * [number](#number)
 * [not](#not)
 * [pad](#pad)
-* [parseInteger](#parseInteger)
 * [partition](#partition)
 * [power](#power)
 * [replace](#replace)
@@ -57,8 +54,8 @@ All [Flows Query Language](/docs/postman-flows/flows-query-language/introduction
 * [sqrt](#sqrt)
 * [string](#string)
 * [substring](#substring)
-* [substringAfter](#substringAfter)
-* [substringBefore](#substringBefore)
+* [substringAfter](#substringafter)
+* [substringBefore](#substringbefore)
 * [sum](#sum)
 * [tomillis](#tomillis)
 * [trim](#trim)
@@ -71,18 +68,18 @@ All [Flows Query Language](/docs/postman-flows/flows-query-language/introduction
 
 * [year](#year)
 * [month](#month)
-* [dayOfTheWeek](#dayOfTheWeek)
+* [dayOfTheWeek](#dayoftheweek)
 * [day](#day)
 * [hours](#hours)
 * [minutes](#minutes)
 * [seconds](#seconds)
-* [milliSeconds](#milliSeconds)
-* [dateEquals](#dateEquals)
-* [hasSameDate](#hasSameDate)
-* [beforeDate](#beforeDate)
-* [afterDate](#afterDate)
-* [datePlus](#datePlus)
-* [diffDate](#diffDate)
+* [milliSeconds](#milliseconds)
+* [dateEquals](#dateequals)
+* [hasSameDate](#hassamedate)
+* [beforeDate](#beforedate)
+* [afterDate](#afterdate)
+* [datePlus](#dateplus)
+* [diffDate](#diffdate)
 
 ## abs
 
@@ -332,34 +329,6 @@ $formatBase($num: number, $base?: number) => string //converts $num to a string 
 $formatBase(100, 2) -> "1100100"
 ```
 
-## formatInteger
-
-``` javascript
-$formatInteger($num: number, $format: string) => string //formats $num using the $format string. The picture is in fn:format-integer as defined in the XPath F&O 3.1 specification
-```
-
-### Basic usage
-
-``` javascript
-$formatInteger(2789, 'w') -> "two thousand, seven hundred and eighty-nine"
-$formatInteger(1999, 'I') -> "MCMXCIX"
-```
-
-## formatNumber
-
-``` javascript
-$formatNumber($num: number, $picture?: string) => string //formats $num using the optional $picture string. The $picture uses decimal format section of the XPath F&O 3.1 specification
-```
-
-### Basic usage
-
-``` javascript
-$formatNumber(12345.6, '#,###.00') -> "12,345.60"
-$formatNumber(1234.5678, "00.000e0") -> "12.346e2"
-$formatNumber(34.555, "#0.00;(#0.00)") -> "34.56"
-$formatNumber(-34.555, "#0.00;(#0.00)") -> "(34.56)"
-```
-
 ## fromMillis
 
 ``` javascript
@@ -565,21 +534,8 @@ $pad($str: string, $length: number, $pad?: string) => string //returns a copy of
 ### Basic usage
 
 ``` javascript
-$pad("foo", 5) -> "foo  "
-$pad("foo", 5, "-") -> "foo--"
-```
-
-## parseInteger
-
-``` javascript
-$parseInteger($str: string, $picture: string) => number //parses $str using the $picture string. The picture is in fn:format-integer as defined in the XPath F&O 3.1 specification
-```
-
-### Basic usage
-
-``` javascript
-$parseInteger("twelve thousand, four hundred and seventy-six", 'w') -> 12476
-$parseInteger('12,345,678', '#,##0') -> 12345678
+$pad("example", 5) -> "example  "
+$pad("example", 5, "-") -> "example--"
 ```
 
 ## partition
@@ -791,7 +747,7 @@ $sum([1,2,3,4]) -> 10
 ## tomillis
 
 ``` javascript
-$toMillis($val:string, $picture?: string) => number //converts a string to a number of milliseconds since the epoch. $picture is optional, if not provided it will default to ISO format. Picture specs are as per Unicode date format standards  
+$toMillis($val:string, $picture?: string) => number //converts a string to a number of milliseconds since the epoch. $picture is optional, if not provided it will default to ISO format. Picture specs are as per Unicode date format standards
 ```
 
 ### Basic usage
