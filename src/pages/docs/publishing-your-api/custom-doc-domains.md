@@ -21,7 +21,7 @@ contextual_links:
     url: "/docs/publishing-your-api/publishing-your-docs/"
 ---
 
-> **[Custom documentation domains are available on Postman Basic, Professional, and Enterprise plans.](https://www.postman.com/pricing)**
+> **[Custom documentation domains are available on Postman paid plans.](https://www.postman.com/pricing)**
 
 You can host your [published API documentation](/docs/publishing-your-api/publishing-your-docs/) on your own custom domain instead of on `getpostman.com`. After you add and verify a custom domain, users can access your API documentation using the custom domain.
 
