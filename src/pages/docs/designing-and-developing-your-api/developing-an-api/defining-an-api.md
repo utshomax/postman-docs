@@ -144,7 +144,7 @@ To add a file to a folder, select the more actions icon <img alt="More actions i
 
 To delete a definition file or folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the item and select **Delete**. Deleting a file or folder doesn't affect other elements added to the API, such as collections.
 
-You can restore a deleted definition file use the [Changelog](/docs/designing-and-developing-your-api/managing-apis/#using-the-changelog). Select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> in the right sidebar, then select **Restore** below the definition file you want to restore.
+You can restore a deleted definition file using the [Changelog](/docs/designing-and-developing-your-api/managing-apis/#using-the-changelog). Select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> in the right sidebar, then select **Restore** below the definition file you want to restore.
 
 > **About definition IDs.** When you add a definition to an API, Postman assigns a definition ID to the API. You can view the definition ID by opening an API and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. The definition ID acts as a container for all the definition files in the API. If you delete all the definition files, the definition ID itself isn't deleted. If you then add a new definition file, the definition ID remains the same as before.
 
