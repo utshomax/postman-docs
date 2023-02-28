@@ -46,7 +46,7 @@ warning: false
 
 Postman can make HTTP calls using GraphQL, an open-source data query and manipulation language for APIs, in addition to REST.
 
-> You can also use GraphQL with [the GraphQL client](/docs/sending-requests/graphql/graphql-client/).
+> You can also use GraphQL with [the GraphQL client](/docs/sending-requests/graphql/graphql-client-overview/).
 
 There are a few ways for you to write and send a GraphQL query using Postman's HTTP request interface:
 

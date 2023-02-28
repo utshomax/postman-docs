@@ -112,9 +112,9 @@ While executing a subscription-type query that returns multiple responses over a
 
 <img src="https://assets.postman.com/postman-labs-docs/graphql-docs/response-stream.jpg" alt="Different sections of the response stream">
 
-* **Response stream** - The response stream has the request and the responses arranged in reverse chronological order (latest appears on the top).
+* **Message stream** - The message stream has the request and the response messages arranged in reverse chronological order (latest appears on the top).
 * **Expand/collapse response** - You can take an in-depth look at the response content by expanding it within the response stream.
-* **Search for response** - You can use the high-level search input to search for particular responses.
+* **Search for messages** - You can use the high-level search input to search for particular messages.
 * **Filter** - Adjust the view based on message type using the message filter. You can choose from **All Messages**, **Responses**, or **Other**.
 * **Clear Messages** - Hides all the messages exchanged from the view, cleaning up the response area so that you can focus on the new messages. You can restore the messages using the **Restore** button after clearing them.
 
@@ -132,7 +132,7 @@ You can also use the **Send** button dropdown to browse and select queries.
 
 The right sidebar gives you access to tools and information like documentation, commenting, and request details. Open a GraphQL request and select an option in the right sidebar:
 
-* **Documentation** - View the request's description. You can add descriptions by selecting the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description, then writing your content using [Postman's built-in editing tools](https://learning.postman.com/docs/publishing-your-api/authoring-your-documentation/).
+* **Documentation** - View the request's description. You can add descriptions by selecting the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description, then writing your content using [Postman's built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/#writing-descriptions-in-the-postman-editor/).
 * **Comments** - Select the comments icon to collaborate with your teammates as you work on an API. You can use `@` to tag others to ask a question, give feedback, and discuss your API.
 * **Info** - Select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> to view details about a request, like the request ID and creation date.
 

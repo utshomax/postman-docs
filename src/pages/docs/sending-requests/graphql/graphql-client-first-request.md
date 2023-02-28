@@ -77,7 +77,3 @@ This example creates and executes a GraphQL query using the interactive query bu
 1. Select **Query**.
 
 ![First GraphQL Query](https://assets.postman.com/postman-docs/v10/graphql-schema-explorer-v10.gif)
-
-## Next steps
-
-Try making a mutation and a subscription type query using the same endpoint and observe the difference in behavior.
