@@ -181,7 +181,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Querying with GraphQL',
+        name: 'Using GraphQL requests',
         subParentSlug: 'graphql',
         slug: '/docs/sending-requests/graphql/graphql-overview/',
         subMenuItems2: [
