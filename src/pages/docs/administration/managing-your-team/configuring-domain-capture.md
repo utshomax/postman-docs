@@ -3,7 +3,7 @@ title: "Configuring domain capture"
 order: 143
 page_id: "configuring_domain_capture"
 warning: false
-updated: 2022-03-02
+updated: 2023-02-28
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -17,15 +17,17 @@ contextual_links:
 
 > **[Domain capture is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-Domain capture allows you to identify and manage all user accounts in Postman that have been created with your organization’s domains and subdomains. With this feature, you can consolidate all of your organization's Postman users into a single Postman team and ensure that any new users who sign up for Postman with your domain are automatically added.
+Domain capture allows you to view and manage all user accounts in Postman that have been created with your organization’s domains and subdomains. With this feature, you can consolidate all of your organization's Postman users into a single Postman team and ensure that any new users who sign up for Postman with your domain are automatically added.
 
 ## Contents
 
 * [Prerequisites for domain capture](#prerequisites-for-domain-capture)
 
-* [Enabling domain capture](#enabling-domain-capture)
+* [Adding and verifying a domain](#adding-and-verifying-a-domain)
 
-* [Admin experience](#admin-experience)
+* [Viewing unclaimed accounts](#viewing-unclaimed-accounts)
+
+* [Enabling domain capture](#enabling-domain-capture)
 
 * [User experience](#user-experience)
 
@@ -42,53 +44,80 @@ You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-perm
 
 It's recommended that you enable [SSO provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) to ease the process of onboarding new users and [Auto-Flex](/docs/administration/billing/#using-auto-flex) to ensure that your team can automatically accommodate all users that may be added to your Postman team when domain capture is enabled.
 
+## Adding and verifying a domain
+
+[Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add domains and subdomains to your team by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture). Once you add your verification **TXT Record** to your DNS configuration, you can request Postman's team to verify your domain or subdomain. Your domain must be verified before you can view and manage all user accounts in Postman created with your organization’s domains and subdomains.
+
+1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
+1. Confirm that your team has only the SSO authentication method enabled. Then, select the **Domains** tab.
+
+    > Your team must have only SAML-based SSO authentication methods enabled to set up domain capture. Alternative authentication methods such as Postman or Google sign in must be deactivated.
+
+1. Select **Add Domain**.
+
+    ![Select Add Domain](https://assets.postman.com/postman-docs/v10/select-add-domain-v10.jpg)
+
+1. Enter the domain or subdomain you'd like to add, and then select **Generate Verification Record**.
+
+    <img alt="Generate verification record" src="https://assets.postman.com/postman-docs/v10/enter-domain-name-v10.jpg" width="450px"/>
+
+1. Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy** to copy the **TXT Record**, and then add it to your domain's DNS configuration.
+
+    > Instead, you can select **Verify Later** if you're not ready to add the **TXT Record** to your domain's DNS configuration. To verify your domain later, see [Verifying a domain later](#verifying-a-domain-later).
+
+1. Select the **I have added the TXT record to the DNS tool.** checkbox, and then select **Verify Domain**. Postman's team will check your requested domain and update its status to `VERIFIED` in your domain dashboard. Team Admins will receive an email notification when the domain is verified.
+
+    <img alt="Add domain TXT record" src="https://assets.postman.com/postman-docs/v10/add-domain-verification-record-v10.jpg" width="450px"/>
+
+    > You can reach out to [Postman support](https://www.postman.com/support/) to check the status of your domain verification request.
+
+1. Once your domain is verified, you can [create a request to enable domain capture](#enabling-domain-capture).
+
+### Verifying a domain later
+
+To verify a domain you've already added, do the following:
+
+1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
+1. Select **Verify** next to the domain you want to verify.
+
+    ![Verify domain later](https://assets.postman.com/postman-docs/v10/verify-domain-later-v10.jpg)
+
+1. Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy** to copy the **TXT Record**, and then add it to your domain's DNS configuration.
+1. Select the **I have added the TXT record to the DNS tool.** checkbox, and then select **Verify Domain**. Postman's team will check your requested domain and update its status to `VERIFIED` in your domain dashboard. Team Admins will receive an email notification when the domain is verified.
+
+    <img alt="Verify unverified domain" src="https://assets.postman.com/postman-docs/v10/verify-unverified-domain-later-v10.jpg" width="450px"/>
+
+    > You can reach out to [Postman support](https://www.postman.com/support/) to check the status of your domain verification request.
+
+1. Once your domain is verified, you can [create a request to enable domain capture](#enabling-domain-capture).
+
+## Viewing unclaimed accounts
+
+Unclaimed accounts are accounts associated with a verified domain that aren't part of your team. [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can view unclaimed accounts by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture).
+
+1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
+1. Select **Manage** next to the domain you want to view unclaimed accounts for, and then select **View Accounts**.
+
+    > Optionally, you can select the number of unclaimed accounts next to the domain in the domain dashboard.
+
+1. View the list of accounts not part of your team.
+1. Optionally, you can select **Export CSV** to export the list as a CSV file. You will receive an email containing the download link.
+
 ## Enabling domain capture
 
-To enable domain capture, open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
+After the domain or subdomain is [added and verified](#adding-and-verifying-a-domain), [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can manage the domains and subdomains that have been added to a team by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture). To enable domain capture, a Team Admin must create a request with Postman support to claim accounts not part of your team. Once the request is approved, Team Admins can work with Postman support to manage these accounts.
 
-Confirm that your team has only the SSO authentication method enabled. Then, select the **Domains** tab.
+1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
+1. Select **Manage** next to the domain you want to claim accounts for.
+1. Select **Request To Claim**. Postman support will then contact Team Admins to explain the effects of enabling domain capture.
 
-> Your team must have only SAML-based SSO authentication methods enabled to set up domain capture. Alternative authentication methods such as Postman or Google sign in must be deactivated.
+With domain capture enabled, any new users who sign up for Postman with your domain are automatically added to your team and can be managed in your [team dashboard](https://go.postman.co/settings/team/members). You won't be able to selectively pick users you'd like to add to your team. Once enabled, the number of unclaimed accounts will reduce as these users sign in and join your team.
 
-Select **Add Domain**. Enter the domain or subdomain you'd like to add, then select **Generate Verification Records**. <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy** the **TXT record** and add it to your domain's DNS configuration.
-
-<img alt="Add domain - domain details" src="https://assets.postman.com/postman-docs/authentication-domain-add-details-9.4.jpg" width="350"/>
-
-In Postman, you can select **← Back** to return to your domain dashboard.
-
-<img alt="Domain dashboard" src="https://assets.postman.com/postman-docs/authentication-domain-dashboard-9.5.jpg"/>
-
-Verification status will change from "Created" to "In Progress" after the TXT record has been added to the domain's DNS configuration.
-
-Postman's team will check your requested domain and update its status to "Verified" in your domain dashboard. They will also email your Team Admins.
-
-> You can reach out to [Postman support](https://www.postman.com/support/) to check on the status of your domain verification.
-
-Once your domain has been verified, you can enable it by selecting the switch under **Domain authentication**.
-
-<img alt="Domain authentication confirmation" src="https://assets.postman.com/postman-docs/manage-accts-domain-v9.jpg" width="500px"/>
-
-Select **Confirm** to enable domain capture.
-
-You can enable domain capture for additional domains and subdomains at any time in your [domain dashboard](https://go.postman.co/settings/team/domain-capture). You must add, verify, and enable domain capture for each subdomain separately. User accounts associated with subdomains won't be captured implicitly if domain capture is only enabled for the domain.
-
-## Admin experience
-
-Team members with the [Team Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can manage the domains and subdomains that have been added to a team by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture). Here, Admins can add, activate, deactivate, or delete domains and subdomains for their team at any time.
-
-<img alt="Domain dashboard" src="https://assets.postman.com/postman-docs/authentication-domain-dashboard-9.5.jpg"/>
-
-In the domain dashboard, you can view your domains, their verification status, the number of unclaimed accounts associated with the domain, and if domain capture is currently turned on or off for the particular domain.
-
-**Unclaimed Accounts** is the number of accounts associated with a verified domain that aren't a part of your Postman team. When you opt to enable **Domain authentication** for a domain, you'll be provided with a list of the unclaimed Postman accounts that will be automatically added to your team. Once enabled, the number of unclaimed accounts will reduce as these users sign in and join your team.
-
-> You won't be able to selectively pick users you'd like to add to your team. When domain capture is enabled, any user associated with the domain, who can authenticate with the SSO auth method you've enabled, can join your Postman team.
-
-With domain capture enabled, any new users that sign up for Postman with your domain are automatically added to your team and can be managed in your [team dashboard](https://go.postman.co/settings/team/members).
+> You must reach out to [Postman support](https://www.postman.com/support/) to disable domain capture.
 
 ## User experience
 
-When domain capture is enabled, Postman users with accounts associated with the domain or subdomain will only be able to access Postman after joining your Postman team. This applies to existing users who are a part of other Postman teams, existing individual Postman users, and new users who sign up for Postman.
+When domain capture is enabled, Postman users with accounts associated with the domain or subdomain will only be able to access Postman after joining your team. This applies to existing users who are part of other teams, existing individual users, and new users who sign up for Postman.
 
 The next time existing users sign in to Postman, they will get a notification that your team manages their account.
 
@@ -131,8 +160,8 @@ The experience for captured users depends on their prior team status:
 
 ### Can a Team Admin view the list of user accounts that will be captured before enabling domain capture?
 
-Yes, a Team Admin can view the list of the unclaimed Postman accounts that will be captured prior to confirming they'd like to enable domain capture.
+Yes, a Team Admin can view the list of the unclaimed Postman accounts that will be captured prior to confirming they'd like to enable domain capture. To learn more, see [Viewing unclaimed accounts](#viewing-unclaimed-accounts).
 
 ### Does adding a domain automatically add all the team members with the organization’s domain to the organization’s team?
 
-No, after you add a domain, it must be verified by [Postman support](https://www.postman.com/support/). Postman support will contact Team Admins to evaluate and explain the effects of enabling domain capture, then confirm verification of the domain. Any Team Admin will then be able to enable domain capture for your Postman team.
+No, after a Team Admin adds a domain, they must create a request for Postman's team to verify the domain or subdomain. Once both criteria are met, a Team Admin can create a request to claim accounts not part of the team. Postman support will then contact Team Admins to explain the effects of enabling domain capture. Any Team Admin will then be able to enable domain capture for your Postman team. To learn more, see [Enabling domain capture](#enabling-domain-capture).
