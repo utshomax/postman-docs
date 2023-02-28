@@ -18,7 +18,7 @@ contextual_links:
 
 > **[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
 
-Your [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can configure single sign-on (SSO) for a Postman team. To configure SSO for a team, add an authentication method, and then configure the Identity Provider (IdP) details.
+Your [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can configure single sign-on (SSO) for a Postman team. To configure SSO for a team, add an authentication method, and then configure the identity provider (IdP) details.
 
 ## Contents
 
@@ -42,7 +42,7 @@ To begin adding an authentication method, do the following:
 
     > Always check with your authentication provider dashboard or your IT support staff for the correct information to configure SSO.
 
-### Configuring the identity provider details
+### Configuring the IdP details
 
 After [adding the authentication method](#configuring-single-sign-on), you can configure the IdP details.
 
