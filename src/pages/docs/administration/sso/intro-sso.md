@@ -34,9 +34,9 @@ An example of SSO is Google's sign-in implementation for products like Gmail, Yo
 
 ### Prerequisites for SSO with Postman
 
-* Team’s Identity Provider (IdP) must support the SAML 2.0 standard.
+* Team’s identity provider (IdP) must support the SAML 2.0 standard.
 
-### Identity Providers Supported
+### Supported IdPs
 
 Professional plans:
 
