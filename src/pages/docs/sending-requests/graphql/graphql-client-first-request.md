@@ -54,7 +54,7 @@ Get started with GraphQL by creating a query and executing it using Postman’s 
 
 ## About GraphQL Requests
 
-Every GraphQL request requires a URL and a query. The URL is the endpoint where the data is hosted, and the query defines what exactly needs to be retrieved from this data source. A GraphQL request can also have a schema configured to inform you of the data fields available from the server that can be included in the query. The request can also contain additional information such as auth, headers, and settings based on the requirements specified by the API.
+Every GraphQL request requires a URL and a query. The URL is the endpoint where the data is hosted, and the query defines what exactly needs to be retrieved from this data source. A GraphQL request can also have a schema configured to inform you of the data fields available from the server that can be included in the query. The request can also contain additional information such as authentication, headers, and settings based on the requirements specified by the API.
 
 Using a GraphQL request, you can execute three different types of Queries:
 
