@@ -44,7 +44,7 @@ warning: false
 
 ---
 
-GraphQL requests in Postman include a variety of tools, views, and controls to help you debug and document your GraphQL API effectively and efficiently. This document highlights the parts of the request interface and explains how to use them.
+GraphQL requests in Postman include a variety of tools, views, and controls to help you debug and document your GraphQL API effectively and efficiently. This document highlights the parts of the request interface and the response and explains how to use them.
 
 <img src="https://assets.postman.com/postman-labs-docs/graphql-docs/request-full-view.jpg" alt="Different sections of a GraphQL request">
 
@@ -60,9 +60,11 @@ GraphQL requests in Postman include a variety of tools, views, and controls to h
 
 ## Creating a new request
 
-Create a new GraphQL request by selecting the **New** button in the sidebar, which brings up the **Create new** dialog. Select **GraphQL request** from the list to open a blank gRPC request in a new tab.
+You can create a new gRPC request from the Postman home screen, by using **New > gRPC Request**, or by selecting **+** to open a new tab.
 
-<img src="https://assets.postman.com/postman-labs-docs/graphql-docs/creating-request.gif" alt="Creating a new GraphQL request">
+![Create a new gRPC request](https://assets.postman.com/postman-docs/v10/graphql-create-new-v10.jpg)
+
+Select **Save** to create your request.
 
 ## Loading a GraphQL schema
 
@@ -70,7 +72,7 @@ You can use a GraphQL schema in your request to browse the available data fields
 
 <img src="https://assets.postman.com/postman-labs-docs/graphql-docs/loading-schema.gif" alt="Adding schema to the request">
 
-You can also choose to load a GraphQL API from Postman or import a schema from your local system to use in the request.
+You can also choose to [load a GraphQL API from Postman](/docs/designing-and-developing-your-api/importing-an-api/) or [import a schema](/docs/getting-started/importing-and-exporting-data/) from your local system to use in the request.
 
 ## Understanding parts of the request interface
 
@@ -79,8 +81,8 @@ The request interface enables you to add configurations to connect to the server
 <img src="https://assets.postman.com/postman-labs-docs/graphql-docs/request-sections.jpg" alt="Different sections of the request interface">
 
 * **URL** - Defines the endpoint where the service is hosted. While creating a new request, you can also browse through URLs you've used by selecting the **URL** field. This helps you create the request faster if you’re going to execute different queries with the same point.
-* **Query explorer** - Once the schema is loaded, the available data fields, arguments to be passed, and their respective descriptions appear in this section. The schema query also doubles as an interactive visual query builder enabling you to select individual fields and arguments to build your query.
-* **Query builder** - Explore and build your queries, mutations, fragments, and subscriptions here.
+* **Query explorer** - Once the schema is loaded, the available data fields, arguments to be passed, and their respective descriptions appear in this section. The schema query also doubles as an interactive visual query editor enabling you to select individual fields and arguments to build your query.
+* **Query editor** - Explore and build your queries, mutations, fragments, and subscriptions here.
 * **Response** - Displays the response from the highlighted query/mutation/subscription.
 * **Variables** - GraphQL enables you to pass variables as arguments for values defined dynamically in the client. You can use those variables in the query and define their values separately using the **Variables** section.
 * **Authorization** - Enter authorization credentials here. You can choose from a list of auth types including API Key, Basic auth, and Bearer token. Learn more about [authorizing requests](https://learning.postman.com/docs/sending-requests/authorization/).
@@ -118,7 +120,7 @@ While executing a subscription-type query that returns multiple responses over a
 
 ## Creating and executing multiple queries
 
-The GraphQL request interface enables you to create multiple queries in the query builder and execute them one at a time. You can select a query from the query editor and select **Query** to execute only the selected query.
+The GraphQL request interface enables you to create multiple queries in the query editor and execute them one at a time. You can select a query from the query editor and select **Query** to execute only the selected query.
 
 <img src="https://assets.postman.com/postman-labs-docs/graphql-docs/sending-multiquery.gif" alt="Sending multiple queries using the query editor">
 
