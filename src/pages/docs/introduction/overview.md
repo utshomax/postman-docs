@@ -59,7 +59,7 @@ You can send requests in Postman to connect to APIs you are working with. To lea
 
 ## Writing scripts
 
-Postman has a powerful runtime based on Node.js that allows you to add dynamic behavior to requests and collections. You can write scripts that run before or after request execution to perform API tests, build requests that can contain dynamic parameters, pass data between requests, and more. To learn more about scripts, see [scripting in Postman](/docs/writing-scripts/intro-to-scripts/).
+Postman has a powerful runtime based on Node.js that enables you to add dynamic behavior to requests and collections. You can write scripts that run before or after request execution to perform API tests, build requests that can contain dynamic parameters, pass data between requests, and more. To learn more about scripts, see [scripting in Postman](/docs/writing-scripts/intro-to-scripts/).
 
 ## Running collections
 
