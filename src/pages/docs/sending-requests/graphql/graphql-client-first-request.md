@@ -48,7 +48,7 @@ Get started with GraphQL by creating a query and executing it using Postman’s 
 
 ## Contents
 
-* [About GraphQL request](#about-graphql-request)
+* [About GraphQL requests](#about-graphql-requests)
 * [Making a GraphQL query with Postman](#making-a-graphql-query-with-postman)
 * [Next steps](#next-steps)
 
