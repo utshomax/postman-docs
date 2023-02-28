@@ -58,11 +58,11 @@ Every GraphQL request requires a URL and a query. The URL is the endpoint where 
 
 Using a GraphQL request, you can execute three different types of Queries:
 
-**Queries** - Queries retrieve data from the server by specifying data fields and passing required arguments.
+* **Queries** - Queries retrieve data from the server by specifying data fields and passing required arguments.
 
-**Mutation** - Mutation-type queries allow you to manipulate the data available on the server. You can create, update, and delete data records by selecting the fields and passing the values as arguments.
+* **Mutation** - Mutation-type queries allow you to manipulate the data available on the server. You can create, update, and delete data records by selecting the fields and passing the values as arguments.
 
-**Subscription** - For a live data source with frequently-changing data, you can subscribe to the data available on different fields. This enables the server to send the data requested over a persistent connection.
+* **Subscription** - For a live data source with frequently-changing data, you can subscribe to the data available on different fields. This enables the server to send the data requested over a persistent connection.
 
 ## Making a GraphQL query with Postman
 
