@@ -37,6 +37,7 @@ Partner Workspaces enable you to collaborate with external partners directly in 
     * [Managing workspace elements](#managing-workspace-elements)
     * [Editing workspace details](#editing-workspace-details)
 * [Removing elements from a Partner Workspace](#removing-elements-from-a-partner-workspace)
+* [Removing partners from a Partner Workspace](#removing-partners-from-a-partner-workspace)
 * [Deleting a Partner Workspace](#deleting-a-partner-workspace)
 
 ## Creating a Partner Workspace
@@ -91,7 +92,7 @@ If you'd like to keep certain elements in other workspaces, you can [fork them i
 
 ## Inviting collaborators to a Partner Workspace
 
-Workspace Admins, Partner Managers, and Partner Leads can invite partners to Partner Workspaces. Your team can invite five partners at no extra cost. To purchase more partner licenses, contact your Postman Account Manager or [contact Postman's sales team](mailto:sales@postman.com).
+Workspace Admins, Partner Managers, and Partner Leads can invite partners to Partner Workspaces. Your team can invite five partners assigned the Workspace Editor role at no extra cost. To purchase more Workspace Editor partner licenses, contact your Postman Account Manager or [contact Postman's sales team](mailto:sales@postman.com). Assigning a partner the Workspace Viewer role doesn't consume paid seats.
 
 > For more information on partner roles, see [Partner roles](/docs/collaborating-in-postman/roles-and-permissions/#partner-roles).
 
@@ -101,6 +102,9 @@ To invite partners to a Partner Workspace, do the following:
 1. (Workspace Admins and Partner Managers only) Select **Partners**, then **Continue**.
 1. Enter the name, email, or group name of the partners.
 1. Set their [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
+
+    > Your team must have have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#using-auto-flex) to invite a partner as a Workspace Editor. Otherwise, the partner will be assigned the Workspace Viewer role. Assigning a partner the Workspace Viewer role doesn't consume paid seats.
+
 1. (Workspace Admins and Partner Managers only) Select **Make them Partner Lead** if you'd like them to also be able to manage and invite partners within the workspace.
 1. Select **Invite Partners**.
 
@@ -116,6 +120,9 @@ To invite team members to a Partner Workspace, do the following:
 1. Select **Team members**, then **Continue**.
 1. Enter the name, email, or group name of the team members.
 1. Set their [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
+
+    > Your team must have have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#using-auto-flex) to invite a partner as a Workspace Editor. Otherwise, the partner will be assigned the Workspace Viewer role. Assigning a partner the Workspace Viewer role doesn't consume paid seats.
+
 1. Select **Send Invites**.
 
 ## Collaborating in a Partner Workspace
@@ -135,6 +142,8 @@ Users can also be assigned the team-level Partner Manager role. Partner Managers
 When an external partner is invited to a Partner Workspace by a team they're working with, they only have access to that Partner Workspace and can't access any other workspaces or resources within the team. Partners don't have personal or team workspaces within the team they're partnering with.
 
 Within a Partner Workspace, partners with the Workspace Editor role can [import and export](/docs/getting-started/importing-and-exporting-data/) elements. They can also [fork elements](/docs/collaborating-in-postman/using-version-control/forking-entities/) within the same Partner Workspace or to another Partner Workspace within the same team. They can't fork elements outside the team.
+
+Within a Partner Workspace, partners with the Workspace Viewer role can [fork elements](/docs/collaborating-in-postman/using-version-control/forking-entities/) to another Partner Workspace within the same team where they're assigned the Workspace Editor role. They can't fork elements outside the team. Also, they can't export workspace resources.
 
 At the team level, all external partners are automatically assigned the Partner role. At the workspace level, all partners are assigned [Workspace Editor or Viewer](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) roles when invited to a Partner Workspace. Partners can also be assigned the Partner Lead role, which enables them to invite other individuals from their organization to the Partner Workspace.
 
@@ -156,6 +165,8 @@ You can also [assign](/docs/collaborating-in-postman/using-workspaces/managing-w
 * **Partner Lead** (External) - Can invite other partners from their organization to join a Partner Workspace.
 
 All partners are assigned Workspace Editor or Viewer roles when invited to a Partner Workspace.
+
+> Your team must have have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#using-auto-flex) to invite a partner as a Workspace Editor. Otherwise, the partner will be assigned the Workspace Viewer role. Assigning a partner the Workspace Viewer role doesn't consume paid seats.
 
 To learn more about partner roles, see [Partner roles](/docs/collaborating-in-postman/roles-and-permissions/#partner-roles).
 
@@ -186,6 +197,12 @@ To remove an element by moving it to another workspace, do the following:
 It's not recommended, but you can choose to delete an element entirely. To do so, select the element in the sidebar, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Delete**.
 
 > Deleted APIs and environments aren't recoverable. You can recover collections smaller than 30 MB for up to 90 days on an Enterprise plan. To do so, select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Trash** from the Postman footer.
+
+## Removing partners from a Partner Workspace
+
+You can remove partners from individual Partner Workspaces. To remove a partner from a Partner Workspace, see [Managing workspace roles](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles).
+
+You can remove partners from a team. Removing a partner from a team removes them from all Partner Workspaces. Also, if you remove the last Admin from the team, users assigned the Partner Manager role will be assigned the Admin role. To remove a partner from a team, see [Removing team members](/docs/administration/managing-your-team/managing-your-team/#removing-team-members).
 
 ## Deleting a Partner Workspace
 
