@@ -260,7 +260,7 @@ class IndexPage extends React.Component {
         <div className="container">
           <SectionStyles className="row">
             <div className="col-sm-12">
-              <h2 className="mb-5">Design, develop, and collaborate on your API projects</h2>
+              <h2 className="mb-5">Design, Develop, and Collaborate on Your API Projects</h2>
               <div className="row justify-content-center">
                 <div className="col-sm-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
                   <LandingCard
