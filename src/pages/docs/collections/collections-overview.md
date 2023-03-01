@@ -24,6 +24,7 @@ _Postman Collections_ are a group of saved requests. Every request you send in P
 * [Using collection](#using-collections)
 * [Running collections](#running-collections)
 * [Running collections on the command line with Newman](#running-collections-on-the-command-line-with-newman)
+
 ## Creating your first collection
 
 If you're getting started with collections for the first time, learn how to [Create your first collection](/docs/getting-started/creating-the-first-collection/).
@@ -37,4 +38,3 @@ Learn more about how to create, manage, and use collections in [Using collection
 The _Collection Runner_ enables you to run a collection's requests in a specified sequence. You can run collections manually, on a schedule, from a monitor, from a webhook, or in your CI/CD pipeline by running it from the command line.
 
 To learn more about running collections, see [Using the Collection Runner](/docs/collections/running-collections/running-collections-overview/).
-
