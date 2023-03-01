@@ -67,7 +67,7 @@ You can configure the Collection Runner to meet your development needs. You can 
     * **Data** - A [data file](/docs/running-collections/working-with-data-files/) for the collection run.
     * **Persist responses for a session** - Log the response headers and bodies so you can review them after running the collection. For large collections, persisting responses may affect performance.
 
-      > Request and response details are persisted for your current Postman session and aren't saved permanently. Signing out of Postman, signing into another device with the same account, or refreshing your browser will end your session and remove the logged data.
+    > Request and response details are persisted locally during your current Postman session and aren't saved permanently. Signing out of Postman, signing into another device with the same account, or refreshing your browser will end your session and remove the logged data.
 
     * **Advanced settings**
       * **Keep variable values** - Persist the variables used in the run, so that any variables updated by the run will remain changed after it completes. If you don't persist variables, changes aren't saved after the run completes. _Note that persisting variables in the collection run will update the current value only._
