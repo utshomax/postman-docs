@@ -293,6 +293,10 @@ export const leftNavItems = [
         url: '/docs/collections/collections-overview/',
       },
       {
+        name: 'Using collections',
+        url: '/docs/collections/using-collections/',
+      },
+      {
         name: 'Running collections',
         subParentSlug: 'running-collections',
         slug: '/docs/collections/running-collections/running-collections-overview/',

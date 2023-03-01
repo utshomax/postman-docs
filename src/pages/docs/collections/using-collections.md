@@ -1,6 +1,7 @@
 ---
-title: "Grouping requests in collections"
+title: "Using collections"
 updated: 2023-03-01
+search_keyword: "collections, new collection, create collection, creating collections, delete collection, rename collection, about collections"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -33,8 +34,6 @@ contextual_links:
 
 warning: false
 ---
-
-<!--TODO: Remove all content from this page except conceptual and link to the topics in /collections-->
 
 You can group your Postman requests and examples into collections to keep your workspace organized, to collaborate with teammates, to generate API documentation and API tests, and to automate request runs.
 
