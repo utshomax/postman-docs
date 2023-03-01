@@ -57,7 +57,7 @@ Collection run usage doesn't appear on the Resource Usage dashboard. Instead, a 
 
 ## Custom domains
 
-Postman Basic, Professional, and Enterprise [plans](https://www.postman.com/pricing/) give you a limited number of [custom domains](/docs/publishing-your-api/custom-doc-domains/) you can use when publishing API documentation. After the limit is reached, you won't be able to add a new custom domain.
+Postman paid [plans](https://www.postman.com/pricing/) give you a limited number of [custom domains](/docs/publishing-your-api/custom-doc-domains/) you can use when publishing API documentation. After the limit is reached, you won't be able to add a new custom domain.
 
 ![Custom domains limit reached](https://assets.postman.com/postman-docs/v10/usage-error-custom-domains-v10.jpg)
 
