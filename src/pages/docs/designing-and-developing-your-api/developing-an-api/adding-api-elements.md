@@ -98,7 +98,7 @@ When suggestions are enabled, the update collection icon <img alt="Update collec
 
 To update a collection based on the API definition, do the following:
 
-1. Select the update collection icon next to the collection on the API's overview.
+1. Select the update collection icon <img alt="Update collection icon" src="https://assets.postman.com/postman-docs/v10/icon-update-collection-v10.jpg#icon" width="16px"> next to the collection on the API's overview.
 
     <img alt="Update collection icon" src="https://assets.postman.com/postman-docs/v10/schema-sync-icon-v10.jpg" width="542px" >
 
