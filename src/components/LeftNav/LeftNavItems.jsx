@@ -576,7 +576,7 @@ export const leftNavItems = [
             url: '/docs/collaborating-in-postman/using-workspaces/managing-workspaces/',
           },
           {
-            name: 'Partner workspaces',
+            name: 'Partner Workspaces',
             url: '/docs/collaborating-in-postman/using-workspaces/partner-workspaces/'
           },
           {
