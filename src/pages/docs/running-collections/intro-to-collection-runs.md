@@ -98,7 +98,7 @@ To learn more about what happened during the collection run, do any of the follo
 
 * Hover over a request and select <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-external-link.jpg#icon" width="18px"> **Open Request** to open the request in a new tab. You can view any test scripts or select **Send** to send the request again.
 
-* Select the **Passed**, **Failed**, or **Skipped** tabs to filter the results by test status. To show all requests, select the **All Tests** tab. If any test in a request script fail during a collection run, the whole request fails.
+* Select the **Passed**, **Failed**, or **Skipped** tabs to filter the results by test status. To show all requests, select the **All Tests** tab. If any tests in a request script fail during a collection run, the whole request fails.
 
 * If your collection run included more than one iteration, select an iteration number to jump to the results of a specific iteration.
 
