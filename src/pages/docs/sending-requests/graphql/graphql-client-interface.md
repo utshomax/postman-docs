@@ -120,11 +120,11 @@ While executing a subscription-type query that returns multiple responses over a
 
 ## Creating and executing multiple queries
 
-The GraphQL request interface enables you to create multiple queries in the query editor and execute them one at a time. You can select a query from the query editor and select **Query** to execute only the selected query.
+The GraphQL request interface enables you to create multiple queries and execute them one at a time. You can select a checkbox in the query explorer and select **Query** to execute only the selected query.
 
-<img src="https://assets.postman.com/postman-labs-docs/graphql-docs/sending-multiquery.gif" alt="Sending multiple queries using the query editor">
+<img src="https://assets.postman.com/postman-labs-docs/graphql-docs/sending-multiquery.gif" alt="Sending a single query using the Query Explorer">
 
-You can also use the **Send** button dropdown to browse and select queries.
+You can also use the **Query** button dropdown to browse and select queries.
 
 <img src="https://assets.postman.com/postman-labs-docs/graphql-docs/multiquery-switcher.jpg" alt="Sending multiple queries using the Query button">
 
@@ -133,9 +133,9 @@ You can also use the **Send** button dropdown to browse and select queries.
 The right sidebar gives you access to tools and information like documentation, commenting, and request details. Open a GraphQL request and select an option in the right sidebar:
 
 * **Documentation** - View the request's description. You can add descriptions by selecting the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description, then writing your content using [Postman's built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/#writing-descriptions-in-the-postman-editor/).
-* **Comments** - Select the comments icon to collaborate with your teammates as you work on an API. You can use `@` to tag others to ask a question, give feedback, and discuss your API.
+* **Comments** - Select the comments icon	<img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> to collaborate with your teammates as you work on an API. You can use `@` to tag others to ask a question, give feedback, and discuss your API.
 * **Info** - Select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> to view details about a request, like the request ID and creation date.
 
 ## Next steps
 
-After learning about the basic interface elements, try [making your first GraphQL query](/postman-api-client/graphql-client/first-graphql-request/).
+After learning about the basic interface elements, try [making your first GraphQL query](/docs/sending-requests/graphql/graphql-client-first-request/).
