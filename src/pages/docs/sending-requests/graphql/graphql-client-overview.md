@@ -1,6 +1,6 @@
 ---
-title: "GraphQL client overview"
-page_id: "graphql-client-overview"
+title: "About the GraphQL client"
+page_id: "about-the-graphql-client"
 updated: 2023-02-24
 contextual_links:
   - type: section
