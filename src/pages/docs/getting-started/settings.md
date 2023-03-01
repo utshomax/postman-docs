@@ -1,6 +1,6 @@
 ---
 title: "Setting up Postman"
-updated: 2022-12-01
+updated: 2023-03-15
 search_keyword: "GPU, hardware acceleration, shortcut, shortcuts, keyboard shortcuts"
 contextual_links:
   - type: section
