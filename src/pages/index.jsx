@@ -65,7 +65,7 @@ margin-bottom: 48px;
 }
 `
 const HeroWrapper = styled.section`
-  background-color: ${(props) => props.theme.colors.grey_05};
+  background-color: rgba(173, 205, 251, .2);
   padding: 48px 80px;
     @media (max-width: 991px) {
         padding: 40px !important;
