@@ -1,6 +1,6 @@
 ---
 title: "Grouping requests in collections"
-updated: 2022-02-03
+updated: 2023-03-01
 search_keyword: "collections, new collection, create collection, creating collections, delete collection, rename collection, about collections"
 contextual_links:
   - type: section
@@ -148,6 +148,7 @@ From the list of collections in your workspace, you can:
 * Hover over a collection name and select the star icon &#9733; to move that collection to the top of the list.
 * Use the collection search bar to filter through your collections.
 * Reorder the requests, folders, and examples inside a collection by dragging and dropping them.
+* Sort the requests by name, method, or date created using the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
 ### Adding folders to a collection
 
