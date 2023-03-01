@@ -1,6 +1,6 @@
 ---
 title: 'Editing an API definition'
-updated: 2022-12-06
+updated: 2023-02-24
 search_keyword: "schema, spec, API schema, API spec, API specification, API definition"
 contextual_links:
   - type: section
@@ -56,10 +56,12 @@ You create the structure of your API using the _API definition_. The API definit
 If your API doesn't have a definition, you can generate an example definition that you can edit.
 
 1. Select **APIs** in the sidebar and select an API.
-1. On the API's overview, under **Definition**, select **Create Definition**.
-1. Select **Author Definition from scratch**.
+1. On the API's overview, next to **Definition**, select **+** and select **Author from scratch**.
+
+    > You can also select the API in the sidebar and select **create**.
+
 1. Select a definition type and format.
-1. Select the **Use a Boilerplate in this Definition** option if you want to start with a sample definition.
+1. Select the **Use a boilerplate** checkbox if you want to start with a sample definition.
 
     <img alt="Generating an API definition" src="https://assets.postman.com/postman-docs/v10/api-builder-author-definition-v10.jpg" width="323px"/>
 
@@ -70,10 +72,12 @@ If your API doesn't have a definition, you can generate an example definition th
 You can import a file into your API to define your API.
 
 1. Select **APIs** in the sidebar and select an API.
-1. On the API's overview, under **Definition**, select **Create Definition**.
-1. Select **Import Definition**.
-1. Select the file you want to import.
-1. Select **Use this Definition** next to the API definition you want to use.
+1. On the API's overview, next to **Definition**, select **+** and select **Import files**.
+
+    > You can also select the API in the sidebar and select **Import**.
+
+1. Select **Choose Files** and select the file you want to import.
+1. Select **Import**.
 
 > You can also import an API from a folder, a link, a code repository, or an API gateway. Learn more about [importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
 
@@ -138,9 +142,11 @@ To add a file to a folder, select the more actions icon <img alt="More actions i
 
 ### Deleting files and folders
 
-To delete a file or folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the item and select **Delete**.
+To delete a definition file or folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the item and select **Delete**. Deleting a file or folder doesn't affect other elements added to the API, such as collections.
 
-> If you delete the last remaining file in an API definition, the API will no longer have a definition unless you create it again. The schema documentation and any information in the file's info pane including the definition ID will be lost. Other components of the API will remain intact. For example, collections in the API won't be deleted. You can't restore a definition after it's deleted.
+You can restore a deleted definition file using the [Changelog](/docs/designing-and-developing-your-api/managing-apis/#using-the-changelog). Select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> in the right sidebar, then select **Restore** below the definition file you want to restore.
+
+> **About definition IDs.** When you add a definition to an API, Postman assigns a definition ID to the API. You can view the definition ID by opening an API and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. The definition ID acts as a container for all the definition files in the API. If you delete all the definition files, the definition ID itself isn't deleted. If you then add a new definition file, the definition ID remains the same as before.
 
 ## Viewing rule violations in your API definition
 
