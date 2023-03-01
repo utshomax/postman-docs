@@ -23,7 +23,7 @@ contextual_links:
 warning: false
 ---
 
-> **[Changelog is available on Postman Basic, Professional, and Enterprise plans.](https://www.postman.com/pricing/)**
+> **[Changelog is available on Postman paid plans.](https://www.postman.com/pricing/)**
 
 Each Postman Collection has a changelog that covers create, update, transfer, and delete events. You can use the changelog to keep track of updates you and other collaborators make to your private and team collections. The changelog also enables you to roll back a collection and restore it to an earlier point in time.
 

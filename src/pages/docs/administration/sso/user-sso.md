@@ -11,7 +11,7 @@ contextual_links:
 
 > **[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
 
-When your [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) has enabled single sign-on (SSO) for Postman, you can sign in to Postman with a [configured Identity Provider (IdP)](/docs/administration/sso/intro-sso/#identity-providers-supported).
+When your [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) has enabled single sign-on (SSO) for Postman, you can sign in to Postman with a [configured identity provider (IdP)](/docs/administration/sso/intro-sso/#identity-providers-supported).
 
 Your Team Admin can share a **Login URL** that was generated during the SSO configuration. The **Login URL** will automatically redirect you to your configured IdP.
 
