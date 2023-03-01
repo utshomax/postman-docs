@@ -83,7 +83,7 @@ In this case, you could repeat the process of generating a collection from the A
 
 ### Enabling collection update suggestions
 
-You can enable update suggestions for any collection that's been added to an API. When suggestions are enabled, Postman will detect you when there are differences between the API definition and the collection and will offer suggestions for updating the collection.
+You can enable update suggestions for any collection that's been added to an API. When suggestions are enabled, Postman will detect when there are differences between the API definition and the collection and will offer suggestions for updating the collection.
 
 To enable update suggestions for a collection, do the following:
 
