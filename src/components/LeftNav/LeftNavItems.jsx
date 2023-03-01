@@ -190,11 +190,11 @@ export const leftNavItems = [
             url: '/docs/sending-requests/graphql/graphql-overview/',
           },
           {
-            name: 'GraphQL client overview',
-            url: '/docs/sending-requests/graphql/about-the-graphql-client/',
+            name: 'About the GraphQL client',
+            url: '/docs/sending-requests/graphql/graphql-client-overview/',
           },
           {
-            name: 'About the GraphQL client',
+            name: 'Using the GraphQL interface',
             url: '/docs/sending-requests/graphql/graphql-client-interface/',
           },
           {
