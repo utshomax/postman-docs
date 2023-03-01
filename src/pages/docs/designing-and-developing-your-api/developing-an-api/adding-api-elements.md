@@ -67,7 +67,7 @@ To generate a new collection from your API definition, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, next to **Collections**, select **+** and select **Generate from definition**.
-1. Select the checkbox if you want Postman to suggest updates for the collection when the API definition changes. Learn more about [keeping a collection in sync with an API](#keeping-a-collection-in-sync-with-an-api).
+1. Select the checkbox if you want Postman to suggest updates for the collection when the API definition changes. This checkbox is selected by default. Learn more about [keeping a collection in sync with an API](#keeping-a-collection-in-sync-with-an-api).
 1. Change any settings to customize the new collection.
 1. Select **Generate Collection**.
 
@@ -105,7 +105,7 @@ To update a collection based on the API definition, do the following:
 1. Review the suggested updates to the collection:
 
     * **Add requests** - These requests will be added to the collection based on paths found in the API definition. Select the arrow next to a request for more details.
-    * **Modify requests** - These requests will be updated to match the paths in the API definition.
+    * **Modify requests** - These requests will be updated to match the paths in the API definition. Select the arrow next to a request for more details.
     * **Remove requests** - These requests don't match any paths in the API definition. Select the checkbox next to a request if you want to remove it from the collection. Clear the checkbox next to a request if you want to keep it in the collection.
 
 1. When you're ready to make the suggested updates to the collection, select **Update Collection**.
