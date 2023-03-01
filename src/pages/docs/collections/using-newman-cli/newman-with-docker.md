@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Command-line integration with Newman"
-    url: "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
+    url: "/docs/collections//using-newman-cli/command-line-integration-with-newman/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -78,8 +78,8 @@ Check out [how to run Newman in Docker for Windows](https://blog.postman.com/usi
 ---
 For more information on collection runs, see:
 
-* [Using the Collection Runner](/docs/running-collections/intro-to-collection-runs/)
-* [Working with data files](/docs/running-collections/working-with-data-files/)
-* [Building workflows](/docs/running-collections/building-workflows/)
-* [Integration with Jenkins](/docs/running-collections/using-newman-cli/integration-with-jenkins/)
-* [Integration with Travis CI](/docs/running-collections/using-newman-cli/integration-with-travis/)
+* [Using the Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/)
+* [Working with data files](/docs/collections/running-collections/working-with-data-files/)
+* [Building workflows](/docs/collections/running-collections/building-workflows/)
+* [Integration with Jenkins](/docs/collections//using-newman-cli/integration-with-jenkins/)
+* [Integration with Travis CI](/docs/collections//using-newman-cli/integration-with-travis/)

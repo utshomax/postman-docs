@@ -9,7 +9,7 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
   - type: link
     name: "Command-line integration with Newman"
-    url: "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
+    url: "/docs/collections//using-newman-cli/command-line-integration-with-newman/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -54,7 +54,7 @@ Follow the [steps to download Node](https://nodejs.org/en/download/package-manag
 
 ## Step 2: Install Newman
 
-[Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) is a command-line tool that allows you to run a collection in your local development environment or on your own server. The following command installs Newman in your CI.
+[Newman](/docs/collections//using-newman-cli/command-line-integration-with-newman/) is a command-line tool that allows you to run a collection in your local development environment or on your own server. The following command installs Newman in your CI.
 
 ```bash
 npm i newman -g;

@@ -87,7 +87,7 @@ If you're building a client app or want to connect to an API, check out some Pos
 If you're testing an API, you can use Postman to automate various parts of the process:
 
 * [Writing test scripts](/docs/writing-scripts/test-scripts/)
-* [Automating workflows with the collection runner](/docs/running-collections/intro-to-collection-runs/)
+* [Automating workflows with the collection runner](/docs/collections/running-collections/intro-to-collection-runs/)
 * [Capturing HTTP requests](/docs/sending-requests/capturing-request-data/capturing-http-requests/)
 * [Test script examples](/docs/writing-scripts/script-references/test-examples/)
 
@@ -127,7 +127,7 @@ If you're using Postman in your company or team, check out these guides to maxim
 
 If you're integrating Postman with your CI/CD workflow or are developing with Postman APIs or libraries, check out these resources:
 
-* [Integrating with a development pipeline](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/)
+* [Integrating with a development pipeline](/docs/collections//using-newman-cli/command-line-integration-with-newman/)
 * [Developing with Postman utilities](/docs/developer/resources-intro/)
 * [Postman API](/docs/developer/intro-api/)
 

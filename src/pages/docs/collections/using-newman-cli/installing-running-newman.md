@@ -7,7 +7,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Using the Collection Runner"
-    url: "/docs/running-collections/intro-to-collection-runs/"
+    url: "/docs/collections/running-collections/intro-to-collection-runs/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -107,7 +107,7 @@ $ newman run mycollection.json --reporters cli,json --reporter-json-export outpu
 
 ## Options
 
-Newman provides a rich set of options to customize a run. Learn more at [Newman options](/docs/running-collections/using-newman-cli/newman-options/)
+Newman provides a rich set of options to customize a run. Learn more at [Newman options](/docs/collections//using-newman-cli/newman-options/)
 
 ## Using Newman with CI/CD
 

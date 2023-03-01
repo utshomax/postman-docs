@@ -69,3 +69,8 @@ After you save the request, your new collection and the request are listed under
 > You can also create a new collection from your workspace's **Overview** tab. Under **In this workspace**, hover over **Collections** and select the **+** icon.
 >
 > <img alt="Create new request overview" src="https://assets.postman.com/postman-docs/create-new-collection-v9.jpg" width="300px"/>
+
+## Next steps
+
+* To learn more about collections, visit the [Collections overview](/docs/collections/collections-overview/).
+* For details on how to run your collection, visit [Using the Collection Runner](/docs/collections/running-collections/running-collections-overview/).

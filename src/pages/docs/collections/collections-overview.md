@@ -31,7 +31,7 @@ If you're getting started with collections for the first time, learn how to [Cre
 
 ## Using collections
 
-Learn more about how to create, manage, and use collections in [Using collections](/docs/collections/using-collections/).
+After you've created collections, you can learn more about how to manage and use them in [Using collections](/docs/collections/using-collections/).
 
 ## Running collections
 

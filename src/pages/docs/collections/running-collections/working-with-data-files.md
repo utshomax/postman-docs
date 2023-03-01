@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Using the Collection Runner"
-    url: "/docs/running-collections/intro-to-collection-runs/"
+    url: "/docs/collections/running-collections/intro-to-collection-runs/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -35,7 +35,7 @@ You can use data files to pass Postman sets of values to use in a collection run
 
 ## Running collections with data files
 
-You can select a data file to use in a [collection run](/docs/running-collections/intro-to-collection-runs/).
+You can select a data file to use in a [collection run](/docs/collections/running-collections/intro-to-collection-runs/).
 
 1. Select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer.
 1. Select your collection and drag it into the **Run Order** work area.
