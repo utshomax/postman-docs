@@ -392,7 +392,7 @@ class IndexPage extends React.Component {
             <div className="container">
               <div className="row">
                 <div className="col-sm-12 col-md-5 col-lg-8 align-self-center">
-                  <h2>Upcoming Postman Events</h2>
+                  <h2 id="upcoming-events">Upcoming Postman Events</h2>
                   <p>
                   <BaseLink 
                     src="https://www.twitch.tv/getpostman" 
