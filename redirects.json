@@ -1976,10 +1976,6 @@
 		"to": "/docs/administration/updating/"
 	},
 	{
-		"from": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/",
-		"to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
-	},
-	{
 		"from": "/docs/collaborating-in-postman/commenting-on-collections/",
 		"to": "/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/"
 	},
