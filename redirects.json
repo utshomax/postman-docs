@@ -557,71 +557,71 @@
 	},
 	{
 		"from": "/docs/postman/collection-runs/building-workflows/",
-		"to": "/docs/running-collections/building-workflows/"
+		"to": "/docs/collections/running-collections/building-workflows/"
 	},
 	{
 		"from": "/docs/postman/collection-runs/command-line-integration-with-newman/",
-		"to": "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
+		"to": "/docs/collections/running-collections/using-newman-cli/command-line-integration-with-newman/"
 	},
 	{
 		"from": "/docs/postman/collection-runs/debugging-a-collection-run/",
-		"to": "/docs/running-collections/intro-to-collection-runs/"
+		"to": "/docs/collections/running-collections/intro-to-collection-runs/"
 	},
 	{
 		"from": "/docs/postman/collection-runs/integration-with-jenkins/",
-		"to": "/docs/running-collections/using-newman-cli/integration-with-jenkins/"
+		"to": "/docs/collections/using-newman-cli/integration-with-jenkins/"
 	},
 	{
 		"from": "/docs/postman/collection-runs/integration-with-travis/",
-		"to": "/docs/running-collections/using-newman-cli/integration-with-travis/"
+		"to": "/docs/collections/using-newman-cli/integration-with-travis/"
 	},
 	{
 		"from": "/docs/postman/collection-runs/intro-to-collection-runs/",
-		"to": "/docs/running-collections/intro-to-collection-runs/"
+		"to": "/docs/collections/intro-to-collection-runs/"
 	},
 	{
 		"from": "/docs/postman/collection-runs/newman-with-docker/",
-		"to": "/docs/running-collections/using-newman-cli/newman-with-docker/"
+		"to": "/docs/collections/using-newman-cli/newman-with-docker/"
 	},
 	{
 		"from": "/docs/postman/collection-runs/running-multiple-iterations/",
-		"to": "/docs/running-collections/intro-to-collection-runs/"
+		"to": "/docs/collections/collections/intro-to-collection-runs/"
 	},
 	{
 		"from": "/docs/postman/collection-runs/sharing-a-collection-run/",
-		"to": "/docs/running-collections/intro-to-collection-runs/"
+		"to": "/docs/collections/running-collections/intro-to-collection-runs/"
 	},
 	{
 		"from": "/docs/postman/collection-runs/starting-a-collection-run/",
-		"to": "/docs/running-collections/intro-to-collection-runs/"
+		"to": "/docs/collections/running-collections/intro-to-collection-runs/"
 	},
 	{
 		"from": "/docs/postman/collection-runs/using-environments-in-collection-runs/",
-		"to": "/docs/running-collections/intro-to-collection-runs/"
+		"to": "/docs/collections/running-collections/intro-to-collection-runs/"
 	},
 	{
 		"from": "/docs/postman/collection-runs/working-with-data-files/",
-		"to": "/docs/running-collections/working-with-data-files/"
+		"to": "/docs/collections/running-collections/working-with-data-files/"
 	},
 	{
 		"from": "/docs/postman/collection_runs/building_workflows/",
-		"to": "/docs/running-collections/building-workflows/"
+		"to": "/docs/collections/running-collections/building-workflows/"
 	},
 	{
 		"from": "/docs/postman/collection_runs/command_line_integration_with_newman/",
-		"to": "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
+		"to": "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
 	},
 	{
 		"from": "/docs/postman/collection_runs/debugging_a_collection_run/",
-		"to": "/docs/running-collections/intro-to-collection-runs/"
+		"to": "/docs/collections/running-collections/intro-to-collection-runs/"
 	},
 	{
 		"from": "/docs/postman/collection_runs/integration_with_jenkins/",
-		"to": "/docs/running-collections/using-newman-cli/integration-with-jenkins/"
+		"to": "/docs/collections/using-newman-cli/integration-with-jenkins/"
 	},
 	{
 		"from": "/docs/postman/collection_runs/integration_with_travis/",
-		"to": "/docs/running-collections/using-newman-cli/integration-with-travis/"
+		"to": "/docs/collections/using-newman-cli/integration-with-travis/"
 	},
 	{
 		"from": "/docs/postman/collection_runs/intro_to_collection_runs/",
@@ -629,27 +629,27 @@
 	},
 	{
 		"from": "/docs/postman/collection_runs/newman_with_docker/",
-		"to": "/docs/running-collections/using-newman-cli/newman-with-docker/"
+		"to": "/docs/collections/using-newman-cli/newman-with-docker/"
 	},
 	{
 		"from": "/docs/postman/collection_runs/running_multiple_iterations/",
-		"to": "/docs/running-collections/intro-to-collection-runs/"
+		"to": "/docs/collections/running-collections/intro-to-collection-runs/"
 	},
 	{
 		"from": "/docs/postman/collection_runs/sharing_a_collection_run/",
-		"to": "/docs/running-collections/intro-to-collection-runs/"
+		"to": "/docs/collections/running-collections/intro-to-collection-runs/"
 	},
 	{
 		"from": "/docs/postman/collection_runs/starting_a_collection_run/",
-		"to": "/docs/running-collections/intro-to-collection-runs/"
+		"to": "/docs/collections/running-collections/intro-to-collection-runs/"
 	},
 	{
 		"from": "/docs/postman/collection_runs/using_environments_in_collection_runs/",
-		"to": "/docs/running-collections/intro-to-collection-runs/"
+		"to": "/docs/collections/running-collections/intro-to-collection-runs/"
 	},
 	{
 		"from": "/docs/postman/collection_runs/working_with_data_files/",
-		"to": "/docs/running-collections/working-with-data-files/"
+		"to": "/docs/collections/running-collections/working-with-data-files/"
 	},
 	{
 		"from": "/docs/postman/collections/commenting-on-collections/",
@@ -1045,11 +1045,11 @@
 	},
 	{
 		"from": "/docs/postman/monitors/integrations-for-alerts/",
-		"to": "/docs/running-collections/collection-webhooks/"
+		"to": "/docs/collections/running-collections/collection-webhooks/"
 	},
 	{
 		"from": "/docs/postman/monitors/integrations_for_alerts/",
-		"to": "/docs/running-collections/collection-webhooks/"
+		"to": "/docs/collections/running-collections/collection-webhooks/"
 	},
 	{
 		"from": "/docs/postman/monitors/intro-monitors/",
@@ -1113,7 +1113,7 @@
 	},
 	{
 		"from": "/docs/postman/postman-api/continuous-integration/",
-		"to": "/docs/running-collections/using-newman-cli/continuous-integration/"
+		"to": "/docs/collections/using-newman-cli/continuous-integration/"
 	},
 	{
 		"from": "/docs/postman/postman-api/intro-api/",
@@ -1121,7 +1121,7 @@
 	},
 	{
 		"from": "/docs/postman/postman_api/continuous_integration/",
-		"to": "/docs/running-collections/using-newman-cli/continuous-integration/"
+		"to": "/docs/collections/using-newman-cli/continuous-integration/"
 	},
 	{
 		"from": "/docs/postman/postman_api/intro_api/",
@@ -1129,11 +1129,11 @@
 	},
 	{
 		"from": "/docs/postman/scripts/branching-and-looping/",
-		"to": "/docs/running-collections/building-workflows/"
+		"to": "/docs/collections/running-collections/building-workflows/"
 	},
 	{
 		"from": "/docs/postman/scripts/branching_and_looping/",
-		"to": "/docs/running-collections/building-workflows/"
+		"to": "/docs/collections/running-collections/building-workflows/"
 	},
 	{
 		"from": "/docs/postman/scripts/intro-to-scripts/",
@@ -1329,51 +1329,51 @@
 	},
 	{
 		"from": "/docs/postman/team-library/activity-feed-and-restoring-collections/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/activity-feed-and-restoring-collections.md"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
 	},
 	{
 		"from": "/docs/postman/team-library/conflicts/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/conflicts.md"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
 	},
 	{
 		"from": "/docs/postman/team-library/searching/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/searching.md"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
 	},
 	{
 		"from": "/docs/postman/team-library/setting-up-team-library/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/setting-up-team-library.md"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
 	},
 	{
 		"from": "/docs/postman/team-library/sharing-collections-in-workspaces-for-version-5/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/sharing-collections-in-workspaces-for-version-5.md"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
 	},
 	{
 		"from": "/docs/postman/team-library/sharing/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/sharing.md"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
 	},
 	{
 		"from": "/docs/postman/team_library/activity_feed_and_restoring_collections/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/activity-feed-and-restoring-collections.md"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
 	},
 	{
 		"from": "/docs/postman/team_library/conflicts/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/conflicts.md"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
 	},
 	{
 		"from": "/docs/postman/team_library/searching/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/searching.md"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
 	},
 	{
 		"from": "/docs/postman/team_library/setting_up_team_library/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/setting-up-team-library.md"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
 	},
 	{
 		"from": "/docs/postman/team_library/sharing/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/sharing.md"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
 	},
 	{
 		"from": "/docs/postman/team_library/sharing_collections_in_workspaces_for_version_5/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/sharing-collections-in-workspaces-for-version-5.md"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
 	},
 	{
 		"from": "/docs/postman/variables-and-environments/managing-environments/",
@@ -1445,11 +1445,11 @@
 	},
 	{
 		"from": "/docs/postman/workspaces/sharing-collections-in-workspaces-for-version-5/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/sharing-collections-in-workspaces-for-version-5.md"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
 	},
 	{
 		"from": "/docs/postman/workspaces/sharing_collections_in_workspaces_for_version_5/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/sharing-collections-in-workspaces-for-version-5.md"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
 	},
 	{
 		"from": "/docs/postman/workspaces/using-workspaces/",
@@ -1733,19 +1733,19 @@
 	},
 	{
 		"from": "/docs/running-collections/",
-		"to": "/docs/running-collections/intro-to-collection-runs/"
+		"to": "/docs/collections/running-collections/intro-to-collection-runs/"
 	},
 	{
 		"from": "/docs/running-collections/using-newman-cli/",
-		"to": "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
+		"to": "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
 	},
 	{
 		"from": "/docs/running_collections/",
-		"to": "/docs/running-collections/intro-to-collection-runs/"
+		"to": "/docs/collections/running-collections/intro-to-collection-runs/"
 	},
 	{
 		"from": "/docs/running_collections/using_newman_cli/",
-		"to": "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
+		"to": "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
 	},
 	{
 		"from": "/docs/sending-and-viewing-responses/responses/",
@@ -1889,7 +1889,7 @@
 	},
 	{
 		"from": "/docs/designing-and-developing-your-api/monitoring-your-api/integrations-for-alerts/",
-		"to": "/docs/running-collections/collection-webhooks/"
+		"to": "/docs/collections/running-collections/collection-webhooks/"
 	},
 	{
 		"from": "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/",
@@ -1921,7 +1921,7 @@
 	},
 	{
 		"from": "/docs/monitoring-your-api/integrations-for-alerts/",
-		"to": "/docs/running-collections/collection-webhooks/"
+		"to": "/docs/collections/running-collections/collection-webhooks/"
 	},
 	{
 		"from": "/docs/monitoring-your-api/monitoring-apis-websites/",
@@ -2062,5 +2062,73 @@
 	{
 		"from": "/docs/postman-flows/running-flows-on-the-cloud/webhooks/",
 		"to": "/docs/postman-flows/tutorials/webhooks/"
+	},
+	{
+		"from": "/docs/running-collections/building-workflows/",
+		"to": "/docs/collections/running-collections/building-workflows/"
+	},
+	{
+		"from": "/docs/running-collections/collection-webhooks/",
+		"to": "/docs/collections/running-collections/collection-webhooks/"
+	},
+	{
+		"from": "/docs/running-collections/intro-to-collection-runs/",
+		"to": "/docs/collections/running-collections/intro-to-collection-runs/"
+	},
+	{
+		"from": "/docs/collections/running-collections/running-collections-overview/",
+		"to": "/docs/collections/running-collections/running-collections-overview/"
+	},
+	{
+		"from": "/docs/running-collections/scheduling-collection-runs-monitors/",
+		"to": "/docs/collections/running-collections/scheduling-collection-runs-monitors/"
+	},
+	{
+		"from": "/docs/running-collections/scheduling-collection-runs/",
+		"to": "/docs/collections/running-collections/scheduling-collection-runs/"
+	},
+	{
+		"from": "/docs/running-collections/viewing-scheduled-collection-runs/",
+		"to": "/docs/collections/running-collections/viewing-scheduled-collection-runs/"
+	},
+	{
+		"from": "/docs/running-collections/working-with-data-files/",
+		"to": "/docs/collections/running-collections/working-with-data-files/"
+	},
+	{
+		"from": "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/",
+		"to": "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
+	},
+	{
+		"from": "/docs/running-collections/using-newman-cli/continuous-integration/",
+		"to": "/docs/collections/using-newman-cli/continuous-integration/"
+	},
+	{
+		"from": "/docs/running-collections/using-newman-cli/installing-running-newman/",
+		"to": "/docs/collections/using-newman-cli/installing-running-newman/"
+	},
+	{
+		"from": "/docs/running-collections/using-newman-cli/integration-with-jenkins/",
+		"to": "/docs/collections/using-newman-cli/integration-with-jenkins/"
+	},
+	{
+		"from": "/docs/running-collections/using-newman-cli/integration-with-travis/",
+		"to": "/docs/collections/using-newman-cli/integration-with-travis/"
+	},
+	{
+		"from": "/docs/running-collections/using-newman-cli/newman-custom-reporters/",
+		"to": "/docs/collections/using-newman-cli/newman-custom-reporters/"
+	},
+	{
+		"from": "/docs/running-collections/using-newman-cli/newman-file-uploads/",
+		"to": "/docs/collections/using-newman-cli/newman-file-uploads/"
+	},
+	{
+		"from": "/docs/running-collections/using-newman-cli/newman-options/",
+		"to": "/docs/collections/using-newman-cli/newman-options/"
+	},
+	{
+		"from": "/docs/running-collections/using-newman-cli/newman-with-docker/",
+		"to": "/docs/collections/using-newman-cli/newman-with-docker/"
 	}
 ]
