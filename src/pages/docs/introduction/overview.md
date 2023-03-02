@@ -93,7 +93,7 @@ To learn more about API-first development, see the [API development overview](/d
 
 ## Documenting your API
 
-Documentation is an important part of any collection or API. Good documentation helps the people who use your collection to understand what it does and how each request works. And comprehensive API documentation lets your consumers know what endpoints are available and how to interact with them.
+Documentation is an important part of any collection or API. Good documentation helps the people who use your collection understand what it does and how each request works. And comprehensive API documentation lets your consumers know what endpoints are available and how to interact with them.
 
 Once you've generated documentation for your collection or API, users can view the documentation in Postman. By default your documentation is private, so you must share a collection or API with others before they can access it. If you're creating a public API, you can publish your documentation to make it publicly available to anyone with a web browser.
 
@@ -101,11 +101,11 @@ To learn more about documenting your API, see [Generating API documentation](/do
 
 ## Monitoring your API
 
-Postman Monitors give you continuous visibility into the health and performance of your APIs. Monitors enable you to run API test scripts, chain together multiple requests, and validate critical API flows. A Monitor runs a series of requests from the Postman cloud on a schedule you set. To learn more about using Monitors, see [monitoring your APIs](/docs/monitoring-your-api/intro-monitors/).
+Postman Monitors give you continuous visibility into the health and performance of your APIs. Monitors enable you to run API test scripts, chain together multiple requests, and validate critical API flows. A monitor runs a series of requests from the Postman cloud on a schedule you set. To learn more about using monitors, see [Monitoring your APIs](/docs/monitoring-your-api/intro-monitors/).
 
 ## API Governance and API Security
 
-API governance is the practice of defining and applying development rules that promote consistent API behaviors across your organization's API landscape. And a robust API security posture means that your organization has development rules that promote security-first API behaviors. The Postman API Governance and Postman API Security features can identify inconsistencies or weaknesses in your APIs, then recommend possible fixes or improvements.
+API governance is the practice of defining and applying development rules that promote consistent API behaviors across your organization's API landscape. A robust API security posture means that your organization has development rules that promote security-first API behaviors. The Postman API Governance and Postman API Security features can identify inconsistencies or weaknesses in your APIs, then recommend possible fixes or improvements.
 
 To learn more about Postman's API Governance and API Security features, see [API Governance and API Security in Postman](/docs/api-governance/api-governance-overview/).
 

@@ -3,7 +3,7 @@ title: "Other resources"
 updated: 2023-02-24
 ---
 
-If you're starting to learn about APIs and Postman, you can use a variety of channels both in and outside Postman:
+If you're starting to learn about APIs and Postman, you can use a variety of resources both in and outside Postman:
 
 * Use the Bootcamp to work through lessons inside Postman. Open it by selecting <img alt="Bootcamp icon" src="https://assets.postman.com/postman-docs/icon-bootcamp-v9.jpg#icon" width="16px"> **Bootcamp** from the Postman footer.
 * Explore [workspaces, collections, and more](https://www.postman.com/explore) that you can try out inside Postman, like the following:
