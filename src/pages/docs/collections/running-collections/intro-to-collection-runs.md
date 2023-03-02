@@ -170,7 +170,7 @@ To export a collection run, do the following:
 In addition to running collections manually, the Collection Runner enables you to [schedule collections](/docs/collections/running-collections/scheduling-collection-runs/) to run automatically at specified times in the Postman cloud. You can also use collection runs in conjunction with other Postman utilities to build automation into your API projects.
 
 * [The Postman CLI](/docs/postman-cli/postman-cli-overview/) command-line interface enables you to run collections and build them into your development pipeline, responding to test outcomes to support your API performance.
-* The [Newman](/docs/collections//using-newman-cli/command-line-integration-with-newman/) interface also enables you to run collections from the command line.
+* The [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/) interface also enables you to run collections from the command line.
 * Adding a [monitor](/docs/monitoring-your-api/intro-monitors/) to your collection lets you schedule collection runs and stay informed of any issues.
 * You can also set up a [collection webhook](/docs/collections/running-collections/collection-webhooks/) to trigger a collection run at a specific time with your own custom payload.
 

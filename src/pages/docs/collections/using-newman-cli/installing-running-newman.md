@@ -107,7 +107,7 @@ $ newman run mycollection.json --reporters cli,json --reporter-json-export outpu
 
 ## Options
 
-Newman provides a rich set of options to customize a run. Learn more at [Newman options](/docs/collections//using-newman-cli/newman-options/)
+Newman provides a rich set of options to customize a run. Learn more at [Newman options](/docs/collections/using-newman-cli/newman-options/)
 
 ## Using Newman with CI/CD
 

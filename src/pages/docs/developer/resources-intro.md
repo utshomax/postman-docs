@@ -9,7 +9,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Newman on the command line"
-    url: "/docs/collections//using-newman-cli/command-line-integration-with-newman/"
+    url: "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -44,4 +44,4 @@ Check out the pages in this section for an intro to developer resources that all
 * [**Postman Collection converters**](/docs/developer/collection-conversion/)
     * The converters allow you to transform OpenAPI, Swagger, RAML, and GraphQL specs to Postman Collection format.
 
-> You can use [Newman](/docs/collections//using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner, in conjunction with other utilities to build collection runs into your development pipeline. Newman is also an [open-source project](https://github.com/postmanlabs/newman) that you can use and contribute to.
+> You can use [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner, in conjunction with other utilities to build collection runs into your development pipeline. Newman is also an [open-source project](https://github.com/postmanlabs/newman) that you can use and contribute to.

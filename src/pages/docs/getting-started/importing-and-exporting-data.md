@@ -188,7 +188,7 @@ You will receive a confirmation once the import has completed. You can view your
 
 ## Exporting Postman data
 
-You can export your Postman data, including collections, environments, data dumps, and globals, as JSON files. You can import these files back into any Postman instance, or use them with [Newman](/docs/collections//using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner.
+You can export your Postman data, including collections, environments, data dumps, and globals, as JSON files. You can import these files back into any Postman instance, or use them with [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner.
 
 ### Exporting collections
 

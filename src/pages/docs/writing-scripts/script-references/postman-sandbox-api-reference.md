@@ -636,7 +636,7 @@ See the [Request definition](http://www.postmanlabs.com/postman-collection/Reque
 
 ## Scripting workflows
 
-The `postman` object provides the `setNextRequest` method for building request workflows when you use the [collection runner](/docs/collections/running-collections/building-workflows/) or [Newman](/docs/collections//using-newman-cli/command-line-integration-with-newman/).
+The `postman` object provides the `setNextRequest` method for building request workflows when you use the [collection runner](/docs/collections/running-collections/building-workflows/) or [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/).
 
 > Note that `setNextRequest` has no effect when you run requests using **Send**; it only has an effect when you run a collection.
 

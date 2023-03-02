@@ -21,13 +21,13 @@ contextual_links:
     name: "Next steps"
   - type: link
     name: "Continuous Integration"
-    url: "/docs/collections//using-newman-cli/continuous-integration/"
+    url: "/docs/collections/using-newman-cli/continuous-integration/"
 
 warning: false
 
 ---
 
-You can convert from a variety of API formats into Postman Collections. If you have API requests defined as OpenAPI, Swagger, RAML, or GraphQL schema formats, you can convert these to Postman Collections. You can import Postman Collections into the app or use them with other Postman utilities including [Newman](/docs/collections//using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner.
+You can convert from a variety of API formats into Postman Collections. If you have API requests defined as OpenAPI, Swagger, RAML, or GraphQL schema formats, you can convert these to Postman Collections. You can import Postman Collections into the app or use them with other Postman utilities including [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner.
 
 ## Contents
 
@@ -36,7 +36,7 @@ You can convert from a variety of API formats into Postman Collections. If you h
 
 ## Converting API formats into Postman Collections
 
-Check out the repo for the format you need to convert—the READMEs indicate how to install and use the converters. Your output collections will be suitable for import into Postman, or to run collections on the command line using [Newman](/docs/collections//using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner.
+Check out the repo for the format you need to convert—the READMEs indicate how to install and use the converters. Your output collections will be suitable for import into Postman, or to run collections on the command line using [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner.
 
 The following open-source projects are hosted on GitHub:
 
@@ -51,4 +51,4 @@ Each of these Node.js modules is available through npm or by cloning directly fr
 
 After learning the fundamentals of using converters to automate Postman Collection runs with your development, testing, or deployment pipeline, you can learn about using the Postman API in your CI/CD workflow:
 
-* To learn more about accessing collections using the Postman API to run inside your continuous integration and continuous deployment (CI/CD) environments, visit [CI with Postman API](/docs/collections//using-newman-cli/continuous-integration/).
+* To learn more about accessing collections using the Postman API to run inside your continuous integration and continuous deployment (CI/CD) environments, visit [CI with Postman API](/docs/collections/using-newman-cli/continuous-integration/).

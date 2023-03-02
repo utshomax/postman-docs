@@ -43,7 +43,7 @@ contextual_links:
     name: "Next steps"
   - type: link
     name: "Continuous Integration"
-    url: "/docs/collections//using-newman-cli/continuous-integration/"
+    url: "/docs/collections/using-newman-cli/continuous-integration/"
 
 warning: false
 
@@ -51,7 +51,7 @@ warning: false
 
 The [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) endpoints enable you to integrate Postman within your development toolchain.
 
-You can add new collections, update existing collections, update environments, and add and run monitors directly through the API. This enables you to programmatically access data stored in your Postman account. You can also [combine the Postman API with Newman](/docs/collections//using-newman-cli/continuous-integration/) to integrate Postman with your CI/CD workflow.
+You can add new collections, update existing collections, update environments, and add and run monitors directly through the API. This enables you to programmatically access data stored in your Postman account. You can also [combine the Postman API with Newman](/docs/collections/using-newman-cli/continuous-integration/) to integrate Postman with your CI/CD workflow.
 
 You can get started with the API by forking its collection. For more details, see the [Postman API documentation](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a).
 

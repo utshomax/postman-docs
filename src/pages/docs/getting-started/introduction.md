@@ -127,7 +127,7 @@ If you're using Postman in your company or team, check out these guides to maxim
 
 If you're integrating Postman with your CI/CD workflow or are developing with Postman APIs or libraries, check out these resources:
 
-* [Integrating with a development pipeline](/docs/collections//using-newman-cli/command-line-integration-with-newman/)
+* [Integrating with a development pipeline](/docs/collections/using-newman-cli/command-line-integration-with-newman/)
 * [Developing with Postman utilities](/docs/developer/resources-intro/)
 * [Postman API](/docs/developer/intro-api/)
 
