@@ -101,7 +101,7 @@ To learn more about documenting your API, see [Generating API documentation](/do
 
 ## Monitoring your API
 
-Postman Monitors give you continuous visibility into the health and performance of your APIs. Monitors enable you to run API test scripts, chain together multiple requests, and validate critical API flows. A Monitor runs a series of requests from the Postman cloud on a schedule you set. To learn more about using Monitors, see [monitoring your APIs](/docs/monitoring-your-api/intro-monitors/).
+Postman Monitors give you continuous visibility into the health and performance of your APIs. Monitors enable you to run API test scripts, chain together multiple requests, and validate critical API flows. A Monitor runs a series of requests from the Postman cloud on a schedule you set. To learn more about using Monitors, see [Monitoring your APIs](/docs/monitoring-your-api/intro-monitors/).
 
 ## API Governance and API Security
 
@@ -119,7 +119,7 @@ To learn more about administering your Postman team, see the [Administration](/d
 
 Postman generates reports that enable you to visualize data for how your team uses Postman. These reports give you insights into the state of your APIs, including tests, documentation, and monitoring coverage. They also enable you to track performance and SLA adherence.
 
-To learn more about how to use reports, see [reports overview](/docs/reports/reports-overview/).
+To learn more about how to use reports, see the [Reports overview](/docs/reports/reports-overview/).
 
 ## Developer resources
 
@@ -127,4 +127,4 @@ If you're integrating Postman with your CI/CD workflow or are developing with Po
 
 ## Integrations
 
-You can connect Postman to your API workflows with integrations for popular third-party solutions. Use integrations to automatically share data between Postman and the other tools you rely on for API development. For more information, see [integrating with Postman](/docs/integrations/intro-integrations/).
+You can connect Postman to your API workflows with integrations for popular third-party solutions. Use integrations to automatically share data between Postman and the other tools you rely on for API development. For more information, see [Integrating with Postman](/docs/integrations/intro-integrations/).
