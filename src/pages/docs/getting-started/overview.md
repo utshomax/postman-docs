@@ -52,7 +52,7 @@ To get up and running with Postman, check out the following:
 
 * Once you're in Postman, check out how to [navigate Postman](/docs/getting-started/navigating-postman/). After you're familiar with the interface, try [sending your first request](/docs/getting-started/sending-the-first-request/).
 
-* Make sure to create a Postman account. After you have, learn more about [managing your account](/docs/getting-started/postman-account/), [customizing your Postman profile](/docs/getting-started/postman-profile/), and [setting up Postman](/docs/getting-started/settings/).
+* Create a Postman account. Then, learn more about [managing your account](/docs/getting-started/postman-account/), [customizing your Postman profile](/docs/getting-started/postman-profile/), and [setting up Postman](/docs/getting-started/settings/).
 
 * A great place to find APIs is the Postman Public API Network. Learn more on how to use it at [exploring the Public API Network](/docs/getting-started/exploring-public-api-network/).
 
@@ -60,4 +60,4 @@ To get up and running with Postman, check out the following:
 
 * You can also import requests and other data into Postman, and export it for use with other programs. Check out [importing and exporting data](/docs/getting-started/importing-and-exporting-data/).
 
-* Having trouble? Check out how to [troubleshoot app issues](/docs/getting-started/troubleshooting-inapp/).
+* Having trouble? Learn how to [troubleshoot app issues](/docs/getting-started/troubleshooting-inapp/).
