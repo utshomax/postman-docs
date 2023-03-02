@@ -41,7 +41,7 @@ You can configure the Collection Runner to meet your development needs. You can 
 ## Contents
 
 * [Configuring a collection run](#configuring-a-collection-run)
-* [Running your collections](#running-your-collections)
+* [Debugging run results](#debugging-run-results)
 * [Sharing collection runs](#sharing-collection-runs)
 * [Automating collection runs](#automating-collection-runs)
 * [Next steps](#next-steps)
@@ -86,17 +86,17 @@ You can configure the Collection Runner to meet your development needs. You can 
 >
 > A message will display in the Collection Runner when you're approaching your usage limit. Learn more about [resource usage](/docs/administration/resource-usage/) in Postman.
 
-## Running your collections
+## Debugging run results
 
 When running collections manually, Postman displays the results of your request executions and test results in real time. You can view the source of the collection run, selected environment, number of iterations, total duration, number of tests, and average response time.
 
-![Collection Runner results](https://assets.postman.com/postman-docs/v10/collection-run-results-v10-12.jpg)
+![Collection Runner results](https://assets.postman.com/postman-docs/v10/collection-run-results-v10-12a.jpg)
 
 To learn more about what happened during the collection run, do any of the following:
 
 * Select a request to view details about the request. You can view general information about the request and the request headers and body. You can also view the response headers and body if you selected the **Persist responses for a session** option when [configuring the collection run](#configuring-a-collection-run).
 
-* Hover over a request and select <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-external-link.jpg#icon" width="18px"> **Open Request** to open the request in a new tab. You can view any test scripts or select **Send** to send the request again.
+* Select the name of a request to open the request in a new tab. You can view any test scripts or select **Send** to send the request again.
 
 * Select the **Passed**, **Failed**, or **Skipped** tabs to filter the results by test status. To show all requests, select the **All Tests** tab. If any tests in a request script fail during a collection run, the whole request fails.
 
@@ -129,7 +129,7 @@ The following are displayed for each collection run:
 
 Hover over an item to show the following controls:
 
-* **View report** - Select to open the full results for the collection run. Learn more about [running your collections](#running-your-collections).
+* **View report** - Select to open the full results for the collection run. Learn more about [debugging run results](#debugging-run-results).
 * **Share** - Select to share the results with another team member. This provides a link you can give to other team members so they can view details of this run. Note that this doesn't work in personal workspaces.
 
 ## The Scheduled runs tab
