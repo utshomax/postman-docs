@@ -1329,51 +1329,51 @@
 	},
 	{
 		"from": "/docs/postman/team-library/activity-feed-and-restoring-collections/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/activity-feed-and-restoring-collections.md"
 	},
 	{
 		"from": "/docs/postman/team-library/conflicts/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/conflicts.md"
 	},
 	{
 		"from": "/docs/postman/team-library/searching/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/searching.md"
 	},
 	{
 		"from": "/docs/postman/team-library/setting-up-team-library/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/setting-up-team-library.md"
 	},
 	{
 		"from": "/docs/postman/team-library/sharing-collections-in-workspaces-for-version-5/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/sharing-collections-in-workspaces-for-version-5.md"
 	},
 	{
 		"from": "/docs/postman/team-library/sharing/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/sharing.md"
 	},
 	{
 		"from": "/docs/postman/team_library/activity_feed_and_restoring_collections/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/activity-feed-and-restoring-collections.md"
 	},
 	{
 		"from": "/docs/postman/team_library/conflicts/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/conflicts.md"
 	},
 	{
 		"from": "/docs/postman/team_library/searching/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/searching.md"
 	},
 	{
 		"from": "/docs/postman/team_library/setting_up_team_library/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/setting-up-team-library.md"
 	},
 	{
 		"from": "/docs/postman/team_library/sharing/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/setting-up-team-library.md"
 	},
 	{
 		"from": "/docs/postman/team_library/sharing_collections_in_workspaces_for_version_5/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/sharing-collections-in-workspaces-for-version-5.md"
 	},
 	{
 		"from": "/docs/postman/variables-and-environments/managing-environments/",
@@ -1445,11 +1445,11 @@
 	},
 	{
 		"from": "/docs/postman/workspaces/sharing-collections-in-workspaces-for-version-5/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/sharing-collections-in-workspaces-for-version-5.md"
 	},
 	{
 		"from": "/docs/postman/workspaces/sharing_collections_in_workspaces_for_version_5/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/"
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/sharing-collections-in-workspaces-for-version-5.md"
 	},
 	{
 		"from": "/docs/postman/workspaces/using-workspaces/",
