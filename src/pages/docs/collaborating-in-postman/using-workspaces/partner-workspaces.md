@@ -1,9 +1,6 @@
 ---
 title: "Partner Workspaces"
-order: 76
-page_id: "partner_workspaces"
-updated: 2022-09-15
-warning: false
+updated: 2023-03-02
 contextual_links:
   - type: section
     name: "Additional resources"
