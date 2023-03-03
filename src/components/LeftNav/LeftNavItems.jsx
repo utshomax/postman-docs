@@ -30,13 +30,32 @@
 
 export const leftNavItems = [
   {
-    name: 'Getting started',
-    parentSlug: 'getting-started',
-    url: '/docs/getting-started/introduction/',
+    name: 'Introduction',
+    parentSlug: 'introduction',
+    url: '/docs/introduction/overview/',
     subMenuItems1: [
       {
-        name: 'Introduction',
-        url: '/docs/getting-started/introduction/',
+        name: 'Overview',
+        url: '/docs/introduction/overview/',
+      },
+      {
+        name: 'Other resources',
+        url: '/docs/introduction/resources/',
+      },
+      {
+        name: 'Feedback',
+        url: '/docs/introduction/feedback/',
+      },
+    ],
+  },
+  {
+    name: 'Getting started',
+    parentSlug: 'getting-started',
+    url: '/docs/getting-started/overview/',
+    subMenuItems1: [
+      {
+        name: 'Getting started',
+        url: '/docs/getting-started/overview',
       },
       {
         name: 'Installing and updating Postman',
