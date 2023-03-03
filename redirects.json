@@ -625,7 +625,7 @@
 	},
 	{
 		"from": "/docs/postman/collection_runs/intro_to_collection_runs/",
-		"to": "/docs/running-collections/intro-to-collection-runs/"
+		"to": "/docs/collections/running-collections/intro-to-collection-runs/"
 	},
 	{
 		"from": "/docs/postman/collection_runs/newman_with_docker/",
