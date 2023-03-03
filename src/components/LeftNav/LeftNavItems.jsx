@@ -289,7 +289,7 @@ export const leftNavItems = [
     url: '/docs/collections/collections-overview/',
     subMenuItems1: [
       {
-        name: 'Using collections overview',
+        name: 'Collections overview',
         url: '/docs/collections/collections-overview/',
       },
       {
