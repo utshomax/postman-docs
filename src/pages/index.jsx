@@ -21,7 +21,7 @@ margin-bottom: 48px;
 @media (min-width: 992px) {
         padding-left: 48px;
     }
-    
+
 .events__alert {
     border: 4px dashed ${theme.colors.blue_10};
     border-radius: ${theme.borderRadius.medium};
@@ -235,7 +235,7 @@ class IndexPage extends React.Component {
                     Check out the docs and support resources!
                   </p>
                   <BaseButton
-                    src="/docs/getting-started/introduction/" 
+                    src="/docs/introduction/overview/"
                     className="mb-5 mb-md-0"
                     as='a'
                     buttonType="secondary"
@@ -394,8 +394,8 @@ class IndexPage extends React.Component {
                 <div className="col-sm-12 col-md-5 col-lg-8 align-self-center">
                   <h2 id="upcoming-events">Upcoming Postman Events</h2>
                   <p>
-                  <BaseLink 
-                    src="https://www.twitch.tv/getpostman" 
+                  <BaseLink
+                    src="https://www.twitch.tv/getpostman"
                     target="new-tab-external-nofollow"
                     >
                     Follow us
@@ -413,7 +413,7 @@ class IndexPage extends React.Component {
                   to our YouTube channel so you don’t miss when we go live.
                 </p>
                   <BaseButton
-                    src="https://www.postman.com/events/" 
+                    src="https://www.postman.com/events/"
                     className="mb-5 mb-md-0"
                     as='a'
                     buttonType="secondary"
