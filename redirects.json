@@ -577,7 +577,7 @@
 	},
 	{
 		"from": "/docs/postman/collection-runs/intro-to-collection-runs/",
-		"to": "/docs/collections/intro-to-collection-runs/"
+		"to": "/docs/collections/running-collections/intro-to-collection-runs/"
 	},
 	{
 		"from": "/docs/postman/collection-runs/newman-with-docker/",
@@ -585,7 +585,7 @@
 	},
 	{
 		"from": "/docs/postman/collection-runs/running-multiple-iterations/",
-		"to": "/docs/collections/collections/intro-to-collection-runs/"
+		"to": "/docs/collections/running-collections/intro-to-collection-runs/"
 	},
 	{
 		"from": "/docs/postman/collection-runs/sharing-a-collection-run/",
@@ -625,7 +625,7 @@
 	},
 	{
 		"from": "/docs/postman/collection_runs/intro_to_collection_runs/",
-		"to": "/docs/running-collections/intro-to-collection-runs/"
+		"to": "/docs/collections/running-collections/intro-to-collection-runs/"
 	},
 	{
 		"from": "/docs/postman/collection_runs/newman_with_docker/",
