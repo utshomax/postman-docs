@@ -136,6 +136,26 @@ Postman securely stores your personal access token. After connecting to an on-pr
 
 To manage your saved tokens, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, select **Settings**, and select the **Connected accounts** tab. Learn more about [managing connected accounts](/docs/getting-started/settings/#connected-accounts).
 
+## Connecting more than one API to the same repository
+
+You can connect more than one API in Postman to the same Git repository. For each API, follow the steps in [Connecting to a repository](#connecting-to-a-repository) to set up the Git integration.
+
+It's important to make sure your APIs remain separated in the repository, to avoid changes from one API getting applied to another API. You can separate your APIs in the repository using either folders or branches.
+
+### Separating APIs with folders
+
+You can keep your APIs separate by using a different folder for each API in the repository. For example, if you have an `emails` API and an `sms` API, you could have the following folder structure for the `main` branch in your repository:
+
+* `/emails/postman/schemas` - Contains schemas for the `emails` API
+* `/emails/postman/collections` - Contains collections for the `emails` API
+* `/sms/postman/schemas` - Contains schemas for the `sms` API
+* `/sms/postman/collections` - Contains collections for the `sms` API
+
+> The collection directory can't be a parent or the child of the schema directory.
+
+### Separating APIs with branches
+
+
 ## Disconnecting a remote repository
 
 After you disconnect a remote repository, you can no longer sync changes between Postman and the repository.
