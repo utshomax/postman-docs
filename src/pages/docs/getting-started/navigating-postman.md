@@ -108,7 +108,7 @@ The Postman sidebar provides access to the fundamental elements of Postman:
 * [APIs](/docs/designing-and-developing-your-api/creating-an-api/)
 * [Environments](/docs/sending-requests/managing-environments/#creating-environments)
 * [Mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
-* [Monitors](/docs/running-collections/scheduling-collection-runs/)
+* [Monitors](/docs/monitoring-your-api/intro-monitors/)
 * [Flows](/docs/postman-flows/flows-intro/flows-overview/)
 * [History](#history)
 
@@ -128,7 +128,7 @@ Select a request to open it again in a new tab. To select more than one request,
 
 <img alt="History Request" src="https://assets.postman.com/postman-docs/history-request-v9.jpg" width="350px"/>
 
-Your history also includes [collection runs](/docs/running-collections/intro-to-collection-runs/). These remain as the summarized version of the run and aren't logged as single requests.
+Your history also includes [collection runs](/docs/collections/running-collections/intro-to-collection-runs/). These remain as the summarized version of the run and aren't logged as single requests.
 
 * Select the add icon __+__ to save the request to a collection.
 * Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to remove the request from your history.
@@ -144,7 +144,7 @@ To remove all requests from your history, select the more actions icon <img alt=
 
 To save request responses in your history, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the History search bar, then turn on **Save Responses**.
 
-> You can't use the __Save Responses__ option with requests from [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
+> You can't use the __Save Responses__ option with requests from [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 
 ## Workbench
 
@@ -274,7 +274,7 @@ The footer on the bottom of Postman enables you to find and replace text, open t
 * <img alt="Cookies icon" src="https://assets.postman.com/postman-docs/icon-cookies.jpg#icon" width="16px"> **Cookies** - View, manage, and sync [cookies](/docs/sending-requests/cookies/).
 * <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** - Start a [Postman proxy or Interceptor session](/docs/sending-requests/capturing-request-data/capture-overview/).
 * <img alt="Bootcamp icon" src="https://assets.postman.com/postman-docs/icon-bootcamp-v9.jpg#icon" width="16px"> **Bootcamp** - Access an [in-app classroom](https://postman.postman.co/bootcamp) that teaches you how to use Postman, from the basics to advanced topics.
-* <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Runner** - Open the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
+* <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Runner** - Open the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 * <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Trash** - Recover or permanently delete any deleted collections.
 * <img alt="Two pane view icon" src="https://assets.postman.com/postman-docs/icon-two-pane-v9.jpg#icon" width="16px"> **Two-pane view** - Toggle between a single pane view and a two pane view.
 * <img alt="Help icon" src="https://assets.postman.com/postman-docs/icon-help-v9.jpg#icon" width="16px"> **Help** - Access more resources, including release notes and Postman Support.
