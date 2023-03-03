@@ -47,6 +47,9 @@ You can create new custom governance rules for Postman to evaluate your API's de
 1. Go to the [Postman home screen](https://go.postman.co/), and then select **API Governance** from the team information pane.
 1. Select the **Rule Library** tab, and then select the **Rules** tab.
 1. Select **Create Rule**.
+
+    <img alt="Select Create Rule" src="https://assets.postman.com/postman-docs/v10/api-governance-rules-v10.jpg" width="800px"/>
+
 1. Define the rule in the editor. It must adhere to [custom rule guidelines](/docs/api-governance/configurable-rules/spectral/).
 
     You can use a curated list of commonly-used property-value pair snippets to write your rules. Snippets are available in the right pane of the editor. Selecting a snippet adds the property-value pair automatically to your rule, helping you get started quickly with writing rules. Once added to your rule, you can edit the snippets to meet your specific requirements.
@@ -55,8 +58,10 @@ You can create new custom governance rules for Postman to evaluate your API's de
 
 1. The rule must be valid YAML or JSON. Use the dropdown list to choose the correct syntax.
 1. Select **Create**.
-    <img alt="Create a custom API Governance rule" src="https://assets.postman.com/postman-docs/v10/api-governance-create-custom-rule-v10.jpg" width="800px"/>
-1. Find your new rule under **Custom Rules** and turn it on.
+
+    <img alt="Create a custom API Governance rule" src="https://assets.postman.com/postman-docs/v10/api-governance-create-custom-rule-v10-2.jpg" width="800px"/>
+
+1. Find your new rule under the **Rules** tab and turn it on.
 
 You can also select **Upload file(s)** to upload a new rule in valid YAML or JSON format.
 
