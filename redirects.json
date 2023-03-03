@@ -2064,6 +2064,10 @@
 		"to": "/docs/postman-flows/tutorials/webhooks/"
 	},
 	{
+		"from": "/docs/getting-started/introduction/",
+		"to": "/docs/introduction/overview/"
+	},
+	{
 		"from": "/docs/running-collections/building-workflows/",
 		"to": "/docs/collections/running-collections/building-workflows/"
 	},
