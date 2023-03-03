@@ -73,5 +73,5 @@ After you save the request, your new collection and the request are listed under
 ## Next steps
 
 * To learn more about collections, visit the [Collections overview](/docs/collections/collections-overview/).
-* To create, edit, delete, and work with your collections, visit [Using collections](/docs/collections/using-collections.md).
+* To create, edit, delete, and work with your collections, visit [Using collections](/docs/collections/using-collections/).
 * For details on how to run your collection, visit [Using the Collection Runner](/docs/collections/running-collections/running-collections-overview/).

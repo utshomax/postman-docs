@@ -23,7 +23,6 @@ _Postman Collections_ are a group of saved requests. Every request you send in P
 * [Creating your first collection](#creating-your-first-collection)
 * [Using collection](#using-collections)
 * [Running collections](#running-collections)
-* [Running collections on the command line with Newman](#running-collections-on-the-command-line-with-newman)
 
 ## Creating your first collection
 
