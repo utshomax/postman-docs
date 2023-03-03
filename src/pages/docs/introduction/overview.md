@@ -61,9 +61,9 @@ You can send requests in Postman to connect to APIs you are working with. To lea
 
 Postman has a powerful runtime based on Node.js that enables you to add dynamic behavior to requests and collections. You can write scripts that run before or after request execution to perform API tests, build requests that can contain dynamic parameters, pass data between requests, and more. To learn more about scripts, see [scripting in Postman](/docs/writing-scripts/intro-to-scripts/).
 
-## Running collections
+## Using collections
 
-Postman Collections are groups of saved requests, which can then be run together. You can run collections manually, on a schedule, from a CI/CD pipeline, or from a webhook. To learn more about collections, see the [running collections overview](/docs/running-collections/running-collections-overview/).
+Postman Collections are groups of saved requests. You can use collections to organize and group your requests. They can then be run together. You can run collections manually, on a schedule, from a CI/CD pipeline, or from a webhook. To learn more about collections, see the [Collections overview](/docs/collections/collections-overview/).
 
 ## Using Postman Flows
 
