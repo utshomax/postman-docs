@@ -917,6 +917,10 @@ export const leftNavItems = [
             url: '/docs/api-governance/configurable-rules/configuring-api-security-rules/',
           },
           {
+            name: 'Configuring custom functions',
+            url: '/docs/api-governance/configurable-rules/configuring-custom-functions/',
+          },
+          {
             name: 'Using Spectral in Postman',
             url: '/docs/api-governance/configurable-rules/spectral/',
           },
