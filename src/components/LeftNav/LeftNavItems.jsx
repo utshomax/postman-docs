@@ -39,7 +39,7 @@ export const leftNavItems = [
         url: '/docs/introduction/overview/',
       },
       {
-        name: 'Resources',
+        name: 'Other resources',
         url: '/docs/introduction/resources/',
       },
       {
