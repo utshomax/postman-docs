@@ -6,13 +6,13 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Using the Collection Runner"
-    url: "/docs/running-collections/intro-to-collection-runs/"
+    url: "/docs/collections/running-collections/intro-to-collection-runs/"
 
 warning: false
 
 ---
 
-You can run collections at specific times each day or week. For example, you may want to run a collection that tests your API every day. You can use the Collection Runner to [schedule collection runs](/docs/running-collections/scheduling-collection-runs/) to execute automatically at specified dates and times.
+You can run collections at specific times each day or week. For example, you may want to run a collection that tests your API every day. You can use the Collection Runner to [schedule collection runs](/docs/collections/running-collections/scheduling-collection-runs/) to execute automatically at specified dates and times.
 
 ## Contents
 
@@ -73,7 +73,7 @@ Each run is labeled based on its result:
 * **Successful** - Your scheduled collection run completed with no issues and passed all tests.
 * **Failure** - Your scheduled collection run completed, however one or more tests failed.
 * **Error** - Your scheduled collection run was unable to complete due to an error. An error can occur if there is a syntax error in the code you've written, a network error, or for various other reasons. If you get an error, your [Console Log](#console-log) will help you identify what caused it.
-* **Abort** - Your scheduled collection run timed out because it didn't complete within the allotted 10 minutes (Postman Free plans) or 15 minutes (Postman Basic, Professional, and Enterprise plans).
+* **Abort** - Your scheduled collection run timed out because it didn't complete within the allotted 10 minutes (Postman Free plans) or 15 minutes (Postman paid plans).
 
 You can filter by run result to compare how your runs with the same result have differed. Select **Run result: All**, then select one or more types of run results to view.
 

@@ -385,34 +385,8 @@ const Header = (props) => {
             className="collapse navbar-collapse"
             id="navbarSupportedContentBottom"
           >
-            <ul className="property-context-menu navbar-nav ml-auto">
-              <li className="nav-item">
-                <a
-                  className="nav-link uber-nav"
-                  href="/docs/getting-started/introduction/"
-                >
-                  Docs
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link uber-nav"
-                  href="/docs/administration/managing-your-team/managing-your-team/"
-                >
-                  Admin
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link uber-nav mr-3"
-                  href="/docs/developer/resources-intro/"
-                >
-                  Developer
-                </a>
-              </li>
-            </ul>
             {/* Algolia Widgets */}
-            <SearchWrapperStyling className="form-inline header__search">
+            <SearchWrapperStyling className="form-inline header__search  ml-auto">
               <svg
                 className="nav-search__icon"
                 width="16"
