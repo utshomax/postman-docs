@@ -120,6 +120,8 @@ For collections, folders and requests inside a collection, and requests in Histo
 
 To hide the sidebar, select the hide sidebar icon <img alt="Hide sidebar icon" src="https://assets.postman.com/postman-docs/icon-hide-sidebar-v9.jpg#icon" width="18px"> from the [footer](#footer).
 
+The sidebar automatically hides empty elements other than **Collections**, **Environments**, and **History**. To expand or collapse the sidebar, select the up or down arrow at the bottom of the sidebar.
+
 ### History
 
 To access the requests you've made, select __History__ in the sidebar. When you're signed in to Postman, your history [syncs](/docs/getting-started/syncing/) across your devices.
