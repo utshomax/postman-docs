@@ -149,17 +149,17 @@ Use the **Certificates** tab to add and manage CA certificates and client certif
 
 ## Connected accounts
 
-_Desktop app only._ You can use the **Connected accounts** tab to manage the accounts and tokens used to authorize Postman with third-party applications. For example, when you use a personal access token to [connect an API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#connecting-to-an-on-premises-repository), Postman securely stores your token.
+You can use the **Connected accounts** tab to manage the accounts and tokens used to authorize Postman with third-party services. For example, when you [connect an API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/), Postman stores your authorization details. You can then use the connected account to add other integrations to the same service.
 
 You can manage your saved accounts and tokens on the **Connected accounts** tab:
 
-* To view a saved account or token, select the view icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">.
-* To edit a saved account or token, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. For example, if a token expired, you can edit it and enter a new valid token.
+* To view a saved token, select the view icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">.
+* To edit a saved token, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. For example, if a token expired, you can edit it and enter a new valid token.
 * To remove a saved account or token, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">. Any integrations that use the account or token will stop working until you reauthorize them.
 
 ![Connected accounts](https://assets.postman.com/postman-docs/v10/settings-connected-accounts-v10.jpg)
 
-You won't see this tab unless you have an [on-premises Git integration](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#connecting-to-an-on-premises-repository).
+> If you don't have any connected accounts, this tab doesn't appear in the Postman settings.
 
 ## Proxy
 
