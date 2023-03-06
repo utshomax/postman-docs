@@ -57,7 +57,7 @@ All [Flows Query Language](/docs/postman-flows/flows-query-language/introduction
 * [substringAfter](#substringafter)
 * [substringBefore](#substringbefore)
 * [sum](#sum)
-* [tomillis](#tomillis)
+* [toMillis](#tomillis)
 * [trim](#trim)
 * [type](#type)
 * [uppercase](#uppercase)
@@ -744,7 +744,7 @@ $sum($array) => number //returns the sum of the values o a numeric array
 $sum([1,2,3,4]) -> 10
 ```
 
-## tomillis
+## toMillis
 
 ``` javascript
 $toMillis($val:string, $picture?: string) => number //converts a string to a number of milliseconds since the epoch. $picture is optional, if not provided it will default to ISO format. Picture specs are as per Unicode date format standards

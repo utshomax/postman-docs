@@ -7,7 +7,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Using the Collection Runner"
-    url: "/docs/running-collections/intro-to-collection-runs/"
+    url: "/docs/collections/running-collections/intro-to-collection-runs/"
   - type: section
     name: "Additional resources"
   - type: subtitle

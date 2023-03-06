@@ -135,8 +135,8 @@ The right sidebar has a feature flag for pulling in up to three contextual, rece
 
 Two example docs using `dynamic_blog`:
 
-* `/docs/running-collections/intro-to-collection-runs.md`
-* `/docs/running-collections/scheduling-collection-runs.md`
+* `/docs/collections/running-collections/intro-to-collection-runs.md`
+* `/docs/collections/running-collections/scheduling-collection-runs.md`
 
 ### Using the dynamic blog posts feature
 
