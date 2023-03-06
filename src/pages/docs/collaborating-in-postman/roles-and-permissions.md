@@ -31,7 +31,7 @@ contextual_links:
 
 ---
 
-> Certain team options are only available on **[Postman Basic, Professional, and Enterprise plans](https://www.postman.com/pricing)**. To learn which roles are available on your plan, go to your **[web dashboard](https://go.postman.co/settings/team/roles)**.
+> Certain team options are only available on **[Postman paid plans](https://www.postman.com/pricing)**. To learn which roles are available on your plan, go to your **[web dashboard](https://go.postman.co/settings/team/roles)**.
 
 Roles define user permissions within a Postman team and a user's level of access to a Postman element, like a collection or an API.
 
@@ -165,7 +165,8 @@ The following roles control access at an API level:
 | Edit and delete APIs |  &#x2714;     |     |
 | Manage roles on APIs  |  &#x2714;   |   |
 | Share APIs  |   &#x2714;   | &#x2714;   |
-| Comment on APIs |   &#x2714;   | &#x2714;   |
+| Comment on APIs |   &#x2714;   |    |
+| Comment on published API versions |   &#x2714;   | &#x2714;   |
 | Create new API versions |  &#x2714;   |    |
 | Update schema |  &#x2714;   |    |
 | Generate collections from the schema |   &#x2714;  |    |

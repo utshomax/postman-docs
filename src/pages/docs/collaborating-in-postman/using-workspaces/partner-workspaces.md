@@ -1,5 +1,5 @@
 ---
-title: "Partner workspaces"
+title: "Partner Workspaces"
 order: 76
 page_id: "partner_workspaces"
 updated: 2022-09-15
@@ -73,7 +73,7 @@ Before sharing a Partner Workspace with external collaborators, you can set your
 
 You must be an Editor on an API, collection, or environment, the Workspace Admin, Partner Manager, or a Super Admin to move an element to a Partner Workspace.
 
-To move an element to a Partner workspace, do the following:
+To move an element to a Partner Workspace, do the following:
 
 1. In the sidebar, select the element you want to move. Then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 

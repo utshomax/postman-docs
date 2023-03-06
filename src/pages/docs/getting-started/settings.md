@@ -80,7 +80,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 > * To access a file from the Postman web app using the desktop app, find the file in `~/Postman/files`. When you add a file to a request using the web app, it creates a randomly named folder to `~/Postman/files`. Copy this folder into your desktop app’s working directory so the desktop app has access to it.
 > * If you’re sharing a request with other users, each user must have the files present in the correct working directory. If one user adds a file to a request using the Postman web app, they need to share the randomly created folder and file with all users who want to use this request, and this folder must be copied to each user’s working directory.
 
-**The working directory is also used by Newman.** Store files you want to upload to Newman in the working directory path saved in the collection. Learn more about [file uploads in Newman](/docs/running-collections/using-newman-cli/newman-file-uploads/).
+**The working directory is also used by Newman.** Store files you want to upload to Newman in the working directory path saved in the collection. Learn more about [file uploads in Newman](/docs/collections/using-newman-cli/newman-file-uploads/).
 
 **Use caution with files located outside your working directory.** To use files located outside your working directory when sending requests, turn on **Allow reading files outside working directory**. This option gives third-party collections the ability to read any file on your system. Use caution, and make sure you trust all third-party collections you are using before enabling this option.
 
@@ -123,7 +123,18 @@ Select a **Light** or **Dark** theme for Postman. If you're using the Postman de
 
 ## Shortcuts
 
-The **Shortcuts** tab displays all the keyboard shortcuts available in Postman. To turn off keyboard shortcuts, select the **Shortcuts** toggle.
+The **Shortcuts** tab displays all the keyboard shortcuts available in Postman. You can use the default shortcuts, or customize them if you're using the Postman desktop app.
+
+To customize a shortcut, select it and then enter your preferred shortcut. Custom shortcuts must meet the following requirents:
+
+* Shortcuts can't overlap with system shortcuts.
+* Shortcuts can't overlap with existing Postman shortcuts.
+* **[macOS only]** Shortcuts must include the **Control** (**⌃**), **Option** (**⌥**), **Shift** (**⇧**), or **Command** (**⌘**) key.
+* **[Windows only]** Shortcuts must include the **Ctrl**, **Alt**, or **Shift** key.
+
+You can revert to the default shortcuts by selecting **Restore Defaults**. To turn off keyboard shortcuts entirely, select the **Keyboard shortcuts** toggle.
+
+<img alt="Keyboard shortcuts" src="https://assets.postman.com/postman-docs/shortcuts-v10.10.jpg" width="700px"/>
 
 Some shortcuts aren't available in the Postman web app. Also, shortcut modifier keys in Postman may differ depending on your operating system. For example, to open a new tab select **⌘+T** on macOS or **Ctrl+T** on Windows or Linux.
 
@@ -135,7 +146,7 @@ Importing a dump file may overwrite your existing collections and environments, 
 
 ## Add-ons
 
-Select the link to download Newman, Postman's command line companion. Newman integrates your Postman collections with your build system and runs automated API tests. Learn more about [command line integration with Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
+Select the link to download Newman, Postman's command line companion. Newman integrates your Postman collections with your build system and runs automated API tests. Learn more about [command line integration with Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/).
 
 ## Certificates
 
