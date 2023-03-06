@@ -95,9 +95,21 @@ You can connect to a GitHub, Bitbucket, GitLab, or Azure DevOps repository hoste
 
 ## Connecting to an on-premises repository
 
+If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), you can connect to a Git repository hosted on-premises. To connect to a [GitHub Enterprise Server or GitLab Self-Managed](#connecting-to-github-enterprise-server-or-gitlab-self-managed), create a new installed app in Postman. To connect to [Azure DevOps server](#connecting-to-azure-devops-server), use a personal access token.
+
 > **Use the [Postman desktop app](/docs/getting-started/installation-and-updates/) to connect to GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server.** You can't use the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) to connect to an on-premises GitHub repository.
 
-You can connect to a GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server repository hosted on-premises.
+### Connecting to GitHub Enterprise Server or GitLab Self-Managed
+
+To connect to a repository hosted in GitHub Enterprise Server or GitLab Self-Managed, [create an installed app](#creating-an-installed-app) in Postman. To complete this process, you'll also need to create an OAuth app in GitHub Enterprise Server or GitLab Self-Managed. You only need to complete this process once for a domain URL. After you create the installed app, anyone on the team can use it to [connect to repositories using the same domain URL](#connecting-an-api-using-an-installed-app).
+
+#### Creating an installed app
+
+#### Connecting an API using an installed app
+
+### Connecting to Azure DevOps Server
+
+To connect an API to a repository hosted in Azure DevOps Server, use a personal access token.
 
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect repository**, select **Connect** and select the type of repository you want to connect to.
@@ -128,7 +140,7 @@ You can connect to a GitHub Enterprise Server, GitLab Self-Managed, or Azure Dev
 
 After you connect an API to a remote repository, other editors of the API must authenticate to be able to contribute to the API. Postman will prompt editors to authenticate the next time they open the API.
 
-Postman stores the accounts you've authorized with. After connecting to one repository, you can connect to other repositories without having to re-authenticate. You can also connect to a provider's other services. For example, if you connect to a GitHub repository, you can connect to [GitHub Actions](/docs/integrations/available-integrations/ci-integrations/github-actions/) without having to authenticate again.
+Postman stores the accounts you've authorized with. After connecting to one repository, you can connect to other repositories that use the same Git provider without having to re-authenticate. You can also connect to the provider's other services. For example, if you connect to a GitHub repository, you can connect to [GitHub Actions](/docs/integrations/available-integrations/ci-integrations/github-actions/) without having to authenticate again.
 
 To manage services you've authorized with, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, select **Settings**, and select the **Connected accounts** tab. Learn more about [managing connected accounts](/docs/getting-started/settings/#connected-accounts).
 
