@@ -70,7 +70,7 @@ Keep in mind the following when connecting to a repository:
 
 * **For Azure DevOps connections, make sure to enable third-party application access for your organization.** If you don't enable third-party access, Postman won't be able to connect to your repository. In Azure DevOps, go to your [organization settings](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops), select **Policies**, and turn on the toggle next to **Third-party application access via OAuth**. (Enabling third-party access isn't required for connecting to an Azure DevOps Server repository hosted on-premises.)
 
-* **For GitHub connections, there's a limit of ten auth tokens per user per application imposed by GitHub.** If you create more than ten connections with the same user, the additional tokens will be revoked in the order that they were created. Teams can use other Postman accounts to create more than ten integrations.
+* **For GitHub connections, there's a limit of ten auth tokens per user per application imposed by GitHub.** If you create more than ten connections with the same user, tokens beyond this limit will be revoked in the order that they were created. Teams can use other Postman accounts to create more than ten integrations.
 
 ## Connecting to a cloud-hosted repository
 
@@ -84,7 +84,7 @@ You can connect to a GitHub, Bitbucket, GitLab, or Azure DevOps repository hoste
 1. Select an **API schema directory** and **Collection directory** where API definitions and collections will be stored in the repository. Keep in mind the following:
 
     * If you leave these fields blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repository.
-    * If you select a directory already containing API definitions, you will be asked which definition to use in Postman the first time you pull changes.
+    * If you select a directory that already has API definitions, you will be asked which definition to use in Postman the first time you pull changes.
     * The collection directory can't be a parent or the child of the schema directory.
 
 1. Select **Connect Repository**.
@@ -101,7 +101,7 @@ If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), you 
 
 ### Connecting to GitHub Enterprise Server or GitLab Self-Managed
 
-To connect to a repository hosted in GitHub Enterprise Server or GitLab Self-Managed, [create an installed app](#creating-an-installed-app) in Postman. To complete this process, you'll also need to create an OAuth app in GitHub Enterprise Server or GitLab Self-Managed. You only need to complete this process once for a domain URL. After you create the installed app, anyone on the team can use it to [connect to repositories using the same domain URL](#connecting-an-api-using-an-installed-app).
+To connect to a repository hosted in GitHub Enterprise Server or GitLab Self-Managed, [create an installed app](#creating-an-installed-app) in Postman. To complete this process, you'll also need to create an OAuth app in GitHub Enterprise Server or GitLab Self-Managed. You need to complete this process once for a domain URL. After you create the installed app, anyone on the team can use it to [connect to repositories using the same domain URL](#connecting-an-api-using-an-installed-app).
 
 #### Creating an installed app
 
@@ -111,7 +111,7 @@ To connect to a repository hosted in GitHub Enterprise Server or GitLab Self-Man
 1. Select **Installed apps**.
 1. Select the repository provider you want to add an installed app for (**GitHub Enterprise Server** or **GitLab Self-Managed**).
 1. Enter a **Name** to help you recognize the installed app later.
-1. Enter the domain URL for your repository. Format the domain URL as follows:
+1. Enter the domain URL of your repository. Format the domain URL as follows:
 
     * **GitHub Enterprise Server** - Use the base URL of your Git server, for example: `https://my-github-server.example.com`
     * **GitLab Self-Managed** - Use the base URL of your Git server, for example: `https://gitlab.example.com`
@@ -126,7 +126,7 @@ To connect to a repository hosted in GitHub Enterprise Server or GitLab Self-Man
 
 #### Connecting an API using an installed app
 
-After you [create an installed app](#creating-an-installed-app), any API editor on the team can use it to connect an API to a repository hosted in GitHub Enterprise Server or GitLab Self-Managed. To connect an API using an installed app, do the following:
+After you [create an installed app](#creating-an-installed-app), any API editor on the team can use it to connect an API to GitHub Enterprise Server or GitLab Self-Managed. To connect an API using an installed app, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect repository**, select **Connect** and select **GitHub Enterprise Server** or **GitLab Self-Managed**.
@@ -137,7 +137,7 @@ After you [create an installed app](#creating-an-installed-app), any API editor 
 1. Select an **API schema directory** and **Collection directory** where API definitions and collections will be stored in the repository. Keep in mind the following:
 
     * If you leave these fields blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repository.
-    * If you select a directory already containing API definitions, you will be asked which definition to use in Postman the first time you pull changes.
+    * If you select a directory that already has API definitions, you will be asked which definition to use in Postman the first time you pull changes.
     * The collection directory can't be a parent or the child of the schema directory.
 
 1. Select **Connect Repository**.
@@ -156,7 +156,7 @@ To connect an API to a repository hosted in Azure DevOps Server, use a personal 
 1. Select an **API schema directory** and **Collection directory** where API definitions and collections will be stored in the repository. Keep in mind the following:
 
     * If you leave these fields blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repository.
-    * If you select a directory already containing API definitions, you will be asked which definition to use in Postman the first time you pull changes.
+    * If you select a directory that already has API definitions, you will be asked which definition to use in Postman the first time you pull changes.
     * The collection directory can't be a parent or the child of the schema directory.
 
 1. Select **Connect Repository**.
@@ -181,10 +181,10 @@ It's important to make sure your APIs remain separated in the repository, to avo
 
 You can keep your APIs separate by using a different folder for each API in the repository. For example, if you have an `emails` API and an `sms` API, you could have the following folder structure for the `main` branch in your repository:
 
-* `/emails/postman/schemas` - Contains schemas for the `emails` API
-* `/emails/postman/collections` - Contains collections for the `emails` API
-* `/sms/postman/schemas` - Contains schemas for the `sms` API
-* `/sms/postman/collections` - Contains collections for the `sms` API
+* `/emails/postman/schemas` - Schemas for the `emails` API
+* `/emails/postman/collections` - Collections for the `emails` API
+* `/sms/postman/schemas` - Schemas for the `sms` API
+* `/sms/postman/collections` - Collections for the `sms` API
 
 Make sure to select the correct folders for your API's schema and collections when [connecting the API to the repository](#connecting-to-a-repository).
 
@@ -195,11 +195,11 @@ Make sure to select the correct folders for your API's schema and collections wh
 You can keep your APIs separate by using a different branch for each API in the repository. For example, if you have a `notifications-v1` API and a `notifications-v2` API, you could have the following branch and folder structure in your repository:
 
 * `notifications-v1` branch
-    * `/postman/schemas` - Contains schemas for the `notifications-v1` API
-    * `/postman/collections` - Contains collections for the `notifications-v1` API
+    * `/postman/schemas` - Schemas for the `notifications-v1` API
+    * `/postman/collections` - Collections for the `notifications-v1` API
 * `notifications-v2` branch
-    * `/postman/schemas` - Contains schemas for the `notifications-v2` API
-    * `/postman/collections` - Contains collections for the `notifications-v2` API
+    * `/postman/schemas` - Schemas for the `notifications-v2` API
+    * `/postman/collections` - Collections for the `notifications-v2` API
 
 You must use a unique branch + folder combination for each API you [connect to the repository](#connecting-to-a-repository). For example, if you connect one API to the `/postman/schemas` folder on the `notifications-v1` branch, you can't connect another API to the same folder on the same branch. You must use a different branch or a different schema folder.
 

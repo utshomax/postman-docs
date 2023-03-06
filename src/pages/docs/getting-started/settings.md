@@ -69,11 +69,11 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 **You can't change the working directory in the Postman web app.** When you upload a file, the Postman web app creates a new folder with a random name in the `~/Postman/files` directory. Postman stores the uploaded file in the new folder so you can use it when sending requests. To automatically sync files you upload to the Postman web app with your local working directory, make sure you are using the [Postman Desktop Agent](/docs/getting-started/about-postman-agent/#the-postman-desktop-agent).
 
-> If you choose a different working directory than `~/Postman/files` for the Postman desktop app, you will still be able to work between the Postman desktop app and the Postman web app, but the process has a few more steps:
+> If you choose a different working directory than `~/Postman/files` for the Postman desktop app, you will still be able to work between the Postman desktop app and the Postman web app by taking the following steps:
 >
 > * To access a file from the Postman desktop app using the web app, copy it from the desktop app’s working directory into `~/Postman/files` so the web app has access to it.
-> * To access a file from the Postman web app using the desktop app, find the file in `~/Postman/files`. When you add a file to a request using the web app, it creates a randomly named folder to `~/Postman/files`. Copy this folder into your desktop app’s working directory so the desktop app has access to it.
-> * If you’re sharing a request with other users, each user must have the files present in the correct working directory. If one user adds a file to a request using the Postman web app, they need to share the randomly created folder and file with all users who want to use this request, and this folder must be copied to each user’s working directory.
+> * To access a file from the Postman web app using the desktop app, find the file in `~/Postman/files`. When you add a file to a request using the web app, it creates a folder with a random name in `~/Postman/files`. Copy this folder into your desktop app’s working directory so the desktop app has access to it.
+> * If you’re sharing a request with other users, each user must have the files present in the correct working directory. If one user adds a file to a request using the Postman web app, they need to share the folder and file that's created with all users who want to use this request, and this folder must be copied to each user’s working directory.
 
 **The working directory is also used by Newman.** Store files you want to upload to Newman in the working directory path saved in the collection. Learn more about [file uploads in Newman](/docs/collections/using-newman-cli/newman-file-uploads/).
 
@@ -88,7 +88,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 ### User interface
 
-* **Remove tabs** - _Postman web app only._ Use tabs in your browser to navigate Postman instead of in-app tabs. For more information, see [Browser tabs in the Postman web app](/docs/getting-started/navigating-postman/#browser-tabs-in-the-postman-web-app).
+* **Remove tabs** - _(Postman web app)_ Use tabs in your browser to navigate Postman instead of in-app tabs. For more information, see [Browser tabs in the Postman web app](/docs/getting-started/navigating-postman/#browser-tabs-in-the-postman-web-app).
 * **Two-pane view** - By default, Postman displays responses below requests. Turn this on to display the response and request panes side by side.
 * **Show icons with tab names** - Turn this off to hide the icons that appear next to tab names.
 * **Variable autocomplete** - Turn this on to enable autocomplete when typing variable names.
@@ -120,12 +120,12 @@ Select a **Light** or **Dark** theme for Postman. If you're using the Postman de
 
 The **Shortcuts** tab displays all the keyboard shortcuts available in Postman. You can use the default shortcuts, or customize them if you're using the Postman desktop app.
 
-To customize a shortcut, select it and then enter your preferred shortcut. Custom shortcuts must meet the following requirents:
+To customize a shortcut, select it and then enter your preferred shortcut. Custom shortcuts must meet the following requirements:
 
 * Shortcuts can't overlap with system shortcuts.
 * Shortcuts can't overlap with existing Postman shortcuts.
-* **[macOS only]** Shortcuts must include the **Control** (**⌃**), **Option** (**⌥**), **Shift** (**⇧**), or **Command** (**⌘**) key.
-* **[Windows only]** Shortcuts must include the **Ctrl**, **Alt**, or **Shift** key.
+* _(macOS)_ Shortcuts must include the **Control** (**⌃**), **Option** (**⌥**), **Shift** (**⇧**), or **Command** (**⌘**) key.
+* _(Windows)_ Shortcuts must include the **Ctrl**, **Alt**, or **Shift** key.
 
 You can revert to the default shortcuts by selecting **Restore Defaults**. To turn off keyboard shortcuts entirely, select the **Keyboard shortcuts** toggle.
 
