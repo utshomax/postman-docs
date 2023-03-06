@@ -6,7 +6,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Using the Collection Runner"
-    url: "/docs/running-collections/intro-to-collection-runs/"
+    url: "/docs/collections/running-collections/intro-to-collection-runs/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -21,7 +21,7 @@ warning: false
 
 Many Postman users run collections at specific times each day or week. For example, you may want to run a collection that tests your API every day. You can use the Collection Runner to schedule collection runs to execute automatically at specified days and times.
 
-> You can also schedule collection runs using [monitors](/docs/running-collections/scheduling-collection-runs-monitors/). Monitors are typically used to schedule runs when you want to set up alerts like triggering on-call upon failure. Choose the Collection Runner to schedule runs for all other use cases.
+> You can also schedule collection runs using [monitors](/docs/collections/running-collections/scheduling-collection-runs-monitors/). Monitors are typically used to schedule runs when you want to set up alerts like triggering on-call upon failure. Choose the Collection Runner to schedule runs for all other use cases.
 
 When you schedule a collection run with the Collection Runner, the scheduled run is added to the collection's **Runs** tab. You can view, pause, edit, and delete scheduled collection runs from the collection's **Runs** tab.
 
@@ -60,7 +60,7 @@ When you schedule a collection run with the Collection Runner, the scheduled run
     * The run's frequency
     * An environment associated with the collection (optional)
     * How many times you want the collection to run (iterations)
-    * A `JSON` or `CSV` [data file](/docs/running-collections/working-with-data-files/) (optional)
+    * A `JSON` or `CSV` [data file](/docs/collections/running-collections/working-with-data-files/) (optional)
     * Notification recipients (optional)
     * Advanced settings (optional)
       * Retry if run fails
@@ -87,7 +87,7 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
     ![Hover and select View v10](https://assets.postman.com/postman-docs/v10/scr-hover-select-view-v10.gif)
 
-1. Each column in the graph represents an individual run. Select a column to see test results and the console log for that run. For more information see [Viewing scheduled collection runs](/docs/running-collections/viewing-scheduled-collection-runs/).
+1. Each column in the graph represents an individual run. Select a column to see test results and the console log for that run. For more information see [Viewing scheduled collection runs](/docs/collections/running-collections/viewing-scheduled-collection-runs/).
 
     ![Scheduled runs view results v10](https://assets.postman.com/postman-docs/v10/view-scheduled-run-results-2-v10.jpg)
 
