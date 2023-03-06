@@ -151,6 +151,8 @@ You can keep your APIs separate by using a different folder for each API in the 
 * `/sms/postman/schemas` - Contains schemas for the `sms` API
 * `/sms/postman/collections` - Contains collections for the `sms` API
 
+Make sure to select the correct folders for your API's schema and collections when [connecting the API to the repository](#connecting-to-a-repository).
+
 > The collection directory can't be a parent or the child of the schema directory.
 
 ### Separating APIs with branches
