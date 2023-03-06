@@ -21,7 +21,7 @@ You can add custom governance functions to use in your [custom API Governance ru
 1. Go to the [Postman home screen](https://go.postman.co/), and then select **API Governance** from the team information pane.
 1. Select the **Rule Library** tab, and then select the **Functions** tab.
 1. Select **Create Function**.
-1. Name the function, and then write the function in the editor.
+1. Name the function, and then write the function in the editor. For more information about writing custom functions, see the [Spectral documentation](https://github.com/stoplightio/spectral/blob/develop/docs/guides/5-custom-functions.md).
 
     > Postman will prompt you with suggestions as you enter text. Select one to autocomplete your code.
 
@@ -29,15 +29,25 @@ You can add custom governance functions to use in your [custom API Governance ru
 
 ## Adding a custom function to a custom rule
 
-To add a custom function to a custom API Governance rule, first follow the steps to [add a custom rule](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules). Add the `then.function` property to the rule, and add the custom function name as its value. Then select **Create** to create a custom rule that uses a custom function.
+To add a custom function to a custom API Governance rule, first [add a custom function](#adding-a-custom-function), and then begin the steps to [add a custom rule](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules).
+
+To use a custom function, add the following property-value pairs to your custom rule:
+
+* **Load the function in your rule.** Add the `functions` property to the rule, and add the custom function name as its value to load it in your rule (for example, `functions: [custom_function_name]`).
+* **Use the function in your rule.** Add the `then.function` property to the rule, and add the custom function name as its value to use it in your rule (for example, `function: custom_function_name`). If your custom function accepts options, you can also add the `then.functionOptions` property.
 
 ```json
+functions: [custom_function_name]
 rules:
   custom_rule_name:
     # ...
     then:
       function: custom_function_name
 ```
+
+> For more information about adding a custom function to a custom rule, see the [Spectral documentation](https://github.com/stoplightio/spectral/blob/develop/docs/guides/5-custom-functions.md).
+
+Then select **Create** to create a custom rule that uses a custom function.
 
 > You can't edit rules. To add a custom function to an existing rule, delete the rule and then use the custom function in the new rule.
 
