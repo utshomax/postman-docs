@@ -8,13 +8,15 @@ search_keyword: "api governance, schema validation, api schema vulnerabilities"
 
 You can customize the API Governance rules that Postman applies to your [API definitions](/docs/api-governance/api-definition/api-definition-warnings/). Adhering to these API Governance rules at the start of the API lifecycle keeps your API consistent without requiring extra work at later stages. This can prevent unnecessary delays for your organization.
 
-<img alt="API Governance configuration page" src="https://assets.postman.com/postman-docs/v10/api-governance-configuration-home-v10.jpg" width="900px"/>
+Super Admins and API Governance Managers are able to configure rules and turn them on and off for workspaces within your team. If your team has not assigned an API Governance Manager, Admins will also be able to manage your team's governance configuration. Once the API Governance Manager role has been assigned, Admins will only have view access to the API Governance dashboard.
+
+<img alt="API governance dashboard" src="https://assets.postman.com/postman-docs/api-governance-dashboard-10.12.0.jpg"/>
 
 ## Contents
 
 * [Accessing the configurable API Governance rules](#accessing-the-configurable-api-governance-rules)
 * [Adding rules to your API Governance configuration](#adding-rules-to-your-api-governance-configuration)
-    * [Importing rules from the Postman library](#importing-rules-from-the-postman-library)
+    * [Importing rules from the rule library](#importing-rules-from-the-rule-library)
     * [Adding custom rules](#adding-custom-rules)
 * [Turning configured rules on and off](#turning-configured-rules-on-and-off)
 * [Removing rules from your API Governance configuration](#removing-rules-from-your-api-governance-configuration)
@@ -28,15 +30,13 @@ You can customize the API Governance rules that Postman applies to your [API def
 
 In addition to the rules turned on by default in Postman, you can add other rules to your API Governance configuration from the Postman library. You can also create your own custom rules.
 
-### Importing rules from the Postman library
+### Importing rules from the rule library
 
-> Only Team Admins with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can import API Governance rules from the Postman library.
+The rule library contains Postman's API Governance Guidelines, Stoplight's Style Guide, and Zalando's RESTful API and Event Guidelines. You can select **View all** below a set of guidelines to view all of the rules available to your team. Details and API format requirements are available under the rule name. Select **Import** next to a rule to import it. To import all rules for a particular set of guidelines, select **Import All**.
 
-Select **Import From Library**. To see more details about a particular rule, select the expand icon **>** next to the rule name. Select the rules in the library you want to add, then select **Import selected**. If you want to import all the rules, select **Import all**.
+<img alt="Import API Governance rule from Postman library" src="https://assets.postman.com/postman-docs/import-rule-from-rule-library-10.12.0.jpg"/>
 
-<img alt="Import API Governance rule from Postman library" src="https://assets.postman.com/postman-docs/v10/api-governance-import-from-library-v10.jpg" width="800px"/>
-
-Once you import new rules from the library, you need to turn them on in the Governance dashboard.
+Once you import new rules from the library, you need to [turn them on](#turning-configured-rules-on-and-off) in the API Governance dashboard.
 
 ### Adding custom rules
 
