@@ -11,7 +11,7 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -49,7 +49,7 @@ Sign in to [Splunk](https://login.splunk.com) and follow the [steps from Splunk]
 
    * Name your new integration.
    * Select the workspace and monitor whose data you would like to send to Splunk.
-   * Enter your Splunk HEC token, as described above.
+   * Enter your Splunk HEC token, as described in the [Retrieving your Splunk HEC token](#retrieving-your-splunk-hec-token) section.
    * Enter your Splunk host URL and port.
 
    [![splunk integration configuration](https://assets.postman.com/postman-docs/splunk-add-integration.jpg)](https://assets.postman.com/postman-docs/splunk-add-integration.jpg)

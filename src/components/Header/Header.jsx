@@ -4,10 +4,10 @@ import Dropdown from './Dropdown';
 import $ from 'jquery';
 import {PrimaryNavbarV6, SecondaryNavbarV6, NavStyles, DropdownStyles, CTAButton} from './HeaderStyles.jsx' ;
 import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
+// prod nav data
 import navbarData from '../../../bff-data/navbar.json';
-
-// For local TOPNAVBAR TESTING
-// import navbarDataLocal from '../../../build/navbarDev.json';
+// fallback nav data
+import navbarDataLocal from '../../../build/navbarDev.json';
 
 // Get Cookie for Sign In toggler
 const getCookie = (a) => {
@@ -84,12 +84,13 @@ const Header = (props) => {
 
     setCookie(cookie);
     setBeta(beta);
+    const navbarKeys = ['items', 'media', 'type'];
 
-    // FOR LOCAL TOP NAVBAR TESTING: comment in navbarDataLocal import and below
-    // **************************************************************************
-    // if (process.env.NODE_ENV === 'development') { 
-    //   setData(navbarDataLocal);
-    // }
+    if (navbarKeys.every(key => Object.keys(navbarData).includes(key))) {
+      setData(navbarData)
+    } else {
+      setData(navbarDataLocal)
+    }
 
     const { waitBeforeShow } = props;
 
@@ -287,7 +288,12 @@ const Header = (props) => {
                           { item.columns && item.columns &&
                           <div className="row dropdown-col-menu">
                             { item.columns.map((col) => (
-                              <div className="col-sm-6 col-md-4 dropdown-col" key={col.title}>
+                              <div
+                              className={
+                                item.isWidthShort
+                                  ? 'col-sm-6 col-md-6 dropdown-col'
+                                  : 'col-sm-6 col-md-4 dropdown-col'
+                              } key={col.title}>
                                 <h6 className="dropdown-header">{col.title}</h6>
                                 {col.subItemsCol.map((link) => (
                                   <a
@@ -379,34 +385,8 @@ const Header = (props) => {
             className="collapse navbar-collapse"
             id="navbarSupportedContentBottom"
           >
-            <ul className="property-context-menu navbar-nav ml-auto">
-              <li className="nav-item">
-                <a
-                  className="nav-link uber-nav"
-                  href="/docs/getting-started/introduction/"
-                >
-                  Docs
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link uber-nav"
-                  href="/docs/administration/managing-your-team/managing-your-team/"
-                >
-                  Admin
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link uber-nav mr-3"
-                  href="/docs/developer/resources-intro/"
-                >
-                  Developer
-                </a>
-              </li>
-            </ul>
-            {/* Aloglia Widgets */}
-            <SearchWrapperStyling className="form-inline header__search">
+            {/* Algolia Widgets */}
+            <SearchWrapperStyling className="form-inline header__search  ml-auto">
               <svg
                 className="nav-search__icon"
                 width="16"

@@ -18,12 +18,12 @@ contextual_links:
     name: "Dynamically create custom environments with code"
     url: "https://youtu.be/6h2JiMfNU0A"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "How to Dynamically Create Custom Environments with Code"
     url: "https://blog.postman.com/how-to-dynamically-create-custom-environments-with-code/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Intro to scripts"
     url: "/docs/writing-scripts/intro-to-scripts/"
@@ -33,7 +33,7 @@ Some API publishers use **Run in Postman** buttons alongside their own API docum
 
 The Run in Postman API uses the `_pm()` method to create or update environments in your website's client-side code through existing dynamic **Run in Postman** buttons.
 
-As another example, you can use the API to pass login credentials to Postman:
+As another example, you can use the API to pass sign in credentials to Postman:
 
 ```javascript
 _pm('env.create', 'Spotify', {

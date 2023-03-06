@@ -6,7 +6,7 @@ page_id: "intro_sso"
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -21,9 +21,9 @@ contextual_links:
 
 Single sign-on (SSO) services enable you to manage your team’s identity across all the SaaS products that you use.
 
-SSO services permit a user to use one set of credentials (for example, a name or email address and password) to access multiple applications. The service authenticates the end user only once for all the applications the user has been given rights to and eliminates further prompts when the user switches applications during the same session.
+SSO services permit a user to use one set of credentials (for example, a name or email address and password) to access multiple applications. The service authenticates the user only once for all the applications the user has been given rights to and eliminates further prompts when the user switches applications during the same session.
 
-An example of SSO is Google's sign-in implementation for products like Gmail, YouTube, and Google Drive. Any user that is logged in to one of Google's products is automatically logged in to their other products as well.
+An example of SSO is Google's sign-in implementation for products like Gmail, YouTube, and Google Drive. Any user that is signed in to one of Google's products is automatically signed in to their other products as well.
 
 ### What are the advantages of SSO?
 
@@ -34,9 +34,9 @@ An example of SSO is Google's sign-in implementation for products like Gmail, Yo
 
 ### Prerequisites for SSO with Postman
 
-* Team’s Identity Provider (IdP) must support the SAML 2.0 standard.
+* Team’s identity provider (IdP) must support the SAML 2.0 standard.
 
-### Identity Providers Supported
+### Supported IdPs
 
 Professional plans:
 

@@ -11,7 +11,7 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -68,7 +68,7 @@ Once the data starts flowing into Coralogix, you can view and analyze these metr
 
 ![Coralogix dashboard](https://assets.postman.com/postman-docs/coralogix_dashboard1.png)
 
-Select the **Logs** tab to a view a list of all logs. You can filter the services by name. As many services may be running in your system, you can filter by selecting Postman to view all Coralogix logs for Postman. The schema appears, as illustrated below:
+Select the **Logs** tab to a view a list of all logs. You can filter the services by name. Since many services may be running in your system, you can filter by selecting **Postman** to view all Coralogix logs for Postman. This will enable you to inspect the schema.
 
 ![Coralogix logs view](https://assets.postman.com/postman-docs/coralogix_schema1.png)
 

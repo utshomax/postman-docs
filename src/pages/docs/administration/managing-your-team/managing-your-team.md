@@ -6,14 +6,14 @@ page_id: "managing_your_team"
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Postman 101 for Admins"
     url: "https://youtu.be/rEKvQO8EYR8"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "How to Securely Deploy Postman at Scale, Part 1: User Management"
     url: "https://blog.postman.com/how-to-securely-deploy-postman-at-scale-user-management/"
@@ -45,7 +45,7 @@ Postman provides a variety of options to customize your team's experience, from 
 
 ## Setting up your team
 
-Once you've created your Postman team, you can take the following steps to enable an efficient onboarding process for end users:
+Once you've created your Postman team, you can take the following steps to enable an efficient user onboarding process:
 
 * Use the [Onboarding checklist](/docs/administration/onboarding-checklist/) to ensure that Postman is available on all devices used by your organization and that it functions as expected.
 * [Enable team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/) to let other Postman users from your organization request to join your team.
@@ -78,7 +78,7 @@ If the team member sending the invite isn't a Developer inviting another Develop
 
 You can also let Postman users from your company request to join your team by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#enabling-team-discovery).
 
-> [Postman Enterprise](https://www.postman.com/pricing) teams can enable [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/), which enables you to create, update, and deactivate user accounts at scale through your identity provider.
+> [Postman Enterprise](https://www.postman.com/pricing) teams can enable [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/), which enables you to create, update, and deactivate user accounts at scale through your identity provider (IdP).
 
 ### Managing invites
 

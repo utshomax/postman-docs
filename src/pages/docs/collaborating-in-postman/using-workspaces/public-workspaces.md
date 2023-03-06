@@ -11,7 +11,7 @@ contextual_links:
     name: "Creating workspaces"
     url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -21,7 +21,7 @@ contextual_links:
     name: "Workspace Linter Using a Style Guide | Postman Level Up"
     url: "https://youtu.be/6MSS8YgvFVA"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "How to Set Up Your First Public Workspace in 5 Easy Steps"
     url: "https://blog.postman.com/how-to-set-up-public-workspaces/"
@@ -62,7 +62,7 @@ Before other Postman users can work with your team in a public workspace, your t
 
 To make your [team profile](https://go.postman.co/settings/team/general) public, do the following:
 
-1. In the upper-right corner of Postman next to your avatar, select **Team** > **Team settings**.
+1. In the upper-right corner of Postman next to your avatar, select **Team > Team settings**.
 1. Select **Team profile**.
 1. Select **Make team profile public** to set the profile to public.
 

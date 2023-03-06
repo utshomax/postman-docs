@@ -6,7 +6,7 @@ page_id: "team-merge"
 warning: false
 contextual_links:
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Configuring SSO"
     url: "/docs/administration/sso/admin-sso/"
@@ -34,7 +34,7 @@ Team migration can occur in different ways depending on your needs and preferred
 
 ## Who can perform team migration
 
-* All plan types (Free, Basic, Professional, and Enterprise)
+* All plan types (Free and paid)
 * [Team members with the Admin or Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles)
 * Information Technology or System Administrator for [single sign-on provisioning](/docs/administration/sso/intro-sso/) (available to [Professional and Enterprise plans](https://www.postman.com/pricing/))
 
@@ -98,7 +98,7 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 
 ### Performing centralized migration
 
-* The appointed Admin on the original team will inherit ownership of all shared and unshared data. To do this they can [access the existing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#accessing-workspaces).
+* The appointed Admin on the original team will inherit ownership of all shared and unshared data.
     * Data from team workspaces you haven't joined won't be present in the export.
     * By default, the person who imports a collection or environment is automatically assigned the Editor role (learn more about [roles](/docs/collaborating-in-postman/roles-and-permissions/)). Everyone else on the team will be assigned as Viewer.
 * [Export all data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) at once with a [JSON data dump](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
@@ -149,7 +149,7 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 
 * **What happens to published documentation from my previous team?**
 
-    Your documentation links will break since the previous team is no longer active. New documentation URLs will need to be generated when collections are [republished from your new team pages](/docs/publishing-your-api/publishing-your-docs/). If you are [publishing to a custom domain](/docs/publishing-your-api/custom-doc-domains/), unpublish and remove the domain from your previous team in order to add it to your new team and republish.
+    Your documentation links will break since the previous team is no longer active. New documentation URLs will need to be generated when collections are [republished from your new team pages](/docs/publishing-your-api/publishing-your-docs/). If you are [publishing to a custom domain](/docs/publishing-your-api/custom-doc-domains/), unpublish and remove the domain from your previous team to add it to your new team and republish.
 
 * **What happens to the previous team once everyone leaves?**
 
