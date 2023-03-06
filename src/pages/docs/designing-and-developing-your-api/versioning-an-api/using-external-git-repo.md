@@ -50,27 +50,28 @@ After connecting, you can push and pull changes between Postman and branches in 
 
 ## Contents
 
-* [Connecting to a repository](#connecting-to-a-repository)
-    * [Connecting to a cloud-hosted repository](#connecting-to-a-cloud-hosted-repository)
-    * [Connecting to an on-premises repository](#connecting-to-an-on-premises-repository)
+* [Connecting to a repository overview](#connecting-to-a-repository-overview)
+* [Connecting to a cloud-hosted repository](#connecting-to-a-cloud-hosted-repository)
+* [Connecting to an on-premises repository](#connecting-to-an-on-premises-repository)
+* [Connecting more than one API to the same repository](#connecting-more-than-one-api-to-the-same-repository)
 * [Disconnecting a remote repository](#disconnecting-a-remote-repository)
 * [Next steps](#next-steps)
 
-## Connecting to a repository
+## Connecting to a repository overview
 
 You can connect an API in Postman to your remote Git-based repository. This enables you to sync changes between the repository and Postman. You can connect to a [cloud-hosted repository](#connecting-to-a-cloud-hosted-repository) or to an [on-premises repository](#connecting-to-an-on-premises-repository).
 
 Keep in mind the following when connecting to a repository:
 
-* **The user account used for authentication requires full access to repositories.** You may want to create a service account with limited permissions for this integration.
+* **The user account used for authentication requires full access to repositories.** To contribute to the API, each user must authenticate with their own account.
 
-* **You can connect an API to one remote repository.** You can't connect an API to more than one repository, and you can't connect more than one API to the same repository.
+* **You can connect one or more APIs to a remote repository.** You can keep your APIs separate in the repository using folders or branches. Learn more about [connecting more than one API to the same repository](#connecting-more-than-one-api-to-the-same-repository).
 
 * **For Azure DevOps connections, make sure to enable third-party application access for your organization.** If you don't enable third-party access, Postman won't be able to connect to your repository. In Azure DevOps, go to your [organization settings](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops), select **Policies**, and turn on the toggle next to **Third-party application access via OAuth**. (Enabling third-party access isn't required for connecting to an Azure DevOps Server repository hosted on-premises.)
 
 * **For GitHub connections, there's a limit of ten auth tokens per user per application imposed by GitHub.** If you create more than ten connections with the same user, the additional tokens will be revoked in the order that they were created. Teams can use other Postman accounts to create more than ten integrations.
 
-### Connecting to a cloud-hosted repository
+## Connecting to a cloud-hosted repository
 
 You can connect to a GitHub, Bitbucket, GitLab, or Azure DevOps repository hosted in the cloud.
 
@@ -89,7 +90,7 @@ You can connect to a GitHub, Bitbucket, GitLab, or Azure DevOps repository hoste
 
 <img alt="Connecting to a cloud-hosted repo" src="https://assets.postman.com/postman-docs/v10/api-builder-remote-repo-v10.jpg" width ="562px"/>
 
-#### Managing connected accounts for cloud-hosted repositories
+### Managing connected accounts for cloud-hosted repositories
 
 After you connect an API to a cloud-hosted repository, other editors of the API must authenticate to be able to contribute the API. Postman will prompt editors to enter their token the next time they open the API.
 
@@ -99,7 +100,7 @@ You can also connect to a provider's other services without having to re-authent
 
 To manage services you've authorized with, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, select **Settings**, and select the **Connected accounts** tab. Learn more about [managing connected accounts](/docs/getting-started/settings/#connected-accounts).
 
-### Connecting to an on-premises repository
+## Connecting to an on-premises repository
 
 > **Use the [Postman desktop app](/docs/getting-started/installation-and-updates/) to connect to GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server.** You can't use the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) to connect to an on-premises GitHub repository.
 
@@ -128,7 +129,7 @@ You can connect to a GitHub Enterprise Server, GitLab Self-Managed, or Azure Dev
 
 1. Select **Connect Repository**.
 
-#### Managing connected accounts for on-premises repositories
+### Managing connected accounts for on-premises repositories
 
 After you connect an API to an on-premises Git repository, other editors of the API must enter their own personal access token to be able to access the collections and definitions in the API. Postman will prompt editors to enter their token the next time they open the API.
 
@@ -157,6 +158,18 @@ Make sure to select the correct folders for your API's schema and collections wh
 
 ### Separating APIs with branches
 
+You can keep your APIs separate by using a different branch for each API in the repository. For example, if you have a `notifications-v1` API and a `notifications-v2` API, you could have the following branch and folder structure in your repository:
+
+* `notifications-v1` branch
+    * `/postman/schemas` - Contains schemas for the `notifications-v1` API
+    * `/postman/collections` - Contains collections for the `notifications-v1` API
+* `notifications-v2` branch
+    * `/postman/schemas` - Contains schemas for the `notifications-v2` API
+    * `/postman/collections` - Contains collections for the `notifications-v2` API
+
+You must use a unique branch + folder combination for each API you [connect to the repository](#connecting-to-a-repository). For example, if you connect one API to the `/postman/schemas` folder on the `notifications-v1` branch, you can't connect another API to the same folder on the same branch. You must use a different branch or a different schema folder.
+
+> As you work on your APIs, you can switch branches and push or pull changes for any branch. To keep your APIs separate, always make sure you are on the correct branch before pushing or pulling changes.
 
 ## Disconnecting a remote repository
 
