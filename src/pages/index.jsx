@@ -12,58 +12,6 @@ import { LandingCard } from '../components/MarketingPages/Cards';
 import '../../styles/config/_pm-icons.css';
 import { BaseLink, BaseLinkStyles, BaseButton, SectionStyles, VideoComponent } from 'aether-marketing';
 
-const EventsWrapper = styled.div`
-a {
-  ${BaseLinkStyles.componentStyle.rules}
-}
-
-margin-bottom: 48px;
-@media (min-width: 992px) {
-        padding-left: 48px;
-    }
-    
-.events__alert {
-    border: 4px dashed ${theme.colors.blue_10};
-    border-radius: ${theme.borderRadius.medium};
-    padding: .75rem 1.25rem;
-    color: #0C5460;
-    color: ${theme.colors.blue_80};
-}
-// Upcoming Event Section styles
-
-.event-date {
-    font-family: 'Degular-Display-Semibold', system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    font-size: 28px;
-    text-transform: uppercase;
-    @media (max-width: 992px) {
-      justify-content:initial;
-      margin-top: 8px;
-    }
-}
-.event-location {
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: ${theme.colors.orange_40};
-    padding-bottom: 16px;
-}
-.event-description-wrapper {
-    @media (min-width: 992px) {
-        padding-left: 48px !important;
-    }
-}
-.event-month {
-    @media screen and (max-width: 576px){
-        font-size: 16px;
-    }
-}
-.link-style{
-    height: 24px;
-    color: ${theme.colors.blue_60};
-    text-decoration: none;
-}
-`
 const HeroWrapper = styled.section`
   background-color: rgba(173, 205, 251, .2);
   padding: 48px 80px;
@@ -87,98 +35,7 @@ const HRStyles = styled.hr`
   margin-bottom: 0;
 `;
 
-const months = [
-  'Jan',
-  'Feb',
-  'Mar',
-  'Apr',
-  'May',
-  'Jun',
-  'Jul',
-  'Aug',
-  'Sep',
-  'Oct',
-  'Nov',
-  'Dec',
-];
-
-function getEvents(sortedUpcomingEvents) {
-  return sortedUpcomingEvents.length > 0 && ( // If there are events in the events.json array
-    sortedUpcomingEvents.map((event) => {
-      const eventYear = event.date.match(/20[0-9][0-9]/)[0];
-      const eventMonth = parseInt(event.date.split(/20[0-9][0-9]-/).pop().split('-').shift(), 10);
-      const eventMonthIndex = eventMonth - 1;
-      const eventDay = parseInt(event.date.split(/20[0-9][0-9]-[0-9][0-9]-/).pop().split('T').shift(), 10);
-      const eventDate = `${eventMonth}/${eventDay}/${eventYear}`;
-      const eventInformation = `${event.location} - ${eventDate} ${event.time}`;
-      return (
-        <EventsWrapper className="col-12 col-lg-10 offset-lg-1 " key={uuidv4()}>
-          <div className="row ">
-            <div className="col-12 col-lg-3 event-date event-month">
-              {/* <span className="event-month"> */}
-              {`${months[eventMonthIndex]}`}
-              {/* </span> */}
-              {' '}
-              {`${eventDay}`}
-            </div>
-            <div className="col-12 col-lg-9 event-description-wrapper">
-              <p className="mb-1 event-location">{`${eventInformation}`}</p>
-              <h4 className="event-title">{event.title}</h4>
-              <p>{event.description}</p>
-              <OutboundLink
-                className="event-link-wrapper"
-                href={event.link}
-                target="_blank"
-                rel="noopener"
-              >
-                <span>See details →</span>
-              </OutboundLink>
-            </div>
-          </div>
-        </EventsWrapper>
-      );
-    })
-  ) || (
-    <>
-      {/* If there are no events, and events.json is an object
-        where development eq true */}
-      {!Array.isArray(upcomingEvents) && upcomingEvents.development ? (
-        <EventsWrapper className="events__alert" role="alert">
-          <p>
-            You are currently in develop mode. Dynamic events will not be displayed
-            locally.
-            {' '}
-            <BaseLink
-              style={{ fontSize: 'inherit' }}
-              src="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md"
-              target="same-tab"
-              linkType="arrowLink"
-            >
-              See Contributing doc for details
-            </BaseLink>
-            .
-          </p>
-        </EventsWrapper>
-      ) : (
-        <>
-          {/* else we know we have 0 upcoming events, and we are not
-            in development mode */}
-          <p>We currently have no upcoming events...check back later.</p>
-        </>
-      )}
-    </>
-  )
-}
-
 class IndexPage extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      sortedUpcomingEvents: upcomingEvents,
-    };
-  }
-
   componentDidMount() {
     const pix = document.createElement('script');
     pix.language = 'JavaScript1.1';
@@ -195,30 +52,9 @@ class IndexPage extends React.Component {
       polyfill.async = true;
       document.body.appendChild(polyfill);
     }
-
-    try {
-      window.pm.bff(
-        'events',
-        (d) => {
-          if (d) {
-            const data = JSON.parse(d);
-            const sortedUpcomingEvents = document.getElementById('sorted-upcoming-events');
-
-            sortedUpcomingEvents.innerHTML = ReactDOMServer.renderToString(getEvents(data));
-          }
-        }
-      );
-    } catch (err) {
-      if (window.pm && typeof window.pm.log === 'function') {
-        window.pm.log(err);
-      }
-    }
   }
 
   render() {
-    const { state } = this;
-    const { sortedUpcomingEvents } = state;
-
     return (
       <Layout>
         <SEO title="Learning Center" slug="/" />
