@@ -105,7 +105,9 @@ To connect to a repository hosted in GitHub Enterprise Server or GitLab Self-Man
 
 #### Creating an installed app
 
-[Installed apps](/docs/integrations/installed-apps/) streamline the process of adding integrations by enabling all members of a team to use the same stored authorization details. To create an installed app for GitHub Enterprise Server or GitLab Self-Managed, do the following:
+[Installed apps](/docs/integrations/installed-apps/) streamline the process of adding integrations by enabling all members of a team to use the same stored authorization details.
+
+To create an installed app for GitHub Enterprise Server or GitLab Self-Managed, do the following:
 
 1. In Postman, open [Team Settings](https://go.postman.co/settings/team/general) by selecting **Team > Team Settings**.
 1. Select **Installed apps**.
@@ -128,7 +130,9 @@ To connect to a repository hosted in GitHub Enterprise Server or GitLab Self-Man
 
 #### Connecting an API using an installed app
 
-After you [create an installed app](#creating-an-installed-app), any API editor on the team can use it to connect an API to GitHub Enterprise Server or GitLab Self-Managed. To connect an API using an installed app, do the following:
+After you [create an installed app](#creating-an-installed-app), any API editor on the team can use it to connect an API to GitHub Enterprise Server or GitLab Self-Managed.
+
+To connect an API using an installed app, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect repository**, select **Connect** and select **GitHub Enterprise Server** or **GitLab Self-Managed**.
