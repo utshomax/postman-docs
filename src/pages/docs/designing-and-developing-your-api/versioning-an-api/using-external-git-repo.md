@@ -89,9 +89,9 @@ You can connect to a GitHub, Bitbucket, GitLab, or Azure DevOps repository hoste
 
 1. Select **Connect Repository**.
 
-<img alt="Connecting to a cloud-hosted repo" src="https://assets.postman.com/postman-docs/v10/api-builder-remote-repo-v10-12.jpg" width ="562px"/>
-
 > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](#managing-connected-accounts-for-remote-repositories).
+
+<img alt="Connecting to a cloud-hosted repo" src="https://assets.postman.com/postman-docs/v10/api-builder-remote-repo-v10-12.jpg" width ="562px"/>
 
 ## Connecting to an on-premises repository
 
@@ -183,7 +183,7 @@ To manage services you've authorized with, select the settings icon <img alt="Se
 
 You can connect more than one API in Postman to the same Git repository. For each API, follow the steps in [Connecting to a repository](#connecting-to-a-repository) to set up the Git integration.
 
-It's important to make sure your APIs remain separated in the repository, to avoid changes from one API getting applied to another API. You can separate your APIs in the repository using either folders or branches.
+It's important to make sure your APIs remain separated in the repository to avoid changes from one API getting applied to another API. You can separate your APIs in the repository using either folders or branches.
 
 ### Separating APIs with folders
 
