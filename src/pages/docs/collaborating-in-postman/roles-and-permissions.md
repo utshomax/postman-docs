@@ -55,14 +55,15 @@ With the [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team
 
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to team members, based on the functions those team members require:
 
-* **Super Admin** - Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, API Network Manager, Developer, Monitor Editor, and Monitor Viewer roles can perform ([Enterprise plans only](https://www.postman.com/pricing)).
+* **Super Admin** ([Enterprise plans only](https://www.postman.com/pricing)) - Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, API Network Manager, API Governance Manager, Developer, Monitor Editor, and Monitor Viewer roles can perform.
 * **Admin** - Manages team members and team settings. Can also view monitor metadata and run, pause, and resume monitors.
 * **Billing** - Manages team plan and payments. Billing roles can be granted by a Super Admin, Team Admin, or by a fellow team member with a Billing role.
 * **Developer** - Has access to all team resources and workspaces.
-* **Community Manager** - Manages the public visibility of workspaces and team profile ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
-* **API Network Manager** - Manages a team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/), including adding APIs and reviewing requests to add APIs. A Super Admin or another team member with the API Network Manager role can grant this role to a user ([Enterprise plans only](https://www.postman.com/pricing)).
+* **Community Manager** ([Professional and Enterprise plans only](https://www.postman.com/pricing)) - Manages the public visibility of workspaces and team profile .
+* **API Network Manager** ([Enterprise plans only](https://www.postman.com/pricing)) - Manages a team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/), including adding APIs and reviewing requests to add APIs. A Super Admin or another team member with the API Network Manager role can grant this role to a user.
 * **Partner Manager** (Internal, [Enterprise plans only](https://www.postman.com/pricing)) - Manages all [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners. To learn more, see [Partner roles](#partner-roles).
 * **Partner** (External, [Enterprise plans only](https://www.postman.com/pricing)) - All partners are automatically granted the Partner role at the team level. Partners can only access the [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) they've been invited to. To learn more, see [Partner roles](#partner-roles).
+* **API Governance Manager** ([Enterprise plans only](https://www.postman.com/pricing)) - Manages API governance within a team.
 
 > If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), you can also assign roles at the [group level](/docs/administration/managing-your-team/user-groups/).
 
@@ -85,7 +86,7 @@ Team roles offer high-level access control:
 | Change visibility of workspaces to team or public | &#x2714; | | | &#x2714;&ast; | &#x2714; |
 | Approve requests to change workspace visibility&ast;&ast; | &#x2714; | | | | &#x2714; |
 | Enable public team profile | &#x2714; | &#x2714; | | | &#x2714; |
-| Manage a team's Private API Network&ast;&ast;&ast; | | | | | | &#x2714; |
+| Manage a team's Private API Network&ast;&ast;&ast; | &#x2714; | | | | | &#x2714; |
 
 &ast; On Postman Basic and Free plans, any developer can change visibility of workspaces.
 
