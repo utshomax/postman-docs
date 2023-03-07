@@ -56,7 +56,7 @@ You can add a new installed app from [Team Settings](https://go.postman.co/setti
 
 The new installed app appears on the Installed Apps page in [Team Settings](https://go.postman.co/settings/team/general).
 
-<img alt="Adding an installed app from Team Settings" src="https://assets.postman.com/postman-docs/installed-apps-add-from-settings-v9-24.jpg">
+<img alt="Adding an installed app from Team Settings" src="https://assets.postman.com/postman-docs/v10/installed-apps-adding-v10-12.jpg">
 
 ### Adding an installed app when adding an integration
 
@@ -86,7 +86,7 @@ To delete an installed app, select the delete icon <img alt="Delete icon" src="h
 
 > **Use caution when deleting an installed app.** If you delete an installed app, any integrations created using the installed app will stop working. You must [re-authenticate the affected integrations](#re-authenticating-an-integration) for them to continue working.
 
-<img alt="Managing installed apps" src="https://assets.postman.com/postman-docs/installed-apps-manage-v9-24.jpg">
+<img alt="Managing installed apps" src="https://assets.postman.com/postman-docs/v10/installed-apps-managing-v10-12.jpg">
 
 ## Adding integrations using installed apps
 

@@ -89,7 +89,7 @@ You can connect to a GitHub, Bitbucket, GitLab, or Azure DevOps repository hoste
 
 1. Select **Connect Repository**.
 
-<img alt="Connecting to a cloud-hosted repo" src="https://assets.postman.com/postman-docs/v10/api-builder-remote-repo-v10.jpg" width ="562px"/>
+<img alt="Connecting to a cloud-hosted repo" src="https://assets.postman.com/postman-docs/v10/api-builder-remote-repo-v10-12.jpg" width ="562px"/>
 
 > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](#managing-connected-accounts-for-remote-repositories).
 
@@ -124,6 +124,8 @@ To connect to a repository hosted in GitHub Enterprise Server or GitLab Self-Man
 1. After registering the OAuth app, copy the app's **Client ID** and **Client secret** and enter them in Postman.
 1. Select **Save** to finish creating the installed app.
 
+<img alt="Creating an installed app" src="https://assets.postman.com/postman-docs/v10/api-builder-add-installed-app-v10-12.jpg" width ="572px"/>
+
 #### Connecting an API using an installed app
 
 After you [create an installed app](#creating-an-installed-app), any API editor on the team can use it to connect an API to GitHub Enterprise Server or GitLab Self-Managed. To connect an API using an installed app, do the following:
@@ -131,6 +133,9 @@ After you [create an installed app](#creating-an-installed-app), any API editor 
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect repository**, select **Connect** and select **GitHub Enterprise Server** or **GitLab Self-Managed**.
 1. Select the authorized domain of your repository and select **Authenticate**.
+
+    <img alt="Using an installed app" src="https://assets.postman.com/postman-docs/v10/api-builder-use-installed-app-v10-12.jpg" width ="556px"/>
+
 1. A browser tab opens asking you to sign in to your repository. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
 1. For GitHub, enter the **Organization** and the **Repository** where the API will be stored. For GitLab, enter the **Group** and **Project** for your API.
 1. Select the **Initial branch** for the API. Any changes you make in Postman are stored in the initial active branch. (You can switch to another branch to make it the active branch at any time.)
@@ -151,6 +156,9 @@ To connect an API to a repository hosted in Azure DevOps Server, use a personal 
 1. Enter the **Domain URL** of your repository. You can enter a new domain or select a domain you've used before from the list. Use the name and port of your Git server along with the collection, for example: `https://my-azure-server:8080/my-collection`
 1. Enter a **Personal access token** to access the repository. Ensure that the token has the required permissions as specified on the **Connect your repository** page.
 1. Select **Next**.
+
+    <img alt="Using a personal access token" src="https://assets.postman.com/postman-docs/v10/api-builder-use-access-token-v10-12.jpg" width ="564px"/>
+
 1. Enter the **Organization** and the **Repository** where the API will be stored.
 1. Select the **Initial branch** for the API. Any changes you make in Postman are stored in the initial active branch. (You can switch to another branch to make it the active branch at any time.)
 1. Select an **API schema directory** and **Collection directory** where API definitions and collections will be stored in the repository. Keep in mind the following:
