@@ -1,6 +1,6 @@
 ---
 title: "Configuring API Governance rules"
-updated: 2022-09-15
+updated: 2023-03-06
 search_keyword: "api governance, schema validation, api schema vulnerabilities"
 ---
 
