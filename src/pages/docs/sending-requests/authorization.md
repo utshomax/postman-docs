@@ -339,7 +339,7 @@ If authentication fails or times out, Postman will display an error message. You
 
 Before an OAuth 2.0 token generated in Postman expires, Postman automatically refreshes it in the background before you send a request that uses it. The refreshed access token is updated in any requests that it's used in. Auto-refreshing is the default behavior.
 
-To turn this feature off or on, select **Auto-refresh access token**. To manually refresh a token, select **Refresh** next to the token expiration time.
+To turn this feature off or on, select **Auto-refresh access token**. To manually refresh a token, select **Refresh**. The token's expiration time displays if the token expires within the next day.
 
 Auto-refresh is available when a refresh token is present. If no refresh token is present, the **Auto-refresh access token** toggle and the manual **Refresh** option aren't available. To check if a refresh token is present, select **Manage Tokens** in the **Token** dropdown list. To be present, a refresh token must be sent back by the service you are using. Postman doesn't provide refresh tokens.
 
