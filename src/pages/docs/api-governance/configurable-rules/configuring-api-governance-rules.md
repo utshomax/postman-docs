@@ -28,11 +28,11 @@ Super Admins and API Governance Managers are able to configure rules and turn th
 
 ## Adding rules to your API Governance configuration
 
-In addition to the rules turned on by default in Postman, you can add other rules to your API Governance configuration from the Postman library. You can also create your own custom rules.
+In addition to the rules turned on by default in Postman, you can add other rules to your API Governance configuration from the rule library. You can also create your own custom rules.
 
 ### Importing rules from the rule library
 
-The rule library contains Postman's API Governance Guidelines, Stoplight's Style Guide, and Zalando's RESTful API and Event Guidelines. You can select **View all** below a set of guidelines to view all of the rules available to your team. Details and API format requirements are available under the rule name. Select **Import** next to a rule to import it. To import all rules for a particular set of guidelines, select **Import All**.
+The rule library contains Postman's API governance guidelines, Stoplight's style guide, and Zalando's RESTful API and event guidelines. You can select **View all** below a set of guidelines to view all of the rules available to your team. Details and API format requirements are available under the rule name. Select **Import** next to a rule to import it. To import all rules for a particular set of guidelines, select **Import All**.
 
 <img alt="Import API Governance rule from Postman library" src="https://assets.postman.com/postman-docs/import-rule-from-rule-library-10.12.0.jpg"/>
 
@@ -58,19 +58,16 @@ You can also select **Upload file(s)** to upload a new rule in valid YAML or JSO
 
 ## Turning configured rules on and off
 
-> Only Team Admins with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can turn configured API Governance rules on and off.
+You can turn individual governance rules on or off for various workspaces to meet your team's development needs. To do so, select **Workspace Groups**. You can create a new group of workspaces to apply individual governance rules to by selecting **Create Group**, or you can select an existing group to update its governance configuration. To apply individual governance rules to all workspaces, select the default **All workspaces** group.
 
-Your team can turn individual governance rules on or off to meet your development needs:
+Select **Edit**. To turn a governance rule on for the workspace group, select the checkbox next to the rule name. To turn a governance rule off for the workspace group, clear the checkbox next to the rule name.
 
-* To turn a governance rule on, select the toggle next to the rule name. You and your team members will see violations for this rule in your API's definition.
-* To turn a governance rule off, select the toggle next to the rule name. You and your team members won't see violations for this rule in your API's definition.
+<img alt="Turn individual rules on and off" src="https://assets.postman.com/postman-docs/api-governance-turn-rules-on-off-10.12.0.jpg"/>
 
-<img alt="Turn individual rules on and off" src="https://assets.postman.com/postman-docs/v10/api-governance-configuration-turn-rules-off-v10.jpg" width="800px"/>
+Once you've made the desired changes, select **Review Changes**, then **Apply Changes** to save them. Your team will only see violations in your API's definition for the governance rules that have been explicitly applied to the workspace it resides in.
 
 ## Removing rules from your API Governance configuration
 
-> You must be a Team Admin with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to delete a custom governance rule.
+To remove an API Governance rule, locate the rule in your team's rule library and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to its name. You can later choose to [re-import it from the rule library](#importing-rules-from-the-rule-library).
 
-To remove an API Governance rule, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to its name. You can re-import from the rule library by selecting **Import from library**.
-
-If you remove a custom rule using the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">, you'll need to add it back into Postman using **Create New Rule** if you want to use it again.
+If you remove a custom rule using the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">, you'll need to add it back into Postman using [**Create Rule**](#adding-custom-rules) if you want to use it again.
