@@ -68,22 +68,35 @@ Postman can import and export Postman data, including collections, environments,
 
 ## Importing data into Postman
 
-You can import collections or your API specifications directly into Postman.
+You can import cURL commands, collections, API specifications, and data files directly into Postman.
 
-To import your data into Postman, select **Import** in upper left:
+To import your data into Postman, select **Import** in the upper left:
 
-![Import data into Postman](https://assets.postman.com/postman-docs/v10/import-export-import-ui-v10-2.jpg)
+![Import data into Postman](https://assets.postman.com/postman-docs/v10/import-export-import-ui-v10-3.jpg)
 
-You can import your data from files, folders, links, raw text, or code repositories.
+You can paste a cURL command into the input field, and import your data from files, folders, links, raw text, and code repositories.
+
+### Pasting a cURL command into the input field
+
+You can paste a cURL command directly into the input field at the top of the **Import** modal.
+
+1. Select **Import** in the left navigation menu. The **Import** modal opens.
+1. Paste your cURL command into the input field at the top. Postman creates and opens a request automatically.
+
+    > You can also paste cURL commands into a request's URL field.
 
 ### Importing Postman data
 
 You can import Postman data you exported earlier, including collections, environments, data dumps, and globals.
 
 1. Select **Import** in the left navigation menu.
-1. Select your file or folder, input your link, paste your raw text, or [import from GitHub](#importing-from-github-repositories). Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as.
+1. Do one of the following:
+    * Select or drag and drop your file or folder.
+    * Paste your raw text or URL into the input field.
+    * Import from a [GitHub](#importing-from-github-repositories), [Bitbucket](#importing-from-bitbucket-repositories), or [GitLab](#importing-from-gitlab-repositories) code repository.
+    Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as.
    ![Import collection and environment](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
-1. Select the files you want to import.
+1. If you are importing a folder with multiple files, select the files you want to import.
 1. Select **Import** to bring your data into Postman.
 
 ### Converting Postman collections from v1 to v2
