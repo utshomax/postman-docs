@@ -153,6 +153,8 @@ When domain capture is enabled, new Postman users who sign up for Postman with y
 
 Existing Postman users with accounts associated with the domain or subdomain will only be able to access Postman after joining your team. This applies to existing users who are part of other teams and existing individual users. The next time existing users sign in to Postman, they will get a notification that your team manages their account. Existing users can join the team using this notification.
 
+<img alt="Domain capture join team notification" src="https://assets.postman.com/postman-docs/domain-capture-join-team-9.4.jpg" width="350px"/>
+
 > You won't be able to selectively pick users you'd like to add to your team. Once enabled, the number of unclaimed accounts will reduce as these users sign in and join your team.
 
 Existing users who were on other Postman teams will lose access to all data from their earlier teams, including personal workspaces. No data will be transferred from their earlier teams to their new team. Users won't be able to remain on or join extra Postman teams with their captured accounts.
