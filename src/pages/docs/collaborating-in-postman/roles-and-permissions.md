@@ -59,7 +59,7 @@ You can [assign](/docs/administration/managing-your-team/managing-your-team/) on
 * **Admin** - Manages team members and team settings. Can also view monitor metadata and run, pause, and resume monitors.
 * **Billing** - Manages team plan and payments. Billing roles can be granted by a Super Admin, Team Admin, or by a fellow team member with a Billing role.
 * **Developer** - Has access to all team resources and workspaces.
-* **Community Manager** ([Professional and Enterprise plans only](https://www.postman.com/pricing)) - Manages the public visibility of workspaces and team profile .
+* **Community Manager** ([Professional and Enterprise plans only](https://www.postman.com/pricing)) - Manages the public visibility of workspaces and team profile.
 * **Partner Manager** (Internal, [Enterprise plans only](https://www.postman.com/pricing)) - Manages all [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners. To learn more, see [Partner roles](#partner-roles).
 * **Partner** (External, [Enterprise plans only](https://www.postman.com/pricing)) - All partners are automatically granted the Partner role at the team level. Partners can only access the [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) they've been invited to. To learn more, see [Partner roles](#partner-roles).
 
