@@ -90,7 +90,7 @@ If you'd like to keep certain elements in other workspaces, you can [fork them i
 
 ## Inviting collaborators to a Partner Workspace
 
-Workspace Admins, Partner Managers, and Partner Leads can invite partners to Partner Workspaces. Your team can invite five partners assigned the Workspace Editor role at no extra cost. To purchase more partner licenses, contact your Postman Account Manager or [contact Postman's sales team](mailto:sales@postman.com). A paid seat is consumed when a partner is assigned the Workspace Editor role in at least one Partner Workspace. Assigning a partner the Workspace Viewer role doesn't consume paid seats.
+Workspace Admins, Partner Managers, and Partner Leads can invite partners to Partner Workspaces. Your team can invite three partners assigned the Workspace Editor role at no extra cost. To purchase more partner licenses, contact your Postman Account Manager or [contact Postman's sales team](mailto:sales@postman.com). A paid seat is consumed when a partner is assigned the Workspace Editor role in at least one Partner Workspace. Assigning a partner the Workspace Viewer role doesn't consume paid seats.
 
 > For more information on partner roles, see [Partner roles](/docs/collaborating-in-postman/roles-and-permissions/#partner-roles).
 
