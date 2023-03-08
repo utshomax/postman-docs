@@ -157,7 +157,7 @@ You can manage your saved accounts and tokens on the **Connected accounts** tab:
 * To edit a saved token, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. For example, if a token expired, you can edit it and enter a new valid token.
 * To remove a saved account or token, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">. Any integrations that use the account or token will stop working until you reauthorize them.
 
-![Connected accounts](https://assets.postman.com/postman-docs/v10/settings-connected-accounts-v10-12.jpg)
+![Connected accounts](https://assets.postman.com/postman-docs/v10/settings-connected-accounts-v10-12a.jpg)
 
 > If you don't have any connected accounts, this tab doesn't appear in the Postman settings.
 

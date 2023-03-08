@@ -44,7 +44,7 @@ contextual_links:
 
 > **[GitHub Enterprise Server, GitLab Self-Managed, and Azure DevOps Server (hosted on-premises) integrations are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-You can connect a GitHub, Bitbucket, GitLab, or Azure DevOps repository to your API to sync your API definitions and collections between Postman and the repository.
+You can connect a GitHub, Bitbucket, GitLab, or Azure DevOps repository to your API to sync your API definition and collections between Postman and the repository.
 
 After connecting, you can push and pull changes between Postman and branches in the remote repository. When it's time to release, you can publish an API version to make your changes available to consumers.
 
@@ -81,10 +81,10 @@ You can connect to a GitHub, Bitbucket, GitLab, or Azure DevOps repository hoste
 1. A browser tab opens asking you to sign in to your repository. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
 1. On the **Connect your repository** page, enter the **Organization** or **Workspace** and the **Repository** where the API will be stored. (For GitLab, enter the **Group** and **Project** for your API.)
 1. Select the **Initial branch** for the API. Any changes you make in Postman are stored in the initial active branch. (You can switch to another branch to make it the active branch at any time.)
-1. Select an **API schema directory** and **Collection directory** where API definitions and collections will be stored in the repository. Keep in mind the following:
+1. Select an **API schema directory** and **Collection directory** where the API definition and collections will be stored in the repository. Keep in mind the following:
 
     * If you leave these fields blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repository.
-    * If you select a directory that already has API definitions, you will be asked which definition to use in Postman the first time you pull changes.
+    * If you select a directory that already has an API definition, you will be asked which definition to use in Postman the first time you pull changes.
     * The collection directory can't be a parent or the child of the schema directory.
 
 1. Select **Connect Repository**.
@@ -105,7 +105,7 @@ To connect to a repository hosted in GitHub Enterprise Server or GitLab Self-Man
 
 #### Creating an installed app
 
-[Installed apps](/docs/integrations/installed-apps/) streamline the process of adding integrations by enabling all members of a team to use the same stored authorization details.
+[Installed apps](/docs/integrations/installed-apps/) streamline the process of adding integrations by enabling all members of a team to use the same stored authorization details. To create an installed app, you must have the [Team Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
 
 To create an installed app for GitHub Enterprise Server or GitLab Self-Managed, do the following:
 
@@ -143,10 +143,10 @@ To connect an API using an installed app, do the following:
 1. A browser tab opens asking you to sign in to your repository. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
 1. For GitHub, enter the **Organization** and the **Repository** where the API will be stored. For GitLab, enter the **Group** and **Project** for your API.
 1. Select the **Initial branch** for the API. Any changes you make in Postman are stored in the initial active branch. (You can switch to another branch to make it the active branch at any time.)
-1. Select an **API schema directory** and **Collection directory** where API definitions and collections will be stored in the repository. Keep in mind the following:
+1. Select an **API schema directory** and **Collection directory** where API the definition and collections will be stored in the repository. Keep in mind the following:
 
     * If you leave these fields blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repository.
-    * If you select a directory that already has API definitions, you will be asked which definition to use in Postman the first time you pull changes.
+    * If you select a directory that already has an API definition, you will be asked which definition to use in Postman the first time you pull changes.
     * The collection directory can't be a parent or the child of the schema directory.
 
 1. Select **Connect Repository**.
@@ -165,10 +165,10 @@ To connect an API to a repository hosted in Azure DevOps Server, use a personal 
 
 1. Enter the **Organization** and the **Repository** where the API will be stored.
 1. Select the **Initial branch** for the API. Any changes you make in Postman are stored in the initial active branch. (You can switch to another branch to make it the active branch at any time.)
-1. Select an **API schema directory** and **Collection directory** where API definitions and collections will be stored in the repository. Keep in mind the following:
+1. Select an **API schema directory** and **Collection directory** where the API definition and collections will be stored in the repository. Keep in mind the following:
 
     * If you leave these fields blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repository.
-    * If you select a directory that already has API definitions, you will be asked which definition to use in Postman the first time you pull changes.
+    * If you select a directory that already has an API definition, you will be asked which definition to use in Postman the first time you pull changes.
     * The collection directory can't be a parent or the child of the schema directory.
 
 1. Select **Connect Repository**.
@@ -179,7 +179,7 @@ To connect an API to a repository hosted in Azure DevOps Server, use a personal 
 
 After you connect an API to a remote repository, other editors of the API must authenticate to be able to contribute to the API. Postman will prompt editors to authenticate the next time they open the API.
 
-Postman stores the accounts you've authorized with. After connecting to one repository, you can connect to other repositories that use the same Git provider without having to re-authenticate. You can also connect to the provider's other services. For example, if you connect to a GitHub repository, you can connect to [GitHub Actions](/docs/integrations/available-integrations/ci-integrations/github-actions/) without having to authenticate again.
+Postman stores the accounts you've authorized with. After connecting to one repository, you can connect to other repositories that use the same Git provider without having to re-authenticate.<!-- You can also connect to the provider's other services. For example, if you connect to a GitHub repository, you can connect to [GitHub Actions](/docs/integrations/available-integrations/ci-integrations/github-actions/) without having to authenticate again. -->
 
 To manage services you've authorized with, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, select **Settings**, and select the **Connected accounts** tab. Learn more about [managing connected accounts](/docs/getting-started/settings/#connected-accounts).
 
