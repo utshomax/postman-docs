@@ -6,9 +6,9 @@ updated: 2022-03-14
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Deploying Postman at Enterprise Scale"
     url: "https://blog.postman.com/deploying-postman-at-enterprise-scale/"
@@ -63,7 +63,7 @@ Postman's Enterprise app is a variant of Postman’s Desktop app that offers gre
 
 You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to access the Postman Enterprise app package.
 
-To download the Postman Enterprise app, open Postman and select **Team** in the upper right, then **Team Settings** > **Enterprise Application**.
+To download the Postman Enterprise app, open Postman and select **Team** in the upper right, then **Team Settings > Enterprise Application**.
 
 <img alt="Postman Enterprise app download" src="https://assets.postman.com/postman-docs/enterprise-app-download-9.6.jpg" />
 
@@ -168,7 +168,7 @@ PKG installer packages have the following capabilities:
 * You can select between system-wide, per-user installation, or custom installation disks.
 * They don't require reboots after installation.
 * They're fully configurable for silent installation.
-* Apple Silicon is supported.
+* Apple silicon is supported.
 
 ### Installing a PKG installer package
 
@@ -208,7 +208,7 @@ pkgutil --volume / --files <the bundle id>
 pkgutil --volume "$HOME" --files <the bundle id>
 ```
 
-You can proceed to remove the PKG by deleting the files printed out by the above commands relative to `$HOME` depending on if the PKG was installed system-wide or per-user.
+You can remove the PKG by deleting the files printed out by these commands relative to `$HOME`, depending on if the PKG was installed system-wide or per user.
 
 After removal, you must notify macOS that the PKG was removed:
 

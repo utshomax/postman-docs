@@ -14,14 +14,14 @@ contextual_links:
     name: "Using variables"
     url: "/docs/sending-requests/variables/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Intro to Postman | Write API Tests"
     url: "https://youtu.be/EVg6gxeiUd0"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Continuous API testing with Postman"
     url: "https://blog.postman.com/continuous-api-testing-with-postman/"
@@ -34,15 +34,15 @@ contextual_links:
     name: "iQmetrix uses test scripts to pass data and build workflows"
     url: "https://www.postman.com/case-studies/iqmetrix/"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Test examples in Postman"
     url: "https://www.postman.com/postman/workspace/test-examples-in-postman/overview"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Command-line integration with Newman"
-    url: "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
+    url: "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
 
 warning: false
 
@@ -481,7 +481,7 @@ You may encounter the `AssertionError: expected undefined to deeply equal..` iss
 pm.expect(jsonData.name).to.eql("John");
 ```
 
-In the above example, if you get the error `AssertionError: expected undefined to deeply equal 'John'`, this indicates that the `name` property isn't defined in the `jsonData` object.
+In this example, if you get the error `AssertionError: expected undefined to deeply equal 'John'`, this indicates that the `name` property isn't defined in the `jsonData` object.
 
 ### Test not failing
 
@@ -542,7 +542,7 @@ pm.sendRequest("https://postman-echo.com/get", function (err, response) {
 
 ## Previous style of writing Postman tests (deprecated)
 
-> **This section refers to deprecated script syntax used in previous versions of Postman. If you are writing new scripts, use the syntax described above.**
+> **This section refers to deprecated script syntax used in previous versions of Postman. If you are writing new scripts, use the current syntax.**
 
 The previous style of writing Postman tests relies on setting values for the `tests` object. Set a descriptive key for an element in the object and then assert if it's true or false. For example, the following will check if the response body contains the `user_id` string:
 

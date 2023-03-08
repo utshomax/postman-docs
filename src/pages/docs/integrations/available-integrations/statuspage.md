@@ -11,7 +11,7 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -43,7 +43,7 @@ Make sure to create your Statuspage account and create a page and components bef
 
 1. On your Home page, go to **Integrations**, select **Browse All Integrations**, and select **Statuspage** in the list of third-party integrations.
 1. Select **Add Integration**.
-1. In the **Authenticate** tab, enter the Statuspage API key you copied above.
+1. In the **Authenticate** tab, enter the Statuspage API key you copied in the [Retrieving your Statuspage API Key](#retrieving-your-statuspage-api-key) section.
 
     ![Statuspage add integration](https://assets.postman.com/postman-docs/add-integration-statuspage.jpg)
 

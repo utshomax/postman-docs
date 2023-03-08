@@ -7,6 +7,14 @@ contextual_links:
   - type: link
     name: "CI Integrations"
     url: "/docs/integrations/ci-integrations/"
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "A New Postman Integration for Azure DevOps Users"
+    url: "https://blog.postman.com/postman-integration-for-azure-devops-users/"
+
 ---
 
 [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/) is a continuous integration (CI) and continuous delivery (CD) service that's integrated with Microsoft Azure DevOps. Software development teams can use Azure Pipelines to automatically build, test, and deploy code in Azure DevOps.
@@ -71,7 +79,7 @@ To view details for collections that were run as part of a build, first [configu
 
 <img alt="View Azure Pipelines collection runs" src="https://assets.postman.com/postman-docs/v10/azure-collection-runs-v10.jpg">
 
-> Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
+> Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 
 ## Viewing API Governance and API Security rule violations
 

@@ -14,7 +14,7 @@ contextual_links:
     name: "Requests"
     url: "/docs/sending-requests/requests/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -32,7 +32,7 @@ contextual_links:
     name: "Intuit uses Postman's authentication protocols"
     url: "https://www.postman.com/case-studies/intuit/"
   - type: subtitle
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Troubleshooting your Requests"
     url: "/docs/sending-requests/troubleshooting-api-requests/"
@@ -53,6 +53,7 @@ You can pass auth details along with any request you send in Postman. Auth data 
     * [No auth](#no-auth)
     * [API key](#api-key)
     * [Bearer token](#bearer-token)
+    * [JWT bearer](#jwt-bearer)
     * [Basic auth](#basic-auth)
     * [Digest auth](#digest-auth)
     * [OAuth 1.0](#oauth-10)
@@ -65,6 +66,7 @@ You can pass auth details along with any request you send in Postman. Auth data 
         * [Requesting an OAuth 2.0 token](#requesting-an-oauth-20-token)
         * [Refreshing an OAuth 2.0 token](#refreshing-an-oauth-20-token)
         * [Sharing an OAuth 2.0 token](#sharing-an-oauth-20-access-token)
+        * [Changing the OAuth 2.0 token type](#changing-the-oauth-20-token-type)
     * [Hawk authentication](#hawk-authentication)
     * [AWS Signature](#aws-signature)
     * [NTLM authentication](#ntlm-authentication)
@@ -128,6 +130,30 @@ Bearer <Your API key>
 
 > If a custom prefix is needed, use an [API Key](#api-key) with a key of __Authorization__.
 
+### JWT bearer
+
+Postman also supports generating JWT bearer tokens to authorize requests. You can enter a payload in an editor, and JWT tokens are generated and added to the request. In the request __Authorization__ tab, select __JWT Bearer__ from the __Type__ dropdown list.
+
+* **Add JWT token to** -  Select **Request Header** or **Query Param** to specify how the JWT token will be added to your request.
+* **Algorithm** - Select an algorithm to use for the JWT token. Supported algorithms include:
+
+    * **HS** - HMAC with SHA
+    * **RS** - RSA (RSASSA-PKCS1-v1_5) with SHA
+    * **ES** - ECDSA with SHA
+    * **PS** - RSA (RSASSA-PSS) with SHA
+
+* **Secret** - The secret that’s used with the HMAC-SHA algorithm.
+* **Secret Base64 encoded** - If the secret is encoded in the base-64 format.
+* **Private key** - The private key for signing the token for RS, ES, and PS algorithms. Select **Select file** to upload a private key in PKCS #8 format.
+
+* **Payload** - Enter the payload data for your JWT token, in JSON format.
+
+In the Advanced configuration section, you can also configure the following items. If you don't configure them, they are generated automatically.
+
+* **Header prefix** - An optional prefix to use at the start of headers. This header prefix is part of the request and not a part of JWT.
+
+* **Headers** - Any custom headers you also want to send in the JWT token. Headers pertaining to the selected algorithm are automatically added.
+
 ### Basic auth
 
 Basic authentication involves sending a verified username and password with your request. In the request __Authorization__ tab, select __Basic Auth__ from the __Type__ dropdown list.
@@ -142,7 +168,7 @@ Basic <Base64 encoded username and password>
 
 ### Digest auth
 
-With Digest auth, the client sends a first request to the API, and the server responds with a few details, including a number that can be used only once (a _nonce_), a realm value, and a `401` unauthorized response. You then send back an encrypted array of data including a username and password combined with the data received from the server in the first request. The server uses the passed data to generate an encrypted string and compares it against what you sent in order to authenticate your request.
+With Digest auth, the client sends a first request to the API, and the server responds with a few details, including a number that can be used only once (a _nonce_), a realm value, and a `401` unauthorized response. You then send back an encrypted array of data including a username and password combined with the data received from the server in the first request. The server uses the passed data to generate an encrypted string and compares it against what you sent to authenticate your request.
 
 In the __Authorization__ tab for a request, select __Digest Auth__ from the __Type__ dropdown list. Postman will present fields for both stages of authentication request. It will autocomplete the fields for the second request in the **Advanced** section using data returned from the server by the first request. To enable Postman to automate the flow, enter __Username__ and __Password__ values (or variables) and these will be sent with the second request.
 
@@ -234,7 +260,7 @@ To use OAuth 2.0, do the following:
 
    > Once you have a token value generated and added, it will appear in the request __Headers__.
 
-1. Enter the details for your client application, and any auth details from the service provider. This allows you to replicate your application auth flow inside Postman in order to test authenticated requests.
+1. Enter the details for your client application, and any auth details from the service provider. This allows you to replicate your application auth flow inside Postman to test authenticated requests.
 
    > You can share token credentials with your team by selecting the sync token icon <img alt="Syncing icon" src="https://assets.postman.com/postman-docs/icon-syncing-v9.jpg#icon" width="16px"> next to an available token. By default Postman won't sync your token in case you don't want to share it.
 
@@ -319,6 +345,8 @@ To turn this feature off or on, select **Auto-refresh access token**.
 
 To manually refresh a token, select **Refresh** next to the token expiration time.
 
+> Auto-refresh is only available when manually sending the request, and not for scheduled runs or monitors on the same collection.
+
 #### Sharing an OAuth 2.0 access token
 
 To enable other Postman users to view and use an OAuth 2.0 access token, select **Share access token**.
@@ -331,6 +359,14 @@ To revoke other users' access to a synced token, do the following:
 1. Select **Remove Synced Token**.
 
 After you revoke access, other users with access to the request won't be able to see or use the token.
+
+#### Changing the OAuth 2.0 token type
+
+Postman supports using access tokens or ID tokens for OAuth 2.0 authorization. An _access token_ enables an OAuth client to make calls to an API. An _ID token_ contains information about the authenticated user. This information can be used by an OAuth client to customize their experience.
+
+If an ID token is present, you can select the token type (**Access token** or **ID token**) in the **Use Token Type** dropdown list. (If no ID token is present, this dropdown list isn't available.)
+
+<img alt="Change the OAuth 2.0 token type" src="https://assets.postman.com/postman-docs/v10/authorization-oauth2-token-type-v10.jpg" width="500px"/>
 
 ### Hawk authentication
 
@@ -393,7 +429,7 @@ To use NTLM authentication, do the following:
 
 1. In the __Authorization__ tab for a request, select __NTLM Authentication__ from the __Type__ dropdown list.
 
-1. Enter your __Username__ and __Password__ for NTLM access (use variables to avoid entering the values directly). You can optionally specify advanced parameters, but Postman will try to autocomplete these if necessary. By default your request will run a second time after extracting data received from the first. You can turn off this behavior by checking the checkbox.
+1. Enter your __Username__ and __Password__ for NTLM access (use variables to avoid entering the values directly). You can optionally specify advanced parameters, but Postman will try to autocomplete these if necessary. By default your request will run a second time after extracting data received from the first. You can turn off this behavior by selecting the checkbox.
 
 Advanced parameters for NTLM auth are as follows:
 

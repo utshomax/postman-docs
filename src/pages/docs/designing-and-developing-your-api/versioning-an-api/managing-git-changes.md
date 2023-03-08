@@ -8,18 +8,20 @@ contextual_links:
     name: "API version control overview"
     url: "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Git Workflows in Postman | The Exploratory"
     url: "https://youtu.be/cB7mCuYeuAU"
+  - type: link
+    name: "API Versioning in Postman using Bitbucket"
+    url: "https://youtu.be/SO_88TQ2dkE"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Better Practices for Git Version Control in Postman"
     url: "https://blog.postman.com/better-practices-for-git-version-control-in-postman/"
-  - type: section
 ---
 
 After you connect to a remote Git repository, you can use Postman to make changes to your API and collaborate with others. Any changes you make to your API's definition or collections always happen on a branch. You can work on any branch in your repository.

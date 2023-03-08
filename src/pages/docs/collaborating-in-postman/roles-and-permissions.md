@@ -11,7 +11,7 @@ contextual_links:
     name: "Working with your team"
     url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -21,7 +21,7 @@ contextual_links:
     name: "Working With Your Team in Postman | The Exploratory"
     url: "https://youtu.be/5lscUV-Exac"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Manage large teams in Postman with workspaces, permissions & more"
     url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"
@@ -31,7 +31,7 @@ contextual_links:
 
 ---
 
-> Certain team options are only available on **[Postman Basic, Professional, and Enterprise plans](https://www.postman.com/pricing)**. To learn which roles are available on your plan, go to your **[web dashboard](https://go.postman.co/settings/team/roles)**.
+> Certain team options are only available on **[Postman paid plans](https://www.postman.com/pricing)**. To learn which roles are available on your plan, go to your **[web dashboard](https://go.postman.co/settings/team/roles)**.
 
 Roles define user permissions within a Postman team and a user's level of access to a Postman element, like a collection or an API.
 
@@ -104,8 +104,8 @@ To learn how to manage team roles in Postman, see [Managing your team](/docs/adm
 You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) three role types in Postman workspaces: **Admin**, **Editor**, and **Viewer**. Partner Workspaces offer an additional role type: **Partner Lead**.
 
 * **Admin** - Can manage workspace resources and settings.
-* **Editor** ([Paid plans only](https://www.postman.com/pricing)) - Can create and edit workspace resources.
-* **Viewer** ([Paid plans only](https://www.postman.com/pricing)) - Can view, fork, and export workspace resources.
+* **Editor** ([Professional and Enterprise plans only](https://www.postman.com/pricing)) - Can create and edit workspace resources.
+* **Viewer** ([Professional and Enterprise plans only](https://www.postman.com/pricing)) - Can view, fork, and export workspace resources.
 * **Partner Lead** (External, [Enterprise plans only](https://www.postman.com/pricing)) - Can invite other partners from their organization to join a [Partner Workspace](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/). To learn more, see [Partner roles](#partner-roles).
 
 The following roles control access at a workspace level:
@@ -165,7 +165,8 @@ The following roles control access at an API level:
 | Edit and delete APIs |  &#x2714;     |     |
 | Manage roles on APIs  |  &#x2714;   |   |
 | Share APIs  |   &#x2714;   | &#x2714;   |
-| Comment on APIs |   &#x2714;   | &#x2714;   |
+| Comment on APIs |   &#x2714;   |    |
+| Comment on published API versions |   &#x2714;   | &#x2714;   |
 | Create new API versions |  &#x2714;   |    |
 | Update schema |  &#x2714;   |    |
 | Generate collections from the schema |   &#x2714;  |    |

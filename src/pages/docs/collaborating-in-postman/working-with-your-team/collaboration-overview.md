@@ -6,7 +6,7 @@ page_id: "collaboration_overview"
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -16,7 +16,7 @@ contextual_links:
     name: "Postman Intergalactic | Working with Your Team in Postman"
     url: "https://youtu.be/OifhKJCd_-M"
   - type: dynamic_blog
-    name: "Blog Posts"
+    name: "Blog posts"
     blog_tag: "collaboration"
 
 ---
@@ -51,7 +51,7 @@ The first time you create a team, do the following:
 
 If you're a member of two or more teams, you can create additional teams. To create a new team, do the following:
 
-1. Select your avatar in the upper-right corner > **+ Create Team**.
+1. Select your avatar in the Postman header, then select **+ Create Team**.
 1. Follow the team creation steps in this section.
 
 [Postman Free](https://www.postman.com/pricing/) lets teams of up to three work together at no cost. If you want to collaborate with more team members, features, and increased usage limits, you can [upgrade](/docs/administration/billing/#changing-your-plan) to a Basic, Professional, or Enterprise plan. To do so, select **Upgrade** in the upper-right corner.
@@ -79,7 +79,7 @@ If you're an individual Postman user and join a team, you can choose to transfer
 * If the team has [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) enabled.
 * If the team has [domain capture](/docs/administration/managing-your-team/configuring-domain-capture/) enabled.
 
-When you leave a team, your personal workspaces within the team and their data will remain with the team and no longer be accessible to you.
+When you leave a team, your personal workspaces within the team and their data will remain with the team and no longer be accessible to you. (Personal workspaces in a team refers to workspace visibility and not data ownership.)
 
 ### Switching between teams
 

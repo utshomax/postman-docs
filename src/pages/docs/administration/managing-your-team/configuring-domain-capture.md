@@ -6,9 +6,9 @@ warning: false
 updated: 2022-03-02
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing Domain Capture: Group Your Organization’s Postman Users into a Single Team"
     url: "https://blog.postman.com/introducing-domain-capture/"
@@ -36,7 +36,7 @@ Domain capture allows you to identify and manage all user accounts in Postman th
 You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable domain capture for your team. In addition, domain capture requires the following:
 
 * Your team must be on the [Postman Enterprise](https://www.postman.com/pricing) plan.
-* Your team must be on [Postman version 9](/docs/administration/updating/).
+* Your team must be on [Postman version 9 or later](/docs/administration/updating/).
 * [SSO](/docs/administration/sso/admin-sso/) must be configured and enabled.
     * Alternative authentication methods (Postman or Google sign in) must be deactivated.
 
@@ -44,7 +44,7 @@ It's recommended that you enable [SSO provisioning](/docs/administration/scim-pr
 
 ## Enabling domain capture
 
-To enable domain capture, open Postman and select **Team** > **Team Settings** in the upper-right. Select **Authentication** in the left sidebar.
+To enable domain capture, open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
 
 Confirm that your team has only the SSO authentication method enabled. Then, select the **Domains** tab.
 
@@ -90,7 +90,7 @@ With domain capture enabled, any new users that sign up for Postman with your do
 
 When domain capture is enabled, Postman users with accounts associated with the domain or subdomain will only be able to access Postman after joining your Postman team. This applies to existing users who are a part of other Postman teams, existing individual Postman users, and new users who sign up for Postman.
 
-The next time existing users sign in to Postman, they will get a notification that their account is now managed by your team.
+The next time existing users sign in to Postman, they will get a notification that your team manages their account.
 
 <img alt="Domain capture join team notification" src="https://assets.postman.com/postman-docs/domain-capture-join-team-9.4.jpg" width="350px"/>
 

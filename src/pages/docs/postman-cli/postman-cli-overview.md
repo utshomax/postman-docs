@@ -6,9 +6,9 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Using the Collection Runner"
-    url: "/docs/running-collections/intro-to-collection-runs/"
+    url: "/docs/collections/running-collections/intro-to-collection-runs/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -18,12 +18,12 @@ contextual_links:
     name: "View Postman CLI Runs in Postman | Postman Level Up"
     url: "https://youtu.be/YTzlLLtsJls"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing the New Postman CLI to Automate Your API Testing"
     url: "https://blog.postman.com/introducing-the-postman-cli-to-automate-your-api-testing/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Installing the Postman CLI"
     url: "/docs/postman-cli/postman-cli-installation/"
@@ -34,7 +34,7 @@ The Postman CLI is a secure command-line companion for Postman. It is secured an
 
 * Run a collection with its collection ID or path.
 * Send run results to Postman by default.
-* Supports log in and log out.
+* Supports sign in and sign out.
 * Check API definitions against configured API Governance and API Security rules
 
 ## Contents
@@ -56,7 +56,7 @@ The table below shows some high-level differences between the Postman CLI and Ne
 | Distributed as a downloadable package | Distributed on npm |
 | Downloadable programmatically | Downloadable programmatically
 | Not available as a library | Available as a library
-| Supports log in and log out | Doesn't support log in and log out |
+| Supports sign in and sign out | Doesn't support sign in and sign out |
 | Checks API definition against configured API Governance and API Security rules | Doesn't check API definition against configured API Governance and API Security rules |
 
 ## Deciding which command-line companion to use
