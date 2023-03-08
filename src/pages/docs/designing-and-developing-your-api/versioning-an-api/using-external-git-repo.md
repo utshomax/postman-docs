@@ -213,7 +213,7 @@ You can keep your APIs separate by using a different branch for each API in the 
     * `/postman/schemas` - Schemas for the `notifications-v2` API
     * `/postman/collections` - Collections for the `notifications-v2` API
 
-You must use a unique branch + folder combination for each API you [connect to the repository](#connecting-to-a-repository). For example, if you connect one API to the `/postman/schemas` folder on the `notifications-v1` branch, you can't connect another API to the same folder on the same branch. You must use a different branch or a different schema folder.
+You must use a unique combination of branch and folder for each API you [connect to the repository](#connecting-to-a-repository). For example, if you connect one API to the `/postman/schemas` folder on the `notifications-v1` branch, you can't connect another API to the same folder on the same branch. You must use a different branch or a different schema folder.
 
 > As you work on your APIs, you can switch branches and push or pull changes for any branch. To keep your APIs separate, always make sure you are on the correct branch before pushing or pulling changes.
 
