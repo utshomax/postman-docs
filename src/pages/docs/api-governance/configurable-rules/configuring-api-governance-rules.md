@@ -8,7 +8,7 @@ search_keyword: "api governance, schema validation, api schema vulnerabilities"
 
 You can customize the API Governance rules that Postman applies to your [API definitions](/docs/api-governance/api-definition/api-definition-warnings/). Adhering to these API Governance rules at the start of the API lifecycle keeps your API consistent without requiring extra work at later stages. This can prevent unnecessary delays for your organization.
 
-[Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and [API Governance Managers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) are able to configure rules and turn them on and off for workspaces within your team. If your team has not assigned an API Governance Manager, Admins will also be able to manage your team's governance configuration. Once the API Governance Manager role has been assigned, Admins will only have view access to the API Governance dashboard.
+[Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and [API Governance Managers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can configure rules and turn them on and off for workspaces within your team. If your team has not assigned an API Governance Manager, Admins will also be able to manage your team's governance configuration. Once the API Governance Manager role has been assigned, Admins will only have view access to the API Governance dashboard.
 
 <img alt="API governance dashboard" src="https://assets.postman.com/postman-docs/api-governance-dashboard-10.12.0.jpg"/>
 
@@ -32,7 +32,9 @@ In addition to the rules turned on by default in Postman, you can add other rule
 
 ### Importing rules from the rule library
 
-The rule library contains Postman's API governance guidelines, Stoplight's style guide, and Zalando's RESTful API and event guidelines. You can select **View all** below a set of guidelines to view all of the rules available to your team. Details and API format requirements are available under the rule name. Select **Import** next to a rule to import it. To import all rules for a particular set of guidelines, select **Import All**.
+The rule library contains Postman's API governance guidelines, Stoplight's style guide, and Zalando's RESTful API and event guidelines. Navigate to the [governance dashboard](#accessing-the-configurable-api-governance-rules), then select **Import** to open the rule library.
+
+You can select **View all** below a set of guidelines to view all of the rules available to your team. Details and API format requirements are available under the rule name. Select **Import** next to a rule to import it. To import all rules for a particular set of guidelines, select **Import All**.
 
 <img alt="Import API Governance rule from Postman library" src="https://assets.postman.com/postman-docs/import-rule-from-rule-library-10.12.0.jpg"/>
 
@@ -60,7 +62,7 @@ You can also select **Upload file(s)** to upload a new rule in valid YAML or JSO
 
 You can turn individual governance rules on or off for various workspaces to meet your team's development needs. To do so, select **Workspace Groups**. You can create a new group of workspaces to apply individual governance rules to by selecting **Create Group**, or you can select an existing group to update its governance configuration. To apply individual governance rules to all workspaces, select the default **All workspaces** group.
 
-Select **Edit**. To turn a governance rule on for the workspace group, select the checkbox next to the rule name. To turn a governance rule off for the workspace group, clear the checkbox next to the rule name.
+To turn a governance rule on or off for a workspace group, select an existing group, and then select **Edit**. To turn a governance rule on, select the checkbox next to the rule name. To turn a governance rule off, clear the checkbox next to the rule name.
 
 <img alt="Turn individual rules on and off" src="https://assets.postman.com/postman-docs/api-governance-turn-rules-on-off-10.12.0.jpg"/>
 
