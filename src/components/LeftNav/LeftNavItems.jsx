@@ -973,8 +973,8 @@ export const leftNavItems = [
         url: '/docs/administration/audit-logs/',
       },
       {
-        name: 'Token scanner',
-        url: '/docs/administration/token-scanner/',
+        name: 'Secret scanner',
+        url: '/docs/administration/secret-scanner/',
       },
       {
         name: 'Onboarding checklist',

@@ -1,5 +1,5 @@
 ---
-title: "Token scanner"
+title: "Secret scanner"
 order: 115
 page_id: "token-scanner"
 updated: 2022-11-30
