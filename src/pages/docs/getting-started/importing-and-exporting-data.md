@@ -96,9 +96,10 @@ You can import Postman data you exported earlier, including collections, environ
     * Import from a [GitHub](#importing-from-github-repositories), [Bitbucket](#importing-from-bitbucket-repositories), or [GitLab](#importing-from-gitlab-repositories) code repository.
     * Select **Other Sources** to import an Azure code repository, or to [import an API from Amazon API Gateway or Azure API Management](/docs/designing-and-developing-your-api/importing-an-api/).
     Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as.
-   ![Import collection and environment](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
-1. If you are importing multiple files, select the files you want to import.
-1. Select **Import** to bring your data into Postman.
+   ![Import collection and environment](https://assets.postman.com/postman-docs/v10/import-elements-v10.jpg)
+1. If you are importing multiple files, select the files you want to import and select **Import** to bring your data into Postman.
+
+    > If you are importing a single file, Postman automatically imports it when you select it.
 
 ### Converting Postman collections from v1 to v2
 
@@ -144,11 +145,9 @@ To import data in bulk from a GitHub repository, do the following:
 
 1. In Postman, select your GitHub organization, repository, and branch, then select **Continue**.
 
-1. Select the files you want to import into Postman. You can also select **Generate collection from imported APIs** and select what you want to link this collection as. Select **Show advanced settings** to control how Postman generates collections based on your file types, then select **Import**.
+1. Select the files you want to import into Postman, then select **Import**.
 
-   ![Confirm import from GitHub](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
-
-You will receive a confirmation once the import has completed. You can view your imported files and generated collections in Postman.
+   ![Confirm import from GitHub](https://assets.postman.com/postman-docs/v10/import-export-github-files-confirm-1-v10.jpg)
 
 ### Importing from Bitbucket repositories
 

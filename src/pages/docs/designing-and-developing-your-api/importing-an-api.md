@@ -40,9 +40,10 @@ You can import an existing API definition into your API. API definitions can be 
     > You can also import an API definition from a code repository. Learn more about [importing and exporting](/docs/getting-started/importing-and-exporting-data/).
 
 1. Confirm the name, format, and what you would like your data to import as.
-1. Select **Import** to bring your data into Postman.
 
-    > Select **View Import Settings** for more configuration options. These options will differ depending on your API specification.
+    > Select **View Import Settings** for more configuration options. These options will vary depending on your API specification.
+
+1. Select **Import** to bring your data into Postman.
 
 ## Importing multi-file API definitions
 
