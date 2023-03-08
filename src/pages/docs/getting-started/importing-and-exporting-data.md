@@ -94,9 +94,10 @@ You can import Postman data you exported earlier, including collections, environ
     * Select or drag and drop your file or folder.
     * Paste your raw text or URL into the input field.
     * Import from a [GitHub](#importing-from-github-repositories), [Bitbucket](#importing-from-bitbucket-repositories), or [GitLab](#importing-from-gitlab-repositories) code repository.
+    * Select **Other Sources** to import an Azure code repository, or to [import an API from Amazon API Gateway or Azure API Management](/docs/designing-and-developing-your-api/importing-an-api/).
     Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as.
    ![Import collection and environment](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
-1. If you are importing a folder with multiple files, select the files you want to import.
+1. If you are importing multiple files, select the files you want to import.
 1. Select **Import** to bring your data into Postman.
 
 ### Converting Postman collections from v1 to v2
