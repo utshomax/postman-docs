@@ -96,11 +96,11 @@ class IndexPage extends React.Component {
         <div className="container">
           <SectionStyles className="row">
             <div className="col-sm-12">
-              <h2 className="mb-5">Design, Develop, and Collaborate on Your API Projects</h2>
+              <h2 className="mb-5">Design, develop, and collaborate on your API projects</h2>
               <div className="row justify-content-center">
                 <div className="col-sm-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
                   <LandingCard
-                    title="Get Started with Postman"
+                    title="Get started with Postman"
                     description="Send your first API request in Postman in just a few clicks!"
                     cta="Send a request"
                     link="/docs/getting-started/sending-the-first-request/"
@@ -109,7 +109,7 @@ class IndexPage extends React.Component {
                 </div>
                 <div className="col-sm-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
                   <LandingCard
-                    title="Send Requests"
+                    title="Send requests"
                     description="Send requests in Postman to connect to APIs you are working with."
                     link="/docs/sending-requests/requests/"
                     cta="Build API requests"
@@ -118,7 +118,7 @@ class IndexPage extends React.Component {
                 </div>
                 <div className="col-sm-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
                   <LandingCard
-                    title="API-First Development"
+                    title="API-first development"
                     description="Use the API Builder to design your API in Postman."
                     cta="Develop your API"
                     link="/docs/designing-and-developing-your-api/the-api-workflow/"
@@ -127,7 +127,7 @@ class IndexPage extends React.Component {
                 </div>
                 <div className="col-sm-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
                   <LandingCard
-                    title="Test With Postman"
+                    title="Test with Postman"
                     description="Write test scripts and build automation into your workflow."
                     link="/docs/writing-scripts/intro-to-scripts/"
                     cta="Create tests"
@@ -136,7 +136,7 @@ class IndexPage extends React.Component {
                 </div>
                 <div className="col-sm-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
                   <LandingCard
-                    title="Collaborate With Your Team"
+                    title="Collaborate with your team"
                     description="Use Postman to enhance collaboration within your team."
                     link="/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
                     cta="Start collaborating"
@@ -160,7 +160,7 @@ class IndexPage extends React.Component {
           </div>
           <SectionStyles className="row">
             <div className="col-sm-12">
-              <h2 className="mb-5">Explore Other Postman Resources</h2>
+              <h2 className="mb-5">Explore other Postman resources</h2>
               <div className="row justify-content-center">
                 <div className="col-sm-6 mb-3 mb-md-4 pr-md-5">
                   <LandingCard
@@ -191,7 +191,7 @@ class IndexPage extends React.Component {
                 </div>
                 <div className="col-sm-6 mb-3 mb-md-4 pr-md-5">
                   <LandingCard
-                    title="Postman Videos"
+                    title="Postman videos"
                     description="Learn Postman skills from our video playlists."
                     link="https://www.youtube.com/c/Postman"
                     cta="Watch videos"
@@ -228,7 +228,7 @@ class IndexPage extends React.Component {
             <div className="container">
               <div className="row">
                 <div className="col-sm-12 col-md-5 col-lg-8 align-self-center">
-                  <h2 id="upcoming-events">Upcoming Postman Events</h2>
+                  <h2 id="upcoming-events">Upcoming Postman events</h2>
                   <p>
                   <BaseLink
                     src="https://www.twitch.tv/getpostman"
@@ -276,16 +276,16 @@ class IndexPage extends React.Component {
           <SectionStyles className="row">
             <div className="col-sm-6 col-lg-3 mb-sm-4 mb-md-0 pr-md-5">
               <LandingCard
-                title="Postman Support"
+                title="Postman support"
                 description="Get help for your issue or a specific question."
-                cta="Visit Postman Support Center"
+                cta="Visit Postman support center"
                 icon="https://voyager.postman.com/icon/support-life-ring-icon-postman.svg"
                 link="https://support.postman.com/hc/en-us"
               />
             </div>
             <div className="col-sm-6 col-lg-3 mb-sm-4 mb-md-0 pr-md-5">
               <LandingCard
-                title="Bugs and Feature Requests"
+                title="Bugs and feature requests"
                 description="Check out the app support repo."
                 cta="Make a request"
                 icon="https://voyager.postman.com/icon/bug-error-icon-postman.svg"
@@ -294,7 +294,7 @@ class IndexPage extends React.Component {
             </div>
             <div className="col-sm-6 col-lg-3 mb-sm-4 mb-md-0 pr-md-5">
               <LandingCard
-                title="Postman Community"
+                title="Postman community"
                 description="Join the Postman community."
                 cta="Visit forum"
                 icon="https://voyager.postman.com/icon/community-three-people-icon-postman.svg"
@@ -303,9 +303,9 @@ class IndexPage extends React.Component {
             </div>
             <div className="col-sm-6 col-lg-3 mb-sm-4 mb-md-0">
               <LandingCard
-                title="Postman Answers"
+                title="Postman answers"
                 description="Code samples for most commonly asked questions."
-                cta="Visit Postman Answers"
+                cta="Visit Postman answers"
                 icon="https://voyager.postman.com/icon/solution-puzzle-answers-icon-postman.svg"
                 link="https://www.postman.com/postman/workspace/postman-answers/"
               />
