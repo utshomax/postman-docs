@@ -94,11 +94,11 @@ To enable update suggestions for a collection, do the following:
 
 ### Updating a collection based on the API definition
 
-When suggestions are enabled, the update collection icon <img alt="Update collection icon" src="https://assets.postman.com/postman-docs/v10/icon-update-collection-v10.jpg#icon" width="16px"> appears next to a collection if Postman detects differences between the collection and the API definition. Differences can occur if the API definition is changed, for example by adding, removing, or modifying endpoints. Differences can also occur if requests are added, removed, or modified in the collection. You can review the differences and, if you choose, update the collection with the suggested changes.
+When suggestions are enabled, the update collection icon <img alt="Update collection icon" src="https://assets.postman.com/postman-docs/v10/icon-update-collection-v10-12.jpg#icon" width="18px"> appears next to a collection if Postman detects differences between the collection and the API definition. Differences can occur if the API definition is changed, for example by adding, removing, or modifying endpoints. Differences can also occur if requests are added, removed, or modified in the collection. You can review the differences and, if you choose, update the collection with the suggested changes.
 
 To update a collection based on the API definition, do the following:
 
-1. Select the update collection icon <img alt="Update collection icon" src="https://assets.postman.com/postman-docs/v10/icon-update-collection-v10-12.jpg#icon" width="16px"> next to the collection on the API's overview.
+1. Select the update collection icon <img alt="Update collection icon" src="https://assets.postman.com/postman-docs/v10/icon-update-collection-v10-12.jpg#icon" width="18px"> next to the collection on the API's overview.
 
     <img alt="Update collection icon" src="https://assets.postman.com/postman-docs/v10/schema-sync-update-collection-v10-12.jpg" width="630px" >
 
