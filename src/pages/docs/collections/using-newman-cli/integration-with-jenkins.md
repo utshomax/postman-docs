@@ -7,7 +7,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Command-line integration with Newman"
-    url: "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
+    url: "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -35,7 +35,7 @@ tags:
 updated: 2022-01-14
 ---
 
-Postman contains a full-featured [testing sandbox](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) that enables you to write and execute JavaScript based tests for your API. You can then integrate Postman with your CI/CD build system using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), the command-line collection runner for Postman.
+Postman contains a full-featured [testing sandbox](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) that enables you to write and execute JavaScript based tests for your API. You can then integrate Postman with your CI/CD build system using [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/), the command-line collection runner for Postman.
 
 The following example shows how to set up a Jenkins build that uses Newman to run a collection. If the collection passes all tests, the Jenkins build will be marked as successful. This uses a Jenkins install running locally, but you'll typically be running it on a build server for production use.
 
@@ -117,8 +117,8 @@ In a real-world build environment, Newman will be part of your production enviro
 
 For more information about collection runs, see:
 
-* [Using the Collection Runner](/docs/running-collections/intro-to-collection-runs/)
-* [Working with data files](/docs/running-collections/working-with-data-files/)
-* [Building workflows](/docs/running-collections/building-workflows/)
-* [Integration with Travis CI](/docs/running-collections/using-newman-cli/integration-with-travis/)
-* [Newman with Docker](/docs/running-collections/using-newman-cli/newman-with-docker/)
+* [Using the Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/)
+* [Working with data files](/docs/collections/running-collections/working-with-data-files/)
+* [Building workflows](/docs/collections/running-collections/building-workflows/)
+* [Integration with Travis CI](/docs/collections/using-newman-cli/integration-with-travis/)
+* [Newman with Docker](/docs/collections/using-newman-cli/newman-with-docker/)
