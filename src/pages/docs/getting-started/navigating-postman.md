@@ -118,9 +118,9 @@ To see the task options that are available for elements in the sidebar, select t
 
 For collections, folders and requests inside a collection, and requests in History, you can select more than one element at a time. Press and hold **⌘** or **Ctrl**, then select the desired elements. For elements that are next to each other, press and hold **Shift**, then select the desired elements. For collections and their contents, you can also use [keyboard shortcuts](/docs/getting-started/settings/#shortcuts) for tasks like copying, pasting, and deleting.
 
-To hide the sidebar, select the hide sidebar icon <img alt="Hide sidebar icon" src="https://assets.postman.com/postman-docs/icon-hide-sidebar-v9.jpg#icon" width="18px"> from the [footer](#footer).
+To hide the sidebar, select the hide sidebar icon <img alt="Hide sidebar icon" src="https://assets.postman.com/postman-docs/icon-hide-sidebar-v9.jpg#icon" width="18px"> from the [footer](#footer) or right-click in an empty part of the sidebar and select **Collapse sidebar**.
 
-The sidebar automatically hides empty elements other than **Collections**, **Environments**, and **History**. To expand or collapse the sidebar, select the up or down arrow at the bottom of the sidebar.
+  > The sidebar automatically hides empty elements other than **Collections**, **Environments**, and **History**. You can specify which sidebar elements to show or hide in **Workspace settings**.
 
 ### History
 

@@ -108,7 +108,7 @@ The visibility setting for a workspace determines who can access it. You must be
     * **Public** - Everyone can view.
 1. Select **Update**.
 
-<img alt="Changing workspace visibility" src="https://assets.postman.com/postman-docs/v10/edit-workspace-visibility-v10.jpg" width="450px"/>
+<img alt="Changing workspace visibility" src="https://assets.postman.com/postman-docs/v10/edit-workspace-visibility-1-v10.jpg" width="450px"/>
 
 > You always have one personal workspace in Postman. If you change the visibility of all of your personal workspaces to private, team, or public, Postman creates a new personal workspace for you.
 
@@ -165,7 +165,7 @@ To change the role of people in a workspace, or to remove someone from a workspa
     * **Viewer** - Can view, fork, and export workspace resources.
     * **Remove** - Removes the person from the workspace. (You can [invite the user](#sharing-workspaces) again in the future.)
 
-<img alt="Changing workspace role" src="https://assets.postman.com/postman-docs/workspace-change-role-v9.jpg" width="720px"/>
+<img alt="Changing workspace role" src="https://assets.postman.com/postman-docs/v10/workspace-change-role-1-v10.jpg" width="720px"/>
 
 ## Watching a workspace
 
@@ -216,9 +216,9 @@ Deleting a workspace removes the workspace and all data in it from Postman. Use 
 
 1. Select **Workspaces** in the Postman header, and then select a workspace.
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
-1. Select **Delete Workspace**.
+1. At the bottom of the **Workspace Settings** screen, select **Delete Workspace**.
 
-<img alt="Delete workspace" src="https://assets.postman.com/postman-docs/delete-a-workspace-v9.jpg" width="506px"/>
+<img alt="Delete workspace" src="https://assets.postman.com/postman-docs/v10/delete-a-workspace-v10.jpg" width="506px"/>
 
 > To delete a [public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/), you must first change the [workspace visibility](#changing-workspace-visibility) to team or private.
 
