@@ -2,7 +2,7 @@
 title: "Secret scanner"
 order: 115
 page_id: "secret-scanner"
-updated: 2022-11-30
+updated: 2023-03-08
 search_keyword: "password security, secret scanning, secret, API key security"
 warning: false
 contextual_links:
