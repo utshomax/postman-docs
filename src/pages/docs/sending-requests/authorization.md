@@ -341,7 +341,7 @@ Before an OAuth 2.0 token generated in Postman expires, Postman automatically re
 
 To turn this feature off or on, select **Auto-refresh access token**. To manually refresh a token, select **Refresh**. The token's expiration time displays if the token expires within the next day.
 
-Auto-refresh is available when a refresh token is present. If no refresh token is present, the **Auto-refresh access token** toggle and the manual **Refresh** option aren't available. To check if a refresh token is present, select **Manage Tokens** in the **Token** dropdown list. To be present, a refresh token must be sent back by the service you are using. Postman doesn't provide refresh tokens.
+Auto-refresh is available when a refresh token is present. If no refresh token is present, the **Auto-refresh access token** toggle and the manual **Refresh** option aren't available. To check if a refresh token is present, select **Manage Tokens** in the **Token** dropdown list. If a refresh token is not present, check with the authorization service. Postman can't refresh the access tokens without the refresh token.
 
 <img alt="Auto-refresh an OAuth 2.0 access token" src="https://assets.postman.com/postman-docs/v10/authorization-oauth2-auto-refresh-v10.jpg" width="500px"/>
 
