@@ -32,7 +32,7 @@ warning: false
 
 ---
 
-Typically when you start a [collection run](/docs/running-collections/intro-to-collection-runs/), Postman runs all requests in the same order they appear in your collection. Requests in folders are executed first, followed by any requests in the root of the collection.
+Typically when you start a [collection run](/docs/collections/running-collections/intro-to-collection-runs/), Postman runs all requests in the same order they appear in your collection. Requests in folders are executed first, followed by any requests in the root of the collection.
 
 In the Collection Runner, you have the option to change the order of the requests before starting a run. However, instead of manually changing the request order each time you run the collection, you can automate this behavior using the `postman.setNextRequest()` function.
 
@@ -99,7 +99,7 @@ The scope of `postman.setNextRequest()` is the source of your collection run.
 * If you run an entire collection, you can set any request in the collection as the next request, even requests inside folders.
 * If you run a folder, the scope of `postman.setNextRequest()` is limited to that folder. In this case, you can set any request in the same folder as the next request, but not requests located in other folders or at the root of the collection.
 
-Learn more about [running collections or folders](/docs/running-collections/intro-to-collection-runs/).
+Learn more about [running collections or folders](/docs/collections/running-collections/intro-to-collection-runs/).
 
 ## Next steps
 
