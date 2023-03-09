@@ -1,7 +1,7 @@
 ---
 title: "Secret scanner"
 order: 115
-page_id: "token-scanner"
+page_id: "secret-scanner"
 updated: 2022-11-30
 search_keyword: "password security, secret scanning, secret, API key security"
 warning: false
@@ -25,80 +25,67 @@ contextual_links:
     url:  "https://www.postman.com/postman/workspace/62d58d93-7e0c-45bf-9daa-cc8e531fc344"
 ---
 
-The Postman Token Scanner scans your public workspaces, collections, environments, and documentation to find exposed authentication tokens. This protects your organization and prevents malicious users from exploiting the tokens.
+The Postman secret scanner scans your team's public workspaces, collections, environments, and documentation to find exposed secrets. This protects your organization and prevents malicious users from exploiting sensitive data, like authentication tokens and Zoom meeting links. This feature is available on all Postman plans and is turned on by default.
 
-> The Token Scanner is available on all Postman plans and is turned on by default.
+Secret scanning for non-public (personal, private, team, and [partner](https://learning.postman.com/docs/collaborating-in-postman/using-workspaces/partner-workspaces/)) workspaces and collections is in open beta for [Enterprise](/docs/administration/about-postman-enterprise/) teams.
 
 ## Contents
 
-* [Use cases](#use-cases)
-* [Token scanner dashboard](#token-scanner-dashboard)
+* [How secret scanner works](#how-secret-scanner-works)
+* [Secret scanner dashboard](#secret-scanner-dashboard)
 * [Supported tokens](#supported-tokens)
     * [Default alerts](#default-alerts)
     * [Custom alerts](#custom-alerts)
 * [Protecting Postman API keys in GitHub](#protecting-postman-api-keys-in-github)
 
-## Use cases
+## How secret scanner works
 
-A scan starts whenever team members do any of the following actions:
+Postman's secret scanner follows all updates made by team members and scans them for [supported tokens](#supported-tokens). For example, a scan starts whenever team members take the following actions:
 
 * Change the workspace visibility to Public.
 * Share a collection or environment to a public workspace.
 * Make changes to a collection or environment that's present in a public workspace.
 * Write new documentation for a Postman Collection and make it public.
 
-Postman delivers the scan results in the [Security audit reports](/docs/reports/security-audit-reports/) section of the [**Reports** dashboard](/docs/reports/reports-overview/).
+Secret scanner is turned on by default for all Postman teams and will monitor your team's public workspaces, collections, environments, and documentation for exposed secrets. Postman delivers scan results for public entities in the [Security audit reports](/docs/reports/security-audit-reports/) section of the [Reports dashboard](/docs/reports/reports-overview/).
 
 > **[Security Audit Reports are available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
 
-## Token scanner dashboard
+Secret scanning across non-public (personal, private, team, and [partner](https://learning.postman.com/docs/collaborating-in-postman/using-workspaces/partner-workspaces/)) workspaces and collections is available as an open beta for [Enterprise](/docs/administration/about-postman-enterprise/) teams. You must be an Admin or Super Admin to view findings detected in non-public workspaces in the [secret scanner dashboard](#secret-scanner-dashboard).
 
-You can view your team's configured [default](#default-alerts) and [custom](#custom-alerts) alerts in your [data security dashboard](https://go.postman.co/settings/team/token-scanner). Select **Team** in the Postman header, then select **Team Settings**. Then, select **Data security** on the left, and select **Token scanner**.
+## Secret scanner dashboard
+
+You can view your team's configured [default](#default-alerts) and [custom](#custom-alerts) alerts in your [data security dashboard](https://go.postman.co/settings/team/token-scanner). Select **Team** in the Postman header, then select **Team Settings**. Then, select **Secret Scanner** on the left.
 
 <img alt="Data security dashboard" src="https://assets.postman.com/postman-docs/data-security-dashboard.jpg"/>
+<!-- change to configure alerts view -->
+
+Enterprise teams also have access to the **Secrets Detected** tab with the open beta, where Admins and Super Admins can view findings from non-public workspaces. You can filter findings by workspace visibility type, workspace name, and secret type. To view the details for a finding, select it from the list.
+
+<!-- screenshot resolving -->
+
+You can resolve a finding by selecting **Unresolved**, then selecting the reason for resolving it.
+
+> Any Postman-owned API keys found by the secret scanner are marked as a “valid secret” in the **Secrets Detected** tab, helping you prioritize valid Postman-owned key findings.
 
 ## Supported tokens
 
-The Token Scanner scans a variety of tokens [by default](#default-alerts). You can also add your team's proprietary third-party app tokens that aren't supported yet using [custom alerts](#custom-alerts).
+The secret scanner scans a variety of tokens [by default](#default-alerts). You can also add your team's proprietary third-party app tokens that aren't supported yet using [custom alerts](#custom-alerts).
 
 ### Default alerts
 
-By default, the Token Scanner scans tokens issued by the following service providers:
+By default, Postman automatically creates alerts for 90 proprietary and third-party secrets. This includes secrets issued by popular service providers, including:
 
-* Airtable API Key
-* Akamai API Key
-* Amazon MWS Token
-* Basic Auth
-* Bearer Token
-* Clojars Deploy Token
-* Databricks Authentication Token
-* DSA Private Key
-* EC2 SSH Private Key
-* Firebase Cloud Messaging API Key
-* GitHub Personal Access Token
-* Google API Key
-* Google OAuth Token
-* Microsoft Outlook Team Webhook URL
-* New Relic User Key
-* OpenSSH Private Key
-* PGP Private Key
-* Postman API Key
-* Postman Collection Access Key
-* RSA Private Key
-* SendGrid API Key
-* Sendinblue Key
-* Shopify Key
-* Slack Webhook URL
-* Square Access Key
-* Square Access Token
-* Square OAuth Secret
-* Stripe Restricted Key
-* Stripe Secret Key
-* Telegram Bot Access Token
-* Twilio API Key
-* Twitter Bearer Token
-* Typeform API Key
-* Zapier Webhook URL
+* Amazon
+* GitHub
+* Google
+* Shopify
+* Slack
+* Square
+* Twilio
+* Zoom
+
+For a complete list of default alerts, see the [secret scanner dashboard](#secret-scanner-dashboard).
 
 ### Custom alerts
 
@@ -106,7 +93,7 @@ You can use custom alerts to scan your team's proprietary tokens and any third-p
 
 > **[Custom alerts are available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
 
-Your team can add a total of five alerts. You must be a **Community Manager** or team member with both **Developer** and **Admin** roles to add custom alerts.
+Your team can add a total of five alerts. You must be a Community Manager or team member with both Developer and Admin roles to add custom alerts.
 
 To add custom alerts, do the following:
 
