@@ -81,12 +81,12 @@ To explore data in a report:
 Reports have the following limitations:
 
 * You can't download or export your reports.
-* Postman reports only track data sent through the request builder, and not data sent through [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), [collection runs](/docs/running-collections/intro-to-collection-runs/), or [monitors](/docs/monitoring-your-api/intro-monitors/). However, failed test runs do generate reports using collection runs.
+* Postman reports only track data sent through the request builder, and not data sent through [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/), [collection runs](/docs/collections/running-collections/intro-to-collection-runs/), or [monitors](/docs/monitoring-your-api/intro-monitors/). However, failed test runs do generate reports using collection runs.
 * You can't view the details of entities you don't have access to.
 
 If there isn't any data in your reports, or your data is incomplete (for example, you have empty response times or sizes) this may be due to one of the following reasons:
 
 * The data hasn't refreshed yet. Check after four to six hours.
 * You might not have linked a collection to your API.
-* You might not have sent a request. Or you might have executed requests from [monitoring](/docs/monitoring-your-api/intro-monitors/), [collection runs](/docs/running-collections/intro-to-collection-runs/), or [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), but not from the request builder in Postman.
+* You might not have sent a request. Or you might have executed requests from [monitoring](/docs/monitoring-your-api/intro-monitors/), [collection runs](/docs/collections/running-collections/intro-to-collection-runs/), or [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/), but not from the request builder in Postman.
 * Postman isn't syncing. Check your network connection and visit the [Postman Status Page](https://status.postman.com) to learn whether there's an outage.
