@@ -7,7 +7,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Using the Collection Runner"
-    url: "/docs/running-collections/intro-to-collection-runs/"
+    url: "/docs/collections/running-collections/intro-to-collection-runs/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -57,16 +57,16 @@ You can also run collections from the command line using the [Postman CLI](/docs
 
 ## Getting started
 
-To get started, install Node.js and Newman, then run your collections. Learn more about [installing and running Newman](/docs/running-collections/using-newman-cli/installing-running-newman/).
+To get started, install Node.js and Newman, then run your collections. Learn more about [installing and running Newman](/docs/collections/using-newman-cli/installing-running-newman/).
 
 ## Options
 
-Newman provides a rich set of options to customize a run. Learn more about [Newman options](/docs/running-collections/using-newman-cli/newman-options/).
+Newman provides a rich set of options to customize a run. Learn more about [Newman options](/docs/collections/using-newman-cli/newman-options/).
 
 ## File uploads
 
-Newman supports file uploads, so you can use a data file (such as a text file) to fill in form data fields. Learn more about [uploading files in Newman](/docs/running-collections/using-newman-cli/newman-file-uploads/).
+Newman supports file uploads, so you can use a data file (such as a text file) to fill in form data fields. Learn more about [uploading files in Newman](/docs/collections/using-newman-cli/newman-file-uploads/).
 
 ## Custom reporters
 
-Custom reporters are useful to generate collection run reports that cater to specific use cases, for example, logging out the response body when a request (or its tests) fail. Learn more about [using Newman custom reporters](/docs/running-collections/using-newman-cli/newman-custom-reporters/).
+Custom reporters are useful to generate collection run reports that cater to specific use cases, for example, logging out the response body when a request (or its tests) fail. Learn more about [using Newman custom reporters](/docs/collections/using-newman-cli/newman-custom-reporters/).
