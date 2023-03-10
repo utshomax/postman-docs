@@ -5,7 +5,7 @@ updated: 2023-03-15
 
 To start using Live collections, create a collection, then install the Postman SDK in your application.
 
-1. Create a new collection. Select **New**, then select **Live Collection**. Or in an existing collection, click the <img alt="Live collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> icon in the right sidebar, then select **Enable Live**.
+1. Create a new collection. Select **New**, then select **Live Collection**. Or in an existing collection, select the <img alt="Live collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> icon in the right sidebar, then select **Enable Live**.
 
 1. Select your application language: **Node.js** or **Python**.
 
