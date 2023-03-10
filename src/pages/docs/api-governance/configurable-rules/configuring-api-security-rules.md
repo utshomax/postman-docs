@@ -49,7 +49,7 @@ Your team can turn individual security rules on or off to meet your development 
 
 ### Adding custom rules
 
-> Only Team Admins with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create custom API Security rules.
+> Only team members with a [API Security Manager role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create custom API Security rules.
 
 You can create new custom security rules that Postman can use to evaluate your API's definition. Postman provides you with a boilerplate rule to help you start writing your custom security rules. You can also use snippets of commonly-used property-value pairs to help you write your custom security rules.
 
@@ -66,8 +66,8 @@ To add a custom rule, do the following:
 
 1. The rule must be valid YAML or JSON. Use the dropdown list to choose the correct syntax.
 1. Select **Create**.
-    <img alt="Create a custom API Security rule" src="https://assets.postman.com/postman-docs/v10/api-security-create-new-custom-rule-v10.jpg"/>
-1. Find your new rule under the **Definitions** tab and turn it on.
+    <img alt="Create a custom API Security rule" src="https://assets.postman.com/postman-docs/v10/api-security-create-new-custom-rule-v10-2.jpg"/>
+1. Find your new rule under the **Definitions** tab and [turn it on](#turning-configured-rules-on-and-off).
 
 You can also select **Upload file(s)** to upload a new rule in valid YAML or JSON format.
 

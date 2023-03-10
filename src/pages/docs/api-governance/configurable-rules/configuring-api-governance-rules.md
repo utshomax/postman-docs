@@ -40,18 +40,15 @@ Once you import new rules from the library, you need to turn them on in the Gove
 
 ### Adding custom rules
 
-> Only Team Admins with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create custom API Governance rules.
+> Only team members with a [API Governance Manager role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create custom API Governance rules.
 
 You can create new custom governance rules for Postman to evaluate your API's definition. Postman provides you with a boilerplate rule to help you start writing your custom governance rules. You can also use snippets of commonly-used property-value pairs to help you write your custom governance rules.
 
 To add a custom rule, do the following:
 
 1. Go to the [Postman home screen](https://go.postman.co/), and then select **API Governance** from the team information pane.
-1. Select the **Rule Library** tab, and then select the **Rules** tab.
+1. Select the **Rule Library** tab.
 1. Select **Create Rule**.
-
-    <img alt="Select Create Rule" src="https://assets.postman.com/postman-docs/v10/api-governance-rules-v10.jpg" width="800px"/>
-
 1. Define the rule in the editor. It must adhere to [custom rule guidelines](/docs/api-governance/configurable-rules/spectral/).
 
     You can use a curated list of commonly-used property-value pair snippets to write your rules. Snippets are available in the right pane of the editor. Selecting a snippet adds the property-value pair automatically to your rule, helping you get started quickly with writing rules. Once added to your rule, you can edit the snippets to meet your specific requirements.
@@ -63,7 +60,7 @@ To add a custom rule, do the following:
 
     <img alt="Create a custom API Governance rule" src="https://assets.postman.com/postman-docs/v10/api-governance-create-custom-rule-v10-2.jpg"/>
 
-1. Find your new rule under the **Rules** tab and turn it on.
+1. Find your new rule under the **Rules** tab and [turn it on](#turning-configured-rules-on-and-off).
 
 You can also select **Upload file(s)** to upload a new rule in valid YAML or JSON format.
 
