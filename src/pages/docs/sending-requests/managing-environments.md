@@ -164,7 +164,7 @@ pm.environment.get("variable_key");
 
 ### Editing environment variables
 
-You can edit variables either by opening an environment from __Environments__ on the left, or by selecting the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> next to the [environment selector in the workbench](/docs/getting-started/navigating-postman/#environment-selector-and-environment-quick-look) and selecting __Edit__. You can sort the list of variables by selecting any column heading, or by dragging and dropping variables in the list.
+You can edit variables either by opening an environment from __Environments__ on the left, or by selecting the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> next to the [environment selector in the workbench](/docs/getting-started/navigating-postman/#environment-selector-and-environment-quick-look) and selecting __Edit__. You can sort the list of variables by selecting any column heading, or by dragging variables in the list. Hover over a variable to reveal a handle and a plus sign on the left, then select the handle to drag the variable.
 
 > You will only be able to edit environments where you have [Editor access](#requesting-environment-access).
 
