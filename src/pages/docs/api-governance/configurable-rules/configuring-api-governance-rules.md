@@ -60,7 +60,7 @@ To add a custom rule, do the following:
 
     <img alt="Create a custom API Governance rule" src="https://assets.postman.com/postman-docs/v10/api-governance-create-custom-rule-v10-2.jpg"/>
 
-1. Find your new rule under the **Rules** tab and [turn it on](#turning-configured-rules-on-and-off).
+1. Find your new rule under **Created by your team** and [turn it on](#turning-configured-rules-on-and-off).
 
 You can also select **Upload file(s)** to upload a new rule in valid YAML or JSON format.
 

@@ -67,7 +67,7 @@ To add a custom rule, do the following:
 1. The rule must be valid YAML or JSON. Use the dropdown list to choose the correct syntax.
 1. Select **Create**.
     <img alt="Create a custom API Security rule" src="https://assets.postman.com/postman-docs/v10/api-security-create-new-custom-rule-v10-2.jpg"/>
-1. Find your new rule under the **Definitions** tab and [turn it on](#turning-configured-rules-on-and-off).
+1. Find your new rule under **Custom Rules** and [turn it on](#turning-configured-rules-on-and-off).
 
 You can also select **Upload file(s)** to upload a new rule in valid YAML or JSON format.
 
