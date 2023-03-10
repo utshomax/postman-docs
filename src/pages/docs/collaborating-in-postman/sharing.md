@@ -137,14 +137,14 @@ To allow an external user to view a collection, do the following:
 
 1. From the collection you want to share, select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share**.
 1. Select **With people**.
-1. Turn on the toggle next to **Allow Guests with link to view collection**.
+1. Turn on the toggle next to **Allow Guests with the link to join your team and view collection**.
 1. Select **Copy Link** to copy the collection URL.
 
-    ![Copy collection URL](https://assets.postman.com/postman-docs/v10/copy-guest-link-collection-v10-2.jpg)
+    ![Copy collection URL](https://assets.postman.com/postman-docs/v10/copy-guest-link-collection-v10-3.jpg)
 
 1. Send the collection URL to external users who you want to view the collection. Postman requires external users to sign in to Postman before they can view the collection.
 
-> Anyone who has access to the collection URL can view the collection if the toggle next to **Allow Guests with link to view collection** is turned on.
+> Anyone who has access to the collection URL can view the collection if the toggle next to **Allow Guests with the link to join your team and view collection** is turned on.
 
 The collection must be in a team workspace. If the collection is in a personal or private workspace, external users will be unable to view the collection. For more information, see [Collaborating in team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/).
 
@@ -154,7 +154,7 @@ You can change an external user's role at the team and collection levels. You ca
 
 To learn how to change an external user's team role, see [Managing guests](/docs/administration/managing-your-team/managing-your-team/#managing-guests). To learn how an external user can request a role change, see [Requesting Editor role access for a collection as an external user](/docs/collaborating-in-postman/requesting-access-to-collections/#requesting-editor-role-access-for-a-collection-as-an-external-user).
 
-You can turn off the toggle next to **Allow Guests with link to view collection**. When you turn this off, new and existing external users can no longer view the collection. If this is turned off for all collections an external user can view, they will be removed from the team. To add them back to the team, see [Allowing external users to view collections](#allowing-external-users-to-view-collections).
+You can turn off the toggle next to **Allow Guests with the link to join your team and view collection**. When you turn this off, new and existing external users can no longer view the collection. If this is turned off for all collections an external user can view, they will be removed from the team. To add them back to the team, see [Allowing external users to view collections](#allowing-external-users-to-view-collections).
 
 To remove external users at the team level, see [Removing team members](/docs/administration/managing-your-team/managing-your-team/#removing-team-members).
 
