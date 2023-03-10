@@ -18,3 +18,7 @@ Postman Live Collections can be enabled by developers by self-instrumenting thei
 * Empowers developers to automatically create and maintain collections
 * Bring insights from usage patterns for developers to build quality, efficient and secure APIs
 * Automate testing and troubleshooting workflows
+
+## Next steps
+
+To get started with Live collections, see [Live collections SDK installation](/docs/collections/live-collections/live-collections-sdk-install/).

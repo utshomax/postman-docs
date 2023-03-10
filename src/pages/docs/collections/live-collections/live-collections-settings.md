@@ -3,8 +3,13 @@ title: "Live Collections settings"
 updated: 2023-03-15
 ---
 
-Collection -> Insights tab -> Settings link
+In right pane
 
-Apdex T value
+Status (toggle on/off)
+Last updated
 
-Ignore response codes
+Select how to stay updated
+Automatically update
+Review before updating
+
+Select **Save Changes**.

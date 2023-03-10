@@ -372,10 +372,6 @@ export const leftNavItems = [
             url: '/docs/collections/live-collections/update-live-collections/',
           },
           {
-            name: 'Live Collections insights',
-            url: '/docs/collections/live-collections/live-collections-insights/',
-          },
-          {
             name: 'Live Collections settings',
             url: '/docs/collections/live-collections/live-collections-settings/',
           },
