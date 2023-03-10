@@ -33,7 +33,7 @@ Postman has three different agents you can use to send your API requests.
 
 ### The Postman Desktop Agent
 
-The Postman Desktop Agent is a micro-application that runs locally on your desktop. It enables you to bypass the limitations that exist in the browser by allowing API requests to originate in the browser, but be routed through your local machine and network. The Desktop Agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers and acts as your agent for making API requests from the Postman web app.
+The Postman Desktop Agent is a micro-application that runs locally on your desktop. It enables you to bypass the limitations that exist in the browser by allowing API requests to originate in the browser, but be routed through your local machine and network. The Desktop Agent overcomes the cross-origin resource sharing (CORS) limitations of browsers and acts as your agent for making API requests from the Postman web app.
 
 In the [agent selector](#selecting-a-postman-agent-for-requests), you will be prompted to download and install the Desktop Agent so you can make requests from the Postman web app. Select **Download desktop agent** to download the Desktop Agent. You can also download the agent directly from [the Postman Agent page](https://www.postman.com/downloads/postman-agent/). Once you have the Desktop Agent installed, open it and then you will be able to use it with web requests.
 

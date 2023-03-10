@@ -142,7 +142,7 @@ The Postman web app is optimized for the following browsers:
 
 ### Installing the Postman Desktop Agent
 
-If you are using the Postman web app, Postman recommends downloading and installing the [Postman Desktop Agent](/docs/getting-started/about-postman-agent/#the-postman-desktop-agent), a micro-application that runs locally on your desktop. The Desktop Agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers and acts as your agent for making API requests from the Postman web app.
+If you are using the Postman web app, Postman recommends downloading and installing the [Postman Desktop Agent](/docs/getting-started/about-postman-agent/#the-postman-desktop-agent), a micro-application that runs locally on your desktop. The Desktop Agent overcomes the cross-origin resource sharing (CORS) limitations of browsers and acts as your agent for making API requests from the Postman web app.
 
 ### Web limitations
 
