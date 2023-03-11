@@ -8,7 +8,7 @@ search_keyword: "api governance, schema validation, api schema vulnerabilities"
 
 You can customize the API Governance rules that Postman applies to your [API definitions](/docs/api-governance/api-definition/api-definition-warnings/). Adhering to these API Governance rules at the start of the API lifecycle keeps your API consistent without requiring extra work at later stages. This can prevent unnecessary delays for your organization.
 
-[Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and [API Governance Managers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can configure rules and turn them on and off for workspaces within your team. If your team has not assigned an API Governance Manager, Admins will also be able to manage your team's governance configuration. Once the API Governance Manager role has been assigned, Admins will only have view access to the API Governance dashboard.
+[Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and [API Governance Managers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can configure rules and turn them on and off for workspaces within your team.
 
 <img alt="API governance dashboard" src="https://assets.postman.com/postman-docs/api-governance-dashboard-10.12.0.jpg"/>
 
