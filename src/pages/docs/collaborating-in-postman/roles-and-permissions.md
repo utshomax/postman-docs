@@ -90,6 +90,7 @@ There are additional specialized roles for Enterprise teams:
 
 * **API Network Manager** ([Enterprise plans only](https://www.postman.com/pricing)) - Manages a team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/), including adding APIs and reviewing requests to add APIs.
 * **API Governance Manager** ([Enterprise plans only](https://www.postman.com/pricing)) - Manages API governance within a team.
+* **API Security Manager** ([Enterprise plans only](https://www.postman.com/pricing)) - Manages API security within a team.
 
 &ast; On Postman Basic and Free plans, any developer can change visibility of workspaces.
 
