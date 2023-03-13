@@ -355,7 +355,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: "Using Live collections",
+        name: "Using Live Collections",
         subParentSlug: 'live-collections',
         slug: '/docs/collections/live-collections/live-collections-overview/',
         subMenuItems2: [

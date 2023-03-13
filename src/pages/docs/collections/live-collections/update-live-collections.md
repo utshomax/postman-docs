@@ -19,7 +19,7 @@ When the first request is detected by the Live Collection, you'll see a notifica
 
 Setting automatic updates will result in requests getting automatically created or updated anytime they are observed in the API traffic.
 
-Every time a new update comes in, you will be notified by the live collections icon <img alt="Live collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> next to the collection name turning orange.
+Every time a new update comes in, you will be notified by the live Collections icon <img alt="Live collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> next to the collection name turning orange.
 
 ## Manual updates to a Live Collection
 
@@ -29,7 +29,7 @@ To manually update a Live Collection, do the following:
 
 1. Select manual updates from the first request popup shown above, or in [Live Collections settings](/docs/collections/live-collections/live-collections-settings).
 
-1. When the live collections icon <img alt="Live collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> next to the collection name is orange, select it, then select **Review changes**.
+1. When the Live Collections icon <img alt="Live Collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> next to the collection name is orange, select it, then select **Review changes**.
 
     <img alt="Live Collections update request" src="https://assets.postman.com/postman-docs/v10/live-collections-review-changes-popup.jpg" />
 
@@ -45,6 +45,6 @@ To see changes made to a Live Collection, use the collection changelog. The chan
 
 To see the changelog, open the collection and select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> in the right sidebar.
 
-<img alt="Changelog view" src="https://assets.postman.com/postman-docs/v10/changelog-view.jpg" width="250px"/>
+<img alt="Changelog view" src="https://assets.postman.com/postman-docs/v10/changelog-view.jpg" width="350px"/>
 
 For more information, see [Viewing the collection changelog](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#viewing-the-collection-changelog).
