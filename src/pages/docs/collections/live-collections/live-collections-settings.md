@@ -18,7 +18,7 @@ Select the <img alt="Live collections icon" src="https://assets.postman.com/post
 
 This page shows when a Live Collection was last updated. The following options are available:
 
-* Select **Status** to enable or disable data collection for the Live Collection.
+* Select **Status** to turn data collection on or off for the Live Collection.
 * Choose how updates are performed. You can select if the Live Collection is automatically updated, or if you must review changes before updating. For more information, see [Updating Live Collections](/docs/collections/live-collections/update-live-collections/).
 * Select **Save Changes** to apply changes.
 
@@ -41,6 +41,6 @@ dataRedactions: {
 
 The above rules for data redaction obfuscate values for those fields
 
-The data truncation option in the configuration truncates the actual values for the different fields
+The data truncation option in the configuration truncates the actual values for the different fields.
 
 <img alt="Live collections data truncation" src="https://assets.postman.com/postman-docs/v10/live-collections-data-truncation.jpg" width="250px">
