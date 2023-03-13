@@ -13,7 +13,7 @@ Whenever Live Collections detect a new event from the API traffic, it will trigg
 
 ## Automatic updates to a Live Collection
 
-When the first request is detected by the Live Collection, you'll see a notification next to the collection. By default, the request will automatically be added to the collection. To automatically update a Live collection as it detects updates, select **Automatically update collection**, and then select **Save**.
+After you first create a Live Collection, when the first request is detected, you'll see a notification next to the collection. By default, the request will automatically be added to the collection. To automatically update a Live Collection as it detects updates, select **Automatically update collection**, and then select **Save**.
 
 <img alt="Live Collections update request" src="https://assets.postman.com/postman-docs/v10/live-collections-update-request-first-time-popup.jpg" />
 
