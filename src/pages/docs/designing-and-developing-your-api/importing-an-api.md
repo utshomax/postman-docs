@@ -35,7 +35,7 @@ You can import an existing API definition into your API. API definitions can be 
 ## Importing API definitions
 
 1. Select **Import**.
-1. Select one or more files, select a folder, enter a link to the API, or paste your raw text.
+1. Select files, folders, enter a link to the API, or paste your raw text.
 
     > You can also import an API definition from a code repository. Learn more about [importing and exporting](/docs/getting-started/importing-and-exporting-data/).
 
