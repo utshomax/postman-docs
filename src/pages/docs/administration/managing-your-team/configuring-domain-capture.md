@@ -55,7 +55,7 @@ The following is required to add and verify a domain and enable domain capture:
 The following is required to enable domain capture:
 
 * [SSO](/docs/administration/sso/admin-sso/) must be configured and enabled.
-    * Alternative authentication methods (Postman or Google sign in) must be deactivated.
+    * Alternative authentication methods (Postman or Google sign in) must be turned off.
 
 It's recommended that you enable [SSO provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) to ease the process of onboarding new users and [Auto-Flex](/docs/administration/billing/#using-auto-flex) to ensure that your team can automatically accommodate all users that may be added to your Postman team when domain capture is enabled.
 
@@ -66,7 +66,7 @@ It's recommended that you enable [SSO provisioning](/docs/administration/scim-pr
 1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
 1. Confirm that your team has only the SSO authentication method enabled. Then, select the **Domains** tab.
 
-    > Your team must have only SAML-based SSO authentication methods enabled to set up domain capture. Alternative authentication methods such as Postman or Google sign in must be deactivated.
+    > Your team must have only SAML-based SSO authentication methods enabled to set up domain capture. Alternative authentication methods such as Postman or Google sign in must be turned off.
 
 1. Select **Add Domain**.
 
