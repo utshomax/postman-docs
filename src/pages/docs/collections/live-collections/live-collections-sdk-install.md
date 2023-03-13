@@ -15,7 +15,7 @@ To start using Live collections, create a collection, then install the Postman S
 
     ![Live Collections install SDK](https://assets.postman.com/postman-docs/v10/live-collections-install-sdk.jpg)
 
-1. Configure the Postman SDK by adding a code snippet to your application. For example, for Node.js and Express.js, paste the given code into your app's main `index.js` file:
+1. Configure the Postman SDK by adding a code snippet to your application. For example, for a Node.js application using the Express.js framework, paste the given code into your app's main `index.js` file:
 
     ![Live Collections configure SDK](https://assets.postman.com/postman-docs/v10/live-collections-configure-sdk.jpg)
 

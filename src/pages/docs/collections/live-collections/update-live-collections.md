@@ -37,13 +37,13 @@ To manually update a Live Collection, do the following:
 
     <img alt="Live Collections review changes" src="https://assets.postman.com/postman-docs/v10/live-collections-review-changes.jpg" />
 
-1. Select **Update Collection** to accept the changes and update the collection, or **Reject all** to ignore them.
+1. Select **Update Collection** to accept the changes and update the collection, or select **Reject all** to ignore them.
 
 ## Viewing changes in a Live Collection
 
 To see changes made to a Live Collection, use the collection changelog. The changelog for the collection shows the updates that have been made to a Live Collection.
 
-To see the changelog, open the collection and select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> on the right.
+To see the changelog, open the collection and select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> in the right sidebar.
 
 <img alt="Changelog view" src="https://assets.postman.com/postman-docs/v10/changelog-view.jpg" width="250px"/>
 
