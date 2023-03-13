@@ -155,7 +155,7 @@ If a request has been saved in a collection, you can save responses for that req
 * Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> then **Save response to file** to save the response as a JSON file.
 * Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> then  **Clear response** to remove any data in the response viewer. Note that for event-based requests, this is only available after the stream is closed.
 
-<img alt="Save an API response as an example or file" src="https://assets.postman.com/postman-docs/v10/save-response-v10.jpg" width="300px"/>
+<img alt="Save an API response as an example or file" src="https://assets.postman.com/postman-docs/v10/save-response-v10.jpg" width="505px"/>
 
 ## Viewing security warnings
 
