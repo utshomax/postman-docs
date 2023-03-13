@@ -1,5 +1,5 @@
 ---
-title: "Live Collections SDK installation"
+title: "Live Collection setup"
 updated: 2023-03-15
 ---
 
@@ -13,19 +13,19 @@ To start using Live Collections, create a collection, then install the Postman S
 
 1. Install the Postman SDK in the application’s root directory. You're provided with a installation command that uses `npm` or `pip`. Copy the command and enter it on your server to install the SDK.
 
-    ![Live Collections install SDK](https://assets.postman.com/postman-docs/v10/live-collections-install-sdk.jpg)
+    ![Live Collection install SDK](https://assets.postman.com/postman-docs/v10/live-collections-install-sdk.jpg)
 
 1. Configure the Postman SDK by adding a code snippet to your application.
 
     1. You need to add a [Postman API key](/docs/developer/intro-api/) to the code snippet. You can do this with a variable in your application, or select **Add API Key**.
 
-        ![Live Collections configure SDK](https://assets.postman.com/postman-docs/v10/live-collections-add-api-key.jpg)
+        ![Live Collection configure SDK](https://assets.postman.com/postman-docs/v10/live-collections-add-api-key.jpg)
 
     1. Select **Generate Key** to create a new key, or **Use Existing Key** to use one you've previously created.
 
     1. Add the code snippet into your app. For example, for a Node.js application using the Express.js framework, copy the code and add it to your app's main `index.js` file:
 
-    ![Live Collections configure SDK](https://assets.postman.com/postman-docs/v10/live-collections-configure-sdk.jpg)
+    ![Live Collection configure SDK](https://assets.postman.com/postman-docs/v10/live-collections-configure-sdk.jpg)
 
 1. Restart your application if it's already running.
 

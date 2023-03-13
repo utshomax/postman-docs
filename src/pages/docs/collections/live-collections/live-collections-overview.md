@@ -1,9 +1,9 @@
 ---
-title: "Live Collections overview"
+title: "Live Collection overview"
 updated: 2023-03-15
 ---
 
-_Postman Live Collections_ enable you to keep your collections up-to-date based on the usage of your endpoint. By observing your application, Live Collections automatically create and update your collections.
+_Postman Live Collections_ enable you to keep your collections up-to-date based on the usage of your application. By observing your application, the Postman SDK automatically update your Live Collections.
 
 Live Collections provide the following benefits:
 
@@ -15,10 +15,10 @@ Live Collections provide the following benefits:
 
 Developers can enable Postman Live Collections by installing the Postman SDK in their application. Once enabled, you can use Live Collections to:
 
-* Automatically create and maintain collections
+* Automatically keep collections up-to-date
 * Get insights from usage patterns to help build high-quality, efficient, and secure APIs
 * Automate testing and troubleshoot workflows
 
 ## Next steps
 
-To get started with Live Collections, see [Live Collections SDK installation](/docs/collections/live-collections/live-collections-sdk-install/).
+To get started with Live Collections, see [Live Collections setup](/docs/collections/live-collections/live-collections-setup/).

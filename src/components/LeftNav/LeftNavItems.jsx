@@ -360,19 +360,19 @@ export const leftNavItems = [
         slug: '/docs/collections/live-collections/live-collections-overview/',
         subMenuItems2: [
           {
-            name: 'Live Collections overview',
+            name: 'Live Collection overview',
             url: '/docs/collections/live-collections/live-collections-overview/',
           },
           {
-            name: 'Live Collections SDK installation',
-            url: '/docs/collections/live-collections/live-collections-sdk-install/',
+            name: 'Live Collection setup',
+            url: '/docs/collections/live-collections/live-collections-setup/',
           },
           {
             name: 'Updating Live Collections',
             url: '/docs/collections/live-collections/update-live-collections/',
           },
           {
-            name: 'Live Collections settings',
+            name: 'Live Collection settings',
             url: '/docs/collections/live-collections/live-collections-settings/',
           },
         ],
