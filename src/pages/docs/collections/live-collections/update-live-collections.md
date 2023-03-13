@@ -3,7 +3,7 @@ title: "Updating Live Collections"
 updated: 2023-03-15
 ---
 
-Whenever Live Collections detect a new event from the API traffic, it will trigger an update workflow. Updates can span across entities in existing requests or also result in new requests being added to the collection. The params and the header will be updated for the request as entities that are disabled. The Postman Live Collection can be updated either automatically or manually.
+Whenever Live Collections detect a new event from the API traffic, it will trigger an update workflow. Updates can apply to existing requests or result in new requests being added to the collection. Any updated params or headers won't be enabled by default. The Live Collection can be updated either automatically or manually.
 
 ## Contents
 
@@ -17,9 +17,9 @@ When the first request is detected by the Live Collection, you'll see a notifica
 
 <img alt="Live Collections update request" src="https://assets.postman.com/postman-docs/v10/live-collections-update-request-first-time-popup.jpg" />
 
-Setting automatic updates will result in requests getting automatically created or updated anytime they are observed in the API traffic.
+Selecting automatic updates will result in requests getting automatically created or updated anytime they are observed in the API traffic.
 
-Every time a new update comes in, you will be notified by the live Collections icon <img alt="Live collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> next to the collection name turning orange.
+Every time the collection is updated, you will be notified by the Live Collections icon <img alt="Live collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> next to the collection name turning solid orange.
 
 ## Manual updates to a Live Collection
 
