@@ -8,7 +8,7 @@ You can configure Live Collections from the right sidebar in Postman. You can al
 ## Contents
 
 * [Live Collections configuration options](#live-collections-configuration-options)
-* [Redacting data in the service code](#redacting-data-in-the-service-code)
+* [Redacting sensitive data](#redacting-sensitive-data)
 
 ## Live Collections configuration options
 
@@ -22,7 +22,7 @@ The following configuration options are available:
 * Select how updates are performed. You can choose whether changes to a Live Collection are automatically updated, or if changes must be reviewed before updating. For more information, see [Updating Live Collections](/docs/collections/live-collections/update-live-collections/).
 * Select **Save Changes** to apply changes.
 
-## Redacting data in the service code
+## Redacting sensitive data
 
 You can configure data redaction and truncation settings for your application. This ensures that sensitive data does not reach Postman. The data redaction rule uses a regular expression to identify the text to be redacted.
 
@@ -39,8 +39,8 @@ dataRedactions: {
 }
 ```
 
-The data redaction rules obfuscate values for the specified fields.
+The data redaction rules obfuscate values for the fields matched by the regular expression.
 
-The data truncation option in the configuration truncates the actual values for the specified fields.
+The data truncation option in the configuration truncates the actual values for the matched fields.
 
 <img alt="Live Collections data truncation" src="https://assets.postman.com/postman-docs/v10/live-collections-data-truncation.jpg" width="350px">
