@@ -25,7 +25,7 @@ To start using Live Collections, create a collection, then install the Postman S
 
     1. Select **Generate Key** to create a new key, or **Use Existing Key** to use one you've previously created.
 
-1. Restart your application if it is already running.
+1. Restart your application if it's already running.
 
 1. Select **Test Connection** to test if Postman can reach your application, or wait for the connection to be established. After Postman is connected to your application, the connection state will change and your app will be connected to Postman.
 
