@@ -12,7 +12,7 @@ You can configure Live Collections from the right sidebar in Postman. You can al
 
 ## Live Collections configuration options
 
-Open a Live Collection and select the Live Collections icon <img alt="Live Collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> in the right sidebar to view when the Live Collection was last updated.
+To view Live Collections configuration options, select a collection, and then select the Live Collections icon <img alt="Live collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> in the right sidebar.
 
 <img alt="Live Collections settings page" src="https://assets.postman.com/postman-docs/v10/live-collections-settings-page.jpg" width="350px">
 
@@ -43,4 +43,4 @@ The data redaction rules obfuscate values for the specified fields.
 
 The data truncation option in the configuration truncates the actual values for the specified fields.
 
-<img alt="Live Collections data truncation" src="https://assets.postman.com/postman-docs/v10/live-collections-data-truncation.jpg" width="250px">
+<img alt="Live Collections data truncation" src="https://assets.postman.com/postman-docs/v10/live-collections-data-truncation.jpg" width="350px">
