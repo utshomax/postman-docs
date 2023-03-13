@@ -19,12 +19,12 @@ Select the <img alt="Live Collections icon" src="https://assets.postman.com/post
 This page shows when a Live Collection was last updated. The following options are available:
 
 * Select **Status** to turn data collection on or off for the Live Collection.
-* Choose how updates are performed. You can select if the Live Collection is automatically updated, or if you must review changes before updating. For more information, see [Updating Live Collections](/docs/collections/live-collections/update-live-collections/).
+* Choose how updates are performed. You can choose whether changes to a Live Collection are automatically updated, or changes must be reviewed before updating. For more information, see [Updating Live Collections](/docs/collections/live-collections/update-live-collections/).
 * Select **Save Changes** to apply changes.
 
 ## Redacting data in the service code
 
-Data redaction and truncation settings can be configured directly in the service that was instrumented. This ensures that sensitive data does not reach Postman. The data redaction rule takes in a regex to identify the text that needs to be redacted.
+Data redaction and truncation settings can be configured directly in the service that was instrumented. This ensures that sensitive data does not reach Postman. The data redaction rule takes in a regular expression to identify the text that needs to be redacted.
 
 The data redaction and data truncation rules can be set up by adding the following lines of code in the service that was instrumented:
 
@@ -39,7 +39,7 @@ dataRedactions: {
 }
 ```
 
-The above rules for data redaction obfuscate values for those fields
+The data redaction rules obfuscate values for those fields.
 
 The data truncation option in the configuration truncates the actual values for the different fields.
 
