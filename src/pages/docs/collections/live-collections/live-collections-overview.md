@@ -13,11 +13,11 @@ Live Collections provide the following benefits:
 * **Better documentation** -  A Postman Live Collection can be used to generate documentation for the API. This documentation can be updated in real-time, making it easier for developers to understand and use the API.
 * **Improved quality** - By using a Postman Live Collection, developers and testers can catch issues and bugs earlier in the development process. This can lead to higher quality APIs and a better overall user experience.
 
-Postman Live Collections can be enabled by developers by self-instrumenting their code using the Postman SDK. Once enabled, Live Collections:
+Developers can enable Postman Live Collections by installing the Postman SDK in their application. Once enabled, you can use Live Collections to:
 
-* Empower developers to automatically create and maintain collections
-* Bring insights from usage patterns for developers to build quality, efficient and secure APIs
-* Automate testing and troubleshooting workflows
+* Automatically create and maintain collections
+* Get insights from usage patterns to help build high-quality, efficient, and secure APIs
+* Automate testing and troubleshoot workflows
 
 ## Next steps
 
