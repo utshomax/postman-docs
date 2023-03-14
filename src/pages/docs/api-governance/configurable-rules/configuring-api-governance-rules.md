@@ -40,8 +40,6 @@ Once you import new rules from the library, you need to turn them on in the Gove
 
 ### Adding custom rules
 
-> Only Team Admins with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create custom API Governance rules.
-
 You can create new custom governance rules for Postman to evaluate your API's definition. Postman provides you with a boilerplate rule to help you start writing your custom governance rules. You can also use snippets of commonly-used property-value pairs to help you write your custom governance rules.
 
 To add a custom rule, do the following:
