@@ -57,7 +57,7 @@ You can import an existing API definition into your API. API definitions can be 
 
    ![Confirm import from GitHub](https://assets.postman.com/postman-docs/v10/import-elements-api-v10.jpg)
 
-1. (Optional) Select **Import OpenAPI files with an exclusive collection**.
+1. (Optional) Select **Import OpenAPI files**.
 1. (Optional) Select **View Import Settings** for more configuration options. These options will vary depending on your API specification.
 1. Select **Import** to bring your API definition into Postman.
 
