@@ -36,4 +36,3 @@ To start using Live Collections, create a collection, then install the Postman S
 ## Data privacy
 
 > **Note:** Data truncation is turned on by default to remove the actual values of all the fields. Removing the data truncation rule will result in the values of the fields to be sent to Postman. To ensure that sensitive information is redacted from the request and response body, headers, and query params, add data redaction rules to your application. See [Redacting sensitive data](/docs/collections/live-collections/live-collections-settings.md#redacting-sensitive-data) for more information.
-
