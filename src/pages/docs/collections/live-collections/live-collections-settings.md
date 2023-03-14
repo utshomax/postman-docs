@@ -3,7 +3,7 @@ title: "Live Collection settings"
 updated: 2023-03-15
 ---
 
-You can configure Live Collections from the right sidebar in Postman. You can also configure data redaction within your service.
+You can configure Live Collections settings such as update preference or status from the right sidebar in Postman. You can configure data redaction and data truncation settings only within the instrumentation code in your service.
 
 ## Contents
 
@@ -18,7 +18,8 @@ To view Live Collections configuration options, select a collection, and then se
 
 The following configuration options are available:
 
-* Select **Status** to turn data collection on or off for the Live Collection.
+* Select **Status** to turn data collection on or off for the Live Collection. Turning off data collection ensures that the Postman SDK does not send any data to the Postman cloud. This will also stop detecting any changes to the request, and stop automatic or manual updates to the collection.
+
 * Select how updates are performed. You can choose whether changes to a Live Collection are automatically updated, or if changes must be reviewed before updating. For more information, see [Updating Live Collections](/docs/collections/live-collections/update-live-collections/).
 * Select **Save Changes** to apply changes.
 
@@ -29,13 +30,14 @@ You can configure data redaction and truncation settings for your application. T
 To set up the data redaction and data truncation rules add the following lines of code in your application:
 
 ```json
-dataTruncation: true,
-dataRedactions: {
-    rules: {
-        api_key: '\\b\\w{32}\\b',
-        email_rule: '([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})',
-        bearerToken: '[bB]earer ([a-zA-Z]+[0-9]|[0-9]+[a-zA-Z]])[a-zA-Z0-9/+_.-]{15,1000}(?![a-zA-Z0-9/+.-])',
-    }
+truncateData: true,
+redactSensitiveData: {
+	enable: true,
+	rules: {
+		api_key: '\\b\\w{32}\\b',
+		email_rule: '([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})',
+		bearerToken: '[bB]earer ([a-zA-Z]+[0-9]|[0-9]+[a-zA-Z]])[a-zA-Z0-9/+_.-]{15,1000}(?![a-zA-Z0-9/+.-])',
+	}
 }
 ```
 

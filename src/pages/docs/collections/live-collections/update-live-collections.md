@@ -3,7 +3,7 @@ title: "Updating Live Collections"
 updated: 2023-03-15
 ---
 
-Whenever Live Collections detect a new event from the API traffic, it will trigger an update workflow. Updates can apply to existing requests or result in new requests being added to the collection. Any updated params or headers won't be enabled by default. You can choose to either automatically update the collection or to manually review updates before making them.
+Whenever Live Collections observes a new API event in the service that was instrumented, it will trigger an update workflow. Updates can apply to existing requests or result in new requests being added to the collection. Any updated params or headers won't be enabled by default. You can choose to either automatically update the collection or to manually review updates before making them.
 
 ## Contents
 
@@ -17,9 +17,9 @@ After you first create a Live Collection, when the first request is detected, yo
 
 <img alt="Live Collections update request" src="https://assets.postman.com/postman-docs/v10/live-collections-update-request-first-time-popup.jpg" />
 
-Selecting automatic updates will result in requests getting automatically created or updated anytime they are observed in the API traffic.
+Selecting automatic updates will result in requests getting automatically created or updated any time the API events are observed in the service.
 
-Every time the collection is updated, you will be notified by the Live Collections icon <img alt="Live collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> next to the collection name turning solid orange.
+To see a log of updates made automatically, you can use the collection change log. See [Viewing changes in a Live Collection](#viewing-changes-in-a-live-collection) for more information.
 
 ## Manual updates to a Live Collection
 
@@ -27,7 +27,7 @@ You can also choose to review changes and apply them manually, instead of using 
 
 To manually update a Live Collection, do the following:
 
-1. In the notification next to the collection, select **Review before updating**, and then select **Save**. You can also do this in [Live Collections settings](/docs/collections/live-collections/live-collections-settings).
+1. In the Live Collection notification next to the collection, select **Review before updating**, and then select **Save**. You can also do this in [Live Collections settings](/docs/collections/live-collections/live-collections-settings).
 
 1. When the Live Collections icon <img alt="Live Collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> next to the collection name is solid, select it, then select **Review changes**.
 
