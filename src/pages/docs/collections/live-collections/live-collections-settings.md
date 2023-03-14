@@ -43,6 +43,6 @@ redactSensitiveData: {
 
 The data redaction rules obfuscate values for the fields matched by the regular expression.
 
-The data truncation option in the configuration truncates the actual values for the matched fields.
+The data truncation option in the configuration truncates the actual values for all the fields.
 
 <img alt="Live Collections data truncation" src="https://assets.postman.com/postman-docs/v10/live-collections-data-truncation.jpg" width="350px">
