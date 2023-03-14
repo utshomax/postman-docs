@@ -10,7 +10,7 @@ You can customize the API Governance rules that Postman applies to your [API def
 
 [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and [API Governance Managers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can configure rules and turn them on and off for workspaces within your team.
 
-<img alt="API governance dashboard" src="https://assets.postman.com/postman-docs/api-governance-dashboard-10.12.0.jpg"/>
+<img alt="API governance dashboard" src="https://assets.postman.com/postman-docs/api-governance-dashboard-10.12.jpg"/>
 
 ## Contents
 
@@ -36,7 +36,7 @@ The rule library contains Postman's API governance guidelines and Zalando's REST
 
 You can select **View all** below a set of guidelines to view all of its rules. Details and API format requirements are available under the rule name. Select **Import** next to a rule to import it. To import all rules for a particular set of guidelines, select **Import All**.
 
-<img alt="Import API Governance rule from Postman library" src="https://assets.postman.com/postman-docs/import-rule-from-rule-library-10.12.0.jpg"/>
+<img alt="Import API Governance rule from Postman library" src="https://assets.postman.com/postman-docs/import-postman-rule-from-rule-library-10.12.0.jpg"/>
 
 Once you import new rules from the library, you need to [turn them on](#turning-configured-rules-on-and-off) in the API Governance dashboard.
 
