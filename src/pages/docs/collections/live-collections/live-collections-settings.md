@@ -12,7 +12,7 @@ You can configure Live Collections settings such as update preference or status 
 
 ## Live Collections configuration options
 
-To view Live Collections configuration options, select a collection, and then select the Live Collections icon <img alt="Live collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> in the right sidebar.
+To view Live Collections configuration options, select a collection, and then select the Live Collections icon <img alt="Live collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> in the right sidebar. You can also hover over the Live Collections icon <img alt="Live collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> next to the collection name, then select **Live settings**.
 
 <img alt="Live Collections settings page" src="https://assets.postman.com/postman-docs/v10/live-collections-settings-page.jpg" width="350px">
 

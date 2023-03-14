@@ -19,7 +19,7 @@ After you first create a Live Collection, when the first request is detected, yo
 
 Selecting automatic updates will result in requests getting automatically created or updated any time the API events are observed in the service.
 
-To see a log of updates made automatically, you can use the collection change log. See [Viewing changes in a Live Collection](#viewing-changes-in-a-live-collection) for more information.
+To see a log of updates made automatically, you can use the collection change log. See [Viewing changes in a Live Collection](#viewing-changes-in-a-live-collection) for more
 
 ## Manual updates to a Live Collection
 
@@ -43,7 +43,7 @@ To manually update a Live Collection, do the following:
 
 To see changes made to a Live Collection, use the collection changelog. The changelog for the collection shows the updates that have been made to a Live Collection.
 
-To see the changelog, open the collection and select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> in the right sidebar.
+To see the changelog, open the collection and select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> in the right sidebar. You can also hover over the Live Collections icon <img alt="Live collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> next to the collection name, then select **View recent changes**.
 
 <img alt="Changelog view" src="https://assets.postman.com/postman-docs/v10/changelog-view.jpg" width="350px"/>
 
