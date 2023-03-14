@@ -17,7 +17,7 @@ After you first create a Live Collection, when the first request is detected, yo
 
 <img alt="Live Collections update request" src="https://assets.postman.com/postman-docs/v10/live-collections-update-request-first-time-popup.jpg" />
 
-Selecting automatic updates will result in requests getting automatically created or updated any time the API events are observed in the service.
+Selecting automatic updates will result in requests getting automatically created or updated any time the API events are observed in the service without any notifications being sent.
 
 To see a log of updates made automatically, you can use the collection change log. See [Viewing changes in a Live Collection](#viewing-changes-in-a-live-collection) for more
 
@@ -27,11 +27,11 @@ You can also choose to review changes and apply them manually, instead of using 
 
 To manually update a Live Collection, do the following:
 
-1. Hover over the Live Collections icon <img alt="Live Collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> and select **Review changes**.
+1. Hover over the Live Collections icon <img alt="Live Collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> and select **Review changes**. You can also go to the Live Collections configurations settings in the right sidebar.
 
     <img alt="Live Collections update request" src="https://assets.postman.com/postman-docs/v10/live-collections-review-changes-popup.jpg" />
 
-1. Review the incoming changes. These can be an addition of a new request or changes to an existing request. Postman also creates new examples based on the response received from the API traffic.
+1. Review the incoming changes. These can be an addition of a new request or changes to an existing request. Postman also creates new examples based on the response received from the API events on the application.
 
     <img alt="Live Collections review changes" src="https://assets.postman.com/postman-docs/v10/live-collections-review-changes.jpg" />
 
