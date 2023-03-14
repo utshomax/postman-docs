@@ -32,3 +32,8 @@ To start using Live Collections, create a collection, then install the Postman S
 1. Select **Test Connection** to test if Postman can reach your application, or wait for the connection to be established. After Postman is connected to your application, the connection state will change and your app will be connected to Postman.
 
     <img src="https://assets.postman.com/postman-docs/v10/live-collection-connected.jpg" alt="Live Collections connected" width="350px" />
+
+## Data privacy
+
+To ensure that sensitive information is redacted from the request and response body, headers and query params, add data redaction rules to your application. See [Redacting sensitive data](/docs/collections/live-collections/live-collections-settings.md#redacting-sensitive-data) for more information.
+
