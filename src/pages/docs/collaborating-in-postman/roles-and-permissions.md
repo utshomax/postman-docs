@@ -255,6 +255,8 @@ You can also [assign](/docs/collaborating-in-postman/using-workspaces/managing-w
 
 All partners are assigned Workspace Editor or Viewer roles when invited to a Partner Workspace. To learn more about workspace level permissions, see [Workspace roles](#workspace-roles).
 
+> Your team must have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#using-auto-flex) to invite a partner as a Workspace Editor. Otherwise, the partner will be assigned the Workspace Viewer role. Assigning a partner the Workspace Viewer role doesn't consume paid seats.
+
 ## Next steps
 
 After learning about the roles available to team members, you can manage your team's level of access and control more effectively.
