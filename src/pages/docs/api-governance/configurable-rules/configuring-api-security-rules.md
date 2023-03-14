@@ -15,7 +15,7 @@ contextual_links:
 
 You can customize the API Security rules that Postman applies to your [API definition](/docs/api-governance/api-definition/api-definition-warnings/) and [requests](/docs/api-governance/api-testing/api-testing-warnings/). Adhering to these API Security rules enables you keep your API secure and consistent.
 
-[Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and [API Security Managers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can configure rules and turn them on and off within your team.
+[Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and [API Security Managers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can configure rules and turn them on and off for workspaces within your team.
 
 <img alt="API Security configuration page" src="https://assets.postman.com/postman-docs/v10/api-security-configuration-home-v10.jpg" width="900px"/>
 
