@@ -143,13 +143,13 @@ You can manage external partners similarly to internal team members. To learn mo
 
 ### Managing guests
 
-You can manage external users who have permission to view specific collections and send requests in the collections. External users with these permissions are assigned the [Guest role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). A [Partner Manager](/docs/collaborating-in-postman/roles-and-permissions/#partner-roles) can change an external user's role to the Developer role by going to your [team dashboard](https://go.postman.co/settings/team/members) and selecting **Convert**. When you change an external user's role from the Guest role to the Developer role, they are added to the team and get access to all team resources and workspaces.
+You can manage external users who have permission to view specific collections and send requests in the collections. External users with these permissions are assigned the [Guest role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). A [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can change an external user's role to the Developer role by going to your [team dashboard](https://go.postman.co/settings/team/members) and selecting **Convert**. When you change an external user's role from the Guest role to the Developer role, they are added to the team and get access to all team resources and workspaces.
 
 ![Convert Guest role](https://assets.postman.com/postman-docs/v10/convert-guest-role-v10.jpg)
 
 > Your team must have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#using-auto-flex) to change an external user's role from the Guest role to the Developer role.
 
-A Partner Manager can also view the workspaces a user assigned the Guest role can access. Go to your [team dashboard](https://go.postman.co/settings/team/members), and select **View resources**.
+A Team Admin can also view the workspaces and collections a user assigned the Guest role can access. Go to your [team dashboard](https://go.postman.co/settings/team/members), and select **View resources**. Select the workspace name or collection name to open it in a new tab. You can also select the user's name to go to their Postman profile.
 
 To learn more about sharing collections with external users, see [Allowing external users to view collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
 
