@@ -49,7 +49,7 @@ Your team can turn individual security rules on or off to meet your development 
 
 ### Adding custom rules
 
-> Only team members with a [API Security Manager role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create custom API Security rules.
+> Only Team Admins with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create custom API Security rules.
 
 You can create new custom security rules that Postman can use to evaluate your API's definition. Postman provides you with a boilerplate rule to help you start writing your custom security rules. You can also use snippets of commonly-used property-value pairs to help you write your custom security rules.
 
