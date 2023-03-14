@@ -151,6 +151,8 @@ You can manage external users who have permission to view specific collections a
 
 A Team Admin can also view the workspaces and collections a user assigned the Guest role can access. Go to your [team dashboard](https://go.postman.co/settings/team/members), and select **View resources**. Select the workspace name or collection name to open it in a new tab. You can also select the user's name to go to their Postman profile.
 
+<img alt="View collections a Guest can view" src="https://assets.postman.com/postman-docs/v10/view-guest-collections-v10.jpg" width="500px"/>
+
 To learn more about sharing collections with external users, see [Allowing external users to view collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
 
 ## Managing your team’s Postman plan
