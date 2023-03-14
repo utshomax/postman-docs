@@ -35,4 +35,4 @@ To start using Live Collections, create a collection, then install the Postman S
 
 ## Data privacy
 
-To ensure that sensitive information is redacted from the request and response body, headers and query params, add data redaction rules to your application. See [Redacting sensitive data](/docs/collections/live-collections/live-collections-settings.md#redacting-sensitive-data) for more information.
+> **Note:** To ensure that sensitive information is redacted from the request and response body, headers and query params, add data redaction rules to your application. See [Redacting sensitive data](/docs/collections/live-collections/live-collections-settings.md#redacting-sensitive-data) for more information.
