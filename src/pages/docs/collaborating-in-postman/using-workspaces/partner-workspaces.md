@@ -118,9 +118,6 @@ To invite team members to a Partner Workspace, do the following:
 1. Select **Team members**, then **Continue**.
 1. Enter the name, email, or group name of the team members.
 1. Set their [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
-
-    > Your team must have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#using-auto-flex) to invite a partner as a Workspace Editor. Otherwise, the partner will be assigned the Workspace Viewer role. Assigning a partner the Workspace Viewer role doesn't consume paid seats.
-
 1. Select **Send Invites**.
 
 ## Viewing workspaces a partner can access
@@ -168,9 +165,7 @@ You can also [assign](/docs/collaborating-in-postman/using-workspaces/managing-w
 
 * **Partner Lead** (External) - Can invite other partners from their organization to join a Partner Workspace.
 
-All partners are assigned Workspace Editor or Viewer roles when invited to a Partner Workspace.
-
-> Your team must have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#using-auto-flex) to invite a partner as a Workspace Editor. Otherwise, the partner will be assigned the Workspace Viewer role. Assigning a partner the Workspace Viewer role doesn't consume paid seats.
+All partners are assigned the Workspace Editor or Viewer roles when invited to a Partner Workspace.
 
 To learn more about partner roles, see [Partner roles](/docs/collaborating-in-postman/roles-and-permissions/#partner-roles).
 
