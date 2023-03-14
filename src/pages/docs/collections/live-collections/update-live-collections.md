@@ -23,13 +23,11 @@ To see a log of updates made automatically, you can use the collection change lo
 
 ## Manual updates to a Live Collection
 
-You can also choose to review changes and apply them manually, instead of using automatic updates.
+You can also choose to review changes and apply them manually, instead of using automatic updates. Every time a new update comes in, you will be notified by the Live Collections icon <img alt="Live Collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> next to the collection name turning solid orange. You can then choose to manually update the Live Collection.
 
 To manually update a Live Collection, do the following:
 
-1. In the Live Collection notification next to the collection, select **Review before updating**, and then select **Save**. You can also do this in [Live Collections settings](/docs/collections/live-collections/live-collections-settings).
-
-1. When the Live Collections icon <img alt="Live Collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> next to the collection name is solid, select it, then select **Review changes**.
+1. Hover over the Live Collections icon <img alt="Live Collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> and select **Review changes**.
 
     <img alt="Live Collections update request" src="https://assets.postman.com/postman-docs/v10/live-collections-review-changes-popup.jpg" />
 
