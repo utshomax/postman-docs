@@ -943,7 +943,7 @@ export const leftNavItems = [
             url: '/docs/administration/managing-your-team/user-groups/',
           },
           {
-            name: 'Configuring domain capture',
+            name: 'Configuring domain verification and capture',
             url: '/docs/administration/managing-your-team/configuring-domain-capture/',
           },
         ],
