@@ -42,4 +42,4 @@ To start using Live Collections, create a collection, then install the Postman S
 * Add data redaction rules to your application to ensure that sensitive data is redacted from the request headers, response headers, request body, response body and query params.
 * See [Truncating and redacting sensitive data](/docs/collections/live-collections/live-collections-settings.md#truncating-and-redacting-sensitive-data) for more information.
 * With Live collections, any potentially sensitive data in the request and response like authorization keys, email, and so on could be stored or shared with Postman if data truncation or redaction rules are not configured.
-* Review our shared security model page for additional information about best practices you should implement while using the Postman services.
+* Review our [shared security model](https://www.postman.com/trust/shared-responsibility/) for additional information about best practices you should implement while using the Postman services.
