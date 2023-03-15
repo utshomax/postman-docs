@@ -41,5 +41,5 @@ Select **Collections** in the sidebar for the list of collections in a workspace
 <img alt="" src="https://assets.postman.com/postman-docs/collections-overview.jpg" width="300px"/>
 
 * To learn more about collections, visit the [Collections overview](/docs/collections/collections-overview/).
-* To create, edit, delete, and work with your collections, visit [Using collections](/docs/collections/using-collections.md).
+* To create, edit, delete, and work with your collections, visit [Using collections](/docs/collections/using-collections/).
 * For details on how to run your collection, visit [Using the Collection Runner](/docs/collections/running-collections/running-collections-overview/).
