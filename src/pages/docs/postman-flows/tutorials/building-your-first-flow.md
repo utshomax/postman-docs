@@ -91,8 +91,8 @@ Begin by creating a new collection and adding a GET request. You'll use this col
 
     ![Add an Evaluate block](https://assets.postman.com/postman-docs/v10/flow-add-eval-block-1-v10.jpg)
 
-1. In the **Evaluate** block, select `key` below **Variables** and replace `key` with `has_next`. This assigns the `/body/next` value from the **Select** block to the `has_next` variable in the **Evaluate** block.
-1. At the top of the **Evaluate** block, enter `has_next != null`.
+1. In the **Evaluate** block, select `value1` and replace it with `has_next`. This assigns the `/body/next` value from the **Select** block to the `has_next` variable in the **Evaluate** block.
+1. In the **Evaluate** block, select **Start writing an FQL query** and enter `has_next != null`.
 
     > If `has_next` is null, then the flow has reached the last set of 200 results.
 
@@ -104,9 +104,13 @@ Begin by creating a new collection and adding a GET request. You'll use this col
 
 In this example, the **Evaluate** block outputs `true` if `has_next` isn't null, or `false` if `has_next` is null.
 
-1. Create an **If** block and connect its **True/False** port to the **Evaluate** block's **Out** port.
+1. Create an **If** block and connect its **key** port to the **Evaluate** block's **Result** port.
 
     > The **Evaluate** block sends either `true` or `false`, which determines which branch the **If** block uses.
+
+1. In the **If** block, select `key` and replace it with `has_next_bool`.
+
+1. In the **If** block, select `Write an FQL condition` and enter `
 
 1. Connect the `/body/next` **Select** block to the  **If** block's **Data** port.
 
