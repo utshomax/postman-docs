@@ -5,7 +5,7 @@ updated: 2023-03-15
 
 You can configure Live Collections settings such as update preference or status from the right sidebar in Postman. You can configure data redaction and data truncation settings only within the instrumentation code in your service.
 
-> **Note:**: Do not deploy Live Collections on production systems without enabling the data truncation and data redaction rules as this could result in sensitive data being sent to Postman.
+> **Note:** Do not deploy Live Collections on production systems without enabling the data truncation and data redaction rules as this could result in sensitive data being sent to Postman.
 
 ## Contents
 
@@ -27,17 +27,19 @@ The following configuration options are available:
 
 ## Truncating and redacting sensitive data
 
-You can configure data redaction and truncation settings for your application. This ensures that sensitive data does not reach Postman. The data redaction rule uses a regular expression to identify the text to be redacted.
+You can configure data redaction and truncation settings for your application. This ensures that sensitive data does not reach Postman.
 
 ### Data truncation
 
 Data truncation removes the fields from the request and response body. This will result in only the field types being sent.
 
-To enable data truncation, add the `truncateData` option to the code in your application and set it to `true`. For example:
+To enable data truncation, add the `truncateData` option to the code in your application and set it to `true`. This is enabled by default. For example:
 
 ```json
-truncateData: true,
+truncateData: true
 ```
+
+<img alt="Live Collections data truncation" src="https://assets.postman.com/postman-docs/v10/live-collections-data-truncation.jpg" width="350px">
 
 ### Data redaction
 
@@ -46,7 +48,6 @@ Data redaction removes sensitive data from the request header, response header, 
 To enable data redaction, add the `redactSensitiveData` option in your code and specify the regular expression to match and obfuscate the data. For example:
 
 ```json
-truncateData: true,
 redactSensitiveData: {
 	enable: true,
 	rules: {
@@ -56,9 +57,3 @@ redactSensitiveData: {
 	}
 }
 ```
-
-The data redaction rules obfuscate values for the fields matched by the regular expression.
-
-The data truncation option in the configuration truncates the actual values for all the fields.
-
-<img alt="Live Collections data truncation" src="https://assets.postman.com/postman-docs/v10/live-collections-data-truncation.jpg" width="350px">
