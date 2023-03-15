@@ -5,10 +5,12 @@ updated: 2023-03-15
 
 You can configure Live Collections settings such as update preference or status from the right sidebar in Postman. You can configure data redaction and data truncation settings only within the instrumentation code in your service.
 
+> **Note:**: Do not deploy Live Collections on production systems without enabling the data truncation and data redaction rules as this could result in sensitive data being sent to Postman.
+
 ## Contents
 
 * [Live Collections configuration options](#live-collections-configuration-options)
-* [Redacting sensitive data](#redacting-sensitive-data)
+* [Truncating and redacting sensitive data](#truncating-and-redacting-sensitive-data)
 
 ## Live Collections configuration options
 
@@ -23,11 +25,25 @@ The following configuration options are available:
 * Select how updates are performed. You can choose whether changes to a Live Collection are automatically updated, or if changes must be reviewed before updating. For more information, see [Updating Live Collections](/docs/collections/live-collections/update-live-collections/).
 * Select **Save Changes** to apply changes.
 
-## Redacting sensitive data
+## Truncating and redacting sensitive data
 
 You can configure data redaction and truncation settings for your application. This ensures that sensitive data does not reach Postman. The data redaction rule uses a regular expression to identify the text to be redacted.
 
-To set up the data redaction and data truncation rules add the following lines of code in your application:
+### Data truncation
+
+Data truncation removes the fields from the request and response body. This will result in only the field types being sent.
+
+To enable data truncation, add the truncateData option to the code in your application and set it to `true`. For example:
+
+```json
+truncateData: true,
+```
+
+### Data redaction
+
+Data redaction removes sensitive data from the request header, response header, request body, response body and query params. The data redaction rules obfuscate values for the fields matched by the regular expression.
+
+To enable data redaction, add the `redactSensitiveData` option in your code and specify the regular expression to match and obfuscate the data. For example:
 
 ```json
 truncateData: true,
