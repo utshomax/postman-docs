@@ -33,7 +33,7 @@ You can configure data redaction and truncation settings for your application. T
 
 Data truncation removes the fields from the request and response body. This will result in only the field types being sent.
 
-To enable data truncation, add the truncateData option to the code in your application and set it to `true`. For example:
+To enable data truncation, add the `truncateData` option to the code in your application and set it to `true`. For example:
 
 ```json
 truncateData: true,
