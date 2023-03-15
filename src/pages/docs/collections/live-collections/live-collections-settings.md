@@ -39,6 +39,8 @@ To enable data truncation, add the `truncateData` option to the code in your app
 truncateData: true
 ```
 
+The following example shows response body values truncated:
+
 <img alt="Live Collections data truncation" src="https://assets.postman.com/postman-docs/v10/live-collections-data-truncation.jpg" width="350px">
 
 ### Data redaction
@@ -57,3 +59,7 @@ redactSensitiveData: {
 	}
 }
 ```
+
+The following example shows the `authorization` header value redacted:
+
+<img alt="Live Collections data truncation" src="https://assets.postman.com/postman-docs/v10/live-collection-data-redaction-example.jpg" />
