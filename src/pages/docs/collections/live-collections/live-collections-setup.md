@@ -40,4 +40,4 @@ To start using Live Collections, create a collection, then install the Postman S
 * Data truncation is turned on by default to automatically remove the fields from the request and response body and will only send the type. This will not remove the fields from the request and response headers.
 * Removing the data truncation rule will result in the values of the request and response body to be sent to Postman.
 * Add data redaction rules to your application to ensure that sensitive data is redacted from the request headers, response headers, request body, response body and query params.
-* See [Truncating and redacting sensitive data](/docs/collections/live-collections/live-collections-settings.md#truncating-and-redacting-sensitive-data)for more information.
+* See [Truncating and redacting sensitive data](/docs/collections/live-collections/live-collections-settings.md#truncating-and-redacting-sensitive-data) for more information.
