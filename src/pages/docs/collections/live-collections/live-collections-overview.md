@@ -3,7 +3,7 @@ title: "Live Collection overview"
 updated: 2023-03-15
 ---
 
-_Postman Live Collections_ enable you to keep your collections up-to-date based on the usage of your application. By observing your application, the Postman SDK automatically update your Live Collections.
+_Postman Live Collections_ enable you to keep your collections up-to-date based on the usage of your application. By observing your application, the Postman SDK automatically updates your Live Collections.
 
 Live Collections provide the following benefits:
 
