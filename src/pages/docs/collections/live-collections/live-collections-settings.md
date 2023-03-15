@@ -5,7 +5,7 @@ updated: 2023-03-15
 
 You can configure Live Collections settings such as update preference or status from the right sidebar in Postman. You can configure data redaction and data truncation settings only within the instrumentation code in your service.
 
-> **Note:** Do not deploy Live Collections on production systems without enabling the data truncation and data redaction rules as this could result in sensitive data being sent to Postman.
+> **Note:** Review the request and responses in a Live Collection within a sandbox or non-production environment to ensure that sensitive data is not sent to Postman. We recommend you to deploy on Production only after enabling data truncation and redaction rules to prevent any sensitive data from being sent to Postman.
 
 ## Contents
 
