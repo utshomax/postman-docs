@@ -55,7 +55,7 @@ export const leftNavItems = [
     subMenuItems1: [
       {
         name: 'Getting started',
-        url: '/docs/getting-started/overview',
+        url: '/docs/getting-started/overview/',
       },
       {
         name: 'Installing and updating Postman',
@@ -943,7 +943,7 @@ export const leftNavItems = [
             url: '/docs/administration/managing-your-team/user-groups/',
           },
           {
-            name: 'Configuring domain capture',
+            name: 'Configuring domain verification and capture',
             url: '/docs/administration/managing-your-team/configuring-domain-capture/',
           },
         ],
