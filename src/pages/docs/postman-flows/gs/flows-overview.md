@@ -56,6 +56,8 @@ To get started, check out the following tutorials:
 * [Running requests in sequence](/docs/postman-flows/tutorials/running-requests-in-sequence/)
 * [Passing data between blocks](/docs/postman-flows/tutorials/passing-data-between-blocks/)
 
+There's also a Postman workspace called [Brewing Postman Flows](https://www.postman.com/postman/workspace/brewing-postman-flows/overview) that's full of cool things you can do with Postman Flows. This workspace contains example flows utilizing a multitude of APIs for different products and tools, plus all the related collections and environments needed. You can fork the flows to your own workspace, try them out, and then make your own changes and customizations.
+
 ## Contribute
 
 Postman would love to hear what you're making with Flows, what issues you face while doing so, and what new features you'd like to see in Postman Flows. Head on over to the [discussions page](https://github.com/postmanlabs/postman-flows/discussions) to start or join a conversation.
