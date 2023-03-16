@@ -52,7 +52,7 @@ This quick start tutorial creates a flow to check if a request returns a `200` s
 
 1. Drag and drop the port on the right side of the **Evaluate** block and enter `out`. Select **Output** from the list.
 
-1. Select **Run**, then select **Console**. The **Output** block displays **True**, confirming a 200 status code.
+1. Select **Run**. The **Output** block displays **True**, confirming a 200 status code.
 
 ## Creating a request and a collection
 
