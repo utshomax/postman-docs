@@ -22,25 +22,37 @@ This page walks you through your first flow, calling the Pokémon API and printi
 
 ## Quick start
 
-This quick start tutorial forks an existing flow and collection designed to send a message to Slack using a webhook stored in an environment. For this quick start tutorial, we’ll modify the flow to send the message to the Postman console instead so no environment is required.
+This quick start tutorial creates a flow to check if a request returns a `200` status code.
 
-  > For more detailed tutorials that walk through the flow creation process, start with [Creating a request and a collection](#creating-a-request-and-a-collection) and continue from there.
+  > For more detailed tutorials, start with [Creating a request and a collection](#creating-a-request-and-a-collection) and continue from there.
 
 1. Navigate to the [**Brewing Postman Flows**](https://www.postman.com/postman/workspace/brewing-postman-flows/request/33232-c2957b4f-149a-4c10-aaa3-30829ca8c1bd) workspace.
 
-1. [Fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) the **IP Address APIs** collection to your workspace.
+1. [Fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) the [**DownDetector**](https://www.postman.com/postman/workspace/brewing-postman-flows/collection/25695810-fda5eef1-bddf-4f37-a84d-dc52454a156a?action=share&creator=24088680) collection to your workspace.
 
     > Flows interact with existing requests in their workspace.
 
-1. Fork the **Send your IP address to Slack** flow to your workspace.
+1. Select **New > Flows**.
 
-1. In your workspace, open the **Send your IP address to Slack** flow. Select and delete the **Send Request** block and the two text messages around it.
+1. Right-click the canvas next to the **Start** block and enter `send`. Select **Send Request** from the list.
 
-1. Right-click the canvas next to the Template block and enter `log`. Select **Log** from the list.
+1. Select the port on the **Start** block and drag your cursor to the port on the left side of the **Send Request** block. This connects the blocks so information can flow between them.
 
-1. Select the port on the left side of the **Log** block and drag the cursor to the port on the right side of the **Template** block. This connects the blocks so data can flow from one to the other.
+1. In the **Send Request** block, select **Add request > DownDetector > sitemap**.
 
-1. Select **Run**, then select **Console**. The message `Your IP is …` appears in the console.
+1. In the **Send Request** block, select the port next to **Success** and drag and drop it to the right. Enter `eval` and select **Evaluate** from the list.
+
+1. In the **Evaluate** block, select `value1` and change it to `status`.
+
+1. Select **Enter path...**, scroll down, and select **status**.
+
+1. Select the magic wand and enter `Check if the status code equals 200`.
+
+1. Select **Generate FQL**. `status=200` appears in the block.
+
+1. Drag and drop the port on the right side of the **Evaluate** block and enter `out`. Select **Output** from the list.
+
+1. Select **Run**, then select **Console**. The **Output** block displays **True**, confirming a 200 status code.
 
 ## Creating a request and a collection
 
