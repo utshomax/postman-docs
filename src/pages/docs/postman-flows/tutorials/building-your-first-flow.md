@@ -89,14 +89,14 @@ Begin by creating a new collection and adding a GET request. You'll use this col
 1. In the **Select** block you created, select **Enter path...** and select `/body/next` to get the link to the next set of 200 results.
 1. Create an **Evaluate** block to the right of the `/body/next` **Select** block and connect it to right port on the **Select** block.
 
-    ![Add an Evaluate block](https://assets.postman.com/postman-docs/v10/flow-add-eval-block-1-v10.jpg)
+    ![Add an Evaluate block](https://assets.postman.com/postman-docs/v10/flow-add-eval-block-2-v10.jpg)
 
 1. In the **Evaluate** block, select `value1` and replace it with `has_next`. This assigns the `/body/next` value from the **Select** block to the `has_next` variable in the **Evaluate** block.
-1. In the **Evaluate** block, select **Start writing an FQL query** and enter `has_next != null`.
+1. In the **Evaluate** block, select **Start writing an FQL query** and enter <code class="language-text">&#96;has_next&#96;!= null</code>.
 
     > If `has_next` is null, then the flow has reached the last set of 200 results.
 
-    ![Select /body/next](https://assets.postman.com/postman-docs/v10/flow-add-eval-block-v10.jpg)
+    ![Select /body/next](https://assets.postman.com/postman-docs/v10/flow-enter-has-next-v10.jpg)
 
 <!-- vale Postman.Spelling = NO -->
 
@@ -110,13 +110,13 @@ In this example, the **Evaluate** block outputs `true` if `has_next` isn't null,
 
 1. In the **If** block, select `key` and replace it with `has_next_bool`.
 
-1. In the **If** block, select `Write an FQL condition` and enter `
+1. In the **If** block, select `Write an FQL condition` and enter <code class="language-text">&#96;has_next_bool&#96; = true</code>.
 
 1. Connect the `/body/next` **Select** block to the  **If** block's **Data** port.
 
     > The **Select** block sends the URL of the next set of Pokémon, used in the next step.
 
-    ![Add an If block](https://assets.postman.com/postman-docs/v10/flow-add-if-block-v10.jpg)
+    ![Add an If block](https://assets.postman.com/postman-docs/v10/flow-add-if-block-1-v10.jpg)
 
 ## Calling the request with the next URL
 
@@ -127,7 +127,7 @@ In this example, `has_next` isn't null, so another set of Pokémon is available.
 1. Connect the **If** block's TRUE port to the **Send Request** block's URL port. This passes the new `URL` variable to the **Send Request** block.
 1. Also connect the **If** block's TRUE port to the **Send Request** block's Send port. This triggers the send event so it runs again.
 
-    ![Connect the If block](https://assets.postman.com/postman-docs/v10/flow-connect-if-v10.jpg)
+    ![Connect the If block](https://assets.postman.com/postman-docs/v10/flow-connect-if-1-v10.jpg)
 
 ## Watching it run
 
@@ -137,5 +137,5 @@ After completing the above steps, select **Run**. The flow runs and logs all the
 
 <!-- vale Postman.Vocab = YES -->
 
-![Watch it run](https://assets.postman.com/postman-docs/v10/flow-watch-it-run-v10.gif)
+![Watch it run](https://assets.postman.com/postman-docs/v10/flow-watch-it-run-1-v10.gif)
 Congratulations, you've created your first flow!
