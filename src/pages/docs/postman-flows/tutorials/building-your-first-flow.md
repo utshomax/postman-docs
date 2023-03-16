@@ -9,7 +9,7 @@ This page walks you through your first flow, calling the Pokémon API and printi
 
 <!-- vale Postman.Spelling = NO -->
 
-* [Quick start]
+* [Quick start](#quick-start)
 * [Creating a request and a collection](#creating-a-request-and-a-collection)
 * [Making your first send request in Postman Flows](#making-your-first-send-request-in-postman-flows)
 * [Logging the output to the console](#logging-the-output-to-the-console)
@@ -28,7 +28,7 @@ This quick start tutorial forks an existing flow and collection designed to send
 
 1. Navigate to the [**Brewing Postman Flows**](https://www.postman.com/postman/workspace/brewing-postman-flows/request/33232-c2957b4f-149a-4c10-aaa3-30829ca8c1bd) workspace.
 
-1. Fork the **IP Address APIs** collection to your workspace.
+1. [Fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) the **IP Address APIs** collection to your workspace.
 
     > Flows interact with existing requests in their workspace.
 
