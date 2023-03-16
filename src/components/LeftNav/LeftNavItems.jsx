@@ -355,6 +355,29 @@ export const leftNavItems = [
         ],
       },
       {
+        name: "Using Live Collections",
+        subParentSlug: 'live-collections',
+        slug: '/docs/collections/live-collections/live-collections-overview/',
+        subMenuItems2: [
+          {
+            name: 'Live Collection overview',
+            url: '/docs/collections/live-collections/live-collections-overview/',
+          },
+          {
+            name: 'Live Collection setup',
+            url: '/docs/collections/live-collections/live-collections-setup/',
+          },
+          {
+            name: 'Updating Live Collections',
+            url: '/docs/collections/live-collections/update-live-collections/',
+          },
+          {
+            name: 'Live Collection settings',
+            url: '/docs/collections/live-collections/live-collections-settings/',
+          },
+        ],
+      },
+      {
         name: 'Using Newman CLI',
         subParentSlug: 'using-newman-cli',
         slug: '/docs/collections/using-newman-cli/command-line-integration-with-newman/',
