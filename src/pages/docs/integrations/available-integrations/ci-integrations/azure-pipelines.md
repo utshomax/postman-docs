@@ -79,7 +79,7 @@ To view details for collections that were run as part of a build, first [configu
 
 <img alt="View Azure Pipelines collection runs" src="https://assets.postman.com/postman-docs/v10/azure-collection-runs-v10.jpg">
 
-> Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
+> Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 
 ## Viewing API Governance and API Security rule violations
 

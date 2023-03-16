@@ -98,7 +98,7 @@ To start a proxy debug session, do the following:
 
     > You can also capture cookies and sync them to Postman without starting a debug session. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
 
-1. Requests will be saved in a debug session in the **History** tab in the sidebar. Select **Save requests to a collection** and select a collection from the list to also save the requests there.
+1. Requests will be saved in a debug session in the **History** tab in the sidebar. Select **Save requests to a collection** and select a collection from the list to also save the requests there. To create a new collection in which to save requests, enter a name for the new collection and select the Create action.
 1. If you save requests and responses to a collection, they're added chronologically by default. You can alternately group them in folders organized by domain name or endpoints. Under **Organize requests by**, select **Domain name**, **Endpoints**, or both. Your requests and responses are then organized in folders in the selected collection.
 1. Under **Configure Incoming Requests**, there are more options you can use to limit the requests and responses captured:
 

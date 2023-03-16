@@ -72,6 +72,7 @@ Postman supports the following:
 | **Language**  | **Framework** |
 | --- | --- |
 | C | [LibCurl](https://curl.se/libcurl/c/) |
+| C# | HttpClient |
 | C# | [RestSharp](http://restsharp.dev/) |
 | cURL |[cURL](https://curl.se/) |
 | Dart | [Dart](https://dart.dev/) |
