@@ -9,6 +9,7 @@ This page walks you through your first flow, calling the Pokémon API and printi
 
 <!-- vale Postman.Spelling = NO -->
 
+* [Quick start]
 * [Creating a request and a collection](#creating-a-request-and-a-collection)
 * [Making your first send request in Postman Flows](#making-your-first-send-request-in-postman-flows)
 * [Logging the output to the console](#logging-the-output-to-the-console)
@@ -18,6 +19,28 @@ This page walks you through your first flow, calling the Pokémon API and printi
 * [Watching it run](#watching-it-run)
 
 <!-- vale Postman.Spelling = YES -->
+
+## Quick start
+
+This quick start tutorial forks an existing flow and collection designed to send a message to Slack using a webhook stored in an environment. For this quick start tutorial, we’ll modify the flow to send the message to the Postman console instead so no environment is required.
+
+  > For more detailed tutorials that walk through the flow creation process, start with [Creating a request and a collection](#creating-a-request-and-a-collection) and continue from there.
+
+1. Navigate to the [**Brewing Postman Flows**](https://www.postman.com/postman/workspace/brewing-postman-flows/request/33232-c2957b4f-149a-4c10-aaa3-30829ca8c1bd) workspace.
+
+1. Fork the **IP Address APIs** collection to your workspace.
+
+    > Flows interact with existing requests in their workspace.
+
+1. Fork the **Send your IP address to Slack** flow to your workspace.
+
+1. In your workspace, open the **Send your IP address to Slack** flow. Select and delete the **Send Request** block and the two text messages around it.
+
+1. Right-click the canvas next to the Template block and enter `log`. Select **Log** from the list.
+
+1. Select the port on the left side of the **Log** block and drag the cursor to the port on the right side of the **Template** block. This connects the blocks so data can flow from one to the other.
+
+1. Select **Run**, then select **Console**. The message `Your IP is …` appears in the console.
 
 ## Creating a request and a collection
 
