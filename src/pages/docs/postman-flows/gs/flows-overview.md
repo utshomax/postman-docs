@@ -1,6 +1,6 @@
 ---
 title: "Postman Flows overview"
-updated: 2022-11-17
+updated: 2023-03-16
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -21,86 +21,40 @@ contextual_links:
     url: "https://www.postman.com/case-studies/built/"
 ---
 
-_Postman Flows_ is a visual tool for creating API workflows. You can use flows to chain requests, handle data, and create real-world workflows in your Postman workspace.
+_Postman Flows_ is a visual tool to build API-driven applications – a tool to build software for the API-First world. You can use flows to chain requests, handle data, and create real-world workflows in your Postman workspace.
 
-Postman Flows enable you to:
+![Postman Flows](https://assets.postman.com/postman-docs/postman-flows-overview.gif)
+
+## What is Postman Flows?
+
+Flows is an API-centric visual application development interface. It provides you with an infinite canvas to arrange and connect APIs.
+
+It's powered by the Postman Public API Network and your Collections. Flows provides data manipulation capabilities to bridge the gap between your APIs, and data visualization to show the final output of your flows.
+
+You can also deploy your flows and run them in the cloud. WebHooks to enable you to integrate with other applications.
+
+## What can you do with flows?
+
+Flows are the ultimate way to easily take data from an API-enabled product, manipulate it to meet your needs, and see the results. Or you could
+take data from one API-enabled product, make decisions or process the data, then send it to another API-enabled product. This means you can build real-time integrations between two API-enabled products.
+
+With Postman Flows, you can:
+
+* Make API calls visually and observe data flowing through them
 
 * Create workflows with APIs from the [Public API Network](https://www.postman.com/explore)
 
-* Do anything with data using [Flows Query Language (FQL)](/docs/postman-flows/flows-query-language/introduction-to-fql/)
+* Manipulate data using [Flows Query Language (FQL)](/docs/postman-flows/flows-query-language/introduction-to-fql/)
 
-* Integrate with anything using [webhooks](/docs/postman-flows/tutorials/webhooks/)
-
-![Postman Flows](https://assets.postman.com/postman-docs/v10/flow-watch-it-run-v10.gif)
-
-The following topics will help get you started with core concepts about Postman Flows.
-
-## Contents
-
-* [Quick start](#quick-start)
-* [Blocks](#blocks)
-* [Messages](#messages)
-* [Contribute](#contribute)
+* Deploy on the cloud and integrate with anything using [webhooks](/docs/postman-flows/tutorials/webhooks/)
 
 ## Quick start
+
+To get started, check out the following tutorials:
 
 * [Step-by-step guide to building your first flow](/docs/postman-flows/tutorials/building-your-first-flow/)
 * [Running requests in sequence](/docs/postman-flows/tutorials/running-requests-in-sequence/)
 * [Passing data between blocks](/docs/postman-flows/tutorials/passing-data-between-blocks/)
-
-## Blocks
-
-Blocks are the basic units used to create a flow. Every block has a specific purpose, such as performing tasks, creating data, transforming data, and much more.
-
-### Block fundamentals
-
-Every block has either an input, an output, or both. You can pass a message packet from one block to another. Blocks can perform tasks, have values, or run an operation. For more information on each block, see [Types of Blocks](#types-of-blocks).
-
-> A block isn't a function but a process.
-
-### Block anatomy
-
-![Block anatomy](https://assets.postman.com/postman-labs-docs/block/updated-block-anatomy.png)
-
-1. **Name** - Name of the block.
-
-2. **Request to run** - Which request from your collection is going to be run.
-
-3. **Send event input** - Starts running the block when this port receives an input.
-
-4. **Environment** - Which Postman environment to use.
-
-5. **Body Type** - Schema the request uses.
-
-6. **Variables** - The variables that are either provided in the flow or from the environment.
-
-7. **Success** - When the block returns a successful status code it emits the response data.
-
-8. **Failure** - When the block returns an unsuccessful status code it emits the response data.
-
-### Types of blocks
-
-There are three types of blocks:
-
-* **Task blocks** perform a particular asynchronous task.
-* **Data blocks** create data of a specific type.
-* **Logic blocks** perform actions on data to transform them. These are synchronous in nature.
-
-## Messages
-
-A _message_ is a single packet of data. A message could be a string or number, or it could be a large complex data structure like a list of users, or an entire movie.
-
-Data structures like lists can also be converted to streams which can be processed by blocks asynchronously.
-
-> When a message flows from one block to another, the actual data doesn't move but a pointer to the message is passed along.
-
-<!-- vale Postman.Spelling = NO -->
-<!-- vale Postman.Weasel = NO -->
-Postman Flows is a dataflow language, which means it understands all kinds of values and associates types with data. Flows is a hybrid typed language, so it performs static type checking to provide features like auto-complete and early warning. Flows also performs some dynamic type checking during execution.
-<!-- vale Postman.Weasel = YES -->
-<!-- vale Postman.Spelling = YES -->
-
-Because most flow programmers have a JavaScript or TypeScript background, or are programming in an API-First language for the first time, the vocabulary of the types resembles JavaScript and TypeScript.
 
 ## Contribute
 
