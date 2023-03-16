@@ -827,8 +827,16 @@ export const leftNavItems = [
         url: '/docs/public-api-network/overview/intro/'
       },
       {
-        name: 'Public API Network best practices',
+        name: 'Public API Network Best Practices',
         url: '/docs/public-api-network/best-practices/best-practices/',
+      },
+      {
+        name: 'Sharing Public Workspace Best Practices',
+        url: '/docs/public-api-network/best-practices/sharing-your-workspace/',
+      },
+      {
+        name: 'Sync APIs to Public Workspace Best Practices',
+        url: '/docs/public-api-network/best-practices/sync-api-with-workspace/',
       },
     ]
   },
