@@ -84,22 +84,28 @@ Begin by creating a new collection and adding a GET request. You'll use this col
 
     ![Add another Select block](https://assets.postman.com/postman-docs/v10/flow-add-another-select-v10.jpg)
 
-1. In the **Select** block you created, select **Enter path...** and select `next` to get the link to the next set of 200 results.
-1. Create an **If** block to the right of the `body.next` **Select** block. Connect the **Select** block to the `key` port and the `Data` port on the **If** block.
+1. In the **Select** block you created, select **Enter path...** and select `next` to get the link to the next page of results.
 
-    ![Add an Evaluate block](https://assets.postman.com/postman-docs/v10/flow-add-eval-block-2-v10.jpg)
+    ![Select `next`](https://assets.postman.com/postman-docs/v10/flow-select-next-v10.jpg)
+
+1. Create an **If** block to the right of the `body.next` **Select** block. Connect the **Select** block to the `key` port. This creates a variable named `value1`.
+
+1. Also connect the **Select** block to the `Data` port in the **If** block.
+
+    ![Connect the **If** block](https://assets.postman.com/postman-docs/v10/flow-add-if-block-2-v10.jpg)
 
 1. In the **If** block, select `value1` and replace it with `has_next`. This assigns the `body.next` value from the **Select** block to the `has_next` variable in the **If** block.
+
+    ![Enter `has_next`](https://assets.postman.com/postman-docs/v10/flow-enter-has-next-1-v10.jpg)
+
 1. Select **Write an FQL condition** and enter <code class="language-text">&#96;has_next&#96; != null</code>.
 
-    > If `has_next` is null, then the flow has reached the last set of 200 results.
-
-    ![Select body.next](https://assets.postman.com/postman-docs/v10/flow-enter-has-next-v10.jpg)
+    > If `has_next` is null, then the flow has reached the last page of results.
 
 1. Connect the **If** block's TRUE port to the **Send Request** block's URL port. This passes the new `URL` variable to the **Send Request** block.
 1. Also connect the **If** block's TRUE port to the **Send Request** block's Send port. This triggers the send event so it runs again.
 
-    ![Connect the If block](https://assets.postman.com/postman-docs/v10/flow-connect-if-1-v10.jpg)
+    ![Connect the If block](https://assets.postman.com/postman-docs/v10/flow-connect-if-2-v10.jpg)
 
 ## Watching it run
 
@@ -109,5 +115,5 @@ After completing the above steps, select **Run**. The flow runs and logs all the
 
 <!-- vale Postman.Vocab = YES -->
 
-![Watch it run](https://assets.postman.com/postman-docs/v10/flow-watch-it-run-1-v10.gif)
+![Watch it run](https://assets.postman.com/postman-docs/v10/flow-watch-it-run-2-v10.gif)
 Congratulations, you've created your first flow!
