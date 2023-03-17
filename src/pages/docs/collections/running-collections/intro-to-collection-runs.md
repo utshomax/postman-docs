@@ -1,6 +1,6 @@
 ---
 title: "Using the Collection Runner"
-updated: 2023-02-06
+updated: 2023-03-15
 search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
   - type: section
@@ -32,21 +32,16 @@ contextual_links:
   - type: link
     name: "iQmetrix uses a collection runner to automate tasks in other systems"
     url: "https://www.postman.com/case-studies/iqmetrix/"
-
-warning: false
-
 ---
 
 The _Collection Runner_ enables you to run a collection's requests in a specified sequence. It logs your request [test results](/docs/writing-scripts/test-scripts/) and can use [scripts](/docs/writing-scripts/intro-to-scripts/) to pass data between requests and alter the request workflow.
 
 You can configure the Collection Runner to meet your development needs. You can run collections using a specific environment, and can pass data files into a run. Collection runs enable you to automate your API testing, and you can schedule runs to run in the Postman cloud with the [Collection Runner](/docs/collections/running-collections/scheduling-collection-runs/) or with [monitors](/docs/collections/running-collections/scheduling-collection-runs-monitors/). You can also integrate collection runs with your CI/CD pipeline using [the Postman CLI](/docs/postman-cli/postman-cli-overview/), a Postman tool that enables you to run and test collections directly from the command line.
 
-![Collection Runner results page overview](https://assets.postman.com/postman-docs/v10/collection-runner-overview-1-v10.jpg)
-
 ## Contents
 
 * [Configuring a collection run](#configuring-a-collection-run)
-* [Running your collections](#running-your-collections)
+* [Debugging run results](#debugging-run-results)
 * [Sharing collection runs](#sharing-collection-runs)
 * [Automating collection runs](#automating-collection-runs)
 * [Next steps](#next-steps)
@@ -70,13 +65,14 @@ You can configure the Collection Runner to meet your development needs. You can 
     * **Iterations** - The number of iterations for your collection run. You can also run collections multiple times with different data sets to [build workflows](/docs/collections/running-collections/building-workflows/).
     * **Delay** - An interval delay in milliseconds between each request.
     * **Data** - A [data file](/docs/collections/running-collections/working-with-data-files/) for the collection run.
+    * **Persist responses for a session** - Log the response headers and bodies so you can review them after running the collection. For large collections, persisting responses may affect performance.
+
+    > Request and response details are persisted locally during your current Postman session and aren't saved permanently. Signing out of Postman, signing into another device with the same account, or refreshing your browser will end your session and remove the logged data.
+
     * **Advanced settings**
-      * **Save responses** - Save response headers and bodies to the log to review them later. For large collection runs, this setting can affect performance.
       * **Keep variable values** - Persist the variables used in the run, so that any variables updated by the run will remain changed after it completes. If you don't persist variables, changes aren't saved after the run completes. _Note that persisting variables in the collection run will update the current value only._
       * **Run collection without using stored cookies** - If your requests use cookies, you can optionally deactivate them for a collection run.
       * **Save cookies after collection run** - Save the cookies used in this session to the cookie manager. Any values changed by requests during the run will remain after it completes.
-
-      <img alt="Collection Runner configuration settings" src="https://assets.postman.com/postman-docs/v10/collection-runner-configuration-manually-v10.jpg" width="800px"/>
 
 1. By default, your requests run in the sequence they're listed in the collection. If you need to change the order of execution, select and drag a request to its new location in the order. You can also remove an individual request from the run by clearing the checkbox next to its name.
 
@@ -84,37 +80,33 @@ You can configure the Collection Runner to meet your development needs. You can 
 
 1. When you've completed your configuration, select **Run (collection name)**.
 
+![Collection Runner configuration](https://assets.postman.com/postman-docs/v10/collection-run-configuration-v10-12.jpg)
+
 > Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of collection runs you can use each month. This limit applies to collections that you run in a workspace or the Scratch Pad using the **Run manually** option. This limit doesn't apply to [scheduled collection runs](/docs/collections/running-collections/scheduling-collection-runs/) in the Postman cloud. A collection run with multiple iterations counts as a single run.
 >
 > A message will display in the Collection Runner when you're approaching your usage limit. Learn more about [resource usage](/docs/administration/resource-usage/) in Postman.
 
-## Running your collections
+## Debugging run results
 
-When running collections manually, Postman displays a summary of your request executions and test results in real time.
+When running collections manually, Postman displays the results of your request executions and test results in real time. You can view the source of the collection run, selected environment, number of iterations, total duration, number of tests, and average response time.
 
-![Collection Runner results](https://assets.postman.com/postman-docs/v10/collection-run-results-summary-v10.jpg)
+![Collection Runner results](https://assets.postman.com/postman-docs/v10/collection-run-results-v10-12a.jpg)
 
-To access more data about what happened when a request executed, do the following:
+To learn more about what happened during the collection run, do any of the following:
 
-1. Select **View Results**.
+* Select a request to view details about the request. You can view general information about the request and the request headers and body. You can also view the response headers and body if you selected the **Persist responses for a session** option when [configuring the collection run](#configuring-a-collection-run).
 
-1. Select the request's name from the list of results.
+* Select the name of a request to open the request in a new tab. You can view any test scripts or select **Send** to send the request again.
 
-    ![Collection Runner results](https://assets.postman.com/postman-docs/v10/collection-runner-run-results-v10.jpg)
+* Select the **Passed**, **Failed**, or **Skipped** tabs to filter the results by test status. To show all requests, select the **All Tests** tab. If any tests in a request script fail during a collection run, the whole request fails.
 
-1. To view more details, including any log statements used in your collection, select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> __Console__ from the footer.
+* If your collection run included more than one iteration, select an iteration number to jump to the results of a specific iteration.
 
-1. To return to the summary of the run, select __View Results__.
+* Select **View all runs** to view a list of past runs. Learn more about [viewing run history](#viewing-run-history).
 
-### Viewing test results
+* Select **View Summary** to view a summary of the collection run, including test results. To return to the full results, select **View Results**.
 
-If your collection has tests, the **View Results** page indicates whether each request passed, failed, or was skipped. You can also filter on each using the __Passed__, __Failed__, and __Skipped__ tabs at the top. If any tests in a request script fail during the collection run, the whole request fails.
-
-> If you select __Save responses__ when you start a collection run, Postman displays the responses in the run results.
-
-### Viewing iterations
-
-If you set an iteration number for the collection run, you can access the overview for each iteration by selecting one from the list on the right.
+![Collection Runner summary](https://assets.postman.com/postman-docs/v10/collection-run-summary-v10-12.jpg)
 
 ## Viewing run history
 
@@ -137,7 +129,7 @@ The following are displayed for each collection run:
 
 Hover over an item to show the following controls:
 
-* **View report** - Select to open the **Test Results** tab for the collection run, as described in [viewing test results](#viewing-test-results).
+* **View report** - Select to open the full results for the collection run. Learn more about [debugging run results](#debugging-run-results).
 * **Share** - Select to share the results with another team member. This provides a link you can give to other team members so they can view details of this run. Note that this doesn't work in personal workspaces.
 
 ## The Scheduled runs tab
