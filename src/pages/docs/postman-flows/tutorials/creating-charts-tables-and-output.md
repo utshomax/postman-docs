@@ -1,9 +1,9 @@
 ---
 title: "Creating charts, tables, and media"
-updated: 2023-03-02
+updated: 2023-03-17
 ---
 
-<img alt="Output block" src="https://assets.postman.com/postman-labs-docs/creating-charts-tables-and-output/output-temp-and-humidity.png" width=350px/><img alt="Output block" src="https://assets.postman.com/postman-labs-docs/creating-charts-tables-and-output/output-stock-sma-medium.png" width=350px/>
+<img alt="Output block" src="https://assets.postman.com/postman-labs-docs/creating-charts-tables-and-output/stock-charts.gif"/>
 
 The Output block takes in information from other blocks and creates a visual display of that information.
 
