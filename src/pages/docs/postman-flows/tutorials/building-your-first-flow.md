@@ -1,9 +1,13 @@
 ---
 title: "Building your first flow"
-updated: 2022-11-17
+updated: 2023-03-22
 ---
 
-This page walks you through your first flow, calling the Pokémon API and printing out the list to the console. The Pokémon API returns over 1,000 results, but this flow will print two hundred at a time to the console until it reaches the end of the list.
+Postman Flows is a visual tool for building software for the API-First world. With Postman Flows, anyone can connect their web services' APIs to build workflows, integrations, and API applications in a visual and collaborative development environment.
+
+This page shows you how to create flows with a [quick start tutorial](#quick-start) and a [more detailed tutorial](#creating-a-request-and-a-collection). The quick start tutorial shows you how to create a flow in Postman that sends an HTTP request, checks if the response status code is 200, and outputs `true` or `false`.
+
+The more detailed tutorial starts with [Creating a request and a collection](#creating-a-request-and-a-collection). This tutorial creates a flow that sends a GET request to a Pokémon API, logs the responses one page at a time, and checks to see if each page is the last. When it reaches the last page, it stops sending requests.
 
 ## Contents
 
@@ -23,8 +27,6 @@ This page walks you through your first flow, calling the Pokémon API and printi
 ## Quick start
 
 This quick start tutorial creates a flow to check if a request returns a `200` status code.
-
-  > For more detailed tutorials, start with [Creating a request and a collection](#creating-a-request-and-a-collection) and continue from there.
 
 1. Navigate to the [**Brewing Postman Flows**](https://www.postman.com/postman/workspace/brewing-postman-flows/request/33232-c2957b4f-149a-4c10-aaa3-30829ca8c1bd) workspace.
 
