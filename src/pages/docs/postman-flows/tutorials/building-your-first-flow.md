@@ -36,17 +36,31 @@ This quick start tutorial creates a flow to check if a request returns a `200` s
 
 1. Right-click the canvas next to the **Start** block and enter `send`. Select **Send Request** from the list.
 
-1. Select the port on the **Start** block and drag your cursor to the port on the left side of the **Send Request** block. This connects the blocks so information can flow between them.
+    ![Enter `send` and select **Send Request**](https://assets.postman.com/postman-docs/v10/flow-qs-enter-send-v10.jpg)
+
+1. (Optional) [Hide the sidebar](/docs/getting-started/navigating-postman/#sidebar) to enlarge the canvas.
+
+1. Connect the **Start** block to the **Send Request** block.
+
+    ![Connect the blocks](https://assets.postman.com/postman-docs/v10/flow-qs-add-send-v10.jpg)
 
 1. In the **Send Request** block, select **Add request > DownDetector > sitemap**.
 
 1. In the **Send Request** block, select the port next to **Success** and drag and drop it to the right. Enter `eval` and select **Evaluate** from the list.
 
+    ![Add an **Evaluate** block](https://assets.postman.com/postman-docs/v10/flow-qs-add-eval-v10.jpg)
+
 1. In the **Evaluate** block, select `value1` and change it to `status`.
 
-1. Select **Enter path...**, scroll down, and select **status**.
+1. Select **Enter path...**, scroll down, and select **http.status**.
 
-1. Select the magic wand and enter `Check if the status code equals 200`.
+    ![Enter `send` and select **Send Request**](https://assets.postman.com/postman-docs/v10/flow-qs-select-status-v10.jpg)
+
+1. Select the magic wand, then select **Describe what you want this Evaluate block to do...**.
+
+1. Enter `Check if the status code is 200`.
+
+    ![Enter FQL](https://assets.postman.com/postman-docs/v10/flow-qs-generate-fql-v10.jpg)
 
 1. Select **Generate FQL**. `status=200` appears in the block.
 
