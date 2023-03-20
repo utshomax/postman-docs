@@ -73,26 +73,26 @@ Begin by creating a new collection and adding a GET request. You'll use this col
 
     > Because you saved an example earlier, the returned data's structure auto-populates in the block.
 
-    ![Select body.results](https://assets.postman.com/postman-docs/v10/flow-body-results-v10.jpg)
+    ![Select body.results](https://assets.postman.com/postman-docs/v10/flow-body-results-1-v10.jpg)
 
 1. Create a **Log** block and connect it to the right side of the **Select** block, then select **Run**.
 1. Select **Console** to view the results.
 
-    ![Add a Log block](https://assets.postman.com/postman-docs/v10/flow-add-log-v10.jpg)
+    ![Add a Log block](https://assets.postman.com/postman-docs/v10/flow-add-log-1-v10.jpg)
 
 ## Checking for the next page of results
 
 1. Create another **Select** block and connect it to the **Success** port on the **Send Request** block.
 
-    ![Add another Select block](https://assets.postman.com/postman-docs/v10/flow-add-another-select-v10.jpg)
+    ![Add another Select block](https://assets.postman.com/postman-docs/v10/flow-add-another-select-1-v10.jpg)
 
-1. In the **Select** block you created, select **Enter path...** and select `next` to get the link to the next page of results.
+1. In the **Select** block you created, select **Enter path...** and select `body.next` to get the link to the next page of results.
 
     ![Select `next`](https://assets.postman.com/postman-docs/v10/flow-select-next-v10.jpg)
 
-1. Create an **If** block to the right of the `body.next` **Select** block. Connect the **Select** block to the `key` port. This creates a variable named `value1`.
+1. Create an **If** block to the right of the `body.next` **Select** block. Connect the `body.next` **Select** block to the `key` port. This creates a variable named `value1`.
 
-1. Also connect the **Select** block to the `Data` port in the **If** block.
+1. Also connect the `body.next` **Select** block to the `Data` port in the **If** block.
 
     ![Connect the **If** block](https://assets.postman.com/postman-docs/v10/flow-add-if-block-2-v10.jpg)
 
