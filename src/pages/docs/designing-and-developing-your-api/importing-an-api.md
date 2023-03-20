@@ -15,6 +15,9 @@ contextual_links:
   - type: link
     name: "Import Multi File API Definitions | Postman Level Up"
     url: "https://youtu.be/RqVJV9LQORc"
+  - type: link
+    name: "Import OpenAPI definitions from Azure API Management to Postman"
+    url: "https://youtu.be/0XWReDRibmU"
   - type: subtitle
     name: "Blog posts"
   - type: link

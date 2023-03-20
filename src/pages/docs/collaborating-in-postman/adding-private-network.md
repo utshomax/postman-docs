@@ -26,8 +26,8 @@ contextual_links:
     name: "How to Make Your APIs Available to More Consumers"
     url: "https://blog.postman.com/how-to-make-your-apis-available-to-more-consumers/"
   - type: link
-    name: "Improved Internal API Discovery with the Redesigned Private API Network"
-    url: "https://blog.postman.com/improving-api-discovery-with-the-redesigned-private-api-network/"
+    name: "You can now see what’s trending across the Private API Network"
+    url: "https://blog.postman.com/whats-trending-private-api-network/"
   - type: subtitle
     name: "Case Studies"
   - type: link

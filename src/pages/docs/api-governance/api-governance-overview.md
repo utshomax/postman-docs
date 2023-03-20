@@ -9,6 +9,9 @@ contextual_links:
   - type: link
     name: "API Governance | The Exploratory"
     url: "https://youtu.be/fuquGWdYAGA"
+  - type: link
+    name: "Collaboration and Governance for API Teams | Postman Intergalactic"
+    url: "https://youtu.be/4rxpdcGeixs"
   - type: subtitle
     name: "Blog posts"
   - type: link
