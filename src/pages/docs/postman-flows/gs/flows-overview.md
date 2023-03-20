@@ -31,7 +31,7 @@ Flows is an API-centric visual application development interface. It provides yo
 
 It's powered by the Postman Public API Network and your Collections. Flows provides data manipulation capabilities to bridge the gap between your APIs, and data visualization to show the final output of your flows.
 
-You can also deploy your flows and run them in the cloud. WebHooks to enable you to integrate with other applications.
+You can also deploy your flows and run them in the cloud. WebHooks enable you to integrate with other applications.
 
 ## What can you do with flows?
 
