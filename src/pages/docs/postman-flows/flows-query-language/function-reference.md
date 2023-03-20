@@ -8,28 +8,18 @@ All [Flows Query Language](/docs/postman-flows/flows-query-language/introduction
 ## Contents
 
 * [General functions](#general-functions)
+* [Array functions](#array-functions)
 * [Numeric functions](#numeric-functions)
 * [Date and time functions](#date-and-time-functions)
 
 ## General functions
 
-### append
-
-``` javascript
-$append($arr: array, $val: any) => array //returns a new array with $val appended (added) to $arr
-```
-
-#### Basic usage
-
-``` javascript
-$append([1,2,3], [5,6]) -> [1,2,3,4,5,6]
-$append([1,2,3], 5) -> [1,2,3,5]
-```
-
 ### assert
 
+Throws an error with the message if a condition is false.
+
 ``` javascript
-$assert($cond: bool, $msg: string) => error //throws an error with the message $msg if $cond is false
+$assert($cond: bool, $msg: string) => error
 ```
 
 #### Basic usage
@@ -40,8 +30,10 @@ $assert(user.age <18, “error:  user cannot vote!”)
 
 ### average
 
+Returns the average value of a numeric array.
+
 ``` javascript
-$average($array: array<num>) => number //returns the average value of a numeric array
+$average($array: array<num>) => number
 ```
 
 #### Basic usage
@@ -52,8 +44,10 @@ $average([1,2,3,4,5]) -> 3
 
 ### boolean
 
+Casts an argument to its effective boolean value.
+
 ``` javascript
-$boolean($arg: any) => bool //casts $arg to its effective boolean value
+$boolean($arg: any) => bool
 ```
 
 #### Basic usage
@@ -67,8 +61,10 @@ $boolean('abc') ->  true
 
 ### contains
 
+Returns true if a string contains a pattern.
+
 ``` javascript
-$contains($str: string, $pattern: string | regex) => bool //returns true if $str contains $pattern
+$contains($str: string, $pattern: string | regex) => bool
 ```
 
 #### Basic usage
@@ -78,23 +74,12 @@ $contains("hello, world", "lo") -> true
 $contains("hello world", "ab") -> false
 ```
 
-### count
-
-``` javascript
-$count($array) => number //returns the number of elements in an array
-```
-
-#### Basic usage
-
-``` javascript
-$count([1,2,3,4,5]) -> 5
-$count([]) -> 0
-```
-
 ### decodeUrl
 
+Decodes string from a URL.
+
 ``` javascript
-$decodeUrl($val: string) => string //decodes string from a URL($val)
+$decodeUrl($val: string) => string
 ```
 
 #### Basic usage
@@ -105,8 +90,10 @@ $decodeUrl("https://mozilla.org/?x=%D1%88%D0%B5%D0%BB%D0%BB%D1%8B") -> "https://
 
 ### decodeUrlComponent
 
+Decodes a string from a component previously created with `encodeUrlComponent`.
+
 ``` javascript
-$decodeUrlComponent($val: string) => string //decodes string from a component for URL($val)
+$decodeUrlComponent($val: string) => string
 ```
 
 #### Basic usage
@@ -115,22 +102,12 @@ $decodeUrlComponent($val: string) => string //decodes string from a component fo
 $decodeUrlComponent("%3Fx%3Dtest") -> "?x=test"
 ```
 
-### distinct
-
-``` javascript
-$distinct($arr: array) => array //returns a new array with the distinct elements of $arr with duplicates eliminated
-```
-
-#### Basic usage
-
-``` javascript
-$distinct([“a”, “b”, “b”, “c”]) -> [“a”, “b”, “c”]
-```
-
 ### each
 
+Applies a function to each key/value pair of an object.
+
 ``` javascript
-$each($obj: object, func: ($val, $key) : any) //Applies func to each key,value pair of the $obj
+$each($obj: object, func: ($val, $key) : any)
 ```
 
 #### Basic usage
@@ -151,8 +128,10 @@ $each(Address, fn($v, $k) {$k & ": " & $v}) ->
 
 ### encodeUrl
 
+Encodes a value into a URL.
+
 ``` javascript
-$encodeUrl($val: string) => string //encodes  $val into a URL
+$encodeUrl($val: string) => string
 ```
 
 #### Basic usage
@@ -163,8 +142,10 @@ $encodeUrl("https://mozilla.org/?x=шеллы") -> "https://mozilla.org/?x=%D1%8
 
 ### encodeUrlComponent
 
+Encodes a value into a component for a URL.
+
 ``` javascript
-$encodeUrlComponent($val: string) => string //encodes  $val into a component for URL
+$encodeUrlComponent($val: string) => string
 ```
 
 #### Basic usage
@@ -175,8 +156,10 @@ $encodeUrlComponent("?x=test")  -> "%3Fx%3Dtest"
 
 ### eval
 
+Evaluates an expression.
+
 ``` javascript
-$eval($val:string) => any //evaluates the expression $val. Advanced feature
+$eval($val:string) => any
 ```
 
 #### Basic usage
@@ -187,8 +170,10 @@ $eval('[1,$string(2),3]') -> [1,"2",3]
 
 ### exists
 
+Returns true if a value is not null or undefined.
+
 ``` javascript
-$exists($val: any) => bool //returns true if $val is not null or undefined
+$exists($val: any) => bool
 ```
 
 #### Basic usage
@@ -203,8 +188,10 @@ $exists(blah) -> false
 
 ### filter
 
+Returns an array of elements which satisfy the predicate defined in a function.
+
 ``` javascript
-$filter($arr: array, $func: ($e, $index?: number?, $ar: array )=> boolean) => array //Returns an array of elements which  satisfyy the predicate defined in $func
+$filter($arr: array, $func: ($e, $index?: number?, $ar: array )=> boolean) => array
 ```
 
 #### Basic usage
@@ -215,8 +202,10 @@ $filter([1,2,3,4,5], fn($e){ $e>3}) -> [4, 5]
 
 ### join
 
+Joins the elements of an array into a string using the optional separator string.
+
 ``` javascript
-$join($arr: array<string>, $separator?: string) => string //joins the elements of $arr into a string using the optional $separator string
+$join($arr: array<string>, $separator?: string) => string
 ```
 
 #### Basic usage
@@ -229,8 +218,10 @@ $join([1,2,3], "..") -> "1..2..3"
 
 ### json
 
+Converts an object to a JSON string.
+
 ``` javascript
-$json($val:any) => string //converts an object to a JSON string
+$json($val:any) => string
 ```
 
 #### Basic usage
@@ -241,8 +232,10 @@ json({'a': 1, 'b' : "hello"}) ->  "{"a":1,"b":"hello"}"
 
 ### jsonParse
 
+Parses a JSON string into an object.
+
 ``` javascript
-$jsonParse($val:string) => object //parses a JSON string into an object
+$jsonParse($val:string) => object
 ```
 
 #### Basic usage
@@ -253,8 +246,10 @@ $jsonParse('{"one": 1, "two": [3, "four"]}') -> {"one": 1,"two": [ 3,"four"]}
 
 ### keys
 
+Returns an array of the keys in an object.
+
 ``` javascript
-$keys($obj: object) => array<string> //returns an array of the keys in $obj
+$keys($obj: object) => array<string>
 ```
 
 #### Basic usage
@@ -281,8 +276,10 @@ $keys(Product) -> ["Product Name","ProductID","SKU","Description","Price","Quant
 
 ### length
 
+Returns the length of a string.
+
 ``` javascript
-$length($str: string) => number //returns the length of the string, $str
+$length($str: string) => number
 ```
 
 #### Basic usage
@@ -294,8 +291,10 @@ $length(““) -> 0
 
 ### lookup
 
+Returns the value of a key in an object.
+
 ``` javascript
-$lookup($obj: object, $key: string) => any //returns the value of $key in $obj
+$lookup($obj: object, $key: string) => any
 ```
 
 #### Basic usage
@@ -306,8 +305,10 @@ $lookup($obj: object, $key: string) => any //returns the value of $key in $obj
 
 ### lowercase
 
+Returns the lowercase version of a string.
+
 ``` javascript
-$lowercase($str: string) => string //returns the lowercase version of $str
+$lowercase($str: string) => string
 ```
 
 #### Basic usage
@@ -318,8 +319,10 @@ $loweCase("Hello World") -> "hello world"
 
 ### map
 
+Maps each element of an array using a function and returns a new array with all the mapped elements.
+
 ``` javascript
-$map($arr: array, $func: ($e, $index?: number?, $ar: array ) : array //Maps each element of an array using the $func and returns a new array with all the mapped  elements
+$map($arr: array, $func: ($e, $index?: number?, $ar: array ) : array
 ```
 
 #### Basic usage
@@ -330,8 +333,10 @@ $map([1,2,3,4,5], fn($e){ $e *2}) -> [2,4,6,8,10]
 
 ### max
 
+Returns the maximum value from a numeric array.
+
 ``` javascript
-$max($array) => number //returns the maximum value from a numeric array
+$max($array) => number
 ```
 
 #### Basic usage
@@ -342,8 +347,10 @@ $max([9,2,17,3]) -> 17
 
 ### match
 
+Returns an array of strings that match a pattern.
+
 ``` javascript
-$match($str: string, $pattern: string | regex) => array<string> //returns an array of strings that match $pattern
+$match($str: string, $pattern: string | regex) => array<string>
 ```
 
 #### Basic usage
@@ -354,8 +361,10 @@ $match("ababbabbbcc",/a(b+)/) -> ["ab", "abb", "abbb"]
 
 ### merge
 
+Returns a new object with the properties of each object in an array of objects merged into it.
+
 ``` javascript
-$merge($arr: array<object>) => object //returns a new object with the properties of each object in $arr (an array of objects) merged into it
+$merge($arr: array<object>) => object
 ```
 
 #### Basic usage
@@ -366,8 +375,10 @@ $merge([{"a":1},{"b":2}]) -> {"a": 1,"b": 2}
 
 ### not
 
+Returns true if a value is false, or false otherwise.
+
 ``` javascript
-$not($x: any) => bool //returns true if $x is falsey, false otherwise
+$not($x: any) => bool
 ```
 
 #### Basic usage
@@ -384,8 +395,10 @@ $not(“hello”) -> false
 
 ### pad
 
+Returns a copy of a string padded to a length with $pad (if provided).
+
 ``` javascript
-$pad($str: string, $length: number, $pad?: string) => string //returns a copy of $str padded to $length with $pad (if provided)
+$pad($str: string, $length: number, $pad?: string) => string
 ```
 
 #### Basic usage
@@ -397,8 +410,10 @@ $pad("example", 5, "-") -> "example--"
 
 ### partition
 
+Partitions an array into an array of arrays of size $n.
+
 ``` javascript
-$partition($array:any, $n: numbers) => array //partitions $array into an array of arrays of size $n
+$partition($array:any, $n: numbers) => array
 ```
 
 #### Basic usage
@@ -410,8 +425,10 @@ $partition([1,2,3,4,5,6,7,8,9,10], 3) -> [[1,2,3], [4,5,6], [7,8,9], [10]]
 
 ### replace
 
+Returns a string with all occurrences of a pattern replaced by a replacement string.
+
 ``` javascript
-$replace($str: string, $pattern: string | regex, $replacement: string) => string //returns a string with all occurrences of $pattern replaced by $replacement
+$replace($str: string, $pattern: string | regex, $replacement: string) => string
 ```
 
 #### Basic usage
@@ -423,8 +440,10 @@ $replace("the cat sat on the mat", "at", "it") -> “the cit sit on the mit”
 
 ### reduce
 
+Reduces an array to some value using a function.
+
 ``` javascript
-$filter($arr: array, $func: ($e, $index?: number?, $ar: array )=> boolean) => any //Reduces an array using to some value using $func
+$filter($arr: array, $func: ($e, $index?: number?, $ar: array )=> boolean) => any
 ```
 
 #### Basic usage
@@ -433,47 +452,12 @@ $filter($arr: array, $func: ($e, $index?: number?, $ar: array )=> boolean) => an
 $reduce([1,2,3,4], fn($prev, $cur) { $prev*$cur}) ) -> 24
 ```
 
-### reverse
-
-``` javascript
-reverse($arr: array) => array //returns a new array with the elements of $arr in reverse order
-```
-
-#### Basic usage
-
-``` javascript
-$reverse([1,2,3,4,5]) -> [5,4,3,2,1]
-```
-
-### shuffle
-
-``` javascript
-shuffle($arr: array) => array //returns a new array with the elements of $arr in random order
-```
-
-#### Basic usage
-
-``` javascript
-$shuffle([1,2,3,4]) -> [3,1,4,2]
-```
-
-### sort
-
-``` javascript
-$sort($arr: array, $swapFn: ($l, $r)) => boolean  //is a higher order function that sorts the elements of an array using the $swapFn function. The comparator function takes two arguments, if it returns true, the elements will be swapped
-```
-
-#### Basic usage
-
-``` javascript
-$sort([13,2,8,6,15], fn($l, $r) { $l > $r }) -> [2,6,8,13,15]
-$sort([13,2,8,6,15], fn($l, $r) { $l < $r }) -> [15,13,8,6,2]
-```
-
 ### split
 
+Splits a string into an array of strings using a pattern.
+
 ``` javascript
-$split($str: string, $pattern: string | regex, $flags?: string) => array<string> //splits $str into an array of strings using $pattern
+$split($str: string, $pattern: string | regex, $flags?: string) => array<string>
 ```
 
 #### Basic usage
@@ -486,8 +470,10 @@ $split("too much, punctuation. hard; to read", /[ ,.;]+/) -> ["too", "much", "pu
 
 ### spread
 
+Returns an array of objects with a single key/value pair, where the key is the name of the property and the value is the value of the property.
+
 ``` javascript
-$spread($val: any) => array<object> //returns an array of objects with a single key/value pair, where the key is the name of the property and the value is the value of the property
+$spread($val: any) => array<object>
 ```
 
 #### Basic usage
@@ -498,8 +484,10 @@ $spread({ "a": 1, "b": 2}) -> [ { "a" : 1}, {"b": 2}]
 
 ### string
 
+Returns the string representation of the input value; if $prettify is true, the output string is formatted for readability.
+
 ``` javascript
-$string($value: any, $prettify? true | false) => string //returns the string representation of the input value; if $prettify is true, the output string is formatted for readability
+$string($value: any, $prettify? true | false) => string
 ```
 
 #### Basic usage
@@ -512,8 +500,10 @@ $string([1,2,3]) -> [“1”, “2”, “3”]
 
 ### substring
 
+Returns a substring of a string starting at $start and with length $length (if provided).
+
 ``` javascript
-$substring($str: string, $start: number, $length?: number) => string //returns a substring of $string starting at $start and with length $length (if provided)
+$substring($str: string, $start: number, $length?: number) => string
 ```
 
 #### Basic usage
@@ -525,8 +515,10 @@ $substring("hello world", -5, 5) -> “world”
 
 ### substringAfter
 
+Returns the substring of a string after the first occurrence of a separator.
+
 ``` javascript
-$substringAfter($str: string, $separator: string) => string //returns the substring of $string after the first occurrence of $separator
+$substringAfter($str: string, $separator: string) => string
 ```
 
 #### Basic usage
@@ -537,8 +529,10 @@ $substringAfter(“abc@gmail.com”, “@”) -> “gmail.com”
 
 ### substringBefore
 
+Returns the substring of a string before the first occurrence of a separator.
+
 ``` javascript
-$substringBefore($str: string, $separator: string) => string //returns the substring of $string before the first occurrence of $separator
+$substringBefore($str: string, $separator: string) => string
 ```
 
 #### Basic usage
@@ -549,8 +543,10 @@ $substringBefore( “john@gmail.com”, “@”) -> “john”
 
 ### sum
 
+Returns the sum of the values of a numeric array.
+
 ``` javascript
-$sum($array) => number //returns the sum of the values o a numeric array
+$sum($array) => number
 ```
 
 #### Basic usage
@@ -561,8 +557,10 @@ $sum([1,2,3,4]) -> 10
 
 ### trim
 
+Returns a copy of a string with leading and trailing whitespace removed.
+
 ``` javascript
-$trim($str: string) => string //returns a copy of $str with leading and trailing whitespace removed
+$trim($str: string) => string
 ```
 
 #### Basic usage
@@ -573,8 +571,10 @@ $trim(" Hello \n World ") -> "Hello World"
 
 ### type
 
+Returns the type of a value.
+
 ``` javascript
-$type($val: any) => string //returns the type of $val
+$type($val: any) => string
 ```
 
 #### Basic usage
@@ -589,8 +589,10 @@ $type(null) -> “null”
 
 ### uppercase
 
+Returns the uppercase version of a string
+
 ``` javascript
-$uppercase($str: string) => string //returns the uppercase version of $str
+$uppercase($str: string) => string
 ```
 
 #### Basic usage
@@ -601,8 +603,10 @@ $uppercase(“hello”) -> “HELLO”
 
 ### uuid
 
+Returns a unique id (UUID version 4) as a string.
+
 ``` javascript
-$uuid => string //returns a unique id ( UUID version 4) as a string
+$uuid => string
 ```
 
 #### Basic usage
@@ -611,10 +615,101 @@ $uuid => string //returns a unique id ( UUID version 4) as a string
 $uuid -> "503c5a9f-b8fb-402a-b0d7-fae17490bdf6"
 ```
 
-### zip
+## Array functions
+
+### append
+
+Returns a new array with a value appended (added) to an array.
 
 ``` javascript
-$zip($ar1:Array, $ar2:Array, $ar3;Array, ...) => Array takes 2 or more arrays and convolves (zips) each value from a set of arrays
+$append($arr: array, $val: any) => array
+```
+
+#### Basic usage
+
+``` javascript
+$append([1,2,3], [5,6]) -> [1,2,3,4,5,6]
+$append([1,2,3], 5) -> [1,2,3,5]
+```
+
+### count
+
+Returns the number of elements in an array.
+
+``` javascript
+$count($array) => number
+```
+
+#### Basic usage
+
+``` javascript
+$count([1,2,3,4,5]) -> 5
+$count([]) -> 0
+```
+
+### distinct
+
+Returns a new array with the distinct elements of $arr with duplicates eliminated.
+
+``` javascript
+$distinct($arr: array) => array
+```
+
+#### Basic usage
+
+``` javascript
+$distinct([“a”, “b”, “b”, “c”]) -> [“a”, “b”, “c”]
+```
+
+### reverse
+
+Returns a new array with the elements of an array in reverse order.
+
+``` javascript
+reverse($arr: array) => array
+```
+
+#### Basic usage
+
+``` javascript
+$reverse([1,2,3,4,5]) -> [5,4,3,2,1]
+```
+
+### shuffle
+
+Returns a new array with the elements of an array in random order.
+
+``` javascript
+shuffle($arr: array) => array
+```
+
+#### Basic usage
+
+``` javascript
+$shuffle([1,2,3,4]) -> [3,1,4,2]
+```
+
+### sort
+
+A higher-order function that sorts the elements of an array using the $swapFn function. The comparator function takes two arguments. If it returns true, the elements will be swapped.
+
+``` javascript
+$sort($arr: array, $swapFn: ($l, $r)) => boolean
+```
+
+#### Basic usage
+
+``` javascript
+$sort([13,2,8,6,15], fn($l, $r) { $l > $r }) -> [2,6,8,13,15]
+$sort([13,2,8,6,15], fn($l, $r) { $l < $r }) -> [15,13,8,6,2]
+```
+
+### zip
+
+Takes two or more arrays and convolves (zips) each value from a set of arrays.
+
+``` javascript
+$zip($ar1:Array, $ar2:Array, $ar3;Array, ...) => Array
 ```
 
 #### Basic usage
@@ -626,6 +721,8 @@ $zip([1,2,3],[4,5,6]) -> [[1,4],[2,5],[3,6]]
 ## Numeric functions
 
 ### abs
+
+Returns the absolute value of a number.
 
 ``` javascript
 $abs(n:number) : number
@@ -639,8 +736,10 @@ $abs(-1) ->  1
 
 ### ceil
 
+Returns the smallest integer greater than or equal to a number.
+
 ``` javascript
-$ceil($num: number) => number //returns the smallest integer greater than or equal to $num
+$ceil($num: number) => number
 ```
 
 #### Basic usage
@@ -651,8 +750,10 @@ $ceil(3.4) -> 4
 
 ### floor
 
+Returns the largest integer less than or equal to a number.
+
 ``` javascript
-$floor($num: number) => number //returns the largest integer less than or equal to $num
+$floor($num: number) => number
 ```
 
 #### Basic usage
@@ -663,8 +764,10 @@ $floor(3.4) -> 3
 
 ### formatBase
 
+Converts a number to a string in the optional base number system, if a base is not supplied, base 10 is used to create the string.
+
 ``` javascript
-$formatBase($num: number, $base?: number) => string //converts $num to a string in the optional $base number system, if $base is not supplied, base 10 is used to create the string
+$formatBase($num: number, $base?: number) => string
 ```
 
 #### Basic usage
@@ -675,8 +778,10 @@ $formatBase(100, 2) -> "1100100"
 
 ### number
 
+Converts a value to a number.
+
 ``` javascript
-$number($x: string | number | bool) => number //converts $x to a number
+$number($x: string | number | bool) => number
 ```
 
 #### Basic usage
@@ -689,8 +794,10 @@ $number(true) -> 1
 
 ### power
 
+Returns $num raised to the $exp power.
+
 ``` javascript
-$power($num: number, $exp: number) => number //returns $num raised to the $exp power
+$power($num: number, $exp: number) => number
 ```
 
 #### Basic usage
@@ -702,8 +809,10 @@ $power(3,4) -> 81
 
 ### round
 
+Rounds a number to the optional precision number of decimal places. If precision is negative, then its value specifies which column to round to on the left side of the decimal place.
+
 ``` javascript
-$round($num: number, $precision?: number) => number //rounds $num to the optional $precision number of decimal places. If $precision is negative, then its value specifies which column to round to on the left side of the decimal place
+$round($num: number, $precision?: number) => number
 ```
 
 #### Basic usage
@@ -719,8 +828,10 @@ $round(125.456,-1) -> 130
 
 ### sqrt
 
+Returns the square root of a number.
+
 ``` javascript
-$sqrt($num: number) => number //returns the square root of $num
+$sqrt($num: number) => number
 ```
 
 #### Basic usage
@@ -733,8 +844,10 @@ $sqrt(16) -> 4
 
 ### year
 
+Extracts the year component from a timestamp and returns it as a number.
+
 ``` javascript
-$year($timestamp: string |number) => number //extracts the year component from a timestamp and returns it as a number
+$year($timestamp: string |number) => number
 ```
 
 #### Basic usage
@@ -745,8 +858,10 @@ $year(“2023-02-08T07:56:14.747+00:00”) -> 2023
 
 ### month
 
+Extracts the month component from a timestamp.
+
 ``` javascript
-$month($timestamp: string |number) => number //extracts the month component from a timestamp
+$month($timestamp: string |number) => number
 ```
 
 #### Basic usage
@@ -757,8 +872,10 @@ $month(“2023-02-08”) -> 2
 
 ### dayOfTheWeek
 
+Returns the day of the week as a number [1=Monday, ... 6=Saturday, 7= Sunday].
+
 ``` javascript
-$dayOfTheWeek($timestamp: string |number) => number //returns the day of the week as a number [1=Monday, ... 6=Saturday, 7= Sunday]
+$dayOfTheWeek($timestamp: string |number) => number
 ```
 
 #### Basic usage
@@ -770,8 +887,10 @@ $dayOftheWeek('2023-02-07') -> 2
 
 ### day
 
+Extracts the day from a timestamp and returns it as a number.
+
 ``` javascript
-$day($timestamp: string |number) => number //extracts the day from a timestamp and returns it as a number
+$day($timestamp: string |number) => number
 ```
 
 #### Basic usage
@@ -782,8 +901,10 @@ $day(“2023-02-08”) -> 8
 
 ### hours
 
+Extracts the local hour component from a timestamp and returns it as a number.
+
 ``` javascript
-$hours($timestamp: string |number) => number //extracts the local hour component from a timestamp and returns it as a number
+$hours($timestamp: string |number) => number
 ```
 
 #### Basic usage
@@ -794,8 +915,10 @@ $hours(“2023-02-08T07:56:14.747+00:00”) -> 7
 
 ### minutes
 
+Extracts the minutes component from a timestamp and returns it as a number.
+
 ``` javascript
-$minutes($timestamp: string |number) => number //extracts the minutes component from a timestamp and returns it as a number
+$minutes($timestamp: string |number) => number
 ```
 
 #### Basic usage
@@ -806,8 +929,10 @@ $minutes(“2023-02-08T07:56:14.747+00:00”) -> 56
 
 ### seconds
 
+Extracts the local seconds component from a timestamp and returns it as a number.
+
 ``` javascript
-$seconds($timestamp: string |number) => number //extracts the local Seconds  component from a timestamp and returns it as a number
+$seconds($timestamp: string |number) => number
 ```
 
 #### Basic usage
@@ -818,8 +943,10 @@ $seconds(“2023-02-08T07:56:14.747+00:00”) -> 14
 
 ### milliSeconds
 
+Extracts the milliseconds from a timestamp and returns it as a number.
+
 ``` javascript
-$milliSeconds($timestamp: string |number) => number //extracts the Milliseconds from a timestamp and returns it as a number
+$milliSeconds($timestamp: string |number) => number
 ```
 
 #### Basic usage
@@ -830,8 +957,10 @@ $milliSeconds(“2023-02-08T07:56:14.747+00:00”) -> 747
 
 ### dateEquals
 
+Returns true if the two timestamps are the same, false otherwise.
+
 ``` javascript
-$equals($timestamp1: string |number, $timestamp2: string |number) => boolean //returns true if the two timestamps are the same, false otherwise
+$equals($timestamp1: string |number, $timestamp2: string |number) => boolean
 ```
 
 #### Basic usage
@@ -843,8 +972,10 @@ $dateEquals("2023-02-08", “2023-02-07”) -> false
 
 ### hasSameDate
 
+Returns true if the components specified in $units of  the two timestamps are the same, false otherwise.  $units is an array with one or more strings from ['years', 'months', 'days', 'hours', 'minutes', 'seconds', 'milliseconds'].
+
 ``` javascript
-$hasSameDate($timestamp1: string |number, $timestamp2: string |number, units?: Array<string>) => boolean //returns true if the components specified in $units of  the two timestamps are the same, false otherwise.  $units is an array with one or more strings from ['years', 'months', 'days', 'hours', 'minutes', 'seconds', 'milliseconds']
+$hasSameDate($timestamp1: string |number, $timestamp2: string |number, units?: Array<string>) => boolean
 ```
 
 #### Basic usage
@@ -858,8 +989,10 @@ $hasSameDate('2023-02-01T07:15:54.730Z', '2023-02-01T14:00:22.340Z', ['year','mo
 
 ### beforeDate
 
+Returns true if $timestamp1 is before $timestamp2, false otherwise.
+
 ``` javascript
-$beforeDate($timestamp1: string |number, $timestamp2: string |number) => boolean //returns true if $timestamp1 is before $timestamp2, false otherwise
+$beforeDate($timestamp1: string |number, $timestamp2: string |number) => boolean
 ```
 
 #### Basic usage
@@ -871,8 +1004,10 @@ $beforeDate(“2023-02-08”, “2023-02-08”) -> false
 
 ### afterDate
 
+Returns true if $timestamp1 is after $timestamp2, false otherwise.
+
 ``` javascript
-$afterDate($timestamp1: string |number, $timestamp2: string |number) => boolean //returns true if $timestamp1 is after $timestamp2, false otherwise
+$afterDate($timestamp1: string |number, $timestamp2: string |number) => boolean
 ```
 
 #### Basic usage
@@ -884,8 +1019,10 @@ $afterDate(“2023-02-08”, “2023-02-08”) -> false
 
 ### datePlus
 
+Adds a duration of type $units which can be one of ['years', 'months', 'days', 'hours', 'minutes', 'seconds', 'milliseconds'],  to a $timestamp and returns the new timestamp. If $duration if less than zero, then the it will be subtracted from the $timestamp.
+
 ``` javascript
-$datePlus($timestamp1: string |number, $duration: number, $units, ) => number //adds a duration of type $units which can be one of ['years', 'months', 'days', 'hours', 'minutes', 'seconds', 'milliseconds'],  to a $timestamp and returns the new timestamp. If $duration if less than zero, then the it will be subtracted from the $timestamp
+$datePlus($timestamp1: string |number, $duration: number, $units, ) => number
 ```
 
 #### Basic usage
@@ -897,8 +1034,10 @@ $datePlus(“2023-02-07”, 2, “months”) -> 1680825600000
 
 ### diffDate
 
+Returns the difference between two timestamps in the units specified which can be one of ['years', 'months', 'days', 'hours', 'minutes', 'seconds', 'milliseconds'].
+
 ``` javascript
-$diffDate($timestamp1: string |number, $timestamp2: string |number, $units : string, ) => number //returns the difference between two timestamps in the units specified which can be one of ['years', 'months', 'days', 'hours', 'minutes', 'seconds', 'milliseconds']
+$diffDate($timestamp1: string |number, $timestamp2: string |number, $units : string, ) => number
 ```
 
 #### Basic usage
@@ -910,8 +1049,10 @@ $diffDate("2023-02-08", "2023-01-22","hours") -> 408
 
 ### fromMillis
 
+Converts a number of milliseconds since the epoch to a string. $picture is optional, if not provided it will default to ISO format. Picture specs are as per Unicode date format standards.
+
 ``` javascript
-$fromMillis($val:number, $picture?: string) => string //converts a number of milliseconds since the epoch to a string. $picture is optional, if not provided it will default to ISO format. Picture specs are as per Unicode date format standards
+$fromMillis($val:number, $picture?: string) => string
 ```
 
 #### Basic usage
@@ -923,8 +1064,10 @@ $fromMillis(1522616700000, 'E EEEE') -> "7 Sunday"
 
 ### toMillis
 
+Converts a string to a number of milliseconds since the epoch. $picture is optional, if not provided it will default to ISO format. Picture specs are as per Unicode date format standards.
+
 ``` javascript
-$toMillis($val:string, $picture?: string) => number //converts a string to a number of milliseconds since the epoch. $picture is optional, if not provided it will default to ISO format. Picture specs are as per Unicode date format standards
+$toMillis($val:string, $picture?: string) => number
 ```
 
 #### Basic usage
