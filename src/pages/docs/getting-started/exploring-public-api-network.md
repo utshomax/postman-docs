@@ -28,8 +28,8 @@ contextual_links:
     name: "Exploring Public APIs and the Public API Network"
     url: "https://blog.postman.com/exploring-public-apis-and-public-api-network/"
   - type: link
-    name: "The Most Popular Collection in the Postman API Network"
-    url: "https://blog.postman.com/the-most-popular-collection-in-the-postman-api-network/"
+    name: "Most popular APIs in the Public API Network"
+    url: "https://blog.postman.com/most-popular-apis-in-the-public-api-network/"
   - type: link
     name: "Top 25 API Onboarding Experiences"
     url: "https://blog.postman.com/top-25-api-onboarding-experiences/"
