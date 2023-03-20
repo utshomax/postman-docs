@@ -20,15 +20,14 @@ contextual_links:
   - type: link
     name: "Working With Your Team in Postman | The Exploratory"
     url: "https://youtu.be/5lscUV-Exac"
+  - type: link
+    name: "Super Admin Role for Enterprise | Postman Level Up"
+    url: "https://youtu.be/SbvSAvs0Ii8"
   - type: subtitle
     name: "Blog posts"
   - type: link
     name: "Manage large teams in Postman with workspaces, permissions & more"
     url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"
-  - type: link
-    name: "Introducing the Super Admin Role: Manage All Your Team’s Users and Resources"
-    url: "https://blog.postman.com/introducing-the-super-admin-role/"
-
 ---
 
 > Certain team options are only available on **[Postman paid plans](https://www.postman.com/pricing)**. To learn which roles are available on your plan, go to your **[web dashboard](https://go.postman.co/settings/team/roles)**.

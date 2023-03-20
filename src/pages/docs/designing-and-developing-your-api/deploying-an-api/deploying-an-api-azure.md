@@ -13,6 +13,11 @@ contextual_links:
   - type: section
     name: "Additional resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Deploy to Azure API Gateway From Postman"
+    url: "https://youtu.be/w2kSAt8CBWE"
+  - type: subtitle
     name: "Blog posts"
   - type: link
     name: "Announcing the Postman Microsoft Azure Integration Partnership"

@@ -27,6 +27,11 @@ contextual_links:
     name: "Automatically Refresh OAuth2.0 Access Tokens | Postman Level Up"
     url: "https://www.youtube.com/watch?v=FAhs9TBK-xU"
   - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "OAuth 2.0 just got easier: introducing token refresh and ID token support"
+    url: "https://blog.postman.com/oauth-2-0-token-refresh-and-id-token-support/"
+  - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Intuit uses Postman's authentication protocols"
