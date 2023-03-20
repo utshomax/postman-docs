@@ -445,7 +445,6 @@ reverse($arr: array) => array //returns a new array with the elements of $arr in
 $reverse([1,2,3,4,5]) -> [5,4,3,2,1]
 ```
 
-
 ### shuffle
 
 ``` javascript
@@ -496,7 +495,6 @@ $spread($val: any) => array<object> //returns an array of objects with a single 
 ``` javascript
 $spread({ "a": 1, "b": 2}) -> [ { "a" : 1}, {"b": 2}]
 ```
-
 
 ### string
 
@@ -732,6 +730,7 @@ $sqrt(16) -> 4
 ```
 
 ## Date and time functions
+
 ### year
 
 ``` javascript
