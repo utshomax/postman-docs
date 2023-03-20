@@ -472,6 +472,10 @@ export const leftNavItems = [
             url: '/docs/postman-flows/tutorials/using-response-data-in-a-request/',
           },
           {
+            name: 'Building an Ecommerce Flow',
+            url: '/docs/postman-flows/tutorials/building-an-ecommerce-flow/',
+          },
+          {
             name: 'Using webhooks with Postman Flows',
             url: '/docs/postman-flows/tutorials/webhooks/',
           },

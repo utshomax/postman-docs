@@ -38,25 +38,26 @@ You can also deploy your flows and run them in the cloud. WebHooks to enable you
 Flows are the ultimate way to easily take data from an API-enabled product, manipulate it to meet your needs, and see the results. Or you could
 take data from one API-enabled product, make decisions or process the data, then send it to another API-enabled product. This means you can build real-time integrations between two API-enabled products.
 
-With Postman Flows, you can:
+Check out our Flows Workspaces filled with examples:
 
-* Make API calls visually and observe data flowing through them
+* [Business Flows](https://postman.postman.co/workspace/c6f19b56-a228-4f5a-a1bc-1b8d7be21c17)
+* [Integration Flows](https://postman.postman.co/workspace/9abda083-22f2-4a32-afe1-3c6b05b0bf9a)
+* [Voice assistant Flows](https://postman.postman.co/workspace/cea70434-9d9c-4c0c-a214-6b879ba5464a)
+* [Natual Language Processing (NLP) Flows](https://postman.postman.co/workspace/dd8b0e4e-2bec-432d-b6e2-e95ced762623)
+* [Slack Integration Flows](https://postman.postman.co/workspace/a8c27d72-a5a4-45e5-b656-d29cceb3ed0c)
+* [IT/Ops Flows](https://postman.postman.co/workspace/1f8af838-480b-428c-9410-3425593d2c5d)
+* [Utility Flows](https://postman.postman.co/workspace/4a452f3a-d5fb-47f7-9df7-1dc228472c6b)
+* [Miscellaneous Flows](https://postman.postman.co/workspace/fd213c4e-ff69-4666-beb4-b69232d5a729)
 
-* Create workflows with APIs from the [Public API Network](https://www.postman.com/explore)
-
-* Manipulate data using [Flows Query Language (FQL)](/docs/postman-flows/flows-query-language/introduction-to-fql/)
-
-* Deploy on the cloud and integrate with anything using [webhooks](/docs/postman-flows/tutorials/webhooks/)
+These workspaces contains example flows utilizing a multitude of APIs for different products and tools, plus all the related collections and environments needed. You can fork the flows to your own workspace, try them out, and then make your own changes and customizations.
 
 ## Quick start
 
-To get started, check out the following tutorials:
+To get started, check out the following resources:
 
-* [Step-by-step guide to building your first flow](/docs/postman-flows/tutorials/building-your-first-flow/)
-* [Running requests in sequence](/docs/postman-flows/tutorials/running-requests-in-sequence/)
-* [Passing data between blocks](/docs/postman-flows/tutorials/passing-data-between-blocks/)
-
-There's also a Postman workspace called [Brewing Postman Flows](https://www.postman.com/postman/workspace/brewing-postman-flows/overview) that's full of cool things you can do with Postman Flows. This workspace contains example flows utilizing a multitude of APIs for different products and tools, plus all the related collections and environments needed. You can fork the flows to your own workspace, try them out, and then make your own changes and customizations.
+* [Step-by-step guide to building your first Flow](/docs/postman-flows/tutorials/building-your-first-flow/)
+* [Building an Ecommerce Flow](/docs/postman-flows/tutorials/building-an-ecommerce-flow/)
+* [Flows Snippets: an example for every block](https://www.postman.com/postman/workspace/flows-snippets)
 
 ## Contribute
 
