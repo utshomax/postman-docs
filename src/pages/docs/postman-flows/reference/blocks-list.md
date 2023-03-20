@@ -225,6 +225,10 @@ Prints the input to the console.
 
 ### Output
 
-<img alt="Output block" src="https://assets.postman.com/postman-labs-docs/all-blocks/output-block.png" width="412px"/>
+<img alt="Output block" src="https://assets.postman.com/postman-labs-docs/all-blocks/output-block.png" width="249px"/>
 
-Displays the data passed through the port. The drop down menu lets you select from JSON, charts, tables, videos, images, etc.
+Displays the data passed through the port. The dropdown menu enables you to select from JSON, charts, tables, videos, images, and more. You can use **Output** blocks to:
+
+* Debug flows by viewing data directly on the canvas instead of opening the Postman console to view logs.
+* Create and display markdown, images, videos, and even YouTube embeds.
+* Create interactive dashboards using bar charts, line charts, tables, and more.
