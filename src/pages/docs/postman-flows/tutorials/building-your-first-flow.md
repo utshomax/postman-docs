@@ -26,13 +26,13 @@ The more detailed tutorial starts with [Creating a request and a collection](#cr
 
 ## Quick start
 
-This quick start tutorial creates a flow to check if a website is down or not. It does this by looking for a `200` status code in the response. If the website is up and running, the flow says `True`. If the website is down, the flow says `False`.
+This quick start tutorial creates a flow to check if a website is down or not. It does this by sending a request to the website and looking for a `200` status code in the response. If the website is up and running, the flow's **Output** block will display `True`. If the website is down, it will display `False`.
 
 1. Go to the [**Brewing Postman Flows**](https://www.postman.com/postman/workspace/brewing-postman-flows/request/33232-c2957b4f-149a-4c10-aaa3-30829ca8c1bd) workspace and [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) the [**DownDetector**](https://www.postman.com/postman/workspace/brewing-postman-flows/collection/25695810-fda5eef1-bddf-4f37-a84d-dc52454a156a?action=share&creator=24088680) collection to your workspace. Then, in your workspace, select **New > Flows** and [hide the sidebar](/docs/getting-started/navigating-postman/#sidebar).
 
     ![Fork the collection](https://assets.postman.com/postman-docs/v10/flow-tut-fork-collection-1-v10.gif)
 
-1. Right-click the canvas and add a **Send Request** block, then connect it to the **Start** block.
+1. Right-click the canvas and select **Send Request** from the list of blocks. Connect the **Send Request** block to the **Start** block.
 
     ![Create a **Send Request** block and connect it](https://assets.postman.com/postman-docs/v10/flow-tut-add-send-v10.gif)
 
@@ -46,7 +46,7 @@ This quick start tutorial creates a flow to check if a website is down or not. I
 
 1. Select **Start writing an FQL query...** and enter `status=200`.
 
-    ![Enter `status=200`](https://assets.postman.com/postman-docs/v10/flow-tut-select-status-v10.gif)
+    ![Enter `status=200`](https://assets.postman.com/postman-docs/v10/flow-tut-status-200-v10.gif)
 
 1. Drag and drop the port on the right side of the **Evaluate** block and add an **Output** block.
 
@@ -54,7 +54,7 @@ This quick start tutorial creates a flow to check if a website is down or not. I
 
 ## Creating a request and a collection
 
-Begin by creating a new collection and adding a GET request. You'll use this collection with the flow you'll create later.
+This is the beginning of a detailed tutorial that builds a flow that gets a list of Pokémon, one page at a time, until it reaches the last page. Start by creating a new collection and adding a GET request. You'll use this collection with the flow you'll create later.
 
 1. In your workspace, select **New > Collection**. Name the collection **Pokemon API**.
 1. [Add a GET request](/docs/getting-started/sending-the-first-request/) with this URL: `https://pokeapi.co/api/v2/pokemon?limit=200`.
