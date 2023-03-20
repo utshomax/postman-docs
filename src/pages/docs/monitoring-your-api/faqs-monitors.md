@@ -10,13 +10,11 @@ warning: false
 
 ### What can I test with monitors?
 
-You can use uptime monitors to make sure your servers are online and are responding as expected. You also can [write tests](/docs/writing-scripts/test-scripts/) for collection-based monitors to check for proper behavior, business logic, and error handling.
+You can [write tests](/docs/writing-scripts/test-scripts/) for collection-based monitors to check for proper behavior, business logic, and error handling.
 
 ### How many monitors can I create?
 
 There is no limit to the number of collection-based monitors you can create. You can have any number of collections, each with any number of monitors, and each monitor can run on a different schedule.
-
-For limits on the number of uptime monitors you can create, see [Uptime monitor pricing](/docs/monitoring-your-api/uptime-monitors/#uptime-monitor-pricing).
 
 ### How many regions can my monitor run in?
 
@@ -38,7 +36,7 @@ You can't import existing global variables into a monitor, but you can create ne
 
 ### How many HTTP requests can a monitor send?
 
-Uptime monitors can be configured to call a single URL or endpoint. For collection-based monitors, there is no limit to the number of requests, but the total runtime can't exceed 10 minutes (Postman Free plans) or 15 minutes (Postman paid plans).
+For collection-based monitors, there is no limit to the number of requests, but the total runtime can't exceed 10 minutes (Postman Free plans) or 15 minutes (Postman paid plans).
 
 ### Can I run a request multiple times?
 
