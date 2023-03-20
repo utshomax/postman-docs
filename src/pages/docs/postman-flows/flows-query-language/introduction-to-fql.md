@@ -27,4 +27,4 @@ The following sections show examples of things you can do with FQL:
 
 ## FQL reference
 
-For a complete reference for all FQL functions, see the [FQL function Reference](/docs/postman-flows/flows-query-language/function-reference/).
+For a complete reference for all FQL functions, see the [FQL function reference](/docs/postman-flows/flows-query-language/function-reference/).
