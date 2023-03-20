@@ -5,9 +5,9 @@ updated: 2023-03-22
 
 Postman Flows is a visual tool for building software for the API-First world. With Postman Flows, anyone can connect their web services' APIs to build workflows, integrations, and API applications in a visual and collaborative development environment.
 
-This page shows you how to create flows with a [quick start tutorial](#quick-start) and a [more detailed tutorial](#creating-a-request-and-a-collection). The quick start tutorial shows you how to create a flow in Postman that sends an HTTP request, checks if the response status code is 200, and outputs `true` or `false`.
+This page shows you how to create flows with a [quick start tutorial](#quick-start) and a [more detailed tutorial](#creating-a-request-and-a-collection). The quick start tutorial shows you how to create a flow in Postman that checks if a website is down.
 
-The more detailed tutorial starts with [Creating a request and a collection](#creating-a-request-and-a-collection). This tutorial creates a flow that sends a GET request to a Pokémon API, logs the responses one page at a time, and checks to see if each page is the last. When it reaches the last page, it stops sending requests.
+The more detailed tutorial starts with [Creating a request and a collection](#creating-a-request-and-a-collection). This tutorial creates a flow that gets a list of Pokémon, one page at a time, until it reaches the last page.
 
 ## Contents
 
@@ -26,49 +26,31 @@ The more detailed tutorial starts with [Creating a request and a collection](#cr
 
 ## Quick start
 
-This quick start tutorial creates a flow to check if a request returns a `200` status code.
+This quick start tutorial creates a flow to check if a website is down or not. It does this by looking for a `200` status code in the response. If the website is up and running, the flow says `True`. If the website is down, the flow says `False`.
 
-1. Navigate to the [**Brewing Postman Flows**](https://www.postman.com/postman/workspace/brewing-postman-flows/request/33232-c2957b4f-149a-4c10-aaa3-30829ca8c1bd) workspace.
+1. Go to the [**Brewing Postman Flows**](https://www.postman.com/postman/workspace/brewing-postman-flows/request/33232-c2957b4f-149a-4c10-aaa3-30829ca8c1bd) workspace and [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) the [**DownDetector**](https://www.postman.com/postman/workspace/brewing-postman-flows/collection/25695810-fda5eef1-bddf-4f37-a84d-dc52454a156a?action=share&creator=24088680) collection to your workspace. Then, in your workspace, select **New > Flows** and [hide the sidebar](/docs/getting-started/navigating-postman/#sidebar).
 
-1. [Fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) the [**DownDetector**](https://www.postman.com/postman/workspace/brewing-postman-flows/collection/25695810-fda5eef1-bddf-4f37-a84d-dc52454a156a?action=share&creator=24088680) collection to your workspace.
+    ![Fork the collection](https://assets.postman.com/postman-docs/v10/flow-tut-fork-collection-1-v10.gif)
 
-    > Flows interact with existing requests in their workspace.
+1. Right-click the canvas and add a **Send Request** block, then connect it to the **Start** block.
 
-1. Select **New > Flows**.
+    ![Create a **Send Request** block and connect it](https://assets.postman.com/postman-docs/v10/flow-tut-add-send-v10.gif)
 
-1. Right-click the canvas next to the **Start** block and enter `send`. Select **Send Request** from the list.
+1. In the **Send Request** block, select **Add request > DownDetector > sitemap**. Then select the port next to **Success**, and drag and drop it to the right. Select **Evaluate** from the list that appears to add an **Evaluate** block.
 
-    ![Enter `send` and select **Send Request**](https://assets.postman.com/postman-docs/v10/flow-qs-enter-send-v10.jpg)
+    ![Add an **Evaluate** block](https://assets.postman.com/postman-docs/v10/flow-tut-add-eval-v10.gif)
 
-1. (Optional) [Hide the sidebar](/docs/getting-started/navigating-postman/#sidebar) to enlarge the canvas.
+1. In the **Evaluate** block, select `value1` and change it to `status`. Then select **Enter path...**, scroll down, and select **http.status**.
 
-1. Connect the **Start** block to the **Send Request** block.
+    ![Rename value1 and select `http.status`](https://assets.postman.com/postman-docs/v10/flow-tut-select-status-v10.gif)
 
-    ![Connect the blocks](https://assets.postman.com/postman-docs/v10/flow-qs-add-send-v10.jpg)
+1. Select **Start writing an FQL query...** and enter `status=200`.
 
-1. In the **Send Request** block, select **Add request > DownDetector > sitemap**.
+    ![Enter `status=200`](https://assets.postman.com/postman-docs/v10/flow-tut-select-status-v10.gif)
 
-1. In the **Send Request** block, select the port next to **Success** and drag and drop it to the right. Enter `eval` and select **Evaluate** from the list.
+1. Drag and drop the port on the right side of the **Evaluate** block and add an **Output** block.
 
-    ![Add an **Evaluate** block](https://assets.postman.com/postman-docs/v10/flow-qs-add-eval-v10.jpg)
-
-1. In the **Evaluate** block, select `value1` and change it to `status`.
-
-1. Select **Enter path...**, scroll down, and select **http.status**.
-
-    ![Enter `send` and select **Send Request**](https://assets.postman.com/postman-docs/v10/flow-qs-select-status-v10.jpg)
-
-1. Select the magic wand, then select **Describe what you want this Evaluate block to do...**.
-
-1. Enter `Check if the status code is 200`.
-
-    ![Enter FQL](https://assets.postman.com/postman-docs/v10/flow-qs-generate-fql-v10.jpg)
-
-1. Select **Generate FQL**. `status=200` appears in the block.
-
-1. Drag and drop the port on the right side of the **Evaluate** block and enter `out`. Select **Output** from the list.
-
-1. Select **Run**. The **Output** block displays **True**, confirming a 200 status code.
+1. Select **Run**. The **Output** block displays **True**, which means the website is up and running.
 
 ## Creating a request and a collection
 
