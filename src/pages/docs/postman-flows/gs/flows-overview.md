@@ -48,7 +48,7 @@ With Postman Flows, you can:
 
 * Deploy on the cloud and integrate with anything using [webhooks](/docs/postman-flows/tutorials/webhooks/)
 
-> Postman Flows will soon be available as an add-on to [Professional plans](https://www.postman.com/pricing/); Flows is unavailable on Enterprise plans. Anyone can try Postman Flows for free today by [signing up for a Postman account](https://identity.getpostman.com/signup).
+> Postman Flows is free to use for up to three users in our Free plan. Postman Flows is available as an add-on on our [Professional plan](https://www.postman.com/pricing/).
 
 ## Quick start
 
