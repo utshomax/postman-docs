@@ -14,6 +14,9 @@ contextual_links:
   - type: link
     name: "Dynamic Mock Behavior | Postman Level Up"
     url: "https://youtu.be/av7SZo9sZAE"
+  - type: link
+    name: "Mock a Back End with Templating and Dynamic Data"
+    url: "https://www.youtube.com/live/gmRQkXCRqs8?feature=share"
   - type: subtitle
     name: "Blog posts"
   - type: link

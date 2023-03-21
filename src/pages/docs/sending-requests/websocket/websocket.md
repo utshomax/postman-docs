@@ -15,6 +15,9 @@ contextual_links:
   - type: link
     name: "WebSocket Requests | Postman Level Up"
     url: "https://youtu.be/H-7EZVj9D-k"
+  - type: link
+    name: "Set Up a WebSockets Server in Node.js"
+    url: "https://youtu.be/e__oWJ4wNtw"
   - type: subtitle
     name: "Blog posts"
   - type: link
