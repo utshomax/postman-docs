@@ -5,14 +5,14 @@ updated: 2022-12-15
 
 The [blocks](../blocks/) available in Postman Flows are described below.
 
-* [Data blocks](#data-blocks)
+* [Information blocks](#information-blocks)
 * [Trigger block](#trigger-block)
-* [Logic blocks](#logic-blocks)
+* [Decision blocks](#decision-blocks)
 * [Looping blocks](#looping-blocks)
-* [Tasks blocks](#tasks-blocks)
+* [Action blocks](#action-blocks)
 * [Output block](#output-block)
 
-## Data blocks
+## Information blocks
 
 ### Template
 
@@ -114,7 +114,7 @@ Emits the string that you enter.
 
 Used as the entry point for [running flows on the cloud](/docs/postman-flows/running-flows-on-the-cloud/webhooks/). Can be configured to hold test data for testing locally by selecting the gear icon and will act as a webhook endpoint that accepts data when running on the cloud.
 
-## Logic blocks
+## Decision blocks
 
 ### If
 
@@ -182,7 +182,7 @@ Collects the results of a for loop, and outputs a list and an event when it has 
 
 **Finish** - Sends an event when the block is complete (when the for loop has ended and every item is in a new list).
 
-## Tasks blocks
+## Action blocks
 
 ### Delay
 

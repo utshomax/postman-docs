@@ -40,14 +40,13 @@ take data from one API-enabled product, make decisions or process the data, then
 
 Check out our Flows Workspaces filled with examples:
 
-* [Business Flows](https://postman.postman.co/workspace/c6f19b56-a228-4f5a-a1bc-1b8d7be21c17)
-* [Integration Flows](https://postman.postman.co/workspace/9abda083-22f2-4a32-afe1-3c6b05b0bf9a)
-* [Voice assistant Flows](https://postman.postman.co/workspace/cea70434-9d9c-4c0c-a214-6b879ba5464a)
-* [Natual Language Processing (NLP) Flows](https://postman.postman.co/workspace/dd8b0e4e-2bec-432d-b6e2-e95ced762623)
-* [Slack Integration Flows](https://postman.postman.co/workspace/a8c27d72-a5a4-45e5-b656-d29cceb3ed0c)
-* [IT/Ops Flows](https://postman.postman.co/workspace/1f8af838-480b-428c-9410-3425593d2c5d)
-* [Utility Flows](https://postman.postman.co/workspace/4a452f3a-d5fb-47f7-9df7-1dc228472c6b)
-* [Miscellaneous Flows](https://postman.postman.co/workspace/fd213c4e-ff69-4666-beb4-b69232d5a729)
+* [Business Flows](https://www.postman.com/postman/workspace/business-flows)
+* [Integration Flows](https://www.postman.com/postman/workspace/integration-flows)
+* [Natural Language Processing (NLP) Flows](https://www.postman.com/postman/workspace/natural-language-processing-nlp-flows)
+* [Slack Integration Flows](https://www.postman.com/postman/workspace/slack-integration-flows)
+* [DevOps Flows](https://www.postman.com/postman/workspace/devops-flows)
+* [Utility Flows](https://www.postman.com/postman/workspace/utility-flows)
+* [Miscellaneous Flows](https://www.postman.com/postman/workspace/miscellaneous-flows)
 
 These workspaces contains example flows utilizing a multitude of APIs for different products and tools, plus all the related collections and environments needed. You can fork the flows to your own workspace, try them out, and then make your own changes and customizations.
 
