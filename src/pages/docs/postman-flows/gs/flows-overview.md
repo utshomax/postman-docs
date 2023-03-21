@@ -56,7 +56,6 @@ These workspaces contains example flows utilizing a multitude of APIs for differ
 To get started, check out the following resources:
 
 * [Step-by-step guide to building your first Flow](/docs/postman-flows/tutorials/building-your-first-flow/)
-* [Building an Ecommerce Flow](/docs/postman-flows/tutorials/building-an-ecommerce-flow/)
 * [Flows Snippets: an example for every block](https://www.postman.com/postman/workspace/flows-snippets)
 
 ## Contribute
