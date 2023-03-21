@@ -49,7 +49,6 @@ Once the monitor is running you’ll be alerted to any test failures, so you can
 * [Collection-based monitors](#collection-based-monitors)
 * [Monitor use cases](#monitor-use-cases)
 * [Comparing monitors and collection runs](#comparing-monitors-and-collection-runs)
-* [Uptime monitors](#uptime-monitors)
 * [Next steps](#next-steps)
 
 ## Collection-based monitors
@@ -79,21 +78,7 @@ Because they run Postman requests and scripts, collection-based monitors can be 
 
 You can also schedule collection runs using the Collection Runner. Monitors are typically used to schedule runs when you want to set up alerts like triggering on-call upon failure. Choose the Collection Runner to schedule runs for automating API tests and other use cases. Learn more about [Scheduling collection runs](/docs/collections/running-collections/scheduling-collection-runs/).
 
-Because monitors run in the cloud, there are some differences compared to sending requests and running collections in Postman. To learn more, see the [Monitoring FAQs](/docs/monitoring-your-api/faqs-monitors/#can-i-upload-data-files-or-attach-files-to-a-monitor).
-
-## Uptime monitors
-
-> **The uptime monitors open beta period is over.** You can no longer create new uptime monitors. Your existing uptime monitors will keep working, and you can continue to use them to monitor API uptime. For updates, visit the [GitHub discussion board](https://github.com/postmanlabs/uptime-monitors/discussions).
-
-Uptime monitors enable you to track the availability of an API or website. There’s no need to set up collections, test scripts, or environments. Enter the URL you want to monitor (HTTP or HTTPS) and select the team members to be notified of outages.
-
-The uptime monitor continuously checks the availability of the URL, as often as every minute (paid plans) or every 15 minutes (free plans). When Postman detects downtime, the selected team members are alerted by email.
-
-Uptime monitors ensure the availability of your API or service around the clock and help you detect system outage issues. Uptime statistics are recorded on the monitor’s dashboard, so you can always check the status of your API, view past trends, or pause the monitor as needed.
-
-Learn how to [create an uptime monitor](/docs/monitoring-your-api/uptime-monitors/).
-
-> Uptime monitors can monitor URLs, API endpoints, and websites that are publicly available over the internet. HTTP and HTTPS are supported.
+Because scheduled collection runs and monitors run in the cloud, there are some differences compared to manually sending requests and running collections in Postman. To learn more, see the [Monitoring FAQs](/docs/monitoring-your-api/faqs-monitors/#can-i-upload-data-files-or-attach-files-to-a-monitor).
 
 ## Next steps
 
