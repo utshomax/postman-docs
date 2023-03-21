@@ -232,3 +232,5 @@ Displays the data passed through the port. The dropdown menu enables you to sele
 * Debug flows by viewing data directly on the canvas instead of opening the Postman console to view logs.
 * Create and display markdown, images, videos, and even YouTube embeds.
 * Create interactive dashboards using bar charts, line charts, tables, and more.
+
+For more information, see the [Building your first flow](/docs/postman-flows/tutorials/building-your-first-flow/) tutorial.
