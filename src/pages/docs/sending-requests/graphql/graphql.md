@@ -17,7 +17,7 @@ contextual_links:
     name: "Creating GraphQL Requests | Postman Level Up"
     url: "https://youtu.be/Zq7H8kYIQIU"
   - type: link
-    name: Editing GraphQL Queries | Postman Level Up"
+    name: "Editing GraphQL Queries | Postman Level Up"
     url: "https://youtu.be/kygb3sf3Nhc"
   - type: link
     name: "Loading GraphQL Schemas | Postman Level Up"
