@@ -15,6 +15,9 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
+    name: "Increase API adoption with improved team profiles"
+    url: "https://blog.postman.com/increase-api-adoption-with-improved-team-profiles/"
+  - type: link
     name: "Get More Out of Postman by Collaborating with Your Team"
     url: "https://blog.postman.com/get-more-out-of-postman-by-collaborating-with-your-team/"
   - type: section
