@@ -265,7 +265,7 @@ You can export your Postman data, including collections, environments, data dump
 
 1. Select the format you'd like your collection to export as.
 
-   > Learn more about Postman's [collection formats](https://blog.postman.com/travelogue-of-postman-collection-format-v2/).
+   > Learn more about Postman's [collection format](https://learning.postman.com/collection-format/getting-started/overview/).
 
 1. Select **Export** to download your newly generated JSON file.
 

@@ -21,8 +21,8 @@ contextual_links:
     name: "Intro to Postman | Authorize a Request"
     url: "https://youtu.be/7t9AB9Opprs"
   - type: link
-    name: "Inheriting Auth Details | Postman Level Up"
-    url: "https://www.youtube.com/watch?v=WFiYsfSkyXE&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=2"
+    name: "How to Use JWT Authorization"
+    url: "https://youtu.be/dLxCpd3IGys"
   - type: link
     name: "Automatically Refresh OAuth2.0 Access Tokens | Postman Level Up"
     url: "https://www.youtube.com/watch?v=FAhs9TBK-xU"
