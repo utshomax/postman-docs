@@ -16,6 +16,9 @@ contextual_links:
     name: "Keyboard Shortcuts | Postman Level Up"
     url: "https://youtu.be/J3kuTxNItD0"
   - type: link
+    name: "Customizing Keyboard Shortcuts | Postman Level Up"
+    url: https://youtu.be/429rfzLxaKk"
+  - type: link
     name: "Dark Mode | Postman Level Up"
     url: "https://youtu.be/rZySZm9XaLM"
   - type: section

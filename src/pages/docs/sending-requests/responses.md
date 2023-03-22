@@ -19,6 +19,11 @@ contextual_links:
   - type: link
     name: "Review Test Results in Postman | The Exploratory"
     url: "https://youtu.be/S3GKLTVRtmE"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "How to review Postman test results"
+    url: "https://blog.postman.com/how-to-review-postman-test-results/"
   - type: section
     name: "Next steps"
   - type: link

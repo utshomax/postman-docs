@@ -503,7 +503,7 @@ export const leftNavItems = [
             url: '/docs/postman-flows/flows-query-language/data-manipulation/',
           },
           {
-            name: 'Function reference',
+            name: 'FQL function reference',
             url: '/docs/postman-flows/flows-query-language/function-reference/',
           },
         ],

@@ -10,6 +10,11 @@ contextual_links:
   - type: section
     name: "Additional resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "AI Powered Sentiment Analysis with Postman Flows and ChatGPT"
+    url: "https://www.youtube.com/live/0kAQb3Q4WCQ?feature=share"
+  - type: subtitle
     name: "Blog posts"
   - type: link
     name: "Announcing Postman Flows Early Access"
