@@ -437,6 +437,10 @@ export const leftNavItems = [
             url: '/docs/postman-flows/gs/flows-overview/',
           },
           {
+            name: 'About blocks and messages',
+            url: '/docs/postman-flows/gs/blocks-information/',
+          },
+          {
             name: 'The Postman Flows interface',
             url: '/docs/postman-flows/gs/the-interface/',
           },
@@ -470,6 +474,10 @@ export const leftNavItems = [
           {
             name: 'Using webhooks with Postman Flows',
             url: '/docs/postman-flows/tutorials/webhooks/',
+          },
+          {
+            name: 'Creating charts, tables, and output',
+            url: '/docs/postman-flows/tutorials/creating-charts-tables-and-output/',
           },
         ],
       },
