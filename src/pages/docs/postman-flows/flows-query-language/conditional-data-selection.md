@@ -22,11 +22,13 @@ The example below filters for objects in the `payments` array that have the key-
 <table class="code-ref-table">
 <tbody>
 <tr>
-<td>FQL</td>
-<td>payments[description='recurring subscription']</td>
+<td>FQL:</td>
+<td>
+`payments[description='recurring subscription']`
+</td>
 </tr>
 <tr>
-<td>Result</td>
+<td>Result:</td>
 <td><pre>
 [
     {
@@ -61,6 +63,30 @@ FQL uses the same syntax to navigate filtered query results as it does to naviga
 </tr>
 </tbody>
 </table>
+
+## HEAR ME OUT - DELETE LATER
+How about we use definition lists?
+<dl>
+  <dt>FQL:</dt>
+  <dd><code>payments[description='recurring subscription']</code></dd>
+  <dt>Result:</dt>
+  <dd><pre><code>
+[
+    {
+        "invoice_number": "101301",
+        "date": "2022-09-11T16:12:34.494Z",
+        "description": "recurring subscription",
+        "amount": 110.48
+    },
+    {
+        "invoice_number": "101303",
+        "date": "2022-10-11T16:12:34.683Z",
+        "description": "recurring subscription",
+        "amount": 110.48
+    }
+]
+</code></pre></dd>
+</dl>
 
 ## Example JSON
 
