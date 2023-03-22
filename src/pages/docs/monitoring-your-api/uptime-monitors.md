@@ -1,6 +1,6 @@
 ---
 title: "Monitoring API uptime"
-updated: 2023-03-2o
+updated: 2023-03-20
 contextual_links:
   - type: section
     name: "Additional resources"
