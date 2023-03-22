@@ -32,7 +32,7 @@ An example of SSO is Google's sign-in implementation for products like Gmail, Yo
 * Removes the need for users to remember and manage multiple passwords.
 * Simplifies users' experience by enabling them to sign in at a single access point and work seamlessly across multiple applications.
 * Increases productivity by significantly reducing the password-related support emails.
-* Reduces phishing and thereby making sure users aren't tricked into giving away sensitive information.
+* Reduces phishing attempts that try to trick users into giving away sensitive information.
 
 ## Prerequisites for SSO with Postman
 
