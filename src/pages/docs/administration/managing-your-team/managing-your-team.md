@@ -12,6 +12,9 @@ contextual_links:
   - type: link
     name: "Postman 101 for Admins"
     url: "https://youtu.be/rEKvQO8EYR8"
+  - type: link
+    name: "Collaboration and Governance for API Teams | Postman Intergalactic"
+    url: "https://youtu.be/4rxpdcGeixs"
   - type: subtitle
     name: "Blog posts"
   - type: link
