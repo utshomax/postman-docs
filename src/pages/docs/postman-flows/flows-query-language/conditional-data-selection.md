@@ -62,7 +62,6 @@ FQL uses the same syntax to navigate filtered query results as it does to naviga
 </tbody>
 </table>
 
-
 ## Example JSON
 
 The examples below use this JSON data:
