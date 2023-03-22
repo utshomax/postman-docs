@@ -7,7 +7,7 @@ updated: 2023-03-17
 
 The Output block takes in information from other blocks and creates a visual display of that information.
 
-For some examples of what you can do with these blocks, check out the [brewing flows](https://cooper.postman-beta.co/workspace/testing-features~e08a6ce3-3b63-4a67-9e38-3f910d42a4ca/flow/6375735ecb1f310032aba7c0) workspace.
+For some examples of what you can do with these blocks, check out the [Stock Dashboard](https://www.postman.com/postman/workspace/utility-flows/flow/64123b57c224290033fcb089) and [WordPress Sentiment Analysis](https://www.postman.com/postman/workspace/utility-flows/flow/6413acdb8c4c54003a4ad611) Flows.
 
 ## Types of output
 
