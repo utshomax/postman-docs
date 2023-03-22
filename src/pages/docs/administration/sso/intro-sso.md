@@ -30,7 +30,7 @@ An example of SSO is Google's sign-in implementation for products like Gmail, Yo
 ## What are the advantages of SSO?
 
 * Removes the need for users to remember and manage multiple passwords.
-* Simplifies users' experience by allowing them to sign in at a single access point and enjoy a seamless experience across multiple applications.
+* Simplifies users' experience by enabling them to sign in at a single access point and work seamlessly across multiple applications.
 * Increases productivity by significantly reducing the password-related support emails.
 * Reduces phishing and thereby making sure users aren't tricked into giving away sensitive information.
 
