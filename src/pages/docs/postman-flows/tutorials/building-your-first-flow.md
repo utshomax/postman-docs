@@ -11,12 +11,17 @@ contextual_links:
     url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
 ---
 
-This page walks you through your first flow, calling the Pokémon API and printing out the list to the console. The Pokémon API returns over 1,000 results, but this flow will print two hundred at a time to the console until it reaches the end of the list.
+Postman Flows is a visual tool for building software for the API-First world. With Postman Flows, anyone can connect their web services' APIs to build workflows, integrations, and API applications in a visual and collaborative development environment.
+
+This page shows you how to create flows with a [quick start tutorial](#quick-start) and a [more detailed tutorial](#creating-a-request-and-a-collection). The quick start tutorial shows you how to create a flow in Postman that checks if a website is down.
+
+The more detailed tutorial starts with [Creating a request and a collection](#creating-a-request-and-a-collection). This tutorial creates a flow that gets a list of Pokémon, one page at a time, until it reaches the last page.
 
 ## Contents
 
 <!-- vale Postman.Spelling = NO -->
 
+* [Quick start](#quick-start)
 * [Creating a request and a collection](#creating-a-request-and-a-collection)
 * [Making your first send request in Postman Flows](#making-your-first-send-request-in-postman-flows)
 * [Logging the output to the console](#logging-the-output-to-the-console)
@@ -25,16 +30,44 @@ This page walks you through your first flow, calling the Pokémon API and printi
 
 <!-- vale Postman.Spelling = YES -->
 
+## Quick start
+
+This quick start tutorial creates a flow to check if a website is down or not. It does this by sending a request to the website and looking for a `200` status code in the response. If the website is up and running, the flow's **Output** block will display `True`. If the website is down, it will display `False`.
+
+1. Go to the [**Brewing Postman Flows**](https://www.postman.com/postman/workspace/brewing-postman-flows/request/33232-c2957b4f-149a-4c10-aaa3-30829ca8c1bd) workspace and [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) the [**DownDetector**](https://www.postman.com/postman/workspace/brewing-postman-flows/collection/25695810-fda5eef1-bddf-4f37-a84d-dc52454a156a?action=share&creator=24088680) collection to your workspace. Then, in your workspace, select **New &gt; Flows** and [hide the sidebar](/docs/getting-started/navigating-postman/#sidebar).
+
+    ![Fork the collection](https://assets.postman.com/postman-docs/v10/flow-tut-fork-collection-1-v10.gif)
+
+1. Right-click the canvas and select **Send Request** from the list of blocks. Connect the **Send Request** block to the **Start** block.
+
+    ![Create a **Send Request** block and connect it](https://assets.postman.com/postman-docs/v10/flow-tut-add-send-v10.gif)
+
+1. In the **Send Request** block, select **Add request &gt; DownDetector &gt; sitemap**. Then select the port next to **Success**, and drag and drop it to the right. Select **Evaluate** from the list that appears to add an **Evaluate** block.
+
+    ![Add an **Evaluate** block](https://assets.postman.com/postman-docs/v10/flow-tut-add-eval-v10.gif)
+
+1. In the **Evaluate** block, select `value1` and change it to `status`. Then select **Enter path...**, scroll down, and select **http.status**.
+
+    ![Rename value1 and select `http.status`](https://assets.postman.com/postman-docs/v10/flow-tut-select-status-v10.gif)
+
+1. Select **Start writing an FQL query...** and enter `status=200`.
+
+    ![Enter `status=200`](https://assets.postman.com/postman-docs/v10/flow-tut-status-200-v10.gif)
+
+1. Drag and drop the port on the right side of the **Evaluate** block and add an **Output** block.
+
+1. Select **Run**. The **Output** block displays **True**, which means the website is up and running.
+
 ## Creating a request and a collection
 
-Begin by creating a new collection and adding a GET request. You'll use this collection with the flow you'll create later.
+This is the beginning of a detailed tutorial that builds a flow that gets a list of Pokémon, one page at a time, until it reaches the last page. Start by creating a new collection and adding a GET request. You'll use this collection with the flow you'll create later.
 
-1. In your workspace, select **New > Collection**. Name the collection **Pokemon API**.
+1. In your workspace, select **New &gt; Collection**. Name the collection **Pokemon API**.
 1. [Add a GET request](/docs/getting-started/sending-the-first-request/) with this URL: `https://pokeapi.co/api/v2/pokemon?limit=200`.
 
     ![Add a request](https://assets.postman.com/postman-docs/v10/flow-first-request-v10.jpg)
 
-1. Select **Send**, then select **Save as Example**.
+1. Select **Send**, then select **Save Response &gt; Save as example**.
 
     > Saving the response as an example enables Postman Flows to automatically detect the structure for easier access later.
 
@@ -46,7 +79,7 @@ Begin by creating a new collection and adding a GET request. You'll use this col
 
 ## Making your first send request in Postman Flows
 
-1. Select **New > Flows**. Your new flow appears with a **Start** block already in place.
+1. Select **New &gt; Flows**. Your new flow appears with a **Start** block already in place.
 
     > You can select and drag the canvas to reposition your flow.
 
