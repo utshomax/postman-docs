@@ -28,6 +28,9 @@ contextual_links:
   - type: link
     name: "You can now see what’s trending across the Private API Network"
     url: "https://blog.postman.com/whats-trending-private-api-network/"
+  - type: link
+    name: "Introducing an API to manage your Private API Network with more automation"
+    url: "https://blog.postman.com/introducing-api-to-manage-your-private-api-network-with-automation/"
   - type: subtitle
     name: "Case Studies"
   - type: link
