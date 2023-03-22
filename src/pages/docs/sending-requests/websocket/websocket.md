@@ -1,6 +1,6 @@
 ---
 title: "Using WebSocket requests"
-page_id: "websocket"
+updated: 2022-08-02
 search_keyword: "WebSocket, websockets, WebSocket requests, Socket.IO"
 contextual_links:
   - type: section
