@@ -114,7 +114,7 @@ pre {
   margin-bottom: 0px;
 }
 
-.ref-table {
+.code-ref-table {
   border-top: solid #E4E4E4 1px;
   margin-top: 0px;
   margin-bottom: 20px;

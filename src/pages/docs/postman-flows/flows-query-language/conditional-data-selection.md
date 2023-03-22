@@ -58,7 +58,7 @@ The examples below use this JSON data:
 
 The example below filters for objects in the `payments` array that have the key-value pair `"description": "recurring subscription"`.
 
-<table class="ref-table">
+<table class="code-ref-table">
 <tbody>
 <tr>
 <td>FQL</td>
@@ -90,7 +90,7 @@ The example below filters for objects in the `payments` array that have the key-
 
 FQL uses the same syntax to navigate filtered query results as it does to navigate JSON data. The example below gets the values from the `invoice.number` fields in the `payments` array.
 
-<table class="ref-table">
+<table class="code-ref-table">
 <tbody>
 <tr>
 <td>FQL</td>
@@ -107,7 +107,7 @@ FQL uses the same syntax to navigate filtered query results as it does to naviga
 
 When a filter has a single result, it returns as a record instead of an array. The filter below returns a single result as a record.
 
-<table class="ref-table">
+<table class="code-ref-table">
 <tbody>
 <tr>
 <td>FQL</td>
@@ -124,7 +124,7 @@ When a filter has a single result, it returns as a record instead of an array. T
 
 FQL can check if your query results have a specific key-value pair and return `true` or `false`. The example below checks the first item in the `payments` array for the key-value pair `"description": "recurring"`.
 
-<table class="ref-table">
+<table class="code-ref-table">
 <tbody>
 <tr>
 <td>FQL</td>
@@ -139,7 +139,7 @@ FQL can check if your query results have a specific key-value pair and return `t
 
 ## Get only unique payment amounts
 
-<table class="ref-table">
+<table class="code-ref-table">
 <tbody>
 <tr>
 <td>FQL</td>
