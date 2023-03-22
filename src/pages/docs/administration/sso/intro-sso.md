@@ -17,26 +17,31 @@ contextual_links:
 
 > **[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
 
-## What is SSO?
-
 Single sign-on (SSO) services enable you to manage your team’s identity across all the SaaS products that you use.
 
-SSO services permit a user to use one set of credentials (for example, a name or email address and password) to access multiple applications. The service authenticates the user only once for all the applications the user has been given rights to and eliminates further prompts when the user switches applications during the same session.
+SSO services let a user to use one set of credentials (for example, a name or email address and password) to access multiple applications. The service authenticates the user only once for all the applications the user has been given rights to and eliminates further prompts when the user switches applications during the same session.
 
-An example of SSO is Google's sign-in implementation for products like Gmail, YouTube, and Google Drive. Any user that is signed in to one of Google's products is automatically signed in to their other products as well.
+An example of SSO is Google's sign-in implementation for products like Gmail, YouTube, and Google Drive. Any user who is signed in to one of Google's products is automatically signed in to their other products as well.
 
-### What are the advantages of SSO?
+## Contents
+
+* [What are the advantages of SSO?](#what-are-the-advantages-of-sso)
+* [Prerequisites for SSO with Postman](#prerequisites-for-sso-with-postman)
+* [Supported IdPs](#supported-idps)
+* [SSO setup for SAML 2.0 compliant IdPs](#sso-setup-for-saml-20-compliant-idps)
+
+## What are the advantages of SSO?
 
 * Removes the need for users to remember and manage multiple passwords.
-* Simplifies users' experience by allowing them to sign in at one single access point and enjoy a seamless experience across multiple applications.
+* Simplifies users' experience by allowing them to sign in at a single access point and enjoy a seamless experience across multiple applications.
 * Increases productivity by significantly reducing the password-related support emails.
 * Reduces phishing and thereby making sure users aren't tricked into giving away sensitive information.
 
-### Prerequisites for SSO with Postman
+## Prerequisites for SSO with Postman
 
 * Team’s identity provider (IdP) must support the SAML 2.0 standard.
 
-### Supported IdPs
+## Supported IdPs
 
 Professional plans:
 
@@ -48,14 +53,14 @@ Enterprise plans:
 
 * [Microsoft AD FS](/docs/administration/sso/microsoft-adfs/)
 * [Azure AD](/docs/administration/sso/azure-ad/)
-* [Custom SAML](/docs/administration/sso/admin-sso/)
+* [Custom SAML](/docs/administration/sso/custom-saml/)
 * [Duo](/docs/administration/sso/duo/)
 * [Google Workspace](/docs/administration/sso/google-workspace/)
 * [Okta](/docs/administration/sso/okta/)
 * [OneLogin](/docs/administration/sso/onelogin/)
 * [Ping Identity](/docs/administration/sso/ping-identity/)
 
-### SSO setup for SAML 2.0 compliant IdPs
+## SSO setup for SAML 2.0 compliant IdPs
 
 Most SAML 2.0 compliant identity providers require the same information about the service provider for setup (Postman is the service provider). These values are specific to a Postman team and are available after [configuring SSO](/docs/administration/sso/admin-sso/).
 
