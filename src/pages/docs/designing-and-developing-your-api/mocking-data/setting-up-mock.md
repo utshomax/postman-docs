@@ -20,6 +20,9 @@ contextual_links:
   - type: link
     name: "Dynamic Mock Behavior | Postman Level Up"
     url: "https://youtu.be/av7SZo9sZAE"
+  - type: link
+    name: "Workshop: Mock API Server Responses"
+    url: "https://www.youtube.com/live/Adaw475mwTM?feature=share"
   - type: dynamic_blog
     name: "Blog posts"
     blog_tag: "mock-server"

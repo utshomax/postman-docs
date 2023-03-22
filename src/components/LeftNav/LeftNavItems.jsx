@@ -437,6 +437,10 @@ export const leftNavItems = [
             url: '/docs/postman-flows/gs/flows-overview/',
           },
           {
+            name: 'About blocks and messages',
+            url: '/docs/postman-flows/gs/blocks-information/',
+          },
+          {
             name: 'The Postman Flows interface',
             url: '/docs/postman-flows/gs/the-interface/',
           },
