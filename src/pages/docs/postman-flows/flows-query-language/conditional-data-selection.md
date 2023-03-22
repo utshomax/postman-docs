@@ -13,6 +13,56 @@ You can use [Flows Query Language](/docs/postman-flows/flows-query-language/intr
 * [Return a single record](#return-a-single-record)
 * [Check if a field has a specific value](#check-if-a-field-has-a-specific-value)
 
+## DELETE THIS SECTION
+
+> These examples demonstrate the `code-ref-table` class. Please delete this entire section and its heading before merging this PR. We don't want this content to get checked into the Learning Center.
+
+The example below filters for objects in the `payments` array that have the key-value pair `"description": "recurring subscription"`.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>payments[description='recurring subscription']</td>
+</tr>
+<tr>
+<td>Result</td>
+<td><pre>
+[
+    {
+        "invoice_number": "101301",
+        "date": "2022-09-11T16:12:34.494Z",
+        "description": "recurring subscription",
+        "amount": 110.48
+    },
+    {
+        "invoice_number": "101303",
+        "date": "2022-10-11T16:12:34.683Z",
+        "description": "recurring subscription",
+        "amount": 110.48
+    }
+]
+</pre></td>
+</tr>
+</tbody>
+</table>
+
+FQL uses the same syntax to navigate filtered query results as it does to navigate JSON data. The example below gets the values from the `invoice.number` fields in the `payments` array.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>payments[description='recurring subscription'].invoice_number</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>["101301","101303"]</td>
+</tr>
+</tbody>
+</table>
+
+
 ## Example JSON
 
 The examples below use this JSON data:
