@@ -47,6 +47,8 @@ To set up a Splunk integration, you must get an HTTP Event Collector (HEC) token
 1. Search and select **Splunk**.
 1. Select **Add Integration**.
 
+    ![Add Splunk integration](https://assets.postman.com/postman-docs/v10/splunk-select-integration-v10.jpg)
+
 1. Enter the following in the **Add Integration** window:
 
     * **Nickname** - A nickname for your integration.
@@ -55,8 +57,6 @@ To set up a Splunk integration, you must get an HTTP Event Collector (HEC) token
     * **Splunk HEC Token** - Enter the Splunk HEC token.
     * **Splunk HEC URL** - Enter the Splunk HEC URL in the format `<protocol>://<host>` (for example, `https://192.0.2.255`).
     * **Splunk port** - Enter the Splunk port number.
-
-   ![splunk integration configuration](https://assets.postman.com/postman-docs/splunk-add-integration.jpg)
 
 1. Select **Add Integration** to save the configuration.
 
@@ -68,17 +68,21 @@ When your monitor runs, the data starts flowing into Splunk.
 
 ### Viewing data in a list
 
-1. Open the Splunk homepage, from the left navigation bar, select **Search & Reporting**.
+1. Sign in to your [Splunk](https://login.splunk.com) account, and open the homepage.
+
+1. From the left navigation bar, select **Search & Reporting**.
 
 1. Enter a **metric** to search for and select it from the results to view details regarding it.
 
-[![splunk metrics search](https://assets.postman.com/postman-docs/splunk-search-events-metric-example3.jpg)](https://assets.postman.com/postman-docs/splunk-search-events-metric-example3.jpg)
+![splunk metrics search](https://assets.postman.com/postman-docs/splunk-search-events-metric-example3.jpg)
 
-[![splunk metric details](https://assets.postman.com/postman-docs/splunk-search-events-metric-example2.jpg)](https://assets.postman.com/postman-docs/splunk-search-events-metric-example2.jpg)
+![splunk metric details](https://assets.postman.com/postman-docs/splunk-search-events-metric-example2.jpg)
 
 ### Viewing data as a Pivot table
 
-1. Open the Splunk homepage, from the left navigation bar, select **Search & Reporting**.
+1. Sign in to your [Splunk](https://login.splunk.com) account, and open the homepage.
+
+1. From the left navigation bar, select **Search & Reporting**.
 
 1. Select **Visualization** and enter a **metric** to search for.
 
@@ -86,6 +90,6 @@ When your monitor runs, the data starts flowing into Splunk.
 
 1. Select the metrics and filters you need to visualize on the table.
 
-[![splunk pivot table](https://assets.postman.com/postman-docs/splunk-search-event-pivot-example.jpg)](https://assets.postman.com/postman-docs/splunk-search-event-pivot-example.jpg)
+![splunk pivot table](https://assets.postman.com/postman-docs/splunk-search-event-pivot-example.jpg)
 
 Once the data is present in Splunk, you can filter it based on the monitor name/uid, collection name/uid, user name/id, and environment name/uid (if present).
