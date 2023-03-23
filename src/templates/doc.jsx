@@ -107,6 +107,10 @@ code[class*="language-"] {
   
 }
 
+dd {
+  font-family: 'IBM Plex Mono',SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace !important;
+}
+
 pre {
   font-family: 'IBM Plex Mono',SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace !important;
   line-height: 24px;
