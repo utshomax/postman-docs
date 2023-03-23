@@ -53,7 +53,7 @@ To set up a Splunk integration, you must get an HTTP Event Collector (HEC) token
     * **Workspace** - The workspace that contains your monitor.
     * **Monitor** - The collection-based monitor which will send its results to Splunk.
     * **Splunk HEC Token** - Enter the Splunk HEC token.
-    * **Splunk HEC URL** - Enter the Splunk HEC URL.
+    * **Splunk HEC URL** - Enter the Splunk HEC URL in the format `<protocol>://<host>` (for example, `https://192.0.2.255`).
     * **Splunk port** - Enter the Splunk port number.
 
    ![splunk integration configuration](https://assets.postman.com/postman-docs/splunk-add-integration.jpg)
