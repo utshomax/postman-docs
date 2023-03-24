@@ -355,6 +355,29 @@ export const leftNavItems = [
         ],
       },
       {
+        name: "Using Live Collections",
+        subParentSlug: 'live-collections',
+        slug: '/docs/collections/live-collections/live-collections-overview/',
+        subMenuItems2: [
+          {
+            name: 'Live Collection overview',
+            url: '/docs/collections/live-collections/live-collections-overview/',
+          },
+          {
+            name: 'Live Collection setup',
+            url: '/docs/collections/live-collections/live-collections-setup/',
+          },
+          {
+            name: 'Updating Live Collections',
+            url: '/docs/collections/live-collections/update-live-collections/',
+          },
+          {
+            name: 'Live Collection settings',
+            url: '/docs/collections/live-collections/live-collections-settings/',
+          },
+        ],
+      },
+      {
         name: 'Using Newman CLI',
         subParentSlug: 'using-newman-cli',
         slug: '/docs/collections/using-newman-cli/command-line-integration-with-newman/',
@@ -414,6 +437,10 @@ export const leftNavItems = [
             url: '/docs/postman-flows/gs/flows-overview/',
           },
           {
+            name: 'About blocks and messages',
+            url: '/docs/postman-flows/gs/blocks-information/',
+          },
+          {
             name: 'The Postman Flows interface',
             url: '/docs/postman-flows/gs/the-interface/',
           },
@@ -448,6 +475,10 @@ export const leftNavItems = [
             name: 'Using webhooks with Postman Flows',
             url: '/docs/postman-flows/tutorials/webhooks/',
           },
+          {
+            name: 'Creating charts, tables, and output',
+            url: '/docs/postman-flows/tutorials/creating-charts-tables-and-output/',
+          },
         ],
       },
       {
@@ -476,7 +507,7 @@ export const leftNavItems = [
             url: '/docs/postman-flows/flows-query-language/data-manipulation/',
           },
           {
-            name: 'Function reference',
+            name: 'FQL function reference',
             url: '/docs/postman-flows/flows-query-language/function-reference/',
           },
         ],
@@ -943,7 +974,7 @@ export const leftNavItems = [
             url: '/docs/administration/managing-your-team/user-groups/',
           },
           {
-            name: 'Configuring domain capture',
+            name: 'Configuring domain verification and capture',
             url: '/docs/administration/managing-your-team/configuring-domain-capture/',
           },
         ],
