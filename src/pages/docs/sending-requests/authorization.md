@@ -264,7 +264,7 @@ To use OAuth 2.0, do the following:
 
    > You can share token credentials with your team by selecting the sync token icon <img alt="Syncing icon" src="https://assets.postman.com/postman-docs/icon-syncing-v9.jpg#icon" width="16px"> next to an available token. By default Postman won't sync your token in case you don't want to share it.
 
-1. Postman will prompt you to supply specific details depending on the OAuth 2.0 __grant__ type, which can be [Authorization code](#authorization-code), [Implicit](#implicit), [Password credentials](#password-credentials), or [Client credentials](#client-credentials).
+1. Postman will prompt you to supply specific details depending on the OAuth 2.0 __Grant Type__, which can be [Authorization code](#authorization-code), [Implicit](#implicit), [Password credentials](#password-credentials), or [Client credentials](#client-credentials).
 
 #### Authorization code
 
@@ -304,7 +304,7 @@ Enter the provider's __Access Token URL__, together with the __Client ID__ and _
 
 The full list of parameters to request a new access token is as follows, depending on your grant type.
 
-On the **Configuration Options** tab, enter details about the token:
+Under **Configure New Token**, enter details about the token:
 
 * **Token Name** - The name you want to use for the token.
 * **Grant Type** - A dropdown list of options. This will depend on the API service provider requirements.
@@ -318,9 +318,12 @@ On the **Configuration Options** tab, enter details about the token:
 * **State** - An opaque value to prevent cross-site request forgery.
 * **Client Authentication** - Send a Basic Auth request in the header, or client credentials in the request body. After upgrading to a new version, change the value here to avoid problems with client authentication.
 
-On the **Advanced Options** tab, define any custom parameters you want to send with auth requests, token requests, or refresh requests. For each key-value pair you define, select an option to send the parameter in the request body or the request URL.
+Select **Advanced Options** to customize the token:
 
-When your config is complete, select __Get New Access Token__.
+* **Refresh Token URL** - The endpoint for the refresh server, to exchange the refresh token for an access token. If empty, the refresh token URL will be the same as the access token URL.
+* **Auth Request**, **Token Request**, and **Refresh Request** - Define any custom parameters you want to send with auth requests, token requests, or refresh requests. For each key-value pair you define, select an option to send the parameter in the request body, request URL, or request headers.
+
+When the configuration is complete, select __Get New Access Token__.
 
 > When you use __Authorization code__ or __Implicit__ grant type, you will be prompted to supply your credentials to retrieve an access token to use in later requests. By default Postman will display a pop-up browser when you select __Request Token__. You can instead choose to authenticate using your system's default web browser. Select __Authorize using browser__ and the __Callback URL__ will autofill to return to Postman when you have completed auth in the browser, so that your requests can use the token returned on successful authentication.
 
