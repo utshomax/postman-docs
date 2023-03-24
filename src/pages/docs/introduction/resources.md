@@ -1,6 +1,14 @@
 ---
 title: "Other resources"
 updated: 2023-02-24
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Hands-on Learning with Postman Quickstarts | Postman Level Up"
+    url:  "https://youtu.be/Z66shtMybBk"
 ---
 
 If you're starting to learn about APIs and Postman, you can use a variety of resources both in and outside Postman:

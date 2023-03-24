@@ -17,6 +17,9 @@ contextual_links:
   - type: link
     name: "View Postman CLI Runs in Postman | Postman Level Up"
     url: "https://youtu.be/YTzlLLtsJls"
+  - type: link
+    name: "How We Built It: The Postman CLI"
+    url: "https://www.youtube.com/live/mpMZTodbbnA?feature=share"
   - type: subtitle
     name: "Blog posts"
   - type: link
