@@ -262,7 +262,7 @@ To use OAuth 2.0, do the following:
 
 1. Enter the details for your client application, and any auth details from the service provider. This allows you to replicate your application auth flow inside Postman to test authenticated requests.
 
-   > You can share token credentials with your team by selecting the sync token icon <img alt="Syncing icon" src="https://assets.postman.com/postman-docs/icon-syncing-v9.jpg#icon" width="16px"> next to an available token. By default Postman won't sync your token in case you don't want to share it.
+   > You can share token credentials with your team. Turn on the **Share token** toggle and then select **Sync Token**. By default Postman won't sync your token in case you don't want to share it.
 
 1. Postman will prompt you to supply specific details depending on the OAuth 2.0 __Grant Type__, which can be [Authorization code](#authorization-code), [Implicit](#implicit), [Password credentials](#password-credentials), or [Client credentials](#client-credentials).
 
@@ -272,7 +272,7 @@ Authorization code grant type requires the user to authenticate with the provide
 
 To use authorization code grant type, enter a __Callback URL__ for your client application (which needs to be registered with the API provider), together with various details provided by the API service including __Auth URL__, __Access Token URL__, __Client ID__, and __Client Secret__.
 
-> You can enter your auth details in the web browser, instead of in Postman, if you prefer, by selecting __Authorize using browser__.
+> If you are using the Postman desktop app, you can enter your auth details in your web browser instead of in Postman by selecting __Authorize using browser__.
 
 #### Authorization code (with PKCE)
 
@@ -286,7 +286,7 @@ Implicit grant type returns an access token to the client without requiring the 
 
 To use implicit grant type with your requests in Postman, enter a __Callback URL__ you have registered with the API provider, the provider __Auth URL__, and a __Client ID__ for the app you have registered.
 
-> You can enter your auth details in the web browser, instead of in Postman, if you prefer, by selecting __Authorize using browser__.
+> If you are using the Postman desktop app, you can enter your auth details in your web browser instead of in Postman by selecting __Authorize using browser__.
 
 #### Password credentials
 
@@ -309,7 +309,7 @@ Under **Configure New Token**, enter details about the token:
 * **Token Name** - The name you want to use for the token.
 * **Grant Type** - A dropdown list of options. This will depend on the API service provider requirements.
 * **Callback URL** - The client application callback URL to redirect to after auth. This must be registered with the API provider. If not provided, Postman will use a default empty URL and try to extract the code or access token from it. If this doesn't work for your API, you can use the following URL: `https://oauth.pstmn.io/v1/browser-callback`
-    * **Authorize using browser** - You can enter your credentials in your web browser, instead of the pop-up that appears in Postman by default when you use the __Authorization code__ or __Implicit__ grant type. Select this checkbox to set the __Callback URL__ to return to Postman. If you opt to authorize using the browser, make sure pop-ups are deactivated for the callback URL, otherwise it won't work.
+    * **Authorize using browser** - > If you are using the Postman desktop app, you can enter your auth details in your web browser instead of in Postman by selecting __Authorize using browser__. When using the __Authorization code__ or __Implicit__ grant type, select this checkbox to set the __Callback URL__ to return to Postman. If you opt to authorize using your browser, make sure pop-ups are deactivated for the callback URL, otherwise it won't work.
 * **Auth URL** - The endpoint for the API provider authorization server, to retrieve the auth code.
 * **Access Token URL** - The provider's authentication server, to exchange an authorization code for an access token.
 * **Client ID** - The ID for your client application registered with the API provider.
@@ -322,10 +322,11 @@ Select **Advanced Options** to customize the token:
 
 * **Refresh Token URL** - The endpoint for the refresh server, to exchange the refresh token for an access token. If empty, the refresh token URL will be the same as the access token URL.
 * **Auth Request**, **Token Request**, and **Refresh Request** - Define any custom parameters you want to send with auth requests, token requests, or refresh requests. For each key-value pair you define, select an option to send the parameter in the request body, request URL, or request headers.
+    * If you added resource or audience URIs in a previous version of Postman, you can import them as custom parameters to send with auth, token, or refresh requests. Select the **Audience and Resource** tab to review the resources and audiences. To use them to customize your token, select **Move Audience and Resource**.
 
 When the configuration is complete, select __Get New Access Token__.
 
-> When you use __Authorization code__ or __Implicit__ grant type, you will be prompted to supply your credentials to retrieve an access token to use in later requests. By default Postman will display a pop-up browser when you select __Request Token__. You can instead choose to authenticate using your system's default web browser. Select __Authorize using browser__ and the __Callback URL__ will autofill to return to Postman when you have completed auth in the browser, so that your requests can use the token returned on successful authentication.
+> When you use __Authorization code__ or __Implicit__ grant type, you will be prompted to supply your credentials to retrieve an access token to use in later requests. By default Postman will display a pop-up window when you select __Request Token__. If you are using the Postman desktop app, you can instead choose to authenticate using your system's default web browser. Select __Authorize using browser__ to set the __Callback URL__ to return to Postman after you complete auth in the browser, so that your requests can use the token returned on successful authentication.
 
 A token from the API includes its details, together with the expiry, and optionally a refresh token you can use to retrieve a new access token when your current one expires. Select __Use Token__ to select the returned value.
 
