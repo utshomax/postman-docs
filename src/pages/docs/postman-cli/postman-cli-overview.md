@@ -76,6 +76,7 @@ Some Postman CLI commands use the [Postman API](/docs/developer/intro-api/) to f
 
 The following Postman CLI commands make calls to the Postman API and count toward your Postman API usage:
 
+* `postman login` - Uses one call to authenticate a user with a Postman API key.
 * `postman collection run` - Uses one call to fetch a collection by ID, one call to fetch an environment (if any), and one call to send data back to Postman.
 * `postman api lint` - Uses one call to fetch the governance and security rules and one call to send a report back to Postman.
 
