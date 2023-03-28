@@ -322,7 +322,7 @@ Select **Advanced Options** to customize the token:
 
 * **Refresh Token URL** - The endpoint for the refresh server, to exchange the refresh token for an access token. If empty, the refresh token URL will be the same as the access token URL.
 * **Auth Request**, **Token Request**, and **Refresh Request** - Define any custom parameters you want to send with auth requests, token requests, or refresh requests. For each key-value pair you define, select an option to send the parameter in the request body, request URL, or request headers.
-    * If you added resource or audience URIs in a previous version of Postman, you can import them as custom parameters to send with auth, token, or refresh requests. Select the **Audience and Resource** tab to review the resources and audiences. To use them to customize your token, select **Move Audience and Resource**.
+    * If you added resource or audience URIs in a previous version of Postman, you can import them as custom parameters. Select the **Audience and Resource** tab to review the resources and audiences, then select **Move Audience and Resource**. For all grant types except implicit, the parameters are added to the token request. For implicit grant types, the parameters are added to the auth request.
 
 When the configuration is complete, select __Get New Access Token__.
 
