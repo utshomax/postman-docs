@@ -1,6 +1,6 @@
 ---
 title: "Publishing your docs"
-updated: 2022-10-04
+updated: 2023-04-15
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -38,7 +38,6 @@ Public documentation automatically includes details for each request or endpoint
 ## Contents
 
 * [Making your documentation public](#making-your-documentation-public)
-* [Adding a custom logo](#adding-a-custom-logo)
 * [Sharing your public docs](#sharing-your-public-docs)
 * [Changing publication settings](#changing-publication-settings)
 * [Unpublishing your docs](#unpublishing-your-docs)
@@ -63,9 +62,19 @@ To publish the documentation for a collection, do the following:
     * **Environment** - Select an [environment](/docs/publishing-your-api/documenting-your-api/#associating-environments-with-documentation) to publish environment variables with your documentation. *The initial values of all variables are published with your documentation, so make sure they don't contain sensitive information such as passwords or tokens.*
     * **Custom domain** - Select a [custom domain](/docs/publishing-your-api/custom-doc-domains/) where you want to publish your documentation.
     * **Default layout** - Select a layout style for your documentation. **Double column** displays sample code in a column next to the documentation. **Single column** displays sample code inline beneath each request.
-    * **Header background color** - Specify a color (hex format) for the header at the top of the documentation window.
-    * **Code background color** - Specify a color (hex format) for sample code blocks.
-    * **Highlight color** - Specify a color (hex format) for hyperlinks.
+    * **Default Theme** - Select a theme for your documentation (light or dark). Your documentation will use the selected theme by default, but users can switch between themes.
+    * **Logo** - By default, public documentation uses your [team logo](/docs/administration/team-settings/#editing-your-team-profile). You can also select a custom logo for each theme (light and dark):
+
+        * To add a logo, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> and select **Upload**. Drag and drop an image file, or select an image file. Drag the handles to adjust the part of the image you want to display, then select **Upload**.
+        * To delete a logo, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> and select **Delete**.
+
+        > Logos must be 2 MB or less in size and must be in jpg, jpeg, or png format.
+
+    * **Colors** - You can customize the colors for each theme (light and dark):
+
+        * **Header background** - Specify a color (hex format) for the header at the top of the documentation window.
+        * **Code background** - Specify a color (hex format) for sample code blocks.
+        * **Highlight** - Specify a color (hex format) for hyperlinks.
 
 1. To preview your documentation using the current settings, select **Preview Documentation**. The preview automatically updates as you change settings.
 
@@ -78,10 +87,6 @@ To publish the documentation for a collection, do the following:
     * **Postman Enterprise plans** - Your [Community Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) controls the Postman elements your team makes public. Enter a note for your Community Manager and select **Request Publish**. When your request is approved, you will receive an email notification with a link to the public documentation. To retract your publish request, [change the pending publication settings](#changing-publication-settings) and select **Retract request**.
 
 [![Published documentation example](https://assets.postman.com/postman-docs/documentation-published-docs-v9.jpg)](https://assets.postman.com/postman-docs/documentation-published-docs-v9.jpg)
-
-## Adding a custom logo
-
-If you have a [Team Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can customize your published documentation with a team logo. To add a logo, [edit your team profile](/docs/administration/team-settings/#editing-your-team-profile) in your [team settings](https://go.postman.co/settings/team/general). Your team logo will replace the Postman logo in your team's published documentation. (It may take several minutes for the new logo to appear.)
 
 ## Sharing your public docs
 
