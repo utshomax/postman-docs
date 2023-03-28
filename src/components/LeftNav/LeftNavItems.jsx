@@ -1149,7 +1149,22 @@ export const leftNavItems = [
       },
       {
         name: 'Postman API',
-        url: '/docs/developer/intro-api/',
+        subParentSlug: 'postman-api',
+        slug: '/docs/developer/postman-api/intro-api/',
+        subMenuItems2: [
+          {
+            name: 'Postman API overview',
+            url: '/docs/developer/postman-api/intro-api/'
+          },
+          {
+            name: 'Authentication',
+            url: '/docs/developer/postman-api/authentication/'
+          },
+          {
+            name: 'Postman API rate limits',
+            url: '/docs/developer/postman-api/postman-api-rate-limits/'
+          }
+        ]
       },
       {
         name: 'Echo API',

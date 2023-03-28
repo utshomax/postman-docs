@@ -1117,7 +1117,23 @@
 	},
 	{
 		"from": "/docs/postman/postman-api/intro-api/",
-		"to": "/docs/developer/intro-api/"
+		"to": "/docs/developer/postman-api/intro-api/"
+	},
+	{
+		"from": "/docs/developer/intro-api/#generating-a-postman-api-key",
+		"to": "/docs/developer/postman-api/authentication/#generate-a-postman-api-key"
+	},
+	{
+		"from": "/docs/developer/intro-api/#authentication",
+		"to": "/docs/developer/postman-api/authentication/"
+	},
+	{
+		"from": "/docs/developer/intro-api/#generating-a-postman-api-key",
+		"to": "/docs/developer/postman-api/authentication/#generate-a-postman-api-key"
+	},
+	{
+		"from": "/docs/developer/intro-api/#generating-a-collection-access-key",
+		"to": "/docs/developer/postman-api/authentication/#generate-a-collection-access-key"
 	},
 	{
 		"from": "/docs/postman/postman_api/continuous_integration/",
