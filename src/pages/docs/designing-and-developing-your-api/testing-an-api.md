@@ -23,8 +23,8 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "The Reimagined API-First Workflow, Part 2: for Testers"
-    url: "https://blog.postman.com/the-reimagined-api-first-workflow-for-testers/"
+    name: "Recommended Postman skills for API testing professionals"
+    url: "https://blog.postman.com/recommended-postman-skills-for-api-testing-professionals/"
   - type: link
     name: "Negative Testing for More Resilient APIs"
     url: "https://blog.postman.com/negative-testing-for-more-resilient-apis/"

@@ -20,15 +20,14 @@ contextual_links:
   - type: link
     name: "Working With Your Team in Postman | The Exploratory"
     url: "https://youtu.be/5lscUV-Exac"
+  - type: link
+    name: "Super Admin Role for Enterprise | Postman Level Up"
+    url: "https://youtu.be/SbvSAvs0Ii8"
   - type: subtitle
     name: "Blog posts"
   - type: link
     name: "Manage large teams in Postman with workspaces, permissions & more"
     url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"
-  - type: link
-    name: "Introducing the Super Admin Role: Manage All Your Team’s Users and Resources"
-    url: "https://blog.postman.com/introducing-the-super-admin-role/"
-
 ---
 
 > Certain team options are only available on **[Postman paid plans](https://www.postman.com/pricing)**. To learn which roles are available on your plan, go to your **[web dashboard](https://go.postman.co/settings/team/roles)**.
@@ -64,6 +63,7 @@ You can [assign](/docs/administration/managing-your-team/managing-your-team/) on
 * **Partner Manager** (Internal, [Enterprise plans only](https://www.postman.com/pricing)) - Manages all [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners. To learn more, see [Partner roles](#partner-roles).
 * **Partner** (External, [Enterprise plans only](https://www.postman.com/pricing)) - All partners are automatically granted the Partner role at the team level. Partners can only access the [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) they've been invited to. To learn more, see [Partner roles](#partner-roles).
 * **Guest** (External) - Views collections and sends requests in collections that have been shared with them. This role can't be directly assigned to a user. To learn more, see [Allowing external users to view collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
+* **Flow Editor** ([Annual Professional plans only](https://www.postman.com/pricing/#postman-flows-access-and-pricing)) - Can create, edit, and deploy [Postman Flows](/docs/postman-flows/gs/flows-overview/).
 
 > If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), you can also assign roles at the [group level](/docs/administration/managing-your-team/user-groups/).
 

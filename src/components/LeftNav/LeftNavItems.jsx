@@ -437,6 +437,10 @@ export const leftNavItems = [
             url: '/docs/postman-flows/gs/flows-overview/',
           },
           {
+            name: 'About blocks and messages',
+            url: '/docs/postman-flows/gs/blocks-information/',
+          },
+          {
             name: 'The Postman Flows interface',
             url: '/docs/postman-flows/gs/the-interface/',
           },
@@ -471,6 +475,10 @@ export const leftNavItems = [
             name: 'Using webhooks with Postman Flows',
             url: '/docs/postman-flows/tutorials/webhooks/',
           },
+          {
+            name: 'Creating charts, tables, and output',
+            url: '/docs/postman-flows/tutorials/creating-charts-tables-and-output/',
+          },
         ],
       },
       {
@@ -499,7 +507,7 @@ export const leftNavItems = [
             url: '/docs/postman-flows/flows-query-language/data-manipulation/',
           },
           {
-            name: 'Function reference',
+            name: 'FQL function reference',
             url: '/docs/postman-flows/flows-query-language/function-reference/',
           },
         ],
@@ -873,10 +881,6 @@ export const leftNavItems = [
         url: '/docs/monitoring-your-api/intro-monitors/',
       },
       {
-        name: 'Monitoring API uptime',
-        url: '/docs/monitoring-your-api/uptime-monitors/',
-      },
-      {
         name: 'Setting up a collection-based monitor',
         url: '/docs/monitoring-your-api/setting-up-monitor/',
       },
@@ -899,6 +903,10 @@ export const leftNavItems = [
       {
         name: 'Monitoring FAQs',
         url: '/docs/monitoring-your-api/faqs-monitors/',
+      },
+      {
+        name: 'Monitoring API uptime',
+        url: '/docs/monitoring-your-api/uptime-monitors/',
       },
     ],
   },
