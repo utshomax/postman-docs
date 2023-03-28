@@ -63,6 +63,7 @@ You can [assign](/docs/administration/managing-your-team/managing-your-team/) on
 * **Partner Manager** (Internal, [Enterprise plans only](https://www.postman.com/pricing)) - Manages all [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners. To learn more, see [Partner roles](#partner-roles).
 * **Partner** (External, [Enterprise plans only](https://www.postman.com/pricing)) - All partners are automatically granted the Partner role at the team level. Partners can only access the [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) they've been invited to. To learn more, see [Partner roles](#partner-roles).
 * **Guest** (External) - Views collections and sends requests in collections that have been shared with them. This role can't be directly assigned to a user. To learn more, see [Allowing external users to view collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
+* **Flow Editor** ([Annual Professional plans only](https://www.postman.com/pricing/#postman-flows-access-and-pricing)) - Can create, edit, and deploy [Postman Flows](/docs/postman-flows/gs/flows-overview/).
 
 > If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), you can also assign roles at the [group level](/docs/administration/managing-your-team/user-groups/).
 

@@ -858,10 +858,6 @@ export const leftNavItems = [
         url: '/docs/monitoring-your-api/intro-monitors/',
       },
       {
-        name: 'Monitoring API uptime',
-        url: '/docs/monitoring-your-api/uptime-monitors/',
-      },
-      {
         name: 'Setting up a collection-based monitor',
         url: '/docs/monitoring-your-api/setting-up-monitor/',
       },
@@ -884,6 +880,10 @@ export const leftNavItems = [
       {
         name: 'Monitoring FAQs',
         url: '/docs/monitoring-your-api/faqs-monitors/',
+      },
+      {
+        name: 'Monitoring API uptime',
+        url: '/docs/monitoring-your-api/uptime-monitors/',
       },
     ],
   },
