@@ -1,9 +1,8 @@
 ---
-title: "Syncing Your APIs to Your Public Workspaces"
+title: "Syncing your APIs to your public workspace"
 updated: 2023-02-01
 ---
 
-### Syncing Your APIs to Your Public Workspaces
 
 Keep your APIs in sync on the API Network so consumers can fork the latest versions.
 Postman has a group of integrations to help keep your Public Workspace in sync.

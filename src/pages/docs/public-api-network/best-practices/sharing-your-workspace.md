@@ -1,9 +1,8 @@
 ---
-title: "Sharing and Watching Your Workspace"
+title: "Sharing and watching your workspace"
 updated: 2023-02-01
 ---
 
-### Sharing and Watching Your Workspace
 
 Being a part of the API Network means your searchable in the Postman app.
 It also means being featured on our Explore page if your API is being watched or forked enough times.
@@ -11,7 +10,7 @@ It also means being featured on our Explore page if your API is being watched or
 Discovery means enabling API consumers to find exactly the right API they need for their application or integration.
 It also means giving consumers everything they will need to onboard with an API. ng Consumers need to assess the overall quality and reliability of the API, then get to work integrating it into their use case, no matter what language they are using.
 
-### Linking To A Workspace
+## Linking to a public workspace
 
 Public Workspaces can be linked to by using the team name and workspace name in this format:
 
@@ -19,21 +18,17 @@ Public Workspaces can be linked to by using the team name and workspace name in 
 
 This will usually open up the workspace in the Postman Web App in the browser.
 
-## Sharing Collections and Documentation
+## Creating links in your documentation
 
-Cross-linking to your API’s documentation and to your Postman collection creates a fluid developer experience.
-Use embeddable Postman’s [Run in Postman buttons](https://learning.postman.com/docs/publishing-your-api/run-in-postman/introduction-run-button/), and create links to your documentation within Postman’s documentation. that consumers can activate with one click.
+[Create links](/docs/publishing-your-api/authoring-your-documentation/#adding-links) between your API’s documentation and your collection, enabling developers to quickly navigate your API. You can add a link from your documentation to your collection using a [Run in Postman button](/docs/publishing-your-api/run-in-postman/introduction-run-button/).
 
-### Adding a Hyperlink in Postman Documentation
+## Tracking public workspace metrics
 
-Link back to your documentation using hyperlinks in your [documentation](https://learning.postman.com/docs/publishing-your-api/authoring-your-documentation/#adding-links).
+You can use the number of watchers and forks in your public workspace to track its success.
 
-## Workspace Metrics
+### Watchers
 
-### Watches
-
-Keeping track of the watches on workspaces, APIs, and collections to understand who is tuned into what is happening. Use watches as a
-metric for the number of consumers, contributors, and internal and external stakeholders who are tuned in.
+Track the number of watchers on your workspace, APIs, and collections to understand who is interested in your APIs. You can use the numbers of watchers as a metric for the number of consumers, contributors, and internal and external stakeholders who are interested in your APIs.
 
 ### Forks
 
