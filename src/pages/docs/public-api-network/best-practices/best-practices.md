@@ -33,7 +33,7 @@ For your [variables](/docs/sending-requests/variables/), you can write documenta
 
 ### Write descriptions for folders and requests
 
-At either the collection or folder level, Postman recommends writing detailed [descriptions](/docs/publishing-your-api/authoring-your-documentation/#adding-descriptions-to-your-documentation) that explain how to sign up for and get started with your API. You can use keywords in your descriptions to increase your API's discovery in organic search results and Postman search results. 
+At either the collection or folder level, Postman recommends writing detailed [descriptions](/docs/publishing-your-api/authoring-your-documentation/#adding-descriptions-to-your-documentation) that explain how to sign up for and get started with your API. You can use keywords in your descriptions to increase your API's discovery in organic search results and Postman search results.
 
 To learn more about collections and folders, see [Using collections](/docs/collections/using-collections/).
 
@@ -59,8 +59,8 @@ Create example workflows under a collection or a collection of folders for examp
 
 Examples of Cookbooks you can make are:
 
-- Authentication and Authorization Cookbooks
+* Authentication and Authorization Cookbooks
 
-- Integration Use Cases
+* Integration Use Cases
 
-- Automated Use Cases
+* Automated Use Cases
