@@ -1120,6 +1120,10 @@
 		"to": "/docs/developer/postman-api/intro-api/"
 	},
 	{
+		"from": "/docs/developer/intro-api/",
+		"to": "/docs/developer/postman-api/intro-api/"
+	},
+	{
 		"from": "/docs/postman/postman_api/continuous_integration/",
 		"to": "/docs/collections/using-newman-cli/continuous-integration/"
 	},
