@@ -1157,7 +1157,7 @@ export const leftNavItems = [
             url: '/docs/developer/postman-api/intro-api/'
           },
           {
-            name: 'Authentication',
+            name: 'Postman API authentication',
             url: '/docs/developer/postman-api/authentication/'
           },
           {

@@ -1,5 +1,5 @@
 ---
-title: "Authentication"
+title: "Postman API authentication"
 updated: 2022-02-17
 search_keyword: "postman-api-key, collection-access-key, postman-api"
 contextual_links:
