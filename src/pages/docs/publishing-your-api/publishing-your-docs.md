@@ -31,7 +31,7 @@ contextual_links:
 
 Publishing your documentation makes it publicly available to anyone with the link to the documentation and a web browser. Publish your documentation to help people around the world learn how to use your collection or interact with your Public API.
 
-Public documentation automatically includes details for each request or endpoint in the published collection, along with sample code in various client languages. As you modify your collection, the published documentation automatically stays in sync with  your latest changes. There's no need to publish the documentation again after making changes.
+Public documentation automatically includes details for each request or endpoint in the published collection, along with sample code in various client languages. As you update your collection, the published documentation automatically stays in sync with  your latest changes. There's no need to publish the documentation again after making changes.
 
 > Your public documentation includes the **Run in Postman** button so users can interact with your collection or API directly in Postman. For an example, check out the [Postman API documentation](https://documenter.getpostman.com/view/12959542/UV5XjJV8) which was published from a Postman Collection.
 
@@ -77,7 +77,7 @@ To publish the documentation for a collection, do the following:
         * **Highlight** - Specify a color (hex format) for hyperlinks.
 
     * **Title** - Add a title for your documentation (60 characters or less). The title will appear in web searches and in browser tabs.
-    * **Description** - Add a brief description to let users know what your documentation contains (160 characters or less). You can also add relevant keywords to help users find your documentation when searching the web.
+    * **Description** - Add a brief description to let users know what your documentation is about (160 characters or less). You can also add relevant keywords to help users find your documentation when searching the web.
 
 1. To preview your documentation using the current settings, select **Preview Documentation**. The preview automatically updates as you change settings.
 
@@ -89,7 +89,7 @@ To publish the documentation for a collection, do the following:
 
     * **Postman Enterprise plans** - Your [Community Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) controls the Postman elements your team makes public. Enter a note for your Community Manager and select **Request Publish**. When your request is approved, you will receive an email notification with a link to the public documentation. To retract your publish request, [change the pending publication settings](#changing-publication-settings) and select **Retract request**.
 
-[![Published documentation example](https://assets.postman.com/postman-docs/documentation-published-docs-v9.jpg)](https://assets.postman.com/postman-docs/documentation-published-docs-v9.jpg)
+![Published documentation example](https://assets.postman.com/postman-docs/v10/documentation-published-docs-v10.jpg)
 
 ## Sharing your public docs
 
@@ -129,4 +129,4 @@ If you no longer want your documentation to be publicly available, you can unpub
 
 If you change your mind, you can [publish your documentation](#making-your-documentation-public) again at any time.
 
-<img alt="Unpublish documentation" src="https://assets.postman.com/postman-docs/documentation-unpublish-v9.jpg" width="737px">
+<img alt="Unpublish documentation" src="https://assets.postman.com/postman-docs/v10/documentation-unpublish-v10.jpg">
