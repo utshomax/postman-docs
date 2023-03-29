@@ -1,6 +1,15 @@
 ---
 title: "API Network Overview"
 updated: 2023-02-01
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Public workspaces"
+    url: "/docs/collaborating-in-postman/using-workspaces/public-workspaces/"
+  - type: link
+    name: "Exploring the Public API Network"
+    url: "/docs/getting-started/exploring-public-api-network/"
 ---
 
 Share your APIs to 20M+ users in the world’s largest public API network.
@@ -19,7 +28,7 @@ At Postman, we’ve always been passionate about successful API calls and suppor
 
 ## Next steps
 
-* [Creating and Managing a Public Workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/)
-* [Best Practices for API Network](/docs/public-api-network/best-practices/best-practices/)
-* [Sharing and Watching your Public Workspace](/docs/public-api-network/best-practices/sharing-your-workspace/)
-* [Sync Your APIs on Your Public Workspace](/docs/public-api-network/best-practices/sync-api-with-workspace/)
+* [Public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/)
+* [Best practices for the Public API Network](/docs/public-api-network/best-practices/best-practices/)
+* [Sharing and watching your public workspace](/docs/public-api-network/best-practices/sharing-your-workspace/)
+* [Sync your APIs to your public workspace](/docs/public-api-network/best-practices/sync-api-with-workspace/)

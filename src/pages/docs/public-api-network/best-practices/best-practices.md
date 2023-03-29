@@ -1,6 +1,15 @@
 ---
 title: "Public API Network best practices"
 updated: 2023-02-01
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Public workspaces"
+    url: "/docs/collaborating-in-postman/using-workspaces/public-workspaces/"
+  - type: link
+    name: "Exploring the Public API Network"
+    url: "/docs/getting-started/exploring-public-api-network/"
 ---
 
 ## Crafting your public Postman profile
@@ -11,11 +20,9 @@ To learn more about your Postman profile, see [Customizing your Postman profile]
 
 ## Organizing public workspaces
 
-Workspaces are a grouping of schemas, collections, variables, tests, and more that describe and interact with your APIs. Collections are usually where developers are first to be drawn to, to interact with you API.
+To help consumers quickly begin interacting with your APIs, you can organize the requests in your public workspace using collections and folders. Collections enable you to group saved requests, and folders enable you to organize requests into folders by category, such as domain, service, and use case.
 
-### Creating collection folders
-
-Collections can divide requests into folders by domain, team, service, or use case.
+A workspace is a group of schemas, collections, variables, tests, and more that describe how to interact with your APIs. Typically, developers begin with collections when learning how to interact with APIs. Keeping your requests organized in collections and folders will help guide consumers towards requests relevant to their interests.
 
 ## Writing detailed documentation
 
