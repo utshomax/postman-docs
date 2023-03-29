@@ -2138,5 +2138,9 @@
 	{
 		"from": "/docs/running-collections/using-newman-cli/newman-with-docker/",
 		"to": "/docs/collections/using-newman-cli/newman-with-docker/"
+	},
+	{
+		"from": "/docs/collaborating-in-postman/collaboration-intro/",
+		"to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
 	}
 ]
