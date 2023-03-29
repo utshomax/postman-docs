@@ -5,7 +5,9 @@ updated: 2023-02-01
 
 ## Crafting your public Postman profile
 
-Please refere to the doucmentation for [Public Profiles](https://learning.postman.com/docs/getting-started/postman-profile/)
+Customize your Postman profile with important information about yourself. Add information that identifies you as the real individual or company on the Public API Network. By default, your profile is only visible to your Postman team. [Make your profile public](/docs/getting-started/postman-profile/#making-your-profile-public) to share important information with other Postman users.
+
+To learn more about your Postman profile, see [Customizing your Postman profile](/docs/getting-started/postman-profile/).
 
 ## Organizing public workspaces
 
@@ -37,17 +39,17 @@ At either the collection or folder level, Postman recommends writing detailed [d
 
 To learn more about collections and folders, see [Using collections](/docs/collections/using-collections/).
 
-## Add examples to requests
+### Add examples to requests
 
 Save examples of your API's [requests, responses, and messages](/docs/sending-requests/examples/) to [use examples in your documentation](/docs/sending-requests/examples/#using-examples-in-documentation). This enables developers to test your API using example data.
 
 ### Detail authorization
 
-Create documentation around how to authorize with your API. You can mention this in the documentation overview or in it’s own folder if you have several different API request workflows or a more complicated authorization schema.
+Create documentation explaining how to authorize with your API. You can mention this in the documentation overview or in it’s own folder if you have several different API request workflows or a more complicated authorization schema.
 
 ## Creating multiple environments for different use cases
 
-You can [create environments](https://learning.postman.com/docs/sending-requests/managing-environments/#creating-environments) for different use cases and add them to your Public Workspace. This helps users understand what they need for what they want to use with your APIs.
+You can [create environments](/docs/sending-requests/managing-environments/#creating-environments) for different use cases, such as testing and production, and add them to your public workspace. This helps users understand what they need to configure with your API for their use case.
 
 ## Protecting sensitive data
 

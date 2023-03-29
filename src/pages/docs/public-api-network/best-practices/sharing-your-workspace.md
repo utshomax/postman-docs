@@ -26,10 +26,14 @@ This will usually open up the workspace in the Postman Web App in the browser.
 
 You can use the number of watchers and forks in your public workspace to track its success.
 
+> For additional metrics, you can also view reports for [public workspaces](/docs/reports/all-workspaces-reports/#public-workspaces) and [public APIs](/docs/reports/all-apis-reports/#public-apis) in your [Postman reports dashboard](https://go.postman.co/reports/summary) ([Enterprise plans only](https://www.postman.com/pricing)).
+
 ### Watchers
 
-Track the number of watchers on your workspace, APIs, and collections to understand who is interested in your APIs. You can use the numbers of watchers as a metric for the number of consumers, contributors, and internal and external stakeholders who are interested in your APIs.
+Track the number of watchers on your [workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#watching-a-workspace), [APIs](/docs/designing-and-developing-your-api/managing-apis/#watching-apis), and [collections](/docs/collections/using-collections/#watching-a-collection) to understand who is interested in your APIs. You can use the numbers of watchers as a metric for the number of consumers, contributors, and internal and external stakeholders who are interested in your APIs.
 
 ### Forks
 
 Making a linked copy of an API, or the mocks, documentation, tests, and other areas of the lifecycle defined as a collection to another workspace, allowing anyone to run on their own, make changes and enhancements, then if they desire, contribute back to the original and receive regular updates over time.
+
+For more details about viewing the number of people who forked a Postman entity, see [Viewing fork information](/docs/collaborating-in-postman/using-version-control/forking-entities/#viewing-fork-information).
