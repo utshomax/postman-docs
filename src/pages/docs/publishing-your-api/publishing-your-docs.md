@@ -62,7 +62,7 @@ To publish the documentation for a collection, do the following:
     * **Environment** - Select an [environment](/docs/publishing-your-api/documenting-your-api/#associating-environments-with-documentation) to publish environment variables with your documentation. *The initial values of all variables are published with your documentation, so make sure they don't contain sensitive information such as passwords or tokens.*
     * **Custom domain** - Select a [custom domain](/docs/publishing-your-api/custom-doc-domains/) where you want to publish your documentation.
     * **Default layout** - Select a layout style for your documentation. **Double column** displays sample code in a column next to the documentation. **Single column** displays sample code inline beneath each request.
-    * **Default Theme** - Select a theme for your documentation (light or dark). Your documentation will use the selected theme by default, but users can switch between themes.
+    * **Default Theme** - Select a light or dark theme for your documentation. You can also choose to use the system theme. Your documentation will use the selected theme by default, but users can switch between themes.
     * **Logo** - By default, public documentation uses your [team logo](/docs/administration/team-settings/#editing-your-team-profile). You can also select a custom logo for each theme (light and dark):
 
         * To add a logo, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> and select **Upload**. Drag and drop an image file, or select an image file. Drag the handles to adjust the part of the image you want to display, then select **Upload**.
@@ -75,6 +75,9 @@ To publish the documentation for a collection, do the following:
         * **Header background** - Specify a color (hex format) for the header at the top of the documentation window.
         * **Code background** - Specify a color (hex format) for sample code blocks.
         * **Highlight** - Specify a color (hex format) for hyperlinks.
+
+    * **Title** - Add a title for your documentation (60 characters or less). The title will appear in web searches and in browser tabs.
+    * **Description** - Add a brief description to let users know what your documentation contains (160 characters or less). You can also add relevant keywords to help users find your documentation when searching the web.
 
 1. To preview your documentation using the current settings, select **Preview Documentation**. The preview automatically updates as you change settings.
 
