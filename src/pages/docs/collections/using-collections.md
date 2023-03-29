@@ -263,7 +263,7 @@ Collections can power various parts of your API development, testing, and publis
 
 ## Using collection templates
 
-Not sure where to start when creating a collection. Instead of starting from scratch, you can create a collection from a template. Several collection templates are available for getting started with integration,API documentation, conditional workflows, or data visualization.
+Not sure where to start when creating a collection? Instead of starting from scratch, you can create a collection from a template. Several collection templates are available for getting started with integrations, API documentation, conditional workflows, or data visualization.
 
 There are several ways to create a collection from a template:
 
