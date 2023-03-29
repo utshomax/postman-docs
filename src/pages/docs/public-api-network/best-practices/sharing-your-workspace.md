@@ -17,17 +17,17 @@ Being part of the [Public API Network](/docs/getting-started/exploring-public-ap
 
 ## Linking to a public workspace
 
-You can navigate to a public workspace from your browser using the following URL format:
+You can navigate to a public workspace from your browser using the public workspace's URL. Copy the public workspace's URL, and then share the URL with a team member or other Postman users.
 
-```shell
-https://www.postman.com/[team-name]/workspace/[workspace-name]/overview
-```
+Open the public workspace, then select the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> next to the workspace's name in the **Overview** tab.
 
-To learn more about giving your workspace URL to Postman users, see [Sharing a public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/#sharing-a-public-workspace).
+> You can also open the public workspace, then copy the URL in your browser address bar.
 
 ## Creating links in your documentation
 
-[Create links](/docs/publishing-your-api/authoring-your-documentation/#adding-links) between your API’s documentation and your collection, enabling developers to quickly navigate your API. You can add a link from your documentation to your collection using a [Run in Postman button](/docs/publishing-your-api/run-in-postman/introduction-run-button/).
+Create links between your API’s documentation and your collection, enabling developers to quickly navigate your API. You can add a link from your documentation to your collection using a [Run in Postman button](/docs/publishing-your-api/run-in-postman/introduction-run-button/).
+
+To learn more, see [Adding links](/docs/publishing-your-api/authoring-your-documentation/#adding-links).
 
 ## Tracking public workspace metrics
 

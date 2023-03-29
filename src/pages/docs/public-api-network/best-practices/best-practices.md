@@ -12,11 +12,11 @@ contextual_links:
     url: "/docs/getting-started/exploring-public-api-network/"
 ---
 
-## Crafting your public Postman profile
+## Customizing your team profile
 
-Customize your Postman profile with important information about yourself. Add information that identifies you as the real individual or company on the Public API Network. By default, your profile is only visible to your Postman team. [Make your profile public](/docs/getting-started/postman-profile/#making-your-profile-public) to share important information with other Postman users.
+Customize your team profile with important information about team. Add information that identifies you as the real company on the Public API Network. By default, your profile is only visible to your Postman team. [Make your team profile public](/docs/administration/team-settings/#making-your-team-profile-public) to make your profile show up on the [Public API Network](https://www.postman.com/explore).
 
-To learn more about your Postman profile, see [Customizing your Postman profile](/docs/getting-started/postman-profile/).
+To learn more about your team profile, see [Managing your team profile](/docs/administration/team-settings/#managing-your-team-profile).
 
 ## Organizing public workspaces
 
@@ -50,9 +50,13 @@ To learn more about collections and folders, see [Using collections](/docs/colle
 
 Save examples of your API's [requests, responses, and messages](/docs/sending-requests/examples/) to [use examples in your documentation](/docs/sending-requests/examples/#using-examples-in-documentation). This enables developers to test your API using example data.
 
+To learn more, see [Including examples](/docs/publishing-your-api/authoring-your-documentation/#including-examples).
+
 ### Detail authorization
 
-Create documentation explaining how to authorize with your API. You can mention this in the documentation overview or in it’s own folder if you have several different API request workflows or a more complicated authorization schema.
+Create documentation explaining how to authorize with your API. You can mention this in the [workspace description](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#editing-workspace-details) or [documentation description](/docs/publishing-your-api/authoring-your-documentation/#adding-descriptions-to-your-documentation) if you have several API request workflows or a more complicated authorization schema.
+
+To learn more, see [Including authorization details](/docs/publishing-your-api/authoring-your-documentation/#including-authorization-details).
 
 ## Creating multiple environments for different use cases
 
