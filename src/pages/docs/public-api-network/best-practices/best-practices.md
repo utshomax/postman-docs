@@ -12,17 +12,33 @@ contextual_links:
     url: "/docs/getting-started/exploring-public-api-network/"
 ---
 
+## Contents
+
+* [Customizing your team profile](#customizing-your-team-profile)
+* [Organizing public workspaces](#organizing-public-workspaces)
+* [Writing detailed documentation](#writing-detailed-documentation)
+
 ## Customizing your team profile
 
-Customize your team profile with important information about team. Add information that identifies you as the real company on the Public API Network. By default, your profile is only visible to your Postman team. [Make your team profile public](/docs/administration/team-settings/#making-your-team-profile-public) to make your profile show up on the [Public API Network](https://www.postman.com/explore).
-
-To learn more about your team profile, see [Managing your team profile](/docs/administration/team-settings/#managing-your-team-profile).
+[Customize your team profile](/docs/administration/team-settings/#managing-your-team-profile) with important information about team. Add information that identifies you as the real company on the Public API Network. By default, your profile is only visible to your Postman team. [Make your team profile public](/docs/administration/team-settings/#making-your-team-profile-public) to make your profile show up on the [Public API Network](https://www.postman.com/explore).
 
 ## Organizing public workspaces
 
-To help consumers quickly begin interacting with your APIs, you can organize the requests in your public workspace using collections and folders. Collections enable you to group saved requests, and folders enable you to organize requests into folders by category, such as domain, service, and use case.
+You can organize the requests in your public workspace using collections and folders to help consumers begin interacting with your APIs. Collections enable you to group saved requests, and folders enable you to organize requests into folders by category, such as domain, service, and use case.
 
 A workspace is a group of schemas, collections, variables, tests, and more that describe how to interact with your APIs. Typically, developers begin with collections when learning how to interact with APIs. Keeping your requests organized in collections and folders will help guide consumers towards requests relevant to their interests.
+
+### Creating API examples for different use cases
+
+You can [create collections](/docs/collections/using-collections/#creating-collections) with specific example use cases to help consumers fork your collections and begin interacting with your APIs. Example use cases can include integrations, automation, authentication and authorization, and more.
+
+### Creating environments for different use cases
+
+You can [create environments](/docs/sending-requests/managing-environments/#creating-environments) for different use cases, such as testing and production, and add them to your public workspace. This helps consumers understand what they need to configure with your API for their use case.
+
+### Protecting sensitive data
+
+When [creating and sharing environment variables](/docs/sending-requests/managing-environments/#adding-environment-variables), specify example values as the Initial value for the variable. Don't add sensitive data as the Initial value because it is shared with users who can access the environment. The Current value is used in your local instance of Postman, and is never synced to your account or shared with your team unless you choose to persist it.
 
 ## Writing detailed documentation
 
@@ -57,23 +73,3 @@ To learn more, see [Including examples](/docs/publishing-your-api/authoring-your
 Create documentation explaining how to authorize with your API. You can mention this in the [workspace description](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#editing-workspace-details) or [documentation description](/docs/publishing-your-api/authoring-your-documentation/#adding-descriptions-to-your-documentation) if you have several API request workflows or a more complicated authorization schema.
 
 To learn more, see [Including authorization details](/docs/publishing-your-api/authoring-your-documentation/#including-authorization-details).
-
-## Creating multiple environments for different use cases
-
-You can [create environments](/docs/sending-requests/managing-environments/#creating-environments) for different use cases, such as testing and production, and add them to your public workspace. This helps users understand what they need to configure with your API for their use case.
-
-## Protecting sensitive data
-
-When [creating and sharing environment variables](/docs/sending-requests/managing-environments/#adding-environment-variables), specify example values as the Initial value for the variable. Don't add sensitive data as the Initial value because it is shared with users who can access the environment. The Current value is used in your local instance of Postman, and is never synced to your account or shared with your team unless you choose to persist it.
-
-## Creating API cookbooks
-
-Create example workflows under a collection or a collection of folders for example use cases. Or for someone to fork and get started right away.
-
-Examples of Cookbooks you can make are:
-
-* Authentication and Authorization Cookbooks
-
-* Integration Use Cases
-
-* Automated Use Cases
