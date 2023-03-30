@@ -1,15 +1,6 @@
 ---
 title: "Public API Network best practices"
 updated: 2023-02-01
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Public workspaces"
-    url: "/docs/collaborating-in-postman/using-workspaces/public-workspaces/"
-  - type: link
-    name: "Exploring the Public API Network"
-    url: "/docs/getting-started/exploring-public-api-network/"
 ---
 
 ## Contents
