@@ -68,7 +68,7 @@ To publish the documentation for a collection, do the following:
         * To add a logo, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> and select **Upload**. Drag and drop an image file, or select an image file. Drag the handles to adjust the part of the image you want to display, then select **Upload**.
         * To delete a logo, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> and select **Delete**.
 
-        > Logos must be 2 MB or less in size and must be in jpg, jpeg, or png format.
+        > You can use different logos for each collection you publish. Logos must be 2 MB or less in size and must be in jpg, jpeg, or png format. The logo can be any aspect ratio (square or rectangle.)
 
     * **Colors** - You can customize the colors for each theme (light and dark):
 
@@ -76,8 +76,10 @@ To publish the documentation for a collection, do the following:
         * **Code background** - Specify a color (hex format) for sample code blocks.
         * **Highlight** - Specify a color (hex format) for hyperlinks.
 
-    * **Title** - Add a title for your documentation (60 characters or less). The title will appear in web searches and in browser tabs.
-    * **Description** - Add a brief description to let users know what your documentation is about (160 characters or less). You can also add relevant keywords to help users find your documentation when searching the web.
+    * **SEO** - You can add metadata to your documentation to make it more discoverable on the web:
+
+        * **Title** - Add a title for your documentation (60 characters or less). The title will appear in web searches and in browser tabs.
+        * **Description** - Add a brief description to let users know what your documentation is about (160 characters or less). You can also add relevant keywords to help users find your documentation when searching the web.
 
 1. To preview your documentation using the current settings, select **Preview Documentation**. The preview automatically updates as you change settings.
 
