@@ -1,10 +1,25 @@
 ---
 title: "Sharing and watching your workspace"
 updated: 2023-02-01
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Public workspaces"
+    url: "/docs/collaborating-in-postman/using-workspaces/public-workspaces/"
+  - type: link
+    name: "Exploring the Public API Network"
+    url: "/docs/getting-started/exploring-public-api-network/"
 ---
 
 
-Being part of the [Public API Network](/docs/getting-started/exploring-public-api-network/) means your API is searchable in the Postman app. If consumers actively watch and fork your API, it'll be featured on Postman's [Explore](https://www.postman.com/explore) page.
+Your API is searchable in the Postman app when it's available on [the Public API Network](/docs/getting-started/exploring-public-api-network/). If API consumers actively watch and fork your API, it'll be featured on Postman's [Explore](https://www.postman.com/explore) page. Postman recommends following these best practices and tips to share you public workspace with consumers and track interest and activity for your APIs.
+
+## Contents
+
+* [Linking to a public workspace](#linking-to-a-public-workspace)
+* [Creating links in your documentation](#creating-links-in-your-documentation)
+* [Tracking public workspace metrics](#tracking-public-workspace-metrics)
 
 ## Linking to a public workspace
 

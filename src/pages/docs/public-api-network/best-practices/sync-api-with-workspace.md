@@ -1,20 +1,26 @@
 ---
-title: "Syncing your APIs to your public workspace"
+title: "Syncing your APIs with your public workspace"
 updated: 2023-02-01
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Public workspaces"
+    url: "/docs/collaborating-in-postman/using-workspaces/public-workspaces/"
+  - type: link
+    name: "Exploring the Public API Network"
+    url: "/docs/getting-started/exploring-public-api-network/"
 ---
 
 
-Keep your APIs in sync on the API Network so consumers can fork the latest versions.
-Postman has a group of integrations to help keep your Public Workspace in sync.
 
-### Pulling in APIs from Code Repos
+Keep your APIs in sync between your public workspace and your repository. This keeps your APIs current on [the Public API Network](/docs/getting-started/exploring-public-api-network/), enabling API consumers to fork the latest version of your APIs. Postman has multiple integrations for popular third-party solutions to help keep your APIs in sync.
 
-Use code repos to pull in your API schemas into your Public Workspace and generate up-to-date collections and other Postman assets.
+The following integrations are a few options you can use to keep your API definition and collections in sync with your repository:
 
-## [Github](/docs/integrations/available-integrations/github)
+* [GitHub](/docs/integrations/available-integrations/github)
+* [GitLab](/docs/integrations/available-integrations/gitlab)
+* [Bitbucket](/docs/integrations/available-integrations/bitbucket)
+* [APIMatic](/docs/integrations/available-integrations/apimatic)
 
-## [Gitlab](/docs/integrations/available-integrations/gitlab)
-
-## [Bitbucket](/docs/integrations/available-integrations/bitbucket)
-
-## [APIMatic](/docs/integrations/available-integrations/apimatic)
+To learn more about Postman's integrations, see [Integrating with Postman](/docs/integrations/intro-integrations/) and [Using a remote Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/).

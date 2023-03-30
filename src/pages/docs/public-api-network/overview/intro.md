@@ -1,9 +1,18 @@
 ---
 title: "API Network Overview"
 updated: 2023-02-01
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Public workspaces"
+    url: "/docs/collaborating-in-postman/using-workspaces/public-workspaces/"
+  - type: link
+    name: "Exploring the Public API Network"
+    url: "/docs/getting-started/exploring-public-api-network/"
 ---
 
-Share your APIs to 20M+ users in the world’s largest public API network.
+Share your APIs with 20M+ users in the world’s largest public API network.
 
 At Postman, we’ve always been passionate about successful API calls and supporting greater collaboration and innovation. Postman Collections and workspaces were created to provide developers with what they need for those successful API calls. Our public workspaces empower API developers to view, share, and consume your APIs and all the elements that you publish. And it’s totally free of charge. It has never been easier to present your APIs to the global API community. With more than 57,000 public workspaces and 125,000 collections already in the network, it has become the world’s largest public API network.
 
