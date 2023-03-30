@@ -1,6 +1,6 @@
 ---
-title: "Sharing and watching your workspace"
-updated: 2023-02-01
+title: "Best practices for sharing your public workspace"
+updated: 2023-03-30
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -13,12 +13,12 @@ contextual_links:
 ---
 
 
-Your API is searchable in the Postman app when it's available on [the Public API Network](/docs/getting-started/exploring-public-api-network/). If API consumers actively watch and fork your API, it'll be featured on Postman's [Explore](https://www.postman.com/explore) page. Postman recommends following these best practices and tips to share you public workspace with consumers and track interest and activity for your APIs.
+Postman recommends following these best practices and tips to share your public workspace with API consumers and track interest and activity for your APIs on [the Public API Network](/docs/getting-started/exploring-public-api-network/).
 
 ## Contents
 
 * [Linking to a public workspace](#linking-to-a-public-workspace)
-* [Creating links in your documentation](#creating-links-in-your-documentation)
+* [Adding links in your documentation](#adding-links-in-your-documentation)
 * [Tracking public workspace metrics](#tracking-public-workspace-metrics)
 
 ## Linking to a public workspace
@@ -27,17 +27,19 @@ You can navigate to a public workspace from your browser using the public worksp
 
 Open the public workspace, then select the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> next to the workspace's name in the **Overview** tab.
 
-> You can also open the public workspace, then copy the URL in your browser address bar.
+<img alt="Copy link to workspace" src="https://assets.postman.com/postman-docs/copy-workspace-link-v9.jpg" width="500px"/>
 
-## Creating links in your documentation
+> You can also open the public workspace, then copy the URL in your browser's address bar.
 
-Create links between your API’s documentation and your collection, enabling developers to quickly navigate your API. You can add a link from your documentation to your collection using a [Run in Postman button](/docs/publishing-your-api/run-in-postman/introduction-run-button/).
+## Adding links in your documentation
 
-To learn more, see [Adding links](/docs/publishing-your-api/authoring-your-documentation/#adding-links).
+[Add links](/docs/publishing-your-api/authoring-your-documentation/#adding-links) from your API’s documentation to your collection, enabling consumers to quickly navigate your API. You can also add a link from your documentation to your collection using a [Run in Postman button](/docs/publishing-your-api/run-in-postman/introduction-run-button/).
+
+<img alt="Adding a link" src="https://assets.postman.com/postman-docs/documentation-link-tool-v9-1.jpg" width="560px">
 
 ## Tracking public workspace metrics
 
-You can use the number of watchers and forks in your public workspace to track its success.
+You can use the number of watchers and forks in your public workspace to track your API's success.
 
 > For additional metrics, you can also view reports for [public workspaces](/docs/reports/all-workspaces-reports/#public-workspaces) and [public APIs](/docs/reports/all-apis-reports/#public-apis) in your [Postman reports dashboard](https://go.postman.co/reports/summary) ([Enterprise plans only](https://www.postman.com/pricing)).
 
@@ -45,8 +47,12 @@ You can use the number of watchers and forks in your public workspace to track i
 
 Track the number of watchers on your [workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#watching-a-workspace), [APIs](/docs/designing-and-developing-your-api/managing-apis/#watching-apis), and [collections](/docs/collections/using-collections/#watching-a-collection) to understand who is interested in your APIs. You can use the number of watchers as a metric for the number of consumers, contributors, and internal and external stakeholders who are interested in your APIs.
 
+<img alt="View the watcher information count" src="https://assets.postman.com/postman-docs/v10/watch-information-count-v10.jpg" width="500px"/>
+
 ### Forks
 
 Track the number of [forks](/docs/collaborating-in-postman/using-version-control/forking-entities/) on your collections, environments, and flows to understand who is actively consuming and contributing to your APIs.
+
+<img alt="View the fork information count" src="https://assets.postman.com/postman-docs/v10/fork-information-count-v10.jpg" width="500px"/>
 
 For more details about viewing the number of people who forked a Postman entity, see [Viewing fork information](/docs/collaborating-in-postman/using-version-control/forking-entities/#viewing-fork-information).

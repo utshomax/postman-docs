@@ -854,19 +854,19 @@ export const leftNavItems = [
     url: '/docs/public-api-network/overview/intro/',
     subMenuItems1: [
       {
-        name: 'API Network overview',
+        name: 'The Public API Network overview',
         url: '/docs/public-api-network/overview/intro/'
       },
       {
-        name: 'Public API Network Best Practices',
+        name: 'Best practices for the Public API Network',
         url: '/docs/public-api-network/best-practices/best-practices/',
       },
       {
-        name: 'Sharing Public Workspace Best Practices',
+        name: 'Best practices for sharing your public workspace',
         url: '/docs/public-api-network/best-practices/sharing-your-workspace/',
       },
       {
-        name: 'Sync APIs to Public Workspace Best Practices',
+        name: 'Best practices for syncing APIs with your public workspace',
         url: '/docs/public-api-network/best-practices/sync-api-with-workspace/',
       },
     ]

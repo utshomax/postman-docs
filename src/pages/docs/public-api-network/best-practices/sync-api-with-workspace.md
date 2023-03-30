@@ -1,6 +1,6 @@
 ---
-title: "Syncing your APIs with your public workspace"
-updated: 2023-02-01
+title: "Best practices for syncing APIs with your public workspace"
+updated: 2023-03-30
 contextual_links:
   - type: section
     name: "Prerequisites"
