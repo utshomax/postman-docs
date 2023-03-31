@@ -51,7 +51,7 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
     > You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer and drag a collection from __Collections__ or __History__ in the sidebar.
 
-1. On the Collection Runner, select **Schedule runs**.
+1. On the **Functional** tab, select **Schedule runs**.
 
     ![Schedule runs](https://assets.postman.com/postman-docs/v10/schedule-runs-3-v10.jpg)
 

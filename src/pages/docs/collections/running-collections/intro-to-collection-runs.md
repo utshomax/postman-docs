@@ -55,7 +55,7 @@ You can configure the Collection Runner to meet your development needs. You can 
 
     > You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer and drag a collection from __Collections__ or __History__ in the sidebar.
 
-1. Select **Run manually**.
+1. On the **Functional** tab, select **Run manually**.
     > You can also [schedule runs](/docs/collections/running-collections/scheduling-collection-runs/) and [automate runs with the CLI](/docs/postman-cli/postman-cli-run-collection/).
 
 1. If you want your collection to run with an environment, select it using the environment selector at the top right of Postman. You can also select __Environments__ in the sidebar, then select the environment you want to use.
@@ -79,6 +79,8 @@ You can configure the Collection Runner to meet your development needs. You can 
     > You can alter the flow of execution from your request scripts using `setNextRequest` to [create workflows](/docs/collections/running-collections/building-workflows/).
 
 1. When you've completed your configuration, select **Run (collection name)**.
+
+<!-- UPDATE SCREENSHOT -->
 
 ![Collection Runner configuration](https://assets.postman.com/postman-docs/v10/collection-run-configuration-v10-12.jpg)
 
