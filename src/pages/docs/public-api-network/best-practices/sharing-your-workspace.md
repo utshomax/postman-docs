@@ -33,7 +33,7 @@ Open the public workspace, then select the link icon <img alt="Link icon" src="h
 
 ## Adding links in your documentation
 
-[Add links](/docs/publishing-your-api/authoring-your-documentation/#adding-links) from your API’s documentation to your collection, enabling consumers to quickly navigate your API. You can also add a link from your documentation to your collection using a [Run in Postman button](/docs/publishing-your-api/run-in-postman/introduction-run-button/).
+[Add links](/docs/publishing-your-api/authoring-your-documentation/#adding-links) from your API’s documentation to your collection, helping consumers navigate your API. You can also add a link from your documentation to your collection using a [Run in Postman button](/docs/publishing-your-api/run-in-postman/introduction-run-button/).
 
 <img alt="Adding a link" src="https://assets.postman.com/postman-docs/documentation-link-tool-v9-1.jpg" width="560px">
 
@@ -41,7 +41,7 @@ Open the public workspace, then select the link icon <img alt="Link icon" src="h
 
 You can use the number of watchers and forks in your public workspace to track your API's success.
 
-> For additional metrics, you can also view reports for [public workspaces](/docs/reports/all-workspaces-reports/#public-workspaces) and [public APIs](/docs/reports/all-apis-reports/#public-apis) in your [Postman reports dashboard](https://go.postman.co/reports/summary) ([Enterprise plans only](https://www.postman.com/pricing)).
+> For more metrics, you can also view reports for [public workspaces](/docs/reports/all-workspaces-reports/#public-workspaces) and [public APIs](/docs/reports/all-apis-reports/#public-apis) in your [Postman reports dashboard](https://go.postman.co/reports/summary) ([Enterprise plans only](https://www.postman.com/pricing)).
 
 ### Watchers
 
@@ -55,4 +55,4 @@ Track the number of [forks](/docs/collaborating-in-postman/using-version-control
 
 <img alt="View the fork information count" src="https://assets.postman.com/postman-docs/v10/fork-information-count-v10.jpg" width="500px"/>
 
-For more details about viewing the number of people who forked a Postman entity, see [Viewing fork information](/docs/collaborating-in-postman/using-version-control/forking-entities/#viewing-fork-information).
+For more details about viewing the number of people who forked a Postman element, see [Viewing fork information](/docs/collaborating-in-postman/using-version-control/forking-entities/#viewing-fork-information).
