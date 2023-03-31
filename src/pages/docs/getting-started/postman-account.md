@@ -97,6 +97,17 @@ If you're a member of multiple Postman teams with varying authentication methods
 
 > You must complete the process of signing in within five minutes once you begin the process in the Postman desktop app. If you go beyond this time, you must return to the Postman desktop app and restart the sign in process.
 
+### Linking your Postman account
+
+If you sign in to Postman with Google or SSO using an email address associated with a Postman account, you must link your account with your Postman account. The first time you sign in follow the steps to link your Google or identity provider (IdP) account to Postman.
+
+> If the email address associated with your Postman account is verified, Postman won't ask you to link your Google account to Postman.
+
+To link your Google or IdP account to Postman, do the following:
+
+1. On the sign in page, select either **Sign in with Google** or **Sign in with SSO**.
+1. Enter your Postman account credentials, and then select either **Sign in to link your Google account**  or **Sign in to link your SSO account**.
+
 ### Switching between accounts
 
 You can sign in to multiple accounts at the same time in Postman. Select your avatar in the top right to switch between accounts or select __+ Add Account__ to sign in with another one.
