@@ -26,13 +26,13 @@ Enables the free-hand structuring of data and inclusion of variables in the form
 
 ### Get Variable
 
-<img alt="Get Variable block" src="https://assets.postman.com/postman-labs-docs/all-blocks/get-variable-block.png" width="153px"/>
+<img alt="Get Variable block" src="https://assets.postman.com/postman-docs/v10/get-variable-block-v10.jpg" width="153px"/>
 
 Gets the specified variable's value from anywhere in the flow.
 
 ### Create Variable
 
-<img alt="Create Variable block" src="https://assets.postman.com/postman-labs-docs/all-blocks/create-variable-block.png" width="136px"/>
+<img alt="Create Variable block" src="https://assets.postman.com/postman-docs/v10/create-variable-block-1-v10.jpg" width="136px"/>
 
 Assigns a value to a variable that can then be accessed with the **Get Variable** block anywhere in the flow. The input is any value.
 
@@ -76,7 +76,7 @@ Parses a data stream to select a subset of the data available. If the input data
 
 ### Regex
 
-<img alt="Regex block" src="https://assets.postman.com/postman-labs-docs/all-blocks/regex-block.png" width="121px"/>
+<img alt="Regex block" src="https://assets.postman.com/postman-docs/v10/regex-block-1-v10.jpg" width="121px"/>
 
 Emits a regular expression.
 
@@ -215,7 +215,7 @@ Invokes a request in a collection.
 **Failure** - Contains the response of a failed API call if tests are assigned to the request and any fail or, if there are no tests, a non 2xx HTTP status code is received. The API call can then be connected to another block or variable value to extract a field from the response.
 <!-- vale Postman.ComplexWords = YES -->
 
-## Output block
+## Output blocks
 
 ### Log (console)
 
@@ -225,7 +225,7 @@ Prints the input to the console.
 
 ### Output
 
-<img alt="Output block" src="https://assets.postman.com/postman-labs-docs/all-blocks/output-block.png" width="249px"/>
+<img alt="Output block" src="https://assets.postman.com/postman-docs/v10/output-block-v10.jpg" width="249px"/>
 
 Displays the data passed through the port. The dropdown menu enables you to select from JSON, charts, tables, videos, images, and more. You can use **Output** blocks to:
 
