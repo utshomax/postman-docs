@@ -1,5 +1,5 @@
 ---
-title: "The Public API Network overview"
+title: "Public API Network overview"
 updated: 2023-03-30
 contextual_links:
   - type: section
@@ -32,6 +32,6 @@ Postman has always been passionate about successful API calls and supporting gre
 
 You can use these best practices and tips to help your API's consumers get started with your APIs and public workspace on the Public API Network. These best practices and tips can also help you share the latest versions of your APIs with other Postman users.
 
-* [Best practices for the Public API Network](/docs/collaborating-in-postman/public-api-network/best-practices/)
-* [Best practices for sharing your public workspace](/docs/collaborating-in-postman/public-api-network/sharing-your-workspace/)
-* [Best practices for syncing APIs with your public workspace](/docs/collaborating-in-postman/public-api-network/sync-api-with-workspace/)
+* [Organizing your public workspace](/docs/collaborating-in-postman/public-api-network/organizing-your-workspace/)
+* [Sharing your public workspace](/docs/collaborating-in-postman/public-api-network/sharing-your-workspace/)
+* [Syncing APIs with your public workspace](/docs/collaborating-in-postman/public-api-network/sync-api-with-workspace/)

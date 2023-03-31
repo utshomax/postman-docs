@@ -1,5 +1,5 @@
 ---
-title: "Best practices for sharing your public workspace"
+title: "Sharing your public workspace"
 updated: 2023-03-30
 contextual_links:
   - type: section

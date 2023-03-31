@@ -664,22 +664,22 @@ export const leftNavItems = [
         slug: '/docs/collaborating-in-postman/public-api-network/public-api-network-overview/',
         subMenuItems2: [
           {
-            name: 'The Public API Network overview',
+            name: 'Public API Network overview',
             url: '/docs/collaborating-in-postman/public-api-network/public-api-network-overview/'
           },
           {
-            name: 'Best practices for the Public API Network',
+            name: 'Organizing your public workspace',
             url: '/docs/collaborating-in-postman/public-api-network/organizing-your-workspace/',
           },
           {
-            name: 'Best practices for sharing your public workspace',
+            name: 'Sharing your public workspace',
             url: '/docs/collaborating-in-postman/public-api-network/sharing-your-workspace/',
           },
           {
-            name: 'Best practices for syncing APIs with your public workspace',
+            name: 'Syncing APIs with your public workspace',
             url: '/docs/collaborating-in-postman/public-api-network/sync-api-with-workspace/',
           },
-        ]
+        ],
       },
 
     ],

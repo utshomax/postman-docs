@@ -1,5 +1,5 @@
 ---
-title: "Best practices for the Public API Network"
+title: "Organizing your public workspace"
 updated: 2023-03-30
 contextual_links:
   - type: section
@@ -22,7 +22,7 @@ Before making your APIs available on [the Postman Public API Network](/docs/gett
 
 ## Customizing your team profile
 
-[Customize your team profile](/docs/administration/team-settings/#managing-your-team-profile) with important information about team. Add information that identifies you as the real company on the Public API Network. By default, your profile is only visible to your Postman team. [Make your team profile public](/docs/administration/team-settings/#making-your-team-profile-public) to make your profile show up on Postman's [Explore](https://www.postman.com/explore) page.
+[Customize your team profile](/docs/administration/team-settings/#managing-your-team-profile) with important information about your team. Add information that identifies you as the real company on the Public API Network. By default, your profile is only visible to your Postman team. [Make your team profile public](/docs/administration/team-settings/#making-your-team-profile-public) to make your profile show up on Postman's [Explore](https://www.postman.com/explore) page.
 
 <img alt="Edit your team profile" src="https://assets.postman.com/postman-docs/v10/team-settings-edit-profile-v10.jpg" width="700px"/>
 
@@ -74,7 +74,7 @@ To learn more about collections and folders, see [Using collections](/docs/colle
 
 ### Adding examples to requests
 
-Save examples of your API's [requests, responses, and messages](/docs/sending-requests/examples/) to [use examples in your documentation](/docs/sending-requests/examples/#using-examples-in-documentation). This enables consumers to test your API using example data.
+Save [examples](/docs/sending-requests/examples/) of your API's requests, responses, and messages to [use examples in your documentation](/docs/sending-requests/examples/#using-examples-in-documentation). This enables consumers to test your API using example data.
 
 <img alt="Examples in documentation" src="https://assets.postman.com/postman-docs/documentation-including-examples-v9.jpg" width="663px">
 

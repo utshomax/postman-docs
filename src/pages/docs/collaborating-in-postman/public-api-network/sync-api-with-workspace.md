@@ -1,5 +1,5 @@
 ---
-title: "Best practices for syncing APIs with your public workspace"
+title: "Syncing APIs with your public workspace"
 updated: 2023-03-30
 contextual_links:
   - type: section
@@ -14,7 +14,7 @@ contextual_links:
 
 
 
-Keep your APIs in sync between your public workspace and your repository. This keeps your APIs current on [the Public API Network](/docs/getting-started/exploring-public-api-network/), enabling API consumers to fork the latest version of your APIs. Postman has multiple integrations for popular third-party solutions to help keep your APIs in sync.
+Postman recommends keeping your APIs in sync between your public workspace and your repository. This keeps your APIs current on [the Public API Network](/docs/getting-started/exploring-public-api-network/), enabling API consumers to fork the latest version of your APIs. Postman has multiple integrations for popular third-party solutions to help keep your APIs in sync.
 
 The following integrations are a few options you can use to keep your API definition and collections in sync with your repository:
 
