@@ -849,7 +849,7 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Sharing Workspaces on API Network',
+    name: 'Sharing to the Public API Network',
     parentSlug: 'public-api-network',
     url: '/docs/public-api-network/overview/intro/',
     subMenuItems1: [
