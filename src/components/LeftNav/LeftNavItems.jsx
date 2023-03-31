@@ -658,6 +658,30 @@ export const leftNavItems = [
           },
         ],
       },
+      {
+        name: 'Sharing to the Public API Network',
+        subParentSlug: 'public-api-network',
+        slug: '/docs/collaborating-in-postman/public-api-network/public-api-network-overview/',
+        subMenuItems2: [
+          {
+            name: 'The Public API Network overview',
+            url: '/docs/collaborating-in-postman/public-api-network/public-api-network-overview/'
+          },
+          {
+            name: 'Best practices for the Public API Network',
+            url: '/docs/collaborating-in-postman/public-api-network/organizing-your-workspace/',
+          },
+          {
+            name: 'Best practices for sharing your public workspace',
+            url: '/docs/collaborating-in-postman/public-api-network/sharing-your-workspace/',
+          },
+          {
+            name: 'Best practices for syncing APIs with your public workspace',
+            url: '/docs/collaborating-in-postman/public-api-network/sync-api-with-workspace/',
+          },
+        ]
+      },
+
     ],
   },
   {
@@ -847,29 +871,6 @@ export const leftNavItems = [
         ],
       },
     ],
-  },
-  {
-    name: 'Sharing to the Public API Network',
-    parentSlug: 'public-api-network',
-    url: '/docs/public-api-network/overview/intro/',
-    subMenuItems1: [
-      {
-        name: 'The Public API Network overview',
-        url: '/docs/public-api-network/overview/intro/'
-      },
-      {
-        name: 'Best practices for the Public API Network',
-        url: '/docs/public-api-network/best-practices/best-practices/',
-      },
-      {
-        name: 'Best practices for sharing your public workspace',
-        url: '/docs/public-api-network/best-practices/sharing-your-workspace/',
-      },
-      {
-        name: 'Best practices for syncing APIs with your public workspace',
-        url: '/docs/public-api-network/best-practices/sync-api-with-workspace/',
-      },
-    ]
   },
   {
     name: 'Monitoring your API',
