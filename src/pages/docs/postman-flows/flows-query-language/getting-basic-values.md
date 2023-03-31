@@ -66,7 +66,7 @@ name
 
 ## Get a nested field
 
-To access fields below the top level, use field names separated by dot "." delimiters.
+To access fields below the top level, use field names separated by dot `.` delimiters.
 
 ### FQL
 
