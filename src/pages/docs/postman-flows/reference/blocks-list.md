@@ -3,7 +3,7 @@ title: "Postman Flows blocks"
 updated: 2022-12-15
 ---
 
-The [blocks](../blocks/) available in Postman Flows are described below.
+The blocks available in Postman Flows are described below.
 
 * [Information blocks](#information-blocks)
 * [Trigger block](#trigger-block)
