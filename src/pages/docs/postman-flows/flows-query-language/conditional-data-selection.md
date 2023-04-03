@@ -1,6 +1,6 @@
 ---
 title: "Selecting conditional data"
-updated: 2022-12-15
+updated: 2023-03-29
 ---
 
 You can use [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to filter for specific data in your responses. Multiple responses return in an array. Single responses return as a single record. Sample data and FQL examples are below.
@@ -138,7 +138,7 @@ The example below filters for objects in the `payments` array that have the key-
 ### FQL
 
 ``` javascript
-payments[description='recurring subscription']
+payments[description="recurring subscription"]
 ```
 
 ### Result
@@ -167,7 +167,7 @@ FQL uses the same syntax to navigate filtered query results as it does to naviga
 ### FQL
 
  ``` javascript
- payments[description='recurring subscription'].invoice_number
+ payments[description="recurring subscription"].invoice_number
  ```
 
 ### Result
@@ -183,7 +183,7 @@ When a filter has a single result, it returns as a record instead of an array. T
 ### FQL
 
  ``` javascript
- payments[description='recurring subscription deluxe'].invoice_number
+ payments[description="recurring subscription deluxe"].invoice_number
  ```
 
 ### Result
@@ -199,7 +199,7 @@ FQL can check if your query results have a specific key-value pair and return `t
 ### FQL
 
 ``` javascript
-$contains(payments[0].description, 'recurring')
+$contains(payments[0].description, "recurring")
 ```
 
 ### Result
