@@ -732,7 +732,7 @@ $datePlus("2023-02-07", 1, "days")
 
 ## Get the difference betwen two dates
 
-The `$diffDate()` function accepts two dates (formatted as `YYYY-MM-DD` or milliseconds since epoch) and a component of each date (`years`, `months`, `days`, `hours`, `minutes`, `seconds`, or `milliseconds`), then returns the difference between the two dates" component.
+The `$diffDate()` function accepts two dates (formatted as `YYYY-MM-DD` or milliseconds since epoch) and a component of each date (`years`, `months`, `days`, `hours`, `minutes`, `seconds`, or `milliseconds`), then returns the difference between the two dates' component.
 
 ### FQL
 
