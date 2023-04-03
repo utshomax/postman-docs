@@ -30,9 +30,9 @@ The Random User API returns a randomly chosen set of user data for each GET requ
 
     ![Create a collection and request](https://assets.postman.com/postman-docs/v10/flow-send-info-first-request-v10.jpg)
 
-1. Select **Send** then **Save Response > Save as example**.
+1. Select **Send** then **Save as Example**.
 
-    ![Save the response](https://assets.postman.com/postman-docs/v10/flow-send-info-save-example-v10.jpg)
+    ![Save the response](https://assets.postman.com/postman-docs/v10/flow-send-info-save-example-1-v10.jpg)
 
 1. Select the **GET First Request** tab and select **Save**.
 1. Add another GET request named `Seeded Request`.

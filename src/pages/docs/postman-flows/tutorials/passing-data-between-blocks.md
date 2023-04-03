@@ -138,14 +138,14 @@ In this example, the flow gets data from the **Start** block and passes it to an
     ![Select JSON](https://assets.postman.com/postman-docs/v10/flow-passing-data-start-1-v10.jpg)
 
 1. Connect an **Evaluate** block to the **Start** block.
-1. In the **Evaluate** block, select **key** and enter `body`. This assigns all the data received from the **Start** block to the variable `body`.
+1. In the **Evaluate** block, select **value1** and enter `body`. This assigns all the data received from the **Start** block to the variable `body`.
 
-    ![Add variable body](https://assets.postman.com/postman-docs/v10/flow-body-v10.jpg)
+    ![Add variable body](https://assets.postman.com/postman-docs/v10/flow-body-1-v10.jpg)
 
-1. In the **Evaluate** block, select **Enter FQL query** and enter `body`. This sends all the data in the `body` variable to the **Evaluate** block's output.
+1. In the **Evaluate** block, select **Start writing an FQL query...** and enter `body`. This sends all the data in the `body` variable to the **Evaluate** block's output.
 1. Connect a **Log** block to the **Evaluate** block.
 
-    ![Connect a Log block](https://assets.postman.com/postman-docs/v10/flow-body-log-v10.jpg)
+    ![Connect a Log block](https://assets.postman.com/postman-docs/v10/flow-body-log-1-v10.jpg)
 
 1. Select **Console** then select **Run**. The flow gets the data from the **Start** block, routes it to the **Evaluate** block, and passes the entire response to the **Log** block, which displays the data in the console.
 
