@@ -87,16 +87,6 @@ code {
   white-space: normal;
 }
 
-dl {
-  margin-bottom: 3rem;
-  dt {
-    margin-bottom: 1rem;
-  }
-  dd {
-    margin-bottom: 3rem;
-  }
-}
-
 h1,
 .h1,
 h2,
