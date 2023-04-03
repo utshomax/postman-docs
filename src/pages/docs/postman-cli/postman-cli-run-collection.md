@@ -1,6 +1,6 @@
 ---
 title: "Running a collection with the Postman CLI"
-updated: 2022-09-15
+updated: 2023-04-15
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -26,10 +26,9 @@ contextual_links:
 warning: false
 tags:
   - "Postman CLI"
-
 ---
 
-You can use the Postman CLI to manually run and test collections. You can also use the Postman CLI to automate collection runs on CI/CD pipelines.
+You can use the Postman CLI to manually run collections to test the functionality of your API. You can also use the Postman CLI to automate collection runs on CI/CD pipelines.
 
 When the Postman CLI runs a collection, the collection and its tests execute locally and the results are sent to Postman servers as an API call.
 
@@ -49,9 +48,7 @@ When the Postman CLI runs a collection, the collection and its tests execute loc
 
 1. On the **Functional** tab, select **Automate runs via CLI**.
 
-    <!-- UPDATE SCREENSHOT -->
-
-    <img alt="Automate runs using the Postman CLI" src="https://assets.postman.com/postman-docs/v10/pcli-automate-cli-v10-2.jpg">
+    <img alt="Automate runs using the Postman CLI" src="https://assets.postman.com/postman-docs/v10/pcli-automate-cli-v10-13.jpg">
 
 1. In the **Postman CLI command** window, select **Add API Key**.
 
@@ -87,9 +84,7 @@ When the collections run to your satisfaction, you can copy the commands into yo
 
 1. On the **Functional** tab, select **Automate runs via CLI**.
 
-    <!-- UPDATE SCREENSHOT -->
-
-    <img alt="Automate runs using the Postman CLI" src="https://assets.postman.com/postman-docs/v10/pcli-automate-cli-v10-2.jpg">
+    <img alt="Automate runs using the Postman CLI" src="https://assets.postman.com/postman-docs/v10/pcli-automate-cli-v10-13.jpg">
 
 1. Under **Run on CI/CD**, select **Configure command**.
 

@@ -1,6 +1,6 @@
 ---
 title: "Using the Collection Runner"
-updated: 2023-03-15
+updated: 2023-04-15
 search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
   - type: section
@@ -34,9 +34,9 @@ contextual_links:
     url: "https://www.postman.com/case-studies/iqmetrix/"
 ---
 
-The _Collection Runner_ enables you to run a collection's requests in a specified sequence. It logs your request [test results](/docs/writing-scripts/test-scripts/) and can use [scripts](/docs/writing-scripts/intro-to-scripts/) to pass data between requests and alter the request workflow.
+The _Collection Runner_ enables you to run a collection's requests in a specified sequence to test the functionality of your API. It logs your request [test results](/docs/writing-scripts/test-scripts/) and can use [scripts](/docs/writing-scripts/intro-to-scripts/) to pass data between requests and alter the request workflow.
 
-You can configure the Collection Runner to meet your development needs. You can run collections using a specific environment, and can pass data files into a run. Collection runs enable you to automate your API testing, and you can schedule runs to run in the Postman cloud with the [Collection Runner](/docs/collections/running-collections/scheduling-collection-runs/) or with [monitors](/docs/collections/running-collections/scheduling-collection-runs-monitors/). You can also integrate collection runs with your CI/CD pipeline using [the Postman CLI](/docs/postman-cli/postman-cli-overview/), a Postman tool that enables you to run and test collections directly from the command line.
+You can configure the Collection Runner to meet your development needs. You can run collections using a specific environment, and can pass data files into a run. Collection runs enable you to automate your functional API testing, and you can schedule runs to run in the Postman cloud with the [Collection Runner](/docs/collections/running-collections/scheduling-collection-runs/) or with [monitors](/docs/collections/running-collections/scheduling-collection-runs-monitors/). You can also integrate collection runs with your CI/CD pipeline using [the Postman CLI](/docs/postman-cli/postman-cli-overview/), a Postman tool that enables you to run and test collections directly from the command line.
 
 ## Contents
 
@@ -80,9 +80,7 @@ You can configure the Collection Runner to meet your development needs. You can 
 
 1. When you've completed your configuration, select **Run (collection name)**.
 
-<!-- UPDATE SCREENSHOT -->
-
-![Collection Runner configuration](https://assets.postman.com/postman-docs/v10/collection-run-configuration-v10-12.jpg)
+![Collection Runner configuration](https://assets.postman.com/postman-docs/v10/collection-run-configuration-v10-13.jpg)
 
 > Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of collection runs you can use each month. This limit applies to collections that you run in a workspace or the Scratch Pad using the **Run manually** option. This limit doesn't apply to [scheduled collection runs](/docs/collections/running-collections/scheduling-collection-runs/) in the Postman cloud. A collection run with multiple iterations counts as a single run.
 >
