@@ -19,7 +19,7 @@ To configure a performance test, [create a collection](/docs/collections/using-c
 
 When you start the test, the Collection Runner displays performance metrics in real time. You can view the average response time, error rate, and throughput. You can also view metrics for individual requests to help identify the source of any performance issues.
 
-> Use the Postman desktop app to configure and run performance tests. You can't use the Postman web app.
+> Use the Postman desktop app to configure and run performance tests. You can't use the Postman web app for performance testing.
 
 ## Contents
 
@@ -30,7 +30,7 @@ When you start the test, the Collection Runner displays performance metrics in r
 
 Before you configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to use to simulate user activity. For each virtual user, Postman will run the collection in parallel and repeatedly to simulate real world load on your API.
 
-To configure a performance test, do the following:
+To configure a performance test in the Postman desktop app, do the following:
 
 1. Select **Collections** in the sidebar and select the collection you want to use for performance testing.
 1. On the overview tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
@@ -44,8 +44,8 @@ To configure a performance test, do the following:
 1. Enter the **Test duration** in minutes.
 1. Select a **Load Profile**.
 
-    * **Fixed** - The specified number of virtual users is used throughout the test.
-    * **Ramp up** - Enter a **Ramp up duration** in minutes. The number of virtual users gradually increases to the specified number of users during the ramp up period.
+    * **Fixed** - The number of virtual users you specified is used throughout the test.
+    * **Ramp up** - Enter a **Ramp up duration** in minutes. During the ramp-up period, the number of virtual users gradually increases to the number of users you specified.
 
 1. When you're ready to begin the performance test, select **Run**.
 
@@ -53,6 +53,14 @@ To configure a performance test, do the following:
 
 During a performance test, all requests are sent from your local system where you are running the Postman desktop app. The Collection Runner displays performance metrics in real time so you can observe how your API performs under load.
 
-To view performance metrics, do the following:
+You can view the following information about the performance test:
 
-1. 
+* Name of the collection being run
+* Number of virtual users 
+* Start and end time of the test
+* Overall response time (average, 95th percentile, minimum, and maximum)
+* Error rate
+* Requests per second (throughput)
+
+From the performance test runner, you can take the following actions:
+
