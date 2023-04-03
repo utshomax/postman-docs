@@ -49,7 +49,7 @@ When the Postman CLI runs a collection, the collection and its tests execute loc
 
 1. On the **Functional** tab, select **Automate runs via CLI**.
 
-<!-- UPDATE SCREENSHOT -->
+    <!-- UPDATE SCREENSHOT -->
 
     <img alt="Automate runs using the Postman CLI" src="https://assets.postman.com/postman-docs/v10/pcli-automate-cli-v10-2.jpg">
 
