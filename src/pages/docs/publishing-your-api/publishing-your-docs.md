@@ -68,7 +68,7 @@ To publish the documentation for a collection, do the following:
         * To add a logo, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> and select **Upload**. Drag and drop an image file, or select an image file. Drag the handles to adjust the part of the image you want to display, then select **Upload**.
         * To delete a logo, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> and select **Delete**.
 
-        > You can use different logos for each collection you publish. Logos must be 2 MB or less in size and must be in jpg, jpeg, or png format. The logo can be any aspect ratio (square or rectangle.)
+        > You can use different logos for each collection you publish. Logos must be 2 MB or less in size and must be in JPEG or PNG format. The logo can be any aspect ratio (square or rectangle.)
 
     * **Colors** - You can customize the colors for each theme (light and dark):
 
