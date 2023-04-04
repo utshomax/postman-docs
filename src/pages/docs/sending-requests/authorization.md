@@ -241,14 +241,15 @@ The OAuth 1.0 auth parameter values are as follows:
 
 ### OAuth 2.0
 
-With OAuth 2.0, you first retrieve an access token for the API, then use that token to authenticate future requests. Accessing data with OAuth 2.0 varies greatly between API service providers, but typically involves a few requests back and forth between client application, user, and API.
+With OAuth 2.0, you first retrieve an access token for the API, then use that token to authenticate future requests. Access tokens are short-lived, but the authorization server can also provide a long-lived refresh token. A client application can use the refresh token to automatically [refresh the access token](#refreshing-an-oauth-20-token).
 
-An example OAuth 2.0 flow could run as follows:
+Accessing data with OAuth 2.0 varies greatly between API service providers, but typically involves a few requests back and forth between client application, user, and API. An example OAuth 2.0 flow could run as follows:
 
 * A client application makes a request for the user to authorize access to their data.
 * If the user grants access, the application then requests an access token from the service provider, passing the access grant from the user and authentication details to identify the client.
-* The service provider validates these details and returns an access token.
+* The service provider validates these details and returns a short-lived access token and a long-lived refresh token.
 * The client uses the access token to request the user data with the service provider.
+* When the access token expires, the client can use the refresh token to automatically request a new access token.
 
 To use OAuth 2.0, do the following:
 
@@ -338,9 +339,9 @@ If authentication fails or times out, Postman will display an error message. You
 
 #### Refreshing an OAuth 2.0 token
 
-Before an OAuth 2.0 token generated in Postman expires, Postman automatically refreshes it in the background before you send a request that uses it. The refreshed access token is updated in any requests that it's used in. Auto-refreshing is the default behavior.
+Before an OAuth 2.0 token generated in Postman expires, Postman automatically refreshes it in the background before you send a request that uses it. The refreshed access token is updated in any requests that it's used in. If you added any custom parameters when [generating the token](#requesting-an-oauth-20-token), those parameters will also be used for the refreshed token.
 
-To turn this feature off or on, select **Auto-refresh access token**. To manually refresh a token, select **Refresh**. The token's expiration time displays if the token expires within the next day.
+Auto-refreshing is the default behavior. To turn this feature off or on, select **Auto-refresh access token**. To manually refresh a token, select **Refresh**. The token's expiration time displays if the token expires within the next day.
 
 Auto-refresh is available when a refresh token is present. If no refresh token is present, the **Auto-refresh access token** toggle and the manual **Refresh** option aren't available. To check if a refresh token is present, select **Manage Tokens** in the **Token** dropdown list. If a refresh token is not present, check with the authorization service. Postman can't refresh the access tokens without the refresh token.
 
