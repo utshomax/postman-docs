@@ -1,7 +1,6 @@
 ---
 title: "Uploading files in Newman"
 updated: 2022-05-23
-search_keyword: "newman run"
 contextual_links:
   - type: section
     name: "Prerequisites"
