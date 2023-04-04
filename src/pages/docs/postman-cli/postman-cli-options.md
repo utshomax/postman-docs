@@ -29,6 +29,7 @@ Commands and options for using the Postman CLI.
 * [Signing in and out](#signing-in-and-out)
 * [Running collections](#running-collections)
 * [Governance and security](#governance-and-security)
+* [Publishing an API version](#publishing-an-api-version)
 
 ## Basic command line options
 
@@ -149,3 +150,21 @@ Option | Details
 --- | ---
 `--fail-severity [severity]`, `-f` | Triggers an exit failure code for rule violations at or above the specified severity level. The options, in order of lowest to highest severity, are `HINT`, `INFO`, `WARN`, and `ERROR` (default).
 `--suppress-exit-code`, `-x`| Specifies whether to override the default exit code for the current run.
+
+## Publishing an API version
+
+You can [publish API versions](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/) from the command line with the Postman CLI. This enables you to automate the API version publishing process.
+
+### postman publish api <apiId>\
+
+Publish a snapshot of an API for the given apiId. All entities linked to the API will be published by default. You can choose which entities to publish by using additional options.
+
+#### Options
+
+| Option | Details |
+|:--|:--|
+| `--name <versionName>` | Specify the name of the version to publish. |
+| `--releaseNotes <releaseNotes>` | Specify release notes for the version to publish.|
+| `--collections <collectionPaths/collectionIDs...>` | Specify the collections to publish. If the API is gitLinked, provide the `filePath` instead of the ID. Default is `[]`. |
+| `--apiDefinition <schemaDirectoryPath/apiDefinitionID>` | Specify the API definition to publish. If the API is gitLinked, provide the `schemaDirectoryPath` instead of the ID. Default is `""`. |
+| `--suppress-exit-code, -x` | Specify whether to override the default exit code for the current run. |
