@@ -253,11 +253,11 @@ Accessing data with OAuth 2.0 varies greatly between API service providers, but 
 
 To use OAuth 2.0, do the following:
 
-1. In the __Authorization__ tab for a request, select __OAuth 2.0__ from the __Type__ dropdown list. Specify if you want pass the auth details in the request URL or headers.
+1. In the __Authorization__ tab for a collection or request, select __OAuth 2.0__ from the __Type__ dropdown list. Specify if you want pass the auth details in the request URL or headers.
 
    > By default Postman will append the access token to `Bearer` in the Authorization header for your request, but if your server implementation requires a different prefix, you can specify it in the __Header Prefix__ field.
 
-1. To request an access token, fill out the fields in the __Configure New Token__ section, and select __Get New Access Token__. You can save both the token and the details to generate a token with your request or collection.
+1. To request an access token, fill out the fields in the __Configure New Token__ section, and select __Get New Access Token__. To use the token with your request or collection, select **Proceed** and then select **Use token**. The details you used to generate the token are saved with your request or collection.
 
    > Once you have a token value generated and added, it will appear in the request __Headers__.
 
@@ -329,7 +329,7 @@ When the configuration is complete, select __Get New Access Token__.
 
 > When you use __Authorization code__ or __Implicit__ grant type, you will be prompted to supply your credentials to retrieve an access token to use in later requests. By default Postman will display a pop-up window when you select __Request Token__. If you are using the Postman desktop app, you can instead choose to authenticate using your system's default web browser. Select __Authorize using browser__ to set the __Callback URL__ to return to Postman after you complete auth in the browser, so that your requests can use the token returned on successful authentication.
 
-A token from the API includes its details, together with the expiry, and optionally a refresh token you can use to retrieve a new access token when your current one expires. Select __Use Token__ to select the returned value.
+A token from the API includes its details, together with the expiry, and optionally a refresh token you can use to retrieve a new access token when your current one expires. Select **Proceed** and then select __Use Token__ to use the returned token.
 
 Any successfully retrieved tokens will be listed in the request __Available Tokens__ dropdown list. Select one to send with your request. Select __Manage Tokens__ in the dropdown list to view more details or delete your tokens.
 
