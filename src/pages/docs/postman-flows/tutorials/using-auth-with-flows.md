@@ -1,6 +1,17 @@
 ---
 title: "Using authorization with Postman Flows"
 updated: 2023-01-10
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Postman Flows: The Next Generation of Software Development"
+    url: "https://blog.postman.com/postman-flows-the-next-generation-of-software-development/"
+  - type: link
+    name: "Postman Flows Is Now More Powerful and User-Friendly"
+    url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
 ---
 
 Most APIs require authorization to access their data. Postman Flows can include credentials in its API requests, explicitly or as variables. This tutorial creates a simple flow that uses a global variable to access the OpenAI API with a secret key.
