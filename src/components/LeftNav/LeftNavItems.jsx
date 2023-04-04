@@ -658,6 +658,30 @@ export const leftNavItems = [
           },
         ],
       },
+      {
+        name: 'Sharing to the Public API Network',
+        subParentSlug: 'public-api-network',
+        slug: '/docs/collaborating-in-postman/public-api-network/public-api-network-overview/',
+        subMenuItems2: [
+          {
+            name: 'Public API Network overview',
+            url: '/docs/collaborating-in-postman/public-api-network/public-api-network-overview/'
+          },
+          {
+            name: 'Organizing your public workspace',
+            url: '/docs/collaborating-in-postman/public-api-network/organizing-your-workspace/',
+          },
+          {
+            name: 'Sharing your public workspace',
+            url: '/docs/collaborating-in-postman/public-api-network/sharing-your-workspace/',
+          },
+          {
+            name: 'Syncing APIs with your public workspace',
+            url: '/docs/collaborating-in-postman/public-api-network/sync-api-with-workspace/',
+          },
+        ],
+      },
+
     ],
   },
   {

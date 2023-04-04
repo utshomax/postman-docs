@@ -1,13 +1,16 @@
 ---
 title: "Building your first flow"
-updated: 2023-03-22
+updated: 2023-04-03
 contextual_links:
   - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Postman Flows is now more powerful and user-friendly"
+    name: "Postman Flows: The Next Generation of Software Development"
+    url: "https://blog.postman.com/postman-flows-the-next-generation-of-software-development/"
+  - type: link
+    name: "Postman Flows Is Now More Powerful and User-Friendly"
     url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
 ---
 
@@ -67,13 +70,13 @@ This is the beginning of a detailed tutorial that builds a flow that gets a list
 
     ![Add a request](https://assets.postman.com/postman-docs/v10/flow-first-request-v10.jpg)
 
-1. Select **Send**, then select **Save Response &gt; Save as example**.
+1. Select **Send**, then select **Save as Example**.
 
     > Saving the response as an example enables Postman Flows to automatically detect the structure for easier access later.
 
 1. Select the GET request and replace the URL `https://pokeapi.co/api/v2/pokemon?limit=200` with the variable `{{URL}}`.
 
-    ![Replace the URL](https://assets.postman.com/postman-docs/v10/flow-replace-the-url-v10.jpg)
+    ![Replace the URL](https://assets.postman.com/postman-docs/v10/flow-replace-the-url-1-v10.jpg)
 
 1. Select **Save**.
 

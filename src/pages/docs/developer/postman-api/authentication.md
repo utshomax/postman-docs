@@ -6,8 +6,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Postman API authentication"
-    url: "/docs/developer/postman-api/authentication/"
+    name: "Postman API overview"
+    url: "/docs/developer/postman-api/intro-api/"
   - type: section
     name: "Additional resources"
   - type: subtitle
