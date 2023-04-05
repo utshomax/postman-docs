@@ -241,7 +241,7 @@ The OAuth 1.0 auth parameter values are as follows:
 
 ### OAuth 2.0
 
-With OAuth 2.0, you first retrieve an access token for the API, then use that token to authenticate future requests. Access tokens are short-lived, but the authorization server can also provide a long-lived refresh token. A client application can use the refresh token to automatically [refresh the access token](#refreshing-an-oauth-20-token).
+With OAuth 2.0, you first retrieve an access token for the API, then use that token to authenticate future requests. Access tokens are typically short-lived, but the authorization server can also provide a long-lived refresh token. A client application can use the refresh token to automatically [refresh the access token](#refreshing-an-oauth-20-token).
 
 Accessing data with OAuth 2.0 varies greatly between API service providers, but typically involves a few requests back and forth between client application, user, and API. An example OAuth 2.0 flow could run as follows:
 
@@ -257,7 +257,7 @@ To use OAuth 2.0, do the following:
 
    > By default Postman will append the access token to `Bearer` in the Authorization header for your request, but if your server implementation requires a different prefix, you can specify it in the __Header Prefix__ field.
 
-1. To request an access token, fill out the fields in the __Configure New Token__ section, and select __Get New Access Token__. To use the token with your request or collection, select **Proceed** and then select **Use token**. The details you used to generate the token are saved with your request or collection.
+1. To request an access token, fill out the fields in the __Configure New Token__ section, and select __Get New Access Token__. To use the token with your request or collection, select **Proceed** and then select **Use token**. The details you used to generate the token are saved with your request or collection. You can also [share the token](#sharing-an-oauth-20-access-token) so that others with access to the collection can use the token.
 
    > Once you have a token value generated and added, it will appear in the request __Headers__.
 
