@@ -163,8 +163,8 @@ Publish a snapshot of an API for the given apiId. All entities linked to the API
 
 | Option | Details |
 |:--|:--|
-| `--name <versionName>` | Specify the name of the version to publish. |
-| `--releaseNotes <releaseNotes>` | Specify release notes for the version to publish.|
-| `--collections <collectionPaths/collectionIDs...>` | Specify the collections to publish. If the API is gitLinked, provide the `filePath` instead of the ID. Default is `[]`. |
-| `--apiDefinition <schemaDirectoryPath/apiDefinitionID>` | Specify the API definition to publish. If the API is gitLinked, provide the `schemaDirectoryPath` instead of the ID. Default is `""`. |
-| `--suppress-exit-code, -x` | Specify whether to override the default exit code for the current run. |
+| `--name <versionName>` | Specifies the name of the version to publish. |
+| `--releaseNotes <releaseNotes>` | Specifies release notes for the version to publish. |
+| `--collections <collectionPaths/collectionIDs...>` | Specifies the collections to publish. If the API is gitLinked, provide the `filePath` instead of the ID. Default is `[]`. |
+| `--apiDefinition <schemaDirectoryPath/apiDefinitionID>` | Specifies the API definition to publish. If the API is gitLinked, provide the `schemaDirectoryPath` instead of the ID. Default is `""`. |
+| `--suppress-exit-code, -x` | Specifies whether to override the default exit code for the current run. |
