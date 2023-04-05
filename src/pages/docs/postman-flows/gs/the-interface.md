@@ -1,6 +1,32 @@
 ---
 title: "The Postman Flows interface"
-updated: 2022-11-17
+updated: 2023-04-03
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Download and Install"
+    url: "https://www.postman.com/downloads/"
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "AI Powered Sentiment Analysis with Postman Flows and ChatGPT"
+    url: "https://www.youtube.com/live/0kAQb3Q4WCQ?feature=share"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Postman Flows: The Next Generation of Software Development"
+    url: "https://blog.postman.com/postman-flows-the-next-generation-of-software-development/"
+  - type: link
+    name: "Postman Flows Is Now More Powerful and User-Friendly"
+    url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Built Technologies non-technical team members use Postman Flows"
+    url: "https://www.postman.com/case-studies/built/"
 ---
 
 The Postman Flows interface has three main parts: the toolbar, the right sidebar, and the console.

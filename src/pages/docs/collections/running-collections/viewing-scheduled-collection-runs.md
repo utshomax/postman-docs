@@ -64,7 +64,7 @@ You can use filters to identify recurring patterns in your scheduled collection 
 
 You can filter by run type to compare how the response time changes between all runs, manual runs, and scheduled runs. Select **Type: All**, then select the type of run you'd like to analyze further.
 
-> Manual runs are initiated in Postman or are triggered by the [Postman API](https://documenter.postman.com/view/631643/JsLs/?version=latest#5b277ca0-7114-e04e-f1f5-246fbbd6d973). Scheduled runs are initiated by the schedule you set when creating or editing your scheduled run. Webhook runs are initiated by integrations you've created.
+> Manual runs are initiated in Postman. Scheduled runs are initiated by the schedule you set when creating or editing your scheduled run. Webhook runs are initiated by integrations you've created.
 
 #### Filtering by run result
 
