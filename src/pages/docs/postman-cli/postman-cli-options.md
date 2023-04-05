@@ -155,9 +155,17 @@ Option | Details
 
 You can [publish API versions](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/) from the command line with the Postman CLI. This enables you to automate the API version publishing process.
 
-### postman publish api <apiId>\
+### postman publish api
 
 Publish a snapshot of an API for the given apiId. All entities linked to the API will be published by default. You can choose which entities to publish by using additional options.
+
+#### Example
+
+```plaintext
+postman api publish 150912d7-c773-4e1f-8b17-d5f2f727da45 --name v1\
+--collections 123456-45159473-1e45-1f34-5678-1234567890ab 123456-80484827-2365-6g78-0988-9094801883hg\
+--apiDefinition a201830a-b36f-4633-a93e-31addd84bc5e
+```
 
 #### Options
 
