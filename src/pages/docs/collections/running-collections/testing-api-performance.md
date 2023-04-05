@@ -13,13 +13,13 @@ contextual_links:
   - type: section
 ---
 
-You can use the _Collection Runner_ to simulate real world traffic and test the performance of your API. Performance testing enables to you to observe how your API behaves under load and determine if performance meets expectations. It can also help you to identify any issues or bottlenecks affecting performance.
+You can use the _Collection Runner_ to simulate real world traffic and test the performance of your API. Performance testing enables to you to observe how your API behaves under load and determine if performance meets expectations. It can also help you identify any issues or bottlenecks affecting performance.
 
-To configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to send to your API. These requests are used to simulate the activity of your API's users. In the Collection Runner, you can set the number of virtual users and the duration of the test. You can also choose whether the number of virtual users is fixed for the duration of the test or gradually ramps up during the test.
+To configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to send to your API. Postman uses these requests to simulate the activity of your API's users. In the Collection Runner, you can set the number of virtual users to simulate and the duration of the test. You can also choose whether the number of virtual users is fixed for the duration of the test or gradually ramps up during the test.
 
 When you start the test, the Collection Runner displays performance metrics in real time. You can view the average response time, error rate, and throughput. You can also view metrics for individual requests to help identify the source of any performance issues.
 
-> Use the Postman desktop app to configure and run performance tests. You can't use the Postman web app for performance testing.
+> **Use the Postman desktop app to configure and run performance tests.** You can't use the Postman web app for performance testing. During a performance test, all requests are sent from the local system where you are running the Postman desktop app.
 
 ## Contents
 
@@ -41,6 +41,9 @@ To configure a performance test in the Postman desktop app, do the following:
 
 1. Select the **Performance** tab.
 1. Enter the number of **Virtual users**. While the test is running, Postman repeatedly runs the collection for each virtual user. A higher number of virtual users puts increased load on your API.
+
+    > The maximum number of virtual users you can use depends on the CPU and memory available on the local system where you are running the performance test.
+
 1. Enter the **Test duration** in minutes.
 1. Select a **Load Profile**.
 
@@ -51,16 +54,26 @@ To configure a performance test in the Postman desktop app, do the following:
 
 ## Viewing performance metrics
 
-During a performance test, all requests are sent from your local system where you are running the Postman desktop app. The Collection Runner displays performance metrics in real time so you can observe how your API performs under load.
+During a performance test, all requests are sent from the local system where you are running the Postman desktop app. The performance test runner displays performance metrics in real time so you can observe how your API performs under load.
 
 You can view the following information about the performance test:
 
 * Name of the collection being run
 * Number of virtual users 
 * Start and end time of the test
-* Overall response time (average, 95th percentile, minimum, and maximum)
-* Error rate
+* Response time (average, 95th percentile, minimum, and maximum)
+* Error rate percentage
 * Requests per second (throughput)
 
 From the performance test runner, you can take the following actions:
 
+* Select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh** to view the latest metrics.
+* Select **Run again** to start the performance test again using the same configuration.
+
+### Customizing with the performance view
+
+The performance test graph displays real-time metrics for average response time, virtual users, error rate, and request throughput. Hover over a point on the graph to view more details.
+
+To customize the graph view, use the drop-down menus above the graph. You can view data for a specific request or select the response time metrics you want to view. To change the graph back to the default view, select **Reset**.
+
+To view details for a section of the graph, select a handle on the bottom of the graph. The table below the graph shows response time data for each request during the selected time period. To change the graph back to the default time period, select **Reset**.
