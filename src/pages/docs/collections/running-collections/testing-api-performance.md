@@ -13,7 +13,7 @@ contextual_links:
   - type: section
 ---
 
-You can use the _Collection Runner_ to simulate real world traffic and test the performance of your API. Performance testing enables to you to observe how your API behaves under load and determine if performance meets expectations. It can also help you identify any issues or bottlenecks affecting performance.
+You can use the _Collection Runner_ to simulate real-world traffic and test the performance of your API. Performance testing enables to you to observe how your API behaves under load and determine if performance meets expectations. It can also help you identify any issues or bottlenecks affecting performance.
 
 To configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to send to your API. Postman uses these requests to simulate the activity of your API's users. In the Collection Runner, you can set the number of virtual users to simulate and the duration of the test. You can also choose whether the number of virtual users is fixed for the duration of the test or gradually ramps up during the test.
 
@@ -29,7 +29,7 @@ When you start the test, the Collection Runner displays performance metrics in r
 
 ## Configuring a performance test
 
-Before you configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to use to simulate user activity. For each virtual user, Postman will run the collection in parallel and repeatedly to simulate real world load on your API.
+Before you configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to use to simulate user activity. For each virtual user, Postman will run the collection in parallel and repeatedly to simulate real-world load on your API.
 
 To configure a performance test in the Postman desktop app, do the following:
 
