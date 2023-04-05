@@ -59,7 +59,7 @@ During a performance test, all requests are sent from the local system where you
 You can view the following information about the performance test:
 
 * Name of the collection being run
-* Number of virtual users 
+* Number of virtual users
 * Start and end time of the test
 * Response time (average, 95th percentile, minimum, and maximum)
 * Error rate percentage
