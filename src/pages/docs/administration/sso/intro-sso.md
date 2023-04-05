@@ -65,4 +65,4 @@ Most SAML 2.0 compliant identity providers require the same information about th
 
 <!-- -->
 
-> If you configure SSO, Postman Password and Google Oauth 2.0 authentication methods remain enabled for your team. You can turn off these authentication methods to only allow you team to sign in using SSO.
+> If you configure SSO, Postman Password and Google Oauth 2.0 authentication methods remain enabled for your team. You can turn off these authentication methods to only allow your team to sign in using SSO.
