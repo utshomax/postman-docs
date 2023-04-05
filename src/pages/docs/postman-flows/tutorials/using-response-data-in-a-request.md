@@ -1,6 +1,17 @@
 ---
 title: "Using response data in a request"
 updated: 2023-01-25
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Postman Flows: The Next Generation of Software Development"
+    url: "https://blog.postman.com/postman-flows-the-next-generation-of-software-development/"
+  - type: link
+    name: "Postman Flows Is Now More Powerful and User-Friendly"
+    url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
 ---
 
 This tutorial shows how to take data from a GET response and use it in a GET request in [Postman Flows](/docs/postman-flows/flows-intro/flows-overview/).
@@ -19,9 +30,9 @@ The Random User API returns a randomly chosen set of user data for each GET requ
 
     ![Create a collection and request](https://assets.postman.com/postman-docs/v10/flow-send-info-first-request-v10.jpg)
 
-1. Select **Send** then **Save Response > Save as example**.
+1. Select **Send** then **Save as Example**.
 
-    ![Save the response](https://assets.postman.com/postman-docs/v10/flow-send-info-save-example-v10.jpg)
+    ![Save the response](https://assets.postman.com/postman-docs/v10/flow-send-info-save-example-1-v10.jpg)
 
 1. Select the **GET First Request** tab and select **Save**.
 1. Add another GET request named `Seeded Request`.
