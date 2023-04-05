@@ -30,7 +30,7 @@ contextual_links:
     name: "Next steps"
   - type: link
     name: "Using the Collection Runner"
-    url: "/docs/running-collections/intro-to-collection-runs/"
+    url: "/docs/collections/running-collections/intro-to-collection-runs/"
 
 warning: false
 ---

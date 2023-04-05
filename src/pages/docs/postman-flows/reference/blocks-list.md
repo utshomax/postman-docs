@@ -3,16 +3,16 @@ title: "Postman Flows blocks"
 updated: 2022-12-15
 ---
 
-The [blocks](../blocks/) available in Postman Flows are described below.
+The blocks available in Postman Flows are described below.
 
-* [Data blocks](#data-blocks)
+* [Information blocks](#information-blocks)
 * [Trigger block](#trigger-block)
-* [Logic blocks](#logic-blocks)
+* [Decision blocks](#decision-blocks)
 * [Looping blocks](#looping-blocks)
-* [Tasks blocks](#tasks-blocks)
+* [Action blocks](#action-blocks)
 * [Output block](#output-block)
 
-## Data blocks
+## Information blocks
 
 ### Template
 
@@ -26,13 +26,13 @@ Enables the free-hand structuring of data and inclusion of variables in the form
 
 ### Get Variable
 
-<img alt="Get Variable block" src="https://assets.postman.com/postman-labs-docs/all-blocks/get-variable-block.png" width="153px"/>
+<img alt="Get Variable block" src="https://assets.postman.com/postman-docs/v10/get-variable-block-v10.jpg" width="153px"/>
 
 Gets the specified variable's value from anywhere in the flow.
 
 ### Create Variable
 
-<img alt="Create Variable block" src="https://assets.postman.com/postman-labs-docs/all-blocks/create-variable-block.png" width="136px"/>
+<img alt="Create Variable block" src="https://assets.postman.com/postman-docs/v10/create-variable-block-1-v10.jpg" width="136px"/>
 
 Assigns a value to a variable that can then be accessed with the **Get Variable** block anywhere in the flow. The input is any value.
 
@@ -76,7 +76,7 @@ Parses a data stream to select a subset of the data available. If the input data
 
 ### Regex
 
-<img alt="Regex block" src="https://assets.postman.com/postman-labs-docs/all-blocks/regex-block.png" width="121px"/>
+<img alt="Regex block" src="https://assets.postman.com/postman-docs/v10/regex-block-1-v10.jpg" width="121px"/>
 
 Emits a regular expression.
 
@@ -114,7 +114,7 @@ Emits the string that you enter.
 
 Used as the entry point for [running flows on the cloud](/docs/postman-flows/running-flows-on-the-cloud/webhooks/). Can be configured to hold test data for testing locally by selecting the gear icon and will act as a webhook endpoint that accepts data when running on the cloud.
 
-## Logic blocks
+## Decision blocks
 
 ### If
 
@@ -182,7 +182,7 @@ Collects the results of a for loop, and outputs a list and an event when it has 
 
 **Finish** - Sends an event when the block is complete (when the for loop has ended and every item is in a new list).
 
-## Tasks blocks
+## Action blocks
 
 ### Delay
 
@@ -215,7 +215,7 @@ Invokes a request in a collection.
 **Failure** - Contains the response of a failed API call if tests are assigned to the request and any fail or, if there are no tests, a non 2xx HTTP status code is received. The API call can then be connected to another block or variable value to extract a field from the response.
 <!-- vale Postman.ComplexWords = YES -->
 
-## Output block
+## Output blocks
 
 ### Log (console)
 
@@ -225,6 +225,12 @@ Prints the input to the console.
 
 ### Output
 
-<img alt="Output block" src="https://assets.postman.com/postman-labs-docs/all-blocks/output-block.png" width="412px"/>
+<img alt="Output block" src="https://assets.postman.com/postman-docs/v10/output-block-v10.jpg" width="249px"/>
 
-Displays the data passed through the port. The drop down menu lets you select from JSON, charts, tables, videos, images, etc.
+Displays the data passed through the port. The dropdown menu enables you to select from JSON, charts, tables, videos, images, and more. You can use **Output** blocks to:
+
+* Debug flows by viewing data directly on the canvas instead of opening the Postman console to view logs.
+* Create and display markdown, images, videos, and even YouTube embeds.
+* Create interactive dashboards using bar charts, line charts, tables, and more.
+
+For more information, see the [Building your first flow](/docs/postman-flows/tutorials/building-your-first-flow/) tutorial.

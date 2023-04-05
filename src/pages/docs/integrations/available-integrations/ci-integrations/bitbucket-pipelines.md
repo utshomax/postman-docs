@@ -57,7 +57,7 @@ To view details for collections that were run as part of a build, first [configu
 
 <img alt="View collection runs" src="https://assets.postman.com/postman-docs/v10/collection-runs-v10-2.jpg">
 
-> Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
+> Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 
 ## Viewing API Governance and API Security rule violations
 
@@ -91,6 +91,6 @@ To add the Postman CLI configuration to your Bitbucket pipeline, do the followin
 
 1. Edit the `bitbucket-pipelines.yml` file at the root of your Bitbucket repository.
 1. Add the Postman CLI configuration you copied from Postman to the `bitbucket-pipelines.yml` file:
-    * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
+    * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key).
 1. Commit and push the changes to your remote repository. This will automatically start a build in Bitbucket Pipelines.
 1. To view the test results in Postman, open your API and select **Test and Automation**. Learn more about [Viewing collection run details](#viewing-collection-run-details).

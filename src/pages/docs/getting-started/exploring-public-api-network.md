@@ -28,8 +28,8 @@ contextual_links:
     name: "Exploring Public APIs and the Public API Network"
     url: "https://blog.postman.com/exploring-public-apis-and-public-api-network/"
   - type: link
-    name: "The Most Popular Collection in the Postman API Network"
-    url: "https://blog.postman.com/the-most-popular-collection-in-the-postman-api-network/"
+    name: "Most popular APIs in the Public API Network"
+    url: "https://blog.postman.com/most-popular-apis-in-the-public-api-network/"
   - type: link
     name: "Top 25 API Onboarding Experiences"
     url: "https://blog.postman.com/top-25-api-onboarding-experiences/"
@@ -57,8 +57,6 @@ There are a variety of ways to find APIs, workspaces, teams, and collections:
 * Under **Browse**, you can select to view **Teams**, **Workspaces**, **APIs**, and **Collections**. You can sort results by **Featured**, **Most Viewed**, and **Latest** using the **Sort by** dropdown list.
     * You can also filter Collections, APIs, and Workspaces using the categories listed on their results pages.
 
-To import a collection from a public workspace to your workspace, create a fork of it. See [creating a fork](/docs/collaborating-in-postman/using-version-control/forking-entities/#creating-a-fork).
-
 Check out some useful collections for getting started learning about APIs, requests, and Postman:
 
 * [Learn by API](https://www.postman.com/apilearningresources/workspace/api-learning-resources/collection/1841124-59f1a202-b933-4276-b99a-88acdefba9f0?ctx=documentation)
@@ -67,3 +65,9 @@ Check out some useful collections for getting started learning about APIs, reque
 * [Intro to writing tests](https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-13bd44c4-94ec-420a-8390-8ff44b60f14d?ctx=documentation)
 * [How to use the Postman Console](https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-9349429e-3744-467b-a127-e3881f0dffc8?ctx=documentation)
 * [Postman Echo](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation)
+
+## Next steps
+
+* To import a collection from a public workspace to your workspace, create a fork of it. See [creating a fork](/docs/collaborating-in-postman/using-version-control/forking-entities/#creating-a-fork).
+
+* To learn more about sharing APIs, workspaces, and collections to the Public API Network, see [Public API Network overview](/docs/collaborating-in-postman/public-api-network/public-api-network-overview/).

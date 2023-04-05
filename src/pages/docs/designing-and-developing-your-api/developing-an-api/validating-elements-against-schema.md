@@ -17,6 +17,11 @@ contextual_links:
   - type: link
     name: "Postman Intergalactic | Design and Prototype an API in Postman"
     url: "https://youtu.be/r4kb3jOSsmk"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "API contract testing: 4 things to validate to meet (and exceed) expectations"
+    url: "https://blog.postman.com/api-contract-testing-4-things-to-validate/"
   - type: section
     name: "Next steps"
   - type: link
