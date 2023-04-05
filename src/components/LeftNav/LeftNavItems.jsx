@@ -1065,6 +1065,10 @@ export const leftNavItems = [
             url: '/docs/administration/sso/azure-ad/',
           },
           {
+            name: 'Custom SAML',
+            url: '/docs/administration/sso/custom-saml/',
+          },
+          {
             name: 'Duo',
             url: '/docs/administration/sso/duo/',
           },
