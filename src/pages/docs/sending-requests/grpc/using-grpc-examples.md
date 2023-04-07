@@ -20,8 +20,13 @@ contextual_links:
   - type: link
     name: "Working with gRPC | The Exploratory"
     url: "https://youtu.be/RbHOs2xchGE"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Show your gRPC APIs in action with examples"
+    url: "https://blog.postman.com/show-your-grpc-apis-in-action-with-examples/"
 ---
-<!-- TODO: Add blog post link to front matter -->
+
 You can save, edit, and share gRPC request-response pairs as [examples](/docs/sending-requests/examples/). You can even create gRPC examples from scratch.
 
 APIs can be complex, and so can the guidelines for using them. Examples help you understand APIs by capturing the request sent from the client and the response received from the server in a single visual snapshot. You can combine these snapshots in a request and store the request in a collection to illustrate how the API functions under different scenarios. Examples help API producers tell the world beautifully what their API is about.

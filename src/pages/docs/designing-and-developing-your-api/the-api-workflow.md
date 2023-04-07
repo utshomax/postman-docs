@@ -12,6 +12,9 @@ contextual_links:
   - type: link
     name: "Are you API-first? | The Exploratory"
     url: "https://youtu.be/6brCRaqxNe8"
+  - type: link
+    name: "Designing Good API Experiences | Postman Intergalactic"
+    url: "https://youtu.be/TQpC1o1dFic"
   - type: dynamic_blog
     name: "Blog posts"
     blog_tag: "api-first"

@@ -51,7 +51,11 @@ Once you've reached your usage limit, your monitors and scheduled collection run
 
 Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of [collection runs](/docs/collections/running-collections/intro-to-collection-runs/) you can use each month. This limit applies to collections that you run in a workspace or the Scratch Pad using the **Run manually** option. This limit doesn't apply to [scheduled collection runs](/docs/collections/running-collections/scheduling-collection-runs/) in the Postman cloud. A collection run with multiple iterations counts as a single run.
 
-Collection run usage doesn't appear on the Resource Usage dashboard. Instead, a message will display in the Collection Runner when you're approaching your usage limit. Once you've reached your usage limit, you will no longer be able to run your collections using the **Run manually** option. To resume running collections before your monthly limit resets, you can [upgrade your plan](/docs/administration/billing/#team-and-plan-changes), [schedule collection runs](/docs/collections/running-collections/scheduling-collection-runs/) in the Postman cloud, or run collections using the [Postman CLI](/docs/postman-cli/postman-cli-run-collection/) or [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/).
+You can check your manual collection run usage on the [Resource Usage dashboard](https://go.postman.co/billing/add-ons/overview). Also, a message will display in the Collection Runner when you're approaching your usage limit.
+
+<img alt="Collection runner usage error" src="https://assets.postman.com/postman-docs/v10/usage-error-collection-runner-v10-12.jpg" width="504px"/>
+
+Once you've reached your usage limit, you will no longer be able to run your collections using the **Run manually** option. To resume running collections before your monthly limit resets, you can [upgrade your plan](/docs/administration/billing/#team-and-plan-changes), [schedule collection runs](/docs/collections/running-collections/scheduling-collection-runs/) in the Postman cloud, or run collections using the [Postman CLI](/docs/postman-cli/postman-cli-run-collection/) or [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/).
 
 > Requests run in the Postman cloud by your [scheduled collection runs](/docs/collections/running-collections/scheduling-collection-runs/) count toward your [monitoring usage](#monitoring-usage). Scheduled collection runs don't count toward your collection runs usage.
 
@@ -75,7 +79,7 @@ To upgrade your available storage, contact [Postman support](https://www.postman
 
 ## Postman API usage
 
-Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of requests that can be sent to the [Postman API](/docs/developer/intro-api/) each month. After the limit is reached, you will get a `Service limit exhausted` error message when sending a request to the Postman API.
+Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of requests that can be sent to the [Postman API](/docs/developer/postman-api/intro-api/) each month. After the limit is reached, you will get a `Service limit exhausted` error message when sending a request to the Postman API.
 
 ![Postman API usage error](https://assets.postman.com/postman-docs/v10/usage-error-api-v10.jpg)
 
