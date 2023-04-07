@@ -26,6 +26,7 @@ When you start the test, the Collection Runner displays performance metrics in r
 * [Configuring a performance test](#configuring-a-performance-test)
 * [Viewing performance metrics](#viewing-performance-metrics)
     * [Customizing the performance view](#customizing-the-performance-view)
+    * [Viewing past performance runs](#viewing-past-performance-runs)
 
 ## Configuring a performance test
 
@@ -88,3 +89,11 @@ To customize the graph view, use the drop-down menus above the graph. You can vi
 To view details for a section of the graph, select a handle on the bottom of the graph. The table below the graph shows response time metrics for each request during the selected time period. To change the graph back to the default time period, select **Reset**.
 
 <img alt="Viewing a time period" src="https://assets.postman.com/postman-docs/v10/performance-test-zoom-v10-xx.jpg" width="502px"/>
+
+### Viewing past performance runs
+
+You can view a list of past performance runs for a collection. Open the collection, select the **Runs** tab, and then select the **Performance runs** tab.
+
+You can view metrics for each run, including the number of virtual users, duration, average response time, error rate, total number of requests, and requests per second. Select the name of a run to view a graph and full details for the performance run.
+
+![Performance runs tab](https://assets.postman.com/postman-docs/v10/performance-test-past-runs-v10-xx.jpg)

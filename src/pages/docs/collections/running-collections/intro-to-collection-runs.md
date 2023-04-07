@@ -42,6 +42,7 @@ You can configure the Collection Runner to meet your development needs. You can 
 
 * [Configuring a collection run](#configuring-a-collection-run)
 * [Debugging run results](#debugging-run-results)
+* [Viewing run history](#viewing-run-history)
 * [Sharing collection runs](#sharing-collection-runs)
 * [Automating collection runs](#automating-collection-runs)
 * [Next steps](#next-steps)
@@ -110,13 +111,11 @@ To learn more about what happened during the collection run, do any of the follo
 
 ## Viewing run history
 
-Each collection has a **Runs** tab, which displays past and scheduled collection runs. The **Runs** tab also shows test counts and metrics like duration and average response times.
+Each collection has a **Runs** tab you can use to view past runs, scheduled runs, and performance runs. You can also view details such as test counts and average response times.
 
-![Collection Run History tab](https://assets.postman.com/postman-docs/v10/collection-run-tab-v10.jpg)
+![Past runs tab](https://assets.postman.com/postman-docs/v10/collection-run-tab-v10-13.jpg)
 
-The **Runs** tab includes two more tabs: **Past runs** and **Scheduled runs**.
-
-### The Past runs tab
+### Viewing past runs
 
 The **Past runs** tab has controls to select how many collection runs to view, and limit the displayed runs to those from selected users, of a selected status, and either from the Collection Runner or the Postman CLI.
 
@@ -132,7 +131,7 @@ Hover over an item to show the following controls:
 * **View report** - Select to open the full results for the collection run. Learn more about [debugging run results](#debugging-run-results).
 * **Share** - Select to share the results with another team member. This provides a link you can give to other team members so they can view details of this run. Note that this doesn't work in personal workspaces.
 
-## The Scheduled runs tab
+### Viewing scheduled runs
 
 The **Scheduled runs** tab shows all the scheduled runs for the current collection. The following are displayed for each scheduled run:
 
@@ -144,6 +143,14 @@ Hover over an item to show the following controls:
 
 * **View** - Select to open a page detailing the scheduled collection run's latest results.
 * The **more actions icon** <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> - Select to [pause, resume, edit, or delete](/docs/collections/running-collections/scheduling-collection-runs/#pausing-or-resuming-a-scheduled-run) the schedule.
+
+### Viewing performance runs
+
+The **Performance runs** tab shows past [performance runs](/docs/collections/running-collections/testing-api-performance/) for the collection. You can view metrics for each run, including the number of virtual users, duration, average response time, error rate, total number of requests, and requests per second.
+
+Select the name of a run to view a graph and full details for the performance run. Learn more about [viewing performance metrics](/docs/collections/running-collections/testing-api-performance/#viewing-performance-metrics).
+
+![Performance runs tab](https://assets.postman.com/postman-docs/v10/performance-test-past-runs-v10-xx.jpg)
 
 ## Sharing collection runs
 
