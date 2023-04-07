@@ -58,6 +58,8 @@ To configure a performance test in the Postman desktop app, do the following:
 
 <img alt="Configuring a performance test" src="https://assets.postman.com/postman-docs/v10/performance-test-configure-v10-xx.jpg"/>
 
+> Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of performance runs you can use each month. A message will display in the Collection Runner when you're approaching your usage limit. Learn more about [resource usage](/docs/administration/resource-usage/) in Postman.
+
 ## Viewing performance metrics
 
 During a performance test, all requests are sent from the local system where you are running the Postman desktop app. The performance test runner displays performance metrics in real time so you can observe how your API performs under load.
