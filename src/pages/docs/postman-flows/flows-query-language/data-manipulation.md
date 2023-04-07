@@ -1,6 +1,6 @@
 ---
 title: "Manipulating data"
-updated: 2023-02-14
+updated: 2023-03-29
 ---
 
 You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to perform math functions, manipulate strings and arrays, and interact with the data in your responses in several ways. Sample data and FQL examples are below.
@@ -124,7 +124,7 @@ The example below gets every `description` value in the `payments` array and app
 ### FQL
 
 ``` javascript
-payments.{description & ' annual cost' : amount*12}
+payments.{description & " annual cost" : amount*12}
 ```
 
 ### Result
@@ -177,7 +177,7 @@ In the example below, the `$substringBefore()` function returns the substring be
 ### FQL
 
 ``` javascript
-$substringBefore(payments[0].description, 'subscription')
+$substringBefore(payments[0].description, "subscription")
 ```
 
 ### Result
@@ -193,7 +193,7 @@ The `$substringAfter()` function finds a pattern and returns the substring immed
 ### FQL
 
 ``` javascript
-$substringAfter(payments[0].description, 'recurring')
+$substringAfter(payments[0].description, "recurring")
 ```
 
 ### Result
@@ -225,7 +225,7 @@ The `$lowercase()` function makes all the characters in a string lowercase.
 ### FQL
 
 ``` javascript
-$lowercase(customer_info.'customer field')
+$lowercase(customer_info."customer field")
 ```
 
 ### Result
@@ -257,7 +257,7 @@ The `$pad()` function adds spaces or characters to a string so that the total le
 ### FQL
 
 ``` javascript
-$pad(customer_info.'customer field', 15, '#')
+$pad(customer_info."customer field", 15, "#")
 ```
 
 ### Result
@@ -316,12 +316,12 @@ $replace(payments[0].description,"recurring", "renewing", 1)
 
 ## Base64 encode a string
 
-The `$base64encode()` function converts a string to base64 encoding. The example below converts the string `'some data here'` into `"c29tZSBkYXRhIGhlcmU="`.
+The `$base64encode()` function converts a string to base64 encoding. The example below converts the string `"some data here"` into `"c29tZSBkYXRhIGhlcmU="`.
 
 ### FQL
 
 ``` javascript
-$base64encode('some data here')
+$base64encode("some data here")
 ```
 
 ### Result
@@ -497,7 +497,7 @@ The `$round($random())` function generates a random whole number. The example be
 ### FQL
 
 ``` javascript
-'Invoice number ' & $round($random()*1000)
+"Invoice number " & $round($random()*1000)
 ```
 
 ### Result
@@ -561,7 +561,7 @@ The `$encodeUrl()` function replaces certain characters in a URL with UTF-8 enco
 ### FQL
 
 ``` javascript
-$encodeUrl('https://faketranslatewebsite.com/?phrase=こんにちは')
+$encodeUrl("https://faketranslatewebsite.com/?phrase=こんにちは")
 ```
 
 ### Result
@@ -625,7 +625,7 @@ The `$toMillis()` function converts a given date format into Unix epoch time. Se
 ### FQL
 
 ``` javascript
-$toMillis('10/12/2018 11:39 PM', '[M]/[D]/[Y] [h]:[m] [P]')
+$toMillis("10/12/2018 11:39 PM", "[M]/[D]/[Y] [h]:[m] [P]")
 ```
 
 ### Result
@@ -641,7 +641,7 @@ The `$fromMillis()` function converts Unix epoch time into a different date form
 ### FQL
 
 ``` javascript
-$fromMillis(1539387540000, '[Y]-[M]-[D] [H]:[m]:[s] [z]')
+$fromMillis(1539387540000, "[Y]-[M]-[D] [H]:[m]:[s] [z]")
 ```
 
 ### Result
@@ -657,7 +657,7 @@ The `$year()`, `$month()`, and `$day()` functions return their respective compon
 ### FQL
 
 ``` javascript
-$year('2023-02-11') & '-' & $month('2023-02-11') & '-' & $day('2023-02-11')
+$year("2023-02-11") & "-" & $month("2023-02-11") & "-" & $day("2023-02-11")
 ```
 
 ### Result
@@ -673,7 +673,7 @@ The `$hours()`, `$minutes()`, `$seconds()`, and `$milliseconds()` functions retu
 ### FQL
 
 ``` javascript
-$hours($now()) & ':' & $minutes($now()) & ':' & $seconds($now()) & ':' & $milliSeconds($now())
+$hours($now()) & ":" & $minutes($now()) & ":" & $seconds($now()) & ":" & $milliSeconds($now())
 ```
 
 ### Result
@@ -705,7 +705,7 @@ The `$hasSameDate()` function accepts two or more dates with parameters specifyi
 ### FQL
 
 ``` javascript
-$hasSameDate('2023-02-01', '2023-02-08', ['month', 'year'])
+$hasSameDate("2023-02-01", "2023-02-08", ["month", "year"])
 ```
 
 ### Result
@@ -721,7 +721,7 @@ The `$datePlus()` function accepts a date (formatted as `YYYY-MM-DD` or millisec
 ### FQL
 
 ``` javascript
-$datePlus('2023-02-07', 1, 'days')
+$datePlus("2023-02-07", 1, "days")
 ```
 
 ### Result
@@ -737,7 +737,7 @@ The `$diffDate()` function accepts two dates (formatted as `YYYY-MM-DD` or milli
 ### FQL
 
 ``` javascript
-$diffDate('2023-02-08', '2023-01-22', 'days')
+$diffDate("2023-02-08", "2023-01-22", "days")
 ```
 
 ### Result
@@ -791,7 +791,7 @@ The `$boolean` value is a true/false test. The second value is the output for tr
 ### FQL
 
 ``` javascript
-$boolean(customer_info.total_value > 250) ? 'high-value customer' : 'not a high-value customer'
+$boolean(customer_info.total_value > 250) ? "high-value customer" : "not a high-value customer"
 ```
 
 ### Result
