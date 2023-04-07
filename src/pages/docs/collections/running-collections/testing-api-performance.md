@@ -30,6 +30,8 @@ When you start the test, the Collection Runner displays performance metrics in r
 
 ## Configuring a performance test
 
+> You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to configure and run a performance test.
+
 Before you configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to use to simulate user activity. For each virtual user, Postman will run the collection in parallel and repeatedly to simulate real-world load on your API.
 
 To configure a performance test in the Postman desktop app, do the following:
@@ -75,6 +77,7 @@ From the performance test runner, you can take the following actions:
 
 * Select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh** to view the latest metrics.
 * Select **Run again** to start the performance test again using the same configuration.
+* Select the name of a request to open the request and view its **Tests** tab.
 
 ### Customizing the performance view
 
