@@ -47,7 +47,7 @@ Postman's secret scanner follows all updates made by team members and scans them
 * Make changes to a collection or environment that's present in a public workspace.
 * Write new documentation for a Postman Collection and make it public.
 
-Secret scanner is turned on by default for all Postman teams and will monitor your team's public workspaces, collections, environments, and documentation for exposed secrets. Postman delivers scan results for public entities in the [Security audit reports](/docs/reports/security-audit-reports/) section of the [Reports dashboard](/docs/reports/reports-overview/).
+Secret scanner is turned on by default for all Postman teams and will monitor your team's public workspaces, collections, environments, and documentation for exposed secrets. Postman delivers scan results for public entities in the [Security audit reports](/docs/reports/security-audit-reports/) section of the [Reports dashboard](/docs/reports/reports-overview/). If an exposed secret is found in a public entity, Postman notifies you by email and in-app notification. You can also set up Postman's [Slack integration](/docs/integrations/available-integrations/slack/) to alert you in Slack if this occurs.
 
 > **[Security Audit Reports are available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
 
