@@ -13,11 +13,14 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "GraphQL in Postman Demo"
-    url: "https://youtu.be/7pUbezVADQs"
+    name: "Creating GraphQL Requests | Postman Level Up"
+    url: "https://youtu.be/Zq7H8kYIQIU"
   - type: link
-    name: "GraphQL introspection | Postman Level Up"
-    url: "https://youtu.be/k-j3FwTjJkE"
+    name: "Editing GraphQL Queries | Postman Level Up"
+    url: "https://youtu.be/kygb3sf3Nhc"
+  - type: link
+    name: "Loading GraphQL Schemas | Postman Level Up"
+    url: "https://youtu.be/wlVpIqImRZk"
   - type: subtitle
     name: "Blog posts"
   - type: link

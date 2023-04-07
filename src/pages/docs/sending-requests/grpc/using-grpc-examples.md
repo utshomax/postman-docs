@@ -20,8 +20,13 @@ contextual_links:
   - type: link
     name: "Working with gRPC | The Exploratory"
     url: "https://youtu.be/RbHOs2xchGE"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Show your gRPC APIs in action with examples"
+    url: "https://blog.postman.com/show-your-grpc-apis-in-action-with-examples/"
 ---
-<!-- TODO: Add blog post link to front matter -->
+
 You can save, edit, and share gRPC request-response pairs as [examples](/docs/sending-requests/examples/). You can even create gRPC examples from scratch.
 
 APIs can be complex, and so can the guidelines for using them. Examples help you understand APIs by capturing the request sent from the client and the response received from the server in a single visual snapshot. You can combine these snapshots in a request and store the request in a collection to illustrate how the API functions under different scenarios. Examples help API producers tell the world beautifully what their API is about.
@@ -67,7 +72,7 @@ This walkthrough creates and executes a unary request, then saves the response a
 
 This walkthrough edits a gRPC example.
 
-1. [Create a unary gRPC request, save it to a collection, and save a gRPC example.](#saving-a-grpc-example)
+1. [Create a unary gRPC request, save it in a collection, and save a gRPC example.](#saving-a-grpc-example)
 
 1. Select the gRPC example in the sidebar.
 
@@ -88,7 +93,7 @@ This walkthrough edits a gRPC example.
 
 This walkthrough uses a streaming method to create a gRPC example. Note how streaming method messages differ from unary method messages.
 
-1. Create a gRPC request with the `LotsOfReplies` method (or any streaming method) and save it to a collection.
+1. Create a gRPC request with the `LotsOfReplies` method (or any streaming method) and save it in a collection.
 
 1. Hover over the gRPC request you created and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
@@ -111,7 +116,7 @@ This walkthrough uses a streaming method to create a gRPC example. Note how stre
 
 ## Creating example-specific documentation
 
-1. [Create a gRPC request, save it to a collection, and save a gRPC example.](#saving-a-grpc-example)
+1. [Create a gRPC request, save it in a collection, and save a gRPC example.](#saving-a-grpc-example)
 
 1. Select the gRPC example in the sidebar.
 
@@ -126,3 +131,25 @@ This walkthrough uses a streaming method to create a gRPC example. Note how stre
 1. Enter your documentation for the gRPC example and select **Save**.
 
     ![Save documentation](https://assets.postman.com/postman-docs/v10/grpc-doc-example-1save-1-v10.jpg)
+
+## Using messages from saved examples
+
+While invoking a request, you can work with message payloads stored in the examples. This not only enables you to test the example scenarios by yourself, but also speeds up your debugging workflow.
+
+This walkthrough shows how you can invoke a client streaming request with messages stored in the examples:
+
+1. Create a gRPC request with the `LotsOfGreetings` method, and save it in a collection.
+
+1. [Create an example for the request](#creating-a-grpc-example-from-scratch) with two different `"greeting"` messages.
+
+    ![Create an example](https://assets.postman.com/postman-docs/v10/grpc-example-message1-1-v10.jpg)
+
+1. Select the request and select **Invoke**.
+
+1. Select the dropdown next to **Use Example Message**. Both messages from the example appear.
+
+    ![Example messages](https://assets.postman.com/postman-docs/v10/grpc-example-message2-1-v10.jpg)
+
+1. Select a message from the dropdown list and select **Send**.
+
+1. Open the dropdown again and select a different message.

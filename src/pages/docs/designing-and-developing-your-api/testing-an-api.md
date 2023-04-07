@@ -23,8 +23,8 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "The Reimagined API-First Workflow, Part 2: for Testers"
-    url: "https://blog.postman.com/the-reimagined-api-first-workflow-for-testers/"
+    name: "Recommended Postman skills for API testing professionals"
+    url: "https://blog.postman.com/recommended-postman-skills-for-api-testing-professionals/"
   - type: link
     name: "Negative Testing for More Resilient APIs"
     url: "https://blog.postman.com/negative-testing-for-more-resilient-apis/"
@@ -78,7 +78,7 @@ To run a test collection for an API, do the following:
 1. Select **APIs** in the sidebar and select an API.
 1. Select **Test and Automation**.
 1. Under **Collections**, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run** next to a test collection.
-1. Select any configuration options for the collection run, then select **Run API Tests**. Learn more about [using the Collection Runner](/docs/running-collections/intro-to-collection-runs/).
+1. Select any configuration options for the collection run, then select **Run API Tests**. Learn more about [using the Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 1. To view detailed test results, expand the collection and select **View Report** next to a test run.
 
 <img alt="Running a test collection" src="https://assets.postman.com/postman-docs/v10/api-builder-run-test-collection-v10-0-15.jpg" />

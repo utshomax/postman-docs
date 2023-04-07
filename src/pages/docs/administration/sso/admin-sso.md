@@ -18,7 +18,7 @@ contextual_links:
 
 > **[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
 
-Your [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can configure single sign-on (SSO) for a Postman team. To configure SSO for a team, add an authentication method, and then configure the Identity Provider (IdP) details.
+Your [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can configure single sign-on (SSO) for a Postman team. To configure SSO for a team, add an authentication method, and then configure the identity provider (IdP) details.
 
 ## Contents
 
@@ -36,13 +36,13 @@ To begin adding an authentication method, do the following:
 1. Select **Add Authentication Method**.
 1. Select the authentication type.
 1. Enter an authentication name that's identifiable to your team.
-1. Select **Continue** to [configure the IdP details](#configuring-the-identity-provider-details).
+1. Select **Continue** to [configure the IdP details](#configuring-the-idp-details).
 
     <img src="https://assets.postman.com/postman-docs/v10/add-auth-method-v10.jpg" width="600px" alt="Authentication Method"/>
 
     > Always check with your authentication provider dashboard or your IT support staff for the correct information to configure SSO.
 
-### Configuring the identity provider details
+### Configuring the IdP details
 
 After [adding the authentication method](#configuring-single-sign-on), you can configure the IdP details.
 
@@ -60,7 +60,7 @@ To enter details in the **Identity provider details** section, you must sign in 
 
 * [Azure AD](/docs/administration/sso/azure-ad/)*
 
-* [Custom SAML](/docs/administration/sso/intro-sso/#sso-setup-for-saml-20-compliant-idps)*
+* [Custom SAML](/docs/administration/sso/custom-saml/)*
 
 * [Duo](/docs/administration/sso/duo/)*
 

@@ -23,13 +23,13 @@ contextual_links:
 warning: false
 ---
 
-> **[Changelog is available on Postman Basic, Professional, and Enterprise plans.](https://www.postman.com/pricing/)**
+> **[Changelog is available on Postman paid plans.](https://www.postman.com/pricing/)**
 
 Each Postman Collection has a changelog that covers create, update, transfer, and delete events. You can use the changelog to keep track of updates you and other collaborators make to your private and team collections. The changelog also enables you to roll back a collection and restore it to an earlier point in time.
 
 ## Contents
 
-* Viewing changes to a [collection](#viewing-the-collection-changelog), [workspace](#viewing-workspace-activity), or [team](#viewing-team-activity)
+* Viewing changes to a [collection](#viewing-the-collection-changelog) or [workspace](#viewing-workspace-activity)
 * [Hiding diffs in the changelog](#hiding-diffs-in-the-changelog)
 * [Restoring collections](#restoring-collections)
 * [Exporting team activity](#exporting-team-activity-to-other-platforms)
@@ -78,10 +78,6 @@ Filtering by element will display the actions carried out on the selected elemen
 To filter by element, select **Elements** at the top of the activity feed and select the element or elements. You can search for a specific element by typing its name in the search field.
 
 > You can access the changelog of a specific collection by selecting **View Changelog** next to actions on collections.
-
-## Viewing team activity
-
-You can review your team's activity with a Postman Basic, Professional, or Enterprise account. To do so, select **Home** in the upper-left. You can view your team **Activity Feed** on the right.
 
 ## Hiding diffs in the changelog
 

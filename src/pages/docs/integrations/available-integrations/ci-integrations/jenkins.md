@@ -76,7 +76,7 @@ To view details for collections that were run as part of a build, first [configu
 
 <img alt="View collection runs" src="https://assets.postman.com/postman-docs/v10/collection-runs-v10-2.jpg">
 
-> Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
+> Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 
 ## Viewing API Governance and API Security rule violations
 
@@ -111,6 +111,6 @@ To add the Postman CLI configuration to your Jenkins pipeline, do the following:
 1. Open your pipeline project in Jenkins and select **Configure**.
 1. Paste the Postman CLI configuration you copied from Postman into the **Pipeline script**:
     * Replace `your_nodejs_configured_tool_name` with the name of your Node.js tool, for example, `node`.
-    * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
+    * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key).
 1. Select **Save** and then run the pipeline using the new configuration.
 1. To view the test results in Postman, open your API and select **Test and Automation**. For more help, see [Viewing collection run details](#viewing-collection-run-details).

@@ -14,7 +14,6 @@ import 'prismjs/themes/prism-tomorrow.css';
 import { useModal } from '../components/modules/Modal';
 import PreviousAndNextLinks from '../components/modules/PreviousAndNextLinks';
 import BreadCrumbsLinks from '../components/modules/BreadCrumbsLinks';
-import LoadQualtrics from '../components/modules/loadQualtrics';
 import { BaseLinkStyles, BaseLink, UnorderedListStyles, OrderedListStyles, } from 'aether-marketing';
 
 const DocWrapper = styled.div`
@@ -108,6 +107,27 @@ code[class*="language-"] {
   
 }
 
+pre {
+  font-family: 'IBM Plex Mono',SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace !important;
+  line-height: 24px;
+  margin-bottom: 0px;
+}
+
+.code-ref-table {
+  border-top: solid #E4E4E4 1px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  tbody>tr{
+    vertical-align: top;
+   }
+  tbody>tr>:nth-child(1){
+    font-weight: bold;
+   }
+   tbody>tr>:nth-child(2){
+    font-family: 'IBM Plex Mono',SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace !important;
+   }
+}
+
 .gatsby-highlight {
   background-color: ${(props) => props.theme.colors.grey_80};
   border-radius: ${(props) => props.theme.borderRadius.small};
@@ -163,7 +183,7 @@ code[class*="language-"] {
   display: flex;
   justify-content: space-between;
 }
-}
+
 .left-nav-re {
   padding: 32px 0px 8px 0px;
   background-color: ${(props) => props.theme.colors.grey_05};
@@ -211,6 +231,24 @@ const DocContent = styled.div`
       list-style: lower-alpha;
     }
   } 
+  //  anchor link tag styling
+  a.anchor.before {
+    top: 0.2em;
+    padding-right: 8px;
+
+    svg {
+      width: auto;
+      height: 0.9em;
+      display: block;
+    }
+  }
+
+  a.anchor:hover {
+    display: block;
+    border: none !important;
+  }
+
+  
 `
 
 const RightColumnWrapper = styled.aside`
@@ -299,8 +337,6 @@ const DocPage = ({ data }) => {
                 <p>
                   <small className="font-italic">Last modified: {lastModifiedDate}</small>
                 </p>
-                {/* Qualtrics */}
-                <LoadQualtrics />
                 <PreviousAndNextLinks data={{ previous, next }} />
               </main>
               <RightColumnWrapper className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">

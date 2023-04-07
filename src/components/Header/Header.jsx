@@ -2,12 +2,15 @@ import React, { useEffect, useState } from 'react';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 import Dropdown from './Dropdown';
 import $ from 'jquery';
-import {PrimaryNavbarV6, SecondaryNavbarV6, NavStyles, DropdownStyles, CTAButton} from './HeaderStyles.jsx' ;
+import {PrimaryNavbarV6, SecondaryNavbarV6, NavStyles, DropdownStyles, DropdownStylesSecond, CTAButton} from './HeaderStyles.jsx' ;
 import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
+import { Paragraph } from 'aether-marketing';
 // prod nav data
 import navbarData from '../../../bff-data/navbar.json';
+import navtopicsdropdownData from '../../../bff-data/navtopicsdropdown.json';
 // fallback nav data
 import navbarDataLocal from '../../../build/navbarDev.json';
+import navtopicsdropdownDataLocal from '../../../build/navtopicsdropdownDev.json';
 
 // Get Cookie for Sign In toggler
 const getCookie = (a) => {
@@ -76,6 +79,7 @@ const Header = (props) => {
   const [cookie, setCookie] = useState('');
   const [hidden, setHidden] = useState(true);
   const [data, setData] = useState(navbarData);
+  const [dataDropdown, setDataDropdown] = useState(navtopicsdropdownData);
   const [visibleHelloBar] = useState();
 
   useEffect(() => {
@@ -85,11 +89,19 @@ const Header = (props) => {
     setCookie(cookie);
     setBeta(beta);
     const navbarKeys = ['items', 'media', 'type'];
-
+    const navtopicsdropdownKeys = ['items', 'type'];
+    
     if (navbarKeys.every(key => Object.keys(navbarData).includes(key))) {
       setData(navbarData)
     } else {
       setData(navbarDataLocal)
+    }
+
+
+    if (navtopicsdropdownKeys.every(key => Object.keys(navtopicsdropdownData).includes(key))) {
+      setDataDropdown(navtopicsdropdownData)
+    } else {
+      setDataDropdown(navtopicsdropdownDataLocal)
     }
 
     const { waitBeforeShow } = props;
@@ -346,15 +358,49 @@ const Header = (props) => {
       </PrimaryNavbarV6>
       <SecondaryNavbarV6 className="navbar-v6 sticky ">
         <NavStyles className="navbar navbar-expand-lg navbar-light nav-secondary blurred-container">
-          <a
-            className="navbar-brand"
-            href="/docs/getting-started/introduction/"
-          >
-            <span id="learning-center-home-link" className="nav-link uber-nav">
-              Learning Center
-              <span className="sr-only">(current)</span>
-            </span>
-          </a>
+            <DropdownStylesSecond className="dropdown position-static">
+              <a
+                className="nav-link navbar-brand"
+                href="/"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Learning Center
+                <svg
+                  className="arrow-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="#212121"
+                >
+                  <g>
+                    <path d="M10.375,3.219,6,6.719l-4.375-3.5A1,1,0,1,0,.375,4.781l5,4a1,1,0,0,0,1.25,0l5-4a1,1,0,0,0-1.25-1.562Z" />
+                  </g>
+                </svg>
+              </a>
+              <div className="dropdown-menu lc-iconic">
+                <ul>
+                  {dataDropdown.items.map((item) => (
+                    <li key={item.title}>
+                    <a href={item.url} className="dropdown-item mb-3">
+                      <div className="row">
+                        <div className="col-1 lc-icon">
+                          <img className="d-block mx-auto" src={item.img} height="40px"/>
+                        </div>
+                        <div className="col-11">
+                          <Paragraph className="strong mb-0" >{item.title} <svg className="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="#212121"><g><path d="M10.375,3.219,6,6.719l-4.375-3.5A1,1,0,1,0,.375,4.781l5,4a1,1,0,0,0,1.25,0l5-4a1,1,0,0,0-1.25-1.562Z"></path></g></svg></Paragraph>
+                          <Paragraph className="dropdown-item-text-wrap small" >{item.body}</Paragraph>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  ))}
+
+                </ul>
+              </div>
+            </DropdownStylesSecond>
           <button
             onClick={() => {
               showTargetElementLC();
@@ -385,34 +431,8 @@ const Header = (props) => {
             className="collapse navbar-collapse"
             id="navbarSupportedContentBottom"
           >
-            <ul className="property-context-menu navbar-nav ml-auto">
-              <li className="nav-item">
-                <a
-                  className="nav-link uber-nav"
-                  href="/docs/getting-started/introduction/"
-                >
-                  Docs
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link uber-nav"
-                  href="/docs/administration/managing-your-team/managing-your-team/"
-                >
-                  Admin
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link uber-nav mr-3"
-                  href="/docs/developer/resources-intro/"
-                >
-                  Developer
-                </a>
-              </li>
-            </ul>
             {/* Algolia Widgets */}
-            <SearchWrapperStyling className="form-inline header__search">
+            <SearchWrapperStyling className="form-inline header__search  ml-auto">
               <svg
                 className="nav-search__icon"
                 width="16"
