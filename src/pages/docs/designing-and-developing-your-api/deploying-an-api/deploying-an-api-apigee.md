@@ -1,7 +1,6 @@
 ---
 title: 'Deploying to an Apigee API gateway'
 updated: 2022-09-15
-search_keyword: "deploy, apigee, api gateway"
 contextual_links:
   - type: section
     name: "Prerequisites"

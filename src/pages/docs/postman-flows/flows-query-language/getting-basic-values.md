@@ -1,6 +1,6 @@
 ---
 title: "Getting basic values"
-updated: 2022-12-15
+updated: 2023-03-29
 ---
 
 FQL uses location path syntax to extract values from JSON structures. The following examples demonstrate several examples of getting basic values from JSON data.
@@ -66,7 +66,7 @@ name
 
 ## Get a nested field
 
-To access fields below the top level, use field names separated by dot '.' delimiters.
+To access fields below the top level, use field names separated by dot `.` delimiters.
 
 ### FQL
 
@@ -175,7 +175,7 @@ If a field in the JSON file contains special characters (like spaces), put the f
 ### FQL
 
 ``` javascript
-`display name`
+'display name'
 ```
 
 <br/>
@@ -183,7 +183,7 @@ If a field in the JSON file contains special characters (like spaces), put the f
 ### Result
 
 ``` json
-"myuser123"
+myuser123
 ```
 
 ## Get the number of elements in a list

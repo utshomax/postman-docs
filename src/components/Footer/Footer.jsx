@@ -77,8 +77,8 @@ const SocialSVGWrapper = styled.div`
 const triggerGA = (category, label) => (
   category
   && label
-  && window.pm
-  && window.pm.ga('send', 'event', category, 'Click', label)
+  && window.pmt
+  && window.pmt('ga', ['send', 'event', category, 'Click', label])
 );
 
 // Helper function for rel attribute in link or button
