@@ -59,7 +59,7 @@ The header enables you to create workspaces, access reports, explore the public 
 <img alt="Postman header left side" src="https://assets.postman.com/postman-docs/postman-desktop-app-header-v10.10.jpg" width="350px"/>
 
 * **&#8592; &#8594;** - Navigate backward and forward through pages you've visited within Postman. _(Postman desktop app only)_
-* **Home** - Go to your personal home page, which includes alerts, announcements, your activity feed, your recently visited workspaces, and links to resources for [your team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) if applicable.
+* **Home** - Go to your personal home page, which includes your recently visited workspaces, and links to resources for [your team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) if applicable.
 * **Workspaces** - Search for workspaces, view your recently visited workspaces, or [create a new workspace](/docs/getting-started/creating-your-first-workspace/).
 * **API Network** - Explore the [Public API Network](/docs/getting-started/exploring-public-api-network/) and access your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
 * **Explore** - Browse public APIs, teams, workspaces, and collections on Postman.
