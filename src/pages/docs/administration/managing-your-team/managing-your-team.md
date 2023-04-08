@@ -39,6 +39,7 @@ Postman provides a variety of options to customize your team's experience, from 
     * [Managing invites](#managing-invites)
     * [Removing team members](#removing-team-members)
     * [Managing team roles](#managing-team-roles)
+        * [Managing super admins](#managing-super-admins)
     * [Managing partners](#managing-partners)
     * [Managing guests](#managing-guests)
 * [Managing your team’s Postman plan](#managing-your-teams-postman-plan)
@@ -137,6 +138,18 @@ Search for a specific user by typing their name or email address in the search f
 Teams can have two support accounts at no extra cost. Support accounts are team members with only Admin or Billing roles. Team members with a Super Admin or Developer role will consume a paid seat on your team.
 
 For full details about the Postman team roles that you can assign as a Team Admin, see [Team roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). Some roles are only available for teams with [Postman Professional or Enterprise](https://www.postman.com/pricing) plans.
+
+#### Managing super admins
+
+> **[Super Admins are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
+
+If your team doesn't have a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) yet, a Team Admin can assign the role to anyone in the team. Once your team has at least one Super Admin, only a Super Admin can assign this role to another user.
+
+Super Admins can assign the Super Admin role to a user in the [team dashboard](https://go.postman.co/settings/team/members), while [inviting a new team member](#inviting-users), and to a [group](/docs/administration/managing-your-team/user-groups/#editing-team-roles-for-a-group). If your team is using [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/), a Super Admin must create the [SCIM credentials](/docs/administration/scim-provisioning/scim-provisioning-overview/#enabling-scim-provisioning) in order for SCIM to change the membership of a group that's been assigned the Super Admin role.
+
+Regular Team Admins cannot remove Super Admins from a team or remove their Super Admin role assignment.
+
+It's recommended that you create a service user that isn't tied to any individual and assign that user the Super Admin role. By doing so, your team can avoid the risk of a disruption in services due to an actual user leaving your company and ensure that your team's management is able to sign in to the service account when needed.
 
 ### Managing partners
 
