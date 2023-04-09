@@ -101,11 +101,16 @@ You can leave a Postman team by selecting your avatar in the top right, then **S
 
 Select **Leave Team** to the right of a team to leave it. If you're a member of an Enterprise team that has [SCIM configured](/docs/administration/scim-provisioning/scim-provisioning-overview/), you must contact a Team Admin to remove you from the team.
 
-If you're from an Enterprise team or you have an individual account, when you leave a team, you no longer have access to the team's workspaces, including personal workspaces, or any of the elements in them. You must reassign your personal workspaces to a remaining team member before leaving.
+When you leave a team, you no longer have access to the team's workspaces, including personal workspaces, or any of the elements in them. You must reassign your personal workspaces to a remaining team member before leaving if one of the following is true:
+
+* You're from an Enterprise team.
+* You're from a Free, Basic, or Professional team, and you have an individual account.
+
+> An individual account isn't associated with a team, and only you can access it. To access your individual account, see [Switching between teams](#switching-between-teams).
 
 <img src="https://assets.postman.com/postman-docs/leave-team-confirmation-v10.jpg" alt="Leave and delete team" width="400px"/>
 
-If you're from a Free, Basic, or Professional team and you don't have an individual account, when you leave a team, you can also choose to keep your personal workspaces and the data within them in an individual account. The individual account isn't associated with a team, and only you can access it. To access your individual account, see [Switching between teams](#switching-between-teams).
+When you leave a team, you can also choose to keep your personal workspaces and the data within them in an individual account if the following is true: you're from a Free, Basic, or Professional team and you don't have an individual account.
 
 If you're the last member to leave a team, the team will be deleted. You will no longer have access to the team's workspaces, including personal workspaces, or any elements in them. [Export your Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) prior to leaving the team to ensure it stays with you.
 
