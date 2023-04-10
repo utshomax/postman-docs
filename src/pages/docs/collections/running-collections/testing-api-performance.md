@@ -77,8 +77,9 @@ You can view the following information about the performance test:
 
 From the performance test runner, you can take the following actions:
 
+* Select <img alt="Stop icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="16px"> **Stop** to stop the performance test.
 * Select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh** to view the latest metrics.
-* Select **Run again** to start the performance test again using the same configuration.
+* Select **Configure & Rerun** to start the performance test again.
 * Select the name of a request to open the request and view its **Tests** tab.
 
 ### Customizing the performance view
