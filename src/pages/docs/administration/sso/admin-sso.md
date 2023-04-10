@@ -133,7 +133,7 @@ By default, Postman only supports Service Provider (Postman)-initiated sign ins 
 
 ### Removing team access
 
-You must [remove users from your team in Postman](/docs/administration/managing-your-team/managing-your-team/#removing-team-members) to prevent access to shared resources. When you remove a user from your team, you'll still retain access to any data they have shared with the team. You'll also be able to reassign their personal workspaces and the data within them to a remaining team member in some situations. This way the team doesn't lose access to any unshared work.
+You must remove users from your team in Postman to prevent access to shared resources. When you remove a user from your team, you'll still retain access to any data they have shared with the team. You'll also be able to reassign their personal workspaces and the data within them to a remaining team member in some situations. This way the team doesn't lose access to any unshared work. To learn more, see [Removing team members](/docs/administration/managing-your-team/managing-your-team/#removing-team-members).
 
 ## Troubleshooting
 
