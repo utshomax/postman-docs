@@ -1,6 +1,6 @@
 ---
 title: "FQL function reference"
-updated: 2023-03-22
+updated: 2023-03-29
 ---
 
 All [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) functions are documented below.
@@ -25,7 +25,7 @@ $assert($cond: bool, $msg: string) => error
 #### Basic usage
 
 ``` javascript
-$assert(user.age <18, “error:  user cannot vote!”)
+$assert(user.age <18, "error:  user cannot vote!")
 ```
 
 ### average
@@ -55,8 +55,8 @@ $boolean($arg: any) => bool
 ``` javascript
 $boolean(0) ->  false
 $boolean(10) ->  true
-$boolean('') ->  false
-$boolean('abc') ->  true
+$boolean("") ->  false
+$boolean("abc") ->  true
 ```
 
 ### contains
@@ -165,7 +165,7 @@ $eval($val:string) => any
 #### Basic usage
 
 ``` javascript
-$eval('[1,$string(2),3]') -> [1,"2",3]
+$eval("[1,$string(2),3]") -> [1,"2",3]
 ```
 
 ### exists
@@ -179,9 +179,9 @@ $exists($val: any) => bool
 #### Basic usage
 
 ``` javascript
-$exists(“hello”) -> true
+$exists("hello") -> true
 $exists([1,2,3]) -> true
-$exists({“a” : 1, “b”: 2}) -> true
+$exists({"a" : 1, "b": 2}) -> true
 $exists(null) -> false
 $exists(blah) -> false
 ```
@@ -227,7 +227,7 @@ $json($val:any) => string
 #### Basic usage
 
 ``` javascript
-json({'a': 1, 'b' : "hello"}) ->  "{"a":1,"b":"hello"}"
+$json({"a": 1, "b" : "hello"}) ->  "{"a":1,"b":"hello"}"
 ```
 
 ### jsonParse
@@ -285,8 +285,8 @@ $length($str: string) => number
 #### Basic usage
 
 ``` javascript
-$length(“abc”) -> 3
-$length(““) -> 0
+$length("abc") -> 3
+$length("") -> 0
 ```
 
 ### lookup
@@ -389,8 +389,8 @@ $not(false) -> true
 $not(null) -> true
 $not(0) -> true
 $not(100) -> false
-$not(““) -> true
-$not(“hello”) -> false
+$not("") -> true
+$not("hello") -> false
 ```
 
 ### pad
@@ -434,8 +434,8 @@ $replace($str: string, $pattern: string | regex, $replacement: string) => string
 #### Basic usage
 
 ``` javascript
-$replace("Hello World", "World", "Everyone") -> “Hello Everyone”
-$replace("the cat sat on the mat", "at", "it") -> “the cit sit on the mit”
+$replace("Hello World", "World", "Everyone") -> "Hello Everyone"
+$replace("the cat sat on the mat", "at", "it") -> "the cit sit on the mit"
 ```
 
 ### reduce
@@ -493,9 +493,9 @@ $string($value: any, $prettify? true | false) => string
 #### Basic usage
 
 ``` javascript
-$string({"a": 1, "b": 2}) -> “{”a”:1, ”b” : 2}”
-$string(5) -> “5”
-$string([1,2,3]) -> [“1”, “2”, “3”]
+$string({"a": 1, "b": 2}) -> "{"a":1, "b" : 2}"
+$string(5) -> "5"
+$string([1,2,3]) -> ["1", "2", "3"]
 ```
 
 ### substring
@@ -509,8 +509,8 @@ $substring($str: string, $start: number, $length?: number) => string
 #### Basic usage
 
 ``` javascript
-$substring("hello world", 0, 5) -> “hello”
-$substring("hello world", -5, 5) -> “world”
+$substring("hello world", 0, 5) -> "hello"
+$substring("hello world", -5, 5) -> "world"
 ```
 
 ### substringAfter
@@ -524,7 +524,7 @@ $substringAfter($str: string, $separator: string) => string
 #### Basic usage
 
 ``` javascript
-$substringAfter(“abc@gmail.com”, “@”) -> “gmail.com”
+$substringAfter("abc@gmail.com", "@") -> "gmail.com"
 ```
 
 ### substringBefore
@@ -538,7 +538,7 @@ $substringBefore($str: string, $separator: string) => string
 #### Basic usage
 
 ``` javascript
-$substringBefore( “john@gmail.com”, “@”) -> “john”
+$substringBefore( "john@gmail.com", "@") -> "john"
 ```
 
 ### sum
@@ -580,11 +580,11 @@ $type($val: any) => string
 #### Basic usage
 
 ``` javascript
-$type(“hello”) -> ”string”
-$type(1) -> “number”
-$type({}) -> “object”
-$type([]) -> “array”
-$type(null) -> “null”
+$type("hello") -> "string"
+$type(1) -> "number"
+$type({}) -> "object"
+$type([]) -> "array"
+$type(null) -> "null"
 ```
 
 ### uppercase
@@ -598,7 +598,7 @@ $uppercase($str: string) => string
 #### Basic usage
 
 ``` javascript
-$uppercase(“hello”) -> “HELLO”
+$uppercase("hello") -> "HELLO"
 ```
 
 ### uuid
@@ -658,7 +658,7 @@ $distinct($arr: array) => array
 #### Basic usage
 
 ``` javascript
-$distinct([“a”, “b”, “b”, “c”]) -> [“a”, “b”, “c”]
+$distinct(["a", "b", "b", "c"]) -> ["a", "b", "c"]
 ```
 
 ### reverse
@@ -787,7 +787,7 @@ $number($x: string | number | bool) => number
 #### Basic usage
 
 ``` javascript
-$number(“-0.05”) -> -0.05
+$number("-0.05") -> -0.05
 $number(false) -> 0
 $number(true) -> 1
 ```
@@ -853,7 +853,7 @@ $year($timestamp: string |number) => number
 #### Basic usage
 
 ``` javascript
-$year(“2023-02-08T07:56:14.747+00:00”) -> 2023
+$year("2023-02-08T07:56:14.747+00:00") -> 2023
 ```
 
 ### month
@@ -867,7 +867,7 @@ $month($timestamp: string |number) => number
 #### Basic usage
 
 ``` javascript
-$month(“2023-02-08”) -> 2
+$month("2023-02-08") -> 2
 ```
 
 ### dayOfTheWeek
@@ -881,8 +881,8 @@ $dayOfTheWeek($timestamp: string |number) => number
 #### Basic usage
 
 ``` javascript
-$dayOftheWeek('2023-02-08') -> 3
-$dayOftheWeek('2023-02-07') -> 2
+$dayOftheWeek("2023-02-08") -> 3
+$dayOftheWeek("2023-02-07") -> 2
 ```
 
 ### day
@@ -896,7 +896,7 @@ $day($timestamp: string |number) => number
 #### Basic usage
 
 ``` javascript
-$day(“2023-02-08”) -> 8
+$day("2023-02-08") -> 8
 ```
 
 ### hours
@@ -910,7 +910,7 @@ $hours($timestamp: string |number) => number
 #### Basic usage
 
 ``` javascript
-$hours(“2023-02-08T07:56:14.747+00:00”) -> 7
+$hours("2023-02-08T07:56:14.747+00:00") -> 7
 ```
 
 ### minutes
@@ -924,7 +924,7 @@ $minutes($timestamp: string |number) => number
 #### Basic usage
 
 ``` javascript
-$minutes(“2023-02-08T07:56:14.747+00:00”) -> 56
+$minutes("2023-02-08T07:56:14.747+00:00") -> 56
 ```
 
 ### seconds
@@ -938,7 +938,7 @@ $seconds($timestamp: string |number) => number
 #### Basic usage
 
 ``` javascript
-$seconds(“2023-02-08T07:56:14.747+00:00”) -> 14
+$seconds("2023-02-08T07:56:14.747+00:00") -> 14
 ```
 
 ### milliSeconds
@@ -952,7 +952,7 @@ $milliSeconds($timestamp: string |number) => number
 #### Basic usage
 
 ``` javascript
-$milliSeconds(“2023-02-08T07:56:14.747+00:00”) -> 747
+$milliSeconds("2023-02-08T07:56:14.747+00:00") -> 747
 ```
 
 ### dateEquals
@@ -966,13 +966,13 @@ $equals($timestamp1: string |number, $timestamp2: string |number) => boolean
 #### Basic usage
 
 ``` javascript
-$dateEquals("2023-02-08", “2023-02-08”) -> true
-$dateEquals("2023-02-08", “2023-02-07”) -> false
+$dateEquals("2023-02-08", "2023-02-08") -> true
+$dateEquals("2023-02-08", "2023-02-07") -> false
 ```
 
 ### hasSameDate
 
-Returns true if the components specified in $units of  the two timestamps are the same, false otherwise.  $units is an array with one or more strings from ['years', 'months', 'days', 'hours', 'minutes', 'seconds', 'milliseconds'].
+Returns true if the components specified in $units of  the two timestamps are the same, false otherwise.  $units is an array with one or more strings from ["years", "months", "days", "hours", "minutes", "seconds", "milliseconds"].
 
 ``` javascript
 $hasSameDate($timestamp1: string |number, $timestamp2: string |number, units?: Array<string>) => boolean
@@ -982,9 +982,9 @@ $hasSameDate($timestamp1: string |number, $timestamp2: string |number, units?: A
 
 ``` javascript
 $hasSameDate("23-02-08", "2019-02-08", ["month", "day"]) -> true
-$hasSameDate('2023-02-01', '2023-02-08', ['month', 'year']) -> true
+$hasSameDate("2023-02-01", "2023-02-08", ["month", "year"]) -> true
 $hasSameDate("23-02-01", "2023-02-08", ["month", "year"]) -> true
-$hasSameDate('2023-02-01T07:15:54.730Z', '2023-02-01T14:00:22.340Z', ['year','month', 'day']) -> true
+$hasSameDate("2023-02-01T07:15:54.730Z", "2023-02-01T14:00:22.340Z", ["year","month", "day"]) -> true
 ```
 
 ### beforeDate
@@ -998,8 +998,8 @@ $beforeDate($timestamp1: string |number, $timestamp2: string |number) => boolean
 #### Basic usage
 
 ``` javascript
-$beforeDate(“2023-02-07”, “2023-02-08”) -> true
-$beforeDate(“2023-02-08”, “2023-02-08”) -> false
+$beforeDate("2023-02-07", "2023-02-08") -> true
+$beforeDate("2023-02-08", "2023-02-08") -> false
 ```
 
 ### afterDate
@@ -1013,13 +1013,13 @@ $afterDate($timestamp1: string |number, $timestamp2: string |number) => boolean
 #### Basic usage
 
 ``` javascript
-$afterDate(“2023-02-09”, “2023-02-08”) -> true
-$afterDate(“2023-02-08”, “2023-02-08”) -> false
+$afterDate("2023-02-09", "2023-02-08") -> true
+$afterDate("2023-02-08", "2023-02-08") -> false
 ```
 
 ### datePlus
 
-Adds a duration of type $units which can be one of ['years', 'months', 'days', 'hours', 'minutes', 'seconds', 'milliseconds'],  to a $timestamp and returns the new timestamp. If $duration if less than zero, then the it will be subtracted from the $timestamp.
+Adds a duration of type $units which can be one of ["years", "months", "days", "hours", "minutes", "seconds", "milliseconds"],  to a $timestamp and returns the new timestamp. If $duration if less than zero, then the it will be subtracted from the $timestamp.
 
 ``` javascript
 $datePlus($timestamp1: string |number, $duration: number, $units, ) => number
@@ -1028,13 +1028,13 @@ $datePlus($timestamp1: string |number, $duration: number, $units, ) => number
 #### Basic usage
 
 ``` javascript
-$datePlus(“2023-02-07”, 2, “days”) -> 1675900800000
-$datePlus(“2023-02-07”, 2, “months”) -> 1680825600000
+$datePlus("2023-02-07", 2, "days") -> 1675900800000
+$datePlus("2023-02-07", 2, "months") -> 1680825600000
 ```
 
 ### diffDate
 
-Returns the difference between two timestamps in the units specified which can be one of ['years', 'months', 'days', 'hours', 'minutes', 'seconds', 'milliseconds'].
+Returns the difference between two timestamps in the units specified which can be one of ["years", "months", "days", "hours", "minutes", "seconds", "milliseconds"].
 
 ``` javascript
 $diffDate($timestamp1: string |number, $timestamp2: string |number, $units : string, ) => number
@@ -1058,8 +1058,8 @@ $fromMillis($val:number, $picture?: string) => string
 #### Basic usage
 
 ``` javascript
-$fromMillis(1521801216617, 'dd/M/yyyy') -> "23/3/2018"
-$fromMillis(1522616700000, 'E EEEE') -> "7 Sunday"
+$fromMillis(1521801216617, "dd/M/yyyy") -> "23/3/2018"
+$fromMillis(1522616700000, "E EEEE") -> "7 Sunday"
 ```
 
 ### toMillis
@@ -1074,6 +1074,6 @@ $toMillis($val:string, $picture?: string) => number
 
 ``` javascript
 $toMillis("1970-01-01T00:00:00.001Z")  -> 1
-$toMillis('2018-03-27', 'yyyy-MM-dd') -> 1522108800000
-toMillis('21 August 2017', 'dd MMMM yyyy') -> 1503273600000
+$toMillis("2018-03-27", "yyyy-MM-dd") -> 1522108800000
+toMillis("21 August 2017", "dd MMMM yyyy") -> 1503273600000
 ```

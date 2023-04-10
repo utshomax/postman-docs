@@ -74,12 +74,18 @@ button, input, optgroup, select, textarea {
     z-index: 10;
     background: rgba(0,0,0,0.7);
   }
-  
-}
-code {
- font-family: 'IBM Plex Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace !important;
 }
 
+code {
+  font-family: 'IBM Plex Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace !important;
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  background-color: #F2F2F2;
+  color: #212121;
+  padding: 0.1em;
+  border-radius: 0.3em;
+  white-space: normal;
+}
 
 h1,
 .h1,

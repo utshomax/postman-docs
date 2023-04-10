@@ -1,7 +1,6 @@
 ---
 title: "Configuring API Governance rules"
 updated: 2023-03-06
-search_keyword: "api governance, schema validation, api schema vulnerabilities"
 ---
 
 > [Configurable governance rules are available on Postman Enterprise plans.](https://www.postman.com/pricing) If you don't have an Enterprise account, you'll be able to see the API Governance page, but you won't be able to turn rules on or off or add new rules.

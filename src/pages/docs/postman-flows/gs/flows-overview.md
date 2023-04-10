@@ -1,6 +1,6 @@
 ---
 title: "Postman Flows overview"
-updated: 2023-03-22
+updated: 2023-04-03
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -17,8 +17,11 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Announcing Postman Flows Early Access"
-    url: "https://blog.postman.com/announcing-postman-flows-early-access/"
+    name: "Postman Flows: The Next Generation of Software Development"
+    url: "https://blog.postman.com/postman-flows-the-next-generation-of-software-development/"
+  - type: link
+    name: "Postman Flows Is Now More Powerful and User-Friendly"
+    url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
   - type: subtitle
     name: "Case Studies"
   - type: link
@@ -40,8 +43,7 @@ You can also deploy your flows and run them in the cloud. WebHooks enable you to
 
 ## What can you do with flows?
 
-Flows are the ultimate way to easily take data from an API-enabled product, manipulate it to meet your needs, and see the results. Or you could
-take data from one API-enabled product, make decisions or process the data, then send it to another API-enabled product. This means you can build real-time integrations between two API-enabled products.
+Flows are the ultimate way to easily take data from an API-enabled product, manipulate it to meet your needs, and see the results. Or you could take data from one API-enabled product, make decisions or process the data, then send it to another API-enabled product. This means you can build real-time integrations between two API-enabled products.
 
 Check out our Flows Workspaces filled with examples:
 
@@ -57,6 +59,10 @@ These workspaces contains example flows utilizing a multitude of APIs for differ
 
 > Postman Flows is free to use for up to three users in our Free plan. Postman Flows is available as an add-on on our [Professional plan](https://www.postman.com/pricing/).
 
+## Enabling Postman Flows
+
+To get started using Postman Flows, you'll need to assign the Flow Editor role to one or more of your team members. For more information on adding a role to a user, see [Managing team roles](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
+
 ## Quick start
 
 To get started, check out the following resources:
@@ -66,4 +72,4 @@ To get started, check out the following resources:
 
 ## Contribute
 
-Postman would love to hear what you're making with Flows, what issues you face while doing so, and what new features you'd like to see in Postman Flows. Head on over to the [discussions page](https://github.com/postmanlabs/postman-flows/discussions) to start or join a conversation.
+To submit feature requests or report bugs [create an issue on the Postman GitHub repo](https://github.com/postmanlabs/postman-app-support/issues). To ask a question or join the discussion, head over to the [Postman community](https://community.postman.com/) on Discourse.
