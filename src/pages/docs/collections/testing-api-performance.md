@@ -15,11 +15,11 @@ contextual_links:
 
 You can use the _Collection Runner_ to simulate real-world traffic and test the performance of your API. Performance testing enables you to observe how your API behaves under load and determine if performance meets expectations. It can also help you identify any issues or bottlenecks affecting performance.
 
-To configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to send to your API. Postman uses these requests to simulate the activity of your API's users. In the Collection Runner, you can set the number of virtual users to simulate and the duration of the test. You can also choose whether the number of virtual users is fixed for the duration of the test or gradually ramps up during the test.
+To configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to send to your API. Postman uses these requests to simulate the activity of your API's users. In the Collection Runner, you can set the duration of the test and the number of _virtual users_. Each virtual user simulates the behavior of a real-world user by running the collection repeatedly, in parallel with other virtual users. You can also choose whether the number of virtual users is fixed for the duration of the test or gradually ramps up during the test.
 
-When you start the test, the Collection Runner displays performance metrics in real time. You can view the average response time, error rate, and throughput. You can also view metrics for individual requests to help identify the source of any performance issues.
+The performance test runs on your computer and not in the cloud. When you start the test, the Collection Runner displays performance metrics in real time. You can view the average response time, error rate, and throughput. You can also view metrics for individual requests to help identify the source of any performance issues.
 
-> **Use the Postman desktop app to configure and run performance tests.** You can't use the Postman web app for performance testing. During a performance test, all requests are sent from the local system where you are running the Postman desktop app.
+> **Use the Postman desktop app to configure and run performance tests.** You can't use the Postman web app for performance testing. During a performance test, all requests are sent from your computer where you are running the Postman desktop app.
 
 ## Contents
 
@@ -68,12 +68,15 @@ During a performance test, all requests are sent from the local system where you
 
 You can view the following information about the performance test:
 
-* Name of the collection being run
-* Number of virtual users
-* Start and end time of the test
-* Response time (average, 95th percentile, minimum, and maximum)
-* Error rate percentage
-* Requests per second (throughput)
+* Name of the collection being run.
+* **Virtual users** -  The number of virtual users. Each virtual user simulates the behavior of a real-world user by running the collection repeatedly, in parallel with other virtual users.
+* **Start** and **End** time of the test.
+* **Avg. response time** - The response time of all requests averaged together.
+* **95th response time** - 95% of all responses are equal to or less than this response time.
+* **Min. response time** - The lowest observed response time.
+* **Max. response time** - The highest observed response time.
+* **Error rate** - The percentage of requests that result in an error. Responses other than 2xx responses are considered errors.
+* **Requests per second** - The number of requests sent each second by the performance test runner, a measure of throughput.
 
 From the performance test runner, you can take the following actions:
 
