@@ -52,7 +52,7 @@ const prefetch = async () => {
 
   if (process.env.PM_TECH_RT) {
     sh.config.silent = true;
-    pmt = sh.exec('cat build/pmt.js').stdout;
+    pmt = sh.exec('cat build/pmt.js').stdout.split('\n').shift();
     sh.config.silent = false;
 
     sh.exec('mkdir -p public');
