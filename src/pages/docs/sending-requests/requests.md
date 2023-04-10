@@ -83,7 +83,7 @@ If you have never sent a request before, check out [sending your first request](
 
 Your requests can include multiple details determining the data Postman will send to the API you are working with. Enter a URL and choose a method, then optionally specify a variety of other details.
 
-You can create a new request from the Postman home screen, by using **New > HTTP Request**, or by selecting **+** to open a new tab.
+You can create a new request from a workspace, by using **New > HTTP Request**, or by selecting **+** to open a new tab.
 
 ![Create New Screen](https://assets.postman.com/postman-docs/v10/new-request-v10.jpg)
 
@@ -98,8 +98,6 @@ Once your new tab is open, you can specify the details you need for your request
 If you have a request you want to run, you will need to know the URL, method, and other optional values such as auth and parameters.
 
 To test sending a request in Postman, you can set the URL to the Postman Echo sample API endpoint `https://postman-echo.com/get` and the method to `GET`, then select __Send__.
-
-> Open the __Bootcamp__ in Postman and follow __Designing and mocking APIs__ to import some requests you can use for exploring Postman.
 
 ### Setting request URLs
 

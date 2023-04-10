@@ -1,6 +1,6 @@
 ---
 title: "Using WebSocket requests"
-page_id: "websocket"
+updated: 2022-08-02
 search_keyword: "WebSocket, websockets, WebSocket requests, Socket.IO"
 contextual_links:
   - type: section
@@ -15,6 +15,9 @@ contextual_links:
   - type: link
     name: "WebSocket Requests | Postman Level Up"
     url: "https://youtu.be/H-7EZVj9D-k"
+  - type: link
+    name: "Set Up a WebSockets Server in Node.js"
+    url: "https://youtu.be/e__oWJ4wNtw"
   - type: subtitle
     name: "Blog posts"
   - type: link

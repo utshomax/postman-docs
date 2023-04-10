@@ -43,8 +43,6 @@ To manage public elements, you need to have a Community Manager role in a Postma
 
 To access the **Manage public elements** dashboard, select **Team** in the header, then select **Manage Public Elements**.
 
-> You can also access this dashboard from the **Home** page. Go to the **Manage public elements** section and select **Manage** to go to the dashboard view.
-
 #### Workspaces
 
 In the dashboard's **Workspaces** tab, you have access to all the public workspaces created by your team. You can also view and respond to requests to make workspaces public. Along with workspace name, the request date and the requester details are displayed.

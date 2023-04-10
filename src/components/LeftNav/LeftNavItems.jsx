@@ -55,7 +55,7 @@ export const leftNavItems = [
     subMenuItems1: [
       {
         name: 'Getting started',
-        url: '/docs/getting-started/overview',
+        url: '/docs/getting-started/overview/',
       },
       {
         name: 'Installing and updating Postman',
@@ -355,6 +355,29 @@ export const leftNavItems = [
         ],
       },
       {
+        name: "Using Live Collections",
+        subParentSlug: 'live-collections',
+        slug: '/docs/collections/live-collections/live-collections-overview/',
+        subMenuItems2: [
+          {
+            name: 'Live Collection overview',
+            url: '/docs/collections/live-collections/live-collections-overview/',
+          },
+          {
+            name: 'Live Collection setup',
+            url: '/docs/collections/live-collections/live-collections-setup/',
+          },
+          {
+            name: 'Updating Live Collections',
+            url: '/docs/collections/live-collections/update-live-collections/',
+          },
+          {
+            name: 'Live Collection settings',
+            url: '/docs/collections/live-collections/live-collections-settings/',
+          },
+        ],
+      },
+      {
         name: 'Using Newman CLI',
         subParentSlug: 'using-newman-cli',
         slug: '/docs/collections/using-newman-cli/command-line-integration-with-newman/',
@@ -414,6 +437,10 @@ export const leftNavItems = [
             url: '/docs/postman-flows/gs/flows-overview/',
           },
           {
+            name: 'About blocks and messages',
+            url: '/docs/postman-flows/gs/blocks-information/',
+          },
+          {
             name: 'The Postman Flows interface',
             url: '/docs/postman-flows/gs/the-interface/',
           },
@@ -448,6 +475,10 @@ export const leftNavItems = [
             name: 'Using webhooks with Postman Flows',
             url: '/docs/postman-flows/tutorials/webhooks/',
           },
+          {
+            name: 'Creating charts, tables, and output',
+            url: '/docs/postman-flows/tutorials/creating-charts-tables-and-output/',
+          },
         ],
       },
       {
@@ -476,7 +507,7 @@ export const leftNavItems = [
             url: '/docs/postman-flows/flows-query-language/data-manipulation/',
           },
           {
-            name: 'Function reference',
+            name: 'FQL function reference',
             url: '/docs/postman-flows/flows-query-language/function-reference/',
           },
         ],
@@ -627,6 +658,30 @@ export const leftNavItems = [
           },
         ],
       },
+      {
+        name: 'Sharing to the Public API Network',
+        subParentSlug: 'public-api-network',
+        slug: '/docs/collaborating-in-postman/public-api-network/public-api-network-overview/',
+        subMenuItems2: [
+          {
+            name: 'Public API Network overview',
+            url: '/docs/collaborating-in-postman/public-api-network/public-api-network-overview/'
+          },
+          {
+            name: 'Organizing your public workspace',
+            url: '/docs/collaborating-in-postman/public-api-network/organizing-your-workspace/',
+          },
+          {
+            name: 'Sharing your public workspace',
+            url: '/docs/collaborating-in-postman/public-api-network/sharing-your-workspace/',
+          },
+          {
+            name: 'Syncing APIs with your public workspace',
+            url: '/docs/collaborating-in-postman/public-api-network/sync-api-with-workspace/',
+          },
+        ],
+      },
+
     ],
   },
   {
@@ -827,10 +882,6 @@ export const leftNavItems = [
         url: '/docs/monitoring-your-api/intro-monitors/',
       },
       {
-        name: 'Monitoring API uptime',
-        url: '/docs/monitoring-your-api/uptime-monitors/',
-      },
-      {
         name: 'Setting up a collection-based monitor',
         url: '/docs/monitoring-your-api/setting-up-monitor/',
       },
@@ -853,6 +904,10 @@ export const leftNavItems = [
       {
         name: 'Monitoring FAQs',
         url: '/docs/monitoring-your-api/faqs-monitors/',
+      },
+      {
+        name: 'Monitoring API uptime',
+        url: '/docs/monitoring-your-api/uptime-monitors/',
       },
     ],
   },
@@ -947,7 +1002,7 @@ export const leftNavItems = [
             url: '/docs/administration/managing-your-team/user-groups/',
           },
           {
-            name: 'Configuring domain capture',
+            name: 'Configuring domain verification and capture',
             url: '/docs/administration/managing-your-team/configuring-domain-capture/',
           },
         ],
@@ -1012,6 +1067,10 @@ export const leftNavItems = [
           {
             name: 'Azure AD',
             url: '/docs/administration/sso/azure-ad/',
+          },
+          {
+            name: 'Custom SAML',
+            url: '/docs/administration/sso/custom-saml/',
           },
           {
             name: 'Duo',
@@ -1122,7 +1181,22 @@ export const leftNavItems = [
       },
       {
         name: 'Postman API',
-        url: '/docs/developer/intro-api/',
+        subParentSlug: 'postman-api',
+        slug: '/docs/developer/postman-api/intro-api/',
+        subMenuItems2: [
+          {
+            name: 'Postman API overview',
+            url: '/docs/developer/postman-api/intro-api/'
+          },
+          {
+            name: 'Postman API authentication',
+            url: '/docs/developer/postman-api/authentication/'
+          },
+          {
+            name: 'Postman API rate limits',
+            url: '/docs/developer/postman-api/postman-api-rate-limits/'
+          }
+        ]
       },
       {
         name: 'Echo API',
