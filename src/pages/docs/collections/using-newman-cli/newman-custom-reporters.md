@@ -1,7 +1,6 @@
 ---
 title: "Using Newman custom reporters"
 updated: 2022-05-23
-search_keyword: "newman run"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -26,8 +25,8 @@ contextual_links:
   - type: section
     name: "Next steps"
   - type: link
-    name: "Intro to the Postman API"
-    url: "/docs/developer/intro-api/"
+    name: "Postman API overview"
+    url: "/docs/developer/postman-api/intro-api/"
 
 warning: false
 ---
