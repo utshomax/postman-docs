@@ -50,41 +50,61 @@ The examples below use this JSON data:
 
 To access a top-level field with FQL, enter the field's name.
 
-### FQL
-
-``` javascript
-name
-```
-
-<br/>
-
-### Result
-
-``` json
-"John Smith"
-```
+<table  class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>name</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>"John Smith"</td>
+</tr>
+</tbody>
+</table>
 
 ## Get a nested field
 
 To access fields below the top level, use field names separated by dot `.` delimiters.
 
-### FQL
-
-``` javascript
-address.city
-```
-
-<br/>
-
-### Result
-
-``` json
-"Atlanta"
-```
+<table  class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>address.city</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>"Atlanta"</td>
+</tr>
+</tbody>
+</table>
 
 ## Get an entire object
 
 Enter the name of an object in the JSON file to retrieve all the data within that object.
+
+<table  class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>address</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>
+    <pre>
+{
+    "street": "123 Park Avenue",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "12345"
+}
+    </pre>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### FQL
 
