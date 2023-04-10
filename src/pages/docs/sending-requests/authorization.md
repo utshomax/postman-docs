@@ -323,9 +323,10 @@ Select **Advanced Options** to customize the token:
 
 * **Refresh Token URL** - The endpoint for the refresh server, to exchange the refresh token for an access token. If empty, the refresh token URL will be the same as the access token URL.
 * **Auth Request**, **Token Request**, and **Refresh Request** - Define any custom parameters you want to send with auth requests, token requests, or refresh requests. For each key-value pair you define, select an option to send the parameter in the request body, request URL, or request headers.
+    * If you add multiple keys with same key name, they will be sent with the request as an array.
     * If you added resource or audience URIs in a previous version of Postman, you can import them as custom parameters. Select the **Audience and Resource** tab to review the resources and audiences, then select **Move Audience and Resource**. For all grant types except implicit, the parameters are added to the token request. For implicit grant types, the parameters are added to the auth request.
 
-When the configuration is complete, select __Get New Access Token__.
+When the configuration is complete, select __Get New Access Token__. The configuration information is saved along with the access token and will be used every time the token is refreshed.
 
 > When you use __Authorization code__ or __Implicit__ grant type, you will be prompted to supply your credentials to retrieve an access token to use in later requests. By default Postman will display a pop-up window when you select __Request Token__. If you are using the Postman desktop app, you can instead choose to authenticate using your system's default web browser. Select __Authorize using browser__ to set the __Callback URL__ to return to Postman after you complete auth in the browser, so that your requests can use the token returned on successful authentication.
 
