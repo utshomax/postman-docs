@@ -172,7 +172,7 @@ postman api publish 123456a1-a123-1a1a-1a12-a1a1a123ab12 --name v1\
 | Option | Details |
 |:--|:--|
 | `--name <versionName>` | Specifies the name of the version to publish. |
-| `--releaseNotes <releaseNotes>` | Specifies release notes for the version to publish. |
+| `--releaseNotes <path to releaseNotes>` | Specifies the path to a local release notes file for the version to publish. |
 | `--collections <collectionPaths/collectionIDs...>` | Specifies the collections to publish. If the API is linked with git, provide the `filePath` instead of the ID. Default is `[]`. |
 | `--apiDefinition <schemaDirectoryPath/apiDefinitionID>` | Specifies the API definition to publish. If the API is linked with git, provide the `schemaDirectoryPath` instead of the ID. Default is `""`. |
 | `--suppress-exit-code, -x` | Specifies whether to override the default exit code for the current run. |
