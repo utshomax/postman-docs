@@ -83,7 +83,7 @@ If you have never sent a request before, check out [sending your first request](
 
 Your requests can include multiple details determining the data Postman will send to the API you are working with. Enter a URL and choose a method, then optionally specify a variety of other details.
 
-You can create a new request from the Postman home screen, by using **New > HTTP Request**, or by selecting **+** to open a new tab.
+You can create a new request from a workspace, by using **New > HTTP Request**, or by selecting **+** to open a new tab.
 
 ![Create New Screen](https://assets.postman.com/postman-docs/v10/new-request-v10.jpg)
 
