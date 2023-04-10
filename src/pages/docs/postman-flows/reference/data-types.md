@@ -39,8 +39,8 @@ The _boolean_ value gets automatically converted to a _number_ or a _string_ if 
 
 | value   | number | string    |
 | ------- | ------ | --------- |
-| `true`  | `1`    | `'true'`  |
-| `false` | `0`    | `'false'` |
+| `true`  | `1`    | `"true"`  |
+| `false` | `0`    | `"false"` |
 
 ### String
 
@@ -62,8 +62,8 @@ A _number_ value gets automatically converted to a _string_ or _boolean_ if requ
 
 | value  | boolean | string   |
 | ------ | ------- | -------- |
-| `0`    | false   | `'0'`    |
-| `3.14` | true    | `'3.14'` |
+| `0`    | false   | `"0"`    |
+| `3.14` | true    | `"3.14"` |
 
 ### Timestamp
 
@@ -73,7 +73,7 @@ A _timestamp_ value is automatically converted to a _string_ or _number_ if requ
 
 | value                     | string                      | number         |
 | ------------------------- | --------------------------- | -------------- |
-| `1985-04-12T23:20:50.52Z` | `'1985-04-12T23:20:50.52Z'` | `482196050520` |
+| `1985-04-12T23:20:50.52Z` | `"1985-04-12T23:20:50.52Z"` | `482196050520` |
 
 ### Regex
 
@@ -83,7 +83,7 @@ A _regex_ value is automatically converted to a _string_ if required.
 
 | value  | string   |
 | ------ | -------- |
-| `/$^/` | `'/$^/'` |
+| `/$^/` | `"/$^/"` |
 
 ## Abstract types
 
@@ -133,5 +133,5 @@ corresponding value can be of any data type. All map fields must have keys and v
 This is a TypeScript equivalent of a map:
 
 ```ts
-type map: {[key: string]: number} = {'a': 1, 'b': 2, 'c': 3};
+type map: {[key: string]: number} = {"a": 1, "b": 2, "c": 3};
 ```
