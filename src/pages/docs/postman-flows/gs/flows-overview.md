@@ -72,4 +72,4 @@ To get started, check out the following resources:
 
 ## Contribute
 
-Postman would love to hear what you're making with Flows, what issues you face while doing so, and what new features you'd like to see in Postman Flows. Head on over to the [discussions page](https://github.com/postmanlabs/postman-flows/discussions) to start or join a conversation.
+To submit feature requests or report bugs [create an issue on the Postman GitHub repo](https://github.com/postmanlabs/postman-app-support/issues). To ask a question or join the discussion, head over to the [Postman community](https://community.postman.com/) on Discourse.
