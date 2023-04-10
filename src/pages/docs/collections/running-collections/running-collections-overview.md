@@ -25,4 +25,5 @@ In Postman, a [collection](/docs/getting-started/creating-the-first-collection/)
 * You can run collections frequently in an automated way by scheduling collection runs or by setting up monitors. [Scheduled collection runs](/docs/collections/running-collections/scheduling-collection-runs) are useful for automating testing, and [monitors](/docs/collections/running-collections/scheduling-collection-runs-monitors) are useful for checking performance, availability, and reliability.
 * You can automate collection runs in your CI/CD with the [Postman CLI](/docs/postman-cli/postman-cli-overview/) or [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/).
 * You can use [webhooks](/docs/collections/running-collections/collection-webhooks/) to trigger collection runs at certain times or when a specific event happens in your application.
-* You can run collections to simulate real world traffic and [test the performance of your API](/docs/collections/running-collections/testing-api-performance/) under load.
+
+> You can also run collections to simulate real world traffic and [test the performance of your API](/docs/collections/testing-api-performance/) under load.

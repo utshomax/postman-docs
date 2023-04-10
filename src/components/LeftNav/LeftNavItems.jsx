@@ -337,10 +337,6 @@ export const leftNavItems = [
             url: '/docs/collections/running-collections/viewing-scheduled-collection-runs/',
           },
           {
-            name: 'Testing API Performance',
-            url: '/docs/collections/running-collections/testing-api-performance/',
-          },
-          {
             name: 'Scheduling collection runs with monitors',
             url: '/docs/collections/running-collections/scheduling-collection-runs-monitors/',
           },
@@ -357,6 +353,10 @@ export const leftNavItems = [
             url: '/docs/collections/running-collections/working-with-data-files/',
           },
         ],
+      },
+      {
+        name: 'Testing API Performance',
+        url: '/docs/collections/testing-api-performance/',
       },
       {
         name: "Using Live Collections",
