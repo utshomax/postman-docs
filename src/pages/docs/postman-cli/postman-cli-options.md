@@ -162,9 +162,9 @@ Publish a snapshot of an API for the given `apiId`. All entities linked to the A
 #### Example
 
 ```plaintext
-postman api publish 150912d7-c773-4e1f-8b17-d5f2f727da45 --name v1\
---collections 123456-45159473-1e45-1f34-5678-1234567890ab 123456-80484827-2365-6g78-0988-9094801883hg\
---apiDefinition a201830a-b36f-4633-a93e-31addd84bc5e
+postman api publish 123456a1-a123-1a1a-1a12-a1a1a123ab12 --name v1\
+--collections 123456-12345678-1a23-1a23-1234-1234567890ab 123456-12345678-1234-1a12-1234-1234567890ab\
+--apiDefinition a123456a-a12a-1234-a12a-12abcd12ab1a
 ```
 
 #### Options
@@ -173,6 +173,6 @@ postman api publish 150912d7-c773-4e1f-8b17-d5f2f727da45 --name v1\
 |:--|:--|
 | `--name <versionName>` | Specifies the name of the version to publish. |
 | `--releaseNotes <releaseNotes>` | Specifies release notes for the version to publish. |
-| `--collections <collectionPaths/collectionIDs...>` | Specifies the collections to publish. If the API is gitLinked, provide the `filePath` instead of the ID. Default is `[]`. |
-| `--apiDefinition <schemaDirectoryPath/apiDefinitionID>` | Specifies the API definition to publish. If the API is gitLinked, provide the `schemaDirectoryPath` instead of the ID. Default is `""`. |
+| `--collections <collectionPaths/collectionIDs...>` | Specifies the collections to publish. If the API is linked with git, provide the `filePath` instead of the ID. Default is `[]`. |
+| `--apiDefinition <schemaDirectoryPath/apiDefinitionID>` | Specifies the API definition to publish. If the API is linked with git, provide the `schemaDirectoryPath` instead of the ID. Default is `""`. |
 | `--suppress-exit-code, -x` | Specifies whether to override the default exit code for the current run. |
