@@ -39,9 +39,9 @@ Postman provides a variety of options to customize your team's experience, from 
     * [Managing invites](#managing-invites)
     * [Removing team members](#removing-team-members)
     * [Managing team roles](#managing-team-roles)
-        * [Managing super admins](#managing-super-admins)
-    * [Managing partners](#managing-partners)
-    * [Managing guests](#managing-guests)
+        * [Managing Super Admins](#managing-super-admins)
+    * [Managing Partners](#managing-partners)
+    * [Managing Guests](#managing-guests)
 * [Managing your team’s Postman plan](#managing-your-teams-postman-plan)
     * [Changing team size](#changing-team-size)
     * [Upgrading your plan](#upgrading-your-plan)
@@ -151,13 +151,13 @@ Regular Team Admins cannot remove Super Admins from a team or remove their Super
 
 It's recommended that you create a service user that isn't tied to any individual and assign that user the Super Admin role. By doing so, your team can avoid the risk of a disruption in services due to an actual user leaving your company and ensure that your team's management is able to sign in to the service account when needed.
 
-### Managing partners
+### Managing Partners
 
 > **[Partners are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 You can manage external partners similarly to internal team members. To learn more, see [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
 
-### Managing guests
+### Managing Guests
 
 You can manage external users who have permission to view specific collections and send requests in the collections. External users with these permissions are assigned the [Guest role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). A [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can change an external user's role to the Developer role by going to your [team dashboard](https://go.postman.co/settings/team/members) and selecting **Convert**. When you change an external user's role from the Guest role to the Developer role, they are added to the team and get access to all team resources and workspaces.
 
