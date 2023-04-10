@@ -10,7 +10,7 @@ jobs:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@master
       with:
-        node-version: '14'
+        node-version: '18'
     - name: lint all markdownfiles
       env:
         PM_TECH_RT: ${{secrets.PM_TECH_RT}}

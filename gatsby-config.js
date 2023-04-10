@@ -113,13 +113,14 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-gdpr-cookies',
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        googleAnalytics: {
-          trackingId: 'UA-43979731-4',
-          anonymize: true,
-        },
-        environments: ['production', 'development'],
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "UA-43979731-4",
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: false,
+        // Setting this parameter is optional
+        anonymize: true
       },
     },
     {
@@ -137,17 +138,17 @@ module.exports = {
         }
       }
     },
-    {
-      resolve: 'gatsby-plugin-algolia',
-      options: {
-        appId: process.env.GATSBY_ALGOLIA_APP_ID,
-        apiKey: process.env.ALGOLIA_ADMIN_KEY,
-        queries,
-        chunkSize: 10000, // default: 1000
-        enablePartialUpdates: true, // only index new, changed, deleted records
-        matchFields: ['excerpt', 'contextual_links', 'search_keyword', 'headings', 'fields', 'modified'],
-        concurrentQueries: false,
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-algolia',
+    //   options: {
+    //     appId: process.env.GATSBY_ALGOLIA_APP_ID,
+    //     apiKey: process.env.ALGOLIA_ADMIN_KEY,
+    //     queries,
+    //     chunkSize: 10000, // default: 1000
+    //     enablePartialUpdates: true, // only index new, changed, deleted records
+    //     matchFields: ['excerpt', 'contextual_links', 'search_keyword', 'headings', 'fields', 'modified'],
+    //     concurrentQueries: false,
+    //   },
+    // },
   ],
 };
