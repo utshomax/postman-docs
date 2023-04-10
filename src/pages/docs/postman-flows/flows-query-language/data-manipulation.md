@@ -357,22 +357,6 @@ $join(customer_info.associated_usernames)
 
 In the example below, the `$replace()` function finds the instances of `recurring` in the first parameter string and replaces them with `renewing`, limited to the first instance found (optionally specified with the `1`). You could also use a regex instead of `recurring`.
 
-### FQL
-
-``` javascript
-$replace(payments[0].description,"recurring", "renewing", 1)
-```
-
-### Result
-
-``` json
-"renewing subscription"
-```
-
-## Base64 encode a string
-
-The `$base64encode()` function converts a string to base64 encoding. The example below converts the string `"some data here"` into `"c29tZSBkYXRhIGhlcmU="`.
-
 <table class="code-ref-table">
 <tbody>
 <tr>
@@ -385,6 +369,27 @@ $replace(payments[0].description,"recurring", "renewing", 1)
 <td>Result</td>
 <td>
 "renewing subscription"
+</td>
+</tr>
+</tbody>
+</table>
+
+## Base64 encode a string
+
+The `$base64encode()` function converts a string to base64 encoding. The example below converts the string `"some data here"` into `"c29tZSBkYXRhIGhlcmU="`.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>
+$base64encode("some data here")
+</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>
+"c29tZSBkYXRhIGhlcmU="
 </td>
 </tr>
 </tbody>
@@ -503,9 +508,7 @@ The `$ceil()` function rounds a number up to the next whole number.
 <tbody>
 <tr>
 <td>FQL</td>
-<td>
-$ceil(3.45)
-</td>
+<td>$ceil(3.45)</td>
 </tr>
 <tr>
 <td>Result</td>
@@ -566,15 +569,11 @@ The `$sqrt()` function returns the square root of a number.
 <tbody>
 <tr>
 <td>FQL</td>
-<td>
-$sqrt(9)
-</td>
+<td>$sqrt(9)</td>
 </tr>
 <tr>
 <td>Result</td>
-<td>
-3
-</td>
+<td>3</td>
 </tr>
 </tbody>
 </table>
@@ -962,129 +961,171 @@ $diffDate("2023-02-08", "2023-01-22", "days")
 
 The `$append()` function can combine two arrays, an array and a single value, or two strings into an array.
 
-### FQL
-
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>
 $append([1,2,3], [4,5,6])
-```
-
-### Result
-
-``` json
+</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>
 [1,2,3,4,5,6]
-```
+</td>
+</tr>
+</tbody>
+</table>
 
 ## If-then-else
 
 The `$boolean` value is a true/false test. The second value is the output for true and the final value is the output for false. The example below tests if the `total_value` field's value is greater than 250. Since the value is greater than 250, the function returns "high-value customer".
 
-### FQL
-
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>
 $boolean(customer_info.total_value > 250) ? "high-value customer" : "not a high-value customer"
-```
-
-### Result
-
-``` json
+</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>
 "high-value customer"
-```
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Partition an array
 
 The `$partition()` function breaks an array up into smaller arrays and returns the smaller arrays as a list.
 
-### FQL
-
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>
 $partition(payments,2)
-```
-
-### Result
-
-``` json
+</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>
+<pre>
 [
  [{"invoice_number": "101301","date": "2022-09-11T16:12:34.494Z","description": "recurring subscription","amount": 110.48},{"invoice_number": "101302","date": "2022-09-29T14:45:13.148Z","description": "one time purchase","amount": 24.49}],
  [{"invoice_number": "101303","date": "2022-10-11T16:12:34.683Z","description": "recurring subscription","amount": 110.48},{"invoice_number": "101304","date": "2022-10-12T11:45:22.182Z","description": "recurring subscription deluxe","amount": 35.56}]
 ]
-```
+</pre>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Perform an action on each value in an array
 
 In this example, the `$map()` function gets the numerical values from the `amount` fields in the `payments` array and converts them to strings with the `$string()` function.
 
-### FQL
-
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>
 $map(input.payments[].amount,$string)
-```
-
-### Result
-
-``` json
-["110.48", "24.49", "110.48", "35.56"]
-```
+</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>
+$map(input.payments[].amount,$string)
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Filter for values
 
 In this example, the `$filter()` function returns values greater than 40 from `amount` fields in the `payments` array.
 
-### FQL
-
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>
 $filter(input.payments[].amount,fn($v,$i,$a) { $v > 40})
-```
-
-### Result
-
-``` json
+</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>
 [110.48, 110.48]
-```
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Collapse an array to a single value
 
 The `reduce()` function applies a function to every element in the array. In this example, it adds all the elements of the array together.
 
-### FQL
-
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>
 $reduce(input.payments[].amount,fn($i, $j){$i + $j})
-```
-
-### Result
-
-``` json
+</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>
 281.01
-```
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Sort an array
 
 The `$sort()` function sorts an array by the function specified where `$j` is the current item and `$i` is the next item.
 
-### FQL
-
-``` javascript
-$sort(input.payments[].amount,fn($i, $j){$i < $j})
-```
-
-### Result
-
-``` json
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>
+$sort(input.payments[].amount,fn($i, $j){$i &lt; $j})
+</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>
 [110.48, 110.48, 35.56, 24.49]
-```
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Perform an action on each value in an object
 
 In this example, the `$each()` function converts every string value in an object to uppercase.
 
-### FQL
-
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>
 $each({"transaction_id": "inv_80394", "description": "buying 20 units of data"},$uppercase)
-```
-
-### Result
-
-``` json
+</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>
 ["INV_80394", "BUYING 20 UNITS OF DATA"]
-```
+</td>
+</tr>
+</tbody>
+</table>
