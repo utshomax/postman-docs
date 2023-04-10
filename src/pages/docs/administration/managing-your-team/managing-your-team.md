@@ -139,7 +139,7 @@ Teams can have two support accounts at no extra cost. Support accounts are team 
 
 For full details about the Postman team roles that you can assign as a Team Admin, see [Team roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). Some roles are only available for teams with [Postman Professional or Enterprise](https://www.postman.com/pricing) plans.
 
-#### Managing super admins
+#### Managing Super Admins
 
 > **[Super Admins are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
