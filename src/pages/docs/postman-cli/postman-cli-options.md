@@ -157,7 +157,7 @@ You can [publish API versions](/docs/designing-and-developing-your-api/versionin
 
 ### postman publish api
 
-Publish a snapshot of an API for the given apiId. All entities linked to the API will be published by default. You can choose which entities to publish by using additional options.
+Publish a snapshot of an API for the given `apiId`. All entities linked to the API will be published by default. You can choose which entities to publish by using additional options.
 
 #### Example
 
