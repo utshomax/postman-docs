@@ -330,7 +330,7 @@ export const NavStyles = styled.nav`
        right: 0;
        left: 0;
        width: 100%;
-       top: 49px;
+       top: 45px;
        background-color: ${(props) => props.theme.colors.grey_00};
        padding: 0 16px 32px 16px;
        -webkit-transition: all 0.2s ease;
@@ -537,6 +537,7 @@ export const DropdownStylesSecond = styled.div`
   }
   .dropdown-item-text-wrap {
     white-space: normal;
+    color: #707070;
   }
   .dropdown-item:active {
     background-color: #F9F9F9;
