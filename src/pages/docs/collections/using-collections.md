@@ -1,6 +1,6 @@
 ---
 title: "Using collections"
-updated: 2023-03-01
+updated: 2023-04-10
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -30,15 +30,13 @@ contextual_links:
   - type: link
     name: "Using the Collection Runner"
     url: "/docs/collections/running-collections/intro-to-collection-runs/"
-
-warning: false
 ---
 
 You can group your Postman requests and examples into collections to keep your workspace organized, to collaborate with teammates, to generate API documentation and API tests, and to automate request runs.
 
 Select **Collections** in the sidebar for the list of collections in a workspace.
 
-<img alt="" src="https://assets.postman.com/postman-docs/collections-overview.jpg" width="300px"/>
+<img alt="" src="https://assets.postman.com/postman-docs/v10/collections-overview-v10.jpg" width="300px"/>
 
 ## Contents
 
@@ -70,7 +68,7 @@ There are several ways to create a new collection:
 
 * Select **Collections** in the sidebar, then select **+**.
 
-    <img alt="Create new collection" src="https://assets.postman.com/postman-docs/new-collection.jpg" width="300px"/>
+    <img alt="Create new collection" src="https://assets.postman.com/postman-docs/v10/new-collection-v10.jpg" width="300px"/>
 
 * Select **New**, then select **Collection**.
 * With **Collections** open in the left sidebar, select **+**.
@@ -81,12 +79,15 @@ To customize and configure a new collection, do the following:
 
 1. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to give your new collection a name.
 1. You can optionally specify a [description](/docs/publishing-your-api/authoring-your-documentation/) for your collection. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px">, then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to write your description. This description will appear in its documentation and in the workspace when anyone opens it.
+
+    > You can also select **Overview** to specify and view the description for your collection.
+
 1. Select **Authorization** to configure authorization details for the collection.
 1. Select **Pre-request Script** to define a [pre-request script](/docs/writing-scripts/pre-request-scripts/) for your collection, which will run before requests are sent to the server.
 1. Select **Tests** to define a [test script](/docs/writing-scripts/test-scripts/) for your collection, which will run after a response is received.
 1. Select **Variables** to define values for [collection variables](/docs/sending-requests/variables/) to share across all requests in the collection.
 
-[![Edit collection details](https://assets.postman.com/postman-docs/collection-details.jpg)](https://assets.postman.com/postman-docs/collection-details.jpg)
+![Edit collection details](https://assets.postman.com/postman-docs/v10/collection-details-v10.jpg)
 
 ## Adding requests to a collection
 
@@ -99,7 +100,7 @@ To move an existing request to a different collection, do the following:
 1. Select the request you want to move.
 1. Drag the request into the desired collection.
 
-> Alternatively, open the request and select **Save As**, then choose the collection you want to move it to.
+> Alternatively, open the request and select **Save As**, then choose the collection you want to copy it to.
 
 To move more than one request to a different collection, do the following:
 
@@ -117,7 +118,7 @@ To move more than one request to a different collection, do the following:
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name.
 1. Select **Add Request** from the actions menu.
 
-    <img alt="Add request to folder" src="https://assets.postman.com/postman-docs/collection-menu-v9.jpg" width="350px"/>
+    <img alt="Add request to folder" src="https://assets.postman.com/postman-docs/v10/collection-menu-v10.jpg" width="350px"/>
 
 > Alternatively, select **New**, and then select **Request**.
 
@@ -131,9 +132,9 @@ Select the collection, then select **Add a request**.
 
 1. Select **History** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the request you want to save.
-1. Select **Save Request**.
+1. Select **Save request**.
 
-    <img alt="Save request from history" src="https://assets.postman.com/postman-docs/save-history-v9.jpg" width="350px"/>
+    <img alt="Save request from history" src="https://assets.postman.com/postman-docs/v10/save-history-v10.jpg" width="350px"/>
 
 1. Choose the collection to add the request to, then select **Save**.
 
@@ -204,7 +205,7 @@ To watch a collection, do the following:
 
 1. Select the watch icon <img alt="Watch icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> to start watching the collection.
 
-![Collection watching](https://assets.postman.com/postman-docs/collection-watching-overview-v9.12.jpg)
+![Collection watching](https://assets.postman.com/postman-docs/v10/collection-watching-overview-v10.jpg)
 
 To view notifications about what has changed in a collection you watch, do the following:
 

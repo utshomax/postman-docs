@@ -85,7 +85,7 @@ Your requests can include multiple details determining the data Postman will sen
 
 You can create a new request from a workspace, by using **New > HTTP Request**, or by selecting **+** to open a new tab.
 
-![Create New Screen](https://assets.postman.com/postman-docs/v10/new-request-v10.jpg)
+![Create New Screen](https://assets.postman.com/postman-docs/v10/new-request-v10-2.jpg)
 
 Select **Save** to create your request. You can give your request a name and description, and choose or create a collection to save it in.
 
