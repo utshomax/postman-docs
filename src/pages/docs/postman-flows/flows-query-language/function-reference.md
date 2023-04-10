@@ -18,89 +18,135 @@ All [Flows Query Language](/docs/postman-flows/flows-query-language/introduction
 
 Throws an error with the message if a condition is false.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $assert($cond: bool, $msg: string) => error
-```
-
-#### Basic usage
-
-``` javascript
-$assert(user.age <18, "error:  user cannot vote!")
-```
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$assert(user.age &lt;18, "error:  user cannot vote!")
+</td>
+</tr>
+</tbody>
+</table>
 
 ### average
 
 Returns the average value of a numeric array.
 
-``` javascript
-$average($array: array<num>) => number
-```
-
-#### Basic usage
-
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$average($array: array&lt;num&gt;) =&lt; number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
 $average([1,2,3,4,5]) -> 3
-```
+</td>
+</tr>
+</tbody>
+</table>
 
 ### boolean
 
 Casts an argument to its effective boolean value.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $boolean($arg: any) => bool
-```
-
-#### Basic usage
-
-``` javascript
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+<pre>
 $boolean(0) ->  false
 $boolean(10) ->  true
 $boolean("") ->  false
 $boolean("abc") ->  true
-```
+</pre>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### contains
 
 Returns true if a string contains a pattern.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $contains($str: string, $pattern: string | regex) => bool
-```
-
-#### Basic usage
-
-``` javascript
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+<pre>
 $contains("hello, world", "lo") -> true
 $contains("hello world", "ab") -> false
-```
+</pre>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### decodeUrl
 
 Decodes string from a URL.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $decodeUrl($val: string) => string
-```
-
-#### Basic usage
-
-``` javascript
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
 $decodeUrl("https://mozilla.org/?x=%D1%88%D0%B5%D0%BB%D0%BB%D1%8B") -> "https://mozilla.org/?x=шеллы"
-```
+</td>
+</tr>
+</tbody>
+</table>
 
 ### decodeUrlComponent
 
 Decodes a string from a component previously created with `encodeUrlComponent`.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $decodeUrlComponent($val: string) => string
-```
-
-#### Basic usage
-
-``` javascript
-$decodeUrlComponent("%3Fx%3Dtest") -> "?x=test"
-```
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$decodeUrlComponent("&percnt;3Fx&percnt;3Dtest") -> "?x=test"
+</td>
+</tr>
+</tbody>
+</table>
 
 ### each
 
