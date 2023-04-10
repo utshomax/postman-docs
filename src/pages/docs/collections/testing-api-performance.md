@@ -46,7 +46,7 @@ To configure a performance test in the Postman desktop app, do the following:
 1. Select the **Performance** tab.
 1. Enter the number of **Virtual users**. While the test is running, Postman repeatedly runs the collection for each virtual user. A higher number of virtual users puts increased load on your API.
 
-    > The maximum number of virtual users you can use depends on the CPU and memory available on the local system where you are running the performance test.
+    > The maximum number of virtual users you can use depends on the CPU and memory available on the computer where you are running the performance test.
 
 1. Enter the **Test duration** in minutes.
 1. Select a **Load Profile**.
@@ -62,7 +62,7 @@ To configure a performance test in the Postman desktop app, do the following:
 
 ## Viewing performance metrics
 
-During a performance test, all requests are sent from the local system where you are running the Postman desktop app. The performance test runner displays performance metrics in real time so you can observe how your API performs under load.
+During a performance test, all requests are sent from your computer where you are running the Postman desktop app. The performance test runner displays performance metrics in real time so you can observe how your API performs under load.
 
 <img alt="Viewing performance metrics" src="https://assets.postman.com/postman-docs/v10/performance-test-graph-v10-xx.jpg"/>
 
