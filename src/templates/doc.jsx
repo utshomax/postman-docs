@@ -1,14 +1,13 @@
 /* eslint-disable react/no-danger */
 import React, { useState, useEffect } from 'react';
 import { graphql } from 'gatsby';
-
+import { v4 as uuidv4 } from 'uuid';
 import Layout from '../components/layout';
 import ContextualLinks from '../components/ContextualLinks/ContextualLinks';
 import EditDoc from '../components/Shared/EditDoc';
 import { leftNavItems } from '../components/LeftNav/LeftNavItems';
 import LeftNav from '../components/LeftNav/LeftNav';
 import SEO from '../components/seo';
-const { v4: uuidv4 } = require('uuid');
 import styled from 'styled-components';
 import 'prismjs/themes/prism-tomorrow.css';
 import { useModal } from '../components/modules/Modal';
@@ -295,19 +294,16 @@ const DocPage = ({ data }) => {
     )
   }
   // updates HTML to enable clickable images to display modal
-( function ModifyHTML() {
-    useEffect(() => {
-      const parser = new DOMParser();
-      const parsedHTML = parser.parseFromString(modalData.html, 'text/html');
-      // allows images to display as modal when clicked
-      useModal(parsedHTML);
-      document.getElementById("LoadDoc").innerHTML = parsedHTML.body.innerHTML;   
-    }, []);
 
-    return (
-      null
-    );
-  })()
+  useEffect(() => {
+    const parser = new DOMParser();
+    const parsedHTML = parser.parseFromString(modalData.html, 'text/html');
+    // allows images to display as modal when clicked
+    useModal(parsedHTML);
+    document.getElementById("LoadDoc").innerHTML = parsedHTML.body.innerHTML;
+  }, []);
+
+
   return (
     <Layout>
       <SEO title={post.frontmatter.title} slug={post.fields.slug} lastModifiedTime={lastModifiedTime} />
