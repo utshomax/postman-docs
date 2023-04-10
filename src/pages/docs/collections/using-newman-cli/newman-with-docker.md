@@ -19,7 +19,7 @@ contextual_links:
   - type: section
     name: "Next steps"
   - type: link
-    name: "Intro to the Postman API"
+    name: "Postman API overview"
     url: "/docs/developer/postman-api/intro-api/"
 
 warning: false

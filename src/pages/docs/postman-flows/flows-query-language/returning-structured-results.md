@@ -1,6 +1,6 @@
 ---
 title: "Returning structured data"
-updated: 2022-12-19
+updated: 2023-03-29
 ---
 
 The following examples demonstrate how to use FQL to return structured data from JSON data.

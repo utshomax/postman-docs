@@ -1,7 +1,6 @@
 ---
 title: "Using collections"
 updated: 2023-03-01
-search_keyword: "collections, new collection, create collection, creating collections, delete collection, rename collection, about collections"
 contextual_links:
   - type: section
     name: "Prerequisites"
