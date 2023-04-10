@@ -658,6 +658,30 @@ export const leftNavItems = [
           },
         ],
       },
+      {
+        name: 'Sharing to the Public API Network',
+        subParentSlug: 'public-api-network',
+        slug: '/docs/collaborating-in-postman/public-api-network/public-api-network-overview/',
+        subMenuItems2: [
+          {
+            name: 'Public API Network overview',
+            url: '/docs/collaborating-in-postman/public-api-network/public-api-network-overview/'
+          },
+          {
+            name: 'Organizing your public workspace',
+            url: '/docs/collaborating-in-postman/public-api-network/organizing-your-workspace/',
+          },
+          {
+            name: 'Sharing your public workspace',
+            url: '/docs/collaborating-in-postman/public-api-network/sharing-your-workspace/',
+          },
+          {
+            name: 'Syncing APIs with your public workspace',
+            url: '/docs/collaborating-in-postman/public-api-network/sync-api-with-workspace/',
+          },
+        ],
+      },
+
     ],
   },
   {
@@ -858,10 +882,6 @@ export const leftNavItems = [
         url: '/docs/monitoring-your-api/intro-monitors/',
       },
       {
-        name: 'Monitoring API uptime',
-        url: '/docs/monitoring-your-api/uptime-monitors/',
-      },
-      {
         name: 'Setting up a collection-based monitor',
         url: '/docs/monitoring-your-api/setting-up-monitor/',
       },
@@ -884,6 +904,10 @@ export const leftNavItems = [
       {
         name: 'Monitoring FAQs',
         url: '/docs/monitoring-your-api/faqs-monitors/',
+      },
+      {
+        name: 'Monitoring API uptime',
+        url: '/docs/monitoring-your-api/uptime-monitors/',
       },
     ],
   },
@@ -1041,6 +1065,10 @@ export const leftNavItems = [
             url: '/docs/administration/sso/azure-ad/',
           },
           {
+            name: 'Custom SAML',
+            url: '/docs/administration/sso/custom-saml/',
+          },
+          {
             name: 'Duo',
             url: '/docs/administration/sso/duo/',
           },
@@ -1149,7 +1177,22 @@ export const leftNavItems = [
       },
       {
         name: 'Postman API',
-        url: '/docs/developer/intro-api/',
+        subParentSlug: 'postman-api',
+        slug: '/docs/developer/postman-api/intro-api/',
+        subMenuItems2: [
+          {
+            name: 'Postman API overview',
+            url: '/docs/developer/postman-api/intro-api/'
+          },
+          {
+            name: 'Postman API authentication',
+            url: '/docs/developer/postman-api/authentication/'
+          },
+          {
+            name: 'Postman API rate limits',
+            url: '/docs/developer/postman-api/postman-api-rate-limits/'
+          }
+        ]
       },
       {
         name: 'Echo API',

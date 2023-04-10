@@ -60,7 +60,7 @@ To enter details in the **Identity provider details** section, you must sign in 
 
 * [Azure AD](/docs/administration/sso/azure-ad/)*
 
-* [Custom SAML](/docs/administration/sso/intro-sso/#sso-setup-for-saml-20-compliant-idps)*
+* [Custom SAML](/docs/administration/sso/custom-saml/)*
 
 * [Duo](/docs/administration/sso/duo/)*
 
