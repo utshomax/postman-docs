@@ -159,7 +159,7 @@ You can [publish API versions](/docs/designing-and-developing-your-api/versionin
 
 Publish a snapshot of an API for the given `apiId`. All entities linked to the API will be published by default. You can choose which entities to publish by using additional options.
 
-When publishing an API that is linked with git, you must enter the command from inside the local git repo and provide paths to the collections.
+When publishing an API that is linked with git, you must enter the command from inside the local git repo and provide paths to the schema directory and collection directories instead of IDs.
 
 #### Example for repos not linked with git
 
@@ -188,6 +188,6 @@ postman api publish <apiId> --name v1\
 | `--name <name>` | Specifies the name of the version to publish. |
 | `--release-notes <releaseNotes>` | Enter release notes as a string in quotes for the version to publish. This option supports markdown. |
 | `--collections <collectionIds/paths...>` | Specifies the collections to publish. If the API is linked with git, provide the `filePath` instead of the ID. |
-| `--apiDefinition <schemaDirectoryPath/apiDefinitionID>` | Specifies the API definition to publish. If the API is linked with git, provide the `schemaDirectoryPath` instead of the ID. |
+| `--api-definition <apiDefinitionId/directory>` | Specifies the API definition to publish. If the API is linked with git, provide the `schemaDirectoryPath` instead of the ID. |
 |`--do-not-poll` | Specifies not to poll for completion status of the publish action.
 | `--suppress-exit-code, -x` | Specifies whether to override the default exit code for the current run. |
