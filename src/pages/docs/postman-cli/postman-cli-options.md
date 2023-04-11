@@ -159,7 +159,7 @@ You can [publish API versions](/docs/designing-and-developing-your-api/versionin
 
 Publish a snapshot of an API for the given `apiId`. All entities linked to the API will be published by default. You can choose which entities to publish by using additional options.
 
-When publishing an API that is linked with git, you must enter the command from inside the local git repo and provide paths to the schema directory and collection directories instead of IDs.
+When publishing an API that is linked with git, you must enter the command from inside the local git repo and provide paths to the schema directory and collection paths instead of IDs.
 
 #### Example for repos not linked with git
 
