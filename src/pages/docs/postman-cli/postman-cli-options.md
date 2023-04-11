@@ -159,20 +159,35 @@ You can [publish API versions](/docs/designing-and-developing-your-api/versionin
 
 Publish a snapshot of an API for the given `apiId`. All entities linked to the API will be published by default. You can choose which entities to publish by using additional options.
 
-#### Example
+When publishing an API that is linked with git, you must enter the command from inside the local git repo and provide paths to the collections.
+
+#### Example for repos not linked with git
 
 ```plaintext
 postman api publish 123456a1-a123-1a1a-1a12-a1a1a123ab12 --name v1\
---collections 123456-12345678-1a23-1a23-1234-1234567890ab 123456-12345678-1234-1a12-1234-1234567890ab\
---apiDefinition a123456a-a12a-1234-a12a-12abcd12ab1a
+--release-notes "# Some release notes information"\
+--collections <collectionId1> <collectionId2>\
+--api-definition <apiDefinitionId>
+```
+
+#### Example for repos linked with git
+
+Navigate to the repo and run the following:
+
+```plaintext
+postman api publish 123456a1-a123-1a1a-1a12-a1a1a123ab12 --name v1\
+--release-notes "# Some release notes information"\
+--collections <collectionId1> <collectionId2>\
+--api-definition <apiDefinitionId>
 ```
 
 #### Options
 
 | Option | Details |
 |:--|:--|
-| `--name <versionName>` | Specifies the name of the version to publish. |
-| `--releaseNotes <path to releaseNotes>` | Specifies the path to a local release notes file for the version to publish. |
-| `--collections <collectionPaths/collectionIDs...>` | Specifies the collections to publish. If the API is linked with git, provide the `filePath` instead of the ID. Default is `[]`. |
-| `--apiDefinition <schemaDirectoryPath/apiDefinitionID>` | Specifies the API definition to publish. If the API is linked with git, provide the `schemaDirectoryPath` instead of the ID. Default is `""`. |
+| `--name <name>` | Specifies the name of the version to publish. |
+| `--release-notes <releaseNotes>` | Enter release notes as a string in quotes for the version to publish. |
+| `--collections <collectionIds/paths...>` | Specifies the collections to publish. If the API is linked with git, provide the `filePath` instead of the ID. |
+| `--apiDefinition <schemaDirectoryPath/apiDefinitionID>` | Specifies the API definition to publish. If the API is linked with git, provide the `schemaDirectoryPath` instead of the ID. |
+|`--do-not-poll` | Specifies not to poll for completion status of the publish action.
 | `--suppress-exit-code, -x` | Specifies whether to override the default exit code for the current run. |
