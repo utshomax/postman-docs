@@ -1117,7 +1117,11 @@
 	},
 	{
 		"from": "/docs/postman/postman-api/intro-api/",
-		"to": "/docs/developer/intro-api/"
+		"to": "/docs/developer/postman-api/intro-api/"
+	},
+	{
+		"from": "/docs/developer/intro-api/",
+		"to": "/docs/developer/postman-api/intro-api/"
 	},
 	{
 		"from": "/docs/postman/postman_api/continuous_integration/",
@@ -2134,5 +2138,41 @@
 	{
 		"from": "/docs/running-collections/using-newman-cli/newman-with-docker/",
 		"to": "/docs/collections/using-newman-cli/newman-with-docker/"
+	},
+	{
+		"from": "/docs/collaborating-in-postman/collaboration-intro/",
+		"to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
+	},
+	{
+		"from": "/docs/v5/postman/environments_and_globals/variables",
+		"to": "/docs/sending-requests/managing-environments/"
+	},
+	{
+		"from": "/docs/v5/postman/scripts/test_examples",
+		"to": "/docs/writing-scripts/script-references/test-examples/"
+	},
+	{
+		"from": "/docs/postman/sending_api_requests/cookies/).%20%20",
+		"to": "/docs/sending-requests/cookies/"
+	},
+	{
+		"from": "/docs/v5/postman/scripts/test_scripts",
+		"to": "/docs/writing-scripts/test-scripts/"
+	},
+	{
+		"from": "/docs/postman/api_documentation/intro_to_api_documentation/s",
+		"to": "/docs/introduction/overview/"
+	},
+	{
+		"from": "/docs/postman-for-publishers/run-button/creating-run-button",
+		"to": "/docs/publishing-your-api/run-in-postman/creating-run-button/"
+	},
+	{
+		"from": "/docs/postman/launching_postman/installation_and_updates/%E3%80%82",
+		"to": "/docs/getting-started/installation-and-updates/"
+	},
+	{
+		"from": "/docs/postman/mock_servers",
+		"to": "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
 	}
 ]

@@ -3,7 +3,7 @@ title: "Postman Flows blocks"
 updated: 2022-12-15
 ---
 
-The [blocks](../../gs/blocks-information/) available in Postman Flows are described below.
+The blocks available in Postman Flows are described below.
 
 * [Information blocks](#information-blocks)
 * [Decision blocks](#decision-blocks)
@@ -27,7 +27,7 @@ Allows large amounts of formatted text to be entered. The values in the variable
 
 ### Get Variable
 
-<img alt="Get Variable block" src="https://assets.postman.com/postman-labs-docs/all-blocks/get-variable-block.png" width="153px"/>
+<img alt="Get Variable block" src="https://assets.postman.com/postman-docs/v10/get-variable-block-v10.jpg" width="153px"/>
 
 Gets the specified variable's value from anywhere in the flow.
 
@@ -35,7 +35,7 @@ Gets the specified variable's value from anywhere in the flow.
 
 ### Create Variable
 
-<img alt="Create Variable block" src="https://assets.postman.com/postman-labs-docs/all-blocks/create-variable-block.png" width="136px"/>
+<img alt="Create Variable block" src="https://assets.postman.com/postman-docs/v10/create-variable-block-1-v10.jpg" width="136px"/>
 
 Assigns a value to a variable that can then be accessed with the **Get Variable** block anywhere in the flow. The input is any value (such as text, a number, or information from another block).
 
@@ -93,7 +93,7 @@ Selects a specific part of the information output from another block. If the inp
 
 ### Regex
 
-<img alt="Regex block" src="https://assets.postman.com/postman-labs-docs/all-blocks/regex-block.png" width="121px"/>
+<img alt="Regex block" src="https://assets.postman.com/postman-docs/v10/regex-block-1-v10.jpg" width="121px"/>
 
 Outputs a regular expression.
 
@@ -268,6 +268,6 @@ Sends the information input to the block to the Postman console.
 
 ### Output
 
-<img alt="Output block" src="https://assets.postman.com/postman-labs-docs/all-blocks/output-block.png" width="249px"/>
+<img alt="Output block" src="https://assets.postman.com/postman-docs/v10/output-block-v10.jpg" width="249px"/>
 
 Displays the information input. The dropdown menu allows you to select from JSON, charts, tables, videos, images, and more. For more information and examples on the output block, see the [Creating charts, tables, and output](/docs/postman-flows/tutorials/creating-charts-tables-and-output/).

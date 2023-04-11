@@ -12,7 +12,7 @@ _Flows Query Language_ (FQL) can be used to parse and transform JSON data to get
 
 ## Passing data to the Evaluate block
 
-![](https://assets.postman.com/postman-labs-docs/flows-query-language/updated-evaluate-block-example.png)
+![](https://assets.postman.com/postman-docs/v10/updated-evaluate-block-example-1-v10.jpg)
 
 The **Record** block holds formatted key-value pairs. The variable `data_field` has a value of `input` (`input` can be selected as a value when creating the variable), which enables the formatted data to be passed into the **Evaluate** block and queried. In this case, `customer_info` holds another record that contains string values. FQL can be executed in the **Evaluate** block to print out the values of `customer_info`.
 
