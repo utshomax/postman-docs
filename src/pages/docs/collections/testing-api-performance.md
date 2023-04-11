@@ -64,25 +64,22 @@ To configure a performance test in the Postman desktop app, do the following:
 
 During a performance test, all requests are sent from your computer where you are running the Postman desktop app. The performance test runner displays performance metrics in real time so you can observe how your API performs under load.
 
-<img alt="Viewing performance metrics" src="https://assets.postman.com/postman-docs/v10/performance-test-graph-v10-xx.jpg"/>
+<img alt="Viewing performance metrics" src="https://assets.postman.com/postman-docs/v10/performance-test-graph-v10-yy.jpg"/>
 
 You can view the following information about the performance test:
 
 * Name of the collection being run.
 * **Virtual users** -  The number of virtual users. Each virtual user simulates the behavior of a real-world user by running the collection repeatedly, in parallel with other virtual users.
 * **Start** and **End** time of the test.
-* **Avg. response time** - The response time of all requests averaged together.
-* **95th response time** - 95% of all responses are equal to or less than this response time.
-* **Min. response time** - The lowest observed response time.
-* **Max. response time** - The highest observed response time.
+* **Total requests sent** - The total number of requests sent across all virtual users.
+* **Requests/s** - The number of requests sent each second by the performance test runner, a measure of throughput.
+* **Avg. response time** - The response time in milliseconds of all requests averaged together.
 * **Error rate** - The percentage of requests that result in an error. Responses other than 2xx responses are considered errors.
-* **Requests per second** - The number of requests sent each second by the performance test runner, a measure of throughput.
 
 From the performance test runner, you can take the following actions:
 
 * Select <img alt="Stop icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="16px"> **Stop** to stop the performance test.
-* Select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh** to view the latest metrics.
-* Select **Configure & Rerun** to start the performance test again.
+* Select **Run Again** to configure and start the performance test again.
 * Select the name of a request to open the request and view its **Tests** tab.
 
 ### Customizing the performance view
@@ -91,18 +88,27 @@ The performance test graph displays real-time metrics for average response time,
 
 <img alt="Getting performance details" src="https://assets.postman.com/postman-docs/v10/performance-test-hover-v10-xx.jpg" width="502px"/>
 
-To customize the graph view, use the drop-down menus above the graph. You can view data for a specific request or select the response time metrics you want to view. To change the graph back to the default view, select **Reset**.
+To customize the graph view, use the drop-down menus above the graph. You can view data for a specific request. You can also select the response time metrics you want to view:
+
+* **Avg. response** - The response time in milliseconds of all requests averaged together.
+* **Min response time** - The lowest observed response time.
+* **Max response time** - The highest observed response time.
+* **99th percentile** - 99% of all response times are equal to or less than this value.
+* **95th percentile** - 95% of all response times are equal to or less than this value.
+* **90th percentile** - 90% of all response times are equal to or less than this value.
+
+To change the graph back to the default view, select **Reset**.
 
 <img alt="Viewing metrics for a request" src="https://assets.postman.com/postman-docs/v10/performance-test-request-v10-xx.jpg" width="502px"/>
 
-To view details for a section of the graph, select a handle on the bottom of the graph. The table below the graph shows response time metrics for each request during the selected time period. To change the graph back to the default time period, select **Reset**.
+To view details for a section of the graph, select a handle on the bottom of the graph. The table below the graph shows response time and error metrics for each request during the selected time period. To change the graph back to the default time period, select **Reset**.
 
-<img alt="Viewing a time period" src="https://assets.postman.com/postman-docs/v10/performance-test-zoom-v10-xx.jpg" width="502px"/>
+<img alt="Viewing a time period" src="https://assets.postman.com/postman-docs/v10/performance-test-zoom-v10-yy.jpg" width="526px"/>
 
 ### Viewing past performance runs
 
 You can view a list of past performance runs for a collection. Open the collection, select the **Runs** tab, and then select the **Performance runs** tab.
 
-You can view metrics for each run, including the number of virtual users, duration, average response time, error rate, total number of requests, and requests per second. Select the name of a run to view a graph and full details for the performance run.
+You can view metrics for each run, including the number of virtual users, duration, average response time, error rate, total number of requests, and requests per second. Select the run number to view a graph and full details for the performance run.
 
-![Performance runs tab](https://assets.postman.com/postman-docs/v10/performance-test-past-runs-v10-xx.jpg)
+![Performance runs tab](https://assets.postman.com/postman-docs/v10/performance-test-past-runs-v10-yy.jpg)
