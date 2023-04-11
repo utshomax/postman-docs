@@ -114,11 +114,11 @@ To revoke an active invite, hover over its row and select the delete icon <img a
 
 ### Removing team members
 
-To remove a member from your team, go to your [team dashboard](https://go.postman.co/settings/team/members). Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the team member's name. When you remove a team member, you will still retain access to any data they have shared with the team.
+To remove a member from your team, go to your [team dashboard](https://go.postman.co/settings/team/members). Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the team member's name. Then to confirm, select **Remove Member**. When you remove a team member, you will still retain access to any data they have shared with the team.
 
 ![Removing a team member](https://assets.postman.com/postman-docs/v10/remove-team-member-v10.jpg)
 
-Reassign their personal workspaces to another team member to ensure the team continues to have access to any unshared work done by the user being removed. Then to confirm, select **Remove Member**. You must reassign their personal workspaces if one of the following is true:
+Reassign their personal workspaces to another team member to ensure the team continues to have access to any unshared work done by the user being removed. You must reassign their personal workspaces if one of the following is true:
 
 * They're from an Enterprise team.
 * They're from a Free, Basic, or Professional team, and they have an individual account.
@@ -127,7 +127,7 @@ Reassign their personal workspaces to another team member to ensure the team con
 
 <img alt="Confirmation for removing a team member" src="https://assets.postman.com/postman-docs/remove-user-from-team-v9.2.jpg" width="400px"/>
 
-Remove a team member to automatically move their personal workspaces and the data within them to an individual account. Then to confirm, select **Remove Member**. Their personal workspaces move to an individual account if the following is true: they're from a Free, Basic, or Professional team and they don't have an individual account.
+When you remove a team member, their personal workspaces and the data within them move to an individual account if the following is true: they're from a Free, Basic, or Professional team and they don't have an individual account.
 
 > Note that when you remove a member from your team, this doesn't automatically reduce the number of paid seats for your team unless the member was added by [Auto-Flex](/docs/administration/billing/#using-auto-flex) during the current Auto-Flex cycle. If you want to reduce the number of paid seats on your team, a member of your team with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [edit your plan](/docs/administration/billing/#changing-your-plan).
 
