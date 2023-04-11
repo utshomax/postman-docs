@@ -216,11 +216,11 @@ To view and edit documentation for a WebSocket request, do the following:
 
 1. Open the request.
 1. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the right sidebar.
-1. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description.
+1. Select **Add request description**.
 1. Write your content using Postman's [built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/).
 1. When you're finished, select **Save** to save your documentation. If you ever need to make changes, you can edit the description again.
 
-> You can also add a description to your collection's overview or a folder in your collection. Select the collection or folder in the sidebar, then select the description.
+> You can also add a description to your collection's overview or a folder in your collection. Select the collection or folder in the sidebar, then select **Add collection description** or **Add folder description**.
 
 ## Other Socket.IO notes
 
