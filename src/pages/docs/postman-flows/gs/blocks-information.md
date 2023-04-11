@@ -21,7 +21,7 @@ contextual_links:
     url: "https://www.postman.com/case-studies/built/"
 ---
 
-_Blocks_ are used to create Flows, and data is exchanged between them with _messages_.
+_Blocks_ are used to create Flows, and information is passed between them.
 
 ## Contents
 
