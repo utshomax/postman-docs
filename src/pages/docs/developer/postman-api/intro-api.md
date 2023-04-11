@@ -50,3 +50,9 @@ You can get started with the API by [forking the collection](https://www.postman
 You will need an [API key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key) to access the Postman API.
 
 > The Postman API is [rate limited](/docs/developer/postman-api/postman-api-rate-limits/).
+
+## About v9 and v10 APIs
+
+The format for APIs created in Postman changed in Postman v10. The Postman API now supports endpoints for working with APIs created in v10. To use these endpoints, you must pass an `Accept` header with the value `application/vnd.api.v10+json`. Learn more about [using the Postman v10 endpoints for APIs](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-daed38dc-2fd4-4373-a73b-cbdbb72f5819).
+
+The endpoints for working with APIs created in v9 are deprecated. You can continue to use these endpoints, but at a future time they will no longer be available. You should [update your APIs to the v10 format](/docs/designing-and-developing-your-api/creating-an-api/#updating-an-api) as soon as possible. After updating, you can use the v10 endpoints to work with your API.
