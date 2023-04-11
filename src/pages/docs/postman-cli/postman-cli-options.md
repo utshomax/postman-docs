@@ -164,7 +164,7 @@ When publishing an API that is linked with git, you must enter the command from 
 #### Example for repos not linked with git
 
 ```plaintext
-postman api publish 123456a1-a123-1a1a-1a12-a1a1a123ab12 --name v1\
+postman api publish <apiId> --name v1\
 --release-notes "# Some release notes information"\
 --collections <collectionId1> <collectionId2>\
 --api-definition <apiDefinitionId>
@@ -175,10 +175,10 @@ postman api publish 123456a1-a123-1a1a-1a12-a1a1a123ab12 --name v1\
 Navigate to the repo and run the following:
 
 ```plaintext
-postman api publish 123456a1-a123-1a1a-1a12-a1a1a123ab12 --name v1\
+postman api publish <apiId> --name v1\
 --release-notes "# Some release notes information"\
---collections <collectionId1> <collectionId2>\
---api-definition <apiDefinitionId>
+--collections <collectionPath1> <collectionPath2>\
+--api-definition <schemaDirectoryPath>
 ```
 
 #### Options
@@ -186,7 +186,7 @@ postman api publish 123456a1-a123-1a1a-1a12-a1a1a123ab12 --name v1\
 | Option | Details |
 |:--|:--|
 | `--name <name>` | Specifies the name of the version to publish. |
-| `--release-notes <releaseNotes>` | Enter release notes as a string in quotes for the version to publish. |
+| `--release-notes <releaseNotes>` | Enter release notes as a string in quotes for the version to publish. This option supports markdown. |
 | `--collections <collectionIds/paths...>` | Specifies the collections to publish. If the API is linked with git, provide the `filePath` instead of the ID. |
 | `--apiDefinition <schemaDirectoryPath/apiDefinitionID>` | Specifies the API definition to publish. If the API is linked with git, provide the `schemaDirectoryPath` instead of the ID. |
 |`--do-not-poll` | Specifies not to poll for completion status of the publish action.
