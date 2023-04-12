@@ -270,6 +270,7 @@ There are several ways to create a collection from a template:
 * When you first create your account, you will be asked if you want to create a collection from a template.
 * In an empty workspace, in the left sidebar, select **Use a Template**.
 * Select **New**, then select **Use a template**.
+* In an empty collection, on the **Overview** tab, select a template.
 
 ## About multi-protocol request collections
 
