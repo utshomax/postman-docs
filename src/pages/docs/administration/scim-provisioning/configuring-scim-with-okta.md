@@ -1,9 +1,6 @@
 ---
 title: "Configuring SCIM with Okta"
-order: 142
-updated: 2022-03-02
-page_id: "configuring_scim_with_okta"
-warning: false
+updated: 2023-04-12
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -12,7 +9,7 @@ contextual_links:
     url: "/docs/administration/sso/okta/"
 ---
 
-Postman supports SCIM provisioning through Okta with the [Postman Okta app](https://www.okta.com/integrations/postman/), allowing you to automate user provisioning and de-provisioning for your team.
+Postman supports SCIM provisioning through Okta with the [Postman Okta app](https://www.okta.com/integrations/postman/), enabling you to automate user provisioning and de-provisioning for your team.
 
 You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable SCIM for your team. With SCIM enabled, users won't have the option to leave your team on their own, and won't be able to change their account email or password. Only Team Admins will have the right to remove team members.
 
