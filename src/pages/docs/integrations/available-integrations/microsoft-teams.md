@@ -44,7 +44,7 @@ To configure a Microsoft Teams integration, you will need to first create a Micr
 
 ## Configuring Microsoft Teams
 
-1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
+1. From the **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 
     <img alt="Home page and integrations" src="https://assets.postman.com/postman-docs/v10/home-integrations-v10-2.jpg" width="390px">
 
