@@ -58,7 +58,7 @@ Use workspaces to organize your work in Postman and collaborate with teammates (
 
 To open a workspace, select **Workspaces** in the Postman header. Select a workspace to open it, or select **View all workspaces** for a list of all available workspaces. This will only display workspaces that you have access to, based on the [workspace visibility](#changing-workspace-visibility) and your [workspace role](#managing-workspace-roles).
 
-<img alt="New Workspace" src="https://assets.postman.com/postman-docs/view-workspaces-v9.19.jpg" width="400px"/>
+<img alt="New Workspace" src="https://assets.postman.com/postman-docs/v10/view-workspaces-v10.14.jpg" width="400px"/>
 
 The workspace's **Overview** tab displays a summary and description of the workspace, as well as a list of recent activity. On the right, there is a list of the number of Postman elements like collections and APIs in the workspace and a list of recent contributors.
 
@@ -194,7 +194,7 @@ To move an element to a different workspace, do the following:
 1. Select **Collections**, **APIs**, **Environments**, or **Mock Servers** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an element and then select **Move**.
 
-    <img alt="Move collection" src="https://assets.postman.com/postman-docs/move-collection-v9.jpg" width="300px" height="400px"/>
+    <img alt="Move collection" src="https://assets.postman.com/postman-docs/v10/move-collection-v10.jpg" width="300px" height="400px"/>
 
 1. Select the workspace where you want to move the element, and then select **Move**.
 
