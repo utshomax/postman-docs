@@ -35,25 +35,25 @@ To set up an APIMatic integration with Postman, you will need:
 1. Search and select **APIMatic**.
 1. Select **Add Integration**.
 
-    ![add APIMatic configuration](https://assets.postman.com/postman-docs/v10/apimatic-add-integration-v10.jpg)
+    ![Add APIMatic integration](https://assets.postman.com/postman-docs/v10/apimatic-add-integration-v10.jpg)
 
 1. You'll be prompted to allow Postman to access your GitHub account. After you grant access, you can close the browser tab and return to Postman.
 1. Enter the following in the **Add Integration** window:
     * **APIMatic API Key** - Your [APIMatic integration key](https://docs.apimatic.io/manage-apis/get-api-keys/).
     * **Nickname** - A nickname for the integration.
-    * **Choose Workspace** - The workspace that has the collection you want to back up.
-    * **Choose Collection** - The collection you want to back up.
-    * **Choose Repository** - The GitHub repository you want to back up your collection to.
-    * **Enter Directory** - The directory in the GitHub repository to back up your collection to. If a directory with that name doesn't exist, it will be created when you add the integration.
-    * **Enter filename** - A filename for the collection backup file.
-    * **Choose format** - The format the collection is saved as.
-    * **Enter Branch** - The name of the GitHub branch to back up the collection to. This branch must already exist, and the integration process will fail if you specify an invalid branch name.
+    * **Workspace** - The workspace that has the collection you want to back up.
+    * **Collection** - The collection you want to back up.
+    * **Repository** - The GitHub repository you want to back up your collection to.
+    * **Directory** - The directory in the GitHub repository to back up your collection to. If a directory with that name doesn't exist, it will be created when you add the integration.
+    * **Filename** - A filename for the collection backup file.
+    * **Format** - The format the collection is saved as.
+    * **Branch** - The name of the GitHub branch to back up the collection to. This branch must already exist, and the integration process will fail if you specify an invalid branch name.
 1. Select **Add Integration**.
 
 Once the integration is created, select it to view details about the integration including its run log.
 
 <img alt="APIMatic integration run log" src="https://assets.postman.com/postman-docs/apimatic-run-log-v9.jpg"/>
 
-As an example, for an integration that runs once a day at 12:00 UTC, changes made to your collection are picked up by the converter in its next run. If no updates are made to your collection, no updates are pushed to GitHub.
+Changes made to your collection are picked up by the converter in its next run. If no updates are made to your collection, no updates are pushed to GitHub.
 
 > **You can view your configured integrations on the [Browse Integrations](https://go.postman.co/integrations/browse) page.** You can also view integrations that have been configured for a collection by opening the collection and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Learn more about [viewing or editing integrations](/docs/integrations/intro-integrations/#viewing-or-editing-integrations).
