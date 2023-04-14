@@ -32,9 +32,16 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'src',
-        path: `${__dirname}/src/`,
+        path: `${__dirname}/src/pages/docs`,
       },
     },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     name: 'src',
+    //     path: `${__dirname}/src`,
+    //   },
+    // },
     {
       resolve: 'gatsby-plugin-typography',
       options: {
@@ -44,7 +51,6 @@ module.exports = {
     {
       resolve: "gatsby-plugin-mdx",
       options: {
-        extensions: [`.mdx`],
         gatsbyRemarkPlugins: [
           'gatsby-remark-autolink-headers',
           'gatsby-remark-check-links',

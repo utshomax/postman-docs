@@ -49,7 +49,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 };
 
-exports.createPages = async ({ graphql, actions }) => {
+exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createRedirect, createPage } = actions;
 
   redirects.forEach(({ from, to }) => {
@@ -64,19 +64,19 @@ exports.createPages = async ({ graphql, actions }) => {
   const result = await graphql(`
     query {
       allMdx {
-        edges {
-          node {
-            fields {
-              slug
-            }
-            internal {
-              contentFilePath
-              type
+          edges {
+            node {
+              fields {
+                slug
+              }
+              internal {
+                contentFilePath
+                type
+              }
             }
           }
         }
       }
-    }
   `);
   result.data.allMdx.edges.forEach(({ node }) => {
     if (node.fields.slug.includes('-')) {
@@ -88,12 +88,20 @@ exports.createPages = async ({ graphql, actions }) => {
         toPath: node.fields.slug,
       });
     }
+    // Handle errors
+  if (result.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`)
+    return
+  }
     const docTemplate = path.resolve('./src/templates/doc.jsx');
     
-    actions.createPage({
+    createPage({
       path: node.fields.slug,
+      // your-layout-component.js?__contentFilePath=absolute-path-to-your-mdx-file.mdx
+      // component: path.resolve('./src/templates/doc.jsx'),
       // component: node.internal.contentFilePath,
-      component: `${docTemplate}?__contentFilePath=${node.internal.contentFilePath}`,
+      component: `${docTemplate}?__contentFilePath=${node.fields.slug}`,
+      // component: require.resolve('./src/templates/doc.jsx'),
       context: {
         slug: node.fields.slug,
       },
