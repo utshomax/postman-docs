@@ -98,10 +98,11 @@ On the workspace's **Overview** tab, select the workspace name, summary, or desc
 
 The visibility setting for a workspace determines who can access it. You must be a [Workspace Admin](#managing-workspace-roles) to change the visibility for a workspace.
 
+> You can't change a workspace's visibility to personal.
+
 1. Select **Workspaces** in the Postman header, and then select a workspace.
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
 1. Select a **Visibility** for the workspace:
-    * **Personal** - Only you can access.
     * **Private** - Only invited team members can access ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
     * **Team** - All team members can access.
     * **Partner** - Only invited team members and [partners](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) can access ([Enterprise plans only](https://www.postman.com/pricing)).
