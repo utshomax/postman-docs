@@ -106,59 +106,37 @@ Enter the name of an object in the JSON file to retrieve all the data within tha
 </tbody>
 </table>
 
-### FQL
-
-``` javascript
-address
-```
-
-<br/>
-
-### Result
-
-``` json
-{
-    "street": "123 Park Avenue",
-    "city": "Atlanta",
-    "state": "GA",
-    "zip": "12345"
-}
-```
-
 ## Select a specific index in an array
 
 To access individual values in an array in a JSON file, specify an index number between square brackets after the array's name.
 
-### FQL
-
-``` javascript
-phones[0].number
-```
-
-<br/>
-
-### Result
-
-``` json
-"123-456-7890"
-```
+<table  class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>phones[0].number</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>"123-456-7890"
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Select an entire array
 
 Enter the name of an array in the JSON file to retrieve all the data within that array.
 
-### FQL
-
-``` javascript
-phones
-```
-
-<br/>
-
-### Result
-
-``` json
-[
+<table  class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>phones</td>
+</tr>
+<tr>
+<td>Result</td>
+<td><pre>[
     {
         "type": "Home",
         "number": "123-456-7890"
@@ -167,55 +145,57 @@ phones
         "type": "Cell",
         "number": "098-765-4321"
     }
-]
-```
+]</pre>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Return one field of every object in an array
 
 To return a specific field from multiple objects in an array, enter the array's name then the field's name, separated by a dot.
 
-### FQL
-
-``` javascript
-phones.number
-```
-
-<br/>
-
-### Result
-
-``` json
-["123-456-7890","098-765-4321"]
-```
+<table  class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>phones.number</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>["123-456-7890","098-765-4321"]</td>
+</tr>
+</tbody>
+</table>
 
 ## Return fields that contain special characters in the key name
 
 If a field in the JSON file contains special characters (like spaces), put the field's name in single quotes.
 
-### FQL
-
-``` javascript
-'display name'
-```
-
-<br/>
-
-### Result
-
-``` json
-myuser123
-```
+<table  class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>'display name'</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>myuser123</td>
+</tr>
+</tbody>
+</table>
 
 ## Get the number of elements in a list
 
-### FQL
-
-``` javascript
-$count(phones)
-```
-
-### Result
-
-``` json
-2
-```
+<table  class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>$count(phones)</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
