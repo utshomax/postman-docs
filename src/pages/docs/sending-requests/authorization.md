@@ -114,7 +114,7 @@ Select **Set up new authorization** to learn what authentication credentials you
 
 <img alt="Stripe API authentication info and link" src="https://assets.postman.com/postman-docs/stripe-api-easier-auth-api-key-10.13.0.jpg"/>
 
-If you're an API publisher, you can join the waitlist to provide easier authentication for your public APIs to the Postman community. To do so, open Postman and select **Team** in the upper right, then **Team Settings > Set Up API authorization**.
+If you're an API publisher, you can [join the waitlist](https://go.postman.co/settings/team/api-authentication) to provide easier authentication for your public APIs to the Postman community. To do so, open Postman and select **Team** in the upper right, then **Team Settings > Set Up API authorization**. Alternatively, select **API Network** from the Postman header, then select **Public API Network > Set up API authorization**.
 
 ## Inheriting authorization
 
