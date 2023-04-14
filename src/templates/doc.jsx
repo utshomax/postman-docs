@@ -272,23 +272,23 @@ const RightColumnWrapper = styled.aside`
 }
 `
 
-const DocPage = ({ data }) => {
-  const [modalData] = useState(data.markdownRemark);
-  const post = data.markdownRemark;
+const DocPage = ({ data: { mdx }, children }) => {
+  const [modalData] = useState(data.mdx);
+  const post = data.mdx;
   // Last modified date - bottom
   // Last modified time - top 
-  const { lastModifiedDate, lastModifiedTime } = data.markdownRemark.fields;
+  const { lastModifiedDate, lastModifiedTime } = data.mdx.fields;
   // Breadcrumbs (top of page) & Previous and Next Links (bottom of page) 
   const { parentLink, subParentLink, previous, next } = data;
 
-  let excerptLength = data.markdownRemark.excerpt.length;
+  let excerptLength = data.mdx.excerpt.length;
   let excerptCount = process.env.GATSBY_EXCERPT_COUNT;
   let overIndexLimit = excerptLength > 6700 ? (excerptLength - 6700) : 0;
 
   // Right side links 
   const DisplayContextualLinks = (props) => {
     const { data } = props;
-    const doc = data.markdownRemark;
+    const doc = data.mdx;
     return (
       doc.frontmatter.contextual_links && <ContextualLinks key={uuidv4()} links={doc.frontmatter.contextual_links} />
     )
@@ -318,7 +318,9 @@ const DocPage = ({ data }) => {
               <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 doc-page ml-xl-5">
                 <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
                 <h1>{post.frontmatter.title}</h1>
-                <DocContent id="LoadDoc" />
+                {/* <DocContent id="LoadDoc" /> */}
+                <DocContent>{children}</DocContent>
+                {console.log('children', children)}
                 {
                   excerptCount ?
                     <div className='events__alert mb-3'>
@@ -370,8 +372,8 @@ const DocPage = ({ data }) => {
 
 export const query = graphql`
   query($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
+    mdx(fields: { slug: { eq: $slug } }) {
+      body
       excerpt(pruneLength: 20000)
       frontmatter {
         title
@@ -379,7 +381,6 @@ export const query = graphql`
           type
           name
           url
-          blog_tag
         }
       }
       fields {
@@ -390,5 +391,28 @@ export const query = graphql`
     }
   }
 `;
+
+// export const query = graphql`
+//   query($slug: String!) {
+//     mdx(fields: { slug: { eq: $slug } }) {
+//       body
+//       excerpt(pruneLength: 20000)
+//       frontmatter {
+//         title
+//         contextual_links {
+//           type
+//           name
+//           url
+//           blog_tag
+//         }
+//       }
+//       fields {
+//         slug
+//         lastModifiedDate
+//         lastModifiedTime
+//       }
+//     }
+//   }
+// `;
 export default DocPage;
 /* eslint-enable */

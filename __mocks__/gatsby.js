@@ -24,7 +24,7 @@ module.exports = {
   ),
   StaticQuery: jest.fn(),
   useStaticQuery: jest.fn().mockImplementation(() => ({
-    allMarkdownRemark: {
+    allMdx: {
       nodes: [{
         fields: {
           slug: '/docs/foo/slug/',

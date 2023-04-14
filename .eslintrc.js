@@ -4,6 +4,12 @@ module.exports = {
     es6: true,
     jest: true,
   },
+  overrides: [
+    {
+      files: ["*.mdx"],
+      extends: ["plugin:mdx/recommended"]
+    }
+  ],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',

@@ -13,8 +13,9 @@ const ignorePaths = [];
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
-  if (node.internal.type === 'MarkdownRemark') {
+  if (node.internal.type === 'Mdx') {
     const slug = createFilePath({ node, getNode, basePath: 'pages' });
+
     createNodeField({
       node,
       name: 'slug',
@@ -23,7 +24,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     /* Used on doc.jsx / View GraphQL query
     /* Returns the latest commit log for a specific doc file */
     const lastModifiedDate = execSync(
-      `git log -1 --pretty='%ad' --date=format:'%Y/%m/%d' ${node.fileAbsolutePath}`
+      `git log -1 --pretty='%ad' --date=format:'%Y/%m/%d' ${node.internal.contentFilePath}`
     ).toString()
     actions.createNodeField({
       node,
@@ -32,7 +33,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     })
     /* Returns the last modified time (SEO)  */
     const lastModifiedTime = execSync(
-      `git log -1 --pretty="format:%cI" ${node.fileAbsolutePath}`
+      `git log -1 --pretty="format:%cI" ${node.internal.contentFilePath}`
     ).toString();
     actions.createNodeField({
       node,
@@ -62,21 +63,24 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const result = await graphql(`
     query {
-      allMarkdownRemark {
+      allMdx {
         edges {
           node {
             fields {
               slug
+            }
+            internal {
+              contentFilePath
+              type
             }
           }
         }
       }
     }
   `);
-  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+  result.data.allMdx.edges.forEach(({ node }) => {
     if (node.fields.slug.includes('-')) {
       const underscoreSlug = node.fields.slug.replace(/-/g, '_');
-
       createRedirect({
         fromPath: underscoreSlug,
         isPermanent: true,
@@ -84,9 +88,12 @@ exports.createPages = async ({ graphql, actions }) => {
         toPath: node.fields.slug,
       });
     }
-    createPage({
+    const docTemplate = path.resolve('./src/templates/doc.jsx');
+    
+    actions.createPage({
       path: node.fields.slug,
-      component: path.resolve('./src/templates/doc.jsx'),
+      // component: node.internal.contentFilePath,
+      component: `${docTemplate}?__contentFilePath=${node.internal.contentFilePath}`,
       context: {
         slug: node.fields.slug,
       },

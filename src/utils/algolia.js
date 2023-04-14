@@ -14,7 +14,7 @@ require('dotenv').config({
 const algoliaIndex = (process.env.NODE_ENV === 'development') ? 'dev_docs' : 'docs';
 
 const pageQuery = `{
-  docs: allMarkdownRemark(
+  docs: allMdx(
     filter: {
       fileAbsolutePath: { regex: "/docs/" },
     }
@@ -28,8 +28,6 @@ const pageQuery = `{
         frontmatter {
           title
           search_keyword
-        }
-        fields {
           slug
         }
         excerpt(
