@@ -52,7 +52,7 @@ const prefetch = async () => {
 
   if (process.env.PM_TECH_RT) {
     sh.config.silent = true;
-    pmt = sh.exec('cat build/pmt.js').stdout;
+    pmt = sh.exec('cat build/pmt.js').stdout.split('\n').shift();
     sh.config.silent = false;
 
     sh.exec('mkdir -p public');
@@ -80,7 +80,7 @@ const prefetch = async () => {
     });
   }
 
-  const UACode = 'UA-43979731-18';
+  const UACode = 'G-CX7P9K6W67';
   const GTMCode = 'GTM-M42M5N';
   const googleTagManager = `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
