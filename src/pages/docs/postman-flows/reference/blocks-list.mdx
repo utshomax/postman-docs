@@ -18,9 +18,9 @@ The blocks available in Postman Flows are described below.
 
 <img alt="Template block" src="https://assets.postman.com/postman-labs-docs/all-blocks/template-block.png" width="245px"/>
 
-Enables the free-hand structuring of data and inclusion of variables in the format `\{\{variable}}`
+Enables the free-hand structuring of data and inclusion of variables in the format `{{variable}}`
 
-**Variables** - Named data or assigned values that can be assigned in the text using the `\{\{variable}}` format.
+**Variables** - Named data or assigned values that can be assigned in the text using the `{{variable}}` format.
 
 **Out** - Outputs the data entered in the text box.
 
@@ -50,7 +50,7 @@ Emits the specified list of values. Each item can be any type of block, for exam
 
 ### Date & Time
 
-<img alt="Date `\&` Time block" src="https://assets.postman.com/postman-labs-docs/all-blocks/date-and-time-block.png" width="221px"/>
+<img alt="Date &amp; Time block" src="https://assets.postman.com/postman-labs-docs/all-blocks/date-and-time-block.png" width="221px"/>
 
 Emits the specified date and time.
 
@@ -60,13 +60,13 @@ Emits the specified date and time.
 
 Emits the specified date.
 
-{/*  vale Postman.Avoid = NO */}
+{/* <!-- vale Postman.Avoid = NO --> */}
 ### Now
 
 <img alt="Now block" src="https://assets.postman.com/postman-labs-docs/all-blocks/now-block.png" width="69px"/>
 
 Emits the current date and time.
-{/*  vale Postman.Avoid = YES */}
+{/* <!-- vale Postman.Avoid = YES --> */}
 
 ### Select
 
@@ -92,14 +92,14 @@ Emits a null value.
 
 A whole or decimal number.
 
-{/*  vale Postman.Spelling = NO */}
+{/* <!-- vale Postman.Spelling = NO --> */}
 ### Bool
 
 <img alt="Bool block" src="https://assets.postman.com/postman-labs-docs/all-blocks/bool-block.png" width="118px"/>
 
 True or false.
 
-{/*  vale Postman.Spelling = YES */}
+{/* <!-- vale Postman.Spelling = YES --> */}
 ### String
 
 <img alt="String block" src="https://assets.postman.com/postman-labs-docs/all-blocks/string-block.png" width="143px"/>
@@ -120,7 +120,7 @@ Used as the entry point for [running flows on the cloud](/docs/postman-flows/run
 
 <img alt="If block" src="https://assets.postman.com/postman-labs-docs/all-blocks/refactored-if-block.png" width="245px"/>
 
-{/*  vale Postman.Spelling = NO */}
+{/* <!-- vale Postman.Spelling = NO --> */}
   Takes any number of variables and data, and takes a different branch depending on the result of the FQL condition.
 
   **Variables** - Named data or assigned values.
@@ -130,7 +130,7 @@ Used as the entry point for [running flows on the cloud](/docs/postman-flows/run
   **Data** - Receives data or an event from another block.
 
   **Outputs** - Sends the data to either the True or False pathway depending on the value of the FQL condition.
-{/*  vale Postman.Spelling = YES */}
+{/* <!-- vale Postman.Spelling = YES --> */}
 
 ### Evaluate
 
@@ -164,7 +164,7 @@ Performs a loop a specified number of times.
 
 Loops over each item in a list.
 
-**List** - A list of values like `\[1,2,3]` or `\["one","two","three"]`.
+**List** - A list of values like `[1,2,3]` or `["one","two","three"]`.
 
 **Start** - Receives an event to trigger the block to start.
 
@@ -208,12 +208,12 @@ Invokes a request in a collection.
 
 **Body Type** - The schema that your data uses (for example JSON or XML). **Auto** will try to auto-detect which schema is being used.
 
-**Variables** - Auto-populates with any `\{\{variable}}` that's in the specified request. Variables can either be assigned a value in the block itself, or have a value passed in.
-{/*  vale Postman.ComplexWords = NO */}
+**Variables** - Auto-populates with any `{{variable}}` that's in the specified request. Variables can either be assigned a value in the block itself, or have a value passed in.
+{/* <!-- vale Postman.ComplexWords = NO --> */}
 **Success** - Contains the response of a successful API call if tests are assigned to the request and all pass or, if there are no tests, a 2xx HTTP status code is received. The API call can then be connected to another block or variable value to extract a field from the response.
 
 **Failure** - Contains the response of a failed API call if tests are assigned to the request and any fail or, if there are no tests, a non 2xx HTTP status code is received. The API call can then be connected to another block or variable value to extract a field from the response.
-{/*  vale Postman.ComplexWords = YES */}
+{/* <!-- vale Postman.ComplexWords = YES --> */}
 
 ## Output blocks
 

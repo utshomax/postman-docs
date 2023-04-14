@@ -3,11 +3,11 @@ title: "Postman Flows data types"
 updated: 2022-11-17
 ---
 
-{/*  vale Postman.Spelling = NO */}
-{/*  vale Postman.Weasel = NO */}
+{/* <!-- vale Postman.Spelling = NO --> */}
+{/* <!-- vale Postman.Weasel = NO --> */}
 Postman Flows is a dataflow language, which means it understands all kinds of values and associates types with data. Flows is a hybrid typed language, so it performs static type checking to provide features like auto-complete and early warning. Flows also performs some dynamic type checking during execution.
-{/*  vale Postman.Weasel = YES */}
-{/*  vale Postman.Spelling = YES */}
+{/* <!-- vale Postman.Weasel = YES --> */}
+{/* <!-- vale Postman.Spelling = YES --> */}
 
 Because most flow programmers have a JavaScript or TypeScript background, or are programming in an API-First language for the first time, the vocabulary of the types resembles JavaScript and TypeScript.
 
@@ -18,18 +18,18 @@ Because most flow programmers have a JavaScript or TypeScript background, or are
 
 ## Primitive values
 
-{/*  vale Postman.Spelling = NO */}
+{/* <!-- vale Postman.Spelling = NO --> */}
 
 | Type                 | What it accepts                                           | Example                   |
 | -------------------- | --------------------------------------------------------- | ------------------------- |
 | bool                 | `true` or `false`                                     | `true`                    |
 | string               | utf-8 encoded characters                                  | `hello world 😎`              |
-| number               | double precision 64-bit values or 64-bit unsigned integers | `3.14` <br /> `4294967295`  |
+| number               | double precision 64-bit values or 64-bit unsigned integers | `3.14` <br> `4294967295`  |
 | timestamp            | string containing RFC3339 timestamp                       | `1985-04-12T23:20:50.52Z` |
 | regex                | A regular expression                                      | `/ab+c/`                  |
-| symbol               | Symbol of various types                                    | `now` <br /> `null`      |
+| symbol               | Symbol of various types                                    | `now` <br> `null`      |
 
-{/*  vale Postman.Spelling = YES */}
+{/* <!-- vale Postman.Spelling = YES --> */}
 
 ### Boolean
 
@@ -44,11 +44,11 @@ The _boolean_ value gets automatically converted to a _number_ or a _string_ if 
 
 ### String
 
-{/*  vale Postman.Spelling = NO */}
+{/* <!-- vale Postman.Spelling = NO --> */}
 
 The string type is used to represent textual data. It's a UTF-8 encoded list of characters. Like JavaScript, strings in flows are also immutable. For example, once a string is created, it can't be modified. But you can create new strings out of existing strings using operators like _concat_ or _substring_.
 
-{/*  vale Postman.Spelling = YES */}
+{/* <!-- vale Postman.Spelling = YES --> */}
 
 A _string_ value can't be converted automatically to any other type.
 
