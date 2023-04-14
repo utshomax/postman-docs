@@ -121,7 +121,7 @@ $decodeUrl($val: string) => string
 <tr>
 <td>Example</td>
 <td>
-$decodeUrl("https://mozilla.org/?x=%D1%88%D0%B5%D0%BB%D0%BB%D1%8B") -> "https://mozilla.org/?x=шеллы"
+$decodeUrl("https://mozilla.org/?x=%D1%88%D0%B5%D0%BB%D0%BB%D1%8B") -&gt; "https://mozilla.org/?x=шеллы"
 </td>
 </tr>
 </tbody>
@@ -152,14 +152,18 @@ $decodeUrlComponent("&percnt;3Fx&percnt;3Dtest") -> "?x=test"
 
 Applies a function to each key/value pair of an object.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $each($obj: object, func: ($val, $key) : any)
-```
-
-#### Basic usage
-
-``` javascript
-"Address": {
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+<pre>"Address": {
     "Street": "Hursley Park",
     "City": "Winchester",
     "Postcode": "SO21 2JN"
@@ -169,139 +173,206 @@ $each(Address, fn($v, $k) {$k & ": " & $v}) ->
         "Street: Hursley Park",
         "City: Winchester",
         "Postcode: SO21 2JN"
- ]
-```
+ ]</pre>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### encodeUrl
 
 Encodes a value into a URL.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $encodeUrl($val: string) => string
-```
-
-#### Basic usage
-
-``` javascript
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
 $encodeUrl("https://mozilla.org/?x=шеллы") -> "https://mozilla.org/?x=%D1%88%D0%B5%D0%BB%D0%BB%D1%8B"
-```
+</td>
+</tr>
+</tbody>
+</table>
 
 ### encodeUrlComponent
 
 Encodes a value into a component for a URL.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $encodeUrlComponent($val: string) => string
-```
-
-#### Basic usage
-
-``` javascript
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
 $encodeUrlComponent("?x=test")  -> "%3Fx%3Dtest"
-```
+</td>
+</tr>
+</tbody>
+</table>
 
 ### eval
 
 Evaluates an expression.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $eval($val:string) => any
-```
-
-#### Basic usage
-
-``` javascript
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
 $eval("[1,$string(2),3]") -> [1,"2",3]
-```
+</td>
+</tr>
+</tbody>
+</table>
 
 ### exists
 
 Returns true if a value is not null or undefined.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $exists($val: any) => bool
-```
-
-#### Basic usage
-
-``` javascript
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+<pre>
 $exists("hello") -> true
 $exists([1,2,3]) -> true
 $exists({"a" : 1, "b": 2}) -> true
 $exists(null) -> false
 $exists(blah) -> false
-```
+</pre>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### filter
 
 Returns an array of elements which satisfy the predicate defined in a function.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $filter($arr: array, $func: ($e, $index?: number?, $ar: array )=> boolean) => array
-```
-
-#### Basic usage
-
-``` javascript
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
 $filter([1,2,3,4,5], fn($e){ $e>3}) -> [4, 5]
-```
+</td>
+</tr>
+</tbody>
+</table>
 
 ### join
 
 Joins the elements of an array into a string using the optional separator string.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $join($arr: array<string>, $separator?: string) => string
-```
-
-#### Basic usage
-
-``` javascript
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+<pre>
 $join(["hello", "world"]) -> "helloworld"
 $join(["hello", "world"], "-") → "hello-world"
 $join([1,2,3], "..") -> "1..2..3"
-```
+</pre>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### json
 
 Converts an object to a JSON string.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $json($val:any) => string
-```
-
-#### Basic usage
-
-``` javascript
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
 $json({"a": 1, "b" : "hello"}) ->  "{"a":1,"b":"hello"}"
-```
+</td>
+</tr>
+</tbody>
+</table>
 
 ### jsonParse
 
 Parses a JSON string into an object.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $jsonParse($val:string) => object
-```
-
-#### Basic usage
-
-``` javascript
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
 $jsonParse('{"one": 1, "two": [3, "four"]}') -> {"one": 1,"two": [ 3,"four"]}
-```
+</td>
+</tr>
+</tbody>
+</table>
 
 ### keys
 
 Returns an array of the keys in an object.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $keys($obj: object) => array<string>
-```
-
-#### Basic usage
-
-``` javascript
-"Product": [
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+<pre>"Product": [
     {
         "Product Name": "Bowler Hat",
         "ProductID": 858383,
@@ -317,176 +388,274 @@ $keys($obj: object) => array<string>
         "Quantity": 2
     }
 ]
-$keys(Product) -> ["Product Name","ProductID","SKU","Description","Price","Quantity"]
-```
+$keys(Product) -> ["Product Name","ProductID","SKU","Description","Price","Quantity"]</pre>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### length
 
 Returns the length of a string.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $length($str: string) => number
-```
-
-#### Basic usage
-
-``` javascript
-$length("abc") -> 3
-$length("") -> 0
-```
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+<pre>$length("abc") -> 3
+$length("") -> 0</pre>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### lookup
 
 Returns the value of a key in an object.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $lookup($obj: object, $key: string) => any
-```
-
-#### Basic usage
-
-``` javascript
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
 ($o := { "name" : "John", "email": "john@gmail.com"}; $lookup($o, "name")) -> "John"
-```
+</td>
+</tr>
+</tbody>
+</table>
 
 ### lowercase
 
 Returns the lowercase version of a string.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $lowercase($str: string) => string
-```
-
-#### Basic usage
-
-``` javascript
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
 $loweCase("Hello World") -> "hello world"
-```
+</td>
+</tr>
+</tbody>
+</table>
 
 ### map
 
 Maps each element of an array using a function and returns a new array with all the mapped elements.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $map($arr: array, $func: ($e, $index?: number?, $ar: array ) : array
-```
-
-#### Basic usage
-
-``` javascript
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
 $map([1,2,3,4,5], fn($e){ $e *2}) -> [2,4,6,8,10]
-```
+</td>
+</tr>
+</tbody>
+</table>
 
 ### max
 
 Returns the maximum value from a numeric array.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $max($array) => number
-```
-
-#### Basic usage
-
-``` javascript
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
 $max([9,2,17,3]) -> 17
-```
+</td>
+</tr>
+</tbody>
+</table>
 
 ### match
 
 Returns an array of strings that match a pattern.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $match($str: string, $pattern: string | regex) => array<string>
-```
-
-#### Basic usage
-
-``` javascript
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
 $match("ababbabbbcc",/a(b+)/) -> ["ab", "abb", "abbb"]
-```
+</td>
+</tr>
+</tbody>
+</table>
 
 ### merge
 
 Returns a new object with the properties of each object in an array of objects merged into it.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $merge($arr: array<object>) => object
-```
-
-#### Basic usage
-
-``` javascript
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
 $merge([{"a":1},{"b":2}]) -> {"a": 1,"b": 2}
-```
+</td>
+</tr>
+</tbody>
+</table>
 
 ### not
 
 Returns true if a value is false, or false otherwise.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $not($x: any) => bool
-```
-
-#### Basic usage
-
-``` javascript
-$not(true) -> false
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+<pre>$not(true) -> false
 $not(false) -> true
 $not(null) -> true
 $not(0) -> true
 $not(100) -> false
 $not("") -> true
-$not("hello") -> false
-```
+$not("hello") -> false</pre>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### pad
 
 Returns a copy of a string padded to a length with $pad (if provided).
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $pad($str: string, $length: number, $pad?: string) => string
-```
-
-#### Basic usage
-
-``` javascript
-$pad("example", 5) -> "example  "
-$pad("example", 5, "-") -> "example--"
-```
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+<pre>$pad("example", 5) -> "example  "
+$pad("example", 5, "-") -> "example--"</pre>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### partition
 
 Partitions an array into an array of arrays of size $n.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $partition($array:any, $n: numbers) => array
-```
-
-#### Basic usage
-
-``` javascript
-$partition([1,2,3,4,5,6,7,8,9,10], 2) -> [[1,2], [3,4], [5,6], [7,8], [9,10]]
-$partition([1,2,3,4,5,6,7,8,9,10], 3) -> [[1,2,3], [4,5,6], [7,8,9], [10]]
-```
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+<pre>$partition([1,2,3,4,5,6,7,8,9,10], 2) -> [[1,2], [3,4], [5,6], [7,8], [9,10]]
+$partition([1,2,3,4,5,6,7,8,9,10], 3) -> [[1,2,3], [4,5,6], [7,8,9], [10]]</pre>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### replace
 
 Returns a string with all occurrences of a pattern replaced by a replacement string.
 
-``` javascript
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
 $replace($str: string, $pattern: string | regex, $replacement: string) => string
-```
-
-#### Basic usage
-
-``` javascript
-$replace("Hello World", "World", "Everyone") -> "Hello Everyone"
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+<pre>$replace("Hello World", "World", "Everyone") -> "Hello Everyone"
 $replace("the cat sat on the mat", "at", "it") -> "the cit sit on the mit"
-```
+</pre>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### reduce
 
 Reduces an array to some value using a function.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
 
 ``` javascript
 $filter($arr: array, $func: ($e, $index?: number?, $ar: array )=> boolean) => any
@@ -501,6 +670,23 @@ $reduce([1,2,3,4], fn($prev, $cur) { $prev*$cur}) ) -> 24
 ### split
 
 Splits a string into an array of strings using a pattern.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
 
 ``` javascript
 $split($str: string, $pattern: string | regex, $flags?: string) => array<string>
@@ -518,6 +704,23 @@ $split("too much, punctuation. hard; to read", /[ ,.;]+/) -> ["too", "much", "pu
 
 Returns an array of objects with a single key/value pair, where the key is the name of the property and the value is the value of the property.
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 $spread($val: any) => array<object>
 ```
@@ -531,6 +734,23 @@ $spread({ "a": 1, "b": 2}) -> [ { "a" : 1}, {"b": 2}]
 ### string
 
 Returns the string representation of the input value; if $prettify is true, the output string is formatted for readability.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
 
 ``` javascript
 $string($value: any, $prettify? true | false) => string
@@ -548,6 +768,23 @@ $string([1,2,3]) -> ["1", "2", "3"]
 
 Returns a substring of a string starting at $start and with length $length (if provided).
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 $substring($str: string, $start: number, $length?: number) => string
 ```
@@ -563,6 +800,23 @@ $substring("hello world", -5, 5) -> "world"
 
 Returns the substring of a string after the first occurrence of a separator.
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 $substringAfter($str: string, $separator: string) => string
 ```
@@ -576,6 +830,23 @@ $substringAfter("abc@gmail.com", "@") -> "gmail.com"
 ### substringBefore
 
 Returns the substring of a string before the first occurrence of a separator.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
 
 ``` javascript
 $substringBefore($str: string, $separator: string) => string
@@ -591,6 +862,23 @@ $substringBefore( "john@gmail.com", "@") -> "john"
 
 Returns the sum of the values of a numeric array.
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 $sum($array) => number
 ```
@@ -605,6 +893,23 @@ $sum([1,2,3,4]) -> 10
 
 Returns a copy of a string with leading and trailing whitespace removed.
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 $trim($str: string) => string
 ```
@@ -618,6 +923,23 @@ $trim(" Hello \n World ") -> "Hello World"
 ### type
 
 Returns the type of a value.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
 
 ``` javascript
 $type($val: any) => string
@@ -637,6 +959,23 @@ $type(null) -> "null"
 
 Returns the uppercase version of a string
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 $uppercase($str: string) => string
 ```
@@ -650,6 +989,23 @@ $uppercase("hello") -> "HELLO"
 ### uuid
 
 Returns a unique id (UUID version 4) as a string.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
 
 ``` javascript
 $uuid => string
@@ -667,6 +1023,23 @@ $uuid -> "503c5a9f-b8fb-402a-b0d7-fae17490bdf6"
 
 Returns a new array with a value appended (added) to an array.
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 $append($arr: array, $val: any) => array
 ```
@@ -681,6 +1054,23 @@ $append([1,2,3], 5) -> [1,2,3,5]
 ### count
 
 Returns the number of elements in an array.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
 
 ``` javascript
 $count($array) => number
@@ -697,6 +1087,23 @@ $count([]) -> 0
 
 Returns a new array with the distinct elements of $arr with duplicates eliminated.
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 $distinct($arr: array) => array
 ```
@@ -710,6 +1117,23 @@ $distinct(["a", "b", "b", "c"]) -> ["a", "b", "c"]
 ### reverse
 
 Returns a new array with the elements of an array in reverse order.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
 
 ``` javascript
 reverse($arr: array) => array
@@ -725,6 +1149,23 @@ $reverse([1,2,3,4,5]) -> [5,4,3,2,1]
 
 Returns a new array with the elements of an array in random order.
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 shuffle($arr: array) => array
 ```
@@ -738,6 +1179,23 @@ $shuffle([1,2,3,4]) -> [3,1,4,2]
 ### sort
 
 A higher-order function that sorts the elements of an array using the $swapFn function. The comparator function takes two arguments. If it returns true, the elements will be swapped.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
 
 ``` javascript
 $sort($arr: array, $swapFn: ($l, $r)) => boolean
@@ -753,6 +1211,23 @@ $sort([13,2,8,6,15], fn($l, $r) { $l < $r }) -> [15,13,8,6,2]
 ### zip
 
 Takes two or more arrays and convolves (zips) each value from a set of arrays.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
 
 ``` javascript
 $zip($ar1:Array, $ar2:Array, $ar3;Array, ...) => Array
@@ -770,6 +1245,23 @@ $zip([1,2,3],[4,5,6]) -> [[1,4],[2,5],[3,6]]
 
 Returns the absolute value of a number.
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 $abs(n:number) : number
 ```
@@ -783,6 +1275,23 @@ $abs(-1) ->  1
 ### ceil
 
 Returns the smallest integer greater than or equal to a number.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
 
 ``` javascript
 $ceil($num: number) => number
@@ -798,6 +1307,23 @@ $ceil(3.4) -> 4
 
 Returns the largest integer less than or equal to a number.
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 $floor($num: number) => number
 ```
@@ -812,6 +1338,23 @@ $floor(3.4) -> 3
 
 Converts a number to a string in the optional base number system, if a base is not supplied, base 10 is used to create the string.
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 $formatBase($num: number, $base?: number) => string
 ```
@@ -825,6 +1368,23 @@ $formatBase(100, 2) -> "1100100"
 ### number
 
 Converts a value to a number.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
 
 ``` javascript
 $number($x: string | number | bool) => number
@@ -842,6 +1402,23 @@ $number(true) -> 1
 
 Returns $num raised to the $exp power.
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 $power($num: number, $exp: number) => number
 ```
@@ -856,6 +1433,23 @@ $power(3,4) -> 81
 ### round
 
 Rounds a number to the optional precision number of decimal places. If precision is negative, then its value specifies which column to round to on the left side of the decimal place.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
 
 ``` javascript
 $round($num: number, $precision?: number) => number
@@ -876,6 +1470,23 @@ $round(125.456,-1) -> 130
 
 Returns the square root of a number.
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 $sqrt($num: number) => number
 ```
@@ -892,6 +1503,23 @@ $sqrt(16) -> 4
 
 Extracts the year component from a timestamp and returns it as a number.
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 $year($timestamp: string |number) => number
 ```
@@ -906,6 +1534,23 @@ $year("2023-02-08T07:56:14.747+00:00") -> 2023
 
 Extracts the month component from a timestamp.
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 $month($timestamp: string |number) => number
 ```
@@ -919,6 +1564,23 @@ $month("2023-02-08") -> 2
 ### dayOfTheWeek
 
 Returns the day of the week as a number [1=Monday, ... 6=Saturday, 7= Sunday].
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
 
 ``` javascript
 $dayOfTheWeek($timestamp: string |number) => number
@@ -935,6 +1597,23 @@ $dayOftheWeek("2023-02-07") -> 2
 
 Extracts the day from a timestamp and returns it as a number.
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 $day($timestamp: string |number) => number
 ```
@@ -948,6 +1627,23 @@ $day("2023-02-08") -> 8
 ### hours
 
 Extracts the local hour component from a timestamp and returns it as a number.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
 
 ``` javascript
 $hours($timestamp: string |number) => number
@@ -963,6 +1659,23 @@ $hours("2023-02-08T07:56:14.747+00:00") -> 7
 
 Extracts the minutes component from a timestamp and returns it as a number.
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 $minutes($timestamp: string |number) => number
 ```
@@ -976,6 +1689,23 @@ $minutes("2023-02-08T07:56:14.747+00:00") -> 56
 ### seconds
 
 Extracts the local seconds component from a timestamp and returns it as a number.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
 
 ``` javascript
 $seconds($timestamp: string |number) => number
@@ -991,6 +1721,23 @@ $seconds("2023-02-08T07:56:14.747+00:00") -> 14
 
 Extracts the milliseconds from a timestamp and returns it as a number.
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 $milliSeconds($timestamp: string |number) => number
 ```
@@ -1004,6 +1751,23 @@ $milliSeconds("2023-02-08T07:56:14.747+00:00") -> 747
 ### dateEquals
 
 Returns true if the two timestamps are the same, false otherwise.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
 
 ``` javascript
 $equals($timestamp1: string |number, $timestamp2: string |number) => boolean
@@ -1019,6 +1783,23 @@ $dateEquals("2023-02-08", "2023-02-07") -> false
 ### hasSameDate
 
 Returns true if the components specified in $units of  the two timestamps are the same, false otherwise.  $units is an array with one or more strings from ["years", "months", "days", "hours", "minutes", "seconds", "milliseconds"].
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
 
 ``` javascript
 $hasSameDate($timestamp1: string |number, $timestamp2: string |number, units?: Array<string>) => boolean
@@ -1037,6 +1818,23 @@ $hasSameDate("2023-02-01T07:15:54.730Z", "2023-02-01T14:00:22.340Z", ["year","mo
 
 Returns true if $timestamp1 is before $timestamp2, false otherwise.
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 $beforeDate($timestamp1: string |number, $timestamp2: string |number) => boolean
 ```
@@ -1051,6 +1849,23 @@ $beforeDate("2023-02-08", "2023-02-08") -> false
 ### afterDate
 
 Returns true if $timestamp1 is after $timestamp2, false otherwise.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
 
 ``` javascript
 $afterDate($timestamp1: string |number, $timestamp2: string |number) => boolean
@@ -1067,6 +1882,23 @@ $afterDate("2023-02-08", "2023-02-08") -> false
 
 Adds a duration of type $units which can be one of ["years", "months", "days", "hours", "minutes", "seconds", "milliseconds"],  to a $timestamp and returns the new timestamp. If $duration if less than zero, then the it will be subtracted from the $timestamp.
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 $datePlus($timestamp1: string |number, $duration: number, $units, ) => number
 ```
@@ -1081,6 +1913,23 @@ $datePlus("2023-02-07", 2, "months") -> 1680825600000
 ### diffDate
 
 Returns the difference between two timestamps in the units specified which can be one of ["years", "months", "days", "hours", "minutes", "seconds", "milliseconds"].
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
 
 ``` javascript
 $diffDate($timestamp1: string |number, $timestamp2: string |number, $units : string, ) => number
@@ -1097,6 +1946,23 @@ $diffDate("2023-02-08", "2023-01-22","hours") -> 408
 
 Converts a number of milliseconds since the epoch to a string. $picture is optional, if not provided it will default to ISO format. Picture specs are as per Unicode date format standards.
 
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
+
 ``` javascript
 $fromMillis($val:number, $picture?: string) => string
 ```
@@ -1111,6 +1977,23 @@ $fromMillis(1522616700000, "E EEEE") -> "7 Sunday"
 ### toMillis
 
 Converts a string to a number of milliseconds since the epoch. $picture is optional, if not provided it will default to ISO format. Picture specs are as per Unicode date format standards.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+PASTE SYNTAX HERE
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+PASTE EXAMPLE HERE
+</td>
+</tr>
+</tbody>
+</table>
 
 ``` javascript
 $toMillis($val:string, $picture?: string) => number
