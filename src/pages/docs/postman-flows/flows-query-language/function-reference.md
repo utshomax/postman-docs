@@ -452,7 +452,7 @@ $lowercase($str: string) => string
 <tr>
 <td>Example</td>
 <td>
-$loweCase("Hello World") -> "hello world"
+$lowercase("Hello World") -> "hello world"
 </td>
 </tr>
 </tbody>
@@ -644,8 +644,7 @@ Reduces an array to some value using a function.
 <tbody>
 <tr>
 <td>Syntax</td>
-$filter($arr: array, $func: ($e, $index?: number?, $ar: array )=> boolean) => any
-</td>
+<td>$reduce(array, function [, init])</td>
 </tr>
 <tr>
 <td>Example</td>
@@ -688,7 +687,7 @@ Returns an array of objects with a single key/value pair, where the key is the n
 <tr>
 <td>Syntax</td>
 <td>
-$spread($val: any) => array<object>
+$spread($val: any) => array&lt;object&gt;
 </td>
 </tr>
 <tr>
@@ -972,7 +971,7 @@ Returns a new array with the elements of an array in reverse order.
 <tr>
 <td>Syntax</td>
 <td>
-reverse($arr: array) => array
+$reverse($arr: array) => array
 </td>
 </tr>
 <tr>
@@ -993,7 +992,7 @@ Returns a new array with the elements of an array in random order.
 <tr>
 <td>Syntax</td>
 <td>
-shuffle($arr: array) => array
+$shuffle($arr: array) => array
 </td>
 </tr>
 <tr>
@@ -1406,7 +1405,7 @@ Returns true if the two timestamps are the same, false otherwise.
 <tr>
 <td>Syntax</td>
 <td>
-$equals($timestamp1: string |number, $timestamp2: string |number) => boolean
+$dateEquals($timestamp1: string |number, $timestamp2: string |number) => boolean
 </td>
 </tr>
 <tr>
@@ -1570,7 +1569,7 @@ $toMillis($val:string, $picture?: string) => number
 <td>
 <pre>$toMillis("1970-01-01T00:00:00.001Z")  -> 1
 $toMillis("2018-03-27", "yyyy-MM-dd") -> 1522108800000
-toMillis("21 August 2017", "dd MMMM yyyy") -> 1503273600000</pre>
+$toMillis("21 August 2017", "dd MMMM yyyy") -> 1503273600000</pre>
 </td>
 </tr>
 </tbody>
