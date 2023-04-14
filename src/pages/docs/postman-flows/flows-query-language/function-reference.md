@@ -644,28 +644,17 @@ Reduces an array to some value using a function.
 <tbody>
 <tr>
 <td>Syntax</td>
-<td>
-PASTE SYNTAX HERE
+$filter($arr: array, $func: ($e, $index?: number?, $ar: array )=> boolean) => any
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$reduce([1,2,3,4], fn($prev, $cur) { $prev*$cur}) ) -> 24
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$filter($arr: array, $func: ($e, $index?: number?, $ar: array )=> boolean) => any
-```
-
-#### Basic usage
-
-``` javascript
-$reduce([1,2,3,4], fn($prev, $cur) { $prev*$cur}) ) -> 24
-```
 
 ### split
 
@@ -676,29 +665,19 @@ Splits a string into an array of strings using a pattern.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$split($str: string, $pattern: string | regex, $flags?: string) => array<string>
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+<pre>$split("so many words", " ") -> [ "so", "many", "words" ]
+$split("so many words", " ", 2) -> [ "so", "many" ]
+$split("too much, punctuation. hard; to read", /[ ,.;]+/) -> ["too", "much", "punctuation", "hard", "to", "read"]</pre>
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$split($str: string, $pattern: string | regex, $flags?: string) => array<string>
-```
-
-#### Basic usage
-
-``` javascript
-$split("so many words", " ") -> [ "so", "many", "words" ]
-$split("so many words", " ", 2) -> [ "so", "many" ]
-$split("too much, punctuation. hard; to read", /[ ,.;]+/) -> ["too", "much", "punctuation", "hard", "to", "read"]
-```
 
 ### spread
 
@@ -709,27 +688,17 @@ Returns an array of objects with a single key/value pair, where the key is the n
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$spread($val: any) => array<object>
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$spread({ "a": 1, "b": 2}) -> [ { "a" : 1}, {"b": 2}]
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$spread($val: any) => array<object>
-```
-
-#### Basic usage
-
-``` javascript
-$spread({ "a": 1, "b": 2}) -> [ { "a" : 1}, {"b": 2}]
-```
 
 ### string
 
@@ -740,29 +709,19 @@ Returns the string representation of the input value; if $prettify is true, the 
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$string($value: any, $prettify? true | false) => string
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+<pre>$string({"a": 1, "b": 2}) -> "{"a":1, "b" : 2}"
+$string(5) -> "5"
+$string([1,2,3]) -> ["1", "2", "3"]</pre>
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$string($value: any, $prettify? true | false) => string
-```
-
-#### Basic usage
-
-``` javascript
-$string({"a": 1, "b": 2}) -> "{"a":1, "b" : 2}"
-$string(5) -> "5"
-$string([1,2,3]) -> ["1", "2", "3"]
-```
 
 ### substring
 
@@ -773,28 +732,18 @@ Returns a substring of a string starting at $start and with length $length (if p
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$substring($str: string, $start: number, $length?: number) => string
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+<pre>$substring("hello world", 0, 5) -> "hello"
+$substring("hello world", -5, 5) -> "world"</pre>
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$substring($str: string, $start: number, $length?: number) => string
-```
-
-#### Basic usage
-
-``` javascript
-$substring("hello world", 0, 5) -> "hello"
-$substring("hello world", -5, 5) -> "world"
-```
 
 ### substringAfter
 
@@ -805,27 +754,17 @@ Returns the substring of a string after the first occurrence of a separator.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$substringAfter($str: string, $separator: string) => string
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$substringAfter("abc@gmail.com", "@") -> "gmail.com"
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$substringAfter($str: string, $separator: string) => string
-```
-
-#### Basic usage
-
-``` javascript
-$substringAfter("abc@gmail.com", "@") -> "gmail.com"
-```
 
 ### substringBefore
 
@@ -836,27 +775,17 @@ Returns the substring of a string before the first occurrence of a separator.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$substringBefore($str: string, $separator: string) => string
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$substringBefore( "john@gmail.com", "@") -> "john"
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$substringBefore($str: string, $separator: string) => string
-```
-
-#### Basic usage
-
-``` javascript
-$substringBefore( "john@gmail.com", "@") -> "john"
-```
 
 ### sum
 
@@ -867,27 +796,17 @@ Returns the sum of the values of a numeric array.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$sum($array) => number
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$sum([1,2,3,4]) -> 10
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$sum($array) => number
-```
-
-#### Basic usage
-
-``` javascript
-$sum([1,2,3,4]) -> 10
-```
 
 ### trim
 
@@ -898,27 +817,17 @@ Returns a copy of a string with leading and trailing whitespace removed.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$trim($str: string) => string
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$trim(" Hello \n World ") -> "Hello World"
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$trim($str: string) => string
-```
-
-#### Basic usage
-
-``` javascript
-$trim(" Hello \n World ") -> "Hello World"
-```
 
 ### type
 
@@ -929,31 +838,21 @@ Returns the type of a value.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$type($val: any) => string
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+<pre>$type("hello") -> "string"
+$type(1) -> "number"
+$type({}) -> "object"
+$type([]) -> "array"
+$type(null) -> "null"</pre>
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$type($val: any) => string
-```
-
-#### Basic usage
-
-``` javascript
-$type("hello") -> "string"
-$type(1) -> "number"
-$type({}) -> "object"
-$type([]) -> "array"
-$type(null) -> "null"
-```
 
 ### uppercase
 
@@ -964,27 +863,17 @@ Returns the uppercase version of a string
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$uppercase($str: string) => string
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$uppercase("hello") -> "HELLO"
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$uppercase($str: string) => string
-```
-
-#### Basic usage
-
-``` javascript
-$uppercase("hello") -> "HELLO"
-```
 
 ### uuid
 
@@ -995,27 +884,17 @@ Returns a unique id (UUID version 4) as a string.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$uuid => string
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$uuid -> "503c5a9f-b8fb-402a-b0d7-fae17490bdf6"
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$uuid => string
-```
-
-#### Basic usage
-
-``` javascript
-$uuid -> "503c5a9f-b8fb-402a-b0d7-fae17490bdf6"
-```
 
 ## Array functions
 
@@ -1028,28 +907,18 @@ Returns a new array with a value appended (added) to an array.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$append($arr: array, $val: any) => array
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+<pre>$append([1,2,3], [5,6]) -> [1,2,3,4,5,6]
+$append([1,2,3], 5) -> [1,2,3,5]</pre>
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$append($arr: array, $val: any) => array
-```
-
-#### Basic usage
-
-``` javascript
-$append([1,2,3], [5,6]) -> [1,2,3,4,5,6]
-$append([1,2,3], 5) -> [1,2,3,5]
-```
 
 ### count
 
@@ -1060,28 +929,18 @@ Returns the number of elements in an array.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$count($array) => number
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+<pre>$count([1,2,3,4,5]) -> 5
+$count([]) -> 0</pre>
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$count($array) => number
-```
-
-#### Basic usage
-
-``` javascript
-$count([1,2,3,4,5]) -> 5
-$count([]) -> 0
-```
 
 ### distinct
 
@@ -1092,27 +951,17 @@ Returns a new array with the distinct elements of $arr with duplicates eliminate
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$distinct($arr: array) => array
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$distinct(["a", "b", "b", "c"]) -> ["a", "b", "c"]
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$distinct($arr: array) => array
-```
-
-#### Basic usage
-
-``` javascript
-$distinct(["a", "b", "b", "c"]) -> ["a", "b", "c"]
-```
 
 ### reverse
 
@@ -1123,27 +972,17 @@ Returns a new array with the elements of an array in reverse order.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+reverse($arr: array) => array
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$reverse([1,2,3,4,5]) -> [5,4,3,2,1]
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-reverse($arr: array) => array
-```
-
-#### Basic usage
-
-``` javascript
-$reverse([1,2,3,4,5]) -> [5,4,3,2,1]
-```
 
 ### shuffle
 
@@ -1154,27 +993,17 @@ Returns a new array with the elements of an array in random order.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+shuffle($arr: array) => array
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$shuffle([1,2,3,4]) -> [3,1,4,2]
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-shuffle($arr: array) => array
-```
-
-#### Basic usage
-
-``` javascript
-$shuffle([1,2,3,4]) -> [3,1,4,2]
-```
 
 ### sort
 
@@ -1185,28 +1014,18 @@ A higher-order function that sorts the elements of an array using the $swapFn fu
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$sort($arr: array, $swapFn: ($l, $r)) => boolean
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+<pre>$sort([13,2,8,6,15], fn($l, $r) { $l > $r }) -> [2,6,8,13,15]
+$sort([13,2,8,6,15], fn($l, $r) { $l < $r }) -> [15,13,8,6,2]</pre>
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$sort($arr: array, $swapFn: ($l, $r)) => boolean
-```
-
-#### Basic usage
-
-``` javascript
-$sort([13,2,8,6,15], fn($l, $r) { $l > $r }) -> [2,6,8,13,15]
-$sort([13,2,8,6,15], fn($l, $r) { $l < $r }) -> [15,13,8,6,2]
-```
 
 ### zip
 
@@ -1217,27 +1036,17 @@ Takes two or more arrays and convolves (zips) each value from a set of arrays.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$zip($ar1:Array, $ar2:Array, $ar3;Array, ...) => Array
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$zip([1,2,3],[4,5,6]) -> [[1,4],[2,5],[3,6]]
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$zip($ar1:Array, $ar2:Array, $ar3;Array, ...) => Array
-```
-
-#### Basic usage
-
-``` javascript
-$zip([1,2,3],[4,5,6]) -> [[1,4],[2,5],[3,6]]
-```
 
 ## Numeric functions
 
@@ -1250,27 +1059,17 @@ Returns the absolute value of a number.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$abs(n:number) : number
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$abs(-1) ->  1
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$abs(n:number) : number
-```
-
-#### Basic usage
-
-``` javascript
-$abs(-1) ->  1
-```
 
 ### ceil
 
@@ -1281,27 +1080,17 @@ Returns the smallest integer greater than or equal to a number.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$ceil($num: number) => number
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$ceil(3.4) -> 4
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$ceil($num: number) => number
-```
-
-#### Basic usage
-
-``` javascript
-$ceil(3.4) -> 4
-```
 
 ### floor
 
@@ -1312,27 +1101,17 @@ Returns the largest integer less than or equal to a number.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$floor($num: number) => number
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$floor(3.4) -> 3
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$floor($num: number) => number
-```
-
-#### Basic usage
-
-``` javascript
-$floor(3.4) -> 3
-```
 
 ### formatBase
 
@@ -1343,27 +1122,17 @@ Converts a number to a string in the optional base number system, if a base is n
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$formatBase($num: number, $base?: number) => string
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$formatBase(100, 2) -> "1100100"
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$formatBase($num: number, $base?: number) => string
-```
-
-#### Basic usage
-
-``` javascript
-$formatBase(100, 2) -> "1100100"
-```
 
 ### number
 
@@ -1374,29 +1143,19 @@ Converts a value to a number.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$number($x: string | number | bool) => number
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+<pre>$number("-0.05") -> -0.05
+$number(false) -> 0
+$number(true) -> 1</pre>
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$number($x: string | number | bool) => number
-```
-
-#### Basic usage
-
-``` javascript
-$number("-0.05") -> -0.05
-$number(false) -> 0
-$number(true) -> 1
-```
 
 ### power
 
@@ -1407,28 +1166,18 @@ Returns $num raised to the $exp power.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$power($num: number, $exp: number) => number
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+<pre>$power(2, 3) -> 8
+$power(3,4) -> 81</pre>
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$power($num: number, $exp: number) => number
-```
-
-#### Basic usage
-
-``` javascript
-$power(2, 3) -> 8
-$power(3,4) -> 81
-```
 
 ### round
 
@@ -1439,32 +1188,22 @@ Rounds a number to the optional precision number of decimal places. If precision
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$round($num: number, $precision?: number) => number
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
-</td>
-</tr>
-</tbody>
-</table>
-
-``` javascript
-$round($num: number, $precision?: number) => number
-```
-
-#### Basic usage
-
-``` javascript
-$round(123.456) -> 123
+<pre>$round(123.456) -> 123
 $round(123.456, 2) -> 123.46
 $round(123.456, -1) -> 120
 $round(123.456, -2) -> 100
 $round(125, -1) -> 120
-$round(125.456,-1) -> 130
-```
+$round(125.456,-1) -> 130</pre>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### sqrt
 
@@ -1475,27 +1214,17 @@ Returns the square root of a number.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$sqrt($num: number) => number
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$sqrt(16) -> 4
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$sqrt($num: number) => number
-```
-
-#### Basic usage
-
-``` javascript
-$sqrt(16) -> 4
-```
 
 ## Date and time functions
 
@@ -1508,27 +1237,17 @@ Extracts the year component from a timestamp and returns it as a number.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$year($timestamp: string |number) => number
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$year("2023-02-08T07:56:14.747+00:00") -> 2023
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$year($timestamp: string |number) => number
-```
-
-#### Basic usage
-
-``` javascript
-$year("2023-02-08T07:56:14.747+00:00") -> 2023
-```
 
 ### month
 
@@ -1539,27 +1258,17 @@ Extracts the month component from a timestamp.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$month($timestamp: string |number) => number
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$month("2023-02-08") -> 2
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$month($timestamp: string |number) => number
-```
-
-#### Basic usage
-
-``` javascript
-$month("2023-02-08") -> 2
-```
 
 ### dayOfTheWeek
 
@@ -1570,28 +1279,18 @@ Returns the day of the week as a number [1=Monday, ... 6=Saturday, 7= Sunday].
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$dayOfTheWeek($timestamp: string |number) => number
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+<pre>$dayOftheWeek("2023-02-08") -> 3
+$dayOftheWeek("2023-02-07") -> 2</pre>
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$dayOfTheWeek($timestamp: string |number) => number
-```
-
-#### Basic usage
-
-``` javascript
-$dayOftheWeek("2023-02-08") -> 3
-$dayOftheWeek("2023-02-07") -> 2
-```
 
 ### day
 
@@ -1602,27 +1301,17 @@ Extracts the day from a timestamp and returns it as a number.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$day($timestamp: string |number) => number
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$day("2023-02-08") -> 8
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$day($timestamp: string |number) => number
-```
-
-#### Basic usage
-
-``` javascript
-$day("2023-02-08") -> 8
-```
 
 ### hours
 
@@ -1633,27 +1322,17 @@ Extracts the local hour component from a timestamp and returns it as a number.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$hours($timestamp: string |number) => number
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$hours("2023-02-08T07:56:14.747+00:00") -> 7
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$hours($timestamp: string |number) => number
-```
-
-#### Basic usage
-
-``` javascript
-$hours("2023-02-08T07:56:14.747+00:00") -> 7
-```
 
 ### minutes
 
@@ -1664,27 +1343,17 @@ Extracts the minutes component from a timestamp and returns it as a number.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$minutes($timestamp: string |number) => number
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$minutes("2023-02-08T07:56:14.747+00:00") -> 56
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$minutes($timestamp: string |number) => number
-```
-
-#### Basic usage
-
-``` javascript
-$minutes("2023-02-08T07:56:14.747+00:00") -> 56
-```
 
 ### seconds
 
@@ -1695,27 +1364,17 @@ Extracts the local seconds component from a timestamp and returns it as a number
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$seconds($timestamp: string |number) => number
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$seconds("2023-02-08T07:56:14.747+00:00") -> 14
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$seconds($timestamp: string |number) => number
-```
-
-#### Basic usage
-
-``` javascript
-$seconds("2023-02-08T07:56:14.747+00:00") -> 14
-```
 
 ### milliSeconds
 
@@ -1726,27 +1385,17 @@ Extracts the milliseconds from a timestamp and returns it as a number.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$milliSeconds($timestamp: string |number) => number
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$milliSeconds("2023-02-08T07:56:14.747+00:00") -> 747
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$milliSeconds($timestamp: string |number) => number
-```
-
-#### Basic usage
-
-``` javascript
-$milliSeconds("2023-02-08T07:56:14.747+00:00") -> 747
-```
 
 ### dateEquals
 
@@ -1757,28 +1406,18 @@ Returns true if the two timestamps are the same, false otherwise.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$equals($timestamp1: string |number, $timestamp2: string |number) => boolean
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+<pre>$dateEquals("2023-02-08", "2023-02-08") -> true
+$dateEquals("2023-02-08", "2023-02-07") -> false</pre>
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$equals($timestamp1: string |number, $timestamp2: string |number) => boolean
-```
-
-#### Basic usage
-
-``` javascript
-$dateEquals("2023-02-08", "2023-02-08") -> true
-$dateEquals("2023-02-08", "2023-02-07") -> false
-```
 
 ### hasSameDate
 
@@ -1789,30 +1428,20 @@ Returns true if the components specified in $units of  the two timestamps are th
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$hasSameDate($timestamp1: string |number, $timestamp2: string |number, units?: Array<string>) => boolean
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+<pre>$hasSameDate("23-02-08", "2019-02-08", ["month", "day"]) -> true
+$hasSameDate("2023-02-01", "2023-02-08", ["month", "year"]) -> true
+$hasSameDate("23-02-01", "2023-02-08", ["month", "year"]) -> true
+$hasSameDate("2023-02-01T07:15:54.730Z", "2023-02-01T14:00:22.340Z", ["year","month", "day"]) -> true</pre>
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$hasSameDate($timestamp1: string |number, $timestamp2: string |number, units?: Array<string>) => boolean
-```
-
-#### Basic usage
-
-``` javascript
-$hasSameDate("23-02-08", "2019-02-08", ["month", "day"]) -> true
-$hasSameDate("2023-02-01", "2023-02-08", ["month", "year"]) -> true
-$hasSameDate("23-02-01", "2023-02-08", ["month", "year"]) -> true
-$hasSameDate("2023-02-01T07:15:54.730Z", "2023-02-01T14:00:22.340Z", ["year","month", "day"]) -> true
-```
 
 ### beforeDate
 
@@ -1823,28 +1452,18 @@ Returns true if $timestamp1 is before $timestamp2, false otherwise.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$beforeDate($timestamp1: string |number, $timestamp2: string |number) => boolean
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+<pre>$beforeDate("2023-02-07", "2023-02-08") -> true
+$beforeDate("2023-02-08", "2023-02-08") -> false</pre>
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$beforeDate($timestamp1: string |number, $timestamp2: string |number) => boolean
-```
-
-#### Basic usage
-
-``` javascript
-$beforeDate("2023-02-07", "2023-02-08") -> true
-$beforeDate("2023-02-08", "2023-02-08") -> false
-```
 
 ### afterDate
 
@@ -1855,28 +1474,18 @@ Returns true if $timestamp1 is after $timestamp2, false otherwise.
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$afterDate($timestamp1: string |number, $timestamp2: string |number) => boolean
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+$afterDate("2023-02-09", "2023-02-08") -> true
+$afterDate("2023-02-08", "2023-02-08") -> false
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$afterDate($timestamp1: string |number, $timestamp2: string |number) => boolean
-```
-
-#### Basic usage
-
-``` javascript
-$afterDate("2023-02-09", "2023-02-08") -> true
-$afterDate("2023-02-08", "2023-02-08") -> false
-```
 
 ### datePlus
 
@@ -1887,28 +1496,18 @@ Adds a duration of type $units which can be one of ["years", "months", "days", "
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$datePlus($timestamp1: string |number, $duration: number, $units, ) => number
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+<pre>$datePlus("2023-02-07", 2, "days") -> 1675900800000
+$datePlus("2023-02-07", 2, "months") -> 1680825600000</pre>
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$datePlus($timestamp1: string |number, $duration: number, $units, ) => number
-```
-
-#### Basic usage
-
-``` javascript
-$datePlus("2023-02-07", 2, "days") -> 1675900800000
-$datePlus("2023-02-07", 2, "months") -> 1680825600000
-```
 
 ### diffDate
 
@@ -1919,28 +1518,18 @@ Returns the difference between two timestamps in the units specified which can b
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$diffDate($timestamp1: string |number, $timestamp2: string |number, $units : string, ) => number
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+<pre>$diffDate("2023-02-08", "2023-01-22", "days") -> 17
+$diffDate("2023-02-08", "2023-01-22","hours") -> 408</pre>
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$diffDate($timestamp1: string |number, $timestamp2: string |number, $units : string, ) => number
-```
-
-#### Basic usage
-
-``` javascript
-$diffDate("2023-02-08", "2023-01-22", "days") -> 17
-$diffDate("2023-02-08", "2023-01-22","hours") -> 408
-```
 
 ### fromMillis
 
@@ -1951,28 +1540,18 @@ Converts a number of milliseconds since the epoch to a string. $picture is optio
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$fromMillis($val:number, $picture?: string) => string
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+<pre>$fromMillis(1521801216617, "dd/M/yyyy") -> "23/3/2018"
+$fromMillis(1522616700000, "E EEEE") -> "7 Sunday"</pre>
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$fromMillis($val:number, $picture?: string) => string
-```
-
-#### Basic usage
-
-``` javascript
-$fromMillis(1521801216617, "dd/M/yyyy") -> "23/3/2018"
-$fromMillis(1522616700000, "E EEEE") -> "7 Sunday"
-```
 
 ### toMillis
 
@@ -1983,26 +1562,16 @@ Converts a string to a number of milliseconds since the epoch. $picture is optio
 <tr>
 <td>Syntax</td>
 <td>
-PASTE SYNTAX HERE
+$toMillis($val:string, $picture?: string) => number
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-PASTE EXAMPLE HERE
+<pre>$toMillis("1970-01-01T00:00:00.001Z")  -> 1
+$toMillis("2018-03-27", "yyyy-MM-dd") -> 1522108800000
+toMillis("21 August 2017", "dd MMMM yyyy") -> 1503273600000</pre>
 </td>
 </tr>
 </tbody>
 </table>
-
-``` javascript
-$toMillis($val:string, $picture?: string) => number
-```
-
-#### Basic usage
-
-``` javascript
-$toMillis("1970-01-01T00:00:00.001Z")  -> 1
-$toMillis("2018-03-27", "yyyy-MM-dd") -> 1522108800000
-toMillis("21 August 2017", "dd MMMM yyyy") -> 1503273600000
-```
