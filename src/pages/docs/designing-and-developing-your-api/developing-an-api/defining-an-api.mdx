@@ -114,7 +114,7 @@ A multi-file API definition consists of the following components:
 
 > Multi-file API definitions don't support the schema sync integration. Instead, use [API version control](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/) to sync with a repository.
 
-<!-- -->
+{/* <!-- --> */}
 
 > You can't manage a multi-file API definition using the Postman API.
 
@@ -124,7 +124,7 @@ An API definition's root file contains references to other files in the API defi
 
 For OpenAPI 3.0 API definitions, Postman detects root files based on the content and references within files while importing or creating an API definition. You can't set a file as root for OpenAPI definitions. OpenAPI definitions can have one root file. If you delete the root file, Postman will recalculate the next candidate for the root file automatically.
 
-For protobuf API definitions, while importing the API, Postman detects all files which have service definitions present in them and marks one as the root. You can set another file as root if there's more than one candidate for root file. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a `.proto` file in the sidebar and select **Mark as root**.
+For protobuf API definitions, while importing the API, Postman detects all files which have service definitions present in them and marks one as the root. You can set another file as root if there's more than one candidate for root file. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"/> next to a `.proto` file in the sidebar and select **Mark as root**.
 
 ### Editing a multi-file API definition
 
@@ -132,21 +132,21 @@ To edit a multi-file API definition, select an API in the sidebar to expand it, 
 
 ### Adding files and folders
 
-You can add files and folders to a multi-file API definition. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to **Definition**, then select **Add file** or **Add folder**.
+You can add files and folders to a multi-file API definition. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"/> next to **Definition**, then select **Add file** or **Add folder**.
 
 <img alt="Adding a file to an API" src="https://assets.postman.com/postman-docs/v10/api-builder-add-file-v10.jpg" width="382px"/>
 
-To add a file to a folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a folder, then select **Add file**. You can rearrange files and folders by dragging them in the sidebar. You can also rename or delete a file or folder by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
+To add a file to a folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"/> next to a folder, then select **Add file**. You can rearrange files and folders by dragging them in the sidebar. You can also rename or delete a file or folder by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"/>.
 
 > When you add a file to a single-file OpenAPI 3.0 definition, or to a protobuf 2.0 or 3.0 definition, it's converted to a multi-file API definition. The existing definition file becomes the root file.
 
 ### Deleting files and folders
 
-To delete a definition file or folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the item and select **Delete**. Deleting a file or folder doesn't affect other elements added to the API, such as collections.
+To delete a definition file or folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"/> next to the item and select **Delete**. Deleting a file or folder doesn't affect other elements added to the API, such as collections.
 
-You can restore a deleted definition file using the [Changelog](/docs/designing-and-developing-your-api/managing-apis/#using-the-changelog). Select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> in the right sidebar, then select **Restore** below the definition file you want to restore.
+You can restore a deleted definition file using the [Changelog](/docs/designing-and-developing-your-api/managing-apis/#using-the-changelog). Select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"/> in the right sidebar, then select **Restore** below the definition file you want to restore.
 
-> **About definition IDs.** When you add a definition to an API, Postman assigns a definition ID to the API. You can view the definition ID by opening an API and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. The definition ID acts as a container for all the definition files in the API. If you delete all the definition files, the definition ID itself isn't deleted. If you then add a new definition file, the definition ID remains the same as before.
+> **About definition IDs.** When you add a definition to an API, Postman assigns a definition ID to the API. You can view the definition ID by opening an API and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"/> in the right sidebar. The definition ID acts as a container for all the definition files in the API. If you delete all the definition files, the definition ID itself isn't deleted. If you then add a new definition file, the definition ID remains the same as before.
 
 ## Viewing rule violations in your API definition
 
@@ -178,7 +178,7 @@ To hide a rule violation for the API definition, do the following:
 
 1. Select a reason that you want to hide it, then select **Hide** again.
 
-    <img alt="" src="https://assets.postman.com/postman-docs/v10/api-definition-hide-rule-violation-choose-reason-v10.jpg" width="300px"/>
+    <img alt="Choose reason for hide rule in your API definition" src="https://assets.postman.com/postman-docs/v10/api-definition-hide-rule-violation-choose-reason-v10.jpg" width="300px"/>
 
 This will hide the rule violation for the current API. If there is more than one violation of a specific rule, you can hide each instance individually.
 
@@ -189,6 +189,6 @@ When you or another member of your team hides a rule violation, Postman shows a 
 To turn a rule back on later, do the following:
 
 1. Select **Review**.
-1. Review your hidden rules and select the eye icon <img alt="Eye icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> next to the one you want to turn back on.
+1. Review your hidden rules and select the eye icon <img alt="Eye icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"/> next to the one you want to turn back on.
 
 <img alt="Review hidden rules for your API definition" src="https://assets.postman.com/postman-docs/v10/api-definition-review-hidden-warnings-v10.jpg" width="800px"/>

@@ -57,21 +57,21 @@ A security misconfiguration can result from many issues, including:
 
 ### CORS misconfiguration
 
-<!-- vale Postman.Weasel = NO -->
+{/* <!-- vale Postman.Weasel = NO --> */}
 
 Cross-origin resource sharing (CORS) is a browser mechanism that enables controlled access to resources located outside of a given domain. It extends and adds flexibility to the same-origin policy ([SOP](https://portswigger.net/web-security/cors/same-origin-policy)). However, if a website's CORS policy isn't configured and implemented correctly, it also provides the potential for cross-domain attacks. CORS doesn't protect from cross-origin attacks such as cross-site request forgery ([CSRF](https://portswigger.net/web-security/csrf)).
 
-<!-- vale Postman.Weasel = YES -->
+{/* <!-- vale Postman.Weasel = YES --> */}
 
 #### Allowlisted null origin value with credentials
 
-<!-- vale Postman.Vocab = NO -->
+{/* <!-- vale Postman.Vocab = NO --> */}
 
 Issue description | Possible fix
 --- | ---
 `Access-Control-Allow-Credentials` is set as `true` and `Access-Control-Allow-Origin` is set as `null`. With this configuration, an attacker could send AJAX queries to a vulnerable website from a malicious page loaded by the victim’s user agent. Even if a website with unauthenticated sensitive content (for example, an intranet website) doesn’t allow authenticated AJAX requests, this misconfiguration still lets attackers access it. | If a web resource has sensitive information, you need to specify the origin in the `Access-Control-Allow-Origin` header. Specify trusted websites that need this resource in this header, with the most secured protocol supported.
 
-<!-- vale Postman.Vocab = YES -->
+{/* <!-- vale Postman.Vocab = YES --> */}
 
 #### Allowlisted null origin value
 
@@ -89,25 +89,25 @@ Issue description | Possible fix
 
 Some websites accept a connection through HTTP and then redirect to HTTPS. In those cases, visitors might first communicate with the non-encrypted version of the site (for example, `www.example.com` or `example.com`) before they're redirected. This creates an opportunity for a [manipulator-in-the-middle attack](https://owasp.org/www-community/attacks/Manipulator-in-the-middle_attack). The redirect could be exploited to direct visitors to a malicious site instead of the secure version of the original site.
 
-<!-- vale Postman.Weasel = NO -->
+{/* <!-- vale Postman.Weasel = NO --> */}
 
 Issue description | Possible fix
 --- | ---
 The HTTP `Strict-Transport-Security` header is missing or isn’t configured correctly. This header informs browsers to access the site using HTTPS and that any future attempts to access it using HTTP will automatically be converted to HTTPS. | Add the [`Strict-Transport-Security`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security) header so the browser can remember to access the site using HTTPS, and define the `max-age` property in the header.
 
-<!-- vale Postman.Weasel = YES -->
+{/* <!-- vale Postman.Weasel = YES --> */}
 
 ### Cache poisoning
 
 [Cache poisoning attacks](https://owasp.org/www-community/attacks/Cache_Poisoning) exploit [`Cache-Control`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control) behavior so that a harmful response is served to users. If a maliciously constructed response is cached, either by a web cache used by multiple users or in the browser cache of a single user, the damage can be magnified.
 
-<!-- vale Postman.Weasel = NO -->
+{/* <!-- vale Postman.Weasel = NO --> */}
 
 Issue description | Possible fix
 --- | ---
 The `Cache-Control` header is missing or isn’t configured correctly, which means the browser and proxies can cache content. This might be the intended behavior for static assets like CSS, JavaScript, or image files, but you need to review the assets to ensure that sensitive content won’t be cached. | For secure content, make sure the `Cache-Control` header is set with `no-cache`, `no-store`, and `must-revalidate`. If an asset needs to be cached, consider setting the directives `public`, `max-age`, and `immutable`.
 
-<!-- vale Postman.Weasel = YES -->
+{/* <!-- vale Postman.Weasel = YES --> */}
 
 ### Cross-site request forgery
 
@@ -143,21 +143,21 @@ Sometimes developers expose all object properties without considering their sens
 
 Sometimes an API can inadvertently disclose sensitive information like the location of the file that produced an unhandled exception. This information can be used to launch more attacks on a web application.
 
-<!-- vale Postman.Weasel = NO -->
+{/* <!-- vale Postman.Weasel = NO --> */}
 
 Bad actors might provide invalid inputs to the API to get more information about the underlying system that's being used to power the API. If the invalid inputs aren't handled correctly, the API will return the stack trace of the error. The stack trace includes the error origin, packages used in the service, the server's directory path, and information about the technology used to build the API.
 
-<!-- vale Postman.Weasel = YES -->
+{/* <!-- vale Postman.Weasel = YES --> */}
 
 #### Stack trace leak
 
-<!-- vale Postman.Weasel = NO -->
+{/* <!-- vale Postman.Weasel = NO --> */}
 
 Issue description | Possible fix
 --- | ---
 The stack trace is exposed in the response body. This might reveal the structure of the application and any internal components it relies on. It might also reveal information like server-side file names and SQL code that the application uses, which means an attacker could fine-tune a later injection attack. | Send the user a more generic error message that reveals less information. Either suppress the stack trace entirely, or log it specifically to the server.
 
-<!-- vale Postman.Weasel = YES -->
+{/* <!-- vale Postman.Weasel = YES --> */}
 
 #### Sensitive data exposure in response body
 
@@ -223,11 +223,11 @@ A cookie was set without the `Secure` flag. This means an attacker could access 
 
 ### Clickjacking
 
-<!-- vale Postman.Avoid = NO -->
+{/* <!-- vale Postman.Avoid = NO --> */}
 
 [Clickjacking](https://owasp.org/www-community/attacks/Clickjacking) is when an attacker uses transparent layers to trick a user into selecting a button or link on another page when they meant to select the top-level page. Clickjacking is also known as a "UI redress attack." This enables the attacker to hijack clicks meant for one page and route them to another page owned by another application, domain, or both.
 
-<!-- vale Postman.Avoid = YES -->
+{/* <!-- vale Postman.Avoid = YES --> */}
 
 #### Improper frame-ancestors directive in CSP policy
 
@@ -243,10 +243,10 @@ The `X-Frame-Options` header is set to `Allow`. This means all websites can load
 
 ### MIME sniffing
 
-<!-- vale Postman.Weasel = NO -->
+{/* <!-- vale Postman.Weasel = NO --> */}
 
 Issue description | Possible fix
 --- | ---
 The `X-Content-Type-Options` header isn’t configured correctly. This means an attacker could upload a HTML file disguised as a different file type that the web server accepts (for example, a JPEG or a zip file). The browser renders the uploaded file as an HTML file, then the attacker can execute an XSS attack. | To turn off MIME sniffing in Internet Explorer and Chrome, use the `X-Content-Type-Options: nosniff` HTTP header. This requires the browser to use the MIME type sent by the server. Since the browser will no longer analyze the file, the website owner must make sure that they’re sending the appropriate MIME information.
 
-<!-- vale Postman.Weasel = YES -->
+{/* <!-- vale Postman.Weasel = YES --> */}

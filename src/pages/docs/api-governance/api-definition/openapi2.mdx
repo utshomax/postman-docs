@@ -29,7 +29,7 @@ You can use Postman to identify any potential security and formatting issues whe
 
 For all APIs defined in OpenAPI 2.0, the following list describes possible warning messages and potential ways to resolve them.
 
-<!-- vale off -->
+{/* <!-- vale off --> */}
 
 * [Broken object level authorization](#broken-object-level-authorization)
     * [Scope for OAuth scheme used in security field is not defined in the securityDefinition declaration](#scope-for-oauth-scheme-used-in-security-field-is-not-defined-in-the-securitydefinition-declaration)
@@ -97,12 +97,12 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
     * [All schema properties should have descriptions](#all-schema-properties-should-have-descriptions)
     * [Arrays must have `minItems` and `maxItems` defined](#arrays-must-have-minitems-and-maxitems-defined)
 
-<!-- vale on -->
+{/* <!-- vale on --> */}
 
 ## Broken object level authorization
 
-<!-- vale Postman.Uncertainty = NO -->
-<!-- vale Microsoft.Contractions = NO -->
+{/* <!-- vale Postman.Uncertainty = NO --> */}
+{/* <!-- vale Microsoft.Contractions = NO --> */}
 
 ### Scope for OAuth scheme used in security field is not defined in the securityDefinition declaration
 
@@ -742,7 +742,7 @@ paths:
 
 ### Operation does not contain consumes field
 
-<!-- vale Microsoft.Contractions = YES -->
+{/* <!-- vale Microsoft.Contractions = YES --> */}
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
@@ -858,13 +858,13 @@ info:
 
 ### The info object should have a license URL
 
-<!-- vale Postman.Weasel = NO -->
+{/* <!-- vale Postman.Weasel = NO --> */}
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | Your API definition's [license object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#license-object) doesn't have a license URL, which provides a link to a web page that describes the license. Although a license URL isn't required, a license name alone may not be not enough information for your API's consumers, especially when you use a custom license. | Add a URL to your API definition's license object. |
 
-<!-- vale Postman.Weasel = YES -->
+{/* <!-- vale Postman.Weasel = YES --> */}
 
 #### Resolution
 
@@ -1291,13 +1291,13 @@ This rule category deals with how to model various data types.
 
 ### A schema property should reference a reusable schema
 
-<!-- vale Postman.ComplexWords = NO -->
+{/* <!-- vale Postman.ComplexWords = NO --> */}
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | A schema property in one or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#responseObject) or [body parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#parameterObject) doesn't reference a reusable schema. A schema reference (`$ref`) that targets reusable schemas in `definitions` supports design consistency and OpenAPI document and API documentation readability, and facilitates maintainability by avoiding duplication of models. | Consolidate all your responses and body parameter schemas into `definitions`. |
 
-<!-- vale Postman.ComplexWords = YES -->
+{/* <!-- vale Postman.ComplexWords = YES --> */}
 
 #### Resolution
 
