@@ -22,7 +22,7 @@ contextual_links:
 
 ## Basic concepts of Postman Flows and webhooks
 
-Webhooks are a way for one system to notify another system that some information has changed. It works very similar to push notifications on a smartphone. Instead of constantly needing to check the email app to see if there's any new mail, the email app sends a notification to the user that a new email has been received. Many services today that have an API also offer webhooks as a way to communicate between their system and yours.
+Webhooks are a way for one system to notify another system that some information has changed. It works very similarly to push notifications on a smartphone. Instead of constantly needing to check the email app to see if there's any new mail, the email app sends a notification to the user that a new email has been received. Many services today that have an API also offer webhooks as a way to communicate between their system and yours.
 
 When a Flow is deployed to the cloud, the Flow can be run each time it receives a webhook from another service. This is useful because the Flow can be run automatically and doesn't need your computer to be on, since these Flows run on Postman's cloud.
 
