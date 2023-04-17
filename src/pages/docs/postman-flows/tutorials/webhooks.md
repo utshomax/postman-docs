@@ -16,7 +16,7 @@ contextual_links:
 
 ## Contents
 
-* [Basics concepts of Flows and webhooks](#basics-concepts-of-flows-and-webhooks)
+* [Basic concepts of Postman Flows and webhooks](#basics-concepts-of-flows-and-webhooks)
 * [Connect a Flow to a Slack app](#connect-a-flow-to-a-slack-app)
 * [Building your own Slack app with Flows](#building-your-own-slack-app-with-flows)
 
