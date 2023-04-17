@@ -75,7 +75,8 @@ Team roles offer high-level access control:
 | Remove users | &#x2714; | &#x2714; | | | |
 | Manage team Admins and Developers | &#x2714; | &#x2714; | | | |
 | Manage SSO | &#x2714; | &#x2714; || | |
-| Manage custom domains  | &#x2714; | &#x2714; | | | |
+| Add and edit custom domains  | &#x2714; | &#x2714; | | | &#x2714; |
+| Delete custom domains  | &#x2714; | &#x2714; | | | |
 | View audit logs  | &#x2714; | &#x2714; | | | &#x2714; |
 | View usage data | &#x2714; | &#x2714; | &#x2714; | &#x2714; | &#x2714; |
 | Manage Billing members | &#x2714; | &#x2714; | &#x2714; | | |
