@@ -84,7 +84,7 @@ Next, fork (which just means copy in this case) the collection found [here](http
 
 In the environment you just forked, paste your polygon API key where it says **YOUR_API_KEY_HERE**. Now you're ready to start building the Flow.
 
-To start the Flow, create two **Evaluate** blocks and paste the follwing ```$match(slack_text,'(?<=text=)[^&]+')[0]``` and ```$replace($match(slack_text,'(?<=commands%2F)[^&]+')[0],"%2F","/")```. The first function you're pasting gets the text after the **stock-quote** slash command from the webhook Slack sends, and the second one gets the destination in slack your Flow will send the reply to.
+To start the flow, create two **Evaluate** blocks and paste the following ```$match(slack_text,'(?<=text=)[^&]+')[0]``` and ```$replace($match(slack_text,'(?<=commands%2F)[^&]+')[0],"%2F","/")```. The first function you're pasting gets the text after the **stock-quote** slash command from the webhook Slack sends, and the second one gets the destination in Slack your flow will send the reply to.
 
 ![Create Evaluate blocks](https://assets.postman.com/postman-labs-docs/cloud-execution/make-evaluate-blocks.gif)
 
