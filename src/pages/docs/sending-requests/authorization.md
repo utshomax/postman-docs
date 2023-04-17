@@ -48,6 +48,7 @@ You can pass auth details along with any request you send in Postman. Auth data 
 ## Contents
 
 * [Specifying authorization details](#specifying-authorization-details)
+* [Authentication for public APIs](#authentication-for-public-apis)
 * [Inheriting auth](#inheriting-authorization)
 * [Authorization types](#authorization-types)
     * [No auth](#no-auth)
@@ -78,6 +79,8 @@ You can pass auth details along with any request you send in Postman. Auth data 
 
 With a request open in Postman, use the __Authorization__ tab to select an auth type, then complete the relevant details for your selected type. The correct data values will be determined by your API at the server side. If you're using a third party API, refer to the provider's documentation for any required auth details.
 
+> Easier API authentication is available for certain public APIs. For more information, see [Authentication for public APIs](#authentication-for-public-apis).
+
 ![Authorization tab](https://assets.postman.com/postman-docs/authorization-tab-v9.jpg)
 
 > You can use these auth types with Newman and monitors as well as in Postman.
@@ -95,6 +98,18 @@ Hover over a header to get information about where it was added. To change an au
 Your request auth can use environment, collection, and global [variables](/docs/sending-requests/variables/). Postman doesn't save header data or query parameters to avoid exposing sensitive data such as API keys.
 
 You can inspect a raw dump of the entire request including auth data in the Postman Console after you send it.
+
+## Authentication for public APIs
+
+An increasing number of public APIs offer easier authentication through Postman, including Stripe, Open AI, Notion, and Spotify. When you create a request to a supported API, Postman will automatically recognize if the API requires authentication and give you the option to **Set up new authorization**.
+
+<img alt="Stripe API set up new authorization" src="https://assets.postman.com/postman-docs/stripe-api-easier-auth-10.13.jpg"/>
+
+Select **Set up new authorization** to learn what authentication credentials you'll need to make your request and where you can find them. For APIs that support OAuth 2.0, you can select **Authorize** to complete authorization. For APIs requiring credentials like tokens or API keys, you can paste those directly into your request.
+
+<img alt="Stripe API authentication info and link" src="https://assets.postman.com/postman-docs/stripe-api-easier-auth-api-key-10.13.0.jpg"/>
+
+If you're an API publisher, you can [join the waitlist](https://go.postman.co/settings/team/api-authentication) to provide easier authentication for your public APIs to the Postman community. To do so, open Postman and select **Team** in the upper right, then **Team Settings > Set Up API authorization**. Alternatively, select **API Network** from the Postman header, then select **Public API Network > Set up API authorization**.
 
 ## Inheriting authorization
 
