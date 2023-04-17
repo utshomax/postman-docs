@@ -21,7 +21,7 @@ Enables large amounts of formatted text to be entered. The values in the variabl
 
 **Variables** - Named information or assigned values that can be included in the text using the `{{key}}` format.
 
-**Out** - sends the information entered in the text box to the next block.
+**Out** - Sends the information entered in the text box to the next block.
 
 [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bc94e8e308d202595085d7)
 
