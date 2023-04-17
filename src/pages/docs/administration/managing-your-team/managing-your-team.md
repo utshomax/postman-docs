@@ -39,8 +39,9 @@ Postman provides a variety of options to customize your team's experience, from 
     * [Managing invites](#managing-invites)
     * [Removing team members](#removing-team-members)
     * [Managing team roles](#managing-team-roles)
-    * [Managing partners](#managing-partners)
-    * [Managing guests](#managing-guests)
+        * [Managing Super Admins](#managing-super-admins)
+    * [Managing Partners](#managing-partners)
+    * [Managing Guests](#managing-guests)
 * [Managing your team’s Postman plan](#managing-your-teams-postman-plan)
     * [Changing team size](#changing-team-size)
     * [Upgrading your plan](#upgrading-your-plan)
@@ -145,13 +146,25 @@ Teams can have two support accounts at no extra cost. Support accounts are team 
 
 For full details about the Postman team roles that you can assign as a Team Admin, see [Team roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). Some roles are only available for teams with [Postman Professional or Enterprise](https://www.postman.com/pricing) plans.
 
-### Managing partners
+#### Managing Super Admins
+
+> **[Super Admins are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
+
+If your team doesn't have a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) yet, a Team Admin can assign the role to anyone in the team. Once your team has at least one Super Admin, only a Super Admin can assign this role to another user.
+
+Super Admins can assign the Super Admin role to a user in the [team dashboard](https://go.postman.co/settings/team/members), while [inviting a new team member](#inviting-users), and to a [group](/docs/administration/managing-your-team/user-groups/#editing-team-roles-for-a-group). If your team is using [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/), a Super Admin must create the [SCIM credentials](/docs/administration/scim-provisioning/scim-provisioning-overview/#enabling-scim-provisioning) in order for SCIM to change the membership of a group that's been assigned the Super Admin role.
+
+Regular Team Admins cannot remove Super Admins from a team or remove their Super Admin role assignment.
+
+It's recommended that you create a service user that isn't tied to any individual and assign that user the Super Admin role. By doing so, your team can avoid the risk of a disruption in services due to an actual user leaving your company and ensure that your team's management is able to sign in to the service account when needed.
+
+### Managing Partners
 
 > **[Partners are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 You can manage external partners similarly to internal team members. To learn more, see [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
 
-### Managing guests
+### Managing Guests
 
 You can manage external users who have permission to view specific collections and send requests in the collections. External users with these permissions are assigned the [Guest role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). A [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can change an external user's role to the Developer role by going to your [team dashboard](https://go.postman.co/settings/team/members) and selecting **Convert**. When you change an external user's role from the Guest role to the Developer role, they are added to the team and get access to all team resources and workspaces.
 
