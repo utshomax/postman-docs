@@ -133,7 +133,7 @@ When a scheduled run is triggered manually, it runs in the Postman Cloud. Runnin
 
 1. Select the **Runs** tab.
 
-    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/-13.jpg)
+    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10-13.jpg)
 
 1. Select the **Scheduled runs** tab.
 
