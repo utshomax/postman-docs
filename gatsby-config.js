@@ -22,17 +22,37 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-plugin-mdx",
       options: {
-        name: 'images',
-        path: `${__dirname}/src/images`,
-      },
+        gatsbyRemarkPlugins: [
+          'gatsby-remark-autolink-headers',
+          // 'gatsby-remark-check-links',
+          'gatsby-remark-responsive-iframe',
+          {
+            resolve: 'gatsby-remark-prismjs',
+            options: {
+              classPrefix: 'language-',
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: false,
+            },
+          },
+        ]
+      }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'src',
-        path: `${__dirname}/src/pages/docs`,
+        path: `${__dirname}/src/pages`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: `${__dirname}/src/images`,
       },
     },
     // {
@@ -47,26 +67,6 @@ module.exports = {
       options: {
         pathToConfigModule: 'src/utils/typography',
       },
-    },
-    {
-      resolve: "gatsby-plugin-mdx",
-      options: {
-        gatsbyRemarkPlugins: [
-          'gatsby-remark-autolink-headers',
-          'gatsby-remark-check-links',
-          'gatsby-remark-responsive-iframe',
-          {
-            resolve: 'gatsby-remark-prismjs',
-            options: {
-              classPrefix: 'language-',
-              inlineCodeMarker: null,
-              aliases: {},
-              showLineNumbers: false,
-              noInlineHighlight: false,
-            },
-          },
-        ]
-      }
     },
     'gatsby-transformer-sharp',
     {

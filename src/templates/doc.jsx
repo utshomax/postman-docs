@@ -14,6 +14,7 @@ import { useModal } from '../components/modules/Modal';
 import PreviousAndNextLinks from '../components/modules/PreviousAndNextLinks';
 import BreadCrumbsLinks from '../components/modules/BreadCrumbsLinks';
 import { BaseLinkStyles, BaseLink, UnorderedListStyles, OrderedListStyles, } from 'aether-marketing';
+import { MDXProvider } from "@mdx-js/react";
 
 const DocWrapper = styled.div`
   /* Used for Deeplinking */   
@@ -272,16 +273,17 @@ const RightColumnWrapper = styled.aside`
 }
 `
 
-const DocPage = ({ data: { mdx }, children }) => {
-  const [modalData] = useState(data.mdx);
+const DocPage = ({ data, children }) => {
   const post = data.mdx;
+  const [modalData] = useState(post);
+  
   // Last modified date - bottom
   // Last modified time - top 
-  const { lastModifiedDate, lastModifiedTime } = data.mdx.fields;
+  const { lastModifiedDate, lastModifiedTime } = post.fields;
   // Breadcrumbs (top of page) & Previous and Next Links (bottom of page) 
   const { parentLink, subParentLink, previous, next } = data;
 
-  let excerptLength = data.mdx.excerpt.length;
+  let excerptLength = post.excerpt.length;
   let excerptCount = process.env.GATSBY_EXCERPT_COUNT;
   let overIndexLimit = excerptLength > 6700 ? (excerptLength - 6700) : 0;
 
@@ -319,8 +321,8 @@ const DocPage = ({ data: { mdx }, children }) => {
                 <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
                 <h1>{post.frontmatter.title}</h1>
                 {/* <DocContent id="LoadDoc" /> */}
-                <DocContent>{children}</DocContent>
-                {console.log('children', children)}
+                {/* <DocContent><h1> BOO BOO</h1>{children}</DocContent> */}
+                {console.log('children ------- from doc.jsx: ', post, children)}
                 {
                   excerptCount ?
                     <div className='events__alert mb-3'>

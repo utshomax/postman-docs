@@ -7,7 +7,8 @@ const { v4: uuidv4 } = require('uuid');
 const frontmatter = require('@github-docs/frontmatter');
 const redirects = require('./redirects.json');
 // const HeaderJson = require('./src/components/Header/Header.data.json');
-const { execSync } = require("child_process")
+const { execSync } = require("child_process");
+
 const ignorePaths = [];
 
 
@@ -94,13 +95,14 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     return
   }
     const docTemplate = path.resolve('./src/templates/doc.jsx');
-    
+    // console.log('NODE _--------------------', node.internal.contentFilePath)
     createPage({
       path: node.fields.slug,
       // your-layout-component.js?__contentFilePath=absolute-path-to-your-mdx-file.mdx
       // component: path.resolve('./src/templates/doc.jsx'),
       // component: node.internal.contentFilePath,
-      component: `${docTemplate}?__contentFilePath=${node.fields.slug}`,
+      // component: `${docTemplate}?__contentFilePath=${node.fields.slug}`,
+      component: `${require.resolve('./src/templates/doc.jsx')}?__contentFilePath=${node.internal.contentFilePath}`,
       // component: require.resolve('./src/templates/doc.jsx'),
       context: {
         slug: node.fields.slug,

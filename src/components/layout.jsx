@@ -92,6 +92,7 @@ class Layout extends React.Component {
           <Theme>
           <Header />
           {children}
+          {console.log('children from Layout.js')}
           <Footer />
           {marketo()}
         </Theme>
