@@ -61,7 +61,7 @@ To view documentation for a collection, do the following:
 
 > If your collection has [gRPC requests](/docs/sending-requests/grpc/grpc-request-interface/#the-right-sidebar) or [WebSocket requests](/docs/sending-requests/websocket/websocket/#documenting-requests), the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> isn't available for collections or folders. Select a collection or folder in the sidebar to view its description. You can't view complete collection documentation for collections with gRPC or WebSocket requests.
 
-The documentation includes a [description](/docs/publishing-your-api/authoring-your-documentation/#adding-descriptions-to-your-documentation) of each request, as well as details such as the method and URL, the required authorization type, and any headers or parameters. For each request, you can view sample code in various client languages, together with example response bodies and headers.
+The documentation includes a [description](/docs/publishing-your-api/authoring-your-documentation/#adding-descriptions-to-your-documentation) of each request and details such as the method and URL, the required authorization type, and any headers or parameters. For each request, you can view sample code in various client languages, together with example response bodies and headers.
 
 Use the following options to customize the appearance of the documentation:
 
@@ -71,7 +71,7 @@ Use the following options to customize the appearance of the documentation:
 
 <img alt="Viewing collection documentation" src="https://assets.postman.com/postman-docs/v10/documentation-view-full-docs-v10.jpg" />
 
-> Another way to view documentation is to visit your [user profile](https://postman.co/me/collections). Select the **Collections** tab for a list of collections that have been shared with you as well as your own collections. Select a collection to view its documentation.
+> Another way to view documentation is to visit your [user profile](https://postman.co/me/collections). Select the **Collections** tab for a list of collections that have been shared with you and your own collections. Select a collection to view its documentation.
 
 ## Viewing API documentation
 
@@ -100,15 +100,16 @@ Each request entry has a description of the request, the method and URL, the req
 
 Use the options in the header to customize the appearance of the documentation:
 
-* **Release Tag** - If the documentation has multiple release tags, you can select a specific release to view. (You can no longer create versions or releases for collections in Postman v10, but API producers can [publish versions of an API](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).)
+* **Version** - If the documentation has multiple versions, you can select a specific release to view. (You can no longer create versions or releases for collections in Postman v10, but API producers can [publish versions of an API](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).)
 * **Environment** - If an [environment](/docs/publishing-your-api/documenting-your-api/#associating-environments-with-documentation) was published with the documentation, you can select it to populate any variables.
 * **Layout** - **Double column** displays sample code in a column next to the documentation. **Single column** displays sample code inline beneath each request.
 * **Language** - Select a language to use for sample code.
-* **Language Settings** - Select the language settings icon <img alt="Language settings icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> to customize settings for any of the available languages.
+* **Language Settings** - Select the language settings icon <img alt="Language settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to customize settings for any of the available languages.
+* **Theme** - Select the theme icon (<img alt="Light theme icon" src="https://assets.postman.com/postman-docs/v10/icon-theme-light-v10.jpg#icon" width="16px"> or <img alt="Dark theme icon" src="https://assets.postman.com/postman-docs/v10/icon-theme-dark-v10.jpg#icon" width="16px">) to switch between light and dark themes.
 
-[![Published documentation example](https://assets.postman.com/postman-docs/documentation-published-docs-v9.jpg)](https://assets.postman.com/postman-docs/documentation-published-docs-v9.jpg)
+![Published documentation example](https://assets.postman.com/postman-docs/v10/documentation-published-docs-v10.jpg)
 
-> Postman supports [various programming languages and frameworks](/docs/sending-requests/generate-code-snippets/#supported-languagesframeworks) for displaying sample code. Is a language you want to use not available? Is there a setting missing that you'd find useful? Select the language settings icon <img alt="Language settings icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> and then select **Contribute on GitHub** to contribute to [the open-source project](https://github.com/postmanlabs/postman-code-generators).
+> Postman supports [various programming languages and frameworks](/docs/sending-requests/generate-code-snippets/#supported-languagesframeworks) for displaying sample code. Is a language you want to use not available? Is there a setting missing that you'd find useful? Select the language settings icon <img alt="Language settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> and then select **Contribute on GitHub** to contribute to [the open-source project](https://github.com/postmanlabs/postman-code-generators).
 
 ## Linking to public documentation
 
