@@ -117,7 +117,7 @@ For collections, folders and requests inside a collection, and requests in Histo
 
 To hide the sidebar, select the hide sidebar icon <img alt="Hide sidebar icon" src="https://assets.postman.com/postman-docs/icon-hide-sidebar-v9.jpg#icon" width="18px"> from the [footer](#footer) or right-click in an empty part of the sidebar and select **Collapse sidebar**.
 
-The sidebar automatically hides empty elements other than **Collections**, **Environments**, and **History**. Select the Add elements to sidebar icon <img alt="Add elements to sidebar icon" src="https://assets.postman.com/postman-docs/v10/icon-add-elements-to-sidebar-v10.14.jpg#icon" width="18px"> to open **Workspace settings** where you can specify which sidebar elements to show or hide. Right-click on the sidebar for options to show/hide labels, collapse the sidebar, and configure the sidebar.
+By default, the sidebar hides empty elements other than **Collections**, **Environments**, and **History**. Select the Add elements to sidebar icon <img alt="Add elements to sidebar icon" src="https://assets.postman.com/postman-docs/v10/icon-add-elements-to-sidebar-v10.14.jpg#icon" width="18px"> to open **Workspace settings** where you can specify which sidebar elements to show or hide. Right-click on the sidebar for options to show/hide labels, collapse the sidebar, and configure the sidebar.
 
 ### History
 
