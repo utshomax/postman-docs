@@ -17,7 +17,7 @@ The blocks available in Postman Flows are described below.
 
 <img alt="Template block" src="https://assets.postman.com/postman-labs-docs/all-blocks/template-block.png" width="245px"/>
 
-Allows large amounts of formatted text to be entered. The values in the variables section can be included in the text using `{{key}}` where `key` is the name of your variable.
+Enables large amounts of formatted text to be entered. The values in the variables section can be included in the text using `{{key}}` where `key` is the name of your variable.
 
 **Variables** - Named information or assigned values that can be included in the text using the `{{key}}` format.
 
