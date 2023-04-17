@@ -36,7 +36,7 @@ Every Flow starts with the **Start** block. When you want to create a Flow to ru
 
 Clicking **Deploy** will take your local Flow and upload it to Postman's cloud. Selecting the **Runs** section of the right pane will show the time and date it was last deployed and the Webhook Events sections will list every webhook sent to the deployed Flow.
 
-In the **Runs** section, select **View Deployed** to observe the Flow running in the cloud. Clicking **View Live Logs** in the bottom middle of the page will let you see the live information flowing into your Flow. Pressing **Back to Editor** will take you back to your local Flow where you can make changes and then deploy again when you're finished.
+In the **Runs** section, select **View Deployed** to observe the flow running in the cloud. Select **View Live Logs** in the bottom middle of the page to see the live information flowing into your flow. Selecting **Back to Editor** will take you back to your local flow where you can make changes and then deploy again when you're finished.
 
 > **Important**
 >
