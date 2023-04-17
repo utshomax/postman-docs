@@ -137,7 +137,7 @@ Outputs the text that you enter.
 
 <img alt="Start block" src="https://assets.postman.com/postman-labs-docs/all-blocks/combined-start-block.png" width="110px"/>
 
-The first block that runs when a Flow is run. When deploying to the cloud [running flows on the cloud](/docs/postman-flows/running-flows-on-the-cloud/webhooks/), Can be configured to hold information (either as text or in JSON format) for testing locally by selecting the gear icon.
+The first block that runs when a flow is run. When deploying to the cloud [running flows on the cloud](/docs/postman-flows/running-flows-on-the-cloud/webhooks/), Can be configured to hold information (either as text or in JSON format) for testing locally by selecting the gear icon.
 
 [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bcbae7f3155f2e86b54eb2)
 
