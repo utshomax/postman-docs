@@ -213,7 +213,7 @@ Runs all of the blocks that come after it once for each item in the input list u
 
 **Item** - Takes in a single item from a for or repeat sequence.
 
-**List** - Creates a list of all items sent to this block in the for or repeat.
+**List** - Creates a list of all items sent to this block in the for or repeat sequence.
 
 **Finish** - Sends an event when the block is complete (when the for/repeat has been run for every item and they are all in a new list).
 
