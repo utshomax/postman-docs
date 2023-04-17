@@ -247,7 +247,7 @@ Runs a request in a collection and outputs the result. If a request that has a s
 
 **Body Type** - The format that your information uses (for example JSON or XML). **Auto** will try to auto-detect which schema is being used.
 
-**Variables** - If the request being run contains any variables in `{{variable}}` format, the will show up here. Variables can either be assigned a value in the block itself, have a value passed in using a **Select** block, or be already assigned in the Environment.
+**Variables** - If the request being run contains any variables in `{{variable}}` format, they will show up here. Variables can either be assigned a value in the block itself, have a value passed in using a **Select** block, or be already assigned in the Environment.
 <!-- vale Postman.ComplexWords = NO -->
 **Success** - Contains the response of a successful API request. If Postman tests are assigned to the request and all pass or, if there are no tests, a 2xx (successful) HTTP status code is received. The information returned by the request is then output to the next block.
 
