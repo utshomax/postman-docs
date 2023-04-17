@@ -199,6 +199,8 @@ You can use raw body data to send anything you can enter as text. Use the __raw_
 
 You can use [variables](/docs/sending-requests/variables/) in your body data and Postman will populate their current values when sending your request.
 
+For JSON raw body data, you can add comments, and they will be stripped out when the request is sent. Single-line comments delimited with `//` and multi-line comments delimited with `/* */` will be removed in the request.
+
 > To beautify your XML or JSON, select the text in the editor and then select **⌘+Option+B** or **Ctrl+Alt+B**.
 
 #### Binary data
