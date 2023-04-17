@@ -9,7 +9,7 @@ The blocks available in Postman Flows are described below.
 * [Decision blocks](#decision-blocks)
 * [Repeating blocks](#repeating-blocks)
 * [Action blocks](#action-blocks)
-* [Output block](#output-block)
+* [Output block](#output-blocks)
 
 ## Information blocks
 
