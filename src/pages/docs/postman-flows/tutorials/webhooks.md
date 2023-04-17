@@ -1,6 +1,6 @@
 ---
 title: "Using webhooks with Postman Flows"
-updated: 2022-11-30
+updated: 2023-04-12
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -14,34 +14,88 @@ contextual_links:
     url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
 ---
 
-To create a flow that executes on the Postman servers, create a **Start** block.
-
-![Start Block](https://assets.postman.com/postman-labs-docs/cloud-execution/running-flows-on-the-cloud-start.gif)
-
 ## Contents
 
-* [Testing flows locally](#testing-flows-locally)
-* [Deploy your flow](#deploy-your-flow)
-* [Trigger the webhook](#trigger-the-webhook)
+* [Basics concepts of Flows and webhooks](#basics-concepts-of-flows-and-webhooks)
+* [Connect a Flow to a Slack app](#connect-a-flow-to-a-slack-app)
+* [Building your own Slack app with Flows](#building-your-own-slack-app-with-flows)
 
-## Testing flows locally
+## Basics concepts of Flows and webhooks
 
-Before starting, enter your test data and run it to see the output on your local console. Test data can be added by clicking the gear icon on the **Start** block. The test data can either be in text or JSON format.
+Webhooks are a way for one system to notify another system that some information has changed. It works very similar to push notifications on a smartphone. Instead of constantly needing to check the email app to see if there's any new mail, the email app sends a notification to the user that a new email has been received. Many services today that have an API also offer webhooks as a way to communicate between their system and yours.
+
+When a Flow is deployed to the cloud, the Flow can be run each time it receives a webhook from another service. This is useful because the Flow can be run automatically and doesn't need your computer to be on, since these Flows run on Postman's cloud.
+
+### Testing locally
+
+Every Flow starts with the **Start** block. When you want to create a Flow to run on the cloud, you'll want to test it locally. You can enter information into the the **Start** block by clicking the gear icon. This information can either be in text or JSON format. Typically, you'll want to put an example of what an actual webhook will be from the API you're working with. Many APIs include a sample of what their webhook information will look like, but if the API you're working with doesn't you can make one yourself by following the steps in the [Trigger the webhook](#trigger-the-webhook) step.
 
 ![Testing Locally](https://assets.postman.com/postman-labs-docs/cloud-execution/running-flows-on-the-cloud-test-data.gif)
 
-## Deploy your flow
+### Deploy your Flow
 
-Select **Deploy** and your flow will be running in the cloud. Selecting the **Runs** section of the right pane will display the deployed flow was last updated. The webhook URL can be seen here as well as in the top left corner of the flow.
+Clicking **Deploy** will take your local Flow and upload it to Postman's cloud. Selecting the **Runs** section of the right pane will show the time and date it was last deployed and the Webhook Events sections will list every webhook sent to the deployed Flow.
+
+In the **Runs** section, select **View Deployed** to observe the Flow running in the cloud. Clicking **View Live Logs** in the bottom middle of the page will let you see the live information flowing into your Flow. Pressing **Back to Editor** will take you back to your local Flow where you can make changes and then deploy again when you're finished.
 
 > **Important**
 >
-> Every time you release, it saves a snapshot of your collections and environments. If you make any changes to these, you will need to release again.
+> Every time you deploy, it saves your collections and environments. If you make any changes to these, you will need to deploy again.
 
-![Release to cloud](https://assets.postman.com/postman-labs-docs/cloud-execution/running-flows-in-the-cloud-create-deploy.gif)
+![Deploy to cloud](https://assets.postman.com/postman-labs-docs/cloud-execution/deploy-flow-to-cloud-update.gif)
 
-## Trigger the webhook
+### Trigger the webhook
 
-In the **Runs** section, select **View** to observe the flow running in the cloud. The logs will be visible in your client. Make a POST request to trigger the webhook endpoint and observe your flow executing in the cloud.
+Generally, when working with webhooks, there will be another service that will send the webhook to the Flow you deployed. The **Webhook URL** shown in the right panel is the URL that you can provide the other system or service with that tells it where to send notifications to. Once that's setup, you can view the live logs and see what the notification from the other service looks like to use as your test data. Flows can also be manually run by making a POST request to the **Webhook URL**.
 
-![Trigger the Endpoint](https://assets.postman.com/postman-labs-docs/cloud-execution/running-in-cloud.gif)
+![Trigger the Endpoint](https://assets.postman.com/postman-labs-docs/cloud-execution/trigger-flow-in-cloud.gif)
+
+## Connect a Flow to a Slack app
+
+> **Prerequisite**
+> Sign up for a free [Slack](https://slack.com/) account.
+
+Create a new app in Slack [here](https://api.slack.com/apps), give it a name, and then enable a slash command which will let us interact with it. When making the slash command, for the request URL use ```https://770fc74bbe7045dcaa56a7261b08c869.flow.pstmn.io``` which is an already deployed Flow which can be found [here](https://www.postman.com/postman/workspace/utility-flows/flow/642376220544c000387685c5).
+
+![Create Slack app](https://assets.postman.com/postman-labs-docs/cloud-execution/make-slack-app-with-command.gif)
+
+Next, enable Webhooks so we can send messages to the Slack app from Flows (you'll need to reinstall the app after you do this, as shown in the GIF). Pick a channel from Slack that you'll want to interact with it in from the drop-down.
+
+![Enable Slack Webhooks](https://assets.postman.com/postman-labs-docs/cloud-execution/slack-app-enable-webhooks.gif)
+
+Finally, run the command you created in the first step in the slack channel you installed it to and view your recipe!
+
+![Enable Slack Webhooks](https://assets.postman.com/postman-labs-docs/cloud-execution/run-slack-command.gif)
+
+## Building your own Slack app with Flows
+
+> **Prerequisites**
+>
+> 1. Sign up for a free [Slack](https://slack.com/) account.
+> 2. Sign up for a free [polygon.io](https://polygon.io/) account and get your API key.
+
+To make your own Slack app from scratch with Flows, follow the same steps as [Connect a Flow to a Slack app](#connect-a-flow-to-a-slack-app) but this time lets name the app **Stock App**, make the Command **stock-quote** and use the URL of the new Flow you're going to make.
+
+![New Slack command](https://assets.postman.com/postman-labs-docs/cloud-execution/new-slack-request-url.gif)
+
+Next, fork(which just means copy in this case) the collection found [here](https://www.postman.com/postman/workspace/slack-integration-flows/collection/23919558-0fc87fc5-de53-4c48-b30f-362a1a7ceba3?action=share&creator=23919558) and the environment found [here](https://www.postman.com/postman/workspace/slack-integration-flows/environment/23919558-144c823d-9dcf-42ff-b85b-66e8e1d41e2a) which contains the saved requests and variables we're going to use in this Flow.
+
+![Fork collection and environment](https://assets.postman.com/postman-labs-docs/cloud-execution/fork-collection-and-environment.gif)
+
+In the environment you just forked, paste your polygon API key where it says **YOUR_API_KEY_HERE**. Now you're ready to start building the Flow.
+
+To start the Flow, create two **Evaluate** blocks and paste the follwing ```$match(slack_text,'(?<=text=)[^&]+')[0]``` and ```$replace($match(slack_text,'(?<=commands%2F)[^&]+')[0],"%2F","/")```. The first function you're pasting gets the text after the **stock-quote** slash command from the webhook Slack sends, and the second one gets the destination in slack your Flow will send the reply to.
+
+![Create Evaluate blocks](https://assets.postman.com/postman-labs-docs/cloud-execution/make-evaluate-blocks.gif)
+
+The next step is to take text after the **stock-quote** command that we have in the Evaluate block (which is our the stock ticker) and call the polygon API to get the quote. Create a **Send Request** block, and choose **Get stock quote** from the collection that you just forked. Finally, select the **Slack Stock Bot** environment you also forked, and connect the **Evaluate** block to the ticker variable (This is how information like the ticker is passed from the evaluate block into the send request block).
+
+![Create Send Request block](https://assets.postman.com/postman-labs-docs/cloud-execution/make-send-request-block.gif)
+
+The final step is to send all this information back to the Slack app. First, since slack requires the text sent to them to be in JSON format, create a **Record** block, name the key **text** and add a **Select** block. You can either use the dropdown menu to select, or enter ```body.results.0.c``` which is how polygon stores their stock quotes. Now create a new **Send Request** block, drag the output of the **Record** block to the **message_to_slack** variable which is what we're going to send to the app, and drag a connection from the second **Evaluate** block (that holds the destination in Slack to reply to) to the **slack_hook_url** input of the **Send Request** block.
+
+![Create Send Request block](https://assets.postman.com/postman-labs-docs/cloud-execution/sending-to-slack.gif)
+
+All that's left is hitting the **Deploy** button and trying it out in Slack!
+
+![Create Send Request block](https://assets.postman.com/postman-labs-docs/cloud-execution/see-result-in-slack.gif)

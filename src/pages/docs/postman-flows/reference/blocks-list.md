@@ -1,6 +1,6 @@
 ---
 title: "Postman Flows blocks"
-updated: 2022-12-15
+updated: 2023-04-12
 ---
 
 The blocks available in Postman Flows are described below.
