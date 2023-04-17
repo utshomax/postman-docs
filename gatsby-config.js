@@ -23,6 +23,7 @@ module.exports = {
     'gatsby-plugin-styled-components',
     {
       resolve: "gatsby-plugin-mdx",
+      extensions: [".mdx"],
       options: {
         gatsbyRemarkPlugins: [
           'gatsby-remark-autolink-headers',
@@ -45,7 +46,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'src',
-        path: `${__dirname}/src/pages`,
+        path: `${__dirname}/src/`,
       },
     },
     {

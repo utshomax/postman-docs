@@ -65,23 +65,24 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const result = await graphql(`
     query {
       allMdx {
-          edges {
-            node {
-              fields {
-                slug
-              }
-              internal {
-                contentFilePath
-                type
-              }
+        edges {
+          node {
+            internal {
+              type
+              contentFilePath
+            }
+            fields {
+              slug
             }
           }
         }
       }
+    }
   `);
   result.data.allMdx.edges.forEach(({ node }) => {
     if (node.fields.slug.includes('-')) {
       const underscoreSlug = node.fields.slug.replace(/-/g, '_');
+
       createRedirect({
         fromPath: underscoreSlug,
         isPermanent: true,
@@ -90,10 +91,11 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       });
     }
     // Handle errors
-  if (result.errors) {
-    reporter.panicOnBuild(`Error while running GraphQL query.`)
-    return
-  }
+    if (result.errors) {
+      reporter.panicOnBuild(`Error while running GraphQL query.`)
+      return
+    }
+
     const docTemplate = path.resolve('./src/templates/doc.jsx');
     // console.log('NODE _--------------------', node.internal.contentFilePath)
     createPage({
@@ -102,7 +104,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       // component: path.resolve('./src/templates/doc.jsx'),
       // component: node.internal.contentFilePath,
       // component: `${docTemplate}?__contentFilePath=${node.fields.slug}`,
-      component: `${require.resolve('./src/templates/doc.jsx')}?__contentFilePath=${node.internal.contentFilePath}`,
+      component: `${path.resolve('./src/templates/doc.jsx')}?__contentFilePath=${node.internal.contentFilePath}`,
       // component: require.resolve('./src/templates/doc.jsx'),
       context: {
         slug: node.fields.slug,
