@@ -46,7 +46,7 @@ In the **Runs** section, select **View Deployed** to observe the flow running in
 
 ### Trigger the webhook
 
-Generally, when working with webhooks, there will be another service that will send the webhook to the Flow you deployed. The **Webhook URL** shown in the right panel is the URL that you can provide the other system or service with that tells it where to send notifications to. Once that's setup, you can view the live logs and see what the notification from the other service looks like to use as your test data. Flows can also be manually run by making a POST request to the **Webhook URL**.
+Generally, when working with webhooks, there will be another service that will send the webhook to the Flow you deployed. The **Webhook URL** shown in the right panel is the URL that you can provide the other system or service with that tells it where to send notifications to. Once that's set up, you can view the live logs and see what the notification from the other service looks like to use as your test data. Flows can also be manually run by making a POST request to the **Webhook URL**.
 
 ![Trigger the Endpoint](https://assets.postman.com/postman-labs-docs/cloud-execution/trigger-flow-in-cloud.gif)
 
