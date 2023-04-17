@@ -195,7 +195,7 @@ Runs all of the blocks that come after it the specified number of times until a 
 
 <img alt="For block" src="https://assets.postman.com/postman-labs-docs/all-blocks/for-block.png" width="111px"/>
 
-Will run all of the blocks that come after it once for each item in the input list until a **Collect** block is encountered in which case it will stop repeating all blocks that come after the **Collect** block.
+Runs all of the blocks that come after it once for each item in the input list until a **Collect** block is encountered in which case it will stop repeating all blocks that come after the **Collect** block.
 
 **List** - A list of values like `[1,2,3]` or `["one","two","three"]`.
 
