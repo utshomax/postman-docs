@@ -53,7 +53,7 @@ Structured information that can hold any of the other value block types or anoth
 
 <img alt="List block" src="https://assets.postman.com/postman-docs/v10/list-block-v10.jpg" width="159px"/>
 
-Outputs the specified list of values. Each item can be any type of block, for example, a date block, a string, or a record. Using a **Select** block in a row of the list allows information from another block to be passed into the list.
+Outputs the specified list of values. Each item can be any type of block, for example, a date block, a string, or a record. Using a **Select** block in a row of the list enables information from another block to be passed into the list.
 
 [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bc9412ead4e97c45493eb0)
 
