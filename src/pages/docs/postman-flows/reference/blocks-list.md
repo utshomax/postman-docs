@@ -185,7 +185,7 @@ Runs all of the blocks that come after it the specified number of times until a 
 
 **Count** - The number of times to run the block.
 
-**Start** - starts running the block when it receives input from another block.
+**Start** - Runs the block when it receives input from another block.
 
 **Index** - The number of the current run starting at 0 for the first run.
 
