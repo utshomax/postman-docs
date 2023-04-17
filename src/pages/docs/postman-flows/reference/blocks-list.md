@@ -181,7 +181,7 @@ Executes [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) to
 
 <img alt="Repeat block" src="https://assets.postman.com/postman-labs-docs/all-blocks/repeat-block.png" width="129px"/>
 
-Will run all of the blocks that come after it the specified number of times until a **Collect** block is encountered in which case it will stop repeating all blocks that come after the **Collect** block.
+Runs all of the blocks that come after it the specified number of times until a **Collect** block is encountered in which case it will stop repeating all blocks that come after the **Collect** block.
 
 **Count** - The number of times to run the block.
 
