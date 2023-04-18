@@ -57,7 +57,7 @@ The format for APIs created in Postman changed in Postman v10. The Postman API n
 
 The endpoints for working with APIs created in v9 are deprecated. You can continue to use these endpoints, but at a future time they will no longer be available. You should start using the [new v10 API endpoints](#new-v10-api-endpoints) as soon as possible.
 
-To view the v9 and v10 endpoints, go to the [public workspace for the Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/collection/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a?ctx=documentation) and select the **v9 API** or **v10 API** folder.
+To view the v9 and v10 endpoints, go to the [public workspace for the Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/collection/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a?ctx=documentation) and select the **API > v9** or **API > v10** folder.
 
 ### Deprecated v9 API endpoints
 
