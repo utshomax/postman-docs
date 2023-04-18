@@ -50,3 +50,51 @@ You can get started with the API by [forking the collection](https://www.postman
 You will need an [API key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key) to access the Postman API.
 
 > The Postman API is [rate limited](/docs/developer/postman-api/postman-api-rate-limits/).
+
+## About v9 and v10 APIs
+
+The format for APIs created in Postman changed in Postman v10. The Postman API now supports endpoints for working with APIs created in v10.
+
+The endpoints for working with APIs created in v9 are deprecated. You can continue to use these endpoints, but at a future time they will no longer be available. You should start using the [new v10 API endpoints](#new-v10-api-endpoints) as soon as possible.
+
+To view the v9 and v10 endpoints, go to the [public workspace for the Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/collection/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a?ctx=documentation) and select the **API > v9** or **API > v10** folder.
+
+### Deprecated v9 API endpoints
+
+The following Postman API endpoints are deprecated. You can continue to use these endpoints, but at a future time they will no longer be available. You should start using the [new v10 API endpoints](#new-v10-api-endpoints) as soon as possible.
+
+* `/apis`
+* `/apis/{apiId}`
+* `/apis/{apiId}/versions`
+* `/apis/{apiId}/versions/{apiVersionId}`
+* `/apis/{apiId}/versions/{apiVersionId}/unclassified`
+* `/apis/{apiId}/versions/{apiVersionId}/contracttest`
+* `/apis/{apiId}/versions/{apiVersionId}/documentation`
+* `/apis/{apiId}/versions/{apiVersionId}/environment`
+* `/apis/{apiId}/versions/{apiVersionId}/integrationtest`
+* `/apis/{apiId}/versions/{apiVersionId}/mock`
+* `/apis/{apiId}/versions/{apiVersionId}/monitor`
+* `/apis/{apiId}/versions/{apiVersionId}/relations`
+* `/apis/{apiId}/versions/{apiVersionId}/schemas`
+* `/apis/{apiId}/versions/{apiVersionId}/schemas/{schemaId}`
+* `/apis/{apiId}/versions/{apiVersionId}/schemas/{schemaId}/collections`
+* `/apis/{apiId}/versions/{apiVersionId}/test`
+* `/apis/{apiId}/versions/{apiVersionId}/testsuite`
+* `/apis/{apiId}/versions/{apiVersionId}/{relationType}/{entityId}/syncWithSchema`
+
+### New v10 API endpoints
+
+To use the new Postman API endpoints, you must [update your APIs to the v10 format](/docs/designing-and-developing-your-api/creating-an-api/#updating-an-api). You must also pass an `Accept` header with the value `application/vnd.api.v10+json`. (Some of the new endpoints appear the same as the deprecated endpoints, but they use the new v10 behavior when you send this `Accept` header.)
+
+* `/apis`
+* `/apis/{apiId}`
+* `/apis/{apiId}/schemas`
+* `/apis/{apiId}/collections`
+* `/apis/{apiId}/versions`
+* `/apis/{apiId}/tasks/{taskId}`
+* `/apis/{apiId}/schemas/{schemaId}`
+* `/apis/{apiId}/versions/{versionId}`
+* `/apis/{apiId}/schemas/{schemaId}/files`
+* `/apis/{apiId}/collections/{collectionId}`
+* `/apis/{apiId}/schemas/{schemaId}/files/{file-path}`
+* `/apis/{apiId}/collections/{collectionId}/sync-with-schema-tasks`

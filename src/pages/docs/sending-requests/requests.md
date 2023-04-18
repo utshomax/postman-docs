@@ -85,7 +85,7 @@ Your requests can include multiple details determining the data Postman will sen
 
 You can create a new request from a workspace, by using **New > HTTP Request**, or by selecting **+** to open a new tab.
 
-![Create New Screen](https://assets.postman.com/postman-docs/v10/new-request-v10.jpg)
+![Create New Screen](https://assets.postman.com/postman-docs/v10/new-request-v10-2.jpg)
 
 Select **Save** to create your request. You can give your request a name and description, and choose or create a collection to save it in.
 
@@ -198,6 +198,8 @@ You can use raw body data to send anything you can enter as text. Use the __raw_
 > You can set a content type header manually if you need to override the one Postman sends automatically.
 
 You can use [variables](/docs/sending-requests/variables/) in your body data and Postman will populate their current values when sending your request.
+
+For JSON raw body data, you can add comments, and they will be stripped out when the request is sent. Single-line comments delimited with `//` and multi-line comments delimited with `/* */` will be removed in the request.
 
 > To beautify your XML or JSON, select the text in the editor and then select **⌘+Option+B** or **Ctrl+Alt+B**.
 
