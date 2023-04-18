@@ -25,7 +25,7 @@ Many Postman users run collections at specific times each day or week. For examp
 
 When you schedule a collection run with the Collection Runner, the scheduled run is added to the collection's **Runs** tab. You can view, pause, edit, and delete scheduled collection runs from the collection's **Runs** tab.
 
-<img alt="Runs tab v10" src="https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10.jpg"/>
+<img alt="Runs tab v10" src="https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10-13.jpg"/>
 
 > * Scheduled runs execute in the Postman Cloud.
 > * Schedules share permissions with their collections. For example, if you have permissions to edit a collection, you'll be able to edit that collection's schedules.
@@ -81,7 +81,7 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
 1. Select the **Runs** tab.
 
-    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10.jpg)
+    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10-13.jpg)
 
 1. Select the **Scheduled runs** tab, hover over your scheduled run, and Select **View**.
 
@@ -99,7 +99,7 @@ When a scheduled run is triggered manually, it runs in the Postman Cloud. Runnin
 
 1. Select the **Runs** tab.
 
-    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10.jpg)
+    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10-13.jpg)
 
 1. Select the **Scheduled runs** tab.
 
@@ -115,7 +115,7 @@ When a scheduled run is triggered manually, it runs in the Postman Cloud. Runnin
 
 1. Select the **Runs** tab.
 
-    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10.jpg)
+    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10-13.jpg)
 
 1. Select the **Scheduled runs** tab.
 
@@ -133,7 +133,7 @@ When a scheduled run is triggered manually, it runs in the Postman Cloud. Runnin
 
 1. Select the **Runs** tab.
 
-    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10.jpg)
+    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10-13.jpg)
 
 1. Select the **Scheduled runs** tab.
 
@@ -179,7 +179,7 @@ When a new request is added or deleted from a scheduled run's collection, the sc
 
 1. Select the **Runs** tab.
 
-    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10.jpg)
+    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10-13.jpg)
 
 1. Select the **Scheduled runs** tab.
 

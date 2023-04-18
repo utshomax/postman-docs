@@ -113,7 +113,7 @@ To learn more about what happened during the collection run, do any of the follo
 
 Each collection has a **Runs** tab, which displays past and scheduled collection runs. The **Runs** tab also shows test counts and metrics like duration and average response times.
 
-![Collection Run History tab](https://assets.postman.com/postman-docs/v10/collection-run-tab-v10.jpg)
+![Collection Run History tab](https://assets.postman.com/postman-docs/v10/collection-past-run-tab-v10-13.jpg)
 
 The **Runs** tab includes two more tabs: **Past runs** and **Scheduled runs**.
 
