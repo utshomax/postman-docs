@@ -1,6 +1,6 @@
 ---
 title: "Understanding gRPC types"
-updated: 2022-09-15
+updated: 2023-04-18
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -21,18 +21,18 @@ When sending or receiving a gRPC request or response, the messages being sent ba
 
 ## JSON interface
 
-| Protobuf type                    | JSON type                                                | JSON example                 | Notes                                                                                                            |
-| ---------------------------------------- | -------------------------------------------------------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| message                                  | object                                                   | `{ "field": 123 }`           | `null` is an accepted value for all field types and treated as the default value of the corresponding field type |
-| enum                                     | string _or_ number                                       | `"FOO_BAR"`                  | Both enum names and integer values are accepted                                                                  |
-| repeated V                               | array                                                    | `[v, ...]`                   |                                                                                                                  |
-| map<K, V>                                | object                                                   | `{ "k": v }`                 | All keys are converted to strings                                                                                |
-| bool                                     | boolean                                                  | `true`, `false`              |                                                                                                                  |
-| string                                   | string                                                   | `"Hello World!"`             |                                                                                                                  |
-| bytes                                    | base64 string _or_ array of bytes (numbers [0, 255])     | `"SGVsbG8gZ1JQQw=="`         |                                                                                                                  |
-| int32, sint32, uint32, fixed32, sfixed32 | number                                                   | `1`, `-10`, `0`              |                                                                                                                  |
-| int64, sint64, uint64, fixed64, sfixed64 | number _or_ string                                       | `"-1152921504606847254"`     | Decimal strings are used to increase compatibility with languages that lack a 64-bit integer                     |
-| float, double                            | number _or_ `"NaN"` _or_ `"Infinity"` _or_ `"-Infinity"` | `1.1`, `-10.0`, `0`, `"NaN"` |                                                                                                                  |
+| Protobuf type | JSON type | JSON example | Notes |
+| ------------- | --------- | ------------ | ----- |
+| message | object | `{ "field": 123 }` | `null` is an accepted value for all field types and treated as the default value of the corresponding field type. |
+| enum | string _or_ number | `"FOO_BAR"` | Both enum names and integer values are accepted. |
+| repeated V | array | `[v, ...]` | |
+| map<K, V> | object | `{ "k": v }` | All keys are converted to strings. | |
+| bool | boolean | `true`, `false` | |
+| string | string | `"Hello World!"` | |
+| bytes | base64 string _or_ array of bytes (numbers [0, 255]) | `"SGVsbG8gZ1JQQw=="` | |
+| int32, sint32, uint32, fixed32, sfixed32 | number | `1`, `-10`, `0` | |
+| int64, sint64, uint64, fixed64, sfixed64 | number _or_ string | `"-1152921504606847254"` | Decimal strings are used to increase compatibility with languages that lack a 64-bit integer. |
+| float, double | number _or_ `"NaN"` _or_ `"Infinity"` _or_ `"-Infinity"` | `1.1`, `-10.0`, `0`, `"NaN"` | |
 
 ## Inspecting fields and types
 
