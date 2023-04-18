@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Teams"
-updated: 2023-04-13
+updated: 2022-07-19
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -32,13 +32,11 @@ To configure a Microsoft Teams integration, you will need to first create a Micr
 
 1. Select the **Incoming Webhook** connector from the list of available connectors.
 
-1. Enter a name to identify this webhook later. You can also add an image that appears whenever this webhook posts a message.
+1. Enter a name to identify this webhook later. You can also add an image that appears whenever this webhook posts a message. Select **Create**.
 
     ![enter a name](https://assets.postman.com/postman-docs/microsoft-teams-webhook-name.jpg)
 
-1. Select **Create**.
-
-1. This generates a webhook URL you can use to post messages to this channel. Copy this webhook and save it for later.
+    This generates a webhook URL you can use to post messages to this channel. Copy this webhook and save it for later.
 
     ![generate webhook URL](https://assets.postman.com/postman-docs/microsoft-teams-webhook-url.jpg)
 
@@ -73,8 +71,6 @@ Monitor run messages summarize the basic details of the run, and whether the run
 
 1. Select **Add Integration**.
 
-> **You can view your configured integrations on the [Browse Integrations](https://go.postman.co/integrations/browse) page.** You can also view integrations that have been configured for a monitor by opening the monitor and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Learn more about [viewing or editing integrations](/docs/integrations/intro-integrations/#viewing-or-editing-integrations).
-
 ### Add a team activity feed to Microsoft Teams
 
 Team Activity messages display updates, who made a change, and what it was.
@@ -85,3 +81,5 @@ Team Activity messages display updates, who made a change, and what it was.
     * **Notification URL** - Your [incoming webhook URL](#create-a-microsoft-teams-webhook-url).
 
 1. Select **Add Integration**.
+
+> **You can view your configured integrations on the [Browse Integrations](https://go.postman.co/integrations/browse) page.** You can also view integrations that have been configured for a monitor by opening the monitor and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Learn more about [viewing or editing integrations](/docs/integrations/intro-integrations/#viewing-or-editing-integrations).

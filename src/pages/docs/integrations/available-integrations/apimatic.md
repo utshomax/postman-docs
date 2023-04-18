@@ -1,6 +1,6 @@
 ---
 title: "APIMatic"
-updated: 2023-04-12
+updated: 2022-02-11
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -37,7 +37,10 @@ To set up an APIMatic integration with Postman, you will need:
 
     ![Add APIMatic integration](https://assets.postman.com/postman-docs/v10/apimatic-add-integration-v10.jpg)
 
-1. You'll be prompted to allow Postman to access your GitHub account. After you grant access, you can close the browser tab and return to Postman.
+1. Your browser will open a new **Authorize Postman** page that gives Postman access to your GitHub repositories. Select **Authorize postmanlabs**. Once the authorization process is complete, the page will tell you to close the tab and continue in Postman.
+
+    > If you aren't signed in to GitHub, you will be prompted to sign in.
+
 1. Enter the following in the **Add Integration** window:
     * **APIMatic API Key** - Your [APIMatic integration key](https://docs.apimatic.io/manage-apis/get-api-keys/).
     * **Nickname** - A nickname for the integration.

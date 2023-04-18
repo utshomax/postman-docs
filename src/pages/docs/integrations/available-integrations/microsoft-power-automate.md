@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Power Automate"
-updated: 2023-04-13
+updated: 2022-07-19
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -41,9 +41,15 @@ To configure a Microsoft Power Automate integration, you will need to first crea
 
     ![request](https://assets.postman.com/postman-docs/ms-pa-url-generated-v9.jpg)
 
-1. Select **New Step > Add an Action**, and configure your specific service.
+1. Select **New Step > Add an Action**, and configure your specific service. For this demo, connect your Postman Monitor to the Microsoft Power Automate mobile app. On every monitor run, you will receive an in-app notification in the Microsoft Power Automate mobile app. Select **Notifications** from the list of services and choose the **Send me a mobile notification** action.
 
     ![add action](https://assets.postman.com/postman-docs/ms-pa-choose-an-action-v9.jpg)
+
+    ![notifications](https://assets.postman.com/postman-docs/ms-pa-notifications-v9.jpg)
+
+    You can customize the text notifications by choosing your wording and adding content derived from your Postman Monitor run results.
+
+    ![enter text](https://assets.postman.com/postman-docs/ms-pa-send-notification-v9.jpg)
 
 1. Select **Create Flow**.
 
@@ -135,7 +141,7 @@ Use these example JSON schemas to help you create your Microsoft Power Automate 
 
 ### Example backup collections
 
-Use this example JSON schema to help you create [Backup a collection](#back-up-your-postman-collections-in-microsoft-power-automate) integrations.
+Use this example JSON schema to help you create an integration that [backs up a collection](#back-up-your-postman-collections-in-microsoft-power-automate).
 
 ```json
 {
@@ -155,7 +161,7 @@ Use this example JSON schema to help you create [Backup a collection](#back-up-y
 
 ### Example collection and team activity feed
 
-Use this example JSON schema to help you create [Post collection activity](#add-a-collection-activity-feed-to-microsoft-power-automate) and [Post team activity](#add-a-team-activity-feed-to-microsoft-power-automate) integrations.
+Use this example JSON schema to help you create integrations that [post collection activity](#add-a-collection-activity-feed-to-microsoft-power-automate) and [post team activity](#add-a-team-activity-feed-to-microsoft-power-automate).
 
 ```json
 {
@@ -206,7 +212,7 @@ Use this example JSON schema to help you create [Post collection activity](#add-
 
 ### Example monitor run results
 
-Use this example JSON schema to help you create [Post monitoring results](#send-monitor-run-results-in-microsoft-power-automate) integrations.
+Use this example JSON schema to help you create an integration that [posts monitoring results](#send-monitor-run-results-in-microsoft-power-automate).
 
 ```json
 {
