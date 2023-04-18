@@ -36,7 +36,7 @@ A workspace is a group of schemas, collections, variables, tests, and more that 
 
 You can [create collections](/docs/collections/using-collections/#creating-collections) with specific example use cases to help consumers fork your collections and begin interacting with your APIs. Example use cases can include integrations, automation, authentication and authorization, and more.
 
-![Edit collection details](https://assets.postman.com/postman-docs/collection-details.jpg)
+![Edit collection details](https://assets.postman.com/postman-docs/v10/collection-details-v10.jpg)
 
 ### Creating environments for different use cases
 
