@@ -147,7 +147,7 @@ Hover over an item to show the following controls:
 
 ### Viewing performance runs
 
-The **Performance runs** tab shows past [performance runs](/docs/collections/testing-api-performance/) for the collection. You can view metrics for each run, including the number of virtual users, duration, average response time, error rate, total number of requests, and requests per second.
+The **Performance runs** tab shows past [performance runs](/docs/collections/testing-api-performance/) for the collection. You can view metrics for each run, including the number of virtual users (VUs), duration, average response time, error rate, total number of requests, and requests per second.
 
 Select the run number to view a graph and full details for the performance run. Learn more about [viewing performance metrics](/docs/collections/testing-api-performance/#viewing-performance-metrics).
 
