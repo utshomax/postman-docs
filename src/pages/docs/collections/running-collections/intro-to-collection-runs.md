@@ -114,7 +114,7 @@ To learn more about what happened during the collection run, do any of the follo
 
 Each collection has a **Runs** tab you can use to view past runs, scheduled runs, and performance runs. You can also view details such as test counts and average response times.
 
-![Past runs tab](https://assets.postman.com/postman-docs/v10/collection-run-tab-v10-13.jpg)
+![Past runs tab](https://assets.postman.com/postman-docs/v10/collection-run-tab-v10-13a.jpg)
 
 ### Viewing past runs
 
@@ -151,7 +151,7 @@ The **Performance runs** tab shows past [performance runs](/docs/collections/tes
 
 Select the run number to view a graph and full details for the performance run. Learn more about [viewing performance metrics](/docs/collections/testing-api-performance/#viewing-performance-metrics).
 
-![Performance runs tab](https://assets.postman.com/postman-docs/v10/performance-test-past-runs-v10-yy.jpg)
+![Performance runs tab](https://assets.postman.com/postman-docs/v10/performance-test-past-runs-v10-13.jpg)
 
 ## Sharing collection runs
 
