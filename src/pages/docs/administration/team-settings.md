@@ -62,7 +62,7 @@ Your team profile includes:
 * A list containing links to your team members' profiles
 * A **Team Description** section
 * A **Highlights** section with pinned elements
-* A **Discover** section that lists collections and flows using your team's APIs
+* A **Discover** section with collections and flows using your team's APIs
 * Links to all your team's public collections, APIs, workspaces, and flows
 
 <img alt="Example of a filled-in team profile" src="https://assets.postman.com/postman-docs/v10/team-settings-overview-v10.1.jpg" width="800px"/>
@@ -78,7 +78,6 @@ When you select **Team Settings**, you will be automatically directed to your **
 * **Members** - To manage your team members, hover over this section and select **Manage**.
 * **About your team** - Select **Add Team Description**. To update your team description, hover over the section and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. The editor supports Markdown, or you can use the built-in text formatting tools.
 * **Highlights** - This section lets you show off your team's work to other Postman users. If you don't choose any elements to pin to this section, Postman displays the most popular elements that you've worked on. To update the highlighted elements, hover over the section and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. Add or remove the desired elements, then select **Save**.
-* **Discover** - This section lets you view other Postman users' collections and flows using your team's APIs.
 
 #### Customizing your team's branding
 
