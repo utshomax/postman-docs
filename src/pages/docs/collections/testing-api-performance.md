@@ -64,13 +64,13 @@ To configure a performance test in the Postman desktop app, do the following:
 
 During a performance test, all requests are sent from your computer where you are running the Postman desktop app. The performance test runner displays performance metrics in real time so you can observe how your API performs under load.
 
-<img alt="Viewing performance metrics" src="https://assets.postman.com/postman-docs/v10/performance-test-graph-v10-13.jpg"/>
+<img alt="Viewing performance metrics" src="https://assets.postman.com/postman-docs/v10/performance-test-graph-v10-13a.jpg"/>
 
 You can view the following information about the performance test:
 
-* Name of the collection being run and the active environment (if any).
+* Name of the collection being run and the active environment (if any). Select the name to view the collection or environment.
 * **Virtual users (VU)** -  The number of virtual users. Each virtual user simulates the behavior of a real-world user by running the collection repeatedly, in parallel with other virtual users.
-* Start time and duration of the test.
+* Start time, duration, and load profile (fixed or ramp up).
 * **Total requests sent** - The total number of requests sent across all virtual users.
 * **Requests/s** - The number of requests sent each second by the performance test runner, a measure of throughput.
 * **Avg. response time** - The response time in milliseconds of all requests averaged together.
@@ -117,4 +117,4 @@ You can view a list of past performance runs for a collection. Open the collecti
 
 You can view metrics for each run, including the number of virtual users (VUs), duration, average response time, error rate, total number of requests, and requests per second. Select the run number to view a graph and full details for the performance run.
 
-![Performance runs tab](https://assets.postman.com/postman-docs/v10/performance-test-past-runs-v10-13.jpg)
+![Performance runs tab](https://assets.postman.com/postman-docs/v10/performance-test-past-runs-v10-13a.jpg)

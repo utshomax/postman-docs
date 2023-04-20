@@ -151,7 +151,7 @@ The **Performance runs** tab shows past [performance runs](/docs/collections/tes
 
 Select the run number to view a graph and full details for the performance run. Learn more about [viewing performance metrics](/docs/collections/testing-api-performance/#viewing-performance-metrics).
 
-![Performance runs tab](https://assets.postman.com/postman-docs/v10/performance-test-past-runs-v10-13.jpg)
+![Performance runs tab](https://assets.postman.com/postman-docs/v10/performance-test-past-runs-v10-13a.jpg)
 
 ## Sharing collection runs
 
