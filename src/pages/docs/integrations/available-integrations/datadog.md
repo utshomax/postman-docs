@@ -1,9 +1,7 @@
 ---
 title: "Datadog"
-order: 166
 page_id: "datadog"
-warning: false
-updated: 2023-04-20
+updated: 2023-04-21
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -76,7 +74,7 @@ Once the data is present in Datadog, you can filter it based on the monitor name
 
 ## Forwarding metrics
 
-Postman can forward a wide array of metrics for the specified monitors to Datadog. This table contains the name, type, and level of the metrics, as well as a description of the metric. For more information on Datadog metric collection, see the [Datadog documentation](https://docs.datadoghq.com/metrics/).
+Postman can forward a wide array of metrics for the specified monitors to Datadog. This table lists the name, type, and level of the metrics, and a description of the metric. For more information on Datadog metric collection, see the [Datadog documentation](https://docs.datadoghq.com/metrics/).
 
 | **Metrics Name**          |       **Type**         | **Description**         | **Level**         |
 | ------------- | ------------- | ------------- | ------------- |
@@ -113,7 +111,7 @@ Postman sends tags to Datadog along with each metric and event. Tags enable you 
 
 Postman is a Datadog Technology Partner, and Postman’s integration is listed on the Datadog Integrations page. To enable the partnership, the metrics being emitted by Postman have been renamed as described in the [Forwarding metrics](#forwarding-metrics) section.
 
-If you have previously created any integrations, you must update them to take the advantage of the integration listing on Datadog.
+If you have integrations created before the integration listing on Datadog, you must update them to take the advantage of the integration listing.
 
 To update existing integrations, do the following:
 
