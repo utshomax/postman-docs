@@ -103,11 +103,11 @@ You can inspect a raw dump of the entire request including auth data in the Post
 
 An increasing number of public APIs offer easier authentication through Postman, including Stripe, Open AI, Notion, and Spotify. When you create a request to a supported API, Postman will automatically recognize if the API requires authentication and give you the option to **Set up new authorization**.
 
-<img alt="Stripe API set up new authorization" src="https://assets.postman.com/postman-docs/stripe-api-easier-auth-10.13.jpg"/>
+<img alt="Postman API set up new authorization" src="https://assets.postman.com/postman-docs/postman-api-easier-auth-10.13.jpg"/>
 
 Select **Set up new authorization** to learn what authentication credentials you'll need to make your request and where you can find them. For APIs that support OAuth 2.0, you can select **Authorize** to complete authorization. For APIs requiring credentials like tokens or API keys, you can paste those directly into your request.
 
-<img alt="Stripe API authentication info and link" src="https://assets.postman.com/postman-docs/stripe-api-easier-auth-api-key-10.13.0.jpg"/>
+<img alt="Postman API authentication info and link" src="https://assets.postman.com/postman-docs/postman-api-easier-auth-enter-key-10.13.jpg"/>
 
 If you're an API publisher, you can [join the waitlist](https://go.postman.co/settings/team/api-authentication) to provide easier authentication for your public APIs to the Postman community. To do so, open Postman and select **Team** in the upper right, then **Team Settings > Set Up API authorization**. Alternatively, select **API Network** from the Postman header, then select **Public API Network > Set up API authorization**.
 
