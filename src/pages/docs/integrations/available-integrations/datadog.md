@@ -46,7 +46,7 @@ Setting up a Datadog integration requires you to get an API key from Datadog and
     <img alt="Home page and integrations" src="https://assets.postman.com/postman-docs/v10/home-integrations-v10.jpg" width="390px">
 
 1. Select **Browse All Integrations**.
-1. Search for and select **[Datadog](https://postman.postman.co/integrations/service/datadog)**.
+1. Search and select **[Datadog](https://postman.postman.co/integrations/service/datadog)**.
 1. You can select **View All** for a list of all the integrations already created by your team.
 1. Next to **Post monitoring results**, select **Add Integration** to start the configuration process.
 
@@ -72,7 +72,7 @@ When your monitor runs, the data starts flowing into Datadog.
 
 [![view in datadog](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)
 
-Once the data is present in Datadog, you can filter it based on the monitor name/uid, collection name/uid, user name/id, and environment name/uid (if present). You can also combine different metrics to create a dashboard.
+Once the data is present in Datadog, you can filter it based on the monitor name or id, collection name or uid, user name or id, and environment name or uid (if present). You can also combine different metrics to create a dashboard.
 
 ## Forwarding metrics
 
