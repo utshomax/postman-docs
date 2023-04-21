@@ -1,6 +1,6 @@
 ---
 title: "FQL function reference"
-updated: 2023-03-29
+updated: 2023-04-21
 ---
 
 All [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) functions are documented below.
