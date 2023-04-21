@@ -9,6 +9,9 @@ contextual_links:
   - type: link
     name: "Security and Governance Rules for API Definitions | Postman Level Up"
     url: "https://youtu.be/jphqpbTEDCY"
+  - type: link
+    name: "API Security and Governance Part 1: Automating Governance"
+    url: "https://youtu.be/rdMAKc-_NIw"
   - type: subtitle
     name: "Blog posts"
   - type: link

@@ -5,6 +5,11 @@ contextual_links:
   - type: section
     name: "Additional resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Create Charts, Tables, and Output | Postman Flows"
+    url: "https://youtu.be/8zWlY4W7SWE"
+  - type: subtitle
     name: "Blog posts"
   - type: link
     name: "Postman Flows: The Next Generation of Software Development"

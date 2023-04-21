@@ -5,6 +5,11 @@ contextual_links:
   - type: section
     name: "Additional resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Use Response Data in a Request | Postman Flows"
+    url: "https://youtu.be/5ILpcE8_4RI"
+  - type: subtitle
     name: "Blog posts"
   - type: link
     name: "Postman Flows: The Next Generation of Software Development"
