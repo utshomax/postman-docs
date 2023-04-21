@@ -47,7 +47,7 @@ Postman indicates the sync state of your workspace with the sync icon in the foo
 * **Online** means that you're connected to the Postman servers and your work is either in the process of syncing or is already synced.
 * **Error** means there was a syncing error while connecting to Postman. Hover over the sync state icon to see detailed information on the error.
 
-> You may occasionally experience sync conflicts between Postman and its servers, particularly when you work as part of a team. When this happens and you attempt to save an entity, Postman will give you the option to either save and overwrite it or cancel the save action. For requests, you'll also have the option to save your version as a new request.
+> You may occasionally experience sync conflicts between Postman and its servers, particularly when you work as part of a team. When this happens and you attempt to save an element, Postman will give you the option to either save and overwrite it or cancel the save action. For requests, you'll also have the option to save your version as a new request.
 
 ## Disabling sync
 
