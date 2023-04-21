@@ -66,7 +66,7 @@ Monitor run messages summarize the basic details of the run, and whether the run
     * **Nickname** - A nickname for the integration.
     * **Workspace** - The workspace that has your monitor.
     * **Monitor** - The collection-based monitor which will send its results to Microsoft Teams.
-    * **Notification URL** - Your [incoming webhook URL](#create-a-microsoft-teams-webhook-url).
+    * **Notification URL** - Your notification URL.
     * **Monitor runs notifications** - Select whether you want notifications for all completed monitor runs, or notifications for three monitor run failures and then the first successful monitor run.
 
 1. Select **Add Integration**.
@@ -78,7 +78,7 @@ Team Activity messages display updates, who made a change, and what it was.
 1. Enter the following in the **Add Integration** window:
 
     * **Nickname** - A nickname for the integration.
-    * **Notification URL** - Your [incoming webhook URL](#create-a-microsoft-teams-webhook-url).
+    * **Notification URL** - Your [incoming webhook URL](#create-a-microsoft-teams-webhook-url) where your team's updates are sent.
 
 1. Select **Add Integration**.
 
