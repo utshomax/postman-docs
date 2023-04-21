@@ -107,8 +107,10 @@ If you sign in to Postman with Google or SSO using an email address associated w
 
 To link your Google or IdP account to Postman, do the following:
 
-1. On the sign in page, select either **Sign in with Google** or **Sign in with SSO**.
+1. [Sign in to Postman](#signing-in-to-postman) with Google or SSO.
 1. Enter your Postman account credentials, and then select either **Sign in to link your Google account**  or **Sign in to link your SSO account**.
+
+    <img alt="Link SSO account to Postman" src="https://assets.postman.com/postman-docs/v10/sign-in-to-link-sso-account-v10.jpg" width="350px"/>
 
 The next time you sign in to Postman with Google or SSO your account will already be linked to your Postman account.
 
