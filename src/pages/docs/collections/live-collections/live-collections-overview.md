@@ -5,7 +5,6 @@ contextual_links:
   - type: section
     name: "Additional resources"
   - type: subtitle
-  - type: subtitle
     name: "Blog posts"
   - type: link
     name: "Introducing Postman Live Collections for automated documentation"
