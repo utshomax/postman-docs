@@ -15,8 +15,8 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "What Is the Purpose of API Governance?"
-    url: "https://blog.postman.com/what-is-the-purpose-of-api-governance/"
+    name: "Big improvements to Postman API Governance"
+    url: "https://blog.postman.com/api-governance-improvements/"
   - type: link
     name: "API Governance with Postman v10"
     url: "https://blog.postman.com/api-governance-with-postman-v10/"

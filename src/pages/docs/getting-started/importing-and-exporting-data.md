@@ -7,6 +7,9 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Import and Export Data in Postman"
+    url: "https://youtu.be/KdaiVdNMgL4"
+  - type: link
     name: "Importing cURL Commands | Postman Level Up"
     url: "https://youtu.be/kuR3we5EY2s"
   - type: link
@@ -27,8 +30,8 @@ contextual_links:
     name: "Latest Updates to Syncing Your Specs with Collections"
     url: "https://blog.postman.com/latest-updates-to-syncing-your-specs-with-collections/"
   - type: link
-    name: "Postman Supports WSDL"
-    url: "https://blog.postman.com/postman-now-supports-wsdl/"
+    name: "Bring your APIs into Postman faster than ever"
+    url: "https://blog.postman.com/bring-your-apis-into-postman-faster-than-ever/"
   - type: subtitle
     name: "Next steps"
   - type: link
