@@ -18,17 +18,14 @@ contextual_links:
   - type: link
     name: "Integrating GitLab in Postman's API Builder"
     url: "https://youtu.be/ecAQv9gZEKk"
-  - type: link
-    name: "Generate a Collection From a Specification | Postman Level Up"
-    url: "https://youtu.be/gljWt9tDKOY"
   - type: subtitle
     name: "Blog posts"
   - type: link
     name: "Postman Essentials: Exploring the Collection Format"
     url: "https://blog.postman.com/postman-essentials-exploring-the-collection-format/"
   - type: link
-    name: "Latest Updates to Syncing Your Specs with Collections"
-    url: "https://blog.postman.com/latest-updates-to-syncing-your-specs-with-collections/"
+    name: "Differences between Postman Collections and the collection format"
+    url: "https://blog.postman.com/differences-between-postman-collections-and-collection-format/"
   - type: link
     name: "Bring your APIs into Postman faster than ever"
     url: "https://blog.postman.com/bring-your-apis-into-postman-faster-than-ever/"

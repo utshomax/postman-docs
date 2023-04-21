@@ -5,6 +5,14 @@ contextual_links:
   - type: section
     name: "Additional resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API Security and Governance Part 1: Automating Governance"
+    url: "https://youtu.be/rdMAKc-_NIw"
+  - type: link
+    name: "API Security and Governance Part 2: Customizing Governance with Spectral Rulesets"
+    url: "https://youtu.be/TDOuZcKQId4"
+  - type: subtitle
     name: "Blog posts"
   - type: link
     name: "Big improvements to Postman API Governance"
