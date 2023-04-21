@@ -2174,5 +2174,9 @@
 	{
 		"from": "/docs/postman/mock_servers",
 		"to": "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
+	},
+	{
+		"from":"/docs/collaborating-in-postman/using-workspaces/conflicts/",
+		"to": "/docs/getting-started/syncing/"
 	}
 ]
