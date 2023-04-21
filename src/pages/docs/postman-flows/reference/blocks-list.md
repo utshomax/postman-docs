@@ -1,16 +1,15 @@
 ---
 title: "Postman Flows blocks"
-updated: 2022-12-15
+updated: 2023-04-12
 ---
 
 The blocks available in Postman Flows are described below.
 
 * [Information blocks](#information-blocks)
-* [Trigger block](#trigger-block)
 * [Decision blocks](#decision-blocks)
-* [Looping blocks](#looping-blocks)
+* [Repeating blocks](#repeating-blocks)
 * [Action blocks](#action-blocks)
-* [Output block](#output-block)
+* [Output block](#output-blocks)
 
 ## Information blocks
 
@@ -18,11 +17,13 @@ The blocks available in Postman Flows are described below.
 
 <img alt="Template block" src="https://assets.postman.com/postman-labs-docs/all-blocks/template-block.png" width="245px"/>
 
-Enables the free-hand structuring of data and inclusion of variables in the format `{{variable}}`
+Enables large amounts of formatted text to be entered. The values in the variables section can be included in the text using `{{key}}` where `key` is the name of your variable.
 
-**Variables** - Named data or assigned values that can be assigned in the text using the `{{variable}}` format.
+**Variables** - Named information or assigned values that can be included in the text using the `{{key}}` format.
 
-**Out** - Outputs the data entered in the text box.
+**Out** - Sends the information entered in the text box to the next block.
+
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bc94e8e308d202595085d7)
 
 ### Get Variable
 
@@ -30,67 +31,89 @@ Enables the free-hand structuring of data and inclusion of variables in the form
 
 Gets the specified variable's value from anywhere in the flow.
 
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bc94d282cf9728f279e020)
+
 ### Create Variable
 
 <img alt="Create Variable block" src="https://assets.postman.com/postman-docs/v10/create-variable-block-1-v10.jpg" width="136px"/>
 
-Assigns a value to a variable that can then be accessed with the **Get Variable** block anywhere in the flow. The input is any value.
+Assigns a value to a variable that can then be accessed with the **Get Variable** block anywhere in the flow. The input is any value (such as text, a number, or information from another block).
+
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bc94d282cf9728f279e020)
 
 ### Record
 
 <img alt="Record block" src="https://assets.postman.com/postman-labs-docs/all-blocks/record-block.png" width="245px"/>
 
-Structured data that can hold any of the other value block types or a record itself. Data is organized by having a key and a value.
+Structured information that can hold any of the other value block types or another record. Information is organized by having a key (the name assigned to the information) and a value.
+
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bc6eacead4e97c45493e9c)
 
 ### List
 
 <img alt="List block" src="https://assets.postman.com/postman-docs/v10/list-block-v10.jpg" width="159px"/>
 
-Emits the specified list of values. Each item can be any type of block, for example, a date block, a string, or a record.
+Outputs the specified list of values. Each item can be any type of block, for example, a date block, a string, or a record. Using a **Select** block in a row of the list enables information from another block to be passed into the list.
+
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bc9412ead4e97c45493eb0)
 
 ### Date & Time
 
 <img alt="Date &amp; Time block" src="https://assets.postman.com/postman-labs-docs/all-blocks/date-and-time-block.png" width="221px"/>
 
-Emits the specified date and time.
+Outputs the specified date and time.
+
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bc6e7782ae416b9e6bc10a)
 
 ### Date
 
 <img alt="Date block" src="https://assets.postman.com/postman-labs-docs/all-blocks/date-block.png" width="164px"/>
 
-Emits the specified date.
+Outputs the specified date.
+
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bc6e72ead4e97c45493e9a)
 
 <!-- vale Postman.Avoid = NO -->
 ### Now
 
 <img alt="Now block" src="https://assets.postman.com/postman-labs-docs/all-blocks/now-block.png" width="69px"/>
 
-Emits the current date and time.
+Outputs the current date and time.
+
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bc6e61e308d202595085c9)
 <!-- vale Postman.Avoid = YES -->
 
 ### Select
 
 <img alt="Select block" src="https://assets.postman.com/postman-labs-docs/all-blocks/select-block.png" width="142px"/>
 
-Parses a data stream to select a subset of the data available. If the input data is from a send request with a saved example, auto-fills the path as items are selected in the menu. Otherwise can be navigated using the forward slash to select sub-items. For example `/body/results` for a field named results in the body of a request.
+Selects a specific part of the information output from another block. If the input information is from a send request block with a saved example, a drop-down will pop up that has all the information available to choose from and selecting that information will auto-fill the select block.
+
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bc6e92e308d202595085cb)
 
 ### Regex
 
 <img alt="Regex block" src="https://assets.postman.com/postman-docs/v10/regex-block-1-v10.jpg" width="121px"/>
 
-Emits a regular expression.
+Outputs a regular expression.
+
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bc955b82ae416b9e6bc11d)
 
 ### Null
 
 <img alt="Null block" src="https://assets.postman.com/postman-labs-docs/all-blocks/null-block.png" width="35px"/>
 
-Emits a null value.
+Outputs a null value.
+
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bc6e4a82ae416b9e6bc108)
 
 ### Number
 
 <img alt="Number block" src="https://assets.postman.com/postman-labs-docs/all-blocks/number-block.png" width="93px"/>
 
-A whole or decimal number.
+A whole or decimal number that can be positive or negative.
+
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63b8b417a365885b55bc51fd)
 
 <!-- vale Postman.Spelling = NO -->
 ### Bool
@@ -99,20 +122,24 @@ A whole or decimal number.
 
 True or false.
 
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63b8b16f2b292a29393dbef9)
+
 <!-- vale Postman.Spelling = YES -->
 ### String
 
 <img alt="String block" src="https://assets.postman.com/postman-labs-docs/all-blocks/string-block.png" width="143px"/>
 
-Emits the string that you enter.
+Outputs the text that you enter.
 
-## Trigger block
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bc6328e308d202595085bc)
 
 ### Start
 
 <img alt="Start block" src="https://assets.postman.com/postman-labs-docs/all-blocks/combined-start-block.png" width="110px"/>
 
-Used as the entry point for [running flows on the cloud](/docs/postman-flows/running-flows-on-the-cloud/webhooks/). Can be configured to hold test data for testing locally by selecting the gear icon and will act as a webhook endpoint that accepts data when running on the cloud.
+The first block that runs when a flow is run. When deploying to the cloud [running flows on the cloud](/docs/postman-flows/running-flows-on-the-cloud/webhooks/), Can be configured to hold information (either as text or in JSON format) for testing locally by selecting the gear icon.
+
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bcbae7f3155f2e86b54eb2)
 
 ## Decision blocks
 
@@ -121,66 +148,76 @@ Used as the entry point for [running flows on the cloud](/docs/postman-flows/run
 <img alt="If block" src="https://assets.postman.com/postman-labs-docs/all-blocks/refactored-if-block.png" width="245px"/>
 
 <!-- vale Postman.Spelling = NO -->
-  Takes any number of variables and data, and takes a different branch depending on the result of the FQL condition.
+  Takes any number of variables and information, and takes a different branch depending on the result of the [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) condition.
 
-  **Variables** - Named data or assigned values.
+  **Variables** - Named information or assigned values.
 
-  **Text entry block** - Freeform query using FQL that evalutes to true or false.
+  **Text entry block** - Freeform query using [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) that evalutes to true or false.
 
-  **Data** - Receives data or an event from another block.
+  **Data** - Receives information or an event from another block.
 
-  **Outputs** - Sends the data to either the True or False pathway depending on the value of the FQL condition.
+  **Outputs** - Sends the information to either the True or False pathway depending on the value of the FQL condition.
+
+  [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bcba94f3155f2e86b54eb0)
 <!-- vale Postman.Spelling = YES -->
 
 ### Evaluate
 
 <img alt="Evaluate block" src="https://assets.postman.com/postman-labs-docs/all-blocks/updated-evaluate-block.png" width="318px"/>
 
-Executes [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) syntax to query structured data.
+Executes [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) to change information and work with variables.
 
-**Variables** - Named data or assigned values that can be accessed using FQL.
+**Variables** - Named information or assigned values that can be accessed using FQL.
 
 **Text entry block** - Freeform query using FQL.
 
 **Out** - Outputs the result of the query.
 
-## Looping blocks
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bc960882ae416b9e6bc11f)
+
+## Repeating blocks
 
 ### Repeat
 
 <img alt="Repeat block" src="https://assets.postman.com/postman-labs-docs/all-blocks/repeat-block.png" width="129px"/>
 
-Performs a loop a specified number of times.
+Runs all of the blocks that come after it the specified number of times until a **Collect** block is encountered in which case it will stop repeating all blocks that come after the **Collect** block.
 
 **Count** - The number of times to run the block.
 
-**Start** - Triggers the block.
+**Start** - Runs the block when it receives input from another block.
 
-**Index** - The index of the current run starting at 0 for the first run.
+**Index** - The number of the current run starting at 0 for the first run.
+
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63b898422e67b05a8333e16a)
 
 ### For
 
 <img alt="For block" src="https://assets.postman.com/postman-labs-docs/all-blocks/for-block.png" width="111px"/>
 
-Loops over each item in a list.
+Runs all of the blocks that come after it once for each item in the input list until a **Collect** block is encountered in which case it will stop repeating all blocks that come after the **Collect** block.
 
 **List** - A list of values like `[1,2,3]` or `["one","two","three"]`.
 
-**Start** - Receives an event to trigger the block to start.
+**Start** - Receives an input to run the block.
 
-**Item** - Outputs a single item from the loop.
+**Item** - Outputs a single item in the list.
+
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63b89820a365885b55bc51f6)
 
 ### Collect
 
 <img alt="Collect block" src="https://assets.postman.com/postman-labs-docs/all-blocks/collect-block.png" width="118px"/>
 
-Collects the results of a for loop, and outputs a list and an event when it has finished.
+**For** and **Repeat** blocks will stop repeating once this block is reached. Every item will be put into a new list and then output.
 
-**Item** - Takes in a single item from a for loop.
+**Item** - Takes in a single item from a for or repeat sequence.
 
-**List** - Creates a list of all items sent to this block in the for loop.
+**List** - Creates a list of all items sent to this block in the for or repeat sequence.
 
-**Finish** - Sends an event when the block is complete (when the for loop has ended and every item is in a new list).
+**Finish** - Sends an event when the block is complete (when the for/repeat has been run for every item and they are all in a new list).
+
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63b898822e67b05a8333e16c)
 
 ## Action blocks
 
@@ -188,32 +225,36 @@ Collects the results of a for loop, and outputs a list and an event when it has 
 
 <img alt="Delay block" src="https://assets.postman.com/postman-labs-docs/all-blocks/delay-block.png" width="212px"/>
 
-Waits the specified amount of time before allowing data through.
+Waits the specified amount of time before allowing information through.
 
-**Data (input)** - Triggers the block to start the delay.
+**Data (input)** - Starts the delay when it receives input from another block.
 
-**Data (output)** - Once the delay is complete, passes through whatever data was input.
+**Data (output)** - Once the delay is complete, passes through whatever information was input.
 
 **Delay (in ms)** - The amount of time in milliseconds to wait.
+
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bcbaf6ead4e97c45493eb9)
 
 ### Send Request
 
 <img alt="Send Request block" src="https://assets.postman.com/postman-labs-docs/all-blocks/send-request-block.png" width="237px"/>
 
-Invokes a request in a collection.
+Runs a request in a collection and outputs the result. If a request that has a saved example was used, the result can be used as test data to run the flow and auto-fill **Select** blocks.
 
-**Send** - When any connection fires an event to this port, the block invokes the specified request.
+**Send** - When this receives any input from another block, the selected request is run.
 
 **Environment** - Lets you select which Postman environment to use with your request.
 
-**Body Type** - The schema that your data uses (for example JSON or XML). **Auto** will try to auto-detect which schema is being used.
+**Body Type** - The format that your information uses (for example JSON or XML). **Auto** will try to auto-detect which schema is being used.
 
-**Variables** - Auto-populates with any `{{variable}}` that's in the specified request. Variables can either be assigned a value in the block itself, or have a value passed in.
+**Variables** - If the request being run contains any variables in `{{variable}}` format, they will show up here. Variables can either be assigned a value in the block itself, have a value passed in using a **Select** block, or be already assigned in the Environment.
 <!-- vale Postman.ComplexWords = NO -->
-**Success** - Contains the response of a successful API call if tests are assigned to the request and all pass or, if there are no tests, a 2xx HTTP status code is received. The API call can then be connected to another block or variable value to extract a field from the response.
+**Success** - Contains the response of a successful API request. If Postman tests are assigned to the request and all pass or, if there are no tests, a 2xx (successful) HTTP status code is received. The information returned by the request is then output to the next block.
 
-**Failure** - Contains the response of a failed API call if tests are assigned to the request and any fail or, if there are no tests, a non 2xx HTTP status code is received. The API call can then be connected to another block or variable value to extract a field from the response.
+**Failure** - Contains the response of an unsuccessful API request. If Postman tests are assigned to the request and all fail or, if there are no tests, a non 2xx (unsuccessful) HTTP status code is received. The information returned by the request is then output to the next block.
 <!-- vale Postman.ComplexWords = YES -->
+
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/6267f9008752c1035922de48)
 
 ## Output blocks
 
@@ -221,16 +262,12 @@ Invokes a request in a collection.
 
 <img alt="Log (console) block" src="https://assets.postman.com/postman-labs-docs/all-blocks/log-block.png" width="78px"/>
 
-Prints the input to the console.
+Sends the information input to the block to the Postman console.
+
+[Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63b8b07ea365885b55bc51f9)
 
 ### Output
 
 <img alt="Output block" src="https://assets.postman.com/postman-docs/v10/output-block-v10.jpg" width="249px"/>
 
-Displays the data passed through the port. The dropdown menu enables you to select from JSON, charts, tables, videos, images, and more. You can use **Output** blocks to:
-
-* Debug flows by viewing data directly on the canvas instead of opening the Postman console to view logs.
-* Create and display markdown, images, videos, and even YouTube embeds.
-* Create interactive dashboards using bar charts, line charts, tables, and more.
-
-For more information, see the [Building your first flow](/docs/postman-flows/tutorials/building-your-first-flow/) tutorial.
+Displays the information input. The dropdown menu allows you to select from JSON, charts, tables, videos, images, and more. For more information and examples on the output block, see [Creating charts, tables, and output](/docs/postman-flows/tutorials/creating-charts-tables-and-output/).
