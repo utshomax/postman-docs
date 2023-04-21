@@ -13,8 +13,6 @@ Microsoft Power Automate enables you to automate workflows between your favorite
 
 You can configure Microsoft Power Automate with Postman to monitor run results, view team and collection-specific activity feeds, back up your Postman Collections, and use a Microsoft Power Automate Webhook URL.
 
-To configure a Microsoft Power Automate integration, you will need to first create a Microsoft Power Automate webhook URL.
-
 > **You can view your configured integrations on the [Browse Integrations](https://go.postman.co/integrations/browse) page.** You can also view integrations that have been configured for a monitor or collection by opening the monitor or collection and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Learn more about [viewing or editing integrations](/docs/integrations/intro-integrations/#viewing-or-editing-integrations).
 
 ## Contents
@@ -87,7 +85,7 @@ To back up a collection in Microsoft Power Automate, do the following:
     * **Nickname** - A nickname for the integration.
     * **Workspace** - The workspace that has the collection you want to back up.
     * **Collection** - The collection you want to back up.
-    * **Notification URL** - Your [webhook URL](#get-the-microsoft-power-automate-webhook-url).
+    * **Notification URL** - Your notification URL.
 
 1. Select **Add Integration**.
 
@@ -102,7 +100,7 @@ To send a collection activity feed to Microsoft Power Automate, do the following
     * **Nickname** - A nickname for the integration.
     * **Workspace** - The workspace that has the collection.
     * **Collection** - The collection you want to receive notifications about.
-    * **Notification URL** - Your [webhook URL](#get-the-microsoft-power-automate-webhook-url).
+    * **Notification URL** - Your [webhook URL](#get-the-microsoft-power-automate-webhook-url) where your team's updates are sent.
 
 1. Select **Add Integration**.
 
@@ -117,10 +115,14 @@ To send monitor run results to Microsoft Power Automate, do the following:
     * **Nickname** - A nickname for the integration.
     * **Workspace** - The workspace that has your monitor.
     * **Monitor** - The collection-based monitor which will send its results to Microsoft Power Automate.
-    * **Notification URL** - Your [webhook URL](#get-the-microsoft-power-automate-webhook-url).
+    * **Notification URL** - Your notification URL.
     * **Monitor runs notifications** - Select whether you want notifications for all completed monitor runs, or notifications for three monitor run failures and then the first successful monitor run.
 
 1. Select **Add Integration**.
+
+Your integration has been set up. Whenever a monitor runs, you will get a notification on your Microsoft Power Automate mobile app.
+
+![see notifications](https://assets.postman.com/postman-docs/58858362.jpg)
 
 ### Add a team activity feed to Microsoft Power Automate
 
