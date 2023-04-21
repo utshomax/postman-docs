@@ -1,6 +1,15 @@
 ---
 title: "Live Collection setup"
 updated: 2023-03-15
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Introducing Postman Live Collections for automated documentation"
+    url: "https://blog.postman.com/introducing-postman-live-collections-for-automated-documentation/"
 ---
 
 To start using Live Collections, create a collection, then install the Postman SDK in your application.

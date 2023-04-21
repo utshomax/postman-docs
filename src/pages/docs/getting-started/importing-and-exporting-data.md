@@ -7,8 +7,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "How to Import and Export Data in Postman"
-    url: "https://youtu.be/sCWwOzhUMXE"
+    name: "Importing cURL Commands | Postman Level Up"
+    url: "https://youtu.be/kuR3we5EY2s"
   - type: link
     name: "Postman | How to Connect to Your Git Repository"
     url: "https://youtu.be/8jJHXLVYOh0"

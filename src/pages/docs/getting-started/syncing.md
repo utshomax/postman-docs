@@ -10,6 +10,13 @@ contextual_links:
     name: "Download and Install"
     url: "https://www.postman.com/downloads/"
   - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Syncing Your Work in Postman | The Exploratory"
+    url: "https://youtu.be/ocnn0nYICpo"
+  - type: section
     name: "Next steps"
   - type: link
     name: "Sending your first request"
