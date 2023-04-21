@@ -28,7 +28,7 @@ To configure a Microsoft Teams integration, you will need to first create a Micr
 
     ![select channel](https://assets.postman.com/postman-docs/microsoft-teams-channel.jpg)
 
-1. Select the `...` next to the channel name and select **Connectors** from the dropdown list.
+1. Select **More options ...** next to the channel name and select **Connectors** from the dropdown list.
 
 1. Select the **Incoming Webhook** connector from the list of available connectors.
 

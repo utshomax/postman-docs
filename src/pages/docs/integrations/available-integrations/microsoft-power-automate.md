@@ -31,7 +31,7 @@ You can configure Microsoft Power Automate with Postman to monitor run results, 
 
     ![create connector](https://assets.postman.com/postman-docs/ms-pa-create-from-blank-v9.jpg)
 
-1. To add the first step, enter `request` in the search bar. Select the **Triggers** tab, and select **Request / Response - Request**.
+1. To add the first step, search for "request" in the search bar. Select the **Triggers** tab, and select **Request / Response - Request**.
 
     ![select trigger](https://assets.postman.com/postman-docs/ms-pa-request-v9.jpg)
 
