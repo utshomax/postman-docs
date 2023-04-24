@@ -927,7 +927,7 @@ $log2(16) -> 4
 
 ### exp
 
-Return e raised to the power a number, where e = 2.718281… is the base of natural logarithms.
+Returns e raised to the power a number, where e = 2.718281… is the base of natural logarithms.
 
 ``` javascript
 $exp($num: number) => number
