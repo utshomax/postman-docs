@@ -885,7 +885,7 @@ $cbrt(27) -> 3
 
 ### log
 
-Returns the natural logarithm of a number (base e)
+Returns the natural logarithm of a number (base e).
 
 ``` javascript
 $log($num: number) => number
