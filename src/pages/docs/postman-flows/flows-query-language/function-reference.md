@@ -1095,7 +1095,7 @@ $asinh(1) -> 1.5707963267948966
 
 ### acosh
 
-Returns the inverse hyperbolic cosine of a number, in radians. The number must be number between 1 and inf. The result is between 0 and inf.
+Returns the inverse hyperbolic cosine of a number, in radians. The number must be a number between 1 and inf. The result is between 0 and inf.
 
 ``` javascript
 $acosh($num: number) => number
