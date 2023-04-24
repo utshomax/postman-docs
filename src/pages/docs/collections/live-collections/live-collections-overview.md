@@ -1,6 +1,14 @@
 ---
 title: "Live Collection overview"
 updated: 2023-03-15
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Introducing Postman Live Collections for automated documentation"
+    url: "https://blog.postman.com/introducing-postman-live-collections-for-automated-documentation/"
 ---
 
 _Postman Live Collections_ enable you to keep your collections up-to-date based on the usage of your application. By observing your application, the Postman SDK automatically updates your Live Collections.

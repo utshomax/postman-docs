@@ -14,6 +14,9 @@ contextual_links:
   - type: link
     name: "Introducing Partner Workspaces: An Exclusive Space to Collaborate with Your API Partners"
     url: "https://blog.postman.com/introducing-partner-workspaces/"
+  - type: link
+    name: "Partner Viewers are free for enterprise teams"
+    url: "https://blog.postman.com/partner-viewers-are-free-for-enterprise-teams/"
 ---
 
 > **[Partner Workspaces are available on Postman Enterprise plans.](https://www.postman.com/pricing)**

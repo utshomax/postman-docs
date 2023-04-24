@@ -22,6 +22,14 @@ contextual_links:
   - type: link
     name: "Share Collection JSON via a Link | Postman Level Up"
     url: "https://youtu.be/tw7x3yBpU1Y"
+  - type: link
+    name: "Share a Collection With a Guest User | Postman Level Up"
+    url: "https://youtu.be/pRIG0Ujphoc"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Introducing Postman’s new Guest role to share collections instantly"
+    url: "https://blog.postman.com/introducing-postmans-new-guest-role-to-share-collections-instantly/"
   - type: section
     name: "Next steps"
   - type: link
@@ -156,7 +164,15 @@ To learn how to change an external user's team role, see [Managing guests](/docs
 
 You can turn off the toggle next to **Allow Guests with the link to join your team and view collection**. When you turn this off, new external users can no longer be assigned the Guest role. External users already assigned the Guest role will continue to have access to the collection. If this is turned off for all collections an external user could access, they will be removed from the team and unable to access collections in the team.
 
-To remove external users at the team level, see [Removing team members](/docs/administration/managing-your-team/managing-your-team/#removing-team-members).
+To remove external users at the team level, see [Removing team members](/docs/administration/managing-your-team/managing-your-team/#removing-team-members). In certain cases, Guests with access to only one collection are automatically removed from the team:
+
+* If the Workspace Admin removes them from the collection
+
+* If the Workspace Admin removes the guest from the workspace the collection is in
+
+* If the Workspace Admin changes the visibility of the workspace the collection is in to private
+
+* If the Workspace Admin deletes the workspace the collection is in
 
 To remove external users at the collection level, do the following:
 

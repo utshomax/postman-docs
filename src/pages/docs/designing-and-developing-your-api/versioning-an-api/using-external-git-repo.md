@@ -24,11 +24,11 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
+    name: "Build better APIs using the new and improved API Builder"
+    url: "https://blog.postman.com/build-better-apis-using-the-new-and-improved-api-builder/"
+  - type: link
     name: "Announcing Postman’s Redesigned API Builder with Native Git Support"
     url: "https://blog.postman.com/announcing-postmans-redesigned-api-builder-with-native-git-support/"
-  - type: link
-    name: "Better Practices for Git Version Control in Postman"
-    url: "https://blog.postman.com/better-practices-for-git-version-control-in-postman/"
   - type: link
     name: "Syncing Your Specs with Collections"
     url: "https://blog.postman.com/latest-updates-to-syncing-your-specs-with-collections/"
@@ -118,7 +118,7 @@ To create an installed app for GitHub Enterprise Server or GitLab Self-Managed, 
     * **GitHub Enterprise Server** - Use the base URL of your Git server, for example: `https://my-github-server.example.com`
     * **GitLab Self-Managed** - Use the base URL of your Git server, for example: `https://gitlab.example.com`
 
-1. Create an OAuth app by following the instructions for your Git provider ([GitHub Enterprise Server](https://go.pstmn.io/github-oauth-app-setup) or [GitLab Self-Managed](https://go.pstmn.io/GitLab-OAuth-app-setup)).
+1. Create an OAuth app by following the instructions for your Git provider ([GitHub Enterprise Server](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/creating-an-oauth-app) or [GitLab Self-Managed](https://docs.gitlab.com/ee/integration/oauth_provider.html)).
 
     * For **Homepage URL** enter: `https://www.postman.com`
     * For **Authorization callback URL** or **Redirect URI**, enter the authorization callback URL provided in Postman: `https://integration-oauth.pstmn.io/v1/api-git-callback.html`
