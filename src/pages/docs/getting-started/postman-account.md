@@ -103,8 +103,6 @@ If you're a member of multiple Postman teams with varying authentication methods
 
 If you sign in to Postman with Google or SSO using an email address associated with a Postman account, you might need to link your account to Postman the first time you sign in. Follow the steps to link your Google or identity provider (IdP) account to Postman. You only need to link your account to Postman one time.
 
-> If the email address associated with your Postman account is verified, Postman won't ask you to link your Google account to Postman.
-
 To link your Google or IdP account to Postman, do the following:
 
 1. [Sign in to Postman](#signing-in-to-postman) with Google or SSO.
