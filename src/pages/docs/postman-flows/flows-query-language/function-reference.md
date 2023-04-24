@@ -792,7 +792,7 @@ $formatBase(100, 2) -> "1100100"
 
 ### isFinite
 
-Returns true if the value input is not infinity, and false otherwise
+Returns true if the value input is not infinity, and false otherwise.
 
 ``` javascript
 $isFinite( $num: number ) => number
