@@ -173,7 +173,7 @@ If a tab has unsaved changes, Postman displays a dot next to the tab name. Selec
 
 #### Renaming and linking elements
 
-To rename an element, hover over the element's name in the workbench to display the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. Select the edit icon and enter a new name.
+To rename an element, select the element's name and enter a new name.
 
 <img alt="Rename elements" src="https://assets.postman.com/postman-docs/v10/rename-element-v10.jpg" width="300px"/>
 
