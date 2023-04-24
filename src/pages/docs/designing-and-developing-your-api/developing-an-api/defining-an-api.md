@@ -30,8 +30,8 @@ contextual_links:
     name: "The Reimagined API-First Workflow, Part 1: for Developers"
     url: "https://blog.postman.com/the-reimagined-api-first-workflow-for-developers/"
   - type: link
-    name: "Shifting Left with Postman"
-    url: "https://blog.postman.com/shifting-left-with-postman/"
+    name: "Build better APIs using the new and improved API Builder"
+    url: "https://blog.postman.com/build-better-apis-using-the-new-and-improved-api-builder/"
   - type: section
     name: "Next steps"
   - type: link

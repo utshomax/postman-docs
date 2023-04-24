@@ -1,6 +1,14 @@
 ---
 title: "Using Spectral in Postman"
 updated: 2022-09-15
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API Security and Governance Part 2: Customizing Governance with Spectral Rulesets"
+    url: "https://youtu.be/TDOuZcKQId4"
 ---
 
 Spectral is a linting engine that helps you define custom rules and enforce them on JSON and YAML files. Postman supports Spectral v6 rules for the configurable [API governance](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules) and [API security](/docs/api-governance/configurable-rules/configuring-api-security-rules/#adding-custom-rules) rules for your team.
