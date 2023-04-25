@@ -33,6 +33,9 @@ contextual_links:
   - type: link
     name: "Securely Using API Keys in Postman"
     url: "https://blog.postman.com/how-to-use-api-keys/"
+  - type: link
+    name: "Faster and easier variable management in Postman"
+    url: "https://blog.postman.com/faster-and-easier-variable-management-in-postman/"
   - type: subtitle
     name: "Case Studies"
   - type: link

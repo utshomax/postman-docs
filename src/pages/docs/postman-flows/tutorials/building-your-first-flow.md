@@ -5,6 +5,14 @@ contextual_links:
   - type: section
     name: "Additional resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Send a Request | Postman Flows"
+    url: "https://youtu.be/QYqA1VAoyIA"
+  - type: link
+    name: "Pagination | Postman Flows"
+    url: "https://youtu.be/6VLquc7A56Y"
+  - type: subtitle
     name: "Blog posts"
   - type: link
     name: "Postman Flows: The Next Generation of Software Development"

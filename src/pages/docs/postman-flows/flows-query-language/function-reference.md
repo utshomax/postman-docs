@@ -1,6 +1,6 @@
 ---
 title: "FQL function reference"
-updated: 2023-03-29
+updated: 2023-04-21
 ---
 
 All [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) functions are documented below.
@@ -748,6 +748,20 @@ $ceil($num: number) => number
 $ceil(3.4) -> 4
 ```
 
+### constant
+
+Returns the constant value with the given name. For example: e, ln 2, log2 e, log10 e, pi or π.
+
+``` javascript
+$constant($name: string ) => number
+```
+
+#### Basic usage
+
+``` javascript
+$constant('e') -> 2.718281828459045
+```
+
 ### floor
 
 Returns the largest integer less than or equal to a number.
@@ -774,6 +788,21 @@ $formatBase($num: number, $base?: number) => string
 
 ``` javascript
 $formatBase(100, 2) -> "1100100"
+```
+
+### isFinite
+
+Returns true if the value input is not infinity, and false otherwise.
+
+``` javascript
+$isFinite( $num: number ) => number
+```
+
+#### Basic usage
+
+``` javascript
+$isFinite(1) -> true
+$isFinite(inf) -> false
 ```
 
 ### number
@@ -838,6 +867,258 @@ $sqrt($num: number) => number
 
 ``` javascript
 $sqrt(16) -> 4
+```
+
+### cbrt
+
+Returns the cube root of a number.
+
+``` javascript
+$cbrt($num: number) => number
+```
+
+#### Basic usage
+
+``` javascript
+$cbrt(27) -> 3
+```
+
+### log
+
+Returns the natural logarithm of a number (base e).
+
+``` javascript
+$log($num: number) => number
+```
+
+#### Basic usage
+
+``` javascript
+$log(16) -> 2.772588722239781
+```
+
+### log10
+
+Returns the base 10 logarithm of a number.
+
+``` javascript
+$log10($num: number) => number
+```
+
+#### Basic usage
+
+``` javascript
+$log10(16) -> 1.2041199826559248
+```
+
+### log2
+
+Returns the base 2 logarithm of a number.
+
+``` javascript
+$log2($num: number) => number
+```
+
+#### Basic usage
+
+``` javascript
+$log2(16) -> 4
+```
+
+### exp
+
+Returns e raised to the power a number, where e = 2.718281… is the base of natural logarithms.
+
+``` javascript
+$exp($num: number) => number
+```
+
+#### Basic usage
+
+``` javascript
+$exp(16) -> 8886110.520507872
+```
+
+### sin
+
+Returns the sine of a number of radians.
+
+``` javascript
+$sin($num: number) => number
+```
+
+#### Basic usage
+
+``` javascript
+$sin(1) -> 0.8414709848078965
+```
+
+### cos
+
+Returns the cosine of a number of radians.
+
+``` javascript
+$cos($num: number) => number
+```
+
+#### Basic usage
+
+``` javascript
+$cos(1) -> 0.5403023058681398
+```
+
+### tan
+
+Returns the tangent of a number of radians.
+
+``` javascript
+$tan($num: number) => number
+```
+
+#### Basic usage
+
+``` javascript
+$tan(1) -> 1.5574077246549023
+```
+
+### asin
+
+Returns the arc sine of a number of radians. The result is between -pi/2 and pi/2. The number must be between -1 and 1.
+
+``` javascript
+$asin($num: number) => number
+```
+
+#### Basic usage
+
+``` javascript
+$asin(1) -> 1.5707963267948966
+```
+
+### acos
+
+Returns the arc cosine of a number of radians. The result is between 0 and pi. The number must be between -1 and 1.
+
+``` javascript
+$acos($num: number) => number
+```
+
+#### Basic usage
+
+``` javascript
+$acos(1) -> 0
+```
+
+### atan
+
+Returns the arc tangent of a number of radians. The result is between -pi/2 and pi/2.
+
+``` javascript
+$atan($num: number) => number
+```
+
+#### Basic usage
+
+``` javascript
+$atan(1) -> 0.7853981633974483
+```
+
+### atan2
+
+Returns atan(y / x), in radians. The result is between -pi and pi. The vector in the plane from the origin to point (x, y) makes this angle with the positive X axis. The signs of both inputs are known to it, so it can compute the correct quadrant for the angle. For example, atan(1) and atan2(1, 1) are both pi/4, but atan2(-1, -1) is -3*pi/4.
+
+``` javascript
+$atan2($x: number, $y: number) => number
+```
+
+#### Basic usage
+
+``` javascript
+$atan2(-1, -1) -> -2.356194490192345
+```
+
+### sinh
+
+Returns the hyperbolic sine of a number of radians.
+
+``` javascript
+$sinh($num: number) => number
+```
+
+#### Basic usage
+
+``` javascript
+$sinh(1) -> 1.1752011936438014
+```
+
+### cosh
+
+Returns the hyperbolic cosine of a number of radians.
+
+``` javascript
+$cosh($num: number) => number
+```
+
+#### Basic usage
+
+``` javascript
+$cosh(1) -> 1.5430806348152437
+```
+
+### tanh
+
+Returns the hyperbolic tangent of a number of radians.
+
+``` javascript
+$tanh($num: number) => number
+```
+
+#### Basic usage
+
+``` javascript
+$tanh(1) -> 0.7615941559557649
+```
+
+### asinh
+
+Returns the inverse hyperbolic sine of a number, in radians. The result is between -inf and inf.
+
+``` javascript
+$asinh($num: number) => number
+```
+
+#### Basic usage
+
+``` javascript
+$asinh(1) -> 1.5707963267948966
+```
+
+### acosh
+
+Returns the inverse hyperbolic cosine of a number, in radians. The number must be a number between 1 and inf. The result is between 0 and inf.
+
+``` javascript
+$acosh($num: number) => number
+```
+
+#### Basic usage
+
+``` javascript
+$acosh(1) -> 0
+```
+
+### atanh
+
+Returns the inverse hyperbolic tangent of a number, in radians. The number must be between -1 and 1. The result is between -inf and inf.
+
+``` javascript
+$atanh($num: number) => number
+```
+
+#### Basic usage
+
+``` javascript
+$atanh(1) -> inf
 ```
 
 ## Date and time functions
