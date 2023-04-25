@@ -1091,6 +1091,27 @@ $ceil(3.4) -> 4
 </tbody>
 </table>
 
+### constant
+
+Returns the constant value with the given name. For example: e, ln 2, log2 e, log10 e, pi or π.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$constant($name: string ) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$constant('e') -> 2.718281828459045
+</td>
+</tr>
+</tbody>
+</table>
+
 ### floor
 
 Returns the largest integer less than or equal to a number.
@@ -1128,6 +1149,28 @@ $formatBase($num: number, $base?: number) => string
 <td>Example</td>
 <td>
 $formatBase(100, 2) -> "1100100"
+</td>
+</tr>
+</tbody>
+</table>
+
+### isFinite
+
+Returns true if the value input is not infinity, and false otherwise
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$isFinite( $num: number ) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+<pre>$isFinite(1) -> true
+$isFinite(inf) -> false</pre>
 </td>
 </tr>
 </tbody>
@@ -1220,6 +1263,384 @@ $sqrt($num: number) => number
 <td>Example</td>
 <td>
 $sqrt(16) -> 4
+</td>
+</tr>
+</tbody>
+</table>
+
+### cbrt
+
+Returns the cube root of a number.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$cbrt($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$cbrt(27) -> 3
+</td>
+</tr>
+</tbody>
+</table>
+
+### log
+
+Returns the natural logarithm of a number (base e)
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$log($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$log(16) -> 2.772588722239781
+</td>
+</tr>
+</tbody>
+</table>
+
+### log10
+
+Returns the base 10 logarithm of a number.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$log10($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$log10(16) -> 1.2041199826559248
+</td>
+</tr>
+</tbody>
+</table>
+
+### log2
+
+Returns the base 2 logarithm of a number.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$log2($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$log2(16) -> 4
+</td>
+</tr>
+</tbody>
+</table>
+
+### exp
+
+Return e raised to the power a number, where e = 2.718281… is the base of natural logarithms.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$exp($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$exp(16) -> 8886110.520507872
+</td>
+</tr>
+</tbody>
+</table>
+
+### sin
+
+Returns the sine of a number of radians.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$sin($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$sin(1) -> 0.8414709848078965
+</td>
+</tr>
+</tbody>
+</table>
+
+### cos
+
+Returns the cosine of a number of radians.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$cos($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$cos(1) -> 0.5403023058681398
+</td>
+</tr>
+</tbody>
+</table>
+
+### tan
+
+Returns the tangent of a number of radians.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$tan($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$tan(1) -> 1.5574077246549023
+</td>
+</tr>
+</tbody>
+</table>
+
+### asin
+
+Returns the arc sine of a number of radians. The result is between -pi/2 and pi/2. The number must be between -1 and 1.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$asin($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$asin(1) -> 1.5707963267948966
+</td>
+</tr>
+</tbody>
+</table>
+
+### acos
+
+Returns the arc cosine of a number of radians. The result is between 0 and pi. The number must be between -1 and 1.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$acos($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$acos(1) -> 0
+</td>
+</tr>
+</tbody>
+</table>
+
+### atan
+
+Returns the arc tangent of a number of radians. The result is between -pi/2 and pi/2.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$atan($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$atan(1) -> 0.7853981633974483
+</td>
+</tr>
+</tbody>
+</table>
+
+### atan2
+
+Return atan(y / x), in radians. The result is between -pi and pi. The vector in the plane from the origin to point (x, y) makes this angle with the positive X axis. The signs of both inputs are known to it, so it can compute the correct quadrant for the angle. For example, atan(1) and atan2(1, 1) are both pi/4, but atan2(-1, -1) is -3*pi/4.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$atan2($x: number, $y: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$atan2(-1, -1) -> -2.356194490192345
+</td>
+</tr>
+</tbody>
+</table>
+
+### sinh
+
+Returns the hyperbolic sine of a number of radians.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$sinh($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$sinh(1) -> 1.1752011936438014
+</td>
+</tr>
+</tbody>
+</table>
+
+### cosh
+
+Returns the hyperbolic cosine of a number of radians.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$cosh($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$cosh(1) -> 1.5430806348152437
+</td>
+</tr>
+</tbody>
+</table>
+
+### tanh
+
+Returns the hyperbolic tangent of a number of radians.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$tanh($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$tanh(1) -> 0.7615941559557649
+</td>
+</tr>
+</tbody>
+</table>
+
+### asinh
+
+Returns the inverse hyperbolic sine of a number, in radians. The result is between -inf and inf.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$asinh($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$asinh(1) -> 1.5707963267948966
+</td>
+</tr>
+</tbody>
+</table>
+
+### acosh
+
+Returns the inverse hyperbolic cosine of a number, in radians. The number must be number between 1 and inf. The result is between 0 and inf.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$acosh($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$acosh(1) -> 0
+</td>
+</tr>
+</tbody>
+</table>
+
+### atanh
+
+Returns the inverse hyperbolic tangent of a number, in radians. The number must be between -1 and 1. The result is between -inf and inf.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$atanh($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$atanh(1) -> inf
 </td>
 </tr>
 </tbody>
