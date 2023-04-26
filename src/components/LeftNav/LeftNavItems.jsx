@@ -114,6 +114,10 @@ export const leftNavItems = [
         url: '/docs/getting-started/proxy/',
       },
       {
+        name: 'About the Postman VS Code extension',
+        url: '/docs/getting-started/about-vs-code-extension/',
+      },
+      {
         name: 'Troubleshooting app issues',
         url: '/docs/getting-started/troubleshooting-inapp/',
       },
