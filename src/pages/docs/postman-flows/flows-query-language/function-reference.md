@@ -1070,6 +1070,174 @@ $abs(-1) ->  1
 </tbody>
 </table>
 
+### acos
+
+Returns the arc cosine of a number of radians. The result is between 0 and pi. The number must be between -1 and 1.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$acos($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$acos(1) -> 0
+</td>
+</tr>
+</tbody>
+</table>
+
+### acosh
+
+Returns the inverse hyperbolic cosine of a number, in radians. The number must be number between 1 and inf. The result is between 0 and inf.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$acosh($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$acosh(1) -> 0
+</td>
+</tr>
+</tbody>
+</table>
+
+### asin
+
+Returns the arc sine of a number of radians. The result is between -pi/2 and pi/2. The number must be between -1 and 1.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$asin($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$asin(1) -> 1.5707963267948966
+</td>
+</tr>
+</tbody>
+</table>
+
+### asinh
+
+Returns the inverse hyperbolic sine of a number, in radians. The result is between -inf and inf.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$asinh($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$asinh(1) -> 1.5707963267948966
+</td>
+</tr>
+</tbody>
+</table>
+
+### atan
+
+Returns the arc tangent of a number of radians. The result is between -pi/2 and pi/2.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$atan($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$atan(1) -> 0.7853981633974483
+</td>
+</tr>
+</tbody>
+</table>
+
+### atanh
+
+Returns the inverse hyperbolic tangent of a number, in radians. The number must be between -1 and 1. The result is between -inf and inf.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$atanh($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$atanh(1) -> inf
+</td>
+</tr>
+</tbody>
+</table>
+
+### atan2
+
+Returns atan(y / x), in radians. The result is between -pi and pi. The vector in the plane from the origin to point (x, y) makes this angle with the positive X axis. The signs of both inputs are known to it, so it can compute the correct quadrant for the angle. For example, atan(1) and atan2(1, 1) are both pi/4, but atan2(-1, -1) is -3*pi/4.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$atan2($x: number, $y: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$atan2(-1, -1) -> -2.356194490192345
+</td>
+</tr>
+</tbody>
+</table>
+
+### cbrt
+
+Returns the cube root of a number.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$cbrt($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$cbrt(27) -> 3
+</td>
+</tr>
+</tbody>
+</table>
+
 ### ceil
 
 Returns the smallest integer greater than or equal to a number.
@@ -1107,6 +1275,69 @@ $constant($name: string ) => number
 <td>Example</td>
 <td>
 $constant('e') -> 2.718281828459045
+</td>
+</tr>
+</tbody>
+</table>
+
+### cos
+
+Returns the cosine of a number of radians.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$cos($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$cos(1) -> 0.5403023058681398
+</td>
+</tr>
+</tbody>
+</table>
+
+### cosh
+
+Returns the hyperbolic cosine of a number of radians.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$cosh($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$cosh(1) -> 1.5430806348152437
+</td>
+</tr>
+</tbody>
+</table>
+
+### exp
+
+Returns e raised to the power of a number, where e = 2.718281… is the base of natural logarithms.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$exp($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$exp(16) -> 8886110.520507872
 </td>
 </tr>
 </tbody>
@@ -1171,6 +1402,69 @@ $isFinite( $num: number ) => number
 <td>
 <pre>$isFinite(1) -> true
 $isFinite(inf) -> false</pre>
+</td>
+</tr>
+</tbody>
+</table>
+
+### log
+
+Returns the natural logarithm of a number (base e).
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$log($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$log(16) -> 2.772588722239781
+</td>
+</tr>
+</tbody>
+</table>
+
+### log10
+
+Returns the base 10 logarithm of a number.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$log10($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$log10(16) -> 1.2041199826559248
+</td>
+</tr>
+</tbody>
+</table>
+
+### log2
+
+Returns the base 2 logarithm of a number.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$log2($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$log2(16) -> 4
 </td>
 </tr>
 </tbody>
@@ -1247,132 +1541,6 @@ $round(125.456,-1) -> 130</pre>
 </tbody>
 </table>
 
-### sqrt
-
-Returns the square root of a number.
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$sqrt($num: number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-$sqrt(16) -> 4
-</td>
-</tr>
-</tbody>
-</table>
-
-### cbrt
-
-Returns the cube root of a number.
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$cbrt($num: number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-$cbrt(27) -> 3
-</td>
-</tr>
-</tbody>
-</table>
-
-### log
-
-Returns the natural logarithm of a number (base e).
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$log($num: number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-$log(16) -> 2.772588722239781
-</td>
-</tr>
-</tbody>
-</table>
-
-### log10
-
-Returns the base 10 logarithm of a number.
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$log10($num: number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-$log10(16) -> 1.2041199826559248
-</td>
-</tr>
-</tbody>
-</table>
-
-### log2
-
-Returns the base 2 logarithm of a number.
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$log2($num: number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-$log2(16) -> 4
-</td>
-</tr>
-</tbody>
-</table>
-
-### exp
-
-Returns e raised to the power of a number, where e = 2.718281… is the base of natural logarithms.
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$exp($num: number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-$exp(16) -> 8886110.520507872
-</td>
-</tr>
-</tbody>
-</table>
-
 ### sin
 
 Returns the sine of a number of radians.
@@ -1389,132 +1557,6 @@ $sin($num: number) => number
 <td>Example</td>
 <td>
 $sin(1) -> 0.8414709848078965
-</td>
-</tr>
-</tbody>
-</table>
-
-### cos
-
-Returns the cosine of a number of radians.
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$cos($num: number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-$cos(1) -> 0.5403023058681398
-</td>
-</tr>
-</tbody>
-</table>
-
-### tan
-
-Returns the tangent of a number of radians.
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$tan($num: number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-$tan(1) -> 1.5574077246549023
-</td>
-</tr>
-</tbody>
-</table>
-
-### asin
-
-Returns the arc sine of a number of radians. The result is between -pi/2 and pi/2. The number must be between -1 and 1.
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$asin($num: number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-$asin(1) -> 1.5707963267948966
-</td>
-</tr>
-</tbody>
-</table>
-
-### acos
-
-Returns the arc cosine of a number of radians. The result is between 0 and pi. The number must be between -1 and 1.
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$acos($num: number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-$acos(1) -> 0
-</td>
-</tr>
-</tbody>
-</table>
-
-### atan
-
-Returns the arc tangent of a number of radians. The result is between -pi/2 and pi/2.
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$atan($num: number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-$atan(1) -> 0.7853981633974483
-</td>
-</tr>
-</tbody>
-</table>
-
-### atan2
-
-Returns atan(y / x), in radians. The result is between -pi and pi. The vector in the plane from the origin to point (x, y) makes this angle with the positive X axis. The signs of both inputs are known to it, so it can compute the correct quadrant for the angle. For example, atan(1) and atan2(1, 1) are both pi/4, but atan2(-1, -1) is -3*pi/4.
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$atan2($x: number, $y: number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-$atan2(-1, -1) -> -2.356194490192345
 </td>
 </tr>
 </tbody>
@@ -1541,22 +1583,43 @@ $sinh(1) -> 1.1752011936438014
 </tbody>
 </table>
 
-### cosh
+### sqrt
 
-Returns the hyperbolic cosine of a number of radians.
+Returns the square root of a number.
 
 <table class="code-ref-table">
 <tbody>
 <tr>
 <td>Syntax</td>
 <td>
-$cosh($num: number) => number
+$sqrt($num: number) => number
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-$cosh(1) -> 1.5430806348152437
+$sqrt(16) -> 4
+</td>
+</tr>
+</tbody>
+</table>
+
+### tan
+
+Returns the tangent of a number of radians.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$tan($num: number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$tan(1) -> 1.5574077246549023
 </td>
 </tr>
 </tbody>
@@ -1583,281 +1646,25 @@ $tanh(1) -> 0.7615941559557649
 </tbody>
 </table>
 
-### asinh
-
-Returns the inverse hyperbolic sine of a number, in radians. The result is between -inf and inf.
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$asinh($num: number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-$asinh(1) -> 1.5707963267948966
-</td>
-</tr>
-</tbody>
-</table>
-
-### acosh
-
-Returns the inverse hyperbolic cosine of a number, in radians. The number must be number between 1 and inf. The result is between 0 and inf.
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$acosh($num: number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-$acosh(1) -> 0
-</td>
-</tr>
-</tbody>
-</table>
-
-### atanh
-
-Returns the inverse hyperbolic tangent of a number, in radians. The number must be between -1 and 1. The result is between -inf and inf.
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$atanh($num: number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-$atanh(1) -> inf
-</td>
-</tr>
-</tbody>
-</table>
-
 ## Date and time functions
 
-### year
+### afterDate
 
-Extracts the year component from a timestamp and returns it as a number.
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$year($timestamp: string |number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-$year("2023-02-08T07:56:14.747+00:00") -> 2023
-</td>
-</tr>
-</tbody>
-</table>
-
-### month
-
-Extracts the month component from a timestamp.
+Returns true if $timestamp1 is after $timestamp2, false otherwise.
 
 <table class="code-ref-table">
 <tbody>
 <tr>
 <td>Syntax</td>
 <td>
-$month($timestamp: string |number) => number
+$afterDate($timestamp1: string |number, $timestamp2: string |number) => boolean
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-$month("2023-02-08") -> 2
-</td>
-</tr>
-</tbody>
-</table>
-
-### dayOfTheWeek
-
-Returns the day of the week as a number [1=Monday, ... 6=Saturday, 7= Sunday].
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$dayOfTheWeek($timestamp: string |number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-<pre>$dayOftheWeek("2023-02-08") -> 3
-$dayOftheWeek("2023-02-07") -> 2</pre>
-</td>
-</tr>
-</tbody>
-</table>
-
-### day
-
-Extracts the day from a timestamp and returns it as a number.
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$day($timestamp: string |number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-$day("2023-02-08") -> 8
-</td>
-</tr>
-</tbody>
-</table>
-
-### hours
-
-Extracts the local hour component from a timestamp and returns it as a number.
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$hours($timestamp: string |number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-$hours("2023-02-08T07:56:14.747+00:00") -> 7
-</td>
-</tr>
-</tbody>
-</table>
-
-### minutes
-
-Extracts the minutes component from a timestamp and returns it as a number.
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$minutes($timestamp: string |number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-$minutes("2023-02-08T07:56:14.747+00:00") -> 56
-</td>
-</tr>
-</tbody>
-</table>
-
-### seconds
-
-Extracts the local seconds component from a timestamp and returns it as a number.
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$seconds($timestamp: string |number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-$seconds("2023-02-08T07:56:14.747+00:00") -> 14
-</td>
-</tr>
-</tbody>
-</table>
-
-### milliSeconds
-
-Extracts the milliseconds from a timestamp and returns it as a number.
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$milliSeconds($timestamp: string |number) => number
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-$milliSeconds("2023-02-08T07:56:14.747+00:00") -> 747
-</td>
-</tr>
-</tbody>
-</table>
-
-### dateEquals
-
-Returns true if the two timestamps are the same, false otherwise.
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$dateEquals($timestamp1: string |number, $timestamp2: string |number) => boolean
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-<pre>$dateEquals("2023-02-08", "2023-02-08") -> true
-$dateEquals("2023-02-08", "2023-02-07") -> false</pre>
-</td>
-</tr>
-</tbody>
-</table>
-
-### hasSameDate
-
-Returns true if the components specified in $units of  the two timestamps are the same, false otherwise.  $units is an array with one or more strings from ["years", "months", "days", "hours", "minutes", "seconds", "milliseconds"].
-
-<table class="code-ref-table">
-<tbody>
-<tr>
-<td>Syntax</td>
-<td>
-$hasSameDate($timestamp1: string |number, $timestamp2: string |number, units?: Array<string>) => boolean
-</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>
-<pre>$hasSameDate("23-02-08", "2019-02-08", ["month", "day"]) -> true
-$hasSameDate("2023-02-01", "2023-02-08", ["month", "year"]) -> true
-$hasSameDate("23-02-01", "2023-02-08", ["month", "year"]) -> true
-$hasSameDate("2023-02-01T07:15:54.730Z", "2023-02-01T14:00:22.340Z", ["year","month", "day"]) -> true</pre>
+$afterDate("2023-02-09", "2023-02-08") -> true
+$afterDate("2023-02-08", "2023-02-08") -> false
 </td>
 </tr>
 </tbody>
@@ -1885,23 +1692,23 @@ $beforeDate("2023-02-08", "2023-02-08") -> false</pre>
 </tbody>
 </table>
 
-### afterDate
+### dateEquals
 
-Returns true if $timestamp1 is after $timestamp2, false otherwise.
+Returns true if the two timestamps are the same, false otherwise.
 
 <table class="code-ref-table">
 <tbody>
 <tr>
 <td>Syntax</td>
 <td>
-$afterDate($timestamp1: string |number, $timestamp2: string |number) => boolean
+$dateEquals($timestamp1: string |number, $timestamp2: string |number) => boolean
 </td>
 </tr>
 <tr>
 <td>Example</td>
 <td>
-$afterDate("2023-02-09", "2023-02-08") -> true
-$afterDate("2023-02-08", "2023-02-08") -> false
+<pre>$dateEquals("2023-02-08", "2023-02-08") -> true
+$dateEquals("2023-02-08", "2023-02-07") -> false</pre>
 </td>
 </tr>
 </tbody>
@@ -1924,6 +1731,49 @@ $datePlus($timestamp1: string |number, $duration: number, $units, ) => number
 <td>
 <pre>$datePlus("2023-02-07", 2, "days") -> 1675900800000
 $datePlus("2023-02-07", 2, "months") -> 1680825600000</pre>
+</td>
+</tr>
+</tbody>
+</table>
+
+### day
+
+Extracts the day from a timestamp and returns it as a number.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$day($timestamp: string |number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$day("2023-02-08") -> 8
+</td>
+</tr>
+</tbody>
+</table>
+
+### dayOfTheWeek
+
+Returns the day of the week as a number [1=Monday, ... 6=Saturday, 7= Sunday].
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$dayOfTheWeek($timestamp: string |number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+<pre>$dayOftheWeek("2023-02-08") -> 3
+$dayOftheWeek("2023-02-07") -> 2</pre>
 </td>
 </tr>
 </tbody>
@@ -1973,6 +1823,135 @@ $fromMillis(1522616700000, "E EEEE") -> "7 Sunday"</pre>
 </tbody>
 </table>
 
+### hasSameDate
+
+Returns true if the components specified in $units of  the two timestamps are the same, false otherwise.  $units is an array with one or more strings from ["years", "months", "days", "hours", "minutes", "seconds", "milliseconds"].
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$hasSameDate($timestamp1: string |number, $timestamp2: string |number, units?: Array<string>) => boolean
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+<pre>$hasSameDate("23-02-08", "2019-02-08", ["month", "day"]) -> true
+$hasSameDate("2023-02-01", "2023-02-08", ["month", "year"]) -> true
+$hasSameDate("23-02-01", "2023-02-08", ["month", "year"]) -> true
+$hasSameDate("2023-02-01T07:15:54.730Z", "2023-02-01T14:00:22.340Z", ["year","month", "day"]) -> true</pre>
+</td>
+</tr>
+</tbody>
+</table>
+
+### hours
+
+Extracts the local hour component from a timestamp and returns it as a number.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$hours($timestamp: string |number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$hours("2023-02-08T07:56:14.747+00:00") -> 7
+</td>
+</tr>
+</tbody>
+</table>
+
+### milliSeconds
+
+Extracts the milliseconds from a timestamp and returns it as a number.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$milliSeconds($timestamp: string |number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$milliSeconds("2023-02-08T07:56:14.747+00:00") -> 747
+</td>
+</tr>
+</tbody>
+</table>
+
+### minutes
+
+Extracts the minutes component from a timestamp and returns it as a number.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$minutes($timestamp: string |number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$minutes("2023-02-08T07:56:14.747+00:00") -> 56
+</td>
+</tr>
+</tbody>
+</table>
+
+### month
+
+Extracts the month component from a timestamp.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$month($timestamp: string |number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$month("2023-02-08") -> 2
+</td>
+</tr>
+</tbody>
+</table>
+
+### seconds
+
+Extracts the local seconds component from a timestamp and returns it as a number.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$seconds($timestamp: string |number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$seconds("2023-02-08T07:56:14.747+00:00") -> 14
+</td>
+</tr>
+</tbody>
+</table>
+
 ### toMillis
 
 Converts a string to a number of milliseconds since the epoch. $picture is optional, if not provided it will default to ISO format. Picture specs are as per Unicode date format standards.
@@ -1991,6 +1970,27 @@ $toMillis($val:string, $picture?: string) => number
 <pre>$toMillis("1970-01-01T00:00:00.001Z")  -> 1
 $toMillis("2018-03-27", "yyyy-MM-dd") -> 1522108800000
 $toMillis("21 August 2017", "dd MMMM yyyy") -> 1503273600000</pre>
+</td>
+</tr>
+</tbody>
+</table>
+
+### year
+
+Extracts the year component from a timestamp and returns it as a number.
+
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>Syntax</td>
+<td>
+$year($timestamp: string |number) => number
+</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>
+$year("2023-02-08T07:56:14.747+00:00") -> 2023
 </td>
 </tr>
 </tbody>
