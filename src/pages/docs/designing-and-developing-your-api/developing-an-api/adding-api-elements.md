@@ -12,8 +12,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Postman Intergalactic | Advanced API Debugging"
-    url: "https://youtu.be/9xGp6d7VFgU"
+    name: "Update Collections Linked to an API"
+    url: "https://youtu.be/pbkS4XVsUNI"
   - type: subtitle
     name: "Blog posts"
   - type: link

@@ -58,7 +58,7 @@ Use workspaces to organize your work in Postman and collaborate with teammates (
 
 To open a workspace, select **Workspaces** in the Postman header. Select a workspace to open it, or select **View all workspaces** for a list of all available workspaces. This will only display workspaces that you have access to, based on the [workspace visibility](#changing-workspace-visibility) and your [workspace role](#managing-workspace-roles).
 
-<img alt="New Workspace" src="https://assets.postman.com/postman-docs/view-workspaces-v9.19.jpg" width="400px"/>
+<img alt="New Workspace" src="https://assets.postman.com/postman-docs/v10/view-workspaces-v10.14.jpg" width="400px"/>
 
 The workspace's **Overview** tab displays a summary and description of the workspace, as well as a list of recent activity. On the right, there is a list of the number of Postman elements like collections and APIs in the workspace and a list of recent contributors.
 
@@ -109,7 +109,7 @@ The visibility setting for a workspace determines who can access it. You must be
     * **Public** - Everyone can view.
 1. Select **Update**.
 
-<img alt="Changing workspace visibility" src="https://assets.postman.com/postman-docs/v10/edit-workspace-visibility-v10.jpg" width="450px"/>
+<img alt="Changing workspace visibility" src="https://assets.postman.com/postman-docs/v10/edit-workspace-visibility-1-v10.jpg" width="450px"/>
 
 > You always have one personal workspace in Postman. If you change the visibility of all of your personal workspaces to private, team, or public, Postman creates a new personal workspace for you.
 
@@ -166,7 +166,7 @@ To change the role of people in a workspace, or to remove someone from a workspa
     * **Viewer** - Can view, fork, and export workspace resources.
     * **Remove** - Removes the person from the workspace. (You can [invite the user](#sharing-workspaces) again in the future.)
 
-<img alt="Changing workspace role" src="https://assets.postman.com/postman-docs/workspace-change-role-v9.jpg" width="720px"/>
+<img alt="Changing workspace role" src="https://assets.postman.com/postman-docs/v10/workspace-change-role-1-v10.jpg" width="720px"/>
 
 ## Watching a workspace
 
@@ -195,7 +195,7 @@ To move an element to a different workspace, do the following:
 1. Select **Collections**, **APIs**, **Environments**, or **Mock Servers** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an element and then select **Move**.
 
-    <img alt="Move collection" src="https://assets.postman.com/postman-docs/move-collection-v9.jpg" width="300px" height="400px"/>
+    <img alt="Move collection" src="https://assets.postman.com/postman-docs/v10/move-collection-1-v10.jpg" width="400px"/>
 
 1. Select the workspace where you want to move the element, and then select **Move**.
 
@@ -217,9 +217,9 @@ Deleting a workspace removes the workspace and all data in it from Postman. Use 
 
 1. Select **Workspaces** in the Postman header, and then select a workspace.
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
-1. Select **Delete Workspace**.
+1. At the bottom of the **Workspace Settings** screen, select **Delete Workspace**.
 
-<img alt="Delete workspace" src="https://assets.postman.com/postman-docs/delete-a-workspace-v9.jpg" width="506px"/>
+<img alt="Delete workspace" src="https://assets.postman.com/postman-docs/v10/delete-a-workspace-v10.jpg" width="506px"/>
 
 > To delete a [public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/), you must first change the [workspace visibility](#changing-workspace-visibility) to team or private.
 

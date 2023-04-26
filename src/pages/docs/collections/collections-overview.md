@@ -21,7 +21,7 @@ _Postman Collections_ are a group of saved requests. Every request you send in P
 ## Contents
 
 * [Creating your first collection](#creating-your-first-collection)
-* [Using collection](#using-collections)
+* [Using collections](#using-collections)
 * [Running collections](#running-collections)
 
 ## Creating your first collection

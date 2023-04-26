@@ -124,13 +124,11 @@ This walkthrough uses a streaming method to create a gRPC example. Note how stre
 
 1. In the right sidebar, select the the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px">.
 
-1. Hover over **Add example description...** and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.
+1. Select **Add example description**.
 
-    ![Select the edit icon](https://assets.postman.com/postman-docs/v10/grpc-doc-example-1edit-1-v10.jpg)
+    ![Select Add example description](https://assets.postman.com/postman-docs/v10/grpc-add-example-description-v10.jpg)
 
-1. Enter your documentation for the gRPC example and select **Save**.
-
-    ![Save documentation](https://assets.postman.com/postman-docs/v10/grpc-doc-example-1save-1-v10.jpg)
+1. Enter your documentation for the gRPC example. Your documentation automatically saves.
 
 ## Using messages from saved examples
 

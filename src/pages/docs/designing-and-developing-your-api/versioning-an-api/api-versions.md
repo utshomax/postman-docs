@@ -30,6 +30,8 @@ When you're ready to share the latest changes to your API with consumers, you ca
 
 You can select the elements to publish with your API, such as the definition and collections, to help consumers test and evaluate your API. After you publish a version, you can keep working on your API and make more changes. Your consumers will continue to see the published version of your API until you publish a new version.
 
+You can also publish an API version programmatically with [the Postman CLI](/docs/postman-cli/postman-cli-options/#publishing-an-api-version).
+
 > **How are versions and releases different in Postman v10?** In Postman v9, versions were major iterations of your API you could work on at the same time. In Postman v10, published versions are static representations of your API that consumers can reference (like releases in Postman v9). If you need to work on more than one major iteration of your API in Postman v10, create separate APIs.
 
 ## Contents
