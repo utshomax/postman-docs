@@ -21,6 +21,9 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
+    name: "Bring your APIs into Postman faster than ever"
+    url: "https://blog.postman.com/bring-your-apis-into-postman-faster-than-ever/"
+  - type: link
     name: "Stay on Top of Your API Deployments: AWS API Gateway Integration"
     url: "https://blog.postman.com/deployments-aws-api-gateway-integration/"
 ---

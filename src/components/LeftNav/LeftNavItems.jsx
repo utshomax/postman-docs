@@ -652,10 +652,6 @@ export const leftNavItems = [
             name: 'Viewing workspace activity',
             url: '/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/',
           },
-          {
-            name: 'Resolving team conflicts',
-            url: '/docs/collaborating-in-postman/using-workspaces/conflicts/',
-          },
         ],
       },
       {

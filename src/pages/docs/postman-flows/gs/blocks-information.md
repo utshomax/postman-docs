@@ -12,6 +12,9 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Create Charts, Tables, and Output | Postman Flows"
+    url: "https://youtu.be/8zWlY4W7SWE"
+  - type: link
     name: "AI Powered Sentiment Analysis with Postman Flows and ChatGPT"
     url: "https://www.youtube.com/live/0kAQb3Q4WCQ?feature=share"
   - type: subtitle
