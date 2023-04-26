@@ -108,7 +108,7 @@ $contains("hello world", "ab") -> false
 
 ### decodeUrl
 
-Decodes string from a URL.
+Decodes a string from a URL.
 
 <table class="code-ref-table">
 <tbody>
@@ -1156,7 +1156,7 @@ $formatBase(100, 2) -> "1100100"
 
 ### isFinite
 
-Returns true if the value input is not infinity, and false otherwise
+Returns true if the value input is not infinity, and false otherwise.
 
 <table class="code-ref-table">
 <tbody>
@@ -1291,7 +1291,7 @@ $cbrt(27) -> 3
 
 ### log
 
-Returns the natural logarithm of a number (base e)
+Returns the natural logarithm of a number (base e).
 
 <table class="code-ref-table">
 <tbody>
@@ -1354,7 +1354,7 @@ $log2(16) -> 4
 
 ### exp
 
-Return e raised to the power a number, where e = 2.718281… is the base of natural logarithms.
+Returns e raised to the power of a number, where e = 2.718281… is the base of natural logarithms.
 
 <table class="code-ref-table">
 <tbody>
@@ -1501,7 +1501,7 @@ $atan(1) -> 0.7853981633974483
 
 ### atan2
 
-Return atan(y / x), in radians. The result is between -pi and pi. The vector in the plane from the origin to point (x, y) makes this angle with the positive X axis. The signs of both inputs are known to it, so it can compute the correct quadrant for the angle. For example, atan(1) and atan2(1, 1) are both pi/4, but atan2(-1, -1) is -3*pi/4.
+Returns atan(y / x), in radians. The result is between -pi and pi. The vector in the plane from the origin to point (x, y) makes this angle with the positive X axis. The signs of both inputs are known to it, so it can compute the correct quadrant for the angle. For example, atan(1) and atan2(1, 1) are both pi/4, but atan2(-1, -1) is -3*pi/4.
 
 <table class="code-ref-table">
 <tbody>
@@ -1909,7 +1909,7 @@ $afterDate("2023-02-08", "2023-02-08") -> false
 
 ### datePlus
 
-Adds a duration of type $units which can be one of ["years", "months", "days", "hours", "minutes", "seconds", "milliseconds"],  to a $timestamp and returns the new timestamp. If $duration if less than zero, then the it will be subtracted from the $timestamp.
+Adds a duration of type $units which can be one of ["years", "months", "days", "hours", "minutes", "seconds", "milliseconds"],  to a $timestamp and returns the new timestamp. If $duration is less than zero, then it will be subtracted from the $timestamp.
 
 <table class="code-ref-table">
 <tbody>
