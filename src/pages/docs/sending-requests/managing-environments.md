@@ -36,9 +36,6 @@ contextual_links:
   - type: link
     name: "Hathway uses separate environments for each client"
     url: "https://www.postman.com/case-studies/hathway/"
-  - type: link
-    name: "VideoAmp uses environments to test updates"
-    url: "https://www.postman.com/case-studies/videoamp/"
   - type: section
     name: "Next steps"
   - type: link

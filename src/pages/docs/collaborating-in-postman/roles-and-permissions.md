@@ -28,6 +28,11 @@ contextual_links:
   - type: link
     name: "Manage large teams in Postman with workspaces, permissions & more"
     url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Western Governors University (WGU) uses the Super Admin role for API assets"
+    url:  "https://www.postman.com/case-studies/wgu/"
 ---
 
 > Certain team options are only available on **[Postman paid plans](https://www.postman.com/pricing)**. To learn which roles are available on your plan, go to your **[web dashboard](https://go.postman.co/settings/team/roles)**.

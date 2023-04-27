@@ -26,9 +26,6 @@ contextual_links:
   - type: link
     name: "Intuit uses Postman's code generator at hackathons"
     url: "https://www.postman.com/case-studies/intuit/"
-  - type: link
-    name: "ShipEngine uses Postman's code generator to integrate API requests"
-    url: "https://www.postman.com/case-studies/shipengine/"
   - type: section
     name: "Next steps"
   - type: link
