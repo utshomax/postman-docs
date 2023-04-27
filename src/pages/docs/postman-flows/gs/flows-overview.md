@@ -70,7 +70,7 @@ These workspaces contains example flows utilizing a multitude of APIs for differ
 
 ## Enabling Postman Flows
 
-To get started using Postman Flows, you'll need to assign the Flow Editor role to one or more of your team members. For more information on adding a role to a user, see [Managing team roles](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
+To get started using Postman Flows in a Professional plan, you'll need to assign the Flow Editor role to one or more of your team members. For more information on adding a role to a user, see [Managing team roles](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
 
 ## Quick start
 
