@@ -23,8 +23,8 @@ contextual_links:
     name: "Next-Level Automation Tricks for Newman"
     url: "https://blog.postman.com/automation-tricks-for-newman/"
   - type: link
-    name: "Newman: run and test your collections from the command line"
-    url: "https://blog.postman.com/newman-run-and-test-your-collections-from-the-command-line/"
+    name: "Making the switch: empowering manual testers to automate their API tests"
+    url: "https://blog.postman.com/switching-from-manual-to-automated-api-testing/"
   - type: subtitle
     name: "Case Studies"
   - type: link

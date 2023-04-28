@@ -25,11 +25,11 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "How Postman Designers Built the New Universal Search Feature"
-    url: "https://blog.postman.com/how-postman-designers-built-the-new-universal-search-feature/"
-  - type: link
     name: "Introducing Bulk Actions on Postman’s Sidebar"
     url: "https://blog.postman.com/introducing-sidebar-bulk-actions/"
+  - type: link
+    name: "Focus on the work that matters with sidebar configurations"
+    url: "https://blog.postman.com/focus-on-the-work-that-matters-with-sidebar-configurations/"
   - type: section
     name: "Next steps"
   - type: link
