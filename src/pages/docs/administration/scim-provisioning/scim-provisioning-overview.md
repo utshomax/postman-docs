@@ -12,6 +12,11 @@ contextual_links:
   - type: link
     name: "Introducing User Management in Postman with SCIM"
     url: "https://blog.postman.com/introducing-user-management-in-postman-with-scim/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Western Governors University (WGU) uses SCIM to create teams"
+    url: "https://www.postman.com/case-studies/wgu/"
 ---
 
 > **[Provisioning with SCIM is available on Postman Enterprise plans.](https://www.postman.com/pricing)**

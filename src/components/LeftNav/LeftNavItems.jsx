@@ -1323,10 +1323,6 @@ export const leftNavItems = [
             url: '/docs/integrations/available-integrations/keen/',
           },
           {
-            name: 'Lightstep',
-            url: '/docs/integrations/available-integrations/lightstep/',
-          },
-          {
             name: 'Microsoft Power Automate',
             url: '/docs/integrations/available-integrations/microsoft-power-automate/',
           },
