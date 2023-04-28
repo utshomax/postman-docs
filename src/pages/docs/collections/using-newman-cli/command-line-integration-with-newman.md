@@ -30,6 +30,9 @@ contextual_links:
   - type: link
     name: "SEI Novus integrated Newman into its CI/CD process for regression testing"
     url:  "https://www.postman.com/case-studies/sei-novus/"
+  - type: link
+    name: "Western Governors University (WGU) leverages Newman to automate tests"
+    url:  "https://www.postman.com/case-studies/wgu/"
   - type: section
     name: "Next steps"
   - type: link

@@ -9,7 +9,11 @@ contextual_links:
   - type: link
     name: "Postman 101 for Admins | Webinar"
     url: "https://youtu.be/d6pw-0Yy5fs"
-
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Western Governors University (WGU) uses SSO to create teams"
+    url: "https://www.postman.com/case-studies/wgu/"
 ---
 
 > **[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
