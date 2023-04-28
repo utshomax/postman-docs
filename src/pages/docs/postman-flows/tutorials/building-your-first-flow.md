@@ -10,6 +10,9 @@ contextual_links:
     name: "Send a Request | Postman Flows"
     url: "https://youtu.be/QYqA1VAoyIA"
   - type: link
+    name: "Edit a Flow | Postman Flows"
+    url: "https://youtu.be/BzMAjJ_-XGc"
+  - type: link
     name: "Pagination | Postman Flows"
     url: "https://youtu.be/6VLquc7A56Y"
   - type: subtitle

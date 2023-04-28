@@ -14,8 +14,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "History | Postman Level Up"
-    url: "https://www.youtube.com/watch?v=9VBTKwUCsGw&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=4"
+    name: "Navigating the Postman App Interface | The Exploratory"
+    url: "https://youtu.be/Kr8OVXjzw4k"
   - type: link
     name: "Universal Search | Postman Level Up"
     url: "https://www.youtube.com/watch?v=1K6Pl6o_tj8"
