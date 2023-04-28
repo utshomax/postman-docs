@@ -29,11 +29,6 @@ contextual_links:
     name: "How to Test JSON Properties in Postman"
     url: "https://blog.postman.com/how-to-test-json-properties-in-postman/"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "iQmetrix uses test scripts to pass data and build workflows"
-    url: "https://www.postman.com/case-studies/iqmetrix/"
-  - type: subtitle
     name: "Public workspaces"
   - type: link
     name: "Test examples in Postman"
