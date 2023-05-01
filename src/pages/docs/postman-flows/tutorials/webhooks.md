@@ -5,6 +5,11 @@ contextual_links:
   - type: section
     name: "Additional resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Using Webhooks to Run on the Cloud | Postman Flows"
+    url: "https://youtu.be/MHSqhoxX2ME"
+  - type: subtitle
     name: "Blog posts"
   - type: link
     name: "Postman Flows: The Next Generation of Software Development"

@@ -12,6 +12,9 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "The Infinite Canvas: Building Applications with Postman Flows"
+    url: "https://www.youtube.com/live/liy0WVwC86s?feature=share"
+  - type: link
     name: "AI Powered Sentiment Analysis with Postman Flows and ChatGPT"
     url: "https://www.youtube.com/live/0kAQb3Q4WCQ?feature=share"
   - type: subtitle
