@@ -26,6 +26,11 @@ contextual_links:
   - type: link
     name: "OpenAPI 3.0: From Idea to Implementation"
     url: "https://www.youtube.com/live/JEBd78U9aBo?feature=share"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "How to build an API"
+    url: "https://blog.postman.com/how-to-build-an-api/"
   - type: section
     name: "Next steps"
   - type: link

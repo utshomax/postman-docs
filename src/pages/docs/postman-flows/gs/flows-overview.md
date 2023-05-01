@@ -12,6 +12,12 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Building Low-Code Applications with Postman Flows | Postman Intergalactic"
+    url: "https://youtu.be/zq9UNeWdoFM"
+  - type: link
+    name: "Create Charts, Tables, and Output | Postman Flows"
+    url: "https://youtu.be/8zWlY4W7SWE"
+  - type: link
     name: "AI Powered Sentiment Analysis with Postman Flows and ChatGPT"
     url: "https://www.youtube.com/live/0kAQb3Q4WCQ?feature=share"
   - type: subtitle
@@ -22,6 +28,9 @@ contextual_links:
   - type: link
     name: "Postman Flows Is Now More Powerful and User-Friendly"
     url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
+  - type: link
+    name: "Adventures with Postman Flows"
+    url: "https://blog.postman.com/adventures-with-postman-flows/"
   - type: subtitle
     name: "Case Studies"
   - type: link
@@ -61,7 +70,7 @@ These workspaces contains example flows utilizing a multitude of APIs for differ
 
 ## Enabling Postman Flows
 
-To get started using Postman Flows, you'll need to assign the Flow Editor role to one or more of your team members. For more information on adding a role to a user, see [Managing team roles](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
+To get started using Postman Flows in a Professional plan, you'll need to assign the Flow Editor role to one or more of your team members. For more information on adding a role to a user, see [Managing team roles](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
 
 ## Quick start
 

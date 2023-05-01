@@ -1,6 +1,14 @@
 ---
 title: "Live Collection setup"
 updated: 2023-03-15
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Introducing Postman Live Collections for automated documentation"
+    url: "https://blog.postman.com/introducing-postman-live-collections-for-automated-documentation/"
 ---
 
 To start using Live Collections, create a collection, then install the Postman SDK in your application.
@@ -9,7 +17,7 @@ To start using Live Collections, create a collection, then install the Postman S
 
 1. Select your application language: **Node.js** or **Python**.
 
-1. Select a framework. For Node.js, select **Express.js**, **Meteor.js**, or **Next.js**. For Python, select **Django**, **Flask**, or **CherryPy**.
+1. Select a framework. For Node.js, select **Express.js**, **Sails.js**, or **Fastify**. For Python, select **Flask**.
 
 1. Install the Postman SDK in the application’s root directory. You're provided with a installation command that uses `npm` or `pip`. Copy the command and enter it on your server to install the SDK.
 

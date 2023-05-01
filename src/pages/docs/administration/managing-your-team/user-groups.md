@@ -12,7 +12,11 @@ contextual_links:
   - type: link
     name: "Introducing Postman Groups: Manage Users with Easier Access Control"
     url: "https://blog.postman.com/introducing-postman-groups/"
-
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Western Governors University (WGU) leverages user groups to create teams"
+    url: "https://www.postman.com/case-studies/wgu/"
 ---
 
 > **[Groups are available on Postman Enterprise plans.](https://www.postman.com/pricing)**

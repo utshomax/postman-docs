@@ -58,16 +58,17 @@ The examples below use this JSON data:
 
 The example below filters for objects in the `payments` array that have the key-value pair `"description": "recurring subscription"`.
 
-### FQL
-
-``` javascript
-payments[description="recurring subscription"]
-```
-
-### Result
-
- ``` json
- [
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>payments[description="recurring subscription"]</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>
+<pre>
+[
     {
         "invoice_number": "101301",
         "date": "2022-09-11T16:12:34.494Z",
@@ -81,66 +82,80 @@ payments[description="recurring subscription"]
         "amount": 110.48
     }
 ]
-```
+</pre>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Navigate your filtered results
 
 FQL uses the same syntax to navigate filtered query results as it does to navigate JSON data. The example below gets the values from the `invoice.number` fields in the `payments` array.
 
-### FQL
-
- ``` javascript
- payments[description="recurring subscription"].invoice_number
- ```
-
-### Result
-
- ```json
- ["101301","101303"]
- ```
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>payments[description="recurring subscription"].invoice_number</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>
+["101301","101303"]
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Return a single record
 
 When a filter has a single result, it returns as a record instead of an array. The filter below returns a single result as a record.
 
-### FQL
-
- ``` javascript
- payments[description="recurring subscription deluxe"].invoice_number
- ```
-
-### Result
-
-``` json
-"101304"
-```
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td> payments[description="recurring subscription deluxe"].invoice_number</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>
+["101304"]
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Check if a field has a specific value
 
 FQL can check if your query results have a specific key-value pair and return `true` or `false`. The example below checks the first item in the `payments` array for the key-value pair `"description": "recurring"`.
 
-### FQL
-
-``` javascript
-$contains(payments[0].description, "recurring")
-```
-
-### Result
-
-``` json
-true
-```
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>$contains(payments[0].description, "recurring")</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>true</td>
+</tr>
+</tbody>
+</table>
 
 ## Get only unique payment amounts
 
-### FQL
+The `$distinct` function returns a single instance of any recurring values. In the example below, the `110.48` value appears twice in the data, but only once in the result.
 
-``` javascript
-$distinct(payments.amount)
-```
-
-### Result
-
-``` json
-[110.48, 24.49, 35.56]
-```
+<table class="code-ref-table">
+<tbody>
+<tr>
+<td>FQL</td>
+<td>$distinct(payments.amount)</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>[110.48, 24.49, 35.56]</td>
+</tr>
+</tbody>
+</table>

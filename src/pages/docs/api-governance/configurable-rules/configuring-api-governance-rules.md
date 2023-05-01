@@ -1,6 +1,22 @@
 ---
 title: "Configuring API Governance rules"
 updated: 2023-03-06
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API Security and Governance Part 1: Automating Governance"
+    url: "https://youtu.be/rdMAKc-_NIw"
+  - type: link
+    name: "API Security and Governance Part 2: Customizing Governance with Spectral Rulesets"
+    url: "https://youtu.be/TDOuZcKQId4"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Big improvements to Postman API Governance"
+    url: "https://blog.postman.com/api-governance-improvements/"
 ---
 
 > [Configurable governance rules are available on Postman Enterprise plans.](https://www.postman.com/pricing) If you don't have an Enterprise account, you'll be able to see the API Governance page, but you won't be able to turn rules on or off or add new rules.

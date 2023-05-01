@@ -25,7 +25,7 @@ contextual_links:
 
 Postman provides a variety of tools to enable and enhance collaboration within your team. You can ease the onboarding process by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/), allowing users in your organization to request to join your Postman team. You can also create [team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/), where team members can share their work and collaborate on API projects. Users can [discuss their work](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/) directly in Postman by commenting on collections and APIs, including on specific requests, versions, and inline on schemas and scripts.
 
-To get the most out of Postman's collaboration features, [create](#creating-a-team) or [join](#joining-a-team) a team. You can be a member of up to five Postman teams, regardless of if they're Postman Free, Basic, Professional, or Enterprise.
+To get the most out of Postman's collaboration features, [create](#creating-a-team) or [join](#joining-a-team) a team. You can be a member of up to ten Postman teams, regardless of if they're Postman Free, Basic, Professional, or Enterprise.
 
 > Note that if an Enterprise team within your organization implements [domain capture](/docs/administration/managing-your-team/configuring-domain-capture/), you won't be able to remain on or join extra Postman teams with your captured accounts.
 
@@ -56,7 +56,7 @@ If you're a member of two or more teams, you can create additional teams. To cre
 
 [Postman Free](https://www.postman.com/pricing/) lets teams of up to three work together at no cost. If you want to collaborate with more team members, features, and increased usage limits, you can [upgrade](/docs/administration/billing/#changing-your-plan) to a Basic, Professional, or Enterprise plan. To do so, select **Upgrade** in the upper-right corner.
 
-If you're an individual Postman user and create a Postman team through the flow mentioned above, you can choose to transfer your personal workspaces and the data within them to the team or keep them separate. (Your personal workspaces and data may transfer to your team automatically in some situations; see [Joining a team](#joining-a-team) for details.) When you leave a team, your personal workspaces within the team and their data will remain with the team and no longer be accessible to you.
+If you have an individual account and create a Postman team through the flow mentioned above, you can choose to transfer your personal workspaces and the data within them to the team or keep them separate. (Your personal workspaces and data may transfer to your team automatically in some situations; see [Joining a team](#joining-a-team) for details.) When you leave a team, your personal workspaces within the team and their data will remain with the team and no longer be accessible to you in some situations; see [Leaving a team](#leaving-a-team) for details.
 
 > For more information on setting up Postman within your organization, check out the [Onboarding checklist](/docs/administration/onboarding-checklist/).
 
@@ -71,15 +71,15 @@ There are several ways you can join a Postman team:
 * **SCIM provisioning** - If your organization has enabled [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/), you may be added to your organization's Postman team and receive an email invite. Select **Join Team** in the email and [sign in to Postman with SSO](/docs/administration/sso/user-sso/).
 * **Domain capture** - If your organization has configured [domain capture](/docs/administration/managing-your-team/configuring-domain-capture/) and you use or create an account associated with a verified domain, Postman will [notify](/docs/administration/managing-your-team/configuring-domain-capture/#user-experience) you when you next sign in that your account is managed by your organization.
 
-You can be a member of up to five Postman teams, regardless of if they're Postman Free, Basic, Professional, or Enterprise. However, if an Enterprise team within your organization implements domain capture, you won't be able to remain on or join extra Postman teams with your captured accounts.
+You can be a member of up to ten Postman teams, regardless of if they're Postman Free, Basic, Professional, or Enterprise. However, if an Enterprise team within your organization implements domain capture, you won't be able to remain on or join extra Postman teams with your captured accounts.
 
-If you're an individual Postman user and join a team, you can choose to transfer your personal workspaces and the data within them to the team or keep them separate. In certain cases, your personal workspaces and the data within them automatically transfer when you join a team:
+If you have an individual account and join a team, you can choose to transfer your personal workspaces and the data within them to the team or keep them separate. In certain cases, your personal workspaces and the data within them automatically transfer when you join a team:
 
 * If you [request to join a team](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#finding-teams-within-your-organization) and are approved by a Team Admin.
 * If the team has [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) enabled.
 * If the team has [domain capture](/docs/administration/managing-your-team/configuring-domain-capture/) enabled.
 
-When you leave a team, your personal workspaces within the team and their data will remain with the team and no longer be accessible to you. (Personal workspaces in a team refers to workspace visibility and not data ownership.)
+When you leave a team, your personal workspaces within the team and their data will remain with the team and no longer be accessible to you in some situations; see [Leaving a team](#leaving-a-team) for details. (Personal workspaces in a team refers to workspace visibility and not data ownership.)
 
 ### Switching between teams
 
@@ -89,6 +89,10 @@ If you belong to multiple teams, you can sign in to them at the same time with y
 
 If you're a member of two or more teams, you can also select **+ Create Team** to create a new team.
 
+If you have an individual account, switch to it by selecting your avatar in the top right. Then select your avatar and username labeled "Individual".
+
+<img alt="Switch to individual account" src="https://assets.postman.com/postman-docs/v10/individual-account-switcher-v10.jpg" width="350px">
+
 ## Leaving a team
 
 You can leave a Postman team by selecting your avatar in the top right, then **Settings**. Select **Teams** on the left.
@@ -97,9 +101,18 @@ You can leave a Postman team by selecting your avatar in the top right, then **S
 
 Select **Leave Team** to the right of a team to leave it. If you're a member of an Enterprise team that has [SCIM configured](/docs/administration/scim-provisioning/scim-provisioning-overview/), you must contact a Team Admin to remove you from the team.
 
-When you leave a team, you no longer have access to the team's workspaces, including personal workspaces, or any of the elements in them. You must reassign your personal workspaces to a remaining team member before leaving.
+When you leave a team, you no longer have access to the team's workspaces, including personal workspaces, or any of the elements in them. You must reassign your personal workspaces to a remaining team member before leaving if one of the following is true:
 
-<img src="https://assets.postman.com/postman-docs/leave-team-confirmation-v10.jpg" alt="Leave and delete team" width="400px"/>
+* You're from an Enterprise team.
+* You're from a Free, Basic, or Professional team, and you have an individual account.
+
+> An individual account isn't associated with a team, and only you can access it. To access your individual account, see [Switching between teams](#switching-between-teams).
+
+<img src="https://assets.postman.com/postman-docs/v10/leave-team-confirmation-v10-2.jpg" alt="Leave and delete team" width="500px"/>
+
+When you leave a team, you can also choose to keep your personal workspaces and the data within them in an individual account if the following is true: you're from a Free, Basic, or Professional team and you don't have an individual account.
+
+<img src="https://assets.postman.com/postman-docs/v10/leave-team-keep-personal-data-confirmation-v10.jpg" alt="Leave team and keep personal data" width="500px"/>
 
 If you're the last member to leave a team, the team will be deleted. You will no longer have access to the team's workspaces, including personal workspaces, or any elements in them. [Export your Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) prior to leaving the team to ensure it stays with you.
 

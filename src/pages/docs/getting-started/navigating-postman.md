@@ -14,8 +14,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "History | Postman Level Up"
-    url: "https://www.youtube.com/watch?v=9VBTKwUCsGw&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=4"
+    name: "Navigating the Postman App Interface | The Exploratory"
+    url: "https://youtu.be/Kr8OVXjzw4k"
   - type: link
     name: "Universal Search | Postman Level Up"
     url: "https://www.youtube.com/watch?v=1K6Pl6o_tj8"
@@ -25,11 +25,11 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "How Postman Designers Built the New Universal Search Feature"
-    url: "https://blog.postman.com/how-postman-designers-built-the-new-universal-search-feature/"
-  - type: link
     name: "Introducing Bulk Actions on Postman’s Sidebar"
     url: "https://blog.postman.com/introducing-sidebar-bulk-actions/"
+  - type: link
+    name: "Focus on the work that matters with sidebar configurations"
+    url: "https://blog.postman.com/focus-on-the-work-that-matters-with-sidebar-configurations/"
   - type: section
     name: "Next steps"
   - type: link
@@ -50,7 +50,7 @@ Postman has a variety of tools, views, and controls to help you manage your API 
     * [Environment selector and environment quick look](#environment-selector-and-environment-quick-look)
 * [Footer](#footer)
 
-<img alt="Postman app" src="https://assets.postman.com/postman-docs/postman-desktop-app-v10.10.jpg"/>
+<img alt="Postman app" src="https://assets.postman.com/postman-docs/v10/postman-desktop-app-v10.14.jpg"/>
 
 ## Header
 
@@ -109,13 +109,15 @@ The Postman sidebar provides access to the fundamental elements of Postman:
 * [Flows](/docs/postman-flows/flows-intro/flows-overview/)
 * [History](#history)
 
-<img alt="Sidebar focused on Collections" src="https://assets.postman.com/postman-docs/navigating-postman-sidebar-v9.15.jpg" width="350px"/>
+<img alt="Sidebar focused on Collections" src="https://assets.postman.com/postman-docs/v10/navigating-postman-sidebar-v10.14.jpg" width="350px"/>
 
 To see the task options that are available for elements in the sidebar, select the element's name then select the more options icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">. The task options will vary depending on the type of element you've selected.
 
 For collections, folders and requests inside a collection, and requests in History, you can select more than one element at a time. Press and hold **⌘** or **Ctrl**, then select the desired elements. For elements that are next to each other, press and hold **Shift**, then select the desired elements. For collections and their contents, you can also use [keyboard shortcuts](/docs/getting-started/settings/#shortcuts) for tasks like copying, pasting, and deleting.
 
-To hide the sidebar, select the hide sidebar icon <img alt="Hide sidebar icon" src="https://assets.postman.com/postman-docs/icon-hide-sidebar-v9.jpg#icon" width="18px"> from the [footer](#footer).
+To hide the sidebar, select the hide sidebar icon <img alt="Hide sidebar icon" src="https://assets.postman.com/postman-docs/icon-hide-sidebar-v9.jpg#icon" width="18px"> from the [footer](#footer) or right-click in an empty part of the sidebar and select **Collapse sidebar**.
+
+By default, the sidebar hides empty elements other than **Collections**, **Environments**, and **History**. Select the Add elements to sidebar icon <img alt="Add elements to sidebar icon" src="https://assets.postman.com/postman-docs/v10/icon-add-elements-to-sidebar-v10.14.jpg#icon" width="18px"> to open **Workspace settings** where you can specify which sidebar elements to show or hide. Right-click on the sidebar for options to show/hide labels, collapse the sidebar, and configure the sidebar.
 
 ### History
 
@@ -123,7 +125,7 @@ To access the requests you've made, select __History__ in the sidebar. When you'
 
 Select a request to open it again in a new tab. To select more than one request, press and hold **⌘** or **Ctrl**, then select the requests.
 
-<img alt="History Request" src="https://assets.postman.com/postman-docs/history-request-v9.jpg" width="350px"/>
+<img alt="History Request" src="https://assets.postman.com/postman-docs/v10/history-request-v10.14.jpg" width="350px"/>
 
 Your history also includes [collection runs](/docs/collections/running-collections/intro-to-collection-runs/). These remain as the summarized version of the run and aren't logged as single requests.
 
