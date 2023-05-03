@@ -24,11 +24,11 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
+    name: "Build better APIs using the new and improved API Builder"
+    url: "https://blog.postman.com/build-better-apis-using-the-new-and-improved-api-builder/"
+  - type: link
     name: "Announcing Postman’s Redesigned API Builder with Native Git Support"
     url: "https://blog.postman.com/announcing-postmans-redesigned-api-builder-with-native-git-support/"
-  - type: link
-    name: "Better Practices for Git Version Control in Postman"
-    url: "https://blog.postman.com/better-practices-for-git-version-control-in-postman/"
   - type: link
     name: "Syncing Your Specs with Collections"
     url: "https://blog.postman.com/latest-updates-to-syncing-your-specs-with-collections/"

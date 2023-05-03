@@ -22,6 +22,14 @@ contextual_links:
   - type: link
     name: "Share Collection JSON via a Link | Postman Level Up"
     url: "https://youtu.be/tw7x3yBpU1Y"
+  - type: link
+    name: "Share a Collection With a Guest User | Postman Level Up"
+    url: "https://youtu.be/pRIG0Ujphoc"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Introducing Postman’s new Guest role to share collections instantly"
+    url: "https://blog.postman.com/introducing-postmans-new-guest-role-to-share-collections-instantly/"
   - type: section
     name: "Next steps"
   - type: link

@@ -483,6 +483,10 @@ export const leftNavItems = [
             name: 'Creating charts, tables, and output',
             url: '/docs/postman-flows/tutorials/creating-charts-tables-and-output/',
           },
+          {
+            name: 'Getting data from an array',
+            url: '/docs/postman-flows/tutorials/top-level-array/',
+          },
         ],
       },
       {
@@ -655,10 +659,6 @@ export const leftNavItems = [
           {
             name: 'Viewing workspace activity',
             url: '/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/',
-          },
-          {
-            name: 'Resolving team conflicts',
-            url: '/docs/collaborating-in-postman/using-workspaces/conflicts/',
           },
         ],
       },
@@ -1321,10 +1321,6 @@ export const leftNavItems = [
           {
             name: 'Keen',
             url: '/docs/integrations/available-integrations/keen/',
-          },
-          {
-            name: 'Lightstep',
-            url: '/docs/integrations/available-integrations/lightstep/',
           },
           {
             name: 'Microsoft Power Automate',

@@ -35,8 +35,8 @@ contextual_links:
     name: "SEI Novus keeps data in sync with financial market changes using tests"
     url: "https://www.postman.com/case-studies/sei-novus/"
   - type: link
-    name: "VTEX monitors data by running tests every two minutes"
-    url: "https://www.postman.com/case-studies/vtex/"
+    name: "Visma reduces bug fixing time to under ten minutes with tests"
+    url: "https://www.postman.com/case-studies/visma/"
   - type: subtitle
     name: "Public workspaces"
   - type: link

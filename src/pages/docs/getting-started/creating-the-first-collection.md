@@ -25,6 +25,9 @@ contextual_links:
   - type: link
     name: "Werner Enterprises saves 3 hours per week with collections"
     url:  "https://www.postman.com/case-studies/werner/"
+  - type: link
+    name: "Visma eliminates fifty minutes of meeting time with collections"
+    url:  "https://www.postman.com/case-studies/visma/"
   - type: subtitle
     name: "Public workspaces"
   - type: link

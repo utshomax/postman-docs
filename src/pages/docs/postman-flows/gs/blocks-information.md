@@ -12,6 +12,12 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Create Charts, Tables, and Output | Postman Flows"
+    url: "https://youtu.be/8zWlY4W7SWE"
+  - type: link
+    name: "The Infinite Canvas: Building Applications with Postman Flows"
+    url: "https://www.youtube.com/live/liy0WVwC86s?feature=share"
+  - type: link
     name: "AI Powered Sentiment Analysis with Postman Flows and ChatGPT"
     url: "https://www.youtube.com/live/0kAQb3Q4WCQ?feature=share"
   - type: subtitle
@@ -29,7 +35,7 @@ contextual_links:
     url: "https://www.postman.com/case-studies/built/"
 ---
 
-_Blocks_ are used to create Flows, and data is exchanged between them with _messages_.
+_Blocks_ are used to create Flows, and information is passed between them.
 
 ## Contents
 
