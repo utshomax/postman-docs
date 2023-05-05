@@ -22,7 +22,7 @@ contextual_links:
 ---
 
 
-The _Postman API Client_ is a space where you can work if you're using the Postman desktop app and not connected to Postman servers. When you aren't signed in to Postman or don't have a network connection, you can still use the offline API Client to build and send requests, including HTTP, WebSocket, gRPC, and GraphQL requests.
+The _Postman API Client_ is a space where you can work if you're using the Postman desktop app and not connected to Postman servers. When you aren't signed in to Postman or don't have a network connection, you can still use the offline API Client to build and send requests. You can use the API Client to send HTTP, WebSocket, gRPC, and GraphQL requests.
 
 All of your work in the API Client is stored locally and isn't synced online with Postman. After working in the API Client, you can move your open requests and request history into a workspace once you sign in to Postman.
 
