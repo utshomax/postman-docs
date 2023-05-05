@@ -49,28 +49,37 @@ While you are in the Scratch Pad, you can:
 
 ## Migrating Scratch Pad data to a workspace
 
-TO DO
+Workspaces enable you to organize your Postman work and collaborate with teammates. To switch to a workspace, you need to sign in to your Postman account or sign up for a new Postman account. You can move all of your collections, environments, and history from the Scratch Pad to your workspace, so you can pick up right where you left off.
 
-When [signing up for a Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account), your collections, environments, and histories are migrated to your default personal workspace. Open tabs aren't migrated.
+### Signing up for Postman from the Scratch Pad
 
-When [signing in to Postman](/docs/getting-started/postman-account/#signing-in-to-postman), your data is not migrated. You can go to Settings > Data to copy data from the Scratch Pad to a workspace. Open tabs aren't migrated.
+When you [sign up for a Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account), your collections, environments, and history are automatically copied from the Scratch Pad to your default personal workspace. (Open tabs aren't migrated.)
 
-## Exporting data from the Scratch Pad
+### Signing in to Postman from the Scratch Pad
 
-When you leave the Scratch Pad, your data remains there and isn't automatically transferred to your workspace. But you can export individual collections and environments from the Scratch Pad as JSON, then import them to a workspace.
+When you [sign in to Postman](/docs/getting-started/postman-account/#signing-in-to-postman), your data isn't automatically migrated from the Scratch Pad.
+
+To copy your Scratch Pad data to a workspace:
+
+1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, select **Settings**, and select the **Data** tab.
+1. STEPS TBD
+
+All of your collections, environments, and history are copied from the Scratch Pad to the workspace you selected. (Open tabs aren't migrated.)
+
+## Exporting and importing data from the Scratch Pad
+
+When you sign in to Postman, your data remains on the Scratch Pad and isn't automatically transferred to your workspace. You can [migrate all of your Scratch Pad data to a workspace](#migrating-scratch-pad-data-to-a-workspace).
+
+If you don't want to migrate all of your Scratch Pad data, you can export individual collections and environments from the Scratch Pad as JSON, then import them to a workspace.
 
 For more information on exporting a single collection or an environment, see [Exporting Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data).
 
 > You can export individual collections and environments from the Scratch Pad. You can't make bulk data exports of all collections and environments at once.
 
-## Importing data from the Scratch Pad
-
-When you log back in to Postman, you can import your Scratch Pad data.
-
 To import Scratch Pad data into your workspace, do the following:
 
 1. Sign in and switch to a workspace by selecting **Workspaces** from the header. For more information, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
-1. Select **Import** in the upper-left corner.
-1. Drag your exported data dump, collection, or environment and select **Import**.
+1. Select **Import** in the sidebar.
+1. Drag your exported collection or environment and select **Import**.
 
 For more information on importing, see [Importing data into Postman](/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman).

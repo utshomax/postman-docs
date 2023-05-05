@@ -26,7 +26,7 @@ The _Postman API Client_ is a space where you can work if you're using the Postm
 
 All of your work in the API Client is stored locally and isn't synced online with Postman. After working in the API Client, you can move your open requests and request history into a workspace once you sign in to Postman.
 
-> **Can I still use the Scratch Pad?** New Postman users who download the Postman desktop app now use the Postman API Client when not connected to Postman's servers. Postman users who have data in the Scratch Pad will continue to use the Scratch Pad when not connected to Postman's servers. Learn more about [using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
+> **What happened to the Scratch Pad?** New Postman users who download the Postman desktop app now use the Postman API Client when not connected to Postman's servers. Postman users who have data in the Scratch Pad will continue to use the Scratch Pad when not connected to Postman's servers. Learn more about [using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
 
 ## Accessing the API Client
 
@@ -42,9 +42,11 @@ While you're in the API Client, you can create new requests, send requests and r
 
 * The sidebar shows a history of the requests you've sent. Select a request in the history to open it in a new tab. Learn more about [viewing your request history](/docs/getting-started/navigating-postman/#history).
 
+> You can also use the API Client to write and execute [test scripts](/docs/writing-scripts/pre-request-scripts/) and to [visualize response data](/docs/sending-requests/visualizer/).
+
 ## Moving from the API Client to a workspace
 
-Workspaces enable you to organize your Postman work and collaborate with teammates. Once you're in a workspace, you can save requests to collections, use environments and variables, build APIs, and more.
+Workspaces enable you to organize your Postman work and collaborate with teammates. Once you're in a workspace, you can save requests to [collections](/docs/collections/using-collections/), use [environments](/docs/sending-requests/managing-environments/) and [variables](/docs/sending-requests/variables/), build [APIs](/docs/designing-and-developing-your-api/the-api-workflow/), and more.
 
 To switch to a workspace, you need to sign in to your Postman account or sign up for a new Postman account. You can move all of your open requests and history from the API Client to your workspace, so you can pick up right where you left off.
 
