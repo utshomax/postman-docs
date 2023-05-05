@@ -22,31 +22,40 @@ contextual_links:
 ---
 
 
-The _Postman API Client_ is a space where you can work if you're using the Postman desktop app and not connected to Postman servers. When you aren't signed in or don't have a network connection, you can still use the offline API Client to send requests, including HTTP, WebSocket, gRPC, and GraphQL requests.
+The _Postman API Client_ is a space where you can work if you're using the Postman desktop app and not connected to Postman servers. When you aren't signed in to Postman or don't have a network connection, you can still use the offline API Client to build and send requests, including HTTP, WebSocket, gRPC, and GraphQL requests.
 
-All of your work in the API Client is stored locally and isn't synced online with Postman. After working in the API Client, you can later move your open requests and history into a workspace once you sign in to Postman.
+All of your work in the API Client is stored locally and isn't synced online with Postman. After working in the API Client, you can move your open requests and request history into a workspace once you sign in to Postman.
 
-> **Can I still use the Scratch Pad?** New Postman users who download the Postman desktop app now use the Postman API Client instead of the Scratch Pad when not connected to Postman's servers. Postman users who have data on the Scratch Pad will continue to use the Scratch Pad when not connected to Postman's servers. Learn more about [using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
+> **Can I still use the Scratch Pad?** New Postman users who download the Postman desktop app now use the Postman API Client when not connected to Postman's servers. Postman users who have data in the Scratch Pad will continue to use the Scratch Pad when not connected to Postman's servers. Learn more about [using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
 
 ## Accessing the API Client
 
-When you open the Postman desktop app for the first time, if you choose not to sign up or sign in to Postman, you will enter the API Client. You'll also enter the API Client if you sign out of Postman or if you lose your network connection.
+When you open the Postman desktop app for the first time, you are prompted to sign up or sign in to Postman. If you choose not to sign up or sign in, you will enter the offline API Client. You'll also enter the API Client if you sign out of Postman or if you lose your network connection.
 
 ## API Client features
 
-While you are in the API Client, you can:
+While you're in the API Client, you can create new requests, send requests and receive responses, and view the history of your sent requests.
 
-* Create a new HTTP, WebSocket, gRPC, or GraphQL request
-* Send a request
-* View your history of your sent requests
+* To create a new request, select **New** in the sidebar and then select the type of request you want to create. You can create HTTP, WebSocket, gRPC, or GraphQL requests. Each request you create opens in a new tab. Learn more about [building requests](/docs/sending-requests/requests/).
 
-## Leaving the API Client
+* Select **Send** to send a request and view the response. Learn more about [receiving responses](/docs/sending-requests/responses/).
 
-1. Ensure you have a network connection to Postman, and [sign in to Postman](/docs/getting-started/postman-account/#signing-in-to-postman).
-1. Switch to a workspace by selecting **Workspaces** from the header. For more information, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
+* The sidebar shows a history of the requests you've sent. Select a request in the history to open it in a new tab. Learn more about [viewing your request history](/docs/getting-started/navigating-postman/#history).
 
-## Migrating API Client data to a workspace
+## Moving from the API Client to a workspace
 
-When [signing up for a Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account), your open requests and history are migrated to your default personal workspace.
+Workspaces enable you to organize your Postman work and collaborate with teammates. Once you're in a workspace, you can save requests to collections, use environments and variables, build APIs, and more.
 
-When [signing in to Postman](/docs/getting-started/postman-account/#signing-in-to-postman), you can choose the workspace where you want to migrate your open requests and history.
+To switch to a workspace, you need to sign in to your Postman account or sign up for a new Postman account. You can move all of your open requests and history from the API Client to your workspace, so you can pick up right where you left off.
+
+### Signing up for Postman from the API Client
+
+If you don't have a Postman account, or want to use a new account, select **Create Account** in the header. Follow the onscreen instructions, or learn more about [signing up for Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account).
+
+Once you've created your account, your open requests and request history are copied from the API Client to your default personal workspace. Learn more about [using workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
+
+### Signing in to Postman from the API Client
+
+To sign in to your Postman account, select **Sign In** in the header. Follow the onscreen instructions, or learn more about [signing in to Postman](/docs/getting-started/postman-account/#signing-in-to-postman).
+
+Once you're signed in, you can move your open requests and request history from the API Client to a workspace. Select the workspace you want to move the data to and select **Move Data to Workspace**. Your data is copied from the API Client to the workspace. Learn more about [using workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
