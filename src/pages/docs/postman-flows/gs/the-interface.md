@@ -40,7 +40,7 @@ The Postman Flows interface has three main parts: the toolbar, the right sidebar
 * [Right sidebar](#right-sidebar)
 * [Console](#console)
 
-![Interface](https://assets.postman.com/postman-docs/v10/flows-interface-main.jpg)
+![Interface](https://assets.postman.com/postman-docs/v10/flows-interface-main-v10.jpg)
 
 ## Toolbar
 
@@ -75,27 +75,27 @@ The toolbar gives you access to tools you can use to manipulate the canvas.
 ## Right sidebar
 
 The right sidebar is the place where you'll see more information about your flow and its current state.
-![Right sidebar](https://assets.postman.com/postman-labs-docs/interface/updated-interface-context-bar.png)
+![Right sidebar](https://assets.postman.com/postman-docs/v10/updated-interface-context-bar-v10-2.jpg)
 
-* **Element info**
+* **Runs**
 
-  You can see the specification for the selected block here. It has the input, output, and variable descriptions.
+  Shows deployment status and your flow's webhook URL. Enables you to deploy or undeploy your flow. You can toggle between viewing the deployed flow and viewing the flow in the editor. Also shows webhook events for the selected flow.
 
-  ![Element Info](https://assets.postman.com/postman-labs-docs/interface/updated-interface-element-info.gif)
+  ![Runs](https://assets.postman.com/postman-docs/v10/flows-right-sidebar-runs-v10.jpg)
 
-* **Execution errors**
+* **Configuration**
 
-  When your flow encounters an error while running, you can read the logs in the **Execution issues** pane.
+  Shows the available configuration options and ports for the selected block. You can edit the block's title here.
 
-  ![execution errors](https://assets.postman.com/postman-labs-docs/interface/updated-interface-execution-error-eval-block.gif)
+  ![Configuration](https://assets.postman.com/postman-docs/v10/flows-right-sidebar-config-v10.jpg)
 
 * [**Forks**](/docs/collaborating-in-postman/using-version-control/forking-entities/)
 
   A list of all the forks of the flow that have been created.
 
-* **Flow information**
+* **Info**
 
-  You can see the flow ID and add a summary for your flow in the **Info** pane.
+  You can see the flow ID and creator, and add a summary for your flow here.
 
 ## Console
 
