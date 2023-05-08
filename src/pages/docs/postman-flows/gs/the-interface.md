@@ -40,12 +40,12 @@ The Postman Flows interface has three main parts: the toolbar, the right sidebar
 * [Right sidebar](#right-sidebar)
 * [Console](#console)
 
-![Interface](https://assets.postman.com/postman-docs/v10/flows-interface-main-v10.jpg)
+![Interface](https://assets.postman.com/postman-docs/v10/flows-interface-main-v10-1.jpg)
 
 ## Toolbar
 
 The toolbar gives you access to tools you can use to manipulate the canvas.
-![toolbar](https://assets.postman.com/postman-labs-docs/interface/updated-interface-tool-bar.png)
+![Toolbar](https://assets.postman.com/postman-docs/v10/updated-interface-tool-bar-v10.jpg)
 
 * **Zoom controls**
 
@@ -64,18 +64,18 @@ The toolbar gives you access to tools you can use to manipulate the canvas.
 
   Use the toolbar to add a block to the canvas. Select **+ Block** and choose from the list of available blocks.
 
-  ![add block](https://assets.postman.com/postman-labs-docs/interface/updated-interface-add-block.gif)
+  ![Add a block](https://assets.postman.com/postman-labs-docs/interface/updated-interface-add-block.gif)
 
 * **Text**
 
   You can add rich markdown on the canvas to describe what your flow is doing. Press `T` or select the text icon on the toolbar and place the text block on the canvas.
 
-  ![add text](https://assets.postman.com/postman-labs-docs/interface/updated-interface-add-annotations.gif)
+  ![Add text](https://assets.postman.com/postman-labs-docs/interface/updated-interface-add-annotations.gif)
 
 ## Right sidebar
 
 The right sidebar is the place where you'll see more information about your flow and its current state.
-![Right sidebar](https://assets.postman.com/postman-docs/v10/updated-interface-context-bar-v10-2.jpg)
+![Right sidebar](https://assets.postman.com/postman-docs/v10/updated-interface-context-bar-v10-3.jpg)
 
 * **Runs**
 
