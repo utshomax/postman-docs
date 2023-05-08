@@ -38,9 +38,10 @@ The Postman Flows interface has three main parts: the toolbar, the right sidebar
 
 * [Toolbar](#toolbar)
 * [Right sidebar](#right-sidebar)
+* [Minimap](#minimap)
 * [Console](#console)
 
-![Interface](https://assets.postman.com/postman-docs/v10/flows-interface-main-v10-1.jpg)
+![Interface](https://assets.postman.com/postman-docs/v10/flows-interface-main-v10-2.jpg)
 
 ## Toolbar
 
@@ -96,6 +97,10 @@ The right sidebar is the place where you'll see more information about your flow
 * **Info**
 
   You can see the flow ID and creator, and add a summary for your flow here.
+
+## Minimap
+
+The minimap is an interactive map of your flow. Hover over the minimap to enlarge it. Click anywhere in the minimap to jump to that location in your flow. Note that the minimap displays miniature versions of blocks in their assigned colors.
 
 ## Console
 
