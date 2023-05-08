@@ -1,5 +1,5 @@
 ---
-title: "About blocks and passing information"
+title: "About blocks"
 updated: 2023-05-15
 contextual_links:
   - type: section
