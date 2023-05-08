@@ -100,7 +100,7 @@ The right sidebar is the place where you'll see more information about your flow
 
 ## Minimap
 
-The minimap is an interactive map of your flow. Hover over the minimap to enlarge it. The gray rectangle is the visible portion of your flow. Click anywhere in the minimap to jump to that location. You can click and drag in the minimap, too. Note that the minimap displays miniature versions of blocks in their assigned colors.
+The minimap is an interactive map of your flow. Hover over the minimap to enlarge it. The gray rectangle is the visible portion of your flow. The **Start** block is highlighted in orange. Click anywhere in the minimap to jump to a location. You can click and drag in the minimap, too. Note that the minimap displays miniature versions of blocks in their assigned colors.
 
 ## Console
 
