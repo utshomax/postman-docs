@@ -30,7 +30,7 @@ All of your work in the API Client is stored locally and isn't synced online wit
 
 ## Accessing the API Client
 
-When you open the Postman desktop app for the first time, you can create a free Postman account or sign into you Postman account. If you choose to skip creating or signing in to an account, you will enter the offline API Client. You'll also enter the API Client if you sign out of Postman.
+When you open the Postman desktop app for the first time, you can create a free Postman account or sign in to your Postman account. If you choose to skip creating or signing in to an account, you will enter the offline API Client. You'll also enter the API Client if you sign out of Postman.
 
 <img alt="Postman Offline API Client" src="https://assets.postman.com/postman-docs/v10/api-client-v10-14.jpg">
 
@@ -50,7 +50,7 @@ While you're in the API Client, you can create new requests, send requests and r
 
 [Workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/) enable you to organize your Postman work and collaborate with teammates. When you're in a workspace, you can save requests to [collections](/docs/collections/using-collections/), use [environments](/docs/sending-requests/managing-environments/) and [variables](/docs/sending-requests/variables/), build [APIs](/docs/designing-and-developing-your-api/the-api-workflow/), and more.
 
-To switch to a workspace, you need to sign in to your Postman account or create a new Postman account. You can move all of your open requests and history from the API Client to your workspace, so you can pick up right where you left off.
+To switch to a workspace, you need to sign up for a Postman account or sign in to your existing Postman account. You can move all of your open requests and history from the API Client to your workspace, so you can pick up right where you left off.
 
 ### Signing up for Postman from the API Client
 
