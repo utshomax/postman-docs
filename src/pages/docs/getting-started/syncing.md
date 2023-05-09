@@ -1,8 +1,6 @@
 ---
 title: "Syncing your work"
-order: 5
-updated: 2022-2-18
-page_id: "syncing"
+updated: 2023-05-15
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -21,9 +19,6 @@ contextual_links:
   - type: link
     name: "Sending your first request"
     url: "/docs/getting-started/sending-the-first-request/"
-
-warning: false
-
 ---
 
 Postman automatically syncs changes across all devices that are linked to your account, including edits, updates, additions, or deletions. As long as you're signed in to Postman, and have a reliable internet connection, your data will sync.

@@ -28,6 +28,12 @@ All of your work in the offline API Client is stored locally and isn't synced on
 
 > **What happened to the Scratch Pad?** New Postman users who download the Postman desktop app use the offline Postman API Client when not signed in to Postman. Postman users who have data in the Scratch Pad will continue to use the Scratch Pad when not connected to Postman's servers. Learn more about [using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
 
+## Contents
+
+* [Accessing the offline API Client](#accessing-the-offline-api-client)
+* [Offline API Client features](#offline-api-client-features)
+* [Moving from the offline API Client to a workspace](#moving-from-the-offline-api-client-to-a-workspace)
+
 ## Accessing the offline API Client
 
 When you open the Postman desktop app for the first time, you can create a free Postman account or sign in to your Postman account. If you choose to skip creating or signing in to an account, you will enter the offline API Client. You'll also enter the offline API Client if you sign out of Postman.

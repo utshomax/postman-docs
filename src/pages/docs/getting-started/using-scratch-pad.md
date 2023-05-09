@@ -21,6 +21,14 @@ All your work in the Scratch Pad is stored locally and isn't synced online with 
 
 > **Meet the new offline Postman API Client.** New Postman users who download the Postman desktop app use the offline API Client when not signed in to Postman. You can use the offline API Client to send API requests, including HTTP, WebSocket, gRPC, and GraphQL requests. Postman users who have data in the Scratch Pad will continue to use the Scratch Pad when not connected to Postman's servers. Learn more about the [offline Postman API Client](/docs/getting-started/using-offline-api-client/).
 
+## Contents
+
+* [Entering the Scratch Pad](#entering-the-scratch-pad)
+* [Scratch Pad features](#scratch-pad-features)
+* [Leaving the Scratch Pad](#leaving-the-scratch-pad)
+* [Migrating Scratch Pad data to a workspace](#migrating-scratch-pad-data-to-a-workspace)
+* [Exporting and importing data from the Scratch Pad](#exporting-and-importing-data-from-the-scratch-pad)
+
 ## Entering the Scratch Pad
 
 If you sign out or your connection to Postman breaks, Postman displays a global banner at the top of the screen indicating that you're already in the Scratch Pad.

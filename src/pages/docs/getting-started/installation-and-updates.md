@@ -1,6 +1,6 @@
 ---
 title: "Installing and updating Postman"
-updated: 2023-02-02
+updated: 2023-05-15
 contextual_links:
   - type: section
     name: "Prerequisites"
