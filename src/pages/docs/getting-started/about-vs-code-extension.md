@@ -14,3 +14,5 @@ The Postman VS Code extension is an extension for [Visual Studio Code](https://c
 * Create cookies and send them with requests.
 
 To install and learn more about the Postman VS Code extension, visit the Visual Studio Marketplace. <!-- Add link to the extension in the Marketplace -->
+
+<!-- To install and learn more about the Postman VS Code extension, visit the [Visual Studio Marketplace](https://marketplace.visualstudio.com/vscode) and enter "Postman". -->
