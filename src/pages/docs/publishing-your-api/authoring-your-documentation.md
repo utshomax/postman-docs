@@ -50,6 +50,7 @@ To help your teammates ([or the world](/docs/publishing-your-api/publishing-your
 * [Including examples](#including-examples)
 * [Adding links](#adding-links)
 * [Adding images](#adding-images)
+* [Embedding videos](#embedding-videos)
 * [Finding help and inspiration](#finding-help-and-inspiration)
 
 ## Adding descriptions to your documentation
@@ -183,15 +184,13 @@ Your image must be hosted online (for example, on a website) before you can embe
 
 You can change an image after uploading or embedding it:
 
-* To change an uploaded image in the Postman editor, first select it and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">. Then [upload a new image](#uploading-an-image).
-
-* To change an embedded image in the Postman editor, select it and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. Enter the new image URL and select **Edit**.
+* To change an image in the Postman editor, first select it and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">. Then upload or embed a new image.
 
 * To change an image in the Markdown editor, edit the Markdown code as needed.
 
 * To resize an image, select the image in the Postman editor and drag the resize handles. You can also specify a new value for `width` in the Markdown editor.
 
-* To add a caption, select the image in the Postman editor and enter a caption below the image. To remove the caption, select the image and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> above the caption.
+* To add or edit a caption, select the image in the Postman editor and enter a caption below the image.
 
 ### Image storage limits
 
@@ -200,6 +199,34 @@ If you are on a [Postman Free plan](https://www.postman.com/pricing/) and aren't
 To check how much storage you're using, go to your [billing dashboard](http://go.postman.co/billing) and select **Resource Usage**. The amount of space used by uploaded images and files appears under **Storage Usage**. To upgrade your available storage, contact [Postman support](https://www.postman.com/support/).
 
 > When you reach 90% of your storage limit and above, you will get a warning each time you try to add an image. To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).
+
+## Embedding videos
+
+You can add videos to your documentation by embedding the URL of the video. You can embed videos hosted on YouTube or Vimeo.
+
+> You can't embed a video hosted on a service other than YouTube and Vimeo, but you can [add a link](#adding-links) to the video.
+
+* To embed a video using the Postman editor, select the **Video** tool. Paste or enter the URL of the video, and then select **Embed**.
+
+    <img alt="Embedding a video" src="https://assets.postman.com/postman-docs/v10/documentation-embed-video-10-14.jpg" width="542px">
+
+* To embed a video using the Markdown editor, use the following syntax:
+
+    ```md
+    <video src="https://youtube.com/embed/1xTTNGacuaQ" width="340" height="170"></video>
+    ```
+
+> You can't play videos when editing documentation. Select **Save**, and then select the video to start playback.
+
+You can change a video after uploading or embedding it:
+
+* To change a video in the Postman editor, first select it and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">. Then upload or embed a new video.
+
+* To change a video in the Markdown editor, edit the Markdown code as needed.
+
+* To resize a video, select the video in the Postman editor and drag the resize handles. You can also specify a new value for `width` in the Markdown editor.
+
+* To add or edit a caption, select the video in the Postman editor and enter a caption below the video.
 
 ## Finding help and inspiration
 
