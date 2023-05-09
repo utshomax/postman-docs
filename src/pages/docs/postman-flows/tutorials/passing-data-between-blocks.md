@@ -44,21 +44,21 @@ In this example, the **Send Request** block gets data using a collection's GET r
 
 1. Select **Send**.
 
-    ![Select Send](https://assets.postman.com/postman-docs/v10/flow-get-request-v10.jpg)
+    ![Select Send](https://assets.postman.com/postman-docs/v10/flow-get-request-v10-1.jpg)
 
 1. Select **Save**.
 
 1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/) and connect a **Send Request** block to the **Start** block.
 
-    ![Create a flow and add a Send Request block](https://assets.postman.com/postman-docs/v10/flow-data-send-request-v10.jpg)
+    ![Create a flow and add a Send Request block](https://assets.postman.com/postman-docs/v10/flow-data-send-request-v10-2.jpg)
 
 1. In the **Send Request** block, select **Add request > Random User Collection > New Request**. Each time the flow executes, it will get data using the GET request from the Random User Collection request you created earlier.
 
-    ![Select Add request](https://assets.postman.com/postman-docs/v10/flow-select-data-v10.jpg)
+    ![Select Add request](https://assets.postman.com/postman-docs/v10/flow-select-data-v10-2.jpg)
 
 1. Connect a **Log** block to the **Send Request** block's **Success** port.
 
-    ![Add a Log block](https://assets.postman.com/postman-docs/v10/flow-add-log-block-2-v10.jpg)
+    ![Add a Log block](https://assets.postman.com/postman-docs/v10/flow-add-log-block-4-v10.jpg)
 
 1. Select **Console** then select **Run**. The **Log** block sends the entire response to the console, including request headers, response headers, and the response body.
 
