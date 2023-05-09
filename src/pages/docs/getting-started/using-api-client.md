@@ -54,7 +54,7 @@ To switch to a workspace, you need to sign up for a Postman account or sign in t
 
 ### Signing up for Postman from the API Client
 
-If you don't have a Postman account, or want to use a new account, select **Create Account** in the header. Follow the onscreen instructions, or learn more about [signing up for Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account).
+If you don't have a Postman account, or want to use a new account, select **Create Account** in the header. Follow the onscreen instructions, or learn more about [signing up for a Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account).
 
 After you create your account, your open requests and request history are automatically copied from the offline API Client to your default personal workspace. Learn more about [using workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
 
