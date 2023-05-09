@@ -35,9 +35,9 @@ gRPC requests in Postman include a variety of tools, views, and controls to help
 
 ## Creating a new request
 
-Create a new gRPC request by selecting the **New** button in the sidebar which brings up the **Create new** dialog. Select gRPC request from the list to open a blank **gRPC request** in a new tab.
+Create a new gRPC request by selecting the **New** button in the sidebar which brings up the **Create new** dialog. Select **gRPC** from the list to open a blank gRPC request in a new tab.
 
-<img src="https://assets.postman.com/postman-docs/v10/grpc-new-request.gif" alt="New gRPC request" />
+<img src="https://assets.postman.com/postman-docs/v10/create-new-grpc-v10.jpg" alt="New gRPC request" width="500px"/>
 
 ## The request section
 

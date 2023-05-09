@@ -83,9 +83,9 @@ If you have never sent a request before, check out [sending your first request](
 
 Your requests can include multiple details determining the data Postman will send to the API you are working with. Enter a URL and choose a method, then optionally specify a variety of other details.
 
-You can create a new request from a workspace, by using **New > HTTP Request**, or by selecting **+** to open a new tab.
+You can create a new request from a workspace, by using **New > HTTP**, or by selecting **+** to open a new tab.
 
-![Create New Screen](https://assets.postman.com/postman-docs/v10/new-request-v10-2.jpg)
+<img alt="Create new request" src="https://assets.postman.com/postman-docs/v10/create-new-http-v10-3.jpg" width="500px"/>
 
 Select **Save** to create your request. You can give your request a name and description, and choose or create a collection to save it in.
 
