@@ -94,8 +94,8 @@ export const leftNavItems = [
         url: '/docs/getting-started/about-postman-agent/',
       },
       {
-        name: 'Using the API Client',
-        url: '/docs/getting-started/using-api-client/',
+        name: 'Using the offline API Client',
+        url: '/docs/getting-started/using-offline-api-client/',
       },
       {
         name: 'Using the Scratch Pad',
