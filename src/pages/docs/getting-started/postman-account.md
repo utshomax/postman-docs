@@ -122,9 +122,9 @@ You can manage account settings including your email address, password, and work
 
 ### Changing your email address
 
-If you're on a Professional, Basic, or Free plan, you can change the email address associated with your Postman account. Open your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the Postman header, then select **Settings > Account**. Edit your email address and select **Update Email** to save changes.
+If you're a member of a free or paid team, you can change the email address associated with your Postman account. Open your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the Postman header, then select **Settings > Account**. Edit your email address and select **Update Email Address** to save changes.
 
-If you're on an Enterprise plan, you must contact your Team Admins to update the email address associated with your Postman account.
+If you're a member of an Enterprise team with SCIM enabled, you must contact a Team Admin to update the email address associated with your Postman account.
 
 ### Resetting your password
 
