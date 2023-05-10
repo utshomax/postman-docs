@@ -39,7 +39,7 @@ warning: false
 
 Workspaces enable you to organize your Postman work and collaborate with teammates. You can group your projects together, with workspace acting as the single source of truth for related APIs, collections, environments, mocks, monitors, and other linked entities. By collaborating in a workspace, your edits sync with your team in real time.
 
-<img alt="Workspaces selected" src="https://assets.postman.com/postman-docs/workspace-overview-switcher-selected-v10.14.jpg"/>
+<img alt="Workspaces selected" src="https://assets.postman.com/postman-docs/v10/workspace-overview-switcher-selected-v10.14.jpg"/>
 
 With a [Postman account](/docs/getting-started/postman-account/) you can create various types of workspaces:
 
@@ -100,7 +100,7 @@ When you apply a workspace template, it will populate the workspace description 
 
 To use a template, [create a new workspace](#creating-a-new-workspace) or open a newly created workspace. In the workspace overview, select from the available templates under **Use a template to quickly set up your workspace** or select **More templates** to view all of the available options. You can select the template you'd like to use, then select **Use Template**.
 
-<img alt="Select workspace template" src="https://assets.postman.com/postman-docs/workspace-templates-api-testing-v10.14.jpg"/>
+<img alt="Select workspace template" src="https://assets.postman.com/postman-docs/v10/workspace-templates-api-testing-v10.14.jpg"/>
 
 ## Next steps
 

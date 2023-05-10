@@ -63,7 +63,7 @@ To open a workspace, select **Workspaces** in the Postman header. Select a works
 
 The workspace's **Overview** tab displays a description and summary of the workspace, as well as any [pinned collections](#pinning-collections-to-workspaces). On the right, there is a list of workspace contributors and the option to [view workspace activity](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#viewing-workspace-activity).
 
-<img alt="Workspace overview" src="https://assets.postman.com/postman-docs/workspace-overview-v10.14.jpg"/>
+<img alt="Workspace overview" src="https://assets.postman.com/postman-docs/v10/workspace-overview-v10.14.jpg"/>
 
 ### Getting the workspace ID
 
@@ -95,7 +95,7 @@ A summary and description help others understand what your workspace is for. You
 
 On the workspace's **Overview** tab, select the workspace name, summary, or description to edit it. You can add Markdown to the description—select **Save** when you're done.
 
-<img alt="Edit Workspace Summary & Description" src="https://assets.postman.com/postman-docs/edit-workspace-summary-description-v10.14.0.gif"/>
+<img alt="Edit Workspace Summary & Description" src="https://assets.postman.com/postman-docs/v10/edit-workspace-summary-description-v10.14.0.gif"/>
 
 ### Changing workspace visibility
 
@@ -208,11 +208,11 @@ To move an element to a different workspace, do the following:
 
 ## Pinning collections to workspaces
 
-You can pin collections to a workspace for quick access. On the workspace's **Overview** tab under **Pinned collections**, select the pin collection icon <img alt="Pin collection icon" src="https://assets.postman.com/postman-docs/pin-collection-icon.jpg#icon" width="16px">, then select the collection you'd like to pin.
+You can pin collections to a workspace for quick access. On the workspace's **Overview** tab under **Pinned collections**, select the pin collection icon <img alt="Pin collection icon" src="https://assets.postman.com/postman-docs/v10/icon-pin-collection-v10.14.0.jpg#icon" width="16px">, then select the collection you'd like to pin.
 
-<img alt="Pin collection to workspace" src="https://assets.postman.com/postman-docs/pinned-collections-v10.14.jpg"/>
+<img alt="Pin collection to workspace" src="https://assets.postman.com/postman-docs/v10/pinned-collections-v10.14.jpg"/>
 
-To remove a pinned collection, hover over the collection and select the remove pin icon <img alt="remove pin icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px">, then select **Remove**.
+To remove a pinned collection, hover over the collection and select the remove pin icon <img alt="Remove pin icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px">, then select **Remove**.
 
 ## Seeing who is in your workspace
 
