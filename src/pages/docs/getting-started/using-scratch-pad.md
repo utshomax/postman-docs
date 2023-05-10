@@ -61,7 +61,9 @@ While you are in the Scratch Pad, you can:
 
 ### Signing up for Postman from the Scratch Pad
 
-When you [sign up for a Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account), your collections, environments, and history are automatically copied from the Scratch Pad to your default personal workspace. (Open tabs aren't migrated.)
+When you [sign up for a Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account), you can choose to move your data to a workspace or keep it in the Scratch Pad. If you choose to move your data, your collections, environments, and history are copied from the Scratch Pad to your default personal workspace. (Open tabs aren't migrated.)
+
+> If you choose to keep your data in the Scratch Pad, you can [move it to a workspace](#signing-in-to-postman-from-the-scratch-pad) later.
 
 ### Signing in to Postman from the Scratch Pad
 
