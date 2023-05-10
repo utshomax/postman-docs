@@ -1,6 +1,6 @@
 ---
 title: "Writing your docs"
-updated: 2023-01-10
+updated: 2023-05-15
 search_keyword: "images, upload image, uploading images"
 contextual_links:
   - type: section
