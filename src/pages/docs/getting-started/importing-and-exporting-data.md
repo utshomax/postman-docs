@@ -10,14 +10,11 @@ contextual_links:
     name: "Import and Export Data in Postman"
     url: "https://youtu.be/KdaiVdNMgL4"
   - type: link
+    name: "Collection Format | Postman Level Up"
+    url: "https://youtu.be/cRXSblrGrao"
+  - type: link
     name: "Importing cURL Commands | Postman Level Up"
     url: "https://youtu.be/kuR3we5EY2s"
-  - type: link
-    name: "Postman | How to Connect to Your Git Repository"
-    url: "https://youtu.be/8jJHXLVYOh0"
-  - type: link
-    name: "Integrating GitLab in Postman's API Builder"
-    url: "https://youtu.be/ecAQv9gZEKk"
   - type: subtitle
     name: "Blog posts"
   - type: link

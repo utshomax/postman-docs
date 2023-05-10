@@ -9,6 +9,14 @@ contextual_links:
   - type: link
     name: "Hands-on Learning with Postman Quickstarts | Postman Level Up"
     url:  "https://youtu.be/Z66shtMybBk"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "What are the components of an API?"
+    url: "https://blog.postman.com/what-are-the-components-of-an-api/"
+  - type: link
+    name: "How to build an API"
+    url: "https://blog.postman.com/how-to-build-an-api/"
 ---
 
 If you're starting to learn about APIs and Postman, you can use a variety of resources both in and outside Postman:

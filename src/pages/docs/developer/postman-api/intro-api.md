@@ -1,7 +1,7 @@
 ---
-title: "Postman API overview"
+title: "Postman API documentation"
 updated: 2022-11-30
-search_keyword: "postman-api"
+search_keyword: "Postman API docs"
 contextual_links:
   - type: section
     name: "Additional resources"

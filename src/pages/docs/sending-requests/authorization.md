@@ -22,13 +22,19 @@ contextual_links:
     name: "How to Use JWT Authorization"
     url: "https://youtu.be/dLxCpd3IGys"
   - type: link
-    name: "Automatically Refresh OAuth2.0 Access Tokens | Postman Level Up"
-    url: "https://www.youtube.com/watch?v=FAhs9TBK-xU"
+    name: "Set Up Authorization for Your Public Apis"
+    url: "https://youtu.be/u-FyOBgIB0c"
   - type: subtitle
     name: "Blog posts"
   - type: link
+    name: "Announcing easier API authentication in Postman"
+    url: "https://blog.postman.com/easier-api-authentication-in-postman/"
+  - type: link
     name: "OAuth 2.0 just got easier: introducing token refresh and ID token support"
     url: "https://blog.postman.com/oauth-2-0-token-refresh-and-id-token-support/"
+  - type: link
+    name: "New custom parameters for OAuth 2.0 token generation in Postman"
+    url: "https://blog.postman.com/custom-parameters-oauth-2-token-generation-postman/"
   - type: subtitle
     name: "Case Studies"
   - type: link
