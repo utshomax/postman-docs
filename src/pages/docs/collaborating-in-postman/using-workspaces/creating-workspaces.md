@@ -96,7 +96,7 @@ You can use workspace templates to help you set up a new workspace. Workspace te
 * Incident Response
 * Infrastructure
 
-When you apply a workspace template, it will populate the workspace description with an introduction and information to help you get started. Each workspace template also includes  sample collections that you can use and modify as needed.
+When you apply a workspace template, it will populate the workspace description with an introduction and information to help you get started. Each workspace template also includes sample collections that you can use and modify as needed.
 
 To use a template, [create a new workspace](#creating-a-new-workspace) or open a newly created workspace. In the workspace overview, select from the available templates under **Use a template to quickly set up your workspace** or select **More templates** to view all of the available options. You can select the template you'd like to use, then select **Use Template**.
 
