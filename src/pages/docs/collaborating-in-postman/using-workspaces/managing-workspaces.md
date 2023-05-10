@@ -50,6 +50,7 @@ Use workspaces to organize your work in Postman and collaborate with teammates (
 * [Managing workspace roles](#managing-workspace-roles)
 * [Watching a workspace](#watching-a-workspace)
 * [Moving elements to workspaces](#moving-elements-to-workspaces)
+* [Pinning collections to workspaces](#pinning-collections-to-workspaces)
 * [Seeing who is in your workspace](#seeing-who-is-in-your-workspace)
 * [Deleting a workspace](#deleting-a-workspace)
 * [Next steps](#next-steps)
@@ -60,9 +61,9 @@ To open a workspace, select **Workspaces** in the Postman header. Select a works
 
 <img alt="New Workspace" src="https://assets.postman.com/postman-docs/v10/view-workspaces-v10.14.jpg" width="400px"/>
 
-The workspace's **Overview** tab displays a summary and description of the workspace, as well as a list of recent activity. On the right, there is a list of the number of Postman elements like collections and APIs in the workspace and a list of recent contributors.
+The workspace's **Overview** tab displays a description and summary of the workspace, as well as any [pinned collections](#pinning-collections-to-workspaces). On the right, there is a list of workspace contributors and the option to [view workspace activity](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#viewing-workspace-activity).
 
-<img alt="Workspace overview" src="https://assets.postman.com/postman-docs/v10/workspace-overview-v10.jpg" width="1000px"/>
+<img alt="Workspace overview" src="https://assets.postman.com/postman-docs/workspace-overview-v10.14.jpg"/>
 
 ### Getting the workspace ID
 
@@ -86,13 +87,15 @@ You can add a note and select **Request Access** to submit the request. All Work
 
 Workspace Admins can edit workspace details or change the visibility of a workspace.
 
+> You can use workspace templates to help set up a new workspace. For more information, see [Creating workspaces with a template](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template).
+
 ### Editing workspace details
 
 A summary and description help others understand what your workspace is for. You must be a [Workspace Admin](#managing-workspace-roles) to edit workplace details.
 
 On the workspace's **Overview** tab, select the workspace name, summary, or description to edit it. You can add Markdown to the description—select **Save** when you're done.
 
-<img alt="Edit Workspace Summary & Description" src="https://assets.postman.com/postman-docs/edit-workspace-summary-v9.gif"/>
+<img alt="Edit Workspace Summary & Description" src="https://assets.postman.com/postman-docs/edit-workspace-summary-description-v10.14.0.gif"/>
 
 ### Changing workspace visibility
 
@@ -202,6 +205,14 @@ To move an element to a different workspace, do the following:
     > You can't move elements from a private, team, or public workspace to a personal workspace.
 
     <img alt="Move collection to workspace" src="https://assets.postman.com/postman-docs/move-collection-to-selected-workspace-v9.jpg" width="400px" height="400px"/>
+
+## Pinning collections to workspaces
+
+You can pin collections to a workspace for quick access. On the workspace's **Overview** tab under **Pinned collections**, select the pin collection icon <img alt="Pin collection icon" src="https://assets.postman.com/postman-docs/pin-collection-icon.jpg#icon" width="16px">, then select the collection you'd like to pin.
+
+<img alt="Pin collection to workspace" src="https://assets.postman.com/postman-docs/pinned-collections-v10.14.jpg"/>
+
+To remove a pinned collection, hover over the collection and select the remove pin icon <img alt="remove pin icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px">, then select **Remove**.
 
 ## Seeing who is in your workspace
 
