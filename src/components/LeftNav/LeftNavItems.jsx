@@ -1176,12 +1176,12 @@ export const leftNavItems = [
         url: '/docs/developer/resources-intro/',
       },
       {
-        name: 'Postman API',
+        name: 'Using the Postman API',
         subParentSlug: 'postman-api',
         slug: '/docs/developer/postman-api/intro-api/',
         subMenuItems2: [
           {
-            name: 'Postman API overview',
+            name: 'Postman API documentation',
             url: '/docs/developer/postman-api/intro-api/'
           },
           {

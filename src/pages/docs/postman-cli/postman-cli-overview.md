@@ -25,6 +25,9 @@ contextual_links:
   - type: link
     name: "Introducing the New Postman CLI to Automate Your API Testing"
     url: "https://blog.postman.com/introducing-the-postman-cli-to-automate-your-api-testing/"
+  - type: link
+    name: "Making the switch: empowering manual testers to automate their API tests"
+    url: "https://blog.postman.com/switching-from-manual-to-automated-api-testing/"
   - type: section
     name: "Next steps"
   - type: link
