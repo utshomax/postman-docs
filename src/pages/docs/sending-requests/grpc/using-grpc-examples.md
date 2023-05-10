@@ -44,7 +44,7 @@ This walkthrough creates and executes a unary request, then saves the response a
 
 > If you are using the Postman web app, you must use the Postman Desktop Agent. See [About the Postman Agent](/docs/getting-started/about-postman-agent/) for more information.
 
-1. In Postman, select  **New > gRPC Request** to open a request in a new tab.
+1. In Postman, select  **New > gRPC** to open a request in a new tab.
 
 1. Select **Enter Server URL** and enter `grpc.postman-echo.com`.
 
