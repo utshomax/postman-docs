@@ -87,6 +87,8 @@ You can also create a new workspace in the [Workspaces dashboard](https://app.ge
 
 ## Creating workspaces with a template
 
+> Workspace templates are available on Postman Free, Basic, and Professional plans.
+
 You can use workspace templates to help you set up a new workspace. Workspace templates are available for a variety of common use cases:
 
 * API Demos

@@ -208,6 +208,8 @@ To move an element to a different workspace, do the following:
 
 ## Pinning collections to workspaces
 
+> Pinning collections to workspaces is available on Postman Free, Basic, and Professional plans.
+
 You can pin collections to a workspace for quick access. On the workspace's **Overview** tab under **Pinned collections**, select the pin collection icon <img alt="Pin collection icon" src="https://assets.postman.com/postman-docs/v10/icon-pin-collection-v10.14.0.jpg#icon" width="16px">, then select the collection you'd like to pin.
 
 <img alt="Pin collection to workspace" src="https://assets.postman.com/postman-docs/v10/pinned-collections-v10.14.jpg"/>
