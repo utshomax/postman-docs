@@ -202,7 +202,7 @@ To check how much storage you're using, go to your [billing dashboard](http://go
 
 ## Embedding videos
 
-You can add videos to your documentation by embedding the URL of the video. You can embed videos hosted on YouTube or Vimeo.
+You can embed videos hosted on YouTube or Vimeo in your documentation. Your documentation displays a preview of the video, and users can select the preview to start playback without leaving Postman.
 
 > You can't embed a video hosted on a service other than YouTube and Vimeo, but you can [add a link](#adding-links) to the video.
 
@@ -220,11 +220,11 @@ You can add videos to your documentation by embedding the URL of the video. You 
 
 You can change a video after uploading or embedding it:
 
-* To change a video in the Postman editor, first select it and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">. Then upload or embed a new video.
+* To change a video in the Postman editor, first select it and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">. Then embed a new video.
 
 * To change a video in the Markdown editor, edit the Markdown code as needed.
 
-* To resize a video, select the video in the Postman editor and drag the resize handles. You can also specify a new value for `width` in the Markdown editor.
+* To resize a video preview, select the video in the Postman editor and drag the resize handles. You can also specify a new value for `width` in the Markdown editor.
 
 * To add or edit a caption, select the video in the Postman editor and enter a caption below the video.
 
