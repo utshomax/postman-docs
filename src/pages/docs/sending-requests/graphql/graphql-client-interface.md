@@ -132,9 +132,9 @@ You can also use the **Query** button dropdown to browse and select queries.
 
 The right sidebar gives you access to tools and information like documentation, commenting, and request details. Open a GraphQL request and select an option in the right sidebar:
 
-* **Documentation** - View the request's description. You can add descriptions by selecting the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description, then writing your content using [Postman's built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/#writing-descriptions-in-the-postman-editor/).
+* **Documentation** - View the request's description. You can add descriptions by selecting **Add request description** then writing your content using [Postman's built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/#writing-descriptions-in-the-postman-editor/). Postman also automatically generates detailed documentation tailored to each request, pulling relevant descriptions and type information from the schema.
 * **Comments** - Select the comments icon	<img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> to collaborate with your teammates as you work on an API. You can use `@` to tag others to ask a question, give feedback, and discuss your API.
-* **Info** - Select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> to view details about a request, like the request ID and creation date.
+* **Details** - Select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> to view details about a request, like the request ID and creation date.
 
 ## Next steps
 
