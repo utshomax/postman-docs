@@ -2146,5 +2146,9 @@
   {
     "from": "/docs/collaborating-in-postman/using-workspaces/conflicts/",
     "to": "/docs/getting-started/syncing/"
+  },
+  {
+    "from": "/docs/collaborating-in-postman/requesting-access-to-collections/",
+    "to": "/docs/collaborating-in-postman/requesting-access-to-elements/"
   }
 ]
