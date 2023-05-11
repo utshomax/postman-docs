@@ -46,11 +46,15 @@ While you're in the offline API Client, you can create new requests, send reques
 
 * To create a new request, select **New** in the sidebar and then select the type of request you want to create. You can create HTTP, WebSocket, gRPC, or GraphQL requests. Each request you create opens in a new tab. Learn more about [building requests](/docs/sending-requests/requests/).
 
+    > You can change the request type by selecting the icon next to the request name.
+    >
+    > <img alt="Switching the request type" src="https://assets.postman.com/postman-docs/v10/api-client-switch-request-type-v10-14.jpg" width="320px">
+
 * Select **Send** to send a request and view the response. Learn more about [receiving responses](/docs/sending-requests/responses/).
 
 * The sidebar shows a history of the requests you've sent. Select a request in the history to open it in a new tab. Learn more about [viewing your request history](/docs/getting-started/navigating-postman/#history).
 
-> You can also use the offline API Client to write and execute [test scripts](/docs/writing-scripts/pre-request-scripts/) and to [visualize response data](/docs/sending-requests/visualizer/).
+* You can also use the offline API Client to write and execute [test scripts](/docs/writing-scripts/pre-request-scripts/) and to [visualize response data](/docs/sending-requests/visualizer/).
 
 ## Moving from the offline API Client to a workspace
 
