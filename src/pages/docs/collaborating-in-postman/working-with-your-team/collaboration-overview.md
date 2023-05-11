@@ -44,7 +44,7 @@ To get the most out of Postman's collaboration features, [create](#creating-a-te
 When you sign up for Postman as an individual, you create a [Postman account](/docs/getting-started/postman-account/). If you [join a Postman team](#joining-a-team), you can decide to either move your workspaces and transfer ownership to the team or keep your workspaces separate and maintain ownership of them in your personal account. This decision affects your account:
 
 * When you move your workspaces to a team, your individual account will cease to exist and you will only have the option to switch between teams, rather than work in a personal account.
-* When you keep your workspaces, you will retain your individual account and you can switch between the team and your individual account at any time.
+* When you keep your workspaces, you'll retain your individual account and you can switch between the team and your individual account at any time.
 
 In certain cases, your personal workspaces and the data within them automatically transfer when you join a team. For more information, see [Joining a team](#joining-a-team).
 
