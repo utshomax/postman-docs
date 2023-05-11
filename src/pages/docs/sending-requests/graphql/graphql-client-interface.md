@@ -46,7 +46,7 @@ warning: false
 
 GraphQL requests in Postman include a variety of tools, views, and controls to help you debug and document your GraphQL API effectively and efficiently. This document highlights the parts of the request interface and the response and explains how to use them.
 
-<img src="https://assets.postman.com/postman-labs-docs/graphql-docs/request-full-view.jpg" alt="Different sections of a GraphQL request">
+<img src="https://assets.postman.com/postman-docs/v10/request-full-view-v10.jpg" alt="Different sections of a GraphQL request">
 
 ## Contents
 
@@ -70,7 +70,7 @@ Select **Save** to create your request.
 
 You can use a GraphQL schema in your request to browse the available data fields. This makes creating queries easier. Postman enables you to load a GraphQL schema using GraphQL introspection. This is the easiest way to fetch the schema directly from the server. When you enter the URL, Postman loads the schema automatically.
 
-<img src="https://assets.postman.com/postman-labs-docs/graphql-docs/loading-schema.gif" alt="Adding schema to the request">
+<img src="https://assets.postman.com/postman-docs/v10/loading-schema-v10.gif" alt="Adding schema to the request">
 
 You can also choose to [load a GraphQL API from Postman](/docs/designing-and-developing-your-api/importing-an-api/) or [import a schema](/docs/getting-started/importing-and-exporting-data/) from your local system to use in the request.
 
@@ -122,7 +122,7 @@ While executing a subscription-type query that returns multiple responses over a
 
 The GraphQL request interface enables you to create multiple queries and execute them one at a time. You can select a checkbox in the query explorer and select **Query** to execute only the selected query.
 
-<img src="https://assets.postman.com/postman-labs-docs/graphql-docs/sending-multiquery.gif" alt="Sending a single query using the Query Explorer">
+<img src="https://assets.postman.com/postman-docs/v10/sending-multiquery-v10-1.gif" alt="Sending a single query using the Query Explorer">
 
 You can also use the **Query** button dropdown to browse and select queries.
 

@@ -76,4 +76,4 @@ This example creates and executes a GraphQL query using the interactive query bu
 1. Enter your age and name in the input boxes next to `age` and `name`. You should also see a fully-formed query based on your selections on the right.
 1. Select **Query**.
 
-![First GraphQL Query](https://assets.postman.com/postman-docs/v10/graphql-schema-explorer-v10.gif)
+![First GraphQL Query](https://assets.postman.com/postman-docs/v10/graphql-schema-explorer-v10-1.gif)
