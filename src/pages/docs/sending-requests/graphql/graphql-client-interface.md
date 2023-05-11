@@ -60,9 +60,9 @@ GraphQL requests in Postman include a variety of tools, views, and controls to h
 
 ## Creating a new request
 
-You can create a new gRPC request from the Postman home screen, by using **New > gRPC Request**, or by selecting **+** to open a new tab.
+You can create a new gRPC request from the Postman home screen, by using **New > gRPC**, or by selecting **+** to open a new tab.
 
-![Create a new gRPC request](https://assets.postman.com/postman-docs/v10/graphql-create-new-1-v10.jpg)
+![Create a new gRPC request](https://assets.postman.com/postman-docs/v10/graphql-create-new-2-v10.jpg)
 
 Select **Save** to create your request.
 
