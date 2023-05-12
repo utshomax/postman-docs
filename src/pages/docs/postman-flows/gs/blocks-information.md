@@ -49,7 +49,7 @@ Blocks are the basic units used to create a flow. Every block has a specific pur
 
 ### Block fundamentals
 
-Every block has either an input, an output, or both. You can pass information from one block to another. For more information on each block, see [Types of Blocks](#types-of-blocks).
+Every block has either an input, an output, or both. You can pass information from one block to another. For more information on each block, see [Types of blocks](#types-of-blocks).
 
 ### Block anatomy
 
