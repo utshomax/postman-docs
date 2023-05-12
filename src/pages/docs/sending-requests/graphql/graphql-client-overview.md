@@ -1,7 +1,7 @@
 ---
 title: "About the GraphQL client"
 page_id: "about-the-graphql-client"
-updated: 2023-02-24
+updated: 2023-05-15
 contextual_links:
   - type: section
     name: "Prerequisites"
