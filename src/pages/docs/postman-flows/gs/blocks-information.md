@@ -93,7 +93,7 @@ To resize a block, select and drag the resizing handle in the block's lower-righ
 
 <img alt="Resize a block" src="https://assets.postman.com/postman-docs/v10/flows-resize-block-v10.jpg" width="300px">
 
-To rename a block, hover over the title and select the edit icon, then enter the block's new name.
+To rename a block, hover over the title and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">, then enter the block's new name.
 
 <img alt="Rename a block" src="https://assets.postman.com/postman-docs/v10/flows-rename-block-v10.jpg" width="300px">
 
