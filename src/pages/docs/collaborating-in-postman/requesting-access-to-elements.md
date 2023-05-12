@@ -2,7 +2,7 @@
 title: "Requesting access to elements"
 order: 73
 page_id: "requesting-access-to-elements"
-updated: 2023-05-10
+updated: 2023-05-15
 contextual_links:
   - type: section
     name: "Prerequisites"
