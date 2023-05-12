@@ -37,6 +37,8 @@ To manually update a Live Collection, do the following:
 
 1. If you made changes in your Live Collection and the same component is changed by incoming changes from the service, a conflict will occur. These conflicts are shown when you review incoming changes. You can select if you want to keep user updates or service updates for each part of the conflicted requests.
 
+    <img alt="Live Collections conflict" src="https://assets.postman.com/postman-docs/v10/live-collection-conflict.jpg" />
+
 1. Select **Update Collection** to accept the changes and update the collection, or select **Reject all** to ignore them.
 
 ## Viewing changes in a Live Collection
