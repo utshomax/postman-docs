@@ -241,7 +241,7 @@ You can extract specific values from response data in a number of ways using var
     ![Select JSON](https://assets.postman.com/postman-docs/v10/flow-passing-data-start-5-v10.jpg)
 
 1. Connect an **Evaluate** block to the **Start** block.
-1. In the **Evaluate** block, select **value1** and enter `body`. This assigns all the data received from the **Start** block to the variable `body`.
+1. In the **Evaluate** block, select **value1** and enter `body`. This assigns all the data received from the **Start** block to the `body` variable.
 
     ![Add variable body](https://assets.postman.com/postman-docs/v10/flow-body-v10-1.jpg)
 
