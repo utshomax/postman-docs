@@ -97,10 +97,10 @@ To rename a block, hover over the title and select the edit icon <img alt="Edit 
 
 <img alt="Rename a block" src="https://assets.postman.com/postman-docs/v10/flows-rename-block-v10.jpg" width="300px">
 
-To group blocks together, press and hold **⌘** or **Ctrl**, select the names of the blocks you want to group, then select the group selection icon.
+To group blocks together, press and hold **⌘** or **Ctrl**, select the names of the blocks you want to group, then select the group selection icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/v10/flows-group-icon-v10.jpg#icon" width="16px">.
 
 ![Group blocks](https://assets.postman.com/postman-docs/v10/flows-group-blocks-v10-1.gif)
 
-To ungroup blocks, hover over the group and select the **Ungroup** icon.
+To ungroup blocks, hover over the group and select the ungroup icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/v10/flows-ungroup-icon-v10.jpg#icon" width="16px">.
 
 ![Ungroup blocks](https://assets.postman.com/postman-docs/v10/flows-ungroup-blocks-v10-1.gif)
