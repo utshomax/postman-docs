@@ -80,7 +80,7 @@ The right sidebar is the place where you'll see more information about your flow
 
 * **Runs**
 
-  Shows deployment status and your flow's webhook URL. Enables you to deploy or undeploy your flow. You can toggle between viewing the deployed flow and viewing the flow in the editor. Also shows webhook events for the selected flow.
+  Shows the deployment status and your flow's webhook URL. Enables you to deploy or undeploy your flow. You can toggle between viewing the deployed flow and viewing the flow in the editor. Also shows the selected flow's webhook events.
 
   ![Runs](https://assets.postman.com/postman-docs/v10/flows-right-sidebar-runs-v10.jpg)
 
