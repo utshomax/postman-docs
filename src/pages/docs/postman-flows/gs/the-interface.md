@@ -92,7 +92,7 @@ The right sidebar is the place where you'll see more information about your flow
 
 * [**Forks**](/docs/collaborating-in-postman/using-version-control/forking-entities/)
 
-  Shows a list of all the forks of the flow that have been created.
+  Shows a list of all the created forks of the flow.
 
 * **Info**
 
