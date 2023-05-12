@@ -224,10 +224,6 @@ export const leftNavItems = [
             name: 'Using GraphQL with the HTTP request interface',
             url: '/docs/sending-requests/graphql/graphql-http/',
           },
-          {
-            name: 'Using GraphQL mock servers',
-            url: '/docs/sending-requests/graphql/graphql-mock/',
-          },
         ]
       },
       {

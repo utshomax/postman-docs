@@ -75,12 +75,6 @@ You can use a GraphQL schema in your request to browse the available data fields
 
 You can also choose to [load a GraphQL API from Postman](/docs/designing-and-developing-your-api/importing-an-api/) or [import a schema](/docs/getting-started/importing-and-exporting-data/) from your local system to use in the request.
 
-## Using a GraphQL mock server
-
-There may be times when you have your GraphQL schema ready, but you don't have access to a server to test it. In these cases, Postman can generate a GraphQL mock server that understands your schema and responds with mock values that match the shape and type of your requests. With mocks, you can start writing tests before the server's ready, collaborate on a suggested schema change, test out how a change may affect the frontend, and explore any other use cases you come up with.
-
-To create a mock GraphQL server, see [Using GraphQL mock servers](/docs/sending-requests/graphql/graphql-mock/)
-
 ## Understanding parts of the request interface
 
 The request interface enables you to add configurations to connect to the server and execute the query. You can define the URL, load the schema, build your query, and select **Query** to execute it. Based on the API requirements, you may also need to pass authorization details, additional metadata, and settings along with the query.
