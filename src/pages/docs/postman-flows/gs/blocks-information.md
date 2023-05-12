@@ -89,7 +89,7 @@ In Flows, information passes from one block to the next. This information could 
 
 You can resize, rename, and group blocks together in Postman Flows.
 
-To resize a block, select and drag the resizing handle in the block's lower right corner.
+To resize a block, select and drag the resizing handle in the block's lower-right corner.
 
 <img alt="Resize a block" src="https://assets.postman.com/postman-docs/v10/flows-resize-block-v10.jpg" width="300px">
 
