@@ -101,6 +101,6 @@ The final step is to send all this information back to the Slack app. First, sin
 
 ![Create Send Request block](https://assets.postman.com/postman-docs/v10/sending-to-slack-v10-1.gif)
 
-All that's left is hitting the **Deploy** button and trying it out in Slack!
+All that's left is selecting **Deploy** and trying it out in Slack!
 
 ![Create Send Request block](https://assets.postman.com/postman-labs-docs/cloud-execution/see-result-in-slack.gif)
