@@ -1,7 +1,7 @@
 ---
 title: "Making your first request with the GraphQL client"
 page_id: "graphql-client-first-request"
-updated: 2023-02-24
+updated: 2023-05-15
 contextual_links:
   - type: section
     name: "Prerequisites"

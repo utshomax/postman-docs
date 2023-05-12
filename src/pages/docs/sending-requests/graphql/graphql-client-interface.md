@@ -1,7 +1,7 @@
 ---
 title: "Using the GraphQL client interface"
 page_id: "graphql-client-interface"
-updated: 2023-02-24
+updated: 2023-05-15
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -60,9 +60,10 @@ GraphQL requests in Postman include a variety of tools, views, and controls to h
 
 ## Creating a new request
 
-You can create a new gRPC request from the Postman home screen, by using **New > gRPC**, or by selecting **+** to open a new tab.
+You can create a new GraphQL request from the Postman home screen, by using **New > GraphQL**, or by selecting **+** to open a new tab.
+ **+** to open a new tab.
 
-![Create a new gRPC request](https://assets.postman.com/postman-docs/v10/graphql-create-new-2-v10.jpg)
+![Create a new GraphQL request](https://assets.postman.com/postman-docs/v10/graphql-create-new-3-v10.jpg)
 
 Select **Save** to create your request.
 
@@ -73,6 +74,12 @@ You can use a GraphQL schema in your request to browse the available data fields
 <img src="https://assets.postman.com/postman-docs/v10/loading-schema-v10.gif" alt="Adding schema to the request">
 
 You can also choose to [load a GraphQL API from Postman](/docs/designing-and-developing-your-api/importing-an-api/) or [import a schema](/docs/getting-started/importing-and-exporting-data/) from your local system to use in the request.
+
+## Using a GraphQL mock server
+
+There may be times when you have your GraphQL schema ready, but you don't have access to a server to test it. In these cases, Postman can generate a GraphQL mock server that understands your schema and responds with mock values that match the shape and type of your requests. With mocks, you can start writing tests before the server's ready, collaborate on a suggested schema change, test out how a change may affect the frontend, and explore any other use cases you come up with.
+
+To create a mock GraphQL server, see [Using GraphQL mock servers](/docs/sending-requests/graphql/graphql-mock/)
 
 ## Understanding parts of the request interface
 
