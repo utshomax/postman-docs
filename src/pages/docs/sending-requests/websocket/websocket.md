@@ -51,7 +51,7 @@ In addition to raw WebSocket connections, Postman also supports Socket.IO connec
 
 You can create a WebSocket request from the sidebar in Postman.
 
-1. Select **New > WebSocket** to open a raw WebSocket request in new tab. You can also select **New > Socket.IO** to open a Socket.IO request in new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**.)
+1. Select **New > WebSocket** to open a raw WebSocket request in a new tab. You can also select **New > Socket.IO** to open a Socket.IO request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**.)
 
     <img src="https://assets.postman.com/postman-docs/v10/create-new-websocket-v10.jpg" alt="New WebSocket request" width="500px"/>
 

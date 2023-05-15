@@ -1,7 +1,7 @@
 ---
 title: "Using GraphQL with the HTTP request interface"
 page_id: "graphql-http"
-updated: 2023-02-24
+updated: 2023-05-15
 contextual_links:
   - type: section
     name: "Prerequisites"

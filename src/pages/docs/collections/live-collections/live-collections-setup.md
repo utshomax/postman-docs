@@ -19,7 +19,7 @@ To start using Live Collections, create a collection, then install the Postman S
 
 1. Select a framework. For Node.js, select **Express.js**, **Sails.js**, or **Fastify**. For Python, select **Flask**. For Go, select **Gin**.
 
-1. Install the Postman SDK in the application’s root directory. You're provided with a installation command that uses `npm`, `pip`, or `go get`. Copy the command and enter it on your server to install the SDK.
+1. Install the Postman SDK in the application’s root directory. You're provided with an installation command that uses `npm`, `pip`, or `go get`. Copy the command and enter it on your server to install the SDK.
 
     ![Live Collection install SDK](https://assets.postman.com/postman-docs/v10/live-collections-install-sdk.jpg)
 
