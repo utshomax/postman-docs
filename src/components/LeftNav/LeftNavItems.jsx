@@ -593,8 +593,8 @@ export const leftNavItems = [
         url: '/docs/collaborating-in-postman/roles-and-permissions/',
       },
       {
-        name: 'Requesting access',
-        url: '/docs/collaborating-in-postman/requesting-access-to-collections/',
+        name: 'Requesting access to elements',
+        url: '/docs/collaborating-in-postman/requesting-access-to-elements/',
       },
       {
         name: 'Sharing your work',
