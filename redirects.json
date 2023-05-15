@@ -2150,5 +2150,9 @@
   {
     "from": "/docs/getting-started/using-offline-api-client/",
     "to": "/docs/getting-started/using-api-client/"
+  },
+  {
+    "from": "/docs/collaborating-in-postman/requesting-access-to-collections/",
+    "to": "/docs/collaborating-in-postman/requesting-access-to-elements/"
   }
 ]
