@@ -33,7 +33,7 @@ const pageQuery = `{
           slug
         }
         excerpt(
-          pruneLength: 6700
+          pruneLength: 6500
         )
       }
     }
