@@ -57,7 +57,7 @@ The steps below walk you through the process of creating a mock server in Postma
 
 ### Step 1: Send a request
 
-In Postman, open a new request by selecting **+** or by selecting **New > HTTP Request**. Leave `GET` as the method, and for the request URL enter `https://postman-echo.com/get?test=123`. When ready, select **Send**.
+In Postman, open a new request by selecting **+** or by selecting **New > HTTP**. Leave `GET` as the method, and for the request URL enter `https://postman-echo.com/get?test=123`. When ready, select **Send**.
 
 This request calls the [Postman Echo](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) service which you can use to test REST or SOAP clients and make sample API calls. The resulting response displays in the response pane.
 
@@ -113,7 +113,7 @@ First, copy the mock server URL. Select **Mock Servers** in the sidebar, select 
 
 <img alt="Copy mock URL" src="https://assets.postman.com/postman-docs/mock-examples-step5a-v9-1.jpg" width="808px">
 
-Next, create a new request by selecting **+** or by selecting **New > HTTP Request**. Paste the mock URL into the new request and select **Send**.
+Next, create a new request by selecting **+** or by selecting **New > HTTP**. Paste the mock URL into the new request and select **Send**.
 
 <img alt="Mock server error response" src="https://assets.postman.com/postman-docs/v10/mock-examples-step5b-v10.jpg" width="750px">
 

@@ -428,7 +428,7 @@ When you are working on an API request, Postman highlights unresolved variables 
 
 To check if the variable is available and in scope for the request, do the following:
 
-1. Select one of the **collection** or **globals** links. To turn on an environment, use the **select an **environment** link.
+1. Select one of the **collection** or **globals** links. To turn on an environment, use the **select an environment** link.
 1. Turn on or make the necessary changes to the value of the variable.
 1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to confirm your changes.
 

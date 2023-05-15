@@ -79,7 +79,7 @@ Select **Create Workspace** and Postman will open your new workspace. You can ad
 
 To create a new workspace, you can select __New__ above the sidebar, then select __Workspace__ and follow the same steps.
 
-[![Create workspace using New](https://assets.postman.com/postman-docs/create-workspace-new-button-v9.jpg)](https://assets.postman.com/postman-docs/create-workspace-new-button-v9.jpg)
+<img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-new-workspace-v10.jpg" width="500px"/>
 
 You can also create a new workspace in the [Workspaces dashboard](https://app.getpostman.com/dashboard). Select **New workspace** and follow the same steps.
 
