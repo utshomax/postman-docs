@@ -468,7 +468,7 @@ export const leftNavItems = [
             url: '/docs/postman-flows/gs/flows-overview/',
           },
           {
-            name: 'About blocks and messages',
+            name: 'About blocks',
             url: '/docs/postman-flows/gs/blocks-information/',
           },
           {
