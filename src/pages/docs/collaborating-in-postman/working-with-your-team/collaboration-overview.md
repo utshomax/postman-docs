@@ -31,12 +31,24 @@ To get the most out of Postman's collaboration features, [create](#creating-a-te
 
 ## Contents
 
+* [About accounts and teams](#about-accounts-and-teams)
 * [Creating a team](#creating-a-team)
 * [Joining a team](#joining-a-team)
 * [Switching between teams](#switching-between-teams)
 * [Leaving a team](#leaving-a-team)
 * [Team usage limits](#team-usage-limits)
 * [Next steps](#next-steps)
+
+## About accounts and teams
+
+When you sign up for Postman as an individual, you create a [Postman account](/docs/getting-started/postman-account/). If you [join a Postman team](#joining-a-team), you can decide to either move your workspaces and transfer ownership to the team or keep your workspaces separate and maintain ownership of them in your personal account. This decision affects your account:
+
+* When you move your workspaces to a team, your account will cease to exist and you'll only have the option to switch between teams, rather than work in a personal account.
+* When you keep your workspaces, you'll retain your account and you can switch between the team and your personal account at any time.
+
+In certain cases, your personal workspaces and the data within them automatically transfer when you join a team. For more information, see [Joining a team](#joining-a-team).
+
+When you [leave a team](#leaving-a-team), a [Postman account](/docs/getting-started/postman-account/) is created for you if you don't already have one. If you as a user are deactivated through SCIM and you are a member of other teams, you will still have access to the personal account and other teams you are a member of. If you are not a member of any other team and do not have a personal account, you will not be able to authenticate into that account, and will need to contact support.
 
 ## Creating a team
 

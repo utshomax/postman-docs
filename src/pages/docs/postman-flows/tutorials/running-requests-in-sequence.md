@@ -30,15 +30,13 @@ If you have several requests that have no dependency on each other but have to b
 
    Select **+ Block** on the toolbar and select the **Send Request** block from the list to add it to your canvas, then select the request. Repeat this until all the requests are added to the canvas.
 
-   ![running requests add](https://assets.postman.com/postman-labs-docs/running-requests/updated-running-add-requests.gif)
+    ![Adding sequential requests](https://assets.postman.com/postman-docs/v10/updated-running-add-requests-v10-1.gif)
 
 1. **Connect the send events**
 
    Select the dot (success output) of the source block and connect it to the send input of the target block in the order you want the requests to execute.
 
-   ![Connect send events](https://assets.postman.com/postman-labs-docs/running-requests/updated-running-connect-send-events.gif)
-
-   Here, a POST request is executed and once the request has completed, the PUT request endpoint is called, and then a GET request is called.
+   ![Connect send events](https://assets.postman.com/postman-docs/v10/updated-running-connect-send-events-v10.gif)
 
    <!-- vale Postman.ComplexWords = NO -->
    > **Important**
@@ -52,6 +50,6 @@ If you have several requests that have no dependency on each other but have to b
 
    Start the flow and see the requests run in the order they're configured:
 
-   ![Start the flow](https://assets.postman.com/postman-labs-docs/running-requests/updated-running-run-with-send-events.gif)
+   ![Start the flow](https://assets.postman.com/postman-docs/v10/updated-running-run-with-send-events-v10.gif)
 
-If you want to use data from one request in another request, you can learn how to do so in [Chaining requests with data](/docs/postman-flows/flows-intro/chaining-requests-with-data/).
+If you want to use data from one request in another request, you can learn how to do so in [Passing data between blocks](/docs/postman-flows/tutorials/passing-data-between-blocks/).
