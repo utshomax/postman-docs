@@ -208,8 +208,31 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Querying with GraphQL',
-        url: '/docs/sending-requests/graphql/graphql/',
+        name: 'Using GraphQL requests',
+        subParentSlug: 'graphql',
+        slug: '/docs/sending-requests/graphql/graphql-overview/',
+        subMenuItems2: [
+          {
+            name: 'GraphQL overview',
+            url: '/docs/sending-requests/graphql/graphql-overview/',
+          },
+          {
+            name: 'About the GraphQL client',
+            url: '/docs/sending-requests/graphql/graphql-client-overview/',
+          },
+          {
+            name: 'Using the GraphQL interface',
+            url: '/docs/sending-requests/graphql/graphql-client-interface/',
+          },
+          {
+            name: 'Making your first request with the GraphQL client',
+            url: '/docs/sending-requests/graphql/graphql-client-first-request/',
+          },
+          {
+            name: 'Using GraphQL with the HTTP request interface',
+            url: '/docs/sending-requests/graphql/graphql-http/',
+          },
+        ]
       },
       {
         name: 'Using gRPC requests',
