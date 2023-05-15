@@ -1,8 +1,8 @@
 ---
-title: "Requesting access"
+title: "Requesting access to elements"
 order: 73
-page_id: "requesting-access-to-collections"
-updated: 2022-02-24
+page_id: "requesting-access-to-elements"
+updated: 2023-05-15
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -28,20 +28,33 @@ warning: false
 
 ---
 
-By default, you can view Postman elements in [workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) that you share with your team. If you need to edit an element, such as a collection, API, environment, mock server, or monitor, you can request [Editor role](/docs/collaborating-in-postman/roles-and-permissions/) access.
+By default, you can view [workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) and the Postman elements in them that are shared with your team. If you need to edit an element, such as a workspace, collection, API, environment, mock server, or monitor, you can request [Editor role](/docs/collaborating-in-postman/roles-and-permissions/) access.
 
-To request Editor access for an element, you first need to join or get invited to the [shared workspace](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) that has the element, or be an [external user with permission to view a collection](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections). After you submit a request for access, the owner of the element will receive a notification asking them to approve the request.
+To request role access for an element, you first need to join or get invited to the [shared workspace](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) that has the element, or be an [external user with permission to view a collection](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections). After you submit a request for access, your teammates with Admin access for the workspace or Editor access for the API, collection, environment, mock server, or monitor will receive a notification requesting their approval.
 
 > Roles and permissions are available depending on your [Postman plan](https://www.postman.com/pricing).
 
 ## Contents
 
-* [Requesting Editor role access](#requesting-editor-role-access)
+* [Requesting role access for workspaces](#requesting-role-access-for-workspaces)
+* [Requesting Editor role access for elements](#requesting-editor-role-access-for-elements)
     * [Requesting Editor role access for an element](#requesting-editor-role-access-for-an-element)
     * [Requesting Editor role access for a collection as an external user](#requesting-editor-role-access-for-a-collection-as-an-external-user)
 * [Approving requests for access](#approving-requests-for-access)
 
-## Requesting Editor role access
+## Requesting role access for workspaces
+
+You can request Editor access for a workspace to gain [additional permissions](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
+
+To request an Editor role, open the workspace overview, then select **Request to Edit** in the upper-right corner. Alternatively, you can request access when you attempt to create an element in the workspace by selecting the create new icon <img alt="Create new icon" src="https://assets.postman.com/postman-docs/v10/icon-pin-collection-v10.14.0.jpg#icon" width="16px"> in the left sidebar.
+
+<img alt="Request workspace editor role" src="https://assets.postman.com/postman-docs/v10/request-workspace-editor-role-v10.14.0.jpg" width="400">
+
+You can add a note to the Workspace Admins, then select **Request Access**.
+
+Workspace Admins will receive an in-app and email notification detailing your request. When it's approved or denied, you'll be notified in-app and by email of their response.
+
+## Requesting Editor role access for elements
 
 If you can view an element in a workspace but can't edit it, there is a lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> next to the name of the collection, API, environment, mock server, or monitor.
 
@@ -65,7 +78,7 @@ If you can view an element in a workspace but can't edit it, there is a lock ico
 
 1. Select **Request Access**.
 
-Postman will send an email notification to the person you selected. Once they approve your request, you will also get notified by email. Your request will expire after 15 days, after which you can request access again.
+Postman will send an in-app and email notification to the person you selected. Once they approve your request, you will also get notified in-app and by email. Your request will expire after 15 days, after which you can request access again.
 
 ### Requesting Editor role access for a collection as an external user
 
@@ -83,6 +96,8 @@ Postman will send in-app and email notifications to team members with Editor rol
 
 ## Approving requests for access
 
-If you're an Editor on a Postman element like an API, collection, environment, mock server, or monitor, you may receive a request to give a teammate access to it.
+If you're an Admin of a workspace or an Editor of an API, collection, environment, mock server, or monitor, you may receive a request to give a teammate role access.
 
-When a teammate requests Editor role access, you will receive an email that details the request. Select **Approve Request** if you want to give your teammate Editor role access to the collection, API, environment, mock server, or monitor. If you don't want to give Editor access, you can ignore the request. The request will expire after 15 days.
+When a teammate requests Editor role access for an API, collection, environment, mock server, or monitor, you'll receive an in-app and email notification that details the request. Select **Approve Request** if you want to give your teammate Editor role access to the collection, API, environment, mock server, or monitor. If you don't want to give Editor access, you can ignore the request. The request will expire after 15 days.
+
+When a teammate requests Editor role access for a workspace, you'll receive an in-app and email notification detailing the request. Select **Respond to Request** to open the workspace settings. You can select the role you'd like to give the user, then **Approve** or **Deny** the request.
