@@ -67,7 +67,7 @@ When you're ready, open Postman and send your first request.
 
 Postman displays the response data sent from the server in the lower pane.
 
-<img alt="Sending a request" src="https://assets.postman.com/postman-docs/first-request-sent-v9-4.jpg" width="716px">
+<img alt="Sending a request" src="https://assets.postman.com/postman-docs/v10/send-first-request-v10.jpg" width="716px">
 
 ### What happened?
 
