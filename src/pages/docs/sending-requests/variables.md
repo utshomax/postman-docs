@@ -260,7 +260,7 @@ To create or edit a variable for an existing collection, do the following:
 
 ![Edit Collection](https://assets.postman.com/postman-docs/v10/collection-variables-v10-10.jpg)
 
-> If you don't have Editor access to a collection, you can select __Request Access__. Without Editor access, you won't be able to add new collection variables, update initial values, or persist values. You can edit the current value for local use, override the collection variable by using an environment variable with the same name, or [request Editor access](/docs/collaborating-in-postman/requesting-access-to-collections/) to the collection.
+> If you don't have Editor access to a collection, you can select __Request Access__. Without Editor access, you won't be able to add new collection variables, update initial values, or persist values. You can edit the current value for local use, override the collection variable by using an environment variable with the same name, or [request Editor access](/docs/collaborating-in-postman/requesting-access-to-elements/) to the collection.
 
 You can also [define collection variables in scripts](#defining-variables-in-scripts).
 

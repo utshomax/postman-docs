@@ -50,7 +50,7 @@ Postman has a variety of tools, views, and controls to help you manage your API 
     * [Environment selector and environment quick look](#environment-selector-and-environment-quick-look)
 * [Footer](#footer)
 
-<img alt="Postman app" src="https://assets.postman.com/postman-docs/v10/postman-desktop-app-v10.14.jpg"/>
+<img alt="Postman app" src="https://assets.postman.com/postman-docs/v10/navigating-postman-v10.jpg"/>
 
 ## Header
 

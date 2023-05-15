@@ -94,6 +94,10 @@ export const leftNavItems = [
         url: '/docs/getting-started/about-postman-agent/',
       },
       {
+        name: 'Using the lightweight API Client',
+        url: '/docs/getting-started/using-api-client/',
+      },
+      {
         name: 'Using the Scratch Pad',
         url: '/docs/getting-started/using-scratch-pad/',
       },
@@ -112,6 +116,10 @@ export const leftNavItems = [
       {
         name: 'Using a custom proxy',
         url: '/docs/getting-started/proxy/',
+      },
+      {
+        name: 'About the Postman VS Code extension',
+        url: '/docs/getting-started/about-vs-code-extension/',
       },
       {
         name: 'Troubleshooting app issues',
@@ -589,8 +597,8 @@ export const leftNavItems = [
         url: '/docs/collaborating-in-postman/roles-and-permissions/',
       },
       {
-        name: 'Requesting access',
-        url: '/docs/collaborating-in-postman/requesting-access-to-collections/',
+        name: 'Requesting access to elements',
+        url: '/docs/collaborating-in-postman/requesting-access-to-elements/',
       },
       {
         name: 'Sharing your work',
