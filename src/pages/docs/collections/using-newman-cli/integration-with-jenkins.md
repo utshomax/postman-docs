@@ -1,7 +1,5 @@
 ---
 title: "Integrating with Jenkins"
-order: 64
-page_id: "integration_with_jenkins"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -29,7 +27,6 @@ contextual_links:
     name: "Postman API documentation"
     url: "/docs/developer/postman-api/intro-api/"
 
-warning: false
 tags:
   - "newman"
 updated: 2022-01-14
