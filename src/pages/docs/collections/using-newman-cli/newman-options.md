@@ -28,7 +28,6 @@ contextual_links:
     name: "Postman API documentation"
     url: "/docs/developer/postman-api/intro-api/"
 
-warning: false
 tags:
   - "newman"
 
