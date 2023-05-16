@@ -60,8 +60,7 @@ GraphQL requests in Postman include a variety of tools, views, and controls to h
 
 ## Creating a new request
 
-You can create a new GraphQL request from the Postman home screen, by using **New > GraphQL**, or by selecting **+** to open a new tab.
- **+** to open a new tab.
+You can create a new GraphQL request from a workspace, by using **New > GraphQL**, or by selecting **+** to open a new tab.
 
 ![Create a new GraphQL request](https://assets.postman.com/postman-docs/v10/graphql-create-new-3-v10.jpg)
 
