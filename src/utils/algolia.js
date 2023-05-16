@@ -11,10 +11,10 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-const algoliaIndex = (process.env.NODE_ENV === 'development') ? 'dev_docs' : 'docs';
+const algoliaIndex = (process.env.NODE_ENV === 'development') ? 'dev_docs' : 'dev_docs';
 
 const pageQuery = `{
-  docs: allMarkdownRemark(
+  allMarkdownRemark(
     filter: {
       fileAbsolutePath: { regex: "/docs/" },
     }
@@ -32,16 +32,37 @@ const pageQuery = `{
         fields {
           slug
         }
-        excerpt(
-          pruneLength: 6500
-        )
+        html
+        rawMarkdownBody
       }
     }
   }
 }`;
 
+// manipulate the raw body into many more records
+const handleRawBody = (node) => { 
+  const {id, rawMarkdownBody, ...rest} = node; // split internal.content from node
+  const sections = rawMarkdownBody.split('\n\n##'); // split records into paragraph
+  
+  // returns an object with specific content on that key, results stay associated with correct post
+  const records = sections.map(section => ({ 
+    objectID: id,
+    ...rest,
+    content: section,
+  }))
 
-function pageToAlgoliaRecord({ node: { id, frontmatter, ...rest } }) {
+  return records; // returns array of correctly split objects
+}
+
+// function pageToAlgoliaRecord({ node: { id, frontmatter, ...rest } }) {
+//   return {
+//     objectID: id,
+//     ...frontmatter,
+//     ...rest,
+//   };
+// }
+const pageToAlgoliaRecord = node => {
+  const { id, frontmatter, ...rest } = node;
   return {
     objectID: id,
     ...frontmatter,
@@ -49,14 +70,59 @@ function pageToAlgoliaRecord({ node: { id, frontmatter, ...rest } }) {
   };
 }
 
-const settings = { attributesToSnippet: ['excerpt:20'] };
+// const queries = [
+//   {
+//     query: pageQuery,
+//     transformer: ({ data }) => 
+//       data.allMarkdownRemark.edges
+//         .map(edge => edge.node)
+//         .map(pageToAlgoliaRecord)
+//         .map(handleRawBody)
+//         .flatMap((x) => [x], []),
+//         // .reduce((acc, cur) => [...acc, ...cur], []),
+//     indexName: algoliaIndex,
+//     settings: {
+//       attributesToSnippet: ['excerpt:20'],
+//       attributeForDistinct: 'slug',
+//       distinct: true,
+//     },
+//   },
+// ];
 
 const queries = [
   {
     query: pageQuery,
-    transformer: ({ data }) => data.docs.edges.map(pageToAlgoliaRecord),
+    transformer: ({ data }) => {
+      // data.allMarkdownRemark.edges
+      //   .map(edge => edge.node)
+      //   .map(pageToAlgoliaRecord)
+      //   .map(handleRawBody)
+      //   .flatMap((x) => [x], []),
+        // .reduce((acc, cur) => [...acc, ...cur], []),
+        return data.allMarkdownRemark.edges.map(edge => edge.node).reduce((indeces, post) => {
+          
+          const pChunks = post.rawMarkdownBody.split('\n\n##');
+          
+          const chunks = pChunks.map(chnk => ({
+            objectID: post.id,
+            headings: post.headings,
+            fields: post.fields.slug,
+            title: post.frontmatter.title,
+            content: chnk
+          }));
+
+    console.log('chunks -------------------------------------------------------', chunks)
+          const filtered = chunks.filter(chnk => !!chnk.content);
+          
+          return [...indeces, ...filtered]
+        }, [])
+    },
     indexName: algoliaIndex,
-    settings,
+    // settings: {
+      // attributesToSnippet: ['excerpt:20'],
+      // attributeForDistinct: 'slug',
+      // distinct: true,
+    // },
   },
 ];
 
