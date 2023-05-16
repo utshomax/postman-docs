@@ -11,7 +11,7 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-const algoliaIndex = (process.env.NODE_ENV === 'development') ? 'dev_docs' : 'dev_docs';
+const algoliaIndex = (process.env.NODE_ENV === 'development') ? 'docs-testing' : 'docs-testing';
 
 const pageQuery = `{
   allMarkdownRemark(
@@ -21,10 +21,10 @@ const pageQuery = `{
   ) {
     edges {
       node {
+        id
         headings(depth: h2) {
           value
         }
-        id
         frontmatter {
           title
           search_keyword
@@ -32,7 +32,6 @@ const pageQuery = `{
         fields {
           slug
         }
-        html
         rawMarkdownBody
       }
     }
@@ -99,9 +98,9 @@ const queries = [
       //   .map(handleRawBody)
       //   .flatMap((x) => [x], []),
         // .reduce((acc, cur) => [...acc, ...cur], []),
-        return data.allMarkdownRemark.edges.map(edge => edge.node).reduce((indeces, post) => {
-          
-          const pChunks = post.rawMarkdownBody.split('\n\n##');
+       return data.allMarkdownRemark.edges.map(edge => edge.node).reduce((indeces, post) => {
+          // console.log('post ', post)
+          const pChunks = post.rawMarkdownBody.split('##');
           
           const chunks = pChunks.map(chnk => ({
             objectID: post.id,
@@ -111,10 +110,9 @@ const queries = [
             content: chnk
           }));
 
-    console.log('chunks -------------------------------------------------------', chunks)
-          const filtered = chunks.filter(chnk => !!chnk.content);
-          
-          return [...indeces, ...filtered]
+          // const filtered = chunks.filter(chnk => !!chnk.content);
+          console.log('------------------------------------------------------------', chunks)
+          return [...indeces, ...chunks]
         }, [])
     },
     indexName: algoliaIndex,

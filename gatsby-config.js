@@ -145,7 +145,7 @@ module.exports = {
         queries,
         chunkSize: 10000, // default: 1000
         enablePartialUpdates: true, // only index new, changed, deleted records
-        // matchFields: ['excerpt', 'contextual_links', 'search_keyword', 'headings', 'fields', 'modified', 'content'],
+        matchFields: ['excerpt', 'contextual_links', 'search_keyword', 'headings', 'fields', 'modified', 'content', 'objectID', 'content'],
         concurrentQueries: false,
       },
     },

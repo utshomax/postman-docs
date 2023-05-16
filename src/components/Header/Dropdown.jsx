@@ -14,7 +14,7 @@ import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
 import { CustomHits } from '../Search/searchPreview.jsx';
 
   const searchOnlyKey = process.env.NODE_ENV === 'development' ? '003daeb8de202d4a917c2395628d75a8' : '69f2c5376f1a90912c6c3b6b772c25bc';
-  const algoliaIndex = process.env.NODE_ENV === 'development' ? 'dev_docs' : 'dev_docs';
+  const algoliaIndex = process.env.NODE_ENV === 'development' ? 'docs-testing' : 'docs-testing';
 
 
   /* Algolia Search Bar */
