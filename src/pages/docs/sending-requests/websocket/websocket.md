@@ -166,6 +166,14 @@ You can add details to your request, for example to send more parameters and hea
 
 > You can't change request details while you are connected. You must make any changes before you connect, or select **Disconnect** to stop the current connection.
 
+### Selecting protocols
+
+You can change the protocol for a new request. Select **New** in the sidebar and then select a request protocol, or select **+** to open a new tab. Select the protocol dropdown menu to the left of the request's name, and then select a different request protocol.
+
+> You can't change the request protocol after you select **Save**.
+
+![Select protocol](https://assets.postman.com/postman-docs/v10/select-protocol-v10.gif)
+
 ### Sending parameters
 
 On the **Params** tab, add any parameters you would like to append to the WebSocket URL. This works similarly to [sending parameters](/docs/sending-requests/requests/#sending-parameters) in a REST request.
