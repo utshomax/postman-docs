@@ -5,11 +5,6 @@ updated: 2021-06-17
 page_id: "newman_with_docker"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Command-line integration with Newman"
-    url: "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Blog posts"

@@ -3,14 +3,6 @@ title: "CI with Postman API"
 updated: 2022-05-23
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: link
-    name: "Command-line integration with Newman"
-    url: "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

@@ -4,11 +4,6 @@ updated: 2022-05-23
 search_keyword: "newman run"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Using the Collection Runner"
-    url: "/docs/collections/running-collections/intro-to-collection-runs/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

@@ -5,11 +5,6 @@ page_id: "sharing"
 updated: 2023-02-22
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Working with your team"
-    url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

@@ -4,11 +4,6 @@ order: 64
 page_id: "integration_with_jenkins"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Command-line integration with Newman"
-    url: "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

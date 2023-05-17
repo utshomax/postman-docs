@@ -5,11 +5,6 @@ updated: 2021-09-30
 page_id: "creating_workspaces"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Working with your team"
-    url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

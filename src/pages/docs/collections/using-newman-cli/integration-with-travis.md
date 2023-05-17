@@ -5,11 +5,6 @@ page_id: "integration_with_travis"
 updated: 2022-1-14
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Running collections on the command line with Newman"
-    url: "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Blog posts"

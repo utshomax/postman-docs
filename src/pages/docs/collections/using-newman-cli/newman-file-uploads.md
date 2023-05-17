@@ -3,11 +3,6 @@ title: "Uploading files in Newman"
 updated: 2022-05-23
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Using the Collection Runner"
-    url: "/docs/collections/running-collections/intro-to-collection-runs/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
