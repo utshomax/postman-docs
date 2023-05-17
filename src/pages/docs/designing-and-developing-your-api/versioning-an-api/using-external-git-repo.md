@@ -1,6 +1,6 @@
 ---
 title: 'Using a remote Git repository'
-updated: 2023-03-15
+updated: 2023-05-17
 search_keyword: "whitelist, whitelist IP"
 contextual_links:
   - type: section
