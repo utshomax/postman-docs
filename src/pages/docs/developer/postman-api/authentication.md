@@ -6,7 +6,7 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Postman API overview"
+    name: "Postman API documentation"
     url: "/docs/developer/postman-api/intro-api/"
   - type: section
     name: "Additional resources"

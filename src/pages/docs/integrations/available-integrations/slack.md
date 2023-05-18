@@ -21,11 +21,6 @@ contextual_links:
     name: "Blog posts"
     blog_tag: "slack"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Radio Canada uses Postman's Slack integration for notifications"
-    url: "https://www.postman.com/case-studies/radio-canada/"
-  - type: subtitle
     name: "Public workspaces"
   - type: link
     name: "Postman Loves Slack"

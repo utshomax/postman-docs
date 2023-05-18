@@ -1,8 +1,6 @@
 ---
 title: "Newman with Docker"
-order: 61
 updated: 2021-06-17
-page_id: "newman_with_docker"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -19,10 +17,9 @@ contextual_links:
   - type: section
     name: "Next steps"
   - type: link
-    name: "Postman API overview"
+    name: "Postman API documentation"
     url: "/docs/developer/postman-api/intro-api/"
 
-warning: false
 tags:
   - "newman"
 

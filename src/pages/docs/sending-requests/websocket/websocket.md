@@ -1,7 +1,6 @@
 ---
 title: "Using WebSocket requests"
 updated: 2022-08-02
-search_keyword: "WebSocket, websockets, WebSocket requests, Socket.IO"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -52,11 +51,10 @@ In addition to raw WebSocket connections, Postman also supports Socket.IO connec
 
 You can create a WebSocket request from the sidebar in Postman.
 
-1. Select  **New > WebSocket Request** to open a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**.)
+1. Select **New > WebSocket** to open a raw WebSocket request in a new tab. You can also select **New > Socket.IO** to open a Socket.IO request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**.)
 
-    [![New Screen](https://assets.postman.com/postman-docs/new-request-websocket-v91.jpg)](https://assets.postman.com/postman-docs/new-request-websocket-v91.jpg)
+    <img src="https://assets.postman.com/postman-docs/v10/create-new-websocket-v10.jpg" alt="New WebSocket request" width="500px"/>
 
-1. Using the dropdown list in the request tab, select either **Raw** for a raw WebSocket request, or **Socket.IO** for a Socket.IO request.
 1. Enter the WebSocket server URL. A WebSocket URL begins with `ws://` or `wss://`.
 
     <img alt="WebSocket URL" src="https://assets.postman.com/postman-docs/v10/websocket-server-url-v10.jpg" width="600px"/>
@@ -70,7 +68,7 @@ You can create a WebSocket request from the sidebar in Postman.
 
 After making a WebSocket connection, you can use the editor pane to compose and send messages.
 
-[![WebSocket message editor](https://assets.postman.com/postman-docs/websocket-message-editor.jpg)](https://assets.postman.com/postman-docs/websocket-message-editor.jpg)
+![WebSocket message editor](https://assets.postman.com/postman-docs/websocket-message-editor.jpg)
 
 In the bottom left corner of the editor, you can select the format of your message: **Text**, **JSON**, **XML**, **HTML**, or **Binary**. If you select **Binary**, you can then select **Base64** or **Hexadecimal**. The editor has syntax highlighting according to the selected format. You can also select **{}** to beautify JSON, XML, or HTML messages.
 
@@ -116,7 +114,7 @@ The **Messages** pane displays a list of messages for the WebSocket connection, 
 
 At the top of the message pane is a connection details badge. It shows if the connection is connecting, connected, disconnecting, or disconnected. Hover over the badge to show details on the connection. Select the arrow next to the badge to show or hide messages.
 
-[![WebSocket messages](https://assets.postman.com/postman-docs/websocket-messages.jpg)](https://assets.postman.com/postman-docs/websocket-messages.jpg)
+![WebSocket messages](https://assets.postman.com/postman-docs/websocket-messages.jpg)
 
 The **Messages** pane has the following controls:
 
@@ -127,7 +125,7 @@ The **Messages** pane has the following controls:
 The following are displayed for each message:
 
 * If you hover over a message, a checkbox is displayed. Select the checkboxes for two messages, and the time difference between the messages will be displayed. Select **Deselect** to remove the time display.
-  [![WebSocket time difference](https://assets.postman.com/postman-docs/websocket-time-difference.gif)](https://assets.postman.com/postman-docs/websocket-time-difference.gif)
+  ![WebSocket time difference](https://assets.postman.com/postman-docs/websocket-time-difference.gif)
 * Select the arrow next to a message to expand or collapse it.
 * The time is displayed as your local time.
 * If you hover over the time of a raw Socket.IO message, an information icon is displayed. Hover over it for the time, MIME type, and size of the message.
@@ -140,7 +138,7 @@ In an expanded message:
 * Select **Show Hexdump** or **Show Message** to show the message in hex or text.
 * Use the search control to search the body of the message.
 * Hover over a line number and select the arrow to expand or collapse message blocks.
-[![WebSocket message body](https://assets.postman.com/postman-docs/websocket-message-body.jpg)](https://assets.postman.com/postman-docs/websocket-message-body.jpg)
+![WebSocket message body](https://assets.postman.com/postman-docs/websocket-message-body.jpg)
 
 ### Event listening in Socket.IO
 
@@ -148,11 +146,11 @@ In Socket.IO, you have the ability to listen to specific events. The **Messages*
 
 The **Listeners** pane shows listener events. To listen to a new event, enter the name of an event and select **+** to add it. Select the toggle next to an event to turn listening on or off for that event. If you hover over the toggle, you can delete the event listener.
 
-[![Socket.IO message body](https://assets.postman.com/postman-docs/socketio-message-body.jpg)](https://assets.postman.com/postman-docs/socketio-message-body.jpg)
+![Socket.IO message body](https://assets.postman.com/postman-docs/socketio-message-body.jpg)
 
 Messages will indicate if they have multiple arguments. When you expand the message, it will have tabs for each argument.
 
-[![WebSocket message body](https://assets.postman.com/postman-docs/socketio-message-with-args.jpg)](https://assets.postman.com/postman-docs/socketio-message-with-args.jpg)
+![WebSocket message body](https://assets.postman.com/postman-docs/socketio-message-with-args.jpg)
 
 Prior to making a connection, you can also add events in the **Events** tab. This enables you to add a description for each event and select if the event will listen when the connection is made.
 

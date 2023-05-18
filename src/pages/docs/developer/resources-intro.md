@@ -1,8 +1,6 @@
 ---
 title: "Developing with Postman utilities"
-order: 145
 updated: 2022-07-20
-page_id: "resources_intro"
 search_keyword: "postman-api-key, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset"
 contextual_links:
   - type: section
@@ -20,11 +18,8 @@ contextual_links:
   - type: section
     name: "Next steps"
   - type: link
-    name: "Postman API overview"
+    name: "Postman API documentation"
     url: "/docs/developer/postman-api/intro-api/"
-
-warning: false
-
 ---
 
 You can use a variety of Postman developer resources in your projects, including APIs and libraries. You can use and contribute to Postman's [open-source](https://www.postman.com/open-philosophy/) projects on [GitHub](https://github.com/postmanlabs).

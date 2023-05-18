@@ -1,6 +1,14 @@
 ---
 title: "Introduction to FQL"
 updated: 2022-11-17
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Flows Query Language (FQL) | Postman Flows"
+    url:  "https://youtu.be/4KDQM8gv7PM"
 ---
 
 _Flows Query Language_ (FQL) can be used to parse and transform JSON data to get the fields and structure you want.

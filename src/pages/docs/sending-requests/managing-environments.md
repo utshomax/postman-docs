@@ -36,9 +36,6 @@ contextual_links:
   - type: link
     name: "Hathway uses separate environments for each client"
     url: "https://www.postman.com/case-studies/hathway/"
-  - type: link
-    name: "VideoAmp uses environments to test updates"
-    url: "https://www.postman.com/case-studies/videoamp/"
   - type: section
     name: "Next steps"
   - type: link
@@ -218,7 +215,7 @@ You can share environments to personal, private, team, and public workspaces tha
 
 > Refer to [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) for information on workspace access control within your team.
 
-Select the workspace, then **Move**  **Environment**.
+Select the workspace, then **Move Environment**.
 
 <img alt="Move environment" src="https://assets.postman.com/postman-docs/move-environment-v9.1.jpg" width="400px"/>
 

@@ -71,6 +71,8 @@ Anyone with permissions to change workspace visibility can request to convert a 
 
 Before sharing a Partner Workspace with external collaborators, you can set your partnership up for success by moving or forking relevant elements into it.
 
+You can also use workspace templates to help set up a new partner workspace. For more information, see [Creating workspaces with a template](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template).
+
 ### Moving elements to a Partner Workspace
 
 You must be an Editor on an API, collection, or environment, the Workspace Admin, Partner Manager, or a Super Admin to move an element to a Partner Workspace.

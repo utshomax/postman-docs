@@ -119,6 +119,7 @@ setTimeout(function(){
           function gtag(){dataLayer.push(arguments);}
           window.gtag = gtag;
           gtag('js', new Date());
+          gtag('config', '${UACode}');
           window.pmt('ga', ['${UACode}', sitename]);
           window.pmt('log', ['initialized GA: ' + sitename + ' (' + '${UACode}' + ')']);
           window._iaq = window._iaq || {};

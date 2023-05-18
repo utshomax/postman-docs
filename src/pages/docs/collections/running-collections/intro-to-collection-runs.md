@@ -29,9 +29,6 @@ contextual_links:
   - type: link
     name: "Lightspeed uses a collection runner to improve testing and QA times"
     url: "https://www.postman.com/case-studies/lightspeed-commerce/"
-  - type: link
-    name: "iQmetrix uses a collection runner to automate tasks in other systems"
-    url: "https://www.postman.com/case-studies/iqmetrix/"
 ---
 
 The _Collection Runner_ enables you to run a collection's requests in a specified sequence. It logs your request [test results](/docs/writing-scripts/test-scripts/) and can use [scripts](/docs/writing-scripts/intro-to-scripts/) to pass data between requests and alter the request workflow.

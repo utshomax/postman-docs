@@ -3,7 +3,6 @@ title: "Using Postman Interceptor"
 order: 34
 page_id: "interceptor"
 updated: 2022-03-02
-search_keyword: "pm.interceptorInstaller.reset, interceptorInstaller.reset, pm.interceptorBridge.setKey, interceptorBridge.setKey"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -22,11 +21,6 @@ contextual_links:
   - type: link
     name: "Postman Interceptor: The Next Generation View Source for The API Economy"
     url:  "https://blog.postman.com/postman-interceptor-the-next-generation-view-source-for-the-api-economy/"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "VideoAmp uses Postman Interceptor to identify UI and browser errors"
-    url: "https://www.postman.com/case-studies/videoamp/"
 
 warning: false
 
