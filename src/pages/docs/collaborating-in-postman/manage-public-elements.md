@@ -1,7 +1,7 @@
 ---
 title: "Managing public elements"
 order: 76.1
-updated: 2022-08-02
+updated: 2023-05-17
 page_id: "manage_public_elements"
 warning: false
 contextual_links:
@@ -35,7 +35,8 @@ The [Manage public elements](https://blog.postman.com/govern-your-public-api-col
 * [Managing public elements](#managing-public-elements)
     * [Workspaces](#workspaces)
     * [Public documentation](#public-documentation)
-    * [Collection JSON links](#collection-json-links)
+    * [Collection JSON Links](#collection-json-links)
+    * [Collection Access Links](#collection-access-links)
 
 ### Managing public elements
 
@@ -57,11 +58,11 @@ To respond to the request, hover over the relevant line, then select **Respond**
 
 The dashboard's **Documentation** tab displays all the collections with published documentation. Use the search box to filter by the publisher. Along with the collection name and environment name, you can view the date the documentation was published on, who published it, and the documentation URL.
 
-You can also view and respond to requests to make documentation public. To approve or deny a publish request, hover over a request and select **Respond**. Select **Approve** to [publish the documentation](/docs/publishing-your-api/publishing-your-docs/) and make it public, or select **Deny** to keep the documentation private.
+You can also view and respond to requests to make documentation public. To approve or deny a publish request, hover over a request and select **Review Request**. Select **Approve** to [publish the documentation](/docs/publishing-your-api/publishing-your-docs/) and make it public, or select **Deny** to keep the documentation private.
 
 <img alt="Responding to publish requests" src="https://assets.postman.com/postman-docs/request-publish-documentation-v9-26.jpg"/>
 
-#### Collection JSON links
+#### Collection JSON Links
 
 > Sharing collection JSON files using a public link has been deprecated. No new links can be generated and existing links can't be modified or edited. Users can still access any existing collection JSON links.
 >
@@ -70,3 +71,13 @@ You can also view and respond to requests to make documentation public. To appro
 The dashboard's **Collection JSON Links** tab displays all the collections with existing JSON links.
 
 As a Community Manager, you can view or delete a collection JSON link. In addition to the collection name, the dashboard displays more information about the date the link was updated on, who updated the link, and the JSON link.
+
+#### Collection Access Links
+
+The dashboard's **Collection Access Links** tab displays the setting to enable or disable the creation of [Collection Access Keys](/docs/developer/postman-api/authentication/#generate-a-collection-access-key) in your team. You can choose whether teams have the ability to share their collections with anyone, even users outside of the team.
+
+If you disable this setting, Postman displays a confirmation window. Select **Revoke All Keys** to remove all of your team's existing Collection Access Keys.
+
+> This action also prevents users from creating new Collection Access Keys.
+
+<img alt="Revoke collection access keys confirmation prompt" src="">
