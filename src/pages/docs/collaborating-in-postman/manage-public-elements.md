@@ -78,6 +78,4 @@ The dashboard's **Collection Access Links** tab displays the setting to enable o
 
 If you disable this setting, Postman displays a confirmation window. Select **Revoke All Keys** to remove all of your team's existing Collection Access Keys.
 
-> This action also prevents users from creating new Collection Access Keys.
-
-<img alt="Revoke collection access keys confirmation prompt" src="">
+> This action also prevents users from [creating new Collection Access Keys](/docs/collaborating-in-postman/sharing/#sharing-using-the-postman-api).
