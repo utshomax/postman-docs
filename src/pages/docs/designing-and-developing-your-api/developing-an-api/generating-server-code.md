@@ -3,11 +3,6 @@ title: 'Generating server code'
 updated: 2022-09-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in Collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

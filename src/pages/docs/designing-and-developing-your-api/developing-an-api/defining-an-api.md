@@ -4,11 +4,6 @@ updated: 2023-03-15
 search_keyword: "schema, spec, API schema, API spec, API specification, API definition"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Creating an API"
-    url: "/docs/designing-and-developing-your-api/creating-an-api/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

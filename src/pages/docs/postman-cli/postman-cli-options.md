@@ -3,14 +3,6 @@ title: "Postman CLI command options"
 updated: 2022-10-18
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Postman CLI overview"
-    url: "/docs/postman-cli/postman-cli-overview/"
-  - type: link
-    name: "Installing the Postman CLI"
-    url: "/docs/postman-cli/postman-cli-installation/"
-  - type: section
     name: "Next steps"
   - type: link
     name: "Running a collection with the Postman CLI"

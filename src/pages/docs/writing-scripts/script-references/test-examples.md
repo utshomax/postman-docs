@@ -6,14 +6,6 @@ updated: 2021-11-15
 search_keyword: "pm.test, pm.expect, pm.response.json, pm.sendRequest, response.json"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Writing tests"
-    url: "/docs/writing-scripts/test-scripts/"
-  - type: link
-    name: "Using variables"
-    url: "/docs/sending-requests/variables/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

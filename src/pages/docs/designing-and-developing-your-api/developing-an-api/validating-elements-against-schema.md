@@ -3,14 +3,6 @@ title: 'Validating APIs'
 updated: 2022-09-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "API development overview"
-    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
-  - type: link
-    name: "Managing and sharing APIs"
-    url: "/docs/designing-and-developing-your-api/managing-apis/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

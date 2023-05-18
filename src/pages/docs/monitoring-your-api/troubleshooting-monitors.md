@@ -3,11 +3,6 @@ title: "Troubleshooting monitors"
 updated: 2022-02-14
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Intro to Monitoring"
-    url: "/docs/monitoring-your-api/intro-monitors/"
-  - type: section
     name: "Next steps"
   - type: link
     name: "Troubleshooting API requests"

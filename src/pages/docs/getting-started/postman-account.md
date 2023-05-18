@@ -5,11 +5,6 @@ page_id: "postman_account"
 updated: 2021-12-9
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Download and Install"
-    url: "https://www.postman.com/downloads/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

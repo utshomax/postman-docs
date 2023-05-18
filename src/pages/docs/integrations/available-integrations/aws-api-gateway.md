@@ -3,11 +3,6 @@ title: "AWS API Gateway"
 updated: 2023-04-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Intro to collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Blog posts"

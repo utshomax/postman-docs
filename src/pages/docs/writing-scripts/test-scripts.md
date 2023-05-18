@@ -6,14 +6,6 @@ updated: 2022-08-31
 search_keyword: "pm.response, pm.test, pm.expect"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
-  - type: link
-    name: "Receiving responses"
-    url:  "/docs/sending-requests/responses/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

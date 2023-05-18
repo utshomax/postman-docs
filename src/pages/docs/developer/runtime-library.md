@@ -5,11 +5,6 @@ updated: 2022-07-20
 page_id: "runtime_library"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
     name: "Next steps"
   - type: link
     name: "Continuous Integration"

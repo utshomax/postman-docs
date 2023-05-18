@@ -3,11 +3,6 @@ title: "Postman CLI overview"
 updated: 2023-03-20
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Using the Collection Runner"
-    url: "/docs/collections/running-collections/intro-to-collection-runs/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

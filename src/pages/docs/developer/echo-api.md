@@ -5,11 +5,6 @@ page_id: "echo_api"
 updated: 2021-12-06
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending your first request"
-    url: "/docs/getting-started/sending-the-first-request/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Blog posts"

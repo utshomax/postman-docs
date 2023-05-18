@@ -3,11 +3,6 @@ title: "Grouping requests in collections"
 updated: 2023-03-01
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

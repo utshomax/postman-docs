@@ -3,11 +3,6 @@ title: "Using WebSocket requests"
 updated: 2022-08-02
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Installing and updating"
-    url: "/docs/getting-started/installation-and-updates/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

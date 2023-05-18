@@ -6,11 +6,6 @@ updated: 2022-2-14
 search_keyword: "setEnvironmentVariable, postman.setEnvironmentVariable"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Monitoring your APIs"
-    url: "/docs/monitoring-your-api/intro-monitors/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

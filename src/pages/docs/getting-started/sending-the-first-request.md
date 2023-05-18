@@ -5,11 +5,6 @@ page_id: "sending_the_first_request"
 updated: 2021-12-13
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Installing and updating"
-    url: "/docs/getting-started/installation-and-updates/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

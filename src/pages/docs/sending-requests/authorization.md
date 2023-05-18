@@ -4,14 +4,6 @@ updated: 2022-12-12
 search_keyword: "WWW-Authenticate, x-www-form-urlencoded"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending your first request"
-    url: "/docs/getting-started/sending-the-first-request/"
-  - type: link
-    name: "Requests"
-    url: "/docs/sending-requests/requests/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

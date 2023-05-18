@@ -6,11 +6,6 @@ updated: 2021-11-09
 search_keyword: "Content-Type, multipart, form-data, x-www-form-urlencoded"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending your first request"
-    url:  "/docs/getting-started/sending-the-first-request/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

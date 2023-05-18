@@ -4,14 +4,6 @@ updated: 2021-02-17
 search_keyword: "pm.visualizer.set, visualizer.set, pm.response.json, response.json, pm.getData, getData"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Receiving responses"
-    url: "/docs/sending-requests/responses/"
-  - type: link
-    name: "Intro to scripts"
-    url: "/docs/writing-scripts/intro-to-scripts/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

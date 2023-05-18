@@ -3,12 +3,6 @@ title: "Bitbucket Pipelines"
 page_id: "bitbucket-pipelines"
 updated: 2022-09-15
 warning: false
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "CI Integrations"
-    url: "/docs/integrations/ci-integrations/"
 ---
 
 [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines) is a continuous integration and continuous delivery (CI/CD) service that's integrated with Bitbucket Cloud. Software development teams can use Bitbucket Pipelines to automatically build, test, and deploy code in Bitbucket.

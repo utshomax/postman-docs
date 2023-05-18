@@ -6,11 +6,6 @@ updated: 2022-03-02
 search_keyword: "pm.cookies.jar, cookies.jar"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Setting up Postman"
-    url: "/docs/getting-started/settings/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

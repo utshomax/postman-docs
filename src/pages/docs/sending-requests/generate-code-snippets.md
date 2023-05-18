@@ -5,11 +5,6 @@ updated: 2022-07-18
 page_id: "generate_code_snippets"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

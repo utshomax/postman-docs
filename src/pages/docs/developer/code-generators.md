@@ -5,11 +5,6 @@ page_id: "code-generators"
 updated: 2021-11-10
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Generating client code"
-    url: "/docs/sending-requests/generate-code-snippets/"
-  - type: section
     name: "Next steps"
   - type: link
     name: "Capturing request data"

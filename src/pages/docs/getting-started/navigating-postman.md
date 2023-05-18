@@ -5,11 +5,6 @@ page_id: "navigating_postman"
 updated: 2022-11-16
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Download and Install"
-    url: "https://www.postman.com/downloads/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

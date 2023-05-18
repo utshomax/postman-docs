@@ -4,11 +4,6 @@ updated: 2022-11-30
 search_keyword: "postman-api, api-rate-limits, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Postman API authentication"
-    url: "/docs/developer/postman-api/authentication/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

@@ -3,11 +3,6 @@ title: 'Managing and sharing APIs'
 updated: 2023-02-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "API development overview"
-    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

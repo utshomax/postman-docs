@@ -4,12 +4,6 @@ order: 169
 page_id: "azure-devops"
 updated: 2021-12-20
 warning: false
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
 ---
 
 > **[Azure DevOps Server (hosted on-premises) integrations are available on Postman Enterprise plans.](https://www.postman.com/pricing)**

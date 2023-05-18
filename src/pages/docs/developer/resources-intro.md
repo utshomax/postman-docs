@@ -6,11 +6,6 @@ page_id: "resources_intro"
 search_keyword: "postman-api-key, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Newman on the command line"
-    url: "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Public workspaces"

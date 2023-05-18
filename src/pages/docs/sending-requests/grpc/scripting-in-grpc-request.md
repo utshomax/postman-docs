@@ -1,12 +1,6 @@
 ---
 title: "Scripting in gRPC requests"
 updated: 2023-04-12
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Using the gRPC request interface"
-    url: "/docs/sending-requests/grpc/grpc-request-interface/"
 ---
 
 Postman has a powerful scripting environment that enables you to add JavaScript code (scripts) in your gRPC requests. You can define scripts for two hooks available during the request execution lifecycle:

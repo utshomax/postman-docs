@@ -3,11 +3,6 @@ title: "Syncing your work"
 updated: 2023-05-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Download and Install"
-    url: "https://www.postman.com/downloads/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

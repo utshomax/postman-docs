@@ -3,11 +3,6 @@ title: "Troubleshooting requests"
 updated: 2021-12-22
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

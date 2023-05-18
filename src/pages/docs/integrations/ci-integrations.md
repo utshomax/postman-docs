@@ -4,11 +4,6 @@ updated: 2022-09-15
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "API Development Overview"
-    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Blog posts"

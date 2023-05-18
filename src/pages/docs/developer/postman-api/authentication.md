@@ -4,11 +4,6 @@ updated: 2022-02-17
 search_keyword: "postman-api-key, collection-access-key, postman-api"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Postman API overview"
-    url: "/docs/developer/postman-api/intro-api/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

@@ -3,14 +3,6 @@ title: "Writing your docs"
 updated: 2023-05-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: link
-    name: "Documenting your API"
-    url: "/docs/publishing-your-api/documenting-your-api/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Blog posts"

@@ -3,11 +3,6 @@ title: "Understanding gRPC types"
 updated: 2023-04-18
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Download and Install"
-    url: "https://www.postman.com/downloads/"
-  - type: section
     name: "Additional resources"
   - type: link
     name: "Protocol Buffers Language Guide"

@@ -6,11 +6,6 @@ page_id: "run_button_API"
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Postman API overview"
-    url: "/docs/developer/postman-api/intro-api/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

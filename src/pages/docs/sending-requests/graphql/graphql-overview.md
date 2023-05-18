@@ -4,11 +4,6 @@ page_id: "graphql"
 updated: 2023-05-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Installing and updating"
-    url: "/docs/getting-started/installation-and-updates/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

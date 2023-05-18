@@ -3,11 +3,6 @@ title: 'Adding elements to an API'
 updated: 2023-03-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Creating an API"
-    url: "/docs/designing-and-developing-your-api/creating-an-api/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

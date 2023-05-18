@@ -3,14 +3,6 @@ title: "Postman JavaScript reference"
 updated: 2020-09-04
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Scripting in Postman"
-    url: "/docs/writing-scripts/intro-to-scripts/"
-  - type: link
-    name: "Test script examples"
-    url: "/docs/writing-scripts/script-references/test-examples/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

@@ -7,11 +7,6 @@ updated: 2022-2-14
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Intro to monitoring"
-    url: "/docs/monitoring-your-api/intro-monitors/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
