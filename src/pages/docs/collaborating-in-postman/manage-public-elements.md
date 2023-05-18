@@ -60,7 +60,7 @@ The dashboard's **Documentation** tab displays all the collections with publishe
 
 You can also view and respond to requests to make documentation public. To approve or deny a publish request, hover over a request and select **Review Request**. Select **Approve** to [publish the documentation](/docs/publishing-your-api/publishing-your-docs/) and make it public, or select **Deny** to keep the documentation private.
 
-<img alt="Responding to publish requests" src="https://assets.postman.com/postman-docs/request-publish-documentation-v9-26.jpg"/>
+<img alt="Responding to publish requests" src="https://assets.postman.com/postman-docs/request-publish-documentation-v10.15.jpg"/>
 
 #### Collection JSON Links
 
