@@ -85,12 +85,12 @@ Your API Key provides access to any Postman data you have permissions for.
 
 You can store your API key in a [variable](/docs/sending-requests/variables/). If you name it `postman_api_key`, the Postman API collection will use it automatically.
 
-## Generate a collection access key
+## Generate a Collection Access Key
 
-With a collection access key, you can securely grant other users read-only access to a single collection. Your [API Keys page](https://go.postman.co/settings/me/api-keys) has a list of all the collection access keys you have generated, and includes information about which collection the key belongs to and when it was generated.
+With a Collection Access Key, you can securely grant other users read-only access to a single collection. Your [API Keys page](https://go.postman.co/settings/me/api-keys) has a list of all the keys you have generated, and includes information about which collection the key belongs to and when it was generated.
 
-You will generate a new collection access key every time you share a collection using the Postman API. To learn more, see [Sharing using the Postman API](/docs/collaborating-in-postman/sharing/#sharing-using-the-postman-api).
+You will generate a new Collection Access Key every time you share a collection using the Postman API. To learn more, see [Sharing using the Postman API](/docs/collaborating-in-postman/sharing/#sharing-using-the-postman-api).
 
-To revoke a collection access key, select **Delete**.
+To revoke a Collection Access Key, select **Delete**.
 
-<img alt="Deleting collection access keys" src="https://assets.postman.com/postman-docs/v10/collection-access-keys-v10.jpg"/>
+<img alt="Deleting collection access keys" src="https://assets.postman.com/postman-docs/v10/collection-access-keys-v10.15.jpg"/>

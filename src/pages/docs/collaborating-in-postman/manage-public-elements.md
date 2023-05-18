@@ -76,6 +76,10 @@ As a Community Manager, you can view or delete a collection JSON link. In additi
 
 The dashboard's **Collection Access Links** tab displays the setting to enable or disable the creation of [Collection Access Keys](/docs/developer/postman-api/authentication/#generate-a-collection-access-key) in your team. You can choose whether teams have the ability to share their collections with anyone, even users outside of the team.
 
-If you disable this setting, Postman displays a confirmation window. Select **Revoke All Keys** to remove all of your team's existing Collection Access Keys.
+The tab also displays all of the team's active Collection Access Keys. To revoke a key, select **Delete**.
+
+<img alt="The Collection Access Links tab" src="https://assets.postman.com/postman-docs/manage-public-elements-collection-access-links-v10.15"/>
+
+If you disable the **Allow creation of Collection Access Keys** setting, Postman displays a confirmation window. Select **Revoke All Keys** to remove all of your team's existing Collection Access Keys.
 
 > This action also prevents users from [creating new Collection Access Keys](/docs/collaborating-in-postman/sharing/#sharing-using-the-postman-api).
