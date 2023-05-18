@@ -15,7 +15,7 @@ contextual_links:
 
 <!-- -->
 
-> **[The Postman VS Code extension is available on Basic, Free, and Professional plans.](https://www.postman.com/pricing/)**
+> **[The Postman VS Code extension is available on Free, Basic, and Professional plans.](https://www.postman.com/pricing/)**
 
 The Postman VS Code extension enables you to develop and test your APIs in Postman directly from [Visual Studio Code](https://code.visualstudio.com/). The VS Code extension enables you to:
 
