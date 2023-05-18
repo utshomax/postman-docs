@@ -1,6 +1,6 @@
 ---
-title: 'Validating APIs'
-updated: 2022-09-15
+title: 'Checking API syntax and rules'
+updated: 2023-05-18
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -29,96 +29,66 @@ contextual_links:
     url: "/docs/reports/reports-overview/"
 ---
 
-You can validate your API definitions as you write them in Postman<!--, and validate your elements (collections and tests) against your schema-->. This helps keep your API well-defined<!--and ensures that your elements are in sync with your schema-->. If there is a syntax error in the definition<!--or elements don't match it-->, Postman will present a list of issues that have been found, as well as fixes for these issues. <!--You can then apply fixes to the API elements and revalidate them.-->
+You can check your API definition as you work on it in Postman to help keep your API well defined. As you edit your API definition, Postman lists any syntax errors based on the definition type. Postman also identifies any API governance and security issues based on the rules configured for your team.
 
 ## Contents
 
-* [Validating API definitions](#validating-api-definitions)
-* [Validating elements](#validating-elements)
+* [Viewing syntax errors in your API definition](#viewing-syntax-errors-in-your-api-definition)
+* [Viewing rule violations in your API definition](#viewing-rule-violations-in-your-api-definition)
 
-## Validating API definitions
+## Viewing syntax errors in your API definition
 
-> API definition validation is available for OpenAPI 2.0, 3.0, and 3.1 and WSDL 1.1 and 2.0 definitions.
+Postman automatically identifies syntax errors as you [edit your API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/). Errors can include missing fields, malformed field names, incorrect data types, incorrect nesting, or other API definition issues.
 
-Postman indicates validation syntax errors in your API definition as you [edit your API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/). Errors can include missing required fields, malformed field names, incorrect data types, incorrect nesting, or other API definition validation issues.
+Postman can identify syntax errors for OpenAPI 2.0, 3.0, and 3.1 and WSDL 1.1 and 2.0 definitions. For Postman to be able to check your definition elements, the JSON or YAML must be well formed.
 
-The pane below the API definition editing area displays issues. You can hide and show the error view as you work.
+To view any syntax errors, select **Syntax** next to **Violations found in definition**. Each error shows the error type, the line on which it occurs, and details about the issue. Select an error to highlight it in the editor. You can also get more information by hovering over the error in the editor.
 
-Each error will indicate the type, the line on which it occurs, and details of the issue. To get more information as you type, you can also hover over the error inline in the editor.
+> Sometimes a single error in your definition will cause more than one issue to appear in the list. As you fix the errors, the issues disappear.
 
 ![API definition error](https://assets.postman.com/postman-docs/v10/schema-validation-error-open-v10.jpg)
 
-> Note that sometimes a single error in your definition will cause more than one issue to appear in the list. As you fix your errors, the validation issues disappear.
+## Viewing rule violations in your API definition
 
-Postman will display a warning if there is an issue with your definition JSON or YAML syntax. Look for errors indicated in the editor and hover over them for more detail. For Postman to be able to validate your definition elements, the JSON or YAML must be well-formed.
+> [This feature is available on Postman Enterprise plans.](https://www.postman.com/pricing)
 
-If there are no errors, Postman will indicate in the lower pane that your API definition is valid.
+As you create your API definition in the editor, Postman automatically checks it against the [Postman API Governance and API Security](/docs/api-governance/api-governance-overview/) rules configured for your team. Postman displays any rule violations below the editor. Resolving these issues enables you improve your API definition.
 
-<!--## Validating elements
+To learn more about the supported API description formats, the rules preconfigured in Postman, and how to create new rules, see [Rule violations in the API definition](/docs/api-governance/api-definition/api-definition-warnings/).
 
-> Element validation is available for OpenAPI 3.0 and WSDL 1.1 and 2.0 schemas.
+To view any rule violations, select **Rule** next to **Violations found in definition**. Each rule violation is on its own line and includes the violation **Name** and the rule type (**Governance** or **Security**). The number next to the rule name tells you how many times Postman found the rule violation in your API definition.
 
-You can compare your API schemas against documentation collections and tests  associated with it to determine if the elements need changes to stay in sync. For example, if you add a new method to your API schema, validation will indicate you need to add the method to your associated documentation. Or when you add a new element to an API, you can run a validation to check the element against the current API schema for issues.
+Select the number to inspect each rule violation. Every instance of the rule violation has a brief description of the issue and the line in the file where the rule violation occurs. When you select a rule violation, Postman highlights the section of the definition that triggered it.
 
-Each element has a **Validate** column next to it. Open your API from the sidebar and locate the element:
+<img alt="Multiple occurrences of the same rule violation" src="https://assets.postman.com/postman-docs/v10/api-definition-multiple-violations-v10.1.jpg" />
 
-* Documentation collections are on the API's overview.
-* To view tests, select **Test and Automation**.
+To learn more about the rule violation and get information about how to fix it, select **Possible fix** next to the rule description. This will open the relevant Learning Center page.
 
-To validate a new element, select **Validate** in the validate column next to the element. To re-validate an element, select the status, then select **Validate Again**.
+<img alt="Select Possible fix to open the Learning Center" src="https://assets.postman.com/postman-docs/v10/api-definition-violations-possible-fix-v10.jpg"/>
 
-Once the validation is complete, a checkmark will appear next to the element if no issues have been found, or a warning message stating that issues are found. If there are issues, select the status, then select **Review Issues** to review them.
+When you make updates to your API definition, Postman re-checks it. If your changes resolve the issue, Postman removes the rule violation from the list.
 
-![Test validation](https://assets.postman.com/postman-docs/api-builder-test-validation.jpg)
+### Hiding rule violations
 
-### Validating requests
+To hide a rule violation for the API definition, do the following:
 
-If you want your requests to be validated, your collection must be linked to an API.
+1. Select **Hide** next to the rule violation.
 
-A collection is linked to an API if you [generate it from a schema](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#generating-an-api-definition) or [add it as a relation to an existing API](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/#adding-a-collection).
+    <img alt="Hide a rule violation in your API definition" src="https://assets.postman.com/postman-docs/v10/api-definition-hide-rule-violation-v10.1.jpg"/>
 
-Postman validates a request when it's sent. If there are issues with the request, Postman displays a warning message showing the number of issues next to the name of the request.
+1. Select a reason that you want to hide it, then select **Hide** again.
 
-## Accessing issues
+    <img alt="" src="https://assets.postman.com/postman-docs/v10/api-definition-hide-rule-violation-choose-reason-v10.jpg" width="300px"/>
 
-You can review the issues found during validation to fix issues in your collections or schemas.
+This will hide the rule violation for the current API. If there is more than one violation of a specific rule, you can hide each instance individually.
 
-If an issue arises when you run a request, select the warning message next to the name of the request (for example, **1 issue**). This will open a pane on the right indicating detailed information about which component of the request is affected and what the issue itself is, and a direct link to the API against which the request is validated. Select the link to open the API within Postman.
+> To hide a rule violation globally, you can use either [configurable API Governance rules](/docs/api-governance/configurable-rules/configuring-api-governance-rules/) or [configurable API Security rules](/docs/api-governance/configurable-rules/configuring-api-security-rules/).
 
-> You can select a specific issue to access the relevant request component.
+When you or another member of your team hides a rule violation, Postman shows a message in the editor's **Rule** tab to indicate how many are hidden.
 
-If your issue relates to another element, open your API from the sidebar and locate the element:
+To turn a rule back on later, do the following:
 
-* Documentation and collections are on the API's overview.
-* To view tests, select **Test and Automation**.
+1. Select **Review**.
+1. Review your hidden rules and select the eye icon <img alt="Eye icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> next to the one you want to turn back on.
 
-If Postman finds any issues during validation, view them by selecting **Issues found > View issues**. This will take you to a page summarizing validation issues.
-
-## Updating API elements
-
-The issue summary indicates the [details of each issue](#understanding-the-issue-summary) and provides fixes you can [automatically apply](#applying-changes-to-api-elements) to the corresponding API element.
-
-### Understanding the issue summary
-
-The validation summary lists all the issues found between the generated collection and the API schema. You can select suggested changes to make to the collection.
-
-![review issues sidebar](https://assets.postman.com/postman-docs/api-builder-validation-sync.jpg)
-
-> You can select the request name or the request element in the right sidebar to go directly to the corresponding issues.
-
-The review contains details on what changes need to be made for the API element to be in sync with the schema again.
-
-### Applying changes to API elements
-
-You can individually select the changes to be applied to the API element as you review them. Select the change you want to apply, then select the checkbox next to it. Repeat the same action for each change you would like to apply.
-
-When you're done selecting the changes to apply, select **Confirm Changes to Collection**.
-
-You can also apply all changes by selecting **Select all changes**, then **Confirm Changes to Collection**.
-
-You can access the updated API element by selecting **View Updated Collection** from the confirmation screen. If you didn't apply all changes, you can also review the remaining issues by selecting **View Remaining Issues**.
--->
-
-## Validating elements
-
-The ability to compare your API definitions against documentation and test collections to determine if the elements need changes to stay in sync is no longer supported in Postman v10. If you've been using this feature, you can provide feedback on [the community forum](https://community.postman.com/t/user-feedback-updating-api-elements/13308).
+<img alt="Review hidden rules for your API definition" src="https://assets.postman.com/postman-docs/v10/api-definition-review-hidden-warnings-v10.jpg" width="800px"/>

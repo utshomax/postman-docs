@@ -773,7 +773,7 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/developing-an-api/generating-server-code/',
           },
           {
-            name: 'Validating APIs',
+            name: 'Checking API syntax and rules',
             url: '/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/',
           },
         ],
