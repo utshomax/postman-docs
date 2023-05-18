@@ -14,15 +14,6 @@ contextual_links:
   - type: link
     name: "Continuous API Testing with Postman"
     url: "https://blog.postman.com/continuous-api-testing-with-postman/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Intro to scripts"
-    url: "/docs/writing-scripts/intro-to-scripts/"
-  - type: link
-    name: "CI Integrations"
-    url: "/docs/integrations/ci-integrations/"
-
 warning: false
 ---
 

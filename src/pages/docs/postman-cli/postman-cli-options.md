@@ -1,16 +1,9 @@
 ---
 title: "Postman CLI command options"
 updated: 2022-10-18
-contextual_links:
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Running a collection with the Postman CLI"
-    url: "/docs/postman-cli/postman-cli-run-collection/"
 warning: false
 tags:
   - "Postman CLI"
-
 ---
 
 Commands and options for using the Postman CLI.

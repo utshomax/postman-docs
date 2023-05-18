@@ -31,15 +31,6 @@ contextual_links:
   - type: link
     name: "Hathway uses separate environments for each client"
     url: "https://www.postman.com/case-studies/hathway/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Collaborating with your team"
-    url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
-  - type: link
-    name: "Version control overview"
-    url:  "/docs/collaborating-in-postman/using-version-control/version-control-overview/"
-
 warning: false
 
 ---

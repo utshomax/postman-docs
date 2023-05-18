@@ -17,11 +17,6 @@ contextual_links:
   - type: link
     name: "How to Dynamically Create Custom Environments with Code"
     url: "https://blog.postman.com/how-to-dynamically-create-custom-environments-with-code/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Intro to scripts"
-    url: "/docs/writing-scripts/intro-to-scripts/"
 ---
 
 Some API publishers use **Run in Postman** buttons alongside their own API documentation. If users input data in a developer portal, for example, the Run in Postman API can dynamically inject this provided information as environment variable values into the embedded **Run in Postman** button.

@@ -10,20 +10,6 @@ contextual_links:
   - type: link
     name: "Introducing Powerful Integrations"
     url: "https://blog.postman.com/the-new-postman-api-platform/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Bitbucket Pipelines"
-    url: "/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/"
-  - type: link
-    name: "CircleCI"
-    url: "/docs/integrations/available-integrations/ci-integrations/circleci/"
-  - type: link
-    name: "Jenkins"
-    url: "/docs/integrations/available-integrations/ci-integrations/jenkins/"
-  - type: link
-    name: "Travis CI"
-    url: "/docs/integrations/available-integrations/ci-integrations/travis-ci/"
 ---
 
 Continuous integration and continuous delivery (CI/CD) are a core part of the [API development workflow](/docs/designing-and-developing-your-api/the-api-workflow/). Postman integrates with popular CI tools so you can view details about API builds in the same place where you define and test your API.

@@ -27,12 +27,6 @@ contextual_links:
   - type: link
     name: "Toast chains requests automatically with pre-request scripts"
     url:  "https://www.postman.com/case-studies/toast/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Test scripts"
-    url: "/docs/writing-scripts/test-scripts/"
-
 warning: false
 
 ---

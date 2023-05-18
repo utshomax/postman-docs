@@ -14,11 +14,6 @@ contextual_links:
   - type: link
     name: "Integrated API Monitoring in Postman"
     url: "https://blog.postman.com/integrated-api-monitoring-in-postman/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Managing and sharing APIs"
-    url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
 You can use Postman Monitors to observe the performance and availability of your APIs. <!-- After you link a collection-based monitor, you can view monitor results in the API Builder. -->

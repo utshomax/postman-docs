@@ -16,14 +16,7 @@ contextual_links:
   - type: link
     name: "Secure Your Postman Account with Two-Factor Authentication"
     url: "https://blog.postman.com/secure-your-postman-account-with-two-factor-authentication/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Customizing your Postman profile"
-    url: "/docs/getting-started/postman-profile/"
-
 warning: false
-
 ---
 
 Having a free Postman account enables you to [sync](/docs/getting-started/syncing/) and back up your work so that you can access it from different machines. With a Postman account, you can also [collaborate](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) with others on your API projects.

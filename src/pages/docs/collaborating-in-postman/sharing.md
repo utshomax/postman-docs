@@ -25,14 +25,7 @@ contextual_links:
   - type: link
     name: "Introducing Postman’s new Guest role to share collections instantly"
     url: "https://blog.postman.com/introducing-postmans-new-guest-role-to-share-collections-instantly/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Creating Workspaces"
-    url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
-
 warning: false
-
 ---
 
 You can collaborate on Postman elements including collections, APIs, and environments, by sharing them or by moving them to a shared private, team, or public workspace.

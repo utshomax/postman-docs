@@ -22,11 +22,6 @@ contextual_links:
   - type: link
     name: "Youi uses version control to build and test updates locally before merging"
     url: "https://www.postman.com/case-studies/youi/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Versioning APIs"
-    url: "/docs/designing-and-developing-your-api/versioning-an-api/"
 ---
 
 Postman's _version control_ features can help you and your team to collaboratively build an API. You can fork a collection or environment, make updates to the fork, create a pull request, and merge your changes into the parent element.

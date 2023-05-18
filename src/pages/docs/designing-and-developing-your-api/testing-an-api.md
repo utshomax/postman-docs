@@ -28,14 +28,6 @@ contextual_links:
   - type: link
     name: "Unbreakable API"
     url: "https://www.postman.com/postman/workspace/unbreakable-api/overview"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Managing and sharing APIs"
-    url: "/docs/designing-and-developing-your-api/managing-apis/"
-  - type: link
-    name: "CI Integrations"
-    url: "/docs/integrations/ci-integrations/"
 ---
 
 Testing is a critical part of the API development process. You can create a collection that contains your API tests and link it to your API. You can also integrate your API with supported Continuous Integration (CI) tools.

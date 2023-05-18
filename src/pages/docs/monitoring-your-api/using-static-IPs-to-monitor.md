@@ -13,11 +13,6 @@ contextual_links:
   - type: link
     name: "API Monitoring | The Exploratory"
     url: "https://youtu.be/tDQzY1Hn2LY"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Integrations for monitoring"
-    url: "/docs/integrations/intro-integrations/"
 ---
 
 > **[Static IP address monitoring is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**

@@ -28,13 +28,7 @@ contextual_links:
   - type: link
     name: "Top 25 API Onboarding Experiences"
     url: "https://blog.postman.com/top-25-api-onboarding-experiences/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Creating your first collection"
-    url: "/docs/getting-started/creating-the-first-collection/"
 warning: false
-
 ---
 
 The Postman Public API Network is the largest network of APIs, workspaces, and collections by developers across the planet. Many of the teams and companies responsible for leading-edge APIs and technologies have public workspaces you can explore. Popular third-party APIs are also published, along with examples you can use as a starting point when writing your own APIs or collections.

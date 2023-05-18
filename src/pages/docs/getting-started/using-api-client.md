@@ -9,11 +9,6 @@ contextual_links:
   - type: link
     name: "Intro to Postman | Part 1: Send a Request"
     url: "https://youtu.be/2oOSnxZ28fA"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Sending your first request"
-    url: "/docs/getting-started/sending-the-first-request/"
 ---
 
 

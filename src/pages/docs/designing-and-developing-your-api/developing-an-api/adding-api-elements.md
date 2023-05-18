@@ -14,11 +14,6 @@ contextual_links:
   - type: link
     name: "The Reimagined API-First Workflow, Part 1: for Developers"
     url: "https://blog.postman.com/the-reimagined-api-first-workflow-for-developers/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Managing APIs"
-    url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
 Your API in Postman can include more than an API definition. You can add elements such as collections to help you document and test your API.

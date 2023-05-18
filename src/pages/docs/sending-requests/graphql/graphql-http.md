@@ -32,12 +32,6 @@ contextual_links:
   - type: link
     name: "Working with GraphQL collection"
     url: "https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-c0dd3eb3-5258-4ddd-a6e4-2780c5212e33?ctx=documentation"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-
 warning: false
 
 ---

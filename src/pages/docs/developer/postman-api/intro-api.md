@@ -32,11 +32,6 @@ contextual_links:
   - type: link
     name: "Postman API definition"
     url:  "https://www.postman.com/postman/workspace/postman-public-workspace/api/72a32ca3-f06a-4e83-a933-2821a0e6616f/definition/d429098b-1789-4c62-b77b-cf02024aba53?view=documentation"
-  - type: subtitle
-    name: "Next steps"
-  - type: link
-    name: "Continuous Integration"
-    url: "/docs/running-collections/using-newman-cli/continuous-integration/"
 ---
 
 The [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) endpoints let you integrate Postman in your development toolchain.

@@ -19,14 +19,7 @@ contextual_links:
   - type: link
     name: "How to review Postman test results"
     url: "https://blog.postman.com/how-to-review-postman-test-results/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-
 warning: false
-
 ---
 
 The Postman response viewer helps you to visualize and check the correctness of API responses. An API response consists of the response body, headers, and the HTTP status code.

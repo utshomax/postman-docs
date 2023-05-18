@@ -27,11 +27,6 @@ contextual_links:
   - type: link
     name: "Build better APIs using the new and improved API Builder"
     url: "https://blog.postman.com/build-better-apis-using-the-new-and-improved-api-builder/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Managing APIs"
-    url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
 You create the structure of your API using the _API definition_. The API definition can consist of one or multiple files. If your API doesn't have a definition, you can import a definition or start with a boilerplate sample definition.

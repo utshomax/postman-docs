@@ -23,14 +23,6 @@ contextual_links:
   - type: link
     name: "Syncing Your Specs with Collections"
     url: "https://blog.postman.com/latest-updates-to-syncing-your-specs-with-collections/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Reports overview"
-    url: "/docs/reports/reports-overview/"
-  - type: link
-    name: "Validating elements against schema"
-    url: "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 ---
 
 > **[GitHub Enterprise Server, GitLab Self-Managed, and Azure DevOps Server (hosted on-premises) integrations are available on Postman Enterprise plans.](https://www.postman.com/pricing)**

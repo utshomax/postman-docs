@@ -14,11 +14,6 @@ contextual_links:
   - type: link
     name: "The Reimagined API-First Workflow, Part 1: for Developers"
     url: "https://blog.postman.com/the-reimagined-api-first-workflow-for-developers/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Managing APIs"
-    url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
 With server code generation, you can generate server-side boilerplate code from your OpenAPI 3 specification. This enables you to run a server based on your API specification and use it as a starting point for developing your business logic.

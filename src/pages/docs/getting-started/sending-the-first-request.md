@@ -27,15 +27,6 @@ contextual_links:
   - type: link
     name: "30 days of Postman for developers"
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Creating your first collection"
-    url:  "/docs/getting-started/creating-the-first-collection/"
-  - type: link
-    name: "Requests"
-    url: "/docs/sending-requests/requests/"
-
 warning: false
 ---
 

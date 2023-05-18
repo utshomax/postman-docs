@@ -17,16 +17,9 @@ contextual_links:
   - type: link
     name: "Newman: run and test your collections from the command line"
     url: "https://blog.postman.com/newman-run-and-test-your-collections-from-the-command-line/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Postman API overview"
-    url: "/docs/developer/postman-api/intro-api/"
-
 warning: false
 tags:
   - "newman"
-
 ---
 
 Newman provides a rich set of options to customize a run. You can retrieve a list of options by running Newman with the ``-h`` flag.

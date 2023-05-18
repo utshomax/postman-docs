@@ -12,12 +12,6 @@ contextual_links:
   - type: link
     name: "Postman Public Workspace"
     url:  "https://www.postman.com/postman/workspace/405e0480-49cf-463b-8052-6c0d05a8e8f3"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Postman API overview"
-    url: "/docs/developer/postman-api/intro-api/"
-
 warning: false
 
 ---

@@ -14,11 +14,6 @@ contextual_links:
   - type: link
     name: "How to Make Your APIs Available to More Consumers"
     url: "https://blog.postman.com/how-to-make-your-apis-available-to-more-consumers/"
-  - type: subtitle
-    name: "Next steps"
-  - type: link
-    name: "Managing and sharing APIs"
-    url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
 When you're ready to share the latest changes to your API with consumers, you can publish a _version_. Publishing a version creates a static representation of your API's current state. Consumers can view the API version in your workspace. You can also choose to add the version to your [Private API Network](/docs/collaborating-in-postman/adding-private-network/).

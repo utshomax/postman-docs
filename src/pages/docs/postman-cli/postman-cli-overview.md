@@ -23,11 +23,6 @@ contextual_links:
   - type: link
     name: "Making the switch: empowering manual testers to automate their API tests"
     url: "https://blog.postman.com/switching-from-manual-to-automated-api-testing/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Installing the Postman CLI"
-    url: "/docs/postman-cli/postman-cli-installation/"
 ---
 
 The Postman CLI is a secure command-line companion for Postman. It's secured and supported by Postman. The Postman CLI enables you to:

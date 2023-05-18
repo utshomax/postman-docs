@@ -26,11 +26,6 @@ contextual_links:
   - type: link
     name: "How to build an API"
     url: "https://blog.postman.com/how-to-build-an-api/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Managing APIs"
-    url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
 To start using the API Builder, you can create a new API in your workspace. You can also upgrade, rename, or delete existing APIs.

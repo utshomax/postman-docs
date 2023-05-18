@@ -1,13 +1,6 @@
 ---
 title: "Troubleshooting monitors"
 updated: 2022-02-14
-contextual_links:
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Troubleshooting API requests"
-    url: "/docs/sending-requests/troubleshooting-api-requests/"
-
 warning: false
 ---
 

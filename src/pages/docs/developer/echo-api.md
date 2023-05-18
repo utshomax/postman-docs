@@ -14,12 +14,6 @@ contextual_links:
   - type: link
     name: "Introducing Postman’s WebSocket Echo Service"
     url: "https://blog.postman.com/introducing-postman-websocket-echo-service/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Exploring the Public API Network"
-    url: "/docs/getting-started/exploring-public-api-network/"
-
 warning: false
 
 ---

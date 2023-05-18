@@ -20,12 +20,6 @@ contextual_links:
   - type: link
     name: "Ping Identity"
     url: "https://www.postman.com/case-studies/pingidentity/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Using the Collection Runner"
-    url: "/docs/collections/running-collections/intro-to-collection-runs/"
-
 warning: false
 ---
 

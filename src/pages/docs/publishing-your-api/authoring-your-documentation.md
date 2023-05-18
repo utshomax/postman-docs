@@ -17,11 +17,6 @@ contextual_links:
   - type: link
     name: "Imgur"
     url: "https://www.postman.com/case-studies/imgur/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Publishing your docs"
-    url: "/docs/publishing-your-api/publishing-your-docs/"
 ---
 
 Postman [automatically generates documentation](/docs/publishing-your-api/documenting-your-api/) for every collection you create. The documentation includes all of the requests in your collection, along with examples, authorization details, and example code.

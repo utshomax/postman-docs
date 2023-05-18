@@ -19,11 +19,6 @@ contextual_links:
   - type: link
     name: "Giant Machines"
     url: "https://www.postman.com/case-studies/giant-machines/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Viewing workspace activity"
-    url: "/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/"
 warning: false
 ---
 

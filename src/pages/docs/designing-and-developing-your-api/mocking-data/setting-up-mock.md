@@ -26,11 +26,6 @@ contextual_links:
   - type: link
     name: "OVO accelerated integration implementation with mock servers"
     url: "https://www.postman.com/case-studies/ovo/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Test scripts"
-    url: "/docs/writing-scripts/test-scripts/"
 ---
 
 Postman enables you to create _mock servers_ to assist with API development and testing. A mock server simulates the behavior of a real API server by accepting requests and returning responses. By adding a mock server to your [collection](/docs/sending-requests/intro-to-collections/) and adding [examples](/docs/sending-requests/examples/) to your requests, you can simulate the behavior of a real API.

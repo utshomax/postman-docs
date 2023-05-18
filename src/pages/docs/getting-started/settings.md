@@ -16,11 +16,6 @@ contextual_links:
   - type: link
     name: "Dark Mode | Postman Level Up"
     url: "https://youtu.be/rZySZm9XaLM"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Sending your first request"
-    url: "/docs/getting-started/sending-the-first-request/"
 ---
 
 Postman automatically chooses default values for some settings so you can get right to work. Make changes to settings at any time based on your use case or to customize your Postman experience.

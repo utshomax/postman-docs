@@ -21,15 +21,6 @@ contextual_links:
   - type: link
     name: "Intuit uses Postman's code generator at hackathons"
     url: "https://www.postman.com/case-studies/intuit/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Capturing HTTP requests"
-    url:  "/docs/sending-requests/capturing-request-data/capturing-http-requests/"
-  - type: link
-    name: "Interceptor"
-    url:  "/docs/sending-requests/capturing-request-data/interceptor/"
-
 warning: false
 
 ---

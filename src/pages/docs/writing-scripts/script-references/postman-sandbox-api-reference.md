@@ -17,11 +17,6 @@ contextual_links:
   - type: link
     name: "Adding External Libraries in Postman"
     url: "https://blog.postman.com/adding-external-libraries-in-postman/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Developing with Postman utilities"
-    url: "/docs/developer/resources-intro/"
 ---
 
 Postman provides JavaScript APIs that you can use in your request scripts. The `pm` object provides functionality for testing your request and response data, with the `postman` object providing additional workflow control.

@@ -12,12 +12,6 @@ contextual_links:
   - type: link
     name: "Youi plans to convert docs into collections"
     url: "https://www.postman.com/case-studies/youi/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Continuous Integration"
-    url: "/docs/collections/using-newman-cli/continuous-integration/"
-
 warning: false
 
 ---

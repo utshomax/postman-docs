@@ -20,11 +20,6 @@ contextual_links:
   - type: link
     name: "Ping Identity"
     url: "https://www.postman.com/case-studies/pingidentity/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Using the Collection Runner"
-    url: "/docs/collections/running-collections/intro-to-collection-runs/"
 ---
 
 You can group your Postman requests and examples into collections to keep your workspace organized, to collaborate with teammates, to generate API documentation and API tests, and to automate request runs.
