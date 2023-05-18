@@ -1,6 +1,6 @@
 ---
-title: "About blocks and passing information"
-updated: 2023-04-03
+title: "About blocks"
+updated: 2023-05-15
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -41,6 +41,7 @@ _Blocks_ are used to create Flows, and information is passed between them.
 
 * [Blocks](#blocks)
 * [Passing information](#passing-information)
+* [Working with blocks](#working-with-blocks)
 
 ## Blocks
 
@@ -48,11 +49,11 @@ Blocks are the basic units used to create a flow. Every block has a specific pur
 
 ### Block fundamentals
 
-Every block has either an input, an output, or both. You can pass a information from one block to another. For more information on each block, see [Types of Blocks](#types-of-blocks).
+Every block has either an input, an output, or both. You can pass information from one block to another. For more information on each block, see [Types of blocks](#types-of-blocks).
 
 ### Block anatomy
 
-> below is the sample anatomy of the [Send Request Block](/docs/postman-flows/reference/blocks-list/#send-request)
+Below is the anatomy of the [Send Request Block](/docs/postman-flows/reference/blocks-list/#send-request).
 
 ![Block anatomy](https://assets.postman.com/postman-labs-docs/block/updated-block-anatomy.png)
 
@@ -83,3 +84,23 @@ There are three types of blocks:
 ## Passing information
 
 In Flows, information passes from one block to the next. This information could be a text, a number, or it could be larger complex information like a list of users, or an entire movie.
+
+## Working with blocks
+
+You can resize, rename, and group blocks together in Postman Flows.
+
+To resize a block, select and drag the resizing handle in the block's lower-right corner.
+
+<img alt="Resize a block" src="https://assets.postman.com/postman-docs/v10/flows-resize-block-v10.jpg" width="300px">
+
+To rename a block, hover over the title and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">, then enter the block's new name.
+
+<img alt="Rename a block" src="https://assets.postman.com/postman-docs/v10/flows-rename-block-v10.jpg" width="300px">
+
+To group blocks together, press and hold **⌘** or **Ctrl**, select the names of the blocks you want to group, then select the group selection icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/v10/flows-group-icon-v10.jpg#icon" width="16px">.
+
+![Group blocks](https://assets.postman.com/postman-docs/v10/flows-group-blocks-v10-1.gif)
+
+To ungroup blocks, hover over the group and select the ungroup icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/v10/flows-ungroup-icon-v10.jpg#icon" width="16px">.
+
+![Ungroup blocks](https://assets.postman.com/postman-docs/v10/flows-ungroup-blocks-v10-1.gif)

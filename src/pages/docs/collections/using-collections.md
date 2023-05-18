@@ -120,8 +120,6 @@ To move more than one request to a different collection, do the following:
 
     <img alt="Add request to folder" src="https://assets.postman.com/postman-docs/v10/collection-menu-v10.jpg" width="350px"/>
 
-> Alternatively, select **New**, and then select **Request**.
-
 ### Adding a request to an empty collection
 
 Select the collection, then select **Add a request**.

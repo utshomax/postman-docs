@@ -66,7 +66,7 @@ Check out our Flows Workspaces filled with examples:
 
 These workspaces contains example flows utilizing a multitude of APIs for different products and tools, plus all the related collections and environments needed. You can fork the flows to your own workspace, try them out, and then make your own changes and customizations.
 
-> Postman Flows is free to use for up to three users in our Free plan. Postman Flows is available as an add-on on our [Professional plan](https://www.postman.com/pricing/).
+> Postman Flows is free to try on the Free plan for up to three users. Postman Flows is available as an add-on to the annual [Professional plan](https://www.postman.com/pricing/). Postman Flows is not currently available in the Basic and Enterprise plans.
 
 ## Enabling Postman Flows
 
