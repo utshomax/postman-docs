@@ -10,7 +10,6 @@ contextual_links:
   - type: link
     name: "Postman Public Workspace"
     url:  "https://www.postman.com/postman/workspace/405e0480-49cf-463b-8052-6c0d05a8e8f3"
-warning: false
 ---
 
 You can use a variety of Postman developer resources in your projects, including APIs and libraries. You can use and contribute to Postman's [open-source](https://www.postman.com/open-philosophy/) projects on [GitHub](https://github.com/postmanlabs).
