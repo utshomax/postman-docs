@@ -22,7 +22,7 @@ contextual_links:
 ---
 
 
-The _lightweight Postman API Client_ is a space where you can work if you're using the Postman desktop app and not connected to Postman servers. When you aren't signed in to Postman, you can still use the lightweight API Client to build and send requests. You can use the lightweight API Client to send HTTP, WebSocket, gRPC, and GraphQL requests.
+The _lightweight Postman API Client_ is a space where you can work if you're using the Postman desktop app and not connected to Postman servers. When you aren't signed in to Postman, you can still use the lightweight [API Client](https://www.postman.com/api-platform/api-client/) to build and send requests. You can use the lightweight API Client to send HTTP, WebSocket, gRPC, and GraphQL requests.
 
 All of your work in the lightweight API Client is stored locally and isn't synced online with Postman. After you sign in to Postman, you can move your open requests and request history into a workspace where you can collaborate with others.
 
