@@ -25,7 +25,7 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
-Postman supports [API-first development](https://www.postman.com/api-first/) with the API Builder. Use the API Builder to design your API in Postman. Your API definition can then act as the single source of truth for your API project.
+Postman supports [API-first development](https://www.postman.com/api-first/) with the API Builder. Use the API Builder to [design your API](https://www.postman.com/api-platform/api-design/) in Postman. Your API definition can then act as the single source of truth for your API project.
 
 You can connect various elements of your API development and testing process to your API definition, such as collections, documentation, tests, and monitors. You can also sync your API in Postman with a Git repository.
 
