@@ -52,7 +52,7 @@ To view any syntax errors, select **Syntax** next to **Violations found in defin
 
 > [This feature is available on Postman Enterprise plans.](https://www.postman.com/pricing)
 
-As you create your API definition in the editor, Postman automatically checks it against the [Postman API Governance and API Security](/docs/api-governance/api-governance-overview/) rules configured for your team. Postman displays any rule violations below the editor. Resolving these issues enables you improve your API definition.
+As you create your API definition in the editor, Postman automatically checks it against the [Postman API Governance and API Security](/docs/api-governance/api-governance-overview/) rules configured for your team. Postman displays any rule violations below the editor. Resolving these issues enables you to improve your API definition.
 
 To learn more about the supported API description formats, the rules preconfigured in Postman, and how to create new rules, see [Rule violations in the API definition](/docs/api-governance/api-definition/api-definition-warnings/).
 
