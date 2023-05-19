@@ -529,11 +529,11 @@
   },
   {
     "from": "/docs/postman/collaboration/requesting-access-to-collections/",
-    "to": "/docs/collaborating-in-postman/requesting-access-to-collections/"
+    "to": "/docs/collaborating-in-postman/requesting-access-to-elements/"
   },
   {
     "from": "/docs/postman/collaboration/requesting_access_to_collections/",
-    "to": "/docs/collaborating-in-postman/requesting-access-to-collections/"
+    "to": "/docs/collaborating-in-postman/requesting-access-to-elements/"
   },
   {
     "from": "/docs/postman/collaboration/roles-and-permissions/",
@@ -701,11 +701,11 @@
   },
   {
     "from": "/docs/postman/collections/requesting-access-to-collections/",
-    "to": "/docs/collaborating-in-postman/requesting-access-to-collections/"
+    "to": "/docs/collaborating-in-postman/requesting-access-to-elements/"
   },
   {
     "from": "/docs/postman/collections/requesting_access_to_collections/",
-    "to": "/docs/collaborating-in-postman/requesting-access-to-collections/"
+    "to": "/docs/collaborating-in-postman/requesting-access-to-elements/"
   },
   {
     "from": "/docs/postman/collections/sharing-collections/",

@@ -1,9 +1,6 @@
 ---
 title: "Coding with Run in Postman"
-order: 110
 updated: 2022-09-21
-page_id: "run_button_API"
-warning: false
 contextual_links:
   - type: section
     name: "Additional resources"
