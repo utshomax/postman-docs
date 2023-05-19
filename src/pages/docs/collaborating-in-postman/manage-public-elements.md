@@ -78,8 +78,8 @@ The dashboard's **Collection Access Links** tab displays the setting to enable o
 
 The tab also displays all of the team's active Collection Access Keys. To revoke a key, select **Delete**.
 
-<img alt="The Collection Access Links tab" src="https://assets.postman.com/postman-docs/manage-public-elements-collection-access-links-v10.15"/>
+<img alt="The Collection Access Links tab" src="https://assets.postman.com/postman-docs/manage-public-elements-collection-access-links-v10.15.jpg"/>
 
-If you disable the **Allow creation of Collection Access Keys** setting, Postman displays a confirmation window. Select **Revoke All Keys** to remove all of your team's existing Collection Access Keys.
-
-> This action also prevents users from [creating new Collection Access Keys](/docs/collaborating-in-postman/sharing/#sharing-using-the-postman-api).
+If you disable the **Allow creation of Collection Access Keys** setting, this will prevent users from [creating new Collection Access Keys](/docs/collaborating-in-postman/sharing/#sharing-using-the-postman-api). Postman also displays a confirmation window where you can choose additional actions:
+* Select **Keep All Keys** to keep all existing keys, but prevent users from [creating new Collection Access Keys](/docs/collaborating-in-postman/sharing/#sharing-using-the-postman-api).
+* Select **Revoke All Keys** to also remove all of your team's existing keys.
