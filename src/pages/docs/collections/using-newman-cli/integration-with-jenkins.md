@@ -16,7 +16,6 @@ contextual_links:
   - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
-warning: false
 tags:
   - "newman"
 updated: 2022-01-14
