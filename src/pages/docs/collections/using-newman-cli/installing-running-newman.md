@@ -26,10 +26,8 @@ contextual_links:
   - type: section
     name: "Next steps"
   - type: link
-    name: "Postman API overview"
+    name: "Postman API documentation"
     url: "/docs/developer/postman-api/intro-api/"
-
-warning: false
 ---
 
 To get started using Newman, install Node.js, then Newman. Then you can run your collections.

@@ -25,10 +25,8 @@ contextual_links:
   - type: section
     name: "Next steps"
   - type: link
-    name: "Postman API overview"
+    name: "Postman API documentation"
     url: "/docs/developer/postman-api/intro-api/"
-
-warning: false
 ---
 
 ## File uploads

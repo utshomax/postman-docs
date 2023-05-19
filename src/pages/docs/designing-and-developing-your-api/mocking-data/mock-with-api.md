@@ -12,7 +12,7 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: link
-    name: "Postman API overview"
+    name: "Postman API documentation"
     url: "/docs/developer/postman-api/intro-api/"
   - type: section
     name: "Additional resources"
