@@ -1,6 +1,6 @@
 ---
 title: "Echo API"
-updated: 2021-12-06
+updated: 2023-05-19
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -38,7 +38,7 @@ To test the Echo API, open a new request in Postman and enter the following path
 postman-echo.com/get
 ```
 
-Select the `GET` method, then select __Send__. The Echo API will return a JSON object that contains details from the request.
+Select the `GET` method, then select __Send__. The Echo API will return a JSON object that has details from the request.
 
 ![Postman Echo response](https://assets.postman.com/postman-docs/v10/postman-echo-api-response-v10.jpg)
 
