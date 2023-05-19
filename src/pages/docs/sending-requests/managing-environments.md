@@ -131,7 +131,7 @@ To use an environment variable value in a request, reference it by name, surroun
 
 You can use the same variable notation in request URLs, parameters, headers, and body data.
 
-<img alt="Environment var reference" src="https://assets.postman.com/postman-docs/env-hover-v8.jpg" width="400px"/>
+<img alt="Environment var reference" src="https://assets.postman.com/postman-docs/v10/env-hover-v10.jpg" width="500px"/>
 
 Hover over a variable reference to get its current value.
 

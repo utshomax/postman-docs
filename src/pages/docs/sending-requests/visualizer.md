@@ -64,11 +64,11 @@ The `pm.visualizer.set()` method accepts a [Handlebars](https://handlebarsjs.com
 
 ### Rendering HTML
 
-For an example of a basic visualizer in action, open the following request in Postman:
+For an example of a basic visualizer in action, open the following collection in Postman:
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/4e3ee3d03f6e2e7fc250)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/7865888-07101503-1e33-4f29-b845-d94e726751c8?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D7865888-07101503-1e33-4f29-b845-d94e726751c8%26entityType%3Dcollection%26workspaceId%3D34f3a42c-18a7-4ad6-83fb-2c05767d63a7)
 
-The example endpoint responds with a list of names and email addresses with the following JSON response body structure:
+In the first request, the example endpoint responds with a list of names and email addresses with the following JSON response body structure:
 
 ```js
 [

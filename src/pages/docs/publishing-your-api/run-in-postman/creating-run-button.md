@@ -42,8 +42,7 @@ Make sure you're signed in to your Postman account, and that you have a collecti
 > Note: If the collection is present in a public workspace, you can directly embed the copied code where you would like the button to display. If the collection is present in a team or a personal workspace, [share the collection to a public workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) to create the **Run in Postman** button.
 
 1. Select **Collections** in the sidebar and select the collection you want to share.
-1. Next to the collection name, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and then select **Share**.
-
+1. Select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share**.
 1. Select the **Via Run in Postman** tab.
 1. Choose a live or static button:
 

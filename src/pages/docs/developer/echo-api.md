@@ -1,8 +1,6 @@
 ---
 title: "Echo API"
-order: 147
-page_id: "echo_api"
-updated: 2021-12-06
+updated: 2023-05-19
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -14,7 +12,6 @@ contextual_links:
   - type: link
     name: "Introducing Postman’s WebSocket Echo Service"
     url: "https://blog.postman.com/introducing-postman-websocket-echo-service/"
-warning: false
 
 ---
 
@@ -32,9 +29,9 @@ To test the Echo API, open a new request in Postman and enter the following path
 postman-echo.com/get
 ```
 
-Select the `GET` method, then select __Send__. The Echo API will return a JSON object that contains details from the request.
+Select the `GET` method, then select __Send__. The Echo API will return a JSON object that has details from the request.
 
-[![Postman Echo response](https://assets.postman.com/postman-docs/postman-echo-api-response-v9.jpg)](https://assets.postman.com/postman-docs/postman-echo-api-response-v9.jpg)
+![Postman Echo response](https://assets.postman.com/postman-docs/v10/postman-echo-api-response-v10.jpg)
 
 ## Next steps
 

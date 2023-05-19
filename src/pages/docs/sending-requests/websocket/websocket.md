@@ -52,7 +52,7 @@ You can create a WebSocket request from the sidebar in Postman.
 
 1. Enter the WebSocket server URL. A WebSocket URL begins with `ws://` or `wss://`.
 
-    <img alt="WebSocket URL" src="https://assets.postman.com/postman-docs/v10/websocket-server-url-v10.jpg" width="600px"/>
+    <img alt="WebSocket URL" src="https://assets.postman.com/postman-docs/v10/websocket-server-url-v10-2.jpg" width="600px"/>
 
 1. Select **Connect**.
 1. To disconnect your WebSocket request's connection, select **Disconnect**.
@@ -160,6 +160,14 @@ See [Using variables](/docs/sending-requests/variables/) for more information on
 You can add details to your request, for example to send more parameters and headers. You can also configure the connection. Select the **Params**, **Headers**, or **Settings** tab to make changes.
 
 > You can't change request details while you are connected. You must make any changes before you connect, or select **Disconnect** to stop the current connection.
+
+### Selecting protocols
+
+You can change the protocol for a new request. Select **New** in the sidebar and then select a request protocol, or select **+** to open a new tab. Select the protocol dropdown menu to the left of the request's name, and then select a different request protocol.
+
+> You can't change the request protocol after you select **Save**.
+
+![Select protocol](https://assets.postman.com/postman-docs/v10/select-protocol-v10.gif)
 
 ### Sending parameters
 

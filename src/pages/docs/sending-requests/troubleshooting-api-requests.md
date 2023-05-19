@@ -54,7 +54,7 @@ Open the console by selecting <img alt="Console icon" src="https://assets.postma
 
 You will get an error message if Postman isn't able to send your request, or if it doesn't receive a response from the API you sent the request to. This message will include an overview of the issue and a link to the console, where you can access detailed information about the request.
 
-![Request not sent](https://assets.postman.com/postman-docs/response-error-console-link-v8.jpg)
+![Request not sent](https://assets.postman.com/postman-docs/v10/response-error-console-link-v10.jpg)
 
 Select __View in Console__ to inspect the request details in the console and find out more about what went wrong.
 
@@ -80,7 +80,7 @@ Using log statements at appropriate locations in your test scripts can help you 
 * `console.error()`
 * `console.clear()`
 
-[![Console info](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)
+![Console info](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)
 
 ## Common issues
 
