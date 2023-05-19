@@ -34,7 +34,6 @@ contextual_links:
   - type: link
     name: "Paylocity uses variables to automate workflows"
     url: "https://www.postman.com/case-studies/paylocity/"
-warning: false
 ---
 
 _Variables_ enable you to store and reuse values in Postman. By storing a value as a variable, you can reference it throughout your collections, environments, requests, and test scripts. Variables help you work efficiently, collaborate with teammates, and set up dynamic workflows.
