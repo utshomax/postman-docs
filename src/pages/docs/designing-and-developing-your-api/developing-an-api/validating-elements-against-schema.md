@@ -72,11 +72,11 @@ When you make updates to your API definition, Postman re-checks it. If your chan
 
 To hide a rule violation for the API definition, do the following:
 
-1. Select **Hide** next to the rule violation.
+1. Select <img alt="Hide rule violation icon" src="https://assets.postman.com/postman-docs/icon-eye-crossed-out.jpg#icon" width="18px"> **Hide** next to the rule violation.
 
     <img alt="Hide a rule violation in your API definition" src="https://assets.postman.com/postman-docs/v10/api-definition-hide-rule-violation-v10.1.jpg"/>
 
-1. Select a reason that you want to hide it, then select **Hide** again.
+1. Select a reason that you want to hide it, then select **Hide**.
 
     <img alt="" src="https://assets.postman.com/postman-docs/v10/api-definition-hide-rule-violation-choose-reason-v10.jpg" width="300px"/>
 
