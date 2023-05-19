@@ -437,53 +437,108 @@ export const leftNavItems = [
             url: '/docs/postman-flows/gs/flows-overview/',
           },
           {
-            name: 'About blocks and messages',
-            url: '/docs/postman-flows/gs/blocks-information/',
-          },
-          {
-            name: 'The Postman Flows interface',
-            url: '/docs/postman-flows/gs/the-interface/',
-          },
+            name: 'Navigating a flow',
+            url: '/docs/postman-flows/gs/navigating-a-flow/',
+          }
         ],
       },
       {
-        name: 'Postman Flows tutorials',
-        subParentSlug: 'tutorials',
-        slug: '/docs/postman-flows/tutorials/building-your-first-flow/',
+        name: 'Postman Flows concepts',
+        subParentSlug: 'concepts',
+        slug: '/docs/postman-flows/concepts/blocks-and-connections/',
         subMenuItems2: [
           {
-            name: 'Building your first flow',
-            url: '/docs/postman-flows/tutorials/building-your-first-flow/',
+            name: 'Blocks and connections',
+            url: '/docs/postman-flows/concepts/blocks-and-connections/',
           },
           {
-            name: 'Passing data between blocks',
-            url: '/docs/postman-flows/tutorials/passing-data-between-blocks/',
+            name: 'Requests and variables',
+            url: '/docs/postman-flows/concepts/requests-and-variables/',
           },
           {
-            name: 'Running requests in sequence',
-            url: '/docs/postman-flows/tutorials/running-requests-in-sequence/',
+            name: 'Passing information between blocks',
+            url: '/docs/postman-flows/concepts/passing-information-between-blocks/',
           },
           {
-            name: 'Using authorization with Postman Flows',
-            url: '/docs/postman-flows/tutorials/using-auth-with-flows/',
+            name: 'Adding authentication',
+            url: '/docs/postman-flows/concepts/adding-authentication/',
           },
           {
-            name: 'Using response data in a request',
-            url: '/docs/postman-flows/tutorials/using-response-data-in-a-request/',
+            name: 'Deploying a flow ',
+            url: '/docs/postman-flows/concepts/deploying-a-flow/',
           },
           {
-            name: 'Using webhooks with Postman Flows',
-            url: '/docs/postman-flows/tutorials/webhooks/',
+            name: 'Organizing a flow',
+            url: '/docs/postman-flows/concepts/organizing-a-flow/',
+          }
+        ],
+      },
+      {
+        name: 'Tutorials',
+        subParentSlug: 'tutorials',
+        slug: '/docs/postman-flows/tutorials/build-a-slack-bot/',
+        subMenuItems2: [
+          {
+            name: 'Send information from one system to another',
+            url: '/docs/postman-flows/tutorials/send-information-from-one-system-to-another/',
+          },
+          {
+            name: 'Build a Slack bot',
+            url: '/docs/postman-flows/tutorials/build-a-slack-bot/',
+          },
+          {
+            name: 'Creating a dashboard in Flows',
+            url: '/docs/postman-flows/tutorials/creating-a-dashboard-in-flows/',
+          },
+          {
+            name: 'Automating repetitive tasks',
+            url: '/docs/postman-flows/tutorials/automating-repetitive-tasks/',
+          },
+          {
+            name: 'Process information and then update the same system',
+            url: '/docs/postman-flows/tutorials/process-information-and-then-update-the-same-system/',
+          },
+          {
+            name: 'Make your own automatically scheduled tasks',
+            url: '/docs/postman-flows/tutorials/make-your-own-automatically-scheduled-tasks/',
+          }
+
+        ],
+      },
+      {
+        name: 'Postman Flows reference',
+        subParentSlug: 'reference',
+        slug: '/docs/postman-flows/reference/blocks-list/',
+        subMenuItems2: [
+          {
+            name: 'Preparing a collection to use in Flows',
+            url: '/docs/postman-flows/reference/preparing-a-collection-to-use-in-flows/',
+          },
+          {
+            name: 'Using different authorization types with Flows',
+            url: '/docs/postman-flows/reference/using-different-authorization-types-with-flows/',
+          },
+          {
+            name: 'Postman Flows blocks',
+            url: '/docs/postman-flows/reference/blocks-list/',
+          },
+          {
+            name: 'Working with date and time',
+            url: '/docs/postman-flows/reference/working-with-date-and-time/',
+          },
+          {
+            name: 'Finding and filtering data',
+            url: '/docs/postman-flows/reference/finding-and-filtering-data/',
           },
           {
             name: 'Creating charts, tables, and output',
-            url: '/docs/postman-flows/tutorials/creating-charts-tables-and-output/',
+            url: '/docs/postman-flows/reference/creating-charts-tables-and-output/',
           },
           {
-            name: 'Getting data from an array',
-            url: '/docs/postman-flows/tutorials/top-level-array/',
+            name: 'Debugging',
+            url: '/docs/postman-flows/reference/debugging/',
           },
-        ],
+        ]
       },
       {
         name: 'Flows Query Language',
@@ -515,21 +570,6 @@ export const leftNavItems = [
             url: '/docs/postman-flows/flows-query-language/function-reference/',
           },
         ],
-      },
-      {
-        name: 'Postman Flows reference',
-        subParentSlug: 'reference',
-        slug: '/docs/postman-flows/reference/blocks-list/',
-        subMenuItems2: [
-          {
-            name: 'Postman Flows blocks',
-            url: '/docs/postman-flows/reference/blocks-list/',
-          },
-          {
-            name: 'Postman Flows data types',
-            url: '/docs/postman-flows/reference/data-types/',
-          },
-        ]
       },
     ],
   },

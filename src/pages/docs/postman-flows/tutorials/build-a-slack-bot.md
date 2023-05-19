@@ -1,5 +1,5 @@
 ---
-title: "Using webhooks with Postman Flows"
+title: "Building a Slack bot with Postman Flows"
 updated: 2023-04-12
 contextual_links:
   - type: section
