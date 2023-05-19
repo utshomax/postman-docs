@@ -18,7 +18,6 @@ contextual_links:
   - type: link
     name: "Newman: run and test your collections from the command line"
     url: "https://blog.postman.com/newman-run-and-test-your-collections-from-the-command-line/"
-warning: false
 ---
 
 To get started using Newman, install Node.js, then Newman. Then you can run your collections.
