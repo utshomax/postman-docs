@@ -105,7 +105,7 @@ Postman Monitors give you continuous visibility into the health and performance 
 
 ## API Governance and API Security
 
-API governance is the practice of defining and applying development rules that promote consistent API behaviors across your organization's API landscape. A robust API security posture means that your organization has development rules that promote security-first API behaviors. The Postman API Governance and Postman API Security features can identify inconsistencies or weaknesses in your APIs, then recommend possible fixes or improvements.
+[API governance](https://www.postman.com/api-platform/api-governance/) is the practice of defining and applying development rules that promote consistent API behaviors across your organization's API landscape. A robust API security posture means that your organization has development rules that promote security-first API behaviors. The Postman API Governance and Postman API Security features can identify inconsistencies or weaknesses in your APIs, then recommend possible fixes or improvements.
 
 To learn more about Postman's API Governance and API Security features, see [API Governance and API Security in Postman](/docs/api-governance/api-governance-overview/).
 
