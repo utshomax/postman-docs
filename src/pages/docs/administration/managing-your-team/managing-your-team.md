@@ -4,6 +4,7 @@ order: 121
 updated: 2022-12-19
 page_id: "managing_your_team"
 warning: false
+pricingGroup: "basic"
 contextual_links:
   - type: section
     name: "Additional resources"

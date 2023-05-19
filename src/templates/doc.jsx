@@ -15,6 +15,8 @@ import { useModal } from '../components/modules/Modal';
 import PreviousAndNextLinks from '../components/modules/PreviousAndNextLinks';
 import BreadCrumbsLinks from '../components/modules/BreadCrumbsLinks';
 import { BaseLinkStyles, BaseLink, UnorderedListStyles, OrderedListStyles, } from 'aether-marketing';
+import { Pricing_Types } from '../components/Enum';
+
 
 const DocWrapper = styled.div`
   /* Used for Deeplinking */   
@@ -250,7 +252,17 @@ const DocContent = styled.div`
 
   
 `
+const PricingBlock = styled.blockquote`
+  font-weight: 600;
+  box-sizing: border-box;
+  width: 100%;
+  border: solid ${(props) => props.theme.colors.grey_20} 1px;
+  border-radius: ${(props) => props.theme.borderRadius.medium};
+  padding: 16px 24px;
+  background-color: ${(props) => props.theme.colors.grey_05};
+  margin-left: 0;
 
+`
 const RightColumnWrapper = styled.aside`
   margin-top: 0px;
   padding-left: 40px !important;
@@ -273,7 +285,9 @@ const RightColumnWrapper = styled.aside`
 }
 `
 
-const DocPage = ({ data }) => {
+const DocPage = ({ data, prop }) => {
+  // const {free, basic, professional} = props;
+
   const [modalData] = useState(data.markdownRemark);
   const post = data.markdownRemark;
   // Last modified date - bottom
@@ -294,6 +308,7 @@ const DocPage = ({ data }) => {
       doc.frontmatter.contextual_links && <ContextualLinks key={uuidv4()} links={doc.frontmatter.contextual_links} />
     )
   }
+
   // updates HTML to enable clickable images to display modal
 ( function ModifyHTML() {
     useEffect(() => {
@@ -308,6 +323,8 @@ const DocPage = ({ data }) => {
       null
     );
   })()
+
+
   return (
     <Layout>
       <SEO title={post.frontmatter.title} slug={post.fields.slug} lastModifiedTime={lastModifiedTime} />
@@ -334,6 +351,9 @@ const DocPage = ({ data }) => {
                     </div>
                     : null
                 }
+
+                 <PricingBlock><a href='https://www.postman.com/pricing'>{Pricing_Types(prop)[post.frontmatter.pricingGroup]}</a></PricingBlock>
+                
                 <p>
                   <small className="font-italic">Last modified: {lastModifiedDate}</small>
                 </p>
@@ -379,6 +399,7 @@ export const query = graphql`
       excerpt(pruneLength: 20000)
       frontmatter {
         title
+        pricingGroup
         contextual_links {
           type
           name
