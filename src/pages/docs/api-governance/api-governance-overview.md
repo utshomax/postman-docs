@@ -28,7 +28,7 @@ contextual_links:
     url: "https://blog.postman.com/5-ways-to-reduce-exposure-to-api-security-risks/"
 ---
 
-[API governance](https://www.postman.com/api-platform/api-governance/) is the practice of defining and applying development rules that promote consistent API behaviors across your organization's API landscape. And a robust API security posture means that your organization has development rules that promote security-first API behaviors. The _Postman API Governance_ and _Postman API Security_ features can identify inconsistencies or weaknesses in your APIs, then recommend possible fixes or improvements. With these features, you can create better and more secure APIs that follow industry best practices.
+[API governance](https://www.postman.com/api-platform/api-governance/) is the practice of defining and applying development rules that promote consistent API behaviors across your organization's API landscape. And a robust [API security](https://www.postman.com/api-platform/api-security/) posture means that your organization has development rules that promote security-first API behaviors. The _Postman API Governance_ and _Postman API Security_ features can identify inconsistencies or weaknesses in your APIs, then recommend possible fixes or improvements. With these features, you can create better and more secure APIs that follow industry best practices.
 
 Postman automatically checks your API definition and requests using predefined API governance and API security rules.
 

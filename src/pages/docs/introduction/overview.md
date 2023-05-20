@@ -79,7 +79,7 @@ To learn more about the Postman CLI, see the [Postman CLI overview](/docs/postma
 
 ## Collaborating in Postman
 
-Postman provides a variety of tools to enable and enhance collaboration within your team. You can create team workspaces, where team members can share their work and collaborate on API projects. Users can also discuss their work directly in Postman by commenting on collections and APIs, including on specific requests, versions, and inline on API definitions and scripts.
+Postman provides a variety of tools to enable and enhance [collaboration](https://www.postman.com/api-platform/api-collaboration/) within your team. You can create team workspaces, where team members can share their work and collaborate on API projects. Users can also discuss their work directly in Postman by commenting on collections and APIs, including on specific requests, versions, and inline on API definitions and scripts.
 
 To learn more about collaboration in Postman, see the [collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/).
 
@@ -105,7 +105,7 @@ Postman Monitors give you continuous visibility into the health and performance 
 
 ## API Governance and API Security
 
-[API governance](https://www.postman.com/api-platform/api-governance/) is the practice of defining and applying development rules that promote consistent API behaviors across your organization's API landscape. A robust API security posture means that your organization has development rules that promote security-first API behaviors. The Postman API Governance and Postman API Security features can identify inconsistencies or weaknesses in your APIs, then recommend possible fixes or improvements.
+[API governance](https://www.postman.com/api-platform/api-governance/) is the practice of defining and applying development rules that promote consistent API behaviors across your organization's API landscape. A robust [API security](https://www.postman.com/api-platform/api-security/) posture means that your organization has development rules that promote security-first API behaviors. The Postman API Governance and Postman API Security features can identify inconsistencies or weaknesses in your APIs, then recommend possible fixes or improvements.
 
 To learn more about Postman's API Governance and API Security features, see [API Governance and API Security in Postman](/docs/api-governance/api-governance-overview/).
 
