@@ -40,7 +40,7 @@ contextual_links:
     url:  "https://www.postman.com/postman/workspace/e348c5a0-2965-44cc-87ed-7b316516f38d"
 ---
 
-Postman Monitors give you continuous visibility into the health and performance of your APIs. Collection-based monitors enable you to run API test scripts, chain together multiple requests, and validate critical API flows.
+Postman Monitors give you [continuous visibility into the health and performance of your APIs](https://www.postman.com/api-platform/api-observability/). Collection-based monitors enable you to run API test scripts, chain together multiple requests, and validate critical API flows.
 
 Once the monitor is running you’ll be alerted to any test failures, so you can identify and address issues before your API’s consumers are affected.
 
