@@ -185,4 +185,4 @@ After writing tests in Postman, you could write more complex tests and use them 
 
 * For more information about what you can do using the `pm` object, check out some test script [examples](/docs/writing-scripts/script-references/test-examples/) and visit the [Postman Sandbox API reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/).
 * To learn how to use tests in conjunction with monitoring, which enables you to confirm that your API meets performance requirements, visit [Monitoring your APIs](/docs/monitoring-your-api/intro-monitors/).
-* To learn how to automate your testing by integrating collection runs within your CI/CD configuration, visit [Integrating with Travis CI](/docs/collections/using-newman-cli/integration-with-travis/).
+* To learn how to [automate your testing](https://www.postman.com/api-platform/api-test-automation/) by integrating collection runs within your CI/CD configuration, visit [Integrating with Travis CI](/docs/collections/using-newman-cli/integration-with-travis/).
