@@ -33,6 +33,9 @@ const pageQuery = `{
           slug
         }
         rawMarkdownBody
+        internal {
+          contentDigest
+        }
       }
     }
   }
@@ -96,9 +99,8 @@ const queries = [
       //   .map(edge => edge.node)
       //   .map(pageToAlgoliaRecord)
       //   .map(handleRawBody)
-      //   .flatMap((x) => [x], []),
         // .reduce((acc, cur) => [...acc, ...cur], []),
-       return data.allMarkdownRemark.edges.map(edge => edge.node).reduce((indeces, post) => {
+       return data.allMarkdownRemark.edges.map(edge => edge.node).reduce((acc, post) => {
           // console.log('post ', post)
           const pChunks = post.rawMarkdownBody.split('##');
           
@@ -107,12 +109,12 @@ const queries = [
             headings: post.headings,
             fields: post.fields.slug,
             title: post.frontmatter.title,
+            internal: post.internal,
             content: chnk
           }));
 
           // const filtered = chunks.filter(chnk => !!chnk.content);
-          console.log('------------------------------------------------------------', chunks)
-          return [...indeces, ...chunks]
+          return [...acc, ...chunks]
         }, [])
     },
     indexName: algoliaIndex,

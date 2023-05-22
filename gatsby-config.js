@@ -143,6 +143,7 @@ module.exports = {
         appId: process.env.GATSBY_ALGOLIA_APP_ID,
         apiKey: process.env.ALGOLIA_ADMIN_KEY,
         queries,
+        dryRun: false,
         chunkSize: 10000, // default: 1000
         enablePartialUpdates: true, // only index new, changed, deleted records
         matchFields: ['excerpt', 'contextual_links', 'search_keyword', 'headings', 'fields', 'modified', 'content', 'objectID', 'content'],
