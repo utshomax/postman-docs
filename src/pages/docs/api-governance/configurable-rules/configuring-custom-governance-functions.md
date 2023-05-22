@@ -7,7 +7,7 @@ updated: 2023-03-15
 
 You can create custom governance functions and use them in your [custom API Governance rules](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules) that Postman applies to your [API definitions](/docs/api-governance/api-definition/api-definition-warnings/).
 
-<!-- Team Admins with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create custom functions that you can use in your [custom API Governance rules](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules). -->
+> Only [API Governance Managers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can manage custom governance functions for their team.
 
 ## Contents
 
