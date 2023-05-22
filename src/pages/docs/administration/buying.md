@@ -1,9 +1,6 @@
 ---
 title: "Purchasing Postman"
-order: 122
-updated: 2020-05-22
-page_id: "buying"
-warning: false
+updated: 2023-05-22
 contextual_links:
   - type: section
     name: "Additional resources"
