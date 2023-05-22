@@ -1,8 +1,6 @@
 ---
 title: "Echo API"
-order: 147
-page_id: "echo_api"
-updated: 2021-12-06
+updated: 2023-05-19
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -24,9 +22,6 @@ contextual_links:
   - type: link
     name: "Exploring the Public API Network"
     url: "/docs/getting-started/exploring-public-api-network/"
-
-warning: false
-
 ---
 
 You can use the Postman Echo API to test requests in Postman. The Echo API returns a JSON response that includes all details from the request you sent, including any data items you included.
@@ -43,9 +38,9 @@ To test the Echo API, open a new request in Postman and enter the following path
 postman-echo.com/get
 ```
 
-Select the `GET` method, then select __Send__. The Echo API will return a JSON object that contains details from the request.
+Select the `GET` method, then select __Send__. The Echo API will return a JSON object that has details from the request.
 
-[![Postman Echo response](https://assets.postman.com/postman-docs/postman-echo-api-response-v9.jpg)](https://assets.postman.com/postman-docs/postman-echo-api-response-v9.jpg)
+![Postman Echo response](https://assets.postman.com/postman-docs/v10/postman-echo-api-response-v10.jpg)
 
 ## Next steps
 
