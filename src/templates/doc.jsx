@@ -15,7 +15,7 @@ import { useModal } from '../components/modules/Modal';
 import PreviousAndNextLinks from '../components/modules/PreviousAndNextLinks';
 import BreadCrumbsLinks from '../components/modules/BreadCrumbsLinks';
 import { BaseLinkStyles, BaseLink, UnorderedListStyles, OrderedListStyles, } from 'aether-marketing';
-import { Pricing_Types } from '../components/Enum';
+import { Pricing_Group } from '../components/pricing_group';
 
 
 const DocWrapper = styled.div`
@@ -252,17 +252,17 @@ const DocContent = styled.div`
 
   
 `
-const PricingBlock = styled.blockquote`
-  font-weight: 600;
-  box-sizing: border-box;
-  width: 100%;
-  border: solid ${(props) => props.theme.colors.grey_20} 1px;
-  border-radius: ${(props) => props.theme.borderRadius.medium};
-  padding: 16px 24px;
-  background-color: ${(props) => props.theme.colors.grey_05};
-  margin-left: 0;
+// const PricingBlock = styled.blockquote`
+//   font-weight: 600;
+//   box-sizing: border-box;
+//   width: 100%;
+//   border: solid ${(props) => props.theme.colors.grey_20} 1px;
+//   border-radius: ${(props) => props.theme.borderRadius.medium};
+//   padding: 16px 24px;
+//   background-color: ${(props) => props.theme.colors.grey_05};
+//   margin-left: 0;
 
-`
+// `
 const RightColumnWrapper = styled.aside`
   margin-top: 0px;
   padding-left: 40px !important;
@@ -352,7 +352,9 @@ const DocPage = ({ data, prop }) => {
                     : null
                 }
 
-                 <PricingBlock><a href='https://www.postman.com/pricing'>{Pricing_Types(prop)[post.frontmatter.pricingGroup]}</a></PricingBlock>
+                 {/* <PricingBlock> */}
+                  {Pricing_Group(prop)[post.frontmatter.pricingGroup]}
+                  {/* </PricingBlock> */}
                 
                 <p>
                   <small className="font-italic">Last modified: {lastModifiedDate}</small>

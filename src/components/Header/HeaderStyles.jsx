@@ -72,7 +72,12 @@ export const NavStyles = styled.nav`
        max-height: none;
      }
    }
-
+   .navbar-nav, .dropdown-menu, .dropdown-toggle  {
+    border: none !important;
+  }
+  .navbar-nav, .dropdown-menu {
+  padding-top: 0px !important;
+  }
    /* Postman Logo and Home Logo switching */
    & .navbar-brand {
      margin-bottom: 0;
@@ -113,7 +118,7 @@ export const NavStyles = styled.nav`
      padding: 6px 16px;
      &:hover {
        border-bottom: none;
-       color: ${(props) => props.theme.colors.grey_50} !important;
+       color: ${(props) => props.theme.colors.grey_90} !important;
      }
 
      &:focus {
@@ -277,6 +282,7 @@ export const NavStyles = styled.nav`
      }
    }
  
+   
    /* Learning Center Link */
    & .property-context-menu {
      & .nav-link:link,
@@ -368,13 +374,11 @@ export const NavStyles = styled.nav`
 
 export const DropdownStyles = styled.div`
      /* Individual Dropdown Item */
-
+ 
      line-height: 20px;
      z-index: 2147483650;
-     padding: 16px;
-     border-radius: ${(props) => props.theme.borderRadius.medium};
-     border: 1px solid ${(props) => props.theme.colors.grey_20};
-     box-shadow: 0 16px 24px -8px rgb(0 0 0 / 24%);
+     padding: 16px 24px;
+    
 
     .dropdown-item {
       padding: 8px 16px;
@@ -396,10 +400,11 @@ export const DropdownStyles = styled.div`
   .dropdown-menu {
     /* Mobile Dropdown */
     background-color: ${(props) => props.theme.colors.grey_00};
-    border: none;
+    border: none !important;
     padding: 0 0 16px 24px;
     line-height: 20px;
     font-size: 1.4rem;
+  
 
     /* Web Dropdown */
     @media screen and (min-width: 992px) {
