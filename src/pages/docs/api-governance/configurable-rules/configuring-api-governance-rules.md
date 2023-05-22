@@ -49,7 +49,6 @@ In addition to the rules turned on by default in Postman, you can add other rule
 
 The rule library has Postman's API governance guidelines, Zalando's RESTful API and event guidelines, and Postman's OWASP API guidelines.
 
-1. Go to the [Postman home screen](https://go.postman.co/), and then select **API Governance** from the team information pane.
 1. Select the **Rule Library** tab, and then select the **Rules** tab.
 1. Select **Import** to open the rule library.
 1. Select **Import** next to a rule to import it. Details and API format requirements are available under the rule name.
