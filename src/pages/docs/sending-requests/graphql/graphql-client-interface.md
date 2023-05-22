@@ -46,7 +46,7 @@ warning: false
 
 GraphQL requests in Postman include a variety of tools, views, and controls to help you debug and document your GraphQL API effectively and efficiently. This document highlights the parts of the request interface and the response and explains how to use them.
 
-<img src="https://assets.postman.com/postman-docs/v10/request-full-view-v10.jpg" alt="Different sections of a GraphQL request">
+<img src="https://assets.postman.com/postman-docs/v10/graphql-request-full-view-v10-2.jpg" alt="Different sections of a GraphQL request">
 
 ## Contents
 
@@ -60,8 +60,7 @@ GraphQL requests in Postman include a variety of tools, views, and controls to h
 
 ## Creating a new request
 
-You can create a new GraphQL request from the Postman home screen, by using **New > GraphQL**, or by selecting **+** to open a new tab.
- **+** to open a new tab.
+You can create a new GraphQL request from a workspace, by using **New > GraphQL**, or by selecting **+** to open a new tab.
 
 ![Create a new GraphQL request](https://assets.postman.com/postman-docs/v10/graphql-create-new-3-v10.jpg)
 
@@ -79,7 +78,13 @@ You can also choose to [load a GraphQL API from Postman](/docs/designing-and-dev
 
 The request interface enables you to add configurations to connect to the server and execute the query. You can define the URL, load the schema, build your query, and select **Query** to execute it. Based on the API requirements, you may also need to pass authorization details, additional metadata, and settings along with the query.
 
-<img src="https://assets.postman.com/postman-labs-docs/graphql-docs/request-sections.jpg" alt="Different sections of the request interface">
+<img src="https://assets.postman.com/postman-docs/v10/graphql-request-section-v10.jpg" alt="Different sections of the request interface">
+
+* **Protocol menu** - You can change the protocol for a new request. Select **New** in the sidebar and then select a request protocol, or select **+** to open a new tab. Select the protocol dropdown menu to the left of the request's name, and then select a different request protocol.
+
+    > You can't change the request protocol after you select **Save**.
+
+    <img src="https://assets.postman.com/postman-docs/v10/select-protocol-v10.gif" alt="Select protocol" />
 
 * **URL** - Defines the endpoint where the service is hosted. While creating a new request, you can also browse through URLs you've used by selecting the **URL** field. This helps you create the request faster if you’re going to execute different queries with the same point.
 * **Query button** - Once you have defined the URL and built the query, you can select **Query** to execute it. Once the query is executed, the server sends back a response with the requested data.

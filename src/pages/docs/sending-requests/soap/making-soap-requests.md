@@ -23,20 +23,28 @@ contextual_links:
     name: "SOAP: Fahrenheit to Celsius conversion"
     url: "https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-468bc02d-1eb5-40d6-bf98-b4e5c6574e41?ctx=documentation"
 
-warning: false
-
 ---
 
-Postman can make HTTP calls using SOAP, a platform-independent messaging protocol specification.
+Postman can make HTTP calls using SOAP, a platform-independent messaging protocol specification. The following steps show how to make a SOAP request in Postman.
 
-The following steps show how to make a SOAP request in Postman.
+## Contents
+
+* [Entering your SOAP endpoint](#entering-your-soap-endpoint)
+* [Adding body data](#adding-body-data)
+* [Setting your request headers](#setting-your-request-headers)
+* [Sending your request](#sending-your-request)
+* [SOAP request examples](#soap-request-examples)
 
 ## Entering your SOAP endpoint
 
-1. Open a new request tab in Postman and enter your SOAP endpoint URL in the address field.
+1. Select __New > HTTP__ to open an HTTP request in a new tab.
+
+    <img alt="Create new request" src="https://assets.postman.com/postman-docs/v10/create-new-http-v10-3.jpg" width="500px"/>
+
+1. Enter your SOAP endpoint URL in the address field.
 1. Select __POST__ from the request method dropdown list.
 
-<img src="https://assets.postman.com/postman-docs/soap-method-v9.jpg" alt="SOAP method" width="500px"/>
+    <img src="https://assets.postman.com/postman-docs/v10/soap-method-v10.jpg" alt="SOAP method"/>
 
 As an example, use the following endpoint URL:
 
@@ -53,7 +61,7 @@ This SOAP endpoint changes numeric values into their text equivalents, for examp
 1. In the __Body__ tab, select __raw__ and choose __XML__ from the dropdown list.
 1. Enter your XML in the text entry area.
 
-![SOAP body type](https://assets.postman.com/postman-docs/soap-body-type-v9.jpg)
+    ![SOAP body type](https://assets.postman.com/postman-docs/v10/soap-body-type-v10.jpg)
 
 If you want to test the number conversion SOAP API used in the last section, enter the following XML in the text entry area:
 
@@ -81,13 +89,13 @@ To set request headers, do the following:
 1. Open the request __Headers__. If the auto-generated headers are hidden, select the notice to display them.
 1. Deselect the `Content-Type` header Postman added automatically.
 1. Add a new row with `Content-Type` in the __Key__ field and `text/xml` in the __Value__ field.
-1. Add a new row for a header with  `SOAPAction` in the __Key__ field and `"#MethodName"` in the __Value__ field. (The quotes are required.) Without this header, the service will return 500.
+1. Add a new row for a header with  `SOAPAction` in the __Key__ field and `"#MethodName"` in the __Value__ field. (The quotes are required.) Without this header, the service will return `500`.
 
-![SOAP Content Type](https://assets.postman.com/postman-docs/soap-content-type-v9.jpg)
+    ![SOAP Content Type](https://assets.postman.com/postman-docs/v10/soap-content-type-v10.jpg)
 
 ## Sending your request
 
-1. Select __Send__ to make your call to the SOAP service. If your call is successful, Postman displays the response in the lower tab.
+Select __Send__ to make your call to the SOAP service. If your call is successful, Postman displays the response in the lower tab.
 
 ![SOAP response data](https://assets.postman.com/postman-docs/soap-response-data-v9.jpg)
 
