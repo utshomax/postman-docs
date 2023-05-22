@@ -70,6 +70,10 @@ To add a custom rule, do the following:
 
     > Postman will prompt you with suggestions as you enter text. Select one to autocomplete your rule.
 
+    <!-- -->
+
+    > You can write and add custom functions to your custom governance rules. For more information, see [Adding custom governance functions](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/).
+
 1. The rule must be valid YAML or JSON. Use the dropdown list to choose the correct syntax.
 1. Select **Create**.
 
