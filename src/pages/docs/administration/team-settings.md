@@ -62,6 +62,7 @@ Your team profile includes:
 * A list containing links to your team members' profiles
 * A **Team Description** section
 * A **Highlights** section with pinned elements
+* A **Related collections and flows** section with collections and flows using your team's APIs (suggested by Postman)
 * Links to all your team's public collections, APIs, workspaces, and flows
 
 <img alt="Example of a filled-in team profile" src="https://assets.postman.com/postman-docs/v10/team-settings-overview-v10.1.jpg" width="800px"/>

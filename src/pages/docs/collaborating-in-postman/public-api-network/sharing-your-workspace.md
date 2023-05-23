@@ -13,7 +13,7 @@ contextual_links:
 ---
 
 
-Postman recommends following these best practices and tips to share your public workspace with API consumers and track interest and activity for your APIs on [the Public API Network](/docs/getting-started/exploring-public-api-network/).
+Postman recommends following these best practices and tips to [share your public workspace with API consumers](https://www.postman.com/api-platform/api-catalog/) and track interest and activity for your APIs on [the Public API Network](/docs/getting-started/exploring-public-api-network/).
 
 ## Contents
 

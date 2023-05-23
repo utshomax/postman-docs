@@ -25,10 +25,8 @@ contextual_links:
   - type: section
     name: "Next steps"
   - type: link
-    name: "Postman API overview"
+    name: "Postman API documentation"
     url: "/docs/developer/postman-api/intro-api/"
-
-warning: false
 ---
 
 _Custom reporters_ are useful to generate collection run reports with Newman that cater to specific use cases, for example, logging out the response body when a request (or its tests) fail.

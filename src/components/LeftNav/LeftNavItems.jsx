@@ -94,6 +94,10 @@ export const leftNavItems = [
         url: '/docs/getting-started/about-postman-agent/',
       },
       {
+        name: 'Using the lightweight API Client',
+        url: '/docs/getting-started/using-api-client/',
+      },
+      {
         name: 'Using the Scratch Pad',
         url: '/docs/getting-started/using-scratch-pad/',
       },
@@ -112,6 +116,10 @@ export const leftNavItems = [
       {
         name: 'Using a custom proxy',
         url: '/docs/getting-started/proxy/',
+      },
+      {
+        name: 'About the Postman VS Code extension',
+        url: '/docs/getting-started/about-vs-code-extension/',
       },
       {
         name: 'Troubleshooting app issues',
@@ -200,8 +208,31 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Querying with GraphQL',
-        url: '/docs/sending-requests/graphql/graphql/',
+        name: 'Using GraphQL requests',
+        subParentSlug: 'graphql',
+        slug: '/docs/sending-requests/graphql/graphql-overview/',
+        subMenuItems2: [
+          {
+            name: 'GraphQL overview',
+            url: '/docs/sending-requests/graphql/graphql-overview/',
+          },
+          {
+            name: 'About the GraphQL client',
+            url: '/docs/sending-requests/graphql/graphql-client-overview/',
+          },
+          {
+            name: 'Using the GraphQL interface',
+            url: '/docs/sending-requests/graphql/graphql-client-interface/',
+          },
+          {
+            name: 'Making your first request with the GraphQL client',
+            url: '/docs/sending-requests/graphql/graphql-client-first-request/',
+          },
+          {
+            name: 'Using GraphQL with the HTTP request interface',
+            url: '/docs/sending-requests/graphql/graphql-http/',
+          },
+        ]
       },
       {
         name: 'Using gRPC requests',
@@ -441,7 +472,7 @@ export const leftNavItems = [
             url: '/docs/postman-flows/gs/flows-overview/',
           },
           {
-            name: 'About blocks and messages',
+            name: 'About blocks',
             url: '/docs/postman-flows/gs/blocks-information/',
           },
           {
@@ -593,8 +624,8 @@ export const leftNavItems = [
         url: '/docs/collaborating-in-postman/roles-and-permissions/',
       },
       {
-        name: 'Requesting access',
-        url: '/docs/collaborating-in-postman/requesting-access-to-collections/',
+        name: 'Requesting access to elements',
+        url: '/docs/collaborating-in-postman/requesting-access-to-elements/',
       },
       {
         name: 'Sharing your work',
@@ -1180,12 +1211,12 @@ export const leftNavItems = [
         url: '/docs/developer/resources-intro/',
       },
       {
-        name: 'Postman API',
+        name: 'Using the Postman API',
         subParentSlug: 'postman-api',
         slug: '/docs/developer/postman-api/intro-api/',
         subMenuItems2: [
           {
-            name: 'Postman API overview',
+            name: 'Postman API documentation',
             url: '/docs/developer/postman-api/intro-api/'
           },
           {

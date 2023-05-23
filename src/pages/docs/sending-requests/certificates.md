@@ -55,7 +55,7 @@ To avoid "self signed certificate" errors when sending requests, add your custom
 1. Turn on the toggle next to **CA Certificates**.
 1. Select the **PEM file** for your CA certificate. (The PEM file can contain multiple CA certificates.)
 
-[![Adding a CA certificate](https://assets.postman.com/postman-docs/certificates-add-ca-cert-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-add-ca-cert-v9-14.jpg)
+![Adding a CA certificate](https://assets.postman.com/postman-docs/certificates-add-ca-cert-v9-14.jpg)
 
 ### Adding client certificates
 
@@ -71,7 +71,7 @@ To send requests to an API that uses mutual TLS authentication, add your client 
 1. If you used a **Passphrase** when generating the client certificate, enter it in the box. Otherwise, leave the box blank.
 1. Select **Add**.
 
-[![Adding a client certificate](https://assets.postman.com/postman-docs/certificates-add-client-cert-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-add-client-cert-v9-14.jpg)
+![Adding a client certificate](https://assets.postman.com/postman-docs/certificates-add-client-cert-v9-14.jpg)
 
 > Each client certificate is specific to a domain. To send requests to more domains, add the appropriate certificate for each domain. Don't add more than one certificate for the same domain. If you add more than one certificate for a domain, Postman will use the last certificate added.
 
@@ -100,13 +100,13 @@ You can confirm that a certificate was sent using the [Postman Console](/docs/se
 
 In the example below, Postman sent the certificate because the request used `https://`. You can expand the request to view details about the certificate that was sent with the request.
 
-[![Certificate details in console](https://assets.postman.com/postman-docs/certificates-console-details-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-console-details-v9-14.jpg)
+![Certificate details in console](https://assets.postman.com/postman-docs/certificates-console-details-v9-14.jpg)
 
 ### Viewing certificate details
 
 You can view more certificate details in the response pane. The network icon <img alt="Network information locked icon" src="https://assets.postman.com/postman-docs/icon-globe-locked.jpg#icon" width="16px"> includes a padlock if a request was sent using HTTPS. Hover over the network icon to view information about the certificate that was sent with the request, and any warnings or errors such as self-signed or expired certificates.
 
-[![Network details](https://assets.postman.com/postman-docs/certificates-network-details-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-network-details-v9-14.jpg)
+![Network details](https://assets.postman.com/postman-docs/v10/certificates-network-details-v10.jpg)
 
 ### Troubleshooting certificate errors
 
@@ -118,14 +118,14 @@ To turn off SSL verification for the request, do the following:
 1. Select **Enable SSL certificate verification** to turn off this setting.
 1. Send the request again.
 
-[![SSL certificate verification](https://assets.postman.com/postman-docs/certificates-ssl-verification-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-ssl-verification-v9-14.jpg)
+![SSL certificate verification](https://assets.postman.com/postman-docs/v10/certificates-ssl-verification-v10.jpg)
 
 > You can turn off SSL verification globally in the [Postman settings](/docs/getting-started/settings/) on the **General** tab.
 
 If SSL verification is turned off, you can hover over the network icon <img alt="Network information error icon" src="https://assets.postman.com/postman-docs/icon-globe-error.jpg#icon" width="16px"> in the response pane to get details about any certificate errors or warnings.
 
-[![Network information error](https://assets.postman.com/postman-docs/certificates-network-error-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-network-error-v9-14.jpg)
+![Network information error](https://assets.postman.com/postman-docs/v10/certificates-network-error-v10.jpg)
 
 You can also find more information about certificate errors in the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/).
 
-[![Console certificate error](https://assets.postman.com/postman-docs/certificates-console-error-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-console-error-v9-14.jpg)
+![Console certificate error](https://assets.postman.com/postman-docs/certificates-console-error-v9-14.jpg)
