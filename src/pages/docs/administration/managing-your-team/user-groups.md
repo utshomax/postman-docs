@@ -3,7 +3,7 @@ title: "Managing user groups"
 order: 141
 page_id: "managing_user_groups"
 warning: false
-pricingGroup: "free"
+pricingGroup: "basic"
 updated: 2021-12-06
 contextual_links:
   - type: section

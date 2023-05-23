@@ -254,13 +254,14 @@ const DocContent = styled.div`
 `
 // const PricingBlock = styled.blockquote`
 //   font-weight: 600;
+//   color: ${(props) => props.theme.colors.blue_60}!important; 
 //   box-sizing: border-box;
 //   width: 100%;
 //   border: solid ${(props) => props.theme.colors.grey_20} 1px;
 //   border-radius: ${(props) => props.theme.borderRadius.medium};
 //   padding: 16px 24px;
-//   background-color: ${(props) => props.theme.colors.grey_05};
-//   margin-left: 0;
+//   /* background-color: ${(props) => props.theme.colors.grey_05}; */
+//   /* margin-left: 0; */
 
 // `
 const RightColumnWrapper = styled.aside`
@@ -287,7 +288,7 @@ const RightColumnWrapper = styled.aside`
 
 const DocPage = ({ data, prop }) => {
   // const {free, basic, professional} = props;
-
+console.log(prop)
   const [modalData] = useState(data.markdownRemark);
   const post = data.markdownRemark;
   // Last modified date - bottom
