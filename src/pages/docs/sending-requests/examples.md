@@ -61,7 +61,7 @@ An example is always associated with a [request](/docs/sending-requests/requests
 
 > For optimal Postman performance, example responses must be smaller than 5 MB.
 
-![Adding example](https://assets.postman.com/postman-docs/v10/sending-example-response-request-v10.jpg)
+![Adding example](https://assets.postman.com/postman-docs/v10/postman-request-builder-v10-2.jpg)
 
 ### Saving a response as an example
 
@@ -69,9 +69,9 @@ When saving a [response](/docs/sending-requests/responses/) in Postman, you have
 
 1. Select **Collections** in the sidebar.
 1. Open a request and select **Send**.
-1. In the response pane, select **Save Response** and then select **Save as example**.
+1. In the response pane, select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save as Example**.
 
-<img alt="Save a response as an example" src="https://assets.postman.com/postman-docs/v10/examples-save-response-v10.jpg" width="750px">
+    <img alt="Save a response as an example" src="https://assets.postman.com/postman-docs/v10/examples-save-response-v10-2.jpg">
 
 > You can't add examples to WebSocket requests. For WebSocket requests, you can [save messages](/docs/sending-requests/websocket/websocket/#saving-messages) with the request.
 <!-- -->
@@ -88,7 +88,7 @@ With a custom example, you can define how both the [request](/docs/sending-reque
     * Add any parameters or headers as needed.
     * Enter the request body and select a content type.
 1. Edit the response part of the example.
-    * Enter a **Status Code** (such as 200 or 404).
+    * Enter a **Status Code** (such as `200` or `404`).
     * Enter the response body and select a content type.
     * Add any headers as needed.
 1. Select **Save** to save the example.
@@ -103,17 +103,17 @@ Examples are stored in a collection with their associated requests. You can try 
 1. Select a request, and then select an example to open it.
 1. Select **Try** to open the example as a request in a new tab. The request will automatically send in the new tab.
 
-    ![Trying example](https://assets.postman.com/postman-docs/v10/sending-example-response-v10.jpg)
+    ![Trying example](https://assets.postman.com/postman-docs/v10/sending-example-response-v10-2.jpg)
 
 1. Review the request and response details.
 
-    ![Open example as a request](https://assets.postman.com/postman-docs/v10/sending-example-response-duplicate-request-v10.jpg)
+    ![Open example as a request](https://assets.postman.com/postman-docs/v10/sending-example-response-duplicate-request-v10-2.jpg)
 
     > The new request isn't automatically saved.
 
     The name of the example you're trying is next to the request's name in the workbench. Select the example's name to open it in a separate tab.
 
-    <img alt="Select example name" src="https://assets.postman.com/postman-docs/v10/example-response-name-v10.jpg" width="500px">
+    <img alt="Select example name" src="https://assets.postman.com/postman-docs/v10/example-response-name-v10-2.jpg">
 
 1. Optionally, you can select **Save** to save the new request to a new or existing collection in your workspace.
 1. Choose a location to save the new request, and then select **Save**.
@@ -137,13 +137,13 @@ To edit an example after trying it, do the following:
 1. Select a request, and then select an example to open it.
 1. Select **Try** to open the example as a request in a new tab.
 
-    ![Trying example](https://assets.postman.com/postman-docs/v10/sending-example-response-v10.jpg)
+    ![Trying example](https://assets.postman.com/postman-docs/v10/sending-example-response-v10-2.jpg)
 
 1. Make any changes to the new request.
 1. Select **Send**.
-1. In the response pane, select **Save Response** and then select **Update example**. You will receive confirmation once the example is updated.
+1. In the response pane, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and then select **Update example**. You will receive confirmation once the example is updated.
 
-    ![Updating example](https://assets.postman.com/postman-docs/v10/updating-example-response-v10.jpg)
+    ![Updating example](https://assets.postman.com/postman-docs/v10/updating-example-response-v10-2.jpg)
 
     > The new request isn't automatically saved.
 
