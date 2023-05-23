@@ -1,7 +1,7 @@
 ---
 title: "Postman API authentication"
-updated: 2022-02-17
-search_keyword: "postman-api-key, collection-access-key, postman-api"
+updated: 2023-05-30
+search_keyword: "postman api key, collection access key, postman api"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -85,12 +85,14 @@ Your API Key provides access to any Postman data you have permissions for.
 
 You can store your API key in a [variable](/docs/sending-requests/variables/). If you name it `postman_api_key`, the Postman API collection will use it automatically.
 
-## Generate a Collection Access Key
+## Generate a collection access key
 
-With a Collection Access Key, you can securely grant other users read-only access to a single collection. Your [API Keys page](https://go.postman.co/settings/me/api-keys) has a list of all the keys you have generated, and includes information about which collection the key belongs to and when it was generated.
+With a collection access key you can securely grant other users read-only access to a single collection. Your [API Keys page](https://go.postman.co/settings/me/api-keys) displays all of your generated keys and includes information about which collection the key belongs to and when it was generated.
 
-You will generate a new Collection Access Key every time you share a collection using the Postman API. To learn more, see [Sharing using the Postman API](/docs/collaborating-in-postman/sharing/#sharing-using-the-postman-api).
+> If you have the Admin role in a collection's workspace, this page also displays the collection access keys created by other users.
 
-To revoke a Collection Access Key, select **Delete**.
+You will generate a new collection access key every time you share a collection using the Postman API. To learn more, see [Sharing using the Postman API](/docs/collaborating-in-postman/sharing/#sharing-using-the-postman-api).
+
+To revoke a collection access key, select **Delete**.
 
 <img alt="Deleting collection access keys" src="https://assets.postman.com/postman-docs/v10/collection-access-keys-v10.15.jpg"/>

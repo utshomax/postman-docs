@@ -1,9 +1,7 @@
 ---
 title: "Managing public elements"
-order: 76.1
-updated: 2023-05-17
-page_id: "manage_public_elements"
-warning: false
+updated: 2023-05-30
+search_keyword: "collection links, collection JSON links, collection access key, manage public elements, public documentation, public workspaces"
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -23,7 +21,6 @@ contextual_links:
   - type: link
     name: "Creating workspaces"
     url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
-search_keyword: "collection links, collection JSON links, manage public elements, public documentation, public workspaces"
 ---
 
 > **[Manage public elements is available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
@@ -36,7 +33,7 @@ The [Manage public elements](https://blog.postman.com/govern-your-public-api-col
     * [Workspaces](#workspaces)
     * [Public documentation](#public-documentation)
     * [Collection JSON Links](#collection-json-links)
-    * [Collection Access Links](#collection-access-links)
+    * [Collection Access Keys](#collection-access-keys)
 
 ### Managing public elements
 
@@ -72,14 +69,14 @@ The dashboard's **Collection JSON Links** tab displays all the collections with 
 
 As a Community Manager, you can view or delete a collection JSON link. In addition to the collection name, the dashboard displays more information about the date the link was updated on, who updated the link, and the JSON link.
 
-#### Collection Access Links
+#### Collection Access Keys
 
-The dashboard's **Collection Access Links** tab displays the setting to enable or disable the creation of [Collection Access Keys](/docs/developer/postman-api/authentication/#generate-a-collection-access-key) in your team. You can choose whether teams have the ability to share their collections with anyone, even users outside of the team.
+The dashboard's **Collection Access Keys** tab displays the setting to enable or disable the creation of [Collection Access Keys](/docs/developer/postman-api/authentication/#generate-a-collection-access-key) in your team. You can choose whether teams have the ability to share their collections with anyone, even users outside of the team.
 
 The tab also displays all of the team's active Collection Access Keys. To revoke a key, select **Delete**.
 
-<img alt="The Collection Access Links tab" src="https://assets.postman.com/postman-docs/manage-public-elements-collection-access-links-v10.15.jpg"/>
+<img alt="The Collection Access Keys tab" src="https://assets.postman.com/postman-docs/manage-public-elements-collection-access-links-v10.15.jpg"/>
 
-If you disable the **Allow creation of Collection Access Keys** setting, this will prevent users from [creating new Collection Access Keys](/docs/collaborating-in-postman/sharing/#sharing-using-the-postman-api). Postman also displays a confirmation window where you can choose additional actions:
-* Select **Keep All Keys** to keep all existing keys, but prevent users from [creating new Collection Access Keys](/docs/collaborating-in-postman/sharing/#sharing-using-the-postman-api).
+If you disable the **Allow creation of Collection Access Keys** setting this prevents users from [creating new Collection Access Keys](/docs/collaborating-in-postman/sharing/#sharing-using-the-postman-api). Postman also displays a confirmation window where you can select additional actions:
+* Select **Keep All Keys** to keep all existing keys, but prevent users from creating new keys.
 * Select **Revoke All Keys** to also remove all of your team's existing keys.
