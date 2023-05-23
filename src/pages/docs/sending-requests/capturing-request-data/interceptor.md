@@ -5,11 +5,6 @@ page_id: "interceptor"
 updated: 2022-03-02
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Capturing HTTP requests"
-    url: "/docs/sending-requests/capturing-request-data/capturing-http-requests/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

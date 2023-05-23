@@ -3,11 +3,6 @@ title: "OpenAPI 2.0 rules"
 updated: 2022-07-20
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Rule violations in the API definition"
-    url: "https://learning.postman.com/docs/api-governance/api-definition/api-definition-warnings/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Blog posts"

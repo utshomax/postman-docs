@@ -3,11 +3,6 @@ title: "Postman Flows overview"
 updated: 2023-04-03
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Download and Install"
-    url: "https://www.postman.com/downloads/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

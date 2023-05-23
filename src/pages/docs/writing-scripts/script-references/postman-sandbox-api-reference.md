@@ -3,14 +3,6 @@ title: "Postman JavaScript reference"
 updated: 2020-09-04
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Scripting in Postman"
-    url: "/docs/writing-scripts/intro-to-scripts/"
-  - type: link
-    name: "Test script examples"
-    url: "/docs/writing-scripts/script-references/test-examples/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -25,11 +17,6 @@ contextual_links:
   - type: link
     name: "Adding External Libraries in Postman"
     url: "https://blog.postman.com/adding-external-libraries-in-postman/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Developing with Postman utilities"
-    url: "/docs/developer/resources-intro/"
 ---
 
 Postman provides JavaScript APIs that you can use in your request scripts. The `pm` object provides functionality for testing your request and response data, with the `postman` object providing additional workflow control.

@@ -3,11 +3,6 @@ title: "Echo API"
 updated: 2023-05-19
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending your first request"
-    url: "/docs/getting-started/sending-the-first-request/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Blog posts"
@@ -17,11 +12,7 @@ contextual_links:
   - type: link
     name: "Introducing Postman’s WebSocket Echo Service"
     url: "https://blog.postman.com/introducing-postman-websocket-echo-service/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Exploring the Public API Network"
-    url: "/docs/getting-started/exploring-public-api-network/"
+
 ---
 
 You can use the Postman Echo API to test requests in Postman. The Echo API returns a JSON response that includes all details from the request you sent, including any data items you included.

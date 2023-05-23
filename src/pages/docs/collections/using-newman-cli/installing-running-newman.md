@@ -4,11 +4,6 @@ updated: 2022-05-23
 search_keyword: "newman run"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Using the Collection Runner"
-    url: "/docs/collections/running-collections/intro-to-collection-runs/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -23,11 +18,6 @@ contextual_links:
   - type: link
     name: "Newman: run and test your collections from the command line"
     url: "https://blog.postman.com/newman-run-and-test-your-collections-from-the-command-line/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Postman API documentation"
-    url: "/docs/developer/postman-api/intro-api/"
 ---
 
 To get started using Newman, install Node.js, then Newman. Then you can run your collections.

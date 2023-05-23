@@ -3,11 +3,6 @@ title: 'Observing an API'
 updated: 2022-09-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in Collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -19,11 +14,6 @@ contextual_links:
   - type: link
     name: "Integrated API Monitoring in Postman"
     url: "https://blog.postman.com/integrated-api-monitoring-in-postman/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Managing and sharing APIs"
-    url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
 You can use Postman Monitors to [observe the performance and availability of your APIs](https://www.postman.com/api-platform/api-observability/). <!-- After you link a collection-based monitor, you can view monitor results in the API Builder. -->
