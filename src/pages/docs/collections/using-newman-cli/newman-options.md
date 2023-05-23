@@ -3,11 +3,6 @@ title: "Newman command options"
 updated: 2022-05-23
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Using the Collection Runner"
-    url: "/docs/collections/running-collections/intro-to-collection-runs/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -22,15 +17,8 @@ contextual_links:
   - type: link
     name: "Newman: run and test your collections from the command line"
     url: "https://blog.postman.com/newman-run-and-test-your-collections-from-the-command-line/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Postman API documentation"
-    url: "/docs/developer/postman-api/intro-api/"
-
 tags:
   - "newman"
-
 ---
 
 Newman provides a rich set of options to customize a run. You can retrieve a list of options by running Newman with the ``-h`` flag.

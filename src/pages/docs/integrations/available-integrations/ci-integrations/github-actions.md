@@ -2,12 +2,6 @@
 title: "GitHub Actions"
 page_id: "github-actions"
 updated: 2022-08-11
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "CI Integrations"
-    url: "/docs/integrations/ci-integrations/"
 ---
 
 > **[GitHub Actions self-hosted runners are available on Postman Enterprise plans.](https://www.postman.com/pricing)**

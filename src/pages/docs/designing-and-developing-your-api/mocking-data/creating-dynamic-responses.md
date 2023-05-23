@@ -3,11 +3,6 @@ title: "Creating dynamic mock responses"
 updated: 2022-11-11
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Setting up mock servers"
-    url: "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

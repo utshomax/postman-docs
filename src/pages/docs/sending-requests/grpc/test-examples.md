@@ -3,11 +3,6 @@ title: "gRPC test examples"
 updated: 2022-09-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Scripting in gRPC requests"
-    url: "/docs/sending-requests/grpc/scripting-in-grpc-request/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

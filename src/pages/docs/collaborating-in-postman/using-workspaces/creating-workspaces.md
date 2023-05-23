@@ -3,11 +3,6 @@ title: "Creating workspaces"
 updated: 2023-05-22
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Working with your team"
-    url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -24,11 +19,6 @@ contextual_links:
   - type: link
     name: "Movember Foundation"
     url: "https://www.postman.com/case-studies/movember-foundation/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Using and managing workspaces"
-    url: "/docs/collaborating-in-postman/using-workspaces/managing-workspaces/"
 search_keyword: "workspace as container, user workflow, creating workspaces, personal workspace, team workspace, private workspace, new workspace"
 ---
 

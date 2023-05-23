@@ -6,10 +6,12 @@ updated: 2022-03-01
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
   - type: link
-    name: "Managing your team"
-    url: "/docs/administration/managing-your-team/managing-your-team/"
+    name: "Collaboration and Governance for API Teams | Postman Intergalactic"
+    url: "https://youtu.be/4rxpdcGeixs?t=2713"
 ---
 
 > **[Audit logs are available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**

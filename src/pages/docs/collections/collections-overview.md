@@ -9,11 +9,6 @@ contextual_links:
   - type: link
     name: "Introducing New Postman Reports for Enterprises"
     url: "https://blog.postman.com/introducing-new-postman-reports-for-enterprises/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Validating APIs against schema"
-    url: "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 ---
 
 _Postman Collections_ are a group of saved requests. Every request you send in Postman appears under the **History** tab of the sidebar. On a small scale, reusing requests through the history section is convenient. As your Postman usage grows, it can be time-consuming to find a particular request in your history. Instead of scrolling through your history section, you can save all your requests as a group for easier access.

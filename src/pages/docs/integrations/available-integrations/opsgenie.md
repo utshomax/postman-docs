@@ -3,14 +3,6 @@ title: "Opsgenie"
 updated: 2022-07-06
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: link
-    name: "Intro to Monitoring"
-    url: "/docs/monitoring-your-api/intro-monitors/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

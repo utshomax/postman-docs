@@ -5,11 +5,6 @@ page_id: "proxy"
 search_keyword: "HTTP_PROXY, NO_PROXY"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Setting up Postman"
-    url: "/docs/getting-started/settings/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Blog posts"

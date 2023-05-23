@@ -1,17 +1,7 @@
 ---
 title: "Bitbucket"
 updated: 2021-09-15
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Custom Webhooks"
-    url: "/docs/integrations/webhooks/"
+page_id: "bitbucket"
 ---
 
 You can back up your Postman Collections to your Bitbucket repository. Once the integration is configured, any changes to your collection in Postman will also appear in your Bitbucket repository.

@@ -6,11 +6,6 @@ updated: 2022-2-14
 search_keyword: "setEnvironmentVariable, postman.setEnvironmentVariable"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Monitoring your APIs"
-    url: "/docs/monitoring-your-api/intro-monitors/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -27,12 +22,6 @@ contextual_links:
   - type: link
     name: "Postman API Monitoring Examples"
     url:  "https://www.postman.com/postman/workspace/e348c5a0-2965-44cc-87ed-7b316516f38d"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Using the Collection Runner"
-    url: "/docs/collections/running-collections/intro-to-collection-runs/"
-
 warning: false
 ---
 

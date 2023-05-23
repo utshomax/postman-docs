@@ -6,14 +6,6 @@ updated: 2022-08-31
 search_keyword: "pm.response, pm.test, pm.expect"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
-  - type: link
-    name: "Receiving responses"
-    url:  "/docs/sending-requests/responses/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -42,18 +34,6 @@ contextual_links:
   - type: link
     name: "Test examples in Postman"
     url: "https://www.postman.com/postman/workspace/test-examples-in-postman/overview"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Test Examples"
-    url: "/docs/writing-scripts/script-references/test-examples/"
-  - type: link
-    name: "Using variables"
-    url: "/docs/sending-requests/variables/"
-  - type: link
-    name: "Postman Sandbox API reference"
-    url:  "/docs/writing-scripts/script-references/postman-sandbox-api-reference/"
-
 warning: false
 
 ---

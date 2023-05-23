@@ -3,11 +3,6 @@ title: "Azure Pipelines"
 updated: 2022-10-31
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "CI Integrations"
-    url: "/docs/integrations/ci-integrations/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Blog posts"

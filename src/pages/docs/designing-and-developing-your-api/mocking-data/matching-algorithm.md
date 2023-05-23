@@ -2,12 +2,6 @@
 title: "Understanding example matching"
 updated: 2022-09-26
 search_keyword: "x-mock-response-name, x-mock-response-id, x-mock-response-code, requestMethod, requestPath"
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Setting up mock servers"
-    url: "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
 ---
 
 Using Postman's [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) requires a collection with requests and saved request examples. You can save as many examples to a collection as you want, and the mock server will return these examples predictably. Postman uses a matching algorithm to decide which examples to return.

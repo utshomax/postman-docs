@@ -1,12 +1,6 @@
 ---
 title: "Google Workspace"
 updated: 2020-05-22
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Intro to SSO"
-    url: "/docs/administration/sso/intro-sso/"
 ---
 
 > **[SSO with Google Workspace is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**

@@ -1,12 +1,6 @@
 ---
 title: "Microsoft Teams"
 updated: 2022-07-19
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
 ---
 
 Microsoft Teams is a chat-based workspace available to all Microsoft Office 365 users. This integration enables you to get updates about your Postman team directly in Microsoft Teams.

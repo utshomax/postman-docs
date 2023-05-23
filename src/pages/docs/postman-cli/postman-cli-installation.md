@@ -1,21 +1,6 @@
 ---
 title: "Installing the Postman CLI"
 updated: 2022-10-20
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Postman CLI overview"
-    url: "/docs/postman-cli/postman-cli-overview"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Postman CLI command options"
-    url: "/docs/postman-cli/postman-cli-options/"
-  - type: link
-    name: "Running a collection with the Postman CLI"
-    url: "/docs/postman-cli/postman-cli-run-collection/"
-
 warning: false
 ---
 
