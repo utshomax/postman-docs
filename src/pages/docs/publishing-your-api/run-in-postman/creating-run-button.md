@@ -6,11 +6,6 @@ page_id: "creating_run_button"
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Case Studies"
@@ -27,15 +22,6 @@ contextual_links:
   - type: link
     name: "Introducing the All-New Run in Postman Button"
     url: "https://blog.postman.com/new-run-in-postman/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Generating API documentation"
-    url: "/docs/publishing-your-api/documenting-your-api/"
-  - type: link
-    name: "Managing environments"
-    url: "/docs/sending-requests/managing-environments/"
-
 ---
 
 One way to [share your Postman collections](/docs/collaborating-in-postman/sharing/) is to create a standalone **Run in Postman** button. The **Run in Postman** button <img alt="Run in Postman button" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg#icon" width="100px"/> allows users to fork the collections. You can embed the button in your website or a README to let developers interact with your API more quickly.

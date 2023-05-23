@@ -3,25 +3,12 @@ title: "AWS API Gateway"
 updated: 2023-04-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Intro to collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Blog posts"
   - type: link
     name: "Introducing Postman’s AWS API Gateway Integration"
     url: "https://blog.postman.com/aws-api-gateway-integration-postman/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Custom Webhooks"
-    url: "/docs/integrations/webhooks/"
-  - type: link
-    name: "Slack Integration"
-    url: "/docs/integrations/available-integrations/slack/"
 ---
 
 > **You can connect to Amazon API Gateway from the Postman API Builder.** After you connect your API to API Gateway, you can view stage information and deployment history on the **Deployments** tab in the API Builder.<br/><br/>OpenAPI 3.0 schemas for both HTTP and REST APIs are supported. In addition, for HTTP APIs, you can import your schema from API Gateway to Postman, export your schema from Postman to API Gateway for later deployment, or even deploy your HTTP API schema directly from Postman to a stage in API Gateway.<br/><br/>To learn more about connecting your API in Postman to Amazon API Gateway, see [Importing an API](/docs/designing-and-developing-your-api/importing-an-api/) and [Deploying to an Amazon API Gateway](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/).

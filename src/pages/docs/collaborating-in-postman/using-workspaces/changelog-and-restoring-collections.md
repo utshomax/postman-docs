@@ -5,11 +5,6 @@ updated: 2021-04-21
 page_id: "changelog_and_restoring_collections"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Creating workspaces"
-    url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Blog posts"

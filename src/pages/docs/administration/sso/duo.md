@@ -4,12 +4,6 @@ order: 136
 updated: 2020-05-22
 page_id: "duo"
 warning: false
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Intro to SSO"
-    url: "/docs/administration/sso/intro-sso/"
 ---
 
 > **[SSO with Duo is available on Postman Enterprise plans.](https://www.postman.com/pricing)**

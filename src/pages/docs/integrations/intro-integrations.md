@@ -4,11 +4,6 @@ updated: 2022-12-05
 search_keyword: "whitelist, whitelist IP"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Blog posts"

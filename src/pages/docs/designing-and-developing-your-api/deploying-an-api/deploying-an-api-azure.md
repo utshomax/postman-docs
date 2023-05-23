@@ -6,11 +6,6 @@ search_keyword: "deploy, azure, api management"
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Developing an API"
-    url: "/docs/designing-and-developing-your-api/developing-an-api/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

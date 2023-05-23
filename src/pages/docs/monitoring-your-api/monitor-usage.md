@@ -3,15 +3,7 @@ title: "Managing monitor usage"
 order: 88
 page_id: "monitor_usage"
 updated: 2021-10-28
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Setting up a monitor"
-    url: "/docs/monitoring-your-api/setting-up-monitor/"
-
 warning: false
-
 ---
 
 Postman provides tools to help you manage your team's monitor usage. Track the number of monitoring requests that have been made against your plan's monthly maximum, and enable overages or purchase additional blocks if needed. You can also view all of the monitors your team has created to make sure you're not exceeding monitor activity limits.

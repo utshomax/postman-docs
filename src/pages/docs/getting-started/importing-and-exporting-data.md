@@ -26,12 +26,6 @@ contextual_links:
   - type: link
     name: "Bring your APIs into Postman faster than ever"
     url: "https://blog.postman.com/bring-your-apis-into-postman-faster-than-ever/"
-  - type: subtitle
-    name: "Next steps"
-  - type: link
-    name: "Using the API Builder"
-    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
-
 warning: false
 ---
 

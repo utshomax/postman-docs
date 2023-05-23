@@ -13,14 +13,6 @@ contextual_links:
   - type: link
     name: "Creating a Workspace | Postman Level Up"
     url: "https://youtu.be/I10RCvMbPi0"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Working with your team"
-    url:  "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
-  - type: link
-    name: "Creating workspaces"
-    url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
 ---
 
 Postman workspaces enable you to organize and work together on API projects with your team. Within each workspace you can share [APIs](/docs/designing-and-developing-your-api/creating-an-api/), [collections](/docs/getting-started/creating-the-first-collection/), [environments](/docs/sending-requests/managing-environments/), and other Postman elements.

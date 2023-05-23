@@ -5,11 +5,6 @@ updated: 2021-09-30
 page_id: "creating_workspaces"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Working with your team"
-    url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -26,15 +21,8 @@ contextual_links:
   - type: link
     name: "Movember Foundation"
     url: "https://www.postman.com/case-studies/movember-foundation/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Using and managing workspaces"
-    url: "/docs/collaborating-in-postman/using-workspaces/managing-workspaces/"
 search_keyword: "workspace as container, user workflow, creating workspaces, personal workspace, team workspace, private workspace, new workspace"
-
 warning: false
-
 ---
 
 Workspaces enable you to organize your Postman work and collaborate with teammates. You can group your projects together, with workspace acting as the single source of truth for related APIs, collections, environments, mocks, monitors, and other linked entities. By collaborating in a workspace, your edits sync with your team in real time.

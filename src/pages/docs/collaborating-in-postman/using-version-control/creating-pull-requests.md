@@ -3,14 +3,6 @@ title: "Creating pull requests"
 updated: 2022-11-17
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Version control overview"
-    url: "/docs/collaborating-in-postman/using-version-control/version-control-overview/"
-  - type: link
-    name: "Forking Postman entities"
-    url: "/docs/collaborating-in-postman/using-version-control/forking-entities/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -30,11 +22,6 @@ contextual_links:
   - type: link
     name: "Youi"
     url: "https://www.postman.com/case-studies/youi/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Reviewing pull requests"
-    url: "/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/"
 ---
 
 When you have made the changes that you want to a forked collection or environment, you can create a _pull request_. Creating a pull request means that you want to merge the changes you made in the forked element (the _source_) into the parent element (the _destination_). As part of the pull request process, you will request that reviewers look at your changes. Reviewers can make comments on your changes and will decide whether to approve them and merge them into the parent element.
