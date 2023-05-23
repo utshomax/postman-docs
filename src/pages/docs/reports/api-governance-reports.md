@@ -3,11 +3,6 @@ title: "API Governance reports"
 updated: 2022-09-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "API Governance and API Security in Postman"
-    url: "/docs/api-governance/api-governance-overview/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Blog posts"

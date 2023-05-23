@@ -1,12 +1,6 @@
 ---
 title: "Warnings in API requests"
 updated: 2022-07-20
-contextual_links:
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Security warnings"
-    url: "/docs/api-governance/api-testing/security-warnings/"
 ---
 
 Postman applies security rules configured for your API requests when you send requests to any API using either the Postman web app or the Postman desktop app. A security warning doesn't mean that your API is broken. Instead, it indicates that there are potential security risks that your API might be vulnerable to. Postman highlights these security warnings and helps you understand their implications and possible ways to patch the warnings.

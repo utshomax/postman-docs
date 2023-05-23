@@ -1,13 +1,6 @@
 ---
 title: "Viewing scheduled collection runs"
 updated: 2022-11-09
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Using the Collection Runner"
-    url: "/docs/collections/running-collections/intro-to-collection-runs/"
-
 warning: false
 
 ---

@@ -6,11 +6,6 @@ page_id: "configuring_scim_with_azure_ad"
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Configuring SSO with Azure AD"
-    url: "/docs/administration/sso/azure-ad/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Blog posts"

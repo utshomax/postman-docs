@@ -1,14 +1,7 @@
 ---
 title: "Newman with Docker"
-order: 61
 updated: 2021-06-17
-page_id: "newman_with_docker"
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Command-line integration with Newman"
-    url: "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -16,70 +9,58 @@ contextual_links:
   - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Postman API overview"
-    url: "/docs/developer/postman-api/intro-api/"
-
-warning: false
-tags:
-  - "newman"
-
 ---
 
-This topic describes how to use [Newman](https://github.com/postmanlabs/newman) with [Docker](https://www.docker.com/) in these platforms:
+[Docker](https://www.docker.com/) is a platform for building and running applications in a virtual environment. You can use [Newman](https://github.com/postmanlabs/newman) to run your collections in a Docker container.
 
-* [macOS and Ubuntu](#macos-and-ubuntu)
-* [Windows](#windows)
+## Contents
 
-## macOS and Ubuntu
+* [Using Newman with Docker on macOS and Ubuntu](#using-newman-with-docker-on-macos-and-ubuntu)
+* [Using Newman with Docker on Windows](#using-newman-with-docker-on-windows)
+* [Next steps](#next-steps)
 
-To use Newman with Docker for macOS and Ubuntu, do the following:
+## Using Newman with Docker on macOS and Ubuntu
 
-1\. In the [Docker Hub](https://hub.docker.com/r/postman/newman/), download your copy.
+To use Newman with Docker for macOS or Ubuntu, do the following:
 
-2\. Ensure you have Docker installed and running in your system. Docker has extensive installation guidelines for popular operating systems. Choose your operating system and follow the instructions.
+1. Make sure Docker is installed and running on your system. Go to [Get Docker](https://docs.docker.com/get-docker/), choose your operating system, and follow the instructions.
 
-To test your Docker installation, execute this command to ensure it runs without errors:
+1. To test your Docker installation, run the following command:
 
-```bash
-$ docker run hello-world
-```
+    ```bash
+    $ docker run hello-world
+    ```
 
-3\. Pull the Newman docker image.
+1. Pull the [Newman Docker](https://hub.docker.com/r/postman/newman/) image from Docker hub:
 
-```bash
-$ docker pull postman/newman;
-```
+    ```bash
+    $ docker pull postman/newman;
+    ```
 
-4\. Run Newman commands on the image.
+1. Run Newman commands on the image. For example, to run a [collection](/docs/sending-requests/intro-to-collections/), use the collection ID and your Postman API key:
 
-```bash
-$ docker run -t postman/newman run "https://www.getpostman.com/collections/0d0350a9a89d39fb6361"
-```
+    * To get the collection ID, select a collection in the sidebar. Select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> and copy the ID.
 
-The URL is a shareable public link to your collection.
+    * To get an API key, go to [Generate a Postman API key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key).
 
-To get the public link, do the following:
+    ```bash
+    $ docker run -t postman/newman run "https://api.getpostman.com/collections/<collection-id>?apikey=<your-api-key"
+    ```
 
-1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name.
-1. Select **Share collection**.
-1. Select **Get public link**.
+The collection runs in Newman and the output displays in the terminal.
 
-At this stage, the [Collection](/docs/sending-requests/intro-to-collections/) runs in Newman and the output displays in the terminal.
+The entry point to the Docker image is Newman, so you can use all Newman command line parameters. You can also run locally stored collection files. The [Newman Docker documentation](https://hub.docker.com/r/postman/newman/) describes how to mount shared data volumes.
 
-The entry point to the Docker image is Newman. So you can use all Newman command-line parameters. You can also run locally stored collection files. The README of the image outlines how to mount shared data volumes.
+## Using Newman with Docker on Windows
 
-## Windows
+To learn more about using Newman with Docker on Windows, go to [how to run Newman in Docker for Windows](https://blog.postman.com/using-the-newman-docker-image-in-windows/).
 
-Check out [how to run Newman in Docker for Windows](https://blog.postman.com/using-the-newman-docker-image-in-windows/).
+## Next steps
 
----
 For more information on collection runs, see:
 
 * [Using the Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/)
-* [Working with data files](/docs/collections/running-collections/working-with-data-files/)
-* [Building workflows](/docs/collections/running-collections/building-workflows/)
-* [Integration with Jenkins](/docs/collections/using-newman-cli/integration-with-jenkins/)
-* [Integration with Travis CI](/docs/collections/using-newman-cli/integration-with-travis/)
+* [Importing data files](/docs/collections/running-collections/working-with-data-files/)
+* [Building request workflows](/docs/collections/running-collections/building-workflows/)
+* [Integrating with Jenkins](/docs/collections/using-newman-cli/integration-with-jenkins/)
+* [Integrating with Travis CI](/docs/collections/using-newman-cli/integration-with-travis/)

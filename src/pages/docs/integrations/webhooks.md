@@ -4,11 +4,6 @@ updated: 2022-03-09
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisite"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Blog posts"

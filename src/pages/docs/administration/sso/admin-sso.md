@@ -3,11 +3,6 @@ title: "Configuring SSO for a team"
 updated: 2023-02-06
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Intro to SSO"
-    url: "/docs/administration/sso/intro-sso/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

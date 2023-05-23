@@ -1,12 +1,6 @@
 ---
 title: 'Okta'
 updated: 2023-01-19
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Configuring SSO for a team"
-    url: "/docs/administration/sso/admin-sso/"
 ---
 
 > **[SSO with Okta is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
