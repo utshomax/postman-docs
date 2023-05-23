@@ -3,11 +3,6 @@ title: 'Testing an API'
 updated: 2022-10-05
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in Collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -33,14 +28,6 @@ contextual_links:
   - type: link
     name: "Unbreakable API"
     url: "https://www.postman.com/postman/workspace/unbreakable-api/overview"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Managing and sharing APIs"
-    url: "/docs/designing-and-developing-your-api/managing-apis/"
-  - type: link
-    name: "CI Integrations"
-    url: "/docs/integrations/ci-integrations/"
 ---
 
 [Testing](https://www.postman.com/api-platform/api-testing/) is a critical part of the API development process. You can create a collection that contains your API tests and link it to your API. You can also integrate your API with supported Continuous Integration (CI) tools.

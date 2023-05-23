@@ -6,11 +6,6 @@ updated: 2021-12-16
 search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Intro to scripts"
-    url: "/docs/writing-scripts/intro-to-scripts/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

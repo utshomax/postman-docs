@@ -3,11 +3,6 @@ title: "Specifying examples"
 updated: 2023-02-13
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -22,14 +17,6 @@ contextual_links:
   - type: link
     name: "Imgur"
     url: "https://www.postman.com/case-studies/imgur/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Documenting your API"
-    url: "/docs/publishing-your-api/documenting-your-api/"
-  - type: link
-    name: "Setting up mock servers"
-    url: "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
 ---
 
 Examples show your API endpoints in action and give more details on how requests and responses work. You can add an example to a request by saving a response, or you can create an example with a custom response to illustrate a specific use case. Once you've created examples, you can use them to set up a mock server or add more detail to your API documentation.

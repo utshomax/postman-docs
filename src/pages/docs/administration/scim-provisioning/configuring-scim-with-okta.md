@@ -1,12 +1,6 @@
 ---
 title: "Configuring SCIM with Okta"
 updated: 2023-04-12
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Configuring SSO with Okta"
-    url: "/docs/administration/sso/okta/"
 ---
 
 Postman supports SCIM provisioning through Okta with the [Postman Okta app](https://www.okta.com/integrations/postman/), enabling you to automate user provisioning and de-provisioning for your team.

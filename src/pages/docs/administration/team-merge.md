@@ -4,16 +4,6 @@ order: 128
 updated: 2020-10-02
 page_id: "team-merge"
 warning: false
-contextual_links:
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Configuring SSO"
-    url: "/docs/administration/sso/admin-sso/"
-  - type: link
-    name: "Managing your team"
-    url: "/docs/administration/managing-your-team/managing-your-team/"
-
 ---
 
 Team migration is required when you merge one or more Postman teams into a single (typically company-authorized) account. There are several reasons for having a company-authorized Postman account (or team) including security, the ability for a company to better oversee its intellectual property, and to give users the benefit of a robust paid plan.

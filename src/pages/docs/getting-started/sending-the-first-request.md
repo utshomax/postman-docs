@@ -5,11 +5,6 @@ page_id: "sending_the_first_request"
 updated: 2021-12-13
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Installing and updating"
-    url: "/docs/getting-started/installation-and-updates/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -32,15 +27,6 @@ contextual_links:
   - type: link
     name: "30 days of Postman for developers"
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Creating your first collection"
-    url:  "/docs/getting-started/creating-the-first-collection/"
-  - type: link
-    name: "Requests"
-    url: "/docs/sending-requests/requests/"
-
 warning: false
 ---
 

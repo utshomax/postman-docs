@@ -18,11 +18,6 @@ contextual_links:
   - type: dynamic_blog
     name: "Blog posts"
     blog_tag: "api-first"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Managing APIs"
-    url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
 Postman supports [API-first development](https://www.postman.com/api-first/) with the API Builder. Use the API Builder to [design your API](https://www.postman.com/api-platform/api-design/) in Postman. Your API definition can then act as the single source of truth for your API project.

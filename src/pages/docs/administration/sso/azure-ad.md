@@ -4,12 +4,6 @@ order: 135
 updated: 2022-03-14
 page_id: "azure_ad"
 warning: false
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Configuring SSO for a team"
-    url: "/docs/administration/sso/admin-sso/"
 ---
 
 > **[SSO with Azure AD is available on Postman Enterprise plans.](https://www.postman.com/pricing)**

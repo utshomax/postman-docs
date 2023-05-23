@@ -3,22 +3,12 @@ title: "Using the lightweight Postman API Client"
 updated: 2023-05-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Installing and updating Postman"
-    url: "/docs/getting-started/installation-and-updates/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Intro to Postman | Part 1: Send a Request"
     url: "https://youtu.be/2oOSnxZ28fA"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Sending your first request"
-    url: "/docs/getting-started/sending-the-first-request/"
 ---
 
 

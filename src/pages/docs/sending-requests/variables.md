@@ -3,11 +3,6 @@ title: "Using variables"
 updated: 2023-02-14
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url:  "/docs/sending-requests/requests/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -39,17 +34,6 @@ contextual_links:
   - type: link
     name: "Paylocity uses variables to automate workflows"
     url: "https://www.postman.com/case-studies/paylocity/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: link
-    name: "Intro to scripts"
-    url: "/docs/writing-scripts/intro-to-scripts/"
-  - type: link
-    name: "Dynamic variables"
-    url:  "/docs/writing-scripts/script-references/variables-list/"
 ---
 
 _Variables_ enable you to store and reuse values in Postman. By storing a value as a variable, you can reference it throughout your collections, environments, requests, and test scripts. Variables help you work efficiently, collaborate with teammates, and set up dynamic workflows.

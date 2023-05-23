@@ -3,11 +3,6 @@ title: "Generating API documentation"
 updated: 2023-01-05
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -31,17 +26,6 @@ contextual_links:
   - type: link
     name: "SEI Novus uses documentation to keep business use cases solved"
     url: "https://www.postman.com/case-studies/sei-novus/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Writing your docs"
-    url: "/docs/publishing-your-api/authoring-your-documentation/"
-  - type: link
-    name: "Publishing your docs"
-    url: "/docs/publishing-your-api/publishing-your-docs/"
-  - type: link
-    name: "Viewing documentation"
-    url: "/docs/publishing-your-api/viewing-documentation/"
 ---
 
 [Documentation](https://www.postman.com/api-platform/api-documentation/) is an important part of any collection or API. Good documentation helps the people who use your collection to understand what it does and how each request works. And comprehensive API documentation lets your consumers know what endpoints are available and how to interact with them.

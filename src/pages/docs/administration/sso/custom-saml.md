@@ -1,12 +1,6 @@
 ---
 title: 'Custom SAML'
 updated: 2023-03-21
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Configuring SSO for a team"
-    url: "/docs/administration/sso/admin-sso/"
 ---
 
 > **[SSO with custom SAML is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
