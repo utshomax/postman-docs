@@ -14,7 +14,7 @@ contextual_links:
 
 Continuous integration and continuous delivery (CI/CD) are a core part of the [API development workflow](/docs/designing-and-developing-your-api/the-api-workflow/). Postman integrates with popular CI tools so you can view details about API builds in the same place where you define and test your API.
 
-After you set up CI integration, you can view the status of builds or start a new build, all from within Postman. You can also run API tests created in Postman as part of your CI pipeline using the [Postman CLI](/docs/postman-cli/postman-cli-overview/) and the Postman API.
+After you set up CI integration, you can view the status of builds or start a new build, all from within Postman. You can also run [API tests](https://www.postman.com/api-platform/api-test-automation/) created in Postman as part of your CI pipeline using the [Postman CLI](/docs/postman-cli/postman-cli-overview/) and the Postman API.
 
 ## Configuring CI integration
 

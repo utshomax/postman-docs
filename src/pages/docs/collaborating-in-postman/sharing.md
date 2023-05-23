@@ -28,7 +28,7 @@ contextual_links:
 warning: false
 ---
 
-You can collaborate on Postman elements including collections, APIs, and environments, by sharing them or by moving them to a shared private, team, or public workspace.
+You can [collaborate on Postman elements](https://www.postman.com/api-platform/api-collaboration/) including collections, APIs, and environments, by sharing them or by moving them to a shared private, team, or public workspace.
 
 To share your work using workspaces, you need to be signed in to your [Postman account](/docs/getting-started/postman-account/).
 

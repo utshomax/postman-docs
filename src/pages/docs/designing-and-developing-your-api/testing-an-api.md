@@ -30,7 +30,7 @@ contextual_links:
     url: "https://www.postman.com/postman/workspace/unbreakable-api/overview"
 ---
 
-Testing is a critical part of the API development process. You can create a collection that contains your API tests and link it to your API. You can also integrate your API with supported Continuous Integration (CI) tools.
+[Testing](https://www.postman.com/api-platform/api-testing/) is a critical part of the API development process. You can create a collection that contains your API tests and link it to your API. You can also integrate your API with supported Continuous Integration (CI) tools.
 
 ## Contents
 

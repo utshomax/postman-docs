@@ -16,7 +16,7 @@ contextual_links:
     url: "https://blog.postman.com/integrated-api-monitoring-in-postman/"
 ---
 
-You can use Postman Monitors to observe the performance and availability of your APIs. <!-- After you link a collection-based monitor, you can view monitor results in the API Builder. -->
+You can use Postman Monitors to [observe the performance and availability of your APIs](https://www.postman.com/api-platform/api-observability/). <!-- After you link a collection-based monitor, you can view monitor results in the API Builder. -->
 
 Monitor integrations enable you to send the results of collection-based monitors to Slack, Splunk, and other channels. You can also view application performance management (APM) metrics from New Relic or Datadog within Postman.
 

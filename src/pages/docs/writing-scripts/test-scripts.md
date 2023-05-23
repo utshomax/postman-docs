@@ -38,7 +38,7 @@ warning: false
 
 ---
 
-Tests confirm that your API is working as expected, that integrations between services are functioning reliably, and that any changes haven't broken existing functionality. You can write test scripts for your Postman API requests in JavaScript. You can also use test code to aid the debugging process when something goes wrong with your API project. For example, you might write a test to validate your API's error handling by sending a request with incomplete data or wrong parameters.
+[Tests](https://www.postman.com/api-platform/api-testing/) confirm that your API is working as expected, that integrations between services are functioning reliably, and that any changes haven't broken existing functionality. You can write test scripts for your Postman API requests in JavaScript. You can also use test code to aid the debugging process when something goes wrong with your API project. For example, you might write a test to validate your API's error handling by sending a request with incomplete data or wrong parameters.
 
 ## Contents
 
@@ -165,4 +165,4 @@ After writing tests in Postman, you could write more complex tests and use them 
 
 * For more information about what you can do using the `pm` object, check out some test script [examples](/docs/writing-scripts/script-references/test-examples/) and visit the [Postman Sandbox API reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/).
 * To learn how to use tests in conjunction with monitoring, which enables you to confirm that your API meets performance requirements, visit [Monitoring your APIs](/docs/monitoring-your-api/intro-monitors/).
-* To learn how to automate your testing by integrating collection runs within your CI/CD configuration, visit [Integrating with Travis CI](/docs/collections/using-newman-cli/integration-with-travis/).
+* To learn how to [automate your testing](https://www.postman.com/api-platform/api-test-automation/) by integrating collection runs within your CI/CD configuration, visit [Integrating with Travis CI](/docs/collections/using-newman-cli/integration-with-travis/).
