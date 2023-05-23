@@ -25,7 +25,7 @@ contextual_links:
 
 > **[Manage public elements is available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
 
-The [Manage public elements](https://blog.postman.com/govern-your-public-api-collections-more-effectively/) dashboard gives you a central place to control what collections are shared outside of your team for public consumption. You need to have a [Community Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) role in enterprise organizations to view and manage everything that’s made public by your team, including public collections links, public documentation, and public workspaces created by members of your team, all in one place.
+The [Manage public elements](https://blog.postman.com/govern-your-public-api-collections-more-effectively/) dashboard gives you a central place to control what collections are shared outside of your team for public consumption. You need to have a Community Manager or Super Admin [Team role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) in enterprise organizations to view and manage everything that’s made public by your team, including public collections links, public documentation, and public workspaces created by members of your team, all in one place.
 
 ## Contents
 
@@ -37,7 +37,7 @@ The [Manage public elements](https://blog.postman.com/govern-your-public-api-col
 
 ### Managing public elements
 
-To manage public elements, you need to have a Community Manager role in a Postman **Enterprise** plan. Use the dashboard to manage what collections your team has exposed for public consumption and for information about specific links. You can also delete links to collections you feel shouldn't be public.
+To manage public elements, you need to have a Super Admin or Community Manager role in a Postman **Enterprise** plan. Use the dashboard to manage what collections your team has exposed for public consumption and for information about specific links. You can also delete links to collections you feel shouldn't be public.
 
 To access the **Manage public elements** dashboard, select **Team** in the header, then select **Manage Public Elements**.
 
@@ -67,7 +67,7 @@ You can also view and respond to requests to make documentation public. To appro
 
 The dashboard's **Collection JSON Links** tab displays all the collections with existing JSON links.
 
-As a Community Manager, you can view or delete a collection JSON link. In addition to the collection name, the dashboard displays more information about the date the link was updated on, who updated the link, and the JSON link.
+As a Community Manager or Super Admin, you can view or delete a collection JSON link. In addition to the collection name, the dashboard displays more information about the date the link was updated on, who updated the link, and the JSON link.
 
 #### Collection Access Keys
 

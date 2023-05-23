@@ -99,23 +99,20 @@ For more information on making and using a Run in Postman button, read [Creating
 
 ### Sharing using the Postman API
 
-> **Make sure to remove any sensitive information from your collection before you share collection access keys.**
-
 To share a collection's JSON using the Postman API, do the following:
 
 <!-- vale Postman.Avoid = NO -->
 
-1. From the element you want to share, select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share**.
+1. From the collection that you want to share, select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share**.
 1. Select **Via API**.
 1. Select **Get collection JSON using Collection Access Key**.
-1. Select **Generate New Key** to create a collection access key. The collection access key enables other users to have read-only access to the collection JSON.
+1. Select **Generate New Key** to create a read-only collection access key. This key expires after 60 days of inactivity.
+   > **Make sure you remove any sensitive information from your collection before sharing collection access keys.**
 1. (Optional) Select **Manage keys** to view or revoke this collection access key on your API Key page. To learn more about collection access keys, see [Generate a collection access key](/docs/developer/postman-api/authentication/#generate-a-collection-access-key).
 
 <!-- vale Postman.Avoid = YES -->
 
 Anyone with this link has read-only access to the collection's JSON. The data that this Postman API endpoint serves reflects the current state of the collection.
-
-> Collection JSON links expire after 60 days of inactivity.
 
 <img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/v10/share-collection-via-api-v10-3.jpg"/>
 

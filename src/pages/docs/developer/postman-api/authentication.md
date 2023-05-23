@@ -91,10 +91,10 @@ With a collection access key you can securely grant other users read-only access
 
 Your [API Keys page](https://go.postman.co/settings/me/api-keys) displays all of your generated keys and includes information about which collection the key belongs to, who created it, and when it was generated. This page also displays the collection access keys created by other users if you have the following roles:
 
-- The [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles/) in a collection's workspace.
+- The [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) in a collection's workspace.
 
 - The Community Manager, Admin, or Super Admin [Team role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
 
 To revoke a collection access key, select **Delete**.
 
-<img src="https://assets.postman.com/postman-docs/v10/collection-access-keys-v10.15.jpg" alt="Deleting collection access keys"/>
+<img src="https://assets.postman.com/postman-docs/v10/collection-access-keys-v10-2.jpg" alt="Deleting collection access keys"/>
