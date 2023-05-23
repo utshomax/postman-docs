@@ -5,7 +5,7 @@ page_id: "viewing_monitor_results"
 updated: 2022-07-05
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Case Studies"
   - type: link
@@ -94,7 +94,7 @@ You can filter by request to compare an individual request's response time in di
 
 You can filter by run type to compare how the response time changes between manual runs, scheduled runs, and webhook runs. Select **Type: All**, then select the type of run you'd like to analyze further.
 
-> Manual runs are initiated in Postman or are triggered by the [Postman API](https://documenter.postman.com/view/631643/JsLs/?version=latest#5b277ca0-7114-e04e-f1f5-246fbbd6d973). Scheduled runs are initiated by the schedule you set when creating or editing your monitor. Webhook runs are initiated by integrations you've created.
+> Manual runs are initiated in Postman or are triggered by the [Postman API](https://documenter.getpostman.com/view/12959542/UV5XjJV8#688c4c2a-58b6-4f26-b06b-1f45508ee1d4). Scheduled runs are initiated by the schedule you set when creating or editing your monitor. Webhook runs are initiated by integrations you've created.
 
 #### Filtering by run result
 
@@ -103,7 +103,7 @@ Each run is labeled based on its result:
 * **Successful** - Your monitor completed the run with no issues and passed all tests.
 * **Failure** - Your monitor completed the run, however one or more tests failed.
 * **Error** - Your monitor was unable to complete its run due to an error. An error can occur if there is a syntax error in the code you've written, a network error, or for various other reasons. If you get an error, your [Console Log](#console-log) will help you identify what caused it.
-* **Abort** - Your monitor timed out because it didn't complete its run within the allotted 10 minutes (Postman Free plans) or 15 minutes (Postman Basic, Professional, and Enterprise plans).
+* **Abort** - Your monitor timed out because it didn't complete its run within the allotted 10 minutes (Postman Free plans) or 15 minutes (Postman paid plans).
 
 You can filter by run result to compare how your runs with the same result have differed. Select **Run result: All**, then select one or more types of run results to view.
 
@@ -152,7 +152,7 @@ You can use this console to both troubleshoot issues and learn more about an ind
 
 ### Activity log
 
-You can view a monitor's activity logs by selecting the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> in the upper-right corner > **View activity logs**.
+You can view a monitor's activity logs by selecting the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> in the upper-right corner, then selecting **View activity logs**.
 
 <img src="https://assets.postman.com/postman-docs/monitor-activity-log20.jpg" width="400px" alt="Activity log"/>
 

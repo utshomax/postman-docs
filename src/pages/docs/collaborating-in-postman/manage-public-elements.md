@@ -6,9 +6,9 @@ page_id: "manage_public_elements"
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing Public Workspace Summary Emails"
     url: "https://blog.postman.com/introducing-public-workspace-summary-emails/"
@@ -18,11 +18,6 @@ contextual_links:
   - type: link
     name: "How to Set Up Your First Public Workspace"
     url: "https://blog.postman.com/how-to-set-up-public-workspaces/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Creating workspaces"
-    url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
 search_keyword: "collection links, collection JSON links, manage public elements, public documentation, public workspaces"
 ---
 
@@ -42,8 +37,6 @@ The [Manage public elements](https://blog.postman.com/govern-your-public-api-col
 To manage public elements, you need to have a Community Manager role in a Postman **Enterprise** plan. Use the dashboard to manage what collections your team has exposed for public consumption and for information about specific links. You can also delete links to collections you feel shouldn't be public.
 
 To access the **Manage public elements** dashboard, select **Team** in the header, then select **Manage Public Elements**.
-
-> You can also access this dashboard from the **Home** page. Go to the **Manage public elements** section and select **Manage** to go to the dashboard view.
 
 #### Workspaces
 

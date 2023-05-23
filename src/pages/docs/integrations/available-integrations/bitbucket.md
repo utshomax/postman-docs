@@ -4,20 +4,6 @@ order: 164.1
 updated: 2021-09-15
 page_id: "bitbucket"
 warning: false
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Custom Webhooks"
-    url: "/docs/integrations/webhooks/"
-  - type: link
-    name: "Slack Integration"
-    url: "/docs/integrations/available-integrations/slack/"
 ---
 
 You can back up your team's Postman Collections with Postman's Bitbucket integration.
@@ -31,7 +17,7 @@ You can back up your team's Postman Collections with Postman's Bitbucket integra
 
 ## API sync with Bitbucket
 
-With Postman v10, you can connect a Bitbucket repository to an API in the API Builder. Once connected, you can sync your API's definition and associated collections between Postman and Bitbucket. You can switch branches, pull changes from the repository, and push changes to the repository, all from within Postman. To learn more about syncing your API with Bitbucket, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
+With Postman v10, you can connect a Bitbucket repository to an API in the API Builder. Once connected, you can sync your API's definition and associated collections between Postman and Bitbucket. You can switch branches, pull changes from the repository, and push changes to the repository, all from within Postman. To learn more about syncing your API with Bitbucket, see [Using a remote Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/).
 
 ## Backing up collections on Bitbucket
 
@@ -61,7 +47,7 @@ Select your collection to back up, the repository you'd like to back it up to, a
 
 ![Bitbucket configuration](https://assets.postman.com/postman-docs/bitbucket-configure-bb.jpg)
 
-Your new integration will now appear in a list along with previously created integrations.
+Your new integration appears in a list along with previously created integrations.
 
 ![Configured integrations](https://assets.postman.com/postman-docs/bitbucket-add-integration-bb.jpg)
 

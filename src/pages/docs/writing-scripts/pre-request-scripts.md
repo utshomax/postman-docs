@@ -5,18 +5,7 @@ updated: 2022-07-20
 page_id: "pre_request_scripts"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
-  - type: link
-    name: "Intro to Scripts"
-    url: "/docs/writing-scripts/intro-to-scripts/"
-  - type: link
-    name: "Using variables"
-    url: "/docs/sending-requests/variables/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -26,7 +15,7 @@ contextual_links:
     name: "Get and Set Variables | Postman Level Up"
     url: "https://youtu.be/EKv6n-jY9lU"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "When and How to Use JSON Serialization in Postman"
     url: "https://blog.postman.com/when-and-how-to-use-json-serialization-in-postman/"
@@ -38,12 +27,6 @@ contextual_links:
   - type: link
     name: "Toast chains requests automatically with pre-request scripts"
     url:  "https://www.postman.com/case-studies/toast/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Test scripts"
-    url: "/docs/writing-scripts/test-scripts/"
-
 warning: false
 
 ---
@@ -61,7 +44,7 @@ You can use pre-request scripts in Postman to execute JavaScript before a reques
 
 An example usage of pre-request scripting could be as follows:
 
-* You have a series of requests in a collection and are running them in a sequence, such as when using the [collection runner](/docs/running-collections/intro-to-collection-runs/).
+* You have a series of requests in a collection and are running them in a sequence, such as when using the [collection runner](/docs/collections/running-collections/intro-to-collection-runs/).
 * The second request is dependent on a value returned from the first request.
 * The value needs to be processed before you pass it to the second request.
 * The first request sets the data value from a response field to a variable in its __Tests__ script.

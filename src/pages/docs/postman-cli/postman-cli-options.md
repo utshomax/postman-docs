@@ -1,24 +1,9 @@
 ---
 title: "Postman CLI command options"
 updated: 2022-10-18
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Postman CLI overview"
-    url: "/docs/postman-cli/postman-cli-overview/"
-  - type: link
-    name: "Installing the Postman CLI"
-    url: "/docs/postman-cli/postman-cli-installation/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Running a collection with the Postman CLI"
-    url: "/docs/postman-cli/postman-cli-run-collection/"
 warning: false
 tags:
   - "Postman CLI"
-
 ---
 
 Commands and options for using the Postman CLI.
@@ -26,9 +11,10 @@ Commands and options for using the Postman CLI.
 ## Contents
 
 * [Basic command line options](#basic-command-line-options)
-* [Logging and and logging out](#logging-in-and-logging-out)
+* [Signing in and out](#signing-in-and-out)
 * [Running collections](#running-collections)
 * [Governance and security](#governance-and-security)
+* [Publishing an API version](#publishing-an-api-version)
 
 ## Basic command line options
 
@@ -49,13 +35,13 @@ postman -v
 | `--help`, `-h` | Returns information about Postman CLI commands and options.|
 | `--version`, `-v`| Returns the version number for the Postman CLI.|
 
-## Logging in and logging out
+## Signing in and out
 
-You can use the Postman CLI to log in and out of Postman with the `login` and `logout` commands, described below:
+You can use the Postman CLI to sign in and out of Postman with the [`login`](#postman-login) and [`logout`](#postman-logout) commands.
 
 ### postman login
 
-This command authenticates the user and locally caches the [Postman API key](/docs/developer/intro-api#generating-a-postman-api-key). `login` requires one option, `--with-api-key`, that accepts the Postman API key. The `login` command is required only once per session. Once you've logged in, you remain logged in until you use the `logout` command or your Postman API key expires.
+This command authenticates the user and locally caches the [Postman API key](/docs/developer/intro-api#generating-a-postman-api-key). `login` requires one option, `--with-api-key`, that accepts the Postman API key. The `login` command is required only once per session. Once you've signed in, you remain signed in until you use the `logout` command or your Postman API key expires.
 
 #### Example
 
@@ -65,7 +51,7 @@ postman login --with-api-key ABCD-1234-1234-1234-1234-1234
 
 ### postman logout
 
-This command logs you out of Postman and deletes the stored API key.
+This command signs you out of Postman and deletes the stored API key.
 
 #### Example
 
@@ -149,3 +135,44 @@ Option | Details
 --- | ---
 `--fail-severity [severity]`, `-f` | Triggers an exit failure code for rule violations at or above the specified severity level. The options, in order of lowest to highest severity, are `HINT`, `INFO`, `WARN`, and `ERROR` (default).
 `--suppress-exit-code`, `-x`| Specifies whether to override the default exit code for the current run.
+
+## Publishing an API version
+
+You can [publish API versions](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/) from the command line with the Postman CLI. This enables you to automate the API version publishing process.
+
+### postman publish api
+
+Publish a snapshot of an API for the given `apiId`. All entities linked to the API will be published by default. You can choose which entities to publish by using additional options.
+
+When publishing an API that is linked with git, you must enter the command from inside the local git repo and provide paths to the schema directory and collection paths instead of IDs.
+
+#### Example for repos not linked with git
+
+```plaintext
+postman api publish <apiId> --name v1\
+--release-notes "# Some release notes information"\
+--collections <collectionId1> <collectionId2>\
+--api-definition <apiDefinitionId>
+```
+
+#### Example for repos linked with git
+
+Navigate to the repo and run the following:
+
+```plaintext
+postman api publish <apiId> --name v1\
+--release-notes "# Some release notes information"\
+--collections <collectionPath1> <collectionPath2>\
+--api-definition <schemaDirectoryPath>
+```
+
+#### Options
+
+| Option | Details |
+|:--|:--|
+| `--name <name>` | Specifies the name of the version to publish. |
+| `--release-notes <releaseNotes>` | Enter release notes as a string in quotes for the version to publish. This option supports markdown. |
+| `--collections <collectionIds/paths...>` | Specifies the collections to publish. If the API is linked with git, provide the `filePath` instead of the ID. |
+| `--api-definition <apiDefinitionId/directory>` | Specifies the API definition to publish. If the API is linked with git, provide the `schemaDirectoryPath` instead of the ID. |
+|`--do-not-poll` | Specifies not to poll for completion status of the publish action.
+| `--suppress-exit-code, -x` | Specifies whether to override the default exit code for the current run. |

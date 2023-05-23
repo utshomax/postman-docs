@@ -5,12 +5,7 @@ page_id: "sending_the_first_request"
 updated: 2021-12-13
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Installing and updating"
-    url: "/docs/getting-started/installation-and-updates/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -23,24 +18,15 @@ contextual_links:
     name: "Postman Student Programs - Finding the right API for the job"
     url:  "https://youtu.be/d6abDKrGFYU"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "First 5 Things to Try If You’re New to Postman"
     url: "https://blog.postman.com/postman-first-5-things-to-try/"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "30 days of Postman for developers"
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Creating your first collection"
-    url:  "/docs/getting-started/creating-the-first-collection/"
-  - type: link
-    name: "Requests"
-    url: "/docs/sending-requests/requests/"
-
 warning: false
 ---
 
@@ -67,7 +53,7 @@ When you're ready, open Postman and send your first request.
 
 Postman displays the response data sent from the server in the lower pane.
 
-<img alt="Sending a request" src="https://assets.postman.com/postman-docs/first-request-sent-v9-4.jpg" width="716px">
+<img alt="Sending a request" src="https://assets.postman.com/postman-docs/v10/send-first-request-v10.jpg" width="716px">
 
 ### What happened?
 

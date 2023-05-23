@@ -4,13 +4,6 @@ order: 142
 updated: 2022-03-17
 page_id: "configuring_scim_with_onelogin"
 warning: false
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Configuring SSO with OneLogin"
-    url: "/docs/administration/sso/onelogin/"
-
 ---
 
 Postman supports SCIM provisioning through OneLogin with the Postman OneLogin app, allowing you to automate user provisioning and de-provisioning for your team.

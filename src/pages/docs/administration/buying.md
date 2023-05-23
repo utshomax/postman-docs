@@ -1,26 +1,17 @@
 ---
 title: "Purchasing Postman"
-order: 122
-updated: 2020-05-22
-page_id: "buying"
-warning: false
+updated: 2023-05-22
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: link
     name: "Postman Pricing"
     url: "https://www.postman.com/pricing/"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Announcing 2021 Postman Plans and Pricing Updates"
     url: "https://blog.postman.com/announcing-postman-plans-and-pricing-2021/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Billing"
-    url:  "/docs/administration/billing/"
-
 ---
 
 Visit the [pricing page](https://www.postman.com/pricing) to purchase a Postman Basic, Professional, or Enterprise plan. Select __Buy Now__ for your chosen plan. If you are [upgrading from an existing paid account](/docs/administration/billing/#team-and-plan-changes), you can use the links in your [billing dashboard](http://go.postman.co/billing).

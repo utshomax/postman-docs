@@ -7,29 +7,17 @@ updated: 2022-2-14
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Intro to monitoring"
-    url: "/docs/monitoring-your-api/intro-monitors/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "API Monitoring | The Exploratory"
     url: "https://youtu.be/tDQzY1Hn2LY"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Integrations for monitoring"
-    url: "/docs/integrations/intro-integrations/"
 ---
 
 > **[Static IP address monitoring is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
 
 Postman's static IP feature enables you to use [collection-based monitors](/docs/monitoring-your-api/setting-up-monitor/) to monitor APIs that are behind a restricted firewall. This feature is available to all Postman Professional and Enterprise customers, provided your IT team [allowlists](#allowlisting-static-ip-addresses) the associated static IP addresses. The provided static IP addresses are fixed to their specified region and are shared by all customers who use this feature.
-
-> Static IPs are not available for uptime monitors.
 
 ## Contents
 

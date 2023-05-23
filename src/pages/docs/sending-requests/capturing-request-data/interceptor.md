@@ -3,30 +3,19 @@ title: "Using Postman Interceptor"
 order: 34
 page_id: "interceptor"
 updated: 2022-03-02
-search_keyword: "pm.interceptorInstaller.reset, interceptorInstaller.reset, pm.interceptorBridge.setKey, interceptorBridge.setKey"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Capturing HTTP requests"
-    url: "/docs/sending-requests/capturing-request-data/capturing-http-requests/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Postman Interceptor Demo"
     url: "https://youtu.be/Swjims0aOl4"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Postman Interceptor: The Next Generation View Source for The API Economy"
     url:  "https://blog.postman.com/postman-interceptor-the-next-generation-view-source-for-the-api-economy/"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "VideoAmp uses Postman Interceptor to identify UI and browser errors"
-    url: "https://www.postman.com/case-studies/videoamp/"
 
 warning: false
 
@@ -170,9 +159,9 @@ You can find the current status of your Interceptor integration by selecting **C
     * **Windows** - `HKEY_CURRENT_USER\SOFTWARE\Google\Chrome\NativeMessagingHosts`
 
   If you are using a different flavor of Chrome, such as Chromium, Brave, or Edge:
-    1. Create the `NativeMessagingHosts` directory in the location above.
+    1. Create the `NativeMessagingHosts` directory in the correct location for your operating system.
     1. Install the Interceptor Bridge (refer to [Installing interceptor](#installing-interceptor)).
-    1. Copy `InterceptorBridge` into the above `NativeMessagingHosts` directory.
+    1. Copy `InterceptorBridge` into the `NativeMessagingHosts` directory.
 
 * **`INTERNET_CONNECTIVITY`** -
     * Check your internet connection.
@@ -182,7 +171,7 @@ You can find the current status of your Interceptor integration by selecting **C
     * Confirm that you have permissions to create the `.postman/InterceptorBridge` folders.
     * Confirm that you have permissions to delete, write, and execute in the path `.postman/InterceptorBridge`.
     * [macOS only] Confirm that you have a `~/Downloads` folder and write permissions for it.
-    * If the above steps are unsuccessful, close Chrome and Postman before retrying the installation.
+    * If these steps are unsuccessful, close Chrome and Postman before retrying the installation.
 * **[Windows] `REGISTRY_ACCESS_NEEDED`** -
     * Confirm that you have [permissions](https://docs.microsoft.com/en-us/windows/win32/sysinfo/registry-key-security-and-access-rights) to add a registry key.
     * Confirm that `C:\Windows\System32` is present in the `PATH` (a [system environment variable](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-7)) so that `reg` queries can be executed.
@@ -203,7 +192,7 @@ For macOS, the NodeJS downloader is saved to your `~/Downloads` directory.
 
 For Windows, if you get an installation error in Postman, close Chrome and retry before repeating the installation process.
 
-If the aforementioned troubleshooting steps don't fix the problem, you may need to remove all of Interceptor's dependencies (such as the manifest file, Interceptor Bridge, and for Windows users, the registry key). To do so, open Postman and select **View** > **Developer** > **Show DevTools (Current View)**. Enter `pm.interceptorInstaller.reset()` to remove all present Interceptor dependencies. You can then [continue installation from step 3](#installing-interceptor).
+If the aforementioned troubleshooting steps don't fix the problem, you may need to remove all of Interceptor's dependencies (such as the manifest file, Interceptor Bridge, and for Windows users, the registry key). To do so, open Postman and select **View > Developer > Show DevTools (Current View)**. Enter `pm.interceptorInstaller.reset()` to remove all present Interceptor dependencies. You can then [continue installation from step 3](#installing-interceptor).
 
 > If any dependencies can't be removed due to permission issues, you’ll be prompted to delete them manually.
 
@@ -245,13 +234,13 @@ The communication between Interceptor and Postman is automatically encrypted. Yo
 
 ### Adding a custom encryption key with the pm API
 
-You can also update the default encryption key by using the [pm API](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#the-pm-object). To do so, open Postman and select **View** > **Developer** > **Show DevTools (Current View)** > **Console**, then enter `pm.interceptorBridge.setKey("<your key here>")`.
+You can also update the default encryption key by using the [pm API](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#the-pm-object). To do so, open Postman and select **View > Developer > Show DevTools (Current View) > Console**, then enter `pm.interceptorBridge.setKey("<your key here>")`.
 
-For the Interceptor extension, first enable **Developer mode** in [Chrome extensions](chrome://extensions/). You can then right-click on the Interceptor icon in your browser, select **Inspect Popup** > **Console**. Enter the command `pm.interceptorBridge.setKey("<your key here>")` again here. All communication through this channel will be encrypted using your own key.
+For the Interceptor extension, first enable **Developer mode** in [Chrome extensions](chrome://extensions/). You can then right-click on the Interceptor icon in your browser, select **Inspect Popup > Console**. Enter the command `pm.interceptorBridge.setKey("<your key here>")` again here. All communication through this channel will be encrypted using your own key.
 
 ## Updating Interceptor
 
-1. View your existing Chrome extensions by selecting the menu icon at the top right of the Chrome app > **More Tools** > **Extensions.**
+1. View your existing Chrome extensions by selecting the menu icon at the top right of the Chrome app > **More Tools > Extensions**.
 
 2. Select to turn on developer mode in the top-right corner.
 

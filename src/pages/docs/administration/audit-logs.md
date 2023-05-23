@@ -6,10 +6,12 @@ updated: 2022-03-01
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
   - type: link
-    name: "Managing your team"
-    url: "/docs/administration/managing-your-team/managing-your-team/"
+    name: "Collaboration and Governance for API Teams | Postman Intergalactic"
+    url: "https://youtu.be/4rxpdcGeixs?t=2713"
 ---
 
 > **[Audit logs are available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
@@ -74,7 +76,7 @@ Each audit log event has the following attributes:
 
 To get started, go to the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) and open the **Audit Logs** folder to view the GET request and example responses.
 
-> You must [generate a Postman API key](/docs/developer/intro-api/#generating-a-postman-api-key) to access the [Postman API](/docs/developer/intro-api/).
+> You must [generate a Postman API key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key) to access the [Postman API](/docs/developer/postman-api/intro-api/).
 
 ## Logged events
 
@@ -134,13 +136,13 @@ Postman logs events related to your [team](#team), [users](#users), and [billing
 | Removed Group Role | A role was removed from a group. |
 | Removed Group Member | A user was removed from a group. |
 | Deleted Group | A user deleted a group. |
-| Successful Login via Password | A user logged in with their password.   |
-| Successful Login via Google | A user logged in through Google. |
-| Successful Login via SSO | A user logged in through SSO. |
+| Successful Login via Password | A user signed in with their password.   |
+| Successful Login via Google | A user signed in through Google. |
+| Successful Login via SSO | A user signed in through SSO. |
 | Reset Password | A user reset their password. |
 | Changed Password | A user changed their password. |
 | User Session Revoked | A user revoked their session. |
-| User Logout | A user logged out. |
+| User Logout | A user signed out. |
 
 ### Billing
 

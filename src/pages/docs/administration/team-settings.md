@@ -6,26 +6,20 @@ page_id: "team_settings"
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Checklist for a Great Team Profile | Postman Level Up"
     url: "https://youtu.be/Ud_rq-VwO4s"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
+  - type: link
+    name: "Increase API adoption with improved team profiles"
+    url: "https://blog.postman.com/increase-api-adoption-with-improved-team-profiles/"
   - type: link
     name: "Get More Out of Postman by Collaborating with Your Team"
     url: "https://blog.postman.com/get-more-out-of-postman-by-collaborating-with-your-team/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Working with your team"
-    url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
-  - type: link
-    name: "Managing your team"
-    url: "/docs/administration/managing-your-team/managing-your-team/"
-
 ---
 
 Your [Team Settings](https://go.postman.co/settings/team/general) enable you to manage items such as your team's profile, discoverability, custom domains, billing details, authentication, and active invite links.
@@ -59,6 +53,7 @@ Your team profile includes:
 * A list containing links to your team members' profiles
 * A **Team Description** section
 * A **Highlights** section with pinned elements
+* A **Related collections and flows** section with collections and flows using your team's APIs (suggested by Postman)
 * Links to all your team's public collections, APIs, workspaces, and flows
 
 <img alt="Example of a filled-in team profile" src="https://assets.postman.com/postman-docs/v10/team-settings-overview-v10.1.jpg" width="800px"/>

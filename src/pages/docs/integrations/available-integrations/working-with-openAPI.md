@@ -5,19 +5,14 @@ updated: 2022-02-16
 page_id: "working_with_openAPI"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "API Lifecycle, Part 1: Build and Test an API | Postman Intergalactic"
     url: "https://youtu.be/RfYWIOocPfM"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Postman Now Generates Docs from OpenAPI 3.0 Definitions"
     url: "https://blog.postman.com/open-api-3-0-documentation/"

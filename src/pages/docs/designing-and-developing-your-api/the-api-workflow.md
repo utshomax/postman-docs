@@ -3,7 +3,7 @@ title: 'API development overview'
 updated: 2022-09-15
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -12,19 +12,17 @@ contextual_links:
   - type: link
     name: "Are you API-first? | The Exploratory"
     url: "https://youtu.be/6brCRaqxNe8"
-  - type: dynamic_blog
-    name: "Blog Posts"
-    blog_tag: "api-first"
-  - type: section
-    name: "Next Steps"
   - type: link
-    name: "Managing APIs"
-    url: "/docs/designing-and-developing-your-api/managing-apis/"
+    name: "Designing Good API Experiences | Postman Intergalactic"
+    url: "https://youtu.be/TQpC1o1dFic"
+  - type: dynamic_blog
+    name: "Blog posts"
+    blog_tag: "api-first"
 ---
 
-Postman supports API-first development with the API Builder. Use the API Builder to design your API in Postman. Your API definition can then act as the single source of truth for your API project.
+Postman supports [API-first development](https://www.postman.com/api-first/) with the API Builder. Use the API Builder to [design your API](https://www.postman.com/api-platform/api-design/) in Postman. Your API definition can then act as the single source of truth for your API project.
 
-You can connect various elements of your API development and testing process to your API definition, such as collections, documentation, tests, and monitors. You can also sync your API in Postman with a Git repository.
+You can connect various elements of your [API development and testing process](https://www.postman.com/api-platform/api-lifecycle/) to your API definition, such as collections, documentation, tests, and monitors. You can also sync your API in Postman with a Git repository.
 
 ## High-level steps
 

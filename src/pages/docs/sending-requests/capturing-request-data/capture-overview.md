@@ -4,19 +4,14 @@ page_id: "capturing_overview"
 updated: 2022-03-02
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Capture API Calls With a Proxy"
     url: "https://youtu.be/bjrCHUITZ3k"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Capture Responses Using the Postman Proxy"
     url: "https://blog.postman.com/capture-responses-using-the-postman-proxy/"

@@ -6,12 +6,7 @@ updated: 2022-05-11
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Working with your team"
-    url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -21,25 +16,27 @@ contextual_links:
     name: "Private API Network"
     url: "https://youtu.be/cbPT4dMFIDw"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
-    name: "Improved Internal API Discovery with the Redesigned Private API Network"
-    url: "https://blog.postman.com/improving-api-discovery-with-the-redesigned-private-api-network/"
+    name: "How to Make Your APIs Available to More Consumers"
+    url: "https://blog.postman.com/how-to-make-your-apis-available-to-more-consumers/"
   - type: link
-    name: "Introducing the API Network Manager Role and Approval Process"
-    url: "https://blog.postman.com/introducing-private-api-network-manager-role-and-approval-process/"
+    name: "You can now see what’s trending across the Private API Network"
+    url: "https://blog.postman.com/whats-trending-private-api-network/"
+  - type: link
+    name: "Introducing an API to manage your Private API Network with more automation"
+    url: "https://blog.postman.com/introducing-api-to-manage-your-private-api-network-with-automation/"
   - type: subtitle
     name: "Case Studies"
   - type: link
     name: "ChargeHub plans to improve internal discovery with a Private API Network"
     url: "https://www.postman.com/case-studies/chargehub/"
-    search_keyword: "Private API Network, API sharing, folders, network listing, filtering apis, publish versions, github import, private apis, adding apis"
 
 ---
 
 > **[The Private API Network is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-The _Private API Network_ provides a central directory of workspaces, collections, and APIs your team uses internally. Your Postman team can access these resources and start using them right away. By using the Private API Network, you can enable developers across your organization to discover, consume, and track API development in one place.
+The _Private API Network_ provides a [central directory](https://www.postman.com/api-platform/api-catalog/) of workspaces, collections, and APIs your team uses internally. Your Postman team can access these resources and start using them right away. By using the Private API Network, you can enable developers across your organization to discover, consume, and track API development in one place.
 
 Workspaces, collections, and APIs in the Private API Network are visible to logged-in users who are on your Postman team. Users who aren't on your team can't find or access these resources.
 
@@ -135,7 +132,7 @@ The approval process enables an API Network Manager to control the process of ad
 
 To turn on the approval process workflow, do the following:
 
-1. In the Postman header, select **Team** > **Team Settings**.
+1. In the Postman header, select **Team > Team Settings**.
 1. Select **Private API Network**.
 1. Turn on the approval process.
 

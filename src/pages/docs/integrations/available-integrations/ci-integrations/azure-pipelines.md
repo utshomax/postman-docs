@@ -3,10 +3,13 @@ title: "Azure Pipelines"
 updated: 2022-10-31
 contextual_links:
   - type: section
-    name: "Prerequisites"
+    name: "Additional resources"
+  - type: subtitle
+    name: "Blog posts"
   - type: link
-    name: "CI Integrations"
-    url: "/docs/integrations/ci-integrations/"
+    name: "A New Postman Integration for Azure DevOps Users"
+    url: "https://blog.postman.com/postman-integration-for-azure-devops-users/"
+
 ---
 
 [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/) is a continuous integration (CI) and continuous delivery (CD) service that's integrated with Microsoft Azure DevOps. Software development teams can use Azure Pipelines to automatically build, test, and deploy code in Azure DevOps.
@@ -71,7 +74,7 @@ To view details for collections that were run as part of a build, first [configu
 
 <img alt="View Azure Pipelines collection runs" src="https://assets.postman.com/postman-docs/v10/azure-collection-runs-v10.jpg">
 
-> Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
+> Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 
 ## Viewing API Governance and API Security rule violations
 
@@ -105,7 +108,7 @@ To add the Postman CLI configuration to your Azure DevOps pipeline, do the follo
 
 1. Create a new YAML file in your Azure Repos repository, and then edit the file.
 1. Add the Postman CLI configuration you copied from Postman to the YAML file:
-    * Replace all instances of `$(POSTMAN_API_KEY)` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
+    * Replace all instances of `$(POSTMAN_API_KEY)` with a valid [Postman API Key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key).
     > Postman recommends that you store your Postman API key as a secret variable in Azure Pipelines to keep it secure. To learn more about secret variables, see [the Azure Pipelines documentation](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/set-secret-variables?view=azure-devops&tabs=yaml%2Cbash).
 1. Commit and push the changes to your remote repository. This will automatically start a build in Azure DevOps.
 1. To view the test results in Postman, open your API and select **Test and Automation**. Learn more about [Viewing collection run details](#viewing-collection-run-details).

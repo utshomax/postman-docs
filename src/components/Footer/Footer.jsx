@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import styled from 'styled-components';
-// import footerDataLocal from '../../../build/footerDev.json';
+import footerDataLocal from '../../../build/footerDev.json';
 import footerData from '../../../bff-data/footer.json';
 
 
@@ -77,8 +77,8 @@ const SocialSVGWrapper = styled.div`
 const triggerGA = (category, label) => (
   category
   && label
-  && window.pm
-  && window.pm.ga('send', 'event', category, 'Click', label)
+  && window.pmt
+  && window.pmt('ga', ['send', 'event', category, 'Click', label])
 );
 
 // Helper function for rel attribute in link or button
@@ -103,11 +103,18 @@ function targetStringGenerator(target) {
 }
 
 const Footer = () => {
+  const [data, setData] = useState(footerData)
+  const footerKeys = ['alt', 'copy', 'copyright', 'items', 'src', 'type'];
 
-  const [data] = useState(footerData) // change to footerDataLocal for local development w/ dummy data from build/footerDev.json
+  useEffect(() => {
+    if (footerKeys.every(key => Object.keys(footerData).includes(key))) {
+      setData(footerData)
+    } else {
+      setData(footerDataLocal)
+    }
+  }, [])
 
   const columns = data.items.slice(0, 5);
-   
   return (
     <FooterWrapper>
       <section id="Footer" className="section">

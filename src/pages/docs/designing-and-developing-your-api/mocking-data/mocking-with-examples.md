@@ -6,15 +6,7 @@ updated: 2021-11-10
 search_keyword: "x-mock-response-code"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -24,16 +16,10 @@ contextual_links:
     name: "Dynamic Mock Behavior | Postman Level Up"
     url: "https://youtu.be/av7SZo9sZAE"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Shifting Left with Postman"
     url: "https://blog.postman.com/shifting-left-with-postman/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Test scripts"
-    url: "/docs/writing-scripts/test-scripts/"
-
 warning: false
 ---
 
@@ -57,7 +43,7 @@ The steps below walk you through the process of creating a mock server in Postma
 
 ### Step 1: Send a request
 
-In Postman, open a new request by selecting **+** or by selecting **New > HTTP Request**. Leave `GET` as the method, and for the request URL enter `https://postman-echo.com/get?test=123`. When ready, select **Send**.
+In Postman, open a new request by selecting **+** or by selecting **New > HTTP**. Leave `GET` as the method, and for the request URL enter `https://postman-echo.com/get?test=123`. When ready, select **Send**.
 
 This request calls the [Postman Echo](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) service which you can use to test REST or SOAP clients and make sample API calls. The resulting response displays in the response pane.
 
@@ -113,7 +99,7 @@ First, copy the mock server URL. Select **Mock Servers** in the sidebar, select 
 
 <img alt="Copy mock URL" src="https://assets.postman.com/postman-docs/mock-examples-step5a-v9-1.jpg" width="808px">
 
-Next, create a new request by selecting **+** or by selecting **New > HTTP Request**. Paste the mock URL into the new request and select **Send**.
+Next, create a new request by selecting **+** or by selecting **New > HTTP**. Paste the mock URL into the new request and select **Send**.
 
 <img alt="Mock server error response" src="https://assets.postman.com/postman-docs/v10/mock-examples-step5b-v10.jpg" width="750px">
 
@@ -129,12 +115,12 @@ To further demonstrate how responses from the mock service are entirely dependen
 
 <img alt="Add a second example" src="https://assets.postman.com/postman-docs/mock-examples-step6a-v9-1.jpg" width="808px">
 
-Sending a `GET` request to `https://postman-echo.com/test` returns a 404 error, which you saved as another example. The collection `C1` now has two requests and two saved examples:
+Sending a `GET` request to `https://postman-echo.com/test` returns a 404 error, which you saved as another example. The collection `C1` has two requests and two saved examples:
 
 * **Example E1** - `GET` request to path `/get`
 * **Example E2** - `GET` request to path `/test`
 
-Finally, repeat step 5 above, but this time add the path `/test` to the end of the mock server URL when sending the request. This returns the expected 404 response.
+Finally, repeat [step 5](#step-5-send-a-request-to-the-mock-server), but this time add the path `/test` to the end of the mock server URL when sending the request. This returns the expected 404 response.
 
 <img alt="Send another request to the mock server" src="https://assets.postman.com/postman-docs/v10/mock-examples-step6b-v10.jpg" width="750px">
 

@@ -5,19 +5,14 @@ updated: 2022-07-18
 page_id: "generate_code_snippets"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Generating Code Snippets | Postman Level Up"
     url: "https://www.youtube.com/watch?v=yYwkvtSvpHI"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Generate Code for Your Front-end Apps"
     url: "https://blog.postman.com/use-your-work-in-postman-to-generate-code-for-your-apps/"
@@ -26,18 +21,6 @@ contextual_links:
   - type: link
     name: "Intuit uses Postman's code generator at hackathons"
     url: "https://www.postman.com/case-studies/intuit/"
-  - type: link
-    name: "ShipEngine uses Postman's code generator to integrate API requests"
-    url: "https://www.postman.com/case-studies/shipengine/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Capturing HTTP requests"
-    url:  "/docs/sending-requests/capturing-request-data/capturing-http-requests/"
-  - type: link
-    name: "Interceptor"
-    url:  "/docs/sending-requests/capturing-request-data/interceptor/"
-
 warning: false
 
 ---
@@ -72,6 +55,7 @@ Postman supports the following:
 | **Language**  | **Framework** |
 | --- | --- |
 | C | [LibCurl](https://curl.se/libcurl/c/) |
+| C# | HttpClient |
 | C# | [RestSharp](http://restsharp.dev/) |
 | cURL |[cURL](https://curl.se/) |
 | Dart | [Dart](https://dart.dev/) |

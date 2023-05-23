@@ -7,19 +7,19 @@ search_keyword: "password security, secret scanning, secret, API key security"
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Postman Token Scanner | Postman Level Up"
     url: "https://youtu.be/9XxkqPQF-Rw"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "2 Big Improvements to the Postman Token Scanner"
     url: "https://blog.postman.com/2-big-improvements-to-the-postman-token-scanner/"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Postman Security"
     url:  "https://www.postman.com/postman/workspace/62d58d93-7e0c-45bf-9daa-cc8e531fc344"
@@ -53,7 +53,7 @@ Postman delivers the scan results in the [Security audit reports](/docs/reports/
 
 ## Token scanner dashboard
 
-You can view your team's configured [default](#default-alerts) and [custom](#custom-alerts) alerts in your [data security dashboard](https://go.postman.co/settings/team/token-scanner). Select **Team** in the upper-right > **Team Settings**. Then, select **Data security** on the left, and select **Token scanner**.
+You can view your team's configured [default](#default-alerts) and [custom](#custom-alerts) alerts in your [data security dashboard](https://go.postman.co/settings/team/token-scanner). Select **Team** in the Postman header, then select **Team Settings**. Then, select **Data security** on the left, and select **Token scanner**.
 
 <img alt="Data security dashboard" src="https://assets.postman.com/postman-docs/data-security-dashboard.jpg"/>
 
@@ -110,7 +110,7 @@ Your team can add a total of five alerts. You must be a **Community Manager** or
 
 To add custom alerts, do the following:
 
-1. Go to **Team** > **Team Settings** > **Token scanner**.
+1. Go to **Team > Team Settings > Token scanner**.
 2. In the **Custom alerts** section, select **Add Alert**.
 3. On the **Add Alert** page, define the custom token.
 
@@ -118,4 +118,4 @@ To add custom alerts, do the following:
 
 Postman also works with GitHub to ensure that your Postman API keys are secure. If you commit a valid Postman API key to a public GitHub repository, Postman notifies you by email and in-app notification. You can also set up Postman's [Slack integration](/docs/integrations/available-integrations/slack/) to alert you in Slack if this occurs.
 
-It's recommended you delete the exposed API key in your [API keys dashboard](https://go.postman.co/settings/me/api-keys). You can then [generate a new API key](/docs/developer/intro-api/#generating-a-postman-api-key) to continue working with the Postman API.
+It's recommended you delete the exposed API key in your [API keys dashboard](https://go.postman.co/settings/me/api-keys). You can then [generate a new API key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key) to continue working with the Postman API.

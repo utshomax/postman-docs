@@ -1,14 +1,9 @@
 ---
 title: "Generating API documentation"
-updated: 2022-10-04
+updated: 2023-01-05
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -21,7 +16,7 @@ contextual_links:
     name: "API Publishers Series, Part 2: Increase Adoption of your Public API"
     url: "https://youtu.be/52pXP3X4a_8"
   - type: dynamic_blog
-    name: "Blog Posts"
+    name: "Blog posts"
     blog_tag: "documentation"
   - type: subtitle
     name: "Case Studies"
@@ -31,20 +26,9 @@ contextual_links:
   - type: link
     name: "SEI Novus uses documentation to keep business use cases solved"
     url: "https://www.postman.com/case-studies/sei-novus/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Writing your docs"
-    url: "/docs/publishing-your-api/authoring-your-documentation/"
-  - type: link
-    name: "Publishing your docs"
-    url: "/docs/publishing-your-api/publishing-your-docs/"
-  - type: link
-    name: "Viewing documentation"
-    url: "/docs/publishing-your-api/viewing-documentation/"
 ---
 
-Documentation is an important part of any collection or API. Good documentation helps the people who use your collection to understand what it does and how each request works. And comprehensive API documentation lets your consumers know what endpoints are available and how to interact with them.
+[Documentation](https://www.postman.com/api-platform/api-documentation/) is an important part of any collection or API. Good documentation helps the people who use your collection to understand what it does and how each request works. And comprehensive API documentation lets your consumers know what endpoints are available and how to interact with them.
 
 Once you've generated documentation for your collection or API, users can [view the documentation](/docs/publishing-your-api/viewing-documentation/) in Postman. By default your documentation is private, so you must share a collection or API with others before they can access it. If you're creating a public API, you can [publish your documentation](/docs/publishing-your-api/publishing-your-docs/) to make it publicly available to anyone with a web browser.
 
@@ -84,15 +68,15 @@ Collections with gRPC or WebSocket requests use a different format than collecti
 
 ## Generating API documentation
 
-The API Builder provides one place to view, create, and manage all of your API's documentation. Postman automatically generates API docs for any OpenAPI 3.0 definition. You can also add detailed documentation to any API by generating a collection from the API or by adding a copy of an existing collection.
+The API Builder provides one place to view, create, and manage all of your API's documentation. Postman automatically generates API docs for any OpenAPI 2.0 or 3.0 definition. You can also add detailed documentation to any API by generating a collection from the API or by adding a copy of an existing collection.
 
 ### Viewing schema documentation
 
-If you are [designing an API](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/) based on the OpenAPI 3.0 specification, Postman automatically creates documentation based on your API definition.
+If you are [designing an API](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/) based on the OpenAPI 2.0 or 3.0 specification, Postman automatically creates documentation based on your API definition.
 
 The API documentation includes complete API, path, and operation information, such as authentication methods, parameters, request bodies, response bodies and headers, and examples. The documentation also includes information for various data models, such as required attributes, default, minimum, and maximum values, and other constraints.
 
-To view the documentation for an OpenAPI 3.0 API, do the following:
+To view the documentation for an OpenAPI 2.0 or 3.0 API, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, under **Definition**, select **View schema documentation**.

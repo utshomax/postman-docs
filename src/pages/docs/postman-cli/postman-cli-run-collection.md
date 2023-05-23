@@ -3,18 +3,7 @@ title: "Running a collection with the Postman CLI"
 updated: 2022-09-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Postman CLI overview"
-    url: "/docs/postman-cli/postman-cli-overview/"
-  - type: link
-    name: "Installing the Postman CLI"
-    url: "/docs/postman-cli/postman-cli-installation/"
-  - type: link
-    name: "Postman CLI command options"
-    url: "/docs/postman-cli/postman-cli-options/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -97,7 +86,7 @@ When the collections run to your satisfaction, you can copy the commands into yo
 
 1. Select the **Operating system** for your CI/CD pipeline.
 
-1. Select the  copy icon <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> to copy the Postman CLI configuration.
+1. Select the copy icon <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> to copy the Postman CLI configuration.
 
 <img alt="Generate Postman CLI" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-v10-3.jpg" />
 

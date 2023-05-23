@@ -5,14 +5,9 @@ updated: 2021-04-21
 page_id: "changelog_and_restoring_collections"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Creating workspaces"
-    url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Stay On Top of Your Evolving Collections with Postman’s New Changelog"
     url: "https://blog.postman.com/stay-on-top-of-evolving-collections-postman-new-changelog/"
@@ -23,13 +18,13 @@ contextual_links:
 warning: false
 ---
 
-> **[Changelog is available on Postman Basic, Professional, and Enterprise plans.](https://www.postman.com/pricing/)**
+> **[Changelog is available on Postman paid plans.](https://www.postman.com/pricing/)**
 
 Each Postman Collection has a changelog that covers create, update, transfer, and delete events. You can use the changelog to keep track of updates you and other collaborators make to your private and team collections. The changelog also enables you to roll back a collection and restore it to an earlier point in time.
 
 ## Contents
 
-* Viewing changes to a [collection](#viewing-the-collection-changelog), [workspace](#viewing-workspace-activity), or [team](#viewing-team-activity)
+* Viewing changes to a [collection](#viewing-the-collection-changelog) or [workspace](#viewing-workspace-activity)
 * [Hiding diffs in the changelog](#hiding-diffs-in-the-changelog)
 * [Restoring collections](#restoring-collections)
 * [Exporting team activity](#exporting-team-activity-to-other-platforms)
@@ -57,7 +52,7 @@ You can also [view who's active in your workspace](/docs/collaborating-in-postma
 
 ### Accessing the activity feed from Postman
 
-To access the activity feed in Postman, select the **Overview** tab. Go to the **Activity** section to learn about events that have occurred within the workspace.
+To access the activity feed in Postman, select the **Overview** tab. Select **View workspace activity** on the right to review the events that have occurred within the workspace.
 
 ### Filtering the activity feed
 
@@ -78,10 +73,6 @@ Filtering by element will display the actions carried out on the selected elemen
 To filter by element, select **Elements** at the top of the activity feed and select the element or elements. You can search for a specific element by typing its name in the search field.
 
 > You can access the changelog of a specific collection by selecting **View Changelog** next to actions on collections.
-
-## Viewing team activity
-
-You can review your team's activity with a Postman Basic, Professional, or Enterprise account. To do so, select **Home** in the upper-left. You can view your team **Activity Feed** on the right.
 
 ## Hiding diffs in the changelog
 

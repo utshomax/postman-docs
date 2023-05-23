@@ -1,17 +1,11 @@
 ---
 title: 'Deploying to an Apigee API gateway'
 updated: 2022-09-15
-search_keyword: "deploy, apigee, api gateway"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "API development overview"
-    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Introducing Powerful Integrations"
     url: "https://blog.postman.com/the-new-postman-api-platform/"

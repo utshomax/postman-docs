@@ -3,15 +3,7 @@ title: "Setting up mock servers"
 updated: 2022-10-17
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -20,8 +12,11 @@ contextual_links:
   - type: link
     name: "Dynamic Mock Behavior | Postman Level Up"
     url: "https://youtu.be/av7SZo9sZAE"
+  - type: link
+    name: "Workshop: Mock API Server Responses"
+    url: "https://www.youtube.com/live/Adaw475mwTM?feature=share"
   - type: dynamic_blog
-    name: "Blog Posts"
+    name: "Blog posts"
     blog_tag: "mock-server"
   - type: subtitle
     name: "Case Studies"
@@ -31,18 +26,13 @@ contextual_links:
   - type: link
     name: "OVO accelerated integration implementation with mock servers"
     url: "https://www.postman.com/case-studies/ovo/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Test scripts"
-    url: "/docs/writing-scripts/test-scripts/"
 ---
 
 Postman enables you to create _mock servers_ to assist with API development and testing. A mock server simulates the behavior of a real API server by accepting requests and returning responses. By adding a mock server to your [collection](/docs/sending-requests/intro-to-collections/) and adding [examples](/docs/sending-requests/examples/) to your requests, you can simulate the behavior of a real API.
 
 When you send a request to a mock server, Postman matches the request to a saved example in your collection. Postman then responds with the data you added to the example. To view existing mock servers in your workspace, select **Mock Servers** in the sidebar.
 
-> You need to be signed into a Postman account to create a mock server.
+> You need to be signed in to a Postman account to create a mock server.
 
 ## Contents
 
@@ -71,7 +61,7 @@ To test using a mock server, do the following:
 
 ## Creating mock servers
 
-You can create mock servers from an existing collection, or Postman will create a new collection for your mock server. You can create a new mock [from scratch](#creating-a-mock-from-scratch), [from a collection](#creating-a-mock-from-a-collection), [from the sidebar](#creating-a-mock-from-the-sidebar), or [from your history](#creating-a-mock-from-history).
+You can create mock servers from an existing collection, or Postman will create a new collection for your mock server. You can create a new mock [from scratch](#creating-a-mock-from-scratch), [from a collection](#creating-a-mock-from-a-collection), or [from your history](#creating-a-mock-from-history).
 
 ### Creating a mock from scratch
 
@@ -93,16 +83,6 @@ Select **Collections** in the sidebar. Select the more actions icon <img alt="Mo
 
 Configure your [mock server details](#configuring-mock-server-details).
 
-### Creating a mock from the sidebar
-
-In the sidebar, select **New** and select **Mock Server**.
-
-<img alt="Creating a mock server using the New button" src="https://assets.postman.com/postman-docs/v10/mock-server-new-button-v10.jpg" />
-
-Select an existing collection, or create a new collection and add an initial request.
-
-Configure your [mock server details](#configuring-mock-server-details).
-
 ### Creating a mock from history
 
 You can build a mock server based on requests from your Postman history. Select **History** in the sidebar, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a request and select **Mock Request**. (You can also mock all the requests for particular date.)
@@ -117,7 +97,7 @@ To configure your new mock server, give it a name. You can select an optional en
 
 > You can save the mock URL to an [environment variable](/docs/sending-requests/variables/) in a new environment. You can then reference the variable in your requests by making the new environment active before sending the request. Learn more about [using variables with mock servers](/docs/designing-and-developing-your-api/mocking-data/creating-dynamic-responses/#using-variables-with-mock-servers).
 
-If you choose to make your mock server private, you need to add a [Postman API key](/docs/developer/intro-api/) in the request header when sending requests to the mock server: `x-api-key:<Your-Postman-API-key>`. If you [share the collection](/docs/collaborating-in-postman/sharing/), others can use their Postman API keys to make calls to the mock server.
+If you choose to make your mock server private, you need to add a [Postman API key](/docs/developer/postman-api/intro-api/) in the request header when sending requests to the mock server: `x-api-key:<Your-Postman-API-key>`. If you [share the collection](/docs/collaborating-in-postman/sharing/), others can use their Postman API keys to make calls to the mock server.
 
 > Not all configuration options will be available, depending on the method you used to create the mock server.
 
