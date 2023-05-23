@@ -6,11 +6,6 @@ updated: 2022-09-15
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "CI Integrations"
-    url: "/docs/integrations/ci-integrations/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Blog posts"

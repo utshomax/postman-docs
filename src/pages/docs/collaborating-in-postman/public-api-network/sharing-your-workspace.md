@@ -1,19 +1,9 @@
 ---
 title: "Sharing your public workspace"
 updated: 2023-03-30
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Public workspaces"
-    url: "/docs/collaborating-in-postman/using-workspaces/public-workspaces/"
-  - type: link
-    name: "Exploring the Public API Network"
-    url: "/docs/getting-started/exploring-public-api-network/"
 ---
 
-
-Postman recommends following these best practices and tips to [share your public workspace with API consumers](https://www.postman.com/api-platform/api-catalog/) and track interest and activity for your APIs on [the Public API Network](/docs/getting-started/exploring-public-api-network/).
+Postman recommends following these best practices and tips to share your public workspace with API consumers and track interest and activity for your APIs on [the Public API Network](/docs/getting-started/exploring-public-api-network/).
 
 ## Contents
 

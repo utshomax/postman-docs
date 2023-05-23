@@ -4,20 +4,6 @@ order: 164.1
 updated: 2021-09-15
 page_id: "bitbucket"
 warning: false
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Custom Webhooks"
-    url: "/docs/integrations/webhooks/"
-  - type: link
-    name: "Slack Integration"
-    url: "/docs/integrations/available-integrations/slack/"
 ---
 
 You can back up your team's Postman Collections with Postman's Bitbucket integration.

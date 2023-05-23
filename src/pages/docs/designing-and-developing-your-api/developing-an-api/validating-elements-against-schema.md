@@ -3,14 +3,6 @@ title: 'Checking API syntax and rules'
 updated: 2023-05-18
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "API development overview"
-    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
-  - type: link
-    name: "Managing and sharing APIs"
-    url: "/docs/designing-and-developing-your-api/managing-apis/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -22,11 +14,6 @@ contextual_links:
   - type: link
     name: "API contract testing: 4 things to validate to meet (and exceed) expectations"
     url: "https://blog.postman.com/api-contract-testing-4-things-to-validate/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Reports overview"
-    url: "/docs/reports/reports-overview/"
 ---
 
 You can check your API definition as you work on it in Postman to help keep your API well defined. As you edit your API definition, Postman lists any syntax errors based on the definition type. Postman also identifies any API governance and security issues based on the rules configured for your team.

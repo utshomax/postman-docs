@@ -3,14 +3,6 @@ title: "CI with Postman API"
 updated: 2022-05-23
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: link
-    name: "Command-line integration with Newman"
-    url: "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -22,15 +14,6 @@ contextual_links:
   - type: link
     name: "Continuous API Testing with Postman"
     url: "https://blog.postman.com/continuous-api-testing-with-postman/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Intro to scripts"
-    url: "/docs/writing-scripts/intro-to-scripts/"
-  - type: link
-    name: "CI Integrations"
-    url: "/docs/integrations/ci-integrations/"
-
 warning: false
 ---
 

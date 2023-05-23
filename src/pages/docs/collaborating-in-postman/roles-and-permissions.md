@@ -6,11 +6,6 @@ page_id: "roles_and_permissions"
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Working with your team"
-    url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

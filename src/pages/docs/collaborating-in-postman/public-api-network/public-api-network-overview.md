@@ -1,15 +1,6 @@
 ---
 title: "Public API Network overview"
 updated: 2023-03-30
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Public workspaces"
-    url: "/docs/collaborating-in-postman/using-workspaces/public-workspaces/"
-  - type: link
-    name: "Exploring the Public API Network"
-    url: "/docs/getting-started/exploring-public-api-network/"
 ---
 
 Make your API available on [the Public API Network](/docs/getting-started/exploring-public-api-network/) to share your APIs with 20M+ users in the world’s largest public API network. Your API is searchable in the Postman app when it's available on the Public API Network. If API consumers actively watch and fork your API, it'll be featured on Postman's [Explore](https://www.postman.com/explore) page.

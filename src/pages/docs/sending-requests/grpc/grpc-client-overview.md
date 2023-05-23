@@ -3,15 +3,7 @@ title: "gRPC overview"
 updated: 2022-09-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Download and Install"
-    url: "https://www.postman.com/downloads/"
-  - type: section
     name: "Additional resources"
-  - type: link
-    name: "Specifying examples"
-    url: "https://learning.postman.com/docs/sending-requests/examples/"
   - type: subtitle
     name: "Videos"
   - type: link

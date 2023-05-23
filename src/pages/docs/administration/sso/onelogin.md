@@ -4,12 +4,6 @@ order: 139
 updated: 2022-03-16
 page_id: "onelogin"
 warning: false
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Configuring SSO for a team"
-    url: "/docs/administration/sso/admin-sso/"
 ---
 
 > **[SSO with OneLogin is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
