@@ -21,7 +21,8 @@ updated: 2020-05-22
 1. Select **SETUP MY OWN CUSTOM APP**.
    [![gsuite setup](https://assets.postman.com/postman-docs/gsuite_setup.png)](https://assets.postman.com/postman-docs/gsuite_setup.png)
 
-1. Collect the **SSO URL**, **Identity Provider Issuer**, and **X.509 Certificate** from this window, and enter these values into your Postman [Edit Team Details page](https://go.postman.co/settings/team/general) within the **GSuite Identity Provider Details** modal.
+1. In Postman, enter the **SSO URL**, **Identity provider issuer**, and **X.509 Certificate** individually under **Identity provider details**. Or, you can upload the IDP metadata file under **Identity provider metadata file**.
+
    [![gsuite google IdP](https://assets.postman.com/postman-docs/gsuite_google_IdP.png)](https://assets.postman.com/postman-docs/gsuite_google_IdP.png)
 
 1. Enter an application name (for example, "Postman SAML App") and fill out any other optional fields.
