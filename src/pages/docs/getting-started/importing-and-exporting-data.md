@@ -67,6 +67,8 @@ To import your data into Postman, select **Import** in the upper left. The **Imp
 
 You can import your data from files, folders, links, raw text, or code repositories.
 
+> You can also import items by dragging and dropping files or folders onto the sidebar.
+
 ### Importing with cURL commands
 
 You can use cURL commands to import data.
