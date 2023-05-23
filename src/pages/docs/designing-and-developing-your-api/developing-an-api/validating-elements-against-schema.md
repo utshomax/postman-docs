@@ -3,14 +3,6 @@ title: 'Validating APIs'
 updated: 2022-09-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "API development overview"
-    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
-  - type: link
-    name: "Managing and sharing APIs"
-    url: "/docs/designing-and-developing-your-api/managing-apis/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -22,11 +14,6 @@ contextual_links:
   - type: link
     name: "API contract testing: 4 things to validate to meet (and exceed) expectations"
     url: "https://blog.postman.com/api-contract-testing-4-things-to-validate/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Reports overview"
-    url: "/docs/reports/reports-overview/"
 ---
 
 You can validate your API definitions as you write them in Postman<!--, and validate your elements (collections and tests) against your schema-->. This helps keep your API well-defined<!--and ensures that your elements are in sync with your schema-->. If there is a syntax error in the definition<!--or elements don't match it-->, Postman will present a list of issues that have been found, as well as fixes for these issues. <!--You can then apply fixes to the API elements and revalidate them.-->

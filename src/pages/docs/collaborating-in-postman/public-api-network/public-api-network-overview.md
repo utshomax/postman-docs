@@ -1,20 +1,11 @@
 ---
 title: "Public API Network overview"
 updated: 2023-03-30
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Public workspaces"
-    url: "/docs/collaborating-in-postman/using-workspaces/public-workspaces/"
-  - type: link
-    name: "Exploring the Public API Network"
-    url: "/docs/getting-started/exploring-public-api-network/"
 ---
 
 Make your API available on [the Public API Network](/docs/getting-started/exploring-public-api-network/) to share your APIs with 20M+ users in the world’s largest public API network. Your API is searchable in the Postman app when it's available on the Public API Network. If API consumers actively watch and fork your API, it'll be featured on Postman's [Explore](https://www.postman.com/explore) page.
 
-Postman has always been passionate about successful API calls and supporting greater collaboration and innovation. Postman Collections and workspaces provide developers with the tools they need for successful API calls. [Public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) enable API developers to view, share, and consume your APIs and all the elements you publish, and it’s free of charge. It has never been easier to present your APIs to the global API community. With more than 57,000 public workspaces and 125,000 collections already in the network, it has become the world’s largest public API network.
+Postman has always been passionate about successful API calls and supporting greater collaboration and innovation. Postman Collections and workspaces provide developers with the tools they need for successful API calls. [Public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) enable API developers to [view, share, and consume your APIs](https://www.postman.com/api-platform/api-catalog/) and all the elements you publish, and it’s free of charge. It has never been easier to present your APIs to the global API community. With more than 57,000 public workspaces and 125,000 collections already in the network, it has become the world’s largest public API network.
 
 <img alt="Postman Public API Network" src="https://assets.postman.com/postman-docs/v10/public-api-network-v10.jpg" width="1000px"/>
 

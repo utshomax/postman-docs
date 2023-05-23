@@ -1,15 +1,8 @@
 ---
 title: "Azure DevOps"
-updated: 2023-05-19
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Using a remote Git repository"
-    url: "/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
+order: 169
+page_id: "azure-devops"
+updated: 2021-12-20
 ---
 
 > **[Azure DevOps Server (hosted on-premises) integrations are available on Postman Enterprise plans.](https://www.postman.com/pricing)**

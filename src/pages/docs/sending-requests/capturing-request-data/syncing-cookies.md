@@ -4,11 +4,6 @@ page_id: "syncing_cookies"
 updated: 2022-03-02
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Using cookies"
-    url: "/docs/sending-requests/cookies/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

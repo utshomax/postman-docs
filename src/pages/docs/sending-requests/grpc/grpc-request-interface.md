@@ -3,11 +3,6 @@ title: "Using the gRPC request interface"
 updated: 2022-10-04
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Navigating Postman"
-    url: "https://learning.postman.com/docs/getting-started/navigating-postman/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

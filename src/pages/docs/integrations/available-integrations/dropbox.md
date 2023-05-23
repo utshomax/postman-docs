@@ -1,12 +1,6 @@
 ---
 title: "Dropbox"
 updated: 2023-04-13
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
 ---
 
 Back up and synchronize your Postman Collections on Dropbox for file sharing, storage, and collaboration. The Postman to Dropbox integration complements your existing workflows and allows you to store your collections and other project files in one place.

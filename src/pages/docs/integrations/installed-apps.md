@@ -3,11 +3,6 @@ title: "Using installed apps in integrations"
 updated: 2023-03-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Integrating with Postman"
-    url: "/docs/integrations/intro-integrations/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Blog posts"

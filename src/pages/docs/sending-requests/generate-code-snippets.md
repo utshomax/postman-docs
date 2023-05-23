@@ -5,11 +5,6 @@ updated: 2022-07-18
 page_id: "generate_code_snippets"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -26,15 +21,6 @@ contextual_links:
   - type: link
     name: "Intuit uses Postman's code generator at hackathons"
     url: "https://www.postman.com/case-studies/intuit/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Capturing HTTP requests"
-    url:  "/docs/sending-requests/capturing-request-data/capturing-http-requests/"
-  - type: link
-    name: "Interceptor"
-    url:  "/docs/sending-requests/capturing-request-data/interceptor/"
-
 warning: false
 
 ---
