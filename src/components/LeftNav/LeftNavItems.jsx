@@ -138,7 +138,67 @@ export const leftNavItems = [
       },
       {
         name: 'Authorizing requests',
-        url: '/docs/sending-requests/authorization/',
+        subParentSlug: 'authorization',
+        slug: '/docs/sending-requests/authorization/authorization/',
+        subMenuItems2: [
+          {
+            name: 'Authorization overview',
+            url: '/docs/sending-requests/authorization/authorization/',
+          },
+          {
+            name: 'Specifying authorization details',
+            url: '/docs/sending-requests/authorization/specifying-authorization-details/',
+          },
+          {
+            name: 'Authentication for public APIs',
+            url: '/docs/sending-requests/authorization/authentication-for-public-apis/',
+          },
+          {
+            name: 'Inheriting authorization',
+            url: '/docs/sending-requests/authorization/inheriting-authorization/',
+          },
+          {
+            name: 'Authorization types',
+            url: '/docs/sending-requests/authorization/authorization-types/',
+          },
+          {
+            name: 'Digest auth',
+            url: '/docs/sending-requests/authorization/digest-auth/',
+          },
+          {
+            name: 'OAuth 1.0 authentication',
+            url: '/docs/sending-requests/authorization/oauth-10/',
+          },
+          {
+            name: 'OAuth 2.0 authentication',
+            url: '/docs/sending-requests/authorization/oauth-20/',
+          },
+          {
+            name: 'Hawk authentication',
+            url: '/docs/sending-requests/authorization/hawk-authentication/',
+          },
+          {
+            name: 'AWS Signature',
+            url: '/docs/sending-requests/authorization/aws-signature/',
+          },
+          {
+            name: 'NTLM authentication',
+            url: '/docs/sending-requests/authorization/ntlm-authentication/',
+          },
+          {
+            name: 'Akamai Edgegrid',
+            url: '/docs/sending-requests/authorization/akamai-edgegrid/',
+          },
+          {
+            name: 'Syncing Cookies',
+            url: '/docs/sending-requests/authorization/syncing-cookies/',
+          },
+          {
+            name: 'Troubleshooting authorization',
+            url: '/docs/sending-requests/authorization/troubleshooting/',
+          },
+
+        ],
       },
       {
         name: 'Receiving responses',
