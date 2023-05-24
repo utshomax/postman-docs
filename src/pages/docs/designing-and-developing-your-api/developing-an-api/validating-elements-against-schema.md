@@ -16,7 +16,7 @@ contextual_links:
     url: "https://blog.postman.com/api-contract-testing-4-things-to-validate/"
 ---
 
-You can validate collections that are linked to an API to make sure the API implementation is consistent with the API definition. Postman automatically compares requests, saved examples, and responses to the API definition and alerts you to any inconsistencies.
+You can validate collections that are linked to an API to make sure the API implementation is aligned with the API definition. Postman automatically compares requests, saved examples, and responses to the API definition and alerts you to any inconsistencies.
 
 You can also check your API definition as you work on it in Postman to help keep your API well defined. As you edit your API definition, Postman lists any syntax errors based on the definition type. Postman also identifies any API governance and security issues based on the rules configured for your team.
 
@@ -28,17 +28,24 @@ You can also check your API definition as you work on it in Postman to help keep
 
 ## Validating requests and responses
 
-For collections linked to an API, Postman can automatically detect inconsistencies between the requests and saved examples in the collection and the API definition. Postman can also compare responses received from the server to the API definition to make sure the API implementation aligns with the API design. Postman displays a warning for each detected issue. Select a warning to view the source of the issue so you can resolve it.
+For [collections linked to an API]((/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/#adding-a-collection)), Postman can automatically detect inconsistencies between the [requests](/docs/sending-requests/requests/) and [saved examples](/docs/sending-requests/examples/) in the collection and the [API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/). Postman can also compare [responses](/docs/sending-requests/responses/) received from the server to the API definition to make sure the API implementation aligns with the API design. Postman displays a warning for each detected issue. Select a warning to view the source of the issue so you can resolve it.
 
-To get started, make sure the request validation is enabled.
+### Enabling request validation
 
-You must also add at least one collection to the API.
+When request validation is enabled, Postman automatically detects inconsistencies between the requests and examples in your API-linked collections and the API definition.
 
-Postman automatically checks for inconsistencies when...
+1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Settings**.
+1. Turn on the toggle next to **Request Validation**.
 
-To view errors, select the warning icon. A dot in the sidebar indicates validation errors for an element.
+### Viewing validation issues
 
-Select a warning to view the location of the issue. When you correct an issue, the warning disappears.
+> To validate requests, saved examples, and responses, your collection must be linked to an API. Learn more about [adding a collection to an API](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/#adding-a-collection).
+
+Postman automatically checks for inconsistences whenever you open a request, change a request or an example, change the API definition, or send a request. If Postman detects validation issues, a warning icon displays next to the request name. An orange dot also displays in the sidebar next to the element with the issue.
+
+To view the list of validation issues, select the warning icon in the request. Postman provides details for each issue, including the element with the issue and details about the problem.
+
+Select an issue to view the element where the issue was detected. To resolve the issue, you can change the [request](/docs/sending-requests/requests/#adding-request-detail) or [saved example](/docs/sending-requests/examples/#editing-an-example), or you can change the [API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#editing-an-api-definition-file). After you save your changes, if the problem is corrected, the issue disappears.
 
 ## Viewing syntax errors in your API definition
 
