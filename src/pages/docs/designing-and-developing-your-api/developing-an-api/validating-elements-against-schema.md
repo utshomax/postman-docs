@@ -1,6 +1,6 @@
 ---
-title: 'Checking API syntax and rules'
-updated: 2023-05-18
+title: 'Validating an API'
+updated: 2023-06-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -16,12 +16,29 @@ contextual_links:
     url: "https://blog.postman.com/api-contract-testing-4-things-to-validate/"
 ---
 
-You can check your API definition as you work on it in Postman to help keep your API well defined. As you edit your API definition, Postman lists any syntax errors based on the definition type. Postman also identifies any API governance and security issues based on the rules configured for your team.
+You can validate collections that are linked to an API to make sure the API implementation is consistent with the API definition. Postman automatically compares requests, saved examples, and responses to the API definition and alerts you to any inconsistencies.
+
+You can also check your API definition as you work on it in Postman to help keep your API well defined. As you edit your API definition, Postman lists any syntax errors based on the definition type. Postman also identifies any API governance and security issues based on the rules configured for your team.
 
 ## Contents
 
+* [Validating requests and responses](#validating-requests-and-responses)
 * [Viewing syntax errors in your API definition](#viewing-syntax-errors-in-your-api-definition)
 * [Viewing rule violations in your API definition](#viewing-rule-violations-in-your-api-definition)
+
+## Validating requests and responses
+
+For collections linked to an API, Postman can automatically detect inconsistencies between the requests and saved examples in the collection and the API definition. Postman can also compare responses received from the server to the API definition to make sure the API implementation aligns with the API design. Postman displays a warning for each detected issue. Select a warning to view the source of the issue so you can resolve it.
+
+To get started, make sure the request validation is enabled.
+
+You must also add at least one collection to the API.
+
+Postman automatically checks for inconsistencies when...
+
+To view errors, select the warning icon. A dot in the sidebar indicates validation errors for an element.
+
+Select a warning to view the location of the issue. When you correct an issue, the warning disappears.
 
 ## Viewing syntax errors in your API definition
 
