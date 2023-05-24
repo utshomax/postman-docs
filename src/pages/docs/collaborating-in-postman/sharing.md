@@ -5,11 +5,6 @@ page_id: "sharing"
 updated: 2023-02-22
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Working with your team"
-    url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -30,17 +25,10 @@ contextual_links:
   - type: link
     name: "Introducing Postman’s new Guest role to share collections instantly"
     url: "https://blog.postman.com/introducing-postmans-new-guest-role-to-share-collections-instantly/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Creating Workspaces"
-    url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
-
 warning: false
-
 ---
 
-You can collaborate on Postman elements including collections, APIs, and environments, by sharing them or by moving them to a shared private, team, or public workspace.
+You can [collaborate on Postman elements](https://www.postman.com/api-platform/api-collaboration/) including collections, APIs, and environments, by sharing them or by moving them to a shared private, team, or public workspace.
 
 To share your work using workspaces, you need to be signed in to your [Postman account](/docs/getting-started/postman-account/).
 
@@ -160,7 +148,7 @@ The collection must be in a team workspace. If the collection is in a personal o
 
 You can change an external user's role at the team and collection levels. You can also revoke access to viewing collections for new and existing external users.
 
-To learn how to change an external user's team role, see [Managing guests](/docs/administration/managing-your-team/managing-your-team/#managing-guests). To learn how an external user can request a role change, see [Requesting Editor role access for a collection as an external user](/docs/collaborating-in-postman/requesting-access-to-collections/#requesting-editor-role-access-for-a-collection-as-an-external-user).
+To learn how to change an external user's team role, see [Managing guests](/docs/administration/managing-your-team/managing-your-team/#managing-guests). To learn how an external user can request a role change, see [Requesting Editor role access for a collection as an external user](/docs/collaborating-in-postman/requesting-access-to-elements/#requesting-editor-role-access-for-a-collection-as-an-external-user).
 
 You can turn off the toggle next to **Allow Guests with the link to join your team and view collection**. When you turn this off, new external users can no longer be assigned the Guest role. External users already assigned the Guest role will continue to have access to the collection. If this is turned off for all collections an external user could access, they will be removed from the team and unable to access collections in the team.
 

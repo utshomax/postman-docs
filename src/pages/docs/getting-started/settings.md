@@ -1,13 +1,8 @@
 ---
 title: "Setting up Postman"
-updated: 2023-03-15
+updated: 2023-05-15
 search_keyword: "GPU, hardware acceleration, shortcut, shortcuts, keyboard shortcuts"
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Download and Install"
-    url: "https://www.postman.com/downloads/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -21,11 +16,6 @@ contextual_links:
   - type: link
     name: "Dark Mode | Postman Level Up"
     url: "https://youtu.be/rZySZm9XaLM"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Sending your first request"
-    url: "/docs/getting-started/sending-the-first-request/"
 ---
 
 Postman automatically chooses default values for some settings so you can get right to work. Make changes to settings at any time based on your use case or to customize your Postman experience.
@@ -141,6 +131,8 @@ Some shortcuts aren't available in the Postman web app. Also, shortcut modifier 
 Use the **Data** tab to request a bulk export of Postman data or to import data. To begin the export process, select **Export Data**. You can choose to export your collections, environments, or both. You'll receive an email when your dump file is ready to download.
 
 Importing a dump file may overwrite your existing collections and environments, so use caution. Always make a backup before importing files. Learn more about [importing and exporting data](/docs/getting-started/importing-and-exporting-data/).
+
+If you have data on the [Scratch Pad](/docs/getting-started/using-scratch-pad/), you can migrate the data to a workspace. Learn more about [migrating Scratch Pad data to a workspace](/docs/getting-started/using-scratch-pad/#migrating-scratch-pad-data-to-a-workspace).
 
 ## Add-ons
 

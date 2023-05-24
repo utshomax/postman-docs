@@ -1,15 +1,6 @@
 ---
 title: "Organizing your public workspace"
 updated: 2023-03-30
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Public workspaces"
-    url: "/docs/collaborating-in-postman/using-workspaces/public-workspaces/"
-  - type: link
-    name: "Exploring the Public API Network"
-    url: "/docs/getting-started/exploring-public-api-network/"
 ---
 
 Before making your APIs available on [the Postman Public API Network](/docs/getting-started/exploring-public-api-network/), Postman recommends following these best practices and tips to help API consumers begin using your APIs.

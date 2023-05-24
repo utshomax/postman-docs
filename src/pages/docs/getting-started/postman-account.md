@@ -5,11 +5,6 @@ page_id: "postman_account"
 updated: 2021-12-9
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Download and Install"
-    url: "https://www.postman.com/downloads/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -21,14 +16,7 @@ contextual_links:
   - type: link
     name: "Secure Your Postman Account with Two-Factor Authentication"
     url: "https://blog.postman.com/secure-your-postman-account-with-two-factor-authentication/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Customizing your Postman profile"
-    url: "/docs/getting-started/postman-profile/"
-
 warning: false
-
 ---
 
 Having a free Postman account enables you to [sync](/docs/getting-started/syncing/) and back up your work so that you can access it from different machines. With a Postman account, you can also [collaborate](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) with others on your API projects.
@@ -122,9 +110,9 @@ You can manage account settings including your email address, password, and work
 
 ### Changing your email address
 
-If you're on a Professional, Basic, or Free plan, you can change the email address associated with your Postman account. Open your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the Postman header, then select **Settings > Account**. Edit your email address and select **Update Email** to save changes.
+If you're a member of a free or paid team, you can change the email address associated with your Postman account. Open your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the Postman header, then select **Settings > Account**. Edit your email address and select **Update Email Address** to save changes.
 
-If you're on an Enterprise plan, you must contact your Team Admins to update the email address associated with your Postman account.
+If you're a member of an Enterprise team with SCIM enabled, you must contact a Team Admin to change the email address associated with your Postman account. A Team Admin must edit your email address in your SCIM identity provider.
 
 ### Resetting your password
 

@@ -1,12 +1,7 @@
 ---
 title: "Installing and updating Postman"
-updated: 2023-02-02
+updated: 2023-05-15
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Download and Install"
-    url: "https://www.postman.com/downloads/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -25,12 +20,6 @@ contextual_links:
   - type: link
     name: "Introducing the Postman Agent: Send API Requests from Your Browser without Limits"
     url: "https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Sending your first request"
-    url: "/docs/getting-started/sending-the-first-request/"
-
 ---
 
 Postman is available on the web at **[go.postman.co/home](https://go.postman.co/home)** and as a native desktop app for Mac (Intel or Apple silicon), Windows (Intel 32-bit or 64-bit), and Linux (64-bit) operating systems.
@@ -151,7 +140,7 @@ The Postman web app is under active development. There are features you can only
 * **Find and replace** - The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/navigating-postman/#find-and-replace), but this function isn't available on the Postman web app yet.
 * **Certificates and proxy** - The Postman desktop app enables you to customize [certificates](/docs/sending-requests/certificates/) and [proxy configurations](/docs/getting-started/proxy/#configuring-proxy-settings). On the Postman web app, these take the browser defined value and can't be overridden by Postman.
 * **Postman Interceptor** - [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) syncs cookies from your browser to the Postman desktop app and captures network requests directly from the browser. It's not possible to use Interceptor with the Postman web app.
-* **Scratch Pad** - The Postman desktop app supports working in Postman offline using the [Scratch Pad](/docs/getting-started/using-scratch-pad/).
+* **Lightweight Postman API Client** - You can use the [lightweight API Client](/docs/getting-started/using-api-client/) to send requests from the Postman desktop app when you aren't signed in to Postman.
 
 ## Updating Postman
 

@@ -23,7 +23,7 @@ contextual_links:
 
 > Postman Free lets teams of up to three work together at no cost. To collaborate with more team members, features, and increased usage limits, see [Plans and Pricing](https://www.postman.com/pricing/).
 
-Postman provides a variety of tools to enable and enhance collaboration within your team. You can ease the onboarding process by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/), allowing users in your organization to request to join your Postman team. You can also create [team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/), where team members can share their work and collaborate on API projects. Users can [discuss their work](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/) directly in Postman by commenting on collections and APIs, including on specific requests, versions, and inline on schemas and scripts.
+Postman provides a variety of tools to enable and enhance [collaboration within your team](https://www.postman.com/api-platform/api-collaboration/). You can ease the onboarding process by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/), allowing users in your organization to request to join your Postman team. You can also create [team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/), where team members can share their work and collaborate on API projects. Users can [discuss their work](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/) directly in Postman by commenting on collections and APIs, including on specific requests, versions, and inline on schemas and scripts.
 
 To get the most out of Postman's collaboration features, [create](#creating-a-team) or [join](#joining-a-team) a team. You can be a member of up to ten Postman teams, regardless of if they're Postman Free, Basic, Professional, or Enterprise.
 
@@ -31,12 +31,24 @@ To get the most out of Postman's collaboration features, [create](#creating-a-te
 
 ## Contents
 
+* [About accounts and teams](#about-accounts-and-teams)
 * [Creating a team](#creating-a-team)
 * [Joining a team](#joining-a-team)
 * [Switching between teams](#switching-between-teams)
 * [Leaving a team](#leaving-a-team)
 * [Team usage limits](#team-usage-limits)
 * [Next steps](#next-steps)
+
+## About accounts and teams
+
+When you sign up for Postman as an individual, you create a [Postman account](/docs/getting-started/postman-account/). If you [join a Postman team](#joining-a-team), you can decide to either move your workspaces and transfer ownership to the team or keep your workspaces separate and maintain ownership of them in your personal account. This decision affects your account:
+
+* When you move your workspaces to a team, your account will cease to exist and you'll only have the option to switch between teams, rather than work in a personal account.
+* When you keep your workspaces, you'll retain your account and you can switch between the team and your personal account at any time.
+
+In certain cases, your personal workspaces and the data within them automatically transfer when you join a team. For more information, see [Joining a team](#joining-a-team).
+
+When you [leave a team](#leaving-a-team), a [Postman account](/docs/getting-started/postman-account/) is created for you if you don't already have one. If you as a user are deactivated through SCIM and you are a member of other teams, you will still have access to the personal account and other teams you are a member of. If you are not a member of any other team and do not have a personal account, you will not be able to authenticate into that account, and will need to contact support.
 
 ## Creating a team
 

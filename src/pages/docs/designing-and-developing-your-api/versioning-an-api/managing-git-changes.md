@@ -3,11 +3,6 @@ title: 'Managing changes using Git'
 updated: 2022-09-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "API version control overview"
-    url: "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"

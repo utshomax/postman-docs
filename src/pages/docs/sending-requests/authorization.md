@@ -4,14 +4,6 @@ updated: 2022-12-12
 search_keyword: "WWW-Authenticate, x-www-form-urlencoded"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending your first request"
-    url: "/docs/getting-started/sending-the-first-request/"
-  - type: link
-    name: "Requests"
-    url: "/docs/sending-requests/requests/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -40,11 +32,6 @@ contextual_links:
   - type: link
     name: "Intuit uses Postman's authentication protocols"
     url: "https://www.postman.com/case-studies/intuit/"
-  - type: subtitle
-    name: "Next steps"
-  - type: link
-    name: "Troubleshooting your Requests"
-    url: "/docs/sending-requests/troubleshooting-api-requests/"
 ---
 
 APIs use authorization to ensure that client requests access data securely. This can involve authenticating the sender of a request and confirming that they have permission to access or manipulate the relevant data. If you're building an API, you can choose from a variety of auth models. If you're integrating a third-party API, the required authorization will be specified by the API provider.
@@ -87,7 +74,7 @@ With a request open in Postman, use the __Authorization__ tab to select an auth 
 
 > Easier API authentication is available for certain public APIs. For more information, see [Authentication for public APIs](#authentication-for-public-apis).
 
-![Authorization tab](https://assets.postman.com/postman-docs/authorization-tab-v9.jpg)
+![Authorization tab](https://assets.postman.com/postman-docs/v10/authorization-tab-v10.jpg)
 
 > You can use these auth types with Newman and monitors as well as in Postman.
 
@@ -95,7 +82,7 @@ When you select a type from the **Type** dropdown list, Postman will indicate wh
 
 Your auth data will appear in the relevant parts of the request, for example in the __Headers__ tab. To show headers that were added automatically, select __hidden__.
 
-<img alt="Hidden Headers" src="https://assets.postman.com/postman-docs/hidden-headers-v9.jpg" width="400px"/>
+<img alt="Hidden Headers" src="https://assets.postman.com/postman-docs/v10/hidden-headers-v10.jpg" width="400px"/>
 
 Hover over a header to get information about where it was added. To change an auth header, return to the __Authorization__ tab and update your configuration.
 
@@ -109,11 +96,11 @@ You can inspect a raw dump of the entire request including auth data in the Post
 
 An increasing number of public APIs offer easier authentication through Postman, including Stripe, Open AI, Notion, and Spotify. When you create a request to a supported API, Postman will automatically recognize if the API requires authentication and give you the option to **Set up new authorization**.
 
-<img alt="Postman API set up new authorization" src="https://assets.postman.com/postman-docs/postman-api-easier-auth-10.13.jpg"/>
+<img alt="Postman API set up new authorization" src="https://assets.postman.com/postman-docs/v10/postman-api-easier-auth-v10-2.jpg"/>
 
 Select **Set up new authorization** to learn what authentication credentials you'll need to make your request and where you can find them. For APIs that support OAuth 2.0, you can select **Authorize** to complete authorization. For APIs requiring credentials like tokens or API keys, you can paste those directly into your request.
 
-<img alt="Postman API authentication info and link" src="https://assets.postman.com/postman-docs/postman-api-easier-auth-enter-key-10.13.jpg"/>
+<img alt="Postman API authentication info and link" src="https://assets.postman.com/postman-docs/v10/postman-api-easier-auth-enter-key-v10-2.jpg"/>
 
 If you're an API publisher, you can [join the waitlist](https://go.postman.co/settings/team/api-authentication) to provide easier authentication for your public APIs to the Postman community. To do so, open Postman and select **Team** in the upper right, then **Team Settings > Set Up API authorization**. Alternatively, select **API Network** from the Postman header, then select **Public API Network > Set up API authorization**.
 

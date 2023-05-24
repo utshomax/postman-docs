@@ -6,11 +6,6 @@ updated: 2022-03-11
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Creating workspaces"
-    url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -77,12 +72,13 @@ To create a public workspace, do the following:
     <img alt="Workspace menu" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.19.jpg" width="300px"/>
 
 1. Specify a workspace **Name** and **Summary**.
+    > Within a team, you can't have two public workspaces with the same name.
 1. Under **Visibility**, select **Public**.
 1. Select **Create workspace**.
 
     <img alt="Create public workspace" src="https://assets.postman.com/postman-docs/create-public-wkspc-v9.5.jpg" width="400px"/>
 
-> Within a team, you can't have two public workspaces with the same name.
+> You can use workspace templates to help set up your new public workspace. For more information, see [Creating workspaces with a template](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template).
 
 To convert an existing workspace to a public workspace, do the following:
 

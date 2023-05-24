@@ -5,17 +5,6 @@ updated: 2022-07-20
 page_id: "pre_request_scripts"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
-  - type: link
-    name: "Intro to Scripts"
-    url: "/docs/writing-scripts/intro-to-scripts/"
-  - type: link
-    name: "Using variables"
-    url: "/docs/sending-requests/variables/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -38,12 +27,6 @@ contextual_links:
   - type: link
     name: "Toast chains requests automatically with pre-request scripts"
     url:  "https://www.postman.com/case-studies/toast/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Test scripts"
-    url: "/docs/writing-scripts/test-scripts/"
-
 warning: false
 
 ---

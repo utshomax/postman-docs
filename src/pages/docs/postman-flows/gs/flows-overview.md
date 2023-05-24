@@ -3,11 +3,6 @@ title: "Postman Flows overview"
 updated: 2023-04-03
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Download and Install"
-    url: "https://www.postman.com/downloads/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -38,7 +33,7 @@ contextual_links:
     url: "https://www.postman.com/case-studies/built/"
 ---
 
-_Postman Flows_ is a visual tool to build API-driven applications – a tool to build software for the API-First world. You can use flows to chain requests, handle data, and create real-world workflows in your Postman workspace.
+_Postman Flows_ is a visual tool to build API-driven applications – a tool to build software for the [API-First](https://www.postman.com/api-first/) world. You can use flows to chain requests, handle data, and create real-world workflows in your Postman workspace.
 
 ![Postman Flows](https://assets.postman.com/postman-docs/postman-flows-overview.gif)
 
@@ -66,7 +61,7 @@ Check out our Flows Workspaces filled with examples:
 
 These workspaces contains example flows utilizing a multitude of APIs for different products and tools, plus all the related collections and environments needed. You can fork the flows to your own workspace, try them out, and then make your own changes and customizations.
 
-> Postman Flows is free to use for up to three users in our Free plan. Postman Flows is available as an add-on on our [Professional plan](https://www.postman.com/pricing/).
+> Postman Flows is free to try on the Free plan for up to three users. Postman Flows is available as an add-on to the annual [Professional plan](https://www.postman.com/pricing/). Postman Flows is not currently available in the Basic and Enterprise plans.
 
 ## Enabling Postman Flows
 

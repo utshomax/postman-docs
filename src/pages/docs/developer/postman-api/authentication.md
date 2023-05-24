@@ -4,11 +4,6 @@ updated: 2022-02-17
 search_keyword: "postman-api-key, collection-access-key, postman-api"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Postman API overview"
-    url: "/docs/developer/postman-api/intro-api/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -37,11 +32,6 @@ contextual_links:
   - type: link
     name: "Postman API definition"
     url:  "https://www.postman.com/postman/workspace/postman-public-workspace/api/72a32ca3-f06a-4e83-a933-2821a0e6616f/definition/d429098b-1789-4c62-b77b-cf02024aba53?view=documentation"
-  - type: subtitle
-    name: "Next steps"
-  - type: link
-    name: "Continuous Integration"
-    url: "/docs/running-collections/using-newman-cli/continuous-integration/"
 ---
 
 The use of the Postman API requires authentication.

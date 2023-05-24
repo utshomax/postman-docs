@@ -3,15 +3,7 @@ title: "gRPC overview"
 updated: 2022-09-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Download and Install"
-    url: "https://www.postman.com/downloads/"
-  - type: section
     name: "Additional resources"
-  - type: link
-    name: "Specifying examples"
-    url: "https://learning.postman.com/docs/sending-requests/examples/"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -51,7 +43,7 @@ Postman has a client interface to work with gRPC services and the API Builder in
 
 You can use the [Postman API Builder](/docs/designing-and-developing-your-api/the-api-workflow/) to create the service definition using protobuf IDL and keep it as a single source of truth for your API project.
 
-<img src="https://assets.postman.com/postman-docs/v10/grpc-echo-request-1-v10.jpg" alt="gRPC request interface">
+<img src="https://assets.postman.com/postman-docs/v10/grpc-echo-request-2-v10.jpg" alt="gRPC request interface">
 
 ## Next steps
 

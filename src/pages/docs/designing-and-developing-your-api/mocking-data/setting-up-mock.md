@@ -3,14 +3,6 @@ title: "Setting up mock servers"
 updated: 2022-10-17
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -34,11 +26,6 @@ contextual_links:
   - type: link
     name: "OVO accelerated integration implementation with mock servers"
     url: "https://www.postman.com/case-studies/ovo/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Test scripts"
-    url: "/docs/writing-scripts/test-scripts/"
 ---
 
 Postman enables you to create _mock servers_ to assist with API development and testing. A mock server simulates the behavior of a real API server by accepting requests and returning responses. By adding a mock server to your [collection](/docs/sending-requests/intro-to-collections/) and adding [examples](/docs/sending-requests/examples/) to your requests, you can simulate the behavior of a real API.
@@ -74,7 +61,7 @@ To test using a mock server, do the following:
 
 ## Creating mock servers
 
-You can create mock servers from an existing collection, or Postman will create a new collection for your mock server. You can create a new mock [from scratch](#creating-a-mock-from-scratch), [from a collection](#creating-a-mock-from-a-collection), [from the sidebar](#creating-a-mock-from-the-sidebar), or [from your history](#creating-a-mock-from-history).
+You can create mock servers from an existing collection, or Postman will create a new collection for your mock server. You can create a new mock [from scratch](#creating-a-mock-from-scratch), [from a collection](#creating-a-mock-from-a-collection), or [from your history](#creating-a-mock-from-history).
 
 ### Creating a mock from scratch
 
@@ -93,16 +80,6 @@ Configure your [mock server details](#configuring-mock-server-details).
 Select **Collections** in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection you want to mock and select **Mock collection**.
 
 <img alt="Mocking a collection" src="https://assets.postman.com/postman-docs/v10/mock-server-mock-collection-v10.jpg" width="373px" />
-
-Configure your [mock server details](#configuring-mock-server-details).
-
-### Creating a mock from the sidebar
-
-In the sidebar, select **New** and select **Mock Server**.
-
-<img alt="Creating a mock server using the New button" src="https://assets.postman.com/postman-docs/v10/mock-server-new-button-v10.jpg" />
-
-Select an existing collection, or create a new collection and add an initial request.
 
 Configure your [mock server details](#configuring-mock-server-details).
 
