@@ -4,7 +4,7 @@ order: 121
 updated: 2022-12-19
 page_id: "managing_your_team"
 warning: false
-pricingGroup: "professional"
+pricingGroup: "proEnterpriseOptions"
 contextual_links:
   - type: section
     name: "Additional resources"
