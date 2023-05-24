@@ -69,7 +69,7 @@ You need a valid Postman API key to send requests to the Postman API.
 
 Once you generate your API keys you can manage them in your workspace. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a key to regenerate, rename, or delete it.
 
-<img src="https://assets.postman.com/postman-docs/v10/api-keys-regenerate-rename-delete-v10.jpg" alt="View your API keys"/>
+<img src="https://assets.postman.com/postman-docs/v10/api-keys-regenerate-rename-delete-v10-2.jpg" alt="View your API keys"/>
 
 Use **API key settings** to specify expiration periods for your keys.
 
@@ -89,11 +89,7 @@ You can store your API key in a [variable](/docs/sending-requests/variables/). I
 
 With a collection access key you can securely grant other users read-only access to a single collection. You will generate a new collection access key every time you share a collection using the Postman API. To learn more, see [Sharing using the Postman API](/docs/collaborating-in-postman/sharing/#sharing-using-the-postman-api/).
 
-Your [API Keys page](https://go.postman.co/settings/me/api-keys) displays all of your generated keys and includes information about which collection the key belongs to, who created it, and when it was generated. This page also displays the collection access keys created by other users if you have the following roles:
-
-- The [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) in a collection's workspace.
-
-- The Community Manager, Admin, or Super Admin [Team role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
+Your [API keys page](https://go.postman.co/settings/me/api-keys) displays all of your generated keys in the **Collection access keys** section. This section includes information about which collection the key belongs to, who created the key, and when it was created. This section also displays any collection access keys created by other members of the team that you are currently logged in to.
 
 To revoke a collection access key, select **Delete**.
 
