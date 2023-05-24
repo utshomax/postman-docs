@@ -3,11 +3,6 @@ title: "Understanding gRPC types"
 updated: 2023-04-18
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Download and Install"
-    url: "https://www.postman.com/downloads/"
-  - type: section
     name: "Additional resources"
   - type: link
     name: "Protocol Buffers Language Guide"
@@ -40,4 +35,4 @@ When composing a message for a gRPC request, you input the data as JSON. Interna
 
 Postman uses the [service definition you select](/docs/sending-requests/grpc/using-service-definition/) to provide rich type information as you compose your message. When you hover your mouse over various JSON fields or values, a tooltip will explain the underlying Protocol Buffers type for that JSON field or value. This can help you remember how to enter certain types of data, or to understand what's going on internally.
 
-<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/grpc-types/inspecting-types.gif" alt="gRPC Type Inspection">
+<img src="https://assets.postman.com/postman-docs/v10/inspecting-types-v10.jpg" alt="gRPC Type Inspection">

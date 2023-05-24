@@ -6,11 +6,6 @@ page_id: "managing-environments"
 search_keyword: "pm.globals.set, globals.set, pm.environment.set, environment.set, pm.variables.get, variables.get, pm.globals.get, globals.get, pm.environment.get, environment.get"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Using variables"
-    url:  "/docs/sending-requests/variables/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -36,15 +31,6 @@ contextual_links:
   - type: link
     name: "Hathway uses separate environments for each client"
     url: "https://www.postman.com/case-studies/hathway/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Collaborating with your team"
-    url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
-  - type: link
-    name: "Version control overview"
-    url:  "/docs/collaborating-in-postman/using-version-control/version-control-overview/"
-
 warning: false
 
 ---
@@ -145,7 +131,7 @@ To use an environment variable value in a request, reference it by name, surroun
 
 You can use the same variable notation in request URLs, parameters, headers, and body data.
 
-<img alt="Environment var reference" src="https://assets.postman.com/postman-docs/env-hover-v8.jpg" width="400px"/>
+<img alt="Environment var reference" src="https://assets.postman.com/postman-docs/v10/env-hover-v10.jpg" width="500px"/>
 
 Hover over a variable reference to get its current value.
 

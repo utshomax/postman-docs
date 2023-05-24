@@ -3,22 +3,12 @@ title: "Viewing documentation"
 updated: 2023-01-05
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "API Documentation | The Exploratory"
     url: "https://youtu.be/XNVo9WkCoak"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Publishing your docs"
-    url: "/docs/publishing-your-api/publishing-your-docs/"
 ---
 
 Documentation helps you get more out of the collections and APIs that you work with in Postman. View documentation to learn more about the requests in a collection or how to interact with an API's endpoints.

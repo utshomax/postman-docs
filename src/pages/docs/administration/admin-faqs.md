@@ -1,11 +1,6 @@
 ---
 title: "Admin FAQs"
-order: 143
-updated: 2021-08-05
-page_id: "admin-faqs"
-tags:
-  - "admin"
-warning: false
+updated: 2023-05-22
 contextual_links:
   - type: section
     name: "Additional resources"

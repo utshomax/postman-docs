@@ -6,14 +6,6 @@ updated: 2021-11-15
 search_keyword: "pm.test, pm.expect, pm.response.json, pm.sendRequest, response.json"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Writing tests"
-    url: "/docs/writing-scripts/test-scripts/"
-  - type: link
-    name: "Using variables"
-    url: "/docs/sending-requests/variables/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -33,12 +25,6 @@ contextual_links:
   - type: link
     name: "Test examples in Postman"
     url: "https://www.postman.com/postman/workspace/test-examples-in-postman/overview"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Command-line integration with Newman"
-    url: "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
-
 warning: false
 
 ---
