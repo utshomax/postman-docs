@@ -46,6 +46,7 @@ Roles define user permissions within a Postman team and a user's level of access
     * [Mock server roles](#mock-server-roles)
     * [Monitor roles](#monitor-roles)
 * [Partner roles](#partner-roles)
+* [Network roles](#network-roles)
 * [Next steps](#next-steps)
 
 ## Team roles
@@ -59,7 +60,7 @@ You can [assign](/docs/administration/managing-your-team/managing-your-team/) on
 * **Billing** - Manages team plan and payments. Billing roles can be granted by a Super Admin, Team Admin, or by a fellow team member with a Billing role.
 * **Developer** - Has access to all team resources and workspaces.
 * **Community Manager** ([Professional and Enterprise plans only](https://www.postman.com/pricing)) - Manages the public visibility of workspaces and team profile.
-* **API Network Manager** ([Enterprise plans only](https://www.postman.com/pricing)) - Manages a team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/), including adding APIs and reviewing requests to add APIs.
+* **API Network Manager** ([Enterprise plans only](https://www.postman.com/pricing)) - Manages a team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/), including adding elements and reviewing requests to add them. To learn more, see [Network roles](#network-roles).
 * **Partner Manager** (Internal, [Enterprise plans only](https://www.postman.com/pricing)) - Manages all [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners. To learn more, see [Partner roles](#partner-roles).
 * **Partner** (External, [Enterprise plans only](https://www.postman.com/pricing)) - All partners are automatically granted the Partner role at the team level. Partners can only access the [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) they've been invited to. To learn more, see [Partner roles](#partner-roles).
 * **Guest** (External) - Views collections and sends requests in collections that have been shared with them. This role can't be directly assigned to a user. To learn more, see [Allowing external users to view collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
@@ -93,7 +94,7 @@ Team roles offer high-level access control:
 
 &ast;&ast; Enterprise and Professional plans only.
 
-&ast;&ast;&ast; Enterprise plans only. Teams that don't use the [optional approval process workflow](/docs/collaborating-in-postman/adding-private-network/#using-the-approval-process-workflow) for the Private API Network can allow users with [an API Editor role](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) to add APIs to the Private API Network instead.
+&ast;&ast;&ast; Enterprise plans only. Teams can allow users with the [Folder Manager role](#network-roles) to manage elements in specific folders in the Private API Network.
 
 > **Postman support users**. Team members with a Developer or Super Admin role consume a paid seat on your team. Team members who have only Admin or Billing roles become support users and don’t consume paid seats. Each team can have two support users.
 
@@ -260,6 +261,20 @@ You can also [assign](/docs/collaborating-in-postman/using-workspaces/managing-w
 All partners are assigned Workspace Editor or Viewer roles when invited to a Partner Workspace. To learn more about workspace level permissions, see [Workspace roles](#workspace-roles).
 
 > Your team must have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#using-auto-flex) to invite a partner as a Workspace Editor. Otherwise, the partner will be assigned the Workspace Viewer role. Assigning a partner the Workspace Viewer role doesn't consume paid seats.
+
+## Network roles
+
+> **[Network roles are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
+
+Network roles related to the [Private API Network](/docs/collaborating-in-postman/adding-private-network/) and are applied at the team and folder level.
+
+You can [assign](/docs/administration/managing-your-team/managing-your-team/) network roles at the team level:
+
+* **API Network Manager** - Manages a team's Private API Network, including adding elements and reviewing requests to add them.
+
+You can also [assign](/docs/collaborating-in-postman/adding-private-network/#editing-folder-managers) network roles at the folder level:
+
+* **Folder Manager** - Manages specific folders and the elements in them in a team's Private API Network. Team members with this role can perform all actions that API Network Manager roles can perform but only in folders they have permission to manage.
 
 ## Next steps
 
