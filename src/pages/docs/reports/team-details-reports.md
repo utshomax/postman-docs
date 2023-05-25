@@ -27,7 +27,7 @@ The **Team details** report shows an overview of your team and members, includin
 * **Team name** - The name of your team.
 * **Team created on** - The date when the team was created.
 * **Plan type** - The [Postman plan](https://www.postman.com/pricing/) your team subscribes to.
-* **Total team members** - The current number of user accounts in the team.
+* **Team members** - The current number of user accounts in the team.
 * **Team members over time** - The size of the team on the last day of each month in the last six months.
 * **Team roles** - The number of team members with Admin, Billing, Community Manager, or Developer [roles](/docs/collaborating-in-postman/roles-and-permissions/). If a user has multiple roles, they will be shown in the count for each relevant role.
 * **SSO identity provider** - Any [single sign-on provider](/docs/administration/sso/intro-sso/) you have configured for team members to access their Postman accounts.

@@ -1,6 +1,6 @@
 ---
 title: "Reports overview"
-updated: 2022-05-19
+updated: 2023-06-15
 warning: false
 contextual_links:
   - type: section
@@ -18,7 +18,7 @@ Postman generates reports that enable you to visualize data for how your team us
 
 Access your reports in your [Postman reports dashboard](https://go.postman.co/reports/summary).
 
-<img alt="The Postman reports dashboard" src="https://assets.postman.com/postman-docs/dashboard-reports-overview.jpg" width="1200px"/>
+<img alt="The Postman reports dashboard" src="https://assets.postman.com/postman-docs/v10/dashboard-reports-overview-v10.jpg" width="1200px"/>
 
 * [Getting started with reports](#getting-started-with-reports)
     * [Report availability](#report-availability)
@@ -36,7 +36,7 @@ To view your reports dashboard:
 
 To access a specific API's report, do the following:
 
-1. On the report dashboard, select **All APIs > View Report by API**.
+1. On the report dashboard, select **Content activity > View report by API**.
 1. Search for the API name, or scroll through the list to find it.
 
     > You can also access the report for a specific API by going to the [API's overview page](/docs/designing-and-developing-your-api/the-api-workflow/#navigating-the-api-builder) and select **Reports**.

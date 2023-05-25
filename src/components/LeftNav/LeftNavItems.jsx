@@ -1164,8 +1164,12 @@ export const leftNavItems = [
     url: '/docs/reports/reports-overview/',
     subMenuItems1: [
       {
-        name: 'Reports overview',
+        name: 'Using reports',
         url: '/docs/reports/reports-overview/',
+      },
+      {
+        name: 'Overview reports',
+        url: '/docs/reports/overview-reports/',
       },
       {
         name: 'Summary reports',
@@ -1176,6 +1180,10 @@ export const leftNavItems = [
         url: '/docs/reports/team-details-reports/',
       },
       {
+        name: 'Members overview reports',
+        url: '/docs/reports/members-overview-reports/',
+      },
+    {
         name: 'All Workspaces reports',
         url: '/docs/reports/all-workspaces-reports/',
       },
