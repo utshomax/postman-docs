@@ -69,7 +69,7 @@ You need a valid Postman API key to send requests to the Postman API.
 
 Once you generate your API keys you can manage them in your workspace. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a key to regenerate, rename, or delete it.
 
-<img src="https://assets.postman.com/postman-docs/v10/api-keys-regenerate-rename-delete-v10-2.jpg" alt="View your API keys"/>
+![View your API keys](https://assets.postman.com/postman-docs/v10/api-keys-regenerate-rename-delete-v10-2.jpg)
 
 Use **API key settings** to specify expiration periods for your keys.
 
@@ -93,4 +93,4 @@ Your [API keys page](https://go.postman.co/settings/me/api-keys) displays all of
 
 To revoke a collection access key, select **Delete**.
 
-<img src="https://assets.postman.com/postman-docs/v10/collection-access-keys-v10-2.jpg" alt="Deleting collection access keys"/>
+![Deleting collection access keys](https://assets.postman.com/postman-docs/v10/collection-access-keys-v10-2.jpg)
