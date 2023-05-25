@@ -159,7 +159,7 @@ To change the role of people in a workspace, or to remove someone from a workspa
     * **Viewer** - Can view, fork, and export workspace resources.
     * **Remove** - Removes the person from the workspace. (You can [invite the user](#sharing-workspaces) again in the future.)
 
-<img alt="Changing workspace role" src="https://assets.postman.com/postman-docs/v10/workspace-change-role-1-v10.jpg" width="720px"/>
+<img alt="Changing workspace role" src="https://assets.postman.com/postman-docs/v10/workspace-change-role-v10-2.jpg" width="720px"/>
 
 ## Watching a workspace
 
