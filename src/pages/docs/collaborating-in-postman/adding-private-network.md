@@ -37,7 +37,7 @@ The _Private API Network_ provides a [central directory](https://www.postman.com
 
 Workspaces, collections, and APIs in the Private API Network are visible to logged-in users who are on your Postman team. Users who aren't on your team can't find or access these resources.
 
-Only API Network Managers can manage all folders, the elements in them, and Folder Managers in your Private API Network. You can assign team members the Folder Manager role at the folder level in your Private API Network, giving them permission to manage specific folders, the elements in them, and other Folder Managers in those folders.
+Only [API Network Managers](/docs/collaborating-in-postman/roles-and-permissions/#network-roles) can manage all folders, the elements in them, and Folder Managers in your Private API Network. You can assign team members the [Folder Manager role](/docs/collaborating-in-postman/roles-and-permissions/#network-roles) at the folder level in your Private API Network, giving them permission to manage specific folders, the elements in them, and other Folder Managers in those folders.
 
 > Enterprise teams can also assign this role to a user group. For more information about assigning team roles to groups, see [Managing user groups](/docs/administration/managing-your-team/user-groups/).
 
@@ -125,7 +125,7 @@ To create a new folder from the Private API Network view, do the following:
 
 ## Editing Folder Managers
 
-API Network Managers can assign team members the Folder Manager role, giving them permission to manage specific folders and the elements in them. Folder Managers can also assign other users the Folder Manager role in folders they have permission to manage.
+API Network Managers can assign team members the [Folder Manager role](/docs/collaborating-in-postman/roles-and-permissions/#network-roles), giving them permission to manage specific folders and the elements in them. Folder Managers can also assign other team members the Folder Manager role in folders they have permission to manage.
 
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the folder, then select **Edit folder managers**.
 1. Enter the name, email, or group name you want to assign as a Folder Manager for the folder.
@@ -149,7 +149,7 @@ The collections and APIs you add to the Private API Network include the latest c
 
 ### Adding elements in your Private API Network
 
-You can add elements from inside your team's Private API Network.
+You can add elements from inside your team's Private API Network. Workspace Editors, Collection Editors, and API Editors can [request to add elements](#requesting-to-add-elements-in-your-private-api-network) from your Private API Network.
 
 To add elements to the root folder, do the following:
 
@@ -189,7 +189,7 @@ You can add workspaces from the API Builder. Workspace Editors must [request to 
 To add a workspace to the Private API Network from the API Builder, do the following:
 
 1. Open the workspace you want to add to the Private API Network.
-1. In the workspace overview, select **Workspace Settings**.
+1. In the workspace overview, select <img alt="Workspace settings icon" src="https://assets.postman.com/postman-docs/v10/icon-sliders-v10.jpg#icon" width="24px"> **Workspace Settings**.
 1. Select **Add to Network**.
 
     > If you're a Folder Manager, select **Request to Add to Network**. Then select a folder you have permission to manage.
@@ -208,7 +208,7 @@ To add a collection to the Private API Network from the API Builder, do the foll
 1. Open the collection you want to add to the Private API Network.
 1. In the collection overview, select **Add to API Network**.
 
-    > If you're a Folder Manager, select **Request to Add to Network**. Then select a folder you have permission to manage.
+    > If you're a Folder Manager, select **Request to Add to API Network**. Then select a folder you have permission to manage.
 
     <img alt="Add collection to the Private Network" src="https://assets.postman.com/postman-docs/v10/add-collection-to-private-api-network-v10.jpg"/>
 
@@ -231,7 +231,7 @@ To add an API to the Private API Network from the API Builder, do the following:
 1. Open the API you want to add to the Private API Network.
 1. In the API overview, select **Add to API Network**.
 
-    > If you're a Folder Manager, select **Request to Add to Network**. Then select a folder you have permission to manage.
+    > If you're a Folder Manager, select **Request to Add to API Network**. Then select a folder you have permission to manage.
 
     <img alt="Add API to the Private Network" src="https://assets.postman.com/postman-docs/v10/add-api-to-private-api-network-v10.jpg"/>
 
@@ -272,6 +272,9 @@ To request to add elements to the root folder, do the following:
     > An API's editor must [publish a version of the API](#publishing-specific-api-versions) before you can add it to your Private API Network.
 
 1. Select **Review**.
+
+    <img alt="Add elements to the Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-add-elements-v10.jpg"/>
+
 1. Review your selections, and then select **Request to add**.
 
 To add elements to a folder, do the following:
@@ -283,25 +286,34 @@ To add elements to a folder, do the following:
     > An API's editor must [publish a version of the API](#publishing-specific-api-versions) before you can add it to your Private API Network.
 
 1. Select **Review**.
+
+    <img alt="Add elements to the Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-add-elements-v10.jpg"/>
+
 1. Review your selections, and then select **Request to add**.
 
 ### Requesting to add a workspace from the API Builder
 
-Workspace Editors can request to add workspaces to your Private API Network from the API Builder.
+[Workspace Editors](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) can request to add workspaces to your Private API Network from the API Builder.
 
 1. Open the workspace you want to add to the Private API Network.
-1. In the workspace overview, select **Workspace Settings**.
+1. In the workspace overview, select <img alt="Workspace settings icon" src="https://assets.postman.com/postman-docs/v10/icon-sliders-v10.jpg#icon" width="24px"> **Workspace Settings**.
 1. Select **Request to Add to Network**.
+
+    <img alt="Request to add workspace to the Private Network" src="https://assets.postman.com/postman-docs/v10/request-to-add-workspace-to-private-api-network-v10.jpg" width="500px"/>
+
 1. (Optional) Select a folder or create one to keep elements organized.
 1. (Optional) Select **Add comment** to add a note for the API Network Manager or Folder Manager.
 1. Select **Request workspace**.
 
 ### Requesting to add a collection from the API Builder
 
-Collection Editors can request to add collections to your Private API Network from the API Builder.
+[Collection Editors](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) can request to add collections to your Private API Network from the API Builder.
 
 1. Open the collection you want to add to the Private API Network.
 1. In the collection overview, select **Request to Add to API Network**.
+
+    <img alt="Request to add collection to the Private Network" src="https://assets.postman.com/postman-docs/v10/request-to-add-collection-to-private-api-network-v10.jpg"/>
+
 1. (Optional) Add a brief summary about the collection.
 1. (Optional) Select **Select Environments** to make sure users have access to environment variables.
 
@@ -313,12 +325,15 @@ Collection Editors can request to add collections to your Private API Network fr
 
 ### Requesting to add an API from the API Builder
 
-API Editors can request to add APIs to your Private API Network from the API Builder.
+[API Editors](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) can request to add APIs to your Private API Network from the API Builder.
 
 > An API's editor must [publish a version of the API](#publishing-specific-api-versions) before you can add it to your Private API Network.
 
 1. Open the API you want to add to the Private API Network.
 1. In the API overview, select **Request to Add to API Network**.
+
+    <img alt="Request to add API to the Private Network" src="https://assets.postman.com/postman-docs/v10/request-to-add-api-to-private-api-network-v10.jpg"/>
+
 1. (Optional) Select a folder or create one to keep elements organized.
 1. (Optional) Select **Add comment** to add a note for the API Network Manager or Folder Manager.
 1. Select **Request API**.
@@ -372,9 +387,13 @@ After you remove the element, team members won't have access to it through the P
 
 The report feature makes it easier to govern your internal API landscape through deeper insights into APIs in your Private API Network.
 
-Select [**Home**](https://go.postman.co/) from the Postman header, then select **Reports** on the left side.
+To view the Private API Network report, do the following:
 
-API reports offer the following information:
+1. Select [**Home**](https://go.postman.co/) from the Postman header, then select **Reports** on the left side.
+1. Select **All APIs**, then select **Private Network APIs**.
+
+Learn more about the [Private Network APIs report](/docs/reports/all-apis-reports/#private-network-apis).
+<!-- API reports offer the following information:
 
 * **API name** is the name of the API published to the Private API Network
 * **API created by** is the name of person who created the API
@@ -385,4 +404,4 @@ API reports offer the following information:
 * **Average response time** is the average response time in milliseconds for requests over a time frame
 * **API response codes** is a graph showing different response codes for API requests plotted vs the number of API requests
 
-To learn more about reports, see the [Reports overview](/docs/reports/reports-overview/).
+To learn more about reports, see the [Reports overview](/docs/reports/reports-overview/). -->
