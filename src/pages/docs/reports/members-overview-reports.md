@@ -13,7 +13,7 @@ contextual_links:
 
 > [**Reports are available on all Postman Enterprise plans.**](https://www.postman.com/pricing)
 
-The **Content activity** dashboard shows the current landscape of elements created and updated by your team.
+The **Members overview** dashboard shows details about all members of your team including invites, member activity, and role distribution.
 
 * **Team members** - The current number of user accounts in the team.
 * **Team members over time** - The size of the team on the last day of each month in the last six months.

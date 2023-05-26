@@ -1,5 +1,5 @@
 ---
-title: "Reports overview"
+title: "About reports"
 updated: 2023-06-15
 warning: false
 contextual_links:
