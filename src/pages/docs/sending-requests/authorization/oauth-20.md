@@ -35,6 +35,8 @@ contextual_links:
 
 With OAuth 2.0, you first retrieve an access token for the API, then use that token to authenticate future requests. Access tokens are typically short-lived, but the authorization server can also provide a long-lived refresh token. A client application can use the refresh token to automatically [refresh the access token](#refreshing-an-oauth-20-token).
 
+<!-- TODO: contents -->
+
 Accessing data with OAuth 2.0 varies greatly between API service providers, but typically involves a few requests back and forth between client application, user, and API. An example OAuth 2.0 flow could run as follows:
 
 * A client application makes a request for the user to authorize access to their data.
@@ -130,7 +132,7 @@ If authentication fails or times out, Postman will display an error message. You
 
 > Deleting a token in Postman doesn't revoke access. Only the server that issues the token can revoke it.
 
-#### Refreshing an OAuth 2.0 token
+### Refreshing an OAuth 2.0 token
 
 Before an OAuth 2.0 token generated in Postman expires, Postman automatically refreshes it in the background before you send a request that uses it. The refreshed access token is updated in any requests that it's used in. If you added any custom parameters when [generating the token](#requesting-an-oauth-20-token), those parameters will also be used for the refreshed token.
 

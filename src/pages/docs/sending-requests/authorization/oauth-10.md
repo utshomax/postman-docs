@@ -86,4 +86,3 @@ The OAuth 1.0 auth parameter values are as follows:
 > If your server implementation of OAuth 1.0 requires it, select __Add empty parameters to signature__.
 >
 > You can also select the checkbox to __Encode the parameters in the authorization header__ for your request.
-

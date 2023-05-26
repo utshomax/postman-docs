@@ -154,11 +154,7 @@ export const leftNavItems = [
             url: '/docs/sending-requests/authorization/authentication-for-public-apis/',
           },
           {
-            name: 'Inheriting authorization',
-            url: '/docs/sending-requests/authorization/inheriting-authorization/',
-          },
-          {
-            name: 'Authorization types',
+            name: 'About authorization types',
             url: '/docs/sending-requests/authorization/authorization-types/',
           },
           {
@@ -189,15 +185,6 @@ export const leftNavItems = [
             name: 'Akamai Edgegrid',
             url: '/docs/sending-requests/authorization/akamai-edgegrid/',
           },
-          {
-            name: 'Syncing Cookies',
-            url: '/docs/sending-requests/authorization/syncing-cookies/',
-          },
-          {
-            name: 'Troubleshooting authorization',
-            url: '/docs/sending-requests/authorization/troubleshooting/',
-          },
-
         ],
       },
       {
