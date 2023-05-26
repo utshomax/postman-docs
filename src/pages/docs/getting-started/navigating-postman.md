@@ -52,9 +52,9 @@ The header enables you to create workspaces, access reports, explore the public 
 * **API Network** - Explore the [Public API Network](/docs/getting-started/exploring-public-api-network/) and access your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
 * **Explore** - Browse public APIs, teams, workspaces, and collections on Postman.
 
-<img alt="Expanded view of the Search Postman field" src="https://assets.postman.com/postman-docs/navigating-postman-search-v9.15.jpg" width="500px"/>
+<img alt="Expanded view of the Search Postman field" src="https://assets.postman.com/postman-docs/v10/navigating-postman-search-v10.jpg" width="500px"/>
 
-* <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Search Postman** - Search all workspaces, collections, APIs, and teams in Postman. For more details on searching in Postman, see [Search Postman](#search-postman).
+* <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Search Postman** - Search all workspaces, collections, requests, APIs, flows, and teams in Postman. For more details on searching in Postman, see [Search Postman](#search-postman).
 
 <img alt="Postman header right side" src="https://assets.postman.com/postman-docs/navigating-postman-header-right-v9.19.2.jpg" width="300px"/>
 
@@ -66,13 +66,15 @@ The header enables you to create workspaces, access reports, explore the public 
 
 ### Search Postman
 
-To search in Postman, select __Search Postman__ in the header then enter your search terms. You can also use the keyboard shortcut **⌘+K** or **Ctrl+K**. To change the scope of your search to your personal or team space or the Public API Network, select **All of Postman** and choose the desired scope. You can also change the scope of your search to **Workspaces**, **Collections**, **APIs**, or **Teams**.
+To search in Postman, select __Search Postman__ in the header then enter your search terms. You can also use the keyboard shortcut **⌘+K** or **Ctrl+K**. To change the scope of your search to your personal or team space or the Public API Network, select **All of Postman** and choose the desired scope. You can also change the scope of your search to **Workspaces**, **Collections**, **Requests**, **APIs**, **Flows**, or **Teams**.
+
+You can search by tag names that team members have added to [collections](/docs/collections/using-collections/#tagging-a-collection), [APIs](/docs/designing-and-developing-your-api/managing-apis/#tagging-apis), and workspaces. To search by tag names, select __Search Postman__ in the header then enter you search using the `tag:TAG-NAME` format. For example, if an API has the tag "production", enter `tag:production` to return the API in your search results.
 
 > For signed-out users, search results only include public resources.
 
-If you don't find what you are looking for in the list of results, select __Search all workspaces, collections, APIs and teams__ to see all the results in one page.
+If you don't find what you are looking for in the list of results, select __See all results__ to see all the results in one page.
 
-<img alt="Search all" src ="https://assets.postman.com/postman-docs/search-all-workspaces-collections-and-teams-v9.5.jpg"/>
+<img alt="Search all" src ="https://assets.postman.com/postman-docs/v10/search-all-workspaces-collections-and-teams-v10.jpg"/>
 
 The __Search results__ page lists the scope and element type. You can change these options to further filter your results.
 
