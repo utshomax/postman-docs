@@ -54,7 +54,7 @@ With the [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team
 
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to team members, based on the functions those team members require:
 
-* **Super Admin** ([Enterprise plans only](https://www.postman.com/pricing)) - Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, API Network Manager, Developer, and Partner Manager roles can perform. For information on assigning this role, see [Managing Super Admins](/docs/administration/managing-your-team/managing-your-team/#managing-super-admins).
+* **Super Admin** ([Enterprise plans only](https://www.postman.com/pricing)) - Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, API Network Manager, API Governance Manager, Developer, and Partner Manager roles can perform. For information on assigning this role, see [Managing Super Admins](/docs/administration/managing-your-team/managing-your-team/#managing-super-admins).
 * **Admin** - Manages team members and team settings. Can also view monitor metadata and run, pause, and resume monitors.
 * **Billing** - Manages team plan and payments. Billing roles can be granted by a Super Admin, Team Admin, or by a fellow team member with a Billing role.
 * **Developer** - Has access to all team resources and workspaces.
@@ -88,6 +88,11 @@ Team roles offer high-level access control:
 | Approve requests to change workspace visibility&ast;&ast; | &#x2714; | | | | &#x2714; |
 | Enable public team profile | &#x2714; | &#x2714; | | | &#x2714; |
 | Manage a team's Private API Network&ast;&ast;&ast; | &#x2714; | | | | |
+
+There are additional specialized roles for Enterprise teams:
+
+* **API Network Manager** ([Enterprise plans only](https://www.postman.com/pricing)) - Manages a team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/), including adding APIs and reviewing requests to add APIs.
+* **API Governance Manager** ([Enterprise plans only](https://www.postman.com/pricing)) - Manages API governance within a team.
 
 &ast; On Postman Basic and Free plans, any developer can change visibility of workspaces.
 
