@@ -1,8 +1,6 @@
 ---
 title: "Viewing workspace activity"
-order: 79
 updated: 2021-04-21
-page_id: "changelog_and_restoring_collections"
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -14,8 +12,6 @@ contextual_links:
   - type: link
     name: "How We Built Postman’s New Activity Feed System"
     url: "https://blog.postman.com/how-we-built-postman-activity-feed-system/"
-
-warning: false
 ---
 
 > **[Changelog is available on Postman paid plans.](https://www.postman.com/pricing/)**
@@ -24,7 +20,8 @@ Each Postman Collection has a changelog that covers create, update, transfer, an
 
 ## Contents
 
-* Viewing changes to a [collection](#viewing-the-collection-changelog) or [workspace](#viewing-workspace-activity)
+* [Viewing the collection changelog](#viewing-the-collection-changelog)
+* [Viewing workspace activity](#viewing-workspace-activity)
 * [Hiding diffs in the changelog](#hiding-diffs-in-the-changelog)
 * [Restoring collections](#restoring-collections)
 * [Exporting team activity](#exporting-team-activity-to-other-platforms)
@@ -99,11 +96,11 @@ To restore a collection from the changelog, do the following:
 
 Restoring a collection from the changelog reverts it to the point immediately after your selected change occurred.
 
-> If you'd like to restore a deleted collection, see [Recovering a deleted collection](/docs/sending-requests/intro-to-collections/#recovering-a-deleted-collection).
+> If you'd like to restore a deleted collection, see [Recovering a deleted collection](/docs/collections/using-collections/#recovering-a-deleted-collection).
 
 ## Exporting team activity to other platforms
 
-With a Postman Basic, Professional, or Enterprise account, you can pipe team activity feeds to external communication channels:
+With a Postman Basic, Professional, or Enterprise account, you can send team activity feeds to external communication channels:
 
 * [Slack integration](/docs/integrations/available-integrations/slack/)
 * [Microsoft Teams integration](/docs/integrations/available-integrations/microsoft-teams/)
