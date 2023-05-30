@@ -20,14 +20,14 @@ Each Postman Collection has a changelog that covers create, update, transfer, an
 
 ## Contents
 
-* [Viewing the collection changelog](#viewing-the-collection-changelog)
+* [Viewing collection activity](#viewing-collection-activity)
 * [Viewing workspace activity](#viewing-workspace-activity)
 * [Hiding diffs in the changelog](#hiding-diffs-in-the-changelog)
 * [Restoring collections](#restoring-collections)
 * [Exporting team activity](#exporting-team-activity-to-other-platforms)
 * [Next steps](#next-steps)
 
-## Viewing the collection changelog
+## Viewing collection activity
 
 To review the changelog for a collection in Postman, open the collection and select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> on the right.
 
@@ -73,7 +73,7 @@ To filter by element, select **Elements** at the top of the activity feed and se
 
 ## Hiding diffs in the changelog
 
-If you have an [Editor role](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) for a collection, you can hide specific actions in its [changelog](#viewing-the-collection-changelog). When you hide a changelog entry's diff, users who don’t have Editor permissions on the collection can't view that diff in the changelog. This enables you to protect sensitive data in a public collection.
+If you have an [Editor role](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) for a collection, you can hide specific actions in its [changelog](#viewing-collection-activity). When you hide a changelog entry's diff, users who don’t have Editor permissions on the collection can't view that diff in the changelog. This enables you to protect sensitive data in a public collection.
 
 Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> for the changelog entry, then select **Hide diff for this change**.
 
@@ -85,7 +85,7 @@ To unhide the diff, select the more actions icon <img alt="More actions icon" sr
 
 ## Restoring collections
 
-You can use the [changelog](#viewing-the-collection-changelog) to restore a collection to an earlier point in time.
+You can use the [changelog](#viewing-collection-activity) to restore a collection to an earlier point in time.
 
 To restore a collection from the changelog, do the following:
 
