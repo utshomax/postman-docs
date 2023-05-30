@@ -1,12 +1,6 @@
 ---
 title: "Signing in to an SSO team"
 updated: 2023-02-06
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Intro to SSO"
-    url: "/docs/administration/sso/intro-sso/"
 ---
 
 > **[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**

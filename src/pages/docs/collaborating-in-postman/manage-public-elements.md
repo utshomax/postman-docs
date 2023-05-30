@@ -1,7 +1,6 @@
 ---
 title: "Managing public elements"
 updated: 2023-05-30
-search_keyword: "collection links, collection JSON links, collection access key, manage public elements, public documentation, public workspaces"
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -16,11 +15,7 @@ contextual_links:
   - type: link
     name: "How to Set Up Your First Public Workspace"
     url: "https://blog.postman.com/how-to-set-up-public-workspaces/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Creating workspaces"
-    url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
+search_keyword: "collection links, collection JSON links, manage public elements, public documentation, public workspaces"
 ---
 
 > **[Manage public elements is available on Postman Enterprise plans.](https://www.postman.com/pricing/)**

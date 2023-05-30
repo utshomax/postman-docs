@@ -22,14 +22,6 @@ contextual_links:
   - type: link
     name: "Postman Security"
     url:  "https://www.postman.com/postman/workspace/62d58d93-7e0c-45bf-9daa-cc8e531fc344"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "OpenAPI 3.0 rules"
-    url: "/docs/api-governance/api-definition/openapi3/"
-  - type: link
-    name: "OpenAPI 2.0 rules"
-    url: "/docs/api-governance/api-definition/openapi2/"
 ---
 
 Following Postman API Governance and API Security rules when you create an API definition helps you create consistent and secure APIs. When your API definition violates one of these rules, it doesn't mean that the definition is broken. Instead, it indicates that there are potential security risks that your API might be vulnerable to, or potential design issues that might impact its usability. Postman highlights these rule violations and helps you understand their implications and possible ways to fix them. Postman supports API governance and API security rules for API definitions in [OpenAPI 3.0](/docs/api-governance/api-definition/openapi3/) and [OpenAPI 2.0](/docs/api-governance/api-definition/openapi2/) format.
@@ -53,7 +45,7 @@ Following Postman API Governance and API Security rules when you create an API d
 
 1. Select **Rule** to see the list of rule violations.
 
-To learn more about how rule violations can help you create consistent and secure API definitions, see [Viewing rule violations in your API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#viewing-rule-violations-in-your-api-definition).
+To learn more about how rule violations can help you create consistent and secure API definitions, see [Viewing rule violations in your API definition](/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/#viewing-rule-violations-in-your-api-definition).
 
 ## Tracking governance and security rule violations in CI/CD
 

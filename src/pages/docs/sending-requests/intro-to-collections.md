@@ -3,11 +3,6 @@ title: "Grouping requests in collections"
 updated: 2023-03-01
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -25,12 +20,6 @@ contextual_links:
   - type: link
     name: "Ping Identity"
     url: "https://www.postman.com/case-studies/pingidentity/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Using the Collection Runner"
-    url: "/docs/collections/running-collections/intro-to-collection-runs/"
-
 warning: false
 ---
 

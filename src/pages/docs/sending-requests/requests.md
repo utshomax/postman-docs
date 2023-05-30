@@ -6,11 +6,6 @@ updated: 2021-11-09
 search_keyword: "Content-Type, multipart, form-data, x-www-form-urlencoded"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending your first request"
-    url:  "/docs/getting-started/sending-the-first-request/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -33,21 +28,6 @@ contextual_links:
   - type: link
     name: "Postman Answers"
     url:  "https://www.postman.com/postman/workspace/aa5fb3b8-0090-4b5e-b3b4-fa5c1f2d080d"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Authorizing requests"
-    url:  "/docs/sending-requests/authorization/"
-  - type: link
-    name: "Troubleshooting API requests"
-    url:  "/docs/sending-requests/troubleshooting-api-requests/"
-  - type: link
-    name: "Receiving responses"
-    url:  "/docs/sending-requests/responses/"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-
 warning: false
 
 ---

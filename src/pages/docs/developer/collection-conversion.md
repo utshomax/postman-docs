@@ -6,23 +6,12 @@ page_id: "collection-conversion"
 search_keyword: "postman-api-key, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Youi plans to convert docs into collections"
     url: "https://www.postman.com/case-studies/youi/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Continuous Integration"
-    url: "/docs/collections/using-newman-cli/continuous-integration/"
-
 warning: false
 
 ---

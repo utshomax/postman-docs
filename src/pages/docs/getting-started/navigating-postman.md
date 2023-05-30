@@ -5,11 +5,6 @@ page_id: "navigating_postman"
 updated: 2022-11-16
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Download and Install"
-    url: "https://www.postman.com/downloads/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -30,14 +25,7 @@ contextual_links:
   - type: link
     name: "Focus on the work that matters with sidebar configurations"
     url: "https://blog.postman.com/focus-on-the-work-that-matters-with-sidebar-configurations/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Sending your first request"
-    url: "/docs/getting-started/sending-the-first-request/"
-
 warning: false
-
 ---
 
 Postman has a variety of tools, views, and controls to help you manage your API projects. This guide is a high-level overview of Postman's primary interface areas:
