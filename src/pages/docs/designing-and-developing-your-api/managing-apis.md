@@ -66,11 +66,11 @@ To add tags to an API, do the following:
 1. Select an API.
 1. Select the tags section to edit it.
 
-    <img alt="Add tags to an API" src="https://assets.postman.com/postman-docs/v10/add-tags-api-v10.jpg"/>
+    <img alt="Add tags to an API" src="https://assets.postman.com/postman-docs/v10/add-tags-api-v10-2.jpg"/>
 
-1. Select an existing tag or enter a new tag. If you're adding a new tag, enter the new tag name and then select **Create**.
+1. Select an existing tag or enter a new tag. If you're adding a new tag, enter the new tag name and then select **Create "TAG-NAME"**.
 
-    <img alt="Add new tags to an API" src="https://assets.postman.com/postman-docs/v10/create-new-tags-api-v10.jpg"/>
+    <img alt="Add new tags to an API" src="https://assets.postman.com/postman-docs/v10/create-new-tags-api-v10-2.jpg"/>
 
 1. Click out of the tags section to save your changes.
 
@@ -79,10 +79,10 @@ To remove tags from an API, do the following:
 1. Select **APIs** in the sidebar.
 1. Select an API.
 1. Select the tags section to edit it.
-
-    <img alt="Select the tags section in an API" src="https://assets.postman.com/postman-docs/v10/add-tags-api-v10.jpg"/>
-
 1. Select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to a tag.
+
+    <img alt="Remove tags from an API" src="https://assets.postman.com/postman-docs/v10/remove-tags-api-v10.jpg"/>
+
 1. Click out of the tags section to save your changes.
 
 ## Watching APIs
