@@ -151,6 +151,8 @@ The collections and APIs you add to the Private API Network include the latest c
 
 You can add elements from inside your team's Private API Network. Workspace Editors, Collection Editors, and API Editors can [request to add elements](#requesting-to-add-elements-in-your-private-api-network) from your Private API Network.
 
+After you add a collection, you can select the collection in the left sidebar to view its documentation. In the documentation, select **Try Request** next to a request to open it in a new tab. If a request has a saved example, you can also select **Try Example** to open the example in a new tab.
+
 To add elements to the root Home folder, do the following:
 
 1. Open your [Private API Network](https://go.postman.co/network/private).
@@ -161,6 +163,10 @@ To add elements to the root Home folder, do the following:
 1. Search for and select the elements you want to add. You can select multiple collections, APIs, and workspaces.
 
     > An API's editor must [publish a version of the API](#publishing-specific-api-versions) before you can add it to your Private API Network.
+
+    <!-- -->
+
+    > You can select an element's name to open it in its workspace in a new tab.
 
 1. Select **Review**.
 
@@ -175,6 +181,10 @@ To add elements to a folder, do the following:
 1. Search for and select the elements you want to add. You can select multiple collections, APIs, and workspaces.
 
     > An API's editor must [publish a version of the API](#publishing-specific-api-versions) before you can add it to your Private API Network.
+
+    <!-- -->
+
+    > You can select an element's name to open it in its workspace in a new tab.
 
 1. Select **Review**.
 
@@ -202,6 +212,8 @@ To add a workspace to the Private API Network from the API Builder, do the follo
 ### Adding a collection from the API Builder
 
 You can add collections from the API Builder. Collection Editors must [request to add a collection](#requesting-to-add-a-collection-from-the-api-builder).
+
+After you add a collection, you can select the collection in the left sidebar to view its documentation. In the documentation, select **Try Request** next to a request to open it in a new tab. If a request has a saved example, you can also select **Try Example** to open the example in a new tab.
 
 To add a collection to the Private API Network from the API Builder, do the following:
 
@@ -260,6 +272,8 @@ When you submit a request, Postman notifies the [API Network Manager](/docs/coll
 
 Editors of an element can request to add elements from inside your team's Private API Network.
 
+After a collection is added, you can select the collection in the left sidebar to view its documentation. In the documentation, select **Try Request** next to a request to open it in a new tab. If a request has a saved example, you can also select **Try Example** to open the example in a new tab.
+
 To request to add elements to the root Home folder, do the following:
 
 1. Open your [Private API Network](https://go.postman.co/network/private).
@@ -270,6 +284,10 @@ To request to add elements to the root Home folder, do the following:
 1. Search for and select the elements you want to request to add. You can select multiple collections, APIs, and workspaces.
 
     > An API's editor must [publish a version of the API](#publishing-specific-api-versions) before you can add it to your Private API Network.
+
+    <!-- -->
+
+    > You can select an element's name to open it in its workspace in a new tab.
 
 1. Select **Review**.
 
@@ -284,6 +302,10 @@ To add elements to a folder, do the following:
 1. Search for and select the elements you want to request to add. You can select multiple collections, APIs, and workspaces.
 
     > An API's editor must [publish a version of the API](#publishing-specific-api-versions) before you can add it to your Private API Network.
+
+    <!-- -->
+
+    > You can select an element's name to open it in its workspace in a new tab.
 
 1. Select **Review**.
 
@@ -308,6 +330,8 @@ To add elements to a folder, do the following:
 ### Requesting to add a collection from the API Builder
 
 [Collection Editors](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) can request to add collections to your Private API Network from the API Builder.
+
+After a collection is added, you can select the collection in the left sidebar to view its documentation. In the documentation, select **Try Request** next to a request to open it in a new tab. If a request has a saved example, you can also select **Try Example** to open the example in a new tab.
 
 1. Open the collection you want to add to the Private API Network.
 1. In the collection overview, select **Request to Add to API Network**.

@@ -266,7 +266,7 @@ All partners are assigned Workspace Editor or Viewer roles when invited to a Par
 
 > **[Network roles are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-Network roles related to the [Private API Network](/docs/collaborating-in-postman/adding-private-network/) and are applied at the team and folder level.
+Network roles related to the [Private API Network](/docs/collaborating-in-postman/adding-private-network/) are applied at the team and folder level.
 
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) network roles at the team level:
 
