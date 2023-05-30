@@ -149,9 +149,9 @@ To import data from a remote GitHub repository:
 
 1. Confirm or sign in to your GitHub account and authorize **postmanlabs** to access your repositories if necessary.
 
-1. In Postman, select your GitHub organization, repository, and branch, then select **Continue**.
-
    > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#managing-connected-accounts-for-remote-repositories).
+
+1. In Postman, select your GitHub organization, repository, and branch, then select **Continue**.
 
 1. Choose to import your API as a **Postman Collection** or as **OpenAPI 3.0 with a Postman Collection**.
 
