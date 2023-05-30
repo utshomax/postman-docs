@@ -1,6 +1,6 @@
 ---
-title: "Viewing workspace activity"
-updated: 2021-04-21
+title: "Viewing workspace and collection activity"
+updated: 2023-05-30
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -14,9 +14,11 @@ contextual_links:
     url: "https://blog.postman.com/how-we-built-postman-activity-feed-system/"
 ---
 
-> **[Changelog is available on Postman paid plans.](https://www.postman.com/pricing/)**
+> **[Changelogs are available on Postman paid plans.](https://www.postman.com/pricing/)**
 
-Each Postman Collection has a changelog that covers create, update, transfer, and delete events. You can use the changelog to keep track of updates you and other collaborators make to your private and team collections. The changelog also enables you to roll back a collection and restore it to an earlier point in time.
+Postman maintains changelogs for collections, workspaces, and APIs. You can use the changelog to review create, update, transfer, and delete actions that you and fellow team members have taken on private and shared elements. The changelog also enables you to roll back a collection and restore it to an earlier point in time.
+
+> To learn more about the API changelog, see [Using the changelog](/docs/designing-and-developing-your-api/managing-apis/#using-the-changelog).
 
 ## Contents
 
@@ -33,13 +35,13 @@ To review the changelog for a collection in Postman, open the collection and sel
 
 The changelog provides a chronological list of collection activities. You can view the time and date changes occurred, the users who were involved, and what parts of the collection were affected.
 
-<img alt="Collection changelog" src ="https://assets.postman.com/postman-docs/changelog-v9.16.jpg" width=400px/>
+<img alt="Collection changelog" src ="https://assets.postman.com/postman-docs/v10/changelog-view-v10.14.jpg" width=400px/>
 
 Postman groups changes made within several minutes of each other into sessions for readability. You can select a session in the changelog to review its changes individually.
 
-Select **View changes** under an item to view the collection diff. If a diff is too large to view in the changelog, you can hover over the diff and select **View more** to open it in a new tab.
+Select **View diff** under an item to view the collection diff. If a diff is too large to view in the changelog, you can hover over the diff and select **View more** to open it in a new tab.
 
-<img alt="Collection changelog view changes" src ="https://assets.postman.com/postman-docs/changelog-view-changes-view-more-v9.16.jpg" width=375px/>
+<img alt="Collection changelog view changes" src ="https://assets.postman.com/postman-docs/v10/changelog-view-diff-v10.14.0.jpg" width=400px/>
 
 ## Viewing workspace activity
 
@@ -92,7 +94,7 @@ To restore a collection from the changelog, do the following:
 1. Select a session to expand it.
 2. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the change you'd like to restore your collection to, then select **Restore to this change**.
 
-    <img alt="Restore from changelog" src="https://assets.postman.com/postman-docs/changelog-restore-v9.16.jpg" width="350px"/>
+    <img alt="Restore from changelog" src="https://assets.postman.com/postman-docs/v10/changelog-restore-v10.14.jpg" width="350px"/>
 
 Restoring a collection from the changelog reverts it to the point immediately after your selected change occurred.
 
