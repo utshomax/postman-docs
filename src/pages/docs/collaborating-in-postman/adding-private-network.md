@@ -74,7 +74,7 @@ There are two ways to access the Private API Network:
 * Select **Home** from the Postman header, then select **Private API Network** in your team information on the left side.
 * Select **API Network** from the Postman header, then select **Private API Network**.
 
-There are several ways to search, filter, and sort elements in the Private API Network.
+There are several ways to search, filter, and sort elements in the Private API Network. Select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/icon-home-v10.jpg#icon" width="16px"> **Home** in the left sidebar to search, filter, and sort all elements in your Private API Network. Select a folder in the left sidebar to search, filter, and sort elements only in the selected folder.
 
 * To search by name, enter the full or partial element name into  **Search elements**.
 * To filter based on the person who added the element, select **Added by**, then select the name of the team member.
@@ -151,7 +151,7 @@ The collections and APIs you add to the Private API Network include the latest c
 
 You can add elements from inside your team's Private API Network. Workspace Editors, Collection Editors, and API Editors can [request to add elements](#requesting-to-add-elements-in-your-private-api-network) from your Private API Network.
 
-To add elements to the root folder, do the following:
+To add elements to the root Home folder, do the following:
 
 1. Open your [Private API Network](https://go.postman.co/network/private).
 1. Select the **+** icon in the left sidebar.
@@ -260,7 +260,7 @@ When you submit a request, Postman notifies the [API Network Manager](/docs/coll
 
 Editors of an element can request to add elements from inside your team's Private API Network.
 
-To request to add elements to the root folder, do the following:
+To request to add elements to the root Home folder, do the following:
 
 1. Open your [Private API Network](https://go.postman.co/network/private).
 1. Select the **+** icon in the left sidebar.

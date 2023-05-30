@@ -274,7 +274,7 @@ You can [assign](/docs/administration/managing-your-team/managing-your-team/) ne
 
 You can also [assign](/docs/collaborating-in-postman/adding-private-network/#editing-folder-managers) network roles at the folder level:
 
-* **Folder Manager** - Manages specific folders and the elements in them in a team's Private API Network. Team members with this role can perform all actions that API Network Manager roles can perform but only in folders they have permission to manage.
+* **Folder Manager** - Manages specific folders and the elements in them in a team's Private API Network. Team members with this role can perform all actions that API Network Manager role can perform but only in folders they have permission to manage.
 
 ## Next steps
 
