@@ -81,9 +81,9 @@ Select the more actions icon <img alt="More actions icon" src="https://assets.po
 
 <img alt="Hide a diff in the changelog" src="https://assets.postman.com/postman-docs/v10/changelog-hide-diff-v10.jpg" width="425px"/>
 
-To unhide the diff, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> for the changelog entry, then select  **Show diff to all users**. Once you unhide the diff, all users will be able to view it in the changelog.
+To restore the visibility of a diff, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> for the changelog entry, then select  **Show diff to all users**. Once you restore the visibility of a diff, all users will be able to view it in the changelog.
 
-<img alt="Unhide a diff in the changelog" src="https://assets.postman.com/postman-docs/v10/changelog-unhide-diff-v10.jpg" width="425px"/>
+<img alt="Restore the visibility of a diff in the changelog" src="https://assets.postman.com/postman-docs/v10/changelog-unhide-diff-v10.jpg" width="425px"/>
 
 ## Restoring collections
 
