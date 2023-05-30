@@ -1,6 +1,6 @@
 ---
 title: "AWS Signature"
-updated: 2022-12-12
+updated: 2023-05-30
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -33,7 +33,7 @@ contextual_links:
     url: "https://www.postman.com/case-studies/intuit/"
 ---
 
-AWS is the authorization workflow for Amazon Web Services requests. AWS uses a custom HTTP scheme based on a keyed-HMAC (Hash Message Authentication Code) for authentication.
+AWS Signature is the authorization workflow for Amazon Web Services requests. AWS uses a custom HTTP scheme based on a keyed-HMAC (Hash Message Authentication Code) for authentication.
 
 The official AWS Signature documentation provides more detail:
 

@@ -33,8 +33,7 @@ contextual_links:
     url: "https://www.postman.com/case-studies/intuit/"
 ---
 
-<!-- TODO: fix lede -->
-Select a type from the **Type** dropdown list on the **Authorization** tab. You can choose an authorization type on requests, collections, or folders.
+Several types of authorization are supported by Postman. Select a type from the **Type** dropdown list on the **Authorization** tab of a request. You can choose an authorization type on requests, collections, or folders.
 
 ## Contents
 

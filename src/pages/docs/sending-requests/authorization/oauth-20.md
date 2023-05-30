@@ -35,7 +35,20 @@ contextual_links:
 
 With OAuth 2.0, you first retrieve an access token for the API, then use that token to authenticate future requests. Access tokens are typically short-lived, but the authorization server can also provide a long-lived refresh token. A client application can use the refresh token to automatically [refresh the access token](#refreshing-an-oauth-20-token).
 
-<!-- TODO: contents -->
+## Contents
+
+* [OAuth 2.0 overview](#oauth-20-overview)
+* [Using OAuth 2.0](#using-oauth-20)
+* [Specifying an authorization code](#specifying-an-authorization-code)
+* [Specifying an authorization code with PKCE](#specifying-an-authorization-code-with-pkce)
+* [Using implicit grant type](#using-implicit-grant-type)
+* [Using password credentials](#using-password-credentials)
+* [Using client credentials](#using-client-credentials)
+* [Requesting an OAuth 2.0 token](#requesting-an-oauth-20-token)
+* [Sharing an OAuth 2.0 access token](#sharing-an-oauth-20-access-token)
+* [Changing the OAuth 2.0 token type](#changing-the-oauth-20-token-type)
+
+## OAuth 2.0 overview
 
 Accessing data with OAuth 2.0 varies greatly between API service providers, but typically involves a few requests back and forth between client application, user, and API. An example OAuth 2.0 flow could run as follows:
 
@@ -44,6 +57,8 @@ Accessing data with OAuth 2.0 varies greatly between API service providers, but 
 * The service provider validates these details and returns a short-lived access token and a long-lived refresh token.
 * The client uses the access token to request the user data with the service provider.
 * When the access token expires, the client can use the refresh token to automatically request a new access token.
+
+## Using Oauth 2.0
 
 To use OAuth 2.0, do the following:
 
@@ -61,7 +76,7 @@ To use OAuth 2.0, do the following:
 
 1. Postman will prompt you to supply specific details depending on the OAuth 2.0 __Grant Type__, which can be [Authorization code](#authorization-code), [Implicit](#implicit), [Password credentials](#password-credentials), or [Client credentials](#client-credentials).
 
-## Authorization code
+## Specifying an authorization code
 
 Authorization code grant type requires the user to authenticate with the provider—an authorization code is then sent back to the client app, extracted, and exchanged with the provider for an access token to authenticate later requests.
 
@@ -69,13 +84,13 @@ To use authorization code grant type, enter a __Callback URL__ for your client a
 
 > If you are using the Postman desktop app, you can enter your auth details in your web browser instead of in Postman by selecting __Authorize using browser__.
 
-## Authorization code (with PKCE)
+## Specifying an authorization code with PKCE
 
 You can use PKCE (Proof Key for Code Exchange) with OAuth 2.0. When you select __Authorization Code (With PKCE)__ two more fields will become available for __Code Challenge Method__ and __Code Verifier__. You can opt to use `SHA-256` or `Plain` algorithms to generate the code challenge. The verifier is an optional 43-128 character string to connect the authorization request to the token request.
 
 > __Authorization code (With PKCE)__ grant type coupled with __Authorize using browser__ is recommended to prevent auth code interception attacks.
 
-## Implicit
+## Using implicit grant type
 
 Implicit grant type returns an access token to the client without requiring the extra auth code step (and is therefore less secure).
 
@@ -83,13 +98,13 @@ To use implicit grant type with your requests in Postman, enter a __Callback URL
 
 > If you are using the Postman desktop app, you can enter your auth details in your web browser instead of in Postman by selecting __Authorize using browser__.
 
-## Password credentials
+## Using password credentials
 
 OAuth 2.0 Password grant type involves sending username and password directly from the client and is therefore not recommended if you're dealing with third-party data.
 
 To use password grant type, enter your API provider's __Access Token URL__, together with the __Username__ and __Password__. In some cases you will also need to provide a client ID and secret.
 
-## Client credentials
+## Using client credentials
 
 Client credentials grant type is typically not used to access user data but instead for data associated with the client application.
 

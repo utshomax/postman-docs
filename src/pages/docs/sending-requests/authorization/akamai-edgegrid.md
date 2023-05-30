@@ -1,6 +1,6 @@
 ---
 title: "Akamai EdgeGrid"
-updated: 2022-12-12
+updated: 2023-05-30
 contextual_links:
   - type: section
     name: "Additional resources"

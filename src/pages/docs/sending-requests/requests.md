@@ -210,7 +210,7 @@ Some APIs require auth details you can send in Postman. Authentication involves 
 
 Postman will automatically include your auth details in the relevant part of the request, for example in __Headers__.
 
-For more detail on implementing different types of auth in your Postman requests, check out [Authorizing requests](/docs/sending-requests/authorization/).
+For more detail on implementing different types of auth in your Postman requests, check out the [Authorizing requests overview](/docs/sending-requests/authorization/authorization/).
 
 Once your auth and other request details are set up, select __Send__ to run your request.
 
@@ -240,7 +240,7 @@ If you need to change a header, you can do so in the relevant part of Postman, f
 
 If you need to go to a different part of the app, Postman will show a link on the right-hand side.
 
-If a header has been added based on your auth setup, [select the __Authorization__ tab](/docs/sending-requests/authorization/) to change it.
+If a header has been added based on your auth setup, [select the __Authorization__ tab](/docs/sending-requests/authorization/authorization/) to change it.
 
 To alter cookie headers, [change the cookie setup](/docs/sending-requests/cookies/) for the domain you're sending the request to.
 

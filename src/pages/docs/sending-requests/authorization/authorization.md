@@ -1,6 +1,6 @@
 ---
 title: "Authorizing requests overview"
-updated: 2023-05-24
+updated: 2023-05-30
 contextual_links:
   - type: section
     name: "Additional resources"

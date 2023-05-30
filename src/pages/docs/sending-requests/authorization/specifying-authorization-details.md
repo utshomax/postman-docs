@@ -33,7 +33,6 @@ contextual_links:
     url: "https://www.postman.com/case-studies/intuit/"
 ---
 
-<!-- TODO: better lede. Break into sections and add contents -->
 With a request open in Postman, use the __Authorization__ tab to select an auth type, then complete the relevant details for your selected type. The correct data values will be determined by your API at the server side. If you're using a third party API, refer to the provider's documentation for any required auth details.
 
 > Easier API authentication is available for certain public APIs. For more information, see [Authentication for public APIs](/docs/sending-requests/authorization/authentication-for-public-apis/).
