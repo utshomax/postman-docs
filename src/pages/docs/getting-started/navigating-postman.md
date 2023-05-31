@@ -52,7 +52,7 @@ The header enables you to create workspaces, access reports, explore the public 
 * **API Network** - Explore the [Public API Network](/docs/getting-started/exploring-public-api-network/) and access your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
 * **Explore** - Browse public APIs, teams, workspaces, and collections on Postman.
 
-<img alt="Expanded view of the Search Postman field" src="https://assets.postman.com/postman-docs/v10/navigating-postman-search-v10.jpg" width="500px"/>
+<img alt="Expanded view of the Search Postman field" src="https://assets.postman.com/postman-docs/v10/navigating-postman-search-v10.jpg">
 
 * <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Search Postman** - Search all workspaces, collections, requests, APIs, flows, and teams in Postman. For more details on searching in Postman, see [Search Postman](#search-postman).
 
