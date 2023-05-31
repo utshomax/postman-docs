@@ -50,11 +50,11 @@ Use workspaces to organize your work in Postman and collaborate with teammates (
 
 To open a workspace, select **Workspaces** in the Postman header. Select a workspace to open it, or select **View all workspaces** for a list of all available workspaces. This will only display workspaces that you have access to, based on the [workspace visibility](#changing-workspace-visibility) and your [workspace role](#managing-workspace-roles).
 
-<img alt="New Workspace" src="https://assets.postman.com/postman-docs/v10/view-workspaces-v10-2.jpg" width="400px"/>
+<img alt="New Workspace" src="https://assets.postman.com/postman-docs/v10/view-workspaces-v10.14.jpg" width="400px"/>
 
 The workspace's **Overview** tab displays a description and summary of the workspace, as well as any [pinned collections](#pinning-collections-to-workspaces). On the right, there is a list of workspace contributors and the option to [view workspace activity](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#viewing-workspace-activity).
 
-<img alt="Workspace overview" src="https://assets.postman.com/postman-docs/v10/workspace-overview-v10.14.jpg"/>
+<img alt="Workspace overview" src="https://assets.postman.com/postman-docs/v10/workspace-overview-v10-2.jpg"/>
 
 ### Getting the workspace ID
 
