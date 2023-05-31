@@ -49,7 +49,7 @@ To view the list of validation issues, select the warning icon in the tab of the
 
 Select an issue to view the element where the issue was detected. To resolve the issue, you can change the [request](/docs/sending-requests/requests/#adding-request-detail) or [saved example](/docs/sending-requests/examples/#editing-an-example), or you can change the [API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#editing-an-api-definition-file). After you save your changes, if the problem is corrected, the issue disappears.
 
-<img alt="Viewing request validation issues" src="https://assets.postman.com/postman-docs/v10/request-validation-v10.jpg" >
+<img alt="Viewing request validation issues" src="https://assets.postman.com/postman-docs/v10/request-validation-v10-15.jpg" >
 
 ## Viewing syntax errors in your API definition
 
