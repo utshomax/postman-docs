@@ -61,7 +61,7 @@ The Postman to Slack integration enables you to send Postman notifications to a 
 
 ## Send your monitor run results to Slack
 
-> This integration works with collection-based monitors. Before you begin, make sure you've [created at least one collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/). To integrate an uptime monitor with Slack, see [Send uptime monitor notifications to Slack](#send-uptime-monitor-notifications-to-slack).
+> This integration works with collection-based monitors. Before you begin, make sure you've [created at least one collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/).
 
 1. Enter the following on the **Add integration** window:
 
@@ -98,6 +98,8 @@ For the **Post team activity** integration, after allowing Slack permissions, yo
 
 ## Send uptime monitor notifications to Slack
 
+> **The uptime monitors open beta period is over.** You can no longer create new uptime monitors. Your existing uptime monitors will keep working, and you can continue to use them to monitor API uptime. For updates, visit the [GitHub discussion board](https://github.com/postmanlabs/uptime-monitors/discussions).
+
 1. Enter the following on the **Add integration** window:
 
     * Enter a **Nickname** to help you identify the integration.
@@ -109,4 +111,4 @@ For the **Post team activity** integration, after allowing Slack permissions, yo
 
     <img alt="Configuring uptime Slack notifications" src="https://assets.postman.com/postman-docs/slack-integration-uptime-monitors-v9-19.jpg" width="530px">
 
-After setting up the integration, you'll get downtime alerts in the Slack channel you select. You'll also get notified when the downtime ends. Learn more about [uptime monitors](/docs/monitoring-your-api/uptime-monitors/).
+After setting up the integration, you'll get downtime alerts in the Slack channel you select. You'll also get notified when the downtime ends.
