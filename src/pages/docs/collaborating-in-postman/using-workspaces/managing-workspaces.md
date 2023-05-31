@@ -84,7 +84,7 @@ Workspace Admins can edit workspace details or change the visibility of a worksp
 
 A summary and description help others understand what your workspace is for. You must be a [Workspace Admin](#managing-workspace-roles) to edit workplace details.
 
-On the workspace's **Overview** tab, hover over the element's name to display the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">; select the edit icon and enter a new name. You can also select the summary, description, or tags to edit it. You can add Markdown to the description. Select the area outside of each section to save your changes.
+On the workspace's **Overview** tab, hover over the element's name, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">, and enter a new name. You can also select the summary, description, or tags to edit it. You can add Markdown to the description. Select the area outside of each section to save your changes.
 
 <img alt="Edit Workspace Summary & Description" src="https://assets.postman.com/postman-docs/v10/edit-workspace-summary-description-v10-2.gif"/>
 
