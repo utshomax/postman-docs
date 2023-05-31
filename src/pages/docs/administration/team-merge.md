@@ -87,7 +87,7 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 
 1. The appointed Admin on the original team will inherit ownership of all shared and unshared data.
     > Data from team workspaces you haven't joined won't be present in the export.
-
+    <!--  -->
     > By default, the person who imports a collection or environment is automatically assigned the Editor role (learn more about [roles](/docs/collaborating-in-postman/roles-and-permissions/)). Everyone else on the team will be assigned as Viewer.
 2. [Export all data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) at once with a [JSON data dump](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
 3. The appointed Admin can then [re-import into the new team](/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman).
@@ -103,7 +103,7 @@ See [performing distributed migration](#performing-distributed-migration) to cho
     > By default, the person who imports a collection or environment is automatically assigned the Editor role (learn more about [roles](/docs/collaborating-in-postman/roles-and-permissions/)). Everyone else on the team will be assigned as a Viewer.
 3. Once the last team member from your previous team has migrated to your new one, the original team will be deleted along with all of the data within it. You can then begin [collaborating](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) in your new team. To learn more about collaborating in Postman, watch [Working with your team in Postman](https://youtu.be/5lscUV-Exac).
     > If you change your team email to a non-company domain email (for example, Gmail or Yahoo), your original team will continue indefinitely. You can keep a personal account with your current data and use a work email for a work account. Keeping both accounts in use can help when you migrate data.
-
+    <!--  -->
     > Keep in mind items that will need to be recreated (such as monitors and mocks).
 
 ## Migration FAQs
