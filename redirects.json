@@ -2154,5 +2154,9 @@
   {
     "from": "/docs/collaborating-in-postman/requesting-access-to-collections/",
     "to": "/docs/collaborating-in-postman/requesting-access-to-elements/"
+  },
+  {
+    "from": "/Users/peterwitcher/Documents/GitHub/postman-docs/src/pages/docs/reports/api-governance-reports/",
+    "to": "/Users/peterwitcher/Documents/GitHub/postman-docs/src/pages/docs/reports/api-reports-governance/"
   }
 ]

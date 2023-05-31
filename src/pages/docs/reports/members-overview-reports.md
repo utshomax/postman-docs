@@ -20,7 +20,7 @@ The **Members overview** dashboard shows details about all members of your team 
 * **Active members over time** - The number of team members who used Postman at least once on a specific day in the last 30 days.
 * **Member invites** - The number of invitations sent by your team, and the number of invites accepted.
 * **Member roles** - The number of team members assigned to each role.
-* **Member list** - A detailed list of team members with the following information about each member:
+* **Members list** - A detailed list of team members with the following information about each member:
 * **Name**
     * **Email**
     * **Joined on date**

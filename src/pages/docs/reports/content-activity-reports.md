@@ -23,6 +23,8 @@ The **Content activity** dashboard shows the current landscape of elements creat
 
 ## Workspaces overview
 
+You can switch between team and public workspaces with the **Report Type** dropdown menu in the upper right.
+
 * **Total workspaces** - The total number of workspaces including public, team, personal, and private workspaces.
 * **Workspaces created over time** - The total number of workspaces created by your team in the last six months. This might include workspaces that have since been deleted, as long as they were created in the reporting period.
 * **Workspaces by type** - The total numbers of partner, personal, private, public, and team workspaces, and the number of empty workspaces of each type. Empty workspaces are workspaces that don't contain any environments, monitors, mocks, collections, or APIs.
@@ -35,6 +37,8 @@ The **Content activity** dashboard shows the current landscape of elements creat
     > This metric doesn't include administrative or billing-related tasks that happen outside of a workspace.
 
 ## APIs overview
+
+You can switch between team and public APIs with the **Report Type** dropdown menu in the upper right.
 
 * **Total APIs** - The total number of APIs created by your team in all workspaces.
 * **Distribution of APIs** - The number of APIs created in personal, private, team, or public workspaces, or in the Private API Network.
@@ -89,8 +93,6 @@ The **View report by API** dashboard provides a report for each individual API. 
 * **Average response size** - The average response size in bytes in the last 30 days.
 * **Average response time** - The average response time in milliseconds in the last 30 days.
 * **API response codes** - The HTTP response codes for each API response in the last 30 days.
-
-## Private Network APIs
 
 ## Private Network APIs
 
