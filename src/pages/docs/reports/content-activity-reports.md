@@ -17,7 +17,7 @@ The **Content activity** dashboard shows the current landscape of elements creat
 
 ## Contents
 
-* [**Workspaces overvew**](#workspaces-overview)
+* [**Workspaces overview**](#workspaces-overview)
 * [**APIs overview**](#apis-overview)
 * [**More reports**](#more-reports)
 

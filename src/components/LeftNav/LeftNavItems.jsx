@@ -1232,7 +1232,7 @@ export const leftNavItems = [
       },
       {
         name: 'API Governance reports',
-        url: '/docs/reports/api-governance-reports/',
+        url: '/docs/reports/api-gov-reports/',
       },
       {
         name: 'Billing overview reports',
