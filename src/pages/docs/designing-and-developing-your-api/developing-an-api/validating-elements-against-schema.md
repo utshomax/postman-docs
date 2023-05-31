@@ -43,9 +43,9 @@ To enable request validation, do the following:
 
 > To validate requests, saved examples, and responses, your collection must be linked to an API. Learn more about [adding a collection to an API](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/#adding-a-collection).
 
-If Postman detects validation issues, a warning icon <img alt="Validation warning icon" src="https://assets.postman.com/postman-docs/v10/icon-warning-v10.jpg#icon" width="16px"> showing the number of issues displays in the tab of the request or saved example. An orange dot also displays in the sidebar next to the element with the issue.
+If Postman detects validation issues, an orange dot displays in the sidebar next to the collection, folder, request, or saved example with the issue. Select the element to open it. A warning icon <img alt="Validation warning icon" src="https://assets.postman.com/postman-docs/v10/icon-warning-v10.jpg#icon" width="16px"> displays in the tab next to the element's name showing the number of issues found in the element.
 
-To view the list of validation issues, select the warning icon in the tab of the request or example. Postman provides details for each issue, including the element with the issue and details about the problem.
+To view the list of validation issues, select the warning icon in the tab of the collection, folder, request, or saved example. Postman provides details for each issue, including the element with the issue and details about the problem.
 
 Select an issue to view the element where the issue was detected. To resolve the issue, you can change the [request](/docs/sending-requests/requests/#adding-request-detail) or [saved example](/docs/sending-requests/examples/#editing-an-example), or you can change the [API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#editing-an-api-definition-file). After you save your changes, if the problem is corrected, the issue disappears.
 
