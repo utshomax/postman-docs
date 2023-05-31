@@ -142,7 +142,7 @@ export const leftNavItems = [
         slug: '/docs/sending-requests/authorization/authorization/',
         subMenuItems2: [
           {
-            name: 'Authorization overview',
+            name: 'Authorizing requests overview',
             url: '/docs/sending-requests/authorization/authorization/',
           },
           {
