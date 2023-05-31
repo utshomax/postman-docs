@@ -45,6 +45,7 @@ Several types of authorization are supported by Postman. Select a type from the 
 * [Digest auth](/docs/sending-requests/authorization/digest-auth/)
 * [OAuth 1.0](/docs/sending-requests/authorization/oauth-10/)
 * [OAuth 2.0](/docs/sending-requests/authorization/oauth-20/)
+* [Hawk authentication](/docs/sending-requests/authorization/hawk-authentication/)
 * [AWS Signature](/docs/sending-requests/authorization/aws-signature/)
 * [NTLM authentication](/docs/sending-requests/authorization/ntlm-authentication/)
 * [Akamai EdgeGrid](/docs/sending-requests/authorization/akamai-edgegrid/)
