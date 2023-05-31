@@ -89,7 +89,7 @@ There are several ways to search, filter, and sort elements in the Private API N
 
 <img alt="Private API List" src="https://assets.postman.com/postman-docs/v10/private-api-network-list-v10-2.jpg"/>
 
-To review information about an element, select it from the list. You can view the element's description and the editors who have worked on it. For workspaces, you can view all of the collections and APIs inside them. For collections, you can view available documentation. For APIs, you can view definitions and associated collections.
+To review information about an element, select it from the list. You can view the element's description and the editors who have worked on it. For workspaces, you can view all of the collections and APIs inside them. For collections, you can view available documentation; you can select **Try Request** next to a request or **Try Example** next to an example to open it in a new tab. For APIs, you can view definitions and associated collections.
 
 To watch a workspace, collection, or API and get notified about any changes, select **Watch** in the upper right corner.
 
@@ -137,7 +137,7 @@ API Network Managers can assign team members the [Folder Manager role](/docs/col
 
 API Network Managers can add elements to the Private API Network. Folder Managers can add elements to folders they have permission to manage. Workspace Editors, Collection Editors, and API Editors must [request to add elements](#requesting-to-add-elements) to the Private API Network.
 
-To add an element to the Private API Network, it must be in the [API Builder](/docs/designing-and-developing-your-api/creating-an-api/) in a team or public workspace. You can't add an element to the Private API Network unless all team members have at least view access to the element. Learn more about team [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
+To add an element to the Private API Network, it must be in a team or public workspace. You can't add an element to the Private API Network unless all team members have at least view access to the element. Learn more about team [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
 
 The collections and APIs you add to the Private API Network include the latest changes to these elements.
 
@@ -151,34 +151,16 @@ The collections and APIs you add to the Private API Network include the latest c
 
 You can add elements from inside your team's Private API Network. Workspace Editors, Collection Editors, and API Editors can [request to add elements](#requesting-to-add-elements-in-your-private-api-network) from your Private API Network.
 
-After you add a collection, you can select the collection in the left sidebar to view its documentation. In the documentation, select **Try Request** next to a request to open it in a new tab. If a request has a saved example, you can also select **Try Example** to open the example in a new tab.
-
-To add elements to the root Home folder, do the following:
+To add elements from your Private API Network, do the following:
 
 1. Open your [Private API Network](https://go.postman.co/network/private).
-1. Select the **+** icon in the left sidebar.
+1. Select the **+** icon in the left sidebar to add elements to the root Home folder. To add elements to a specific folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a folder, then select **Add elements**.
 
     > You can also select **Add** on the right from the Private API Network overview page.
 
-1. Search for and select the elements you want to add. You can select multiple collections, APIs, and workspaces.
+1. Select the collections, APIs, and workspaces you want to add. You can search for elements, and filter elements by tags.
 
-    > An API's editor must [publish a version of the API](#publishing-specific-api-versions) before you can add it to your Private API Network.
-
-    <!-- -->
-
-    > You can select an element's name to open it in its workspace in a new tab.
-
-1. Select **Review**.
-
-    <img alt="Add elements to the Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-add-elements-v10.jpg"/>
-
-1. Review your selections, and then select **Add to Network**.
-
-To add elements to a folder, do the following:
-
-1. Open your [Private API Network](https://go.postman.co/network/private).
-1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a folder, then select **Add elements**.
-1. Search for and select the elements you want to add. You can select multiple collections, APIs, and workspaces.
+    You can select **Added elements** in the upper-right corner to show elements already added to the Private API Network. You can select the **Collections** tab and then **Forks** in the upper-right corner to show forked collections. Collections that are [forks](/docs/collaborating-in-postman/using-version-control/forking-entities/) of a parent collection are hidden by default.
 
     > An API's editor must [publish a version of the API](#publishing-specific-api-versions) before you can add it to your Private API Network.
 
@@ -212,8 +194,6 @@ To add a workspace to the Private API Network from the API Builder, do the follo
 ### Adding a collection from the API Builder
 
 You can add collections from the API Builder. Collection Editors must [request to add a collection](#requesting-to-add-a-collection-from-the-api-builder).
-
-After you add a collection, you can select the collection in the left sidebar to view its documentation. In the documentation, select **Try Request** next to a request to open it in a new tab. If a request has a saved example, you can also select **Try Example** to open the example in a new tab.
 
 To add a collection to the Private API Network from the API Builder, do the following:
 
@@ -264,7 +244,9 @@ You can make all your existing APIs discoverable on the Private API Network afte
 
 Users with an Editor role for an element can request to add it to the Private API Network.
 
-When you submit a request, Postman notifies the [API Network Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or Folder Manager who will review your request and either approve or deny it. Postman will notify you of the API Network Manager or Folder Manager's decision. If they deny your request, the notification will include a comment with their reason.
+To request to add an element to the Private API Network, it must be in a team or public workspace. You can't request to add an element to the Private API Network unless all team members have at least view access to the element. Learn more about team [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
+
+When you submit a request, Postman notifies the [API Network Manager](/docs/collaborating-in-postman/roles-and-permissions/#network-roles) or Folder Manager who will review your request and either approve or deny it. Postman will notify you of the API Network Manager or Folder Manager's decision. If they deny your request, the notification will include a comment with their reason.
 
 > When you add a workspace, collection, or API to the [Private API Network](https://go.postman.co/network/private), it's visible to your Postman team, but isn't visible to [partners](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
 
@@ -272,34 +254,16 @@ When you submit a request, Postman notifies the [API Network Manager](/docs/coll
 
 Editors of an element can request to add elements from inside your team's Private API Network.
 
-After a collection is added, you can select the collection in the left sidebar to view its documentation. In the documentation, select **Try Request** next to a request to open it in a new tab. If a request has a saved example, you can also select **Try Example** to open the example in a new tab.
-
-To request to add elements to the root Home folder, do the following:
+To request to add elements from your Private API network, do the following:
 
 1. Open your [Private API Network](https://go.postman.co/network/private).
-1. Select the **+** icon in the left sidebar.
+1. Select the **+** icon in the left sidebar to request to add elements to the root Home folder. To request to add elements to a specific folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the folder, then select **Request to add elements**.
 
     > You can also select **Add** on the right from the Private API Network overview page.
 
-1. Search for and select the elements you want to request to add. You can select multiple collections, APIs, and workspaces.
+1. Select the collections, APIs, and workspaces you want to request to add. You can search for elements, and filter elements by tags.
 
-    > An API's editor must [publish a version of the API](#publishing-specific-api-versions) before you can add it to your Private API Network.
-
-    <!-- -->
-
-    > You can select an element's name to open it in its workspace in a new tab.
-
-1. Select **Review**.
-
-    <img alt="Add elements to the Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-add-elements-v10.jpg"/>
-
-1. Review your selections, and then select **Request to add**.
-
-To add elements to a folder, do the following:
-
-1. Open your [Private API Network](https://go.postman.co/network/private).
-1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the folder, then select **Request to add elements**.
-1. Search for and select the elements you want to request to add. You can select multiple collections, APIs, and workspaces.
+    You can select **Added elements** in the upper-right corner to show elements already added to the Private API Network. You can select the **Collections** tab and then **Forks** in the upper-right corner to show forked collections. Collections that are [forks](/docs/collaborating-in-postman/using-version-control/forking-entities/) of a parent collection are hidden by default.
 
     > An API's editor must [publish a version of the API](#publishing-specific-api-versions) before you can add it to your Private API Network.
 
@@ -330,8 +294,6 @@ To add elements to a folder, do the following:
 ### Requesting to add a collection from the API Builder
 
 [Collection Editors](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) can request to add collections to your Private API Network from the API Builder.
-
-After a collection is added, you can select the collection in the left sidebar to view its documentation. In the documentation, select **Try Request** next to a request to open it in a new tab. If a request has a saved example, you can also select **Try Example** to open the example in a new tab.
 
 1. Open the collection you want to add to the Private API Network.
 1. In the collection overview, select **Request to Add to API Network**.
