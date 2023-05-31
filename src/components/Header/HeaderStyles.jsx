@@ -124,13 +124,6 @@ export const NavStyles = styled.nav`
      &:active {
        font-weight: 600;
        padding: 6px 6px 6px 16px;
-       /* Learning Center Nav Positioning */
-       &.uber-nav {
-         padding: 6px 16px;
-         @media screen and (max-width: 992px) {
-           padding: 6px 0px;
-         }
-       }
      }
      /* Hide Default Arrow */
      &:after {
@@ -277,13 +270,6 @@ export const NavStyles = styled.nav`
      }
    }
  
-   /* Learning Center Link */
-   & .property-context-menu {
-     & .nav-link:link,
-     .nav-link:active {
-       font-weight: 400 !important;
-     }
-   }
    li.nav-item{
      padding: 0;
      margin-bottom: 4px !important;
@@ -350,16 +336,16 @@ export const NavStyles = styled.nav`
      -webkit-transform: rotate(0deg);
      -ms-transform: rotate(0deg);
      transform: rotate(0deg);
-     -webkit-transition: 0.3s ease-in;
-     -o-transition: 0.3s ease-in;
-     transition: 0.3s ease-in;
+     -webkit-transition:  0.1s ease-in-out;
+     -o-transition:  0.1s ease-in-out;
+     transition: 0.1s ease-in-out;
      &.open {
        -webkit-transform: rotate(180deg);
        -ms-transform: rotate(180deg);
        transform: rotate(180deg);
-       -webkit-transition: 0.3s ease-in;
-       -o-transition: 0.3s ease-in;
-       transition: 0.3s ease-in;
+       -webkit-transition:  0.1s ease-in-out;
+       -o-transition:  0.1s ease-in-out;
+       transition:  0.1s ease-in-out;
    }
  }
 
@@ -368,13 +354,18 @@ export const NavStyles = styled.nav`
 
 export const DropdownStyles = styled.div`
      /* Individual Dropdown Item */
-
      line-height: 20px;
      z-index: 2147483650;
      padding: 16px;
      border-radius: ${(props) => props.theme.borderRadius.medium};
      border: 1px solid ${(props) => props.theme.colors.grey_20};
      box-shadow: 0 16px 24px -8px rgb(0 0 0 / 24%);
+
+    @media screen and (max-width: 992px) {
+      border-radius: none;
+      border: none;
+      box-shadow: none;
+    }
 
     .dropdown-item {
       padding: 8px 16px;
@@ -458,13 +449,6 @@ export const DropdownStylesSecond = styled.div`
      &:active {
        font-weight: 600;
        padding: 6px 6px 6px 16px;
-       /* Learning Center Nav Positioning */
-       &.uber-nav {
-         padding: 6px 16px;
-         @media screen and (max-width: 992px) {
-           padding: 6px 0px;
-         }
-       }
      }
      /* Hide Default Arrow */
      &:after {
@@ -633,13 +617,6 @@ export const DropdownStylesSecond = styled.div`
      &:active {
        font-weight: 600;
        padding: 6px 6px 6px 16px;
-       /* Learning Center Nav Positioning */
-       &.uber-nav {
-         padding: 6px 16px;
-         @media screen and (max-width: 992px) {
-           padding: 6px 0px;
-         }
-       }
       }
   }
  `

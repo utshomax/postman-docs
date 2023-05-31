@@ -209,20 +209,13 @@ const Header = (props) => {
       .getElementById('secondaryNav')
       .getAttribute('aria-expanded');
     const toggleChevron = document.getElementById('navbar-chevron-icons');
-    if (togglerSecondary === 'true') {
-      toggleChevron.classList.add('open');
-    }
-  }
-
-  const hideTargetElementLC = () => {
-    const toggleChevron = document.getElementById('navbar-chevron-icons');
-    const togglerSecondary = document
-      .getElementById('secondaryNav')
-      .getAttribute('aria-expanded');
     if (togglerSecondary === 'false') {
+      toggleChevron.classList.add('open');
+    } else {
       toggleChevron.classList.remove('open');
     }
   }
+
   /* eslint-enable class-methods-use-this */
 
   return (
@@ -404,7 +397,6 @@ const Header = (props) => {
           <button
             onClick={() => {
               showTargetElementLC();
-              hideTargetElementLC();
             }}
             id="secondaryNav"
             className="mobile-sign-in navbar-toggler"
