@@ -1,7 +1,7 @@
 ---
 title: "Using and managing workspaces"
 order: 78
-updated: 2021-09-30
+updated: 2023-05-31
 page_id: "managing_workspaces"
 contextual_links:
   - type: section

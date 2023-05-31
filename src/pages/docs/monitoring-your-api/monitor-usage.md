@@ -2,7 +2,7 @@
 title: "Managing monitor usage"
 order: 88
 page_id: "monitor_usage"
-updated: 2021-10-28
+updated: 2023-05-31
 warning: false
 ---
 
