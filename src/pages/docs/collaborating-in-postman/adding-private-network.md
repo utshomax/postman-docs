@@ -47,6 +47,7 @@ Only [API Network Managers](/docs/collaborating-in-postman/roles-and-permissions
 
 * [Navigating the Private API Network](#navigating-the-private-api-network)
 * [Organizing with folders](#organizing-with-folders)
+    * [Adding sub-folders](#adding-sub-folders)
 * [Editing Folder Managers](#editing-folder-managers)
 * [Adding elements](#adding-elements)
     * [Adding elements in your Private API Network](#adding-elements-in-your-private-api-network)
@@ -60,8 +61,10 @@ Only [API Network Managers](/docs/collaborating-in-postman/roles-and-permissions
     * [Requesting to add an API from the API Builder](#requesting-to-add-an-api-from-the-api-builder)
 * [Reviewing requests to add elements](#reviewing-requests-to-add-elements)
 * [Managing elements](#managing-elements)
+    * [Sharing elements in the Private API Network](#sharing-elements-in-the-private-api-network)
     * [Editing collections in the Private API Network](#editing-collections-in-the-private-api-network)
     * [Moving elements in the Private API Network](#moving-elements-in-the-private-api-network)
+    * [Renaming folders in the Private API Network](#renaming-folders-in-the-private-api-network)
     * [Removing elements from the Private API Network](#removing-elements-from-the-private-api-network)
 * [Private API Network reports](#private-api-network-reports)
 
@@ -97,7 +100,7 @@ To watch a workspace, collection, or API and get notified about any changes, sel
 
 ## Organizing with folders
 
-The sidebar navigation displays the folder structure for your Private API Network. API Network Managers can drag elements and sub-folders into different folders. You can add descriptions to folders to describe elements within the folders. You can also add Folder Managers to specific folders.
+The sidebar navigation displays the folder structure for your Private API Network. API Network Managers can drag elements and sub-folders into different folders. You can add descriptions to folders to describe elements within the folders. You can also add Folder Managers to specific folders. To learn more about managing folders, see [Managing elements](#managing-elements).
 
 <img alt="Create new folder in Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-organize-folders-v10.jpg" width="300px"/>
 
@@ -122,6 +125,12 @@ To create a new folder from the Private API Network view, do the following:
     <img alt="Create folders in Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-create-folders-v10.jpg"/>
 
 1. Review your folders and Folder Managers, and then select **Create Folders**.
+
+### Adding sub-folders
+
+To add a sub-folder to an existing folder, do the following:
+
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a folder, then select **Add folder**.
 
 ## Editing Folder Managers
 
@@ -170,7 +179,7 @@ To add elements from your Private API Network, do the following:
 
 1. Select **Review**.
 
-    <img alt="Add elements to the Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-add-elements-v10.jpg"/>
+    <img alt="Add elements to the Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-add-elements-v10-2.jpg"/>
 
 1. Review your selections, and then select **Add to Network**.
 
@@ -273,7 +282,7 @@ To request to add elements from your Private API network, do the following:
 
 1. Select **Review**.
 
-    <img alt="Add elements to the Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-add-elements-v10.jpg"/>
+    <img alt="Add elements to the Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-add-elements-v10-2.jpg"/>
 
 1. Review your selections, and then select **Request to add**.
 
@@ -348,9 +357,13 @@ To deny a request, do the following:
 
 ## Managing elements
 
-API Network Managers can manage elements by editing collections, moving them in the Private API Network, and removing them from the Private API Network. Folder Managers can manage elements in folders they have permissions to manage.
+API Network Managers can manage folders and elements by editing collections, moving them in the Private API Network, and removing them from the Private API Network. Folder Managers can manage folders and elements in folders they have permissions to manage.
 
 > You can manage elements within the [Private API Network](#navigating-the-private-api-network) or with the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-b7c02959-88ca-4e2f-9b68-99538eed4533?ctx=documentation).
+
+### Sharing elements in the Private API Network
+
+You can share links to folders and individual elements with other team members. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a folder or element, then select **Copy link**. This copies the link to your clipboard. You can then share the link with team members.
 
 ### Editing collections in the Private API Network
 
@@ -358,14 +371,15 @@ Select the more actions icon <img alt="More actions icon" src="https://assets.po
 
 ### Moving elements in the Private API Network
 
-Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you would like to move in the network, then select **Move element**. You can move the element to an existing folder or create a new one. Select **Move** to save your changes.
+Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the folder or element you would like to move in the network, then select **Move...** or **Move element**. You can move folders and elements to an existing folder or create a new one. Select **Move Folder** or **Move element** to save your changes.
+
+### Renaming folders in the Private API Network
+
+Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the folder you would like to rename, then select **Rename**. Enter a new name, then press Enter.
 
 ### Removing elements from the Private API Network
 
-To remove elements from your Private API Network, do the following:
-
-1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you want to remove from network.
-1. Select **Remove**.
+Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the folder or element you want to remove from network, then select **Delete** or **Remove**.
 
 After you remove the element, team members won't have access to it through the Private API Network.
 
