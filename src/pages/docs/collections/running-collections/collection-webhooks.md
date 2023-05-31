@@ -3,7 +3,6 @@ title: "Triggering runs with webhooks"
 order: 92
 page_id: "collection_webhooks"
 updated: 2023-05-31
-search_keyword: "globals.previousRequest, previousRequest"
 contextual_links:
   - type: section
     name: "Additional resources"

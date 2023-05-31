@@ -1181,7 +1181,7 @@
   },
   {
     "from": "/docs/postman/sending-api-requests/authorization/",
-    "to": "/docs/sending-requests/authorization/"
+    "to": "/docs/sending-requests/authorization/authorization/"
   },
   {
     "from": "/docs/postman/sending-api-requests/capturing-http-requests/",
@@ -1253,7 +1253,7 @@
   },
   {
     "from": "/docs/postman/sending_api_requests/authorization/",
-    "to": "/docs/sending-requests/authorization/"
+    "to": "/docs/sending-requests/authorization/authorization/"
   },
   {
     "from": "/docs/postman/sending_api_requests/capturing_http_requests/",
@@ -1913,7 +1913,7 @@
   },
   {
     "from": "/docs/sending-requests/authorization/#inheriting-auth",
-    "to": "/docs/sending-requests/authorization/#inheriting-authorization"
+    "to": "/docs/sending-requests/authorization/specifying-authorization-details/"
   },
   {
     "from": "/docs/monitoring-your-api/integrations-for-alerts/",
@@ -2154,5 +2154,10 @@
   {
     "from": "/docs/collaborating-in-postman/requesting-access-to-collections/",
     "to": "/docs/collaborating-in-postman/requesting-access-to-elements/"
+  },
+  {
+    "from": "/docs/sending-requests/authorization/",
+    "to": "/docs/sending-requests/authorization/authorization/"
   }
+
 ]
