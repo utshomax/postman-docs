@@ -1,7 +1,7 @@
 ---
 title: 'Editing an API definition'
 updated: 2023-05-18
-search_keyword: "schema, spec, API schema, API spec, API specification, API definition"
+search_keyword: "schema, spec, specification"
 contextual_links:
   - type: section
     name: "Additional resources"
