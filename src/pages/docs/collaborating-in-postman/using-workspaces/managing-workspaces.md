@@ -38,6 +38,7 @@ Use workspaces to organize your work in Postman and collaborate with teammates (
     * [Approving requests for access to private workspaces](#approving-requests-for-access-to-private-workspaces)
     * [Adding workspaces to the Private API Network](#adding-workspaces-to-the-private-api-network)
 * [Managing workspace roles](#managing-workspace-roles)
+* [Tagging a workspace](#tagging-a-workspace)
 * [Watching a workspace](#watching-a-workspace)
 * [Moving elements to workspaces](#moving-elements-to-workspaces)
 * [Pinning collections to workspaces](#pinning-collections-to-workspaces)
@@ -49,7 +50,7 @@ Use workspaces to organize your work in Postman and collaborate with teammates (
 
 To open a workspace, select **Workspaces** in the Postman header. Select a workspace to open it, or select **View all workspaces** for a list of all available workspaces. This will only display workspaces that you have access to, based on the [workspace visibility](#changing-workspace-visibility) and your [workspace role](#managing-workspace-roles).
 
-<img alt="New Workspace" src="https://assets.postman.com/postman-docs/v10/view-workspaces-v10.14.jpg" width="400px"/>
+<img alt="New Workspace" src="https://assets.postman.com/postman-docs/v10/view-workspaces-v10-2.jpg" width="400px"/>
 
 The workspace's **Overview** tab displays a description and summary of the workspace, as well as any [pinned collections](#pinning-collections-to-workspaces). On the right, there is a list of workspace contributors and the option to [view workspace activity](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#viewing-workspace-activity).
 
@@ -83,9 +84,9 @@ Workspace Admins can edit workspace details or change the visibility of a worksp
 
 A summary and description help others understand what your workspace is for. You must be a [Workspace Admin](#managing-workspace-roles) to edit workplace details.
 
-On the workspace's **Overview** tab, select the workspace name, summary, or description to edit it. You can add Markdown to the description—select **Save** when you're done.
+On the workspace's **Overview** tab, hover over the element's name to display the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">; select the edit icon and enter a new name. You can also select the summary, description, or tags to edit it. You can add Markdown to the description. Select the area outside of each section to save your changes.
 
-<img alt="Edit Workspace Summary & Description" src="https://assets.postman.com/postman-docs/v10/edit-workspace-summary-description-v10.14.0.gif"/>
+<img alt="Edit Workspace Summary & Description" src="https://assets.postman.com/postman-docs/v10/edit-workspace-summary-description-v10-2.gif"/>
 
 ### Changing workspace visibility
 
@@ -160,6 +161,37 @@ To change the role of people in a workspace, or to remove someone from a workspa
     * **Remove** - Removes the person from the workspace. (You can [invite the user](#sharing-workspaces) again in the future.)
 
 <img alt="Changing workspace role" src="https://assets.postman.com/postman-docs/v10/workspace-change-role-1-v10.jpg" width="720px"/>
+
+## Tagging a workspace
+
+You can add tags to workspaces, enabling you to organize and search for workspaces using shared tags. You can add up to five tags to a workspace.
+
+Once you add tags to the workspace, you can select a tag to open search results associated with the tag in a new tab.
+
+To learn more about searching by tag names in Postman, see [Search Postman](/docs/getting-started/navigating-postman/#search-postman).
+
+To add tags to a workspace, do the following:
+
+1. Select **Workspaces** in the Postman header, and then select a workspace.
+1. On the workspace's **Overview** tab, select the Tags section to edit it.
+
+    <img alt="Add tags to a workspace" src="https://assets.postman.com/postman-docs/v10/add-tags-workspace-v10.jpg"/>
+
+1. Select an existing tag or enter a new tag. If you're adding a new tag, enter the new tag name and then select **Create "TAG-NAME"**.
+
+    <img alt="Add new tags to a workspace" src="https://assets.postman.com/postman-docs/v10/create-new-tags-workspace-v10.jpg"/>
+
+1. Select the area outside of the Tags section to save your changes.
+
+To remove tags from a collection, do the following:
+
+1. Select **Workspaces** in the Postman header, and then select a workspace.
+1. On the workspace's **Overview** tab, select the Tags section to edit it.
+1. Select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to a tag.
+
+    <img alt="Remove tags from a workspace" src="https://assets.postman.com/postman-docs/v10/remove-tags-workspace-v10.jpg"/>
+
+1. Select the area outside of the Tags section to save your changes.
 
 ## Watching a workspace
 

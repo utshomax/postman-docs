@@ -198,7 +198,7 @@ To add tags to a collection, do the following:
 
 1. Select **Collections** in the sidebar.
 1. Select a collection.
-1. Select the tags section to edit it.
+1. Select the Tags section to edit it.
 
     <img alt="Add tags to a collection" src="https://assets.postman.com/postman-docs/v10/add-tags-collection-v10.jpg"/>
 
@@ -206,18 +206,18 @@ To add tags to a collection, do the following:
 
     <img alt="Add new tags to a collection" src="https://assets.postman.com/postman-docs/v10/create-new-tags-collection-v10.jpg"/>
 
-1. Click out of the tags section to save your changes.
+1. Select the area outside of the Tags section to save your changes.
 
 To remove tags from a collection, do the following:
 
 1. Select **Collections** in the sidebar.
 1. Select a collection.
-1. Select the tags section to edit it.
+1. Select the Tags section to edit it.
 1. Select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to a tag.
 
     <img alt="Remove tags from a collection" src="https://assets.postman.com/postman-docs/v10/remove-tags-collection-v10.jpg"/>
 
-1. Click out of the tags section to save your changes.
+1. Select the area outside of the Tags section to save your changes.
 
 ### Watching a collection
 
