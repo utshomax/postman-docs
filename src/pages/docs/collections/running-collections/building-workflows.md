@@ -3,7 +3,6 @@ title: "Building request workflows"
 order: 57
 page_id: "building_workflows"
 updated: 2021-12-16
-search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
   - type: section
     name: "Additional resources"

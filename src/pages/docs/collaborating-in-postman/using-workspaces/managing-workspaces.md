@@ -1,7 +1,7 @@
 ---
 title: "Using and managing workspaces"
 order: 78
-updated: 2021-09-30
+updated: 2023-05-31
 page_id: "managing_workspaces"
 contextual_links:
   - type: section
@@ -22,7 +22,7 @@ contextual_links:
 warning: false
 ---
 
-Use workspaces to organize your work in Postman and collaborate with teammates ([or the world](/docs/collaborating-in-postman/using-workspaces/public-workspaces/)). Workspaces group together various elements such as collections, APIs, environments, mock servers, and monitors. A particular element can exist only in a single workspace. Access to elements in a workspace is controlled by [workspace roles](#managing-workspace-roles).
+Use workspaces to organize your work in Postman and collaborate with teammates ([or the world](/docs/collaborating-in-postman/using-workspaces/public-workspaces/)). Workspaces group together various elements such as collections, APIs, environments, mock servers, and monitors. A particular element can exist in a single workspace at most. Access to elements in a workspace is controlled by [workspace roles](#managing-workspace-roles).
 
 > You can [create new workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) in addition to the default personal and team workspaces.
 
@@ -138,7 +138,7 @@ Team members can [request access to a private workspace](#accessing-private-work
 
 You can assign a [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to define a user's permissions within the workspace, then select **Approve** to grant them access. You can also choose to reject a request for access by selecting **Deny**. Team members who have requested access will be notified of your decision in Postman and by email.
 
-> Requests for access to private workspaces expire if they aren't reviewed within 15 days. If this occurs, Postman will notify the affected users to resubmit their request for access.
+> Requests for access to private workspaces expire if they aren't reviewed within 15 days. If this occurs, Postman will alert the affected users to resubmit their request for access.
 
 ### Adding workspaces to the Private API Network
 
@@ -208,9 +208,9 @@ To remove a pinned collection, hover over the collection and select the remove p
 
 ## Seeing who is in your workspace
 
-The list of avatars in the Postman header shows you who's active in your workspace. If you're in a private or team workspace, this list will include all team members who are currently active in the workspace, as well as all team members who are currently inactive, but have visited the workspace before.
+The list of avatars in the Postman header shows you who's active in your workspace. If you're in a private or team workspace, this list will include all team members who are currently active in the workspace, and all team members who are currently inactive, but have visited the workspace before.
 
-If you're in a public workspace, this list will include all active users with [public profiles](/docs/getting-started/postman-account/#making-your-profile-public) as well as users who've chosen to remain anonymous by not enabling their public profile.
+If you're in a public workspace, this list will include all active users with [public profiles](/docs/getting-started/postman-account/#making-your-profile-public) and users who've chosen to remain anonymous by not enabling their public profile.
 
 <img alt="Active users in public workspace" src="https://assets.postman.com/postman-docs/presence-public-workspace-v9.19.jpg" width="300px"/>
 
