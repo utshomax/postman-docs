@@ -26,12 +26,6 @@ contextual_links:
   - type: link
     name: "Bring your APIs into Postman faster than ever"
     url: "https://blog.postman.com/bring-your-apis-into-postman-faster-than-ever/"
-  - type: subtitle
-    name: "Next steps"
-  - type: link
-    name: "Using the API Builder"
-    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
-
 warning: false
 ---
 
@@ -72,6 +66,8 @@ To import your data into Postman, select **Import** in the upper left. The **Imp
 ![Import data into Postman](https://assets.postman.com/postman-docs/v10/import-export-import-ui-v10-3.jpg)
 
 You can import your data from files, folders, links, raw text, or code repositories.
+
+> You can also import items by dragging and dropping files or folders onto the sidebar.
 
 ### Importing with cURL commands
 

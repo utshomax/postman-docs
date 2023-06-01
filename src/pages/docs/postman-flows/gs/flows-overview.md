@@ -3,11 +3,6 @@ title: "Postman Flows overview"
 updated: 2023-04-03
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Download and Install"
-    url: "https://www.postman.com/downloads/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -38,7 +33,7 @@ contextual_links:
     url: "https://www.postman.com/case-studies/built/"
 ---
 
-_Postman Flows_ is a visual tool to build API-driven applications – a tool to build software for the API-First world. You can use flows to chain requests, handle data, and create real-world workflows in your Postman workspace.
+_Postman Flows_ is a visual tool to build API-driven applications – a tool to build software for the [API-First](https://www.postman.com/api-first/) world. You can use flows to chain requests, handle data, and create real-world workflows in your Postman workspace.
 
 ![Postman Flows](https://assets.postman.com/postman-docs/postman-flows-overview.gif)
 

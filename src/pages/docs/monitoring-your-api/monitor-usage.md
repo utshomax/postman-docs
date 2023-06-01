@@ -2,19 +2,11 @@
 title: "Managing monitor usage"
 order: 88
 page_id: "monitor_usage"
-updated: 2021-10-28
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Setting up a monitor"
-    url: "/docs/monitoring-your-api/setting-up-monitor/"
-
+updated: 2023-05-31
 warning: false
-
 ---
 
-Postman provides tools to help you manage your team's monitor usage. Track the number of monitoring requests that have been made against your plan's monthly maximum, and enable overages or purchase additional blocks if needed. You can also view all of the monitors your team has created to make sure you're not exceeding monitor activity limits.
+Postman provides tools to help you manage your team's monitor usage. Track the number of monitoring requests that have been made against your plan's monthly maximum, and enable overages or purchase more blocks if needed. You can also view all of the monitors your team has created to make sure you're not exceeding monitor activity limits.
 
 > To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).
 
@@ -47,7 +39,7 @@ Monitor usage is calculated based on the number of monitoring API calls:
 * If the collection used by the monitor has multiple requests, each request in the collection counts as one API call.
 * If the monitor is scheduled to run in multiple regions, each request made in a different region counts as an API call.
 
-> If you use `postman.setNextRequest()` to [skip a request or run a request multiple times](/docs/collections/running-collections/building-workflows/), Postman adjusts monitor usage accordingly. Postman also counts any requests required for [authorization](/docs/sending-requests/authorization/).
+> If you use `postman.setNextRequest()` to [skip a request or run a request multiple times](/docs/collections/running-collections/building-workflows/), Postman adjusts monitor usage as necessary. Postman also counts any requests required for [authorization](/docs/sending-requests/authorization/).
 
 ## Allowing monitor overages
 
@@ -59,9 +51,9 @@ With a paid Postman account, you have the option to allow monitoring overages. O
 
 ## Purchasing monitoring blocks
 
-Instead of paying for overages after reaching your monthly usage limit, you have the option to purchase additional blocks of monitoring calls. Purchasing blocks may offer savings compared the pay-as-you-go rate, depending on the number of monitoring calls your team makes.
+Instead of paying for overages after reaching your monthly usage limit, you have the option to purchase more blocks of monitoring calls. Purchasing blocks may offer savings compared the pay-as-you-go rate, depending on the number of monitoring calls your team makes.
 
-To purchase additional monitoring call blocks, do the following:
+To purchase more monitoring call blocks, do the following:
 
 1. Select **Team > Resource Usage**.
 1. Under **Monitoring Usage**, select **View detailed usage** to open the [Monitoring Usage Details dashboard](https://go.postman.co/usage/monitors).
@@ -69,7 +61,7 @@ To purchase additional monitoring call blocks, do the following:
 1. Select **Monitoring** and enter the number of blocks to purchase.
 1. Select **Review Changes** to complete your purchase.
 
-> Unused monitoring calls or blocks expire at the end of the billing period and do not roll over to the next month.
+> Unused monitoring calls or blocks expire at the end of the billing period and don't roll over to the next month.
 
 ## Monitor activity limits
 
@@ -81,4 +73,4 @@ Postman maintains the following monitoring limits per team:
 * Maximum parallel runs of all monitors: 500
 * Maximum parallel runs of a single monitor: 200
 
-> For assistance regarding these limits, contact the [Postman support team](https://support.postman.com/hc/en-us).
+> For help regarding these limits, contact the [Postman support team](https://support.postman.com/hc/en-us).

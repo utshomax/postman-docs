@@ -6,11 +6,6 @@ page_id: "managing-environments"
 search_keyword: "pm.globals.set, globals.set, pm.environment.set, environment.set, pm.variables.get, variables.get, pm.globals.get, globals.get, pm.environment.get, environment.get"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Using variables"
-    url:  "/docs/sending-requests/variables/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -36,15 +31,6 @@ contextual_links:
   - type: link
     name: "Hathway uses separate environments for each client"
     url: "https://www.postman.com/case-studies/hathway/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Collaborating with your team"
-    url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
-  - type: link
-    name: "Version control overview"
-    url:  "/docs/collaborating-in-postman/using-version-control/version-control-overview/"
-
 warning: false
 
 ---

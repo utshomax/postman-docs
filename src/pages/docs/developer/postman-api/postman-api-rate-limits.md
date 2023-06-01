@@ -4,11 +4,6 @@ updated: 2022-11-30
 search_keyword: "postman-api, api-rate-limits, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Postman API authentication"
-    url: "/docs/developer/postman-api/authentication/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -37,11 +32,6 @@ contextual_links:
   - type: link
     name: "Postman API definition"
     url:  "https://www.postman.com/postman/workspace/postman-public-workspace/api/72a32ca3-f06a-4e83-a933-2821a0e6616f/definition/d429098b-1789-4c62-b77b-cf02024aba53?view=documentation"
-  - type: subtitle
-    name: "Next steps"
-  - type: link
-    name: "Continuous Integration"
-    url: "/docs/running-collections/using-newman-cli/continuous-integration/"
 ---
 
 Postman's API access rate limits are applied at a per-key basis in unit time.
