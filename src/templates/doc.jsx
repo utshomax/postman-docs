@@ -111,6 +111,9 @@ pre {
   font-family: 'IBM Plex Mono',SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace !important;
   line-height: 24px;
   margin-bottom: 0px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 .code-ref-table {

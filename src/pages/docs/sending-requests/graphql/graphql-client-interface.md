@@ -4,11 +4,6 @@ page_id: "graphql-client-interface"
 updated: 2023-05-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Installing and updating"
-    url: "/docs/getting-started/installation-and-updates/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -34,12 +29,6 @@ contextual_links:
   - type: link
     name: "Working with GraphQL collection"
     url: "https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-c0dd3eb3-5258-4ddd-a6e4-2780c5212e33?ctx=documentation"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-
 warning: false
 
 ---
@@ -93,7 +82,7 @@ The request interface enables you to add configurations to connect to the server
     * **Query explorer** - Once the schema is loaded, the available data fields, arguments to be passed, and their respective descriptions appear in this section. The schema query also doubles as an interactive visual query editor enabling you to select individual fields and arguments to build your query.
     * **Query editor** - Build and edit your queries, mutations, fragments, and subscriptions here.
     * **Variables** - GraphQL enables you to pass variables as arguments for values defined dynamically in the client. You can use those variables in the query and define their values separately using the **Variables** section.
-* **Authorization** - You can enter authorization credentials under the **Authorization** tab. You can choose from a list of auth types including API Key, Basic auth, and Bearer token. Learn more about [authorizing requests](https://learning.postman.com/docs/sending-requests/authorization/).
+* **Authorization** - You can enter authorization credentials under the **Authorization** tab. You can choose from a list of auth types including API Key, Basic auth, and Bearer token. Learn more about [authorizing requests](/docs/sending-requests/authorization/authorization).
 * **Headers** - The **Headers** tab pass additional headers with the request in the form of key-value pairs. The client uses these headers to provide more information about the call to the server.
 * **Schema** - The **Schema** tab lets you configure a GraphQL schema to make the client aware of the data fields available from the server. A GraphQL schema can be loaded directly using the URL through introspection. You can also use a GraphQL API from the same workspace or import a GraphQL schema from your local system.
 * **Scripts** - The **Scripts** tab accesses Postman's powerful scripting environment that enables you to add JavaScript code (scripts) in your GraphQL requests. You can use scripts to write API tests, debug your requests by logging to [Postman Console](https://learning.postman.com/docs/sending-requests/troubleshooting-api-requests/), or dynamically read or update the values of [variables](https://learning.postman.com/docs/sending-requests/variables/).

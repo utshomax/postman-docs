@@ -14,11 +14,6 @@ contextual_links:
   - type: link
     name: "Tell Your API Story with Your Postman Profile"
     url: "https://blog.postman.com/tell-your-api-story-with-your-postman-profile/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Syncing your work"
-    url: "/docs/getting-started/syncing/"
 ---
 
 After you create a Postman account, you can customize your Postman profile. Your Postman profile gives you a way to share important information about yourself with other Postman users.

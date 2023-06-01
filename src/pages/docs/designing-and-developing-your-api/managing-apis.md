@@ -3,25 +3,12 @@ title: 'Managing and sharing APIs'
 updated: 2023-02-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "API development overview"
-    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Working With Your Team in Postman | The Exploratory"
     url: "https://youtu.be/5lscUV-Exac"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Using API version control"
-    url: "/docs/designing-and-developing-your-api/versioning-an-api/"
-  - type: link
-    name: "Reports overview"
-    url: "/docs/reports/reports-overview/"
 ---
 
 When you [define your APIs](/docs/designing-and-developing-your-api/the-api-workflow/) in Postman using the API Builder, each API is associated with a workspace. You can share access to your APIs, discuss them in comments, and view schema activity.
@@ -44,7 +31,7 @@ For more details, see [Sharing Postman elements](/docs/collaborating-in-postman/
 
 ## Collaborating on APIs
 
-You can move APIs to shared workspaces to collaborate with your team.
+You can move APIs to shared workspaces to [collaborate with your team](https://www.postman.com/api-platform/api-collaboration/).
 
 > You must be an Editor on an API or the Workspace Admin to move the API to another workspace. To learn more about roles and permissions, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/).
 
