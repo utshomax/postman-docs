@@ -51,14 +51,14 @@ Workspaces, collections, and APIs in the Private API Network are visible to logg
 * [Editing Folder Managers](#editing-folder-managers)
 * [Adding elements](#adding-elements)
     * [Adding elements in your Private API Network](#adding-elements-in-your-private-api-network)
-    * [Adding a workspace from the API Builder](#adding-a-workspace-from-the-api-builder)
-    * [Adding a collection from the API Builder](#adding-a-collection-from-the-api-builder)
-    * [Adding an API from the API Builder](#adding-an-api-from-the-api-builder)
+    * [Adding a workspace from the workbench](#adding-a-workspace-from-the-workbench)
+    * [Adding a collection from the workbench](#adding-a-collection-from-the-workbench)
+    * [Adding an API from the workbench](#adding-an-api-from-the-workbench)
 * [Requesting to add elements](#requesting-to-add-elements)
     * [Requesting to add elements in your Private API Network](#requesting-to-add-elements-in-your-private-api-network)
-    * [Requesting to add a workspace from the API Builder](#requesting-to-add-a-workspace-from-the-api-builder)
-    * [Requesting to add a collection from the API Builder](#requesting-to-add-a-collection-from-the-api-builder)
-    * [Requesting to add an API from the API Builder](#requesting-to-add-an-api-from-the-api-builder)
+    * [Requesting to add a workspace from the workbench](#requesting-to-add-a-workspace-from-the-workbench)
+    * [Requesting to add a collection from the workbench](#requesting-to-add-a-collection-from-the-workbench)
+    * [Requesting to add an API from the workbench](#requesting-to-add-an-api-from-the-workbench)
 * [Reviewing requests to add elements](#reviewing-requests-to-add-elements)
 * [Managing folders and elements](#managing-folders-and-elements)
     * [Sharing folders and elements](#sharing-folders-and-elements)
@@ -156,7 +156,7 @@ The collections and APIs you add to the Private API Network include the latest c
 
 <!-- -->
 
-> You can add elements to the Private API Network from the API Builder and with the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-b7c02959-88ca-4e2f-9b68-99538eed4533?ctx=documentation).
+> You can add elements to the Private API Network from the workbench and with the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-b7c02959-88ca-4e2f-9b68-99538eed4533?ctx=documentation).
 
 ### Adding elements in your Private API Network
 
@@ -185,11 +185,11 @@ To add elements from your Private API Network, do the following:
 
 1. Review your selections, and then select **Add to Network**.
 
-### Adding a workspace from the API Builder
+### Adding a workspace from the workbench
 
-You can add workspaces from the API Builder. Workspace Editors must [request to add a workspace](#requesting-to-add-a-workspace-from-the-api-builder).
+You can add workspaces from the workbench. Workspace Editors must [request to add a workspace](#requesting-to-add-a-workspace-from-the-api-builder).
 
-To add a workspace to the Private API Network from the API Builder, do the following:
+To add a workspace to the Private API Network from the workbench, do the following:
 
 1. Open the workspace you want to add to the Private API Network.
 1. In the workspace overview, select <img alt="Workspace settings icon" src="https://assets.postman.com/postman-docs/v10/icon-sliders-v10.jpg#icon" width="24px"> **Workspace Settings**.
@@ -202,11 +202,11 @@ To add a workspace to the Private API Network from the API Builder, do the follo
 1. (Optional) Select a folder or create one to keep elements organized.
 1. Select **Add workspace**.
 
-### Adding a collection from the API Builder
+### Adding a collection from the workbench
 
-You can add collections from the API Builder. Collection Editors must [request to add a collection](#requesting-to-add-a-collection-from-the-api-builder).
+You can add collections from the workbench. Collection Editors must [request to add a collection](#requesting-to-add-a-collection-from-the-api-builder).
 
-To add a collection to the Private API Network from the API Builder, do the following:
+To add a collection to the Private API Network from the workbench, do the following:
 
 1. Open the collection you want to add to the Private API Network.
 1. In the collection overview, select **Add to API Network**.
@@ -223,13 +223,13 @@ To add a collection to the Private API Network from the API Builder, do the foll
 1. (Optional) Select a folder or create one to keep elements organized.
 1. Select **Add collection**.
 
-### Adding an API from the API Builder
+### Adding an API from the workbench
 
-You can add APIs from the API Builder. API Editors must [request to add an API](#requesting-to-add-an-api-from-the-api-builder).
+You can add APIs from the workbench. API Editors must [request to add an API](#requesting-to-add-an-api-from-the-api-builder).
 
 > An API's editor must [publish a version of the API](#publishing-specific-api-versions) before you can add it to your Private API Network.
 
-To add an API to the Private API Network from the API Builder, do the following:
+To add an API to the Private API Network from the workbench, do the following:
 
 1. Open the API you want to add to the Private API Network.
 1. In the API overview, select **Add to API Network**.
@@ -288,9 +288,9 @@ To request to add elements from your Private API network, do the following:
 
 1. Review your selections, and then select **Request to add**.
 
-### Requesting to add a workspace from the API Builder
+### Requesting to add a workspace from the workbench
 
-[Workspace Editors](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) can request to add workspaces to your Private API Network from the API Builder.
+[Workspace Editors](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) can request to add workspaces to your Private API Network from the workbench.
 
 1. Open the workspace you want to add to the Private API Network.
 1. In the workspace overview, select <img alt="Workspace settings icon" src="https://assets.postman.com/postman-docs/v10/icon-sliders-v10.jpg#icon" width="24px"> **Workspace Settings**.
@@ -302,9 +302,9 @@ To request to add elements from your Private API network, do the following:
 1. (Optional) Select **Add comment** to add a note for the API Network Manager or Folder Manager.
 1. Select **Request workspace**.
 
-### Requesting to add a collection from the API Builder
+### Requesting to add a collection from the workbench
 
-[Collection Editors](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) can request to add collections to your Private API Network from the API Builder.
+[Collection Editors](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) can request to add collections to your Private API Network from the workbench.
 
 1. Open the collection you want to add to the Private API Network.
 1. In the collection overview, select **Request to Add to API Network**.
@@ -320,9 +320,9 @@ To request to add elements from your Private API network, do the following:
 1. (Optional) Select **Add comment** to add a note for the API Network Manager or Folder Manager.
 1. Select **Request collection**.
 
-### Requesting to add an API from the API Builder
+### Requesting to add an API from the workbench
 
-[API Editors](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) can request to add APIs to your Private API Network from the API Builder.
+[API Editors](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) can request to add APIs to your Private API Network from the workbench.
 
 > An API's editor must [publish a version of the API](#publishing-specific-api-versions) before you can add it to your Private API Network.
 
@@ -383,9 +383,9 @@ You can rename folders in the Private API Network. Select the more actions icon 
 
 You can remove folders and elements from the Private API Network. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the folder or element you want to remove from the network, then select **Delete** or **Remove**.
 
-If you have the Editor role for an element, you can also remove elements in your Private API Network from the API Builder. For collections and APIs, open the overview then select **Remove**. For workspaces, open the overview, select <img alt="Workspace settings icon" src="https://assets.postman.com/postman-docs/v10/icon-sliders-v10.jpg#icon" width="24px"> **Workspace Settings**, then select **Remove**. To confirm, select **Remove**.
+If you have the Editor role for an element, you can also remove elements in your Private API Network from the workbench. For collections and APIs, open the overview then select **Remove**. For workspaces, open the overview, select <img alt="Workspace settings icon" src="https://assets.postman.com/postman-docs/v10/icon-sliders-v10.jpg#icon" width="24px"> **Workspace Settings**, then select **Remove**. To confirm, select **Remove**.
 
-<img alt="Remove collection in Private API Network from API Builder" src="https://assets.postman.com/postman-docs/v10/remove-collection-private-api-network-v10.jpg"/>
+<img alt="Remove collection in Private API Network from workbench" src="https://assets.postman.com/postman-docs/v10/remove-collection-private-api-network-v10.jpg"/>
 
 After you remove the element, team members won't have access to it through the Private API Network.
 
