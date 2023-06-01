@@ -46,6 +46,7 @@ Workspaces, collections, and APIs in the Private API Network are visible to logg
 ## Contents
 
 * [Navigating the Private API Network](#navigating-the-private-api-network)
+    * [Searching, filtering, and sorting](#searching-filtering-and-sorting)
 * [Organizing with folders](#organizing-with-folders)
     * [Adding sub-folders](#adding-sub-folders)
 * [Editing Folder Managers](#editing-folder-managers)
@@ -70,16 +71,32 @@ Workspaces, collections, and APIs in the Private API Network are visible to logg
 
 ## Navigating the Private API Network
 
-The Private API Network is a good place to learn about workspaces, collections, and APIs shared within your team. Under your team name, you can browse a directory of elements shared within your team.
+The Private API Network is a good place to learn about workspaces, collections, and APIs shared within your team. Under your team name, you can browse a directory of elements shared within your team in the left sidebar.
 
 There are two ways to access the Private API Network:
 
 * Select **Home** from the Postman header, then select **Private API Network** in your team information on the left side.
 * Select **API Network** from the Postman header, then select **Private API Network**.
 
-There are several ways to search, filter, and sort elements in the Private API Network. Select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/icon-home-v10.jpg#icon" width="16px"> **Home** in the left sidebar to search, filter, and sort all elements in your Private API Network. Select a folder in the left sidebar to search, filter, and sort elements only in the selected folder.
+### Searching, filtering, and sorting
 
-* To search by name, enter the full or partial element name into  **Search elements**.
+There are several ways to search, filter, and sort elements and folders in the Private API Network. You can search and sort all elements and folders from the left sidebar. You can also select a folder to search, filter, and sort elements in the folder's overview.
+
+#### Sidebar
+
+You can search and sort elements and folders from the left sidebar.
+
+* To search by name, enter the full or partial element or folder name into **Search elements and folders**.
+* To sort elements and folders, select the sort icon <img alt="Sort icon" src="https://assets.postman.com/postman-docs/icon-sort.jpg#icon" width="16px">. Options are:
+    * **Default** - Sort by type, grouping folders and elements by type.
+    * **Date added** - Sort by the date that elements and folders were added.
+    * **A to Z** - Sort elements and folders alphabetically.
+
+#### Folder overview
+
+You can select a folder to search, filter, and sort elements in the folder's overview. Select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/icon-home-v10.jpg#icon" width="16px"> **Home** in the left sidebar to search, filter, and sort all elements in your Private API Network. Select a folder in the left sidebar to search, filter, and sort elements only in the selected folder.
+
+* To search by name, enter the full or partial element name into **Search elements**.
 * To filter based on the person who added the element, select **Added by**, then select the name of the team member.
 * To filter by element type, select **Type**, then select **API**, **Collection**, or **Workspace**.
 * To filter based on element tags, select **Tags**, then select the tags.
@@ -88,7 +105,6 @@ There are several ways to search, filter, and sort elements in the Private API N
     * **A to Z** - Sort elements alphabetically.
     * **Trending this week** - Sort elements by your team's usage this week.
     * **Trending this month** - Sort elements by your team's usage this month.
-* To sort folders, sub-folders, and elements alphabetically or by date added, select the sort icon <img alt="Sort icon" src="https://assets.postman.com/postman-docs/icon-sort.jpg#icon" width="16px"> from the sidebar.
 
 <img alt="Private API List" src="https://assets.postman.com/postman-docs/v10/private-api-network-list-v10-2.jpg"/>
 
