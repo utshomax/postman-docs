@@ -5,14 +5,6 @@ page_id: "requesting-access-to-elements"
 updated: 2023-05-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sharing your work"
-    url: "/docs/collaborating-in-postman/sharing/"
-  - type: link
-    name: "Defining roles"
-    url: "/docs/collaborating-in-postman/roles-and-permissions/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
