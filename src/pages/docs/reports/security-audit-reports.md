@@ -4,11 +4,6 @@ updated: 2023-01-11
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Token Scanner"
-    url: "/docs/administration/token-scanner/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Blog posts"

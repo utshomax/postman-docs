@@ -4,11 +4,6 @@ page_id: "graphql-client-first-request"
 updated: 2023-05-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Installing and updating"
-    url: "/docs/getting-started/installation-and-updates/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -34,14 +29,7 @@ contextual_links:
   - type: link
     name: "Working with GraphQL collection"
     url: "https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-c0dd3eb3-5258-4ddd-a6e4-2780c5212e33?ctx=documentation"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-
 warning: false
-
 ---
 
 Get started with GraphQL by creating a query and executing it using Postman’s echo endpoint.

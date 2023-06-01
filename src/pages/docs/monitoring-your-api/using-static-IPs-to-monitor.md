@@ -7,22 +7,12 @@ updated: 2022-2-14
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Intro to monitoring"
-    url: "/docs/monitoring-your-api/intro-monitors/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "API Monitoring | The Exploratory"
     url: "https://youtu.be/tDQzY1Hn2LY"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Integrations for monitoring"
-    url: "/docs/integrations/intro-integrations/"
 ---
 
 > **[Static IP address monitoring is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**

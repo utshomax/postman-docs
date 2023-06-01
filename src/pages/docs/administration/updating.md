@@ -3,14 +3,8 @@ title: "Updating your team to the current version of Postman"
 order: 140.1
 updated: 2022-09-15
 page_id: "updating"
-search_keyword: "upgrade, upgrading, update, updating, version"
 warning: false
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Installing and updating"
-    url: "/docs/getting-started/installation-and-updates/"
   - type: section
     name: "Additional resources"
   - type: subtitle
