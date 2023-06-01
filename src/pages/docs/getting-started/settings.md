@@ -100,6 +100,10 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 ### Application
 
+* **Autosave** - Turn this on to automatically save your changes to collections, requests, and environments. Turn this off to manually save your changes.
+
+    > If this is turned on and you create a request by selecting **+** or by selecting **New**, you must manually save the request to a collection before your changes are autosaved.
+
 * **Send anonymous usage data to Postman** - Postman gathers basic, anonymous usage data to help with product improvement. Turn this off to stop sending anonymous usage data to Postman.
 * **Connection Mode** - Configure how to connect to Postman servers using either **Auto** (default) or **HTTP**.
 
