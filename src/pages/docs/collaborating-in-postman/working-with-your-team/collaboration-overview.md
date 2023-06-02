@@ -91,7 +91,7 @@ If you have an individual account and join a team, you can choose to transfer yo
 * If the team has [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) enabled.
 * If the team has [domain capture](/docs/administration/managing-your-team/configuring-domain-capture/) enabled.
 
-> When you join an Enterprise team, [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) have access to all personal workspaces you transfer over and any you create within the team moving forward. 
+> When you join an Enterprise team, [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) have access to all personal workspaces you transfer over and any you create within the team moving forward.
 
 When you leave a team, your personal workspaces within the team and their data will remain with the team and no longer be accessible to you in some situations; see [Leaving a team](#leaving-a-team) for details. (Personal workspaces in a team refers to workspace visibility and not data ownership.)
 
