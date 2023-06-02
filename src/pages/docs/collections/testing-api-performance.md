@@ -26,8 +26,10 @@ The performance test runs on your computer and not in the cloud. When you start 
 * [Configuring a performance test](#configuring-a-performance-test)
 * [Viewing performance metrics](#viewing-performance-metrics)
     * [Customizing the performance view](#customizing-the-performance-view)
-* [Viewing past performance runs](#viewing-past-performance-runs)
 * [Viewing error details for performance tests](#viewing-error-details-for-performance-tests)
+    * [Viewing top errors](#viewing-top-errors)
+    * [Viewing error trends](#viewing-error-trends)
+* [Viewing past performance runs](#viewing-past-performance-runs)
 
 ## Configuring a performance test
 
@@ -100,7 +102,7 @@ Select a metric in the legend below the graph to show or hide that metric in the
 
 <img alt="Getting performance details" src="https://assets.postman.com/postman-docs/v10/performance-test-show-legend-v10-13a.jpg" width="600px"/>
 
-Use the drop-down menus above the graph to view data for a specific request. You can also select the response time metrics you want to view. The following metrics are available:
+Use the dropdown lists above the graph to view data for a specific request. You can also select the response time metrics you want to view. The following metrics are available:
 
 * **Avg. response** - The response time in milliseconds of all requests averaged together.
 * **Min response** - The lowest observed response time.
@@ -119,23 +121,30 @@ To view details for a section of the graph, select a point on the graph. The tab
 
 ## Viewing error details for performance tests
 
-During a performance test, requests that result in a response other than a 2xx status code are tracked as errors. You can view details about any errors that occur during the test to help understand the cause of the errors.
+During a performance test, requests that result in a response other than a 2xx status code are tracked as errors. You can view details about the top errors that occurred during the test and error trends over time. Use this information to gain insight into when errors are occurring and the possible causes.
 
 ### Viewing top errors
 
 You can view top errors while the performance test is running or after the test is complete.
 
-On the **Summary** tab, hover over the **Error rate** above the graph to view the top three error types encountered during the test. You can also hover over the error rate for a specific request below the graph to view the the top three errors for that request. This can help you understand which requests are associated with certain types of errors.
+On the **Summary** tab, hover over the **Error rate** above the graph to view the top three error classes encountered during the test. You can also hover over the error rate for a specific request below the graph to view the the top three errors for that request. This information can help you understand which requests are associated with certain classes of errors.
 
 ### Viewing error trends
 
-You can view error trends after the performance test is complete.  The error trend shows the top five errors that occurred during the test and how the frequency of those errors changed over time.
+You can view error trends after the performance test is complete.  The error trend shows the top five errors that occurred during the test and the frequency of those errors over time. This information can help you understand how error rates change in response to increased load on your API.
 
-Select the **Errors** tab above the graph. You can also hover over the **Error rate** and select **View Error Trends**.
+To view error trends, select the **Errors** tab above the graph. You can also hover over the **Error rate** on the **Summary** tab and select **View Error Trends**.
 
-You can view the following information about the error trend:
+The error trends graph shows the following information:
 
-From the **Errors** tab, you can take the following actions:
+* **Error rate** - The percentage of requests that result in an error. Responses other than 2xx responses are considered errors.
+* **Errored requests / Total requests sent** - The number of requests resulting in errors compared to the total number of requests sent across all virtual users.
+* **Top error class** - The class of error that occurred most often during the test.
+* **Top request with errors** - The request that had the highest number of error responses.
+
+Hover over a point on the graph to view more details.
+
+To view the error trends for a specific request, select the request in the dropdown list above the graph.
 
 ## Viewing past performance runs
 
