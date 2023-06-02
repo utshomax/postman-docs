@@ -731,7 +731,7 @@ export const leftNavItems = [
             url: '/docs/collaborating-in-postman/using-workspaces/public-workspaces/'
           },
           {
-            name: 'Viewing workspace activity',
+            name: 'Viewing workspace and collection activity',
             url: '/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/',
           },
         ],
