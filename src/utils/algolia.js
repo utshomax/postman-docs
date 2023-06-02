@@ -11,7 +11,7 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-const algoliaIndex = (process.env.NODE_ENV === 'development') ? 'docs-testing' : 'docs-testing';
+const algoliaIndex = (process.env.NODE_ENV === 'development') ? 'dev_docs' : 'docs';
 
 const pageQuery = `{
   allMarkdownRemark(
@@ -36,93 +36,44 @@ const pageQuery = `{
         internal {
           contentDigest
         }
+        excerpt
       }
     }
   }
 }`;
 
-// manipulate the raw body into many more records
-const handleRawBody = (node) => { 
-  const {id, rawMarkdownBody, ...rest} = node; // split internal.content from node
-  const sections = rawMarkdownBody.split('\n\n##'); // split records into paragraph
-  
-  // returns an object with specific content on that key, results stay associated with correct post
-  const records = sections.map(section => ({ 
-    objectID: id,
-    ...rest,
-    content: section,
-  }))
-
-  return records; // returns array of correctly split objects
-}
-
-// function pageToAlgoliaRecord({ node: { id, frontmatter, ...rest } }) {
-//   return {
-//     objectID: id,
-//     ...frontmatter,
-//     ...rest,
-//   };
-// }
-const pageToAlgoliaRecord = node => {
-  const { id, frontmatter, ...rest } = node;
-  return {
-    objectID: id,
-    ...frontmatter,
-    ...rest,
-  };
-}
-
-// const queries = [
-//   {
-//     query: pageQuery,
-//     transformer: ({ data }) => 
-//       data.allMarkdownRemark.edges
-//         .map(edge => edge.node)
-//         .map(pageToAlgoliaRecord)
-//         .map(handleRawBody)
-//         .flatMap((x) => [x], []),
-//         // .reduce((acc, cur) => [...acc, ...cur], []),
-//     indexName: algoliaIndex,
-//     settings: {
-//       attributesToSnippet: ['excerpt:20'],
-//       attributeForDistinct: 'slug',
-//       distinct: true,
-//     },
-//   },
-// ];
 
 const queries = [
   {
     query: pageQuery,
     transformer: ({ data }) => {
-      // data.allMarkdownRemark.edges
-      //   .map(edge => edge.node)
-      //   .map(pageToAlgoliaRecord)
-      //   .map(handleRawBody)
-        // .reduce((acc, cur) => [...acc, ...cur], []),
        return data.allMarkdownRemark.edges.map(edge => edge.node).reduce((acc, post) => {
-          // console.log('post ', post)
           const pChunks = post.rawMarkdownBody.split('##');
           
-          const chunks = pChunks.map(chnk => ({
-            objectID: post.id,
+          const chunks = pChunks.map((chnk, index) => ({
+            objectID: post.id + '-' + index,
             headings: post.headings,
-            fields: post.fields.slug,
+            slug: post.fields.slug,
             title: post.frontmatter.title,
             internal: post.internal,
+            excerpt: post.excerpt,
+            search_keyword: post.frontmatter.search_keyword,
             content: chnk
           }));
-
-          // const filtered = chunks.filter(chnk => !!chnk.content);
           return [...acc, ...chunks]
         }, [])
     },
     indexName: algoliaIndex,
-    // settings: {
-      // attributesToSnippet: ['excerpt:20'],
-      // attributeForDistinct: 'slug',
-      // distinct: true,
-    // },
+    // mergeSettings: false, // overrites index settings and replaces them with settings from the config on each build
+    settings: { // by supplying settings, you will overwrite all existing settings on the index
+      attributesToSnippet: ['excerpt:20'],
+      attributeForDistinct: 'slug',
+      distinct: 1,
+      customRanking: [
+        'desc(search_keyword)',
+        'desc(content)'
+      ]
+    }
   },
 ];
 

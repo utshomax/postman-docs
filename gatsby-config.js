@@ -145,9 +145,9 @@ module.exports = {
         queries,
         dryRun: false,
         chunkSize: 10000, // default: 1000
-        enablePartialUpdates: true, // only index new, changed, deleted records
-        matchFields: ['excerpt', 'contextual_links', 'search_keyword', 'headings', 'fields', 'modified', 'content', 'objectID', 'content'],
-        concurrentQueries: false,
+        enablePartialUpdates: false, // only index new, changed, deleted records
+        matchFields: ['title', 'headings', 'internal', 'excerpt', 'contextual_links', 'search_keyword',  'slug', 'content', 'objectID'],
+        // concurrentQueries: false, //queries run sequentially to aboid hanging builds
       },
     },
   ],
