@@ -29,7 +29,7 @@ The Postman to Slack integration enables you to send Postman notifications to a 
 1. From the **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 1. Select **Browse All Integrations**.
 1. Search for and select **[Slack](https://go.postman.co/integrations/service/slack)**.
-1. There are four available Slack integrations. Select **Add Integration** next to the integration you want to add:
+1. Select **Add Integration** next to the integration you want to add:
 
     * **[Post monitoring results](#send-your-monitor-run-results-to-slack)** - Send the results from a monitor run to a specified Slack channel.
 
@@ -37,9 +37,7 @@ The Postman to Slack integration enables you to send Postman notifications to a 
 
     * **[Post team activity](#add-an-activity-feed-to-slack)** - Send your team's [activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#accessing-the-activity-feed-from-postman) to a specified Slack channel.
 
-    * **[Post uptime monitoring notifications](#send-uptime-monitor-notifications-to-slack)** - Send notifications for an uptime monitor, including downtime alerts, to a specified Slack channel.
-
-        ![select Slack integration](https://assets.postman.com/postman-docs/slack-select-integration-v9-19.jpg)
+        ![select Slack integration](https://assets.postman.com/postman-docs/v10/slack-select-integration-v10-14.jpg)
 
 1. After you select the integration type, a browser tab opens asking you to sign in to Slack. If you aren't signed in to a Slack workplace, enter your workspace URL and sign in with your email and password or SSO.
 
@@ -95,20 +93,3 @@ In the Slack column, you can opt in to or out of notifications such as security,
 For the **Post team activity** integration, after allowing Slack permissions, your integration will be configured. Your team's [activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#accessing-the-activity-feed-from-postman) will send updates to the specified channel.
 
 [![configured_slack](https://assets.postman.com/postman-docs/slack-activity-feed.jpg)](https://assets.postman.com/postman-docs/slack-activity-feed.jpg)
-
-## Send uptime monitor notifications to Slack
-
-> **The uptime monitors open beta period is over.** You can no longer create new uptime monitors. Your existing uptime monitors will keep working, and you can continue to use them to monitor API uptime. For updates, visit the [GitHub discussion board](https://github.com/postmanlabs/uptime-monitors/discussions).
-
-1. Enter the following on the **Add integration** window:
-
-    * Enter a **Nickname** to help you identify the integration.
-    * Select the workspace with the uptime monitor.
-    * Select the uptime monitor you want to get notifications for in Slack.
-    * Select the Slack channel where you want to get the notifications.
-
-1. Select **Add Integration**.
-
-    <img alt="Configuring uptime Slack notifications" src="https://assets.postman.com/postman-docs/slack-integration-uptime-monitors-v9-19.jpg" width="530px">
-
-After setting up the integration, you'll get downtime alerts in the Slack channel you select. You'll also get notified when the downtime ends.
