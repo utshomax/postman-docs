@@ -32,7 +32,7 @@ The _Postman Visualizer_ provides a programmable way to visually represent your 
 
 [![Visualizer rendering](https://assets.postman.com/postman-docs/visualizer-v8.jpg)](https://assets.postman.com/postman-docs/visualizer-v8.jpg)
 
-The Visualizer lets you present your response data in ways that help to make sense of it. You can use this to model and highlight the information that's relevant to your project, instead of having to read through raw response data. When you [share a Postman Collection](/docs/collaborating-in-postman/sharing/), other people on your team can also understand your visualizations within the context of each request.
+The Visualizer enables you to present your response data in ways that help to make sense of it. You can use this to model and highlight the information that's relevant to your project, instead of having to read through raw response data. When you [share a Postman Collection](/docs/collaborating-in-postman/sharing/), other people on your team can also understand your visualizations within the context of each request.
 
 ## Contents
 
