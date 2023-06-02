@@ -27,6 +27,8 @@ The _Collection Runner_ enables you to run a collection's requests in a specifie
 
 You can configure the Collection Runner to meet your development needs. You can run collections using a specific environment, and can pass data files into a run. Collection runs enable you to automate your functional API testing, and you can schedule runs to run in the Postman cloud with the [Collection Runner](/docs/collections/running-collections/scheduling-collection-runs/) or with [monitors](/docs/collections/running-collections/scheduling-collection-runs-monitors/). You can also integrate collection runs with your CI/CD pipeline using [the Postman CLI](/docs/postman-cli/postman-cli-overview/), a Postman tool that enables you to run and test collections directly from the command line.
 
+> You can use the Collection Runner to test the performance of your API with the same requests, collections, and environments you use for functional API tests. Learn more about [testing API performance](/docs/collections/testing-api-performance/).
+
 ## Contents
 
 * [Configuring a collection run](#configuring-a-collection-run)
