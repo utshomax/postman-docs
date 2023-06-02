@@ -55,9 +55,9 @@ The rule library has Postman's API governance guidelines, Zalando's RESTful API 
 
     > You can select **View all** below a set of guidelines to view all of its rules. To import all rules for a particular set of guidelines, select **Import All**.
 
-1. Once you import new rules from the library, you need to [turn them on](#turning-configured-rules-on-and-off) in the API Governance dashboard.
+    <img alt="Import API Governance rule from Postman library" src="https://assets.postman.com/postman-docs/import-postman-rule-from-rule-library-10.12.0.jpg"/>
 
-<img alt="Import API Governance rule from Postman library" src="https://assets.postman.com/postman-docs/import-postman-rule-from-rule-library-10.12.0.jpg"/>
+1. Once you import new rules from the library, you need to [turn them on](#turning-configured-rules-on-and-off) in the API Governance dashboard.
 
 ### Adding custom rules
 
