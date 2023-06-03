@@ -26,9 +26,11 @@ With Postman groups, you can organize users into groups that reflect your organi
 
 * [Creating a group](#creating-a-group)
 
-* [Editing a group](#editing-a-group)
+* [Managing a group](#managing-a-group)
 
     * [Managing members of a group](#managing-members-of-a-group)
+
+    * [Managing group managers](#managing-group-managers)
 
     * [Managing access control for a group](#managing-access-control-for-a-group)
 
@@ -56,9 +58,9 @@ Team members will receive an email and in-app notification when added to a group
 
 > If you add a user with a support-only role (Admin or Billing) to a group that gives them a Developer role, they will automatically take up an available paid spot on your Postman team. If no spots are available, you won't be able to grant access to the group with that user.
 
-## Editing a group
+## Managing a group
 
-You can edit a group at any time by managing a group's members and access to Postman entities.
+You can manage a group's members, roles, and access to Postman entities.
 
 ### Managing members of a group
 
