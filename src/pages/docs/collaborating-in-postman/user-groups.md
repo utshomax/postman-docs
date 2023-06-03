@@ -1,6 +1,6 @@
 ---
 title: "User groups"
-updated: 2023-06-02
+updated: 2023-06-05
 contextual_links:
   - type: section
     name: "Additional resources"
