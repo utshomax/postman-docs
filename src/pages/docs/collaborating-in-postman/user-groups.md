@@ -1,9 +1,6 @@
 ---
-title: "Managing user groups"
-order: 141
-page_id: "managing_user_groups"
-warning: false
-updated: 2021-12-06
+title: "User groups"
+updated: 2023-06-02
 contextual_links:
   - type: section
     name: "Additional resources"

@@ -62,7 +62,7 @@ You can share collections, APIs, and environments directly with collaborators, i
 
 1. From the element you want to share, select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share**.
 1. Select **With people**.
-1. Enter the name, email address, or [group name](/docs/administration/managing-your-team/user-groups/) for the people you want to share the element with.
+1. Enter the name, email address, or [group name](/docs/collaborating-in-postman/user-groups/) for the people you want to share the element with.
 1. If you have an Editor role for the element you are sharing, you can give your new collaborators a **Viewer** or **Editor** [role](/docs/collaborating-in-postman/roles-and-permissions/) on the element. If you have a Viewer role for the element, you can share it, but you won't be able to assign roles.
 1. Select **Share Collection**.
 
