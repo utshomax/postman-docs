@@ -44,7 +44,7 @@ With Postman groups, you can organize users into groups that reflect your organi
 
 ## Creating a group
 
-To create a group, select **Team** in the Postman header, then select **Manage Team**. Select **Groups > Create Group**.
+To create a group, select **Team** in the Postman header, then select **Manage Team**. Select **Groups** on the left, then **Create Group**.
 
 <!-- UPDATE ONCE 2 BRs MERGED IN PREVIEW <img alt="Create group" src="https://assets.postman.com/postman-docs/team-groups-list-v9.1.jpg"/> -->
 
