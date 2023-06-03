@@ -20,7 +20,7 @@ contextual_links:
 
 With Postman groups, you can organize users into groups that reflect your organizational structure. Groups enable you to manage access to your team and onboard new team members.
 
-You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to create, manage, and delete groups.
+[Admins and Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create, manage, and delete groups. Developers can also create, manage, and delete Developer-only groups.
 
 ## Contents
 
@@ -42,15 +42,15 @@ You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-perm
 
 ## Creating a group
 
-As a Team Admin, you can create a group by selecting **Team** in the Postman header, then select **Manage Team**.
+To create a group, select **Team** in the Postman header, then select **Manage Team**. Select **Groups > Create Group**.
 
-Under **Members and groups**, select **Groups > Create Group**.
+<!-- UPDATE ONCE 2 BRs MERGED IN PREVIEW <img alt="Create group" src="https://assets.postman.com/postman-docs/team-groups-list-v9.1.jpg"/> -->
 
-<img alt="Create group" src="https://assets.postman.com/postman-docs/team-groups-list-v9.1.jpg"/>
+Give your group a name, description, and add your group members. If you're an Admin or Super Admin, you'll also have the option to select the team roles you'd like to assign to the group. If you're a Developer, you'll only have the option to create Developer-only groups.
 
-Give your group a name and description, add your users, and select the team roles you would like to assign to the group, then **Create Group**.
+<img alt="Create a group" src="https://assets.postman.com/postman-docs/v10/create-a-group-v10.15.jpg" width="450px"/>
 
-<img alt="Create a group form" src="https://assets.postman.com/postman-docs/create-a-group-9.5.jpg" width="500px"/>
+When you're ready, select **Create Group**.
 
 Team members will receive an email and in-app notification when added to a group.
 
@@ -58,17 +58,31 @@ Team members will receive an email and in-app notification when added to a group
 
 ## Editing a group
 
-You can edit a group at any time by managing a group's users and access to Postman entities.
+You can edit a group at any time by managing a group's members and access to Postman entities.
 
 ### Managing members of a group
 
-In Postman, select **Team** in the Postman header, then select **Manage Team**. Under **Members and groups**, select **Groups**. Locate the group you would like to update and select it to edit.
+[Admins and Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add and remove members for all groups, but Developers can only add and remove members if they are a [group manager](#managing-group-managers).
+
+To manage the members of a group, select **Team** in the Postman header, then select **Manage Team**. Select **Groups** on the left. Locate the group you'd like to update and select it to edit.
+
+<img alt="Manage group members" src="https://assets.postman.com/postman-docs/v10/edit-group-members-v10.15.jpg" width="450px"/>
 
 Select **+ Add** to add a user to the group. Select **X** next to a user to remove them from the group.
 
-<img alt="Manage group members" src="https://assets.postman.com/postman-docs/edit-group-members-9.5.jpg" width="500px"/>
-
 > Users will receive an email and in-app notification when added to or removed from a group.
+
+### Managing group managers
+
+Groups that are only assigned the Developer role can have group managers. Group managers can edit the name, description, members, and managers for a group.
+
+When a Developer creates a group they are automatically assigned the role of group manager. Developers with the group manager role, Admins, and Super Admins can add and remove group managers.
+
+To edit the managers of a group, select **Team** in the Postman header, then select **Manage Team**. Select **Groups** on the left. Locate the group you'd like to update and select it to edit.
+
+<img alt="Manage developer group managers" src="https://assets.postman.com/postman-docs/v10/edit-group-managers-v10.15.jpg" width="450px"/>
+
+Select **+ Add** to add a manager to the group. Select **X** next to a manager to remove them from the group.
 
 ### Managing access control for a group
 
@@ -78,21 +92,23 @@ You can control a group's access at the team level, workspace level, and on indi
 
 #### Editing team roles for a group
 
-In Postman, select **Team** in the Postman header, then select **Manage Team**. Under **Members and groups**, select **Groups**. Locate the group you would like to update and select it to edit.
+[Admins and Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can manage team roles for groups.
 
-<img alt="Edit group team roles" src="https://assets.postman.com/postman-docs/edit-group-roles-9.5.1.jpg" width="500px"/>
+To edit team roles for a group, select **Team** in the Postman header, then select **Manage Team**. Select **Groups** on the left. Locate the group you'd like to update and select it to edit.
 
-Select the team roles you would like to assign to the group, or deselect team roles you would like to remove from the group, then **Save Changes**.
+<img alt="Edit group team roles" src="https://assets.postman.com/postman-docs/v10/manage-roles-for-a-group-v10.15.jpg" width="400px"/>
 
-> For information on roles available to your team and their permissions, see [Team Roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
+Select the team roles you'd like to assign to the group, or deselect team roles you'd like to remove from the group, then select **Update Roles**.
+
+> To learn more about roles and their permissions, see [Team Roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
 
 #### Managing roles on workspaces and Postman entities
 
 You can control a group's access to individual workspaces, collections, APIs, environments, mock servers, and monitors. For more information on managing workspaces, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 
-For collections, APIs, environments, mock servers, and monitors, go to the element for which you want to manage roles. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> then select **Manage roles**.
+For collections, APIs, environments, mock servers, and monitors, go to the element you'd like to edit roles for. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> then select **Manage roles**.
 
-<img alt="Invite group to collection" src="https://assets.postman.com/postman-docs/manage-roles-collection-with-user-group-v9.1.jpg"/>
+<img alt="Invite group to collection" src="https://assets.postman.com/postman-docs/v10/add-group-to-collection-v10.15.jpg" width="500px"/>
 
 Use the search bar to add the group, then give the group **Editor** or **Viewer** permissions with the dropdown. To remove a group, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the group name. Select **Update Roles** to confirm changes.
 
@@ -100,16 +116,18 @@ Use the search bar to add the group, then give the group **Editor** or **Viewer*
 
 ### Editing details for a group
 
-In Postman, select **Team** in the Postman header, then select **Manage Team**. Under **Members and groups**, select **Groups**. Locate the group you would like to update and select it to edit.
+[Admins, Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), and [group managers](#managing-group-managers) can edit details for a group.
 
-<img alt="Edit group description" src="https://assets.postman.com/postman-docs/team-edit-group-description-v9.1.jpg" width="500px"/>
+To edit details for a group, select **Team** in the Postman header, then select **Manage Team**. Select **Groups** on the left. Locate the group you'd like to update and select it to edit.
 
-Select the group's name at the top of the page to edit it. To add a description, select **Add a description** under the group's name. To update an existing description, select it to edit. **Save Changes** to confirm your updates.
+Select the group's name at the top of the page to edit it. To add a description, select **Add a description** under the group's name. To update an existing description, select it to edit. Changes are automatically saved.
 
 ## Deleting a group
 
-In Postman, select **Team** in the Postman header, then select **Manage Team**. Under **Members and groups**, select **Groups**. Locate the group you would like to update and select it to edit.
+[Admins, Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), and [group managers](#managing-group-managers) can delete a group.
 
-Select **Delete** to delete the group, then **Delete Group** to confirm.
+To delete a group, select **Team** in the Postman header, then select **Manage Team**. Select **Groups** on the left. Locate the group you'd like to delete and select it.
 
-<img alt="Delete group" src="https://assets.postman.com/postman-docs/team-delete-group-v9.1.jpg" width="400px"/>
+Select **Delete Group** to delete the group, then **Delete Group** to confirm.
+
+<img alt="Delete group" src="https://assets.postman.com/postman-docs/v10/delete-group-v10.15.jpg" width="400px"/>
