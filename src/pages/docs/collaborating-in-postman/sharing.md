@@ -1,8 +1,7 @@
 ---
 title: "Sharing your work"
-order: 73.1
-page_id: "sharing"
-updated: 2023-02-22
+search_keyword: "sharing postman elements, collection access key, postman api"
+updated: 2023-05-30
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -25,7 +24,6 @@ contextual_links:
   - type: link
     name: "Introducing Postman’s new Guest role to share collections instantly"
     url: "https://blog.postman.com/introducing-postmans-new-guest-role-to-share-collections-instantly/"
-warning: false
 ---
 
 You can [collaborate on Postman elements](https://www.postman.com/api-platform/api-collaboration/) including collections, APIs, and environments, by sharing them or by moving them to a shared private, team, or public workspace.
@@ -95,23 +93,24 @@ To share a collection's JSON using the Postman API, do the following:
 
 <!-- vale Postman.Avoid = NO -->
 
-1. From the element you want to share, select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share**.
+1. From the collection that you want to share, select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share**.
 1. Select **Via API**.
 1. Select **Get collection JSON using Collection Access Key**.
-1. Select **Generate New Key** to create a collection access key. The collection access key enables other users to have read-only access to the collection JSON.
-1. (Optional) Select **Manage keys** to view or revoke this collection access key on your API Key page. To learn more about collection access keys, see [Generate a collection access key](/docs/developer/postman-api/authentication/#generate-a-collection-access-key).
+1. Select **Generate New Key** to create a read-only collection access key. This key expires after 60 days of inactivity.
+
+   > **Make sure you remove any sensitive information from your collection before sharing collection access keys.**
+
+1. (Optional) Select **Manage keys** to view or revoke this collection access key on your [API keys page](https://go.postman.co/settings/me/api-keys). To learn more about collection access keys, see [Generate a collection access key](/docs/developer/postman-api/authentication/#generate-a-collection-access-key).
 
 <!-- vale Postman.Avoid = YES -->
 
 Anyone with this link has read-only access to the collection's JSON. The data that this Postman API endpoint serves reflects the current state of the collection.
 
-> Collection JSON links expire after 60 days of inactivity.
-
-<img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/v10/share-collection-via-api-v10-2.jpg"/>
+![Share a collection via API](https://assets.postman.com/postman-docs/v10/share-collection-via-api-v10-3.jpg)
 
 If you want to share a link with other users, select **Link to collection in public workspace** to provide a link to the collection. Anyone with this link can view and fork your collection.
 
-<img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/v10/share-collection-link-v10-2.jpg"/>
+![Share a collection with a link to a public workspace](https://assets.postman.com/postman-docs/v10/share-collection-link-v10-2.jpg)
 
 ## Sharing elements with external users
 
