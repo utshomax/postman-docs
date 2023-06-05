@@ -252,5 +252,3 @@ sudo installer -dumplog -verbose -pkg path/to/app.pkg -target LocalSystem
 ```
 
 ## Installing the Postman Enterprise Linux Snap package
-
-
