@@ -138,7 +138,54 @@ export const leftNavItems = [
       },
       {
         name: 'Authorizing requests',
-        url: '/docs/sending-requests/authorization/',
+        subParentSlug: 'authorization',
+        slug: '/docs/sending-requests/authorization/authorization/',
+        subMenuItems2: [
+          {
+            name: 'Authorizing requests overview',
+            url: '/docs/sending-requests/authorization/authorization/',
+          },
+          {
+            name: 'Specifying authorization details',
+            url: '/docs/sending-requests/authorization/specifying-authorization-details/',
+          },
+          {
+            name: 'Authentication for public APIs',
+            url: '/docs/sending-requests/authorization/authentication-for-public-apis/',
+          },
+          {
+            name: 'About authorization types',
+            url: '/docs/sending-requests/authorization/authorization-types/',
+          },
+          {
+            name: 'Digest auth',
+            url: '/docs/sending-requests/authorization/digest-auth/',
+          },
+          {
+            name: 'OAuth 1.0 authentication',
+            url: '/docs/sending-requests/authorization/oauth-10/',
+          },
+          {
+            name: 'OAuth 2.0 authentication',
+            url: '/docs/sending-requests/authorization/oauth-20/',
+          },
+          {
+            name: 'Hawk authentication',
+            url: '/docs/sending-requests/authorization/hawk-authentication/',
+          },
+          {
+            name: 'AWS Signature',
+            url: '/docs/sending-requests/authorization/aws-signature/',
+          },
+          {
+            name: 'NTLM authentication',
+            url: '/docs/sending-requests/authorization/ntlm-authentication/',
+          },
+          {
+            name: 'Akamai Edgegrid',
+            url: '/docs/sending-requests/authorization/akamai-edgegrid/',
+          },
+        ],
       },
       {
         name: 'Receiving responses',
@@ -684,7 +731,7 @@ export const leftNavItems = [
             url: '/docs/collaborating-in-postman/using-workspaces/public-workspaces/'
           },
           {
-            name: 'Viewing workspace activity',
+            name: 'Viewing workspace and collection activity',
             url: '/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/',
           },
         ],
@@ -935,10 +982,6 @@ export const leftNavItems = [
       {
         name: 'Monitoring FAQs',
         url: '/docs/monitoring-your-api/faqs-monitors/',
-      },
-      {
-        name: 'Monitoring API uptime',
-        url: '/docs/monitoring-your-api/uptime-monitors/',
       },
     ],
   },
