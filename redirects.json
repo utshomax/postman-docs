@@ -2160,6 +2160,10 @@
     "to": "/docs/sending-requests/authorization/authorization/"
   },
   {
+    "from": "/docs/monitoring-your-api/uptime-monitors/",
+    "to": "/docs/monitoring-your-api/intro-monitors/"
+  },
+  {
     "from": "/docs/administration/managing-your-team/user-groups/",
     "to": "/docs/collaborating-in-postman/user-groups/"
   }
