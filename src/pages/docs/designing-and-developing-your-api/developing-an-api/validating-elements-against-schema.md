@@ -30,6 +30,8 @@ To help keep your API well defined, you can check your API definition as you wor
 
 For [collections linked to an API]((/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/#adding-a-collection)), Postman can automatically detect any inconsistencies between the [requests](/docs/sending-requests/requests/) and [saved examples](/docs/sending-requests/examples/) in the collection and the [API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/). Postman can also compare [responses](/docs/sending-requests/responses/) received from the server to the API definition to make sure the API implementation aligns with the API design. Postman displays a warning for each detected issue. Select a warning to view the source of the issue so you can resolve it.
 
+> Request validation is supported for OpenAPI 3.0 definitions.
+
 ### Enabling request validation
 
 When request validation is enabled, Postman automatically checks for validation issues whenever you open a request, change a request or a saved example, or change the API definition. Postman also checks for issues when you send a request, and the response is considered as a saved example.
