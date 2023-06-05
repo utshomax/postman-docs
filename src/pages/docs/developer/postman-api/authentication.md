@@ -77,7 +77,7 @@ You can store your API key in a [variable](/docs/sending-requests/variables/). I
 
 ## Generate a collection access key
 
-With a collection access key you can securely grant other users read-only access to a single collection. You will generate a new collection access key every time you share a collection using the Postman API. To learn more, see [Sharing using the Postman API](/docs/collaborating-in-postman/sharing/#sharing-using-the-postman-api/).
+With a collection access key you can securely grant other users read-only access to a single collection. You will generate a new collection access key every time you share a collection using the Postman API. To learn more, see [Sharing using the Postman API](/docs/collaborating-in-postman/sharing/#sharing-using-the-postman-api).
 
 Your [API keys page](https://go.postman.co/settings/me/api-keys) displays all of your generated keys in the **Collection access keys** section. This section includes information about which collection the key belongs to, who created the key, and when it was created. This section also displays any collection access keys created by other members of the team that you are currently logged in to.
 
