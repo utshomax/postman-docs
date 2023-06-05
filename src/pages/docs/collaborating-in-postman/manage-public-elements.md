@@ -27,8 +27,8 @@ The [Manage public elements](https://blog.postman.com/govern-your-public-api-col
 * [Managing public elements](#managing-public-elements)
     * [Workspaces](#workspaces)
     * [Public documentation](#public-documentation)
-    * [Collection JSON Links](#collection-json-links)
-    * [Collection Access Keys](#collection-access-keys)
+    * [Collection JSON links](#collection-json-links)
+    * [Collection access keys](#collection-access-keys)
 
 ### Managing public elements
 
@@ -54,7 +54,7 @@ You can also view and respond to requests to make documentation public. To appro
 
 <img alt="Responding to publish requests" src="https://assets.postman.com/postman-docs/request-publish-documentation-v10-2.jpg"/>
 
-#### Collection JSON Links
+#### Collection JSON links
 
 > Sharing collection JSON files using a public link has been deprecated. No new links can be generated and existing links can't be modified or edited. Users can still access any existing collection JSON links.
 >
@@ -64,7 +64,7 @@ The dashboard's **Collection JSON Links** tab displays all the collections with 
 
 As a Community Manager or Super Admin, you can view or delete a collection JSON link. In addition to the collection name, the dashboard displays more information about the date the link was updated on, who updated the link, and the JSON link.
 
-#### Collection Access Keys
+#### Collection access keys
 
 The dashboard's **Collection Access Keys** tab displays your team's [collection access keys](/docs/developer/postman-api/authentication/#generate-a-collection-access-key). You can view which collection a key belongs to, the date of its creation, and who created it. To revoke a key, hover over the key and select **Delete**.
 
