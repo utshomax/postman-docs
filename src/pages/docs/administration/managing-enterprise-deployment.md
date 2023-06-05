@@ -18,7 +18,7 @@ contextual_links:
 
 ---
 
-> **[Postman app versioning and the Postman Enterprise App (currently in beta) are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
+> **[Postman app versioning and the Postman Enterprise App are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 Postman Enterprise offers greater control to administrators looking to deploy and manage Postman at scale. Team Admins can choose to [manage Postman app versioning](#managing-postman-app-versioning) with Postman support, or [deploy the Postman Enterprise app](#deploying-the-postman-enterprise-app) to their organization.
 
@@ -46,6 +46,8 @@ Postman Enterprise offers greater control to administrators looking to deploy an
     * [PKG installation options](#pkg-installation-options)
     * [Uninstalling PKG installers](#uninstalling-pkg-installers)
     * [PKG installer logging](#pkg-installer-logging)
+
+* [Installing the Postman Enterprise Linux Snap package](#installing-the-postman-enterprise-linux-snap-package)
 
 ## Managing Postman app versioning
 
@@ -248,3 +250,7 @@ It's recommended to use the `-dumplog` and `-verbose` flags supported by `instal
 ``` shell
 sudo installer -dumplog -verbose -pkg path/to/app.pkg -target LocalSystem
 ```
+
+## Installing the Postman Enterprise Linux Snap package
+
+
