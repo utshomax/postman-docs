@@ -99,6 +99,7 @@ To share a collection's JSON using the Postman API, do the following:
 1. Select **Generate New Key** to create a read-only collection access key. This key expires after 60 days of inactivity.
 
    > **Make sure you remove any sensitive information from your collection before sharing collection access keys.**
+
 1. (Optional) Select **Manage keys** to view or revoke this collection access key on your [API keys page](https://go.postman.co/settings/me/api-keys). To learn more about collection access keys, see [Generate a collection access key](/docs/developer/postman-api/authentication/#generate-a-collection-access-key).
 
 <!-- vale Postman.Avoid = YES -->
