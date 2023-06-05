@@ -2158,6 +2158,10 @@
   {
     "from": "/docs/sending-requests/authorization/",
     "to": "/docs/sending-requests/authorization/authorization/"
+  },
+  {
+    "from": "/docs/monitoring-your-api/uptime-monitors/",
+    "to": "/docs/monitoring-your-api/intro-monitors/"
   }
 
 ]
