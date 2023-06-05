@@ -1,6 +1,6 @@
 ---
 title: "Managing public elements"
-updated: 2023-05-30
+updated: 2023-06-15
 contextual_links:
   - type: section
     name: "Additional resources"
