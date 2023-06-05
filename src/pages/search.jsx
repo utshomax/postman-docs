@@ -22,8 +22,9 @@ import { history } from 'instantsearch.js/es/lib/routers';
 
 /* Support Dev and Prod indeces for Algolia
 **********************************************/ 
-const searchOnlyKey = process.env.NODE_ENV === 'development' ? '003daeb8de202d4a917c2395628d75a8' : '69f2c5376f1a90912c6c3b6b772c25bc';
-const algoliaIndex = process.env.NODE_ENV === 'development' ? 'dev_docs' : 'docs';
+// const searchOnlyKey = process.env.NODE_ENV === 'development' ? '003daeb8de202d4a917c2395628d75a8' : '69f2c5376f1a90912c6c3b6b772c25bc';
+const searchOnlyKey = '6ce067012285db18828fe56c1546a4c6';
+const algoliaIndex = process.env.NODE_ENV === 'development' ? 'docs-testing' : 'docs-testing';
 
 
 /* Algolia Search API Keys
