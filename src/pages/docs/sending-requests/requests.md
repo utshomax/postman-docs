@@ -80,6 +80,8 @@ If you have a request you want to run, you will need to know the URL, method, an
 
 To test sending a request in Postman, you can set the URL to the Postman Echo sample API endpoint `https://postman-echo.com/get` and the method to `GET`, then select __Send__.
 
+> You can enable autosave to automatically save your changes to collections, requests, and environments. Learn more about [enabling autosave](/docs/getting-started/settings/#application).
+
 ### Selecting protocols
 
 You can change the protocol for a new request. Select **New** in the sidebar and then select a request protocol, or select **+** to open a new tab. Select the protocol dropdown menu to the left of the request's name, and then select a different request protocol.

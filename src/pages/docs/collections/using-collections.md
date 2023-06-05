@@ -77,6 +77,8 @@ To customize and configure a new collection, do the following:
 1. Select **Tests** to define a [test script](/docs/writing-scripts/test-scripts/) for your collection, which will run after a response is received.
 1. Select **Variables** to define values for [collection variables](/docs/sending-requests/variables/) to share across all requests in the collection.
 
+> You can enable autosave to automatically save your changes to collections, requests, and environments. Learn more about [enabling autosave](/docs/getting-started/settings/#application).
+
 ![Edit collection details](https://assets.postman.com/postman-docs/v10/collection-details-v10.jpg)
 
 ## Adding requests to a collection
