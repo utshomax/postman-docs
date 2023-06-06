@@ -47,6 +47,9 @@ Workspaces, collections, and APIs in the Private API Network are visible to logg
 
 * [Navigating the Private API Network](#navigating-the-private-api-network)
     * [Searching, filtering, and sorting](#searching-filtering-and-sorting)
+    * [Reviewing details about elements](#reviewing-details-about-elements)
+    * [Sharing folders and elements](#sharing-folders-and-elements)
+    * [Watching and forking elements](#watching-and-forking-elements)
 * [Organizing with folders](#organizing-with-folders)
     * [Adding sub-folders](#adding-sub-folders)
 * [Editing Folder Managers](#editing-folder-managers)
@@ -62,7 +65,6 @@ Workspaces, collections, and APIs in the Private API Network are visible to logg
     * [Requesting to add an API from the workbench](#requesting-to-add-an-api-from-the-workbench)
 * [Reviewing requests to add elements](#reviewing-requests-to-add-elements)
 * [Managing folders and elements](#managing-folders-and-elements)
-    * [Sharing folders and elements](#sharing-folders-and-elements)
     * [Editing collections](#editing-collections)
     * [Moving folders and elements](#moving-folders-and-elements)
     * [Renaming folders](#renaming-folders)
@@ -106,11 +108,27 @@ You can select a folder to search, filter, and sort elements on the right. Selec
 
 <img alt="Private API List" src="https://assets.postman.com/postman-docs/v10/private-api-network-list-v10-2.jpg"/>
 
-To review information about an element, select it from the list. You can view the element's description and the editors who have worked on it. For workspaces, you can view all of the collections and APIs inside them. For collections, you can view available documentation; you can select **Try Request** next to a request or **Try Example** next to an example to open it in a new tab. For APIs, you can view definitions and associated collections.
+### Reviewing details about elements
 
-To watch a workspace, collection, or API and get notified about any changes, select **Watch** in the upper-right corner.
+To review information about an element, select it from the left sidebar. On the right, you can view the element's description and the editors who have worked on it.
 
-> To learn more about watch notifications, see [Watching a workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#watching-a-workspace), [Watching a collection](/docs/sending-requests/intro-to-collections/#watching-a-collection), and [Watching an API](/docs/designing-and-developing-your-api/managing-apis/#watching-apis).
+For workspaces, you can view all of the collections and APIs inside them. For collections, you can view available documentation; you can select **Try Request** next to a request or **Try Example** next to an example to open it in a new tab. For APIs, you can view definitions and associated collections.
+
+You can also open the element in its workspace. Select an element from the left sidebar, and then select either **View in Workspace** or **Open Workspace** in the upper-right corner.
+
+### Sharing folders and elements
+
+You can share links to folders and individual elements with other team members. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a folder or element, then select **Copy link**. This copies the link to your clipboard. You can then share the link with team members.
+
+> You can also select a folder or element in the sidebar. Then select <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> **Copy link** in the upper-right corner.
+
+### Watching and forking elements
+
+You can watch workspaces, collections, and APIs from the Private API Network. You can also fork collections from the Private API Network.
+
+To watch a workspace, collection, or API and get notified about any changes, select an element in the left sidebar, then select <img alt="Watch icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> **Watch** in the upper-right corner. To learn more about watch notifications, see [Watching a workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#watching-a-workspace), [Watching a collection](/docs/collections/using-collections/#watching-a-collection), and [Watching APIs](/docs/designing-and-developing-your-api/managing-apis/#watching-apis).
+
+To fork a collection, select a collection in the left sidebar, then select <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> **Fork** in the upper-right corner. To learn more about forking collections, see [Forking Postman entities](/docs/collaborating-in-postman/using-version-control/forking-entities/).
 
 ## Organizing with folders
 
@@ -217,7 +235,7 @@ To add a workspace to the Private API Network from the workbench, do the followi
 1. In the workspace overview, select <img alt="Workspace settings icon" src="https://assets.postman.com/postman-docs/v10/icon-sliders-v10.jpg#icon" width="24px"> **Workspace Settings**.
 1. Select **Add to Network**.
 
-    > If you're a Folder Manager, select **Request to Add to Network**. Then select a folder you have permission to manage.
+    > If you're a Folder Manager, select **Request to Add**. Then select a folder you have permission to manage.
 
     <img alt="Add workspace to the Private Network" src="https://assets.postman.com/postman-docs/v10/add-workspace-to-private-api-network-v10.jpg" width="500px"/>
 
@@ -233,7 +251,7 @@ To add a collection to the Private API Network from the workbench, do the follow
 1. Open the collection you want to add to the Private API Network.
 1. In the collection overview, select **Add to API Network**.
 
-    > If you're a Folder Manager, select **Request to Add to API Network**. Then select a folder you have permission to manage.
+    > If you're a Folder Manager, select **Request to Add**. Then select a folder you have permission to manage.
 
     <img alt="Add collection to the Private Network" src="https://assets.postman.com/postman-docs/v10/add-collection-to-private-api-network-v10.jpg"/>
 
@@ -256,7 +274,7 @@ To add an API to the Private API Network from the workbench, do the following:
 1. Open the API you want to add to the Private API Network.
 1. In the API overview, select **Add to API Network**.
 
-    > If you're a Folder Manager, select **Request to Add to API Network**. Then select a folder you have permission to manage.
+    > If you're a Folder Manager, select **Request to Add**. Then select a folder you have permission to manage.
 
     <img alt="Add API to the Private Network" src="https://assets.postman.com/postman-docs/v10/add-api-to-private-api-network-v10.jpg"/>
 
@@ -316,9 +334,9 @@ To request to add elements from your Private API network, do the following:
 
 1. Open the workspace you want to add to the Private API Network.
 1. In the workspace overview, select <img alt="Workspace settings icon" src="https://assets.postman.com/postman-docs/v10/icon-sliders-v10.jpg#icon" width="24px"> **Workspace Settings**.
-1. Select **Request to Add to Network**.
+1. Select **Request to Add**.
 
-    <img alt="Request to add workspace to the Private Network" src="https://assets.postman.com/postman-docs/v10/request-to-add-workspace-to-private-api-network-v10.jpg" width="500px"/>
+    <img alt="Request to add workspace to the Private Network" src="https://assets.postman.com/postman-docs/v10/request-to-add-workspace-to-private-api-network-v10-2.jpg" width="500px"/>
 
 1. (Optional) Select a folder or create one to keep elements organized.
 1. (Optional) Select **Add comment** to add a note for the API Network Manager or Folder Manager.
@@ -329,9 +347,9 @@ To request to add elements from your Private API network, do the following:
 [Collection Editors](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) can request to add collections to your Private API Network from the workbench.
 
 1. Open the collection you want to add to the Private API Network.
-1. In the collection overview, select **Request to Add to API Network**.
+1. In the collection overview, select **Request to Add**.
 
-    <img alt="Request to add collection to the Private Network" src="https://assets.postman.com/postman-docs/v10/request-to-add-collection-to-private-api-network-v10.jpg"/>
+    <img alt="Request to add collection to the Private Network" src="https://assets.postman.com/postman-docs/v10/request-to-add-collection-to-private-api-network-v10-2.jpg"/>
 
 1. (Optional) Add a brief summary about the collection.
 1. (Optional) Select **Select Environments** to make sure users have access to environment variables.
@@ -349,9 +367,9 @@ To request to add elements from your Private API network, do the following:
 > An API's editor must [publish a version of the API](#publishing-specific-api-versions) before you can add it to your Private API Network.
 
 1. Open the API you want to add to the Private API Network.
-1. In the API overview, select **Request to Add to API Network**.
+1. In the API overview, select **Request to Add**.
 
-    <img alt="Request to add API to the Private Network" src="https://assets.postman.com/postman-docs/v10/request-to-add-api-to-private-api-network-v10.jpg"/>
+    <img alt="Request to add API to the Private Network" src="https://assets.postman.com/postman-docs/v10/request-to-add-api-to-private-api-network-v10-2.jpg"/>
 
 1. (Optional) Select a folder or create one to keep elements organized.
 1. (Optional) Select **Add comment** to add a note for the API Network Manager or Folder Manager.
@@ -381,15 +399,9 @@ To deny a request, do the following:
 
 ## Managing folders and elements
 
-API Network Managers can manage folders and elements. Folder Managers can manage folders and elements in folders they have permission to manage.
+API Network Managers can manage all folders and elements. Folder Managers can manage folders and elements in folders they have permission to manage. Users with the Editor role for an element can also manage the element.
 
 > You can manage elements within the [Private API Network](#navigating-the-private-api-network) or with the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-b7c02959-88ca-4e2f-9b68-99538eed4533?ctx=documentation).
-
-### Sharing folders and elements
-
-You can share links to folders and individual elements with other team members. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a folder or element, then select **Copy link**. This copies the link to your clipboard. You can then share the link with team members.
-
-> You can also select a folder or element in the sidebar. Then select <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> **Copy link** in the upper-right corner.
 
 ### Editing collections
 

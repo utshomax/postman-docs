@@ -46,7 +46,7 @@ To publish an API version, do the following:
 1. On the API's overview, under **Publish your API to consumers**, select **Publish API**. (If you've published a version before, select **Publish** under **Published Versions**.)
 1. Enter a **Version label** and, if you want, add any **Release notes** describing this version.
 1. Select the elements you want to publish with this version (API definition and collections).
-1. To make this version available on the Private API Network, select **Add API to the Private API Network** (or **Request API to the Private API Network**, depending on your [role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles)). You can select a folder to place the API version in, or create a new folder.
+1. To make this version available on the Private API Network, select **Add to API Network** (or **Request to Add**, depending on your [role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles)). You can select a folder to place the API version in, or create a new folder.
 
     > You can only add APIs to the Private API Network from team or public workspaces.
 
