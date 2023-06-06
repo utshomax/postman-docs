@@ -59,6 +59,14 @@ Once you've reached your usage limit, you will no longer be able to run your col
 
 > Requests run in the Postman cloud by your [scheduled collection runs](/docs/collections/running-collections/scheduling-collection-runs/) count toward your [monitoring usage](#monitoring-usage). Scheduled collection runs don't count toward your collection runs usage.
 
+## Performance test usage
+
+Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of [performance test runs](/docs/collections/testing-api-performance/) you can use each month. This limit applies to collections that you run using the **Performance** tab in the Collection Runner. This limit doesn't apply to [manual collection runs](/docs/collections/running-collections/intro-to-collection-runs/) or [scheduled collection runs](/docs/collections/running-collections/scheduling-collection-runs/).
+
+You can check your performance test usage on the [Resource Usage dashboard](https://go.postman.co/billing/add-ons/overview). Also, a message will display in the Collection Runner when you're approaching your usage limit.
+
+Once you've reached your usage limit, you will no longer be able to run performance tests. To resume running performance tests before your monthly limit resets, you can [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+
 ## Custom domains
 
 Postman paid [plans](https://www.postman.com/pricing/) give you a limited number of [custom domains](/docs/publishing-your-api/custom-doc-domains/) you can use when publishing API documentation. After the limit is reached, you won't be able to add a new custom domain.
