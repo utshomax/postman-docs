@@ -49,4 +49,4 @@ To see the changelog, open the collection and select the changelog icon <img alt
 
 <img alt="Changelog view" src="https://assets.postman.com/postman-docs/v10/changelog-view.jpg" width="350px"/>
 
-For more information, see [Viewing the collection changelog](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#viewing-the-collection-changelog).
+For more information, see [Viewing collection activity](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#viewing-collection-activity).

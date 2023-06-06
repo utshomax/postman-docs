@@ -20,7 +20,7 @@ When you [define your APIs](/docs/designing-and-developing-your-api/the-api-work
 * [Tagging APIs](#tagging-apis)
 * [Watching APIs](#watching-apis)
 * [Commenting on APIs](#commenting-on-apis)
-* [Using the Changelog](#using-the-changelog)
+* [Using the changelog](#using-the-changelog)
 
 ## Sharing APIs
 
@@ -175,12 +175,12 @@ You can [connect a Git repository](/docs/designing-and-developing-your-api/versi
 * You must [commit and push changes](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/#committing-and-pushing-changes) on a branch before you can add a new comment on that branch. (You can reply to an existing comment without committing and pushing changes.)
 * When you [merge a branch](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/#creating-a-pull-request), comments remain on the branch being merged and aren't merged to the target branch.
 
-## Using the Changelog
+## Using the changelog
 
-You can view a history of changes to your API schemas and all linked collections. To access the Changelog, open an API, then select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog.jpg" width="25px" style="vertical-align:middle;margin-bottom:0px"> in the right sidebar.
+You can view a history of changes to your API schemas and all linked collections. To access the changelog, open an API, then select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog.jpg" width="25px" style="vertical-align:middle;margin-bottom:0px"> in the right sidebar.
 
 > If you connect your API to a Git repository, the changelog is replaced by the **Source Control** pane. Learn more about [API version control](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/).
 
-The Changelog shows a list of changes made to the schema and associated elements. Select each entry for more details.
+The changelog shows a list of changes made to the schema and associated elements. Select each entry for more details.
 
 <img src="https://assets.postman.com/postman-docs/v10/api-builder-changelog-v10.jpg" alt="API Builder changelog" width="443px" />
