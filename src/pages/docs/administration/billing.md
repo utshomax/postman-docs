@@ -203,7 +203,7 @@ You can opt to apply changes right away or on renewal. You can adjust your team 
 
 The cost of your new plan and any new seats, if applicable, are prorated based on the time left in your team's billing cycle.
 
-> To upgrade to Postman Enterprise, [contact Postman's sales team](mailto:sales@postman.com).
+> To upgrade to Postman Enterprise Ultimate, [contact Postman's sales team](mailto:sales@postman.com).
 
 <!-- -->
 
@@ -231,7 +231,7 @@ Update the number of monitoring blocks, mock server blocks, and custom domains y
 
 [Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. With Auto-Flex enabled, your team can [invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) users without having to pay in advance for more seats, then opt to retain or remove them before being [billed](#billing-for-auto-flex).
 
-All [Postman Basic and Professional plans](https://www.postman.com/pricing) have Auto-Flex enabled automatically.
+All [Postman Basic, Professional, and Enterprise Essentials plans](https://www.postman.com/pricing) have Auto-Flex enabled automatically.
 
 #### Billing for Auto-Flex
 
