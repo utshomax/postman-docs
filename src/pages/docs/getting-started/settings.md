@@ -100,7 +100,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 ### Application
 
-* **Autosave** - Turn this on to automatically save your changes to collections, requests, and environments. If you've added an integration that [backs up a collection](https://go.postman.co/integrations/browse?category=backup), turn this on to automatically back up your changes to your collection. Turn this off to manually save your changes.
+* **Autosave** - Turn this on to automatically save your changes to collections, requests, and environments. If you've added an integration that [backs up a collection](https://go.postman.co/integrations/browse?category=backup), turn this on to automatically back up your changes to your collection when changes are autosaved. Turn this off to manually save your changes.
 
     > If this is turned on and you create a request by selecting **+** or by selecting **New**, you must manually save the request to a collection before your changes are autosaved.
 
