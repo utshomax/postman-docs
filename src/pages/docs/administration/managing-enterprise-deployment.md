@@ -252,3 +252,33 @@ sudo installer -dumplog -verbose -pkg path/to/app.pkg -target LocalSystem
 ```
 
 ## Installing the Postman Enterprise Linux Snap package
+
+The Postman Enterprise app supports the same [64-bit Linux systems](/docs/getting-started/installation-and-updates/#installing-postman-on-linux) as the Postman desktop app.
+
+Before installing, ensure a clean installation:
+
+`sudo snap remove postman-enterprise`
+
+Install the Postman Enterprise app with Snap:
+
+`sudo snap install /path/to/postman-enterprise.snap --dangerous`
+
+The `--dangerous`option is required because the Postman Enterprise app is not distributed through the Snap store.
+
+## Encrypting data
+
+To securely store local data on the cloud, connect the Snap password manager service interface to the Postman Enterprise app:
+
+`sudo snap connect postman-enterprise:password-manager-service`
+
+## Restricting usage
+
+You can specify which teams can use the app with the `team-ids` option. For example, if you want teams with IDs `1234` and `4321` to have access:
+
+`sudo snap set postman-enterprise team-ids="1234, 4321"`
+
+## Uninstalling the Postman Enterprise app on Linux
+
+Use this command to uninstall the app:
+
+`sudo snap remove postman-enterprise`
