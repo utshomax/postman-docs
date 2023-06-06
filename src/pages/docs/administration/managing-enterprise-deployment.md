@@ -277,7 +277,7 @@ You can specify which teams can use the app with the `team-ids` option. For exam
 
 `sudo snap set postman-enterprise team-ids="1234, 4321"`
 
-## Uninstalling the Postman Enterprise app on Linux
+## Uninstalling the Postman Enterprise Linux app
 
 Use this command to uninstall the app:
 
