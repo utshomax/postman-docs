@@ -32,8 +32,8 @@ const Hits = ({ hits }) => {
       const excerpt = hit._snippetResult && hit._snippetResult.excerpt.value ? hit._snippetResult.excerpt.value : hit.excerpt
       return (
       <li key={uuidv4()}>
-        { !!hit && hit.slug !== 'undefined' && hit.title && hit.excerpt ? (
-          <a href={hit.slug}>
+        { !!hit && hit.fields.slug && hit.title && hit.excerpt ? (
+          <a href={hit.fields.slug}>
             <span className="search-title" dangerouslySetInnerHTML={{ __html: hit._highlightResult.title.value }} />
             <p dangerouslySetInnerHTML={{ __html: excerpt }} />
           </a>
