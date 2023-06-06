@@ -197,8 +197,6 @@ You can change your team's plan and billing cycle in your [billing dashboard](ht
 
 To change your plan right away, open your [billing dashboard](https://go.postman.co/billing/overview) and select **Edit Plan** on the right.
 
-<img alt="Edit plan page" src="https://assets.postman.com/postman-docs/billing-edit-plan-v9.1.jpg"/>
-
 You can opt to apply changes right away or on renewal. You can adjust your team size, billing frequency, and plan type. Select **Next** to adjust your team's add-ons, including monitoring blocks, mock server blocks, and custom domains. Select **Next** to then **Confirm Changes**. Postman will send an email notification about the plan change to the billing email address listed in your [billing details](http://go.postman.co/settings/team/billing-details).
 
 The cost of your new plan and any new seats, if applicable, are prorated based on the time left in your team's billing cycle.
@@ -215,15 +213,11 @@ Monthly teams can switch to an annual plan at any time by navigating to the [bil
 
 Select to pay **Monthly** or **Annual** and confirm your changes. Note that annual teams can only switch to a monthly plan at the end of their current billing cycle. You can find the end date of your current billing cycle under **Overview**. Postman will send an email notification about the billing cycle change to the billing email address listed in your [billing details](http://go.postman.co/settings/team/billing-details).
 
-<img alt="Edit plan billing frequency" src="https://assets.postman.com/postman-docs/billing-dashboard-edit-plan-billing-frequency-v9.1.jpg" width="400px"/>
-
 ### Purchasing add-ons
 
 The base number of monitoring requests, mock server calls, and custom domains included in your plan depends on your [plan type](https://www.postman.com/pricing). You can allow or disallow overages for monitoring and mock server calls by [managing your team's add-ons](#managing-add-ons). If enabled, you will be charged on a pay-as-you-go basis.
 
 You can purchase more blocks of monitoring requests, mock server calls, and custom domains by navigating to your [billing dashboard](http://go.postman.co/billing), selecting **Resource usage** on the left, then **Purchase Add-ons** on the right.
-
-<img alt="Add-ons purchase form" src="https://assets.postman.com/postman-docs/billing-edit-plan-add-ons-v9.1.jpg"/>
 
 Update the number of monitoring blocks, mock server blocks, and custom domains you would like to have included in your team plan, then select **Next** to confirm your changes.
 
@@ -260,8 +254,6 @@ In your [billing dashboard](http://go.postman.co/billing), you can view:
 * Your current number of additional team members
 * How much you will be billed at the end of your cycle (unless you add or remove users in the interim)
 * Additional information about your Auto-Flex and regular billing cycles
-
-<img alt="Billing overview with auto flex" src="https://assets.postman.com/postman-docs/auto-flex-dash-9.14.jpg" />
 
 > [Contact Postman support](https://www.postman.com/support/) with any questions about Auto-Flex.
 
