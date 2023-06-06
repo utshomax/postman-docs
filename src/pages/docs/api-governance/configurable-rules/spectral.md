@@ -11,7 +11,7 @@ contextual_links:
     url: "https://youtu.be/TDOuZcKQId4"
 ---
 
-Spectral is a linting engine that helps you define custom rules and enforce them on JSON and YAML files. Postman supports Spectral v6 rules for the configurable [API governance](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules) and [API security](/docs/api-governance/configurable-rules/configuring-api-security-rules/#adding-custom-rules) rules for your team.
+Spectral is a linting engine that helps you define custom rules and enforce them on JSON and YAML files. Postman supports Spectral v6 rules for the configurable [API governance](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules) and [API security](/docs/api-governance/configurable-rules/configuring-api-security-rules/#adding-custom-rules) rules for your team. Postman also supports CommonJS syntax for custom functions configurable in custom governance rules.
 
 ## Contents
 
@@ -23,6 +23,12 @@ Spectral is a linting engine that helps you define custom rules and enforce them
     * [Building and testing JSON Path Plus expressions](#building-and-testing-json-path-plus-expressions)
     * [JSON Path Plus examples](#json-path-plus-examples)
 * [Example: Checking for the presence of a property](#example-checking-for-the-presence-of-a-property)
+* [Spectral custom functions](#spectral-custom-functions)
+    * [Spectral function parameters](#spectral-function-parameters)
+    * [Spectral function results](#spectral-function-results)
+    * [Example: Function that doesn't expect options](#example-function-that-doesnt-expect-options)
+    * [Example: Function that expects options](#example-function-that-expects-options)
+    * [Example: Rule that uses a function](#example-rule-that-uses-a-function)
 
 ## How Spectral works
 
@@ -107,8 +113,8 @@ You will find each rule defined in `rules` in the **Custom Rules** section in th
 `given` | **Required**. This can be a list with at least one element or a single element. Each value is a [JSON Path Plus expression](#json-path-and-json-path-plus) that may return zero, one, or more elements.<br>If `given` paths don't find any value, the `then` controls won't execute.
 `then` | **Required**. This can be a list with at least one element or a single element. If the given [JSON Path Plus expressions](#json-path-and-json-path-plus) return values, the functions will be applied to all of them.
 `then.field` | This optional name can be used if the value returned by the `given` paths is an object to target a specific field inside it. This value must be a name and can't hold a [JSON Path Plus expression](#json-path-and-json-path-plus). <br>The keyword `@key` can be used to check all keys of an object returned by the `given` paths.
-`then.function` | **Required**. The name of the function to use. You can use all Spectral core functions in Postman. [Custom functions](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/) are supported in custom API Governance rules. For more information, see the [Spectral documentation](https://github.com/stoplightio/spectral/blob/develop/docs/reference/functions.md).
-`then.functionOptions` | **May be required depending on the function**. The options of the function. You can use all Spectral core functions in Postman. [Custom functions](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/) are supported in custom API Governance rules. For more information, see the [Spectral documentation](https://github.com/stoplightio/spectral/blob/develop/docs/reference/functions.md).
+`then.function` | **Required**. The name of the function to use. You can use all Spectral core functions in Postman. [Custom functions](#spectral-custom-functions) are supported in custom API Governance rules. For more information, see the [Spectral documentation](https://github.com/stoplightio/spectral/blob/develop/docs/reference/functions.md).
+`then.functionOptions` | **May be required depending on the function**. The options of the function. You can use all Spectral core functions in Postman. [Custom functions](#spectral-custom-functions) are supported in custom API Governance rules. For more information, see the [Spectral documentation](https://github.com/stoplightio/spectral/blob/develop/docs/reference/functions.md).
 
 <!-- vale Microsoft.Headings = NO -->
 
@@ -126,7 +132,7 @@ Initially, JSON Path was created to be [XPath for JSON](https://goessner.net/art
 
 <!-- vale Microsoft.Headings = YES -->
 
-You can use the official JSON Path Plus [documentation](https://jsonpath-plus.github.io/JSONPath/docs/ts/) to build and test your rules' given paths. [Syntax Through Examples](https://jsonpath-plus.github.io/JSONPath/docs/ts/#syntax-through-examples)) and the [JSON Path Plus demo](https://jsonpath-plus.github.io/JSONPath/demo/) are both useful.
+You can use the official JSON Path Plus [documentation](https://jsonpath-plus.github.io/JSONPath/docs/ts/) to build and test your rules' given paths. [Syntax Through Examples](https://jsonpath-plus.github.io/JSONPath/docs/ts/#syntax-through-examples) and the [JSON Path Plus demo](https://jsonpath-plus.github.io/JSONPath/demo/) are both useful.
 
 <!-- vale Microsoft.Headings = NO -->
 
@@ -166,4 +172,112 @@ rules:
     then:
       field: description
       function: truthy
+```
+
+## Spectral custom functions
+
+You can [add custom governance functions](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/) to use in your custom governance rules. You can use these guidelines to write custom functions in JavaScript and add them to your custom governance rules. Postman supports CommonJS syntax for custom functions.
+
+### Spectral function parameters
+
+The following information explains how to add parameters to your custom functions depending on your use case.
+
+```js
+function myCustomFunction(input, options, context) { ... }
+```
+
+|<div style="width:110px">Parameter</div> | Description
+--- | ---
+`input` | **Required**. This can be any data type, such as a string or array. This is the value that the `given` [JSON Path Plus expression](#json-path-and-json-path-plus) returns. The rule tests the value of `input` with the function.
+`options` | The optional value of `then.functionOptions`. Add this parameter to your function if your function expects options. If you use this parameter, Postman recommends defining the expected option in a JSON schema. See an [example](#example-function-that-expects-options) for more details.
+`context` | Optional values that provide more details about the function. These values are follows: <br><ul><li>`path` - The `given` [JSON Path Plus expression](#json-path-and-json-path-plus) pointing to `input`. </li><li>`document` - The Spectral document that's analyzed.</li><li>`rule` - The rule that's using the function.</li><li>`documentInventory` - Provides access to resolved and unresolved Spectral documents, the $ref resolution graph, and other advanced properties.</li></ul>
+
+Learn more about [Spectral rule properties](#spectral-rule-properties).
+
+### Spectral function results
+
+|<div style="width:110px">Property</div> | Description
+--- | ---
+`message` | **Required**. The message describing the problem.
+`path` | The [JSON Path Plus expression](#json-path-and-json-path-plus) pointing to the problem. The default value is the value of `context.path`. This property is often used to investigate sub-elements of the value of `input` or other locations in the document.
+
+### Example: Function that doesn't expect options
+
+The following function checks whether a value isn't in an enumeration. This example function doesn't expect any options.
+
+```js
+function noInEnumeration(input, options, context) {
+  const { values } = options;
+  // Will crash if options doesn't contain "values"
+  if (values.includes(input)) {
+    return [
+      {
+        message: `Value must be different from "${values.join(',')}".`,
+      },
+    ];
+  }
+}
+
+module.exports = noInEnumeration;
+```
+
+### Example: Function that expects options
+
+The following function checks whether a value isn't in an enumeration. This example function expects options. When a custom function expects options, Postman recommends defining them in a JSON schema.
+
+<!-- The function will execute if `options` doesn't contain values because add-more-details. -->
+
+```js
+const { createRulesetFunction } = require("@stoplight/spectral-core");
+
+function noInEnumeration(input, options, context) {
+  const { values } = options;
+  // Should crash if options doesn't contain "values"
+  // But will not crash as JSON Schema control avoid calling function
+  if (values.includes(input)) {
+    return [
+      {
+        message: `Value must be different from "${values.join(',')}".`,
+      },
+    ];
+  }
+}
+
+module.exports = createRulesetFunction(
+  {
+    // JSON schema defining input
+    input: null,
+    // JSON schema defining functionOptions
+    options: {
+      type: "object",
+      additionalProperties: false,
+      properties: {
+        values: {
+          type: "array"
+        }
+      },
+      required: ["values"],
+    },
+  },
+  // The function
+  noInEnumeration,
+);
+```
+
+### Example: Rule that uses a function
+
+The following Spectral document has a rule named `http-status-obsolete` that uses a function named `notInEnumeration`. The function accepts options that include a property named `values` that's a list of strings.
+
+```yaml
+rules:
+  http-status-obsolete:
+    formats: [oas2, oas3]
+    severity: warn
+    message: "{{property}} is an obsoleted or unused HTTP status code"
+    given: $.paths.*.*.responses
+    then:
+      field: "@key"
+      function: notInEnumeration
+      functionOptions:
+        values: ["306","418","510"]
 ```

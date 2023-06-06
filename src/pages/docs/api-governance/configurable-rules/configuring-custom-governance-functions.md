@@ -27,7 +27,7 @@ You can add custom governance functions to use in your custom API Governance rul
 
     ![Create custom API Governance function](https://assets.postman.com/postman-docs/v10/create-api-governance-function-v10.jpg)
 
-1. Name the function, and then write the function in the editor. For more information about writing custom functions, see the [Spectral documentation](https://github.com/stoplightio/spectral/blob/develop/docs/guides/5-custom-functions.md).
+1. Name the function, and then write the function in the editor. It must adhere to [custom functions guidelines](/docs/api-governance/configurable-rules/spectral/#spectral-custom-functions).
 
     > Postman will prompt you with suggestions as you enter text. Select one to autocomplete your code.
 
@@ -39,7 +39,7 @@ You can add custom governance functions to use in your custom API Governance rul
 
 To add a custom function to a custom API Governance rule, [add a custom function](#adding-a-custom-function), and then begin the steps to [add a custom rule](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules).
 
-Add the `then.function` property to the rule, and add the custom function name as its value to use it in your rule (for example, `function: custom_function_name`). If your custom function accepts options, you can also add the `then.functionOptions` property.
+Add the `then.function` property to the rule, and add the custom function name as its value to use it in your rule (for example, `function: custom_function_name`). If your custom function accepts options, add the `then.functionOptions` property. Learn more about [Spectral rule properties](/docs/api-governance/configurable-rules/spectral/#spectral-rule-properties) and [Spectral custom functions](/docs/api-governance/configurable-rules/spectral/#spectral-custom-functions).
 
 Then select **Create** to create a custom rule that uses a custom function.
 
@@ -67,8 +67,6 @@ rules:
     }
 }
 ```
-
-> For more information about adding a custom function to a custom rule, see the [Spectral documentation](https://github.com/stoplightio/spectral/blob/develop/docs/guides/5-custom-functions.md).
 
 ## Viewing custom rules that use a custom function
 
