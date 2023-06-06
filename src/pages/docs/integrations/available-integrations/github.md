@@ -85,7 +85,7 @@ To integrate with GitHub, you need a GitHub personal access token.
 
 1. To finish setting up the integration, select **Add Integration**.
 
-Postman often checks your collection for changes. If Postman identifies changes to your collection, the changes automatically commit to your repository in JSON format. Go to your GitHub repository to view your collections.
+Postman often checks your collection for changes. If Postman identifies changes when it checks your collection, the changes automatically commit to your repository in JSON format. Go to your GitHub repository to view your collections.
 
 <img alt="Collection backup in GitHub" src="https://assets.postman.com/postman-docs/v10/integrations-github-repo-v10.jpg" />
 
