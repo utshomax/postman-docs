@@ -47,7 +47,7 @@ Postman Enterprise offers greater control to administrators looking to deploy an
     * [Uninstalling PKG installers](#uninstalling-pkg-installers)
     * [PKG installer logging](#pkg-installer-logging)
 
-* [Installing the Postman Enterprise Linux Snap package](#installing-the-postman-enterprise-linux-snap-package)
+* [Installing the Postman Enterprise Linux app](#installing-the-postman-enterprise-linux-app)
 
 ## Managing Postman app versioning
 
@@ -251,7 +251,7 @@ It's recommended to use the `-dumplog` and `-verbose` flags supported by `instal
 sudo installer -dumplog -verbose -pkg path/to/app.pkg -target LocalSystem
 ```
 
-## Installing the Postman Enterprise Linux Snap package
+## Installing the Postman Enterprise Linux app
 
 The Postman Enterprise app supports the same [64-bit Linux systems](/docs/getting-started/installation-and-updates/#installing-postman-on-linux) as the Postman desktop app.
 
