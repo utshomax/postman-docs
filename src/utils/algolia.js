@@ -3,9 +3,9 @@
 // each containing a required GraphQL query and an optional index name,
 // transformer function and settings object.
 
-//  the query property is a GraphQL query string.
+// The query property is a GraphQL query string.
 // The transformer is a function that takes the data retrieved by the query and
-// transforms it into the array of objects that will become your Algolia index records.
+// Transforms it into the array of objects that will become your Algolia index records.
 
 require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
