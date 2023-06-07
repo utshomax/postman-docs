@@ -26,9 +26,9 @@ Spectral is a linting engine that helps you define custom rules and enforce them
 * [Spectral custom functions](#spectral-custom-functions)
     * [Spectral function parameters](#spectral-function-parameters)
     * [Spectral function return statement properties](#spectral-function-return-statement-properties)
-    * [Example: Function that doesn't expect options](#example-function-that-doesnt-expect-options)
-    * [Example: Function that expects options](#example-function-that-expects-options)
-    * [Example: Rule that uses a function](#example-rule-that-uses-a-function)
+    * [Example: Checking that a value isn't in a list](#example-checking-that-a-value-isnt-in-a-list)
+    * [Example: Checking that a value isn't in a list (JSON schema)](#example-checking-that-a-value-isnt-in-a-list-json-schema)
+    * [Example: Rule that uses a custom function](#example-rule-that-uses-a-custom-function)
 
 ## How Spectral works
 
@@ -182,21 +182,26 @@ You can [add custom governance functions](/docs/api-governance/configurable-rule
 
 Use the following parameters in your custom functions depending on your use case.
 
+|<div style="width:110px">Parameter</div> | Description
+--- | ---
+`input` | **Required**. This can be any data type, such as a string or array. This is the value that the `given` [JSON Path Plus expression](#json-path-and-json-path-plus) returns. The rule tests the value of `input` using the function.
+`options` | The optional values of `then.functionOptions`. Add this parameter to your function if your function expects options. If you use this parameter, Postman recommends defining the JSON schema of the expected options. See an [example](#example-checking-that-a-value-isnt-in-a-list-json-schema) for more details.
+`context` | Optional values that provide more details about the function. These values are as follows: <br><ul><li>`path` - The `given` [JSON Path Plus expression](#json-path-and-json-path-plus) pointing to `input`. </li><li>`document` - The Spectral document that's analyzed.</li><li>`rule` - The rule that's using the function.</li><li>`documentInventory` - Provides access to resolved and unresolved Spectral documents, the $ref resolution graph, and other advanced properties.</li></ul><!-- The `context` parameter is required if you use the `path` property in your function's [return statement](#spectral-function-return-statement-properties). -->
+
 ```js
 function myCustomFunction(input, options, context) { ... }
 ```
-
-|<div style="width:110px">Parameter</div> | Description
---- | ---
-`input` | **Required**. This can be any data type, such as a string or array. This is the value that the `given` [JSON Path Plus expression](#json-path-and-json-path-plus) returns. The rule tests the value of `input` with the function.
-`options` | The optional values of `then.functionOptions`. Add this parameter to your function if your function expects options. If you use this parameter, Postman recommends defining the expected options in a JSON schema. See an [example](#example-function-that-expects-options) for more details.
-`context` | Optional values that provide more details about the function. These values are follows: <br><ul><li>`path` - The `given` [JSON Path Plus expression](#json-path-and-json-path-plus) pointing to `input`. </li><li>`document` - The Spectral document that's analyzed.</li><li>`rule` - The rule that's using the function.</li><li>`documentInventory` - Provides access to resolved and unresolved Spectral documents, the $ref resolution graph, and other advanced properties.</li></ul> The `context` parameter is required if you use the `path` property in your function's [return statement](#spectral-function-return-statement-properties).
 
 Learn more about [Spectral rule properties](#spectral-rule-properties).
 
 ### Spectral function return statement properties
 
-Use the following properties to write the return statements in your custom functions depending on your use case.
+Use the following properties to write the return statement in your custom functions depending on your use case.
+
+|<div style="width:110px">Property</div> | Description
+--- | ---
+`message` | **Required**. The message describing the rule violation.
+`path` | The optional [JSON Path Plus expression](#json-path-and-json-path-plus) pointing to the problem. The default value is the value of `context.path`, which points to the value of `input`. The `path` property is often used to investigate sub-elements of the value of `input` or other locations in the document.<!-- If you use the `path` property, you must also use the `context` [parameter](#spectral-function-parameters) in your function. -->
 
 ```js
 return [
@@ -212,14 +217,11 @@ return [
 ];
 ```
 
-|<div style="width:110px">Property</div> | Description
---- | ---
-`message` | **Required**. The message describing the rule violation.
-`path` | The optional [JSON Path Plus expression](#json-path-and-json-path-plus) pointing to the problem. The default value is the value of `context.path`, which points to the value of `input`. The `path` property is often used to investigate sub-elements of the value of `input` or other locations in the document. If you use the `path` property, you must also use the `context` [parameter](#spectral-function-parameters) in your function.
+### Example: Checking that a value isn't in a list
 
-### Example: Function that doesn't expect options
+The following function checks the value of the option `values`, which is defined in the [Spectral document](#example-rule-that-uses-a-custom-function) (or ruleset) using `functionOptions`. The value of `values` is a list of numeric strings. If the `input` path returns a value already in the list, the rule violation is triggered.
 
-The following function checks whether a value isn't in an enumeration. This example function doesn't expect any options.
+> Postman recommends defining the JSON schema of the expected options. See an [example](#example-checking-that-a-value-isnt-in-a-list-json-schema) for more details.
 
 ```js
 function noInEnumeration(input, options, context) {
@@ -237,9 +239,9 @@ function noInEnumeration(input, options, context) {
 module.exports = noInEnumeration;
 ```
 
-### Example: Function that expects options
+### Example: Checking that a value isn't in a list (JSON schema)
 
-The following function checks whether a value isn't in an enumeration. This example function expects options. When a custom function expects options, Postman recommends defining them in a JSON schema.
+The following function checks the value of the option `values`, which is defined in the [Spectral document](#example-rule-that-uses-a-custom-function) (or ruleset) using `functionOptions`. The value of `values` is a list of numeric strings. Also, the JSON schema of the expected options is defined in the same file as the function using `createRulesetFunction`. If the `input` path returns a value already in the list, the rule violation is triggered.
 
 <!-- The function will execute if `options` doesn't contain values because add-more-details. -->
 
@@ -280,9 +282,9 @@ module.exports = createRulesetFunction(
 );
 ```
 
-### Example: Rule that uses a function
+### Example: Rule that uses a custom function
 
-The following Spectral document has a rule named `http-status-obsolete` that uses a function named `notInEnumeration`. The function accepts options that include a property named `values` that's a list of strings.
+The following Spectral document has a rule named `http-status-obsolete` that uses a function named `notInEnumeration`. The function accepts options as a property named `values` that's a list of numeric strings. The value of `then.functionOptions.values` is passed to the function `notInEnumeration`. The function then checks whether a rule violation occurred at the `given` path.
 
 ```yaml
 rules:
