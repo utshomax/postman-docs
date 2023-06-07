@@ -29,19 +29,20 @@ const Hits = ({ hits }) => {
     {hits.length < 1 ? <li>No search results found</li> : ''}
     {hits.map((hit) => {
       // handles develop and prod Algolia index
-      const excerpt = hit._snippetResult && hit._snippetResult.excerpt.value ? hit._snippetResult.excerpt.value : hit.excerpt
+      const excerpt = hit._snippetResult && hit._snippetResult.excerpt.value ? hit._snippetResult.excerpt.value : hit.excerpt;
       return (
-      <li key={uuidv4()}>
-        { !!hit && hit.slug !== 'undefined' && hit.title && hit.excerpt ? (
-          <a href={hit.slug}>
-            <span className="search-title" dangerouslySetInnerHTML={{ __html: hit._highlightResult.title.value }} />
-            <p dangerouslySetInnerHTML={{ __html: excerpt }} />
-          </a>
-        ) : (
-          <p>Search is currently not available</p>
-        )}
-      </li>
-    )})}
+        <li key={uuidv4()}>
+          { !!hit && hit.slug !== 'undefined' && hit.title && hit.excerpt ? (
+            <a href={hit.slug}>
+              <span className="search-title" dangerouslySetInnerHTML={{ __html: hit._highlightResult.title.value }} />
+              <p dangerouslySetInnerHTML={{ __html: excerpt }} />
+            </a>
+          ) : (
+            <p>Search is currently not available</p>
+          )}
+        </li>
+      )}
+    )}
   </ul>
 )};
 /* eslint-enable */
