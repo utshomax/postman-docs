@@ -1,5 +1,6 @@
 import React from 'react';
 import { connectSearchBox, connectHits } from 'react-instantsearch-dom';
+const { v4: uuidv4 } = require('uuid');
 
 
 
@@ -30,11 +31,16 @@ const Hits = ({ hits }) => {
       // handles develop and prod Algolia index
       const excerpt = hit._snippetResult && hit._snippetResult.excerpt.value ? hit._snippetResult.excerpt.value : hit.excerpt
       return (
-      <li key={hit.title}>
-        <a href={hit.fields.slug}>
-          <span className="search-title" dangerouslySetInnerHTML={{ __html: hit._highlightResult.title.value }} />
-          <p dangerouslySetInnerHTML={{ __html: excerpt }} />
-        </a>
+      <li key={uuidv4()}>
+        { !!hit && hit.slug && hit.title && hit.excerpt ? (
+          <a href={hit.slug}>
+            <span className="search-title" dangerouslySetInnerHTML={{ __html: hit._highlightResult.title.value }} />
+            <p dangerouslySetInnerHTML={{ __html: excerpt }} />
+          </a>
+        ) : (
+          <p>Search is currently not available.</p>
+        )}
+
       </li>
     )})}
   </ul>
