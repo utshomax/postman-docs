@@ -25,7 +25,7 @@ Spectral is a linting engine that helps you define custom rules and enforce them
 * [Example: Checking for the presence of a property](#example-checking-for-the-presence-of-a-property)
 * [Spectral custom functions](#spectral-custom-functions)
     * [Spectral function parameters](#spectral-function-parameters)
-    * [Spectral function results](#spectral-function-results)
+    * [Spectral function return statement properties](#spectral-function-return-statement-properties)
     * [Example: Function that doesn't expect options](#example-function-that-doesnt-expect-options)
     * [Example: Function that expects options](#example-function-that-expects-options)
     * [Example: Rule that uses a function](#example-rule-that-uses-a-function)
@@ -180,7 +180,7 @@ You can [add custom governance functions](/docs/api-governance/configurable-rule
 
 ### Spectral function parameters
 
-The following information explains how to add parameters to your custom functions depending on your use case.
+Use the following parameters in your custom functions depending on your use case.
 
 ```js
 function myCustomFunction(input, options, context) { ... }
@@ -189,17 +189,33 @@ function myCustomFunction(input, options, context) { ... }
 |<div style="width:110px">Parameter</div> | Description
 --- | ---
 `input` | **Required**. This can be any data type, such as a string or array. This is the value that the `given` [JSON Path Plus expression](#json-path-and-json-path-plus) returns. The rule tests the value of `input` with the function.
-`options` | The optional value of `then.functionOptions`. Add this parameter to your function if your function expects options. If you use this parameter, Postman recommends defining the expected option in a JSON schema. See an [example](#example-function-that-expects-options) for more details.
-`context` | Optional values that provide more details about the function. These values are follows: <br><ul><li>`path` - The `given` [JSON Path Plus expression](#json-path-and-json-path-plus) pointing to `input`. </li><li>`document` - The Spectral document that's analyzed.</li><li>`rule` - The rule that's using the function.</li><li>`documentInventory` - Provides access to resolved and unresolved Spectral documents, the $ref resolution graph, and other advanced properties.</li></ul>
+`options` | The optional values of `then.functionOptions`. Add this parameter to your function if your function expects options. If you use this parameter, Postman recommends defining the expected options in a JSON schema. See an [example](#example-function-that-expects-options) for more details.
+`context` | Optional values that provide more details about the function. These values are follows: <br><ul><li>`path` - The `given` [JSON Path Plus expression](#json-path-and-json-path-plus) pointing to `input`. </li><li>`document` - The Spectral document that's analyzed.</li><li>`rule` - The rule that's using the function.</li><li>`documentInventory` - Provides access to resolved and unresolved Spectral documents, the $ref resolution graph, and other advanced properties.</li></ul> The `context` parameter is required if you use the `path` property in your function's [return statement](#spectral-function-return-statement-properties).
 
 Learn more about [Spectral rule properties](#spectral-rule-properties).
 
-### Spectral function results
+### Spectral function return statement properties
+
+Use the following properties to write the return statements in your custom functions depending on your use case.
+
+```js
+return [
+  // Rule violation with the default input path
+  {
+    message: `Value must be different from "${values.join(',')}".`,
+  },
+  // Rule violation with a custom path leveraging the default input path
+  {
+    message: `Value must be different from "${values.join(',')}".`,
+    path: [...context.path, "a", "custom", "path"]
+  },
+];
+```
 
 |<div style="width:110px">Property</div> | Description
 --- | ---
-`message` | **Required**. The message describing the problem.
-`path` | The [JSON Path Plus expression](#json-path-and-json-path-plus) pointing to the problem. The default value is the value of `context.path`. This property is often used to investigate sub-elements of the value of `input` or other locations in the document.
+`message` | **Required**. The message describing the rule violation.
+`path` | The optional [JSON Path Plus expression](#json-path-and-json-path-plus) pointing to the problem. The default value is the value of `context.path`, which points to the value of `input`. The `path` property is often used to investigate sub-elements of the value of `input` or other locations in the document. If you use the `path` property, you must also use the `context` [parameter](#spectral-function-parameters) in your function.
 
 ### Example: Function that doesn't expect options
 
