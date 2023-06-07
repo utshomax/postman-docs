@@ -40,6 +40,7 @@ const Hits = ({ hits }) => {
         ) : (
           <p>Search is currently not available.</p>
         )}
+
       </li>
     )})}
   </ul>
