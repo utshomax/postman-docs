@@ -66,4 +66,4 @@ After you purchase a Postman Enterprise plan, you can customize it to meet your 
 
 ## Purchasing a Postman Enterprise plan
 
-To purchase a Postman Enterprise plan,  visit [www.postman.com/pricing(https://www.postman.com/pricing/) or contact the [Postman sales team](https://www.postman.com/company/contact-sales/). To learn more, see [Purchasing Postman](/docs/administration/buying/). After you purchase your plan, the Postman team will help set up Postman Enterprise for your organization.
+To purchase a Postman Enterprise plan,  visit [www.postman.com/pricing](https://www.postman.com/pricing/) or contact the [Postman sales team](https://www.postman.com/company/contact-sales/). To learn more, see [Purchasing Postman](/docs/administration/buying/). After you purchase your plan, the Postman team will help set up Postman Enterprise for your organization.
