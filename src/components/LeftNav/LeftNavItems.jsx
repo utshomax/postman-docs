@@ -1102,6 +1102,10 @@ export const leftNavItems = [
         url: '/docs/administration/audit-logs/',
       },
       {
+        name: 'Managing API keys',
+        url: '/docs/administration/managing-api-keys/',
+      },      
+      {
         name: 'Token scanner',
         url: '/docs/administration/token-scanner/',
       },
