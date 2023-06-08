@@ -1102,7 +1102,7 @@ export const leftNavItems = [
         url: '/docs/administration/audit-logs/',
       },
       {
-        name: 'Token scanner',
+        name: 'Secret scanner',
         url: '/docs/administration/token-scanner/',
       },
       {
