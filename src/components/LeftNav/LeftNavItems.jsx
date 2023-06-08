@@ -487,6 +487,10 @@ export const leftNavItems = [
             url: '/docs/postman-flows/concepts/requests-and-variables/',
           },
           {
+            name: 'Picking information you want',
+            url: '/docs/postman-flows/concepts/picking-information/',
+          },
+          {
             name: 'Passing information between blocks',
             url: '/docs/postman-flows/concepts/passing-information-between-blocks/',
           },
@@ -495,8 +499,8 @@ export const leftNavItems = [
             url: '/docs/postman-flows/concepts/adding-authentication/',
           },
           {
-            name: 'Deploying a flow ',
-            url: '/docs/postman-flows/concepts/deploying-a-flow/',
+            name: 'Automatic Runs',
+            url: '/docs/postman-flows/concepts/automatic-runs/',
           },
           {
             name: 'Organizing a flow',
