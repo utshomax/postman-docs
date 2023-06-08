@@ -78,8 +78,6 @@ To start an Interceptor session, do the following:
 
 1. Select **Start Capture**.
 
-
-
 ### Running the Interceptor debug session
 
 While your Interceptor session is running, the **Interceptor Debug Session** window will show captured traffic as you use the Chrome browser.
