@@ -33,7 +33,7 @@ The performance test runs on your computer and not in the cloud. When you start 
 
 ## Configuring a performance test
 
-> **Use the Postman desktop app to configure and run performance tests.** You can't use the Postman web app for performance testing. During a performance test, all requests are sent from your computer where you are running the Postman desktop app.
+> **Use the Postman desktop app to configure and run performance tests.** You can't use the Postman web app for performance testing. During a performance test, all requests are sent from the host computer where you are running the Postman desktop app.
 
 Before you configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to use to simulate user activity. For each virtual user, Postman will run the collection in parallel and repeatedly to simulate real-world load on your API.
 
@@ -59,13 +59,9 @@ To configure a performance test in the Postman desktop app, do the following:
 
 1. When you're ready to begin the performance test, select **Run**.
 
-<img alt="Configuring a performance test" src="https://assets.postman.com/postman-docs/v10/performance-test-configure-v10-xx.jpg"/>
+<img alt="Configuring a performance test" src="https://assets.postman.com/postman-docs/v10/performance-test-configure-v10-15.jpg"/>
 
 > Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of performance runs you can use each month. A message will display in the Collection Runner when you're approaching your usage limit. Learn more about [resource usage](/docs/administration/resource-usage/) in Postman.
-
-<!-- -->
-
-> If you have a problem with the performance testing feature, contact the [Postman support team](https://support.postman.com/hc/en-us). Make sure to attach your [Postman logs](https://support.postman.com/hc/en-us/articles/360025298633-How-to-get-logs-from-the-Postman-Desktop-app) in your support request.
 
 ### Virtual users and system resources
 
@@ -78,6 +74,8 @@ Use the following guidelines to understand how many virtual users you can simula
 
 Attempting to simulate a higher number of virtual users may cause inaccurate metrics and reduced throughput (requests per second). Postman recommends running a small test with 10–20 virtual users and observing system resource usage. You can use this information to estimate that maximum number of virtual users that can be simulated for your collection and host computer.
 
+> If you have a problem with the performance testing feature, contact the [Postman support team](https://support.postman.com/hc/en-us). Make sure to attach your [Postman logs](https://support.postman.com/hc/en-us/articles/360025298633-How-to-get-logs-from-the-Postman-Desktop-app) in your support request.
+
 ## Viewing performance metrics
 
 During a performance test, all requests are sent from your computer where you are running the Postman desktop app. The **Summary** tab displays performance metrics in real time so you can observe how your API performs under load.
@@ -86,11 +84,11 @@ During a performance test, all requests are sent from your computer where you ar
 
 You can view the following information about the performance test:
 
-* Name of the collection being run and the active environment (if any).
+* Name of the collection being run and the active environment (if any). Select the name to open the collection or environment.
 * The number of virtual users (VU). Each virtual user simulates the behavior of a real-world user by running the collection repeatedly, in parallel with other virtual users.
 * Start time, duration, and load profile (fixed or ramp up).
 * **Total requests sent** - The total number of requests sent across all virtual users.
-* **Requests/s** - The number of requests sent each second during the performance test, a measure of throughput.
+* **Requests/second** - The number of requests sent each second during the performance test, a measure of throughput.
 * **Avg. response time** - The response time in milliseconds of all requests averaged together.
 * **Error rate** - The percentage of requests that result in an error. Responses other than 2xx responses are considered errors.
 
@@ -126,7 +124,7 @@ To change the graph back to the default view, select **Reset**.
 
 <img alt="Viewing metrics for a request" src="https://assets.postman.com/postman-docs/v10/performance-test-request-v10-13.jpg" width="500px"/>
 
-To view details for a section of the graph, select a point on the graph. The table below the graph shows throughput, response time, and error metrics for each request during the selected time period. To change the graph back to the default time period, select **Clear Filter**.
+To view details for a section of the graph, select a point on the graph. The table below the graph shows total requests, throughput, response time, and error metrics for each request during the selected time period. To change the graph back to the default time period, select **Clear Filter**.
 
 <img alt="Viewing a time period" src="https://assets.postman.com/postman-docs/v10/performance-test-zoom-v10-13b.jpg" width="620px"/>
 
@@ -136,26 +134,28 @@ During a performance test, requests that result in a response other than a 2xx s
 
 ### Viewing top errors
 
-You can view top errors while the performance test is running or after the test is complete.
+You can view top errors on the **Summary** tab while the performance test is running or after the test is complete.
 
-On the **Summary** tab, hover over the **Error rate** above the graph to view the top three error classes encountered during the test. You can also hover over the error rate for a specific request below the graph to view the the top three errors for that request. This information can help you understand which requests are associated with certain classes of errors.
+Hover over a point on the graph to view the the top three errors at that point.
+
+Select the **Error rate** above the graph to view the top errors for the entire test.
 
 ### Viewing error trends
 
-You can view error trends after the performance test is complete.  The error trend shows the top five errors that occurred during the test and the frequency of those errors over time. This information can help you understand how error rates change in response to increased load on your API.
+You can view error trends after the performance test is complete. The error trend shows the top five errors that occurred during the test and the frequency of those errors over time. This information can help you understand how error rates change in response to increased load on your API.
 
-To view error trends, select the **Errors** tab above the graph. You can also hover over the **Error rate** on the **Summary** tab and select **View Error Trends**.
+To view error trends, select the **Errors** tab above the graph. You can also select the **Error rate** on the **Summary** tab and select **View Error Trends**.
 
 The error trends graph shows the following information:
 
 * **Error rate** - The percentage of requests that result in an error. Responses other than 2xx responses are considered errors.
 * **Errored requests / Total requests sent** - The number of requests resulting in errors compared to the total number of requests sent across all virtual users.
-* **Top error class** - The class of error that occurred most often during the test.
+* **Top error** - The type of error that occurred most often during the test.
 * **Top request with errors** - The request that had the highest number of error responses.
 
 Hover over a point on the graph to view more details.
 
-To view the error trends for a specific request, select the request in the dropdown list above the graph.
+To view the error trends for a specific request, select the request in the dropdown list above the graph. This information can help you understand which requests are associated with certain types of errors.
 
 ## Viewing past performance runs
 
