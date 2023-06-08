@@ -29,7 +29,7 @@ You can [collaborate on Postman elements](https://www.postman.com/api-platform/a
 
 To share your work using workspaces, you need to be signed in to your [Postman account](/docs/getting-started/postman-account/).
 
-> This page has information about sharing Postman collections, folders, APIs, requests, Flows, and environments using the **Share** function. Other Postman elements are shared differently:
+> This page has information about sharing Postman collections, collection folders, APIs, requests, Flows, and environments using the **Share** function. Other Postman elements are shared differently:
 >
 > * To share a collection run, see [Using the Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 > * To share a collection as a file, see [Importing and exporting data](/docs/getting-started/importing-and-exporting-data/).
