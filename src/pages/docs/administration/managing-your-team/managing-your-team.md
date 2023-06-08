@@ -1,6 +1,6 @@
 ---
 title: "Managing your team"
-updated: 2023-06-07
+updated: 2023-06-08
 contextual_links:
   - type: section
     name: "Additional resources"
