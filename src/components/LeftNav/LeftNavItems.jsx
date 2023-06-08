@@ -983,10 +983,6 @@ export const leftNavItems = [
         name: 'Monitoring FAQs',
         url: '/docs/monitoring-your-api/faqs-monitors/',
       },
-      {
-        name: 'Monitoring API uptime',
-        url: '/docs/monitoring-your-api/uptime-monitors/',
-      },
     ],
   },
   {
