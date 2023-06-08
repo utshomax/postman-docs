@@ -49,6 +49,9 @@ Postman Enterprise offers greater control to administrators looking to deploy an
 
 * [Installing the Postman Enterprise Linux app](#installing-the-postman-enterprise-linux-app)
 
+    * [Encrypting data](#encrypting-data)
+    * [Restricting usage](#restricting-usage)
+
 ## Managing Postman app versioning
 
 Postman app versioning enables you to set a team-wide version of Postman. You can choose to set Postman v8, Postman v9, or Postman v10 as your team's version. App versioning is a back-end operation and must be requested by a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
