@@ -1,9 +1,6 @@
 ---
 title: "Managing your team"
-order: 121
 updated: 2022-12-19
-page_id: "managing_your_team"
-warning: false
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -23,7 +20,6 @@ contextual_links:
   - type: link
     name: "Govern Your Public API Collections More Effectively"
     url: "https://blog.postman.com/govern-your-public-api-collections-more-effectively/"
-
 ---
 
 > **[Some team options are only available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
@@ -35,11 +31,9 @@ Postman provides a variety of options to customize your team's experience, from 
 * [Setting up your team](#setting-up-your-team)
 * [Managing team members](#managing-team-members)
     * [Inviting users](#inviting-users)
-        * [Understanding invite permissions](#understanding-invite-permissions)
     * [Managing invites](#managing-invites)
     * [Removing team members](#removing-team-members)
     * [Managing team roles](#managing-team-roles)
-        * [Managing Super Admins](#managing-super-admins)
     * [Managing Partners](#managing-partners)
     * [Managing Guests](#managing-guests)
 * [Managing your team’s Postman plan](#managing-your-teams-postman-plan)
