@@ -114,6 +114,8 @@ To review information about an element, select it from the left sidebar. On the 
 
 For workspaces, you can view all of the collections and APIs inside them. For collections, you can view available documentation; you can select **Try Request** next to a request or **Try Example** next to an example to open it in a new tab. For APIs, you can view definitions and associated collections.
 
+To learn more about trying an example, see [Trying an example](/docs/sending-requests/examples/#trying-an-example).
+
 You can also open the element in its workspace. Select an element from the left sidebar, and then select either **View in Workspace** or **Open Workspace** in the upper-right corner.
 
 ### Sharing folders and elements
