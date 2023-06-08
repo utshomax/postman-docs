@@ -26,7 +26,7 @@ Spectral is a linting engine that helps you define custom rules and enforce them
 * [Spectral custom functions](#spectral-custom-functions)
     * [Spectral function parameters](#spectral-function-parameters)
     * [Spectral function return statement properties](#spectral-function-return-statement-properties)
-    * [Spectral function objects](#spectral-function-objects)
+    * [Spectral function object properties](#spectral-function-object-properties)
     * [Example: Checking that a value isn't in a list](#example-checking-that-a-value-isnt-in-a-list)
     * [Example: Rule that uses a custom function](#example-rule-that-uses-a-custom-function)
 
@@ -178,7 +178,7 @@ rules:
 
 You can [add custom governance functions](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/) to use in your custom governance rules. You can use these guidelines to write custom functions in JavaScript and add them to your custom governance rules. Postman supports CommonJS syntax for custom functions.
 
-To write a custom function, your function must have the `input` parameter, the `message` property in your return statement, and the `module.exports` object exporting your function. To use a custom function in a rule, your rule must have the `then.function` property importing your function.
+To write a custom function, your function must have the [`input` parameter](#spectral-function-parameters), the [`message` property](#spectral-function-return-statement-properties) in your return statement, and the [`module.exports` object property](#spectral-function-object-properties) exporting your function. To use a custom function in a rule, your rule must have the `then.function` property importing your function.
 
 ### Spectral function parameters
 
@@ -188,13 +188,11 @@ Use the following parameters in your custom functions depending on your use case
 --- | ---
 `input` | **Required**. This can be any data type, such as a string or array. This is the value that the `given` [JSON Path Plus expression](#json-path-and-json-path-plus) returns. The rule tests the value of `input` using the function.
 `options` | The optional values of `then.functionOptions`. Add this parameter to your function if your function expects options.
-`context` | Optional values that provide more details about the function. These values are as follows: <br><ul><li>`path` - The `given` [JSON Path Plus expression](#json-path-and-json-path-plus) pointing to `input`. </li><li>`document` - The Spectral document that's analyzed.</li><li>`rule` - The rule that's using the function.</li><li>`documentInventory` - Provides access to resolved and unresolved Spectral documents, the $ref resolution graph, and other advanced properties.</li></ul><!-- The `context` parameter is required if you use the `path` property in your function's [return statement](#spectral-function-return-statement-properties). -->
+`context` | This optional parameter is used in advanced use cases where you need to investigate several elements. You can use the parameter to access properties about the function. These properties are as follows: <br><ul><li>`path` - The `given` [JSON Path Plus expression](#json-path-and-json-path-plus) pointing to `input`. </li><li>`document` - The document you're attempting to lint.</li><li>`rule` - The rule that's using the function.</li><li>`documentInventory` - Provides access to resolved and unresolved documents, the $ref resolution graph, and other advanced properties.</li></ul>
 
 ```js
 function myCustomFunction(input, options, context) { ... }
 ```
-
-Learn more about [Spectral rule properties](#spectral-rule-properties).
 
 ### Spectral function return statement properties
 
@@ -203,7 +201,7 @@ Use the following properties to write the return statement in your custom functi
 |<div style="width:150px">Property</div> | Description
 --- | ---
 `message` | **Required**. The message describing the rule violation.
-`path` | The optional [JSON Path Plus expression](#json-path-and-json-path-plus) pointing to the problem. The default value is the value of `context.path`, which points to the value of `input`. The `path` property is often used to investigate sub-elements of the value of `input` or other locations in the document.<!-- If you use the `path` property, you must also use the `context` [parameter](#spectral-function-parameters) in your function. -->
+`path` | An optional [JSON Path Plus expression](#json-path-and-json-path-plus) that you can append to the default value of `context.path`, which points to the value of `input`. The `path` property is often used to investigate sub-elements of the value of `input` or other locations in the document. If you use the `path` property, you must also use the [`context` parameter](#spectral-function-parameters) in your function. <br> Use the following syntax to add the `path` property to your function and append a custom path: `path: [...context.path, "a", "custom", "path"]`
 
 ```js
 return [
@@ -219,15 +217,17 @@ return [
 ];
 ```
 
-### Spectral function objects
+### Spectral function object properties
 
-Add the following objects to your function's file.
+Add the following object property to your function's file.
 
-|<div style="width:150px">Object</div> | Description
+|<div style="width:150px">Object property</div> | Description
 --- | ---
-`module.exports` | **Required**. The object that exports the function, allowing the rule to import it using `then.function`. The value of `module.exports` and the function's name must be the same.
+`module.exports` | **Required**. The object property that exports the function, allowing the rule to import it using `then.function`. The value of `module.exports` and the function's name must be the same.
 
 ```js
+function myCustomFunction(input, options, context) { ... }
+
 module.exports = myCustomFunction;
 ```
 
