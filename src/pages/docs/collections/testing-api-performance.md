@@ -49,7 +49,7 @@ To configure a performance test in the Postman desktop app, do the following:
 1. Select the **Performance** tab.
 1. Enter the number of **Virtual users**. While the test is running, Postman repeatedly runs the collection for each virtual user. A higher number of virtual users puts increased load on your API.
 
-    > The maximum number of virtual users you can use depends on the CPU and memory available on the computer where you are running the performance test.
+    > The maximum number of virtual users you can simulate depends on available system resources and the collection you're using. Learn more about [virtual users and system resources](#virtual-users-and-system-resources).
 
 1. Enter the **Test duration** in minutes.
 1. Select a **Load Profile**.
@@ -66,6 +66,17 @@ To configure a performance test in the Postman desktop app, do the following:
 <!-- -->
 
 > If you have a problem with the performance testing feature, contact the [Postman support team](https://support.postman.com/hc/en-us). Make sure to attach your [Postman logs](https://support.postman.com/hc/en-us/articles/360025298633-How-to-get-logs-from-the-Postman-Desktop-app) in your support request.
+
+### Virtual users and system resources
+
+The maximum number of virtual users a performance test can simulate depends on available system resources and the collection used for the test. Using pre-request or test scripts will reduce the number of virtual users that can be simulated.
+
+Use the following guidelines to understand how many virtual users you can simulate:
+
+* A host with 8 CPU cores and 16 GB RAM can simulate up to 250 virtual users
+* A host with 16 CPU cores and 32 GB RAM can simulate up to 500 virtual users
+
+Attempting to simulate a higher number of virtual users may cause inaccurate metrics and reduced throughput (requests per second). Postman recommends running a small test with 10–20 virtual users and observing system resource usage. You can use this information to estimate that maximum number of virtual users that can be simulated for your collection and host computer.
 
 ## Viewing performance metrics
 
