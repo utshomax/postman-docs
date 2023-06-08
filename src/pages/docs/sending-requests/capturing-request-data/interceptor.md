@@ -1,8 +1,6 @@
 ---
 title: "Using Postman Interceptor"
-order: 34
-page_id: "interceptor"
-updated: 2022-03-02
+updated: 2023-06-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -16,8 +14,6 @@ contextual_links:
   - type: link
     name: "Postman Interceptor: The Next Generation View Source for The API Economy"
     url:  "https://blog.postman.com/postman-interceptor-the-next-generation-view-source-for-the-api-economy/"
-
-warning: false
 
 ---
 
@@ -45,7 +41,7 @@ Once Interceptor is running in Chrome, you can start a debug session, which is a
 
 > You can't use Interceptor with the [Postman web app](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman desktop app](/docs/getting-started/installation-and-updates/).
 
-1. [Download](https://go.pstmn.io/interceptor-download) Interceptor in the Chrome Web Store. If you already have the extension, ensure it's version v0.2.26 or later.
+1. [Download](https://go.pstmn.io/interceptor-download) Interceptor in the Chrome Web Store. If you already have the extension, ensure it's version v0.2.26 or later.<!--TODO: should we say the new version? -->
 1. Select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** in the Postman footer.
 1. On the **Capture requests** window, select the **Via Interceptor** tab.
 
@@ -79,7 +75,7 @@ To start an Interceptor session, do the following:
 
 1. Select **Start Capture**.
 
-<img src="https://assets.postman.com/postman-docs/interceptor-capture-cookies-v9-15.jpg" alt="Capture cookies" width="412px"/>
+<img src="https://assets.postman.com/postman-docs/interceptor-capture-cookies-v9-15.jpg" alt="Capture cookies" width="412px"/> <!--TODO: replace -->
 
 ### Running the Interceptor debug session
 
@@ -122,6 +118,38 @@ The **Overview** displays summary graphs of the traffic captured in the session.
 The **Requests** and **Cookies** tabs display requests, responses, and cookies, similar to the same tabs available during a capture session. The same options for searching, expanding, saving, and deleting items described in Step 4 are available. You can also add selected requests to a collection. Use the controls at the bottom of the table to limit the number of items per page and view the pages of results.
 
 You can rename an Interceptor debug session by selecting the name at the top of the window and entering a new name. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the debug session name to rename or delete the session.
+
+### Using Interceptor from Chrome
+
+In addition to using Interceptor from within the Postman app, you can also control it from the Chrome extension in the browser.
+
+<!-- TODO: screenshot -->
+
+<!--
+
+Capture Requests tab
+
+Recent requests
+    View in Postman link
+    Ready to capture/Interceptor disconnected
+
+
+Methods dropdown
+
+URL filter dropdown/chooser
+
+Start Capture
+
+clock
+
+
+Sync Cookies tab
+    Domains
+    stop syncing
+
+
+-->
+
 
 ## How it works
 
