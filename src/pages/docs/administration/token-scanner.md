@@ -1,9 +1,6 @@
 ---
-title: "Token scanner"
-order: 115
-page_id: "token-scanner"
-updated: 2022-11-30
-warning: false
+title: "Secret scanner"
+updated: 2023-06-06
 contextual_links:
   - type: section
     name: "Additional resources"
