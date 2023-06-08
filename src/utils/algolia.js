@@ -14,17 +14,17 @@ require('dotenv').config({
 const algoliaIndex = (process.env.NODE_ENV === 'development') ? 'dev_docs' : 'docs';
 
 const pageQuery = `{
-  docs: allMarkdownRemark(
+  allMarkdownRemark(
     filter: {
       fileAbsolutePath: { regex: "/docs/" },
     }
   ) {
     edges {
       node {
+        id
         headings(depth: h2) {
           value
         }
-        id
         frontmatter {
           title
           search_keyword
@@ -32,31 +32,48 @@ const pageQuery = `{
         fields {
           slug
         }
-        excerpt(
-          pruneLength: 6700
-        )
+        rawMarkdownBody
+        internal {
+          contentDigest
+        }
+        excerpt
       }
     }
   }
 }`;
 
 
-function pageToAlgoliaRecord({ node: { id, frontmatter, ...rest } }) {
-  return {
-    objectID: id,
-    ...frontmatter,
-    ...rest,
-  };
-}
-
-const settings = { attributesToSnippet: ['excerpt:20'] };
-
 const queries = [
   {
     query: pageQuery,
-    transformer: ({ data }) => data.docs.edges.map(pageToAlgoliaRecord),
+    transformer: ({ data }) => {
+       return data.allMarkdownRemark.edges.map(edge => edge.node).reduce((acc, post) => {
+          const pChunks = post.rawMarkdownBody.split('##');
+          
+          const chunks = pChunks.map((chnk, index) => ({
+            objectID: post.id + '-' + index,
+            headings: post.headings,
+            slug: post.fields.slug,
+            title: post.frontmatter.title,
+            internal: post.internal,
+            excerpt: post.excerpt,
+            search_keyword: post.frontmatter.search_keyword,
+            content: chnk
+          }));
+          return [...acc, ...chunks]
+        }, [])
+    },
     indexName: algoliaIndex,
-    settings,
+    // mergeSettings: false, // overrites index settings and replaces them with settings from the config on each build
+    settings: { // by supplying settings, you will overwrite all existing settings on the index
+      attributesToSnippet: ['excerpt:20'],
+      attributeForDistinct: 'slug',
+      distinct: 1,
+      customRanking: [
+        'desc(search_keyword)',
+        'desc(content)'
+      ]
+    }
   },
 ];
 
