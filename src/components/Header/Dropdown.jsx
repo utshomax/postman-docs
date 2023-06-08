@@ -68,7 +68,7 @@ const Dropdown = () => {
           indexName={algoliaIndex}
           refresh={refresh}
         >
-          <Configure hitsPerPage={5} />
+          <Configure hitsPerPage={5} distinct/>
 
           {/* forcefeed className because component does not accept natively as prop */}
           <SearchBox
