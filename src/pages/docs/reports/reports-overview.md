@@ -28,7 +28,7 @@ Access your reports in your [Postman reports dashboard](https://go.postman.co/re
 
 ## Getting started with reports
 
-Reports give information about activity in Postman, including [sharing your API](/docs/designing-and-developing-your-api/managing-apis/), [adding a collection to the API](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/#adding-a-collection), and [sending a request](/docs/sending-requests/requests/) from the collection.
+Reports give information about various aspects of your team and plan, including [member](/docs/reports/members-overview-reports/) and [content](/docs/reports/content-activity-reports/) activity, [API security](/docs/reports/api-security-reports/), and [billing and overage](/docs/reports/billing-overview-reports/) information.
 
 To view your reports dashboard:
 
