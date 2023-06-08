@@ -27,7 +27,6 @@ Spectral is a linting engine that helps you define custom rules and enforce them
     * [Spectral function parameters](#spectral-function-parameters)
     * [Spectral function return statement properties](#spectral-function-return-statement-properties)
     * [Example: Checking that a value isn't in a list](#example-checking-that-a-value-isnt-in-a-list)
-    * [Example: Checking that a value isn't in a list (JSON schema)](#example-checking-that-a-value-isnt-in-a-list-json-schema)
     * [Example: Rule that uses a custom function](#example-rule-that-uses-a-custom-function)
 
 ## How Spectral works
@@ -185,7 +184,7 @@ Use the following parameters in your custom functions depending on your use case
 |<div style="width:110px">Parameter</div> | Description
 --- | ---
 `input` | **Required**. This can be any data type, such as a string or array. This is the value that the `given` [JSON Path Plus expression](#json-path-and-json-path-plus) returns. The rule tests the value of `input` using the function.
-`options` | The optional values of `then.functionOptions`. Add this parameter to your function if your function expects options. If you use this parameter, Postman recommends defining the JSON schema of the expected options. See an [example](#example-checking-that-a-value-isnt-in-a-list-json-schema) for more details.
+`options` | The optional values of `then.functionOptions`. Add this parameter to your function if your function expects options.
 `context` | Optional values that provide more details about the function. These values are as follows: <br><ul><li>`path` - The `given` [JSON Path Plus expression](#json-path-and-json-path-plus) pointing to `input`. </li><li>`document` - The Spectral document that's analyzed.</li><li>`rule` - The rule that's using the function.</li><li>`documentInventory` - Provides access to resolved and unresolved Spectral documents, the $ref resolution graph, and other advanced properties.</li></ul><!-- The `context` parameter is required if you use the `path` property in your function's [return statement](#spectral-function-return-statement-properties). -->
 
 ```js
@@ -221,8 +220,6 @@ return [
 
 The following function checks the value of the option `values`, which is defined in the [Spectral document](#example-rule-that-uses-a-custom-function) (or ruleset) using `functionOptions`. The value of `values` is a list of numeric strings. If the `input` path returns a value already in the list, the rule violation is triggered.
 
-> Postman recommends defining the JSON schema of the expected options. See an [example](#example-checking-that-a-value-isnt-in-a-list-json-schema) for more details.
-
 ```js
 function noInEnumeration(input, options, context) {
   const { values } = options;
@@ -237,49 +234,6 @@ function noInEnumeration(input, options, context) {
 }
 
 module.exports = noInEnumeration;
-```
-
-### Example: Checking that a value isn't in a list (JSON schema)
-
-The following function checks the value of the option `values`, which is defined in the [Spectral document](#example-rule-that-uses-a-custom-function) (or ruleset) using `functionOptions`. The value of `values` is a list of numeric strings. Also, the JSON schema of the expected options is defined in the same file as the function using `createRulesetFunction`. If the `input` path returns a value already in the list, the rule violation is triggered.
-
-<!-- The function will execute if `options` doesn't contain values because add-more-details. -->
-
-```js
-const { createRulesetFunction } = require("@stoplight/spectral-core");
-
-function noInEnumeration(input, options, context) {
-  const { values } = options;
-  // Should crash if options doesn't contain "values"
-  // But will not crash as JSON Schema control avoid calling function
-  if (values.includes(input)) {
-    return [
-      {
-        message: `Value must be different from "${values.join(',')}".`,
-      },
-    ];
-  }
-}
-
-module.exports = createRulesetFunction(
-  {
-    // JSON schema defining input
-    input: null,
-    // JSON schema defining functionOptions
-    options: {
-      type: "object",
-      additionalProperties: false,
-      properties: {
-        values: {
-          type: "array"
-        }
-      },
-      required: ["values"],
-    },
-  },
-  // The function
-  noInEnumeration,
-);
 ```
 
 ### Example: Rule that uses a custom function
