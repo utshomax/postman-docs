@@ -65,6 +65,8 @@ Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number
 
 You can check your performance test usage on the [Resource Usage dashboard](https://go.postman.co/billing/add-ons/overview). Also, a message will display in the Collection Runner when you're approaching your usage limit.
 
+<img alt="Performance test usage error" src="https://assets.postman.com/postman-docs/v10/usage-error-performance-test-v10-15.jpg" width="545px"/>
+
 Once you've reached your usage limit, you will no longer be able to run performance tests. To resume running performance tests before your monthly limit resets, you can [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
 
 ## Custom domains
