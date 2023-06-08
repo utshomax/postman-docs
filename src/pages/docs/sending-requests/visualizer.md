@@ -1,53 +1,43 @@
 ---
 title: "Visualizing responses"
 updated: 2021-02-17
-search_keyword: "pm.visualizer.set, visualizer.set, pm.response.json, response.json, pm.getData, getData"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Receiving responses"
-    url: "/docs/sending-requests/responses/"
-  - type: link
-    name: "Intro to scripts"
-    url: "/docs/writing-scripts/intro-to-scripts/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Learn about Postman Visualizer"
     url: "https://www.youtube.com/watch?v=nQNbdfKKQfc"
   - type: link
-    name: "PostmanVisualizer demo"
+    name: "Postman Visualizer demo"
     url: "https://www.youtube.com/watch?v=i1jU-kivApg"
   - type: link
     name: "Create a Custom OneSignal Dashboard Using Postman Visualizer"
     url: "https://youtu.be/Prgff3__-mw"
   - type: dynamic_blog
-    name: "Blog Posts"
+    name: "Blog posts"
     blog_tag: "visualizer"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Sample Visualizations"
     url: "https://www.postman.com/postman/workspace/sample-visualizations/overview"
   - type: link
     name: "More Visualizer Examples"
     url: "https://www.postman.com/postman/workspace/more-visualizer-examples/overview"
-
 ---
 
 The _Postman Visualizer_ provides a programmable way to visually represent your request [responses](/docs/sending-requests/responses/). Visualization code added to the __Tests__ for a request will render in the __Visualize__ tab for the response body, alongside the Pretty, Raw, and Preview options.
 
 [![Visualizer rendering](https://assets.postman.com/postman-docs/visualizer-v8.jpg)](https://assets.postman.com/postman-docs/visualizer-v8.jpg)
 
-Visualizers let you present your response data in ways that help to make sense of it. You can use visualizers to model and highlight the information that's relevant to your project, instead of having to read through raw response data. When you [share a Postman Collection](/docs/collaborating-in-postman/sharing/), other people on your team can also understand your visualizations within the context of each request.
+The Visualizer enables you to present your response data in ways that help to make sense of it. You can use this to model and highlight the information that's relevant to your project, instead of having to read through raw response data. When you [share a Postman Collection](/docs/collaborating-in-postman/sharing/), other people on your team can also understand your visualizations within the context of each request.
 
 ## Contents
 
 * [Visualizing response data](#visualizing-response-data)
-    * [Adding visualizer code](#adding-visualizer-code)
+    * [Adding Visualizer code](#adding-visualizer-code)
     * [Rendering HTML](#rendering-html)
     * [Viewing visualizations](#viewing-visualizations)
     * [Adding styling and interaction to visualizations](#adding-styling-and-interaction-to-visualizations)
@@ -55,7 +45,7 @@ Visualizers let you present your response data in ways that help to make sense o
     * [Accessing data inside the template](#accessing-data-inside-the-template)
 * [Try it out](#try-it-out)
 * [Visualizer API](#visualizer-api)
-* [Debugging visualizers](#debugging-visualizers)
+* [Debugging the Visualizer](#debugging-the-visualizer)
 * [Next steps](#next-steps)
 
 ## Visualizing response data
@@ -64,19 +54,19 @@ Visualizers let you present your response data in ways that help to make sense o
 
 <br/>
 
-To visualize your response data, add code to the __Pre-request__ or __Tests__ [script](/docs/writing-scripts/intro-to-scripts/) for the request. The `pm.visualizer.set()` method will apply your visualizer code to the data and present it in the __Visualize__ tab when the request runs.
+To visualize your response data, add code to the __Pre-request__ or __Tests__ [script](/docs/writing-scripts/intro-to-scripts/) for the request. The `pm.visualizer.set()` method will apply your Visualizer code to the data and present it in the __Visualize__ tab when the request runs.
 
-### Adding visualizer code
+### Adding Visualizer code
 
 The `pm.visualizer.set()` method accepts a [Handlebars](https://handlebarsjs.com/) template string as its first parameter. The second parameter is the data you want to use the template to display. Read on to learn how you can build a Handlebars template and pass data to it.
 
 ### Rendering HTML
 
-For an example of a basic visualizer in action, open the following request in Postman:
+For an example of the Visualizer in action, open the following collection in Postman:
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/4e3ee3d03f6e2e7fc250)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/7865888-07101503-1e33-4f29-b845-d94e726751c8?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D7865888-07101503-1e33-4f29-b845-d94e726751c8%26entityType%3Dcollection%26workspaceId%3D34f3a42c-18a7-4ad6-83fb-2c05767d63a7)
 
-The example endpoint responds with a list of names and email addresses with the following JSON response body structure:
+In the first request, the example endpoint responds with a list of names and email addresses with the following JSON response body structure:
 
 ```js
 [
@@ -92,7 +82,7 @@ The example endpoint responds with a list of names and email addresses with the 
 ]
 ```
 
-The visualizer code creates a Handlebars template to render a table displaying the names and email addresses by looping over an array. Handlebars can do this with the `{{#each}}` tag. This script runs in the request __Tests__:
+The Visualizer code creates a Handlebars template to render a table displaying the names and email addresses by looping over an array. Handlebars can do this with the `{{#each}}` tag. This script runs in the request __Tests__:
 
 ```js
 var template = `
@@ -148,28 +138,33 @@ The `pm.getData(callback)` method takes a callback function as its parameter. Th
 
 ## Try it out
 
-For more examples of visualizer code in action, import any of the following collections. Use the __Run in Postman__ buttons to import from the documentation for each one. Import the collection, then open a request from __Collections__ in the sidebar. Select __Send__ to run it. Postman will display the rendered data in __Visualize__.
+For more examples of Visualizer code in action, add any of the following collections to your workspace by [forking the collection](/docs/collaborating-in-postman/using-version-control/forking-entities/). You can also [export and then import](/docs/getting-started/importing-and-exporting-data/) the collection. After you fork or import the collection, open a request from **Collections** in the sidebar, then select **Send**. Postman will display the rendered data in the **Visualize** tab.
 
-* [DIY collection that renders a bar chart using ChartJS](https://documenter.postman.com/view/4946945/SVzz4KxB?version=latest)
-![Bar Chart](https://assets.postman.com/postman-docs/visualizer-example-v8.jpg)
-* [Heat map visualization](https://documenter.postman.com/view/4946945/SVzw6MYM?version=latest)
-![Heat Map](https://assets.postman.com/postman-docs/visualizer-temp-v8.jpg)
-* [Various chart and graph examples](https://documenter.postman.com/view/2897506/SW7Z2Tkd?version=latest)
-![Map Visualizer](https://assets.postman.com/postman-docs/visualizer-map-v8.jpg)
+* [DIY collection that renders a bar chart using ChartJS](https://www.postman.com/postman/workspace/postman-team-collections/collection/4946945-e5ae7007-0d34-46d4-9491-6f1526eb67ac?action=share&creator=16724969)
+
+    ![Bar Chart](https://assets.postman.com/postman-docs/visualizer-example-v8.jpg)
+
+* [Heat map visualization](https://www.postman.com/postman/workspace/postman-team-collections/collection/4946945-db597015-0800-45ce-9824-02114848f47f?action=share&creator=16724969)
+
+    ![Heat Map](https://assets.postman.com/postman-docs/visualizer-temp-v8.jpg)
+
+* [Various chart and graph examples](https://www.postman.com/postman/workspace/published-postman-templates/collection/223408-f16e1095-c2f7-415f-af26-6bbe3deb10ea?action=share&creator=16724969)
+
+    ![Map Visualizer](https://assets.postman.com/postman-docs/visualizer-map-v8.jpg)
 
 ## Visualizer API
 
-You can access visualizers from the [Postman API](/docs/writing-scripts/script-references/postman-sandbox-api-reference/). The `pm.visualizer.set()` method takes three parameters:
+You can access the Visualizer from the [Postman API](/docs/writing-scripts/script-references/postman-sandbox-api-reference/). The `pm.visualizer.set()` method takes three parameters:
 
 * `layout` (required): The first parameter is a [Handlebars](https://handlebarsjs.com/) HTML template string.
 * `data` (optional): The second parameter is data that you can bind to the template. The properties of this object can be accessed in the template.
 * `options` (optional): The third argument is an `options` object for [`Handlebars.compile()`](https://handlebarsjs.com/api-reference/). You can use this to control how Handlebars compiles the template.
 
-Postman uses the information you pass to `pm.visualizer.set()` to render an HTML page in the sandbox for the visualizer. Select the __Visualize__ tab for the rendered HTML page. The `layout` string is inserted into the `<body>` of the rendered page, including any JavaScript, CSS, and HTML that the template has.
+Postman uses the information you pass to `pm.visualizer.set()` to render an HTML page in the sandbox for the Visualizer. Select the __Visualize__ tab for the rendered HTML page. The `layout` string is inserted into the `<body>` of the rendered page, including any JavaScript, CSS, and HTML that the template has.
 
-## Debugging visualizers
+## Debugging the Visualizer
 
-You can debug a visualization in Postman by right-clicking in the __Visualize__ area and choosing __Inspect visualization__. This will open the visualizer Developer Tools attached to the sandbox. You can use it in the same way as debugging a web page.
+You can debug a visualization in Postman by right-clicking in the __Visualize__ area and choosing __Inspect visualization__. This will open the Visualizer Developer Tools attached to the sandbox. You can use it in the same way as debugging a web page.
 
 [![Debugging Visualizers in Postman](https://assets.postman.com/postman-docs/inspect-vis-v8.jpg)](https://assets.postman.com/postman-docs/inspect-vis-v8.jpg)
 
@@ -177,5 +172,5 @@ You can debug a visualization in Postman by right-clicking in the __Visualize__ 
 
 Now that you've learned about visualizing responses in Postman, you can start creating visualizations of your own.
 
-* To get started, you can experiment with the [More visualizer examples](https://www.postman.com/postman/workspace/e9bb1adb-2f2e-4ace-a482-38c570d65275/overview) workspace. Run the example requests, then adjust the code to get the results you need for your own data.
+* To get started, you can experiment with the [More Visualizer examples](https://www.postman.com/postman/workspace/e9bb1adb-2f2e-4ace-a482-38c570d65275/overview) workspace. Run the example requests, then adjust the code to get the results you need for your own data.
 * For more information about how Postman provides access to your response data inside scripts, visit [Test examples](/docs/writing-scripts/script-references/test-examples/).

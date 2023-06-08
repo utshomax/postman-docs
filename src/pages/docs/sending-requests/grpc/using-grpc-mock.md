@@ -3,12 +3,7 @@ title: "Using gRPC mock servers"
 updated: 2022-09-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Invoke your first gRPC request"
-    url: "/docs/sending-requests/grpc/first-grpc-request/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -18,7 +13,7 @@ contextual_links:
     name: "Working with gRPC | The Exploratory"
     url: "https://youtu.be/RbHOs2xchGE"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Postman Now Has Mocking Magic for gRPC"
     url: "https://blog.postman.com/postman-mocking-magic-for-grpcs/"

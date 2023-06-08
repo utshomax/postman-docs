@@ -5,14 +5,6 @@ warning: false
 updated: 2022-09-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Scripting in gRPC requests"
-    url: "/docs/sending-requests/grpc/scripting-in-grpc-request/"
-  - type: link
-    name: "Using variables"
-    url: "https://learning.postman.com/docs/sending-requests/variables/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -20,7 +12,7 @@ contextual_links:
     name: "Test gRPC APIs | Postman Level Up"
     url: "https://youtu.be/35OzMtDBvUw"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Testing gRPC APIs with Postman"
     url: "https://blog.postman.com/testing-grpc-apis-with-postman/"

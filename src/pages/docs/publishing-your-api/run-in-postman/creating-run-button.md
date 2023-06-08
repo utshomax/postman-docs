@@ -6,12 +6,7 @@ page_id: "creating_run_button"
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Case Studies"
   - type: link
@@ -23,19 +18,10 @@ contextual_links:
     name: "Generate a Run in Postman Button | Postman Level Up"
     url: "https://www.youtube.com/watch?v=r2DGy4jSuUE&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=8"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing the All-New Run in Postman Button"
     url: "https://blog.postman.com/new-run-in-postman/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Generating API documentation"
-    url: "/docs/publishing-your-api/documenting-your-api/"
-  - type: link
-    name: "Managing environments"
-    url: "/docs/sending-requests/managing-environments/"
-
 ---
 
 One way to [share your Postman collections](/docs/collaborating-in-postman/sharing/) is to create a standalone **Run in Postman** button. The **Run in Postman** button <img alt="Run in Postman button" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg#icon" width="100px"/> allows users to fork the collections. You can embed the button in your website or a README to let developers interact with your API more quickly.
@@ -56,8 +42,7 @@ Make sure you're signed in to your Postman account, and that you have a collecti
 > Note: If the collection is present in a public workspace, you can directly embed the copied code where you would like the button to display. If the collection is present in a team or a personal workspace, [share the collection to a public workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) to create the **Run in Postman** button.
 
 1. Select **Collections** in the sidebar and select the collection you want to share.
-1. Next to the collection name, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and then select **Share**.
-
+1. Select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share**.
 1. Select the **Via Run in Postman** tab.
 1. Choose a live or static button:
 
@@ -68,7 +53,7 @@ Make sure you're signed in to your Postman account, and that you have a collecti
 1. You can optionally include an environment to embed with your collection. Select the **Add an environment** dropdown list and choose the environment.
 1. Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy Code**.
 
-    ![Create a Run in Postman button modal](https://assets.postman.com/postman-docs/run-in-postman-9.14.jpg)
+    ![Create a Run in Postman button modal](https://assets.postman.com/postman-docs/v10/share-collection-run-in-postman-v10-2.jpg)
 
     Your embed code will include your collection's ID. In the examples below, **:collection_id** is a placeholder for that ID and **:collection_url** is a placeholder for url. If you choose to include an environment in your button, the code will also have the environment parameter.
 

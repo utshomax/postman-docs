@@ -13,7 +13,7 @@ contextual_links:
     name: "Working with gRPC | The Exploratory"
     url: "https://youtu.be/RbHOs2xchGE"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Public gRPC APIs"
     url:  "https://www.postman.com/devrel/workspace/public-grpc-apis"
@@ -49,9 +49,9 @@ This example will create and execute a unary request. To learn about invoking th
 
 > If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/about-postman-agent/) for more information.
 
-1. In Postman, select  **New > gRPC Request** to open a request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**, then select **gRPC Request**.)
+1. In Postman, select  **New > gRPC** to open a request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**, then select **gRPC**.)
 
-    <img src="https://assets.postman.com/postman-docs/v10/grpc-new-request.gif" alt="New gRPC request" />
+    <img src="https://assets.postman.com/postman-docs/v10/create-new-grpc-v10.jpg" alt="New gRPC request" width="500px"/>
 
 1. Enter a URL into **Server URL**. For this example, use the Postman gRPC echo service, which is `grpc.postman-echo.com`.
 
@@ -69,4 +69,4 @@ Once the method is invoked, the server processes the information passed and retu
 
 Try invoking some other methods available on the gRPC bin server and see how things act differently.
 
-When you’re done, learn more about [Using the gRPC request interface](/docs/sending-requests/grpc/grpc-request-interface/).
+When you’re done, learn more about [using the gRPC request interface](/docs/sending-requests/grpc/grpc-request-interface/).

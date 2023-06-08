@@ -1,15 +1,10 @@
 ---
 title: 'Editing an API definition'
-updated: 2022-12-06
-search_keyword: "schema, spec, API schema, API spec, API specification, API definition"
+updated: 2023-05-18
+search_keyword: "schema, spec, specification"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Creating an API"
-    url: "/docs/designing-and-developing-your-api/creating-an-api/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -25,18 +20,13 @@ contextual_links:
     name: "OpenAPI 3.0: From Idea to Implementation"
     url: "https://www.youtube.com/live/JEBd78U9aBo?feature=share"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "The Reimagined API-First Workflow, Part 1: for Developers"
     url: "https://blog.postman.com/the-reimagined-api-first-workflow-for-developers/"
   - type: link
-    name: "Shifting Left with Postman"
-    url: "https://blog.postman.com/shifting-left-with-postman/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Managing APIs"
-    url: "/docs/designing-and-developing-your-api/managing-apis/"
+    name: "Build better APIs using the new and improved API Builder"
+    url: "https://blog.postman.com/build-better-apis-using-the-new-and-improved-api-builder/"
 ---
 
 You create the structure of your API using the _API definition_. The API definition can consist of one or multiple files. If your API doesn't have a definition, you can import a definition or start with a boilerplate sample definition.
@@ -49,17 +39,18 @@ You create the structure of your API using the _API definition_. The API definit
 * [Importing an API definition](#importing-an-api-definition)
 * [Editing an API definition file](#editing-an-api-definition-file)
 * [Working with multi-file API definitions](#working-with-multi-file-api-definitions)
-* [Viewing rule violations in your API definition](#viewing-rule-violations-in-your-api-definition)
 
 ## Generating an API definition
 
 If your API doesn't have a definition, you can generate an example definition that you can edit.
 
 1. Select **APIs** in the sidebar and select an API.
-1. On the API's overview, under **Definition**, select **Create Definition**.
-1. Select **Author Definition from scratch**.
+1. On the API's overview, next to **Definition**, select **+** and select **Author from scratch**.
+
+    > You can also select the API in the sidebar and select **create**.
+
 1. Select a definition type and format.
-1. Select the **Use a Boilerplate in this Definition** option if you want to start with a sample definition.
+1. Select the **Use a boilerplate** checkbox if you want to start with a sample definition.
 
     <img alt="Generating an API definition" src="https://assets.postman.com/postman-docs/v10/api-builder-author-definition-v10.jpg" width="323px"/>
 
@@ -70,10 +61,12 @@ If your API doesn't have a definition, you can generate an example definition th
 You can import a file into your API to define your API.
 
 1. Select **APIs** in the sidebar and select an API.
-1. On the API's overview, under **Definition**, select **Create Definition**.
-1. Select **Import Definition**.
-1. Select the file you want to import.
-1. Select **Use this Definition** next to the API definition you want to use.
+1. On the API's overview, next to **Definition**, select **+** and select **Import files**.
+
+    > You can also select the API in the sidebar and select **Import**.
+
+1. Select **Choose Files** and select the file you want to import.
+1. Select **Import**.
 
 > You can also import an API from a folder, a link, a code repository, or an API gateway. Learn more about [importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
 
@@ -99,7 +92,7 @@ In the upper right of the API definition editor are options to beautify the cont
 
 ## Working with multi-file API definitions
 
-Your API definition can span multiple files and folders. This is called a _multi-file API definition_. Multi-file API definitions are supported in OpenAPI 3.0 and protobuf 2.0 and 3.0 APIs.
+Your API definition can span multiple files and folders. This is called a _multi-file API definition_. Multi-file API definitions are supported in OpenAPI 2.0 and 3.0 APIs and protobuf 2.0 and 3.0 APIs.
 
 A multi-file API definition consists of the following components:
 
@@ -118,7 +111,7 @@ A multi-file API definition consists of the following components:
 
 An API definition's root file contains references to other files in the API definition. If you made a tree diagram of the relationships between all files in an API definition, the root file would be the file at the top of the tree. When you [create a new API definition](/docs/designing-and-developing-your-api/creating-an-api/) or [import an API](/docs/designing-and-developing-your-api/importing-an-api/), Postman determines the root file based on the references across the files. API definitions don't support references which are external links or present within a separate API.
 
-For OpenAPI 3.0 API definitions, Postman detects root files based on the content and references within files while importing or creating an API definition. You can't set a file as root for OpenAPI 3.0. OpenAPI can have one root file. If you delete the root file, Postman will recalculate the next candidate for the root file automatically.
+For OpenAPI 2.0 and 3.0 API definitions, Postman detects root files based on the content and references within files while importing or creating an API definition. You can't set a file as root for OpenAPI definitions. OpenAPI definitions can have one root file. If you delete the root file, Postman will recalculate the next candidate for the root file automatically.
 
 For protobuf API definitions, while importing the API, Postman detects all files which have service definitions present in them and marks one as the root. You can set another file as root if there's more than one candidate for root file. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a `.proto` file in the sidebar and select **Mark as root**.
 
@@ -134,55 +127,12 @@ You can add files and folders to a multi-file API definition. In the sidebar, se
 
 To add a file to a folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a folder, then select **Add file**. You can rearrange files and folders by dragging them in the sidebar. You can also rename or delete a file or folder by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
-> When you add a file to a single-file Open API 3.0 definition, or to a protobuf 2.0 or 3.0 definition, it's converted to a multi-file API definition. The existing definition file becomes the root file.
+> When you add a file to a single-file OpenAPI 2.0 or 3.0 definition, or to a protobuf 2.0 or 3.0 definition, it's converted to a multi-file API definition. The existing definition file becomes the root file.
 
 ### Deleting files and folders
 
-To delete a file or folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the item and select **Delete**.
+To delete a definition file or folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the item and select **Delete**. Deleting a file or folder doesn't affect other elements added to the API, such as collections.
 
-> If you delete the last remaining file in an API definition, the API will no longer have a definition unless you create it again. The schema documentation and any information in the file's info pane including the definition ID will be lost. Other components of the API will remain intact. For example, collections in the API won't be deleted. You can't restore a definition after it's deleted.
+You can restore a deleted definition file using the [Changelog](/docs/designing-and-developing-your-api/managing-apis/#using-the-changelog). Select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> in the right sidebar, then select **Restore** below the definition file you want to restore.
 
-## Viewing rule violations in your API definition
-
-> [This feature is available on Postman Enterprise plans.](https://www.postman.com/pricing)
-
-As you create your API definition in the editor, Postman automatically checks it against the [Postman API Governance and API Security](/docs/api-governance/api-governance-overview/) rules configured for your team. Postman displays any rule violations below the editor. Resolving these issues enables you improve your API definition.
-
-To learn more about the supported API description formats, the rules preconfigured in Postman, and how to create new rules, see [Rule violations in the API definition](/docs/api-governance/api-definition/api-definition-warnings/).
-
-To see any rule violations, select **Rule** next to **Violations found in definition**. Each rule violation is on its own line and includes the violation **Name** and the rule type (**Governance** or **Security**). The number next to the rule name tells you how many times Postman found the rule violation in your API definition.
-
-Select the number to inspect each rule violation. Every instance of the rule violation has a brief description of the issue and the line in the file where the rule violation occurs. When you select a rule violation, Postman highlights the section of the definition that triggered it.
-
-<img alt="Multiple occurrences of the same rule violation" src="https://assets.postman.com/postman-docs/v10/api-definition-multiple-violations-v10.1.jpg" />
-
-To learn more about the rule violation and get information about how to fix it, select **Possible fix** next to the rule description. This will open the relevant Learning Center page.
-
-<img alt="Select Possible fix to open the Learning Center" src="https://assets.postman.com/postman-docs/v10/api-definition-violations-possible-fix-v10.jpg"/>
-
-When you make updates to your API definition, Postman re-checks it. If your changes resolve the issue, Postman removes the rule violation from the list.
-
-### Hiding rule violations
-
-To hide a rule violation for the API definition, do the following:
-
-1. Select **Hide** next to the rule violation.
-
-    <img alt="Hide a rule violation in your API definition" src="https://assets.postman.com/postman-docs/v10/api-definition-hide-rule-violation-v10.1.jpg"/>
-
-1. Select a reason that you want to hide it, then select **Hide** again.
-
-    <img alt="" src="https://assets.postman.com/postman-docs/v10/api-definition-hide-rule-violation-choose-reason-v10.jpg" width="300px"/>
-
-This will hide the rule violation for the current API. If there is more than one violation of a specific rule, you can hide each instance individually.
-
-> To hide a rule violation globally, you can use either [configurable API Governance rules](/docs/api-governance/configurable-rules/configuring-api-governance-rules/) or [configurable API Security rules](/docs/api-governance/configurable-rules/configuring-api-security-rules/).
-
-When you or another member of your team hides a rule violation, Postman shows a message in the editor's **Rule** tab to indicate how many are hidden.
-
-To turn a rule back on later, do the following:
-
-1. Select **Review**.
-1. Review your hidden rules and select the eye icon <img alt="Eye icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> next to the one you want to turn back on.
-
-<img alt="Review hidden rules for your API definition" src="https://assets.postman.com/postman-docs/v10/api-definition-review-hidden-warnings-v10.jpg" width="800px"/>
+> **About definition IDs.** When you add a definition to an API, Postman assigns a definition ID to the API. You can view the definition ID by opening an API and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. The definition ID acts as a container for all the definition files in the API. If you delete all the definition files, the definition ID itself isn't deleted. If you then add a new definition file, the definition ID remains the same as before.

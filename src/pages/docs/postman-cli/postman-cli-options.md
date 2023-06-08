@@ -1,24 +1,9 @@
 ---
 title: "Postman CLI command options"
 updated: 2022-10-18
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Postman CLI overview"
-    url: "/docs/postman-cli/postman-cli-overview/"
-  - type: link
-    name: "Installing the Postman CLI"
-    url: "/docs/postman-cli/postman-cli-installation/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Running a collection with the Postman CLI"
-    url: "/docs/postman-cli/postman-cli-run-collection/"
 warning: false
 tags:
   - "Postman CLI"
-
 ---
 
 Commands and options for using the Postman CLI.
@@ -29,6 +14,7 @@ Commands and options for using the Postman CLI.
 * [Signing in and out](#signing-in-and-out)
 * [Running collections](#running-collections)
 * [Governance and security](#governance-and-security)
+* [Publishing an API version](#publishing-an-api-version)
 
 ## Basic command line options
 
@@ -149,3 +135,44 @@ Option | Details
 --- | ---
 `--fail-severity [severity]`, `-f` | Triggers an exit failure code for rule violations at or above the specified severity level. The options, in order of lowest to highest severity, are `HINT`, `INFO`, `WARN`, and `ERROR` (default).
 `--suppress-exit-code`, `-x`| Specifies whether to override the default exit code for the current run.
+
+## Publishing an API version
+
+You can [publish API versions](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/) from the command line with the Postman CLI. This enables you to automate the API version publishing process.
+
+### postman publish api
+
+Publish a snapshot of an API for the given `apiId`. All entities linked to the API will be published by default. You can choose which entities to publish by using additional options.
+
+When publishing an API that is linked with git, you must enter the command from inside the local git repo and provide paths to the schema directory and collection paths instead of IDs.
+
+#### Example for repos not linked with git
+
+```plaintext
+postman api publish <apiId> --name v1\
+--release-notes "# Some release notes information"\
+--collections <collectionId1> <collectionId2>\
+--api-definition <apiDefinitionId>
+```
+
+#### Example for repos linked with git
+
+Navigate to the repo and run the following:
+
+```plaintext
+postman api publish <apiId> --name v1\
+--release-notes "# Some release notes information"\
+--collections <collectionPath1> <collectionPath2>\
+--api-definition <schemaDirectoryPath>
+```
+
+#### Options
+
+| Option | Details |
+|:--|:--|
+| `--name <name>` | Specifies the name of the version to publish. |
+| `--release-notes <releaseNotes>` | Enter release notes as a string in quotes for the version to publish. This option supports markdown. |
+| `--collections <collectionIds/paths...>` | Specifies the collections to publish. If the API is linked with git, provide the `filePath` instead of the ID. |
+| `--api-definition <apiDefinitionId/directory>` | Specifies the API definition to publish. If the API is linked with git, provide the `schemaDirectoryPath` instead of the ID. |
+|`--do-not-poll` | Specifies not to poll for completion status of the publish action.
+| `--suppress-exit-code, -x` | Specifies whether to override the default exit code for the current run. |

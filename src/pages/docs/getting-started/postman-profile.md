@@ -3,22 +3,17 @@ title: "Customizing your Postman profile"
 updated: 2022-10-25
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Customize Your Public Profile | Postman Level Up"
     url:  "https://youtu.be/xM_sskJmZNM"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Tell Your API Story with Your Postman Profile"
     url: "https://blog.postman.com/tell-your-api-story-with-your-postman-profile/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Syncing your work"
-    url: "/docs/getting-started/syncing/"
 ---
 
 After you create a Postman account, you can customize your Postman profile. Your Postman profile gives you a way to share important information about yourself with other Postman users.

@@ -3,19 +3,17 @@ title: "Creating dynamic mock responses"
 updated: 2022-11-11
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Setting up mock servers"
-    url: "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Dynamic Mock Behavior | Postman Level Up"
     url: "https://youtu.be/av7SZo9sZAE"
+  - type: link
+    name: "Mock a Back End with Templating and Dynamic Data"
+    url: "https://www.youtube.com/live/gmRQkXCRqs8?feature=share"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing Support for Templating in Postman Mock Servers"
     url: "https://blog.postman.com/introducing-support-for-templating-in-postman-mock-servers/"
@@ -79,6 +77,8 @@ When you call the mock server endpoint, the response data will change to somethi
 ## Generating contextual mock responses
 
 With template support, Postman mock servers can generate responses that vary based on the incoming request. Template helpers give you access to data from the incoming request, such as the body, query parameters, path segments, and headers. You can include that data in the response sent by the mock server.
+
+> To generate contextual responses on a mock server with [response matching for the request body enabled](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#matching-request-body-and-headers), you need to set the `x-mock-match-request-body` header set to `false`. Otherwise you will get a `mockRequestNotFoundError` error.
 
 ### Using template helpers
 

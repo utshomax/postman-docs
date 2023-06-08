@@ -5,19 +5,14 @@ page_id: "capturing_http_requests"
 updated: 2022-01-05
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Capture API Calls With a Proxy"
     url: "https://youtu.be/bjrCHUITZ3k"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Postman’s Proxy Now Fully Supports HTTPS Endpoints"
     url: "https://blog.postman.com/postmans-proxy-now-fully-supports-https-endpoints/"
@@ -146,9 +141,9 @@ To install the security certificate on Ubuntu, do the following:
 
 ### Installing the certificate for use with Chrome
 
-1. Open Google Chrome and go to the URL `chrome://settings/certificates`.
+1. Open Google Chrome and go to the URL `chrome://settings/security`.
 
-1. Select **Manage certificates** from the list.
+1. Select **Manage device certificates** from the list.
 
 1. Select the **Authorities** tab and then **Import**.
 

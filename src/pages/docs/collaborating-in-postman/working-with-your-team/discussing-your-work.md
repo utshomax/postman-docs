@@ -1,20 +1,17 @@
 ---
 title: "Discussing your work"
-order: 73.3
 updated: 2021-04-15
-page_id: "discussing_your_work"
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Inline Comments | Postman Level Up"
     url: "https://www.youtube.com/watch?v=fkYiyCj43uk&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=6"
-warning: false
 ---
 
-You can leave comments on APIs, collections, and requests to collaborate with your teammates. You can tag your collaborators in comments to let them know that you have questions or feedback.
+You can leave comments on APIs, collections, and requests in Postman. When you have questions or feedback for your teammates, you can notify them by tagging them in your comments.
 
 ## Contents
 
@@ -27,8 +24,6 @@ You can leave comments on APIs, collections, and requests to collaborate with yo
 * [Deleting comments](#deleting-comments)
 * [Tagging members in comments](#tagging-members-in-comments)
 * [Using Markdown in comments](#using-markdown-in-comments)
-
-> Postman supports comments on requests and request parameters.
 
 ## Commenting on a collection
 
@@ -44,7 +39,7 @@ You can leave comments on collections from Postman.
 
 ## Commenting on a request
 
-You can comment on requests in Postman. You can only post comments on saved requests.
+You can comment on saved requests in Postman.
 
 You can add comments at the [request level](#adding-a-comment-on-a-request), on [request parameters](#adding-a-comment-on-request-parameters), and [within the request configuration](#adding-an-inline-comment) (request body, pre-request script, and test script).
 
@@ -127,7 +122,7 @@ You can resolve comments made on request parameters when you no longer want them
 
 <img src="https://assets.postman.com/postman-docs/deleting-a-comment-v8.jpg" alt="Delete comment" width="399px">
 
-> For moderation purposes, team members with the [Team Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can delete comments made by anyone, but can't change comments.
+> For moderation purposes, [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can delete comments made by anyone, but can't change comments.
 
 ## Tagging members in comments
 
@@ -146,4 +141,4 @@ Your teammate will be notified in the app or with an email that they've been tag
 
 ## Using Markdown in comments
 
-Postman comments support Markdown. For more information on formatting using Markdown refer to [Markdown in API Documentation](https://documenter.postman.com/view/33232/markdown-in-api-documentation/JsGc?version=latest).
+Postman comments support Markdown. Check out the [Markdown Cheatsheet on GitHub](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for tips on formatting.

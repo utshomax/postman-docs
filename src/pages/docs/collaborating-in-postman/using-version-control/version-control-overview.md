@@ -3,19 +3,14 @@ title: "Version control overview"
 updated: 2022-11-17
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in Collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Version Control for Collections | Postman Level Up"
     url: "https://www.youtube.com/watch?v=QKxukXJWRPI&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=7"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing Environment Forking and Pull Requests"
     url: "https://blog.postman.com/introducing-environment-forking-and-pull-requests/"
@@ -27,11 +22,6 @@ contextual_links:
   - type: link
     name: "Youi uses version control to build and test updates locally before merging"
     url: "https://www.postman.com/case-studies/youi/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Versioning APIs"
-    url: "/docs/designing-and-developing-your-api/versioning-an-api/"
 ---
 
 Postman's _version control_ features can help you and your team to collaboratively build an API. You can fork a collection or environment, make updates to the fork, create a pull request, and merge your changes into the parent element.

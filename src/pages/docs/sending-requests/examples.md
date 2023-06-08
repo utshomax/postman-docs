@@ -1,16 +1,14 @@
 ---
 title: "Specifying examples"
-updated: 2022-10-04
+updated: 2023-02-13
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
+  - type: link
+    name: "Sending Saved Request Examples | Postman Level Up"
+    url: "https://youtu.be/hZ1AkgW6p6U"
   - type: link
     name: "Provide Examples | Postman Level Up"
     url: "https://www.youtube.com/watch?v=C0Z3OMuCGBw&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=5"
@@ -19,14 +17,6 @@ contextual_links:
   - type: link
     name: "Imgur"
     url: "https://www.postman.com/case-studies/imgur/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Documenting your API"
-    url: "/docs/publishing-your-api/documenting-your-api/"
-  - type: link
-    name: "Setting up mock servers"
-    url: "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
 ---
 
 Examples show your API endpoints in action and give more details on how requests and responses work. You can add an example to a request by saving a response, or you can create an example with a custom response to illustrate a specific use case. Once you've created examples, you can use them to set up a mock server or add more detail to your API documentation.
@@ -37,6 +27,7 @@ Examples show your API endpoints in action and give more details on how requests
 * [Adding an example](#adding-an-example)
     * [Saving a response as an example](#saving-a-response-as-an-example)
     * [Adding a custom example](#adding-a-custom-example)
+* [Trying an example](#trying-an-example)
 * [Editing an example](#editing-an-example)
 * [Duplicating an example](#duplicating-an-example)
 * [Deleting an example](#deleting-an-example)
@@ -57,17 +48,21 @@ An example is always associated with a [request](/docs/sending-requests/requests
 
 > For optimal Postman performance, example responses must be smaller than 5 MB.
 
+![Adding example](https://assets.postman.com/postman-docs/v10/postman-request-builder-v10-2.jpg)
+
 ### Saving a response as an example
 
 When saving a [response](/docs/sending-requests/responses/) in Postman, you have the option to save it as an example.
 
 1. Select **Collections** in the sidebar.
 1. Open a request and select **Send**.
-1. In the response pane, select **Save Response** and then select **Save as example**.
+1. In the response pane, select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save as Example**.
 
-<img alt="Save a response as an example" src="https://assets.postman.com/postman-docs/v10/examples-save-response-v10.jpg" width="750px">
+    <img alt="Save a response as an example" src="https://assets.postman.com/postman-docs/v10/examples-save-response-v10-2.jpg">
 
-> You can't add examples to gRPC or WebSocket requests. For WebSocket requests, you can [save messages](/docs/sending-requests/websocket/websocket/#saving-messages) with the request.
+> You can't add examples to WebSocket requests. For WebSocket requests, you can [save messages](/docs/sending-requests/websocket/websocket/#saving-messages) with the request.
+<!-- -->
+> For [gRPC examples](/docs/sending-requests/grpc/using-grpc-examples/) with streaming methods, you must end the stream before saving the response/message stream as an example.
 
 ### Adding a custom example
 
@@ -80,21 +75,69 @@ With a custom example, you can define how both the [request](/docs/sending-reque
     * Add any parameters or headers as needed.
     * Enter the request body and select a content type.
 1. Edit the response part of the example.
-    * Enter a **Status Code** (such as 200 or 404).
+    * Enter a **Status Code** (such as `200` or `404`).
     * Enter the response body and select a content type.
     * Add any headers as needed.
 1. Select **Save** to save the example.
 
 <img alt="Add a custom example" src="https://assets.postman.com/postman-docs/examples-add-custom-v9-1.jpg" width="365px">
 
+## Trying an example
+
+Examples are stored in a collection with their associated requests. You can try an example by opening the example as a request in a new tab.
+
+1. Select **Collections** in the sidebar.
+1. Select a request, and then select an example to open it.
+1. Select **Try** to open the example as a request in a new tab. The request will automatically send in the new tab.
+
+    ![Trying example](https://assets.postman.com/postman-docs/v10/sending-example-response-v10-2.jpg)
+
+1. Review the request and response details.
+
+    ![Open example as a request](https://assets.postman.com/postman-docs/v10/sending-example-response-duplicate-request-v10-2.jpg)
+
+    > The new request isn't automatically saved.
+
+    The name of the example you're trying is next to the request's name in the workbench. Select the example's name to open it in a separate tab.
+
+    <img alt="Select example name" src="https://assets.postman.com/postman-docs/v10/example-response-name-v10-2.jpg">
+
+1. Optionally, you can select **Save** to save the new request to a new or existing collection in your workspace.
+1. Choose a location to save the new request, and then select **Save**.
+
+    <img alt="Save request" src="https://assets.postman.com/postman-docs/v10/sending-example-response-save-request-v10-2.jpg" width="450px">
+
 ## Editing an example
 
-Examples are stored in a collection with their associated requests. You can edit an example at any time to remove sensitive tokens, change the status code, or make any other adjustments.
+You can edit an example at any time to remove sensitive tokens, change the status code, or make any other adjustments.
+
+To edit an example, do the following:
 
 1. Select **Collections** in the sidebar.
 1. Select a request, and then select an example to open it.
 1. Make any changes to the example request or response.
 1. Select **Save** to save the example.
+
+To edit an example after trying it, do the following:
+
+1. Select **Collections** in the sidebar.
+1. Select a request, and then select an example to open it.
+1. Select **Try** to open the example as a request in a new tab.
+
+    ![Trying example](https://assets.postman.com/postman-docs/v10/sending-example-response-v10-2.jpg)
+
+1. Make any changes to the new request.
+1. Select **Send**.
+1. In the response pane, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and then select **Update example**. You will receive confirmation once the example is updated.
+
+    ![Updating example](https://assets.postman.com/postman-docs/v10/updating-example-response-v10-2.jpg)
+
+    > The new request isn't automatically saved.
+
+1. Optionally, you can select **Save** to save the new request to a new or existing collection in your workspace.
+1. Choose a location to save the new request, and then select **Save**.
+
+    <img alt="Save request" src="https://assets.postman.com/postman-docs/v10/sending-example-response-save-request-v10-2.jpg" width="450px">
 
 ## Duplicating an example
 

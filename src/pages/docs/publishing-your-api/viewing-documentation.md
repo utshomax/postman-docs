@@ -1,32 +1,14 @@
 ---
 title: "Viewing documentation"
-updated: 2022-10-04
+updated: 2023-01-05
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "API Documentation | The Exploratory"
     url: "https://youtu.be/XNVo9WkCoak"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Cisco DevNet"
-    url: "https://www.postman.com/case-studies/cisco-devnet/"
-  - type: link
-    name: "Imgur"
-    url: "https://www.postman.com/case-studies/imgur/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Publishing your docs"
-    url: "/docs/publishing-your-api/publishing-your-docs/"
 ---
 
 Documentation helps you get more out of the collections and APIs that you work with in Postman. View documentation to learn more about the requests in a collection or how to interact with an API's endpoints.
@@ -61,7 +43,7 @@ To view documentation for a collection, do the following:
 
 > If your collection has [gRPC requests](/docs/sending-requests/grpc/grpc-request-interface/#the-right-sidebar) or [WebSocket requests](/docs/sending-requests/websocket/websocket/#documenting-requests), the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> isn't available for collections or folders. Select a collection or folder in the sidebar to view its description. You can't view complete collection documentation for collections with gRPC or WebSocket requests.
 
-The documentation includes a [description](/docs/publishing-your-api/authoring-your-documentation/#adding-descriptions-to-your-documentation) of each request, as well as details such as the method and URL, the required authorization type, and any headers or parameters. For each request, you can view sample code in various client languages, together with example response bodies and headers.
+The documentation includes a [description](/docs/publishing-your-api/authoring-your-documentation/#adding-descriptions-to-your-documentation) of each request and details such as the method and URL, the required authorization type, and any headers or parameters. For each request, you can view sample code in various client languages, together with example response bodies and headers.
 
 Use the following options to customize the appearance of the documentation:
 
@@ -71,11 +53,11 @@ Use the following options to customize the appearance of the documentation:
 
 <img alt="Viewing collection documentation" src="https://assets.postman.com/postman-docs/v10/documentation-view-full-docs-v10.jpg" />
 
-> Another way to view documentation is to visit your [user profile](https://postman.co/me/collections). Select the **Collections** tab for a list of collections that have been shared with you as well as your own collections. Select a collection to view its documentation.
+> Another way to view documentation is to visit your [user profile](https://postman.co/me/collections). Select the **Collections** tab for a list of collections that have been shared with you and your own collections. Select a collection to view its documentation.
 
 ## Viewing API documentation
 
-Postman automatically generates API docs for any OpenAPI 3.0 schema [defined in the API Builder](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/). API developers can also [create detailed documentation](/docs/publishing-your-api/documenting-your-api/#generating-api-documentation) for any API to help consumers understand and interact with their API's endpoints.
+Postman automatically generates API docs for any OpenAPI 2.0 or 3.0 API [defined in the API Builder](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/). API developers can also [create detailed documentation](/docs/publishing-your-api/documenting-your-api/#generating-api-documentation) for any API to help consumers understand and interact with their API's endpoints.
 
 To view documentation for an API, do the following:
 
@@ -85,7 +67,7 @@ To view documentation for an API, do the following:
 
 1. Select a documentation source on the API's overview:
 
-    * To view schema documentation, under **Definition**, select **View schema documentation**. (Schema documentation is available for OpenAPI 3.0 schemas.)
+    * To view schema documentation, under **Definition**, select **View schema documentation**. (Schema documentation is available for OpenAPI 2.0 and 3.0 definitions.)
     * To view collection documentation, expand a collection and select **View full documentation**. To get sample code in a different language, select it in the **Language** menu.
 
 <img alt="Viewing API documentation" src="https://assets.postman.com/postman-docs/v10/documentation-view-schema-docs-v10a.jpg" width="1106px">
@@ -100,15 +82,16 @@ Each request entry has a description of the request, the method and URL, the req
 
 Use the options in the header to customize the appearance of the documentation:
 
-* **Release Tag** - If the documentation has multiple release tags, you can select a specific release to view. (You can no longer create versions or releases for collections in Postman v10, but API producers can [publish versions of an API](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).)
+* **Version** - If the documentation has multiple versions, you can select a specific release to view. (You can no longer create versions or releases for collections in Postman v10, but API producers can [publish versions of an API](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).)
 * **Environment** - If an [environment](/docs/publishing-your-api/documenting-your-api/#associating-environments-with-documentation) was published with the documentation, you can select it to populate any variables.
 * **Layout** - **Double column** displays sample code in a column next to the documentation. **Single column** displays sample code inline beneath each request.
 * **Language** - Select a language to use for sample code.
-* **Language Settings** - Select the language settings icon <img alt="Language settings icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> to customize settings for any of the available languages.
+* **Language Settings** - Select the language settings icon <img alt="Language settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to customize settings for any of the available languages.
+* **Theme** - Select the theme icon (<img alt="Light theme icon" src="https://assets.postman.com/postman-docs/v10/icon-theme-light-v10.jpg#icon" width="16px"> or <img alt="Dark theme icon" src="https://assets.postman.com/postman-docs/v10/icon-theme-dark-v10.jpg#icon" width="16px">) to switch between light and dark themes.
 
-[![Published documentation example](https://assets.postman.com/postman-docs/documentation-published-docs-v9.jpg)](https://assets.postman.com/postman-docs/documentation-published-docs-v9.jpg)
+![Published documentation example](https://assets.postman.com/postman-docs/v10/documentation-published-docs-v10.jpg)
 
-> Postman supports [various programming languages and frameworks](/docs/sending-requests/generate-code-snippets/#supported-languagesframeworks) for displaying sample code. Is a language you want to use not available? Is there a setting missing that you'd find useful? Select the language settings icon <img alt="Language settings icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> and then select **Contribute on GitHub** to contribute to [the open-source project](https://github.com/postmanlabs/postman-code-generators).
+> Postman supports [various programming languages and frameworks](/docs/sending-requests/generate-code-snippets/#supported-languagesframeworks) for displaying sample code. Is a language you want to use not available? Is there a setting missing that you'd find useful? Select the language settings icon <img alt="Language settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> and then select **Contribute on GitHub** to contribute to [the open-source project](https://github.com/postmanlabs/postman-code-generators).
 
 ## Linking to public documentation
 

@@ -5,37 +5,25 @@ page_id: "postman_account"
 updated: 2021-12-9
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Download and Install"
-    url: "https://www.postman.com/downloads/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Enable Two-Factor Authentication"
     url: "https://youtu.be/nmzEmrVWGQw"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Secure Your Postman Account with Two-Factor Authentication"
     url: "https://blog.postman.com/secure-your-postman-account-with-two-factor-authentication/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Customizing your Postman profile"
-    url: "/docs/getting-started/postman-profile/"
-
 warning: false
-
 ---
 
 Having a free Postman account enables you to [sync](/docs/getting-started/syncing/) and back up your work so that you can access it from different machines. With a Postman account, you can also [collaborate](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) with others on your API projects.
 
 Signing up for a Postman account is optional, and you can use the Postman desktop app without an account if you prefer. If you do want to create a Postman account, continue to the [Signing up for a Postman account](#signing-up-for-a-postman-account) section.
 
-> If you need help with your Postman account, you can contact the Postman [support team](https://www.postman.com/support/) or check out the Help Center's [account FAQs](https://support.postman.com/hc/en-us/categories/115000609185-My-Account).
+> If you need help with your Postman account, you can contact the Postman [support team](https://www.postman.com/support/) or check out the Help Center's [account FAQs](https://support.postman.com/hc/en-us/sections/8180192954903-Account).
 
 ## Contents
 
@@ -77,13 +65,15 @@ During the sign up process, you have the option to create or join a [team](/docs
 
 ## Signing in to Postman
 
-You can sign in to Postman by selecting **Sign In** in the upper-right corner or by selecting **Home** in the upper-left corner, then **Sign In**. You can also go to [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner of the page.
+You can sign in to the Postman desktop app by selecting **Sign In** in the upper-right corner or by selecting **Home** in the upper-left corner, then **Sign In**. You can also go to [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner of the page.
 
-When you sign in using the Postman desktop app, the app will open a new screen that directs you to _Sign in via web browser_. Your default browser will automatically open a webpage asking you to sign in to Postman. If your browser doesn't open within a few seconds, select the **open your browser** link in Postman.
+When you sign in using the Postman desktop app, the app will open a new screen that directs you to _Sign in from your browser to continue_. Your default browser will automatically open a webpage asking you to sign in to Postman. If your browser doesn't open within a few seconds, select either **open it manually** or **copy the URL**.
 
 > You can opt out of the sign in process at any time by going back to Postman and selecting **Skip and take me to Postman Desktop App**.
 
-Sign in to Postman in your browser by entering your account credentials or signing in with Google. If you're signing in to a Postman Professional or Enterprise team with SSO enabled, opt to **Sign in with SSO**.
+Sign in to Postman in your browser by entering your account credentials or signing in with Google. If you're signing in to a Postman Professional or Enterprise team with single-sign on (SSO) enabled, opt to **Sign in with SSO**. To learn more, see [Signing in to an SSO team](/docs/administration/sso/user-sso/).
+
+> If this is your first time signing in to Postman with Google or SSO, you might need to [link your account to Postman](#linking-your-account-to-postman).
 
 Select **Stay signed in for 30 days** if you want to remain signed in after your current session for 30 days before re-authenticating. If you don't want to remain signed in on the computer you're working on, clear this checkbox. Note that Postman will prompt you to sign in again after 30 minutes.
 
@@ -97,6 +87,19 @@ If you're a member of multiple Postman teams with varying authentication methods
 
 > You must complete the process of signing in within five minutes once you begin the process in the Postman desktop app. If you go beyond this time, you must return to the Postman desktop app and restart the sign in process.
 
+### Linking your account to Postman
+
+If you sign in to Postman with Google or SSO using an email address associated with a Postman account, you might need to link your account to Postman the first time you sign in. Follow the steps to link your Google or identity provider (IdP) account to Postman. You only need to link your account to Postman one time.
+
+To link your Google or IdP account to Postman, do the following:
+
+1. [Sign in to Postman](#signing-in-to-postman) with Google or SSO.
+1. Enter your Postman account credentials, and then select either **Sign in to link your Google account**  or **Sign in to link your SSO account**.
+
+    <img alt="Link SSO account to Postman" src="https://assets.postman.com/postman-docs/v10/sign-in-to-link-sso-account-v10.jpg" width="350px"/>
+
+The next time you sign in to Postman with Google or SSO your account will already be linked to your Postman account.
+
 ### Switching between accounts
 
 You can sign in to multiple accounts at the same time in Postman. Select your avatar in the top right to switch between accounts or select __+ Add Account__ to sign in with another one.
@@ -107,9 +110,9 @@ You can manage account settings including your email address, password, and work
 
 ### Changing your email address
 
-If you're on a Professional, Basic, or Free plan, you can change the email address associated with your Postman account. Open your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the Postman header, then select **Settings > Account**. Edit your email address and select **Update Email** to save changes.
+If you're a member of a free or paid team, you can change the email address associated with your Postman account. Open your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the Postman header, then select **Settings > Account**. Edit your email address and select **Update Email Address** to save changes.
 
-If you're on an Enterprise plan, you must contact your Team Admins to update the email address associated with your Postman account.
+If you're a member of an Enterprise team with SCIM enabled, you must contact a Team Admin to change the email address associated with your Postman account. A Team Admin must edit your email address in your SCIM identity provider.
 
 ### Resetting your password
 

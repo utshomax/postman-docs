@@ -1,12 +1,6 @@
 ---
 title: "Microsoft AD FS"
 updated: 2023-01-17
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Configuring SSO for a team"
-    url: "/docs/administration/sso/admin-sso/"
 ---
 
 > **[SSO with Microsoft AD FS is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
@@ -149,7 +143,7 @@ Enable the RelayState parameter on your Microsoft AD FS servers, and then restar
 
 ### Submit Identity Provider details to Postman
 
-After you configure your server, submit your Identity Provider's details to Postman.
+After you configure your server, submit your identity provider's (IdP) details to Postman.
 
 1. Download the Federation Metadata XML file from Microsoft AD FS. You can often find this file at `https://<Federation Service name>/FederationMetadata/2007-06/FederationMetadata.xml`.
 1. In Postman, upload the Federation Metadata XML file under **Identity provider metadata** file. Or, you can enter the **SSO URL**, **Identity provider issuer**, and **X.509 Certificate** individually under **Identity provider details**.

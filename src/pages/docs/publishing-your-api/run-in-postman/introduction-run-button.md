@@ -6,11 +6,6 @@ page_id: "introduction_run_button"
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -21,7 +16,7 @@ contextual_links:
     name: "WTD: Postman for API development and docs"
     url: "https://podcast.writethedocs.org/2018/01/22/postman-for-api-docs-write-the-docs/"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "How to Dynamically Create Custom Environments with Code"
     url: "https://blog.postman.com/how-to-dynamically-create-custom-environments-with-code/"
@@ -36,12 +31,6 @@ contextual_links:
   - type: link
     name: "Box's Run In Postman button loads collection into its app"
     url:  "https://www.postman.com/case-studies/box/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Creating Run in Postman buttons"
-    url: "/docs/publishing-your-api/run-in-postman/creating-run-button/"
-
 ---
 
 The **Run in Postman** button <img alt="Run in Postman button" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg#icon" width="100px"/> is a way to share a Postman Collection (and optional environment) with your users. Live **Run in Postman** buttons automatically stay updated with changes to your collection, providing consumers with its most recent version. You can also attach an environment to your live button to help onboard new users to your API quickly and efficiently.

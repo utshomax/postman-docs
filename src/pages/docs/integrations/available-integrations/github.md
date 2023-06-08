@@ -1,16 +1,11 @@
 ---
 title: "GitHub"
-updated: 2022-11-29
+updated: 2023-04-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Syncing Your OpenAPI, RAML, and GraphQL Schema to GitHub with Postman"
     url:  "https://blog.postman.com/syncing-your-openapi-raml-and-graphql-schema-to-github-with-postman/"
@@ -41,6 +36,8 @@ Setting up a GitHub integration requires you to generate a GitHub personal acces
 ## API sync with GitHub
 
 With Postman v10, you can connect a GitHub repository to an API in the API Builder. Once connected, you can sync your API's definition and associated collections between Postman and GitHub. You can switch branches, pull changes from the repository, and push changes to the repository, all from within Postman. To learn more about syncing your API with GitHub, see [Using a remote Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/).
+
+> **The legacy GitHub Sync API schema integration is no longer available.** You can't create new integrations using this legacy integration, and any legacy integrations you created have been removed. Instead, you can [connect your API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/) to sync your API's definition between Postman and GitHub.
 
 ## Generating a GitHub personal access token
 

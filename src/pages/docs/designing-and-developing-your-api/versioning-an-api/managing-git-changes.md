@@ -3,12 +3,7 @@ title: 'Managing changes using Git'
 updated: 2022-09-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "API version control overview"
-    url: "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
-  - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -18,7 +13,7 @@ contextual_links:
     name: "API Versioning in Postman using Bitbucket"
     url: "https://youtu.be/SO_88TQ2dkE"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Better Practices for Git Version Control in Postman"
     url: "https://blog.postman.com/better-practices-for-git-version-control-in-postman/"

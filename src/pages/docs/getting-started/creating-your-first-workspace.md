@@ -7,20 +7,12 @@ search_keyword: "workspace, create workspace, creating workspaces"
 updated: 2022-01-04
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Creating a Workspace | Postman Level Up"
     url: "https://youtu.be/I10RCvMbPi0"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Working with your team"
-    url:  "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
-  - type: link
-    name: "Creating workspaces"
-    url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
 ---
 
 Postman workspaces enable you to organize and work together on API projects with your team. Within each workspace you can share [APIs](/docs/designing-and-developing-your-api/creating-an-api/), [collections](/docs/getting-started/creating-the-first-collection/), [environments](/docs/sending-requests/managing-environments/), and other Postman elements.
@@ -43,7 +35,9 @@ To create a new workspace, do the following:
 
     <img alt="Create team workspace" src="https://assets.postman.com/postman-docs/create-workspace-v9.1.jpg" width="500px"/>
 
-Postman will switch to your new workspace when you create it. You can move between workspaces at any time by selecting from the dropdown **Workspaces** list in the upper left.
+Postman will switch to your new workspace when you create it. You can start editing and adding to it right away, or use [workspace templates](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template) to help set up your new workspace.
+
+You can move between workspaces at any time by selecting from the dropdown **Workspaces** list in the upper left.
 
 > To learn more, see [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 

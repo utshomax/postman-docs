@@ -3,11 +3,6 @@ title: "Using the gRPC request interface"
 updated: 2022-10-04
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Navigating Postman"
-    url: "https://learning.postman.com/docs/getting-started/navigating-postman/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -21,7 +16,7 @@ contextual_links:
 
 gRPC requests in Postman include a variety of tools, views, and controls to help you use and test your gRPC services effectively and efficiently. This topic highlights the parts of the request interface and how to use it.
 
-<img src="https://assets.postman.com/postman-docs/v10/grpc-request-callouts-v10.jpg" alt="gRPC request interface" />
+<img src="https://assets.postman.com/postman-docs/v10/grpc-request-callouts-3-v10.jpg" alt="gRPC request interface" />
 
 ## Contents
 
@@ -35,15 +30,21 @@ gRPC requests in Postman include a variety of tools, views, and controls to help
 
 ## Creating a new request
 
-Create a new gRPC request by selecting the **New** button in the sidebar which brings up the **Create new** dialog. Select gRPC request from the list to open a blank **gRPC request** in a new tab.
+Create a new gRPC request by selecting **New** in the sidebar. Select **gRPC** from the list to open a blank gRPC request in a new tab.
 
-<img src="https://assets.postman.com/postman-docs/v10/grpc-new-request.gif" alt="New gRPC request" />
+<img src="https://assets.postman.com/postman-docs/v10/create-new-grpc-v10.jpg" alt="New gRPC request" width="500px"/>
 
 ## The request section
 
 The request section includes the required configurations to connect to the server and execute the selected method. Requests need a server URL, a service definition, and a selected method to be invoked. Based on the API requirements, you may have to pass message payloads, metadata, and authorization details along with the request. You may also have to configure TLS and other certificates based on the requirements.
 
-<img src="https://assets.postman.com/postman-docs/v10/grpc-request-sections.jpg" alt="Request pane" />
+<img src="https://assets.postman.com/postman-docs/v10/grpc-request-sections-v10-2.jpg" alt="Request pane" />
+
+* **Protocol menu** - You can change the protocol for a new request. Select **New** in the sidebar and then select a request protocol, or select **+** to open a new tab. Select the protocol dropdown menu to the left of the request's name, and then select a different request protocol.
+
+    > You can't change the request protocol after you select **Save**.
+
+    <img src="https://assets.postman.com/postman-docs/v10/select-protocol-v10.gif" alt="Select protocol" />
 
 * **Server URL** - Defines the endpoint where the service is hosted. A gRPC URL often starts with `grpc://` instead of `http://` or `https://`. While creating a new request, you can also browse through URLs you've used by selecting the URL field. This helps you create the request faster if you’re testing multiple methods on the same endpoint.
 
@@ -55,7 +56,7 @@ The request section includes the required configurations to connect to the serve
 
     * **Message actions** - The **Beautify** button (`{ }`) makes the composed JSON message presentable and readable for external users using advanced formatting. The **Generate example message** button creates an example message using the schema once you have selected the method to invoke.
 
-    * **Authorization** - Pass credentials that the server would use to authorize the connection here. You can choose from a list of auth types including API Key, Basic auth, and Bearer token. Learn more about [authorizing requests](/docs/sending-requests/authorization/).
+    * **Authorization** - Pass credentials that the server would use to authorize the connection here. You can choose from a list of auth types including API Key, Basic auth, and Bearer token. Learn more about [authorizing requests](/docs/sending-requests/authorization/authorization).
 
     * **Metadata** - Pass other metadata with the request in the form of key-value pairs. The client uses this metadata to provide more information about the call to the server.
 
@@ -116,7 +117,6 @@ To invoke a bidirectional streaming method, select the method from the **Method 
 Once you invoke a method, the server gives back the appropriate response that appears in the response area.
 
 <!--TODO: image with callouts, with Postman echo service shown -->
-
 The response section has the following items:
 
 * **Response** - A response payload has three types of information:
@@ -126,6 +126,8 @@ The response section has the following items:
     * **Metadata (Initial) and Trailing metadata** - Metadata returned by the server typically consists of information about the execution.
 
 * **More information** - This section gives you key information regarding performance and if the execution was successful. You can assess the performance of the API using the information on how long the execution took. The status code gives you information explaining whether the execution was successful. The status code `0 OK` signifies successful execution. In case of an error, a gRPC-based implementation returns different status codes for different error scenarios which help you understand the cause and figure out the next set of actions by hovering on it.
+
+* **Save as example** - You can save responses to your gRPC requests as [examples](/docs/sending-requests/examples/). For streaming methods, you must end streaming before you can save an example. See [Using gRPC examples](/docs/sending-requests/grpc/using-grpc-examples/) to learn more.
 
 * **Wrap text button** - Selecting this button adjusts the width of the response body according to the width of the response area, making it easier to read longer responses without scrolling.
 
@@ -151,9 +153,9 @@ The response section has the following items:
 
 The right sidebar gives you access to more tools and information like documentation, commenting, and request details. Open a gRPC request, and then select an option in the right sidebar:
 
-* **Request documentation** - Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> to view documentation for a request. When you select a method, Postman automatically generates documentation for the payload fields and data types using the protobuf definition. You can also add a description to help users understand and use the request. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description, then write your content using Postman's [built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/).
+* **Request documentation** - Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> to view documentation for a request. When you select a method, Postman automatically generates documentation for the payload fields and data types using the protobuf definition. You can also add a description to help users understand and use the request. Select **Add request description**, then write your content using Postman's [built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/).
 
-    > You can also add a description to your collection's overview or a folder in your collection. Select the collection or folder in the sidebar, then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description.
+    > You can also add a description to your collection's overview or a folder in your collection. Select the collection or folder in the sidebar, then select **Add collection description** or **Add folder description**.
 
 * **Comments** - Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> to collaborate with your teammates as you work on an API. You can use `@` to tag others to ask a question, give feedback, and discuss your API.
 
