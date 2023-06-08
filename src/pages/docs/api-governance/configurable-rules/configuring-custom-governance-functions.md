@@ -19,7 +19,7 @@ You can create custom governance functions and use them in your [custom API Gove
 
 ## Adding a custom function
 
-You can add custom governance functions to use in your custom API Governance rules. Postman provides you with a boilerplate function to help you start writing your custom governance function. You must write custom functions in JavaScript.
+You can add custom governance functions to use in your custom API Governance rules. Postman provides you with a boilerplate function to help you start writing your custom governance function. You must write custom functions in JavaScript using CommonJS syntax.
 
 1. Go to the [Postman home screen](https://go.postman.co/), and then select **API Governance** from the team information pane.
 1. Select the **Rule Library** tab, and then select the **Functions** tab.
@@ -27,7 +27,7 @@ You can add custom governance functions to use in your custom API Governance rul
 
     ![Create custom API Governance function](https://assets.postman.com/postman-docs/v10/create-api-governance-function-v10.jpg)
 
-1. Name the function, and then write the function in the editor. It must adhere to [custom functions guidelines](/docs/api-governance/configurable-rules/spectral/#spectral-custom-functions).
+1. Name the function's file, and then write the function in the editor. It must adhere to [custom functions guidelines](/docs/api-governance/configurable-rules/spectral/#spectral-custom-functions).
 
     > Postman will prompt you with suggestions as you enter text. Select one to autocomplete your code.
 
@@ -39,41 +39,16 @@ You can add custom governance functions to use in your custom API Governance rul
 
 To add a custom function to a custom API Governance rule, [add a custom function](#adding-a-custom-function), and then begin the steps to [add a custom rule](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules).
 
-Add the `then.function` property to the rule, and add the custom function name as its value to use it in your rule (for example, `function: custom_function_name`). If your custom function accepts options, add the `then.functionOptions` property. Learn more about [Spectral rule properties](/docs/api-governance/configurable-rules/spectral/#spectral-rule-properties) and [Spectral custom functions](/docs/api-governance/configurable-rules/spectral/#spectral-custom-functions).
+Add the `then.function` property to the rule, and add the custom function's filename as its value to use it in your rule (for example, `function: custom_function_name`). If your custom function accepts options, add the `then.functionOptions` property. Learn more about [Spectral rule properties](/docs/api-governance/configurable-rules/spectral/#spectral-rule-properties) and [Spectral custom functions](/docs/api-governance/configurable-rules/spectral/#spectral-custom-functions).
 
 Then select **Create** to create a custom rule that uses a custom function.
-
-**YAML:**
-
-```yaml
-rules:
-  custom_rule_name:
-    # ...
-    then:
-      function: custom_function_name
-```
-
-**JSON:**
-
-```json
-{
-  "rules": {
-        "custom_rule_name": {
-            // ...
-            "then": {
-                "function": "custom_function_name",
-            }
-        }
-    }
-}
-```
 
 ## Viewing custom rules that use a custom function
 
 You can view the custom rules a custom function is used in.
 
 1. Select the **Rule Library** tab, and then select the **Functions** tab.
-1. Select a custom function's name.
+1. Select a custom function's filename.
 
     > To view only the number of custom rules each custom function is used in, you can review the values in the **Used In** column.
 
@@ -86,11 +61,11 @@ You can view the custom rules a custom function is used in.
 ## Editing a custom function
 
 1. Select the **Rule Library** tab, and then select the **Functions** tab.
-1. Select a custom function's name.
+1. Select a custom function's filename.
 1. Edit the function, and then select **Save**.
 
 ## Removing a custom function
 
-To remove a custom API Governance function, you must [remove the API Governance rules](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#removing-rules-from-your-api-governance-configuration) that use the custom function. Then select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the custom function.
+To remove a custom API Governance function, you must [remove the API Governance rules](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#removing-rules-from-your-api-governance-configuration) that use the custom function. Then select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the custom function's filename.
 
 ![Delete a custom API Governance function](https://assets.postman.com/postman-docs/v10/delete-api-governance-function-v10-2.jpg)
