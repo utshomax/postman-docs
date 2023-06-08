@@ -21,10 +21,10 @@ The **Members overview** dashboard shows details about all members of your team 
 * **Member invites** - The number of invitations sent by your team, and the number of invites accepted.
 * **Member roles** - The number of team members assigned to each role.
 * **Members list** - A detailed list of team members with the following information about each member:
-* **Name**
+    * **Name**
     * **Email**
     * **Joined on date**
-    * **Last active on** date
+    * **Last active on date**
     * **Roles**
     * **Invited by**
     * **Invite type**

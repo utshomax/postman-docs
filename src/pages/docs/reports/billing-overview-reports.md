@@ -21,7 +21,7 @@ The **Billing overview** dashboard gives an overview of billing information and 
 
 **Overall seat usage** - The total number of seats and the number of occupied seats per month.
 
-**Additional blocks** - A summary of the additional blocks a team currently has, if any, and how much these blocks increase their plan limits. Additional blocks are top-ups that teams can purchase to increase their resource limits for monitor requests, mock requests, and custom comains. These blocks provide extra capacity beyond the limits set by the team's plan.
+**Additional blocks** - A summary of the additional blocks a team currently has, if any, and how much these blocks increase their plan limits. Additional blocks are top-ups that teams can purchase to increase their resource limits for monitor requests, mock requests, and custom domains. These blocks provide extra capacity beyond the limits set by the team's plan.
 
 **Overage settings** - The status of overage for monitor requests and mock requests, indicating whether overage is enabled or not. The overage setting allows teams to enable the usage of certain resources even after exhausting their plan and additional block limits. Users with a Billing role in the team can toggle this setting to enable overage or pay-as-you-go usage on monitor requests and mock requests.
 
@@ -35,4 +35,4 @@ The **Billing overview** dashboard gives an overview of billing information and 
 
 **Custom Domains** - The team's limit on custom domains and usage over time. Custom domains allow teams to host their published API documentation on their own domain. The number of custom domains a team can have is limited by their plan. Enterprise teams can have up to 10 custom domains before needing additional blocks.
 
-**Cloud Agent requests** - The team's limits and consumption of Cloud Agent Requests over time. The Postman Cloud Agent enables teams to bypass browser limitations by routing API requests through Postman's cloud servers. Teams have plan-based limits on the number of requests they can run via the Postman Cloud Agent.
+**Cloud Agent requests** - The team's limits and consumption of Cloud Agent requests over time. The Postman Cloud Agent enables teams to bypass browser limitations by routing API requests through Postman's cloud servers. Teams have plan-based limits on the number of requests they can run via the Postman Cloud Agent.
