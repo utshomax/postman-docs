@@ -11,7 +11,7 @@ contextual_links:
     url: "https://blog.postman.com/introducing-new-postman-reports-for-enterprises/"
 ---
 
-> [__Reports are available on all Postman Enterprise plans.__](https://www.postman.com/pricing)
+> [**Reports are available on all Postman Enterprise plans.**](https://www.postman.com/pricing)
 
 The **Overview** report gives you a snapshot of high-level information about your team and plan.
 
