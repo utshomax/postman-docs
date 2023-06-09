@@ -1,16 +1,6 @@
 ---
 title: "Testing API performance"
 updated: 2023-06-15
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
 ---
 
 > **Performance testing is available on [Postman Free, Basic, and Professional plans](https://www.postman.com/pricing/).** If you are on an Enterprise plan, contact the [Postman sales team](https://www.postman.com/company/contact-sales/) for more information.
@@ -24,6 +14,7 @@ The performance test runs on your computer and not in the cloud. When you start 
 ## Contents
 
 * [Configuring a performance test](#configuring-a-performance-test)
+    * [Virtual users and system resources](#virtual-users-and-system-resources)
 * [Viewing performance metrics](#viewing-performance-metrics)
     * [Customizing the performance view](#customizing-the-performance-view)
 * [Viewing error details for performance tests](#viewing-error-details-for-performance-tests)
