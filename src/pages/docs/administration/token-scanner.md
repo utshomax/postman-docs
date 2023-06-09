@@ -49,9 +49,15 @@ Postman delivers the scan results in the [Security audit reports](/docs/reports/
 
 ## Secret Scanner dashboard
 
-You can view your team's configured [default](#default-alerts) and [custom](#custom-alerts) alerts in your [data security dashboard](https://go.postman.co/settings/team/token-scanner). Select **Team** in the Postman header, then select **Team Settings**. Then, select **Data security** on the left, and select **Secret Scanner**.
+To open the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/), select **Team > Team Settings** in the Postman header. Then select **Secret Scanner** in the left sidebar.
 
-<img alt="Data security dashboard" src="https://assets.postman.com/postman-docs/data-security-dashboard.jpg"/>
+<img alt="Secret Scanner dashboard" src="https://assets.postman.com/postman-docs/v10/secret-scanner-v10.15.jpg"/>
+
+In the dashboard, you can view secrets that the Secret Scanner has found under **Secrets detected**. You can select each found secret to get more details and resolve the findings.
+
+Select **Configure alerts** to view configured [default](#default-alerts) and [custom](#custom-alerts) alerts.
+
+Select **Reports** to review the frequency of secrets being detected and resolved. You can also review which workspaces have unresolved secrets and the types of secrets that are being found by the Secret Scanner.
 
 ## Supported tokens
 
@@ -59,42 +65,7 @@ The Secret Scanner scans a variety of tokens [by default](#default-alerts). You 
 
 ### Default alerts
 
-By default, the Secret Scanner scans tokens issued by the following service providers:
-
-* Airtable API Key
-* Akamai API Key
-* Amazon MWS Token
-* Basic Auth
-* Bearer Token
-* Clojars Deploy Token
-* Databricks Authentication Token
-* DSA Private Key
-* EC2 SSH Private Key
-* Firebase Cloud Messaging API Key
-* GitHub Personal Access Token
-* Google API Key
-* Google OAuth Token
-* Microsoft Outlook Team Webhook URL
-* New Relic User Key
-* OpenSSH Private Key
-* PGP Private Key
-* Postman API Key
-* Postman Collection Access Key
-* RSA Private Key
-* SendGrid API Key
-* Sendinblue Key
-* Shopify Key
-* Slack Webhook URL
-* Square Access Key
-* Square Access Token
-* Square OAuth Secret
-* Stripe Restricted Key
-* Stripe Secret Key
-* Telegram Bot Access Token
-* Twilio API Key
-* Twitter Bearer Token
-* Typeform API Key
-* Zapier Webhook URL
+By default, the Secret Scanner checks for tokens issued by common service providers like Amazon, Google, Github, Stripe, and Twilio. To view the complete list of default alerts, open the [Secret Scanner](https://go.postman.co/settings/team/secret-scanner/alerts).
 
 ### Custom alerts
 
@@ -106,9 +77,10 @@ Your team can add a total of five alerts. You must be a **Community Manager** or
 
 To add custom alerts, do the following:
 
-1. Go to **Team > Team Settings > Secret Scanner**.
-2. In the **Custom alerts** section, select **Add Alert**.
-3. On the **Add Alert** page, define the custom token.
+1. Go to **Team > Team Settings**.
+2. Select **Secret Scanner** in the left sidebar, then **Configure alerts**.
+2. In the **Custom alerts** section, select **+ Add Alert**.
+3. Add the details for the custom token, then select **Create Alert**.
 
 ## Protecting Postman API keys in GitHub
 
