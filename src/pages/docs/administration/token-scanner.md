@@ -80,8 +80,8 @@ To add custom alerts, do the following:
 
 1. Go to **Team > Team Settings**.
 2. Select **Secret Scanner** in the left sidebar, then **Configure alerts**.
-2. In the **Custom alerts** section, select **+ Add Alert**.
-3. Add the details for the custom token, then select **Create Alert**.
+3. In the **Custom alerts** section, select **+ Add Alert**.
+4. Add the details for the custom token, then select **Create Alert**.
 
 ## Protecting Postman API keys in GitHub
 
