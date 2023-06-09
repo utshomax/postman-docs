@@ -282,7 +282,7 @@ To securely store local data, you must connect the Snap password manager service
 sudo snap connect postman-enterprise:password-manager-service
 ```
 
-## Restricting usage
+## Login policy
 
 You can specify which teams can use the app with the `team-ids` option. For example, if you want teams with IDs `1234` and `4321` to have access:
 
