@@ -1,6 +1,6 @@
 ---
 title: "Using the Collection Runner"
-updated: 2023-04-15
+updated: 2023-06-15
 search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
   - type: section
@@ -142,7 +142,7 @@ The **Performance runs** tab shows past [performance runs](/docs/collections/tes
 
 Select the run number to view a graph and full details for the performance run. Learn more about [viewing performance metrics](/docs/collections/testing-api-performance/#viewing-performance-metrics).
 
-![Performance runs tab](https://assets.postman.com/postman-docs/v10/performance-test-past-runs-v10-13c.jpg)
+![Performance runs tab](https://assets.postman.com/postman-docs/v10/performance-test-past-runs-v10-15.jpg)
 
 ## Sharing collection runs
 

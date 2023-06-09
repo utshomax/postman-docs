@@ -1,8 +1,6 @@
 ---
 title: "Viewing scheduled collection runs"
-updated: 2022-11-09
-warning: false
-
+updated: 2023-06-15
 ---
 
 You can run collections at specific times each day or week. For example, you may want to run a collection that tests your API every day. You can use the Collection Runner to [schedule collection runs](/docs/collections/running-collections/scheduling-collection-runs/) to execute automatically at specified dates and times.

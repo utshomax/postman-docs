@@ -23,6 +23,7 @@ Refer to the following sections to understand what happens when your resource us
 * [Mock server usage](#mock-server-usage)
 * [Monitoring usage](#monitoring-usage)
 * [Collection runs usage](#collection-runs-usage)
+* [Performance test usage](#performance-test-usage)
 * [Custom domains](#custom-domains)
 * [Storage usage](#storage-usage)
 * [Postman API usage](#postman-api-usage)

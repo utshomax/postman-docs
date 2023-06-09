@@ -1,6 +1,6 @@
 ---
 title: "Scheduling collection runs"
-updated: 2023-04-15
+updated: 2023-06-15
 contextual_links:
   - type: section
     name: "Additional resources"
