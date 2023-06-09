@@ -437,9 +437,6 @@ After you remove the element, team members won't have access to it through the P
 
 The report feature makes it easier to govern your internal API landscape through deeper insights into APIs in your Private API Network.
 
-To view the Private API Network report, do the following:
+To view Private API Network reports, select [**Home**](https://go.postman.co/) from the Postman header, then select **Reports** on the left side.
 
-1. Select [**Home**](https://go.postman.co/) from the Postman header, then select **Reports** on the left side.
-1. Select **All APIs**, then select **Private Network APIs**.
-
-Learn more about the [Private Network APIs report](/docs/reports/all-apis-reports/#private-network-apis).
+To learn more about reports, see the [Reports overview](/docs/reports/reports-overview/).
