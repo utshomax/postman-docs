@@ -1,6 +1,6 @@
 ---
 title: "About resource usage"
-updated: 2023-02-06
+updated: 2023-06-15
 contextual_links:
   - type: section
     name: "Additional resources"
