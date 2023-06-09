@@ -1234,6 +1234,10 @@ export const leftNavItems = [
         name: 'Billing overview reports',
         url: '/docs/reports/billing-overview-reports/',
       },
+      {
+        name: 'Token scanner report',
+        url: '/docs/reports/security-audit-reports/',
+      },
     ],
   },
   {
