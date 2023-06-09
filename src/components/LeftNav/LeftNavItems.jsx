@@ -433,7 +433,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Testing API Performance',
+        name: 'Testing API performance',
         url: '/docs/collections/testing-api-performance/',
       },
       {
