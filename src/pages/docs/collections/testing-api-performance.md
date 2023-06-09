@@ -15,7 +15,7 @@ contextual_links:
 
 > **Performance testing is available on [Postman Free, Basic, and Professional plans](https://www.postman.com/pricing/).** If you are on an Enterprise plan, contact the [Postman sales team](https://www.postman.com/company/contact-sales/) for more information.
 
-You can use the _Collection Runner_ to test the performance of your API with the same requests, collections, and environments you use for [functional API tests](/docs/collections/running-collections/intro-to-collection-runs/). Performance testing enables you to simulate real-world traffic, so you can observe how your API behaves under load and determine if the performance meets expectations. It can also help you identify any issues or bottlenecks affecting performance
+You can use the _Collection Runner_ to test the performance of your API with the same requests, collections, and environments you use for [functional API tests](/docs/collections/running-collections/intro-to-collection-runs/). Performance testing enables you to simulate real-world traffic, so you can observe how your API behaves under load and find out if the performance meets expectations. It can also help you identify any issues or bottlenecks affecting performance
 
 To configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to send to your API. Postman uses these requests to simulate the activity of your API's users. In the Collection Runner, you can set the duration of the test and the number of _virtual users_. Each virtual user simulates the behavior of a real-world user by running the collection repeatedly, in parallel with other virtual users. You can also choose whether the number of virtual users is fixed for the duration of the test or gradually ramps up during the test.
 
@@ -72,7 +72,7 @@ Use the following guidelines to understand how many virtual users you can simula
 * A host with 8 CPU cores and 16 GB RAM can simulate up to 250 virtual users
 * A host with 16 CPU cores and 32 GB RAM can simulate up to 500 virtual users
 
-Attempting to simulate a higher number of virtual users may cause inaccurate metrics and reduced throughput (requests per second). Postman recommends running a small test with 10–20 virtual users and observing system resource usage. You can use this information to estimate that maximum number of virtual users that can be simulated for your collection and host computer.
+Attempting to simulate a higher number of virtual users may cause inaccurate metrics and reduced throughput (requests per second). Postman recommends running a small test with 10 to 20 virtual users and observing system resource usage. You can use this information to estimate that maximum number of virtual users that can be simulated for your collection and host computer.
 
 > If you have a problem with the performance testing feature, contact the [Postman support team](https://support.postman.com/hc/en-us). Make sure to attach your [Postman logs](https://support.postman.com/hc/en-us/articles/360025298633-How-to-get-logs-from-the-Postman-Desktop-app) in your support request.
 
@@ -111,7 +111,7 @@ Select a metric in the legend below the graph to show or hide that metric in the
 
 <img alt="Getting performance details" src="https://assets.postman.com/postman-docs/v10/performance-test-show-legend-v10-15.jpg" width="600px"/>
 
-Use the dropdown lists above the graph to view data for a specific request. You can also select the response time metrics you want to view. The following metrics are available:
+Use the dropdown lists to view data for a specific request. You can also select the response time metrics you want to view. The following metrics are available:
 
 * **Avg. response** - The response time in milliseconds of all requests averaged together.
 * **Min response** - The lowest observed response time.
@@ -140,7 +140,7 @@ Hover over a point on the graph to view the the top three errors at that point.
 
 <img alt="Getting error details" src="https://assets.postman.com/postman-docs/v10/performance-test-hover-v10-15.jpg" width="600px"/>
 
-Select the **Error rate** above the graph to view the top errors for the entire test.
+Select the **Error rate** to view the top errors for the entire test.
 
 <img alt="Viewing top errors" src="https://assets.postman.com/postman-docs/v10/performance-test-top-errors-10-15.jpg" width="600px"/>
 
@@ -148,7 +148,7 @@ Select the **Error rate** above the graph to view the top errors for the entire 
 
 You can view error trends after the performance test is complete. The error trend shows the top five errors that occurred during the test and the frequency of those errors over time. This information can help you understand how error rates change in response to increased load on your API.
 
-To view error trends, select the **Errors** tab above the graph. You can also select the **Error rate** on the **Summary** tab and select **View Error Trends**.
+To view error trends, select the **Errors** tab. You can also select the **Error rate** on the **Summary** tab and select **View Error Trends**.
 
 <img alt="Viewing error trends" src="https://assets.postman.com/postman-docs/v10/performance-test-errors-graph-v10-15.jpg"/>
 
@@ -163,7 +163,7 @@ From the **Errors** tab, you can take the following actions:
 
 * Hover over a point on the graph to view more details.
 * Select a metric in the legend below the graph to show or hide that metric in the graph.
-* To view the error trends for a specific request, select the request in the dropdown list above the graph. This information can help you understand which requests are associated with certain types of errors. To change the graph back to the default view, select **Reset**.
+* To view the error trends for a specific request, select the request in the dropdown list. This information can help you understand which requests are associated with certain types of errors. To change the graph back to the default view, select **Reset**.
 
 <img alt="Viewing top errors" src="https://assets.postman.com/postman-docs/v10/performance-test-filter-errors-v10-15.jpg" width="600px"/>
 
