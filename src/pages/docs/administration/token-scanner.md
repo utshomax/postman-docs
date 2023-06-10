@@ -33,7 +33,6 @@ The Postman Secret Scanner scans public workspaces to detect any exposed secrets
     * [Default alerts](#default-alerts)
     * [Custom alerts](#custom-alerts)
 * [Protecting Postman API keys in GitHub](#protecting-postman-api-keys-in-github)
-* [Protecting Postman API keys in GitLab](#protecting-postman-api-keys-in-gitlab)
 
 ## Use cases
 
@@ -85,12 +84,6 @@ To add custom alerts, do the following:
 
 ## Protecting Postman API keys in GitHub
 
-Postman works with GitHub to ensure that your Postman API keys are secure. If you accidentally commit a valid Postman API key to a public GitHub repository, Postman notifies you by email and in-app notification. You can also set up Postman's [Slack integration](/docs/integrations/available-integrations/slack/) to alert you in Slack if this occurs.
+Postman also works with GitHub to ensure that your Postman API keys are secure. If you commit a valid Postman API key to a public GitHub repository, Postman notifies you by email and in-app notification. You can also set up Postman's [Slack integration](/docs/integrations/available-integrations/slack/) to alert you in Slack if this occurs.
 
-It's recommended you delete the exposed API key in your [API keys dashboard](https://go.postman.co/settings/me/api-keys) immediately. You can then [generate a new API key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key) to continue working with the Postman API.
-
-## Protecting Postman API keys in GitLab
-
-Postman works with GitLab to protect your Postman API keys in GitLab public repositories. If you accidentally commit a valid Postman API key to a public GitLab repository, Postman notifies you by email.
-
-It's recommended you delete the exposed API key in your [API keys dashboard](https://go.postman.co/settings/me/api-keys) immediately. You can then [generate a new API key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key) to continue working with the Postman API.
+It's recommended you delete the exposed API key in your [API keys dashboard](https://go.postman.co/settings/me/api-keys). You can then [generate a new API key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key) to continue working with the Postman API.
