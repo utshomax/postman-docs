@@ -53,11 +53,7 @@ To open the [Secret Scanner dashboard](https://go.postman.co/settings/team/secre
 
 <img alt="Secret Scanner dashboard" src="https://assets.postman.com/postman-docs/v10/secret-scanner-v10.15.jpg"/>
 
-In the dashboard, you can view secrets that the Secret Scanner has found under **Secrets detected**. You can select each found secret to get more details and resolve the findings.
-
-Select **Configure alerts** to view configured [default](#default-alerts) and [custom](#custom-alerts) alerts.
-
-Select **Reports** to review the frequency of secrets being detected and resolved. You can also review which workspaces have unresolved secrets and the types of secrets that are being found by the Secret Scanner.
+You can view configured [default](#default-alerts) and [custom](#custom-alerts) alerts.
 
 ## Supported tokens
 
@@ -78,7 +74,7 @@ Your team can add a total of five alerts. You must be a **Community Manager** or
 To add custom alerts, do the following:
 
 1. Go to **Team > Team Settings**.
-2. Select **Secret Scanner** in the left sidebar, then **Configure alerts**.
+2. Select **Secret Scanner** in the left sidebar.
 3. In the **Custom alerts** section, select **+ Add Alert**.
 4. Add the details for the custom token, then select **Create Alert**.
 
