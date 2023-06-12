@@ -54,4 +54,4 @@ The right sidebar offers more options for working with your API. You can view co
 
 For APIs connected to the Git repository, the changelog is replaced by the **Source Control** pane, which you can use to sync your changes with a remote Git repository.
 
-> **The maximum number of APIs objects you can create in API Builder is determined by your Postman plan. [Learn more about what's included with each plan](https://www.postman.com/pricing/).**
+> **The maximum number of API objects you can create in the API Builder is determined by your Postman plan. [Learn more about what's included with each plan](https://www.postman.com/pricing/).**
