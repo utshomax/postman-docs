@@ -50,7 +50,7 @@ Once you've reached your usage limit, your monitors and scheduled collection run
 
 ## Collection runs usage
 
-Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of [collection runs](/docs/collections/running-collections/intro-to-collection-runs/) you can use each month. This limit applies to collections that you run in a workspace or the Scratch Pad using the **Run manually** option. This limit doesn't apply to [scheduled collection runs](/docs/collections/running-collections/scheduling-collection-runs/) in the Postman cloud. A collection run with multiple iterations counts as a single run.
+Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of [collection runs](/docs/collections/running-collections/intro-to-collection-runs/) you can use each month. This limit applies to collections that you run in a workspace or the Scratch Pad using the **Run manually** option. This is separate from the limits for [scheduled collection runs](/docs/collections/running-collections/scheduling-collection-runs/) in the Postman cloud. A collection run with multiple iterations counts as a single run.
 
 You can check your manual collection run usage on the [Resource Usage dashboard](https://go.postman.co/billing/add-ons/overview). Also, a message will display in the Collection Runner when you're approaching your usage limit.
 
@@ -62,7 +62,7 @@ Once you've reached your usage limit, you will no longer be able to run your col
 
 ## Performance test usage
 
-Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of [performance test runs](/docs/collections/testing-api-performance/) you can use each month. This limit applies to collections that you run using the **Performance** tab in the Collection Runner. This limit doesn't apply to [manual collection runs](/docs/collections/running-collections/intro-to-collection-runs/) or [scheduled collection runs](/docs/collections/running-collections/scheduling-collection-runs/).
+Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of [performance test runs](/docs/collections/testing-api-performance/) you can use each month. This limit applies to collections that you run using the **Performance** tab in the Collection Runner. This is separate from the limits for functional tests ([manual collection runs](/docs/collections/running-collections/intro-to-collection-runs/) and [scheduled collection runs](/docs/collections/running-collections/scheduling-collection-runs/)).
 
 You can check your performance test usage on the [Resource Usage dashboard](https://go.postman.co/billing/add-ons/overview). Also, a message will display in the Collection Runner when you're approaching your usage limit.
 

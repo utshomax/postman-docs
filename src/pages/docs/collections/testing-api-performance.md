@@ -7,7 +7,7 @@ updated: 2023-06-15
 
 You can use the _Collection Runner_ to test the performance of your API with the same requests, collections, and environments you use for [functional API tests](/docs/collections/running-collections/intro-to-collection-runs/). Performance testing enables you to simulate real-world traffic, so you can observe how your API behaves under load and find out if the performance meets expectations. It can also help you identify any issues or bottlenecks affecting performance
 
-To configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to send to your API. Postman uses these requests to simulate the activity of your API's users. In the Collection Runner, you can set the duration of the test and the number of _virtual users_. Each virtual user simulates the behavior of a real-world user by running the collection repeatedly, in parallel with other virtual users. You can also choose whether the number of virtual users is fixed for the duration of the test or gradually ramps up during the test.
+To configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to send to your API. Postman uses these requests to simulate the activity of your API's users. In the Collection Runner, you can set the duration of the test and the number of _virtual users_. Each virtual user runs the requests in the specified order in a repeating loop. All of the virtual users operate in parallel to simulate real-world load on your API. You can also choose whether the number of virtual users is fixed for the duration of the test or gradually ramps up during the test.
 
 The performance test runs on your computer and not in the cloud. When you start the test, the Collection Runner displays performance metrics in real time. You can view the average response time, error rate, and throughput for all requests or individual requests. You can also view details about errors that occurred during the test to help identify the source of any performance issues.
 
@@ -26,7 +26,7 @@ The performance test runs on your computer and not in the cloud. When you start 
 
 > **Use the Postman desktop app to configure and run performance tests.** You can't use the Postman web app for performance testing. During a performance test, all requests are sent from the host computer where you are running the Postman desktop app.
 
-Before you configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to use to simulate user activity. For each virtual user, Postman will run the collection in parallel and repeatedly to simulate real-world load on your API.
+Before you configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to use to simulate user activity. Each virtual user runs the selected requests in the specified order and repeats the sequence throughout the test. Multiple virtual users all operate in parallel to simulate real-world usage of your API.
 
 To configure a performance test in the Postman desktop app, do the following:
 
@@ -38,7 +38,8 @@ To configure a performance test in the Postman desktop app, do the following:
     > You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Runner** from the Postman footer and drag a collection from **Collections** or **History** in the sidebar.
 
 1. Select the **Performance** tab.
-1. Enter the number of **Virtual users**. While the test is running, Postman repeatedly runs the collection for each virtual user. A higher number of virtual users puts increased load on your API.
+1. (Optional) Change the order the requests are run in by dragging a request to a new location. To skip a request, clear the checkbox next to its name.
+1. Enter the number of **Virtual users**. While the test is running, each virtual user runs the selected requests in the specified order in a repeating loop. A higher number of virtual users puts increased load on your API.
 
     > The maximum number of virtual users you can simulate depends on available system resources and the collection you're using. Learn more about [virtual users and system resources](#virtual-users-and-system-resources).
 
@@ -76,7 +77,7 @@ During a performance test, all requests are sent from your computer where you ar
 You can view the following information about the performance test:
 
 * Name of the collection being run and the active environment (if any). Select the name to open the collection or environment.
-* The number of virtual users (VU). Each virtual user simulates the behavior of a real-world user by running the collection repeatedly, in parallel with other virtual users.
+* The number of virtual users (VU). Each virtual user simulates the behavior of a real-world user by running the collection in a repeating loop, in parallel with other virtual users.
 * Start time, duration, and load profile (fixed or ramp up).
 * **Total requests sent** - The total number of requests sent across all virtual users.
 * **Requests/second** - The number of requests sent each second during the performance test, a measure of throughput.
@@ -127,7 +128,7 @@ During a performance test, requests that result in a response other than a 2xx s
 
 You can view top errors on the **Summary** tab while the performance test is running or after the test is complete.
 
-Hover over a point on the graph to view the the top three errors at that point.
+Hover over a point on the graph to view the top three errors at that point.
 
 <img alt="Getting error details" src="https://assets.postman.com/postman-docs/v10/performance-test-hover-v10-15.jpg" width="600px"/>
 
