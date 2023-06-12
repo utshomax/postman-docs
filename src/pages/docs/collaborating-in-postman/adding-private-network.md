@@ -213,6 +213,8 @@ To add elements from your Private API Network, do the following:
 
 1. Select the collections, APIs, and workspaces you want to add. You can search for elements, and filter elements by tags.
 
+    If you're adding collections, you can optionally select environments in their workspace to make sure users have access to environment variables. You can also [edit a collection's environments later](#editing-collections).
+
     You can select **Added elements** in the upper-right corner to show elements already added to the Private API Network. You can select the **Collections** tab and then **Forks** in the upper-right corner to show [forked collections](/docs/collaborating-in-postman/using-version-control/forking-entities/).
 
     > An API's editor must [publish a version of the API](#publishing-specific-api-versions) before you can add it to your Private API Network.
@@ -315,6 +317,8 @@ To request to add elements from your Private API network, do the following:
     > You can also select **Add** on the right from the Private API Network overview page, or select **Add To Folder** in the upper-right corner.
 
 1. Select the collections, APIs, and workspaces you want to request to add. You can search for elements, and filter elements by tags.
+
+    If you're requesting to add collections, you can optionally select environments in their workspace to make sure users have access to environment variables. You can also [edit a collection's environments later](#editing-collections).
 
     You can select **Added elements** in the upper-right corner to show elements already added to the Private API Network. You can select the **Collections** tab and then **Forks** in the upper-right corner to show [forked collections](/docs/collaborating-in-postman/using-version-control/forking-entities/).
 
