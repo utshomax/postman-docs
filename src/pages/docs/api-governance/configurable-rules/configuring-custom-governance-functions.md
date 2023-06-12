@@ -48,7 +48,7 @@ Then select **Create** to create a custom rule that uses a custom function.
 You can view the custom rules a custom function is used in.
 
 1. Select the **Rule Library** tab, and then select the **Functions** tab.
-1. Select a custom function's filename.
+1. Select a custom function's filename in the **Name** column.
 
     > To view only the number of custom rules each custom function is used in, you can review the values in the **Used In** column.
 
@@ -61,7 +61,7 @@ You can view the custom rules a custom function is used in.
 ## Editing a custom function
 
 1. Select the **Rule Library** tab, and then select the **Functions** tab.
-1. Select a custom function's filename.
+1. Select a custom function's filename in the **Name** column.
 1. Edit the function, and then select **Save**.
 
 ## Removing a custom function
