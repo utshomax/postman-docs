@@ -284,7 +284,7 @@ sudo snap connect postman-enterprise:password-manager-service
 
 ## Login policy
 
-You can specify which teams can use the app with the `team-ids` option. For example, if you want teams with IDs `1234` and `4321` to have access:
+You can specify which Postman teams can use the app with the `team-ids` option. For example, if you want teams with IDs `1234` and `4321` to have access:
 
 ``` shell
 sudo snap set postman-enterprise team-ids="1234, 4321"
