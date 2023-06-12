@@ -270,7 +270,7 @@ Install the Postman Enterprise app with Snap:
 sudo snap install /path/to/postman-enterprise.snap --dangerous
 ```
 
-The [--dangerous](https://snapcraft.io/docs/install-modes#heading--dangerous) option is required because the Postman Enterprise app is not distributed through the Snap store.
+The `--dangerous` option is required because the Postman Enterprise app is not distributed through the Snap store. See the [Snap documentation](https://snapcraft.io/docs/install-modes#heading--dangerous) to learn more.
 
 ## Encrypting data
 
