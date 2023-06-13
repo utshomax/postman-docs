@@ -99,7 +99,7 @@ You can select a folder to search, filter, and sort elements on the right. Selec
 * To search by name, enter the full or partial element name into **Search elements**.
 * To filter based on the person who added the element, select **Added by**, then select the name of the team member.
 * To filter by element type, select **Type**, then select **API**, **Collection**, or **Workspace**.
-* To filter based on element tags, select **Tags**, then select the tags.
+* To filter based on element tags, select **Tags**, then select the tags. Learn more about adding tags to [collections](/docs/collections/using-collections/#tagging-a-collection), [APIs](/docs/designing-and-developing-your-api/managing-apis/#tagging-apis), and [workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#tagging-a-workspace).
 * To sort elements, select the **Sort by** dropdown list. Options are:
     * **Recently added** - Sort elements by the date they were added.
     * **A to Z** - Sort elements alphabetically.
@@ -211,7 +211,7 @@ To add elements from your Private API Network, do the following:
 
     > You can also select **Add** on the right from the Private API Network overview page, or select **Add To Folder** in the upper-right corner.
 
-1. Select the collections, APIs, and workspaces you want to add. You can search for elements, and filter elements by tags.
+1. Select the collections, APIs, and workspaces you want to add. You can search for elements, and filter elements by tags. Learn more about adding tags to [collections](/docs/collections/using-collections/#tagging-a-collection), [APIs](/docs/designing-and-developing-your-api/managing-apis/#tagging-apis), and [workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#tagging-a-workspace).
 
     If you're adding collections, you can optionally select environments in their workspace to make sure users have access to environment variables. You can also [edit a collection's environments later](#editing-collections).
 
@@ -316,7 +316,7 @@ To request to add elements from your Private API network, do the following:
 
     > You can also select **Add** on the right from the Private API Network overview page, or select **Add To Folder** in the upper-right corner.
 
-1. Search for and then select collections, APIs, and workspaces you want to request to add. You can also filter elements by tags.
+1. Search for and then select collections, APIs, and workspaces you want to request to add. You can also filter elements by tags. Learn more about adding tags to [collections](/docs/collections/using-collections/#tagging-a-collection), [APIs](/docs/designing-and-developing-your-api/managing-apis/#tagging-apis), and [workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#tagging-a-workspace).
 
     If you're requesting to add collections, you can optionally select environments in their workspace to make sure users have access to environment variables. You can also [edit a collection's environments later](#editing-collections).
 
