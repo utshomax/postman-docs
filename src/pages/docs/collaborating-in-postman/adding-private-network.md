@@ -316,7 +316,7 @@ To request to add elements from your Private API network, do the following:
 
     > You can also select **Add** on the right from the Private API Network overview page, or select **Add To Folder** in the upper-right corner.
 
-1. Select the collections, APIs, and workspaces you want to request to add. You can search for elements, and filter elements by tags.
+1. Search for and then select collections, APIs, and workspaces you want to request to add. You can also filter elements by tags.
 
     If you're requesting to add collections, you can optionally select environments in their workspace to make sure users have access to environment variables. You can also [edit a collection's environments later](#editing-collections).
 
