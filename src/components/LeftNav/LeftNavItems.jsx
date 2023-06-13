@@ -667,7 +667,7 @@ export const leftNavItems = [
         url: '/docs/collaborating-in-postman/roles-and-permissions/',
       },
       {
-        name: 'User groups',
+        name: 'Managing user groups',
         url: '/docs/collaborating-in-postman/user-groups/',
       },
       {

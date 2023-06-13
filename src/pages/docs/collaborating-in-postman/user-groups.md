@@ -1,5 +1,5 @@
 ---
-title: "User groups"
+title: "Managing user groups"
 updated: 2023-06-15
 contextual_links:
   - type: section
