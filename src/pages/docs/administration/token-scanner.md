@@ -51,7 +51,7 @@ Postman delivers the scan results in the [Security audit reports](/docs/reports/
 
 To open the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/), select **Team > Team Settings** in the Postman header. Then select **Secret Scanner** in the left sidebar.
 
-<img alt="Secret Scanner dashboard" src="https://assets.postman.com/postman-docs/v10/secret-scanner-v10.15.jpg"/>
+<img alt="Secret Scanner dashboard" src="https://assets.postman.com/postman-docs/v10/secret-scanner-dash-v10.15.jpg"/>
 
 You can view configured [default](#default-alerts) and [custom](#custom-alerts) alerts.
 
