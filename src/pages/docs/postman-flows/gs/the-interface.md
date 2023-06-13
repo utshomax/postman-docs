@@ -35,6 +35,7 @@ The Postman Flows interface has three main parts: the toolbar, the right sidebar
 * [Right sidebar](#right-sidebar)
 * [Minimap](#minimap)
 * [Console](#console)
+* [Share, Fork, and Deploy buttons](#share-fork-and-deploy-buttons)
 
 ![Interface](https://assets.postman.com/postman-docs/v10/flows-interface-main-v10-2.jpg)
 
@@ -104,3 +105,13 @@ The minimap is an interactive map of your flow. Hover over the minimap to enlarg
   All of your print blocks and logs will appear here.
 
   ![Console](https://assets.postman.com/postman-labs-docs/interface/console.gif)
+
+## Share, Fork, and Deploy buttons
+
+These buttons enable you to collaborate with others and run your flows in the cloud where they can be integrated with applications.
+
+**Share** - Select this button to [share](/docs/collaborating-in-postman/sharing/) flows the same way you share collections and other elements.
+
+**Fork** - Select this button to [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) flows the same way you fork collections and other elements. The number next to the **Fork** button shows how many times this flow has been forked.
+
+**Deploy** - Select this button to run your flow in the cloud. After you deploy a flow, you can integrate it with an application using [webhooks](/docs/postman-flows/tutorials/webhooks/).
