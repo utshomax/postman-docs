@@ -138,7 +138,7 @@ You can assign two role types in Postman collections: **Editor** and **Viewer**.
 * **Editor** - Can edit collections directly
 * **Viewer** - Can view, fork, and export collections
 
-You can assign a limited Viewer role to an external user who isn't in your Postman team by [allowing them to view specific collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections). User with this role can only view collections and send requests in the collections that have been shared with them.
+You can assign a limited Viewer role to an external user who isn't in your Postman team by [allowing them to view specific collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections). Users with this role can only view collections and send requests in the collections that have been shared with them.
 
 The following roles control access at a collection level:
 
