@@ -33,6 +33,6 @@ The **Billing overview** dashboard gives an overview of billing information and 
 
 **Postman API** - A historical view of the team's Postman API call limit and the usage on a monthly basis. The Postman API allows users to programmatically access data stored in their Postman account, using command-line interfaces (CLI) or automation flows. Teams have a limit on the number of calls they can make to the Postman API based on their plan. Currently, Enterprise teams have a limit of 1 million API calls per month.
 
-**Custom Domains** - The team's limit on custom domains and usage over time. Custom domains allow teams to host their published API documentation on their own domain. The number of custom domains a team can have is limited by their plan. Enterprise teams can have up to 10 custom domains before needing additional blocks.
+**Custom Domains** - The team's limit on custom domains and usage over time. Custom domains allow teams to host their published API documentation on their own domain. The number of custom domains a team can have is limited by their plan. 
 
 **Cloud Agent requests** - The team's limits and consumption of Cloud Agent requests over time. The Postman Cloud Agent enables teams to bypass browser limitations by routing API requests through Postman's cloud servers. Teams have plan-based limits on the number of requests they can run via the Postman Cloud Agent.
