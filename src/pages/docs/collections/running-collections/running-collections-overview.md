@@ -21,4 +21,4 @@ In Postman, a [collection](/docs/getting-started/creating-the-first-collection/)
 * You can automate collection runs in your CI/CD with the [Postman CLI](/docs/postman-cli/postman-cli-overview/) or [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/).
 * You can use [webhooks](/docs/collections/running-collections/collection-webhooks/) to trigger collection runs at certain times or when a specific event happens in your application.
 
-> You can also run collections to simulate real world traffic and [test the performance of your API](/docs/collections/testing-api-performance/) under load.
+> You can also run collections to simulate real-world traffic and [test the performance of your API](/docs/collections/testing-api-performance/) under load.
