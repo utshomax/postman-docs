@@ -2172,7 +2172,15 @@
     "to": "/docs/reports/reports-overview/"
   },
   {
-    "from": "/docs/reports/all--reports/",
+    "from": "/docs/reports/all-apis-reports/",
+    "to": "/docs/reports/reports-overview/"
+  },
+  {
+    "from": "/docs/reports/api-governance-reports/",
+    "to": "/docs/reports/api-gov-reports/"
+  },
+  {
+    "from": "/docs/reports/all-workspaces-reports/",
     "to": "/docs/reports/reports-overview/"
   }
 
