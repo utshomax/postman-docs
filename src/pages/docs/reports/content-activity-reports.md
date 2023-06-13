@@ -17,13 +17,13 @@ The **Content activity** dashboard shows the current landscape of elements creat
 
 ## Contents
 
-* [**Workspaces overview**](#workspaces-overview)
-* [**APIs overview**](#apis-overview)
-* [**More reports**](#more-reports)
+* [Workspaces overview](#workspaces-overview)
+* [APIs overview](#apis-overview)
+* [More reports](#more-reports)
 
 ## Workspaces overview
 
-You can switch between team and public workspaces with the **Report Type** dropdown menu in the upper right.
+You can switch between team and public workspaces with the **Report Type** dropdown list in the upper right.
 
 * **Total workspaces** - The total number of workspaces including public, team, personal, and private workspaces.
 * **Workspaces created over time** - The total number of workspaces created by your team in the last six months. This might include workspaces that have since been deleted, as long as they were created in the reporting period.
@@ -38,7 +38,7 @@ You can switch between team and public workspaces with the **Report Type** dropd
 
 ## APIs overview
 
-You can switch between team and public APIs with the **Report Type** dropdown menu in the upper right.
+You can switch between team and public APIs with the **Report Type** dropdown list in the upper right.
 
 * **Total APIs** - The total number of APIs created by your team in all workspaces.
 * **Distribution of APIs** - The number of APIs created in personal, private, team, or public workspaces, or in the Private API Network.
@@ -50,7 +50,7 @@ Below **Content activity** in the **Reports** menu on the left you can access mo
 
 ## Workspaces dashboard
 
-You can choose to view **Team** or **Public** APIs by selecting from the **Report Type** dropdown menu.
+You can choose to view **Team** or **Public** APIs by selecting from the **Report Type** dropdown list.
 
 ### Team workspaces
 
@@ -88,7 +88,7 @@ The **Public Workspaces** report shows information about your public workspaces:
 
 ## APIs dashboard
 
-The APIs dashboard provides an overview of all your APIs. It also enables you to view a detailed report for each API. You can choose to view **Team** or **Public** APIs by selecting from the **Report Type** dropdown menu.
+The APIs dashboard provides an overview of all your APIs. It also enables you to view a detailed report for each API. You can choose to view **Team** or **Public** APIs by selecting from the **Report Type** dropdown list.
 
 ### Team APIs
 
