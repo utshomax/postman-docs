@@ -18,7 +18,7 @@ contextual_links:
 
 > **[Groups are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-With Postman groups, you can organize users into groups that reflect your organizational structure. You can add users to a group, then assign that group roles and access to resources they'll be using across Postman. You can also quickly onboard new team members by adding them to existing groups in your organization, instantly giving them access to the entities they'll be working on. Groups enable you to broadly control access from a single dashboard in Postman and manage it at scale across your Enterprise team.
+With Postman groups, you can organize users into groups that reflect your organizational structure. You can add users to a group, then assign that group roles and access to resources they'll be using across Postman. You can also efficiently onboard new team members by adding them to existing groups in your organization, instantly giving them access to the entities they'll be working on. Groups enable you to broadly control access from a single dashboard in Postman and manage it at scale across your Enterprise team.
 
 [Admins and Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create, manage, and delete groups. Developers can also create, manage, and delete Developer-only groups.
 
@@ -64,7 +64,7 @@ You can manage a group's members, roles, and access to Postman entities.
 
 ### Managing members of a group
 
-[Admins and Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add and remove members for all groups, but Developers can only add and remove members if they are a [group manager](#managing-group-managers).
+[Admins and Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add and remove members for all groups, but Developers can only add and remove members if they're a [group manager](#managing-group-managers).
 
 To manage the members of a group, select **Team** in the Postman header, then select **Manage Team**. Select **Groups** on the left. Locate the group you'd like to update and select it to edit.
 
@@ -78,7 +78,7 @@ Select **+ Add** to add a user to the group. Select **X** next to a user to remo
 
 Groups that are only assigned the Developer role can have group managers. Group managers can edit the name, description, members, and managers for a group.
 
-When a Developer creates a group they are automatically assigned the role of group manager. Developers with the group manager role, Admins, and Super Admins can add and remove group managers.
+When a Developer creates a group they're automatically assigned the role of group manager. Developers with the group manager role, Admins, and Super Admins can add and remove group managers.
 
 To edit the managers of a group, select **Team** in the Postman header, then select **Manage Team**. Select **Groups** on the left. Locate the group you'd like to update and select it to edit.
 
