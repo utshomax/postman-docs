@@ -173,25 +173,25 @@ To learn more about searching by tag names in Postman, see [Search Postman](/doc
 To add tags to a workspace, do the following:
 
 1. Select **Workspaces** in the Postman header, and then select a workspace.
-1. On the workspace's **Overview** tab, select the Tags section to edit it.
+1. On the workspace's **Overview** tab, select the **Tags** section to edit it.
 
     <img alt="Add tags to a workspace" src="https://assets.postman.com/postman-docs/v10/add-tags-workspace-v10.jpg"/>
 
-1. Select an existing tag or enter a new tag. If you're adding a new tag, enter the new tag name and then select **Create "TAG-NAME"**.
+1. Select an existing tag or enter a new tag. If you're adding a new tag, enter the new tag name and then select **Create "*tag-name*"**.
 
     <img alt="Add new tags to a workspace" src="https://assets.postman.com/postman-docs/v10/create-new-tags-workspace-v10.jpg"/>
 
-1. Select the area outside of the Tags section to save your changes.
+1. Select the area outside of the **Tags** section to save your changes.
 
 To remove tags from a collection, do the following:
 
 1. Select **Workspaces** in the Postman header, and then select a workspace.
-1. On the workspace's **Overview** tab, select the Tags section to edit it.
+1. On the workspace's **Overview** tab, select the **Tags** section to edit it.
 1. Select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to a tag.
 
     <img alt="Remove tags from a workspace" src="https://assets.postman.com/postman-docs/v10/remove-tags-workspace-v10.jpg"/>
 
-1. Select the area outside of the Tags section to save your changes.
+1. Select the area outside of the **Tags** section to save your changes.
 
 ## Watching a workspace
 
