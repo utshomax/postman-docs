@@ -2162,6 +2162,13 @@
   {
     "from": "/docs/monitoring-your-api/uptime-monitors/",
     "to": "/docs/monitoring-your-api/intro-monitors/"
+  },
+  {
+    "from": "/docs/reports/summary-reports/",
+    "to": "/docs/reports/reports-overview/"
+  },
+  {
+    "from": "/docs/reports/team-details-reports/",
+    "to": "/docs/reports/reports-overview/"
   }
-
 ]
