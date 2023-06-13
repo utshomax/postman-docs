@@ -1,6 +1,6 @@
 ---
 title: "Managing API keys"
-updated: 2023-06-07
+updated: 2023-06-15
 ---
 
 > **[Postman API key management is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
