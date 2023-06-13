@@ -120,7 +120,7 @@ To assign the API Network Manager role, do the following:
 1. Select the user you want to assign the API Network Manager role to.
 1. In the **Roles** dropdown list next to their name, select **API Network Manager**, then select **Update Roles**. For more information about assigning team roles to individual users, see [Managing roles](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
 
-    > Enterprise teams can also assign this role to a user group. For more information about assigning team roles to groups, see [User groups](/docs/collaborating-in-postman/user-groups/).
+    > Enterprise teams can also assign this role to a user group. For more information about assigning team roles to groups, see [Managing user groups](/docs/administration/managing-your-team/user-groups/).
 
 Postman will send an email to new API Network Managers about their updated role.
 
