@@ -225,7 +225,7 @@ To add elements from your Private API Network, do the following:
 
 1. Select **Review**.
 
-    <img alt="Add elements to the Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-add-elements-v10-2.jpg"/>
+    <img alt="Add elements to the Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-add-elements-v10-3.jpg"/>
 
 1. Review your selections, and then select **Add to Network**.
 
@@ -330,7 +330,7 @@ To request to add elements from your Private API network, do the following:
 
 1. Select **Review**.
 
-    <img alt="Add elements to the Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-add-elements-v10-2.jpg"/>
+    <img alt="Add elements to the Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-add-elements-v10-3.jpg"/>
 
 1. Review your selections, and then select **Request to add**.
 
