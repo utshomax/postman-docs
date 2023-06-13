@@ -39,7 +39,7 @@ Workspaces, collections, and APIs in the Private API Network are visible to logg
 
 [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and [API Network Managers](/docs/collaborating-in-postman/roles-and-permissions/#network-roles) can manage all folders and elements in your Private API Network. You can assign team members the [Folder Manager role](/docs/collaborating-in-postman/roles-and-permissions/#network-roles) at the folder level, giving them permission to manage specific folders and the elements in them.
 
-> Enterprise teams can also assign the API Network Manager role to a user group. For more information about assigning team roles to groups, see [Managing user groups](/docs/administration/managing-your-team/user-groups/).
+> Enterprise teams can also assign this role to a user group. For more information about assigning team roles to groups, see [User groups](/docs/collaborating-in-postman/user-groups/).
 
 <img alt="Private API Network overview" src="https://assets.postman.com/postman-docs/v10/private-api-network-overview-v10-3.jpg"/>
 
