@@ -18,7 +18,7 @@ contextual_links:
 
 > **[Groups are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-With Postman groups, you can organize users into groups that reflect your organizational structure. Groups enable you to manage access to your team and onboard new team members.
+With Postman groups, you can organize users into groups that reflect your organizational structure. You can add users to a group, then assign that group roles and access to resources they'll be using across Postman. You can also quickly onboard new team members by adding them to existing groups in your organization, instantly giving them access to the entities they'll be working on. Groups enable you to broadly control access from a single dashboard in Postman and manage it at scale across your Enterprise team.
 
 [Admins and Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create, manage, and delete groups. Developers can also create, manage, and delete Developer-only groups.
 
@@ -46,7 +46,7 @@ With Postman groups, you can organize users into groups that reflect your organi
 
 To create a group, select **Team** in the Postman header, then select **Manage Team**. Select **Groups** on the left, then **Create Group**.
 
-<!-- UPDATE ONCE 2 BRs MERGED IN PREVIEW <img alt="Create group" src="https://assets.postman.com/postman-docs/team-groups-list-v9.1.jpg"/> -->
+<img alt="Create group" src="https://assets.postman.com/postman-docs/v10/team-dashboard-manage-groups-v10.15.jpg"/>
 
 Give your group a name, description, and add your group members. If you're an Admin or Super Admin, you'll also have the option to select the team roles you'd like to assign to the group. If you're a Developer, you'll only have the option to create Developer-only groups.
 
