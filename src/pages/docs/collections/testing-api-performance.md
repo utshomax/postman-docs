@@ -5,7 +5,7 @@ updated: 2023-06-15
 
 > **Performance testing is available on [Postman Free, Basic, Professional, and Enterprise Essentials plans](https://www.postman.com/pricing/).** To learn more about availability for other Enterprise plans, contact the [Postman sales team](https://www.postman.com/company/contact-sales/).
 
-You can use the _Collection Runner_ to test the performance of your API with the same requests, collections, and environments you use for [functional API tests](/docs/collections/running-collections/intro-to-collection-runs/). Performance testing enables you to simulate real-world traffic, so you can observe how your API behaves under load and find out if the performance meets expectations. It can also help you identify any issues or bottlenecks affecting performance
+Performance testing enables you to simulate user traffic, so you can observe how your API behaves under load and find out if the performance meets expectations. It can also help you identify any issues or bottlenecks that affect performance. You can use the _Collection Runner_ to test the performance of your API with the same requests, collections, and environments you use for [functional API tests](/docs/collections/running-collections/intro-to-collection-runs/).
 
 To configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to send to your API. Postman uses these requests to simulate the activity of your API's users. In the Collection Runner, you can set the duration of the test and the number of _virtual users_. Each virtual user runs the requests in the specified order in a repeating loop. All of the virtual users operate in parallel to simulate real-world load on your API. You can also choose whether the number of virtual users is fixed for the duration of the test or gradually ramps up during the test.
 
@@ -39,6 +39,9 @@ To configure a performance test in the Postman desktop app, do the following:
 
 1. Select the **Performance** tab.
 1. (Optional) Change the order the requests are run in by dragging a request to a new location. To skip a request, clear the checkbox next to its name.
+
+    > Performance tests execute all of the requests selected in the Collection Runner in order, and each virtual user runs through the sequence of requests. This helps you test the performance of your API workflows. To test API calls in isolation, you can run performance tests on individual requests instead.
+
 1. Enter the number of **Virtual users**. While the test is running, each virtual user runs the selected requests in the specified order in a repeating loop. A higher number of virtual users puts increased load on your API.
 
     > The maximum number of virtual users you can simulate depends on available system resources and the collection you're using. Learn more about [virtual users and system resources](#virtual-users-and-system-resources).
