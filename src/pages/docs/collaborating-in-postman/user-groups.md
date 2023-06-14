@@ -20,7 +20,7 @@ contextual_links:
 
 With Postman groups, you can arrange users into groups that reflect your organizational structure. You can add users to a group, then assign that group roles and access to the resources they'll be using across Postman. You can also efficiently onboard new team members by adding them to existing groups in your organization, instantly giving them access to the entities they'll be working on. Groups enable you to broadly control access from a single dashboard in Postman and manage it at scale across your Enterprise team.
 
-[Admins and Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create, manage, and delete groups. Developers can also create, manage, and delete Developer-only groups.
+[Admins and Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create, manage, and delete groups. [Developers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can also create, manage, and delete Developer-only groups.
 
 ## Contents
 
@@ -48,7 +48,7 @@ To create a group, select **Team** in the Postman header, then select **Manage T
 
 <img alt="Create group" src="https://assets.postman.com/postman-docs/v10/team-dashboard-manage-groups-v10.15.jpg"/>
 
-Give your group a name, description, and add your group members. If you're an Admin or Super Admin, you'll also have the option to select the team roles you'd like to assign to the group. If you're a Developer, you'll only have the option to create Developer-only groups.
+Give your group a name and description, and add your group members. If you're an Admin or Super Admin, you'll also have the option to select the team roles you'd like to assign to the group. If you're a Developer, you'll only have the option to create Developer-only groups.
 
 <img alt="Create a group" src="https://assets.postman.com/postman-docs/v10/create-a-group-v10.15.jpg" width="450px"/>
 
@@ -56,7 +56,7 @@ When you're ready, select **Create Group**.
 
 Team members will receive an email and in-app notification when added to a group.
 
-> If you add a user with a support-only role (Admin or Billing) to a group that gives them a Developer role, they will automatically take up an available paid spot on your Postman team. If no spots are available, you won't be able to grant access to the group with that user.
+> If you add a user with a support-only role (Admin or Billing) to a group that gives them a Developer role, they will automatically take up an available paid seat on your Postman team. If no seats are available, you won't be able to grant access to the group with that user.
 
 ## Managing a group
 
@@ -64,7 +64,7 @@ You can manage a group's members, roles, and access to Postman entities.
 
 ### Managing members of a group
 
-[Admins and Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add and remove members for all groups, but Developers can only add and remove members if they're a [group manager](#managing-group-managers).
+[Admins and Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add and remove members for all groups, but [Developers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can only add and remove members if they're a [group manager](#managing-group-managers).
 
 To manage the members of a group, select **Team** in the Postman header, then select **Manage Team**. Select **Groups** on the left. Locate the group you'd like to update and select it to edit.
 
