@@ -281,7 +281,7 @@ export const leftNavItems = [
           },
           {
             name: 'Using GraphQL mock servers',
-            url: '/docs/sending-requests/graphql/graphql-mocks',
+            url: '/docs/sending-requests/graphql/graphql-mocks/',
           },
         ]
       },
