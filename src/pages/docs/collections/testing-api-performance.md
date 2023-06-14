@@ -3,7 +3,7 @@ title: "Testing API performance"
 updated: 2023-06-15
 ---
 
-> **Performance testing is available on [Postman Free, Basic, Professional, and Enterprise Essentials plans](https://www.postman.com/pricing/).** To learn more about availability for other Enterprise plans, contact the [Postman sales team](https://www.postman.com/company/contact-sales/).
+> **Performance testing is available on [Postman Free, Basic, and Professional plans](https://www.postman.com/pricing/).** To learn more about availability for Enterprise plans, contact the [Postman sales team](https://www.postman.com/company/contact-sales/).
 
 Performance testing enables you to simulate user traffic, so you can observe how your API behaves under load and find out if the performance meets expectations. It can also help you identify any issues or bottlenecks that affect performance. You can use the _Collection Runner_ to test the performance of your API with the same requests, collections, and environments you use for [functional API tests](/docs/collections/running-collections/intro-to-collection-runs/).
 
