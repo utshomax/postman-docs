@@ -42,12 +42,12 @@ Before creating a GraphQL mock server, you must have an API definition. This can
 
 To create the GraphQL mock server, do the following:
 
-1. Create a new GraphQL request. See [Making your first request with the GraphQL client](/docs/sending-requests/graphql/graphql-client-first-request/) for more information.
-1. Select **Enter request URL**.
-1. Select **Select a GraphQL API**.
+1. Select **New > GraphQL**.
+1. Select **Enter URL**.
+1. Select **Select a GraphQL API** from the dropdown list.
 1. Enter the API or schema to use in one of the following ways:
     * **Select an API** - Select an existing GraphQL API in the current workspace.
     * **Import Schema** - Upload a local GraphQL schema file.
-1. After you have selected an API, select **Enter server URL** again, and select **Use Mock URL**.
+1. After you have selected an API or schema, select **Enter URL** again, and select **Use Mock URL**.
 
 The mock server will be automatically generated, and ready for use. The request URL will be a server name beginning with a random name and ending in `.srv.pstmn.io`. Select **Query**, and your request will receive responses with random values.
