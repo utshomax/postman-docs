@@ -54,6 +54,8 @@ Select the workspace, then select **Move API**. Any collections in the API will 
 
 ## Tagging APIs
 
+> **[Tagging APIs is available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
+
 You can add tags to APIs, enabling you to organize and search for APIs using shared tags. You can add up to five tags to an API.
 
 Once you add tags to the API, you can select a tag to open search results associated with the tag in a new tab.
