@@ -31,7 +31,7 @@ Open the public workspace, then select the link icon <img alt="Link icon" src="h
 
 You can use the number of watchers and forks in your public workspace to track your API's success.
 
-> For more metrics, you can also view reports for [public workspaces](/docs/reports/content-activity-reports/#public-workspaces) and [public APIs](/docs/reports/content-activity-reports/#public-apis) in your [Postman reports dashboard](https://go.postman.co/reports/summary) ([Enterprise plans only](https://www.postman.com/pricing)).
+> For more metrics, you can also view reports for [public workspaces](/docs/reports/content-activity-reports/#public-workspaces) and [public APIs](/docs/reports/content-activity-reports/#public-apis) in your [Postman reports dashboard](https://go.postman.co/reports/overview) ([Enterprise plans only](https://www.postman.com/pricing)).
 
 ### Watchers
 

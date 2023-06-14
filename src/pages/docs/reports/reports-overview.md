@@ -16,7 +16,7 @@ contextual_links:
 
 Postman generates reports that enable you to visualize data for how your team uses Postman. These reports give you insights into the state of your APIs, including tests, documentation, and monitoring coverage. They also enable you to track performance and SLA adherence.
 
-Access your reports in your [Postman reports dashboard](https://go.postman.co/reports/summary).
+Access your reports in your [Postman reports dashboard](https://go.postman.co/reports/overview).
 
 <img alt="The Postman reports dashboard" src="https://assets.postman.com/postman-docs/v10/dashboard-reports-overview-v10.jpg" width="1200px"/>
 
