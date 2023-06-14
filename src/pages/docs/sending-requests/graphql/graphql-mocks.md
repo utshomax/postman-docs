@@ -42,7 +42,7 @@ Before creating a GraphQL mock server, you must have an API definition. This can
 
 To create the GraphQL mock server, do the following:
 
-1. Select **New > GraphQL**.
+1. In your workspace, select **New > GraphQL**.
 1. Select **Enter URL**.
 1. Select **Select a GraphQL API** from the dropdown list.
 1. Enter the API or schema to use in one of the following ways:
