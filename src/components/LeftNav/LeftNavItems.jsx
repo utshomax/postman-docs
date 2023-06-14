@@ -793,6 +793,18 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/',
           },
           {
+            name: 'Connecting to a cloud-hosted Git repository',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/connecting-cloud-git/',
+          },
+          {
+            name: 'Connecting to an on-premises Git repository',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/connecting-on-prem-git/',
+          },
+          {
+            name: 'Connecting an API to multiple repositories',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/connecting-multiple-repos/',
+          },
+          {
             name: 'Managing changes using Git',
             url: '/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/',
           },
