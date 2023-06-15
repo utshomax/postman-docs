@@ -37,7 +37,7 @@ Make sure to create your Statuspage account and create a page and components bef
 1. Select **Add Integration**.
 1. In the **Authenticate** tab, enter the Statuspage API key you copied in the [Retrieving your Statuspage API key](#retrieving-your-statuspage-api-key) section.
 
-    ![Statuspage add integration](https://assets.postman.com/postman-docs/add-integration-statuspage.jpg)
+    ![Statuspage add integration](https://assets.postman.com/postman-docs/v10/add-integration-statuspage-v10-15.jpg)
 
 1. Select **Authenticate and Proceed**.
 1. In the **Configure** tab, enter a nickname for the integration.
@@ -46,7 +46,7 @@ Make sure to create your Statuspage account and create a page and components bef
 1. Select the Statuspage page where the monitor updates will be sent.
 1. Select one or both Statuspage actions. See [Linking a monitor to a component](#linking-a-monitor-to-a-component) and [Creating an incident when a monitoring run fails](#creating-an-incident-when-a-monitoring-run-fails) for more information.
 
-    ![Configure Statuspage](https://assets.postman.com/postman-docs/configure-statuspage.jpg)
+    ![Configure Statuspage](https://assets.postman.com/postman-docs/v10/configure-statuspage-v10-15.jpg)
 
 1. Select **Add Integration**.
 
@@ -62,11 +62,11 @@ To configure the **Link monitor to component** action, do the following:
 1. Select a component success status. This status will be displayed in Statuspage when the linked monitor is running as expected.
 1. Select a component failure status. This status will be displayed in Statuspage when the linked monitor fails a test run.
 
-  ![Statuspage link monitor to component](https://assets.postman.com/postman-docs/statuspage-monitor-to-component.jpg)
+  ![Statuspage link monitor to component](https://assets.postman.com/postman-docs/v10/statuspage-monitor-to-component-v10-15.jpg)
 
 When the monitor fails, the linked component's status will change on your status page:
 
-[![Statuspage component failure](https://assets.postman.com/postman-docs/statuspage-component-fail.jpg)](https://assets.postman.com/postman-docs/statuspage-component-fail.jpg)
+![Statuspage component failure](https://assets.postman.com/postman-docs/statuspage-component-fail.jpg)
 
 When a component's status is changed due to a failed test run, it will remain in that state until there is a successful test run in the monitor. After a successful run, the component status will return to the successful state.
 
@@ -79,10 +79,11 @@ To configure the **Create incident when monitoring run fails** action, do the fo
 1. Enter an incident name. The name is shown to users when they view the incident.
 1. Select an incident status. The name is shown to users when they view the incident.
 1. Select an incident impact. Choose a status based on the importance of the service you're monitoring. For example, the failure of an optional, seldom-used API could trigger a minor incident, but the failure of your main authentication API would have critical impact.
-  ![Statuspage create incident](https://assets.postman.com/postman-docs/statuspage-create-incident.jpg)
+
+  ![Statuspage create incident](https://assets.postman.com/postman-docs/v10/statuspage-create-incident-v10-15.jpg)
 
 When the monitor fails, an incident will be created on your status page:
 
-[![Statuspage incident](https://assets.postman.com/postman-docs/statuspage-incident.jpg)](https://assets.postman.com/postman-docs/statuspage-incident.jpg)
+![Statuspage incident](https://assets.postman.com/postman-docs/statuspage-incident.jpg)
 
 When an incident is created by a failed test run, if a successive test run is successful, the incident will be closed.
