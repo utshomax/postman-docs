@@ -59,9 +59,9 @@ Postman supports the following provisioning features:
 
     * **Reactivate user** - Reactivates an existing deactivated user by unblocking the account's authentication into Postman and adds the account back to your Postman team.
 
-* **Create group** - Creates a new [user group](/docs/administration/managing-your-team/user-groups/) in Postman. When you assign the Postman app to a group, Postman creates a new account for each user, adds each account to your organization's Postman team, and activates authentication for each user. If an existing Postman account uses an email that matches a user's email ID, an [email invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) to join your Postman team is sent to that user. Once the user accepts the invite, they'll be added to your team.
+* **Create group** - Creates a new [user group](/docs/collaborating-in-postman/user-groups/) in Postman. When you assign the Postman app to a group, Postman creates a new account for each user, adds each account to your organization's Postman team, and activates authentication for each user. If an existing Postman account uses an email that matches a user's email ID, an [email invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) to join your Postman team is sent to that user. Once the user accepts the invite, they'll be added to your team.
 
-    > Newly created groups will have the Developer role in Postman by default. You can later [update group roles in Postman](/docs/administration/managing-your-team/user-groups/#editing-team-roles-for-a-group) and [control a group's access to workspaces and individual Postman entities](/docs/administration/managing-your-team/user-groups/#managing-roles-on-workspaces-and-postman-entities), such as collections and APIs.
+    > Newly created groups will have the Developer role in Postman by default. You can later [update group roles in Postman](/docs/collaborating-in-postman/user-groups/#editing-team-roles-for-a-group) and [control a group's access to workspaces and individual Postman entities](/docs/collaborating-in-postman/user-groups/#managing-roles-on-workspaces-and-postman-entities), such as collections and APIs.
 
 * **Delete group** - Deletes a user group in Postman. User accounts that were part of the deleted group are deactivated in Postman.
 
@@ -73,7 +73,7 @@ Postman supports the following provisioning features:
 
     * **Update group members** - Adds or removes users from a group in Postman.
 
-        > Users in a group have the roles assigned to the group. You can [update group roles in Postman](/docs/administration/managing-your-team/user-groups/#editing-team-roles-for-a-group) and [control a group's access to workspaces and individual Postman entities](/docs/administration/managing-your-team/user-groups/#managing-roles-on-workspaces-and-postman-entities), such as collections and APIs.
+        > Users in a group have the roles assigned to the group. You can [update group roles in Postman](/docs/collaborating-in-postman/user-groups/#editing-team-roles-for-a-group) and [control a group's access to workspaces and individual Postman entities](/docs/collaborating-in-postman/user-groups/#managing-roles-on-workspaces-and-postman-entities), such as collections and APIs.
 
 Postman doesn't support the following provisioning features:
 
@@ -126,4 +126,4 @@ Visit Postman's [SCIM API docs](https://www.postman.com/postman/workspace/scim/d
 Now that you have enabled SCIM and generated a SCIM API key, you can continue enabling SCIM provisioning. After the SCIM setup is complete, learn how to manage roles and permissions for your team:
 
 * To learn how to enable SCIM provisioning through your IdP, visit [Configuring SCIM with Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), [Configuring SCIM with Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/), or [Configuring SCIM with OneLogin](/docs/administration/scim-provisioning/configuring-scim-with-onelogin/).
-* Learn more about [defining roles](/docs/collaborating-in-postman/roles-and-permissions/) in your team and how to [create user groups](/docs/administration/managing-your-team/user-groups/).
+* Learn more about [defining roles](/docs/collaborating-in-postman/roles-and-permissions/) in your team and how to [create user groups](/docs/collaborating-in-postman/user-groups/#creating-a-group).
