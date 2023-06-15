@@ -671,6 +671,10 @@ export const leftNavItems = [
         url: '/docs/collaborating-in-postman/roles-and-permissions/',
       },
       {
+        name: 'Managing user groups',
+        url: '/docs/collaborating-in-postman/user-groups/',
+      },
+      {
         name: 'Requesting access to elements',
         url: '/docs/collaborating-in-postman/requesting-access-to-elements/',
       },
@@ -1074,10 +1078,6 @@ export const leftNavItems = [
           {
             name: 'Managing your team',
             url: '/docs/administration/managing-your-team/managing-your-team/',
-          },
-          {
-            name: 'Managing user groups',
-            url: '/docs/administration/managing-your-team/user-groups/',
           },
           {
             name: 'Configuring domain verification and capture',

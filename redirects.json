@@ -2164,6 +2164,10 @@
     "to": "/docs/monitoring-your-api/intro-monitors/"
   },
   {
+    "from": "/docs/administration/managing-your-team/user-groups/",
+    "to": "/docs/collaborating-in-postman/user-groups/"
+  },
+  {
     "from": "/docs/reports/summary-reports/",
     "to": "/docs/reports/reports-overview/"
   },
