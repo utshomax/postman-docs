@@ -433,6 +433,10 @@ export const leftNavItems = [
         ],
       },
       {
+        name: 'Testing API performance',
+        url: '/docs/collections/testing-api-performance/',
+      },
+      {
         name: "Using Live Collections",
         subParentSlug: 'live-collections',
         slug: '/docs/collections/live-collections/live-collections-overview/',

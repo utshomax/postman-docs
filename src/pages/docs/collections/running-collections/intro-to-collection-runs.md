@@ -1,6 +1,6 @@
 ---
 title: "Using the Collection Runner"
-updated: 2023-03-15
+updated: 2023-06-15
 search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
   - type: section
@@ -23,14 +23,17 @@ contextual_links:
     url: "https://www.postman.com/case-studies/lightspeed-commerce/"
 ---
 
-The _Collection Runner_ enables you to run a collection's requests in a specified sequence. It logs your request [test results](/docs/writing-scripts/test-scripts/) and can use [scripts](/docs/writing-scripts/intro-to-scripts/) to pass data between requests and alter the request workflow.
+The _Collection Runner_ enables you to run a collection's requests in a specified sequence to test the functionality of your API. It logs your request [test results](/docs/writing-scripts/test-scripts/) and can use [scripts](/docs/writing-scripts/intro-to-scripts/) to pass data between requests and alter the request workflow.
 
-You can configure the Collection Runner to meet your development needs. You can run collections using a specific environment, and can pass data files into a run. Collection runs enable you to automate your API testing, and you can schedule runs to run in the Postman cloud with the [Collection Runner](/docs/collections/running-collections/scheduling-collection-runs/) or with [monitors](/docs/collections/running-collections/scheduling-collection-runs-monitors/). You can also integrate collection runs with your CI/CD pipeline using [the Postman CLI](/docs/postman-cli/postman-cli-overview/), a Postman tool that enables you to run and test collections directly from the command line.
+You can configure the Collection Runner to meet your development needs. You can run collections using a specific environment, and can pass data files into a run. Collection runs enable you to automate your functional API testing, and you can schedule runs to run in the Postman cloud with the [Collection Runner](/docs/collections/running-collections/scheduling-collection-runs/) or with [monitors](/docs/collections/running-collections/scheduling-collection-runs-monitors/). You can also integrate collection runs with your CI/CD pipeline using [the Postman CLI](/docs/postman-cli/postman-cli-overview/), a Postman tool that enables you to run and test collections directly from the command line.
+
+> You can use the Collection Runner to test the performance of your API with the same requests, collections, and environments you use for functional API tests. Learn more about [testing API performance](/docs/collections/testing-api-performance/).
 
 ## Contents
 
 * [Configuring a collection run](#configuring-a-collection-run)
 * [Debugging run results](#debugging-run-results)
+* [Viewing run history](#viewing-run-history)
 * [Sharing collection runs](#sharing-collection-runs)
 * [Automating collection runs](#automating-collection-runs)
 * [Next steps](#next-steps)
@@ -44,7 +47,7 @@ You can configure the Collection Runner to meet your development needs. You can 
 
     > You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer and drag a collection from __Collections__ or __History__ in the sidebar.
 
-1. Select **Run manually**.
+1. On the **Functional** tab, select **Run manually**.
     > You can also [schedule runs](/docs/collections/running-collections/scheduling-collection-runs/) and [automate runs with the CLI](/docs/postman-cli/postman-cli-run-collection/).
 
 1. If you want your collection to run with an environment, select it using the environment selector at the top right of Postman. You can also select __Environments__ in the sidebar, then select the environment you want to use.
@@ -70,7 +73,7 @@ You can configure the Collection Runner to meet your development needs. You can 
 
 1. When you've completed your configuration, select **Run (collection name)**.
 
-![Collection Runner configuration](https://assets.postman.com/postman-docs/v10/collection-run-configuration-v10-12.jpg)
+![Collection Runner configuration](https://assets.postman.com/postman-docs/v10/collection-run-configuration-v10-13.jpg)
 
 > Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of collection runs you can use each month. This limit applies to collections that you run in a workspace or the Scratch Pad using the **Run manually** option. This limit doesn't apply to [scheduled collection runs](/docs/collections/running-collections/scheduling-collection-runs/) in the Postman cloud. A collection run with multiple iterations counts as a single run.
 >
@@ -100,13 +103,11 @@ To learn more about what happened during the collection run, do any of the follo
 
 ## Viewing run history
 
-Each collection has a **Runs** tab, which displays past and scheduled collection runs. The **Runs** tab also shows test counts and metrics like duration and average response times.
+Each collection has a **Runs** tab you can use to view past runs, scheduled runs, and performance runs. You can also view details such as test counts and average response times.
 
-![Collection Run History tab](https://assets.postman.com/postman-docs/v10/collection-past-run-tab-v10-13.jpg)
+![Past runs tab](https://assets.postman.com/postman-docs/v10/collection-run-tab-v10-13a.jpg)
 
-The **Runs** tab includes two more tabs: **Past runs** and **Scheduled runs**.
-
-### The Past runs tab
+### Viewing past runs
 
 The **Past runs** tab has controls to select how many collection runs to view, and limit the displayed runs to those from selected users, of a selected status, and either from the Collection Runner or the Postman CLI.
 
@@ -122,7 +123,7 @@ Hover over an item to show the following controls:
 * **View report** - Select to open the full results for the collection run. Learn more about [debugging run results](#debugging-run-results).
 * **Share** - Select to share the results with another team member. This provides a link you can give to other team members so they can view details of this run. Note that this doesn't work in personal workspaces.
 
-## The Scheduled runs tab
+### Viewing scheduled runs
 
 The **Scheduled runs** tab shows all the scheduled runs for the current collection. The following are displayed for each scheduled run:
 
@@ -134,6 +135,14 @@ Hover over an item to show the following controls:
 
 * **View** - Select to open a page detailing the scheduled collection run's latest results.
 * The **more actions icon** <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> - Select to [pause, resume, edit, or delete](/docs/collections/running-collections/scheduling-collection-runs/#pausing-or-resuming-a-scheduled-run) the schedule.
+
+### Viewing performance runs
+
+The **Performance runs** tab shows past [performance runs](/docs/collections/testing-api-performance/) for the collection. You can view metrics for each run, including the number of virtual users (VUs), duration, total number of requests, requests per second, average response time, and error rate.
+
+Select the run number to view a graph and full details for the performance run. Learn more about [viewing performance metrics](/docs/collections/testing-api-performance/#viewing-performance-metrics).
+
+![Performance runs tab](https://assets.postman.com/postman-docs/v10/performance-test-past-runs-v10-15.jpg)
 
 ## Sharing collection runs
 
