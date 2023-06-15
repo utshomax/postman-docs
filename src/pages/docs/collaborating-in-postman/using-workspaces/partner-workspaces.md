@@ -133,7 +133,7 @@ To invite team members to a Partner Workspace, do the following:
 
 ## Viewing workspaces a partner can access
 
-A [Partner Manager](#managing-users-and-roles) can view the Partner Workspaces a partner can access, and the Workspace role they're assigned in each workspace. Go to your [team dashboard](https://go.postman.co/settings/team/members), and select **View workspaces** next to a partner. Select a Partner Workspace name to open the workspace in a new tab.
+A [Partner Manager](#managing-users-and-roles) can view the Partner Workspaces a partner can access, and the Workspace role they're assigned in each workspace. Open your [team dashboard](https://go.postman.co/settings/team/members) and select **View workspaces** next to a partner. Select a Partner Workspace name to open the workspace in a new tab.
 
 <img alt="View partner workspaces and roles" src="https://assets.postman.com/postman-docs/v10/view-partner-workspaces-and-roles-v10-2.jpg" width="800px"/>
 
