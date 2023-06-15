@@ -108,7 +108,7 @@ The visibility setting for a workspace determines who can access it. You must be
 
 ## Sharing workspaces
 
-You can invite team members, [groups](/docs/administration/managing-your-team/user-groups/), and external users to collaborate in a workspace by navigating to the workspace and selecting **Invite** in the upper-right corner.
+You can invite team members, [groups](/docs/collaborating-in-postman/user-groups/), and external users to collaborate in a workspace by navigating to the workspace and selecting **Invite** in the upper-right corner.
 
 <img alt="Share team workspace" src="https://assets.postman.com/postman-docs/share-workspace-9.4.jpg" width="400px"/>
 
@@ -146,7 +146,7 @@ You can also share workspaces with your teammates by adding them to your team's 
 
 ## Managing workspace roles
 
-Access to elements within a workspace is controlled using [workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles). Roles can be assigned to an individual user or to a [user group](/docs/administration/managing-your-team/user-groups/).
+Access to elements within a workspace is controlled using [workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles). Roles can be assigned to an individual user or to a [user group](/docs/collaborating-in-postman/user-groups/).
 
 To change the role of people in a workspace, or to remove someone from a workspace, do the following:
 

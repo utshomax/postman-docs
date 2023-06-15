@@ -443,4 +443,4 @@ The report feature makes it easier to govern your internal API landscape through
 
 To view Private API Network reports, select [**Home**](https://go.postman.co/) from the Postman header, then select **Reports** on the left side.
 
-To learn more about reports, see the [Reports overview](/docs/reports/reports-overview/).
+To learn more about reports, see [About reports](/docs/reports/reports-overview/).
