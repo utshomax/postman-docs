@@ -353,4 +353,4 @@ API reports offer the following information:
 * **Average response time** is the average response time in milliseconds for requests over a time frame
 * **API response codes** is a graph showing different response codes for API requests plotted vs the number of API requests
 
-To learn more about reports, see the [Reports overview](/docs/reports/reports-overview/).
+To learn more about reports, see [About reports](/docs/reports/reports-overview/).
