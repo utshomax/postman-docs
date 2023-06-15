@@ -433,6 +433,10 @@ export const leftNavItems = [
         ],
       },
       {
+        name: 'Testing API performance',
+        url: '/docs/collections/testing-api-performance/',
+      },
+      {
         name: "Using Live Collections",
         subParentSlug: 'live-collections',
         slug: '/docs/collections/live-collections/live-collections-overview/',
@@ -1046,6 +1050,10 @@ export const leftNavItems = [
             url: '/docs/api-governance/configurable-rules/configuring-api-security-rules/',
           },
           {
+            name: 'Adding custom governance functions',
+            url: '/docs/api-governance/configurable-rules/configuring-custom-governance-functions/',
+          },
+          {
             name: 'Using Spectral in Postman',
             url: '/docs/api-governance/configurable-rules/spectral/',
           },
@@ -1102,7 +1110,11 @@ export const leftNavItems = [
         url: '/docs/administration/audit-logs/',
       },
       {
-        name: 'Token scanner',
+        name: 'Managing API keys',
+        url: '/docs/administration/managing-api-keys/',
+      },
+      {
+        name: 'Secret Scanner',
         url: '/docs/administration/token-scanner/',
       },
       {
