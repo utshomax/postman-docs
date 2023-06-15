@@ -1219,24 +1219,20 @@ export const leftNavItems = [
     url: '/docs/reports/reports-overview/',
     subMenuItems1: [
       {
-        name: 'Reports overview',
+        name: 'About reports',
         url: '/docs/reports/reports-overview/',
       },
       {
-        name: 'Summary reports',
-        url: '/docs/reports/summary-reports/',
+        name: 'Overview reports',
+        url: '/docs/reports/overview-reports/',
       },
       {
-        name: 'Team details reports',
-        url: '/docs/reports/team-details-reports/',
+        name: 'Members overview reports',
+        url: '/docs/reports/members-overview-reports/',
       },
       {
-        name: 'All Workspaces reports',
-        url: '/docs/reports/all-workspaces-reports/',
-      },
-      {
-        name: 'All APIs reports',
-        url: '/docs/reports/all-apis-reports/',
+        name: 'Content activity reports',
+        url: '/docs/reports/content-activity-reports/',
       },
       {
         name: 'API Security reports',
@@ -1244,10 +1240,14 @@ export const leftNavItems = [
       },
       {
         name: 'API Governance reports',
-        url: '/docs/reports/api-governance-reports/',
+        url: '/docs/reports/api-gov-reports/',
       },
       {
-        name: 'Token Scanner reports',
+        name: 'Billing overview reports',
+        url: '/docs/reports/billing-overview-reports/',
+      },
+      {
+        name: 'Token scanner report',
         url: '/docs/reports/security-audit-reports/',
       },
     ],
