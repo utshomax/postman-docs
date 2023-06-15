@@ -1,6 +1,6 @@
 ---
 title: "About resource usage"
-updated: 2023-02-06
+updated: 2023-06-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -23,6 +23,7 @@ Refer to the following sections to understand what happens when your resource us
 * [Mock server usage](#mock-server-usage)
 * [Monitoring usage](#monitoring-usage)
 * [Collection runs usage](#collection-runs-usage)
+* [Performance test usage](#performance-test-usage)
 * [Custom domains](#custom-domains)
 * [Storage usage](#storage-usage)
 * [Postman API usage](#postman-api-usage)
@@ -49,7 +50,7 @@ Once you've reached your usage limit, your monitors and scheduled collection run
 
 ## Collection runs usage
 
-Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of [collection runs](/docs/collections/running-collections/intro-to-collection-runs/) you can use each month. This limit applies to collections that you run in a workspace or the Scratch Pad using the **Run manually** option. This limit doesn't apply to [scheduled collection runs](/docs/collections/running-collections/scheduling-collection-runs/) in the Postman cloud. A collection run with multiple iterations counts as a single run.
+Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of [collection runs](/docs/collections/running-collections/intro-to-collection-runs/) you can use each month. This limit applies to collections that you run in a workspace or the Scratch Pad using the **Run manually** option. This is separate from the limits for [scheduled collection runs](/docs/collections/running-collections/scheduling-collection-runs/) in the Postman cloud. A collection run with multiple iterations counts as a single run.
 
 You can check your manual collection run usage on the [Resource Usage dashboard](https://go.postman.co/billing/add-ons/overview). Also, a message will display in the Collection Runner when you're approaching your usage limit.
 
@@ -58,6 +59,16 @@ You can check your manual collection run usage on the [Resource Usage dashboard]
 Once you've reached your usage limit, you will no longer be able to run your collections using the **Run manually** option. To resume running collections before your monthly limit resets, you can [upgrade your plan](/docs/administration/billing/#team-and-plan-changes), [schedule collection runs](/docs/collections/running-collections/scheduling-collection-runs/) in the Postman cloud, or run collections using the [Postman CLI](/docs/postman-cli/postman-cli-run-collection/) or [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/).
 
 > Requests run in the Postman cloud by your [scheduled collection runs](/docs/collections/running-collections/scheduling-collection-runs/) count toward your [monitoring usage](#monitoring-usage). Scheduled collection runs don't count toward your collection runs usage.
+
+## Performance test usage
+
+Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of [performance test runs](/docs/collections/testing-api-performance/) you can use each month. This limit applies to collections that you run using the **Performance** tab in the Collection Runner. This is separate from the limits for functional tests ([manual collection runs](/docs/collections/running-collections/intro-to-collection-runs/) and [scheduled collection runs](/docs/collections/running-collections/scheduling-collection-runs/)).
+
+You can check your performance test usage on the [Resource Usage dashboard](https://go.postman.co/billing/add-ons/overview). Also, a message will display in the Collection Runner when you're approaching your usage limit.
+
+<img alt="Performance test usage error" src="https://assets.postman.com/postman-docs/v10/usage-error-performance-test-v10-15.jpg" width="545px"/>
+
+Once you've reached your usage limit, you will no longer be able to run performance tests. To resume running performance tests before your monthly limit resets, you can [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
 
 ## Custom domains
 
