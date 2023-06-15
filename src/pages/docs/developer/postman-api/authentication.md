@@ -65,6 +65,8 @@ Use **API key settings** to specify expiration periods for your keys.
 
 <img src="https://assets.postman.com/postman-docs/v10/postman-api-key-settings-v10.jpg" width="600px" alt="API key settings"/>
 
+> Enterprise teams can manage Postman API keys at scale with the Postman API key management dashboard. To learn more, see [Managing API keys](/docs/administration/managing-api-keys/).
+
 ### Use your Postman API key
 
 After you have a Postman API key, you must authenticate your requests to the Postman API by sending your API Key in the `X-Api-Key` header of every request you make.

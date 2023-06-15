@@ -1,6 +1,5 @@
 ---
 title: "Sharing your work"
-search_keyword: "sharing postman elements, collection access key, postman api"
 updated: 2023-06-15
 contextual_links:
   - type: section
@@ -26,11 +25,11 @@ contextual_links:
     url: "https://blog.postman.com/introducing-postmans-new-guest-role-to-share-collections-instantly/"
 ---
 
-You can [collaborate on Postman elements](https://www.postman.com/api-platform/api-collaboration/) including collections, APIs, and environments, by sharing them or by moving them to a shared private, team, or public workspace.
+You can [collaborate on Postman elements](https://www.postman.com/api-platform/api-collaboration/) including collections, requests, collection folders, APIs, flows, and environments, by sharing them or by moving them to a shared private, team, or public workspace.
 
 To share your work using workspaces, you need to be signed in to your [Postman account](/docs/getting-started/postman-account/).
 
-> This page has information about sharing Postman collections, APIs, and environments using the **Share** function. Other Postman elements are shared differently:
+> This page has information about sharing Postman collections, collection folders, APIs, requests, flows, and environments using the **Share** function. Other Postman elements are shared differently:
 >
 > * To share a collection run, see [Using the Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 > * To share a collection as a file, see [Importing and exporting data](/docs/getting-started/importing-and-exporting-data/).
@@ -47,12 +46,12 @@ To share your work using workspaces, you need to be signed in to your [Postman a
 
 ## Sharing Postman elements
 
-You can share your collections, APIs, and environments with collaborators. There are two different ways to share an element:
+You can share your collections, collection folders, APIs, and environments with collaborators. There are several different ways to share an element:
 
 * In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you want to share, then select **Share**.
-* Open the element you want to share, then select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share** from the element's overview page.
-
-To copy an element's URL to your clipboard, you can also hover over the element's name in the overview page and select the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px">.
+* For collections, APIs, Flows, and environments, open the element you want to share, then select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share** from the element's overview page.
+* Hover over the element's name in the overview page and select the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> to copy the element's URL to the clipboard.
+* You can also select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you want to share and select **Copy Link** to copy the element's URL to the clipboard.
 
 ### Sharing using names, emails, or groups
 
@@ -62,9 +61,9 @@ You can share collections, APIs, and environments directly with collaborators, i
 1. Select **With people**.
 1. Enter the name, email address, or [group name](/docs/administration/managing-your-team/user-groups/) for the people you want to share the element with.
 1. If you have an Editor role for the element you are sharing, you can give your new collaborators a **Viewer** or **Editor** [role](/docs/collaborating-in-postman/roles-and-permissions/) on the element. If you have a Viewer role for the element, you can share it, but you won't be able to assign roles.
-1. Select **Share Collection**.
+1. Select **Share**.
 
-<img alt="Share a collection using name, email, or group" src="https://assets.postman.com/postman-docs/v10/share-element-with-people-v10-2.jpg"/>
+<!-- TODO: old image <img alt="Share a collection using name, email, or group" src="https://assets.postman.com/postman-docs/v10/share-element-with-people-v10-2.jpg"/> -->
 
 Postman will tell the individual team members and groups you shared the element with about your request to collaborate.
 
