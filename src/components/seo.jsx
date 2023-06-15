@@ -101,7 +101,10 @@
        ].concat(meta)}
      >
       <link rel="preconnect" href="https://voyager.postman.com" crossorigin />
-      <link rel="preload" href="https://voyager.postman.com/font/fonts.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+      <link
+        href="https://voyager.postman.com/font/fonts.css"
+        rel="stylesheet"
+      />
       <noscript>{`<link href="https://voyager.postman.com/font/fonts.css" rel="stylesheet" type="text/css" />`}</noscript>
        {/* OneTrust */}
        <script type="text/javascript" src="https://cdn.cookielaw.org/consent/1cef3369-6d07-4928-b977-2d877eb670c4/OtAutoBlock.js" />
