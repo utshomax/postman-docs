@@ -2158,6 +2158,34 @@
   {
     "from": "/docs/sending-requests/authorization/",
     "to": "/docs/sending-requests/authorization/authorization/"
+  },
+  {
+    "from": "/docs/monitoring-your-api/uptime-monitors/",
+    "to": "/docs/monitoring-your-api/intro-monitors/"
+  },
+  {
+    "from": "/docs/administration/managing-your-team/user-groups/",
+    "to": "/docs/collaborating-in-postman/user-groups/"
+  },
+  {
+    "from": "/docs/reports/summary-reports/",
+    "to": "/docs/reports/reports-overview/"
+  },
+  {
+    "from": "/docs/reports/team-details-reports/",
+    "to": "/docs/reports/reports-overview/"
+  },
+  {
+    "from": "/docs/reports/all-apis-reports/",
+    "to": "/docs/reports/reports-overview/"
+  },
+  {
+    "from": "/docs/reports/api-governance-reports/",
+    "to": "/docs/reports/api-gov-reports/"
+  },
+  {
+    "from": "/docs/reports/all-workspaces-reports/",
+    "to": "/docs/reports/reports-overview/"
   }
 
 ]

@@ -71,6 +71,8 @@ When you [generate a collection](#generating-a-collection) from an API definitio
 
 In this case, you could repeat the process of generating a collection from the API definition. However, this new collection wouldn't include any changes you might have made to the first collection you generated. For example, you might have added documentation content or endpoints for test setup that you want to keep. Instead, Postman can offer suggestions for updating the collection based on the changes to the API definition.
 
+> Collection update suggestions are supported for OpenAPI 3.0 and 3.1 definitions.
+
 ### Enabling collection update suggestions
 
 You can enable update suggestions for any collection that's been added to an API. When suggestions are enabled, Postman will detect when there are differences between the API definition and the collection and will offer suggestions for updating the collection.

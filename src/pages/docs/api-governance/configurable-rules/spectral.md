@@ -11,7 +11,7 @@ contextual_links:
     url: "https://youtu.be/TDOuZcKQId4"
 ---
 
-Spectral is a linting engine that helps you define custom rules and enforce them on JSON and YAML files. Postman supports Spectral v6 rules for the configurable [API governance](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules) and [API security](/docs/api-governance/configurable-rules/configuring-api-security-rules/#adding-custom-rules) rules for your team.
+Spectral is a linting engine that helps you define custom rules and enforce them on JSON and YAML files. Postman supports Spectral v6 rules for the configurable [API governance](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules) and [API security](/docs/api-governance/configurable-rules/configuring-api-security-rules/#adding-custom-rules) rules for your team. Postman also supports CommonJS syntax for custom functions configurable in custom governance rules.
 
 ## Contents
 
@@ -23,6 +23,12 @@ Spectral is a linting engine that helps you define custom rules and enforce them
     * [Building and testing JSON Path Plus expressions](#building-and-testing-json-path-plus-expressions)
     * [JSON Path Plus examples](#json-path-plus-examples)
 * [Example: Checking for the presence of a property](#example-checking-for-the-presence-of-a-property)
+* [Spectral custom functions](#spectral-custom-functions)
+    * [Spectral function parameters](#spectral-function-parameters)
+    * [Spectral function return statement properties](#spectral-function-return-statement-properties)
+    * [Spectral function object properties](#spectral-function-object-properties)
+    * [Example: Checking that a value isn't in a list](#example-checking-that-a-value-isnt-in-a-list)
+    * [Example: Rule that uses a custom function](#example-rule-that-uses-a-custom-function)
 
 ## How Spectral works
 
@@ -107,8 +113,8 @@ You will find each rule defined in `rules` in the **Custom Rules** section in th
 `given` | **Required**. This can be a list with at least one element or a single element. Each value is a [JSON Path Plus expression](#json-path-and-json-path-plus) that may return zero, one, or more elements.<br>If `given` paths don't find any value, the `then` controls won't execute.
 `then` | **Required**. This can be a list with at least one element or a single element. If the given [JSON Path Plus expressions](#json-path-and-json-path-plus) return values, the functions will be applied to all of them.
 `then.field` | This optional name can be used if the value returned by the `given` paths is an object to target a specific field inside it. This value must be a name and can't hold a [JSON Path Plus expression](#json-path-and-json-path-plus). <br>The keyword `@key` can be used to check all keys of an object returned by the `given` paths.
-`then.function` | **Required**. The name of the function to use. You can use all Spectral core functions in Postman, but custom functions aren't supported. For more information, see the [Spectral documentation](https://github.com/stoplightio/spectral/blob/develop/docs/reference/functions.md).
-`then.functionOptions` | **May be required depending on the function**. The options of the function. You can use all Spectral core functions in Postman, but custom functions aren't supported. For more information, see the [Spectral documentation](https://github.com/stoplightio/spectral/blob/develop/docs/reference/functions.md).
+`then.function` | **Required**. The name of the function to use. You can use all Spectral core functions in Postman. [Custom functions](#spectral-custom-functions) are supported in custom API Governance rules. For more information, see the [Spectral documentation](https://github.com/stoplightio/spectral/blob/develop/docs/reference/functions.md).
+`then.functionOptions` | **May be required depending on the function**. The options of the function. You can use all Spectral core functions in Postman. [Custom functions](#spectral-custom-functions) are supported in custom API Governance rules. For more information, see the [Spectral documentation](https://github.com/stoplightio/spectral/blob/develop/docs/reference/functions.md).
 
 <!-- vale Microsoft.Headings = NO -->
 
@@ -126,7 +132,7 @@ Initially, JSON Path was created to be [XPath for JSON](https://goessner.net/art
 
 <!-- vale Microsoft.Headings = YES -->
 
-You can use the official JSON Path Plus [documentation](https://jsonpath-plus.github.io/JSONPath/docs/ts/) to build and test your rules' given paths. [Syntax Through Examples](https://jsonpath-plus.github.io/JSONPath/docs/ts/#syntax-through-examples)) and the [JSON Path Plus demo](https://jsonpath-plus.github.io/JSONPath/demo/) are both useful.
+You can use the official JSON Path Plus [documentation](https://jsonpath-plus.github.io/JSONPath/docs/ts/) to build and test your rules' given paths. [Syntax Through Examples](https://jsonpath-plus.github.io/JSONPath/docs/ts/#syntax-through-examples) and the [JSON Path Plus demo](https://jsonpath-plus.github.io/JSONPath/demo/) are both useful.
 
 <!-- vale Microsoft.Headings = NO -->
 
@@ -166,4 +172,107 @@ rules:
     then:
       field: description
       function: truthy
+```
+
+## Spectral custom functions
+
+You can [add custom governance functions](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/) to use in your custom governance rules. You can use these guidelines to write custom functions in JavaScript and add them to your custom governance rules. Postman supports CommonJS syntax for custom functions.
+
+To write a custom function, your function must have the [`input` parameter](#spectral-function-parameters), the [`message` property](#spectral-function-return-statement-properties) in your return statement, and the [`module.exports` object property](#spectral-function-object-properties) exporting your function. To use a custom function in a rule, your rule must have the `then.function` property importing your function.
+
+### Spectral function parameters
+
+Use the following parameters in your custom functions depending on your use case.
+
+|<div style="width:150px">Parameter</div> | Description
+--- | ---
+`input` | **Required**. This can be any data type, such as a string or array. This is the value that the `given` [JSON Path Plus expression](#json-path-and-json-path-plus) returns. The rule tests the value of `input` using the function.
+`options` | The optional values of `then.functionOptions`. Add this parameter to your function if your function expects options.
+`context` | This optional parameter is used in advanced use cases where you need to investigate several elements. You can use the parameter to access properties about the function. These properties are as follows: <br><ul><li>`path` - The `given` [JSON Path Plus expression](#json-path-and-json-path-plus) pointing to `input`. </li><li>`document` - The document you're attempting to lint.</li><li>`rule` - The rule that's using the function.</li><li>`documentInventory` - Provides access to resolved and unresolved documents, the $ref resolution graph, and other advanced properties.</li></ul>
+
+```js
+function myCustomFunction(input, options, context) { ... }
+```
+
+### Spectral function return statement properties
+
+Use the following properties to write the return statement in your custom functions depending on your use case.
+
+|<div style="width:150px">Property</div> | Description
+--- | ---
+`message` | **Required**. The message describing the rule violation.
+`path` | An optional [JSON Path Plus expression](#json-path-and-json-path-plus) that you can append to the default value of `context.path`, which points to the value of `input`. The `path` property is often used to investigate sub-elements of the value of `input` or other locations in the document. If you use the `path` property, you must also use the [`context` parameter](#spectral-function-parameters) in your function. <br> Use the following syntax to add the `path` property to your function and append a custom path: `path: [...context.path, "a", "custom", "path"]`.
+
+```js
+return [
+  // Rule violation with the default input path
+  {
+    message: `Value must be different from "${values.join(',')}".`,
+  },
+  // Rule violation with a custom path leveraging the default input path
+  {
+    message: `Value must be different from "${values.join(',')}".`,
+    path: [...context.path, "a", "custom", "path"]
+  },
+];
+```
+
+### Spectral function object properties
+
+Add the following object property to your function's file.
+
+|<div style="width:150px">Object property</div> | Description
+--- | ---
+`module.exports` | **Required**. The object property that exports the function, allowing the rule to import it using `then.function`. The value of `module.exports` and the function's name must be the same.
+
+```js
+function myCustomFunction(input, options, context) { ... }
+
+module.exports = myCustomFunction;
+```
+
+### Example: Checking that a value isn't in a list
+
+The following function named `notInEnumeration` is in a file named `not_in_enumeration`. The filename is defined using the **Name** field when you [create a custom function](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/#adding-a-custom-function).
+
+The function checks the value of the option `values`, which is defined in the [Spectral document](#example-rule-that-uses-a-custom-function) (or ruleset) using `then.functionOptions`. The value of `values` is a list of numeric strings. If the `input` path returns a value already in the list, the rule violation is triggered.
+
+After the function, `module.exports` references the function's name. This exports the function so the rule can import it using `then.function`.
+
+```js
+// filename: not_in_enumeration
+function notInEnumeration(input, options, context) {
+  const { values } = options;
+  if (values.includes(input)) {
+    return [
+      {
+        message: `Value must be different from "${values.join(',')}".`,
+      },
+    ];
+  }
+}
+
+module.exports = notInEnumeration;
+```
+
+### Example: Rule that uses a custom function
+
+The following Spectral document has a rule named `http-status-obsolete` that uses a function named `notInEnumeration`. The function is in a file named `not_in_enumeration`, which is defined using the **Name** field when you [create a custom function](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/#adding-a-custom-function).
+
+The [function](#example-checking-that-a-value-isnt-in-a-list) is imported into the rule using `then.function`. The value of `then.function` is the filename `not_in_enumeration`.
+
+The function accepts options using `then.functionOptions` as a property named `values` that's a list of numeric strings. The value of `then.functionOptions.values` is passed to the function `notInEnumeration`. The function then checks whether a rule violation occurred at the `given` path.
+
+```yaml
+rules:
+  http-status-obsolete:
+    formats: [oas2, oas3]
+    severity: warn
+    message: "{{property}} is an obsoleted or unused HTTP status code"
+    given: $.paths.*.*.responses
+    then:
+      field: "@key"
+      function: not_in_enumeration
+      functionOptions:
+        values: ["306","418","510"]
 ```

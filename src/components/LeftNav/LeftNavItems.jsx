@@ -433,6 +433,10 @@ export const leftNavItems = [
         ],
       },
       {
+        name: 'Testing API performance',
+        url: '/docs/collections/testing-api-performance/',
+      },
+      {
         name: "Using Live Collections",
         subParentSlug: 'live-collections',
         slug: '/docs/collections/live-collections/live-collections-overview/',
@@ -667,6 +671,10 @@ export const leftNavItems = [
         url: '/docs/collaborating-in-postman/roles-and-permissions/',
       },
       {
+        name: 'Managing user groups',
+        url: '/docs/collaborating-in-postman/user-groups/',
+      },
+      {
         name: 'Requesting access to elements',
         url: '/docs/collaborating-in-postman/requesting-access-to-elements/',
       },
@@ -731,7 +739,7 @@ export const leftNavItems = [
             url: '/docs/collaborating-in-postman/using-workspaces/public-workspaces/'
           },
           {
-            name: 'Viewing workspace activity',
+            name: 'Viewing workspace and collection activity',
             url: '/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/',
           },
         ],
@@ -820,7 +828,7 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/developing-an-api/generating-server-code/',
           },
           {
-            name: 'Checking API syntax and rules',
+            name: 'Validating an API',
             url: '/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/',
           },
         ],
@@ -983,10 +991,6 @@ export const leftNavItems = [
         name: 'Monitoring FAQs',
         url: '/docs/monitoring-your-api/faqs-monitors/',
       },
-      {
-        name: 'Monitoring API uptime',
-        url: '/docs/monitoring-your-api/uptime-monitors/',
-      },
     ],
   },
   {
@@ -1050,6 +1054,10 @@ export const leftNavItems = [
             url: '/docs/api-governance/configurable-rules/configuring-api-security-rules/',
           },
           {
+            name: 'Adding custom governance functions',
+            url: '/docs/api-governance/configurable-rules/configuring-custom-governance-functions/',
+          },
+          {
             name: 'Using Spectral in Postman',
             url: '/docs/api-governance/configurable-rules/spectral/',
           },
@@ -1072,10 +1080,6 @@ export const leftNavItems = [
             url: '/docs/administration/managing-your-team/managing-your-team/',
           },
           {
-            name: 'Managing user groups',
-            url: '/docs/administration/managing-your-team/user-groups/',
-          },
-          {
             name: 'Configuring domain verification and capture',
             url: '/docs/administration/managing-your-team/configuring-domain-capture/',
           },
@@ -1094,7 +1098,7 @@ export const leftNavItems = [
         url: '/docs/administration/resource-usage/',
       },
       {
-        name: 'About Postman Enterprise',
+        name: 'About Postman Enterprise plans',
         url: '/docs/administration/about-postman-enterprise/'
       },
       {
@@ -1106,7 +1110,11 @@ export const leftNavItems = [
         url: '/docs/administration/audit-logs/',
       },
       {
-        name: 'Token scanner',
+        name: 'Managing API keys',
+        url: '/docs/administration/managing-api-keys/',
+      },
+      {
+        name: 'Secret Scanner',
         url: '/docs/administration/token-scanner/',
       },
       {
@@ -1211,24 +1219,20 @@ export const leftNavItems = [
     url: '/docs/reports/reports-overview/',
     subMenuItems1: [
       {
-        name: 'Reports overview',
+        name: 'About reports',
         url: '/docs/reports/reports-overview/',
       },
       {
-        name: 'Summary reports',
-        url: '/docs/reports/summary-reports/',
+        name: 'Overview reports',
+        url: '/docs/reports/overview-reports/',
       },
       {
-        name: 'Team details reports',
-        url: '/docs/reports/team-details-reports/',
+        name: 'Members overview reports',
+        url: '/docs/reports/members-overview-reports/',
       },
       {
-        name: 'All Workspaces reports',
-        url: '/docs/reports/all-workspaces-reports/',
-      },
-      {
-        name: 'All APIs reports',
-        url: '/docs/reports/all-apis-reports/',
+        name: 'Content activity reports',
+        url: '/docs/reports/content-activity-reports/',
       },
       {
         name: 'API Security reports',
@@ -1236,10 +1240,14 @@ export const leftNavItems = [
       },
       {
         name: 'API Governance reports',
-        url: '/docs/reports/api-governance-reports/',
+        url: '/docs/reports/api-gov-reports/',
       },
       {
-        name: 'Token Scanner reports',
+        name: 'Billing overview reports',
+        url: '/docs/reports/billing-overview-reports/',
+      },
+      {
+        name: 'Token scanner report',
         url: '/docs/reports/security-audit-reports/',
       },
     ],
