@@ -50,7 +50,8 @@ Postman Enterprise offers greater control to administrators looking to deploy an
 * [Installing the Postman Enterprise Linux app](#installing-the-postman-enterprise-linux-app)
 
     * [Encrypting data](#encrypting-data)
-    * [Restricting usage](#restricting-usage)
+    * [Login policy](#login-policy)
+    * [Uninstalling the Postman Enterprise Linux app](#uninstalling-the-postman-enterprise-linux-app)
 
 ## Managing Postman app versioning
 
