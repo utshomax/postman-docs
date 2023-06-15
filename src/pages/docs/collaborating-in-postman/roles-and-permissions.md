@@ -54,12 +54,11 @@ With the [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team
 
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to team members, based on the functions those team members require:
 
-* **Super Admin** ([Enterprise plans only](https://www.postman.com/pricing)) - Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, API Network Manager, Developer, and Partner Manager roles can perform. For information on assigning this role, see [Managing Super Admins](/docs/administration/managing-your-team/managing-your-team/#managing-super-admins).
+* **Super Admin** ([Enterprise plans only](https://www.postman.com/pricing)) - Manages everything within a team, including team settings, members, roles, and resources. This role can view and manage all elements in [public, team, private, and personal workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Super Admins can perform all actions that other roles can perform. For information on assigning this role, see [Managing Super Admins](/docs/administration/managing-your-team/managing-your-team/#managing-super-admins).
 * **Admin** - Manages team members and team settings. Can also view monitor metadata and run, pause, and resume monitors.
 * **Billing** - Manages team plan and payments. Billing roles can be granted by a Super Admin, Team Admin, or by a fellow team member with a Billing role.
 * **Developer** - Has access to all team resources and workspaces.
 * **Community Manager** ([Professional and Enterprise plans only](https://www.postman.com/pricing)) - Manages the public visibility of workspaces and team profile.
-* **API Network Manager** ([Enterprise plans only](https://www.postman.com/pricing)) - Manages a team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/), including adding APIs and reviewing requests to add APIs.
 * **Partner Manager** (Internal, [Enterprise plans only](https://www.postman.com/pricing)) - Manages all [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners. To learn more, see [Partner roles](#partner-roles).
 * **Partner** (External, [Enterprise plans only](https://www.postman.com/pricing)) - All partners are automatically granted the Partner role at the team level. Partners can only access the [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) they've been invited to. To learn more, see [Partner roles](#partner-roles).
 * **Guest** (External) - Views collections and sends requests in collections that have been shared with them. This role can't be directly assigned to a user. To learn more, see [Allowing external users to view collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
@@ -88,6 +87,11 @@ Team roles offer high-level access control:
 | Approve requests to change workspace visibility&ast;&ast; | &#x2714; | | | | &#x2714; |
 | Enable public team profile | &#x2714; | &#x2714; | | | &#x2714; |
 | Manage a team's Private API Network&ast;&ast;&ast; | &#x2714; | | | | |
+
+There are additional specialized roles for [Enterprise](https://www.postman.com/pricing) teams:
+
+* **API Network Manager** - Manages a team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/). To learn more, see [Network roles](#network-roles).
+* **API Governance Manager** - Manages [API governance](/docs/api-governance/api-governance-overview/) within a team, including governance [rules](/docs/api-governance/configurable-rules/configuring-api-governance-rules/), [functions](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/), and [workspace groups](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#turning-configured-rules-on-and-off).
 
 &ast; On Postman Basic and Free plans, any developer can change visibility of workspaces.
 

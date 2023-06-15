@@ -433,6 +433,10 @@ export const leftNavItems = [
         ],
       },
       {
+        name: 'Testing API performance',
+        url: '/docs/collections/testing-api-performance/',
+      },
+      {
         name: "Using Live Collections",
         subParentSlug: 'live-collections',
         slug: '/docs/collections/live-collections/live-collections-overview/',
@@ -1050,6 +1054,10 @@ export const leftNavItems = [
             url: '/docs/api-governance/configurable-rules/configuring-api-security-rules/',
           },
           {
+            name: 'Adding custom governance functions',
+            url: '/docs/api-governance/configurable-rules/configuring-custom-governance-functions/',
+          },
+          {
             name: 'Using Spectral in Postman',
             url: '/docs/api-governance/configurable-rules/spectral/',
           },
@@ -1102,7 +1110,11 @@ export const leftNavItems = [
         url: '/docs/administration/audit-logs/',
       },
       {
-        name: 'Token scanner',
+        name: 'Managing API keys',
+        url: '/docs/administration/managing-api-keys/',
+      },
+      {
+        name: 'Secret Scanner',
         url: '/docs/administration/token-scanner/',
       },
       {
@@ -1207,24 +1219,20 @@ export const leftNavItems = [
     url: '/docs/reports/reports-overview/',
     subMenuItems1: [
       {
-        name: 'Reports overview',
+        name: 'About reports',
         url: '/docs/reports/reports-overview/',
       },
       {
-        name: 'Summary reports',
-        url: '/docs/reports/summary-reports/',
+        name: 'Overview reports',
+        url: '/docs/reports/overview-reports/',
       },
       {
-        name: 'Team details reports',
-        url: '/docs/reports/team-details-reports/',
+        name: 'Members overview reports',
+        url: '/docs/reports/members-overview-reports/',
       },
       {
-        name: 'All Workspaces reports',
-        url: '/docs/reports/all-workspaces-reports/',
-      },
-      {
-        name: 'All APIs reports',
-        url: '/docs/reports/all-apis-reports/',
+        name: 'Content activity reports',
+        url: '/docs/reports/content-activity-reports/',
       },
       {
         name: 'API Security reports',
@@ -1232,10 +1240,14 @@ export const leftNavItems = [
       },
       {
         name: 'API Governance reports',
-        url: '/docs/reports/api-governance-reports/',
+        url: '/docs/reports/api-gov-reports/',
       },
       {
-        name: 'Token Scanner reports',
+        name: 'Billing overview reports',
+        url: '/docs/reports/billing-overview-reports/',
+      },
+      {
+        name: 'Token scanner report',
         url: '/docs/reports/security-audit-reports/',
       },
     ],
