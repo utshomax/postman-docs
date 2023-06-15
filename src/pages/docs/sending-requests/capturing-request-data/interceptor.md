@@ -1,8 +1,6 @@
 ---
 title: "Using Postman Interceptor"
-order: 34
-page_id: "interceptor"
-updated: 2022-03-02
+updated: 2023-06-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -16,8 +14,6 @@ contextual_links:
   - type: link
     name: "Postman Interceptor: The Next Generation View Source for The API Economy"
     url:  "https://blog.postman.com/postman-interceptor-the-next-generation-view-source-for-the-api-economy/"
-
-warning: false
 
 ---
 
@@ -33,6 +29,7 @@ Once Interceptor is running in Chrome, you can start a debug session, which is a
 * [Using Interceptor](#using-interceptor)
     * [Running the Interceptor debug session](#running-the-interceptor-debug-session)
     * [Viewing the Interceptor debug session results](#viewing-the-interceptor-debug-session-results)
+    * [Using Interceptor from Chrome](#using-interceptor-from-chrome)
 * [How it works](#how-it-works)
     * [Troubleshooting tips](#troubleshooting-tips)
 * [Security](#security)
@@ -45,7 +42,7 @@ Once Interceptor is running in Chrome, you can start a debug session, which is a
 
 > You can't use Interceptor with the [Postman web app](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman desktop app](/docs/getting-started/installation-and-updates/).
 
-1. [Download](https://go.pstmn.io/interceptor-download) Interceptor in the Chrome Web Store. If you already have the extension, ensure it's version v0.2.26 or later.
+1. [Download](https://go.pstmn.io/interceptor-download) Interceptor in the Chrome Web Store. If you already have the extension, ensure it's version v0.2.26 or later.<!--TODO: should we say the new version? -->
 1. Select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** in the Postman footer.
 1. On the **Capture requests** window, select the **Via Interceptor** tab.
 
@@ -59,13 +56,15 @@ Once Interceptor is running in Chrome, you can start a debug session, which is a
 
 ## Using Interceptor
 
-After Interceptor is connected, you can then start an Interceptor debug session, which is a time-bound session where captured traffic is saved in an entry in the **History** tab, and optionally into a collection. Once a proxy debug session is started, you can then pause, restart, or stop it. Before you start the session, you can select what traffic you want to go into it.
+After Interceptor is connected, you can then start an Interceptor debug session. A debug session is a time-bound session where captured traffic is saved in an entry in the **History** tab, and optionally into a collection. Once a proxy debug session is started, you can then pause, restart, or stop it. Before you start the session, you can select what traffic you want to go into it.
 
 > You can only have a single proxy or interceptor debug session running at the same time.
 
 To start an Interceptor session, do the following:
 
 1. Go to the **Via Interceptor** tab of the **Capture requests** window.
+
+    <img src="https://assets.postman.com/postman-docs/v10/interceptor-start-session-v10-15.jpg" alt="Start an interceptor session" width="412px"/>
 
 1. Select **Capture Cookies** if you want to capture cookies in addition to requests during the debug session. You can use these cookies in your Postman requests.
 
@@ -78,8 +77,6 @@ To start an Interceptor session, do the following:
 1. Under **Methods**, select one or more methods to capture only those methods.
 
 1. Select **Start Capture**.
-
-<img src="https://assets.postman.com/postman-docs/interceptor-capture-cookies-v9-15.jpg" alt="Capture cookies" width="412px"/>
 
 ### Running the Interceptor debug session
 
@@ -122,6 +119,22 @@ The **Overview** displays summary graphs of the traffic captured in the session.
 The **Requests** and **Cookies** tabs display requests, responses, and cookies, similar to the same tabs available during a capture session. The same options for searching, expanding, saving, and deleting items described in Step 4 are available. You can also add selected requests to a collection. Use the controls at the bottom of the table to limit the number of items per page and view the pages of results.
 
 You can rename an Interceptor debug session by selecting the name at the top of the window and entering a new name. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the debug session name to rename or delete the session.
+
+### Using Interceptor from Chrome
+
+In addition to running Interceptor from within the Postman desktop app, you can also control debug sessions from the Interceptor extension in the Chrome browser.
+
+Select the Postman Interceptor extension icon next to the address bar in Chrome to view the Interceptor extension. The extension has similar controls to the ones found in the Postman desktop app.
+
+<img src="https://assets.postman.com/postman-docs/v10/interceptor-chrome-v10-15.jpg" alt="Interceptor plugin in Chrome" width="400px" />
+
+There are two tabs in the extension: **Capture Requests** and **Sync Cookies**.
+
+The **Capture Requests** tab will show recent requests, and provides a link which will open the debug session in the Postman desktop app. It also shows the duration of the current debug session. If the session is stopped, it will show if Interceptor is connected to the Postman desktop app. Stopped sessions also display the lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> to set an encryption key, as described in [adding a custom encryption key](#adding-a-custom-encryption-key-in-postman). There are also dropdown lists to select methods, domains, and URLs to capture.
+
+You can select **Start Capture** and **Stop Capture** from the **Capture Requests** tab to control your debug session. After you stop a session, you are prompted to open the debug session in the Postman desktop app.
+
+The **Sync Cookies** tab enables you to add domains from which to capture cookies, add an encryption key, and start and stop cookie sync.
 
 ## How it works
 
@@ -176,9 +189,9 @@ You can find the current status of your Interceptor integration by selecting **C
     * Confirm that you have [permissions](https://docs.microsoft.com/en-us/windows/win32/sysinfo/registry-key-security-and-access-rights) to add a registry key.
     * Confirm that `C:\Windows\System32` is present in the `PATH` (a [system environment variable](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-7)) so that `reg` queries can be executed.
 
-If you are unable to use the integration after completing the guided installation, you'll want to check the following items:
+If you are unable to use the integration after completing the guided installation, check the following items:
 
-* **[macOS] Node is properly installed** - Node is installed and available at `/usr/local/node` or `/usr/local/bin/node`, or you have the environment variable `NVM_BIN` set.
+* **[macOS] Node is properly installed** - Node.js is installed and available at `/usr/local/node` or `/usr/local/bin/node`, or you have the environment variable `NVM_BIN` set.
 * **Manifest file location** - The manifest file (``com.postman.postmanapp.json``) is present, has the correct extension ID (``aicmkgpgakddgnaphhhpliifpcfhicfo``), and the correct path to the executable file.
     * If this is missing, delete the following directory and restart the [installation process](#installing-interceptor):
         * **macOS / Linux** - `$HOME/.postman`

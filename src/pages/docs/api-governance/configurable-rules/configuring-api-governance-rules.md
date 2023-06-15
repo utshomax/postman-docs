@@ -48,13 +48,17 @@ In addition to the rules turned on by default in Postman, you can add other rule
 
 ### Importing rules from the rule library
 
-The rule library contains Postman's API governance guidelines and Zalando's RESTful API and event guidelines. Navigate to the [governance dashboard](#accessing-the-configurable-api-governance-rules), then select **Import** to open the rule library.
+The rule library has Postman's API governance guidelines, Zalando's RESTful API and event guidelines, and Postman's OWASP API guidelines.
 
-You can select **View all** below a set of guidelines to view all of its rules. Details and API format requirements are available under the rule name. Select **Import** next to a rule to import it. To import all rules for a particular set of guidelines, select **Import All**.
+1. Select the **Rule Library** tab, and then select the **Rules** tab.
+1. Select **Import** to open the rule library.
+1. Select **Import** next to a rule to import it. Details and API format requirements are available under the rule name.
 
-<img alt="Import API Governance rule from Postman library" src="https://assets.postman.com/postman-docs/import-postman-rule-from-rule-library-10.12.0.jpg"/>
+    > You can select **View all** below a set of guidelines to view all of its rules. To import all rules for a particular set of guidelines, select **Import All**.
 
-Once you import new rules from the library, you need to [turn them on](#turning-configured-rules-on-and-off) in the API Governance dashboard.
+    <img alt="Import API Governance rule from Postman library" src="https://assets.postman.com/postman-docs/import-postman-rule-from-rule-library-10.12.0.jpg"/>
+
+1. Once you import new rules from the library, add the rules to a workspace group to [turn them on](#turning-configured-rules-on-and-off) for the workspaces in the group.
 
 ### Adding custom rules
 
