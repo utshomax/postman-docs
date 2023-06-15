@@ -1,6 +1,6 @@
 ---
 title: 'Importing and exporting data'
-updated: 2022-06-03
+updated: 2023-06-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -26,7 +26,6 @@ contextual_links:
   - type: link
     name: "Bring your APIs into Postman faster than ever"
     url: "https://blog.postman.com/bring-your-apis-into-postman-faster-than-ever/"
-warning: false
 ---
 
 Postman can import and export Postman data, including collections, environments, data dumps, and globals. Postman can also import non-Postman data in the form of API schemas to help you consolidate your API development workflow.
@@ -150,6 +149,8 @@ To import data from a remote GitHub repository:
 
 1. Confirm or sign in to your GitHub account and authorize **postmanlabs** to access your repositories if necessary.
 
+   > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#managing-connected-accounts-for-remote-repositories).
+
 1. In Postman, select your GitHub organization, repository, and branch, then select **Continue**.
 
 1. Choose to import your API as a **Postman Collection** or as **OpenAPI 3.0 with a Postman Collection**.
@@ -179,6 +180,8 @@ To import data from a remote Bitbucket repository:
 1. In Postman, select **Import** then select the **Bitbucket** button.
 
 1. Confirm or sign in to your Bitbucket account and authorize **postmanlabs** to access your repositories if necessary.
+
+   > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#managing-connected-accounts-for-remote-repositories).
 
 1. In Postman, select your Bitbucket workspace, repository, and branch, then select **Continue**.
 
@@ -210,6 +213,8 @@ To import data from a remote GitLab repository:
 
 1. Confirm or sign in to your GitLab account and authorize **postmanlabs** to access your repositories if necessary.
 
+   > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#managing-connected-accounts-for-remote-repositories).
+
 1. In Postman, select your GitLab organization, project, and branch, then select **Continue**.
 
 1. Choose to import your API as a **Postman Collection** or as **OpenAPI 3.0 with a Postman Collection**.
@@ -239,6 +244,8 @@ To import data from a remote Azure DevOps repository:
 1. In Postman, select **Import > Other Sources > Azure**.
 
 1. Confirm or sign in to your Azure DevOps account and authorize **postmanlabs** to access your repositories if necessary.
+
+   > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#managing-connected-accounts-for-remote-repositories).
 
 1. In Postman, select your Azure DevOps workspace, repository, and branch, then select **Continue**.
 
