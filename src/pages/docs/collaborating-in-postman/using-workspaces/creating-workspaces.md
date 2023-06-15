@@ -23,11 +23,11 @@ contextual_links:
 
 Workspaces enable you to organize your Postman work and collaborate with teammates. You can group your projects together, with workspace acting as the single source of truth for related APIs, collections, environments, mocks, monitors, and other linked entities. By collaborating in a workspace, your edits sync with your team in real time.
 
-<img alt="Workspaces selected" src="https://assets.postman.com/postman-docs/v10/workspace-overview-switcher-selected-v10.14.jpg"/>
+<img alt="Workspaces selected" src="https://assets.postman.com/postman-docs/v10/workspace-overview-switcher-selected-v10-2.jpg"/>
 
 With a [Postman account](/docs/getting-started/postman-account/) you can create various types of workspaces:
 
-* **Personal** - Personal workspaces are visible to you.
+* **Personal** - Personal workspaces are visible to you. If you're on an Enterprise team, [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) will also have access to any personal workspaces created within the team.
 * **Private** - Private workspaces are visible to you and to any team members you invite to them ([Professional and Enterprise plans](https://www.postman.com/pricing)).
 * **Team** - Team workspaces enable you to share projects with collaborators and manage access to them within your team.
 * **Partner** - Invited team members and [partners](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) can access Partner Workspaces ([Enterprise Ultimate plans only](https://www.postman.com/pricing)).
@@ -68,8 +68,6 @@ You can also create a new workspace in the [Workspaces dashboard](https://app.ge
 ![Create new workspace dashboard](https://assets.postman.com/postman-docs/v10/create-new-workspace-dashboard-v10.jpg)
 
 ## Creating workspaces with a template
-
-> Workspace templates are available on Postman Free, Basic, and Professional plans.
 
 You can use workspace templates to help you set up a new workspace. Workspace templates are available for a variety of common use cases:
 
