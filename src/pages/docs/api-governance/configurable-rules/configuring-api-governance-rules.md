@@ -25,6 +25,8 @@ You can customize the API Governance rules that Postman applies to your [API def
 
 [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and [API Governance Managers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can configure rules and turn them on and off for workspaces within your team.
 
+> If you're using Postman version 10.14 or earlier, you must be a [Super Admin or Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to configure rules and turn them on and off for workspaces within your team.
+
 <img alt="API governance dashboard" src="https://assets.postman.com/postman-docs/v10/api-governance-dashboard-v10.jpg"/>
 
 ## Contents
