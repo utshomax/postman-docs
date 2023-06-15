@@ -29,7 +29,7 @@ contextual_links:
     url: "https://blog.postman.com/latest-updates-to-syncing-your-specs-with-collections/"
 ---
 
-> **[GitHub Enterprise Server, GitLab Self-Managed, and Azure DevOps Server (hosted on-premises) integrations are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
+> **[GitHub Enterprise Server, GitLab Self-Managed, and Azure DevOps Server (hosted on-premises) integrations are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
 You can connect a GitHub, Bitbucket, GitLab, or Azure DevOps repository to your API to sync your API definition and collections between Postman and the repository.
 
@@ -47,7 +47,7 @@ After connecting, you can push and pull changes between Postman and branches in 
 
 ## Connecting to a repository overview
 
-You can connect an API in Postman to your remote Git-based repository. This enables you to sync changes between the repository and Postman. You can connect to a [cloud-hosted repository](#connecting-to-a-cloud-hosted-repository) (GitHub, Bitbucket, GitLab SaaS, or Azure DevOps). If you are on an [Enterprise plan](https://www.postman.com/pricing), you can also connect to an [on-premises repository](#connecting-to-an-on-premises-repository) (GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server).
+You can connect an API in Postman to your remote Git-based repository. This enables you to sync changes between the repository and Postman. You can connect to a [cloud-hosted repository](#connecting-to-a-cloud-hosted-repository) (GitHub, Bitbucket, GitLab SaaS, or Azure DevOps). If you are on a [Postman Enterprise Ultimate plan](https://www.postman.com/pricing), you can also connect to an [on-premises repository](#connecting-to-an-on-premises-repository) (GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server).
 
 Keep in mind the following when connecting to a repository:
 
@@ -85,7 +85,7 @@ You can connect to a GitHub, Bitbucket, GitLab SaaS, or Azure DevOps repository 
 
 ## Connecting to an on-premises repository
 
-If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), you can connect to a Git repository hosted on-premises. To connect to a [GitHub Enterprise Server or GitLab Self-Managed](#connecting-to-github-enterprise-server-or-gitlab-self-managed), create a new installed app in Postman. To connect to [Azure DevOps server](#connecting-to-azure-devops-server), use a personal access token.
+If you are on a [Postman Enterprise Ultimate plan](https://www.postman.com/pricing), you can connect to a Git repository hosted on-premises. To connect to a [GitHub Enterprise Server or GitLab Self-Managed](#connecting-to-github-enterprise-server-or-gitlab-self-managed), create a new installed app in Postman. To connect to [Azure DevOps server](#connecting-to-azure-devops-server), use a personal access token.
 
 Keep in mind the following when connecting to an on-premises repository:
 

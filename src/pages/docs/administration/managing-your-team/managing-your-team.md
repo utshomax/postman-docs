@@ -158,7 +158,7 @@ It's recommended that you create a service user that isn't tied to any individua
 
 ### Managing Partners
 
-> **[Partners are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
+> **[Partners are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
 You can manage external partners similarly to internal team members. To learn more, see [Managing a Partner Workspace](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/#managing-a-partner-workspace).
 

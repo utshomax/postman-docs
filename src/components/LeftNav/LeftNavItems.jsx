@@ -1098,7 +1098,7 @@ export const leftNavItems = [
         url: '/docs/administration/resource-usage/',
       },
       {
-        name: 'About Postman Enterprise',
+        name: 'About Postman Enterprise plans',
         url: '/docs/administration/about-postman-enterprise/'
       },
       {

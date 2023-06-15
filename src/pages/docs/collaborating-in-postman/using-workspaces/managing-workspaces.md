@@ -1,8 +1,6 @@
 ---
 title: "Using and managing workspaces"
-order: 78
 updated: 2023-05-31
-page_id: "managing_workspaces"
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -19,7 +17,6 @@ contextual_links:
   - type: link
     name: "Giant Machines"
     url: "https://www.postman.com/case-studies/giant-machines/"
-warning: false
 ---
 
 Use workspaces to organize your work in Postman and collaborate with teammates ([or the world](/docs/collaborating-in-postman/using-workspaces/public-workspaces/)). Workspaces group together various elements such as collections, APIs, environments, mock servers, and monitors. A particular element can exist in a single workspace at most. Access to elements in a workspace is controlled by [workspace roles](#managing-workspace-roles).
@@ -99,7 +96,7 @@ The visibility setting for a workspace determines who can access it. You must be
 1. Select a **Visibility** for the workspace:
     * **Private** - Only invited team members can access ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
     * **Team** - All team members can access.
-    * **Partner** - Only invited team members and [partners](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) can access ([Enterprise plans only](https://www.postman.com/pricing)).
+    * **Partner** - Only invited team members and [partners](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) can access ([Enterprise Ultimate plans only](https://www.postman.com/pricing)).
     * **Public** - Everyone can view.
 1. Select **Update**.
 
