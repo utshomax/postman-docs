@@ -19,6 +19,13 @@ Setting up a Statuspage integration requires you to get an API key from Statuspa
 
 Make sure to create your Statuspage account and create a page and components before you begin. For more information, visit Atlassian's [Statuspage](https://www.atlassian.com/software/statuspage) page.
 
+## Contents
+
+* [Retrieving your Statuspage API key](#retrieving-your-statuspage-api-key)
+* [Configuring the Statuspage integration](#configuring-the-statuspage-integration)
+    * [Linking a monitor to a component](#linking-a-monitor-to-a-component)
+    * [Creating an incident when a monitoring run fails](#creating-an-incident-when-a-monitoring-run-fails)
+
 ## Retrieving your Statuspage API key
 
 1. Sign in to [Statuspage](https://manage.statuspage.io/login).
@@ -77,8 +84,8 @@ When the **Create incident when monitoring run fails** action is configured, if 
 To configure the **Create incident when monitoring run fails** action, do the following:
 
 1. Enter an incident name. The name is shown to users when they view the incident.
-1. Select an incident status. The name is shown to users when they view the incident.
-1. Select an incident impact. Choose a status based on the importance of the service you're monitoring. For example, the failure of an optional, seldom-used API could trigger a minor incident, but the failure of your main authentication API would have critical impact.
+1. Select an incident status. The status is shown to users when they view the incident.
+1. Select an incident impact. Choose an impact based on the importance of the service you're monitoring. For example, the failure of an optional, low-traffic API could trigger a minor incident, but the failure of your main authentication API would have critical impact.
 
   ![Statuspage create incident](https://assets.postman.com/postman-docs/v10/statuspage-create-incident-v10-15.jpg)
 
@@ -86,4 +93,4 @@ When the monitor fails, an incident will be created on your status page:
 
 ![Statuspage incident](https://assets.postman.com/postman-docs/statuspage-incident.jpg)
 
-When an incident is created by a failed test run, if a successive test run is successful, the incident will be closed.
+When an incident is created by a failed test run, if a later test run is successful, the incident will be closed.
