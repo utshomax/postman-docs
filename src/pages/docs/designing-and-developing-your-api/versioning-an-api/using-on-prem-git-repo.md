@@ -1,5 +1,5 @@
 ---
-title: 'Connecting to an on-premises Git repository'
+title: 'Using an on-premises Git repository'
 updated: 2023-06-15
 search_keyword: "whitelist, whitelist IP"
 contextual_links:
@@ -31,34 +31,31 @@ contextual_links:
 
 > **[GitHub Enterprise Server, GitLab Self-Managed, and Azure DevOps Server (hosted on-premises) integrations are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
-You can connect an on-premises or self-managed Git repository to your API to sync your API definition and collections between Postman and the repository. Postman supports connecting to GitHub, GitLab, or Azure DevOps repositories.
+You can connect your API to an on-premises or self-managed Git repository to sync your API definition and collections between Postman and the repository. Postman supports connecting to GitHub, GitLab, or Azure DevOps repositories.
 
 After connecting, you can push and pull changes between Postman and branches in the remote repository. When it's time to release, you can publish an API version to make your changes available to consumers.
 
-> The steps below are for connecting to the on-premises or self-managed versions of GitHub, GitLab, or Azure DevOps. If you need to connect to a cloud-hosted repository, go to [Connecting to a cloud-hosted Git repository](/docs/designing-and-developing-your-api/versioning-an-api/connecting-cloud-git/).
+> The steps below are for connecting to the on-premises or self-managed versions of GitHub, GitLab, or Azure DevOps. If you need to connect to a cloud-hosted repository, go to [Using a cloud-hosted Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/).
 
 
 ## Contents
 
-## Connecting to a repository overview
+* [Using an on-premises repository overview](#using-an-on-premises-repository-overview)
+* [Connecting to GitHub Enterprise Server or GitLab Self-Managed](#connecting-to-github-enterprise-server-or-gitlab-self-managed)
+    * [Creating an installed app](#creating-an-installed-app)
+    * [Connecting an API using an installed app](#connecting-an-api-using-an-installed-app)
+* [Connecting to Azure DevOps Server](#connecting-to-azure-devops-server)
+* [Managing connected accounts for on-premises repositories](#managing-connected-accounts-for-on-premises-repositories)
+* [Disconnecting an on-premises repository](#disconnecting-an-on-premises-repository)
+* [Next steps](#next-steps)
 
-You can connect an API in Postman to your remote Git-based repository. This enables you to sync changes between the repository and Postman. You can connect to a [cloud-hosted repository](#connecting-to-a-cloud-hosted-repository) (GitHub, Bitbucket, GitLab SaaS, or Azure DevOps). If you are on a [Postman Enterprise Ultimate plan](https://www.postman.com/pricing), you can also connect to an [on-premises repository](#connecting-to-an-on-premises-repository) (GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server).
+## Using an on-premises repository overview
 
-Keep in mind the following when connecting to a repository:
+If you are on a [Postman Enterprise Ultimate plan](https://www.postman.com/pricing), you can connect an API in Postman to your on-premises or self-managed Git repository. This enables you to sync changes between the repository and Postman.
 
-* **The user account used for authentication requires full access to repositories.** To contribute to the API, each user must authenticate with their own account.
+To connect to [GitHub Enterprise Server or GitLab Self-Managed](#connecting-to-github-enterprise-server-or-gitlab-self-managed), create a new installed app in Postman. To connect to [Azure DevOps server](#connecting-to-azure-devops-server), use a personal access token.
 
-* **You can connect one or more APIs to a remote repository.** You can keep your APIs separate in the repository using folders or branches. Learn more about [connecting more than one API to the same repository](#connecting-more-than-one-api-to-the-same-repository).
-
-* **For Azure DevOps connections, make sure to enable third-party application access for your organization.** If you don't enable third-party access, Postman won't be able to connect to your repository. In Azure DevOps, go to your [organization settings](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops), select **Policies**, and turn on the toggle next to **Third-party application access via OAuth**. (Enabling third-party access isn't required for connecting to an Azure DevOps Server repository hosted on-premises.)
-
-* **For GitHub connections, there's a limit of ten auth tokens per user per application imposed by GitHub.** If you create more than ten connections with the same user, tokens beyond this limit will be revoked in the order that they were created. Teams can use other Postman accounts to create more than ten integrations.
-
-## Connecting to an on-premises repository
-
-If you are on a [Postman Enterprise Ultimate plan](https://www.postman.com/pricing), you can connect to a Git repository hosted on-premises. To connect to a [GitHub Enterprise Server or GitLab Self-Managed](#connecting-to-github-enterprise-server-or-gitlab-self-managed), create a new installed app in Postman. To connect to [Azure DevOps server](#connecting-to-azure-devops-server), use a personal access token.
-
-Keep in mind the following when connecting to an on-premises repository:
+Keep in mind the following when connecting to an on-premises or self-managed repository:
 
 * **You must be on a [Postman Enterprise Ultimate plan](https://www.postman.com/pricing) to connect to a repository hosted on-premises.** If you're not on a Postman Enterprise Ultimate plan, you won't be able to connect to GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server. You can still [connect to a cloud-hosted repository](#connecting-to-a-cloud-hosted-repository).
 
@@ -66,11 +63,13 @@ Keep in mind the following when connecting to an on-premises repository:
 
 * **All communication is between the Postman desktop app on your computer and the on-premises repository.** Your computer must be able to access the repository. No Git requests go through Postman's cloud servers, as the Postman desktop app connects directly to your Git server, and you don't need to allow any Postman IP addresses for your repository. The repository will show the IP address of your computer as the source for all Git requests.
 
-### Connecting to GitHub Enterprise Server or GitLab Self-Managed
+* **You can connect one or more APIs to a remote repository.** You can keep your APIs separate in the repository using folders or branches. Learn more about [connecting more than one API to the same repository](#connecting-more-than-one-api-to-the-same-repository).
+
+## Connecting to GitHub Enterprise Server or GitLab Self-Managed
 
 To connect to a repository hosted in GitHub Enterprise Server or GitLab Self-Managed, [create an installed app](#creating-an-installed-app) in Postman. To complete this process, you'll also need to create an OAuth app in GitHub Enterprise Server or GitLab Self-Managed. You need to complete this process once for a domain URL. After you create the installed app, anyone on the team can use it to [connect to repositories using the same domain URL](#connecting-an-api-using-an-installed-app).
 
-#### Creating an installed app
+### Creating an installed app
 
 [Installed apps](/docs/integrations/installed-apps/) streamline the process of adding integrations by enabling all members of a team to use the same stored authorization details. To create an installed app, you must have the [Team Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
 
@@ -95,7 +94,7 @@ To create an installed app for GitHub Enterprise Server or GitLab Self-Managed, 
 
 <img alt="Creating an installed app" src="https://assets.postman.com/postman-docs/v10/api-builder-add-installed-app-v10-12b.jpg" width ="562px"/>
 
-#### Connecting an API using an installed app
+### Connecting an API using an installed app
 
 After you [create an installed app](#creating-an-installed-app), any API editor on the team can use it to connect an API to GitHub Enterprise Server or GitLab Self-Managed.
 
@@ -118,7 +117,7 @@ To connect an API using an installed app, do the following:
 
 1. Select **Connect Repository**.
 
-### Connecting to Azure DevOps Server
+## Connecting to Azure DevOps Server
 
 To connect an API to a repository hosted in Azure DevOps Server, use a personal access token.
 
@@ -142,7 +141,7 @@ To connect an API to a repository hosted in Azure DevOps Server, use a personal 
 
 > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](#managing-connected-accounts-for-remote-repositories).
 
-## Managing connected accounts for remote repositories
+## Managing connected accounts for on-premises repositories
 
 After you connect an API to a remote repository, other editors of the API must authenticate to be able to contribute to the API. Postman will prompt editors to authenticate the next time they open the API.
 
@@ -150,7 +149,7 @@ Postman stores the accounts you've authorized with. After connecting to one repo
 
 To manage services you've authorized with, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, select **Settings**, and select the **Connected accounts** tab. Learn more about [managing connected accounts](/docs/getting-started/settings/#connected-accounts).
 
-## Disconnecting a remote repository
+## Disconnecting an on-premises repository
 
 After you disconnect a remote repository, you can no longer sync changes between Postman and the repository.
 

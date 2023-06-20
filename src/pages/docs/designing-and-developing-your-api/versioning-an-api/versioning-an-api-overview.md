@@ -1,6 +1,6 @@
 ---
 title: 'API version control overview'
-updated: 2022-09-15
+updated: 2023-06-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -45,7 +45,7 @@ Once your API is connected to a repository, you can switch branches, pull change
 Here's a typical workflow for API-first development with a connected repository:
 
 1. Create an API in Postman.
-1. Connect the API to a remote repository.
+1. Connect the API to a remote Git repository.
 1. In Postman, select an active branch. Make changes to the API definition and associated collections, then commit and push the changes to the remote repository.
 
     > You can also make changes in the Git repository using other tools or editors. For example, developers can follow a Git workflow by working on feature branches, then creating pull requests to merge them into the default branch.
@@ -57,9 +57,9 @@ Here's a typical workflow for API-first development with a connected repository:
 
 You can connect your API to a GitHub, Bitbucket, GitLab, or Azure DevOps repository. Once connected, you can sync your API definition and associated collections in Postman with the remote repository.
 
-* To connect your API to the cloud-hosted versions of GitHub, GitLab SaaS, or Azure DevOps, go to [Connecting to a cloud-hosted Git repository](/docs/designing-and-developing-your-api/versioning-an-api/connecting-cloud-git/).
+* To connect your API to the cloud-hosted versions of GitHub, GitLab SaaS, or Azure DevOps, go to [Using a cloud-hosted Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/).
 
-* To connect your API to the on-premises or self-managed versions of GitHub, Bitbucket, GitLab, or Azure DevOps, go to [Connecting to an on-premises Git repository](/docs/designing-and-developing-your-api/versioning-an-api/connecting-on-prem-git/).
+* To connect your API to the on-premises or self-managed versions of GitHub, Bitbucket, GitLab, or Azure DevOps, go to [Using an on-premises Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/). (You must be on a [Postman Enterprise Ultimate plan](https://www.postman.com/pricing) to connect to an on-premises or self-hosted repository.)
 
 * You can connect an API to more than one Git repository. Learn more about [Connecting an API to multiple repositories](http://localhost:8000/docs/designing-and-developing-your-api/versioning-an-api/connecting-multiple-repos/).
 

@@ -801,12 +801,12 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/',
           },
           {
-            name: 'Connecting to a cloud-hosted Git repository',
-            url: '/docs/designing-and-developing-your-api/versioning-an-api/connecting-cloud-git/',
+            name: 'Using a cloud-hosted Git repository',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/',
           },
           {
-            name: 'Connecting to an on-premises Git repository',
-            url: '/docs/designing-and-developing-your-api/versioning-an-api/connecting-on-prem-git/',
+            name: 'Using an on-premises Git repository',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/',
           },
           {
             name: 'Connecting an API to multiple repositories',

@@ -28,7 +28,7 @@ contextual_links:
     url: "https://blog.postman.com/latest-updates-to-syncing-your-specs-with-collections/"
 ---
 
-You can connect more than one API in Postman to the same Git repository. For each API you want to connect, repeat the process to set up the Git integration. For complete steps, see [Connecting to a cloud-hosted Git repository](/docs/designing-and-developing-your-api/versioning-an-api/connecting-cloud-git/) or [Connecting to an on-premises Git repository](/docs/designing-and-developing-your-api/versioning-an-api/connecting-on-prem-git/).
+You can connect more than one API in Postman to the same Git repository. For each API you want to connect, repeat the process to set up the Git integration. For complete steps, see [Using a cloud-hosted Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/) or [Using an on-premises Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/).
 
 It's important to make sure your APIs remain separated in the repository to avoid changes from one API getting applied to another API. You can separate your APIs in the repository using either folders or branches.
 
