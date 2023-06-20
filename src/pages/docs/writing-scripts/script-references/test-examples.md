@@ -1,7 +1,5 @@
 ---
 title: "Test script examples"
-order: 45
-page_id: "test_examples"
 updated: 2021-11-15
 search_keyword: "pm.test, pm.expect, pm.response.json, pm.sendRequest, response.json"
 contextual_links:
@@ -25,11 +23,10 @@ contextual_links:
   - type: link
     name: "Test examples in Postman"
     url: "https://www.postman.com/postman/workspace/test-examples-in-postman/overview"
-warning: false
 
 ---
 
-Use the **Tests** tab in your requests, folders, and collections to write tests that will execute when Postman receives a response from the API you sent the request to. Add however many tests you need for each request. When you add tests to a folder or Collection, they will execute after each request inside it.
+Use the **Tests** tab in your requests, folders, and collections to write tests that will execute when Postman receives a response from the API you sent the request to. Add however many tests you need for each request. When you add tests to a folder or collection, they will execute after each request inside it.
 
 ## Contents
 
@@ -75,7 +72,7 @@ This code uses the `pm` library to run the `test` method. The text string will a
 
 This test checks the response code returned by the API. If the response code is `200`, the test will pass, otherwise it will fail. Select **Send** and go to the **Test Results** tab in the response area.
 
-[![Test output](https://assets.postman.com/postman-docs/example-test-assertion-result-v9.jpg)](https://assets.postman.com/postman-docs/example-test-assertion-result-v9.jpg)
+![Test output](https://assets.postman.com/postman-docs/v10/example-test-assertion-result-v10-2.jpg)
 
 To learn what test results look like when they pass or fail, change the status code in the assertion code and send the request again.
 
@@ -97,9 +94,9 @@ Your tests can include multiple assertions as part of a single test. Use this to
 pm.test("The response has all properties", () => {
     //parse the response JSON and test three properties
     const responseJson = pm.response.json();
-    pm.expect(responseJson.type).to.eql('vip');
-    pm.expect(responseJson.name).to.be.a('string');
-    pm.expect(responseJson.id).to.have.lengthOf(1);
+    pm.expect(responseJson.args.type).to.eql('vip');
+    pm.expect(responseJson.args.name).to.be.a('string');
+    pm.expect(responseJson.args.id).to.have.lengthOf(1);
 });
 ```
 
@@ -169,8 +166,8 @@ Check for particular values in the response body:
 ```js
 pm.test("Person is Jane", () => {
   const responseJson = pm.response.json();
-  pm.expect(responseJson.name).to.eql("Jane");
-  pm.expect(responseJson.age).to.eql(23);
+  pm.expect(responseJson.args.name).to.eql("Jane");
+  pm.expect(parseInt(responseJson.args.age)).to.eql(23);
 });
 ```
 
