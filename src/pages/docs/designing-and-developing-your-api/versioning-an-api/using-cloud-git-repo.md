@@ -32,13 +32,13 @@ You can connect your API to a cloud-hosted Git repository to sync your API defin
 
 After connecting, you can push and pull changes between Postman and branches in the remote repository. When it's time to release, you can publish an API version to make your changes available to consumers.
 
-> The steps below are for connecting to the cloud-hosted versions of GitHub, Bitbucket, GitLab SaaS, or Azure DevOps. If you need to connect to an on-premises or self-managed repository, go to [Using an on-premises Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/).
+> The steps below are for connecting to the cloud-hosted versions of GitHub, Bitbucket, GitLab SaaS, or Azure DevOps. If you need to connect to an on-premises repository, go to [Using an on-premises Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/).
 
 ## Contents
 
 * [Using a cloud-hosted repository overview](#using-a-cloud-hosted-repository-overview)
 * [Connecting to a cloud-hosted repository](#connecting-to-a-cloud-hosted-repository)
-* [Managing connected accounts for cloud-hosted repositories](#managing-connected-accounts-for-cloud-hosted-repositories)
+* [Managing connected accounts for remote repositories](#managing-connected-accounts-for-remote-repositories)
 * [Disconnecting a cloud-hosted repository](#disconnecting-a-cloud-hosted-repository)
 * [Next steps](#next-steps)
 
@@ -50,11 +50,11 @@ Keep in mind the following when connecting to a cloud-hosted Git repository:
 
 * **The user account used for authentication requires full access to repositories.** To contribute to the API, each user must authenticate with their own account.
 
-* **For Azure DevOps connections, make sure to enable third-party application access for your organization.** If you don't enable third-party access, Postman won't be able to connect to your repository. In Azure DevOps, go to your [organization settings](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops), select **Policies**, and turn on the toggle next to **Third-party application access via OAuth**.
-
 * **For GitHub connections, there's a limit of ten auth tokens per user per application imposed by GitHub.** If you create more than ten connections with the same user, tokens beyond this limit will be revoked in the order that they were created. Teams can use other Postman accounts to create more than ten integration.
 
-* **You can connect one or more APIs to a remote repository.** You can keep your APIs separate in the repository using folders or branches. Learn more about [connecting more than one API to the same repository](#connecting-more-than-one-api-to-the-same-repository).
+* **For Azure DevOps connections, make sure to enable third-party application access for your organization.** If you don't enable third-party access, Postman won't be able to connect to your repository. In Azure DevOps, go to your [organization settings](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops), select **Policies**, and turn on the toggle next to **Third-party application access via OAuth**.
+
+* **You can connect one or more APIs to a remote repository.** You can keep your APIs separate in the repository using folders or branches. Learn more about [connecting more than one API to the same repository](/docs/designing-and-developing-your-api/versioning-an-api/connecting-multiple-repos/).
 
 ## Connecting to a cloud-hosted repository
 
@@ -76,11 +76,11 @@ You can connect your API to a GitHub, Bitbucket, GitLab SaaS, or Azure DevOps re
 
 1. Select **Connect Repository**.
 
-> Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for cloud-hosted repositories](#managing-connected-accounts-for-cloud-hosted-repositories).
+> Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](#managing-connected-accounts-for-remote-repositories).
 
 <img alt="Connecting to a cloud-hosted repo" src="https://assets.postman.com/postman-docs/v10/api-builder-remote-repo-v10-12.jpg" width ="562px"/>
 
-## Managing connected accounts for cloud-hosted repositories
+## Managing connected accounts for remote repositories
 
 After you connect an API to a remote repository, other editors of the API must authenticate to be able to contribute to the API. Postman will prompt editors to authenticate the next time they open the API.
 

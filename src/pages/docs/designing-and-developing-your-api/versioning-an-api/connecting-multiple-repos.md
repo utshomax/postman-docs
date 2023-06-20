@@ -32,7 +32,12 @@ You can connect more than one API in Postman to the same Git repository. For eac
 
 It's important to make sure your APIs remain separated in the repository to avoid changes from one API getting applied to another API. You can separate your APIs in the repository using either folders or branches.
 
-### Separating APIs with folders
+## Contents
+
+* [Separating APIs with folders](#separating-apis-with-folders)
+* [Separating APIs with branches](#separating-apis-with-branches)
+
+## Separating APIs with folders
 
 You can keep your APIs separate by using a different folder for each API in the repository. For example, if you have an `emails` API and an `sms` API, you could have the following folder structure for the `main` branch in your repository:
 
@@ -45,7 +50,7 @@ Make sure to select the correct folders for your API's schema and collections wh
 
 > The collection directory can't be a parent or the child of the schema directory.
 
-### Separating APIs with branches
+## Separating APIs with branches
 
 You can keep your APIs separate by using a different branch for each API in the repository. For example, if you have a `notifications-v1` API and a `notifications-v2` API, you could have the following branch and folder structure in your repository:
 
