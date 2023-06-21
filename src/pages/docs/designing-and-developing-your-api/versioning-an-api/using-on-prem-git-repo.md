@@ -35,7 +35,7 @@ You can connect your API to an on-premises Git repository to sync your API defin
 
 After connecting, you can push and pull changes between Postman and branches in the remote repository. When it's time to release, you can publish an API version to make your changes available to consumers.
 
-> The steps below are for connecting to the on-premises versions of GitHub, GitLab, or Azure DevOps. If you need to connect to a cloud-hosted repository, go to [Using a cloud-hosted Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/).
+> The steps below are for connecting to the on-premises versions of GitHub Enterprise Server, GitLab Self-Managed, and Azure DevOps Server. If you need to connect to a cloud-hosted repository, go to [Using a cloud-hosted Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/).
 
 ## Contents
 
