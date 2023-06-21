@@ -74,8 +74,16 @@ See the [Sandbox Reference](/docs/writing-scripts/script-references/postman-sand
 
 You may encounter errors when Postman attempts to read your data file during a collection run. If this happens, you can take the following steps:
 
-1. Ensure your data file is formatted correctly, as either CSV or JSON.
+* Ensure your data file is formatted as either CSV or JSON.
 
-1. Confirm your data file is encoded properly, by opening your data file in a text editor and saving the file in a different format.
+* If you want to keep very large numbers or numbers with leading zeros, specify them as a string in the CSV file by wrapping the number in double quotes as follows:
+
+  ```csv
+  index,specialNumber
+  1,"000001"
+  2,"9223372036854775807"
+  ```
+
+* Confirm your data file is encoded properly, by opening your data file in a text editor and saving the file in a different format.
 
 If the errors persist, [contact the Postman support team](https://support.postman.com/hc/en-us).
