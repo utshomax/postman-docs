@@ -164,10 +164,16 @@ Your tests can check various aspects of a request response, including the [body]
 Check for particular values in the response body:
 
 ```js
+/* Response has the following structure:
+{
+  "name": "Jane",
+  "age": 23
+}
+*/
 pm.test("Person is Jane", () => {
   const responseJson = pm.response.json();
   pm.expect(responseJson.args.name).to.eql("Jane");
-  pm.expect(parseInt(responseJson.args.age)).to.eql(23);
+  pm.expect(responseJson.args.age).to.eql(23);
 });
 ```
 
@@ -220,8 +226,8 @@ pm.test("Content-Type header is application/json", () => {
 Test if a cookie is present in the response:
 
 ```js
-pm.test("Cookie JSESSIONID is present", () => {
-  pm.expect(pm.cookies.has('JSESSIONID')).to.be.true;
+pm.test("Cookie isLoggedIn is present", () => {
+  pm.expect(pm.cookies.has('isLoggedIn')).to.be.true;
 });
 ```
 
@@ -255,7 +261,7 @@ Check if a response property has the same value as a variable (in this case an e
 
 ```js
 pm.test("Response property matches environment variable", function () {
-  pm.expect(pm.response.json().name).to.eql(pm.environment.get("name"));
+  pm.expect(pm.response.json().args.name).to.eql(pm.environment.get("name"));
 });
 ```
 
@@ -266,7 +272,7 @@ pm.test("Response property matches environment variable", function () {
 Test the type of any part of the response:
 
 ```js
-/* response has this structure:
+/* Response has the following structure:
 {
   "name": "Jane",
   "age": 29,
