@@ -1,6 +1,6 @@
 ---
 title: "Configuring team settings"
-updated: 2021-12-01
+updated: 2023-06-21
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -34,7 +34,7 @@ Your [Team Settings](https://go.postman.co/settings/team/general) enable you to 
 * [Adding custom domains](#adding-custom-domains)
 * [Using installed apps](#using-installed-apps)
 * [Editing authentication methods](#editing-authentication-methods)
-* [Understanding roles and permissions](#understanding-roles-and-permissions)
+* [Managing roles and permissions](#managing-roles-and-permissions)
 * [Reviewing invite links](#reviewing-invite-links)
 
 ## Accessing team settings
@@ -134,7 +134,7 @@ Select **Authentication** to configure or reconfigure your team's authentication
 
 See [Configuring SSO for a team](/docs/administration/sso/admin-sso/) for details explaining how to configure your team's custom SSO setup and manage user accounts.
 
-## Understanding roles and permissions
+## Managing roles and permissions
 
 You can select the following to add roles to users and groups, and review role assignments:
 
