@@ -76,7 +76,7 @@ You may encounter errors when Postman attempts to read your data file during a c
 
 * Ensure your data file is formatted as either CSV or JSON.
 
-* If you want to keep very large numbers or numbers with leading zeros, specify them as a string in the CSV file by wrapping the number in double quotes as follows:
+* If you want to keep large numbers or numbers with leading zeros, specify them as a string in the CSV file by wrapping the number in double quotes as follows:
 
   ```csv
   index,specialNumber
