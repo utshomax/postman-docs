@@ -1,8 +1,6 @@
 ---
 title: "Importing data files"
-order: 58
-updated: 2022-07-18
-page_id: "working_with_data_files"
+updated: 2023-06-21
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -21,9 +19,6 @@ contextual_links:
   - type: link
     name: "Reputation imports data files with Postman"
     url: "https://www.postman.com/case-studies/reputation/"
-
-warning: false
-
 ---
 
 You can use data files to pass Postman sets of values to use in a collection run. By selecting a JSON or CSV data file in the Collection Runner, you can test your requests with multiple values as part of a single run.
