@@ -47,6 +47,8 @@ You can access team settings by selecting **Team** in the header, then selecting
 
 Your team profile gives you a way to share important information about your team with other Postman users. The profile brings together all your team's public resources in one place, and can serve as a developer portal for your API's consumers.
 
+[Super Admins, Admins, and Community Managers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can edit your team profile, customize your team's branding, and manage the public visibility of your team profile.
+
 Your team profile includes:
 
 * A short summary about your team and the work you do
@@ -87,11 +89,9 @@ Keep the following in mind when you upload a logo, cover photo, or favicon:
 
 ### Making your team profile public
 
-[Super Admins, Admins, and Community Managers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can manage the public visibility of your team profile.
+A public team profile encourages other users to collaborate with you in a public workspace, enabling you to ask for contributions, gather feedback, and increase your API's discovery in search results.
 
-If you enable your team's public profile, your team will be visible on Postman's [API Network](/docs/collaborating-in-postman/adding-private-network/), along with any [APIs](/docs/collaborating-in-postman/adding-private-network/#adding-apis), [collections](/docs/publishing-your-api/publishing-your-docs/), and [workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) your team has published.
-
-A public team profile encourages other users to collaborate with you in a public workspace, enables you to ask for contributions and gather feedback, and increases your API's discovery in search results. A public team profile also shows up on the [Public API Network](https://www.postman.com/explore).
+If you enable your team's public profile, your team will be visible on [the Public API Network](/docs/collaborating-in-postman/public-api-network/public-api-network-overview/), along with your public workspaces, collections, APIs, and flows.
 
 To make your [team profile](https://go.postman.co/settings/team/general) public, do the following:
 
