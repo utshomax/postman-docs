@@ -36,6 +36,7 @@ Your [Team Settings](https://go.postman.co/settings/team/general) enable you to 
 * [Editing authentication methods](#editing-authentication-methods)
 * [Managing roles and permissions](#managing-roles-and-permissions)
 * [Reviewing invite links](#reviewing-invite-links)
+* [Downloading the Postman Enterprise app](#downloading-the-postman-enterprise-app)
 
 ## Accessing team settings
 
@@ -149,3 +150,11 @@ See [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/) for 
 Select **Invite links** to review the invites your team has sent to others.
 
 See [Managing invites](/docs/administration/managing-your-team/managing-your-team/#managing-invites) to learn more about managing invites and invite links.
+
+## Downloading the Postman Enterprise app
+
+> **[The Postman Enterprise app is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
+
+Select **Enterprise application** to download the Postman Enterprise app.
+
+See [Managing Enterprise deployment](/docs/administration/managing-enterprise-deployment/) to learn more about managing and deploying the Postman Enterprise app.
