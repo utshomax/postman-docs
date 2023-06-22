@@ -17,7 +17,7 @@ You can navigate to a public workspace from your browser using the public worksp
 
 Open the public workspace, then select the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> next to the workspace's name in the **Overview** tab.
 
-<img alt="Copy link to workspace" src="https://assets.postman.com/postman-docs/copy-workspace-link-v9.jpg" width="500px"/>
+<img alt="Copy link to workspace" src="https://assets.postman.com/postman-docs/v10/copy-workspace-link-v10.jpg" width="400px"/>
 
 > You can also open the public workspace, then copy the URL in your browser's address bar.
 

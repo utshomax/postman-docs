@@ -117,12 +117,11 @@ You can share a public workspace by giving collaborators its **workspace URL** d
 To access a workspace's URL, do the following:
 
 1. Go to the workspace **Overview** page.
-1. Hover over the workspace name to reveal the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px">.
-1. Select the link icon to copy the workspace's URL to your clipboard.
+1. Select the link icon next to the workspace name to copy the workspace's URL to your clipboard.
 
 You can share this workspace URL with other users.
 
-<img alt="Copy link to workspace" src="https://assets.postman.com/postman-docs/copy-workspace-link-v9.jpg" width="500px"/>
+<img alt="Copy link to workspace" src="https://assets.postman.com/postman-docs/v10/copy-workspace-link-v10.jpg" width="400px"/>
 
 > When you share a workspace with Postman users who aren't team members, its visibility must be public. If the workspace is restricted to a team or is a private or personal workspace, users who don't have access won't be able to open the workspace.
 
