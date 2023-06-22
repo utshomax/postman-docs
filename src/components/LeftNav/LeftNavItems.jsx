@@ -805,8 +805,8 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/',
           },
           {
-            name: 'Connecting an API to multiple repositories',
-            url: '/docs/designing-and-developing-your-api/versioning-an-api/connecting-multiple-repos/',
+            name: 'Connecting multiple APIs to a repository',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/connecting-multiple-apis/',
           },
           {
             name: 'Managing changes using Git',

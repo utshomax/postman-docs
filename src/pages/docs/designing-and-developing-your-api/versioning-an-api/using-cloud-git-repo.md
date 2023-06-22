@@ -54,7 +54,7 @@ Keep in mind the following when connecting to a cloud-hosted Git repository:
 
 * **For Azure DevOps connections, make sure to enable third-party application access for your organization.** If you don't enable third-party access, Postman won't be able to connect to your repository. In Azure DevOps, go to your [organization settings](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops), select **Policies**, and turn on the toggle next to **Third-party application access via OAuth**.
 
-* **You can connect one or more APIs to a remote repository.** You can keep your APIs separate in the repository using directories or branches. Learn more about [connecting more than one API to the same repository](/docs/designing-and-developing-your-api/versioning-an-api/connecting-multiple-repos/).
+* **You can connect one or more APIs to a remote repository.** You can keep your APIs separate in the repository using directories or branches. Learn more about [connecting more than one API to the same repository](/docs/designing-and-developing-your-api/versioning-an-api/connecting-multiple-apis/).
 
 ## Connecting to a cloud-hosted repository
 
