@@ -1,6 +1,6 @@
 ---
 title: "Creating charts, tables, and output"
-updated: 2023-03-17
+updated: 2023-06-22
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -23,11 +23,28 @@ contextual_links:
 
 The Output block takes in information from other blocks and creates a visual display of that information.
 
-For some examples of what you can do with these blocks, check out the [Stock Dashboard](https://www.postman.com/postman/workspace/utility-flows/flow/64123b57c224290033fcb089) and [WordPress Sentiment Analysis](https://www.postman.com/postman/workspace/utility-flows/flow/6413acdb8c4c54003a4ad611) Flows.
+For some examples of what you can do with these blocks, check out the [Stock Dashboard](https://www.postman.com/postman/workspace/utility-flows/flow/64123b57c224290033fcb089) and [WordPress Sentiment Analysis](https://www.postman.com/postman/workspace/utility-flows/flow/6413acdb8c4c54003a4ad611) flows.
 
-## Types of output
+The image above shows four output formats in the [Stock Dashboard](https://www.postman.com/postman/workspace/utility-flows/flow/64123b57c224290033fcb089): a line chart, some text, a gauge, and a boolean. This tutorial shows how to create each of these formats. You can also find links to example flows for each format in the [Types of output with example flows](#types-of-output-with-example-flows) section.
 
-The following can be selected from the drop-down menu in the upper-right corner of the block.
+* [Line chart]
+* [Text]
+* [Gauge]
+* [Boolean]
+
+## Line chart
+
+This line chart from the Stock Dashboard plots a simple moving average of a stock's closing price over time.
+
+## Text
+
+## Gauge
+
+## Boolean
+
+## Types of output with example flows
+
+You can select the output formats listed below from the Output block's dropdown menu. Select the **Example** links to open flows in Postman that demonstrate each output format.
 
 **Text** - Shows the information connected to the input as lines of text. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/6414e20b95e5e70033f028c9)
 
