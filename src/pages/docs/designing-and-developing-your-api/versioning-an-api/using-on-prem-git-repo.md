@@ -59,7 +59,7 @@ Keep in mind the following when connecting to an on-premises repository:
 
 * **You must use the [Postman desktop app](/docs/getting-started/installation-and-updates/) to connect to GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server.** You can't use the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) to connect to an on-premises GitHub repository.
 
-* **All communication is between the Postman desktop app on your computer and the on-premises repository.** Your computer must be able to access the repository. No Git requests go through Postman's cloud servers, as the Postman desktop app connects directly to your Git server, and you don't need to allow any Postman IP addresses for your repository. The repository will show the IP address of your computer as the source for all Git requests.
+* **All communication is between the Postman desktop app on your computer and the on-premises repository.** Your computer must be able to access the repository. No Git requests go through Postman's cloud servers. The Postman desktop app connects directly to your Git server, and you don't need to allow any Postman IP addresses for your repository. The repository will show the IP address of your computer as the source for all Git requests.
 
 * **You can connect one or more APIs to a remote repository.** You can keep your APIs separate in the repository using directories or branches. Learn more about [connecting more than one API to the same repository](/docs/designing-and-developing-your-api/versioning-an-api/connecting-multiple-repos/).
 
