@@ -6,7 +6,7 @@ import {PrimaryNavbarV6, SecondaryNavbarV6, NavStyles, DropdownStyles, DropdownS
 import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
 import { Paragraph } from 'aether-marketing';
 // prod nav data
-import navbarData from '../../../bff-data/navbar.json';
+// import navbarData from '../../../bff-data/navbar.json';
 import navtopicsdropdownData from '../../../bff-data/navtopicsdropdown.json';
 // fallback nav data
 import navbarDataLocal from '../../../build/navbarDev.json';
@@ -78,7 +78,7 @@ const Header = (props) => {
   const [beta, setBeta] = useState('');
   const [cookie, setCookie] = useState('');
   const [hidden, setHidden] = useState(true);
-  const [data, setData] = useState(navbarData);
+  const [data, setData] = useState(navbarDataLocal);
   const [dataDropdown, setDataDropdown] = useState(navtopicsdropdownData);
   const [visibleHelloBar] = useState();
 
@@ -91,8 +91,8 @@ const Header = (props) => {
     const navbarKeys = ['items', 'media', 'type'];
     const navtopicsdropdownKeys = ['items', 'type'];
     
-    if (navbarKeys.every(key => Object.keys(navbarData).includes(key))) {
-      setData(navbarData)
+    if (navbarKeys.every(key => Object.keys(navbarDataLocal).includes(key))) {
+      setData(navbarDataLocal)
     } else {
       setData(navbarDataLocal)
     }

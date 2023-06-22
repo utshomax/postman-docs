@@ -18,7 +18,7 @@ contextual_links:
 
 ---
 
-> **[Postman app versioning and the Postman Enterprise App (currently in beta) are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
+> **[Postman app versioning and the Postman Enterprise App are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 Postman Enterprise offers greater control to administrators looking to deploy and manage Postman at scale. Team Admins can choose to [manage Postman app versioning](#managing-postman-app-versioning) with Postman support, or [deploy the Postman Enterprise app](#deploying-the-postman-enterprise-app) to their organization.
 
@@ -47,6 +47,12 @@ Postman Enterprise offers greater control to administrators looking to deploy an
     * [Uninstalling PKG installers](#uninstalling-pkg-installers)
     * [PKG installer logging](#pkg-installer-logging)
 
+* [Installing the Postman Enterprise Linux app](#installing-the-postman-enterprise-linux-app)
+
+    * [Encrypting data](#encrypting-data)
+    * [Login policy](#login-policy)
+    * [Uninstalling the Postman Enterprise Linux app](#uninstalling-the-postman-enterprise-linux-app)
+
 ## Managing Postman app versioning
 
 Postman app versioning enables you to set a team-wide version of Postman. You can choose to set Postman v8, Postman v9, or Postman v10 as your team's version. App versioning is a back-end operation and must be requested by a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
@@ -65,7 +71,7 @@ You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-perm
 
 To download the Postman Enterprise app, open Postman and select **Team** in the upper right, then **Team Settings > Enterprise Application**.
 
-<img alt="Postman Enterprise app download" src="https://assets.postman.com/postman-docs/enterprise-app-download-9.6.jpg" />
+<img alt="Postman Enterprise app download" src="https://assets.postman.com/postman-docs/v10/enterprise-app-download-v10.jpg" />
 
 > Reach out to your Postman Admin or [contact Postman support](https://www.postman.com/support/) for help with the Postman Enterprise app.
 
@@ -247,4 +253,48 @@ It's recommended to use the `-dumplog` and `-verbose` flags supported by `instal
 
 ``` shell
 sudo installer -dumplog -verbose -pkg path/to/app.pkg -target LocalSystem
+```
+
+## Installing the Postman Enterprise Linux app
+
+The Postman Enterprise app supports the same [64-bit Linux systems](/docs/getting-started/installation-and-updates/#installing-postman-on-linux) as the Postman desktop app.
+
+Before installing, ensure a clean installation:
+
+``` shell
+sudo snap remove postman-enterprise
+```
+
+Install the Postman Enterprise app with Snap:
+
+``` shell
+sudo snap install /path/to/postman-enterprise.snap --dangerous
+```
+
+The `--dangerous` option is required because the Postman Enterprise app is not distributed through the Snap store. See the [Snap documentation](https://snapcraft.io/docs/install-modes#heading--dangerous) to learn more.
+
+## Encrypting data
+
+> This step is mandatory.
+
+To securely store local data, you must connect the Snap password manager service interface to the Postman Enterprise app.
+
+``` shell
+sudo snap connect postman-enterprise:password-manager-service
+```
+
+## Login policy
+
+You can specify which Postman teams can use the app with the `team-ids` option. For example, if you want teams with IDs `1234` and `4321` to have access:
+
+``` shell
+sudo snap set postman-enterprise team-ids="1234, 4321"
+```
+
+## Uninstalling the Postman Enterprise Linux app
+
+Use this command to uninstall the app:
+
+``` shell
+sudo snap remove postman-enterprise
 ```
