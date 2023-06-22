@@ -17,6 +17,7 @@ When you [define your APIs](/docs/designing-and-developing-your-api/the-api-work
 
 * [Sharing APIs](#sharing-apis)
 * [Collaborating on APIs](#collaborating-on-apis)
+* [Tagging APIs](#tagging-apis)
 * [Watching APIs](#watching-apis)
 * [Commenting on APIs](#commenting-on-apis)
 * [Using the changelog](#using-the-changelog)
@@ -50,6 +51,41 @@ You can move APIs to personal, private, team, and public workspaces that you hav
 Select the workspace, then select **Move API**. Any collections in the API will move with the API to the new workspace.
 
 <img alt="Move API" src="https://assets.postman.com/postman-docs/move-api-v9.1.jpg" width="400px"/>
+
+## Tagging APIs
+
+> **[Tagging APIs is available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
+
+You can add tags to APIs, enabling you to organize and search for APIs using shared tags. You can add up to five tags to an API.
+
+Once you add tags to the API, you can select a tag to open search results associated with the tag in a new tab.
+
+To learn more about searching using tag names in Postman, see [Search Postman](/docs/getting-started/navigating-postman/#search-postman). You can also search using tag names in the Private API Network when searching [elements in the network](/docs/collaborating-in-postman/adding-private-network/#searching-filtering-and-sorting), [elements to add to the network](/docs/collaborating-in-postman/adding-private-network/#adding-elements-in-your-private-api-network), and [elements to request to add to the network](/docs/collaborating-in-postman/adding-private-network/#requesting-to-add-elements-in-your-private-api-network).
+
+To add tags to an API, do the following:
+
+1. Select **APIs** in the sidebar.
+1. Select an API.
+1. Select the **Tags** section to edit it.
+
+    <img alt="Add tags to an API" src="https://assets.postman.com/postman-docs/v10/add-tags-api-v10-2.jpg"/>
+
+1. Select an existing tag or enter a new tag. If you're adding a new tag, enter the new tag name and then select **Create "*tag-name*"**.
+
+    <img alt="Add new tags to an API" src="https://assets.postman.com/postman-docs/v10/create-new-tags-api-v10-2.jpg"/>
+
+1. Select the area outside of the **Tags** section to save your changes.
+
+To remove tags from an API, do the following:
+
+1. Select **APIs** in the sidebar.
+1. Select an API.
+1. Select the **Tags** section to edit it.
+1. Select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to a tag.
+
+    <img alt="Remove tags from an API" src="https://assets.postman.com/postman-docs/v10/remove-tags-api-v10.jpg"/>
+
+1. Select the area outside of the **Tags** section to save your changes.
 
 ## Watching APIs
 
