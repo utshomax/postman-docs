@@ -36,9 +36,9 @@ contextual_links:
 
 The Postman API lets you programmatically access data stored in your Postman account. You can use the API to perform actions such as managing your collections, APIs, workspaces, and more.
 
-This page shows you how to make your first Postman API call. You can also learn more about the Postman API by reading the [Postman API documentation](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a). There you will find information to help you get started and information about each endpoint and operation.
-
 > The access rate limits for your Postman API key depend on your Postman plan. For more information, see [Postman API rate limits](/docs/developer/postman-api/postman-api-rate-limits/).
+
+This page shows you how to make your first Postman API call. You can also learn more about the Postman API by reading the [Postman API documentation](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a). There you will find information to help you get started and information about each endpoint and operation.
 
 ## Contents
 
@@ -69,9 +69,9 @@ Before you call the `/me` endpoint, fork the [Postman API collection](https://ww
 
 1. In the Postman API collection you can find the **Fork** option in the overview tab. Select <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> **Fork**. You can also select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection's name, then **Create a fork**.
 
-2. Postman displays the **Create Fork** form that lets you enter a label for your fork. You’ll also need to select the workspace in which to create the forked collection.
+2. Enter a label for your forked collection in the **Fork label** text box. You’ll also need to select the workspace in which to create the forked collection in the **Workspace** text box.
 
-    <img src="https://assets.postman.com/postman-docs/v10/postman-api-fork-collection.jpg" alt="Fork the Postman API collection" width="500px"/>
+    <img src="https://assets.postman.com/postman-docs/v10/postman-api-fork-collection.jpg" alt="Fork the Postman API collection" width="400px"/>
 
 3. Select **Fork Collection** to create the fork. Postman will redirect you to the workspace you selected to create the forked Postman API collection.
 
