@@ -31,7 +31,7 @@ contextual_links:
 
 > **[GitHub Enterprise Server, GitLab Self-Managed, and Azure DevOps Server (hosted on-premises) integrations are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
-You can connect your API to an on-premises Git repository to sync your API definition and collections between Postman and the repository. Postman supports connecting to GitHub, GitLab, or Azure DevOps repositories.
+You can connect your API to an on-premises Git repository to sync your API definition and collections between Postman and the repository. Postman supports connecting to GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server repositories.
 
 After connecting, you can push and pull changes between Postman and branches in the remote repository. When it's time to release, you can publish an API version to make your changes available to consumers.
 
@@ -61,7 +61,7 @@ Keep in mind the following when connecting to an on-premises repository:
 
 * **All communication is between the Postman desktop app on your computer and the on-premises repository.** Your computer must be able to access the repository. No Git requests go through Postman's cloud servers, as the Postman desktop app connects directly to your Git server, and you don't need to allow any Postman IP addresses for your repository. The repository will show the IP address of your computer as the source for all Git requests.
 
-* **You can connect one or more APIs to a remote repository.** You can keep your APIs separate in the repository using folders or branches. Learn more about [connecting more than one API to the same repository](/docs/designing-and-developing-your-api/versioning-an-api/connecting-multiple-repos/).
+* **You can connect one or more APIs to a remote repository.** You can keep your APIs separate in the repository using directories or branches. Learn more about [connecting more than one API to the same repository](/docs/designing-and-developing-your-api/versioning-an-api/connecting-multiple-repos/).
 
 ## Connecting to GitHub Enterprise Server or GitLab Self-Managed
 

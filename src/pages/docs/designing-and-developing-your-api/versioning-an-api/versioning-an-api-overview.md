@@ -57,9 +57,9 @@ Here's a typical workflow for API-first development with a connected repository:
 
 You can connect your API to a GitHub, Bitbucket, GitLab, or Azure DevOps repository. Once connected, you can sync your API definition and associated collections in Postman with the remote repository.
 
-* To connect your API to the cloud-hosted versions of GitHub, GitLab SaaS, or Azure DevOps, go to [Using a cloud-hosted Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/).
+* To connect your API to the cloud-hosted versions of GitHub, Bitbucket, GitLab SaaS, or Azure DevOps, go to [Using a cloud-hosted Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/).
 
-* To connect your API to the on-premises or self-managed versions of GitHub, Bitbucket, GitLab, or Azure DevOps, go to [Using an on-premises Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/). (You must be on a [Postman Enterprise Ultimate plan](https://www.postman.com/pricing) to connect to an on-premises or self-hosted repository.)
+* To connect your API to the on-premises versions of GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server, go to [Using an on-premises Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/). (You must be on a [Postman Enterprise Ultimate plan](https://www.postman.com/pricing) to connect to an on-premises or self-hosted repository.)
 
 * You can connect an API to more than one Git repository. Learn more about [Connecting an API to multiple repositories](http://localhost:8000/docs/designing-and-developing-your-api/versioning-an-api/connecting-multiple-repos/).
 
