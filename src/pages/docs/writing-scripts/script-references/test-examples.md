@@ -299,8 +299,7 @@ pm.test("Test data type of the response", () => {
 Check if an array is empty, and if it contains particular items:
 
 ```js
-/*
-response has this structure:
+/* Response has the following structure:
 {
   "errors": [],
   "areas": [ "goods", "services" ],
@@ -358,6 +357,12 @@ pm.expect({a: 1, b: 2}).to.be.an('object')
 Check a response value against a list of valid options:
 
 ```js
+/* Response has the following structure:
+{
+  "type": "Subscriber"
+}
+*/
+
 pm.test("Value is in valid list", () => {
   pm.expect(pm.response.json().type)
     .to.be.oneOf(["Subscriber", "Customer", "User"]);
@@ -369,8 +374,7 @@ pm.test("Value is in valid list", () => {
 Check that an object is part of a parent object:
 
 ```js
-/*
-response has the following structure:
+/* Response has the following structure:
 {
   "id": "d8893057-3e91-4cdd-a36f-a0af460b6373",
   "created": true,
@@ -401,9 +405,9 @@ pm.test("Check the active environment", () => {
 
 ## Troubleshooting common test errors
 
-When you encounter errors or unexpected behavior in your test scripts, the Postman [Console](/docs/sending-requests/troubleshooting-api-requests/) can help you to identify the source. By combining `console.log()`, `console.info()`, `console.warn()` and `console.error()` debug statements with your test assertions, you can examine the content of the HTTP requests and responses, as well as Postman data items such as variables. You can also use the `console.clear()` method to clear information from the console. Select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** from the Postman footer to open it.
+When you encounter errors or unexpected behavior in your test scripts, [the Postman Console](/docs/sending-requests/troubleshooting-api-requests/) can help you to identify the source. By combining `console.log()`, `console.info()`, `console.warn()` and `console.error()` debug statements with your test assertions, you can examine the content of the HTTP requests and responses, and Postman data items such as variables. You can also use the `console.clear()` method to clear information from the console. Select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** from the Postman footer to open it.
 
-[![Console info](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)
+![Console info](https://assets.postman.com/postman-docs/v10/console-logs-in-pane-v10.jpg)
 
 Log the value of a variable or response property:
 
@@ -442,7 +446,7 @@ This happens because the test is comparing a number to a string value. The test 
 
 ### JSON not defined error
 
-You may encounter the `ReferenceError: jsonData is not defined` issue. This typically happens when you are attempting to reference a JSON object that hasn't been declared or is outside the scope of your test code.
+You may encounter the `ReferenceError: <variable> is not defined` issue. This typically happens when you're attempting to reference a JSON object that hasn't been declared or is outside the scope of your test code.
 
 ```js
 pm.test("Test 1", () => {
@@ -455,13 +459,14 @@ pm.test("Test 2", () => {
 });
 ```
 
-Make sure that any code setting your response data to a variable is accessible to all test code, for example in this case moving `const jsonData = pm.response.json();` before the first `pm.test` would make it available to both test functions.
+Make sure variables are accessible to all test code. For example, moving `const jsonData = pm.response.json();` before the first `pm.test` would make it available to both test functions.
 
 ### Assertion undefined error
 
 You may encounter the `AssertionError: expected undefined to deeply equal..` issue. Typically this happens when you are referring to a property that doesn't exist or is out of scope.
 
 ```js
+const jsonData = pm.response.json();
 pm.expect(jsonData.name).to.eql("John");
 ```
 
@@ -469,20 +474,19 @@ In this example, if you get the error `AssertionError: expected undefined to dee
 
 ### Test not failing
 
-There may be occasions where you expect a test to fail and it doesn't.
+There may be occasions where you expect a test to fail and it doesn't. Make sure your test code is syntactically correct and send your request again.
 
 ```js
-//test function not properly defined - missing second parameter
+/* Test function not properly defined - missing second parameter
+*/
 pm.test("Not failing", function () {
     pm.expect(true).to.eql(false);
 });
 ```
 
-Make sure your test code is syntactically correct and send your request again.
-
 ## Validating response structure
 
-Carry out JSON schema validation with Tiny Validator V4 (tv4):
+You can validate your JSON schema with Tiny Validator V4 (tv4):
 
 ```js
 const schema = {
@@ -499,7 +503,7 @@ pm.test('Schema is valid', function() {
 });
 ```
 
-Validate JSON schema with the Ajv JSON schema validator:
+You can also validate your JSON schema with the Ajv JSON schema validator:
 
 ```js
 const schema = {
@@ -516,7 +520,7 @@ pm.test('Schema is valid', function() {
 
 ## Sending an asynchronous request
 
-Send a request from your test code and log the response.
+You can send a request from your test code and log the response.
 
 ```js
 pm.sendRequest("https://postman-echo.com/get", function (err, response) {
@@ -526,7 +530,7 @@ pm.sendRequest("https://postman-echo.com/get", function (err, response) {
 
 ## Previous style of writing Postman tests (deprecated)
 
-> **This section refers to deprecated script syntax used in previous versions of Postman. If you are writing new scripts, use the current syntax.**
+> **This section refers to deprecated script syntax used in earlier versions of Postman. If you are writing new scripts, use the current syntax.**
 
 The previous style of writing Postman tests relies on setting values for the `tests` object. Set a descriptive key for an element in the object and then assert if it's true or false. For example, the following will check if the response body contains the `user_id` string:
 
@@ -603,7 +607,7 @@ tests["Successful POST request"] = responseCode.code === 201 || responseCode.cod
 
 ## Next steps
 
-Now that you have seen test script examples for various scenarios, you may be interested in extending your own tests:
+Now that you've seen test script examples for various scenarios, you may be interested in extending your own tests:
 
 * To learn how to use dynamic variables in your test scripts, visit [Dynamic variables](/docs/writing-scripts/script-references/variables-list/).
 * To learn more about how to use the `pm` object, visit the [Postman JavaScript reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/).
