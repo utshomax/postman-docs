@@ -12,6 +12,9 @@ contextual_links:
   - type: link
     name: "Postman Token Scanner | Postman Level Up"
     url: "https://youtu.be/9XxkqPQF-Rw"
+  - type: link
+    name: "Securing APIs | Postman Enterprise"
+    url: "https://youtu.be/tiYgp4QEwZQ"
   - type: subtitle
     name: "Blog posts"
   - type: link
