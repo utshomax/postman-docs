@@ -29,25 +29,37 @@ The image above shows four types of output display in the [Stock Dashboard](http
 
 * [Line chart]
 * [Text]
-* [Gauge]
+* [Gauge](#gauge)
 * [Boolean](#boolean)
 
 ## Line chart
 
-This line chart from the Stock Dashboard plots a simple moving average of a stock's closing price over time.
-
 ## Text
+
+When an **Output** block receives a text string, it automatically selects the **Text** display type and shows the text. To create an example text **Output** block:
+
+1. Create a new flow and add a **Send request** block with a GET request to `postman-echo.com/get`.
+1. Connect a **Select** block to the **Send request** block and enter `body.headers.host`. This selects a string from the response.
+1. Connect an **Output** block to the **Select** block and run the flow. The **Output** block shows the `body.headers.host` string from the response, which in this example is `postman-echo.com`.
 
 ## Gauge
 
+The **Gauge** display type shows a value's position in a range using a semicircular graph. To create an example gauge **Output** block:
+
+1. Create a new flow and add a **Send request** block with a GET request to `techcrunch.com/wp-json/wp/v2/posts`.
+1. Connect an **Evaluate** block to the **Send request** block and enter this [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/): `$count(value1.body)` to count how many items the response body contains.
+1. Connect an **Output**  block to the **Evaluate** block and select **Gauge** from the dropdown list.
+1. Run the flow. The gauge shows the number of items in the response body as the shaded portion of the graph.
+
+  > You can set the minimum and maximum values for the gauge with the **Output** block's settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">.
+
 ## Boolean
 
-When an Output block receives a `True` or `False` message, it automatically selects the **Boolean** display type, showing **True** or **False**. To create an example boolean Output block:
+When an **Output** block receives a `True` or `False` message, it automatically selects the **Boolean** display type, showing **True** or **False**. To create an example boolean **Output** block:
 
 1. Create a new flow and add a **Send request** block with a GET request to `postman-echo.com/get`.
-1. Connect an **Evaluate** block to the **Send request** block.
-1. Enter this FQL: `value1.http.status = 200` to check if the response contains a `200` status code.
-1. Run the flow. If the response contains a `200` status code, the **Output** block shows a circle that says **True**. If not, the circle shows **False**.
+1. Connect an **Evaluate** block to the **Send request** block and enter this [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/): `value1.http.status = 200` to check if the response contains a `200` status code.
+1. Connect an **Output**  block to the **Evaluate** block and run the flow. If the response contains a `200` status code, the **Output** block shows a circle that says **True**. If not, the circle shows **False**.
 
 ## Types of output displays with example flows
 
