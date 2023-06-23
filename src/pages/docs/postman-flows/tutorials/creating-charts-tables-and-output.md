@@ -21,11 +21,11 @@ contextual_links:
 
 <img alt="Output block" src="https://assets.postman.com/postman-labs-docs/creating-charts-tables-and-output/stock-charts.gif"/>
 
-The Output block takes in information from other blocks and creates a visual display of that information.
+The Output block takes in information from other blocks and creates a visual display of that information. You can select from several display types.
 
 For some examples of what you can do with these blocks, check out the [Stock Dashboard](https://www.postman.com/postman/workspace/utility-flows/flow/64123b57c224290033fcb089) and [WordPress Sentiment Analysis](https://www.postman.com/postman/workspace/utility-flows/flow/6413acdb8c4c54003a4ad611) flows.
 
-The image above shows four output formats in the [Stock Dashboard](https://www.postman.com/postman/workspace/utility-flows/flow/64123b57c224290033fcb089): a line chart, some text, a gauge, and a boolean. This tutorial shows how to create each of these formats. You can also find links to example flows for each format in the [Types of output with example flows](#types-of-output-with-example-flows) section.
+The image above shows four types of output display in the [Stock Dashboard](https://www.postman.com/postman/workspace/utility-flows/flow/64123b57c224290033fcb089): a line chart, some text, a gauge, and a boolean. This tutorial shows how to create each of these display types. You can also find links to example flows for other display types in the [Types of output with example flows](#types-of-output-displays-with-example-flows) section.
 
 * [Line chart]
 * [Text]
@@ -42,7 +42,14 @@ This line chart from the Stock Dashboard plots a simple moving average of a stoc
 
 ## Boolean
 
-## Types of output with example flows
+When an Output block receives a `True` or `False` message, it automatically selects the **Boolean** display type, showing **True** or **False**. To create an example boolean Output block:
+
+1. Create a new flow and add a **Send request** block with a GET request to `postman-echo.com/get`.
+1. Connect an **Evaluate** block to the **Send request** block.
+1. Enter this FQL: `value1.http.status = 200` to check if the response contains a `200` status code.
+1. Run the flow. If the response contains a `200` status code, the **Output** block shows a circle that says **True**. If not, the circle shows **False**.
+
+## Types of output displays with example flows
 
 You can select the output formats listed below from the Output block's dropdown menu. Select the **Example** links to open flows in Postman that demonstrate each output format.
 
