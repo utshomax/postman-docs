@@ -18,6 +18,7 @@ _Postman Collections_ are a group of saved requests. Every request you send in P
 * [Creating your first collection](#creating-your-first-collection)
 * [Using collections](#using-collections)
 * [Running collections](#running-collections)
+* [About the Postman Collection Format](#about-the-postman-collections-format)
 
 ## Creating your first collection
 
@@ -32,3 +33,7 @@ After you've created collections, you can learn more about how to manage and use
 The _Collection Runner_ enables you to run a collection's requests in a specified sequence. You can run collections manually, on a schedule, from a monitor, from a webhook, or in your CI/CD pipeline by running it from the command line.
 
 To learn more about running collections, see [Using the Collection Runner](/docs/collections/running-collections/running-collections-overview/).
+
+## About the Postman Collection Format
+
+The Collection Format is the specification that drives collections in Postman. It's portable and provides a unique interface for organizing API requests and modeling API workflows. It's machine and human-readable and can be used to generate client and server-side SDKs, documentation, and mock servers. Learn more at the [Postman Collection Format documentation](https://learning.postman.com/collection-format/).
