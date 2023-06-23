@@ -1,5 +1,5 @@
 ---
-title: "Creating charts, tables, and output"
+title: "Creating output displays"
 updated: 2023-06-22
 contextual_links:
   - type: section
@@ -30,7 +30,7 @@ The image above shows four types of output display in the [Stock Dashboard](http
 * [Line chart]
 * [Text]
 * [Gauge]
-* [Boolean]
+* [Boolean](#boolean)
 
 ## Line chart
 

@@ -2186,6 +2186,10 @@
   {
     "from": "/docs/reports/all-workspaces-reports/",
     "to": "/docs/reports/reports-overview/"
+  },
+  {
+    "from": "/docs/postman-flows/tutorials/creating-charts-tables-and-output/",
+    "to": "/docs/postman-flows/tutorials/creating-output-displays/"
   }
 
 ]
