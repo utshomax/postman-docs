@@ -20,6 +20,9 @@ contextual_links:
   - type: link
     name: "Introducing Governance for Publishing Collection Documentation"
     url: "https://blog.postman.com/introducing-governance-publishing-collection-documentation/"
+  - type: link
+    name: "How to publish and market your API to maximize adoption"
+    url: "https://blog.postman.com/how-to-publish-and-market-your-api-to-maximize-adoption/"
   - type: subtitle
     name: "Case Studies"
   - type: link

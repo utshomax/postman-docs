@@ -12,6 +12,9 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
+    name: "How to publish and market your API to maximize adoption"
+    url: "https://blog.postman.com/how-to-publish-and-market-your-api-to-maximize-adoption/"
+  - type: link
     name: "These top database APIs make working with data easy"
     url: "https://blog.postman.com/database-apis/"
 ---
