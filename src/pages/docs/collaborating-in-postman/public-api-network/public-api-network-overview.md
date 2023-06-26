@@ -9,6 +9,11 @@ contextual_links:
   - type: link
     name: "Discovering APIs | Postman Enterprise"
     url: "https://youtu.be/e1v647ayIBg"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "These top database APIs make working with data easy"
+    url: "https://blog.postman.com/database-apis/"
 ---
 
 Make your API available on [the Public API Network](/docs/getting-started/exploring-public-api-network/) to share your APIs with 20M+ users in the world’s largest public API network. Your API is searchable in the Postman app when it's available on the Public API Network. If API consumers actively watch and fork your API, it'll be featured on Postman's [Explore](https://www.postman.com/explore) page.
