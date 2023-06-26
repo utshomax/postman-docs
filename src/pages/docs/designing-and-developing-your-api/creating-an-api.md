@@ -59,11 +59,11 @@ To start using the API Builder, you can create a new API in your workspace. You 
 
 ## Upgrading an API
 
-> **It's time to upgrade your APIs to Postman v10.** The Postman v9 API format has been deprecated. To get all the benefits of the new v10 API format, Postman recommends upgrading your APIs. In the future, all APIs will be automatically migrated to the new v10 format.
+> **Postman recommends upgrading your APIs to the latest format.** The Postman v9 API format has been deprecated. To continue working with your APIs, upgrade your APIs to the v10 format. In the future, all APIs will be automatically upgraded to v10.
 >
 > The Postman API v9 endpoints have also been deprecated. Any workflows that use the v9 endpoints will no longer work with an API that's been upgraded to the v10 format. Instead, use the [new Postman API v10 endpoints](/docs/developer/postman-api/intro-api/#about-v9-and-v10-apis) for your workflows.
 
-Postman v10 can display APIs created in prior versions of Postman. To work with the API in Postman v10, you'll need to upgrade the API to the new v10 format. You'll be prompted to upgrade the API when you make changes to it. For example, when adding a collection, adding a definition file, or working with a connected Git repository. Select **Upgrade this API** to complete the upgrade.
+Postman v10 can display APIs created in prior versions of Postman. To work with the API in Postman v10, you need to upgrade the API to the new v10 format. You'll be prompted to upgrade the API when you make changes to it, for example, adding a collection, adding a definition, or connecting to a Git repository. Select **Upgrade this API** to complete the upgrade.
 
 <img alt="Upgrading an API to v10" src="https://assets.postman.com/postman-docs/v10/api-builder-upgrade-v10.jpg" width ="618px"/>
 
