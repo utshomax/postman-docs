@@ -35,7 +35,7 @@ To start using the API Builder, you can create a new API in your workspace. You 
 ## Contents
 
 * [Creating an API](#creating-an-api)
-* [Updating an API](#updating-an-api)
+* [Upgrading an API](#upgrading-an-api)
 * [Renaming an API](#renaming-an-api)
 * [Deleting an API](#deleting-an-api)
 
@@ -57,9 +57,15 @@ To start using the API Builder, you can create a new API in your workspace. You 
 
 > Postman supports OpenAPI (versions 1.0, 2.0, 3.0, and 3.1), RAML (0.8 and 1.0), protobuf (protocol buffer) (2.0 and 3.0), GraphQL, or WSDL (1.0 and 2.0) definitions. OpenAPI definitions can be JSON or YAML. RAML definitions must be YAML. Protobuf definitions are `.proto` files. GraphQL definitions can be JSON or GraphQL SDL. WSDL definitions must be XML.
 
-## Updating an API
+## Upgrading an API
 
-Postman v10 can display APIs created in prior versions of Postman. To work with the API in Postman v10, you'll be asked to upgrade the API when you make changes to it. For example, adding a collection, adding a definition file, and working with a connected Git repository.
+> **It's time to upgrade your APIs to Postman v10.** The Postman v9 API format has been deprecated. To get all the benefits of the new v10 API format, Postman recommends upgrading your APIs. In the future, all APIs will be automatically migrated to the new v10 format.
+>
+> The Postman API v9 endpoints have also been deprecated. Any workflows that use the v9 endpoints will no longer work with an API that's been upgraded to the v10 format. Instead, use the [new Postman API v10 endpoints](/docs/developer/postman-api/intro-api/#about-v9-and-v10-apis) for your workflows.
+
+Postman v10 can display APIs created in prior versions of Postman. To work with the API in Postman v10, you'll need to upgrade the API to the new v10 format. You'll be prompted to upgrade the API when you make changes to it. For example, when adding a collection, adding a definition file, or working with a connected Git repository. Select **Upgrade this API** to complete the upgrade.
+
+<img alt="Upgrading an API to v10" src="https://assets.postman.com/postman-docs/v10/api-builder-upgrade-v10.jpg" width ="618px"/>
 
 There are some differences in the way API versions work in Postman v10 compared to v9:
 
