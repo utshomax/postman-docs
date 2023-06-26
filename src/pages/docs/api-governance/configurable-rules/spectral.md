@@ -11,7 +11,7 @@ contextual_links:
     url: "https://youtu.be/TDOuZcKQId4"
 ---
 
-Spectral is a linting engine that helps you define custom rules and enforce them on JSON and YAML files. Postman supports Spectral v6 rules for the configurable [API governance](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules) and [API security](/docs/api-governance/configurable-rules/configuring-api-security-rules/#adding-custom-rules) rules for your team. Postman also supports CommonJS syntax for custom functions configurable in custom governance rules.
+Spectral is a linting engine that helps you define custom rules and enforce them on JSON and YAML files. Postman supports Spectral v6 rules for the configurable [API governance](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules) and [API security](/docs/api-governance/configurable-rules/configuring-api-security-rules/#adding-custom-rules) rules for your team. Postman also supports ES6 syntax and CommonJS syntax for custom functions configurable in custom governance rules.
 
 ## Contents
 
@@ -26,7 +26,7 @@ Spectral is a linting engine that helps you define custom rules and enforce them
 * [Spectral custom functions](#spectral-custom-functions)
     * [Spectral function parameters](#spectral-function-parameters)
     * [Spectral function return statement properties](#spectral-function-return-statement-properties)
-    * [Spectral function object properties](#spectral-function-object-properties)
+    * [Spectral function export syntax](#spectral-function-export-syntax)
     * [Example: Checking that a value isn't in a list](#example-checking-that-a-value-isnt-in-a-list)
     * [Example: Rule that uses a custom function](#example-rule-that-uses-a-custom-function)
 
@@ -176,9 +176,9 @@ rules:
 
 ## Spectral custom functions
 
-You can [add custom governance functions](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/) to use in your custom governance rules. You can use these guidelines to write custom functions in JavaScript and add them to your custom governance rules. Postman supports CommonJS syntax for custom functions.
+You can [add custom governance functions](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/) to use in your custom governance rules. You can use these guidelines to write custom functions in JavaScript and add them to your custom governance rules. Postman supports ES6 syntax and CommonJS syntax for custom functions.
 
-To write a custom function, your function must have the [`input` parameter](#spectral-function-parameters), the [`message` property](#spectral-function-return-statement-properties) in your return statement, and the [`module.exports` object property](#spectral-function-object-properties) exporting your function. To use a custom function in a rule, your rule must have the `then.function` property importing your function.
+To write a custom function, your function must have the [`input` parameter](#spectral-function-parameters), the [`message` property](#spectral-function-return-statement-properties) in your return statement, and either the [`export default` declaration (ES6) or `module.exports` object property (CommonJS)](#spectral-function-export-syntax) exporting your function. To use a custom function in a rule, your rule must have the `then.function` property importing your function.
 
 ### Spectral function parameters
 
@@ -217,18 +217,21 @@ return [
 ];
 ```
 
-### Spectral function object properties
+### Spectral function export syntax
 
-Add the following object property to your function's file.
+Add one of the following to export your custom function so you can import the function into your rule. You can use either ES6 syntax or CommonJS syntax to export your function. Choose the format that matches the rest of your function's syntax.
 
-|<div style="width:150px">Object property</div> | Description
---- | ---
-`module.exports` | **Required**. The object property that exports the function, allowing the rule to import it using `then.function`. The value of `module.exports` and the function's name must be the same.
+|<div style="width:100px">Format</div> | <div style="width:150px">Syntax</div> | Description
+--- | --- | --- |
+ES6 | `export default` | **Required** if your custom function is written using ES6 syntax. The declaration that exports the function, allowing the rule to import it using `then.function`. The expression added to `export default` and the function's name must be the same.
+CommonJS | `module.exports` | **Required** if your custom function is written using CommonJS syntax. The object property that exports the function, allowing the rule to import it using `then.function`. The value of `module.exports` and the function's name must be the same.
 
 ```js
 function myCustomFunction(input, options, context) { ... }
 
-module.exports = myCustomFunction;
+export default myCustomFunction; // ES6 syntax
+
+module.exports = myCustomFunction; // CommonJS syntax
 ```
 
 ### Example: Checking that a value isn't in a list
@@ -237,7 +240,7 @@ The following function named `notInEnumeration` is in a file named `not_in_enume
 
 The function checks the value of the option `values`, which is defined in the [Spectral document](#example-rule-that-uses-a-custom-function) (or ruleset) using `then.functionOptions`. The value of `values` is a list of numeric strings. If the `input` path returns a value already in the list, the rule violation is triggered.
 
-After the function, `module.exports` references the function's name. This exports the function so the rule can import it using `then.function`.
+After the function, `export default` or `module.exports` references the function's name. This exports the function so the rule can import it using `then.function`.
 
 ```js
 // filename: not_in_enumeration
@@ -252,7 +255,9 @@ function notInEnumeration(input, options, context) {
   }
 }
 
-module.exports = notInEnumeration;
+export default notInEnumeration; // ES6 syntax
+
+module.exports = notInEnumeration; // CommonJS syntax
 ```
 
 ### Example: Rule that uses a custom function
