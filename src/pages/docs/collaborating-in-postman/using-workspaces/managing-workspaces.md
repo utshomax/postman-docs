@@ -12,6 +12,9 @@ contextual_links:
   - type: link
     name: "Postman Level Up | Moving Elements in Postman"
     url: "https://youtu.be/OOkKkH5bXHg"
+  - type: link
+    name: "Consuming REST APIs | Postman Enterprise"
+    url: "https://youtu.be/oI-GyWB_6jA"
   - type: subtitle
     name: "Case Studies"
   - type: link
