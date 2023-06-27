@@ -59,7 +59,9 @@ You can configure the Collection Runner to meet your development needs. You can 
     * **Data** - A [data file](/docs/collections/running-collections/working-with-data-files/) for the collection run.
     * **Persist responses for a session** - Log the response headers and bodies so you can review them after running the collection. For large collections, persisting responses may affect performance.
 
-    > Request and response details are persisted locally during your current Postman session and aren't saved permanently. Signing out of Postman, signing into another device with the same account, or refreshing your browser will end your session and remove the logged data.
+        > Request and response details are persisted locally during your current Postman session and aren't saved permanently. Signing out of Postman, signing into another device with the same account, or refreshing your browser will end your session and remove the logged data.
+        >
+        > Response and request details are available for the person who started the collection run. Other team members can't view details for collection runs that you start.
 
     * **Advanced settings**
       * **Stop run if an error occurs** - By default, the collection run stops if an exception is encountered within a script or if there's a problem sending a request. Clear this checkbox if you want the collection run to continue after an error occurs.
