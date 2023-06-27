@@ -34,6 +34,8 @@ The image above shows four types of output display in the [Stock Dashboard](http
 
 ## Line chart
 
+The line chart display type accepts two lists and plots them on x and y axes in a chart. To create an example line chart **Output** block:
+
 ## Text
 
 When an **Output** block receives a text string, it automatically selects the **Text** display type and shows the text. To create an example text **Output** block:
