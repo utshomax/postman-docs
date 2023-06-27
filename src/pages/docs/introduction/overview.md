@@ -13,7 +13,7 @@ contextual_links:
     name: "Intro to Postman playlist"
     url: "https://youtube.com/playlist?list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ"
   - type: link
-    name: "Introduction for Developers | Postman Intergalactico"
+    name: "Introduction for Developers | Postman Intergalactic"
     url: "https://youtu.be/qUlcosvyIyo"
   - type: link
     name: "Postman Community Forum | Postman Level Up"
