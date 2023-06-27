@@ -44,12 +44,14 @@ To view and work with APIs, select **APIs** in the sidebar. You can open and edi
 
 <img src="https://assets.postman.com/postman-docs/v10/api-builder-sidebar-v10-0-5.jpg" alt="API Builder sidebar" width="382px" />
 
-When you select an API in the sidebar, the workbench displays an overview of the API. The overview displays a description of the API, linked collections, and published versions. The overview also provides quick access to tasks such as connecting to a repository, adding tests, monitoring the API, and viewing deployments.
+When you select an API in the sidebar, the workbench displays an overview of the API. The overview displays a description of the API, tags associated with the API ([Enterprise plans only](https://www.postman.com/pricing)), linked collections, and published versions. The overview also provides quick access to tasks such as connecting to a repository, adding tests, monitoring the API, and viewing deployments.
 
-<img src="https://assets.postman.com/postman-docs/v10/api-builder-overview-v10a.jpg" alt="API Builder overview" />
+<img src="https://assets.postman.com/postman-docs/v10/api-builder-overview-v10-2.jpg" alt="API Builder overview" />
 
 The right sidebar offers more options for working with your API. You can view comments, generate server code from your API definition, and view the API's changelog.
 
 <img src="https://assets.postman.com/postman-docs/v10/api-builder-changelog-v10.jpg" alt="API Builder changelog" width="443px" />
 
-For API's connected to the Git repository, the changelog is replaced by the **Source Control** pane, which you can use to sync your changes with a remote Git repository.
+For APIs connected to the Git repository, the changelog is replaced by the **Source Control** pane, which you can use to sync your changes with a remote Git repository.
+
+> **The maximum number of API objects you can create in the API Builder is determined by your Postman plan. [Learn more about what's included with each plan](https://www.postman.com/pricing/).**

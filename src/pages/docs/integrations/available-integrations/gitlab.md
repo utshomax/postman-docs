@@ -14,7 +14,7 @@ contextual_links:
     url: "https://youtu.be/BL8DFOPncMc"
 ---
 
-> **[GitLab Self-Managed integrations are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
+> **[GitLab Self-Managed integrations are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 >
 Back up your Postman Collections to GitLab, an open-source Git repository manager, with the Postman to GitLab integration.
 

@@ -1,6 +1,6 @@
 ---
 title: "API Governance reports"
-updated: 2022-09-15
+updated: 2023-06-15
 contextual_links:
   - type: section
     name: "Additional resources"

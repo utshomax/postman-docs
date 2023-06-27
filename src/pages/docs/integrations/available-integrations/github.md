@@ -17,7 +17,7 @@ contextual_links:
 
 ---
 
-> **[GitHub Enterprise Server integrations are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
+> **[GitHub Enterprise Server integrations are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
 Back up your Postman collections to GitHub, a cloud-based hosting service for Git repositories, with the Postman to GitHub integration. You can also back up collections to a custom domain on GitHub Enterprise Server.
 
