@@ -8,6 +8,9 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Debugging Collection Runs | Postman Level Up"
+    url: "https://youtu.be/EnrpXlNe2dc"
+  - type: link
     name: "Log Response Data in Collection Runs | Postman Level Up"
     url: "https://youtu.be/UreV_7fHKiU"
   - type: link

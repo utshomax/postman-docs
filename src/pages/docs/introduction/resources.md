@@ -9,6 +9,9 @@ contextual_links:
   - type: link
     name: "Hands-on Learning with Postman Quickstarts | Postman Level Up"
     url:  "https://youtu.be/Z66shtMybBk"
+  - type: link
+    name: "Postman Student Programs - Developer Resources for Students by Students!"
+    url:  "https://www.youtube.com/live/_QsMVO8dc1s?feature=share"
   - type: subtitle
     name: "Blog posts"
   - type: link

@@ -9,6 +9,11 @@ contextual_links:
   - type: link
     name: "Intro to Postman | Part 1: Send a Request"
     url: "https://youtu.be/2oOSnxZ28fA"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Announcing the new lightweight Postman API Client and sunsetting Scratch Pad"
+    url: "https://blog.postman.com/announcing-new-lightweight-postman-api-client/"
 ---
 
 
