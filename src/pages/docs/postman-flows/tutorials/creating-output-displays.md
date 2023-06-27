@@ -21,20 +21,34 @@ contextual_links:
 
 <img alt="Output block" src="https://assets.postman.com/postman-labs-docs/creating-charts-tables-and-output/stock-charts.gif"/>
 
-The Output block takes in information from other blocks and creates a visual display of that information. You can select from several display types.
+The **Output** block accepts information from other blocks and creates a visual display of that information. You can select from several display types.
 
 For some examples of what you can do with these blocks, check out the [Stock Dashboard](https://www.postman.com/postman/workspace/utility-flows/flow/64123b57c224290033fcb089) and [WordPress Sentiment Analysis](https://www.postman.com/postman/workspace/utility-flows/flow/6413acdb8c4c54003a4ad611) flows.
 
-The image above shows four types of output display in the [Stock Dashboard](https://www.postman.com/postman/workspace/utility-flows/flow/64123b57c224290033fcb089): a line chart, some text, a gauge, and a boolean. This tutorial shows how to create each of these display types. You can also find links to example flows for other display types in the [Types of output with example flows](#types-of-output-displays-with-example-flows) section.
+The image above shows four types of output display types in the [Stock Dashboard](https://www.postman.com/postman/workspace/utility-flows/flow/64123b57c224290033fcb089): a line chart, some text, a gauge, and a boolean. The tutorials below show how to create each of these display types. You can also find links to example flows for other display types in the [Types of output displays with example flows](#types-of-output-displays-with-example-flows) section.
 
-* [Line chart]
-* [Text]
+* [Line chart](#line-chart)
+* [Text](#text)
 * [Gauge](#gauge)
 * [Boolean](#boolean)
 
 ## Line chart
 
-The line chart display type accepts two lists and plots them on x and y axes in a chart. To create an example line chart **Output** block:
+The line chart display type accepts two lists and plots them on x and y axes in a chart. The first list received is the x axis, and the second list is the y axis. To create an example line chart **Output** block:
+
+1. Create a new flow and enter the following data in the **Start** block:
+
+    ```bash
+    {
+    "X axis": [10, 20, 30, 40, 50, 60, 70],
+    "Y axis": [100, 200, 300, 400]
+    }
+    ```
+
+1. Connect a **Select** block to the **Start** block and select `X axis`.
+1. Connect another **Select** block to the **Start** block and select `Y axis`.
+1. Connect both **Select** blocks to a single **Output** block.
+1. In the **Output** block's dropdown list, select **Line chart** and run the flow. A line chart appears with the data on their respective axes.
 
 ## Text
 
