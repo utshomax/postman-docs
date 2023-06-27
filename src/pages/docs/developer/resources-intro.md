@@ -8,7 +8,7 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Introduction for Developers | Postman Intergalactico"
+    name: "Introduction for Developers | Postman Intergalactic"
     url: "https://youtu.be/qUlcosvyIyo"
   - type: subtitle
     name: "Public workspaces"
