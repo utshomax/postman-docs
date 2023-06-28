@@ -60,7 +60,9 @@ When an **Output** block receives a text string, it automatically selects the **
 
 ## Gauge
 
-The **Gauge** display type shows a value's position in a range using a semicircular graph. To create an example gauge **Output** block:
+The **Gauge** display type shows a value's position in a range using a semicircular graph.
+
+To create an example gauge **Output** block, do the following:
 
 1. Create a new flow and add a **Send request** block with a GET request to `techcrunch.com/wp-json/wp/v2/posts`.
 1. Connect an **Evaluate** block to the **Send request** block and enter this [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/): `$count(value1.body)` to count how many items the response body contains.
