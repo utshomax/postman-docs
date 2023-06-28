@@ -116,4 +116,4 @@ You can select the output formats listed below from the Output block's dropdown 
 
 **Video** - Shows a video from a URL that's connected to the input and enables it to be played. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124f65c224290033fcb09b)
 
-**YouTube** - Shows a YouTube video from a URL that is connected to the input and enables it to be played. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/6414ef7bc224290033fcb310)
+**YouTube** - Shows a YouTube video from a URL that's connected to the input and enables it to be played. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/6414ef7bc224290033fcb310)
