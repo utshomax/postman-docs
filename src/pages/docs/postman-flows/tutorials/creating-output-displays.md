@@ -72,7 +72,7 @@ The **Gauge** display type shows a value's position in a range using a semicircu
 To create an example gauge **Output** block, do the following:
 
 1. Create a new flow and add a **Send request** block with a GET request to `techcrunch.com/wp-json/wp/v2/posts`.
-1. Connect an **Evaluate** block to the **Send request** block and enter this [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/): `$count(value1.body)` to count how many items the response body contains.
+1. Connect an **Evaluate** block to the **Send request** block and enter this [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) query: `$count(value1.body)` to count how many items the response body contains.
 1. Connect an **Output**  block to the **Evaluate** block and select **Gauge** from the dropdown list.
 1. Run the flow. The gauge shows the number of items in the response body as the shaded portion of the graph.
 
