@@ -1,6 +1,6 @@
 ---
-title: "Creating output displays"
-updated: 2023-06-22
+title: "Visualizing data"
+updated: 2023-06-28
 contextual_links:
   - type: section
     name: "Additional resources"
