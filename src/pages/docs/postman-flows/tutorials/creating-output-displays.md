@@ -19,40 +19,47 @@ contextual_links:
     url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
 ---
 
-<img alt="Output block" src="https://assets.postman.com/postman-labs-docs/creating-charts-tables-and-output/stock-charts.gif"/>
-
 The **Output** block accepts information from other blocks and creates a visual display of that information. You can select from several display types.
 
-For some examples of what you can do with these blocks, check out the [Stock Dashboard](https://www.postman.com/postman/workspace/utility-flows/flow/64123b57c224290033fcb089) and [WordPress Sentiment Analysis](https://www.postman.com/postman/workspace/utility-flows/flow/6413acdb8c4c54003a4ad611) flows.
+<img alt="Output block" src="https://assets.postman.com/postman-labs-docs/creating-charts-tables-and-output/stock-charts.gif"/>
 
-The image above shows four types of output display types in the [Stock Dashboard](https://www.postman.com/postman/workspace/utility-flows/flow/64123b57c224290033fcb089): a line chart, some text, a gauge, and a boolean. The tutorials below show how to create each of these display types. You can also find links to example flows for other display types in the [Types of output displays with example flows](#types-of-output-displays-with-example-flows) section.
+The image above shows four types of output display types: line chart, text, gauge, and boolean. The following tutorials show how to create each of these display types. You can also find links to example flows for other display types in the [Types of output displays with example flows](#types-of-output-displays-with-example-flows) section.
+
+For examples of how to use **Output** blocks in your flows, see the [Stock Dashboard](https://www.postman.com/postman/workspace/utility-flows/flow/64123b57c224290033fcb089) and [WordPress Sentiment Analysis](https://www.postman.com/postman/workspace/utility-flows/flow/6413acdb8c4c54003a4ad611) flows.
+
+## Contents
 
 * [Line chart](#line-chart)
 * [Text](#text)
 * [Gauge](#gauge)
 * [Boolean](#boolean)
+* [Types of output displays with example flows](#types-of-output-displays-with-example-flows)
 
 ## Line chart
 
-The line chart display type accepts two lists and plots them on x and y axes in a chart. The first list received is the x axis, and the second list is the y axis. To create an example line chart **Output** block:
+The **Line Chart** display type accepts two lists and plots them on x and y axes in a chart. The first list received is the x axis, and the second list is the y axis.
+
+To create an example line chart **Output** block, do the following:
 
 1. Create a new flow and enter the following data in the **Start** block:
 
-    ```bash
+    ```json
     {
-    "X axis": [10, 20, 30, 40, 50, 60, 70],
-    "Y axis": [100, 200, 300, 400]
+    "List 1": [10, 20, 30, 40, 50, 60, 70],
+    "List 2": [100, 200, 300, 400]
     }
     ```
 
-1. Connect a **Select** block to the **Start** block and select `X axis`.
-1. Connect another **Select** block to the **Start** block and select `Y axis`.
+1. Connect a **Select** block to the **Start** block and select **List 1**.
+1. Connect another **Select** block to the **Start** block and select **List 2**.
 1. Connect both **Select** blocks to a single **Output** block.
 1. In the **Output** block's dropdown list, select **Line chart** and run the flow. A line chart appears with the data on their respective axes.
 
 ## Text
 
-When an **Output** block receives a text string, it automatically selects the **Text** display type and shows the text. To create an example text **Output** block:
+When an **Output** block receives a string, it automatically selects the **Text** display type and shows the text.
+
+To create an example text **Output** block, do the following:
 
 1. Create a new flow and add a **Send request** block with a GET request to `postman-echo.com/get`.
 1. Connect a **Select** block to the **Send request** block and enter `body.headers.host`. This selects a string from the response.
@@ -60,7 +67,9 @@ When an **Output** block receives a text string, it automatically selects the **
 
 ## Gauge
 
-The **Gauge** display type shows a value's position in a range using a semicircular graph. To create an example gauge **Output** block:
+The **Gauge** display type shows a value's position in a range using a semicircular graph.
+
+To create an example gauge **Output** block, do the following:
 
 1. Create a new flow and add a **Send request** block with a GET request to `techcrunch.com/wp-json/wp/v2/posts`.
 1. Connect an **Evaluate** block to the **Send request** block and enter this [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/): `$count(value1.body)` to count how many items the response body contains.

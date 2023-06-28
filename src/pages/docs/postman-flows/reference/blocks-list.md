@@ -270,4 +270,4 @@ Sends the information input to the block to the Postman console.
 
 <img alt="Output block" src="https://assets.postman.com/postman-docs/v10/output-block-v10.jpg" width="249px"/>
 
-Displays the information input. The dropdown menu allows you to select from JSON, charts, tables, videos, images, and more. For more information and examples on the output block, see [Creating charts, tables, and output](/docs/postman-flows/tutorials/creating-charts-tables-and-output/).
+Displays the information input. The dropdown menu allows you to select from JSON, charts, tables, videos, images, and more. For more information and examples on the output block, see [Creating output displays](/docs/postman-flows/tutorials/creating-ouput-displays/).
