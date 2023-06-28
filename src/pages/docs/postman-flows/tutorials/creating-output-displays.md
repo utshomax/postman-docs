@@ -112,7 +112,7 @@ You can select the output formats listed below from the Output block's dropdown 
 
 **URL** - Shows a hyperlink to the URL that's connected to the input. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124dc8c224290033fcb098)
 
-**Image** - Shows an image from a URL that is connected to the input. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124e997221e9003a7a510c)
+**Image** - Shows an image from a URL that's connected to the input. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124e997221e9003a7a510c)
 
 **Video** - Shows a video from a URL that is connected to the input and enables it to be played. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124f65c224290033fcb09b)
 
