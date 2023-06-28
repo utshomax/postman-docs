@@ -76,11 +76,13 @@ To create an example gauge **Output** block, do the following:
 1. Connect an **Output**  block to the **Evaluate** block and select **Gauge** from the dropdown list.
 1. Run the flow. The gauge shows the number of items in the response body as the shaded portion of the graph.
 
-  > You can set the minimum and maximum values for the gauge with the **Output** block's settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">.
+  > You can select the **Output** block's settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to set the minimum and maximum values for the gauge.
 
 ## Boolean
 
-When an **Output** block receives a `True` or `False` message, it automatically selects the **Boolean** display type, showing **True** or **False**. To create an example boolean **Output** block:
+When an **Output** block receives a `True` or `False` message, it automatically selects the **Boolean** display type, showing **True** or **False**.
+
+To create an example boolean **Output** block, do the following:
 
 1. Create a new flow and add a **Send request** block with a GET request to `postman-echo.com/get`.
 1. Connect an **Evaluate** block to the **Send request** block and enter this [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/): `value1.http.status = 200` to check if the response contains a `200` status code.
@@ -96,22 +98,22 @@ You can select the output formats listed below from the Output block's dropdown 
 
 **Boolean** - Shows a true or false value. If the value connected to the input isn't true/false or 0/1, it will always display true. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/6414ebb88c4c54003a4ad797)
 
-**JSON** - Shows the information connected to the input in JSON format, so you can see and click on hierarchical information. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/6414ec507221e9003a7a5384)
+**JSON** - Shows the information connected to the input in JSON format, enabling you to view and select data. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/6414ec507221e9003a7a5384)
 
 **Bar Chart** - Shows one or more sets of information connected to the input. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/6411f07120794b0039e76839)
 
 **Line Chart** - Shows a line for X and Y coordinates connected to the input. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/641242fd8c4c54003a4ad507)
 
-**Gauge** - Shows a number; generally for when the input is a percent or out of one hundred. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124134c224290033fcb08b)
+**Gauge** - Shows a number when the input is a percent or out of 100. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124134c224290033fcb08b)
 
 **Table** - Shows the connected input as a table with rows and columns. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124607c224290033fcb092)
 
-**Markdown** - Shows the text with all of the markdown annotations displayed. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/641249577221e9003a7a5107)
+**Markdown** - Shows the text with all of the Markdown annotations displayed. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/641249577221e9003a7a5107)
 
-**URL** - Shows a hyperlink to the URL that is connected to the input. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124dc8c224290033fcb098)
+**URL** - Shows a hyperlink to the URL that's connected to the input. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124dc8c224290033fcb098)
 
-**Image** - Shows an image from a URL that is connected to the input. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124e997221e9003a7a510c)
+**Image** - Shows an image from a URL that's connected to the input. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124e997221e9003a7a510c)
 
-**Video** - Shows a video from a URL that is connected to the input and enables it to be played. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124f65c224290033fcb09b)
+**Video** - Shows a video from a URL that's connected to the input and enables it to be played. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124f65c224290033fcb09b)
 
-**YouTube** - Shows a YouTube video from a URL that is connected to the input and enables it to be played. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/6414ef7bc224290033fcb310)
+**YouTube** - Shows a YouTube video from a URL that's connected to the input and enables it to be played. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/6414ef7bc224290033fcb310)
