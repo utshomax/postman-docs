@@ -12,11 +12,11 @@ contextual_links:
     name: "Navigating the Postman App Interface | The Exploratory"
     url: "https://youtu.be/Kr8OVXjzw4k"
   - type: link
-    name: "Universal Search | Postman Level Up"
-    url: "https://www.youtube.com/watch?v=1K6Pl6o_tj8"
-  - type: link
     name: "Find Related Collections | Postman Level Up"
     url: "https://youtu.be/d7Nq7Vo4nHc"
+  - type: link
+    name: "Customize Sidebar | Postman Level Up"
+    url: "https://youtu.be/UEL7HyWqTm4"
   - type: subtitle
     name: "Blog posts"
   - type: link

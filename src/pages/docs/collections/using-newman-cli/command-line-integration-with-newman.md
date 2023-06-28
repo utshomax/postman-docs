@@ -20,6 +20,10 @@ contextual_links:
   - type: link
     name: "Making the switch: empowering manual testers to automate their API tests"
     url: "https://blog.postman.com/switching-from-manual-to-automated-api-testing/"
+  - type: link
+    name: "The Postman CLI vs. Newman: choose the right tool for you"
+    url: "https://blog.postman.com/postman-cli-vs-newman/"
+
   - type: subtitle
     name: "Case Studies"
   - type: link
