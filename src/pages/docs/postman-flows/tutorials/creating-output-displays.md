@@ -98,7 +98,7 @@ You can select the output formats listed below from the Output block's dropdown 
 
 **Boolean** - Shows a true or false value. If the value connected to the input isn't true/false or 0/1, it will always display true. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/6414ebb88c4c54003a4ad797)
 
-**JSON** - Shows the information connected to the input in JSON format, so you can see and click on hierarchical information. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/6414ec507221e9003a7a5384)
+**JSON** - Shows the information connected to the input in JSON format, enabling you to view and select data. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/6414ec507221e9003a7a5384)
 
 **Bar Chart** - Shows one or more sets of information connected to the input. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/6411f07120794b0039e76839)
 
