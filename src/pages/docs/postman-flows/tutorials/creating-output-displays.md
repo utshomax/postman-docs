@@ -85,7 +85,7 @@ When an **Output** block receives a message that's either true or false, it auto
 To create an example boolean **Output** block, do the following:
 
 1. Create a new flow and add a **Send request** block with a GET request to `postman-echo.com/get`.
-1. Connect an **Evaluate** block to the **Send request** block and enter this [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/): `value1.http.status = 200` to check if the response contains a `200` status code.
+1. Connect an **Evaluate** block to the **Send request** block and enter this [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) query: `value1.http.status = 200` to check if the response contains a `200` status code.
 1. Connect an **Output**  block to the **Evaluate** block and run the flow. If the response contains a `200` status code, the **Output** block shows a circle that says **True**. If not, the circle shows **False**.
 
 ## Types of output displays with example flows
