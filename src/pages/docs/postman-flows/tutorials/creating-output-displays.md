@@ -104,7 +104,7 @@ You can select the output formats listed below from the Output block's dropdown 
 
 **Line Chart** - Shows a line for X and Y coordinates connected to the input. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/641242fd8c4c54003a4ad507)
 
-**Gauge** - Shows a number; generally for when the input is a percent or out of one hundred. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124134c224290033fcb08b)
+**Gauge** - Shows a number when the input is a percent or out of 100. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124134c224290033fcb08b)
 
 **Table** - Shows the connected input as a table with rows and columns. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124607c224290033fcb092)
 
