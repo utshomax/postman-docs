@@ -10,8 +10,8 @@ contextual_links:
     name: "Postman 101 for Admins"
     url: "https://youtu.be/rEKvQO8EYR8"
   - type: link
-    name: "Collaboration and Governance for API Teams | Postman Intergalactic"
-    url: "https://youtu.be/4rxpdcGeixs"
+    name: "Securing APIs | Postman Enterprise"
+    url: "https://youtu.be/tiYgp4QEwZQ"
   - type: subtitle
     name: "Blog posts"
   - type: link

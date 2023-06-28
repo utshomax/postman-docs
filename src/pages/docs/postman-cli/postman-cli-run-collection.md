@@ -12,6 +12,9 @@ contextual_links:
   - type: link
     name: "View Postman CLI Runs in Postman | Postman Level Up"
     url: "https://youtu.be/YTzlLLtsJls"
+  - type: link
+    name: "Testing APIs | Postman Enterprise"
+    url: "https://youtu.be/-Nkvs69-LNE"
 warning: false
 tags:
   - "Postman CLI"

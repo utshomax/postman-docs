@@ -13,8 +13,8 @@ contextual_links:
     name: "Intro to Postman | Write API Tests"
     url: "https://youtu.be/EVg6gxeiUd0"
   - type: link
-    name: "Intro to Postman | Advanced API Tests"
-    url: "https://youtu.be/vVDZxeS865g"
+    name: "Testing APIs | Postman Enterprise"
+    url: "https://youtu.be/-Nkvs69-LNE"
   - type: link
     name: "Review Test Results in Postman | The Exploratory"
     url: "https://youtu.be/S3GKLTVRtmE"

@@ -7,6 +7,9 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Collaboration & Documentation | Postman Enterprise"
+    url: "https://youtu.be/u1yEOo0dPfk"
+  - type: link
     name: "Inline Comments | Postman Level Up"
     url: "https://www.youtube.com/watch?v=fkYiyCj43uk&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=6"
 ---

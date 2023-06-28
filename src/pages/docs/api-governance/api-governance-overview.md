@@ -10,8 +10,8 @@ contextual_links:
     name: "API Governance | The Exploratory"
     url: "https://youtu.be/fuquGWdYAGA"
   - type: link
-    name: "Collaboration and Governance for API Teams | Postman Intergalactic"
-    url: "https://youtu.be/4rxpdcGeixs"
+    name: "Securing APIs | Postman Enterprise"
+    url: "https://youtu.be/tiYgp4QEwZQ"
   - type: link
     name: "API Security and Governance Part 1: Automating Governance"
     url: "https://youtu.be/rdMAKc-_NIw"

@@ -12,6 +12,9 @@ contextual_links:
   - type: link
     name: "API Lifecycle, Part 2: Monitor and Deploy an API | Postman Intergalactic"
     url: "https://youtu.be/voAUfBx8fnE"
+  - type: link
+    name: "Deploying APIs | Postman Enterprise"
+    url: "https://youtu.be/plykCPwt32M"
   - type: subtitle
     name: "Blog posts"
   - type: link
