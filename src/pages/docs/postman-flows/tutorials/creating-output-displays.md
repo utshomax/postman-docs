@@ -80,7 +80,9 @@ To create an example gauge **Output** block, do the following:
 
 ## Boolean
 
-When an **Output** block receives a `True` or `False` message, it automatically selects the **Boolean** display type, showing **True** or **False**. To create an example boolean **Output** block:
+When an **Output** block receives a `True` or `False` message, it automatically selects the **Boolean** display type, showing **True** or **False**.
+
+To create an example boolean **Output** block, do the following:
 
 1. Create a new flow and add a **Send request** block with a GET request to `postman-echo.com/get`.
 1. Connect an **Evaluate** block to the **Send request** block and enter this [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/): `value1.http.status = 200` to check if the response contains a `200` status code.
