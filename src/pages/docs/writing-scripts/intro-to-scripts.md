@@ -13,11 +13,8 @@ contextual_links:
     name: "Intro to Postman | Advanced API Tests"
     url: "https://youtu.be/vVDZxeS865g"
   - type: link
-    name: "Get and Set Variables | Postman Level Up"
-    url: "https://youtu.be/EKv6n-jY9lU"
-  - type: link
-    name: "Testing with Snippets | Postman Level Up"
-    url: "https://youtu.be/QGNJ0wh5Ry0"
+    name: "Testing APIs | Postman Enterprise"
+    url: "https://youtu.be/-Nkvs69-LNE"
   - type: subtitle
     name: "Blog posts"
   - type: link

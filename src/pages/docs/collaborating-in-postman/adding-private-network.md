@@ -12,6 +12,9 @@ contextual_links:
   - type: link
     name: "Private API Network"
     url: "https://youtu.be/cbPT4dMFIDw"
+  - type: link
+    name: "Discovering APIs | Postman Enterprise"
+    url: "https://youtu.be/e1v647ayIBg"
   - type: subtitle
     name: "Blog posts"
   - type: link
