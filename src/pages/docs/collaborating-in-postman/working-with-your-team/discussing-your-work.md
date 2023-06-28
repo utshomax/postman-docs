@@ -11,7 +11,7 @@ contextual_links:
     url: "https://www.youtube.com/watch?v=fkYiyCj43uk&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=6"
 ---
 
-You can leave comments on APIs, collections, and requests in Postman. When you have questions or feedback for your teammates, you can notify them by tagging them in your comments.
+You can add comments to APIs, collections, and requests in Postman. If you have questions or feedback, you can notify your teammates by tagging them in your comments.
 
 ## Contents
 
@@ -27,35 +27,31 @@ You can leave comments on APIs, collections, and requests in Postman. When you h
 
 ## Commenting on a collection
 
-You can leave comments on collections from Postman.
+You can add comments to a collection in Postman. You must have access to a collection to add comments to it.
 
-> Team members must have access to a collection to post comments on it.
-
-1. Sign in to [Postman](https://go.postman.co/).
-2. At the top, select a **Workspace** and then select the **Collections** tab.
-3. Open the collection you want to leave your comment on and select **Comments** next to the name of the collection.
+1. Select **Collections** in the sidebar and select the collection you want to comment on.
+1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
+1. Enter your comment and select **Comment**.
 
 ![Add comments on collection](https://assets.postman.com/postman-docs/commenting-on-a-collection-v8.gif)
 
 ## Commenting on a request
 
-You can comment on saved requests in Postman.
+You can add comments to requests in Postman. You can add comments at the [request level](#adding-a-comment-on-a-request), on [request parameters](#adding-a-comment-on-request-parameters), and [within the request configuration](#adding-an-inline-comment) (request body, pre-request script, and test script).
 
-You can add comments at the [request level](#adding-a-comment-on-a-request), on [request parameters](#adding-a-comment-on-request-parameters), and [within the request configuration](#adding-an-inline-comment) (request body, pre-request script, and test script).
+> You can only add comments to saved requests.
 
 ### Adding a comment on a request
 
-1. Go to the request you want to leave a comment on.
-2. Select the comments icon	<img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the request page.
-3. Write your comment, then select **Add Comment**.
+1. Open the request you want to comment on.
+1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
+1. Enter your comment and select **Comment**.
 
 ![Add comments on collection request](https://assets.postman.com/postman-docs/adding-a-comment-on-a-collection-request-v8.gif)
 
 ### Adding a comment on request parameters
 
 You can leave comments on request parameters (query parameters, path parameters, headers, request bodies of type form-data, and x-www-form-urlencoded).
-
-> You can only add comments on saved requests.
 
 1. Open the request you would like to comment on.
 2. Select the comments icon	<img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the request page.

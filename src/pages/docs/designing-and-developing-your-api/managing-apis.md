@@ -109,8 +109,8 @@ API producers ([Editor role](/docs/collaborating-in-postman/roles-and-permission
 
 To add a new comment to an API, do the following:
 
-1. Select an API in the sidebar.
-1. Select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
+1. Select **APIs** in the sidebar and select the API you want to comment on.
+1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
 1. Enter your comment and select **Comment**.
 
 <img alt="Commenting on an API" src="https://assets.postman.com/postman-docs/v10/api-builder-add-comment-v10-10.jpg" width="443px" />
@@ -121,7 +121,7 @@ To leave an inline comment on an API definition, do the following:
 
 1. Select an API in the sidebar to expand it.
 1. Select **Definition** under the API, then select the definition file you want to comment on.
-1. Switch to comment mode by selecting the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the editor pane.
+1. Switch to comment mode by selecting the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the editor pane.
 1. Highlight part of the definition, enter your comment, and select **Comment**.
 
 <img alt="Adding an inline comment" src="https://assets.postman.com/postman-docs/v10/api-builder-comment-mode-v10-10.jpg" />
@@ -134,7 +134,7 @@ To mention a collaborator in a comment, type `@` followed by their name, then ch
 
 ### Editing, deleting, or linking to an API comment
 
-To manage API comments, select an API or a definition file in the sidebar, then select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
+To manage API comments, select an API or a definition file in the sidebar, then select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
 
 Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a  comment and do one of the following:
 
@@ -148,13 +148,13 @@ Select the more actions icon <img alt="More actions icon" src="https://assets.po
 
 ### Replying to an API comment
 
-To reply to an API comment, select an API or a definition file in the sidebar, then select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar. Select **Reply** on the comment you want to reply to. Enter your reply and select **Reply**.
+To reply to an API comment, select an API or a definition file in the sidebar, then select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar. Select **Reply** on the comment you want to reply to. Enter your reply and select **Reply**.
 
 <img alt="Replying to an API comment" src="https://assets.postman.com/postman-docs/v10/api-builder-reply-comment-v10-10.jpg" width="443px" />
 
 ### Resolving API comments
 
-You can resolve a comment after it's been addressed. Select an API or a definition file in the sidebar, then select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar. Select the resolve icon to resolve a comment and any associated replies.
+You can resolve a comment after it's been addressed. Select an API or a definition file in the sidebar, then select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar. Select the resolve icon to resolve a comment and any associated replies.
 
 <img alt="Resolving an API comment" src="https://assets.postman.com/postman-docs/v10/api-builder-resolve-comment-v10-10.jpg" width="443px" />
 

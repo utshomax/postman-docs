@@ -252,8 +252,10 @@ You can fork collections in your own workspace to [develop collection versions](
 
 ### Adding comments to a collection
 
-1. Select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> from the right sidebar.
-1. Write your comment, then select **Add Comment**.
+1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
+1. Enter your comment and select **Comment**.
+
+> To learn more about using comments to collaborate on collections and requests, go to [Discussing your work](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/).
 
 ### Reverting collection changes
 
