@@ -108,7 +108,7 @@ You can select the output formats listed below from the Output block's dropdown 
 
 **Table** - Shows the connected input as a table with rows and columns. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124607c224290033fcb092)
 
-**Markdown** - Shows the text with all of the markdown annotations displayed. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/641249577221e9003a7a5107)
+**Markdown** - Shows the text with all of the Markdown annotations displayed. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/641249577221e9003a7a5107)
 
 **URL** - Shows a hyperlink to the URL that is connected to the input. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124dc8c224290033fcb098)
 
