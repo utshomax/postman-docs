@@ -110,7 +110,7 @@ You can select the output formats listed below from the Output block's dropdown 
 
 **Markdown** - Shows the text with all of the Markdown annotations displayed. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/641249577221e9003a7a5107)
 
-**URL** - Shows a hyperlink to the URL that is connected to the input. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124dc8c224290033fcb098)
+**URL** - Shows a hyperlink to the URL that's connected to the input. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124dc8c224290033fcb098)
 
 **Image** - Shows an image from a URL that is connected to the input. [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/64124e997221e9003a7a510c)
 
