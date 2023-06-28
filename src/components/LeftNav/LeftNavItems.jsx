@@ -558,7 +558,7 @@ export const leftNavItems = [
             url: '/docs/postman-flows/tutorials/webhooks/',
           },
           {
-            name: 'Creating output displays',
+            name: 'Visualizing data',
             url: '/docs/postman-flows/tutorials/visualizing-data/',
           },
           {
