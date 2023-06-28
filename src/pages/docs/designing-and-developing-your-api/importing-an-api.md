@@ -13,6 +13,9 @@ contextual_links:
   - type: link
     name: "Import OpenAPI definitions from Azure API Management to Postman"
     url: "https://youtu.be/0XWReDRibmU"
+  - type: link
+    name: "Designing APIs | Postman Enterprise"
+    url: "https://youtu.be/IRl40Nl8dwo"
   - type: subtitle
     name: "Blog posts"
   - type: link

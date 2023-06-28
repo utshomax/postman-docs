@@ -7,8 +7,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "API Documentation | The Exploratory"
-    url: "https://youtu.be/XNVo9WkCoak"
+    name: "Collaboration & Documentation | Postman Enterprise"
+    url: "https://youtu.be/u1yEOo0dPfk"
   - type: link
     name: "API Publishers Series, Part 1: Introduction to Documentation"
     url: "https://youtu.be/z4egejVO20M"

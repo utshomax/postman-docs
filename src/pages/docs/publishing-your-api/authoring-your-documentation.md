@@ -5,6 +5,14 @@ contextual_links:
   - type: section
     name: "Additional resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Collaboration & Documentation | Postman Enterprise"
+    url: "https://youtu.be/u1yEOo0dPfk"
+  - type: link
+    name: "API Publishers Series, Part 1: Introduction to Documentation"
+    url: "https://youtu.be/z4egejVO20M"
+  - type: subtitle
     name: "Blog posts"
   - type: link
     name: "Introducing Postman’s WYSIWYG Editing Experience"

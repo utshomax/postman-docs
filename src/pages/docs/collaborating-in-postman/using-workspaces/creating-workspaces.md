@@ -9,11 +9,17 @@ contextual_links:
   - type: link
     name: "Creating a Workspace | Postman Level Up"
     url: "https://youtu.be/I10RCvMbPi0"
+  - type: link
+    name: "Use Collection and Workspace Templates"
+    url: "https://youtu.be/QAIH1D203Wg"
   - type: subtitle
     name: "Blog posts"
   - type: link
     name: "Solving Problems Together with Postman Workspaces"
     url: "https://blog.postman.com/solving-problems-together-with-postman-workspaces/"
+  - type: link
+    name: "Set up workspaces and collaborate faster with workspace templates"
+    url: "https://blog.postman.com/set-up-workspaces-and-collaborate-faster-with-workspace-templates/"
   - type: subtitle
     name: "Case Studies"
   - type: link

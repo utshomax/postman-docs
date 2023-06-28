@@ -7,20 +7,14 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Designing APIs | Postman Enterprise"
+    url: "https://youtu.be/IRl40Nl8dwo"
+  - type: link
     name: "Postman Intergalactic | Design and Prototype an API in Postman"
     url: "https://youtu.be/r4kb3jOSsmk"
   - type: link
     name: "API Builder | The Exploratory"
     url: "https://youtu.be/BUZiRtGRHj0"
-  - type: link
-    name: "API Fest 2022 | Workshop on Designing API Schemas"
-    url: "https://youtu.be/gGOB3oM2cE4"
-  - type: link
-    name: "API Fest 2022 | Workshop on Coding an API using an API Schema"
-    url: "https://youtu.be/RMiG9tzw5tg"
-  - type: link
-    name: "OpenAPI 3.0: From Idea to Implementation"
-    url: "https://www.youtube.com/live/JEBd78U9aBo?feature=share"
   - type: subtitle
     name: "Blog posts"
   - type: link
