@@ -21,7 +21,7 @@ contextual_links:
 
 The **Output** block accepts information from other blocks and creates a visualization of that information. You can select from several visualization types.
 
-<img alt="Output block" src="https://assets.postman.com/postman-labs-docs/creating-charts-tables-and-output/stock-charts.gif"/>
+<img alt="Output block" src="https://assets.postman.com/postman-docs/v10/stock-charts-v10.gif"/>
 
 The image above shows four types of output visualization types: line chart, text, gauge, and boolean. The following tutorials show how to create each of these visualization types. You can also find links to example flows for other visualization types in the [Visualization types with example flows](#visualization-types-with-example-flows) section.
 
