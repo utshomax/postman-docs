@@ -36,4 +36,9 @@ To learn more about running collections, see [Using the Collection Runner](/docs
 
 ## About the Postman Collection Format
 
-The _Collection Format_ is the specification that drives collections in Postman. It's portable and provides a unique interface for organizing API requests and modeling API workflows. It's machine and human-readable and can be used to generate client and server-side SDKs, documentation, and mock servers. Learn more at the [Postman Collection Format documentation](https://learning.postman.com/collection-format/).
+The _Collection Format_ is the specification that drives collections in Postman. It's:
+
+* Portable and provides a unique interface for organizing API requests and modeling API workflows.
+* Machine and human readable and can be used to generate client and server-side SDKs, documentation, and mock servers.
+
+Learn more at the [Postman Collection Format documentation](https://learning.postman.com/collection-format/).
