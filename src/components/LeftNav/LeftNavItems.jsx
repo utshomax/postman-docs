@@ -559,7 +559,7 @@ export const leftNavItems = [
           },
           {
             name: 'Creating output displays',
-            url: '/docs/postman-flows/tutorials/creating-output-displays/',
+            url: '/docs/postman-flows/tutorials/visualizing-data/',
           },
           {
             name: 'Getting data from an array',
