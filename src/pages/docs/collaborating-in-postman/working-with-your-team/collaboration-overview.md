@@ -18,7 +18,11 @@ contextual_links:
   - type: dynamic_blog
     name: "Blog posts"
     blog_tag: "collaboration"
-
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "PayPal uses Postman collaboration capabilities"
+    url: "https://www.postman.com/case-studies/paypal/"
 ---
 
 > Postman Free lets teams of up to three work together at no cost. To collaborate with more team members, features, and increased usage limits, see [Plans and Pricing](https://www.postman.com/pricing/).

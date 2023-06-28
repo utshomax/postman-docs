@@ -26,8 +26,8 @@ contextual_links:
     name: "Hathway uses monitors to identify issues with integrations"
     url: "https://www.postman.com/case-studies/hathway/"
   - type: link
-    name: "Momentive tracks production API performance with monitors"
-    url: "https://www.postman.com/case-studies/momentive/"
+    name: "PayPal uses monitors"
+    url: "https://www.postman.com/case-studies/paypal/"
   - type: subtitle
     name: "Public workspaces"
   - type: link
