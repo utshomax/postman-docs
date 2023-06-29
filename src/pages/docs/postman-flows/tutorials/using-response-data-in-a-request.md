@@ -33,11 +33,11 @@ The Random User API returns a randomly chosen set of user data for each GET requ
 1. Create a collection named `Random User Collection` and add a GET request named `First Request`.
 1. Enter this URL in the request: `https://randomuser.me/api/`.
 
-    ![Create a collection and request](https://assets.postman.com/postman-docs/v10/flow-send-info-first-request-v10.jpg)
+    ![Create a collection and request](https://assets.postman.com/postman-docs/v10/flow-send-info-first-request-v10-2.jpg)
 
 1. Select **Send** then **Save as Example**.
 
-    ![Save the response](https://assets.postman.com/postman-docs/v10/flow-send-info-save-example-1-v10.jpg)
+    ![Save the response](https://assets.postman.com/postman-docs/v10/flow-send-info-save-example-2-v10.jpg)
 
 1. Select the **GET First Request** tab and select **Save**.
 1. Add another GET request named `Seeded Request`.
@@ -45,7 +45,7 @@ The Random User API returns a randomly chosen set of user data for each GET requ
 1. Select **Key** and enter `seed`.
 1. Select **Value** and enter the variable `{{seedVar}}`.
 
-    ![Add the seed variable](https://assets.postman.com/postman-docs/v10/flow-send-info-seedVar-v10.jpg)
+    ![Add the seed variable](https://assets.postman.com/postman-docs/v10/flow-send-info-seedVar-v10-2.jpg)
 
     > The variable is unresolved in the request now, but it will receive a value in Postman Flows.
 

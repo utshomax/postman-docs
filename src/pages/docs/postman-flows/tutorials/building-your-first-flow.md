@@ -48,9 +48,9 @@ The more detailed tutorial starts with [Creating a request and a collection](#cr
 
 This quick start tutorial creates a flow to check if a website is down or not. It does this by sending a request to the website and looking for a `200` status code in the response. If the website is up and running, the flow's **Output** block will display `True`. If the website is down, it will display `False`.
 
-1. Go to the [**DevOps Flows**](https://www.postman.com/postman/workspace/devops-flows) workspace and [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) the [**DownDetector**](https://www.postman.com/postman/workspace/devops-flows/collection/23919558-2ea958e4-8647-4b79-859a-47a2c7608b4d?action=share&creator=23919558) collection to your workspace. Then, in your workspace, select **New &gt; Flows** and [hide the sidebar](/docs/getting-started/navigating-postman/#sidebar).
+1. Go to the [**DevOps Flows**](https://www.postman.com/postman/workspace/devops-flows) workspace and [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) the [**DownDetector**](https://www.postman.com/postman/workspace/devops-flows/collection/23919558-2ea958e4-8647-4b79-859a-47a2c7608b4d?action=share&creator=23919558) collection to your workspace.
 
-    ![Fork the collection](https://assets.postman.com/postman-docs/v10/flow-tut-fork-collection-3-v10.gif)
+1. In your workspace, select **New &gt; Flows** to open a flow in a new tab. Optionally, you can [hide the sidebar](/docs/getting-started/navigating-postman/#sidebar) to increase your canvas size.
 
 1. Right-click the canvas and select **Send Request** from the list of blocks. Connect the **Send Request** block to the **Start** block.
 
@@ -79,7 +79,7 @@ This is the beginning of a detailed tutorial that builds a flow that gets a list
 1. In your workspace, select **New &gt; Collection**. Name the collection **Pokemon API**.
 1. [Add a GET request](/docs/getting-started/sending-the-first-request/) with this URL: `https://pokeapi.co/api/v2/pokemon?limit=200`.
 
-    ![Add a request](https://assets.postman.com/postman-docs/v10/flow-first-request-v10.jpg)
+    ![Add a request](https://assets.postman.com/postman-docs/v10/flow-first-request-v10-2.jpg)
 
 1. Select **Send**, then select **Save as Example**.
 
@@ -87,7 +87,7 @@ This is the beginning of a detailed tutorial that builds a flow that gets a list
 
 1. Select the GET request and replace the URL `https://pokeapi.co/api/v2/pokemon?limit=200` with the variable `{{URL}}`.
 
-    ![Replace the URL](https://assets.postman.com/postman-docs/v10/flow-replace-the-url-1-v10.jpg)
+    ![Replace the URL](https://assets.postman.com/postman-docs/v10/flow-replace-the-url-2-v10.jpg)
 
 1. Select **Save**.
 
