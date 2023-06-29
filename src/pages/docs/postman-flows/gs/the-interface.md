@@ -49,25 +49,25 @@ The toolbar gives you access to tools you can use to manipulate the canvas.
   Use the toolbar to zoom in or out the canvas. Fit-to-view adjusts the zoom level to fit your entire flow on the visible canvas.
 
   You can also press and hold **⌘** or **Ctrl** while scrolling to zoom in or out.
-  ![Zoom](https://assets.postman.com/postman-docs/v10/updated-interface-zoom-controls-v10.gif)
+  ![Zoom](https://assets.postman.com/postman-docs/v10/updated-interface-zoom-controls-v10-3.gif)
 
 * **Run**
 
   Select **Run** to start the flow you've built on the canvas. During an active run, select **Stop** to stop the flow.
 
-  ![Start a flow](https://assets.postman.com/postman-docs/v10/updated-interface-start-flow-v10.gif)
+  ![Start a flow](https://assets.postman.com/postman-docs/v10/updated-interface-start-flow-v10-1.gif)
 
 * **Add block**
 
   Use the toolbar to add a block to the canvas. Select **+ Block** and choose from the list of available blocks.
 
-  ![Add a block](https://assets.postman.com/postman-docs/v10/updated-interface-add-block-v10.gif)
+  ![Add a block](https://assets.postman.com/postman-docs/v10/updated-interface-add-block-v10-1.gif)
 
 * **Text**
 
   You can add rich markdown on the canvas to describe what your flow is doing. Press `T` or select the text icon on the toolbar and place the text block on the canvas.
 
-  ![Add text](https://assets.postman.com/postman-docs/v10/updated-interface-add-annotations-v10.gif)
+  ![Add text](https://assets.postman.com/postman-docs/v10/updated-interface-add-annotations-v10-1.gif)
 
 ## Right sidebar
 
@@ -104,7 +104,7 @@ The minimap is an interactive map of your flow. Hover over the minimap to enlarg
 
   All of your print blocks and logs will appear here.
 
-  ![Console](https://assets.postman.com/postman-docs/v10/console-v10.gif)
+  ![Console](https://assets.postman.com/postman-docs/v10/console-v10-1.gif)
 
 ## Share, Fork, and Deploy buttons
 
