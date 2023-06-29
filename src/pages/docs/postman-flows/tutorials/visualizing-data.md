@@ -104,7 +104,7 @@ You can select the output formats listed below from the **Output** block's dropd
 
 * **Number** - Displays an integer, if the information connected to the input is a number. [Number example](https://www.postman.com/postman/workspace/flows-snippets/flow/6414e8eb95e5e70033f028d4)
 
-* **Boolean** - Shows a `true` or false `value`. If the value connected to the input isn't `true`/`false` or `0`/`1`, it always displays `true`. [Boolean example](https://www.postman.com/postman/workspace/flows-snippets/flow/6414ebb88c4c54003a4ad797)
+* **Boolean** - Shows a true or false value. If the value connected to the input isn't true/false or 0/1, it always displays true. [Boolean example](https://www.postman.com/postman/workspace/flows-snippets/flow/6414ebb88c4c54003a4ad797)
 
 * **JSON** - Shows the information connected to the input in JSON format, enabling you to view and select data. [JSON example](https://www.postman.com/postman/workspace/flows-snippets/flow/6414ec507221e9003a7a5384)
 
