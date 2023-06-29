@@ -34,7 +34,7 @@ You can add comments to a collection in Postman. You must have access to a colle
 1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
 1. Enter your comment and select **Comment**.
 
-<img alt="Commenting on an API" src="https://assets.postman.com/postman-docs/v10/api-builder-add-comment-v10-16.jpg" width="443px" />
+![Commenting on a collection](https://assets.postman.com/postman-docs/v10/commenting-on-a-collection-v10-16.jpg)
 
 ## Commenting on a request
 
@@ -48,7 +48,7 @@ You can add comments to requests in Postman. You can add a comment at the [reque
 1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
 1. Enter your comment and select **Comment**.
 
-![Add comments on collection request](https://assets.postman.com/postman-docs/adding-a-comment-on-a-collection-request-v8.gif)
+![Commenting on a request](https://assets.postman.com/postman-docs/v10/commenting-on-a-request-v10-16.jpg)
 
 ### Adding an inline comment to a request
 
@@ -59,12 +59,12 @@ To add an inline comment to a request, do the following:
 1. Open the request you want to comment on.
 1. Switch to comment mode by selecting the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the request pane.
 
-    SCREENSHOT
+    ![Switching to comment mode](https://assets.postman.com/postman-docs/v10/commenting-mode-v10-16.jpg)
 
 1. Select the item or highlight the text where you want to add a comment.
 1. Enter your comment and select **Comment**.
 
-![Add inline comments for tests](https://assets.postman.com/postman-docs/adding-an-inline-comment-tests-v8.gif)
+![Adding an inline comment](https://assets.postman.com/postman-docs/v10/commenting-inline-v10-16.jpg)
 
 ## Commenting on a folder
 
@@ -74,7 +74,7 @@ You can add comments to a folder inside a collection.
 1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
 1. Enter your comment and select **Comment**.
 
-![Adding comment on a folder](https://assets.postman.com/postman-docs/commenting-on-a-folder-v8.gif)
+![Commenting on a folder](https://assets.postman.com/postman-docs/v10/commenting-on-a-folder-v10-16.jpg)
 
 ## Editing, deleting, or linking to a comment
 
@@ -111,8 +111,6 @@ When you leave feedback or a question for a specific teammate, you can let them 
 When you mention a user in a comment, Postman sends them a notification. Select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header to view in-app notifications.
 
 > If your teammate doesn't have access to the collection they've been mentioned on, they'll need to request access before they can read the comment.
-
-<img src="https://assets.postman.com/postman-docs/check-comment-notifications-v8.jpg" alt="Notification bell" width="398px">
 
 ## Using Markdown in comments
 
