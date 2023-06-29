@@ -61,7 +61,7 @@ To create an example line chart **Output** block, do the following:
 
 When an **Output** block receives a string, it automatically selects the **Text** visualization type and shows the text.
 
-To create an example text **Output** block:
+To create an example text **Output** block, do the following:
 
 1. Create a new flow and add a **Send request** block with a GET request to `postman-echo.com/get`.
 1. Connect a **Select** block to the **Send request** block and enter `body.headers.host`. This selects a string from the response.
