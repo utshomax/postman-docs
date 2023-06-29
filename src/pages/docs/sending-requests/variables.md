@@ -21,11 +21,11 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
+    name: "How to persist Postman variables"
+    url: "https://blog.postman.com/how-to-persist-postman-variables/"
+  - type: link
     name: "How to Securely Deploy Postman at Scale, Part 2: Information Management"
     url: "https://blog.postman.com/how-to-securely-deploy-postman-at-scale-part-2-information-management/"
-  - type: link
-    name: "Securely Using API Keys in Postman"
-    url: "https://blog.postman.com/how-to-use-api-keys/"
   - type: link
     name: "Faster and easier variable management in Postman"
     url: "https://blog.postman.com/faster-and-easier-variable-management-in-postman/"
