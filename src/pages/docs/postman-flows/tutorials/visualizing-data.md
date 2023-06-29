@@ -80,7 +80,7 @@ To create an example gauge **Output** block, do the following:
 1. Connect an **Output** block to the **Evaluate** block and select **Gauge** from the dropdown list.
 1. Run the flow. The gauge shows the number of items in the response body as the shaded portion of the graph.
 
-    > You can select the **Output** block's settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to set the minimum and maximum values for the gauge.
+    > To set the minimum and maximum values for the gauge, select the **Output** block's settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">.
 
     ![Gauge visualization type](https://assets.postman.com/postman-docs/v10/flows-gauge-v10.jpg)
 
