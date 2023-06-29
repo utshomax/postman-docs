@@ -33,7 +33,7 @@ contextual_links:
     url: "https://www.postman.com/case-studies/built/"
 ---
 
-_Postman Flows_ is a visual tool to build API-driven applications – a tool to build software for the [API-First](https://www.postman.com/api-first/) world. You can use flows to chain requests, handle data, and create real-world workflows in your Postman workspace.
+**Postman Flows** is a visual tool to build API-driven applications, software for the [API-First](https://www.postman.com/api-first/) world. You can use flows to chain requests, handle data, and create real-world workflows in your Postman workspace.
 
 ![Postman Flows](https://assets.postman.com/postman-docs/postman-flows-overview.gif)
 
@@ -47,9 +47,9 @@ You can also deploy your flows and run them in the cloud. WebHooks enable you to
 
 ## What can you do with flows?
 
-Flows are the ultimate way to easily take data from an API-enabled product, manipulate it to meet your needs, and see the results. Or you could take data from one API-enabled product, make decisions or process the data, then send it to another API-enabled product. This means you can build real-time integrations between two API-enabled products.
+Flows are the ultimate way to take data from an API-enabled product, manipulate it to meet your needs, and see the results. Or you could take data from one API-enabled product, make decisions or process the data, then send it to another API-enabled product. This means you can build real-time integrations between two API-enabled products.
 
-Check out our Flows Workspaces filled with examples:
+Check out these Flows Workspaces filled with examples:
 
 * [Business Flows](https://www.postman.com/postman/workspace/business-flows)
 * [Integration Flows](https://www.postman.com/postman/workspace/integration-flows)
@@ -59,9 +59,9 @@ Check out our Flows Workspaces filled with examples:
 * [Utility Flows](https://www.postman.com/postman/workspace/utility-flows)
 * [Miscellaneous Flows](https://www.postman.com/postman/workspace/miscellaneous-flows)
 
-These workspaces contains example flows utilizing a multitude of APIs for different products and tools, plus all the related collections and environments needed. You can fork the flows to your own workspace, try them out, and then make your own changes and customizations.
+These workspaces include example flows utilizing a multitude of APIs for different products and tools, plus all the related collections and environments needed. You can fork the flows to your own workspace, try them out, and then make your own changes and customizations.
 
-> Postman Flows is free to try on the Free plan for up to three users. Postman Flows is available as an add-on to the annual [Professional plan](https://www.postman.com/pricing/). Postman Flows is not currently available in the Basic and Enterprise plans.
+> Postman Flows is free to try on the Free plan for up to three users. Postman Flows is available as an add-on to the annual [Professional plan](https://www.postman.com/pricing/). Postman Flows isn't currently available in the Basic and Enterprise plans.
 
 ## Enabling Postman Flows
 
