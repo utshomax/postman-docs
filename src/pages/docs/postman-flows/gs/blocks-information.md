@@ -50,7 +50,7 @@ Every block has either an input, an output, or both. You can pass information fr
 
 Below is the anatomy of the [Send Request Block](/docs/postman-flows/reference/blocks-list/#send-request).
 
-![Block anatomy](https://assets.postman.com/postman-labs-docs/block/updated-block-anatomy.png)
+![Block anatomy](https://assets.postman.com/postman-docs/v10/flows-resize-block-v10.jpg)
 
 1. **Name** - Name of the block.
 

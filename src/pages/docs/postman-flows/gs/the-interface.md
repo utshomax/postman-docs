@@ -27,7 +27,7 @@ contextual_links:
     url: "https://www.postman.com/case-studies/built/"
 ---
 
-The Postman Flows interface has three main parts: the toolbar, the right sidebar, and the console.
+The Postman Flows interface includes the toolbar, the right sidebar, the minimap, the console, and the **Share, Fork, and Deploy** buttons.
 
 ## Contents
 
