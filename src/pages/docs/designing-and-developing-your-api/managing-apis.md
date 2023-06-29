@@ -113,7 +113,7 @@ To add a new comment to an API, do the following:
 1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
 1. Enter your comment and select **Comment**.
 
-<img alt="Commenting on an API" src="https://assets.postman.com/postman-docs/v10/api-builder-add-comment-v10-10.jpg" width="443px" />
+<img alt="Commenting on an API" src="https://assets.postman.com/postman-docs/v10/api-builder-add-comment-v10-16.jpg" width="443px" />
 
 > You can also add comments to collections you've added to your API and to requests and folders in that collection. Learn more about [commenting on a collection](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/#commenting-on-a-collection).
 
@@ -142,7 +142,7 @@ Select the more actions icon <img alt="More actions icon" src="https://assets.po
 * Select **Edit** to make changes to the comment.
 * Select **Delete** to delete the comment.
 
-<img alt="Managing an API comment" src="https://assets.postman.com/postman-docs/v10/api-builder-manage-comment-v10-10.jpg" width="443px" />
+<img alt="Managing an API comment" src="https://assets.postman.com/postman-docs/v10/api-builder-manage-comment-v10-16.jpg" width="443px" />
 
 > If you have the Admin role for the workspace, you can delete comments made by any contributor, but you can't edit comments made by others.
 
@@ -150,13 +150,13 @@ Select the more actions icon <img alt="More actions icon" src="https://assets.po
 
 To reply to an API comment, select an API or a definition file in the sidebar, then select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar. Select **Reply** on the comment you want to reply to. Enter your reply and select **Reply**.
 
-<img alt="Replying to an API comment" src="https://assets.postman.com/postman-docs/v10/api-builder-reply-comment-v10-10.jpg" width="443px" />
+<img alt="Replying to an API comment" src="https://assets.postman.com/postman-docs/v10/api-builder-reply-comment-v10-16.jpg" width="443px" />
 
 ### Resolving API comments
 
-You can resolve a comment after it's been addressed. Select an API or a definition file in the sidebar, then select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar. Select the resolve icon to resolve a comment and any associated replies.
+You can resolve a comment after it's been addressed. Select an API or a definition file in the sidebar, then select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar. Select the resolve icon <img alt="Resolve comment icon" src="https://assets.postman.com/postman-docs/v10/icon-resolve-comment-v10.jpg#icon" width="18px"> to resolve a comment and any associated replies.
 
-<img alt="Resolving an API comment" src="https://assets.postman.com/postman-docs/v10/api-builder-resolve-comment-v10-10.jpg" width="443px" />
+<img alt="Resolving an API comment" src="https://assets.postman.com/postman-docs/v10/api-builder-resolve-comment-v10-16.jpg" width="443px" />
 
 > You can't undo resolving a comment, but you can view resolved comments by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px"> in the comments pane.
 
