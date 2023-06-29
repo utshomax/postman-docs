@@ -71,7 +71,7 @@ To create an example text **Output** block, do the following:
 
 ## Gauge
 
-The **Gauge** visualization type shows a value's position in a range using a semicircular graph.
+The **Gauge** visualization type shows a value's position in a range using a half-pie chart.
 
 To create an example gauge **Output** block, do the following:
 
