@@ -51,14 +51,14 @@ Postman can make HTTP calls using Simple Object Access Protocol (SOAP), a platfo
 
 1. Enter your XML in the text entry area. To test the number conversion SOAP API used in the last section, enter the following XML in the text entry area:
 
-   ```xml
-   <?xml version="1.0" encoding="utf-8"?>
-   <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-     <soap:Body>
+    ```xml
+    <?xml version="1.0" encoding="utf-8"?>
+    <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+      <soap:Body>
        <NumberToWords xmlns="http://www.dataaccess.com/webservicesserver/">
          <ubiNum>500</ubiNum>
        </NumberToWords>
-     </soap:Body>
+      </soap:Body>
    </soap:Envelope>
    ```
 
@@ -82,4 +82,3 @@ To set request headers, do the following:
 Select __Send__ to make your call to the SOAP service. If your call is successful, Postman displays the response in the lower tab.
 
 ![SOAP response data](https://assets.postman.com/postman-docs/v10/soap-response-data-v10.jpg)
-
