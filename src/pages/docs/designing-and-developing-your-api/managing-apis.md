@@ -1,6 +1,6 @@
 ---
 title: 'Managing and sharing APIs'
-updated: 2023-02-15
+updated: 2023-07-15
 contextual_links:
   - type: section
     name: "Additional resources"

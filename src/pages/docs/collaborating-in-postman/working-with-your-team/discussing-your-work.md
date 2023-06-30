@@ -1,6 +1,6 @@
 ---
 title: "Discussing your work"
-updated: 2021-04-15
+updated: 2021-07-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -11,7 +11,7 @@ contextual_links:
     url: "https://www.youtube.com/watch?v=fkYiyCj43uk&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=6"
 ---
 
-You can add comments to collections and requests in Postman. If you have questions or feedback, you can notify your teammates by mentioning them in your comments.
+Use comments to discuss your work with your teammates in Postman. You can add comments to collections, folders, and requests. Reply to a comment to keep the discussion going, or resolve a comment if it's been addressed. If you have questions or feedback, you can notify your teammates by mentioning them in your comments.
 
 > You can also add comments to APIs and API definitions in Postman. Learn more about [commenting on APIs](/docs/designing-and-developing-your-api/managing-apis/#commenting-on-apis).
 
@@ -52,7 +52,7 @@ You can add comments to requests in Postman. You can add a comment at the [reque
 
 ### Adding an inline comment to a request
 
-Switch to comment mode to add a comment to a specific part of a request. You can add comments to query parameters, path parameters, headers, and request bodies (form-data, x-www-form-urlencoded, and raw). You can also add comments to part of a pre-request script or a test script.
+Switch to comment mode to add a comment to a specific part of a request. You can add comments to query parameters, path parameters, headers, and request bodies (form-data, x-www-form-urlencoded, and raw). You can also add comments to a pre-request script or a test script.
 
 To add an inline comment to a request, do the following:
 
@@ -64,7 +64,7 @@ To add an inline comment to a request, do the following:
 1. Select the item or highlight the text where you want to add a comment.
 1. Enter your comment and select **Comment**.
 
-![Adding an inline comment](https://assets.postman.com/postman-docs/v10/commenting-inline-v10-16.jpg)
+    ![Adding an inline comment](https://assets.postman.com/postman-docs/v10/commenting-inline-v10-16.jpg)
 
 ## Commenting on a folder
 
@@ -86,7 +86,7 @@ Select the more actions icon <img alt="More actions icon" src="https://assets.po
 * Select **Edit** to make changes to the comment.
 * Select **Delete** to delete the comment.
 
-<img alt="Managing an API comment" src="https://assets.postman.com/postman-docs/v10/api-builder-manage-comment-v10-16.jpg" width="443px" />
+<img alt="Managing a comment" src="https://assets.postman.com/postman-docs/v10/api-builder-manage-comment-v10-16.jpg" width="443px" />
 
 > If you have the Admin role for the workspace, you can delete comments made by any contributor, but you can't edit comments made by others.
 
@@ -94,13 +94,13 @@ Select the more actions icon <img alt="More actions icon" src="https://assets.po
 
 To reply to a comment, select a collection, folder, or request in the sidebar, then select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar. Select **Reply** on the comment you want to reply to. Enter your reply and select **Reply**.
 
-<img alt="Replying to an API comment" src="https://assets.postman.com/postman-docs/v10/api-builder-reply-comment-v10-16.jpg" width="443px" />
+<img alt="Replying to a comment" src="https://assets.postman.com/postman-docs/v10/api-builder-reply-comment-v10-16.jpg" width="443px" />
 
 ## Resolving comments
 
 You can resolve a comment after it's been addressed. Select a collection, folder, or request in the sidebar, then select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar. Select the resolve icon <img alt="Resolve comment icon" src="https://assets.postman.com/postman-docs/v10/icon-resolve-comment-v10.jpg#icon" width="18px"> to resolve a comment and any associated replies.
 
-<img alt="Resolving an API comment" src="https://assets.postman.com/postman-docs/v10/api-builder-resolve-comment-v10-16.jpg" width="443px" />
+<img alt="Resolving a comment" src="https://assets.postman.com/postman-docs/v10/api-builder-resolve-comment-v10-16.jpg" width="443px" />
 
 > You can't undo resolving a comment, but you can view resolved comments by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px"> in the comments pane.
 
@@ -110,7 +110,7 @@ When you leave feedback or a question for a specific teammate, you can let them 
 
 When you mention a user in a comment, Postman sends them a notification. Select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header to view in-app notifications.
 
-> If your teammate doesn't have access to the collection they've been mentioned on, they'll need to request access before they can read the comment.
+> If your teammate doesn't have access to the collection they've been mentioned on, they'll need to [request access](/docs/collaborating-in-postman/requesting-access-to-elements/) before they can read the comment.
 
 ## Using Markdown in comments
 
