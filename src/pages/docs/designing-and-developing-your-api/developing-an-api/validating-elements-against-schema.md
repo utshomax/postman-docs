@@ -15,6 +15,9 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
+    name: "Ensure API consistency with request and response validation in Postman"
+    url: "https://blog.postman.com/request-and-response-validation-in-postman/"
+  - type: link
     name: "API contract testing: 4 things to validate to meet (and exceed) expectations"
     url: "https://blog.postman.com/api-contract-testing-4-things-to-validate/"
 ---

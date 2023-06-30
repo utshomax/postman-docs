@@ -21,8 +21,8 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Manage large teams in Postman with workspaces, permissions & more"
-    url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"
+    name: "Managing team members and roles in Postman just got easier"
+    url: "https://blog.postman.com/managing-team-members-and-roles-in-postman-just-got-easier/"
   - type: subtitle
     name: "Case Studies"
   - type: link
