@@ -1,6 +1,6 @@
 ---
 title: "Using SOAP requests"
-updated: 2021-12-10
+updated: 2023-6-30
 contextual_links:
   - type: section
     name: "Additional resources"
