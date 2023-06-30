@@ -67,9 +67,7 @@ Postman can make HTTP calls using Simple Object Access Protocol (SOAP), a platfo
 
 ## Setting your request headers
 
-When you select an XML body type, Postman automatically adds a content type header of `application/xml`. But depending on your service provider, you may need `text/xml` for some SOAP requests. Check with your SOAP service to decide which header is appropriate. If you need the `text/xml` header, you will need to override the default setting added by Postman.
-
-If you are following along with the number conversion SOAP API example, you need to change the content type header to `text/xml`.
+When you select an XML body type, Postman automatically adds a content type header of `application/xml`. But depending on your service provider, you may need `text/xml` for some SOAP requests. Check with your SOAP service to decide which header is appropriate. If you need the `text/xml` header, override the default setting added by Postman.
 
 To set request headers, do the following:
 
