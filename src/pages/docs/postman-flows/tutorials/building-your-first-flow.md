@@ -50,31 +50,31 @@ This quick start tutorial creates a flow to check if a website is down or not. I
 
 1. Go to the [**DevOps Flows**](https://www.postman.com/postman/workspace/devops-flows) workspace and [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) the [**DownDetector**](https://www.postman.com/postman/workspace/devops-flows/collection/23919558-2ea958e4-8647-4b79-859a-47a2c7608b4d?action=share&creator=23919558) collection to your workspace. Then, in your workspace, select **New &gt; Flows** and [hide the sidebar](/docs/getting-started/navigating-postman/#sidebar).
 
-    ![Fork the collection](https://assets.postman.com/postman-docs/v10/flow-tut-fork-collection-3-v10.gif)
+    ![Fork the collection](https://assets.postman.com/postman-docs/v10/flow-tut-fork-collection-v10-5.gif)
 
-1. Right-click the canvas and select **Send Request** from the list of blocks. Connect the **Send Request** block to the **Start** block.
+1. Select **Send a request** to create a **Send Request** block.
 
-    ![Create a **Send Request** block and connect it](https://assets.postman.com/postman-docs/v10/flow-tut-add-send-v10-1.gif)
+    ![Create a **Send Request** block and connect it](https://assets.postman.com/postman-docs/v10/flow-tut-add-send-v10-3.gif)
 
-1. In the **Send Request** block, select **Add request &gt; DownDetector &gt; sitemap**. Then select the port next to **Success**, and drag and drop it to the right. Select **Evaluate** from the list that appears to add an **Evaluate** block.
+1. In the **Send Request** block, select **Add request &gt; DownDetector &gt; sitemap**. Then connect an **Evaluate** block.
 
-    ![Add an **Evaluate** block](https://assets.postman.com/postman-docs/v10/flow-tut-add-eval-v10-1.gif)
+    ![Add an **Evaluate** block](https://assets.postman.com/postman-docs/v10/flow-tut-add-eval-v10-2.gif)
 
 1. In the **Evaluate** block, select `value1` and change it to `status`. Then select **Enter path...**, scroll down, and select **http.status**.
 
-    ![Rename value1 and select `http.status`](https://assets.postman.com/postman-docs/v10/flow-tut-select-status-v10-1.gif)
+    ![Rename value1 and select `http.status`](https://assets.postman.com/postman-docs/v10/flow-tut-select-status-v10-2.gif)
 
 1. Select **Start writing an FQL query...** and enter `status=200`.
 
-    ![Enter `status=200`](https://assets.postman.com/postman-docs/v10/flow-tut-status-200-v10-1.gif)
+    ![Enter `status=200`](https://assets.postman.com/postman-docs/v10/flow-tut-status-200-v10-2.gif)
 
-1. Drag and drop the port on the right side of the **Evaluate** block and add an **Output** block. Select **Run**. The **Output** block displays **True**, which means the website is up and running.
+1. Connect an **Output** block to the **Evaluate** block and select **Run**. The **Output** block displays **True**, which means the website is up and running.
 
-    ![Add an **Output** block and select **Run**](https://assets.postman.com/postman-docs/v10/flow-tut-output-run-v10.gif)
+    ![Add an **Output** block and select **Run**](https://assets.postman.com/postman-docs/v10/flow-tut-output-run-v10-2.gif)
 
 ## Creating a request and a collection
 
-This is the beginning of a detailed tutorial that builds a flow that gets a list of Pokémon, one page at a time, until it reaches the last page. Start by creating a new collection and adding a GET request. You'll use this collection with the flow you'll create later.
+This is a detailed tutorial that builds a flow that gets a list of Pokémon, one page at a time, until it reaches the last page. Start by creating a new collection and adding a GET request. You'll use this collection with the flow you'll create later.
 
 1. In your workspace, select **New &gt; Collection**. Name the collection **Pokemon API**.
 1. [Add a GET request](/docs/getting-started/sending-the-first-request/) with this URL: `https://pokeapi.co/api/v2/pokemon?limit=200`.
