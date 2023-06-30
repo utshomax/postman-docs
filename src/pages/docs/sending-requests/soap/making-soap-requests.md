@@ -70,7 +70,7 @@ When you select an XML body type, Postman automatically adds a content type head
 
 To set request headers, do the following:
 
-1. Open the request __Headers__. If the auto-generated headers are hidden, select `hidden` to display them.
+1. Open the request __Headers__. If the auto-generated headers are hidden, select **hidden** to display them.
 1. Clear the `Content-Type` header, which was automatically added.
 1. Add a new key-value pair, `Content-Type` and `text/xml`.
 1. Add another key-value pair, `SOAPAction` and `"#MethodName"`(in this example, `"#POST"`).
