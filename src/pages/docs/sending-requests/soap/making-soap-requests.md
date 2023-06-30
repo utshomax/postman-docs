@@ -86,6 +86,3 @@ Select __Send__ to make your call to the SOAP service. If your call is successfu
 
 ![SOAP response data](https://assets.postman.com/postman-docs/v10/soap-response-data-v10.jpg)
 
-## SOAP request examples
-
-For sample requests you can send in Postman, check out the [Public SOAP APIs](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) collection.
