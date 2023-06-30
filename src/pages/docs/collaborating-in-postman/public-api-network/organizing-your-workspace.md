@@ -9,6 +9,9 @@ contextual_links:
   - type: link
     name: "How to publish and market your API to maximize adoption"
     url: "https://blog.postman.com/how-to-publish-and-market-your-api-to-maximize-adoption/"
+  - type: link
+    name: "Top 30 APIs for best developer experience"
+    url: "https://blog.postman.com/top-30-apis-for-best-developer-experience/"
 ---
 
 Before making your APIs available on [the Postman Public API Network](/docs/getting-started/exploring-public-api-network/), Postman recommends following these best practices and tips to help API consumers begin using your APIs.
