@@ -20,7 +20,9 @@ contextual_links:
 
 ---
 
-Postman can make HTTP calls using SOAP, a platform-independent messaging protocol specification. The following steps show how to make a SOAP request in Postman.
+Postman can make HTTP calls using Simple Object Access Protocol (SOAP), a platform-independent messaging protocol specification. In this example, the SOAP endpoint changes numeric values into their text equivalents, from `500` to `five hundred`.
+
+> For more SOAP request examples, see the [Public SOAP APIs](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) collection.
 
 ## Contents
 
@@ -32,46 +34,36 @@ Postman can make HTTP calls using SOAP, a platform-independent messaging protoco
 
 ## Entering your SOAP endpoint
 
-1. Select __New > HTTP__ to open an HTTP request in a new tab.
+1. To open an HTTP request, select __New > HTTP__.
 
-    <img alt="Create new request" src="https://assets.postman.com/postman-docs/v10/create-new-http-v10-3.jpg" width="500px"/>
+    ![Create new request](https://assets.postman.com/postman-docs/v10/create-new-http-v10-3.jpg)
 
-1. Enter your SOAP endpoint URL in the address field.
+1. Enter your SOAP endpoint URL in the address field. For this example, use the following endpoint URL: `https://www.dataaccess.com/webservicesserver/NumberConversion.wso`.
+
 1. Select __POST__ from the request method dropdown list.
 
-    <img src="https://assets.postman.com/postman-docs/v10/soap-method-v10.jpg" alt="SOAP method"/>
-
-As an example, use the following endpoint URL:
-
-```xml
-https://www.dataaccess.com/webservicesserver/NumberConversion.wso
-```
-
-This SOAP endpoint changes numeric values into their text equivalents, for example changing the value `500` into `five hundred`.
-
-> If you want to inspect more SOAP request examples, head to the [Public SOAP APIs](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) collection.
+    ![SOAP method](https://assets.postman.com/postman-docs/v10/soap-method-v10-15.jpg)
 
 ## Adding body data
 
 1. In the __Body__ tab, select __raw__ and choose __XML__ from the dropdown list.
-1. Enter your XML in the text entry area.
 
-    ![SOAP body type](https://assets.postman.com/postman-docs/v10/soap-body-type-v10.jpg)
+    ![SOAP body type](https://assets.postman.com/postman-docs/v10/soap-body-type-v10-16.jpg)
 
-If you want to test the number conversion SOAP API used in the last section, enter the following XML in the text entry area:
+1. Enter your XML in the text entry area. To test the number conversion SOAP API used in the last section, enter the following XML in the text entry area:
 
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-  <soap:Body>
-    <NumberToWords xmlns="http://www.dataaccess.com/webservicesserver/">
-      <ubiNum>500</ubiNum>
-    </NumberToWords>
-  </soap:Body>
-</soap:Envelope>
-```
+   ```xml
+   <?xml version="1.0" encoding="utf-8"?>
+   <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+     <soap:Body>
+       <NumberToWords xmlns="http://www.dataaccess.com/webservicesserver/">
+         <ubiNum>500</ubiNum>
+       </NumberToWords>
+     </soap:Body>
+   </soap:Envelope>
+   ```
 
-Your request body must include the SOAP `Envelope`, `Header`, and `Body` tags as required by the endpoint, as well as any namespaces. The data needs to include the name of the operation, together with any values you need to post to the service.
+   Your request body must include the SOAP `Envelope`, `Header`, and `Body` tags as required by the endpoint, as well as any namespaces. The data needs to include the name of the operation, together with any values you need to post to the service.
 
 ## Setting your request headers
 
@@ -81,18 +73,18 @@ If you are following along with the number conversion SOAP API example, you need
 
 To set request headers, do the following:
 
-1. Open the request __Headers__. If the auto-generated headers are hidden, select the notice to display them.
-1. Deselect the `Content-Type` header Postman added automatically.
-1. Add a new row with `Content-Type` in the __Key__ field and `text/xml` in the __Value__ field.
-1. Add a new row for a header with  `SOAPAction` in the __Key__ field and `"#MethodName"` in the __Value__ field. (The quotes are required.) Without this header, the service will return `500`.
+1. Open the request __Headers__. If the auto-generated headers are hidden, select `hidden` to display them.
+1. Clear the `Content-Type` header, which was automatically added.
+1. Add a new key-value pair, `Content-Type` and `text/xml`.
+1. Add another key-value pair, `SOAPAction` and `"#MethodName"`(in this example, `"#POST"`).
 
-    ![SOAP Content Type](https://assets.postman.com/postman-docs/v10/soap-content-type-v10.jpg)
+   ![SOAP content type](https://assets.postman.com/postman-docs/v10/soap-header-v10-16.jpg)
 
 ## Sending your request
 
 Select __Send__ to make your call to the SOAP service. If your call is successful, Postman displays the response in the lower tab.
 
-![SOAP response data](https://assets.postman.com/postman-docs/soap-response-data-v9.jpg)
+![SOAP response data](https://assets.postman.com/postman-docs/v10/soap-response-data-v10.jpg)
 
 ## SOAP request examples
 
