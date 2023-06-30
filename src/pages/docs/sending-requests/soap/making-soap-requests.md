@@ -30,7 +30,6 @@ Postman can make HTTP calls using Simple Object Access Protocol (SOAP), a platfo
 * [Adding body data](#adding-body-data)
 * [Setting your request headers](#setting-your-request-headers)
 * [Sending your request](#sending-your-request)
-* [SOAP request examples](#soap-request-examples)
 
 ## Entering your SOAP endpoint
 
