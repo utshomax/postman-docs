@@ -9,14 +9,20 @@ contextual_links:
   - type: link
     name: "API Documentation | The Exploratory"
     url: "https://youtu.be/XNVo9WkCoak"
+  - type: link
+    name: "Customize Public Documentation | Postman Level Up"
+    url: "https://youtu.be/X6Yi8aJOLds"
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Postman Public API Network Is Now the World’s Largest Public API Hub"
-    url: "https://blog.postman.com/postman-public-api-network-is-now-the-worlds-largest-public-api-hub/"
+    name: "Introducing more customization for published collection documentation"
+    url: "https://blog.postman.com/introducing-more-customization-for-published-collection-documentation/"
   - type: link
     name: "Introducing Governance for Publishing Collection Documentation"
     url: "https://blog.postman.com/introducing-governance-publishing-collection-documentation/"
+  - type: link
+    name: "How to publish and market your API to maximize adoption"
+    url: "https://blog.postman.com/how-to-publish-and-market-your-api-to-maximize-adoption/"
   - type: subtitle
     name: "Case Studies"
   - type: link

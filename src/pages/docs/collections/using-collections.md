@@ -12,6 +12,9 @@ contextual_links:
   - type: link
     name: "Create a Postman Collection | Postman Level Up"
     url: "https://youtu.be/NlrPjuXEaZ8"
+  - type: link
+    name: "Use Collection and Workspace Templates"
+    url: "https://youtu.be/QAIH1D203Wg"
   - type: dynamic_blog
     name: "Blog posts"
     blog_tag: "collections"

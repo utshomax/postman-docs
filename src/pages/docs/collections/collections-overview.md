@@ -9,6 +9,11 @@ contextual_links:
   - type: link
     name: "Introducing New Postman Reports for Enterprises"
     url: "https://blog.postman.com/introducing-new-postman-reports-for-enterprises/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Postman Collections are essential to PayPal"
+    url: "https://www.postman.com/case-studies/paypal/"
 ---
 
 _Postman Collections_ are a group of saved requests. Every request you send in Postman appears under the **History** tab of the sidebar. On a small scale, reusing requests through the history section is convenient. As your Postman usage grows, it can be time-consuming to find a particular request in your history. Instead of scrolling through your history section, you can save all your requests as a group for easier access.
