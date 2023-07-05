@@ -152,8 +152,8 @@ This detailed tutorial builds a flow that gets a list of Pokémon, one page at a
 
     > If `has_next` is null, then the flow has reached the last page of results.
 
-1. Connect the **If** block's TRUE port to the **Send Request** block's URL port. This passes the new `has_next` value to the existing `URL` variable in the **Send Request** block.
-1. Also connect the **If** block's TRUE port to the **Send Request** block's Send port. This triggers the send event so it runs again.
+1. Connect the **If** block's **TRUE** port to the **Send Request** block's **URL** port. This passes the new `has_next` value to the existing `URL` variable in the **Send Request** block.
+1. Also connect the **If** block's **TRUE** port to the **Send Request** block's Send port. This triggers the send event so it runs again.
 
     ![Connect the If block](https://assets.postman.com/postman-docs/v10/flow-connect-if-v10-4.jpg)
 
