@@ -107,13 +107,13 @@ This detailed tutorial builds a flow that gets a list of Pokémon, one page at a
     ![Select request](https://assets.postman.com/postman-docs/v10/flow-select-request-v10-3.jpg)
 
 1. Create a **String** block below the **Start** block and enter the URL `https://pokeapi.co/api/v2/pokemon?limit=200`.
-1. Connect the **String** block to the port next to **{{URL}}** on the **Send Request** block.
+1. Connect the **String** block to the input next to **{{URL}}** on the **Send Request** block.
 
     ![Add a String block](https://assets.postman.com/postman-docs/v10/flow-add-string-block-v10-3.jpg)
 
 ## Sending data to the **Output** block
 
-1. Connect a **Select** block to the **Success** port on the **Send Request** block.
+1. Connect a **Select** block to the **Success** output on the **Send Request** block.
 
     ![Add a Select block](https://assets.postman.com/postman-docs/v10/flow-add-select-v10-3.jpg)
 
@@ -136,11 +136,9 @@ This detailed tutorial builds a flow that gets a list of Pokémon, one page at a
 
 1. In the **Select** block you created, select **Enter path...** and select `body.next` to get the link to the next page of results.
 
-    ![Select `next`](https://assets.postman.com/postman-docs/v10/flow-select-next-v10.jpg)
+    ![Select `next`](https://assets.postman.com/postman-docs/v10/flow-select-next-v10-2.jpg)
 
-1. Create an **If** block to the right of the `body.next` **Select** block. Connect the `body.next` **Select** block to the **key** port. This creates a variable named `value1`.
-
-1. Also connect the `body.next` **Select** block to the **Data** port in the **If** block.
+1. Create an **If** block from the `body.next` **Select** block's output. The **Select** block automatically connects to the **If** block's **Data** input. Also connect the **Select** block to the **If** block's **key** input.
 
     ![Connect the **If** block](https://assets.postman.com/postman-docs/v10/flow-add-if-block-v10-4.gif)
 
@@ -152,8 +150,8 @@ This detailed tutorial builds a flow that gets a list of Pokémon, one page at a
 
     > If `has_next` is null, then the flow has reached the last page of results.
 
-1. Connect the **If** block's **TRUE** port to the **Send Request** block's **URL** port. This passes the new `has_next` value to the existing `URL` variable in the **Send Request** block.
-1. Also connect the **If** block's **TRUE** port to the **Send Request** block's Send port. This triggers the send event so it runs again.
+1. Connect the **If** block's **TRUE** output to the **Send Request** block's **URL** input. This passes the new `has_next` value to the existing `URL` variable in the **Send Request** block.
+1. Also connect the **If** block's **TRUE** ouptut to the **Send Request** block's **Send** input. This triggers the send event so it runs again.
 
     ![Connect the If block](https://assets.postman.com/postman-docs/v10/flow-connect-if-v10-4.jpg)
 

@@ -26,7 +26,7 @@ If you have several requests that have no dependency on each other but have to b
 
 > Check out the example flow: [Chaining requests](https://www.postman.com/postman/workspace/flows-snippets/flow/6267f9315d367a64e7ba06e5)
 
-1. **Add a Send Request block**
+1. **Add Send Request blocks**
 
    Select **+ Block** on the toolbar and select the **Send Request** block from the list to add it to your canvas, then select the request. Repeat this until all the requests are added to the canvas.
 
