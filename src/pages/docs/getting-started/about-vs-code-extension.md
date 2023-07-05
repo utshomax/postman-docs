@@ -23,6 +23,7 @@ The Postman VS Code extension enables you to develop and test your APIs in Postm
 * Import data with cURL commands.
 * Edit and send requests from a workspace's request history.
 * Create cookies and send them with requests.
+* Create and manage collections and environments
 
 To install and learn more about the VS Code extension, visit the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode).
 
