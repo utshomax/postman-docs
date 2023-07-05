@@ -28,28 +28,20 @@ If you have several requests that have no dependency on each other but have to b
 
 1. **Add Send Request blocks**
 
-   Select **+ Block** on the toolbar and select the **Send Request** block from the list to add it to your canvas, then select the request. Repeat this until all the requests are added to the canvas.
+   In a new flow, create three **Send Request** blocks with the **Success** outputs connected to the **Send** inputs.
 
-    ![Adding sequential requests](https://assets.postman.com/postman-docs/v10/updated-running-add-requests-v10-1.gif)
+    ![Add Send Request blocks](https://assets.postman.com/postman-docs/v10/flows-chain-requests-v10.gif)
 
-1. **Connect the send events**
+1. **Select the requests**
 
-   Select the dot (success output) of the source block and connect it to the send input of the target block in the order you want the requests to execute.
+   In each block, select the requests.
 
-   ![Connect send events](https://assets.postman.com/postman-docs/v10/updated-running-connect-send-events-v10.gif)
-
-   <!-- vale Postman.ComplexWords = NO -->
-   > **Important**
-   >
-   > 1. When a send event connection is made, the input becomes deactivated to show that it will get enabled after the previous blocks get enabled.
-   > 2. The send event connection depicts the order in which the blocks will be executed.
-   > 3. When using send event, no data is passed from one block to another.
-    <!-- vale Postman.ComplexWords = YES -->
+   ![Select requests](https://assets.postman.com/postman-docs/v10/flows-select-requests-v10.gif)
 
 1. **Start the flow**
 
-   Start the flow and see the requests run in the order they're configured:
+   Start the flow and see checkmarks appear on the requests as they execute in order:
 
-   ![Start the flow](https://assets.postman.com/postman-docs/v10/updated-running-run-with-send-events-v10.gif)
+   ![Start the flow](https://assets.postman.com/postman-docs/v10/flows-run-requests-v10.gif)
 
 If you want to use data from one request in another request, you can learn how to do so in [Passing data between blocks](/docs/postman-flows/tutorials/passing-data-between-blocks/).
