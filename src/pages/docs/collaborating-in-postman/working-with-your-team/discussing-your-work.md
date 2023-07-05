@@ -41,11 +41,11 @@ To add a comment to a collection, folder, or request, do the following:
 1. (Optional) Select the **Watch collection** checkbox to be notified when there are changes to the collection.
 1. Select **Comment** to add your comment.
 
-![Commenting on a collection](https://assets.postman.com/postman-docs/v10/commenting-on-a-collection-v10-16.jpg)
+![Commenting on a collection](https://assets.postman.com/postman-docs/v10/commenting-on-a-collection-v10-16a.jpg)
 
 ## Adding inline comments to a request
 
-Use inline comments to comment on a specific part of a request. You can add comments to query parameters, path parameters, headers, and request bodies. You can also add comments to parts of a pre-request script or a test script. When there are new inline comments, an orange dot appears on the comments icon in the request pane.
+Use inline comments to comment on a specific part of a request. You can add comments to query parameters, path parameters, headers, and request bodies. You can also add comments to parts of a pre-request script or a test script. When there are new inline comments, an orange dot appears on the comments icon <img alt="Inline comments icon" src="https://assets.postman.com/postman-docs/v10/icon-inline-comment-v10-16.jpg#icon" width="22px"> in the request pane.
 
 > To add a comment to a request, make sure to save the request first.
 
@@ -54,7 +54,7 @@ To add an inline comment to a request, do the following:
 1. Open the request you want to comment on.
 1. Switch to comment mode by selecting the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the request pane.
 
-    ![Switching to comment mode](https://assets.postman.com/postman-docs/v10/commenting-mode-v10-16.jpg)
+    ![Switching to comment mode](https://assets.postman.com/postman-docs/v10/commenting-mode-v10-16a.jpg)
 
 1. Select the part of the request you want to comment on and enter your comment.
 
@@ -64,7 +64,7 @@ To add an inline comment to a request, do the following:
 1. (Optional) Select the **Watch collection** checkbox to be notified when there are changes to the collection.
 1. Select **Comment** to add your comment.
 
-    ![Adding an inline comment](https://assets.postman.com/postman-docs/v10/commenting-inline-v10-16.jpg)
+    ![Adding an inline comment](https://assets.postman.com/postman-docs/v10/commenting-inline-v10-16a.jpg)
 
 ## Editing, deleting, or linking to a comment
 
@@ -77,7 +77,7 @@ You can edit or delete a comment, or a get a link to a comment you can share wit
     * Select **Edit** to make changes to the comment.
     * Select **Delete** to delete the comment.
 
-<img alt="Managing a comment" src="https://assets.postman.com/postman-docs/v10/api-builder-manage-comment-v10-16.jpg" width="443px" />
+<img alt="Managing a comment" src="https://assets.postman.com/postman-docs/v10/commenting-managing-v10-16.jpg" width="443px" />
 
 > If you have the Admin role for the workspace, you can delete comments made by any contributor, but you can't edit comments made by others.
 
@@ -95,7 +95,7 @@ To reply to a comment, do the following:
 1. (Optional) Select the **Watch collection** checkbox to be notified when there are changes to the collection.
 1. Enter your reply and select **Reply**.
 
-<img alt="Replying to a comment" src="https://assets.postman.com/postman-docs/v10/api-builder-reply-comment-v10-16.jpg" width="443px" />
+<img alt="Replying to a comment" src="https://assets.postman.com/postman-docs/v10/commenting-replying-v10-16.jpg" width="443px" />
 
 ## Resolving comments
 
@@ -104,7 +104,7 @@ You can resolve a comment after it's been addressed.
 1. Select a collection, folder, or request in the sidebar, then select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
 1. Select the resolve icon <img alt="Resolve comment icon" src="https://assets.postman.com/postman-docs/v10/icon-resolve-comment-v10.jpg#icon" width="18px"> to resolve a comment and any associated replies.
 
-<img alt="Resolving a comment" src="https://assets.postman.com/postman-docs/v10/api-builder-resolve-comment-v10-16.jpg" width="443px" />
+<img alt="Resolving a comment" src="https://assets.postman.com/postman-docs/v10/commenting-resolving-v10-16.jpg" width="443px" />
 
 > You can't undo resolving a comment, but you can view resolved comments by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px"> in the comments pane.
 
