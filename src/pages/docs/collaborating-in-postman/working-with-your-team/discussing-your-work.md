@@ -20,42 +20,34 @@ Use comments to discuss your work with your teammates in Postman. You can add co
 
 ## Contents
 
-* [Commenting on a collection](#commenting-on-a-collection)
-* [Commenting on a request](#commenting-on-a-request)
-* [Commenting on a folder](#commenting-on-a-folder)
+* [Commenting on a collection, folder, or request](#commenting-on-a-collection-folder-or-request)
+* [Adding inline comments to a request](#adding-inline-comments-to-a-request)
 * [Editing, deleting, or linking to a comment](#editing-deleting-or-linking-to-a-comment)
 * [Replying to comments](#replying-to-comments)
 * [Resolving comments](#resolving-comments)
 * [Mentioning teammates in comments](#mentioning-teammates-in-comments)
 * [Using Markdown in comments](#using-markdown-in-comments)
 
-## Commenting on a collection
+## Commenting on a collection, folder, or request
 
-You can add comments to a collection in Postman. You must have access to a collection to add comments to it.
+You can add one or more comments to a collection in Postman. You can also add comments to a request or a folder within a collection. When you add a comment, other collection contributors will receive an email notification about your comment.
 
-1. Select **Collections** in the sidebar and select the collection you want to comment on.
-1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
-1. Enter your comment and select **Comment**.
+> You must have access to a collection to add comments to it.
+
+To add a comment to a collection, folder, or request, do the following:
+
+1. Select **Collections** in the sidebar and select the collection, folder, or request you want to comment on.
+1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar and enter your comment.
+1. (Optional) Select the **Watch collection** checkbox to be notified when there are changes to the collection.
+1. Select **Comment** to add your comment.
 
 ![Commenting on a collection](https://assets.postman.com/postman-docs/v10/commenting-on-a-collection-v10-16.jpg)
 
-## Commenting on a request
+## Adding inline comments to a request
 
-You can add comments to requests in Postman. You can add a comment at the [request level](#adding-a-comment-to-a-request). You can also add an [inline comment](#adding-an-inline-comment-to-a-request) to a specific part of the request, such as a request parameter or a test script.
+Use inline comments to comment on a specific part of a request. You can add comments to query parameters, path parameters, headers, and request bodies. You can also add comments to parts of a pre-request script or a test script.
 
 > To add a comment to a request, make sure to save the request first.
-
-### Adding a comment to a request
-
-1. Open the request you want to comment on.
-1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
-1. Enter your comment and select **Comment**.
-
-![Commenting on a request](https://assets.postman.com/postman-docs/v10/commenting-on-a-request-v10-16.jpg)
-
-### Adding an inline comment to a request
-
-Switch to comment mode to add a comment to a specific part of a request. You can add comments to query parameters, path parameters, headers, and request bodies (form-data, x-www-form-urlencoded, and raw). You can also add comments to a pre-request script or a test script.
 
 To add an inline comment to a request, do the following:
 
@@ -64,20 +56,15 @@ To add an inline comment to a request, do the following:
 
     ![Switching to comment mode](https://assets.postman.com/postman-docs/v10/commenting-mode-v10-16.jpg)
 
-1. Select the item or highlight the text where you want to add a comment.
-1. Enter your comment and select **Comment**.
+1. Select the part of the request you want to comment on and enter your comment.
+
+    * You can select a query parameter, path parameter, header, or request body (form-data and x-www-form-urlencoded).
+    * You can also select text within a request header (raw), pre-request script, or test script.
+
+1. (Optional) Select the **Watch collection** checkbox to be notified when there are changes to the collection.
+1. Select **Comment** to add your comment.
 
     ![Adding an inline comment](https://assets.postman.com/postman-docs/v10/commenting-inline-v10-16.jpg)
-
-## Commenting on a folder
-
-You can add comments to a folder inside a collection.
-
-1. In the sidebar, select the folder you want to comment on.
-1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
-1. Enter your comment and select **Comment**.
-
-![Commenting on a folder](https://assets.postman.com/postman-docs/v10/commenting-on-a-folder-v10-16.jpg)
 
 ## Editing, deleting, or linking to a comment
 
