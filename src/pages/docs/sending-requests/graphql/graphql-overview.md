@@ -16,8 +16,14 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
+    name: "Building secure GraphQL APIs"
+    url: "https://blog.postman.com/building-secure-graphql-apis-at-ndc-oslo-conference/"
+  - type: link
     name: "Don’t Panic: A Developer’s Guide to Building Secure GraphQL APIs"
     url: "https://blog.postman.com/how-to-build-secure-graphql-apis/"
+  - type: link
+    name: "Emerging trends in GraphQL APIs: the technology powering the future of data exchange"
+    url: "https://blog.postman.com/emerging-trends-graphql-apis-technology-future-of-data-exchange/"
   - type: subtitle
     name: "Public workspaces"
   - type: link

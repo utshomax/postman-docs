@@ -9,6 +9,9 @@ contextual_links:
   - type: link
     name: "Hands-on Learning with Postman Quickstarts | Postman Level Up"
     url:  "https://youtu.be/Z66shtMybBk"
+  - type: link
+    name: "Postman Student Programs - Developer Resources for Students by Students!"
+    url:  "https://www.youtube.com/live/_QsMVO8dc1s?feature=share"
   - type: subtitle
     name: "Blog posts"
   - type: link
@@ -17,6 +20,9 @@ contextual_links:
   - type: link
     name: "How to build an API"
     url: "https://blog.postman.com/how-to-build-an-api/"
+  - type: link
+    name: "How to create a REST API with Node.js and Express"
+    url: "https://blog.postman.com/how-to-create-a-rest-api-with-node-js-and-express/"
 ---
 
 If you're starting to learn about APIs and Postman, you can use a variety of resources both in and outside Postman:
