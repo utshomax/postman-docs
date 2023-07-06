@@ -18,8 +18,8 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Introducing the New Postman CLI to Automate Your API Testing"
-    url: "https://blog.postman.com/introducing-the-postman-cli-to-automate-your-api-testing/"
+    name: "Streamline your API release process with the Postman CLI"
+    url: "https://blog.postman.com/streamline-your-api-release-process-with-the-postman-cli/"
   - type: link
     name: "Making the switch: empowering manual testers to automate their API tests"
     url: "https://blog.postman.com/switching-from-manual-to-automated-api-testing/"

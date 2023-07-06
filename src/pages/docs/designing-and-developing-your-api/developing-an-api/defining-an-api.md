@@ -14,11 +14,8 @@ contextual_links:
     name: "Develop an API Definition"
     url: "https://youtu.be/-2bMT1EntD8"
   - type: link
-    name: "API Fest 2022 | Workshop by Kin Lane on Designing API Schemas"
-    url: "https://youtu.be/gGOB3oM2cE4"
-  - type: link
-    name: "OpenAPI 3.0: From Idea to Implementation"
-    url: "https://www.youtube.com/live/JEBd78U9aBo?feature=share"
+    name: "A Few JSON Schema Tips & Tricks: Getting Started"
+    url: "https://www.youtube.com/live/QiAXxaLrt7E?feature=share"
   - type: subtitle
     name: "Blog posts"
   - type: link
