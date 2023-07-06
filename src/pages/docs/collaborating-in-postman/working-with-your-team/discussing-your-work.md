@@ -114,7 +114,7 @@ If you leave feedback or a question for a specific teammate, you can let them kn
 
 When you mention a teammate in a comment, Postman sends them a notification. Select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header to view in-app notifications.
 
-> If your teammate doesn't have access to the collection they've been mentioned on, they'll need to [request access](/docs/collaborating-in-postman/requesting-access-to-elements/) before they can read the comment.
+> If your teammate doesn't have access to the collection they've been mentioned in, they'll need to [request access](/docs/collaborating-in-postman/requesting-access-to-elements/) before they can read the comment.
 
 ## Using Markdown in comments
 
