@@ -12,11 +12,14 @@ contextual_links:
   - type: link
     name: "Postman Level Up | Moving Elements in Postman"
     url: "https://youtu.be/OOkKkH5bXHg"
+  - type: link
+    name: "Consuming REST APIs | Postman Enterprise"
+    url: "https://youtu.be/oI-GyWB_6jA"
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Giant Machines"
-    url: "https://www.postman.com/case-studies/giant-machines/"
+    name: "PayPal uses workspaces for private views"
+    url: "https://www.postman.com/case-studies/paypal/"
 ---
 
 Use workspaces to organize your work in Postman and collaborate with teammates ([or the world](/docs/collaborating-in-postman/using-workspaces/public-workspaces/)). Workspaces group together various elements such as collections, APIs, environments, mock servers, and monitors. A particular element can exist in a single workspace at most. Access to elements in a workspace is controlled by [workspace roles](#managing-workspace-roles).

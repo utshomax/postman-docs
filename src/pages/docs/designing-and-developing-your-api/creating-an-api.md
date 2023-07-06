@@ -7,20 +7,14 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Designing APIs | Postman Enterprise"
+    url: "https://youtu.be/IRl40Nl8dwo"
+  - type: link
     name: "Postman Intergalactic | Design and Prototype an API in Postman"
     url: "https://youtu.be/r4kb3jOSsmk"
   - type: link
     name: "API Builder | The Exploratory"
     url: "https://youtu.be/BUZiRtGRHj0"
-  - type: link
-    name: "API Fest 2022 | Workshop on Designing API Schemas"
-    url: "https://youtu.be/gGOB3oM2cE4"
-  - type: link
-    name: "API Fest 2022 | Workshop on Coding an API using an API Schema"
-    url: "https://youtu.be/RMiG9tzw5tg"
-  - type: link
-    name: "OpenAPI 3.0: From Idea to Implementation"
-    url: "https://www.youtube.com/live/JEBd78U9aBo?feature=share"
   - type: subtitle
     name: "Blog posts"
   - type: link
@@ -35,7 +29,7 @@ To start using the API Builder, you can create a new API in your workspace. You 
 ## Contents
 
 * [Creating an API](#creating-an-api)
-* [Updating an API](#updating-an-api)
+* [Upgrading an API](#upgrading-an-api)
 * [Renaming an API](#renaming-an-api)
 * [Deleting an API](#deleting-an-api)
 
@@ -59,9 +53,15 @@ To start using the API Builder, you can create a new API in your workspace. You 
 
 > Postman supports OpenAPI (versions 1.0, 2.0, 3.0, and 3.1), RAML (0.8 and 1.0), protobuf (protocol buffer) (2.0 and 3.0), GraphQL, or WSDL (1.0 and 2.0) definitions. OpenAPI definitions can be JSON or YAML. RAML definitions must be YAML. Protobuf definitions are `.proto` files. GraphQL definitions can be JSON or GraphQL SDL. WSDL definitions must be XML.
 
-## Updating an API
+## Upgrading an API
 
-Postman v10 can display APIs created in prior versions of Postman. To work with the API in Postman v10, you'll be asked to upgrade the API when you make changes to it. For example, adding a collection, adding a definition file, and working with a connected Git repository.
+> **Postman recommends upgrading your APIs to the latest format.** The Postman v9 API format has been deprecated. If you have v9 APIs, you can upgrade them to the v10 format. After upgrading, you can continue working with your APIs in Postman. In the future, all APIs that are still in v9 format will be automatically upgraded to v10.
+>
+> The Postman API v9 endpoints have also been deprecated. Any workflows that use the v9 endpoints will no longer work with an API that's been upgraded to the v10 format. Instead, use the [new Postman API v10 endpoints](/docs/developer/postman-api/intro-api/#about-v9-and-v10-apis) for your workflows.
+
+Postman v10 can display APIs created in prior versions of Postman. To work with the API in Postman v10, you need to upgrade the API to the new v10 format. You'll be prompted to upgrade the API when you make changes to it, for example, adding a collection, adding a definition, or connecting to a Git repository. Select **Upgrade this API** to complete the upgrade.
+
+<img alt="Upgrading an API to v10" src="https://assets.postman.com/postman-docs/v10/api-builder-upgrade-v10.jpg" width ="618px"/>
 
 There are some differences in the way API versions work in Postman v10 compared to v9:
 

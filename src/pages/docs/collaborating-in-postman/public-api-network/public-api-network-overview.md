@@ -1,6 +1,25 @@
 ---
 title: "Public API Network overview"
 updated: 2023-03-30
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Discovering APIs | Postman Enterprise"
+    url: "https://youtu.be/e1v647ayIBg"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "How to publish and market your API to maximize adoption"
+    url: "https://blog.postman.com/how-to-publish-and-market-your-api-to-maximize-adoption/"
+  - type: link
+    name: "Top 30 APIs for best developer experience"
+    url: "https://blog.postman.com/top-30-apis-for-best-developer-experience/"
+  - type: link
+    name: "These top database APIs make working with data easy"
+    url: "https://blog.postman.com/database-apis/"
 ---
 
 Make your API available on [the Public API Network](/docs/getting-started/exploring-public-api-network/) to share your APIs with 20M+ users in the world’s largest public API network. Your API is searchable in the Postman app when it's available on the Public API Network. If API consumers actively watch and fork your API, it'll be featured on Postman's [Explore](https://www.postman.com/explore) page.

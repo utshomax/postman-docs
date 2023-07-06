@@ -15,6 +15,9 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
+    name: "PayPal uses SCIM to onboard developers"
+    url: "https://www.postman.com/case-studies/paypal/"
+  - type: link
     name: "Western Governors University (WGU) uses SCIM to create teams"
     url: "https://www.postman.com/case-studies/wgu/"
 ---

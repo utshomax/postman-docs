@@ -10,19 +10,19 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Postman 101 for Admins | Webinar"
-    url: "https://youtu.be/rEKvQO8EYR8"
-  - type: link
     name: "Working With Your Team in Postman | The Exploratory"
     url: "https://youtu.be/5lscUV-Exac"
   - type: link
     name: "Super Admin Role for Enterprise | Postman Level Up"
     url: "https://youtu.be/SbvSAvs0Ii8"
+  - type: link
+    name: "Securing APIs | Postman Enterprise"
+    url: "https://youtu.be/tiYgp4QEwZQ"
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Manage large teams in Postman with workspaces, permissions & more"
-    url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"
+    name: "Managing team members and roles in Postman just got easier"
+    url: "https://blog.postman.com/managing-team-members-and-roles-in-postman-just-got-easier/"
   - type: subtitle
     name: "Case Studies"
   - type: link

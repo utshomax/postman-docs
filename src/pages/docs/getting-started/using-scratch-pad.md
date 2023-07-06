@@ -13,6 +13,11 @@ contextual_links:
   - type: link
     name: "Importing Data from the Scratchpad | Postman Level Up"
     url: "https://youtu.be/GZWf7F-aVDc"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Announcing the new lightweight Postman API Client and sunsetting Scratch Pad"
+    url: "https://blog.postman.com/announcing-new-lightweight-postman-api-client/"
 ---
 
 The _Scratch Pad_ is a space where you can work if you're using the Postman desktop app and not connected to Postman servers. When you aren't signed in or don't have a network connection, you can still access some Postman features offline, such as creating collections and requests, or sending requests.
