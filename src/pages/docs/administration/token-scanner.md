@@ -92,6 +92,6 @@ It's recommended you delete the exposed API key in your [API keys dashboard](htt
 
 > This feature is available on GitLab Ultimate plans.
 
-Postman works with GitLab to protect your Postman API keys in GitLab public repositories. If you accidentally commit a valid Postman API key to a public GitLab repository, Postman notifies you by email.
+Postman works with GitLab to protect your Postman API keys in GitLab public repositories. If you accidentally commit a valid Postman API key to a public GitLab repository, Postman notifies you by email and in-app notification.
 
 It's recommended you delete the exposed API key in your [API keys dashboard](https://go.postman.co/settings/me/api-keys) immediately. You can then [generate a new API key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key) to continue working with the Postman API.
