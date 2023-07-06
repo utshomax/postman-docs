@@ -9,6 +9,11 @@ contextual_links:
   - type: link
     name: "Working With Your Team in Postman | The Exploratory"
     url: "https://youtu.be/5lscUV-Exac"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Introducing tags: the new way to navigate in Postman"
+    url: "https://blog.postman.com/introducing-tags-the-new-way-to-navigate-in-postman/"
 ---
 
 When you [define your APIs](/docs/designing-and-developing-your-api/the-api-workflow/) in Postman using the API Builder, each API is associated with a workspace. You can share access to your APIs, discuss them in comments, and view schema activity.

@@ -15,6 +15,11 @@ contextual_links:
   - type: link
     name: "Testing APIs | Postman Enterprise"
     url: "https://youtu.be/-Nkvs69-LNE"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Streamline your API release process with the Postman CLI"
+    url: "https://blog.postman.com/streamline-your-api-release-process-with-the-postman-cli/"
 warning: false
 tags:
   - "Postman CLI"

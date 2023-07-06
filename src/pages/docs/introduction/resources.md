@@ -20,6 +20,9 @@ contextual_links:
   - type: link
     name: "How to build an API"
     url: "https://blog.postman.com/how-to-build-an-api/"
+  - type: link
+    name: "How to create a REST API with Node.js and Express"
+    url: "https://blog.postman.com/how-to-create-a-rest-api-with-node-js-and-express/"
 ---
 
 If you're starting to learn about APIs and Postman, you can use a variety of resources both in and outside Postman:
