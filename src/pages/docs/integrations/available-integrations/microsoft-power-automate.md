@@ -83,7 +83,7 @@ To back up a collection in Microsoft Power Automate, do the following:
 
 1. Select **Add Integration**.
 
-Postman often checks your collection for changes. If Postman identifies changes when it checks your collection, the changes are automatically sent to Microsoft Power Automate.
+Postman often checks your collection for changes. If Postman identifies changes when it checks your collection, the changes automatically send to Microsoft Power Automate.
 
 ### Add a collection activity feed to Microsoft Power Automate
 
