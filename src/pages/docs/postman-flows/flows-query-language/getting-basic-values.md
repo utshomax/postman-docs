@@ -1,6 +1,19 @@
 ---
 title: "Getting basic values"
 updated: 2023-03-29
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Flows Query Language (FQL) | Postman Flows"
+    url:  "https://youtu.be/4KDQM8gv7PM"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Advanced FQL expressions in Postman Flows"
+    url: "https://blog.postman.com/advanced-fql-expressions-in-postman-flows/"
 ---
 
 FQL uses location path syntax to extract values from JSON structures. The following examples demonstrate several examples of getting basic values from JSON data.
