@@ -10,8 +10,8 @@ contextual_links:
     name: "Intro to Postman | Advanced API Tests"
     url: "https://youtu.be/vVDZxeS865g"
   - type: link
-    name: "An Introduction for Testers | Postman Intergalactic"
-    url: "https://youtu.be/EwlBogHckP0"
+    name: "Advanced API testing: Best Practices and Automation Techniques | Postman Intergalactic"
+    url: "https://youtu.be/Ix6z1kBweuk"
   - type: link
     name: "15 Days of Postman for Testers | Test Challenge"
     url: "https://youtu.be/3_w2Bz0BnlY"

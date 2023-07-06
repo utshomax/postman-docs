@@ -12,6 +12,9 @@ contextual_links:
   - type: link
     name: "API Security and Governance Part 2: Customizing Governance with Spectral Rulesets"
     url: "https://youtu.be/TDOuZcKQId4"
+  - type: link
+    name: "Set Up Enterprise-Wide API Governance with .NET Core + Spectral | Postman Enterprise"
+    url: "https://youtu.be/2zLoW_p0OFQ"
   - type: subtitle
     name: "Blog posts"
   - type: link

@@ -1,8 +1,6 @@
 ---
 title: "Importing data files"
-order: 58
-updated: 2022-07-18
-page_id: "working_with_data_files"
+updated: 2023-06-21
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -21,9 +19,6 @@ contextual_links:
   - type: link
     name: "Reputation imports data files with Postman"
     url: "https://www.postman.com/case-studies/reputation/"
-
-warning: false
-
 ---
 
 You can use data files to pass Postman sets of values to use in a collection run. By selecting a JSON or CSV data file in the Collection Runner, you can test your requests with multiple values as part of a single run.
@@ -74,8 +69,16 @@ See the [Sandbox Reference](/docs/writing-scripts/script-references/postman-sand
 
 You may encounter errors when Postman attempts to read your data file during a collection run. If this happens, you can take the following steps:
 
-1. Ensure your data file is formatted correctly, as either CSV or JSON.
+* Ensure your data file is formatted as either CSV or JSON.
 
-1. Confirm your data file is encoded properly, by opening your data file in a text editor and saving the file in a different format.
+* If you want to keep large numbers or numbers with leading zeros, specify them as a string in the CSV file by wrapping the number in double quotes as follows:
+
+  ```csv
+  index,specialNumber
+  1,"000001"
+  2,"9223372036854775807"
+  ```
+
+* To ensure the correct encoding of your data file, open the file in a text editor and save it in a different format.
 
 If the errors persist, [contact the Postman support team](https://support.postman.com/hc/en-us).

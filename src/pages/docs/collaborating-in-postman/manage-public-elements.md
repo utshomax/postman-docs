@@ -5,6 +5,11 @@ contextual_links:
   - type: section
     name: "Additional resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Discovering APIs | Postman Enterprise"
+    url: "https://youtu.be/e1v647ayIBg"
+  - type: subtitle
     name: "Blog posts"
   - type: link
     name: "Introducing Public Workspace Summary Emails"
