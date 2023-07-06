@@ -138,7 +138,7 @@ To manage API comments, select an API or a definition file in the sidebar, then 
 
 Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a  comment and do one of the following:
 
-* Select **Copy link** to get a direct link to the comment.
+* Select **Copy link** to get a direct link to the comment. Share the link with your teammates so they can view or reply to the comment.
 * Select **Edit** to make changes to the comment.
 * Select **Delete** to delete the comment.
 
