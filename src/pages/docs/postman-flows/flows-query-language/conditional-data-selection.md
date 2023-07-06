@@ -1,6 +1,19 @@
 ---
 title: "Selecting conditional data"
 updated: 2023-03-29
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Flows Query Language (FQL) | Postman Flows"
+    url:  "https://youtu.be/4KDQM8gv7PM"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Advanced FQL expressions in Postman Flows"
+    url: "https://blog.postman.com/advanced-fql-expressions-in-postman-flows/"
 ---
 
 You can use [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to filter for specific data in your responses. Multiple responses return in an array. Single responses return as a single record. Sample data and FQL examples are below.

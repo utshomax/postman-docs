@@ -4,6 +4,19 @@ updated: 2022-10-18
 warning: false
 tags:
   - "Postman CLI"
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Run collections with Postman CLI | The Exploratory"
+    url: "https://youtu.be/DKxCVo1_ELg"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Streamline your API release process with the Postman CLI"
+    url: "https://blog.postman.com/streamline-your-api-release-process-with-the-postman-cli/"
 ---
 
 Commands and options for using the Postman CLI.

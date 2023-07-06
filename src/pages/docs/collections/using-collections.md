@@ -7,14 +7,14 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Group Requests in Collections | Postman Level Up"
-    url: "https://youtu.be/ghHX4FGvVyA"
-  - type: link
     name: "Create a Postman Collection | Postman Level Up"
     url: "https://youtu.be/NlrPjuXEaZ8"
   - type: link
     name: "Use Collection and Workspace Templates"
     url: "https://youtu.be/QAIH1D203Wg"
+  - type: link
+    name: "Postman Collections | The Exploratory"
+    url: "https://youtu.be/GtGQ3YsOrt4"
   - type: dynamic_blog
     name: "Blog posts"
     blog_tag: "collections"
