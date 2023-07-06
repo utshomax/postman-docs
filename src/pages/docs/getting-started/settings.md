@@ -1,6 +1,6 @@
 ---
 title: "Setting up Postman"
-updated: 2023-05-15
+updated: 2023-07-15
 search_keyword: "GPU, hardware acceleration, shortcut, shortcuts, keyboard shortcuts"
 contextual_links:
   - type: section
@@ -32,7 +32,7 @@ To change settings in Postman, select the settings icon <img alt="Settings icon"
 * [Certificates](#certificates)
 * [Connected accounts](#connected-accounts)
 * [Proxy](#proxy)
-* [Update](#update)
+* [App updates](#app-updates)
 * [About](#about)
 
 ## General
@@ -45,12 +45,11 @@ Use the settings on the **General** tab to configure how Postman sends requests 
 
 * **Trim keys and values in request body** - Turn this on to trim parameters when sending requests with form data or url-encoded data.
 * **SSL certificate verification** - Turn this off to prevent Postman from checking the validity of SSL certificates when making requests.
-* **Always open sidebar item in new tab** - By default, when you select a sidebar item, Postman opens it in the preview tab. Turn this on to always open sidebar items in a new tab.
-* **Always ask when closing unsaved tabs** - By default, Postman asks if you want to save any unsaved changes when closing a tab. Turn this off to always discard unsaved changes when closing a tab.
-* **Language detection** - By default, Postman automatically detects the correct media type for the response body based on the Content-Type header. Select **JSON** to always use JSON rendering for the response body.
-* **Request Timeout in ms** - Enter how long (in milliseconds) Postman will wait for a response before timing out. If you enter **0**, Postman will wait for a response forever.
-* **Max response size in MB** - Enter the largest response size (in megabytes) that Postman will download. For responses that exceed this limit, Postman asks if you want to increase the size limit or download the response. If you enter **0**, Postman downloads responses of any size. Rendering large responses may affect Postman's performance.
-* **Request Validation** - When this is turned on, Postman automatically validates requests in collections linked to an API. Postman compares requests to the API definition and alerts you to any inconsistencies. Learn more about [validating requests and responses](/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/).
+* **Language detection** - By default, Postman automatically detects the correct media type for the response body based on the `Content-Type` header. Select **JSON** to always use JSON rendering for the response body.
+* **Request Timeout** - Enter how long (in milliseconds) Postman will wait for a response before timing out. If you enter **0**, Postman will wait for a response forever.
+* **Max response size** - Enter the largest response size (in megabytes) that Postman will download. For responses that exceed this limit, Postman asks if you want to increase the size limit or download the response. If you enter **0**, Postman downloads responses of any size. Rendering large responses may affect Postman's performance.
+* **Request validation** - When this is turned on, Postman automatically validates requests in collections linked to an API. Postman compares requests to the API definition and alerts you to any inconsistencies. Learn more about [validating requests and responses](/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/).
+* **Show security warnings count** - When this is turned on, Postman shows the number of security warnings that were found after sending a request. Security warnings are shown on the **Security** tab in the response. Learn more about [viewing security warnings for API requests](https://learning.postman.com/docs/api-governance/api-testing/api-testing-warnings/).
 
 ### Working directory
 
@@ -70,7 +69,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 **The working directory is also used by Newman.** Store files you want to upload to Newman in the working directory path saved in the collection. Learn more about [file uploads in Newman](/docs/collections/using-newman-cli/newman-file-uploads/).
 
-**Use caution with files located outside your working directory.** To use files located outside your working directory when sending requests, turn on **Allow reading files outside working directory**. This option gives third-party collections the ability to read any file on your system. Use caution, and make sure you trust all third-party collections you are using before enabling this option.
+**Use caution with files located outside your working directory.** To use files located outside your working directory when sending requests, turn on **Read files outside working directory**. This option gives third-party collections the ability to read any file on your system. Use caution, and make sure you trust all third-party collections you are using before enabling this option.
 
 ### Headers
 
@@ -82,17 +81,19 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 ### User interface
 
 * **Remove tabs** - _(Postman web app)_ Use tabs in your browser to navigate Postman instead of in-app tabs. For more information, see [Browser tabs in the Postman web app](/docs/getting-started/navigating-postman/#browser-tabs-in-the-postman-web-app).
+* **Always open sidebar item in new tab** - By default, when you select a sidebar item, Postman opens it in the preview tab. Turn this on to always open sidebar items in a new tab.
+* **Always ask when closing unsaved tabs** - By default, Postman asks if you want to save any unsaved changes when closing a tab. Turn this off to always discard unsaved changes when closing a tab.
 * **Two-pane view** - By default, Postman displays responses below requests. Turn this on to display the response and request panes side by side.
 * **Show icons with tab names** - Turn this off to hide the icons that appear next to tab names.
 * **Variable autocomplete** - Turn this on to enable autocomplete when typing variable names.
-* **Default documentation editor** - Select the default editor you want to use for [editing documentation descriptions](/docs/publishing-your-api/authoring-your-documentation/) in Postman (Postman editor or Markdown editor).
+* **Default documentation editor** - Select the default editor you want to use for [editing documentation descriptions](/docs/publishing-your-api/authoring-your-documentation/) in Postman (**Postman editor** or **Markdown editor**).
 
 ### Editor settings
 
 **Editor** settings affect code-related text such as request and response bodies, pre-request scripts, and tests. To revert back to default text settings, select **Reset**.
 
-* **Font Family** - Enter one or more font family names separated by commas. Postman uses the first available font family to display code text.
-* **Font Size (`px`)** - Enter the font size in pixels to use for code text.
+* **Font family** - Enter one or more font family names separated by commas. Postman uses the first available font family to display code text.
+* **Font Size** - Enter the font size in pixels to use for code text.
 * **Indentation count** - Enter the number of indentation characters to use for each code level.
 * **Indentation type** - Select the indentation character type to use (**Space** or **Tab**).
 * **Auto close brackets** - Turn this on to automatically add a closing bracket when you enter an opening bracket.
@@ -100,12 +101,13 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 ### Application
 
+* **Autosave** - Turn this on to automatically save any changes you make to requests and collections.
 * **Send anonymous usage data to Postman** - Postman gathers basic, anonymous usage data to help with product improvement. Turn this off to stop sending anonymous usage data to Postman.
-* **Connection Mode** - Configure how to connect to Postman servers using either **Auto** (default) or **HTTP**.
+* **Connection mode** - Configure how to connect to Postman servers using either **Auto** (default) or **HTTP**.
 
 ## Themes
 
-Select a **Light** or **Dark** theme for Postman. If you're using the Postman desktop app, you can also select **System Default**, which syncs your Postman theme to your operating system settings.
+Select a **Light** or **Dark** theme for Postman. You can also select **System Default**, which syncs your Postman theme to your operating system settings.
 
 <img alt="Select a theme" src="https://assets.postman.com/postman-docs/v10/settings-theme-v10.jpg" width="700px"/>
 
@@ -136,7 +138,7 @@ If you have data on the [Scratch Pad](/docs/getting-started/using-scratch-pad/),
 
 ## Add-ons
 
-Select the link to download Newman, Postman's command line companion. Newman integrates your Postman collections with your build system and runs automated API tests. Learn more about [command line integration with Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/).
+Select **Download Newman from npm** to download Newman, Postman's command line companion. Newman integrates your Postman collections with your build system and runs automated API tests. Learn more about [command line integration with Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/).
 
 ## Certificates
 
@@ -160,7 +162,7 @@ You can manage your saved accounts and tokens on the **Connected accounts** tab:
 
 Use the **Proxy** tab to configure proxy settings for connecting to online services and sending API requests. Learn more about [configuring a proxy](/docs/getting-started/proxy/).
 
-## Update
+## App updates
 
 Use the **Update** tab to check for updates to the Postman desktop app or to enable automatic updating. Learn more about [updating Postman](/docs/getting-started/installation-and-updates/#updating-postman).
 
