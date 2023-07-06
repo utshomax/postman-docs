@@ -5,6 +5,11 @@ contextual_links:
   - type: section
     name: "Additional resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Install the Postman VS Code Extension | Postman Level Up"
+    url: "https://youtu.be/-UuC4rpe0Nk"
+  - type: subtitle
     name: "Blog posts"
   - type: link
     name: "Introducing the Postman VS Code extension"

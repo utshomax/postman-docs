@@ -16,8 +16,8 @@ contextual_links:
     name: "Testing APIs | Postman Enterprise"
     url: "https://youtu.be/-Nkvs69-LNE"
   - type: link
-    name: "Review Test Results in Postman | The Exploratory"
-    url: "https://youtu.be/S3GKLTVRtmE"
+    name: "Advanced API testing: Best Practices and Automation Techniques | Postman Intergalactic"
+    url: "https://youtu.be/Ix6z1kBweuk"
   - type: dynamic_blog
     name: "Blog posts"
     blog_tag: "testing"

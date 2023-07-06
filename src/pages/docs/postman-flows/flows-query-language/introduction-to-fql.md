@@ -9,6 +9,11 @@ contextual_links:
   - type: link
     name: "Flows Query Language (FQL) | Postman Flows"
     url:  "https://youtu.be/4KDQM8gv7PM"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Advanced FQL expressions in Postman Flows"
+    url: "https://blog.postman.com/advanced-fql-expressions-in-postman-flows/"
 ---
 
 _Flows Query Language_ (FQL) can be used to parse and transform JSON data to get the fields and structure you want.

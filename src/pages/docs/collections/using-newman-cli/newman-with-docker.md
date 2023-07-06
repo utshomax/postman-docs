@@ -5,6 +5,11 @@ contextual_links:
   - type: section
     name: "Additional resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Testing and Deploying APIs with Docker and Postman"
+    url: "https://www.youtube.com/live/AB78LyHtmHU?feature=share"
+  - type: subtitle
     name: "Blog posts"
   - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
