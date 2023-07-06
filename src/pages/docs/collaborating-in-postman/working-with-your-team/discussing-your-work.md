@@ -1,6 +1,6 @@
 ---
 title: "Discussing your work"
-updated: 2021-07-15
+updated: 2023-07-15
 contextual_links:
   - type: section
     name: "Additional resources"
