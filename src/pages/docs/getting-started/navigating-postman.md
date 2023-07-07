@@ -20,6 +20,9 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
+    name: "Introducing tags: the new way to navigate in Postman"
+    url: "https://blog.postman.com/introducing-tags-the-new-way-to-navigate-in-postman/"
+  - type: link
     name: "Introducing Bulk Actions on Postman’s Sidebar"
     url: "https://blog.postman.com/introducing-sidebar-bulk-actions/"
   - type: link

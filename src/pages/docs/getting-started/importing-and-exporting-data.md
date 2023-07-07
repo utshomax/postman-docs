@@ -149,7 +149,7 @@ To import data from a remote GitHub repository:
 
 1. Confirm or sign in to your GitHub account and authorize **postmanlabs** to access your repositories if necessary.
 
-   > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#managing-connected-accounts-for-remote-repositories).
+   > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/#managing-connected-accounts-for-remote-repositories).
 
 1. In Postman, select your GitHub organization, repository, and branch, then select **Continue**.
 
@@ -181,7 +181,7 @@ To import data from a remote Bitbucket repository:
 
 1. Confirm or sign in to your Bitbucket account and authorize **postmanlabs** to access your repositories if necessary.
 
-   > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#managing-connected-accounts-for-remote-repositories).
+   > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/#managing-connected-accounts-for-remote-repositories).
 
 1. In Postman, select your Bitbucket workspace, repository, and branch, then select **Continue**.
 
@@ -213,7 +213,7 @@ To import data from a remote GitLab repository:
 
 1. Confirm or sign in to your GitLab account and authorize **postmanlabs** to access your repositories if necessary.
 
-   > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#managing-connected-accounts-for-remote-repositories).
+   > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/#managing-connected-accounts-for-remote-repositories).
 
 1. In Postman, select your GitLab organization, project, and branch, then select **Continue**.
 
@@ -245,7 +245,7 @@ To import data from a remote Azure DevOps repository:
 
 1. Confirm or sign in to your Azure DevOps account and authorize **postmanlabs** to access your repositories if necessary.
 
-   > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#managing-connected-accounts-for-remote-repositories).
+   > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/#managing-connected-accounts-for-remote-repositories).
 
 1. In Postman, select your Azure DevOps workspace, repository, and branch, then select **Continue**.
 
