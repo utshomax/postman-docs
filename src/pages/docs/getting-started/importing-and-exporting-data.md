@@ -1,6 +1,6 @@
 ---
 title: 'Importing and exporting data'
-updated: 2023-06-15
+updated: 2023-07-15
 contextual_links:
   - type: section
     name: "Additional resources"

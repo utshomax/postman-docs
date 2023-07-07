@@ -1,8 +1,6 @@
 ---
 title: "Working with certificates"
-order: 29
-updated: 2022-03-24
-page_id: "certificates"
+updated: 2023-07-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -11,9 +9,6 @@ contextual_links:
   - type: link
     name: "Encryption, SSL/TLS, and Managing Your Certificates in Postman"
     url: "https://blog.postman.com/encryption-ssl-tls-and-managing-your-certificates-in-postman/"
-
-warning: false
-
 ---
 
 You can add and manage certificates in Postman to enable authentication when sending requests.

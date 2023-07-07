@@ -1,7 +1,6 @@
 ---
 title: "Using a custom proxy"
 updated: 2022-06-13
-page_id: "proxy"
 search_keyword: "HTTP_PROXY, NO_PROXY"
 contextual_links:
   - type: section
@@ -11,9 +10,6 @@ contextual_links:
   - type: link
     name: "Capture Responses Using the Postman Proxy"
     url: "https://blog.postman.com/capture-responses-using-the-postman-proxy/"
-
-warning: false
-
 ---
 
 A proxy is an intermediary server that sits between a client application (like Postman) and the destination server that the client is communicating with (like an API). The proxy server acts as a security barrier, making requests on your behalf to websites and other internet resources, and preventing others from accessing your internal network.
@@ -43,11 +39,11 @@ To configure the default proxy, do the following:
 
 1. In the Postman desktop app, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**.
 1. Select the **Proxy** tab.
-1. Under **Default Proxy Configuration**, select the checkbox next to **This proxy requires authentication**.
+1. Under **Default proxy configuration**, select the checkbox next to **This proxy requires authentication**.
 1. Enter the **Username** and **Password** required by the proxy server.
-1. Select **Save and restart Postman**.
+1. Select **Save and Restart Postman**.
 
-<img alt="Default proxy" src="https://assets.postman.com/postman-docs/proxy-default-v9-21.jpg">
+<img alt="Default proxy" src="https://assets.postman.com/postman-docs/v10/proxy-default-v10-16.jpg">
 
 ## Using the system proxy for requests
 
@@ -57,12 +53,12 @@ To configure Postman to use the system proxy, do the following:
 
 1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**.
 1. Select the **Proxy** tab.
-1. Under **Proxy configurations for sending requests**, select the checkbox next to **Use the system proxy**.
-1. (Optional) Select the checkbox if you want Postman to use the `HTTP_PROXY`, `HTTPS_PROXY`, and `NO_PROXY` environment variables configured for your operating system.
+1. Under **Proxy configurations for sending requests**, turn on the toggle next to **Use system proxy**.
+1. (Optional) Turn on the toggle if you want Postman to use the `HTTP_PROXY`, `HTTPS_PROXY`, and `NO_PROXY` environment variables configured for your operating system.
 
-> Make sure the **Add a custom proxy configuration** checkbox isn't selected. If both the system proxy and custom proxy options are enabled, Postman will use the custom proxy.
+> Make sure the **Use custom proxy configuration** toggle isn't turned on. If both the system proxy and custom proxy options are enabled, Postman will use the custom proxy.
 
-<img alt="System proxy" src="https://assets.postman.com/postman-docs/proxy-system-v9-21.jpg">
+<img alt="System proxy" src="https://assets.postman.com/postman-docs/v10/proxy-system-v10-16.jpg">
 
 ## Using a custom proxy for requests
 
@@ -72,15 +68,15 @@ To configure Postman to use a custom proxy, do the following:
 
 1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**.
 1. Select the **Proxy** tab.
-1. Under **Proxy configurations for sending requests**, select the checkbox next to **Add a custom proxy configuration**.
+1. Under **Proxy configurations for sending requests**, turn on the toggle next to **Use custom proxy configuration**.
 1. Enter information about the custom proxy:
 
-    * **Proxy Type** - Select the type of requests you want to send through the proxy server. Both **HTTP** and **HTTPS** are selected by default.
-    * **Proxy Server** - Enter the hostname or IP address of the proxy server and the port number. (Don't include the protocol before the hostname or IP address.)
-    * **Proxy Auth** - Turn on this toggle if the proxy server requires basic authentication. Enter the **Username** and **Password** for the proxy server.
-    * **Proxy Bypass** - Enter a comma-separated list of hosts. Requests sent to these hosts won't use the custom proxy.
+    * **Proxy type** - Select the type of requests you want to send through the proxy server. Both **HTTP** and **HTTPS** are selected by default.
+    * **Proxy server** - Enter the hostname or IP address of the proxy server and the port number. (Don't include the protocol before the hostname or IP address.)
+    * **Proxy auth** - Turn on this toggle if the proxy server requires basic authentication. Enter the **Username** and **Password** for the proxy server.
+    * **Proxy bypass** - Enter a comma-separated list of hosts. Requests sent to these hosts won't use the custom proxy.
 
-<img alt="Custom proxy" src="https://assets.postman.com/postman-docs/proxy-custom-v9-21.jpg">
+<img alt="Custom proxy" src="https://assets.postman.com/postman-docs/v10/proxy-custom-v10-16.jpg">
 
 ## Troubleshooting proxy configurations
 
@@ -104,7 +100,7 @@ In Postman, make sure both the system proxy and custom proxy are turned off.
 
 1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**.
 1. Select the **Proxy** tab.
-1. Clear the **Use the system proxy** and **Add a custom proxy configuration** checkboxes.
+1. Clear the **Use system proxy** and **Use custom proxy configuration** checkboxes.
 
 If you still can't send requests, the problem might be due to environment variables configured for your operating system. If there are environment variables, Postman will use the system proxy and ignore the proxy settings in Postman. Do one of the following:
 
