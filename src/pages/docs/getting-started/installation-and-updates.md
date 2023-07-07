@@ -150,7 +150,7 @@ The Postman desktop app notifies you when a major update is available. For other
 
 Select the update option to download or install the latest update. If you are using Postman v9.13 or later, Postman automatically downloads updates. Postman notifies you when the download is complete and prompts you to restart Postman to apply the updates.
 
-<img alt="Check for updates" src="https://assets.postman.com/postman-docs/v10/settings-update-v10.jpg"/>
+<img alt="Check for updates" src="https://assets.postman.com/postman-docs/v10/settings-update-v10-16.jpg"/>
 
 ## Postman Chrome app (deprecated)
 
@@ -172,7 +172,7 @@ To switch from the Chrome app to native, [download](https://www.postman.com/down
 
 Alternatively, if you don't want to sign in to your Postman account, you can bulk export your Postman data from the Chrome app, and then bulk import into the new native app at **Settings > Data**.
 
-![Import Export Data](https://assets.postman.com/postman-docs/export-data-v86.jpg)
+![Import Export Data](https://assets.postman.com/postman-docs/v10/export-data-v10-16.jpg)
 
 > Note that importing will overwrite your existing data. For more on bulk import, see [Importing Postman data](/docs/getting-started/importing-and-exporting-data/).
 
