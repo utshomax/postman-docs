@@ -110,12 +110,12 @@ You will find each rule defined in `rules` in the **Custom Rules** section in th
 |<div style="width:110px">Property</div> | Description
 --- | ---
 `description` | An optional description of the rule. If you provide one, it will be shown in the configurable rules page for either API Governance or API Security.
-`message` | If the rule is triggered, the list of rule violations will contain the `message`, used in Postman as the name of the rule. This message aims to help users solve the problem. Keep it as short and meaningful as possible. It can contain optional placeholders: <br><ul><li>`{{error}}` - The error message returned by `function`.</li><li>`{{description}}` - The description of the rule.</li><li>`{{path}}` - The path of the error (the last element is the `property` below).</li><li>`{{property}}` - The name of the property causing the error. This is useful when `given` returns many different property names or when `then` is a list that uses multiple `fields`).</li><li>`{{value}}` - The value causing the error.</li></ul><br> If `message` isn't provided, the `description` is used instead. And if `description` isn't available, the rule's key (in `rules`) is used.
-`severity` | The severity of the problem detected by the rule. The possible values are `error`, `warn` (default), `info`, and `hint`. These values can be used as follows: <br><ul><li>`error` - An obvious error that must be fixed. </li><li>`warn` - A possible error. If it's an error, it must be fixed. Some deviation on specific rules may be tolerated, like a `POST` without a body.</li><li>`info` - Something that could possibly be improved. An optional pattern defined in the guidelines could be applied.</li><li>`hint` - Something to be discussed during an API design review.</li></ul>
-`formats` | The list of document formats to which the rule will be applied. The accepted values are: <br><ul><li>`oas2` - Targets OpenAPI (Swagger) documents</li><li>`oas3` - Targets OpenAPI 3.x documents (3.0 and 3.1)</li><li>`oas3_0` - Targets OpenAPI 3.0 documents</li><li>`oas3_1` - Targets OpenAPI 3.1 documents</li></ul><br> By default, a rule will target all versions 2 and 3.x (the default value is `[oas2,oas3]`).
-`given` | **Required**. This can be a list with at least one element or a single element. Each value is a [JSON Path Plus expression](#json-path-and-json-path-plus) that may return zero, one, or more elements.<br>If `given` paths don't find any value, the `then` controls won't execute.
-`then` | **Required**. This can be a list with at least one element or a single element. If the given [JSON Path Plus expressions](#json-path-and-json-path-plus) return values, the functions will be applied to all of them.
-`then.field` | This optional name can be used if the value returned by the `given` paths is an object to target a specific field inside it. This value must be a name and can't hold a [JSON Path Plus expression](#json-path-and-json-path-plus). <br>The keyword `@key` can be used to check all keys of an object returned by the `given` paths.
+`message` | <p>If the rule is triggered, the list of rule violations will contain the `message`, used in Postman as the name of the rule. This message aims to help users solve the problem. Keep it as short and meaningful as possible. It can contain optional placeholders:</p>  <ul><li>`{{error}}` - The error message returned by `function`.</li><li>`{{description}}` - The description of the rule.</li><li>`{{path}}` - The path of the error (the last element is the `property` below).</li><li>`{{property}}` - The name of the property causing the error. This is useful when `given` returns many different property names or when `then` is a list that uses multiple `fields`).</li><li>`{{value}}` - The value causing the error.</li></ul><br> If `message` isn't provided, the `description` is used instead. And if `description` isn't available, the rule's key (in `rules`) is used.
+`severity` | <p>The severity of the problem detected by the rule. The possible values are `error`, `warn` (default), `info`, and `hint`. These values can be used as follows:</p> <ul><li>`error` - An obvious error that must be fixed. </li><li>`warn` - A possible error. If it's an error, it must be fixed. Some deviation on specific rules may be tolerated, like a `POST` without a body.</li><li>`info` - Something that could possibly be improved. An optional pattern defined in the guidelines could be applied.</li><li>`hint` - Something to be discussed during an API design review.</li></ul>
+`formats` | <p>The list of document formats to which the rule will be applied. The accepted values are:</p> <ul><li>`oas2` - Targets OpenAPI (Swagger) documents</li><li>`oas3` - Targets OpenAPI 3.x documents (3.0 and 3.1)</li><li>`oas3_0` - Targets OpenAPI 3.0 documents</li><li>`oas3_1` - Targets OpenAPI 3.1 documents</li></ul><br> By default, a rule will target all versions 2 and 3.x (the default value is `[oas2,oas3]`).
+`given` | <p>**Required**. This can be a list with at least one element or a single element. Each value is a [JSON Path Plus expression](#json-path-and-json-path-plus) that may return zero, one, or more elements.</p> <p>If `given` paths don't find any value, the `then` controls won't execute.
+`then` | **Required**. This can be a list with at least one element or a single element. If the given [JSON Path Plus expressions](#json-path-and-json-path-plus) return values, the functions will be applied to all of them.</p>
+`then.field` | <p>This optional name can be used if the value returned by the `given` paths is an object to target a specific field inside it. This value must be a name and can't hold a [JSON Path Plus expression](#json-path-and-json-path-plus).</p> <p>The keyword `@key` can be used to check all keys of an object returned by the `given` paths.</p>
 `then.function` | **Required**. The name of the function to use. You can use all Spectral core functions in Postman. For more information about Spectral core functions, see the [Spectral documentation](https://github.com/stoplightio/spectral/blob/develop/docs/reference/functions.md). [Custom functions](#spectral-custom-functions) are supported in custom API Governance rules.
 `then.functionOptions` | **May be required depending on the function**. The options of the function. You can use all Spectral core functions in Postman. For more information about Spectral core functions, see the [Spectral documentation](https://github.com/stoplightio/spectral/blob/develop/docs/reference/functions.md). [Custom functions](#spectral-custom-functions) are supported in custom API Governance rules.
 
@@ -183,7 +183,9 @@ You can [add custom governance functions](/docs/api-governance/configurable-rule
 
 > Postman recommends using ES6 syntax for your custom functions.
 
-Your custom function must have the [`input` parameter](#spectral-function-parameters), the [`message` property](#spectral-function-return-statement-properties) in your return statement, and either the [`export default` declaration (ES6) or `module.exports` object property (CommonJS)](#exporting-your-custom-function) exporting your function. To use a custom function in a rule, your rule must have the `then.function` property importing your function.
+Your custom function must have the [`input` parameter](#spectral-function-parameters), the [`message` property](#spectral-function-return-statement-properties) in your return statement, and either the [`export default` declaration (ES6) or `module.exports` object property (CommonJS)](#exporting-your-custom-function) exporting your function.
+
+To add a custom function to a rule, your rule must have the `then.function` property whose value is the name of the file containing the custom function. The filename is defined using the **Name** field when you [create a custom function](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/#adding-a-custom-function).
 
 ### Spectral function parameters
 
@@ -192,8 +194,8 @@ Use the following parameters in your custom functions depending on your use case
 |<div style="width:150px">Parameter</div> | Description
 --- | ---
 `input` | **Required**. This can be any data type, such as a string or array. This is the value that the `given` [JSON Path Plus expression](#json-path-and-json-path-plus) returns. The rule tests the value of `input` using the function.
-`options` | The optional values of `then.functionOptions`. Add this parameter to your function if your function expects options. <br> If your custom function accepts options, Postman recommends defining the expected options in a [JSON Schema](#json-schema). To learn about adding a JSON Schema to your custom function, see the [`createRulesetFunction` Spectral function](#createrulesetfunction).
-`context` | This optional parameter is used in advanced use cases where you need to investigate several elements. You can use the parameter to access properties about the function. These properties are as follows: <br><ul><li>`path` - The `given` [JSON Path Plus expression](#json-path-and-json-path-plus) pointing to `input`. </li><li>`document` - The document you're attempting to lint.</li><li>`rule` - The rule that's using the function.</li><li>`documentInventory` - Provides access to resolved and unresolved documents, the $ref resolution graph, and other advanced properties.</li></ul>
+`options` | <p>The optional values of `then.functionOptions`. Add this parameter to your function if your function expects options.</p> <p>If your custom function accepts options, Postman recommends adding a [JSON Schema](#json-schema) to your custom function. A JSON Schema enables you to define and validate your custom function's options when editing your rule. This requires you to export your custom function using the [`createRulesetFunction` Spectral function](#createrulesetfunction).</p>
+`context` | <p>This optional parameter is used in advanced use cases where you need to investigate several elements. You can use the parameter to access properties about the function. These properties are as follows: </p><ul><li>`path` - The `given` [JSON Path Plus expression](#json-path-and-json-path-plus) pointing to `input`. </li><li>`document` - The document you're attempting to lint.</li><li>`rule` - The rule that's using the function.</li><li>`documentInventory` - Provides access to resolved and unresolved documents, the $ref resolution graph, and other advanced properties.</li></ul>
 
 ```js
 function myCustomFunction(input, options, context) { ... }
@@ -206,7 +208,7 @@ Use the following properties to write the return statement in your custom functi
 |<div style="width:150px">Property</div> | Description
 --- | ---
 `message` | **Required**. The message describing the rule violation.
-`path` | An optional [JSON Path Plus expression](#json-path-and-json-path-plus) that you can append to the default value of `context.path`, which points to the value of `input`. The `path` property is often used to investigate sub-elements of the value of `input` or other locations in the document. If you use the `path` property, you must also use the [`context` parameter](#spectral-function-parameters) in your function. <br> Use the following syntax to add the `path` property to your function and append a custom path: `path: [...context.path, "a", "custom", "path"]`.
+`path` | <p>An optional [JSON Path Plus expression](#json-path-and-json-path-plus) that you can append to the default value of `context.path`, which points to the value of `input`. The `path` property is often used to investigate sub-elements of the value of `input` or other locations in the document. If you use the `path` property, you must also use the [`context` parameter](#spectral-function-parameters) in your function.</p> <p>Use the following syntax to add the `path` property to your function and append a custom path: `path: [...context.path, "a", "custom", "path"]`.</p>
 
 ```js
 return [
@@ -224,9 +226,9 @@ return [
 
 ### Exporting your custom function
 
-**Required**. Export your custom function so you can import the function into your custom rule using `then.function`. The custom function name you specify must match the name in the function declaration.
+**Required**. Export your custom function so you can add the custom function to your custom rule using `then.function`. The custom function name you specify must match the name in the function declaration.
 
-> If your custom function accepts options, Postman recommends defining the expected options in a [JSON Schema](#json-schema). This requires you to export your custom function using the [`createRulesetFunction` Spectral function](#createrulesetfunction).
+> If your custom function accepts options, Postman recommends adding a [JSON Schema](#json-schema) to your custom function. A JSON Schema enables you to define and validate your custom function's options when editing your rule. This requires you to export your custom function using the [`createRulesetFunction` Spectral function](#createrulesetfunction).
 
 * For ES6 format, use the following syntax: `export default function-name`.
 * For CommonJS format, use the following syntax: `module.exports = function-name`.
@@ -248,7 +250,7 @@ You can import the following Spectral functions into your custom function file i
 
 The `createRulesetFunction` function is an optional Spectral function you can import from the `@stoplight/spectral-core` module.
 
-This function enables you to use a [JSON Schema](#json-schema) to define your custom function's options, enabling you to validate whether the [options provided in your rule](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules) using `then.functionOptions` match specific criteria. If the provided options don't match the JSON Schema, an error message will explain the issue when you add and edit your rule.
+This function enables you to use a [JSON Schema](#json-schema) to define your custom function's options, enabling you to validate whether the [options provided in your rule](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules) using `then.functionOptions` match specific criteria. If the provided options don't match the JSON Schema, an error message will explain the issue when editing your rule.
 
 > Error messages refer to your custom function as `"<unknown>" function`.
 
@@ -329,11 +331,11 @@ The following examples show JSON Schema key-value pairs you can use to validate 
 
 The following custom function named `notInEnumeration` is in a file named `not_in_enumeration`. The filename is defined using the **Name** field when you [create a custom function](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/#adding-a-custom-function).
 
-> If your custom function accepts options, Postman recommends defining the expected options in a [JSON Schema](#json-schema). To learn about adding a JSON Schema to your custom function, see the [`createRulesetFunction` Spectral function](#createrulesetfunction).
+> If your custom function accepts options, Postman recommends adding a [JSON Schema](#json-schema) to your custom function. A JSON Schema enables you to define and validate your custom function's options when editing your rule. This requires you to export your custom function using the [`createRulesetFunction` Spectral function](#createrulesetfunction).
 
 The custom function checks the value of the option `values`, which is defined in the [Spectral document](#example-rule-that-uses-a-custom-function) (or ruleset) using `then.functionOptions`. The value of `values` is a list of numeric strings. If the `input` path returns a value already in the list, the rule violation is triggered.
 
-After the custom function, `export default` or `module.exports` references the custom function's name. This exports the custom function so the rule can import it using `then.function`.
+After the custom function, `export default` or `module.exports` references the custom function's name. This exports the custom function so the rule can add it using `then.function`.
 
 ```js
 // filename: not_in_enumeration
@@ -363,7 +365,7 @@ Before the custom function, the [`createRulesetFunction` Spectral function](#cre
 
 The custom function checks the value of the option `values`, which is defined in the [Spectral document](#example-rule-that-uses-a-custom-function) (or ruleset) using `then.functionOptions`. The value of `values` is a list of numeric strings. If the `input` path returns a value already in the list, the rule violation is triggered.
 
-After the custom function, `export default` or `module.exports` calls the `createRulesetFunction` Spectral function and includes the following arguments: a JSON Schema defining the custom function's expected options and the custom function's name. This exports the custom function so the rule can import it using `then.function`.
+After the custom function, `export default` or `module.exports` calls the `createRulesetFunction` Spectral function and includes the following arguments: a JSON Schema defining the custom function's expected options and the custom function's name. This exports the custom function so the rule can add it using `then.function`.
 
 ```js
 // filename: not_in_enumeration
@@ -412,7 +414,7 @@ export default createRulesetFunction(
 
 The following Spectral document has a rule named `http-status-obsolete` that uses a custom function named `notInEnumeration`. The custom function is in a file named `not_in_enumeration`, which is defined using the **Name** field when you [create a custom function](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/#adding-a-custom-function).
 
-The [custom function](#example-checking-that-a-value-isnt-in-a-list-json-schema) is imported into the rule using `then.function`. The value of `then.function` is the filename `not_in_enumeration`.
+The [custom function](#example-checking-that-a-value-isnt-in-a-list-json-schema) is added to the rule using `then.function`. The value of `then.function` is the filename `not_in_enumeration`.
 
 The custom function accepts options using `then.functionOptions` as a property named `values` that's a list of numeric strings. The value of `then.functionOptions.values` is passed to the custom function `notInEnumeration`. The custom function then checks whether a rule violation occurred at the `given` path.
 
