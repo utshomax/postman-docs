@@ -250,7 +250,15 @@ const DocContent = styled.div`
     display: block;
     border: none !important;
   }
-
+ 
+  // Doc inline link styling
+  & a:hover,
+  a:active {
+      transition: all 0.2s ease-in-out;
+      text-decoration: none;
+      colot: ${(props) => props.theme.colors.blue_60};
+      border-bottom: 1px solid !important;
+  }
   
 `
 
