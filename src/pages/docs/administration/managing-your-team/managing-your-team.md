@@ -15,11 +15,11 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
+    name: "Managing team members and roles in Postman just got easier"
+    url: "https://blog.postman.com/managing-team-members-and-roles-in-postman-just-got-easier/"
+  - type: link
     name: "How to Securely Deploy Postman at Scale, Part 1: User Management"
     url: "https://blog.postman.com/how-to-securely-deploy-postman-at-scale-user-management/"
-  - type: link
-    name: "Govern Your Public API Collections More Effectively"
-    url: "https://blog.postman.com/govern-your-public-api-collections-more-effectively/"
 ---
 
 > **[Some team options are only available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
