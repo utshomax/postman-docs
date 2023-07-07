@@ -56,7 +56,7 @@ The Private API Network is a good place to learn about workspaces, collections, 
 
 There are two ways to access the Private API Network:
 
-* Select **Home** from the Postman header, then select **Private API Network** in your team information on the left side.
+* Select **Home** from the Postman header, then select **Private API Network** in your team information on the left sidebar.
 * Select **API Network** from the Postman header, then select **Private API Network**.
 
 ### Searching, filtering, and sorting
