@@ -2186,6 +2186,10 @@
   {
     "from": "/docs/reports/all-workspaces-reports/",
     "to": "/docs/reports/reports-overview/"
+  },
+  {
+    "from": "/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/",
+    "to": "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
   }
 
 ]

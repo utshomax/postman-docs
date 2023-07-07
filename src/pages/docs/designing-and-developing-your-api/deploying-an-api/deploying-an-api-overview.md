@@ -12,6 +12,9 @@ contextual_links:
   - type: link
     name: "API Lifecycle, Part 2: Monitor and Deploy an API | Postman Intergalactic"
     url: "https://youtu.be/voAUfBx8fnE"
+  - type: link
+    name: "Testing and Deploying APIs with Docker and Postman"
+    url: "https://www.youtube.com/live/AB78LyHtmHU?feature=share"
   - type: subtitle
     name: "Blog posts"
   - type: link

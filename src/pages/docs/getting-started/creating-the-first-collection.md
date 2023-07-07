@@ -12,6 +12,9 @@ contextual_links:
   - type: link
     name: "Group Requests in Collections | Postman Level Up"
     url: "https://youtu.be/ghHX4FGvVyA"
+  - type: link
+    name: "Postman Collections | The Exploratory"
+    url: "https://youtu.be/GtGQ3YsOrt4"
   - type: subtitle
     name: "Case Studies"
   - type: link
