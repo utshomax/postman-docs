@@ -45,10 +45,10 @@ Workspaces, collections, and APIs in the Private API Network are visible to logg
 ## Contents
 
 * [Navigating the Private API Network](#navigating-the-private-api-network)
-    * [Searching, filtering, and sorting](#searching-filtering-and-sorting)
-    * [Reviewing details about elements](#reviewing-details-about-elements)
-    * [Sharing folders and elements](#sharing-folders-and-elements)
-    * [Watching and forking elements](#watching-and-forking-elements)
+* [Searching, filtering, and sorting](#searching-filtering-and-sorting)
+* [Reviewing details about elements](#reviewing-details-about-elements)
+* [Sharing folders and elements](#sharing-folders-and-elements)
+* [Watching and forking elements](#watching-and-forking-elements)
 
 ## Navigating the Private API Network
 
@@ -59,7 +59,7 @@ There are two ways to access the Private API Network:
 * Select **Home** from the Postman header, then select **Private API Network** in your team information on the left sidebar.
 * Select **API Network** from the Postman header, then select **Private API Network**.
 
-### Searching, filtering, and sorting
+## Searching, filtering, and sorting
 
 There are several ways to search, filter, and sort elements and folders in the Private API Network. You can search and sort all elements and folders from the left sidebar. You can also select a folder to search, filter, and sort elements on the right.
 
@@ -67,7 +67,7 @@ You can search and sort elements and folders from the left sidebar.
 
 <img alt="Create new folder in Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-organize-folders-v10-2.jpg" width="300px"/>
 
-Select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/icon-home-v10.jpg#icon" width="16px"> **Home** in the left sidebar to search, filter, and sort all elements in your Private API Network. Select a folder in the left sidebar to search, filter, and sort elements only in the selected folder.
+Select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/icon-home-v10.jpg#icon" width="16px"> **Home** in the left sidebar to search, filter, and sort all elements in your Private API Network.
 
 * To search by name, enter the full or partial element or folder name into **Search elements and folders**.
 * To sort elements and folders, select the sort icon <img alt="Sort icon" src="https://assets.postman.com/postman-docs/icon-sort.jpg#icon" width="16px">. Options are:
@@ -75,9 +75,16 @@ Select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/ico
     * **Date added** - Sort by the date that elements and folders were added.
     * **A to Z** - Sort elements and folders alphabetically.
 
-Select a folder from the left sidebar to search, filter, and sort its elements in the folder overview on the right.
+### Search using the Private API Network overview
+
+You can search, filter, and sort Private API Network folders as well as elements with the overview feature.
+
+- Select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/icon-home-v10.jpg#icon" width="16px"> **Home** in the left sidebar to search, filter, and sort all elements in your Private API Network.
+- Select a folder from the left sidebar to search, filter, and sort its elements in the folder overview on the right.
 
 <img alt="Private API List" src="https://assets.postman.com/postman-docs/v10/private-api-network-list-v10-2.jpg"/>
+
+The **All APIs, collections and workspaces** section in the overview lets you search, sort, and filter with the following options:
 
 * To search by name, enter the full or partial element name into **Search elements**.
 * To filter based on the person who added the element, select **Added by**, then select the name of the team member.
@@ -89,7 +96,7 @@ Select a folder from the left sidebar to search, filter, and sort its elements i
     * **Trending this week** - Sort elements by your team's usage this week.
     * **Trending this month** - Sort elements by your team's usage this month.
 
-### Reviewing details about elements
+## Reviewing details about elements
 
 To review information about an element, select it from the left sidebar. On the right, you can view the element's description and the editors who have worked on it.
 
@@ -99,13 +106,13 @@ To learn more about trying an example, see [Trying an example](/docs/sending-req
 
 You can also open the element in its workspace. Select an element from the left sidebar, and then select either **View in Workspace** or **Open Workspace** in the upper-right corner.
 
-### Sharing folders and elements
+## Sharing folders and elements
 
 You can share links to folders and individual elements with other team members. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a folder or element, then select **Copy link**. This copies the link to your clipboard. You can then share the link with team members.
 
 > You can also select a folder or element in the sidebar. Then select <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> **Copy link** in the upper-right corner.
 
-### Watching and forking elements
+## Watching and forking elements
 
 You can watch workspaces, collections, and APIs from the Private API Network. You can also fork collections from the Private API Network.
 
