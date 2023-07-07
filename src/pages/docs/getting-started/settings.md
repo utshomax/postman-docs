@@ -39,7 +39,7 @@ To change settings in Postman, select the settings icon <img alt="Settings icon"
 
 Use the settings on the **General** tab to configure how Postman sends requests or to customize the Postman user interface.
 
-[![General settings](https://assets.postman.com/postman-docs/v10/settings-detail-v10.jpg)](https://assets.postman.com/postman-docs/v10/settings-detail-v10.jpg)
+![General settings](https://assets.postman.com/postman-docs/v10/settings-detail-v10-16a.jpg)
 
 ### Request
 
@@ -55,7 +55,7 @@ Use the settings on the **General** tab to configure how Postman sends requests 
 
 When you send a form-data or binary file with a request body, Postman saves a path to the file as part of the collection. The file path is relative to your working directory. Postman uses `~/Postman/files` as the default working directory. To use a different working directory, select **Choose** and then select the directory you want to use.
 
-<img alt="Working directory settings" src="https://assets.postman.com/postman-docs/working-directory-web-v8-9.jpg" width="352px">
+![Working directory settings](https://assets.postman.com/postman-docs/v10/working-directory-web-v10-16.jpg)
 
 **To make collaboration easier, store files in your working directory.** Storing files in your working directory ensures that requests in shared collections always work. As long as you and your teammates use the same files and working directory location, shared requests will run across everyone's systems. Learn more about [sending body data](/docs/sending-requests/requests/#sending-body-data).
 
@@ -109,7 +109,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 Select a **Light** or **Dark** theme for Postman. You can also select **System Default**, which syncs your Postman theme to your operating system settings.
 
-<img alt="Select a theme" src="https://assets.postman.com/postman-docs/v10/settings-theme-v10.jpg" width="700px"/>
+![Select a theme](https://assets.postman.com/postman-docs/v10/settings-theme-v10-16.jpg)
 
 ## Shortcuts
 
@@ -124,7 +124,7 @@ To customize a shortcut, select it and then enter your preferred shortcut. Custo
 
 You can revert to the default shortcuts by selecting **Restore Defaults**. To turn off keyboard shortcuts entirely, select the **Keyboard shortcuts** toggle.
 
-<img alt="Keyboard shortcuts" src="https://assets.postman.com/postman-docs/shortcuts-v10.10.jpg" width="700px"/>
+![Keyboard shortcuts](https://assets.postman.com/postman-docs/v10/shortcuts-v10-16a.jpg)
 
 Some shortcuts aren't available in the Postman web app. Also, shortcut modifier keys in Postman may differ depending on your operating system. For example, to open a new tab select **⌘+T** on macOS or **Ctrl+T** on Windows or Linux.
 
@@ -154,7 +154,7 @@ You can manage your saved accounts and tokens on the **Connected accounts** tab:
 * To edit a saved token, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. For example, if a token expired, you can edit it and enter a new valid token.
 * To remove a saved account or token, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">. Any integrations that use the account or token will stop working until you reauthorize them.
 
-![Connected accounts](https://assets.postman.com/postman-docs/v10/settings-connected-accounts-v10-12a.jpg)
+![Connected accounts](https://assets.postman.com/postman-docs/v10/settings-connected-accounts-v10-16.jpg)
 
 > If you don't have any connected accounts, this tab doesn't appear in the Postman settings.
 
