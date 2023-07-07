@@ -67,13 +67,17 @@ You can search and sort elements and folders from the left sidebar.
 
 <img alt="Create new folder in Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-organize-folders-v10-2.jpg" width="300px"/>
 
+Select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/icon-home-v10.jpg#icon" width="16px"> **Home** in the left sidebar to search, filter, and sort all elements in your Private API Network. Select a folder in the left sidebar to search, filter, and sort elements only in the selected folder.
+
 * To search by name, enter the full or partial element or folder name into **Search elements and folders**.
 * To sort elements and folders, select the sort icon <img alt="Sort icon" src="https://assets.postman.com/postman-docs/icon-sort.jpg#icon" width="16px">. Options are:
     * **Default** - Sort by type, grouping folders and elements by type.
     * **Date added** - Sort by the date that elements and folders were added.
     * **A to Z** - Sort elements and folders alphabetically.
 
-You can select a folder to search, filter, and sort elements on the right. Select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/icon-home-v10.jpg#icon" width="16px"> **Home** in the left sidebar to search, filter, and sort all elements in your Private API Network. Select a folder in the left sidebar to search, filter, and sort elements only in the selected folder.
+Select a folder from the left sidebar to search, filter, and sort its elements in the folder overview on the right.
+
+<img alt="Private API List" src="https://assets.postman.com/postman-docs/v10/private-api-network-list-v10-2.jpg"/>
 
 * To search by name, enter the full or partial element name into **Search elements**.
 * To filter based on the person who added the element, select **Added by**, then select the name of the team member.
@@ -84,8 +88,6 @@ You can select a folder to search, filter, and sort elements on the right. Selec
     * **A to Z** - Sort elements alphabetically.
     * **Trending this week** - Sort elements by your team's usage this week.
     * **Trending this month** - Sort elements by your team's usage this month.
-
-<img alt="Private API List" src="https://assets.postman.com/postman-docs/v10/private-api-network-list-v10-2.jpg"/>
 
 ### Reviewing details about elements
 
