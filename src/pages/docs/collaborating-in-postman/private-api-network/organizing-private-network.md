@@ -186,7 +186,6 @@ Learn more about [publishing an API version](/docs/designing-and-developing-your
 
 You can make all your existing APIs discoverable on the Private API Network after you import them from a code repository. Learn more about [importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
 
-
 ## Managing folders and elements
 
 API Network Managers can manage all folders and elements. Folder Managers can manage folders and elements in folders they have permission to manage. Users with the Editor role for an element can also manage the element.
