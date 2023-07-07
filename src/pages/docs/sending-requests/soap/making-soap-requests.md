@@ -49,7 +49,7 @@ Postman can make HTTP calls using Simple Object Access Protocol (SOAP), a platfo
 
     ![SOAP body type](https://assets.postman.com/postman-docs/v10/soap-body-type-v10-16.jpg)
 
-1. Enter your XML in the text entry area. To test the number conversion SOAP API used in the last section, enter the following XML in the text entry area:
+1. Enter your XML in the text entry area. To test the number conversion SOAP API used in the previous section, enter the following XML in the text entry area:
 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
