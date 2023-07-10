@@ -49,6 +49,7 @@ Workspaces, collections, and APIs in the Private API Network are visible to logg
 * [Reviewing details about elements](#reviewing-details-about-elements)
 * [Sharing folders and elements](#sharing-folders-and-elements)
 * [Watching and forking elements](#watching-and-forking-elements)
+* [Private API Network reports](#private-api-network-reports)
 
 ## Navigating the Private API Network
 
@@ -79,8 +80,8 @@ Select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/ico
 
 You can search, filter, and sort Private API Network folders as well as elements with the overview feature.
 
-- Select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/icon-home-v10.jpg#icon" width="16px"> **Home** in the left sidebar to search, filter, and sort all elements in your Private API Network.
-- Select a folder from the left sidebar to search, filter, and sort its elements in the folder overview on the right.
+* Select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/icon-home-v10.jpg#icon" width="16px"> **Home** in the left sidebar to search, filter, and sort all elements in your Private API Network.
+* Select a folder from the left sidebar to search, filter, and sort its elements in the folder overview on the right.
 
 <img alt="Private API List" src="https://assets.postman.com/postman-docs/v10/private-api-network-list-v10-2.jpg"/>
 
@@ -119,3 +120,11 @@ You can watch workspaces, collections, and APIs from the Private API Network. Yo
 To watch a workspace, collection, or API and get notified about any changes, select an element in the left sidebar, then select <img alt="Watch icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> **Watch** in the upper-right corner. To learn more about watch notifications, see [Watching a workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#watching-a-workspace), [Watching a collection](/docs/collections/using-collections/#watching-a-collection), and [Watching APIs](/docs/designing-and-developing-your-api/managing-apis/#watching-apis).
 
 To fork a collection, select a collection in the left sidebar, then select <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> **Fork** in the upper-right corner. To learn more about forking collections, see [Forking Postman entities](/docs/collaborating-in-postman/using-version-control/forking-entities/).
+
+## Private API Network reports
+
+The report feature makes it easier to govern your internal API landscape through deeper insights into APIs in your Private API Network.
+
+To view Private API Network reports, select [**Home**](https://go.postman.co/) from the Postman header, then select **Reports** on the left side.
+
+To learn more about reports, see [About reports](/docs/reports/reports-overview/).

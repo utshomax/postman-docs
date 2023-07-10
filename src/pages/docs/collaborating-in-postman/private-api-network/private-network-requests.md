@@ -45,7 +45,6 @@ Users with the [Editor role](/docs/collaborating-in-postman/roles-and-permission
     * [Requesting to add a workspace from the workbench](#requesting-to-add-a-workspace-from-the-workbench)
     * [Requesting to add a collection from the workbench](#requesting-to-add-a-collection-from-the-workbench)
     * [Requesting to add an API from the workbench](#requesting-to-add-an-api-from-the-workbench)
-* [Reviewing requests to add elements](#reviewing-requests-to-add-elements)
 
 ## Requesting to add elements
 
@@ -130,25 +129,3 @@ To request to add elements from your Private API network, do the following:
 1. (Optional) Select a folder or create one to keep elements organized.
 1. (Optional) Select **Add comment** to add a note for the API Network Manager or Folder Manager.
 1. Select **Request API**.
-
-## Reviewing requests to add elements
-
-API Network Managers can review requests to add elements to the Private API Network. Folder Managers can review requests to add elements to folders they have permission to manage.
-
-When an Editor requests to add an element to your team's Private API Network, Postman will send you an email and an in-app notification. For the list of all the pending requests, open the [Private API Network](https://go.postman.co/network/private) and select the pending requests icon <img alt="Pending requests icon" src="https://assets.postman.com/postman-docs/v10/icon-pending-request-v10.jpg#icon" width="22px"> in the left sidebar.
-
-Pending requests include the element type, the user who submitted the request, the date they submitted it on, a link to view the element in its workspace, and an optional note from the requesting user.
-
-<img alt="Approve or deny a request" src="https://assets.postman.com/postman-docs/v10/private-api-network-pending-requests-v10-2.jpg"/>
-
-To approve a request, do the following:
-
-1. Select **Approve**.
-1. (Optional) Select a folder or create one to keep elements organized.
-1. Select **Approve Request**.
-
-To deny a request, do the following:
-
-1. Select **Deny**.
-1. Write a note to the Editor who submitted the request explaining why you are denying their request.
-1. Select **Deny Request**.
