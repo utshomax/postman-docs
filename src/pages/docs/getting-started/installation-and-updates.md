@@ -1,6 +1,6 @@
 ---
 title: "Installing and updating Postman"
-updated: 2023-05-15
+updated: 2023-07-15
 contextual_links:
   - type: section
     name: "Additional resources"
