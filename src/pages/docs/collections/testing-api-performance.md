@@ -105,7 +105,7 @@ From the **Summary** tab, you can take the following actions:
 * Select **Stop** to stop the performance test.
 * Select **Run Again** to configure and start the performance test again.
 * Select **All Runs** to view a list of all past performance runs for the collection.
-* Select the share icon <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> to get a link to the performance report. Select **Copy Link** to copy the link  your clipboard. You can share the link with your teammates so they can view the results of the performance test.
+* Select the share icon <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> to get a link to the performance report. Select **Copy Link** to copy the link to your clipboard. You can share the link with your teammates so they can view the results of the performance test.
 * Select the name of a request to open the request.
 
 ### Customizing the performance view
