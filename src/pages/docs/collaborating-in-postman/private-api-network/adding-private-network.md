@@ -62,30 +62,32 @@ There are two ways to access the Private API Network:
 
 ## Searching, filtering, and sorting
 
-There are several ways to search, filter, and sort elements and folders in the Private API Network. You can search and sort all elements and folders from the left sidebar. You can also select a folder to search, filter, and sort elements on the right.
+There are several ways to search, filter, and sort elements and folders in the Private API Network. You can search and sort all elements and folders from the left sidebar. You can also select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/icon-home-v10.jpg#icon" width="16px"> **Home** or a folder to search, filter, and sort elements on the right.
 
-You can search and sort elements and folders from the left sidebar.
+### Searching for folders and elements in the network
+
+You can search and sort elements and folders in the network from the left sidebar. Then you can select a folder or element to view its details on the right.
 
 <img alt="Create new folder in Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-organize-folders-v10-2.jpg" width="300px"/>
 
-Select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/icon-home-v10.jpg#icon" width="16px"> **Home** in the left sidebar to search, filter, and sort all elements in your Private API Network.
-
-* To search by name, enter the full or partial element or folder name into **Search elements and folders**.
+* To search by name, select **Search elements and folders** and enter the full or partial element or folder name.
 * To sort elements and folders, select the sort icon <img alt="Sort icon" src="https://assets.postman.com/postman-docs/icon-sort.jpg#icon" width="16px">. Options are:
     * **Default** - Sort by type, grouping folders and elements by type.
     * **Date added** - Sort by the date that elements and folders were added.
     * **A to Z** - Sort elements and folders alphabetically.
 
-### Search using the Private API Network overview
+### Searching for elements in a folder
 
-You can search, filter, and sort Private API Network folders as well as elements with the overview feature.
+You can select a folder to search, filter, and sort elements on the right. Select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/icon-home-v10.jpg#icon" width="16px"> **Home** in the left sidebar to search, filter, and sort all elements in your Private API Network. Select a folder in the left sidebar to search, filter, and sort elements only in the selected folder.
 
-* Select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/icon-home-v10.jpg#icon" width="16px"> **Home** in the left sidebar to search, filter, and sort all elements in your Private API Network.
-* Select a folder from the left sidebar to search, filter, and sort its elements in the folder overview on the right.
+You can select a folder in the left sidebar to then search, filter, and sort elements on the right.
+
+* Select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/icon-home-v10.jpg#icon" width="16px"> **Home** in the left sidebar to search, filter, and sort all elements in your Private API Network on the right.
+* Select a folder from the left sidebar to search, filter, and sort its elements on the right.
 
 <img alt="Private API List" src="https://assets.postman.com/postman-docs/v10/private-api-network-list-v10-2.jpg"/>
 
-The **All APIs, collections and workspaces** section in the overview lets you search, sort, and filter with the following options:
+The **All APIs, collections and workspaces** section enables you to search, sort, and filter elements with the following options:
 
 * To search by name, enter the full or partial element name into **Search elements**.
 * To filter based on the person who added the element, select **Added by**, then select the name of the team member.
