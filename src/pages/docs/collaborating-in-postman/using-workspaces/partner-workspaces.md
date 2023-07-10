@@ -47,9 +47,11 @@ Partner Workspaces enable you to collaborate with external partners directly in 
 
     <img alt="Workspace menu" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.19.jpg" width="300px"/>
 
-1. Optionally, you can use [workspace templates](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template) to help you set up a new workspace. Select a workspace template to populate the workspace with helpful information and sample collections, or select **Blank workspace** to create an empty workspace. Then select **Next**.
+1. You can use [workspace templates](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template) to help you set up a new workspace. Select a workspace template to populate the workspace with helpful information and sample collections, or select **Blank workspace** to create an empty workspace. Then select **Next**.
 
     > You can also apply a workspace template to a newly created workspace. To learn more, see [Creating workspaces with a template](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template).
+
+    <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-and-apply-template-v10.jpg" width="400px"/>
 
 1. Define a workspace **Name** and **Summary**.
 1. Under **Visibility**, select **Partner**.
