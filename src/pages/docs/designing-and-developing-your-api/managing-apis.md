@@ -176,7 +176,7 @@ You can [publish your API](/docs/designing-and-developing-your-api/versioning-an
 
 ### Commenting on Git-linked APIs
 
-You can [connect a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/) to your API to sync your API between Postman and the repository. Keep in mind the following differences when commenting on Git-linked APIs:
+You can [connect a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/) to your API to sync your API between Postman and the repository. Keep in mind the following differences when commenting on Git-linked APIs:
 
 * Comments are associated with a branch. If you add a comment while working on one branch, those comments won't be visible when you [switch to another branch](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/#switching-branches).
 * You must [commit and push changes](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/#committing-and-pushing-changes) on a branch before you can add a new comment on that branch. (You can reply to an existing comment without committing and pushing changes.)

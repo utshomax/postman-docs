@@ -21,7 +21,7 @@ contextual_links:
 
 After you connect to a remote Git repository, you can use Postman to make changes to your API and collaborate with others. Any changes you make to your API's definition or collections always happen on a branch. You can work on any branch in your repository.
 
-If you [configured a remote repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/), Postman stores your changes in a local cache. When you're ready to share your work with others, push your changes to the remote repository.
+If you [configured a remote repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/), Postman stores your changes in a local cache. When you're ready to share your work with others, push your changes to the remote repository.
 
 ## Contents
 
