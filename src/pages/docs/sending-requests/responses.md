@@ -54,7 +54,7 @@ For navigating large responses, select the down arrows next to a line to collaps
 
 <img alt="Response Pretty view" src="https://assets.postman.com/postman-docs/v10/request-response-pretty-view-v10.jpg" width="400px"/>
 
-> **Forcing JSON formatting**. For Postman to automatically format the body, the response must have the appropriate `Content-Type` header. If you receive a response with a different `Content-Type` header, you can force formatting through JSON. In the Postman header, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">, then select **Settings**. In the **General** tab, select **JSON** from the **Language detection** dropdown.
+> **Forcing JSON formatting**. For Postman to automatically format the body, the response must have the appropriate `Content-Type` header. If you receive a response with a different `Content-Type` header, you can force formatting through JSON. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**. Under **Request**, select **JSON** next to **Language detection**.
 
 ### Raw
 
@@ -110,7 +110,7 @@ If SSL is turned off globally but turned on for your request, Postman displays t
 
 <img alt="Verification error" src="https://assets.postman.com/postman-docs/response-error-disable-ssl.jpg" width="300px"/>
 
-> If you select **Disable SSL Verification** in the error message, you will need to turn it back on if you want to verify certificates for future requests. To enable it globally, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and then select **Settings**. In the **General** tab, select **SSL certificate verification**.
+> If you select **Disable SSL Verification** in the error message, you will need to turn it back on if you want to verify certificates for future requests. To enable it globally, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**. Under **Request**, turn on **SSL certificate verification**.
 
 <!--  -->
 
