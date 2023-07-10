@@ -110,6 +110,10 @@ export const leftNavItems = [
         url: '/docs/getting-started/settings/',
       },
       {
+        name: 'About Postbot',
+        url: '/docs/getting-started/postbot/',
+      },
+      {
         name: 'Importing and exporting data',
         url: '/docs/getting-started/importing-and-exporting-data/',
       },
