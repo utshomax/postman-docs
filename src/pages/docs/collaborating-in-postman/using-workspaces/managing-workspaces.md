@@ -143,7 +143,7 @@ You can assign a [workspace role](/docs/collaborating-in-postman/roles-and-permi
 
 ### Adding workspaces to the Private API Network
 
-You can also share workspaces with your teammates by adding them to your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/). To learn more, see [Adding workspaces](/docs/collaborating-in-postman/adding-private-network/#adding-workspaces).
+You can also share workspaces with your teammates by adding them to your team's [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/). To learn more, see [Requesting to add a workspace from the workbench](/docs/collaborating-in-postman/private-api-network/private-network-requests/#requesting-to-add-a-workspace-from-the-workbench).
 
 ## Managing workspace roles
 
@@ -170,7 +170,7 @@ You can add tags to workspaces, enabling you to organize and search for workspac
 
 Once you add tags to the workspace, you can select a tag to open search results associated with the tag in a new tab.
 
-To learn more about searching using tag names in Postman, see [Search Postman](/docs/getting-started/navigating-postman/#search-postman). You can also search using tag names in the Private API Network when searching [elements in the network](/docs/collaborating-in-postman/adding-private-network/#searching-filtering-and-sorting), [elements to add to the network](/docs/collaborating-in-postman/adding-private-network/#adding-elements-in-your-private-api-network), and [elements to request to add to the network](/docs/collaborating-in-postman/adding-private-network/#requesting-to-add-elements-in-your-private-api-network).
+To learn more about searching using tag names in Postman, see [Search Postman](/docs/getting-started/navigating-postman/#search-postman). You can also search using tag names in the Private API Network when searching [elements in the network](/docs/collaborating-in-postman/private-api-network/adding-private-network/#searching-filtering-and-sorting), [elements to add to the network](/docs/collaborating-in-postman/private-api-network/organizing-private-network/#adding-elements-in-your-private-api-network), and [elements to request to add to the network](/docs/collaborating-in-postman/private-api-network/private-network-requests/#requesting-to-add-elements-in-your-private-api-network).
 
 To add tags to a workspace, do the following:
 

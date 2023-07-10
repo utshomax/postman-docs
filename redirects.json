@@ -504,6 +504,10 @@
     "to": "/docs/collaborating-in-postman/adding-private-network/"
   },
   {
+    "from": "/docs/collaborating-in-postman/adding-private-network/",
+    "to": "/docs/collaborating-in-postman/private-api-network/adding-private-network/"
+  },
+  {
     "from": "/docs/postman/collaboration/audit-logs/",
     "to": "/docs/administration/audit-logs/"
   },

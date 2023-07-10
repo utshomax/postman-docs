@@ -91,7 +91,7 @@ Team roles offer high-level access control:
 
 There are additional specialized roles for [Enterprise](https://www.postman.com/pricing) teams:
 
-* **API Network Manager** - Manages a team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/). To learn more, see [Network roles](#network-roles).
+* **API Network Manager** - Manages a team's [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/). To learn more, see [Network roles](#network-roles).
 * **API Governance Manager** - Manages [API governance](/docs/api-governance/api-governance-overview/) within a team, including governance [rules](/docs/api-governance/configurable-rules/configuring-api-governance-rules/), [functions](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/), and [workspace groups](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#turning-configured-rules-on-and-off).
 
 &ast; On Postman Basic and Free plans, any developer can change visibility of workspaces.
@@ -270,7 +270,7 @@ All partners are assigned Workspace Editor or Viewer roles when invited to a Par
 
 > **[Network roles are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-Network roles related to the [Private API Network](/docs/collaborating-in-postman/adding-private-network/) are applied at the team and folder level.
+Network roles related to the [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/) are applied at the team and folder level.
 
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) network roles at the team level:
 
