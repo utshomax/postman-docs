@@ -36,7 +36,7 @@ contextual_links:
 
 > **[The Private API Network is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-[Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and [API Network Managers](/docs/collaborating-in-postman/roles-and-permissions/#network-roles) can manage all folders and elements in your Private API Network. You can assign team members the [Folder Manager role](/docs/collaborating-in-postman/roles-and-permissions/#network-roles) at the folder level, giving them permission to manage specific folders and the elements in them.
+[Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and [API Network Managers](/docs/collaborating-in-postman/roles-and-permissions/#network-roles) can manage all folders and elements in your Private API Network. You can assign team members the [Folder Manager role](/docs/collaborating-in-postman/roles-and-permissions/#network-roles) at the folder level, giving them permission to manage specific folders and the elements in them. Users with the Editor role for an element can also manage the element.
 
 > Enterprise teams can also assign this role to a user group. For more information about assigning team roles to groups, see [User groups](/docs/collaborating-in-postman/user-groups/).
 
