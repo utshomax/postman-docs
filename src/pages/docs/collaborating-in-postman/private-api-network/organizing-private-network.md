@@ -165,7 +165,7 @@ To add a collection to the Private API Network from the workbench, do the follow
     <img alt="Add collection to the Private Network" src="https://assets.postman.com/postman-docs/v10/add-collection-to-private-api-network-v10.jpg"/>
 
 1. (Optional) Add a brief summary about the collection.
-1. (Optional) Select **Select Environments** to make sure users have access to environment variables. You can also edit a collection's summary and environments later. To learn more, see [Editing collections](#editing-collections).
+1. (Optional) Select **Select Environments** to make sure users have access to environment variables. You can also edit a collection's summary and environments later. To learn more, see [Editing collections](/docs/collaborating-in-postman/private-api-network/managing-private-network/#editing-collections).
 1. (Optional) Select a folder or create one to keep elements organized.
 1. Select **Add collection**.
 
