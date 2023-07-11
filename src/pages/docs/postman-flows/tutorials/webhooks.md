@@ -60,7 +60,7 @@ Often when working with webhooks, there will be another service that will send t
 > **Prerequisite**
 > Sign up for a free [Slack](https://slack.com/) account.
 
-Create a new app in Slack [here](https://api.slack.com/apps), give it a name, and then enable a slash command which will enable you to interact with it. When making the slash command, for the request URL use ```https://770fc74bbe7045dcaa56a7261b08c869.flow.pstmn.io``` which is an already deployed Flow which can be found [here](https://www.postman.com/postman/workspace/utility-flows/flow/642376220544c000387685c5).
+Create a new app in Slack [here](https://api.slack.com/apps), give it a name, and then create a slash command which will enable you to interact with it. When making the slash command, for the request URL use ```https://770fc74bbe7045dcaa56a7261b08c869.flow.pstmn.io``` which is an already deployed Flow which can be found [here](https://www.postman.com/postman/workspace/utility-flows/flow/642376220544c000387685c5).
 
 ![Create Slack app](https://assets.postman.com/postman-labs-docs/cloud-execution/make-slack-app-with-command.gif)
 
