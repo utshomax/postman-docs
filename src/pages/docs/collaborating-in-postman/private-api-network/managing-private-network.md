@@ -44,10 +44,10 @@ You can manage folders and elements in the Private API Network. You can edit a c
 ## Contents
 
 * [Managing folders and elements](#managing-folders-and-elements)
-    * [Editing collections](#editing-collections)
-    * [Moving folders and elements](#moving-folders-and-elements)
-    * [Renaming folders](#renaming-folders)
-    * [Removing folders and elements](#removing-folders-and-elements)
+* [Editing collections](#editing-collections)
+* [Moving folders and elements](#moving-folders-and-elements)
+* [Renaming folders](#renaming-folders)
+* [Removing folders and elements](#removing-folders-and-elements)
 
 ## Managing folders and elements
 
@@ -55,23 +55,23 @@ API Network Managers can manage all folders and elements. Folder Managers can ma
 
 > You can manage elements within the [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/#navigating-the-private-api-network) or with the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-b7c02959-88ca-4e2f-9b68-99538eed4533?ctx=documentation).
 
-### Editing collections
+## Editing collections
 
 You can change a collection's summary and associated environments in the Private API Network. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection you would like to edit from the network, then select **Edit collection**. Edit the collection, then select **Edit** to save your changes.
 
 > You can also select a collection in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the upper-right corner, then select **Edit collection**.
 
-### Moving folders and elements
+## Moving folders and elements
 
 You can move folders and elements in the Private API Network. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the folder or element you would like to move in the network, then select **Move...** or **Move element**. You can move folders and elements to an existing folder or create a new one. Select **Move Folder** or **Move element** to save your changes.
 
 > You can also select a folder or element in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the upper-right corner, then select **Move...** or **Move element**.
 
-### Renaming folders
+## Renaming folders
 
 You can rename folders in the Private API Network. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the folder you would like to rename, then select **Rename**. Enter a new name, then press **Enter**.
 
-### Removing folders and elements
+## Removing folders and elements
 
 You can remove folders and elements from the Private API Network. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the folder or element you want to remove from the network, then select **Delete** or **Remove**. To confirm that you want to remove an element from the network, select **Remove**.
 

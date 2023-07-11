@@ -1,5 +1,5 @@
 ---
-title: "Private API Network requests"
+title: "Requesting to add to the Private API Network"
 updated: 2023-07-07
 contextual_links:
   - type: section
@@ -36,7 +36,7 @@ contextual_links:
 
 > **[The Private API Network is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-Users with the [Editor role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) for an element can request to add elements to the Private API Network.
+Users with the Editor role can request to add elements to the Private API Network. An API Network Manager or Folder Manager will review your request and either approve or deny it.
 
 ## Contents
 
