@@ -40,7 +40,7 @@ To access the Public API Network, visit [postman.com/explore](https://www.postma
 There are a variety of ways to find APIs, workspaces, teams, and collections:
 
 * **Spotlight** highlights the latest exciting, useful, and noteworthy contributions to the Public API Network, handpicked by the experts at Postman.
-* **Trending APIs** shows entities that are the most popular in the Public API Network, based on the number of people viewing or creating forks of them.
+* **Trending APIs** shows most popular APIs in the Public API Network based on views and forks.
 * **Collections**, **Workspaces**, and **Flows** show all public entities of each kind, with featured entities at the top.
 * **Categories** showcases popular API categories in the Public API Network:
     * [App Security](https://www.postman.com/category/app-security)
