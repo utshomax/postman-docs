@@ -46,6 +46,8 @@ Workspaces, collections, and APIs in the Private API Network are visible to logg
 
 * [Navigating the Private API Network](#navigating-the-private-api-network)
 * [Searching, filtering, and sorting](#searching-filtering-and-sorting)
+    * [Searching for folders and elements in the network](#searching-for-folders-and-elements-in-the-network)
+    * [Searching for elements in a folder](#searching-for-elements-in-a-folder)
 * [Reviewing details about elements](#reviewing-details-about-elements)
 * [Sharing folders and elements](#sharing-folders-and-elements)
 * [Watching and forking elements](#watching-and-forking-elements)
