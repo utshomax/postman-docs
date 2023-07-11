@@ -1,7 +1,5 @@
 ---
 title: "Navigating Postman"
-order: 3
-page_id: "navigating_postman"
 updated: 2022-11-16
 contextual_links:
   - type: section
@@ -28,7 +26,6 @@ contextual_links:
   - type: link
     name: "Focus on the work that matters with sidebar configurations"
     url: "https://blog.postman.com/focus-on-the-work-that-matters-with-sidebar-configurations/"
-warning: false
 ---
 
 Postman has a variety of tools, views, and controls to help you manage your API projects. This guide is a high-level overview of Postman's primary interface areas:
