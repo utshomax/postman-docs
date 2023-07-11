@@ -35,7 +35,7 @@ The Postman Public API Network is the largest network of APIs, workspaces, and c
 
 To access the Public API Network, visit [postman.com/explore](https://www.postman.com/explore) or select **Explore** in the header.
 
-<img alt="Postman Public API Network" src="https://assets.postman.com/postman-docs/v10/public-api-network-v10-1.jpg" width="1000px"/>
+<img alt="Postman Public API Network" src="https://assets.postman.com/postman-docs/v10/public-api-network-v10-1.jpg" />
 
 There are a variety of ways to find APIs, workspaces, teams, and collections:
 
