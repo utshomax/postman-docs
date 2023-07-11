@@ -291,7 +291,7 @@ You can export a data dump of all your collections, environments, globals, and h
 
 1. Select **Request Data Export** to submit the request.
 
-   <img alt="Export data dump" src="https://assets.postman.com/postman-docs/v10/import-export-data-dump-request-confirm-v10-16.jpg" width="443px" />
+   <img alt="Export data dump" src="https://assets.postman.com/postman-docs/v10/import-export-data-dump-request-confirm-v10-16a.jpg" width="443px" />
 
 The [Export page](http://go.postman.co/me/export) shows information about your export request, including the file size, the date the export expires, and the statuses of your requested data exports. Possible statuses are:
 

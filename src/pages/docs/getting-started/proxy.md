@@ -43,7 +43,7 @@ To configure the default proxy, do the following:
 1. Enter the **Username** and **Password** required by the proxy server.
 1. Select **Save and Restart Postman**.
 
-<img alt="Default proxy" src="https://assets.postman.com/postman-docs/v10/proxy-default-v10-16.jpg">
+<img alt="Default proxy" src="https://assets.postman.com/postman-docs/v10/proxy-default-v10-16a.jpg">
 
 ## Using the system proxy for requests
 
@@ -58,7 +58,7 @@ To configure Postman to use the system proxy, do the following:
 
 > Make sure the **Use custom proxy configuration** toggle isn't turned on. If both the system proxy and custom proxy options are enabled, Postman will use the custom proxy.
 
-<img alt="System proxy" src="https://assets.postman.com/postman-docs/v10/proxy-system-v10-16.jpg">
+<img alt="System proxy" src="https://assets.postman.com/postman-docs/v10/proxy-system-v10-16a.jpg">
 
 ## Using a custom proxy for requests
 
@@ -76,7 +76,7 @@ To configure Postman to use a custom proxy, do the following:
     * **Proxy auth** - Turn on this toggle if the proxy server requires basic authentication. Enter the **Username** and **Password** for the proxy server.
     * **Proxy bypass** - Enter a comma-separated list of hosts. Requests sent to these hosts won't use the custom proxy.
 
-<img alt="Custom proxy" src="https://assets.postman.com/postman-docs/v10/proxy-custom-v10-16.jpg">
+<img alt="Custom proxy" src="https://assets.postman.com/postman-docs/v10/proxy-custom-v10-16a.jpg">
 
 ## Troubleshooting proxy configurations
 

@@ -36,7 +36,7 @@ In the Postman settings, you can view installed certificates, add a new certific
 1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**.
 1. Select the **Certificates** tab.
 
-![Certificates tab](https://assets.postman.com/postman-docs/v10/certificates-settings-tab-v10-16.jpg)
+![Certificates tab](https://assets.postman.com/postman-docs/v10/certificates-settings-tab-v10-16a.jpg)
 
 ### Adding CA certificates
 
@@ -45,7 +45,7 @@ To avoid "self signed certificate" errors when sending requests, add your custom
 1. Turn on the toggle next to **CA Certificates**.
 1. Select the **PEM file** for your CA certificate. (The PEM file can contain multiple CA certificates.)
 
-![Adding a CA certificate](https://assets.postman.com/postman-docs/v10/certificates-add-ca-cert-v10-16.jpg)
+![Adding a CA certificate](https://assets.postman.com/postman-docs/v10/certificates-add-ca-cert-v10-16a.jpg)
 
 ### Adding client certificates
 
@@ -61,7 +61,7 @@ To send requests to an API that uses mutual TLS authentication, add your client 
 1. If you used a **Passphrase** when generating the client certificate, enter it in the box. Otherwise, leave the box blank.
 1. Select **Add**.
 
-![Adding a client certificate](https://assets.postman.com/postman-docs/v10/certificates-add-client-cert-v10-16.jpg)
+![Adding a client certificate](https://assets.postman.com/postman-docs/v10/certificates-add-client-cert-v10-16a.jpg)
 
 > Each client certificate is specific to a domain. To send requests to more domains, add the appropriate certificate for each domain. Don't add more than one certificate for the same domain. If you add more than one certificate for a domain, Postman will use the last certificate added.
 
