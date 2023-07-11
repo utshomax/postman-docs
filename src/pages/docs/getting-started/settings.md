@@ -93,7 +93,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 **Editor** settings affect code-related text such as request and response bodies, pre-request scripts, and tests. To revert back to default text settings, select **Reset**.
 
 * **Font family** - Enter one or more font family names separated by commas. Postman uses the first available font family to display code text.
-* **Font Size** - Enter the font size in pixels to use for code text.
+* **Font size** - Enter the font size in pixels to use for code text.
 * **Indentation count** - Enter the number of indentation characters to use for each code level.
 * **Indentation type** - Select the indentation character type to use (**Space** or **Tab**).
 * **Auto close brackets** - Turn this on to automatically add a closing bracket when you enter an opening bracket.
@@ -101,7 +101,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 ### Application
 
-* **Autosave** - Turn this on to automatically save any changes you make to requests and collections.
+<!-- * **Autosave** - Turn this on to automatically save any changes you make to requests and collections. -->
 * **Send anonymous usage data to Postman** - Postman gathers basic, anonymous usage data to help with product improvement. Turn this off to stop sending anonymous usage data to Postman.
 * **Connection mode** - Configure how to connect to Postman servers using either **Auto** (default) or **HTTP**.
 
