@@ -68,7 +68,7 @@ Next, enable Webhooks so we can send messages to the Slack app from Flows (you'l
 
 ![Enable Slack Webhooks](https://assets.postman.com/postman-labs-docs/cloud-execution/slack-app-enable-webhooks.gif)
 
-For the final step, run the command you created in the first step in the slack channel you installed it to and view your recipe!
+For the final step, run the command you created in the first step in the Slack channel you installed it to and view your recipe!
 
 ![Enable Slack Webhooks](https://assets.postman.com/postman-labs-docs/cloud-execution/run-slack-command.gif)
 
