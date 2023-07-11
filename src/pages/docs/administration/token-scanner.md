@@ -42,7 +42,7 @@ The Postman Secret Scanner scans public workspaces to detect any exposed secrets
 
 A scan starts whenever team members do any of the following actions:
 
-* Change the workspace visibility to Public.
+* Request to make a workspace public.
 * Share a collection or environment to a public workspace.
 * Make changes to a collection or environment that's present in a public workspace.
 * Write new documentation for a Postman Collection and make it public.
