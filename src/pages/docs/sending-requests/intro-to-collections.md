@@ -15,11 +15,6 @@ contextual_links:
   - type: dynamic_blog
     name: "Blog posts"
     blog_tag: "collections"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Ping Identity"
-    url: "https://www.postman.com/case-studies/pingidentity/"
 warning: false
 ---
 
