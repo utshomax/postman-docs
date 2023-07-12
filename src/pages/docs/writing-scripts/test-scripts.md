@@ -167,7 +167,7 @@ Not sure how to write an test script for your request? Ask Postbot! You can use 
 To write a test with Postbot, do the following:
 
 1. Send your request so it has a response.
-1. Go to the **Tests** tab.
+1. Select the **Tests** tab.
 1. In the **Script with Postbot** section next to your test, select the Postbot icon <img alt="Postbot icon" src="https://assets.postman.com/postman-docs/v10/icon-postbot-v10-16.jpg#icon" width="18px">.
 1. Enter enter your query as a simple text sentence, or select a built-in suggestions to quickly tell Postbot what you need.
       <img alt="Postbot writing a test" src="https://assets.postman.com/postman-docs/v10/postbot-add-test-v10-16.gif" width="300px" />
