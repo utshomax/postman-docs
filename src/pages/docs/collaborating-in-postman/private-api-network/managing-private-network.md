@@ -42,19 +42,16 @@ You can manage folders and elements in the Private API Network. You can edit a c
 
 > Enterprise teams can also assign the API Network Manager role to a user group. For more information about assigning team roles to groups, see [User groups](/docs/collaborating-in-postman/user-groups/).
 
+<!-- -->
+
+> You can manage elements within the [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/#navigating-the-private-api-network) or with the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-b7c02959-88ca-4e2f-9b68-99538eed4533?ctx=documentation).
+
 ## Contents
 
-* [Managing folders and elements](#managing-folders-and-elements)
 * [Editing collections](#editing-collections)
 * [Moving folders and elements](#moving-folders-and-elements)
 * [Renaming folders](#renaming-folders)
 * [Removing folders and elements](#removing-folders-and-elements)
-
-## Managing folders and elements
-
-API Network Managers can manage all folders and elements. Folder Managers can manage folders and elements in folders they have permission to manage. Users with the Editor role for an element can also manage the element.
-
-> You can manage elements within the [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/#navigating-the-private-api-network) or with the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-b7c02959-88ca-4e2f-9b68-99538eed4533?ctx=documentation).
 
 ## Editing collections
 
