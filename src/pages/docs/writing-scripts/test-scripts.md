@@ -50,6 +50,7 @@ warning: false
     * [Using snippets](#using-snippets)
 * [Testing collections and folders](#testing-collections-and-folders)
 * [Debugging your steps](#debugging-your-tests)
+* [Using Postbot to write tests](#using-postbot-to-write-tests)
 * [Next steps](#next-steps)
 
 ## Adding tests
@@ -158,6 +159,22 @@ If you are having trouble with your tests:
 
 * Check if there are any errors in your scripts. A red badge will highlight scripts with errors. You can also check the response section for specific errors.
 * Debug your tests using the [log statements](/docs/sending-requests/troubleshooting-api-requests/#using-log-statements) to ensure that you are asserting on correct data.
+
+## Using Postbot to write tests
+
+Not sure how to write an test script for your request? Ask Postbot! You can use artificial intelligence to write your test scripts. You can ask Postbot a simple text question, and it will generate a test to solve your question.
+
+<!--TODO: Image -->
+
+To write a test with Postbot, do the following:
+
+1. Send your request so it has a response.
+1. Go to the **Tests** tab.
+1. In the **Script with Postbot** section next to your test, select the Postbot icon <img alt="Postbot icon" src="https://assets.postman.com/postman-docs/v10/icon-postbot-v10-16.jpg#icon" width="18px">.
+1. Enter enter your query as a simple text sentence, or select a built-in suggestions to quickly tell Postbot what you need.
+1. Select the play button. Postbot will write a test for you.
+
+For more information on Postbot, visit [About Postbot](/docs/getting-started/about-postbot/).
 
 ## Next steps
 
