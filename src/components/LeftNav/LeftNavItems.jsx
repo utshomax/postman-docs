@@ -700,7 +700,7 @@ export const leftNavItems = [
             url: '/docs/collaborating-in-postman/private-api-network/managing-private-network/'
           },
           {
-            name: 'Private API Network requests',
+            name: 'Requesting to add to the Private API Network',
             url: '/docs/collaborating-in-postman/private-api-network/private-network-requests/'
           },
         ],
