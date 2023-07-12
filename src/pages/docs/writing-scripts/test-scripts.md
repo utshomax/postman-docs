@@ -162,18 +162,18 @@ If you are having trouble with your tests:
 
 ## Using Postbot to write tests
 
-Not sure how to write an test script for your request? Ask Postbot! You can use artificial intelligence to write your test scripts. You can ask Postbot a simple text question, and it will generate a test to solve your question. You can use Postbot to add a new set of tests, visualize responses, save a field from a response, fix your existing tests, and more.
+Not sure how to write an test script for your request? Ask Postbot! Tell Postbot what you want to do using plain language, and Postman uses artificial intelligence to generate test scripts for you. Use Postbot to add a new set of tests, visualize responses, save a field from a response, fix your existing tests, and more.
 
 To write a test with Postbot, do the following:
 
 1. Send your request so it has a response.
-1. Go to the **Tests** tab.
+1. Select the **Tests** tab.
 1. In the **Script with Postbot** section next to your test, select the Postbot icon <img alt="Postbot icon" src="https://assets.postman.com/postman-docs/v10/icon-postbot-v10-16.jpg#icon" width="18px">.
-1. Enter enter your query as a simple text sentence, or select a built-in suggestions to quickly tell Postbot what you need.
+1. Enter your query as a simple text sentence, or select one of the suggested queries to tell Postbot what you need.
 
       <img alt="Postbot writing a test" src="https://assets.postman.com/postman-docs/v10/postbot-add-test-v10-16.gif" width="300px" />
 
-1. Select the play button. Postbot will write a test for you.
+1. Select the play button. Postbot writes a test for you.
 
 For more information on Postbot, visit [About Postbot](/docs/getting-started/about-postbot/).
 
