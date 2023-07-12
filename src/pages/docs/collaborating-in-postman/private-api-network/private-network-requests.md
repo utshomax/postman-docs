@@ -85,7 +85,7 @@ To request to add elements from your Private API network, do the following:
 
 ### Requesting to add a workspace from the workbench
 
-[Workspace Editors](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) can request to add workspaces to your Private API Network from the workbench.
+[Workspace Editors](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) can request to add workspaces to your Private API Network from the workbench. API Network Managers and Folder Managers can [add a workspace](/docs/collaborating-in-postman/private-api-network/organizing-private-network/#adding-a-workspace-from-the-workbench).
 
 1. Open the workspace you want to add to the Private API Network.
 1. In the workspace overview, select <img alt="Workspace settings icon" src="https://assets.postman.com/postman-docs/v10/icon-sliders-v10.jpg#icon" width="24px"> **Workspace Settings**.
