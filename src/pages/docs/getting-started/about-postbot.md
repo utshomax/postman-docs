@@ -14,7 +14,7 @@ contextual_links:
     url: "https://blog.postman.com/introducing-postbot-postmans-new-ai-assistant/"
 ---
 
-> **Postbot is in beta for [Free, Basic, and Professional plans.](https://www.postman.com/pricing/)**
+> **Postbot is in beta for [Postman Free, Basic, and Professional plans.](https://www.postman.com/pricing/)**
 
 Postbot is your AI assistant for API workflows in Postman. It can help you debug and understand APIs, write tests faster, write Postman Flows, make sense of large quantities of data, and more.
 
