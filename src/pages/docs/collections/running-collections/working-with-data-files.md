@@ -23,6 +23,14 @@ contextual_links:
 
 You can use data files to pass Postman sets of values to use in a collection run. By selecting a JSON or CSV data file in the Collection Runner, you can test your requests with multiple values as part of a single run.
 
+Before exporting your file, take into account the following considerations.
+
+* Preceding zeroes (for example, `000000345`) are stripped by Postman unless wrapped in double quotation marks (for example, `"000000345"`). Also, common spreadsheet programs (Microsoft Excel and Google Sheets) do not wrap values in quotes unless the value contains a comma or a double quotation mark.
+
+* To treat numbers with leading zeroes as strings in Postman, reopen your exported CSV file in a text editor (or create a script) to wrap the number in double quotes.
+
+* You do not need to add double quotes to simple integers. You do, however, need to format numbers larger than 15 digits as text in your spreadsheet program, so they are not truncated during export.
+
 ## Running collections with data files
 
 You can select a data file to use in a [collection run](/docs/collections/running-collections/intro-to-collection-runs/).
@@ -71,14 +79,12 @@ You may encounter errors when Postman attempts to read your data file during a c
 
 * Ensure your data file is formatted as either CSV or JSON.
 
-* If you want to keep large numbers or numbers with leading zeros, specify them as a string in the CSV file by wrapping the number in double quotes as follows:
+* If you want to retain numbers with leading zeros, open the file in a text editor and wrap the number in double quotes as follows:
 
   ```csv
   index,specialNumber
   1,"000001"
   2,"9223372036854775807"
   ```
-
-* To ensure the correct encoding of your data file, open the file in a text editor and save it in a different format.
 
 If the errors persist, [contact the Postman support team](https://support.postman.com/hc/en-us).
