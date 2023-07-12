@@ -36,7 +36,9 @@ contextual_links:
 
 > **[The Private API Network is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-Users with the Editor role can request to add elements to the Private API Network. An API Network Manager or Folder Manager will review your request and either approve or deny it.
+You can request to add elements to the Private API Network. An API Network Manager or Folder Manager will review your request and either approve or deny it.
+
+Users with the Editor role for an element can request to add elements to the Private API Network.
 
 ## Contents
 
