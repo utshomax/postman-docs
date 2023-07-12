@@ -60,7 +60,7 @@ This quick start tutorial creates a flow to check if a website is down or not. I
 
     ![Add an **Evaluate** block](https://assets.postman.com/postman-docs/v10/flow-tut-add-eval-v10-3.gif)
 
-1. In the **Evaluate** block, select **value1** and change it to `status`. Then select **Enter path...**, scroll down, and select **http.status**.
+1. In the **Evaluate** block, select `value1` and change it to `status`. Then select **Enter path...**, scroll down, and select **http.status**.
 
     ![Rename value1 and select `http.status`](https://assets.postman.com/postman-docs/v10/flow-tut-select-status-v10-3.gif)
 
