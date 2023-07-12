@@ -65,7 +65,7 @@ Select an issue to view the element where the issue was detected. To resolve the
 
 Postman automatically identifies syntax errors as you [edit your API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/). Errors can include missing fields, malformed field names, incorrect data types, incorrect nesting, or other API definition issues.
 
-Postman can identify syntax errors for OpenAPI 2.0, 3.0, and 3.1 and WSDL 1.1 and 2.0 definitions. For Postman to be able to check your definition elements, the JSON or YAML must be well formed.
+Postman can identify syntax errors for OpenAPI (2.0, 3.0, and 3.1), WSDL (1.1 and 2.0), and AsyncAPI 2 definitions. For Postman to be able to check your definition elements, the JSON or YAML must be well formed.
 
 To view any syntax errors, select **Syntax** next to **Violations found in definition**. Each error shows the error type, the line on which it occurs, and details about the issue. Select an error to highlight it in the editor. You can also get more information by hovering over the error in the editor.
 

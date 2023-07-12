@@ -186,6 +186,7 @@ Postman directly supports importing the following formats:
 * Swagger [1.2](https://github.com/postmanlabs/swagger1-to-postman) and [2.0](https://github.com/postmanlabs/swagger2-postman2-lambda)
 * Protobuf 2 and 3
 * [GraphQL](https://github.com/postmanlabs/graphql-to-postman)
+* [AsyncAPI 2](https://github.com/asyncapi/spec)
 * [cURL](https://github.com/postmanlabs/curl-to-postman)
 * RAML [0.8](https://github.com/postmanlabs/raml-to-postman) and [1.0](https://github.com/postmanlabs/raml1-to-postman)
 * [WSDL 1.1 and 2.0](https://github.com/postmanlabs/wsdl-to-postman)
