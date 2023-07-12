@@ -25,11 +25,11 @@ You can use data files to pass Postman sets of values to use in a collection run
 
 Before exporting your file, take into account the following considerations.
 
-* CSV values with preceding zeroes (for example, `000000345`) are not correctly parsed by Postman unless wrapped in double quotation marks (for example, `"000000345"`). Also, common spreadsheet programs (Microsoft Excel and Google Sheets) do not wrap values in quotes unless the value contains a comma or a double quotation mark.
+* Preceding zeroes (for example, `000000345`) are stripped by Postman unless wrapped in double quotation marks (for example, `"000000345"`). Also, common spreadsheet programs (Microsoft Excel and Google Sheets) do not wrap values in quotes unless the value contains a comma or a double quotation mark.
 
 * To treat numbers with leading zeroes as strings in Postman, reopen your exported CSV file in a text editor (or create a script) to wrap the number in double quotes.
 
-* You do not need to add double quotes to simple integers. You do, however, need to format large numbers as text in your spreadsheet program, so they are not truncated during export.
+* You do not need to add double quotes to simple integers. You do, however, need to format numbers larger than 15 digits as text in your spreadsheet program, so they are not truncated during export.
 
 ## Running collections with data files
 
@@ -78,8 +78,6 @@ See the [Sandbox Reference](/docs/writing-scripts/script-references/postman-sand
 You may encounter errors when Postman attempts to read your data file during a collection run. If this happens, you can take the following steps:
 
 * Ensure your data file is formatted as either CSV or JSON.
-
-* To ensure the correct encoding of your data file, open the file in a text editor and save it in a different format.
 
 * If you want to retain numbers with leading zeros, open the file in a text editor and wrap the number in double quotes as follows:
 
