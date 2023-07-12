@@ -117,7 +117,7 @@ To request to add elements from your Private API network, do the following:
 
 ### Requesting to add an API from the workbench
 
-[API Editors](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) can request to add APIs to your Private API Network from the workbench.
+[API Editors](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) can request to add APIs to your Private API Network from the workbench. API Network Managers and Folder Managers can [add an API](/docs/collaborating-in-postman/private-api-network/organizing-private-network/#adding-an-api-from-the-workbench).
 
 > An API's editor must [publish a version of the API](#publishing-specific-api-versions) before you can add it to your Private API Network.
 
