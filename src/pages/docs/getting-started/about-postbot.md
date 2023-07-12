@@ -16,7 +16,7 @@ contextual_links:
 
 > **Postbot is in beta for [Postman Free, Basic, and Professional plans.](https://www.postman.com/pricing/)**
 
-Postbot is your AI assistant for API workflows in Postman. You can ask Postbot to help you debug and understand APIs, write tests, create Postman Flows, make sense of large data sets, and more.
+Postbot is your AI assistant for API workflows in Postman. You can ask Postbot to help you debug and understand APIs, write tests, create Postman Flows, and make sense of large data sets.
 
 To use Postbot, look for the Postbot icon <img alt="Postbot icon" src="https://assets.postman.com/postman-docs/v10/icon-postbot-v10-16.jpg#icon" width="18px">. Select the icon and enter a plain text prompt, and Postbot will help you complete your work.
 
