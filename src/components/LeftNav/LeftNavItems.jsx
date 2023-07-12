@@ -938,6 +938,10 @@ export const leftNavItems = [
         url: '/docs/publishing-your-api/publishing-your-docs/',
       },
       {
+        name: 'Setting up authentication for public APIs',
+        url: '/docs/publishing-your-api/setting-up-authentication-for-public-apis/',
+      },
+      {
         name: 'Viewing documentation',
         url: '/docs/publishing-your-api/viewing-documentation/',
       },
