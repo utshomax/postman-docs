@@ -46,7 +46,7 @@ Not sure how to write an FQL statement for your flow? Ask Postbot! Flows has sup
 
 <!--TODO: Image -->
 
-In the **Evaluate** block, select the Postbot icon <img alt="Postbot icon" src="https://assets.postman.com/postman-docs/v10/icon-postbot-v10-16.jpg#icon" width="18px">. Enter enter your query as a simple text sentence and select **Generate FQL**. Postbot will suggest a query for you.
+In the **Evaluate** block, select the Postbot icon <img alt="Postbot icon" src="https://assets.postman.com/postman-docs/v10/icon-postbot-v10-16.jpg#icon" width="18px">. Enter your query as a simple text sentence and select **Generate FQL**. Postbot will suggest a query for you based on your prompt.
 
 For more information on Postbot, visit [About Postbot](/docs/getting-started/about-postbot/).
 
