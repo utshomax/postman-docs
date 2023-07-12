@@ -75,7 +75,7 @@ To create a public workspace, do the following:
 
     > You can also apply a workspace template to a newly created workspace. To learn more, see [Creating workspaces with a template](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template).
 
-    <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-and-apply-template-v10.jpg" width="400px"/>
+    <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-and-apply-template-full-screen-v10.jpg"/>
 
 1. Specify a workspace **Name** and **Summary**.
     > Within a team, you can't have two public workspaces with the same name.
