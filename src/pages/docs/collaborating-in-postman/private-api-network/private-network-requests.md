@@ -99,7 +99,7 @@ To request to add elements from your Private API network, do the following:
 
 ### Requesting to add a collection from the workbench
 
-[Collection Editors](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) can request to add collections to your Private API Network from the workbench.
+[Collection Editors](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) can request to add collections to your Private API Network from the workbench. API Network Managers and Folder Managers can [add a collection](/docs/collaborating-in-postman/private-api-network/organizing-private-network/#adding-a-collection-from-the-workbench).
 
 1. Open the collection you want to add to the Private API Network.
 1. In the collection overview, select **Request to Add**.
