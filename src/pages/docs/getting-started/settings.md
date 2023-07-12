@@ -144,7 +144,7 @@ Use the **Certificates** tab to add and manage CA certificates and client certif
 
 ## Connected accounts
 
-You can use the **Connected accounts** tab to manage the accounts and tokens used to authorize Postman with third-party services. For example, when you [connect an API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/), Postman stores your authorization details. You can then use the connected account to add other integrations to the same service.
+You can use the **Connected accounts** tab to manage the accounts and tokens used to authorize Postman with third-party services. For example, when you [connect an API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/), Postman stores your authorization details. You can then use the connected account to add other integrations to the same service.
 
 You can manage your saved accounts and tokens on the **Connected accounts** tab:
 
