@@ -32,4 +32,4 @@ The Postman VS Code extension enables you to develop and test your APIs in Postm
 
 To install and learn more about the VS Code extension, visit the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode).
 
-![Postman VS Code extension](https://assets.postman.com/postman-docs/postman-vs-code-extension.jpg)
+![Postman VS Code extension](https://assets.postman.com/postman-docs/postman-vs-code-extension-2.jpg)
