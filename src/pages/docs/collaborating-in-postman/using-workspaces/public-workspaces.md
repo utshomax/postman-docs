@@ -2,7 +2,7 @@
 title: "Public workspaces"
 order: 76
 page_id: "public_workspaces"
-updated: 2022-03-11
+updated: 2023-07-15
 warning: false
 contextual_links:
   - type: section
