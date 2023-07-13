@@ -16,14 +16,53 @@ contextual_links:
     url: "https://blog.postman.com/easier-api-authentication-in-postman/"
 ---
 
-You can onboard your public API consumers quickly and efficiently by setting up guided API authentication in Postman. This feature enables you to communicate the steps users need to take to successfully make their request to your API, such as registering for a developer account or creating an app on your dashboard. When a user creates a request to your API, Postman will automatically recognize it requires authentication and prompt them with your provided steps to set up authorization.
+You can onboard your public API consumers quickly and efficiently by setting up guided API authentication in Postman. This feature enables you to communicate the steps users need to take to successfully make their request to your API, such as registering for a developer account or creating an app on your dashboard. When a user creates a request to your API, Postman will automatically recognize it requires authentication and prompt them with your provided steps to set it up.
 
 <img alt="Postman API set up new authorization" src="https://assets.postman.com/postman-docs/v10/postman-api-easier-auth-v10-2.jpg"/>
 
 ## Contents
 
-* [Setting up API authorization](#)
-    * [Setting up domain verification](#)
+* [Setting up API authentication](#setting-up-api-authentication)
+    * [Verifying your domain](#verifying-your-domain)
 
+## Setting up API authentication
 
-If you're an API publisher, you can [join the waitlist](https://go.postman.co/settings/team/api-authentication) to provide easier authentication for your public APIs to the Postman community. To do so, open Postman and select **Team** in the upper right, then **Team Settings > Set Up API authorization**. Alternatively, select **API Network** from the Postman header, then select **Public API Network > Set up API authorization**.
+To set up guided API authentication, open Postman and select **Team** in the upper right, then **Team Settings > Set Up API authorization**. Or, select **API Network** from the Postman header, then select **Public API Network > Set up API authorization**.
+
+Select **Set Up API authorization**.
+
+This example shows you how to configure API authentication for an API that uses [OAuth 2.0](/docs/sending-requests/authorization/oauth-20/):
+
+1. Enter the base URL of your API. You'll need to [verify it](#verifying-your-domain) to enable authorization in a later step.
+    <img alt="Enter base URL of your API" src="https://assets.postman.com/postman-docs/v10/enter-base-url-api-v10.16.jpg"/>
+2. Select the authorization type, which in this example is [**OAuth 2.0**](/docs/sending-requests/authorization/oauth-20/).
+    <img alt="Select authorization type for API" src="https://assets.postman.com/postman-docs/v10/select-authorization-type-v10.16.jpg" width="150px"/>
+3. Select the grant type from the dropdown list. In this example, it's **Authorization code**.
+    <img alt="Enter grant type" src="https://assets.postman.com/postman-docs/v10/enter-grant-type-v10.16.jpg"/>
+4. Select **Generate Callback URL**. Copy the URL and add it to the allowed list in your application’s settings.
+    <img alt="Generate callback URL" src="https://assets.postman.com/postman-docs/v10/generate-callback-url-v10.16.jpg"/>
+5. Enter the **Access token URL**. This URL is the endpoint for your authentication server and will be used to obtain an access token.
+    <img alt="Enter access token URL" src="https://assets.postman.com/postman-docs/v10/enter-access-token-url-v10.16.jpg"/>
+6. Enter the **Authorization URL**. This is where users will be sent to authenticate with your API.
+    <img alt="Enter authorization URL" src="https://assets.postman.com/postman-docs/v10/enter-authorization-url-v10.16.jpg"/>
+7. Enter the **Application client ID** for the application you created for this integration.\
+    <img alt="Enter application client ID" src="https://assets.postman.com/postman-docs/v10/enter-app-client-id-v10.16.jpg"/>
+8. Enter the **Application client secret** for the application you created for this integration.
+    <img alt="Enter application client secret" src="https://assets.postman.com/postman-docs/v10/enter-app-client-secret-v10.16.jpg"/>
+9. Optionally, enter **Authentication scopes** as a comma separated list to restrict what Postman users can access.
+    <img alt="Enter authentication scopes" src="https://assets.postman.com/postman-docs/v10/enter-authentication-scopes-v10.16.jpg"/>
+10. Select if client credentials should be sent as a Basic Auth header or in the request body. <br>
+    <img alt="Choose how to send client credentials" src="https://assets.postman.com/postman-docs/v10/how-to-send-client-credentials-v10.16.jpg" width="250px"/>
+11. Note any prerequisite steps users need to take to successfully make a request to your API. This could include items like registering for a developer account, creating an integration, or copying a token.
+    <img alt="Describe steps for users to take" src="https://assets.postman.com/postman-docs/v10/describe-prereq-steps-for-users-v10.16.jpg"/>
+    > You can use standard [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to structure your content and add links to relevant resources.
+12. [Verify your domain](#verifying-your-domain) to complete adding authorization.
+13. Select **Save** to save your API authorization settings.
+
+### Verifying your domain
+
+To verify your domain, select the copy icon<img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> to copy the TXT Record.
+
+<img alt="Verify domain for API authentication" src="https://assets.postman.com/postman-docs/v10/domain-verification-v10.16.jpg"/>
+
+Add the copied value to your domain as a DNS TXT record. Then, select **Verify Domain** in Postman to confirm. After your domain is verified, Postman will recognize newly created requests to your API and prompt users to authenticate through the steps you've provided.
