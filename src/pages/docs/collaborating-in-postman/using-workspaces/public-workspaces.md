@@ -40,6 +40,7 @@ Anyone in the Postman community can access a _public workspace_. A public worksp
 
 * [Making your team profile public](#making-your-team-profile-public)
 * [Creating a public workspace](#creating-a-public-workspace)
+* [Converting an exiting workspace to a public workspace](#converting-an-existing-workspace-to-a-public-workspace)
 * [Inviting collaboration on a public workspace](#inviting-collaboration-on-a-public-workspace)
     * [Sharing a public workspace](#sharing-a-public-workspace)
 * [Managing a public workspace](#managing-a-public-workspace)
@@ -67,7 +68,7 @@ For information on how to create a public profile, see [Editing your team profil
 
 To create a public workspace, do the following:
 
-1. Select **Workspaces** from the header, then select **Create Workspace**.
+1. From the header, select **Workspaces > Create Workspace**.
 
     <img alt="Workspace menu" src="https://assets.postman.com/postman-docs/v10/workspace-switcher-v10.jpg" width="300px"/>
 
@@ -79,7 +80,9 @@ To create a public workspace, do the following:
 
     <img alt="Create public workspace" src="https://assets.postman.com/postman-docs/create-public-wkspc-v9.5.jpg" width="400px"/>
 
-> You can use workspace templates to help set up your new public workspace. For more information, see [Creating workspaces with a template](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template).
+> You can set up your new public workspace using a template. For more information, see [Creating workspaces with a template](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template).
+
+## Converting an existing workspace to a public workspace
 
 To convert an existing workspace to a public workspace, do the following:
 
@@ -89,7 +92,7 @@ To convert an existing workspace to a public workspace, do the following:
 
 > You must be a workspace [Admin](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to change the visibility of a workspace.
 
-If you are on a [Postman Professional or Enterprise plan](https://www.postman.com/pricing), you need approval from a user with the [Community Manager role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to change a workspace's visibility.
+If you're on a [Postman Professional or Enterprise plan](https://www.postman.com/pricing), making a workspace public requires a [Community Manager's](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) approval.
 
 To convert an existing workspace to a public workspace in a Postman Professional or Enterprise plan, do the following:
 
