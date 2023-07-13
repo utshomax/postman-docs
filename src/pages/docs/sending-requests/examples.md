@@ -12,11 +12,6 @@ contextual_links:
   - type: link
     name: "Provide Examples | Postman Level Up"
     url: "https://www.youtube.com/watch?v=C0Z3OMuCGBw&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=5"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Imgur"
-    url: "https://www.postman.com/case-studies/imgur/"
 ---
 
 Examples show your API endpoints in action and give more details on how requests and responses work. You can add an example to a request by saving a response, or you can create an example with a custom response to illustrate a specific use case. Once you've created examples, you can use them to set up a mock server or add more detail to your API documentation.
