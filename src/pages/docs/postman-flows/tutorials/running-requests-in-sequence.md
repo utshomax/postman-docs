@@ -1,6 +1,6 @@
 ---
 title: "Running requests in sequence"
-updated: 2022-11-17
+updated: 2022-07-15
 contextual_links:
   - type: section
     name: "Additional resources"
