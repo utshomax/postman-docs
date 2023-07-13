@@ -34,28 +34,51 @@ Select **Set Up API authorization**.
 This example shows you how to configure API authentication for an API that uses [OAuth 2.0](/docs/sending-requests/authorization/oauth-20/):
 
 1. Enter the base URL of your API. You'll need to [verify it](#verifying-your-domain) to enable authorization in a later step.
+
     <img alt="Enter base URL of your API" src="https://assets.postman.com/postman-docs/v10/enter-base-url-api-v10.16.jpg"/>
+
 2. Select the authorization type, which in this example is [**OAuth 2.0**](/docs/sending-requests/authorization/oauth-20/).
+
     <img alt="Select authorization type for API" src="https://assets.postman.com/postman-docs/v10/select-authorization-type-v10.16.jpg" width="150px"/>
+
 3. Select the grant type from the dropdown list. In this example, it's **Authorization code**.
+
     <img alt="Enter grant type" src="https://assets.postman.com/postman-docs/v10/enter-grant-type-v10.16.jpg"/>
+
 4. Select **Generate Callback URL**. Copy the URL and add it to the allowed list in your application’s settings.
+
     <img alt="Generate callback URL" src="https://assets.postman.com/postman-docs/v10/generate-callback-url-v10.16.jpg"/>
+
 5. Enter the **Access token URL**. This URL is the endpoint for your authentication server and will be used to obtain an access token.
+
     <img alt="Enter access token URL" src="https://assets.postman.com/postman-docs/v10/enter-access-token-url-v10.16.jpg"/>
+
 6. Enter the **Authorization URL**. This is where users will be sent to authenticate with your API.
+
     <img alt="Enter authorization URL" src="https://assets.postman.com/postman-docs/v10/enter-authorization-url-v10.16.jpg"/>
-7. Enter the **Application client ID** for the application you created for this integration.\
+
+7. Enter the **Application client ID** for the application you created for this integration.
+
     <img alt="Enter application client ID" src="https://assets.postman.com/postman-docs/v10/enter-app-client-id-v10.16.jpg"/>
+
 8. Enter the **Application client secret** for the application you created for this integration.
+
     <img alt="Enter application client secret" src="https://assets.postman.com/postman-docs/v10/enter-app-client-secret-v10.16.jpg"/>
+
 9. (Optional) Enter **Authentication scopes** as a comma separated list to restrict what Postman users can access.
+
     <img alt="Enter authentication scopes" src="https://assets.postman.com/postman-docs/v10/enter-authentication-scopes-v10.16.jpg"/>
-10. Select if client credentials should be sent as a Basic Auth header or in the request body. <br>
+
+10. Select if client credentials should be sent as a Basic Auth header or in the request body.
+
     <img alt="Choose how to send client credentials" src="https://assets.postman.com/postman-docs/v10/how-to-send-client-credentials-v10.16.jpg" width="250px"/>
+
 11. Note any prerequisite steps users need to take to successfully make a request to your API. This could include items like registering for a developer account, creating an integration, or copying a token.
+
     <img alt="Describe steps for users to take" src="https://assets.postman.com/postman-docs/v10/describe-prereq-steps-for-users-v10.16.jpg"/>
+
     > You can use basic Markdown syntax like bold, italics, underline, bullet points, and links to structure your content.
+
 12. (Optional) Select **> Advanced Settings** to add a refresh token URL or parameters to different types of requests.
 13. (Required) [Verify your domain](#verifying-your-domain) to complete adding authorization.
 14. Select **Save** to save your API authorization settings.
