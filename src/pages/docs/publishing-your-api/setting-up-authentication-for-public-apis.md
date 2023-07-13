@@ -66,7 +66,7 @@ You must verify your domain for your API authentication configuration to be shar
 
 <img alt="Verify domain for API authentication" src="https://assets.postman.com/postman-docs/v10/domain-verification-v10.16.jpg"/>
 
-Add the copied value to your domain as a DNS TXT record. 
+Add the copied value to your domain as a DNS TXT record.
 
 ![Adding a TXT record](https://assets.postman.com/postman-docs/v10/custom-domains-add-txt.jpg)
 
