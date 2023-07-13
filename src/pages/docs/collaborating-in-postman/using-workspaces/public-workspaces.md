@@ -88,8 +88,19 @@ To convert an existing workspace to a public workspace, do the following:
 1. Select **Update**.
 
 > You must be a workspace [Admin](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to change the visibility of a workspace.
-<!--  -->
-> If you are on a [Postman Professional or Enterprise plan](https://www.postman.com/pricing), you need approval from a user with the [Community Manager role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to change a workspace's visibility. In the **Overview** tab, select **Workspace Settings**. Under **Visibility**, select **Public** from the dropdown list, then **Request to Change Visibility**.
+<!-- -->
+> If you are on a [Postman Professional or Enterprise plan](https://www.postman.com/pricing), you need approval from a user with the [Community Manager role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to change a workspace's visibility.
+
+To convert an existing workspace to a public workspace in a Postman Professional or Enterprise plan, do the following:
+
+1. In the **Overview** tab, select **Workspace Settings**.
+2. Under **Visibility**, select **Public** from the dropdown list, enter an optional note, then **Request Visibility Change**.
+
+    <img alt="Request Visibility Change" src="https://assets.postman.com/postman-docs/v10/public-workspace-request-v10.jpg" width="400px"/>
+
+   This sends a request to team members with the Community Manager role, triggers the [Secret Scanner](/docs/administration/token-scanner/), and creates a Team workspace until it's approved by a Community Manager. While you're waiting for the request to be reviewed, you can check the status of the secret scan or cancel the request from Workspace settings.
+
+    <img alt="Request being reviewed" src="https://assets.postman.com/postman-docs/v10/public-workspace-request-review-v10.jpg" width="400px"/>
 
 Once you make a workspace public, all entities within that workspace become publicly accessible through the workspace.
 
