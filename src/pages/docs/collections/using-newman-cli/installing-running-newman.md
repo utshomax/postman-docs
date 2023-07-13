@@ -86,7 +86,7 @@ $ newman run https://www.postman.com/collections/cb208e7e64056f5294e5 -e dev_env
 
 The results of all tests and requests can be exported into a file. Use the JSON reporter and a file name to save the output into a file.
 
-```
+```bash
 $ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json
 ```
 
