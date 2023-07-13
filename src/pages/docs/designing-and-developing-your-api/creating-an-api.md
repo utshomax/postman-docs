@@ -41,8 +41,10 @@ To start using the API Builder, you can create a new API in your workspace. You 
 
 1. Enter a name for your new API.
 1. Select an option for creating your API:
-    * Connect to a Git repository and import your API definitions and collections into Postman. Learn more about [connecting to a repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/).
+
+    * Connect to a Git repository and import your API definitions and collections into Postman. Learn more about [API version control](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/).
     * Continue without a repository.
+
 1. To start working with your new API:
 
     * [Create a new API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#generating-an-api-definition) for your API.

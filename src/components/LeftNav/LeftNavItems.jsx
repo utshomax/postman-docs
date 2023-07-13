@@ -797,8 +797,16 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/',
           },
           {
-            name: 'Using a remote Git repository',
-            url: '/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/',
+            name: 'Using a cloud-hosted Git repository',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/',
+          },
+          {
+            name: 'Using an on-premises Git repository',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/',
+          },
+          {
+            name: 'Connecting multiple APIs to a repository',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/connecting-multiple-apis/',
           },
           {
             name: 'Managing changes using Git',

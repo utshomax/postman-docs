@@ -18,11 +18,6 @@ contextual_links:
   - type: dynamic_blog
     name: "Blog posts"
     blog_tag: "collections"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Ping Identity"
-    url: "https://www.postman.com/case-studies/pingidentity/"
 ---
 
 You can group your Postman requests and examples into collections to keep your workspace organized, to collaborate with teammates, to generate API documentation and API tests, and to automate request runs.

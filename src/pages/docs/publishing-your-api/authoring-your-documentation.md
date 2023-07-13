@@ -20,11 +20,6 @@ contextual_links:
   - type: link
     name: "Introducing New Image Support: Drag-and-Drop, Resize, and Add Captions in Postman Editor"
     url: "https://blog.postman.com/resize-images-add-captions-in-postman-editor/"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Imgur"
-    url: "https://www.postman.com/case-studies/imgur/"
 ---
 
 Postman [automatically generates documentation](/docs/publishing-your-api/documenting-your-api/) for every collection you create. The documentation includes all of the requests in your collection, along with examples, authorization details, and example code.
