@@ -254,7 +254,7 @@ The `createRulesetFunction` function is an optional Spectral function you can im
 
 This function enables you to use a [JSON Schema](#json-schema) to define your custom function's options, enabling you to validate whether the [options provided in your rule](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules) using `then.functionOptions` match specific criteria. The JSON Schema must be nested inside of a JSON object. If the provided options don't match the JSON Schema, an error message will explain the issue when editing your rule.
 
-> Error messages refer to your custom function as `"<unknown>" function`.
+> If you use ES6 syntax, error messages refer to your custom function as `"<unknown>" function`.
 
 Add a JSON Schema for each of the following to your JSON object:
 
