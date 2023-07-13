@@ -70,4 +70,4 @@ Add the copied value to your domain as a DNS TXT record.
 
 ![Adding a TXT record](https://assets.postman.com/postman-docs/v10/custom-domains-add-txt.jpg)
 
-Srelect **Verify Domain** in Postman to confirm. After your domain is verified, Postman will recognize newly created requests to your API and prompt users to authenticate through the steps you've provided.
+Select **Verify Domain** in Postman to confirm. After your domain is verified, Postman will recognize newly created requests to your API and prompt users to authenticate through the steps you've provided.
