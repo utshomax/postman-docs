@@ -20,11 +20,6 @@ contextual_links:
   - type: link
     name: "Set up workspaces and collaborate faster with workspace templates"
     url: "https://blog.postman.com/set-up-workspaces-and-collaborate-faster-with-workspace-templates/"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Movember Foundation"
-    url: "https://www.postman.com/case-studies/movember-foundation/"
 ---
 
 Workspaces enable you to organize your Postman work and collaborate with teammates. You can group your projects together, with workspace acting as the single source of truth for related APIs, collections, environments, mocks, monitors, and other linked entities. By collaborating in a workspace, your edits sync with your team in real time.

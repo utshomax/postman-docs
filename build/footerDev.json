@@ -127,19 +127,26 @@
         ]
       },
       {
-        "title": "Security and Terms",
-        "arialabelledby": "security-and-legal",
+        "title": "Legal and Security",
+        "arialabelledby": "legal-and-security",
         "category": "global-footer",
-        "label": "security-and-legal",
-        "id": "security-and-legal",
+        "label": "legal-and-security",
+        "id": "legal-and-security",
         "items": [
           {
-            "title": "Trust and Security",
+            "title": "Terms of Service",
+            "url": "https://www.postman.com/legal/terms/",
+            "category": "global-footer",
+            "label": "terms",
+            "ariaLabel": "Read more about Postman's terms'"
+          },
+          {
+            "title": "Trust and Safety",
             "url": "https://www.postman.com/trust/",
             "hrefType": "internal",
             "category": "global-footer",
-            "label": "security",
-            "ariaLabel": "Read more about Postman Security"
+            "label": "trust-and-safety",
+            "ariaLabel": "Read more about Postman Trust and Safety"
           },
           {
             "title": "Privacy policy",
@@ -150,11 +157,11 @@
             "ariaLabel": "Read more about Postman's privacy policy'e"
           },
           {
-            "title": "Terms",
-            "url": "https://www.postman.com/legal/terms/",
+            "title": "Cookie notice",
+            "url": "https://www.postman.com/legal/cookies/",
             "category": "global-footer",
-            "label": "terms",
-            "ariaLabel": "Read more about Postman's terms'"
+            "label": "cookie-notice",
+            "ariaLabel": "Read more about Postman's Cookie notice'"
           }
         ]
       },
