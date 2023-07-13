@@ -1,6 +1,6 @@
 ---
 title: "Building your first flow"
-updated: 2023-04-03
+updated: 2023-07-15
 contextual_links:
   - type: section
     name: "Additional resources"
