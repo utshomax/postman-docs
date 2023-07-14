@@ -1,6 +1,6 @@
 ---
 title: "Using a custom proxy"
-updated: 2022-06-13
+updated: 2023-07-15
 search_keyword: "HTTP_PROXY, NO_PROXY"
 contextual_links:
   - type: section
