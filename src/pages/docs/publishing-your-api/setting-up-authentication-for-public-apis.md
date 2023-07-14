@@ -65,7 +65,7 @@ This example shows you how to configure API authentication for an API that uses 
 
     <img alt="Enter application client secret" src="https://assets.postman.com/postman-docs/v10/enter-app-client-secret-v10.16.jpg"/>
 
-9. (Optional) Enter **Authentication scopes** as a comma separated list to restrict what Postman users can access.
+9. (Optional) Enter **Authentication scopes** as a comma-separated list to restrict what Postman users can access.
 
     <img alt="Enter authentication scopes" src="https://assets.postman.com/postman-docs/v10/enter-authentication-scopes-v10.16.jpg"/>
 
@@ -77,7 +77,7 @@ This example shows you how to configure API authentication for an API that uses 
 
     <img alt="Describe steps for users to take" src="https://assets.postman.com/postman-docs/v10/describe-prereq-steps-for-users-v10.16.jpg"/>
 
-    > You can use basic Markdown syntax like bold, italics, underline, bullet points, and links to structure your content.
+    > You can use basic Markdown syntax for bold, italics, underline, bullet points, and links to structure your content.
 
 12. (Optional) Select **> Advanced Settings** to add a refresh token URL or parameters to different types of requests.
 13. (Required) [Verify your domain](#verifying-your-domain) to complete adding authorization.
