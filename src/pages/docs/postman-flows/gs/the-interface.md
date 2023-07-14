@@ -27,7 +27,7 @@ contextual_links:
     url: "https://www.postman.com/case-studies/built/"
 ---
 
-The Postman Flows interface has three main parts: the toolbar, the right sidebar, and the console.
+The Postman Flows interface includes the toolbar, the right sidebar, the minimap, the console, and the **Share, Fork, and Deploy** buttons.
 
 ## Contents
 
@@ -37,54 +37,54 @@ The Postman Flows interface has three main parts: the toolbar, the right sidebar
 * [Console](#console)
 * [Share, Fork, and Deploy buttons](#share-fork-and-deploy-buttons)
 
-![Interface](https://assets.postman.com/postman-docs/v10/flows-interface-main-v10-2.jpg)
+![Interface](https://assets.postman.com/postman-docs/v10/flows-interface-main-v10-3.jpg)
 
 ## Toolbar
 
 The toolbar gives you access to tools you can use to manipulate the canvas.
-![Toolbar](https://assets.postman.com/postman-docs/v10/updated-interface-tool-bar-v10.jpg)
+  <img alt="Toolbar" src="https://assets.postman.com/postman-docs/v10/updated-interface-tool-bar-v10-2.jpg" width="600px"/>
 
 * **Zoom controls**
 
   Use the toolbar to zoom in or out the canvas. Fit-to-view adjusts the zoom level to fit your entire flow on the visible canvas.
 
   You can also press and hold **⌘** or **Ctrl** while scrolling to zoom in or out.
-  ![Zoom](https://assets.postman.com/postman-labs-docs/interface/updated-interface-zoom-controls.gif)
+  ![Zoom](https://assets.postman.com/postman-docs/v10/updated-interface-zoom-controls-v10-3.gif)
 
 * **Run**
 
   Select **Run** to start the flow you've built on the canvas. During an active run, select **Stop** to stop the flow.
 
-  ![Start a flow](https://assets.postman.com/postman-labs-docs/interface/updated-interface-start-flow.gif)
+  ![Start a flow](https://assets.postman.com/postman-docs/v10/updated-interface-start-flow-v10-1.gif)
 
 * **Add block**
 
   Use the toolbar to add a block to the canvas. Select **+ Block** and choose from the list of available blocks.
 
-  ![Add a block](https://assets.postman.com/postman-labs-docs/interface/updated-interface-add-block.gif)
+  ![Add a block](https://assets.postman.com/postman-docs/v10/updated-interface-add-block-v10-1.gif)
 
 * **Text**
 
   You can add rich markdown on the canvas to describe what your flow is doing. Press `T` or select the text icon on the toolbar and place the text block on the canvas.
 
-  ![Add text](https://assets.postman.com/postman-labs-docs/interface/updated-interface-add-annotations.gif)
+  ![Add text](https://assets.postman.com/postman-docs/v10/updated-interface-add-annotations-v10-1.gif)
 
 ## Right sidebar
 
 The right sidebar is the place where you'll see more information about your flow and its current state.
-![Right sidebar](https://assets.postman.com/postman-docs/v10/updated-interface-context-bar-v10-3.jpg)
+  <img alt="Right sidebar" src="https://assets.postman.com/postman-docs/v10/updated-interface-context-bar-v10-4.jpg" width="400px"/>
 
 * **Runs**
 
   Shows the deployment status and your flow's webhook URL. Enables you to deploy or undeploy your flow. You can toggle between viewing the deployed flow and viewing the flow in the editor. Also shows the selected flow's webhook events.
 
-  ![Runs](https://assets.postman.com/postman-docs/v10/flows-right-sidebar-runs-v10.jpg)
+  <img alt="Runs" src="https://assets.postman.com/postman-docs/v10/flows-right-sidebar-runs-v10.jpg" width="500px"/>
 
 * **Configuration**
 
   Shows the available configuration options and ports for the selected block. You can edit the block's title here.
 
-  ![Configuration](https://assets.postman.com/postman-docs/v10/flows-right-sidebar-config-v10.jpg)
+  <img alt="Configuration" src="https://assets.postman.com/postman-docs/v10/flows-right-sidebar-config-v10.jpg" width="500px"/>
 
 * [**Forks**](/docs/collaborating-in-postman/using-version-control/forking-entities/)
 
@@ -96,15 +96,15 @@ The right sidebar is the place where you'll see more information about your flow
 
 ## Minimap
 
-  ![Minimap](https://assets.postman.com/postman-docs/v10/flows-minimap-v10.jpg)
+  ![Minimap](https://assets.postman.com/postman-docs/v10/flows-minimap-v10-1.jpg)
 
-The minimap is an interactive map of your flow. Hover over the minimap to enlarge it. The gray rectangle is the visible portion of your flow. The **Start** block is highlighted in orange. Click anywhere in the minimap to jump to a location. You can click and drag in the minimap, too. Note that the minimap displays miniature versions of blocks in their assigned colors.
+The minimap is an interactive map of your flow. Hover over the minimap to enlarge it. The gray rectangle is the visible part of your flow. The **Start** block is highlighted in orange. Select any part of the minimap to jump to a location. You can select and drag in the minimap, too. The minimap displays miniature versions of blocks in their assigned colors.
 
 ## Console
 
   All of your print blocks and logs will appear here.
 
-  ![Console](https://assets.postman.com/postman-labs-docs/interface/console.gif)
+  ![Console](https://assets.postman.com/postman-docs/v10/console-v10-1.gif)
 
 ## Share, Fork, and Deploy buttons
 
