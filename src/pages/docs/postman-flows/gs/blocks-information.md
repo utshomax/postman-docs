@@ -50,7 +50,7 @@ Every block has either an input, an output, or both. You can pass information fr
 
 Below is the anatomy of the [Send Request Block](/docs/postman-flows/reference/blocks-list/#send-request).
 
-![Block anatomy](https://assets.postman.com/postman-labs-docs/block/updated-block-anatomy.png)
+![Block anatomy](https://assets.postman.com/postman-docs/v10/updated-block-anatomy-v10.jpg)
 
 1. **Name** - Name of the block.
 
@@ -94,8 +94,8 @@ To rename a block, hover over the title and select the edit icon <img alt="Edit 
 
 To group blocks together, press and hold **⌘** or **Ctrl**, select the names of the blocks you want to group, then select the group selection icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/v10/flows-group-icon-v10.jpg#icon" width="16px">.
 
-![Group blocks](https://assets.postman.com/postman-docs/v10/flows-group-blocks-v10-1.gif)
+![Group blocks](https://assets.postman.com/postman-docs/v10/flows-group-blocks-v10-3.gif)
 
 To ungroup blocks, hover over the group and select the ungroup icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/v10/flows-ungroup-icon-v10.jpg#icon" width="16px">.
 
-![Ungroup blocks](https://assets.postman.com/postman-docs/v10/flows-ungroup-blocks-v10-1.gif)
+![Ungroup blocks](https://assets.postman.com/postman-docs/v10/flows-ungroup-blocks-v10-3.gif)
