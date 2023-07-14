@@ -14,6 +14,9 @@ contextual_links:
   - type: link
     name: "Introducing the Postman VS Code extension"
     url: "https://blog.postman.com/introducing-the-postman-vs-code-extension/"
+  - type: link
+    name: "The Postman VS Code extension is now in early access with new features"
+    url: "https://blog.postman.com/postman-vs-code-extension-early-access-with-new-features/"
 ---
 
 > The Postman VS Code extension is in beta.
