@@ -66,7 +66,7 @@ In this example, the **Send Request** block gets data using a collection's GET r
 
 In this example, the flow gets data from the **Start** block and passes it to an **Evaluate** block. The **Evaluate** block passes the entire response to the **Log** block in a variable.
 
-1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/), select the **Start** block, and select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the right sidebar.
+1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/), select the **Start** block, then select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the right sidebar.
 
     ![Select the gear icon](https://assets.postman.com/postman-docs/v10/flow-start-configure-v10-6.jpg)
 
