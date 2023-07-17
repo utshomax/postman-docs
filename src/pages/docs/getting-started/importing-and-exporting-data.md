@@ -1,6 +1,6 @@
 ---
 title: 'Importing and exporting data'
-updated: 2023-06-15
+updated: 2023-07-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -285,13 +285,13 @@ You can export a data dump of all your collections, environments, globals, and h
 
 1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Settings**.
 
-1. Select the **Data** tab, then **Export Data** to start your request for the data dump.
+1. Select the **Data** tab, then select **Request Data Export** to start your request for the data dump.
 
-1. Select **Export Data** to confirm the data types you need to export.
+1. Select **Export Data**, then select the data types you want to export.
 
 1. Select **Request Data Export** to submit the request.
 
-   ![Export data dump](https://assets.postman.com/postman-docs/import-export-data-dump-request-confirm.jpg)
+   <img alt="Export data dump" src="https://assets.postman.com/postman-docs/v10/import-export-data-dump-request-confirm-v10-16a.jpg" width="443px" />
 
 The [Export page](http://go.postman.co/me/export) shows information about your export request, including the file size, the date the export expires, and the statuses of your requested data exports. Possible statuses are:
 
