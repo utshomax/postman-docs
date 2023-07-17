@@ -35,16 +35,26 @@ The Postman Public API Network is the largest network of APIs, workspaces, and c
 
 To access the Public API Network, visit [postman.com/explore](https://www.postman.com/explore) or select **Explore** in the header.
 
-<img alt="Postman Public API Network" src="https://assets.postman.com/postman-docs/v10/public-api-network-v10.jpg" width="1000px"/>
+<img alt="Postman Public API Network" src="https://assets.postman.com/postman-docs/v10/public-api-network-v10-1.jpg" />
 
 There are a variety of ways to find APIs, workspaces, teams, and collections:
 
-* **Categories** showcases popular API categories in the Public API Network: [Artificial Intelligence](https://www.postman.com/category/artificial-intelligence), [Communication](https://www.postman.com/category/communication), [Data Analytics](https://www.postman.com/category/data-analytics), [Developer Productivity](https://www.postman.com/category/developer-productivity), [DevOps](https://www.postman.com/category/devops), [Financial Services](https://www.postman.com/category/financial-services), and [Payments](https://www.postman.com/category/payments).
-* **In the spotlight** highlights the latest exciting, useful, and noteworthy contributions to the Public API Network, handpicked by the experts at Postman.
-* **Trending workspaces, collections, and APIs** shows entities that are the most popular in the Public API Network, based on the number of people viewing or creating forks of them.
-* The **Search Postman** box at the top of the page searches all Postman teams, workspaces, collections, and APIs by default, but you can also use the search controls to limit a search to the Public API Network.
-* Under **Browse**, you can select to view **Teams**, **Workspaces**, **APIs**, and **Collections**. You can sort results by **Featured**, **Most Viewed**, and **Latest** using the **Sort by** dropdown list.
-    * You can also filter Collections, APIs, and Workspaces using the categories listed on their results pages.
+* **Spotlight** highlights the latest contributions to the Public API Network curated by Postman experts.
+* **Trending APIs** shows most popular APIs in the Public API Network based on views and forks.
+* **Collections**, **Workspaces**, and **Flows** show all public entities of each kind, with featured entities at the top.
+* **Categories** showcases popular API categories in the Public API Network:
+    * [App Security](https://www.postman.com/category/app-security)
+    * [Artificial Intelligence](https://www.postman.com/category/artificial-intelligence)
+    * [Communication](https://www.postman.com/category/communication)
+    * [Data Analytics](https://www.postman.com/category/data-analytics)
+    * [Database](https://www.postman.com/category/database-apis)
+    * [Developer Productivity](https://www.postman.com/category/developer-productivity)
+    * [DevOps](https://www.postman.com/category/devops)
+    * [eSignature](https://www.postman.com/category/e-signature-apis)
+    * [Financial Services](https://www.postman.com/category/financial-services)
+    * [Payments](https://www.postman.com/category/payments)
+    * [Travel](https://www.postman.com/category/travel-apis)
+* The **Search Postman** box at the top of the page searches all Postman teams, workspaces, collections, APIs, and flows by default, but you can also use the search controls to limit a search to the Public API Network.
 
 Check out some useful collections for getting started learning about APIs, requests, and Postman:
 
