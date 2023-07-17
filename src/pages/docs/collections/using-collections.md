@@ -66,7 +66,7 @@ There are several ways to create a new collection:
 
 To customize and configure a new collection, do the following:
 
-1. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to give your new collection a name.
+1. Select the collection name to give your new collection a name.
 1. You can optionally specify a [description](/docs/publishing-your-api/authoring-your-documentation/) for your collection. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px">, then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to write your description. This description will appear in its documentation and in the workspace when anyone opens it.
 
     > You can also select **Overview** to specify and view the description for your collection.
@@ -250,8 +250,11 @@ You can fork collections in your own workspace to [develop collection versions](
 
 ### Adding comments to a collection
 
-1. Select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> from the right sidebar.
-1. Write your comment, then select **Add Comment**.
+1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar and enter your comment.
+1. (Optional) Select the **Watch collection** checkbox to be notified when there are changes to the collection.
+1. Select **Comment** to add your comment.
+
+> To learn more about using comments to collaborate on collections and requests, go to [Discussing your work](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/).
 
 ### Reverting collection changes
 

@@ -18,16 +18,16 @@ You can use [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/)
 
 1. Create a new flow and add the following data to the **Start** block: `[1, 2, 3, 4]`. Then select **JSON** from the **Language** dropdown list.
 
-    ![Create a flow and add data](https://assets.postman.com/postman-docs/v10/fql-array-start-v10-2.gif)
+    ![Create a flow and add data](https://assets.postman.com/postman-docs/v10/fql-array-start-v10-4.gif)
 
 1. Connect an **Output** block and an **Evaluate** block to the **Start** block. Connect an **Output** block to the **Evaluate** block.
 
-    ![Add blocks](https://assets.postman.com/postman-docs/v10/fql-array-add-blocks-v10-1.gif)
+    ![Add blocks](https://assets.postman.com/postman-docs/v10/fql-array-add-blocks-v10-2.gif)
 
 1. In the **Evaluate** block, select **Start writing an FQL query...** and enter `value1[0]`.
 
-    ![Enter FQL](https://assets.postman.com/postman-docs/v10/fql-array-enter-fql-v10-2.gif)
+    ![Enter FQL](https://assets.postman.com/postman-docs/v10/fql-array-enter-fql-v10-3.gif)
 
 1. Select **Run**. The first **Output** block shows the array it received from the **Start** block. The **Evaluate** block assigns the array to a variable named `value1` and uses FQL to select its first element. The **Evaluate** block then sends the selected element to the second **Output** block.
 
-    ![Run the flow](https://assets.postman.com/postman-docs/v10/fql-array-run-v10-1.gif)
+    ![Run the flow](https://assets.postman.com/postman-docs/v10/fql-array-run-v10-2.gif)

@@ -14,6 +14,9 @@ contextual_links:
   - type: link
     name: "Introducing the Postman VS Code extension"
     url: "https://blog.postman.com/introducing-the-postman-vs-code-extension/"
+  - type: link
+    name: "The Postman VS Code extension is now in early access with new features"
+    url: "https://blog.postman.com/postman-vs-code-extension-early-access-with-new-features/"
 ---
 
 > The Postman VS Code extension is in beta.
@@ -28,7 +31,8 @@ The Postman VS Code extension enables you to develop and test your APIs in Postm
 * Import data with cURL commands.
 * Edit and send requests from a workspace's request history.
 * Create cookies and send them with requests.
+* Create and manage collections and environments.
 
 To install and learn more about the VS Code extension, visit the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode).
 
-![Postman VS Code extension](https://assets.postman.com/postman-docs/postman-vs-code-extension.jpg)
+![Postman VS Code extension](https://assets.postman.com/postman-docs/postman-vs-code-extension-2.jpg)

@@ -69,9 +69,9 @@ Select **Collections** in the sidebar, expand the `C1` collection and the reques
 
 <img alt="Open an example" src="https://assets.postman.com/postman-docs/mock-examples-step3b-v9-1.jpg" width="456px">
 
-To rename the example, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the name. Rename the example `E1`. Note that the request method, URL, and status code are all saved as part of the example. Postman uses these items to determine which responses are returned by a mock server.
+To rename the example, select the example name and rename the example `E1`. Note that the request method, URL, and status code are all saved as part of the example. Postman uses these items to determine which responses are returned by a mock server.
 
-<img alt="Rename an example" src="https://assets.postman.com/postman-docs/mock-examples-step3c-v9-1.jpg" width="808px">
+<img alt="Rename an example" src="https://assets.postman.com/postman-docs/v10/mock-examples-step3c-v10.jpg" width="600px">
 
 ### Step 4: Create a mock server for the collection
 
