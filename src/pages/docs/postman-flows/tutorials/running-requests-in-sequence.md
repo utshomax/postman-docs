@@ -1,6 +1,6 @@
 ---
 title: "Running requests in sequence"
-updated: 2022-11-17
+updated: 2022-07-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -30,18 +30,18 @@ If you have several requests that have no dependency on each other but have to b
 
    In a new flow, create three **Send Request** blocks with the **Success** outputs connected to the **Send** inputs.
 
-    ![Add Send Request blocks](https://assets.postman.com/postman-docs/v10/flows-chain-requests-v10.gif)
+    ![Add Send Request blocks](https://assets.postman.com/postman-docs/v10/flows-chain-requests-v10-1.gif)
 
 1. **Select the requests**
 
    In each block, select the requests.
 
-   ![Select requests](https://assets.postman.com/postman-docs/v10/flows-select-requests-v10.gif)
+   ![Select requests](https://assets.postman.com/postman-docs/v10/flows-select-requests-v10-1.gif)
 
 1. **Start the flow**
 
    Start the flow and see checkmarks appear on the requests as they execute in order:
 
-   ![Start the flow](https://assets.postman.com/postman-docs/v10/flows-run-requests-v10.gif)
+   ![Start the flow](https://assets.postman.com/postman-docs/v10/flows-run-requests-v10-1.gif)
 
 If you want to use data from one request in another request, you can learn how to do so in [Passing data between blocks](/docs/postman-flows/tutorials/passing-data-between-blocks/).
