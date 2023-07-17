@@ -1,6 +1,6 @@
 ---
 title: "Building your first flow"
-updated: 2023-04-03
+updated: 2023-07-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -54,23 +54,23 @@ This quick start tutorial creates a flow to check if a website is down or not. I
 
 1. Select **Send a request** to create a **Send Request** block.
 
-    ![Create a **Send Request** block and connect it](https://assets.postman.com/postman-docs/v10/flow-tut-add-send-v10-4.gif)
+    ![Create a **Send Request** block and connect it](https://assets.postman.com/postman-docs/v10/flow-tut-add-send-v10-7.gif)
 
 1. In the **Send Request** block, select **Add request &gt; DownDetector &gt; sitemap**. Then connect an **Evaluate** block.
 
-    ![Add an **Evaluate** block](https://assets.postman.com/postman-docs/v10/flow-tut-add-eval-v10-3.gif)
+    ![Add an **Evaluate** block](https://assets.postman.com/postman-docs/v10/flow-tut-add-eval-v10-4.gif)
 
 1. In the **Evaluate** block, select `value1` and change it to `status`. Then select **Enter path...**, scroll down, and select **http.status**.
 
-    ![Rename value1 and select `http.status`](https://assets.postman.com/postman-docs/v10/flow-tut-select-status-v10-3.gif)
+    ![Rename value1 and select `http.status`](https://assets.postman.com/postman-docs/v10/flow-tut-select-status-v10-4.gif)
 
 1. Select **Start writing an FQL query...** and enter `status=200`.
 
-    ![Enter `status=200`](https://assets.postman.com/postman-docs/v10/flow-tut-status-200-v10-3.gif)
+    ![Enter `status=200`](https://assets.postman.com/postman-docs/v10/flow-tut-status-200-v10-4.gif)
 
 1. Connect an **Output** block to the **Evaluate** block and select **Run**. The **Output** block displays **True**, which means the website is up and running.
 
-    ![Add an **Output** block and select **Run**](https://assets.postman.com/postman-docs/v10/flow-tut-output-run-v10-5.gif)
+    ![Add an **Output** block and select **Run**](https://assets.postman.com/postman-docs/v10/flow-tut-output-run-v10-7.gif)
 
 ## Creating a request and a collection
 
@@ -93,35 +93,35 @@ This detailed tutorial builds a flow that gets a list of Pokémon, one page at a
 
 ## Making your first send request in Postman Flows
 
-1. In the sidebar, select **Flows** then select **Create Flow**. Your new flow appears with a **Start** block already in place.
+1. In the sidebar, select **Flows** then select **Create Flow**. Your new flow appears with a **Start** block and two shortcut blocks: **Send a request** and **Add blocks**.
 
     > You can move the canvas to reposition your flow.
 
-    ![New flow](https://assets.postman.com/postman-docs/v10/flow-start-block-v10-4.gif)
+    ![New flow](https://assets.postman.com/postman-docs/v10/flow-start-block-v10-6.gif)
 
 1. (Optional) [Hide the sidebar](/docs/getting-started/navigating-postman/#sidebar) to enlarge the canvas.
 
 1. Select **Send a request**. A **Send Request** block appears.
 
 1. In the **Send Request** block, select **Add request** and select **Pokemon API**. Then select the GET request you created earlier.
-    ![Select request](https://assets.postman.com/postman-docs/v10/flow-select-request-v10-3.jpg)
+    ![Select request](https://assets.postman.com/postman-docs/v10/flow-select-request-v10-4.jpg)
 
 1. Create a **String** block below the **Start** block and enter the URL `https://pokeapi.co/api/v2/pokemon?limit=200`.
 1. Connect the **String** block to the input next to **{{URL}}** on the **Send Request** block.
 
-    ![Add a String block](https://assets.postman.com/postman-docs/v10/flow-add-string-block-v10-3.jpg)
+    ![Add a String block](https://assets.postman.com/postman-docs/v10/flow-add-string-block-v10-4.jpg)
 
 ## Sending data to the **Output** block
 
 1. Connect a **Select** block to the **Success** output on the **Send Request** block.
 
-    ![Add a Select block](https://assets.postman.com/postman-docs/v10/flow-add-select-v10-3.jpg)
+    ![Add a Select block](https://assets.postman.com/postman-docs/v10/flow-add-select-v10-4.jpg)
 
 1. In the **Select** block, select **Enter path...** and select `body.results`.
 
     > Because you saved an example earlier, the returned data's structure auto-populates in the block.
 
-    ![Select body.results](https://assets.postman.com/postman-docs/v10/flow-body-results-v10-3.jpg)
+    ![Select body.results](https://assets.postman.com/postman-docs/v10/flow-body-results-v10-6.jpg)
 
 1. Connect an **Output** block to the right side of the **Select** block and select **Table** from its dropdown list.
 1. Select **Run** to see the results in the **Output** block.
@@ -132,19 +132,19 @@ This detailed tutorial builds a flow that gets a list of Pokémon, one page at a
 
 1. Connect another **Select** block to the **Send Request** block.
 
-    ![Add another Select block](https://assets.postman.com/postman-docs/v10/flow-add-another-select-v10-3.jpg)
+    ![Add another Select block](https://assets.postman.com/postman-docs/v10/flow-add-another-select-v10-4.jpg)
 
 1. In the **Select** block you created, select **Enter path...** and select `body.next` to get the link to the next page of results.
 
-    ![Select `next`](https://assets.postman.com/postman-docs/v10/flow-select-next-v10-2.jpg)
+    ![Select `next`](https://assets.postman.com/postman-docs/v10/flow-select-next-v10-3.jpg)
 
 1. Create an **If** block from the `body.next` **Select** block's output. The **Select** block automatically connects to the **If** block's **Data** input. Also connect the **Select** block to the **If** block's **key** input.
 
-    ![Connect the **If** block](https://assets.postman.com/postman-docs/v10/flow-add-if-block-v10-4.gif)
+    ![Connect the **If** block](https://assets.postman.com/postman-docs/v10/flow-add-if-block-v10-5.gif)
 
 1. In the **If** block, select `value1` and replace it with `has_next`. This assigns the `body.next` value from the **Select** block to the `has_next` variable in the **If** block.
 
-    <img alt="`has_next`" src="https://assets.postman.com/postman-docs/v10/flow-enter-has-next-v10-3.jpg" width="400">
+    <img alt="`has_next`" src="https://assets.postman.com/postman-docs/v10/flow-enter-has-next-v10-4.jpg" width="400">
 
 1. Select **Write an FQL condition** and enter <code class="language-text">&#96;has_next&#96; != null</code>.
 
@@ -153,7 +153,7 @@ This detailed tutorial builds a flow that gets a list of Pokémon, one page at a
 1. Connect the **If** block's **TRUE** output to the **Send Request** block's **URL** input. This passes the new `has_next` value to the existing `URL` variable in the **Send Request** block.
 1. Also connect the **If** block's **TRUE** ouptut to the **Send Request** block's **Send** input. This triggers the send event so it runs again.
 
-    ![Connect the If block](https://assets.postman.com/postman-docs/v10/flow-connect-if-v10-4.jpg)
+    ![Connect the If block](https://assets.postman.com/postman-docs/v10/flow-connect-if-v10-6.jpg)
 
 ## Watching it run
 
@@ -163,5 +163,5 @@ After completing the above steps, select **Run**. The flow runs and logs all the
 
 <!-- vale Postman.Vocab = YES -->
 
-![Watch it run](https://assets.postman.com/postman-docs/v10/flow-watch-it-run-v10-4.gif)
+![Watch it run](https://assets.postman.com/postman-docs/v10/flow-watch-it-run-v10-5.gif)
 Congratulations, you've created your first flow!

@@ -1,6 +1,6 @@
 ---
 title: "Using authorization with Postman Flows"
-updated: 2023-01-10
+updated: 2023-07-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -72,9 +72,8 @@ By assigning your secret key value to a variable, you can keep your key secure a
 1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/) and connect a **Send Request** block to the **Start** block.
 1. In the **Send Request** block, select **Add request > OpenAI Collection > New Request**. The `{{auth}}` variable appears at the bottom of the **Send Request** block.
 
-    ![Select data](https://assets.postman.com/postman-docs/v10/flow-auth-send-request-v10-1.jpg)
+    <img alt="Select data" src="https://assets.postman.com/postman-docs/v10/flow-auth-send-request-v10-2.jpg" width="600"/>
 
-1. Connect a **Log** block to the **Send Request** block's **Success** port.
-1. Select **Run** then select **Console**. The flow gets your secret key from the `{{auth}}` variable and includes it in the API request. The API accepts the secret key and sends the response with a `200` code, visible in the console.
+1. Select **Run**. The flow gets your secret key from the `{{auth}}` variable and includes it in the API request. The API accepts the secret key and sends the response with a `200` code, visible in the **Send Request** block's output.
 
-    ![Run the flow](https://assets.postman.com/postman-docs/v10/flow-auth-run-v10-1.jpg)
+    ![Run the flow](https://assets.postman.com/postman-docs/v10/flow-auth-run-v10-2.gif)
