@@ -110,6 +110,10 @@ export const leftNavItems = [
         url: '/docs/getting-started/settings/',
       },
       {
+        name: 'About Postbot',
+        url: '/docs/getting-started/about-postbot/',
+      },
+      {
         name: 'Importing and exporting data',
         url: '/docs/getting-started/importing-and-exporting-data/',
       },
@@ -944,6 +948,10 @@ export const leftNavItems = [
       {
         name: 'Using custom domains',
         url: '/docs/publishing-your-api/custom-doc-domains/',
+      },
+      {
+        name: 'Setting up authentication for public APIs',
+        url: '/docs/publishing-your-api/setting-up-authentication-for-public-apis/',
       },
       {
         name: 'Run in Postman',

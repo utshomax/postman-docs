@@ -22,6 +22,8 @@ _Flows Query Language_ (FQL) can be used to parse and transform JSON data to get
 
 * [Passing data to the Evaluate block](#passing-data-to-the-evaluate-block)
 * [Things you can do with FQL](#things-you-can-do-with-fql)
+* [Using Postbot with FQL](#using-postbot-with-fql)
+* [FQL Reference](#fql-reference)
 
 ## Passing data to the Evaluate block
 
@@ -37,6 +39,16 @@ The following sections show examples of things you can do with FQL:
 * [Conditional data selection](/docs/postman-flows/flows-query-language/conditional-data-selection/)
 * [Returning structured data](/docs/postman-flows/flows-query-language/returning-structured-results/)
 * [Data manipulation](/docs/postman-flows/flows-query-language/data-manipulation/)
+
+## Using Postbot with FQL
+
+Not sure how to write an FQL statement for your flow? Ask Postbot! Flows has support for artificial intelligence in FQL queries. Tell Postbot what you want to do using plain language, and Postbot will generate a FQL statement for you.
+
+<!--TODO: Image -->
+
+In the **Evaluate** block, select the Postbot icon <img alt="Postbot icon" src="https://assets.postman.com/postman-docs/v10/icon-postbot-v10-16.jpg#icon" width="18px">. Enter your query as a simple text sentence and select **Generate FQL**. Postbot will suggest a query for you based on your prompt.
+
+For more information on Postbot, visit [About Postbot](/docs/getting-started/about-postbot/).
 
 ## FQL reference
 
