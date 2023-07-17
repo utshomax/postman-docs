@@ -1,7 +1,5 @@
 ---
 title: "Navigating Postman"
-order: 3
-page_id: "navigating_postman"
 updated: 2022-11-16
 contextual_links:
   - type: section
@@ -28,7 +26,6 @@ contextual_links:
   - type: link
     name: "Focus on the work that matters with sidebar configurations"
     url: "https://blog.postman.com/focus-on-the-work-that-matters-with-sidebar-configurations/"
-warning: false
 ---
 
 Postman has a variety of tools, views, and controls to help you manage your API projects. This guide is a high-level overview of Postman's primary interface areas:
@@ -162,7 +159,7 @@ To open a new tab, select __+__ in the workbench.
 
 If you open a request and don't edit or send it, then open another request, the second tab replaces the first tab. When the tab is in preview mode, it displays in italics.
 
-You can set whether Postman opens requests in new tabs. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to open **Settings**. Under **Requests**, select **Always open requests in a new tab** to turn this option on or off.
+You can set whether Postman opens requests and other sidebar items in new tabs. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**. Under **User interface**, select **Always open sidebar items in new tab** to turn this option on or off.
 
 #### Saving or discarding changes
 
@@ -206,7 +203,7 @@ To manage your open tabs or to access recently closed tabs, select the more acti
 
 You can also manage your open tabs or open a new tab by right-clicking on an existing tab.
 
-> **Closing unsaved tabs.** You can set whether Postman asks whether you want to save when you close a tab that has changes. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to open **Settings**. Under **Requests**, select **Always ask when closing unsaved tabs** to turn this option on or off.
+> **Closing unsaved tabs.** You can set whether Postman asks you to save when you close a tab that has changes. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**. Under **User interface**, select **Always ask when closing unsaved tabs** to turn this option on or off.
 
 If you have a lot of tabs open, they might overflow the area of the tab bar. To go to tabs that are outside the viewable area, select the arrows next to the tab bar.
 

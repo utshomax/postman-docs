@@ -33,7 +33,7 @@ Open the public workspace, then select the link icon <img alt="Link icon" src="h
 
 [Add links](/docs/publishing-your-api/authoring-your-documentation/#adding-links) from your API’s documentation to your collection, helping consumers navigate your API. You can also add a link from your documentation to your collection using a [Run in Postman button](/docs/publishing-your-api/run-in-postman/introduction-run-button/).
 
-<img alt="Adding a link" src="https://assets.postman.com/postman-docs/documentation-link-tool-v9-1.jpg" width="560px">
+<img alt="Adding a link" src="https://assets.postman.com/postman-docs/v10/documentation-link-tool-v10.jpg" width="560px">
 
 ## Tracking public workspace metrics
 

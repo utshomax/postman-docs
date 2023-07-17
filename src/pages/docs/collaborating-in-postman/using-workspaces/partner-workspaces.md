@@ -49,7 +49,7 @@ Partner Workspaces enable you to collaborate with external partners directly in 
 
 1. Define a workspace **Name** and **Summary**.
 1. Under **Visibility**, select **Partner**.
-1. Select **Create workspace**.
+1. Select **Create Workspace**.
 
     <img alt="Create Partner Workspace" src="https://assets.postman.com/postman-docs/v10/create-partner-workspace-v10.jpg" width="400px"/>
 
