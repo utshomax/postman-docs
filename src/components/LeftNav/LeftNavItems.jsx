@@ -950,6 +950,10 @@ export const leftNavItems = [
         url: '/docs/publishing-your-api/custom-doc-domains/',
       },
       {
+        name: 'Setting up authentication for public APIs',
+        url: '/docs/publishing-your-api/setting-up-authentication-for-public-apis/',
+      },
+      {
         name: 'Run in Postman',
         subParentSlug: 'run-in-postman',
         slug: '/docs/publishing-your-api/run-in-postman/introduction-run-button/',

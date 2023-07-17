@@ -30,7 +30,7 @@ Postman Flows can get data with [API requests](/docs/getting-started/sending-the
 * [Getting data and passing it between blocks](#getting-data-and-passing-it-between-blocks)
     * [Getting data with an API request](#getting-data-with-an-api-request)
     * [Getting data from the Start block](#getting-data-from-the-start-block)
-* [Passing specfied data between blocks](#passing-specified-data-between-blocks)
+* [Passing specified data between blocks](#passing-specified-data-between-blocks)
 
 ## Getting data and passing it between blocks
 
