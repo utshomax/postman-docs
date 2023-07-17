@@ -81,7 +81,7 @@ To run a collection in CI/CD, do the following:
 
 1. Select **Collections** in the sidebar and select the collection or folder you want to run.
 
-1. On the Overview tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
+1. On the **Overview** tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
 
 1. On the **Functional** tab, select **Automate runs via CLI**.
 
