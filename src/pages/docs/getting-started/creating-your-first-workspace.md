@@ -25,17 +25,23 @@ To create a new workspace, do the following:
 
     <img alt="Change workspace or create new" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.1.jpg" width="300px"/>
 
+1. ([Free, Basic, and Professional plans only](https://www.postman.com/pricing)) You can use [workspace templates](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template) to help you set up a new workspace. Select a workspace template to populate the workspace with helpful information and sample collections, or select **Blank workspace** to create an empty workspace. Then select **Next**.
+
+    > You can also apply a workspace template to a newly created workspace. To learn more, see [Creating workspaces with a template](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template).
+
+    <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-and-apply-template-full-screen-v10.jpg"/>
+
 1. Enter a **Name** and optional **Summary** for your workspace.
 1. Choose the workspace's visibility:
     * A **Personal** workspace is visible to you. If you're on an Enterprise team, [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) will also have access to any personal workspaces created within the team.
     * A **Private** workspace is visible to you and to any team members you invite to it ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
     * A **Team** workspace is visible to everyone on your team.
     * A **Public** workspace is visible to all Postman users.
-1. Select **Create Workspace**.
+1. Select **Create** or **Create Workspace**.
 
-    <img alt="Create team workspace" src="https://assets.postman.com/postman-docs/create-workspace-v9.1.jpg" width="500px"/>
+    <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-v10-2.jpg" width="400px"/>
 
-Postman will switch to your new workspace when you create it. You can start editing and adding to it right away, or use [workspace templates](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template) to help set up your new workspace.
+Postman will switch to your new workspace when you create it. You can start editing and adding to it right away.
 
 You can move between workspaces at any time by selecting from the dropdown **Workspaces** list in the upper left.
 
