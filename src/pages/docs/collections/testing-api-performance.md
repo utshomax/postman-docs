@@ -39,12 +39,12 @@ The performance test runs on your computer and not in the cloud. When you start 
 
 > **Use the Postman desktop app to configure and run performance tests.** You can't use the Postman web app for performance testing. During a performance test, all requests are sent from the host computer where you are running the Postman desktop app.
 
-Before you configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to use to simulate user activity. Each virtual user runs the selected requests in the specified order and repeats the sequence throughout the test. Multiple virtual users all operate in parallel to simulate real-world usage of your API.
+Before you configure a performance test, [create a collection](/docs/collections/using-collections/#creating-collections) or [add a folder](/docs/collections/using-collections/#adding-folders-to-a-collection) with the requests you want to use to simulate user activity. Each virtual user runs the selected requests in the specified order and repeats the sequence throughout the test. Multiple virtual users all operate in parallel to simulate real-world usage of your API.
 
 To configure a performance test in the Postman desktop app, do the following:
 
-1. Select **Collections** in the sidebar and select the collection you want to use for performance testing.
-1. On the collection's **Overview** tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
+1. Select **Collections** in the sidebar and select the collection or folder you want to use for performance testing.
+1. On the **Overview** tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
 
     <img alt="Select Run from the collection overview" src="https://assets.postman.com/postman-docs/v10/collection-runner-button.jpg" width="350px"/>
 
