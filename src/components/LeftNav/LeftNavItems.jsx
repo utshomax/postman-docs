@@ -688,7 +688,26 @@ export const leftNavItems = [
       },
       {
         name: 'Your Private API Network',
-        url: '/docs/collaborating-in-postman/adding-private-network/',
+        subParentSlug: 'private-api-network',
+        slug: '/docs/collaborating-in-postman/private-api-network/adding-private-network/',
+        subMenuItems2: [
+          {
+            name: 'Your Private API Network',
+            url: '/docs/collaborating-in-postman/private-api-network/adding-private-network/'
+          },
+          {
+            name: 'Organizing your Private API Network',
+            url: '/docs/collaborating-in-postman/private-api-network/organizing-private-network/'
+          },
+          {
+            name: 'Managing your Private API Network',
+            url: '/docs/collaborating-in-postman/private-api-network/managing-private-network/'
+          },
+          {
+            name: 'Requesting to add to the Private API Network',
+            url: '/docs/collaborating-in-postman/private-api-network/private-network-requests/'
+          },
+        ],
       },
       {
         name: 'Using version control',
