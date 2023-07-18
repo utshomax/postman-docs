@@ -54,7 +54,7 @@ Add elements to the Private API Network to help your team discover and use your 
 
 ## Organizing with folders
 
-The sidebar navigation displays the folder structure for your Private API Network. API Network Managers can drag elements and sub-folders into different folders. You can add descriptions to folders to describe elements within the folders. You can also add Folder Managers to specific folders. To learn more about managing folders, see [Managing folders and elements](#managing-folders-and-elements).
+The sidebar navigation displays the folder structure for your Private API Network. API Network Managers can drag elements and sub-folders into different folders. You can add descriptions to folders to describe elements within the folders. You can also add Folder Managers to specific folders. To learn more about managing folders, see [Managing folders and elements](/docs/collaborating-in-postman/private-api-network/managing-private-network/#moving-folders-and-elements).
 
 <img alt="Create new folder in Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-organize-folders-v10-2.jpg" width="300px"/>
 

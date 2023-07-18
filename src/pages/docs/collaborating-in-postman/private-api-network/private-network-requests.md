@@ -73,7 +73,7 @@ To request to add elements from your Private API network, do the following:
 
     You can select **Added elements** in the upper-right corner to show elements already added to the Private API Network. You can select the **Collections** tab and then **Forks** in the upper-right corner to show [forked collections](/docs/collaborating-in-postman/using-version-control/forking-entities/).
 
-    > An API's editor must [publish a version of the API](#publishing-specific-api-versions) before you can add it to your Private API Network.
+    > An API's editor must [publish a version of the API](/docs/collaborating-in-postman/private-api-network/organizing-private-network/#publishing-specific-api-versions) before you can add it to your Private API Network.
 
     <!-- -->
 
@@ -121,7 +121,7 @@ To request to add elements from your Private API network, do the following:
 
 [API Editors](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) can request to add APIs to your Private API Network from the workbench. API Network Managers and Folder Managers can [add an API](/docs/collaborating-in-postman/private-api-network/organizing-private-network/#adding-an-api-from-the-workbench).
 
-> An API's editor must [publish a version of the API](#publishing-specific-api-versions) before you can add it to your Private API Network.
+> An API's editor must [publish a version of the API](/docs/collaborating-in-postman/private-api-network/organizing-private-network/#publishing-specific-api-versions) before you can add it to your Private API Network.
 
 1. Open the API you want to add to the Private API Network.
 1. In the API overview, select **Request to Add**.
