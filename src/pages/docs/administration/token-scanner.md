@@ -1,10 +1,6 @@
 ---
-title: "Token scanner"
-order: 115
-page_id: "token-scanner"
-updated: 2022-11-30
-search_keyword: "password security, secret scanning, secret, API key security"
-warning: false
+title: "Secret Scanner"
+updated: 2023-06-08
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -13,6 +9,9 @@ contextual_links:
   - type: link
     name: "Postman Token Scanner | Postman Level Up"
     url: "https://youtu.be/9XxkqPQF-Rw"
+  - type: link
+    name: "Securing APIs | Postman Enterprise"
+    url: "https://youtu.be/tiYgp4QEwZQ"
   - type: subtitle
     name: "Blog posts"
   - type: link
@@ -25,18 +24,19 @@ contextual_links:
     url:  "https://www.postman.com/postman/workspace/62d58d93-7e0c-45bf-9daa-cc8e531fc344"
 ---
 
-The Postman Token Scanner scans your public workspaces, collections, environments, and documentation to find exposed authentication tokens. This protects your organization and prevents malicious users from exploiting the tokens.
+The Postman Secret Scanner scans public workspaces to detect any exposed secrets. It checks all of the collections, global variables, environment variables, API schemas, and documentation in a public workspace to safeguard your organization from potential threats and prevent malicious users from accessing any exposed secrets.
 
-> The Token Scanner is available on all Postman plans and is turned on by default.
+> The Secret Scanner is available on all Postman plans and is turned on by default.
 
 ## Contents
 
 * [Use cases](#use-cases)
-* [Token scanner dashboard](#token-scanner-dashboard)
+* [Secret Scanner dashboard](#secret-scanner-dashboard)
 * [Supported tokens](#supported-tokens)
     * [Default alerts](#default-alerts)
     * [Custom alerts](#custom-alerts)
 * [Protecting Postman API keys in GitHub](#protecting-postman-api-keys-in-github)
+* [Protecting Postman API keys in GitLab](#protecting-postman-api-keys-in-gitlab)
 
 ## Use cases
 
@@ -47,58 +47,25 @@ A scan starts whenever team members do any of the following actions:
 * Make changes to a collection or environment that's present in a public workspace.
 * Write new documentation for a Postman Collection and make it public.
 
-Postman delivers the scan results in the [Security audit reports](/docs/reports/security-audit-reports/) section of the [**Reports** dashboard](/docs/reports/reports-overview/).
+Postman delivers the scan results in the [Token scanner report](/docs/reports/security-audit-reports/) section of the [**Reports** dashboard](/docs/reports/reports-overview/).
 
 > **[Security Audit Reports are available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
 
-## Token scanner dashboard
+## Secret Scanner dashboard
 
-You can view your team's configured [default](#default-alerts) and [custom](#custom-alerts) alerts in your [data security dashboard](https://go.postman.co/settings/team/token-scanner). Select **Team** in the Postman header, then select **Team Settings**. Then, select **Data security** on the left, and select **Token scanner**.
+To open the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/), select **Team > Team Settings** in the Postman header. Then select **Secret Scanner** in the left sidebar.
 
-<img alt="Data security dashboard" src="https://assets.postman.com/postman-docs/data-security-dashboard.jpg"/>
+<img alt="Secret Scanner dashboard" src="https://assets.postman.com/postman-docs/v10/secret-scanner-dash-v10.15.jpg"/>
+
+You can view configured [default](#default-alerts) and [custom](#custom-alerts) alerts.
 
 ## Supported tokens
 
-The Token Scanner scans a variety of tokens [by default](#default-alerts). You can also add your team's proprietary third-party app tokens that aren't supported yet using [custom alerts](#custom-alerts).
+The Secret Scanner scans a variety of tokens [by default](#default-alerts). You can also add your team's proprietary third-party app tokens that aren't supported yet using [custom alerts](#custom-alerts).
 
 ### Default alerts
 
-By default, the Token Scanner scans tokens issued by the following service providers:
-
-* Airtable API Key
-* Akamai API Key
-* Amazon MWS Token
-* Basic Auth
-* Bearer Token
-* Clojars Deploy Token
-* Databricks Authentication Token
-* DSA Private Key
-* EC2 SSH Private Key
-* Firebase Cloud Messaging API Key
-* GitHub Personal Access Token
-* Google API Key
-* Google OAuth Token
-* Microsoft Outlook Team Webhook URL
-* New Relic User Key
-* OpenSSH Private Key
-* PGP Private Key
-* Postman API Key
-* Postman Collection Access Key
-* RSA Private Key
-* SendGrid API Key
-* Sendinblue Key
-* Shopify Key
-* Slack Webhook URL
-* Square Access Key
-* Square Access Token
-* Square OAuth Secret
-* Stripe Restricted Key
-* Stripe Secret Key
-* Telegram Bot Access Token
-* Twilio API Key
-* Twitter Bearer Token
-* Typeform API Key
-* Zapier Webhook URL
+By default, the Secret Scanner checks for tokens issued by common service providers like Amazon, Google, Github, Stripe, and Twilio. To view the complete list of default alerts, open the [Secret Scanner](https://go.postman.co/settings/team/secret-scanner/alerts).
 
 ### Custom alerts
 
@@ -110,12 +77,21 @@ Your team can add a total of five alerts. You must be a **Community Manager** or
 
 To add custom alerts, do the following:
 
-1. Go to **Team > Team Settings > Token scanner**.
-2. In the **Custom alerts** section, select **Add Alert**.
-3. On the **Add Alert** page, define the custom token.
+1. Go to **Team > Team Settings**.
+2. Select **Secret Scanner** in the left sidebar.
+3. In the **Custom alerts** section, select **+ Add Alert**.
+4. Add the details for the custom token, then select **Create Alert**.
 
 ## Protecting Postman API keys in GitHub
 
 Postman also works with GitHub to ensure that your Postman API keys are secure. If you commit a valid Postman API key to a public GitHub repository, Postman notifies you by email and in-app notification. You can also set up Postman's [Slack integration](/docs/integrations/available-integrations/slack/) to alert you in Slack if this occurs.
 
 It's recommended you delete the exposed API key in your [API keys dashboard](https://go.postman.co/settings/me/api-keys). You can then [generate a new API key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key) to continue working with the Postman API.
+
+## Protecting Postman API keys in GitLab
+
+> This feature is available on GitLab Ultimate plans.
+
+Postman works with GitLab to protect your Postman API keys in GitLab public repositories. If you accidentally commit a valid Postman API key to a public GitLab repository, Postman notifies you by email and in-app notification.
+
+It's recommended you delete the exposed API key in your [API keys dashboard](https://go.postman.co/settings/me/api-keys) immediately. You can then [generate a new API key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key) to continue working with the Postman API.

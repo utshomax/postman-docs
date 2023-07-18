@@ -15,10 +15,17 @@ contextual_links:
   - type: link
     name: "Postman Intergalactic | Working with Your Team in Postman"
     url: "https://youtu.be/OifhKJCd_-M"
+  - type: link
+    name: "Collaboration & Documentation | Postman Enterprise"
+    url: "https://youtu.be/u1yEOo0dPfk"
   - type: dynamic_blog
     name: "Blog posts"
     blog_tag: "collaboration"
-
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "PayPal uses Postman collaboration capabilities"
+    url: "https://www.postman.com/case-studies/paypal/"
 ---
 
 > Postman Free lets teams of up to three work together at no cost. To collaborate with more team members, features, and increased usage limits, see [Plans and Pricing](https://www.postman.com/pricing/).
@@ -90,6 +97,8 @@ If you have an individual account and join a team, you can choose to transfer yo
 * If you [request to join a team](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#finding-teams-within-your-organization) and are approved by a Team Admin.
 * If the team has [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) enabled.
 * If the team has [domain capture](/docs/administration/managing-your-team/configuring-domain-capture/) enabled.
+
+> When you join an Enterprise team, [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) have access to all personal workspaces you transfer over and any you create within the team moving forward.
 
 When you leave a team, your personal workspaces within the team and their data will remain with the team and no longer be accessible to you in some situations; see [Leaving a team](#leaving-a-team) for details. (Personal workspaces in a team refers to workspace visibility and not data ownership.)
 

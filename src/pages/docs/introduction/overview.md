@@ -13,8 +13,8 @@ contextual_links:
     name: "Intro to Postman playlist"
     url: "https://youtube.com/playlist?list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ"
   - type: link
-    name: "Postman Intergalactic: An Introduction for Developers"
-    url: "https://youtu.be/8MOzaTsVRKg"
+    name: "Introduction for Developers | Postman Intergalactic"
+    url: "https://youtu.be/qUlcosvyIyo"
   - type: link
     name: "Postman Community Forum | Postman Level Up"
     url:  "https://youtu.be/Ks_4H58eCQc"
@@ -111,7 +111,7 @@ To learn more about administering your Postman team, see the [Administration](/d
 
 Postman generates reports that enable you to visualize data for how your team uses Postman. These reports give you insights into the state of your APIs, including tests, documentation, and monitoring coverage. They also enable you to track performance and SLA adherence.
 
-To learn more about how to use reports, see the [Reports overview](/docs/reports/reports-overview/).
+To learn more about how to use reports, see [About reports](/docs/reports/reports-overview/).
 
 ## Developer resources
 

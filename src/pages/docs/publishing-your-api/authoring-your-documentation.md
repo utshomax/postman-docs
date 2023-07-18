@@ -5,6 +5,14 @@ contextual_links:
   - type: section
     name: "Additional resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Collaboration & Documentation | Postman Enterprise"
+    url: "https://youtu.be/u1yEOo0dPfk"
+  - type: link
+    name: "API Publishers Series, Part 1: Introduction to Documentation"
+    url: "https://youtu.be/z4egejVO20M"
+  - type: subtitle
     name: "Blog posts"
   - type: link
     name: "Introducing Postman’s WYSIWYG Editing Experience"
@@ -12,11 +20,6 @@ contextual_links:
   - type: link
     name: "Introducing New Image Support: Drag-and-Drop, Resize, and Add Captions in Postman Editor"
     url: "https://blog.postman.com/resize-images-add-captions-in-postman-editor/"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Imgur"
-    url: "https://www.postman.com/case-studies/imgur/"
 ---
 
 Postman [automatically generates documentation](/docs/publishing-your-api/documenting-your-api/) for every collection you create. The documentation includes all of the requests in your collection, along with examples, authorization details, and example code.
@@ -114,7 +117,7 @@ The parameter and header descriptions are visible to people who have access to y
 
 Your documentation automatically includes the type of authorization required to access your endpoints. The authorization details appear below the collection description and also below each request in your documentation.
 
-If you [specify authorization details](/docs/sending-requests/authorization/#specifying-authorization-details) for the collection, those authorization requirements are inherited by every request in the collection. If one of your endpoints requires a different authorization type, open the request and [change the authorization details](/docs/sending-requests/authorization/#inheriting-authorization). The changes are reflected in your documentation.
+If you [specify authorization details](/docs/sending-requests/authorization/specifying-authorization-details/) for the collection, those authorization requirements are inherited by every request in the collection. If one of your endpoints requires a different authorization type, open the request and [change the authorization details](/docs/sending-requests/authorization/specifying-authorization-details/#inheriting-authorization). The changes are reflected in your documentation.
 
 <img alt="Authorization type in documentation" src="https://assets.postman.com/postman-docs/documentation-authorization-v8-10.jpg" width="569px">
 

@@ -12,13 +12,16 @@ contextual_links:
     name: "Navigating the Postman App Interface | The Exploratory"
     url: "https://youtu.be/Kr8OVXjzw4k"
   - type: link
-    name: "Universal Search | Postman Level Up"
-    url: "https://www.youtube.com/watch?v=1K6Pl6o_tj8"
-  - type: link
     name: "Find Related Collections | Postman Level Up"
     url: "https://youtu.be/d7Nq7Vo4nHc"
+  - type: link
+    name: "Customize Sidebar | Postman Level Up"
+    url: "https://youtu.be/UEL7HyWqTm4"
   - type: subtitle
     name: "Blog posts"
+  - type: link
+    name: "Introducing tags: the new way to navigate in Postman"
+    url: "https://blog.postman.com/introducing-tags-the-new-way-to-navigate-in-postman/"
   - type: link
     name: "Introducing Bulk Actions on Postman’s Sidebar"
     url: "https://blog.postman.com/introducing-sidebar-bulk-actions/"
@@ -52,9 +55,9 @@ The header enables you to create workspaces, access reports, explore the public 
 * **API Network** - Explore the [Public API Network](/docs/getting-started/exploring-public-api-network/) and access your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
 * **Explore** - Browse public APIs, teams, workspaces, and collections on Postman.
 
-<img alt="Expanded view of the Search Postman field" src="https://assets.postman.com/postman-docs/navigating-postman-search-v9.15.jpg" width="500px"/>
+<img alt="Expanded view of the Search Postman field" src="https://assets.postman.com/postman-docs/v10/navigating-postman-search-v10.jpg">
 
-* <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Search Postman** - Search all workspaces, collections, APIs, and teams in Postman. For more details on searching in Postman, see [Search Postman](#search-postman).
+* <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Search Postman** - Search all workspaces, collections, requests, APIs, flows, and teams in Postman. For more details on searching in Postman, see [Search Postman](#search-postman).
 
 <img alt="Postman header right side" src="https://assets.postman.com/postman-docs/navigating-postman-header-right-v9.19.2.jpg" width="300px"/>
 
@@ -66,13 +69,15 @@ The header enables you to create workspaces, access reports, explore the public 
 
 ### Search Postman
 
-To search in Postman, select __Search Postman__ in the header then enter your search terms. You can also use the keyboard shortcut **⌘+K** or **Ctrl+K**. To change the scope of your search to your personal or team space or the Public API Network, select **All of Postman** and choose the desired scope. You can also change the scope of your search to **Workspaces**, **Collections**, **APIs**, or **Teams**.
+To search in Postman, select __Search Postman__ in the header then enter your search terms. You can also use the keyboard shortcut **⌘+K** or **Ctrl+K**. To change the scope of your search to your personal or team space or the Public API Network, select **All of Postman** and choose the desired scope. You can also change the scope of your search to **Workspaces**, **Collections**, **Requests**, **APIs**, **Flows**, or **Teams**.
+
+You can search by tag names that team members have added to [collections](/docs/collections/using-collections/#tagging-a-collection), [APIs](/docs/designing-and-developing-your-api/managing-apis/#tagging-apis), and [workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#tagging-a-workspace) ([Enterprise plans only](https://www.postman.com/pricing)). To search by tag names, select __Search Postman__ in the header then enter your search using the `tag:tag-name` format. For example, if an API has the tag "production", enter `tag:production` to return the API in your search results.
 
 > For signed-out users, search results only include public resources.
 
-If you don't find what you are looking for in the list of results, select __Search all workspaces, collections, APIs and teams__ to see all the results in one page.
+If you don't find what you are looking for in the list of results, select __See all results__ to see all the results in one page.
 
-<img alt="Search all" src ="https://assets.postman.com/postman-docs/search-all-workspaces-collections-and-teams-v9.5.jpg"/>
+<img alt="Search all" src ="https://assets.postman.com/postman-docs/v10/search-all-workspaces-collections-and-teams-v10.jpg"/>
 
 The __Search results__ page lists the scope and element type. You can change these options to further filter your results.
 
@@ -233,7 +238,7 @@ Tool | Available for | Description
 **Live Collections** <img alt="Live collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> | Collections | Keep collections up-to-date based on your application using [Live Collections](/docs/collections/live-collections/live-collections-overview/).
 **Related collections** <img alt="Related Collections icon" src="https://assets.postman.com/postman-docs/collection-rec-lightbulb-icon2.jpg#icon" width="16px"/> | Requests, history | View public collections from the [Public API Network](/docs/getting-started/exploring-public-api-network/) that share the same base URL as your request and include API documentation.
 **Info** <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> | Collections, requests, APIs, environments, mock servers, monitors, flows | See details about the element, including its ID, when it was created, who created it, and more.
-**Changelog** <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> | Collections, APIs | Use the [changelog](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#viewing-the-collection-changelog) to see changes that you and your collaborators have made. Available on [Postman paid plans](https://www.postman.com/pricing/).
+**Changelog** <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> | Collections, APIs | Use the [changelog](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#viewing-collection-activity) to see changes that you and your collaborators have made. Available on [Postman paid plans](https://www.postman.com/pricing/).
 **Pull requests** <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px"> | Collections, environments | View any [pull requests](/docs/collaborating-in-postman/version-control/#creating-pull-requests) for a Postman element.
 **Forks** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> | Collections, environments, flows | View any [forks](/docs/collaborating-in-postman/version-control/#forking-postman-entities) of a Postman element.
 **Activity feed** <img alt="Activity feed icon" src="https://assets.postman.com/postman-docs/icon-activity-feed-v9.jpg#icon" width="16px"> | Monitors | View the activity feed for a [monitor](/docs/monitoring-your-api/intro-monitors/).

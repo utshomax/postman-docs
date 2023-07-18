@@ -138,7 +138,54 @@ export const leftNavItems = [
       },
       {
         name: 'Authorizing requests',
-        url: '/docs/sending-requests/authorization/',
+        subParentSlug: 'authorization',
+        slug: '/docs/sending-requests/authorization/authorization/',
+        subMenuItems2: [
+          {
+            name: 'Authorizing requests overview',
+            url: '/docs/sending-requests/authorization/authorization/',
+          },
+          {
+            name: 'Specifying authorization details',
+            url: '/docs/sending-requests/authorization/specifying-authorization-details/',
+          },
+          {
+            name: 'Authentication for public APIs',
+            url: '/docs/sending-requests/authorization/authentication-for-public-apis/',
+          },
+          {
+            name: 'About authorization types',
+            url: '/docs/sending-requests/authorization/authorization-types/',
+          },
+          {
+            name: 'Digest auth',
+            url: '/docs/sending-requests/authorization/digest-auth/',
+          },
+          {
+            name: 'OAuth 1.0 authentication',
+            url: '/docs/sending-requests/authorization/oauth-10/',
+          },
+          {
+            name: 'OAuth 2.0 authentication',
+            url: '/docs/sending-requests/authorization/oauth-20/',
+          },
+          {
+            name: 'Hawk authentication',
+            url: '/docs/sending-requests/authorization/hawk-authentication/',
+          },
+          {
+            name: 'AWS Signature',
+            url: '/docs/sending-requests/authorization/aws-signature/',
+          },
+          {
+            name: 'NTLM authentication',
+            url: '/docs/sending-requests/authorization/ntlm-authentication/',
+          },
+          {
+            name: 'Akamai Edgegrid',
+            url: '/docs/sending-requests/authorization/akamai-edgegrid/',
+          },
+        ],
       },
       {
         name: 'Receiving responses',
@@ -384,6 +431,10 @@ export const leftNavItems = [
             url: '/docs/collections/running-collections/working-with-data-files/',
           },
         ],
+      },
+      {
+        name: 'Testing API performance',
+        url: '/docs/collections/testing-api-performance/',
       },
       {
         name: "Using Live Collections",
@@ -664,6 +715,10 @@ export const leftNavItems = [
         url: '/docs/collaborating-in-postman/roles-and-permissions/',
       },
       {
+        name: 'Managing user groups',
+        url: '/docs/collaborating-in-postman/user-groups/',
+      },
+      {
         name: 'Requesting access to elements',
         url: '/docs/collaborating-in-postman/requesting-access-to-elements/',
       },
@@ -728,7 +783,7 @@ export const leftNavItems = [
             url: '/docs/collaborating-in-postman/using-workspaces/public-workspaces/'
           },
           {
-            name: 'Viewing workspace activity',
+            name: 'Viewing workspace and collection activity',
             url: '/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/',
           },
         ],
@@ -786,8 +841,16 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/',
           },
           {
-            name: 'Using a remote Git repository',
-            url: '/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/',
+            name: 'Using a cloud-hosted Git repository',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/',
+          },
+          {
+            name: 'Using an on-premises Git repository',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/',
+          },
+          {
+            name: 'Connecting multiple APIs to a repository',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/connecting-multiple-apis/',
           },
           {
             name: 'Managing changes using Git',
@@ -817,7 +880,7 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/developing-an-api/generating-server-code/',
           },
           {
-            name: 'Checking API syntax and rules',
+            name: 'Validating an API',
             url: '/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/',
           },
         ],
@@ -980,10 +1043,6 @@ export const leftNavItems = [
         name: 'Monitoring FAQs',
         url: '/docs/monitoring-your-api/faqs-monitors/',
       },
-      {
-        name: 'Monitoring API uptime',
-        url: '/docs/monitoring-your-api/uptime-monitors/',
-      },
     ],
   },
   {
@@ -1047,6 +1106,10 @@ export const leftNavItems = [
             url: '/docs/api-governance/configurable-rules/configuring-api-security-rules/',
           },
           {
+            name: 'Adding custom governance functions',
+            url: '/docs/api-governance/configurable-rules/configuring-custom-governance-functions/',
+          },
+          {
             name: 'Using Spectral in Postman',
             url: '/docs/api-governance/configurable-rules/spectral/',
           },
@@ -1069,10 +1132,6 @@ export const leftNavItems = [
             url: '/docs/administration/managing-your-team/managing-your-team/',
           },
           {
-            name: 'Managing user groups',
-            url: '/docs/administration/managing-your-team/user-groups/',
-          },
-          {
             name: 'Configuring domain verification and capture',
             url: '/docs/administration/managing-your-team/configuring-domain-capture/',
           },
@@ -1091,7 +1150,7 @@ export const leftNavItems = [
         url: '/docs/administration/resource-usage/',
       },
       {
-        name: 'About Postman Enterprise',
+        name: 'About Postman Enterprise plans',
         url: '/docs/administration/about-postman-enterprise/'
       },
       {
@@ -1103,7 +1162,11 @@ export const leftNavItems = [
         url: '/docs/administration/audit-logs/',
       },
       {
-        name: 'Token scanner',
+        name: 'Managing API keys',
+        url: '/docs/administration/managing-api-keys/',
+      },
+      {
+        name: 'Secret Scanner',
         url: '/docs/administration/token-scanner/',
       },
       {
@@ -1208,24 +1271,20 @@ export const leftNavItems = [
     url: '/docs/reports/reports-overview/',
     subMenuItems1: [
       {
-        name: 'Reports overview',
+        name: 'About reports',
         url: '/docs/reports/reports-overview/',
       },
       {
-        name: 'Summary reports',
-        url: '/docs/reports/summary-reports/',
+        name: 'Overview reports',
+        url: '/docs/reports/overview-reports/',
       },
       {
-        name: 'Team details reports',
-        url: '/docs/reports/team-details-reports/',
+        name: 'Members overview reports',
+        url: '/docs/reports/members-overview-reports/',
       },
       {
-        name: 'All Workspaces reports',
-        url: '/docs/reports/all-workspaces-reports/',
-      },
-      {
-        name: 'All APIs reports',
-        url: '/docs/reports/all-apis-reports/',
+        name: 'Content activity reports',
+        url: '/docs/reports/content-activity-reports/',
       },
       {
         name: 'API Security reports',
@@ -1233,10 +1292,14 @@ export const leftNavItems = [
       },
       {
         name: 'API Governance reports',
-        url: '/docs/reports/api-governance-reports/',
+        url: '/docs/reports/api-gov-reports/',
       },
       {
-        name: 'Token Scanner reports',
+        name: 'Billing overview reports',
+        url: '/docs/reports/billing-overview-reports/',
+      },
+      {
+        name: 'Token scanner report',
         url: '/docs/reports/security-audit-reports/',
       },
     ],

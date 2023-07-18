@@ -50,7 +50,7 @@ Use the settings on the **General** tab to configure how Postman sends requests 
 * **Language detection** - By default, Postman automatically detects the correct media type for the response body based on the Content-Type header. Select **JSON** to always use JSON rendering for the response body.
 * **Request Timeout in ms** - Enter how long (in milliseconds) Postman will wait for a response before timing out. If you enter **0**, Postman will wait for a response forever.
 * **Max response size in MB** - Enter the largest response size (in megabytes) that Postman will download. For responses that exceed this limit, Postman asks if you want to increase the size limit or download the response. If you enter **0**, Postman downloads responses of any size. Rendering large responses may affect Postman's performance.
-* **Request Validation** - Turn this off to prevent Postman from attempting to validate requests in collections linked to an API schema.
+* **Request Validation** - When this is turned on, Postman automatically validates requests in collections linked to an API. Postman compares requests to the API definition and alerts you to any inconsistencies. Learn more about [validating requests and responses](/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/).
 
 ### Working directory
 
@@ -144,7 +144,7 @@ Use the **Certificates** tab to add and manage CA certificates and client certif
 
 ## Connected accounts
 
-You can use the **Connected accounts** tab to manage the accounts and tokens used to authorize Postman with third-party services. For example, when you [connect an API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/), Postman stores your authorization details. You can then use the connected account to add other integrations to the same service.
+You can use the **Connected accounts** tab to manage the accounts and tokens used to authorize Postman with third-party services. For example, when you [connect an API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/), Postman stores your authorization details. You can then use the connected account to add other integrations to the same service.
 
 You can manage your saved accounts and tokens on the **Connected accounts** tab:
 

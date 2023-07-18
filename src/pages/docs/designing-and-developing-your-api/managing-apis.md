@@ -9,6 +9,11 @@ contextual_links:
   - type: link
     name: "Working With Your Team in Postman | The Exploratory"
     url: "https://youtu.be/5lscUV-Exac"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Introducing tags: the new way to navigate in Postman"
+    url: "https://blog.postman.com/introducing-tags-the-new-way-to-navigate-in-postman/"
 ---
 
 When you [define your APIs](/docs/designing-and-developing-your-api/the-api-workflow/) in Postman using the API Builder, each API is associated with a workspace. You can share access to your APIs, discuss them in comments, and view schema activity.
@@ -17,9 +22,10 @@ When you [define your APIs](/docs/designing-and-developing-your-api/the-api-work
 
 * [Sharing APIs](#sharing-apis)
 * [Collaborating on APIs](#collaborating-on-apis)
+* [Tagging APIs](#tagging-apis)
 * [Watching APIs](#watching-apis)
 * [Commenting on APIs](#commenting-on-apis)
-* [Using the Changelog](#using-the-changelog)
+* [Using the changelog](#using-the-changelog)
 
 ## Sharing APIs
 
@@ -50,6 +56,41 @@ You can move APIs to personal, private, team, and public workspaces that you hav
 Select the workspace, then select **Move API**. Any collections in the API will move with the API to the new workspace.
 
 <img alt="Move API" src="https://assets.postman.com/postman-docs/move-api-v9.1.jpg" width="400px"/>
+
+## Tagging APIs
+
+> **[Tagging APIs is available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
+
+You can add tags to APIs, enabling you to organize and search for APIs using shared tags. You can add up to five tags to an API.
+
+Once you add tags to the API, you can select a tag to open search results associated with the tag in a new tab.
+
+To learn more about searching using tag names in Postman, see [Search Postman](/docs/getting-started/navigating-postman/#search-postman). You can also search using tag names in the Private API Network when searching [elements in the network](/docs/collaborating-in-postman/adding-private-network/#searching-filtering-and-sorting), [elements to add to the network](/docs/collaborating-in-postman/adding-private-network/#adding-elements-in-your-private-api-network), and [elements to request to add to the network](/docs/collaborating-in-postman/adding-private-network/#requesting-to-add-elements-in-your-private-api-network).
+
+To add tags to an API, do the following:
+
+1. Select **APIs** in the sidebar.
+1. Select an API.
+1. Select the **Tags** section to edit it.
+
+    <img alt="Add tags to an API" src="https://assets.postman.com/postman-docs/v10/add-tags-api-v10-2.jpg"/>
+
+1. Select an existing tag or enter a new tag. If you're adding a new tag, enter the new tag name and then select **Create "*tag-name*"**.
+
+    <img alt="Add new tags to an API" src="https://assets.postman.com/postman-docs/v10/create-new-tags-api-v10-2.jpg"/>
+
+1. Select the area outside of the **Tags** section to save your changes.
+
+To remove tags from an API, do the following:
+
+1. Select **APIs** in the sidebar.
+1. Select an API.
+1. Select the **Tags** section to edit it.
+1. Select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to a tag.
+
+    <img alt="Remove tags from an API" src="https://assets.postman.com/postman-docs/v10/remove-tags-api-v10.jpg"/>
+
+1. Select the area outside of the **Tags** section to save your changes.
 
 ## Watching APIs
 
@@ -135,18 +176,18 @@ You can [publish your API](/docs/designing-and-developing-your-api/versioning-an
 
 ### Commenting on Git-linked APIs
 
-You can [connect a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/) to your API to sync your API between Postman and the repository. Keep in mind the following differences when commenting on Git-linked APIs:
+You can [connect a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/) to your API to sync your API between Postman and the repository. Keep in mind the following differences when commenting on Git-linked APIs:
 
 * Comments are associated with a branch. If you add a comment while working on one branch, those comments won't be visible when you [switch to another branch](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/#switching-branches).
 * You must [commit and push changes](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/#committing-and-pushing-changes) on a branch before you can add a new comment on that branch. (You can reply to an existing comment without committing and pushing changes.)
 * When you [merge a branch](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/#creating-a-pull-request), comments remain on the branch being merged and aren't merged to the target branch.
 
-## Using the Changelog
+## Using the changelog
 
-You can view a history of changes to your API schemas and all linked collections. To access the Changelog, open an API, then select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog.jpg" width="25px" style="vertical-align:middle;margin-bottom:0px"> in the right sidebar.
+You can view a history of changes to your API schemas and all linked collections. To access the changelog, open an API, then select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog.jpg" width="25px" style="vertical-align:middle;margin-bottom:0px"> in the right sidebar.
 
 > If you connect your API to a Git repository, the changelog is replaced by the **Source Control** pane. Learn more about [API version control](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/).
 
-The Changelog shows a list of changes made to the schema and associated elements. Select each entry for more details.
+The changelog shows a list of changes made to the schema and associated elements. Select each entry for more details.
 
 <img src="https://assets.postman.com/postman-docs/v10/api-builder-changelog-v10.jpg" alt="API Builder changelog" width="443px" />
