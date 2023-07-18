@@ -50,23 +50,17 @@ Every block has either an input, an output, or both. You can pass information fr
 
 Below is the anatomy of the [Send Request Block](/docs/postman-flows/reference/blocks-list/#send-request).
 
-![Block anatomy](https://assets.postman.com/postman-labs-docs/block/updated-block-anatomy.png)
+![Block anatomy](https://assets.postman.com/postman-docs/v10/updated-block-anatomy-v10-1.jpg)
 
 1. **Name** - Name of the block.
 
-2. **Request to run** - Which request from your collection is going to be run.
+1. **Request to run** - Which request from your collection is going to be run.
 
-3. **Send event input** - Starts running the block when this input receives information.
+1. **Send event input** - Starts running the block when this input receives information.
 
-4. **Environment** - Which Postman environment to use.
+1. **Success** - When the API being run is successful this output is triggered.
 
-5. **Body Type** - Structure of the information the request uses.
-
-6. **Variables** - The variables that are either provided in the flow or from the environment.
-
-7. **Success** - When the API being run is successful this output is triggered.
-
-8. **Failure** - When the API being run is unsuccessful this output is triggered.
+1. **Failure** - When the API being run is unsuccessful this output is triggered.
 
 ### Types of blocks
 
@@ -94,8 +88,8 @@ To rename a block, hover over the title and select the edit icon <img alt="Edit 
 
 To group blocks together, press and hold **⌘** or **Ctrl**, select the names of the blocks you want to group, then select the group selection icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/v10/flows-group-icon-v10.jpg#icon" width="16px">.
 
-![Group blocks](https://assets.postman.com/postman-docs/v10/flows-group-blocks-v10-1.gif)
+![Group blocks](https://assets.postman.com/postman-docs/v10/flows-group-blocks-v10-4.gif)
 
 To ungroup blocks, hover over the group and select the ungroup icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/v10/flows-ungroup-icon-v10.jpg#icon" width="16px">.
 
-![Ungroup blocks](https://assets.postman.com/postman-docs/v10/flows-ungroup-blocks-v10-1.gif)
+![Ungroup blocks](https://assets.postman.com/postman-docs/v10/flows-ungroup-blocks-v10-4.gif)

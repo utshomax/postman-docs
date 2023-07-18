@@ -212,7 +212,7 @@ const Footer = () => {
                     <div key={uuidv4()}>
                       <nav
                         aria-labelledby={item.arialabelledby}
-                        className="mb-5"
+                        className="mb-2"
                       >
                         <h2 className="footer-col-title" id={item.arialabelledby}>
                           {item.title}

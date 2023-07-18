@@ -1,6 +1,6 @@
 ---
 title: "Testing API performance"
-updated: 2023-06-15
+updated: 2023-07-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -9,6 +9,11 @@ contextual_links:
   - type: link
     name: "Load Testing Your APIs"
     url: "https://youtu.be/a5hWE4hMOoY"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Test your API’s performance by simulating real-world traffic with Postman"
+    url: "https://blog.postman.com/postman-api-performance-testing/"
 ---
 
 > **Performance testing is available on [Postman Free, Basic, and Professional plans](https://www.postman.com/pricing/).** To learn more about availability for Enterprise plans, contact the [Postman sales team](https://www.postman.com/company/contact-sales/).
@@ -83,7 +88,7 @@ Attempting to simulate a higher number of virtual users may cause inaccurate met
 
 During a performance test, all requests are sent from your computer where you are running the Postman desktop app. The **Summary** tab displays performance metrics in real time so you can observe how your API performs under load.
 
-<img alt="Viewing performance metrics" src="https://assets.postman.com/postman-docs/v10/performance-test-graph-v10-15.jpg"/>
+<img alt="Viewing performance metrics" src="https://assets.postman.com/postman-docs/v10/performance-test-graph-v10-16a.jpg"/>
 
 You can view the following information about the performance test:
 
@@ -100,6 +105,7 @@ From the **Summary** tab, you can take the following actions:
 * Select **Stop** to stop the performance test.
 * Select **Run Again** to configure and start the performance test again.
 * Select **All Runs** to view a list of all past performance runs for the collection.
+* Select the share icon <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> to get a link to the performance report. Select **Copy Link** to copy the link to your clipboard. You can share the link with your teammates so they can view the results of the performance test.
 * Select the name of a request to open the request.
 
 ### Customizing the performance view
@@ -153,7 +159,7 @@ You can view error trends after the performance test is complete. The error tren
 
 To view error trends, select the **Errors** tab. You can also select the **Error rate** on the **Summary** tab and select **View Error Trends**.
 
-<img alt="Viewing error trends" src="https://assets.postman.com/postman-docs/v10/performance-test-errors-graph-v10-15.jpg"/>
+<img alt="Viewing error trends" src="https://assets.postman.com/postman-docs/v10/performance-test-errors-graph-v10-16.jpg"/>
 
 You can view the following information about the error trends:
 

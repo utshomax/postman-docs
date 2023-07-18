@@ -68,7 +68,7 @@ Adding comments as a reviewer is an important part of the pull request process, 
 
 To add a comment to a pull request, do the following:
 
-1. Select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> next to the change that you want to comment on.
+1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> next to the change that you want to comment on.
 1. Once you've written your comment, select **Add Comment**.
 
 <img alt="Add a comment to a pull review" src="https://assets.postman.com/postman-docs/v10/pr-add-comment-v10.jpg"/>

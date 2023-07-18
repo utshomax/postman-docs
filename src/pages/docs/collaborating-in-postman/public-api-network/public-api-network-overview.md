@@ -15,6 +15,9 @@ contextual_links:
     name: "How to publish and market your API to maximize adoption"
     url: "https://blog.postman.com/how-to-publish-and-market-your-api-to-maximize-adoption/"
   - type: link
+    name: "Top 30 APIs for best developer experience"
+    url: "https://blog.postman.com/top-30-apis-for-best-developer-experience/"
+  - type: link
     name: "These top database APIs make working with data easy"
     url: "https://blog.postman.com/database-apis/"
 ---
@@ -23,7 +26,7 @@ Make your API available on [the Public API Network](/docs/getting-started/explor
 
 Postman gives you the tools you need to make successful API calls. Use [Postman Flows](/docs/postman-flows/gs/flows-overview/) to build and collaborate on API-driven applications. Leverage [Public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) to [view, share, and consume your APIs](https://www.postman.com/api-platform/api-catalog/) and all the elements you publish.
 
-<img alt="Postman Public API Network" src="https://assets.postman.com/postman-docs/v10/public-api-network-v10.jpg" width="1000px"/>
+<img alt="Postman Public API Network" src="https://assets.postman.com/postman-docs/v10/public-api-network-v10-1.jpg" />
 
 ## Benefits of the Postman Public API Network
 

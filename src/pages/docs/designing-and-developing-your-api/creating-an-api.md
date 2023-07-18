@@ -41,8 +41,10 @@ To start using the API Builder, you can create a new API in your workspace. You 
 
 1. Enter a name for your new API.
 1. Select an option for creating your API:
-    * Connect to a Git repository and import your API definitions and collections into Postman. Learn more about [connecting to a repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/).
+
+    * Connect to a Git repository and import your API definitions and collections into Postman. Learn more about [API version control](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/).
     * Continue without a repository.
+
 1. To start working with your new API:
 
     * [Create a new API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#generating-an-api-definition) for your API.
@@ -69,7 +71,7 @@ There are some differences in the way API versions work in Postman v10 compared 
 
 ## Renaming an API
 
-To change the name of an API, select **APIs** in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an API and select **Rename**. You can also select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the API name in the overview tab and enter a new name.
+To change the name of an API, select **APIs** in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an API and select **Rename**. You can also select the API name in the overview tab and enter a new name.
 
 ## Deleting an API
 

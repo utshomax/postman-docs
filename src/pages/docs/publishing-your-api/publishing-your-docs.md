@@ -23,11 +23,6 @@ contextual_links:
   - type: link
     name: "How to publish and market your API to maximize adoption"
     url: "https://blog.postman.com/how-to-publish-and-market-your-api-to-maximize-adoption/"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Imgur"
-    url: "https://www.postman.com/resources/case-studies/imgur/"
 ---
 
 Publishing your documentation makes it publicly available to anyone with the link to the documentation and a web browser. Publish your documentation to help people around the world learn how to use your collection or interact with your Public API.

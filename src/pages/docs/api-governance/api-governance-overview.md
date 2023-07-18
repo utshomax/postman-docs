@@ -18,8 +18,8 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Big improvements to Postman API Governance"
-    url: "https://blog.postman.com/api-governance-improvements/"
+    name: "4 key updates to Postman API Governance"
+    url: "https://blog.postman.com/4-key-updates-to-postman-api-governance/"
   - type: link
     name: "API Governance with Postman v10"
     url: "https://blog.postman.com/api-governance-with-postman-v10/"
