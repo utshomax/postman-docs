@@ -562,8 +562,8 @@ export const leftNavItems = [
             url: '/docs/postman-flows/tutorials/webhooks/',
           },
           {
-            name: 'Creating charts, tables, and output',
-            url: '/docs/postman-flows/tutorials/creating-charts-tables-and-output/',
+            name: 'Visualizing data',
+            url: '/docs/postman-flows/tutorials/visualizing-data/',
           },
           {
             name: 'Getting data from an array',
