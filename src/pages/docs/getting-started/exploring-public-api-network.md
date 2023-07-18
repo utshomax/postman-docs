@@ -2,7 +2,7 @@
 title: "Exploring the Public API Network"
 order: 6
 page_id: "exploring_public_api_network"
-updated: 2021-12-22
+updated: 2023-07-18
 contextual_links:
   - type: section
     name: "Additional resources"
