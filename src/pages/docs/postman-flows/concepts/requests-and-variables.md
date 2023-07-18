@@ -14,7 +14,7 @@ In order to use any API, a **request** must be made to either send, update, dele
 
 ### Requests
 
-In Flows, the **Send Request** block allows a request to be selected from a **Collection**. 
+In Flows, the **Send Request** block allows a request to be selected from a **Collection**.
 
 ![Selecting a request](https://assets.postman.com/postman-labs-docs/concepts/selecting-a-request.gif)
 

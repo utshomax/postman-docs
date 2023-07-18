@@ -8,13 +8,13 @@ updated: 2023-07-13
 * [Requests](#requests)
 * [Variables](#variables)
 
-In order to use any API, a **request** must be made to either send, update, delete or return information. When making a request, the informating will often not be the same every time it's run. Because of this, **variables** are used to interact with the requests in places where the data being sent or received changes.
+In order to use any API, a **request** must be made to either send, update, delete or return information. When making a request, the information will often not be the same every time it's run. Because of this, **variables** are used to interact with the requests in places where the data being sent or received changes.
 
 > To learn more about making your first request, check out the tutorial [here](../../../getting-started/sending-the-first-request/)
 
 ### Requests
 
-In Flows, the **Send Request** block allows a request to be selected from a **Collection**. 
+In Postman Flows, the **Send Request** block allows a request to be selected from a **Collection**.
 
 ![Selecting a request](https://assets.postman.com/postman-labs-docs/concepts/selecting-a-request.gif)
 
