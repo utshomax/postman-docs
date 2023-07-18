@@ -1,6 +1,6 @@
 ---
 title: "Postman Flows overview"
-updated: 2023-04-03
+updated: 2023-07-17
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -71,8 +71,9 @@ To get started using Postman Flows in a Professional plan, you'll need to assign
 
 To get started, check out the following resources:
 
-* [Step-by-step guide to building your first Flow](/docs/postman-flows/tutorials/building-your-first-flow/)
-* [Flows Snippets: an example for every block](https://www.postman.com/postman/workspace/flows-snippets)
+* [Navigating a flow and the flows interface](/docs/postman-flows/gs/navigating-a-flow/)
+* [Flows concepts and building your first flow](/docs/postman-flows/concepts/blocks-and-connections/)
+* [Flows Snippets: examples for how to use every block](https://www.postman.com/postman/workspace/flows-snippets/)
 
 ## Contribute
 
