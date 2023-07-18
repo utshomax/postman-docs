@@ -1,5 +1,5 @@
 ---
-title: "Live Collection setup"
+title: "Live Collections setup"
 updated: 2023-03-15
 contextual_links:
   - type: section

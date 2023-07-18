@@ -1,5 +1,5 @@
 ---
-title: "Live Collection settings"
+title: "Live Collections settings"
 updated: 2023-03-15
 ---
 

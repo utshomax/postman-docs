@@ -16,7 +16,7 @@ contextual_links:
     url: "https://blog.postman.com/how-to-make-your-apis-available-to-more-consumers/"
 ---
 
-When you're ready to share the latest changes to your API with consumers, you can publish a _version_. Publishing a version creates a static representation of your API's current state. Consumers can view the API version in your workspace. You can also choose to add the version to your [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
+When you're ready to share the latest changes to your API with consumers, you can publish a _version_. Publishing a version creates a static representation of your API's current state. Consumers can view the API version in your workspace. You can also choose to add the version to your [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/).
 
 You can select the elements to publish with your API, such as the definition and collections, to help consumers test and evaluate your API. After you publish a version, you can keep working on your API and make more changes. Your consumers will continue to see the published version of your API until you publish a new version.
 
@@ -54,7 +54,7 @@ To publish an API version, do the following:
 
     <img alt="Publishing an API version" src="https://assets.postman.com/postman-docs/v10/api-builder-publish-v10-3.jpg" width="442px" />
 
-> If you aren't assigned the API Network Manager or Folder Manager role, you can [request to add](/docs/collaborating-in-postman/adding-private-network/#requesting-to-add-elements) the published API to the Private API Network. Your team's API Network Manager or Folder Manager will review the request.
+> If you aren't assigned the API Network Manager or Folder Manager role, you can [request to add](/docs/collaborating-in-postman/private-api-network/private-network-requests/#requesting-to-add-elements) the published API to the Private API Network. Your team's API Network Manager or Folder Manager will review the request.
 
 ## Editing and deleting an API version
 
@@ -79,4 +79,4 @@ To view an API version on the Private API Network, do the following:
 1. Select **API Network** in the Postman header, then select **Private API Network**.
 1. Search or browse for an API, then select an API to view the available versions.
 
-> Learn more about viewing APIs on the [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
+> Learn more about viewing APIs on the [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/).
