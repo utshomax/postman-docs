@@ -54,19 +54,19 @@ To make your documentation even more valuable to users, [add descriptions](/docs
 To add a description to a collection or folder, do the following:
 
 1. Select **Collections** in the sidebar, and then select a collection or a folder.
-1. Enter a description in the **Overview** tab.
-1. Select outside the editor to save your new content.
+1. Enter a description in the **Overview** tab. To learn more about using Postman's built-in editing tools, see [Writing your docs](/docs/publishing-your-api/authoring-your-documentation/).
+1. Select outside of the editor to save your new content.
+
+<img alt="Documenting a collection" src="https://assets.postman.com/postman-docs/v10/documentation-overview-tab-v10.jpg" >
 
 To add a description to a request, do the following:
 
 1. Select **Collections** in the sidebar, and then select a request.
 1. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the right sidebar.
-1. Enter a description in the right sidebar.
-1. Select outside the editor to save your new content.
+1. Enter a description in the right sidebar. To learn more about using Postman's built-in editing tools, see [Writing your docs](/docs/publishing-your-api/authoring-your-documentation/).
+1. Select outside of the editor to save your new content.
 
-To learn more about using Postman's built-in editing tools, see [Writing your docs](/docs/publishing-your-api/authoring-your-documentation/).
-
-<img alt="Documentation pane" src="https://assets.postman.com/postman-docs/documentation-pane-v9.jpg" width="566px">
+<img alt="Documenting a request" src="https://assets.postman.com/postman-docs/v10/documentation-pane-v10.jpg" width="600px">
 
 > You can also edit descriptions when viewing the complete documentation for a collection. Select a collection in the sidebar, then select **View complete collection documentation** in the **Overview** tab. From here, you can add a description to any item in the collection.
 
