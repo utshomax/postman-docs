@@ -110,6 +110,10 @@ export const leftNavItems = [
         url: '/docs/getting-started/settings/',
       },
       {
+        name: 'About Postbot',
+        url: '/docs/getting-started/about-postbot/',
+      },
+      {
         name: 'Importing and exporting data',
         url: '/docs/getting-started/importing-and-exporting-data/',
       },
@@ -442,11 +446,11 @@ export const leftNavItems = [
         slug: '/docs/collections/live-collections/live-collections-overview/',
         subMenuItems2: [
           {
-            name: 'Live Collection overview',
+            name: 'Live Collections overview',
             url: '/docs/collections/live-collections/live-collections-overview/',
           },
           {
-            name: 'Live Collection setup',
+            name: 'Live Collections setup',
             url: '/docs/collections/live-collections/live-collections-setup/',
           },
           {
@@ -454,7 +458,7 @@ export const leftNavItems = [
             url: '/docs/collections/live-collections/update-live-collections/',
           },
           {
-            name: 'Live Collection settings',
+            name: 'Live Collections settings',
             url: '/docs/collections/live-collections/live-collections-settings/',
           },
         ],
@@ -684,7 +688,26 @@ export const leftNavItems = [
       },
       {
         name: 'Your Private API Network',
-        url: '/docs/collaborating-in-postman/adding-private-network/',
+        subParentSlug: 'private-api-network',
+        slug: '/docs/collaborating-in-postman/private-api-network/adding-private-network/',
+        subMenuItems2: [
+          {
+            name: 'Your Private API Network',
+            url: '/docs/collaborating-in-postman/private-api-network/adding-private-network/'
+          },
+          {
+            name: 'Organizing your Private API Network',
+            url: '/docs/collaborating-in-postman/private-api-network/organizing-private-network/'
+          },
+          {
+            name: 'Managing your Private API Network',
+            url: '/docs/collaborating-in-postman/private-api-network/managing-private-network/'
+          },
+          {
+            name: 'Requesting to add to the Private API Network',
+            url: '/docs/collaborating-in-postman/private-api-network/private-network-requests/'
+          },
+        ],
       },
       {
         name: 'Using version control',
@@ -797,8 +820,16 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/',
           },
           {
-            name: 'Using a remote Git repository',
-            url: '/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/',
+            name: 'Using a cloud-hosted Git repository',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/',
+          },
+          {
+            name: 'Using an on-premises Git repository',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/',
+          },
+          {
+            name: 'Connecting multiple APIs to a repository',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/connecting-multiple-apis/',
           },
           {
             name: 'Managing changes using Git',
@@ -936,6 +967,10 @@ export const leftNavItems = [
       {
         name: 'Using custom domains',
         url: '/docs/publishing-your-api/custom-doc-domains/',
+      },
+      {
+        name: 'Setting up authentication for public APIs',
+        url: '/docs/publishing-your-api/setting-up-authentication-for-public-apis/',
       },
       {
         name: 'Run in Postman',

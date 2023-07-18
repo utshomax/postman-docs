@@ -9,6 +9,9 @@ contextual_links:
   - type: link
     name: "Introducing Postman Groups: Manage Users with Easier Access Control"
     url: "https://blog.postman.com/introducing-postman-groups/"
+  - type: link
+    name: "The Developer role in Postman can now manage groups"
+    url: "https://blog.postman.com/developer-role-in-postman-can-now-manage-groups/"
   - type: subtitle
     name: "Case Studies"
   - type: link

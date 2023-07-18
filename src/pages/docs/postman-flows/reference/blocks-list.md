@@ -237,17 +237,14 @@ Waits the specified amount of time before allowing information through.
 
 ### Send Request
 
-<img alt="Send Request block" src="https://assets.postman.com/postman-labs-docs/all-blocks/send-request-block.png" width="237px"/>
+<img alt="Send Request block" src="https://assets.postman.com/postman-docs/v10/send-request-block-1.jpg" width="300px"/>
 
 Runs a request in a collection and outputs the result. If a request that has a saved example was used, the result can be used as test data to run the flow and auto-fill **Select** blocks.
 
+**Select a Request** - Select a collection and a request here.
+
 **Send** - When this receives any input from another block, the selected request is run.
 
-**Environment** - Lets you select which Postman environment to use with your request.
-
-**Body Type** - The format that your information uses (for example JSON or XML). **Auto** will try to auto-detect which schema is being used.
-
-**Variables** - If the request being run contains any variables in `{{variable}}` format, they will show up here. Variables can either be assigned a value in the block itself, have a value passed in using a **Select** block, or be already assigned in the Environment.
 <!-- vale Postman.ComplexWords = NO -->
 **Success** - Contains the response of a successful API request. If Postman tests are assigned to the request and all pass or, if there are no tests, a 2xx (successful) HTTP status code is received. The information returned by the request is then output to the next block.
 

@@ -1,9 +1,14 @@
 ---
-title: "Live Collection setup"
+title: "Live Collections setup"
 updated: 2023-03-15
 contextual_links:
   - type: section
     name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Set Up Live Collections"
+    url: "https://youtu.be/1xTTNGacuaQ"
   - type: subtitle
     name: "Blog posts"
   - type: link

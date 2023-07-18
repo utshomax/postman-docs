@@ -12,17 +12,20 @@ contextual_links:
   - type: link
     name: "Private API Network"
     url: "https://youtu.be/cbPT4dMFIDw"
+  - type: link
+    name: "Discovering APIs | Postman Enterprise"
+    url: "https://youtu.be/e1v647ayIBg"
   - type: subtitle
     name: "Blog posts"
   - type: link
     name: "How to Make Your APIs Available to More Consumers"
     url: "https://blog.postman.com/how-to-make-your-apis-available-to-more-consumers/"
   - type: link
-    name: "You can now see what’s trending across the Private API Network"
-    url: "https://blog.postman.com/whats-trending-private-api-network/"
-  - type: link
     name: "Introducing an API to manage your Private API Network with more automation"
     url: "https://blog.postman.com/introducing-api-to-manage-your-private-api-network-with-automation/"
+  - type: link
+    name: "Simplifying API distribution and evaluation with the Private API Network"
+    url: "https://blog.postman.com/simplifying-api-distribution-and-evaluation-with-the-private-api-network/"
   - type: subtitle
     name: "Case Studies"
   - type: link
