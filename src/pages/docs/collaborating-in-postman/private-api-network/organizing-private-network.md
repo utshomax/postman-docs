@@ -76,6 +76,9 @@ To create a new folder from the Private API Network view, do the following:
 To add a sub-folder to an existing folder, do the following:
 
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a folder, then select **Add folder**. You can also select a folder in the sidebar, then select <img alt="Create folder icon" src="https://assets.postman.com/postman-docs/v10/icon-create-folder-v10.jpg#icon" width="20px"> **Create Folder** in the upper-right corner.
+
+    > You can create up to four levels of sub-folders in each folder.
+
 1. Enter a name for the folder. Optionally, you can add a description for the sub-folder.
 1. Select **Create Folder**.
 
@@ -164,8 +167,7 @@ To add a collection to the Private API Network from the workbench, do the follow
 
     <img alt="Add collection to the Private Network" src="https://assets.postman.com/postman-docs/v10/add-collection-to-private-api-network-v10.jpg"/>
 
-1. (Optional) Add a brief summary about the collection.
-1. (Optional) Select **Select Environments** to make sure users have access to environment variables. You can also edit a collection's summary and environments later. To learn more, see [Editing collections](/docs/collaborating-in-postman/private-api-network/managing-private-network/#editing-collections).
+1. (Optional) Select **Select Environments** to make sure users have access to environment variables. You can also edit a collection's environments later. To learn more, see [Editing collections](/docs/collaborating-in-postman/private-api-network/managing-private-network/#editing-collections).
 1. (Optional) Select a folder or create one to keep elements organized.
 1. Select **Add collection**.
 

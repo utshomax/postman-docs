@@ -108,10 +108,9 @@ To request to add elements from your Private API network, do the following:
 
     <img alt="Request to add collection to the Private Network" src="https://assets.postman.com/postman-docs/v10/request-to-add-collection-to-private-api-network-v10-2.jpg"/>
 
-1. (Optional) Add a brief summary about the collection.
 1. (Optional) Select **Select Environments** to make sure users have access to environment variables.
 
-    > You can also edit a collection's summary and environments later. To learn more, see [Editing collections](/docs/collaborating-in-postman/private-api-network/managing-private-network/#editing-collections).
+    > You can also edit a collection's environments later. To learn more, see [Editing collections](/docs/collaborating-in-postman/private-api-network/managing-private-network/#editing-collections).
 
 1. (Optional) Select a folder or create one to keep elements organized.
 1. (Optional) Select **Add comment** to add a note for the API Network Manager or Folder Manager.
