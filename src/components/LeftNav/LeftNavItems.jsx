@@ -446,11 +446,11 @@ export const leftNavItems = [
         slug: '/docs/collections/live-collections/live-collections-overview/',
         subMenuItems2: [
           {
-            name: 'Live Collection overview',
+            name: 'Live Collections overview',
             url: '/docs/collections/live-collections/live-collections-overview/',
           },
           {
-            name: 'Live Collection setup',
+            name: 'Live Collections setup',
             url: '/docs/collections/live-collections/live-collections-setup/',
           },
           {
@@ -458,7 +458,7 @@ export const leftNavItems = [
             url: '/docs/collections/live-collections/update-live-collections/',
           },
           {
-            name: 'Live Collection settings',
+            name: 'Live Collections settings',
             url: '/docs/collections/live-collections/live-collections-settings/',
           },
         ],
