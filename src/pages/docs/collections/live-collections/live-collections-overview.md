@@ -1,5 +1,5 @@
 ---
-title: "Live Collection overview"
+title: "Live Collections overview"
 updated: 2023-03-15
 contextual_links:
   - type: section
