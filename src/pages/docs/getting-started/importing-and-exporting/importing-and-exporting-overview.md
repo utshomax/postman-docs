@@ -28,5 +28,10 @@ contextual_links:
     url: "https://blog.postman.com/bring-your-apis-into-postman-faster-than-ever/"
 ---
 
-Postman can import and export Postman data, including collections, environments, data dumps, and globals. Postman can also import non-Postman data in the form of API schemas to help you consolidate your API development workflow.
+Postman can import and export Postman data, including collections, environments, globals, and data dumps. Postman can also import non-Postman data in the form of API definitions to help you consolidate your API development workflow.
 
+* You can [import data into Postman](/docs/getting-started/importing-and-exporting/importing-data/) by dragging and dropping files, or by pasting a CURL command, raw text, or a URL. Postman automatically recognizes Postman data such as collections, environments, and data dumps. You can also import API definitions into Postman.
+
+* You can [import data from a Git repository](/docs/getting-started/importing-and-exporting/importing-from-git/) so you can work with it in Postman. You can import collections, environments, and API definitions from local or remote GitHub, GitLab, Bitbucket, and Azure DevOps repositories.
+
+* You can [export collections and environments](/docs/getting-started/importing-and-exporting/exporting-data/) from Postman as JSON files. You can also [export a data dump](/docs/getting-started/importing-and-exporting/exporting-data/#exporting-data-dumps) with all of your Postman collections, environments, globals, and header presets. After exporting, you can import the files into any Postman instance or use them with [Newman](http://localhost:8000/docs/collections/using-newman-cli/command-line-integration-with-newman/).

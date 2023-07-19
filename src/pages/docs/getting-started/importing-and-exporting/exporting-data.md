@@ -11,7 +11,7 @@ contextual_links:
     url: "https://youtu.be/KdaiVdNMgL4"
 ---
 
-You can export your Postman data, including collections, environments, data dumps, and globals, as JSON files. You can import these files back into any Postman instance, or use them with [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner.
+You can export your Postman data, including collections, environments, global variables, and data dumps, as JSON files. You can import these files back into any Postman instance, share them with others, or use them with [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner.
 
 ## Contents
 
@@ -35,9 +35,11 @@ You can export your Postman data, including collections, environments, data dump
 
 You can also export your environments from Postman.
 
-1. Select **Environments** from the sidebar.
+1. Select **Environments** in the sidebar.
 1. Select an environment to export.
 1. In the workbench, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select **Export** to download your newly generated JSON file.
+
+> To export your global variables, select **Environments** in the sidebar. Select **Globals** in the sidebar, then select **Export** in the workbench.
 
 ## Exporting data dumps
 
