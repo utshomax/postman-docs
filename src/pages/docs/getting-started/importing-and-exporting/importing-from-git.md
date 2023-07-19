@@ -9,26 +9,27 @@ contextual_links:
   - type: link
     name: "Import and Export Data in Postman"
     url: "https://youtu.be/KdaiVdNMgL4"
-  - type: link
-    name: "Collection Format | Postman Level Up"
-    url: "https://youtu.be/cRXSblrGrao"
-  - type: link
-    name: "Importing cURL Commands | Postman Level Up"
-    url: "https://youtu.be/kuR3we5EY2s"
   - type: subtitle
     name: "Blog posts"
-  - type: link
-    name: "Postman Essentials: Exploring the Collection Format"
-    url: "https://blog.postman.com/postman-essentials-exploring-the-collection-format/"
-  - type: link
-    name: "Differences between Postman Collections and the collection format"
-    url: "https://blog.postman.com/differences-between-postman-collections-and-collection-format/"
   - type: link
     name: "Bring your APIs into Postman faster than ever"
     url: "https://blog.postman.com/bring-your-apis-into-postman-faster-than-ever/"
 ---
 
-### Importing from GitHub repositories
+If you have collections, environments, or API definitions in a Git repository, you can import the data so you can work with it in Postman.
+
+Postman supports importing from GitHub, BitBucket, GitLab, and Azure DevOps repositories. You can import data from a local or remote repository.
+
+> You can also connect your API to a GitHub, Bitbucket, GitLab, or Azure DevOps repository. Once connected, you can sync your API definition and associated collections in Postman with the remote repository. Learn more about [connecting your API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/).
+
+## Contents
+
+* [Importing from GitHub repositories](#importing-from-github-repositories)
+* [Importing from Bitbucket repositories](#importing-from-bitbucket-repositories)
+* [Importing from GitLab repositories](#importing-from-gitlab-repositories)
+* [Importing from Azure DevOps repositories](#importing-from-azure-devops-repositories)
+
+## Importing from GitHub repositories
 
 You can import files from local or remote repositories.
 
@@ -60,7 +61,7 @@ To import data from a remote GitHub repository:
 
 1. If you're importing an API definition with multiple files, select the files you want to import into Postman, then select **Import**.
 
-### Importing from Bitbucket repositories
+## Importing from Bitbucket repositories
 
 You can import files from local or remote repositories.
 
@@ -92,7 +93,7 @@ To import data from a remote Bitbucket repository:
 
 1. If your repository has an API definition with multiple files, select the files you want to import into Postman, then select **Import**.
 
-### Importing from GitLab repositories
+## Importing from GitLab repositories
 
 You can import files from local or remote repositories.
 
@@ -124,7 +125,7 @@ To import data from a remote GitLab repository:
 
 1. If your repository has an API definition with multiple files, select the files you want to import into Postman, then select **Import**.
 
-### Importing from Azure DevOps repositories
+## Importing from Azure DevOps repositories
 
 You can import files from local or remote repositories.
 

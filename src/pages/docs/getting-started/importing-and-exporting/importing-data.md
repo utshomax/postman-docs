@@ -28,20 +28,6 @@ contextual_links:
     url: "https://blog.postman.com/bring-your-apis-into-postman-faster-than-ever/"
 ---
 
-Postman can import and export Postman data, including collections, environments, data dumps, and globals. Postman can also import non-Postman data in the form of API schemas to help you consolidate your API development workflow.
-
-## Contents
-
-* [Importing data into Postman](#importing-data-into-postman)
-
-    * [Importing Postman data](#importing-postman-data)
-
-    * [Converting Postman collections from v1 to v2](#converting-postman-collections-from-v1-to-v2)
-
-    * [Importing API specifications](#importing-api-specifications)
-
-## Importing data into Postman
-
 You can import collections, API specifications, and data files directly into Postman.
 
 To import your data into Postman, select **Import** in the upper left. The **Import** modal opens.
@@ -52,7 +38,14 @@ You can import your data from files, folders, links, raw text, or code repositor
 
 > You can also import items by dragging and dropping files or folders onto the sidebar.
 
-### Importing with cURL commands
+## Contents
+
+* [Importing with cURL commands](#importing-with-curl-commands)
+* [Importing Postman data](#importing-postman-data)
+    * [Converting Postman collections from v1 to v2](#converting-postman-collections-from-v1-to-v2)
+* [Importing API definitions](#importing-api-definitions)
+
+## Importing with cURL commands
 
 You can use cURL commands to import data.
 
@@ -61,7 +54,7 @@ You can use cURL commands to import data.
 
     > You can also paste cURL commands into a request's URL field.
 
-### Importing Postman data
+## Importing Postman data
 
 You can import Postman data you exported earlier, including collections, environments, data dumps, and globals.
 
@@ -69,10 +62,12 @@ You can import Postman data you exported earlier, including collections, environ
 1. Do one of the following:
     * Select your file or folder, or drag it into the **Import** modal.
     * Paste your raw text or URL into the input field.
-    * Select a button to import from a [GitHub](#importing-from-github-repositories), [Bitbucket](#importing-from-bitbucket-repositories), or [GitLab](#importing-from-gitlab-repositories) code repository.
-    * Select **Other Sources** to import an [Azure](#importing-from-azure-devops-repositories) code repository, or to [import an API from Amazon API Gateway or Azure API Management](/docs/designing-and-developing-your-api/importing-an-api/).
+    * Select a button to import from a [GitHub](/docs/getting-started/importing-and-exporting/importing-from-git/#importing-from-github-repositories), [Bitbucket](/docs/getting-started/importing-and-exporting/importing-from-git/#importing-from-bitbucket-repositories), or [GitLab](/docs/getting-started/importing-and-exporting/importing-from-git/#importing-from-gitlab-repositories) code repository.
+    * Select **Other Sources** to import an [Azure](/docs/getting-started/importing-and-exporting/importing-from-git/#importing-from-azure-devops-repositories) code repository, or to [import an API from Amazon API Gateway or Azure API Management](/docs/designing-and-developing-your-api/importing-an-api/).
     Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as.
+
    ![Import collection and environment](https://assets.postman.com/postman-docs/v10/import-elements-v10.jpg)
+
 1. If you are importing multiple files, select the files you want to import and select **Import** to bring your data into Postman.
 
     > If you are importing a single file, Postman automatically imports it when you select it.
@@ -105,6 +100,6 @@ You can retrieve a list of convert options by running the command with the ``-h`
 
 See the [Postman Collection Transformer](https://github.com/postmanlabs/postman-collection-transformer) for more information on the collection conversion.
 
-### Importing API specifications
+## Importing API definitions
 
-To import your API specifications into Postman, see [Importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
+To import your API definitions into Postman, see [Importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
