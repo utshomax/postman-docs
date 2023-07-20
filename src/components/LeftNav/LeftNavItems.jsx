@@ -1312,6 +1312,10 @@ export const leftNavItems = [
           {
             name: 'Postman API rate limits',
             url: '/docs/developer/postman-api/postman-api-rate-limits/'
+          },
+          {
+            name: 'Make a call with the Postman API',
+            url: '/docs/developer/postman-api/make-postman-api-call/'
           }
         ]
       },
