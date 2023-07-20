@@ -48,7 +48,7 @@ The more detailed tutorial starts with [Creating a request and a collection](#cr
 
 This quick start tutorial creates a flow to check if a website is down or not. It does this by sending a request to the website and looking for a 200 status code in the response. If the website is up and running, the flow's **Output** block will display **True**. If the website is down, it will display **False**.
 
-1. Go to the [**DevOps Flows**](https://www.postman.com/postman/workspace/devops-flows) workspace and [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) the [**DownDetector**](https://www.postman.com/postman/workspace/devops-flows/collection/23919558-2ea958e4-8647-4b79-859a-47a2c7608b4d?action=share&creator=23919558) collection to your workspace.
+1. Go to the [**DevOps Flows**](https://www.postman.com/postman/workspace/devops-flows) workspace and [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) the [**DownDetector**](https://www.postman.com/postman/workspace/devops-flows/collection/23919558-2ea958e4-8647-4b79-859a-47a2c7608b4d?action=share&creator=23919558) collection to your workspace. Then, in your workspace, select **New &gt; Flows** and [hide the sidebar](/docs/getting-started/navigating-postman/#sidebar).
 
     ![Fork the collection](https://assets.postman.com/postman-docs/v10/flow-tut-fork-collection-v10-6.gif)
 
