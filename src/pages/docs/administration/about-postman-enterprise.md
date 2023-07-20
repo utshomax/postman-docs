@@ -1,6 +1,14 @@
 ---
 title: "About Postman Enterprise plans"
 updated: 2023-06-15
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Accelerate your API-first journey with Postman’s new Enterprise solutions"
+    url: "https://blog.postman.com/accelerate-api-first-journey-with-postman-enterprise-solutions/"
 ---
 
 Postman Enterprise plans are for organizations that need advanced identity management, security, and governance features as they design, build, test, and deploy APIs. Postman Enterprise enables you to deploy Postman at scale, manage your team, and streamline your organization's API development process.
@@ -52,7 +60,7 @@ Postman Enterprise plans provide you with advanced [API governance](https://www.
 
 Postman Enterprise plans enable your organization to collaborate internally and with partners:
 
-* **The Private API Network** - Team members with the Enterprise-only API Network Manager role can approve which APIs to add to your Private API Network. For more information, see [Your Private API Network](/docs/collaborating-in-postman/adding-private-network/).
+* **The Private API Network** - Team members with the Enterprise-only API Network Manager role can approve which APIs to add to your Private API Network. For more information, see [Your Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/).
 * **Partner Workspaces** - Your organization can invite partners to a shared workspace to collaborate and build products and services with your APIs. To learn more about Partner Workspaces, see [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
 * **Advanced version control** - Manage permissions for reviewers and assign merge checks for forks on Postman elements. For more details, see [Pull request settings](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/#pull-request-settings).
 

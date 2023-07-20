@@ -12,6 +12,9 @@ contextual_links:
   - type: link
     name: "Intro to Postman | Write API Tests"
     url: "https://youtu.be/EVg6gxeiUd0"
+  - type: link
+    name: "Advanced API testing: Best Practices and Automation Techniques | Postman Intergalactic"
+    url: "https://youtu.be/Ix6z1kBweuk"
   - type: subtitle
     name: "Blog posts"
   - type: link

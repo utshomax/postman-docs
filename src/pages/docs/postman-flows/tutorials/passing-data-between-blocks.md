@@ -1,6 +1,6 @@
 ---
 title: "Passing data between blocks"
-updated: 2023-04-03
+updated: 2023-07-15
 warning: false
 contextual_links:
   - type: section
@@ -30,7 +30,7 @@ Postman Flows can get data with [API requests](/docs/getting-started/sending-the
 * [Getting data and passing it between blocks](#getting-data-and-passing-it-between-blocks)
     * [Getting data with an API request](#getting-data-with-an-api-request)
     * [Getting data from the Start block](#getting-data-from-the-start-block)
-* [Passing specfied data between blocks](#passing-specified-data-between-blocks)
+* [Passing specified data between blocks](#passing-specified-data-between-blocks)
 
 ## Getting data and passing it between blocks
 
@@ -50,15 +50,15 @@ In this example, the **Send Request** block gets data using a collection's GET r
 
 1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/) and connect a **Send Request** block to the **Start** block.
 
-    ![Create a flow and add a Send Request block](https://assets.postman.com/postman-docs/v10/flow-data-send-request-v10-4.jpg)
+    ![Create a flow and add a Send Request block](https://assets.postman.com/postman-docs/v10/flow-data-send-request-v10-5.jpg)
 
 1. In the **Send Request** block, select **Add request > Random User Collection > New Request**. Each time the flow executes, it will get data using the GET request from the Random User Collection request you created earlier.
 
-    ![Select Add request](https://assets.postman.com/postman-docs/v10/flow-select-data-4-v10.jpg)
+    ![Select Add request](https://assets.postman.com/postman-docs/v10/flow-select-data-v10-5.jpg)
 
 1. Connect a **Log** block to the **Send Request** block's **Success** port.
 
-    ![Add a Log block](https://assets.postman.com/postman-docs/v10/flow-add-log-block-5-v10.jpg)
+    ![Add a Log block](https://assets.postman.com/postman-docs/v10/flow-add-log-block-v10-6.jpg)
 
 1. Select **Console** then select **Run**. The **Log** block sends the entire response to the console, including request headers, response headers, and the response body.
 
@@ -66,9 +66,9 @@ In this example, the **Send Request** block gets data using a collection's GET r
 
 In this example, the flow gets data from the **Start** block and passes it to an **Evaluate** block. The **Evaluate** block passes the entire response to the **Log** block in a variable.
 
-1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/) and select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the **Start** block.
+1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/), select the **Start** block, then select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the right sidebar.
 
-    ![Select the gear icon](https://assets.postman.com/postman-docs/v10/flow-start-configure-5-v10.jpg)
+    ![Select the gear icon](https://assets.postman.com/postman-docs/v10/flow-start-configure-v10-6.jpg)
 
 1. Select **Enter Incoming Data** and paste in the sample data below. The flow will use this data every time it executes.
 
@@ -143,17 +143,17 @@ In this example, the flow gets data from the **Start** block and passes it to an
 
 1. Select the **Language** dropdown list and select **JSON**.
 
-    ![Select JSON](https://assets.postman.com/postman-docs/v10/flow-passing-data-start-5-v10.jpg)
+    ![Select JSON](https://assets.postman.com/postman-docs/v10/flow-passing-data-start-v10-6.jpg)
 
 1. Connect an **Evaluate** block to the **Start** block.
 1. In the **Evaluate** block, select **value1** and enter `body`. This assigns all the data received from the **Start** block to the variable `body`.
 
-    ![Add variable body](https://assets.postman.com/postman-docs/v10/flow-body-3-v10.jpg)
+    ![Add variable body](https://assets.postman.com/postman-docs/v10/flow-body-v10-4.jpg)
 
 1. In the **Evaluate** block, select **Start writing an FQL query...** and enter `body`. This sends all the data in the `body` variable to the **Evaluate** block's output.
 1. Connect a **Log** block to the **Evaluate** block.
 
-    ![Connect a Log block](https://assets.postman.com/postman-docs/v10/flow-body-log-3-v10.jpg)
+    ![Connect a Log block](https://assets.postman.com/postman-docs/v10/flow-body-log-v10-4.jpg)
 
 1. Select **Console** then select **Run**. The flow gets the data from the **Start** block, routes it to the **Evaluate** block, and passes the entire response to the **Log** block, which displays the data in the console.
 
@@ -161,9 +161,9 @@ In this example, the flow gets data from the **Start** block and passes it to an
 
 You can extract specific values from response data in a number of ways using variables and [Flows Query Language (FQL)](/docs/postman-flows/flows-query-language/introduction-to-fql/). The example below uses FQL in an **Evaluate** block to get the `country` field value from sample response data in the **Start** block.
 
-1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/) and select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the **Start** block.
+1. [Create a new flow](/docs/postman-flows/flows-intro/building-your-first-flow/), select the **Start** block, and select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the right sidebar.
 
-    ![Select the gear icon](https://assets.postman.com/postman-docs/v10/flow-start-configure-5-v10.jpg)
+    ![Select the gear icon](https://assets.postman.com/postman-docs/v10/flow-start-configure-v10-6.jpg)
 
 1. Select **Enter Incoming Data** and paste in the sample data below. The flow will use this data every time it executes.
 
@@ -238,19 +238,19 @@ You can extract specific values from response data in a number of ways using var
 
 1. Select the **Language** dropdown list and select **JSON**.
 
-    ![Select JSON](https://assets.postman.com/postman-docs/v10/flow-passing-data-start-5-v10.jpg)
+    ![Select JSON](https://assets.postman.com/postman-docs/v10/flow-passing-data-start-v10-6.jpg)
 
 1. Connect an **Evaluate** block to the **Start** block.
-1. In the **Evaluate** block, select **value1** and enter `body`. This assigns all the data received from the **Start** block to the `body` variable.
+1. In the **Evaluate** block, select **value1** and enter `body`. This assigns all the data received from the **Start** block to the variable `body`.
 
-    ![Add variable body](https://assets.postman.com/postman-docs/v10/flow-body-v10-1.jpg)
+    ![Add variable body](https://assets.postman.com/postman-docs/v10/flow-body-v10-4.jpg)
 
 1. In the **Evaluate** block, select **Enter FQL query** and enter `body.results.location.country`. This navigates the response data with [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) and extracts the value for the `country` field.
 1. Connect a **Log** block to the **Evaluate** block.
 
-    ![Add a Log block](https://assets.postman.com/postman-docs/v10/flow-add-log-block-data-v10-1.jpg)
+    ![Add a Log block](https://assets.postman.com/postman-docs/v10/flow-add-log-block-data-v10-2.jpg)
 
 1. Select **Console**.
 1. Select **Run**. The **Start** block sends its data to the **Evaluate** block. The FQL in the **Evaluate** block gets the value of the `country` field (`"Norway"`) in the response data and sends it to the **Log** block. `"Norway"` appears in the console.
 
-    ![Open the console and select Run](https://assets.postman.com/postman-docs/v10/flow-console-country-2-v10.jpg)
+    ![Open the console and select Run](https://assets.postman.com/postman-docs/v10/flow-console-country-v10-3.jpg)

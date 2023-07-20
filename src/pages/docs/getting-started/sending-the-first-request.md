@@ -18,6 +18,9 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
+    name: "What is an API endpoint?"
+    url: "https://blog.postman.com/what-is-an-api-endpoint/"
+  - type: link
     name: "First 5 Things to Try If You’re New to Postman"
     url: "https://blog.postman.com/postman-first-5-things-to-try/"
   - type: subtitle

@@ -5,6 +5,11 @@ contextual_links:
   - type: section
     name: "Additional resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Postman Collections | The Exploratory"
+    url: "https://youtu.be/GtGQ3YsOrt4"
+  - type: subtitle
     name: "Blog posts"
   - type: link
     name: "Introducing New Postman Reports for Enterprises"
