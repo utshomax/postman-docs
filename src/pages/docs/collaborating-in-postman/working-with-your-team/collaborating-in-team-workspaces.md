@@ -14,6 +14,9 @@ contextual_links:
   - type: link
     name: "Postman Intergalactic | Working with Your Team in Postman"
     url: "https://youtu.be/OifhKJCd_-M"
+  - type: link
+    name: "Collaboration & Documentation | Postman Enterprise"
+    url: "https://youtu.be/u1yEOo0dPfk"
   - type: subtitle
     name: "Blog posts"
   - type: link

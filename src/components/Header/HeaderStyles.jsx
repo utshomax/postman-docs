@@ -2,13 +2,13 @@ import styled from 'styled-components';
 
 export const PrimaryNavbarV6 = styled.div`
     background-color: ${(props) => props.theme.colors.grey_00};
-    z-index: 2147483647;
+    z-index: 2147483646;
     border-bottom: 1px solid ${(props) => props.theme.colors.grey_30};
     .activeMenu {
       background-color: ${(props) => props.theme.colors.grey_00};
       position: relative;
       border-bottom: 1px solid ${(props) => props.theme.colors.grey_30};
-      z-index: 2147483647;
+      z-index: 2147483646;
     }
 
     .navbar {

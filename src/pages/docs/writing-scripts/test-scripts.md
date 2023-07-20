@@ -13,11 +13,11 @@ contextual_links:
     name: "Intro to Postman | Write API Tests"
     url: "https://youtu.be/EVg6gxeiUd0"
   - type: link
-    name: "Intro to Postman | Advanced API Tests"
-    url: "https://youtu.be/vVDZxeS865g"
+    name: "Testing APIs | Postman Enterprise"
+    url: "https://youtu.be/-Nkvs69-LNE"
   - type: link
-    name: "Review Test Results in Postman | The Exploratory"
-    url: "https://youtu.be/S3GKLTVRtmE"
+    name: "Advanced API testing: Best Practices and Automation Techniques | Postman Intergalactic"
+    url: "https://youtu.be/Ix6z1kBweuk"
   - type: dynamic_blog
     name: "Blog posts"
     blog_tag: "testing"
@@ -50,6 +50,7 @@ warning: false
     * [Using snippets](#using-snippets)
 * [Testing collections and folders](#testing-collections-and-folders)
 * [Debugging your steps](#debugging-your-tests)
+* [Using Postbot to write tests](#using-postbot-to-write-tests)
 * [Next steps](#next-steps)
 
 ## Adding tests
@@ -158,6 +159,23 @@ If you are having trouble with your tests:
 
 * Check if there are any errors in your scripts. A red badge will highlight scripts with errors. You can also check the response section for specific errors.
 * Debug your tests using the [log statements](/docs/sending-requests/troubleshooting-api-requests/#using-log-statements) to ensure that you are asserting on correct data.
+
+## Using Postbot to write tests
+
+Not sure how to write an test script for your request? Ask Postbot! Tell Postbot what you want to do using plain language, and Postman uses artificial intelligence to generate test scripts for you. Use Postbot to add a new set of tests, visualize responses, save a field from a response, fix your existing tests, and more.
+
+To write a test with Postbot, do the following:
+
+1. Send your request so it has a response.
+1. Select the **Tests** tab.
+1. In the **Script with Postbot** section next to your test, select the Postbot icon <img alt="Postbot icon" src="https://assets.postman.com/postman-docs/v10/icon-postbot-v10-16.jpg#icon" width="18px">.
+1. Enter your query as a simple text sentence, or select one of the suggested queries to tell Postbot what you need.
+
+      <img alt="Postbot writing a test" src="https://assets.postman.com/postman-docs/v10/postbot-add-test-v10-16.gif" width="300px" />
+
+1. Select the play button. Postbot writes a test for you.
+
+For more information on Postbot, visit [About Postbot](/docs/getting-started/about-postbot/).
 
 ## Next steps
 

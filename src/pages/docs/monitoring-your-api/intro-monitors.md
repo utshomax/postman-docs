@@ -12,6 +12,9 @@ contextual_links:
   - type: link
     name: "API Lifecycle, Part 2: Monitor and Deploy an API | Postman Intergalactic"
     url: "https://youtu.be/voAUfBx8fnE"
+  - type: link
+    name: "Deploying APIs | Postman Enterprise"
+    url: "https://youtu.be/plykCPwt32M"
   - type: subtitle
     name: "Blog posts"
   - type: link
@@ -26,8 +29,8 @@ contextual_links:
     name: "Hathway uses monitors to identify issues with integrations"
     url: "https://www.postman.com/case-studies/hathway/"
   - type: link
-    name: "Momentive tracks production API performance with monitors"
-    url: "https://www.postman.com/case-studies/momentive/"
+    name: "PayPal uses monitors"
+    url: "https://www.postman.com/case-studies/paypal/"
   - type: subtitle
     name: "Public workspaces"
   - type: link

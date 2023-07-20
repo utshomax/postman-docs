@@ -16,16 +16,16 @@ contextual_links:
     name: "Intro to Postman | Chain Requests"
     url: "https://youtu.be/4fULCou_7Wc"
   - type: link
-    name: "Manage CLI Environment Variables | Postman Level Up"
-    url: "https://youtu.be/n8O2KP-Zx8I"
+    name: "Consuming REST APIs | Postman Enterprise"
+    url: "https://youtu.be/oI-GyWB_6jA"
   - type: subtitle
     name: "Blog posts"
   - type: link
+    name: "How to persist Postman variables"
+    url: "https://blog.postman.com/how-to-persist-postman-variables/"
+  - type: link
     name: "How to Securely Deploy Postman at Scale, Part 2: Information Management"
     url: "https://blog.postman.com/how-to-securely-deploy-postman-at-scale-part-2-information-management/"
-  - type: link
-    name: "Securely Using API Keys in Postman"
-    url: "https://blog.postman.com/how-to-use-api-keys/"
   - type: link
     name: "Faster and easier variable management in Postman"
     url: "https://blog.postman.com/faster-and-easier-variable-management-in-postman/"

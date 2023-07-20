@@ -15,10 +15,17 @@ contextual_links:
   - type: link
     name: "Postman Intergalactic | Working with Your Team in Postman"
     url: "https://youtu.be/OifhKJCd_-M"
+  - type: link
+    name: "Collaboration & Documentation | Postman Enterprise"
+    url: "https://youtu.be/u1yEOo0dPfk"
   - type: dynamic_blog
     name: "Blog posts"
     blog_tag: "collaboration"
-
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "PayPal uses Postman collaboration capabilities"
+    url: "https://www.postman.com/case-studies/paypal/"
 ---
 
 > Postman Free lets teams of up to three work together at no cost. To collaborate with more team members, features, and increased usage limits, see [Plans and Pricing](https://www.postman.com/pricing/).
