@@ -669,11 +669,11 @@
   },
   {
     "from": "/docs/postman/collections/data-formats/",
-    "to": "/docs/getting-started/importing-and-exporting-data/"
+    "to": "/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/"
   },
   {
     "from": "/docs/postman/collections/data_formats/",
-    "to": "/docs/getting-started/importing-and-exporting-data/"
+    "to": "/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/"
   },
   {
     "from": "/docs/postman/collections/examples/",
@@ -681,11 +681,11 @@
   },
   {
     "from": "/docs/postman/collections/importing-and-exporting-data/",
-    "to": "/docs/getting-started/importing-and-exporting-data/"
+    "to": "/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/"
   },
   {
     "from": "/docs/postman/collections/importing_and_exporting_data/",
-    "to": "/docs/getting-started/importing-and-exporting-data/"
+    "to": "/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/"
   },
   {
     "from": "/docs/postman/collections/intro-to-collections/",

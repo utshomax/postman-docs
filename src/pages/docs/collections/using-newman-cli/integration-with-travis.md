@@ -42,7 +42,7 @@ This example shows you how to integrate Postman with [Travis CI](https://travis-
 
 ## Connecting Postman to Travis CI
 
-1. [Export the "Hello World" collection](/docs/getting-started/importing-and-exporting-data/) as a JSON file and rename the exported file `hello_world.postman_collection.json`.
+1. [Export the "Hello World" collection](/docs/getting-started/importing-and-exporting/exporting-data/) as a JSON file and rename the exported file `hello_world.postman_collection.json`.
 
 1. Create a folder named `tests` at the root of your local project, and move the exported JSON file into the new `tests` folder.
 
