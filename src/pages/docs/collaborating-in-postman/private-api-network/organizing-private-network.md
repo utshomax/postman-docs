@@ -38,7 +38,7 @@ contextual_links:
 
 Add elements to the Private API Network to help your team discover and use your team's workspaces, collections, and APIs. You can organize related elements into folders.
 
-[Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and [API Network Managers](/docs/collaborating-in-postman/roles-and-permissions/#network-roles) can manage all folders and elements in your Private API Network. You can assign team members the [Folder Manager role](/docs/collaborating-in-postman/roles-and-permissions/#network-roles) at the folder level, giving them permission to manage specific folders and the elements in them.
+[Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and [API Network Managers](/docs/collaborating-in-postman/roles-and-permissions/#network-roles) can manage folders and elements in your Private API Network. You can assign team members the [Folder Manager role](/docs/collaborating-in-postman/roles-and-permissions/#network-roles) at the folder level, giving them permission to manage specific folders and the elements in them.
 
 ## Contents
 
@@ -54,7 +54,7 @@ Add elements to the Private API Network to help your team discover and use your 
 
 ## Organizing with folders
 
-The sidebar navigation displays the folder structure for your Private API Network. API Network Managers can drag elements and sub-folders into different folders. You can add descriptions to folders to describe elements within the folders. You can also add Folder Managers to specific folders. To learn more about managing folders, see [Managing folders and elements](#managing-folders-and-elements).
+The sidebar navigation displays the folder structure for your Private API Network. API Network Managers can drag elements and sub-folders into different folders. You can add descriptions to folders to describe elements within the folders. You can also add Folder Managers to specific folders. To learn more about managing folders, see [Managing your Private API Network](/docs/collaborating-in-postman/private-api-network/managing-private-network/).
 
 <img alt="Create new folder in Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-organize-folders-v10-2.jpg" width="300px"/>
 
@@ -63,7 +63,7 @@ To create a new folder from the Private API Network view, do the following:
 1. Open your [Private API Network](https://go.postman.co/network/private).
 1. Select the create folder icon <img alt="Create folder icon" src="https://assets.postman.com/postman-docs/v10/icon-create-folder-v10.jpg#icon" width="20px"> in the left sidebar. You can also select **Create Folders** on the right from the Private API Network overview page.
 1. Give the folder a name.
-1. (Optional) Add Folder Managers to the folder. You can also add Folder Managers to a folder later. To learn more, see [Editing Folder Managers](/docs/collaborating-in-postman/private-api-network/managing-private-network/#editing-folder-managers).
+1. (Optional) Add Folder Managers to the folder. You can also add Folder Managers to a folder later. To learn more, see [Editing Folder Managers](#editing-folder-managers).
 1. (Optional) Add more folders. Select <img alt="Create folder icon" src="https://assets.postman.com/postman-docs/v10/icon-create-folder-v10.jpg#icon" width="20px"> **Add Folder** to add another folder. Select the remove icon <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="16px"> next to a folder to remove it.
 1. Select **Review**.
 
