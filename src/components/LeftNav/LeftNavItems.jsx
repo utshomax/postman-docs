@@ -862,6 +862,10 @@ export const leftNavItems = [
             name: 'Validating an API',
             url: '/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/',
           },
+          {
+            name: 'Evaluating an API definition file',
+            url: '/docs/designing-and-developing-your-api/developing-an-api/testing-api-design-quality/',
+          },
         ],
       },
       {
