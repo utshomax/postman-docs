@@ -14,7 +14,7 @@ class AutoFlexPolicyPage extends React.Component {
       <Layout>
         <SEO
           title="Auto-Flex Team Policy"
-          description='Effective April 8, 2021, Postman offers a more flexible model that simplifies how you
+          description='Postman offers a flexible model that simplifies how you
                        can add Users to your Postman team. With the "auto-flex" model, you can authorize
                        additional Users at any time through the administrative dashboard of your Postman
                        Service, instead of having to purchase each additional User license with Postman prior
@@ -35,7 +35,7 @@ class AutoFlexPolicyPage extends React.Component {
                 </a>
               </p>
               <p>
-                Effective April 8, 2021, Postman offers a more flexible model that simplifies how
+                Postman offers a flexible model that simplifies how
                 you can add Users to your Postman team. With the &quot;auto-flex&quot; model, you
                 can authorize additional Users at any time through the administrative dashboard of
                 your Postman Service, instead of having to purchase each additional User license
@@ -51,7 +51,7 @@ class AutoFlexPolicyPage extends React.Component {
                 billing date, provided however, once you have been billed you may not reduce the
                 number of Users until the end of your then-current Subscription Term. Then, on the
                 billing date, you will be billed for the number of additional Users on your plan as
-                of the billing date.
+                of the billing date. All fees paid are non-refundable.
               </p>
               <h2 id="summary">Summary</h2>
               <ul>
