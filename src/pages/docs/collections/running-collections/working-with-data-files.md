@@ -52,7 +52,7 @@ You can select a data file to use in a [collection run](/docs/collections/runnin
     > ![Import Collection](https://assets.postman.com/postman-docs/v10/import-export-import-ui-v10-2.jpg)
     > * In the Collection Runner, choose the collection you imported. Download [the sample data file](https://assets.postman.com/postman-docs/58702589.json) and select it in the __Runner__ also.
     > * Note that the sample collection has a `POST` request which uses a `path` variable in the URL. This path variable is specified in each record in the data file. The request also uses a `value` variable in the body which is also pulled from the data file for each iteration. _The example request is to the [Postman Echo API](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation), a learning resource that returns the data you send it._
-    > ![Tests](https://assets.postman.com/postman-docs/v10/data-file-tests-tab-v10.jpg)
+    > ![Tests](https://assets.postman.com/postman-docs/v10/data-file-tests-tab-v10-2.jpg)
 
 1. Select a request in the Collection Runner results to get more details on its data.
 

@@ -111,7 +111,7 @@ To view a failed test, do the following:
 
 1. Change the final test so that it looks for the text "Hello, Everyone!" instead of "Hello, World!"
 
-    ![Tests tab error](https://assets.postman.com/postman-docs/v10/travis-ci-test-error-example-v10.jpg)
+    ![Tests tab error](https://assets.postman.com/postman-docs/v10/travis-ci-test-error-example-v10-2.jpg)
 
 1. Save the change and then export the collection again. As before, rename the exported file `hello_world.postman_collection.json` and move it into the `tests` directory in your local project.
 
