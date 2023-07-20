@@ -53,7 +53,7 @@ You can share your collections, collection folders, APIs, and environments with 
 * Hover over the element's name in the overview page and select the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> to copy the element's URL to the clipboard.
 * You can also select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you want to share and select **Copy Link** to copy the element's URL to the clipboard.
 
-> To share a URL to a collection, folder, or request with an active environment selected, [choose an environment using the environment selector](/docs/sending-requests/managing-environments/#selecting-an-active-environment), copy the URL to your clipboard, then send the URL to people you want to share with.
+> To share a URL to a collection, folder, or request with an active environment selected, [choose an environment using the environment selector](/docs/sending-requests/managing-environments/#selecting-an-active-environment), copy the element's link to your clipboard, then send the link to team members you want to share with.
 
 ### Sharing using names, emails, or groups
 
@@ -63,9 +63,9 @@ You can share collections, APIs, and environments directly with collaborators, i
 1. Select **With people**.
 1. Enter the name, email address, or [group name](/docs/collaborating-in-postman/user-groups/) for the people you want to share the element with.
 1. If you have an Editor role for the element you are sharing, you can give your new collaborators a **Viewer** or **Editor** [role](/docs/collaborating-in-postman/roles-and-permissions/) on the element. If you have a Viewer role for the element, you can share it, but you won't be able to assign roles.
-1. If you're sharing a collection, folder, or request, you can optionally select an environment to be the active environment. This will be the active environment for the people you want to share with. Select the **Select an Environment** dropdown list and choose the environment.
+1. If you're sharing a collection, folder, or request, you can optionally select an environment to be the active environment. This will be the active environment for the team members and groups you want to share with. Select the **Select an Environment** dropdown list and choose the environment.
 
-    > To change the environment that's active for people you want to share with, you must re-share the collection, folder, or request with them. Choose a new environment in the **Select an Environment** dropdown list, then select **Share**.
+    > To change the environment that's active for the team members and groups you want to share with, you must re-share the collection, folder, or request with them. Choose a new environment in the **Select an Environment** dropdown list, then select **Share**.
 
 1. Select **Share**.
 
