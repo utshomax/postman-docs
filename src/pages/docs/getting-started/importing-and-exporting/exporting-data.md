@@ -25,7 +25,7 @@ You can export your Postman data, including collections, environments, global va
 
    <img alt="Export collection" src="https://assets.postman.com/postman-docs/export-collection-v9.1.jpg" width="350px" />
 
-1. Select the format you'd like your collection to export as.
+1. Select the export format for your collection.
 
    > Learn more about Postman's [collection format](https://learning.postman.com/collection-format/getting-started/overview/).
 
