@@ -863,8 +863,12 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/',
           },
           {
-            name: 'Evaluating an API definition file',
+            name: 'Checking your API Health',
             url: '/docs/designing-and-developing-your-api/developing-an-api/testing-api-design-quality/',
+          },
+          {
+            name: 'OpenAPI rules for API Health',
+            url: '/docs/designing-and-developing-your-api/developing-an-api/openapi-design-quality-rules/',
           },
         ],
       },
