@@ -36,7 +36,7 @@ To view documentation for a collection, do the following:
 
     > You can also search for collections on the [Public API Network](https://www.postman.com/explore/collections).
 
-1. In the **Overview** tab, select **View complete collection documentation**.
+1. In the **Overview** tab, select **View complete documentation**.
 
 <img alt="View complete documentation" src="https://assets.postman.com/postman-docs/v10/documentation-view-complete-v10-16.jpg" />
 
