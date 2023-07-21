@@ -1,6 +1,6 @@
 ---
 title: "Viewing documentation"
-updated: 2023-01-05
+updated: 2023-07-21
 contextual_links:
   - type: section
     name: "Additional resources"
