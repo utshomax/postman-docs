@@ -446,11 +446,11 @@ export const leftNavItems = [
         slug: '/docs/collections/live-collections/live-collections-overview/',
         subMenuItems2: [
           {
-            name: 'Live Collection overview',
+            name: 'Live Collections overview',
             url: '/docs/collections/live-collections/live-collections-overview/',
           },
           {
-            name: 'Live Collection setup',
+            name: 'Live Collections setup',
             url: '/docs/collections/live-collections/live-collections-setup/',
           },
           {
@@ -458,7 +458,7 @@ export const leftNavItems = [
             url: '/docs/collections/live-collections/update-live-collections/',
           },
           {
-            name: 'Live Collection settings',
+            name: 'Live Collections settings',
             url: '/docs/collections/live-collections/live-collections-settings/',
           },
         ],
@@ -562,8 +562,8 @@ export const leftNavItems = [
             url: '/docs/postman-flows/tutorials/webhooks/',
           },
           {
-            name: 'Creating charts, tables, and output',
-            url: '/docs/postman-flows/tutorials/creating-charts-tables-and-output/',
+            name: 'Visualizing data',
+            url: '/docs/postman-flows/tutorials/visualizing-data/',
           },
           {
             name: 'Getting data from an array',
