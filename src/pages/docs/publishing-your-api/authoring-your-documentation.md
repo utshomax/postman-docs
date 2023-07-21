@@ -1,6 +1,6 @@
 ---
 title: "Writing your docs"
-updated: 2023-05-15
+updated: 2023-07-21
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -59,7 +59,7 @@ To add a description to a request, do the following:
 
 1. Select **Collections** in the sidebar, and then select a request.
 1. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the right sidebar.
-1. Enter a description in the right sidebar.  You can write your description using the visual [Postman editor](#writing-descriptions-in-the-postman-editor) or the classic [Markdown editor](#writing-descriptions-in-markdown). Both are compatible, so feel free to switch between the two editors as you work.
+1. Enter a description in the right sidebar. You can write your description using the visual [Postman editor](#writing-descriptions-in-the-postman-editor) or the classic [Markdown editor](#writing-descriptions-in-markdown). Both are compatible, so feel free to switch between the two editors as you work.
 
     <img alt="Switching editors" src="https://assets.postman.com/postman-docs/v10/documentation-switch-editor-icon-v10-16.jpg">
 
@@ -112,7 +112,7 @@ You can choose the default editor you want to use for editing documentation desc
 
 Add descriptions to parameters and headers to help others understand and use the requests in your collection. Open a request and enter the description in the box next to the key-value pair.
 
-![Parameter descriptions](https://assets.postman.com/postman-docs/documentation-parameter-descriptions.jpg)
+![Parameter descriptions](https://assets.postman.com/postman-docs/v10/documentation-parameter-descriptions-v10-16.jpg)
 
 The parameter and header descriptions are visible to people who have access to your collection or anyone viewing your [published documentation](/docs/publishing-your-api/publishing-your-docs/). The descriptions appear in the documentation along with the request, next to the parameter or header name.
 
@@ -124,7 +124,7 @@ Your documentation automatically includes the type of authorization required to 
 
 If you [specify authorization details](/docs/sending-requests/authorization/specifying-authorization-details/) for the collection, those authorization requirements are inherited by every request in the collection. If one of your endpoints requires a different authorization type, open the request and [change the authorization details](/docs/sending-requests/authorization/specifying-authorization-details/#inheriting-authorization). The changes are reflected in your documentation.
 
-<img alt="Authorization type in documentation" src="https://assets.postman.com/postman-docs/documentation-authorization-v8-10.jpg" width="569px">
+<img alt="Authorization type in documentation" src="https://assets.postman.com/postman-docs/v10/documentation-authorization-v10-16.jpg" width="600px">
 
 ## Including examples
 
@@ -132,7 +132,7 @@ Examples are paired requests and responses that show your endpoints in action. A
 
 > Examples are displayed when you [view the complete documentation](/docs/publishing-your-api/viewing-documentation/#viewing-documentation-for-a-collection) for a collection or when you [view published documentation](/docs/publishing-your-api/viewing-documentation/#viewing-public-documentation).
 
-<img alt="Examples in documentation" src="https://assets.postman.com/postman-docs/documentation-including-examples-v9.jpg" width="663px">
+<img alt="Examples in documentation" src="https://assets.postman.com/postman-docs/v10/documentation-including-examples-v10-16.jpg" width="708px">
 
 ## Adding links
 
@@ -140,7 +140,7 @@ Use links to direct users to your repository, web site, or other online resource
 
 * To add a link using the Postman editor, select the **Link** tool. Paste or enter the URL and the link text, and then select **Add**. (If you need to change the link later, select it and then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.)
 
-    <img alt="Adding a link" src="https://assets.postman.com/postman-docs/documentation-link-tool-v9-1.jpg" width="560px">
+    <img alt="Adding a link" src="https://assets.postman.com/postman-docs/v10/documentation-link-tool-v10-16.jpg" width="600px">
 
 * To add a link using the Markdown editor, use the following syntax:
 
@@ -158,7 +158,7 @@ To upload an image using the Postman editor, select the **Image** tool and selec
 
 > You can also upload an image by copying and pasting an image into the Postman editor, or by dragging an image file into the Postman editor.
 
-<img alt="Uploading an image" src="https://assets.postman.com/postman-docs/documentation-upload-image-v9-23.jpg" width="542px">
+<img alt="Uploading an image" src="https://assets.postman.com/postman-docs/v10/documentation-upload-image-v10-16.jpg" width="600px">
 
 ### Embedding an image
 
@@ -166,7 +166,7 @@ Your image must be hosted online (for example, on a website) before you can embe
 
 * To embed an image using the Postman editor, select the **Image** tool and select **Embed URL**. Paste or enter the URL of the image, and then select **Embed**.
 
-    <img alt="Embedding an image" src="https://assets.postman.com/postman-docs/documentation-embed-image-v9-23.jpg" width="542px">
+    <img alt="Embedding an image" src="https://assets.postman.com/postman-docs/v10/documentation-embed-image-v10-16.jpg" width="600px">
 
 * To embed an image using the Markdown editor, use the following syntax:
 
@@ -202,7 +202,7 @@ You can embed videos hosted on YouTube or Vimeo in your documentation. Your docu
 
 * To embed a video using the Postman editor, select the **Video** tool. Paste or enter the URL of the video, and then select **Embed**.
 
-    <img alt="Embedding a video" src="https://assets.postman.com/postman-docs/v10/documentation-embed-video-10-14.jpg" width="542px">
+    <img alt="Embedding a video" src="https://assets.postman.com/postman-docs/v10/documentation-embed-video-10-16.jpg" width="600px">
 
 * To embed a video using the Markdown editor, use the following syntax:
 
@@ -226,15 +226,15 @@ You can change a video after uploading or embedding it:
 
 **Need some help using Markdown?** Check out the Postman [Markdown demo collection](https://documenter.postman.com/view/4630964/S1LsXVJy) to learn how Markdown is formatted in published documentation. Select the **Run in Postman** button to add the demo collection to your workspace and view the Markdown code.
 
-![Markdown demo collection](https://assets.postman.com/postman-docs/documentation-markdown-demo-v8-10.jpg)
+![Markdown demo collection](https://assets.postman.com/postman-docs/v10/documentation-markdown-demo-v10-16.jpg)
 
 **Looking for some documentation inspiration?** Browse through the Public API Network to find examples of great documentation created in Postman.
 
 1. Open the [Public API Network](https://www.postman.com/explore) page or select **Explore** in the Postman header.
-1. Select **Teams**, **Workspaces**, **APIs**, or **Collections** in the left pane.
+1. Select **Collections** or **Workspaces** in the left pane.
 
-    ![Public API Network page](https://assets.postman.com/postman-docs/documentation-explore-docs-v8-10.jpg)
+    ![Public API Network page](https://assets.postman.com/postman-docs/v10/documentation-explore-docs-v10-16.jpg)
 
-1. Select a team, workspace, API, or collection to access documentation written by others who are part of the Public API Network.
+1. Select a collection or workspace to access documentation written by others who are part of the Public API Network.
 
-    ![Documentation example](https://assets.postman.com/postman-docs/documentation-docs-example-v8-10.jpg)
+    ![Documentation example](https://assets.postman.com/postman-docs/v10/documentation-docs-example-v10-16.jpg)

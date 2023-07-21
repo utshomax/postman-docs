@@ -1,6 +1,6 @@
 ---
 title: "Generating API documentation"
-updated: 2023-07-19
+updated: 2023-07-21
 contextual_links:
   - type: section
     name: "Additional resources"
