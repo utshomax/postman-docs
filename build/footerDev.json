@@ -322,47 +322,6 @@
                   "arialabel": "Visit our YouTube Channel"
               }
           ]
-      },
-      {
-          "items": [
-              {
-                  "title": "Postman Galaxy",
-                  "url": "/postman-galaxy/",
-                  "category": "global-footer",
-                  "label": "postman-galaxy"
-              },
-              {
-                  "title": "Privacy",
-                  "url": "/legal/privacy-policy/",
-                  "category": "global-footer",
-                  "label": "privacy"
-              },
-              {
-                  "title": "Terms",
-                  "url": "/legal/terms/",
-                  "category": "global-footer",
-                  "label": "terms"
-              },
-              {
-                  "title": "Careers",
-                  "url": "/company/careers/",
-                  "category": "global-footer",
-                  "label": "careers"
-              },
-              {
-                  "title": "Support",
-                  "url": "https://support.postman.com/hc/en-us",
-                  "category": "global-footer",
-                  "label": "support"
-              },
-              {
-                  "title": "Trust Center",
-                  "url": "/trust/",
-                  "category": "global-footer",
-                  "label": "trust-center"
-              }
-          ],
-          "title": "© 2023 Postman, Inc. All rights reserved."
       }
   ],
   "copy": "© 2023 Postman, Inc. All rights reserved."

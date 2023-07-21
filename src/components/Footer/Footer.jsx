@@ -304,10 +304,10 @@ const Footer = () => {
                                       triggerGA(link.category, link.label);
                                     }}
                                   >
-                                    <div style={{ display: "inline-block", 'align-items': "center" }}>
+                                    <div style={{ display: "inline-block", alignItems: "center" }}>
                                       <img 
                                         src={link.icon} 
-                                        style={{height: "16px", width: "16px", 'margin-right': "1rem", "margin-bottom": "0" }}
+                                        style={{height: "16px", width: "16px", marginRight: "1rem", marginBottom: "0" }}
                                         fetchpriority="low"
                                         loading="lazy" 
                                         />
