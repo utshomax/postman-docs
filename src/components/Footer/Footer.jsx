@@ -305,7 +305,12 @@ const Footer = () => {
                                     }}
                                   >
                                     <div style={{ display: "inline-block", 'align-items': "center" }}>
-                                      <img src={link.icon} style={{height: "16px", width: "16px", 'margin-right': "1rem", "margin-bottom": "0" }}/>
+                                      <img 
+                                        src={link.icon} 
+                                        style={{height: "16px", width: "16px", 'margin-right': "1rem", "margin-bottom": "0" }}
+                                        fetchpriority="low"
+                                        loading="lazy" 
+                                        />
                                        {link.span ? (
                                           <span>{link.title}</span>
                                       ) : (
