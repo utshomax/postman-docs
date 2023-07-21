@@ -92,7 +92,7 @@ To convert your collection's format from v1 to v2, do the following:
 
 The resulting collection will download to your target file path in v2 format.
 
-You can retrieve a list of convert options by running the command with the ``-h`` flag:
+You can retrieve a list of convert options by running the command with the `-h` flag:
 
    ```bash
    postman-collection-transformer convert -h
