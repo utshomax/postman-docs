@@ -862,13 +862,20 @@ export const leftNavItems = [
             name: 'Validating an API',
             url: '/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/',
           },
+        ],
+      },
+      {
+        name: 'API Design Health',
+        subParentSlug: 'api-design-health',
+        slug: '/docs/designing-and-developing-your-api/api-design-health/checking-api-design-health/',
+        subMenuItems2: [
           {
-            name: 'Checking your API Health',
-            url: '/docs/designing-and-developing-your-api/developing-an-api/testing-api-design-quality/',
+            name: 'Checking your API design health',
+            url: '/docs/designing-and-developing-your-api/api-design-health/checking-api-design-health/',
           },
           {
-            name: 'OpenAPI rules for API Health',
-            url: '/docs/designing-and-developing-your-api/developing-an-api/openapi-design-quality-rules/',
+            name: 'API Design Health style guide',
+            url: '/docs/designing-and-developing-your-api/api-design-health/api-design-health-style-guide/',
           },
         ],
       },

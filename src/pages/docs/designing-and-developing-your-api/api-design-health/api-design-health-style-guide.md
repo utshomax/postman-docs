@@ -1,11 +1,11 @@
 ---
-title: "OpenAPI rules for API Health"
+title: "API Design Health style guide"
 updated: 2023-08-15
 ---
 
 You can use Postman to identify security and formatting recommendations in your API definition file.
 
-## A 204 response can't have a body
+## Expected a 204 response to not have a body
 
 | Issue description | Possible fix | Format |
 | ----------- | ----------- | ----------- |
@@ -28,7 +28,7 @@ paths:
 
 &nbsp;
 
-## Operation should return a 2xx HTTP status code
+## Operation is missing a 2xx HTTP status code
 
 | Issue description | Possible fix | Format |
 | ----------- | ----------- | ----------- |
@@ -51,7 +51,7 @@ paths:
 
 &nbsp;
 
-## Operation should return a 5xx HTTP status code
+## Operation is missing a 5xx HTTP status code
 
 | Issue description | Possible fix | Format |
 | ----------- | ----------- | ----------- |
@@ -74,7 +74,7 @@ paths:
 
 &nbsp;
 
-## PATCH methods should have request bodies
+## PATCH methods is missing request bodies
 
 | Issue description | Possible fix | Format |
 | ----------- | ----------- | ----------- |

@@ -1,27 +1,27 @@
 ---
-title: "Checking your API Health"
+title: "Checking your API design health"
 updated: 2023-08-15
 ---
 
-> [**API Health is available on Postman Free, Basic, and Professional plans.**](https://www.postman.com/pricing)
+> [**API Design Health is available on Postman Free, Basic, and Professional plans.**](https://www.postman.com/pricing)
 
-You can check your API health by evaluating the design quality of your [API definitions](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/) in Postman. The Postman API health feature identifies potential security risks your API might be vulnerable to, or potential design issues that might impact its usability.
+You can check your API design health by evaluating the design quality of your [API definitions](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/) in Postman. API Design Health identifies potential security risks your API might be vulnerable to, or potential design issues that might impact its usability.
 
-Postman returns a design quality score based on these findings, and recommends possible fixes or improvements to your API definition file. You can also compare your API's design quality score with industry standard APIs, such as Stripe and WhatsApp. With this feature, you can create better and more secure APIs that follow industry best practices.
+API Design Health returns a design quality score based on these findings, and recommends possible fixes or improvements to your API definition file. You can also compare your API's design quality score with popular APIs, such as Stripe and WhatsApp. With this feature, you can create better and more secure APIs that follow industry best practices.
 
 ## Contents
 
-* [About API health](#about-api-health)
+* [About API Design Health](#about-api-design-health)
 * [Evaluating your API definition](#evaluating-your-api-definition)
 * [Reviewing and fixing rule violations](#reviewing-and-fixing-rule-violations)
 * [Exporting your updated API definition](#exporting-your-updated-api-definition)
 * [Comparing your API](#comparing-your-api)
 
-## About API health
+## About API Design Health
 
-Strong API health means your API design is secure and follows industry best practices. The *Postman API Health* feature evaluates your API definition using Postman API Health rules, and returns each occurrence of each rule violation, giving you the option to automatically fix each rule violation. You can use these rules as a guideline to help you identify potential security risks your API might be vulnerable to, or potential design issues that might impact its usability.
+Strong API design health means your API design is secure and follows industry best practices. API Design Health evaluates your API definition using the [API Design Health style guide](/docs/designing-and-developing-your-api/api-design-health/api-design-health-style-guide/), and returns each occurrence of each style guide violation, giving you the option to automatically fix each violation. You can use this style guide as a guideline to help you identify potential security risks your API might be vulnerable to, or potential design issues that might impact its usability.
 
-Postman provides a design quality score based on the rule violations it finds. Postman assigns an impact to each rule violation and the number of times each rule violation occurs. This impact is presented in the form of a percentage. A perfect API design quality score is 100%, but the ideal design quality score for your API may vary. Postman recommends often checking your API's health during the development process.
+API Design Health provides an API design quality score based on the style guide violations it finds. It assigns an impact to each violation and the number of times each violation occurs. This impact is presented in the form of a percentage. A perfect API design quality score is 100%, but the ideal API design quality score for your API may vary. Postman recommends often checking your API's design health during the development process to ensure your API design is secure and well-designed.
 
 ## Evaluating your API definition
 
