@@ -81,7 +81,7 @@ const ContextualLinks = ({ links }) => (
           );
         }
         if (item.type === 'dynamic_blog' && item.blog_tag) {
-          if (Object.keys(recentBlogPosts).length === 0) {
+          if (Object.keys(recentBlogPosts).length === 0 && process.env.NODE_ENV === "development") {
             // If recentBlogPosts.length === 0, then either there is no .env.development,
             // it has a bad blog url, or the endpoint returned something bad
             return (
