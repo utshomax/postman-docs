@@ -34,7 +34,7 @@ Create a flow that gets website traffic and sales volume from a server, then dis
 
 Begin by forking (copying) the [stocks collection](https://www.postman.com/postman/workspace/utility-flows/collection/23919558-b45b34a3-8289-42f2-98e5-df043c863ea1?action=share&creator=21580188) and the [stocks-tutorial environment](https://www.postman.com/postman/workspace/utility-flows/environment/21580188-07226525-53d7-40ca-b9d3-6cac35c39306) from the [Utility Flows](https://www.postman.com/postman/workspace/utility-flows/overview) workspace to your workspace. In your fork of the stocks-tutorial environment, replace `<your-api-key>` with your Polygon API key and select **Save**.
 
-<img alt="Fork the collection and environment" src="https://assets.postman.com/postman-docs/v10/flows-tut-db-start-v10.gif"/>
+<img alt="Fork the collection and environment" src="https://assets.postman.com/postman-docs/v10/flows-tut-dash-start-v10.gif"/>
 
 Create a new flow and connect three **Send Request** blocks to the **Start** block.
 
@@ -50,7 +50,7 @@ Add a **String** block to assign the `VOO` market index to the `ticker` variable
 
 Connect an **Evaluate** block to the first **Send Request** block. Change `value` to `benchmark`. Select **Enter path...** and select `body`. Select **Start writing an FQL query...** and enter `((benchmark.close - benchmark.open) / benchmark.open) * 100`. This will get a percentage of the difference between the VOO index's open and close price.
 
-<img alt="Add an Evaluate block" src="https://assets.postman.com/postman-docs/v10/flows-tut-db-eval-benchmark-v10.gif"/>
+<img alt="Add an Evaluate block" src="https://assets.postman.com/postman-docs/v10/flows-tut-eval-benchmark-v10.gif"/>
 
 Connect another **Evaluate** block to the previous **Evaluate** block. In the new block, select **Start writing an FQL query..."** and enter `value2 > value1`. You'll add `value2` in a later step.
 
