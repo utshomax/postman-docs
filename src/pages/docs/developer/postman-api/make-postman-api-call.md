@@ -34,17 +34,17 @@ contextual_links:
     url:  "https://www.postman.com/postman/workspace/postman-public-workspace/api/72a32ca3-f06a-4e83-a933-2821a0e6616f/definition/d429098b-1789-4c62-b77b-cf02024aba53?view=documentation"
 ---
 
-The Postman API enables you to programmatically access data stored in your Postman account. You can use the API to perform actions such as managing your collections, APIs, workspaces, and more.
+The Postman API lets you programmatically access data stored in your Postman account. You can use the API to perform actions such as managing your collections, APIs, workspaces, and more.
 
 > The access rate limits for your Postman API key depend on your Postman plan. For more information, see [Postman API rate limits](/docs/developer/postman-api/postman-api-rate-limits/).
 
-This page shows you how to make your first Postman API call. You can also learn more about the Postman API by reading the [Postman API documentation](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a). There you will find information to help you get started and information about each endpoint and operation.
+This tutorial shows you how to make your first call to the Postman API. You can also learn more about the Postman API by reading the [Postman API documentation](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a). There you will find information to help you get started and information about each endpoint and operation.
 
 ## Contents
 
 - [Get your API key](#get-your-api-key)
 - [Store your API key as an environment variable](#store-your-api-key-as-an-environment-variable)
-- [Making your first request](#making-your-first-request)
+- [Make your first request](#make-your-first-request)
 
 ## Get your API key
 
@@ -59,7 +59,7 @@ For best security practices, make sure that you:
 - Store your API key as a [**Secret type** variable](/docs/sending-requests/variables/#variable-types).
 - Store your API key as a [**Current value**](/docs/sending-requests/variables/#specifying-variable-detail) so you don’t share it with other team members.
 
-## Making your first request
+## Make your first request
 
 For your first request, use the `/me` endpoint. This is a basic GET endpoint that does not change any data. It returns information about the user that owns the API key that is being used to authenticate the call.
 
