@@ -34,7 +34,7 @@ contextual_links:
     url:  "https://www.postman.com/postman/workspace/postman-public-workspace/api/72a32ca3-f06a-4e83-a933-2821a0e6616f/definition/d429098b-1789-4c62-b77b-cf02024aba53?view=documentation"
 ---
 
-The Postman API lets you programmatically access data stored in your Postman account. You can use the API to perform actions such as managing your collections, APIs, workspaces, and more.
+The Postman API enables you to programmatically access data stored in your Postman account. You can use the API to perform actions such as managing your collections, APIs, workspaces, and more.
 
 > The access rate limits for your Postman API key depend on your Postman plan. For more information, see [Postman API rate limits](/docs/developer/postman-api/postman-api-rate-limits/).
 
