@@ -35,11 +35,11 @@ Importing from New Relic requires you to get your API key (User key) from New Re
 
 1. Sign in to [New Relic](https://login.newrelic.com).
 1. Select your avatar, then select **API Keys**.
-1. Select the three dots next to the **USER** key and then select **Copy**.
+1. Select the three dots next to the **USER** key and select **Copy**.
 
-<img alt="Get a New Relic Ingest key" src="https://assets.postman.com/postman-docs/new-relic-get-ingest-key-v9-6.jpg" width="1109px">
+<img alt="Get a New Relic Ingest key" src="https://assets.postman.com/postman-docs/v10/new-relic-user-key.jpg">
 
-> There are different types of API keys in New Relic. Make sure to use a **User** key for importing into Postman. For more information on API Keys in New Relic, see the [New Relic API keys documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
+> There are different types of API keys in New Relic. Make sure to use a **User** key for importing into Postman. To learn more about API Keys in New Relic, see the [New Relic API keys documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
 
 ## Importing New Relic data
 
@@ -52,5 +52,9 @@ Importing from New Relic requires you to get your API key (User key) from New Re
 1. (Optional) Select **Show Import Settings** to configure how collections are generated from the New Relic data.
 1. When you're ready, select **Import**.
 
-Each service you selected is imported as a collection in Postman, and a message displays in the footer. In the message, select the link icon
+<img alt="Get a New Relic Ingest key" src="https://assets.postman.com/postman-docs/v10/new-relic-import-v10-17.jpg" width="650px">
+
+Each service you selected is imported as a collection in Postman, and an **Import Complete** message displays in the footer. In the message, select the link icon
 <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-external-link.jpg#icon" width="18px"> next to a collection to open the imported collection.
+
+<img alt="Get a New Relic Ingest key" src="https://assets.postman.com/postman-docs/v10/new-relic-import-success-v10-17.jpg" width="583px">
