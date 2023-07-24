@@ -34,7 +34,7 @@ Create a flow that gets a list of customer profiles from [Stripe](http://www.str
 
 ## Creating the flow
 
-The first step is to fork (copy) the collections and the environment the flow will use, then add your api keys to the environment. You could create these requests, collections, and environment yourself, but using existing ones will save time. From the [Integration Flows public workspace](https://www.postman.com/postman/workspace/integration-flows), fork the **Brevo API** collection, the **Stripe API** collection, and the **Stripe + Breva** environment to your workspace.
+The first step is to fork (copy) the collections and the environment the flow will use, then add your api keys to the environment. You could create these requests, collections, and environment yourself, but using existing ones will save time. From the [Integration Flows public workspace](https://www.postman.com/postman/workspace/integration-flows), fork the `Brevo API` collection, the `Stripe API` collection, and the **Stripe + Breva** environment to your workspace.
 
 > Creating requests is beyond the scope of this tutorial, but you can learn more about creating requests [here](/docs/getting-started/sending-the-first-request/).
 
