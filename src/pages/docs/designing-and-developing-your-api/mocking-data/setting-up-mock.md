@@ -159,7 +159,7 @@ https://4bb57fc2-219e-421e-86b4-4ffda6bf1b3b.mock.pstmn.io/matches
 
 The mock URL includes the mock server's ID and the path for the request you want to mock. Select **Send** to send the request to the mock server.
 
-<img alt="Sending a mock request" src="https://assets.postman.com/postman-docs/v10/mock-server-send-request-v10.jpg" />
+<img alt="Sending a mock request" src="https://assets.postman.com/postman-docs/v10/mock-server-send-request-v10-2.jpg" />
 
 When you send a request to the mock server, the mock server sends back a response based on an example with the same path and method. [You can provide multiple examples](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/), and Postman will return the one that [best matches your request](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/).
 

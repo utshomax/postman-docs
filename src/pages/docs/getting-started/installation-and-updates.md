@@ -176,7 +176,7 @@ Alternatively, if you don't want to sign in to your Postman account, you can bul
 
 ![Import Export Data](https://assets.postman.com/postman-docs/v10/export-data-v10-16b.jpg)
 
-> Note that importing will overwrite your existing data. For more on bulk import, see [Importing Postman data](/docs/getting-started/importing-and-exporting-data/).
+> Note that importing will overwrite your existing data. For more on bulk import, see [Importing Postman data](/docs/getting-started/importing-and-exporting/importing-data/).
 
 ## Using Postman behind a firewall
 

@@ -135,7 +135,7 @@ When you leave a team, you can also choose to keep your personal workspaces and 
 
 <img src="https://assets.postman.com/postman-docs/v10/leave-team-keep-personal-data-confirmation-v10.jpg" alt="Leave team and keep personal data" width="500px"/>
 
-If you're the last member to leave a team, the team will be deleted. You will no longer have access to the team's workspaces, including personal workspaces, or any elements in them. [Export your Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) prior to leaving the team to ensure it stays with you.
+If you're the last member to leave a team, the team will be deleted. You will no longer have access to the team's workspaces, including personal workspaces, or any elements in them. [Export your Postman data](/docs/getting-started/importing-and-exporting/exporting-data/) prior to leaving the team to ensure it stays with you.
 
 ## Team usage limits
 
