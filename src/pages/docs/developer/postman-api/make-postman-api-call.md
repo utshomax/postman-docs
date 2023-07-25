@@ -69,7 +69,7 @@ Before you call the `/me` endpoint, fork the [Postman API collection](https://ww
 
 1. In the Postman API collection you can find the **Fork** option in the overview tab. Select <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> **Fork**. You can also select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection's name, then **Create a fork**.
 
-2. Enter a label for your forked collection in the **Fork label** text box. You’ll also need to select the workspace in which to create the forked collection in the **Workspace** text box.
+2. Enter a label for your forked collection in the **Fork label** box. You’ll also need to select the workspace in which to create the forked collection in the **Workspace** box.
 
     <img src="https://assets.postman.com/postman-docs/v10/postman-api-fork-collection.jpg" alt="Fork the Postman API collection" width="400px"/>
 
