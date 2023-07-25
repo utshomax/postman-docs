@@ -874,9 +874,17 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/api-design-health/checking-api-design-health/',
           },
           {
-            name: 'API Design Health style guide',
-            url: '/docs/designing-and-developing-your-api/api-design-health/api-design-health-style-guide/',
+            name: 'OpenAPI 3.1 style guide for API Design Health',
+            url: '/docs/designing-and-developing-your-api/api-design-health/openapi-31-style-guide/',
           },
+          // {
+          //   name: 'OpenAPI 3.0 style guide for API Design Health',
+          //   url: '/docs/designing-and-developing-your-api/api-design-health/openapi-3-style-guide/',
+          // },
+          // {
+          //   name: 'OpenAPI 2.0 style guide for API Design Health',
+          //   url: '/docs/designing-and-developing-your-api/api-design-health/openapi-2-style-guide/',
+          // },
         ],
       },
       {
