@@ -115,7 +115,26 @@ export const leftNavItems = [
       },
       {
         name: 'Importing and exporting data',
-        url: '/docs/getting-started/importing-and-exporting-data/',
+        subParentSlug: 'importing-and-exporting',
+        slug: '/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/',
+        subMenuItems2: [
+          {
+            name: 'Importing and exporting overview',
+            url: '/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/',
+          },
+          {
+            name: 'Importing data into Postman',
+            url: '/docs/getting-started/importing-and-exporting/importing-data/',
+          },
+          {
+            name: 'Importing data from a Git repository',
+            url: '/docs/getting-started/importing-and-exporting/importing-from-git/',
+          },
+          {
+            name: 'Exporting data from Postman',
+            url: '/docs/getting-started/importing-and-exporting/exporting-data/',
+          },
+        ],
       },
       {
         name: 'Using a custom proxy',
@@ -1360,6 +1379,10 @@ export const leftNavItems = [
           {
             name: 'Postman API rate limits',
             url: '/docs/developer/postman-api/postman-api-rate-limits/'
+          },
+          {
+            name: 'Make a call with the Postman API',
+            url: '/docs/developer/postman-api/make-postman-api-call/'
           }
         ]
       },

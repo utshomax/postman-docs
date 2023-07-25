@@ -35,7 +35,7 @@ $ npm install -g newman
 
 The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system.
 
-> You can [export a collection](/docs/getting-started/importing-and-exporting-data/#exporting-collections) to share as a file.
+> You can [export a collection](/docs/getting-started/importing-and-exporting/exporting-data/#exporting-collections) to share as a file.
 
 ```bash
 $ newman run mycollection.json
