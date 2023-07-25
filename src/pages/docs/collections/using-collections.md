@@ -67,10 +67,7 @@ There are several ways to create a new collection:
 To customize and configure a new collection, do the following:
 
 1. Select the collection name to give your new collection a name.
-1. You can optionally specify a [description](/docs/publishing-your-api/authoring-your-documentation/) for your collection. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px">, then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to write your description. This description will appear in its documentation and in the workspace when anyone opens it.
-
-    > You can also select **Overview** to specify and view the description for your collection.
-
+1. You can optionally enter a [description](/docs/publishing-your-api/authoring-your-documentation/) for your collection in the **Overview**tab. This description will appear in its documentation and in the workspace when anyone opens it.
 1. Select **Authorization** to configure authorization details for the collection.
 1. Select **Pre-request Script** to define a [pre-request script](/docs/writing-scripts/pre-request-scripts/) for your collection, which will run before requests are sent to the server.
 1. Select **Tests** to define a [test script](/docs/writing-scripts/test-scripts/) for your collection, which will run after a response is received.
@@ -168,9 +165,9 @@ You can also select the collection and press **Delete** on your keyboard.
 
 Recovery options depend on your Postman plan:
 
-* Free account: Recover collections for up to one day.
-* Postman Basic: Recover collections for up to 30 days.
-* Postman Professional and Enterprise: Recover collections for up to 90 days.
+* Postman Basic: Recover collections for up to one day.
+* Postman Professional: Recover collections for up to 30 days.
+* Postman Enterprise Essentials and Ultimate: Recover collections for up to 90 days.
 
 > If a collection that you expected to be in the Trash isn't there, it may have been removed from a workspace rather than deleted. If the collection appears in another workspace, you can move it by selecting **Share**.
 
@@ -281,7 +278,7 @@ From the right sidebar:
 Collections can power various parts of your API development, testing, and publishing workflows.
 
 * Select **Run** to access the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/), which allows you to run all requests in a collection and build testing workflows into your runs.
-* Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> to generate [API documentation](/docs/publishing-your-api/documenting-your-api/) from a collection.
+* Select **View complete documentation** in the collection's **Overview** tab to generate [API documentation](/docs/publishing-your-api/documenting-your-api/) from a collection.
 * Attaching a [monitor](/docs/monitoring-your-api/intro-monitors/) to a collection lets you schedule collection runs. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, and then select **Monitor collection**.
 * You can use [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) to return sample data during testing and development. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, and then select **Mock collection**.
 * Generate collections from API specifications using the [Postman API Builder](/docs/designing-and-developing-your-api/the-api-workflow/).
