@@ -168,9 +168,9 @@ You can also select the collection and press **Delete** on your keyboard.
 
 Recovery options depend on your Postman plan:
 
-* Free account: Recover collections for up to one day.
-* Postman Basic: Recover collections for up to 30 days.
-* Postman Professional and Enterprise: Recover collections for up to 90 days.
+* Postman Basic: Recover collections for up to one day.
+* Postman Professional: Recover collections for up to 30 days.
+* Postman Enterprise Essentials and Ultimate: Recover collections for up to 90 days.
 
 > If a collection that you expected to be in the Trash isn't there, it may have been removed from a workspace rather than deleted. If the collection appears in another workspace, you can move it by selecting **Share**.
 
