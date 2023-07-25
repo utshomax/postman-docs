@@ -34,15 +34,15 @@ Create a flow that quantifies a stock's performance by comparing it to a market 
 
 Begin by forking (copying) the [stocks collection](https://www.postman.com/postman/workspace/utility-flows/collection/23919558-b45b34a3-8289-42f2-98e5-df043c863ea1?action=share&creator=21580188) and the [stocks-tutorial environment](https://www.postman.com/postman/workspace/utility-flows/environment/21580188-07226525-53d7-40ca-b9d3-6cac35c39306) from the [Utility Flows](https://www.postman.com/postman/workspace/utility-flows/overview) workspace to your workspace. In your fork of the stocks-tutorial environment, replace `<your-api-key>` with your Polygon API key and select **Save**.
 
-<img alt="Fork the collection and environment" src="https://assets.postman.com/postman-docs/v10/flows-tut-dash-start-v10-2.gif"/>
+<img alt="Fork the collection and environment" src="https://assets.postman.com/postman-docs/v10/flows-tut-dash-start-v10-3.gif"/>
 
 Create a new flow and connect three **Send Request** blocks to the **Start** block.
 
-<img alt="Add three Send Request blocks" src="https://assets.postman.com/postman-docs/v10/flows-tut-db-3sends-v10-2.gif"/>
+<img alt="Add three Send Request blocks" src="https://assets.postman.com/postman-docs/v10/flows-tut-db-3sends-v10-3.gif"/>
 
 In the first two **Send Request** blocks, select **Select a request > stocks > GET get the close price**. In the third **Send Request** block, select **Select a request > stocks > get stock SMA**. These requests are in the `stocks` collection you forked earlier. Select the `stocks-tutorial` environment in the first **Send Request** block; Flows will automatically select the same environment for the next two **Send Request** blocks since they are in the same collection.
 
-<img alt="Add requests" src="https://assets.postman.com/postman-docs/v10/flows-tut-db-add-requests-v10.gif"/>
+<img alt="Add requests" src="https://assets.postman.com/postman-docs/v10/flows-tut-db-add-requests-v10-1.gif"/>
 
 Add a **String** block to assign the `VOO` market index to the `ticker` variable in the first request. The flow will compare your stock's performance to this index to check if your stock is outperforming the market. Add another **String** block to assign `AAPL` to the `ticker` variables in the second and third **Send Request** blocks. You can replace `AAPL` with any stock symbol you want.
 
