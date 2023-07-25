@@ -12,7 +12,7 @@ All Flows are made up of **blocks** and **connections**. Blocks can create infor
 
 ### Blocks
 
-All blocks have either an input, an output or both. Inputs are on the right side of a block, and outputs are on the left. The [list of all blocks](/docs/postman-flows/reference/blocks-list/) has an explanation and example for every block in Flows.
+All blocks have either an input, an output or both. Inputs are on the left side of a block, and outputs are on the right. The [list of all blocks](/docs/postman-flows/reference/blocks-list/) has an explanation and example for every block in Flows.
 
 There are three ways to add a new block:
 
