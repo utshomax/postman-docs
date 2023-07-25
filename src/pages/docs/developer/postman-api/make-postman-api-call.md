@@ -48,7 +48,7 @@ This tutorial shows you how to make your first call to the Postman API. You can 
 
 ## Get your API key
 
-Before you can use the Postman API, you’ll need an API key. An API key is a way to identify who you are when you make a request to the Postman API endpoints. It also lets the system know what you can do with the Postman API. For more details, see the [Postman API key documentation](/docs/developer/postman-api/authentication/#generate-a-postman-api-key).
+Before you can use the Postman API, you’ll need an API key. An API key is a way to identify who you are when you make a request to the Postman API endpoints. It also lets the system know what you can do with the Postman API. For more details, see the [Generate a Postman API key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key).
 
 ## Store your API key as an environment variable
 
