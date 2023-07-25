@@ -23,11 +23,11 @@ Many people find dashboards useful for visualizing and simplifying large amounts
 
 ## Objective
 
-Create a flow that gets website traffic and sales volume from a server, then displays that information in a bar chart.
+Create a flow that quantifies a stock's performance by comparing it to a market index.
 
 ## Prerequisites
 
-* A Polygon account
+* A [Polygon](https://polygon.io/) account
 * A Polygon API key
 
 ## Creating the flow
