@@ -71,7 +71,7 @@ Due to iframe sandbox restrictions, JavaScript and images are turned off in the 
 
 The Visualize view renders the data in the API response according to visualization code that you add to the requests **Tests**. For details on how to add, use, and debug visualization code, see [Visualizing responses](/docs/sending-requests/visualizer/).
 
-[![Response Visualize view](https://assets.postman.com/postman-docs/response-visualize-view.jpg)](https://assets.postman.com/postman-docs/response-visualize-view.jpg)
+![Response Visualize view](https://assets.postman.com/postman-docs/v10/response-visualize-view-v10-2.jpg)
 
 ## Cookies
 
