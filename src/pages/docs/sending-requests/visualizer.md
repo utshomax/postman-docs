@@ -30,7 +30,7 @@ contextual_links:
 
 The _Postman Visualizer_ provides a programmable way to visually represent your request [responses](/docs/sending-requests/responses/). Visualization code added to the __Tests__ for a request will render in the __Visualize__ tab for the response body, alongside the Pretty, Raw, and Preview options.
 
-[![Visualizer rendering](https://assets.postman.com/postman-docs/visualizer-v8.jpg)](https://assets.postman.com/postman-docs/visualizer-v8.jpg)
+![Visualizer rendering](https://assets.postman.com/postman-docs/v10/visualizer-v10.jpg)
 
 The Visualizer enables you to present your response data in ways that help to make sense of it. You can use this to model and highlight the information that's relevant to your project, instead of having to read through raw response data. When you [share a Postman Collection](/docs/collaborating-in-postman/sharing/), other people on your team can also understand your visualizations within the context of each request.
 
@@ -118,7 +118,7 @@ The `template` variable is the template string created earlier. The second argum
 
 __Send__ the request in Postman and select the __Visualize__ tab. Postman renders the table as HTML, as it would be in a web browser.
 
-[![Visualizer table rendering](https://assets.postman.com/postman-docs/visualizer-table-v8.jpg)](https://assets.postman.com/postman-docs/visualizer-table-v8.jpg)
+![Visualizer table rendering](https://assets.postman.com/postman-docs/v10/visualizer-table-v10.jpg)
 
 ### Adding styling and interaction to visualizations
 
@@ -138,19 +138,19 @@ The `pm.getData(callback)` method takes a callback function as its parameter. Th
 
 ## Try it out
 
-For more examples of Visualizer code in action, add any of the following collections to your workspace by [forking the collection](/docs/collaborating-in-postman/using-version-control/forking-entities/). You can also [export and then import](/docs/getting-started/importing-and-exporting-data/) the collection. After you fork or import the collection, open a request from **Collections** in the sidebar, then select **Send**. Postman will display the rendered data in the **Visualize** tab.
+For more examples of Visualizer code in action, add any of the following collections to your workspace by [forking the collection](/docs/collaborating-in-postman/using-version-control/forking-entities/). You can also [export and then import](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/) the collection. After you fork or import the collection, open a request from **Collections** in the sidebar, then select **Send**. Postman will display the rendered data in the **Visualize** tab.
 
 * [DIY collection that renders a bar chart using ChartJS](https://www.postman.com/postman/workspace/postman-team-collections/collection/4946945-e5ae7007-0d34-46d4-9491-6f1526eb67ac?action=share&creator=16724969)
 
-    ![Bar Chart](https://assets.postman.com/postman-docs/visualizer-example-v8.jpg)
+    ![Bar Chart](https://assets.postman.com/postman-docs/v10/visualizer-example-v10.jpg)
 
 * [Heat map visualization](https://www.postman.com/postman/workspace/postman-team-collections/collection/4946945-db597015-0800-45ce-9824-02114848f47f?action=share&creator=16724969)
 
-    ![Heat Map](https://assets.postman.com/postman-docs/visualizer-temp-v8.jpg)
+    ![Heat Map](https://assets.postman.com/postman-docs/v10/visualizer-temp-v10.jpg)
 
 * [Various chart and graph examples](https://www.postman.com/postman/workspace/published-postman-templates/collection/223408-f16e1095-c2f7-415f-af26-6bbe3deb10ea?action=share&creator=16724969)
 
-    ![Map Visualizer](https://assets.postman.com/postman-docs/visualizer-map-v8.jpg)
+    ![Map Visualizer](https://assets.postman.com/postman-docs/v10/visualizer-map-v10.jpg)
 
 ## Visualizer API
 
@@ -166,7 +166,9 @@ Postman uses the information you pass to `pm.visualizer.set()` to render an HTML
 
 You can debug a visualization in Postman by right-clicking in the __Visualize__ area and choosing __Inspect visualization__. This will open the Visualizer Developer Tools attached to the sandbox. You can use it in the same way as debugging a web page.
 
-[![Debugging Visualizers in Postman](https://assets.postman.com/postman-docs/inspect-vis-v8.jpg)](https://assets.postman.com/postman-docs/inspect-vis-v8.jpg)
+> The Visualizer Developer Tools are only available in the [Postman desktop app](/docs/getting-started/installation-and-updates/).
+
+![Debugging Visualizers in Postman](https://assets.postman.com/postman-docs/v10/inspect-vis-v10.jpg)
 
 ## Next steps
 

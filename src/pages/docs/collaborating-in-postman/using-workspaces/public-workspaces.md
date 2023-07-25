@@ -138,7 +138,7 @@ You can share a public workspace by giving collaborators its **workspace URL** d
 To access a workspace's URL, do the following:
 
 1. Go to the workspace **Overview** page.
-1. Select the link icon next to the workspace name to copy the workspace's URL to your clipboard.
+1. Select the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> next to the workspace name to copy the workspace's URL to your clipboard.
 
 You can share this workspace URL with other users.
 

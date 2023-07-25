@@ -44,7 +44,7 @@ In this example, the **Send Request** block gets data using a collection's GET r
 
 1. Select **Send**.
 
-    ![Select Send](https://assets.postman.com/postman-docs/v10/flow-get-request-v10-2.jpg)
+    ![Select Send](https://assets.postman.com/postman-docs/v10/flow-get-request-v10-3.jpg)
 
 1. Select **Save**.
 

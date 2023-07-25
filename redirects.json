@@ -497,11 +497,15 @@
   },
   {
     "from": "/docs/postman/collaboration/adding-private-network/",
-    "to": "/docs/collaborating-in-postman/adding-private-network/"
+    "to": "/docs/collaborating-in-postman/private-api-network/adding-private-network/"
   },
   {
     "from": "/docs/postman/collaboration/adding_private_network/",
-    "to": "/docs/collaborating-in-postman/adding-private-network/"
+    "to": "/docs/collaborating-in-postman/private-api-network/adding-private-network/"
+  },
+  {
+    "from": "/docs/collaborating-in-postman/adding-private-network/",
+    "to": "/docs/collaborating-in-postman/private-api-network/adding-private-network/"
   },
   {
     "from": "/docs/postman/collaboration/audit-logs/",
@@ -665,11 +669,11 @@
   },
   {
     "from": "/docs/postman/collections/data-formats/",
-    "to": "/docs/getting-started/importing-and-exporting-data/"
+    "to": "/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/"
   },
   {
     "from": "/docs/postman/collections/data_formats/",
-    "to": "/docs/getting-started/importing-and-exporting-data/"
+    "to": "/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/"
   },
   {
     "from": "/docs/postman/collections/examples/",
@@ -677,11 +681,11 @@
   },
   {
     "from": "/docs/postman/collections/importing-and-exporting-data/",
-    "to": "/docs/getting-started/importing-and-exporting-data/"
+    "to": "/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/"
   },
   {
     "from": "/docs/postman/collections/importing_and_exporting_data/",
-    "to": "/docs/getting-started/importing-and-exporting-data/"
+    "to": "/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/"
   },
   {
     "from": "/docs/postman/collections/intro-to-collections/",
@@ -2188,8 +2192,16 @@
     "to": "/docs/reports/reports-overview/"
   },
   {
+    "from": "/docs/postman-flows/tutorials/creating-charts-tables-and-output/",
+    "to": "/docs/postman-flows/tutorials/visualizing-data/"
+  },
+  {
     "from": "/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/",
     "to": "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
+  },
+  {
+    "from": "/docs/getting-started/importing-and-exporting-data/",
+    "to": "/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/"
   }
 
 ]

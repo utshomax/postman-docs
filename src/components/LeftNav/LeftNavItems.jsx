@@ -115,7 +115,26 @@ export const leftNavItems = [
       },
       {
         name: 'Importing and exporting data',
-        url: '/docs/getting-started/importing-and-exporting-data/',
+        subParentSlug: 'importing-and-exporting',
+        slug: '/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/',
+        subMenuItems2: [
+          {
+            name: 'Importing and exporting overview',
+            url: '/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/',
+          },
+          {
+            name: 'Importing data into Postman',
+            url: '/docs/getting-started/importing-and-exporting/importing-data/',
+          },
+          {
+            name: 'Importing data from a Git repository',
+            url: '/docs/getting-started/importing-and-exporting/importing-from-git/',
+          },
+          {
+            name: 'Exporting data from Postman',
+            url: '/docs/getting-started/importing-and-exporting/exporting-data/',
+          },
+        ],
       },
       {
         name: 'Using a custom proxy',
@@ -446,11 +465,11 @@ export const leftNavItems = [
         slug: '/docs/collections/live-collections/live-collections-overview/',
         subMenuItems2: [
           {
-            name: 'Live Collection overview',
+            name: 'Live Collections overview',
             url: '/docs/collections/live-collections/live-collections-overview/',
           },
           {
-            name: 'Live Collection setup',
+            name: 'Live Collections setup',
             url: '/docs/collections/live-collections/live-collections-setup/',
           },
           {
@@ -458,7 +477,7 @@ export const leftNavItems = [
             url: '/docs/collections/live-collections/update-live-collections/',
           },
           {
-            name: 'Live Collection settings',
+            name: 'Live Collections settings',
             url: '/docs/collections/live-collections/live-collections-settings/',
           },
         ],
@@ -562,8 +581,8 @@ export const leftNavItems = [
             url: '/docs/postman-flows/tutorials/webhooks/',
           },
           {
-            name: 'Creating charts, tables, and output',
-            url: '/docs/postman-flows/tutorials/creating-charts-tables-and-output/',
+            name: 'Visualizing data',
+            url: '/docs/postman-flows/tutorials/visualizing-data/',
           },
           {
             name: 'Getting data from an array',
@@ -688,7 +707,26 @@ export const leftNavItems = [
       },
       {
         name: 'Your Private API Network',
-        url: '/docs/collaborating-in-postman/adding-private-network/',
+        subParentSlug: 'private-api-network',
+        slug: '/docs/collaborating-in-postman/private-api-network/adding-private-network/',
+        subMenuItems2: [
+          {
+            name: 'Your Private API Network',
+            url: '/docs/collaborating-in-postman/private-api-network/adding-private-network/'
+          },
+          {
+            name: 'Organizing your Private API Network',
+            url: '/docs/collaborating-in-postman/private-api-network/organizing-private-network/'
+          },
+          {
+            name: 'Managing your Private API Network',
+            url: '/docs/collaborating-in-postman/private-api-network/managing-private-network/'
+          },
+          {
+            name: 'Requesting to add to the Private API Network',
+            url: '/docs/collaborating-in-postman/private-api-network/private-network-requests/'
+          },
+        ],
       },
       {
         name: 'Using version control',
