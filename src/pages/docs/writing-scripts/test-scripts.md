@@ -3,7 +3,6 @@ title: "Writing tests"
 order: 43
 page_id: "test_scripts"
 updated: 2022-08-31
-search_keyword: "pm.response, pm.test, pm.expect"
 contextual_links:
   - type: section
     name: "Additional resources"
