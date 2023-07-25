@@ -37,7 +37,7 @@ Importing from New Relic requires you to get your API key (User key) from New Re
 1. Select your avatar, then select **API Keys**.
 1. Select the three dots next to the **USER** key and select **Copy**.
 
-<img alt="Get a New Relic Ingest key" src="https://assets.postman.com/postman-docs/v10/new-relic-user-key.jpg">
+<img alt="Get a New Relic Ingest key" src="https://assets.postman.com/postman-docs/v10/new-relic-user-key-v10-17.jpg">
 
 > There are different types of API keys in New Relic. Make sure to use a **User** key for importing into Postman. To learn more about API Keys in New Relic, see the [New Relic API keys documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
 
