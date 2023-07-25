@@ -38,7 +38,7 @@ Begin by forking (copying) the [stocks collection](https://www.postman.com/postm
 
 Create a new flow and connect three **Send Request** blocks to the **Start** block.
 
-<img alt="Add three Send Request blocks" src="https://assets.postman.com/postman-docs/v10/flows-tut-db-3sends-v10.gif"/>
+<img alt="Add three Send Request blocks" src="https://assets.postman.com/postman-docs/v10/flows-tut-db-3sends-v10-2.gif"/>
 
 In the first two **Send Request** blocks, select **Select a request > stocks > GET get the close price**. In the third **Send Request** block, select **Select a request > stocks > get stock SMA**. These requests are in the `stocks` collection you forked earlier. Select the `stocks-tutorial` environment in the first **Send Request** block; Flows will automatically select the same environment for the next two **Send Request** blocks since they are in the same collection.
 
