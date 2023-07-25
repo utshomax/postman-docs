@@ -55,7 +55,7 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 
 Using the Postman CLI, you can run Postman collections with your API tests as part of a Travis CI pipeline.
 
-To view details for collections that were run as part of a build, first [configure the Postman CLI for Travis CI](#configuring-the-postman-cli-for-travisci) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand a collection to view details about a collection run.
+To view details for collections that were run as part of a build, first [configure the Postman CLI for Travis CI](#configuring-the-postman-cli-for-travis-ci) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand a collection to view details about a collection run.
 
 > Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 
