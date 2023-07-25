@@ -50,6 +50,6 @@ To get up and running with Postman, check out the following:
 
 * After you've created a few requests, you'll want to organize them into collections and workspaces. Check out [creating your first collection](/docs/getting-started/creating-the-first-collection/) and [creating a workspace](/docs/getting-started/creating-your-first-workspace/).
 
-* You can also import requests and other data into Postman, and export it for use with other programs. Check out [importing and exporting data](/docs/getting-started/importing-and-exporting-data/).
+* You can also import requests and other data into Postman, and export it for use with other programs. Check out [importing and exporting data](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/).
 
 * Having trouble? Learn how to [troubleshoot app issues](/docs/getting-started/troubleshooting-inapp/).

@@ -3,7 +3,6 @@ title: "Building requests"
 order: 21
 page_id: "requests"
 updated: 2023-05-31
-search_keyword: "Content-Type, multipart, form-data, x-www-form-urlencoded"
 contextual_links:
   - type: section
     name: "Additional resources"

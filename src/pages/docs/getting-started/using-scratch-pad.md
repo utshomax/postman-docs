@@ -90,7 +90,7 @@ When you sign in to Postman, your data remains on the Scratch Pad and isn't auto
 
 If you don't want to migrate all of your Scratch Pad data, you can export individual collections and environments from the Scratch Pad as JSON. You can then import the data in to a workspace.
 
-For more information on exporting a single collection or an environment, see [Exporting Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data).
+For more information on exporting a single collection or an environment, see [Exporting Postman data](/docs/getting-started/importing-and-exporting/exporting-data/).
 
 > You can export individual collections and environments from the Scratch Pad. You can't make bulk data exports of all collections and environments at once.
 
@@ -100,4 +100,4 @@ To import Scratch Pad data into your workspace, do the following:
 1. Select **Import** in the sidebar.
 1. Drag your exported collection or environment and select **Import**.
 
-For more information on importing, see [Importing data into Postman](/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman).
+For more information on importing, see [Importing data into Postman](/docs/getting-started/importing-and-exporting/importing-data/).
