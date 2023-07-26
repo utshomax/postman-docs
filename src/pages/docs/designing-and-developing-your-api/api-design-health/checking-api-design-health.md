@@ -5,34 +5,33 @@ updated: 2023-08-15
 
 > [**API Design Health is available on Postman Free, Basic, and Professional plans.**](https://www.postman.com/pricing)
 
-You can use [Postman API Design Health](https://go.postman.co/api-health/) to check the design quality of your OpenAPI documents or your [API definitions in Postman](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/). API Design Health identifies potential security risks your API might be vulnerable to, or potential design issues that might impact its usability. Postman supports API Design Health for OpenAPI documents and API definitions in OpenAPI 3.1, OpenAPI 3.0, and OpenAPI 2.0 format.
+You can use [Postman API Design Health](https://go.postman.co/api-health/) to check the design quality of your OpenAPI documents or your [API definitions in Postman](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/). API Design Health identifies potential design issues that might impact its usability. Postman supports API Design Health for OpenAPI documents and API definitions in OpenAPI 3.1, OpenAPI 3.0, and OpenAPI 2.0 format.
 
 <!-- screenshot: hero image -->
 
 ## Contents
 
 * [About API Design Health](#about-api-design-health)
-* [Add your API to API Design Health](#add-your-api)
+* [Upload your API to API Design Health](#upload-your-api-to-api-design-health)
 * [Review and fix style guide violations](#review-and-fix-style-guide-violations)
     * [Compare your API with top APIs](#compare-your-api-with-top-apis)
 * [Export your updated file](#export-your-updated-file)
 
 ## About API Design Health
 
-Strong API design health means your API design is secure and follows industry best practices. API Design Health checks your OpenAPI document or API definition using a style guide specific to your OpenAPI version, and returns each occurrence of each style guide violation. You then have the option to fix each found violation. To learn more about the style guide and fixing violations, see [Review and fix style guide violations](#review-and-fix-style-guide-violations).
+Strong API design health means your API design follows industry best practices. API Design Health checks your OpenAPI document or API definition using a style guide specific to your OpenAPI version, and returns each occurrence of each style guide violation. You then have the option to fix each found violation. To learn more about the style guide and fixing violations, see [Review and fix style guide violations](#review-and-fix-style-guide-violations).
 
-API Design Health provides an API design quality score based on each style guide violation it finds. It assigns an impact to each violation and the number of times each violation occurs. This impact is presented in the form of a percentage. A perfect API design quality score is 100%, but the ideal API design quality score for your API may vary. You can also [compare your API's design quality score with top APIs](#compare-your-api-with-top-apis), such as Postman and GitHub. Postman recommends often checking your API's design health during the development process to ensure your API is secure and well-designed.
+API Design Health provides an API design quality score for your API based on each style guide violation it finds. Each style guide violation shows the impact it has on your design quality score and the number of times each violation occurs. A perfect API design quality score is 100%, but the ideal API design quality score for your API may vary. You can also [compare your API's design quality score with top APIs](#compare-your-api-with-top-apis), such as Postman and GitHub. Postman recommends often checking your API's design health during the development process to ensure your API is well-designed.
 
-## Add your API to API Design Health
+## Upload your API to API Design Health
 
-To begin checking your API design, you can add your OpenAPI document or API definition file to API Design Health. Then you can review your API design quality score and fix any style guide violations it finds.
+To begin checking your API design, you can upload your OpenAPI document or API definition file to API Design Health. Then you can review your API design quality score and fix any style guide violations it finds.
 
 1. Go to [Postman API Design Health](https://go.postman.co/api-health/).
-    > If you want to choose a new API, [export the updated OpenAPI document or API definition file](#export-your-updated-file) to download it to your local system. Select **Discard** in the upper-right corner to discard your changes, then choose a new API.
 1. Choose an OpenAPI document or API definition to check. Postman supports both YAML and JSON formats. There are several ways to choose an API:
     * Select **Paste Raw text or URL...**, then enter your OpenAPI document or API definition as raw text or enter a URL.
     * Drag and drop a file, or select a file from your local system.
-    * Select **Choose API from workspace** to choose an API in Postman. Select an API from the dropdown list, then select **Generate API Quality Score**. If you don't see the API you're looking for, make sure you have [Editor or Viewer access](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) to the API.
+    * Select **Choose API from workspace** to choose an API in Postman. Select an API from the dropdown list, then select **Generate API Quality Score**. If you don't see the API you're looking for, make sure you have [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) to the API.
 
         > To check an API already in Postman, it must have an [API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/).
 
@@ -42,7 +41,7 @@ To begin checking your API design, you can add your OpenAPI document or API defi
 
 ## Review and fix style guide violations
 
-After you [add your API to API Design Health](#add-your-api-to-api-design-health), you can review and fix style guide violations in your OpenAPI document or API definition. Each style guide violation shows the impact it has on your design quality score, the number of times each violation occurred, and the severity level of each style guide violation. You can expand each guideline to review each occurrence of each violation, and learn more about how to fix it. You can also [compare your API with top APIs](#comparing-your-api-with-top-apis) to help you identify your ideal design quality score.
+After you [upload your API to API Design Health](#upload-your-api-to-api-design-health), you can review and fix style guide violations in your OpenAPI document or API definition. Each style guide violation shows the impact it has on your design quality score, the number of times each violation occurred, and the severity level of each style guide violation. You can expand each guideline to review each occurrence of each violation, and learn more about how to fix it. You can also [compare your API with top APIs](#comparing-your-api-with-top-apis) to help you identify your ideal design quality score.
 
 To fix each occurrence of a style guide violation, hover over the occurrence and select **Auto fix**. API Design Health will insert a template into your OpenAPI document or API definition file in the editor. Fill out the template to fix the style guide violation. To learn more about the style guide and how to fix each violation, see the style guide relevant to your OpenAPI version: [OpenAPI 3.1](/docs/designing-and-developing-your-api/api-design-health/openapi-31-style-guide/), [OpenAPI 3.0](/docs/designing-and-developing-your-api/api-design-health/openapi-30-style-guide/), or [OpenAPI 2.0](/docs/designing-and-developing-your-api/api-design-health/openapi-20-style-guide/).
 
@@ -64,10 +63,14 @@ You can compare design quality score, the total number of style guide violations
 
 <!-- screenshot: comparing screen -->
 
-## Exporting your updated file
+## Export your updated file
 
 To save your changes, select **Export Updated Schema** to download the updated OpenAPI document or API definition to your local system.
 
-<!-- screenshot: exporting screen -->
+<!-- screenshot: select export -->
+
+To check a new API, select **Discard** in the upper-right corner to discard your changes. Select **Discard** to confirm, then [upload a new API](#upload-your-api-to-api-design-health).
+
+<!-- screenshot: select discard -->
 
 To add your updated OpenAPI document or API definition file into Postman, see [Importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
