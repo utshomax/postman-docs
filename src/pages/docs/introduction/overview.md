@@ -42,7 +42,7 @@ If you're learning to carry out a specific task or workflow in Postman, check ou
 
 ## Getting started
 
-To get started using Postman, check out the [getting started](/docs/getting-started/overview/) section.
+To get started using Postman, check out the [get started](/docs/getting-started/overview/) section.
 
 ## Sending requests
 
