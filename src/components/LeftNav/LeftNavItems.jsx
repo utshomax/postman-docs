@@ -46,6 +46,10 @@ export const leftNavItems = [
         name: 'Feedback',
         url: '/docs/introduction/feedback/',
       },
+      {
+        name: 'Troubleshoot app issues',
+        url: '/docs/getting-started/troubleshooting-inapp/',
+      },
     ],
   },
   {
@@ -143,10 +147,6 @@ export const leftNavItems = [
       {
         name: 'About the Postman VS Code extension',
         url: '/docs/getting-started/about-vs-code-extension/',
-      },
-      {
-        name: 'Troubleshooting app issues',
-        url: '/docs/getting-started/troubleshooting-inapp/',
       },
     ],
   },

@@ -1,7 +1,5 @@
 ---
-title: "Troubleshooting app issues"
-order: 9
-page_id: "troubleshooting_in_app"
+title: "Troubleshoot app issues"
 warning: false
 updated: 2023-04-18
 ---
