@@ -1,5 +1,5 @@
 ---
-title: "Getting started"
+title: "Welcome to Postman"
 updated: 2023-02-27
 contextual_links:
   - type: section

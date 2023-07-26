@@ -53,12 +53,12 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Getting started',
+    name: 'Get started',
     parentSlug: 'getting-started',
     url: '/docs/getting-started/overview/',
     subMenuItems1: [
       {
-        name: 'Getting started',
+        name: 'Welcome to Postman',
         url: '/docs/getting-started/overview/',
       },
       {
