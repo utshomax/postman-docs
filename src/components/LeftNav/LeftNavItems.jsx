@@ -71,12 +71,28 @@ export const leftNavItems = [
             url: '/docs/getting-started/first-steps/overview/',
           },
           {
+            name: 'Get the Postman app',
+            url: '/docs/getting-started/first-steps/get-postman/',
+          },
+          {
             name: 'Sending your first API request',
             url: '/docs/getting-started/first-steps/sending-the-first-request/',
           },
           {
+            name: 'Write your first test',
+            url: '/docs/getting-started/first-steps/write-your-first-test/',
+          },
+          {
+            name: 'Sign in to Postman',
+            url: '/docs/getting-started/first-steps/sign-in-to-postman/',
+          },
+          {
             name: 'Creating your first collection',
             url: '/docs/getting-started/first-steps/creating-the-first-collection/',
+          },
+          {
+            name: 'Work with your team in Postman',
+            url: '/docs/getting-started/first-steps/work-with-your-team/',
           },
           {
             name: 'Exploring the Public API Network',
@@ -85,6 +101,10 @@ export const leftNavItems = [
           {
             name: 'Creating a workspace',
             url: '/docs/getting-started/first-steps/creating-your-first-workspace/',
+          },
+          {
+            name: 'Take your next steps in Postman',
+            url: '/docs/getting-started/first-steps/next-steps/',
           },
         ],
       },
