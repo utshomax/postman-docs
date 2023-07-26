@@ -51,32 +51,48 @@ Create a flow that quantifies a stock's performance by comparing it to a market 
 
     Add another **String** block to assign `AAPL` to the `ticker` variables in the second and third **Send Request** blocks.
 
-    ![Dashboard flow - step 1](https://assets.postman.com/postman-docs/v10/flows-tut-db-step1-v10.jpg)
+    ![Dashboard flow - step 1](https://assets.postman.com/postman-docs/v10/flows-tut-db-step1-v10-1.jpg)
 
 1. Connect an **Evaluate** block to the first **Send Request** block. Change `value` to `benchmark` and select `body`.
 
     In the FQL window, enter `((benchmark.close - benchmark.open) / benchmark.open) * 100`. This will get a percentage of the difference between the VOO index's open and close price.
 
-    Connect another **Evaluate** block to the previous **Evaluate** block. In the FQL window, enter `value2 > value1`. You'll add `value2` in a later step.
+    Connect another **Evaluate** block to the **Evaluate** block you just created. In the FQL window, enter `value2 > value1`. You'll add `value2` in a later step.
 
     Connect an **Output** block to the `value2 > value1` **Evaluate** block and select **Boolean** from the dropdown list.
+
+    ![Dashboard flow - step 2](https://assets.postman.com/postman-docs/v10/flows-tut-db-step2-v10.jpg)
 
 1. Go back to the second **Send Request** block and connect an **Evaluate** block to it. In this new **Evaluate** block, change `value1` to `yours` and select `body`. In the FQL window, enter `((yours.close - yours.open) / yours.open) * 100` to get a percentage of the difference between this stock's open and close price.
 
     Connect this block's **Result** output to the `key` input on the `value2 > value1` block. Flows automatically renames the variable `value2`.
 
+    ![Dashboard flow - step 3](https://assets.postman.com/postman-docs/v10/flows-tut-db-step3-v10.jpg)
+
 1. Connect the `yours` **Evaluate** block to a new **Output** block and select **Gauge** from the dropdown list. Set the **Gauge** output block's minimum value to `-5` and its maximum value to `5`.
+
+    ![Configure the gauge](https://assets.postman.com/postman-docs/v10/flows-tut-db-configure-gauge-v10.gif)
 
     Connect the `AAPL` **String** block with to an **Output** block and rename the **Output** block `Your ticker`.
 
-1. Go back the third **Send Request** block and connect a **Select** block to it. In the **Select** block, select `body.results.values`. Connect an **Evaluate** block to the **Select** block and rename `value` to `list`. Select **Start writing an FQL query...** and enter `$reverse(list)`. This arranges the dates in the results in chronological order.
+    ![Dashboard flow - step 4](https://assets.postman.com/postman-docs/v10/flows-tut-db-step4-v10.jpg)
 
-    Connect a **For** block to the `list` Evaluate block, then connect an **Evaluate** block to the **For** block. In the **Evaluate** block, change `value1` to `item`. Select **Start writing an FQL query...** and enter `$month(item.timestamp) & '-' & $day(item.timestamp)`. This converts timestamps in the results to a readable date format. Connect a **Collect** block to the **Evaluate** block's **Result** output.
+1. Go back the third **Send Request** block and connect a **Select** block to it. In the **Select** block, select `body.results.values`. Connect an **Evaluate** block to the **Select** block and rename `value1` to `list`. In the FQL window, enter `$reverse(list)`. This arranges the dates in the results in chronological order.
 
-    Connect another **Evaluate** block to the `list` **Evaluate** block and rename `value1` to `list`. In the FQL window, enter `list.value`.
+    Connect a **For** block to the `$reverse(list)` **Evaluate** block, then connect an **Evaluate** block to the **For** block. In the **Evaluate** block, change `value1` to `item`. In the FQL window, enter `$month(item.timestamp) & '-' & $day(item.timestamp)`. This converts timestamps in the results to a readable date format. Connect a **Collect** block to the **Evaluate** block's **Result** output.
+
+    Connect another **Evaluate** block to the `$reverse(list)` **Evaluate** block and rename `value1` to `list`. In the FQL window, enter `list.value`.
+
+    ![Dashboard flow - step 5](https://assets.postman.com/postman-docs/v10/flows-tut-db-step5-v10-1.jpg)
 
 1. Create a **List** block and add two **Select** blocks to it. Connect the `list.value` **Evaluate** block to the **List** block's `0` input. Connect the **Collect** block's **List** output to the **List** block's `1` input.
 
+    ![Add a List block](https://assets.postman.com/postman-docs/v10/flows-tut-db-list-block-v10-2.gif)
+
     Connect the **List** block's output to an **Output** block. select **Line Chart** from the dropdown list and rename the block `Simple moving average`.
 
-1. Run the flow and check your **Output** blocks to see your stock ticker, if your stock is outperforming or underperforming the market, how much it's outperforming or underperforming, and a chart showing the stock's simple moving average.
+    ![Dashboard flow - step 5](https://assets.postman.com/postman-docs/v10/flows-tut-db-step5-v10-1.jpg)
+
+1. Run the flow and check your dashboard of **Output** blocks to see your stock ticker, if your stock is outperforming or underperforming the market, how much it's outperforming or underperforming, and a chart showing the stock's simple moving average.
+
+    ![Run the flow](https://assets.postman.com/postman-docs/v10/flows-tut-db-run-v10-3.gif)
