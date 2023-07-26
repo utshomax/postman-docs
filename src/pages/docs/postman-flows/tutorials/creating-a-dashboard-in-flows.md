@@ -39,13 +39,13 @@ Create a flow that quantifies a stock's performance by comparing it to a market 
 
     Create a new flow and connect three **Send Request** blocks to the **Start** block.
 
-    ![Add three Send blocks](https://assets.postman.com/postman-docs/v10/flows-tut-db-3sends-v10-5.gif)
+    <img src="https://assets.postman.com/postman-docs/v10/flows-tut-db-3sends-v10-5.gif" alt="Add three Send blocks" fetchpriority="low" loading="lazy" />
 
     In the first two **Send Request** blocks, select the **get the close price** request. In the third **Send Request** block, select the **get stock SMA** request.
 
     In the first **Send Request** block, select the `stocks-tutorial` environment. Flows prompts you to select the same environment for the other two **Send Request** blocks.
 
-    ![Select the environment](https://assets.postman.com/postman-docs/v10/flows-tut-db-select-environment-v10-1.gif)
+    <img src="https://assets.postman.com/postman-docs/v10/flows-tut-db-select-environment-v10-1.gif" alt="Select the environment" fetchpriority="low" loading="lazy" />
 
     Add a **String** block to assign the `VOO` market index to the `ticker` variable in the first request. The flow will compare your stock's performance to this index to check if your stock is outperforming the market.
 
@@ -71,7 +71,7 @@ Create a flow that quantifies a stock's performance by comparing it to a market 
 
 1. Connect the `yours` **Evaluate** block to a new **Output** block and select **Gauge** from the dropdown list. Set the **Gauge** output block's minimum value to `-5` and its maximum value to `5`.
 
-    ![Configure the gauge](https://assets.postman.com/postman-docs/v10/flows-tut-db-configure-gauge-v10.gif)
+    <img src="https://assets.postman.com/postman-docs/v10/flows-tut-db-configure-gauge-v10.gif" alt="Configure the gauge" fetchpriority="low" loading="lazy" />
 
     Connect the `AAPL` **String** block with to an **Output** block and rename the **Output** block `Your ticker`.
 
@@ -87,12 +87,12 @@ Create a flow that quantifies a stock's performance by comparing it to a market 
 
 1. Create a **List** block and add two **Select** blocks to it. Connect the `list.value` **Evaluate** block to the **List** block's `0` input. Connect the **Collect** block's **List** output to the **List** block's `1` input.
 
-    ![Add a List block](https://assets.postman.com/postman-docs/v10/flows-tut-db-list-block-v10-2.gif)
+    <img src="https://assets.postman.com/postman-docs/v10/flows-tut-db-list-block-v10-2.gif" alt="Add a List block" fetchpriority="low" loading="lazy" />
 
     Connect the **List** block's output to an **Output** block. select **Line Chart** from the dropdown list and rename the block `Simple moving average`.
 
-    ![Dashboard flow - step 5](https://assets.postman.com/postman-docs/v10/flows-tut-db-step5-v10-1.jpg)
+    ![Dashboard flow - step 6](https://assets.postman.com/postman-docs/v10/flows-tut-db-step6-v10-1.jpg)
 
 1. Run the flow and check your dashboard of **Output** blocks to see your stock ticker, if your stock is outperforming or underperforming the market, how much it's outperforming or underperforming, and a chart showing the stock's simple moving average.
 
-    ![Run the flow](https://assets.postman.com/postman-docs/v10/flows-tut-db-run-v10-3.gif)
+    <img src="https://assets.postman.com/postman-docs/v10/flows-tut-db-run-v10-3.gif" alt="Run the flow" fetchpriority="low" loading="lazy" />
