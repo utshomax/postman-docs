@@ -48,7 +48,7 @@ export const leftNavItems = [
       },
       {
         name: 'Troubleshoot app issues',
-        url: '/docs/getting-started/troubleshooting-inapp/',
+        url: '/docs/introduction/troubleshooting-inapp/',
       },
     ],
   },
@@ -62,60 +62,94 @@ export const leftNavItems = [
         url: '/docs/getting-started/overview/',
       },
       {
-        name: 'Installing and updating Postman',
-        url: '/docs/getting-started/installation-and-updates/',
+        name: 'Postman first steps',
+        subParentSlug: '/docs/getting-started/first-steps/',
+        slug: '/docs/getting-started/first-steps/overview/',
+        subMenuItems2: [
+          {
+            name: 'Overview',
+            url: '/docs/getting-started/first-steps/overview/',
+          },
+          {
+            name: 'Sending your first API request',
+            url: '/docs/getting-started/first-steps/sending-the-first-request/',
+          },
+          {
+            name: 'Creating your first collection',
+            url: '/docs/getting-started/first-steps/creating-the-first-collection/',
+          },
+          {
+            name: 'Exploring the Public API Network',
+            url: '/docs/getting-started/first-steps/exploring-public-api-network/',
+          },
+          {
+            name: 'Creating a workspace',
+            url: '/docs/getting-started/first-steps/creating-your-first-workspace/',
+          },
+        ],
       },
       {
-        name: 'Navigating Postman',
-        url: '/docs/getting-started/navigating-postman/',
+        name: 'Postman basics',
+        subParentSlug: '/docs/getting-started/basics/',
+        slug: '/docs/getting-started/basics/navigating-postman/',
+        subMenuItems2: [
+          {
+            name: 'Navigating Postman',
+            url: '/docs/getting-started/basics/navigating-postman/',
+          },
+          {
+            name: 'About the Postman Agent',
+            url: '/docs/getting-started/basics/about-postman-agent/',
+          },
+          {
+            name: 'About Postbot',
+            url: '/docs/getting-started/basics/about-postbot/',
+          },
+          {
+            name: 'About the Postman VS Code extension',
+            url: '/docs/getting-started/basics/about-vs-code-extension/',
+          },
+          {
+            name: 'Syncing your work',
+            url: '/docs/getting-started/basics/syncing/',
+          },
+          {
+            name: 'Using the lightweight API Client',
+            url: '/docs/getting-started/basics/using-api-client/',
+          },
+          {
+            name: 'Using the Scratch Pad',
+            url: '/docs/getting-started/basics/using-scratch-pad/',
+          },
+        ],
       },
       {
-        name: 'Sending your first API request',
-        url: '/docs/getting-started/sending-the-first-request/',
-      },
-      {
-        name: 'Managing your account',
-        url: '/docs/getting-started/postman-account/',
-      },
-      {
-        name: 'Customizing your Postman profile',
-        url: '/docs/getting-started/postman-profile/',
-      },
-      {
-        name: 'Syncing your work',
-        url: '/docs/getting-started/syncing/',
-      },
-      {
-        name: 'Exploring the Public API Network',
-        url: '/docs/getting-started/exploring-public-api-network/',
-      },
-      {
-        name: 'Creating your first collection',
-        url: '/docs/getting-started/creating-the-first-collection/',
-      },
-      {
-        name: 'About the Postman Agent',
-        url: '/docs/getting-started/about-postman-agent/',
-      },
-      {
-        name: 'Using the lightweight API Client',
-        url: '/docs/getting-started/using-api-client/',
-      },
-      {
-        name: 'Using the Scratch Pad',
-        url: '/docs/getting-started/using-scratch-pad/',
-      },
-      {
-        name: 'Creating a workspace',
-        url: '/docs/getting-started/creating-your-first-workspace/',
-      },
-      {
-        name: 'Setting up Postman',
-        url: '/docs/getting-started/settings/',
-      },
-      {
-        name: 'About Postbot',
-        url: '/docs/getting-started/about-postbot/',
+        name: 'Install and setup',
+        subParentSlug: '/docs/getting-started/installation/',
+        slug: '/docs/getting-started/installation/installation-and-updates/',
+        subMenuItems2: [
+          {
+            name: 'Installing and updating Postman',
+            url: '/docs/getting-started/installation/installation-and-updates/',
+          },
+          {
+            name: 'Setting up Postman',
+            url: '/docs/getting-started/installation/settings/',
+          },
+          {
+            name: 'Managing your account',
+            url: '/docs/getting-started/installation/postman-account/',
+          },
+          {
+            name: 'Customizing your Postman profile',
+            url: '/docs/getting-started/installation/postman-profile/',
+          },
+          {
+            name: 'Using a custom proxy',
+            url: '/docs/getting-started/installation/proxy/',
+          },
+        ],
+
       },
       {
         name: 'Importing and exporting data',
@@ -139,14 +173,6 @@ export const leftNavItems = [
             url: '/docs/getting-started/importing-and-exporting/exporting-data/',
           },
         ],
-      },
-      {
-        name: 'Using a custom proxy',
-        url: '/docs/getting-started/proxy/',
-      },
-      {
-        name: 'About the Postman VS Code extension',
-        url: '/docs/getting-started/about-vs-code-extension/',
       },
     ],
   },
