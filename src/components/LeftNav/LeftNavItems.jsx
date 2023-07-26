@@ -889,21 +889,21 @@ export const leftNavItems = [
         slug: '/docs/designing-and-developing-your-api/api-design-health/checking-api-design-health/',
         subMenuItems2: [
           {
-            name: 'Checking your API design health',
+            name: 'Check your API design health',
             url: '/docs/designing-and-developing-your-api/api-design-health/checking-api-design-health/',
           },
           {
             name: 'OpenAPI 3.1 style guide for API Design Health',
             url: '/docs/designing-and-developing-your-api/api-design-health/openapi-31-style-guide/',
           },
-          // {
-          //   name: 'OpenAPI 3.0 style guide for API Design Health',
-          //   url: '/docs/designing-and-developing-your-api/api-design-health/openapi-3-style-guide/',
-          // },
-          // {
-          //   name: 'OpenAPI 2.0 style guide for API Design Health',
-          //   url: '/docs/designing-and-developing-your-api/api-design-health/openapi-2-style-guide/',
-          // },
+          {
+            name: 'OpenAPI 3.0 style guide for API Design Health',
+            url: '/docs/designing-and-developing-your-api/api-design-health/openapi-30-style-guide/',
+          },
+          {
+            name: 'OpenAPI 2.0 style guide for API Design Health',
+            url: '/docs/designing-and-developing-your-api/api-design-health/openapi-20-style-guide/',
+          },
         ],
       },
       {
