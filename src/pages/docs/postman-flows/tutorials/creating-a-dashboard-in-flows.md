@@ -16,10 +16,13 @@ contextual_links:
 
 Many people find dashboards useful for visualizing and simplifying large amounts of data. For example, you might create an internet of things dashboard that displays information about your home's thermostat, door locks, security cameras, and environmental sensors. Or you might want a dashboard that compares a stock's price to a market index to evaluate the stock's performance. The dashboard could visualize data with a True/False display and a line chart. This tutorial shows you how to create this stock performance dashboard, using test data from a Postman mock server.
 
+You can see the completed flow [here](https://www.postman.com/postman/workspace/utility-flows/flow/64123b57c224290033fcb089).
+
 ## Contents
 
 * [Objective](#objective)
 * [Creating the flow](#creating-the-flow)
+* [Prerequisites](#prerequisites)
 
 ## Objective
 
@@ -32,19 +35,23 @@ Create a flow that quantifies a stock's performance by comparing it to a market 
 
 ## Creating the flow
 
-1. Begin by forking (copying) the [stocks collection](https://www.postman.com/postman/workspace/utility-flows/collection/23919558-b45b34a3-8289-42f2-98e5-df043c863ea1?action=share&creator=21580188) and the [stocks-tutorial environment](https://www.postman.com/postman/workspace/utility-flows/environment/21580188-07226525-53d7-40ca-b9d3-6cac35c39306) from the [Utility Flows](https://www.postman.com/postman/workspace/utility-flows/overview) workspace to your workspace. In your fork of the stocks-tutorial environment, replace `<your-api-key>` with your Polygon API key and select **Save**.
+1. Begin by [forking](/docs/collaborating-in-postman/using-version-control/forking-entities/) (copying) the [stocks collection](https://www.postman.com/postman/workspace/utility-flows/collection/23919558-b45b34a3-8289-42f2-98e5-df043c863ea1?action=share&creator=21580188) and the [stocks-tutorial environment](https://www.postman.com/postman/workspace/utility-flows/environment/21580188-07226525-53d7-40ca-b9d3-6cac35c39306) from the [Utility Flows](https://www.postman.com/postman/workspace/utility-flows/overview) workspace to your workspace. In your fork of the stocks-tutorial environment, replace `<your-api-key>` with your Polygon API key and select **Save**.
 
-1. Create a new flow and connect three **Send Request** blocks to the **Start** block.
+    Create a new flow and connect three **Send Request** blocks to the **Start** block.
 
-    In the first two **Send Request** blocks, select the **GET get the close price** request. In the third **Send Request** block, select the **GET get stock SMA** request.
+    ![Add three Send blocks](https://assets.postman.com/postman-docs/v10/flows-tut-db-3sends-v10-5.gif)
 
-    In the first **Send Request** block, select the `stocks-tutorial` environment. Flows will automatically select the same environment for the next two **Send Request** blocks since they're in the same collection.
+    In the first two **Send Request** blocks, select the **get the close price** request. In the third **Send Request** block, select the **get stock SMA** request.
+
+    In the first **Send Request** block, select the `stocks-tutorial` environment. Flows prompts you to select the same environment for the other two **Send Request** blocks.
+
+    ![Select the environment](https://assets.postman.com/postman-docs/v10/flows-tut-db-select-environment-v10-1.gif)
 
     Add a **String** block to assign the `VOO` market index to the `ticker` variable in the first request. The flow will compare your stock's performance to this index to check if your stock is outperforming the market.
 
     Add another **String** block to assign `AAPL` to the `ticker` variables in the second and third **Send Request** blocks.
 
-    <img/>
+    ![Dashboard flow - step 1](https://assets.postman.com/postman-docs/v10/flows-tut-db-step1-v10.jpg)
 
 1. Connect an **Evaluate** block to the first **Send Request** block. Change `value` to `benchmark` and select `body`.
 
