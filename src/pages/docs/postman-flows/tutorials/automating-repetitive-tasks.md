@@ -95,14 +95,14 @@ Fork this environment into your workspace:
 
 1. Part three: Delete the contact from an internal system
 
-    * In the bottom **Send Request** block, select **customer/email** from the **customer-list** collection.
-    * Connect a **Send Request** block to the Success output and select customer/id from the customer-list collection.
-    * For the email variable, add a Get Variable block and select Customer Email.
-    * Also connect the **customer/email** **Send Request** block’s **Success** output to the **id input** and select `body.id`.
-    * Connect an **Output** block to the customer/id **Send Request** block’s **Success** output.
-    * Rename the **Output** block `Contact deleted` and select **Boolean** from the dropdown list.
-    * Connect an **Output** block to the customer/id **Send Request** block’s **Failure** output.
-    * Rename the **Output** block `Contact not found` and select **Boolean** from the dropdown list.
+    * In the bottom **Send Request** block, select **customer-list > customer/email**.
+    * For the email variable, add a **Get Variable** block and select **Customer Email**.
+    * Connect the **Success** output to a **Send Request** block and select **customer-list > customer/id**.
+    * Also connect the **customer/email** **Send Request** block’s **Success** output to the **id** input and select `body.id`.
+    * Connect the **customer/id** **Send Request** block’s **Success** output to an **Output** block. Rename the **Output** block `Contact deleted` and select **Boolean** from the dropdown list.
+    * Connect the **customer/id** **Send Request** block’s **Failure** output to an **Output** block. Rename the **Output** block `Contact not found` and select **Boolean** from the dropdown list.
+
+        ![Internal contact deleted](https://assets.postman.com/postman-docs/v10/flows-tut-rep-internal-deleted-v10.jpg)
 
 ## Run the flow
 
