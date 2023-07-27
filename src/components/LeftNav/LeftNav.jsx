@@ -167,6 +167,7 @@ const renderTwoLevelList = (item, runtime) => {
                   data-click={item.name}
                   data-section={item.url}
                   onClick={sectionHandler}
+                  className="pmt-leftnav-link"
                 >
                   {item.name}
                 </button>
@@ -178,7 +179,7 @@ const renderTwoLevelList = (item, runtime) => {
               {item.subMenuItems1.map(
                 (sItem) => (sItem.url && (
                   <li key={uuidv4()} className={`child ${window.location.pathname === sItem.url ? 'currentUrl' : ''}`}>
-                    <Link data-click={sItem.name} to={sItem.url}>{sItem.name}</Link>
+                    <Link className="pmt-leftnav-link" data-click={sItem.name} to={sItem.url}>{sItem.name}</Link>
                   </li>
                 )) || (
                     <li
@@ -200,6 +201,7 @@ const renderTwoLevelList = (item, runtime) => {
                               data-click={sItem.name}
                               data-section={sItem.slug}
                               onClick={sectionHandler}
+                              className="pmt-leftnav-link"
                             >
                               {sItem.name}
                             </button>
@@ -213,7 +215,7 @@ const renderTwoLevelList = (item, runtime) => {
                             {sItem.subMenuItems2.map(
                               (ssItem) => ssItem.url && (
                                 <li key={uuidv4()} className={`child ${document.location.pathname === ssItem.url ? 'currentUrl' : ''}`}>
-                                  <Link to={ssItem.url} data-click={sItem.name} className="ssItem second-child">{ssItem.name}</Link>
+                                  <Link to={ssItem.url} data-click={sItem.name} className="ssItem second-child pmt-leftnav-link">{ssItem.name}</Link>
                                 </li>
                               ),
                             )}
