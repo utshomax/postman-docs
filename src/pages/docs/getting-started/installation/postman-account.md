@@ -19,7 +19,7 @@ contextual_links:
 warning: false
 ---
 
-Having a free Postman account enables you to [sync](/docs/getting-started/syncing/) and back up your work so that you can access it from different machines. With a Postman account, you can also [collaborate](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) with others on your API projects.
+Having a free Postman account enables you to [sync](/docs/getting-started/basics/syncing/) and back up your work so that you can access it from different machines. With a Postman account, you can also [collaborate](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) with others on your API projects.
 
 Signing up for a Postman account is optional, and you can use the Postman desktop app without an account if you prefer. If you do want to create a Postman account, continue to the [Signing up for a Postman account](#signing-up-for-a-postman-account) section.
 
@@ -203,4 +203,4 @@ For more details on Postman's security policies and standards, visit the Postman
 
 Now that you have created a Postman account, you're ready to start working! When you are signed in to Postman, you are connected to the Postman servers and your work is continuously backed up.
 
-* To learn more about how Postman syncs your data, visit [Syncing your work](/docs/getting-started/syncing/).
+* To learn more about how Postman syncs your data, visit [Syncing your work](/docs/getting-started/basics/syncing/).

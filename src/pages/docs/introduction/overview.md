@@ -47,7 +47,7 @@ To get started using Postman, check out the [get started](/docs/getting-started/
 ## Sending requests
 
 You can send requests in Postman to connect to APIs you are working with. To learn more about how to send requests, see
-[sending requests](/docs/sending-requests/requests/) and learn how to [send your first request](/docs/getting-started/sending-the-first-request/).
+[sending requests](/docs/sending-requests/requests/) and learn how to [send your first request](/docs/getting-started/first-steps/sending-the-first-request/).
 
 ## Writing scripts
 

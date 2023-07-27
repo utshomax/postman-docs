@@ -21,7 +21,7 @@ The _lightweight Postman API Client_ is a space where you can work if you're usi
 
 All of your work in the lightweight API Client is stored locally and isn't synced online with Postman. After you sign in to Postman, you can move your open requests and request history into a workspace where you can collaborate with others.
 
-> **What happened to the Scratch Pad?** New Postman users who download the Postman desktop app use the lightweight Postman API Client when not signed in to Postman. Postman users who have data in the Scratch Pad will continue to use the Scratch Pad when not connected to Postman's servers. Learn more about [using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
+> **What happened to the Scratch Pad?** New Postman users who download the Postman desktop app use the lightweight Postman API Client when not signed in to Postman. Postman users who have data in the Scratch Pad will continue to use the Scratch Pad when not connected to Postman's servers. Learn more about [using the Scratch Pad](/docs/getting-started/basics/using-scratch-pad/).
 
 ## Contents
 
@@ -47,7 +47,7 @@ While you're in the lightweight API Client, you can create new requests, send re
 
 * Select **Send** to send a request and view the response. Learn more about [receiving responses](/docs/sending-requests/responses/).
 
-* The sidebar shows a history of the requests you've sent. Select a request in the history to open it in a new tab. Learn more about [viewing your request history](/docs/getting-started/navigating-postman/#history).
+* The sidebar shows a history of the requests you've sent. Select a request in the history to open it in a new tab. Learn more about [viewing your request history](/docs/getting-started/basics/navigating-postman/#history).
 
 * You can also use the lightweight API Client to write and execute [test scripts](/docs/writing-scripts/pre-request-scripts/) and to [visualize response data](/docs/sending-requests/visualizer/).
 

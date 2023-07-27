@@ -154,7 +154,7 @@ When a user opens a public workspace, Postman shows an overview of its contents,
 
 Users with an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) for a workspace can edit workspace details, including updating the workspace's name, summary, description, and visibility. For more information, see [Editing workspace details](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#editing-workspace-details).
 
-> The [Public API Network](/docs/getting-started/exploring-public-api-network/) displays your workspace's name and summary. Make your workspace name and summary informative to improve its visibility on the Public API Network.
+> The [Public API Network](/docs/getting-started/first-steps/exploring-public-api-network/) displays your workspace's name and summary. Make your workspace name and summary informative to improve its visibility on the Public API Network.
 
 ### Moving elements to a public workspace
 

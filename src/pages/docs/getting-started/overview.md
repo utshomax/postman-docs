@@ -42,14 +42,14 @@ To get up and running with Postman, check out the following:
 
 * You can get started right away by using the Postman web app, but you can also install the Postman desktop app. See [Installing and updating Postman](/docs/getting-started/installation-and-updates/).
 
-* Once you're in Postman, check out how to [navigate Postman](/docs/getting-started/navigating-postman/). After you're familiar with the interface, try [sending your first request](/docs/getting-started/sending-the-first-request/).
+* Once you're in Postman, check out how to [navigate Postman](/docs/getting-started/basics/navigating-postman/). After you're familiar with the interface, try [sending your first request](/docs/getting-started/first-steps/sending-the-first-request/).
 
 * Create a Postman account. Then, learn more about [managing your account](/docs/getting-started/postman-account/), [customizing your Postman profile](/docs/getting-started/postman-profile/), and [setting up Postman](/docs/getting-started/settings/).
 
-* A great place to find APIs is the Postman Public API Network. Learn more on how to use it at [exploring the Public API Network](/docs/getting-started/exploring-public-api-network/).
+* A great place to find APIs is the Postman Public API Network. Learn more on how to use it at [exploring the Public API Network](/docs/getting-started/first-steps/exploring-public-api-network/).
 
-* After you've created a few requests, you'll want to organize them into collections and workspaces. Check out [creating your first collection](/docs/getting-started/creating-the-first-collection/) and [creating a workspace](/docs/getting-started/creating-your-first-workspace/).
+* After you've created a few requests, you'll want to organize them into collections and workspaces. Check out [creating your first collection](/docs/getting-started/first-steps/creating-the-first-collection/) and [creating a workspace](/docs/getting-started/first-steps/creating-your-first-workspace/).
 
 * You can also import requests and other data into Postman, and export it for use with other programs. Check out [importing and exporting data](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/).
 
-* Having trouble? Learn how to [troubleshoot app issues](/docs/getting-started/troubleshooting-inapp/).
+* Having trouble? Learn how to [troubleshoot app issues](/docs/introduction/troubleshooting-inapp/).
