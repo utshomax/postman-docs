@@ -40,11 +40,11 @@ Welcome! This section of the Learning Center contains topics about how to get st
 
 To get up and running with Postman, check out the following:
 
-* You can get started right away by using the Postman web app, but you can also install the Postman desktop app. See [Installing and updating Postman](/docs/getting-started/installation-and-updates/).
+* You can get started right away by using the Postman web app, but you can also install the Postman desktop app. See [Installing and updating Postman](/docs/getting-started/installation/installation-and-updates/).
 
 * Once you're in Postman, check out how to [navigate Postman](/docs/getting-started/basics/navigating-postman/). After you're familiar with the interface, try [sending your first request](/docs/getting-started/first-steps/sending-the-first-request/).
 
-* Create a Postman account. Then, learn more about [managing your account](/docs/getting-started/postman-account/), [customizing your Postman profile](/docs/getting-started/postman-profile/), and [setting up Postman](/docs/getting-started/settings/).
+* Create a Postman account. Then, learn more about [managing your account](/docs/getting-started/installation/postman-account/), [customizing your Postman profile](/docs/getting-started/installation/postman-profile/), and [setting up Postman](/docs/getting-started/installation/settings/).
 
 * A great place to find APIs is the Postman Public API Network. Learn more on how to use it at [exploring the Public API Network](/docs/getting-started/first-steps/exploring-public-api-network/).
 

@@ -52,7 +52,7 @@ Postman prompts you to sign in or sign up. Select __Create Account__. You can si
 
 When you sign up for a Postman account, you'll be prompted to provide some information about yourself, including your name and role, to help customize your Postman experience. Enter your details and select __Continue__.
 
-Your new Postman profile will be visible to collaborators and anyone viewing resources you share or publish. To learn more about your Postman profile and how to customize it, see [Customizing your Postman profile](/docs/getting-started/postman-profile/).
+Your new Postman profile will be visible to collaborators and anyone viewing resources you share or publish. To learn more about your Postman profile and how to customize it, see [Customizing your Postman profile](/docs/getting-started/installation/postman-profile/).
 
 ### Creating or joining a team
 
@@ -131,7 +131,7 @@ If you sign in to Postman using a username or email and a password, you can set 
 1. Open your [account settings](https://go.postman.co/settings/me/account/) page by selecting your avatar in the Postman header, then selecting **Settings > Account**.
 1. Select **Enable 2FA**.
 
-    > Enabling 2FA will revoke all of your [active Postman sessions](/docs/getting-started/postman-account/#managing-your-active-sessions).
+    > Enabling 2FA will revoke all of your [active Postman sessions](/docs/getting-started/installation/postman-account/#managing-your-active-sessions).
 
 1. Install an authenticator app on your phone if you don't have one available, and have your password with you.
 1. Select **Continue**.

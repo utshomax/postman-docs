@@ -59,9 +59,9 @@ The header enables you to create workspaces, access reports, explore the public 
 <img alt="Postman header right side" src="https://assets.postman.com/postman-docs/navigating-postman-header-right-v9.19.2.jpg" width="300px"/>
 
 * **Invite** - If you have an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) on a workspace, you can invite other users to collaborate.
-* <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> **Settings** - Access [Postman settings](/docs/getting-started/settings/) and other Postman resources.
+* <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> **Settings** - Access [Postman settings](/docs/getting-started/installation/settings/) and other Postman resources.
 * <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> **Notifications** - View recent activity from your team, get notifications about Postman updates, and see pull requests, comment activity, and other important information.
-* **Your avatar** - View your profile, access your [account and notification settings](/docs/getting-started/postman-account/), see all active sessions for your account, or sign out of your account.
+* **Your avatar** - View your profile, access your [account and notification settings](/docs/getting-started/installation/postman-account/), see all active sessions for your account, or sign out of your account.
 * **Team** (_paid plans_) or **Upgrade** (_free plan_) - View [resource usage](/docs/administration/resource-usage/) and access your [billing dashboard](/docs/administration/billing/) and other account management tools.
 
 ### Search Postman
@@ -103,7 +103,7 @@ The Postman sidebar provides access to the fundamental elements of Postman:
 
 To see the task options that are available for elements in the sidebar, select the element's name then select the more options icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">. The task options will vary depending on the type of element you've selected.
 
-For collections, folders and requests inside a collection, and requests in History, you can select more than one element at a time. Press and hold **⌘** or **Ctrl**, then select the desired elements. For elements that are next to each other, press and hold **Shift**, then select the desired elements. For collections and their contents, you can also use [keyboard shortcuts](/docs/getting-started/settings/#shortcuts) for tasks like copying, pasting, and deleting.
+For collections, folders and requests inside a collection, and requests in History, you can select more than one element at a time. Press and hold **⌘** or **Ctrl**, then select the desired elements. For elements that are next to each other, press and hold **Shift**, then select the desired elements. For collections and their contents, you can also use [keyboard shortcuts](/docs/getting-started/installation/settings/#shortcuts) for tasks like copying, pasting, and deleting.
 
 You can select **New** in the sidebar to create requests, collections, APIs, and other common Postman elements. Select an element to create it in your workspace. You can also pin the elements you use most often. To pin an element, hover over an element and select the pin element icon <img alt="Pin element icon" src="https://assets.postman.com/postman-docs/v10/icon-pin-element-v10.jpg#icon" width="17px">. To unpin an element, hover over the pinned element and deselect the pin element icon <img alt="Unpin element icon" src="https://assets.postman.com/postman-docs/v10/icon-unpin-element-icon-v10.jpg#icon" width="17px">.
 

@@ -59,13 +59,13 @@ To switch to a workspace, you need to sign up for a Postman account or sign in t
 
 ### Signing up for Postman from the lightweight API Client
 
-If you don't have a Postman account, or want to use a new account, select **Create Account** in the header. Follow the onscreen instructions, or learn more about [signing up for a Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account).
+If you don't have a Postman account, or want to use a new account, select **Create Account** in the header. Follow the onscreen instructions, or learn more about [signing up for a Postman account](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account).
 
 After you create your account, your open requests and request history are automatically copied from the lightweight API Client to your default personal workspace. Learn more about [using workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
 
 ### Signing in to Postman from the lightweight API Client
 
-To sign in to your Postman account, select **Sign In** in the header. Follow the onscreen instructions, or learn more about [signing in to Postman](/docs/getting-started/postman-account/#signing-in-to-postman).
+To sign in to your Postman account, select **Sign In** in the header. Follow the onscreen instructions, or learn more about [signing in to Postman](/docs/getting-started/installation/postman-account/#signing-in-to-postman).
 
 After signing in, you can move your open requests and request history from the lightweight API Client to a workspace. Select the workspace where you want to migrate your data and select **Move Data**. You can also create a new personal workspace for your data.
 

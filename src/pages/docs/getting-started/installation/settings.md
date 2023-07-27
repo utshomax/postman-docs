@@ -159,11 +159,11 @@ You can manage your saved accounts and tokens on the **Connected accounts** tab:
 
 ## Proxy
 
-Use the **Proxy** tab to configure proxy settings for connecting to online services and sending API requests. Learn more about [configuring a proxy](/docs/getting-started/proxy/).
+Use the **Proxy** tab to configure proxy settings for connecting to online services and sending API requests. Learn more about [configuring a proxy](/docs/getting-started/installation/proxy/).
 
 ## App updates
 
-Use the **Update** tab to check for updates to the Postman desktop app or to enable automatic updating. Learn more about [updating Postman](/docs/getting-started/installation-and-updates/#updating-postman).
+Use the **Update** tab to check for updates to the Postman desktop app or to enable automatic updating. Learn more about [updating Postman](/docs/getting-started/installation/installation-and-updates/#updating-postman).
 
 ## About
 

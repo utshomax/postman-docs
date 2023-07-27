@@ -66,7 +66,7 @@ To view the workspace ID, select the information icon <img alt="Information icon
 
 > **[Private workspaces are available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing/)**
 
-To collaborate in a private workspace, you must be [invited](#sharing-workspaces) by a Workspace Editor or Admin, or request access to it and be approved. If you're using the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) and navigate to a link a teammate has shared to a private workspace or an element within one, you'll have the option to request access to the workspace.
+To collaborate in a private workspace, you must be [invited](#sharing-workspaces) by a Workspace Editor or Admin, or request access to it and be approved. If you're using the [Postman web app](/docs/getting-started/installation/installation-and-updates/#using-the-postman-web-app) and navigate to a link a teammate has shared to a private workspace or an element within one, you'll have the option to request access to the workspace.
 
 <img alt="Request access to private workspace" src="https://assets.postman.com/postman-docs/user-rfa-private-workspace-v9.16.jpg"/>
 
@@ -116,8 +116,8 @@ You can invite team members, [groups](/docs/collaborating-in-postman/user-groups
 Your ability to share workspaces with teammates depends on your [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles):
 
 * **Workspace Admin** - Can invite Postman teammates or external users to personal, private, team, and public workspaces, and assign them a workspace role. If a Workspace Admin invites an external user to a workspace, Postman will share this request with [Team Admins](https://learning.postman.com/docs/collaborating-in-postman/roles-and-permissions/#team-roles). Once approved, an invite to join the team will be sent to the individual.
-* **Workspace Editor** - Can invite external users to team and public workspaces, but can't assign them workspace roles. For private workspaces, Workspace Editors using the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) can copy and share a link to the workspace with a teammate, who can then [request access to the workspace](#accessing-private-workspaces).
-* **Workspace Viewer** - Can't invite teammates to private, team, or public workspaces. For private workspaces, Workspace Viewers using the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) can copy and share a link to the workspace with a teammate, who can then [request access to the workspace](#accessing-private-workspaces).
+* **Workspace Editor** - Can invite external users to team and public workspaces, but can't assign them workspace roles. For private workspaces, Workspace Editors using the [Postman web app](/docs/getting-started/installation/installation-and-updates/#using-the-postman-web-app) can copy and share a link to the workspace with a teammate, who can then [request access to the workspace](#accessing-private-workspaces).
+* **Workspace Viewer** - Can't invite teammates to private, team, or public workspaces. For private workspaces, Workspace Viewers using the [Postman web app](/docs/getting-started/installation/installation-and-updates/#using-the-postman-web-app) can copy and share a link to the workspace with a teammate, who can then [request access to the workspace](#accessing-private-workspaces).
 
 > When you invite a collaborator to a personal workspace, it's automatically converted into a team workspace.
 
@@ -244,7 +244,7 @@ To remove a pinned collection, hover over the collection and select the remove p
 
 The list of avatars in the Postman header shows you who's active in your workspace. If you're in a private or team workspace, this list will include all team members who are currently active in the workspace, and all team members who are currently inactive, but have visited the workspace before.
 
-If you're in a public workspace, this list will include all active users with [public profiles](/docs/getting-started/postman-account/#making-your-profile-public) and users who've chosen to remain anonymous by not enabling their public profile.
+If you're in a public workspace, this list will include all active users with [public profiles](/docs/getting-started/installation/postman-account/#making-your-profile-public) and users who've chosen to remain anonymous by not enabling their public profile.
 
 <img alt="Active users in public workspace" src="https://assets.postman.com/postman-docs/presence-public-workspace-v9.19.jpg" width="300px"/>
 

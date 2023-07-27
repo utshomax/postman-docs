@@ -110,7 +110,7 @@ To turn off SSL verification for the request, do the following:
 
 ![SSL certificate verification](https://assets.postman.com/postman-docs/v10/certificates-ssl-verification-v10.jpg)
 
-> You can turn off SSL verification globally in the [Postman settings](/docs/getting-started/settings/) on the **General** tab.
+> You can turn off SSL verification globally in the [Postman settings](/docs/getting-started/installation/settings/) on the **General** tab.
 
 If SSL verification is turned off, you can hover over the network icon <img alt="Network information error icon" src="https://assets.postman.com/postman-docs/icon-globe-error.jpg#icon" width="16px"> in the response pane to get details about any certificate errors or warnings.
 
