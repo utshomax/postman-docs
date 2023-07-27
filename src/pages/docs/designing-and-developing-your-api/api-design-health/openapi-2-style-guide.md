@@ -1,5 +1,5 @@
 ---
-title: "OpenAPI 2.0 style guide for API Design Health"
+title: "OpenAPI 2 style guide for API Design Health"
 updated: 2023-08-15
 ---
 
