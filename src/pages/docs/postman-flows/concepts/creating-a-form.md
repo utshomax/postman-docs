@@ -14,18 +14,18 @@ In order to use any API, a **request** must be made to either send, update, dele
 
 ### Requests
 
-In Postman Flows, the **Send Request** block allows a request to be selected from a **Collection**.
+In Postman Flows, the **Send Request** block enables you to select a request from a [collection](/docs/collections/collections-overview/).
 
 ![Selecting a request](https://assets.postman.com/postman-labs-docs/concepts/selecting-a-request.gif)
 
-For this example, we're using [Postman's echo service API](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation). The request being run returns two values, `foo1` with a value of `bar1` and `foo2` with a value of `bar2`. These can be viewed by hovering over the **Success** output.
+This example uses [Postman's echo service API](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation). The request being run returns two values, `foo1` with a value of `bar1`, and `foo2` with a value of `bar2`. These can be viewed by hovering over the **Success** output.
 
 ### Variables
 
-**Varaibles** are a value that can change from one request to another. These can be things like IDs, usernames, numbers, etc.
+**Variables** are values that can change from one request to another. These can be things like IDs, usernames, and numbers.
 
-Using the same Collection as above, selecting a request that contains a variable will automatically open the variables part of the Send Request block and allow values to be entered.
+Use the same collection you used earlier to select a request that has a variable. The variables part of the **Send Request** block opens automatically and enables you to enter values.
 
 ![Filling in a variable](https://assets.postman.com/postman-labs-docs/concepts/request-with-variables-updated.gif)
 
-Just like in the earlier reuqest, the values can be seen from the Success output, but this time, the values returned are whatever the variables `foo1` and `foo2` are set to.
+Similar to the earlier request, you can see the values from the **Success** output, but this time the values returned are whatever the variables `foo1` and `foo2` are set to.

@@ -8,11 +8,11 @@ updated: 2023-05-24
 * [Blocks](#blocks)
 * [Connections](#connections)
 
-All Flows are made up of **blocks** and **connections**. Blocks can create information, make a decision, or perform an action. Blocks work together using connections, which enable multiple blocks to do a task together.
+All flows are made up of **blocks** and **connections**. Blocks can create information, make a decision, or perform an action. Blocks work together using connections, which enable multiple blocks to do a task together.
 
 ### Blocks
 
-All blocks have either an input, an output or both. Inputs are on the left side of a block, and outputs are on the right. The [list of all blocks](/docs/postman-flows/reference/blocks-list/) has an explanation and example for every block in Flows.
+All blocks have either an input, an output, or both. Inputs are on the left side of a block, and outputs are on the right. The [list of all blocks](/docs/postman-flows/reference/blocks-list/) has an explanation and example for every block in Postman Flows.
 
 There are three ways to add a new block:
 
@@ -26,7 +26,7 @@ Any of these actions will open up the block list which you can select from and t
 
 When you open a new flow, the first block you'll see if the **Start** block.
 
-The Start block has a single output. When you press the **Run** button, this block will send information through a connection to the next block, causing it run.
+The **Start** block has a single output. When you press the **Run** button, this block sends information through a connection to the next block, causing it to run.
 
 ### Connections
 
