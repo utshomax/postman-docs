@@ -7,6 +7,9 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Validate Response Data With JSON Schema"
+    url: "https://youtu.be/IbyYUTBDVXQ"
+  - type: link
     name: "Postman Intergalactic | Design and Prototype an API in Postman"
     url: "https://youtu.be/r4kb3jOSsmk"
   - type: link
