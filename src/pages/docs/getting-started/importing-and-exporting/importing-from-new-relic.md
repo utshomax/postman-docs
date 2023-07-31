@@ -52,7 +52,7 @@ Importing from New Relic requires you to get your API key (User key) from New Re
 1. (Optional) Select **Show Import Settings** to configure how collections are generated from the New Relic data.
 1. When you're ready, select **Import**.
 
-<img alt="Get a New Relic Ingest key" src="https://assets.postman.com/postman-docs/v10/new-relic-import-v10-17.jpg" width="650px">
+<img alt="Get a New Relic Ingest key" src="https://assets.postman.com/postman-docs/v10/new-relic-import-v10-17a.jpg" width="650px">
 
 Each service you selected is imported as a collection in Postman, and an **Import Complete** message displays in the footer. In the message, select the link icon
 <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-external-link.jpg#icon" width="18px"> next to a collection to open the imported collection.

@@ -75,8 +75,7 @@ This integration supports importing OpenAPI 3.0 definitions for both HTTP and RE
 
 To import an API from AWS API Gateway, do the following:
 
-1. Select **Import**.
-1. Select **API Gateway**, then select **AWS API Gateway**.
+1. Select **Import** in the sidebar, then select **AWS API Gateway**.
 1. Connect to the AWS API Gateway as follows.
 
 When importing an API from AWS API Gateway, you can choose to authenticate by creating an AWS IAM role or by using an AWS access key. Follow the steps for your chosen method:
@@ -162,8 +161,7 @@ You can import a definition from a connected Azure API Management service to an 
 
 To import an API definition from Azure API Management, do the following:
 
-1. Select **Import**.
-1. Select **API Gateway**, then select **Azure API Management**.
+1. Select **Import** in the sidebar, then select **Azure API Management**.
 1. You'll be prompted to authorize Postman to access your Microsoft Azure account. After you grant access, you can close the browser tab and return to Postman.
 1. Enter information about the Azure API Management service you want to import a definition from:
 
