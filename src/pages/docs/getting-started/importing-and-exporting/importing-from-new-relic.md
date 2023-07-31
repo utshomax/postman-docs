@@ -21,6 +21,7 @@ contextual_links:
     name: "Differences between Postman Collections and the collection format"
     url: "https://blog.postman.com/differences-between-postman-collections-and-collection-format/"
 ---
+> Importing from New Relic is available on [Postman Free, Basic, and Professional plans](https://www.postman.com/pricing/).
 
 New Relic is an application performance management solution to monitor real-time and trending data for your processes or web apps. You can import data from New Relic into a Postman Collection.
 
