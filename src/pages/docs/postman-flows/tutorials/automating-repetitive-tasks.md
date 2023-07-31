@@ -53,7 +53,7 @@ Fork this environment into your workspace:
 
     * Connect a **Create Variable** block and enter `Customer Email`.
 
-        ![Create a variable](https://assets.postman.com/postman-docs/v10/flows-tut-rep-create-variable-v10.gif)
+        <img src="https://assets.postman.com/postman-docs/v10/flows-tut-rep-create-variable-v10.gif" alt="Create a variable" fetchpriority="low" loading="lazy" >
 
     * Connect three **Send Request** blocks to the **Start** block, arranged vertically.
 
@@ -63,11 +63,11 @@ Fork this environment into your workspace:
     * Select the **gdpr-delete-email** environment.
     * For the `email` variable, add a **Get Variable** block and select **Customer Email**.
 
-        ![Get the variable](https://assets.postman.com/postman-docs/v10/flows-tut-rep-get-variable-v10.gif)
+        <img src="https://assets.postman.com/postman-docs/v10/flows-tut-rep-get-variable-v10.gif" alt="Get the variable" fetchpriority="low" loading="lazy" >
 
     * Create an **If** block next to the **Send Request** block. Add a **Select** block to the **If** block and change `value1` to `contacts`.
 
-        ![Add an If block](https://assets.postman.com/postman-docs/v10/flows-tut-rep-if-block-v10-2.gif)
+        <img src="https://assets.postman.com/postman-docs/v10/flows-tut-rep-if-block-v10-2.gif" alt="Add an If block" fetchpriority="low" loading="lazy" >
 
     * Connect the **Send Request** block’s **Success** output to the **If** block’s `contacts` and **Data** inputs. Next to `contacts`, select `body.data`. In the FQL window, enter `$count(contacts) > 0`.
     * Connect the **If** block’s **FALSE** output to an **Output** block.

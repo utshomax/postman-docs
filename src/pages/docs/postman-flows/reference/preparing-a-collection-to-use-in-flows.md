@@ -8,11 +8,11 @@ updated: 2023-05-24
 * [Adding saved examples to requests](#adding-saved-examples-to-requests)
 * [Adding variables to requests](#adding-variables-to-requests)
 
-**Collections** and their requests, are an integral part of Flows.
+**Collections** and their requests are an integral part of Postman Flows.
 
 ### Adding saved examples to requests
 
-Once data is **Selected**, it can be used with other blocks. Sending it to the Output block is great for seeing that the request worked, but it doesn't actually do anything with the value.
+Once data is **selected**, it can be used with other blocks. Sending it to an **Output** block is great for seeing that the request worked, but it doesn't actually do anything with the value.
 
 ![Using selected data](https://assets.postman.com/postman-labs-docs/concepts/using-selected-data.gif)
 
