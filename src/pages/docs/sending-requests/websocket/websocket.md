@@ -18,6 +18,9 @@ contextual_links:
     name: "Save and Document WebSocket Requests in Collections"
     url: "https://blog.postman.com/save-and-document-websocket-requests-in-collections/"
   - type: link
+    name: "Powering home automation with WebSocket APIs"
+    url: "https://blog.postman.com/powering-home-automation-with-websocket-apis/"
+  - type: link
     name: "Postman Supports Socket.IO"
     url: "https://blog.postman.com/postman-now-supports-socket-io/"
 ---
