@@ -25,10 +25,8 @@ The Echo API includes endpoints to test different request methods, parameters, a
 
 To test the Echo API in a REST request, do the following:
 
-1. Open a new request in Postman and enter the following path in the URL field:
-    ```http
-    https://postman-echo.com/get
-    ```
+1. Open a new request in Postman and enter the path `https://postman-echo.com/get` in the URL field:
+
 1. Select the `GET` method, then select __Send__.
 
 The Echo API will return a JSON object that has details from the request.
