@@ -1,6 +1,6 @@
 ---
 title: "Collaborating in team workspaces"
-updated: 2022-06-15
+updated: 2023-07-31
 page_id: "collaborating_in_team_workspaces"
 warning: false
 contextual_links:
