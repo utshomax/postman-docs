@@ -46,9 +46,9 @@ To get up and running with Postman, check out the following:
 
 * Create a Postman account. Then, learn more about [managing your account](/docs/getting-started/installation/postman-account/), [customizing your Postman profile](/docs/getting-started/installation/postman-profile/), and [setting up Postman](/docs/getting-started/installation/settings/).
 
-* A great place to find APIs is the Postman Public API Network. Learn more on how to use it at [exploring the Public API Network](/docs/getting-started/first-steps/exploring-public-api-network/).
+* A great place to find APIs is the Postman Public API Network. Learn more on how to use it at [explore the Public API Network](/docs/getting-started/first-steps/exploring-public-api-network/).
 
-* After you've created a few requests, you'll want to organize them into collections and workspaces. Check out [creating your first collection](/docs/getting-started/first-steps/creating-the-first-collection/) and [creating a workspace](/docs/getting-started/first-steps/creating-your-first-workspace/).
+* After you've created a few requests, you'll want to organize them into collections and workspaces. Check out [create your first collection](/docs/getting-started/first-steps/creating-the-first-collection/) and [create a workspace](/docs/getting-started/first-steps/creating-your-first-workspace/).
 
 * You can also import requests and other data into Postman, and export it for use with other programs. Check out [importing and exporting data](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/).
 

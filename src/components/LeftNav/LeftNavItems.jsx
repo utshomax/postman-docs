@@ -87,7 +87,7 @@ export const leftNavItems = [
             url: '/docs/getting-started/first-steps/sign-in-to-postman/',
           },
           {
-            name: 'Creating your first collection',
+            name: 'Create your first collection',
             url: '/docs/getting-started/first-steps/creating-the-first-collection/',
           },
           {
@@ -95,11 +95,11 @@ export const leftNavItems = [
             url: '/docs/getting-started/first-steps/work-with-your-team/',
           },
           {
-            name: 'Exploring the Public API Network',
+            name: 'Explore the Public API Network',
             url: '/docs/getting-started/first-steps/exploring-public-api-network/',
           },
           {
-            name: 'Creating a workspace',
+            name: 'Create your first workspace',
             url: '/docs/getting-started/first-steps/creating-your-first-workspace/',
           },
           {

@@ -1,5 +1,5 @@
 ---
-title: "Creating workspaces"
+title: "Create workspaces"
 updated: 2023-05-22
 contextual_links:
   - type: section
