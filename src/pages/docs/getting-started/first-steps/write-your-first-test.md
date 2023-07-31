@@ -38,7 +38,7 @@ To write a test, do the following:
 
 1. In the request, go to the **Tests** tab.
 
-1. In the snippet section to the right, select the snippet `Status code: Code is 200`. This will enter the following test code:
+1. In the snippet section to the right, select the snippet **Status code: Code is 200**. This will enter the following test code:
     <!-- TODO: image -->
 1. Select **Send**.
 
