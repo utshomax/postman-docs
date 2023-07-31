@@ -75,7 +75,7 @@ export const leftNavItems = [
             url: '/docs/getting-started/first-steps/get-postman/',
           },
           {
-            name: 'Sending your first API request',
+            name: 'Send your first API request',
             url: '/docs/getting-started/first-steps/sending-the-first-request/',
           },
           {

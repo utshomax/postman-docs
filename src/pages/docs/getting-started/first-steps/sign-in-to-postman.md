@@ -31,3 +31,7 @@ contextual_links:
 ---
 
 TODO
+
+sign up for an account and sign in to Postman
+
+Having a free Postman account enables you to [sync](/docs/getting-started/basics/syncing/) and back up your work so that you can access it from different machines. With a Postman account, you can also [collaborate](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) with others on your API projects.

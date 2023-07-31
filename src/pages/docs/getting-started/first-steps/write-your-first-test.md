@@ -30,4 +30,20 @@ contextual_links:
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
 ---
 
-TODO
+_API tests_ are a way to programmatically assert that your API is behaving as you expect it to. For example, you might write a test to validate your API's error handling by sending a request with incomplete data or wrong parameters. You can write test scripts for your Postman API requests in JavaScript and add them to individual [requests](/docs/sending-requests/requests/), [collections](/docs/sending-requests/intro-to-collections/), and folders in a collection. Postman includes code snippets you can add and then change to suit your test logic.
+
+To write a test, do the following:
+
+1. Open an API request. If you don't have one, try [sending your first request](/docs/getting-started/first-steps/sending-the-first-request/).
+
+1. In the request, go to the **Tests** tab.
+
+1. In the snippet section to the right, select the snippet `Status code: Code is 200`. This will enter the following test code:
+    <!-- TODO: image -->
+1. Select **Send**.
+
+After the request runs, the test will run. Go to the **Test Results** section of the response, and you will see the test passed, because the request was successful.
+
+![Request Test Tab](https://assets.postman.com/postman-docs/request-test-tab-v9.jpg) <!--TODO: replace -->
+
+To learn more about writing tests, go to [Writing tests](/docs/writing-scripts/test-scripts/).

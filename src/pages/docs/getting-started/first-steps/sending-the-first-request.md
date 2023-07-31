@@ -1,5 +1,5 @@
 ---
-title: "Sending your first API request"
+title: "Send your first API request"
 updated: 2023-05-24
 contextual_links:
   - type: section

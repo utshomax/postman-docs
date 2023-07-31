@@ -1,7 +1,6 @@
 ---
 title: "Troubleshoot app issues"
-warning: false
-updated: 2023-04-18
+updated: 2023-07-27
 ---
 
 Sometimes things go wrong! If you're having trouble with the Postman app, there are several resources that can help you diagnose and fix the problem.

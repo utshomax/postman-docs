@@ -1,6 +1,6 @@
 ---
 title: "Welcome to Postman"
-updated: 2023-02-27
+updated: 2023-07-27
 contextual_links:
   - type: section
     name: "Additional resources"
