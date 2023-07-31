@@ -30,4 +30,17 @@ contextual_links:
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
 ---
 
-TODO
+Are you working with others? Postman provides a variety of tools to enable and enhance [collaboration within your team](https://www.postman.com/api-platform/api-collaboration/).
+
+When you sign up for Postman as an individual, you create your own [Postman account](/docs/getting-started/installation/postman-account/). To collaborate, you join a team. There are several ways you can join a team. You could be sent an email invite or given an invite link from someone else on a team. Or your organization may add you to a team using SSO, SCIM, or by automatically adding you based on your verified domain name.
+
+Teams have _team workspaces_, which are shared workspaces where your team can work together on APIs, collections, environments, integrations, mocks, monitors, and flows. Team workspaces can act as a single source of truth for your API projects and encourage collaboration within your team. You can collaborate in several ways:
+
+* [Move elements into a team workspace](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces) to share them with your team.
+* [Watch team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces) to be notified when teammates make changes.
+* [Add comments](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/) to discuss work with your team.
+* [Share your work](https://learning.postman.com/docs/collaborating-in-postman/sharing/) with collaborators or external users.
+
+Each user on a team is assigned roles. These define your level of access to a Postman element, like a collection or an API. A Developer role gives you access to team resources. Elevated roles like Admin and Billing can do things like change settings or payment methods. To learn more about roles, visit [defining roles](/docs/collaborating-in-postman/roles-and-permissions/).
+
+To learn more about working with your team, visit [collaborating in team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/).
