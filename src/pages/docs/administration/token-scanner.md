@@ -15,6 +15,9 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
+    name: "How we’re protecting your Postman API keys in GitLab"
+    url: "https://blog.postman.com/protecting-your-postman-api-keys-in-gitlab/"
+  - type: link
     name: "2 Big Improvements to the Postman Token Scanner"
     url: "https://blog.postman.com/2-big-improvements-to-the-postman-token-scanner/"
   - type: subtitle
