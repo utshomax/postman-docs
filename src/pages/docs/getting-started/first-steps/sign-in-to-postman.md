@@ -30,8 +30,10 @@ contextual_links:
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
 ---
 
-TODO
+If you're using the Postman desktop app and not signed in, you're in the [lightweight Postman API Client](/docs/getting-started/basics/using-api-client/), which is a space where you can build and send requests. If you want to sync your work, work with collections, collaborate with others, or use other features, sign up for an account and sign in to Postman.
 
-sign up for an account and sign in to Postman
+To create an account, select **Create Account** in the upper-right corner. You can sign up using an email address or using your Google account. You'll be prompted to provide some information about yourself, including your name and role, to help customize your Postman experience. Enter your details and select **Continue**.
 
-Having a free Postman account enables you to [sync](/docs/getting-started/basics/syncing/) and back up your work so that you can access it from different machines. With a Postman account, you can also [collaborate](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) with others on your API projects.
+You can sign in to the Postman desktop app by selecting **Sign In** in the upper-right corner. You can also go to [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner of the page. This enables you to use Postman web app, and carry out your API development and testing tasks in your web browser.
+
+To learn more about creating and updating your Postman account, visit [managing your account](/docs/getting-started/installation/postman-account/).
