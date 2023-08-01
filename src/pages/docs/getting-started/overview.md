@@ -40,7 +40,7 @@ Welcome! This section of the Learning Center contains topics about how to get st
 
 To get up and running with Postman, check out the following:
 
-* You can get started right away by using the Postman web app, but you can also install the Postman desktop app. See [Installing and updating Postman](/docs/getting-started/installation/installation-and-updates/).
+* You can get started right away by using the [Postman web app](https://go.postman.co/), but you can also install the Postman desktop app. See [Installing and updating Postman](/docs/getting-started/installation/installation-and-updates/).
 
 * Once you're in Postman, check out how to [navigate Postman](/docs/getting-started/basics/navigating-postman/). After you're familiar with the interface, try [sending your first request](/docs/getting-started/first-steps/sending-the-first-request/).
 
