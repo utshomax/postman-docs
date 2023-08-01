@@ -20,8 +20,8 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Introducing the Next-Generation Postman URL Processor"
-    url:  "https://blog.postman.com/introducing-the-next-generation-postman-url-processor/"
+    name: "What are HTTP headers?"
+    url: "https://blog.postman.com/what-are-http-headers/"
   - type: subtitle
     name: "Public workspaces"
   - type: link
