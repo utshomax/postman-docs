@@ -43,6 +43,8 @@ Teams have _team workspaces_, which are shared workspaces where your team can wo
 * [Add comments](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/) to discuss work with your team.
 * [Share your work](https://learning.postman.com/docs/collaborating-in-postman/sharing/) with collaborators or external users.
 
-Each user on a team is assigned roles. These define your level of access to a Postman element, like a collection or an API. A Developer role gives you access to team resources. Elevated roles like Admin and Billing can do things like change settings or payment methods. To learn more about roles, visit [defining roles](/docs/collaborating-in-postman/roles-and-permissions/).
+By default, team workspaces are visible to everyone in your company or organization who uses Postman. You can use [private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#accessing-private-workspaces) and [user groups](/docs/collaborating-in-postman/user-groups/) to control who can view or make changes in a workspace.
+
+In addition, each user on a team is assigned roles. These define your level of access to a Postman element, like a collection or an API. A Developer role gives you access to team resources. Elevated roles like Admin and Billing can do things like change settings or payment methods. To learn more about roles, visit [defining roles](/docs/collaborating-in-postman/roles-and-permissions/).
 
 To learn more about working with your team, visit [collaborating in team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/).
