@@ -95,12 +95,12 @@ export const leftNavItems = [
             url: '/docs/getting-started/first-steps/work-with-your-team/',
           },
           {
-            name: 'Explore the Public API Network',
-            url: '/docs/getting-started/first-steps/exploring-public-api-network/',
-          },
-          {
             name: 'Create your first workspace',
             url: '/docs/getting-started/first-steps/creating-your-first-workspace/',
+          },
+          {
+            name: 'Explore the Public API Network',
+            url: '/docs/getting-started/first-steps/exploring-public-api-network/',
           },
           {
             name: 'Take your next steps in Postman',
