@@ -34,4 +34,4 @@ Postman is available as a native desktop app for Mac (Intel or Apple silicon), W
 
 To get the latest version of the Postman desktop app, visit the [download page](https://www.postman.com/downloads/) and select **Download** for your platform.
 
-To learn more, check out [Installing and updating Postman](/docs/installation/installation-and-updates/).
+To learn more, check out [Installing and updating Postman](/docs/getting-started/installation/installation-and-updates/).
