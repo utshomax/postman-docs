@@ -34,16 +34,20 @@ _API tests_ are a way to programmatically assert that your API is behaving as yo
 
 To write a test, do the following:
 
-1. Open an API request. If you don't have one, try [sending your first request](/docs/getting-started/first-steps/sending-the-first-request/).
+1. Go to the request you made in [sending your first request](/docs/getting-started/first-steps/sending-the-first-request/).
 
 1. In the request, go to the **Tests** tab.
 
 1. In the snippet section to the right, select the snippet **Status code: Code is 200**. This will enter the following test code:
-    <!-- TODO: image -->
+
+    ```javascript
+    pm.test("Status code is 200", function () {
+        pm.response.to.have.status(200);
+    });
+    ```
+
 1. Select **Send**.
 
-After the request runs, the test will run. Go to the **Test Results** section of the response, and you will see the test passed, because the request was successful.
-
-![Request Test Tab](https://assets.postman.com/postman-docs/request-test-tab-v9.jpg) <!--TODO: replace -->
+After the request runs, the test will run. Go to the **Test Results** section of the response to review the results of your test.
 
 To learn more about writing tests, go to [Writing tests](/docs/writing-scripts/test-scripts/).
