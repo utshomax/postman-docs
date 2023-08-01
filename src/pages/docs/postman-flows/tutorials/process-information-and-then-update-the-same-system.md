@@ -18,11 +18,11 @@ Many companies use databases on platforms like [Airtable](https://airtable.com/)
 
 ## Contents
 
-* [Objective](#objective)
+* [Goal](#Goal)
 * [Prerequisites](#prerequisites)
 * [Creating the flow](#creating-the-flow)
 
-## Objective
+## Goal
 
 Create a flow that receives a user-provided email address, then finds and updates the corresponding record in a database.
 
@@ -30,10 +30,10 @@ Create a flow that receives a user-provided email address, then finds and update
 
 * An Airtable personal access token.
 * A table in Airtable with at least one record.
-    * The fields should be named **Email**, **Name**, and **Checked In?**.
-    * The value of the **Email** field should be `test@email.com`.
-    * The **Email** and **Name** field types should be **Single line text**.
-    * The **Checked In?** field type should be **Checkbox**.
+    * Name the fields `Email`, `Name`, and `Checked In?`.
+    * In the **Email** field, enter `test@email.com`.
+    * For the **Email** and **Name** fields, select the **Single line text** field type.
+    * For the **Checked In?** fields, select the **Checkbox** field type.
 
 ## Creating the flow
 <!-- TODO: Recreate this collection and environment in a public flows workspace, then replace the beta links below with public links. -->

@@ -20,11 +20,11 @@ You can see the completed flow [here](https://www.postman.com/postman/workspace/
 
 ## Contents
 
-* [Objective](#objective)
+* [Goal](#Goal)
 * [Creating the flow](#creating-the-flow)
 * [Prerequisites](#prerequisites)
 
-## Objective
+## Goal
 
 Create a flow that quantifies a stock's performance by comparing it to a market index.
 

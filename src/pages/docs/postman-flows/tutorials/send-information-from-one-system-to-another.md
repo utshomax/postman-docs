@@ -18,11 +18,11 @@ Developers often integrate two or more APIs to leverage their individual feature
 
 ## Contents
 
-* [Objective](#objective)
+* [Goal](#Goal)
 * [Prerequisites](#prerequisites)
 * [Creating the flow](#creating-the-flow)
 
-## Objective
+## Goal
 
 Create a flow that gets a list of customer profiles from [Stripe](http://www.stripe.com) and adds them as contacts to a database in [Brevo](http://www.brevo.com).
 
