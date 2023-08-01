@@ -32,7 +32,9 @@ contextual_links:
 
 Are you working with others? Postman provides a variety of tools to enable and enhance [collaboration within your team](https://www.postman.com/api-platform/api-collaboration/).
 
-When you sign up for Postman as an individual, you create your own [Postman account](/docs/getting-started/installation/postman-account/). To collaborate, you join a team. There are several ways you can join a team. You could be sent an email invite or given an invite link from someone else on a team. Or your organization may add you to a team using SSO, SCIM, or by automatically adding you based on your verified domain name.
+When you sign up for Postman as an individual, you create your own [Postman account](/docs/getting-started/installation/postman-account/). To collaborate, you join a team. Usually a team includes everyone at your company or organization that uses Postman (not just the group you belong to.)
+
+There are several ways you can join a team. You could be sent an email invite or given an invite link from someone else on a team. Or your organization may add you to a team using SSO, SCIM, or by automatically adding you based on your verified domain name.
 
 Teams have _team workspaces_, which are shared workspaces where your team can work together on APIs, collections, environments, integrations, mocks, monitors, and flows. Team workspaces can act as a single source of truth for your API projects and encourage collaboration within your team. You can collaborate in several ways:
 
