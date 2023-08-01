@@ -37,7 +37,7 @@ When you sign up for Postman as an individual, you create your own [Postman acco
 Teams have _team workspaces_, which are shared workspaces where your team can work together on APIs, collections, environments, integrations, mocks, monitors, and flows. Team workspaces can act as a single source of truth for your API projects and encourage collaboration within your team. You can collaborate in several ways:
 
 * [Move elements into a team workspace](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces) to share them with your team.
-* [Watch team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces) to be notified when teammates make changes.
+* [Watch team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#watching-team-workspaces) to be notified when teammates make changes.
 * [Add comments](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/) to discuss work with your team.
 * [Share your work](https://learning.postman.com/docs/collaborating-in-postman/sharing/) with collaborators or external users.
 
