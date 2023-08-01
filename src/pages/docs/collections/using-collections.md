@@ -181,7 +181,7 @@ To share a collection with other users, you can:
 * Move the collection to a shared workspace by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, then selecting **Move**. Learn more about [moving Postman elements](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces).
 * ([Enterprise](https://www.postman.com/pricing/)) Add the collection to your team's [Private API Network](/docs/collaborating-in-postman/private-api-network/private-network-requests/#requesting-to-add-a-collection-from-the-workbench).
 
-> To share a URL to a collection, folder, or request with an active environment selected, [choose an environment using the environment selector](/docs/sending-requests/managing-environments/#selecting-an-active-environment), copy the element's link to your clipboard, then send the link to team members you want to share with.
+> ([Free, Basic, and Professional teams only](https://www.postman.com/pricing/)) To share a URL to a collection, folder, or request with an active environment selected, [choose an environment using the environment selector](/docs/sending-requests/managing-environments/#selecting-an-active-environment), copy the element's link to your clipboard, then send the link to team members you want to share with.
 
 ### Tagging a collection
 
