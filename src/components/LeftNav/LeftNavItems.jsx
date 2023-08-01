@@ -1385,7 +1385,7 @@ export const leftNavItems = [
         ]
       },
       {
-        name: 'Echo API',
+        name: 'The Postman Echo service',
         url: '/docs/developer/echo-api/',
       },
       {
