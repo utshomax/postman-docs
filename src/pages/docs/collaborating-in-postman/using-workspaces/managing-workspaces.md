@@ -244,7 +244,7 @@ To remove a pinned collection, hover over the collection and select the remove p
 
 The list of avatars in the Postman header shows you who's active in your workspace. If you're in a private or team workspace, this list will include all team members who are currently active in the workspace, and all team members who are currently inactive, but have visited the workspace before.
 
-If you're in a public workspace, this list will include all active users with [public profiles](/docs/getting-started/installation/postman-account/#making-your-profile-public) and users who've chosen to remain anonymous by not enabling their public profile.
+If you're in a public workspace, this list will include all active users with [public profiles](/docs/getting-started/installation/postman-profile/#making-your-profile-public) and users who've chosen to remain anonymous by not enabling their public profile.
 
 <img alt="Active users in public workspace" src="https://assets.postman.com/postman-docs/presence-public-workspace-v9.19.jpg" width="300px"/>
 
