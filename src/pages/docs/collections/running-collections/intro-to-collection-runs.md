@@ -46,6 +46,9 @@ You can configure the Collection Runner to meet your development needs. You can 
 You can manually run the requests in a [collection](/docs/collections/using-collections/#creating-collections) or a [folder](/docs/collections/using-collections/#adding-folders-to-a-collection).
 
 1. Select **Collections** in the sidebar and select the collection or folder you want to run.
+
+    > You can also run a collection or folder that's linked to an API. Learn more about [adding a collection to an API](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/#adding-a-collection).
+
 1. On the **Overview** tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
 
     <img alt="Select Run from the collection overview" src="https://assets.postman.com/postman-docs/v10/collection-runner-button.jpg" width="350px"/>

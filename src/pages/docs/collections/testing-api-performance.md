@@ -44,6 +44,9 @@ Before you configure a performance test, [create a collection](/docs/collections
 To configure a performance test in the Postman desktop app, do the following:
 
 1. Select **Collections** in the sidebar and select the collection or folder you want to use for performance testing.
+
+    > You can also use a collection or folder that's linked to an API to run a performance test. Learn more about [adding a collection to an API](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/#adding-a-collection).
+
 1. On the **Overview** tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
 
     <img alt="Select Run from the collection overview" src="https://assets.postman.com/postman-docs/v10/collection-runner-button.jpg" width="350px"/>
