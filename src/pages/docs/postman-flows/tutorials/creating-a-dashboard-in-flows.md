@@ -20,7 +20,7 @@ You can see the completed flow [here](https://www.postman.com/postman/workspace/
 
 ## Contents
 
-* [Goal](#Goal)
+* [Goal](#goal)
 * [Creating the flow](#creating-the-flow)
 * [Prerequisites](#prerequisites)
 

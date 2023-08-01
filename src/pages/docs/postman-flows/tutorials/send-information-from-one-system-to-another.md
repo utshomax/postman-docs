@@ -18,7 +18,7 @@ Developers often integrate two or more APIs to leverage their individual feature
 
 ## Contents
 
-* [Goal](#Goal)
+* [Goal](#goal)
 * [Prerequisites](#prerequisites)
 * [Creating the flow](#creating-the-flow)
 
