@@ -91,10 +91,6 @@ export const leftNavItems = [
             url: '/docs/getting-started/first-steps/creating-the-first-collection/',
           },
           {
-            name: 'Work with your team in Postman',
-            url: '/docs/getting-started/first-steps/work-with-your-team/',
-          },
-          {
             name: 'Create your first workspace',
             url: '/docs/getting-started/first-steps/creating-your-first-workspace/',
           },
@@ -128,6 +124,10 @@ export const leftNavItems = [
           {
             name: 'About the Postman VS Code extension',
             url: '/docs/getting-started/basics/about-vs-code-extension/',
+          },
+          {
+            name: 'Work with your team in Postman',
+            url: '/docs/getting-started/first-steps/work-with-your-team/',
           },
           {
             name: 'Syncing your work',
