@@ -41,7 +41,7 @@ This example flow uses a secret key to access the OpenAI API. To get your secret
 
 By assigning your secret key value to a variable, you can keep your key secure and easily include it in multiple **Send Request** blocks and flows.
 
-1. In  your Postman workspace, select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> in the [workbench](/docs/getting-started/navigating-postman/#environment-selector-and-environment-quick-look).
+1. In  your Postman workspace, select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> in the [workbench](/docs/getting-started/basics/navigating-postman/#environment-selector-and-environment-quick-look).
 1. Next to **Globals**, select **Edit** (or **Add**).
 1. Add a variable named `auth` and paste `Bearer <your secret key>` in the **INITIAL VALUE** field. For example: `Bearer ab-123456789876543212345678987654321`
 1. Under **TYPE**, select **secret** from the dropdown list.
@@ -53,7 +53,7 @@ By assigning your secret key value to a variable, you can keep your key secure a
 
 ## Create a collection and a request
 
-1. [Create a collection](/docs/getting-started/creating-the-first-collection/) named `OpenAI Collection` and add a GET request with this URL: `https://api.openai.com/v1/models`.
+1. [Create a collection](/docs/getting-started/first-steps/creating-the-first-collection/) named `OpenAI Collection` and add a GET request with this URL: `https://api.openai.com/v1/models`.
 
     ![Create a collection and request](https://assets.postman.com/postman-docs/v10/flow-auth-collection-v10-2.jpg)
 

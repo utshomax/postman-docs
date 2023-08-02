@@ -166,7 +166,7 @@ Postman uses the information you pass to `pm.visualizer.set()` to render an HTML
 
 You can debug a visualization in Postman by right-clicking in the __Visualize__ area and choosing __Inspect visualization__. This will open the Visualizer Developer Tools attached to the sandbox. You can use it in the same way as debugging a web page.
 
-> The Visualizer Developer Tools are only available in the [Postman desktop app](/docs/getting-started/installation-and-updates/).
+> The Visualizer Developer Tools are only available in the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/).
 
 ![Debugging Visualizers in Postman](https://assets.postman.com/postman-docs/v10/inspect-vis-v10.jpg)
 

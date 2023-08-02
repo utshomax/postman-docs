@@ -17,7 +17,7 @@ The **API Security** report dashboard provides metrics relevant to the [API Secu
 * [Public APIs](#public-apis)
 * [Private Network APIs](#private-network-apis)
 
-You can use these reports to answer questions about the security posture of APIs owned by your team that are part of the [Public API Network](/docs/getting-started/exploring-public-api-network/) and your team's [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/).
+You can use these reports to answer questions about the security posture of APIs owned by your team that are part of the [Public API Network](/docs/getting-started/first-steps/exploring-public-api-network/) and your team's [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/).
 
 ## API Security
 
