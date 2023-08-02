@@ -1,5 +1,5 @@
 ---
-title: "Creating workspaces"
+title: "Create workspaces"
 updated: 2023-05-22
 contextual_links:
   - type: section
@@ -26,7 +26,7 @@ Workspaces enable you to organize your Postman work and collaborate with teammat
 
 <img alt="Workspaces selected" src="https://assets.postman.com/postman-docs/v10/workspace-overview-switcher-selected-v10-2.jpg"/>
 
-With a [Postman account](/docs/getting-started/postman-account/) you can create various types of workspaces:
+With a [Postman account](/docs/getting-started/installation/postman-account/) you can create various types of workspaces:
 
 * **Personal** - Personal workspaces are visible to you. If you're on an Enterprise team, [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) will also have access to any personal workspaces created within the team.
 * **Private** - Private workspaces are visible to you and to any team members you invite to them ([Professional and Enterprise plans](https://www.postman.com/pricing)).

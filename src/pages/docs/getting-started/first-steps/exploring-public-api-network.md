@@ -1,7 +1,6 @@
 ---
-title: "Exploring the Public API Network"
+title: "Explore the Public API Network"
 order: 6
-page_id: "exploring_public_api_network"
 updated: 2023-07-18
 contextual_links:
   - type: section
