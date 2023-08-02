@@ -100,16 +100,19 @@
          },
        ].concat(meta)}
      >
-      <script type="text/javascript" src="https://cdn.cookielaw.org/consent/1cef3369-6d07-4928-b977-2d877eb670c4/OtAutoBlock.js" />
-      <link rel="preconnect" href="https://voyager.postman.com" crossorigin />
+      {/* Combining the two provides an opportunity to further reduce the perceived latency of cross-origin requests. */}
+      <link rel="preconnect" href="https://voyager.postman.com" crossOrigin />
+      <link rel="dns-prefetch" href="https://voyager.postman.com" />
       <link
         href="https://voyager.postman.com/font/fonts.css"
-        rel="stylesheet"
+        rel="preload"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'"
       />
-      <noscript>{`<link href="https://voyager.postman.com/font/fonts.css" rel="stylesheet" type="text/css" />`}</noscript>
+      <noscript>{`<link href="https://voyager.postman.com/font/fonts.css" rel="stylesheet" as="style" type="text/css" />`}</noscript>
        {/* OneTrust */}
-
-       <script async src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="1cef3369-6d07-4928-b977-2d877eb670c4" />
+      <script async type="text/javascript" src="https://cdn.cookielaw.org/consent/1cef3369-6d07-4928-b977-2d877eb670c4/OtAutoBlock.js" />
+      <script async src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="1cef3369-6d07-4928-b977-2d877eb670c4" />
        <link rel="canonical" href={`https://learning.postman.com${slug}`} />
        {/* Algolia Instantsearch IE11 support v3 */}
        {/* <script src="https://polyfill.io/v3/polyfill.min.js?features=default,Array.prototype.find,Array.prototype.includes" /> */}
