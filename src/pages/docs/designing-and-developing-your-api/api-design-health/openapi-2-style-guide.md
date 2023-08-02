@@ -21,7 +21,7 @@ You an use [Postman API Design Health](/docs/designing-and-developing-your-api/a
 * [Missing example for the request body](#missing-example-for-the-request-body)
 * [Missing example for the response body](#missing-example-for-the-response-body)
 * [Missing summary in the operation](#missing-summary-in-the-operation)
-* TBD
+* [Missing content type for the form parameter](#missing-content-type-for-the-form-parameter)
 * [Missing or invalid host information](#missing-or-invalid-host-information)
 * [Invalid example for the defined schema](#invalid-example-for-the-defined-schema)
 
@@ -241,11 +241,11 @@ paths:
 
 &nbsp;
 
-## Missing or invalid consumes content type for the form parameter
+## Missing content type for the form parameter
 
 | Issue description | Fix |
 | ----------- | ----------- |
-| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operation-object) in your OpenAPI document or API definition specify a [form parameter object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#parameter-object). But the operation object doesn't specify the [mime type](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#mime-types) (content type) of the request as either `application/x-www-form-urlencoded` or `multipart/form-data`. Use the `consumes` field to specify the mime type used to encode form data when making a request to the server hosting your API.<!-- It's important to provide the mime type to encode form data in the request--> | Adds a `consumes` field to an operation object. Make sure to specify the mime type you'd like to encode the form data. |
+| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operation-object) in your OpenAPI document or API definition specify a [form parameter object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#parameter-object). But the operation object doesn't specify the [mime type](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#mime-types) (content type) of the form data in the request body as either `application/x-www-form-urlencoded` or `multipart/form-data`. Use the `consumes` field to specify the mime type used to encode form data when making a request. | Adds a `consumes` field to an operation object with the value `application/x-www-form-urlencoded`. If you'd like to encode form data as `multipart/form-data`, make sure to replace the default mime type. |
 
 ### Resolution
 
@@ -256,8 +256,7 @@ paths:
   /resources:
     post:
       summary: A POST operation summary
-      consumes:
-        - application/x-www-form-urlencoded
+      consumes: application/x-www-form-urlencoded
       parameters:
         - in: formData
           name: fullName
