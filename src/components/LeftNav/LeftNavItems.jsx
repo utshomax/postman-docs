@@ -726,6 +726,10 @@ export const leftNavItems = [
             name: 'Requesting to add to the Private API Network',
             url: '/docs/collaborating-in-postman/private-api-network/private-network-requests/'
           },
+          {
+            name: 'Publishing Private API Network elements with the Postman API',
+            url: '/docs/collaborating-in-postman/private-api-network/publish-private-network-elements-with-api/'
+          },
         ],
       },
       {
