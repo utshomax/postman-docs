@@ -38,7 +38,9 @@ contextual_links:
 
 Welcome! This section of the Learning Center contains topics about how to get started using Postman.
 
-To get up and running with Postman, check out the following:
+To get up and running with Postman, check out [Postman first steps](/docs/getting-started/first-steps/). You'll learn how to use Postman to send requests, write tests, collaborate with your team, and more.
+
+You can also jump to one of the following topics to learn more about Postman:
 
 * You can get started right away by using the [Postman web app](https://go.postman.co/), but you can also install the Postman desktop app. See [Installing and updating Postman](/docs/getting-started/installation/installation-and-updates/).
 

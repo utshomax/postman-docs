@@ -144,7 +144,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Install and setup',
+        name: 'Install and account setup',
         subParentSlug: '/docs/getting-started/installation/',
         slug: '/docs/getting-started/installation/installation-and-updates/',
         subMenuItems2: [
