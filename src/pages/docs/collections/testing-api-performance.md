@@ -178,15 +178,17 @@ From the **Errors** tab, you can take the following actions:
 * Select a metric in the legend below the graph to show or hide that metric in the graph.
 * To view the error trends for a specific request, select the request in the dropdown list. This information can help you understand which requests are associated with certain types of errors. To change the graph back to the default view, select **Reset**.
 
-    <img alt="Viewing top errors" src="https://assets.postman.com/postman-docs/v10/performance-test-filter-errors-v10-15.jpg" width="600px"/>
-
-* To view details for errors that occurred during the performance test, expand an error class below the graph. Postman displays up to 10 requests for each error class and the number of times a request encountered that error class. Select a request to view details about the request, including the response, headers, and request body. Use the controls on the **Response** tab to format, copy, or search within the response.
-
-    <img alt="Viewing error details" src="https://assets.postman.com/postman-docs/v10/performance-test-errors-detail-v10-17.jpg"/>
+<img alt="Viewing top errors" src="https://assets.postman.com/postman-docs/v10/performance-test-filter-errors-v10-15.jpg" width="600px"/>
 
 ### Debugging errors
 
-Debugging errors
+You can view details about errors that occurred during the performance test to help in the debugging process. On the **Errors** tab, expand an error class below the graph. Postman displays the 10 most frequent requests for each error class and the number of times each request encountered that error.
+
+Select a request to view details about the request, including the response, headers, and request body. Use the controls on the **Response** tab to format, copy, or search within the response. Select the name of a request to open the request.
+
+<img alt="Viewing error details" src="https://assets.postman.com/postman-docs/v10/performance-test-errors-detail-v10-17.jpg"/>
+
+> Error class data is persisted locally during your current Postman session and isn't saved permanently. If you close the current tab or quit Postman, the data is removed.
 
 ## Viewing past performance runs
 
