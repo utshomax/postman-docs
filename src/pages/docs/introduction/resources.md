@@ -1,6 +1,6 @@
 ---
 title: "Other resources"
-updated: 2023-02-24
+updated: 2023-07-31
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -31,3 +31,4 @@ If you're starting to learn about APIs and Postman, you can use a variety of res
     * [Learn by API](https://www.postman.com/postman/workspace/published-postman-templates/collection/9065401-ff29b3be-af69-4442-91e0-c1158b620fc2?ctx=documentation) - Explore beginner API concepts.
     * [Postman Training](https://www.postman.com/postman/workspace/postman-galaxy-training/overview) - Learn APIs 101, Testing and Automation, API Adoption, and API First, earning [Postman badges](https://badgr.com/public/issuers/BC0x4AQaQPC7lFilsBP_tQ/badges).
     * [Student Program](https://www.postman.com/postman/workspace/postman-student-program/overview) - Take the Student Expert training, covering request configurations and test scripting.
+* [Postman Academy](https://academy.postman.com/) is a learner's one-stop shop, regardless of skill level! Follow along to video-based learning paths and assess your skills with quizzes and hands-on challenges.
