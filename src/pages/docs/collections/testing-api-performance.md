@@ -33,6 +33,7 @@ The performance test runs on your computer and not in the cloud. When you start 
 * [Viewing error details for performance tests](#viewing-error-details-for-performance-tests)
     * [Viewing top errors](#viewing-top-errors)
     * [Viewing error trends](#viewing-error-trends)
+    * [Debugging errors](#debugging-errors)
 * [Viewing past performance runs](#viewing-past-performance-runs)
 
 ## Configuring a performance test
@@ -91,7 +92,7 @@ Attempting to simulate a higher number of virtual users may cause inaccurate met
 
 During a performance test, all requests are sent from your computer where you are running the Postman desktop app. The **Summary** tab displays performance metrics in real time so you can observe how your API performs under load.
 
-<img alt="Viewing performance metrics" src="https://assets.postman.com/postman-docs/v10/performance-test-graph-v10-16a.jpg"/>
+<img alt="Viewing performance metrics" src="https://assets.postman.com/postman-docs/v10/performance-test-graph-v10-17.jpg"/>
 
 You can view the following information about the performance test:
 
@@ -162,7 +163,7 @@ You can view error trends after the performance test is complete. The error tren
 
 To view error trends, select the **Errors** tab. You can also select the **Error rate** on the **Summary** tab and select **View Error Trends**.
 
-<img alt="Viewing error trends" src="https://assets.postman.com/postman-docs/v10/performance-test-errors-graph-v10-16.jpg"/>
+<img alt="Viewing error trends" src="https://assets.postman.com/postman-docs/v10/performance-test-errors-graph-v10-17.jpg"/>
 
 You can view the following information about the error trends:
 
@@ -177,7 +178,15 @@ From the **Errors** tab, you can take the following actions:
 * Select a metric in the legend below the graph to show or hide that metric in the graph.
 * To view the error trends for a specific request, select the request in the dropdown list. This information can help you understand which requests are associated with certain types of errors. To change the graph back to the default view, select **Reset**.
 
-<img alt="Viewing top errors" src="https://assets.postman.com/postman-docs/v10/performance-test-filter-errors-v10-15.jpg" width="600px"/>
+    <img alt="Viewing top errors" src="https://assets.postman.com/postman-docs/v10/performance-test-filter-errors-v10-15.jpg" width="600px"/>
+
+* To view details for errors that occurred during the performance test, expand an error class below the graph. Postman displays up to 10 requests for each error class and the number of times a request encountered that error class. Select a request to view details about the request, including the response, headers, and request body. Use the controls on the **Response** tab to format, copy, or search within the response.
+
+    <img alt="Viewing error details" src="https://assets.postman.com/postman-docs/v10/performance-test-errors-detail-v10-17.jpg"/>
+
+### Debugging errors
+
+Debugging errors
 
 ## Viewing past performance runs
 
