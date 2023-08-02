@@ -24,7 +24,7 @@ The _Scratch Pad_ is a space where you can work if you're using the Postman desk
 
 All your work in the Scratch Pad is stored locally and isn't synced online with Postman. After working in the Scratch Pad, you can later move your work into a workspace once you sign in.
 
-> **Meet the new lightweight Postman API Client.** New Postman users who download the Postman desktop app use the lightweight API Client when not signed in to Postman. You can use the lightweight API Client to send API requests, including HTTP, WebSocket, gRPC, and GraphQL requests. Postman users who have data in the Scratch Pad will continue to use the Scratch Pad when not connected to Postman's servers. Learn more about the [lightweight Postman API Client](/docs/getting-started/using-api-client/).
+> **Meet the new lightweight Postman API Client.** New Postman users who download the Postman desktop app use the lightweight API Client when not signed in to Postman. You can use the lightweight API Client to send API requests, including HTTP, WebSocket, gRPC, and GraphQL requests. Postman users who have data in the Scratch Pad will continue to use the Scratch Pad when not connected to Postman's servers. Learn more about the [lightweight Postman API Client](/docs/getting-started/basics/using-api-client/).
 
 ## Contents
 
@@ -55,7 +55,7 @@ While you are in the Scratch Pad, you can:
 
 ## Leaving the Scratch Pad
 
-1. Ensure you have a network connection to Postman, and [sign in to Postman](/docs/getting-started/postman-account/#signing-in-to-postman).
+1. Ensure you have a network connection to Postman, and [sign in to Postman](/docs/getting-started/installation/postman-account/#signing-in-to-postman).
 1. Switch to a workspace by selecting **Workspaces** from the header. For more information, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
 
 > You can also select **Switch to a Workspace** from the Scratch Menu global banner at the top of the screen.
@@ -66,13 +66,13 @@ While you are in the Scratch Pad, you can:
 
 ### Signing up for Postman from the Scratch Pad
 
-When you [sign up for a Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account), you can choose to move your data to a workspace or keep it in the Scratch Pad. If you choose to move your data, your collections, environments, and history are copied from the Scratch Pad to your default personal workspace. (Open tabs aren't migrated.)
+When you [sign up for a Postman account](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account), you can choose to move your data to a workspace or keep it in the Scratch Pad. If you choose to move your data, your collections, environments, and history are copied from the Scratch Pad to your default personal workspace. (Open tabs aren't migrated.)
 
 > If you choose to keep your data in the Scratch Pad, you can [move it to a workspace](#signing-in-to-postman-from-the-scratch-pad) later.
 
 ### Signing in to Postman from the Scratch Pad
 
-When you [sign in to Postman](/docs/getting-started/postman-account/#signing-in-to-postman), your data isn't automatically migrated from the Scratch Pad.
+When you [sign in to Postman](/docs/getting-started/installation/postman-account/#signing-in-to-postman), your data isn't automatically migrated from the Scratch Pad.
 
 To migrate your Scratch Pad data to a workspace:
 
