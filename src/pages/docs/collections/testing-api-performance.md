@@ -184,7 +184,7 @@ From the **Errors** tab, you can take the following actions:
 
 You can view details about errors that occurred during the performance test to help in the debugging process. On the **Errors** tab, expand an error class below the graph. Postman displays the 10 most frequent requests for each error class and the number of times each request encountered that error.
 
-Select a request to view details about the request, including the response, headers, and request body. Use the controls on the **Response** tab to format, copy, or search within the response. Select the name of a request to open the request.
+Select a request to view details about it, including the response, headers, and request body. Use the controls on the **Response** tab to format, copy, or search within the response. Select the name of a request to open it.
 
 <img alt="Viewing error details" src="https://assets.postman.com/postman-docs/v10/performance-test-errors-detail-v10-17.jpg"/>
 
