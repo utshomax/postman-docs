@@ -127,7 +127,7 @@ export const leftNavItems = [
           },
           {
             name: 'Work with your team in Postman',
-            url: '/docs/getting-started/first-steps/work-with-your-team/',
+            url: '/docs/getting-started/basics/work-with-your-team/',
           },
           {
             name: 'Syncing your work',
