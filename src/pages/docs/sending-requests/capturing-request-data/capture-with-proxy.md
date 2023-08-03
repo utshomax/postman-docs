@@ -72,9 +72,11 @@ SCREENSHOT
 
 > You can't have more than one proxy or Interceptor session running at the same time.
 
-As soon as you start the proxy session, the Postman proxy begins capturing traffic sent from your computer. After you start a proxy session, you can then pause, restart, or stop it. You can also select what traffic you want to capture during the session.
+As soon as you start the proxy session, the Postman proxy begins capturing traffic sent from your computer. After you start a proxy session, you can pause, restart, or stop it. You can also select what traffic you want to capture during the session.
 
 To control an active proxy proxy session, select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Proxy active** in the footer to display the proxy session tab. (If the proxy session is paused, select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Start proxy** in the footer.) The proxy tab shows the total duration of the active session and the size of the data captured.
+
+With the proxy active, try opening a web browser and navigating to a web site, or open an app that communicates with a server. Requests appear on the proxy session tab as they're captured.
 
 From the proxy session tab, you can take the following actions:
 
@@ -93,6 +95,23 @@ From the proxy session tab, you can take the following actions:
 
     > You can also capture cookies and sync them to Postman without starting a proxy session. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
 
+### Step 3: View the proxy session results
+
+You can view and work with the proxy session results while the session is active or paused, or after you stop the session. You can also view past sessions in the **History** tab and save captured requests to a collection.
+
+You can work with the the proxy session results in the following ways:
+
+* rename
+* search
+* view request details
+* open a request
+* delete a request
+* view cookies
+
+After you stop the proxy session, you can view it again by selecting **History** in the sidebar, then selecting the proxy session.
+
+* View Past Sessions
+* Create Collection
 
 To control a proxy session, do the following:
 
