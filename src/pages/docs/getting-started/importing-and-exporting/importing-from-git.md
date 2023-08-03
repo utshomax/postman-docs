@@ -47,7 +47,7 @@ To import from a local GitHub repository:
 
 To import data from a remote GitHub repository:
 
-> You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
+> You must sign in to a [Postman account](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
 1. In Postman, select **Import** then select the **GitHub** button.
 
@@ -79,7 +79,7 @@ To import from a local Bitbucket repository:
 
 To import data from a remote Bitbucket repository:
 
-> You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
+> You must sign in to a [Postman account](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
 1. In Postman, select **Import > Other Sources > Bitbucket**.
 
@@ -111,7 +111,7 @@ To import from a local GitLab repository:
 
 To import data from a remote GitLab repository:
 
-> You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
+> You must sign in to a [Postman account](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
 1. In Postman, select **Import > Other Sources > GitLab**.
 
@@ -143,7 +143,7 @@ To import from a local Azure DevOps repository:
 
 To import data from a remote Azure DevOps repository:
 
-> You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
+> You must sign in to a [Postman account](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
 1. In Postman, select **Import > Other Sources > Azure**.
 
