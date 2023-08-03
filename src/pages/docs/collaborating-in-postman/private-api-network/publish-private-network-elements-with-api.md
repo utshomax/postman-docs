@@ -15,6 +15,9 @@ contextual_links:
   - type: link
     name: "Discovering APIs | Postman Enterprise"
     url: "https://youtu.be/e1v647ayIBg"
+  - type: link
+    name: "Intro to the Postman API | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=iEtsp6o4AJg"
   - type: subtitle
     name: "Blog posts"
   - type: link
@@ -27,10 +30,13 @@ contextual_links:
     name: "Simplifying API distribution and evaluation with the Private API Network"
     url: "https://blog.postman.com/simplifying-api-distribution-and-evaluation-with-the-private-api-network/"
   - type: subtitle
-    name: "Case Studies"
+    name: "Public workspaces"
   - type: link
-    name: "ChargeHub plans to improve internal discovery with a Private API Network"
-    url: "https://www.postman.com/case-studies/chargehub/"
+    name: "Postman API collection"
+    url:  "https://www.postman.com/postman/workspace/postman-public-workspace/collection/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a?ctx=documentation"
+  - type: link
+    name: "Postman API definition"
+    url:  "https://www.postman.com/postman/workspace/postman-public-workspace/api/72a32ca3-f06a-4e83-a933-2821a0e6616f/definition/d429098b-1789-4c62-b77b-cf02024aba53?view=documentation"
 
 ---
 
@@ -58,20 +64,19 @@ You will also need an API key to use the Postman API. For information, see [Gene
 
 This HTTP request [creates a folder](https://www.postman.com/postman/workspace/postman-public-workspace/example/12959542-22a2c7a4-aa34-4501-9eca-d22ea620f07f) in your Private API Network. A folder can contain multiple elements, such as [workspaces](#add-a-workspace-to-a-folder), [collections](#add-a-collection-to-a-folder), or [APIs](#add-an-api-to-a-folder).
 
-In your request, we recommend using an environment variable (like `{{postman-api-key}}`) so you can easily reuse your API key. Passing `"parentFolderId": 0` creates the folder in the root Home folder of the Private API Network:
+In your request, we recommend using an environment variable (like `{{postman-api-key}}`) so you can easily reuse your API key. By default, this API creates the folder in the root Home folder of the Private API Network:
 
 ```http
 POST /network/private HTTP/1.1
 Host: api.getpostman.com
 Content-Type: application/json
 X-API-Key: {{postman-api-key}}
-Content-Length: 123
+Content-Length: 94
 
 {
     "folder": {
         "name": "Billing",
-        "description": "The Billing API.",
-        "parentFolderId": 0
+        "description": "The Billing API."
     }
 }
 ```
@@ -80,7 +85,7 @@ The same HTTP request in Postman:
 
 ![The API call in Postman](https://assets.postman.com/postman-docs/v10/create-private-network-folder-api.jpg)
 
-The request’s response will look similar to the following:
+On success, your request’s response will look similar to the following:
 
 ```json
 {
@@ -96,7 +101,7 @@ The request’s response will look similar to the following:
 }
 ```
 
-You will find your new folder in the Private API Network's root Home directory:
+You can also find your new folder in the Private API Network's root Home directory:
 
 ![The new Private API Network folder](https://assets.postman.com/postman-docs/v10/private-network-new-folder-created.jpg)
 
@@ -136,8 +141,8 @@ The response to this request will look similar to the following:
     "type": "collection",
     "id": "12345678-12ece9e1-2abf-4edc-8e34-de66e74114d2",
     "name": "Billing API Collection",
-    "summary": "The Billing API collection.",
-    "description": null,
+    "summary": null,
+    "description": "The Billing API collection.",
     "href": "https://api.getpostman.com/collections/12345678-12ece9e1-2abf-4edc-8e34-de66e74114d2",
     "parentFolderId": 1
 }
@@ -164,7 +169,7 @@ Content-Length: 115
 }
 ```
 
-The response to this request will be similar to this:
+The response to this request will be similar to the following:
 
 ```json
 {
@@ -203,7 +208,7 @@ Content-Length: 121
 }
 ```
 
-The response to this request will be similar to this:
+The response to this request will be similar to the following:
 
 ```json
 {
@@ -217,7 +222,7 @@ The response to this request will be similar to this:
     "id": "1f0df51a-8658-4ee8-a2a1-d2567dfa09a9",
     "name": "Billing Team Workspace",
     "summary": "The Billing team's workspace.",
-    "description": null,
+    "description": "The Billing team's workspace.",
     "href": "https://api.getpostman.com/workspaces/1f0df51a-8658-4ee8-a2a1-d2567dfa09a9",
     "parentFolderId": 1
 }
