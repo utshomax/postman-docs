@@ -22,7 +22,7 @@ You can use [Postman API Design Health](https://go.postman.co/api-health/) to ch
 
 Strong API design health means your API is well-designed and follows industry best practices. You can use API Design Health to [check your OpenAPI document or API definition for potential design issues](#upload-your-api-to-api-design-health). Using a style guide specific to your OpenAPI version, API Design Health returns occurrences of each style guide violation that you can choose whether to fix. To learn more about the style guide and fixing violations, see [Review and fix style guide violations](#review-and-fix-style-guide-violations).
 
-API Design Health provides a design quality score for your API based on each style guide violation it finds. Each style guide violation shows the impact it has on your design quality score and the number of times each violation occurs. A perfect API design quality score is 100%, but the ideal API design quality score for your API may vary. You can also [compare your API's design quality score with top APIs](#compare-your-api-with-top-apis), such as Postman and GitHub. Postman recommends often checking your API's design health during the development process to ensure your API is well-designed.
+API Design Health provides a design quality score for your API based on each style guide violation it finds. Each style guide violation shows the impact it has on your design quality score and the number of times each violation occurs. A perfect API design quality score is 100%, but the ideal API design quality score for your API may vary. You can also [compare your API's design quality score with top APIs](#compare-your-api-with-top-apis), such as Vimeo and GitHub. Postman recommends often checking your API's design health during the development process to ensure your API is well-designed.
 
 ## Upload your API to API Design Health
 
@@ -56,7 +56,7 @@ Once you're done reviewing your style guide violations, you can [fix violations]
 
 #### Compare your API with top APIs
 
-You can compare your API with top APIs, such as Postman and GitHub. Select **Compare** to display a table comparing your API with several top APIs. You can select different top APIs using the dropdown menu to compare APIs relevant to your API.
+You can compare your API with top APIs, such as Vimeo and GitHub. Select **Compare** to display a table comparing your API with several top APIs. You can select different top APIs using the dropdown menu to compare APIs relevant to your API.
 
 You can compare design quality scores and style guide violations found in your OpenAPI document or API definition file. For each style guide violation, you can compare the impact each violation has on your API's design quality score with the impact it has on each top API's score. You can use this information to help you identify the ideal design quality score for your API.
 
