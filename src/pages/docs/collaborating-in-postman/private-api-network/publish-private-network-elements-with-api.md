@@ -48,6 +48,7 @@ You can use the Postman API to programmatically manage your Private API Networkâ
 
 * [Getting started](#getting-started)
 * [Create a Private API Network folder](#create-a-private-api-network-folder)
+* [Add elements to your Private API Network folder](#add-elements-to-your-private-api-network-folder)
   * [Add a collection to a folder](#add-a-collection-to-a-folder)
   * [Add an API to a folder](#add-an-api-to-a-folder)
   * [Add a workspace to a folder](#add-a-workspace-to-a-folder)
@@ -105,13 +106,17 @@ You can also find your new folder in the Private API Network's root Home directo
 
 ![The new Private API Network folder](https://assets.postman.com/postman-docs/v10/private-network-new-folder-created.jpg)
 
-Save the `id` value in the response (for example, save it as a collection variable). You can use it as the `parentFolderId` value in other requests, such as adding elements to the folder or sub-folders.
+Save the `id` value in the response. For example, save it as a collection variable called `{{folderId}}`. You can then use it as the `parentFolderId` value in other requests, such as adding elements to the folder or sub-folders.
+
+## Add elements to your Private API Network folder
 
 Your Private API Network folder's elements (collections, APIs, and workspaces) are links to the original element. If that source element changes, then the Private API Network automatically reflects these changes.
 
+In the following examples, the `{{folderId}}` variable references the `id` value returned when you created the Private API Network folder (for example, `1`).
+
 ### Add a collection to a folder
 
-Use this HTTP request to [add a collection](https://www.postman.com/postman/workspace/postman-public-workspace/example/12959542-c3766325-01d8-4f71-963f-a95892451acc) to your Private API Network folder. The request uses the `{{folderId}}` variable, which references the `id` value returned when you created the Private API Network folder (for example, `1`):
+This HTTP request [adds a collection](https://www.postman.com/postman/workspace/postman-public-workspace/example/12959542-c3766325-01d8-4f71-963f-a95892451acc) to your Private API Network folder.
 
 ```http
 POST /network/private HTTP/1.1
@@ -154,7 +159,7 @@ Before you add an API to your Private API Network folder, first make sure it's p
 
 Then, use the following HTTP request to [add an API](https://www.postman.com/postman/workspace/postman-public-workspace/example/12959542-66c2f1f2-0532-4c65-8508-2392935b82ce) to the Private API Network folder:
 
-```html
+```http
 POST /network/private HTTP/1.1
 Host: api.getpostman-beta.com
 Content-Type: application/json
@@ -191,9 +196,9 @@ The response to this request will be similar to the following:
 
 ### Add a workspace to a folder
 
-Use this HTTP request to [add a workspace](https://www.postman.com/postman/workspace/postman-public-workspace/example/12959542-afbc11ef-ecc1-4245-ad3f-988fccd47936) to your Private API Network folder:
+This HTTP request [adds a workspace](https://www.postman.com/postman/workspace/postman-public-workspace/example/12959542-afbc11ef-ecc1-4245-ad3f-988fccd47936) to your Private API Network folder:
 
-```html
+```http
 POST /network/private HTTP/1.1
 Host: api.getpostman.com
 Content-Type: application/json
