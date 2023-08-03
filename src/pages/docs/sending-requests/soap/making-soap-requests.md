@@ -7,8 +7,14 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
+    name: "What Is a SOAP API?"
+    url: "https://blog.postman.com/soap-api-definition/"
+  - type: link
     name: "Making HTTP SOAP Requests with Postman"
     url: "https://blog.postman.com/making-http-soap-requests-with-postman/"
+  - type: link
+    name: "How to choose between REST vs. GraphQL vs. gRPC vs. SOAP"
+    url: "https://blog.postman.com/how-to-choose-between-rest-vs-graphql-vs-grpc-vs-soap/"
   - type: subtitle
     name: "Public workspaces"
   - type: link

@@ -69,7 +69,7 @@ const ContextualLinks = ({ links }) => (
         if (item.type === 'link') {
           return (
             <div className="contextual-links__link" key={item.name}>
-              <DynamicLink url={item.url} name={item.name} />
+              <DynamicLink url={item.url} name={item.name} className="pmt-rightnav-link"/>
             </div>
           );
         }

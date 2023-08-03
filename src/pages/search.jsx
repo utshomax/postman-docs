@@ -142,7 +142,7 @@ function Hit({ hit }) {
   return (
     <>
       <HitStyle>
-        <a href={hit.fields.slug}>
+        <a href={hit.slug}>
           <h4>
             <Highlight attribute="title" hit={hit} />
           </h4>

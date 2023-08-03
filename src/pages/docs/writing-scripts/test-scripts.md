@@ -174,7 +174,7 @@ To write a test with Postbot, do the following:
 
 1. Select the play button. Postbot writes a test for you.
 
-For more information on Postbot, visit [About Postbot](/docs/getting-started/about-postbot/).
+For more information on Postbot, visit [About Postbot](/docs/getting-started/basics/about-postbot/).
 
 ## Next steps
 
