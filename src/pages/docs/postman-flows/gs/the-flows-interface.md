@@ -1,5 +1,5 @@
 ---
-title: "Navigating a Flow"
+title: "The Flows Interface"
 updated: 2023-07-13
 ---
 

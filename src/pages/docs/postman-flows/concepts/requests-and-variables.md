@@ -16,16 +16,18 @@ In order to use any API, a **request** must be made to either send, update, dele
 
 In Postman Flows, the **Send Request** block enables you to select a request from a **collection**.
 
-![Selecting a request](https://assets.postman.com/postman-labs-docs/concepts/selecting-a-request.gif)
+![Selecting a request](https://assets.postman.com/postman-labs-docs/concepts/updated-selecting-a-request.gif)
 
-This example uses [Postman's echo service API](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation). The request returns two values, `foo1` with a value of `bar1` and `foo2` with a value of `bar2`. You can view these by hovering over the **Success** output.
+If there are no collections in the workspace, then six easy-to-use requests will appear in the spotlight to choose from to get started.
+
+This example uses [Postman's echo service API](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation). 
 
 ### Variables
 
 **Variables** are values that can change from one request to another. These can be things like IDs, usernames, and numbers.
 
-Use the same collection you used earlier to select a request that has a variable. The variables part of the **Send Request** block opens automatically and enables you to enter values.
+The variables part of the **Send Request** block opens automatically and enables you to enter values.
 
-![Filling in a variable](https://assets.postman.com/postman-labs-docs/concepts/request-with-variables-updated.gif)
+![Filling in a variable](https://assets.postman.com/postman-labs-docs/concepts/updated-adding-a-variable.gif)
 
-Just like in the earlier reuqest, the values can be seen from the Success output, but this time, the values returned are whatever the variables `foo1` and `foo2` are set to.
+In this reuqest, the two variables are named `value1` and `value2` and were setup in the request (more information on setting up variables in requests [here](../../../sending-requests/variables/)). Once the request is run, the values can be seen from the **success** output, the values returned are whatever the variables `value1` and `value2` are set to (in this value `hello` and `there`).
