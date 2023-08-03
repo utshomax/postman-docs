@@ -58,25 +58,27 @@ You will also need an API key to use the Postman API. For information, see [Gene
 
 This HTTP request [creates a folder](https://www.postman.com/postman/workspace/postman-public-workspace/example/12959542-22a2c7a4-aa34-4501-9eca-d22ea620f07f) in your Private API Network. A folder can contain multiple elements, such as [workspaces](#add-a-workspace-to-a-folder), [collections](#add-a-collection-to-a-folder), or [APIs](#add-an-api-to-a-folder).
 
-In your request, use an `{{apiKey}}` environment variable so you can easily reuse your API key:
+In your request, we recommend using an environment variable (like `{{postman-api-key}}`) so you can easily reuse your API key. Passing `"parentFolderId": 0` creates the folder in the root Home folder of the Private API Network:
 
 ```http
 POST /network/private HTTP/1.1
 Host: api.getpostman.com
 Content-Type: application/json
-X-API-Key: {{api-key}}
-Content-Length: 124
+X-API-Key: {{postman-api-key}}
+Content-Length: 123
 
 {
     "folder": {
         "name": "Billing",
         "description": "The Billing API.",
-        "parentFolderId": 12345
+        "parentFolderId": 0
     }
 }
 ```
 
-> The `description` field is required for Private API Network folders.
+The same HTTP request in Postman:
+
+![The API call in Postman](https://assets.postman.com/postman-docs/v10/create-private-network-folder-api.jpg)
 
 The request’s response will look similar to the following:
 
@@ -84,19 +86,23 @@ The request’s response will look similar to the following:
 {
     "id": 1,
     "parentFolderId": 0,
-    "updatedAt": "2022-12-07T18:00:39.000Z",
+    "updatedAt": "2023-08-03T13:18:25.000Z",
     "updatedBy": 12345678,
     "createdBy": 12345678,
-    "createdAt": "2022-12-07T18:00:39.000Z",
+    "createdAt": "2023-08-03T13:18:25.000Z",
     "name": "Billing",
     "description": "The Billing API.",
     "type": "folder"
 }
 ```
 
-Save the value returned in the `id` field (for example, save it as a collection variable). You can then use it as the `parentFolderId` value for new folders or elements.
+You will find your new folder in the Private API Network's root Home directory:
 
-Your Private API Network folder's elements (collections, APIs, and workspaces) are references to the original resource. If that source element changes, then the Private API Network automatically reflects these changes.
+![The new Private API Network folder](https://assets.postman.com/postman-docs/v10/private-network-new-folder-created.jpg)
+
+Save the `id` value in the response (for example, save it as a collection variable). You can use it as the `parentFolderId` value in other requests, such as adding elements to the folder or sub-folders.
+
+Your Private API Network folder's elements (collections, APIs, and workspaces) are links to the original element. If that source element changes, then the Private API Network automatically reflects these changes.
 
 ### Add a collection to a folder
 
@@ -106,8 +112,8 @@ Use this HTTP request to [add a collection](https://www.postman.com/postman/work
 POST /network/private HTTP/1.1
 Host: api.getpostman.com
 Content-Type: application/json
-x-api-key: {{apiKey}}
-Content-Length: 122
+x-api-key: {{postman-api-key}}
+Content-Length: 131
 
 {
     "collection": {
@@ -117,18 +123,16 @@ Content-Length: 122
 }
 ```
 
-You don’t need to provide a `name` or `summary` value because this data is retrieved from the collection’s data.
-
 The response to this request will look similar to the following:
 
 ```json
 {
-    "addedAt": "2022-12-07T18:22:15.000Z",
+    "addedAt": "2023-08-03T13:18:25.000Z",
     "addedBy": 12345678,
     "createdBy": 12345678,
-    "createdAt": "2022-12-07T18:22:15.000Z",
+    "createdAt": "2023-08-03T13:18:25.000Z",
     "updatedBy": 12345678,
-    "updatedAt": "2022-12-07T18:22:15.000Z",
+    "updatedAt": "2023-08-03T13:18:25.000Z",
     "type": "collection",
     "id": "12345678-12ece9e1-2abf-4edc-8e34-de66e74114d2",
     "name": "Billing API Collection",
@@ -149,8 +153,8 @@ Then, use the following HTTP request to [add an API](https://www.postman.com/pos
 POST /network/private HTTP/1.1
 Host: api.getpostman-beta.com
 Content-Type: application/json
-x-api-key: {{apiKey}}
-Content-Length: 107
+x-api-key: {{postman-api-key}}
+Content-Length: 115
 
 {
     "api": {
@@ -160,18 +164,16 @@ Content-Length: 107
 }
 ```
 
-You don’t need to provide a `name` or `summary` value because this data is retrieved from the API's data.
-
 The response to this request will be similar to this:
 
 ```json
 {
-    "addedAt": "2022-06-09T14:48:45.000Z",
+    "addedAt": "2023-08-03T13:18:25.000Z",
     "addedBy": 12345678,
     "createdBy": 12345678,
-    "createdAt": "2021-10-11T09:39:33.000Z",
+    "createdAt": "2023-08-03T13:18:25.000Z",
     "updatedBy": 12345678,
-    "updatedAt": "2022-12-07T17:54:33.000Z",
+    "updatedAt": "2023-08-03T13:18:25.000Z",
     "type": "api",
     "id": "5360b75f-447e-467c-9299-12fd6c92450d",
     "name": "Billing API",
@@ -190,8 +192,8 @@ Use this HTTP request to [add a workspace](https://www.postman.com/postman/works
 POST /network/private HTTP/1.1
 Host: api.getpostman.com
 Content-Type: application/json
-x-api-key: {{apiKey}}
-Content-Length: 110
+x-api-key: {{postman-api-key}}
+Content-Length: 121
 
 {
     "workspace": {
@@ -201,18 +203,16 @@ Content-Length: 110
 }
 ```
 
-You don’t need to provide a `name` or `summary` value because this data is retrieved from the workspace's data.
-
 The response to this request will be similar to this:
 
 ```json
 {
-    "addedAt": "2022-12-07T17:59:23.000Z",
+    "addedAt": "2023-08-03T13:18:25.000Z",
     "addedBy": 12345678,
     "createdBy": 12345678,
-    "createdAt": "2022-12-07T17:59:23.000Z",
+    "createdAt": "2023-08-03T13:18:25.000Z",
     "updatedBy": 12345678,
-    "updatedAt": "2022-12-07T17:59:23.000Z",
+    "updatedAt": "2023-08-03T13:18:25.000Z",
     "type": "workspace",
     "id": "1f0df51a-8658-4ee8-a2a1-d2567dfa09a9",
     "name": "Billing Team Workspace",
