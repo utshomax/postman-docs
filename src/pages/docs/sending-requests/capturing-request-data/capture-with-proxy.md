@@ -48,13 +48,13 @@ The Postman desktop app has a built-in proxy that can capture HTTP and HTTPS tra
 
 [![postman capture proxy](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)
 
-Similar to the [Interceptor extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman proxy intercepts and captures your requests. Additionally, it can capture responses and cookies.
+Similar to the [Interceptor extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman proxy intercepts and captures your requests. It can also capture responses and cookies.
 
-After you start the Postman proxy, you can start a proxy debug session, which is a time-bound session of traffic capture. You can start, pause, and stop a proxy debug session, then later start another one. Each debug session is logged in the **History** tab and displays the total session time, a traffic overview, and all traffic captured. You can also send requests and responses to a collection and [save cookies to the Postman cookie jar](/docs/sending-requests/capturing-request-data/syncing-cookies/).
+Starting the Postman proxy begins a _proxy session_, which is a time-bound period of traffic capture. You can pause, restart, and stop a proxy session, then later start another one. Each session is logged in the **History** tab and displays the total session time, a traffic overview, and all traffic captured. You can also send requests and responses to a collection and [save cookies to the Postman cookie jar](/docs/sending-requests/capturing-request-data/syncing-cookies/).
 
 ## Using the Postman proxy
 
-In the steps below, you'll use the Postman proxy to inspect HTTP and HTTPS communication going to and from you computer and from a phone. To get started, make sure your computer and phone are connected to the same local wireless network.
+In the steps below, you'll use the Postman proxy to inspect HTTP and HTTPS communication going to and from your computer and a phone. To get started, make sure your computer and phone are connected to the same local wireless network.
 
 ### Step 1: Start a proxy session
 
@@ -64,17 +64,37 @@ In the steps below, you'll use the Postman proxy to inspect HTTP and HTTPS commu
 1. (Optional) Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to change the port number. By default, the port is set to `5559`. Make a note of the port number, as you will use it later when configuring clients.
 1. Select **Start Proxy Session**.
 
-The first time you start a proxy session, Postman will prompt you to install the `postman-proxy-ca.crt` certificate on your computer. Enter your system password and select **Update Settings**. Installing the certificate enables the Postman proxy to capture secure HTTPS traffic sent from browsers and other client apps on your computer.
+The first time you start a proxy session, Postman will prompt you to install the **Postman Proxy CA** certificate on your computer. Enter your system password and select **Update Settings**. Installing the certificate enables the Postman proxy to capture secure HTTPS traffic sent from browsers and other client apps on your computer.
+
+SCREENSHOT
 
 ### Step 2: Control the proxy session
 
-As soon as you start the proxy session, the Postman proxy begins capturing traffic sent from your computer.
+> You can't have more than one proxy or Interceptor session running at the same time.
 
-A proxy session is a time-bound period during which captured traffic is saved in the **History** tab and optionally in a collection. After you start a proxy debug session, you can then pause, restart, or stop it. During the session, you can select what traffic you want to capture.
+As soon as you start the proxy session, the Postman proxy begins capturing traffic sent from your computer. After you start a proxy session, you can then pause, restart, or stop it. You can also select what traffic you want to capture during the session.
 
-> You can only have a single proxy or Interceptor session running at the same time.
+To control an active proxy proxy session, select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Proxy active** in the footer to display the proxy session tab. (If the proxy session is paused, select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Start proxy** in the footer.) The proxy tab shows the total duration of the active session and the size of the data captured.
 
-To start a proxy debug session, do the following:
+From the proxy session tab, you can take the following actions:
+
+* Select **Pause** to temporarily stop capturing traffic, then select **Resume** when you're ready to begin capturing traffic again. When you're finished capturing traffic, select **Stop** to end the proxy session.
+
+* Next to **Configure incoming requests**, use the dropdown menus to limit the requests and responses captured during the session:
+
+    * **Methods** - Only capture the selected methods.
+    * **Status codes** - Only capture the selected status codes.
+    * **Resources** - Exclude requests with image, JS, or CSS responses.
+    * **URL** - Only capture the URLs that match the specified criteria. You can specify text that URLs must contain and can't contain, and you can use regular expressions.
+
+* Select **Save responses for requests** to save each request's response along with the captured request.
+
+* Select **Capture cookies** if you want to capture cookies along with requests during the proxy session.
+
+    > You can also capture cookies and sync them to Postman without starting a proxy session. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
+
+
+To control a proxy session, do the following:
 
 1. Go to the **Via Proxy** tab of the **Capture requests** window.
 1. Select **Save Responses for Requests** to save each request's responses. They will be saved along with the captured requests.
