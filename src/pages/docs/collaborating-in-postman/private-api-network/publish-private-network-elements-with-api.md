@@ -49,9 +49,9 @@ You can use the Postman API to programmatically manage your Private API Networkâ
 * [Getting started](#getting-started)
 * [Create a Private API Network folder](#create-a-private-api-network-folder)
 * [Add elements to your Private API Network folder](#add-elements-to-your-private-api-network-folder)
-  * [Add a collection to a folder](#add-a-collection-to-a-folder)
-  * [Add an API to a folder](#add-an-api-to-a-folder)
-  * [Add a workspace to a folder](#add-a-workspace-to-a-folder)
+    * [Add a collection to a folder](#add-a-collection-to-a-folder)
+    * [Add an API to a folder](#add-an-api-to-a-folder)
+    * [Add a workspace to a folder](#add-a-workspace-to-a-folder)
 
 ## Getting started
 
