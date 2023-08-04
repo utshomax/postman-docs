@@ -7,11 +7,14 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Generative AI and the impact on APIs and software development"
-    url: "https://blog.postman.com/generative-ai-and-the-impact-on-apis-and-software-development/"
-  - type: link
     name: "Introducing Postbot, Postman’s new AI assistant"
     url: "https://blog.postman.com/introducing-postbot-postmans-new-ai-assistant/"
+  - type: link
+    name: "Postbot is now in open beta—try it today"
+    url: "https://blog.postman.com/postbot-is-now-in-open-beta/"
+  - type: link
+    name: "Generative AI and the impact on APIs and software development"
+    url: "https://blog.postman.com/generative-ai-and-the-impact-on-apis-and-software-development/"
 ---
 
 > **Postbot is in beta for [Postman Free, Basic, and Professional plans.](https://www.postman.com/pricing/)**
