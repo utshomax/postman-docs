@@ -95,6 +95,8 @@ To install OpenSSL for Windows systems, do the following:
 
 ## macOS
 
+> If you're on macOS and using Postman v10.17 or later, the Postman security certificate is automatically installed on your computer the first time you start the proxy. To learn more, go to [Capturing requests with the Postman proxy](/docs/sending-requests/capturing-request-data/capture-with-proxy/).
+
 To install the security certificate on macOS, do the following:
 
 1. In the macOS Finder, open the `~/Library/Application Support/Postman/proxy` folder.

@@ -1,7 +1,6 @@
 ---
 title: "Capturing request data overview"
-page_id: "capturing_overview"
-updated: 2022-03-02
+updated: 2023-08-14
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -18,9 +17,6 @@ contextual_links:
   - type: link
     name: "Enhanced HTTP Traffic Capture and Analysis in Postman"
     url: "https://blog.postman.com/http-traffic-capture-and-analysis-in-postman/"
-
-warning: false
-
 ---
 
 Capturing HTTP traffic is an important tool for API development and testing. When you enable request capturing in Postman, you can inspect the requests passing between client applications and your API and save them to a collection. You can then use the saved request information to understand how your API is behaving and to assist with debugging.
@@ -41,9 +37,15 @@ After you begin a debug session, you can pause and resume capturing, or clear an
 
 A proxy is an intermediary server that sits between a client application (like a mobile app or a web browser) and the destination server that the client is communicating with (like an API). When the Postman proxy is enabled and a client has been configured to use the proxy, a request from the client first goes to Postman, which then forwards the request on to the destination server.
 
-If you start a debug session while the proxy is enabled, Postman can capture any HTTP or HTTPS traffic passing through the proxy. You can then search or filter the requests, or save them to a collection.
+If you start a proxy session while the proxy is enabled, Postman can capture any HTTP or HTTPS traffic passing through the proxy. You can then search or filter the requests, or save them to a collection.
 
-Learn more about [capturing HTTP requests](/docs/sending-requests/capturing-request-data/capturing-http-requests/) and [capturing HTTPS traffic](/docs/sending-requests/capturing-request-data/capturing-https-traffic/).
+To capture requests using the Postman proxy, view the instructions for your operating system and Postman version:
+
+* If you're on macOS and using Postman v10.17 or later, go to [Capturing requests with the Postman proxy](/docs/sending-requests/capturing-request-data/capture-with-proxy/).
+
+* If you're on Window or Linux, or if you're using Postman v10.16 or earlier, go to [Capturing HTTP requests](/docs/sending-requests/capturing-request-data/capturing-http-requests/).
+
+* To capture secure HTTPS traffic from a client device like a phone, you need to install the Postman security certificate on the device. To learn more, go to [Capturing HTTPS traffic](/docs/sending-requests/capturing-request-data/capturing-https-traffic/).
 
 ## Using Postman Interceptor
 
