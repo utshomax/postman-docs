@@ -42,7 +42,7 @@ This example shows you how to integrate Postman with [Travis CI](https://travis-
 
 ## Connecting Postman to Travis CI
 
-1. [Export the "Hello World" collection](/docs/getting-started/importing-and-exporting-data/) as a JSON file and rename the exported file `hello_world.postman_collection.json`.
+1. [Export the "Hello World" collection](/docs/getting-started/importing-and-exporting/exporting-data/) as a JSON file and rename the exported file `hello_world.postman_collection.json`.
 
 1. Create a folder named `tests` at the root of your local project, and move the exported JSON file into the new `tests` folder.
 
@@ -111,7 +111,7 @@ To view a failed test, do the following:
 
 1. Change the final test so that it looks for the text "Hello, Everyone!" instead of "Hello, World!"
 
-    [![Tests tab error](https://assets.postman.com/postman-docs/travis-ci-test-error-example-v9-9.jpg)](https://assets.postman.com/postman-docs/travis-ci-test-error-example-v9-9.jpg)
+    ![Tests tab error](https://assets.postman.com/postman-docs/v10/travis-ci-test-error-example-v10-2.jpg)
 
 1. Save the change and then export the collection again. As before, rename the exported file `hello_world.postman_collection.json` and move it into the `tests` directory in your local project.
 

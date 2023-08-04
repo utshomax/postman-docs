@@ -154,7 +154,7 @@ When a user opens a public workspace, Postman shows an overview of its contents,
 
 Users with an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) for a workspace can edit workspace details, including updating the workspace's name, summary, description, and visibility. For more information, see [Editing workspace details](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#editing-workspace-details).
 
-> The [Public API Network](/docs/getting-started/exploring-public-api-network/) displays your workspace's name and summary. Make your workspace name and summary informative to improve its visibility on the Public API Network.
+> The [Public API Network](/docs/getting-started/first-steps/exploring-public-api-network/) displays your workspace's name and summary. Make your workspace name and summary informative to improve its visibility on the Public API Network.
 
 ### Moving elements to a public workspace
 
@@ -212,7 +212,7 @@ For **APIs**, select the API and version. Select the **Definition** tab and then
 
 You can access public workspaces using the Postman Explore page's [**Workspaces** category](https://www.postman.com/explore/workspaces). You can also access the public workspaces that you own or are a member of using **Workspaces** in the header.
 
-The list of avatars in the Postman header shows you who's active in your workspace. This list will include all active users with [public profiles](/docs/getting-started/postman-account/#making-your-profile-public) as well as users who've chosen to remain anonymous by not enabling their public profile.
+The list of avatars in the Postman header shows you who's active in your workspace. This list will include all active users with [public profiles](/docs/getting-started/installation/postman-profile/#making-your-profile-public) as well as users who've chosen to remain anonymous by not enabling their public profile.
 
 <img alt="Active users in public workspace" src="https://assets.postman.com/postman-docs/presence-public-workspace-v9.19.jpg" width="250px"/>
 
