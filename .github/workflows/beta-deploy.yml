@@ -58,6 +58,7 @@ jobs:
           RELIC_PRODUCTION_APPLICATION_ID: ${{ secrets.RELIC_PRODUCTION_APPLICATION_ID }}
           PM_TECH_RT: ${{secrets.PM_TECH_RT}}
           SITE_URL: ${{secrets.SITE_URL_BETA}}
+          MKAPI_URL: ${{secrets.MKAPI_URL}}
         run: |
             npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
             npm install

@@ -72,8 +72,6 @@ Using the Postman CLI, you can run Postman collections with your API tests as pa
 
 To view details for collections that were run as part of a build, first [configure the Postman CLI for Azure Pipelines](#configuring-the-postman-cli-for-azure-pipelines) and then start a new build in Azure DevOps. To learn more about starting builds, see [the Azure Pipelines documentation](https://learn.microsoft.com/en-us/azure/devops/pipelines/build/triggers?view=azure-devops). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
 
-<img alt="View Azure Pipelines collection runs" src="https://assets.postman.com/postman-docs/v10/azure-collection-runs-v10.jpg">
-
 > Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 
 ## Viewing API Governance and API Security rule violations

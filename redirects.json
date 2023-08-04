@@ -497,11 +497,15 @@
   },
   {
     "from": "/docs/postman/collaboration/adding-private-network/",
-    "to": "/docs/collaborating-in-postman/adding-private-network/"
+    "to": "/docs/collaborating-in-postman/private-api-network/adding-private-network/"
   },
   {
     "from": "/docs/postman/collaboration/adding_private_network/",
-    "to": "/docs/collaborating-in-postman/adding-private-network/"
+    "to": "/docs/collaborating-in-postman/private-api-network/adding-private-network/"
+  },
+  {
+    "from": "/docs/collaborating-in-postman/adding-private-network/",
+    "to": "/docs/collaborating-in-postman/private-api-network/adding-private-network/"
   },
   {
     "from": "/docs/postman/collaboration/audit-logs/",
@@ -665,11 +669,11 @@
   },
   {
     "from": "/docs/postman/collections/data-formats/",
-    "to": "/docs/getting-started/importing-and-exporting-data/"
+    "to": "/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/"
   },
   {
     "from": "/docs/postman/collections/data_formats/",
-    "to": "/docs/getting-started/importing-and-exporting-data/"
+    "to": "/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/"
   },
   {
     "from": "/docs/postman/collections/examples/",
@@ -677,11 +681,11 @@
   },
   {
     "from": "/docs/postman/collections/importing-and-exporting-data/",
-    "to": "/docs/getting-started/importing-and-exporting-data/"
+    "to": "/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/"
   },
   {
     "from": "/docs/postman/collections/importing_and_exporting_data/",
-    "to": "/docs/getting-started/importing-and-exporting-data/"
+    "to": "/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/"
   },
   {
     "from": "/docs/postman/collections/intro-to-collections/",
@@ -2186,6 +2190,85 @@
   {
     "from": "/docs/reports/all-workspaces-reports/",
     "to": "/docs/reports/reports-overview/"
+  },
+  {
+    "from": "/docs/postman-flows/tutorials/creating-charts-tables-and-output/",
+    "to": "/docs/postman-flows/tutorials/visualizing-data/"
+  },
+  {
+    "from": "/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/",
+    "to": "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
+  },
+  {
+    "from": "/docs/getting-started/importing-and-exporting-data/",
+    "to": "/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/"
+  },
+  {
+    "from": "/docs/getting-started/troubleshooting-inapp/",
+    "to": "/docs/introduction/troubleshooting-inapp/"
+  },
+  {
+    "from": "/docs/getting-started/sending-the-first-request/",
+    "to": "/docs/getting-started/first-steps/sending-the-first-request/"
+  },
+  {
+    "from": "/docs/getting-started/creating-the-first-collection/",
+    "to": "/docs/getting-started/first-steps/creating-the-first-collection/"
+  },
+  {
+    "from": "/docs/getting-started/exploring-public-api-network/",
+    "to": "/docs/getting-started/first-steps/exploring-public-api-network/"
+  },
+  {
+    "from": "/docs/getting-started/creating-your-first-workspace/",
+    "to": "/docs/getting-started/first-steps/creating-your-first-workspace/"
+  },
+  {
+    "from": "/docs/getting-started/navigating-postman/",
+    "to": "/docs/getting-started/basics/navigating-postman/"
+  },
+  {
+    "from": "/docs/getting-started/about-postman-agent/",
+    "to": "/docs/getting-started/basics/about-postman-agent/"
+  },
+  {
+    "from": "/docs/getting-started/about-postbot/",
+    "to": "/docs/getting-started/basics/about-postbot/"
+  },
+  {
+    "from": "/docs/getting-started/about-vs-code-extension/",
+    "to": "/docs/getting-started/basics/about-vs-code-extension/"
+  },
+  {
+    "from": "/docs/getting-started/syncing/",
+    "to": "/docs/getting-started/basics/syncing/"
+  },
+  {
+    "from": "/docs/getting-started/using-api-client/",
+    "to": "/docs/getting-started/basics/using-api-client/"
+  },
+  {
+    "from": "/docs/getting-started/using-scratch-pad/",
+    "to": "/docs/getting-started/basics/using-scratch-pad/"
+  },
+  {
+    "from": "/docs/getting-started/installation-and-updates/",
+    "to": "/docs/getting-started/installation/installation-and-updates/"
+  },
+  {
+    "from": "/docs/getting-started/settings/",
+    "to": "/docs/getting-started/installation/settings/"
+  },
+  {
+    "from": "/docs/getting-started/postman-account/",
+    "to": "/docs/getting-started/installation/postman-account/"
+  },
+  {
+    "from": "/docs/getting-started/postman-profile/",
+    "to": "/docs/getting-started/installation/postman-profile/"
+  },
+  {
+    "from": "/docs/getting-started/proxy/",
+    "to": "/docs/getting-started/installation/proxy/"
   }
-
 ]

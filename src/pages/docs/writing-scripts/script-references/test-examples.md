@@ -10,6 +10,9 @@ contextual_links:
   - type: link
     name: "Intro to Postman | Write API Tests"
     url: "https://youtu.be/EVg6gxeiUd0"
+  - type: link
+    name: "Advanced API testing: Best Practices and Automation Techniques | Postman Intergalactic"
+    url: "https://youtu.be/Ix6z1kBweuk"
   - type: subtitle
     name: "Blog posts"
   - type: link
@@ -72,7 +75,7 @@ This code uses the `pm` library to run the `test` method. The text string will a
 
 This test checks the response code returned by the API. If the response code is `200`, the test will pass, otherwise it will fail. Select **Send** and go to the **Test Results** tab in the response area.
 
-![Test output](https://assets.postman.com/postman-docs/v10/example-test-assertion-result-v10-2.jpg)
+![Test output](https://assets.postman.com/postman-docs/v10/example-test-assertion-result-v10-3.jpg)
 
 To learn what test results look like when they pass or fail, change the status code in the assertion code and send the request again.
 

@@ -13,6 +13,9 @@ contextual_links:
   - type: link
     name: "Import OpenAPI definitions from Azure API Management to Postman"
     url: "https://youtu.be/0XWReDRibmU"
+  - type: link
+    name: "Designing APIs | Postman Enterprise"
+    url: "https://youtu.be/IRl40Nl8dwo"
   - type: subtitle
     name: "Blog posts"
   - type: link
@@ -38,7 +41,7 @@ You can import an existing API definition into your API. API definitions can be 
 1. Select **Import**.
 1. Select files, folders, enter a link to the API, or paste your raw text.
 
-    > You can also import an API definition from a code repository. Learn more about [importing and exporting](/docs/getting-started/importing-and-exporting-data/).
+    > You can also import an API definition from a code repository. Learn more about [importing and exporting](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/).
 
 1. Confirm the name, format, and what you would like your data to import as.
 
@@ -51,7 +54,7 @@ You can import an existing API definition into your API. API definitions can be 
 1. Select **Import**.
 1. Select **folders**, then select a local folder with your API files.
 
-    > You can also import an API definition from a code repository. Learn more about [importing and exporting](/docs/getting-started/importing-and-exporting-data/).
+    > You can also import an API definition from a code repository. Learn more about [importing and exporting](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/).
 
 1. Select **Upload**. When asked to confirm uploading the files, select **Upload** again.
 1. Select the files you want to import for the API definition.

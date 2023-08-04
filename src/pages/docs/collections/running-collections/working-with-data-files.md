@@ -1,8 +1,6 @@
 ---
 title: "Importing data files"
-order: 58
-updated: 2022-07-18
-page_id: "working_with_data_files"
+updated: 2023-06-21
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -21,12 +19,17 @@ contextual_links:
   - type: link
     name: "Reputation imports data files with Postman"
     url: "https://www.postman.com/case-studies/reputation/"
-
-warning: false
-
 ---
 
 You can use data files to pass Postman sets of values to use in a collection run. By selecting a JSON or CSV data file in the Collection Runner, you can test your requests with multiple values as part of a single run.
+
+Before exporting your file, consider the following:
+
+* Preceding zeroes (for example, `000000345`) are stripped by Postman unless wrapped in double quotation marks (for example, `"000000345"`). Also, common spreadsheet programs (Microsoft Excel and Google Sheets) don't wrap values in quotes unless the value contains a comma or a double quotation mark.
+
+* To treat numbers with leading zeroes as strings in Postman, reopen your exported CSV file in a text editor (or create a script) to wrap the number in double quotes.
+
+* You don't need to add double quotes to simple integers. You do, however, need to format numbers larger than 15 digits as text in your spreadsheet program, so they're not truncated during export.
 
 ## Running collections with data files
 
@@ -49,7 +52,7 @@ You can select a data file to use in a [collection run](/docs/collections/runnin
     > ![Import Collection](https://assets.postman.com/postman-docs/v10/import-export-import-ui-v10-2.jpg)
     > * In the Collection Runner, choose the collection you imported. Download [the sample data file](https://assets.postman.com/postman-docs/58702589.json) and select it in the __Runner__ also.
     > * Note that the sample collection has a `POST` request which uses a `path` variable in the URL. This path variable is specified in each record in the data file. The request also uses a `value` variable in the body which is also pulled from the data file for each iteration. _The example request is to the [Postman Echo API](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation), a learning resource that returns the data you send it._
-    > ![Tests](https://assets.postman.com/postman-docs/data-file-tests-tab-v8.jpg)
+    > ![Tests](https://assets.postman.com/postman-docs/v10/data-file-tests-tab-v10-2.jpg)
 
 1. Select a request in the Collection Runner results to get more details on its data.
 
@@ -57,7 +60,7 @@ You can select a data file to use in a [collection run](/docs/collections/runnin
 
 Any data defined in the requests will be used when the collection runs, and your request data can reference values defined in the data file.
 
-![Data File Value](https://assets.postman.com/postman-docs/request-body-data-run-v8.jpg)
+![Data File Value](https://assets.postman.com/postman-docs/v10/request-body-data-run-v10.jpg)
 
 ## Accessing data file values
 
@@ -74,8 +77,14 @@ See the [Sandbox Reference](/docs/writing-scripts/script-references/postman-sand
 
 You may encounter errors when Postman attempts to read your data file during a collection run. If this happens, you can take the following steps:
 
-1. Ensure your data file is formatted correctly, as either CSV or JSON.
+* Ensure your data file is formatted as either CSV or JSON.
 
-1. Confirm your data file is encoded properly, by opening your data file in a text editor and saving the file in a different format.
+* If you want to retain numbers with leading zeros, open the file in a text editor and wrap the number in double quotes as follows:
+
+  ```csv
+  index,specialNumber
+  1,"000001"
+  2,"9223372036854775807"
+  ```
 
 If the errors persist, [contact the Postman support team](https://support.postman.com/hc/en-us).

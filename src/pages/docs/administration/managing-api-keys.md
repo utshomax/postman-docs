@@ -1,6 +1,14 @@
 ---
 title: "Managing API keys"
 updated: 2023-06-15
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Securely manage your team’s Postman API keys"
+    url: "https://blog.postman.com/securely-manage-your-teams-postman-api-keys/"
 ---
 
 > **[Postman API key management is available on Postman Enterprise plans.](https://www.postman.com/pricing)**

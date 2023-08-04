@@ -69,8 +69,6 @@ Using the Postman CLI, you can run Postman collections with your API tests as pa
 
 To view details for collections that were run as part of a build, first [configure the Postman CLI for Jenkins](#configuring-the-postman-cli-for-jenkins) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand a collection to view details about a collection run.
 
-<img alt="View collection runs" src="https://assets.postman.com/postman-docs/v10/collection-runs-v10-2.jpg">
-
 > Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 
 ## Viewing API Governance and API Security rule violations

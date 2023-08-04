@@ -3,7 +3,6 @@ title: "Building requests"
 order: 21
 page_id: "requests"
 updated: 2023-05-31
-search_keyword: "Content-Type, multipart, form-data, x-www-form-urlencoded"
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -21,8 +20,8 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Introducing the Next-Generation Postman URL Processor"
-    url:  "https://blog.postman.com/introducing-the-next-generation-postman-url-processor/"
+    name: "What are HTTP headers?"
+    url: "https://blog.postman.com/what-are-http-headers/"
   - type: subtitle
     name: "Public workspaces"
   - type: link
@@ -40,7 +39,7 @@ When you send a request, Postman displays the response received from the API ser
 
 <img alt="Request builder with a successful response" src="https://assets.postman.com/postman-docs/v10/postman-request-builder-v10-2.jpg" width="750px"/>
 
-If you have never sent a request before, check out [sending your first request](/docs/getting-started/sending-the-first-request/) before you continue.
+If you have never sent a request before, check out [sending your first request](/docs/getting-started/first-steps/sending-the-first-request/) before you continue.
 
 ## Contents
 

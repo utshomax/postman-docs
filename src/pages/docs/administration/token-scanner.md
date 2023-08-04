@@ -9,8 +9,14 @@ contextual_links:
   - type: link
     name: "Postman Token Scanner | Postman Level Up"
     url: "https://youtu.be/9XxkqPQF-Rw"
+  - type: link
+    name: "Securing APIs | Postman Enterprise"
+    url: "https://youtu.be/tiYgp4QEwZQ"
   - type: subtitle
     name: "Blog posts"
+  - type: link
+    name: "How we’re protecting your Postman API keys in GitLab"
+    url: "https://blog.postman.com/protecting-your-postman-api-keys-in-gitlab/"
   - type: link
     name: "2 Big Improvements to the Postman Token Scanner"
     url: "https://blog.postman.com/2-big-improvements-to-the-postman-token-scanner/"
@@ -33,12 +39,14 @@ The Postman Secret Scanner scans public workspaces to detect any exposed secrets
     * [Default alerts](#default-alerts)
     * [Custom alerts](#custom-alerts)
 * [Protecting Postman API keys in GitHub](#protecting-postman-api-keys-in-github)
+* [Protecting Postman API keys in GitLab](#protecting-postman-api-keys-in-gitlab)
 
 ## Use cases
 
 A scan starts whenever team members do any of the following actions:
 
-* Change the workspace visibility to Public.
+* Make a workspace public.
+* Send a request to a [Community Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to make a workspace public.
 * Share a collection or environment to a public workspace.
 * Make changes to a collection or environment that's present in a public workspace.
 * Write new documentation for a Postman Collection and make it public.
@@ -83,3 +91,11 @@ To add custom alerts, do the following:
 Postman also works with GitHub to ensure that your Postman API keys are secure. If you commit a valid Postman API key to a public GitHub repository, Postman notifies you by email and in-app notification. You can also set up Postman's [Slack integration](/docs/integrations/available-integrations/slack/) to alert you in Slack if this occurs.
 
 It's recommended you delete the exposed API key in your [API keys dashboard](https://go.postman.co/settings/me/api-keys). You can then [generate a new API key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key) to continue working with the Postman API.
+
+## Protecting Postman API keys in GitLab
+
+> This feature is available on GitLab Ultimate plans.
+
+Postman works with GitLab to protect your Postman API keys in GitLab public repositories. If you accidentally commit a valid Postman API key to a public GitLab repository, Postman notifies you by email and in-app notification.
+
+It's recommended you delete the exposed API key in your [API keys dashboard](https://go.postman.co/settings/me/api-keys) immediately. You can then [generate a new API key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key) to continue working with the Postman API.

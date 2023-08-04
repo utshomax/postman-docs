@@ -16,16 +16,16 @@ contextual_links:
     name: "Intro to Postman | Chain Requests"
     url: "https://youtu.be/4fULCou_7Wc"
   - type: link
-    name: "Manage CLI Environment Variables | Postman Level Up"
-    url: "https://youtu.be/n8O2KP-Zx8I"
+    name: "Consuming REST APIs | Postman Enterprise"
+    url: "https://youtu.be/oI-GyWB_6jA"
   - type: subtitle
     name: "Blog posts"
   - type: link
+    name: "How to persist Postman variables"
+    url: "https://blog.postman.com/how-to-persist-postman-variables/"
+  - type: link
     name: "How to Securely Deploy Postman at Scale, Part 2: Information Management"
     url: "https://blog.postman.com/how-to-securely-deploy-postman-at-scale-part-2-information-management/"
-  - type: link
-    name: "Securely Using API Keys in Postman"
-    url: "https://blog.postman.com/how-to-use-api-keys/"
   - type: link
     name: "Faster and easier variable management in Postman"
     url: "https://blog.postman.com/faster-and-easier-variable-management-in-postman/"
@@ -53,7 +53,7 @@ _Variables_ enable you to store and reuse values in Postman. By storing a value 
 
 To create and use a variable, do the following:
 
-1. Select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> in the [workbench](/docs/getting-started/navigating-postman/#environment-selector-and-environment-quick-look).
+1. Select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> in the [workbench](/docs/getting-started/basics/navigating-postman/#environment-selector-and-environment-quick-look).
 1. Next to **Globals**, select __Edit__ (or __Add__ if no variables have been added yet).
 1. Add a variable named `my_variable` and give it an initial value of `Hello`.
 1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save**, then close the environment tab.
@@ -113,7 +113,7 @@ Users with [Editor](/docs/collaborating-in-postman/roles-and-permissions/) acces
 
 To set the variable type to secret, do the following:
 
-1. Select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> in the [workbench](/docs/getting-started/navigating-postman/#environment-selector-and-environment-quick-look).
+1. Select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> in the [workbench](/docs/getting-started/basics/navigating-postman/#environment-selector-and-environment-quick-look).
 1. For environment or global variables, select **Edit** to open the editor.
 
     <img alt="Environment editor" src="https://assets.postman.com/postman-docs/v10/environment-editor-v10-10.jpg">
@@ -171,7 +171,7 @@ To view global variables, do the following:
 1. Select **Environments** in the sidebar.
 1. Select **Globals**.
 
-> You can also view global variables by selecting the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> in the [workbench](/docs/getting-started/navigating-postman/#environment-selector-and-environment-quick-look).
+> You can also view global variables by selecting the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> in the [workbench](/docs/getting-started/basics/navigating-postman/#environment-selector-and-environment-quick-look).
 >
 > The environment quick look shows the selected environment along with global variables in your workspace. You can edit the current value for an existing variable inline by selecting the value. To add a variable, select __Edit__ next to the global section.
 
@@ -205,7 +205,7 @@ To view environment variables, do the following:
 1. Select **Environments** in the sidebar.
 1. Select the environment you want to inspect variables for.
 
-> You can also inspect environment variables by selecting the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> in the [workbench](/docs/getting-started/navigating-postman/#environment-selector-and-environment-quick-look).
+> You can also inspect environment variables by selecting the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> in the [workbench](/docs/getting-started/basics/navigating-postman/#environment-selector-and-environment-quick-look).
 >
 > The environment quick look shows the selected environment along with global variables in your workspace. You can edit the current value for an existing variable inline by selecting the value. To add a variable, select __Edit__ next to the environment section.
 
@@ -370,7 +370,7 @@ When you create or edit a variable, you can enter both an initial and a current 
 
 > If you don't have Editor access to an environment, you can't edit the initial value of an environment variable. You can edit the current value, and your edit won't be visible to anyone sharing your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 
-Using __Persist__ makes your current value [sync](/docs/getting-started/syncing/) with Postman's servers and be reflected for anyone sharing your collection or environment. To reset your current local values to reflect the initial shared values, use __Reset__.
+Using __Persist__ makes your current value [sync](/docs/getting-started/basics/syncing/) with Postman's servers and be reflected for anyone sharing your collection or environment. To reset your current local values to reflect the initial shared values, use __Reset__.
 
 To persist individual values, do the following:
 
@@ -382,7 +382,7 @@ Your local session in Postman can use values that are transient and visible to y
 
 > For example, your team could have a shared API key and individual API keys. You could do experimental development work locally using your personal key, but use the shared key for team collaboration. Similarly, you could have a variable that represents exploratory work you're doing locally but aren't ready to share with the team. You can later choose to persist the local data so that others on your team can also access it.
 
-You can edit a current value inline using the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> in the [workbench](/docs/getting-started/navigating-postman/#environment-selector-and-environment-quick-look).
+You can edit a current value inline using the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> in the [workbench](/docs/getting-started/basics/navigating-postman/#environment-selector-and-environment-quick-look).
 
 For more information on working with variables as a team, see [Managing environments](/docs/sending-requests/managing-environments/#creating-environments).
 
