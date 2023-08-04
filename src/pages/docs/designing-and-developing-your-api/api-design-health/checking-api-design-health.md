@@ -28,7 +28,7 @@ API Design Health provides a design quality score for your API based on each sty
 
 To begin checking your API design, you can upload your OpenAPI document or API definition file to API Design Health. Then you can review your API design quality score and fix any style guide violations it finds.
 
-1. Go to [Postman API Design Health](https://go.postman.co/api-health/).
+1. Go to [Postman API Design Health](https://go.postman.co/api-design-health/).
 1. Choose an OpenAPI document or API definition to check. Postman supports both YAML and JSON formats. There are several ways to choose an API:
     * Select **Paste Raw text or URL...**, then enter your OpenAPI document or API definition as raw text or enter a URL.
     * Drag and drop a file, or select a file from your local system.
@@ -46,13 +46,13 @@ You can review and fix style guide violations in your OpenAPI document or API de
 
 ### Review violations
 
-After you [upload your API to API Design Health](#upload-your-api-to-api-design-health), you can review style guide violations in your OpenAPI document or API definition. Each style guide violation shows the impact it has on your design quality score, the number of times each violation occurred, and the severity level of each style guide violation. The severity level of style guide violations from most severe to least severe is Error, Warn, and Hint.
+After you [upload your API to API Design Health](#upload-your-api-to-api-design-health), you can review style guide violations in your OpenAPI document or API definition. Each style guide violation shows the impact it has on your design quality score, the number of times each violation occurred, and the severity level of each style guide violation. The severity level of style guide violations from most severe to least severe is Error, Warning, Info, and Hint.
 
 You can expand each guideline to review each occurrence of a violation, and learn more about how to fix it. Select the occurrence of the violation to scroll to its location in your OpenAPI document or API definition. You can also [compare your API with top APIs](#compare-your-api-with-top-apis) to help you identify your ideal design quality score.
 
 <!-- screenshot: showing rule violations and how to expand -->
 
-Once you're done reviewing your style guide violations, you can [fix violations](#fix-violations) in your OpenAPI document or API definition.
+Once you're done reviewing your style guide violations, you can [fix violations in your OpenAPI document or API definition](#fix-violations).
 
 #### Compare your API with top APIs
 
