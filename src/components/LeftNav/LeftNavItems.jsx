@@ -533,7 +533,7 @@ export const leftNavItems = [
     url: '/docs/postman-flows/gs/flows-overview/',
     subMenuItems1: [
       {
-        name: 'Getting started',
+        name: 'Getting started with Flows',
         subParentSlug: 'gs',
         slug: '/docs/postman-flows/gs/flows-overview/',
         subMenuItems2: [
@@ -542,8 +542,8 @@ export const leftNavItems = [
             url: '/docs/postman-flows/gs/flows-overview/',
           },
           {
-            name: 'Navigating a flow',
-            url: '/docs/postman-flows/gs/navigating-a-flow/',
+            name: 'The Flows interface',
+            url: '/docs/postman-flows/gs/the-flows-interface/',
           }
         ],
       },
@@ -561,8 +561,8 @@ export const leftNavItems = [
             url: '/docs/postman-flows/concepts/requests-and-variables/',
           },
           {
-            name: 'Picking information you want',
-            url: '/docs/postman-flows/concepts/picking-information/',
+            name: 'Selecting information',
+            url: '/docs/postman-flows/concepts/selecting-information/',
           },
           {
             name: 'Passing information between blocks',
@@ -589,8 +589,12 @@ export const leftNavItems = [
       {
         name: 'Tutorials',
         subParentSlug: 'tutorials',
-        slug: '/docs/postman-flows/tutorials/build-a-slack-bot/',
+        slug: '/docs/postman-flows/tutorials/flows-tutorials-overview/',
         subMenuItems2: [
+          {
+            name: 'Flows tutorials overview',
+            url: '/docs/postman-flows/tutorials/flows-tutorials-overview/',
+          },
           {
             name: 'Send information from one system to another',
             url: '/docs/postman-flows/tutorials/send-information-from-one-system-to-another/',

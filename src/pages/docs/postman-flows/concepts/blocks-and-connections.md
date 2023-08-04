@@ -1,6 +1,6 @@
 ---
 title: "Blocks and connections"
-updated: 2023-05-24
+updated: 2023-08-02
 ---
 
 ## Contents
@@ -22,14 +22,22 @@ There are three ways to add a new block:
 
 Any of these actions will open up the block list which you can select from and that block will be added to the flow.
 
-![Add a block](https://assets.postman.com/postman-labs-docs/concepts/adding-a-block.gif)
+![Add a block](https://assets.postman.com/postman-labs-docs/concepts/updated-adding-a-block.gif)
 
 When you open a new flow, the first block you'll see if the **Start** block.
 
 The **Start** block has a single output. When you press the **Run** button, this block sends information through a connection to the next block, causing it to run.
 
+When a brand new flow is created, before you add any blocks, the start block has colored suggestions for things you can do: 
+
+* Send a request: creates a send request block
+* Add blocks: opens the block menu
+* Explorer templates: opens up a menu of pre-built flows to load and discover
+
+These are suggestions to help getting started building a flow.
+
 ### Connections
 
 Connections are how blocks interact with each other. Dragging a connection from the output of one block to the input of a another block can either cause the second block to run, or pass information to that block and then run it.
 
-![Add a connection](https://assets.postman.com/postman-labs-docs/concepts/adding-a-connection.gif)
+![Add a connection](https://assets.postman.com/postman-labs-docs/concepts/updated-adding-a-connection.gif)
