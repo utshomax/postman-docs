@@ -1,9 +1,5 @@
 ---
-title: "Creating a workspace"
-order: 8
-page_id: "creating_your_first_workspace"
-warning: false
-search_keyword: "workspace, create workspace, creating workspaces"
+title: "Create your first workspace"
 updated: 2022-01-04
 contextual_links:
   - type: section
@@ -15,9 +11,9 @@ contextual_links:
     url: "https://youtu.be/I10RCvMbPi0"
 ---
 
-Postman workspaces enable you to organize and work together on API projects with your team. Within each workspace you can share [APIs](/docs/designing-and-developing-your-api/creating-an-api/), [collections](/docs/getting-started/creating-the-first-collection/), [environments](/docs/sending-requests/managing-environments/), and other Postman elements.
+Postman workspaces enable you to organize and work together on API projects with your team. Within each workspace you can share [APIs](/docs/designing-and-developing-your-api/creating-an-api/), [collections](/docs/getting-started/first-steps/creating-the-first-collection/), [environments](/docs/sending-requests/managing-environments/), and other Postman elements.
 
-When you first open Postman, you will be in your default personal workspace. You can create more workspaces for your personal use and to work with teammates. To create more workspaces, you need to sign in to your [Postman account](/docs/getting-started/postman-account/).
+When you first open Postman, you will be in your default personal workspace. You can create more workspaces for your personal use and to work with teammates. To create more workspaces, you need to sign in to your [Postman account](/docs/getting-started/installation/postman-account/).
 
 To create a new workspace, do the following:
 
