@@ -11,7 +11,7 @@ contextual_links:
     url: "https://blog.postman.com/how-to-publish-and-market-your-api-to-maximize-adoption/"
 ---
 
-Postman recommends following these best practices and tips to share your public workspace with API consumers and track interest and activity for your APIs on [the Public API Network](/docs/getting-started/exploring-public-api-network/).
+Postman recommends following these best practices and tips to share your public workspace with API consumers and track interest and activity for your APIs on [the Public API Network](/docs/getting-started/first-steps/exploring-public-api-network/).
 
 ## Contents
 
