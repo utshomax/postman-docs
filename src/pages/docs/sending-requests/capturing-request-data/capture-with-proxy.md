@@ -65,7 +65,7 @@ In the steps below, you'll use the Postman proxy to inspect HTTP and HTTPS commu
 
 The first time you start a proxy session, Postman will prompt you to install the **Postman Proxy CA** certificate on your computer. Enter your system password and select **Update Settings**. Installing the certificate enables the Postman proxy to capture secure HTTPS traffic sent from browsers and other client apps on your computer.
 
-SCREENSHOT
+<img alt="Start a proxy session" src="https://assets.postman.com/postman-docs/v10/proxy-start-session-v10-17.jpg" />
 
 ### Step 2: Control the proxy session
 
@@ -96,6 +96,8 @@ From the proxy session tab, you can take the following actions:
 
     > You can also capture cookies and sync them to Postman without starting a proxy session. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
 
+<img alt="Control a proxy session" src="https://assets.postman.com/postman-docs/v10/proxy-control-session-v10-17.jpg" />
+
 ### Step 3: View the proxy session results
 
 While your proxy session is running, the proxy session tab shows captured traffic as you use a browser or apps on a client device. You can view details about each captured request including the status, method, URL, type, response size, and response time.
@@ -110,7 +112,7 @@ You can view and work with the proxy session results while the session is active
 * To delete a request or cookie, select it and select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete**.
 * To add a cookie to the Postman cookie jar, select it and select **+ Add to Cookie Jar**.
 
-SCREENSHOT
+<img alt="View proxy session results" src="https://assets.postman.com/postman-docs/v10/proxy-view-results-v10-17.jpg" />
 
 ### Step 4: Stop the proxy session
 
@@ -127,7 +129,7 @@ To save captured requests to a collection, do the following:
 1. Choose how to organize the requests in the collection. By default, requests are ordered chronologically. You can also select the checkboxes to group the requests in folders organized by **Domain name**, **Endpoints**, or both.
 1. Select **Save**.
 
-SCREENSHOT
+<img alt="Save captured requests to a collection" src="https://assets.postman.com/postman-docs/v10/proxy-create-collection-v10-17.jpg" />
 
 ### Step 5: Configure the proxy on a client device
 
@@ -136,13 +138,13 @@ You can use the Postman proxy to capture traffic from a client device such as a 
 1. Start a new proxy session. Select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Start proxy** in the Postman footer, then select **Start Proxy Session**.
 1. Find the local IP address of the computer running the proxy:
 
-    * On macOS, you can find the computer's IP address in **System Preferences > Network**. Select a network interface, and the IP address of your system is shown on the right:
+    * On macOS, you can find your computer's IP address in **System Settings > Network**. Select a network interface, and if necessary select **Details > TCP/IP** to view your system's IP address.
 
-      <img alt="system preferences" src="https://assets.postman.com/postman-docs/osx-network-settings-v9-5.jpg" />
+      <img alt="macOS network settings" src="https://assets.postman.com/postman-docs/v10/proxy-macos-network-settings-v10-17.jpg" />
 
-<!--
+    <!--
     * On Windows, select **Start > Settings > Network & internet > Wi-Fi** or **Ethernet**. Your IP address is listed under **Properties**.
--->
+    -->
 
 1. Open the wireless settings of your client device and update the configuration of the network connection to use an HTTP Proxy. For example, in iOS:
 
