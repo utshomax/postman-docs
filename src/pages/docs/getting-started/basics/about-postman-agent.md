@@ -16,7 +16,7 @@ contextual_links:
     url: "https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/"
 ---
 
-Postman has multiple agents you can use to send your API requests from the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app): the Postman Desktop Agent, the Postman Cloud Agent, or the Postman Browser Agent.
+Postman has multiple agents you can use to send your API requests from the [Postman web app](/docs/getting-started/installation/installation-and-updates/#using-the-postman-web-app): the Postman Desktop Agent, the Postman Cloud Agent, or the Postman Browser Agent.
 
 From the Postman web app, you can select the **Auto-select** toggle for Postman to automatically select the best agent for your requests. You can also manually select the agent for your requests.
 
@@ -49,7 +49,7 @@ Your team can make a set number of requests using the Cloud Agent each month. Yo
 
 ### The Postman Browser Agent
 
-The Postman Browser Agent sends API requests using your browser, with some [limitations](/docs/getting-started/installation-and-updates/#web-limitations). You might experience the CORS limitations of browsers when using the Browser Agent.
+The Postman Browser Agent sends API requests using your browser, with some [limitations](/docs/getting-started/installation/installation-and-updates/#web-limitations). You might experience the CORS limitations of browsers when using the Browser Agent.
 
 ## Selecting a Postman Agent for requests
 
@@ -64,7 +64,7 @@ The Postman Browser Agent sends API requests using your browser, with some [limi
 
         * **Cloud Agent** - Send HTTP requests using Postman's cloud servers.
         * **Desktop Agent** - Send requests using the Postman Desktop Agent.
-        * **Browser Agent** - Send requests using your browser, with some [limitations](/docs/getting-started/installation-and-updates/#web-limitations).
+        * **Browser Agent** - Send requests using your browser, with some [limitations](/docs/getting-started/installation/installation-and-updates/#web-limitations).
 
     <img alt="Select agent" src="https://assets.postman.com/postman-docs/v10/select-agent-for-requests-v10.gif">
 

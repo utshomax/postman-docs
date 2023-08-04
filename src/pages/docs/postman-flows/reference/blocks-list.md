@@ -19,7 +19,7 @@ The blocks available in Postman Flows are described below.
 
 Enables large amounts of formatted text to be entered. The values in the variables section can be included in the text using `{{key}}` where `key` is the name of your variable.
 
-**Variables** - Named information or assigned values that can be included in the text using the `{{key}}` format.
+**Variables** - Named information or assigned values that can be included in the text using the `{{key}}` format. Variables created in flows are not available to test scripts or other features outside Postman Flows.
 
 **Out** - Sends the information entered in the text box to the next block.
 

@@ -22,7 +22,7 @@ contextual_links:
     url: "https://blog.postman.com/database-apis/"
 ---
 
-Make your API available on [the Public API Network](/docs/getting-started/exploring-public-api-network/) to share your APIs with 20M+ users in the world’s largest public API network. Your API is searchable in the Postman app when it's available on the Public API Network. If API consumers actively watch and fork your API, it'll be featured on Postman's [Explore](https://www.postman.com/explore) page.
+Make your API available on [the Public API Network](/docs/getting-started/first-steps/exploring-public-api-network/) to share your APIs with 20M+ users in the world’s largest public API network. Your API is searchable in the Postman app when it's available on the Public API Network. If API consumers actively watch and fork your API, it'll be featured on Postman's [Explore](https://www.postman.com/explore) page.
 
 Postman gives you the tools you need to make successful API calls. Use [Postman Flows](/docs/postman-flows/gs/flows-overview/) to build and collaborate on API-driven applications. Leverage [Public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) to [view, share, and consume your APIs](https://www.postman.com/api-platform/api-catalog/) and all the elements you publish.
 

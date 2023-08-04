@@ -86,7 +86,7 @@ After you connect an API to a remote repository, other editors of the API must a
 
 Postman stores the accounts you've authorized with. After connecting to one repository, you can connect to other repositories that use the same Git provider without having to re-authenticate.<!-- You can also connect to the provider's other services. For example, if you connect to a GitHub repository, you can connect to [GitHub Actions](/docs/integrations/available-integrations/ci-integrations/github-actions/) without having to authenticate again. -->
 
-To manage services you've authorized with, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, select **Settings**, and select the **Connected accounts** tab. Learn more about [managing connected accounts](/docs/getting-started/settings/#connected-accounts).
+To manage services you've authorized with, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, select **Settings**, and select the **Connected accounts** tab. Learn more about [managing connected accounts](/docs/getting-started/installation/settings/#connected-accounts).
 
 ## Disconnecting a cloud-hosted repository
 

@@ -1,7 +1,6 @@
 ---
 title: "Setting up Postman"
 updated: 2023-07-15
-search_keyword: "GPU, hardware acceleration, shortcut, shortcuts, keyboard shortcuts"
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -59,7 +58,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 **To make collaboration easier, store files in your working directory.** Storing files in your working directory ensures that requests in shared collections always work. As long as you and your teammates use the same files and working directory location, shared requests will run across everyone's systems. Learn more about [sending body data](/docs/sending-requests/requests/#sending-body-data).
 
-**You can't change the working directory in the Postman web app.** When you upload a file, the Postman web app creates a new folder with a random name in the `~/Postman/files` directory. Postman stores the uploaded file in the new folder so you can use it when sending requests. To automatically sync files you upload to the Postman web app with your local working directory, make sure you are using the [Postman Desktop Agent](/docs/getting-started/about-postman-agent/#the-postman-desktop-agent).
+**You can't change the working directory in the Postman web app.** When you upload a file, the Postman web app creates a new folder with a random name in the `~/Postman/files` directory. Postman stores the uploaded file in the new folder so you can use it when sending requests. To automatically sync files you upload to the Postman web app with your local working directory, make sure you are using the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent).
 
 > If you choose a different working directory than `~/Postman/files` for the Postman desktop app, you will still be able to work between the Postman desktop app and the Postman web app by taking the following steps:
 >
@@ -80,7 +79,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 ### User interface
 
-* **Remove tabs** - _(Postman web app)_ Use tabs in your browser to navigate Postman instead of in-app tabs. For more information, see [Browser tabs in the Postman web app](/docs/getting-started/navigating-postman/#browser-tabs-in-the-postman-web-app).
+* **Remove tabs** - _(Postman web app)_ Use tabs in your browser to navigate Postman instead of in-app tabs. For more information, see [Browser tabs in the Postman web app](/docs/getting-started/basics/navigating-postman/#browser-tabs-in-the-postman-web-app).
 * **Always open sidebar item in new tab** - By default, when you select a sidebar item, Postman opens it in the preview tab. Turn this on to always open sidebar items in a new tab.
 * **Always ask when closing unsaved tabs** - By default, Postman asks if you want to save any unsaved changes when closing a tab. Turn this off to always discard unsaved changes when closing a tab.
 * **Two-pane view** - By default, Postman displays responses below requests. Turn this on to display the response and request panes side by side.
@@ -132,9 +131,9 @@ Some shortcuts aren't available in the Postman web app. Also, shortcut modifier 
 
 Use the **Data** tab to request a bulk export of Postman data or to import data. To begin the export process, select **Export Data**. You can choose to export your collections, environments, or both. You'll receive an email when your dump file is ready to download.
 
-Importing a dump file may overwrite your existing collections and environments, so use caution. Always make a backup before importing files. Learn more about [importing and exporting data](/docs/getting-started/importing-and-exporting-data/).
+Importing a dump file may overwrite your existing collections and environments, so use caution. Always make a backup before importing files. Learn more about [importing and exporting data](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/).
 
-If you have data on the [Scratch Pad](/docs/getting-started/using-scratch-pad/), you can migrate the data to a workspace. Learn more about [migrating Scratch Pad data to a workspace](/docs/getting-started/using-scratch-pad/#migrating-scratch-pad-data-to-a-workspace).
+If you have data on the [Scratch Pad](/docs/getting-started/basics/using-scratch-pad/), you can migrate the data to a workspace. Learn more about [migrating Scratch Pad data to a workspace](/docs/getting-started/basics/using-scratch-pad/#migrating-scratch-pad-data-to-a-workspace).
 
 ## Add-ons
 
@@ -160,11 +159,11 @@ You can manage your saved accounts and tokens on the **Connected accounts** tab:
 
 ## Proxy
 
-Use the **Proxy** tab to configure proxy settings for connecting to online services and sending API requests. Learn more about [configuring a proxy](/docs/getting-started/proxy/).
+Use the **Proxy** tab to configure proxy settings for connecting to online services and sending API requests. Learn more about [configuring a proxy](/docs/getting-started/installation/proxy/).
 
 ## App updates
 
-Use the **Update** tab to check for updates to the Postman desktop app or to enable automatic updating. Learn more about [updating Postman](/docs/getting-started/installation-and-updates/#updating-postman).
+Use the **Update** tab to check for updates to the Postman desktop app or to enable automatic updating. Learn more about [updating Postman](/docs/getting-started/installation/installation-and-updates/#updating-postman).
 
 ## About
 

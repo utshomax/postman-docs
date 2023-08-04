@@ -23,7 +23,7 @@ contextual_links:
     url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
 ---
 
-Postman Flows can get data with [API requests](/docs/getting-started/sending-the-first-request/) or directly from the **Start** block. This tutorial shows examples of Postman Flows getting data using both methods and passing data between blocks.
+Postman Flows can get data with [API requests](/docs/getting-started/first-steps/sending-the-first-request/) or directly from the **Start** block. This tutorial shows examples of Postman Flows getting data using both methods and passing data between blocks.
 
 ## Contents
 
@@ -34,17 +34,17 @@ Postman Flows can get data with [API requests](/docs/getting-started/sending-the
 
 ## Getting data and passing it between blocks
 
-These examples get response data with [API requests](/docs/getting-started/sending-the-first-request/) from existing collections in your workspace and from data pasted into the **Start** block. In these examples, the entire response is passed between blocks.
+These examples get response data with [API requests](/docs/getting-started/first-steps/sending-the-first-request/) from existing collections in your workspace and from data pasted into the **Start** block. In these examples, the entire response is passed between blocks.
 
 ### Getting data with an API request
 
 In this example, the **Send Request** block gets data using a collection's GET request. The **Send Request** block then passes all the data to a **Log** block.
 
-1. [Create a collection](/docs/getting-started/creating-the-first-collection/) named `Random User Collection` and add a GET request with this URL: `https://randomuser.me/api/`.
+1. [Create a collection](/docs/getting-started/first-steps/creating-the-first-collection/) named `Random User Collection` and add a GET request with this URL: `https://randomuser.me/api/`.
 
 1. Select **Send**.
 
-    ![Select Send](https://assets.postman.com/postman-docs/v10/flow-get-request-v10-2.jpg)
+    ![Select Send](https://assets.postman.com/postman-docs/v10/flow-get-request-v10-3.jpg)
 
 1. Select **Save**.
 

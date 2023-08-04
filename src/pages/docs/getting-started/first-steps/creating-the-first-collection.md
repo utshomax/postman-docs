@@ -1,5 +1,5 @@
 ---
-title: "Creating your first collection"
+title: "Create your first collection"
 updated: 2023-04-10
 contextual_links:
   - type: section
@@ -35,7 +35,7 @@ contextual_links:
 
 _Postman Collections_ are a group of saved requests. Every request you send in Postman appears under the **History** tab of the sidebar. On a small scale, reusing requests through the history section is convenient. As your Postman usage grows, it can be time-consuming to find a particular request in your history. Instead of scrolling through your history section, you can save all your requests as a group for easier access.
 
-## Creating your first collection
+## Create your first collection
 
 To create a new collection, you can start by creating a new request first. You can create a new request from the sidebar in Postman.
 

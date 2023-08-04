@@ -3,7 +3,6 @@ title: "Writing tests"
 order: 43
 page_id: "test_scripts"
 updated: 2022-08-31
-search_keyword: "pm.response, pm.test, pm.expect"
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -175,7 +174,7 @@ To write a test with Postbot, do the following:
 
 1. Select the play button. Postbot writes a test for you.
 
-For more information on Postbot, visit [About Postbot](/docs/getting-started/about-postbot/).
+For more information on Postbot, visit [About Postbot](/docs/getting-started/basics/about-postbot/).
 
 ## Next steps
 

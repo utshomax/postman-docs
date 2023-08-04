@@ -18,8 +18,8 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Announcing easier API authentication in Postman"
-    url: "https://blog.postman.com/easier-api-authentication-in-postman/"
+    name: "What is an API key?"
+    url: "https://blog.postman.com/what-is-an-api-key/"
   - type: link
     name: "OAuth 2.0 just got easier: introducing token refresh and ID token support"
     url: "https://blog.postman.com/oauth-2-0-token-refresh-and-id-token-support/"
