@@ -30,18 +30,18 @@ If you have several requests that have no dependency on each other but have to b
 
    Select **+ Block** on the toolbar and select the **Send Request** block from the list to add it to your canvas, then select the request. Repeat this until all the requests are added to the canvas.
 
-    ![Add Send Request blocks](https://assets.postman.com/postman-docs/v10/flows-chain-requests-v10-1.gif)
+    <img src="https://assets.postman.com/postman-docs/v10/flows-chain-requests-v10-1.gif" alt="Add Send Request blocks" fetchpriority="low" loading="lazy" />
 
 1. **Connect the send events**
 
    Select the dot (success output) of the source block and connect it to the send input of the target block in the order you want the requests to execute.
 
-   ![Select requests](https://assets.postman.com/postman-docs/v10/flows-select-requests-v10-1.gif)
+   <img src="https://assets.postman.com/postman-docs/v10/flows-select-requests-v10-1.gif" alt="Select requests" fetchpriority="low" loading="lazy" />
 
 1. **Start the flow**
 
    Start the flow and see the requests run in the order they're configured:
 
-   ![Start the flow](https://assets.postman.com/postman-docs/v10/flows-run-requests-v10-1.gif)
+   <img src="https://assets.postman.com/postman-docs/v10/flows-run-requests-v10-1.gif" alt="Start the flow" fetchpriority="low" loading="lazy" />
 
 If you want to use data from one request in another request, you can learn how to do so in [Passing data between blocks](/docs/postman-flows/tutorials/passing-data-between-blocks/).
