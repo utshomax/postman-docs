@@ -190,7 +190,7 @@ You can add tags to collections, enabling you to organize and search for collect
 
 Once you add tags to the collection, you can select a tag to open search results associated with the tag in a new tab.
 
-To learn more about searching using tag names in Postman, see [Search Postman](/docs/getting-started/navigating-postman/#search-postman). You can also search using tag names in the Private API Network when searching [elements in the network](/docs/collaborating-in-postman/private-api-network/adding-private-network/#searching-filtering-and-sorting), [elements to add to the network](/docs/collaborating-in-postman/private-api-network/organizing-private-network/#adding-elements-in-your-private-api-network), and [elements to request to add to the network](/docs/collaborating-in-postman/private-api-network/private-network-requests/#requesting-to-add-elements-in-your-private-api-network).
+To learn more about searching using tag names in Postman, see [Search Postman](/docs/getting-started/basics/navigating-postman/#search-postman). You can also search using tag names in the Private API Network when searching [elements in the network](/docs/collaborating-in-postman/private-api-network/adding-private-network/#searching-filtering-and-sorting), [elements to add to the network](/docs/collaborating-in-postman/private-api-network/organizing-private-network/#adding-elements-in-your-private-api-network), and [elements to request to add to the network](/docs/collaborating-in-postman/private-api-network/private-network-requests/#requesting-to-add-elements-in-your-private-api-network).
 
 To add tags to a collection, do the following:
 
