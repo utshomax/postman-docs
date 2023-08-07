@@ -26,7 +26,7 @@ contextual_links:
 
 If you are using APIs to build client-side applications like mobile apps, websites, or desktop applications, you may want to inspect the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. You can capture network traffic, including requests, responses, and cookies, using the proxy that's built into Postman.
 
-> You can also use the Postman proxy to automatically sync cookies from a Chrome browser to the Postman cookie jar. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
+> You can also use the Postman proxy to automatically sync cookies from a browser to the Postman cookie jar. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
 
 ## Contents
 
@@ -50,7 +50,7 @@ The Postman app has a built-in proxy that can capture HTTP and HTTPS traffic. He
 
 [![postman capture proxy](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)
 
-Similar to the [Interceptor Chrome extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman app proxy intercepts and captures your requests. Additionally, it can capture responses and cookies.
+Similar to the [Interceptor extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman app proxy intercepts and captures your requests. Additionally, it can capture responses and cookies.
 
 After you start the Postman proxy, you can start a proxy debug session, which is a time-bound session of traffic capture. You can start, pause, and stop a proxy debug session, then later start another one. Each debug session is logged in the **History** tab, and displays the total session time, a traffic overview, and all traffic captured. You can also send requests and responses to a collection, and save cookies to the Postman cookie jar.
 

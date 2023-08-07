@@ -41,18 +41,18 @@ Once configured, Postman continuously captures cookies from the browser or clien
 
 ## Syncing cookies with Postman Interceptor
 
-Postman Interceptor is a Chrome extension that captures network requests directly from the Google Chrome browser and saves them to Postman. You can use Interceptor to continuously sync the cookies in your Chrome browser to the [Postman cookie jar](/docs/sending-requests/cookies/). You can then use the synced cookies when sending requests in Postman.
+Postman Interceptor is a browser extension that captures network requests directly from a web browser and saves them to Postman. You can use Interceptor to continuously sync the cookies in your browser to the [Postman cookie jar](/docs/sending-requests/cookies/). You can then use the synced cookies when sending requests in Postman.
 
 > The cookie jar always has the latest value for a given cookie. If you need to observe how cookie values change during a request flow, start an [Interceptor debug session](/docs/sending-requests/capturing-request-data/interceptor/).
 
 To sync cookies using the Postman Interceptor, do the following:
 
-1. Install the Postman Interceptor Chrome extension by following the steps in [Installing Interceptor](/docs/sending-requests/capturing-request-data/interceptor/#installing-interceptor).
+1. Install the Postman Interceptor extension by following the steps in [Installing Interceptor](/docs/sending-requests/capturing-request-data/interceptor/#installing-interceptor).
 
 1. Select <img alt="Cookies icon" src="https://assets.postman.com/postman-docs/icon-cookies.jpg#icon" width="16px"> **Cookies** in the Postman footer.
 1. In the **Cookies** window, select the **Sync Cookies** tab and select the **Interceptor** option.
 
-    > Make sure you get the message **Connected**. If you get the message **Disconnected**, make sure your Chrome browser is open and the [Interceptor extension is installed](/docs/sending-requests/capturing-request-data/interceptor/#installing-interceptor).
+    > Make sure you get the message **Connected**. If you get the message **Disconnected**, make sure your browser is open and the [Interceptor extension is installed](/docs/sending-requests/capturing-request-data/interceptor/#installing-interceptor).
 
 1. Enter one or more **Domains**. Postman will sync cookies for the specified domains to the cookie jar.
 
@@ -64,11 +64,11 @@ To sync cookies using the Postman Interceptor, do the following:
 
 Postman is ready to capture and sync cookies using Interceptor.
 
-* Cookies for the domains you specified are automatically synced from Chrome to Postman.
+* Cookies for the domains you specified are automatically synced from your browser to Postman.
 * To stop syncing cookies for a domain, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the domain name.
 * To stop capturing and syncing all cookies, select **Stop Syncing**.
 
-> You can also control Interceptor debug sessions from the Interceptor extension in the Chrome browser. For more information, see [Using Interceptor from Chrome](/docs/sending-requests/capturing-request-data/interceptor/#using-interceptor-from-chrome).
+> You can also control Interceptor debug sessions from the Interceptor extension in your browser. For more information, see [Using Interceptor](/docs/sending-requests/capturing-request-data/interceptor/#using-interceptor).
 
 ## Syncing cookies with the Postman proxy
 
@@ -80,7 +80,7 @@ To sync cookies using the Postman proxy, do the following:
 
 1. Select <img alt="Cookies icon" src="https://assets.postman.com/postman-docs/icon-cookies.jpg#icon" width="16px"> **Cookies** in the Postman footer.
 1. In the **Cookies** window, select the **Sync Cookies** tab and select the **Proxy** option.
-1. Enter a **Port** number. The default value is `5555`. You will use this port number when configuring clients.
+1. Enter a **Port** number. The default value is `5559`. You will use this port number when configuring clients.
 
     > You can't change the port number while the proxy is enabled.
 

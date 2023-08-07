@@ -1,6 +1,6 @@
 ---
 title: "Using Postman Interceptor"
-updated: 2023-06-15
+updated: 2023-08-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -14,14 +14,13 @@ contextual_links:
   - type: link
     name: "Postman Interceptor: The Next Generation View Source for The API Economy"
     url:  "https://blog.postman.com/postman-interceptor-the-next-generation-view-source-for-the-api-economy/"
-
 ---
 
-Postman Interceptor is a Chrome extension that acts as a browser companion to the Postman desktop app. Interceptor enables you to capture network requests and cookies directly from a Chrome browser.
+Postman Interceptor is a browser extension that acts as a companion to the Postman desktop app. Interceptor enables you to capture network requests and cookies directly from a web browser.
 
-Once Interceptor is running in Chrome, you can start a debug session, which is a time-bound session of traffic capture. You can start, pause, and stop an interceptor debug session, then later start another one. Each debug session is logged in the **History** tab, and displays the total session time and all traffic captured. From the logged session, you can send requests and responses to a collection and save cookies to the Postman cookie jar.
+Once Interceptor is running in your browser, you can start a debug session, which is a time-bound period of traffic capture. You can start, pause, and stop an interceptor debug session, then later start another one. Each debug session is logged in the **History** tab, and displays the total session time and all traffic captured. From the logged session, you can send requests and responses to a collection and save cookies to the Postman cookie jar.
 
-> You can also use Postman Interceptor to automatically sync cookies from a Chrome browser to the Postman cookie jar. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
+> You can also use Postman Interceptor to automatically sync cookies from a web browser to the Postman cookie jar. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
 
 ## Contents
 
