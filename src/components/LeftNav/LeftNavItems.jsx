@@ -934,6 +934,17 @@ export const leftNavItems = [
         ],
       },
       {
+        name: 'API Design Health',
+        subParentSlug: 'api-design-health',
+        slug: '/docs/designing-and-developing-your-api/api-design-health/check-api-design-health/',
+        subMenuItems2: [
+          {
+            name: 'Check your API design health',
+            url: '/docs/designing-and-developing-your-api/api-design-health/check-api-design-health/',
+          },
+        ],
+      },
+      {
         name: 'Testing an API',
         url: '/docs/designing-and-developing-your-api/testing-an-api/',
       },
