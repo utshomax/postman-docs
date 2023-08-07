@@ -32,7 +32,7 @@ To begin checking your API design, you can upload your OpenAPI document or API d
 1. Choose an OpenAPI document or API definition to check. Postman supports both YAML and JSON formats. There are several ways to choose an API:
     * Select **Paste Raw text or URL...**, then enter your OpenAPI document or API definition as raw text or enter a URL.
     * Drag and drop a file, or select a file from your local system.
-    * Select **Choose API from workspace** to choose an API in Postman. Select an API from the dropdown list, then select **Generate API Quality Score**. If you don't see the API you're looking for, make sure you have [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) to the API.
+    * Select **Choose API from workspace** to choose an API in Postman. Select an API from the dropdown list, then select **Evaluate API**. If you don't see the API you're looking for, make sure you have [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) to the API.
 
         > To check an API already in Postman, it must have an [API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/).
 
