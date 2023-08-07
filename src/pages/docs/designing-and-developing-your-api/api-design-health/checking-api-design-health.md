@@ -44,7 +44,7 @@ You can review and fix style guide violations in your OpenAPI document or API de
 
 ### Review violations
 
-After you [upload your API to API Design Health](#upload-your-api-to-api-design-health), you can review style guide violations in your OpenAPI document or API definition. Each style guide violation shows the impact it has on your design quality score, the number of times each violation occurred, and the severity level of each style guide violation. The severity level of style guide violations from most severe to least severe is Error, Warning, Info, and Hint.
+After you [upload your API to API Design Health](#upload-your-api-to-api-design-health), you can review style guide violations in your OpenAPI document or API definition. Each style guide violation shows the impact it has on your design quality score, the number of times each violation occurred, and the severity level of each style guide violation. The severity levels of style guide violations from most severe to least severe are Error, Warning, Info, and Hint.
 
 You can expand each guideline to review each occurrence of a violation, and learn more about how to fix it. Select the occurrence of the violation to scroll to its location in your OpenAPI document or API definition. You can also [compare your API with top APIs](#compare-your-api-with-top-apis) to help you identify your ideal design quality score.
 
