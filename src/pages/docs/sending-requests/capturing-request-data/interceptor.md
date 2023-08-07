@@ -18,7 +18,7 @@ contextual_links:
 
 Postman Interceptor is a browser extension that acts as a companion to the Postman desktop app. Interceptor enables you to capture network requests and cookies directly from a web browser.
 
-Once Interceptor is running in your browser, you can start a debug session, which is a time-bound period of traffic capture. You can start, pause, and stop an interceptor debug session, then later start another one. Each debug session is logged in the **History** tab, and displays the total session time and all traffic captured. From the logged session, you can send requests and responses to a collection and save cookies to the Postman cookie jar.
+After you install the Interceptor extension, you can start an _Interceptor session_, which is a time-bound period of traffic capture. You can pause, restart, and stop an Interceptor session, then later start another one. Each session is logged in the **History** tab and displays the total session time, a traffic overview, and all traffic captured. You can also send requests and responses to a collection and save cookies to the Postman cookie jar.
 
 > You can also use Postman Interceptor to automatically sync cookies from a web browser to the Postman cookie jar. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
 
@@ -39,27 +39,46 @@ Once Interceptor is running in your browser, you can start a debug session, whic
 
 ## Installing Interceptor
 
-> You can't use Interceptor with the [Postman web app](/docs/getting-started/installation/installation-and-updates/#web-limitations). Make sure you've installed the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/).
+Use the links below to download and install the latest version of the Interceptor extension for your web browser. Interceptor is available for the following browsers:
 
-1. [Download](https://go.pstmn.io/interceptor-download) Interceptor in the Chrome Web Store. If you already have the extension, ensure it's version v0.2.26 or later.<!--TODO: should we say the new version? -->
-1. Select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** in the Postman footer.
-1. On the **Capture requests** window, select the **Via Interceptor** tab.
+* [Google Chrome]((https://go.pstmn.io/interceptor-download))
+<!--
+* Apple Safari
+* Mozilla Firefox
+* Microsoft Edge
+-->
 
-    <img src="https://assets.postman.com/postman-docs/capture-via-interceptor-tab-v9-13.jpg" alt="Capture via Interceptor tab" width="300px"/>
+To open the Interceptor extension, select the Interceptor icon in your browser's toolbar.
 
-1. Select **Install Interceptor Bridge** to download the Bridge, an independent executable that facilitates communication with the Interceptor.
-
-    > If you're on Windows or Linux, Postman will take care of everything for you. If you're on macOS, you'll be prompted to install NodeJS if it's not already installed on your computer. If the option to download doesn't appear, you can manually download and install with the following links: [macOS](https://go.pstmn.io/interceptor-bridge-macos/), [Linux](https://go.pstmn.io/interceptor-bridge-linux/), or [Windows](https://go.pstmn.io/interceptor-bridge-windows/).
-
-1. Confirm Interceptor is ready to use by checking that the **Connected** status in the upper right is green. You can capture requests from your browser and cookies from any domain to use in Postman.
+> If you're on Linux, you'll also need to install Interceptor Bridge before you can capture requests. Select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** in the Postman footer. Then select the **Via Interceptor** tab and select **Install Interceptor Bridge**.
 
 ## Using Interceptor
 
-After Interceptor is connected, you can then start an Interceptor debug session. A debug session is a time-bound session where captured traffic is saved in an entry in the **History** tab, and optionally into a collection. Once a proxy debug session is started, you can then pause, restart, or stop it. Before you start the session, you can select what traffic you want to go into it.
+> You can't use Interceptor with the [Postman web app](/docs/getting-started/installation/installation-and-updates/#web-limitations). Make sure you've installed the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/).
 
-> You can only have a single proxy or interceptor debug session running at the same time.
+Start an Interceptor session to capture traffic and cookies from your web browser. After you stop the session, captured traffic will automatically open in Postman.
 
-To start an Interceptor session, do the following:
+### Starting an Interceptor session
+
+> You can't have more than one proxy or Interceptor session running at the same time.
+
+1. Open the Interceptor extension by selecting the Interceptor icon in your browser's toolbar.
+1. (Optional) On the **Capture Requests** tab, use the dropdown menus to limit the requests captured during the session:
+
+    * **Methods** - Limit captured requests to the selected methods.
+    * **Domains & URL** - Limit captured requests to the domains and URLs that match the specified criteria. You can specify text that URLs must contain and can't contain, and you can use regular expressions.
+
+1. On the **Capture Requests** tab, select **Start Capture**. Interceptor starts capturing requests and cookies as you use your web browser.
+1. When you're done capturing traffic, select **Stop Capture** to end the session.
+
+### Viewing captured requests in Postman
+
+When you stop a session, Postman automatically opens the results in Postman. You can also select **Show in Postman**.
+
+You can work with the results in the following ways:
+
+--------
+## OLD
 
 1. Go to the **Via Interceptor** tab of the **Capture requests** window.
 
