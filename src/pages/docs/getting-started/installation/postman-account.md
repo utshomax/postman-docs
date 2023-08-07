@@ -19,7 +19,7 @@ contextual_links:
 warning: false
 ---
 
-Having a free Postman account enables you to [sync](/docs/getting-started/syncing/) and back up your work so that you can access it from different machines. With a Postman account, you can also [collaborate](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) with others on your API projects.
+Having a free Postman account enables you to [sync](/docs/getting-started/basics/syncing/) and back up your work so that you can access it from different machines. With a Postman account, you can also [collaborate](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) with others on your API projects.
 
 Signing up for a Postman account is optional, and you can use the Postman desktop app without an account if you prefer. If you do want to create a Postman account, continue to the [Signing up for a Postman account](#signing-up-for-a-postman-account) section.
 
@@ -52,7 +52,7 @@ Postman prompts you to sign in or sign up. Select __Create Account__. You can si
 
 When you sign up for a Postman account, you'll be prompted to provide some information about yourself, including your name and role, to help customize your Postman experience. Enter your details and select __Continue__.
 
-Your new Postman profile will be visible to collaborators and anyone viewing resources you share or publish. To learn more about your Postman profile and how to customize it, see [Customizing your Postman profile](/docs/getting-started/postman-profile/).
+Your new Postman profile will be visible to collaborators and anyone viewing resources you share or publish. To learn more about your Postman profile and how to customize it, see [Customizing your Postman profile](/docs/getting-started/installation/postman-profile/).
 
 ### Creating or joining a team
 
@@ -131,7 +131,7 @@ If you sign in to Postman using a username or email and a password, you can set 
 1. Open your [account settings](https://go.postman.co/settings/me/account/) page by selecting your avatar in the Postman header, then selecting **Settings > Account**.
 1. Select **Enable 2FA**.
 
-    > Enabling 2FA will revoke all of your [active Postman sessions](/docs/getting-started/postman-account/#managing-your-active-sessions).
+    > Enabling 2FA will revoke all of your [active Postman sessions](/docs/getting-started/installation/postman-account/#managing-your-active-sessions).
 
 1. Install an authenticator app on your phone if you don't have one available, and have your password with you.
 1. Select **Continue**.
@@ -203,4 +203,4 @@ For more details on Postman's security policies and standards, visit the Postman
 
 Now that you have created a Postman account, you're ready to start working! When you are signed in to Postman, you are connected to the Postman servers and your work is continuously backed up.
 
-* To learn more about how Postman syncs your data, visit [Syncing your work](/docs/getting-started/syncing/).
+* To learn more about how Postman syncs your data, visit [Syncing your work](/docs/getting-started/basics/syncing/).

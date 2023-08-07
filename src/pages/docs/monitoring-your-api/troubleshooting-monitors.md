@@ -21,7 +21,7 @@ For more information on debugging with console logs, see [Troubleshooting API re
 ## Debugging local run attempts
 
 * Run the failing monitor's collection with its environment in Postman or [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/) to see if it works correctly.
-* If a local run passes, check that [sync](/docs/getting-started/syncing/) is working by looking for the sync symbol on the left side of Postman's footer. This will ensure any local changes persist.
+* If a local run passes, check that [sync](/docs/getting-started/basics/syncing/) is working by looking for the sync symbol on the left side of Postman's footer. This will ensure any local changes persist.
 
 <img alt="In sync" src="https://assets.postman.com/postman-docs/syncing-understanding-sync-states-v9.19.jpg" width="250px"/>
 

@@ -165,7 +165,7 @@ The right sidebar gives you access to more tools and information like documentat
 
 If you're having a problem using Postman's gRPC client, learn more about common issues and how to troubleshoot them.
 
-For more troubleshooting information, see [Troubleshooting app issues](/docs/getting-started/troubleshooting-inapp/) and [Troubleshooting requests](/docs/sending-requests/troubleshooting-api-requests/).
+For more troubleshooting information, see [Troubleshoot app issues](/docs/introduction/troubleshooting-inapp/) and [Troubleshooting requests](/docs/sending-requests/troubleshooting-api-requests/).
 
 ### Service unavailable
 
@@ -181,7 +181,7 @@ The server you are using is unreachable with the current client settings. If you
 
 To use all of Postman's gRPC features, you must run the Postman Desktop Agent.
 
-Learn more about [installing the Postman Desktop Agent](/docs/getting-started/about-postman-agent/#the-postman-desktop-agent).
+Learn more about [installing the Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent).
 
 ## Next steps
 
