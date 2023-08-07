@@ -20,7 +20,7 @@ In Postman Flows, the **Send Request** block enables you to select a request fro
 
 If there are no collections in the workspace, then six easy-to-use requests will appear in the spotlight to choose from to get started.
 
-This example uses [Postman's echo service API](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation). 
+This example uses [Postman's echo service API](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation).
 
 ### Variables
 

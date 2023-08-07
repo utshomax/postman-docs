@@ -14,7 +14,7 @@ contextual_links:
     url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
 ---
 
-Developers often integrate two or more APIs to leverage their individual features. For example, you might want to get customer profiles from a payment services provider like [Stripe](http://www.stripe.com) and add those profiles as contacts on a marketing platform like [Brevo](http://www.brevo.com). This tutorial shows you how to easily do this with Postman Flows.
+Developers often integrate two or more APIs to leverage their individual features. For example, you might want to get customer profiles from a payment services provider like [Stripe](http://www.stripe.com) and add those profiles as contacts on a marketing platform like [Brevo](http://www.brevo.com). This tutorial shows you how to do this with Postman Flows.
 
 ## Contents
 
@@ -28,13 +28,13 @@ Create a flow that gets a list of customer profiles from [Stripe](http://www.str
 
 ## Prerequisites
 
-* A [Stripe](http://www.stripe.com) account and api key
+* A [Stripe](http://www.stripe.com) account and API key
 * At least 15 customers in Stripe
-* A [Brevo](http://www.brevo.com) account and api key
+* A [Brevo](http://www.brevo.com) account and API key
 
 ## Creating the flow
 
-The first step is to fork (copy) the collections and the environment the flow will use, then add your api keys to the environment. You could create these requests, collections, and environment yourself, but using existing ones will save time. From the [Integration Flows public workspace](https://www.postman.com/postman/workspace/integration-flows), fork the `Brevo API` collection, the `Stripe API` collection, and the **Stripe + Breva** environment to your workspace.
+The first step is to [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) (copy) the collections and the environment the flow will use, then add your API keys to the environment. You could create these requests, collections, and environment yourself, but using existing ones will save time. From the [Integration Flows public workspace](https://www.postman.com/postman/workspace/integration-flows), fork the `Brevo API` collection, the `Stripe API` collection, and the **Stripe + Brevo** environment to your workspace.
 
 > Creating requests is beyond the scope of this tutorial, but you can learn more about creating requests [here](/docs/getting-started/sending-the-first-request/).
 

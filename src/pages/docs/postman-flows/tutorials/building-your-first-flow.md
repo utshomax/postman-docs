@@ -126,7 +126,7 @@ This is the beginning of a detailed tutorial that builds a flow that gets a list
 
 1. In the **Select** block, select **Enter path...** and select `body.results`.
 
-    > Because you saved an example earlier, the returned data's structure auto-populates in the block.
+    > Because you saved an example earlier, the response's structure auto-populates in the block.
 
     ![Select body.results](https://assets.postman.com/postman-docs/v10/flow-body-results-v10-6.jpg)
 
