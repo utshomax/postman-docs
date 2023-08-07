@@ -77,7 +77,7 @@ To fix style guide violations, do the following:
 
     > Postman can return new style guide violations when you manually edit your OpenAPI document or API definition in the editor.
 
-1. You can review the impact each fix has on your design quality score and total number of violations. As you edit your OpenAPI definition or API definition, a number displays to the right of your design quality score and total number of violations, showing how your edits increase or decrease these numbers.
+1. You can review the impact each fix has on your design quality score and total number of violations. As you edit your OpenAPI document or API definition, a number displays to the right of your design quality score and total number of violations, showing how your edits increase or decrease these numbers.
 
     <!-- screenshot: showing changes to design quality score and total violations -->
 
