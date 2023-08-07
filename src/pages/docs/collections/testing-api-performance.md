@@ -182,13 +182,15 @@ From the **Errors** tab, you can take the following actions:
 
 ### Debugging errors
 
-You can view details about errors that occurred during the performance test to help in the debugging process. On the **Errors** tab, expand an error class below the graph. Postman displays the 10 most frequent requests for each error class and the number of times each request encountered that error.
+You can view details about errors that occurred during the performance test to help in the debugging process. The **Errors** tab shows the error classes that were encountered during the test and the number of times each error occurred.
+
+Expand an error class below the graph to view all requests that encountered the error. For each request, you can view a list of unique responses (as determined by headers and body). Postman displays the 10 most common responses and shows a count of how often that response occurred.
 
 Select a request to view details about it, including the response, headers, and request body. Use the controls on the **Response** tab to format, copy, or search within the response. Select the name of a request to open it.
 
 <img alt="Viewing error details" src="https://assets.postman.com/postman-docs/v10/performance-test-errors-detail-v10-17.jpg"/>
 
-> Error class data is persisted locally during your current Postman session and isn't saved permanently. If you close the current tab or quit Postman, the data is removed.
+> Request and responses details for errors are persisted locally during your current Postman session and aren't saved permanently. If you close the current tab or quit Postman, request and response details will no longer be available. You still be able to view error classes and error counts for requests.
 
 ## Viewing past performance runs
 
