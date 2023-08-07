@@ -3,7 +3,7 @@ title: "Check your API design health"
 updated: 2023-08-15
 ---
 
-You can use [Postman API Design Health](https://go.postman.co/api-health/) to check the design quality of your OpenAPI documents or your [API definitions in Postman](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/). API Design Health identifies potential design issues that might impact its usability. Postman supports API Design Health for OpenAPI documents and API definitions in OpenAPI 3.1, OpenAPI 3.0, and OpenAPI 2.0 format.
+You can use [Postman API Design Health](https://go.postman.co/api-design-health/) to check the design quality of your OpenAPI documents or your [API definitions in Postman](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/). API Design Health identifies potential design issues that might impact its usability. Postman supports API Design Health for OpenAPI documents and API definitions in OpenAPI 3.1, OpenAPI 3.0, and OpenAPI 2.0 format.
 
 <!-- screenshot: hero image -->
 
