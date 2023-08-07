@@ -118,7 +118,7 @@ You can view and work with the proxy session results while the session is active
 
 When you're finished capturing traffic, select **Stop** to end the proxy session. You can view the proxy session again later by selecting **History** in the sidebar, then selecting the proxy session. You can also select <img alt="Past sessions icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> **View Past Sessions** on the proxy session tab.
 
-The **Overview** tab shows summary graphs of traffic captured in the proxy session. Use the dropdown menu to group requests by method, domain, content type, or status code.
+The **Overview** tab shows summary graphs of traffic captured in the proxy session. Use the dropdown menu to group requests by method, domain, content type, or status code. The header also displays the session start time, session size, duration, and source.
 
 To save captured requests to a collection, do the following:
 

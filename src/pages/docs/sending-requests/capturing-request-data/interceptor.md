@@ -69,7 +69,7 @@ Start an Interceptor session to capture traffic and cookies from your web browse
 1. (Optional) On the **Capture Requests** tab, use the dropdown menus to limit the requests captured during the session:
 
     * **Methods** - Limit captured requests to the selected methods.
-    * **Domains & URL** - Limit captured requests to the domains and URLs that match the specified criteria. You can specify text that URLs must contain and can't contain, and you can use regular expressions.
+    * **Domains & URL** - Limit captured requests to the domains and URLs that match the specified text. You can use regular expressions.
 
 1. On the **Capture Requests** tab, select **Start Capture**.
 
