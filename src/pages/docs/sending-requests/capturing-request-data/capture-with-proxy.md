@@ -107,7 +107,7 @@ You can view and work with the proxy session results while the session is active
 * To rename the proxy session, select the name **Proxy debug session** and enter a new name.
 * Select the **Requests** tab to view information about incoming requests and responses, or select the **Cookies** tab to view information about captured cookies.
 * Use the search box to find specific requests or cookies.
-* Select **>** next to a request or cookie to view more details.
+* Select **>** next to a request to view more details.
 * Select a request URL to open it as a new API request in Postman.
 * To delete a request or cookie, select it and select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete**.
 * To add a cookie to the Postman cookie jar, select it and select **+ Add to Cookie Jar**.
