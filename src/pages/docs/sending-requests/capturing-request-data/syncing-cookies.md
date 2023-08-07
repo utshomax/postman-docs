@@ -68,7 +68,7 @@ Postman is ready to capture and sync cookies using Interceptor.
 * To stop syncing cookies for a domain, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the domain name.
 * To stop capturing and syncing all cookies, select **Stop Syncing**.
 
-> You can also control Interceptor debug sessions from the Interceptor extension in your browser. For more information, see [Using Interceptor](/docs/sending-requests/capturing-request-data/interceptor/#using-interceptor).
+> You can also control Interceptor debug sessions from the Interceptor extension in your browser. For more information, see [Using Postman Interceptor](/docs/sending-requests/capturing-request-data/interceptor/).
 
 ## Syncing cookies with the Postman proxy
 
