@@ -30,19 +30,19 @@ Create a monitor and a flow to get the high and low temperature forecasts for a 
 
 ## Prerequisites
 
-* A [Twitter](https://twitter.com/) account
-* A [Twitter app](https://developer.twitter.com/en/docs/apps/overview)
+* A [Twitter](https://twitter.com/) account.
+* A [Twitter app](https://developer.twitter.com/en/docs/apps/overview):
     * For the **User authentication settings**, select **Read and write**.
     * For **Type of App**, select **Web App, Automated App or Bot**.
     * For the **Callback URI** and **Website URL**, enter `https://postman.postman.co/`.
 * Twitter keys and secrets:
-    * API (consumer) key
-    * API (consumer) key secret
-    * Client ID
-    * Client secret
-    * Bearer token
+    * API (consumer) key.
+    * API (consumer) key secret.
+    * A client ID.
+    * A client secret.
+    * A Bearer token.
     * Set each variable's **Type** to `secret`.
-* A ZIP code
+* A ZIP code.
 
 ## Creating the flow
 
