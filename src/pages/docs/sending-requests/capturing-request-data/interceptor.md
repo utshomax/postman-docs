@@ -79,6 +79,8 @@ Start an Interceptor session to capture traffic and cookies from your web browse
 
 <img alt="Interceptor extension" src="https://assets.postman.com/postman-docs/v10/interceptor-extension-v10-17.jpg" width="462px" />
 
+> You can also use the Interceptor extension to automatically sync cookies from your browser to the Postman cookie jar. Open the Interceptor extension from your browser's toolbar and select the **Sync Cookies** tab. Enter the domains you want to sync cookies for and select **Sync Cookies**. For more information, see [Syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
+
 ### Viewing Interceptor results in Postman
 
 When you stop a session, Postman automatically opens the results in Postman. You can also select **View in Postman**<img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-external-link.jpg#icon" width="18px"> to open the session results in Postman. You can view the Interceptor session again later by selecting **History** in the sidebar, then selecting the Interceptor session.

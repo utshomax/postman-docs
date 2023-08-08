@@ -23,9 +23,9 @@ Capturing HTTP traffic is an important tool for API development and testing. Whe
 
 Postman's built-in proxy and Postman Interceptor provide two ways to capture HTTP and HTTPS traffic. You can also use the proxy or Interceptor to capture and sync cookies to the Postman cookie jar.
 
-To capture traffic, first start the proxy or Interceptor, and then begin a debug session. A session represents a specific time frame during which you want to capture traffic (for example, while a client application is sending a series of requests that you want to observe or debug).
+To capture traffic, begin a proxy or Interceptor session. A session represents a specific time frame during which you want to capture traffic (for example, while a client application is sending a series of requests that you want to observe or debug).
 
-After you begin a debug session, you can pause and resume capturing, or clear any captured traffic, without stopping the proxy or Interceptor. Use Postman's search and filtering capabilities to narrow down the requests based on the criteria you choose.
+After you stop the session, you can view the captured requests in Postman. You can also use Postman's search and filtering capabilities to narrow down the requests based on the criteria you choose.
 
 ## Contents
 
@@ -55,7 +55,7 @@ Learn more about [using Postman Interceptor](/docs/sending-requests/capturing-re
 
 ## Capturing and syncing cookies
 
-Along with capturing requests, Postman can capture cookies during a proxy or Interceptor debug session. You can manually add any captured cookies to the [Postman cookie jar](/docs/sending-requests/cookies/) and use them when sending requests from Postman.
+Along with capturing requests, Postman can capture cookies during a proxy or Interceptor session. You can manually add any captured cookies to the [Postman cookie jar](/docs/sending-requests/cookies/) and use them when sending requests from Postman.
 
 Postman's built-in proxy and Interceptor also support continuous cookie syncing. Once enabled, all captured cookies for the domains you specify are automatically synced to the Postman cookie jar.
 

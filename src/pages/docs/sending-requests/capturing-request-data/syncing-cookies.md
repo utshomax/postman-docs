@@ -23,7 +23,7 @@ warning: false
 
 ---
 
-Postman enables you to capture and sync cookies from a browser or client application. You can sync cookies using either the Postman proxy or Postman Interceptor at any time, without starting a [debug session](/docs/sending-requests/capturing-request-data/capture-overview/).
+Postman enables you to capture and sync cookies from a browser or client application. You can sync cookies using either the Postman proxy or Postman Interceptor at any time, without starting a [proxy or Interceptor session](/docs/sending-requests/capturing-request-data/capture-overview/).
 
 Once configured, Postman continuously captures cookies from the browser or client applications. For the domains you specify, captured cookies are automatically synced to your Postman cookie jar. You can then [use the cookies](/docs/sending-requests/cookies/) when sending requests from Postman.
 
@@ -31,7 +31,7 @@ Once configured, Postman continuously captures cookies from the browser or clien
 
 <!-- -->
 
-> You can also capture requests and cookies during a proxy or Interceptor debug session. Learn more about capturing requests and cookies with the [Postman proxy](/docs/sending-requests/capturing-request-data/capturing-http-requests/) or [Postman Interceptor](/docs/sending-requests/capturing-request-data/interceptor/).
+> You can also capture requests and cookies during a proxy or Interceptor session. Learn more about capturing requests and cookies with the [Postman proxy](/docs/sending-requests/capturing-request-data/capturing-http-requests/) or [Postman Interceptor](/docs/sending-requests/capturing-request-data/interceptor/).
 
 ## Contents
 
@@ -43,7 +43,7 @@ Once configured, Postman continuously captures cookies from the browser or clien
 
 Postman Interceptor is a browser extension that captures network requests directly from a web browser and saves them to Postman. You can use Interceptor to continuously sync the cookies in your browser to the [Postman cookie jar](/docs/sending-requests/cookies/). You can then use the synced cookies when sending requests in Postman.
 
-> The cookie jar always has the latest value for a given cookie. If you need to observe how cookie values change during a request flow, start an [Interceptor debug session](/docs/sending-requests/capturing-request-data/interceptor/).
+> The cookie jar always has the latest value for a given cookie. If you need to observe how cookie values change during a request flow, start an [Interceptor session](/docs/sending-requests/capturing-request-data/interceptor/).
 
 To sync cookies using the Postman Interceptor, do the following:
 
@@ -68,13 +68,13 @@ Postman is ready to capture and sync cookies using Interceptor.
 * To stop syncing cookies for a domain, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the domain name.
 * To stop capturing and syncing all cookies, select **Stop Syncing**.
 
-> You can also control Interceptor debug sessions from the Interceptor extension in your browser. For more information, see [Using Postman Interceptor](/docs/sending-requests/capturing-request-data/interceptor/).
+> You can also use the Interceptor extension to automatically sync cookies from your browser to the Postman cookie jar. Open the Interceptor extension from your browser's toolbar and select the **Sync Cookies** tab. Enter the domains you want to sync cookies for and select **Sync Cookies**. For more information, see [Using Postman Interceptor](/docs/sending-requests/capturing-request-data/interceptor/).
 
 ## Syncing cookies with the Postman proxy
 
 A proxy acts as an intermediary between a client application (like a mobile app) and a server (like an API). You can use Postman's built-in proxy to capture any cookies passing between a client and a server. The captured cookies are synced to the [Postman cookie jar](/docs/sending-requests/cookies/) for later use.
 
-> The cookie jar always has the latest value for a given cookie. If you need to observe how cookie values change during a request flow, start a [proxy debug session](/docs/sending-requests/capturing-request-data/capturing-http-requests/).
+> The cookie jar always has the latest value for a given cookie. If you need to observe how cookie values change during a request flow, start a [proxy session](/docs/sending-requests/capturing-request-data/capturing-http-requests/).
 
 To sync cookies using the Postman proxy, do the following:
 
