@@ -13,7 +13,7 @@ When a flow is just a few blocks, it is pretty easy for the original creator to 
 
 ### Colors
 
-Every block in flows can be configured to be highlighted with one of the preset colors. This can make it easy to differentiate two of the same types of block that are doing different things right next to eachother. A color can be added by clicking on a block, and clicking on the paint icon in the top-left corner that appears on the block.
+You can configure every block in flows to be highlighted with one of the preset colors. This can make it easy to differentiate two of the same types of block that are doing different things right next to each other. You can add a color by selecting a block, the select the paint icon in the top-left corner that appears on the block.
 
 ![Colors](https://assets.postman.com/postman-labs-docs/concepts/colors.gif)
 
