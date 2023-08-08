@@ -14,7 +14,9 @@ contextual_links:
     url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
 ---
 
-Many people find dashboards useful for visualizing and simplifying large amounts of data. For example, you might create an internet of things dashboard that displays information about your home's thermostat, door locks, security cameras, and environmental sensors. Or you might want a dashboard that compares a stock's price to a market index to evaluate the stock's performance. The dashboard could visualize data with a True/False display and a line chart. This tutorial shows you how to create this stock performance dashboard, using test data from a Postman mock server.
+Many people find dashboards useful for visualizing and simplifying large amounts of data. For example, you might create an internet of things dashboard that displays information about your home's thermostat, door locks, security cameras, and environmental sensors. Or you might want a dashboard that compares a stock's price to a market index to evaluate the stock's performance. The dashboard could visualize data with a true/false display and a line chart.
+
+This tutorial shows you how to create this stock performance dashboard using test data from a Postman mock server.
 
 You can see the completed flow [here](https://www.postman.com/postman/workspace/utility-flows/flow/64123b57c224290033fcb089).
 
