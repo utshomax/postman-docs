@@ -53,7 +53,7 @@ Starting the Postman proxy begins a _proxy session_, which is a time-bound perio
 
 ## Using the Postman proxy
 
-In the steps below, you'll use the Postman proxy to inspect HTTP and HTTPS communication going to and from your computer and a phone. To get started, make sure your computer and phone are connected to the same local wireless network.
+In the steps below, you'll use the Postman proxy to inspect HTTP and HTTPS communication going to and from your computer and phone. To get started, make sure your computer and phone are connected to the same local wireless network.
 
 ### Step 1: Start a proxy session
 
