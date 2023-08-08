@@ -41,7 +41,7 @@ Create a flow that receives a user-provided email address, then finds and update
     * In your fork of the **Event Registration** environment:
         * Replace `your token here` with your Airtable personal access token and set the **Type** to **secret**.
         * Replace `table id here` with your table’s [id](https://support.airtable.com/docs/finding-airtable-record-ids).
-        * Replace `base id here` with your table’s base id.
+        * Replace `base id here` with your table’s base ID.
         * Replace `record id here` with the test@email.com record’s id.
         * Select **Save**.
 
