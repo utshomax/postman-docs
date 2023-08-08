@@ -20,6 +20,6 @@ Clicking on the link in the flow opens the page to get an api key. Enter any org
 
 ### Using an API key
 
-In this example, the API key isn't particularly important to keep secure, so it can be pasted directly in the **api key** value in the Send Request block. Generally, it's a good idea to store the key securely as a secret value in a Postman [Environment](../../../sending-requests/managing-environments/) which can then be selected in the Send Request block. 
+In this example, the API key isn't particularly important to keep secure, so it can be pasted directly in the **api key** value in the Send Request block. Generally, it's a good idea to store the key securely as a secret value in a Postman [Environment](../../../sending-requests/managing-environments/) which can then be selected in the Send Request block.
 
 ![Using an API key](https://assets.postman.com/postman-labs-docs/concepts/using-api-key.gif)
