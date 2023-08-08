@@ -58,7 +58,7 @@ Next, fork (which means copy in this case) the collection found [here](https://w
 
 <img src="https://assets.postman.com/postman-labs-docs/cloud-execution/fork-collection-and-environment.gif" alt="Fork collection and environment" fetchpriority="low" loading="lazy" />
 
-In the environment you forked, paste your polygon API key where it says **YOUR_API_KEY_HERE**. You're ready to start building the flow.
+In the environment you forked, paste your Polygon.io API key where it says **YOUR_API_KEY_HERE**. You're ready to start building the flow.
 
 To start the flow, create two **Evaluate** blocks, then paste the following functions:
 - ```$match(slack_text,'(?<=text=)[^&]+')[0]```
