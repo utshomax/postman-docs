@@ -54,7 +54,7 @@ To make your own Slack app from scratch with Postman Flows, follow the same step
 
 <img src="https://assets.postman.com/postman-docs/v10/new-slack-request-url-v10-1.gif" alt="New Slack command" fetchpriority="low" loading="lazy" />
 
-Next, fork (which means copy in this case) the collection found [here](https://www.postman.com/postman/workspace/slack-integration-flows/collection/23919558-0fc87fc5-de53-4c48-b30f-362a1a7ceba3?action=share&creator=23919558) and the environment found [here](https://www.postman.com/postman/workspace/slack-integration-flows/environment/23919558-144c823d-9dcf-42ff-b85b-66e8e1d41e2a) which has the saved requests and variables you're going to use in this flow.
+Next, fork (which means copy in this case) the collection found [here](https://www.postman.com/postman/workspace/slack-integration-flows/collection/23919558-0fc87fc5-de53-4c48-b30f-362a1a7ceba3?action=share&creator=23919558) and the environment found [here](https://www.postman.com/postman/workspace/slack-integration-flows/environment/23919558-144c823d-9dcf-42ff-b85b-66e8e1d41e2a). These contain the saved requests and variables you're going to use in this flow.
 
 <img src="https://assets.postman.com/postman-labs-docs/cloud-execution/fork-collection-and-environment.gif" alt="Fork collection and environment" fetchpriority="low" loading="lazy" />
 
