@@ -35,7 +35,7 @@ After you install the Interceptor extension, you can start an _Interceptor sessi
 
 Use the links below to download and install the latest version of the Interceptor extension for your web browser. Interceptor is available for the following browsers:
 
-* [Google Chrome]((https://go.pstmn.io/interceptor-download))
+* [Google Chrome](https://go.pstmn.io/interceptor-download)
 
 <!--
 * Apple Safari
