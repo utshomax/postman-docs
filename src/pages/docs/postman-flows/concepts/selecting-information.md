@@ -12,7 +12,7 @@ API requests often return a lot of information. In many cases, when using the in
 
 ## Selecting information using the Select block
 
-Use the **Select** block whenever more than one value is returned. It's almost always used after a **Send Request** block because **Send Request** blocks always return more than one value.
+Use the **Select** block when more than one value is returned. It's almost always used after a **Send Request** block because **Send Request** blocks always return more than one value.
 
 ![Select block](https://assets.postman.com/postman-labs-docs/concepts/adding-a-select-block-updated.gif)
 
