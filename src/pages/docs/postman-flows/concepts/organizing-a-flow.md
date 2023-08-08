@@ -19,7 +19,7 @@ Every block in flows can be configured to be highlighted with one of the preset 
 
 ### Annotations
 
-When collaborating with other people, or putting a flow in a public workspace, its helpful to add directions directly on the canvas to explain how to use the flow and what certain blocks are doing. An annotation can be added by pressing the add text button the toolbar. Selecting some text in an annotation brings up the text formatting menu that allows bolding, italics, or heading options. If a link is copied, then some text is highlight and pasted, the highlighted text will become a hyperlink.
+When collaborating with other people or putting a flow in a public workspace, its helpful to add directions directly on the canvas. This helps explain how to use the flow and what certain blocks are doing. Select the **Add Text** button in the toolbar to add an annotations. Selecting some text in an annotation brings up the text formatting menu which that allows bold, italics, or heading options. If you copy a link, then highlight some text and paste the link, the highlighted text becomes a hyperlink.
 
 ![Annotations](https://assets.postman.com/postman-labs-docs/concepts/annotations.gif)
 
