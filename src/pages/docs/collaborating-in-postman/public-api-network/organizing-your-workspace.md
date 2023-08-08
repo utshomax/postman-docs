@@ -14,7 +14,7 @@ contextual_links:
     url: "https://blog.postman.com/top-30-apis-for-best-developer-experience/"
 ---
 
-Before making your APIs available on [the Postman Public API Network](/docs/getting-started/exploring-public-api-network/), Postman recommends following these best practices and tips to help API consumers begin using your APIs.
+Before making your APIs available on [the Postman Public API Network](/docs/getting-started/first-steps/exploring-public-api-network/), Postman recommends following these best practices and tips to help API consumers begin using your APIs.
 
 ## Contents
 

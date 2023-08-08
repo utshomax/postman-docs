@@ -1,6 +1,6 @@
 ---
 title: "Creating a dashboard with Postman Flows"
-updated: 2023-07-24
+updated: 2023-08-07
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -57,7 +57,7 @@ Create a flow that quantifies a stock's performance by comparing it to a market 
 
     * In the FQL window, enter `((benchmark.close - benchmark.open) / benchmark.open) * 100`. This will get a percentage of the difference between the VOO index's open and close price.
 
-    * Connect another **Evaluate** block to the **Evaluate** block you just created. In the FQL window, enter `value2 > value1`. You'll add `value2` in a later step.
+    * Connect another **Evaluate** block to the **Evaluate** block you created. In the FQL window, enter `value2 > value1`. You'll add `value2` in a later step.
 
     * Connect an **Output** block to the `value2 > value1` **Evaluate** block and select **Boolean** from the dropdown list.
 

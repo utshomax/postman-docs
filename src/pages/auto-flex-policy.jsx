@@ -1,6 +1,27 @@
 import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import styled from 'styled-components';
+import { BaseLinkStyles, UnorderedListStyles } from 'aether-marketing';
+
+const HeroWrapper = styled.section`
+@media (min-width: 992px) {
+  padding: 48px 80px;
+}
+  border-bottom: 1px solid rgb(230, 230, 230);
+  margin-bottom: 80px;
+  .hero-image {
+      margin: 0px;
+  }
+`
+const Container = styled.div`
+  ul {
+    ${UnorderedListStyles.componentStyle.rules}
+  }
+  a {
+    ${BaseLinkStyles.componentStyle.rules}
+  }
+`
 
 class AutoFlexPolicyPage extends React.Component {
   componentDidMount() {
@@ -13,7 +34,7 @@ class AutoFlexPolicyPage extends React.Component {
     return (
       <Layout>
         <SEO
-          title="Auto-Flex Team Policy"
+          title="Auto-Flex Team Policy | Postman"
           description='Postman offers a flexible model that simplifies how you
                        can add Users to your Postman team. With the "auto-flex" model, you can authorize
                        additional Users at any time through the administrative dashboard of your Postman
@@ -21,28 +42,37 @@ class AutoFlexPolicyPage extends React.Component {
                        to enablement.'
           slug="/auto-flex-policy/"
         />
-        <div className="container">
+        <div className="container-fluid">
+          <HeroWrapper className="row section align-items-center hero" >
+            <div className="container">
+              <div className="row">
+                <div className="col-sm-12 col-md-5 col-lg-8 align-self-center">
+                  <h1>Auto-Flex Team Policy</h1>
+                  <p className="subtitle">
+                    Read our blog post on the <a href="https://blog.postman.com/introducing-auto-flex-for-teams/"> Auto-Flex Team Policy</a>.
+                  </p>
+                </div>
+                <div className="col-sm-12 col-md-6 offset-md-1 col-lg-4 offset-lg-0 align-self-center">
+                  <img
+                    src="https://voyager.postman.com/illustration/happy-postmanauts-postman-illustration.svg"
+                    width="637"
+                    height="411"
+                    className="hero-image img-fluid"
+                    alt="Postmanaut sitting at computer. Illustration."
+                  />
+                </div>
+              </div>
+            </div>
+          </HeroWrapper>
+        </div>
+        <Container className="container">
           <div className="row">
-            <div className="col-lg-10 offset-lg-1 col-sm-12">
-              <h1 className="mt-5 mb-3">Auto-Flex Team Policy</h1>
+            <div className="col-lg-8 offset-lg-2 col-sm-12">
               <p>
-                Read our blog post -
-                {' '}
-                <a
-                  href="https://blog.postman.com/introducing-auto-flex-for-teams/"
-                >
-                  Auto-Flex Team Policy
-                </a>
+                Postman offers a flexible model that simplifies how you can add Users to your Postman team. With the &quot;auto-flex&quot; model, you can authorize additional Users at any time through the administrative dashboard of your Postman Service, instead of having to purchase each additional User license with Postman prior to enablement.
               </p>
               <p>
-                Postman offers a flexible model that simplifies how
-                you can add Users to your Postman team. With the &quot;auto-flex&quot; model, you
-                can authorize additional Users at any time through the administrative dashboard of
-                your Postman Service, instead of having to purchase each additional User license
-                with Postman prior to enablement.
-              </p>
-              <p>
-                We will bill you for any additional Users on a monthly basis for monthly plans, and
+                We will bill you for any additional Users on a monthly basis for <a href='https://www.postman.com/pricing/'>monthly plans</a>, and
                 on a quarterly basis for annual plans, measured from the date of your initial
                 purchase. Shortly before the applicable billing date, your Billing and Admin User
                 will receive a notification that reflects the number of added Users during that
@@ -72,15 +102,15 @@ class AutoFlexPolicyPage extends React.Component {
               <h2 id="examples">Examples</h2>
               <p>Here&#39;s an example of a monthly plan:</p>
               <p className="font-italic">
-                Your workspace is on the Basic plan and you&#39;re paying monthly — $15 per User per
+                Your workspace is on the Basic plan and you&#39;re paying monthly&mdash;$19 per User per
                 month. You add 4 new Users ten days into your monthly billing cycle. You deprovision
-                2 Users before the next regular billing date. You will be charged $15 each for the
+                2 Users before the next regular billing date. You will be charged $19 each for the
                 total number of Users on your plan as of the billing date, including the 2 Users you
                 added during the preceding month and retained as of the billing date.
               </p>
               <p>Here&#39;s an example of an annual plan:</p>
               <p className="font-italic">
-                Your workspace is on the Basic plan and you&#39;re paying annually — $144 per User
+                Your workspace is on the Basic plan and you&#39;re paying annually&mdash;$144 per User
                 per year. Your &quot;auto-flex&quot; billing cycle happens at the end of every
                 quarter of your annual Subscription Term. You add 4 new Users two months into your
                 billing cycle. You deprovision 2 Users before the next regular billing date (i.e.
@@ -125,7 +155,7 @@ class AutoFlexPolicyPage extends React.Component {
               </p>
             </div>
           </div>
-        </div>
+        </Container>
       </Layout>
     );
   }

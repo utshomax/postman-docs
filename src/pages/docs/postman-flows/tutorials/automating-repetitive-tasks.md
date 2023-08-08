@@ -14,7 +14,7 @@ contextual_links:
     url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
 ---
 
-You can use Postman Flows to easily complete repetitive tasks. Businesses often need to delete emails from multiple systems. Logging in, searching, and deleting emails from multiple locations can be very time consuming. This tutorial shows you how to create a flow that deletes an email from three locations each time you run the flow.
+You can use Postman Flows to complete repetitive tasks. Businesses often need to delete emails from multiple systems. Logging in, searching, and deleting emails from multiple locations can be time consuming. This tutorial shows you how to create a flow that deletes an email from three locations each time you run the flow.
 
 For this tutorial, the locations are Stripe.com, Brevo.com, and a Postman mock server that acts as a hypothetical internal system.
 
@@ -86,12 +86,12 @@ Fork this environment into your workspace:
     * For the `email` variable, add a **Get Variable** block and select **Customer Email**.
     * Connect this block’s **Success** output to another **Send Request** block and select **Brevo > Contact management > Contacts > Delete a contact**. Also connect the middle **Send Request** block’s **Success** output to the new **Send Request** block’s **contact_id** input and select `body.id`.
 
-        ![Add Breva requests](https://assets.postman.com/postman-docs/v10/flows-tut-rep-brevo-requests-v10.jpg)
+        ![Add Brevo requests](https://assets.postman.com/postman-docs/v10/flows-tut-rep-brevo-requests-v10.jpg)
 
     * Connect the **Delete a contact** block’s **Success** output to an **Output** block. Rename the **Output** block `Contact deleted` and select **Boolean** from the dropdown list.
-    * Connect an **Output** block to the **Get a contact’s details** **Send Request** block’s **Failure** output.Rename the **Output** block `Contact not found` and select **Boolean** from the dropdown list.
+    * Connect an **Output** block to the **Get a contact’s details** **Send Request** block’s **Failure** output. Rename the **Output** block `Contact not found` and select **Boolean** from the dropdown list.
 
-        ![Breva contact deleted](https://assets.postman.com/postman-docs/v10/flows-tut-rep-brevo-deleted-v10.jpg)
+        ![Brevo contact deleted](https://assets.postman.com/postman-docs/v10/flows-tut-rep-brevo-deleted-v10.jpg)
 
 1. Part three: Delete the contact from an internal system
 
