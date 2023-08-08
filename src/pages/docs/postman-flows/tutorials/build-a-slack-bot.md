@@ -68,7 +68,11 @@ The next step is to take the text after the **stock-quote** command that you hav
 
 <img src="https://assets.postman.com/postman-docs/v10/make-send-request-block-v10-2.gif" alt="Create Send Request block" fetchpriority="low" loading="lazy" />
 
-The final step is to send all this information back to the Slack app. First, since slack requires the text sent to them to be in JSON format, create a **Record** block, name the key **text** and add a **Select** block. You can either use the dropdown menu to select, or enter ```body.results.0.c``` which is how polygon stores their stock quotes. Now create a new **Send Request** block, drag the output of the **Record** block to the **message_to_slack** variable which is what we're going to send to the app, and drag a connection from the second **Evaluate** block (that holds the destination in Slack to reply to) to the **slack_hook_url** input of the **Send Request** block.
+The final step is to send all this information back to the Slack app.
+
+Because Slack requires the sent text to be in JSON format, create a **Record** block, name the key **text**, and add a **Select** block. You can either use the dropdown list to select or enter ```body.results.0.c```, which is how Polygon.io stores their stock quotes.
+
+Next, create a new **Send Request** block. Drag the output of the **Record** block to the **message_to_slack** variable, which is what we're going to send to the app. Next, drag a connection from the second **Evaluate** block (which holds the destination in Slack to reply to) to the **slack_hook_url** input of the **Send Request** block.
 
 <img src="https://assets.postman.com/postman-docs/v10/sending-to-slack-v10-2.gif" alt="Send to Slack" fetchpriority="low" loading="lazy" />
 
