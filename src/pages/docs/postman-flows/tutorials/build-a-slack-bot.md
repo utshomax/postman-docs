@@ -35,7 +35,7 @@ Create a new app in Slack [here](https://api.slack.com/apps), give it a name, an
 
 <img src="https://assets.postman.com/postman-labs-docs/cloud-execution/make-slack-app-with-command.gif" alt="Create Slack app" fetchpriority="low" loading="lazy" />
 
-Next, enable webhooks so you can send messages to the Slack app from Postman Flows (you'll need to reinstall the app after you do this, as shown in the GIF). Pick a channel from Slack that you'll want to interact with it in from the drop-down.
+Next, enable webhooks so you can send messages to the Slack app from Postman Flows (you'll need to reinstall the app after you do this, as shown in the GIF). Select a channel from Slack that you'll want to interact with it in from the dropdown list.
 
 <img src="https://assets.postman.com/postman-labs-docs/cloud-execution/slack-app-enable-webhooks.gif" alt="Enable Slack webhooks" fetchpriority="low" loading="lazy" />
 
