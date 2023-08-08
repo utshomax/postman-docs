@@ -12,7 +12,7 @@ updated: 2023-05-24
 
 ### Adding saved examples to requests
 
-Once data is **selected**, it can be used with other blocks. Sending it to an **Output** block is great for seeing that the request worked, but it doesn't actually do anything with the value.
+Once data is selected, it can be used with other blocks. Sending it to an **Output** block is great for seeing that the request worked, but it doesn't actually do anything with the value.
 
 ![Using selected data](https://assets.postman.com/postman-labs-docs/concepts/using-selected-data.gif)
 
