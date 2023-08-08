@@ -26,7 +26,7 @@ You can see this tutorial's completed flow [here](https://postman.postman-beta.c
 
 ## Goal
 
-Create a monitor and a flow to get the high and low temperature forecasts for a given ZIP code and post them to a Twitter account.
+Create a monitor and a flow to get the high and low temperature forecasts for a given ZIP code and post them to a Twitter account daily.
 
 ## Prerequisites
 

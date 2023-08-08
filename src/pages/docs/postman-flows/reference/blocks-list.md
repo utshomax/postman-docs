@@ -87,7 +87,7 @@ Outputs the current date and time.
 
 <img alt="Select block" src="https://assets.postman.com/postman-labs-docs/all-blocks/select-block.png" width="142px"/>
 
-Selects a specific part of the information output from another block. If the input information is from a send request block with a saved example, a drop-down will pop up that has all the information available to choose from and selecting that information will auto-fill the select block.
+Selects a specific part of the information output from another block. If the input information is from a **Send Request** block with a saved example, a drop-down will pop up that has all the information available to choose from and selecting that information will auto-fill the select block.
 
 [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bc6e92e308d202595085cb)
 
