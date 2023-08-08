@@ -30,8 +30,8 @@ Create a flow that quantifies a stock's performance by comparing it to a market 
 
 ## Prerequisites
 
-* A [Polygon](https://polygon.io/) account
-* A Polygon API key
+* A [Polygon.io](https://polygon.io/) account.
+* A Polygon.io API key.
 
 ## Creating the flow
 
