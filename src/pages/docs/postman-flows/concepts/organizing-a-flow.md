@@ -25,6 +25,6 @@ When collaborating with other people, or putting a flow in a public workspace, i
 
 ### Grouping
 
-Grouping allows any number of blocks and annotations to be grouped together. This group can then be named, given a color, resized, and have blocks added or removed from it. This can be useful in an instance where serval blocks may be involved in performing a task such as sending an email. Grouping can be done by either 
+Grouping allows any number of blocks and annotations to be grouped together. This group can then be named, given a color, resized, and have blocks added or removed from it. This can be useful in an instance where serval blocks may be involved in performing a task such as sending an email. The grouping menu can be accessed by either holding down shift and dragging the mouse cursor around a set of blocks, or holding the command (Mac) or control (Windows) key, and then clicking the blocks to add. Pressing the icon that looks like a file will create a group.
 
 ![Grouping](https://assets.postman.com/postman-labs-docs/concepts/grouping.gif)
