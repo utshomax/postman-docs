@@ -16,7 +16,7 @@ Once data is **selected**, it can be used with other blocks. Sending it to an **
 
 ![Using selected data](https://assets.postman.com/postman-labs-docs/concepts/using-selected-data.gif)
 
-Adding another Send Request block and then dragging a connection to it's `value` variable input will let the request use the value `var1` that was set in the first request.
+Adding another **Send Request** block and then dragging a connection to its `value` variable input enables the request to use the `var1` value that was set in the first request.
 
 ### Adding variables to requests
 
