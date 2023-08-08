@@ -30,4 +30,4 @@ The variables part of the **Send Request** block opens automatically and enables
 
 ![Filling in a variable](https://assets.postman.com/postman-labs-docs/concepts/updated-adding-a-variable.gif)
 
-In this reuqest, the two variables are named `value1` and `value2` and were setup in the request (more information on setting up variables in requests [here](../../../sending-requests/variables/)). Once the request is run, the values can be seen from the **success** output, the values returned are whatever the variables `value1` and `value2` are set to (in this value `hello` and `there`).
+In this request, the two variables are named `value1` and `value2` and were set up in the request (more information on setting up variables in requests [here](../../../sending-requests/variables/)). Once the request runs, you can view the values in the **success** output. The values returned are whatever the `value1` and `value2` variables are set to (in this example, `hello` and `there`).
