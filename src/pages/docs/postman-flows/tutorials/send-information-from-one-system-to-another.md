@@ -38,7 +38,7 @@ The first step is to [fork](/docs/collaborating-in-postman/using-version-control
 
 > Creating requests is beyond the scope of this tutorial, but you can learn more about creating requests [here](/docs/getting-started/sending-the-first-request/).
 
-The collections hold the requests that will get all the customer profiles from the Stripe API in a single response, divide the response into pages, and post the profiles to the Brevo API as contacts. The collections and the environment also hold variables used by the requests.
+The collections contain the requests that will get all the customer profiles from the Stripe API in a single response, divide the response into pages, and post the profiles to the Brevo API as contacts. The collections and the environment also contain variables used by the requests.
 
 <img alt="Fork the collections and environment" src="https://assets.postman.com/postman-docs/v10/flows-tut-system-fork-v10.gif"/>
 
