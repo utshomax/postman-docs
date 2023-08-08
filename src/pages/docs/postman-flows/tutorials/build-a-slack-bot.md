@@ -50,7 +50,7 @@ For the final step, run the command you created in the first step in the Slack c
 > 1. Sign up for a free [Slack](https://slack.com/) account.
 > 2. Sign up for a free [polygon.io](https://polygon.io/) account and get your API key.
 
-To make your own Slack app from scratch with Postman Flows, follow the same steps as [Connect a Flow to a Slack app](#connect-a-flow-to-a-slack-app) but this time lets name the app **Stock App**, make the Command **stock-quote** and use the URL of the new flow you're going to make.
+To make your own Slack app from scratch with Postman Flows, follow the same steps as [Connect a Flow to a Slack app](#connect-a-flow-to-a-slack-app). This time, name the app **Stock App**, make the **stock-quote** command, and use the URL of the new flow you're going to make.
 
 <img src="https://assets.postman.com/postman-docs/v10/new-slack-request-url-v10-1.gif" alt="New Slack command" fetchpriority="low" loading="lazy" />
 
