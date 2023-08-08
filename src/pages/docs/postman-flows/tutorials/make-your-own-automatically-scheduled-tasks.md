@@ -76,7 +76,7 @@ Create a monitor and a flow to get the high and low temperature forecasts for a 
 1. Connect a **Template** block to the second **Send Request** block's **Success** output and enter `The weather in your ZIP code will include a high of {{high}} degrees and a low of {{low}} degrees.`
     * Change `key` to `high` and enter the path `body.daily.temperature_2m_max.0`.
     * Also connect the **Send Request** block’s **Success** output to the **Template** block’s **variable** input.
-    * Change `value2` to `low` and enter the path `body.daily.temperature_2m_min.0`.
+    * Change `value2` to `low` and enter the `body.daily.temperature_2m_min.0` path.
 
     ![Add a Template block](https://assets.postman.com/postman-docs/v10/flows-tut-sched-template-v10.jpg)
 
