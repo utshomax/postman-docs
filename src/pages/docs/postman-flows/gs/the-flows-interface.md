@@ -28,5 +28,5 @@ updated: 2023-07-13
 
 * **(8) toolbar**: Redo/Undo, Zoom, and fit to screen buttons.
 * **(9) Run:** Runs the flow.
-* **(10) Add annotation:** adds a text annotation.
+* **(10) Add annotation:** Adds a text annotation.
 * **(11) Minimap:** Enables easier navigation of larger flows.
