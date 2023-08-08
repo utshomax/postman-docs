@@ -62,7 +62,9 @@ Connect an **Evaluate** block to the **If** block’s **TRUE** output. Rename `v
 
 <img alt="Add an Evaluate block" src="https://assets.postman.com/postman-docs/v10/flows-tut-eval-contacts-v10.gif"/>
 
-Connect a **Send Request** block to the **Evaluate** block’s **Result** output and select **Select a request > Stripe API > Customers > List all customers pagination**. The block automatically selects the **Stripe + Brevo** environment. Enter `5` for the `limit` variable. Connect the **Evaluate** block’s **Result** output to the `starting_after` variable in the **Send Request** block. Then connect the **Send Request** block’s **Success** output to both the `body.has_next` and the `body.data` **Select** blocks’ inputs.
+Connect a **Send Request** block to the **Evaluate** block’s **Result** output and select **Select a request > Stripe API > Customers > List all customers pagination**. The block automatically selects the **Stripe + Brevo** environment. Enter `5` for the `limit` variable.
+
+Connect the **Evaluate** block’s **Result** output to the `starting_after` variable in the **Send Request** block. Then connect the **Send Request** block’s **Success** output to both the `body.has_next` and the `body.data` **Select** blocks’ inputs.
 
 <img alt="Add another Send Request block" src="https://assets.postman.com/postman-docs/v10/flows-tut-send-request-pagination-v10.gif"/>
 
