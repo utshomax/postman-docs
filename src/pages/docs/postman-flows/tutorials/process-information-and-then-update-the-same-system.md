@@ -14,7 +14,9 @@ contextual_links:
     url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
 ---
 
-Many companies use databases on platforms like [Airtable](https://airtable.com/) to manage customer data, and a separate application to collect email addresses. Integrating these two sources of information with Postman Flows can streamline processes and improve data accuracy. This tutorial creates a flow that takes a user-provided email address, searches for a matching record in an Airtable database, and checks a checkbox field within that record.
+Many companies use databases on platforms like [Airtable](https://airtable.com/) to manage customer data, and a separate application to collect email addresses. Integrating these two sources of information with Postman Flows can streamline processes and improve data accuracy.
+
+This tutorial creates a flow that takes a user-provided email address, searches for a matching record in an Airtable database, and checks a checkbox field within that record.
 
 ## Contents
 
