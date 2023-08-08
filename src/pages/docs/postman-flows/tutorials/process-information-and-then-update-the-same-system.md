@@ -29,7 +29,7 @@ Create a flow that receives a user-provided email address, then finds and update
 ## Prerequisites
 
 * An Airtable personal access token.
-* A table in Airtable with at least one record.
+* A table in Airtable with at least one record:
     * Name the fields `Email`, `Name`, and `Checked In?`.
     * In the **Email** field, enter `test@email.com`.
     * For the **Email** and **Name** fields, select the **Single line text** field type.
