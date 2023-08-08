@@ -28,9 +28,9 @@ Create a flow that gets a list of customer profiles from [Stripe](http://www.str
 
 ## Prerequisites
 
-* A [Stripe](http://www.stripe.com) account and API key
-* At least 15 customers in Stripe
-* A [Brevo](http://www.brevo.com) account and API key
+* A [Stripe](http://www.stripe.com) account and API key.
+* At least 15 Stripe customers.
+* A [Brevo](http://www.brevo.com) account and API key.
 
 ## Creating the flow
 
