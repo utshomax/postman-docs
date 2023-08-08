@@ -3,7 +3,7 @@ title: "Creating a form in Postman Flows"
 updated: 2023-08-02
 ---
 
-Forms in Postman Flows enable you to seamlessly gather user input and integrate it into your API-driven applications. With Forms, you can create interactive and customizable experiences by collecting data from users through a variety of question types. For example, if you have a flow that gets the weather in a particular city, you could create a form where the user types in the name of the city. The flow runs after the user enters the information and selects **Submit**. Users' input can then be utilized to trigger API requests, perform data manipulation, or generate dynamic outputs. Understanding the key concepts of Forms will help you make the most of this powerful feature in your application development process.
+Forms in Postman Flows enable you to seamlessly gather user input and integrate it into your API-driven applications. With forms, you can create interactive and customizable experiences by collecting data from users through a variety of question types. For example, if you have a flow that gets the weather in a particular city, you could create a form where the user types in the name of the city. The flow runs after the user enters the information and selects **Submit**. Users' input can then be utilized to trigger API requests, perform data manipulation, or generate dynamic outputs. Understanding the key concepts of Forms will help you make the most of this powerful feature in your application development process.
 
 ![Forms in Postman Flows](https://assets.postman.com/postman-docs/v10/flows-forms-hero-v10.jpg)
 
