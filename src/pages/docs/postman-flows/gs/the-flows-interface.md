@@ -5,7 +5,7 @@ updated: 2023-07-13
 
 ![Flows user interface](https://assets.postman.com/postman-labs-docs/getting-started/flows-ui.png)
 
-## The Postman Flows user interface:
+## The Postman Flows user interface
 
 * [Blocks on the canvas](#blocks-on-the-canvas)
 * [Building applications](#building-applications)
