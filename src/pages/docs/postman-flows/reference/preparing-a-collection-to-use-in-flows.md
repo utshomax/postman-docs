@@ -22,6 +22,6 @@ Adding another Send Request block and then dragging a connection to it's `value`
 
 You may have noticed in the earlier step that the Send Request block has a variable named `value` that is using a **Select** block with no value set. When this happens, it's selecting everything that's being sent to it (which in this case is just `var1`).
 
-This flow can be simplified to remove the extra Select and Output blocks (unless they were needed to check that the flow is running correctly).
+This flow can be simplified to remove the extra **Select** and **Output** blocks (unless they were required to check that the flow is running correctly).
 
 ![Simplifying the flow](https://assets.postman.com/postman-labs-docs/concepts/simplifying-the-flow.gif)
