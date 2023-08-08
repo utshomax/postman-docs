@@ -1,0 +1,25 @@
+---
+title: "Adding authentication"
+updated: 2023-08-07
+---
+
+## Contents
+
+* [Getting an API key](#using-one-blocks-output-as-another-blocks-input)
+* [Using an API key](#blocks-inside-of-other-blocks)
+
+Most APIs that exist have some form of authentication that's required to use them. Authentication adds security to an API so that only the intended users can access and update information. You can read more about the different types of authentication and how to use them [here](../../../sending-requests/authorization/authorization/).
+
+### Getting an API key
+
+For this example, we're going to use the stock price flow template. This flow is already built but needs an **API key** to run. API keys are just a series of letters and numbers that uniquely identifies who can use the API.
+
+![Getting an API key](https://assets.postman.com/postman-labs-docs/concepts/getting-api-key.gif)
+
+Clicking on the link in the flow opens the page to get an api key. Enter any organization name and an email and copy the key generated below.
+
+### Using an API key
+
+In this example, the API key isn't particularly important to keep secure, so it can be pasted directly in the **api key** value in the Send Request block. Generally, it's a good idea to store the key securely as a secret value in a Postman [Environment](../../../sending-requests/managing-environments/) which can then be selected in the Send Request block. 
+
+![Using an API key](https://assets.postman.com/postman-labs-docs/concepts/using-api-key.gif)
