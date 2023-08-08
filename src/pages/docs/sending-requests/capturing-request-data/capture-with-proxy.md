@@ -150,7 +150,7 @@ You can use the Postman proxy to capture traffic from a client device such as a 
 
     1. Select **Settings > Wi-Fi**.
     1. Select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> next to your Wi-Fi connection.
-    1. Select **HTTP Proxy > Configure Proxy > Manual**.
+    1. Select **Configure Proxy > Manual**.
     1. Set **Server** and **Port** to the local IP address and proxy port.
     1. Select **Save**.
 
