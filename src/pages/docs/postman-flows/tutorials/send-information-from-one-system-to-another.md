@@ -50,7 +50,7 @@ Connect the **Send Request** block’s **Success** output to a **Select** block 
 
 <img alt="Select body.has_more" src="https://assets.postman.com/postman-docs/v10/flows-tut-select-has_more-v10.gif"/>
 
-Also connect the **Send Request** block’s **Success** output to another **Select** block to get the response’s `data` object.
+Connect the **Send Request** block’s **Success** output to another **Select** block to get the response’s `data` object.
 
 <img alt="Select body.data" src="https://assets.postman.com/postman-docs/v10/flows-tut-select-data-v10.gif"/>
 
