@@ -8,7 +8,7 @@ updated: 2023-05-24
 * [Requests](#requests)
 * [Variables](#variables)
 
-In order to use any API, a **request** must be made to either send, update, delete or return information. When making a request, the information is often different every time it's run. Because of this, **variables** are used to interact with the requests in places where the data being sent or received changes.
+In order to use any API, a **request** must be made to either send, update, delete, or return information. When making a request, the information is often different every time it's run. Because of this, **variables** are used to interact with the requests in places where the data being sent or received changes.
 
 > To learn more about making your first request, check out the tutorial [here](../../../getting-started/sending-the-first-request/)
 
@@ -30,4 +30,4 @@ The variables part of the **Send Request** block opens automatically and enables
 
 ![Filling in a variable](https://assets.postman.com/postman-labs-docs/concepts/updated-adding-a-variable.gif)
 
-In this reuqest, the two variables are named `value1` and `value2` and were setup in the request (more information on setting up variables in requests [here](../../../sending-requests/variables/)). Once the request is run, the values can be seen from the **success** output, the values returned are whatever the variables `value1` and `value2` are set to (in this value `hello` and `there`).
+In this request, the two variables are named `value1` and `value2` and were set up in the request (more information on setting up variables in requests [here](../../../sending-requests/variables/)). Once the request runs, you can view the values in the **success** output. The values returned are whatever the `value1` and `value2` variables are set to (in this example, `hello` and `there`).

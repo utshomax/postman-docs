@@ -22,10 +22,10 @@ You can find the complete flow [here](https://www.postman.com/postman/workspace/
 
 ## Prerequisites
 
-* A Stripe account with a customer with the email address `test@email.com`
-* A Brevo account with a contact with the email address `test@email.com`
-* A Stripe secret key
-* A Brevo API key
+* A Stripe account with a customer with the `test@email.com` email address.
+* A Brevo account with a contact with the `test@email.com` email address.
+* A Stripe secret key.
+* A Brevo API key.
 
 ## Fork the collections and environment
 
@@ -106,4 +106,4 @@ Fork this environment into your workspace:
 
 ## Run the flow
 
-Select **Run**. The flow finds and deletes the contact with the email address `test@email.com` on Brevo, Stripe, and the internal system. When the contact is deleted, the `Contact deleted` **Output** block shows **True**. If there is no contact with that email address, the Contact not found **Output** block shows **False**.
+Select **Run**. The flow finds and deletes the contact with the `test@email.com` email address on Brevo, Stripe, and the internal system. When the contact is deleted, the `Contact deleted` **Output** block shows **True**. If there is no contact with that email address, the `Contact not found` **Output** block shows **False**.

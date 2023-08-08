@@ -14,7 +14,9 @@ contextual_links:
     url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
 ---
 
-Many people find dashboards useful for visualizing and simplifying large amounts of data. For example, you might create an internet of things dashboard that displays information about your home's thermostat, door locks, security cameras, and environmental sensors. Or you might want a dashboard that compares a stock's price to a market index to evaluate the stock's performance. The dashboard could visualize data with a True/False display and a line chart. This tutorial shows you how to create this stock performance dashboard, using test data from a Postman mock server.
+Many people find dashboards useful for visualizing and simplifying large amounts of data. For example, you might create an internet of things dashboard that displays information about your home's thermostat, door locks, security cameras, and environmental sensors. Or you might want a dashboard that compares a stock's price to a market index to evaluate the stock's performance. The dashboard could visualize data with a true/false display and a line chart.
+
+This tutorial shows you how to create this stock performance dashboard using test data from a Postman mock server.
 
 You can see the completed flow [here](https://www.postman.com/postman/workspace/utility-flows/flow/64123b57c224290033fcb089).
 
@@ -30,12 +32,12 @@ Create a flow that quantifies a stock's performance by comparing it to a market 
 
 ## Prerequisites
 
-* A [Polygon](https://polygon.io/) account
-* A Polygon API key
+* A [Polygon.io](https://polygon.io/) account.
+* A Polygon.io API key.
 
 ## Creating the flow
 
-1. Begin by [forking](/docs/collaborating-in-postman/using-version-control/forking-entities/) (copying) the [stocks collection](https://www.postman.com/postman/workspace/utility-flows/collection/23919558-b45b34a3-8289-42f2-98e5-df043c863ea1?action=share&creator=21580188) and the [stocks-tutorial environment](https://www.postman.com/postman/workspace/utility-flows/environment/21580188-07226525-53d7-40ca-b9d3-6cac35c39306) from the [Utility Flows](https://www.postman.com/postman/workspace/utility-flows/overview) workspace to your workspace. In your fork of the stocks-tutorial environment, replace `<your-api-key>` with your Polygon API key and select **Save**.
+1. Begin by [forking](/docs/collaborating-in-postman/using-version-control/forking-entities/) (copying) the [**stocks** collection](https://www.postman.com/postman/workspace/utility-flows/collection/23919558-b45b34a3-8289-42f2-98e5-df043c863ea1?action=share&creator=21580188) and the [**stocks-tutorial** environment](https://www.postman.com/postman/workspace/utility-flows/environment/21580188-07226525-53d7-40ca-b9d3-6cac35c39306) from the [**Utility Flows**](https://www.postman.com/postman/workspace/utility-flows/overview) workspace to your workspace. In your fork of the **stocks-tutorial** environment, replace `<your-api-key>` with your Polygon.io API key and select **Save**.
 
     * Create a new flow and connect three **Send Request** blocks to the **Start** block.
 

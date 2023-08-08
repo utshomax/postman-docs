@@ -30,23 +30,23 @@ Create a monitor and a flow to get the high and low temperature forecasts for a 
 
 ## Prerequisites
 
-* A [Twitter](https://twitter.com/) account
-* A [Twitter app](https://developer.twitter.com/en/docs/apps/overview)
+* A [Twitter](https://twitter.com/) account.
+* A [Twitter app](https://developer.twitter.com/en/docs/apps/overview):
     * For the **User authentication settings**, select **Read and write**.
     * For **Type of App**, select **Web App, Automated App or Bot**.
     * For the **Callback URI** and **Website URL**, enter `https://postman.postman.co/`.
 * Twitter keys and secrets:
-    * API (consumer) key
-    * API (consumer) key secret
-    * Client ID
-    * Client secret
-    * Bearer token
+    * API (consumer) key.
+    * API (consumer) key secret.
+    * A client ID.
+    * A client secret.
+    * A Bearer token.
     * Set each variable's **Type** to `secret`.
-* A ZIP code
+* A ZIP code.
 
 ## Creating the flow
 
-1. Begin by [forking](/docs/collaborating-in-postman/using-version-control/forking-entities/) (copying) the [Weather Application for Postman Flows](https://www.postman.com/postman/workspace/utility-flows/collection/23919558-5840d707-ec50-4739-bf61-291b1bbc0bf0?action=share&creator=21580188), the [Twitter API v2 collection](https://www.postman.com/postman/workspace/utility-flows/collection/21580188-a3cb6477-6f61-451e-a2c2-e24fd44267f9?action=share&creator=21580188) and the [Twitter API v2 environment](https://www.postman.com/postman/workspace/utility-flows/environment/21580188-a2d4586a-c79c-4f70-8cc0-05d22e417370) to your workspace.
+1. Begin by [forking](/docs/collaborating-in-postman/using-version-control/forking-entities/) (copying) the [Weather Application for Postman Flows](https://www.postman.com/postman/workspace/utility-flows/collection/23919558-5840d707-ec50-4739-bf61-291b1bbc0bf0?action=share&creator=21580188), the [**Twitter API v2** collection](https://www.postman.com/postman/workspace/utility-flows/collection/21580188-a3cb6477-6f61-451e-a2c2-e24fd44267f9?action=share&creator=21580188) and the [**Twitter API v2** environment](https://www.postman.com/postman/workspace/utility-flows/environment/21580188-a2d4586a-c79c-4f70-8cc0-05d22e417370) to your workspace.
 
     * In your fork of the environment, add your [Twitter app's](https://developer.twitter.com/) key and secret values to their corresponding variables, and save the environment:
         * API (consumer) key
@@ -75,8 +75,8 @@ Create a monitor and a flow to get the high and low temperature forecasts for a 
 
 1. Connect a **Template** block to the second **Send Request** block's **Success** output and enter `The weather in your ZIP code will include a high of {{high}} degrees and a low of {{low}} degrees.`
     * Change `key` to `high` and enter the path `body.daily.temperature_2m_max.0`.
-    * Also connect the **Send Request** block’s **Success** output to the **Template** block’s **variable** input.
-    * Change `value2` to `low` and enter the path `body.daily.temperature_2m_min.0`.
+    * Connect the **Send Request** block’s **Success** output to the **Template** block’s **variable** input.
+    * Change `value2` to `low` and enter the `body.daily.temperature_2m_min.0` path.
 
     ![Add a Template block](https://assets.postman.com/postman-docs/v10/flows-tut-sched-template-v10.jpg)
 

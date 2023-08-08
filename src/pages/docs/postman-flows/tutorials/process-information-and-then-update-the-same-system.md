@@ -14,7 +14,9 @@ contextual_links:
     url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
 ---
 
-Many companies use databases on platforms like [Airtable](https://airtable.com/) to manage customer data, and a separate application to collect email addresses. Integrating these two sources of information with Postman Flows can streamline processes and improve data accuracy. This tutorial creates a flow that takes a user-provided email address, searches for a matching record in an Airtable database, and checks a checkbox field within that record.
+Many companies use databases on platforms like [Airtable](https://airtable.com/) to manage customer data, and a separate application to collect email addresses. Integrating these two sources of information with Postman Flows can streamline processes and improve data accuracy.
+
+This tutorial creates a flow that takes a user-provided email address, searches for a matching record in an Airtable database, and checks a checkbox field within that record.
 
 ## Contents
 
@@ -29,7 +31,7 @@ Create a flow that receives a user-provided email address, then finds and update
 ## Prerequisites
 
 * An Airtable personal access token.
-* A table in Airtable with at least one record.
+* A table in Airtable with at least one record:
     * Name the fields `Email`, `Name`, and `Checked In?`.
     * In the **Email** field, enter `test@email.com`.
     * For the **Email** and **Name** fields, select the **Single line text** field type.
@@ -37,11 +39,11 @@ Create a flow that receives a user-provided email address, then finds and update
 
 ## Creating the flow
 <!-- TODO: Recreate this collection and environment in a public flows workspace, then replace the beta links below with public links. -->
-1. Fork the [Airtable](https://postman.postman-beta.co/workspace/testing-features~e08a6ce3-3b63-4a67-9e38-3f910d42a4ca/collection/917058-ebc81195-63a9-4906-b1ef-5bcf8a6eeee1?action=share&creator=901427) collection and [Event Registration](https://postman.postman-beta.co/workspace/testing-features~e08a6ce3-3b63-4a67-9e38-3f910d42a4ca/environment/917058-66036e4e-8d69-41aa-8c8c-a6fb37648f6a?action=share&creator=901427) environment.
+1. Fork the [**Airtable**](https://postman.postman-beta.co/workspace/testing-features~e08a6ce3-3b63-4a67-9e38-3f910d42a4ca/collection/917058-ebc81195-63a9-4906-b1ef-5bcf8a6eeee1?action=share&creator=901427) collection and [**Event Registration**](https://postman.postman-beta.co/workspace/testing-features~e08a6ce3-3b63-4a67-9e38-3f910d42a4ca/environment/917058-66036e4e-8d69-41aa-8c8c-a6fb37648f6a?action=share&creator=901427) environment.
     * In your fork of the **Event Registration** environment:
         * Replace `your token here` with your Airtable personal access token and set the **Type** to **secret**.
         * Replace `table id here` with your table’s [id](https://support.airtable.com/docs/finding-airtable-record-ids).
-        * Replace `base id here` with your table’s base id.
+        * Replace `base id here` with your table’s base ID.
         * Replace `record id here` with the test@email.com record’s id.
         * Select **Save**.
 

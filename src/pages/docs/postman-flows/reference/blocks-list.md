@@ -215,7 +215,7 @@ Runs all of the blocks that come after it once for each item in the input list u
 
 **List** - Creates a list of all items sent to this block in the for or repeat sequence.
 
-**Finish** - Sends an event when the block is complete (when the for/repeat has been run for every item and they're all in a new list).
+**Finish** - Sends an event when the block is complete (when the for or repeat sequence has been run for every item and they're all in a new list).
 
 [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63b898822e67b05a8333e16c)
 
