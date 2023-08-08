@@ -8,7 +8,7 @@ updated: 2023-08-07
 * [Using one block's output as another block's input](#using-one-blocks-output-as-another-blocks-input)
 * [Blocks inside of other blocks](#blocks-inside-of-other-blocks)
 
-Fundamentally, a flow is about making a request, and then doing something with the result of that request. In order to do this, flows pass information between blocks to perform tasks.
+A flow is about making a request, and then doing something with the result of that request. In order to do this, flows pass information between blocks to perform tasks.
 
 ### Using one block's output as another block's input
 
