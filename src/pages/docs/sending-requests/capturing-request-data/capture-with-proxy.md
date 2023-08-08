@@ -45,7 +45,7 @@ The Postman desktop app has a built-in proxy that can capture HTTP and HTTPS tra
 1. The server returns a response to the Postman proxy, where it can also be saved.
 1. The response is returned back to the client.
 
-[![postman capture proxy](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)
+![postman capture proxy](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)
 
 Similar to the [Interceptor extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman proxy intercepts and captures your requests. It can also capture responses and cookies.
 
