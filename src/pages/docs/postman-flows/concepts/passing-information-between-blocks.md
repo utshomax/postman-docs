@@ -20,7 +20,7 @@ Adding another **Send Request** block and then dragging a connection to its `val
 
 ### Blocks inside of other blocks
 
-You may have noticed in the earlier step that the **Send Request** block has a variable named `value1` that's using a **Select** block with no value set. When this happens, it's selecting everything that's being sent to it (which in this case is `eur`).
+You may have noticed in the previous step that the **Send Request** block has a variable named `value1` that's using a **Select** block with no value set. When this happens, it's selecting everything that's being sent to it (which in this case is `eur`).
 
 This flow can be simplified to remove the extra **Select** and block and instead use the existing ones in the second **Send Request** block.
 
