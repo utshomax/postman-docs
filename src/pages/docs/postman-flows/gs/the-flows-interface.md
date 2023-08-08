@@ -22,7 +22,7 @@ updated: 2023-07-13
 
 * **(5) Forms:** Create a form that runs a flow on user submission. Learn more about forms [here](link to forms).
 * **(6) Webhook-based applications:** Create a flow that either runs automatically on a schedule, or whenever a specified event happens. More information on webhooks and automatic runs can be found [here](/docs/postman-flows/concepts/automatic-runs/).
-* **(7) Console:** This is where all API activity can be found. Useful for debugging flows and ensuring your flow is running with the information expected. A guide on debugging flows can be found [here](/docs/postman-flows/reference/debugging/)
+* **(7) Console:** This is where you can find all API activity. This is useful for debugging flows and ensuring your flow is running with the expected information. A guide on debugging flows can be found [here](/docs/postman-flows/reference/debugging/)
 
 ### Navigation
 
