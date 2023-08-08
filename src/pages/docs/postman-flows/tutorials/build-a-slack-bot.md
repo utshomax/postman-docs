@@ -64,7 +64,9 @@ To start the flow, create two **Evaluate** blocks and paste the following ```$ma
 
 <img src="https://assets.postman.com/postman-docs/v10/make-evaluate-blocks-v10-2.gif" alt="Create Evaluate blocks" fetchpriority="low" loading="lazy" />
 
-The next step is to take the text after the **stock-quote** command that you have in the **Evaluate** block (which is the stock ticker) and call the Polygon API to get the quote. Create a **Send Request** block, and choose **Get stock quote** from the collection that you forked earlier. Then select the **Slack Stock Bot** environment you also forked, and connect the **Evaluate** block to the ticker variable (This is how information like the ticker is passed from the **Evaluate** block into the **Send Request** block).
+Next, copy the text after the **stock-quote** command that you have in the **Evaluate** block (which is the stock ticker). Call the Polygon.io API to get the quote.
+
+Create a **Send Request** block and select **Get stock quote** from the collection that you forked. Select the **Slack Stock Bot** environment you also forked and connect the **Evaluate** block to the ticker variable (this is how information like the ticker is passed from the **Evaluate** block into the **Send Request** block).
 
 <img src="https://assets.postman.com/postman-docs/v10/make-send-request-block-v10-2.gif" alt="Create Send Request block" fetchpriority="low" loading="lazy" />
 
