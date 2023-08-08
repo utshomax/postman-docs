@@ -72,6 +72,6 @@ The final step is to send all this information back to the Slack app. First, sin
 
 <img src="https://assets.postman.com/postman-docs/v10/sending-to-slack-v10-2.gif" alt="Send to Slack" fetchpriority="low" loading="lazy" />
 
-All that's left is hitting the **Deploy** button and trying it out in Slack!
+All that's left is to select the **Deploy** button and try it out in Slack!
 
 <img src="https://assets.postman.com/postman-labs-docs/cloud-execution/see-result-in-slack.gif" alt="See the result" fetchpriority="low" loading="lazy" />
