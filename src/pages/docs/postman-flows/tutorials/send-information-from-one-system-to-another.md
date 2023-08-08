@@ -42,7 +42,7 @@ The collections hold the requests that will get all the customer profiles from t
 
 <img alt="Fork the collections and environment" src="https://assets.postman.com/postman-docs/v10/flows-tut-system-fork-v10.gif"/>
 
-Create a new flow and add a **Send Request** block. Add a GET request by selecting **Select a request > Stripe API > Customers > GET List all customers**. Select **Add environment > Stripe + Brevo**. The **Send Request** block shows three variables, provided by the GET request. The `baseUrl` and `stripe_secret_key` variables are populated automatically from values stored in the request’s collection and environment. You can hover over them to see their values and scope. For the `limit` variable, enter `5` to specify how many contacts to include in each page of results. This tutorial uses 15 contacts, so a limit of 5 will send three pages of results.
+Create a new flow and add a **Send Request** block, then add a GET request by selecting **Select a request > Stripe API > Customers > GET List all customers**. Select **Add environment > Stripe + Brevo**. The **Send Request** block shows three variables, provided by the GET request. The `baseUrl` and `stripe_secret_key` variables are populated automatically from values stored in the request’s collection and environment. You can hover over them to see their values and scope. For the `limit` variable, enter `5` to specify how many contacts to include in each page of results. This tutorial uses 15 contacts, so a limit of 5 will send three pages of results.
 
 <img alt="Create a new flow" src="https://assets.postman.com/postman-docs/v10/flows-tut-system-first-sr-v10.gif"/>
 
