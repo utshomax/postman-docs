@@ -46,7 +46,7 @@ Create a monitor and a flow to get the high and low temperature forecasts for a 
 
 ## Creating the flow
 
-1. Begin by [forking](/docs/collaborating-in-postman/using-version-control/forking-entities/) (copying) the [Weather Application for Postman Flows](https://www.postman.com/postman/workspace/utility-flows/collection/23919558-5840d707-ec50-4739-bf61-291b1bbc0bf0?action=share&creator=21580188), the [Twitter API v2 collection](https://www.postman.com/postman/workspace/utility-flows/collection/21580188-a3cb6477-6f61-451e-a2c2-e24fd44267f9?action=share&creator=21580188) and the [Twitter API v2 environment](https://www.postman.com/postman/workspace/utility-flows/environment/21580188-a2d4586a-c79c-4f70-8cc0-05d22e417370) to your workspace.
+1. Begin by [forking](/docs/collaborating-in-postman/using-version-control/forking-entities/) (copying) the [Weather Application for Postman Flows](https://www.postman.com/postman/workspace/utility-flows/collection/23919558-5840d707-ec50-4739-bf61-291b1bbc0bf0?action=share&creator=21580188), the [**Twitter API v2** collection](https://www.postman.com/postman/workspace/utility-flows/collection/21580188-a3cb6477-6f61-451e-a2c2-e24fd44267f9?action=share&creator=21580188) and the [**Twitter API v2** environment](https://www.postman.com/postman/workspace/utility-flows/environment/21580188-a2d4586a-c79c-4f70-8cc0-05d22e417370) to your workspace.
 
     * In your fork of the environment, add your [Twitter app's](https://developer.twitter.com/) key and secret values to their corresponding variables, and save the environment:
         * API (consumer) key
