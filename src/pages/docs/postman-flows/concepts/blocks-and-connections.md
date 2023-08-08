@@ -34,7 +34,7 @@ When a brand new flow is created, before you add any blocks, the start block has
 * Add blocks: opens the block menu
 * Explorer templates: opens up a menu of pre-built flows to load and discover
 
-These are suggestions to help getting started building a flow.
+These are suggestions to help you get started building a flow.
 
 ### Connections
 
