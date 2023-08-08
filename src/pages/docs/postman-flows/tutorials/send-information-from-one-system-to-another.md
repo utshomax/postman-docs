@@ -46,7 +46,7 @@ Create a new flow and add a **Send Request** block. Add a GET request by selecti
 
 <img alt="Create a new flow" src="https://assets.postman.com/postman-docs/v10/flows-tut-system-first-sr-v10.gif"/>
 
-Connect the **Send Request** block’s **Success** output to a **Select** block to check the response’s `has_more` field, which is either `true` or `false`. If this field’s value is `true`, there is another page of results to be sent. If it’s `false`, the flow has reached the end of the list of customer contacts.
+Connect the **Send Request** block’s **Success** output to a **Select** block to check the response’s `has_more` field, which is `true` or `false`. If this field’s value is `true`, then there is another page of results to be sent. If it’s `false`, the flow has reached the end of the customer contacts list.
 
 <img alt="Select body.has_more" src="https://assets.postman.com/postman-docs/v10/flows-tut-select-has_more-v10.gif"/>
 
