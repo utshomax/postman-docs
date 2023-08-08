@@ -9,7 +9,7 @@ updated: 2023-08-07
 * [Annotations](#annotations)
 * [Grouping](#grouping)
 
-When a flow is just a few blocks, it is pretty easy for the original creator to understand. Once flows become more then a few blocks and other people start working on them, it can quickly become difficult to understand what all the moving parts are doing. That's where tools like colors, annotations, and grouping comes in.
+When a flow is just a few blocks, it is easy for its creator to understand. Once flows become more then a few blocks and other users start working on them, it can become difficult to understand what all the moving parts are doing. That's where tools like colors, annotations, and grouping comes in.
 
 ### Colors
 
