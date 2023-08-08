@@ -20,7 +20,7 @@ Adding another Send Request block and then dragging a connection to it's `value`
 
 ### Adding variables to requests
 
-You may have noticed in the earlier step that the Send Request block has a variable named `value` that is using a **Select** block with no value set. When this happens, it's selecting everything that's being sent to it (which in this case is just `var1`).
+You may have noticed in the previous step that the **Send Request** block has a `value` variable that uses a **Select** block with no set value. When this happens, it's selecting everything that's being sent to it (in this case, the `var1` value).
 
 This flow can be simplified to remove the extra **Select** and **Output** blocks (unless they were required to check that the flow is running correctly).
 
