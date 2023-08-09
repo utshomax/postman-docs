@@ -122,11 +122,11 @@ To remove a member from your team, go to your [team dashboard](https://go.postma
 Reassign their personal workspaces to another team member to ensure the team continues to have access to any unshared work done by the user being removed. You must reassign their personal workspaces if one of the following is true:
 
 * They're from an Enterprise team.
-* They're from a Free, Basic, or Professional team, and they have an individual account.
+* They're from a Free, Basic, or Professional team, and they have an account.
 
-> An individual account isn't associated with a team, and only the user can access it. To access an individual account, see [Switching between teams](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#switching-between-teams).
+> An account isn't associated with a team, and only the user can access it. To access an account, see [Switching between teams](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#switching-between-teams).
 
-When you remove a team member, their personal workspaces and the data within them move to an individual account if the following is true: they're from a Free, Basic, or Professional team and they don't have an individual account.
+When you remove a team member, their personal workspaces and the data within them move to an account if the following is true: they're from a Free, Basic, or Professional team and they don't have an account.
 
 > Note that when you remove a member from your team, this doesn't automatically reduce the number of paid seats for your team unless the member was added by [Auto-Flex](/docs/administration/billing/#using-auto-flex) during the current Auto-Flex cycle. If you want to reduce the number of paid seats on your team, a member of your team with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [edit your plan](/docs/administration/billing/#changing-your-plan).
 
