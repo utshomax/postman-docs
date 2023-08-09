@@ -1,8 +1,6 @@
 ---
 title: "Capturing HTTPS traffic"
-order: 32
-page_id: "capturing_http_requests"
-updated: 2022-01-05
+updated: 2023-08-24
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -16,9 +14,6 @@ contextual_links:
   - type: link
     name: "Postman’s Proxy Now Fully Supports HTTPS Endpoints"
     url: "https://blog.postman.com/postmans-proxy-now-fully-supports-https-endpoints/"
-
-warning: false
-
 ---
 
 In addition to capturing HTTP traffic, you can use the Postman's built-in proxy to inspect HTTPS communication from your Android, iOS, Linux, macOS, and Windows devices.

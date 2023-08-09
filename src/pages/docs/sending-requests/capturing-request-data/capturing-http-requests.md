@@ -1,6 +1,6 @@
 ---
 title: "Capturing HTTP requests"
-updated: 2022-03-02
+updated: 2023-08-24
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -153,7 +153,7 @@ When you select one or more requests from the list on the **Requests** tab, you 
 
 When you select one or more cookies from the list on the **Cookies** tab, you can use the following controls:
 
-* **+ Add to Cookie Jar** - add the request to the Postman cookie jar.
+* **+ Add to Cookie Jar** - add the request to the [Postman cookie jar](/docs/sending-requests/cookies/).
 
 * <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete** - delete the cookie.
 

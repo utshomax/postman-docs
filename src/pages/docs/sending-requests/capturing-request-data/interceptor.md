@@ -1,6 +1,6 @@
 ---
 title: "Using Postman Interceptor"
-updated: 2023-08-15
+updated: 2023-08-14
 contextual_links:
   - type: section
     name: "Additional resources"
