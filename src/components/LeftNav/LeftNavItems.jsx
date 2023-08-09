@@ -607,15 +607,15 @@ export const leftNavItems = [
             url: '/docs/postman-flows/concepts/requests-and-variables/',
           },
           {
-            name: 'Selecting information',
+            name: 'Select information',
             url: '/docs/postman-flows/concepts/selecting-information/',
           },
           {
-            name: 'Passing information between blocks',
+            name: 'Pass information between blocks',
             url: '/docs/postman-flows/concepts/passing-information-between-blocks/',
           },
           {
-            name: 'Adding authentication',
+            name: 'Add authentication',
             url: '/docs/postman-flows/concepts/adding-authentication/',
           },
           {
@@ -623,11 +623,11 @@ export const leftNavItems = [
             url: '/docs/postman-flows/concepts/automatic-runs/',
           },
           {
-            name: 'Creating a form',
+            name: 'Create a form',
             url: '/docs/postman-flows/concepts/creating-a-form/',
           },
           {
-            name: 'Organizing a flow',
+            name: 'Organize a flow',
             url: '/docs/postman-flows/concepts/organizing-a-flow/',
           }
         ],
@@ -686,7 +686,7 @@ export const leftNavItems = [
             url: '/docs/postman-flows/reference/blocks-list/',
           },
           {
-            name: 'Working with date and time',
+            name: 'Work with date and time',
             url: '/docs/postman-flows/reference/working-with-date-and-time/',
           },
           {
@@ -694,7 +694,7 @@ export const leftNavItems = [
             url: '/docs/postman-flows/reference/finding-and-filtering-data/',
           },
           {
-            name: 'Visualizing data',
+            name: 'Visualize data',
             url: '/docs/postman-flows/reference/visualizing-data/',
           },
           {
@@ -713,19 +713,19 @@ export const leftNavItems = [
             url: '/docs/postman-flows/flows-query-language/introduction-to-fql/',
           },
           {
-            name: 'Getting basic values',
+            name: 'Get basic values',
             url: '/docs/postman-flows/flows-query-language/getting-basic-values/',
           },
           {
-            name: 'Selecting conditional data',
+            name: 'Select conditional data',
             url: '/docs/postman-flows/flows-query-language/conditional-data-selection/',
           },
           {
-            name: 'Returning structured data',
+            name: 'Return structured data',
             url: '/docs/postman-flows/flows-query-language/returning-structured-results/',
           },
           {
-            name: 'Manipulating data',
+            name: 'Manipulate data',
             url: '/docs/postman-flows/flows-query-language/data-manipulation/',
           },
           {

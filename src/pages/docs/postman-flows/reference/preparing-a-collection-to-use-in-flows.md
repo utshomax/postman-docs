@@ -1,5 +1,5 @@
 ---
-title: "Preparing a collection to use in Flows"
+title: "Prepare a collection to use in Flows"
 updated: 2023-08-08
 ---
 

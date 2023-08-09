@@ -1,5 +1,5 @@
 ---
-title: "Running requests in sequence"
+title: "Run requests in sequence"
 updated: 2022-07-15
 contextual_links:
   - type: section

@@ -1,5 +1,5 @@
 ---
-title: "Sending information from one system to another with Postman Flows"
+title: "Send information from one system to another with Postman Flows"
 updated: 2023-07-19
 contextual_links:
   - type: section

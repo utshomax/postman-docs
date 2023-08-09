@@ -1,5 +1,5 @@
 ---
-title: "Organizing a flow"
+title: "Organize a flow"
 updated: 2023-08-07
 ---
 

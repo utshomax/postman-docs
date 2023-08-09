@@ -1,5 +1,5 @@
 ---
-title: "Adding authentication"
+title: "Add authentication"
 updated: 2023-08-07
 ---
 

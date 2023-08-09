@@ -1,5 +1,5 @@
 ---
-title: "Passing information between blocks"
+title: "Pass information between blocks"
 updated: 2023-08-07
 ---
 

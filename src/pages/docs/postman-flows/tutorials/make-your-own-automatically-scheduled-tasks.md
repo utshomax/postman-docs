@@ -1,5 +1,5 @@
 ---
-title: "Creating a scheduled task with Postman Flows"
+title: "Create a scheduled task with Postman Flows"
 updated: 2023-08-07
 contextual_links:
   - type: section

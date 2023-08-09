@@ -1,5 +1,5 @@
 ---
-title: "Picking information you want"
+title: "Select information"
 updated: 2023-05-24
 ---
 

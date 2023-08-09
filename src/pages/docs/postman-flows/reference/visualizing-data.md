@@ -1,5 +1,5 @@
 ---
-title: "Visualizing data"
+title: "Visualize data in Postman Flows"
 updated: 2023-06-28
 contextual_links:
   - type: section
