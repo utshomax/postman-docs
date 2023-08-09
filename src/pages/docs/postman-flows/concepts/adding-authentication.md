@@ -8,7 +8,7 @@ updated: 2023-08-07
 * [Getting an API key](#getting-an-api-key)
 * [Using an API key](#using-an-api-key)
 
-Most APIs require some form of authentication. Authentication adds security to an API so only the intended users can access and update information. You can read more about the different types of authentication and how to use them [here](../../../sending-requests/authorization/authorization/).
+Most APIs have some form of authentication that's required to use them. Authentication adds security to an API so that only the intended users can access and update information. You can read more about the different types of authentication and how to use them [here](/docs/sending-requests/authorization/authorization/).
 
 ### Getting an API key
 
@@ -20,6 +20,6 @@ Selecting the link in the flow opens the page to get an API key. Enter any organ
 
 ### Using an API key
 
-In this example, the API key isn't particularly important to keep secure, so it can be pasted directly in the **api key** value in the **Send Request** block. Generally, it's a good idea to store the key securely as a secret value in a Postman [Environment](../../../sending-requests/managing-environments/) which can then be selected in the **Send Request** block.
+In this example, the API key isn't particularly important to keep secure, so it can be pasted directly in the **api key** value in the Send Request block. Generally, it's a good idea to store the key securely as a secret value in a Postman [Environment](/docs/sending-requests/managing-environments/) which can then be selected in the Send Request block.
 
 ![Using an API key](https://assets.postman.com/postman-labs-docs/concepts/using-api-key.gif)

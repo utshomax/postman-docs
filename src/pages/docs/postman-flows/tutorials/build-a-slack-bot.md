@@ -22,7 +22,7 @@ contextual_links:
 ## Prerequisites
 
 * A free [Slack](https://slack.com/) account.
-* Understand how webhooks work in flows from the [automatic runs overview](../../concepts/automatic-runs/).
+* Understand how webhooks work in flows from the [automatic runs overview](/docs/postman-flows/concepts/automatic-runs/).
 
 ## Contents
 
