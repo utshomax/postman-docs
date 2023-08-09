@@ -16,7 +16,7 @@ contextual_links:
 
 You can enhance the efficiency and productivity of an API workflow by incorporating task scheduling and automation. This can be accomplished by using monitors with Postman Flows. This tutorial shows how to create a monitor and a flow to get weather information for a specified ZIP Code and automatically share it on a Twitter account.
 
-You can see this tutorial's completed flow [here](https://postman.postman-beta.co/workspace/testing-features~e08a6ce3-3b63-4a67-9e38-3f910d42a4ca/flow/64cc406bfc627a00318636c0).
+You can see this tutorial's completed flow [here](https://www.postman.com/postman/workspace/utility-flows/flow/64d40655bf27ca003803286d).
 
 ## Contents
 
@@ -46,7 +46,7 @@ Create a monitor and a flow to get the high and low temperature forecasts for a 
 
 ## Creating the flow
 
-1. Begin by [forking](/docs/collaborating-in-postman/using-version-control/forking-entities/) (copying) the [Weather Application for Postman Flows](https://www.postman.com/postman/workspace/utility-flows/collection/23919558-5840d707-ec50-4739-bf61-291b1bbc0bf0?action=share&creator=21580188), the [**Twitter API v2** collection](https://www.postman.com/postman/workspace/utility-flows/collection/21580188-a3cb6477-6f61-451e-a2c2-e24fd44267f9?action=share&creator=21580188) and the [**Twitter API v2** environment](https://www.postman.com/postman/workspace/utility-flows/environment/21580188-a2d4586a-c79c-4f70-8cc0-05d22e417370) to your workspace.
+1. Begin by [forking](/docs/collaborating-in-postman/using-version-control/forking-entities/) (copying) the [Weather Application for Postman Flows Tutorial](https://www.postman.com/postman/workspace/utility-flows/collection/21580188-c9c70d3f-a736-4834-bd6e-8b04a1389012?action=share&creator=21580188), the [**Twitter API v2** collection](https://www.postman.com/postman/workspace/utility-flows/collection/21580188-a3cb6477-6f61-451e-a2c2-e24fd44267f9?action=share&creator=21580188) and the [**Twitter API v2** environment](https://www.postman.com/postman/workspace/utility-flows/environment/21580188-a2d4586a-c79c-4f70-8cc0-05d22e417370) to your workspace.
 
     * In your fork of the environment, add your [Twitter app's](https://developer.twitter.com/) key and secret values to their corresponding variables, and save the environment:
         * API (consumer) key
@@ -58,13 +58,13 @@ Create a monitor and a flow to get the high and low temperature forecasts for a 
     ![Add keys and secrets to the environment](https://assets.postman.com/postman-docs/v10/flows-tut-sched-environment-v10.jpg)
 
 1. Create a flow and add a **Send Request** block.
-    * In the **Send Request** block, select **Weather Application for Postman Flows > Get coordinates for zip code**.
+    * In the **Send Request** block, select **Weather Application for Postman Flows Tutorial > Get coordinates for zip code**.
     * Select the **Twitter API v2** environment.
     * Add a **String** block and enter a ZIP Code.
 
     <img src="https://assets.postman.com/postman-docs/v10/flows-tut-sched-zip-v10.gif" alt="Add a string block and enter a ZIP code" fetchpriority="low" loading="lazy" >
 
-1. Connect a second **Send Request** block to the first and select **Weather Application for Postman Flows > get current weather**. The block automatically selects the **Twitter API v2** environment.
+1. Connect a second **Send Request** block to the first and select **Weather Application for Postman Flows Tutorial > get current weather**. The block automatically selects the **Twitter API v2** environment.
     * Connect the first **Send Request** block’s **Success** output to each variable in the second **Send Request** block.
     * Add **Select** blocks to each variable and enter the following:
         * For the `lat` variable, enter `body.results.0.latitude`.
