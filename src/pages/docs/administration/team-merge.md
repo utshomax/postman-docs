@@ -64,15 +64,15 @@ You can carry out distributed migration with any type of Postman account.
 
 You can export your personal workspace and shared workspaces for any teams you have joined, or you can choose to export data from a specific workspace. See [exporting data](/docs/getting-started/importing-and-exporting/exporting-data/) for more information.
 
-If you have an individual account and aren't part of a team yet, but want to keep an independent workspace after joining one, see [Joining a team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team). When migrating company data to an authorized team, you can [export specific data](/docs/getting-started/importing-and-exporting/exporting-data/) or [export a dump of all data](/docs/getting-started/importing-and-exporting/exporting-data/#exporting-data-dumps).
+If you have an account and aren't part of a team yet, but want to keep an independent workspace after joining one, see [Joining a team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team). When migrating company data to an authorized team, you can [export specific data](/docs/getting-started/importing-and-exporting/exporting-data/) or [export a dump of all data](/docs/getting-started/importing-and-exporting/exporting-data/#exporting-data-dumps).
 
-If you have a personal account and want to deactivate it and join an authorized team, you can accept the team invite and choose to transfer your personal Postman data to your new team.
+If you have an account and want to deactivate it and join an authorized team, you can accept the team invite and choose to transfer your personal Postman data to your new team.
 
 Choose distributed migration if the following conditions apply:
 
 * Your organization has workspaces that have dedicated [Workspace Admins](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) with many collections.
     * Workspace Admins can export any relevant collections and environments into the new team workspace.
-* You are a single user and want to deactivate your existing account or move company data from your personal account to the authorized team.
+* You are a single user and want to deactivate your existing account or move company data from your account to the authorized team.
 
 > Recreating mocks, monitors, and documentation on the new team may be carried out by those who are responsible for maintaining it.
 
@@ -102,7 +102,7 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 2. Team members can [leave the previous team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#leaving-a-team) and [join your new team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team). They can then re-import Postman data into their respective team workspaces, creating new workspaces where necessary.
     > By default, the person who imports a collection or environment is automatically assigned the Editor role (learn more about [roles](/docs/collaborating-in-postman/roles-and-permissions/)). Everyone else on the team will be assigned as a Viewer.
 3. Once the last team member from your previous team has migrated to your new one, the original team will be deleted along with all of the data within it. You can then begin [collaborating](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) in your new team. To learn more about collaborating in Postman, watch [Working with your team in Postman](https://youtu.be/5lscUV-Exac).
-    > If you change your team email to a non-company domain email (for example, Gmail or Yahoo), your original team will continue indefinitely. You can keep a personal account with your current data and use a work email for a work account. Keeping both accounts in use can help when you migrate data.
+    > If you change your team email to a non-company domain email (for example, Gmail or Yahoo), your original team will continue indefinitely. You can keep an account with your current data and use a work email for a work account. Keeping both accounts in use can help when you migrate data.
     <!--  -->
     > Keep in mind items that will need to be recreated (such as monitors and mocks).
 
