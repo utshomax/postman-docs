@@ -3,7 +3,7 @@ title: "The Flows Interface"
 updated: 2023-07-13
 ---
 
-![Flows user interface](https://assets.postman.com/postman-labs-docs/getting-started/flows-ui.png)
+<img src="https://assets.postman.com/postman-labs-docs/getting-started/flows-ui.png" alt="Flows user interface" fetchpriority="low" loading="lazy" />
 
 ## The Postman Flows user interface
 

@@ -14,7 +14,7 @@ A flow is about making a request, and then doing something with the result of th
 
 Once data is selected, it can be used with other blocks. Sending it to an **Output** block is great for seeing that the request worked, but it doesn't actually do anything with the value.
 
-![Using selected data](https://assets.postman.com/postman-labs-docs/concepts/updated-using-selected-data.gif)
+<img src="https://assets.postman.com/postman-labs-docs/concepts/updated-using-selected-data.gif" alt="Using selected data" fetchpriority="low" loading="lazy" />
 
 Adding another **Send Request** block and then dragging a connection to its `value1` and `value2` variable inputs lets the request use the value for `eur` and `date` that was returned in the first request.
 
@@ -24,4 +24,4 @@ You may have noticed in the previous step that the **Send Request** block has a 
 
 This flow can be simplified to remove the extra **Select** block and instead use the existing ones in the second **Send Request** block.
 
-![Simplifying the flow](https://assets.postman.com/postman-labs-docs/concepts/updated-simplifying-the-flow.gif)
+<img src="https://assets.postman.com/postman-labs-docs/concepts/updated-simplifying-the-flow.gif" alt="Simplifying the flow" fetchpriority="low" loading="lazy" />
