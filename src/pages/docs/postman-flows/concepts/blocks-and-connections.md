@@ -22,7 +22,7 @@ There are three ways to add a new block:
 
 Any of these actions will open up the block list which you can select from and that block will be added to the flow.
 
-![Add a block](https://assets.postman.com/postman-labs-docs/concepts/updated-adding-a-block.gif)
+<img src="https://assets.postman.com/postman-labs-docs/concepts/updated-adding-a-block.gif" alt="Add a block" fetchpriority="low" loading="lazy" />
 
 When you open a new flow, the first block you'll see is the **Start** block.
 
@@ -40,4 +40,4 @@ These are suggestions to help you get started building a flow.
 
 Connections are how blocks interact with each other. Dragging a connection from the output of one block to the input of a another block can either cause the second block to run, or pass information to that block and then run it.
 
-![Add a connection](https://assets.postman.com/postman-labs-docs/concepts/updated-adding-a-connection.gif)
+<img src="https://assets.postman.com/postman-labs-docs/concepts/updated-adding-a-connection.gif" alt="Add a connection" fetchpriority="low" loading="lazy" />

@@ -15,13 +15,13 @@ When a flow is just a few blocks, it's easy for its creator to understand. Once 
 
 You can configure every block to be highlighted with one of the preset colors. This can make it easy to differentiate two of the same types of block that are doing different things right next to each other. You can add a color by selecting a block, the selecting the paint icon in the top-left corner that appears on the block.
 
-![Colors](https://assets.postman.com/postman-labs-docs/concepts/colors.gif)
+<img src="https://assets.postman.com/postman-labs-docs/concepts/colors.gif" alt="Colors" fetchpriority="low" loading="lazy" />
 
 ### Annotations
 
 When collaborating with other people or putting a flow in a public workspace, it's helpful to add directions directly on the canvas. This helps explain how to use the flow and what certain blocks are doing. Select the **Add Text** button in the toolbar to add an annotations. Selecting some text in an annotation brings up the text formatting menu which has bold, italics, and heading options. If you copy a link, then highlight some text and paste the link, the highlighted text becomes a hyperlink.
 
-![Annotations](https://assets.postman.com/postman-labs-docs/concepts/annotations.gif)
+<img src="https://assets.postman.com/postman-labs-docs/concepts/annotations.gif" alt="Annotations" fetchpriority="low" loading="lazy" />
 
 ### Grouping
 
@@ -29,4 +29,4 @@ Grouping allows any number of blocks and annotations to be grouped together. The
 
 You can access the grouping menu by either holding the Shift key and dragging the cursor around a set of blocks, or by pressing and holding **⌘** or **Ctrl** then selecting the blocks you want to add. Selecting the file icon will create a group.
 
-![Grouping](https://assets.postman.com/postman-labs-docs/concepts/grouping.gif)
+<img src="https://assets.postman.com/postman-labs-docs/concepts/grouping.gif" alt="Grouping" fetchpriority="low" loading="lazy" />

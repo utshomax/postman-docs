@@ -19,7 +19,7 @@ Collections and their requests are an integral part of Postman Flows. Most flows
 
 Once data is selected, it can be used with other blocks. Sending it to an **Output** block is great for seeing that the request worked, but it doesn't actually do anything with the value.
 
-![Using selected data](https://assets.postman.com/postman-labs-docs/concepts/using-selected-data.gif)
+<img src="https://assets.postman.com/postman-labs-docs/concepts/using-selected-data.gif" alt="Using selected data" fetchpriority="low" loading="lazy" />
 
 Adding another **Send Request** block and then dragging a connection to its `value` variable input will let the request use the value `var1` that was set in the first request.
 
@@ -29,4 +29,4 @@ You may have noticed in the earlier step that the **Send Request** block has a v
 
 This flow can be simplified to remove the extra **Select** and **Output** blocks (unless they were needed to troubleshoot the flow).
 
-![Simplifying the flow](https://assets.postman.com/postman-labs-docs/concepts/simplifying-the-flow.gif)
+<img src="https://assets.postman.com/postman-labs-docs/concepts/simplifying-the-flow.gif" alt="Simplifying the flow" fetchpriority="low" loading="lazy" />
