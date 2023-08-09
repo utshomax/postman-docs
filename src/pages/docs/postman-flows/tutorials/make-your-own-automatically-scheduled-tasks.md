@@ -14,7 +14,7 @@ contextual_links:
     url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
 ---
 
-You can enhance the efficiency and productivity of an API workflow by incorporating task scheduling and automation. This can be accomplished by using monitors with Postman Flows. This tutorial shows how to create a monitor and a flow to get weather information for a specified ZIP code and automatically share it on a Twitter account.
+You can enhance the efficiency and productivity of an API workflow by incorporating task scheduling and automation. This can be accomplished by using monitors with Postman Flows. This tutorial shows how to create a monitor and a flow to get weather information for a specified ZIP Code and automatically share it on a Twitter account.
 
 You can see this tutorial's completed flow [here](https://postman.postman-beta.co/workspace/testing-features~e08a6ce3-3b63-4a67-9e38-3f910d42a4ca/flow/64cc406bfc627a00318636c0).
 
@@ -42,7 +42,7 @@ Create a monitor and a flow to get the high and low temperature forecasts for a 
     * A client secret.
     * A Bearer token.
     * Set each variable's **Type** to `secret`.
-* A ZIP code.
+* A ZIP Code.
 
 ## Creating the flow
 
@@ -60,7 +60,7 @@ Create a monitor and a flow to get the high and low temperature forecasts for a 
 1. Create a flow and add a **Send Request** block.
     * In the **Send Request** block, select **Weather Application for Postman Flows > Get coordinates for zip code**.
     * Select the **Twitter API v2** environment.
-    * Add a **String** block and enter a ZIP code.
+    * Add a **String** block and enter a ZIP Code.
 
     <img src="https://assets.postman.com/postman-docs/v10/flows-tut-sched-zip-v10.gif" alt="Add a string block and enter a ZIP code" fetchpriority="low" loading="lazy" >
 
@@ -73,7 +73,7 @@ Create a monitor and a flow to get the high and low temperature forecasts for a 
 
     ![Get the current weather](https://assets.postman.com/postman-docs/v10/flows-tut-sched-get-weather-v10.jpg)
 
-1. Connect a **Template** block to the second **Send Request** block's **Success** output and enter `The weather in your ZIP code will include a high of {{high}} degrees and a low of {{low}} degrees.`
+1. Connect a **Template** block to the second **Send Request** block's **Success** output and enter `The weather in your ZIP Code will include a high of {{high}} degrees and a low of {{low}} degrees.`
     * Change `key` to `high` and enter the path `body.daily.temperature_2m_max.0`.
     * Connect the **Send Request** block’s **Success** output to the **Template** block’s **variable** input.
     * Change `value2` to `low` and enter the `body.daily.temperature_2m_min.0` path.
