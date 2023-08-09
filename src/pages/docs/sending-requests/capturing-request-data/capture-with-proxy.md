@@ -96,7 +96,7 @@ From the proxy session tab, you can take the following actions:
 
     > You can also capture cookies and sync them to Postman without starting a proxy session. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
 
-<img alt="Control a proxy session" src="https://assets.postman.com/postman-docs/v10/proxy-control-session-v10-17.jpg" />
+<img alt="Control a proxy session" src="https://assets.postman.com/postman-docs/v10/proxy-control-session-v10-17a.jpg" />
 
 ### Step 3: View the proxy session results
 
@@ -107,16 +107,16 @@ You can view and work with the proxy session results while the session is active
 * To rename the proxy session, select the name **Proxy debug session** and enter a new name.
 * Select the **Requests** tab to view information about incoming requests and responses, or select the **Cookies** tab to view information about captured cookies.
 * Use the search box to find specific requests or cookies.
-* Select **>** next to a request to view more details.
+* Select a request to view more details.
 * Select a request URL to open it as a new API request in Postman.
 * To delete a request or cookie, select it and select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete**.
 * To add a cookie to the Postman cookie jar, select it and select **+ Add to Cookie Jar**.
 
-<img alt="View proxy session results" src="https://assets.postman.com/postman-docs/v10/proxy-view-results-v10-17.jpg" />
+<img alt="View proxy session results" src="https://assets.postman.com/postman-docs/v10/proxy-view-results-v10-17a.jpg" />
 
 ### Step 4: Stop the proxy session
 
-When you're finished capturing traffic, select **Stop** to end the proxy session. You can view the proxy session again later by selecting **History** in the sidebar, then selecting the proxy session. You can also select <img alt="Past sessions icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> **View Past Sessions** on the proxy session tab.
+When you're finished capturing traffic, select **Stop** to end the proxy session. To view the proxy session again later, select **History** in the sidebar, then select the proxy session. You can also select <img alt="Past sessions icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> **View Past Sessions** on the proxy session tab.
 
 The **Overview** tab shows summary graphs of traffic captured in the proxy session. Use the dropdown menu to group requests by method, domain, content type, or status code. The header also displays the session start time, session size, duration, and source.
 
@@ -129,7 +129,7 @@ To save captured requests to a collection, do the following:
 1. Choose how to organize the requests in the collection. By default, requests are ordered chronologically. You can also select the checkboxes to group the requests in folders organized by **Domain name**, **Endpoints**, or both.
 1. Select **Save**.
 
-<img alt="Save captured requests to a collection" src="https://assets.postman.com/postman-docs/v10/proxy-create-collection-v10-17.jpg" />
+<img alt="Save captured requests to a collection" src="https://assets.postman.com/postman-docs/v10/proxy-create-collection-v10-17a.jpg" />
 
 ### Step 5: Configure the proxy on a client device
 

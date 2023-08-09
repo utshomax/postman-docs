@@ -44,7 +44,7 @@ To open the Interceptor extension, select the Interceptor icon in your browser's
 
 ### Installing Interceptor Bridge
 
-If you're running Postman on Windows or Linux, or if you're using Postman v10.16 or earlier, you need to install Interceptor Bridge before you can capture requests. If you're using Postman v10.17 or later on macOS, you can skip this step. To check which version of Postman you're using, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings > About**.
+If you're running Postman on Windows or Linux, or if you're using Postman v10.16 or earlier, you need to install Interceptor Bridge before you can capture requests and cookies. If you're using Postman v10.17 or later on macOS, you can skip this step. To check which version of Postman you're using, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings > About**.
 
 To install Interceptor Bridge, select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** in the Postman footer. Then select the **Via Interceptor** tab and select **Install Interceptor Bridge**.
 
@@ -74,13 +74,15 @@ Start an Interceptor session to capture traffic and cookies from your web browse
 
 1. When you're done capturing traffic, select **Stop Capture** to end the session.
 
-<img alt="Interceptor extension" src="https://assets.postman.com/postman-docs/v10/interceptor-extension-v10-17.jpg" width="462px" />
+<img alt="Interceptor extension" src="https://assets.postman.com/postman-docs/v10/interceptor-extension-v10-17a.jpg" width="462px" />
 
-> You can also use the Interceptor extension to automatically sync cookies from your browser to the Postman cookie jar. Open the Interceptor extension from your browser's toolbar and select the **Sync Cookies** tab. Enter the domains you want to sync cookies for and select **Sync Cookies**. For more information, see [Syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
+> You can also use the Interceptor extension to automatically sync cookies from your browser to the Postman cookie jar, without starting an Interceptor session. Open the Interceptor extension from your browser's toolbar and select the **Sync Cookies** tab. Enter the domains you want to sync cookies for and select **Sync Cookies**. For more information, see [Syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
 
 ### Viewing Interceptor results in Postman
 
-When you stop a session, Postman automatically opens the results in Postman. You can also select **View in Postman**<img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-external-link.jpg#icon" width="18px"> to open the session results in Postman. You can view the Interceptor session again later by selecting **History** in the sidebar, then selecting the Interceptor session.
+When you stop a session, Postman automatically opens the results in Postman. You can also select **View in Postman**<img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-external-link.jpg#icon" width="18px"> to open the session results in Postman.
+
+To view the Interceptor session again later, select **History** in the sidebar, then select the Interceptor session. You can also select <img alt="Past sessions icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> **View Past Sessions** on the Interceptor session tab.
 
 The **Overview** tab shows summary graphs of traffic captured in the Interceptor session. Use the dropdown menu to group requests by method, domain, or content type. The header also displays the session start time, session size, duration, and source.
 
@@ -89,12 +91,12 @@ You can work with the Interceptor session results in the following ways:
 * To rename the Interceptor session, select the name **Interceptor debug session** and enter a new name.
 * Select the **Requests** tab to view information about incoming requests and responses, or select the **Cookies** tab to view information about captured cookies.
 * Use the search box to find specific requests or cookies.
-* Select **>** next to a request to view more details.
+* Select a request to view more details.
 * Select a request URL to open it as a new API request in Postman.
 * To delete a request or cookie, select it and select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete**.
 * To add a cookie to the Postman cookie jar, select it and select **+ Add to Cookie Jar**.
 
-<img alt="Viewing Interceptor results" src="https://assets.postman.com/postman-docs/v10/interceptor-view-results-v10-17.jpg" />
+<img alt="Viewing Interceptor results" src="https://assets.postman.com/postman-docs/v10/interceptor-view-results-v10-17a.jpg" />
 
 ### Saving captured requests to a collection
 
@@ -102,9 +104,9 @@ You can save requests captured during an Interceptor session to a collection.
 
 1. Select **History** in the sidebar, then select the Interceptor session with the requests you want to save.
 1. Select the checkbox next to the requests you want to save, or select the checkbox in the column header to select all requests.
-1. Select **+ Add to collection**.
+1. Select **Create Collection**.
 1. Select the collection where you want to save the requests, or select **New collection** to create a new collection.
 1. Choose how to organize the requests in the collection. By default, requests are ordered chronologically. You can also select the checkboxes to group the requests in folders organized by **Domain name**, **Endpoints**, or both.
 1. Select **Save**.
 
-<img alt="Adding captured requests to a collection" src="https://assets.postman.com/postman-docs/v10/interceptor-add-to-collection-v10-17.jpg" />
+<img alt="Adding captured requests to a collection" src="https://assets.postman.com/postman-docs/v10/interceptor-add-to-collection-v10-17a.jpg" />
