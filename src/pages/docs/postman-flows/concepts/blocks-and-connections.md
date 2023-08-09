@@ -28,7 +28,7 @@ When you open a new flow, the first block you'll see is the **Start** block.
 
 The **Start** block has a single output. When you select the **Run** button, this block sends information through a connection to the next block, causing it to run.
 
-When a brand new flow is created, before you add any blocks, the start block has colored suggestions for things you can do:
+When you create a new flow, before you add any blocks, the start block has colored suggestions for things you can do:
 
 * Send a request: creates a send request block
 * Add blocks: opens the block menu
