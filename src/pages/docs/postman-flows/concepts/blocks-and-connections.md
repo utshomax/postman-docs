@@ -24,9 +24,9 @@ Any of these actions will open up the block list which you can select from and t
 
 ![Add a block](https://assets.postman.com/postman-labs-docs/concepts/updated-adding-a-block.gif)
 
-When you open a new flow, the first block you'll see if the **Start** block.
+When you open a new flow, the first block you'll see is the **Start** block.
 
-The **Start** block has a single output. When you press the **Run** button, this block sends information through a connection to the next block, causing it to run.
+The **Start** block has a single output. When you select the **Run** button, this block sends information through a connection to the next block, causing it to run.
 
 When a brand new flow is created, before you add any blocks, the start block has colored suggestions for things you can do:
 
