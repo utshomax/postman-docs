@@ -8,7 +8,7 @@ updated: 2023-08-07
 * [Getting an API key](#using-one-blocks-output-as-another-blocks-input)
 * [Using an API key](#blocks-inside-of-other-blocks)
 
-Most APIs that exist have some form of authentication that's required to use them. Authentication adds security to an API so that only the intended users can access and update information. You can read more about the different types of authentication and how to use them [here](../../../sending-requests/authorization/authorization/).
+Most APIs have some form of authentication that's required to use them. Authentication adds security to an API so that only the intended users can access and update information. You can read more about the different types of authentication and how to use them [here](../../../sending-requests/authorization/authorization/).
 
 ### Getting an API key
 

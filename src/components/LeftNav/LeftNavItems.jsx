@@ -619,7 +619,7 @@ export const leftNavItems = [
             url: '/docs/postman-flows/concepts/adding-authentication/',
           },
           {
-            name: 'Automatic Runs',
+            name: 'Automatic runs',
             url: '/docs/postman-flows/concepts/automatic-runs/',
           },
           {
@@ -650,11 +650,11 @@ export const leftNavItems = [
             url: '/docs/postman-flows/tutorials/build-a-slack-bot/',
           },
           {
-            name: 'Creating a dashboard in Flows',
+            name: 'Create a dashboard in Flows',
             url: '/docs/postman-flows/tutorials/creating-a-dashboard-in-flows/',
           },
           {
-            name: 'Automating repetitive tasks',
+            name: 'Automate repetitive tasks',
             url: '/docs/postman-flows/tutorials/automating-repetitive-tasks/',
           },
           {
@@ -674,11 +674,11 @@ export const leftNavItems = [
         slug: '/docs/postman-flows/reference/blocks-list/',
         subMenuItems2: [
           {
-            name: 'Preparing a collection to use in Flows',
+            name: 'Prepare a collection to use in Flows',
             url: '/docs/postman-flows/reference/preparing-a-collection-to-use-in-flows/',
           },
           {
-            name: 'Using different authorization types with Flows',
+            name: 'Use different authorization types with Flows',
             url: '/docs/postman-flows/reference/using-different-authorization-types-with-flows/',
           },
           {
@@ -690,7 +690,7 @@ export const leftNavItems = [
             url: '/docs/postman-flows/reference/working-with-date-and-time/',
           },
           {
-            name: 'Finding and filtering data',
+            name: 'Find and filter data',
             url: '/docs/postman-flows/reference/finding-and-filtering-data/',
           },
           {
