@@ -31,9 +31,9 @@ The **Start** block has a single output. When you select the **Run** button, thi
 
 When you create a new flow, before you add any blocks, the start block has colored suggestions for things you can do:
 
-* Send a request: creates a send request block
-* Add blocks: opens the block menu
-* Explorer templates: opens up a menu of pre-built flows to load and discover
+* Send a request: Creates a send request block.
+* Add blocks: Opens the block menu.
+* Explorer templates: Opens up a menu of prebuilt flows to load and discover.
 
 These are suggestions to help you get started building a flow.
 
