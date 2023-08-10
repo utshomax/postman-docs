@@ -14,9 +14,9 @@ Forms in Postman Flows enable you to seamlessly gather user input and integrate 
 
 ## Form components
 
-The **Form Editor** enables you to create and design your forms. It provides an intuitive interface for adding and configuring questions and managing user input.
+The _Form Editor_ enables you to create and design your forms. It provides an intuitive interface for adding and configuring questions and managing user input.
 
-In Forms, **questions** represent the input fields that users will interact with. Each question can have various question types, such as short answer, paragraph, checkboxes, multiple choice, or dropdown.
+In Forms, _questions_ represent the input fields that users will interact with. Each question can have various question types, such as short answer, paragraph, checkboxes, multiple choice, or dropdown.
 
 * Question Types
     * **Short answer** - Creates a single-line text box for users to provide concise responses.
