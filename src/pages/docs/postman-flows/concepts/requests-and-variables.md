@@ -10,7 +10,6 @@ To use any API, a _request_ must be made to either send, update, delete, or retu
 * [Requests](#requests)
 * [Variables](#variables)
 
-
 > To learn more about making your first request, check out the tutorial [here](../../../getting-started/sending-the-first-request/)
 
 ### Requests

@@ -4,6 +4,7 @@ updated: 2023-08-15
 ---
 
 When a flow is just a few blocks, it's easy for its creator to understand. Once flows become more then a few blocks and other users start working on them, it can become difficult to understand what all the moving parts are doing. That's where tools like colors, annotations, and grouping comes in.
+
 ## Contents
 
 * [Colors](#colors)
