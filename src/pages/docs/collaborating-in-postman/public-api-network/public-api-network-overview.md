@@ -45,3 +45,9 @@ You can use these best practices and tips to help your API's consumers get start
 * [Organizing your public workspace](/docs/collaborating-in-postman/public-api-network/organizing-your-workspace/)
 * [Sharing your public workspace](/docs/collaborating-in-postman/public-api-network/sharing-your-workspace/)
 * [Syncing APIs with your public workspace](/docs/collaborating-in-postman/public-api-network/sync-api-with-workspace/)
+
+## About verified teams in the Public API Network
+
+If your team is verified in Postman, a verified badge will display next to your team name in the Public API Network, including your [team profile](/docs/administration/team-settings/), your [public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/), and [Postman search results](/docs/getting-started/basics/navigating-postman/#search-postman).
+
+A verified badge means Postman has confirmed the team represents the authentic organization or group. Verified badges make it even easier for API consumers to find authentic and useful APIs that can be trusted.
