@@ -19,6 +19,8 @@ contextual_links:
     url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
 ---
 
+This tutorial shows you how to create a Slack bot in Postman Flows. The bot will enable you to use Slack commands to get stock quotes.
+
 ## Prerequisites
 
 * A free [Slack](https://slack.com/) account.

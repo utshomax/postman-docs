@@ -1,7 +1,9 @@
 ---
 title: "The Flows Interface"
-updated: 2023-07-13
+updated: 2023-08-15
 ---
+
+Postman flows has an easy-to-use interface to create your applications. This guide is a high-level overview of the Postman Flows interface.
 
 <img src="https://assets.postman.com/postman-labs-docs/getting-started/flows-ui.png" alt="Flows user interface" fetchpriority="low" loading="lazy" />
 
@@ -13,6 +15,8 @@ updated: 2023-07-13
 
 ### Blocks on the canvas
 
+The following blocks can be used to construct your application:
+
 * **(1) The Start block:** The first block found in every flow and the only one that can't be deleted. Applications (Forms and Webhooks) send their information through this block.
 * **(2) Other blocks:** One of the many types of other blocks that can be used in a flow. The list of blocks is [here](/docs/postman-flows/reference/blocks-list/).
 * **(3) Text annotations:** One of the ways to document a flow for other users or explain complex tasks being performed.
@@ -20,11 +24,15 @@ updated: 2023-07-13
 
 ### Building applications
 
-* **(5) Forms:** Create a form that runs a flow on user submission. Learn more about forms [here](link to forms).
+The following controls are used to build your application:
+
+* **(5) Forms:** Create a form that runs a flow on user submission. Learn more about forms [here](/docs/postman-flows/concepts/creating-a-form/).
 * **(6) Webhook-based applications:** Create a flow that either runs automatically on a schedule, or whenever a specified event happens. More information on webhooks and automatic runs can be found [here](/docs/postman-flows/concepts/automatic-runs/).
-* **(7) Console:** This is where you can find all API activity. This is useful for debugging flows and ensuring your flow is running with the expected information. A guide on debugging flows can be found [here](/docs/postman-flows/reference/debugging/)
+* **(7) Console:** This is where you can find all API activity. This is useful for debugging flows and ensuring your flow is running with the expected information. A guide on debugging flows can be found [here](/docs/postman-flows/reference/debugging/).
 
 ### Navigation
+
+Navigate the canvas with the following controls:
 
 * **(8) Toolbar**: Contains the Redo/Undo, Zoom, and Fit view buttons.
 * **(9) Run:** Runs the flow.
