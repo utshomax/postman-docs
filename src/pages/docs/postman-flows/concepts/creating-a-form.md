@@ -18,13 +18,14 @@ The _Form Editor_ enables you to create and design your forms. It provides an in
 
 In Forms, _questions_ represent the input fields that users will interact with. Each question can have various question types, such as short answer, paragraph, checkboxes, multiple choice, or dropdown.
 
-* Question Types
-    * **Short answer** - Creates a single-line text box for users to provide concise responses.
-    * **Paragraph** - Creates a multiple-line text box for users to enter longer text or descriptions.
-    * **Checkboxes** - Creates a list of options with checkboxes for users to select multiple choices.
-    * **Multiple choice** - Creates a list of options with radio buttons for users to select a single choice.
-    * **Dropdown** - Creates a dropdown list with options that users can select from.
-    * **Required** - Enables you to make certain questions mandatory, ensuring that users must provide responses before submitting the form.
+The following question types are supported:
+
+* **Short answer** - Creates a single-line text box for users to provide concise responses.
+* **Paragraph** - Creates a multiple-line text box for users to enter longer text or descriptions.
+* **Checkboxes** - Creates a list of options with checkboxes for users to select multiple choices.
+* **Multiple choice** - Creates a list of options with radio buttons for users to select a single choice.
+* **Dropdown** - Creates a dropdown list with options that users can select from.
+* **Required** - Enables you to make certain questions mandatory, ensuring that users must provide responses before submitting the form.
 
 ## Form workflow
 

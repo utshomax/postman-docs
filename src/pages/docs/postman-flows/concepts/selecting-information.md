@@ -1,14 +1,14 @@
 ---
-title: "Select information"
+title: "Select information with the Select block"
 updated: 2023-05-24
 ---
+
+API requests often return a lot of information. In many cases, when using the information to perform a task, only some values are used. This is where the **Select** block is useful for picking one value at a time to work with.
 
 ## Contents
 
 * [Selecting information using the Select block](#selecting-information-using-the-select-block)
 * [Using the results](#using-the-results)
-
-API requests often return a lot of information. In many cases, when using the information to perform a task, only some values are used. This is where the **Select** block is useful for picking one value at a time to work with.
 
 ## Selecting information using the Select block
 
