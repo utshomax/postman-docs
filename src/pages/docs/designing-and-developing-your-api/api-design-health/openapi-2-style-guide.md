@@ -24,6 +24,7 @@ You an use [Postman API Design Health](/docs/designing-and-developing-your-api/a
 * [Missing content type for the form parameter](#missing-content-type-for-the-form-parameter)
 * [Missing or invalid host information](#missing-or-invalid-host-information)
 * [Invalid example for the defined schema](#invalid-example-for-the-defined-schema)
+* [Invalid example for the defined schema in request and response bodies](#invalid-example-for-the-defined-schema-in-request-and-response-bodies)
 
 ## Expected a 204 response to not have a response body
 
@@ -109,7 +110,7 @@ paths:
 
 | Issue description | Fix |
 | ----------- | ----------- |
-| One or more PATCH [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operation-object) in your OpenAPI document or API definition don't have a request body. Since PATCH operations are used to make partial updates, a PATCH method needs to include a request body. | TBD |
+| One or more PATCH [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operation-object) in your OpenAPI document or API definition don't have a [body parameter object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#parameter-object). Since PATCH operations are used to make partial updates, a PATCH method needs to include a request body. | TBD |
 
 ### Resolution
 
@@ -132,7 +133,7 @@ paths:
 
 | Issue description | Fix |
 | ----------- | ----------- |
-| One or more POST [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operation-object) in your OpenAPI document or API definition don't have a request body. Even though the HTTP protocol permits POST requests without a body, this often hides a design problem. | TBD |
+| One or more POST [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operation-object) in your OpenAPI document or API definition don't have a [body parameter object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#parameter-object). Even though the HTTP protocol permits POST requests without a body, this often hides a design problem. | TBD |
 
 ### Resolution
 
@@ -155,7 +156,7 @@ paths:
 
 | Issue description | Fix |
 | ----------- | ----------- |
-| One or more PUT [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operation-object) in your OpenAPI document or API definition don't have a request body. Since a PUT operation is often used to replace or create something, not having a request body might be an error. However, this use might make sense in some cases (for example, to link two resources with a PUT, like `/resource-ones/id1/other-resources/id2`). | TBD |
+| One or more PUT [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operation-object) in your OpenAPI document or API definition don't have a [body parameter object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#parameter-object). Since a PUT operation is often used to replace or create something, not having a request body might be an error. However, this use might make sense in some cases (for example, to link two resources with a PUT, like `/resource-ones/id1/other-resources/id2`). | TBD |
 
 ### Resolution
 
@@ -203,7 +204,7 @@ paths:
 
 | Issue description | Fix |
 | ----------- | ----------- |
-| One or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#response-object) in your OpenAPI document or API definition don't have an [example object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#example-object), showing a response example for a [mime type](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#mime-types). It's important to provide an example of the response to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/creating-the-first-collection/). | TBD |
+| One or more [responses objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#response-object) in your OpenAPI document or API definition don't have an [example object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#example-object). It's important to provide an example of the response to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/creating-the-first-collection/). | TBD |
 
 ### Resolution
 
@@ -284,7 +285,42 @@ host: https://my.host.example.com/
 
 | Issue description | Fix |
 | ----------- | ----------- |
-| The examples for one or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#responses-object) don't match the [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schema-object) in your OpenAPI document or API definition. It's important to provide examples that match the schema to help your API's consumers understand the response. | TBD |
+| One or more examples in the [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schema-object) don't match the defined schema in your OpenAPI document or API definition. It's important to provide examples that match the schema to help your API's consumers understand the request and response. | TBD |
+
+### Resolution
+
+```json
+swagger: '2.0'
+# ...
+paths:
+  /resources:
+    get:
+      responses:
+        '200':
+          description: A success response
+          content:
+            'application/json':
+              schema:
+                $ref: '#/components/schemas/User'
+              example:
+                id: 10
+                name: John Doe
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+```
+
+## Invalid example for the defined schema in request and response bodies
+
+| Issue description | Fix |
+| ----------- | ----------- |
+| One or more examples in the [body parameter object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#parameter-object) or [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#responses-object) don't match the [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schema-object) in your OpenAPI document or API definition. It's important to provide examples that match the schema to help your API's consumers understand the request and response. | TBD |
 
 ### Resolution
 

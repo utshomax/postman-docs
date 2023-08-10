@@ -23,6 +23,7 @@ You an use [Postman API Design Health](/docs/designing-and-developing-your-api/a
 * [Missing summary in the operation](#missing-summary-in-the-operation)
 * [Missing or invalid servers information](#missing-or-invalid-servers-information)
 * [Invalid example for the defined schema](#invalid-example-for-the-defined-schema)
+* [Invalid example for the defined schema in request and response bodies](#invalid-example-for-the-defined-schema-in-request-and-response-bodies)
 
 ## Expected a 204 response to not have a response body
 
@@ -220,7 +221,7 @@ paths:
 
 | Issue description | Fix |
 | ----------- | ----------- |
-| One or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) in your OpenAPI document or API definition don't have an example in a [media type object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#media-type-object). It's important to provide undocumented examples (using the `example` field) or documented examples (using the `examples` field) to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/creating-the-first-collection/). | Adds an `example` field to a media type object in a request body object. Make sure to add your own example key-value pair to describe the content of the request. |
+| One or more [responses objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) in your OpenAPI document or API definition don't have an example in a [media type object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#media-type-object). It's important to provide undocumented examples (using the `example` field) or documented examples (using the `examples` field) to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/creating-the-first-collection/). | Adds an `example` field to a media type object in a request body object. Make sure to add your own example key-value pair to describe the content of the request. |
 
 ### Resolution
 
@@ -284,7 +285,42 @@ servers:
 
 | Issue description | Fix |
 | ----------- | ----------- |
-| The examples for one or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) don't match the [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schema-object) in your OpenAPI document or API definition. It's important to provide examples that match the schema to help your API's consumers understand the response. | TBD |
+| One or more examples in the [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schema-object) don't match the defined schema in your OpenAPI document or API definition. It's important to provide examples that match the schema to help your API's consumers understand the request and response. | TBD |
+
+### Resolution
+
+```json
+openapi: '3.1.0'
+# ...
+paths:
+  /resources:
+    get:
+      responses:
+        '200':
+          description: A success response
+          content:
+            'application/json':
+              schema:
+                $ref: '#/components/schemas/User'
+              example:
+                id: 10
+                name: John Doe
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+```
+
+## Invalid example for the defined schema in request and response bodies
+
+| Issue description | Fix |
+| ----------- | ----------- |
+| One or more examples in the [media type object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#media-type-object) in the [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#request-body-object) or [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) don't match the [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schema-object) in your OpenAPI document or API definition. It's important to provide examples that match the schema to help your API's consumers understand the request and response. | TBD |
 
 ### Resolution
 
