@@ -1,14 +1,15 @@
 ---
 title: "Blocks and connections"
-updated: 2023-08-02
+updated: 2023-08-15
 ---
+
+All flows are made up of **blocks** and **connections**. Blocks can create information, make a decision, or perform an action. Blocks work together using connections, which enable multiple blocks to do a task together.
 
 ## Contents
 
 * [Blocks](#blocks)
 * [Connections](#connections)
 
-All flows are made up of **blocks** and **connections**. Blocks can create information, make a decision, or perform an action. Blocks work together using connections, which enable multiple blocks to do a task together.
 
 ### Blocks
 
