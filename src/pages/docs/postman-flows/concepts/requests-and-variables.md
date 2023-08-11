@@ -3,14 +3,14 @@ title: "Requests and variables"
 updated: 2023-08-15
 ---
 
-To use any API, a _request_ must be made to either send, update, delete, or return information. When making a request, the information is often different every time it's run. Because of this, _variables_ are used to interact with the requests in places where the data being sent or received changes.
+To use an API, a _request_ must be made to either send, update, delete, or return information. When making a request, the information is often different every time it's run. Because of this, _variables_ are used to interact with the requests in places where the data being sent or received changes.
 
 ## Contents
 
 * [Requests](#requests)
 * [Variables](#variables)
 
-> To learn more about making your first request, check out the tutorial [here](../../../getting-started/sending-the-first-request/)
+> To learn more about making your first request, check out the tutorial [here](../../../getting-started/sending-the-first-request/).
 
 ### Requests
 
@@ -24,7 +24,7 @@ This example uses [Postman's echo service API](https://www.postman.com/postman/w
 
 ### Variables
 
-**Variables** are values that can change from one request to another. These can be things like IDs, usernames, and numbers.
+_Variables_ are values that can change from one request to another. These can be things like IDs, usernames, and numbers.
 
 The variables part of the **Send Request** block opens automatically and enables you to enter values.
 

@@ -1,14 +1,14 @@
 ---
 title: "Pass information between blocks"
-updated: 2023-08-07
+updated: 2023-08-15
 ---
+
+A typical flow often involves making a request, and then doing something with the result of that request. To do this, flows pass information between blocks to perform tasks.
 
 ## Contents
 
 * [Using one block's output as another block's input](#using-one-blocks-output-as-another-blocks-input)
 * [Blocks inside of other blocks](#blocks-inside-of-other-blocks)
-
-A flow is about making a request, and then doing something with the result of that request. In order to do this, flows pass information between blocks to perform tasks.
 
 ### Using one block's output as another block's input
 

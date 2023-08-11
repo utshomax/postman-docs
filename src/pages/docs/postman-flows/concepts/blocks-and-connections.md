@@ -3,7 +3,7 @@ title: "Blocks and connections"
 updated: 2023-08-15
 ---
 
-All flows are made up of **blocks** and **connections**. Blocks can create information, make a decision, or perform an action. Blocks work together using connections, which enable multiple blocks to do a task together.
+All flows are made up of _blocks_ and _connections_. Blocks can create information, make a decision, or perform an action. Blocks work together using connections, which enable multiple blocks to do a task together.
 
 ## Contents
 
@@ -12,7 +12,7 @@ All flows are made up of **blocks** and **connections**. Blocks can create infor
 
 ### Blocks
 
-All blocks have either an input, an output, or both. Inputs are on the left side of a block, and outputs are on the right. The [list of all blocks](/docs/postman-flows/reference/blocks-list/) has an explanation and example for every block in Postman Flows.
+All blocks have an input, an output, or both. Inputs are on the left side of a block, and outputs are on the right. The [list of all blocks](/docs/postman-flows/reference/blocks-list/) has an explanation and example for every block in Postman Flows.
 
 There are three ways to add a new block:
 
