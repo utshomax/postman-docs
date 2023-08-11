@@ -16,9 +16,9 @@ All blocks have an input, an output, or both. Inputs are on the left side of a b
 
 There are three ways to add a new block:
 
-* Right-clicking anywhere in the flow
-* Selecting the **+ Block** button on the toolbar
-* Dragging a connection from the output of another block
+* Right-clicking anywhere in the flow.
+* Selecting the **+ Block** button on the toolbar.
+* Dragging a connection from the output of another block.
 
 Any of these actions will open up the block list which you can select from and that block will be added to the flow.
 
