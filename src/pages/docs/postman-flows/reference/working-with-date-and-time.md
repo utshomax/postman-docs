@@ -8,7 +8,7 @@ Many APIs have different formats they expect for date and time. Flows has many b
 ## Contents
 
 * [How date and time is stored in Flows](#how-date-and-time-is-stored-in-flows)
-* [Use FQL for standard formats](#use-fql-for-standard-formats)
+* [Use FQL for standard formats](#use-fql-for-different-formats)
 
 ### How date and time is stored in Flows
 
