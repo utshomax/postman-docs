@@ -57,7 +57,7 @@ Create a flow that quantifies a stock's performance by comparing it to a market 
 
 1. Connect an **Evaluate** block to the first **Send Request** block. Change `value` to `benchmark` and select `body`.
 
-    * In the FQL window, enter `((benchmark.close - benchmark.open) / benchmark.open) * 100`. This will get a percentage of the difference between the VOO index's open and close price.
+    * In the FQL window, enter `((benchmark.close - benchmark.open) / benchmark.open) * 100`. This will get a percentage of the difference between the `VOO` index's open and close price.
 
     * Connect another **Evaluate** block to the **Evaluate** block you created. In the FQL window, enter `value2 > value1`. You'll add `value2` in a later step.
 
