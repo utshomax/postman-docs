@@ -698,7 +698,7 @@ export const leftNavItems = [
             url: '/docs/postman-flows/reference/visualizing-data/',
           },
           {
-            name: 'Debugging',
+            name: 'Debug Flows',
             url: '/docs/postman-flows/reference/debugging/',
           },
         ]
