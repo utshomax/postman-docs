@@ -1,9 +1,9 @@
 ---
 title: "Debug Flows"
-updated: 2023-08-10
+updated: 2023-08-15
 ---
 
-When building applications with any language (Flows included), sometimes things don't always work as expected. **Debugging** is the process of finding the source of the discrepincy between what the flow is doing, and what is expected. Fortunately, Flows has several built-in tools to help with debugging.
+When building applications with any language (Flows included), sometimes things don't always work as expected. _Debugging_ is the process of finding the source of the discrepancy between what the flow is doing, and what is expected. Fortunately, Flows has several built-in tools to help with debugging.
 
 ## Contents
 
