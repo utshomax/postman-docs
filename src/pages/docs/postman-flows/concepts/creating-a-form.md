@@ -37,9 +37,9 @@ You can name your form, add a description, and add questions by selecting the mo
 
 You can rename, duplicate, or delete questions as needed. You also have the flexibility to reorder questions to enhance the user experience.
 
-Once your form is ready, select **Preview** to view the form for testing.
+Once your form is ready, select **Preview** to view the form for testing. Select **Publish** to make the firm live.
 
-When published, the form generates a **shareable link** that you can copy and distribute, allowing users to access and interact with the form.
+When published, the form generates a **shareable link** that you can copy and distribute, enabling users to access and interact with the form.
 
 You can view the published version of the form by selecting **View published version**, which shows the form as it appears to users.
 
