@@ -1,6 +1,6 @@
 ---
 title: "Run requests in sequence"
-updated: 2022-07-15
+updated: 2023-08-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -34,7 +34,7 @@ If you have several requests that have no dependency on each other but have to b
 
 1. **Connect the send events**
 
-   Select the dot (success output) of the source block and connect it to the send input of the target block in the order you want the requests to execute.
+   Select the port (success output) of the source block and connect it to the send input of the target block in the order you want the requests to execute.
 
    <img src="https://assets.postman.com/postman-docs/v10/flows-select-requests-v10-1.gif" alt="Select requests" fetchpriority="low" loading="lazy" />
 

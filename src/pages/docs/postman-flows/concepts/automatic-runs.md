@@ -20,7 +20,7 @@ When a flow is deployed to the cloud, the flow can be run each time it receives 
 
 ### Testing locally
 
-Every flow starts with the **Start** block. When you want to create a flow to run on the cloud, you'll want to test it locally. You can enter information into the **Start** block by selecting the **Start** block then selecting the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the right sidebar. This information can either be in text or JSON format. Typically, you'll want to put an example of what an actual webhook will be from the API you're working with. Many APIs include a sample of what their webhook information will look like, but if the API you're working with doesn't you can make one yourself by following the steps in the [Trigger the webhook](#trigger-the-webhook) step.
+Every flow begins with the **Start** block. When you want to create a flow to run on the cloud, you'll want to test it locally. You can enter information into the **Start** block by selecting the **Start** block then selecting the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the right sidebar. This information can either be in text or JSON format. Typically, you'll want to put an example of what an actual webhook will be from the API you're working with. Many APIs include a sample of what their webhook information will look like, but if the API you're working with doesn't you can make one yourself by following the steps in the [Trigger the webhook](#trigger-the-webhook) step.
 
 ![Testing Locally](https://assets.postman.com/postman-docs/v10/running-flows-on-the-cloud-test-data-v10-1.gif)
 
