@@ -674,16 +674,12 @@ export const leftNavItems = [
         slug: '/docs/postman-flows/reference/blocks-list/',
         subMenuItems2: [
           {
-            name: 'Prepare a collection to use in Flows',
-            url: '/docs/postman-flows/reference/preparing-a-collection-to-use-in-flows/',
-          },
-          {
-            name: 'Use different authorization types with Flows',
-            url: '/docs/postman-flows/reference/using-different-authorization-types-with-flows/',
-          },
-          {
             name: 'Postman Flows blocks',
             url: '/docs/postman-flows/reference/blocks-list/',
+          },
+          {
+            name: 'Prepare a collection to use in Flows',
+            url: '/docs/postman-flows/reference/preparing-a-collection-to-use-in-flows/',
           },
           {
             name: 'Work with date and time',

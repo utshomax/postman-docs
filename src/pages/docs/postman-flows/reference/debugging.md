@@ -8,9 +8,9 @@ When building applications with any language (Flows included), sometimes things 
 ## Contents
 
 * [Success and failure ports in Send Request blocks](#success-and-failure-ports-in-send-request-blocks)
-* [The output block](#adding-variables-to-requests)
-* [The console](#adding-variables-to-requests)
-* [General tips](#adding-variables-to-requests)
+* [The output block](#the-output-block)
+* [The console](#the-console)
+* [General tips](#general-tips)
 
 ### Success and failure ports in Send Request blocks
 
