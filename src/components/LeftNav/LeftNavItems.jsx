@@ -678,10 +678,6 @@ export const leftNavItems = [
             url: '/docs/postman-flows/reference/blocks-list/',
           },
           {
-            name: 'Prepare a collection to use in Flows',
-            url: '/docs/postman-flows/reference/preparing-a-collection-to-use-in-flows/',
-          },
-          {
             name: 'Work with date and time',
             url: '/docs/postman-flows/reference/working-with-date-and-time/',
           },

@@ -72,7 +72,7 @@ To get started using Postman Flows in a Professional plan, assign the Flow Edito
 To get started, check out the following resources:
 
 * [Navigating a flow and the flows interface](/docs/postman-flows/gs/the-flows-interface/)
-* [Flows concepts](/docs/postman-flows/concepts/blocks-and-connections/)
+* [First flows concept: blocks and connections](/docs/postman-flows/concepts/blocks-and-connections/)
 * [Flows Snippets: examples for how to use every block](https://www.postman.com/postman/workspace/flows-snippets/)
 
 ## Contribute
