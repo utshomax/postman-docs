@@ -306,6 +306,10 @@ export const leftNavItems = [
             url: '/docs/sending-requests/capturing-request-data/capture-overview/',
           },
           {
+            name: 'Capturing requests with the Postman proxy',
+            url: '/docs/sending-requests/capturing-request-data/capture-with-proxy/',
+          },
+          {
             name: 'Capturing HTTP requests',
             url: '/docs/sending-requests/capturing-request-data/capturing-http-requests/',
           },
@@ -771,6 +775,10 @@ export const leftNavItems = [
           {
             name: 'Requesting to add to the Private API Network',
             url: '/docs/collaborating-in-postman/private-api-network/private-network-requests/'
+          },
+          {
+            name: 'Publishing Private API Network elements with the Postman API',
+            url: '/docs/collaborating-in-postman/private-api-network/publish-private-network-elements-with-api/'
           },
         ],
       },

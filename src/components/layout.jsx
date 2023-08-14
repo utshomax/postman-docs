@@ -8,7 +8,6 @@
 import React from 'react';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
-import marketo from '../../build/marketo.munchkin';
 import '../../styles/config/normalize.css';
 import GlobalStyle  from '../../styles/globalStyle';
 import Theme from '../../styles/theme.jsx';
@@ -93,7 +92,6 @@ class Layout extends React.Component {
           <Header />
           {children}
           <Footer />
-          {marketo()}
         </Theme>
         </main>
       </>
