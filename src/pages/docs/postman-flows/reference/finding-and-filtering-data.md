@@ -14,13 +14,13 @@ Frequently, the need arises to check if information in a flow has a certain valu
 
 ### Contains
 
-[contains](../../flows-query-language/function-reference/#contains) is the most straightforward way to check if some quoted information contains a word or pattern (regex). Since contains will return either true or false, it is frequently used with an If block. The below example illustrates how information is only passed through the If block should the input contain the expected value.
+[contains](../../flows-query-language/function-reference/#contains) is the most straightforward way to check if some quoted information contains a word or pattern (regex). Since `contains` returns either true or false, it's often used with an **If** block. The example below illustrates how information is only passed through the **If** block when the input contains the expected value.
 
 <img src="https://assets.postman.com/postman-labs-docs/concepts/contains-example.png" alt="Contains example" fetchpriority="low" loading="lazy" />
 
 ### Filter
 
-[filter](../../flows-query-language/function-reference/#filter) is for when there is a list of element but only some are needed for the next block of the flow. To use filter, the function looks like `$filter(list name,fn($v,$i,$a) { filter condition })` where `$v` is the values in the list, `$i` is the index (zeroth item, first item, second item, etc.), and `$a` is the entire list. Generally `$v` is the important value for filtering and the only one actually required to be used. In the example below, there is a list of companies, but only enabled companies are needed for the rest of the flow.
+[filter](../../flows-query-language/function-reference/#filter) is for when there is a list of elements but only some are needed for the next block of the flow. To use `filter`, the function looks like `$filter(list name,fn($v,$i,$a) { filter condition })` where `$v` is the values in the list, `$i` is the index (zeroth item, first item, second item, and so on), and `$a` is the entire list. Generally `$v` is the important value for filtering and the only one actually required to be used. In the example below, there is a list of companies, but only enabled companies are needed for the rest of the flow.
 
 <img src="https://assets.postman.com/postman-labs-docs/concepts/filter-example.png" alt="Filter example" fetchpriority="low" loading="lazy" />
 
