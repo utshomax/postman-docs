@@ -39,7 +39,7 @@ Create a flow that receives a user-provided email address, then finds and update
 
 ## Creating the flow
 <!-- TODO: Recreate this collection and environment in a public flows workspace, then replace the beta links below with public links. -->
-1. Fork the [**Airtable**](https://postman.postman-beta.co/workspace/testing-features~e08a6ce3-3b63-4a67-9e38-3f910d42a4ca/collection/917058-ebc81195-63a9-4906-b1ef-5bcf8a6eeee1?action=share&creator=901427) collection and [**Event Registration**](https://postman.postman-beta.co/workspace/testing-features~e08a6ce3-3b63-4a67-9e38-3f910d42a4ca/environment/917058-66036e4e-8d69-41aa-8c8c-a6fb37648f6a?action=share&creator=901427) environment.
+1. Fork the [**Airtable**](https://www.postman.com/postman/workspace/business-flows/collection/23919558-fd56b231-e21e-41d2-8ae8-a91ba06a0f51?action=share&creator=23919558) collection and [**Event Registration**](https://www.postman.com/postman/workspace/business-flows/environment/23919558-bb6df2bb-045c-47a2-beb2-a92570aaf6fd?action=share&creator=23919558) environment.
     * In your fork of the **Event Registration** environment:
         * Replace `your token here` with your Airtable personal access token and set the **Type** to **secret**.
         * Replace `table id here` with your table’s [id](https://support.airtable.com/docs/finding-airtable-record-ids).

@@ -34,10 +34,10 @@ In the **Runs** section, select **View Deployed** to observe the flow running in
 >
 > Every time you deploy, it saves your collections and environments. If you make any changes to these, you will need to deploy again.
 
-![Deploy to cloud](https://assets.postman.com/postman-docs/v10/deploy-flow-to-cloud-v10-1.gif)
+![Deploy to cloud](https://assets.postman.com/postman-labs-docs/concepts/updated-deploy-a-flow.gif)
 
 ### Trigger the webhook
 
 Often when working with webhooks, there will be another service that will send the webhook to the flow you deployed. The **Webhook URL** shown in the right panel is the URL that you can provide the other system or service with that tells it where to send notifications to. Once that's set up, you can view the live logs and see what the notification from the other service looks like to use as your test data. Flows can also be manually run by making a POST request to the **Webhook URL**.
 
-![Trigger the Endpoint](https://assets.postman.com/postman-docs/v10/trigger-flow-in-cloud-v10-1.gif)
+![Trigger the Endpoint](https://assets.postman.com/postman-labs-docs/concepts/updated-triggering-a-webhook.gif)
