@@ -34,7 +34,7 @@ In the **Runs** section, select **View Deployed** to observe the flow running in
 >
 > Every time you deploy, it saves your collections and environments. If you make any changes to these, you will need to deploy again.
 
-![Deploy to cloud](https://assets.postman.com/postman-labs-docs/concepts/updated-deploy-a-flow.gif)
+<img alt="Deploy to cloud" src="https://assets.postman.com/postman-labs-docs/concepts/updated-deploy-a-flow.gif" fetchpriority="low" loading="lazy" />
 
 ### Trigger the webhook
 

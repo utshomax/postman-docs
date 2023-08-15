@@ -662,7 +662,7 @@ export const leftNavItems = [
             url: '/docs/postman-flows/tutorials/automating-repetitive-tasks/',
           },
           {
-            name: 'Process information and then update the same system',
+            name: 'Update a database with Postman Flows',
             url: '/docs/postman-flows/tutorials/process-information-and-then-update-the-same-system/',
           },
           {
