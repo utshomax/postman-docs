@@ -668,8 +668,11 @@ export const leftNavItems = [
           {
             name: 'Make your own automatically scheduled tasks',
             url: '/docs/postman-flows/tutorials/make-your-own-automatically-scheduled-tasks/',
-          }
-
+          },
+          {
+            name: 'Run requests in sequence',
+            url: '/docs/postman-flows/tutorials/running-requests-in-sequence/',
+          },
         ],
       },
       {
