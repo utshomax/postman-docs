@@ -1,5 +1,5 @@
 ---
-title: 'Deploying to an Amazon API Gateway'
+title: "Deploying to an Amazon API Gateway"
 updated: 2022-09-15
 contextual_links:
   - type: section

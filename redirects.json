@@ -2025,11 +2025,19 @@
   },
   {
     "from": "/docs/postman-flows/flows-intro/the-interface/",
-    "to": "/docs/postman-flows/gs/the-interface/"
+    "to": "/docs/postman-flows/gs/the-flows-interface/"
+  },
+  {
+    "from": "/docs/postman-flows/gs/the-interface/",
+    "to": "/docs/postman-flows/gs/the-flows-interface/"
   },
   {
     "from": "/docs/postman-flows/flows-intro/building-your-first-flow/",
-    "to": "/docs/postman-flows/tutorials/building-your-first-flow/"
+    "to": "/docs/postman-flows/tutorials/flows-tutorials-overview/"
+  },
+  {
+    "from": "/docs/postman-flows/tutorials/building-your-first-flow/",
+    "to": "/docs/postman-flows/tutorials/flows-tutorials-overview/"
   },
   {
     "from": "/docs/postman-flows/flows-intro/running-requests-in-sequence/",
@@ -2037,11 +2045,15 @@
   },
   {
     "from": "/docs/postman-flows/flows-intro/passing-data-between-blocks/",
-    "to": "/docs/postman-flows/tutorials/passing-data-between-blocks/"
+    "to": "/docs/postman-flows/tutorials/send-information-from-one-system-to-another/"
+  },
+  {
+    "from": "/docs/postman-flows/tutorials/passing-data-between-blocks/",
+    "to": "/docs/postman-flows/tutorials/send-information-from-one-system-to-another/"
   },
   {
     "from": "/docs/postman-flows/flows-intro/using-auth-with-flows/",
-    "to": "/docs/postman-flows/tutorials/using-auth-with-flows/"
+    "to": "/docs/postman-flows/concepts/adding-authentication/"
   },
   {
     "from": "/docs/postman-flows/core-concepts/blocks/",
@@ -2061,7 +2073,7 @@
   },
   {
     "from": "/docs/postman-flows/running-flows-on-the-cloud/webhooks/",
-    "to": "/docs/postman-flows/tutorials/webhooks/"
+    "to": "/docs/postman-flows/concepts/automatic-runs/"
   },
   {
     "from": "/docs/getting-started/introduction/",
@@ -2270,5 +2282,29 @@
   {
     "from": "/docs/getting-started/proxy/",
     "to": "/docs/getting-started/installation/proxy/"
+  },
+  {
+    "from": "/docs/postman-flows/gs/blocks-information/",
+    "to": "/docs/postman-flows/reference/blocks-list/"
+  },
+  {
+    "from": "/docs/postman-flows/reference/data-types/",
+    "to": "/docs/postman-flows/reference/blocks-list/"
+  },
+  {
+    "from": "/docs/postman-flows/tutorials/top-level-array/",
+    "to": "/docs/postman-flows/tutorials/flows-tutorials-overview/"
+  },
+  {
+    "from": "/docs/postman-flows/tutorials/using-auth-with-flows/",
+    "to": "/docs/postman-flows/tutorials/concepts/adding-authentication/"
+  },
+  {
+    "from": "/docs/postman-flows/tutorials/using-response-data-in-a-request",
+    "to": "/docs/postman-flows/tutorials/flows-tutorials-overview/"
+  },
+  {
+    "from": "/docs/postman-flows/tutorials/webhooks/",
+    "to": "/docs/postman-flows/concepts/automatic-runs/"
   }
 ]

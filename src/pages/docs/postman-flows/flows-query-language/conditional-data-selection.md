@@ -1,5 +1,5 @@
 ---
-title: "Selecting conditional data"
+title: "Select conditional data"
 updated: 2023-03-29
 contextual_links:
   - type: section
