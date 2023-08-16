@@ -510,7 +510,7 @@ export const leftNavItems = [
         url: '/docs/collections/testing-api-performance/',
       },
       {
-        name: "Using Live Collections",
+        name: 'Using Live Collections',
         subParentSlug: 'live-collections',
         slug: '/docs/collections/live-collections/live-collections-overview/',
         subMenuItems2: [
@@ -668,8 +668,11 @@ export const leftNavItems = [
           {
             name: 'Make your own automatically scheduled tasks',
             url: '/docs/postman-flows/tutorials/make-your-own-automatically-scheduled-tasks/',
-          }
-
+          },
+          {
+            name: 'Run requests in sequence',
+            url: '/docs/postman-flows/tutorials/running-requests-in-sequence/',
+          },
         ],
       },
       {
@@ -1346,8 +1349,8 @@ export const leftNavItems = [
             url: '/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/',
           },
           {
-            name: `Configuring SCIM with OneLogin`,
-            url: `/docs/administration/scim-provisioning/configuring-scim-with-onelogin/`
+            name: 'Configuring SCIM with OneLogin',
+            url: '/docs/administration/scim-provisioning/configuring-scim-with-onelogin/'
           }
         ],
       },
