@@ -26,7 +26,7 @@ contextual_links:
     url: "https://blog.postman.com/build-better-apis-using-the-new-and-improved-api-builder/"
 ---
 
-You create the structure of your API using the _API definition_. The API definition can consist of one or multiple files. If your API doesn't have a definition, you can import a definition or start with a boilerplate sample definition.
+You create the structure of your API using the _API definition_. The API definition can consist of one or multiple files. If your API doesn't have a definition, you can generate an example definition, import a definition, or add a definition from a connected repository.
 
 > Postman supports OpenAPI (versions 1.0, 2.0, 3.0, and 3.1), RAML (0.8 and 1.0), protobuf (protocol buffer) (2.0 and 3.0), GraphQL, or WSDL (1.0 and 2.0) definitions. OpenAPI definitions can be JSON or YAML. RAML definitions must be YAML. Protobuf definitions are `.proto` files. GraphQL definitions can be JSON or GraphQL SDL. WSDL definitions must be XML.
 
@@ -34,6 +34,7 @@ You create the structure of your API using the _API definition_. The API definit
 
 * [Generating an API definition](#generating-an-api-definition)
 * [Importing an API definition](#importing-an-api-definition)
+* [Adding an API definition from a connected repository](#adding-an-api-definition-from-a-connected-repository)
 * [Editing an API definition file](#editing-an-api-definition-file)
 * [Working with multi-file API definitions](#working-with-multi-file-api-definitions)
 
@@ -66,6 +67,18 @@ You can import a file into your API to define your API.
 1. Select **Import**.
 
 > You can also import an API from a folder, a link, a code repository, or an API gateway. Learn more about [importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
+
+## Adding an API definition from a connected repository
+
+If your API is [connected to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/#connecting-to-a-remote-git-repository), you can select a definition file in your repository and add it to your API.
+
+1. Select **APIs** in the sidebar and select an API.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the API and select **Add definition > Add from connected repository**.
+1. Enter the file path (in the repository) of the definition file you want to add and select **Select**.
+
+    > For OpenAPI 2.0 and 3.0 and protobuf 2.0 and 3.0 APIs, you can select more than one file to add from the repository. Learn more about [working with multi-file API definitions](#working-with-multi-file-api-definitions).
+
+1. Select **Add Files**.
 
 ## Editing an API definition file
 
