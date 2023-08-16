@@ -1349,8 +1349,8 @@ export const leftNavItems = [
             url: '/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/',
           },
           {
-            name: `Configuring SCIM with OneLogin`,
-            url: `/docs/administration/scim-provisioning/configuring-scim-with-onelogin/`
+            name: 'Configuring SCIM with OneLogin',
+            url: '/docs/administration/scim-provisioning/configuring-scim-with-onelogin/'
           }
         ],
       },
