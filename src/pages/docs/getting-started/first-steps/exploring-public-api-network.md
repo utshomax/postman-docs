@@ -58,7 +58,7 @@ Check out some useful collections for getting started learning about APIs, reque
 
 Verified teams in Postman have a verified badge next to their team name in the Public API Network. A verified badge means Postman has verified the team's identity as the authentic organization they represent, helping you discover authentic, useful, and trusted APIs.
 
-<img alt="Postman verified team" src="https://assets.postman.com/postman-docs/v10/verified-team-postman-v10.jpg" width="400px" />
+<img alt="Postman verified team" src="https://assets.postman.com/postman-docs/v10/verified-team-postman-v10-2.jpg" width="400px" />
 
 The verified badge also displays next to a verified team's name in their [profile](/docs/administration/team-settings/) and [public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/), and you can view the verified badge in your [Postman search results](/docs/getting-started/basics/navigating-postman/#search-postman).
 
