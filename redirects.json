@@ -2297,7 +2297,7 @@
   },
   {
     "from": "/docs/postman-flows/tutorials/using-auth-with-flows/",
-    "to": "/docs/postman-flows/tutorials/concepts/adding-authentication/"
+    "to": "/docs/postman-flows/concepts/adding-authentication/"
   },
   {
     "from": "/docs/postman-flows/tutorials/using-response-data-in-a-request",
