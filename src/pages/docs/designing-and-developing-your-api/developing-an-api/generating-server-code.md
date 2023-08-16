@@ -1,5 +1,5 @@
 ---
-title: 'Generating server code'
+title: "Generating server code"
 updated: 2022-09-15
 contextual_links:
   - type: section

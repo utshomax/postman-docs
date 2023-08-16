@@ -1,5 +1,5 @@
 ---
-title: 'Viewing Datadog metrics'
+title: "Viewing Datadog metrics"
 updated: 2022-09-15
 warning: false
 ---

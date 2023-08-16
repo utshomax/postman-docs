@@ -1,5 +1,5 @@
 ---
-title: 'Importing data from a Git repository'
+title: "Importing data from a Git repository"
 updated: 2023-07-19
 contextual_links:
   - type: section
