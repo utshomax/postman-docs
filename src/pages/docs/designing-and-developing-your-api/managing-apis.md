@@ -1,5 +1,5 @@
 ---
-title: 'Managing and sharing APIs'
+title: "Managing and sharing APIs"
 updated: 2023-07-15
 contextual_links:
   - type: section
