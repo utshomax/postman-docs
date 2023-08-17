@@ -1,6 +1,6 @@
 ---
 title: "Connecting multiple APIs to a repository"
-updated: 2023-06-15
+updated: 2023-09-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -30,37 +30,39 @@ contextual_links:
 
 You can connect more than one API in Postman to the same Git repository. For each API you want to connect, repeat the process to set up the Git integration. For complete steps, see [Using a cloud-hosted Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/) or [Using an on-premises Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/).
 
-It's important to make sure your APIs remain separated in the repository to avoid changes from one API getting applied to another API. You can separate your APIs in the repository using either directories or branches.
+It's important to make sure your APIs remain separated in the repository to avoid changes from one API getting applied to another API. You can separate your APIs in the repository using either files or branches.
 
 ## Contents
 
-* [Separating APIs with directories](#separating-apis-with-directories)
+* [Separating APIs with files](#separating-apis-with-files)
 * [Separating APIs with branches](#separating-apis-with-branches)
 
-## Separating APIs with directories
+## Separating APIs with files
 
-You can keep your APIs separate by using a different directory for each API in the repository. For example, if you have an `emails` API and an `sms` API, you could have the following directory structure for the `main` branch in your repository:
+You can keep your APIs separate by [adding different definition files](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#adding-an-api-definition-from-a-connected-repository) to each API. Definition files can exist at the root level of the repository or in any subdirectory.
 
-* `/emails/postman/schemas` - Schemas for the `emails` API
-* `/emails/postman/collections` - Collections for the `emails` API
-* `/sms/postman/schemas` - Schemas for the `sms` API
-* `/sms/postman/collections` - Collections for the `sms` API
+For example, if you have an `emails` API and an `sms` API, you could have the following file structure for the `main` branch in your repository:
 
-Make sure to select the correct directories for your API's schema and collections when connecting the API to the repository.
+* `emails-api.yaml` - Root definition file for the `emails` API
+* `emails/postman/collections` - Collections directory for the `emails` API
+* `sms-api.yaml` - Root definition file for the `sms` API
+* `sms/postman/collections` - Collections directory for the `sms` API
 
-> The collection directory can't be a parent or the child of the schema directory.
+If you are working on a [multi-file API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#working-with-multi-file-api-definitions), you can choose which files to add to each API. Make sure to select the correct definition files when [adding files to an API](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#adding-files-from-a-connected-repository).
+
+If there are common components referenced by multiple APIs, you can keep them in separate directories (such as `schemas` or `responses`). You can then add the common component files to each API as needed. Keep in mind that if you push changes to a component file from one API, other APIs that use the same component will be affected.
+
+> For OpenAPI 2.0 and 3.0 APIs, when you add definition files to your API, Postman scans for any referenced files and automatically adds them to your API. If two root definition files references the same file, that file will be added to both APIs. In this case, changes made in one API may affect the other API.
 
 ## Separating APIs with branches
 
 You can keep your APIs separate by using a different branch for each API in the repository. For example, if you have a `notifications-v1` API and a `notifications-v2` API, you could have the following branch and directory structure in your repository:
 
 * `notifications-v1` branch
-    * `/postman/schemas` - Schemas for the `notifications-v1` API
-    * `/postman/collections` - Collections for the `notifications-v1` API
+    * `notifications.yaml` - Root definition file for the `notifications-v1` API
+    * `postman/collections` - Collections directory for the `notifications-v1` API
 * `notifications-v2` branch
-    * `/postman/schemas` - Schemas for the `notifications-v2` API
-    * `/postman/collections` - Collections for the `notifications-v2` API
+    * `notifications.yaml` - Root definition file for the `notifications-v2` API
+    * `postman/collections` - Collections directory for the `notifications-v2` API
 
-You must use a unique combination of a branch and a directory for each API you connect to the repository. For example, if you connect one API to the `/postman/schemas` directory on the `notifications-v1` branch, you can't connect another API to the same directory on the same branch. You must use a different branch or a different schema directory.
-
-> As you work on your APIs, you can switch branches and push or pull changes for any branch. To keep your APIs separate, always make sure you are on the correct branch before pushing or pulling changes.
+As you work on your APIs, you can switch branches and push or pull changes for any branch. To keep your APIs separate, always make sure you are on the correct branch before pushing or pulling changes.
