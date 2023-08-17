@@ -68,8 +68,7 @@ You can import a file into your API to define your API.
 
     > You can also select the API in the sidebar and select **Import**.
 
-1. Select **Choose Files** and select the file you want to import.
-1. Select **Import**.
+1. Select or drag the file you want to import.
 
 > You can also import an API from a folder, a link, a code repository, or an API gateway. Learn more about [importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
 
@@ -79,13 +78,16 @@ If your API is [connected to a Git repository](/docs/designing-and-developing-yo
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the API and select **Add definition > Add from connected repository**.
+
+    <img alt="Adding a definition from a connected repository" src="https://assets.postman.com/postman-docs/v10/api-builder-add-definition-from-git-v10-18.jpg" />
+
 1. Enter the file path (in the repository) of the definition file you want to add and select **Select**.
 
     > For OpenAPI 2.0 and 3.0 and protobuf 2.0 and 3.0 APIs, you can select more than one file to add from the repository. Learn more about [working with multi-file API definitions](#working-with-multi-file-api-definitions).
 
 1. Select **Add Files**.
 
-SCREENSHOT
+    The definition files you selected are added to your API. For OpenAPI 2.0 and 3.0 APIs, Postman scans for any dependent files referenced in the definition files and automatically adds them to your API.
 
 ## Editing an API definition file
 
@@ -138,9 +140,7 @@ To edit a multi-file API definition, select an API in the sidebar to expand it, 
 
 ### Adding files and folders
 
-You can add new files and folders to a multi-file API definition. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to **Definition**, then select **Add file > Create new** or **Add folder**.
-
-UPDATE SCREENSHOT
+You can add new files and folders to a multi-file API definition. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to **Definition**, then select **Add file** or **Add folder**.
 
 <img alt="Adding a file to an API" src="https://assets.postman.com/postman-docs/v10/api-builder-add-file-v10.jpg" width="382px"/>
 
@@ -154,12 +154,13 @@ If your API is [connected to a Git repository](/docs/designing-and-developing-yo
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to **Definition** and select **Add file > Add from connected repository**.
+
+    <img alt="Adding a file from a connected repository" src="https://assets.postman.com/postman-docs/v10/api-builder-add-file-from-git-v10-18.jpg" />
+
 1. Enter the file path (in the repository) of the definition file you want to add and select **Select**. You can select more than one file to add from the repository.
 1. Select **Add Files**.
 
     The definition files you selected are added to your API. For OpenAPI 2.0 and 3.0 APIs, Postman scans for any dependent files referenced in the definition files and automatically adds them to your API.
-
-SCREENSHOT
 
 ### Deleting files and folders
 
@@ -170,8 +171,8 @@ You can restore a deleted definition file using the [Changelog](/docs/designing-
 If your API is [connected to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/#connecting-to-a-remote-git-repository), you have the option to remove or delete a file. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a file and select **Delete**, then choose an option:
 
 * Select **Delete file** to delete the file from your API and your repository. The file will be deleted from your repository when you push changes from Postman.
-* Select **Remove file** to remove the file from your API in Postman. The file won't be deleted from your repository.
+* Select **Remove File** to remove the file from your API in Postman. The file won't be deleted from your repository.
 
-SCREENSHOT
+    <img alt="Deleting a definition file" src="https://assets.postman.com/postman-docs/v10/api-builder-delete-file-v10-18.jpg" width="443px"/>
 
 > **About definition IDs.** When you add a definition to an API, Postman assigns a definition ID to the API. You can view the definition ID by opening an API and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. The definition ID acts as a container for all the definition files in the API. If you delete all the definition files, the definition ID itself isn't deleted. If you then add a new definition file, the definition ID remains the same as before.
