@@ -189,6 +189,10 @@ export const leftNavItems = [
             url: '/docs/getting-started/importing-and-exporting/importing-from-git/',
           },
           {
+            name: 'Importing from New Relic',
+            url: '/docs/getting-started/importing-and-exporting/importing-from-new-relic/',
+          },
+          {
             name: 'Exporting data from Postman',
             url: '/docs/getting-started/importing-and-exporting/exporting-data/',
           },
@@ -668,8 +672,11 @@ export const leftNavItems = [
           {
             name: 'Make your own automatically scheduled tasks',
             url: '/docs/postman-flows/tutorials/make-your-own-automatically-scheduled-tasks/',
-          }
-
+          },
+          {
+            name: 'Run requests in sequence',
+            url: '/docs/postman-flows/tutorials/running-requests-in-sequence/',
+          },
         ],
       },
       {
@@ -1346,8 +1353,8 @@ export const leftNavItems = [
             url: '/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/',
           },
           {
-            name: `Configuring SCIM with OneLogin`,
-            url: `/docs/administration/scim-provisioning/configuring-scim-with-onelogin/`
+            name: 'Configuring SCIM with OneLogin',
+            url: '/docs/administration/scim-provisioning/configuring-scim-with-onelogin/'
           }
         ],
       },

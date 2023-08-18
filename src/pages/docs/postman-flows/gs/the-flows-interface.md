@@ -19,8 +19,8 @@ The following blocks can be used to construct your application:
 
 * **(1) The Start block:** The first block found in every flow and the only one that can't be deleted. Application forms and webhooks send their information through this block.
 * **(2) Other blocks:** One of the many types of other blocks that can be used in a flow. The list of blocks is [here](/docs/postman-flows/reference/blocks-list/).
-* **(3) Text annotations:** One of the ways to document a flow for other users or explain complex tasks being performed.
-* **(4) Groups:** Enables organization, documentation, and building of flows since groups can be duplicated. More information on organizing a flow can be found [here](/docs/postman-flows/concepts/organizing-a-flow/).
+* **(3) Groups:** Enables organization, documentation, and building of flows since groups can be duplicated. More information on organizing a flow can be found [here](/docs/postman-flows/concepts/organizing-a-flow/).
+* **(4) Text annotations:** One of the ways to document a flow for other users or explain complex tasks being performed.
 
 ### Building applications
 
