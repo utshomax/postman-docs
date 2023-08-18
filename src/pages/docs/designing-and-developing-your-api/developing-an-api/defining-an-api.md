@@ -140,7 +140,7 @@ To edit a multi-file API definition, select an API in the sidebar to expand it, 
 
 ### Adding files and folders
 
-You can add new files and folders to a multi-file API definition. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to **Definition**, then select **Add file** or **Add folder**.
+You can add new files and folders to a multi-file API definition. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to **Definition**, then select **Add file** or **Add folder**. (If your API is [connected to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/#connecting-to-a-remote-git-repository), select **Add file > Create new** to add a new file.)
 
 <img alt="Adding a file to an API" src="https://assets.postman.com/postman-docs/v10/api-builder-add-file-v10.jpg" width="382px"/>
 
@@ -170,9 +170,9 @@ You can restore a deleted definition file using the [Changelog](/docs/designing-
 
 If your API is [connected to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/#connecting-to-a-remote-git-repository), you have the option to remove or delete a file. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a file and select **Delete**, then choose an option:
 
-* Select **Delete file** to delete the file from your API and your repository. The file will be deleted from your repository when you push changes from Postman.
+* Select **Delete File** to delete the file from your API and your repository. The file will be deleted from your repository when you push changes from Postman.
 * Select **Remove File** to remove the file from your API in Postman. The file won't be deleted from your repository.
 
-    <img alt="Deleting a definition file" src="https://assets.postman.com/postman-docs/v10/api-builder-delete-file-v10-18.jpg" width="443px"/>
+    <img alt="Deleting a definition file" src="https://assets.postman.com/postman-docs/v10/api-builder-delete-file-v10-18a.jpg" width="443px"/>
 
 > **About definition IDs.** When you add a definition to an API, Postman assigns a definition ID to the API. You can view the definition ID by opening an API and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. The definition ID acts as a container for all the definition files in the API. If you delete all the definition files, the definition ID itself isn't deleted. If you then add a new definition file, the definition ID remains the same as before.
