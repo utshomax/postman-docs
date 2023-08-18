@@ -31,6 +31,11 @@ contextual_links:
   - type: link
     name: "30 days of Postman for developers"
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
+  - type: subtitle
+    name: "Postman Academy"
+  - type: link
+    name: "API Beginner Learning Path"
+    url:  "https://academy.postman.com/path/api-beginner"
 ---
 
 Postman enables you to create and send API requests. Send a request to an endpoint, retrieve data from a data source, or test an API's functionality. You don't need to enter commands in a terminal or write any code. Create a new request and select **Send**, and the API response appears right inside Postman.

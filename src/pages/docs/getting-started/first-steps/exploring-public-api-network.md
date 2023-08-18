@@ -1,6 +1,5 @@
 ---
 title: "Explore the Public API Network"
-order: 6
 updated: 2023-07-18
 contextual_links:
   - type: section
@@ -27,7 +26,11 @@ contextual_links:
   - type: link
     name: "Top 25 API Onboarding Experiences"
     url: "https://blog.postman.com/top-25-api-onboarding-experiences/"
-warning: false
+  - type: subtitle
+    name: "Postman Academy"
+  - type: link
+    name: "API Beginner Learning Path"
+    url:  "https://academy.postman.com/path/api-beginner"
 ---
 
 The Postman Public API Network is the largest network of APIs, workspaces, collections, and flows by developers across the planet. Many of the teams and companies responsible for leading-edge APIs and technologies have public workspaces you can explore. Popular third-party APIs are also published, along with examples you can use as a starting point when writing your own APIs or collections.
