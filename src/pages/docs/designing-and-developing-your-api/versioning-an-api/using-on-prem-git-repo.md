@@ -1,5 +1,5 @@
 ---
-title: 'Using an on-premises Git repository'
+title: "Using an on-premises Git repository"
 updated: 2023-06-15
 search_keyword: "whitelist, whitelist IP"
 contextual_links:

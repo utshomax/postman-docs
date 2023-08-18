@@ -19,7 +19,7 @@ The blocks available in Postman Flows are described below.
 
 Enables large amounts of formatted text to be entered. The values in the variables section can be included in the text using `{{key}}` where `key` is the name of your variable.
 
-**Variables** - Named information or assigned values that can be included in the text using the `{{key}}` format. Variables created in flows are not available to test scripts or other features outside Postman Flows.
+**Variables** - Named information or assigned values that can be included in the text using the `{{key}}` format. Variables created in flows aren't available to test scripts or other features outside Postman Flows.
 
 **Out** - Sends the information entered in the text box to the next block.
 
@@ -87,7 +87,7 @@ Outputs the current date and time.
 
 <img alt="Select block" src="https://assets.postman.com/postman-labs-docs/all-blocks/select-block.png" width="142px"/>
 
-Selects a specific part of the information output from another block. If the input information is from a send request block with a saved example, a drop-down will pop up that has all the information available to choose from and selecting that information will auto-fill the select block.
+Selects a specific part of the information output from another block. If the input information is from a **Send Request** block with a saved example, a drop-down will pop up that has all the information available to choose from and selecting that information will auto-fill the select block.
 
 [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bc6e92e308d202595085cb)
 
@@ -135,9 +135,9 @@ Outputs the text that you enter.
 
 ### Start
 
-<img alt="Start block" src="https://assets.postman.com/postman-labs-docs/all-blocks/combined-start-block.png" width="110px"/>
+<img alt="Start block" src="https://assets.postman.com/postman-labs-docs/all-blocks/new-ux-start-block.png" width="110px"/>
 
-The first block that runs when a flow is run. When deploying to the cloud [running flows on the cloud](/docs/postman-flows/running-flows-on-the-cloud/webhooks/), Can be configured to hold information (either as text or in JSON format) for testing locally by selecting the gear icon.
+The first block that runs when a flow is run. When deploying to the cloud [running flows on the cloud](/docs/postman-flows/running-flows-on-the-cloud/webhooks/), Can be configured to hold information (either as text or in JSON format) for testing locally.
 
 [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bcbae7f3155f2e86b54eb2)
 
@@ -215,7 +215,7 @@ Runs all of the blocks that come after it once for each item in the input list u
 
 **List** - Creates a list of all items sent to this block in the for or repeat sequence.
 
-**Finish** - Sends an event when the block is complete (when the for/repeat has been run for every item and they are all in a new list).
+**Finish** - Sends an event when the block is complete (when the for or repeat sequence has been run for every item and they're all in a new list).
 
 [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63b898822e67b05a8333e16c)
 
@@ -267,4 +267,4 @@ Sends the information input to the block to the Postman console.
 
 <img alt="Output block" src="https://assets.postman.com/postman-docs/v10/output-block-v10.jpg" width="249px"/>
 
-Displays the information input. The dropdown menu allows you to select from JSON, charts, tables, videos, images, and more. For more information and examples on the output block, see [Visualizing data](/docs/postman-flows/tutorials/visualizing-data/).
+Displays the information input. The dropdown menu enables you to select from JSON, charts, tables, videos, images, and more. For more information and examples on the output block, see [Visualizing data](/docs/postman-flows/tutorials/visualizing-data/).
