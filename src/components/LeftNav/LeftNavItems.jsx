@@ -189,6 +189,10 @@ export const leftNavItems = [
             url: '/docs/getting-started/importing-and-exporting/importing-from-git/',
           },
           {
+            name: 'Importing from New Relic',
+            url: '/docs/getting-started/importing-and-exporting/importing-from-new-relic/',
+          },
+          {
             name: 'Exporting data from Postman',
             url: '/docs/getting-started/importing-and-exporting/exporting-data/',
           },
