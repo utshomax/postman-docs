@@ -42,7 +42,7 @@ You create the structure of your API using the _API definition_. The API definit
 If your API doesn't have a definition, you can generate an example definition that you can edit.
 
 1. Select **APIs** in the sidebar and select an API.
-1. From the API's menu, select **Add definition > Author from scratch**. Alternatively, select **create** in the sidebar under the API.
+1. From the API's overview, next to **Definition**, select **+** and then select **Author from scratch**. Alternatively, select **create** in the sidebar under the API.
 
 1. Select the definition type and format. We are using OpenAPI and YAML in this example.
 1. To start with a sample definition, select **Use a boilerplate**.
