@@ -52,7 +52,7 @@ If you are working on a [multi-file API definition](/docs/designing-and-developi
 
 If there are common components referenced by multiple APIs, you can keep them in separate directories (such as `schemas` or `responses`). You can then add the common component files to each API as needed. Keep in mind that if you push changes to a component file from one API, other APIs that use the same component will be affected.
 
-> For OpenAPI 2.0 and 3.0 APIs, when you add definition files to your API, Postman scans for any referenced files and automatically adds them to your API. If two root definition files references the same file, that file will be added to both APIs. In this case, changes made in one API may affect the other API.
+> For OpenAPI 2.0 and 3.0 APIs, when you add definition files to your API, Postman scans for any referenced files and automatically adds them to your API. If two root definition files reference the same file, that file will be added to both APIs. In this case, changes made in one API may affect the other API.
 
 ## Separating APIs with branches
 
