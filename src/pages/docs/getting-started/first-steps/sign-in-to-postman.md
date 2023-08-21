@@ -28,6 +28,11 @@ contextual_links:
   - type: link
     name: "30 days of Postman for developers"
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
+  - type: subtitle
+    name: "Postman Academy"
+  - type: link
+    name: "API Beginner Learning Path"
+    url:  "https://academy.postman.com/path/api-beginner"
 ---
 
 If you're using the Postman desktop app and not signed in, you're in the [lightweight Postman API Client](/docs/getting-started/basics/using-api-client/), which is a space where you can build and send requests. If you want to sync your work, organize requests into collections, collaborate with others, or use other features, sign up for an account and sign in to Postman.
