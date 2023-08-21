@@ -71,7 +71,7 @@ The header enables you to create workspaces, access reports, explore the public 
 
 ### Search Postman
 
-To search in Postman, select __Search Postman__ in the header then enter your search terms. You can also use the keyboard shortcut **⌘+K** or **Ctrl+K**. To change the scope of your search to your personal or team space or the Public API Network, select **All of Postman** and choose the desired scope. You can also change the scope of your search to **Workspaces**, **Collections**, **Requests**, **APIs**, **Flows**, or **Teams**.
+To search in Postman, select __Search Postman__ in the header then enter your search terms. You can also use the keyboard shortcut **⌘+K** or **Ctrl+K**. To change the scope of your search to your personal or team space or the Public API Network, select **All of Postman** and choose the desired scope. You can also change the scope of your search to **Workspaces**, **Collections**, **Requests**, **APIs**, or **Folders**.
 
 You can search by tag names that team members have added to [collections](/docs/collections/using-collections/#tagging-a-collection), [APIs](/docs/designing-and-developing-your-api/managing-apis/#tagging-apis), and [workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#tagging-a-workspace) ([Enterprise plans only](https://www.postman.com/pricing)). To search by tag names, select __Search Postman__ in the header then enter your search using the `tag:tag-name` format. For example, if an API has the tag "production", enter `tag:production` to return the API in your search results.
 

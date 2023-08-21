@@ -48,8 +48,9 @@ Workspaces, collections, and APIs in the Private API Network are visible to logg
 
 * [Navigating the Private API Network](#navigating-the-private-api-network)
 * [Searching, filtering, and sorting](#searching-filtering-and-sorting)
-    * [Searching for folders and elements in the network](#searching-for-folders-and-elements-in-the-network)
-    * [Searching for elements in a folder](#searching-for-elements-in-a-folder)
+    * [Discover popular and new elements in the network](#discover-popular-and-new-elements-in-the-network)
+    * [Search for elements in the network](#search-for-elements-in-the-network)
+    * [Sort elements in a folder](#sort-elements-in-a-folder)
 * [Reviewing details about elements](#reviewing-details-about-elements)
 * [Sharing folders and elements](#sharing-folders-and-elements)
 * [Watching and forking elements](#watching-and-forking-elements)
@@ -57,59 +58,53 @@ Workspaces, collections, and APIs in the Private API Network are visible to logg
 
 ## Navigating the Private API Network
 
-The Private API Network is a good place to learn about workspaces, collections, and APIs shared within your team. Under your team name, you can browse a directory of elements shared within your team in the left sidebar.
+You can use the Private API Network to learn about workspaces, collections, and APIs shared within your team. In the left sidebar, you can browse a directory of elements shared within your team.
 
-There are two ways to access the Private API Network:
+There are several ways to access the Private API Network:
 
 * Select **Home** from the Postman header, then select **Private API Network** in your team information on the left sidebar.
 * Select **API Network** from the Postman header, then select **Private API Network**.
+* Select **Search Postman** in the header, change the scope to **Private API Network**, enter your search terms, and press **Enter**.
 
 ## Searching, filtering, and sorting
 
-There are several ways to search, filter, and sort elements and folders in the Private API Network. You can search and sort all elements and folders from the left sidebar. You can also select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/icon-home-v10.jpg#icon" width="16px"> **Home** or a folder to search, filter, and sort elements on the right.
+There are several ways to search, filter, and sort elements and folders in the Private API Network. You can select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/icon-home-v10.jpg#icon" width="16px"> **Home** to sort popular elements in the network. You can select **Search Postman** in the header to enter search terms and filter the results. You can also select a folder to sort elements in it.
 
-### Searching for folders and elements in the network
+### Discover popular and new elements in the network
 
-You can search and sort elements and folders in the network from the left sidebar. Then you can select a folder or element to view its details on the right.
-
-<img alt="Create new folder in Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-organize-folders-v10-2.jpg" width="300px"/>
-
-* To search by name, select **Search elements and folders** and enter the full or partial element or folder name.
-* To sort elements and folders, select the sort icon <img alt="Sort icon" src="https://assets.postman.com/postman-docs/icon-sort.jpg#icon" width="16px">. Options are:
-    * **Default** - Sort by type, grouping folders and elements by type.
-    * **Date added** - Sort by the date that elements and folders were added.
-    * **A to Z** - Sort elements and folders alphabetically.
-
-### Searching for elements in a folder
-
-You can select a folder to search, filter, and sort elements on the right. Select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/icon-home-v10.jpg#icon" width="16px"> **Home** in the left sidebar to search, filter, and sort all elements in your Private API Network. Select a folder in the left sidebar to search, filter, and sort elements only in the selected folder.
-
-You can select a folder in the left sidebar to then search, filter, and sort elements on the right.
-
-* Select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/icon-home-v10.jpg#icon" width="16px"> **Home** in the left sidebar to search, filter, and sort all elements in your Private API Network on the right.
-* Select a folder from the left sidebar to search, filter, and sort its elements on the right.
+You can select <img alt="Home icon" src="https://assets.postman.com/postman-docs/v10/icon-home-v10.jpg#icon" width="16px"> **Home** in the left sidebar to discover popular and new elements added to the network. On the right, you can sort popular elements in the network by week or month. You can also review elements recently added to the network. Select **Show more** to review more elements in either category.
 
 <img alt="Private API List" src="https://assets.postman.com/postman-docs/v10/private-api-network-list-v10-2.jpg"/>
 
-The **All APIs, collections and workspaces** section enables you to search, sort, and filter elements with the following options:
+### Search for elements in the network
 
-* To search by name, enter the full or partial element name into **Search elements**.
-* To filter based on the person who added the element, select **Added by**, then select the name of the team member.
-* To filter by element type, select **Type**, then select **API**, **Collection**, or **Workspace**.
-* To filter based on element tags, select **Tags**, then select the tags. Learn more about adding tags to [collections](/docs/collections/using-collections/#tagging-a-collection), [APIs](/docs/designing-and-developing-your-api/managing-apis/#tagging-apis), and [workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#tagging-a-workspace).
-* To sort elements, select the **Sort by** dropdown list. Options are:
-    * **Recently added** - Sort elements by the date they were added.
-    * **A to Z** - Sort elements alphabetically.
-    * **Trending this week** - Sort elements by your team's usage this week.
-    * **Trending this month** - Sort elements by your team's usage this month.
+You can search and filter elements in the network. Select **Search Postman** in the header, make sure the scope is **Private API Network**, enter your search terms, and press **Enter**. You can select an element's name in the search results to open it in the network. To learn more about searching in Postman, see [Search Postman](/docs/getting-started/basics/navigating-postman/#search-postman). Then you can filter elements with the following options:
+
+* To filter by element type, select **Entity type**, then select **Workspaces**, **Collections**, **APIs**, **Request**, or **Folder**.
+* To filter based on element tags, select **Search tags**, then select the tags added to collections, APIs, or workspaces. Learn more about adding tags to [collections](/docs/collections/using-collections/#tagging-a-collection), [APIs](/docs/designing-and-developing-your-api/managing-apis/#tagging-apis), and [workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#tagging-a-workspace).
+* To filter by an element's location in a folder, select **Location**, then select the folder or sub-folder.
+
+<img alt="Private API List" src="https://assets.postman.com/postman-docs/v10/private-api-network-list-v10-2.jpg"/>
+
+### Sort elements in a folder
+
+You can select a folder to sort elements in it, enabling you to sort elements in the folder and its sub-folders. To sort elements, select a folder or sub-folder, then select the **Sort by** dropdown list. The options are:
+
+* **Recently added** - Sort elements by the date they were added.
+* **A to Z** - Sort elements alphabetically.
+* **Trending this week** - Sort elements by your team's usage this week.
+* **Trending this month** - Sort elements by your team's usage this month.
+
+<img alt="Private API List" src="https://assets.postman.com/postman-docs/v10/private-api-network-list-v10-2.jpg"/>
 
 ## Reviewing details about elements
 
-To review information about an element, select it from the left sidebar. On the right, you can view the element's description and the editors who have worked on it.
+To review information about workspace, collection, and APIs, select it from the left sidebar. On the right, you can view the its description and the editors who have worked on it. You can view the following details:
 
-For workspaces, you can view all of the collections and APIs inside them. For collections, you can view available documentation; you can select **Try Request** next to a request or **Try Example** next to an example to open it in a new tab. For APIs, you can view definitions and associated collections.
-
-To learn more about trying an example, see [Trying an example](/docs/sending-requests/examples/#trying-an-example).
+* For workspaces, you can view all of the collections and APIs inside them.
+* For collections, you can view available documentation. In the documentation, you can select **Try Request** next to a request or **Try Example** next to an example to open it in a new tab. To learn more about trying an example, see [Trying an example](/docs/sending-requests/examples/#trying-an-example).
+* For APIs, you can view API definitions and associated API documentation. You can also view collections added to the API.
+    > If you published an API with an API definition that has violations, your API documentation might not display as expected. To learn more, see [Publishing an API to consumers](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/#publishing-an-api-to-consumers).
 
 You can also open the element in its workspace. Select an element from the left sidebar, and then select either **View in Workspace** or **Open Workspace** in the upper-right corner.
 
