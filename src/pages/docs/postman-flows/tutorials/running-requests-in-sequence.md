@@ -1,6 +1,6 @@
 ---
-title: "Running requests in sequence"
-updated: 2022-07-15
+title: "Run requests in sequence"
+updated: 2023-08-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -26,22 +26,22 @@ If you have several requests that have no dependency on each other but have to b
 
 > Check out the example flow: [Chaining requests](https://www.postman.com/postman/workspace/flows-snippets/flow/6267f9315d367a64e7ba06e5)
 
-1. **Add Send Request blocks**
+1. **Add a Send Request block**
 
-   In a new flow, create three **Send Request** blocks with the **Success** outputs connected to the **Send** inputs.
+   Select **+ Block** on the toolbar and select the **Send Request** block from the list to add it to your canvas, then select the request. Repeat this until all the requests are added to the canvas.
 
-    ![Add Send Request blocks](https://assets.postman.com/postman-docs/v10/flows-chain-requests-v10-1.gif)
+    <img src="https://assets.postman.com/postman-docs/v10/flows-chain-requests-v10-1.gif" alt="Add Send Request blocks" fetchpriority="low" loading="lazy" />
 
-1. **Select the requests**
+1. **Connect the send events**
 
-   In each block, select the requests.
+   Select the port (success output) of the source block and connect it to the send input of the target block in the order you want the requests to execute.
 
-   ![Select requests](https://assets.postman.com/postman-docs/v10/flows-select-requests-v10-1.gif)
+   <img src="https://assets.postman.com/postman-docs/v10/flows-select-requests-v10-1.gif" alt="Select requests" fetchpriority="low" loading="lazy" />
 
 1. **Start the flow**
 
-   Start the flow and see checkmarks appear on the requests as they execute in order:
+   Start the flow and see the requests run in the order they're configured:
 
-   ![Start the flow](https://assets.postman.com/postman-docs/v10/flows-run-requests-v10-1.gif)
+   <img src="https://assets.postman.com/postman-docs/v10/flows-run-requests-v10-1.gif" alt="Start the flow" fetchpriority="low" loading="lazy" />
 
 If you want to use data from one request in another request, you can learn how to do so in [Passing data between blocks](/docs/postman-flows/tutorials/passing-data-between-blocks/).

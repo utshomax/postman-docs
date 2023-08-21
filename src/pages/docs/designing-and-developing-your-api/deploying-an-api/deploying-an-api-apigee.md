@@ -1,5 +1,5 @@
 ---
-title: 'Deploying to an Apigee API gateway'
+title: "Deploying to an Apigee API gateway"
 updated: 2022-09-15
 contextual_links:
   - type: section

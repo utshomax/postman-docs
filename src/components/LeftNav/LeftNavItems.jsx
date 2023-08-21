@@ -189,6 +189,10 @@ export const leftNavItems = [
             url: '/docs/getting-started/importing-and-exporting/importing-from-git/',
           },
           {
+            name: 'Importing from New Relic',
+            url: '/docs/getting-started/importing-and-exporting/importing-from-new-relic/',
+          },
+          {
             name: 'Exporting data from Postman',
             url: '/docs/getting-started/importing-and-exporting/exporting-data/',
           },
@@ -304,6 +308,10 @@ export const leftNavItems = [
           {
             name: 'Capturing request data overview',
             url: '/docs/sending-requests/capturing-request-data/capture-overview/',
+          },
+          {
+            name: 'Capturing requests with the Postman proxy',
+            url: '/docs/sending-requests/capturing-request-data/capture-with-proxy/',
           },
           {
             name: 'Capturing HTTP requests',
@@ -506,7 +514,7 @@ export const leftNavItems = [
         url: '/docs/collections/testing-api-performance/',
       },
       {
-        name: "Using Live Collections",
+        name: 'Using Live Collections',
         subParentSlug: 'live-collections',
         slug: '/docs/collections/live-collections/live-collections-overview/',
         subMenuItems2: [
@@ -579,7 +587,7 @@ export const leftNavItems = [
     url: '/docs/postman-flows/gs/flows-overview/',
     subMenuItems1: [
       {
-        name: 'Getting started',
+        name: 'Getting started with Flows',
         subParentSlug: 'gs',
         slug: '/docs/postman-flows/gs/flows-overview/',
         subMenuItems2: [
@@ -588,82 +596,86 @@ export const leftNavItems = [
             url: '/docs/postman-flows/gs/flows-overview/',
           },
           {
-            name: 'About blocks',
-            url: '/docs/postman-flows/gs/blocks-information/',
-          },
-          {
-            name: 'The Postman Flows interface',
-            url: '/docs/postman-flows/gs/the-interface/',
-          },
+            name: 'The Flows interface',
+            url: '/docs/postman-flows/gs/the-flows-interface/',
+          }
         ],
       },
       {
-        name: 'Postman Flows tutorials',
+        name: 'Postman Flows concepts',
+        subParentSlug: 'concepts',
+        slug: '/docs/postman-flows/concepts/blocks-and-connections/',
+        subMenuItems2: [
+          {
+            name: 'Blocks and connections',
+            url: '/docs/postman-flows/concepts/blocks-and-connections/',
+          },
+          {
+            name: 'Requests and variables',
+            url: '/docs/postman-flows/concepts/requests-and-variables/',
+          },
+          {
+            name: 'Select information',
+            url: '/docs/postman-flows/concepts/selecting-information/',
+          },
+          {
+            name: 'Pass information between blocks',
+            url: '/docs/postman-flows/concepts/passing-information-between-blocks/',
+          },
+          {
+            name: 'Add authentication',
+            url: '/docs/postman-flows/concepts/adding-authentication/',
+          },
+          {
+            name: 'Automatic runs',
+            url: '/docs/postman-flows/concepts/automatic-runs/',
+          },
+          {
+            name: 'Create a form',
+            url: '/docs/postman-flows/concepts/creating-a-form/',
+          },
+          {
+            name: 'Organize a flow',
+            url: '/docs/postman-flows/concepts/organizing-a-flow/',
+          }
+        ],
+      },
+      {
+        name: 'Tutorials',
         subParentSlug: 'tutorials',
-        slug: '/docs/postman-flows/tutorials/building-your-first-flow/',
+        slug: '/docs/postman-flows/tutorials/flows-tutorials-overview/',
         subMenuItems2: [
           {
-            name: 'Building your first flow',
-            url: '/docs/postman-flows/tutorials/building-your-first-flow/',
+            name: 'Flows tutorials overview',
+            url: '/docs/postman-flows/tutorials/flows-tutorials-overview/',
           },
           {
-            name: 'Passing data between blocks',
-            url: '/docs/postman-flows/tutorials/passing-data-between-blocks/',
+            name: 'Send information from one system to another',
+            url: '/docs/postman-flows/tutorials/send-information-from-one-system-to-another/',
           },
           {
-            name: 'Running requests in sequence',
+            name: 'Build a Slack bot',
+            url: '/docs/postman-flows/tutorials/build-a-slack-bot/',
+          },
+          {
+            name: 'Create a dashboard in Flows',
+            url: '/docs/postman-flows/tutorials/creating-a-dashboard-in-flows/',
+          },
+          {
+            name: 'Automate repetitive tasks',
+            url: '/docs/postman-flows/tutorials/automating-repetitive-tasks/',
+          },
+          {
+            name: 'Update a database with Postman Flows',
+            url: '/docs/postman-flows/tutorials/process-information-and-then-update-the-same-system/',
+          },
+          {
+            name: 'Make your own automatically scheduled tasks',
+            url: '/docs/postman-flows/tutorials/make-your-own-automatically-scheduled-tasks/',
+          },
+          {
+            name: 'Run requests in sequence',
             url: '/docs/postman-flows/tutorials/running-requests-in-sequence/',
-          },
-          {
-            name: 'Using authorization with Postman Flows',
-            url: '/docs/postman-flows/tutorials/using-auth-with-flows/',
-          },
-          {
-            name: 'Using response data in a request',
-            url: '/docs/postman-flows/tutorials/using-response-data-in-a-request/',
-          },
-          {
-            name: 'Using webhooks with Postman Flows',
-            url: '/docs/postman-flows/tutorials/webhooks/',
-          },
-          {
-            name: 'Visualizing data',
-            url: '/docs/postman-flows/tutorials/visualizing-data/',
-          },
-          {
-            name: 'Getting data from an array',
-            url: '/docs/postman-flows/tutorials/top-level-array/',
-          },
-        ],
-      },
-      {
-        name: 'Flows Query Language',
-        subParentSlug: 'flows-query-language',
-        slug: '/docs/postman-flows/flows-query-language/introduction-to-fql/',
-        subMenuItems2: [
-          {
-            name: 'Introduction to Flows Query Language',
-            url: '/docs/postman-flows/flows-query-language/introduction-to-fql/',
-          },
-          {
-            name: 'Getting basic values',
-            url: '/docs/postman-flows/flows-query-language/getting-basic-values/',
-          },
-          {
-            name: 'Selecting conditional data',
-            url: '/docs/postman-flows/flows-query-language/conditional-data-selection/',
-          },
-          {
-            name: 'Returning structured data',
-            url: '/docs/postman-flows/flows-query-language/returning-structured-results/',
-          },
-          {
-            name: 'Manipulating data',
-            url: '/docs/postman-flows/flows-query-language/data-manipulation/',
-          },
-          {
-            name: 'FQL function reference',
-            url: '/docs/postman-flows/flows-query-language/function-reference/',
           },
         ],
       },
@@ -677,10 +689,53 @@ export const leftNavItems = [
             url: '/docs/postman-flows/reference/blocks-list/',
           },
           {
-            name: 'Postman Flows data types',
-            url: '/docs/postman-flows/reference/data-types/',
+            name: 'Work with date and time',
+            url: '/docs/postman-flows/reference/working-with-date-and-time/',
+          },
+          {
+            name: 'Find and filter data',
+            url: '/docs/postman-flows/reference/finding-and-filtering-data/',
+          },
+          {
+            name: 'Visualize data',
+            url: '/docs/postman-flows/reference/visualizing-data/',
+          },
+          {
+            name: 'Debug Flows',
+            url: '/docs/postman-flows/reference/debugging/',
           },
         ]
+      },
+      {
+        name: 'Flows Query Language',
+        subParentSlug: 'flows-query-language',
+        slug: '/docs/postman-flows/flows-query-language/introduction-to-fql/',
+        subMenuItems2: [
+          {
+            name: 'Introduction to Flows Query Language',
+            url: '/docs/postman-flows/flows-query-language/introduction-to-fql/',
+          },
+          {
+            name: 'Get basic values',
+            url: '/docs/postman-flows/flows-query-language/getting-basic-values/',
+          },
+          {
+            name: 'Select conditional data',
+            url: '/docs/postman-flows/flows-query-language/conditional-data-selection/',
+          },
+          {
+            name: 'Return structured data',
+            url: '/docs/postman-flows/flows-query-language/returning-structured-results/',
+          },
+          {
+            name: 'Manipulate data',
+            url: '/docs/postman-flows/flows-query-language/data-manipulation/',
+          },
+          {
+            name: 'FQL function reference',
+            url: '/docs/postman-flows/flows-query-language/function-reference/',
+          },
+        ],
       },
     ],
   },
@@ -771,6 +826,10 @@ export const leftNavItems = [
           {
             name: 'Requesting to add to the Private API Network',
             url: '/docs/collaborating-in-postman/private-api-network/private-network-requests/'
+          },
+          {
+            name: 'Publishing Private API Network elements with the Postman API',
+            url: '/docs/collaborating-in-postman/private-api-network/publish-private-network-elements-with-api/'
           },
         ],
       },
@@ -1294,8 +1353,8 @@ export const leftNavItems = [
             url: '/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/',
           },
           {
-            name: `Configuring SCIM with OneLogin`,
-            url: `/docs/administration/scim-provisioning/configuring-scim-with-onelogin/`
+            name: 'Configuring SCIM with OneLogin',
+            url: '/docs/administration/scim-provisioning/configuring-scim-with-onelogin/'
           }
         ],
       },

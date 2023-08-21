@@ -44,7 +44,7 @@ You can manage folders and elements in the Private API Network. You can edit a c
 
 <!-- -->
 
-> You can manage elements within the [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/#navigating-the-private-api-network) or with the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-b7c02959-88ca-4e2f-9b68-99538eed4533?ctx=documentation).
+> You can manage elements within the [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/#navigating-the-private-api-network) or with the [Postman API](/docs/collaborating-in-postman/private-api-network/publish-private-network-elements-with-api/).
 
 ## Contents
 

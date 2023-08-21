@@ -106,7 +106,7 @@ The collections and APIs you add to the Private API Network include the latest c
 
 <!-- -->
 
-> You can add elements to the Private API Network from the workbench and with the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-b7c02959-88ca-4e2f-9b68-99538eed4533?ctx=documentation).
+> You can add elements to the Private API Network from the workbench and with the [Postman API](/docs/collaborating-in-postman/private-api-network/publish-private-network-elements-with-api/).
 
 ### Adding elements in your Private API Network
 

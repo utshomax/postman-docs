@@ -54,7 +54,7 @@ _Workspace as an element_ represents a whole container where being an Admin give
 
     <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/workspace-switcher-v10.14.jpg" width="300px"/>
 
-1. ([Free, Basic, and Professional plans only](https://www.postman.com/pricing)) You can use [workspace templates](#creating-workspaces-with-a-template) to help you set up a new workspace. Select a workspace template to populate the workspace with helpful information and sample collections, or select **Blank workspace** to create an empty workspace. Then select **Next**.
+1. You can use [workspace templates](#creating-workspaces-with-a-template) to help you set up a new workspace. Select a workspace template to populate the workspace with helpful information and sample collections, or select **Blank workspace** to create an empty workspace. Then select **Next**.
 
     > You can also apply a workspace template to a newly created workspace. To learn more, see [Creating workspaces with a template](#creating-workspaces-with-a-template).
 
@@ -64,7 +64,7 @@ _Workspace as an element_ represents a whole container where being an Admin give
 
     <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-v10-2.jpg" width="400px"/>
 
-1. Select **Create** or **Create Workspace** and Postman will open your new workspace. You can add elements to the workspace. Select __Invite__ in the Postman header to add other users to the workspace.
+1. Select **Create** and Postman will open your new workspace. You can add elements to the workspace. Select __Invite__ in the Postman header to add other users to the workspace.
 
 To create a new workspace, you can also select __New__ in the sidebar, then select __Workspace__ and follow the same steps.
 
@@ -85,7 +85,7 @@ You can use workspace templates to help you set up a new workspace. Workspace te
 * Incident Response
 * Infrastructure
 
-When you apply a workspace template, it will populate the workspace description with an introduction and information to help you get started. Each workspace template also includes sample collections that you can use and change as needed. To use a template, [create a new workspace](#creating-a-new-workspace) ([Free, Basic, and Professional plans only](https://www.postman.com/pricing)) or open a newly created workspace.
+When you apply a workspace template, it will populate the workspace description with an introduction and information to help you get started. Each workspace template also includes sample collections that you can use and change as needed. To use a template, [create a new workspace](#creating-a-new-workspace) or open a newly created workspace.
 
 To use a template in a newly created workspace, do the following:
 
