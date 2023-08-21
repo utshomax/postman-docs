@@ -111,7 +111,7 @@ From the **Summary** tab, you can take the following actions:
 * Select the share icon <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> to share the performance report with others on your team:
 
     * Select **Share Link** to get a link to the performance report you can share with your teammates. Select **Copy Link** to copy the link to your clipboard.
-    * Select **Export PDF** or **Export HTML** to download a copy of the performance report in PDF or HTML format.
+    * Select **Export PDF** or **Export HTML** to download a copy of the performance report in PDF or HTML format. The report shows response time and throughput, slowest requests, requests with the most errors, metrics for each request, and a list of errors.
 
 * Select the name of a request to open the request.
 
