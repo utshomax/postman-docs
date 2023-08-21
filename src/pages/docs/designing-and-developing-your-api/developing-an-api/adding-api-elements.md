@@ -1,5 +1,5 @@
 ---
-title: 'Adding elements to an API'
+title: "Adding elements to an API"
 updated: 2023-03-15
 contextual_links:
   - type: section
@@ -49,7 +49,7 @@ To add an existing collection to your API, do the following:
 1. On the API's overview, next to **Collections**, select **+** and select **Copy existing collection**.
 1. Select an available collection and select **Copy Collection**.
 
-The copy of the collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View complete collection documentation**.
+The copy of the collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, select the collection and select **View complete documentation**.
 
 ### Generating a collection
 
@@ -61,7 +61,7 @@ To generate a new collection from your API definition, do the following:
 1. Change any settings to customize the new collection.
 1. Select **Generate Collection**.
 
-The collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View complete collection documentation**.
+The collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, select the collection and select **View complete documentation**.
 
 > You can also generate a collection when you import an API. For more information, see [importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
 

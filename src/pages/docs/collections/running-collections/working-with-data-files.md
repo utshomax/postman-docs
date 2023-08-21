@@ -23,13 +23,13 @@ contextual_links:
 
 You can use data files to pass Postman sets of values to use in a collection run. By selecting a JSON or CSV data file in the Collection Runner, you can test your requests with multiple values as part of a single run.
 
-Before exporting your file, take into account the following considerations.
+Before exporting your file, consider the following:
 
-* Preceding zeroes (for example, `000000345`) are stripped by Postman unless wrapped in double quotation marks (for example, `"000000345"`). Also, common spreadsheet programs (Microsoft Excel and Google Sheets) do not wrap values in quotes unless the value contains a comma or a double quotation mark.
+* Preceding zeroes (for example, `000000345`) are stripped by Postman unless wrapped in double quotation marks (for example, `"000000345"`). Also, common spreadsheet programs (Microsoft Excel and Google Sheets) don't wrap values in quotes unless the value contains a comma or a double quotation mark.
 
 * To treat numbers with leading zeroes as strings in Postman, reopen your exported CSV file in a text editor (or create a script) to wrap the number in double quotes.
 
-* You do not need to add double quotes to simple integers. You do, however, need to format numbers larger than 15 digits as text in your spreadsheet program, so they are not truncated during export.
+* You don't need to add double quotes to simple integers. You do, however, need to format numbers larger than 15 digits as text in your spreadsheet program, so they're not truncated during export.
 
 ## Running collections with data files
 
@@ -52,7 +52,7 @@ You can select a data file to use in a [collection run](/docs/collections/runnin
     > ![Import Collection](https://assets.postman.com/postman-docs/v10/import-export-import-ui-v10-2.jpg)
     > * In the Collection Runner, choose the collection you imported. Download [the sample data file](https://assets.postman.com/postman-docs/58702589.json) and select it in the __Runner__ also.
     > * Note that the sample collection has a `POST` request which uses a `path` variable in the URL. This path variable is specified in each record in the data file. The request also uses a `value` variable in the body which is also pulled from the data file for each iteration. _The example request is to the [Postman Echo API](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation), a learning resource that returns the data you send it._
-    > ![Tests](https://assets.postman.com/postman-docs/data-file-tests-tab-v8.jpg)
+    > ![Tests](https://assets.postman.com/postman-docs/v10/data-file-tests-tab-v10-2.jpg)
 
 1. Select a request in the Collection Runner results to get more details on its data.
 
@@ -60,7 +60,7 @@ You can select a data file to use in a [collection run](/docs/collections/runnin
 
 Any data defined in the requests will be used when the collection runs, and your request data can reference values defined in the data file.
 
-![Data File Value](https://assets.postman.com/postman-docs/request-body-data-run-v8.jpg)
+![Data File Value](https://assets.postman.com/postman-docs/v10/request-body-data-run-v10.jpg)
 
 ## Accessing data file values
 

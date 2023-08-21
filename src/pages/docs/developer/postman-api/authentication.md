@@ -75,7 +75,7 @@ You can also send the key as an `apikey` URL query parameter. An API key sent as
 
 Your API Key provides access to any Postman data you have permissions for.
 
-You can store your API key in a [variable](/docs/sending-requests/variables/). If you name it `postman_api_key`, the Postman API collection will use it automatically.
+You can store your API key in a [variable](/docs/sending-requests/variables/). If you name it `postman-api-key`, the Postman API collection will use it automatically.
 
 ## Generate a collection access key
 

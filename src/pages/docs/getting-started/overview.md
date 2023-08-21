@@ -1,6 +1,6 @@
 ---
-title: "Getting started"
-updated: 2023-02-27
+title: "Welcome to Postman"
+updated: 2023-07-27
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -34,22 +34,29 @@ contextual_links:
   - type: link
     name: "30 days of Postman for developers"
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
+  - type: subtitle
+    name: "Postman Academy"
+  - type: link
+    name: "API Beginner Learning Path"
+    url:  "https://academy.postman.com/path/api-beginner"
 ---
 
 Welcome! This section of the Learning Center contains topics about how to get started using Postman.
 
-To get up and running with Postman, check out the following:
+To get up and running with Postman, check out [Postman first steps](/docs/getting-started/first-steps/overview/). You'll learn how to use Postman to send requests, write tests, collaborate with your team, and more.
 
-* You can get started right away by using the Postman web app, but you can also install the Postman desktop app. See [Installing and updating Postman](/docs/getting-started/installation-and-updates/).
+You can also jump to one of the following topics to learn more about Postman:
 
-* Once you're in Postman, check out how to [navigate Postman](/docs/getting-started/navigating-postman/). After you're familiar with the interface, try [sending your first request](/docs/getting-started/sending-the-first-request/).
+* You can get started right away by using the [Postman web app](https://go.postman.co/), but you can also install the Postman desktop app. See [Installing and updating Postman](/docs/getting-started/installation/installation-and-updates/).
 
-* Create a Postman account. Then, learn more about [managing your account](/docs/getting-started/postman-account/), [customizing your Postman profile](/docs/getting-started/postman-profile/), and [setting up Postman](/docs/getting-started/settings/).
+* Once you're in Postman, check out how to [navigate Postman](/docs/getting-started/basics/navigating-postman/). After you're familiar with the interface, try [sending your first request](/docs/getting-started/first-steps/sending-the-first-request/).
 
-* A great place to find APIs is the Postman Public API Network. Learn more on how to use it at [exploring the Public API Network](/docs/getting-started/exploring-public-api-network/).
+* Create a Postman account. Then, learn more about [managing your account](/docs/getting-started/installation/postman-account/), [customizing your Postman profile](/docs/getting-started/installation/postman-profile/), and [setting up Postman](/docs/getting-started/installation/settings/).
 
-* After you've created a few requests, you'll want to organize them into collections and workspaces. Check out [creating your first collection](/docs/getting-started/creating-the-first-collection/) and [creating a workspace](/docs/getting-started/creating-your-first-workspace/).
+* A great place to find APIs is the Postman Public API Network. Learn more on how to use it at [explore the Public API Network](/docs/getting-started/first-steps/exploring-public-api-network/).
 
-* You can also import requests and other data into Postman, and export it for use with other programs. Check out [importing and exporting data](/docs/getting-started/importing-and-exporting-data/).
+* After you've created a few requests, you'll want to organize them into collections and workspaces. Check out [create your first collection](/docs/getting-started/first-steps/creating-the-first-collection/) and [create a workspace](/docs/getting-started/first-steps/creating-your-first-workspace/).
 
-* Having trouble? Learn how to [troubleshoot app issues](/docs/getting-started/troubleshooting-inapp/).
+* You can also import requests and other data into Postman, and export it for use with other programs. Check out [importing and exporting data](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/).
+
+* Having trouble? Learn how to [troubleshoot app issues](/docs/introduction/troubleshooting-inapp/).

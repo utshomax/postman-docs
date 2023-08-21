@@ -1,13 +1,8 @@
 const fs = require('fs');
 const sh = require('shelljs');
 const crypto = require('crypto');
-const pingWebHook = require('./build/pingWebHook');
-const fetchBlogPosts = require('./build/fetchBlogPosts');
-const fetchEvents = require('./build/fetchEvents');
-const fetchFooter = require('./build/fetchFooter');
-const fetchNavbar = require('./build/fetchNavbar');
 const { allow } = require('./package.json');
-const fetchNavtopicsdropdown = require('./build/fetchNavtopicsdropdown');
+const bffData = require('./build/bffData');
 
 const { pmTech: allowedPmTech } = allow;
 const delay = 1000;
@@ -41,12 +36,8 @@ if (process.env.PM_TECH) {
 
 const prefetch = async () => {
   sh.exec('mkdir -p bff-data');
-  await pingWebHook();
-  fetchBlogPosts();
-  fetchEvents();
-  fetchFooter();
-  fetchNavbar();
-  fetchNavtopicsdropdown();
+
+  await bffData();
 
   let pmt = '';
 

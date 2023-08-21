@@ -49,7 +49,7 @@ Partner Workspaces enable you to collaborate with external partners directly in 
 
 1. Define a workspace **Name** and **Summary**.
 1. Under **Visibility**, select **Partner**.
-1. Select **Create workspace**.
+1. Select **Create Workspace**.
 
     <img alt="Create Partner Workspace" src="https://assets.postman.com/postman-docs/v10/create-partner-workspace-v10.jpg" width="400px"/>
 
@@ -153,7 +153,7 @@ Users can also be assigned the team-level Partner Manager role. Partner Managers
 
 When an external partner is invited to a Partner Workspace by a team they're working with, they only have access to that Partner Workspace and can't access any other workspaces or resources within the team. Partners don't have personal or team workspaces within the team they're partnering with.
 
-Within a Partner Workspace, partners with the Workspace Editor role can [import and export](/docs/getting-started/importing-and-exporting-data/) elements. They can also [fork elements](/docs/collaborating-in-postman/using-version-control/forking-entities/) within the same Partner Workspace or to another Partner Workspace within the same team. They can't fork elements outside the team.
+Within a Partner Workspace, partners with the Workspace Editor role can [import and export](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/) elements. They can also [fork elements](/docs/collaborating-in-postman/using-version-control/forking-entities/) within the same Partner Workspace or to another Partner Workspace within the same team. They can't fork elements outside the team.
 
 Within a Partner Workspace, partners with the Workspace Viewer role can [fork elements](/docs/collaborating-in-postman/using-version-control/forking-entities/) to another Partner Workspace within the same team where they're assigned the Workspace Editor role. They can't fork elements outside the team. Also, they can't export workspace resources.
 
