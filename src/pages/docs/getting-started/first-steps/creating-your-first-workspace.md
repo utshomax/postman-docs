@@ -9,6 +9,11 @@ contextual_links:
   - type: link
     name: "Creating a Workspace | Postman Level Up"
     url: "https://youtu.be/I10RCvMbPi0"
+  - type: subtitle
+    name: "Postman Academy"
+  - type: link
+    name: "API Beginner Learning Path"
+    url:  "https://academy.postman.com/path/api-beginner"
 ---
 
 Postman workspaces enable you to organize and work together on API projects with your team. Within each workspace you can share [APIs](/docs/designing-and-developing-your-api/creating-an-api/), [collections](/docs/getting-started/first-steps/creating-the-first-collection/), [environments](/docs/sending-requests/managing-environments/), and other Postman elements.
