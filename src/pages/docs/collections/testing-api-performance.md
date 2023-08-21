@@ -1,6 +1,6 @@
 ---
 title: "Testing API performance"
-updated: 2023-07-15
+updated: 2023-09-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -15,8 +15,6 @@ contextual_links:
     name: "Test your API’s performance by simulating real-world traffic with Postman"
     url: "https://blog.postman.com/postman-api-performance-testing/"
 ---
-
-> **Performance testing is available on [Postman Free, Basic, and Professional plans](https://www.postman.com/pricing/).** To learn more about availability for Enterprise plans, contact the [Postman sales team](https://www.postman.com/company/contact-sales/).
 
 Performance testing enables you to simulate user traffic, so you can observe how your API behaves under load and find out if the performance meets expectations. It can also help you identify any issues or bottlenecks that affect performance. You can use the _Collection Runner_ to test the performance of your API with the same requests, collections, and environments you use for [functional API tests](/docs/collections/running-collections/intro-to-collection-runs/).
 
@@ -77,12 +75,13 @@ To configure a performance test in the Postman desktop app, do the following:
 
 ### Virtual users and system resources
 
-The maximum number of virtual users a performance test can simulate depends on available system resources and the collection used for the test. Using pre-request or test scripts will reduce the number of virtual users that can be simulated.
+The number of virtual users a performance test can simulate depends on available system resources and the collection used for the test. Using pre-request or test scripts will reduce the number of virtual users that can be simulated. The maximum number of virtual users is determined by your [Postman plan](https://www.postman.com/pricing/).
 
 Use the following guidelines to understand how many virtual users you can simulate:
 
 * A host with 8 CPU cores and 16 GB RAM can simulate up to 250 virtual users
 * A host with 16 CPU cores and 32 GB RAM can simulate up to 500 virtual users
+* A host with XX CPU cores and XX GB RAM can simulate up to 1,000 virtual users
 
 Attempting to simulate a higher number of virtual users may cause inaccurate metrics and reduced throughput (requests per second). Postman recommends running a small test with 10 to 20 virtual users and observing system resource usage. You can use this information to estimate that maximum number of virtual users that can be simulated for your collection and host computer.
 
@@ -109,7 +108,11 @@ From the **Summary** tab, you can take the following actions:
 * Select **Stop** to stop the performance test.
 * Select **Run Again** to configure and start the performance test again.
 * Select **All Runs** to view a list of all past performance runs for the collection.
-* Select the share icon <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> to get a link to the performance report. Select **Copy Link** to copy the link to your clipboard. You can share the link with your teammates so they can view the results of the performance test.
+* Select the share icon <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> to share the performance report with others on your team:
+
+    * Select **Share Link** to get a link to the performance report you can share with your teammates. Select **Copy Link** to copy the link to your clipboard.
+    * Select **Export PDF** or **Export HTML** to download a copy of the performance report in PDF or HTML format.
+
 * Select the name of a request to open the request.
 
 ### Customizing the performance view
