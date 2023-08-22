@@ -28,6 +28,11 @@ contextual_links:
   - type: link
     name: "30 days of Postman for developers"
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
+  - type: subtitle
+    name: "Postman Academy"
+  - type: link
+    name: "Getting started with Postman"
+    url:  "https://academy.postman.com/getting-started-with-postman-2212"
 ---
 
 Postman provides a variety of tools to enable and enhance [collaboration within your team](https://www.postman.com/api-platform/api-collaboration/).

@@ -9,6 +9,11 @@ contextual_links:
   - type: link
     name: "Creating a Workspace | Postman Level Up"
     url: "https://youtu.be/I10RCvMbPi0"
+  - type: subtitle
+    name: "Postman Academy"
+  - type: link
+    name: "API Beginner Learning Path"
+    url:  "https://academy.postman.com/path/api-beginner"
 ---
 
 Postman workspaces enable you to organize and work together on API projects with your team. Within each workspace you can share [APIs](/docs/designing-and-developing-your-api/creating-an-api/), [collections](/docs/getting-started/first-steps/creating-the-first-collection/), [environments](/docs/sending-requests/managing-environments/), and other Postman elements.
@@ -21,7 +26,7 @@ To create a new workspace, do the following:
 
     <img alt="Change workspace or create new" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.1.jpg" width="300px"/>
 
-1. ([Free, Basic, and Professional plans only](https://www.postman.com/pricing)) You can use [workspace templates](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template) to help you set up a new workspace. Select a workspace template to populate the workspace with helpful information and sample collections, or select **Blank workspace** to create an empty workspace. Then select **Next**.
+1. You can use [workspace templates](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template) to help you set up a new workspace. Select a workspace template to populate the workspace with helpful information and sample collections, or select **Blank workspace** to create an empty workspace. Then select **Next**.
 
     > You can also apply a workspace template to a newly created workspace. To learn more, see [Creating workspaces with a template](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template).
 
@@ -33,7 +38,7 @@ To create a new workspace, do the following:
     * A **Private** workspace is visible to you and to any team members you invite to it ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
     * A **Team** workspace is visible to everyone on your team.
     * A **Public** workspace is visible to all Postman users.
-1. Select **Create** or **Create Workspace**.
+1. Select **Create**.
 
     <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-v10-2.jpg" width="400px"/>
 

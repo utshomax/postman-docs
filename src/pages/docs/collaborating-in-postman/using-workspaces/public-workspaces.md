@@ -72,7 +72,7 @@ To create a public workspace, do the following:
 
     <img alt="Workspace menu" src="https://assets.postman.com/postman-docs/v10/workspace-switcher-v10.jpg" width="300px"/>
 
-1. ([Free, Basic, and Professional plans only](https://www.postman.com/pricing)) You can use [workspace templates](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template) to help you set up a new workspace. Select a workspace template to populate the workspace with helpful information and sample collections, or select **Blank workspace** to create an empty workspace. Then select **Next**.
+1. You can use [workspace templates](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template) to help you set up a new workspace. Select a workspace template to populate the workspace with helpful information and sample collections, or select **Blank workspace** to create an empty workspace. Then select **Next**.
 
     > You can also apply a workspace template to a newly created workspace. To learn more, see [Creating workspaces with a template](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template).
 
@@ -82,11 +82,9 @@ To create a public workspace, do the following:
     > Within a team, you can't have two public workspaces with the same name.
 1. Under **Visibility**, select **Public**.
 
-1. Select **Create** or **Create Workspace**.
+1. Select **Create**.
 
     <img alt="Create public workspace" src="https://assets.postman.com/postman-docs/v10/create-public-workspace-v10.jpg" width="400px"/>
-
-> You can set up your new public workspace using a template. For more information, see [Creating workspaces with a template](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template).
 
 ## Converting an existing workspace to a public workspace
 
