@@ -47,7 +47,7 @@ If your API doesn't have a definition, you can generate an example definition th
 1. Select the definition type and format. This example uses OpenAPI and YAML.
 1. To start with a sample definition, select **Use a boilerplate**.
 
-    <img alt="Generating an API definition" src="https://assets.postman.com/postman-docs/v10/api-builder-author-definition-v10.17.jpg" width="400px"/>
+    <img alt="Generating an API definition" src="https://assets.postman.com/postman-docs/v10/api-builder-author-definition-v10.16.jpg" width="400px"/>
 
 1. Select **Create Definition**.
 
