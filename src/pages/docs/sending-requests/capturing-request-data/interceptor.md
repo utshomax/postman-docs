@@ -47,7 +47,7 @@ To open the Interceptor extension, select the Interceptor icon in your browser's
 
 ### Installing Interceptor Bridge
 
-If you're running Postman on Windows or Linux, or if you're using Postman v10.16 or earlier, you need to install Interceptor Bridge before you can capture requests and cookies. If you're using Postman v10.17 or later on macOS, you can skip this step. To check which version of Postman you're using, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings > About**.
+If you're on Linux (all Postman versions), macOS (Postman v10.16 or earlier), or Windows (Postman v10.17 or earlier), you need to install Interceptor Bridge before you can capture requests and cookies. If you're on macOS (Postman v10.17 or later) or Windows (Postman v10.18 or later), you can skip this step. To check which version of Postman you're using, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings > About**.
 
 To install Interceptor Bridge, select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** in the Postman footer. Then select the **Via Interceptor** tab and select **Install Interceptor Bridge**.
 

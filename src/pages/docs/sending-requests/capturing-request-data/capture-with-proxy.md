@@ -1,6 +1,6 @@
 ---
 title: "Capturing requests with the Postman proxy"
-updated: 2023-08-14
+updated: 2023-09-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -22,7 +22,7 @@ contextual_links:
     url: "https://medium.com/better-practices/reverse-engineering-an-api-403fae885303"
 ---
 
-> **Follow these steps if you're on macOS and using Postman v10.17 or later.** If you're running Postman on Windows or Linux, or if you're using Postman v10.16 or earlier, go to [Capturing HTTP requests](/docs/sending-requests/capturing-request-data/capturing-http-requests/) instead. To check which version of Postman you're using, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings > About**.
+> **Follow these steps if you're on macOS (Postman v10.17 or later) or Windows (Postman v10.18 or later).** If you're on Linux (all Postman versions), macOS (Postman v10.16 or earlier), or Windows (Postman v10.17 or earlier), go to [Capturing HTTP requests](/docs/sending-requests/capturing-request-data/capturing-http-requests/) instead. To check which version of Postman you're using, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings > About**.
 
 If you are using APIs to build client-side applications like mobile apps, websites, or desktop applications, you may want to inspect the HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. You can capture network traffic, including requests, responses, and cookies, using the proxy that's built into Postman.
 
@@ -142,9 +142,9 @@ You can use the Postman proxy to capture traffic from a client device such as a 
 
       <img alt="macOS network settings" src="https://assets.postman.com/postman-docs/v10/proxy-macos-network-settings-v10-17.jpg" />
 
-    <!--
     * On Windows, select **Start > Settings > Network & internet > Wi-Fi** or **Ethernet**. Your IP address is listed under **Properties**.
-    -->
+
+    SCREENSHOT
 
 1. Open the wireless settings of your client device and update the configuration of the network connection to use an HTTP Proxy. For example, in iOS:
 
@@ -158,13 +158,11 @@ You can use the Postman proxy to capture traffic from a client device such as a 
 
 > To capture secure HTTPS traffic, you need to install the `postman-proxy-ca.crt` certificate on the client device. To learn how to install the certificate on your device, go to [Capturing HTTPS traffic](/docs/sending-requests/capturing-request-data/capturing-https-traffic/).
 
-<!--
 #### Configuring a proxy on other devices
 
 The broader development community has published some useful tutorials for setting up a proxy server on various operating systems:
 
-* [Windows](https://www.howtogeek.com/tips/how-to-set-your-proxy-settings-in-windows-8.1/)
+* [Windows](https://support.microsoft.com/en-us/windows/use-a-proxy-server-in-windows-03096c53-0554-4ffe-b6ab-8b1deee8dae1#ID0EFD=Windows_10/)
 * [Linux](https://www.shellhacks.com/linux-proxy-server-settings-set-proxy-command-line/)
 * [macOS](https://support.apple.com/en-gb/guide/mac-help/mchlp2591/mac)
-* [Android](https://www.howtogeek.com/295048/how-to-configure-a-proxy-server-on-android/)
--->
+* [Android](https://proxyway.com/guides/android-proxy-settings)
