@@ -16,6 +16,8 @@ contextual_links:
     url: "https://blog.postman.com/postman-api-performance-testing/"
 ---
 
+> **Performance testing is available on [Postman Free, Basic, and Professional plans](https://www.postman.com/pricing/).** To learn more about availability for Enterprise plans, contact the [Postman sales team](https://www.postman.com/company/contact-sales/).
+
 Performance testing enables you to simulate user traffic, so you can observe how your API behaves under load and find out if the performance meets expectations. It can also help you identify any issues or bottlenecks that affect performance. You can use the _Collection Runner_ to test the performance of your API with the same requests, collections, and environments you use for [functional API tests](/docs/collections/running-collections/intro-to-collection-runs/).
 
 To configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to send to your API. Postman uses these requests to simulate the activity of your API's users. In the Collection Runner, you can set the duration of the test and the number of _virtual users_. Each virtual user runs the requests in the specified order in a repeating loop. All of the virtual users operate in parallel to simulate real-world load on your API. You can also choose whether the number of virtual users is fixed for the duration of the test or gradually ramps up during the test.
@@ -81,7 +83,6 @@ Use the following guidelines to understand how many virtual users you can simula
 
 * A host with 8 CPU cores and 16 GB RAM can simulate up to 250 virtual users
 * A host with 16 CPU cores and 32 GB RAM can simulate up to 500 virtual users
-* A host with XX CPU cores and XX GB RAM can simulate up to 1,000 virtual users
 
 Attempting to simulate a higher number of virtual users may cause inaccurate metrics and reduced throughput (requests per second). Postman recommends running a small test with 10 to 20 virtual users and observing system resource usage. You can use this information to estimate that maximum number of virtual users that can be simulated for your collection and host computer.
 
