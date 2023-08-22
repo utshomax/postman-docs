@@ -48,7 +48,7 @@ For example, if you have an `emails` API and an `sms` API, you could have the fo
 * `sms-api.yaml` - Root definition file for the `sms` API
 * `sms/postman/collections` - Collections directory for the `sms` API
 
-If you are working on a [multi-file API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#working-with-multi-file-api-definitions), you can choose which files to add to each API. Make sure to select the correct definition files when [adding files to an API](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#adding-files-from-a-connected-repository).
+If you're working on a [multi-file API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#working-with-multi-file-api-definitions), you can choose which files to add to each API. Make sure to select the correct definition files when [adding files to an API](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#adding-files-from-a-connected-repository).
 
 If there are common components referenced by multiple APIs, you can keep them in separate directories (such as `schemas` or `responses`). You can then add the common component files to each API as needed. Keep in mind that if you push changes to a component file from one API, other APIs that use the same component will be affected.
 
