@@ -142,9 +142,7 @@ You can use the Postman proxy to capture traffic from a client device such as a 
 
       <img alt="macOS network settings" src="https://assets.postman.com/postman-docs/v10/proxy-macos-network-settings-v10-17.jpg" />
 
-    * On Windows, select **Start > Settings > Network & internet > Wi-Fi** or **Ethernet**. Your IP address is listed under **Properties**.
-
-    SCREENSHOT
+    * On Windows, select **Start > Settings > Network & Internet > Wi-Fi** or **Ethernet**, and then select your connection. Your IP address is listed under **Properties**.
 
 1. Open the wireless settings of your client device and update the configuration of the network connection to use an HTTP Proxy. For example, in iOS:
 
@@ -162,7 +160,7 @@ You can use the Postman proxy to capture traffic from a client device such as a 
 
 The broader development community has published some useful tutorials for setting up a proxy server on various operating systems:
 
+* [macOS](https://support.apple.com/en-gb/guide/mac-help/mchlp2591/mac)
 * [Windows](https://support.microsoft.com/en-us/windows/use-a-proxy-server-in-windows-03096c53-0554-4ffe-b6ab-8b1deee8dae1#ID0EFD=Windows_10/)
 * [Linux](https://www.shellhacks.com/linux-proxy-server-settings-set-proxy-command-line/)
-* [macOS](https://support.apple.com/en-gb/guide/mac-help/mchlp2591/mac)
 * [Android](https://proxyway.com/guides/android-proxy-settings)
