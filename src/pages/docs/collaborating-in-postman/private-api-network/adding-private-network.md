@@ -82,13 +82,13 @@ You can search and filter elements in the network. Select **Search Postman** in 
 
 * To filter by element type, select **Entity type**, then select **Workspaces**, **Collections**, **APIs**, **Request**, or **Folder**.
 * To filter based on element tags, select **Search tags**, then select the tags added to collections, APIs, or workspaces. Learn more about adding tags to [collections](/docs/collections/using-collections/#tagging-a-collection), [APIs](/docs/designing-and-developing-your-api/managing-apis/#tagging-apis), and [workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#tagging-a-workspace).
-* To filter by an element's location in a folder, select **Location**, then select the folder or sub-folder.
+* To filter by an element's location in a folder in the left sidebar, select **Location**, then select the folder or subfolder. When you filter by a folder, your search results return elements in the folder and its subfolders. To filter by all elements in the network, including elements not organized in folders, don't filter by an element's location.
 
 <img alt="Private API List" src="https://assets.postman.com/postman-docs/v10/private-api-network-list-v10-2.jpg"/>
 
 ### Sort elements in a folder
 
-You can select a folder to sort elements in it, enabling you to sort elements in the folder and its sub-folders. To sort elements, select a folder or sub-folder, then select the **Sort by** dropdown list. The options are:
+You can select a folder to sort elements in it, enabling you to sort elements in the folder and its subfolders. To sort elements, select a folder or subfolder, then select the **Sort by** dropdown list. The options are:
 
 * **Recently added** - Sort elements by the date they were added.
 * **A to Z** - Sort elements alphabetically.
@@ -99,12 +99,12 @@ You can select a folder to sort elements in it, enabling you to sort elements in
 
 ## Reviewing details about elements
 
-To review information about workspace, collection, and APIs, select it from the left sidebar. On the right, you can view the its description and the editors who have worked on it. You can view the following details:
+To review information about workspaces, collections, and APIs, select it from the left sidebar. On the right, you can view its description and the editors who have worked on it. You can view the following details:
 
 * For workspaces, you can view all of the collections and APIs inside them.
 * For collections, you can view available documentation. In the documentation, you can select **Try Request** next to a request or **Try Example** next to an example to open it in a new tab. To learn more about trying an example, see [Trying an example](/docs/sending-requests/examples/#trying-an-example).
 * For APIs, you can view API definitions and associated API documentation. You can also view collections added to the API.
-    > If you published an API with an API definition that has violations, your API documentation might not display as expected. To learn more, see [Publishing an API to consumers](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/#publishing-an-api-to-consumers).
+    > If you published an API with an API definition that has syntax errors, your API documentation might not display as expected. To learn more about viewing syntax errors, see [Viewing syntax errors in your API definition](/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/#viewing-syntax-errors-in-your-api-definition).
 
 You can also open the element in its workspace. Select an element from the left sidebar, and then select either **View in Workspace** or **Open Workspace** in the upper-right corner.
 
