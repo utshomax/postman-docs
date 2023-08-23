@@ -61,7 +61,7 @@ Enter a **Request name**. Instead of selecting an existing collection in **Save 
 
 ### Step 3: Save a response as an example
 
-To save the response you received from the Postman Echo service, select **Save as Example**. The example is saved underneath the request, inside the `C1` collection.
+To save the response you received from the Postman Echo service, select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save as Example**. The example is saved underneath the request, inside the `C1` collection.
 
 <img alt="Save an example" src="https://assets.postman.com/postman-docs/v10/mock-examples-step3a-v10-2.jpg" width="350px">
 
@@ -135,15 +135,15 @@ Here's a scenario that illustrates how matching query parameters works:
 * The collection **Query Params Demo** has one request **Request1** with two examples, **Example1** and **Example2**.
 * In **Example1**, the parameter `id` has a value of `1`:
 
-    <img alt="Query parameters example 1" src="https://assets.postman.com/postman-docs/mock-examples-params1-v9-1.jpg" width="808px">
+    <img alt="Query parameters example 1" src="https://assets.postman.com/postman-docs/v10/mock-examples-params1-v10.jpg" width="808px">
 
 * In **Example2**, the parameter `id` has a value of `5`:
 
-    <img alt="Query parameters example 2" src="https://assets.postman.com/postman-docs/mock-examples-params2-v9-1.jpg" width="808px">
+    <img alt="Query parameters example 2" src="https://assets.postman.com/postman-docs/v10/mock-examples-params2-v10.jpg" width="808px">
 
 * In this scenario, **Example1** and **Example2** are passing `1` and `5` respectively. When you send a request to the mock server URL and pass these different query parameters, Postman returns the exact response that matches both the path and the passed parameters.
 
-    <img alt="Query parameters mock response" src="https://assets.postman.com/postman-docs/v10/mock-examples-params3-v10.jpg" width="808px">
+    <img alt="Query parameters mock response" src="https://assets.postman.com/postman-docs/v10/mock-examples-params3-v10-2.jpg" width="808px">
 
 > If no exact match is found, Postman returns the best response based on its [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/).
 
@@ -153,8 +153,8 @@ Postman's mock service enables you to mock GraphQL queries. To mock GraphQL quer
 
 Make sure to set the `Content-type` header to `application/json` in your examples.
 
-<img alt="Query parameters example 1" src="https://assets.postman.com/postman-docs/mock-examples-graphql1-v9-1.jpg" width="809px">
+<img alt="Query parameters example 1" src="https://assets.postman.com/postman-docs/v10/mock-examples-graphql1-v10.jpg" width="809px">
 
 Also make sure to pass the `x-mock-match-request-body` header with a value of `true` when sending a request to the mock server URL.
 
-<img alt="Query parameters example 1" src="https://assets.postman.com/postman-docs/mock-examples-graphql2-v9-1.jpg" width="809px">
+<img alt="Query parameters example 1" src="https://assets.postman.com/postman-docs/v10/mock-examples-graphql2-v10.jpg" width="809px">
