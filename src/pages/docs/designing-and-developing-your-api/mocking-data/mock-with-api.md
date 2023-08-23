@@ -41,7 +41,7 @@ To mock a collection using the Postman API, you first need to know the collectio
 
 ### Get the collection ID
 
-Create a new request in Postman, leave `GET` selected for the method, and enter the following URL: `https://api.getpostman.com/collections`
+Create a new request in Postman, leave `GET` selected for the method, and enter the following URL: `https://api.getpostman.com/collections`.
 
 If you send the request, you'll receive an authentication error. To [authenticate with the Postman API](/docs/developer/postman-api/authentication/), add an `x-api-key` header to your request and sets its value to your Postman API key. (You can [generate a new Postman API key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key) if you don't already have one.)
 
@@ -53,7 +53,7 @@ Select **Send** to send the `GET All Collections` request. The response pane dis
 
 ### Get the environment ID
 
-Create a new request in Postman, leave `GET` selected for the method, and enter the following URL: `https://api.getpostman.com/environments`
+Create a new request in Postman, leave `GET` selected for the method, and enter the following URL: `https://api.getpostman.com/environments`.
 
 Make sure to add an `x-api-key` header with your Postman API Key, and then select **Send**. The response pane displays a list of all your environments. Search for the `testAPIenv` environment and locate the `uid` value.
 
@@ -65,7 +65,7 @@ Make sure to add an `x-api-key` header with your Postman API Key, and then selec
 
 After getting the collection ID (and optionally the environment ID), you can use the [POST Create Mock](https://documenter.getpostman.com/view/12959542/UV5XjJV8?_ga=2.100201950.1771040895.1644854022-1154140310.1627600155#296628ed-d49b-4206-b4a7-d622e693945c) endpoint to create a mock server.
 
-First, create a new request in Postman, select `POST` for the method, and enter the following URL: `https://api.getpostman.com/mocks`
+First, create a new request in Postman, select `POST` for the method, and enter the following URL: `https://api.getpostman.com/mocks`.
 
 Next, add the following **raw** JSON code to the **Body** tab of the request, substituting your collection ID and environment ID:
 
@@ -87,7 +87,7 @@ As always, make sure to add an `x-api-key` header with your Postman API Key. Whe
 
 ## Step 4: Get the mock server URL
 
-To send a request to your mock server, you need to know the mock server URL. You can retrieve the mock server URL using the [GET All Mocks](https://documenter.getpostman.com/view/12959542/UV5XjJV8?_ga=2.100201950.1771040895.1644854022-1154140310.1627600155#52a729a4-4a36-46e5-bfdf-fda0af228d2f) endpoint. Create a new request in Postman, leave `GET` selected for the method, and enter the following URL: `https://api.getpostman.com/mocks`
+To send a request to your mock server, you need to know the mock server URL. You can retrieve the mock server URL using the [GET All Mocks](https://documenter.getpostman.com/view/12959542/UV5XjJV8?_ga=2.100201950.1771040895.1644854022-1154140310.1627600155#52a729a4-4a36-46e5-bfdf-fda0af228d2f) endpoint. Create a new request in Postman, leave `GET` selected for the method, and enter the following URL: `https://api.getpostman.com/mocks`.
 
 Add an `x-api-key` header with your Postman API Key, and then select **Send**. The response pane displays a list of all your mock servers. Search for the `testAPImock` mock server and locate the `mockUrl` value. You'll use this URL to send a request to the mock server.
 
@@ -97,7 +97,7 @@ Add an `x-api-key` header with your Postman API Key, and then select **Send**. T
 
 ## Step 5: Send a request to the mock server
 
-You are ready to simulate requests using your collection. To send a request to the mock server, use the mock server URL and append the request path: `{{mockURL}}/path`
+You are ready to simulate requests using your collection. To send a request to the mock server, use the mock server URL and append the request path: `{{mockURL}}/path`.
 
 Try this yourself by simulating `Request 1` in the `testAPI` collection. Create a new request in Postman, leaving `GET` selected for the method. For the request URL, enter your mock server URL and append the path from the request:
 
