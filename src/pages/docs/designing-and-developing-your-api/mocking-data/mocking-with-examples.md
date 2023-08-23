@@ -51,7 +51,7 @@ This request calls the [Postman Echo](https://docs.postman-echo.com/#078883ea-ac
 
 ### Step 2: Save the request to a collection
 
-Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save the request in a collection. [Collections](/docs/sending-requests/intro-to-collections/) are groups of requests that you can use to organize your work and create API workflows.
+To save the request in a collection, select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save**. [Collections](/docs/sending-requests/intro-to-collections/) are groups of requests that you can use to organize your work and create API workflows.
 
 <img alt="Save a request" src="https://assets.postman.com/postman-docs/v10/mock-examples-step2a-v10.jpg" width="808px">
 

@@ -29,7 +29,7 @@ In Postman, [create a new collection](/docs/sending-requests/intro-to-collection
 
 [Add a new request](/docs/sending-requests/requests/#creating-requests) to the `testAPI` collection. In the example below, the collection has one request called `Request 1` that sends a `GET` request to `https://postman-echo.com/get?test=123`. Feel free to add more requests if you like.
 
-Open the first request in the collection and select **Send** to send the request. Then, in the response pane, select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save as Example**. Repeat this process for each request in the collection. Your mock server will use these [saved examples](/docs/sending-requests/examples/) to return mock data.
+To send the request, open the first request in the collection and select **Send**. Then, in the response pane, select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save as Example**. Repeat this process for each request in the collection. Your mock server uses these [saved examples](/docs/sending-requests/examples/) to return mock data.
 
 <img alt="Response saved as an example" src="https://assets.postman.com/postman-docs/v10/mock-api-saved-example-v10.jpg" width="893px">
 
