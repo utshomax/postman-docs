@@ -1,5 +1,5 @@
 ---
-title: 'Importing data from a Git repository'
+title: "Importing data from a Git repository"
 updated: 2023-07-19
 contextual_links:
   - type: section
@@ -81,7 +81,7 @@ To import data from a remote Bitbucket repository:
 
 > You must sign in to a [Postman account](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
-1. In Postman, select **Import** then select the **Bitbucket** button.
+1. In Postman, select **Import > Other Sources > Bitbucket**.
 
 1. Confirm or sign in to your Bitbucket account and authorize **postmanlabs** to access your repositories if necessary.
 
@@ -113,7 +113,7 @@ To import data from a remote GitLab repository:
 
 > You must sign in to a [Postman account](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
-1. In Postman, select **Import** then select the **GitLab** button.
+1. In Postman, select **Import > Other Sources > GitLab**.
 
 1. Confirm or sign in to your GitLab account and authorize **postmanlabs** to access your repositories if necessary.
 

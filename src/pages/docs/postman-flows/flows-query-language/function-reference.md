@@ -889,7 +889,7 @@ $uppercase("hello") -> "HELLO"
 
 ### uuid
 
-Returns a unique id (UUID version 4) as a string.
+Returns a unique ID (UUID version 4) as a string.
 
 <table class="code-ref-table">
 <tbody>
