@@ -96,10 +96,10 @@ Your tests can include multiple assertions as part of a single test. Use this to
 ```js
 pm.test("The response has all properties", () => {
     //parse the response JSON and test three properties
-    const responseJson = pm.response.json();
-    pm.expect(responseJson.args.type).to.eql('vip');
-    pm.expect(responseJson.args.name).to.be.a('string');
-    pm.expect(responseJson.args.id).to.have.lengthOf(1);
+    const responseJson = pm.response.json().args;
+    pm.expect(responseJson.type).to.eql('vip');
+    pm.expect(responseJson.name).to.be.a('string');
+    pm.expect(responseJson.id).to.have.lengthOf(1);
 });
 ```
 
@@ -168,15 +168,15 @@ Check for particular values in the response body:
 
 ```js
 /* Response has the following structure:
-{
+"args": {
   "name": "Jane",
   "age": 23
-}
+},
 */
 pm.test("Person is Jane", () => {
-  const responseJson = pm.response.json();
-  pm.expect(responseJson.args.name).to.eql("Jane");
-  pm.expect(responseJson.args.age).to.eql(23);
+  const responseJson = pm.response.json().args;
+  pm.expect(responseJson.name).to.eql("Jane");
+  pm.expect(responseJson.age).to.eql(23);
 });
 ```
 
@@ -220,7 +220,7 @@ Test for a response header having a particular value:
 
 ```js
 pm.test("Content-Type header is application/json", () => {
-  pm.expect(pm.response.headers.get('Content-Type')).to.eql('application/json');
+  pm.expect(pm.response.headers.get('Content-Type')).to.include('application/json');
 });
 ```
 
@@ -276,7 +276,7 @@ Test the type of any part of the response:
 
 ```js
 /* Response has the following structure:
-{
+"args": {
   "name": "Jane",
   "age": 29,
   "hobbies": [
@@ -284,9 +284,9 @@ Test the type of any part of the response:
     "painting"
   ],
   "email": null
-}
+},
 */
-const jsonData = pm.response.json();
+const jsonData = pm.response.json().args;
 pm.test("Test data type of the response", () => {
   pm.expect(jsonData).to.be.an("object");
   pm.expect(jsonData.name).to.be.a("string");
@@ -303,7 +303,7 @@ Check if an array is empty, and if it contains particular items:
 
 ```js
 /* Response has the following structure:
-{
+"args": {
   "errors": [],
   "areas": [ "goods", "services" ],
   "settings": [
@@ -316,14 +316,14 @@ Check if an array is empty, and if it contains particular items:
       "detail": [ "light", "large" ]
     }
   ]
-}
+},
 */
 
-const jsonData = pm.response.json();
+const jsonData = pm.response.json().args;
 pm.test("Test array properties", () => {
     //errors array is empty
   pm.expect(jsonData.errors).to.be.empty;
-    //areas includes "goods"
+    //areas array includes "goods"
   pm.expect(jsonData.areas).to.include("goods");
     //get the notification settings object
   const notificationSettings = jsonData.settings.find
@@ -345,6 +345,12 @@ pm.test("Test array properties", () => {
 Assert that an object contains keys or properties:
 
 ```js
+/* Response has the following structure:
+"args": {
+  "a": 1,
+  "b": 2
+},
+*/
 pm.expect({a: 1, b: 2}).to.have.all.keys('a', 'b');
 pm.expect({a: 1, b: 2}).to.have.any.keys('a', 'b');
 pm.expect({a: 1, b: 2}).to.not.have.any.keys('c', 'd');
