@@ -1,6 +1,6 @@
 ---
 title: "Test script examples"
-updated: 2021-11-15
+updated: 2023-08-25
 search_keyword: "pm.test, pm.expect, pm.response.json, pm.sendRequest, response.json"
 contextual_links:
   - type: section
@@ -367,13 +367,13 @@ Check a response value against a list of valid options:
 
 ```js
 /* Response has the following structure:
-{
+"args": {
   "type": "Subscriber"
-}
+},
 */
 
 pm.test("Value is in valid list", () => {
-  pm.expect(pm.response.json().type)
+  pm.expect(pm.response.json().args.type)
     .to.be.oneOf(["Subscriber", "Customer", "User"]);
 });
 ```
@@ -384,11 +384,11 @@ Check that an object is part of a parent object:
 
 ```js
 /* Response has the following structure:
-{
+"args": {
   "id": "d8893057-3e91-4cdd-a36f-a0af460b6373",
   "created": true,
   "errors": []
-}
+},
 */
 
 pm.test("Object is contained", () => {
@@ -396,11 +396,11 @@ pm.test("Object is contained", () => {
     "created": true,
     "errors": []
   };
-  pm.expect(pm.response.json()).to.deep.include(expectedObject);
+  pm.expect(pm.response.json().args).to.deep.include(expectedObject);
 });
 ```
 
-Using `.deep` causes all `.equal`, `.include`, `.members`, `.keys`, and `.property` assertions that follow in the chain to use deep equality (loose equality) instead of strict (`===`) equality. While the `.eql` also compares loosely, `.deep.equal` causes deep equality comparisons to also be used for any other assertions that follow in the chain, while `.eql` doesn't.
+Using `.deep` causes all `.equal`, `.include`, `.members`, `.keys`, and `.property` assertions that follow in the chain to use deep equality (loose equality) instead of strict (`===`) equality. While `.eql` also compares loosely, `.deep.equal` causes deep equality comparisons to also be used for any other assertions that follow in the chain, while `.eql` doesn't.
 
 ### Asserting the current environment
 
@@ -414,7 +414,7 @@ pm.test("Check the active environment", () => {
 
 ## Troubleshooting common test errors
 
-When you encounter errors or unexpected behavior in your test scripts, [the Postman Console](/docs/sending-requests/troubleshooting-api-requests/) can help you to identify the source. By combining `console.log()`, `console.info()`, `console.warn()` and `console.error()` debug statements with your test assertions, you can examine the content of the HTTP requests and responses, and Postman data items such as variables. You can also use the `console.clear()` method to clear information from the console. Select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** from the Postman footer to open it.
+When you encounter errors or unexpected behavior in your test scripts, [the Postman Console](/docs/sending-requests/troubleshooting-api-requests/) can help you to identify the source. By combining `console.log()`, `console.info()`, `console.warn()`, and `console.error()` debug statements with your test assertions, you can examine the content of the HTTP requests and responses, and Postman data items such as variables. You can also use the `console.clear()` method to clear information from the console. Select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** from the Postman footer to open it.
 
 ![Console info](https://assets.postman.com/postman-docs/v10/console-logs-in-pane-v10.jpg)
 
@@ -422,19 +422,19 @@ Log the value of a variable or response property:
 
 ```js
 console.log(pm.collectionVariables.get("name"));
-console.log(pm.response.json().name);
+console.log(pm.response.json().args.name);
 ```
 
 Log the type of a variable or response property:
 
 ```js
-console.log(typeof pm.response.json().id);
+console.log(typeof pm.response.json().args.id);
 ```
 
 Use console logs to mark code execution, sometimes known as "trace statements":
 
 ```js
-if (pm.response.json().id) {
+if (pm.response.json().args.id) {
   console.log("id was found!");
   // do something
 } else {
@@ -458,24 +458,30 @@ This happens because the test is comparing a number to a string value. The test 
 You may encounter the `ReferenceError: <variable> is not defined` issue. This typically happens when you're attempting to reference a JSON object that hasn't been declared or is outside the scope of your test code.
 
 ```js
+/* Response has the following structure:
+"args": {
+  "name": "John",
+  "age": 29
+},
+*/
 pm.test("Test 1", () => {
-  const jsonData = pm.response.json();
+  const jsonData = pm.response.json().args;
   pm.expect(jsonData.name).to.eql("John");
 });
 
 pm.test("Test 2", () => {
-  pm.expect(jsonData.age).to.eql(29); // jsonData is not defined
+  pm.expect(jsonData.age).to.eql(29); // ReferenceError: jsonData is not defined
 });
 ```
 
-Make sure variables are accessible to all test code. For example, moving `const jsonData = pm.response.json();` before the first `pm.test` would make it available to both test functions.
+Make sure all test code can access your variables. For example, moving `const jsonData = pm.response.json().args;` before the first `pm.test` would make it available to both test functions.
 
 ### Assertion undefined error
 
-You may encounter the `AssertionError: expected undefined to deeply equal..` issue. Typically this happens when you are referring to a property that doesn't exist or is out of scope.
+You may encounter the `AssertionError: expected undefined to deeply equal <value>` issue. Typically this happens when you are referring to a property that doesn't exist or is out of scope.
 
 ```js
-const jsonData = pm.response.json();
+const jsonData = pm.response.json().args;
 pm.expect(jsonData.name).to.eql("John");
 ```
 
@@ -483,7 +489,7 @@ In this example, if you get the error `AssertionError: expected undefined to dee
 
 ### Test not failing
 
-There may be occasions where you expect a test to fail and it doesn't. Make sure your test code is syntactically correct and send your request again.
+There may be occasions where you expect a test to fail and it doesn't. Make sure your test code is syntactically correct, then resend your request.
 
 ```js
 /* Test function not properly defined - missing second parameter
@@ -503,12 +509,14 @@ const schema = {
  "type": "boolean"
  }
 };
+
+const schemaType = schema.items.type
 const data1 = [true, false];
 const data2 = [true, 123];
 
 pm.test('Schema is valid', function() {
-  pm.expect(tv4.validate(data1, schema)).to.be.true;
-  pm.expect(tv4.validate(data2, schema)).to.be.true;
+  pm.expect(tv4.validate(data1, schemaType)).to.be.true;
+  pm.expect(tv4.validate(data2, schemaType)).to.be.true;
 });
 ```
 
@@ -522,6 +530,7 @@ const schema = {
     }
   }
 };
+
 pm.test('Schema is valid', function() {
   pm.response.to.have.jsonSchema(schema);
 });
@@ -550,42 +559,42 @@ tests["Body contains user_id"] = responsebody.has("user_id");
 Add as many keys as needed, depending on how many things you want to test for. View your test results in the response viewer under the **Tests** tab. The tab header shows how many tests passed, and the keys that you set in the tests variable are listed there. If the value evaluates to true, the test passed.
 
 ```js
-//set an environment variable
+//Set an environment variable
 postman.setEnvironmentVariable("key", "value");
 
-//set a nested object as an environment variable
+//Set a nested object as an environment variable
 const array = [1, 2, 3, 4];
 postman.setEnvironmentVariable("array", JSON.stringify(array, null, 2));
 const obj = { a: [1, 2, 3, 4], b: { c: 'val' } };
 postman.setEnvironmentVariable("obj", JSON.stringify(obj));
 
-//get an environment variable
+//Get an environment variable
 postman.getEnvironmentVariable("key");
 
-//get an environment variable whose value is a stringified object
-//(wrap in a try-catch block if the data is coming from an unknown source)
+//Get an environment variable whose value is a stringified object
+//(Wrap in a try-catch block if the data is coming from an unknown source)
 const array = JSON.parse(postman.getEnvironmentVariable("array"));
 const obj = JSON.parse(postman.getEnvironmentVariable("obj"));
 
-//clear an environment variable
+//Clear an environment variable
 postman.clearEnvironmentVariable("key");
 
-//set a global variable
+//Set a global variable
 postman.setGlobalVariable("key", "value");
 
-//get a global variable
+//Get a global variable
 postman.getGlobalVariable("key");
 
-//clear a global variable
+//Clear a global variable
 postman.clearGlobalVariable("key");
 
-//check if response body contains a string
+//Check if response body contains a string
 tests["Body matches string"] = responseBody.has("string_you_want_to_search");
 
-//check if response body is equal to a string
+//Check if response body is equal to a string
 tests["Body is correct"] = responseBody === "response_body_string";
 
-//check for a JSON value
+//Check for a JSON value
 const data = JSON.parse(responseBody);
 tests["Your test name"] = data.value === 100;
 
@@ -597,20 +606,20 @@ tests["Content-Type is present"] = postman.getResponseHeader("Content-Type");
 //Content-Type is present (Case-sensitive)
 tests["Content-Type is present"] = responseHeaders.hasOwnProperty("Content-Type");
 
-//response time is less than 200ms
+//Response time is less than 200ms
 tests["Response time is less than 200ms"] = responseTime < 200;
 
-//response time is within a specific range
+//Response time is within a specific range
 //(lower bound inclusive, upper bound exclusive)
 tests["Response time is acceptable"] = _.inRange(responseTime, 100, 1001);
 
-//status code is 200
+//Status code is 200
 tests["Status code is 200"] = responseCode.code === 200;
 
-//code name contains a string
+//Code name contains a string
 tests["Status code name has string"] = responseCode.name.has("Created");
 
-//successful POST request status code
+//Successful POST request status code
 tests["Successful POST request"] = responseCode.code === 201 || responseCode.code === 202;
 ```
 
