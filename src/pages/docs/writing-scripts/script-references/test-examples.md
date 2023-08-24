@@ -123,7 +123,7 @@ const responseJson = xml2Json(pm.response.text());
 
 > If you're dealing with complex XML responses you may find [console logging](/docs/sending-requests/troubleshooting-api-requests/#using-the-console) useful.
 
-To parse CSV, use the [CSV parse](https://github.com/adaltas/node-csv/tree/master/packages/csv-parse) utility:
+To parse CSV, use the [CSV parse (csv-parse/lib/sync)](https://csv.js.org/parse/) utility:
 
 ```js
 const parse = require('csv-parse/lib/sync');
@@ -501,7 +501,7 @@ pm.test("Not failing", function () {
 
 ## Validating response structure
 
-You can validate your JSON schema with Tiny Validator V4 (tv4):
+You can validate your JSON schema with [Tiny Validator V4 (tv4)](https://github.com/geraintluff/tv4):
 
 ```js
 const schema = {
@@ -520,7 +520,7 @@ pm.test('Schema is valid', function() {
 });
 ```
 
-You can also validate your JSON schema with the Ajv JSON schema validator:
+You can also validate your JSON schema with the [Ajv JSON schema validator](https://www.npmjs.com/package/ajv):
 
 ```js
 const schema = {
