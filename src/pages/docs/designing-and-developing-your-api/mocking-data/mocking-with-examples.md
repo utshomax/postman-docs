@@ -135,20 +135,20 @@ You can add another example to test how responses from the mock service depend o
 
 ## Using query parameters
 
-Postman's mock service uses a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to select the most appropriate saved example to return in response to a request. As part of this algorithm, the mock server looks at the query parameters when matching requests to saved examples. If you have examples that differ only in their query parameters, you can mock different responses for different query parameters on the same request path. In this case, the mock server will return the exact response matching that request path and the corresponding query parameters.
+Postman's mock service uses a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to select the best saved example to return in response to a request. As part of this algorithm, the mock server looks at the request path and its query parameters, matching requests to saved examples. If you have examples with the same request path but different query parameters, you can mock different responses for different query parameters on the same request path.
 
-Here's a scenario that illustrates how matching query parameters works:
+The following scenario demonstrates how the matching algorithm selects the best saved example:
 
-* The collection **Query Params Demo** has one request **Request1** with two examples, **Example1** and **Example2**.
-* In **Example1**, the parameter `id` has a value of `1`:
+* The collection **Query Params Demo** has one request **Request1** with two examples: **Example1** and **Example2**.
+* In **Example1**, the parameter `id` has a value of `1`.
 
     <img alt="Query parameters example 1" src="https://assets.postman.com/postman-docs/v10/mock-examples-params1-v10.jpg" width="808px">
 
-* In **Example2**, the parameter `id` has a value of `5`:
+* In **Example2**, the parameter `id` has a value of `5`.
 
     <img alt="Query parameters example 2" src="https://assets.postman.com/postman-docs/v10/mock-examples-params2-v10.jpg" width="808px">
 
-* In this scenario, **Example1** and **Example2** are passing `1` and `5` respectively. When you send a request to the mock server URL and pass these different query parameters, Postman returns the exact response that matches both the path and the passed parameters.
+* In this scenario, **Example1** and **Example2** have the same request path (`/get`) but they each have a query parameter (`id`) with different values. When you send a request to the mock server URL and pass these different query parameters, Postman returns the exact response that matches both the path and the query parameters.
 
     <img alt="Query parameters mock response" src="https://assets.postman.com/postman-docs/v10/mock-examples-params3-v10-2.jpg" width="808px">
 
