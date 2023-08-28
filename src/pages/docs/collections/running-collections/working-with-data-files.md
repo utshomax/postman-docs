@@ -104,6 +104,6 @@ In this example, you will create a collection, write a test for variable values,
 
 ## Errors when reading data files
 
-You may encounter errors when Postman attempts to read your data file during a collection run. If this happens, check to ensure your file is properly formatted. For guidance, see [Format data file](#format-data-file).
+You may encounter errors when Postman attempts to read your data file during a collection run. If this happens, check to ensure your file is properly formatted. For guidance, see [Format data file](#data-file-format).
 
 If the errors persist, [contact the Postman support team](https://support.postman.com/hc/en-us).
