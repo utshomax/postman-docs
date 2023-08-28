@@ -39,7 +39,7 @@ The JSON file should be formatted as an array of key-value pairs. The keys will 
 
 <img alt="JSON format" src="https://assets.postman.com/postman-docs/v10/ramen-json-screenshot.jpg" width="300px"/>
 
-## Run a collection with data files containing preceding zeroes and country codes
+## Run a collection with data files
 
 Suppose you have a collection with a simple request that accepts a serial and contact number as query parameters and a simple test to validate if the variable value is `true`.
 
