@@ -31,7 +31,7 @@ Format the CSV file so that the first row contains the variable names you want t
 
 Note the following:
 
-* If your CSV file contains numbers with preceding zeroes (for example, `000000345`) or phone numbers (for example, `+12125556709`), you will need to adjust the data type in **Preview**. Learn how in the next section.
+* If your CSV file contains numbers with preceding zeroes (for example, `000000345`) or phone numbers (for example, `+12125556709`), you'll need to adjust the data type in **Preview**. Learn how in the next section.
 
 * If the numbers in your data file are larger than 15 digits, you'll need to format them as text in your spreadsheet program, so they're not truncated during import.
 
