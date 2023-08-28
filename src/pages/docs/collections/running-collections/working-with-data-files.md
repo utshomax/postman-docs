@@ -29,7 +29,7 @@ Format the CSV file so that the first row contains the variable names you want t
 
 <img alt="CSV format" src="https://assets.postman.com/postman-docs/v10/ramen-csv-screenshot.jpg" width="300px"/>
 
-Note the following:
+For CSV files, note the following:
 
 * If your CSV file contains numbers with preceding zeroes (for example, `000000345`) or phone numbers (for example, `+12125556709`), you'll need to adjust the data type in **Preview**. Learn how in the next section.
 
