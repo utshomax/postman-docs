@@ -23,7 +23,7 @@ contextual_links:
 
 Postman enables you to import a CSV or JSON file, and use the values from the data file in Collection Runner. For more information about collection runs, see [Using the Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 
-## Format data file
+## Data file format
 
 Format the CSV file so that the first row contains the variable names you want to use inside the requests. After that, every row will be used as a data row. The line endings of the CSV file must be in the UNIX format. Each row should have the same number of columns.
 
@@ -31,9 +31,9 @@ Format the CSV file so that the first row contains the variable names you want t
 
 For CSV files, note the following:
 
-* If your CSV file contains numbers with preceding zeroes (for example, `000000345`) or phone numbers (for example, `+12125556709`), you'll need to adjust the data type in **Preview**. Learn how in the next section.
+* If your CSV file contains numbers with preceding zeroes (for example, `000000345`) or phone numbers (for example, `+12125556709`), you'll need to specify the column type in **Preview**. Learn how in the next section.
 
-* If the numbers in your data file are larger than 15 digits, you'll need to format them as text in your spreadsheet program, so they're not truncated during import.
+* If the numbers in your data file are longer than 15 digits, you'll need to format them as text in your spreadsheet program, so they're not truncated during import.
 
 JSON files should be formatted as an array of key-value pairs. Each key is the name of a variable, and the value is the data to use within the request.
 
@@ -45,7 +45,7 @@ Suppose you have a collection with a simple request that accepts a serial and co
 
 Suppose the serial numbers in your data file contain preceding zeroes and the contact numbers have a country prefix with the `+` symbol.
 
-In this example, you will create a collection, write a test for variable values, and import a CSV file into the Collection Runner. You will preview the file, make any adjustments to the data types, and run the collection. Then, you will inspect your log to ensure your data was parsed correctly.
+In this example, you will create a collection, write a test for variable values, and import a CSV file into the Collection Runner. You will preview the file, specify any column types if necessary, and run the collection. Then, you will inspect your log to ensure your data was parsed correctly.
 
 1. From the **Collections** menu, select **+** to add a new collection. Then, name the collection **CSV Data Types**.
 1. Add a `GET` request with the following address. Name it **Query Serial**.
@@ -58,17 +58,18 @@ In this example, you will create a collection, write a test for variable values,
 1. Add a test script to test the variable values:
 
    ```bash
-   const variableValue = pm.variables.get('value');
+    pm.test('Variable should be true', () => {
+        const variableValue = pm.variables.get('value');
 
-   if(variableValue === true){
-     console.log('Value is true')
-   }
-   else if(variableValue === false){
-     console.log('Value is false')
-   }
-   else{
-     console.log('Value is neither true or false')
-   }
+        if (variableValue === true) {
+            console.log('Value is true')
+        } else if (variableValue === false) {
+            console.log('Value is false')
+        } else {
+            console.log('Value is neither true or false')
+        }
+        pm.expect(variableValue).to.be.true
+    });
    ```
 
    See the [Postman JavaScript reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) for more on what you can do with iteration data.
@@ -91,7 +92,7 @@ In this example, you will create a collection, write a test for variable values,
 
     ![Data file preview](https://assets.postman.com/postman-docs/v10/csv-data-picker-before-v10.17.jpg)
 
-    Observe that the preceding zeroes in the serial number and the prefix in the contact number have been removed. Change the data type for those numbers to **String** to preserve the original numbers.
+    Observe that the preceding zeroes in the serial number and the prefix in the contact number have been removed. Change the data type for those numbers to **String** to preserve the original values.
 
     ![Data file update](https://assets.postman.com/postman-docs/v10/csv-data-picker-after-v10.17.jpg)
 
