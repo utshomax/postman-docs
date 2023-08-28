@@ -33,7 +33,7 @@ To open the [Postman API key management dashboard](http://go.postman.co/manage-p
 
 The dashboard lists all of the Postman API keys created by your team. To filter the list by enabled, disabled, or revoked keys, select or clear the checkboxes next to **View**.
 
-You can review when a key was generated, its expiration date, who created it and their level of access within the team, and when it was last used. You can also search by key value to locate a specific key, filter by user by selecting them in the **Created by** dropdown list, and sort by newest, oldest, and recently used.
+You can review the key's date of creation, its expiration date, who created it and their level of access within the team, and when it was last used. You can also search by key value to locate a specific key, filter by user by selecting them in the **Created by** dropdown list, and sort by newest, oldest, and recently used.
 
 Tags next to the API key's name specify when it is disabled or revoked. You can hover over a revoked tag to see if a Team Admin revoked it or if it was due to inactivity past its expiration date. Revoked API keys also display their revocation date under its creation date.
 
