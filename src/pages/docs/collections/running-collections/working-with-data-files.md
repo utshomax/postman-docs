@@ -35,7 +35,7 @@ For CSV files, note the following:
 
 * If the numbers in your data file are larger than 15 digits, you'll need to format them as text in your spreadsheet program, so they're not truncated during import.
 
-The JSON file should be formatted as an array of key-value pairs. The keys will be the name of the variable with the values the data that is used within the request.
+JSON files should be formatted as an array of key-value pairs. Each key is the name of a variable, and the value is the data to use within the request.
 
 <img alt="JSON format" src="https://assets.postman.com/postman-docs/v10/ramen-json-screenshot.jpg" width="300px"/>
 
