@@ -25,7 +25,7 @@ Postman allows you to import a CSV or JSON file, and use the values from the dat
 
 ## Format data file
 
-The CSV file should be formatted so that the first row contains the variable names that you want to use inside the requests. After that, every row will be used as a data row. The line endings of the CSV file must be in the UNIX format. Each row should have the same number of columns.
+Format the CSV file so that the first row contains the variable names you want to use inside the requests. After that, every row will be used as a data row. The line endings of the CSV file must be in the UNIX format. Each row should have the same number of columns.
 
 <img alt="CSV format" src="https://assets.postman.com/postman-docs/v10/ramen-csv-screenshot.jpg" width="300px"/>
 
