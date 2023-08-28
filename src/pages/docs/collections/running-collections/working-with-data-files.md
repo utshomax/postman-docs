@@ -23,6 +23,8 @@ contextual_links:
 
 Postman allows you to import a CSV or JSON file, and use the values from the data file in Collection Runner. For more information about collection runs, see [Using the Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 
+## Format data file
+
 The CSV file should be formatted so that the first row contains the variable names that you want to use inside the requests. After that, every row will be used as a data row. The line endings of the CSV file must be in the UNIX format. Each row should have the same number of columns.
 
 <img alt="CSV format" src="https://assets.postman.com/postman-docs/v10/ramen-csv-screenshot.jpg" width="300px"/>
@@ -43,7 +45,7 @@ Suppose you have a collection with a simple request that accepts a serial and co
 
 Suppose the serial numbers in your data file contain preceding zeroes and the contact numbers have a country prefix with the `+` symbol.
 
-### Create a collection
+In this example, you will create a collection, write a test for variable values, and import a CSV file into the Collection Runner. You will preview the file, make any adjustments to the data types, and run the collection. Then, you will inspect your log to ensure your data was parsed correctly.
 
 1. From the **Collections** menu, select **+** to add a new collection. Then, name the collection **CSV Data Types**.
 1. Add a `GET` request with the following address. Name it **Query Serial**.
