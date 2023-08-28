@@ -77,7 +77,6 @@ In this example, you will create a collection, write a test for variable values,
 
    <img alt="Test CSV file" src="https://assets.postman.com/postman-docs/v10/test-csv-file-10.17.jpg" width="600px"/>
 
-
 1. Return to the collection overview and select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px">__Run__.
 1. Select your data file using the __Select File__ button.
 
