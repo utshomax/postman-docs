@@ -21,7 +21,7 @@ contextual_links:
     url: "https://www.postman.com/case-studies/reputation/"
 ---
 
-Postman allows you to import a CSV or JSON file, and use the values from the data file in Collection Runner. For more information about collection runs, see [Using the Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
+Postman enables you to import a CSV or JSON file, and use the values from the data file in Collection Runner. For more information about collection runs, see [Using the Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 
 ## Format data file
 
@@ -75,7 +75,12 @@ In this example, you will create a collection, write a test for variable values,
 
 1. Create a test CSV file as shown below. Name it `test.csv`.
 
-   <img alt="Test CSV file" src="https://assets.postman.com/postman-docs/v10/test-csv-file-10.17.jpg" width="600px"/>
+   ```csv
+   serial,value,name,contact_no
+   0001,true,Sunny,+14155553535
+   0002,false,4545,+16785553509
+   0003,true,Vicky,+12125556709
+   ```
 
 1. Return to the collection overview and select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px">__Run__.
 1. Select your data file using the __Select File__ button.
@@ -98,6 +103,6 @@ In this example, you will create a collection, write a test for variable values,
 
 ## Errors when reading data files
 
-You may encounter errors when Postman attempts to read your data file during a collection run. If this happens, check to ensure your file is properly formatted.
+You may encounter errors when Postman attempts to read your data file during a collection run. If this happens, check to ensure your file is properly formatted. For guidance, see [Format data file](#format-data-file).
 
 If the errors persist, [contact the Postman support team](https://support.postman.com/hc/en-us).
