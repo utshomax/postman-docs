@@ -90,7 +90,7 @@ In this example, you will create a collection, write a test for variable values,
 
     ![Data file update](https://assets.postman.com/postman-docs/v10/csv-data-picker-after-v10.17.jpg)
 
-1. Select __Run CSV Data Types__ to begin the run with the values from the file. The Collection Runner runs the collection requests for each iteration in the data file. The output indicates the results for any tests you defined in your collection requests.
+1. Select __Run CSV Data Types__ to begin the run with the values from the file. The Collection Runner runs the collection requests for each iteration (row) in the data file. The output indicates the results for any tests you defined in your collection requests.
 
 1. Inspect the console log and observe that both the numbers and the variable validation tested correctly.
 
