@@ -56,7 +56,7 @@ Add elements to the Private API Network to help your team discover and use your 
 
 The sidebar navigation displays the folder structure for your Private API Network. API Network Managers can drag elements and subfolders into different folders. You can add descriptions to folders to describe elements within the folders. You can also add Folder Managers to specific folders. To learn more about managing folders, see [Managing your Private API Network](/docs/collaborating-in-postman/private-api-network/managing-private-network/).
 
-<img alt="Create new folder in Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-organize-folders-v10-2.jpg" width="300px"/>
+<!-- TO DO: image of left sidebar with folders <img alt="Create new folder in Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-organize-folders-v10-2.jpg" width="300px"/> -->
 
 To create a new folder from the Private API Network view, do the following:
 
@@ -119,7 +119,7 @@ To add elements from your Private API Network, do the following:
 
     > You can also select **Add** on the right from the Private API Network overview page. In a Private API Network folder, you can select **Add To Folder** in the upper-right corner.
 
-1. Select the collections, APIs, and workspaces you want to add. You can search for elements, and filter elements by tags. Learn more about adding tags to [collections](/docs/collections/using-collections/#tagging-a-collection), [APIs](/docs/designing-and-developing-your-api/managing-apis/#tagging-apis), and [workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#tagging-a-workspace).
+1. You can search for and select the collections, APIs, and workspaces you want to add.
 
     If you're adding collections, you can optionally select environments in their workspace to make sure users have access to environment variables. You can also [edit a collection's environments later](/docs/collaborating-in-postman/private-api-network/managing-private-network/#editing-collections).
 
@@ -133,7 +133,7 @@ To add elements from your Private API Network, do the following:
 
 1. Select **Review**.
 
-    <img alt="Add elements to the Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-add-elements-v10-3.jpg"/>
+    <!-- TO DO: image without tag filter <img alt="Add elements to the Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-add-elements-v10-3.jpg"/> -->
 
 1. Review your selections, and then select **Add to Network**.
 
@@ -209,11 +209,11 @@ When an Editor requests to add an element to your team's Private API Network, Po
 
 Pending requests include the element type, the user who submitted the request, the date they submitted it on, a link to view the element in its workspace, the folder they want to add the element to, and an optional note from the requesting user.
 
-<img alt="Approve or deny a request" src="https://assets.postman.com/postman-docs/v10/private-api-network-pending-requests-v10-2.jpg"/>
+<img alt="Approve or deny a request" src="https://assets.postman.com/postman-docs/v10/private-api-network-pending-requests-v10-3.jpg"/>
 
 You can also select the request to preview the element in the network before you approve or deny it.
 
-<!-- <img alt="Preview element in the network" src="https://assets.postman.com/postman-docs/v10/private-api-network-pending-requests-v10-2.jpg"/> -->
+<img alt="Preview element in the network" src="https://assets.postman.com/postman-docs/v10/private-api-network-preview-request-v10.jpg"/>
 
 To approve a request, do the following:
 
