@@ -33,13 +33,13 @@ To open the [Postman API key management dashboard](http://go.postman.co/manage-p
 
 The dashboard lists all of the Postman API keys created by your team. To filter the list by enabled, disabled, or revoked keys, select or clear the checkboxes next to **View**.
 
-You can review the key's date of creation, its expiration date, who created it and their level of access within the team, and when it was last used. You can also search by key value to locate a specific key, filter by user by selecting them in the **Created by** dropdown list, and sort by newest, oldest, and recently used.
+You can review the key's date of creation, its expiration date, who created it, and when it was last used. You can also search by key value to locate a specific key, filter by user by selecting them in the **Created by** dropdown list, and sort by newest, oldest, and recently used.
 
-Tags next to the API key's name specify when it is disabled or revoked. You can hover over a revoked tag to see if a Team Admin revoked it or if it was due to inactivity past its expiration date. Revoked API keys also display their revocation date under their creation date.
+Tags next to the API key's name specify when it is disabled or revoked. You can hover over a revoked tag to see if a Team Admin revoked it, if it was due to inactivity past its expiration date, or automatically revoked. Revoked API keys also display their revocation date under its creation date.
 
 ### Exposed API keys
 
-If the [Postman Secret Scanner](https://learning.postman.com/docs/administration/token-scanner/) detects exposed Postman API keys in public Postman workspaces or [GitHub](/docs/administration/token-scanner/#protecting-postman-api-keys-in-github) and [GitLab](/docs/administration/token-scanner/#protecting-postman-api-keys-in-gitlab) repositories, the dashboard displays them in the **Exposed API keys** section. This section provides details about the exposed key, such the date of its exposure detection, the last time it was used, and the location of the exposed API key.
+If the [Postman Secret Scanner](https://learning.postman.com/docs/administration/token-scanner/) detects exposed Postman API keys in public Postman workspaces or [GitHub](/docs/administration/token-scanner/#protecting-postman-api-keys-in-github) and [GitLab](/docs/administration/token-scanner/#protecting-postman-api-keys-in-gitlab) repositories, the dashboard displays them in the **Exposed API keys** section. This section provides details about the exposed key, such as the date of its exposure detection, the last time it was used, and the location of the exposed API key.
 
 <img alt="Exposed keys section" src="https://assets.postman.com/postman-docs/v10/manage-postman-exposed-api-keys-v10.18.jpg"/>
 
@@ -69,7 +69,7 @@ You can set the expiration settings for all API keys that your team creates with
 
 Enable the **Auto revoke exposed Postman API keys** setting to allow Postman to automatically revoke any publicly exposed API keys. When the Postman Secret Scanner detects any exposed keys in public GitHub or GitLab repositories or public Postman workspaces, it revokes the key and notifies the key's owner by email.
 
-When you enable this setting and if there are any exposed API keys, a warning appears.
+If there are any exposed API keys present when you enable this setting, a warning appears.
 
 <img alt="Enable auto revoke setting" src="https://assets.postman.com/postman-docs/v10/manage-postman-api-keys-settings-auto-revoke-confirm-v10.18.jpg" width="500px"/>
 
