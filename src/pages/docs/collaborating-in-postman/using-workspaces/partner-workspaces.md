@@ -29,7 +29,7 @@ Partner Workspaces enable you to collaborate with external partners directly in 
 * [Setting up a Partner Workspace](#setting-up-a-partner-workspace)
     * [Moving elements to a Partner Workspace](#moving-elements-to-a-partner-workspace)
 * [Inviting collaborators to a Partner Workspace](#inviting-collaborators-to-a-partner-workspace)
-* [Viewing workspaces a partner can access](#viewing-workspaces-a-partner-can-access)
+* [Viewing resources a partner can access](#viewing-resources-a-partner-can-access)
 * [Collaborating in a Partner Workspace](#collaborating-in-a-partner-workspace)
     * [Collaborating as a team member](#collaborating-as-a-team-member)
     * [Collaborating as a partner](#collaborating-as-a-partner)
@@ -131,11 +131,11 @@ To invite team members to a Partner Workspace, do the following:
 1. Set their [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
 1. Select **Send Invites**.
 
-## Viewing workspaces a partner can access
+## Viewing resources a partner can access
 
-A [Partner Manager](#managing-users-and-roles) can view the Partner Workspaces a partner can access, and the Workspace role they're assigned in each workspace. Open your [team dashboard](https://go.postman.co/settings/team/members) and select **View workspaces** next to a partner. Select a Partner Workspace name to open the workspace in a new tab.
+A [Partner Manager](#managing-users-and-roles) can view the Partner Workspaces and collections a partner can access. A Partner Manager can also view the Workspace role partners are assigned in each workspace, and the Collection role partners are assigned in each collection. Open your [team dashboard](https://go.postman.co/settings/team/members) and select **View resources** next to a partner. Select a Partner Workspace or collection name to open it in a new tab.
 
-<img alt="View partner workspaces and roles" src="https://assets.postman.com/postman-docs/v10/view-partner-workspaces-and-roles-v10-2.jpg" width="800px"/>
+<img alt="View partner workspaces and roles" src="https://assets.postman.com/postman-docs/v10/view-partner-workspaces-and-roles-v10-3.jpg"/>
 
 ## Collaborating in a Partner Workspace
 
@@ -145,27 +145,27 @@ The collaborative experience that Partner Workspaces offer depends on your role 
 
 Partner Workspaces are only visible to invited team members, similar to [private workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). Once invited, you can access Partner Workspaces as you would access any other workspace. To open one, select **Workspaces** in the Postman header, then select the Partner Workspace.
 
-At the team level, team members can be assigned the Partner Manager role. Partner Managers can view all Partner Workspaces within an organization, and can control their settings, visibility, and partner invites. To learn more, see [Managing users and roles](#managing-users-and-roles).
+Within a Partner Workspace, team members can have different workspace roles: Admin, Editor, and Viewer. To learn more, see [Workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
 
-At the workspace level, team members can have different workspace roles: Admin, Editor, and Viewer. To learn more, see [Workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
+Within a Partner Workspace, team members can also have different collection roles: Editor and Viewer. To learn more, see [Collection roles](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles).
 
-At the collection level, team members can also have different collection roles: Editor and Viewer. To learn more, see [Collection roles](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles).
+Users can also be assigned the team-level Partner Manager role. Partner Managers can view all Partner Workspaces within an organization, and can control their settings, visibility, and partner invites. To learn more, see [Managing users and roles](#managing-users-and-roles).
 
 ### Collaborating as a partner
 
 When an external partner is invited to a Partner Workspace by a team they're working with, they only have access to that Partner Workspace and can't access any other workspaces or resources within the team. Partners don't have personal or team workspaces within the team they're partnering with.
 
-At the team level, all external partners are automatically assigned the Partner role. All partners are assigned [Workspace Editor or Viewer](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) roles at the workspace level and [Collection Viewer](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) role at the collection level when invited to a Partner Workspace. Partners can also be assigned the Partner Lead role, which enables them to invite other individuals from their organization to the Partner Workspace.
-
-At the workspace level, partners are assigned either the Workspace Editor or Viewer roles:
+At the workspace level in a Partner Workspace:
 
 * Partners with the Workspace Editor role can [import and export](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/) elements. They can also [fork elements](/docs/collaborating-in-postman/using-version-control/forking-entities/) within the same Partner Workspace or to another Partner Workspace within the same team. They can't fork elements outside the team.
 * Partners with the Workspace Viewer role can [fork elements](/docs/collaborating-in-postman/using-version-control/forking-entities/) to another Partner Workspace within the same team where they're assigned the Workspace Editor role. They can't fork elements outside the team. Also, they can't export workspace resources.
 
-At the collection level, partners are assigned either the Collection Editor or Viewer roles:
+At the collection level in a Partner Workspace:
 
 * Partners with the Collection Editor role can [export collections](/docs/getting-started/importing-and-exporting/exporting-data/#exporting-collections). They can also [fork collections](/docs/collaborating-in-postman/using-version-control/forking-entities/) within the same Partner Workspace or to another Partner Workspace within the same team. They can't fork collections outside the team.
 * Partners with the Collection Viewer role can [fork collections](/docs/collaborating-in-postman/using-version-control/forking-entities/) to another Partner Workspace within the same team where they're assigned the Workspace Editor role. They can't fork elements outside the team. Also, they can't export collections.
+
+At the team level, all external partners are automatically assigned the Partner role. At the workspace level, all partners are assigned [Workspace Editor or Viewer](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) roles and [Collection Viewer](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) role at the collection level when invited to a Partner Workspace. Partners can also be assigned the Partner Lead role, which enables them to invite other individuals from their organization to the Partner Workspace.
 
 > To learn more about partner roles and permissions, see [Partner Roles](/docs/collaborating-in-postman/roles-and-permissions/#partner-roles).
 
@@ -180,15 +180,17 @@ You can assign partner roles based on the functions users and partners require. 
 * **Partner Manager** (Internal) - Manages all Partner Workspaces within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners.
 * **Partner** (External) - All partners are automatically granted the Partner role at the team level. Partners can only access the Partner Workspaces they've been invited to.
 
-You can also [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) partner roles at the workspace level:
+You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) partner roles at the workspace level:
 
 * **Partner Lead** (External) - Can invite other partners from their organization to join a Partner Workspace.
 
-All partners are assigned the Workspace Editor or Viewer roles when invited to a Partner Workspace.
+You can also assign partner roles at the collection level.
+
+All partners are assigned the Workspace Editor or Viewer roles, and the Collection Viewer role when invited to a Partner Workspace.
 
 To learn more about partner roles, see [Partner roles](/docs/collaborating-in-postman/roles-and-permissions/#partner-roles).
 
-<!-- Your team can assign three partners assigned the Workspace Editor and Collection Editor role at no extra cost. To purchase more partner licenses, contact your Postman Account Manager or [contact Postman's sales team](mailto:sales@postman.com). A paid seat is consumed when a partner is assigned the Workspace Editor and Collection Editor roles in at least one Partner Workspace. Assigning a partner the Workspace Viewer and Collection Viewer roles doesn't consume paid seats. -->
+Your team can assign three partners assigned the Workspace Editor and Collection Editor role at no extra cost. To purchase more partner licenses, contact your Postman Account Manager or [contact Postman's sales team](mailto:sales@postman.com). A paid seat is consumed when a partner is assigned the Workspace Editor and Collection Editor roles in at least one Partner Workspace. Assigning a partner the Workspace Viewer and Collection Viewer roles doesn't consume paid seats.
 
 ### Managing workspace elements
 
