@@ -108,19 +108,14 @@ To learn how to manage team roles in Postman, see [Managing your team](/docs/adm
 
 ## Workspace roles
 
-You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) three role types in Postman workspaces: **Admin**, **Editor**, and **Viewer**. Partner Workspaces offer an additional role type: **Partner Lead**. Partners have different permissions for the Workspace Editor and Viewer roles in Partner Workspaces.
-
-You can assign workspace roles to team members:
+You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) three role types in Postman workspaces: **Admin**, **Editor**, and **Viewer**. Partner Workspaces offer an additional role type: **Partner Lead**.
 
 * **Admin** - Can manage workspace resources and settings.
 * **Editor** ([Professional and Enterprise plans only](https://www.postman.com/pricing)) - Can create and edit workspace resources.
 * **Viewer** ([Professional and Enterprise plans only](https://www.postman.com/pricing)) - Can view, fork, and export workspace resources.
-
-You can assign workspace roles to partners in Partner Workspaces:
-
 * **Partner Lead** (External, [Enterprise Ultimate plans only](https://www.postman.com/pricing)) - Can invite other partners from their organization to join a [Partner Workspace](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/). To learn more, see [Partner roles](#partner-roles).
-* **Editor** (External, [Enterprise Ultimate plans only](https://www.postman.com/pricing)) - Within [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/), partners can create and edit workspace resources, [import and export](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/) elements, and [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) elements to Partner Workspaces within the same team. To learn more, see [Partner roles](#partner-roles).
-* **Viewer** (External, [Enterprise Ultimate plans only](https://www.postman.com/pricing)) - Within [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/), partners can view workspace resources and [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) elements to another Partner Workspace within the same team where they're assigned the Workspace Editor role. To learn more, see [Partner roles](#partner-roles).
+
+Partners have different permissions for Workspace Editor and Viewer roles in Partner Workspaces ([Enterprise Ultimate plans only](https://www.postman.com/pricing)). To learn more, see [Partner roles](#partner-roles).
 
 The following roles control access at a workspace level:
 
@@ -253,25 +248,27 @@ Update monitor roles | | |  &#x2714; |
 
 > **[Partner roles are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
-Partner roles relate to [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) and are applied at the team and workspace level. There are different partner roles you can assign to team members and external partners:
+Partner roles relate to [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) and are applied at the team and workspace level. There are different partner roles you can assign to internal team members and external partners:
 
 |  | For team members (Internal) | For partners (External) |
 | --- |:---:| --- |
 | **Team level** | Partner Manager | Partner |
 | **Workspace level** | Admin, Viewer, Editor | Viewer, Editor <br> Partner Lead (optional) |
 
-You can [assign](/docs/administration/managing-your-team/managing-your-team/) partner roles at the team level:
+At the team level, you can [assign](/docs/administration/managing-your-team/managing-your-team/) partner roles to team members and partners:
 
 * **Partner Manager** (Internal) - Manages all Partner Workspaces within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners.
 * **Partner** (External) - All partners are automatically granted the Partner role at the team level. Partners can only access the Partner Workspaces they've been invited to.
 
-You can also [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) partner roles at the workspace level:
+At the workspace level, you can [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) partner roles to team members. To learn more, see [Workspace roles](#workspace-roles).
+
+At the workspace level, you can [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) partner roles to partners:
 
 * **Partner Lead** (External) - Can invite other partners from their organization to join a Partner Workspace.
 * **Editor** (External) - Partners can create and edit Partner Workspace resources, [import and export](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/) elements, and [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) elements to Partner Workspaces within the same team.
 * **Viewer** (External) - Partners can view Partner Workspace resources and [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) elements to another Partner Workspace within the same team where they're assigned the Workspace Editor role.
 
-All partners are assigned Workspace Editor or Viewer roles when invited to a Partner Workspace. To learn more about workspace level permissions, see [Workspace roles](#workspace-roles).
+All partners are assigned [Workspace Editor or Viewer](#workspace-roles) roles when invited to a Partner Workspace.
 
 To learn more about collaborating as a team member or partner, see [Collaborating in a Partner Workspace](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/#collaborating-in-a-partner-workspace).
 

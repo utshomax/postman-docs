@@ -167,7 +167,13 @@ Workspace Admins and Partner Managers manage workspace settings, users, and role
 
 ### Managing users and roles
 
-You can assign partner roles based on the functions users and partners require. You can [assign](/docs/administration/managing-your-team/managing-your-team/) partner roles at the team level:
+You can assign partner roles based on the functions users and partners require. You can [assign](/docs/administration/managing-your-team/managing-your-team/) partner roles at the team level. You can also [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) partner roles at the workspace level. To learn more about partner roles, see [Partner roles](/docs/collaborating-in-postman/roles-and-permissions/#partner-roles).
+
+All partners are assigned [Workspace Editor or Viewer](#workspace-roles) roles when invited to a Partner Workspace.
+
+To learn more about collaborating as a team member or partner, see [Collaborating in a Partner Workspace](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/#collaborating-in-a-partner-workspace).
+
+<!-- You can assign partner roles based on the functions users and partners require. You can [assign](/docs/administration/managing-your-team/managing-your-team/) partner roles at the team level:
 
 * **Partner Manager** (Internal) - Manages all Partner Workspaces within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners.
 * **Partner** (External) - All partners are automatically granted the Partner role at the team level. Partners can only access the Partner Workspaces they've been invited to.
@@ -180,7 +186,7 @@ You can also [assign](/docs/collaborating-in-postman/using-workspaces/managing-w
 
 All partners are assigned the Workspace Editor or Viewer roles when invited to a Partner Workspace.
 
-To learn more about partner roles, see [Partner roles](/docs/collaborating-in-postman/roles-and-permissions/#partner-roles).
+To learn more about partner roles, see [Partner roles](/docs/collaborating-in-postman/roles-and-permissions/#partner-roles). -->
 
 ### Managing workspace elements
 
