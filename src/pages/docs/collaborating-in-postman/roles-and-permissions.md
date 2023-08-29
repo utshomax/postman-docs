@@ -145,6 +145,8 @@ You can assign two role types in Postman collections: **Editor** and **Viewer**.
 
 You can assign a limited Viewer role to an external user who isn't in your Postman team by [allowing them to view specific collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections). Users with this role can only view collections and send requests in the collections that have been shared with them.
 
+Partners have different permissions for Collection Editor and Viewer roles in Partner Workspaces ([Enterprise Ultimate plans only](https://www.postman.com/pricing)). To learn more, see [Partner roles](#partner-roles).
+
 The following roles control access at a collection level:
 
 | Collections |  Editor  | Viewer |
@@ -252,6 +254,7 @@ Partner roles relate to [Partner Workspaces](/docs/collaborating-in-postman/usin
 | --- |:---:| --- |
 | **Team level** | Partner Manager | Partner |
 | **Workspace level** | Admin, Viewer, Editor | Viewer, Editor <br> Partner Lead (optional) |
+| **Collection level** | Viewer, Editor | Viewer, Editor |
 
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) partner roles at the team level:
 
