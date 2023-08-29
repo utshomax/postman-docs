@@ -1,6 +1,6 @@
 ---
 title: "Add contacts to a database with Postman Flows"
-updated: 2023-07-19
+updated: 2023-08-19
 contextual_links:
   - type: section
     name: "Additional resources"
