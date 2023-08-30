@@ -170,7 +170,9 @@ postman api publish <apiId> --name v1\
 
 #### Examples for repos linked with git
 
-The options for the `api publish` command differ depending on if you specified a schema folder or schema root file when setting up the Git integration. To determine which option you should use, examine the API's configuration file in the repository, located in the `.postman` directory.
+The options for the `api publish` command differ depending on if you specified a schema folder or schema root file when setting up the Git integration. Git integrations added in Postman v10.17 or later (macOS) or v10.18 or later (Windows) use a schema root file. Learn more about [connecting an API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/).
+
+To determine which command option you should use, examine the API's configuration file in the repository, located in the `.postman` directory.
 
 * If a `rootDirectory` is specified under `[config.relations.apiDefinition]`, use the `--api-definition <schemaDirectoryPath>` option:
 
@@ -181,7 +183,7 @@ The options for the `api publish` command differ depending on if you specified a
     --api-definition <schemaDirectoryPath>
     ```
 
-* If individual schema files are specified under `[config.relations.apiDefinition]`, use the `--api-definition <schemaRootFilePath>` option:
+* If one or more schema files are specified under `[config.relations.apiDefinition]`, use the `--api-definition <schemaRootFilePath>` option:
 
     ```plaintext
     postman api publish <apiId> --name v1\

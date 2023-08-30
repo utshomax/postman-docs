@@ -162,6 +162,8 @@ If your API is [connected to a Git repository](/docs/designing-and-developing-yo
 
     The definition files you selected are added to your API. For OpenAPI 2.0 and 3.0 APIs, Postman scans for any dependent files referenced in the definition files and automatically adds them to your API.
 
+> The **Add file > Add from connected repository** option isn't available for Git integrations added using Postman v10.16 or earlier (macOS), v10.17 or earlier (Windows), or Linux. Instead, add the definition files to the schema directory in the repository. Alternately, you can [remove the Git integration](/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/#disconnecting-a-cloud-hosted-repository) and then [reconnect your API to the Git repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/#connecting-to-a-remote-git-repository).
+
 ### Deleting files and folders
 
 To delete a definition file or folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the item and select **Delete**. Deleting a file or folder doesn't affect other elements added to the API, such as collections.
