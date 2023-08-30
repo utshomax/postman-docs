@@ -88,7 +88,7 @@ Then you can filter elements with the following options:
 * To filter based on element tags, select **Search tags**, then select the tags added to collections, APIs, or workspaces. Learn more about adding tags to [collections](/docs/collections/using-collections/#tagging-a-collection), [APIs](/docs/designing-and-developing-your-api/managing-apis/#tagging-apis), and [workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#tagging-a-workspace).
 * To filter by an element's location in a folder in the left sidebar, select **Location**, then select the folder or subfolder. When you filter by a folder, your search results return elements in the folder and its subfolders. To filter by all elements in the network, including elements not organized in folders, don't filter by an element's location.
 
-<!-- TO DO: image of search results in the network <img alt="Private API List" src="https://assets.postman.com/postman-docs/v10/private-api-network-list-v10-2.jpg"/> -->
+<img alt="Filter and search the Private API Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-search-and-filter-v10.jpg"/>
 
 ### Sort elements in a folder
 
