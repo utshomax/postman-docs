@@ -9,7 +9,7 @@ import {
   Hits,
   Configure,
   Pagination,
-} from 'react-instantsearch-dom';
+} from 'react-instantsearch';
 import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
 import { CustomHits } from '../Search/searchPreview.jsx';
 
@@ -73,8 +73,10 @@ const Dropdown = () => {
           {/* forcefeed className because component does not accept natively as prop */}
           <SearchBox
             id="search-lc"
-            className="searchbox"
-            class="ais-SearchBox-input"
+            classNames={{
+              root: "searchbox",
+              form: "ais-SearchBox-input"
+            }}
             submit={<></>}
             reset={<></>}
             translations={{
@@ -93,7 +95,7 @@ const Dropdown = () => {
               </div>
               <div className="row">
                 <div className="col-12">
-                  <Pagination
+                  {Hits.length > 1 ? <Pagination
                     translations={{
                       previous: '← Previous',
                       next: 'Next →',
@@ -104,7 +106,7 @@ const Dropdown = () => {
                       ariaFirst: 'First page',
                       ariaLast: 'Last page',
                     }}
-                  />
+                  /> : ''}
                 </div>
               </div>
             </div>
