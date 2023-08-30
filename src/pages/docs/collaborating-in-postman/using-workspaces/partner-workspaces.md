@@ -186,11 +186,11 @@ You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-worksp
 
 You can also assign partner roles at the collection level.
 
-All partners are assigned the Workspace Editor or Viewer roles, and the Collection Viewer role when invited to a Partner Workspace.
+All partners are assigned the Workspace Editor or Viewer roles, and the Collection Viewer role when invited to a Partner Workspace. To learn more about partner roles, see [Partner roles](/docs/collaborating-in-postman/roles-and-permissions/#partner-roles).
 
-To learn more about partner roles, see [Partner roles](/docs/collaborating-in-postman/roles-and-permissions/#partner-roles).
+Your team can assign three partners the Workspace Editor or Collection Editor roles at no extra cost. To purchase more partner licenses, contact your Postman Account Manager or [contact Postman's sales team](mailto:sales@postman.com). A paid seat is consumed when a partner is assigned the Workspace Editor role in at least one Partner Workspace or Collection Editor role in at least one collection. Assigning a partner the Workspace Viewer and Collection Viewer roles doesn't consume paid seats.
 
-Your team can assign three partners assigned the Workspace Editor and Collection Editor role at no extra cost. To purchase more partner licenses, contact your Postman Account Manager or [contact Postman's sales team](mailto:sales@postman.com). A paid seat is consumed when a partner is assigned the Workspace Editor and Collection Editor roles in at least one Partner Workspace. Assigning a partner the Workspace Viewer and Collection Viewer roles doesn't consume paid seats.
+> Your team must have [available seats](/docs/administration/billing/#changing-your-plan) to assign a partner as a Workspace Editor or Collection Editor. Otherwise, the partner will be assigned the Workspace Viewer and Collection Viewer roles.
 
 ### Managing workspace elements
 
