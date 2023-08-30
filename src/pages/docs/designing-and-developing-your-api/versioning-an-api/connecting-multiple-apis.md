@@ -35,11 +35,12 @@ It's important to make sure your APIs remain separated in the repository to avoi
 ## Contents
 
 * [Separating APIs with files](#separating-apis-with-files)
+    * [Reusing components in multiple APIs](#reusing-components-in-multiple-apis)
 * [Separating APIs with branches](#separating-apis-with-branches)
 
 ## Separating APIs with files
 
-You can keep your APIs separate by [adding different definition files](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#adding-an-api-definition-from-a-connected-repository) to each API. Definition files can exist at the root level of the repository or in any subdirectory.
+You can keep your APIs separate by [adding different definition files](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#adding-an-api-definition-from-a-connected-repository) to each API. Definition files can exist at the root level of the repository or in any subdirectory. Also, when setting up the Git integrations, make sure to select a different collections folder for each API. This will keep your collection files separated.
 
 For example, if you have an `emails` API and an `sms` API, you could have the following file structure for the `main` branch in your repository:
 
@@ -50,9 +51,11 @@ For example, if you have an `emails` API and an `sms` API, you could have the fo
 
 If you're working on a [multi-file API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#working-with-multi-file-api-definitions), you can choose which files to add to each API. Make sure to select the correct definition files when [adding files to an API](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#adding-files-from-a-connected-repository).
 
-If there are common components referenced by multiple APIs, you can keep them in separate directories (such as `schemas` or `responses`). You can then add the common component files to each API as needed. Keep in mind that if you push changes to a component file from one API, other APIs that use the same component will be affected.
-
 > For OpenAPI 2.0 and 3.0 APIs, when you add definition files to your API, Postman scans for any referenced files and automatically adds them to your API. If two root definition files reference the same file, that file will be added to both APIs. In this case, changes made in one API may affect the other API.
+
+### Reusing components in multiple APIs
+
+If there are common components referenced by multiple APIs, you can keep them in separate directories (such as `schemas` or `responses`). You can then [add the common component files](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#adding-files-from-a-connected-repository) to each API as needed. This enables you to reuse the same component file in more than one API definition. Keep in mind that if you push changes to a component file from one API, other APIs that use the same component will also be affected.
 
 ## Separating APIs with branches
 
