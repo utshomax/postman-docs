@@ -59,7 +59,7 @@ You can manage your team's API key settings and permissions by selecting **API K
 
 <img alt="API keys settings" src="https://assets.postman.com/postman-docs/v10/manage-postman-api-keys-settings-v10.18.jpg" width="500px"/>
 
-#### Generation and expiry
+#### Key generation and expiration
 
 By default, anyone in your team can generate Postman API keys. You can turn off the **Allow anyone in your team to generate API keys** setting to prevent users from from creating new Postman API keys.
 
