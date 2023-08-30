@@ -104,7 +104,7 @@ On success, your request’s response will look similar to the following:
 
 You can also find your new folder in the Private API Network's root Home directory:
 
-<!-- TO DO: redo image without search bar on left ![The new Private API Network folder](https://assets.postman.com/postman-docs/v10/private-network-new-folder-created-2.jpg) -->
+<img alt="New folder in Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-organize-folders-v10-3.jpg" width="400px"/>
 
 Save the `id` value in the response. For example, save it as a collection variable called `{{folderId}}`. You can then use it as the `parentFolderId` value in other requests, such as adding elements to the folder or subfolders.
 

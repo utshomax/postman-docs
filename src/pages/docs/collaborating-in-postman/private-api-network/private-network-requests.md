@@ -1,6 +1,6 @@
 ---
 title: "Requesting to add to the Private API Network"
-updated: 2023-07-07
+updated: 2023-09-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -67,7 +67,7 @@ To request to add elements from your Private API network, do the following:
 
     > You can also select **Add** on the right from the Private API Network overview page, or select **Add To Folder** in the upper-right corner.
 
-1. You can search for and select collections, APIs, and workspaces you want to request to add.
+1. Search for and then select collections, APIs, and workspaces you want to request to add. You can also filter elements by tags. Learn more about adding tags to [collections](/docs/collections/using-collections/#tagging-a-collection), [APIs](/docs/designing-and-developing-your-api/managing-apis/#tagging-apis), and [workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#tagging-a-workspace).
 
     If you're requesting to add collections, you can optionally select environments in their workspace to make sure users have access to environment variables. You can also [edit a collection's environments later](/docs/collaborating-in-postman/private-api-network/managing-private-network/#editing-collections).
 
@@ -81,7 +81,7 @@ To request to add elements from your Private API network, do the following:
 
 1. Select **Review**.
 
-    <!-- TO DO: image without tag filter <img alt="Add elements to the Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-add-elements-v10-3.jpg"/> -->
+    <img alt="Add elements to the Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-add-elements-v10-3.jpg"/>
 
 1. Review your selections, and then select **Request to add**.
 
