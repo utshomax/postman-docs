@@ -168,16 +168,27 @@ postman api publish <apiId> --name v1\
 --api-definition <apiDefinitionId>
 ```
 
-#### Example for repos linked with git
+#### Examples for repos linked with git
 
-Navigate to the repo and run the following:
+The options for the `api publish` command differ depending on if you specified a schema folder or schema root file when setting up the Git integration. To determine which option you should use, examine the API's configuration file in the repository, located in the `.postman` directory.
 
-```plaintext
-postman api publish <apiId> --name v1\
---release-notes "# Some release notes information"\
---collections <collectionPath1> <collectionPath2>\
---api-definition <schemaDirectoryPath>
-```
+* If a `rootDirectory` is specified under `[config.relations.apiDefinition]`, use the `--api-definition <schemaDirectoryPath>` option:
+
+    ```plaintext
+    postman api publish <apiId> --name v1\
+    --release-notes "# Some release notes information"\
+    --collections <collectionPath1> <collectionPath2>\
+    --api-definition <schemaDirectoryPath>
+    ```
+
+* If individual schema files are specified under `[config.relations.apiDefinition]`, use the `--api-definition <schemaRootFilePath>` option:
+
+    ```plaintext
+    postman api publish <apiId> --name v1\
+    --release-notes "# Some release notes information"\
+    --collections <collectionPath1> <collectionPath2>\
+    --api-definition <schemaRootFilePath>
+    ```
 
 #### Options
 
@@ -186,6 +197,6 @@ postman api publish <apiId> --name v1\
 | `--name <name>` | Specifies the name of the version to publish. |
 | `--release-notes <releaseNotes>` | Enter release notes as a string in quotes for the version to publish. This option supports markdown. |
 | `--collections <collectionIds/paths...>` | Specifies the collections to publish. If the API is linked with git, provide the `filePath` instead of the ID. |
-| `--api-definition <apiDefinitionId/directory>` | Specifies the API definition to publish. If the API is linked with git, provide the `schemaDirectoryPath` instead of the ID. |
+| `--api-definition <apiDefinitionId/directory/file>` | Specifies the API definition to publish. If the API is linked with git, provide the `schemaDirectoryPath` or `schemaRootFilePath` instead of the ID. |
 |`--do-not-poll` | Specifies not to poll for completion status of the publish action.
 | `--suppress-exit-code, -x` | Specifies whether to override the default exit code for the current run. |
