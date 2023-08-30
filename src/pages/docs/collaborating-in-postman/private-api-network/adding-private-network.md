@@ -92,7 +92,7 @@ Then you can filter elements with the following options:
 
 ### Sort elements in a folder
 
-You can select a folder to sort elements in it, enabling you to sort elements in the folder and its subfolders. To sort elements, select a folder or subfolder in the left sidebar, then select the **Sort by** dropdown list. The options are:
+You can sort elements in a folder and its subfolders. To sort elements, select a folder or subfolder in the left sidebar, then select the **Sort by** dropdown list. The options are:
 
 * **Recently added** - Sort elements by the date they were added.
 * **A to Z** - Sort elements alphabetically.
