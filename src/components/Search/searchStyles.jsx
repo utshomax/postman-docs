@@ -7,6 +7,12 @@ ais-highlight-0000000000 {
   color: ${(props) => props.theme.colors.grey_90};
   background-color: ${(props) => props.theme.colors.yellow_20};
 }
+.ais-Highlight-highlighted {
+  padding: 0;
+}
+mark {
+  padding: 0;
+}
 
 .input-empty {
   display: none;
@@ -40,15 +46,13 @@ ais-highlight-0000000000 {
   border-bottom: 5px solid ${(props) => props.theme.colors.grey_90};
 }
 
-.style {
+.algolia-result-style {
   list-style: none;
   padding-top: 20px;
-  a {
-    color: ${(props) => props.theme.colors.grey_50};
-  }
-  a:hover {
-    color: ${(props) => props.theme.colors.blue_70};
-    text-decoration: none;
+  li {
+    &:hover {
+      background-color: ${(props) => props.theme.colors.grey_05};
+    }
   }
 }
 
@@ -83,6 +87,7 @@ ais-highlight-0000000000 {
   .ais-SearchBox-submit, .ais-SearchBox-reset {
     display: none;
   }
+ 
 }
 
 .ais-Pagination-list {
@@ -98,6 +103,7 @@ ais-highlight-0000000000 {
       color:  ${(props) => props.theme.colors.blue_70};
       background-color:  ${(props) => props.theme.colors.grey_10};
       border: none;
+      text-decoration: none;
     }
   }
   .ais-Pagination-item--firstPage {

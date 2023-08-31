@@ -1,5 +1,8 @@
 import React from 'react';
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, } from "react";
+import { useInstantSearch } from 'react-instantsearch';
+import { Paragraph } from 'aether-marketing';
+const { v4: uuidv4 } = require('uuid');
 
 /* Algolia Imports */
 import algoliasearch from 'algoliasearch/lite';
@@ -39,6 +42,37 @@ import { CustomHits } from '../Search/searchPreview.jsx';
     },
   };
 
+  // Provide a fallback when no results are returned.
+  function NoResultsBoundary({ children, fallback }) {
+    const { results } = useInstantSearch();
+  
+    // The `__isArtificial` flag makes sure not to display the No Results message
+    // when no hits have been returned.
+    if (!results.__isArtificial && results.nbHits === 0) {
+      return (
+        <>
+          {fallback}
+          <div hidden>{children}</div>
+        </>
+      );
+    }
+  
+    return children;
+  }
+  
+  function NoResults() {
+  
+    return (
+      <ul className="algolia-result-style">
+        <li key={uuidv4()} className='mb-4'>
+          <Paragraph className="mt-2">
+            No search results found.
+          </Paragraph>
+        </li>
+      </ul>
+    );
+  }
+
 const Dropdown = () => {
   const ref = useRef();
   const [refresh, setRefresh] = useState(false);
@@ -70,43 +104,42 @@ const Dropdown = () => {
         >
           <Configure hitsPerPage={5} distinct/>
 
-          {/* forcefeed className because component does not accept natively as prop */}
           <SearchBox
             id="search-lc"
             classNames={{
               root: "searchbox",
               form: "ais-SearchBox-input"
             }}
-            submit={<></>}
-            reset={<></>}
-            translations={{
-              placeholder: 'Search Postman Docs',
-            }}
+            placeholder='Search Postman Docs'
+            submitIconComponent={() => (
+              <></>
+             )}
+            resetIconComponent={() => (
+              <></>
+            )}
             onKeyUp={(event) => {
-              setHasInput(event.currentTarget.value.length > 2)
+              setHasInput(event.target.value.length > 2)
             }}
           />
           <div className={!hasInput ? 'input-empty' : 'input-value'}>
             <div className="container">
               <div className="row">
                 <div className="col-12">
-                  <CustomHits hitComponent={Hits} />
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-12">
-                  {Hits.length > 1 ? <Pagination
-                    translations={{
-                      previous: '← Previous',
-                      next: 'Next →',
-                      first: '«',
-                      last: '»',
-                      ariaPrevious: 'Previous page',
-                      ariaNext: 'Next page',
-                      ariaFirst: 'First page',
-                      ariaLast: 'Last page',
-                    }}
-                  /> : ''}
+                  <NoResultsBoundary fallback={<NoResults />}>
+                    <CustomHits hitComponent={Hits} />
+                    <Pagination
+                      translations={{
+                        previousPageItemText: '← Previous',
+                        nextPageItemText: 'Next →',
+                        firstPageItemText: '',
+                        lastPageItemText: '',
+                        previousPageItemAriaLabel: 'Previous page',
+                        nextPageItemAriaLabel: 'Next page',
+                        firstPageItemAriaLabel: 'First page',
+                        lastPageItemAriaLabel: 'Last page',
+                      }}
+                    />
+                  </NoResultsBoundary>
                 </div>
               </div>
             </div>
