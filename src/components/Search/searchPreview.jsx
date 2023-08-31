@@ -3,8 +3,6 @@ import { useSearchBox, useHits} from 'react-instantsearch';
 import { Paragraph } from 'aether-marketing';
 const { v4: uuidv4 } = require('uuid');
 
-// <Highlight attribute="name" hit={hit} />
-
 const SearchBox = ({ query, refine }) => (
   <div className="ais-SearchBox">
     <form noValidate action="" role="search" className="ais-SearchBox-form">
