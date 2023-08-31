@@ -1238,10 +1238,6 @@ export const leftNavItems = [
             name: 'Managing your team',
             url: '/docs/administration/managing-your-team/managing-your-team/',
           },
-          {
-            name: 'Configuring domain verification and capture',
-            url: '/docs/administration/managing-your-team/configuring-domain-capture/',
-          },
         ],
       },
       {
@@ -1355,6 +1351,29 @@ export const leftNavItems = [
           {
             name: 'Configuring SCIM with OneLogin',
             url: '/docs/administration/scim-provisioning/configuring-scim-with-onelogin/'
+          }
+        ],
+      },
+      {
+        name: 'Domain verification and capture',
+        subParentSlug: 'domain-verification-and-capture',
+        slug: '/docs/administration/domain-verification-and-capture/domain-capture-overview/',
+        subMenuItems2: [
+          {
+            name: 'Domain capture overview',
+            url: '/docs/administration/domain-verification-and-capture/domain-capture-overview',
+          },
+          {
+            name: 'a',
+            url: '/docs/administration/domain-verification-and-capture/a',
+          },
+          {
+            name: 'y',
+            url: '/docs/administration/domain-verification-and-capture/y',
+          },
+          {
+            name: 'x',
+            url: '/docs/administration/domain-verification-and-capture/x'
           }
         ],
       },
