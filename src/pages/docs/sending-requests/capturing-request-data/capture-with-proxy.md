@@ -126,7 +126,7 @@ To save captured requests to a collection, do the following:
 1. Select the checkbox next to the requests you want to save, or select the checkbox in the column header to select all requests.
 1. Select **Save Requests**.
 1. Select the collection where you want to save the requests, or select **New collection** to create a new collection.
-1. Choose how to organize the requests in the collection. By default, requests are ordered chronologically. You can also select the checkboxes to group the requests in folders organized by **Domain name**, **Endpoints**, or both.
+1. Choose how to organize the requests in the collection. You can select the checkboxes to group the requests in folders organized by **Domain name**, **Endpoints**, or both.
 1. Select **Save**.
 
 <img alt="Save captured requests to a collection" src="https://assets.postman.com/postman-docs/v10/proxy-create-collection-v10-18.jpg" />
