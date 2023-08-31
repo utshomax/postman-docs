@@ -91,8 +91,8 @@ Postman logs events related to your [team](#team), [users](#users), and [billing
 | Updated Team Discovery | A user updated your team's discoverability status. |
 | Added Domain for Domain Capture | A Team Admin added a domain for domain capture. |
 | Verified Domain for Domain Capture | The domain added for domain capture has been verified. |
-| Enabled Domain Team Management | A Team Admin enabled [domain team management](/docs/administration/managing-your-team/configuring-domain-capture/). |
-| User Joined via Domain Capture | A user joined through [team domain management](/docs/administration/managing-your-team/configuring-domain-capture/). |
+| Enabled Domain Team Management | A Team Admin enabled [domain team management](/docs/administration/domain-verification-and-capture/domain-capture-overview/). |
+| User Joined via Domain Capture | A user joined through [team domain management](/docs/administration/domain-verification-and-capture/domain-capture-overview/). |
 | Disabled Domain Team Management | A Team Admin disabled domain team management. |
 | Deleted Domain for Domain Capture | A Team Admin deleted a domain for domain capture. |
 | Added Custom Domain | A [custom domain](/docs/publishing-your-api/custom-doc-domains/) was added to your team. |
