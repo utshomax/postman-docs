@@ -26,13 +26,13 @@ contextual_links:
     url: "https://blog.postman.com/build-better-apis-using-the-new-and-improved-api-builder/"
 ---
 
-You create the structure of your API using the _API definition_. The API definition can consist of one or multiple files. If your API doesn't have a definition, you can generate an example definition, import a definition, or add a definition from a connected repository.
+You create the structure of your API using the _API definition_. The API definition can consist of one or multiple files. If your API doesn't have a definition, you can add an example definition, import a definition, or add a definition from a connected repository.
 
 > Postman supports OpenAPI (versions 1.0, 2.0, 3.0, and 3.1), RAML (0.8 and 1.0), protobuf (protocol buffer) (2.0 and 3.0), GraphQL, or WSDL (1.0 and 2.0) definitions. OpenAPI definitions can be JSON or YAML. RAML definitions must be YAML. Protobuf definitions are `.proto` files. GraphQL definitions can be JSON or GraphQL SDL. WSDL definitions must be XML.
 
 ## Contents
 
-* [Generating an API definition](#generating-an-api-definition)
+* [Adding an example API definition](#adding-an-example-api-definition)
 * [Importing an API definition](#importing-an-api-definition)
 * [Adding an API definition from a connected repository](#adding-an-api-definition-from-a-connected-repository)
 * [Editing an API definition file](#editing-an-api-definition-file)
@@ -43,9 +43,9 @@ You create the structure of your API using the _API definition_. The API definit
     * [Adding files from a connected repository](#adding-files-from-a-connected-repository)
     * [Deleting files and folders](#deleting-files-and-folders)
 
-## Generating an API definition
+## Adding an example API definition
 
-If your API doesn't have a definition, you can generate an example definition that you can edit.
+If your API doesn't have a definition, you can add an example definition that you can edit.
 
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, next to **Definition**, select **+** and select **Author from scratch**.
@@ -55,7 +55,7 @@ If your API doesn't have a definition, you can generate an example definition th
 1. Select a definition type and format.
 1. Select the **Use a boilerplate** checkbox if you want to start with a sample definition.
 
-    <img alt="Generating an API definition" src="https://assets.postman.com/postman-docs/v10/api-builder-author-definition-v10.jpg" width="323px"/>
+    <img alt="Adding an example API definition" src="https://assets.postman.com/postman-docs/v10/api-builder-author-definition-v10.jpg" width="323px"/>
 
 1. Select **Create Definition**.
 
@@ -84,6 +84,8 @@ If your API is [connected to a Git repository](/docs/designing-and-developing-yo
 1. Enter the file path (in the repository) of the definition file you want to add and select **Select**.
 
     > For OpenAPI 2.0 and 3.0 and protobuf 2.0 and 3.0 APIs, you can select more than one file to add from the repository. Learn more about [working with multi-file API definitions](#working-with-multi-file-api-definitions).
+
+    <img alt="Selecting a definition file" src="https://assets.postman.com/postman-docs/v10/api-builder-select-definition-file-v10-18.jpg" />
 
 1. Select **Add Files**.
 
@@ -158,6 +160,9 @@ If your API is [connected to a Git repository](/docs/designing-and-developing-yo
     <img alt="Adding a file from a connected repository" src="https://assets.postman.com/postman-docs/v10/api-builder-add-file-from-git-v10-18.jpg" />
 
 1. Enter the file path (in the repository) of the definition file you want to add and select **Select**. You can select more than one file to add from the repository.
+
+    <img alt="Selecting a definition file" src="https://assets.postman.com/postman-docs/v10/api-builder-select-files-from-git-v10-18.jpg" />
+
 1. Select **Add Files**.
 
     The definition files you selected are added to your API. For OpenAPI 2.0 and 3.0 APIs, Postman scans for any dependent files referenced in the definition files and automatically adds them to your API.

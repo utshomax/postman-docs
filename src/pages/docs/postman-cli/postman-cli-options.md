@@ -170,11 +170,9 @@ postman api publish <apiId> --name v1\
 
 #### Examples for repos linked with git
 
-The options for the `api publish` command differ depending on if you specified a schema folder or schema root file when setting up the Git integration. Git integrations added in Postman v10.17 or later (macOS) or v10.18 or later (Windows) use a schema root file. Learn more about [connecting an API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/).
+The options for the `api publish` command differ depending on if you specified a schema folder or schema root file when setting up the Git integration. Git integrations added in Postman v10.17 or later (macOS) or v10.18 or later (Windows) use a schema root file. Git integrations added in other Postman versions use a schema folder. Learn more about [connecting an API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/).
 
-To determine which command option you should use, examine the API's configuration file in the repository, located in the `.postman` directory.
-
-* If a `rootDirectory` is specified under `[config.relations.apiDefinition]`, use the `--api-definition <schemaDirectoryPath>` option:
+* If the API uses a schema folder, publish the API using the `--api-definition <schemaDirectoryPath>` option:
 
     ```plaintext
     postman api publish <apiId> --name v1\
@@ -183,7 +181,7 @@ To determine which command option you should use, examine the API's configuratio
     --api-definition <schemaDirectoryPath>
     ```
 
-* If one or more schema files are specified under `[config.relations.apiDefinition]`, use the `--api-definition <schemaRootFilePath>` option:
+* If the API uses a schema root file, publish the API using the `--api-definition <schemaRootFilePath>` option:
 
     ```plaintext
     postman api publish <apiId> --name v1\
@@ -191,6 +189,8 @@ To determine which command option you should use, examine the API's configuratio
     --collections <collectionPath1> <collectionPath2>\
     --api-definition <schemaRootFilePath>
     ```
+
+> If you specify a file when a folder is required, or a folder when a file is required, the `api publish` command returns the following error: `API Definition <file/folder> is not part of API <apiId>`. Try the command again using the other option.
 
 #### Options
 

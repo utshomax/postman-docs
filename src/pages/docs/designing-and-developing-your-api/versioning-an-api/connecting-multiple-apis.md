@@ -51,7 +51,7 @@ For example, if you have an `emails` API and an `sms` API, you could have the fo
 
 If you're working on a [multi-file API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#working-with-multi-file-api-definitions), you can choose which files to add to each API. Make sure to select the correct definition files when [adding files to an API](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#adding-files-from-a-connected-repository).
 
-> For OpenAPI 2.0 and 3.0 APIs, when you add definition files to your API, Postman scans for any referenced files and automatically adds them to your API. If two root definition files reference the same file, that file will be added to both APIs. In this case, changes made in one API may affect the other API.
+> For OpenAPI 2.0 and 3.0 APIs, when you add definition files to your API, Postman scans for any referenced files in the same repository and automatically adds them to your API. If two APIs are in the same repository, and each API's root definition files reference the same file, that file will be added to both APIs. In this case, changes made in one API may affect the other API.
 
 ### Reusing components in multiple APIs
 
