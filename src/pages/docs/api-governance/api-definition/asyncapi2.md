@@ -1,5 +1,5 @@
 ---
-title: "AsyncAPI 2.0 rules"
+title: "AsyncAPI 2 rules"
 updated: 2023-09-15
 ---
 
