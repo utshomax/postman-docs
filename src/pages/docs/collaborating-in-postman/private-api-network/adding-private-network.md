@@ -76,6 +76,10 @@ You can select <img alt="Home icon" src="https://assets.postman.com/postman-docs
 
 <img alt="Private API Network discover elements" src="https://assets.postman.com/postman-docs/v10/private-api-network-discover-elements-v10.jpg"/>
 
+API Network Managers who are setting up the Private API Network might see a list of suggested elements on the right. Postman suggests adding these elements to the network because they are popular within your team, meaning your team might benefit from having them in the Private API Network. To add a suggested element to the network, select **Add**.
+
+<img alt="Private API Network suggested elements" src="https://assets.postman.com/postman-docs/v10/private-api-network-suggested-elements-v10.jpg"/>
+
 ### Search for elements in the network
 
 You can search and filter elements in the network. Select **Search Postman** in the header, make sure the scope is **Private API Network**, then enter your search terms. You can also change the scope of your search to **Workspaces**, **Collections**, **Requests**, **APIs**, or **Folders**. You can press **Enter** or select an element's name in the search results to open it in the network. To learn more about searching in Postman, see [Search Postman](/docs/getting-started/basics/navigating-postman/#search-postman).
