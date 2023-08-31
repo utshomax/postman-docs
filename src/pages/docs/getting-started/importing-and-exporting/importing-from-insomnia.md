@@ -37,7 +37,7 @@ Insomnia is an open-source desktop application for creating APIs. You can export
 1. Select **Export**.
 1. Select **HAR - HTTP Archive Format** from the dropdown menu.
 1. Select **Done**.
-1. When Insomnia asks if you want to include private environments, select **Yes**.
+1. When Insomnia asks if you want to include private environments, select **Yes** or **No**.
 1. Enter a file name, select a save location, and select **Export**.
 
 ## Use Insomnia's Postman Export plugin
