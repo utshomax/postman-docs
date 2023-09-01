@@ -183,9 +183,9 @@ For information on how to remove an external user from a team or collection, see
 
 > **[Team workspace management is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-You can manage the users and [groups](/docs/collaborating-in-postman/user-groups/) who can [create team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/) in your team. All users and groups in your team can create team workspaces by default. If team workspace management is turned on, only [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and specified users and groups can create team workspaces.
+If team workspace management is turned on, you can specify users and [groups](/docs/collaborating-in-postman/user-groups/) who [create team workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). [Super Admins and Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create team workspaces whether team workspace management is turned on or off.
 
-All other team members will require approval to create team workspaces by a Team Admin or user with permission to create team workspaces. The workspace's visibility will be set to [private](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) until the request is approved.
+All other team members will require approval to create team workspaces by a Super Admin, Team Admin, or user with permission to create team workspaces. The workspace's visibility will be set to [private](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) until the request is approved.
 
 > To request team workspace management for your team, contact your Postman Account Manager.
 
@@ -193,7 +193,7 @@ All other team members will require approval to create team workspaces by a Team
 
 1. Select **Team** in the Postman header, then select **Workspace management**.
 1. Select **Specific people or groups**.
-1. (Optional) Specify users or groups who can create team workspaces. If you don't specify users or groups, only Team Admins will have permission to create team workspaces in your team.
+1. (Optional) Specify users or groups who can create team workspaces. If you don't specify users or groups, only Super Admins and Team Admins will have permission to create team workspaces in your team.
 1. Select **Save Changes**. -->
 
 <!-- <img alt="Specify users who can create team workspaces" src="https://assets.postman.com/postman-docs/v10/workspace-management-specify-users-v10.jpg"/> -->
