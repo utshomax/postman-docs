@@ -32,7 +32,7 @@ Insomnia is an open-source desktop application for creating APIs. You can export
 
 ## Export a HAR file from Insomnia
 
-1. In Insomnia, from the Collection name dropdown menu, select **Export**.
+1. In Insomnia, from the collection name dropdown menu, select **Export**.
 1. Select the collections or requests you want to export.
 1. Select **Export**.
 1. Select **HAR - HTTP Archive Format** from the dropdown menu.
@@ -43,7 +43,7 @@ Insomnia is an open-source desktop application for creating APIs. You can export
 ## Use Insomnia's Postman Export plugin
 
 1. In Insomnia, install the [Postman Export plugin](https://insomnia.rest/plugins/insomnia-plugin-postman-export).
-1. From the Collection name dropdown menu, select **Export as Postman Collection**.
+1. From the collection name dropdown menu, select **Export as Postman Collection**.
 1. (Optional) Enter a regular expression to filter requests.
 1. Select **OK**.
 1. (Optional) Enter the request ID CSV's file name.
@@ -56,3 +56,5 @@ Insomnia is an open-source desktop application for creating APIs. You can export
 1. In Postman, go to your workspace and select **Import**.
 1. Select **files**.
 1. Select the file you want to import and select **Open**.
+
+  > You can also drag files into the import window.
