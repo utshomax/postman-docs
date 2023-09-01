@@ -22,7 +22,7 @@ contextual_links:
     url: "https://blog.postman.com/differences-between-postman-collections-and-collection-format/"
 ---
 
-Insomnia is an open-source desktop application for creating APIs. You can export Insomnia requests and collections as a HAR file, then import the HAR file into Postman. You can also use Insomnia's [Postman Export plugin](https://insomnia.rest/plugins/insomnia-plugin-postman-export) to convert Insomnia assets into a Postman-compatible format.
+Insomnia is an open-source desktop application for creating APIs. You can export Insomnia requests and collections as an HTTP Archive (HAR) file, then import the HAR file into Postman. You can also use Insomnia's [Postman Export plugin](https://insomnia.rest/plugins/insomnia-plugin-postman-export) to convert Insomnia assets into a Postman-compatible format.
 
 ## Contents
 
