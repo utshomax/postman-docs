@@ -1361,19 +1361,19 @@ export const leftNavItems = [
         subMenuItems2: [
           {
             name: 'Domain capture overview',
-            url: '/docs/administration/domain-verification-and-capture/domain-capture-overview',
+            url: '/docs/administration/domain-verification-and-capture/domain-capture-overview/',
           },
           {
-            name: 'a',
-            url: '/docs/administration/domain-verification-and-capture/a',
+            name: 'Add and verify a domain',
+            url: '/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/',
           },
           {
-            name: 'y',
-            url: '/docs/administration/domain-verification-and-capture/y',
+            name: 'Enable domain capture',
+            url: '/docs/administration/domain-verification-and-capture/enable-domain-capture/',
           },
           {
-            name: 'x',
-            url: '/docs/administration/domain-verification-and-capture/x'
+            name: 'Domain capture support and FAQs',
+            url: '/docs/administration/domain-verification-and-capture/domain-capture-support-and-faqs/'
           }
         ],
       },
