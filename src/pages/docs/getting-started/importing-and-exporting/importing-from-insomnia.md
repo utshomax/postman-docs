@@ -46,7 +46,7 @@ Insomnia is an open-source desktop application for creating APIs. You can export
 1. From the Collection name dropdown menu, select **Export as Postman Collection**.
 1. (Optional) Enter a regular expression to filter requests.
 1. Select **OK**.
-1. (Optional) Enter the request ID CSV's file name.
+1. (Optional) Enter the file name of the request ID CSV.
 1. Select **OK**.
 1. Enter an output path and select **Initiate (Please Wait for "All Done!")**
 1. Select **OK**.
