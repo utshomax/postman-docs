@@ -207,7 +207,7 @@ API Network Managers can review requests to add elements to the Private API Netw
 
 When an Editor requests to add an element to your team's Private API Network, Postman will send you an email and an in-app notification. For the list of all the pending requests, open the [Private API Network](https://go.postman.co/network/private) and select the pending requests icon <img alt="Pending requests icon" src="https://assets.postman.com/postman-docs/v10/icon-pending-request-v10.jpg#icon" width="22px"> in the left sidebar.
 
-Pending requests include the element type, the user who submitted the request, the date they submitted it on, a link to view the element in its workspace, the folder they want to add the element to, and an optional note from the requesting user.
+Pending requests include the element type, the user who submitted the request, the date they submitted it on, a link to view the element in its workspace, the folder they want to add the element to, and an optional note from the requesting user. If the element is an API, pending requests also include syntax errors and rule violations if they're present in the API definition.
 
 <img alt="Approve or deny a request" src="https://assets.postman.com/postman-docs/v10/private-api-network-pending-requests-v10-3.jpg"/>
 
