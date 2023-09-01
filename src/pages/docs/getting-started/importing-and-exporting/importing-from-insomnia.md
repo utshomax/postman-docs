@@ -22,7 +22,7 @@ contextual_links:
     url: "https://blog.postman.com/differences-between-postman-collections-and-collection-format/"
 ---
 
-Insomnia is an open-source desktop application for creating APIs. You can export Insomnia requests and collections as a HAR file, then import the HAR file into Postman. You can also use Insomnia's [Postman Export plugin](https://insomnia.rest/plugins/insomnia-plugin-postman-export) to convert Insomnia assets into a Postman-compatible format.
+Insomnia is an open-source desktop application for creating APIs. You can export Insomnia requests and collections as an HTTP Archive (HAR) file, then import the HAR file into Postman. You can also use Insomnia's [Postman Export plugin](https://insomnia.rest/plugins/insomnia-plugin-postman-export) to convert Insomnia assets into a Postman-compatible format.
 
 ## Contents
 
@@ -35,7 +35,7 @@ Insomnia is an open-source desktop application for creating APIs. You can export
 1. In Insomnia, from the collection name dropdown menu, select **Export**.
 1. Select the collections or requests you want to export.
 1. Select **Export**.
-1. Select **HAR - HTTP Archive Format** from the dropdown menu.
+1. From the dropdown, select **HAR - HTTP Archive Format** .
 1. Select **Done**.
 1. When Insomnia asks if you want to include private environments, select **Yes** or **No**.
 1. Enter a file name, select a save location, and select **Export**.
@@ -46,9 +46,9 @@ Insomnia is an open-source desktop application for creating APIs. You can export
 1. From the collection name dropdown menu, select **Export as Postman Collection**.
 1. (Optional) Enter a regular expression to filter requests.
 1. Select **OK**.
-1. (Optional) Enter the request ID CSV's file name.
+1. (Optional) Enter the file name of the request ID CSV.
 1. Select **OK**.
-1. Enter an output path and select **Initiate (Please Wait for "All Done!")**
+1. Enter an output path and select **Initiate (Please Wait for "All Done!")**.
 1. Select **OK**.
 
 ## Import the data into Postman
