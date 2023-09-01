@@ -16,62 +16,58 @@ import {
 import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
 import { CustomHits } from '../Search/searchPreview.jsx';
 
-  const searchOnlyKey = process.env.NODE_ENV === 'development' ? '003daeb8de202d4a917c2395628d75a8' : '69f2c5376f1a90912c6c3b6b772c25bc';
-  const algoliaIndex = process.env.NODE_ENV === 'development' ? 'dev_docs' : 'docs';
+const searchOnlyKey = process.env.NODE_ENV === 'development' ? '003daeb8de202d4a917c2395628d75a8' : '69f2c5376f1a90912c6c3b6b772c25bc';
+const algoliaIndex = process.env.NODE_ENV === 'development' ? 'dev_docs' : 'docs';
 
+/* Algolia Search Bar */
+const algoliaClient = algoliasearch(
+  '4A5N71XYH0',
+  searchOnlyKey
+);
 
-  /* Algolia Search Bar */
-  const algoliaClient = algoliasearch(
-    '4A5N71XYH0',
-    searchOnlyKey
-  );
+// removes empty query searches from analytics
+const searchClient = {
+  search(requests) {
+    const newRequests = requests.map((request) => {
+      // test for empty string and change request parameter: analytics
+      if (!request.params.query || request.params.query.length === 0) {
+        request.params.analytics = false;
+      }
+      return request;
+    });
+    return algoliaClient.search(newRequests);
+  },
+};
 
-  
+// Provide a fallback when no results are returned.
+function NoResultsBoundary({ children, fallback }) {
+  const { results } = useInstantSearch();
 
-  // removes empty query searches from analytics
-  const searchClient = {
-    search(requests) {
-      const newRequests = requests.map((request) => {
-        // test for empty string and change request parameter: analytics
-        if (!request.params.query || request.params.query.length === 0) {
-          request.params.analytics = false;
-        }
-        return request;
-      });
-      return algoliaClient.search(newRequests);
-    },
-  };
-
-  // Provide a fallback when no results are returned.
-  function NoResultsBoundary({ children, fallback }) {
-    const { results } = useInstantSearch();
-  
-    // The `__isArtificial` flag makes sure not to display the No Results message
-    // when no hits have been returned.
-    if (!results.__isArtificial && results.nbHits === 0) {
-      return (
-        <>
-          {fallback}
-          <div hidden>{children}</div>
-        </>
-      );
-    }
-  
-    return children;
-  }
-  
-  function NoResults() {
-  
+  // The `__isArtificial` flag makes sure not to display the No Results message
+  // when no hits have been returned.
+  if (!results.__isArtificial && results.nbHits === 0) {
     return (
-      <ul className="algolia-result-style">
-        <li key={uuidv4()} className='mb-4'>
-          <Paragraph className="mt-2">
-            No search results found.
-          </Paragraph>
-        </li>
-      </ul>
+      <>
+        {fallback}
+        <div hidden>{children}</div>
+      </>
     );
   }
+
+  return children;
+}
+
+function NoResults() {
+  return (
+    <ul className="algolia-result-style">
+      <li key={uuidv4()} className='mb-3 px-lg-5'>
+        <Paragraph className="mt-2">
+          No search results found.
+        </Paragraph>
+      </li>
+    </ul>
+  );
+}
 
 const Dropdown = () => {
   const ref = useRef();
@@ -103,7 +99,6 @@ const Dropdown = () => {
           refresh={refresh}
         >
           <Configure hitsPerPage={5} distinct/>
-
           <SearchBox
             id="search-lc"
             classNames={{
@@ -122,25 +117,23 @@ const Dropdown = () => {
             }}
           />
           <div className={!hasInput ? 'input-empty' : 'input-value'}>
-            <div className="container">
-              <div className="row">
-                <div className="col-12">
-                  <NoResultsBoundary fallback={<NoResults />}>
-                    <CustomHits hitComponent={Hits} />
-                    <Pagination
-                      translations={{
-                        previousPageItemText: '← Previous',
-                        nextPageItemText: 'Next →',
-                        firstPageItemText: '',
-                        lastPageItemText: '',
-                        previousPageItemAriaLabel: 'Previous page',
-                        nextPageItemAriaLabel: 'Next page',
-                        firstPageItemAriaLabel: 'First page',
-                        lastPageItemAriaLabel: 'Last page',
-                      }}
-                    />
-                  </NoResultsBoundary>
-                </div>
+            <div className="row">
+              <div className="col-12">
+                <NoResultsBoundary fallback={<NoResults />}>
+                  <CustomHits hitComponent={Hits} />
+                  <Pagination
+                    translations={{
+                      previousPageItemText: '← Previous',
+                      nextPageItemText: 'Next →',
+                      firstPageItemText: '',
+                      lastPageItemText: '',
+                      previousPageItemAriaLabel: 'Previous page',
+                      nextPageItemAriaLabel: 'Next page',
+                      firstPageItemAriaLabel: 'First page',
+                      lastPageItemAriaLabel: 'Last page',
+                    }}
+                  />
+                </NoResultsBoundary>
               </div>
             </div>
           </div>
