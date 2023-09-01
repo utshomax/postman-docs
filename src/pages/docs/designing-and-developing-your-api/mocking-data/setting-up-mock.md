@@ -52,7 +52,7 @@ When you send a request to a mock server, Postman matches the request to a saved
 To test using a mock server, do the following:
 
 1. In Postman, send a request to any API. Your request must be saved to a collection.
-1. In the response pane, select **Save Response > Save as example**. Postman automatically populates the example with the response you received when you sent the request.
+1. In the response pane, select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save as Example**. Postman automatically populates the example with the response you received when you sent the request.
 1. Select **Collections** in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection where the request was saved and select **Mock collection**.
 1. Give your mock a name and leave the other settings at their defaults. Select **Create Mock Server**.
 1. Copy the mock URL and go back into your request. Replace the base part of the URL with the mock server URL (everything before the path, for example up to `/customers`).
