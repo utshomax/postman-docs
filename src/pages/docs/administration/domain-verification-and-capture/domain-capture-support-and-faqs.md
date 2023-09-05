@@ -13,9 +13,7 @@ contextual_links:
 
 > **[Domain verification and capture are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
-Verify a domain to view all user accounts in Postman that have been created with your organization’s domains and subdomains. Enable domain capture to manage all of these user accounts in Postman. With domain capture, you can merge all of your organization's Postman users into a single Postman team and ensure that any new users who sign up for Postman with your domain are automatically added.
-
-To enable domain capture, [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) must first [add and verify a domain or subdomain](#adding-and-verifying-a-domain). Once the domain is verified, they can create a request to [enable domain capture](#enabling-domain-capture). Once the request to enable domain capture is approved, they can [contact Postman support](#contacting-support-to-manage-accounts) to manage [unclaimed accounts](#viewing-unclaimed-accounts).
+For more information about the effects of enabling domain capture and when to contact Postman support for assistance, see below.
 
 ## Contents
 
