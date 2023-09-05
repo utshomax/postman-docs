@@ -193,6 +193,10 @@ export const leftNavItems = [
             url: '/docs/getting-started/importing-and-exporting/importing-from-new-relic/',
           },
           {
+            name: 'Importing from Insomnia',
+            url: '/docs/getting-started/importing-and-exporting/importing-from-insomnia/',
+          },
+          {
             name: 'Exporting data from Postman',
             url: '/docs/getting-started/importing-and-exporting/exporting-data/',
           },
