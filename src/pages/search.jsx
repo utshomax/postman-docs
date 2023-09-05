@@ -13,7 +13,7 @@ import {
   Snippet,
   useInstantSearch,
   Configure
-} from 'react-instantsearch-hooks-web';
+} from 'react-instantsearch';
 
 
 /* URL manipulation
