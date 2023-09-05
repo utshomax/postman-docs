@@ -81,4 +81,4 @@ Once the request is approved to [enable domain capture](#enabling-domain-capture
 
 ## Domain capture support and FAQs
 
-For more information about the effects of enabling domain capture and how to contact Postman support for assistance, see [Domain capture support and FAQs](/docs/administration/domain-verification-and-capture/domain-capture-support-and-faqs/s).
+For more information about the effects of enabling domain capture and how to contact Postman support for assistance, see [Domain capture support and FAQs](/docs/administration/domain-verification-and-capture/domain-capture-support-and-faqs/).
