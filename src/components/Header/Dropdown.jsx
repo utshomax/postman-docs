@@ -14,7 +14,7 @@ import {
   Pagination,
 } from 'react-instantsearch';
 import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
-import { CustomHits } from '../Search/searchPreview.jsx';
+import { CustomHits, CustomPagination } from '../Search/searchPreview.jsx';
 
 const searchOnlyKey = process.env.NODE_ENV === 'development' ? '003daeb8de202d4a917c2395628d75a8' : '69f2c5376f1a90912c6c3b6b772c25bc';
 const algoliaIndex = process.env.NODE_ENV === 'development' ? 'dev_docs' : 'docs';
@@ -121,10 +121,11 @@ const Dropdown = () => {
               <div className="col-12">
                 <NoResultsBoundary fallback={<NoResults />}>
                   <CustomHits hitComponent={Hits} />
-                  <Pagination
+                  {/* <Pagination
                     translations={{
                       previousPageItemText: '← Previous',
                       nextPageItemText: 'Next →',
+                      pageItemText: ({ currentPage }) => '',
                       firstPageItemText: '',
                       lastPageItemText: '',
                       previousPageItemAriaLabel: 'Previous page',
@@ -132,7 +133,8 @@ const Dropdown = () => {
                       firstPageItemAriaLabel: 'First page',
                       lastPageItemAriaLabel: 'Last page',
                     }}
-                  />
+                  /> */}
+                  <CustomPagination previousPageItemText={'← Previous'} />
                 </NoResultsBoundary>
               </div>
             </div>

@@ -87,6 +87,7 @@ export const SearchWrapperStyling = styled.div`
  
 }
 
+
 .ais-Pagination-list {
   list-style: none;
   display: flex;
@@ -110,6 +111,7 @@ export const SearchWrapperStyling = styled.div`
     color:  ${(props) => props.theme.colors.grey_90};
   }
   .ais-Pagination-item--previousPage > .ais-Pagination-link {
+    padding: 8px 16px;
     color: ${(props) => props.theme.colors.grey_50};
   }
 }

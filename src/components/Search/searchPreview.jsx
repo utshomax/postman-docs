@@ -1,13 +1,18 @@
 import React from 'react';
-import { useSearchBox, useHits} from 'react-instantsearch';
+import { useSearchBox, useHits, usePagination} from 'react-instantsearch';
 import { Paragraph } from 'aether-marketing';
 const { v4: uuidv4 } = require('uuid');
 
+
+
+// Custom Search Box Widget
+//////////////////////////////////////////////////////////////////////////////
+
 const SearchBox = ({ query, refine }) => (
-  <div className="ais-SearchBox">
-    <form noValidate action="" role="search" className="ais-SearchBox-form">
+  <div className="ais-SearchBox TESTING">
+    <form noValidate action="" role="search" className="ais-SearchBox-form test">
       <input
-        className="ais-SearchBox-input"
+        className="ais-SearchBox-input test"
         autoComplete="off"
         autoCorrect="off"
         autoCapitalize="off"
@@ -19,12 +24,15 @@ const SearchBox = ({ query, refine }) => (
   </div>
 );
 
+
 export function CustomSearchBox(props) {
   const searchBoxApi = useSearchBox(props);
   
   return <SearchBox {...searchBoxApi} />;
 }
 
+// Custom Hits Widget
+//////////////////////////////////////////////////////////////////////////////
 // on page load do not display
 /* eslint-disable react/no-danger */
 const Hits = ({ hits }) => {
@@ -51,9 +59,124 @@ const Hits = ({ hits }) => {
   )};
 /* eslint-enable */
 
-// export const CustomHits = connectHits(Hits);
+
 export function CustomHits(props) {
   const hitsApi = useHits(props);
   
   return <Hits {...hitsApi} />;
+}
+
+
+
+// Custom Pagination Widget
+////////////////////////////////////////////////////////////////////////////////
+
+function Pagination(props) {
+  const {
+    pages,
+    currentRefinement,
+    nbPages,
+    isFirstPage,
+    isLastPage,
+    refine,
+    createURL,
+  } = usePagination(props);
+  const firstPageIndex = 0;
+  const previousPageIndex = currentRefinement - 1;
+  const nextPageIndex = currentRefinement + 1;
+  const lastPageIndex = nbPages - 1;
+
+  return (
+    <ul className='TESTING'>
+      <PaginationItem
+        isDisabled={isFirstPage}
+        href={createURL(firstPageIndex)}
+        onClick={() => refine(firstPageIndex)}
+      >
+        First
+      </PaginationItem>
+      <PaginationItem
+        isDisabled={isFirstPage}
+        href={createURL(previousPageIndex)}
+        onClick={() => refine(previousPageIndex)}
+      >
+        Previous
+      </PaginationItem>
+      {pages.map((page) => {
+        const label = page + 1;
+        
+        return (
+          <PaginationItem
+            key={page}
+            isDisabled={false}
+            aria-label={`Page ${label}`}
+            href={createURL(page)}
+            onClick={() => refine(page)}
+          >
+            {label}
+          </PaginationItem>
+        );
+      })}
+      <PaginationItem
+        isDisabled={isLastPage}
+        href={createURL(nextPageIndex)}
+        onClick={() => refine(nextPageIndex)}
+      >
+        Next
+      </PaginationItem>
+      <PaginationItem
+        isDisabled={isLastPage}
+        href={createURL(lastPageIndex)}
+        onClick={() => refine(lastPageIndex)}
+      >
+        Last
+      </PaginationItem>
+    </ul>
+  );
+}
+
+function PaginationItem({ isDisabled, href, onClick, ...props }) {
+  if (isDisabled) {
+    return (
+      <li className='TESTING'>
+        <span {...props} />
+      </li>
+    );
+  }
+
+  return (
+    <li>
+      <a
+        href={href}
+        className='TESTING'
+        onClick={(event) => {
+          if (isModifierClick(event)) {
+            return;
+          }
+
+          event.preventDefault();
+
+          onClick(event);
+        }}
+        {...props}
+      />
+    </li>
+  );
+}
+
+function isModifierClick(event) {
+  const isMiddleClick = event.button === 1;
+
+  return Boolean(
+    isMiddleClick ||
+      event.altKey ||
+      event.ctrlKey ||
+      event.metaKey ||
+      event.shiftKey
+  );
+}
+export function CustomPagination(props) {
+  const paginationApi = usePagination(props);
+  
+  return <Pagination {...paginationApi} />;
 }
