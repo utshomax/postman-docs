@@ -245,7 +245,7 @@ At any time during your Auto-Flex billing cycle, your team can [invite](/docs/ad
 
 Before your Auto-Flex billing cycle renews, all Billing and Admin team members receive a notification about any new users you added during that time period.
 
-> Annual plans receive a notification two weeks before their quarterly cycle renews, and monthly plans receive a notification one week before their monthly cycle renews.
+> Shortly before the applicable billing date, users with Billing or Admin roles will receive a notification that reflects the number of added Users during that monthly or quarterly cycle.
 
 You can use this reminder to make any necessary changes to your team before the end of your current Auto-Flex cycle, when you will be billed for any newly added users.
 
@@ -257,7 +257,7 @@ You won't be billed if the number of users has remained unchanged during your Au
 
 In your [billing dashboard](http://go.postman.co/billing), you can view:
 
-* Your current number of additional team members
+* Your current number of additional team members and additional add-on seats
 * How much you will be billed at the end of your cycle (unless you add or remove users in the interim)
 * Additional information about your Auto-Flex and regular billing cycles
 
@@ -267,7 +267,7 @@ In your [billing dashboard](http://go.postman.co/billing), you can view:
 
 > **[Enterprise Solutions are available for Enterprise Essentials plans.](https://www.postman.com/pricing)**
 
-As a Team Admin, you can manage solution access of your team members from your [Solution Access](http://go.postman.co/settings/team/solutions-access) page. To learn more about the added capabilities of each solution, visit [Enterprise Solutions](https://www.postman.com/pricing/).
+As a Team Admin, you can manage solution access of your team members from your [Product Access](https://go.postman.co/settings/team/products-access) page. To learn more about the added capabilities of each solution, visit [Enterprise Solutions](https://www.postman.com/pricing/).
 
 * To add Team members to a solution, select **Add Members** and select users.
 * To remove Team members from a solution, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to a user.
