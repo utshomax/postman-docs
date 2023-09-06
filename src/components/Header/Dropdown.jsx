@@ -121,11 +121,12 @@ const Dropdown = () => {
               <div className="col-12">
                 <NoResultsBoundary fallback={<NoResults />}>
                   <CustomHits hitComponent={Hits} />
-                  {/* <Pagination
+                  <Pagination
+                    totalPages={2}
                     translations={{
                       previousPageItemText: '← Previous',
                       nextPageItemText: 'Next →',
-                      pageItemText: ({ currentPage }) => '',
+                      // pageItemText: ({ currentPage }) => '',
                       firstPageItemText: '',
                       lastPageItemText: '',
                       previousPageItemAriaLabel: 'Previous page',
@@ -133,8 +134,12 @@ const Dropdown = () => {
                       firstPageItemAriaLabel: 'First page',
                       lastPageItemAriaLabel: 'Last page',
                     }}
-                  /> */}
-                  <CustomPagination previousPageItemText={'← Previous'} />
+                  />
+                  {/* <Pagination /> */}
+                  {/* <Pagination classNames={{
+                    root: 'MyCustomPagination',
+                    list: 'MyCustomPaginationList MyCustomPaginationList--subclass',
+                  }} /> */}
                 </NoResultsBoundary>
               </div>
             </div>

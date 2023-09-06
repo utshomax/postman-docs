@@ -49,7 +49,7 @@ export const SearchWrapperStyling = styled.div`
     & mark, .mark {
       padding: 0;
       background-color: rgb(255, 244, 190);
-      font-weight: bold;
+      font-weight: 600;
   }
   }
 }
@@ -110,9 +110,11 @@ export const SearchWrapperStyling = styled.div`
   .ais-Pagination-link--selected {
     color:  ${(props) => props.theme.colors.grey_90};
   }
-  .ais-Pagination-item--previousPage > .ais-Pagination-link {
+  .ais-Pagination-item--previousPage > .ais-Pagination-link,
+  .ais-Pagination-item--nextPage > .ais-Pagination-link {
     padding: 8px 16px;
     color: ${(props) => props.theme.colors.grey_50};
+    font-weight: 400;
   }
 }
 
