@@ -54,7 +54,7 @@ You can add domains and subdomains to your team by navigating to the [domain das
 
     > You can reach out to [Postman support](https://www.postman.com/support/) to check the status of your domain verification request.
 
-1. Once your domain is verified, you can [create a request to enable domain capture](#enabling-domain-capture).
+1. Once your domain is verified, you can [create a request to enable domain capture](/docs/administration/domain-verification-and-capture/enable-domain-capture/).
 
 > If you're unable to verify your domain in Postman, please contact your Customer Success Manager or [Postman support](https://www.postman.com/support/) for assistance.
 
@@ -78,7 +78,7 @@ To verify a domain you've already added, do the following:
 
     > You can reach out to [Postman support](https://www.postman.com/support/) to check the status of your domain verification request.
 
-1. Once your domain is verified, you can [create a request to enable domain capture](#enabling-domain-capture).
+1. Once your domain is verified, you can [create a request to enable domain capture](/docs/administration/domain-verification-and-capture/enable-domain-capture/).
 
 ### View verification details
 

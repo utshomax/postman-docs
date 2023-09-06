@@ -1,5 +1,5 @@
 ---
-title: "Domain verification and account capture in Postman"
+title: "Configure domain verification and account capture in Postman"
 updated: 2023-09-15
 contextual_links:
   - type: section

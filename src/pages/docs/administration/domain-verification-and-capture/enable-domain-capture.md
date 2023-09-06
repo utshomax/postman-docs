@@ -19,7 +19,7 @@ You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/
 
 ## Contents
 
-* [Enable domain capture](#enable-domain-capture)
+* [Claim verified accounts](#claim-verified-accounts)
 
     * [User experience](#user-experience)
 
@@ -27,7 +27,7 @@ You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/
 
 * [Domain capture support and FAQs](#domain-capture-support-and-faqs)
 
-## Enable domain capture
+## Claim verified accounts
 
 After you've [added and verified](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/#add-and-verify-a-domain) a domain, you can enable domain capture by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture). To enable domain capture, a Team Admin must create a request with Postman support. Once the request is approved, you can work with Postman support to manage [unclaimed accounts](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/#view-unclaimed-accounts).
 
