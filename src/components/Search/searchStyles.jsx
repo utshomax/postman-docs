@@ -18,6 +18,7 @@ export const SearchWrapperStyling = styled.div`
   display: flex;
   text-align: left;
   max-width: 600px;
+  box-shadow: 0 16px 24px -8px rgb(0 0 0 / 24%);
 
   @media screen and (max-width: 992px){
     left: 10px;
@@ -87,34 +88,45 @@ export const SearchWrapperStyling = styled.div`
  
 }
 
+li.ais-Pagination-item.ais-Pagination-item--page.ais-Pagination-item--selected {
+  a {
+    background-color:  ${(props) => props.theme.colors.grey_10};
+  }
+
+}
 
 .ais-Pagination-list {
   list-style: none;
   display: flex;
   flex-direction: row; 
+  margin-left: 1.05rem;
 
   a {
     padding: 8px 16px;
     color: ${(props) => props.theme.colors.grey_50};
 
-    &:hover {
-      color:  ${(props) => props.theme.colors.blue_70};
+    &:hover, &:active {
       background-color:  ${(props) => props.theme.colors.grey_10};
       border: none;
       text-decoration: none;
     }
   }
+  span.ais-Pagination-link {
+      color: #A6A6A6 !important;
+  }
+  
   .ais-Pagination-item--firstPage {
     display: none;
   }
-  .ais-Pagination-link--selected {
-    color:  ${(props) => props.theme.colors.grey_90};
+  
+  .ais-Pagination-link[aria-label="Previous page"] {
+    padding-left: 0px!important;
   }
   .ais-Pagination-item--previousPage > .ais-Pagination-link,
   .ais-Pagination-item--nextPage > .ais-Pagination-link {
     padding: 8px 16px;
     color: ${(props) => props.theme.colors.grey_50};
-    font-weight: 400;
+    font-weight: 600;
   }
 }
 

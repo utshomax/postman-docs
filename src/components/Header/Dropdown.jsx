@@ -126,7 +126,6 @@ const Dropdown = () => {
                     translations={{
                       previousPageItemText: '← Previous',
                       nextPageItemText: 'Next →',
-                      // pageItemText: ({ currentPage }) => '',
                       firstPageItemText: '',
                       lastPageItemText: '',
                       previousPageItemAriaLabel: 'Previous page',
