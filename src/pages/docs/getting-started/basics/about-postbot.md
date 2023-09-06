@@ -23,7 +23,7 @@ Postbot is your AI assistant for API workflows in Postman. You can ask Postbot t
 
 To use Postbot, look for the Postbot icon <img alt="Postbot icon" src="https://assets.postman.com/postman-docs/v10/icon-postbot-v10-16.jpg#icon" width="18px"> in the footer. Select the icon and enter a plain text prompt, and Postbot will help you complete your work.
 
-Here are other places in Postman where you can use Postbot:
+Here are ways you can use Postbot:
 
 * **Writing tests** - Postbot can add tests to your API requests based on your prompt. Use Postbot to add a new set of tests, visualize responses, save a field from a response, or fix your existing tests. For more information, see [using Postbot to write tests](/docs/writing-scripts/test-scripts#using-postbot-to-write-tests).
 * **Visualization** - Use Postbot to create a [visualizer](/docs/sending-requests/visualizer/) to easily view your response data as a  table, chart, or graph without writing any code.
