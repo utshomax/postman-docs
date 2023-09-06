@@ -62,7 +62,7 @@ Existing users who were on other Postman teams will lose access to all data from
 
 > To transfer an existing user's collections and environments from their earlier teams to their new team, [contact Postman support](#contacting-support-to-manage-accounts).
 
-For more details about the effects of enabling domain capture, see [Domain capture FAQs](/docs/administration/domain-verification-and-capture/domain-capture-support-and-faqs/).
+For more details on the effects of enabling domain capture, see [Domain capture FAQs](/docs/administration/domain-verification-and-capture/domain-capture-support-and-faqs/).
 
 > If users experience any issues when moving to your Postman team, reach out to [Postman support](https://www.postman.com/support/).
 
@@ -81,4 +81,4 @@ Once the request is approved to [enable domain capture](#enabling-domain-capture
 
 ## Domain capture support and FAQs
 
-For more information about the effects of enabling domain capture and how to contact Postman support for assistance, see [Domain capture support and FAQs](/docs/administration/domain-verification-and-capture/domain-capture-support-and-faqs/).
+For more information on the effects of enabling domain capture and how to contact Postman support for assistance, see [Domain capture support and FAQs](/docs/administration/domain-verification-and-capture/domain-capture-support-and-faqs/).

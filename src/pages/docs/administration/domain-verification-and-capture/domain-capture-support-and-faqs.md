@@ -13,7 +13,7 @@ contextual_links:
 
 > **[Domain verification and capture are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
-For more information about the effects of enabling domain capture and when to contact Postman support for assistance, see below.
+For more information on the effects of enabling domain capture and when to contact Postman support for assistance, see below.
 
 ## Contents
 
