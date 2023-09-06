@@ -29,7 +29,7 @@ You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/
 
 ## Enable domain capture
 
-After you've [added and verified](#adding-and-verifying-a-domain) a domain, you can enable domain capture by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture). To enable domain capture, a Team Admin must create a request with Postman support. Once the request is approved, you can work with Postman support to manage [unclaimed accounts](#viewing-unclaimed-accounts).
+After you've [added and verified](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/#add-and-verify-a-domain) a domain, you can enable domain capture by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture). To enable domain capture, a Team Admin must create a request with Postman support. Once the request is approved, you can work with Postman support to manage [unclaimed accounts](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/#view-unclaimed-accounts).
 
 To enable domain capture, do the following:
 
