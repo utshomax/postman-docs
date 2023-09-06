@@ -36,7 +36,7 @@ To enable domain capture, do the following:
 1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
 1. Select **Manage** next to the domain with the `VERIFIED` status you want to enable domain capture for.
 1. Select **Request To Claim**. Postman support will then contact Team Admins to explain the effects of enabling domain capture.
-1. Once the request is approved, you can [contact Postman support](#contacting-support-to-manage-accounts) to manage [unclaimed accounts](#viewing-unclaimed-accounts).
+1. Once the request is approved, you can [contact Postman support](#contact-support-to-manage-accounts) to manage [unclaimed accounts](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/#view-unclaimed-accounts).
 
 To view the status of your request to enable domain capture, select **Manage** next to the domain. After you select **Request To Claim**, the request status is changed to `REQUEST SENT`.
 
@@ -46,7 +46,7 @@ Once the request is approved, a notification will display towards the top of the
 
 ![Domain capture enabled](https://assets.postman.com/postman-docs/v10/domain-capture-enabled-v10.jpg)
 
-> To turn off domain capture, you must [contact Postman support](#contacting-support-to-manage-accounts).
+> To turn off domain capture, you must [contact Postman support](#contact-support-to-manage-accounts).
 
 ### User experience
 
@@ -60,7 +60,7 @@ Existing Postman users with accounts associated with the domain or subdomain wil
 
 Existing users who were on other Postman teams will lose access to all data from their earlier teams, including personal workspaces. No data will be transferred from their earlier teams to their new team. Users won't be able to remain on or join extra Postman teams with their captured accounts.
 
-> To transfer an existing user's collections and environments from their earlier teams to their new team, [contact Postman support](#contacting-support-to-manage-accounts).
+> To transfer an existing user's collections and environments from their earlier teams to their new team, [contact Postman support](#contact-support-to-manage-accounts).
 
 For more details on the effects of enabling domain capture, see [Domain capture FAQs](/docs/administration/domain-verification-and-capture/domain-capture-support-and-faqs/).
 
@@ -68,7 +68,7 @@ For more details on the effects of enabling domain capture, see [Domain capture 
 
 ### Contact support to manage accounts
 
-Once the request is approved to [enable domain capture](#enabling-domain-capture), Team Admins can contact Postman support by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture). Contact Postman support to claim accounts not part of your team, merge teams into your team, and restrict users to only work in your team.
+Once the request is approved to [enable domain capture](#enable-domain-capture), Team Admins can contact Postman support by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture). Contact Postman support to claim accounts not part of your team, merge teams into your team, and restrict users to only work in your team.
 
 1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
 1. Select **Manage** next to the domain with the `VERIFIED` status you want to contact support about.
