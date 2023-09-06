@@ -122,7 +122,7 @@ const Dropdown = () => {
                 <NoResultsBoundary fallback={<NoResults />}>
                   <CustomHits hitComponent={Hits} />
                   <Pagination
-                    totalPages={2}
+                    totalPages={3}
                     translations={{
                       previousPageItemText: '← Previous',
                       nextPageItemText: 'Next →',
@@ -135,11 +135,6 @@ const Dropdown = () => {
                       lastPageItemAriaLabel: 'Last page',
                     }}
                   />
-                  {/* <Pagination /> */}
-                  {/* <Pagination classNames={{
-                    root: 'MyCustomPagination',
-                    list: 'MyCustomPaginationList MyCustomPaginationList--subclass',
-                  }} /> */}
                 </NoResultsBoundary>
               </div>
             </div>
