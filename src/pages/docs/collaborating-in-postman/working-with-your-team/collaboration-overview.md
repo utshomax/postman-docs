@@ -139,20 +139,18 @@ If you're the last member to leave a team, the team will be deleted. You will no
 
 ## Team usage limits
 
-Your team's usage limits are based on your [plan type](https://www.postman.com/pricing/) and any [add-ons](/docs/administration/billing/#purchasing-add-ons) your team has purchased.
+Your team's usage limits are based on your [plan type](https://www.postman.com/pricing/) and any [add-ons](/docs/administration/billing/#purchasing-add-on-resources) your team has purchased.
 
-Open the Postman usage menu to review your team's limits for custom domains, image and file storage, and integrations.
+Open the **Resource usage** page in your [billing dashboard](http://go.postman.co/billing) to see your team's usage of mock servers and monitors, APIs created, collection runner runs, image and file storage, flow requests, performance tests, integrations, and the Postman Cloud Agent. To open the **Resource Usage** page, do one of the following:
 
 * **Free users** - In the Postman header, select the menu next to **Upgrade**.
 * **Paid users** - In the Postman header, select **Team**.
-
-Select **Resource Usage** to view your usage period and detailed usage of mock servers, monitoring, custom domains, image and file storage, the Postman API, integrations, and the Postman Cloud Agent.
 
 > To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).
 
 <img src="https://assets.postman.com/postman-docs/team-dropdown-resource-usage-v9-25.jpg" alt="Team resource usage information" width="342px"/>
 
-Team members with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [purchase extra blocks](/docs/administration/billing/#purchasing-add-ons) of monitoring requests, mock server calls, and custom domains in the [billing dashboard](http://go.postman.co/billing).
+Team members with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [purchase extra blocks](/docs/administration/billing/#purchasing-add-on-resources) of monitoring requests, mock server calls, and custom domains in the [billing dashboard](http://go.postman.co/billing).
 
 ## Next steps
 

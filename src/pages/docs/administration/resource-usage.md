@@ -14,7 +14,7 @@ contextual_links:
 
 Postman provides you with a specified number of resources you can use each month, depending on your [Postman plan](https://www.postman.com/pricing/). Monthly resources include calls to the Postman API, requests made by monitors and scheduled collection runs, mock server requests, and Cloud Agent requests. Your Postman plan also has other limits, such as the number of integrations you can create, the number of custom domains, and storage for uploaded images.
 
-To find out what the resource limits are for your plan, go to the [Postman Plans and Pricing page](https://www.postman.com/pricing/). To view the resources you are using, go to your [Resource Usage dashboard](https://go.postman.co/billing/add-ons/overview). You can view how close you are to your limits and when your monthly limits will reset. If you need more resources, you can [purchase an add-on](/docs/administration/billing/#purchasing-add-ons) or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+To find out what the resource limits are for your plan, go to the [Postman Plans and Pricing page](https://www.postman.com/pricing/). To view the resources you are using, go to your [Resource Usage dashboard](https://go.postman.co/billing/add-ons/overview). You can view how close you are to your limits and when your monthly limits will reset. If you need more resources, you can [purchase an add-on](/docs/administration/billing/#purchasing-add-on-resources) or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
 
 Refer to the following sections to understand what happens when your resource usage reaches the limits set by your Postman plan.
 
@@ -36,7 +36,7 @@ Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number
 
 ![Mock server usage error](https://assets.postman.com/postman-docs/v10/usage-error-mocks-v10.jpg)
 
-To make more requests to your mock servers before your monthly limit resets, you can [enable pay-as-you-go](/docs/administration/billing/#managing-add-ons), [purchase an add-on](/docs/administration/billing/#purchasing-add-ons), or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+To make more requests to your mock servers before your monthly limit resets, you can [enable pay-as-you-go](/docs/administration/billing/#managing-resources), [purchase an add-on](/docs/administration/billing/#purchasing-add-on-resources), or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
 
 ## Monitoring usage
 
@@ -44,7 +44,7 @@ Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number
 
 <img alt="Monitors usage error" src="https://assets.postman.com/postman-docs/v10/usage-error-monitors-v10.jpg" width="361px"/>
 
-Once you've reached your usage limit, your monitors and scheduled collection runs will no longer run on their configured schedules and can't be run manually. To resume running your monitors and scheduled collection runs before your monthly limit resets, you can [enable pay-as-you-go](/docs/administration/billing/#managing-add-ons), [purchase an add-on](/docs/administration/billing/#purchasing-add-ons), or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+Once you've reached your usage limit, your monitors and scheduled collection runs will no longer run on their configured schedules and can't be run manually. To resume running your monitors and scheduled collection runs before your monthly limit resets, you can [enable pay-as-you-go](/docs/administration/billing/#managing-resources), [purchase an add-on](/docs/administration/billing/#purchasing-add-on-resources), or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
 
 > Learn more about [viewing and managing your monitor usage](/docs/monitoring-your-api/monitor-usage/).
 
@@ -76,7 +76,7 @@ Postman paid [plans](https://www.postman.com/pricing/) give you a limited number
 
 ![Custom domains limit reached](https://assets.postman.com/postman-docs/v10/usage-error-custom-domains-v10.jpg)
 
-To add a new custom domain, delete one of your existing custom domains, [purchase an add-on](/docs/administration/billing/#purchasing-add-ons), or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+To add a new custom domain, delete one of your existing custom domains, [purchase an add-on](/docs/administration/billing/#purchasing-add-on-resources), or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
 
 ## Storage usage
 
