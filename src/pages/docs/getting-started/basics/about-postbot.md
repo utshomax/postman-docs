@@ -1,6 +1,6 @@
 ---
 title: "About Postbot"
-updated: 2023-07-17
+updated: 2023-09-15
 contextual_links:
   - type: section
     name: "Additional resources"
