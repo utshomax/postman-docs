@@ -2306,5 +2306,9 @@
   {
     "from": "/docs/postman-flows/tutorials/webhooks/",
     "to": "/docs/postman-flows/concepts/automatic-runs/"
+  },
+  {
+    "from": "/docs/administration/managing-your-team/configuring-domain-capture/",
+    "to": "/docs/administration/domain-verification-and-capture/domain-capture-overview/"
   }
 ]
