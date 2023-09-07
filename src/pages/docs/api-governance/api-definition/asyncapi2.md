@@ -338,7 +338,7 @@ channels: {}
 
 | Issue description | Possible fix |
 | ----------------- | ------------ |
-| The [info object](https://www.asyncapi.com/docs/reference/specification/v2.6.0#infoObject) in your API definition doesn't have a [license object](https://www.asyncapi.com/docs/reference/specification/v2.6.0#licenseObject), which has the license name and it can optionally have a URL pointing to a web page that describes the license. License information helps your API's consumers understand how the API can be copied and used. | Add a license object to the info object. |
+| The [info object](https://www.asyncapi.com/docs/reference/specification/v2.6.0#infoObject) in your API definition doesn't have a [license object](https://www.asyncapi.com/docs/reference/specification/v2.6.0#licenseObject), which has the license name and can optionally have a URL pointing to a web page that describes the license. License information helps your API's consumers understand how the API can be copied and used. | Add a license object to the info object. |
 
 #### Issue
 
