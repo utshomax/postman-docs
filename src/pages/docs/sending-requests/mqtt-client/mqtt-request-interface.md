@@ -26,7 +26,7 @@ Create a new MQTT request by selecting the **New** button in the sidebar, which 
 
 ----{image: creating a new MQTT request}----
 
-You can also create a new MQTT request by clicking on the **New Tab** button (----{image: new tab button}---- icon in the tabs bar) and clicking on the **Request type** button next to the request name (Untitled Request) and selecting **MQTT** from the list.
+You can also create a new MQTT request by selecting **New Tab** button (----{image: new tab button}---- icon in the tabs bar) and selecting the **Request type** button next to the request name (Untitled Request) and selecting **MQTT** from the list.
 
 ----{image: creating a new MQTT request from the tabs bar}----
 
@@ -36,7 +36,7 @@ The request interface lets you add configuration to connect to an MQTT broker, s
 
 ----{image: different sections of the request interface}----
 
-- **URL**- This is where you enter the broker's address; e.g. `test.mosquitto.org`. Some MQTT services also require you to define a port number. You can define a port number in the URL by appending the port number to the URL. For example, `test.mosquitto.org:1883`.
+- **URL**- This is where you enter the broker's address, such as `test.mosquitto.org`. Some MQTT services also require you to define a port number. You can define a port number in the URL by appending the port number to the URL. For example, `test.mosquitto.org:1883`.
     > For connecting to the broker over TLS, you need to use `mqtts://` as your URL scheme. For example, `mqtts://test.mosquitto.org`.
     - **MQTT Version**- Every MQTT version has some distinctions in terms of the protocol features. Postman supports 2 major versions of MQTT; 3.1.1 and 5.0. Version 5.0 is selected by default.
     - **Client ID**- Client ID is an identifier differentiating each client connected to the broker. By default, Postman generates a random client ID for each request. But you can override this by clicking on the **Client ID** button and entering a custom client ID.
@@ -48,14 +48,14 @@ The request interface lets you add configuration to connect to an MQTT broker, s
     - **Retain**- Retain is a flag that asks the broker to retain the last message sent on the topic and send it to the new subscribers even if they join the network after the message was sent from the client. You can configure the retain flag for the message by clicking on the ----{image: Options icon}---- icon and toggling the **Retain** switch.
     - **Send**- Once you have configured the payload, click on the **Send** button to publish the message to the broker.
 - **Topics**- This is where you can list down and document multiple topics, and subscribe to them. You can also configure the QoS level for each topic listed.
-- **Last Will**- Last Will is a message that is sent by the broker to the subscribers when the client disconnects from the broker. You can configure the Last Will message by going to the **Last Will** tab, entering the message, and configuring additional settings such as topic name, QoS level, and retain flag. You can also configure thw will delay interval by clicking on the ----{image: Options icon}---- icon and entering the delay interval in milliseconds.
+- **Last Will**- Last Will is a message that's sent by the broker to the subscribers when the client disconnects from the broker. You can configure the Last Will message by going to the **Last Will** tab, entering the message, and configuring additional settings such as topic name, QoS level, and retain flag. You can also configure thw will delay interval by selecting the ----{image: Options icon}---- icon and entering the delay interval in milliseconds.
 - **Authorization**- Authorize your connection with Basic Auth. You can pass your credentials in the form of username and password to the broker using the **Authorization** tab.
 - **Properties**- You can add custom properties to your request. These properties are sent while connecting to the broker.
 - **Settings**- You can configure additional settings for your request by going to the **Settings** tab. You can configure the request timeout, enable/disable SSL certificate verification, clean session, and auto reconnect etc.
 
 ## Understanding the response
 
-When you connect to the broker, the response area creates a message stream showing the published and received messages to different topics in a single session (until you click on **Disconnect**).
+When you connect to the broker, the response area creates a message stream showing the published and received messages to different topics in a single session (until you select **Disconnect**).
 
 ----{image: response area}----
 
