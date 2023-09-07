@@ -65,14 +65,14 @@ Optionally, you can verify a domain later if you didn't verify the domain when y
 To verify a domain you've already added, do the following:
 
 1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
-1. Select **Verify** next to the domain with the `UNVERIFIED` status you want to verify.
+1. Select **Verify** next to the domain with the **UNVERIFIED** status you want to verify.
 
-    > You can also select **Manage** next to the domain with the `UNVERIFIED` status you want to verify, and then select **View Verification Details**.
+    > You can also select **Manage** next to the domain with the **UNVERIFIED** status you want to verify, and then select **View Verification Details**.
 
     ![Verify domain later](https://assets.postman.com/postman-docs/v10/verify-domain-later-v10.jpg)
 
 1. Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy** to copy the **TXT Record**, and then add it to your domain's DNS configuration.
-1. Select the **I have added the TXT record to the DNS tool** checkbox, and then select **Verify Domain**. Postman's team will check your requested domain and update its status to `VERIFIED` in your domain dashboard. Team Admins will receive an email notification when the domain is verified.
+1. Select the **I have added the TXT record to the DNS tool** checkbox, and then select **Verify Domain**. Postman's team will check your requested domain and update its status to **VERIFIED** in your domain dashboard. Team Admins will receive an email notification when the domain is verified.
 
     <img alt="Verify unverified domain" src="https://assets.postman.com/postman-docs/v10/verify-unverified-domain-later-v10.jpg" width="450px"/>
 
@@ -93,7 +93,7 @@ As a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-rol
 Unclaimed accounts are accounts associated with a verified domain that aren't part of your team. As a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can view unclaimed accounts by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture).
 
 1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
-1. Select **Manage** next to the domain with the `VERIFIED` status you want to view unclaimed accounts for, and then select **View Accounts**.
+1. Select **Manage** next to the domain with the **VERIFIED** status you want to view unclaimed accounts for, and then select **View Accounts**.
 
     > Optionally, you can select the number of unclaimed accounts next to the domain in the domain dashboard.
 

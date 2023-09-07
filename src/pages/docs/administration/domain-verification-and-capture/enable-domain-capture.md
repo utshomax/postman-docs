@@ -1,5 +1,5 @@
 ---
-title: "Enable domain capture"
+title: "Enable domain capture in Postman"
 updated: 2023-03-07
 contextual_links:
   - type: section
@@ -50,9 +50,9 @@ Once the request is approved, a notification will display towards the top of the
 
 ### User experience
 
-When domain capture is enabled, new Postman users who sign up for Postman with your domain or subdomain are automatically added to your team.
+When domain capture is enabled, new Postman users who sign up for Postman with email addresses associated with your domain or subdomain are automatically added to your team.
 
-Existing Postman users with accounts associated with the domain or subdomain will only be able to access Postman after joining your team. This applies to existing users who are part of other teams and existing individual users. The next time existing users sign in to Postman, they will get a notification that your team manages their account. Existing users can join the team using this notification.
+Existing Postman users with email addresses associated with the domain or subdomain will only be able to access Postman after joining your team. This applies to existing users who are part of other teams and existing individual users. The next time existing users sign in to Postman, they will get a notification that your team manages their account. Existing users can join the team using this notification.
 
 <img alt="Domain capture join team notification" src="https://assets.postman.com/postman-docs/domain-capture-join-team-9.4.jpg" width="350px"/>
 

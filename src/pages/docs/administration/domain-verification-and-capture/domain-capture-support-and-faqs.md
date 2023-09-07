@@ -1,5 +1,5 @@
 ---
-title: "Domain capture support and FAQs"
+title: "Domain capture FAQs"
 updated: 2023-03-07
 contextual_links:
   - type: section
@@ -13,15 +13,7 @@ contextual_links:
 
 > **[Domain verification and capture are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
-For more information on the effects of enabling domain capture and when to contact Postman support for assistance, see below.
-
-## Contents
-
-* [Domain capture FAQs](#domain-capture-faqs)
-
-* [Domain capture support](#domain-capture-support)
-
-## Domain capture FAQs
+## General questions
 
 ### What happens to captured users and their data (collections, environments) when domain capture is enabled?
 
@@ -71,6 +63,6 @@ Team Admins can delete domains and subdomains from your team by navigating to th
 1. Select **Manage** next to the domain you want to delete.
 1. Select **Delete Domain**.
 
-## Domain capture support
+### Who can I contact for help?
 
 If you have additional questions or are unable to verify your domain or enable domain capture, please contact your Customer Success Manager or [Postman support](https://www.postman.com/support/) for assistance.
