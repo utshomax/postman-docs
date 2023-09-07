@@ -5,6 +5,8 @@ updated: 2023-09-15
 
 You can use Postman to identify potential security and formatting issues when defining your [API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/) in [AsyncAPI 2 format](https://www.asyncapi.com/docs/reference/specification/v2.6.0). For all APIs defined in AsyncAPI format, the following [Postman API Governance and Security](/docs/api-governance/api-definition/api-definition-warnings/) rules describe warning messages and possible ways to resolve them.
 
+<img alt="AsyncAPI 2 rule violations" src="https://assets.postman.com/postman-docs/v10/api-definition-rule-violations-asyncapi2-v10.jpg" />
+
 ## Contents
 
 * [Define metadata with the info object](#postman-asyncapi-library_category_info)
