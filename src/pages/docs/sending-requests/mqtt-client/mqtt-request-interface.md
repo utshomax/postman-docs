@@ -16,8 +16,8 @@ MQTT requests in Postman include a variety of tools, views and controls to help 
 ## Contents
 
 - [Creating a new MQTT request](#creating-a-new-mqtt-request)
-- [Understanding parts of the request interface](#understanding-parts-of-the-request-interface)
-- [Understanding the response](#understanding-the-response)
+- [The MQTT request interface](#the-mqtt-request-interface)
+- [The MQTT response](#the-mqtt-response)
 - [Using the right sidebar](#using-the-right-sidebar)
 
 ## Creating a new MQTT request
@@ -30,30 +30,30 @@ You can also create a new MQTT request by selecting the **New Tab** icon <img al
 
   <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-tab-request-v10.jpg" alt="Create a MQTT request with the New Tab  icon" width="200px"/>
 
-## Understanding parts of the request interface
+## The MQTT request interface
 
-The request interface lets you add configuration to connect to an MQTT broker, subscribe to topics, and publish messages. Additionally, you can add last will details, authorization details, custom properties, and settings along with the request.
+In the request interface, you can add configuration to connect to an MQTT broker, subscribe to topics, and publish messages. Additionally, you can add last will details, authorization details, custom properties, and settings along with the request.
 
   <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-interface-v10.jpg" alt="MQTT interface"/>
 
-- **Enter URL**- This is where you enter the broker's address, such as `test.mosquitto.org`. Some MQTT services also require you to define a port number. You can define a port number in the URL by appending the port number to the URL. For example, `test.mosquitto.org:1883`.
+- **Enter URL** - This is where you enter the broker's address, such as `test.mosquitto.org`. Some MQTT services also require you to define a port number. You can define a port number in the URL by appending the port number to the URL. For example, `test.mosquitto.org:1883`.
     > For connecting to the broker over TLS, you need to use `mqtts://` as your URL scheme. For example, `mqtts://test.mosquitto.org`.
-    - **MQTT Version**- Every MQTT version has some distinctions in terms of the protocol features. Postman supports 2 major versions of MQTT; 3.1.1 and 5.0. Version 5.0 is selected by default.
-    - **Client ID**- Client ID is an identifier differentiating each client connected to the broker. By default, Postman generates a random client ID for each request. But you can override this by selecting the **Client ID** button and entering a custom client ID.
-- **Message**- This is where you compose and Publish messages to the broker. You can write your message in the text area, enter a topic name and select **Send** to publish the message.
-    - **Properties**- You can add custom properties to your message. These properties are sent along with each message to the broker.
-    - **Message type**- You can define the message type as **Text**, **JSON**, **Base64**, or **Hexadecimal** for Postman to convert the message to the selected type before sending it to the broker.
-    - **Topic**- You can define the topic name for the message here. The topic name is used by the broker to route the message to the appropriate subscribers.
-    - **QoS**- QoS defines the guarantee of delivery for the message. You can configure the Quality of Service (QoS) level for the message by selecting the <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> icon selecting a QoS level.
-    - **Retain**- Retain is a flag that asks the broker to retain the last message sent on the topic and send it to the new subscribers even if they join the network after the message was sent from the client. You can configure the retain flag for the message by selecting the <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> icon and toggling the **Retain** switch.
-    - **Send**- Once you have configured the payload, select the **Send** button to publish the message to the broker.
-- **Topics**- This is where you can list down and document multiple topics, and subscribe to them. You can also configure the QoS level for each topic listed.
-- **Last Will**- Last Will is a message that's sent by the broker to the subscribers when the client disconnects from the broker. You can configure the Last Will message by going to the **Last Will** tab, entering the message, and configuring additional settings such as topic name, QoS level, and retain flag. You can also configure thw will delay interval by selecting the <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> icon and entering the delay interval in milliseconds.
-- **Authorization**- Authorize your connection with Basic Auth. You can pass your credentials in the form of username and password to the broker using the **Authorization** tab.
-- **Properties**- You can add custom properties to your request. These properties are sent while connecting to the broker.
-- **Settings**- You can configure additional settings for your request by going to the **Settings** tab. You can configure the request timeout, enable/disable SSL certificate verification, clean session, and auto reconnect etc.
+    - **MQTT Version** - Every MQTT version has some distinctions in terms of the protocol features. Postman supports two major versions of MQTT; 3.1.1 and 5.0. Version 5.0 is selected by default.
+    - **Client ID** - Client ID is an identifier differentiating each client connected to the broker. By default, Postman generates a random client ID for each request. You can override this by selecting the **Client ID** button and entering a custom client ID.
+- **Message** - This is where you compose and Publish messages to the broker. You can write your message in the text area, enter a topic name and select **Send** to publish the message.
+    - **Properties** - You can add custom properties to your message. These properties are sent along with each message to the broker.
+    - **Message type** - You can define the message type as **Text**, **JSON**, **Base64**, or **Hexadecimal** for Postman to convert the message to the selected type before sending it to the broker.
+    - **Topic** - You can define the topic name for the message here. The topic name is used by the broker to route the message to the appropriate subscribers.
+    - **QoS** - QoS defines the guarantee of delivery for the message. You can configure the Quality of Service (QoS) level for the message by selecting the <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> icon selecting a QoS level.
+    - **Retain** - Retain is a flag that asks the broker to retain the last message sent on the topic and send it to the new subscribers even if they join the network after the message was sent from the client. You can configure the retain flag for the message by selecting the <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> icon and toggling the **Retain** switch.
+    - **Send** - Once you have configured the payload, select the **Send** button to publish the message to the broker.
+- **Topics** - This is where you can list down and document multiple topics, and subscribe to them. You can also configure the QoS level for each topic listed.
+- **Last Will** - Last Will is a message that's sent by the broker to the subscribers when the client disconnects from the broker. You can configure the Last Will message by going to the **Last Will** tab, entering the message, and configuring additional settings such as topic name, QoS level, and retain flag. You can also configure thw will delay interval by selecting the <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> icon and entering the delay interval in milliseconds.
+- **Authorization** - Authorize your connection with Basic Auth. You can pass your credentials in the form of username and password to the broker using the **Authorization** tab.
+- **Properties** - You can add custom properties to your request. These properties are sent while connecting to the broker.
+- **Settings** - You can configure additional settings for your request by going to the **Settings** tab. You can configure the request timeout, enable/disable SSL certificate verification, clean session, and auto reconnect etc.
 
-## Understanding the response
+## The MQTT response
 
 When you connect to the broker, the response area creates a message stream showing the published and received messages to different topics in a single session (until you select **Disconnect**).
 
@@ -75,4 +75,4 @@ The right sidebar gives you access to more tools and information like documentat
 
 ## Next steps
 
-[Create your first MQTT request](/docs/sending-requests/mqtt-client/first-mqtt-request/)
+* [Create your first MQTT request](/docs/sending-requests/mqtt-client/first-mqtt-request/)

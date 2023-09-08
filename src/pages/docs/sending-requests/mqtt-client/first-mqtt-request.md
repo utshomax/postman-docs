@@ -10,7 +10,7 @@ contextual_links:
   - type: section
 ---
 
-Connect to a public broker, subscribe to topics and publish messages.
+In this example of an MQTT request, you will connect to a public broker, subscribe to topics, and publish messages.
 
 ## Contents
 
@@ -66,7 +66,7 @@ You will see an outgoing message in the response area indicating that the messag
 
 Now that you have subscribed to a topic and published a few messages, you can use the response visualizer to view the messages in a more comprehensible format.
 
-1. Switch to the **Visualization** tab in the response area. You should be able to see the messages for `age` field visualized as a line chart.
+1. Switch to the **Visualization** tab in the response area. You will see the messages for the `age` field visualized as a line chart.
 2. Select the field name dropdown to select the field you want to visualize.
 3. Select the <img alt="Add field icon" src="https://assets.postman.com/postman-docs/v10/icon-pin-collection-v10.14.0.jpg#icon" width="16px"> icon to add more fields to the chart and view the changes in their values together.
 4. Select the <img alt="Chart icon" src="https://assets.postman.com/postman-docs/v10/mqtt/chart-icon-v10.jpg#icon" width="16px"> icon next to any of the field names to change the chart type.

@@ -11,11 +11,11 @@ contextual_links:
     name: "Additional resources"
 ---
 
-MQTT (Message Queuing Telemetry Transport) is a messaging protocol for the Internet of Things (IoT). Its usage spans from simple devices for home automation and wearables, to automating large scale industrial machineries. It's a lightweight technology modeled on the publish/subscribe pattern where clients connected to a single broker can publish messages to different topics and subscribe to topics to receive messages from other connected clients. The messages are transferred with low bandwidth usage, low power consumption, and efficient distribution of information to one or many receivers; all adding to the popularity of MQTT.
+MQTT (Message Queuing Telemetry Transport) is a messaging protocol for the Internet of Things (IoT). Its usage spans from simple devices for home automation and wearables, to automating large scale industrial machineries. It's a lightweight technology modeled on the publish/subscribe pattern where clients connected to a single broker can publish messages to different topics and subscribe to topics to receive messages from other connected clients. The messages are transferred with low bandwidth usage, low power consumption, and efficient distribution of information to one or many receivers, all adding to the popularity of MQTT.
 
 ## Work with MQTT APIs using Postman
 
-Postman provides you with a client interface to debug your MQTT based APIs. You can create a new MQTT request, connect to a broker, subscribe to topics, publish messages, and view the messages received from the broker. You can save your MQTT request into a collection to reuse later, document it and share it with your teammates, or publish it to the community on [Postman's public API network](/docs/getting-started/exploring-public-api-network/).
+Postman provides you with a client interface to debug your MQTT-based APIs. You can create a new MQTT request, connect to a broker, subscribe to topics, publish messages, and view the messages received from the broker. You can save your MQTT request into a collection to reuse later, document it and share it with your teammates, and publish it to the community on [Postman's public API network](/docs/getting-started/exploring-public-api-network/).
 
   <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-hero-v10-1.jpg" alt="MQTT interface" width="500px"/>
 
@@ -23,5 +23,5 @@ Postman provides you with a client interface to debug your MQTT based APIs. You 
 
 Get started with MQTT with the following topics:
 
-- [Using the MQTT Request interface](/docs/sending-requests/mqtt-client/mqtt-request-interface/)
-- [Making your first MQTT request](/docs/sending-requests/mqtt-client/first-mqtt-request/)
+- [Using the MQTT request interface](/docs/sending-requests/mqtt-client/mqtt-request-interface/)
+- [Creating your first MQTT request](/docs/sending-requests/mqtt-client/first-mqtt-request/)
