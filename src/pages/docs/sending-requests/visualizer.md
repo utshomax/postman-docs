@@ -139,7 +139,7 @@ The `pm.getData(callback)` method takes a callback function as its parameter. Th
 
 ## Using Postbot to create visualizations
 
-Not sure how to write a visualizations for your request? Ask Postbot! Tell Postbot what you want to do using plain language, and Postman uses artificial intelligence to generate a visualization for you. Use Postbot to create a new visualization, change the type of visualization, fix your existing visualization, and more.
+Not sure how to write a visualization for your request? Ask Postbot! Tell Postbot what you want to do using plain language, and Postman uses artificial intelligence to generate a visualization for you. Use Postbot to create a new visualization, change the type of visualization, fix your existing visualization, and more.
 
 To create a visualization with Postbot, do the following:
 
