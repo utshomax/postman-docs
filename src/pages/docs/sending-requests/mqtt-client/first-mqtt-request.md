@@ -28,7 +28,7 @@ In Postman, select **New > MQTT** to create a new request. (In the Postman deskt
 
 ## Connecting to a broker with Postman
 
-To connect to an MQTT service, you need a broker URL. In this example, we will use the public broker `test.mosquitto.org`. You can also use any other public broker or a broker hosted on your local machine.
+To connect to an MQTT service, you need a broker URL. This example uses the public broker `test.mosquitto.org`. You can also use any other public broker or a broker hosted on your local machine.
 
 1. Enter `test.mosquitto.org` as the request **URL**.
 2. Select the **Connect** button to connect to the broker.
@@ -46,7 +46,7 @@ While connected to the broker, select the **Topics** tab. This interface enables
 1. In the **Topics** column, enter `my-toys` as the topic name.
 2. Select the **Subscribe** button to subscribe to the topic.
 
-You should see a message in the response area indicating that you are subscribed to the topic.
+You will see a message in the response area indicating that you are subscribed to the topic.
 
   <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-subscribed-v10.jpg" alt="Subscribe to a topic" width="500px"/>
 
@@ -56,9 +56,9 @@ You can use the **Message** tab to compose and send messages to the broker.
 
 1. Select the **Message** tab and enter `{"age": 2, "number of toys": 5}` as the message.
 2. Enter `my-toys` as the topic name.
-3. Select the **Send** button to publish the message.
+3. Select **Send** to publish the message.
 
-You should see an outgoing message in the response area indicating that the message was published. Since you have already subscribed to the topic, `my-toys`, you should also see an incoming message with the same body. Go ahead and send a few more messages counting the number of toys you had growing up.
+You will see an outgoing message in the response area indicating that the message was published. Since you have already subscribed to the topic, `my-toys`, you will also see an incoming message with the same body. Go ahead and send a few more messages counting the number of toys you had growing up.
 
   <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-published-v10.jpg" alt="Subscribe to a topic" width="500px"/>
 
