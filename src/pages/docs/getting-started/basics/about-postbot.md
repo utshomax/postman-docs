@@ -25,7 +25,7 @@ To use Postbot, look for the Postbot icon <img alt="Postbot icon" src="https://a
 
 Here are ways you can use Postbot:
 
-* **Writing tests** - Postbot can add tests to your API requests based on your prompt. Use Postbot to add a new set of tests, visualize responses, save a field from a response, or fix your existing tests. For more information, see [using Postbot to write tests](/docs/writing-scripts/test-scripts#using-postbot-to-write-tests).
+* **Writing tests** - Postbot can add tests to your API requests based on your prompt. Use Postbot to add a new set of tests, visualize responses, save a field from a response, or fix your existing tests. For more information, see [using Postbot to write tests](/docs/writing-scripts/test-scripts/#using-postbot-to-write-tests).
 * **Visualization** - Use Postbot to create a [visualizer](/docs/sending-requests/visualizer/) to easily view your response data as a table, chart, or graph without writing any code.
 * **Writing FQL in Postman Flows** - _Flows Query Language_ (FQL) enables you to parse and transform JSON data to get the fields and structure you want. You can ask Postbot to generate FQL for you. Enter an idea for a query in simple text, and Postbot will suggest an FQL query for your. For more information, see [Using Postbot with FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/#using-postbot-with-fql)
 * **Get help** - Postbot is trained on Postman’s Learning Center documentation, too. Try asking Postbot for help if you get stuck — it will offer simple steps that you can follow and a link to more in-depth documentation.
