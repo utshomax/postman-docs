@@ -420,7 +420,7 @@ export const leftNavItems = [
         subMenuItems2: [
           {
             name: 'MQTT overview',
-            url: '/docs/sending-requests//mqtt-client/mqtt-client-overview/'
+            url: '/docs/sending-requests/mqtt-client/mqtt-client-overview/'
           },
           {
             name: 'Using the MQTT request interface',
