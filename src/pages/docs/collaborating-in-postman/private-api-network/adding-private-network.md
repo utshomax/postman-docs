@@ -82,7 +82,7 @@ API Network Managers who are setting up the Private API Network might see a list
 
 ### Search for elements in the network
 
-You can search and filter elements in the network. Select **Search Postman** in the header, make sure the scope is **Private API Network**, then enter your search terms. You can also specify the element you'd like to search for: **Workspaces**, **Collections**, **Requests**, **APIs**, or **Folders**. You can press **Enter** or select an element's name in the search results to open it in the network. To learn more about searching in Postman, see [Search Postman](/docs/getting-started/basics/navigating-postman/#search-postman).
+You can search and filter elements in the network. Select **Search Postman** in the header, change the scope to **Private API Network**, then enter your search terms. If you're in the Private API Network, the scope will be automatically set to **Private API Network**. You can also specify the element you'd like to search for: **Workspaces**, **Collections**, **Requests**, **APIs**, or **Folders**. You can press **Enter** or select an element's name in the search results to open it in the network. To learn more about searching in Postman, see [Search Postman](/docs/getting-started/basics/navigating-postman/#search-postman).
 
 <img alt="Search the Private API Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-search-v10.jpg"/>
 
