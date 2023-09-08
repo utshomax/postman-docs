@@ -69,11 +69,11 @@ Now that you have subscribed to a topic and published a few messages, you can us
 1. Switch to the **Visualization** tab in the response area. You should be able to see the messages for `age` field visualized as a line chart.
 2. Select the field name dropdown to select the field you want to visualize.
 3. Select the <img alt="Add field icon" src="https://assets.postman.com/postman-docs/v10/icon-pin-collection-v10.14.0.jpg#icon" width="16px"> icon to add more fields to the chart and view the changes in their values together.
-4. Select the <img alt="Chart icon" src="https://assets.postman.com/postman-docs/v10/chart-icon-v10.png#icon" width="16px"> icon next to any of the field names to change the chart type.
+4. Select the <img alt="Chart icon" src="https://assets.postman.com/postman-docs/v10/mqtt/chart-icon-v10.jpg#icon" width="16px"> icon next to any of the field names to change the chart type.
 
 The visualization changes in real time as you receive newer messages for the same topic.
 
-  <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-published-v10.jpg" alt="Visualization" width="500px"/>
+  <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-visualization-v10.jpg" alt="Visualization" width="500px"/>
 
 ## Next step
 

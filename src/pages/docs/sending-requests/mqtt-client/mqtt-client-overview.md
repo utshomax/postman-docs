@@ -23,5 +23,5 @@ Postman provides you with a client interface to debug your MQTT based APIs. You 
 
 Get started with MQTT with the following topics:
 
-- [Using MQTT Request interface](/postman-api-client/mqtt-client/mqtt-request-interface/)
-- [Making your first MQTT request](/postman-api-client/mqtt-client/first-mqtt-request/)
+- [Using the MQTT Request interface](/docs/sending-requests/mqtt-client/mqtt-request-interface/)
+- [Making your first MQTT request](/docs/sending-requests/mqtt-client/first-mqtt-request/)
