@@ -75,4 +75,4 @@ The right sidebar gives you access to more tools and information like documentat
 
 ## Next steps
 
-* [Create your first MQTT request](/docs/sending-requests/mqtt-client/first-mqtt-request/)
+- [Create your first MQTT request](/docs/sending-requests/mqtt-client/first-mqtt-request/)
