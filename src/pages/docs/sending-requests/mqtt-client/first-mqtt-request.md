@@ -24,7 +24,7 @@ Connect to a public broker, subscribe to topics and publish messages.
 
 In Postman, select **New > MQTT** to create a new request. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**, then select **MQTT**).
 
-  <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-interface-v10.jpg" alt="New MQTT request" width="500px"/>
+  <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-new-request-v10.jpg" alt="New MQTT request" width="500px"/>
 
 ## Connecting to a broker with Postman
 
@@ -35,7 +35,7 @@ To connect to an MQTT service, you need a broker URL. This example uses the publ
 
 A message in the response area indicates that you are connected to the broker.
 
-  <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-connected-v10.jpg" alt="Connect to a broker" width="500px"/>
+  <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-connected-v10-1.jpg" alt="Connect to a broker" width="500px"/>
 
 > If you are using the Postman web app, Use the Postman desktop agent to connect to an MQTT broker. See [About the Postman Agent](https://learning.postman.com/docs/getting-started/about-postman-agent/) for more information.
 
