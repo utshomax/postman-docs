@@ -70,7 +70,7 @@ As a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-rol
 
     ![Select Add Domain](https://assets.postman.com/postman-docs/v10/authentication-add-domain-v10.18.jpg)
 
-1. Enter the domain or subdomain you'd like to add. If you're adding a subdomain, you can choose to verify it through the root domain's verification record or through a verification record that is unique to the subdomain. Select **Continue**.
+1. Enter the domain or subdomain you'd like to add. If you're adding a subdomain, you can choose to verify it through the root domain's verification record or through a verification record that's unique to the subdomain. Select **Continue**.
 
     <img alt="Add domain" src="https://assets.postman.com/postman-docs/v10/add-domain-verify-root-v10.18.jpg" width="450px"/>
 
