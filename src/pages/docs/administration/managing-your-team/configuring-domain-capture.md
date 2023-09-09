@@ -59,7 +59,7 @@ It's recommended that you enable [SSO provisioning](/docs/administration/scim-pr
 
 ## Adding and verifying a domain
 
-[Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add domains and subdomains to your team by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture). Once you add your verification **TXT Record** to your DNS configuration, Postman's team will verify your domain or subdomain. Your domain must be verified before you can view and manage all user accounts in Postman created with your organization’s domains and subdomains.
+As a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can add domains and subdomains to your team in your [Admin dashboard](https://go.postman.co/settings/team/domain-capture).
 
 1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
 1. Confirm that your team has only the SSO authentication method enabled. Then, select the **Domains** tab.
@@ -68,23 +68,23 @@ It's recommended that you enable [SSO provisioning](/docs/administration/scim-pr
 
 1. Select **Add Domain**.
 
-    ![Select Add Domain](https://assets.postman.com/postman-docs/v10/select-add-domain-v10.jpg)
+    ![Select Add Domain](https://assets.postman.com/postman-docs/v10/authentication-add-domain-v10.18.jpg)
 
-1. Enter the domain or subdomain you'd like to add, and then select **Generate Verification Record**.
+1. Enter the domain or subdomain you'd like to add. If you're adding a subdomain, you can choose to verify it through the root domain's verification record or through a verification record that is unique to the subdomain. Select **Continue**.
 
-    <img alt="Generate verification record" src="https://assets.postman.com/postman-docs/v10/enter-domain-name-v10.jpg" width="450px"/>
+    <img alt="Add domain" src="https://assets.postman.com/postman-docs/v10/add-domain-verify-root-v10.18.jpg" width="450px"/>
 
-1. Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy** to copy the **TXT Record**, and then add it to your domain's DNS configuration.
+1. Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy** to copy the **TXT Record**, then add it to your domain's DNS configuration. If you've chosen to verify a subdomain directly without the use of the root domain, you must enter the subdomain in your DNS host before you add the TXT Record.
 
-    > Instead, you can select **Verify Later** if you're not ready to add the **TXT Record** to your domain's DNS configuration. To verify your domain later, see [Verifying a domain later](#verifying-a-domain-later).
+    > If you're not ready to add the **TXT Record** to your domain's DNS configuration, you can select **Verify Later**. For next steps, see [Verifying a domain later](#verifying-a-domain-later).
 
-1. Select the **I have added the TXT record to the DNS tool** checkbox, and then select **Verify Domain**. Note that it may take up to 24 hours for the TXT changes to take effect to enable successful verification of the domain. Team Admins will receive an email notification when the domain is verified.
+1. Select the **I have added the TXT record to the DNS tool** checkbox, and then select **Verify Domain**.
 
-    <img alt="Add domain TXT record" src="https://assets.postman.com/postman-docs/v10/add-domain-verification-record-v10.jpg" width="450px"/>
+    <img alt="Add TXT record and verify domain" src="https://assets.postman.com/postman-docs/v10/verify-domain-v10.18.jpg" width="450px"/>
 
-    > You can reach out to [Postman support](https://www.postman.com/support/) to check the status of your domain verification request.
+    > Note: it may take up to 24 hours for the TXT changes to take effect to enable successful verification of the domain. Team Admins will receive an email notification when the domain is verified.
 
-1. Once your domain is verified, you can [create a request to enable domain capture](#enabling-domain-capture).
+1. Once your domain is verified, you can [view unclaimed accounts](#viewing-unclaimed-accounts) and [request to enable domain capture](#enabling-domain-capture).
 
 ### Verifying a domain later
 
@@ -92,36 +92,38 @@ Optionally, you can verify a domain later if you didn't verify the domain when y
 
 To verify a domain you've already added, do the following:
 
-1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
-1. Select **Verify** next to the domain with the `UNVERIFIED` status you want to verify.
+1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar, then select the **Domains** tab.
 
-    > You can also select **Manage** next to the domain with the `UNVERIFIED` status you want to verify, and then select **View Verification Details**.
+1. Select **Verify** next to the domain with the **UNVERIFIED** status you want to verify.
 
-    ![Verify domain later](https://assets.postman.com/postman-docs/v10/verify-domain-later-v10.jpg)
+    > You can also select **Manage** next to the domain with the **UNVERIFIED** status you want to verify, then select **View Verification Details**.
 
-1. Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy** to copy the **TXT Record**, and then add it to your domain's DNS configuration.
-1. Select the **I have added the TXT record to the DNS tool** checkbox, and then select **Verify Domain**. Postman's team will check your requested domain and update its status to `VERIFIED` in your domain dashboard. Team Admins will receive an email notification when the domain is verified.
+    ![Verify domain later](https://assets.postman.com/postman-docs/v10/verify-domain-later-v10.18.0.jpg)
 
-    <img alt="Verify unverified domain" src="https://assets.postman.com/postman-docs/v10/verify-unverified-domain-later-v10.jpg" width="450px"/>
+1. Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy** to copy the **TXT Record**, and then add it to your domain's DNS configuration. If you've chosen to verify a subdomain directly without the use of the root domain, you must enter the subdomain in your DNS host before you add the TXT Record.
 
-    > You can reach out to [Postman support](https://www.postman.com/support/) to check the status of your domain verification request.
+1. Select the **I have added the TXT record to the DNS tool** checkbox, and then select **Verify Domain**.
 
-1. Once your domain is verified, you can [create a request to enable domain capture](#enabling-domain-capture).
+    <img alt="Verify unverified domain" src="https://assets.postman.com/postman-docs/v10/verify-unverified-domain-later-v10.18.jpg" width="450px"/>
+
+    > Note: it may take up to 24 hours for the TXT changes to take effect to enable successful verification of the domain. Team Admins will receive an email notification when the domain is verified.
+
+1. Once your domain is verified, you can [view unclaimed accounts](#viewing-unclaimed-accounts) and [request to enable domain capture](#enabling-domain-capture).
 
 ### Viewing verification details
 
-Team Admins can view verification details for verified and unverified domains by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture). The verification details display the verification **TXT Record**.
+Team Admins can view verification details for verified and unverified domains in the [domain dashboard](https://go.postman.co/settings/team/domain-capture). Verification details include the verification **TXT Record**.
 
-1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
+1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar, then select the **Domains** tab.
 1. Select **Manage** next to the domain you want to view verification details for.
 1. Select **View Verification Details**.
 
 ### Viewing unclaimed accounts
 
-Unclaimed accounts are accounts associated with a verified domain that aren't part of your team. Team Admins can view unclaimed accounts by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture).
+Unclaimed accounts are accounts associated with a verified domain that aren't part of your team. Team Admins can view unclaimed accounts in the [domain dashboard](https://go.postman.co/settings/team/domain-capture).
 
-1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
-1. Select **Manage** next to the domain with the `VERIFIED` status you want to view unclaimed accounts for, and then select **View Accounts**.
+1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar, then select the **Domains** tab.
+1. Select **Manage** next to the domain with the **VERIFIED** status you want to view unclaimed accounts for, and then select **View Accounts**.
 
     > Optionally, you can select the number of unclaimed accounts next to the domain in the domain dashboard.
 
@@ -137,12 +139,12 @@ After the domain or subdomain is [added and verified](#adding-and-verifying-a-do
 
 To enable domain capture, do the following:
 
-1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
-1. Select **Manage** next to the domain with the `VERIFIED` status you want to enable domain capture for.
+1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar, then select the **Domains** tab.
+1. Select **Manage** next to the domain with the **VERIFIED** status you want to enable domain capture for.
 1. Select **Request To Claim**. Postman support will then contact Team Admins to explain the effects of enabling domain capture.
 1. Once the request is approved, you can [contact Postman support](#contacting-support-to-manage-accounts) to manage [unclaimed accounts](#viewing-unclaimed-accounts).
 
-To view the status of your request to enable domain capture, select **Manage** next to the domain. After you select **Request To Claim**, the request status is changed to `REQUEST SENT`.
+To view the status of your request to enable domain capture, select **Manage** next to the domain. After you select **Request To Claim**, the request status is changed to **REQUEST SENT**.
 
 ![Request to claim sent](https://assets.postman.com/postman-docs/v10/request-to-claim-sent-v10.jpg)
 
@@ -174,8 +176,9 @@ For more details about the effects of enabling domain capture, see [Domain captu
 
 Once the request is approved to [enable domain capture](#enabling-domain-capture), Team Admins can contact Postman support by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture). Contact Postman support to claim accounts not part of your team, merge teams into your team, and restrict users to only work in your team.
 
-1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
-1. Select **Manage** next to the domain with the `VERIFIED` status you want to contact support about.
+1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar, then select the **Domains** tab.
+
+1. Select **Manage** next to the domain with the **VERIFIED** status you want to contact support about.
 
     > Domain capture must be enabled for the domain you want to contact support about.
 
@@ -187,7 +190,7 @@ Once the request is approved to [enable domain capture](#enabling-domain-capture
 
 Team Admins can delete domains and subdomains from your team by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture).
 
-1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
+1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar, then select the **Domains** tab.
 1. Select **Manage** next to the domain you want to delete.
 1. Select **Delete Domain**.
 
