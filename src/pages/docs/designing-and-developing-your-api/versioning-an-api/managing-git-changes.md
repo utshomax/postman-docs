@@ -1,5 +1,5 @@
 ---
-title: 'Managing changes using Git'
+title: "Managing changes using Git"
 updated: 2022-09-15
 contextual_links:
   - type: section

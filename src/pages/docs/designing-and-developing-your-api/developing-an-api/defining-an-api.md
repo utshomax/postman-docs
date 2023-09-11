@@ -1,5 +1,5 @@
 ---
-title: 'Editing an API definition'
+title: "Editing an API definition"
 updated: 2023-05-18
 search_keyword: "schema, spec, specification"
 contextual_links:
@@ -42,14 +42,12 @@ You create the structure of your API using the _API definition_. The API definit
 If your API doesn't have a definition, you can generate an example definition that you can edit.
 
 1. Select **APIs** in the sidebar and select an API.
-1. On the API's overview, next to **Definition**, select **+** and select **Author from scratch**.
+1. From the API's overview, next to **Definition**, select **+** and then select **Author from scratch**. Alternatively, select **create** in the sidebar under the API.
 
-    > You can also select the API in the sidebar and select **create**.
+1. Select the definition type and format. This example uses OpenAPI and YAML.
+1. To start with a sample definition, select **Use a boilerplate**.
 
-1. Select a definition type and format.
-1. Select the **Use a boilerplate** checkbox if you want to start with a sample definition.
-
-    <img alt="Generating an API definition" src="https://assets.postman.com/postman-docs/v10/api-builder-author-definition-v10.jpg" width="323px"/>
+    <img alt="Generating an API definition" src="https://assets.postman.com/postman-docs/v10/api-builder-author-definition-v10.16.jpg" width="400px"/>
 
 1. Select **Create Definition**.
 

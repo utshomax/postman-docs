@@ -1,5 +1,5 @@
 ---
-title: 'Using a cloud-hosted Git repository'
+title: "Using a cloud-hosted Git repository"
 updated: 2023-06-15
 contextual_links:
   - type: section

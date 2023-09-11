@@ -1,5 +1,5 @@
 ---
-title: 'Importing data into Postman'
+title: "Importing data into Postman"
 updated: 2023-07-19
 contextual_links:
   - type: section
@@ -32,7 +32,7 @@ You can import collections, API specifications, and data files directly into Pos
 
 To import your data into Postman, select **Import** in the upper left. The **Import** modal opens.
 
-![Import data into Postman](https://assets.postman.com/postman-docs/v10/import-export-import-ui-v10-3.jpg)
+![Import data into Postman](https://assets.postman.com/postman-docs/v10/import-export-import-ui-v10-17.jpg)
 
 You can import your data from files, folders, links, raw text, or code repositories.
 
@@ -62,8 +62,9 @@ You can import Postman data you exported earlier, including collections, environ
 1. Do one of the following:
     * Select your file or folder, or drag it into the **Import** modal.
     * Paste your raw text or URL into the input field.
-    * Select a button to import from a [GitHub](/docs/getting-started/importing-and-exporting/importing-from-git/#importing-from-github-repositories), [Bitbucket](/docs/getting-started/importing-and-exporting/importing-from-git/#importing-from-bitbucket-repositories), or [GitLab](/docs/getting-started/importing-and-exporting/importing-from-git/#importing-from-gitlab-repositories) code repository.
-    * Select **Other Sources** to import an [Azure](/docs/getting-started/importing-and-exporting/importing-from-git/#importing-from-azure-devops-repositories) code repository, or to [import an API from Amazon API Gateway or Azure API Management](/docs/designing-and-developing-your-api/importing-an-api/).
+    * Select a button to import from [GitHub](/docs/getting-started/importing-and-exporting/importing-from-git/#importing-from-github-repositories), [AWS API Gateway](/docs/designing-and-developing-your-api/importing-an-api/#importing-api-definitions-from-amazon-api-gateway), or [New Relic](/docs/getting-started/importing-and-exporting/importing-from-new-relic/).
+    * Select **Other Sources** to import from a [Bitbucket](/docs/getting-started/importing-and-exporting/importing-from-git/#importing-from-bitbucket-repositories), [GitLab](/docs/getting-started/importing-and-exporting/importing-from-git/#importing-from-gitlab-repositories), or [Azure](/docs/getting-started/importing-and-exporting/importing-from-git/#importing-from-azure-devops-repositories) code repository. You can also import an API from [Azure API Management](/docs/designing-and-developing-your-api/importing-an-api/#importing-api-definitions-from-azure-api-management).
+
     Postman will automatically recognize Postman data, confirming the name, format, and type.
 
    ![Import collection and environment](https://assets.postman.com/postman-docs/v10/import-elements-v10.jpg)
