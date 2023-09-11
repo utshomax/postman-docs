@@ -105,7 +105,7 @@ To convert an existing workspace to a public workspace in a Postman Professional
 
     <img alt="Request Visibility Change" src="https://assets.postman.com/postman-docs/v10/public-workspace-request-v10.jpg" width="400px"/>
 
-   This sends a request to team members with the Community Manager role, triggers the [Secret Scanner](/docs/administration/token-scanner/), and creates a Team workspace until it's approved by a Community Manager. While you're waiting for the request to be reviewed, you can check the status of the secret scan or cancel the request from Workspace settings.
+   This sends a request to team members with the Community Manager role, triggers the [Secret Scanner](/docs/administration/secret-scanner/), and creates a Team workspace until it's approved by a Community Manager. While you're waiting for the request to be reviewed, you can check the status of the secret scan or cancel the request from Workspace settings.
 
     <img alt="Request being reviewed" src="https://assets.postman.com/postman-docs/v10/public-workspace-request-review-v10.jpg" width="400px"/>
 

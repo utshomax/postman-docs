@@ -1278,7 +1278,7 @@ export const leftNavItems = [
       },
       {
         name: 'Secret Scanner',
-        url: '/docs/administration/token-scanner/',
+        url: '/docs/administration/secret-scanner/',
       },
       {
         name: 'Onboarding checklist',

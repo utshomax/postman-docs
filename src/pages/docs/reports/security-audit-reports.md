@@ -12,7 +12,7 @@ contextual_links:
     url: "https://blog.postman.com/introducing-new-postman-reports-for-enterprises/"
 ---
 
-The **Token Scanner** report provides metrics including an overview of your total collections scanned, collections with exposed tokens, total exposed tokens, and separate visualizations of exposed tokens by type and over time. This report consolidates the findings of the Postman Token Scanner from your public documentation. Learn more about the Postman [Token Scanner](/docs/api-security/token-scanner/).
+The **Token Scanner** report provides metrics including an overview of your total collections scanned, collections with exposed tokens, total exposed tokens, and separate visualizations of exposed tokens by type and over time. This report consolidates the findings of the Postman Token Scanner from your public documentation. Learn more about the Postman [Token Scanner](/docs/api-security/secret-scanner/).
 
 The Token Scanner report provides the following information for the past 30 days:
 
