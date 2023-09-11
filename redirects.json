@@ -1869,7 +1869,7 @@
   },
   {
     "from": "/docs/api-security/token-scanner/",
-    "to": "/docs/administration/token-scanner/"
+    "to": "/docs/administration/secret-scanner/"
   },
   {
     "from": "/docs/api-governance/api-testing/",
@@ -2306,5 +2306,9 @@
   {
     "from": "/docs/postman-flows/tutorials/webhooks/",
     "to": "/docs/postman-flows/concepts/automatic-runs/"
+  },
+  {
+    "from": "/docs/administration/token-scanner/",
+    "to": "/docs/administration/secret-scanner/"
   }
 ]
