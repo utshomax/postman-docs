@@ -74,6 +74,8 @@ As a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-rol
 
     <img alt="Add domain" src="https://assets.postman.com/postman-docs/v10/add-domain-verify-root-v10.18.jpg" width="450px"/>
 
+    > If you're adding a subdomain and its root domain has already been verified by Postman, you'll see a **VERIFIED** status next to the root domain. If you choose to verify through the root domain, you won't need to add any additional TXT records to your DNS configuration after you select **Continue**.
+
 1. Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy** to copy the **TXT Record**, then add it to your domain's DNS configuration. If you've chosen to verify a subdomain directly without the use of the root domain, you must enter the subdomain in your DNS host before you add the TXT Record.
 
     > If you're not ready to add the **TXT Record** to your domain's DNS configuration, you can select **Verify Later**. For next steps, see [Verifying a domain later](#verifying-a-domain-later).
