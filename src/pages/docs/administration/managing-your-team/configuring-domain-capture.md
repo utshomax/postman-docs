@@ -84,7 +84,7 @@ As a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-rol
 
     <img alt="Add TXT record and verify domain" src="https://assets.postman.com/postman-docs/v10/verify-domain-v10.18.jpg" width="450px"/>
 
-    > Note: it may take up to 24 hours for the TXT changes to take effect to enable successful verification of the domain. Team Admins will receive an email notification when the domain is verified.
+    > It may take up to 24 hours for the TXT changes to take effect to enable successful verification of the domain. Team Admins will receive an email notification when the domain is verified.
 
 1. Once your domain is verified, you can [view unclaimed accounts](#viewing-unclaimed-accounts) and [request to enable domain capture](#enabling-domain-capture).
 
@@ -108,7 +108,7 @@ To verify a domain you've already added, do the following:
 
     <img alt="Verify unverified domain" src="https://assets.postman.com/postman-docs/v10/verify-unverified-domain-later-v10.18.jpg" width="450px"/>
 
-    > Note: it may take up to 24 hours for the TXT changes to take effect to enable successful verification of the domain. Team Admins will receive an email notification when the domain is verified.
+    > It may take up to 24 hours for the TXT changes to take effect to enable successful verification of the domain. Team Admins will receive an email notification when the domain is verified.
 
 1. Once your domain is verified, you can [view unclaimed accounts](#viewing-unclaimed-accounts) and [request to enable domain capture](#enabling-domain-capture).
 
