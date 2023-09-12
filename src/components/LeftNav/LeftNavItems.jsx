@@ -665,10 +665,6 @@ export const leftNavItems = [
             name: 'Automate repetitive tasks',
             url: '/docs/postman-flows/tutorials/automating-repetitive-tasks/',
           },
-/*        {
-            name: 'Update a database with Postman Flows',
-            url: '/docs/postman-flows/tutorials/process-information-and-then-update-the-same-system/',
-          },*/
           {
             name: 'Make your own automatically scheduled tasks',
             url: '/docs/postman-flows/tutorials/make-your-own-automatically-scheduled-tasks/',
