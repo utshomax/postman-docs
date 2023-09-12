@@ -29,7 +29,7 @@ contextual_links:
 
 The Postman Secret Scanner scans public workspaces to detect any exposed secrets. It checks all of the collections, global variables, environment variables, API schemas, and documentation in a public workspace to safeguard your organization from potential threats and prevent malicious users from accessing any exposed secrets.
 
-> The Secret Scanner is available on all Postman plans and is turned on by default.
+The Secret Scanner is available on all Postman plans and is turned on by default. If you're on an [Enterprise plan](https://www.postman.com/pricing), Secret Scanner will monitor team workspaces in addition to public workspaces.
 
 ## Contents
 
@@ -81,13 +81,6 @@ To resolve a detected secret, select **Unresolved** and then select the reason f
 
 <img alt="Resolve detected secret" src="https://assets.postman.com/postman-docs/v10/secret-scanner-resolve-detected-secret-v10.18.jpg"/>
 
-
-<!--
-
-screenshot resolving.
-You can resolve a finding by selecting **Unresolved**, then selecting the reason for resolving it.
-> Any Postman-owned API keys found by the secret scanner are marked as a “valid secret” in the **Secrets Detected** tab, helping you prioritize valid Postman-owned key findings.
--->
 ## Supported tokens
 
 The Secret Scanner scans a variety of tokens [by default](#default-alerts). You can also add your team's proprietary third-party app tokens that aren't supported yet using [custom alerts](#custom-alerts).
