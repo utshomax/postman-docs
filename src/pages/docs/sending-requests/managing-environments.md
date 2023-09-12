@@ -78,7 +78,7 @@ To create a new environment, do the following:
 
 1. Select __Save__ to save any environment variables you have added.
 
-> ([Free, Basic, and Professional plans only](https://www.postman.com/pricing)) You can turn on autosave to automatically save your changes to collections, requests, and environments. Learn more about [autosave](/docs/getting-started/settings/#application).
+> You can turn on autosave to automatically save your changes to collections, requests, and environments. Learn more about [autosave](/docs/getting-started/settings/#application).
 
 ### Adding environment variables
 
