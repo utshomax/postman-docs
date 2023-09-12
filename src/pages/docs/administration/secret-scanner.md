@@ -29,14 +29,14 @@ contextual_links:
 
 The Postman Secret Scanner scans public workspaces to detect any exposed secrets. It checks all of the collections, global variables, environment variables, API schemas, and documentation in a public workspace to safeguard your organization from potential threats and prevent malicious users from accessing any exposed secrets.
 
-The Secret Scanner is available on all Postman plans and is turned on by default. If you're on an [Enterprise plan](https://www.postman.com/pricing), Secret Scanner will monitor team workspaces in addition to public workspaces.
+The Secret Scanner is available on all Postman plans and is turned on by default. If you're on an [Enterprise Ultimate plan](https://www.postman.com/pricing), Secret Scanner will monitor team workspaces in addition to public workspaces.
 
 ## Contents
 
 * [How Secret Scanner works](#how-secret-scanner-works)
 * [Secret Scanner dashboard](#secret-scanner-dashboard)
     * [Resolve detected secrets](#resolve-detected-secrets)
-* [Supported tokens](#supported-tokens)
+* [Supported secrets](#supported-secrets)
     * [Default alerts](#default-alerts)
     * [Custom alerts](#custom-alerts)
 * [Protect Postman API keys in GitHub](#protect-postman-api-keys-in-github)
@@ -44,22 +44,25 @@ The Secret Scanner is available on all Postman plans and is turned on by default
 
 ## How Secret Scanner works
 
-Postman's secret scanner follows all updates made by team members and scans them for [supported tokens](#supported-tokens). For example, a scan starts whenever team members take the following actions:
+Postman's secret scanner follows all updates made by team members and scans them for [supported secrets](#supported-secrets). For example, a scan starts whenever team members take the following actions:
 
-* Change the workspace visibility to [public](/docs/collaborating-in-postman/using-workspaces/public-workspaces/).
+* Change the workspace visibility to [public](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility).
 * Send a request to a [Community Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to make a workspace public.
-* Share a collection or environment to a [public workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility).
+* Share a collection, environment, or API to a [public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/).
 * Make changes to a collection or environment that's present in a public workspace.
+* Make changes to an API in a team or public workspace. ([Enterprise Ultimate plans only](https://www.postman.com/pricing))
 * Write new documentation for a Postman Collection and make it public.
-* Make changes to a collection in a [team workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). ([Enterprise plans only](https://www.postman.com/pricing))
+* Make changes to a collection in a [team workspace](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/). ([Enterprise Ultimate plans only](https://www.postman.com/pricing))
 
-Secret Scanner is turned on by default for all Postman teams and will monitor your team's public workspaces, collections, environments, and documentation for exposed secrets. If you're on an [Enterprise plan](https://www.postman.com/pricing), Secret Scanner will also monitor your team workspaces.
+Secret Scanner is turned on by default for all Postman teams and will monitor your team's public workspaces, collections, environments, and documentation for exposed secrets. If you're on an [Enterprise Ultimate plan](https://www.postman.com/pricing), Secret Scanner will also monitor your team workspaces.
 
-Postman delivers scan results in [Secret Scanner reports](/docs/reports/security-audit-reports/). If an exposed secret is found, Postman notifies you by email and in-app notification. You can also set up Postman's [Slack integration](/docs/integrations/available-integrations/slack/) to alert you in Slack if this occurs.
+Postman delivers scan results in the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/). If an exposed secret is found, Postman notifies you by email and in-app notification. You can also set up Postman's [Slack integration](/docs/integrations/available-integrations/slack/) to alert you in Slack if this occurs.
 
-> **[Secret Scanner reports are available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
+> **[Secret Scanner reports are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing/)**
 
 ## Secret Scanner dashboard
+
+> **[The Secret Scanner dashboard is available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing/)**
 
 You can view detected secrets, configure [default](#default-alerts) and [custom](#custom-alerts) alerts, and review [Secret Scanner reports](/docs/reports/security-audit-reports/) in the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/). To open the dashboard, select **Team > Team Settings** in the Postman header. Then, select **Secret Scanner** in the left sidebar.
 
@@ -67,11 +70,13 @@ You can view detected secrets, configure [default](#default-alerts) and [custom]
 
 ### Resolve detected secrets
 
-Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can review the [default](#default-alerts) and [custom](#custom-alerts) tokens that the Secret Scanner has found in public and team workspaces in the **Secrets detected** tab of the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/findings). You can filter findings by workspace visibility type, workspace name, and secret type. To view the details for a detected secret, select it from the list.
+Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can review the [default](#default-alerts) and [custom](#custom-alerts) secrets that the Secret Scanner has found in public and team workspaces in the **Secrets detected** tab of the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/findings). You can filter findings by workspace visibility type, workspace name, and secret type. To view the details for a detected secret, select it from the list.
+
+> Admins and Super Admins can access all identified secrets within a team, including ones in public workspaces. Workspace Admins can also view secrets within the workspaces they manage.
 
 <img alt="Resolve detected secret" src="https://assets.postman.com/postman-docs/v10/secret-scanner-view-detected-secret-v10.18.jpg"/>
 
-Each detected secret shows where it was found, when it was detected, and who added it. To view a detected secret in full, hover over the obfuscated value under its name and select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">.
+Each detected secret shows where it was found, when it was detected, and who added it. To view the SHA256 hash value of a detected secret, hover over the partially hidden value under its name and select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">.
 
 To resolve a detected secret, select **Unresolved** and then select the reason for resolving it. You can resolve a finding with the following reasons:
 
@@ -81,17 +86,17 @@ To resolve a detected secret, select **Unresolved** and then select the reason f
 
 <img alt="Resolve detected secret" src="https://assets.postman.com/postman-docs/v10/secret-scanner-resolve-detected-secret-v10.18.jpg"/>
 
-## Supported tokens
+## Supported secrets
 
-The Secret Scanner scans a variety of tokens [by default](#default-alerts). You can also add your team's proprietary third-party app tokens that aren't supported yet using [custom alerts](#custom-alerts).
+The Secret Scanner scans for a variety of secrets [by default](#default-alerts). You can also add your team's proprietary third-party app tokens that aren't supported yet using [custom alerts](#custom-alerts).
 
 ### Default alerts
 
-By default, the Secret Scanner checks for tokens issued by common service providers like Amazon, Google, Github, Stripe, and Twilio. To view the complete list of default alerts, open the [Secret Scanner](https://go.postman.co/settings/team/secret-scanner/alerts) and select **Configure alerts**.
+By default, the Secret Scanner checks for tokens issued by common service providers including Amazon, Google, GitHub, Stripe, and Twilio. To view the complete list of default alerts, open the [Secret Scanner](https://go.postman.co/settings/team/secret-scanner/alerts) and select **Configure alerts**.
 
 ### Custom alerts
 
-> **[Custom alerts are available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
+> **[Custom alerts are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing/)**
 
 You can use custom alerts to scan your team's proprietary tokens and any third-party app tokens that aren't scanned by default.
 

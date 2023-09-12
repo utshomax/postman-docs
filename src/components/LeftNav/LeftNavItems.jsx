@@ -1410,7 +1410,7 @@ export const leftNavItems = [
         url: '/docs/reports/billing-overview-reports/',
       },
       {
-        name: 'Token scanner report',
+        name: 'Secret Scanner report',
         url: '/docs/reports/security-audit-reports/',
       },
     ],
