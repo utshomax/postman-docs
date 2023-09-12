@@ -36,6 +36,7 @@ The Secret Scanner is available on all Postman plans and is turned on by default
 * [How Secret Scanner works](#how-secret-scanner-works)
 * [Secret Scanner dashboard](#secret-scanner-dashboard)
     * [Resolve detected secrets](#resolve-detected-secrets)
+* [Manage Secret Scanner findings with the Postman API](#manage-secret-scanner-findings-with-the-postman-api)
 * [Supported secrets](#supported-secrets)
     * [Default alerts](#default-alerts)
     * [Custom alerts](#custom-alerts)
@@ -85,6 +86,10 @@ To resolve a detected secret, select **Unresolved** and then select the reason f
 * **Won't fix** - This secret is not relevant.
 
 <img alt="Resolve detected secret" src="https://assets.postman.com/postman-docs/v10/secret-scanner-resolve-detected-secret-v10.18.jpg"/>
+
+## Manage Secret Scanner findings with the Postman API
+
+Team Admins, Super Admins, and Workspace Admins can access Secret Scanner findings through the Postman API. Using the Postman API enables you to create custom automated workflows to retrieve and resolve identified secrets. To learn more, see the [Postman API documentation](https://go.pstmn.io/live-docs-api).
 
 ## Supported secrets
 
