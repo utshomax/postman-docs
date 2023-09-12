@@ -27,7 +27,6 @@ The following blocks can be used to construct your application:
 The following controls are used to build your application:
 
 * **(5) Webhook:** Create a flow that either runs automatically on a schedule, or whenever a specified event happens. More information on webhooks and automatic runs can be found [here](/docs/postman-flows/concepts/automatic-runs/).
-* **(6) Form:** Create a form that runs a flow on user submission. (This feature is coming soon.)
 * **(7) Console:** This is where you can find all API activity. This is useful for debugging flows and ensuring your flow is running with the expected information. A guide on debugging flows can be found [here](/docs/postman-flows/reference/debugging/).
 
 ### Navigation
