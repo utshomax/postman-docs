@@ -100,7 +100,7 @@ By default, the Secret Scanner checks for tokens issued by common service provid
 
 You can use custom alerts to scan your team's proprietary tokens and any third-party app tokens that aren't scanned by default.
 
-Your team can add a total of five alerts. You must be a **Community Manager** or team member with both **Developer** and **Admin** roles to add custom alerts.
+Your team can add a total of five alerts. You must be a Community Manager or team member with both Developer and Admin roles to add custom alerts.
 
 To add custom alerts, do the following:
 
