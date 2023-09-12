@@ -71,7 +71,7 @@ Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissi
 
 <img alt="Resolve detected secret" src="https://assets.postman.com/postman-docs/v10/secret-scanner-view-detected-secret-v10.18.jpg"/>
 
-Each detected secret shows where it was found, when it was detected, and who added it. To view a detected secret in full, hover over the obfuscated value under its name and select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">. 
+Each detected secret shows where it was found, when it was detected, and who added it. To view a detected secret in full, hover over the obfuscated value under its name and select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">.
 
 To resolve a detected secret, select **Unresolved** and then select the reason for resolving it. You can resolve a finding with the following reasons:
 
@@ -87,7 +87,7 @@ The Secret Scanner scans a variety of tokens [by default](#default-alerts). You 
 
 ### Default alerts
 
-By default, the Secret Scanner checks for tokens issued by common service providers like Amazon, Google, Github, Stripe, and Twilio. To view the complete list of default alerts, open the [Secret Scanner](https://go.postman.co/settings/team/secret-scanner/alerts).
+By default, the Secret Scanner checks for tokens issued by common service providers like Amazon, Google, Github, Stripe, and Twilio. To view the complete list of default alerts, open the [Secret Scanner](https://go.postman.co/settings/team/secret-scanner/alerts) and select **Configure alerts**.
 
 ### Custom alerts
 
@@ -100,8 +100,8 @@ Your team can add a total of five alerts. You must be a **Community Manager** or
 To add custom alerts, do the following:
 
 1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Secret Scanner** in the left sidebar, then select the **Configure alerts** tab.
-3. In the **Custom alerts** section, select **+ Add Alert**.
-4. Add the details for the custom token, then select **Create Alert**.
+2. In the **Custom alerts** section, select **+ Add Alert**.
+3. Add the details for the custom token, then select **Create Alert**.
 
 ## Protect Postman API keys in GitHub
 
