@@ -86,7 +86,7 @@ You can opt to allow or disallow overages for mock server and monitor usage by s
 
 You can also [Purchase add-ons](#purchasing-add-on-resources).
 
-> If your API development pipeline is dependent on Postman monitoring, disabling overages may cause unintended consequences for your bill. To avoid fluctuating pay-as-you-go charges, consider adding [pre-paid monitoring blocks](#purchasing-add-on-resources) to your team plan.
+> If your API development pipeline is dependent on Postman monitoring, deactivating overages may cause unintended consequences for your bill. To avoid fluctuating pay-as-you-go charges, consider adding [pre-paid monitoring blocks](#purchasing-add-on-resources) to your team plan.
 
 ### Viewing account history
 
@@ -221,7 +221,7 @@ Select to pay **Monthly** or **Annual** and confirm your changes. Note that annu
 
 ### Purchasing add-on resources
 
-The base number of monitoring requests, mock server calls, and custom domains included in your plan depends on your [plan type](https://www.postman.com/pricing). You can allow or disallow overages for monitoring and mock server calls by [managing your team's resources](#managing-resources). If enabled, you will be charged on a pay-as-you-go basis.
+The base number of monitoring requests, mock server calls, flow steps, and custom domains included in your plan depends on your [plan type](https://www.postman.com/pricing). You can allow or disallow overages for monitoring and mock server calls by [managing your team's resources](#managing-resources). If enabled, you will be charged on a pay-as-you-go basis.
 
 You can purchase more blocks of monitoring requests, mock server calls, and custom domains by navigating to your [billing dashboard](http://go.postman.co/billing), selecting **Resource usage** on the left, then **Purchase Add-ons** on the right.
 
