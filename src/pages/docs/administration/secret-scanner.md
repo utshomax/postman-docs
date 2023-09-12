@@ -55,13 +55,13 @@ Postman's secret scanner follows all updates made by team members and scans them
 
 Secret Scanner is turned on by default for all Postman teams and will monitor your team's public workspaces, collections, environments, and documentation for exposed secrets. If you're on an [Enterprise plan](https://www.postman.com/pricing), Secret Scanner will also monitor your team workspaces.
 
-Postman delivers scan results in [Secret Scanner Reports](/docs/reports/security-audit-reports/). If an exposed secret is found, Postman notifies you by email and in-app notification. You can also set up Postman's [Slack integration](/docs/integrations/available-integrations/slack/) to alert you in Slack if this occurs.
+Postman delivers scan results in [Secret Scanner reports](/docs/reports/security-audit-reports/). If an exposed secret is found, Postman notifies you by email and in-app notification. You can also set up Postman's [Slack integration](/docs/integrations/available-integrations/slack/) to alert you in Slack if this occurs.
 
-> **[Secret Scanner Reports are available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
+> **[Secret Scanner reports are available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
 
 ## Secret Scanner dashboard
 
-You can view detected secrets, configure [default](#default-alerts) and [custom](#custom-alerts) alerts, and review [Secret Scanner Reports](/docs/reports/security-audit-reports/) in the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/). To open the dashboard, select **Team > Team Settings** in the Postman header. Then, select **Secret Scanner** in the left sidebar.
+You can view detected secrets, configure [default](#default-alerts) and [custom](#custom-alerts) alerts, and review [Secret Scanner reports](/docs/reports/security-audit-reports/) in the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/). To open the dashboard, select **Team > Team Settings** in the Postman header. Then, select **Secret Scanner** in the left sidebar.
 
 <img alt="Secret Scanner dashboard" src="https://assets.postman.com/postman-docs/v10/secret-scanner-dashboard-v10.18.jpg"/>
 
