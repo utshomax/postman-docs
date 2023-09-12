@@ -245,7 +245,7 @@ At any time during your Auto-Flex billing cycle, your team can [invite](/docs/ad
 
 Before your Auto-Flex billing cycle renews, all Billing and Admin team members receive a notification about any new users you added during that time period.
 
-> Shortly before the applicable billing date, users with Billing or Admin roles will receive a notification that reflects the number of added Users during that monthly or quarterly cycle.
+> Shortly before the applicable billing date, users with Billing or Admin roles will receive a notification that reflects the number of added users during that monthly or quarterly cycle.
 
 You can use this reminder to make any necessary changes to your team before the end of your current Auto-Flex cycle, when you will be billed for any newly added users.
 
