@@ -225,7 +225,7 @@ The base number of monitoring requests, mock server calls, flow steps, and custo
 
 You can purchase more Flow Editor seats and blocks of monitoring requests, mock server calls, and custom domains by navigating to your [billing dashboard](http://go.postman.co/billing), selecting **Resource usage** on the left, then **Purchase Add-ons** on the right.
 
-Update the number of monitoring blocks, mock server blocks, and custom domains you would like to have included in your team plan, then select **Next** to confirm your changes.
+Update the number of Flow Editor seats, monitoring blocks, mock server blocks, and custom domains you would like to have included in your team plan, then select **Next** to confirm your changes.
 
 ### Using Auto-Flex
 
