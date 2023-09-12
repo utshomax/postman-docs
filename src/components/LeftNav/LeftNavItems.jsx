@@ -634,10 +634,6 @@ export const leftNavItems = [
             name: 'Automatic runs',
             url: '/docs/postman-flows/concepts/automatic-runs/',
           },
-/*        {
-            name: 'Create a form',
-            url: '/docs/postman-flows/concepts/creating-a-form/',
-          },*/
           {
             name: 'Organize a flow',
             url: '/docs/postman-flows/concepts/organizing-a-flow/',
