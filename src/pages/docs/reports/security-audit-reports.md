@@ -1,19 +1,13 @@
 ---
 title: "Secret Scanner report"
 updated: 2023-09-15
-contextual_links:
-  - type: section
-    name: "Additional resources"
-  - type: subtitle
-    name: "Blog posts"
-  - type: link
-    name: "Introducing New Postman Reports for Enterprises"
-    url: "https://blog.postman.com/introducing-new-postman-reports-for-enterprises/"
 ---
 
 > **[Secret Scanner reports are available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
 
-The **Secret Scanner** report provides an overview of detected, unresolved, and resolved secrets within your organization that have been found by Postman's [Secret Scanner](/docs/administration/secret-scanner/). To view the report, open Postman and select **Team > Team Settings** in the Postman header. Select **Secret Scanner** in the left sidebar, then select the **Reports** tab.
+The **Secret Scanner** report provides Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) with insights into the status of detected secrets, enabling you to make informed decisions that improve the security and compliance of your Postman team. The report covers detected, unresolved, and resolved secrets within your organization that have been found by Postman's [Secret Scanner](/docs/administration/secret-scanner/). 
+
+To view the report, open Postman and select **Team > Team Settings** in the Postman header. Select **Secret Scanner** in the left sidebar, then select the **Reports** tab.
 
 You can filter the report by time and by workspace visibility. The report provides the following information:
 
