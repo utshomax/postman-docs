@@ -31,7 +31,7 @@ In Postman, select **New > MQTT** to create a new request. (In the Postman deskt
 To connect to an MQTT service, you need a broker URL. This example uses the public broker `test.mosquitto.org`. You can also use any other public broker or a broker hosted on your local machine.
 
 1. Enter `test.mosquitto.org` as the request **URL**.
-2. Select the **Connect** button to connect to the broker.
+1. Select **Connect** to connect to the broker.
 
 A message in the response area indicates that you're connected to the broker.
 
