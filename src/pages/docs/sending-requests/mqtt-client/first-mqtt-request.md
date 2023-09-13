@@ -64,7 +64,7 @@ You will see an outgoing message in the response area indicating that the messag
 
 ## Using response visualizer
 
-Now that you have subscribed to a topic and published a few messages, you can use the response visualizer to view the messages in a more comprehensible format.
+Now that you've subscribed to a topic and published a few messages, you can use the response visualizer to view the messages in a more comprehensible format.
 
 1. Switch to the **Visualization** tab in the response area. You will see the messages for the `age` field visualized as a line chart.
 2. Select the field name dropdown to select the field you want to visualize.
