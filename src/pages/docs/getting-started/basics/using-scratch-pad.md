@@ -14,7 +14,7 @@ contextual_links:
 
 The _Scratch Pad_ is a space where you can work if you're using the Postman desktop app and not connected to Postman servers. When you aren't signed in or don't have a network connection, you can still access some Postman features offline, such as creating collections and requests, or sending requests. All your work in the Scratch Pad is stored locally and isn't synced online with Postman. After working in the Scratch Pad, you can later move your work into a workspace once you sign in.
 
-> The Scratch Pad is deprecated and no longer supported. It is being discontinued and won’t receive any updates, bug fixes, or security updates. You can use the lightweight API Client when not signed in to Postman to send API requests, including HTTP, WebSocket, gRPC, and GraphQL requests. Learn more about the [lightweight Postman API Client](/docs/getting-started/basics/using-api-client/).
+> The Scratch Pad is deprecated and no longer supported. It's being discontinued and won’t receive any updates, bug fixes, or security updates. You can use the lightweight API Client when not signed in to Postman to send API requests, including HTTP, WebSocket, gRPC, and GraphQL requests. Learn more about the [lightweight Postman API Client](/docs/getting-started/basics/using-api-client/).
 
 ## Contents
 
