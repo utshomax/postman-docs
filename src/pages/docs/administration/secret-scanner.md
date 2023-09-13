@@ -49,7 +49,7 @@ Postman's secret scanner follows all updates made by team members and scans them
 
 * Change the workspace visibility to [public](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility).
 * Send a request to a [Community Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to make a workspace public. ([Enterprise Ultimate plans only](https://www.postman.com/pricing))
-* Share a collection, environment, or API to a [public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/).
+* Share a collection or environment to a [public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/).
 * Make changes to a collection or environment that's present in a public workspace.
 * Publishes an API in a public workspace.
 * Makes changes to an API Definition or API Linked Collection. ([Enterprise Ultimate plans only](https://www.postman.com/pricing))
