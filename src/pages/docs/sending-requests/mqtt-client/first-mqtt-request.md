@@ -55,8 +55,8 @@ You will see a message in the response area indicating that you're subscribed to
 You can use the **Message** tab to compose and send messages to the broker.
 
 1. Select the **Message** tab and enter `{"age": 2, "number of toys": 5}` as the message.
-2. Enter `my-toys` as the topic name.
-3. Select **Send** to publish the message.
+1. Enter `my-toys` as the topic name.
+1. Select **Send** to publish the message.
 
 You will see an outgoing message in the response area indicating that the message was published. Since you have already subscribed to the topic, `my-toys`, you will also see an incoming message with the same body. Go ahead and send a few more messages counting the number of toys you had growing up.
 
