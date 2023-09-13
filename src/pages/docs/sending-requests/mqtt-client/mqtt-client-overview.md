@@ -11,7 +11,7 @@ contextual_links:
     name: "Additional resources"
 ---
 
-MQTT (Message Queuing Telemetry Transport) is a messaging protocol for the Internet of Things (IoT). Its usage spans from simple devices for home automation and wearables, to automating large scale industrial machineries. It's a lightweight technology modeled on the publish/subscribe pattern where clients connected to a single broker can publish messages to different topics and subscribe to topics to receive messages from other connected clients. The messages are transferred with low bandwidth usage, low power consumption, and efficient distribution of information to one or many receivers, all adding to the popularity of MQTT.
+MQTT (Message Queuing Telemetry Transport) is a messaging protocol for the Internet of Things (IoT). Its usage spans from simple devices for home automation and wearables, to automating large-scale industrial machineries. It's a lightweight technology modeled on the publish/subscribe pattern where clients connected to a single broker can publish messages to different topics and subscribe to topics to receive messages from other connected clients. The messages are transferred with low-bandwidth usage, low-power consumption, and efficient distribution of information to one or many receivers, all adding to the popularity of MQTT.
 
 ## Work with MQTT APIs using Postman
 
