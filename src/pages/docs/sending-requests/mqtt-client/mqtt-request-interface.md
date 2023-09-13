@@ -61,7 +61,7 @@ When you connect to the broker, the response area creates a message stream showi
 
   <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-response-v10-2.jpg" alt="Response section" width="500px"/>
 
-- **Visualization**- The **Visualization** tab shows the message stream in a graphical format, a more comprehensible way to view telemetry data. The interface is divided into multiple windows per topic you have received messages for. For JSON responses, the values for the first field are plotted on the graph. You can change the selected field, and add more fields to compare the values side by side. You can also change the visualization style from line to bar chart.
+- **Visualization** - The **Visualization** tab shows the message stream in a graphical format, a more comprehensible way to view telemetry data. The interface is divided into multiple windows per topic you have received messages for. For JSON responses, the values for the first field are plotted on the graph. You can change the selected field, and add more fields to compare the values side by side. You can also change the visualization style from line to bar chart.
 
   <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-visualization-v10.jpg" alt="Visualization section" width="500px"/>
 
