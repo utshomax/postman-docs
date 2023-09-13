@@ -37,12 +37,6 @@ const HRStyles = styled.hr`
 
 class IndexPage extends React.Component {
   componentDidMount() {
-    const pix = document.createElement('script');
-    pix.language = 'JavaScript1.1';
-    pix.src = '//pixel.mathtag.com/event/js?mt_id=1538259&mt_adid=244742&mt_exem=&mt_excl=&v1=&v2=&v3=&s1=&s2=&s3=';
-    pix.async = true;
-    document.body.appendChild(pix);
-
     const id = 'Polyfill';
     if (!document.getElementById(id)) {
       const polyfill = document.createElement('script');
