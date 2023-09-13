@@ -71,7 +71,7 @@ The billing overview is your billing dashboard's default view. You can view the 
 
 ### Managing resources
 
-Open the [**Resource usage** dashboard](http://go.postman.co/billing/add-ons/overview) to see your team's usage of mock servers and monitors, APIs created, collection runner runs, image and file storage, flow requests, performance tests, integrations, and the Postman Cloud Agent. To open the **Resource usage** dashboard, do one of the following:
+Open the [**Resource usage** dashboard](http://go.postman.co/billing/add-ons/overview) to see your team's usage of mock servers and monitors, APIs created, collection runner runs, image and file storage, flow steps, performance tests, integrations, and the Postman Cloud Agent. To open the **Resource usage** dashboard, do one of the following:
 
 * **Free users** - In the Postman header, select the menu next to **Upgrade**.
 * **Paid users** - In the Postman header, select **Team**.
