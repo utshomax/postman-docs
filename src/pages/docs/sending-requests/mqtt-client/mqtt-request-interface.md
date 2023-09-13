@@ -71,7 +71,7 @@ The right sidebar gives you access to more tools and information like documentat
 
 - **Request documentation** - Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> to view the description of a request. You can add a description by selecting the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description, then writing your content using [Postman's built-in editing tools](https://learning.postman.com/docs/publishing-your-api/authoring-your-documentation/).
 - **Comments**- Select the comments icon to collaborate with your teammates as you work on an API. You can use `@` to tag others to ask a question, give feedback, and discuss your API.
-- **Request information** - Select the information icon to view more details about a request, like the request ID and creation date.
+- **Request information** - Select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> to view more details about a request, like the request ID and creation date.
 
 ## Next steps
 
