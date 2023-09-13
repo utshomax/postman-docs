@@ -44,7 +44,7 @@ A message in the response area indicates that you're connected to the broker.
 While connected to the broker, select the **Topics** tab. This enables you to create, document, and subscribe to multiple topics.
 
 1. In the **Topics** column, enter `my-toys` as the topic name.
-2. Select the **Subscribe** button to subscribe to the topic.
+1. Select **Subscribe** to subscribe to the topic.
 
 You will see a message in the response area indicating that you are subscribed to the topic.
 
