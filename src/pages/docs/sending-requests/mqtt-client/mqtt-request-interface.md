@@ -49,7 +49,7 @@ In the request interface, you can add configuration to connect to an MQTT broker
     - **Send** - Once you have configured the payload, select **Send** to publish the message to the broker.
 - **Topics** - This is where you can list and document multiple topics, and subscribe to them. You can also configure the QoS level for each topic listed.
 - **Last Will** - Last Will is a message that's sent by the broker to the subscribers when the client disconnects from the broker. You can configure the Last Will message by going to the **Last Will** tab, entering the message, and configuring additional settings such as topic name, QoS level, and retain flag. You can also configure the delay interval by selecting the more actioncs icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and entering the delay interval in milliseconds.
-- **Authorization** - Authorize your connection with Basic Auth. You can pass your credentials in the form of username and password to the broker using the **Authorization** tab.
+- **Authorization** - Authorize your connection with Basic Auth. You can pass your credentials in the form of a username and password to the broker using the **Authorization** tab.
 - **Properties** - You can add custom properties to your request. These properties are sent while connecting to the broker.
 - **Settings** - You can configure additional settings for your request by going to the **Settings** tab. You can configure the request timeout, enable/disable SSL certificate verification, clean session, and auto reconnect etc.
 
