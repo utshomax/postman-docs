@@ -1,18 +1,10 @@
 ---
 title: "Using the Scratch Pad"
 page_id: "using-the-scratch-pad"
-updated: 2023-05-15
+updated: 2023-09-15
 contextual_links:
   - type: section
     name: "Additional resources"
-  - type: subtitle
-    name: "Videos"
-  - type: link
-    name: "Accessing Scratchpad in Postman | Postman Level Up"
-    url: "https://youtu.be/AHpdO8AetjA"
-  - type: link
-    name: "Importing Data from the Scratchpad | Postman Level Up"
-    url: "https://youtu.be/GZWf7F-aVDc"
   - type: subtitle
     name: "Blog posts"
   - type: link
@@ -20,9 +12,7 @@ contextual_links:
     url: "https://blog.postman.com/announcing-new-lightweight-postman-api-client/"
 ---
 
-The _Scratch Pad_ is a space where you can work if you're using the Postman desktop app and not connected to Postman servers. When you aren't signed in or don't have a network connection, you can still access some Postman features offline, such as creating collections and requests, or sending requests.
-
-All your work in the Scratch Pad is stored locally and isn't synced online with Postman. After working in the Scratch Pad, you can later move your work into a workspace once you sign in.
+The _Scratch Pad_ is a space where you can work if you're using the Postman desktop app and not connected to Postman servers. When you aren't signed in or don't have a network connection, you can still access some Postman features offline, such as creating collections and requests, or sending requests. All your work in the Scratch Pad is stored locally and isn't synced online with Postman. After working in the Scratch Pad, you can later move your work into a workspace once you sign in.
 
 > The Scratch Pad is deprecated and no longer supported. It is being discontinued and won’t receive any updates, bug fixes, or security updates. You can use the lightweight API Client when not signed in to Postman to send API requests, including HTTP, WebSocket, gRPC, and GraphQL requests. Learn more about the [lightweight Postman API Client](/docs/getting-started/basics/using-api-client/).
 
@@ -31,24 +21,25 @@ All your work in the Scratch Pad is stored locally and isn't synced online with 
 * [Entering the Scratch Pad](#entering-the-scratch-pad)
 * [Scratch Pad features](#scratch-pad-features)
 * [Leaving the Scratch Pad](#leaving-the-scratch-pad)
-* [Migrating Scratch Pad data to a workspace](#migrating-scratch-pad-data-to-a-workspace)
-* [Exporting data from the Scratch Pad](#exporting-data-from-the-scratch-pad)
+* [Migrating data from the Scratch Pad](#migrating-data-from-the-scratch-pad)
 
 ## Entering the Scratch Pad
 
-If you still have access to Scratch Pad and sign out or lose connection to Postman, Postman displays a global banner at the top of the screen indicating that you're already in the Scratch Pad.
+If you still have access to Scratch Pad and are not signed in or connected to Postman, a global banner at the top of the screen indicates that you're already in the Scratch Pad.
 
 If you are signed in and want to go to the Scratch Pad, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Scratch Pad**.
 
 > Scratch Pad is no longer available in Postman v10.18 and later, or if you still have data in Scratch Pad for previous versions.
 <!-- above sentence isn't quite right.
-v8 - still have access, but don't doc
+v8 - still have access
 v9-v10.17 - have access if your local data hasn't been removed
 later than v10.14 without envs or collections: blocked
 downloads later than v10.14 - blocked
 v10.18 - blocked
 enterprise app existing downloads, banner
 -->
+
+If you don't have access to Scratch Pad, you will be prompted to sign in, sign up for a Postman account, or switch to the lightweight Postman API Client. If you still have data in Scratch pad, you will also be asked if you want to move it. See [Migrating data from the Scratch Pad](#migrating-data-from-the-scratch-pad) for more details.
 
 ## Scratch Pad features
 
@@ -63,24 +54,20 @@ While you are in the Scratch Pad, you can:
 
 ## Leaving the Scratch Pad
 
-1. Ensure you have a network connection to Postman, and [sign in to Postman](/docs/getting-started/installation/postman-account/#signing-in-to-postman).
+1. Ensure you have a network connection to Postman, and [sign in to Postman](/docs/getting-started/installation/postman-account/#signing-in-to-postman). if you don't have a Postman account, you can [sign up for one](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account).
 1. Switch to a workspace by selecting **Workspaces** from the header. For more information, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
 
 > You can also select **Switch to a Workspace** from the Scratch Menu global banner at the top of the screen.
 
-## Migrating Scratch Pad data to a workspace
+After signing in, you can move your collections, environments, requests, and request history from the Scratch Pad to a workspace. See [Migrating data from the Scratch Pad](#migrating-data-from-the-scratch-pad) for more details.
+
+## Migrating data from the Scratch Pad
+
+When you sign in to Postman, you can migrate all of your Scratch Pad data to a workspace.
 
 [Workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/) enable you to organize your Postman work and collaborate with teammates. To switch to a workspace, you need to sign up for a Postman account or sign in to your existing Postman account. You can move all of your collections, environments, and history from the Scratch Pad to your workspace, so you can pick up right where you left off.
 
-### Signing up for Postman from the Scratch Pad
-
-When you [sign up for a Postman account](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account), you can choose to move your data to a workspace or keep it in the Scratch Pad. If you choose to move your data, your collections, environments, and history are copied from the Scratch Pad to your default personal workspace. (Open tabs aren't migrated.)
-
-> If you choose to keep your data in the Scratch Pad, you can [move it to a workspace](#signing-in-to-postman-from-the-scratch-pad) later.
-
-### Signing in to Postman from the Scratch Pad
-
-When you [sign in to Postman](/docs/getting-started/installation/postman-account/#signing-in-to-postman), your data isn't automatically migrated from the Scratch Pad. <!-- not true? -->
+### Migrate data from the Scratch Pad to a workspace
 
 To migrate your Scratch Pad data to a workspace:
 
@@ -90,15 +77,13 @@ To migrate your Scratch Pad data to a workspace:
 
 All of your collections, environments, and history are copied from the Scratch Pad to the workspace you selected. (Open tabs aren't migrated.)
 
-## Exporting data from the Scratch Pad
+### Exporting individual collections and environments from the Scratch Pad
 
-When you sign in to Postman, your data remains on the Scratch Pad and isn't automatically migrated to your workspace. You can [migrate all of your Scratch Pad data to a workspace](#migrating-scratch-pad-data-to-a-workspace). <!-- first sentence may be inaccurate now -->
+You can also export individual collections and environments from the Scratch Pad to a local file. You can't make bulk data exports of all collections and environments at once. For more information on exporting a single collection or an environment in Postman, see [Exporting Postman data](/docs/getting-started/importing-and-exporting/exporting-data/).
 
-If you don't want to migrate all of your Scratch Pad data, you can export individual collections and environments from the Scratch Pad as JSON. You can then import the data in to a workspace. <!-- is this still true? -->
+If you no longer have Scratch Pad access, you will be prompted to export all data to a local file, which you can then import into a workspace.
 
-For more information on exporting a single collection or an environment, see [Exporting Postman data](/docs/getting-started/importing-and-exporting/exporting-data/).
-
-> You can export individual collections and environments from the Scratch Pad. You can't make bulk data exports of all collections and environments at once. <!-- is this still true? -->
+### Importing exported Scratch Pad data
 
 To import the exported Scratch Pad data into your workspace, do the following:
 
@@ -107,13 +92,3 @@ To import the exported Scratch Pad data into your workspace, do the following:
 1. Drag your exported collection or environment and select **Import**.
 
 For more information on importing, see [Importing data into Postman](/docs/getting-started/importing-and-exporting/importing-data/).
-
-<!--
-
-Scratch Pad with collections and environments
-Users can either migrate to a signed-in account or move to the lightweight API Client. They are also given the option to export their data to a file.  (really?)
-
-Scratch Pad with no collections and environments
-Users can either migrate to a signed-in account or move to the lightweight API Client.
-
--->
