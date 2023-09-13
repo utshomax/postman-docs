@@ -7,7 +7,7 @@ Postman provides tools to help you manage your team's usage of Postman Flows. Fl
 
 You can use the [Resource usage dashboard](https://go.postman.co/usage) to track the number of steps that have been consumed against your plan's monthly maximum. If you're on the Professional plan, you can also enable overages if needed.
 
-> To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).<!--TODO: Update About resource usage re: flows -->
+> To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).
 
 ## Contents
 
@@ -24,7 +24,7 @@ When you reach your monthly usage limit, your flows will complete their current 
 
 With a free Postman account, once you've reached your monthly usage limit, your flows are automatically paused for the rest of the billing period. To continue to use Postman Flows for the remainder of the billing period, [upgrade your Postman plan](https://go.postman.co/purchase).
 
-With a Professional plan, you can enable Flows overages. With overages enabled for Flows, Once you've reached your monthly usage limit, your flows continue to run, and you are charged for each additional block of 1,000 steps.
+With a Professional plan, you can enable Flows overages. With overages enabled for Flows, once you've reached your monthly usage limit, your flows continue to run, and you are charged for each additional block of 1,000 steps.
 
 > Postman will email your Team Admins if your Flows usage approaches your monthly limit.
 <!-- -->
