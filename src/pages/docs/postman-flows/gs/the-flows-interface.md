@@ -5,7 +5,7 @@ updated: 2023-08-15
 
 Postman Flows has an easy-to-use interface to create your applications. This guide is a high-level overview of the Postman Flows interface.
 
-<img src="https://assets.postman.com/postman-labs-docs/getting-started/flows-ui.png" alt="Flows user interface" fetchpriority="low" loading="lazy" />
+<img src="https://assets.postman.com/postman-docs/v10/flows-ui-v10.jpg" alt="Flows user interface" />
 
 ## The Postman Flows user interface
 
@@ -26,8 +26,7 @@ The following blocks can be used to construct your application:
 
 The following controls are used to build your application:
 
-* **(5) Forms:** Create a form that runs a flow on user submission. Learn more about forms [here](/docs/postman-flows/concepts/creating-a-form/).
-* **(6) Webhook-based applications:** Create a flow that either runs automatically on a schedule, or whenever a specified event happens. More information on webhooks and automatic runs can be found [here](/docs/postman-flows/concepts/automatic-runs/).
+* **(5) Webhook:** Create a flow that either runs automatically on a schedule, or whenever a specified event happens. More information on webhooks and automatic runs can be found [here](/docs/postman-flows/concepts/automatic-runs/).
 * **(7) Console:** This is where you can find all API activity. This is useful for debugging flows and ensuring your flow is running with the expected information. A guide on debugging flows can be found [here](/docs/postman-flows/reference/debugging/).
 
 ### Navigation
