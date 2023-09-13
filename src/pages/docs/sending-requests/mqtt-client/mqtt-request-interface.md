@@ -39,7 +39,7 @@ In the request interface, you can add configuration to connect to an MQTT broker
 - **Enter URL** - This is where you enter the broker's address, such as `test.mosquitto.org`. Some MQTT services also require you to define a port number. You can define a port number in the URL by appending the port number to the URL. For example, `test.mosquitto.org:1883`.
     > To connect to the broker over TLS, you need to use `mqtts://` as your URL scheme. For example, `mqtts://test.mosquitto.org`.
     - **MQTT Version** - Every MQTT version has some distinctions in terms of the protocol features. Postman supports two major versions of MQTT: 3.1.1 and 5.0. Version 5.0 is selected by default.
-    - **Client ID** - Client ID is an identifier differentiating each client connected to the broker. By default, Postman generates a random client ID for each request. You can override this by selecting the **Client ID** button and entering a custom client ID.
+    - **Client ID** - Client ID is an identifier differentiating each client connected to the broker. By default, Postman generates a random client ID for each request. You can override this by selecting **Client ID** and entering a custom client ID.
 - **Message** - This is where you compose and Publish messages to the broker. You can write your message in the text area, enter a topic name and select **Send** to publish the message.
     - **Properties** - You can add custom properties to your message. These properties are sent along with each message to the broker.
     - **Message type** - You can define the message type as **Text**, **JSON**, **Base64**, or **Hexadecimal** for Postman to render it correctly.
