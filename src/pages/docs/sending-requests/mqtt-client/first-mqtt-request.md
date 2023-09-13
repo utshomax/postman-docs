@@ -33,7 +33,7 @@ To connect to an MQTT service, you need a broker URL. This example uses the publ
 1. Enter `test.mosquitto.org` as the request **URL**.
 2. Select the **Connect** button to connect to the broker.
 
-A message in the response area indicates that you are connected to the broker.
+A message in the response area indicates that you're connected to the broker.
 
   <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-connected-v10-1.jpg" alt="Connect to a broker" width="500px"/>
 
