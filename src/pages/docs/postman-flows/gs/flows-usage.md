@@ -22,10 +22,10 @@ When you reach your monthly usage limit, your flows will complete their current 
 
 ## Enabling Flows overages
 
-With a free Postman account, once you've reached your monthly usage limit, your flows are automatically paused for the rest of the billing period. To continue to use Postman Flows for the remainder of the billing period, [upgrade your Postman plan](https://go.postman.co/purchase).
+With a free or Basic Postman account, once you've reached your monthly usage limit, your flows are automatically paused for the rest of the billing period. To continue to use Postman Flows for the remainder of the billing period, [upgrade your Postman plan](https://go.postman.co/purchase).
 
 With a Professional plan, you can enable Flows overages. With overages enabled for Flows, once you've reached your monthly usage limit, your flows continue to run, and you are charged for each additional block of 1,000 steps.
 
 > Postman will email your Team Admins if your Flows usage approaches your monthly limit.
 <!-- -->
-> Flows overages are deactivated by default for paid Postman accounts. To enable overages, select **Team > Resource Usage** to open the [Resource Usage dashboard](https://go.postman.co/usage), and then turn on **Pay-as-you-go** under **Flows Usage**.
+> Flows overages are deactivated by default for Professional Postman accounts. To enable overages, select **Team > Resource Usage** to open the [Resource Usage dashboard](https://go.postman.co/usage), and then turn on **Pay-as-you-go** under **Flows Usage**.
