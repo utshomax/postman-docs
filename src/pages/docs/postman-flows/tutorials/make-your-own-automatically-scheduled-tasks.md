@@ -89,8 +89,6 @@ Create a monitor and a flow to get the high and low temperature forecasts for a 
 
 1. In the sidebar, under **Applications**, select **Webhook > Publish** and copy the flow's webhook URL.
 
-    <img src="https://assets.postman.com/postman-docs/v10/flows-tut-sched-webhook-v10.gif" alt="Copy the webhook" fetchpriority="low" loading="lazy" >
-
 ## Scheduling the flow with a monitor
 
 1. Create an HTTP POST request and enter the flow's webhook URL. Save the request to a new collection named `Scheduled Flow`.
