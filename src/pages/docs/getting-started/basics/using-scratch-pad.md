@@ -25,7 +25,7 @@ The _Scratch Pad_ is a space where you can work if you're using the Postman desk
 
 ## Entering the Scratch Pad
 
-If you still have access to Scratch Pad and are not signed in or connected to Postman, a global banner at the top of the screen indicates that you're already in the Scratch Pad.
+If you still have access to Scratch Pad and aren't signed in or connected to Postman, a global banner at the top of the screen indicates that you're already in the Scratch Pad.
 
 If you are signed in and want to go to the Scratch Pad, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Scratch Pad**.
 
