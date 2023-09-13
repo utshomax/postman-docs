@@ -46,7 +46,7 @@ While connected to the broker, select the **Topics** tab. This enables you to cr
 1. In the **Topics** column, enter `my-toys` as the topic name.
 1. Select **Subscribe** to subscribe to the topic.
 
-You will see a message in the response area indicating that you are subscribed to the topic.
+You will see a message in the response area indicating that you're subscribed to the topic.
 
   <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-subscribed-v10.jpg" alt="Subscribe to a topic" width="500px"/>
 
