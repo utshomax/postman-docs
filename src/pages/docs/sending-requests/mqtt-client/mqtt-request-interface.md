@@ -43,7 +43,7 @@ In the request interface, you can add configuration to connect to an MQTT broker
 - **Message** - This is where you compose and publish messages to the broker. You can write your message in the text area, enter a topic name, and select **Send** to publish the message.
     - **Properties** - You can add custom properties to your message. These properties are sent along with each message to the broker.
     - **Message type** - You can define the message type as **Text**, **JSON**, **Base64**, or **Hexadecimal** for Postman to render it correctly.
-    - **Topic** - You can define the topic name for the message here. The topic name is used by the broker to route the message to the appropriate subscribers.
+    - **Topic** - You can define the topic name for the message. The broker uses the topic name to route the message to the appropriate subscribers.
     - **QoS** - QoS defines the guarantee of delivery for the message. You can configure the Quality of Service (QoS) level for the message by selecting the <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> icon selecting a QoS level.
     - **Retain** - Retain is a flag that asks the broker to retain the last message sent on the topic and send it to the new subscribers even if they join the network after the message was sent from the client. You can configure the retain flag for the message by selecting the <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> icon and toggling the **Retain** switch.
     - **Send** - Once you have configured the payload, select the **Send** button to publish the message to the broker.
