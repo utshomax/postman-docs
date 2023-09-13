@@ -57,7 +57,7 @@ In the request interface, you can add configuration to connect to an MQTT broker
 
 When you connect to the broker, the response area creates a message stream showing the published and received messages to different topics in a single session (until you select **Disconnect**).
 
-- **Messages**- The message stream shows the published and received messages in a timeline. You can expand the message to view the message details such as topic name, QoS level, retain flag, and message type. You can search for specific messages using the search bar, filter messages by received and sent and clear the message stream using the **Clear Messages** button.
+- **Messages** - The message stream shows the published and received messages in a timeline. You can expand the message to view the message details such as topic name, QoS level, retain flag, and message type. You can search for specific messages using the search bar, filter messages by received and sent, and clear the message stream using **Clear Messages**.
 
   <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-response-v10-2.jpg" alt="Response section" width="500px"/>
 
