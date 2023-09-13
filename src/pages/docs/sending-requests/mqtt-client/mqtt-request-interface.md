@@ -6,7 +6,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Navigating Postman"
-    url: "https://learning.postman.com/docs/getting-started/navigating-postman/"
+    url: "https://learning.postman.com/docs/getting-started/basics/navigating-postman/"
 ---
 
 MQTT requests in Postman include a variety of tools, views, and controls to help you debug and document your MQTT APIs. This topic highlights parts of the request interface and explains how to use them.
@@ -26,7 +26,7 @@ Create a new MQTT request by selecting the **New** button in the sidebar, which 
 
   <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-new-request-v10.jpg" alt="New MQTT request" width="500px"/>
 
-You can also create a new MQTT request by selecting the **New Tab** icon <img alt="New Tab icon" src="https://assets.postman.com/postman-docs/v10/icon-pin-collection-v10.14.0.jpg#icon" width="16px"> in the tabs bar and selecting the **Request type** button next to the request name (Untitled Request) and selecting **MQTT** from the list.
+You can also create a new MQTT request by selecting the New Tab icon <img alt="New Tab icon" src="https://assets.postman.com/postman-docs/v10/icon-pin-collection-v10.14.0.jpg#icon" width="16px"> in the tabs bar and selecting the **Request type** button next to the request name (Untitled Request) and selecting **MQTT** from the list.
 
   <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-tab-request-v10.jpg" alt="Create a MQTT request with the New Tab  icon" width="200px"/>
 
@@ -51,7 +51,7 @@ In the request interface, you can add configuration to connect to an MQTT broker
 - **Last Will** - Last Will is a message that's sent by the broker to the subscribers when the client disconnects from the broker. You can configure the Last Will message by going to the **Last Will** tab, entering the message, and configuring additional settings such as topic name, QoS level, and retain flag. You can also configure the delay interval by selecting the more actioncs icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and entering the delay interval in milliseconds.
 - **Authorization** - Authorize your connection with Basic Auth. You can pass your credentials in the form of a username and password to the broker using the **Authorization** tab.
 - **Properties** - You can add custom properties to your request. These properties are sent while connecting to the broker.
-- **Settings** - You can configure additional settings for your request by going to the **Settings** tab. You can configure the request timeout, enable/disable SSL certificate verification, clean session, and auto reconnect etc.
+- **Settings** - You can configure additional settings for your request by going to the **Settings** tab. You can configure the request timeout, enable/disable SSL certificate verification, clean session, and auto reconnect.
 
 ## The MQTT response
 
