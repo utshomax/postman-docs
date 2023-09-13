@@ -145,7 +145,11 @@ To create a visualization with Postbot, do the following:
 
 1. Send your request so it has a response.
 1. In the **Body** tab of the response, select the **Visualize** tab.
-1. In the **Visualize Response** menu, select a table, chart, or graph visualizer. You can also select **set up with a prompt** and enter a simple text sentence to tell Postbot what you need.
+1. In the **Visualize Response** menu, select a table, chart, or graph visualizer. You can also select **set up with a prompt** and enter a simple text sentence to tell Postbot what you want to do using plain language.
+Postman uses artificial intelligence to generate a visualization for you.
+
+For example, try these phrases with Postbot: "create a new visualization,"
+"change the type of visualization," or "fix the existing visualization."
 
 For more information on Postbot, visit [About Postbot](/docs/getting-started/basics/about-postbot/).
 
