@@ -9,7 +9,7 @@ contextual_links:
     url: "https://learning.postman.com/docs/getting-started/navigating-postman/"
 ---
 
-MQTT requests in Postman include a variety of tools, views and controls to help you debug and document your MQTT APIs. This topic highlights the parts of the request interface and explains how to use them.
+MQTT requests in Postman include a variety of tools, views, and controls to help you debug and document your MQTT APIs. This topic highlights parts of the request interface and explains how to use them.
 
   <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-interface-v10.jpg" alt="MQTT interface" width="500px"/>
 
