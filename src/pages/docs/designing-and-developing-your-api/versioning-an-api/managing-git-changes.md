@@ -28,6 +28,7 @@ If you [configured a remote repository](/docs/designing-and-developing-your-api/
 * [Working with branches](#working-with-branches)
     * [Switching branches](#switching-branches)
     * [Creating a new branch](#creating-a-new-branch)
+    * [Deleting a local branch](#deleting-a-local-branch)
 * [Pushing and pulling changes](#pushing-and-pulling-changes)
     * [Committing and pushing changes](#committing-and-pushing-changes)
     * [Pulling changes](#pulling-changes)
@@ -63,7 +64,7 @@ To create a new branch in the remote repository, do the following:
 
 ### Deleting a local branch
 
-To delete a local branch, select the Git branch dropdown menu in the Postman footer, then select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the local branch.
+To delete a local branch, select the Git branch dropdown menu in the Postman footer, then select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the local branch. If there are changes on the local branch you want to keep, make sure to [commit and push](#committing-and-pushing-changes) them before deleting the branch.
 
 Deleting a local branch removes the branch from your local system but doesn't remove the branch from the remote repository. If you delete the active branch, Postman automatically switches to another branch.
 
@@ -71,9 +72,9 @@ Deleting a local branch removes the branch from your local system but doesn't re
 
 As you work on your API, Postman tracks the changes you make to the active branch. Use the **Source Control** pane to view and manage your change history. You can commit and push your changes to the remote repository to make your work available to others. You can also pull changes to keep your working files up to date with the remote repository.
 
-To show or hide the commit history, select **Commits**. Expand a commit to see details about the changes. If there are multiple changed files, you can use the dropdown menu next to **Commits** to show file history or show all commits.
+To show or hide the commit history, select **Commits**. Expand a commit to see details about the changes. When viewing file diffs, you can use the dropdown menu next to **Commits** to show file history or show all commits.
 
-<img alt="Source control pane" src="https://assets.postman.com/postman-docs/v10/api-builder-source-control-remote-v10a.jpg" width="443px" />
+<img alt="Source control pane" src="https://assets.postman.com/postman-docs/v10/api-builder-source-control-remote-v10-18.jpg" width="443px" />
 
 ### Committing and pushing changes
 
@@ -102,7 +103,7 @@ Pulling brings changes from the remote (origin) branch into your active branch.
 To pull changes from the remote branch, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
-1. Select the source control icon <img alt="Source control icon" src="https://assets.postman.com/postman-docs/icon-source-control.jpg#icon" width="16px"/> in the right sidebar. The pull icon <img alt="Pull icon" src="https://assets.postman.com/postman-docs/v10/icon-pull-v10.jpg#icon" width="36px"/> indicates the number of commits your active branch is behind the remote branch.
+1. Select the source control icon <img alt="Source control icon" src="https://assets.postman.com/postman-docs/icon-source-control.jpg#icon" width="16px"/> in the right sidebar. The pull icon <img alt="Pull icon" src="https://assets.postman.com/postman-docs/v10/icon-pull-v10-18.jpg#icon" width="40px"/> indicates the number of commits your active branch is behind the remote branch.
 1. Select the pull icon to bring the changes into your active branch.
 
 If there are any conflicts, you'll need to [resolve the conflicts](#resolving-conflicts) before you can finish pulling the changes.
@@ -116,7 +117,7 @@ To resolve a conflict, do the following:
 1. Next to each affected file, select either **Keep remote file** or **Keep local file**.
 1. When you're finished, select **Pull Changes**.
 
-![](https://assets.postman.com/postman-docs/api-builder-pull-changes-conflict.jpg)
+![](https://assets.postman.com/postman-docs/v10/api-builder-pull-changes-conflict-v10-18.jpg)
 
 > If the file with the conflict isn't in a format Postman supports, you'll need to resolve the conflict in your preferred Git client.
 
@@ -132,7 +133,7 @@ To create a pull request, do the following:
 
 After the PR is merged, make sure to [switch to the branch](#switching-branches) you merged the changes into and [pull the changes](#pulling-changes).
 
-<img alt="Source control pane" src="https://assets.postman.com/postman-docs/v10/api-builder-create-pr-v10.jpg" width="443px" />
+<img alt="Source control pane" src="https://assets.postman.com/postman-docs/v10/api-builder-create-pr-v10-18.jpg" width="443px" />
 
 ## Making your changes available to others
 
