@@ -54,7 +54,7 @@ While you are in the Scratch Pad, you can:
 
 ## Leaving the Scratch Pad
 
-1. Ensure you have a network connection to Postman, and [sign in to Postman](/docs/getting-started/installation/postman-account/#signing-in-to-postman). if you don't have a Postman account, you can [sign up for one](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account).
+1. Ensure you have a network connection to Postman, and [sign in to Postman](/docs/getting-started/installation/postman-account/#signing-in-to-postman). If you don't have a Postman account, you can [sign up for one](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account).
 1. Switch to a workspace by selecting **Workspaces** from the header. For more information, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
 
 > You can also select **Switch to a Workspace** from the Scratch Menu global banner at the top of the screen.
