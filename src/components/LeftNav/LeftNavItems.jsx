@@ -1355,10 +1355,6 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Updating your team to the current version of Postman',
-        url: '/docs/administration/updating/',
-      },
-      {
         name: 'Managing Enterprise deployment',
         url: '/docs/administration/managing-enterprise-deployment/',
       },
