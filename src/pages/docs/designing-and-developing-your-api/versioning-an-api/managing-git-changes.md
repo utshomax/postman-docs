@@ -117,7 +117,7 @@ To resolve a conflict, do the following:
 1. Next to each affected file, select either **Keep remote file** or **Keep local file**.
 1. When you're finished, select **Pull Changes**.
 
-![](https://assets.postman.com/postman-docs/v10/api-builder-pull-changes-conflict-v10-18.jpg)
+![Resolving conflicts](https://assets.postman.com/postman-docs/v10/api-builder-pull-changes-conflict-v10-18.jpg)
 
 > If the file with the conflict isn't in a format Postman supports, you'll need to resolve the conflict in your preferred Git client.
 
