@@ -39,7 +39,7 @@ v10.18 - blocked
 enterprise app existing downloads, banner
 -->
 
-If you don't have access to Scratch Pad, you will be prompted to sign in, sign up for a Postman account, or switch to the lightweight Postman API Client. If you still have data in Scratch pad, you will also be asked if you want to move it. See [Migrating data from the Scratch Pad](#migrating-data-from-the-scratch-pad) for more details.
+If you don't have access to Scratch Pad, you'll be prompted to sign in, sign up for a Postman account, or switch to the lightweight Postman API Client. If you still have data in Scratch pad, you'll also be asked if you want to move it. See [Migrating data from the Scratch Pad](#migrating-data-from-the-scratch-pad) for more details.
 
 ## Scratch Pad features
 
