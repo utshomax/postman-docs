@@ -69,7 +69,7 @@ When you sign in to Postman, you can migrate all of your Scratch Pad data to a w
 
 ### Migrate data from the Scratch Pad to a workspace
 
-To migrate your Scratch Pad data to a workspace:
+To migrate your Scratch Pad data to a workspace, do the following:
 
 1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**.
 1. Select the **Data** tab, then select **Migrate Data**.
