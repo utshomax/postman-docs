@@ -253,7 +253,7 @@ Partner roles relate to [Partner Workspaces](/docs/collaborating-in-postman/usin
 | **Team level** | Partner Manager | Partner |
 | **Workspace level** | Admin, Viewer, Editor | Viewer, Editor <br> Partner Lead (optional) |
 
-You can [assign](/docs/administration/managing-your-team/managing-your-team/) partner roles at the team level:
+You can [assign](/docs/administration/managing-your-team/managing-your-team/) the Partner Manager role to team members at the team level, and you can [invite collaborators to a Partner Workspace](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/#inviting-collaborators-to-a-partner-workspace) with the Partner role:
 
 * **Partner Manager** (Internal) - Manages all Partner Workspaces within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners.
 * **Partner** (External) - All partners are automatically granted the Partner role at the team level. Partners can only access the Partner Workspaces they've been invited to.

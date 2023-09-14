@@ -114,6 +114,8 @@ To invite partners to a Partner Workspace, do the following:
 1. (Workspace Admins and Partner Managers only) Select **Make them Partner Lead** if you'd like them to also be able to manage and invite partners within the workspace.
 1. Select **Invite Partners**.
 
+You can open your [team dashboard](https://go.postman.co/settings/team/members) to view invited partners and [view resources partners can access](#viewing-resources-a-partner-can-access).
+
 Partner invites must be accepted by the email address you provided when you invited the individual. If a partner would like to use a different email address, or if an invite was mistakenly sent, you can [revoke the invite](/docs/administration/managing-your-team/managing-your-team/#managing-invites) and send a new one.
 
 > Partners will sign in to your team with a Postman username and password, even if your team is restricted to signing in with [SSO](/docs/administration/sso/intro-sso/).
@@ -167,7 +169,7 @@ Workspace Admins and Partner Managers manage workspace settings, users, and role
 
 ### Managing users and roles
 
-You can assign partner roles based on the functions users and partners require. You can [assign](/docs/administration/managing-your-team/managing-your-team/) partner roles at the team level:
+You can assign partner roles based on the functions users and partners require. You can [assign](/docs/administration/managing-your-team/managing-your-team/) the Partner Manager role to team members at the team level, and you can [invite collaborators to a Partner Workspace](#inviting-collaborators-to-a-partner-workspace) with the Partner role:
 
 * **Partner Manager** (Internal) - Manages all Partner Workspaces within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners.
 * **Partner** (External) - All partners are automatically granted the Partner role at the team level. Partners can only access the Partner Workspaces they've been invited to.
