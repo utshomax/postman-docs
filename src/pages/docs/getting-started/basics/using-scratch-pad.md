@@ -81,7 +81,7 @@ All of your collections, environments, and history are copied from the Scratch P
 
 You can also export individual collections and environments from the Scratch Pad to a local file. You can't make bulk data exports of all collections and environments at once. For more information on exporting a single collection or an environment in Postman, see [Exporting Postman data](/docs/getting-started/importing-and-exporting/exporting-data/).
 
-If you no longer have Scratch Pad access, you will be prompted to export all data to a local file, which you can then import into a workspace.
+If you no longer have Scratch Pad access, you'll be prompted to export all data to a local file, which you can then import into a workspace.
 
 ### Importing exported Scratch Pad data
 
