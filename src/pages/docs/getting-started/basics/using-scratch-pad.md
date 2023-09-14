@@ -29,15 +29,7 @@ If you still have access to Scratch Pad and aren't signed in or connected to Pos
 
 If you are signed in and want to go to the Scratch Pad, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Scratch Pad**.
 
-> Scratch Pad is no longer available in Postman v10.18 and later, or if you still have data in Scratch Pad for previous versions.
-<!-- above sentence isn't quite right.
-v8 - still have access
-v9-v10.17 - have access if your local data hasn't been removed
-later than v10.14 without envs or collections: blocked
-downloads later than v10.14 - blocked
-v10.18 - blocked
-enterprise app existing downloads, banner
--->
+> Scratch Pad is no longer available in Postman v10.18 and later. You can access the Scratch Pad in previous Postman versions if you still have data in the Scratch Pad.
 
 If you don't have access to Scratch Pad, you'll be prompted to sign in, sign up for a Postman account, or switch to the lightweight Postman API Client. If you still have data in Scratch pad, you'll also be asked if you want to move it. See [Migrating data from the Scratch Pad](#migrating-data-from-the-scratch-pad) for more details.
 
