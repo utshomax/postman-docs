@@ -61,7 +61,7 @@ Start an Interceptor session to capture traffic and cookies from your web browse
 1. Open the Interceptor extension by selecting the Interceptor icon in your browser's toolbar.
 1. Make sure the message **Ready to capture** appears at the bottom of the Interceptor window.
 
-    If the message **Interceptor disconnected** appears, make sure you've [installed the Postman desktop app](/docs/getting-started/installation/installation-and-updates/). If you're using Linux (all Postman versions), macOS (Postman v10.16 or earlier), or Windows (Postman v10.17 or earlier), make sure you've [installed Interceptor Bridge](#installing-interceptor-bridge).
+    If the message **Interceptor disconnected** appears, make sure you've [installed the Postman desktop app](/docs/getting-started/installation/installation-and-updates/) and that the Postman desktop app is open. If you're using Linux (all Postman versions), macOS (Postman v10.16 or earlier), or Windows (Postman v10.17 or earlier), make sure you've [installed Interceptor Bridge](#installing-interceptor-bridge).
 
 1. (Optional) On the **Capture Requests** tab, use the dropdown menus to limit the requests captured during the session:
 
