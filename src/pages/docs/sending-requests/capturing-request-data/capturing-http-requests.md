@@ -22,7 +22,7 @@ contextual_links:
     url: "https://medium.com/better-practices/reverse-engineering-an-api-403fae885303"
 ---
 
-> **Follow these steps if you're on Windows or Linux, or if you're using Postman v10.16 or earlier.** If you're running Postman v10.17 or later on macOS, go to [Capturing requests with the Postman proxy](/docs/sending-requests/capturing-request-data/capture-with-proxy/) instead. To check which version of Postman you're using, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings > About**.
+> **Follow these steps if you're on Linux (all Postman versions), macOS (Postman v10.16 or earlier), or Windows (Postman v10.17 or earlier).** If you're on macOS (Postman v10.17 or later) or Windows (Postman v10.18 or later), go to [Capturing requests with the Postman proxy](/docs/sending-requests/capturing-request-data/capture-with-proxy/) instead. To check which version of Postman you're using, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings > About**.
 
 If you are using APIs to build client-side applications like mobile apps, websites, or desktop applications, you may want to inspect the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. You can capture network traffic, including requests, responses, and cookies, using the proxy that's built into Postman.
 

@@ -414,6 +414,25 @@ export const leftNavItems = [
         url: '/docs/sending-requests/websocket/websocket/',
       },
       {
+        name: 'Using the MQTT client',
+        subParentSlug: 'mqtt-client',
+        slug: '/docs/sending-requests/mqtt-client/mqtt-client-overview/',
+        subMenuItems2: [
+          {
+            name: 'MQTT overview',
+            url: '/docs/sending-requests/mqtt-client/mqtt-client-overview/'
+          },
+          {
+            name: 'Using the MQTT request interface',
+            url: '/docs/sending-requests/mqtt-client/mqtt-request-interface/'
+          },
+          {
+            name: 'Creating your first MQTT request',
+            url: '/docs/sending-requests/mqtt-client/first-mqtt-request/'
+          },
+        ],
+      },
+      {
         name: 'Using SOAP requests',
         url: '/docs/sending-requests/soap/making-soap-requests/',
       },
@@ -602,6 +621,10 @@ export const leftNavItems = [
           {
             name: 'The Flows interface',
             url: '/docs/postman-flows/gs/the-flows-interface/',
+          },
+          {
+            name: 'Managing Flows usage',
+            url: '/docs/postman-flows/gs/flows-usage/',
           }
         ],
       },
@@ -635,10 +658,6 @@ export const leftNavItems = [
             url: '/docs/postman-flows/concepts/automatic-runs/',
           },
           {
-            name: 'Create a form',
-            url: '/docs/postman-flows/concepts/creating-a-form/',
-          },
-          {
             name: 'Organize a flow',
             url: '/docs/postman-flows/concepts/organizing-a-flow/',
           }
@@ -668,10 +687,6 @@ export const leftNavItems = [
           {
             name: 'Automate repetitive tasks',
             url: '/docs/postman-flows/tutorials/automating-repetitive-tasks/',
-          },
-          {
-            name: 'Update a database with Postman Flows',
-            url: '/docs/postman-flows/tutorials/process-information-and-then-update-the-same-system/',
           },
           {
             name: 'Make your own automatically scheduled tasks',
@@ -1282,7 +1297,7 @@ export const leftNavItems = [
       },
       {
         name: 'Secret Scanner',
-        url: '/docs/administration/token-scanner/',
+        url: '/docs/administration/secret-scanner/',
       },
       {
         name: 'Onboarding checklist',
@@ -1367,10 +1382,6 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Updating your team to the current version of Postman',
-        url: '/docs/administration/updating/',
-      },
-      {
         name: 'Managing Enterprise deployment',
         url: '/docs/administration/managing-enterprise-deployment/',
       },
@@ -1414,7 +1425,7 @@ export const leftNavItems = [
         url: '/docs/reports/billing-overview-reports/',
       },
       {
-        name: 'Token scanner report',
+        name: 'Secret Scanner report',
         url: '/docs/reports/security-audit-reports/',
       },
     ],
