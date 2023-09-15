@@ -1,6 +1,6 @@
 ---
-title: "Run collection using imported data"
-updated: 2023-08-28
+title: "Run a collection using imported data"
+updated: 2023-09-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -25,7 +25,7 @@ Postman enables you to import a CSV or JSON file, and use the values from the da
 
 ## Data file format
 
-Format the CSV file so that the first row contains the variable names you want to use inside the requests. After that, every row will be used as a data row. The line endings of the CSV file must be in the UNIX format. Each row should have the same number of columns.
+Format the CSV file so that the first row contains the variable names you want to use inside the requests. After that, every row will be used as a data row. The line endings of the CSV file must be in Unix format. Each row should have the same number of columns.
 
 <img alt="CSV format" src="https://assets.postman.com/postman-docs/v10/ramen-csv-screenshot.jpg" width="300px"/>
 
@@ -72,7 +72,7 @@ In this example, you will create a collection, write a test for variable values,
     });
    ```
 
-   See the [Postman JavaScript reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) for more on what you can do with iteration data.
+   See the [Postman JavaScript reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#using-data-variables-in-scripts) for more on what you can do with iteration data.
 
 1. Create a test CSV file as shown below. Name it `test.csv`.
 
