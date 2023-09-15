@@ -58,11 +58,11 @@ _Workspace as an element_ represents a whole container where being an Admin give
 
     > You can also apply a workspace template to a newly created workspace. To learn more, see [Creating workspaces with a template](#creating-workspaces-with-a-template).
 
-    <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-and-apply-template-full-screen-v10.jpg"/>
+    <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-and-apply-template-full-screen-v10-2.jpg"/>
 
 1. Use the visibility menu to choose a __Personal__, __Private__, __Team__, __Partner__, or __Public__ workspace.
 
-    <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-v10-2.jpg" width="400px"/>
+    <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-v10-3.jpg" width="400px"/>
 
     ([Enterprise plans only](https://www.postman.com/pricing/)) If your [team manages who can create team workspaces](/docs/administration/managing-your-team/managing-your-team/#manage-your-teams-workspaces), users without permission to create team workspaces must submit a request for approval by a [Super Admin, Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), or user with permission to create team workspaces. You can also add an optional note to your request. The workspace's visibility will be set to [private](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) until your request is approved. Postman will notify you whether your request is approved or denied.
 
