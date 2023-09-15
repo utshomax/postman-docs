@@ -1,6 +1,6 @@
 ---
 title: "Testing API performance"
-updated: 2023-07-15
+updated: 2023-09-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -77,7 +77,7 @@ To configure a performance test in the Postman desktop app, do the following:
 
 ### Virtual users and system resources
 
-The maximum number of virtual users a performance test can simulate depends on available system resources and the collection used for the test. Using pre-request or test scripts will reduce the number of virtual users that can be simulated.
+The number of virtual users a performance test can simulate depends on available system resources and the collection used for the test. Using pre-request or test scripts will reduce the number of virtual users that can be simulated. The maximum number of virtual users is determined by your [Postman plan](https://www.postman.com/pricing/).
 
 Use the following guidelines to understand how many virtual users you can simulate:
 
@@ -109,7 +109,11 @@ From the **Summary** tab, you can take the following actions:
 * Select **Stop** to stop the performance test.
 * Select **Run Again** to configure and start the performance test again.
 * Select **All Runs** to view a list of all past performance runs for the collection.
-* Select the share icon <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> to get a link to the performance report. Select **Copy Link** to copy the link to your clipboard. You can share the link with your teammates so they can view the results of the performance test.
+* Select the share icon <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> to share the performance report with others on your team:
+
+    * Select **Share Link** to get a link to the performance report you can share with your teammates. Select **Copy Link** to copy the link to your clipboard.
+    * Select **Export PDF** or **Export HTML** to download a copy of the performance report in PDF or HTML format. The report shows response time and throughput, slowest requests, requests with the most errors, metrics for each request, and a list of errors.
+
 * Select the name of a request to open the request.
 
 ### Customizing the performance view
