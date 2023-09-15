@@ -61,11 +61,11 @@ Check out these Flows Workspaces filled with examples:
 
 These workspaces include example flows utilizing a multitude of APIs for different products and tools, plus all the related collections and environments needed. You can [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) the flows to your own workspace, try them out, and then make your own changes and customizations.
 
-> Postman Flows is free to try on the Free plan for up to three users. Postman Flows is available as an add-on to the annual [Professional plan](https://www.postman.com/pricing/). Postman Flows isn't currently available in the Basic and Enterprise plans.
+> Postman Flows is available as an add-on on all [Free, Basic, and Professional plans](https://www.postman.com/pricing/#postman-flows-access-and-pricing). Postman Flows isn't currently available in the Enterprise plan.
 
 ## Enabling Postman Flows
 
-To get started using Postman Flows in a Professional plan, assign the Flow Editor role to one or more of your team members. For more information on adding a role to a user, see [Managing team roles](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
+To get started using Postman Flows in a Professional or Basic plan, assign the Flow Editor role to one or more of your team members. For more information on adding a role to a user, see [Managing team roles](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
 
 ## Quick start
 
