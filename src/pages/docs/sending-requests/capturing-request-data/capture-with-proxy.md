@@ -1,6 +1,6 @@
 ---
 title: "Capturing requests with the Postman proxy"
-updated: 2023-08-14
+updated: 2023-09-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -22,7 +22,7 @@ contextual_links:
     url: "https://medium.com/better-practices/reverse-engineering-an-api-403fae885303"
 ---
 
-> **Follow these steps if you're on macOS and using Postman v10.17 or later.** If you're running Postman on Windows or Linux, or if you're using Postman v10.16 or earlier, go to [Capturing HTTP requests](/docs/sending-requests/capturing-request-data/capturing-http-requests/) instead. To check which version of Postman you're using, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings > About**.
+> **Follow these steps if you're on macOS (Postman v10.17 or later) or Windows (Postman v10.18 or later).** If you're on Linux (all Postman versions), macOS (Postman v10.16 or earlier), or Windows (Postman v10.17 or earlier), go to [Capturing HTTP requests](/docs/sending-requests/capturing-request-data/capturing-http-requests/) instead. To check which version of Postman you're using, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings > About**.
 
 If you are using APIs to build client-side applications like mobile apps, websites, or desktop applications, you may want to inspect the HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. You can capture network traffic, including requests, responses, and cookies, using the proxy that's built into Postman.
 
@@ -63,9 +63,9 @@ In the steps below, you'll use the Postman proxy to inspect HTTP and HTTPS commu
 1. (Optional) Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to change the port number. By default, the port is set to `5559`. Make a note of the port number, as you will use it later when configuring clients.
 1. Select **Start Proxy Session**.
 
-The first time you start a proxy session, Postman will prompt you to install the **Postman Proxy CA** certificate on your computer. Enter your system password and select **Update Settings**. Installing the certificate enables the Postman proxy to capture secure HTTPS traffic sent from browsers and other client apps on your computer.
+The first time you start a proxy session, Postman will install the **Postman Proxy CA** certificate on your computer. If prompted, enter your computer password to install the certificate. Installing the certificate enables the Postman proxy to capture secure HTTPS traffic sent from browsers and other client apps on your computer.
 
-<img alt="Start a proxy session" src="https://assets.postman.com/postman-docs/v10/proxy-start-session-v10-17.jpg" />
+<img alt="Start a proxy session" src="https://assets.postman.com/postman-docs/v10/proxy-start-session-v10-18.jpg" />
 
 ### Step 2: Control the proxy session
 
@@ -96,11 +96,11 @@ From the proxy session tab, you can take the following actions:
 
     > You can also capture cookies and sync them to Postman without starting a proxy session. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
 
-<img alt="Control a proxy session" src="https://assets.postman.com/postman-docs/v10/proxy-control-session-v10-17a.jpg" />
+<img alt="Control a proxy session" src="https://assets.postman.com/postman-docs/v10/proxy-control-session-v10-18.jpg" />
 
 ### Step 3: View the proxy session results
 
-While your proxy session is running, the proxy session tab shows captured traffic as you use a browser or apps on a client device. You can view details about each captured request including the status, method, URL, type, response size, and response time.
+While your proxy session is running, the proxy session tab shows captured traffic as you use a browser or apps on a client device. You can view details about each captured request including the status, method, URL, type, response size, response time, and time stamp.
 
 You can view and work with the proxy session results while the session is active or paused, or after you stop the session.
 
@@ -112,7 +112,7 @@ You can view and work with the proxy session results while the session is active
 * To delete a request or cookie, select it and select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete**.
 * To add a cookie to the [Postman cookie jar](/docs/sending-requests/cookies/), select it and select **+ Add to Cookie Jar**.
 
-<img alt="View proxy session results" src="https://assets.postman.com/postman-docs/v10/proxy-view-results-v10-17a.jpg" />
+<img alt="View proxy session results" src="https://assets.postman.com/postman-docs/v10/proxy-view-results-v10-18.jpg" />
 
 ### Step 4: Stop the proxy session
 
@@ -124,12 +124,12 @@ To save captured requests to a collection, do the following:
 
 1. Stop the proxy session if it's still active.
 1. Select the checkbox next to the requests you want to save, or select the checkbox in the column header to select all requests.
-1. Select **Create Collection**.
+1. Select **Save Requests**.
 1. Select the collection where you want to save the requests, or select **New collection** to create a new collection.
-1. Choose how to organize the requests in the collection. By default, requests are ordered chronologically. You can also select the checkboxes to group the requests in folders organized by **Domain name**, **Endpoints**, or both.
+1. Choose how to organize the requests in the collection. You can select the checkboxes to group the requests in folders organized by **Domain name**, **Endpoints**, or both.
 1. Select **Save**.
 
-<img alt="Save captured requests to a collection" src="https://assets.postman.com/postman-docs/v10/proxy-create-collection-v10-17a.jpg" />
+<img alt="Save captured requests to a collection" src="https://assets.postman.com/postman-docs/v10/proxy-create-collection-v10-18.jpg" />
 
 ### Step 5: Configure the proxy on a client device
 
@@ -139,12 +139,7 @@ You can use the Postman proxy to capture traffic from a client device such as a 
 1. Find the local IP address of the computer running the proxy:
 
     * On macOS, you can find your computer's IP address in **System Settings > Network**. Select a network interface, and if necessary select **Details > TCP/IP** to view your system's IP address.
-
-      <img alt="macOS network settings" src="https://assets.postman.com/postman-docs/v10/proxy-macos-network-settings-v10-17.jpg" />
-
-    <!--
-    * On Windows, select **Start > Settings > Network & internet > Wi-Fi** or **Ethernet**. Your IP address is listed under **Properties**.
-    -->
+    * On Windows, select **Start > Settings > Network & Internet > Wi-Fi** or **Ethernet**, and then select your connection. Your IP address is listed under **Properties**.
 
 1. Open the wireless settings of your client device and update the configuration of the network connection to use an HTTP Proxy. For example, in iOS:
 
@@ -158,13 +153,11 @@ You can use the Postman proxy to capture traffic from a client device such as a 
 
 > To capture secure HTTPS traffic, you need to install the `postman-proxy-ca.crt` certificate on the client device. To learn how to install the certificate on your device, go to [Capturing HTTPS traffic](/docs/sending-requests/capturing-request-data/capturing-https-traffic/).
 
-<!--
 #### Configuring a proxy on other devices
 
 The broader development community has published some useful tutorials for setting up a proxy server on various operating systems:
 
-* [Windows](https://www.howtogeek.com/tips/how-to-set-your-proxy-settings-in-windows-8.1/)
-* [Linux](https://www.shellhacks.com/linux-proxy-server-settings-set-proxy-command-line/)
 * [macOS](https://support.apple.com/en-gb/guide/mac-help/mchlp2591/mac)
-* [Android](https://www.howtogeek.com/295048/how-to-configure-a-proxy-server-on-android/)
--->
+* [Windows](https://support.microsoft.com/en-us/windows/use-a-proxy-server-in-windows-03096c53-0554-4ffe-b6ab-8b1deee8dae1#ID0EFD=Windows_10/)
+* [Linux](https://www.shellhacks.com/linux-proxy-server-settings-set-proxy-command-line/)
+* [Android](https://proxyway.com/guides/android-proxy-settings)
