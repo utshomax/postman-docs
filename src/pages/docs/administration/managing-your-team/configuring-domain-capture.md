@@ -48,7 +48,7 @@ You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-perm
 The following is required to add and verify a domain and enable domain capture:
 
 * Your team must be on a [Postman Enterprise Ultimate](https://www.postman.com/pricing) plan.
-* Your team must be on [Postman version 9 or later](/docs/administration/updating/).
+* Your team must be on Postman version 9 or later.
 
 The following is required to enable domain capture:
 
