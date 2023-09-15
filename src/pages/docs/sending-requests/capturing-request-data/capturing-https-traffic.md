@@ -1,6 +1,6 @@
 ---
 title: "Capturing HTTPS traffic"
-updated: 2023-08-24
+updated: 2023-09-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -37,6 +37,8 @@ You must install the `postman-proxy-ca.crt` certificate on your device to be abl
 * [Troubleshooting certificate issues](#troubleshooting-certificate-issues)
 
 ## Windows
+
+> If you're on Windows and using Postman v10.18 or later, the Postman security certificate is automatically installed on your computer the first time you start the proxy. Also, you don't need to install OpenSSL. To learn more, go to [Capturing requests with the Postman proxy](/docs/sending-requests/capturing-request-data/capture-with-proxy/).
 
 Before you install the `postman-proxy-ca.crt` certificate, you must install the OpenSSL module.
 
