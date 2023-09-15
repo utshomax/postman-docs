@@ -30,7 +30,7 @@ To create a new workspace, do the following:
 
     > You can also apply a workspace template to a newly created workspace. To learn more, see [Creating workspaces with a template](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template).
 
-    <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-and-apply-template-full-screen-v10.jpg"/>
+    <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-and-apply-template-full-screen-v10-2.jpg"/>
 
 1. Enter a **Name** and optional **Summary** for your workspace.
 1. Choose the workspace's visibility:
@@ -40,7 +40,7 @@ To create a new workspace, do the following:
     * A **Public** workspace is visible to all Postman users.
 1. Select **Create**.
 
-    <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-v10-2.jpg" width="400px"/>
+    <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-v10-3.jpg" width="400px"/>
 
 Postman will switch to your new workspace when you create it. You can start editing and adding to it right away.
 
