@@ -1,6 +1,6 @@
 ---
 title: "Using a cloud-hosted Git repository"
-updated: 2023-06-15
+updated: 2023-09-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -54,7 +54,7 @@ Keep in mind the following when connecting to a cloud-hosted Git repository:
 
 * **For Azure DevOps connections, make sure to enable third-party application access for your organization.** If you don't enable third-party access, Postman won't be able to connect to your repository. In Azure DevOps, go to your [organization settings](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops), select **Policies**, and turn on the toggle next to **Third-party application access via OAuth**.
 
-* **You can connect one or more APIs to a remote repository.** You can keep your APIs separate in the repository using directories or branches. Learn more about [connecting more than one API to the same repository](/docs/designing-and-developing-your-api/versioning-an-api/connecting-multiple-apis/).
+* **You can connect one or more APIs to a remote repository.** You can keep your APIs separate in the repository using files or branches. Learn more about [connecting more than one API to the same repository](/docs/designing-and-developing-your-api/versioning-an-api/connecting-multiple-apis/).
 
 ## Connecting to a cloud-hosted repository
 
@@ -68,17 +68,15 @@ You can connect your API to a GitHub, Bitbucket, GitLab SaaS, or Azure DevOps re
 1. A browser tab opens asking you to sign in to your repository. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
 1. On the **Connect your repository** page, enter the **Organization** or **Workspace** and the **Repository** where the API will be stored. (For GitLab, enter the **Group** and **Project** for your API.)
 1. Select the **Initial branch** for the API. Any changes you make in Postman are stored in the initial active branch. (You can switch to another branch to make it the active branch at any time.)
-1. Select an **API schema directory** and **Collection directory** where the API definition and collections will be stored in the repository. Keep in mind the following:
-
-    * If you leave these fields blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repository.
-    * If you select a directory that already has an API definition, you will be asked which definition to use in Postman the first time you pull changes.
-    * The collection directory can't be a parent or the child of the schema directory.
-
+1. Select an **API schema file** to add to your API. If you're working on a [multi-file API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#working-with-multi-file-api-definitions), make sure to select the [root definition file](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#about-root-files) in your repository. The root file is the base file that has references to other files in the API definition. If you leave this field blank, no definition files are added to your API. You can [manually add a definition file](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#adding-an-api-definition-from-a-connected-repository) from your repository later.
+1. Select a **Collection directory** where the collections linked to your API will be stored in the repository. If you leave this field blank, a `postman/collections` directory will be created in the root of the repository.
 1. Select **Connect Repository**.
+
+    The root definition file you selected is added to your API. For OpenAPI 2.0 and 3.0 APIs, Postman scans for any dependent files referenced in the root definition file and automatically adds them to your API. You can also [manually add more definition files](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#adding-files-from-a-connected-repository) from your repository as needed.
 
 > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](#managing-connected-accounts-for-remote-repositories).
 
-<img alt="Connecting to a cloud-hosted repo" src="https://assets.postman.com/postman-docs/v10/api-builder-remote-repo-v10-12.jpg" width ="562px"/>
+<img alt="Connecting to a cloud-hosted repo" src="https://assets.postman.com/postman-docs/v10/api-builder-remote-repo-v10-18a.jpg" width ="562px"/>
 
 ## Managing connected accounts for remote repositories
 
