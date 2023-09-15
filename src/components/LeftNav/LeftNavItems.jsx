@@ -414,6 +414,25 @@ export const leftNavItems = [
         url: '/docs/sending-requests/websocket/websocket/',
       },
       {
+        name: 'Using the MQTT client',
+        subParentSlug: 'mqtt-client',
+        slug: '/docs/sending-requests/mqtt-client/mqtt-client-overview/',
+        subMenuItems2: [
+          {
+            name: 'MQTT overview',
+            url: '/docs/sending-requests/mqtt-client/mqtt-client-overview/'
+          },
+          {
+            name: 'Using the MQTT request interface',
+            url: '/docs/sending-requests/mqtt-client/mqtt-request-interface/'
+          },
+          {
+            name: 'Creating your first MQTT request',
+            url: '/docs/sending-requests/mqtt-client/first-mqtt-request/'
+          },
+        ],
+      },
+      {
         name: 'Using SOAP requests',
         url: '/docs/sending-requests/soap/making-soap-requests/',
       },
@@ -602,6 +621,10 @@ export const leftNavItems = [
           {
             name: 'The Flows interface',
             url: '/docs/postman-flows/gs/the-flows-interface/',
+          },
+          {
+            name: 'Managing Flows usage',
+            url: '/docs/postman-flows/gs/flows-usage/',
           }
         ],
       },
@@ -1270,7 +1293,7 @@ export const leftNavItems = [
       },
       {
         name: 'Secret Scanner',
-        url: '/docs/administration/token-scanner/',
+        url: '/docs/administration/secret-scanner/',
       },
       {
         name: 'Onboarding checklist',
@@ -1355,10 +1378,6 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Updating your team to the current version of Postman',
-        url: '/docs/administration/updating/',
-      },
-      {
         name: 'Managing Enterprise deployment',
         url: '/docs/administration/managing-enterprise-deployment/',
       },
@@ -1402,7 +1421,7 @@ export const leftNavItems = [
         url: '/docs/reports/billing-overview-reports/',
       },
       {
-        name: 'Token scanner report',
+        name: 'Secret Scanner report',
         url: '/docs/reports/security-audit-reports/',
       },
     ],
