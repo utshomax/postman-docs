@@ -78,7 +78,7 @@ To create a new environment, do the following:
 
 1. Select __Save__ to save any environment variables you have added.
 
-> You can turn on autosave to automatically save your changes to collections, requests, and environments. Learn more about [autosave](/docs/getting-started/settings/#application).
+> You can turn on autosave to automatically save your changes to collections, requests, and environments. Learn more about [autosave](/docs/getting-started/installation/settings/#application).
 
 ### Adding environment variables
 
