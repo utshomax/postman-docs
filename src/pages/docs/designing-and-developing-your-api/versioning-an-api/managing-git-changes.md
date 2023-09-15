@@ -64,9 +64,11 @@ To create a new branch in the remote repository, do the following:
 
 ### Deleting a local branch
 
-To delete a local branch, select the Git branch dropdown menu in the Postman footer, then select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the local branch. If there are changes on the local branch you want to keep, make sure to [commit and push](#committing-and-pushing-changes) them before deleting the branch.
+To delete a local branch, select the Git branch dropdown menu in the Postman footer, then select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the local branch. Deleting a local branch removes the branch from your local system but doesn't remove the branch from the remote repository. If you delete the active branch, Postman automatically switches to another branch.
 
-Deleting a local branch removes the branch from your local system but doesn't remove the branch from the remote repository. If you delete the active branch, Postman automatically switches to another branch.
+If there are changes on the local branch you want to keep, make sure to [commit and push](#committing-and-pushing-changes) them before deleting the branch. You can't recover a local branch after deleting it, but you can switch to the associated remote branch to pull it to your local system again.
+
+> Deleting a remote branch from the repository doesn't remove the associated local branch in Postman. You can delete any local branches that are no longer needed.
 
 ## Pushing and pulling changes
 
