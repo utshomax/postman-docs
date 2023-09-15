@@ -621,6 +621,10 @@ export const leftNavItems = [
           {
             name: 'The Flows interface',
             url: '/docs/postman-flows/gs/the-flows-interface/',
+          },
+          {
+            name: 'Managing Flows usage',
+            url: '/docs/postman-flows/gs/flows-usage/',
           }
         ],
       },
