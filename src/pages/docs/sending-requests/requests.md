@@ -73,7 +73,7 @@ Once your new tab is open, you can specify the details you need for your request
 
 ![New Request](https://assets.postman.com/postman-docs/v10/empty-request-v10.jpg)
 
-> You can turn on autosave to automatically save your changes to collections, requests, and environments. Learn more about [autosave](/docs/getting-started/settings/#application).
+> You can turn on autosave to automatically save your changes to collections, requests, and environments. Learn more about [autosave](/docs/getting-started/installation/settings/#application).
 
 ## Adding request detail
 
