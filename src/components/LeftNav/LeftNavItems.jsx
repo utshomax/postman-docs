@@ -1293,7 +1293,7 @@ export const leftNavItems = [
       },
       {
         name: 'Secret Scanner',
-        url: '/docs/administration/token-scanner/',
+        url: '/docs/administration/secret-scanner/',
       },
       {
         name: 'Onboarding checklist',
@@ -1421,7 +1421,7 @@ export const leftNavItems = [
         url: '/docs/reports/billing-overview-reports/',
       },
       {
-        name: 'Token scanner report',
+        name: 'Secret Scanner report',
         url: '/docs/reports/security-audit-reports/',
       },
     ],
