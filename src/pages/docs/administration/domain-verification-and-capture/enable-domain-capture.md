@@ -1,6 +1,6 @@
 ---
 title: "Enable domain capture in Postman"
-updated: 2023-03-07
+updated: 2023-09-18
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -33,12 +33,12 @@ After you've [added and verified](/docs/administration/domain-verification-and-c
 
 To enable domain capture, do the following:
 
-1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
-1. Select **Manage** next to the domain with the `VERIFIED` status you want to enable domain capture for.
+1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar, then select the **Domains** tab.
+1. Select **Manage** next to the domain with the **VERIFIED** status you want to enable domain capture for.
 1. Select **Request To Claim**. Postman support will then contact Team Admins to explain the effects of enabling domain capture.
 1. Once the request is approved, you can [contact Postman support](#contact-support-to-manage-accounts) to manage [unclaimed accounts](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/#view-unclaimed-accounts).
 
-To view the status of your request to enable domain capture, select **Manage** next to the domain. After you select **Request To Claim**, the request status is changed to `REQUEST SENT`.
+To view the status of your request to enable domain capture, select **Manage** next to the domain. After you select **Request To Claim**, the request status is changed to **REQUEST SENT**.
 
 ![Request to claim sent](https://assets.postman.com/postman-docs/v10/request-to-claim-sent-v10.jpg)
 
@@ -70,8 +70,9 @@ For more details on the effects of enabling domain capture, see [Domain capture 
 
 Once the request is approved to [enable domain capture](#enable-domain-capture), Team Admins can contact Postman support by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture). Contact Postman support to claim accounts not part of your team, merge teams into your team, and restrict users to only work in your team.
 
-1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
-1. Select **Manage** next to the domain with the `VERIFIED` status you want to contact support about.
+1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar, then select the **Domains** tab.
+
+1. Select **Manage** next to the domain with the **VERIFIED** status you want to contact support about.
 
     > Domain capture must be enabled for the domain you want to contact support about.
 

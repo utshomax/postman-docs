@@ -1,6 +1,6 @@
 ---
 title: "Domain capture FAQs"
-updated: 2023-03-07
+updated: 2023-09-18
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -59,7 +59,7 @@ No, after a Team Admin adds a domain, they must create a request for Postman's t
 
 Team Admins can delete domains and subdomains from your team by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture).
 
-1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
+1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar, then select the **Domains** tab.
 1. Select **Manage** next to the domain you want to delete.
 1. Select **Delete Domain**.
 
