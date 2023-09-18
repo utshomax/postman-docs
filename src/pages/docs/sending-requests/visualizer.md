@@ -43,6 +43,7 @@ The Visualizer enables you to present your response data in ways that help to ma
     * [Adding styling and interaction to visualizations](#adding-styling-and-interaction-to-visualizations)
     * [Using your own libraries](#using-your-own-libraries)
     * [Accessing data inside the template](#accessing-data-inside-the-template)
+* [Using Postbot to create visualizations](#using-postbot-to-create-visualizations)
 * [Try it out](#try-it-out)
 * [Visualizer API](#visualizer-api)
 * [Debugging the Visualizer](#debugging-the-visualizer)
@@ -135,6 +136,22 @@ You can use any of the libraries in the [Postman Sandbox](/docs/writing-scripts/
 Any `<script>` elements inside your template can access the data passed in the second argument to `pm.visualizer.set()` by calling the `pm.getData(callback)` method. This is only applicable to JavaScript code in the template, for example if your template includes code to render a chart.
 
 The `pm.getData(callback)` method takes a callback function as its parameter. This callback accepts two parameters: `error` and `data`. The second parameter is the `data` that was passed to `pm.visualizer.set()`.
+
+## Using Postbot to create visualizations
+
+Not sure how to write a visualization for your request? Ask Postbot! Tell Postbot what you want to do using plain language, and Postman uses artificial intelligence to generate a visualization for you. Use Postbot to create a new visualization, change the type of visualization, fix your existing visualization, and more.
+
+To create a visualization with Postbot, do the following:
+
+1. Send your request so it has a response.
+1. In the **Body** tab of the response, select the **Visualize** tab.
+1. In the **Visualize Response** menu, select a table, chart, or graph visualizer. You can also select **set up with a prompt** and enter a simple text sentence to tell Postbot what you want to do using plain language.
+Postman uses artificial intelligence to generate a visualization for you.
+
+For example, try these phrases with Postbot: "create a new visualization,"
+"change the type of visualization," or "fix the existing visualization."
+
+For more information on Postbot, visit [About Postbot](/docs/getting-started/basics/about-postbot/).
 
 ## Try it out
 

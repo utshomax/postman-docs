@@ -36,7 +36,7 @@ Create a flow that gets a list of customer profiles from [Stripe](http://www.str
 
 The first step is to [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) (copy) the collections and the environment the flow will use, then add your API keys to the environment. You could create these requests, collections, and environment, but using existing ones saves time. From the [**Integration Flows** public workspace](https://www.postman.com/postman/workspace/integration-flows), fork the **Brevo API** collection, the **Stripe API** collection, and the **Stripe + Brevo** environment to your workspace.
 
-> Creating requests is beyond the scope of this tutorial, but you can learn more about creating requests [here](/docs/getting-started/sending-the-first-request/).
+> Creating requests is beyond the scope of this tutorial, but you can learn more about creating requests [here](/docs/getting-started/first-steps/sending-the-first-request/).
 
 The collections contain the requests that will get all the customer profiles from the Stripe API in a single response, divide the response into pages, and post the profiles to the Brevo API as contacts. The collections and the environment also contain variables used by the requests.
 
