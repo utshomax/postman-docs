@@ -933,15 +933,15 @@
   },
   {
     "from": "/docs/postman/launching-postman/settings/",
-    "to": "/docs/getting-started/settings/"
+    "to": "/docs/getting-started/installation/settings/"
   },
   {
     "from": "/docs/postman/launching-postman/syncing/",
-    "to": "/docs/getting-started/syncing/"
+    "to": "/docs/getting-started/basics/syncing/"
   },
   {
     "from": "/docs/postman/launching-postman/troubleshooting-inapp/",
-    "to": "/docs/getting-started/troubleshooting-inapp/"
+    "to": "/docs/introduction/troubleshooting-inapp/"
   },
   {
     "from": "/docs/postman/launching_postman/collaboration/",
@@ -981,15 +981,15 @@
   },
   {
     "from": "/docs/postman/launching_postman/settings/",
-    "to": "/docs/getting-started/settings/"
+    "to": "/docs/getting-started/installation/settings/"
   },
   {
     "from": "/docs/postman/launching_postman/syncing/",
-    "to": "/docs/getting-started/syncing/"
+    "to": "/docs/getting-started/basics/syncing/"
   },
   {
     "from": "/docs/postman/launching_postman/troubleshooting_inapp/",
-    "to": "/docs/getting-started/troubleshooting-inapp/"
+    "to": "/docs/introduction/troubleshooting-inapp/"
   },
   {
     "from": "/docs/postman/mock-servers/intro-to-mock-servers/",
@@ -1125,7 +1125,7 @@
   },
   {
     "from": "/docs/postman/postman_api/intro_api/",
-    "to": "/docs/developer/intro-api/"
+    "to": "/docs/developer/postman-api/intro-api/"
   },
   {
     "from": "/docs/postman/scripts/branching-and-looping/",
@@ -1229,7 +1229,7 @@
   },
   {
     "from": "/docs/postman/sending-api-requests/proxy/",
-    "to": "/docs/getting-started/proxy/"
+    "to": "/docs/getting-started/installation/proxy/"
   },
   {
     "from": "/docs/postman/sending-api-requests/requests/",
@@ -1301,7 +1301,7 @@
   },
   {
     "from": "/docs/postman/sending_api_requests/proxy/",
-    "to": "/docs/getting-started/proxy/"
+    "to": "/docs/getting-started/installation/proxy/"
   },
   {
     "from": "/docs/postman/sending_api_requests/requests/",
@@ -1417,7 +1417,7 @@
   },
   {
     "from": "/docs/postman/workspaces/conflicts/",
-    "to": "/docs/collaborating-in-postman/using-workspaces/conflicts/"
+    "to": "/docs/getting-started/basics/syncing/"
   },
   {
     "from": "/docs/postman/workspaces/creating-workspaces/",
@@ -1485,15 +1485,15 @@
   },
   {
     "from": "/docs/postman_enterprise/sso/saml_duo/",
-    "to": "/docs/administration/sso/saml-duo/"
+    "to": "/docs/administration/sso/duo/"
   },
   {
     "from": "/docs/postman_enterprise/sso/saml_gsuite/",
-    "to": "/docs/administration/sso/saml-gsuite/"
+    "to": "/docs/administration/sso/google-workspace/"
   },
   {
     "from": "/docs/postman_enterprise/sso/saml_in_azure_ad/",
-    "to": "/docs/administration/sso/saml-in-azure-ad/"
+    "to": "/docs/administration/sso/azure-ad/"
   },
   {
     "from": "/docs/postman_enterprise/sso/saml_okta/",
@@ -1501,11 +1501,11 @@
   },
   {
     "from": "/docs/postman_enterprise/sso/saml_onelogin/",
-    "to": "/docs/administration/sso/saml-onelogin/"
+    "to": "/docs/administration/sso/onelogin/"
   },
   {
     "from": "/docs/postman_enterprise/sso/saml_ping/",
-    "to": "/docs/administration/sso/saml-ping/"
+    "to": "/docs/administration/sso/ping-identity/"
   },
   {
     "from": "/docs/postman_enterprise/sso/user_sso/",
@@ -1521,15 +1521,15 @@
   },
   {
     "from": "/docs/postman_for_publishers/api_network/api_submission_guidelines/",
-    "to": "/docs/publishing-your-api/api-submission-guidelines/"
+    "to": "/docs/publishing-your-api/authoring-your-documentation/"
   },
   {
     "from": "/docs/postman_for_publishers/postman_templates/add_templates/",
-    "to": "/docs/publishing-your-api/add-templates/"
+    "to": "/docs/publishing-your-api/authoring-your-documentation/"
   },
   {
     "from": "/docs/postman_for_publishers/postman_templates/template_guidelines/",
-    "to": "/docs/publishing-your-api/api-submission-guidelines/"
+    "to": "/docs/publishing-your-api/authoring-your-documentation/"
   },
   {
     "from": "/docs/postman_for_publishers/public_api_docs/",
@@ -1629,7 +1629,7 @@
   },
   {
     "from": "/docs/postman_pro/integrations/microsoft_flow/",
-    "to": "/docs/integrations/available-integrations/microsoft-flow/"
+    "to": "/docs/integrations/available-integrations/microsoft-power-automate/"
   },
   {
     "from": "/docs/postman_pro/integrations/microsoft_teams/",
@@ -1645,7 +1645,7 @@
   },
   {
     "from": "/docs/postman_pro/integrations/victorops/",
-    "to": "/docs/integrations/available-integrations/victorops/"
+    "to": "/docs/integrations/available-integrations/splunk-on-call/"
   },
   {
     "from": "/docs/postman_pro/integrations/webhooks/",
@@ -1881,7 +1881,7 @@
   },
   {
     "from": "/docs/getting-started/importing-templates/",
-    "to": "/docs/getting-started/exploring-public-api-network/"
+    "to": "/docs/getting-started/first-steps/exploring-public-api-network/"
   },
   {
     "from": "/docs/designing-and-developing-your-api/monitoring-your-api/faqs-monitors/",
@@ -1933,7 +1933,7 @@
   },
   {
     "from": "/docs/sending-requests/capturing-request-data/proxy/",
-    "to": "/docs/getting-started/proxy/"
+    "to": "/docs/getting-started/installation/proxy/"
   },
   {
     "from": "/docs/administration/managing-your-team/configuring-scim/",
@@ -2073,7 +2073,7 @@
   },
   {
     "from": "/docs/postman-flows/core-concepts/data-types/",
-    "to": "/docs/postman-flows/reference/data-types/"
+    "to": "/docs/postman-flows/reference/blocks-list/"
   },
   {
     "from": "/docs/postman-flows/running-flows-on-the-cloud/webhooks/",
@@ -2165,11 +2165,11 @@
   },
   {
     "from": "/docs/collaborating-in-postman/using-workspaces/conflicts/",
-    "to": "/docs/getting-started/syncing/"
+    "to": "/docs/getting-started/basics/syncing/"
   },
   {
     "from": "/docs/getting-started/using-offline-api-client/",
-    "to": "/docs/getting-started/using-api-client/"
+    "to": "/docs/getting-started/basics/using-api-client/"
   },
   {
     "from": "/docs/collaborating-in-postman/requesting-access-to-collections/",
