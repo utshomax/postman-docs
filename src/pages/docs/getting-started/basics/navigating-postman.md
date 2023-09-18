@@ -101,7 +101,7 @@ The Postman sidebar provides access to the fundamental elements of Postman:
 * [Environments](/docs/sending-requests/managing-environments/#creating-environments)
 * [Mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
 * [Monitors](/docs/monitoring-your-api/intro-monitors/)
-* [Flows](/docs/postman-flows/flows-intro/flows-overview/)
+* [Flows](/docs/postman-flows/gs/flows-overview/)
 * [History](#history)
 
 <img alt="Sidebar focused on Collections" src="https://assets.postman.com/postman-docs/v10/navigating-postman-sidebar-v10.14.jpg" width="350px"/>
