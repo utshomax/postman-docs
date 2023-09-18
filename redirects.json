@@ -9,11 +9,11 @@
   },
   {
     "from": "/concepts/",
-    "to": "/docs/getting-started/introduction/"
+    "to": "/docs/introduction/overview/"
   },
   {
     "from": "/docs/",
-    "to": "/docs/getting-started/introduction/"
+    "to": "/docs/introduction/overview/"
   },
   {
     "from": "/docs/administration/",
@@ -85,11 +85,11 @@
   },
   {
     "from": "/docs/getting-started/",
-    "to": "/docs/getting-started/introduction/"
+    "to": "/docs/introduction/overview/"
   },
   {
     "from": "/docs/getting_started/",
-    "to": "/docs/getting-started/introduction/"
+    "to": "/docs/introduction/overview/"
   },
   {
     "from": "/docs/integrations/",
@@ -653,11 +653,11 @@
   },
   {
     "from": "/docs/postman/collections/commenting-on-collections/",
-    "to": "/docs/collaborating-in-postman/commenting-on-collections/"
+    "to": "/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/"
   },
   {
     "from": "/docs/postman/collections/commenting_on_collections/",
-    "to": "/docs/collaborating-in-postman/commenting-on-collections/"
+    "to": "/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/"
   },
   {
     "from": "/docs/postman/collections/creating-collections/",
@@ -889,11 +889,11 @@
   },
   {
     "from": "/docs/postman/find-replace/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/find_replace/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/launching-postman/collaboration/",
@@ -901,31 +901,31 @@
   },
   {
     "from": "/docs/postman/launching-postman/creating-the-first-collection/",
-    "to": "/docs/getting-started/creating-the-first-collection/"
+    "to": "/docs/getting-started/first-steps/creating-the-first-collection/"
   },
   {
     "from": "/docs/postman/launching-postman/installation-and-updates/",
-    "to": "/docs/getting-started/installation-and-updates/"
+    "to": "/docs/getting-started/installation/installation-and-updates/"
   },
   {
     "from": "/docs/postman/launching-postman/introduction/",
-    "to": "/docs/getting-started/introduction/"
+    "to": "/docs/introduction/overview/"
   },
   {
     "from": "/docs/postman/launching-postman/keyboard-shortcuts/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/launching-postman/navigating-postman/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/launching-postman/newbutton/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/launching-postman/postman-account/",
-    "to": "/docs/getting-started/postman-account/"
+    "to": "/docs/getting-started/installation/postman-account/"
   },
   {
     "from": "/docs/postman/launching-postman/sending-the-first-request/",
@@ -949,31 +949,31 @@
   },
   {
     "from": "/docs/postman/launching_postman/creating_the_first_collection/",
-    "to": "/docs/getting-started/creating-the-first-collection/"
+    "to": "/docs/getting-started/first-steps/creating-the-first-collection/"
   },
   {
     "from": "/docs/postman/launching_postman/installation_and_updates/",
-    "to": "/docs/getting-started/installation-and-updates/"
+    "to": "/docs/getting-started/installation/installation-and-updates/"
   },
   {
     "from": "/docs/postman/launching_postman/introduction/",
-    "to": "/docs/getting-started/introduction/"
+    "to": "/docs/introduction/overview/"
   },
   {
     "from": "/docs/postman/launching_postman/keyboard_shortcuts/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/launching_postman/navigating_postman/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/launching_postman/newbutton/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/launching_postman/postman_account/",
-    "to": "/docs/getting-started/postman-account/"
+    "to": "/docs/getting-started/installation/postman-account/"
   },
   {
     "from": "/docs/postman/launching_postman/sending_the_first_request/",
@@ -1213,7 +1213,7 @@
   },
   {
     "from": "/docs/postman/sending-api-requests/history/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/sending-api-requests/interceptor-extension/",
@@ -1253,7 +1253,7 @@
   },
   {
     "from": "/docs/postman/sending-api-requests/working-with-tabs/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/sending_api_requests/authorization/",
@@ -1285,7 +1285,7 @@
   },
   {
     "from": "/docs/postman/sending_api_requests/history/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/sending_api_requests/interceptor/",
@@ -1325,7 +1325,7 @@
   },
   {
     "from": "/docs/postman/sending_api_requests/working_with_tabs/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/team-library/activity-feed-and-restoring-collections/",
@@ -1797,15 +1797,15 @@
   },
   {
     "from": "/getting-started/",
-    "to": "/docs/getting-started/introduction/"
+    "to": "/docs/introduction/overview/"
   },
   {
     "from": "/getting_started/",
-    "to": "/docs/getting-started/introduction/"
+    "to": "/docs/introduction/overview/"
   },
   {
     "from": "/qa/",
-    "to": "/docs/getting-started/introduction/"
+    "to": "/docs/introduction/overview/"
   },
   {
     "from": "/reference/",
@@ -2161,7 +2161,7 @@
   },
   {
     "from": "/docs/postman/launching_postman/installation_and_updates/%E3%80%82",
-    "to": "/docs/getting-started/installation-and-updates/"
+    "to": "/docs/getting-started/installation/installation-and-updates/"
   },
   {
     "from": "/docs/collaborating-in-postman/using-workspaces/conflicts/",
