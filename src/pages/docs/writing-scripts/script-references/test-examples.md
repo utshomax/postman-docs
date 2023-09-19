@@ -355,7 +355,7 @@ pm.expect({a: 1, b: 2}).to.have.all.keys('a', 'b');
 pm.expect({a: 1, b: 2}).to.have.any.keys('a', 'b');
 pm.expect({a: 1, b: 2}).to.not.have.any.keys('c', 'd');
 pm.expect({a: 1}).to.have.property('a');
-pm.expect({a: 1, b: 2}).to.be.an('object')
+pm.expect({a: 1, b: 2}).to.be.a('object')
   .that.has.all.keys('a', 'b');
 ```
 
