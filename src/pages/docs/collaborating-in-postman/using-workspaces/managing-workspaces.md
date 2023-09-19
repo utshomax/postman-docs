@@ -166,7 +166,7 @@ To change the role of people in a workspace, or to remove someone from a workspa
 
 > **[Tagging workspaces is available on Postman Enterprise plans.](https://www.postman.com/pricing/)** You can apply shared tags to workspaces, collections, and APIs. Tags must be between two and 64 alphanumeric characters, starting with an alphabetic character, and contain only dashes and no spaces. You can add up to five tags.
 
-Add shared tags to workspaces lets you organize and search for workspaces.
+Adding shared tags to workspaces enables you to organize and search for workspaces.
 
 Once you add tags to the workspace, you can select a tag to open search results associated with the tag in a new tab.
 
