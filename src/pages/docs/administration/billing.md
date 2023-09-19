@@ -53,7 +53,7 @@ For help with any account or billing issues, go to Postman's [Support Center](ht
 
         * [Billing for Auto-Flex](#billing-for-auto-flex)
 
-* [Managing solution access](#managing-solution-access)
+* [Manage Enterprise Solutions](#manage-enterprise-solutions)
 
 * [Canceling your plan](#canceling-your-plan)
 
@@ -263,16 +263,20 @@ In your [billing dashboard](http://go.postman.co/billing), you can view:
 
 > [Contact Postman support](https://www.postman.com/support/) with any questions about Auto-Flex.
 
-## Managing solution access
+## Manage Enterprise Solutions
 
 > **[Enterprise Solutions are available for Enterprise Essentials plans.](https://www.postman.com/pricing)**
 
-As a Team Admin, you can manage solution access of your team members from your [Product Access](https://go.postman.co/settings/team/products-access) page. To learn more about the added capabilities of each solution, visit [Enterprise Solutions](https://www.postman.com/pricing/).
+<!-- As a Team Admin, you can manage solution access of your team members from your [Product Access](https://go.postman.co/settings/team/products-access) page. To learn more about the added capabilities of each solution, see [Enterprise Solutions](https://www.postman.com/pricing/#enterprise-solutions).
 
 * To add Team members to a solution, select **Add Members** and select users.
 * To remove Team members from a solution, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to a user.
 
-> [Auto-Flex](#using-auto-flex) enables your team to add more Team members without having to pay upfront. Newly added members to the Team and the solutions will be billed in the next Auto-Flex cycle.
+> [Auto-Flex](#using-auto-flex) enables your team to add more Team members without having to pay upfront. Newly added members to the Team and the solutions will be billed in the next Auto-Flex cycle. -->
+
+As a Team Admin, you can purchase Enterprise Solutions for your Enterprise Essentials plan. You can add team members to a solution, giving them additional permissions in your team. Open your [billing dashboard](https://go.postman.co/billing/overview) and select **Edit Plan** on the right. Select **Add to plan** next to the solution you want to purchase.
+
+To learn more about the added capabilities of each solution, see [Enterprise Solutions](https://www.postman.com/pricing/#enterprise-solutions).
 
 ## Canceling your plan
 
