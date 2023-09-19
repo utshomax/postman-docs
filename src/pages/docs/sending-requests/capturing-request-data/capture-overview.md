@@ -1,6 +1,6 @@
 ---
 title: "Capturing request data overview"
-updated: 2023-08-14
+updated: 2023-09-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -41,9 +41,9 @@ If you start a proxy session while the proxy is enabled, Postman can capture any
 
 To capture requests using the Postman proxy, view the instructions for your operating system and Postman version:
 
-* If you're on macOS and using Postman v10.17 or later, go to [Capturing requests with the Postman proxy](/docs/sending-requests/capturing-request-data/capture-with-proxy/).
+* If you're on macOS (Postman v10.17 or later) or Windows (Postman v10.18 or later), go to [Capturing requests with the Postman proxy](/docs/sending-requests/capturing-request-data/capture-with-proxy/).
 
-* If you're on Window or Linux, or if you're using Postman v10.16 or earlier, go to [Capturing HTTP requests](/docs/sending-requests/capturing-request-data/capturing-http-requests/).
+* If you're on Linux (all Postman versions), macOS (Postman v10.16 or earlier), or Windows (v10.17 or earlier), go to [Capturing HTTP requests](/docs/sending-requests/capturing-request-data/capturing-http-requests/).
 
 * To capture secure HTTPS traffic from a client device like a phone, you need to install the Postman security certificate on the device. To learn more, go to [Capturing HTTPS traffic](/docs/sending-requests/capturing-request-data/capturing-https-traffic/).
 
