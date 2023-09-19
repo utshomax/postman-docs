@@ -97,7 +97,7 @@ class IndexPage extends React.Component {
                     title="Get started with Postman"
                     description="Send your first API request in Postman in just a few clicks!"
                     cta="Send a request"
-                    link="/docs/getting-started/sending-the-first-request/"
+                    link="/docs/getting-started/first-steps/sending-the-first-request/"
                     icon="https://voyager.postman.com/icon/spaceship-rocket-launch-icon-postman.svg"
                   />
                 </div>
