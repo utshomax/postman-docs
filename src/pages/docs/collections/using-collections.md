@@ -1,6 +1,6 @@
 ---
 title: "Using collections"
-updated: 2023-09-19
+updated: 2023-04-10
 contextual_links:
   - type: section
     name: "Additional resources"
