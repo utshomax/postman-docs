@@ -169,6 +169,8 @@ For more examples of Visualizer code in action, add any of the following collect
 
     ![Map Visualizer](https://assets.postman.com/postman-docs/v10/visualizer-map-v10.jpg)
 
+> <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> You can see data visualizations in action in a sample collection template. To try out this template, select [Data visualization](https://postman.postman.co/workspace/6311738d-2e70-441f-ae12-78caf078c5b7/collection/22517504-c9e72d75-ded7-4135-a721-5d59ddda6d59?action=share&creator=24552533).
+
 ## Visualizer API
 
 You can access the Visualizer from the [Postman API](/docs/writing-scripts/script-references/postman-sandbox-api-reference/). The `pm.visualizer.set()` method takes three parameters:

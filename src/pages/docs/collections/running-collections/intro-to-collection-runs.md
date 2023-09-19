@@ -180,3 +180,5 @@ In addition to running collections manually, the Collection Runner enables you t
 Use the Collection Runner fundamentals you've learned to extend its functionality with workflows.
 
 * To learn how to use scripts to build workflows with conditional sequences for running the requests in your collections, visit [Building request workflows](/docs/collections/running-collections/building-workflows/).
+
+> <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> See how an integration test can ensure that all individual components of an API function together seamlessly. To try out this template, select [Integration testing](https://postman.postman.co/workspace/6311738d-2e70-441f-ae12-78caf078c5b7/collection/22517504-fe506090-ca91-4340-bea9-82d2c3d2bb9a?action=share&creator=24552533).

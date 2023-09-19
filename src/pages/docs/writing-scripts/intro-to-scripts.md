@@ -88,6 +88,8 @@ If you created log statements in the pre-request and test script sections for th
 
 The [Postman Sandbox](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) is a JavaScript execution environment that's available to you while writing pre-request and test scripts for requests (both in Postman and Newman). Whatever code you write in these sections is executed in this sandbox.
 
+> <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> You can build conditional workflows using a collection, and branch and loop over a set of requests. To try out this collection template, select [Conditional workflow](https://postman.postman.co/workspace/6311738d-2e70-441f-ae12-78caf078c5b7/collection/22517504-78475d97-9a36-4731-ab24-9adf6a94d0fb?action=share&creator=24552533).
+
 ## Debugging scripts
 
 Debugging scripts can be written under either the **Pre-request Script** tab or the **Tests** tab, with helpful messages logged in the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/).

@@ -60,6 +60,8 @@ To add tests to a request, open the request and enter your code in the **Tests**
 
 ![Request Test Tab](https://assets.postman.com/postman-docs/request-test-tab-v9.jpg)
 
+> <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> See how to work with the Postman basic test syntax to test a single HTTP API request in a sample collection template. To try out this template, select [API testing basics](https://postman.postman.co/workspace/6311738d-2e70-441f-ae12-78caf078c5b7/collection/22517504-e9a37a28-055b-49cd-8c7e-97494a21eb54?action=share&creator=24552533).
+
 ### Adding tests to gRPC requests
 
 1. Go to the **Scripts** tab in your gRPC request.
