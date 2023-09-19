@@ -1,6 +1,8 @@
 const fs = require('fs');
 const sh = require('shelljs');
 const crypto = require('crypto');
+const fetch = require('node-fetch');
+const path = require("path");
 const { allow } = require('./package.json');
 const bffData = require('./build/bffData');
 
@@ -9,6 +11,22 @@ const delay = 1000;
 const runtime = {
   pm: [''],
 };
+
+function cacheCdn(url, name) {
+  sh.exec('mkdir -p public');
+
+  fetch(url).then((res) => {
+    res.text().then((resp) => {
+      if (resp) {
+        fs.writeFile(path.join('public', `${name}.js`), resp, (err) => {
+          if (err) {
+            throw err;
+          }
+        });
+      }
+    });
+  })
+}
 
 if (process.env.PM_TECH) {
   sh.exec('mkdir -p public');
@@ -72,12 +90,7 @@ const prefetch = async () => {
   }
 
   const UACode = 'G-CX7P9K6W67';
-  const GTMCode = 'GTM-M42M5N';
-  const googleTagManager = `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','${GTMCode}');`;
+  const GCode = UACode;
 
   const script = (process.env.PM_TECH_RT
       && `
@@ -100,17 +113,26 @@ setTimeout(function(){
     window.pmt('log', ['navigator.doNotTrack: ' + dnt]);
 
     if(!dnt) {
-      ${googleTagManager}
-      window.pmt('log', ['attached googletagmanager: ' + '${GTMCode}']);
+      load('/_ga.js');
+      load('/_gtag.js');
+
       var d = 1000, int;
       var int = setInterval(function(){
         if (window.ga) {
+          window.pmt('set', ['ga', function(){
+            if (typeof window.ga === 'function') {
+              window.ga.apply(this, arguments);
+            }
+            return window.ga;
+          }]);
+
           var sitename = document.location.hostname;
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           window.gtag = gtag;
           gtag('js', new Date());
-          gtag('config', '${UACode}');
+          gtag('config', '${GCode}'); // UACode & GCode are the same
+          window.pmt('log', ['[gtag] config: ${GCode}']);
           window.pmt('ga', ['${UACode}', sitename]);
           window.pmt('log', ['initialized GA: ' + sitename + ' (' + '${UACode}' + ')']);
           window._iaq = window._iaq || {};
@@ -120,6 +142,21 @@ setTimeout(function(){
     }
   }
 }, 1000);
+
+function load(src, cb) {
+   var e = document.createElement('script');
+   e.src = src;
+   e.async = true;
+   e.onreadystatechange = function(){
+     if (this.readyState === 'complete' || this.readyState === 'loaded') {
+       if (typeof cb === 'function') {
+         cb();
+       }
+     }
+   };
+   e.onload = cb;
+   document.head.appendChild(e);
+ }
 `)
 || `
   console.info('Postman OSS');
@@ -129,6 +166,9 @@ setTimeout(function(){
     if (err) {
       throw err;
     }
+
+    cacheCdn('https://www.google-analytics.com/analytics.js', '_ga');
+    cacheCdn('https://www.googletagmanager.com/gtag/js', '_gtag');
   });
 };
 
