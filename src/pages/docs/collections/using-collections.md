@@ -188,7 +188,7 @@ To share a collection with other users, you can:
 
 > **[Tagging collections is available on Postman Enterprise plans.](https://www.postman.com/pricing/)** You can apply shared tags to workspaces, collections, and APIs. Tags must be between two and 64 alphanumeric characters, starting with an alphabetic character, and contain only dashes and no spaces. You can add up to five tags.
 
-Adding tags to collections lets you organize and search for collections.
+Adding shared tags to collections enables you to organize and search for collections.
 
 Once you add tags to the collection, you can select a tag to open search results associated with the tag in a new tab.
 
