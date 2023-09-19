@@ -1,11 +1,11 @@
 [
   {
     "from": "/docs/postman-flows/flows-intro/chaining-requests-with-data/",
-    "to": "/docs/postman-flows/tutorials/passing-data-between-blocks/"
+    "to": "/docs/postman-flows/tutorials/send-information-from-one-system-to-another/"
   },
   {
     "from": "/docs/postman-flows/flows-intro/passing-data-between-blocks/",
-    "to": "/docs/postman-flows/tutorials/passing-data-between-blocks/"
+    "to": "/docs/postman-flows/tutorials/send-information-from-one-system-to-another/"
   },
   {
     "from": "/concepts/",
@@ -21,11 +21,11 @@
   },
   {
     "from": "/docs/administration/migrating_to_v7/",
-    "to": "/docs/administration/updating/"
+    "to": "/docs/getting-started/installation/installation-and-updates/"
   },
   {
     "from": "/docs/administration/upgrading-to-v8/",
-    "to": "/docs/administration/updating/"
+    "to": "/docs/getting-started/installation/installation-and-updates/"
   },
   {
     "from": "/docs/administration/sso/",
@@ -385,7 +385,7 @@
   },
   {
     "from": "/docs/postman-pro/managing-pro/migrating-to-v7/",
-    "to": "/docs/administration/updating/"
+    "to": "/docs/getting-started/installation/installation-and-updates/"
   },
   {
     "from": "/docs/postman-pro/managing-pro/purchasing-pro/",
@@ -789,7 +789,7 @@
   },
   {
     "from": "/docs/postman/design-and-develop-apis/versioning-an-api/",
-    "to": "/docs/designing-and-developing-your-api/versioning-an-api/"
+    "to": "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
   },
   {
     "from": "/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/",
@@ -821,11 +821,11 @@
   },
   {
     "from": "/docs/postman/design_and_develop_apis/versioning_an_api/",
-    "to": "/docs/designing-and-developing-your-api/versioning-an-api/"
+    "to": "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
   },
   {
     "from": "/docs/collaborating-in-postman/versioning-an-api/",
-    "to": "/docs/designing-and-developing-your-api/versioning-an-api/"
+    "to": "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
   },
   {
     "from": "/docs/postman/design_and_develop_apis/view_and_analyze_api_reports/",
@@ -929,7 +929,7 @@
   },
   {
     "from": "/docs/postman/launching-postman/sending-the-first-request/",
-    "to": "/docs/getting-started/sending-the-first-request/"
+    "to": "/docs/getting-started/first-steps/sending-the-first-request/"
   },
   {
     "from": "/docs/postman/launching-postman/settings/",
@@ -977,7 +977,7 @@
   },
   {
     "from": "/docs/postman/launching_postman/sending_the_first_request/",
-    "to": "/docs/getting-started/sending-the-first-request/"
+    "to": "/docs/getting-started/first-steps/sending-the-first-request/"
   },
   {
     "from": "/docs/postman/launching_postman/settings/",
@@ -1209,7 +1209,7 @@
   },
   {
     "from": "/docs/postman/sending-api-requests/graphql/",
-    "to": "/docs/sending-requests/graphql/graphql/"
+    "to": "/docs/sending-requests/graphql/graphql-overview/"
   },
   {
     "from": "/docs/postman/sending-api-requests/history/",
@@ -1281,7 +1281,7 @@
   },
   {
     "from": "/docs/postman/sending_api_requests/graphql/",
-    "to": "/docs/sending-requests/graphql/graphql/"
+    "to": "/docs/sending-requests/graphql/graphql-overview/"
   },
   {
     "from": "/docs/postman/sending_api_requests/history/",
@@ -1497,7 +1497,7 @@
   },
   {
     "from": "/docs/postman_enterprise/sso/saml_okta/",
-    "to": "/docs/administration/sso/saml-okta/"
+    "to": "/docs/administration/sso/okta/"
   },
   {
     "from": "/docs/postman_enterprise/sso/saml_onelogin/",
@@ -1657,7 +1657,7 @@
   },
   {
     "from": "/docs/postman_pro/managing_postman_pro/migrating_to_v7/",
-    "to": "/docs/administration/updating/"
+    "to": "/docs/getting-started/installation/installation-and-updates/"
   },
   {
     "from": "/docs/postman_pro/managing_postman_pro/roles_and_permissions/",
@@ -1693,7 +1693,7 @@
   },
   {
     "from": "/docs/postman_pro/managing_pro/migrating_to_v7/",
-    "to": "/docs/administration/updating/"
+    "to": "/docs/getting-started/installation/installation-and-updates/"
   },
   {
     "from": "/docs/postman_pro/managing_pro/purchasing_pro/",
@@ -1761,7 +1761,7 @@
   },
   {
     "from": "/docs/sending-requests/supported-api-frameworks/",
-    "to": "/docs/sending-requests/graphql/graphql/"
+    "to": "/docs/sending-requests/graphql/graphql-overview/"
   },
   {
     "from": "/docs/sending_and_viewing_responses/responses/",
@@ -1777,7 +1777,7 @@
   },
   {
     "from": "/docs/sending_requests/supported_api_frameworks/",
-    "to": "/docs/sending-requests/graphql/graphql/"
+    "to": "/docs/sending-requests/graphql/graphql-overview/"
   },
   {
     "from": "/docs/writing-scripts/",
@@ -1817,7 +1817,7 @@
   },
   {
     "from": "/docs/administration/migrating-to-v7/",
-    "to": "/docs/administration/updating/"
+    "to": "/docs/getting-started/installation/installation-and-updates/"
   },
   {
     "from": "/docs/administration/managing-your-team/",
@@ -1869,7 +1869,7 @@
   },
   {
     "from": "/docs/api-security/token-scanner/",
-    "to": "/docs/administration/token-scanner/"
+    "to": "/docs/administration/secret-scanner/"
   },
   {
     "from": "/docs/api-governance/api-testing/",
@@ -1973,7 +1973,7 @@
   },
   {
     "from": "/docs/administration/upgrading/",
-    "to": "/docs/administration/updating/"
+    "to": "/docs/getting-started/installation/installation-and-updates/"
   },
   {
     "from": "/docs/collaborating-in-postman/commenting-on-collections/",
@@ -1985,7 +1985,11 @@
   },
   {
     "from": "/docs/sending-requests/supported-api-frameworks/graphql/",
-    "to": "/docs/sending-requests/graphql/graphql/"
+    "to": "/docs/sending-requests/graphql/graphql-overview/"
+  },
+  {
+    "from": "/docs/sending-requests/graphql/graphql/",
+    "to": "/docs/sending-requests/graphql/graphql-overview/"
   },
   {
     "from": "/docs/sending-requests/supported-api-frameworks/websocket/",
@@ -2057,11 +2061,11 @@
   },
   {
     "from": "/docs/postman-flows/core-concepts/blocks/",
-    "to": "/docs/postman-flows/flows-intro/flows-overview/"
+    "to": "/docs/postman-flows/gs/flows-overview/"
   },
   {
     "from": "/docs/postman-flows/core-concepts/messages/",
-    "to": "/docs/postman-flows/flows-intro/flows-overview/"
+    "to": "/docs/postman-flows/gs/flows-overview/"
   },
   {
     "from": "/docs/postman-flows/core-concepts/blocks-list/",
@@ -2205,7 +2209,11 @@
   },
   {
     "from": "/docs/postman-flows/tutorials/creating-charts-tables-and-output/",
-    "to": "/docs/postman-flows/tutorials/visualizing-data/"
+    "to": "/docs/postman-flows/reference/visualizing-data/"
+  },
+  {
+    "from": "/docs/postman-flows/tutorials/visualizing-data/",
+    "to": "/docs/postman-flows/reference/visualizing-data/"
   },
   {
     "from": "/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/",
@@ -2306,5 +2314,9 @@
   {
     "from": "/docs/postman-flows/tutorials/webhooks/",
     "to": "/docs/postman-flows/concepts/automatic-runs/"
+  },
+  {
+    "from": "/docs/administration/token-scanner/",
+    "to": "/docs/administration/secret-scanner/"
   }
 ]

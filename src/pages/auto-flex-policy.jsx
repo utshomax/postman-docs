@@ -110,18 +110,18 @@ class AutoFlexPolicyPage extends React.Component {
               </p>
               <p>Here&#39;s an example of an annual plan:</p>
               <p className="font-italic">
-                Your workspace is on the Basic plan and you&#39;re paying annually&mdash;$144 per User
+                Your workspace is on the Basic plan and you&#39;re paying annually&mdash;$168 per User
                 per year. Your &quot;auto-flex&quot; billing cycle happens at the end of every
                 quarter of your annual Subscription Term. You add 4 new Users two months into your
                 billing cycle. You deprovision 2 Users before the next regular billing date (i.e.
                 the end of the third month of your annual Subscription Term). You will be charged
                 for the 2 incremental Users you added during the preceding three month period and
                 retained as of the billing date, at the prorated price for the remaining nine months
-                of your annual Subscription Term (i.e. $216 total).
+                of your annual Subscription Term (i.e. $252 total).
               </p>
               <p className="alert alert-info font-weight-bold text-dark ">
                 Paying by annual invoice? We invoice you for a set number of Users for the full
-                year. If your team grows larger than anticipated, we’ll send you an invoice once per
+                year. If your team grows larger than anticipated, we'll send you an invoice once per
                 quarter to settle any outstanding balances.
               </p>
               <h2 id="credit-card-charges">Credit card charges</h2>

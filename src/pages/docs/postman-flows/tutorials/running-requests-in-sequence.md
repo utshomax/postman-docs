@@ -22,7 +22,7 @@ contextual_links:
     url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
 ---
 
-If you have several requests that have no dependency on each other but have to be executed in a particular order, you can use send events to connect your [blocks](/docs/postman-flows/core-concepts/blocks/).
+If you have several requests that have no dependency on each other but have to be executed in a particular order, you can use send events to connect your [blocks](/docs/postman-flows/gs/flows-overview/).
 
 > Check out the example flow: [Chaining requests](https://www.postman.com/postman/workspace/flows-snippets/flow/6267f9315d367a64e7ba06e5)
 
@@ -44,4 +44,4 @@ If you have several requests that have no dependency on each other but have to b
 
    <img src="https://assets.postman.com/postman-docs/v10/flows-run-requests-v10-1.gif" alt="Start the flow" fetchpriority="low" loading="lazy" />
 
-If you want to use data from one request in another request, you can learn how to do so in [Passing data between blocks](/docs/postman-flows/tutorials/passing-data-between-blocks/).
+If you want to use data from one request in another request, you can learn how to do so in [Send information from one system to another](/docs/postman-flows/tutorials/send-information-from-one-system-to-another/).
