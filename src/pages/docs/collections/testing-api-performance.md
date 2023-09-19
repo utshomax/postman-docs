@@ -92,7 +92,7 @@ Attempting to simulate a higher number of virtual users may cause inaccurate met
 
 During a performance test, all requests are sent from your computer where you are running the Postman desktop app. The **Summary** tab displays performance metrics in real time so you can observe how your API performs under load.
 
-<img alt="Viewing performance metrics" src="https://assets.postman.com/postman-docs/v10/performance-test-graph-v10-17.jpg"/>
+<img alt="Viewing performance metrics" src="https://assets.postman.com/postman-docs/v10/performance-test-graph-v10-18a.jpg"/>
 
 You can view the following information about the performance test:
 
@@ -108,13 +108,10 @@ From the **Summary** tab, you can take the following actions:
 
 * Select **Stop** to stop the performance test.
 * Select **Run Again** to configure and start the performance test again.
-* Select **All Runs** to view a list of all past performance runs for the collection.
-* Select the share icon <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> to share the performance report with others on your team:
-
-    * Select **Share Link** to get a link to the performance report you can share with your teammates. Select **Copy Link** to copy the link to your clipboard.
-    * Select **Export PDF** or **Export HTML** to download a copy of the performance report in PDF or HTML format. The report shows response time and throughput, slowest requests, requests with the most errors, metrics for each request, and a list of errors.
-
-* Select the name of a request to open the request.
+* To get a link to the performance report, select the share icon <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px">. Select **Copy Link** to copy the link to your clipboard. You can share the link with your teammates so they can view the results of the performance test.
+* To download a copy of the performance report in PDF or HTML format, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and select **Export PDF report** or **Export HTML report**. The report shows response time and throughput, slowest requests, requests with the most errors, metrics for each request, and a list of errors.
+* To view a list of all past performance runs for the collection, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and select **View all runs**.
+* To open a request, select the name of a request.
 
 ### Customizing the performance view
 
@@ -167,7 +164,7 @@ You can view error trends after the performance test is complete. The error tren
 
 To view error trends, select the **Errors** tab. You can also select the **Error rate** on the **Summary** tab and select **View Error Trends**.
 
-<img alt="Viewing error trends" src="https://assets.postman.com/postman-docs/v10/performance-test-errors-graph-v10-17.jpg"/>
+<img alt="Viewing error trends" src="https://assets.postman.com/postman-docs/v10/performance-test-errors-graph-v10-18a.jpg"/>
 
 You can view the following information about the error trends:
 
