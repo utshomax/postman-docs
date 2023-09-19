@@ -1,6 +1,6 @@
 ---
 title: "Using and managing workspaces"
-updated: 2023-09-19
+updated: 2023-05-31
 contextual_links:
   - type: section
     name: "Additional resources"
