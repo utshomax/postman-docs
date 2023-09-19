@@ -10,7 +10,7 @@ sh.exec("mkdir -p bff-data")
 sh.config.silent = false
 
 const TIME = new Date().getTime()
-const api = process.env.MKAPI_URL || null
+const api = process.env.MKAPI_URL || 'https://www.postman.com/mkapi'
 const url = `${api}/worker.json?${TIME}`
 
 const bffData = () =>

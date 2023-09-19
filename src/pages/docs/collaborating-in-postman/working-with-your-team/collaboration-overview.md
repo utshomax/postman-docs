@@ -55,7 +55,7 @@ When you sign up for Postman as an individual, you create a [Postman account](/d
 
 In certain cases, your personal workspaces and the data within them automatically transfer when you join a team. For more information, see [Joining a team](#joining-a-team).
 
-When you [leave a team](#leaving-a-team), a [Postman account](/docs/getting-started/installation/postman-account/) is created for you if you don't already have one. If you as a user are deactivated through SCIM and you are a member of other teams, you will still have access to your account and other teams you are a member of. If you are not a member of any other team and do not have an account, you will not be able to authenticate into that account, and will need to contact support.
+When you [leave a team](#leaving-a-team), a [Postman account](/docs/getting-started/installation/postman-account/) is created for you if you don't already have one. If you as a user are deactivated through SCIM and you are a member of other teams, you will still have access to your account and other teams you are a member of. If you aren't a member of any other team and don't have an account, you won't be able to authenticate into that account, and will need to contact support.
 
 ## Creating a team
 
@@ -110,7 +110,7 @@ If you belong to multiple teams, you can sign in to them at the same time with y
 
 If you're a member of two or more teams, you can also select **+ Create Team** to create a new team.
 
-If you have an account, switch to it by selecting your avatar in the top right. Then select your avatar and username labeled "Individual".
+If you have an account, switch to it by selecting your avatar in the top right. Then select your avatar and username labeled **Individual**.
 
 <img alt="Switch accounts" src="https://assets.postman.com/postman-docs/v10/individual-account-switcher-v10.jpg" width="350px">
 
@@ -139,20 +139,18 @@ If you're the last member to leave a team, the team will be deleted. You will no
 
 ## Team usage limits
 
-Your team's usage limits are based on your [plan type](https://www.postman.com/pricing/) and any [add-ons](/docs/administration/billing/#purchasing-add-ons) your team has purchased.
+Your team's usage limits are based on your [plan type](https://www.postman.com/pricing/) and any [add-ons](/docs/administration/billing/#purchasing-add-on-resources) your team has purchased.
 
-Open the Postman usage menu to review your team's limits for custom domains, image and file storage, and integrations.
+Open the [**Resource usage** dashboard](http://go.postman.co/billing/add-ons/overview) to see your team's usage of mock servers and monitors, APIs created, collection runner runs, image and file storage, flow requests, performance tests, integrations, and the Postman Cloud Agent. To open the **Resource usage** dashboard, do one of the following:
 
 * **Free users** - In the Postman header, select the menu next to **Upgrade**.
 * **Paid users** - In the Postman header, select **Team**.
-
-Select **Resource Usage** to view your usage period and detailed usage of mock servers, monitoring, custom domains, image and file storage, the Postman API, integrations, and the Postman Cloud Agent.
 
 > To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).
 
 <img src="https://assets.postman.com/postman-docs/team-dropdown-resource-usage-v9-25.jpg" alt="Team resource usage information" width="342px"/>
 
-Team members with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [purchase extra blocks](/docs/administration/billing/#purchasing-add-ons) of monitoring requests, mock server calls, and custom domains in the [billing dashboard](http://go.postman.co/billing).
+Team members with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [purchase extra blocks](/docs/administration/billing/#purchasing-add-on-resources) of monitoring requests, mock server calls, and custom domains in the [billing dashboard](http://go.postman.co/billing).
 
 ## Next steps
 

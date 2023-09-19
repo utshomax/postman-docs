@@ -71,7 +71,7 @@ The header enables you to create workspaces, access reports, explore the public 
 
 ### Search Postman
 
-To search in Postman, select __Search Postman__ in the header then enter your search terms. You can also use the keyboard shortcut **⌘+K** or **Ctrl+K**. To change the scope of your search to your personal or team space or the Public API Network, select **All of Postman** and choose the desired scope. You can also change the scope of your search to **Workspaces**, **Collections**, **Requests**, **APIs**, **Flows**, or **Teams**.
+To search in Postman, select __Search Postman__ in the header then enter your search terms. You can also use the keyboard shortcut **⌘+K** or **Ctrl+K**. To change the scope of your search, select the scope dropdown list to the left of the search bar. You can search all of Postman, your team, the [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/#search-for-elements-in-the-network), and the Public API Network. You can also specify the element type you'd like to search for, such as **Workspaces**, **Collections**, or **Teams**.
 
 You can search by tag names that team members have added to [collections](/docs/collections/using-collections/#tagging-a-collection), [APIs](/docs/designing-and-developing-your-api/managing-apis/#tagging-apis), and [workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#tagging-a-workspace) ([Enterprise plans only](https://www.postman.com/pricing)). To search by tag names, select __Search Postman__ in the header then enter your search using the `tag:tag-name` format. For example, if an API has the tag "production", enter `tag:production` to return the API in your search results.
 
@@ -101,7 +101,7 @@ The Postman sidebar provides access to the fundamental elements of Postman:
 * [Environments](/docs/sending-requests/managing-environments/#creating-environments)
 * [Mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
 * [Monitors](/docs/monitoring-your-api/intro-monitors/)
-* [Flows](/docs/postman-flows/flows-intro/flows-overview/)
+* [Flows](/docs/postman-flows/gs/flows-overview/)
 * [History](#history)
 
 <img alt="Sidebar focused on Collections" src="https://assets.postman.com/postman-docs/v10/navigating-postman-sidebar-v10.14.jpg" width="350px"/>
@@ -267,12 +267,14 @@ The footer on the bottom of Postman enables you to find and replace text, open t
 * <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Find and replace** - _(Postman desktop app only)_ Search the current workspace. You can also use the shortcuts **⌘+Shift+F** or **Ctrl+Shift+F**. Enter your search string then select **Find**. Limit your search to a specific element type by selecting **Collections**, **Environments**, **Globals**, or **Open tabs**. To replace your search term in a selected element, select **Replace in selected**.
 * <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** - [Inspect and debug](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) your Postman requests.
 
-<img alt="Postman footer right view" src="https://assets.postman.com/postman-docs/v10/navigating-postman-footer-right-v10-12.jpg" width="900px"/>
+<img alt="Postman footer right view" src="https://assets.postman.com/postman-docs/v10/navigating-postman-footer-right-v10-18.jpg" width="900px"/>
 
+* <img alt="Postbot icon" src="https://assets.postman.com/postman-docs/v10/icon-postbot-v10-16.jpg#icon" width="18px"> **Postbot** - Open the [Postbot](/docs/getting-started/basics/about-postbot/) AI assistant to ask questions and search for answers.
 * <img alt="Git branch icon" src="https://assets.postman.com/postman-docs/icon-source-control.jpg#icon" width="16px"/> **Git branch icon** - For [APIs using a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/), switch branches and open the **Source Control** pane.
-* <img alt="Cookies icon" src="https://assets.postman.com/postman-docs/icon-cookies.jpg#icon" width="16px"> **Cookies** - View, manage, and sync [cookies](/docs/sending-requests/cookies/).
-* <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** - Start a [Postman proxy or Interceptor session](/docs/sending-requests/capturing-request-data/capture-overview/).
 * <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Runner** - Open the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
+* **Select Postman Agent** - _(Postman web app only)_ Select which [Postman Agent](/docs/getting-started/basics/about-postman-agent/) is used: the Cloud Agent, Desktop Agent, Browser Agent, or auto-select an agent.
+* <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Start Proxy** - _(Postman desktop app only)_ Start the [Postman proxy](/docs/sending-requests/capturing-request-data/capture-overview/).
+* <img alt="Cookies icon" src="https://assets.postman.com/postman-docs/icon-cookies.jpg#icon" width="16px"> **Cookies** - View, manage, and sync [cookies](/docs/sending-requests/cookies/).
 * <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Trash** - Recover or permanently delete any deleted collections.
 * <img alt="Two pane view icon" src="https://assets.postman.com/postman-docs/icon-two-pane-v9.jpg#icon" width="16px"> **Two-pane view** - Toggle between a single pane view and a two pane view.
 * <img alt="Help icon" src="https://assets.postman.com/postman-docs/icon-help-v9.jpg#icon" width="16px"> **Help** - Access more resources, including release notes and Postman Support.
