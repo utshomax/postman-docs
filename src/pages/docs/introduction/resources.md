@@ -41,4 +41,4 @@ Explore [workspaces, collections, and more](https://www.postman.com/explore) tha
 
 ## Collection templates
 
-> <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> When you see a box like this in the Learning Center docs, it contains a link to a collection template. [Fork a copy](/docs/collaborating-in-postman/using-version-control/forking-entities/) to your workspace and try it out!
+> <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> When you see a box like this in the Learning Center docs, it contains a link to a collection template. Select **Use Template** on the overview page to copy it to your workspace and try it out!
