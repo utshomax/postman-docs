@@ -3,7 +3,7 @@ title: "Debug Flows"
 updated: 2023-08-15
 ---
 
-When building applications with any language (Flows included), sometimes things don't work as expected. _Debugging_ is the process of finding the source of the discrepancy between what the flow is doing, and what's expected. Fortunately, Flows has several built-in tools to help with debugging.
+When building applications with any language (Flows included), sometimes things don't work as expected. _Debugging_ is the process of finding the source of the discrepancy between what the Flow is doing, and what's expected. Fortunately, Flows has several built-in tools to help with debugging.
 
 ## Contents
 
@@ -26,7 +26,7 @@ The output block doesn't change the information that passes through it, which ma
 
 ### The console
 
-Every request and response is sent to the console, which keeps a history of events that happened in a flow. If something specific needs to be output to the console, use the **Log** block to send the information there. This can be especially useful when using loops because an **Output** block would show only the last item passed through it once the flow finished running.
+Every request and response is sent to the console, which keeps a history of events that happened in a Flow. If something specific needs to be output to the console, use the **Log** block to send the information there. This can be especially useful when using loops because an **Output** block would show only the last item passed through it once the Flow finished running.
 
 <img src="https://assets.postman.com/postman-labs-docs/concepts/console-logging.gif" alt="Console logging" fetchpriority="low" loading="lazy" />
 

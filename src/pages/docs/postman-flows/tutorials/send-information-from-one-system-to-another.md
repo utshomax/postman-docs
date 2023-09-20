@@ -20,11 +20,11 @@ Developers often integrate multiple APIs to leverage their individual features. 
 
 * [Goal](#goal)
 * [Prerequisites](#prerequisites)
-* [Creating the flow](#creating-the-flow)
+* [Creating the Flow](#creating-the-flow)
 
 ## Goal
 
-Create a flow that gets a list of customer profiles from [Stripe](http://www.stripe.com) and adds them as contacts to a database in [Brevo](http://www.brevo.com).
+Create a Flow that gets a list of customer profiles from [Stripe](http://www.stripe.com) and adds them as contacts to a database in [Brevo](http://www.brevo.com).
 
 ## Prerequisites
 
@@ -32,9 +32,9 @@ Create a flow that gets a list of customer profiles from [Stripe](http://www.str
 * At least 15 Stripe customers.
 * A [Brevo](http://www.brevo.com) account and API key.
 
-## Creating the flow
+## Creating the Flow
 
-The first step is to [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) (copy) the collections and the environment the flow will use, then add your API keys to the environment. You could create these requests, collections, and environment, but using existing ones saves time. From the [**Integration Flows** public workspace](https://www.postman.com/postman/workspace/integration-flows), fork the **Brevo API** collection, the **Stripe API** collection, and the **Stripe + Brevo** environment to your workspace.
+The first step is to [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) (copy) the collections and the environment the Flow will use, then add your API keys to the environment. You could create these requests, collections, and environment, but using existing ones saves time. From the [**Integration Flows** public workspace](https://www.postman.com/postman/workspace/integration-flows), fork the **Brevo API** collection, the **Stripe API** collection, and the **Stripe + Brevo** environment to your workspace.
 
 > Creating requests is beyond the scope of this tutorial, but you can learn more about creating requests [here](/docs/getting-started/first-steps/sending-the-first-request/).
 
@@ -42,11 +42,11 @@ The collections contain the requests that will get all the customer profiles fro
 
 <img alt="Fork the collections and environment" src="https://assets.postman.com/postman-docs/v10/flows-tut-system-fork-v10.gif" fetchpriority="low" loading="lazy"/>
 
-Create a new flow and add a **Send Request** block, then add a GET request by selecting **Select a request > Stripe API > Customers > List all customers**. Select **Add environment > Stripe + Brevo**. The **Send Request** block shows three variables, provided by the GET request. The `baseUrl` and `stripe_secret_key` variables are populated automatically from values stored in the request’s collection and environment. You can hover over them to see their values and scope. For the `limit` variable, enter `5` to specify how many contacts to include in each page of results. This tutorial uses 15 contacts, so a limit of 5 will send three pages of results.
+Create a new Flow and add a **Send Request** block, then add a GET request by selecting **Select a request > Stripe API > Customers > List all customers**. Select **Add environment > Stripe + Brevo**. The **Send Request** block shows three variables, provided by the GET request. The `baseUrl` and `stripe_secret_key` variables are populated automatically from values stored in the request’s collection and environment. You can hover over them to see their values and scope. For the `limit` variable, enter `5` to specify how many contacts to include in each page of results. This tutorial uses 15 contacts, so a limit of 5 will send three pages of results.
 
-<img alt="Create a new flow" src="https://assets.postman.com/postman-docs/v10/flows-tut-system-first-sr-v10.gif" fetchpriority="low" loading="lazy"/>
+<img alt="Create a new Flow" src="https://assets.postman.com/postman-docs/v10/flows-tut-system-first-sr-v10.gif" fetchpriority="low" loading="lazy"/>
 
-Connect the **Send Request** block’s **Success** output to a **Select** block to check the response’s `has_more` field, which is `true` or `false`. If this field’s value is `true`, then there is another page of results to be sent. If it’s `false`, the flow has reached the end of the customer contacts list.
+Connect the **Send Request** block’s **Success** output to a **Select** block to check the response’s `has_more` field, which is `true` or `false`. If this field’s value is `true`, then there is another page of results to be sent. If it’s `false`, the Flow has reached the end of the customer contacts list.
 
 <img alt="Select body.has_more" src="https://assets.postman.com/postman-docs/v10/flows-tut-select-has_more-v10.gif" fetchpriority="low" loading="lazy"/>
 
@@ -80,6 +80,6 @@ Connect the **For** block’s **Item** output to the `email` and `first_name` va
 
 <img alt="Set variables" src="https://assets.postman.com/postman-docs/v10/flows-tut-email-name-v10.gif" fetchpriority="low" loading="lazy"/>
 
-Run the flow and confirm the records are added to Brevo.
+Run the Flow and confirm the records are added to Brevo.
 
-<img alt="Run the flow and verify contacts" src="https://assets.postman.com/postman-docs/v10/flows-tut-run-contacts-v10.gif" fetchpriority="low" loading="lazy"/>
+<img alt="Run the Flow and verify contacts" src="https://assets.postman.com/postman-docs/v10/flows-tut-run-contacts-v10.gif" fetchpriority="low" loading="lazy"/>

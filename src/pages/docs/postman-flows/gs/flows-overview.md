@@ -33,7 +33,7 @@ contextual_links:
     url: "https://www.postman.com/case-studies/built/"
 ---
 
-**Postman Flows** is a visual tool for building API-driven applications for the [API-first](https://www.postman.com/api-first/) world. You can use flows to chain requests, handle data, and create real-world workflows in your Postman workspace.
+**Postman Flows** is a visual tool for building API-driven applications for the [API-first](https://www.postman.com/api-first/) world. You can use Flow to chain requests, handle data, and create real-world workflows in your Postman workspace.
 
 ![Postman Flows](https://assets.postman.com/postman-docs/postman-flows-overview.gif)
 
@@ -41,9 +41,9 @@ contextual_links:
 
 Flows is an API-centric visual application development interface. It provides you with an infinite canvas to arrange and connect APIs.
 
-It's powered by the Postman Public API Network and your Collections. Flows provides data manipulation capabilities to bridge the gap between your APIs, and data visualization to show the final output of your flows.
+It's powered by the Postman Public API Network and your Collections. Flows provides data manipulation capabilities to bridge the gap between your APIs, and data visualization to show the final output of your Flow.
 
-You can also deploy your flows and run them in the cloud. Webhooks enable you to integrate with other applications.
+You can also deploy your Flow and run them in the cloud. Webhooks enable you to integrate with other applications.
 
 ## What can you do with flows?
 

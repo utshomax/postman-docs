@@ -41,7 +41,7 @@ The **Line Chart** visualization type accepts two lists and plots them on x and 
 
 To create an example line chart **Output** block, do the following:
 
-1. Create a new flow, enter the data below in the **Start** block, and select `JSON` from the dropdown list:
+1. Create a new Flow, enter the data below in the **Start** block, and select `JSON` from the dropdown list:
 
     ```json
     {
@@ -53,7 +53,7 @@ To create an example line chart **Output** block, do the following:
 1. Connect a **Select** block to the **Start** block and select **List 1**.
 1. Connect another **Select** block to the **Start** block and select **List 2**.
 1. Connect both **Select** blocks to a single **Output** block.
-1. In the **Output** block's dropdown list, select **Line chart** and run the flow. A line chart appears with the data on their respective axes.
+1. In the **Output** block's dropdown list, select **Line chart** and run the Flow. A line chart appears with the data on their respective axes.
 
     ![Line chart visualization type](https://assets.postman.com/postman-docs/v10/flows-line-chart-v10.jpg)
 
@@ -63,9 +63,9 @@ When an **Output** block receives a string, it automatically selects the **Text*
 
 To create an example text **Output** block, do the following:
 
-1. Create a new flow and add a **Send request** block with a GET request to `postman-echo.com/get`.
+1. Create a new Flow and add a **Send request** block with a GET request to `postman-echo.com/get`.
 1. Connect a **Select** block to the **Send request** block and enter `body.headers.host`. This selects a string from the response.
-1. Connect an **Output** block to the **Select** block and run the flow. The **Output** block shows the `body.headers.host` string from the response, which in this example is `postman-echo.com`.
+1. Connect an **Output** block to the **Select** block and run the Flow. The **Output** block shows the `body.headers.host` string from the response, which in this example is `postman-echo.com`.
 
     ![Text visualization type](https://assets.postman.com/postman-docs/v10/flows-text-v10.jpg)
 
@@ -75,10 +75,10 @@ The **Gauge** visualization type shows a value's position in a range using a hal
 
 To create an example gauge **Output** block, do the following:
 
-1. Create a new flow and add a **Send request** block with a GET request to `techcrunch.com/wp-json/wp/v2/posts`.
+1. Create a new Flow and add a **Send request** block with a GET request to `techcrunch.com/wp-json/wp/v2/posts`.
 1. Connect an **Evaluate** block to the **Send request** block and enter this [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) query: `$count(value1.body)` to count how many items the response body has.
 1. Connect an **Output** block to the **Evaluate** block and select **Gauge** from the dropdown list.
-1. Run the flow. The gauge shows the number of items in the response body as the shaded part of the graph.
+1. Run the Flow. The gauge shows the number of items in the response body as the shaded part of the graph.
 
     > To set the minimum and maximum values for the gauge, select the **Output** block's settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">.
 
@@ -90,9 +90,9 @@ When an **Output** block receives a message that's either true or false, it auto
 
 To create an example boolean **Output** block, do the following:
 
-1. Create a new flow and add a **Send request** block with a GET request to `postman-echo.com/get`.
+1. Create a new Flow and add a **Send request** block with a GET request to `postman-echo.com/get`.
 1. Connect an **Evaluate** block to the **Send request** block and enter this [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) query: `value1.http.status = 200` to check if the response has a `200` status code.
-1. Connect an **Output**  block to the **Evaluate** block and run the flow. If the response has a `200` status code, the **Output** block shows a circle that says **True**. If not, the circle shows **False**.
+1. Connect an **Output**  block to the **Evaluate** block and run the Flow. If the response has a `200` status code, the **Output** block shows a circle that says **True**. If not, the circle shows **False**.
 
     ![Boolean visualization type](https://assets.postman.com/postman-docs/v10/flows-boolean-v10.jpg)
 

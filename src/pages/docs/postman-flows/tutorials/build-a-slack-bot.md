@@ -28,12 +28,12 @@ This tutorial shows you how to create a Slack bot in Postman Flows. The bot will
 
 ## Contents
 
-* [Connect a flow to a Slack app](#connect-a-flow-to-a-slack-app)
+* [Connect a Flow to a Slack app](#connect-a-flow-to-a-slack-app)
 * [Building your own Slack app with Postman Flows](#building-your-own-slack-app-with-postman-flows)
 
-## Connect a flow to a Slack app
+## Connect a Flow to a Slack app
 
-Create a new app in Slack [here](https://api.slack.com/apps), give it a name, and then create a slash command which will enable you to interact with it. When making the slash command, for the request URL use `https://770fc74bbe7045dcaa56a7261b08c869.flow.pstmn.io` which is an already deployed flow which can be found [here](https://www.postman.com/postman/workspace/utility-flows/flow/642376220544c000387685c5).
+Create a new app in Slack [here](https://api.slack.com/apps), give it a name, and then create a slash command which will enable you to interact with it. When making the slash command, for the request URL use `https://770fc74bbe7045dcaa56a7261b08c869.flow.pstmn.io` which is an already deployed Flow which can be found [here](https://www.postman.com/postman/workspace/utility-flows/flow/642376220544c000387685c5).
 
 <img src="https://assets.postman.com/postman-labs-docs/cloud-execution/make-slack-app-with-command.gif" alt="Create Slack app" fetchpriority="low" loading="lazy" />
 
@@ -52,22 +52,22 @@ For the final step, run the command you created in the first step in the Slack c
 > 1. Sign up for a free [Slack](https://slack.com/) account.
 > 2. Sign up for a free [polygon.io](https://polygon.io/) account and get your API key.
 
-To make your own Slack app from scratch with Postman Flows, follow the same steps as [Connect a Flow to a Slack app](#connect-a-flow-to-a-slack-app). This time, name the app **Stock App**, make the **stock-quote** command, and use the URL of the new flow you're going to make.
+To make your own Slack app from scratch with Postman Flows, follow the same steps as [Connect a Flow to a Slack app](#connect-a-flow-to-a-slack-app). This time, name the app **Stock App**, make the **stock-quote** command, and use the URL of the new Flow you're going to make.
 
 <img src="https://assets.postman.com/postman-docs/v10/new-slack-request-url-v10-1.gif" alt="New Slack command" fetchpriority="low" loading="lazy" />
 
-Next, fork (which means copy in this case) the collection found [here](https://www.postman.com/postman/workspace/slack-integration-flows/collection/23919558-0fc87fc5-de53-4c48-b30f-362a1a7ceba3?action=share&creator=23919558) and the environment found [here](https://www.postman.com/postman/workspace/slack-integration-flows/environment/23919558-144c823d-9dcf-42ff-b85b-66e8e1d41e2a). These contain the saved requests and variables you're going to use in this flow.
+Next, fork (which means copy in this case) the collection found [here](https://www.postman.com/postman/workspace/slack-integration-flows/collection/23919558-0fc87fc5-de53-4c48-b30f-362a1a7ceba3?action=share&creator=23919558) and the environment found [here](https://www.postman.com/postman/workspace/slack-integration-flows/environment/23919558-144c823d-9dcf-42ff-b85b-66e8e1d41e2a). These contain the saved requests and variables you're going to use in this Flow.
 
 <img src="https://assets.postman.com/postman-labs-docs/cloud-execution/fork-collection-and-environment.gif" alt="Fork collection and environment" fetchpriority="low" loading="lazy" />
 
-In the environment you forked, paste your Polygon.io API key where it says **YOUR_API_KEY_HERE**. You're ready to start building the flow.
+In the environment you forked, paste your Polygon.io API key where it says **YOUR_API_KEY_HERE**. You're ready to start building the Flow.
 
-To start the flow, create two **Evaluate** blocks, then paste the following functions:
+To start the Flow, create two **Evaluate** blocks, then paste the following functions:
 
 * `$match(slack_text,'(?<=text=)[^&]+')[0]`
 * `$replace($match(slack_text,'(?<=commands%2F)[^&]+')[0],"%2F","/")`
 
-The first function gets the text after the **stock-quote** slash command from the webhook Slack sends. The second function gets the destination in Slack your flow will send the reply to.
+The first function gets the text after the **stock-quote** slash command from the webhook Slack sends. The second function gets the destination in Slack your Flow will send the reply to.
 
 <img src="https://assets.postman.com/postman-docs/v10/make-evaluate-blocks-v10-2.gif" alt="Create Evaluate blocks" fetchpriority="low" loading="lazy" />
 

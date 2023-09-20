@@ -16,9 +16,9 @@ You can use the [Resource usage dashboard](https://go.postman.co/usage) to track
 
 ## Viewing Flows usage
 
-The maximum number of steps your flows can consume each month depends on your [Postman plan](https://www.postman.com/pricing/). To check your team's current Flows usage, select **Team > Resource Usage** to open the [Resource Usage dashboard](https://go.postman.co/usage).
+The maximum number of steps your Flow can consume each month depends on your [Postman plan](https://www.postman.com/pricing/). To check your team's current Flows usage, select **Team > Resource Usage** to open the [Resource Usage dashboard](https://go.postman.co/usage).
 
-When you reach your monthly usage limit, your flows will complete their current runs. Then they'll be suspended until the next billing cycle, or until overages are enabled. Any webhooks that trigger the flows will result in a `429 Too many requests` status code.
+When you reach your monthly usage limit, your Flow will complete their current runs. Then they'll be suspended until the next billing cycle, or until overages are enabled. Any webhooks that trigger the flows will result in a `429 Too many requests` status code.
 
 ## Enabling Flows overages
 
