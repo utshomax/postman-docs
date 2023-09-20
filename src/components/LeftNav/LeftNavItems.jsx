@@ -1089,8 +1089,12 @@ export const leftNavItems = [
   {
     name: 'Documenting your API',
     parentSlug: 'publishing-your-api',
-    url: '/docs/publishing-your-api/documenting-your-api/',
+    url: '/docs/publishing-your-api/api-documentation-overview/',
     subMenuItems1: [
+      {
+        name: 'API documentation overview',
+        url: '/docs/publishing-your-api/api-documentation-overview/',
+      },
       {
         name: 'Generating API documentation',
         url: '/docs/publishing-your-api/documenting-your-api/',
