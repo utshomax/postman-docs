@@ -163,3 +163,5 @@ After generating API documentation in Postman, you can edit and format the docs 
 
 * To learn more about editing and formatting your documentation, visit [Writing your docs](/docs/publishing-your-api/authoring-your-documentation/).
 * To learn how to make your documentation publicly available, visit [Publishing your docs](/docs/publishing-your-api/publishing-your-docs/).
+
+> <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> See how to document an API with a collection template that's a boilerplate for documentation that you can quickly customize and reuse. To try out this template, select [API documentation](https://www.postman.com/templates/e9c28f47-1253-44af-a2f3-20dce4da1f18/API-documentation).
