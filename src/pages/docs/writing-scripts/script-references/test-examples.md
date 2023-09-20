@@ -1,6 +1,6 @@
 ---
 title: "Test script examples"
-updated: 2023-08-25
+updated: 2023-09-25
 search_keyword: "pm.test, pm.expect, pm.response.json, pm.sendRequest, response.json"
 contextual_links:
   - type: section
@@ -29,7 +29,7 @@ contextual_links:
 
 ---
 
-Use the **Tests** tab in your requests, folders, and collections to write tests that will execute when Postman receives a response from the API you sent the request to. Add however many tests you need for each request. When you add tests to a folder or collection, they will execute after each request inside it.
+You can use the following test script examples to write your own test scripts for requests, folders, and collections. Test scripts execute when Postman receives a response from the API you sent the request to. When you add tests to a folder or collection, they execute after each request inside it.
 
 ## Contents
 
@@ -79,7 +79,7 @@ This test checks the response code returned by the API. If the response code is 
 
 To learn what test results look like when they pass or fail, change the status code in the assertion code and send the request again.
 
-Structure your test assertions in a variety of ways to suit your logic and preference in terms of how you want the results to output. The following code is an alternative way of achieving the same test as the one above using the `expect` syntax:
+You can structure your test assertions in a variety of ways, depending on how you want the results to output. The following code is an alternative way of achieving the same test as the one above using the `expect` syntax:
 
 ```js
 pm.test("Status code is 200", () => {
@@ -121,7 +121,7 @@ To parse XML, use the following:
 const responseJson = xml2Json(pm.response.text());
 ```
 
-> If you're dealing with complex XML responses you may find [console logging](/docs/sending-requests/troubleshooting-api-requests/#using-the-console) useful.
+> If you're working with complex XML responses, you may find [console logging](/docs/sending-requests/troubleshooting-api-requests/#using-the-console) useful.
 
 To parse CSV, use the [CSV parse (csv-parse/lib/sync)](https://csv.js.org/parse/) utility:
 
@@ -140,7 +140,7 @@ console.log($.html());
 
 ### Handling responses that don't parse
 
-If you can't parse the response body to JavaScript because it's not formatted as JSON, XML, HTML, CSV, or any other parsable data format, you can still make assertions on the data.
+If you can't parse the response body into JavaScript because it's not formatted as JSON, XML, HTML, CSV, or any other parsable data format, you can still make assertions on the data.
 
 Test if the response body contains a string:
 
@@ -150,7 +150,9 @@ pm.test("Body contains string",() => {
 });
 ```
 
-This doesn't tell you where the string was encountered because it carries out the test on the whole response body. Test if a response matches a string (which will typically only be effective with short responses):
+This doesn't tell you where the string was encountered because it carries out the test on the whole response body.
+
+Test if a response matches a string (which is typically only effective with short responses):
 
 ```js
 pm.test("Body is string", function () {
@@ -254,13 +256,13 @@ pm.test("Response time is less than 200ms", () => {
 
 ## Common assertion examples
 
-Read on for some examples of common assertions you might find useful in your scripts, either as outlined below or by editing the detail to suit your own needs.
+The following examples of common assertions might help you write your test scripts.
 
 > For a more comprehensive overview of what you can include in your assertions, refer to the [Chai Assertion Library Docs](https://www.chaijs.com/api/bdd/).
 
 ### Asserting a response value against a variable
 
-Check if a response property has the same value as a variable (in this case an environment variable):
+Check if a response property has the same value as a variable (this example uses an environment variable):
 
 ```js
 pm.test("Response property matches environment variable", function () {
@@ -268,7 +270,7 @@ pm.test("Response property matches environment variable", function () {
 });
 ```
 
-> See [Using Variables](/docs/sending-requests/variables/) for an overview of operations you can use to manipulate variables in your scripts.
+> See [Using variables](/docs/sending-requests/variables/) to learn more about using variables in your test scripts.
 
 ### Asserting a value type
 
@@ -404,7 +406,7 @@ Using `.deep` causes all `.equal`, `.include`, `.members`, `.keys`, and `.proper
 
 ### Asserting the current environment
 
-Check the active (currently selected) environment in Postman:
+Check the [active environment](/docs/sending-requests/managing-environments/#selecting-an-active-environment) in Postman:
 
 ```js
 pm.test("Check the active environment", () => {
@@ -445,7 +447,7 @@ if (pm.response.json().args.id) {
 
 ### Assertion deep equality error
 
-You may encounter the `AssertionError: expected <value> to deeply equal '<value>'`. For example, this would arise with the following code:
+You might encounter the `AssertionError: expected <value> to deeply equal '<value>'` error. For example, this would arise with the following code:
 
 ```js
 pm.expect(1).to.eql("1");
@@ -455,7 +457,7 @@ This happens because the test is comparing a number to a string value. The test 
 
 ### JSON not defined error
 
-You may encounter the `ReferenceError: <variable> is not defined` issue. This typically happens when you're attempting to reference a JSON object that hasn't been declared or is outside the scope of your test code.
+You might encounter the `ReferenceError: <variable> is not defined` error. This typically happens when you're attempting to reference a JSON object that hasn't been declared or is outside the scope of your test code.
 
 ```js
 /* Response has the following structure:
@@ -478,7 +480,7 @@ Make sure all test code can access your variables. For example, moving `const js
 
 ### Assertion undefined error
 
-You may encounter the `AssertionError: expected undefined to deeply equal <value>` issue. Typically this happens when you are referring to a property that doesn't exist or is out of scope.
+You might encounter the `AssertionError: expected undefined to deeply equal <value>` error. Typically this happens when you are referring to a property that doesn't exist or is out of scope.
 
 ```js
 const jsonData = pm.response.json().args;
@@ -538,7 +540,7 @@ pm.test('Schema is valid', function() {
 
 ## Sending an asynchronous request
 
-You can send a request from your test code and log the response.
+You can send a request from your test code and log the response:
 
 ```js
 pm.sendRequest("https://postman-echo.com/get", function (err, response) {
