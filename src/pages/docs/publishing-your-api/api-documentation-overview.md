@@ -34,20 +34,36 @@ Postman automatically creates documentation for your collections and APIs. To gi
 
 ## Contents
 
+* [Document a collection](#document-a-collection)
+* [Add documentation to an API](#add-documentation-to-an-api)
+* [Write your documentation](#write-your-documentation)
+* [Publish your documentation](#publish-your-documentation)
+* [View documentation](#view-documentation)
+* [Create a Run in Postman button](#create-a-run-in-postman-button)
+
 ## Document a collection
 
-Postman automatically creates collection documentation, including requests and authorization details. To better help users, you can add a detailed description to your collection and to folders and requests in the collection.
+Postman automatically creates documentation for your collections, including requests and authorization details. To better help users, you can add detailed descriptions to your collection and to folders and requests in the collection.
 
 ## Add documentation to an API
 
-Postman automatically generates documentation based on your API definition (for OpenAPI 2.0 and 3.0 APIs). To created more detailed API docs, add more or more collections to your API. You can add an existing collection, or generate a collection based on your API definition.
+Postman automatically generates documentation based on your API definition (for OpenAPI 2.0 and 3.0 APIs). To create more detailed API documentation, add one or more collections to your API, and then add descriptions to the collections. You can add an existing collection or generate a collection based on your API definition.
 
-## Choose a documentation editor
+## Write your documentation
 
-You can use the Postman editor to view how your content will look as you write it. Or use standard Markdown syntax to write content and leave the formatting to Postman. With either editor, you can format text, add links, and insert images and videos in your documentation.
+Add descriptions to your collections (including API linked collections) to enhance your documentation and add more detail. You can use the Postman editor to view how your content will look as you write it, or use standard Markdown syntax to write content. With either editor, you can format text, add links, and insert images and videos in your documentation.
 
-## Publish your API docs
+## Publish your documentation
+
+Publishing a collection makes your documentation publicly available to anyone in the world. As you update your collection, the published documentation automatically stays in sync with your latest changes.
+
+> You can't publish a collection that's linked to an API. Instead, you can [publish a version of any API](http://localhost:8000/docs/designing-and-developing-your-api/versioning-an-api/api-versions/) to make your API and its documentation available to consumers.
 
 ## View documentation
 
+Want to learn more about how to use a collection or API? View collection documentation to see details for each request, along with sample code and examples. To view API documentation, open an API in Postman, or search for APIs on the [Private API Network](https://go.postman.co/network/private) or [Public API Network](https://www.postman.com/explore/apis).
+
 ## Create a Run in Postman button
+
+You can create a **Run in Postman** button to share a collection and its documentation with users. When users select the button, they have the option to
+fork the collection to their workspace, view the collection in a public workspace, or import the collection into Postman.
