@@ -60,7 +60,7 @@ Partner Workspaces enable you to collaborate with external partners directly in 
 
     <img alt="Create Partner Workspace" src="https://assets.postman.com/postman-docs/v10/create-partner-workspace-v10-2.jpg" width="400px"/>
 
-Anyone with permissions to create workspaces can request to create a Partner Workspace, but it must be approved by a [Partner Manager](#managing-users-and-roles). If you're not a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or Partner Manager, you must submit your request for approval. You can also add an optional note to your request. The workspace's visibility will be set to [private](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) until your request is approved. Postman will notify you when a Partner Manager reviews your request and approves or denies it.
+Anyone with permissions to create workspaces can request to create a Partner Workspace, but it must be approved by a [Partner Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-and-partner-workspace-roles). If you're not a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or Partner Manager, you must submit your request for approval. You can also add an optional note to your request. The workspace's visibility will be set to [private](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) until your request is approved. Postman will notify you when a Partner Manager reviews your request and approves or denies it.
 
 To convert an existing workspace to a Partner Workspace, do the following:
 
@@ -68,7 +68,7 @@ To convert an existing workspace to a Partner Workspace, do the following:
 1. Under **Visibility**, select **Partner**.
 1. Select **Update**.
 
-Anyone with permissions to change workspace visibility can request to convert a workspace into a Partner Workspace, but it must be approved by a [Partner Manager](#managing-users-and-roles). If you're not a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or Partner Manager, Postman will mention this and you can add an optional note to your request. Postman will notify you when a Partner Manager reviews your request and approves or denies it.
+Anyone with permissions to change workspace visibility can request to convert a workspace into a Partner Workspace, but it must be approved by a [Partner Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-and-partner-workspace-roles). If you're not a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or Partner Manager, Postman will mention this and you can add an optional note to your request. Postman will notify you when a Partner Manager reviews your request and approves or denies it.
 
 > When a workspace is converted to a Partner Workspace, Postman sends in-app and email notifications to all workspace members.
 
@@ -102,7 +102,7 @@ If you'd like to keep certain elements in other workspaces, you can [fork them i
 
 Workspace Admins, Partner Managers, and Partner Leads can invite partners to Partner Workspaces. Your team can invite three partners assigned the Workspace Editor role at no extra cost. When you assign a partner the Workspace Editor role, they can edit all workspace resources in the Partner Workspace, including collections. A paid seat is consumed when you assign partners the Workspace Editor or Collection Editor roles. Learn about [adding paid seats](#adding-partner-licenses).
 
-> For more information on team and Partner Workspace roles, see [Team and Partner Workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#team-and-partner-workspace-roles).
+> Learn more about [team and Partner Workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#team-and-partner-workspace-roles).
 
 To invite partners to a Partner Workspace, do the following:
 
@@ -133,12 +133,12 @@ To invite team members to a Partner Workspace, do the following:
 
 1. Select **Team members**, then **Continue**.
 1. Enter the name, email, or group name of the team members.
-1. Set their [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
+1. Set their [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#team-and-partner-workspace-roles).
 1. Select **Send Invites**.
 
 ## Viewing resources a partner can access
 
-A [Partner Manager](#managing-users-and-roles) can view the Partner Workspaces and collections a partner can access. A Partner Manager can also view the Workspace role partners are assigned in each workspace, and the Collection role partners are assigned in each collection. Open your [team dashboard](https://go.postman.co/settings/team/members) and select **View resources** next to a partner. Select a Partner Workspace or collection name to open it in a new tab.
+A [Partner Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-and-partner-workspace-roles) can view the Partner Workspaces and collections a partner can access. A Partner Manager can also view the Workspace role partners are assigned in each workspace, and the Collection role partners are assigned in each collection. Open your [team dashboard](https://go.postman.co/settings/team/members) and select **View resources** next to a partner. Select a Partner Workspace or collection name to open it in a new tab.
 
 <img alt="View partner workspaces and roles" src="https://assets.postman.com/postman-docs/v10/view-partner-workspaces-and-roles-v10-3.jpg"/>
 
@@ -150,13 +150,13 @@ The collaborative experience that Partner Workspaces offer depends on your role 
 
 Partner Workspaces are only visible to invited team members, similar to [private workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). Once invited, you can access Partner Workspaces as you would access any other workspace. To open one, select **Workspaces** in the Postman header, then select the Partner Workspace.
 
-Users can be assigned the team-level Partner Manager role. Partner Managers can view all Partner Workspaces within an organization, and can control their settings, visibility, and partner invites. To learn more, see [Managing users and roles](#managing-users-and-roles).
+Users can be assigned the team-level Partner Manager role. Partner Managers can view all Partner Workspaces within an organization, and can control their settings, visibility, and partner invites. To learn more, see [Team and Partner Workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#team-and-partner-workspace-roles).
 
 ### Collaborating as a partner
 
 When an external partner is [invited to a Partner Workspace](#inviting-collaborators-to-a-partner-workspace) by a team they're working with, they only have access to that Partner Workspace and can't access any other workspaces or resources within the team. Partners don't have personal or team workspaces within the team they're partnering with.
 
-At the team level, all external partners are automatically assigned the Partner role. At the workspace level, all partners are assigned the [Workspace Editor or Viewer](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) roles. If partners are assigned the Workspace Editor role, they can edit all workspace resources in the Partner Workspace, including collections. If partners are assigned the Workspace Viewer role, they can be assigned the Collection Editor role in specific collections. Partners can also be assigned the Partner Lead role, which enables them to invite other individuals from their organization to the Partner Workspace.
+At the team level, all external partners are automatically assigned the Partner role. At the workspace level, all partners are assigned the [Workspace Editor or Viewer](/docs/collaborating-in-postman/roles-and-permissions/#team-and-partner-workspace-roles) roles. If partners are assigned the Workspace Editor role, they can edit all workspace resources in the Partner Workspace, including collections. If partners are assigned the Workspace Viewer role, they can be assigned the Collection Editor role in specific collections. Partners can also be assigned the Partner Lead role, which enables them to invite other individuals from their organization to the Partner Workspace.
 
 > To learn more about partner roles and permissions, see [Team and Partner Workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#team-and-partner-workspace-roles).
 
@@ -172,7 +172,7 @@ To learn more about collaborating as a team member or partner, see [Collaboratin
 
 ### Adding partner licenses
 
-Your team has three partners licenses you can assign to partners at no extra cost. Partner licenses enable you to assign partners the [Workspace Editor or Collection Editor roles](/docs/collaborating-in-postman/roles-and-permissions/#team-and-partner-workspace-roles). A paid seat is consumed when a partner is assigned at least one Editor role (at the workspace or collection level) in at least one Partner Workspace. Assigning a partner the Workspace Viewer or Collection Viewer role doesn't consume paid seats.
+Your team has three partner licenses you can use to assign partners the [Workspace Editor or Collection Editor roles](/docs/collaborating-in-postman/roles-and-permissions/#team-and-partner-workspace-roles). A paid seat is consumed when a partner is assigned at least one Editor role (at the workspace or collection level) in at least one Partner Workspace. Assigning a partner the Workspace Viewer or Collection Viewer role doesn't consume paid seats.
 
 To assign more than three Workspace Editor or Collection Editor roles to partners, you must purchase additional partner licenses. To purchase more partner licenses, contact your Postman Account Manager or [contact Postman's sales team](mailto:sales@postman.com).
 
