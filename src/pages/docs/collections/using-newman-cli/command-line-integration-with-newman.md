@@ -23,7 +23,6 @@ contextual_links:
   - type: link
     name: "The Postman CLI vs. Newman: choose the right tool for you"
     url: "https://blog.postman.com/postman-cli-vs-newman/"
-
   - type: subtitle
     name: "Case Studies"
   - type: link
@@ -33,6 +32,7 @@ contextual_links:
     name: "Western Governors University (WGU) leverages Newman to automate tests"
     url:  "https://www.postman.com/case-studies/wgu/"
 ---
+
 Newman is a command-line Collection Runner for Postman. It enables you to run and test a Postman Collection directly from the command line. It's built with extensibility in mind so that you can integrate it with your continuous integration (CI) servers and build systems.
 
 Newman maintains feature parity with Postman and allows you to run collections the way they're executed inside the collection runner in Postman.
