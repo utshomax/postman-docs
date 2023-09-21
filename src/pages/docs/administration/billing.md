@@ -1,6 +1,6 @@
 ---
 title: "Billing"
-updated: 2022-10-21
+updated: 2023-09-15
 tags:
   - "pro"
 warning: false
@@ -71,7 +71,10 @@ The billing overview is your billing dashboard's default view. You can view the 
 
 ### Managing resources
 
-In your [billing dashboard](http://go.postman.co/billing), select **Resource usage** on the left to view your team's usage of mock servers, monitoring, custom domains, image and file storage, the Postman API, integrations, and the Postman Cloud Agent.
+Open the [**Resource usage** dashboard](http://go.postman.co/billing/add-ons/overview) to see your team's usage of mock servers and monitors, APIs created, collection runner runs, image and file storage, flow steps, performance tests, integrations, and the Postman Cloud Agent. To open the **Resource usage** dashboard, do one of the following:
+
+* **Free users** - In the Postman header, select the menu next to **Upgrade**.
+* **Paid users** - In the Postman header, select **Team**.
 
 > To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).
 
@@ -79,11 +82,11 @@ In your [billing dashboard](http://go.postman.co/billing), select **Resource usa
 
 Select **View detailed usage** next to **Monitoring Usage** to view your team's active monitors and their impact on your team's usage during the current billing period.
 
-You can opt to allow or disallow overages for mock server and monitor usage by selecting **Pay-as-you-go** for each item. If enabled, you will be charged on a pay-as-you-go basis.
+You can opt to allow or disallow overages for mock server and monitor usage by selecting **Pay-as-you-go** for each item. If enabled, you will be charged on a pay-as-you-go basis. If you are on a Professional plan, you can opt to enable or deactivate pay-as-you-go overages for Flows.
 
-You can also [Purchase add-on resources](#purchasing-add-ons).
+You can also [Purchase add-ons](#purchasing-add-on-resources).
 
-> If your API development pipeline is dependent on Postman monitoring, disabling overages may cause unintended consequences for your bill. To avoid fluctuating pay-as-you-go charges, consider adding [pre-paid monitoring blocks](#purchasing-add-ons) to your team plan.
+> If your API development pipeline is dependent on Postman monitoring, deactivating overages may cause unintended consequences for your bill. To avoid fluctuating pay-as-you-go charges, consider adding [pre-paid monitoring blocks](#purchasing-add-on-resources) to your team plan.
 
 ### Viewing account history
 
@@ -218,15 +221,15 @@ Select to pay **Monthly** or **Annual** and confirm your changes. Note that annu
 
 ### Purchasing add-on resources
 
-The base number of monitoring requests, mock server calls, and custom domains included in your plan depends on your [plan type](https://www.postman.com/pricing). You can allow or disallow overages for monitoring and mock server calls by [managing your team's add-ons](#managing-add-ons). If enabled, you will be charged on a pay-as-you-go basis.
+The base number of monitoring requests, mock server calls, flow steps, and custom domains included in your plan depends on your [plan type](https://www.postman.com/pricing). You can enable or deactivate overages for monitoring, mock server calls, and Flows by [managing your team's resources](#managing-resources). If enabled, you will be charged on a pay-as-you-go basis. If you are on a Professional plan, you can opt to enable or deactivate pay-as-you-go overages for Flows.
 
-You can purchase more blocks of monitoring requests, mock server calls, and custom domains by navigating to your [billing dashboard](http://go.postman.co/billing), selecting **Resource usage** on the left, then **Purchase Add-ons** on the right.
+You can purchase more Flow Editor seats and blocks of monitoring requests, mock server calls, and custom domains by navigating to your [billing dashboard](http://go.postman.co/billing), selecting **Resource usage** on the left, then **Purchase Add-ons** on the right.
 
-Update the number of monitoring blocks, mock server blocks, and custom domains you would like to have included in your team plan, then select **Next** to confirm your changes.
+Update the number of Flow Editor seats, monitoring blocks, mock server blocks, and custom domains you would like to have included in your team plan, then select **Next** to confirm your changes.
 
 ### Using Auto-Flex
 
-[Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams.  Auto-Flex applies to both plan seats and any add-on seats such as Flow Editor and Enterprise Solutions. With Auto-Flex enabled, your team can [invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) users or provision add-on capabilities to your team members without having to pay in advance for more seats, then opt to retain or remove them before being [billed](#billing-for-auto-flex).
+[Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. Auto-Flex applies to both plan seats and any add-on seats such as Flow Editor and Enterprise Solutions. With Auto-Flex enabled, your team can [invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) users or provision add-on capabilities to your team members without having to pay in advance for more seats, then opt to retain or remove them before being [billed](#billing-for-auto-flex).
 
 All [Postman Basic, Professional, and Enterprise Essentials plans](https://www.postman.com/pricing) have Auto-Flex enabled automatically.
 
@@ -242,7 +245,7 @@ At any time during your Auto-Flex billing cycle, your team can [invite](/docs/ad
 
 Before your Auto-Flex billing cycle renews, all Billing and Admin team members receive a notification about any new users you added during that time period.
 
-> Annual plans receive a notification two weeks before their quarterly cycle renews, and monthly plans receive a notification one week before their monthly cycle renews.
+> Shortly before the applicable billing date, users with Billing or Admin roles will receive a notification that reflects the number of added users during that monthly or quarterly cycle.
 
 You can use this reminder to make any necessary changes to your team before the end of your current Auto-Flex cycle, when you will be billed for any newly added users.
 
@@ -254,7 +257,7 @@ You won't be billed if the number of users has remained unchanged during your Au
 
 In your [billing dashboard](http://go.postman.co/billing), you can view:
 
-* Your current number of additional team members
+* Your current number of additional team members and additional add-on seats
 * How much you will be billed at the end of your cycle (unless you add or remove users in the interim)
 * Additional information about your Auto-Flex and regular billing cycles
 
@@ -264,7 +267,7 @@ In your [billing dashboard](http://go.postman.co/billing), you can view:
 
 > **[Enterprise Solutions are available for Enterprise Essentials plans.](https://www.postman.com/pricing)**
 
-As a Team Admin, you can manage solution access of your team members from your [Solution Access](http://go.postman.co/settings/team/solutions-access) page. To learn more about the added capabilities of each solution, visit [Enterprise Solutions](https://www.postman.com/pricing/).
+As a Team Admin, you can manage solution access of your team members from your [Product Access](https://go.postman.co/settings/team/products-access) page. To learn more about the added capabilities of each solution, visit [Enterprise Solutions](https://www.postman.com/pricing/).
 
 * To add Team members to a solution, select **Add Members** and select users.
 * To remove Team members from a solution, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to a user.

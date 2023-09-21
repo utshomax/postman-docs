@@ -73,6 +73,8 @@ To customize and configure a new collection, do the following:
 1. Select **Tests** to define a [test script](/docs/writing-scripts/test-scripts/) for your collection, which will run after a response is received.
 1. Select **Variables** to define values for [collection variables](/docs/sending-requests/variables/) to share across all requests in the collection.
 
+> You can turn on autosave to automatically save your changes to collections, requests, and environments. Learn more about [autosave](/docs/getting-started/installation/settings/#application).
+
 ![Edit collection details](https://assets.postman.com/postman-docs/v10/collection-details-v10-2.jpg)
 
 ## Adding requests to a collection
@@ -184,9 +186,9 @@ To share a collection with other users, you can:
 
 ### Tagging a collection
 
-> **[Tagging collections is available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
+> **[Tagging collections is available on Postman Enterprise plans.](https://www.postman.com/pricing/)** You can apply shared tags to workspaces, collections, and APIs. Tags must be between two and 64 alphanumeric characters, starting with an alphabetic character, and contain only dashes and no spaces. You can add up to five tags.
 
-You can add tags to collections, enabling you to organize and search for collections using shared tags. You can add up to five tags to a collection.
+Adding shared tags to collections enables you to organize and search for collections.
 
 Once you add tags to the collection, you can select a tag to open search results associated with the tag in a new tab.
 

@@ -137,7 +137,7 @@ Outputs the text that you enter.
 
 <img alt="Start block" src="https://assets.postman.com/postman-labs-docs/all-blocks/new-ux-start-block.png" width="110px"/>
 
-The first block that runs when a flow is run. When deploying to the cloud [running flows on the cloud](/docs/postman-flows/running-flows-on-the-cloud/webhooks/), Can be configured to hold information (either as text or in JSON format) for testing locally.
+The first block that runs when a flow is run. When deploying to the cloud [running flows on the cloud](/docs/postman-flows/concepts/automatic-runs/), Can be configured to hold information (either as text or in JSON format) for testing locally.
 
 [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bcbae7f3155f2e86b54eb2)
 
@@ -267,4 +267,4 @@ Sends the information input to the block to the Postman console.
 
 <img alt="Output block" src="https://assets.postman.com/postman-docs/v10/output-block-v10.jpg" width="249px"/>
 
-Displays the information input. The dropdown menu enables you to select from JSON, charts, tables, videos, images, and more. For more information and examples on the output block, see [Visualizing data](/docs/postman-flows/tutorials/visualizing-data/).
+Displays the information input. The dropdown menu enables you to select from JSON, charts, tables, videos, images, and more. For more information and examples on the output block, see [Visualizing data](/docs/postman-flows/reference/visualizing-data/).

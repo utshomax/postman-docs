@@ -65,13 +65,15 @@ Your requests can include multiple details determining the data Postman will sen
 
 You can create a new request from a workspace, by using **New > HTTP**, or by selecting **+** to open a new tab.
 
-<img alt="Create new request" src="https://assets.postman.com/postman-docs/v10/create-new-http-v10-3.jpg" width="500px"/>
+<img alt="Create new request" src="https://assets.postman.com/postman-docs/v10/create-new-http-v10-4.jpg" width="500px"/>
 
 Select **Save** to create your request. You can give your request a name and description, and choose or create a collection to save it in.
 
 Once your new tab is open, you can specify the details you need for your request.
 
 ![New Request](https://assets.postman.com/postman-docs/v10/empty-request-v10.jpg)
+
+> You can turn on autosave to automatically save your changes to collections, requests, and environments. Learn more about [autosave](/docs/getting-started/installation/settings/#application).
 
 ## Adding request detail
 
@@ -199,7 +201,7 @@ You can use __binary__ data to send information you can't enter manually in the 
 
 You can send GraphQL queries with your Postman requests by selecting the __GraphQL__ tab in the request __Body__. Enter your code in the __Query__ area and any variables in the __GraphQL Variables__ section.
 
-Check out [Using GraphQL](/docs/sending-requests/graphql/graphql/) for more information on GraphQL, including how to enable __Autocomplete__ powered by Postman API schemas.
+Check out [Using GraphQL](/docs/sending-requests/graphql/graphql-overview/) for more information on GraphQL, including how to enable __Autocomplete__ powered by Postman API schemas.
 
 ### Authenticating requests
 
@@ -290,3 +292,5 @@ If your request doesn't work as expected, check out some [troubleshooting tips](
 ## Next steps
 
 Once you have your request set up, select __Send__ and examine the [Response](/docs/sending-requests/responses/).
+
+> <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> To try out a collection template that has a typical REST API, select [REST API Basics](https://www.postman.com/templates/ddb19591-3097-41cf-82af-c84273e56719/REST-API-basics).
