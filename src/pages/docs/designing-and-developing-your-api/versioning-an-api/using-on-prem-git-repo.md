@@ -1,6 +1,6 @@
 ---
 title: "Using an on-premises Git repository"
-updated: 2023-06-15
+updated: 2023-09-15
 search_keyword: "whitelist, whitelist IP"
 contextual_links:
   - type: section
@@ -61,7 +61,7 @@ Keep in mind the following when connecting to an on-premises repository:
 
 * **All communication is between the Postman desktop app on your computer and the on-premises repository.** Your computer must be able to access the repository. No Git requests go through Postman's cloud servers. The Postman desktop app connects directly to your Git server, and you don't need to allow any Postman IP addresses for your repository. The repository will show the IP address of your computer as the source for all Git requests.
 
-* **You can connect one or more APIs to a remote repository.** You can keep your APIs separate in the repository using directories or branches. Learn more about [connecting more than one API to the same repository](/docs/designing-and-developing-your-api/versioning-an-api/connecting-multiple-apis/).
+* **You can connect one or more APIs to a remote repository.** You can keep your APIs separate in the repository using files or branches. Learn more about [connecting more than one API to the same repository](/docs/designing-and-developing-your-api/versioning-an-api/connecting-multiple-apis/).
 
 ## Connecting to GitHub Enterprise Server or GitLab Self-Managed
 
@@ -107,13 +107,11 @@ To connect an API using an installed app, do the following:
 1. A browser tab opens asking you to sign in to your repository. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
 1. For GitHub, enter the **Organization** and the **Repository** where the API will be stored. For GitLab, enter the **Group** and **Project** for your API.
 1. Select the **Initial branch** for the API. Any changes you make in Postman are stored in the initial active branch. (You can switch to another branch to make it the active branch at any time.)
-1. Select an **API schema directory** and **Collection directory** where API the definition and collections will be stored in the repository. Keep in mind the following:
-
-    * If you leave these fields blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repository.
-    * If you select a directory that already has an API definition, you will be asked which definition to use in Postman the first time you pull changes.
-    * The collection directory can't be a parent or the child of the schema directory.
-
+1. Select an **API schema file** to add to your API. If you're working on a [multi-file API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#working-with-multi-file-api-definitions), make sure to select the [root definition file](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#about-root-files) in your repository. The root file is the base file that has references to other files in the API definition. If you leave this field blank, no definition files are added to your API. You can [manually add a definition file](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#adding-an-api-definition-from-a-connected-repository) from your repository later.
+1. Select a **Collection directory** where the collections linked to your API will be stored in the repository. If you leave this field blank, a `postman/collections` directory will be created in the root of the repository.
 1. Select **Connect Repository**.
+
+    The root definition file you selected is added to your API. For OpenAPI 2.0 and 3.0 APIs, Postman scans for any dependent files referenced in the root definition file and automatically adds them to your API. You can also [manually add more definition files](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#adding-files-from-a-connected-repository) from your repository as needed.
 
 ## Connecting to Azure DevOps Server
 
@@ -129,13 +127,11 @@ To connect an API to a repository hosted in Azure DevOps Server, use a personal 
 
 1. Enter the **Organization** and the **Repository** where the API will be stored.
 1. Select the **Initial branch** for the API. Any changes you make in Postman are stored in the initial active branch. (You can switch to another branch to make it the active branch at any time.)
-1. Select an **API schema directory** and **Collection directory** where the API definition and collections will be stored in the repository. Keep in mind the following:
-
-    * If you leave these fields blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repository.
-    * If you select a directory that already has an API definition, you will be asked which definition to use in Postman the first time you pull changes.
-    * The collection directory can't be a parent or the child of the schema directory.
-
+1. Select an **API schema file** to add to your API. If you're working on a [multi-file API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#working-with-multi-file-api-definitions), make sure to select the [root definition file](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#about-root-files) in your repository. The root file is the base file that has references to other files in the API definition. If you leave this field blank, no definition files are added to your API. You can [manually add a definition file](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#adding-an-api-definition-from-a-connected-repository) from your repository later.
+1. Select a **Collection directory** where the collections linked to your API will be stored in the repository. If you leave this field blank, a `postman/collections` directory will be created in the root of the repository.
 1. Select **Connect Repository**.
+
+    The root definition file you selected is added to your API. For OpenAPI 2.0 and 3.0 APIs, Postman scans for any dependent files referenced in the root definition file and automatically adds them to your API. You can also [manually add more definition files](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#adding-files-from-a-connected-repository) from your repository as needed.
 
 > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/#managing-connected-accounts-for-remote-repositories).
 

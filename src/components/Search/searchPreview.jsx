@@ -1,13 +1,18 @@
 import React from 'react';
-import { useSearchBox, useHits} from 'react-instantsearch';
+import { useSearchBox, useHits, usePagination} from 'react-instantsearch';
 import { Paragraph } from 'aether-marketing';
 const { v4: uuidv4 } = require('uuid');
 
+
+
+// Custom Search Box Widget
+//////////////////////////////////////////////////////////////////////////////
+
 const SearchBox = ({ query, refine }) => (
   <div className="ais-SearchBox">
-    <form noValidate action="" role="search" className="ais-SearchBox-form">
+    <form noValidate action="" role="search" className="ais-SearchBox-form test">
       <input
-        className="ais-SearchBox-input"
+        className="ais-SearchBox-input test"
         autoComplete="off"
         autoCorrect="off"
         autoCapitalize="off"
@@ -19,12 +24,15 @@ const SearchBox = ({ query, refine }) => (
   </div>
 );
 
+
 export function CustomSearchBox(props) {
   const searchBoxApi = useSearchBox(props);
   
   return <SearchBox {...searchBoxApi} />;
 }
 
+// Custom Hits Widget
+//////////////////////////////////////////////////////////////////////////////
 // on page load do not display
 /* eslint-disable react/no-danger */
 const Hits = ({ hits }) => {
@@ -51,7 +59,7 @@ const Hits = ({ hits }) => {
   )};
 /* eslint-enable */
 
-// export const CustomHits = connectHits(Hits);
+
 export function CustomHits(props) {
   const hitsApi = useHits(props);
   
