@@ -1,5 +1,5 @@
 ---
-title: "Viewing documentation"
+title: "View documentation"
 updated: 2023-07-21
 contextual_links:
   - type: section

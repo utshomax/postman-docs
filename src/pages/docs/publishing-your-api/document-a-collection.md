@@ -1,6 +1,6 @@
 ---
-title: "Add documentation to an API"
-updated: 2023-09-23
+title: "Document a collection"
+updated: 2023-09-21
 contextual_links:
   - type: section
     name: "Additional resources"

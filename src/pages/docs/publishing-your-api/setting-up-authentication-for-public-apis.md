@@ -1,5 +1,5 @@
 ---
-title: "Setting up authentication for public APIs"
+title: "Set up authentication for public APIs"
 updated: 2023-07-17
 contextual_links:
   - type: section

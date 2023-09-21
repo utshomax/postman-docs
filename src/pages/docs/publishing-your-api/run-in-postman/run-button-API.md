@@ -1,5 +1,5 @@
 ---
-title: "Coding with Run in Postman"
+title: "Code with Run in Postman"
 updated: 2022-09-21
 contextual_links:
   - type: section

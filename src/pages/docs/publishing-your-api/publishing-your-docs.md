@@ -1,5 +1,5 @@
 ---
-title: "Publishing your docs"
+title: "Publish your docs"
 updated: 2023-04-15
 contextual_links:
   - type: section

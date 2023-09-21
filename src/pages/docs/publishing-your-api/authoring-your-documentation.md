@@ -1,5 +1,5 @@
 ---
-title: "Writing your docs"
+title: "Write your docs"
 updated: 2023-07-21
 contextual_links:
   - type: section

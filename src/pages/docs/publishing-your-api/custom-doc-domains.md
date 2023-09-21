@@ -1,5 +1,5 @@
 ---
-title: "Using custom domains"
+title: "Use custom domains"
 updated: 2023-01-12
 contextual_links:
   - type: section

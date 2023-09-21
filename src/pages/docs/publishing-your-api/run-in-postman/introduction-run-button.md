@@ -1,9 +1,6 @@
 ---
-title: "Using Run in Postman buttons"
-order: 108
+title: "Use Run in Postman buttons"
 updated: 2022-09-21
-page_id: "introduction_run_button"
-warning: false
 contextual_links:
   - type: section
     name: "Additional resources"

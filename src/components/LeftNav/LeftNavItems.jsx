@@ -1092,31 +1092,35 @@ export const leftNavItems = [
     url: '/docs/publishing-your-api/api-documentation-overview/',
     subMenuItems1: [
       {
-        name: 'API documentation overview',
+        name: 'API docs overview',
         url: '/docs/publishing-your-api/api-documentation-overview/',
       },
       {
-        name: 'Generating API documentation',
+        name: 'Document a collection',
+        url: '/docs/publishing-your-api/document-a-collection/',
+      },
+      {
+        name: 'Add docs to an API',
         url: '/docs/publishing-your-api/documenting-your-api/',
       },
       {
-        name: 'Writing your docs',
+        name: 'Write your docs',
         url: '/docs/publishing-your-api/authoring-your-documentation/',
       },
       {
-        name: 'Publishing your docs',
+        name: 'Publish your docs',
         url: '/docs/publishing-your-api/publishing-your-docs/',
       },
       {
-        name: 'Viewing documentation',
+        name: 'View documentation',
         url: '/docs/publishing-your-api/viewing-documentation/',
       },
       {
-        name: 'Using custom domains',
+        name: 'Use custom domains',
         url: '/docs/publishing-your-api/custom-doc-domains/',
       },
       {
-        name: 'Setting up authentication for public APIs',
+        name: 'Set up authentication for public APIs',
         url: '/docs/publishing-your-api/setting-up-authentication-for-public-apis/',
       },
       {
@@ -1125,15 +1129,15 @@ export const leftNavItems = [
         slug: '/docs/publishing-your-api/run-in-postman/introduction-run-button/',
         subMenuItems2: [
           {
-            name: 'Using Run in Postman buttons',
+            name: 'Use Run in Postman buttons',
             url: '/docs/publishing-your-api/run-in-postman/introduction-run-button/',
           },
           {
-            name: 'Creating Run in Postman buttons',
+            name: 'Create Run in Postman buttons',
             url: '/docs/publishing-your-api/run-in-postman/creating-run-button/',
           },
           {
-            name: 'Coding with Run in Postman',
+            name: 'Code with Run in Postman',
             url: '/docs/publishing-your-api/run-in-postman/run-button-API/',
           },
         ],
