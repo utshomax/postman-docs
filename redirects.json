@@ -2338,5 +2338,13 @@
   {
     "from": "/docs/administration/audit-logs/",
     "to": "/docs/administration/managing-your-team/audit-logs/"
+  },
+  {
+    "from": "/docs/administration/about-postman-enterprise/",
+    "to": "/docs/administration/enterprise/about-postman-enterprise/"
+  },
+  {
+    "from": "/docs/administration/managing-enterprise-deployment/",
+    "to": "/docs/administration/enterprise/managing-enterprise-deployment/"
   }
 ]

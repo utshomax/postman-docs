@@ -1212,6 +1212,21 @@ export const leftNavItems = [
         ],
       },
       {
+        name: 'Enterprise',
+        subParentSlug: 'enterprise',
+        slug: '/docs/administration/enterprise/about-postman-enterprise/',
+        subMenuItems2: [
+          {
+            name: 'About Postman Enterprise plans',
+            url: '/docs/administration/enterprise/about-postman-enterprise/',
+          },
+          {
+            name: 'Managing Enterprise deployment',
+            url: '/docs/administration/enterprise/managing-enterprise-deployment/',
+          },
+        ],
+      },
+      {
         name: 'Configuring domain verification and capture',
         url: '/docs/administration/managing-your-team/configuring-domain-capture/',
       },
@@ -1226,10 +1241,6 @@ export const leftNavItems = [
       {
         name: 'About resource usage',
         url: '/docs/administration/resource-usage/',
-      },
-      {
-        name: 'About Postman Enterprise plans',
-        url: '/docs/administration/about-postman-enterprise/'
       },
       {
         name: 'Single Sign-On (SSO)',
@@ -1304,10 +1315,6 @@ export const leftNavItems = [
             url: '/docs/administration/scim-provisioning/configuring-scim-with-onelogin/'
           }
         ],
-      },
-      {
-        name: 'Managing Enterprise deployment',
-        url: '/docs/administration/managing-enterprise-deployment/',
       },
       {
         name: 'Admin FAQs',
