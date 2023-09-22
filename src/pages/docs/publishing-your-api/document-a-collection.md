@@ -32,10 +32,6 @@ Postman automatically generates basic documentation for any collection you creat
 
 To make your documentation even more valuable to users, [add descriptions](/docs/publishing-your-api/authoring-your-documentation/) to the items in your collection. Any descriptions you add are automatically included in the documentation for your collection.
 
-<!--
-Once you've generated documentation for your collection or API, users can [view the documentation](/docs/publishing-your-api/viewing-documentation/) in Postman. By default your documentation is private, so you must share a collection or API with others before they can access it. If you're creating a public API, you can [publish your documentation](/docs/publishing-your-api/publishing-your-docs/) to make it publicly available to anyone with a web browser.
--->
-
 ## Contents
 
 * [Add descriptions to a collection](#add-descriptions-to-a-collection)
