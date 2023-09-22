@@ -1172,82 +1172,18 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'API Governance',
-    parentSlug: 'api-governance',
-    url: '/docs/api-governance/api-governance-overview/',
-    subMenuItems1: [
-      {
-        name: 'API Governance and API Security in Postman',
-        url: '/docs/api-governance/api-governance-overview/',
-      },
-      {
-        name: 'API definition',
-        subParentSlug: 'api-definition',
-        slug: '/docs/api-governance/api-definition/api-definition-warnings/',
-        subMenuItems2: [
-          {
-            name: 'Rule violations in the API definition',
-            url: '/docs/api-governance/api-definition/api-definition-warnings/',
-          },
-          {
-            name: 'OpenAPI 3.0 rules',
-            url: '/docs/api-governance/api-definition/openapi3/',
-          },
-          {
-            name: 'OpenAPI 2.0 rules',
-            url: '/docs/api-governance/api-definition/openapi2/',
-          },
-        ],
-      },
-      {
-        name: 'Requests',
-        subParentSlug: 'api-testing',
-        slug: '/docs/api-governance/api-testing/api-testing-warnings/',
-        subMenuItems2: [
-          {
-            name: 'Warnings in API requests',
-            url: '/docs/api-governance/api-testing/api-testing-warnings/',
-          },
-          {
-            name: 'Security warnings',
-            url: '/docs/api-governance/api-testing/security-warnings/',
-          },
-        ],
-      },
-      {
-        name: 'Configurable rules',
-        subParentSlug: 'configurable-rules',
-        slug: '/docs/api-governance/configurable-rules/configurable-rules-overview/',
-        subMenuItems2: [
-          {
-            name: 'Configurable rules overview',
-            url: '/docs/api-governance/configurable-rules/configurable-rules-overview/',
-          },
-          {
-            name: 'Configuring API Governance rules',
-            url: '/docs/api-governance/configurable-rules/configuring-api-governance-rules/',
-          },
-          {
-            name: 'Configuring API Security rules',
-            url: '/docs/api-governance/configurable-rules/configuring-api-security-rules/',
-          },
-          {
-            name: 'Adding custom governance functions',
-            url: '/docs/api-governance/configurable-rules/configuring-custom-governance-functions/',
-          },
-          {
-            name: 'Using Spectral in Postman',
-            url: '/docs/api-governance/configurable-rules/spectral/',
-          },
-        ],
-      },
-    ],
-  },
-  {
     name: 'Administration',
     parentSlug: 'administration',
     url: '/docs/administration/managing-your-team/managing-your-team/',
     subMenuItems1: [
+      {
+        name: 'Onboarding checklist',
+        url: '/docs/administration/onboarding-checklist/',
+      },
+      {
+        name: 'Migrating data between teams',
+        url: '/docs/administration/team-merge/',
+      },
       {
         name: 'Managing your team',
         subParentSlug: 'managing-your-team',
@@ -1258,10 +1194,26 @@ export const leftNavItems = [
             url: '/docs/administration/managing-your-team/managing-your-team/',
           },
           {
-            name: 'Configuring domain verification and capture',
-            url: '/docs/administration/managing-your-team/configuring-domain-capture/',
+            name: 'Configuring team settings',
+            url: '/docs/administration/managing-your-team/team-settings/',
+          },
+          {
+            name: 'Managing API keys',
+            url: '/docs/administration/managing-your-team/managing-api-keys/',
+          },
+          {
+            name: 'Secret Scanner',
+            url: '/docs/administration/managing-your-team/secret-scanner/',
+          },
+          {
+            name: 'Using audit logs',
+            url: '/docs/administration/managing-your-team/audit-logs/',
           },
         ],
+      },
+      {
+        name: 'Configuring domain verification and capture',
+        url: '/docs/administration/managing-your-team/configuring-domain-capture/',
       },
       {
         name: 'Purchasing Postman',
@@ -1278,30 +1230,6 @@ export const leftNavItems = [
       {
         name: 'About Postman Enterprise plans',
         url: '/docs/administration/about-postman-enterprise/'
-      },
-      {
-        name: 'Configuring team settings',
-        url: '/docs/administration/team-settings/',
-      },
-      {
-        name: 'Using audit logs',
-        url: '/docs/administration/audit-logs/',
-      },
-      {
-        name: 'Managing API keys',
-        url: '/docs/administration/managing-api-keys/',
-      },
-      {
-        name: 'Secret Scanner',
-        url: '/docs/administration/secret-scanner/',
-      },
-      {
-        name: 'Onboarding checklist',
-        url: '/docs/administration/onboarding-checklist/',
-      },
-      {
-        name: 'Migrating data between teams',
-        url: '/docs/administration/team-merge/',
       },
       {
         name: 'Single Sign-On (SSO)',
@@ -1387,6 +1315,79 @@ export const leftNavItems = [
       },
     ],
   },
+  {
+    name: 'API Governance',
+    parentSlug: 'api-governance',
+    url: '/docs/api-governance/api-governance-overview/',
+    subMenuItems1: [
+      {
+        name: 'API Governance and API Security in Postman',
+        url: '/docs/api-governance/api-governance-overview/',
+      },
+      {
+        name: 'API definition',
+        subParentSlug: 'api-definition',
+        slug: '/docs/api-governance/api-definition/api-definition-warnings/',
+        subMenuItems2: [
+          {
+            name: 'Rule violations in the API definition',
+            url: '/docs/api-governance/api-definition/api-definition-warnings/',
+          },
+          {
+            name: 'OpenAPI 3.0 rules',
+            url: '/docs/api-governance/api-definition/openapi3/',
+          },
+          {
+            name: 'OpenAPI 2.0 rules',
+            url: '/docs/api-governance/api-definition/openapi2/',
+          },
+        ],
+      },
+      {
+        name: 'Requests',
+        subParentSlug: 'api-testing',
+        slug: '/docs/api-governance/api-testing/api-testing-warnings/',
+        subMenuItems2: [
+          {
+            name: 'Warnings in API requests',
+            url: '/docs/api-governance/api-testing/api-testing-warnings/',
+          },
+          {
+            name: 'Security warnings',
+            url: '/docs/api-governance/api-testing/security-warnings/',
+          },
+        ],
+      },
+      {
+        name: 'Configurable rules',
+        subParentSlug: 'configurable-rules',
+        slug: '/docs/api-governance/configurable-rules/configurable-rules-overview/',
+        subMenuItems2: [
+          {
+            name: 'Configurable rules overview',
+            url: '/docs/api-governance/configurable-rules/configurable-rules-overview/',
+          },
+          {
+            name: 'Configuring API Governance rules',
+            url: '/docs/api-governance/configurable-rules/configuring-api-governance-rules/',
+          },
+          {
+            name: 'Configuring API Security rules',
+            url: '/docs/api-governance/configurable-rules/configuring-api-security-rules/',
+          },
+          {
+            name: 'Adding custom governance functions',
+            url: '/docs/api-governance/configurable-rules/configuring-custom-governance-functions/',
+          },
+          {
+            name: 'Using Spectral in Postman',
+            url: '/docs/api-governance/configurable-rules/spectral/',
+          },
+        ],
+      },
+    ],
+  },
+
   {
     name: 'Using reports',
     parentSlug: 'reports',
