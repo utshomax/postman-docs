@@ -561,7 +561,11 @@
   },
   {
     "from": "/docs/postman/collection-runs/command-line-integration-with-newman/",
-    "to": "/docs/collections/running-collections/using-newman-cli/command-line-integration-with-newman/"
+    "to": "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
+  },
+  {
+    "from": "/docs/collections/running-collections/using-newman-cli/command-line-integration-with-newman/",
+    "to": "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
   },
   {
     "from": "/docs/postman/collection-runs/debugging-a-collection-run/",
