@@ -39,15 +39,13 @@ Postman offers audit logs for 90 days to users on Professional plans, and 180 da
 
 You can view audit logs in Postman by selecting **Team** in the header, then selecting **Audit Logs**.
 
-<img alt="Team menu with audit logs selected" src="https://assets.postman.com/postman-docs/menu-select-audit-logs-v9.13.0.jpg" width="300px"/>
-
 Audit logs offer information about actions taken by members of your team. Each event includes the user, the user's email address, the event name and a description of the event, the user's IP address, and the date and time of the action, including the user's timezone.
 
-<img alt="Audit logs dashboard" src="https://assets.postman.com/postman-docs/audit-logs-dashboard-v9.jpg" width="1000px"/>
+![Audit logs dashboard](https://assets.postman.com/postman-docs/audit-logs-dashboard-v9.jpg)
 
 You can use filters to view actions by date range, event type, and user.
 
-<img alt="Filtering the audit log results" src="https://assets.postman.com/postman-docs/audit-logs-filter-actions-v9.jpg" width="600px"/>
+![Filtering the audit log results](https://assets.postman.com/postman-docs/audit-logs-filter-actions-v9.jpg)
 
 ## Exporting audit logs from the dashboard
 
