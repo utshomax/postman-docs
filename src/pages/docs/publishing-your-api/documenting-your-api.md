@@ -58,6 +58,7 @@ To generate a new collection for API documentation, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, next to **Collections**, select **+** and select **Generate from definition**.
+1. Select the checkbox if you want Postman to suggest updates for the collection when the API definition changes. This checkbox is selected by default. Learn more about [keeping a collection in sync with an API](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/#keeping-a-collection-in-sync-with-an-api).
 1. Change any settings to customize the new collection.
 1. Select **Generate Collection**.
 
@@ -87,7 +88,7 @@ To edit a documentation collection for an API, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, select a collection and select **View complete documentation**.
-1. Enter a description for any item. To learn more about using Postman's built-in editing tools, see [Writing your docs](/docs/publishing-your-api/authoring-your-documentation/).
+1. Enter a description for any item. To learn more about using Postman's built-in editing tools, see [Write your docs](/docs/publishing-your-api/authoring-your-documentation/).
 1. Select outside of the editor to save your new content.
 
 > Schema documentation can't be edited directly. Instead, [edit your API's definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/) and then select **Save**. Postman automatically updates the API docs to reflect the latest changes to your definition.
@@ -110,4 +111,4 @@ After adding documentation to an API in Postman, you can edit and format the doc
 * To learn how users can access your documentation, go to [View documentation](/docs/publishing-your-api/viewing-documentation/). By default your documentation is private, so you must share an API with others before they can access it.
 * To learn how to publish your API to make it available to consumers, go to [Publishing an API version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).
 
-> <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> See how to document an API with a collection template that's a boilerplate for documentation that you can quickly customize and reuse. To try out this template, select [API documentation](https://www.postman.com/templates/e9c28f47-1253-44af-a2f3-20dce4da1f18/API-documentation).
+> <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> See how to document an API with a collection template that's a boilerplate for documentation that you can customize and reuse. To try out this template, select [API documentation](https://www.postman.com/templates/e9c28f47-1253-44af-a2f3-20dce4da1f18/API-documentation).

@@ -41,12 +41,12 @@ To make your documentation even more valuable to users, [add descriptions](/docs
 
 ## Add descriptions to a collection
 
-Add descriptions to your collections (including collections linked to an API) to enhance your documentation and add more detail. You can use the Postman editor to view how your content will look as you write it, or use standard Markdown syntax to write content. With either editor, you can format text, add links, and insert images and videos in your documentation.
+Add descriptions to your collections (including [collections linked to an API](/docs/publishing-your-api/documenting-your-api/)) to enhance your documentation and add more detail. You can use the Postman editor to view how your content will look as you write it, or use standard Markdown syntax to write content. With either editor, you can format text, add links, and insert images and videos in your documentation.
 
 To add a description to a collection or folder, do the following:
 
 1. Select **Collections** in the sidebar, and then select a collection or a folder.
-1. Enter a description in the **Overview** tab. To learn more about using Postman's built-in editing tools, see [Writing your docs](/docs/publishing-your-api/authoring-your-documentation/).
+1. Enter a description in the **Overview** tab. To learn more about using Postman's built-in editing tools, see [Write your docs](/docs/publishing-your-api/authoring-your-documentation/).
 1. Select outside of the editor to save your new content.
 
 <img alt="Documenting a collection" src="https://assets.postman.com/postman-docs/v10/documentation-overview-tab-v10.jpg" >
@@ -55,7 +55,7 @@ To add a description to a request, do the following:
 
 1. Select **Collections** in the sidebar, and then select a request.
 1. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the right sidebar.
-1. Enter a description in the right sidebar. To learn more about using Postman's built-in editing tools, see [Writing your docs](/docs/publishing-your-api/authoring-your-documentation/).
+1. Enter a description in the right sidebar. To learn more about using Postman's built-in editing tools, see [Write your docs](/docs/publishing-your-api/authoring-your-documentation/).
 1. Select outside of the editor to save your new content.
 
 <img alt="Documenting a request" src="https://assets.postman.com/postman-docs/v10/documentation-pane-v10.jpg" width="600px">
@@ -90,6 +90,6 @@ After documenting a collection in Postman, you can edit and format the docs and 
 * To document an API in Postman, go to [Add documentation to an API](/docs/publishing-your-api/documenting-your-api/).
 * To learn more about editing and formatting your documentation, go to [Write your docs](/docs/publishing-your-api/authoring-your-documentation/).
 * To learn how users can access your documentation, go to [View documentation](/docs/publishing-your-api/viewing-documentation/). By default your documentation is private, so you must share a collection with others before they can access it.
-* To make your documentation publicly available, visit [Publishing your docs](/docs/publishing-your-api/publishing-your-docs/).
+* To make your documentation publicly available, visit [Publish your docs](/docs/publishing-your-api/publishing-your-docs/).
 
-> <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> See how to document an API with a collection template that's a boilerplate for documentation that you can quickly customize and reuse. To try out this template, select [API documentation](https://www.postman.com/templates/e9c28f47-1253-44af-a2f3-20dce4da1f18/API-documentation).
+> <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> See how to document an API with a collection template that's a boilerplate for documentation that you can customize and reuse. To try out this template, select [API documentation](https://www.postman.com/templates/e9c28f47-1253-44af-a2f3-20dce4da1f18/API-documentation).

@@ -61,11 +61,11 @@ Learn more about [writing your documentation](/docs/publishing-your-api/authorin
 
 ## Publish your documentation
 
-Publishing a collection makes your documentation publicly available to anyone in the world. As you update your collection, the published documentation automatically stays in sync with your latest changes.
+Publishing a collection makes your documentation publicly available on `getpostman.com` or your own [custom domain](/docs/publishing-your-api/custom-doc-domains/). As you update your collection, the published documentation automatically stays in sync with your latest changes.
 
 Learn more about [publishing your documentation](/docs/publishing-your-api/publishing-your-docs/).
 
-> You can't publish a collection that's linked to an API. Instead, you can [publish a version of an API](http://localhost:8000/docs/designing-and-developing-your-api/versioning-an-api/api-versions/) to make your API and its documentation available to consumers.
+> You can't publish a collection that's linked to an API. Instead, you can [publish a version of an API](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/) to make your API and its documentation available to consumers.
 
 ## View documentation
 
