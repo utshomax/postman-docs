@@ -33,15 +33,10 @@ The API Builder provides one place to view, create, and manage all of your API's
 ## Contents
 
 * [View schema documentation](#view-schema-documentation)
-(#viewing-schema-documentation)
 * [Create new documentation for an API](#create-new-documentation-for-an-api)
-(#creating-new-documentation-for-an-api)
 * [Add existing documentation to an API](#add-existing-documentation-to-an-api)
-(#adding-existing-documentation-to-an-api)
 * [Edit API documentation](#edit-api-documentation)
-(#editing-api-documentation)
 * [Delete API documentation](#delete-api-documentation)
-(#deleting-api-documentation)
 * [Next steps](#next-steps)
 
 ## View schema documentation

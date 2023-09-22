@@ -89,7 +89,7 @@ To learn more about API-first development, see the [API development overview](/d
 
 Once you've generated documentation for your collection or API, users can view the documentation in Postman. By default your documentation is private, so you must share a collection or API with others before they can access it. If you're creating a public API, you can publish your documentation to make it publicly available to anyone with a web browser.
 
-To learn more about documenting your API, see [Generating API documentation](/docs/publishing-your-api/documenting-your-api/).
+To learn more about documenting your API, see [API documentation overview](/docs/publishing-your-api/api-documentation-overview/).
 
 ## Monitoring your API
 

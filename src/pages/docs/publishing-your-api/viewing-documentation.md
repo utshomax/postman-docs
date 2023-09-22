@@ -11,9 +11,9 @@ contextual_links:
     url: "https://youtu.be/XNVo9WkCoak"
 ---
 
-Documentation helps you get more out of the collections and APIs that you work with in Postman. View documentation to learn more about the requests in a collection or how to interact with an API's endpoints.
+[Documentation](/docs/publishing-your-api/api-documentation-overview/) helps you get more out of the collections and APIs that you work with in Postman. View documentation to learn more about the requests in a collection or how to interact with an API's endpoints.
 
-By default, [documentation for a collection or API](/docs/publishing-your-api/documenting-your-api/) is private. You can view the documentation for any collections or APIs that have been shared with you directly or through a team workspace.
+By default, documentation for a collection or API is private. You can view the documentation for any collections or APIs that have been shared with you directly or through a team workspace.
 
 Documentation authors can also choose to [publish their documentation](/docs/publishing-your-api/publishing-your-docs/) to make it publicly available. Anyone in the world can view the public documentation using a web browser. If the associated collection is in a public workspace, people can also view the collection in Postman.
 
@@ -56,7 +56,7 @@ Use the following options to customize the appearance of the documentation:
 
 ## Viewing API documentation
 
-Postman automatically generates API docs for any OpenAPI 2.0 or 3.0 API [defined in the API Builder](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/). API developers can also [create detailed documentation](/docs/publishing-your-api/documenting-your-api/#generating-api-documentation) for any API to help consumers understand and interact with their API's endpoints.
+Postman automatically generates API docs for any OpenAPI 2.0 or 3.0 API [defined in the API Builder](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/). API developers can also [create detailed documentation](/docs/publishing-your-api/documenting-your-api/) for any API to help consumers understand and interact with their API's endpoints.
 
 To view documentation for an API, do the following:
 
@@ -82,7 +82,7 @@ Each request entry has a description of the request, the method and URL, the req
 Use the options in the header to customize the appearance of the documentation:
 
 * **Version** - If the documentation has multiple versions, you can select a specific release to view. (You can no longer create versions or releases for collections in Postman v10, but API producers can [publish versions of an API](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).)
-* **Environment** - If an [environment](/docs/publishing-your-api/documenting-your-api/#associating-environments-with-documentation) was published with the documentation, you can select it to populate any variables.
+* **Environment** - If an [environment](/docs/publishing-your-api/document-a-collection/#associate-environments-with-documentation) was published with the documentation, you can select it to populate any variables.
 * **Layout** - **Double column** displays sample code in a column next to the documentation. **Single column** displays sample code inline beneath each request.
 * **Language** - Select a language to use for sample code.
 * **Language Settings** - Select the language settings icon <img alt="Language settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to customize settings for any of the available languages.

@@ -22,7 +22,7 @@ contextual_links:
     url: "https://blog.postman.com/resize-images-add-captions-in-postman-editor/"
 ---
 
-Postman [automatically generates documentation](/docs/publishing-your-api/documenting-your-api/) for every collection you create. The documentation includes all of the requests in your collection, along with examples, authorization details, and example code.
+Postman [automatically generates documentation](/docs/publishing-your-api/document-a-collection/) for every collection you create, including [collections linked to an API](/docs/publishing-your-api/documenting-your-api/). The documentation includes all of the requests in your collection, along with examples, authorization details, and example code.
 
 To help your teammates ([or the world](/docs/publishing-your-api/publishing-your-docs/)) better understand what you're building, add detailed descriptions to your collection and the items in it. Use the Postman editor to view how your content will look as you write it. Or use the classic Markdown editor to structure and format your descriptions using [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). All of your descriptions are included in the documentation for your collection.
 

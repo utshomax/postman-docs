@@ -153,7 +153,7 @@ Deleting an example removes it from the collection and from the associated API d
 
 ## Using examples in documentation
 
-Postman automatically [generates documentation](/docs/publishing-your-api/documenting-your-api/) for every collection you create. The generated documentation [includes any examples](/docs/publishing-your-api/authoring-your-documentation/#including-examples) that have been added to the collection. If you edit an example, the documentation is automatically updated with your changes.
+Postman automatically [generates documentation](/docs/publishing-your-api/document-a-collection/) for every collection you create. The generated documentation [includes any examples](/docs/publishing-your-api/authoring-your-documentation/#including-examples) that have been added to the collection. If you edit an example, the documentation is automatically updated with your changes.
 
 <img alt="Examples in documentation" src="https://assets.postman.com/postman-docs/documentation-including-examples-v9.jpg" width="663px">
 
@@ -166,4 +166,4 @@ Examples give more details and clarification for your API and help your team to 
 You can use examples to set up a mock server and enhance your documentation.
 
 * To learn how to use examples to set up a mock server, visit [Setting up mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
-* To learn how to include examples in your API documentation, visit [Documenting your API](/docs/publishing-your-api/documenting-your-api/).
+* To learn how to include examples in your API documentation, visit [Documenting your API](/docs/publishing-your-api/document-a-collection/).

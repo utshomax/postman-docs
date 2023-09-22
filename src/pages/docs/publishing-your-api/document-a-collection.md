@@ -39,11 +39,8 @@ Once you've generated documentation for your collection or API, users can [view 
 ## Contents
 
 * [Add descriptions to a collection](#add-descriptions-to-a-collection)
-(#documenting-a-collection)
 * [Document gRPC and WebSocket collections](#document-grpc-and-websocket-collections)
-(#documenting-grpc-and-websocket-collections)
 * [Associate environments with documentation](#associate-environments-with-documentation)
-(#associating-environments-with-documentation)
 * [Next steps](#next-steps)
 
 ## Add descriptions to a collection
