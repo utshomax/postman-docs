@@ -45,7 +45,7 @@ It's powered by the Postman Public API Network and your Collections. Flows provi
 
 You can also deploy your Flow and run them in the cloud. Webhooks enable you to integrate with other applications.
 
-## What can you do with flows?
+## What can you do with Flows?
 
 Flows are the ultimate way to take data from an API-enabled product, manipulate it to meet your needs, and see the results. Or you could take data from one API-enabled product, make decisions or process the data, then send it to another API-enabled product. This means you can build real-time integrations between two API-enabled products.
 
@@ -59,7 +59,7 @@ Check out these Flows Workspaces filled with examples:
 * [Utility Flows](https://www.postman.com/postman/workspace/utility-flows)
 * [Miscellaneous Flows](https://www.postman.com/postman/workspace/miscellaneous-flows)
 
-These workspaces include example flows utilizing a multitude of APIs for different products and tools, plus all the related collections and environments needed. You can [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) the flows to your own workspace, try them out, and then make your own changes and customizations.
+These workspaces include example Flows utilizing a multitude of APIs for different products and tools, plus all the related collections and environments needed. You can [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) the Flows to your own workspace, try them out, and then make your own changes and customizations.
 
 > Postman Flows is free to try on the Free plan for up to three users. Postman Flows is available as an add-on to the [Basic and Professional plans](https://www.postman.com/pricing/). Postman Flows isn't currently available in the Enterprise plan.
 
@@ -71,8 +71,8 @@ To get started using Postman Flows in a Professional or Basic plan, assign the F
 
 To get started, check out the following resources:
 
-* [Navigating a flow and the flows interface](/docs/postman-flows/gs/the-flows-interface/)
-* [First flows concept: blocks and connections](/docs/postman-flows/concepts/blocks-and-connections/)
+* [Navigating a Flow and the Flows interface](/docs/postman-flows/gs/the-flows-interface/)
+* [First Flows concept: blocks and connections](/docs/postman-flows/concepts/blocks-and-connections/)
 * [Flows Snippets: examples for how to use every block](https://www.postman.com/postman/workspace/flows-snippets/)
 
 ## Contribute
