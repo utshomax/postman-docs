@@ -1313,19 +1313,19 @@ export const leftNavItems = [
   {
     name: 'Billing',
     parentSlug: 'billing',
-    url: '/docs/administration/billing/billing/',
+    url: '/docs/billing/billing/',
     subMenuItems1: [
       {
         name: 'Billing',
-        url: '/docs/administration/billing/billing/',
+        url: '/docs/billing/billing/',
       },
       {
         name: 'Purchasing Postman',
-        url: '/docs/administration/billing/buying/',
+        url: '/docs/billing/buying/',
       },
       {
         name: 'About resource usage',
-        url: '/docs/administration/billing/resource-usage/',
+        url: '/docs/billing/resource-usage/',
       },
     ],
   },
