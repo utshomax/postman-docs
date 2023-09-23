@@ -2349,14 +2349,14 @@
   },
   { 
     "from": "/docs/administration/billing/",
-    "to": "/docs/administration/billing/billing"
+    "to": "/docs/billing/billing"
   },
   { 
     "from": "/docs/administration/buying/",
-    "to": "/docs/administration/billing/buying/"
+    "to": "/docs/billing/buying/"
   },
   { 
     "from": "/docs/administration/resource-usage/",
-    "to": "/docs/administration/billing/resource-usage/"
+    "to": "/docs/billing/resource-usage/"
   }
 ]
