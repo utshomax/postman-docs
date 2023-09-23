@@ -1,6 +1,5 @@
 ---
-title: "Configuring domain verification and capture"
-warning: false
+title: "Configure domain verification and capture"
 updated: 2023-03-07
 contextual_links:
   - type: section

@@ -1181,24 +1181,24 @@ export const leftNavItems = [
         url: '/docs/administration/onboarding-checklist/',
       },
       {
-        name: 'Migrating data between teams',
+        name: 'Migrate data between teams',
         url: '/docs/administration/team-merge/',
       },
       {
-        name: 'Managing your team',
+        name: 'Team management',
         subParentSlug: 'managing-your-team',
         slug: '/docs/administration/managing-your-team/managing-your-team/',
         subMenuItems2: [
           {
-            name: 'Managing your team',
+            name: 'Manage your team',
             url: '/docs/administration/managing-your-team/managing-your-team/',
           },
           {
-            name: 'Configuring team settings',
+            name: 'Configure team settings',
             url: '/docs/administration/managing-your-team/team-settings/',
           },
           {
-            name: 'Managing API keys',
+            name: 'Manage API keys',
             url: '/docs/administration/managing-your-team/managing-api-keys/',
           },
           {
@@ -1206,7 +1206,7 @@ export const leftNavItems = [
             url: '/docs/administration/managing-your-team/secret-scanner/',
           },
           {
-            name: 'Using audit logs',
+            name: 'Audit logs',
             url: '/docs/administration/managing-your-team/audit-logs/',
           },
         ],
@@ -1217,11 +1217,11 @@ export const leftNavItems = [
         slug: '/docs/administration/enterprise/about-postman-enterprise/',
         subMenuItems2: [
           {
-            name: 'About Postman Enterprise plans',
+            name: 'Postman Enterprise plans',
             url: '/docs/administration/enterprise/about-postman-enterprise/',
           },
           {
-            name: 'Managing Enterprise deployment',
+            name: 'Enterprise deployment',
             url: '/docs/administration/enterprise/managing-enterprise-deployment/',
           },
         ],
@@ -1236,11 +1236,11 @@ export const leftNavItems = [
             url: '/docs/administration/sso/intro-sso/',
           },
           {
-            name: 'Configuring SSO for a team',
+            name: 'Configure SSO for a team',
             url: '/docs/administration/sso/admin-sso/',
           },
           {
-            name: 'Signing in to an SSO team',
+            name: 'Sign in to an SSO team',
             url: '/docs/administration/sso/user-sso/',
           },
           {
@@ -1287,21 +1287,21 @@ export const leftNavItems = [
             url: '/docs/administration/scim-provisioning/scim-provisioning-overview/',
           },
           {
-            name: 'Configuring SCIM with Okta',
+            name: 'Configure SCIM with Okta',
             url: '/docs/administration/scim-provisioning/configuring-scim-with-okta/',
           },
           {
-            name: 'Configuring SCIM with Azure AD',
+            name: 'Configure SCIM with Azure AD',
             url: '/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/',
           },
           {
-            name: 'Configuring SCIM with OneLogin',
+            name: 'Configure SCIM with OneLogin',
             url: '/docs/administration/scim-provisioning/configuring-scim-with-onelogin/'
           }
         ],
       },
       {
-        name: 'Configuring domain verification and capture',
+        name: 'Configure domain verification and capture',
         url: '/docs/administration/managing-your-team/configuring-domain-capture/',
       },
       {
@@ -1316,11 +1316,11 @@ export const leftNavItems = [
     url: '/docs/billing/billing/',
     subMenuItems1: [
       {
-        name: 'Billing',
+        name: 'Manage billing',
         url: '/docs/billing/billing/',
       },
       {
-        name: 'Purchasing Postman',
+        name: 'Purchase Postman',
         url: '/docs/billing/buying/',
       },
       {

@@ -1,5 +1,5 @@
 ---
-title: "Purchasing Postman"
+title: "Purchase Postman"
 updated: 2023-05-22
 contextual_links:
   - type: section

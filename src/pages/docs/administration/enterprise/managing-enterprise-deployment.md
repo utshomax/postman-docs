@@ -1,9 +1,6 @@
 ---
-title: "Managing Enterprise deployment"
-order: 140.5
-page_id: "managing_enterprise_deployment"
+title: "Enterprise deployment"
 updated: 2022-03-14
-warning: false
 contextual_links:
   - type: section
     name: "Additional resources"

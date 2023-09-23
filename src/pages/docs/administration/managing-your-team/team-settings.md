@@ -1,5 +1,5 @@
 ---
-title: "Configuring team settings"
+title: "Configure team settings"
 updated: 2023-06-21
 contextual_links:
   - type: section

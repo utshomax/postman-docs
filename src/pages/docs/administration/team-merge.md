@@ -1,5 +1,5 @@
 ---
-title: "Migrating data between teams"
+title: "Migrate data between teams"
 updated: 2020-10-02
 ---
 

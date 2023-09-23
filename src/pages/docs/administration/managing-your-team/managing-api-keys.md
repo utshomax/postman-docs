@@ -1,5 +1,5 @@
 ---
-title: "Managing API keys"
+title: "Manage API keys"
 updated: 2023-09-15
 contextual_links:
   - type: section

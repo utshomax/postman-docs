@@ -1,9 +1,6 @@
 ---
-title: "Using audit logs"
-order: 126
-page_id: "audit_logs"
+title: "Audit logs"
 updated: 2022-03-01
-warning: false
 contextual_links:
   - type: section
     name: "Additional resources"

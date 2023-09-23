@@ -1,5 +1,5 @@
 ---
-title: "About Postman Enterprise plans"
+title: "Postman Enterprise plans"
 updated: 2023-06-15
 contextual_links:
   - type: section

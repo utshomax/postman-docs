@@ -1,5 +1,5 @@
 ---
-title: "Billing"
+title: "Manage billing"
 updated: 2023-09-15
 tags:
   - "pro"

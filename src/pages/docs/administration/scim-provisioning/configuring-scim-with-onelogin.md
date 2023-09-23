@@ -1,5 +1,5 @@
 ---
-title: "Configuring SCIM with OneLogin"
+title: "Configure SCIM with OneLogin"
 order: 142
 updated: 2022-03-17
 page_id: "configuring_scim_with_onelogin"

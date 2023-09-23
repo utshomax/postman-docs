@@ -1,5 +1,5 @@
 ---
-title: "Managing your team"
+title: "Manage your team"
 updated: 2023-06-08
 contextual_links:
   - type: section
