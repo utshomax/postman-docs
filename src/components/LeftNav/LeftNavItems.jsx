@@ -1302,7 +1302,7 @@ export const leftNavItems = [
       },
       {
         name: 'Configure domain verification and capture',
-        url: '/docs/administration/managing-your-team/configuring-domain-capture/',
+        url: '/docs/administration/configuring-domain-capture/',
       },
       {
         name: 'Admin FAQs',
