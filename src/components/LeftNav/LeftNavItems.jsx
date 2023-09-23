@@ -1227,22 +1227,6 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Configuring domain verification and capture',
-        url: '/docs/administration/managing-your-team/configuring-domain-capture/',
-      },
-      {
-        name: 'Purchasing Postman',
-        url: '/docs/administration/buying/',
-      },
-      {
-        name: 'Billing',
-        url: '/docs/administration/billing/',
-      },
-      {
-        name: 'About resource usage',
-        url: '/docs/administration/resource-usage/',
-      },
-      {
         name: 'Single Sign-On (SSO)',
         subParentSlug: 'sso',
         slug: '/docs/administration/sso/intro-sso/',
@@ -1317,8 +1301,31 @@ export const leftNavItems = [
         ],
       },
       {
+        name: 'Configuring domain verification and capture',
+        url: '/docs/administration/managing-your-team/configuring-domain-capture/',
+      },
+      {
         name: 'Admin FAQs',
         url: '/docs/administration/admin-faqs/',
+      },
+    ],
+  },
+  {
+    name: 'Billing',
+    parentSlug: 'billing',
+    url: '/docs/publishing-your-api/documenting-your-api/',
+    subMenuItems1: [
+      {
+        name: 'Billing',
+        url: '/docs/administration/billing/',
+      },
+      {
+        name: 'Purchasing Postman',
+        url: '/docs/administration/buying/',
+      },
+      {
+        name: 'About resource usage',
+        url: '/docs/administration/resource-usage/',
       },
     ],
   },
