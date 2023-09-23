@@ -88,8 +88,8 @@ Postman logs events related to your [team](#team), [users](#users), and [billing
 | Updated Team Discovery | A user updated your team's discoverability status. |
 | Added Domain for Domain Capture | A Team Admin added a domain for domain capture. |
 | Verified Domain for Domain Capture | The domain added for domain capture has been verified. |
-| Enabled Domain Team Management | A Team Admin enabled [domain team management](/docs/administration/managing-your-team/configuring-domain-capture/). |
-| User Joined via Domain Capture | A user joined through [team domain management](/docs/administration/managing-your-team/configuring-domain-capture/). |
+| Enabled Domain Team Management | A Team Admin enabled [domain team management](/docs/administration/configuring-domain-capture/). |
+| User Joined via Domain Capture | A user joined through [team domain management](/docs/administration/configuring-domain-capture/). |
 | Disabled Domain Team Management | A Team Admin disabled domain team management. |
 | Deleted Domain for Domain Capture | A Team Admin deleted a domain for domain capture. |
 | Added Custom Domain | A [custom domain](/docs/publishing-your-api/custom-doc-domains/) was added to your team. |
@@ -108,7 +108,7 @@ Postman logs events related to your [team](#team), [users](#users), and [billing
 | SCIM User De-provisioned | The SCIM admin de-provisioned a user. |
 | Exported Data | A user requested an export of their data. |
 | Downloaded Exported Data | A user downloaded an export of their data. |
-| Added Custom Alert | A new [custom secret alert](/docs/administration/secret-scanner/#custom-alerts) was created for your team. |
+| Added Custom Alert | A new [custom secret alert](/docs/administration/managing-your-team/secret-scanner/#custom-alerts) was created for your team. |
 | Edited Custom Alert | A custom token alert's name or regex pattern was changed, or the alert was turned on or off. |
 | Deleted Custom Token Alert  | A custom token alert was deleted. |
 

@@ -5,7 +5,7 @@ updated: 2023-09-15
 
 > **[Secret Scanner reports are available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
 
-The **Secret Scanner** report provides Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) with insights into the status of detected secrets, enabling you to make informed decisions that improve the security and compliance of your Postman team. The report covers detected, unresolved, and resolved secrets within your organization that have been found by Postman's [Secret Scanner](/docs/administration/secret-scanner/).
+The **Secret Scanner** report provides Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) with insights into the status of detected secrets, enabling you to make informed decisions that improve the security and compliance of your Postman team. The report covers detected, unresolved, and resolved secrets within your organization that have been found by Postman's [Secret Scanner](/docs/administration/managing-your-team/secret-scanner/).
 
 To view the report, open Postman and select **Team > Team Settings** in the Postman header. Select **Secret Scanner** in the left sidebar, then select the **Reports** tab.
 

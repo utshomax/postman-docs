@@ -113,7 +113,7 @@ See [Enabling team discovery](/docs/collaborating-in-postman/working-with-your-t
 
 Select **Secret Scanner** to review default alerts for tokens issued by common service providers that the Postman Secret Scanner scans for. You can also add and review custom alerts that scan for your team's proprietary tokens and third-party app tokens.
 
-See [Secret Scanner](/docs/administration/secret-scanner/) to learn more about scanning public workspaces to detect exposed secrets.
+See [Secret Scanner](/docs/administration/managing-your-team/secret-scanner/) to learn more about scanning public workspaces to detect exposed secrets.
 
 ## Adding custom domains
 
@@ -157,4 +157,4 @@ See [Managing invites](/docs/administration/managing-your-team/managing-your-tea
 
 Select **Enterprise application** to download the Postman Enterprise app.
 
-See [Managing Enterprise deployment](/docs/administration/managing-enterprise-deployment/) to learn more about managing and deploying the Postman Enterprise app.
+See [Managing Enterprise deployment](/docs/administration/enterprise/managing-enterprise-deployment/) to learn more about managing and deploying the Postman Enterprise app.
