@@ -1313,7 +1313,7 @@ export const leftNavItems = [
   {
     name: 'Billing',
     parentSlug: 'billing',
-    url: '/docs/publishing-your-api/documenting-your-api/',
+    url: '/docs/administration/billing/',
     subMenuItems1: [
       {
         name: 'Billing',
