@@ -33,5 +33,5 @@ Every request and response is sent to the console, which keeps a history of even
 ### General tips
 
 * If a request is failing, make sure the environment is set, check the console to inspect the request, and make sure all of the variables are set.
-* Put either **Output** blocks or **Log** blocks at every place the information flows when things aren't working as expected.
+* Put either **Output** blocks or **Log** blocks at every place the information Flows when things aren't working as expected.
 * Test only one possible cause at a time to isolate the issue to a single block.

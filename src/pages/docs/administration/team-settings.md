@@ -57,8 +57,8 @@ Your team profile includes:
 * A list containing links to your team members' profiles
 * A **Team Description** section
 * A **Highlights** section with pinned elements
-* A **Related collections and flows** section with collections and flows using your team's APIs (suggested by Postman)
-* Links to all your team's public collections, APIs, workspaces, and flows
+* A **Related collections and Flows** section with collections and Flows using your team's APIs (suggested by Postman)
+* Links to all your team's public collections, APIs, workspaces, and Flows
 
 <img alt="Example of a filled-in team profile" src="https://assets.postman.com/postman-docs/v10/team-settings-overview-v10.1.jpg" width="800px"/>
 
@@ -92,7 +92,7 @@ Keep the following in mind when you upload a logo, cover photo, or favicon:
 
 A public team profile encourages other users to collaborate with you in a public workspace, enabling you to ask for contributions, gather feedback, and increase your API's discovery in search results.
 
-If you enable your team's public profile, your team will be visible on [the Public API Network](https://www.postman.com/explore), along with your public workspaces, collections, APIs, and flows. Learn more about [the Public API Network and best practices for sharing elements](/docs/collaborating-in-postman/public-api-network/public-api-network-overview/).
+If you enable your team's public profile, your team will be visible on [the Public API Network](https://www.postman.com/explore), along with your public workspaces, collections, APIs, and Flows. Learn more about [the Public API Network and best practices for sharing elements](/docs/collaborating-in-postman/public-api-network/public-api-network-overview/).
 
 To make your [team profile](https://go.postman.co/settings/team/general) public, do the following:
 

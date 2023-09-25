@@ -24,7 +24,7 @@ This tutorial shows you how to create a Slack bot in Postman Flows. The bot will
 ## Prerequisites
 
 * A free [Slack](https://slack.com/) account.
-* Understand how webhooks work in flows from the [automatic runs overview](/docs/postman-flows/concepts/automatic-runs/).
+* Understand how webhooks work in Flows from the [automatic runs overview](/docs/postman-flows/concepts/automatic-runs/).
 
 ## Contents
 

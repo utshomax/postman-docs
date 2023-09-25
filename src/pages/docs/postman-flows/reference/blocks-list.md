@@ -19,7 +19,7 @@ The blocks available in Postman Flows are described below.
 
 Enables large amounts of formatted text to be entered. The values in the variables section can be included in the text using `{{key}}` where `key` is the name of your variable.
 
-**Variables** - Named information or assigned values that can be included in the text using the `{{key}}` format. Variables created in flows aren't available to test scripts or other features outside Postman Flows.
+**Variables** - Named information or assigned values that can be included in the text using the `{{key}}` format. Variables created in Flows aren't available to test scripts or other features outside Postman Flows.
 
 **Out** - Sends the information entered in the text box to the next block.
 
@@ -137,7 +137,7 @@ Outputs the text that you enter.
 
 <img alt="Start block" src="https://assets.postman.com/postman-labs-docs/all-blocks/new-ux-start-block.png" width="110px"/>
 
-The first block that runs when a Flow is run. When deploying to the cloud [running flows on the cloud](/docs/postman-flows/concepts/automatic-runs/), Can be configured to hold information (either as text or in JSON format) for testing locally.
+The first block that runs when a Flow is run. When deploying to the cloud [running Flows on the cloud](/docs/postman-flows/concepts/automatic-runs/), Can be configured to hold information (either as text or in JSON format) for testing locally.
 
 [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bcbae7f3155f2e86b54eb2)
 

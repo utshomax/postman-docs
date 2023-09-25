@@ -23,9 +23,9 @@ The **Output** block accepts information from other blocks and creates a visuali
 
 <img alt="Output block" src="https://assets.postman.com/postman-docs/v10/stock-charts-v10.gif" fetchpriority="low" loading="lazy"/>
 
-This image shows four types of output visualization types: line chart, text, gauge, and boolean. The following tutorials show how to create each of these visualization types. You can also find links to example flows for other visualization types in the [Visualization types with example flows](#visualization-types-with-example-flows) section.
+This image shows four types of output visualization types: line chart, text, gauge, and boolean. The following tutorials show how to create each of these visualization types. You can also find links to example Flows for other visualization types in the [Visualization types with example Flows](#visualization-types-with-example-flows) section.
 
-For examples of how to use **Output** blocks in your flows, see the [Stock Dashboard](https://www.postman.com/postman/workspace/utility-flows/flow/64123b57c224290033fcb089) and [WordPress Sentiment Analysis](https://www.postman.com/postman/workspace/utility-flows/flow/6413acdb8c4c54003a4ad611) flows.
+For examples of how to use **Output** blocks in your Flows, see the [Stock Dashboard](https://www.postman.com/postman/workspace/utility-flows/flow/64123b57c224290033fcb089) and [WordPress Sentiment Analysis](https://www.postman.com/postman/workspace/utility-flows/flow/6413acdb8c4c54003a4ad611) Flows.
 
 ## Contents
 
@@ -33,7 +33,7 @@ For examples of how to use **Output** blocks in your flows, see the [Stock Dashb
 * [Text](#text)
 * [Gauge](#gauge)
 * [Boolean](#boolean)
-* [Visualization types with example flows](#visualization-types-with-example-flows)
+* [Visualization types with example Flows](#visualization-types-with-example-flows)
 
 ## Line chart
 
@@ -96,9 +96,9 @@ To create an example boolean **Output** block, do the following:
 
     ![Boolean visualization type](https://assets.postman.com/postman-docs/v10/flows-boolean-v10.jpg)
 
-## Visualization types with example flows
+## Visualization types with example Flows
 
-You can select the output formats listed below from the **Output** block's dropdown menu. Select the **Example** links to open flows in Postman that show each output format.
+You can select the output formats listed below from the **Output** block's dropdown menu. Select the **Example** links to open Flows in Postman that show each output format.
 
 * **Text** - Shows the information connected to the input as lines of text. [Text example](https://www.postman.com/postman/workspace/flows-snippets/flow/6414e20b95e5e70033f028c9)
 
