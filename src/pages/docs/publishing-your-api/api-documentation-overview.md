@@ -55,7 +55,7 @@ Learn more about [adding documentation to an API](/docs/publishing-your-api/docu
 
 ## Write your documentation
 
-Add descriptions to your collections (including collections link to an API) to enhance your documentation and provide more detail. You can use the Postman editor to view how your content will look as you write it, or use standard Markdown syntax to write content. With either editor, you can format text, add links, and insert images and videos in your documentation.
+Add descriptions to your collections (including collections linked to an API) to enhance your documentation and provide more detail. You can use the Postman editor to view how your content will look as you write it, or use standard Markdown syntax to write content. With either editor, you can format text, add links, and insert images and videos in your documentation.
 
 Learn more about [writing your documentation](/docs/publishing-your-api/authoring-your-documentation/).
 
