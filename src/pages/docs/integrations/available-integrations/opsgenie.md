@@ -44,9 +44,9 @@ To set up your Opsgenie API key, refer to [Create an API integration](https://su
 
     <img src="https://assets.postman.com/postman-docs/opsgenie-save-configuration-b.jpg" alt="Save opsgenie configuration" width="500px"/>
 
-2. Select **Add Integration**.
+1. Select **Add Integration**.
 
-3. After you create the integration, you have access to a list of all of the integrations created by your team. Select an integration to inspect its run logs.
+1. After you create the integration, you have access to a list of all of the integrations created by your team. Select an integration to inspect its run logs.
 
     > **You can view your configured integrations on the [Browse Integrations](https://go.postman.co/integrations/browse) page.** You can also view integrations that have been configured for a monitor by opening the monitor and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Learn more about [viewing or editing integrations](/docs/integrations/intro-integrations/#viewing-or-editing-integrations).
 
