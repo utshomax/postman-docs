@@ -63,7 +63,7 @@ The Raw view is a large text area with the response body. It can indicate whethe
 
 The Preview view renders the response in a sandboxed iframe. Some web frameworks by default return HTML errors, and Preview can be especially helpful for debugging in those cases.
 
-Due to iframe sandbox restrictions, JavaScript and images are turned off in the iframe. For binary response types, you can select “Send and download” to save the response locally. You can then view it using the appropriate viewer. This gives you the flexibility to test audio files, PDFs, zip files, or any other file types the API returns.
+Due to iframe sandbox restrictions, JavaScript and images are turned off in the iframe. For binary response types, you can select the down arrow next to **Send** and select **Send and Download** to save the response locally. You can then view it using the appropriate viewer. This gives you the flexibility to test audio files, PDFs, zip files, or any other file types the API returns.
 
 <img alt="Response Preview view" src="https://assets.postman.com/postman-docs/response-preview-view.jpg" width="300px"/>
 
@@ -75,15 +75,13 @@ The Visualize view renders the data in the API response according to visualizati
 
 ## Cookies
 
-You can inspect cookies sent by the server in the **Cookies** tab. A cookie's entry includes its name, value, the associated domain and path, and other information about the cookie.
+You can select **Cookies** to inspect cookies sent by the server. A cookie's entry includes its name, value, the associated domain and path, and other information about the cookie.
 
 To learn more about working with cookies in Postman, see  [Using cookies](/docs/sending-requests/cookies/).
 
 ## Headers
 
 Headers are displayed as key-value pairs under the **Headers** tab. Hover over the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> next to the header name to get a description of the header according to the HTTP specification.
-
-> If you send a HEAD request, Postman will show the **Headers** tab by default instead of the **Body** tab.
 
 ## Test results
 
@@ -97,25 +95,22 @@ Postman displays network information when your API returns a response. Hover ove
 
 When you make an `https` request, the network icon includes a padlock. When you hover over the icon, the network information will show more information including [certificate verification](/docs/sending-requests/certificates/) details.
 
-<img alt="Hover over the network icon for network information" src="https://assets.postman.com/postman-docs/https-network-info-response.jpg" width="300px"/>
+<img alt="Hover over the network icon for network information" src="https://assets.postman.com/postman-docs/v10/https-network-info-response-v10-18.jpg" width="393px"/>
 
 ### SSL verification errors
 
-If you have SSL verification enabled in Postman's global settings and verification fails, the response area will display an error message. Select the link in the error message to turn off verification globally and immediately run the request again.
+If SSL verification is enabled and verification fails, the response area displays an error message. Select the link to open the console and view more information about the error.
 
-If SSL is turned off globally but turned on for your request, Postman displays the error and gives you a link to open the console.
+<img alt="Verification error" src="https://assets.postman.com/postman-docs/v10/response-error-disable-ssl-v10-18.jpg" width="414px"/>
 
-<img alt="Verification error" src="https://assets.postman.com/postman-docs/response-error-disable-ssl.jpg" width="300px"/>
+If needed, you can disable SSL verification for the request or disable it globally in Postman:
 
-> If you select **Disable SSL Verification** in the error message, you will need to turn it back on if you want to verify certificates for future requests. To enable it globally, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**. Under **Request**, turn on **SSL certificate verification**.
-
-<!--  -->
-
-> To enable SSL verification for only the current request, select the **Settings** tab in the request, and then select **Enable SSL certificate verification**.
+* To disable SSL verification for a request, select the **Settings** tab in the request and turn off **Enable SSL certificate verification**.
+* To disable SSL verification globally, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**. Under **Request**, turn off **SSL certificate verification**.
 
 If you have **SSL verification** turned off and your request returns a certificate verification error, you can hover over the network information for details about the error.
 
-<img alt="Certificate error" src="https://assets.postman.com/postman-docs/certificate-error-in-network-info.jpg" width="400px"/>
+<img alt="Certificate error" src="https://assets.postman.com/postman-docs/v10/certificate-error-in-network-info-v10-18.jpg" width="393px"/>
 
 For requests that return data successfully but with a certificate verification failure, the [console](/docs/sending-requests/troubleshooting-api-requests/) displays a warning.
 
@@ -123,7 +118,7 @@ For requests that return data successfully but with a certificate verification f
 
 Postman displays the response code returned by the API. Hover over the response code to get a short description of the code and what it means.
 
-<img alt="Hover over the response code to get a description" src="https://assets.postman.com/postman-docs/response-code.jpg" width="300px"/>
+<img alt="Hover over the response code to get a description" src="https://assets.postman.com/postman-docs/v10/response-code-v10-18.jpg" width="348px"/>
 
 Some API responses also contain custom messages that can help you understand response codes. For example, if you receive a `401 Unauthorized` response, the message might tell you to check the token you used in the request. If custom messages are returned, they're displayed in the **Body** of the response.
 
@@ -131,7 +126,7 @@ Some API responses also contain custom messages that can help you understand res
 
 Postman automatically calculates the time in milliseconds it took for the response to arrive from the server. This information can be useful for some preliminary performance testing. Hover over the response time for a graph with information on how long each event in the process took.
 
-<img alt="Hover over the response code for a description" src="https://assets.postman.com/postman-docs/response-time.jpg" width="400px"/>
+<img alt="Hover over the response code for a description" src="https://assets.postman.com/postman-docs/v10/response-time-v10-18.jpg" width="443px"/>
 
 ## Response size
 
@@ -145,7 +140,7 @@ If a request has been saved in a collection, you can save responses for that req
 * Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> then **Save response to file** to save the response as a JSON file.
 * Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> then  **Clear response** to remove any data in the response viewer. Note that for event-based requests, this is only available after the stream is closed.
 
-<img alt="Save an API response as an example or file" src="https://assets.postman.com/postman-docs/v10/save-response-v10.jpg" width="505px"/>
+<img alt="Save an API response as an example or file" src="https://assets.postman.com/postman-docs/v10/save-response-v10-18.jpg" width="518px"/>
 
 ## Viewing security warnings
 
