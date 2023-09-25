@@ -1,9 +1,6 @@
 ---
 title: "Azure AD"
-order: 135
 updated: 2022-03-14
-page_id: "azure_ad"
-warning: false
 ---
 
 > **[SSO with Azure AD is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
@@ -20,7 +17,7 @@ To configure SSO with Azure Active Directory (AD), you can use the available Pos
 
 Before configuring a SAML application in Azure AD, you must [configure SSO in Postman](/docs/administration/sso/admin-sso/). When choosing the **Authentication Type**, select **SAML 2.0**. Name your authentication and **Proceed**.
 
-<img alt="Configure identity provider details in Postman" src="https://assets.postman.com/postman-docs/configure-identity-provider-details-v9.14.jpg"/>
+<img alt="Configure identity provider details in Postman" src="https://assets.postman.com/postman-docs/v10/configure-identity-provider-v10.jpg"/>
 
 To continue configuring your SAML application, do the following:
 
@@ -45,7 +42,7 @@ To continue configuring your SAML application, do the following:
 
 1. Select **Save Authentication** in Postman.
 
-You can test your SAML configuration by creating a test user in Azure AD and assigning them the Postman app. If you've opted to [automatically add new users](/docs/administration/sso/admin-sso/#automatically-adding-new-users) when configuring SAML, you'll be able to immediately sign in Postman with the test user's credentials to confirm the process works as expected. If you haven't opted to automatically add new users, you can manually [invite the test user](/docs/administration/managing-your-team/managing-your-team/#inviting-users) to your Postman team and then sign in to Postman with the test user's credentials.
+You can test your SAML configuration by creating a test user in Azure AD and assigning them the Postman app. If you've chosen to [automatically add new users](/docs/administration/sso/admin-sso/#automatically-adding-new-users) when configuring SAML, you'll be able to immediately sign in Postman with the test user's credentials to confirm the process works as expected. If you haven't chosen to automatically add new users, you can manually [invite the test user](/docs/administration/managing-your-team/managing-your-team/#inviting-users) to your Postman team and then sign in to Postman with the test user's credentials.
 
 > If you encounter any issues, confirm you've added and saved the correct configuration values on both Postman and Azure AD. [Contact Postman support](https://www.postman.com/support/) for further help.
 
