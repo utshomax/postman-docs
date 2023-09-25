@@ -39,7 +39,7 @@ export const leftNavItems = [
         url: '/docs/introduction/overview/',
       },
       {
-        name: 'Other resources',
+        name: 'Resources',
         url: '/docs/introduction/resources/',
       },
       {
@@ -47,7 +47,7 @@ export const leftNavItems = [
         url: '/docs/introduction/feedback/',
       },
       {
-        name: 'Troubleshoot app issues',
+        name: 'Troubleshooting',
         url: '/docs/introduction/troubleshooting-inapp/',
       },
     ],
@@ -58,7 +58,7 @@ export const leftNavItems = [
     url: '/docs/getting-started/overview/',
     subMenuItems1: [
       {
-        name: 'Welcome to Postman',
+        name: 'Welcome',
         url: '/docs/getting-started/overview/',
       },
       {
@@ -144,7 +144,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Install and account setup',
+        name: 'Install and configure',
         subParentSlug: '/docs/getting-started/installation/',
         slug: '/docs/getting-started/installation/installation-and-updates/',
         subMenuItems2: [
@@ -172,7 +172,7 @@ export const leftNavItems = [
 
       },
       {
-        name: 'Importing and exporting data',
+        name: 'Import and export data',
         subParentSlug: 'importing-and-exporting',
         slug: '/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/',
         subMenuItems2: [
@@ -205,16 +205,16 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Sending requests',
+    name: 'Send requests',
     parentSlug: 'sending-requests',
     url: '/docs/sending-requests/requests/',
     subMenuItems1: [
       {
-        name: 'Building requests',
+        name: 'Build requests',
         url: '/docs/sending-requests/requests/',
       },
       {
-        name: 'Authorizing requests',
+        name: 'Authorize requests',
         subParentSlug: 'authorization',
         slug: '/docs/sending-requests/authorization/authorization/',
         subMenuItems2: [
@@ -265,47 +265,47 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Receiving responses',
+        name: 'API response structure',
         url: '/docs/sending-requests/responses/',
       },
       {
-        name: 'Grouping requests in collections',
+        name: 'Group requests',
         url: '/docs/sending-requests/intro-to-collections/',
       },
       {
-        name: 'Using variables',
+        name: 'Store and reuse values',
         url: '/docs/sending-requests/variables/',
       },
       {
-        name: 'Managing environments',
+        name: 'Group sets of values',
         url: '/docs/sending-requests/managing-environments/',
       },
       {
-        name: 'Visualizing responses',
+        name: 'Visualize request responses',
         url: '/docs/sending-requests/visualizer/',
       },
       {
-        name: 'Specifying examples',
+        name: 'Create request response examples',
         url: '/docs/sending-requests/examples/',
       },
       {
-        name: 'Using cookies',
+        name: 'Create and capture cookies',
         url: '/docs/sending-requests/cookies/',
       },
       {
-        name: 'Working with certificates',
+        name: 'Add and manage certificates',
         url: '/docs/sending-requests/certificates/',
       },
       {
-        name: 'Generating client code',
+        name: 'Generate client code',
         url: '/docs/sending-requests/generate-code-snippets/',
       },
       {
-        name: 'Troubleshooting requests',
+        name: 'Debug requests',
         url: '/docs/sending-requests/troubleshooting-api-requests/',
       },
       {
-        name: 'Capturing request data',
+        name: 'Capture request data',
         subParentSlug: 'capturing-request-data',
         slug: '/docs/sending-requests/capturing-request-data/capture-overview/',
         subMenuItems2: [
@@ -336,7 +336,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Using GraphQL requests',
+        name: 'Send GraphQL requests',
         subParentSlug: 'graphql',
         slug: '/docs/sending-requests/graphql/graphql-overview/',
         subMenuItems2: [
@@ -363,7 +363,7 @@ export const leftNavItems = [
         ]
       },
       {
-        name: 'Using gRPC requests',
+        name: 'Send gRPC requests',
         subParentSlug: 'grpc',
         slug: '/docs/sending-requests/grpc/grpc-client-overview/',
         subMenuItems2: [
@@ -410,11 +410,11 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Using WebSocket requests',
+        name: 'Send WebSocket requests',
         url: '/docs/sending-requests/websocket/websocket/',
       },
       {
-        name: 'Using the MQTT client',
+        name: 'Send MQTT client requests',
         subParentSlug: 'mqtt-client',
         slug: '/docs/sending-requests/mqtt-client/mqtt-client-overview/',
         subMenuItems2: [
@@ -433,13 +433,13 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Using SOAP requests',
+        name: 'Send SOAP requests',
         url: '/docs/sending-requests/soap/making-soap-requests/',
       },
     ],
   },
   {
-    name: 'Writing scripts',
+    name: 'Write scripts',
     parentSlug: 'writing-scripts',
     url: '/docs/writing-scripts/intro-to-scripts/',
     subMenuItems1: [
@@ -448,19 +448,19 @@ export const leftNavItems = [
         url: '/docs/writing-scripts/intro-to-scripts/',
       },
       {
-        name: 'Writing pre-requests scripts',
+        name: 'Write pre-requests scripts',
         url: '/docs/writing-scripts/pre-request-scripts/',
       },
       {
-        name: 'Writing tests',
+        name: 'Write tests',
         url: '/docs/writing-scripts/test-scripts/',
       },
       {
-        name: 'Running tests with monitors',
+        name: 'Run tests with monitors',
         url: '/docs/writing-scripts/test-with-monitors/',
       },
       {
-        name: 'Script references',
+        name: 'Scripting reference',
         subParentSlug: 'script-references',
         slug: '/docs/writing-scripts/script-references/test-examples/',
         subMenuItems2: [
@@ -481,7 +481,7 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Using collections',
+    name: 'Postman Collections',
     parentSlug: 'collections',
     url: '/docs/collections/collections-overview/',
     subMenuItems1: [
@@ -490,11 +490,11 @@ export const leftNavItems = [
         url: '/docs/collections/collections-overview/',
       },
       {
-        name: 'Using collections',
+        name: 'Create and manage collections',
         url: '/docs/collections/using-collections/',
       },
       {
-        name: 'Running collections',
+        name: 'Run collections',
         subParentSlug: 'running-collections',
         slug: '/docs/collections/running-collections/running-collections-overview/',
         subMenuItems2: [
@@ -533,11 +533,11 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Testing API performance',
+        name: 'Test API performance',
         url: '/docs/collections/testing-api-performance/',
       },
       {
-        name: 'Using Live Collections',
+        name: 'Live Collections',
         subParentSlug: 'live-collections',
         slug: '/docs/collections/live-collections/live-collections-overview/',
         subMenuItems2: [
@@ -560,7 +560,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Using Newman CLI',
+        name: 'Newman CLI',
         subParentSlug: 'using-newman-cli',
         slug: '/docs/collections/using-newman-cli/command-line-integration-with-newman/',
         subMenuItems2: [
@@ -605,12 +605,12 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Using Postman Flows',
+    name: 'Postman Flows',
     parentSlug: 'postman-flows',
     url: '/docs/postman-flows/gs/flows-overview/',
     subMenuItems1: [
       {
-        name: 'Getting started with Flows',
+        name: 'Get started with Flows',
         subParentSlug: 'gs',
         slug: '/docs/postman-flows/gs/flows-overview/',
         subMenuItems2: [
@@ -629,7 +629,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Postman Flows concepts',
+        name: 'Flows concepts',
         subParentSlug: 'concepts',
         slug: '/docs/postman-flows/concepts/blocks-and-connections/',
         subMenuItems2: [
@@ -664,7 +664,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Tutorials',
+        name: 'Flows tutorials',
         subParentSlug: 'tutorials',
         slug: '/docs/postman-flows/tutorials/flows-tutorials-overview/',
         subMenuItems2: [
@@ -699,7 +699,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Postman Flows reference',
+        name: 'Flows reference',
         subParentSlug: 'reference',
         slug: '/docs/postman-flows/reference/blocks-list/',
         subMenuItems2: [
