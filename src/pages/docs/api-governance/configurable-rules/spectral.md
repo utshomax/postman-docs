@@ -26,7 +26,7 @@ Spectral is a linting engine that helps you define custom rules and enforce them
 * [Spectral custom functions](#spectral-custom-functions)
     * [Spectral function parameters](#spectral-function-parameters)
     * [Spectral function return statement properties](#spectral-function-return-statement-properties)
-    * [Exporting your custom function](#exporting-your-custom-function)
+    * [Export your custom function](#export-your-custom-function)
     * [Example: Checking that a value isn't in a list](#example-checking-that-a-value-isnt-in-a-list)
     * [Example: Rule that uses a custom function](#example-rule-that-uses-a-custom-function)
 
@@ -179,7 +179,7 @@ rules:
 
 You can [add custom governance functions](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/) to use in your custom governance rules. You can use these guidelines to write custom functions in JavaScript and add them to your custom governance rules. Postman supports CommonJS syntax for custom functions.
 
-To write a custom function, your function must have the [`targetVal` parameter](#spectral-function-parameters), the [`message` property](#spectral-function-return-statement-properties) in your return statement, and the [`module.exports` object property](#exporting-your-custom-function) exporting your function.
+To write a custom function, your function must have the [`targetVal` parameter](#spectral-function-parameters), the [`message` property](#spectral-function-return-statement-properties) in your return statement, and the [`module.exports` object property](#export-your-custom-function) exporting your function.
 
 To add a custom function to a rule, your rule must have the [`then.function` property](#spectral-rule-properties) whose value is the name of the file containing the custom function. The filename is defined using the **Name** field when you [create a custom function](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/#adding-a-custom-function).
 
@@ -222,7 +222,7 @@ return [
 ];
 ```
 
-### Exporting your custom function
+### Export your custom function
 
 **Required**. Export your custom function. This enables you to add the custom function's filename to your custom rule using the [`then.function` property](#spectral-rule-properties). To learn more, see [Example: Rule that uses a custom function](#example-rule-that-uses-a-custom-function).
 
