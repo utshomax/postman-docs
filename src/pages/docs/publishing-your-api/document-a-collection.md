@@ -30,7 +30,7 @@ contextual_links:
 
 Postman automatically generates basic documentation for any collection you create. The documentation includes details about all of the requests in your collection, along with sample code in various client languages. Request details include the method, authorization type, URL, headers, request and response structures, and examples. In addition, the documentation displays all key-value pairs for request parameters, headers, and bodies.
 
-To make your documentation even more valuable to users, [add descriptions](/docs/publishing-your-api/authoring-your-documentation/) to the items in your collection. Any descriptions you add are automatically included in the documentation for your collection.
+To make your documentation even more valuable to users, [add descriptions](/docs/publishing-your-api/authoring-your-documentation/#adding-descriptions-to-your-documentation) to the items in your collection. Any descriptions you add are automatically included in the documentation for your collection.
 
 ## Contents
 
