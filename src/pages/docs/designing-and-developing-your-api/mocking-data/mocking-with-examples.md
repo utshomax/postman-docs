@@ -1,9 +1,6 @@
 ---
 title: "Mocking with examples"
-order: 85
-page_id: "mocking_with_examples"
-updated: 2021-11-10
-search_keyword: "x-mock-response-code"
+updated: 2023-09-25
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -20,7 +17,6 @@ contextual_links:
   - type: link
     name: "Shifting Left with Postman"
     url: "https://blog.postman.com/shifting-left-with-postman/"
-warning: false
 ---
 
 [Mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) simulate an API by returning predefined data, enabling you to develop or test against an API before it's production-ready (or without using production data). In Postman, mock servers rely on [examples](/docs/sending-requests/examples/) saved in a collection to return mock data. Follow the steps below to get a hands-on demonstration of how mock servers and examples work together, and to learn how you can integrate them into your API workflow.
@@ -83,7 +79,7 @@ For **Mock server name**, enter `M1`. You can also specify other details for you
 
 * **Collection** is already set to `C1`, as you chose to mock this collection.
 * If your saved example uses [environment variables](/docs/sending-requests/managing-environments/) (like `{{base_url}}/my/path`), you must select the corresponding **Environment** or the mock server won't work. In this case, the example doesn't use any variables, so you can select **No Environment**.
-* By default, mock servers are publicly accessible. If you select the **Make mock server private** checkbox, the mock server will no longer be public. You can share it with team members and [provide permission](/docs/collaborating-in-postman/roles-and-permissions/) to edit or view. For now, do not select this checkbox.
+* By default, mock servers are publicly accessible. If you select the **Make mock server private** checkbox, the mock server will no longer be public. You can share it with team members and [provide permission](/docs/collaborating-in-postman/roles-and-permissions/) to edit or view. For now, don't select this checkbox.
 
 When you're done configuring the mock server, select **Create Mock Server**. You can access the mock server at any time by selecting **Mock Servers** in the sidebar.
 
@@ -111,7 +107,7 @@ You do, however, have a saved example with the path `/get` and the request metho
 
 ### Step 6: Add another example
 
-To further demonstrate how responses from the mock service are entirely dependent on your saved examples, add another example to the `C1` collection. Repeat steps 1 to 3 above to save a request to the collection and then save the response as an example `E2`, this time using the request URL `https://postman-echo.com/test`.
+To further show how responses from the mock service are entirely dependent on your saved examples, add another example to the `C1` collection. Repeat steps 1 to 3 to save a request to the collection and then save the response as an example `E2`, this time using the request URL `https://postman-echo.com/test`.
 
 <img alt="Add a second example" src="https://assets.postman.com/postman-docs/v10/mock-examples-step6a-v10.jpg" width="808px">
 
@@ -120,7 +116,7 @@ Sending a `GET` request to `https://postman-echo.com/test` returns a 404 error, 
 * **Example E1** - `GET` request to path `/get`
 * **Example E2** - `GET` request to path `/test`
 
-Finally, repeat [step 5](#step-5-send-a-request-to-the-mock-server), but this time add the path `/test` to the end of the mock server URL when sending the request. This returns the expected 404 response.
+Repeat [step 5](#step-5-send-a-request-to-the-mock-server), but this time add the path `/test` to the end of the mock server URL when sending the request. This returns the expected 404 response.
 
 <img alt="Send another request to the mock server" src="https://assets.postman.com/postman-docs/v10/mock-examples-step6b-v10-2.jpg" width="750px">
 
