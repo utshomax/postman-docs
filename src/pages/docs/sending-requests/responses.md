@@ -1,6 +1,6 @@
 ---
 title: "Receiving responses"
-updated: 2022-01-27
+updated: 2023-09-25
 contextual_links:
   - type: section
     name: "Additional resources"

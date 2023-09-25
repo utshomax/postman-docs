@@ -1,8 +1,6 @@
 ---
 title: "OpenAPI"
-order: 175
-updated: 2022-02-16
-page_id: "working_with_openAPI"
+updated: 2023-09-25
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -22,11 +20,12 @@ contextual_links:
   - type: link
     name: "Getting Started with OpenAPI in Postman | Postman Intergalactic"
     url: "https://youtu.be/YRzpziA35Mg"
-warning: false
 ---
 
-You can import your existing OpenAPI 3.0 and 3.1 definitions (OpenAPI Specification) into Postman. Postman supports both YAML and JSON formats. You can choose to upload a file or folder, enter a URL, directly copy your JSON/YAML, import from a code repository, or import an API gateway. In Postman, select **Import** to bring up the following screen:
+You can import your existing OpenAPI 1.0, 2.0, 3.0, and 3.1 definitions (OpenAPI Specification) into Postman. Postman supports both YAML and JSON formats.
 
-[![import sample](https://assets.postman.com/postman-docs/v10/import-export-import-ui-v10-2.jpg)](https://assets.postman.com/postman-docs/v10/import-export-import-ui-v10-1.jpg)
+To import an API definition into Postman, select **Import** in the sidebar. You can choose to upload a file or folder, enter a URL, paste your raw JSON or YAML, import from a code repository, or import from an API gateway. Learn more about [importing an API into Postman](/docs/designing-and-developing-your-api/importing-an-api/).
 
-When importing your OpenAPI specification, Postman follows the endpoint hierarchy defined in the specification to create a collection organized into folders (if your OpenAPI has multiple levels of hierarchy). Postman uses the schemas defined in the OpenAPI to generate request and response bodies.
+<img alt="Import an OpenAPI definition" src="https://assets.postman.com/postman-docs/v10/import-export-import-ui-v10-17.jpg" />
+
+After importing your API into Postman, you can [edit your API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/), [validate your definition](/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/), or [generate a collection](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/#generating-a-collection) or [generate server code](/docs/designing-and-developing-your-api/developing-an-api/generating-server-code/) based on your definition. You can also [connect your API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/) to collaborate with others.
