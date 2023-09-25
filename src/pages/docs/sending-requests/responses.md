@@ -37,7 +37,7 @@ The Postman response viewer helps you to visualize and check the correctness of 
 
 ## Response body
 
-The Postman **Body** tab gives you several tools to help you understand the response quickly. You can view the body in one of four views: _Pretty_, _Raw_, _Preview_, and _Visualize_.
+The Postman **Body** tab gives you several tools to help you understand the response. You can view the body in one of four views: _Pretty_, _Raw_, _Preview_, and _Visualize_.
 
 > **Finding items in responses** - To open the search bar, select the search icon <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> in the results pane. You can also place your cursor in the response and select **⌘+F** or **Ctrl+F**. This option isn't available in a response's Preview or Visualize views.
 
@@ -61,7 +61,7 @@ The Raw view is a large text area with the response body. It can indicate whethe
 
 ### Preview
 
-The Preview view renders the response in a sandboxed iframe. Some web frameworks by default return HTML errors, and Preview can be especially helpful for debugging in those cases.
+The Preview view renders the response in an iframe sandbox. Some web frameworks by default return HTML errors, and Preview can be helpful for debugging in those cases.
 
 Due to iframe sandbox restrictions, JavaScript and images are turned off in the iframe. For binary response types, you can select the down arrow next to **Send** and select **Send and Download** to save the response locally. You can then view it using the appropriate viewer. This gives you the flexibility to test audio files, PDFs, zip files, or any other file types the API returns.
 
@@ -103,16 +103,16 @@ If SSL verification is enabled and verification fails, the response area display
 
 <img alt="Verification error" src="https://assets.postman.com/postman-docs/v10/response-error-disable-ssl-v10-18.jpg" width="414px"/>
 
-If needed, you can disable SSL verification for the request or disable it globally in Postman:
+If needed, you can turn off SSL verification for the request or turn it off globally in Postman:
 
-* To disable SSL verification for a request, select the **Settings** tab in the request and turn off **Enable SSL certificate verification**.
-* To disable SSL verification globally, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**. Under **Request**, turn off **SSL certificate verification**.
+* To turn off SSL verification for a request, select the **Settings** tab in the request and turn off **Enable SSL certificate verification**.
+* To turn off SSL verification globally, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**. Under **Request**, turn off **SSL certificate verification**.
 
 If you have **SSL verification** turned off and your request returns a certificate verification error, you can hover over the network information for details about the error.
 
 <img alt="Certificate error" src="https://assets.postman.com/postman-docs/v10/certificate-error-in-network-info-v10-18.jpg" width="393px"/>
 
-For requests that return data successfully but with a certificate verification failure, the [console](/docs/sending-requests/troubleshooting-api-requests/) displays a warning.
+For requests that are successful and return data but with a certificate verification failure, the [console](/docs/sending-requests/troubleshooting-api-requests/) displays a warning.
 
 ## Response code
 
@@ -130,7 +130,7 @@ Postman automatically calculates the time in milliseconds it took for the respon
 
 ## Response size
 
-Postman displays the approximate size of the response. Hover over the response size to get a breakdown by body and header sizes.
+Postman displays the size of the response. Hover over the response size to get a breakdown by body and header sizes.
 
 ## Saving responses
 
@@ -138,7 +138,7 @@ If a request has been saved in a collection, you can save responses for that req
 
 * Select **Save as Example** to save the response as an [example](/docs/sending-requests/examples/) that you can access later.
 * Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> then **Save response to file** to save the response as a JSON file.
-* Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> then  **Clear response** to remove any data in the response viewer. Note that for event-based requests, this is only available after the stream is closed.
+* Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> then  **Clear response** to remove any data in the response viewer. Note that for event-based requests, this is available after the stream is closed.
 
 <img alt="Save an API response as an example or file" src="https://assets.postman.com/postman-docs/v10/save-response-v10-18.jpg" width="518px"/>
 
@@ -167,9 +167,9 @@ To turn a warning off for the current API response, do the following:
 1. Select **Hide warning**.
 1. Choose a reason for hiding it, then select **Hide**.
 
-This will turn the warning off for all members of your team, but only for this response.
+This will turn the warning off for all members of your team for this response.
 
-> To turn a warning off globally for your team, you can [configure your API Security rules](/docs/api-governance/configurable-rules/configuring-api-security-rules/) (available for [Enterprise teams only](https://www.postman.com/pricing/)).
+> To turn a warning off globally for your team, you can [configure your API Security rules](/docs/api-governance/configurable-rules/configuring-api-security-rules/) (available for [Enterprise teams](https://www.postman.com/pricing/)).
 
 <img alt="Select Hide warning in a security warning" src="https://assets.postman.com/postman-docs/v10/api-response-security-tab-hide-warning-v10.jpg" width="900px"/>
 

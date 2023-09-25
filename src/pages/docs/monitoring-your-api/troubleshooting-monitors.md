@@ -19,7 +19,7 @@ For more information on debugging with console logs, see [Troubleshooting API re
 
 ## Debugging local run attempts
 
-* Run the failing monitor's collection with its environment in Postman or [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/) to see if it works correctly.
+* Run the failing monitor's collection with its environment in Postman or [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/) to see if it's working.
 * If a local run passes, check that [sync](/docs/getting-started/basics/syncing/) is working by looking for the sync symbol on the left side of Postman's footer. This will ensure any local changes persist.
 
     <img alt="In sync" src="https://assets.postman.com/postman-docs/v10/syncing-understanding-sync-states-v10-18.jpg" width="383px"/>
@@ -27,7 +27,7 @@ For more information on debugging with console logs, see [Troubleshooting API re
 ## Debugging variable issues
 
 * Ensure that the same environment is used across local runs and monitor runs. To confirm, add `console.log(environment);` to your request scripts and compare the results across monitoring and local runs.
-* If your collection run depends on a saved global variable, change it to an environment variable. Saved global variables are not supported in monitors.
+* If your collection run depends on a saved global variable, change it to an environment variable. Saved global variables aren't supported in monitors.
 
 ## Logging relevant information
 
