@@ -12,7 +12,6 @@ contextual_links:
   - type: link
     name: "How to Securely Deploy Postman at Scale, Part 2: Information Management"
     url: "https://blog.postman.com/how-to-securely-deploy-postman-at-scale-part-2-information-management/"
-
 ---
 
 > **[Postman app versioning and the Postman Enterprise App are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
@@ -29,19 +28,19 @@ Postman Enterprise offers greater control to administrators looking to deploy an
 
 * [Installing the Postman Enterprise Windows app](#installing-the-postman-enterprise-windows-app)
 
+    * [INSTALLDIR](#installdir)
+    * [The MSIINSTALLPERUSER option](#the-msiinstallperuser-option)
+    * [Silent installation](#silent-installation)
     * [Enabling verbose logging for installation](#enabling-verbose-logging-for-installation)
-
     * [MSI installation options](#msi-installation-options)
-
     * [Updating the Postman Enterprise Windows app](#updating-the-postman-enterprise-windows-app)
-
     * [Uninstalling the Postman Enterprise Windows app](#uninstalling-the-postman-enterprise-windows-app)
 
 * [Installing the Postman Enterprise macOS app](#installing-the-postman-enterprise-macos-app)
 
     * [Installing a PKG installer package](#installing-a-pkg-installer-package)
-    * [PKG installation options](#pkg-installation-options)
     * [Uninstalling PKG installers](#uninstalling-pkg-installers)
+    * [PKG installation options](#pkg-installation-options)
     * [PKG installer logging](#pkg-installer-logging)
 
 * [Installing the Postman Enterprise Linux app](#installing-the-postman-enterprise-linux-app)
@@ -96,7 +95,7 @@ For example, you can run the following command to perform a per-user installatio
 msiexec /i path/to/package.msi MSIINSTALLPERUSER=1
 ```
 
-This public property can be used in conjunction with `INSTALLDIR` to perform a per-user installation to a custom directory:
+This public property can be used with `INSTALLDIR` to perform a per-user installation to a custom directory:
 
 ``` shell
 msiexec /i path/to/package.msi MSIINSTALLPERUSER=1 INSTALLDIR=%USERPROFILE%\custom
@@ -110,7 +109,7 @@ A silent installation or uninstallation is performed by passing the `/qn` option
 msiexec /i path\to\package.msi /qn MSIINSTALLPERUSER=1
 ```
 
-Note that running in silent installation mode will omit error messages. If the installation fails for any reason, `%ERRORLEVEL%` won't equal `0` but no error will be displayed.
+Running in silent installation mode will exclude error messages. If the installation fails for any reason, `%ERRORLEVEL%` won't equal `0` but no errors will display.
 
 It's always recommended to [run silent installations with logging enabled](#enabling-verbose-logging-for-installation).
 
@@ -144,7 +143,7 @@ To upgrade the Postman Enterprise app, you can install the new version of the MS
 
 You must pass the exact same public properties that were used when you originally installed Postman Enterprise.
 
-For example, if you first installed Postman Enterprise with the following you must install the new MSI package in the same way:
+For example, if you first installed Postman Enterprise with the following, you must install the new MSI package in the same way:
 
 ``` shell
 INSTALLDIR=C:\custom and MSIINSTALLPERUSER=1
@@ -268,7 +267,7 @@ Install the Postman Enterprise app with Snap:
 sudo snap install /path/to/postman-enterprise.snap --dangerous
 ```
 
-The `--dangerous` option is required because the Postman Enterprise app is not distributed through the Snap store. See the [Snap documentation](https://snapcraft.io/docs/install-modes#heading--dangerous) to learn more.
+The `--dangerous` option is required because the Postman Enterprise app isn't distributed through the Snap store. See the [Snap documentation](https://snapcraft.io/docs/install-modes#heading--dangerous) to learn more.
 
 ## Encrypting data
 
