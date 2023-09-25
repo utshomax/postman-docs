@@ -47,7 +47,7 @@ To start using the API Builder, you can create a new API in your workspace. You 
 
 1. To start working with your new API:
 
-    * [Create a new API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#generating-an-api-definition) for your API.
+    * [Create a new API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#adding-an-example-api-definition) for your API.
     * [Use a collection as a starting point for your API](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/). Select a collection in your workspace you want to use and add a copy of it to your API. You can also create new collections in your API.
     * [Import an existing API definition](/docs/designing-and-developing-your-api/importing-an-api/) from a file, a folder, a code repository, or an API gateway.
 

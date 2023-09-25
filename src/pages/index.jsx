@@ -37,12 +37,6 @@ const HRStyles = styled.hr`
 
 class IndexPage extends React.Component {
   componentDidMount() {
-    const pix = document.createElement('script');
-    pix.language = 'JavaScript1.1';
-    pix.src = '//pixel.mathtag.com/event/js?mt_id=1538259&mt_adid=244742&mt_exem=&mt_excl=&v1=&v2=&v3=&s1=&s2=&s3=';
-    pix.async = true;
-    document.body.appendChild(pix);
-
     const id = 'Polyfill';
     if (!document.getElementById(id)) {
       const polyfill = document.createElement('script');
@@ -103,7 +97,7 @@ class IndexPage extends React.Component {
                     title="Get started with Postman"
                     description="Send your first API request in Postman in just a few clicks!"
                     cta="Send a request"
-                    link="/docs/getting-started/sending-the-first-request/"
+                    link="/docs/getting-started/first-steps/sending-the-first-request/"
                     icon="https://voyager.postman.com/icon/spaceship-rocket-launch-icon-postman.svg"
                   />
                 </div>
