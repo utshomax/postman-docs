@@ -26,7 +26,7 @@ Spectral is a linting engine that helps you define custom rules and enforce them
 * [Spectral custom functions](#spectral-custom-functions)
     * [Spectral function parameters](#spectral-function-parameters)
     * [Spectral function return statement properties](#spectral-function-return-statement-properties)
-    * [Exporting your custom function](#exporting-your-custom-function)
+    * [Export your custom function](#export-your-custom-function)
     * [Supported Spectral functions](#supported-spectral-functions)
     * [JSON Schema](#json-schema)
     * [Example: Checking that a value isn't in a list](#example-checking-that-a-value-isnt-in-a-list)
@@ -184,9 +184,9 @@ You can [add custom governance functions](/docs/api-governance/configurable-rule
 
 > Postman recommends using ES6 syntax for your custom functions.
 
-Your custom function must have the [`targetVal` parameter](#spectral-function-parameters), the [`message` property](#spectral-function-return-statement-properties) in your return statement, and either the [`export default` declaration (ES6) or `module.exports` object property (CommonJS)](#exporting-your-custom-function) exporting your function.
+Your custom function must have the [`targetVal` parameter](#spectral-function-parameters), the [`message` property](#spectral-function-return-statement-properties) in your return statement, and either the [`export default` declaration (ES6) or `module.exports` object property (CommonJS)](#export-your-custom-function) exporting your function.
 
-To add a custom function to a rule, your rule must have the `then.function` property whose value is the name of the file containing the custom function. The filename is defined using the **Name** field when you [create a custom function](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/#adding-a-custom-function).
+To add a custom function to a rule, your rule must have the [`then.function` property](#spectral-rule-properties) whose value is the name of the file containing the custom function. The filename is defined using the **Name** field when you [create a custom function](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/#adding-a-custom-function).
 
 ### Spectral function parameters
 
@@ -197,8 +197,8 @@ Use the following parameters in your custom functions depending on your use case
 |<div style="width:150px">Parameter</div> | Description
 --- | ---
 `targetVal` | <p>**Required**. The first parameter you must add to your function. This can be any data type, such as a string or array. This is the value that the [`given` property](#spectral-rule-properties) returns. The rule tests the value of `targetVal` using your custom function.</p> <p>If you also define a value for the [`then.field` property](#spectral-rule-properties) in your rule, `targetVal` is the value returned by the `given` path appended with `then.field`.</p>
-`options` | <p>The second parameter you can add to your function. This is the optional value of `then.functionOptions`. Add this parameter to your function if your function expects options.</p> <p>If your custom function accepts options, Postman recommends adding a [JSON Schema](#json-schema) to your custom function. A JSON Schema enables you to define and validate your custom function's options when editing your rule. This requires you to export your custom function using the [`createRulesetFunction` Spectral function](#createrulesetfunction).</p>
-`context` | <p>The third parameter you can add to your function. You can use this optional parameter to access properties about the context in which the custom function is called. For example, you can access sub-elements of `targetVal` or other locations in the document. These properties are as follows: </p><ul><li>`path` - The path to `targetVal` in the form of an array of strings. For example, `["paths", "/resources", "get", "responses", "306"]`. To learn how to use it, see [Spectral function return statement properties](#spectral-function-return-statement-properties). </li><li>`document` - The document you're attempting to lint.</li><li>`rule` - The rule that's using the function.</li><li>`documentInventory` - Provides access to resolved and unresolved documents, the `$ref` resolution graph, and other advanced properties.</li></ul>
+`options` | <p>The second parameter you can add to your function. This is the optional value of the [`then.functionOptions` property](#spectral-rule-properties). Add this parameter to your function if your function expects options.</p> <p>If your custom function accepts options, Postman recommends adding a [JSON Schema](#json-schema) to your custom function. A JSON Schema enables you to define and validate your custom function's options when editing your rule. This requires you to export your custom function using the [`createRulesetFunction` Spectral function](#createrulesetfunction).</p>
+`context` | <p>The third parameter you can add to your function. You can use this optional parameter to access properties about the context in which the custom function is called. For example, you can access the `targetVal` path or other locations in the document. These properties are as follows: </p><ul><li>`path` - The path to `targetVal` in the form of an array of strings. For example, `["paths", "/resources", "get", "responses", "306"]`. To learn how to use it, see [Spectral function return statement properties](#spectral-function-return-statement-properties). </li><li>`document` - The document you're attempting to lint.</li><li>`rule` - The rule that's using the function.</li><li>`documentInventory` - Provides access to resolved and unresolved documents, the `$ref` resolution graph, and other advanced properties.</li></ul>
 
 ```js
 function myCustomFunction(targetVal, options, context) { ... }
@@ -227,9 +227,9 @@ return [
 ];
 ```
 
-### Exporting your custom function
+### Export your custom function
 
-**Required**. Export your custom function so you can add the custom function to your custom rule using `then.function`. The custom function name you specify must match the name in the function declaration.
+**Required**. Export your custom function. This enables you to add the custom function's filename to your custom rule using the [`then.function` property](#spectral-rule-properties). The custom function name you export must match the name in the function declaration.
 
 > If your custom function accepts options, Postman recommends adding a [JSON Schema](#json-schema) to your custom function. A JSON Schema enables you to define and validate your custom function's options when editing your rule. This requires you to export your custom function using the [`createRulesetFunction` Spectral function](#createrulesetfunction).
 
@@ -282,7 +282,7 @@ Add a JSON Schema for each of the following to your JSON object:
   },
 ```
 
-When you [export your custom function](#exporting-your-custom-function), call the `createRulesetFunction` Spectral function and include a JSON object containing JSON Schemas and the custom function's name as arguments. For a complete example of using a JSON Schema with a custom function, see [Checking that a value isn't in a list (JSON Schema)](#example-checking-that-a-value-isnt-in-a-list-json-schema).
+When you [export your custom function](#export-your-custom-function), call the `createRulesetFunction` Spectral function and include a JSON object containing JSON Schemas and the custom function's name as arguments. For a complete example of using a JSON Schema with a custom function, see [Checking that a value isn't in a list (JSON Schema)](#example-checking-that-a-value-isnt-in-a-list-json-schema).
 
 * ES6 format:
     * To import, use the following syntax: `import { createRulesetFunction } from "@stoplight/spectral-core";`.
@@ -362,9 +362,9 @@ The following custom function named `notInEnumeration` is in a file named `not_i
 
 > If your custom function accepts options, Postman recommends adding a [JSON Schema](#json-schema) to your custom function. A JSON Schema enables you to define and validate your custom function's options when editing your rule. This requires you to export your custom function using the [`createRulesetFunction` Spectral function](#createrulesetfunction).
 
-The custom function checks the value of the option `values`, which is defined in the [Spectral document](#example-rule-that-uses-a-custom-function) (or ruleset) using `then.functionOptions`. The value of `values` is a list of numeric strings. If `targetVal` is a value already in the list, the rule violation is triggered.
+The custom function checks the value of the option `values`, which is defined in the [Spectral document](#example-rule-that-uses-a-custom-function) (or ruleset) using the [`then.functionOptions` property](#spectral-rule-properties). The value of `values` is a list of numeric strings. If `targetVal` is a value already in the list, the rule violation is triggered.
 
-After the custom function, `export default` or `module.exports` references the custom function's name. This exports the custom function so the rule can add it using `then.function`. To learn more about rule properties, see [Spectral rule properties](#spectral-rule-properties).
+After the custom function, `export default` or `module.exports` references the custom function's name. This exports the custom function so the rule can add it using the [`then.function` property](#spectral-rule-properties).
 
 ```js
 // filename: not_in_enumeration
@@ -392,9 +392,9 @@ The following custom function named `notInEnumeration` is in a file named `not_i
 
 Before the custom function, the [`createRulesetFunction` Spectral function](#createrulesetfunction) is imported into the file. This enables you to define the expected options in a [JSON Schema](#json-schema) to validate whether the [provided options in your rule](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules) match specific criteria.
 
-The custom function checks the value of the option `values`, which is defined in the [Spectral document](#example-rule-that-uses-a-custom-function) (or ruleset) using `then.functionOptions`. The value of `values` is a list of numeric strings. If `targetVal` is a value already in the list, the rule violation is triggered.
+The custom function checks the value of the option `values`, which is defined in the [Spectral document](#example-rule-that-uses-a-custom-function) (or ruleset) using the [`then.functionOptions` property](#spectral-rule-properties). The value of `values` is a list of numeric strings. If `targetVal` is a value already in the list, the rule violation is triggered.
 
-After the custom function, `export default` or `module.exports` calls the `createRulesetFunction` Spectral function and includes the following arguments: a JSON object containing JSON Schemas of the `targetVal` parameter and `options` parameter, and the custom function's name. This exports the custom function so the rule can add it using `then.function`. To learn more about rule properties, see [Spectral rule properties](#spectral-rule-properties).
+After the custom function, `export default` or `module.exports` calls the `createRulesetFunction` Spectral function and includes the following arguments: a JSON object containing JSON Schemas of the `targetVal` parameter and `options` parameter, and the custom function's name. This exports the custom function so the rule can add it using the [`then.function` property](#spectral-rule-properties)`.
 
 ```js
 // filename: not_in_enumeration
@@ -445,7 +445,7 @@ The following Spectral document has a rule named `http-status-obsolete` that use
 
 The [custom function](#example-checking-that-a-value-isnt-in-a-list-json-schema) is added to the rule using `then.function`. The value of `then.function` is the filename `not_in_enumeration`.
 
-The custom function accepts options using `then.functionOptions` as a property named `values` that's a list of numeric strings. The value of `then.functionOptions.values` is passed to the custom function `notInEnumeration`. The custom function then checks whether a rule violation occurred at the `given` path appended with the value of the `then.field` property. To learn more about rule properties, see [Spectral rule properties](#spectral-rule-properties).
+The custom function accepts options using the [`then.functionOptions` property](#spectral-rule-properties), defining a property named `values` that's a list of numeric strings. The value of `then.functionOptions.values` is passed to the custom function `notInEnumeration`. The custom function then checks whether a rule violation occurred at the `given` path appended with the value of the [`then.field` property](#spectral-rule-properties).
 
 ```yaml
 rules:
