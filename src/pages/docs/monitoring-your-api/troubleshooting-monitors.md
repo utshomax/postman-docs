@@ -1,7 +1,6 @@
 ---
 title: "Troubleshooting monitors"
-updated: 2022-02-14
-warning: false
+updated: 2023-09-25
 ---
 
 If you encounter a problem with a collection-based monitor, the following troubleshooting steps may help you identify and resolve the issue.
@@ -23,7 +22,7 @@ For more information on debugging with console logs, see [Troubleshooting API re
 * Run the failing monitor's collection with its environment in Postman or [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/) to see if it works correctly.
 * If a local run passes, check that [sync](/docs/getting-started/basics/syncing/) is working by looking for the sync symbol on the left side of Postman's footer. This will ensure any local changes persist.
 
-<img alt="In sync" src="https://assets.postman.com/postman-docs/syncing-understanding-sync-states-v9.19.jpg" width="250px"/>
+    <img alt="In sync" src="https://assets.postman.com/postman-docs/v10/syncing-understanding-sync-states-v10-18.jpg" width="383px"/>
 
 ## Debugging variable issues
 
