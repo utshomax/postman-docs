@@ -1,6 +1,6 @@
 ---
 title: "Receiving responses"
-updated: 2023-09-25
+updated: 2023-09-26
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -19,7 +19,7 @@ contextual_links:
     url: "https://blog.postman.com/how-to-review-postman-test-results/"
 ---
 
-The Postman response viewer helps you to visualize and check the correctness of API responses. An API response consists of the response body, headers, and the HTTP status code.
+The Postman response viewer helps you to visualize and check the correctness of API responses. An API response consists of the response body, headers, cookies, and the HTTP status code. You can view details about the response, including test results, network information, response size, response time, and security warnings. You can also save responses as examples or files.
 
 ## Contents
 
@@ -39,7 +39,7 @@ The Postman response viewer helps you to visualize and check the correctness of 
 
 The Postman **Body** tab gives you several tools to help you understand the response. You can view the body in one of four views: _Pretty_, _Raw_, _Preview_, and _Visualize_.
 
-> **Finding items in responses** - To open the search bar, select the search icon <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> in the results pane. You can also place your cursor in the response and select **⌘+F** or **Ctrl+F**. This option isn't available in a response's Preview or Visualize views.
+> **Find items in responses.** To open the search bar, select the search icon <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> in the results pane. You can also place your cursor in the response and select **⌘+F** or **Ctrl+F**. This option isn't available in a response's Preview or Visualize views.
 
 Note that if the response's `Content-Type` header indicates that the response is an image, Postman will detect and render the image automatically.
 
@@ -51,7 +51,7 @@ For navigating large responses, select the down arrows next to a line to collaps
 
 <img alt="Response Pretty view" src="https://assets.postman.com/postman-docs/v10/request-response-pretty-view-v10.jpg" width="400px"/>
 
-> **Forcing JSON formatting**. For Postman to automatically format the body, the response must have the appropriate `Content-Type` header. If you receive a response with a different `Content-Type` header, you can force formatting through JSON. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**. Under **Request**, select **JSON** next to **Language detection**.
+> **Force JSON formatting**. For Postman to automatically format the body, the response must have the appropriate `Content-Type` header. If you receive a response with a different `Content-Type` header, you can force formatting through JSON. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**. Under **Request**, select **JSON** next to **Language detection**.
 
 ### Raw
 
@@ -99,7 +99,7 @@ When you make an `https` request, the network icon includes a padlock. When you 
 
 ### SSL verification errors
 
-If SSL verification is enabled and verification fails, the response area displays an error message. Select the link to open the console and view more information about the error.
+If SSL verification is enabled and verification fails, the response area displays an error message. Select the link to open the Console and view more information about the error.
 
 <img alt="Verification error" src="https://assets.postman.com/postman-docs/v10/response-error-disable-ssl-v10-18.jpg" width="414px"/>
 
@@ -112,7 +112,7 @@ If you have **SSL verification** turned off and your request returns a certifica
 
 <img alt="Certificate error" src="https://assets.postman.com/postman-docs/v10/certificate-error-in-network-info-v10-18.jpg" width="393px"/>
 
-For requests that are successful and return data but with a certificate verification failure, the [console](/docs/sending-requests/troubleshooting-api-requests/) displays a warning.
+For requests that are successful and return data but with a certificate verification failure, the [Console](/docs/sending-requests/troubleshooting-api-requests/) displays a warning.
 
 ## Response code
 

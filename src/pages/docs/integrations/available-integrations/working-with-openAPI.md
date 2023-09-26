@@ -1,6 +1,6 @@
 ---
 title: "OpenAPI"
-updated: 2023-09-25
+updated: 2023-09-26
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -22,7 +22,7 @@ contextual_links:
     url: "https://youtu.be/YRzpziA35Mg"
 ---
 
-You can import your existing OpenAPI 1.0, 2.0, 3.0, and 3.1 definitions (OpenAPI Specification) into Postman. Postman supports both YAML and JSON formats.
+You can import your existing OpenAPI 3.0 and 3.1 definitions (OpenAPI Specification) into Postman. Postman supports both YAML and JSON formats.
 
 To import an API definition into Postman, select **Import** in the sidebar. You can choose to upload a file or folder, enter a URL, paste your raw JSON or YAML, import from a code repository, or import from an API gateway. Learn more about [importing an API into Postman](/docs/designing-and-developing-your-api/importing-an-api/).
 
