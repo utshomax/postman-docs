@@ -269,15 +269,15 @@ export const leftNavItems = [
         url: '/docs/sending-requests/responses/',
       },
       {
-        name: 'Group requests',
+        name: 'Group requests in collections',
         url: '/docs/sending-requests/intro-to-collections/',
       },
       {
-        name: 'Store and reuse values',
+        name: 'Store values in variables',
         url: '/docs/sending-requests/variables/',
       },
       {
-        name: 'Group sets of values',
+        name: 'Group values in environments',
         url: '/docs/sending-requests/managing-environments/',
       },
       {
