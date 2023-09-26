@@ -444,7 +444,7 @@ export const leftNavItems = [
     url: '/docs/writing-scripts/intro-to-scripts/',
     subMenuItems1: [
       {
-        name: 'Scripting in Postman',
+        name: 'Overview',
         url: '/docs/writing-scripts/intro-to-scripts/',
       },
       {
@@ -486,7 +486,7 @@ export const leftNavItems = [
     url: '/docs/collections/collections-overview/',
     subMenuItems1: [
       {
-        name: 'Collections overview',
+        name: 'Overview',
         url: '/docs/collections/collections-overview/',
       },
       {
@@ -759,35 +759,35 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Using the Postman CLI',
+    name: 'Postman CLI',
     parentSlug: 'postman-cli',
     url: '/docs/postman-cli/postman-cli-overview/',
     subMenuItems1: [
       {
-        name: 'Postman CLI overview',
+        name: 'Overview',
         url: '/docs/postman-cli/postman-cli-overview/',
       },
       {
-        name: 'Installing the Postman CLI',
+        name: 'Install',
         url: '/docs/postman-cli/postman-cli-installation/',
       },
       {
-        name: 'Postman CLI command options',
+        name: 'Command options',
         url: '/docs/postman-cli/postman-cli-options/',
       },
       {
-        name: 'Running a collection with the Postman CLI',
+        name: 'Run a collection',
         url: '/docs/postman-cli/postman-cli-run-collection/',
       },
     ],
   },
   {
-    name: 'Collaborating in Postman',
+    name: 'Collaborate',
     parentSlug: 'collaborating-in-postman',
     url: '/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/',
     subMenuItems1: [
       {
-        name: 'Working with your team',
+        name: 'Overview',
         subParentSlug: 'working-with-your-team',
         slug: '/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/',
         subMenuItems2: [
@@ -810,23 +810,23 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Defining roles',
+        name: 'Define roles',
         url: '/docs/collaborating-in-postman/roles-and-permissions/',
       },
       {
-        name: 'Managing user groups',
+        name: 'Manage user groups',
         url: '/docs/collaborating-in-postman/user-groups/',
       },
       {
-        name: 'Requesting access to elements',
+        name: 'Manage access',
         url: '/docs/collaborating-in-postman/requesting-access-to-elements/',
       },
       {
-        name: 'Sharing your work',
+        name: 'Share your work',
         url: '/docs/collaborating-in-postman/sharing/',
       },
       {
-        name: 'Your Private API Network',
+        name: 'Private API Network',
         subParentSlug: 'private-api-network',
         slug: '/docs/collaborating-in-postman/private-api-network/adding-private-network/',
         subMenuItems2: [
@@ -853,7 +853,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Using version control',
+        name: 'Version control',
         subParentSlug: 'using-version-control',
         slug: '/docs/collaborating-in-postman/using-version-control/version-control-overview/',
         subMenuItems2: [
@@ -880,11 +880,11 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Managing public elements',
+        name: 'Public elements',
         url: '/docs/collaborating-in-postman/manage-public-elements/',
       },
       {
-        name: 'Using workspaces',
+        name: 'Workspaces',
         subParentSlug: 'using-workspaces',
         slug: '/docs/collaborating-in-postman/using-workspaces/creating-workspaces/',
         subMenuItems2: [
@@ -911,7 +911,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Sharing to the Public API Network',
+        name: 'Public API Network',
         subParentSlug: 'public-api-network',
         slug: '/docs/collaborating-in-postman/public-api-network/public-api-network-overview/',
         subMenuItems2: [
@@ -937,24 +937,24 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Designing and developing your API',
+    name: 'Design and develop APIs',
     parentSlug: 'designing-and-developing-your-api',
     url: '/docs/designing-and-developing-your-api/the-api-workflow/',
     subMenuItems1: [
       {
-        name: 'API development overview',
+        name: 'Overview',
         url: '/docs/designing-and-developing-your-api/the-api-workflow/',
       },
       {
-        name: 'Creating an API',
+        name: 'Create an API',
         url: '/docs/designing-and-developing-your-api/creating-an-api/',
       },
       {
-        name: 'Importing an API',
+        name: 'Import an API',
         url: '/docs/designing-and-developing-your-api/importing-an-api/',
       },
       {
-        name: 'Using API version control',
+        name: 'API version control',
         subParentSlug: 'versioning-an-api',
         slug: '/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/',
         subMenuItems2: [
@@ -985,7 +985,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Developing an API',
+        name: 'Develop an API',
         subParentSlug: 'developing-an-api',
         slug: '/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/',
         subMenuItems2: [
@@ -1008,11 +1008,11 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Testing an API',
+        name: 'Test an API',
         url: '/docs/designing-and-developing-your-api/testing-an-api/',
       },
       {
-        name: 'Deploying an API',
+        name: 'Deploy an API',
         subParentSlug: 'deploying-an-api',
         slug: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-overview/',
         subMenuItems2: [
@@ -1035,7 +1035,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Observing an API',
+        name: 'Observe APIs',
         subParentSlug: 'observing-an-api',
         slug: '/docs/designing-and-developing-your-api/observing-an-api/observing-an-api/',
         subMenuItems2: [
@@ -1054,11 +1054,11 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Managing and sharing APIs',
+        name: 'Manage and share APIs',
         url: '/docs/designing-and-developing-your-api/managing-apis/',
       },
       {
-        name: 'Mocking an API',
+        name: 'Mock an API',
         subParentSlug: 'mocking-data',
         slug: '/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/',
         subMenuItems2: [
