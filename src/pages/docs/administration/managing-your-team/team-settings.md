@@ -119,7 +119,7 @@ See [Secret Scanner](/docs/administration/managing-your-team/secret-scanner/) to
 
 Select **Custom Domains** to add, update, or remove custom domains for your API documentation.
 
-See [Using custom domains](/docs/publishing-your-api/custom-doc-domains/) for information about adding, verifying, troubleshooting, and publishing to custom domains.
+See [Use custom domains](/docs/publishing-your-api/custom-doc-domains/) for information about adding, verifying, troubleshooting, and publishing to custom domains.
 
 ## Using installed apps
 

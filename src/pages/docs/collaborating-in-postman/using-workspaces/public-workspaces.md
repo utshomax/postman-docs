@@ -119,7 +119,7 @@ An informative and inviting public workspace can help increase adoption of your 
 
 * A complete [public team profile](#making-your-team-profile-public).
 * A complete [workspace overview](#editing-public-workspace-details), including a name, summary, and description.
-* Descriptive [documentation](/docs/publishing-your-api/documenting-your-api/) for your APIs.
+* Descriptive [documentation](/docs/publishing-your-api/api-documentation-overview/) for your APIs.
 
 Signs of a public workspace that invites collaboration include:
 
