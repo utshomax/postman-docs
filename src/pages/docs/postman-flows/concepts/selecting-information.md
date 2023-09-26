@@ -22,6 +22,6 @@ Connecting a **Select** block to a block that has already run or to a request th
 
 After selecting the value you want, that information will be the **Select** block's output.
 
-Add an **Output** block to show information in various formats (like images, videos, graphs, and [more](/docs/postman-flows/reference/visualizing-data/)) directly on the canvas when you run the flow.
+Add an **Output** block to show information in various formats (like images, videos, graphs, and [more](/docs/postman-flows/reference/visualizing-data/)) directly on the canvas when you run the Flow.
 
 <img src="https://assets.postman.com/postman-labs-docs/concepts/updated-viewing-variable-with-output-block.gif" alt="Viewing the value with Output block" fetchpriority="low" loading="lazy" />
