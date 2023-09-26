@@ -7,7 +7,7 @@ Postman provides tools to help you manage your team's usage of Postman Flows. Fl
 
 You can use the [Resource usage dashboard](https://go.postman.co/usage) to track the number of steps that have been consumed against your plan's monthly maximum. If you're on the Professional plan, you can also enable overages if needed.
 
-> To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).
+> To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/billing/resource-usage/).
 
 ## Contents
 
