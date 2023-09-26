@@ -1137,36 +1137,36 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Monitoring your API',
+    name: 'Monitor APIs',
     parentSlug: 'monitoring-your-api',
     url: '/docs/monitoring-your-api/intro-monitors/',
     subMenuItems1: [
       {
-        name: 'Monitoring your APIs',
+        name: 'Overview',
         url: '/docs/monitoring-your-api/intro-monitors/',
       },
       {
-        name: 'Setting up a collection-based monitor',
+        name: 'Set up a monitor',
         url: '/docs/monitoring-your-api/setting-up-monitor/',
       },
       {
-        name: 'Viewing collection-based monitor results',
+        name: 'View monitor results',
         url: '/docs/monitoring-your-api/viewing-monitor-results/',
       },
       {
-        name: 'Managing monitor usage',
+        name: 'Managing monitors',
         url: '/docs/monitoring-your-api/monitor-usage/',
       },
       {
-        name: 'Running monitors using static IPs',
+        name: 'Run monitors using static IPs',
         url: '/docs/monitoring-your-api/using-static-IPs-to-monitor/',
       },
       {
-        name: 'Troubleshooting monitors',
+        name: 'Troubleshoot monitors',
         url: '/docs/monitoring-your-api/troubleshooting-monitors/',
       },
       {
-        name: 'Monitoring FAQs',
+        name: 'Monitoring FAQ',
         url: '/docs/monitoring-your-api/faqs-monitors/',
       },
     ],
