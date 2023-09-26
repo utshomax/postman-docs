@@ -59,7 +59,7 @@ Postman Collections are groups of saved requests. You can use collections to org
 
 ## Using Postman Flows
 
-Postman Flows is a visual tool for creating API workflows. You can use flows to chain requests, handle data, and create real-world workflows in your Postman workspace.
+Postman Flows is a visual tool for creating API workflows. You can use Flows to chain requests, handle data, and create real-world workflows in your Postman workspace.
 
 To learn more about Postman Flows, see the [Postman Flows overview](/docs/postman-flows/gs/flows-overview/).
 

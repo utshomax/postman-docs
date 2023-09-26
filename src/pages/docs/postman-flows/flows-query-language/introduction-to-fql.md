@@ -42,7 +42,7 @@ The following sections show examples of things you can do with FQL:
 
 ## Using Postbot with FQL
 
-Not sure how to write an FQL statement for your flow? Ask Postbot! Flows has support for artificial intelligence in FQL queries. Tell Postbot what you want to do using plain language, and Postbot will generate a FQL statement for you.
+Not sure how to write an FQL statement for your Flow? Ask Postbot! Flows has support for artificial intelligence in FQL queries. Tell Postbot what you want to do using plain language, and Postbot will generate a FQL statement for you.
 
 <!--TODO: Image -->
 
