@@ -48,7 +48,7 @@ When you first join Postman using an email address with your company's domain, P
 
 ![Join a team from your organization](https://assets.postman.com/postman-docs/v10/join-team-discovery-v10.15.jpg)
 
-Select **Join** next to a team. If a Team Admin has set a mandatory question, a window will appear. Answer the question set by the Team Admin, then select **Submit**.
+Select **Join** next to a team. If a Team Admin has set a mandatory question, a window will appear. Answer the question, then select **Submit**.
 
 <img alt="Request to join team" src="https://assets.postman.com/postman-docs/v10/request-to-join-team-team-discovery-v10.15.jpg" width="350px"/>
 
