@@ -1087,12 +1087,12 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Documenting your API',
+    name: 'Document APIs',
     parentSlug: 'publishing-your-api',
     url: '/docs/publishing-your-api/api-documentation-overview/',
     subMenuItems1: [
       {
-        name: 'API docs overview',
+        name: 'Overview',
         url: '/docs/publishing-your-api/api-documentation-overview/',
       },
       {
@@ -1100,15 +1100,15 @@ export const leftNavItems = [
         url: '/docs/publishing-your-api/document-a-collection/',
       },
       {
-        name: 'Add docs to an API',
+        name: 'Add API documentation',
         url: '/docs/publishing-your-api/documenting-your-api/',
       },
       {
-        name: 'Write your docs',
+        name: 'Write documentation',
         url: '/docs/publishing-your-api/authoring-your-documentation/',
       },
       {
-        name: 'Publish your docs',
+        name: 'Publish documentation',
         url: '/docs/publishing-your-api/publishing-your-docs/',
       },
       {
@@ -1116,7 +1116,7 @@ export const leftNavItems = [
         url: '/docs/publishing-your-api/viewing-documentation/',
       },
       {
-        name: 'Use custom domains',
+        name: 'Host API documentation',
         url: '/docs/publishing-your-api/custom-doc-domains/',
       },
       {
@@ -1129,7 +1129,7 @@ export const leftNavItems = [
         slug: '/docs/publishing-your-api/run-in-postman/introduction-run-button/',
         subMenuItems2: [
           {
-            name: 'Use Run in Postman buttons',
+            name: 'Share with Run in Postman',
             url: '/docs/publishing-your-api/run-in-postman/introduction-run-button/',
           },
           {

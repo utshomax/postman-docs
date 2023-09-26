@@ -1,5 +1,5 @@
 ---
-title: "Use Run in Postman buttons"
+title: "Share collections with Run in Postman buttons"
 updated: 2022-09-21
 contextual_links:
   - type: section

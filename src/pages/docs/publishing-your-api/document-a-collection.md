@@ -1,5 +1,5 @@
 ---
-title: "Document a collection"
+title: "Document a collection in Postman"
 updated: 2023-09-21
 contextual_links:
   - type: section

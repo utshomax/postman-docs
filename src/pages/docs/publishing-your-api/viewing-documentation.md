@@ -1,5 +1,5 @@
 ---
-title: "View documentation"
+title: "View documentation in Postman"
 updated: 2023-07-21
 contextual_links:
   - type: section

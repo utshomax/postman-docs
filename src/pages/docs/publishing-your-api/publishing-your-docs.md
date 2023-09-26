@@ -1,5 +1,5 @@
 ---
-title: "Publish your docs"
+title: "Publish documentation in Postman"
 updated: 2023-04-15
 contextual_links:
   - type: section

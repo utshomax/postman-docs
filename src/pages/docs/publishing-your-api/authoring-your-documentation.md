@@ -1,5 +1,5 @@
 ---
-title: "Write your docs"
+title: "Write documentation in Postman"
 updated: 2023-07-21
 contextual_links:
   - type: section
