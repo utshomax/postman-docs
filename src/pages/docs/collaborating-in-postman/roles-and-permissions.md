@@ -267,7 +267,7 @@ All partners are assigned Workspace Editor or Viewer roles when invited to a Par
 
 You can also assigned partners roles at the collection level. To learn more about collection level permissions, see [Collection roles](#collection-roles).
 
-> Your team must have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#using-auto-flex) to invite a partner as a Workspace Editor. Otherwise, the partner will be assigned the Workspace Viewer role, giving the partner permission to view all workspace resources. Also, your team must have available seats to assign a partner as a Collection Editor. Assigning a partner the Workspace Viewer or Collection Viewer roles doesn't consume paid seats.
+> Your team must have [available seats](/docs/billing/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/billing/billing/#using-auto-flex) to invite a partner as a Workspace Editor. Otherwise, the partner will be assigned the Workspace Viewer role, giving the partner permission to view all workspace resources. Also, your team must have available seats to assign a partner as a Collection Editor. Assigning a partner the Workspace Viewer or Collection Viewer roles doesn't consume paid seats.
 
 ## Network roles
 

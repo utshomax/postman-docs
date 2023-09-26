@@ -3,7 +3,7 @@ title: "Blocks and connections"
 updated: 2023-08-15
 ---
 
-All flows are made up of _blocks_ and _connections_. Blocks can create information, make a decision, or perform an action. Blocks work together using connections, which enable multiple blocks to do a task together.
+All Flows are made up of _blocks_ and _connections_. Blocks can create information, make a decision, or perform an action. Blocks work together using connections, which enable multiple blocks to do a task together.
 
 ## Contents
 
@@ -16,25 +16,25 @@ All blocks have an input, an output, or both. Inputs are on the left side of a b
 
 There are three ways to add a new block:
 
-* Right-clicking anywhere in the flow.
+* Right-clicking anywhere in the Flow.
 * Selecting the **+ Block** button on the toolbar.
 * Dragging a connection from the output of another block.
 
-Any of these actions will open up the block list which you can select from and that block will be added to the flow.
+Any of these actions will open up the block list which you can select from and that block will be added to the Flow.
 
 <img src="https://assets.postman.com/postman-labs-docs/concepts/updated-adding-a-block.gif" alt="Add a block" fetchpriority="low" loading="lazy" />
 
-When you open a new flow, the first block you'll see is the **Start** block.
+When you open a new Flow, the first block you'll see is the **Start** block.
 
 The **Start** block has a single output. When you select the **Run** button, this block sends information through a connection to the next block, causing it to run.
 
-When you create a new flow, before you add any blocks, the start block has colored suggestions for things you can do:
+When you create a new Flow, before you add any blocks, the start block has colored suggestions for things you can do:
 
 * Send a request: Creates a send request block.
 * Add blocks: Opens the block menu.
-* Explorer templates: Opens up a menu of prebuilt flows to load and discover.
+* Explorer templates: Opens up a menu of prebuilt Flows to load and discover.
 
-These are suggestions to help you get started building a flow.
+These are suggestions to help you get started building a Flow.
 
 ### Connections
 

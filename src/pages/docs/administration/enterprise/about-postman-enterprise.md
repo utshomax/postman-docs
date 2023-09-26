@@ -1,5 +1,5 @@
 ---
-title: "About Postman Enterprise plans"
+title: "Postman Enterprise plans"
 updated: 2023-06-15
 contextual_links:
   - type: section
@@ -40,7 +40,7 @@ Postman Enterprise plans give you access to advanced identity management feature
 * **User groups** - An Enterprise plan enables you to organize team members into groups, then assign roles and permissions according to each group's function. To learn more about user groups, see [User groups](/docs/collaborating-in-postman/user-groups/).
 * **Single sign-on (SSO)** - You can enable team members to sign in to Postman Enterprise using your organization's [identity provider (IdP)](/docs/administration/sso/intro-sso/#identity-providers-supported). To learn more about setting up SSO for your team, see [Intro to SSO](/docs/administration/sso/intro-sso/).
 * **System for cross-domain identity management (SCIM)** - Setting up SCIM enables you to automatically provision and de-provision team members and organize them into [user groups](/docs/collaborating-in-postman/user-groups/). To learn more about enabling SCIM for your team, see [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/).
-* **Domain capture** - Domain capture enables you to consolidate all your organization's users into a single Postman team and ensure that any new users who sign up for Postman with your domain are automatically added. To learn more about setting up domain capture, see [Configuring domain capture](/docs/administration/managing-your-team/configuring-domain-capture/).
+* **Domain capture** - Domain capture enables you to consolidate all your organization's users into a single Postman team and ensure that any new users who sign up for Postman with your domain are automatically added. To learn more about setting up domain capture, see [Configuring domain capture](/docs/administration/configuring-domain-capture/).
 
 ### The Private API Network
 
@@ -50,9 +50,9 @@ The Private API Network provides a [central directory](https://www.postman.com/a
 
 Postman Enterprise plans provide you with advanced [API governance](https://www.postman.com/api-platform/api-governance/) and [API security](https://www.postman.com/api-platform/api-security/) features:
 
-* **Secret Scanner** - Create [custom alerts](/docs/administration/secret-scanner/#custom-alerts) to proactively check for secret leaks.
+* **Secret Scanner** - Create [custom alerts](/docs/administration/managing-your-team/secret-scanner/#custom-alerts) to proactively check for secret leaks.
 * **Public link governance** - View and manage elements like workspaces, documentation, and collection links that your team [makes public](/docs/collaborating-in-postman/manage-public-elements/).
-* **Audit logs** - Use [audit logs](/docs/administration/audit-logs/) to understand how your team members are using Postman.
+* **Audit logs** - Use [audit logs](/docs/administration/managing-your-team/audit-logs/) to understand how your team members are using Postman.
 * **Configurable API governance and API security warnings** - Custom API governance and API security warnings enable you to apply standards consistently throughout your API development process's [design](/docs/api-governance/api-definition/api-definition-warnings/) and [testing](/docs/api-governance/api-testing/api-testing-warnings/) phases. You can also use the [Postman CLI](/docs/postman-cli/postman-cli-overview/) to return Postman API Governance and API Security warnings.
 * **Static IP monitoring** - Use collection-based monitors to monitor APIs that are behind a restricted firewall. To learn more about static IP monitoring, see [Running monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/).
 
@@ -68,10 +68,10 @@ Postman Enterprise plans enable your organization to collaborate internally and 
 
 After you purchase a Postman Enterprise plan, you can customize it to meet your organization's needs:
 
-* **Postman Enterprise app** - The [Postman Enterprise app](/docs/administration/managing-enterprise-deployment/) is a version of the Postman desktop app that offers greater control to administrators. After you purchase a Postman Enterprise plan, you can use the Enterprise app to manage deployment and installations within your organization.
-* **App versioning** - Set a team-wide version of the Postman desktop app for your organization. To learn more about app versioning, see [Managing Postman app versioning](/docs/administration/managing-enterprise-deployment/#managing-postman-app-versioning).
+* **Postman Enterprise app** - The [Postman Enterprise app](/docs/administration/enterprise/managing-enterprise-deployment/) is a version of the Postman desktop app that offers greater control to administrators. After you purchase a Postman Enterprise plan, you can use the Enterprise app to manage deployment and installations within your organization.
+* **App versioning** - Set a team-wide version of the Postman desktop app for your organization. To learn more about app versioning, see [Managing Postman app versioning](/docs/administration/enterprise/managing-enterprise-deployment/#managing-postman-app-versioning).
 * **Enterprise integrations** - Some integrations, including [Azure DevOps](/docs/integrations/available-integrations/azure-devops/), [GitHub Enterprise Server](/docs/integrations/available-integrations/github/), and [GitLab Self-Managed](/docs/integrations/available-integrations/gitlab/), are only available with an Enterprise plan.
 
 ## Purchasing a Postman Enterprise plan
 
-To purchase a Postman Enterprise plan,  visit [www.postman.com/pricing](https://www.postman.com/pricing/) or contact the [Postman sales team](https://www.postman.com/company/contact-sales/). To learn more, see [Purchasing Postman](/docs/administration/buying/). After you purchase your plan, the Postman team will help set up Postman Enterprise for your organization.
+To purchase a Postman Enterprise plan,  visit [www.postman.com/pricing](https://www.postman.com/pricing/) or contact the [Postman sales team](https://www.postman.com/company/contact-sales/). To learn more, see [Purchasing Postman](/docs/billing/buying/). After you purchase your plan, the Postman team will help set up Postman Enterprise for your organization.
