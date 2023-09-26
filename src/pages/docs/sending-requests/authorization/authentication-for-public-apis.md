@@ -41,4 +41,4 @@ Select **Set up new authorization** to learn what authentication credentials you
 
 <img alt="Postman API authentication info and link" src="https://assets.postman.com/postman-docs/v10/postman-api-easier-auth-enter-key-v10-2.jpg"/>
 
-If you're an API publisher, you can set up easier authentication for your public APIs in your team dashboard. For more information, see [Setting up authentication for public APIs](/docs/publishing-your-api/setting-up-authentication-for-public-apis/).
+If you're an API publisher, you can set up easier authentication for your public APIs in your team dashboard. For more information, see [Set up authentication for public APIs](/docs/publishing-your-api/setting-up-authentication-for-public-apis/).
