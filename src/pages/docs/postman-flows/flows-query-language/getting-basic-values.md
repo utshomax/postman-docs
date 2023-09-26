@@ -57,7 +57,7 @@ The examples below use this JSON data:
 }
 ```
 
-> To use this sample data in your flow, select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> in the **Start** block and paste the data into the **Config** field.
+> To use this sample data in your Flow, select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> in the **Start** block and paste the data into the **Config** field.
 
 ## Get a top-level field
 

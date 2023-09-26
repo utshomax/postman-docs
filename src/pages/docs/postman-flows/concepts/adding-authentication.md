@@ -12,11 +12,11 @@ Most APIs have some form of authentication that's required to use them. Authenti
 
 ### Getting an API key
 
-This example uses the stock price flow template. This flow is already built but needs an API key to run. API keys are a series of letters and numbers that uniquely identifies who can use the API. This request has a variable `api key` which will pass the value of the variable in the request.
+This example uses the stock price Flow template. This Flow is already built but needs an API key to run. API keys are a series of letters and numbers that uniquely identifies who can use the API. This request has a variable `api key` which will pass the value of the variable in the request.
 
 <img src="https://assets.postman.com/postman-labs-docs/concepts/getting-api-key.gif" alt="Getting an API key" fetchpriority="low" loading="lazy" />
 
-Selecting the link in the flow opens the page to get an API key. Enter any organization name and an email and copy the key generated below.
+Selecting the link in the Flow opens the page to get an API key. Enter any organization name and an email and copy the key generated below.
 
 ### Using an API key
 
