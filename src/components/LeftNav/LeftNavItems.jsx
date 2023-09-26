@@ -210,7 +210,7 @@ export const leftNavItems = [
     url: '/docs/sending-requests/requests/',
     subMenuItems1: [
       {
-        name: 'Build requests',
+        name: 'Overview',
         url: '/docs/sending-requests/requests/',
       },
       {
