@@ -48,9 +48,9 @@ When you first join Postman using an email address with your company's domain, P
 
 ![Join a team from your organization](https://assets.postman.com/postman-docs/v10/join-team-discovery-v10.15.jpg)
 
-Select **Join** next to a team. If the Team Admin requires approval to join the team, a request to join window will appear. Answer the question set by the Team Admin, if there is one. You can also add an optional note. Select **Request to Join**.
+Select **Join** next to a team. If a Team Admin has set a mandatory question, a window will appear. Answer the question set by the Team Admin, then select **Submit**.
 
-<img alt="Request to join team" src="https://assets.postman.com/postman-docs/request-to-join-team-team-discovery-v9.2.jpg" width="350px"/>
+<img alt="Request to join team" src="https://assets.postman.com/postman-docs/v10/request-to-join-team-team-discovery-v10.15.jpg" width="350px"/>
 
 Once you've verified your account, the Team Admins will receive a notification of your request. When they approve it, you'll be able to access the team and collaborate on API projects within it.
 
