@@ -1,5 +1,5 @@
 ---
-title: "Publishing your docs"
+title: "Publish documentation in Postman"
 updated: 2023-04-15
 contextual_links:
   - type: section
@@ -40,7 +40,7 @@ Public documentation automatically includes details for each request or endpoint
 
 ## Making your documentation public
 
-To publish [documentation](/docs/publishing-your-api/documenting-your-api/), it must be part of a collection. You can publish documentation for any collections that you created or have permission to edit.
+To publish [documentation](/docs/publishing-your-api/document-a-collection/), it must be part of a collection. You can publish documentation for any collections that you created or have permission to edit.
 
 > You can't publish a collection that has [gRPC requests](/docs/sending-requests/grpc/grpc-request-interface/#the-right-sidebar) or [WebSocket requests](/docs/sending-requests/websocket/websocket/#documenting-requests). Also, you can't publish a collection that has been added to an API. Instead, you can [publish a version of the API](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/). A published version includes the API's definition and collections.
 
@@ -55,7 +55,7 @@ To publish the documentation for a collection, do the following:
 1. Change any publication settings as needed:
 
     * **Version** - If the collection has multiple versions, select the versions to publish. (You can no longer create versions or releases for collections in Postman v10, but you can [publish versions of an API](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).)
-    * **Environment** - Select an [environment](/docs/publishing-your-api/documenting-your-api/#associating-environments-with-documentation) to publish environment variables with your documentation. *The initial values of all variables are published with your documentation, so make sure they don't contain sensitive information such as passwords or tokens.*
+    * **Environment** - Select an [environment](/docs/publishing-your-api/document-a-collection/#associate-environments-with-documentation) to publish environment variables with your documentation. *The initial values of all variables are published with your documentation, so make sure they don't contain sensitive information such as passwords or tokens.*
     * **Custom domain** - Select a [custom domain](/docs/publishing-your-api/custom-doc-domains/) where you want to publish your documentation.
     * **Default layout** - Select a layout style for your documentation. **Double column** displays sample code in a column next to the documentation. **Single column** displays sample code inline beneath each request.
     * **Default Theme** - Select a light or dark theme for your documentation. You can also choose to use the system theme. Your documentation will use the selected theme by default, but users can switch between themes.
