@@ -1087,36 +1087,36 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Document APIs',
+    name: 'Documenting your API',
     parentSlug: 'publishing-your-api',
     url: '/docs/publishing-your-api/documenting-your-api/',
     subMenuItems1: [
       {
-        name: 'Generate API documentation',
+        name: 'Generating API documentation',
         url: '/docs/publishing-your-api/documenting-your-api/',
       },
       {
-        name: 'Write documentation',
+        name: 'Writing your docs',
         url: '/docs/publishing-your-api/authoring-your-documentation/',
       },
       {
-        name: 'Publish documentation',
+        name: 'Publishing your docs',
         url: '/docs/publishing-your-api/publishing-your-docs/',
       },
       {
-        name: 'Manage public documentation',
+        name: 'Viewing documentation',
         url: '/docs/publishing-your-api/viewing-documentation/',
       },
       {
-        name: 'Host API documentation',
+        name: 'Using custom domains',
         url: '/docs/publishing-your-api/custom-doc-domains/',
       },
       {
-        name: 'Set up authentication for public APIs',
+        name: 'Setting up authentication for public APIs',
         url: '/docs/publishing-your-api/setting-up-authentication-for-public-apis/',
       },
       {
-        name: 'Share collections',
+        name: 'Run in Postman',
         subParentSlug: 'run-in-postman',
         slug: '/docs/publishing-your-api/run-in-postman/introduction-run-button/',
         subMenuItems2: [
