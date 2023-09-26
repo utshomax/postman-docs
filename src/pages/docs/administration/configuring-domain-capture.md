@@ -1,6 +1,5 @@
 ---
-title: "Configuring domain verification and capture"
-warning: false
+title: "Configure domain verification and capture"
 updated: 2023-03-07
 contextual_links:
   - type: section
@@ -55,7 +54,7 @@ The following is required to enable domain capture:
 * [SSO](/docs/administration/sso/admin-sso/) must be configured and enabled.
     * Alternative authentication methods (Postman or Google sign in) must be turned off.
 
-It's recommended that you enable [SSO provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) to ease the process of onboarding new users and [Auto-Flex](/docs/administration/billing/#using-auto-flex) to ensure that your team can automatically accommodate all users that may be added to your Postman team when domain capture is enabled.
+It's recommended that you enable [SSO provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) to ease the process of onboarding new users and [Auto-Flex](/docs/billing/billing/#using-auto-flex) to ensure that your team can automatically accommodate all users that may be added to your Postman team when domain capture is enabled.
 
 ## Adding and verifying a domain
 

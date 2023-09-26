@@ -14,11 +14,11 @@ contextual_links:
     url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
 ---
 
-You can use Postman Flows to complete repetitive tasks. Businesses often need to delete emails from multiple systems. Logging in, searching, and deleting emails from multiple locations can be time consuming. This tutorial shows you how to create a flow that deletes an email from three locations each time you run the flow.
+You can use Postman Flows to complete repetitive tasks. Businesses often need to delete emails from multiple systems. Logging in, searching, and deleting emails from multiple locations can be time consuming. This tutorial shows you how to create a Flow that deletes an email from three locations each time you run the Flow.
 
 For this tutorial, the locations are Stripe.com, Brevo.com, and a Postman mock server that acts as a hypothetical internal system.
 
-You can find the complete flow [here](https://www.postman.com/postman/workspace/devops-flows/flow/6417a7608c4c54003a4ad899).
+You can find the complete Flow [here](https://www.postman.com/postman/workspace/devops-flows/flow/6417a7608c4c54003a4ad899).
 
 ## Prerequisites
 
@@ -45,11 +45,11 @@ Fork this environment into your workspace:
 
     ![Add API keys](https://assets.postman.com/postman-docs/v10/flows-tut-rep-update-env-v10.jpg)
 
-## Create the flow
+## Create the Flow
 
 1. Part one: Delete the contact from Stripe
 
-    * Create a new flow. Add a **String** block and enter `test@email.com`.
+    * Create a new Flow. Add a **String** block and enter `test@email.com`.
 
     * Connect a **Create Variable** block and enter `Customer Email`.
 
@@ -104,6 +104,6 @@ Fork this environment into your workspace:
 
         ![Internal contact deleted](https://assets.postman.com/postman-docs/v10/flows-tut-rep-internal-deleted-v10.jpg)
 
-## Run the flow
+## Run the Flow
 
-Select **Run**. The flow finds and deletes the contact with the `test@email.com` email address on Brevo, Stripe, and the internal system. When the contact is deleted, the `Contact deleted` **Output** block shows **True**. If there is no contact with that email address, the `Contact not found` **Output** block shows **False**.
+Select **Run**. The Flow finds and deletes the contact with the `test@email.com` email address on Brevo, Stripe, and the internal system. When the contact is deleted, the `Contact deleted` **Output** block shows **True**. If there is no contact with that email address, the `Contact not found` **Output** block shows **False**.

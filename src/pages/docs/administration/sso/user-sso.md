@@ -1,5 +1,5 @@
 ---
-title: "Signing in to an SSO team"
+title: "Sign in to an SSO team"
 updated: 2023-02-06
 ---
 
