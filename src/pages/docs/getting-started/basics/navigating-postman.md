@@ -47,7 +47,7 @@ Postman has a variety of tools, views, and controls to help you manage your API 
 
 ## Header
 
-The header enables you to create workspaces, access reports, explore the public API network, search in Postman, view sync status and notifications, and access your settings, account, and [Postman plan](/docs/administration/buying/).
+The header enables you to create workspaces, access reports, explore the public API network, search in Postman, view sync status and notifications, and access your settings, account, and [Postman plan](/docs/billing/buying/).
 
 <img alt="Postman header left side" src="https://assets.postman.com/postman-docs/postman-desktop-app-header-v10.10.jpg" width="350px"/>
 
@@ -67,7 +67,7 @@ The header enables you to create workspaces, access reports, explore the public 
 * <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> **Settings** - Access [Postman settings](/docs/getting-started/installation/settings/) and other Postman resources.
 * <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> **Notifications** - View recent activity from your team, get notifications about Postman updates, and see pull requests, comment activity, and other important information.
 * **Your avatar** - View your profile, access your [account and notification settings](/docs/getting-started/installation/postman-account/), see all active sessions for your account, or sign out of your account.
-* **Team** (_paid plans_) or **Upgrade** (_free plan_) - View [resource usage](/docs/administration/resource-usage/) and access your [billing dashboard](/docs/administration/billing/) and other account management tools.
+* **Team** (_paid plans_) or **Upgrade** (_free plan_) - View [resource usage](/docs/billing/resource-usage/) and access your [billing dashboard](/docs/billing/billing/) and other account management tools.
 
 ### Search Postman
 

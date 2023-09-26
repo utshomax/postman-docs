@@ -1,5 +1,5 @@
 ---
-title: "Configuring SCIM with OneLogin"
+title: "Configure SCIM with OneLogin"
 updated: 2022-03-17
 ---
 

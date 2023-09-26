@@ -1,5 +1,5 @@
 ---
-title: "Managing Enterprise deployment"
+title: "Enterprise deployment"
 updated: 2022-03-14
 contextual_links:
   - type: section

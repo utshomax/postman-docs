@@ -1180,6 +1180,164 @@ export const leftNavItems = [
     ],
   },
   {
+    name: 'Administration',
+    parentSlug: 'administration',
+    url: '/docs/administration/managing-your-team/managing-your-team/',
+    subMenuItems1: [
+      {
+        name: 'Onboarding checklist',
+        url: '/docs/administration/onboarding-checklist/',
+      },
+      {
+        name: 'Migrate data between teams',
+        url: '/docs/administration/team-merge/',
+      },
+      {
+        name: 'Team management',
+        subParentSlug: 'managing-your-team',
+        slug: '/docs/administration/managing-your-team/managing-your-team/',
+        subMenuItems2: [
+          {
+            name: 'Manage your team',
+            url: '/docs/administration/managing-your-team/managing-your-team/',
+          },
+          {
+            name: 'Configure team settings',
+            url: '/docs/administration/managing-your-team/team-settings/',
+          },
+          {
+            name: 'Manage API keys',
+            url: '/docs/administration/managing-your-team/managing-api-keys/',
+          },
+          {
+            name: 'Secret Scanner',
+            url: '/docs/administration/managing-your-team/secret-scanner/',
+          },
+          {
+            name: 'Audit logs',
+            url: '/docs/administration/managing-your-team/audit-logs/',
+          },
+        ],
+      },
+      {
+        name: 'Enterprise',
+        subParentSlug: 'enterprise',
+        slug: '/docs/administration/enterprise/about-postman-enterprise/',
+        subMenuItems2: [
+          {
+            name: 'Postman Enterprise plans',
+            url: '/docs/administration/enterprise/about-postman-enterprise/',
+          },
+          {
+            name: 'Enterprise deployment',
+            url: '/docs/administration/enterprise/managing-enterprise-deployment/',
+          },
+        ],
+      },
+      {
+        name: 'Single Sign-On (SSO)',
+        subParentSlug: 'sso',
+        slug: '/docs/administration/sso/intro-sso/',
+        subMenuItems2: [
+          {
+            name: 'Intro to SSO',
+            url: '/docs/administration/sso/intro-sso/',
+          },
+          {
+            name: 'Configure SSO for a team',
+            url: '/docs/administration/sso/admin-sso/',
+          },
+          {
+            name: 'Sign in to an SSO team',
+            url: '/docs/administration/sso/user-sso/',
+          },
+          {
+            name: 'Microsoft AD FS',
+            url: '/docs/administration/sso/microsoft-adfs/',
+          },
+          {
+            name: 'Azure AD',
+            url: '/docs/administration/sso/azure-ad/',
+          },
+          {
+            name: 'Custom SAML',
+            url: '/docs/administration/sso/custom-saml/',
+          },
+          {
+            name: 'Duo',
+            url: '/docs/administration/sso/duo/',
+          },
+          {
+            name: 'Google Workspace',
+            url: '/docs/administration/sso/google-workspace/',
+          },
+          {
+            name: 'Okta',
+            url: '/docs/administration/sso/okta/',
+          },
+          {
+            name: 'OneLogin',
+            url: '/docs/administration/sso/onelogin/',
+          },
+          {
+            name: 'Ping Identity',
+            url: '/docs/administration/sso/ping-identity/',
+          },
+        ],
+      },
+      {
+        name: 'SCIM provisioning',
+        subParentSlug: 'scim-provisioning',
+        slug: '/docs/administration/scim-provisioning/scim-provisioning-overview/',
+        subMenuItems2: [
+          {
+            name: 'SCIM provisioning overview',
+            url: '/docs/administration/scim-provisioning/scim-provisioning-overview/',
+          },
+          {
+            name: 'Configure SCIM with Okta',
+            url: '/docs/administration/scim-provisioning/configuring-scim-with-okta/',
+          },
+          {
+            name: 'Configure SCIM with Azure AD',
+            url: '/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/',
+          },
+          {
+            name: 'Configure SCIM with OneLogin',
+            url: '/docs/administration/scim-provisioning/configuring-scim-with-onelogin/'
+          }
+        ],
+      },
+      {
+        name: 'Configure domain verification and capture',
+        url: '/docs/administration/configuring-domain-capture/',
+      },
+      {
+        name: 'Admin FAQs',
+        url: '/docs/administration/admin-faqs/',
+      },
+    ],
+  },
+  {
+    name: 'Billing',
+    parentSlug: 'billing',
+    url: '/docs/billing/billing/',
+    subMenuItems1: [
+      {
+        name: 'Manage billing',
+        url: '/docs/billing/billing/',
+      },
+      {
+        name: 'Purchase Postman',
+        url: '/docs/billing/buying/',
+      },
+      {
+        name: 'About resource usage',
+        url: '/docs/billing/resource-usage/',
+      },
+    ],
+  },
+  {
     name: 'API Governance',
     parentSlug: 'api-governance',
     url: '/docs/api-governance/api-governance-overview/',
@@ -1251,150 +1409,7 @@ export const leftNavItems = [
       },
     ],
   },
-  {
-    name: 'Administration',
-    parentSlug: 'administration',
-    url: '/docs/administration/managing-your-team/managing-your-team/',
-    subMenuItems1: [
-      {
-        name: 'Managing your team',
-        subParentSlug: 'managing-your-team',
-        slug: '/docs/administration/managing-your-team/managing-your-team/',
-        subMenuItems2: [
-          {
-            name: 'Managing your team',
-            url: '/docs/administration/managing-your-team/managing-your-team/',
-          },
-          {
-            name: 'Configuring domain verification and capture',
-            url: '/docs/administration/managing-your-team/configuring-domain-capture/',
-          },
-        ],
-      },
-      {
-        name: 'Purchasing Postman',
-        url: '/docs/administration/buying/',
-      },
-      {
-        name: 'Billing',
-        url: '/docs/administration/billing/',
-      },
-      {
-        name: 'About resource usage',
-        url: '/docs/administration/resource-usage/',
-      },
-      {
-        name: 'About Postman Enterprise plans',
-        url: '/docs/administration/about-postman-enterprise/'
-      },
-      {
-        name: 'Configuring team settings',
-        url: '/docs/administration/team-settings/',
-      },
-      {
-        name: 'Using audit logs',
-        url: '/docs/administration/audit-logs/',
-      },
-      {
-        name: 'Managing API keys',
-        url: '/docs/administration/managing-api-keys/',
-      },
-      {
-        name: 'Secret Scanner',
-        url: '/docs/administration/secret-scanner/',
-      },
-      {
-        name: 'Onboarding checklist',
-        url: '/docs/administration/onboarding-checklist/',
-      },
-      {
-        name: 'Migrating data between teams',
-        url: '/docs/administration/team-merge/',
-      },
-      {
-        name: 'Single Sign-On (SSO)',
-        subParentSlug: 'sso',
-        slug: '/docs/administration/sso/intro-sso/',
-        subMenuItems2: [
-          {
-            name: 'Intro to SSO',
-            url: '/docs/administration/sso/intro-sso/',
-          },
-          {
-            name: 'Configuring SSO for a team',
-            url: '/docs/administration/sso/admin-sso/',
-          },
-          {
-            name: 'Signing in to an SSO team',
-            url: '/docs/administration/sso/user-sso/',
-          },
-          {
-            name: 'Microsoft AD FS',
-            url: '/docs/administration/sso/microsoft-adfs/',
-          },
-          {
-            name: 'Azure AD',
-            url: '/docs/administration/sso/azure-ad/',
-          },
-          {
-            name: 'Custom SAML',
-            url: '/docs/administration/sso/custom-saml/',
-          },
-          {
-            name: 'Duo',
-            url: '/docs/administration/sso/duo/',
-          },
-          {
-            name: 'Google Workspace',
-            url: '/docs/administration/sso/google-workspace/',
-          },
-          {
-            name: 'Okta',
-            url: '/docs/administration/sso/okta/',
-          },
-          {
-            name: 'OneLogin',
-            url: '/docs/administration/sso/onelogin/',
-          },
-          {
-            name: 'Ping Identity',
-            url: '/docs/administration/sso/ping-identity/',
-          },
-        ],
-      },
-      {
-        name: 'SCIM provisioning',
-        subParentSlug: 'scim-provisioning',
-        slug: '/docs/administration/scim-provisioning/scim-provisioning-overview/',
-        subMenuItems2: [
-          {
-            name: 'SCIM provisioning overview',
-            url: '/docs/administration/scim-provisioning/scim-provisioning-overview/',
-          },
-          {
-            name: 'Configuring SCIM with Okta',
-            url: '/docs/administration/scim-provisioning/configuring-scim-with-okta/',
-          },
-          {
-            name: 'Configuring SCIM with Azure AD',
-            url: '/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/',
-          },
-          {
-            name: 'Configuring SCIM with OneLogin',
-            url: '/docs/administration/scim-provisioning/configuring-scim-with-onelogin/'
-          }
-        ],
-      },
-      {
-        name: 'Managing Enterprise deployment',
-        url: '/docs/administration/managing-enterprise-deployment/',
-      },
-      {
-        name: 'Admin FAQs',
-        url: '/docs/administration/admin-faqs/',
-      },
-    ],
-  },
+
   {
     name: 'Reports',
     parentSlug: 'reports',
