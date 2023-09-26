@@ -32,23 +32,23 @@ Team discovery encourages collaboration by easing the onboarding process for new
 
 In [Team Settings](https://go.postman.co/settings/team/general), select **Team discovery** on the left, then turn on **Enable team discovery**. This will enable anyone from your domain to find and request to join your team.
 
-![Enable team discovery](https://assets.postman.com/postman-docs/team-discovery-enable-v9.7.0.jpg)
+<img alt="Enable team discovery" src="https://assets.postman.com/postman-docs/v10/team-discovery-enable-v10.15.jpg" width="500px"/>
 
-> Team Admins will receive an email notification when team discovery is enabled.
+> Team Admins will receive an email notification when team discovery is enabled and only if the user has verified their email address.
 
 You can optionally add a question for pending team members to answer when they request to join your team. Enter your question and select **Update Question**. Anyone who requests to join the team will be prompted with the question. If you don't specify a question, team members can still add a note when they request to join the team.
 
-All [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) will receive a notification when someone makes a request to join your team, including their answer to any question you set, or an optional note.
+All [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) will receive a notification when someone requests to join your team after verifying their email address, including their answer to any question you set, or an optional note.
 
-![Team Request Approval](https://assets.postman.com/postman-docs/admin-team-join-requests-v9.7.0.jpg)
+![Team Request Approval](https://assets.postman.com/postman-docs/v10/admin-team-join-requests-v10.15.jpg)
 
 ## Finding teams within your organization
 
-When you first join Postman using an email address with your company's domain, Postman provides you with a list of available teams you can join within your organization.
+When you first join Postman using an email address with your company's domain, Postman provides you with a list of available teams you can join within your organization. Select **Show More** to see the full list of teams.
 
-![Join a team from your organization](https://assets.postman.com/postman-docs/join-team-discovery-v9.2.jpg)
+![Join a team from your organization](https://assets.postman.com/postman-docs/v10/join-team-discovery-v10.15.jpg)
 
-Select **Request Access** next to a team, then answer the question set by the Team Admin, if there is one. You can also add an optional note. Select **Request to Join**.
+Select **Join** next to a team. If the Team Admin requires approval to join the team, a request to join window will appear. Answer the question set by the Team Admin, if there is one. You can also add an optional note. Select **Request to Join**.
 
 <img alt="Request to join team" src="https://assets.postman.com/postman-docs/request-to-join-team-team-discovery-v9.2.jpg" width="350px"/>
 
