@@ -141,7 +141,7 @@ If you're the last member to leave a team, the team will be deleted. You will no
 
 Your team's usage limits are based on your [plan type](https://www.postman.com/pricing/) and any [add-ons](/docs/billing/billing/#purchasing-add-on-resources) your team has purchased.
 
-Open the [**Resource usage** dashboard](http://go.postman.co/billing/add-ons/overview) to see your team's usage of mock servers and monitors, APIs created, collection runner runs, image and file storage, flow requests, performance tests, integrations, and the Postman Cloud Agent. To open the **Resource usage** dashboard, do one of the following:
+Open the [**Resource usage** dashboard](http://go.postman.co/billing/add-ons/overview) to see your team's usage of mock servers and monitors, APIs created, collection runner runs, image and file storage, Flow requests, performance tests, integrations, and the Postman Cloud Agent. To open the **Resource usage** dashboard, do one of the following:
 
 * **Free users** - In the Postman header, select the menu next to **Upgrade**.
 * **Paid users** - In the Postman header, select **Team**.
