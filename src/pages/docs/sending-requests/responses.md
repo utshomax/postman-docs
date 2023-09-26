@@ -19,7 +19,7 @@ contextual_links:
     url: "https://blog.postman.com/how-to-review-postman-test-results/"
 ---
 
-The Postman response viewer helps you to visualize and check the correctness of API responses. An API response consists of the response body, headers, cookies, and the HTTP status code. You can view details about the response, including test results, network information, response size, response time, and security warnings. You can also save responses as examples or files.
+The Postman response viewer helps you visualize and check the correctness of API responses. An API response consists of the response body, headers, cookies, and the HTTP status code. You can view details about the response, including test results, network information, response size, response time, and security warnings. You can also save responses as examples or files.
 
 ## Contents
 
@@ -37,15 +37,15 @@ The Postman response viewer helps you to visualize and check the correctness of 
 
 ## Response body
 
-The Postman **Body** tab gives you several tools to help you understand the response. You can view the body in one of four views: _Pretty_, _Raw_, _Preview_, and _Visualize_.
+The Postman **Body** tab gives you several tools to help you understand the response. You can view the body in one of four views: **Pretty**, **Raw**, **Preview**, and **Visualize**.
 
-> **Find items in responses.** To open the search bar, select the search icon <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> in the results pane. You can also place your cursor in the response and select **⌘+F** or **Ctrl+F**. This option isn't available in a response's Preview or Visualize views.
+> **Find items in responses.** To open the search bar, select the search icon <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> in the results pane. You can also place your cursor in the response and select **⌘+F** or **Ctrl+F**. This option isn't available in a response's **Preview** or **Visualize** views.
 
 Note that if the response's `Content-Type` header indicates that the response is an image, Postman will detect and render the image automatically.
 
 ### Pretty
 
-The Pretty view formats JSON or XML responses so they're easier to view. Links inside Pretty view are highlighted, and selecting them can load a GET request in Postman with the link URL.
+The **Pretty** view formats JSON or XML responses so they're easier to view. Links inside the **Pretty** view are highlighted, and selecting them can load a GET request in Postman with the link URL.
 
 For navigating large responses, select the down arrows next to a line to collapse large sections of the response.
 
@@ -55,13 +55,13 @@ For navigating large responses, select the down arrows next to a line to collaps
 
 ### Raw
 
-The Raw view is a large text area with the response body. It can indicate whether your response is minified.
+The **Raw** view is a large text area with the response body. It can indicate whether your response is minified.
 
 <img alt="Response Raw view" src="https://assets.postman.com/postman-docs/response-raw-view.jpg" width="300px"/>
 
 ### Preview
 
-The Preview view renders the response in an iframe sandbox. Some web frameworks by default return HTML errors, and Preview can be helpful for debugging in those cases.
+The **Preview** view renders the response in an iframe sandbox. Some web frameworks by default return HTML errors, and **Preview** can be helpful for debugging in those cases.
 
 Due to iframe sandbox restrictions, JavaScript and images are turned off in the iframe. For binary response types, you can select the down arrow next to **Send** and select **Send and Download** to save the response locally. You can then view it using the appropriate viewer. This gives you the flexibility to test audio files, PDFs, zip files, or any other file types the API returns.
 
@@ -69,7 +69,7 @@ Due to iframe sandbox restrictions, JavaScript and images are turned off in the 
 
 ### Visualize
 
-The Visualize view renders the data in the API response according to visualization code that you add to the requests **Tests**. For details on how to add, use, and debug visualization code, see [Visualizing responses](/docs/sending-requests/visualizer/).
+The **Visualize** view renders the data in the API response according to visualization code that you add to the requests **Tests**. For details on how to add, use, and debug visualization code, see [Visualizing responses](/docs/sending-requests/visualizer/).
 
 ![Response Visualize view](https://assets.postman.com/postman-docs/v10/response-visualize-view-v10-2.jpg)
 
