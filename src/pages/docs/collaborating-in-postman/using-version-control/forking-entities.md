@@ -27,7 +27,7 @@ contextual_links:
     url: "https://www.postman.com/case-studies/youi/"
 ---
 
-A _fork_ is a new instance of an element that you can change without making any changes to the parent element. In Postman, you can fork collections, environments, and flows. Forking enables you to contribute to an element without having [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) for that element.
+A _fork_ is a new instance of an element that you can change without making any changes to the parent element. In Postman, you can fork collections, environments, and Flows. Forking enables you to contribute to an element without having [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) for that element.
 
 ## Contents
 
@@ -39,9 +39,9 @@ A _fork_ is a new instance of an element that you can change without making any 
 
 ## Creating a fork
 
-> To fork a collection, environment, or flow within a public workspace, you must enable your public profile in your [profile settings](https://go.postman.co/settings/me). For more information on making your profile public, see [Making your profile public](/docs/getting-started/installation/postman-profile/#making-your-profile-public).
+> To fork a collection, environment, or Flow within a public workspace, you must enable your public profile in your [profile settings](https://go.postman.co/settings/me). For more information on making your profile public, see [Making your profile public](/docs/getting-started/installation/postman-profile/#making-your-profile-public).
 
-When you fork a Postman Collection, environment, or flow, you create a copy of it in a different workspace. You must sign in to Postman to create a fork.
+When you fork a Postman Collection, environment, or Flow, you create a copy of it in a different workspace. You must sign in to Postman to create a fork.
 
 To fork an element, do the following:
 
@@ -65,11 +65,11 @@ If there are any [mocks](/docs/designing-and-developing-your-api/mocking-data/se
 
 Fork information shows details about forks and the users who have created them. You will be able to identify the users who are actively consuming and contributing to your APIs.
 
-To view a list of users who have forked a collection, environment, or flow, select the number next to the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px">.
+To view a list of users who have forked a collection, environment, or Flow, select the number next to the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px">.
 
 <img alt="View the fork information count" src="https://assets.postman.com/postman-docs/v10/fork-information-count-v10.jpg" width="500px"/>
 
-To access the list of forks for a collection, environment, or flow, do the following:
+To access the list of forks for a collection, environment, or Flow, do the following:
 
 1. Select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the right sidebar.
 1. Select the fork name under **Forks**.
@@ -80,7 +80,7 @@ To access the list of forks for a collection, environment, or flow, do the follo
 
 ## Pulling updates from a parent element
 
-> Forked flows don't support pulling updates.
+> Forked Flows don't support pulling updates.
 
 You can pull updates from a parent element into a fork without going through the [pull request process](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/).
 
@@ -95,7 +95,7 @@ To pull updates from a parent element during the pull request process, see [Pull
 
 ## Merging changes from a fork
 
-> Forked flows don't support merging changes.
+> Forked Flows don't support merging changes.
 
 If you have Editor access on the element, you can _merge_ a fork into the parent element without going through the [pull request process](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/). For example, if you’re using forks in a personal workspace to organize your work, you can merge changes in a fork directly back into the parent element. If you're collaborating with others, though, merging directly lacks the safeguards built into the pull request process. Many teams require pull requests as part of their [version control workflow](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/).
 
@@ -121,7 +121,7 @@ To merge changes during the pull request process, see [Merging changes from a pu
 
 ## Resolving conflicts from a fork
 
-> Forked flows don't support resolving conflicts.
+> Forked Flows don't support resolving conflicts.
 
 A merge conflict happens when you try to merge changes into an updated parent element and Postman isn't able to automatically resolve the differences between the two. If there's a conflict when you try to merge a fork, you'll need to decide how you want to resolve it before continuing.
 

@@ -27,7 +27,7 @@ contextual_links:
     url: "https://blog.postman.com/get-more-out-of-postman-by-collaborating-with-your-team/"
 ---
 
-You can use team workspaces to work together on APIs, collections, environments, integrations, mocks, monitors, and flows. Team workspaces can act as a single source of truth for your API projects and encourage collaboration within your team.
+You can use team workspaces to work together on APIs, collections, environments, integrations, mocks, monitors, and Flows. Team workspaces can act as a single source of truth for your API projects and encourage collaboration within your team.
 
 [Postman Professional and Enterprise teams](https://www.postman.com/pricing) can also create [private workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). A private workspace is a team workspace that's only visible to the user who created it and team members who have been invited to join it. Private workspaces allow teams to restrict access to elements that are relevant only to a particular group.
 
@@ -51,9 +51,9 @@ You can invite team members to join a [new](/docs/collaborating-in-postman/using
 
 ## Moving elements to team workspaces
 
-You can move collections, APIs, environments, and flows to shared workspaces to collaborate with your team.
+You can move collections, APIs, environments, and Flows to shared workspaces to collaborate with your team.
 
-> You must be an Editor on a collection, API, environment, or flow, the Workspace Admin, or a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to move an element to another workspace.
+> You must be an Editor on a collection, API, environment, or Flow, the Workspace Admin, or a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to move an element to another workspace.
 
 In the sidebar, select the element you want to share, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
