@@ -1177,11 +1177,11 @@ export const leftNavItems = [
     url: '/docs/api-governance/api-governance-overview/',
     subMenuItems1: [
       {
-        name: 'API Governance and API Security in Postman',
+        name: 'Overview',
         url: '/docs/api-governance/api-governance-overview/',
       },
       {
-        name: 'API definition',
+        name: 'API rules',
         subParentSlug: 'api-definition',
         slug: '/docs/api-governance/api-definition/api-definition-warnings/',
         subMenuItems2: [
@@ -1200,7 +1200,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Requests',
+        name: 'API request warnings',
         subParentSlug: 'api-testing',
         slug: '/docs/api-governance/api-testing/api-testing-warnings/',
         subMenuItems2: [
@@ -1388,36 +1388,36 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Using reports',
+    name: 'Reports',
     parentSlug: 'reports',
     url: '/docs/reports/reports-overview/',
     subMenuItems1: [
       {
-        name: 'About reports',
+        name: 'Overview',
         url: '/docs/reports/reports-overview/',
       },
       {
-        name: 'Overview reports',
+        name: 'Overview report',
         url: '/docs/reports/overview-reports/',
       },
       {
-        name: 'Members overview reports',
+        name: 'Members overview report',
         url: '/docs/reports/members-overview-reports/',
       },
       {
-        name: 'Content activity reports',
+        name: 'Content activity report',
         url: '/docs/reports/content-activity-reports/',
       },
       {
-        name: 'API Security reports',
+        name: 'API Security report',
         url: '/docs/reports/api-security-reports/',
       },
       {
-        name: 'API Governance reports',
+        name: 'API Governance report',
         url: '/docs/reports/api-gov-reports/',
       },
       {
-        name: 'Billing overview reports',
+        name: 'Billing overview report',
         url: '/docs/reports/billing-overview-reports/',
       },
       {
@@ -1432,11 +1432,11 @@ export const leftNavItems = [
     url: '/docs/developer/resources-intro/',
     subMenuItems1: [
       {
-        name: 'Developing with Postman utilities',
+        name: 'Overview',
         url: '/docs/developer/resources-intro/',
       },
       {
-        name: 'Using the Postman API',
+        name: 'Postman API reference',
         subParentSlug: 'postman-api',
         slug: '/docs/developer/postman-api/intro-api/',
         subMenuItems2: [
@@ -1459,11 +1459,11 @@ export const leftNavItems = [
         ]
       },
       {
-        name: 'The Postman Echo service',
+        name: 'Postman Echo service',
         url: '/docs/developer/echo-api/',
       },
       {
-        name: 'Collection SDK',
+        name: 'Postman Collection SDK',
         url: '/docs/developer/collection-sdk/',
       },
       {
@@ -1471,11 +1471,11 @@ export const leftNavItems = [
         url: '/docs/developer/runtime-library/',
       },
       {
-        name: 'Code generator library',
+        name: 'Postman code generator',
         url: '/docs/developer/code-generators/',
       },
       {
-        name: 'Postman Collection conversion',
+        name: 'API format conversion',
         url: '/docs/developer/collection-conversion/',
       },
     ],
@@ -1486,11 +1486,11 @@ export const leftNavItems = [
     url: '/docs/integrations/intro-integrations/',
     subMenuItems1: [
       {
-        name: 'Integrating with Postman',
+        name: 'Overview',
         url: '/docs/integrations/intro-integrations/',
       },
       {
-        name: 'Custom Webhooks',
+        name: 'Custom webhooks',
         url: '/docs/integrations/webhooks/',
       },
       {
@@ -1502,7 +1502,7 @@ export const leftNavItems = [
         url: '/docs/integrations/ci-integrations/',
       },
       {
-        name: 'Available integrations',
+        name: 'Postman integrations',
         subParentSlug: 'available-integrations',
         slug: '/docs/integrations/available-integrations/apimatic/',
         subMenuItems2: [
