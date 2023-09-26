@@ -14,19 +14,19 @@ contextual_links:
     url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
 ---
 
-You can enhance the efficiency and productivity of an API workflow by incorporating task scheduling and automation. This can be accomplished by using monitors with Postman Flows. This tutorial shows how to create a monitor and a flow to get weather information for a specified ZIP Code and automatically share it on a Twitter account.
+You can enhance the efficiency and productivity of an API workflow by incorporating task scheduling and automation. This can be accomplished by using monitors with Postman Flows. This tutorial shows how to create a monitor and a Flow to get weather information for a specified ZIP Code and automatically share it on a Twitter account.
 
-You can see this tutorial's completed flow [here](https://www.postman.com/postman/workspace/utility-flows/flow/64d40655bf27ca003803286d).
+You can see this tutorial's completed Flow [here](https://www.postman.com/postman/workspace/utility-flows/flow/64d40655bf27ca003803286d).
 
 ## Contents
 
 * [Goal](#goal)
-* [Creating the flow](#creating-the-flow)
+* [Creating the Flow](#creating-the-flow)
 * [Prerequisites](#prerequisites)
 
 ## Goal
 
-Create a monitor and a flow to get the high and low temperature forecasts for a given ZIP code and post them to a Twitter account daily.
+Create a monitor and a Flow to get the high and low temperature forecasts for a given ZIP code and post them to a Twitter account daily.
 
 ## Prerequisites
 
@@ -44,7 +44,7 @@ Create a monitor and a flow to get the high and low temperature forecasts for a 
     * Set each variable's **Type** to `secret`.
 * A ZIP Code.
 
-## Creating the flow
+## Creating the Flow
 
 1. Begin by [forking](/docs/collaborating-in-postman/using-version-control/forking-entities/) (copying) the [Weather Application for Postman Flows Tutorial](https://www.postman.com/postman/workspace/utility-flows/collection/21580188-c9c70d3f-a736-4834-bd6e-8b04a1389012?action=share&creator=21580188), the [**Twitter API v2** collection](https://www.postman.com/postman/workspace/utility-flows/collection/21580188-a3cb6477-6f61-451e-a2c2-e24fd44267f9?action=share&creator=21580188) and the [**Twitter API v2** environment](https://www.postman.com/postman/workspace/utility-flows/environment/21580188-a2d4586a-c79c-4f70-8cc0-05d22e417370) to your workspace.
 
@@ -57,7 +57,7 @@ Create a monitor and a flow to get the high and low temperature forecasts for a 
 
     ![Add keys and secrets to the environment](https://assets.postman.com/postman-docs/v10/flows-tut-sched-environment-v10.jpg)
 
-1. Create a flow and add a **Send Request** block.
+1. Create a Flow and add a **Send Request** block.
     * In the **Send Request** block, select **Weather Application for Postman Flows Tutorial > Get coordinates for zip code**.
     * Select the **Twitter API v2** environment.
     * Add a **String** block and enter a ZIP Code.
@@ -87,12 +87,12 @@ Create a monitor and a flow to get the high and low temperature forecasts for a 
 
     ![Add another Send Request block](https://assets.postman.com/postman-docs/v10/flows-tut-sched-create-tweet-v10.jpg)
 
-1. In the sidebar, under **Applications**, select **Webhook > Publish** and copy the flow's webhook URL.
+1. In the sidebar, under **Applications**, select **Webhook > Publish** and copy the Flow's webhook URL.
 
-## Scheduling the flow with a monitor
+## Scheduling the Flow with a monitor
 
-1. Create an HTTP POST request and enter the flow's webhook URL. Save the request to a new collection named `Scheduled Flow`.
+1. Create an HTTP POST request and enter the Flow's webhook URL. Save the request to a new collection named `Scheduled Flow`.
 1. Create a monitor named `Scheduled Flow Monitor` and enter the following information:
     * **Collection**: `Scheduled Flow`.
     * **Run this monitor**: `Week timer`, `Every day`, `8:00 AM`.
-1. Select **Create Monitor**. The monitor will trigger the flow daily at 8:00 AM.
+1. Select **Create Monitor**. The monitor will trigger the Flow daily at 8:00 AM.

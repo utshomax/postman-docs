@@ -8,7 +8,7 @@ warning: false
 
 Postman provides tools to help you manage your team's monitor usage. Track the number of monitoring requests that have been made against your plan's monthly maximum, and enable overages or purchase more blocks if needed. You can also view all of the monitors your team has created to make sure you're not exceeding monitor activity limits.
 
-> To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).
+> To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/billing/resource-usage/).
 
 ## Contents
 
