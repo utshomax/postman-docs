@@ -1363,6 +1363,10 @@ export const leftNavItems = [
             name: 'OpenAPI 2.0 rules',
             url: '/docs/api-governance/api-definition/openapi2/',
           },
+          {
+            name: 'AsyncAPI 2 rules',
+            url: '/docs/api-governance/api-definition/asyncapi2/',
+          },
         ],
       },
       {
