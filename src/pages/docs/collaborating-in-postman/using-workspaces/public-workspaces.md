@@ -62,7 +62,7 @@ To make your [team profile](https://go.postman.co/settings/team/general) public,
 1. Select **Team profile**.
 1. Select **Make team profile public** to set the profile to public.
 
-For information on how to create a public profile, see [Editing your team profile](/docs/administration/team-settings/#editing-your-team-profile).
+For information on how to create a public profile, see [Editing your team profile](/docs/administration/managing-your-team/team-settings/#editing-your-team-profile).
 
 ## Creating a public workspace
 
@@ -76,7 +76,7 @@ To create a public workspace, do the following:
 
     > You can also apply a workspace template to a newly created workspace. To learn more, see [Creating workspaces with a template](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template).
 
-    <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-and-apply-template-full-screen-v10.jpg"/>
+    <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-and-apply-template-full-screen-v10-2.jpg"/>
 
 1. Specify a workspace **Name** and **Summary**.
     > Within a team, you can't have two public workspaces with the same name.
@@ -84,7 +84,7 @@ To create a public workspace, do the following:
 
 1. Select **Create**.
 
-    <img alt="Create public workspace" src="https://assets.postman.com/postman-docs/v10/create-public-workspace-v10.jpg" width="400px"/>
+    <img alt="Create public workspace" src="https://assets.postman.com/postman-docs/v10/create-public-workspace-v10-2.jpg" width="400px"/>
 
 ## Converting an existing workspace to a public workspace
 
@@ -105,7 +105,7 @@ To convert an existing workspace to a public workspace in a Postman Professional
 
     <img alt="Request Visibility Change" src="https://assets.postman.com/postman-docs/v10/public-workspace-request-v10.jpg" width="400px"/>
 
-   This sends a request to team members with the Community Manager role, triggers the [Secret Scanner](/docs/administration/token-scanner/), and creates a Team workspace until it's approved by a Community Manager. While you're waiting for the request to be reviewed, you can check the status of the secret scan or cancel the request from Workspace settings.
+   This sends a request to team members with the Community Manager role, triggers the [Secret Scanner](/docs/administration/managing-your-team/secret-scanner/), and creates a Team workspace until it's approved by a Community Manager. While you're waiting for the request to be reviewed, you can check the status of the secret scan or cancel the request from Workspace settings.
 
     <img alt="Request being reviewed" src="https://assets.postman.com/postman-docs/v10/public-workspace-request-review-v10.jpg" width="400px"/>
 
@@ -119,7 +119,7 @@ An informative and inviting public workspace can help increase adoption of your 
 
 * A complete [public team profile](#making-your-team-profile-public).
 * A complete [workspace overview](#editing-public-workspace-details), including a name, summary, and description.
-* Descriptive [documentation](/docs/publishing-your-api/documenting-your-api/) for your APIs.
+* Descriptive [documentation](/docs/publishing-your-api/api-documentation-overview/) for your APIs.
 
 Signs of a public workspace that invites collaboration include:
 

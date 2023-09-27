@@ -1,5 +1,5 @@
 ---
-title: "Using custom domains"
+title: "Host API documentation with a custom domain"
 updated: 2023-01-12
 contextual_links:
   - type: section

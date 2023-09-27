@@ -1,5 +1,5 @@
 ---
-title: "Configuring SSO for a team"
+title: "Configure SSO for a team"
 updated: 2023-02-06
 contextual_links:
   - type: section

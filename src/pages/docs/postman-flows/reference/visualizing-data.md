@@ -23,9 +23,9 @@ The **Output** block accepts information from other blocks and creates a visuali
 
 <img alt="Output block" src="https://assets.postman.com/postman-docs/v10/stock-charts-v10.gif" fetchpriority="low" loading="lazy"/>
 
-This image shows four types of output visualization types: line chart, text, gauge, and boolean. The following tutorials show how to create each of these visualization types. You can also find links to example flows for other visualization types in the [Visualization types with example flows](#visualization-types-with-example-flows) section.
+This image shows four types of output visualization types: line chart, text, gauge, and boolean. The following tutorials show how to create each of these visualization types. You can also find links to example Flows for other visualization types in the [Visualization types with example Flows](#visualization-types-with-example-flows) section.
 
-For examples of how to use **Output** blocks in your flows, see the [Stock Dashboard](https://www.postman.com/postman/workspace/utility-flows/flow/64123b57c224290033fcb089) and [WordPress Sentiment Analysis](https://www.postman.com/postman/workspace/utility-flows/flow/6413acdb8c4c54003a4ad611) flows.
+For examples of how to use **Output** blocks in your Flows, see the [Stock Dashboard](https://www.postman.com/postman/workspace/utility-flows/flow/64123b57c224290033fcb089) and [WordPress Sentiment Analysis](https://www.postman.com/postman/workspace/utility-flows/flow/6413acdb8c4c54003a4ad611) Flows.
 
 ## Contents
 
@@ -33,7 +33,7 @@ For examples of how to use **Output** blocks in your flows, see the [Stock Dashb
 * [Text](#text)
 * [Gauge](#gauge)
 * [Boolean](#boolean)
-* [Visualization types with example flows](#visualization-types-with-example-flows)
+* [Visualization types with example Flows](#visualization-types-with-example-flows)
 
 ## Line chart
 
@@ -41,7 +41,7 @@ The **Line Chart** visualization type accepts two lists and plots them on x and 
 
 To create an example line chart **Output** block, do the following:
 
-1. Create a new flow, enter the data below in the **Start** block, and select `JSON` from the dropdown list:
+1. Create a new Flow, enter the data below in the **Start** block, and select `JSON` from the dropdown list:
 
     ```json
     {
@@ -53,7 +53,7 @@ To create an example line chart **Output** block, do the following:
 1. Connect a **Select** block to the **Start** block and select **List 1**.
 1. Connect another **Select** block to the **Start** block and select **List 2**.
 1. Connect both **Select** blocks to a single **Output** block.
-1. In the **Output** block's dropdown list, select **Line chart** and run the flow. A line chart appears with the data on their respective axes.
+1. In the **Output** block's dropdown list, select **Line chart** and run the Flow. A line chart appears with the data on their respective axes.
 
     ![Line chart visualization type](https://assets.postman.com/postman-docs/v10/flows-line-chart-v10.jpg)
 
@@ -63,9 +63,9 @@ When an **Output** block receives a string, it automatically selects the **Text*
 
 To create an example text **Output** block, do the following:
 
-1. Create a new flow and add a **Send request** block with a GET request to `postman-echo.com/get`.
+1. Create a new Flow and add a **Send request** block with a GET request to `postman-echo.com/get`.
 1. Connect a **Select** block to the **Send request** block and enter `body.headers.host`. This selects a string from the response.
-1. Connect an **Output** block to the **Select** block and run the flow. The **Output** block shows the `body.headers.host` string from the response, which in this example is `postman-echo.com`.
+1. Connect an **Output** block to the **Select** block and run the Flow. The **Output** block shows the `body.headers.host` string from the response, which in this example is `postman-echo.com`.
 
     ![Text visualization type](https://assets.postman.com/postman-docs/v10/flows-text-v10.jpg)
 
@@ -75,10 +75,10 @@ The **Gauge** visualization type shows a value's position in a range using a hal
 
 To create an example gauge **Output** block, do the following:
 
-1. Create a new flow and add a **Send request** block with a GET request to `techcrunch.com/wp-json/wp/v2/posts`.
+1. Create a new Flow and add a **Send request** block with a GET request to `techcrunch.com/wp-json/wp/v2/posts`.
 1. Connect an **Evaluate** block to the **Send request** block and enter this [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) query: `$count(value1.body)` to count how many items the response body has.
 1. Connect an **Output** block to the **Evaluate** block and select **Gauge** from the dropdown list.
-1. Run the flow. The gauge shows the number of items in the response body as the shaded part of the graph.
+1. Run the Flow. The gauge shows the number of items in the response body as the shaded part of the graph.
 
     > To set the minimum and maximum values for the gauge, select the **Output** block's settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">.
 
@@ -90,15 +90,15 @@ When an **Output** block receives a message that's either true or false, it auto
 
 To create an example boolean **Output** block, do the following:
 
-1. Create a new flow and add a **Send request** block with a GET request to `postman-echo.com/get`.
+1. Create a new Flow and add a **Send request** block with a GET request to `postman-echo.com/get`.
 1. Connect an **Evaluate** block to the **Send request** block and enter this [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) query: `value1.http.status = 200` to check if the response has a `200` status code.
-1. Connect an **Output**  block to the **Evaluate** block and run the flow. If the response has a `200` status code, the **Output** block shows a circle that says **True**. If not, the circle shows **False**.
+1. Connect an **Output**  block to the **Evaluate** block and run the Flow. If the response has a `200` status code, the **Output** block shows a circle that says **True**. If not, the circle shows **False**.
 
     ![Boolean visualization type](https://assets.postman.com/postman-docs/v10/flows-boolean-v10.jpg)
 
-## Visualization types with example flows
+## Visualization types with example Flows
 
-You can select the output formats listed below from the **Output** block's dropdown menu. Select the **Example** links to open flows in Postman that show each output format.
+You can select the output formats listed below from the **Output** block's dropdown menu. Select the **Example** links to open Flows in Postman that show each output format.
 
 * **Text** - Shows the information connected to the input as lines of text. [Text example](https://www.postman.com/postman/workspace/flows-snippets/flow/6414e20b95e5e70033f028c9)
 

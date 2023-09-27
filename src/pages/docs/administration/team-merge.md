@@ -1,5 +1,5 @@
 ---
-title: "Migrating data between teams"
+title: "Migrate data between teams"
 updated: 2020-10-02
 ---
 
@@ -114,7 +114,7 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 
     * If you [request to join a team](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#finding-teams-within-your-organization) and are approved by a Team Admin.
     * If the team has [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) enabled.
-    * If the team has [domain capture](/docs/administration/managing-your-team/configuring-domain-capture/) enabled.
+    * If the team has [domain capture](/docs/administration/configuring-domain-capture/) enabled.
 
     For more information, see [Joining a team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team).
 

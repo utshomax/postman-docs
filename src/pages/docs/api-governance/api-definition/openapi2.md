@@ -1172,7 +1172,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| A [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in one or more [body parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#parameterObject) in your API definition don't have an example. It's important to provide an example of the request body to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/first-steps/creating-the-first-collection/). | Add an `example` field to the schema of all body parameters. |
+| A [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in one or more [body parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#parameterObject) in your API definition don't have an example. It's important to provide an example of the request body to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) or a [collection](/docs/getting-started/first-steps/creating-the-first-collection/). | Add an `example` field to the schema of all body parameters. |
 
 #### Resolution
 
@@ -1239,7 +1239,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#response-object) in your API definition don't have an example. It's important to provide an example of the response to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/first-steps/creating-the-first-collection/). | Add an `examples` field to all response objects. |
+| One or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#response-object) in your API definition don't have an example. It's important to provide an example of the response to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) or a [collection](/docs/getting-started/first-steps/creating-the-first-collection/). | Add an `examples` field to all response objects. |
 
 #### Resolution
 

@@ -63,7 +63,7 @@ You can [assign](/docs/administration/managing-your-team/managing-your-team/) on
 * **Partner Manager** (Internal, [Enterprise Ultimate plans only](https://www.postman.com/pricing)) - Manages all [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners. To learn more, see [Partner roles](#partner-roles).
 * **Partner** (External, [Enterprise Ultimate plans only](https://www.postman.com/pricing)) - All partners are automatically granted the Partner role at the team level. Partners can only access the [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) they've been invited to. To learn more, see [Partner roles](#partner-roles).
 * **Guest** (External) - Views collections and sends requests in collections that have been shared with them. This role can't be directly assigned to a user. To learn more, see [Allowing external users to view collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
-* **Flow Editor** ([Annual Professional plans only](https://www.postman.com/pricing/#postman-flows-access-and-pricing)) - Can create, edit, and deploy [Postman Flows](/docs/postman-flows/gs/flows-overview/).
+* **Flow Editor** ([Basic and Professional plans only](https://www.postman.com/pricing/#postman-flows-access-and-pricing)) - Can create, edit, and deploy [Postman Flows](/docs/postman-flows/gs/flows-overview/).
 
 > If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), you can also assign roles at the [group level](/docs/collaborating-in-postman/user-groups/).
 
@@ -246,25 +246,28 @@ Update monitor roles | | |  &#x2714; |
 
 > **[Partner roles are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
-Partner roles relate to [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) and are applied at the team and workspace level. There are different partner roles you can assign to team members and external partners:
+Partner roles relate to [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) and are applied at the team, workspace, and collection level. There are different partner roles you can assign to team members and external partners:
 
 |  | For team members | For partners |
 | --- |:---:| --- |
 | **Team level** | Partner Manager | Partner |
 | **Workspace level** | Admin, Viewer, Editor | Viewer, Editor <br> Partner Lead (optional) |
+| **Collection level** | Viewer, Editor | Viewer, Editor |
 
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) partner roles at the team level:
 
 * **Partner Manager** (Internal) - Manages all Partner Workspaces within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners.
 * **Partner** (External) - All partners are automatically granted the Partner role at the team level. Partners can only access the Partner Workspaces they've been invited to.
 
-You can also [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) partner roles at the workspace level:
+You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) partner roles at the workspace level:
 
 * **Partner Lead** (External) - Can invite other partners from their organization to join a Partner Workspace.
 
 All partners are assigned Workspace Editor or Viewer roles when invited to a Partner Workspace. To learn more about workspace level permissions, see [Workspace roles](#workspace-roles).
 
-> Your team must have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#using-auto-flex) to invite a partner as a Workspace Editor. Otherwise, the partner will be assigned the Workspace Viewer role. Assigning a partner the Workspace Viewer role doesn't consume paid seats.
+You can also assigned partners roles at the collection level. To learn more about collection level permissions, see [Collection roles](#collection-roles).
+
+> Your team must have [available seats](/docs/billing/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/billing/billing/#using-auto-flex) to invite a partner as a Workspace Editor. Otherwise, the partner will be assigned the Workspace Viewer role, giving the partner permission to view all workspace resources. Also, your team must have available seats to assign a partner as a Collection Editor. Assigning a partner the Workspace Viewer or Collection Viewer roles doesn't consume paid seats.
 
 ## Network roles
 

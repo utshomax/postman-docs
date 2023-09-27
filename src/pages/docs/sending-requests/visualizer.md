@@ -1,6 +1,6 @@
 ---
 title: "Visualizing responses"
-updated: 2021-02-17
+updated: 2023-09-26
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -43,16 +43,13 @@ The Visualizer enables you to present your response data in ways that help to ma
     * [Adding styling and interaction to visualizations](#adding-styling-and-interaction-to-visualizations)
     * [Using your own libraries](#using-your-own-libraries)
     * [Accessing data inside the template](#accessing-data-inside-the-template)
+* [Using Postbot to create visualizations](#using-postbot-to-create-visualizations)
 * [Try it out](#try-it-out)
 * [Visualizer API](#visualizer-api)
 * [Debugging the Visualizer](#debugging-the-visualizer)
 * [Next steps](#next-steps)
 
 ## Visualizing response data
-
-<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/i1jU-kivApg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br/>
 
 To visualize your response data, add code to the __Pre-request__ or __Tests__ [script](/docs/writing-scripts/intro-to-scripts/) for the request. The `pm.visualizer.set()` method will apply your Visualizer code to the data and present it in the __Visualize__ tab when the request runs.
 
@@ -136,6 +133,22 @@ Any `<script>` elements inside your template can access the data passed in the s
 
 The `pm.getData(callback)` method takes a callback function as its parameter. This callback accepts two parameters: `error` and `data`. The second parameter is the `data` that was passed to `pm.visualizer.set()`.
 
+## Using Postbot to create visualizations
+
+Not sure how to write a visualization for your request? Ask Postbot! Tell Postbot what you want to do using plain language, and Postman uses artificial intelligence to generate a visualization for you. Use Postbot to create a new visualization, change the type of visualization, fix your existing visualization, and more.
+
+To create a visualization with Postbot, do the following:
+
+1. Send your request so it has a response.
+1. In the **Body** tab of the response, select the **Visualize** tab.
+1. In the **Visualize Response** menu, select a table, chart, or graph visualizer. You can also select **set up with a prompt** and enter a simple text sentence to tell Postbot what you want to do using plain language.
+Postman uses artificial intelligence to generate a visualization for you.
+
+For example, try these phrases with Postbot: "create a new visualization,"
+"change the type of visualization," or "fix the existing visualization."
+
+For more information on Postbot, visit [About Postbot](/docs/getting-started/basics/about-postbot/).
+
 ## Try it out
 
 For more examples of Visualizer code in action, add any of the following collections to your workspace by [forking the collection](/docs/collaborating-in-postman/using-version-control/forking-entities/). You can also [export and then import](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/) the collection. After you fork or import the collection, open a request from **Collections** in the sidebar, then select **Send**. Postman will display the rendered data in the **Visualize** tab.
@@ -151,6 +164,8 @@ For more examples of Visualizer code in action, add any of the following collect
 * [Various chart and graph examples](https://www.postman.com/postman/workspace/published-postman-templates/collection/223408-f16e1095-c2f7-415f-af26-6bbe3deb10ea?action=share&creator=16724969)
 
     ![Map Visualizer](https://assets.postman.com/postman-docs/v10/visualizer-map-v10.jpg)
+
+> <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> You can see data visualizations in action in a sample collection template. To try out this template, select [Data visualization](https://www.postman.com/templates/c9e72d75-ded7-4135-a721-5d59ddda6d59/Data-visualization).
 
 ## Visualizer API
 
