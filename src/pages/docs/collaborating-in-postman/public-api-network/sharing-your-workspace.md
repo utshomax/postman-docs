@@ -49,7 +49,7 @@ Track the number of watchers on your [workspace](/docs/collaborating-in-postman/
 
 ### Forks
 
-Track the number of [forks](/docs/collaborating-in-postman/using-version-control/forking-entities/) on your collections, environments, and flows to understand who is actively consuming and contributing to your APIs.
+Track the number of [forks](/docs/collaborating-in-postman/using-version-control/forking-entities/) on your collections, environments, and Flows to understand who is actively consuming and contributing to your APIs.
 
 <img alt="View the fork information count" src="https://assets.postman.com/postman-docs/v10/fork-information-count-v10.jpg" width="500px"/>
 
