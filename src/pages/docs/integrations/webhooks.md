@@ -45,7 +45,7 @@ Contact your IT team to allowlist the following static IP in your firewall to en
 
 * US East: `3.212.102.200`
 
-Once you allowlist this IP address, calls for the custom webhook will be able to connect to your network and allow the webhook to work as expected.
+Once you allowlist this IP address, calls for the custom webhook will be able to connect to your network and enable the webhook to work as expected.
 
 ## Configuring custom webhooks
 

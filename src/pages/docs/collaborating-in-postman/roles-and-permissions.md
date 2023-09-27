@@ -276,7 +276,7 @@ You can also assign Partner Workspace roles to partners at the collection level:
 
 To learn more about collaborating as a team member or partner, see [Collaborating in a Partner Workspace](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/#collaborating-in-a-partner-workspace).
 
-> Your team must have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#using-auto-flex) to invite a partner as a Workspace Editor. Otherwise, the partner will be assigned the Workspace Viewer role, giving the partner permission to view all workspace resources. Also, your team must have available seats to assign a partner as a Collection Editor. Assigning a partner the Workspace Viewer or Collection Viewer roles doesn't consume paid seats.
+> Your team must have [available seats](/docs/billing/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/billing/billing/#using-auto-flex) to invite a partner as a Workspace Editor. Otherwise, the partner will be assigned the Workspace Viewer role, giving the partner permission to view all workspace resources. Also, your team must have available seats to assign a partner as a Collection Editor. Assigning a partner the Workspace Viewer or Collection Viewer roles doesn't consume paid seats.
 
 ## Network roles
 

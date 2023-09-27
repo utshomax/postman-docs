@@ -47,7 +47,7 @@ Postman has a variety of tools, views, and controls to help you manage your API 
 
 ## Header
 
-The header enables you to create workspaces, access reports, explore the public API network, search in Postman, view sync status and notifications, and access your settings, account, and [Postman plan](/docs/administration/buying/).
+The header enables you to create workspaces, access reports, explore the public API network, search in Postman, view sync status and notifications, and access your settings, account, and [Postman plan](/docs/billing/buying/).
 
 <img alt="Postman header left side" src="https://assets.postman.com/postman-docs/postman-desktop-app-header-v10.10.jpg" width="350px"/>
 
@@ -59,7 +59,7 @@ The header enables you to create workspaces, access reports, explore the public 
 
 <img alt="Expanded view of the Search Postman field" src="https://assets.postman.com/postman-docs/v10/navigating-postman-search-v10.jpg">
 
-* <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Search Postman** - Search all workspaces, collections, requests, APIs, flows, and teams in Postman. For more details on searching in Postman, see [Search Postman](#search-postman).
+* <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Search Postman** - Search all workspaces, collections, requests, APIs, Flows, and teams in Postman. For more details on searching in Postman, see [Search Postman](#search-postman).
 
 <img alt="Postman header right side" src="https://assets.postman.com/postman-docs/navigating-postman-header-right-v9.19.2.jpg" width="300px"/>
 
@@ -67,7 +67,7 @@ The header enables you to create workspaces, access reports, explore the public 
 * <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> **Settings** - Access [Postman settings](/docs/getting-started/installation/settings/) and other Postman resources.
 * <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> **Notifications** - View recent activity from your team, get notifications about Postman updates, and see pull requests, comment activity, and other important information.
 * **Your avatar** - View your profile, access your [account and notification settings](/docs/getting-started/installation/postman-account/), see all active sessions for your account, or sign out of your account.
-* **Team** (_paid plans_) or **Upgrade** (_free plan_) - View [resource usage](/docs/administration/resource-usage/) and access your [billing dashboard](/docs/administration/billing/) and other account management tools.
+* **Team** (_paid plans_) or **Upgrade** (_free plan_) - View [resource usage](/docs/billing/resource-usage/) and access your [billing dashboard](/docs/billing/billing/) and other account management tools.
 
 ### Search Postman
 
@@ -234,19 +234,19 @@ The right sidebar gives you access to more tools, including documentation, comme
 
 Tool | Available for | Description
 --- | --- | ---
-**Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> | Requests | See the [documentation](/docs/publishing-your-api/documenting-your-api/) for a specific request.
+**Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> | Requests | View the [documentation](/docs/publishing-your-api/document-a-collection/) for a specific request.
 **Comments** <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> | Collections, requests, APIs | Leave [comments](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/) on a specific part of a request or an API.
 **Code** <img alt="Code snippet icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px"> | Requests, APIs, history | Generate [code snippets](/docs/sending-requests/generate-code-snippets/) in a variety of languages and frameworks that you can use in other apps.
 **Live Collections** <img alt="Live collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> | Collections | Keep collections up-to-date based on your application using [Live Collections](/docs/collections/live-collections/live-collections-overview/).
 **Related collections** <img alt="Related Collections icon" src="https://assets.postman.com/postman-docs/collection-rec-lightbulb-icon2.jpg#icon" width="16px"/> | Requests, history | View public collections from the [Public API Network](/docs/getting-started/first-steps/exploring-public-api-network/) that share the same base URL as your request and include API documentation.
-**Info** <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> | Collections, requests, APIs, environments, mock servers, monitors, flows | See details about the element, including its ID, when it was created, who created it, and more.
+**Info** <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> | Collections, requests, APIs, environments, mock servers, monitors, Flows | See details about the element, including its ID, when it was created, who created it, and more.
 **Changelog** <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> | Collections, APIs | Use the [changelog](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#viewing-collection-activity) to see changes that you and your collaborators have made. Available on [Postman paid plans](https://www.postman.com/pricing/).
 **Pull requests** <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px"> | Collections, environments | View any [pull requests](/docs/collaborating-in-postman/version-control/#creating-pull-requests) for a Postman element.
-**Forks** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> | Collections, environments, flows | View any [forks](/docs/collaborating-in-postman/version-control/#forking-postman-entities) of a Postman element.
+**Forks** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> | Collections, environments, Flows | View any [forks](/docs/collaborating-in-postman/version-control/#forking-postman-entities) of a Postman element.
 **Activity feed** <img alt="Activity feed icon" src="https://assets.postman.com/postman-docs/icon-activity-feed-v9.jpg#icon" width="16px"> | Monitors | View the activity feed for a [monitor](/docs/monitoring-your-api/intro-monitors/).
 **Flow Element Info** <img alt="Flow Element Info icon" src="https://assets.postman.com/postman-docs/v10/flow-element-info-v10.jpg#icon" width="21px"> | Flows | View the input and output of the selected block.
-**Released Versions** <img alt="Released Versions icon" src="https://assets.postman.com/postman-docs/v10/released-versions-v10.jpg#icon" width="21px"> | Flows | View your released flows.
-**Execution issues** <img alt="Execution issues icon" src="https://assets.postman.com/postman-docs/v10/execution-issues-v10.jpg#icon" width="21px"> | Flows | View a flow's execution issues, if any.
+**Released Versions** <img alt="Released Versions icon" src="https://assets.postman.com/postman-docs/v10/released-versions-v10.jpg#icon" width="21px"> | Flows | View your released Flows.
+**Execution issues** <img alt="Execution issues icon" src="https://assets.postman.com/postman-docs/v10/execution-issues-v10.jpg#icon" width="21px"> | Flows | View a Flow's execution issues, if any.
 
 ### Environment selector and environment quick look
 
