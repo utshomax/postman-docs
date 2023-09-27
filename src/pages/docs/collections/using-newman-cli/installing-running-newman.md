@@ -23,7 +23,7 @@ To get started using Newman, install Node.js, then Newman. Then you can run your
 
 ## Installing Newman
 
-1. Newman is built on Node.js. To run Newman, make sure you have Node.js installed. Follow the [steps to download Node](https://nodejs.org/en/download/package-manager/) for your CI's platform. (Some CI systems have configurations that pre-install Node.) Ensure you are using Node.js v16 or later.
+1. Newman is built on Node.js. To run Newman, make sure you have Node.js installed. Follow the [steps to download Node](https://nodejs.org/en/download/package-manager/) for your CI's platform. (Some CI systems have configurations that pre-install Node.) Ensure you're using Node.js v16 or later.
 
 1. Install Newman from npm globally on your system, enabling you to run it from anywhere:
 
@@ -84,7 +84,7 @@ $ newman run https://www.postman.com/collections/cb208e7e64056f5294e5 -e dev_env
                     Failing Tests"
 ```
 
-The results of all tests and requests can be exported into a file. Use the JSON reporter and a file name to save the output into a file. You can learn more about [Newman's built-in reporters](/docs/collections/using-newman-cli/newman-options/#reporters).
+The results of all tests and requests can be exported into a file. Use the JSON reporter and a file name to save the output into a file. You can learn more about [Newman's built-in reporters](/docs/collections/using-newman-cli/newman-built-in-reporters/).
 
 ```bash
 $ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json

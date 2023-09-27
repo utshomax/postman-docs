@@ -19,7 +19,7 @@ contextual_links:
     url: "https://blog.postman.com/newman-run-and-test-your-collections-from-the-command-line/"
 ---
 
-_Custom reporters_ are useful to generate collection run reports with Newman that cater to specific use cases, for example, logging out the response body when a request (or its tests) fail. You can also learn more about [Newman's built-in reporters](/docs/collections/using-newman-cli/newman-options/#reporters).
+_Custom reporters_ are useful to generate collection run reports with Newman that cater to specific use cases, for example, logging out the response body when a request (or its tests) fail. You can also learn more about [Newman's built-in reporters](/docs/collections/using-newman-cli/newman-built-in-reporters/).
 
 ## Building custom reporters
 
@@ -87,4 +87,4 @@ newman.run({
 });
 ```
 
-In both cases above, the reporter options are optional.
+> The reporter options used in these examples are optional.
