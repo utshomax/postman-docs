@@ -34,6 +34,7 @@ $ newman run -h
 * [Request options](#request-options)
 * [Miscellaneous options](#miscellaneous-options)
 * [Exit status](#exit-status)
+* [Data file example](#data-file-example)
 
 ## Basic options
 
@@ -70,9 +71,10 @@ $ newman run -h
 
 | Option | Details |
 |:--|:--|
+| `-r [reporter-name]`, `--reporters [reporter-name]` | Generate a report about the current collection run. Specify one or more reporter names: `cli` (default when using Newman as a CLI), `json`, `junit`, `progress`, and `emojitrain`. Specify more than one reporter name as a comma-separated list, for example, `-r cli,json`. Learn more about [using reporters with Newman](#reporters). |
 | `--bail` | Stops the runner when a test case fails. |
 | `--silent` | Turn off terminal output. |
-| `--color off` | Turn off colored output (auto\|on\|off) (default: "auto")|
+| `--color [value]` | Specify the color of the CLI output: `on`, `off`, or `auto` (default).
 | `--disable-unicode` | Force the unicode disable option. When supplied, all symbols in the output will be replaced by their plain text equivalents. |
 | `-k`, `--insecure` | Turn off strict SSL. |
 | `-x`, `--suppress-exit-code` | Continue running tests even after a failure, but exit with `code=0` |
@@ -82,6 +84,30 @@ $ newman run -h
 | `--export-cookie-jar [path]` | The path to the file where Newman will output the final cookie jar file before completing a run. Uses `tough-cookie` to serialize the file. |
 | `--global-var "[global-variable-name]=[global-variable-value]"` | Specifies global variables on the command line, in a key=value format. Multiple global variables can be added by using `--global-var` multiple times, for example, `--global-var "this=that" --global-var "alpha=beta".` |
 | `--env-var "[environment-variable-name]=[environment-variable-value]"` | Allows you to set environment variables in a key=value format on the command line. You can add multiple environment variables using `--env-var` multiple times, for example: `--env-var "key1=value1" --env-var "key2=value2"`. |
+
+## Reporters
+
+To generate reports of the current collection run, you can configure reporters using the `-r` or `--reporters` options. Then specify the reporters you'd like to generate reports for: `cli`, `json`, `junit`, `progress`, and `emojitrain`. You can specify one or more reporters. If you specify more than one reporter, separate reporter names as a comma-separated list, for example, `-r cli,json`.
+
+```bash
+$ newman run PostmanCollection.json -r cli,json,progress
+```
+
+> If the built-in reporters don't align with your use case, you can [build a custom reporter](/docs/collections/using-newman-cli/newman-custom-reporters/).
+
+The CLI reporter (`cli`) is turned on by default when using Newman as a CLI. If you turn on one or more reporters, for example `-r json,progress`, the CLI reporter will be turned off. To turn on the CLI reporter, you must specify the CLI reporter, for example, `-r cli,json,progress`.
+
+If you specify more than one reporter, you can specify an option for one reporter using the `--reporter-[reporter-name]-[reporter-option]` option. The following example silences the CLI reporter only:
+
+```bash
+$ newman run PostmanCollection.json -r cli,json,progress --reporter-cli-silent
+```
+
+If you specify more than one reporter and all reporters should accept the same option, you can specify an option for all reporters using the `--reporter-[reporter-option]` option. The following example silences the CLI, JSON, and Progress reporters:
+
+```bash
+$ newman run PostmanCollection.json -r cli,json,progress --reporter-silent
+```
 
 ## Exit status
 
