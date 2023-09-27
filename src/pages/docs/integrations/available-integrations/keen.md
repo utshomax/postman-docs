@@ -1,20 +1,16 @@
 ---
 title: "Keen"
-order: 171
-updated: 2021-06-14
-page_id: "keen"
-warning: false
+updated: 2023-09-28
 ---
 
-You can use Keen IO for API-based computation, Amazon S3 backups, and building visualizations and dashboards for your APIs. Connect your Postman Monitor results to Keen Streams with the Postman to Keen Integration.
+You can use Keen IO for API-based computation, Amazon S3 backups, and building visualizations and dashboards for your APIs. Connect your Postman Monitor results to Keen Streams with the Postman Keen integration.
 
-Setting up a Keen integration requires you to get a project ID and API key before configuring Postman Monitors to push to Keen streams. After you set up the integration, you can view all monitoring data in Keen IO.
+Setting up a Keen integration requires a project ID and API key before configuring Postman Monitors to push to Keen streams. After you set up the integration, you can view all monitoring data in Keen IO.
 
 ## Retrieving your Keen IO project ID and API Key
 
 1. Sign in to [Keen IO](https://keen.io/users/login/).
 1. Select **Projects**.
-
     ![keen dashboard](https://assets.postman.com/postman-docs/keen-projects.jpg)
 1. Find the organization and project for which you’d like to stream Postman Monitor data.
 1. Select the **Access** tab in the dashboard.
@@ -25,21 +21,10 @@ Setting up a Keen integration requires you to get a project ID and API key befor
 ## Configuring Postman Monitors
 
 1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
-
-    <img alt="Home page and integrations" src="https://assets.postman.com/postman-docs/v10/home-integrations-v10.jpg" width="390px">
-
 1. Search and select **Keen**.
-
-    ![keen dashboard](https://assets.postman.com/postman-docs/keen-search-all.jpg)
-
 1. Select **Add Integration**.
-
-    ![keen dashboard](https://assets.postman.com/postman-docs/keen-add-integration.jpg)
-
-1. Enter your integration information to connect Keen IO to Postman Monitors for API-based computation, S3 backups, and building visualizations in the **Send Monitor Run Results** page.
-
-    ![keen dashboard](https://assets.postman.com/postman-docs/keen-add-integration-configuration.jpg)
-
+1. On the [**Add integration - Configure**](https://postman.postman.co/integrations/service/keen_io/add/monitor_run_keen_io) page, enter your integration information to connect Keen IO to Postman Monitors.
+    ![Keen Add integration page](https://assets.postman.com/postman-docs/keen-add-integration-configuration.jpg)
 1. Select **Add Integration**. You can send the results of multiple monitors to the same Keen IO collection.
 
 > **You can view your configured integrations on the [Browse Integrations](https://go.postman.co/integrations/browse) page.** You can also view integrations that have been configured for a monitor by opening the monitor and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Learn more about [viewing or editing integrations](/docs/integrations/intro-integrations/#viewing-or-editing-integrations).
