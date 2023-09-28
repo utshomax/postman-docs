@@ -1,5 +1,5 @@
 ---
-title: "Using Postman to use a proxy server"
+title: "Configure Postman to use a proxy server"
 updated: 2023-07-15
 search_keyword: "HTTP_PROXY, NO_PROXY"
 contextual_links:
