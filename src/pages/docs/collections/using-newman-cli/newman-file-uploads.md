@@ -1,6 +1,6 @@
 ---
 title: "Uploading files in Newman"
-updated: 2022-05-23
+updated: 2023-10-04
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -21,9 +21,10 @@ contextual_links:
 
 ## File uploads
 
-Newman supports file uploads. For this to work, upload the file in the relative location specified in the collection. For instance, review this collection:
+Newman supports file uploads. For this to work, the file must be located in the same working directory as the collection file. Your file must also include the filename in the `src` attribute of the request.
 
 ```json
+// the filename is sample-file.txt
 {
     "variables": [],
     "info": {
@@ -73,8 +74,11 @@ Newman supports file uploads. For this to work, upload the file in the relative 
 }
 ```
 
-The file ``sample-file.txt`` must be present in the current working directory as the collection. Run this collection as usual.
+The file `sample-file.txt` must be present in the same working directory as the collection. Run this collection as usual.
 
 ```bash
+$ ls
+file-upload.postman_collection.json  sample-file.txt
+
 $ newman run file-upload.postman_collection.json
 ```

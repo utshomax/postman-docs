@@ -1,6 +1,14 @@
 ---
 title: "Use Newman built-in reporters"
-updated: 2023-09-29
+updated: 2023-10-04
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Run Collections with Newman | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=SQlwGZj97Y4"
 ---
 
 Newman has built-in reporters you can use to generate collection run reports. You can use the following reporters: CLI, JSON, JUnit, Progress, and Emoji train.
@@ -79,7 +87,7 @@ You can use the following option to configure the JSON reporter:
 
 | Option | Details |
 |:--|:--|
-| `--reporter-json-export [path]` | Specify a path where the output JSON file will be created in your filesystem. By default, the JSON file is created in `/newman` in your working directory. If the `/newman` directory doesn't exist, it will be created. If the specified path is an existing directory, the file will be created in that directory. |
+| `--reporter-json-export [path]` | Specify a path where the output JSON file will be created in your file system. By default, the JSON file is created in `/newman` in your working directory. If the `/newman` directory doesn't exist, it will be created. If the specified path is an existing directory, the file will be created in that directory. |
 
 The following example generates the output JSON file for the JSON reporter in the `/json-file-reports` directory:
 
@@ -93,7 +101,7 @@ You can use the following option to configure the JUnit reporter:
 
 | Option | Details |
 |:--|:--|
-| `--reporter-junit-export [path]` | Specify a path where the output XML file will be created in your filesystem. By default, the XML file is created in `/newman` in your working directory. If the `/newman` directory doesn't exist, it will be created. If the specified path is an existing directory, the file will be created in that directory. |
+| `--reporter-junit-export [path]` | Specify a path where the output XML file will be created in your file system. By default, the XML file is created in `/newman` in your working directory. If the `/newman` directory doesn't exist, it will be created. If the specified path is an existing directory, the file will be created in that directory. |
 
 The following example generates the output XML file for the JUnit reporter in the `/xml-file-reports` directory:
 

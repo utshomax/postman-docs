@@ -1,6 +1,6 @@
 ---
 title: "Installing and running Newman"
-updated: 2022-05-23
+updated: 2023-10-04
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -27,9 +27,9 @@ To get started using Newman, install Node.js, then Newman. Then you can run your
 
 1. Install Newman from npm globally on your system, enabling you to run it from anywhere:
 
-```bash
-$ npm install -g newman
-```
+    ```bash
+    $ npm install -g newman
+    ```
 
 ## Running Newman
 
@@ -41,7 +41,7 @@ You can [export a collection](/docs/getting-started/importing-and-exporting/expo
 $ newman run mycollection.json
 ```
 
-You can also pass a collection as a URL by [sharing](/docs/collaborating-in-postman/sharing/#sharing-postman-entities) it.
+You can also pass a collection as a URL by [sharing](/docs/collaborating-in-postman/sharing/#sharing-postman-entities) it and copying the URL.
 
 If your collection uses environment variables, you must provide a set of [environment variables](/docs/sending-requests/managing-environments/) used in your collection. Export the template from Postman and run them with the `-e` flag.
 
@@ -84,7 +84,7 @@ $ newman run https://www.postman.com/collections/cb208e7e64056f5294e5 -e dev_env
                     Failing Tests"
 ```
 
-The results of all tests and requests can be exported into a file. Use the JSON reporter and a file name to save the output into a file. You can learn more about [Newman's built-in reporters](/docs/collections/using-newman-cli/newman-built-in-reporters/).
+The results of all tests and requests can be exported into a file. You can use the JSON and JUnit reporters to save the output into a file. You can learn more about [Newman's built-in reporters](/docs/collections/using-newman-cli/newman-built-in-reporters/).
 
 ```bash
 $ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json
@@ -94,7 +94,7 @@ $ newman run mycollection.json --reporters cli,json --reporter-json-export outpu
 
 ## Options
 
-Newman provides a rich set of options to customize a collection run. Learn more at [Newman options](/docs/collections/using-newman-cli/newman-options/)
+Newman provides a rich set of options to customize a collection run. Learn more at [Newman options](/docs/collections/using-newman-cli/newman-options/).
 
 ## Using Newman with CI/CD
 
@@ -102,12 +102,12 @@ By default, Newman exits with a status code of 0 if everything runs as expected 
 
 ## Using Newman as a Node.js library
 
-Newman has been built as a library from the ground up. It can be extended and used in various ways. You can use it as follows in your Node.js code:
+You can use Newman within your JavaScript projects as a Node.js module. The entire set of Newman CLI functionality is also available to use programmatically. The following example runs a collection by reading a JSON collection stored in your file system:
 
 ```javascript
-var newman = require('newman'); // require Newman in your project
+const newman = require('newman'); // require Newman in your project
 
-// call newman.run to pass `options` object and wait for callback
+// call newman.run to pass the `options` object and wait for callback
 newman.run({
     collection: require('./sample-collection.json'),
     reporters: 'cli'
@@ -116,3 +116,5 @@ newman.run({
     console.log('collection run complete!');
 });
 ```
+
+For the complete list of options, see [API Reference](https://github.com/postmanlabs/newman#api-reference) on GitHub.
