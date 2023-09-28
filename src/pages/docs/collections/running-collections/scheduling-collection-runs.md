@@ -1,5 +1,5 @@
 ---
-title: "Scheduling collection runs"
+title: "Run collections at specific times"
 updated: 2023-06-15
 contextual_links:
   - type: section

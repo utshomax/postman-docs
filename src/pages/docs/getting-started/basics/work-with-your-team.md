@@ -1,5 +1,5 @@
 ---
-title: "Work with your team in Postman"
+title: "Working with your team in Postman"
 updated: 2023-07-26
 contextual_links:
   - type: section

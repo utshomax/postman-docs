@@ -1,5 +1,5 @@
 ---
-title: "Specifying examples"
+title: "Turn request responses into examples and use cases"
 updated: 2023-02-13
 contextual_links:
   - type: section

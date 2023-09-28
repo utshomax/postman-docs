@@ -1,5 +1,5 @@
 ---
-title: "Receiving responses"
+title: "Postman response viewer components"
 updated: 2023-09-26
 contextual_links:
   - type: section

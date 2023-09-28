@@ -1,5 +1,5 @@
 ---
-title: "Other resources"
+title: "Resources about APIs and Postman"
 updated: 2023-07-31
 contextual_links:
   - type: section

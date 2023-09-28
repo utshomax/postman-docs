@@ -1,5 +1,5 @@
 ---
-title: "Scheduling collection runs with monitors"
+title: "Automate your scheduled run and receive reports using Monitors"
 updated: 2022-11-09
 contextual_links:
   - type: section

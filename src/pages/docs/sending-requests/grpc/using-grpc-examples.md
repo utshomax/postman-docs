@@ -1,5 +1,5 @@
 ---
-title: "Using gRPC examples"
+title: "Save, edit, and share gRPC request-response pairs"
 updated: 2023-02-09
 contextual_links:
   - type: section

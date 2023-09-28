@@ -1,5 +1,5 @@
 ---
-title: "Using the GraphQL client interface"
+title: "Manage GraphQL queries using Postman HTTP request interface"
 page_id: "graphql-client-interface"
 updated: 2023-05-15
 contextual_links:

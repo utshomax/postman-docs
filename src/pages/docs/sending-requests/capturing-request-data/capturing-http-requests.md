@@ -1,5 +1,5 @@
 ---
-title: "Capturing HTTP requests"
+title: "Capture traffic using the Postman built-in proxy (Windows, Linux, before v.10.17)"
 updated: 2023-08-24
 contextual_links:
   - type: section

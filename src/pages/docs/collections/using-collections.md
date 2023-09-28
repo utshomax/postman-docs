@@ -1,5 +1,5 @@
 ---
-title: "Using collections"
+title: "Create and manage request collections in Postman"
 updated: 2023-04-10
 contextual_links:
   - type: section

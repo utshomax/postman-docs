@@ -1,5 +1,5 @@
 ---
-title: "Syncing your work"
+title: "Syncing your changes across devices"
 updated: 2023-05-15
 contextual_links:
   - type: section

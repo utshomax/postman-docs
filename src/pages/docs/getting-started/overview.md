@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Postman"
+title: "Welcome to Postman documentation"
 updated: 2023-07-27
 contextual_links:
   - type: section

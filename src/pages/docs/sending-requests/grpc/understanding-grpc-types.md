@@ -1,5 +1,5 @@
 ---
-title: "Understanding gRPC types"
+title: "Read and write data using Postman JSON interface"
 updated: 2023-04-18
 contextual_links:
   - type: section

@@ -1,5 +1,5 @@
 ---
-title: "Building requests"
+title: "Send requests to connect to APIs"
 order: 21
 page_id: "requests"
 updated: 2023-05-31

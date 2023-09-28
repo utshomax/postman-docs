@@ -1,5 +1,5 @@
 ---
-title: "Capturing requests with the Postman proxy"
+title: "Capture traffic using the Postman built-in proxy (MacOS, v10.17 and older)"
 updated: 2023-09-15
 contextual_links:
   - type: section

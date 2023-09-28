@@ -1,5 +1,5 @@
 ---
-title: "Setting up Postman"
+title: "Set up Postman"
 updated: 2023-07-15
 contextual_links:
   - type: section
