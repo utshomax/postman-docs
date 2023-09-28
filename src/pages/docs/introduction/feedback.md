@@ -1,5 +1,5 @@
 ---
-title: "Providing feedback about Postman"
+title: "Give feedback about Postman"
 updated: 2023-02-24
 
 ---

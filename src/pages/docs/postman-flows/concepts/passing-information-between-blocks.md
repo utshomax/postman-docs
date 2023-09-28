@@ -1,5 +1,5 @@
 ---
-title: "Send data between blocks in a Postman API flow"
+title: "Send data between blocks in a Postman Flow"
 updated: 2023-08-15
 ---
 

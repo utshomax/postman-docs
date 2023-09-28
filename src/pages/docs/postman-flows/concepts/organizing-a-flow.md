@@ -1,5 +1,5 @@
 ---
-title: "Organize your workflow in Postman Flows"
+title: "Organize Postman Flows with color, annotations, and groups"
 updated: 2023-08-15
 ---
 

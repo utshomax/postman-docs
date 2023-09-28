@@ -1,5 +1,5 @@
 ---
-title: "Run and test collections from command line using Newman CLI"
+title: "Run and test collections from the command line using Newman CLI"
 updated: 2023-09-26
 contextual_links:
   - type: section

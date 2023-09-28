@@ -1,5 +1,5 @@
 ---
-title: "Run collections at specific times"
+title: "Automate collection runs on a schedule"
 updated: 2023-06-15
 contextual_links:
   - type: section

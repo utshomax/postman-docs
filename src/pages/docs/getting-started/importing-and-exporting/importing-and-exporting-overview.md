@@ -1,5 +1,5 @@
 ---
-title: "About import and export"
+title: "Data import and export in Postman"
 updated: 2023-07-19
 contextual_links:
   - type: section
