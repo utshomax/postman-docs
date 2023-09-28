@@ -1,5 +1,5 @@
 ---
-title: "Capture traffic from browser using Postman Interceptor"
+title: "Capture traffic from the browser using Postman Interceptor"
 updated: 2023-09-15
 contextual_links:
   - type: section
