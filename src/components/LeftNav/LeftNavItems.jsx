@@ -1327,7 +1327,7 @@ export const leftNavItems = [
           },
           {
             name: 'Domain capture support and FAQs',
-            url: '/docs/administration/domain-verification-and-capture/domain-capture-support-and-faqs/'
+            url: '/docs/administration/domain-verification-and-capture/domain-capture-faqs/'
           }
         ],
       },

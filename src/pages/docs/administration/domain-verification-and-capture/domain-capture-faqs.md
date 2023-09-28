@@ -11,7 +11,7 @@ contextual_links:
     url: "https://blog.postman.com/introducing-domain-capture/"
 ---
 
-> **[Domain verification and capture are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
+> **[Domain verification is available on Postman Enterprise plans. Domain capture is available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
 ## General questions
 
@@ -19,7 +19,8 @@ contextual_links:
 
 The experience for captured users depends on their prior team status:
 
-* If a captured user is already on your organization's team, nothing changes for them.
+* If a captured user is already on your organization's team and is not a member of any other teams, nothing changes for them.
+* If a captured user is a member of [multiple teams](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team), including your organization's team, they will no longer be able to authenticate into any other teams they are a member of.
 * If a captured user isn't part of any team:
     * All existing user sessions are revoked.
     * The next time the user logs in, they will be prompted to join your organization's team using SSO.
@@ -39,7 +40,7 @@ The experience for captured users depends on their prior team status:
     * They will lose access to all data from their earlier teams, including personal workspaces. No data will be transferred from their earlier teams to their new team.
         > To transfer an existing user's collections and environments from their earlier teams to their new team, [contact Postman support](/docs/administration/domain-verification-and-capture/enable-domain-capture/#contact-support-to-manage-accounts).
 * If a captured user is the last Admin of an existing paid team:
-    * Postman support will contact your Team Admins to discuss how to approach this prior to verifying the domain you've added to your team.
+    * Postman support will contact your Team Admins to discuss how to approach this prior to enabling domain capture for a verified domain in your team.
     * All existing user sessions are revoked.
     * The next time the user logs in, they will be prompted to leave their existing team.
     * They will need to contact [Postman support](https://www.postman.com/support/) to assign the Admin role to another team member and remove them from the team.

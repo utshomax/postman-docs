@@ -11,7 +11,7 @@ contextual_links:
     url: "https://blog.postman.com/introducing-domain-capture/"
 ---
 
-> **[Domain verification and capture are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
+> **[Domain verification is available on Postman Enterprise plans. Domain capture is available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
 To set up domain capture, you'll first need to add and verify your organization's domain or subdomain. You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to add and verify a domain in Postman.
 
@@ -32,9 +32,8 @@ To set up domain capture, you'll first need to add and verify your organization'
 As a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can add domains and subdomains to your team in your [Admin dashboard](https://go.postman.co/settings/team/domain-capture).
 
 1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar.
-1. Confirm that your team has only the SSO authentication method enabled. Then, select the **Domains** tab.
 
-    > Your team must have only SAML-based SSO authentication methods enabled to set up domain capture. Alternative authentication methods such as Postman or Google sign in must be turned off.
+1. Select the **Domains** tab.
 
 1. Select **Add Domain**.
 

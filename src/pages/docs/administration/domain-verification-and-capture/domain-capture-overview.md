@@ -11,11 +11,11 @@ contextual_links:
     url: "https://blog.postman.com/introducing-domain-capture/"
 ---
 
-> **[Domain verification and account capture is available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
+> **[Domain verification is available on Postman Enterprise plans. Domain capture is available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
 Domain capture lets you manage all of the Postman user accounts that exist within your organization and consolidate them into one team. By configuring domain capture, you can keep all of the accounts and data associated with your organization secure and manage them from one dashboard.
 
-When you enable domain capture, Postman will move all of the existing users who are associated with your organization's verified internet domain or subdomain to your Enterprise team. Moving forward, any Postman users who sign up for a new account with the relevant domain will be automatically added to your team.
+When you enable domain capture for your organization's team, any accounts associated with the verified internet domain or subdomain will only be able to use Postman within your team. Moving forward, any Postman users who sign up for a new account with the relevant domain will be automatically added to your team.
 
 Domain capture eases the onboarding experience for new teammates by immediately providing them with all of the resources they’ll need to be successful contributors. Maintaining one Postman Enterprise team also simplifies your experience as a Team Admin. Whether you're reviewing [reports](/docs/reports/reports-overview/), tracking [Secret Scanner notifications](/docs/administration/token-scanner/), or implementing an [API governance strategy](/docs/api-governance/api-governance-overview/), you'll only need to use one dashboard to maintain compliance and security across your organization.
 

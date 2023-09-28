@@ -11,11 +11,11 @@ contextual_links:
     url: "https://blog.postman.com/introducing-domain-capture/"
 ---
 
-> **[Domain verification and capture are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
+> **[Domain verification is available on Postman Enterprise plans. Domain capture is available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
 Now that you've [added and verified a domain](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/), you can enable domain capture. Domain capture will move all of the existing users who are associated with your verified domain or subdomain to your Enterprise team. Moving forward, any Postman users who sign up for a new account with the relevant domain will be automatically added to your team.
 
-You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable domain capture in Postman.
+You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable domain capture in Postman. In addition, your team must have only SAML-based SSO authentication methods enabled to turn on domain capture. Alternative authentication methods such as Postman or Google sign in must be [turned off](/docs/administration/sso/admin-sso/#editing-sso-settings).
 
 ## Contents
 
