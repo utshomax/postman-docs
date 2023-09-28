@@ -1,5 +1,5 @@
 ---
-title: "Live Collections setup"
+title: "Create a live collection using Postman SDK"
 updated: 2023-03-15
 contextual_links:
   - type: section

@@ -1,5 +1,5 @@
 ---
-title: "Organize a Flow"
+title: "Organize your workflow in Postman Flows"
 updated: 2023-08-15
 ---
 
