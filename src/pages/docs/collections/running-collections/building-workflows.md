@@ -1,5 +1,5 @@
 ---
-title: "Customize request order in your collection"
+title: "Customize request order in a collection run"
 order: 57
 page_id: "building_workflows"
 updated: 2021-12-16
