@@ -63,7 +63,7 @@ Verified teams in Postman have a verified badge next to their team name in the P
 
 <img alt="Postman verified team" src="https://assets.postman.com/postman-docs/v10/verified-team-postman-v10-2.jpg" width="400px" />
 
-The verified badge also displays next to a verified team's name in their [profile](/docs/administration/team-settings/) and [public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/), and you can view the verified badge in your [Postman search results](/docs/getting-started/basics/navigating-postman/#search-postman).
+The verified badge also displays next to a verified team's name in their [profile](/docs/administration/managing-your-team/team-settings/) and [public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/), and you can view the verified badge in your [Postman search results](/docs/getting-started/basics/navigating-postman/#search-postman).
 
 ## Next steps
 

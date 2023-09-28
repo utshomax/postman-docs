@@ -1,9 +1,6 @@
 ---
-title: "Using audit logs"
-order: 126
-page_id: "audit_logs"
+title: "Audit logs"
 updated: 2022-03-01
-warning: false
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -39,15 +36,13 @@ Postman offers audit logs for 90 days to users on Professional plans, and 180 da
 
 You can view audit logs in Postman by selecting **Team** in the header, then selecting **Audit Logs**.
 
-<img alt="Team menu with audit logs selected" src="https://assets.postman.com/postman-docs/menu-select-audit-logs-v9.13.0.jpg" width="300px"/>
-
 Audit logs offer information about actions taken by members of your team. Each event includes the user, the user's email address, the event name and a description of the event, the user's IP address, and the date and time of the action, including the user's timezone.
 
-<img alt="Audit logs dashboard" src="https://assets.postman.com/postman-docs/audit-logs-dashboard-v9.jpg" width="1000px"/>
+![Audit logs dashboard](https://assets.postman.com/postman-docs/audit-logs-dashboard-v9.jpg)
 
 You can use filters to view actions by date range, event type, and user.
 
-<img alt="Filtering the audit log results" src="https://assets.postman.com/postman-docs/audit-logs-filter-actions-v9.jpg" width="600px"/>
+![Filtering the audit log results](https://assets.postman.com/postman-docs/audit-logs-filter-actions-v9.jpg)
 
 ## Exporting audit logs from the dashboard
 
@@ -91,8 +86,8 @@ Postman logs events related to your [team](#team), [users](#users), and [billing
 | Updated Team Discovery | A user updated your team's discoverability status. |
 | Added Domain for Domain Capture | A Team Admin added a domain for domain capture. |
 | Verified Domain for Domain Capture | The domain added for domain capture has been verified. |
-| Enabled Domain Team Management | A Team Admin enabled [domain capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/). |
-| User Joined via Domain Capture | A user joined through [domain capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/). |
+| Enabled Domain Team Management | A Team Admin enabled [domain team management](/docs/administration/configuring-domain-capture/). |
+| User Joined via Domain Capture | A user joined through [team domain management](/docs/administration/configuring-domain-capture/). |
 | Disabled Domain Team Management | A Team Admin disabled domain team management. |
 | Deleted Domain for Domain Capture | A Team Admin deleted a domain for domain capture. |
 | Added Custom Domain | A [custom domain](/docs/publishing-your-api/custom-doc-domains/) was added to your team. |
@@ -111,7 +106,7 @@ Postman logs events related to your [team](#team), [users](#users), and [billing
 | SCIM User De-provisioned | The SCIM admin de-provisioned a user. |
 | Exported Data | A user requested an export of their data. |
 | Downloaded Exported Data | A user downloaded an export of their data. |
-| Added Custom Alert | A new [custom secret alert](/docs/administration/secret-scanner/#custom-alerts) was created for your team. |
+| Added Custom Alert | A new [custom secret alert](/docs/administration/managing-your-team/secret-scanner/#custom-alerts) was created for your team. |
 | Edited Custom Alert | A custom token alert's name or regex pattern was changed, or the alert was turned on or off. |
 | Deleted Custom Token Alert  | A custom token alert was deleted. |
 

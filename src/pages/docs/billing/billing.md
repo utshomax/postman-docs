@@ -1,5 +1,5 @@
 ---
-title: "Billing"
+title: "Manage billing"
 updated: 2023-09-15
 tags:
   - "pro"
@@ -76,7 +76,7 @@ Open the [**Resource usage** dashboard](http://go.postman.co/billing/add-ons/ove
 * **Free users** - In the Postman header, select the menu next to **Upgrade**.
 * **Paid users** - In the Postman header, select **Team**.
 
-> To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).
+> To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/billing/resource-usage/).
 
 <img alt="Add-ons usage and purchase" src="https://assets.postman.com/postman-docs/resource-usage-9.13.jpg" />
 
