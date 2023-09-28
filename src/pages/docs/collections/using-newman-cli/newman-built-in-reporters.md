@@ -44,7 +44,7 @@ If you specify more than one reporter, you can specify an option for one reporte
 $ newman run PostmanCollection.json -r cli,json --reporter-cli-silent
 ```
 
-If you specify more than one reporter and all reporters should accept the same option, you can specify an option for all reporters using the `--reporter-[reporter-option]` option. The following example silences the CLI and JSON reporters:
+If you specify more than one reporter and all reporters should accept the same option, you can specify an option for all reporters using the `--reporter-[reporter-option]` option. The following example passes `silent: true` to both the CLI and JSON reporters:
 
 ```bash
 $ newman run PostmanCollection.json -r cli,json --reporter-silent
@@ -52,11 +52,7 @@ $ newman run PostmanCollection.json -r cli,json --reporter-silent
 
 ### CLI reporter
 
-The CLI reporter is a built-in reporter that is turned on by default when using Newman as a CLI. You can configure the CLI reporter using several different options. The following example prints the time that each request was made:
-
-```bash
-$ newman run PostmanCollection.json -r cli,json --reporter-cli-show-timestamps
-```
+The CLI reporter is a built-in reporter that is turned on by default when using Newman as a CLI. You can configure the CLI reporter using several different options.
 
 You can use the following options to configure the details the CLI reporter provides:
 
@@ -71,6 +67,12 @@ You can use the following options to configure the details the CLI reporter prov
 | `--reporter-cli-no-console` | Turns off the output of `console.log()` (and other console methods) from pre-request and test scripts. |
 | `--reporter-cli-no-banner` | Turns off the Newman banner shown at the beginning of each collection run. |
 
+The following example prints the time that each request was made:
+
+```bash
+$ newman run PostmanCollection.json -r cli,json --reporter-cli-show-timestamps
+```
+
 ### JSON reporter
 
 You can use the following option to configure the JSON reporter:
@@ -79,8 +81,10 @@ You can use the following option to configure the JSON reporter:
 |:--|:--|
 | `--reporter-json-export [path]` | Specify a path where the output JSON file will be created in your filesystem. By default, the JSON file is created in `/newman` in your working directory. If the `/newman` directory doesn't exist, it will be created. If the specified path is an existing directory, the file will be created in that directory. |
 
+The following example generates the output JSON file for the JSON reporter in the `/json-file-reports` directory:
+
 ```bash
-$ newman run PostmanCollection.json -r cli,json --reporter-json-export /Users/<username>/Documents/json-file-reports
+$ newman run PostmanCollection.json -r cli,json --reporter-json-export json-file-reports
 ```
 
 ### JUnit reporter
@@ -91,6 +95,8 @@ You can use the following option to configure the JUnit reporter:
 |:--|:--|
 | `--reporter-junit-export [path]` | Specify a path where the output XML file will be created in your filesystem. By default, the XML file is created in `/newman` in your working directory. If the `/newman` directory doesn't exist, it will be created. If the specified path is an existing directory, the file will be created in that directory. |
 
+The following example generates the output XML file for the JUnit reporter in the `/xml-file-reports` directory:
+
 ```bash
-$ newman run PostmanCollection.json -r cli,junit --reporter-junit-export /Users/<username>/Documents/xml-file-reports
+$ newman run PostmanCollection.json -r cli,junit --reporter-junit-export xml-file-reports
 ```
