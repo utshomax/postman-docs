@@ -1,5 +1,5 @@
 ---
-title: "Read and write data using Postman JSON interface"
+title: "Read and write data using the Postman JSON interface"
 updated: 2023-04-18
 contextual_links:
   - type: section
