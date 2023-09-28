@@ -1,5 +1,5 @@
 ---
-title: "Manage GraphQL APIs using Postman GraphQL client"
+title: "Manage GraphQL APIs using the Postman GraphQL client"
 page_id: "about-the-graphql-client"
 updated: 2023-05-15
 contextual_links:
