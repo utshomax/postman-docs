@@ -1,5 +1,5 @@
 ---
-title: "Send request using GraphQL client"
+title: "Send requests using GraphQL client"
 page_id: "graphql-client-first-request"
 updated: 2023-05-15
 contextual_links:
