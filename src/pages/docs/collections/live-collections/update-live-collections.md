@@ -1,5 +1,5 @@
 ---
-title: "Update your live collection manually or automatically"
+title: "Update your Live Collection manually or automatically"
 updated: 2023-03-15
 ---
 

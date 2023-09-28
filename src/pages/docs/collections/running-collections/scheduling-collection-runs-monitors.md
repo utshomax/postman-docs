@@ -1,5 +1,5 @@
 ---
-title: "Automate your scheduled run and receive reports using Monitors"
+title: "Automate collection runs using Postman Monitors"
 updated: 2022-11-09
 contextual_links:
   - type: section

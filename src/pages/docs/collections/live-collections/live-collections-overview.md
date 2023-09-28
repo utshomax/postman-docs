@@ -1,5 +1,5 @@
 ---
-title: "Keeping your collections up to date dynamically using Live Collections"
+title: "Keep your collections up to date dynamically using Live Collections"
 updated: 2023-03-15
 contextual_links:
   - type: section

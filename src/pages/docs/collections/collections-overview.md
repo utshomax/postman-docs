@@ -1,5 +1,5 @@
 ---
-title: "Grouping requests into a collection"
+title: "Create, use, and run Postman Collections"
 updated: 2023-03-01
 contextual_links:
   - type: section
