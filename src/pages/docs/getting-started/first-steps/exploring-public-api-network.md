@@ -1,5 +1,5 @@
 ---
-title: "Explore and use the public network of APIs, workspaces, collections, and flows"
+title: "Explore and use the public network of APIs, workspaces, collections, and Flows"
 updated: 2023-07-18
 contextual_links:
   - type: section
