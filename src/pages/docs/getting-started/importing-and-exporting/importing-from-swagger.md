@@ -41,4 +41,4 @@ To import a Swagger API, do the following:
 
 1. Select **Import** to bring your API into Postman.
 
-> To learn more ways to import APIs, read [Importing an API](/docs/designing-and-developing-your-api/importing-an-api/)
+> To learn more ways to import APIs, read [Importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
