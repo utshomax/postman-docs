@@ -1,5 +1,5 @@
 ---
-title: "About request authorization in Postman"
+title: "Request authorization in Postman"
 updated: 2023-05-30
 contextual_links:
   - type: section

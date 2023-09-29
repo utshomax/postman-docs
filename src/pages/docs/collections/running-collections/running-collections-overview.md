@@ -1,5 +1,5 @@
 ---
-title: "Testing your API functionality"
+title: "Test your API functionality"
 updated: 2023-06-15
 contextual_links:
   - type: section
