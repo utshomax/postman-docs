@@ -1,6 +1,6 @@
 ---
 title: "Enable domain capture in Postman"
-updated: 2023-09-18
+updated: 2023-10-01
 contextual_links:
   - type: section
     name: "Additional resources"
