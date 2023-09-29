@@ -1,5 +1,5 @@
 ---
-title: "Postman response viewer components"
+title: "API response structure in Postman"
 updated: 2023-09-26
 contextual_links:
   - type: section

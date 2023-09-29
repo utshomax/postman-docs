@@ -1,5 +1,5 @@
 ---
-title: "Debug API requests using Postman console"
+title: "Debug API requests using Postman Console"
 updated: 2021-12-22
 contextual_links:
   - type: section

@@ -1,5 +1,5 @@
 ---
-title: "Turn request responses into examples and use cases"
+title: "Create examples of request responses to illustrate API use cases"
 updated: 2023-02-13
 contextual_links:
   - type: section

@@ -1,5 +1,5 @@
 ---
-title: "Sync cookies using Postman Interceptor and Postman proxy"
+title: "Sync cookies using Postman Interceptor and the Postman proxy"
 updated: 2023-08-14
 contextual_links:
   - type: section

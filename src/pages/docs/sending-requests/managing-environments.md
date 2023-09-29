@@ -1,5 +1,5 @@
 ---
-title: "Group value sets and manage access to shared Postman data using environments"
+title: "Group sets of variables in Postman using environments"
 order: 25
 updated: 2022-11-16
 page_id: "managing-environments"

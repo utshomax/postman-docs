@@ -1,5 +1,5 @@
 ---
-title: "Using GraphQL queries in Postman"
+title: "Use GraphQL queries in Postman"
 page_id: "graphql"
 updated: 2023-05-15
 contextual_links:

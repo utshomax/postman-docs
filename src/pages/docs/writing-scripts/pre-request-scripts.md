@@ -1,5 +1,5 @@
 ---
-title: "Add code to the Pre-request Script tab"
+title: "Write pre-request scripts"
 order: 42
 updated: 2022-07-20
 page_id: "pre_request_scripts"

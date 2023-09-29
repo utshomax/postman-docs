@@ -1,5 +1,5 @@
 ---
-title: "Authenticate with AWS Signature authorization workflow in Postman"
+title: "Authenticate with AWS Signature authentication workflow in Postman"
 updated: 2023-05-30
 contextual_links:
   - type: section

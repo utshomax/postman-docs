@@ -1,5 +1,5 @@
 ---
-title: "Tests, debug, and access values in gRPC requests using JavaScript in Postman"
+title: "Test and debug values in gRPC requests using JavaScript in Postman"
 updated: 2023-04-12
 ---
 

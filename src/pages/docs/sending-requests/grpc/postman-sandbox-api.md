@@ -1,5 +1,5 @@
 ---
-title: "Write gRPC scripts and tests in Postman using pm object reference"
+title: "Write gRPC scripts and tests in Postman using the pm object"
 page_id: "postman-sandbox-api"
 warning: false
 updated: 2022-09-15

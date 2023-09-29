@@ -1,5 +1,5 @@
 ---
-title: "Capture traffic using the Postman built-in proxy (Windows, Linux, before v.10.17)"
+title: "Capture traffic using the Postman built-in proxy for macOS (Postman v10.16 or earlier), Windows (Postman v10.17 or earlier), and Linux"
 updated: 2023-08-24
 contextual_links:
   - type: section
