@@ -40,7 +40,7 @@ cURL is an efficient command line tool for making HTTP requests. When testing a 
 
 To convert a Postman request to a cURL command, do the following:
 
-1. Open the request you want to use for a code snippet, then select the code icon <img alt="Code icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px"> in the right pane.
+1. Open the request you want to use for a code snippet, then select the code icon <img alt="Code icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px"> in the right sidebar.
 
     <img src="https://assets.postman.com/postman-docs/v10/generate-code-right-sidebar-v10.jpg" width="300px" alt="Open code snippets"/>
 
