@@ -22,7 +22,7 @@ contextual_links:
     url: "https://blog.postman.com/differences-between-postman-collections-and-collection-format/"
 ---
 
-cURL is an efficient command line tool for making HTTP requests. When testing a web application or API, cURL enables you to interact directly from the command line, using a well-established syntax that's common in the community. If you have several cURL commands stashed in different places, you can import them into Postman.
+cURL is a popular command-line tool for making HTTP requests. When testing a web application or API, cURL enables you to interact directly from the command line, using a well-established syntax that's common in the API developer community. If you have several cURL commands in different places, you can import them into Postman.
 
 ## Contents
 
