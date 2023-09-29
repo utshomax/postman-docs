@@ -39,9 +39,15 @@ You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-perm
 * Use [Postman version 9 or later](/docs/administration/updating/).
 * Have [SSO](/docs/administration/sso/admin-sso/) configured and enabled.
     * Alternative authentication methods (Postman or Google sign in) must be turned off.
+* [Add and verify a domain or subdomain](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/). 
 
 It's recommended that you enable [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) to ease the process of onboarding new users and [Auto-Flex](/docs/administration/billing/#using-auto-flex) to ensure that your team can automatically accommodate all users that may be added to your Postman team when domain capture is enabled.
 
+
+Looks good with one minor tweak: Domain Verification is technically a prerequisite for domain capture. You mention it in the steps to enable it but not as a prerequisite 
+Part of our desire to rework these docs is to get more teams to verify their domains (because it will simplify domain matching user onboarding) and treat it as its own thing separate from DC.
+
+So making a it a preq and not just a step helps strengthen that message.
 ## Set up domain capture
 
 To set up domain capture:
