@@ -1,5 +1,5 @@
 ---
-title: "Work with date and time in Postman Flows"
+title: "Work with date and time formats in Postman Flows"
 updated: 2023-08-15
 ---
 
