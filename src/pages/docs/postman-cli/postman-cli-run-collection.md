@@ -1,5 +1,5 @@
 ---
-title: "Running a collection with the Postman CLI"
+title: "Run a collection with the Postman CLI"
 updated: 2023-06-15
 contextual_links:
   - type: section

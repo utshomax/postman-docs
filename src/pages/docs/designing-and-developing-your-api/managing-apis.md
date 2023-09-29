@@ -1,5 +1,5 @@
 ---
-title: "Managing and sharing APIs"
+title: "Share APIs with your collaborators"
 updated: 2023-07-15
 contextual_links:
   - type: section

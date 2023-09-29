@@ -1,5 +1,5 @@
 ---
-title: "Create workspaces"
+title: "Organize your Postman work in workspaces"
 updated: 2023-05-22
 contextual_links:
   - type: section

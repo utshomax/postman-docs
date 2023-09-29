@@ -1,5 +1,5 @@
 ---
-title: "Using and managing workspaces"
+title: "Manage Postman workspaces"
 updated: 2023-05-31
 contextual_links:
   - type: section

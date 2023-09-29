@@ -1,5 +1,5 @@
 ---
-title: "Deploying an API overview"
+title: "Manage API deployments"
 updated: 2022-09-15
 contextual_links:
   - type: section

@@ -1,5 +1,5 @@
 ---
-title: "Managing changes using Git"
+title: "Manage your Git repository in Postman"
 updated: 2023-09-15
 contextual_links:
   - type: section

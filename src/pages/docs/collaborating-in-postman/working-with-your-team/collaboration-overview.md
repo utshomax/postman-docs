@@ -1,5 +1,5 @@
 ---
-title: "Collaboration overview"
+title: "Create and manage a team in Postman"
 order: 71
 updated: 2022-07-19
 page_id: "collaboration_overview"

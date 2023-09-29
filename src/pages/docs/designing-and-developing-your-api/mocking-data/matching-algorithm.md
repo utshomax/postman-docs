@@ -1,5 +1,5 @@
 ---
-title: "Understanding example matching"
+title: "Matching algorithm parameters of the Postman mock server"
 updated: 2022-09-26
 search_keyword: "x-mock-response-name, x-mock-response-id, x-mock-response-code, requestMethod, requestPath"
 ---

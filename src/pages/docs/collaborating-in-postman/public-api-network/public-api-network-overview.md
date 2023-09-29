@@ -1,5 +1,5 @@
 ---
-title: "Public API Network overview"
+title: "Share your APIs in the Public API Network"
 updated: 2023-03-30
 contextual_links:
   - type: section
