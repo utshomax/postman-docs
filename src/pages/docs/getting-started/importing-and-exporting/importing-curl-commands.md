@@ -49,4 +49,4 @@ To convert a Postman request to a cURL command, do the following:
 
     ![Copy code snippet to clipboard](https://assets.postman.com/postman-docs/v10/code-snippet-copy-icon-v10.jpg)
 
-    > If you’re a CLI based developer, and you prefer working inside the command line with cURL making basic requests, the [VS code extension](/docs/getting-started/basics/about-vs-code-extension/) is for you.
+    > If you prefer working inside the command line with cURL making basic requests, the [VS code extension](/docs/getting-started/basics/about-vs-code-extension/) is for you.
