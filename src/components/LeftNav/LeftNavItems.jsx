@@ -197,6 +197,14 @@ export const leftNavItems = [
             url: '/docs/getting-started/importing-and-exporting/importing-from-insomnia/',
           },
           {
+            name: 'Importing cURL commands',
+            url: '/docs/getting-started/importing-and-exporting/importing-curl-commands/',
+          },
+          {
+            name: 'Importing Swagger APIs',
+            url: '/docs/getting-started/importing-and-exporting/importing-from-swagger/',
+          },
+          {
             name: 'Exporting data from Postman',
             url: '/docs/getting-started/importing-and-exporting/exporting-data/',
           },
