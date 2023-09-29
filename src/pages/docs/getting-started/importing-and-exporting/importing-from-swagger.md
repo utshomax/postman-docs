@@ -22,7 +22,7 @@ contextual_links:
     url: "https://blog.postman.com/differences-between-postman-collections-and-collection-format/"
 ---
 
-Postman can import APIs created with the Swagger toolset and any API that follows the OpenAPI specification. You can import your API as a standard collection (described below), or you can use the [Postman API Builder](/docs/designing-and-developing-your-api/the-api-workflow/) to import both the definition and a linked collection.
+Postman can import APIs created with the Swagger toolset and any API that follows a [supported version of the OpenAPI specification](/docs/designing-and-developing-your-api/importing-an-api/#supported-api-definitions-formats).
 
 The terms "Swagger" and "OpenAPI" can be confusing because the OpenAPI specification was previously named SwaggerAPI, and people sometimes use the terms interchangeably. To clarify, in this document, "Swagger API" refers to an API created with the Swagger toolset.
 
@@ -35,7 +35,7 @@ To import a Swagger API, do the following:
 
     > You can also import an API definition from a code repository. Learn more about [importing and exporting](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/).
 
-1. Confirm the name, format, and what you would like your data to import as.
+1. Choose to import your API as a **Postman Collection** or as **OpenAPI 3.0 with a Postman Collection**.
 
     > Select **View Import Settings** for more configuration options. These options will vary depending on your API specification.
 
