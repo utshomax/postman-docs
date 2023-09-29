@@ -26,8 +26,8 @@ cURL is an efficient command line tool for making HTTP requests. When testing a 
 
 ## Contents
 
-* Import a cURL command into Postman
-* Convert a Postman request to a cURL command
+* [Import a cURL command into Postman](#import-a-curl-command-into-postman)
+* [Convert a Postman request to a cURL command](#convert-a-postman-request-to-curl)
 
 ## Import a cURL command into Postman
 
