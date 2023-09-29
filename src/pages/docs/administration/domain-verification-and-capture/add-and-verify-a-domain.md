@@ -17,6 +17,8 @@ To set up domain capture, you'll first need to add and verify your organization'
 
 ## Contents
 
+* [Why should my organization verify a domain with Postman?](#why-should-my-organization-verify-a-domain-with-postman)
+
 * [Add and verify a domain](#add-and-verify-a-domain)
 
     * [Verify a domain later](#verify-a-domain-later)
@@ -26,6 +28,14 @@ To set up domain capture, you'll first need to add and verify your organization'
     * [View unclaimed accounts](#view-unclaimed-accounts)
 
 * [Enable domain capture](#enable-domain-capture)
+
+## Why should my organization verify a domain with Postman?
+
+Adding and verifying a domain enables Postman to implicitly trust your team and its connection to your organization. It's required to turn on [domain capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/#why-should-my-organization-enable-domain-capture-in-postman), but it also improves the onboarding process as you continue to grow your Postman team.
+
+Without a verified domain, individual accounts that you invite to your team are given the option to join or dismiss the invite. If they choose to join, they're also required to reauthenticate prior to accessing the team. By verifying your organization's domain, it removes the friction of adding users who have already verified their email addresses with the relevant domain when they created Postman accounts. Postman will no longer require users' permission to join your team, letting you instantly provide new teammates with all of the resources they’ll need to be successful contributors.
+
+> For more information on the benefits of enabling domain capture, see [Why should my organization enable domain capture in Postman?](/docs/administration/domain-verification-and-capture/domain-capture-overview/#why-should-my-organization-enable-domain-capture-in-postman)
 
 ## Add and verify a domain
 
@@ -93,7 +103,7 @@ Team Admins can view verification details for verified and unverified domains in
 
 ### View unclaimed accounts
 
-Unclaimed accounts are accounts associated with a verified domain that aren't part of your team. Team Admins can view unclaimed accounts in the [domain dashboard](https://go.postman.co/settings/team/domain-capture).
+Unclaimed accounts are accounts associated with a verified domain that haven't signed in since domain capture was enabled and aren't yet part of your team. Team Admins can view unclaimed accounts in the [domain dashboard](https://go.postman.co/settings/team/domain-capture).
 
 1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar, then select the **Domains** tab.
 1. Select **Manage** next to the domain with the **VERIFIED** status you want to view unclaimed accounts for, and then select **View Accounts**.
