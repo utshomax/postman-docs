@@ -38,6 +38,7 @@ $ newman run -h
 * [Basic options](#basic-options)
 * [Setup](#setup)
 * [Request options](#request-options)
+* [SSL options](#ssl-options)
 * [Miscellaneous options](#miscellaneous-options)
 * [Exit status](#exit-status)
 * [Data file example](#data-file-example)
@@ -53,8 +54,8 @@ $ newman run -h
 
 | Option | Details |
 |:--|:--|
-| `-e`, `--environment [file\|URL]` | Specify the file path or URL for environment variables. |
-| `-g`, `--globals [file\|URL]` | Specify the file path or URL for global variables. |
+| `-e`, `--environment [file\|URL]` | Specify the file path or URL of environment variables. |
+| `-g`, `--globals [file\|URL]` | Specify the file path or URL of global variables. |
 | `-d`, `--iteration-data [file]` | Specify a data file, either JSON or CSV, to use for iteration as a path to a file or as a URL. |
 | `-n`, `--iteration-count [number]` | Specify the number of times for the collection to run. Use with the iteration data file. |
 | `--folder [folderName]` | Specify a folder to run requests from. You can specify more than one folder by using this option multiple times, specifying one folder for each time the option is used. |
@@ -73,14 +74,24 @@ $ newman run -h
 | `--timeout-request [number]` | Specify the time (in milliseconds) to wait for requests to return a response. |
 | `--timeout-script [number]` | Specify the time (in milliseconds) to wait for scripts to complete execution. |
 
+## SSL options
+
+| Option | Details |
+|:--|:--|
+| `--ssl-client-cert [path]` | The path to the public client certificate file, enabling you to make authenticated requests. |
+| `--ssl-client-key [path]` | Optionally, you can add the path to the private client key that verifies certificate ownership. |
+| `--ssl-client-passphrase [passphrase]` | Optionally, you can add secret passphrase to protect the private client key. |
+| `--ssl-client-cert-list [path]` | <p>The path to the configuration JSON file containing the SSL client certificate list. This option enables you to set several SSL client certificates according to a URL or hostname. To learn more, [see an example](https://github.com/postmanlabs/newman/blob/develop/examples/ssl-client-cert-list.json).</p> <p>This option has a higher priority over `--ssl-client-cert`, `--ssl-client-key,` and `--ssl-client-passphrase` options. If there is no URL match in the SSL client certificate list, these options are used instead.</p> |
+| `--ssl-extra-ca-certs [path]` | The path to the file that has one or more trusted CA certificates in PEM format. You can use this option when you don't want to use the [`--insecure` option](#miscellaneous-options).
+
 ## Miscellaneous options
 
 | Option | Details |
 |:--|:--|
 | `-r [reporter-name]`, `--reporters [reporter-name]` | Generate a report about the current collection run. Specify one or more reporter names: `cli` (default when using Newman as a CLI), `json`, `junit`, `progress`, and `emojitrain`. Specify more than one reporter name as a comma-separated list, for example, `-r cli,json`. Learn more about [using reporters with Newman](/docs/collections/using-newman-cli/newman-built-in-reporters/). |
-| `--bail [optionalModifiers]` | Stops the collection run when a test script fails. Optionally, you can add modifiers to this option: `folder` and `failure`. You can add `folder` to skip the entire collection run if an invalid folder was specified using the `--folder` option, or an error was encountered in general. You can add `failure` to stop an entire collection run (after completing the current test script) when a test fails. |
+| `--bail [optionalModifiers]` | <p>Stops the collection run when a test script fails.</p> <p>Optionally, you can add modifiers to this option: `folder` and `failure`. You can add `folder` to skip the entire collection run if an invalid folder was specified using the `--folder` option, or an error was encountered in general. You can add `failure` to stop an entire collection run (after completing the current test script) when a test fails.</p> |
 | `--color [value]` | Specify the color of the CLI output: `on`, `off`, or `auto` (default).
-| `--disable-unicode` | Force the unicode disable option. When supplied, all symbols in the output will be replaced by their plain text equivalents. |
+| `--disable-unicode` | Turn off Unicode text encoding. When supplied, all symbols in the output will be replaced by their plain text equivalents. |
 | `-k`, `--insecure` | Turn off SSL verification checks, and allow self-signed SSL certificates. |
 | `-x`, `--suppress-exit-code` | Specify whether to override the default exit code for the current run. Continue running tests even after a failure, but exit with `code=0`. |
 | `--ignore-redirects` | Turn off automatic following of `3XX` redirect responses. |

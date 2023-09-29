@@ -84,11 +84,7 @@ $ newman run https://www.postman.com/collections/cb208e7e64056f5294e5 -e dev_env
                     Failing Tests"
 ```
 
-The results of all tests and requests can be exported into a file. You can use the JSON and JUnit reporters to save the output into a file. You can learn more about [Newman's built-in reporters](/docs/collections/using-newman-cli/newman-built-in-reporters/).
-
-```bash
-$ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json
-```
+The results of all tests and requests can be exported into a file. You can learn more about [Newman's built-in reporters](/docs/collections/using-newman-cli/newman-built-in-reporters/).
 
 > Newman enables you to use all [libraries and objects](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) that Postman supports to run tests and pre-request scripts.
 
@@ -98,7 +94,7 @@ Newman provides a rich set of options to customize a collection run. Learn more 
 
 ## Using Newman with CI/CD
 
-By default, Newman exits with a status code of 0 if everything runs as expected with no exceptions. You can configure your continuous integration (CI) tools to respond to Newman's exit codes and correspondingly pass or fail a build. You can also use the `--bail` flag to make Newman stop the run if it encounters a test case error with a status code of 1, which can then be picked up by your CI tool or build system.
+By default, Newman exits with a status code of 0 if everything runs as expected with no exceptions. You can configure your continuous integration (CI) tools to respond to Newman's exit codes and correspondingly pass or fail a build. You can also use the [`--bail` option](/docs/collections/using-newman-cli/newman-options/#miscellaneous-options) to make Newman stop the run if it encounters a test case error with a status code of 1, which can then be picked up by your CI tool or build system.
 
 ## Using Newman as a Node.js library
 

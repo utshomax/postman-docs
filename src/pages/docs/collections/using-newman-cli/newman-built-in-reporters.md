@@ -60,9 +60,7 @@ $ newman run PostmanCollection.json -r cli,json --reporter-silent
 
 ### CLI reporter
 
-The CLI reporter is a built-in reporter that is turned on by default when using Newman as a CLI. You can configure the CLI reporter using several different options.
-
-You can use the following options to configure the details the CLI reporter provides:
+The CLI reporter is turned on by default when using Newman as a CLI, and prints the report to the terminal. You can use the following options to configure the CLI reporter:
 
 | Option | Details |
 |:--|:--|
@@ -83,11 +81,11 @@ $ newman run PostmanCollection.json -r cli,json --reporter-cli-show-timestamps
 
 ### JSON reporter
 
-You can use the following option to configure the JSON reporter:
+The JSON reporter creates a JSON file in your working directory that contains the report. You can use the following option to configure the JSON reporter:
 
 | Option | Details |
 |:--|:--|
-| `--reporter-json-export [path]` | Specify a path where the output JSON file will be created in your file system. By default, the JSON file is created in `/newman` in your working directory. If the `/newman` directory doesn't exist, it will be created. If the specified path is an existing directory, the file will be created in that directory. |
+| `--reporter-json-export [path]` | <p>Specify a path where the output JSON file will be created in your file system. By default, the JSON file is created in `/newman` in your working directory. If the `/newman` directory doesn't exist, it will be created. If the specified path is an existing directory, the file will be created in that directory.</p> <p>Optionally, you can specify a name for the file, for example, `... --reporter-json-export collection-run-1.json`.</p> |
 
 The following example generates the output JSON file for the JSON reporter in the `/json-file-reports` directory:
 
@@ -97,11 +95,11 @@ $ newman run PostmanCollection.json -r cli,json --reporter-json-export json-file
 
 ### JUnit reporter
 
-You can use the following option to configure the JUnit reporter:
+The JUnit reporter creates an XML file in your working directory that contains the report. You can use the following option to configure the JUnit reporter:
 
 | Option | Details |
 |:--|:--|
-| `--reporter-junit-export [path]` | Specify a path where the output XML file will be created in your file system. By default, the XML file is created in `/newman` in your working directory. If the `/newman` directory doesn't exist, it will be created. If the specified path is an existing directory, the file will be created in that directory. |
+| `--reporter-junit-export [path]` | <p>Specify a path where the output XML file will be created in your file system. By default, the XML file is created in `/newman` in your working directory. If the `/newman` directory doesn't exist, it will be created. If the specified path is an existing directory, the file will be created in that directory.</p> <p>Optionally, you can specify a name for the file, for example, `... --reporter-junit-export collection-run-1.xml`.</p> |
 
 The following example generates the output XML file for the JUnit reporter in the `/xml-file-reports` directory:
 
