@@ -1,5 +1,5 @@
 ---
-title: "OpenAPI 2.0 rules"
+title: "OpenAPI 2.0 security and formatting warnings"
 updated: 2022-07-20
 contextual_links:
   - type: section

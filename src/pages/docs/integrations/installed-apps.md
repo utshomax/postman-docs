@@ -1,5 +1,5 @@
 ---
-title: "Using installed apps in integrations"
+title: "Add new integrations using installed apps in Postman"
 updated: 2023-03-15
 contextual_links:
   - type: section

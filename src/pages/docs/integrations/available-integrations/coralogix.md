@@ -1,5 +1,5 @@
 ---
-title: "Coralogix"
+title: "Integrate Postman with Coralogix"
 order: 165
 updated: 2022-07-13
 page_id: "coralogix"

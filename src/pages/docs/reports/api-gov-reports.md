@@ -1,5 +1,5 @@
 ---
-title: "API Governance reports"
+title: "View reports about API rule compliance"
 updated: 2023-06-15
 contextual_links:
   - type: section

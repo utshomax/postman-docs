@@ -1,5 +1,5 @@
 ---
-title: "GitLab CI/CD"
+title: "Integrate Postman with GitLab CI/CD"
 updated: 2022-09-15
 contextual_links:
   - type: section
