@@ -301,6 +301,6 @@ There are several ways to create a collection from a template:
 
 You can also save multi-protocol requests, such as [WebSocket](/docs/sending-requests/websocket/websocket/) and [gRPC](/docs/sending-requests/grpc/grpc-client-overview/) requests, into collections.
 
-Because multi-protocol requests have different features than HTTP requests, when they're saved to a collection, it causes the collection to be in a “beta” state with certain limitations.
+Because multi-protocol requests have different features than HTTP requests, when they're saved to a collection, it causes the collection to be in a "beta" state with certain limitations.
 
 When in this state, a collection can only contain WebSocket or gRPC requests, and not HTTP requests. Some features related to collections also aren't supported.
