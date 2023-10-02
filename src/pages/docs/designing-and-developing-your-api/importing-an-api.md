@@ -1,5 +1,5 @@
 ---
-title: "Importing an API"
+title: "Import an API into Postman"
 updated: 2022-09-15
 search_keyword: "import, aws, api gateway"
 contextual_links:

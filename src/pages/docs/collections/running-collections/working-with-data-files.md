@@ -1,5 +1,5 @@
 ---
-title: "Run a collection using imported data"
+title: "Run collections using imported data"
 updated: 2023-09-15
 contextual_links:
   - type: section

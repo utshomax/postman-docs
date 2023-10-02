@@ -1,5 +1,5 @@
 ---
-title: "The Flows Interface"
+title: "Navigate the Postman Flows interface"
 updated: 2023-08-15
 ---
 

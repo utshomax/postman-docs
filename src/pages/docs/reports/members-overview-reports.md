@@ -1,5 +1,5 @@
 ---
-title: "Members overview reports"
+title: "View reports about team invites, member activity, and role distribution"
 updated: 2023-06-15
 contextual_links:
   - type: section

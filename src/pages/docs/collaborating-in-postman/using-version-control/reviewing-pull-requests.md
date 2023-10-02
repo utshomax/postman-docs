@@ -1,5 +1,5 @@
 ---
-title: "Reviewing pull requests"
+title: "Review pull requests in Postman"
 updated: 2022-11-17
 contextual_links:
   - type: section

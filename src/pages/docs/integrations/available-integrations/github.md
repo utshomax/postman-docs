@@ -1,5 +1,5 @@
 ---
-title: "GitHub"
+title: "Integrate Postman with GitHub"
 updated: 2023-04-15
 contextual_links:
   - type: section
