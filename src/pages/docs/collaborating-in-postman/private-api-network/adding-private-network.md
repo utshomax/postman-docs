@@ -1,5 +1,5 @@
 ---
-title: "Postman Private API Network"
+title: "The Postman Private API Network"
 updated: 2023-09-15
 contextual_links:
   - type: section
