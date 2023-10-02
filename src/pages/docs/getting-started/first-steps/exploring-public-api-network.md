@@ -1,5 +1,5 @@
 ---
-title: "Explore the Public API Network"
+title: "Discover APIs, workspaces, collections, and Flows on the Public API Network"
 updated: 2023-07-18
 contextual_links:
   - type: section

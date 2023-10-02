@@ -1,5 +1,5 @@
 ---
-title: "Integrating with Jenkins"
+title: "Integrate your Postman tests with Jenkins using Newman"
 contextual_links:
   - type: section
     name: "Additional resources"

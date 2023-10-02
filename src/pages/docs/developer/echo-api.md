@@ -1,5 +1,5 @@
 ---
-title: "The Postman Echo service"
+title: "Test requests in Postman using the Echo API"
 updated: 2023-07-31
 contextual_links:
   - type: section

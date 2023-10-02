@@ -1,5 +1,5 @@
 ---
-title: "Forking Postman entities"
+title: "Fork collections, environments, and Flows in Postman"
 updated: 2022-11-17
 contextual_links:
   - type: section

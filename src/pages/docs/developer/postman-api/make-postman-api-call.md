@@ -1,5 +1,5 @@
 ---
-title: "Make a call with the Postman API"
+title: "Access Postman data programmatically"
 updated: 2023-06-22
 search_keyword: "postman-api"
 contextual_links:

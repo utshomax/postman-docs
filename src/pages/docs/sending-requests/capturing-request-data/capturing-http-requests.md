@@ -1,5 +1,5 @@
 ---
-title: "Capturing HTTP requests"
+title: "Capture HTTP requests in Postman"
 updated: 2023-08-24
 contextual_links:
   - type: section

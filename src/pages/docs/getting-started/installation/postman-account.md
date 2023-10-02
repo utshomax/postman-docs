@@ -1,5 +1,5 @@
 ---
-title: "Managing your account"
+title: "Manage your Postman account"
 order: 4.1
 page_id: "postman_account"
 updated: 2021-12-9

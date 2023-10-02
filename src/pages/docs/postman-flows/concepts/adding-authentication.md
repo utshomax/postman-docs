@@ -1,5 +1,5 @@
 ---
-title: "Add authentication"
+title: "Authenticate an API in Postman Flows"
 updated: 2023-08-15
 ---
 

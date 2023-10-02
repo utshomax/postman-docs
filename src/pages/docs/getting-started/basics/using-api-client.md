@@ -1,5 +1,5 @@
 ---
-title: "Using the lightweight Postman API Client"
+title: "Build and send requests offline using the lightweight Postman API Client"
 updated: 2023-05-15
 contextual_links:
   - type: section
