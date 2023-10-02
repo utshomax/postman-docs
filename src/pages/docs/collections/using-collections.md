@@ -1,5 +1,5 @@
 ---
-title: "Using collections"
+title: "Create and manage request collections in Postman"
 updated: 2023-04-10
 contextual_links:
   - type: section
@@ -7,19 +7,17 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Group Requests in Collections | Postman Level Up"
-    url: "https://youtu.be/ghHX4FGvVyA"
-  - type: link
     name: "Create a Postman Collection | Postman Level Up"
     url: "https://youtu.be/NlrPjuXEaZ8"
+  - type: link
+    name: "Use Collection and Workspace Templates"
+    url: "https://youtu.be/QAIH1D203Wg"
+  - type: link
+    name: "Postman Collections | The Exploratory"
+    url: "https://youtu.be/GtGQ3YsOrt4"
   - type: dynamic_blog
     name: "Blog posts"
     blog_tag: "collections"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Ping Identity"
-    url: "https://www.postman.com/case-studies/pingidentity/"
 ---
 
 You can group your Postman requests and examples into collections to keep your workspace organized, to collaborate with teammates, to generate API documentation and API tests, and to automate request runs.
@@ -43,6 +41,7 @@ Select **Collections** in the sidebar for the list of collections in a workspace
     * [Deleting a collection](#deleting-a-collection)
     * [Recovering a deleted collection](#recovering-a-deleted-collection)
     * [Sharing a collection](#sharing-a-collection)
+    * [Tagging a collection](#tagging-a-collection)
     * [Watching a collection](#watching-a-collection)
     * [Forking a collection](#forking-a-collection)
     * [Adding comments to a collection](#adding-comments-to-a-collection)
@@ -67,17 +66,16 @@ There are several ways to create a new collection:
 
 To customize and configure a new collection, do the following:
 
-1. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to give your new collection a name.
-1. You can optionally specify a [description](/docs/publishing-your-api/authoring-your-documentation/) for your collection. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px">, then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to write your description. This description will appear in its documentation and in the workspace when anyone opens it.
-
-    > You can also select **Overview** to specify and view the description for your collection.
-
+1. Select the collection name to give your new collection a name.
+1. You can optionally enter a [description](/docs/publishing-your-api/authoring-your-documentation/) for your collection in the **Overview**tab. This description will appear in its documentation and in the workspace when anyone opens it.
 1. Select **Authorization** to configure authorization details for the collection.
 1. Select **Pre-request Script** to define a [pre-request script](/docs/writing-scripts/pre-request-scripts/) for your collection, which will run before requests are sent to the server.
 1. Select **Tests** to define a [test script](/docs/writing-scripts/test-scripts/) for your collection, which will run after a response is received.
 1. Select **Variables** to define values for [collection variables](/docs/sending-requests/variables/) to share across all requests in the collection.
 
-![Edit collection details](https://assets.postman.com/postman-docs/v10/collection-details-v10.jpg)
+> You can turn on autosave to automatically save your changes to collections, requests, and environments. Learn more about [autosave](/docs/getting-started/installation/settings/#application).
+
+![Edit collection details](https://assets.postman.com/postman-docs/v10/collection-details-v10-2.jpg)
 
 ## Adding requests to a collection
 
@@ -181,9 +179,45 @@ To share a collection with other users, you can:
 
 * Publish a [Run in Postman](/docs/publishing-your-api/run-in-postman/creating-run-button/) button.
 * Invite others to collaborate by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, then selecting **Share**. Learn more about [sharing elements in Postman](/docs/collaborating-in-postman/sharing/#sharing-postman-entities).
-* Allow external users who aren't in your Postman team to view collections by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, selecting **Share**, then turning on the toggle next to **Allow Guests with the link to join your team and view collection**. Learn more about [allowing external users to view collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
+    * To share a URL to a collection, folder, or request with an active environment selected, [choose an environment using the environment selector](/docs/sending-requests/managing-environments/#selecting-an-active-environment), copy the element's link to your clipboard, then send the link to team members you want to share with.
+* Allow external users who aren't in your Postman team to view collections by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, selecting **Share**, then turning on the toggle next to **Allow Guests to join your team and view this collection with the link**. Learn more about [allowing external users to view collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
 * Move the collection to a shared workspace by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, then selecting **Move**. Learn more about [moving Postman elements](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces).
-* ([Enterprise](https://www.postman.com/pricing/)) Add the collection to your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/#adding-collections).
+* ([Enterprise](https://www.postman.com/pricing/)) Add the collection to your team's [Private API Network](/docs/collaborating-in-postman/private-api-network/private-network-requests/#requesting-to-add-a-collection-from-the-workbench).
+
+### Tagging a collection
+
+> **[Tagging collections is available on Postman Enterprise plans.](https://www.postman.com/pricing/)** You can apply shared tags to workspaces, collections, and APIs. Tags must be between two and 64 alphanumeric characters, starting with an alphabetic character, and contain only dashes and no spaces. You can add up to five tags.
+
+Adding shared tags to collections enables you to organize and search for collections.
+
+Once you add tags to the collection, you can select a tag to open search results associated with the tag in a new tab.
+
+To learn more about searching using tag names in Postman, see [Search Postman](/docs/getting-started/basics/navigating-postman/#search-postman). You can also search using tag names in the Private API Network when searching [elements in the network](/docs/collaborating-in-postman/private-api-network/adding-private-network/#searching-filtering-and-sorting), [elements to add to the network](/docs/collaborating-in-postman/private-api-network/organizing-private-network/#adding-elements-in-your-private-api-network), and [elements to request to add to the network](/docs/collaborating-in-postman/private-api-network/private-network-requests/#requesting-to-add-elements-in-your-private-api-network).
+
+To add tags to a collection, do the following:
+
+1. Select **Collections** in the sidebar.
+1. Select a collection.
+1. Select the **Tags** section to edit it.
+
+    <img alt="Add tags to a collection" src="https://assets.postman.com/postman-docs/v10/add-tags-collection-v10.jpg"/>
+
+1. Select an existing tag or enter a new tag. If you're adding a new tag, enter the new tag name and then select **Create "*tag-name*"**.
+
+    <img alt="Add new tags to a collection" src="https://assets.postman.com/postman-docs/v10/create-new-tags-collection-v10.jpg"/>
+
+1. Select the area outside of the **Tags** section to save your changes.
+
+To remove tags from a collection, do the following:
+
+1. Select **Collections** in the sidebar.
+1. Select a collection.
+1. Select the **Tags** section to edit it.
+1. Select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to a tag.
+
+    <img alt="Remove tags from a collection" src="https://assets.postman.com/postman-docs/v10/remove-tags-collection-v10.jpg"/>
+
+1. Select the area outside of the **Tags** section to save your changes.
 
 ### Watching a collection
 
@@ -216,8 +250,11 @@ You can fork collections in your own workspace to [develop collection versions](
 
 ### Adding comments to a collection
 
-1. Select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> from the right sidebar.
-1. Write your comment, then select **Add Comment**.
+1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar and enter your comment.
+1. (Optional) Select the **Watch collection** checkbox to be notified when there are changes to the collection.
+1. Select **Comment** to add your comment.
+
+> To learn more about using comments to collaborate on collections and requests, go to [Discussing your work](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/).
 
 ### Reverting collection changes
 
@@ -244,7 +281,7 @@ From the right sidebar:
 Collections can power various parts of your API development, testing, and publishing workflows.
 
 * Select **Run** to access the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/), which allows you to run all requests in a collection and build testing workflows into your runs.
-* Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> to generate [API documentation](/docs/publishing-your-api/documenting-your-api/) from a collection.
+* Select **View complete documentation** in the collection's **Overview** tab to generate [documentation](/docs/publishing-your-api/document-a-collection/) from a collection.
 * Attaching a [monitor](/docs/monitoring-your-api/intro-monitors/) to a collection lets you schedule collection runs. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, and then select **Monitor collection**.
 * You can use [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) to return sample data during testing and development. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, and then select **Mock collection**.
 * Generate collections from API specifications using the [Postman API Builder](/docs/designing-and-developing-your-api/the-api-workflow/).
@@ -264,6 +301,6 @@ There are several ways to create a collection from a template:
 
 You can also save multi-protocol requests, such as [WebSocket](/docs/sending-requests/websocket/websocket/) and [gRPC](/docs/sending-requests/grpc/grpc-client-overview/) requests, into collections.
 
-Because multi-protocol requests have different features than HTTP requests, when they're saved to a collection, it causes the collection to be in a “beta” state with certain limitations.
+Because multi-protocol requests have different features than HTTP requests, when they're saved to a collection, it causes the collection to be in a "beta" state with certain limitations.
 
 When in this state, a collection can only contain WebSocket or gRPC requests, and not HTTP requests. Some features related to collections also aren't supported.

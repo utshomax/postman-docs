@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Power Automate"
+title: "Integrate Postman with Microsoft Power Automate"
 updated: 2022-07-19
 ---
 

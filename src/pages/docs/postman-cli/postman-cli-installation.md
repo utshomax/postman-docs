@@ -1,5 +1,5 @@
 ---
-title: "Installing the Postman CLI"
+title: "Install the Postman CLI"
 updated: 2022-10-20
 warning: false
 ---
@@ -16,7 +16,7 @@ You can download and install the Postman CLI manually or programmatically (with 
 
 ## System requirements
 
-The Postman CLI supports the same operating system requirements as the Postman desktop app. For a complete list of system requirements, see [Installing and updating Postman](/docs/getting-started/installation-and-updates/).
+The Postman CLI supports the same operating system requirements as the Postman desktop app. For a complete list of system requirements, see [Installing and updating Postman](/docs/getting-started/installation/installation-and-updates/).
 
 ## Windows installation
 

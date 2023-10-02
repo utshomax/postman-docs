@@ -1,6 +1,6 @@
 ---
-title: "Running requests in sequence"
-updated: 2022-11-17
+title: "Run requests in sequence using Postman Flows"
+updated: 2023-08-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -22,34 +22,26 @@ contextual_links:
     url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
 ---
 
-If you have several requests that have no dependency on each other but have to be executed in a particular order, you can use send events to connect your [blocks](/docs/postman-flows/core-concepts/blocks/).
+If you have several requests that have no dependency on each other but have to be executed in a particular order, you can use send events to connect your [blocks](/docs/postman-flows/gs/flows-overview/).
 
-> Check out the example flow: [Chaining requests](https://www.postman.com/postman/workspace/flows-snippets/flow/6267f9315d367a64e7ba06e5)
+> Check out the example Flow: [Chaining requests](https://www.postman.com/postman/workspace/flows-snippets/flow/6267f9315d367a64e7ba06e5)
 
 1. **Add a Send Request block**
 
    Select **+ Block** on the toolbar and select the **Send Request** block from the list to add it to your canvas, then select the request. Repeat this until all the requests are added to the canvas.
 
-    ![Adding sequential requests](https://assets.postman.com/postman-docs/v10/updated-running-add-requests-v10-1.gif)
+    <img src="https://assets.postman.com/postman-docs/v10/flows-chain-requests-v10-1.gif" alt="Add Send Request blocks" fetchpriority="low" loading="lazy" />
 
 1. **Connect the send events**
 
-   Select the dot (success output) of the source block and connect it to the send input of the target block in the order you want the requests to execute.
+   Select the port (success output) of the source block and connect it to the send input of the target block in the order you want the requests to execute.
 
-   ![Connect send events](https://assets.postman.com/postman-docs/v10/updated-running-connect-send-events-v10.gif)
+   <img src="https://assets.postman.com/postman-docs/v10/flows-select-requests-v10-1.gif" alt="Select requests" fetchpriority="low" loading="lazy" />
 
-   <!-- vale Postman.ComplexWords = NO -->
-   > **Important**
-   >
-   > 1. When a send event connection is made, the input becomes deactivated to show that it will get enabled after the previous blocks get enabled.
-   > 2. The send event connection depicts the order in which the blocks will be executed.
-   > 3. When using send event, no data is passed from one block to another.
-    <!-- vale Postman.ComplexWords = YES -->
+1. **Start the Flow**
 
-1. **Start the flow**
+   Start the Flow and see the requests run in the order they're configured:
 
-   Start the flow and see the requests run in the order they're configured:
+   <img src="https://assets.postman.com/postman-docs/v10/flows-run-requests-v10-1.gif" alt="Start the Flow" fetchpriority="low" loading="lazy" />
 
-   ![Start the flow](https://assets.postman.com/postman-docs/v10/updated-running-run-with-send-events-v10.gif)
-
-If you want to use data from one request in another request, you can learn how to do so in [Passing data between blocks](/docs/postman-flows/tutorials/passing-data-between-blocks/).
+If you want to use data from one request in another request, you can learn how to do so in [Send information from one system to another](/docs/postman-flows/tutorials/send-information-from-one-system-to-another/).

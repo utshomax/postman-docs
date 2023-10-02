@@ -1,5 +1,5 @@
 ---
-title: "Live Collection settings"
+title: "Manage update preferences and data redaction in Live Collections"
 updated: 2023-03-15
 ---
 

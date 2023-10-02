@@ -1,8 +1,6 @@
 ---
-title: "Viewing scheduled collection runs"
-updated: 2022-11-09
-warning: false
-
+title: "View your scheduled collection runs"
+updated: 2023-06-15
 ---
 
 You can run collections at specific times each day or week. For example, you may want to run a collection that tests your API every day. You can use the Collection Runner to [schedule collection runs](/docs/collections/running-collections/scheduling-collection-runs/) to execute automatically at specified dates and times.
@@ -27,13 +25,9 @@ You can run collections at specific times each day or week. For example, you may
 
 ## Viewing scheduled collection runs in Postman
 
-You can view your scheduled collection runs in Postman by navigating to your workspace and selecting **Collections > Your collection > Runs > Scheduled runs**.
+You can view your scheduled collection runs in Postman by navigating to your workspace and selecting **Collections > Your collection > Runs > Scheduled runs**. Hover over your scheduled collection run and select **View**.
 
-<img src="https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10-13.jpg" alt="View scheduled collection run in tab"/>
-
-Hover over your scheduled collection run and select **View**.
-
-![Scheduled runs view results v10](https://assets.postman.com/postman-docs/v10/scr-hover-select-view-1-v10-13.jpg)
+![Scheduled runs view results v10](https://assets.postman.com/postman-docs/v10/scr-hover-select-view-1-v10-13a.jpg)
 
 > Scheduled collection runs in team workspaces are visible to all members of the workspace.
 
@@ -91,3 +85,5 @@ Select a bar in the graph and select **Console Log** to view details about the r
 [![console log](https://assets.postman.com/postman-docs/v10/scr-view-console-log-v10.jpg)](https://assets.postman.com/postman-docs/v10/scr-view-console-log-v10.jpg)
 
 You can use this console to troubleshoot issues and learn more about an individual run's behavior.
+
+> **Scheduled collection run logs are retained for a period of six months.** If you select a scheduled collection run that's outside the retention period, you can view the number of failed tests and errors. Other collection run details will no longer be available. To request this information, contact [Postman support](https://www.postman.com/support/).

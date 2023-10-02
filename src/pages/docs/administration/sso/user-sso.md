@@ -1,5 +1,5 @@
 ---
-title: "Signing in to an SSO team"
+title: "Sign in to an SSO team"
 updated: 2023-02-06
 ---
 
@@ -11,7 +11,7 @@ Your Team Admin can share a **Login URL** that was generated during the SSO conf
 
 ## Signing in to Postman with SSO
 
-To [sign in to Postman](/docs/getting-started/postman-account/#signing-in-to-postman) using the Postman desktop app, select **Sign In** in the upper-right corner or select **Home** in the upper-left corner, then **Sign In**. You can also go to [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner of the page.
+To [sign in to Postman](/docs/getting-started/installation/postman-account/#signing-in-to-postman) using the Postman desktop app, select **Sign In** in the upper-right corner or select **Home** in the upper-left corner, then **Sign In**. You can also go to [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner of the page.
 
 When you sign in using the Postman desktop app, the app will open a new screen that directs you to sign in from your browser. Your default browser will automatically open a webpage asking you to sign in to Postman.
 
@@ -37,6 +37,6 @@ To sign in to Postman with SSO, do the following:
 
 1. Postman will redirect you to the configured IdP. Enter your SSO details to sign in.
 
-    > The first time you sign in to Postman, you may need to carry out extra steps to set up access to your IdP account. Sign in using SSO and follow the steps to [link your IdP account to Postman](/docs/getting-started/postman-account/#linking-your-account-to-postman).
+    > The first time you sign in to Postman, you may need to carry out extra steps to set up access to your IdP account. Sign in using SSO and follow the steps to [link your IdP account to Postman](/docs/getting-started/installation/postman-account/#linking-your-account-to-postman).
 
 > If you're a member of multiple Postman teams with varying authentication methods, you must sign in to those teams separately. To do so, select your avatar in the upper-right corner, then select the team to proceed.

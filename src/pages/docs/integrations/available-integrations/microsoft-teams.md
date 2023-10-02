@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams"
+title: "Integrate Postman with Microsoft Teams"
 updated: 2022-07-19
 ---
 

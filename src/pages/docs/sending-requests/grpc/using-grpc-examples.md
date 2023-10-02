@@ -1,5 +1,5 @@
 ---
-title: "Using gRPC examples"
+title: "Save, edit, and share gRPC request-response examples"
 updated: 2023-02-09
 contextual_links:
   - type: section
@@ -31,7 +31,7 @@ APIs can be complex, and so can the guidelines for using them. Examples help you
 
 This walkthrough creates and executes a unary request, then saves the response as a gRPC example.
 
-> If you are using the Postman web app, you must use the Postman Desktop Agent. See [About the Postman Agent](/docs/getting-started/about-postman-agent/) for more information.
+> If you are using the Postman web app, you must use the Postman Desktop Agent. See [About the Postman Agent](/docs/getting-started/basics/about-postman-agent/) for more information.
 
 1. In Postman, select  **New > gRPC** to open a request in a new tab.
 

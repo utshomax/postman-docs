@@ -1,5 +1,5 @@
 ---
-title: "Using WebSocket requests"
+title: "Send and receive messages over a WebSocket connection"
 updated: 2022-08-02
 contextual_links:
   - type: section
@@ -17,6 +17,9 @@ contextual_links:
   - type: link
     name: "Save and Document WebSocket Requests in Collections"
     url: "https://blog.postman.com/save-and-document-websocket-requests-in-collections/"
+  - type: link
+    name: "Powering home automation with WebSocket APIs"
+    url: "https://blog.postman.com/powering-home-automation-with-websocket-apis/"
   - type: link
     name: "Postman Supports Socket.IO"
     url: "https://blog.postman.com/postman-now-supports-socket-io/"
@@ -57,7 +60,7 @@ You can create a WebSocket request from the sidebar in Postman.
 1. Select **Connect**.
 1. To disconnect your WebSocket request's connection, select **Disconnect**.
 
-> If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/about-postman-agent/) for more information.
+> If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/basics/about-postman-agent/) for more information.
 
 ## Sending messages
 

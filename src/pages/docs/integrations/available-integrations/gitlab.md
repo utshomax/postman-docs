@@ -1,5 +1,5 @@
 ---
-title: "GitLab"
+title: "Integrate Postman with GitLab"
 order: 169
 page_id: "gitlab"
 updated: 2021-11-15
@@ -14,7 +14,7 @@ contextual_links:
     url: "https://youtu.be/BL8DFOPncMc"
 ---
 
-> **[GitLab Self-Managed integrations are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
+> **[GitLab Self-Managed integrations are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 >
 Back up your Postman Collections to GitLab, an open-source Git repository manager, with the Postman to GitLab integration.
 
@@ -22,7 +22,7 @@ Setting up a GitLab integration requires you to get a GitLab Personal Access Tok
 
 ## API sync with GitLab
 
-With Postman v10, you can connect a GitLab repository to an API in the API Builder. Once connected, you can sync your API's definition and associated collections between Postman and GitLab. You can switch branches, pull changes from the repository, and push changes to the repository, all from within Postman. To learn more about syncing your API with GitLab, see [Using a remote Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/).
+With Postman v10, you can connect a GitLab repository to an API in the API Builder. Once connected, you can sync your API's definition and associated collections between Postman and GitLab. You can switch branches, pull changes from the repository, and push changes to the repository, all from within Postman. To learn more about syncing your API with GitLab, see [API version control overview](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/).
 
 ## Generating a GitLab Personal Access Token
 

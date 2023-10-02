@@ -1,7 +1,6 @@
 ---
-title: "Installing and running Newman"
+title: "Install and run Newman"
 updated: 2022-05-23
-search_keyword: "newman run"
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -36,7 +35,7 @@ $ npm install -g newman
 
 The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system.
 
-> You can [export a collection](/docs/getting-started/importing-and-exporting-data/#exporting-collections) to share as a file.
+> You can [export a collection](/docs/getting-started/importing-and-exporting/exporting-data/#exporting-collections) to share as a file.
 
 ```bash
 $ newman run mycollection.json
@@ -87,7 +86,7 @@ $ newman run https://www.postman.com/collections/cb208e7e64056f5294e5 -e dev_env
 
 The results of all tests and requests can be exported into a file. Use the JSON reporter and a file name to save the output into a file.
 
-```
+```bash
 $ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json
 ```
 

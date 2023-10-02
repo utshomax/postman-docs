@@ -1,5 +1,5 @@
 ---
-title: "Overview"
+title: "Postman documentation overview"
 updated: 2023-02-27
 contextual_links:
   - type: section
@@ -13,8 +13,8 @@ contextual_links:
     name: "Intro to Postman playlist"
     url: "https://youtube.com/playlist?list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ"
   - type: link
-    name: "Postman Intergalactic: An Introduction for Developers"
-    url: "https://youtu.be/8MOzaTsVRKg"
+    name: "Introduction for Developers | Postman Intergalactic"
+    url: "https://youtu.be/qUlcosvyIyo"
   - type: link
     name: "Postman Community Forum | Postman Level Up"
     url:  "https://youtu.be/Ks_4H58eCQc"
@@ -42,12 +42,12 @@ If you're learning to carry out a specific task or workflow in Postman, check ou
 
 ## Getting started
 
-To get started using Postman, check out the [getting started](/docs/getting-started/overview/) section.
+To get started using Postman, check out the [get started](/docs/getting-started/overview/) section.
 
 ## Sending requests
 
 You can send requests in Postman to connect to APIs you are working with. To learn more about how to send requests, see
-[sending requests](/docs/sending-requests/requests/) and learn how to [send your first request](/docs/getting-started/sending-the-first-request/).
+[sending requests](/docs/sending-requests/requests/) and learn how to [send your first request](/docs/getting-started/first-steps/sending-the-first-request/).
 
 ## Writing scripts
 
@@ -59,7 +59,7 @@ Postman Collections are groups of saved requests. You can use collections to org
 
 ## Using Postman Flows
 
-Postman Flows is a visual tool for creating API workflows. You can use flows to chain requests, handle data, and create real-world workflows in your Postman workspace.
+Postman Flows is a visual tool for creating API workflows. You can use Flows to chain requests, handle data, and create real-world workflows in your Postman workspace.
 
 To learn more about Postman Flows, see the [Postman Flows overview](/docs/postman-flows/gs/flows-overview/).
 
@@ -89,7 +89,7 @@ To learn more about API-first development, see the [API development overview](/d
 
 Once you've generated documentation for your collection or API, users can view the documentation in Postman. By default your documentation is private, so you must share a collection or API with others before they can access it. If you're creating a public API, you can publish your documentation to make it publicly available to anyone with a web browser.
 
-To learn more about documenting your API, see [Generating API documentation](/docs/publishing-your-api/documenting-your-api/).
+To learn more about documenting your API, see [API documentation overview](/docs/publishing-your-api/api-documentation-overview/).
 
 ## Monitoring your API
 
@@ -111,7 +111,7 @@ To learn more about administering your Postman team, see the [Administration](/d
 
 Postman generates reports that enable you to visualize data for how your team uses Postman. These reports give you insights into the state of your APIs, including tests, documentation, and monitoring coverage. They also enable you to track performance and SLA adherence.
 
-To learn more about how to use reports, see the [Reports overview](/docs/reports/reports-overview/).
+To learn more about how to use reports, see [About reports](/docs/reports/reports-overview/).
 
 ## Developer resources
 

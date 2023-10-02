@@ -1,5 +1,5 @@
 ---
-title: "Postman CLI overview"
+title: "Explore Postman’s command-line companion"
 updated: 2023-03-20
 contextual_links:
   - type: section
@@ -18,11 +18,14 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Introducing the New Postman CLI to Automate Your API Testing"
-    url: "https://blog.postman.com/introducing-the-postman-cli-to-automate-your-api-testing/"
+    name: "Streamline your API release process with the Postman CLI"
+    url: "https://blog.postman.com/streamline-your-api-release-process-with-the-postman-cli/"
   - type: link
     name: "Making the switch: empowering manual testers to automate their API tests"
     url: "https://blog.postman.com/switching-from-manual-to-automated-api-testing/"
+  - type: link
+    name: "The Postman CLI vs. Newman: choose the right tool for you"
+    url: "https://blog.postman.com/postman-cli-vs-newman/"
 ---
 
 The Postman CLI is a secure command-line companion for Postman. It's secured and supported by Postman. The Postman CLI enables you to:
@@ -65,7 +68,7 @@ Here's another example. Assume you don't already support or secure any open-sour
 
 ## About the Postman CLI and Postman API usage
 
-Some Postman CLI commands use the [Postman API](/docs/developer/postman-api/intro-api/) to fetch data from and send data to Postman's servers. These commands count toward your monthly [Postman API usage](/docs/administration/resource-usage/#postman-api-usage). The number of Postman API calls you can make each month depends on your [Postman plan](https://www.postman.com/pricing/).
+Some Postman CLI commands use the [Postman API](/docs/developer/postman-api/intro-api/) to fetch data from and send data to Postman's servers. These commands count toward your monthly [Postman API usage](/docs/billing/resource-usage/#postman-api-usage). The number of Postman API calls you can make each month depends on your [Postman plan](https://www.postman.com/pricing/).
 
 The following Postman CLI commands make calls to the Postman API and count toward your Postman API usage:
 

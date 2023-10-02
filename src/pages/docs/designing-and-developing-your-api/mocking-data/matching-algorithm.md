@@ -1,5 +1,5 @@
 ---
-title: "Understanding example matching"
+title: "How a Postman mock server matches requests to saved examples"
 updated: 2022-09-26
 search_keyword: "x-mock-response-name, x-mock-response-id, x-mock-response-code, requestMethod, requestPath"
 ---
@@ -31,7 +31,7 @@ The incoming request can have several configurable variables, such as `requestMe
 
 Other optional headers like `x-mock-response-name` or `x-mock-response-id` enable you to further specify the example to be returned based on the name or the UID of the saved example. You can get the example UID by using the Postman API to [GET a Single Collection](https://documenter.getpostman.com/view/12959542/UV5XjJV8#a6a282df-907e-438b-8fe6-e5efaa60b8bf) and searching for your example in the response. The UID has the syntax `<user_id>-<response_id>`.
 
-<img alt="Mock request configurable elements" src="https://assets.postman.com/postman-docs/mock-configurable-elements-v9-19.jpg"/>
+<img alt="Mock request configurable elements" src="https://assets.postman.com/postman-docs/v10/mock-configurable-elements-v10.jpg"/>
 
 ## How the matching algorithm works
 

@@ -12,6 +12,9 @@ contextual_links:
   - type: link
     name: "Intro to Postman | Write API Tests"
     url: "https://youtu.be/EVg6gxeiUd0"
+  - type: link
+    name: "Advanced API testing: Best Practices and Automation Techniques | Postman Intergalactic"
+    url: "https://youtu.be/Ix6z1kBweuk"
   - type: subtitle
     name: "Blog posts"
   - type: link
@@ -75,7 +78,7 @@ This code uses the `pm` library to run the `test` method. The text string will a
 
 This test checks the response code returned by the API. If the response code is `200`, the test will pass, otherwise it will fail. Select **Send** and go to the **Test Results** tab in the response area.
 
-[![Test output](https://assets.postman.com/postman-docs/example-test-assertion-result-v9.jpg)](https://assets.postman.com/postman-docs/example-test-assertion-result-v9.jpg)
+![Test output](https://assets.postman.com/postman-docs/v10/example-test-assertion-result-v10-3.jpg)
 
 To learn what test results look like when they pass or fail, change the status code in the assertion code and send the request again.
 
@@ -400,7 +403,7 @@ pm.test("Check the active environment", () => {
 
 When you encounter errors or unexpected behavior in your test scripts, the Postman [Console](/docs/sending-requests/troubleshooting-api-requests/) can help you to identify the source. By combining `console.log()`, `console.info()`, `console.warn()` and `console.error()` debug statements with your test assertions, you can examine the content of the HTTP requests and responses, as well as Postman data items such as variables. You can also use the `console.clear()` method to clear information from the console. Select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** from the Postman footer to open it.
 
-[![Console info](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)
+![Console info](https://assets.postman.com/postman-docs/v10/console-logs-in-pane-v10.jpg)
 
 Log the value of a variable or response property:
 

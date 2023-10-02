@@ -1,5 +1,5 @@
 ---
-title: 'Adding elements to an API'
+title: "Add elements to an API in Postman"
 updated: 2023-03-15
 contextual_links:
   - type: section
@@ -49,7 +49,7 @@ To add an existing collection to your API, do the following:
 1. On the API's overview, next to **Collections**, select **+** and select **Copy existing collection**.
 1. Select an available collection and select **Copy Collection**.
 
-The copy of the collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View complete collection documentation**.
+The copy of the collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, select the collection and select **View complete documentation**.
 
 ### Generating a collection
 
@@ -61,7 +61,7 @@ To generate a new collection from your API definition, do the following:
 1. Change any settings to customize the new collection.
 1. Select **Generate Collection**.
 
-The collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View complete collection documentation**.
+The collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, select the collection and select **View complete documentation**.
 
 > You can also generate a collection when you import an API. For more information, see [importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
 
@@ -70,6 +70,8 @@ The collection displays on your API's overview and under your API in the sidebar
 When you [generate a collection](#generating-a-collection) from an API definition, Postman creates a collection with requests that match what's defined in the API. If you update the API definition, for example by adding a path, those changes won't be reflected in the generated collection.
 
 In this case, you could repeat the process of generating a collection from the API definition. However, this new collection wouldn't include any changes you might have made to the first collection you generated. For example, you might have added documentation content or endpoints for test setup that you want to keep. Instead, Postman can offer suggestions for updating the collection based on the changes to the API definition.
+
+> Collection update suggestions are supported for OpenAPI 3.0 and 3.1 definitions.
 
 ### Enabling collection update suggestions
 

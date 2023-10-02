@@ -1,5 +1,5 @@
 ---
-title: "GraphQL overview"
+title: "Use GraphQL queries in Postman"
 page_id: "graphql"
 updated: 2023-05-15
 contextual_links:
@@ -16,8 +16,14 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
+    name: "Building secure GraphQL APIs"
+    url: "https://blog.postman.com/building-secure-graphql-apis-at-ndc-oslo-conference/"
+  - type: link
     name: "Don’t Panic: A Developer’s Guide to Building Secure GraphQL APIs"
     url: "https://blog.postman.com/how-to-build-secure-graphql-apis/"
+  - type: link
+    name: "How to choose between REST vs. GraphQL vs. gRPC vs. SOAP"
+    url: "https://blog.postman.com/how-to-choose-between-rest-vs-graphql-vs-grpc-vs-soap/"
   - type: subtitle
     name: "Public workspaces"
   - type: link

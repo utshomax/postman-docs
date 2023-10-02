@@ -1,19 +1,19 @@
 [
   {
     "from": "/docs/postman-flows/flows-intro/chaining-requests-with-data/",
-    "to": "/docs/postman-flows/tutorials/passing-data-between-blocks/"
+    "to": "/docs/postman-flows/tutorials/send-information-from-one-system-to-another/"
   },
   {
     "from": "/docs/postman-flows/flows-intro/passing-data-between-blocks/",
-    "to": "/docs/postman-flows/tutorials/passing-data-between-blocks/"
+    "to": "/docs/postman-flows/tutorials/send-information-from-one-system-to-another/"
   },
   {
     "from": "/concepts/",
-    "to": "/docs/getting-started/introduction/"
+    "to": "/docs/introduction/overview/"
   },
   {
     "from": "/docs/",
-    "to": "/docs/getting-started/introduction/"
+    "to": "/docs/introduction/overview/"
   },
   {
     "from": "/docs/administration/",
@@ -21,11 +21,11 @@
   },
   {
     "from": "/docs/administration/migrating_to_v7/",
-    "to": "/docs/administration/updating/"
+    "to": "/docs/getting-started/installation/installation-and-updates/"
   },
   {
     "from": "/docs/administration/upgrading-to-v8/",
-    "to": "/docs/administration/updating/"
+    "to": "/docs/getting-started/installation/installation-and-updates/"
   },
   {
     "from": "/docs/administration/sso/",
@@ -85,11 +85,11 @@
   },
   {
     "from": "/docs/getting-started/",
-    "to": "/docs/getting-started/introduction/"
+    "to": "/docs/introduction/overview/"
   },
   {
     "from": "/docs/getting_started/",
-    "to": "/docs/getting-started/introduction/"
+    "to": "/docs/introduction/overview/"
   },
   {
     "from": "/docs/integrations/",
@@ -173,15 +173,15 @@
   },
   {
     "from": "/docs/postman-enterprise/audit-logs/",
-    "to": "/docs/administration/audit-logs/"
+    "to": "/docs/administration/managing-your-team/audit-logs/"
   },
   {
     "from": "/docs/postman-enterprise/intro-to-enterprise/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman-enterprise/purchasing-enterprise/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman-enterprise/sso/admin-sso/",
@@ -357,19 +357,19 @@
   },
   {
     "from": "/docs/postman-pro/managing-pro/billing-and-pricing/",
-    "to": "/docs/administration/billing/"
+    "to": "/docs/billing/billing/"
   },
   {
     "from": "/docs/postman-pro/managing-pro/billing/",
-    "to": "/docs/administration/billing/"
+    "to": "/docs/billing/billing/"
   },
   {
     "from": "/docs/postman-pro/managing-pro/buying/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman-pro/managing-pro/changing-your-plan/",
-    "to": "/docs/administration/billing/"
+    "to": "/docs/billing/billing/"
   },
   {
     "from": "/docs/postman-pro/managing-pro/inviting-and-managing/",
@@ -377,7 +377,7 @@
   },
   {
     "from": "/docs/postman-pro/managing-pro/managing-your-billing/",
-    "to": "/docs/administration/billing/"
+    "to": "/docs/billing/billing/"
   },
   {
     "from": "/docs/postman-pro/managing-pro/managing-your-team/",
@@ -385,11 +385,11 @@
   },
   {
     "from": "/docs/postman-pro/managing-pro/migrating-to-v7/",
-    "to": "/docs/administration/updating/"
+    "to": "/docs/getting-started/installation/installation-and-updates/"
   },
   {
     "from": "/docs/postman-pro/managing-pro/purchasing-pro/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman-pro/managing-pro/roles-and-permissions/",
@@ -397,15 +397,15 @@
   },
   {
     "from": "/docs/postman-pro/managing-pro/team-settings/",
-    "to": "/docs/administration/team-settings/"
+    "to": "/docs/administration/managing-your-team/team-settings/"
   },
   {
     "from": "/docs/postman-pro/managing-pro/upgrading-to-postman-pro-from-a-trial-team/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman-pro/what-is-pro/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman/api-documentation/adding-and-verifying-custom-domains/",
@@ -497,19 +497,23 @@
   },
   {
     "from": "/docs/postman/collaboration/adding-private-network/",
-    "to": "/docs/collaborating-in-postman/adding-private-network/"
+    "to": "/docs/collaborating-in-postman/private-api-network/adding-private-network/"
   },
   {
     "from": "/docs/postman/collaboration/adding_private_network/",
-    "to": "/docs/collaborating-in-postman/adding-private-network/"
+    "to": "/docs/collaborating-in-postman/private-api-network/adding-private-network/"
+  },
+  {
+    "from": "/docs/collaborating-in-postman/adding-private-network/",
+    "to": "/docs/collaborating-in-postman/private-api-network/adding-private-network/"
   },
   {
     "from": "/docs/postman/collaboration/audit-logs/",
-    "to": "/docs/administration/audit-logs/"
+    "to": "/docs/administration/managing-your-team/audit-logs/"
   },
   {
     "from": "/docs/postman/collaboration/audit_logs/",
-    "to": "/docs/administration/audit-logs/"
+    "to": "/docs/administration/managing-your-team/audit-logs/"
   },
   {
     "from": "/docs/postman/collaboration/collaboration-intro/",
@@ -545,11 +549,11 @@
   },
   {
     "from": "/docs/postman/collaboration/team-settings/",
-    "to": "/docs/administration/team-settings/"
+    "to": "/docs/administration/managing-your-team/team-settings/"
   },
   {
     "from": "/docs/postman/collaboration/team_settings/",
-    "to": "/docs/administration/team-settings/"
+    "to": "/docs/administration/managing-your-team/team-settings/"
   },
   {
     "from": "/docs/postman/collection-runs/building-workflows/",
@@ -557,7 +561,11 @@
   },
   {
     "from": "/docs/postman/collection-runs/command-line-integration-with-newman/",
-    "to": "/docs/collections/running-collections/using-newman-cli/command-line-integration-with-newman/"
+    "to": "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
+  },
+  {
+    "from": "/docs/collections/running-collections/using-newman-cli/command-line-integration-with-newman/",
+    "to": "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
   },
   {
     "from": "/docs/postman/collection-runs/debugging-a-collection-run/",
@@ -649,11 +657,11 @@
   },
   {
     "from": "/docs/postman/collections/commenting-on-collections/",
-    "to": "/docs/collaborating-in-postman/commenting-on-collections/"
+    "to": "/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/"
   },
   {
     "from": "/docs/postman/collections/commenting_on_collections/",
-    "to": "/docs/collaborating-in-postman/commenting-on-collections/"
+    "to": "/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/"
   },
   {
     "from": "/docs/postman/collections/creating-collections/",
@@ -665,11 +673,11 @@
   },
   {
     "from": "/docs/postman/collections/data-formats/",
-    "to": "/docs/getting-started/importing-and-exporting-data/"
+    "to": "/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/"
   },
   {
     "from": "/docs/postman/collections/data_formats/",
-    "to": "/docs/getting-started/importing-and-exporting-data/"
+    "to": "/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/"
   },
   {
     "from": "/docs/postman/collections/examples/",
@@ -677,11 +685,11 @@
   },
   {
     "from": "/docs/postman/collections/importing-and-exporting-data/",
-    "to": "/docs/getting-started/importing-and-exporting-data/"
+    "to": "/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/"
   },
   {
     "from": "/docs/postman/collections/importing_and_exporting_data/",
-    "to": "/docs/getting-started/importing-and-exporting-data/"
+    "to": "/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/"
   },
   {
     "from": "/docs/postman/collections/intro-to-collections/",
@@ -785,7 +793,7 @@
   },
   {
     "from": "/docs/postman/design-and-develop-apis/versioning-an-api/",
-    "to": "/docs/designing-and-developing-your-api/versioning-an-api/"
+    "to": "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
   },
   {
     "from": "/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/",
@@ -817,11 +825,11 @@
   },
   {
     "from": "/docs/postman/design_and_develop_apis/versioning_an_api/",
-    "to": "/docs/designing-and-developing-your-api/versioning-an-api/"
+    "to": "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
   },
   {
     "from": "/docs/collaborating-in-postman/versioning-an-api/",
-    "to": "/docs/designing-and-developing-your-api/versioning-an-api/"
+    "to": "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
   },
   {
     "from": "/docs/postman/design_and_develop_apis/view_and_analyze_api_reports/",
@@ -885,11 +893,11 @@
   },
   {
     "from": "/docs/postman/find-replace/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/find_replace/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/launching-postman/collaboration/",
@@ -897,47 +905,47 @@
   },
   {
     "from": "/docs/postman/launching-postman/creating-the-first-collection/",
-    "to": "/docs/getting-started/creating-the-first-collection/"
+    "to": "/docs/getting-started/first-steps/creating-the-first-collection/"
   },
   {
     "from": "/docs/postman/launching-postman/installation-and-updates/",
-    "to": "/docs/getting-started/installation-and-updates/"
+    "to": "/docs/getting-started/installation/installation-and-updates/"
   },
   {
     "from": "/docs/postman/launching-postman/introduction/",
-    "to": "/docs/getting-started/introduction/"
+    "to": "/docs/introduction/overview/"
   },
   {
     "from": "/docs/postman/launching-postman/keyboard-shortcuts/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/launching-postman/navigating-postman/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/launching-postman/newbutton/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/launching-postman/postman-account/",
-    "to": "/docs/getting-started/postman-account/"
+    "to": "/docs/getting-started/installation/postman-account/"
   },
   {
     "from": "/docs/postman/launching-postman/sending-the-first-request/",
-    "to": "/docs/getting-started/sending-the-first-request/"
+    "to": "/docs/getting-started/first-steps/sending-the-first-request/"
   },
   {
     "from": "/docs/postman/launching-postman/settings/",
-    "to": "/docs/getting-started/settings/"
+    "to": "/docs/getting-started/installation/settings/"
   },
   {
     "from": "/docs/postman/launching-postman/syncing/",
-    "to": "/docs/getting-started/syncing/"
+    "to": "/docs/getting-started/basics/syncing/"
   },
   {
     "from": "/docs/postman/launching-postman/troubleshooting-inapp/",
-    "to": "/docs/getting-started/troubleshooting-inapp/"
+    "to": "/docs/introduction/troubleshooting-inapp/"
   },
   {
     "from": "/docs/postman/launching_postman/collaboration/",
@@ -945,47 +953,47 @@
   },
   {
     "from": "/docs/postman/launching_postman/creating_the_first_collection/",
-    "to": "/docs/getting-started/creating-the-first-collection/"
+    "to": "/docs/getting-started/first-steps/creating-the-first-collection/"
   },
   {
     "from": "/docs/postman/launching_postman/installation_and_updates/",
-    "to": "/docs/getting-started/installation-and-updates/"
+    "to": "/docs/getting-started/installation/installation-and-updates/"
   },
   {
     "from": "/docs/postman/launching_postman/introduction/",
-    "to": "/docs/getting-started/introduction/"
+    "to": "/docs/introduction/overview/"
   },
   {
     "from": "/docs/postman/launching_postman/keyboard_shortcuts/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/launching_postman/navigating_postman/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/launching_postman/newbutton/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/launching_postman/postman_account/",
-    "to": "/docs/getting-started/postman-account/"
+    "to": "/docs/getting-started/installation/postman-account/"
   },
   {
     "from": "/docs/postman/launching_postman/sending_the_first_request/",
-    "to": "/docs/getting-started/sending-the-first-request/"
+    "to": "/docs/getting-started/first-steps/sending-the-first-request/"
   },
   {
     "from": "/docs/postman/launching_postman/settings/",
-    "to": "/docs/getting-started/settings/"
+    "to": "/docs/getting-started/installation/settings/"
   },
   {
     "from": "/docs/postman/launching_postman/syncing/",
-    "to": "/docs/getting-started/syncing/"
+    "to": "/docs/getting-started/basics/syncing/"
   },
   {
     "from": "/docs/postman/launching_postman/troubleshooting_inapp/",
-    "to": "/docs/getting-started/troubleshooting-inapp/"
+    "to": "/docs/introduction/troubleshooting-inapp/"
   },
   {
     "from": "/docs/postman/mock-servers/intro-to-mock-servers/",
@@ -1121,7 +1129,7 @@
   },
   {
     "from": "/docs/postman/postman_api/intro_api/",
-    "to": "/docs/developer/intro-api/"
+    "to": "/docs/developer/postman-api/intro-api/"
   },
   {
     "from": "/docs/postman/scripts/branching-and-looping/",
@@ -1181,7 +1189,7 @@
   },
   {
     "from": "/docs/postman/sending-api-requests/authorization/",
-    "to": "/docs/sending-requests/authorization/"
+    "to": "/docs/sending-requests/authorization/authorization/"
   },
   {
     "from": "/docs/postman/sending-api-requests/capturing-http-requests/",
@@ -1205,11 +1213,11 @@
   },
   {
     "from": "/docs/postman/sending-api-requests/graphql/",
-    "to": "/docs/sending-requests/graphql/graphql/"
+    "to": "/docs/sending-requests/graphql/graphql-overview/"
   },
   {
     "from": "/docs/postman/sending-api-requests/history/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/sending-api-requests/interceptor-extension/",
@@ -1225,7 +1233,7 @@
   },
   {
     "from": "/docs/postman/sending-api-requests/proxy/",
-    "to": "/docs/getting-started/proxy/"
+    "to": "/docs/getting-started/installation/proxy/"
   },
   {
     "from": "/docs/postman/sending-api-requests/requests/",
@@ -1249,11 +1257,11 @@
   },
   {
     "from": "/docs/postman/sending-api-requests/working-with-tabs/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/sending_api_requests/authorization/",
-    "to": "/docs/sending-requests/authorization/"
+    "to": "/docs/sending-requests/authorization/authorization/"
   },
   {
     "from": "/docs/postman/sending_api_requests/capturing_http_requests/",
@@ -1277,11 +1285,11 @@
   },
   {
     "from": "/docs/postman/sending_api_requests/graphql/",
-    "to": "/docs/sending-requests/graphql/graphql/"
+    "to": "/docs/sending-requests/graphql/graphql-overview/"
   },
   {
     "from": "/docs/postman/sending_api_requests/history/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/sending_api_requests/interceptor/",
@@ -1297,7 +1305,7 @@
   },
   {
     "from": "/docs/postman/sending_api_requests/proxy/",
-    "to": "/docs/getting-started/proxy/"
+    "to": "/docs/getting-started/installation/proxy/"
   },
   {
     "from": "/docs/postman/sending_api_requests/requests/",
@@ -1321,7 +1329,7 @@
   },
   {
     "from": "/docs/postman/sending_api_requests/working_with_tabs/",
-    "to": "/docs/getting-started/navigating-postman/"
+    "to": "/docs/getting-started/basics/navigating-postman/"
   },
   {
     "from": "/docs/postman/team-library/activity-feed-and-restoring-collections/",
@@ -1413,7 +1421,7 @@
   },
   {
     "from": "/docs/postman/workspaces/conflicts/",
-    "to": "/docs/collaborating-in-postman/using-workspaces/conflicts/"
+    "to": "/docs/getting-started/basics/syncing/"
   },
   {
     "from": "/docs/postman/workspaces/creating-workspaces/",
@@ -1457,15 +1465,15 @@
   },
   {
     "from": "/docs/postman_enterprise/audit_logs/",
-    "to": "/docs/administration/audit-logs/"
+    "to": "/docs/administration/managing-your-team/audit-logs/"
   },
   {
     "from": "/docs/postman_enterprise/intro_to_enterprise/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman_enterprise/purchasing_enterprise/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman_enterprise/sso/admin_sso/",
@@ -1481,27 +1489,27 @@
   },
   {
     "from": "/docs/postman_enterprise/sso/saml_duo/",
-    "to": "/docs/administration/sso/saml-duo/"
+    "to": "/docs/administration/sso/duo/"
   },
   {
     "from": "/docs/postman_enterprise/sso/saml_gsuite/",
-    "to": "/docs/administration/sso/saml-gsuite/"
+    "to": "/docs/administration/sso/google-workspace/"
   },
   {
     "from": "/docs/postman_enterprise/sso/saml_in_azure_ad/",
-    "to": "/docs/administration/sso/saml-in-azure-ad/"
+    "to": "/docs/administration/sso/azure-ad/"
   },
   {
     "from": "/docs/postman_enterprise/sso/saml_okta/",
-    "to": "/docs/administration/sso/saml-okta/"
+    "to": "/docs/administration/sso/okta/"
   },
   {
     "from": "/docs/postman_enterprise/sso/saml_onelogin/",
-    "to": "/docs/administration/sso/saml-onelogin/"
+    "to": "/docs/administration/sso/onelogin/"
   },
   {
     "from": "/docs/postman_enterprise/sso/saml_ping/",
-    "to": "/docs/administration/sso/saml-ping/"
+    "to": "/docs/administration/sso/ping-identity/"
   },
   {
     "from": "/docs/postman_enterprise/sso/user_sso/",
@@ -1517,15 +1525,15 @@
   },
   {
     "from": "/docs/postman_for_publishers/api_network/api_submission_guidelines/",
-    "to": "/docs/publishing-your-api/api-submission-guidelines/"
+    "to": "/docs/publishing-your-api/authoring-your-documentation/"
   },
   {
     "from": "/docs/postman_for_publishers/postman_templates/add_templates/",
-    "to": "/docs/publishing-your-api/add-templates/"
+    "to": "/docs/publishing-your-api/authoring-your-documentation/"
   },
   {
     "from": "/docs/postman_for_publishers/postman_templates/template_guidelines/",
-    "to": "/docs/publishing-your-api/api-submission-guidelines/"
+    "to": "/docs/publishing-your-api/authoring-your-documentation/"
   },
   {
     "from": "/docs/postman_for_publishers/public_api_docs/",
@@ -1625,7 +1633,7 @@
   },
   {
     "from": "/docs/postman_pro/integrations/microsoft_flow/",
-    "to": "/docs/integrations/available-integrations/microsoft-flow/"
+    "to": "/docs/integrations/available-integrations/microsoft-power-automate/"
   },
   {
     "from": "/docs/postman_pro/integrations/microsoft_teams/",
@@ -1641,7 +1649,7 @@
   },
   {
     "from": "/docs/postman_pro/integrations/victorops/",
-    "to": "/docs/integrations/available-integrations/victorops/"
+    "to": "/docs/integrations/available-integrations/splunk-on-call/"
   },
   {
     "from": "/docs/postman_pro/integrations/webhooks/",
@@ -1653,7 +1661,7 @@
   },
   {
     "from": "/docs/postman_pro/managing_postman_pro/migrating_to_v7/",
-    "to": "/docs/administration/updating/"
+    "to": "/docs/getting-started/installation/installation-and-updates/"
   },
   {
     "from": "/docs/postman_pro/managing_postman_pro/roles_and_permissions/",
@@ -1661,19 +1669,19 @@
   },
   {
     "from": "/docs/postman_pro/managing_pro/billing/",
-    "to": "/docs/administration/billing/"
+    "to": "/docs/billing/billing/"
   },
   {
     "from": "/docs/postman_pro/managing_pro/billing_and_pricing/",
-    "to": "/docs/administration/billing/"
+    "to": "/docs/billing/billing/"
   },
   {
     "from": "/docs/postman_pro/managing_pro/buying/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman_pro/managing_pro/changing_your_plan/",
-    "to": "/docs/administration/billing/"
+    "to": "/docs/billing/billing/"
   },
   {
     "from": "/docs/postman_pro/managing_pro/inviting_and_managing/",
@@ -1681,7 +1689,7 @@
   },
   {
     "from": "/docs/postman_pro/managing_pro/managing_your_billing/",
-    "to": "/docs/administration/billing/"
+    "to": "/docs/billing/billing/"
   },
   {
     "from": "/docs/postman_pro/managing_pro/managing_your_team/",
@@ -1689,11 +1697,11 @@
   },
   {
     "from": "/docs/postman_pro/managing_pro/migrating_to_v7/",
-    "to": "/docs/administration/updating/"
+    "to": "/docs/getting-started/installation/installation-and-updates/"
   },
   {
     "from": "/docs/postman_pro/managing_pro/purchasing_pro/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman_pro/managing_pro/roles_and_permissions/",
@@ -1701,15 +1709,15 @@
   },
   {
     "from": "/docs/postman_pro/managing_pro/team_settings/",
-    "to": "/docs/administration/team-settings/"
+    "to": "/docs/administration/managing-your-team/team-settings/"
   },
   {
     "from": "/docs/postman_pro/managing_pro/upgrading_to_postman_pro_from_a_trial_team/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman_pro/what_is_pro/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/publishing-your-api/",
@@ -1757,7 +1765,7 @@
   },
   {
     "from": "/docs/sending-requests/supported-api-frameworks/",
-    "to": "/docs/sending-requests/graphql/graphql/"
+    "to": "/docs/sending-requests/graphql/graphql-overview/"
   },
   {
     "from": "/docs/sending_and_viewing_responses/responses/",
@@ -1773,7 +1781,7 @@
   },
   {
     "from": "/docs/sending_requests/supported_api_frameworks/",
-    "to": "/docs/sending-requests/graphql/graphql/"
+    "to": "/docs/sending-requests/graphql/graphql-overview/"
   },
   {
     "from": "/docs/writing-scripts/",
@@ -1793,15 +1801,15 @@
   },
   {
     "from": "/getting-started/",
-    "to": "/docs/getting-started/introduction/"
+    "to": "/docs/introduction/overview/"
   },
   {
     "from": "/getting_started/",
-    "to": "/docs/getting-started/introduction/"
+    "to": "/docs/introduction/overview/"
   },
   {
     "from": "/qa/",
-    "to": "/docs/getting-started/introduction/"
+    "to": "/docs/introduction/overview/"
   },
   {
     "from": "/reference/",
@@ -1813,7 +1821,7 @@
   },
   {
     "from": "/docs/administration/migrating-to-v7/",
-    "to": "/docs/administration/updating/"
+    "to": "/docs/getting-started/installation/installation-and-updates/"
   },
   {
     "from": "/docs/administration/managing-your-team/",
@@ -1865,7 +1873,7 @@
   },
   {
     "from": "/docs/api-security/token-scanner/",
-    "to": "/docs/administration/token-scanner/"
+    "to": "/docs/administration/managing-your-team/secret-scanner/"
   },
   {
     "from": "/docs/api-governance/api-testing/",
@@ -1877,7 +1885,7 @@
   },
   {
     "from": "/docs/getting-started/importing-templates/",
-    "to": "/docs/getting-started/exploring-public-api-network/"
+    "to": "/docs/getting-started/first-steps/exploring-public-api-network/"
   },
   {
     "from": "/docs/designing-and-developing-your-api/monitoring-your-api/faqs-monitors/",
@@ -1913,7 +1921,7 @@
   },
   {
     "from": "/docs/sending-requests/authorization/#inheriting-auth",
-    "to": "/docs/sending-requests/authorization/#inheriting-authorization"
+    "to": "/docs/sending-requests/authorization/specifying-authorization-details/"
   },
   {
     "from": "/docs/monitoring-your-api/integrations-for-alerts/",
@@ -1929,7 +1937,7 @@
   },
   {
     "from": "/docs/sending-requests/capturing-request-data/proxy/",
-    "to": "/docs/getting-started/proxy/"
+    "to": "/docs/getting-started/installation/proxy/"
   },
   {
     "from": "/docs/administration/managing-your-team/configuring-scim/",
@@ -1969,7 +1977,7 @@
   },
   {
     "from": "/docs/administration/upgrading/",
-    "to": "/docs/administration/updating/"
+    "to": "/docs/getting-started/installation/installation-and-updates/"
   },
   {
     "from": "/docs/collaborating-in-postman/commenting-on-collections/",
@@ -1981,7 +1989,11 @@
   },
   {
     "from": "/docs/sending-requests/supported-api-frameworks/graphql/",
-    "to": "/docs/sending-requests/graphql/graphql/"
+    "to": "/docs/sending-requests/graphql/graphql-overview/"
+  },
+  {
+    "from": "/docs/sending-requests/graphql/graphql/",
+    "to": "/docs/sending-requests/graphql/graphql-overview/"
   },
   {
     "from": "/docs/sending-requests/supported-api-frameworks/websocket/",
@@ -2021,11 +2033,19 @@
   },
   {
     "from": "/docs/postman-flows/flows-intro/the-interface/",
-    "to": "/docs/postman-flows/gs/the-interface/"
+    "to": "/docs/postman-flows/gs/the-flows-interface/"
+  },
+  {
+    "from": "/docs/postman-flows/gs/the-interface/",
+    "to": "/docs/postman-flows/gs/the-flows-interface/"
   },
   {
     "from": "/docs/postman-flows/flows-intro/building-your-first-flow/",
-    "to": "/docs/postman-flows/tutorials/building-your-first-flow/"
+    "to": "/docs/postman-flows/tutorials/flows-tutorials-overview/"
+  },
+  {
+    "from": "/docs/postman-flows/tutorials/building-your-first-flow/",
+    "to": "/docs/postman-flows/tutorials/flows-tutorials-overview/"
   },
   {
     "from": "/docs/postman-flows/flows-intro/running-requests-in-sequence/",
@@ -2033,19 +2053,23 @@
   },
   {
     "from": "/docs/postman-flows/flows-intro/passing-data-between-blocks/",
-    "to": "/docs/postman-flows/tutorials/passing-data-between-blocks/"
+    "to": "/docs/postman-flows/tutorials/send-information-from-one-system-to-another/"
+  },
+  {
+    "from": "/docs/postman-flows/tutorials/passing-data-between-blocks/",
+    "to": "/docs/postman-flows/tutorials/send-information-from-one-system-to-another/"
   },
   {
     "from": "/docs/postman-flows/flows-intro/using-auth-with-flows/",
-    "to": "/docs/postman-flows/tutorials/using-auth-with-flows/"
+    "to": "/docs/postman-flows/concepts/adding-authentication/"
   },
   {
     "from": "/docs/postman-flows/core-concepts/blocks/",
-    "to": "/docs/postman-flows/flows-intro/flows-overview/"
+    "to": "/docs/postman-flows/gs/flows-overview/"
   },
   {
     "from": "/docs/postman-flows/core-concepts/messages/",
-    "to": "/docs/postman-flows/flows-intro/flows-overview/"
+    "to": "/docs/postman-flows/gs/flows-overview/"
   },
   {
     "from": "/docs/postman-flows/core-concepts/blocks-list/",
@@ -2053,11 +2077,11 @@
   },
   {
     "from": "/docs/postman-flows/core-concepts/data-types/",
-    "to": "/docs/postman-flows/reference/data-types/"
+    "to": "/docs/postman-flows/reference/blocks-list/"
   },
   {
     "from": "/docs/postman-flows/running-flows-on-the-cloud/webhooks/",
-    "to": "/docs/postman-flows/tutorials/webhooks/"
+    "to": "/docs/postman-flows/concepts/automatic-runs/"
   },
   {
     "from": "/docs/getting-started/introduction/",
@@ -2141,18 +2165,202 @@
   },
   {
     "from": "/docs/postman/launching_postman/installation_and_updates/%E3%80%82",
-    "to": "/docs/getting-started/installation-and-updates/"
+    "to": "/docs/getting-started/installation/installation-and-updates/"
   },
   {
     "from": "/docs/collaborating-in-postman/using-workspaces/conflicts/",
-    "to": "/docs/getting-started/syncing/"
+    "to": "/docs/getting-started/basics/syncing/"
   },
   {
     "from": "/docs/getting-started/using-offline-api-client/",
-    "to": "/docs/getting-started/using-api-client/"
+    "to": "/docs/getting-started/basics/using-api-client/"
   },
   {
     "from": "/docs/collaborating-in-postman/requesting-access-to-collections/",
     "to": "/docs/collaborating-in-postman/requesting-access-to-elements/"
+  },
+  {
+    "from": "/docs/sending-requests/authorization/",
+    "to": "/docs/sending-requests/authorization/authorization/"
+  },
+  {
+    "from": "/docs/monitoring-your-api/uptime-monitors/",
+    "to": "/docs/monitoring-your-api/intro-monitors/"
+  },
+  {
+    "from": "/docs/administration/managing-your-team/user-groups/",
+    "to": "/docs/collaborating-in-postman/user-groups/"
+  },
+  {
+    "from": "/docs/reports/summary-reports/",
+    "to": "/docs/reports/reports-overview/"
+  },
+  {
+    "from": "/docs/reports/team-details-reports/",
+    "to": "/docs/reports/reports-overview/"
+  },
+  {
+    "from": "/docs/reports/all-apis-reports/",
+    "to": "/docs/reports/reports-overview/"
+  },
+  {
+    "from": "/docs/reports/api-governance-reports/",
+    "to": "/docs/reports/api-gov-reports/"
+  },
+  {
+    "from": "/docs/reports/all-workspaces-reports/",
+    "to": "/docs/reports/reports-overview/"
+  },
+  {
+    "from": "/docs/postman-flows/tutorials/creating-charts-tables-and-output/",
+    "to": "/docs/postman-flows/reference/visualizing-data/"
+  },
+  {
+    "from": "/docs/postman-flows/tutorials/visualizing-data/",
+    "to": "/docs/postman-flows/reference/visualizing-data/"
+  },
+  {
+    "from": "/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/",
+    "to": "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
+  },
+  {
+    "from": "/docs/getting-started/importing-and-exporting-data/",
+    "to": "/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/"
+  },
+  {
+    "from": "/docs/getting-started/troubleshooting-inapp/",
+    "to": "/docs/introduction/troubleshooting-inapp/"
+  },
+  {
+    "from": "/docs/getting-started/sending-the-first-request/",
+    "to": "/docs/getting-started/first-steps/sending-the-first-request/"
+  },
+  {
+    "from": "/docs/getting-started/creating-the-first-collection/",
+    "to": "/docs/getting-started/first-steps/creating-the-first-collection/"
+  },
+  {
+    "from": "/docs/getting-started/exploring-public-api-network/",
+    "to": "/docs/getting-started/first-steps/exploring-public-api-network/"
+  },
+  {
+    "from": "/docs/getting-started/creating-your-first-workspace/",
+    "to": "/docs/getting-started/first-steps/creating-your-first-workspace/"
+  },
+  {
+    "from": "/docs/getting-started/navigating-postman/",
+    "to": "/docs/getting-started/basics/navigating-postman/"
+  },
+  {
+    "from": "/docs/getting-started/about-postman-agent/",
+    "to": "/docs/getting-started/basics/about-postman-agent/"
+  },
+  {
+    "from": "/docs/getting-started/about-postbot/",
+    "to": "/docs/getting-started/basics/about-postbot/"
+  },
+  {
+    "from": "/docs/getting-started/about-vs-code-extension/",
+    "to": "/docs/getting-started/basics/about-vs-code-extension/"
+  },
+  {
+    "from": "/docs/getting-started/syncing/",
+    "to": "/docs/getting-started/basics/syncing/"
+  },
+  {
+    "from": "/docs/getting-started/using-api-client/",
+    "to": "/docs/getting-started/basics/using-api-client/"
+  },
+  {
+    "from": "/docs/getting-started/using-scratch-pad/",
+    "to": "/docs/getting-started/basics/using-scratch-pad/"
+  },
+  {
+    "from": "/docs/getting-started/installation-and-updates/",
+    "to": "/docs/getting-started/installation/installation-and-updates/"
+  },
+  {
+    "from": "/docs/getting-started/settings/",
+    "to": "/docs/getting-started/installation/settings/"
+  },
+  {
+    "from": "/docs/getting-started/postman-account/",
+    "to": "/docs/getting-started/installation/postman-account/"
+  },
+  {
+    "from": "/docs/getting-started/postman-profile/",
+    "to": "/docs/getting-started/installation/postman-profile/"
+  },
+  {
+    "from": "/docs/getting-started/proxy/",
+    "to": "/docs/getting-started/installation/proxy/"
+  },
+  {
+    "from": "/docs/postman-flows/gs/blocks-information/",
+    "to": "/docs/postman-flows/reference/blocks-list/"
+  },
+  {
+    "from": "/docs/postman-flows/reference/data-types/",
+    "to": "/docs/postman-flows/reference/blocks-list/"
+  },
+  {
+    "from": "/docs/postman-flows/tutorials/top-level-array/",
+    "to": "/docs/postman-flows/tutorials/flows-tutorials-overview/"
+  },
+  {
+    "from": "/docs/postman-flows/tutorials/using-auth-with-flows/",
+    "to": "/docs/postman-flows/concepts/adding-authentication/"
+  },
+  {
+    "from": "/docs/postman-flows/tutorials/using-response-data-in-a-request",
+    "to": "/docs/postman-flows/tutorials/flows-tutorials-overview/"
+  },
+  {
+    "from": "/docs/postman-flows/tutorials/webhooks/",
+    "to": "/docs/postman-flows/concepts/automatic-runs/"
+  },
+  {
+    "from": "/docs/administration/token-scanner/",
+    "to": "/docs/administration/managing-your-team/secret-scanner/"
+  },
+  {
+    "from": "/docs/administration/managing-your-team/configuring-domain-capture/",
+    "to": "/docs/administration/configuring-domain-capture/"
+  },
+  {
+    "from": "/docs/administration/team-settings/",
+    "to": "/docs/administration/managing-your-team/team-settings/"
+  },
+  {
+    "from": "/docs/administration/managing-api-keys/",
+    "to": "/docs/administration/managing-your-team/managing-api-keys/"
+  },
+  {
+    "from": "/docs/administration/secret-scanner/",
+    "to": "/docs/administration/managing-your-team/secret-scanner/"
+  },
+  {
+    "from": "/docs/administration/audit-logs/",
+    "to": "/docs/administration/managing-your-team/audit-logs/"
+  },
+  {
+    "from": "/docs/administration/about-postman-enterprise/",
+    "to": "/docs/administration/enterprise/about-postman-enterprise/"
+  },
+  {
+    "from": "/docs/administration/managing-enterprise-deployment/",
+    "to": "/docs/administration/enterprise/managing-enterprise-deployment/"
+  },
+  { 
+    "from": "/docs/administration/billing/",
+    "to": "/docs/billing/billing/"
+  },
+  { 
+    "from": "/docs/administration/buying/",
+    "to": "/docs/billing/buying/"
+  },
+  { 
+    "from": "/docs/administration/resource-usage/",
+    "to": "/docs/billing/resource-usage/"
   }
 ]

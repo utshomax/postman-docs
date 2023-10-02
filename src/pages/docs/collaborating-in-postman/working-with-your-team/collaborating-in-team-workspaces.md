@@ -1,6 +1,6 @@
 ---
-title: "Collaborating in team workspaces"
-updated: 2022-06-15
+title: "Collaborate in team workspaces"
+updated: 2023-07-31
 page_id: "collaborating_in_team_workspaces"
 warning: false
 contextual_links:
@@ -14,6 +14,9 @@ contextual_links:
   - type: link
     name: "Postman Intergalactic | Working with Your Team in Postman"
     url: "https://youtu.be/OifhKJCd_-M"
+  - type: link
+    name: "Collaboration & Documentation | Postman Enterprise"
+    url: "https://youtu.be/u1yEOo0dPfk"
   - type: subtitle
     name: "Blog posts"
   - type: link
@@ -24,7 +27,7 @@ contextual_links:
     url: "https://blog.postman.com/get-more-out-of-postman-by-collaborating-with-your-team/"
 ---
 
-You can use team workspaces to work together on APIs, collections, environments, integrations, mocks, and monitors. Team workspaces can act as a single source of truth for your API projects and encourage collaboration within your team.
+You can use team workspaces to work together on APIs, collections, environments, integrations, mocks, monitors, and Flows. Team workspaces can act as a single source of truth for your API projects and encourage collaboration within your team.
 
 [Postman Professional and Enterprise teams](https://www.postman.com/pricing) can also create [private workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). A private workspace is a team workspace that's only visible to the user who created it and team members who have been invited to join it. Private workspaces allow teams to restrict access to elements that are relevant only to a particular group.
 
@@ -48,9 +51,9 @@ You can invite team members to join a [new](/docs/collaborating-in-postman/using
 
 ## Moving elements to team workspaces
 
-You can move collections, APIs, and environments to shared workspaces to collaborate with your team.
+You can move collections, APIs, environments, and Flows to shared workspaces to collaborate with your team.
 
-> You must be an Editor on a collection, API, or environment, the Workspace Admin, or a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to move an element to another workspace.
+> You must be an Editor on a collection, API, environment, or Flow, the Workspace Admin, or a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to move an element to another workspace.
 
 In the sidebar, select the element you want to share, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
@@ -64,11 +67,11 @@ You can share elements to personal, private, team, and public workspaces that yo
 
 > Refer to [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) for information on workspace access control within your team.
 
-Select the workspace, then **Move** (**Collection**, **API**, or **Environment**).
+Select the workspace, then **Move** (**Collection**, **API**, **Environment**, or **Flow**).
 
 <img alt="Move API" src="https://assets.postman.com/postman-docs/move-api-v9.1.jpg" width="400px"/>
 
-Note that items related to what you're moving won't move with the element automatically:
+Note that items related to what you're moving won't move automatically with the following elements:
 
 * **Collections** - Monitors will pause and stay in the current workspace.
 
