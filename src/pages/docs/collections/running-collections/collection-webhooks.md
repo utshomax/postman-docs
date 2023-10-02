@@ -1,5 +1,5 @@
 ---
-title: "Triggering runs with webhooks"
+title: "Trigger collection runs using webhooks"
 order: 92
 page_id: "collection_webhooks"
 updated: 2023-05-31

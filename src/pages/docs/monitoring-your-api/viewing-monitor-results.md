@@ -1,5 +1,5 @@
 ---
-title: "Viewing collection-based monitor results"
+title: "View collection-based monitor results"
 order: 90
 page_id: "viewing_monitor_results"
 updated: 2022-07-05

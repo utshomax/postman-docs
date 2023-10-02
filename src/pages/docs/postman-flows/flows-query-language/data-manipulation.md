@@ -1,5 +1,5 @@
 ---
-title: "Manipulate data"
+title: "Manipulate data in FQL"
 updated: 2023-03-29
 contextual_links:
   - type: section

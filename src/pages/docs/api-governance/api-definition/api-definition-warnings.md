@@ -1,5 +1,5 @@
 ---
-title: "Rule violations in the API definition"
+title: "Track governance and security rule violations in the API definition"
 updated: 2022-07-20
 contextual_links:
   - type: section

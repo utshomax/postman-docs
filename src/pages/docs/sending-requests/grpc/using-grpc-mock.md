@@ -1,5 +1,5 @@
 ---
-title: "Using gRPC mock servers"
+title: "Create and use gRPC mock servers"
 updated: 2022-09-15
 contextual_links:
   - type: section

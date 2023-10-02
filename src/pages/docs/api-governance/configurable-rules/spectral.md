@@ -1,5 +1,5 @@
 ---
-title: "Using Spectral in Postman"
+title: "Define custom governance rules using Spectral"
 updated: 2022-09-15
 contextual_links:
   - type: section

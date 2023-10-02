@@ -1,5 +1,5 @@
 ---
-title: "Working with service definitions"
+title: "Manage service definitions for gRPC requests in Postman"
 warning: false
 updated: 2022-09-15
 contextual_links:

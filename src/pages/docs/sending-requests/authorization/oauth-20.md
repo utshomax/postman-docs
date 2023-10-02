@@ -1,5 +1,5 @@
 ---
-title: "OAuth 2.0"
+title: "Authenticate with OAuth 2.0 authentication in Postman"
 updated: 2022-12-12
 contextual_links:
   - type: section
