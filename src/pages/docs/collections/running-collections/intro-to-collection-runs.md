@@ -1,6 +1,6 @@
 ---
 title: "Using the Collection Runner"
-updated: 2023-06-15
+updated: 2023-10-16
 search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
   - type: section
@@ -36,6 +36,7 @@ You can configure the Collection Runner to meet your development needs. You can 
 
 * [Configuring a collection run](#configuring-a-collection-run)
 * [Debugging run results](#debugging-run-results)
+    * [Running the collection again](#running-the-collection-again)
 * [Viewing run history](#viewing-run-history)
 * [Sharing collection runs](#sharing-collection-runs)
 * [Automating collection runs](#automating-collection-runs)
@@ -111,6 +112,20 @@ To learn more about what happened during the collection run, do any of the follo
 
 ![Collection Runner summary](https://assets.postman.com/postman-docs/v10/collection-run-summary-v10-12.jpg)
 
+### Running the collection again
+
+After reviewing the results of the collection run, you can run the collection again. For example, you can edit the code for a failed test and run the collection again to check if the test succeeds.
+
+To run the collection again, do one of the following:
+
+* Select **Run Again** to run the collection again using the same settings.
+* Select **+ New Run** to configure a new run for the collection. Make changes to any settings, and then select **Run (collection name)** to run the collection again.
+* Select **Automate Run** to automate runs for the collection. You can [schedule a run](/docs/collections/running-collections/scheduling-collection-runs/), [run using the Postman CLI](/docs/postman-cli/postman-cli-run-collection/#running-a-collection-locally-with-the-postman-cli), or [integrate runs with your CI/CD pipeline](/docs/postman-cli/postman-cli-run-collection/#running-a-collection-in-cicd).
+
+> If you changed the selection and order of requests to run, the custom order isn't saved if you close or refresh the **Runner** tab or quit Postman.
+>
+> To run the collection again using your custom order, select **View all runs** to [view past runs](#viewing-past-runs) for the collection. Select the view report icon <img alt="View report icon" src="https://assets.postman.com/postman-docs/v10/icon-view-report.jpg#icon" width="16px"> next to a run to open the collection run results. From here you can select **Run Again** to run the collection again using the same settings.
+
 ## Viewing run history
 
 Each collection has a **Runs** tab you can use to view past runs, scheduled runs, and performance runs. You can also view details such as test counts and average response times.
@@ -130,8 +145,8 @@ The following are displayed for each collection run:
 
 Hover over an item to show the following controls:
 
-* **View report** - Select to open the full results for the collection run. Learn more about [debugging run results](#debugging-run-results).
-* **Share** - Select to share the results with another team member. This provides a link you can give to other team members so they can view details of this run. Note that this doesn't work in personal workspaces.
+* <img alt="View report icon" src="https://assets.postman.com/postman-docs/v10/icon-view-report.jpg#icon" width="16px"> **View Report** - Select to open the full results for the collection run. Learn more about [debugging run results](#debugging-run-results).
+* <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share** - Select to share the results with another team member. This provides a link you can give to other team members so they can view details of this run. Note that this doesn't work in personal workspaces.
 
 ### Viewing scheduled runs
 
