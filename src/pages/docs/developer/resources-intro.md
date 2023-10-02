@@ -1,5 +1,5 @@
 ---
-title: "Develop with Postman utilities"
+title: "Postman developer resources"
 updated: 2023-06-23
 contextual_links:
   - type: section
