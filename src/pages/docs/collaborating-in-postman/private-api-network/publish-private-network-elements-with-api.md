@@ -1,5 +1,5 @@
 ---
-title: "Publishing Private API Network elements with the Postman API"
+title: "Automate publishing to the Private API Network using the Postman API"
 updated: 2023-08-02
 contextual_links:
   - type: section

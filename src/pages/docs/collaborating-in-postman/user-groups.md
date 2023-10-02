@@ -1,5 +1,5 @@
 ---
-title: "Managing user groups"
+title: "Organize users into Postman groups"
 updated: 2023-06-15
 contextual_links:
   - type: section

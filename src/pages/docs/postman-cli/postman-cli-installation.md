@@ -1,5 +1,5 @@
 ---
-title: "Installing the Postman CLI"
+title: "Install the Postman CLI"
 updated: 2022-10-20
 warning: false
 ---

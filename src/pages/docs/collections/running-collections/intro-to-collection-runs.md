@@ -1,5 +1,5 @@
 ---
-title: "Using the Collection Runner"
+title: "Test your API using the Collection Runner"
 updated: 2023-10-16
 search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:

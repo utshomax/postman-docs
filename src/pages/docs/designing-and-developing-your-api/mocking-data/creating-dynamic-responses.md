@@ -1,5 +1,5 @@
 ---
-title: "Creating dynamic mock responses"
+title: "Generate mock responses using variables and templates"
 updated: 2022-11-11
 contextual_links:
   - type: section

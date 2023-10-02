@@ -1,5 +1,5 @@
 ---
-title: "Build a Slack bot with Postman Flows"
+title: "Build a Slack bot using Postman Flows"
 updated: 2023-08-07
 contextual_links:
   - type: section

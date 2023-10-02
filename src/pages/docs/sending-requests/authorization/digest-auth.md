@@ -1,5 +1,5 @@
 ---
-title: "Digest auth"
+title: "Authenticate with Digest access authentication in Postman"
 updated: 2023-05-26
 contextual_links:
   - type: section

@@ -1,5 +1,5 @@
 ---
-title: "Using a cloud-hosted Git repository"
+title: "Connect your API to a cloud-hosted Git repository"
 updated: 2023-09-15
 contextual_links:
   - type: section

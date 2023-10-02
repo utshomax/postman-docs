@@ -1,5 +1,5 @@
 ---
-title: "Writing pre-request scripts"
+title: "Write pre-request scripts"
 order: 42
 updated: 2022-07-20
 page_id: "pre_request_scripts"

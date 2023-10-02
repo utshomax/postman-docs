@@ -1,5 +1,5 @@
 ---
-title: "CI with Postman API"
+title: "Access Postman collections in your CI environment using Newman"
 updated: 2022-05-23
 contextual_links:
   - type: section

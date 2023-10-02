@@ -1,5 +1,5 @@
 ---
-title: "Using the Scratch Pad"
+title: "Build and send requests offline using the Scratch Pad"
 page_id: "using-the-scratch-pad"
 updated: 2023-09-15
 contextual_links:
