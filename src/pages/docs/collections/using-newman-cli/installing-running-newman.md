@@ -1,5 +1,5 @@
 ---
-title: "Install Newman and run it with your collection"
+title: "Install and run Newman"
 updated: 2022-05-23
 contextual_links:
   - type: section
