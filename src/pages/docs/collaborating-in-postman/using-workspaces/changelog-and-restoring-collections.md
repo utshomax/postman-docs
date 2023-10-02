@@ -1,5 +1,5 @@
 ---
-title: "Review API development changelogs in Postman"
+title: "View API development changelogs and team activity in Postman"
 updated: 2023-05-30
 contextual_links:
   - type: section

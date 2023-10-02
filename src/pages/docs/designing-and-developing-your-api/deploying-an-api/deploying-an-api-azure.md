@@ -1,5 +1,5 @@
 ---
-title: "Manage API deployments in Azure API Management"
+title: "Manage API deployments to Azure API Management in Postman"
 updated: 2022-09-15
 search_keyword: "deploy, azure, api management"
 warning: false

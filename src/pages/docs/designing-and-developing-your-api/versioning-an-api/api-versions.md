@@ -1,5 +1,5 @@
 ---
-title: "Share the current state of your API"
+title: "Publish a version of your API for consumers"
 updated: 2022-09-15
 contextual_links:
   - type: section

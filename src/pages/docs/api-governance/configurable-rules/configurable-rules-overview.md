@@ -1,5 +1,5 @@
 ---
-title: "Options to configure API governance and security rules in Postman"
+title: "Enforce API governance and security rules for your team in Postman"
 updated: 2023-03-06
 contextual_links:
   - type: section

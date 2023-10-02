@@ -1,5 +1,5 @@
 ---
-title: "Enabling team discovery in Postman"
+title: "Enable team discovery in Postman"
 updated: 2023-09-25
 contextual_links:
   - type: section

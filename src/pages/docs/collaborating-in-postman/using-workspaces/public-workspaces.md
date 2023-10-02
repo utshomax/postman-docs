@@ -1,5 +1,5 @@
 ---
-title: "Collaborate with the Postman community"
+title: "Collaborate with the Postman community using public workspaces"
 order: 76
 page_id: "public_workspaces"
 updated: 2023-07-15
