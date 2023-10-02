@@ -1,5 +1,5 @@
 ---
-title: "Connect your API to an on-prem Git repository"
+title: "Connect your API to an on-premises Git repository"
 updated: 2023-09-15
 search_keyword: "whitelist, whitelist IP"
 contextual_links:
