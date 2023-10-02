@@ -1,5 +1,5 @@
 ---
-title: "gRPC test examples"
+title: "Write tests for gRPC requests using JavaScript assertions in Postman"
 updated: 2022-09-15
 contextual_links:
   - type: section

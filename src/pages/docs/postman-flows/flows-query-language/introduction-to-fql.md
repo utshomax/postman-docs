@@ -1,5 +1,5 @@
 ---
-title: "Introduction to FQL"
+title: "Introduction to Flows Query Language"
 updated: 2022-11-17
 contextual_links:
   - type: section

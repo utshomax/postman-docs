@@ -1,5 +1,5 @@
 ---
-title: "About authorization types"
+title: "Authorization types supported by Postman"
 updated: 2023-05-26
 contextual_links:
   - type: section

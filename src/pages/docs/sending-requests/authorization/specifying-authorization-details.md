@@ -1,5 +1,5 @@
 ---
-title: "Specifying authorization details"
+title: "Specify API authentication details"
 updated: 2023-05-26
 contextual_links:
   - type: section

@@ -1,5 +1,5 @@
 ---
-title: "Specifying examples"
+title: "Create examples of request responses to illustrate API use cases"
 updated: 2023-02-13
 contextual_links:
   - type: section

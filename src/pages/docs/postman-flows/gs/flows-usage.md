@@ -1,5 +1,5 @@
 ---
-title: "Managing Flows usage"
+title: "Manage your team’s usage of Postman Flows"
 updated: 2023-09-15
 ---
 

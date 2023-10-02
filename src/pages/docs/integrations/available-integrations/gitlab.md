@@ -1,5 +1,5 @@
 ---
-title: "GitLab"
+title: "Integrate Postman with GitLab"
 order: 169
 page_id: "gitlab"
 updated: 2021-11-15

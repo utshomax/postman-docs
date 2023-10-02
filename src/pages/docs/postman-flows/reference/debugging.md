@@ -1,5 +1,5 @@
 ---
-title: "Debug Flows"
+title: "Debug Postman Flows"
 updated: 2023-08-15
 ---
 

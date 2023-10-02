@@ -1,5 +1,5 @@
 ---
-title: "Newman command options"
+title: "Customize a collection run using Newman command options"
 updated: 2022-05-23
 contextual_links:
   - type: section

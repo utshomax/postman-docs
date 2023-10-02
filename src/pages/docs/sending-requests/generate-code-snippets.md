@@ -1,5 +1,5 @@
 ---
-title: "Generating client code"
+title: "Generate code snippets from API requests"
 order: 29.1
 updated: 2022-07-18
 page_id: "generate_code_snippets"
