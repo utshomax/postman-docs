@@ -1,5 +1,5 @@
 ---
-title: "Configure a Postman mock server"
+title: "Configure and use a Postman mock server"
 updated: 2022-10-17
 contextual_links:
   - type: section

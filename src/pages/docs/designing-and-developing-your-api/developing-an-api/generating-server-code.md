@@ -1,5 +1,5 @@
 ---
-title: "Generate server-side boilerplate from your OpenAPI 3 definition"
+title: "Generate server-side code from your OpenAPI 3.0 definition"
 updated: 2022-09-15
 contextual_links:
   - type: section
