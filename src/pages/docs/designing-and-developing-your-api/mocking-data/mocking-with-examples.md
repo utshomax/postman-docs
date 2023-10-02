@@ -1,5 +1,5 @@
 ---
-title: "Mocking with examples"
+title: "Mock your API using saved response examples"
 order: 85
 page_id: "mocking_with_examples"
 updated: 2021-11-10

@@ -1,5 +1,5 @@
 ---
-title: "Slack"
+title: "Integrate Postman with Slack"
 updated: 2022-05-26
 contextual_links:
   - type: section

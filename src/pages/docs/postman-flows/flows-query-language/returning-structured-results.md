@@ -1,5 +1,5 @@
 ---
-title: "Return structured data"
+title: "Return structured data in FQL"
 updated: 2023-03-29
 contextual_links:
   - type: section

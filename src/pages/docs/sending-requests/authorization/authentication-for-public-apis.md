@@ -1,5 +1,5 @@
 ---
-title: "Authentication for public APIs"
+title: "Set up authorization for public APIs in Postman"
 updated: 2023-05-30
 contextual_links:
   - type: section

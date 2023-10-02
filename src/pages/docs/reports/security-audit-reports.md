@@ -1,5 +1,5 @@
 ---
-title: "Secret Scanner report"
+title: "View reports about detected, unresolved, and resolved secrets"
 updated: 2023-09-15
 ---
 

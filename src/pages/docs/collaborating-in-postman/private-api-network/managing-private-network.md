@@ -1,5 +1,5 @@
 ---
-title: "Managing your Private API Network"
+title: "Manage folders and elements in the Private API Network"
 updated: 2023-09-15
 contextual_links:
   - type: section

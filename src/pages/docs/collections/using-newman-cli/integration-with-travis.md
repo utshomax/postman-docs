@@ -1,5 +1,5 @@
 ---
-title: "Integrating with Travis CI"
+title: "Integrate your Postman tests with Travis CI using Newman"
 order: 63
 page_id: "integration_with_travis"
 updated: 2022-1-14

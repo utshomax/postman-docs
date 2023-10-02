@@ -1,5 +1,5 @@
 ---
-title: Running monitors using static IPs
+title: "Configure Postman Monitors to run from static IPs"
 order: 93
 page_id: "using_static_IPs_to_monitor"
 search_keyword: "whitelist, whitelist IP"

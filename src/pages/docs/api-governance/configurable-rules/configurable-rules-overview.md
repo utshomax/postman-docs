@@ -1,5 +1,5 @@
 ---
-title: "Configurable rules overview"
+title: "Enforce API governance and security rules for your team in Postman"
 updated: 2023-03-06
 contextual_links:
   - type: section

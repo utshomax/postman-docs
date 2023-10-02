@@ -1,5 +1,5 @@
 ---
-title: "Managing changes using Git"
+title: "Use Postman to push and pull API changes from your Git repository"
 updated: 2023-09-15
 contextual_links:
   - type: section
