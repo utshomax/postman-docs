@@ -1,5 +1,5 @@
 ---
-title: "Postman API authentication"
+title: "Generate and use Postman API keys"
 updated: 2023-06-15
 search_keyword: "postman api key, collection access key, postman api"
 contextual_links:

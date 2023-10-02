@@ -1,5 +1,5 @@
 ---
-title: "Syncing APIs with your public workspace"
+title: "Keep APIs in sync between your public workspace and your repository"
 updated: 2023-03-30
 ---
 

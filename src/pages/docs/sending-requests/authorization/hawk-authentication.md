@@ -1,5 +1,5 @@
 ---
-title: "Hawk authentication"
+title: "Authenticate with Hawk access authentication in Postman"
 updated: 2022-12-12
 contextual_links:
   - type: section

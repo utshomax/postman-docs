@@ -1,5 +1,5 @@
 ---
-title: "Run requests in sequence"
+title: "Run requests in sequence using Postman Flows"
 updated: 2023-08-15
 contextual_links:
   - type: section

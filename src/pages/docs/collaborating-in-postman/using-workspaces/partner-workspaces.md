@@ -1,5 +1,5 @@
 ---
-title: "Partner Workspaces"
+title: "Collaborate with external partners in Postman using Partner Workspaces"
 updated: 2023-03-02
 contextual_links:
   - type: section

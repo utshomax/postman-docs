@@ -1,5 +1,5 @@
 ---
-title: "Organizing your Private API Network"
+title: "Add elements to your Private API Network"
 updated: 2023-09-15
 contextual_links:
   - type: section

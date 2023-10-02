@@ -1,5 +1,5 @@
 ---
-title: "OpenAPI"
+title: "Integrate Postman with OpenAPI"
 updated: 2023-09-26
 contextual_links:
   - type: section

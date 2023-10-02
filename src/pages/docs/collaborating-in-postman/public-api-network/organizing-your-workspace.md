@@ -1,5 +1,5 @@
 ---
-title: "Organizing your public workspace"
+title: "Prepare your public workspaces for the Public API Network"
 updated: 2023-03-30
 contextual_links:
   - type: section

@@ -1,5 +1,5 @@
 ---
-title: "CI integrations"
+title: "Integrate CI tools in Postman"
 updated: 2022-09-15
 warning: false
 contextual_links:

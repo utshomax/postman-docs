@@ -1,6 +1,6 @@
 ---
-title: "Newman command options"
-updated: 2023-10-04
+title: "Customize a collection run using Newman command options"
+updated: 2022-05-23
 contextual_links:
   - type: section
     name: "Additional resources"
