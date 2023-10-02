@@ -26,6 +26,11 @@ contextual_links:
   - type: link
     name: "Focus on the work that matters with sidebar configurations"
     url: "https://blog.postman.com/focus-on-the-work-that-matters-with-sidebar-configurations/"
+  - type: subtitle
+    name: "Postman Academy"
+  - type: link
+    name: "Getting started with Postman"
+    url:  "https://academy.postman.com/getting-started-with-postman-2212"
 ---
 
 Postman has a variety of tools, views, and controls to help you manage your API projects. This guide is a high-level overview of Postman's primary interface areas:
@@ -42,7 +47,7 @@ Postman has a variety of tools, views, and controls to help you manage your API 
 
 ## Header
 
-The header enables you to create workspaces, access reports, explore the public API network, search in Postman, view sync status and notifications, and access your settings, account, and [Postman plan](/docs/administration/buying/).
+The header enables you to create workspaces, access reports, explore the public API network, search in Postman, view sync status and notifications, and access your settings, account, and [Postman plan](/docs/billing/buying/).
 
 <img alt="Postman header left side" src="https://assets.postman.com/postman-docs/postman-desktop-app-header-v10.10.jpg" width="350px"/>
 
@@ -54,7 +59,7 @@ The header enables you to create workspaces, access reports, explore the public 
 
 <img alt="Expanded view of the Search Postman field" src="https://assets.postman.com/postman-docs/v10/navigating-postman-search-v10.jpg">
 
-* <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Search Postman** - Search all workspaces, collections, requests, APIs, flows, and teams in Postman. For more details on searching in Postman, see [Search Postman](#search-postman).
+* <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Search Postman** - Search all workspaces, collections, requests, APIs, Flows, and teams in Postman. For more details on searching in Postman, see [Search Postman](#search-postman).
 
 <img alt="Postman header right side" src="https://assets.postman.com/postman-docs/navigating-postman-header-right-v9.19.2.jpg" width="300px"/>
 
@@ -62,11 +67,11 @@ The header enables you to create workspaces, access reports, explore the public 
 * <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> **Settings** - Access [Postman settings](/docs/getting-started/installation/settings/) and other Postman resources.
 * <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> **Notifications** - View recent activity from your team, get notifications about Postman updates, and see pull requests, comment activity, and other important information.
 * **Your avatar** - View your profile, access your [account and notification settings](/docs/getting-started/installation/postman-account/), see all active sessions for your account, or sign out of your account.
-* **Team** (_paid plans_) or **Upgrade** (_free plan_) - View [resource usage](/docs/administration/resource-usage/) and access your [billing dashboard](/docs/administration/billing/) and other account management tools.
+* **Team** (_paid plans_) or **Upgrade** (_free plan_) - View [resource usage](/docs/billing/resource-usage/) and access your [billing dashboard](/docs/billing/billing/) and other account management tools.
 
 ### Search Postman
 
-To search in Postman, select __Search Postman__ in the header then enter your search terms. You can also use the keyboard shortcut **⌘+K** or **Ctrl+K**. To change the scope of your search to your personal or team space or the Public API Network, select **All of Postman** and choose the desired scope. You can also change the scope of your search to **Workspaces**, **Collections**, **Requests**, **APIs**, **Flows**, or **Teams**.
+To search in Postman, select __Search Postman__ in the header then enter your search terms. You can also use the keyboard shortcut **⌘+K** or **Ctrl+K**. To change the scope of your search, select the scope dropdown list to the left of the search bar. You can search all of Postman, your team, the [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/#search-for-elements-in-the-network), and the Public API Network. You can also specify the element type you'd like to search for, such as **Workspaces**, **Collections**, or **Teams**.
 
 You can search by tag names that team members have added to [collections](/docs/collections/using-collections/#tagging-a-collection), [APIs](/docs/designing-and-developing-your-api/managing-apis/#tagging-apis), and [workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#tagging-a-workspace) ([Enterprise plans only](https://www.postman.com/pricing)). To search by tag names, select __Search Postman__ in the header then enter your search using the `tag:tag-name` format. For example, if an API has the tag "production", enter `tag:production` to return the API in your search results.
 
@@ -96,7 +101,7 @@ The Postman sidebar provides access to the fundamental elements of Postman:
 * [Environments](/docs/sending-requests/managing-environments/#creating-environments)
 * [Mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
 * [Monitors](/docs/monitoring-your-api/intro-monitors/)
-* [Flows](/docs/postman-flows/flows-intro/flows-overview/)
+* [Flows](/docs/postman-flows/gs/flows-overview/)
 * [History](#history)
 
 <img alt="Sidebar focused on Collections" src="https://assets.postman.com/postman-docs/v10/navigating-postman-sidebar-v10.14.jpg" width="350px"/>
@@ -229,19 +234,19 @@ The right sidebar gives you access to more tools, including documentation, comme
 
 Tool | Available for | Description
 --- | --- | ---
-**Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> | Requests | See the [documentation](/docs/publishing-your-api/documenting-your-api/) for a specific request.
+**Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> | Requests | View the [documentation](/docs/publishing-your-api/document-a-collection/) for a specific request.
 **Comments** <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> | Collections, requests, APIs | Leave [comments](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/) on a specific part of a request or an API.
 **Code** <img alt="Code snippet icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px"> | Requests, APIs, history | Generate [code snippets](/docs/sending-requests/generate-code-snippets/) in a variety of languages and frameworks that you can use in other apps.
 **Live Collections** <img alt="Live collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> | Collections | Keep collections up-to-date based on your application using [Live Collections](/docs/collections/live-collections/live-collections-overview/).
 **Related collections** <img alt="Related Collections icon" src="https://assets.postman.com/postman-docs/collection-rec-lightbulb-icon2.jpg#icon" width="16px"/> | Requests, history | View public collections from the [Public API Network](/docs/getting-started/first-steps/exploring-public-api-network/) that share the same base URL as your request and include API documentation.
-**Info** <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> | Collections, requests, APIs, environments, mock servers, monitors, flows | See details about the element, including its ID, when it was created, who created it, and more.
+**Info** <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> | Collections, requests, APIs, environments, mock servers, monitors, Flows | See details about the element, including its ID, when it was created, who created it, and more.
 **Changelog** <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> | Collections, APIs | Use the [changelog](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#viewing-collection-activity) to see changes that you and your collaborators have made. Available on [Postman paid plans](https://www.postman.com/pricing/).
 **Pull requests** <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px"> | Collections, environments | View any [pull requests](/docs/collaborating-in-postman/version-control/#creating-pull-requests) for a Postman element.
-**Forks** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> | Collections, environments, flows | View any [forks](/docs/collaborating-in-postman/version-control/#forking-postman-entities) of a Postman element.
+**Forks** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> | Collections, environments, Flows | View any [forks](/docs/collaborating-in-postman/version-control/#forking-postman-entities) of a Postman element.
 **Activity feed** <img alt="Activity feed icon" src="https://assets.postman.com/postman-docs/icon-activity-feed-v9.jpg#icon" width="16px"> | Monitors | View the activity feed for a [monitor](/docs/monitoring-your-api/intro-monitors/).
 **Flow Element Info** <img alt="Flow Element Info icon" src="https://assets.postman.com/postman-docs/v10/flow-element-info-v10.jpg#icon" width="21px"> | Flows | View the input and output of the selected block.
-**Released Versions** <img alt="Released Versions icon" src="https://assets.postman.com/postman-docs/v10/released-versions-v10.jpg#icon" width="21px"> | Flows | View your released flows.
-**Execution issues** <img alt="Execution issues icon" src="https://assets.postman.com/postman-docs/v10/execution-issues-v10.jpg#icon" width="21px"> | Flows | View a flow's execution issues, if any.
+**Released Versions** <img alt="Released Versions icon" src="https://assets.postman.com/postman-docs/v10/released-versions-v10.jpg#icon" width="21px"> | Flows | View your released Flows.
+**Execution issues** <img alt="Execution issues icon" src="https://assets.postman.com/postman-docs/v10/execution-issues-v10.jpg#icon" width="21px"> | Flows | View a Flow's execution issues, if any.
 
 ### Environment selector and environment quick look
 
@@ -262,12 +267,14 @@ The footer on the bottom of Postman enables you to find and replace text, open t
 * <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Find and replace** - _(Postman desktop app only)_ Search the current workspace. You can also use the shortcuts **⌘+Shift+F** or **Ctrl+Shift+F**. Enter your search string then select **Find**. Limit your search to a specific element type by selecting **Collections**, **Environments**, **Globals**, or **Open tabs**. To replace your search term in a selected element, select **Replace in selected**.
 * <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** - [Inspect and debug](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) your Postman requests.
 
-<img alt="Postman footer right view" src="https://assets.postman.com/postman-docs/v10/navigating-postman-footer-right-v10-12.jpg" width="900px"/>
+<img alt="Postman footer right view" src="https://assets.postman.com/postman-docs/v10/navigating-postman-footer-right-v10-18.jpg" width="900px"/>
 
+* <img alt="Postbot icon" src="https://assets.postman.com/postman-docs/v10/icon-postbot-v10-16.jpg#icon" width="18px"> **Postbot** - Open the [Postbot](/docs/getting-started/basics/about-postbot/) AI assistant to ask questions and search for answers.
 * <img alt="Git branch icon" src="https://assets.postman.com/postman-docs/icon-source-control.jpg#icon" width="16px"/> **Git branch icon** - For [APIs using a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/), switch branches and open the **Source Control** pane.
-* <img alt="Cookies icon" src="https://assets.postman.com/postman-docs/icon-cookies.jpg#icon" width="16px"> **Cookies** - View, manage, and sync [cookies](/docs/sending-requests/cookies/).
-* <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** - Start a [Postman proxy or Interceptor session](/docs/sending-requests/capturing-request-data/capture-overview/).
 * <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Runner** - Open the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
+* **Select Postman Agent** - _(Postman web app only)_ Select which [Postman Agent](/docs/getting-started/basics/about-postman-agent/) is used: the Cloud Agent, Desktop Agent, Browser Agent, or auto-select an agent.
+* <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Start Proxy** - _(Postman desktop app only)_ Start the [Postman proxy](/docs/sending-requests/capturing-request-data/capture-overview/).
+* <img alt="Cookies icon" src="https://assets.postman.com/postman-docs/icon-cookies.jpg#icon" width="16px"> **Cookies** - View, manage, and sync [cookies](/docs/sending-requests/cookies/).
 * <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Trash** - Recover or permanently delete any deleted collections.
 * <img alt="Two pane view icon" src="https://assets.postman.com/postman-docs/icon-two-pane-v9.jpg#icon" width="16px"> **Two-pane view** - Toggle between a single pane view and a two pane view.
 * <img alt="Help icon" src="https://assets.postman.com/postman-docs/icon-help-v9.jpg#icon" width="16px"> **Help** - Access more resources, including release notes and Postman Support.

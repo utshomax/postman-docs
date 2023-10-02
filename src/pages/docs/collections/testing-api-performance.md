@@ -1,6 +1,6 @@
 ---
-title: "Testing API performance"
-updated: 2023-07-15
+title: "Simulate user traffic to test your API performance"
+updated: 2023-09-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -33,18 +33,22 @@ The performance test runs on your computer and not in the cloud. When you start 
 * [Viewing error details for performance tests](#viewing-error-details-for-performance-tests)
     * [Viewing top errors](#viewing-top-errors)
     * [Viewing error trends](#viewing-error-trends)
+    * [Debugging errors](#debugging-errors)
 * [Viewing past performance runs](#viewing-past-performance-runs)
 
 ## Configuring a performance test
 
 > **Use the Postman desktop app to configure and run performance tests.** You can't use the Postman web app for performance testing. During a performance test, all requests are sent from the host computer where you are running the Postman desktop app.
 
-Before you configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to use to simulate user activity. Each virtual user runs the selected requests in the specified order and repeats the sequence throughout the test. Multiple virtual users all operate in parallel to simulate real-world usage of your API.
+Before you configure a performance test, [create a collection](/docs/collections/using-collections/#creating-collections) or [add a folder](/docs/collections/using-collections/#adding-folders-to-a-collection) with the requests you want to use to simulate user activity. Each virtual user runs the selected requests in the specified order and repeats the sequence throughout the test. Multiple virtual users all operate in parallel to simulate real-world usage of your API.
 
 To configure a performance test in the Postman desktop app, do the following:
 
-1. Select **Collections** in the sidebar and select the collection you want to use for performance testing.
-1. On the collection's **Overview** tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
+1. Select **Collections** in the sidebar and select the collection or folder you want to use for performance testing.
+
+    > You can also use a collection or folder that's linked to an API to run a performance test. Learn more about [adding a collection to an API](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/#adding-a-collection).
+
+1. On the **Overview** tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
 
     <img alt="Select Run from the collection overview" src="https://assets.postman.com/postman-docs/v10/collection-runner-button.jpg" width="350px"/>
 
@@ -69,11 +73,11 @@ To configure a performance test in the Postman desktop app, do the following:
 
 <img alt="Configuring a performance test" src="https://assets.postman.com/postman-docs/v10/performance-test-configure-v10-15.jpg"/>
 
-> Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of performance runs you can use each month. A message will display in the Collection Runner when you're approaching your usage limit. Learn more about [resource usage](/docs/administration/resource-usage/#performance-test-usage) in Postman.
+> Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of performance runs you can use each month. A message will display in the Collection Runner when you're approaching your usage limit. Learn more about [resource usage](/docs/billing/resource-usage/#performance-test-usage) in Postman.
 
 ### Virtual users and system resources
 
-The maximum number of virtual users a performance test can simulate depends on available system resources and the collection used for the test. Using pre-request or test scripts will reduce the number of virtual users that can be simulated.
+The number of virtual users a performance test can simulate depends on available system resources and the collection used for the test. Using pre-request or test scripts will reduce the number of virtual users that can be simulated. The maximum number of virtual users is determined by your [Postman plan](https://www.postman.com/pricing/).
 
 Use the following guidelines to understand how many virtual users you can simulate:
 
@@ -88,7 +92,7 @@ Attempting to simulate a higher number of virtual users may cause inaccurate met
 
 During a performance test, all requests are sent from your computer where you are running the Postman desktop app. The **Summary** tab displays performance metrics in real time so you can observe how your API performs under load.
 
-<img alt="Viewing performance metrics" src="https://assets.postman.com/postman-docs/v10/performance-test-graph-v10-16a.jpg"/>
+<img alt="Viewing performance metrics" src="https://assets.postman.com/postman-docs/v10/performance-test-graph-v10-18a.jpg"/>
 
 You can view the following information about the performance test:
 
@@ -104,9 +108,10 @@ From the **Summary** tab, you can take the following actions:
 
 * Select **Stop** to stop the performance test.
 * Select **Run Again** to configure and start the performance test again.
-* Select **All Runs** to view a list of all past performance runs for the collection.
-* Select the share icon <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> to get a link to the performance report. Select **Copy Link** to copy the link to your clipboard. You can share the link with your teammates so they can view the results of the performance test.
-* Select the name of a request to open the request.
+* To get a link to the performance report, select the share icon <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px">. Select **Copy Link** to copy the link to your clipboard. You can share the link with your teammates so they can view the results of the performance test.
+* To download a copy of the performance report in PDF or HTML format, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and select **Export PDF report** or **Export HTML report**. The report shows response time and throughput, slowest requests, requests with the most errors, metrics for each request, and a list of errors.
+* To view a list of all past performance runs for the collection, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and select **View all runs**.
+* To open a request, select the name of a request.
 
 ### Customizing the performance view
 
@@ -159,7 +164,7 @@ You can view error trends after the performance test is complete. The error tren
 
 To view error trends, select the **Errors** tab. You can also select the **Error rate** on the **Summary** tab and select **View Error Trends**.
 
-<img alt="Viewing error trends" src="https://assets.postman.com/postman-docs/v10/performance-test-errors-graph-v10-16.jpg"/>
+<img alt="Viewing error trends" src="https://assets.postman.com/postman-docs/v10/performance-test-errors-graph-v10-18a.jpg"/>
 
 You can view the following information about the error trends:
 
@@ -175,6 +180,18 @@ From the **Errors** tab, you can take the following actions:
 * To view the error trends for a specific request, select the request in the dropdown list. This information can help you understand which requests are associated with certain types of errors. To change the graph back to the default view, select **Reset**.
 
 <img alt="Viewing top errors" src="https://assets.postman.com/postman-docs/v10/performance-test-filter-errors-v10-15.jpg" width="600px"/>
+
+### Debugging errors
+
+You can view details about errors that occurred during the performance test to help in the debugging process. The **Errors** tab shows the error classes that were encountered during the test and the number of times each error occurred.
+
+Expand an error class below the graph to view all requests that encountered the error. For each request, you can view a list of unique responses (as determined by headers and body). Postman displays the 10 most common responses and shows a count of how often that response occurred.
+
+Select a request to view details about it, including the response, headers, and request body. Use the controls on the **Response** tab to format, copy, or search within the response. Select the name of a request to open it.
+
+<img alt="Viewing error details" src="https://assets.postman.com/postman-docs/v10/performance-test-errors-detail-v10-17.jpg"/>
+
+> Request and responses details for errors are persisted locally during your current Postman session and aren't saved permanently. If you close the current tab or quit Postman, request and response details will no longer be available. You still be able to view error classes and error counts for requests.
 
 ## Viewing past performance runs
 

@@ -1,5 +1,5 @@
 ---
-title: 'Viewing Datadog metrics'
+title: "View Datadog APM metrics in Postman"
 updated: 2022-09-15
 warning: false
 ---

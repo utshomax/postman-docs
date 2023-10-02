@@ -1,6 +1,5 @@
 ---
-title: "Explore the Public API Network"
-order: 6
+title: "Discover APIs, workspaces, collections, and Flows on the Public API Network"
 updated: 2023-07-18
 contextual_links:
   - type: section
@@ -27,21 +26,25 @@ contextual_links:
   - type: link
     name: "Top 25 API Onboarding Experiences"
     url: "https://blog.postman.com/top-25-api-onboarding-experiences/"
-warning: false
+  - type: subtitle
+    name: "Postman Academy"
+  - type: link
+    name: "API Beginner Learning Path"
+    url:  "https://academy.postman.com/path/api-beginner"
 ---
 
-The Postman Public API Network is the largest network of APIs, workspaces, collections, and flows by developers across the planet. Many of the teams and companies responsible for leading-edge APIs and technologies have public workspaces you can explore. Popular third-party APIs are also published, along with examples you can use as a starting point when writing your own APIs or collections.
+The Postman Public API Network is the largest network of APIs, workspaces, collections, and Flows by developers across the planet. Many of the teams and companies responsible for leading-edge APIs and technologies have public workspaces you can explore. Popular third-party APIs are also published, along with examples you can use as a starting point when writing your own APIs or collections.
 
 To access the Public API Network, visit [postman.com/explore](https://www.postman.com/explore) or select **Explore** in the header.
 
 <img alt="Postman Public API Network" src="https://assets.postman.com/postman-docs/v10/public-api-network-v10-1.jpg" />
 
-There are a variety of ways to find APIs, workspaces, teams, collections, and flows:
+There are a variety of ways to find APIs, workspaces, teams, collections, and Flows:
 
 * **Categories** showcases popular API categories in the Public API Network: [Artificial Intelligence](https://www.postman.com/category/artificial-intelligence), [Communication](https://www.postman.com/category/communication), [Data Analytics](https://www.postman.com/category/data-analytics), [Developer Productivity](https://www.postman.com/category/developer-productivity), [DevOps](https://www.postman.com/category/devops), [Financial Services](https://www.postman.com/category/financial-services), and [Payments](https://www.postman.com/category/payments).
 * **In the spotlight** highlights the latest exciting, useful, and noteworthy contributions to the Public API Network, handpicked by the experts at Postman.
 * **Trending workspaces, collections, and APIs** shows entities that are the most popular in the Public API Network, based on the number of people viewing or creating forks of them.
-* The **Search Postman** box at the top of the page searches all Postman teams, workspaces, collections, APIs, and flows by default, but you can also use the search controls to limit a search to the Public API Network.
+* The **Search Postman** box at the top of the page searches all Postman teams, workspaces, collections, APIs, and Flows by default, but you can also use the search controls to limit a search to the Public API Network.
 * Under **Browse**, you can select to view **Teams**, **Workspaces**, **APIs**, and **Collections**. You can sort results by **Featured**, **Most Viewed**, and **Latest** using the **Sort by** dropdown list.
 * You can also filter Collections, APIs, and Workspaces using the categories listed on their results pages.
 
@@ -53,6 +56,14 @@ Check out some useful collections for getting started learning about APIs, reque
 * [Intro to writing tests](https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-13bd44c4-94ec-420a-8390-8ff44b60f14d?ctx=documentation)
 * [How to use the Postman Console](https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-9349429e-3744-467b-a127-e3881f0dffc8?ctx=documentation)
 * [Postman Echo](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation)
+
+## About verified teams in the Public API Network
+
+Verified teams in Postman have a verified badge next to their team name in the Public API Network. A verified badge means Postman has verified the team's identity as the authentic organization they represent, helping you discover authentic, useful, and trusted APIs.
+
+<img alt="Postman verified team" src="https://assets.postman.com/postman-docs/v10/verified-team-postman-v10-2.jpg" width="400px" />
+
+The verified badge also displays next to a verified team's name in their [profile](/docs/administration/managing-your-team/team-settings/) and [public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/), and you can view the verified badge in your [Postman search results](/docs/getting-started/basics/navigating-postman/#search-postman).
 
 ## Next steps
 

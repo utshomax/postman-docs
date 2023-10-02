@@ -14,7 +14,7 @@ contextual_links:
 
 Postman provides you with a specified number of resources you can use each month, depending on your [Postman plan](https://www.postman.com/pricing/). Monthly resources include calls to the Postman API, requests made by monitors and scheduled collection runs, mock server requests, and Cloud Agent requests. Your Postman plan also has other limits, such as the number of integrations you can create, the number of custom domains, and storage for uploaded images.
 
-To find out what the resource limits are for your plan, go to the [Postman Plans and Pricing page](https://www.postman.com/pricing/). To view the resources you are using, go to your [Resource Usage dashboard](https://go.postman.co/billing/add-ons/overview). You can view how close you are to your limits and when your monthly limits will reset. If you need more resources, you can [purchase an add-on](/docs/administration/billing/#purchasing-add-ons) or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+To find out what the resource limits are for your plan, go to the [Postman Plans and Pricing page](https://www.postman.com/pricing/). To view the resources you are using, go to your [Resource Usage dashboard](https://go.postman.co/billing/add-ons/overview). You can view how close you are to your limits and when your monthly limits will reset. If you need more resources, you can [purchase add-on resources](/docs/billing/billing/#purchasing-add-on-resources) or [upgrade your plan](/docs/billing/billing/#team-and-plan-changes).
 
 Refer to the following sections to understand what happens when your resource usage reaches the limits set by your Postman plan.
 
@@ -36,7 +36,7 @@ Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number
 
 ![Mock server usage error](https://assets.postman.com/postman-docs/v10/usage-error-mocks-v10.jpg)
 
-To make more requests to your mock servers before your monthly limit resets, you can [enable pay-as-you-go](/docs/administration/billing/#managing-add-ons), [purchase an add-on](/docs/administration/billing/#purchasing-add-ons), or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+To make more requests to your mock servers before your monthly limit resets, you can [enable pay-as-you-go](/docs/billing/billing/#managing-resources), [purchase add-on resources](/docs/billing/billing/#purchasing-add-on-resources), or [upgrade your plan](/docs/billing/billing/#team-and-plan-changes).
 
 ## Monitoring usage
 
@@ -44,7 +44,7 @@ Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number
 
 <img alt="Monitors usage error" src="https://assets.postman.com/postman-docs/v10/usage-error-monitors-v10.jpg" width="361px"/>
 
-Once you've reached your usage limit, your monitors and scheduled collection runs will no longer run on their configured schedules and can't be run manually. To resume running your monitors and scheduled collection runs before your monthly limit resets, you can [enable pay-as-you-go](/docs/administration/billing/#managing-add-ons), [purchase an add-on](/docs/administration/billing/#purchasing-add-ons), or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+Once you've reached your usage limit, your monitors and scheduled collection runs will no longer run on their configured schedules and can't be run manually. To resume running your monitors and scheduled collection runs before your monthly limit resets, you can [enable pay-as-you-go](/docs/billing/billing/#managing-resources), [purchase add-on resources](/docs/billing/billing/#purchasing-add-on-resources), or [upgrade your plan](/docs/billing/billing/#team-and-plan-changes).
 
 > Learn more about [viewing and managing your monitor usage](/docs/monitoring-your-api/monitor-usage/).
 
@@ -56,7 +56,7 @@ You can check your manual collection run usage on the [Resource Usage dashboard]
 
 <img alt="Collection runner usage error" src="https://assets.postman.com/postman-docs/v10/usage-error-collection-runner-v10-12.jpg" width="504px"/>
 
-Once you've reached your usage limit, you will no longer be able to run your collections using the **Run manually** option. To resume running collections before your monthly limit resets, you can [upgrade your plan](/docs/administration/billing/#team-and-plan-changes), [schedule collection runs](/docs/collections/running-collections/scheduling-collection-runs/) in the Postman cloud, or run collections using the [Postman CLI](/docs/postman-cli/postman-cli-run-collection/) or [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/).
+Once you've reached your usage limit, you will no longer be able to run your collections using the **Run manually** option. To resume running collections before your monthly limit resets, you can [upgrade your plan](/docs/billing/billing/#team-and-plan-changes), [schedule collection runs](/docs/collections/running-collections/scheduling-collection-runs/) in the Postman cloud, or run collections using the [Postman CLI](/docs/postman-cli/postman-cli-run-collection/) or [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/).
 
 > Requests run in the Postman cloud by your [scheduled collection runs](/docs/collections/running-collections/scheduling-collection-runs/) count toward your [monitoring usage](#monitoring-usage). Scheduled collection runs don't count toward your collection runs usage.
 
@@ -68,7 +68,7 @@ You can check your performance test usage on the [Resource Usage dashboard](http
 
 <img alt="Performance test usage error" src="https://assets.postman.com/postman-docs/v10/usage-error-performance-test-v10-15.jpg" width="545px"/>
 
-Once you've reached your usage limit, you will no longer be able to run performance tests. To resume running performance tests before your monthly limit resets, you can [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+Once you've reached your usage limit, you will no longer be able to run performance tests. To resume running performance tests before your monthly limit resets, you can [upgrade your plan](/docs/billing/billing/#team-and-plan-changes).
 
 ## Custom domains
 
@@ -76,7 +76,7 @@ Postman paid [plans](https://www.postman.com/pricing/) give you a limited number
 
 ![Custom domains limit reached](https://assets.postman.com/postman-docs/v10/usage-error-custom-domains-v10.jpg)
 
-To add a new custom domain, delete one of your existing custom domains, [purchase an add-on](/docs/administration/billing/#purchasing-add-ons), or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+To add a new custom domain, delete one of your existing custom domains, [purchase add-on resources](/docs/billing/billing/#purchasing-add-on-resources), or [upgrade your plan](/docs/billing/billing/#team-and-plan-changes).
 
 ## Storage usage
 
@@ -94,7 +94,7 @@ Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number
 
 ![Postman API usage error](https://assets.postman.com/postman-docs/v10/usage-error-api-v10.jpg)
 
-To make more requests to the Postman API before your monthly limit resets, you can [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+To make more requests to the Postman API before your monthly limit resets, you can [upgrade your plan](/docs/billing/billing/#team-and-plan-changes).
 
 ## Integrations
 
@@ -102,7 +102,7 @@ Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number
 
 <img alt="Integrations limit reached" src="https://assets.postman.com/postman-docs/v10/usage-error-integrations-v10.jpg" width="361px"/>
 
-To add a new integration, delete one of your existing integrations or [upgrade your plan](/docs/administration/billing/#team-and-plan-changes).
+To add a new integration, delete one of your existing integrations or [upgrade your plan](/docs/billing/billing/#team-and-plan-changes).
 
 ## Cloud Agent usage
 
@@ -110,6 +110,6 @@ The [Postman Cloud Agent](/docs/getting-started/basics/about-postman-agent/#the-
 
 ![Cloud Agent usage error](https://assets.postman.com/postman-docs/v10/usage-error-cloud-agent-v10.jpg)
 
-To continue sending requests from the Postman web app before your monthly limit resets, [upgrade your plan](/docs/administration/billing/#team-and-plan-changes) or switch to the Postman Desktop Agent. In the error message, select **Use Postman's Desktop Agent**. If you haven't already installed the Desktop Agent, you'll be prompted to download it.
+To continue sending requests from the Postman web app before your monthly limit resets, [upgrade your plan](/docs/billing/billing/#team-and-plan-changes) or switch to the Postman Desktop Agent. In the error message, select **Use Postman's Desktop Agent**. If you haven't already installed the Desktop Agent, you'll be prompted to download it.
 
 > Learn more about [installing and using the Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent).

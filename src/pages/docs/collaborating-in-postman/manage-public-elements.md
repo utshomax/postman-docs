@@ -1,5 +1,5 @@
 ---
-title: "Managing public elements"
+title: "Manage public elements in Postman"
 updated: 2023-06-15
 contextual_links:
   - type: section

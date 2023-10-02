@@ -1,5 +1,5 @@
 ---
-title: 'Testing an API'
+title: "Test your API using test collections and CI tools"
 updated: 2022-10-05
 contextual_links:
   - type: section

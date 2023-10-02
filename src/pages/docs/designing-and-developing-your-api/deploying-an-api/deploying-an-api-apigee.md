@@ -1,5 +1,5 @@
 ---
-title: 'Deploying to an Apigee API gateway'
+title: "Manage API deployments to Apigee in Postman"
 updated: 2022-09-15
 contextual_links:
   - type: section

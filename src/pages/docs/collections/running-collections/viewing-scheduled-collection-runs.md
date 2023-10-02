@@ -1,5 +1,5 @@
 ---
-title: "Viewing scheduled collection runs"
+title: "View your scheduled collection runs"
 updated: 2023-06-15
 ---
 
@@ -85,3 +85,5 @@ Select a bar in the graph and select **Console Log** to view details about the r
 [![console log](https://assets.postman.com/postman-docs/v10/scr-view-console-log-v10.jpg)](https://assets.postman.com/postman-docs/v10/scr-view-console-log-v10.jpg)
 
 You can use this console to troubleshoot issues and learn more about an individual run's behavior.
+
+> **Scheduled collection run logs are retained for a period of six months.** If you select a scheduled collection run that's outside the retention period, you can view the number of failed tests and errors. Other collection run details will no longer be available. To request this information, contact [Postman support](https://www.postman.com/support/).

@@ -1,5 +1,5 @@
 ---
-title: 'Adding elements to an API'
+title: "Add elements to an API in Postman"
 updated: 2023-03-15
 contextual_links:
   - type: section

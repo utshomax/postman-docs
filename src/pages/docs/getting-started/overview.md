@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Postman"
+title: "Get started in Postman"
 updated: 2023-07-27
 contextual_links:
   - type: section
@@ -34,6 +34,11 @@ contextual_links:
   - type: link
     name: "30 days of Postman for developers"
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
+  - type: subtitle
+    name: "Postman Academy"
+  - type: link
+    name: "API Beginner Learning Path"
+    url:  "https://academy.postman.com/path/api-beginner"
 ---
 
 Welcome! This section of the Learning Center contains topics about how to get started using Postman.

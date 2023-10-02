@@ -1,5 +1,5 @@
 ---
-title: "Using the lightweight Postman API Client"
+title: "Build and send requests offline using the lightweight Postman API Client"
 updated: 2023-05-15
 contextual_links:
   - type: section
@@ -21,7 +21,7 @@ The _lightweight Postman API Client_ is a space where you can work if you're usi
 
 All of your work in the lightweight API Client is stored locally and isn't synced online with Postman. After you sign in to Postman, you can move your open requests and request history into a workspace where you can collaborate with others.
 
-> **What happened to the Scratch Pad?** New Postman users who download the Postman desktop app use the lightweight Postman API Client when not signed in to Postman. Postman users who have data in the Scratch Pad will continue to use the Scratch Pad when not connected to Postman's servers. Learn more about [using the Scratch Pad](/docs/getting-started/basics/using-scratch-pad/).
+> **What happened to the Scratch Pad?** New Postman users who download the Postman desktop app use the lightweight Postman API Client when not signed in to Postman. The Scratch Pad is deprecated and no longer supported. Learn more about [using the Scratch Pad](/docs/getting-started/basics/using-scratch-pad/).
 
 ## Contents
 

@@ -1,5 +1,5 @@
 ---
-title: "Monitoring FAQs"
+title: "Postman Monitors frequently asked questions"
 page_id: "faqs_monitors"
 updated: 2022-08-03
 search_keyword: "console.log, console.warn"

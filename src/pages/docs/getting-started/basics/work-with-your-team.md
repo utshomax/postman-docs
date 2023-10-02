@@ -28,6 +28,11 @@ contextual_links:
   - type: link
     name: "30 days of Postman for developers"
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
+  - type: subtitle
+    name: "Postman Academy"
+  - type: link
+    name: "Getting started with Postman"
+    url:  "https://academy.postman.com/getting-started-with-postman-2212"
 ---
 
 Postman provides a variety of tools to enable and enhance [collaboration within your team](https://www.postman.com/api-platform/api-collaboration/).
@@ -36,7 +41,7 @@ When you sign up for Postman as an individual, you create your own [Postman acco
 
 There are several ways you can join a team. You could be sent an email invite or given an invite link from someone else on a team. Or your organization may add you to a team using SSO, SCIM, or by automatically adding you based on your verified domain name.
 
-Teams have _team workspaces_, which are shared workspaces where your team can work together on APIs, collections, environments, integrations, mocks, monitors, and flows. Team workspaces can act as a single source of truth for your API projects and encourage collaboration within your team. You can collaborate in several ways:
+Teams have _team workspaces_, which are shared workspaces where your team can work together on APIs, collections, environments, integrations, mocks, monitors, and Flows. Team workspaces can act as a single source of truth for your API projects and encourage collaboration within your team. You can collaborate in several ways:
 
 * [Move elements into a team workspace](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces) to share them with your team.
 * [Watch team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#watching-team-workspaces) to be notified when teammates make changes.

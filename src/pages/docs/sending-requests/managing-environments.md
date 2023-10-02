@@ -1,5 +1,5 @@
 ---
-title: "Managing environments"
+title: "Group sets of variables in Postman using environments"
 order: 25
 updated: 2022-11-16
 page_id: "managing-environments"
@@ -77,6 +77,8 @@ To create a new environment, do the following:
 1. Enter a name for your environment, and initialize it with any variables you need. You can also specify variables for the environment later.
 
 1. Select __Save__ to save any environment variables you have added.
+
+> You can turn on autosave to automatically save your changes to collections, requests, and environments. Learn more about [autosave](/docs/getting-started/installation/settings/#application).
 
 ### Adding environment variables
 

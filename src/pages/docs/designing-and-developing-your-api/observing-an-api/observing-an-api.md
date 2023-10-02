@@ -1,5 +1,5 @@
 ---
-title: 'Observing an API'
+title: "Observe your API performance using monitor integrations"
 updated: 2022-09-15
 contextual_links:
   - type: section

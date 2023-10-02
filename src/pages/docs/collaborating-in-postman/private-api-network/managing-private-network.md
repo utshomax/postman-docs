@@ -1,6 +1,6 @@
 ---
-title: "Managing your Private API Network"
-updated: 2023-07-07
+title: "Manage folders and elements in the Private API Network"
+updated: 2023-09-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -36,15 +36,15 @@ contextual_links:
 
 > **[The Private API Network is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-You can manage folders and elements in the Private API Network. You can edit a collection's summary and environments, move folders and elements, rename folders, and remove folders and elements from the network.
+You can manage folders and elements in the Private API Network. You can edit a collection's environments, move folders and elements, rename folders, and remove folders and elements from the network.
 
-[Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and [API Network Managers](/docs/collaborating-in-postman/roles-and-permissions/#network-roles) can manage folders and elements in your Private API Network. You can assign team members the [Folder Manager role](/docs/collaborating-in-postman/roles-and-permissions/#network-roles) at the folder level, giving them permission to manage specific folders and the elements in them. Users with the Editor role for an element can also manage the element.
+[Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and [API Network Managers](/docs/collaborating-in-postman/roles-and-permissions/#network-roles) can manage all folders and elements in your Private API Network. You can assign team members the [Folder Manager role](/docs/collaborating-in-postman/roles-and-permissions/#network-roles) at the folder level, giving them permission to manage specific folders and the elements in them. Users with the Editor role for an element can also manage the element.
 
 > Enterprise teams can also assign the API Network Manager role to a user group. For more information about assigning team roles to groups, see [User groups](/docs/collaborating-in-postman/user-groups/).
 
 <!-- -->
 
-> You can manage elements within the [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/#navigating-the-private-api-network) or with the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-b7c02959-88ca-4e2f-9b68-99538eed4533?ctx=documentation).
+> You can manage elements within the [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/#navigating-the-private-api-network) or with the [Postman API](/docs/collaborating-in-postman/private-api-network/publish-private-network-elements-with-api/).
 
 ## Contents
 
@@ -55,9 +55,11 @@ You can manage folders and elements in the Private API Network. You can edit a c
 
 ## Editing collections
 
-Users with the Editor role for a collection can change a collection's summary and associated environments in the Private API Network. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection you would like to edit from the network, then select **Edit collection**. Edit the collection, then select **Edit** to save your changes.
+You can change a collection's associated environments in the Private API Network. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection you would like to edit from the network, then select **Edit collection**. Edit the collection, then select **Edit** to save your changes.
 
-> Users with the Editor role for a collection can also select a collection in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the upper-right corner, then select **Edit collection**.
+You can only edit collections added directly from the [Private API Network](/docs/collaborating-in-postman/private-api-network/organizing-private-network/#adding-elements-in-your-private-api-network) or the [workbench](/docs/collaborating-in-postman/private-api-network/organizing-private-network/#adding-a-collection-from-the-workbench). You can't edit collections added to APIs.
+
+> You can also select a collection in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the upper-right corner, then select **Edit collection**.
 
 ## Moving folders and elements
 
@@ -77,6 +79,6 @@ You can remove folders and elements from the Private API Network. Select the mor
 
 If you have the Editor role for an element, you can also remove elements in your Private API Network from the workbench. For collections and APIs, open the overview then select **Remove**. For workspaces, open the overview, select <img alt="Workspace settings icon" src="https://assets.postman.com/postman-docs/v10/icon-sliders-v10.jpg#icon" width="24px"> **Workspace Settings**, then select **Remove**. To confirm, select **Remove**.
 
-<img alt="Remove collection in Private API Network from workbench" src="https://assets.postman.com/postman-docs/v10/remove-collection-private-api-network-v10.jpg"/>
+<img alt="Remove collection in Private API Network from workbench" src="https://assets.postman.com/postman-docs/v10/remove-collection-private-api-network-v10-2.jpg"/>
 
 After you remove the element, team members won't have access to it through the Private API Network.

@@ -1,5 +1,5 @@
 ---
-title: "Configuring team settings"
+title: "Configure team settings"
 updated: 2023-06-21
 contextual_links:
   - type: section
@@ -57,8 +57,8 @@ Your team profile includes:
 * A list containing links to your team members' profiles
 * A **Team Description** section
 * A **Highlights** section with pinned elements
-* A **Related collections and flows** section with collections and flows using your team's APIs (suggested by Postman)
-* Links to all your team's public collections, APIs, workspaces, and flows
+* A **Related collections and flows from the community** section with collections and Flows using your team's APIs (suggested by Postman)
+* Links to all your team's public collections, APIs, workspaces, and Flows
 
 <img alt="Example of a filled-in team profile" src="https://assets.postman.com/postman-docs/v10/team-settings-overview-v10.1.jpg" width="800px"/>
 
@@ -92,7 +92,7 @@ Keep the following in mind when you upload a logo, cover photo, or favicon:
 
 A public team profile encourages other users to collaborate with you in a public workspace, enabling you to ask for contributions, gather feedback, and increase your API's discovery in search results.
 
-If you enable your team's public profile, your team will be visible on [the Public API Network](https://www.postman.com/explore), along with your public workspaces, collections, APIs, and flows. Learn more about [the Public API Network and best practices for sharing elements](/docs/collaborating-in-postman/public-api-network/public-api-network-overview/).
+If you enable your team's public profile, your team will be visible on [the Public API Network](https://www.postman.com/explore), along with your public workspaces, collections, APIs, and Flows. Learn more about [the Public API Network and best practices for sharing elements](/docs/collaborating-in-postman/public-api-network/public-api-network-overview/).
 
 To make your [team profile](https://go.postman.co/settings/team/general) public, do the following:
 
@@ -113,13 +113,13 @@ See [Enabling team discovery](/docs/collaborating-in-postman/working-with-your-t
 
 Select **Secret Scanner** to review default alerts for tokens issued by common service providers that the Postman Secret Scanner scans for. You can also add and review custom alerts that scan for your team's proprietary tokens and third-party app tokens.
 
-See [Secret Scanner](/docs/administration/token-scanner/) to learn more about scanning public workspaces to detect exposed secrets.
+See [Secret Scanner](/docs/administration/managing-your-team/secret-scanner/) to learn more about scanning public workspaces to detect exposed secrets.
 
 ## Adding custom domains
 
 Select **Custom Domains** to add, update, or remove custom domains for your API documentation.
 
-See [Using custom domains](/docs/publishing-your-api/custom-doc-domains/) for information about adding, verifying, troubleshooting, and publishing to custom domains.
+See [Use custom domains](/docs/publishing-your-api/custom-doc-domains/) for information about adding, verifying, troubleshooting, and publishing to custom domains.
 
 ## Using installed apps
 
@@ -157,4 +157,4 @@ See [Managing invites](/docs/administration/managing-your-team/managing-your-tea
 
 Select **Enterprise application** to download the Postman Enterprise app.
 
-See [Managing Enterprise deployment](/docs/administration/managing-enterprise-deployment/) to learn more about managing and deploying the Postman Enterprise app.
+See [Managing Enterprise deployment](/docs/administration/enterprise/managing-enterprise-deployment/) to learn more about managing and deploying the Postman Enterprise app.
