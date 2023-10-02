@@ -1,5 +1,5 @@
 ---
-title: "Sharing your work"
+title: "Share your work in Postman"
 updated: 2023-06-15
 contextual_links:
   - type: section
@@ -25,11 +25,11 @@ contextual_links:
     url: "https://blog.postman.com/introducing-postmans-new-guest-role-to-share-collections-instantly/"
 ---
 
-You can [collaborate on Postman elements](https://www.postman.com/api-platform/api-collaboration/) including collections, requests, collection folders, APIs, flows, and environments, by sharing them or by moving them to a shared private, team, or public workspace.
+You can [collaborate on Postman elements](https://www.postman.com/api-platform/api-collaboration/) including collections, requests, collection folders, APIs, Flows, and environments, by sharing them or by moving them to a shared private, team, or public workspace.
 
 To share your work using workspaces, you need to be signed in to your [Postman account](/docs/getting-started/installation/postman-account/).
 
-> This page has information about sharing Postman collections, collection folders, APIs, requests, flows, and environments using the **Share** function. Other Postman elements are shared differently:
+> This page has information about sharing Postman collections, collection folders, APIs, requests, Flows, and environments using the **Share** function. Other Postman elements are shared differently:
 >
 > * To share a collection run, see [Using the Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 > * To share a collection as a file, see [Importing and exporting data](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/).
@@ -87,7 +87,7 @@ You can share collections in a website or README with a Run in Postman button.
 
 <!-- vale Postman.Avoid = YES -->
 
-For more information on making and using a Run in Postman button, read [Creating Run in Postman buttons](/docs/publishing-your-api/run-in-postman/creating-run-button/).
+For more information on making and using a Run in Postman button, read [Create Run in Postman buttons](/docs/publishing-your-api/run-in-postman/creating-run-button/).
 
 <img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/v10/share-collection-run-in-postman-v10-2.jpg"/>
 
@@ -118,7 +118,7 @@ If you want to share a link with other users, select **Link to collection in pub
 
 ## Sharing elements with external users
 
-> Your team must have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#using-auto-flex) to invite more team members.
+> Your team must have [available seats](/docs/billing/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/billing/billing/#using-auto-flex) to invite more team members.
 
 When you [share a collection](#sharing-postman-elements), external users who aren't on your Postman team will receive an invitation to join your team right away if you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
 

@@ -1,5 +1,5 @@
 ---
-title: "Importing data into Postman"
+title: "Import data into Postman"
 updated: 2023-07-19
 contextual_links:
   - type: section
@@ -52,7 +52,7 @@ You can use cURL commands to import data.
 1. Select **Import** in the left navigation menu. The **Import** modal opens.
 1. Paste your cURL command into the input field at the top. Postman creates and opens a request automatically.
 
-    > You can also paste cURL commands into a request's URL field.
+    > You can also paste cURL commands into a request's URL field. For more information about working with cURL commands in Postman, read [Importing cURL commands](/docs/getting-started/importing-and-exporting/importing-curl-commands/).
 
 ## Importing Postman data
 

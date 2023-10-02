@@ -1,5 +1,5 @@
 ---
-title: "Datadog"
+title: "Integrate Postman with Datadog"
 page_id: "datadog"
 updated: 2023-04-21
 contextual_links:

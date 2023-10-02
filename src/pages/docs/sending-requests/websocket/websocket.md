@@ -1,5 +1,5 @@
 ---
-title: "Using WebSocket requests"
+title: "Send and receive messages over a WebSocket connection"
 updated: 2022-08-02
 contextual_links:
   - type: section

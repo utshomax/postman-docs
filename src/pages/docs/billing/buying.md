@@ -1,5 +1,5 @@
 ---
-title: "Purchasing Postman"
+title: "Purchase Postman"
 updated: 2023-05-22
 contextual_links:
   - type: section
@@ -14,7 +14,7 @@ contextual_links:
     url: "https://blog.postman.com/announcing-postman-plans-and-pricing-2021/"
 ---
 
-Visit the [pricing page](https://www.postman.com/pricing) to purchase a Postman Basic, Professional, or Enterprise plan. Select __Buy Now__ for your chosen plan. If you are [upgrading from an existing paid account](/docs/administration/billing/#team-and-plan-changes), you can use the links in your [billing dashboard](http://go.postman.co/billing).
+Visit the [pricing page](https://www.postman.com/pricing) to purchase a Postman Basic, Professional, or Enterprise plan. Select __Buy Now__ for your chosen plan. If you are [upgrading from an existing paid account](/docs/billing/billing/#team-and-plan-changes), you can use the links in your [billing dashboard](http://go.postman.co/billing).
 
 ## Configuring your plan
 
@@ -36,6 +36,6 @@ Once your plan configuration is in place you can enter your payment details. __Y
 
 After you have selected and purchased a paid plan, you can manage your billing, customize your team's experience, and collaborate with your team:
 
-* You can manage your account in your [billing dashboard](http://go.postman.co/billing). For example, you could [change or upgrade](/docs/administration/billing/#team-and-plan-changes) your plan.
+* You can manage your account in your [billing dashboard](http://go.postman.co/billing). For example, you could [change or upgrade](/docs/billing/billing/#team-and-plan-changes) your plan.
 * To learn how to customize many parts of your team's Postman experience, including setting up SSO and SCIM, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).
 * To learn more about collaborating with your team, visit [Working with your team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/).

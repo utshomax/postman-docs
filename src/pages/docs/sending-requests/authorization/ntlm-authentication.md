@@ -1,5 +1,5 @@
 ---
-title: "NTLM authentication"
+title: "Authenticate with Windows NTLM authentication in Postman"
 updated: 2022-12-12
 search_keyword: "WWW-Authenticate, x-www-form-urlencoded"
 contextual_links:

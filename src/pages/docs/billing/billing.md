@@ -1,5 +1,5 @@
 ---
-title: "Billing"
+title: "Manage billing"
 updated: 2023-09-15
 tags:
   - "pro"
@@ -71,12 +71,12 @@ The billing overview is your billing dashboard's default view. You can view the 
 
 ### Managing resources
 
-Open the [**Resource usage** dashboard](http://go.postman.co/billing/add-ons/overview) to see your team's usage of mock servers and monitors, APIs created, collection runner runs, image and file storage, flow steps, performance tests, integrations, and the Postman Cloud Agent. To open the **Resource usage** dashboard, do one of the following:
+Open the [**Resource usage** dashboard](http://go.postman.co/billing/add-ons/overview) to see your team's usage of mock servers and monitors, APIs created, collection runner runs, image and file storage, Flow steps, performance tests, integrations, and the Postman Cloud Agent. To open the **Resource usage** dashboard, do one of the following:
 
 * **Free users** - In the Postman header, select the menu next to **Upgrade**.
 * **Paid users** - In the Postman header, select **Team**.
 
-> To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).
+> To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/billing/resource-usage/).
 
 <img alt="Add-ons usage and purchase" src="https://assets.postman.com/postman-docs/resource-usage-9.13.jpg" />
 
@@ -221,7 +221,7 @@ Select to pay **Monthly** or **Annual** and confirm your changes. Note that annu
 
 ### Purchasing add-on resources
 
-The base number of monitoring requests, mock server calls, flow steps, and custom domains included in your plan depends on your [plan type](https://www.postman.com/pricing). You can enable or deactivate overages for monitoring, mock server calls, and Flows by [managing your team's resources](#managing-resources). If enabled, you will be charged on a pay-as-you-go basis. If you are on a Professional plan, you can opt to enable or deactivate pay-as-you-go overages for Flows.
+The base number of monitoring requests, mock server calls, Flow steps, and custom domains included in your plan depends on your [plan type](https://www.postman.com/pricing). You can enable or deactivate overages for monitoring, mock server calls, and Flows by [managing your team's resources](#managing-resources). If enabled, you will be charged on a pay-as-you-go basis. If you are on a Professional plan, you can opt to enable or deactivate pay-as-you-go overages for Flows.
 
 You can purchase more Flow Editor seats and blocks of monitoring requests, mock server calls, and custom domains by navigating to your [billing dashboard](http://go.postman.co/billing), selecting **Resource usage** on the left, then **Purchase Add-ons** on the right.
 

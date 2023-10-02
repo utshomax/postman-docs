@@ -1,5 +1,5 @@
 ---
-title: "Capturing HTTPS traffic"
+title: "Capture HTTPS traffic using the Postman built-in proxy"
 updated: 2023-09-15
 contextual_links:
   - type: section

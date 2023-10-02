@@ -1,6 +1,6 @@
 ---
-title: "Visualizing responses"
-updated: 2021-02-17
+title: "Visualize request responses using Postman Visualizer"
+updated: 2023-09-26
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -50,10 +50,6 @@ The Visualizer enables you to present your response data in ways that help to ma
 * [Next steps](#next-steps)
 
 ## Visualizing response data
-
-<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/i1jU-kivApg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br/>
 
 To visualize your response data, add code to the __Pre-request__ or __Tests__ [script](/docs/writing-scripts/intro-to-scripts/) for the request. The `pm.visualizer.set()` method will apply your Visualizer code to the data and present it in the __Visualize__ tab when the request runs.
 

@@ -1,5 +1,5 @@
 ---
-title: "Postman API rate limits"
+title: "Track Postman API call limits"
 updated: 2022-11-30
 search_keyword: "postman-api, api-rate-limits, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset"
 contextual_links:
@@ -48,4 +48,4 @@ Access to the API using a key is limited to **300 requests per minute**. Every A
 
 Your Postman account gives you a limited number of free Postman API calls per month. You can check your usage limits with the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) or the [resource usage page](https://go.postman.co/billing/add-ons/overview).
 
-To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).
+To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/billing/resource-usage/).
