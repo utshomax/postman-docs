@@ -1,5 +1,5 @@
 ---
-title: 'API development overview'
+title: "Design your API in Postman using the API Builder"
 updated: 2023-06-15
 contextual_links:
   - type: section
@@ -29,11 +29,11 @@ You can connect various elements of your [API development lifecycle](https://www
 The following are the high-level steps involved when designing and developing APIs in Postman:
 
 * [Creating an API](/docs/designing-and-developing-your-api/creating-an-api/) - Start a new API in Postman. (You can also [import an API](/docs/designing-and-developing-your-api/importing-an-api/).)
-* [Using API version control](/docs/designing-and-developing-your-api/versioning-an-api/) - Sync your changes between Postman and a remote Git repository. When you're ready to share your changes with consumers, [publish a version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).
+* [Using API version control](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/) - Sync your changes between Postman and a remote Git repository. When you're ready to share your changes with consumers, [publish a version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).
 * [Developing an API](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/) - Build out your API by [editing your API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#editing-an-api-definition-file) and [adding collections](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/). You can also [generate server-side code](/docs/designing-and-developing-your-api/developing-an-api/generating-server-code/) from your OpenAPI 3 specification and [validate your API definition](/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/) and linked elements.
 * [Testing an API](/docs/designing-and-developing-your-api/testing-an-api/) - [Add tests](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API, and use [CI integration](/docs/designing-and-developing-your-api/testing-an-api/#adding-ci-integration) to build and automate testing.
-* [Deploying an API](/docs/designing-and-developing-your-api/deploying-an-api/) - Connect your API deployment service to have greater visibility within Postman.
-* [Observing an API](/docs/designing-and-developing-your-api/observing-an-api/) - Integrate your API with application performance management (APM) tools.
+* [Deploying an API](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-overview/) - Connect your API deployment service to have greater visibility within Postman.
+* [Observing an API](/docs/designing-and-developing-your-api/observing-an-api/observing-an-api/) - Integrate your API with application performance management (APM) tools.
 * [Managing and sharing APIs](/docs/designing-and-developing-your-api/managing-apis/) - Share your API with other team members, add comments, view the changelog, and watch for changes.
 * [Mocking an API](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) - Set up a mock server to simulate your API's endpoints for testing or development purposes.
 * [Using API reports](/docs/reports/reports-overview/) - Use reports to view statistics on how APIs are being used, developed, and improved by your team.

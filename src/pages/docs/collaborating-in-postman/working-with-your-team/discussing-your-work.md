@@ -1,5 +1,5 @@
 ---
-title: "Discussing your work"
+title: "Comment on collections, folders, and requests"
 updated: 2023-07-15
 contextual_links:
   - type: section

@@ -1,5 +1,5 @@
 ---
-title: "Running a collection with the Postman CLI"
+title: "Run a collection using the Postman CLI"
 updated: 2023-06-15
 contextual_links:
   - type: section
@@ -37,11 +37,15 @@ When the Postman CLI runs a collection, the collection and its tests execute loc
 
 ## Running a collection locally with the Postman CLI
 
+You can use the Postman CLI to run the requests in a [collection](/docs/collections/using-collections/#creating-collections) or a [folder](/docs/collections/using-collections/#adding-folders-to-a-collection).
+
 1. [Download and install the Postman CLI](/docs/postman-cli/postman-cli-installation).
 
-1. Select **Collections** in the sidebar and select the collection you want to run.
+1. Select **Collections** in the sidebar and select the collection or folder you want to run.
 
-1. On the Overview tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
+    > You can also run a collection or folder that's linked to an API. Learn more about [adding a collection to an API](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/#adding-a-collection).
+
+1. On the **Overview** tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
 
 1. On the **Functional** tab, select **Automate runs via CLI**.
 
@@ -73,11 +77,15 @@ When the Postman CLI runs a collection, the collection and its tests execute loc
 
 ## Running a collection in CI/CD
 
-When the collections run to your satisfaction, you can copy the commands into your CI/CD scripts to integrate them into your workflows. When adding the command to your CI/CD script, you may want to replace the API key with a variable.
+When the collection runs to your satisfaction, you can copy the commands into your CI/CD scripts to integrate them into your workflows. When adding the command to your CI/CD script, you may want to replace the API key with a variable.
 
-1. Select **Collections** in the sidebar and select the collection you want to run.
+To run a collection in CI/CD, do the following:
 
-1. On the Overview tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
+1. Select **Collections** in the sidebar and select the collection or folder you want to run.
+
+    > You can also run a collection or folder that's linked to an API. Learn more about [adding a collection to an API](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/#adding-a-collection).
+
+1. On the **Overview** tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
 
 1. On the **Functional** tab, select **Automate runs via CLI**.
 

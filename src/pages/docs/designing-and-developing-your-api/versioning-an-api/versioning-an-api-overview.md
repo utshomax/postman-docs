@@ -1,5 +1,5 @@
 ---
-title: 'API version control overview'
+title: "Manage your API changes using version control"
 updated: 2023-06-15
 contextual_links:
   - type: section

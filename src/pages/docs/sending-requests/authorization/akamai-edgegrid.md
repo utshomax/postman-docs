@@ -1,5 +1,5 @@
 ---
-title: "Akamai EdgeGrid"
+title: "Authenticate with Akamai Edgegrid authentication in Postman"
 updated: 2023-05-30
 contextual_links:
   - type: section

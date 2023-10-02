@@ -1,5 +1,5 @@
 ---
-title: "Configuring API Governance rules"
+title: "Configure API Governance rules in Postman"
 updated: 2023-03-06
 contextual_links:
   - type: section

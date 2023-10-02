@@ -1,5 +1,5 @@
 ---
-title: "Working with certificates"
+title: "Add and manage digital certificates in Postman"
 updated: 2023-07-15
 contextual_links:
   - type: section

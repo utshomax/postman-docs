@@ -1,5 +1,5 @@
 ---
-title: "API Security reports"
+title: "View reports about API security metrics"
 updated: 2023-01-18
 contextual_links:
   - type: section

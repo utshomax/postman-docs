@@ -1,5 +1,5 @@
 ---
-title: "Setting up authentication for public APIs"
+title: "Set up authentication for public APIs in Postman"
 updated: 2023-07-17
 contextual_links:
   - type: section
@@ -27,7 +27,7 @@ You can onboard your API consumers quickly and efficiently by setting up API aut
 
 ## Setting up API authentication
 
-To set up API authentication for your public APIs, open Postman and select **Team** in the upper right, then **Team Settings > Set Up API authorization**. Or, open your public profile by selecting **API Network > Public API Network** in the Postman header, then selecting **Set up API authorization**.
+To set up API authentication for your public APIs, open Postman and select **Team** in the upper right, then **Team Settings > Set Up API authorization**. Or, open your public profile by selecting **API Network > Public API Network** in the Postman header, then selecting **[Set up API authorization](https://go.postman.co/settings/team/api-authentication)**.
 
 Select **Set Up API authorization**.
 
@@ -73,7 +73,7 @@ This example shows you how to configure API authentication for an API that uses 
 
     <img alt="Choose how to send client credentials" src="https://assets.postman.com/postman-docs/v10/how-to-send-client-credentials-v10.16.jpg" width="250px"/>
 
-11. Note any prerequisite steps users need to take to successfully make a request to your API. This could include items like registering for a developer account, creating an integration, or copying a token.
+11. Note any prerequisite steps users need to take to successfully make a request to your API. This could include items like registering for a developer account, creating an integration, or copying a token. This content will be shown to users when they create a request to your API and will guide them through setting up authentication.
 
     <img alt="Describe steps for users to take" src="https://assets.postman.com/postman-docs/v10/describe-prereq-steps-for-users-v10.16.jpg"/>
 

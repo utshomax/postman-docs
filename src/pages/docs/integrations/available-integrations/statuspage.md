@@ -1,5 +1,5 @@
 ---
-title: "Statuspage"
+title: "Integrate Postman with Statuspage"
 updated: 2023-06-15
 contextual_links:
   - type: section

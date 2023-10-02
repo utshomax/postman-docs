@@ -1,10 +1,6 @@
 ---
 title: "Onboarding checklist"
-order: 127
 updated: 2022-02-16
-search_keyword: "whitelist, whitelist IP"
-page_id: "onboarding_checklist"
-warning: false
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -43,13 +39,13 @@ For the Postman web app, you can use **Auto-select** to turn the Auto-Select age
 Contact your IT team to establish what the procedure is for adding a new piece of software. This varies from organization to organization, however, the following points are common:
 
 * Your IT team may need to add an exception to device policy allowing for Postman to be installed on employee workstations. Provide a [Postman download link​](https://www.postman.com/downloads/) to the IT team to help establish this exception.
-    * If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), your IT team can opt to deploy the Postman Enterprise app across your organization. For more information, see [Managing Enterprise deployment](/docs/administration/managing-enterprise-deployment/).
+    * If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), your IT team can opt to deploy the Postman Enterprise app across your organization. For more information, see [Managing Enterprise deployment](/docs/administration/enterprise/managing-enterprise-deployment/).
 * If your organization's network connection is facilitated behind a proxy, you may need to configure Postman appropriately. Retrieve proxy connection details from your IT team and [​set them up within Postman](/docs/getting-started/installation/proxy/)​.
 * Your IT team may need to configure allowlists for Postman’s domains to ensure Postman data is synced with the cloud and all functionality works as expected. See [Using Postman behind a firewall](/docs/getting-started/installation/installation-and-updates/#using-postman-behind-a-firewall) for more information.
 
 * Depending on your [plan](https://www.postman.com/pricing) you may be able to obtain static IP addresses for Postman Monitors. Your IT team must allowlist these static IPs for monitoring. See [Running Postman Monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/) for details on how to obtain and configure static IP addresses for monitoring.
 
-* Update your [team settings](https://go.postman.co/settings/team/general). See [Team Settings](/docs/administration/team-settings/) for more information.
+* Update your [team settings](https://go.postman.co/settings/team/general). See [Team Settings](/docs/administration/managing-your-team/team-settings/) for more information.
 * If your Postman [plan](https://www.postman.com/pricing) includes single-sign-on (SSO) you may need help from your IT team to configure it. See [Configuring SSO for a team](/docs/administration/sso/admin-sso/) for instructions on integrating with specific identity providers (IdP).
 
 ### Invite team members

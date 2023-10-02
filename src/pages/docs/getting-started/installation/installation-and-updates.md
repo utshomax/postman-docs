@@ -1,5 +1,5 @@
 ---
-title: "Installing and updating Postman"
+title: "Install and update Postman"
 updated: 2023-07-15
 contextual_links:
   - type: section
@@ -25,8 +25,6 @@ contextual_links:
 Postman is available on the web at **[go.postman.co/home](https://go.postman.co/home)** and as a native desktop app for Mac (Intel or Apple silicon), Windows (Intel 32-bit or 64-bit), and Linux (64-bit) operating systems.
 
 To get the latest version of the Postman desktop app, visit the [download page](https://www.postman.com/downloads/) and select **Download** for your platform.
-
-To get an earlier version of the Postman desktop app, see [Installing earlier versions of Postman](/docs/administration/updating/#installing-earlier-versions-of-postman).
 
 ## Contents
 
