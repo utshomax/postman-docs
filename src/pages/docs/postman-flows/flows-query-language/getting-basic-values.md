@@ -1,5 +1,5 @@
 ---
-title: "Get basic values"
+title: "Get basic values in FQL"
 updated: 2023-03-29
 contextual_links:
   - type: section

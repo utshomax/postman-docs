@@ -1,5 +1,5 @@
 ---
-title: "Testing API performance"
+title: "Simulate user traffic to test your API performance"
 updated: 2023-09-15
 contextual_links:
   - type: section

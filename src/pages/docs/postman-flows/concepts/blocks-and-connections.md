@@ -1,5 +1,5 @@
 ---
-title: "Blocks and connections"
+title: "Create steps in a Postman Flow using blocks and connections"
 updated: 2023-08-15
 ---
 

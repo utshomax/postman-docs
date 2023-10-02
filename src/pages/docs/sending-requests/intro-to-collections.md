@@ -1,5 +1,5 @@
 ---
-title: "Grouping requests in collections"
+title: "Group requests in collections"
 updated: 2023-03-01
 contextual_links:
   - type: section

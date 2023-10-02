@@ -1,5 +1,5 @@
 ---
-title: "Select information with the Select block"
+title: "Select values using Postman Flow blocks"
 updated: 2023-08-15
 ---
 

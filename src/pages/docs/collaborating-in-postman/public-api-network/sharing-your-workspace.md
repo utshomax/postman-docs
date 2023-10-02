@@ -1,5 +1,5 @@
 ---
-title: "Sharing your public workspace"
+title: "Share your public workspace with API consumers"
 updated: 2023-03-30
 contextual_links:
   - type: section

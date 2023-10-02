@@ -1,5 +1,5 @@
 ---
-title: "Newman with Docker"
+title: "Run Newman with Docker on macOS, Ubuntu, and Windows"
 updated: 2023-09-26
 contextual_links:
   - type: section

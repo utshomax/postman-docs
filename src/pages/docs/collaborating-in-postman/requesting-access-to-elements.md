@@ -1,5 +1,5 @@
 ---
-title: "Requesting access to elements"
+title: "Request or approve access to Postman elements"
 order: 73
 page_id: "requesting-access-to-elements"
 updated: 2023-05-15

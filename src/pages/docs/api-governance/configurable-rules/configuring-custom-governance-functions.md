@@ -1,5 +1,5 @@
 ---
-title: "Adding custom governance functions"
+title: "Create custom governance functions in Postman"
 updated: 2023-06-15
 ---
 
