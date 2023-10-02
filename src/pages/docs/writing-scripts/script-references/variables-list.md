@@ -206,7 +206,7 @@ The following is a list of dynamic variables whose values are randomly generated
 | **`$randomDomainSuffix`**     | A random domain suffix                          | `org`, `net`, `com`                                                           |
 | **`$randomDomainWord`**       | A random unqualified domain name                | `gwen`, `jaden`, `donnell`                                                    |
 | **`$randomEmail`**            | A random email address                          | `Pablo62@gmail.com`, `Ruthe42@hotmail.com`, `Iva.Kovacek61@hotmail.com`       |
-| **`$randomExampleEmail`**     | A random email address from an “example” domain | `Talon28@example.com`, `Quinten_Kerluke45@example.net`, `Casey81@example.net` |
+| **`$randomExampleEmail`**     | A random email address from an "example" domain | `Talon28@example.com`, `Quinten_Kerluke45@example.net`, `Casey81@example.net` |
 | **`$randomUserName`**         | A random username                               | `Jarrell.Gutkowski`, `Lottie.Smitham24`, `Alia99`                             |
 | **`$randomUrl`**              | A random URL                                    | `https://anais.net`, `https://tristin.net`, `http://jakob.name`               |
 
