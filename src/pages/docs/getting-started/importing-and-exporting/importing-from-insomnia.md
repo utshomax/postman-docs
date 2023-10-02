@@ -1,5 +1,5 @@
 ---
-title: 'Import data from Insomnia'
+title: "Import data from Insomnia"
 updated: 2023-08-30
 contextual_links:
   - type: section

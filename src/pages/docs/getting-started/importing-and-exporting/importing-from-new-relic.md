@@ -1,5 +1,5 @@
 ---
-title: 'Import data from New Relic'
+title: "Import data from New Relic"
 updated: 2023-08-15
 contextual_links:
   - type: section
