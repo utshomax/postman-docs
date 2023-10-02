@@ -24,7 +24,7 @@ contextual_links:
 
 > **[Provisioning with SCIM is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-Postman supports [SCIM](https://datatracker.ietf.org/doc/html/rfc7642) (System for Cross-domain Identity Management), allowing you to automate user provisioning and de-provisioning for your team. With this feature, you can efficiently deploy Postman at scale across your organization and control access to it with your identity provider (IdP).
+Postman supports [SCIM](https://datatracker.ietf.org/doc/html/rfc7642) (System for Cross-domain Identity Management), enabling you to automate user provisioning and de-provisioning for your team. With this feature, you can efficiently deploy Postman at scale across your organization and control access to it with your identity provider (IdP).
 
 You can enable SCIM provisioning with the [SCIM API](#configuring-scim-with-the-scim-api), [Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), or [Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/). You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable SCIM for your team. With SCIM enabled, users won't have the option to leave your team on their own, and won't be able to change their account email or password. Only Team Admins will have the right to remove team members.
 
@@ -68,7 +68,7 @@ Postman supports the following provisioning features:
 
 * **Delete group** - Deletes a user group in Postman. User accounts that were part of the deleted group are deactivated in Postman.
 
-    > User accounts and the data corresponding to them will not be deleted. To permanently delete user accounts and their data, [contact Postman support](https://www.postman.com/support/).
+    > User accounts and the data corresponding to them won't be deleted. To permanently delete user accounts and their data, [contact Postman support](https://www.postman.com/support/).
 
 * **Update group information**
 

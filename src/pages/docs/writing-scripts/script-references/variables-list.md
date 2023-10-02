@@ -24,6 +24,8 @@ Postman uses the [faker library](https://www.npmjs.com/package/@faker-js/faker) 
 
 You can use these variables like any other variable in Postman. Their values are generated at the time of execution and their names start with a `$` symbol, for example `$guid` or `$timestamp`.
 
+> <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> See how to use dynamic variables to create randomized mock data. To try out this collection template, select [Mock data generation](https://www.postman.com/templates/da8ceebc-d4da-478c-ab8a-37634faefc74/Mock-data-generation).
+
 The following is a list of dynamic variables whose values are randomly generated during the request/collection run.
 
 > To use dynamic variables in pre-request or test scripts, you need to use `pm.variables.replaceIn()`, for example `pm.variables.replaceIn('{{$randomFirstName}}')`.

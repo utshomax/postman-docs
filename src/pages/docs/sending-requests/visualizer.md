@@ -1,6 +1,6 @@
 ---
 title: "Visualizing responses"
-updated: 2021-02-17
+updated: 2023-09-26
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -50,10 +50,6 @@ The Visualizer enables you to present your response data in ways that help to ma
 * [Next steps](#next-steps)
 
 ## Visualizing response data
-
-<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/i1jU-kivApg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br/>
 
 To visualize your response data, add code to the __Pre-request__ or __Tests__ [script](/docs/writing-scripts/intro-to-scripts/) for the request. The `pm.visualizer.set()` method will apply your Visualizer code to the data and present it in the __Visualize__ tab when the request runs.
 
@@ -168,6 +164,8 @@ For more examples of Visualizer code in action, add any of the following collect
 * [Various chart and graph examples](https://www.postman.com/postman/workspace/published-postman-templates/collection/223408-f16e1095-c2f7-415f-af26-6bbe3deb10ea?action=share&creator=16724969)
 
     ![Map Visualizer](https://assets.postman.com/postman-docs/v10/visualizer-map-v10.jpg)
+
+> <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> You can see data visualizations in action in a sample collection template. To try out this template, select [Data visualization](https://www.postman.com/templates/c9e72d75-ded7-4135-a721-5d59ddda6d59/Data-visualization).
 
 ## Visualizer API
 
