@@ -1,5 +1,5 @@
 ---
-title: "Run Newman on a collection file you uploaded"
+title: "Upload files with Newman"
 updated: 2022-05-23
 contextual_links:
   - type: section
