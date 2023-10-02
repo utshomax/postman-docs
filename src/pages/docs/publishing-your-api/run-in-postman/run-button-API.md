@@ -1,15 +1,7 @@
 ---
-title: "Coding with Run in Postman"
-order: 110
+title: "Code with Run in Postman buttons"
 updated: 2022-09-21
-page_id: "run_button_API"
-warning: false
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Postman API overview"
-    url: "/docs/developer/postman-api/intro-api/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -22,11 +14,6 @@ contextual_links:
   - type: link
     name: "How to Dynamically Create Custom Environments with Code"
     url: "https://blog.postman.com/how-to-dynamically-create-custom-environments-with-code/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Intro to scripts"
-    url: "/docs/writing-scripts/intro-to-scripts/"
 ---
 
 Some API publishers use **Run in Postman** buttons alongside their own API documentation. If users input data in a developer portal, for example, the Run in Postman API can dynamically inject this provided information as environment variable values into the embedded **Run in Postman** button.
@@ -221,5 +208,5 @@ This will return an array of environments:
 
 After creating a **Run in Postman** button, you can share your API even more widely by creating documentation in a public workspace.
 
-* To learn how to create API documentation in Postman, visit [Documenting your API](/docs/publishing-your-api/documenting-your-api/).
-* To learn how to add your documentation to your public workspaces, visit [Publishing your docs](/docs/publishing-your-api/publishing-your-docs/).
+* To learn how to create API documentation in Postman, visit [API documentation overview](/docs/publishing-your-api/api-documentation-overview/).
+* To learn how to add your documentation to your public workspaces, visit [Publish your docs](/docs/publishing-your-api/publishing-your-docs/).

@@ -1,12 +1,7 @@
 ---
-title: "GitHub"
-updated: 2022-11-29
+title: "Integrate Postman with GitHub"
+updated: 2023-04-15
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -22,13 +17,13 @@ contextual_links:
 
 ---
 
-> **[GitHub Enterprise Server integrations are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
+> **[GitHub Enterprise Server integrations are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
 Back up your Postman collections to GitHub, a cloud-based hosting service for Git repositories, with the Postman to GitHub integration. You can also back up collections to a custom domain on GitHub Enterprise Server.
 
 Setting up a GitHub integration requires you to generate a GitHub personal access token and configure how you would like to back up your collections.
 
-> To import data into Postman from a GitHub repository, see [Importing from GitHub repositories](/docs/getting-started/importing-and-exporting-data/#importing-from-github-repositories).
+> To import data into Postman from a GitHub repository, see [Importing from GitHub repositories](/docs/getting-started/importing-and-exporting/importing-from-git/).
 
 ## Contents
 
@@ -40,7 +35,9 @@ Setting up a GitHub integration requires you to generate a GitHub personal acces
 
 ## API sync with GitHub
 
-With Postman v10, you can connect a GitHub repository to an API in the API Builder. Once connected, you can sync your API's definition and associated collections between Postman and GitHub. You can switch branches, pull changes from the repository, and push changes to the repository, all from within Postman. To learn more about syncing your API with GitHub, see [Using a remote Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/).
+With Postman v10, you can connect a GitHub repository to an API in the API Builder. Once connected, you can sync your API's definition and associated collections between Postman and GitHub. You can switch branches, pull changes from the repository, and push changes to the repository, all from within Postman. To learn more about syncing your API with GitHub, see [API version control overview](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/).
+
+> **The legacy GitHub Sync API schema integration is no longer available.** You can't create new integrations using this legacy integration, and any legacy integrations you created have been removed. Instead, you can [connect your API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/) to sync your API's definition between Postman and GitHub.
 
 ## Generating a GitHub personal access token
 

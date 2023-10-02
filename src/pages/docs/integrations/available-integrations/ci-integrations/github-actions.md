@@ -1,16 +1,10 @@
 ---
-title: "GitHub Actions"
+title: "Integrate Postman with GitHub Actions"
 page_id: "github-actions"
 updated: 2022-08-11
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "CI Integrations"
-    url: "/docs/integrations/ci-integrations/"
 ---
 
-> **[GitHub Actions self-hosted runners are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
+> **[GitHub Actions self-hosted runners are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
 [GitHub Actions](https://docs.github.com/en/actions) is a continuous integration and continuous delivery (CI/CD) service that's integrated with GitHub. Software development teams can use GitHub Actions to automatically build, test, and deploy code in GitHub.
 
@@ -68,8 +62,6 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 Using the Postman CLI, you can run Postman collections with your API tests as part of a GitHub Actions pipeline.
 
 To view details for collections that were run as part of a build, first [configure the Postman CLI for GitHub](#configuring-the-postman-cli-for-github-actions) and then start a new build in GitHub. To learn more about starting builds, see [the GitHub Actions documentation](https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow). After the build is complete, use the arrows to expand a build and expand a collection to view details about a collection run.
-
-<img alt="View GitHub Actions collection runs" src="https://assets.postman.com/postman-docs/v10/github-actions-collection-runs-v10.jpg">
 
 > Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 

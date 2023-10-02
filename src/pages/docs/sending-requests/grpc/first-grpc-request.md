@@ -1,5 +1,5 @@
 ---
-title: "Invoking your first gRPC request"
+title: "Invoke a gRPC request in Postman"
 updated: 2022-09-15
 contextual_links:
   - type: section
@@ -47,11 +47,11 @@ gRPC supports four types of methods that allow the client and server to interact
 
 This example will create and execute a unary request. To learn about invoking the other method types, see [Using the gRPC request interface](/docs/sending-requests/grpc/grpc-request-interface/).
 
-> If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/about-postman-agent/) for more information.
+> If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/basics/about-postman-agent/) for more information.
 
-1. In Postman, select  **New > gRPC Request** to open a request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**, then select **gRPC Request**.)
+1. In Postman, select  **New > gRPC** to open a request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**, then select **gRPC**.)
 
-    <img src="https://assets.postman.com/postman-docs/v10/grpc-new-request.gif" alt="New gRPC request" />
+    <img src="https://assets.postman.com/postman-docs/v10/create-new-grpc-v10.jpg" alt="New gRPC request" width="500px"/>
 
 1. Enter a URL into **Server URL**. For this example, use the Postman gRPC echo service, which is `grpc.postman-echo.com`.
 

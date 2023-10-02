@@ -1,12 +1,6 @@
 ---
-title: 'Okta'
+title: "Okta"
 updated: 2023-01-19
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Configuring SSO for a team"
-    url: "/docs/administration/sso/admin-sso/"
 ---
 
 > **[SSO with Okta is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
@@ -33,7 +27,7 @@ To continue configuring SSO with Okta, choose one of the following:
 
 ### Configuring SSO using the Postman app
 
-To continue configuring your Postman app, do the following:
+To continue configuring your Postman app using the [Postman integration on Okta](https://www.okta.com/integrations/postman/), do the following:
 
 1. Open your Okta admin console in a new tab.
 

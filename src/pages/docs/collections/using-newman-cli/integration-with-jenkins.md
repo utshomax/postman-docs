@@ -1,13 +1,6 @@
 ---
-title: "Integrating with Jenkins"
-order: 64
-page_id: "integration_with_jenkins"
+title: "Integrate your Postman tests with Jenkins using Newman"
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Command-line integration with Newman"
-    url: "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -23,13 +16,6 @@ contextual_links:
   - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Postman API overview"
-    url: "/docs/developer/postman-api/intro-api/"
-
-warning: false
 tags:
   - "newman"
 updated: 2022-01-14
@@ -69,7 +55,7 @@ For this example, you'll need a Postman Collection that contains a few requests 
 
 To demonstrate the troubleshooting process, edit a request and intentionally break one of the tests. For example, change the final test so that it looks for the text "Hello, Everyone!" instead of "Hello, World!"
 
-After you've created the collection, [export it as a JSON file](/docs/getting-started/importing-and-exporting-data/).
+After you've created the collection, [export it as a JSON file](/docs/getting-started/importing-and-exporting/exporting-data/).
 
 ## Set up Jenkins
 

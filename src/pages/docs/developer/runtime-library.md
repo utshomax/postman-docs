@@ -1,22 +1,9 @@
 ---
-title: "Postman Runtime library"
+title: "Configure request and collection runs using the Postman Runtime library"
 order: 149
 updated: 2022-07-20
 page_id: "runtime_library"
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Continuous Integration"
-    url: "/docs/collections/using-newman-cli/continuous-integration/"
-
 warning: false
-
 ---
 
 The Postman Runtime library supports request sending and [collection running](/docs/collections/running-collections/intro-to-collection-runs/) in Postman as well as in other interfaces including [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner.

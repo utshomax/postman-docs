@@ -1,6 +1,6 @@
 ---
-title: "Reports overview"
-updated: 2022-05-19
+title: "View reports on usage, security, and billing in Postman"
+updated: 2023-06-15
 warning: false
 contextual_links:
   - type: section
@@ -10,20 +10,15 @@ contextual_links:
   - type: link
     name: "Introducing New Postman Reports for Enterprises"
     url: "https://blog.postman.com/introducing-new-postman-reports-for-enterprises/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Validating APIs against schema"
-    url: "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 ---
 
 > [__Reports are available on all Postman Enterprise plans.__](https://www.postman.com/pricing)
 
 Postman generates reports that enable you to visualize data for how your team uses Postman. These reports give you insights into the state of your APIs, including tests, documentation, and monitoring coverage. They also enable you to track performance and SLA adherence.
 
-Access your reports in your [Postman reports dashboard](https://go.postman.co/reports/summary).
+Access your reports in your [Postman reports dashboard](https://go.postman.co/reports/overview).
 
-<img alt="The Postman reports dashboard" src="https://assets.postman.com/postman-docs/dashboard-reports-overview.jpg" width="1200px"/>
+<img alt="The Postman reports dashboard" src="https://assets.postman.com/postman-docs/v10/dashboard-reports-overview-v10.jpg" width="1200px"/>
 
 * [Getting started with reports](#getting-started-with-reports)
     * [Report availability](#report-availability)
@@ -33,7 +28,7 @@ Access your reports in your [Postman reports dashboard](https://go.postman.co/re
 
 ## Getting started with reports
 
-Reports give information about activity in Postman, including [sharing your API](/docs/designing-and-developing-your-api/managing-apis/), [adding a collection to the API](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/#adding-a-collection), and [sending a request](/docs/sending-requests/requests/) from the collection.
+Reports give information about various aspects of your team and plan, including [member](/docs/reports/members-overview-reports/) and [content](/docs/reports/content-activity-reports/) activity, [API security](/docs/reports/api-security-reports/), and [billing and overage](/docs/reports/billing-overview-reports/) information.
 
 To view your reports dashboard:
 
@@ -41,7 +36,7 @@ To view your reports dashboard:
 
 To access a specific API's report, do the following:
 
-1. On the report dashboard, select **All APIs > View Report by API**.
+1. On the report dashboard, select **Content activity > View report by API**.
 1. Search for the API name, or scroll through the list to find it.
 
     > You can also access the report for a specific API by going to the [API's overview page](/docs/designing-and-developing-your-api/the-api-workflow/#navigating-the-api-builder) and select **Reports**.

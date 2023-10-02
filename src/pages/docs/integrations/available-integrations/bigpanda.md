@@ -1,15 +1,10 @@
 ---
-title: "BigPanda"
+title: "Integrate Postman with BigPanda"
 order: 164
 updated: 2022-10-13
 page_id: "bigpanda"
 warning: false
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
   - type: section
     name: "Additional resources"
   - type: subtitle

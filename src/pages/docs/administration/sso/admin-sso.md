@@ -1,12 +1,7 @@
 ---
-title: "Configuring SSO for a team"
+title: "Configure SSO for a team"
 updated: 2023-02-06
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Intro to SSO"
-    url: "/docs/administration/sso/intro-sso/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -133,7 +128,7 @@ By default, Postman only supports Service Provider (Postman)-initiated sign ins 
 
 ### Removing team access
 
-You must [remove users from your team in Postman](/docs/administration/managing-your-team/managing-your-team/#removing-team-members) to prevent access to shared resources. When you remove a user from your team, you'll still retain access to any data they have shared with the team. You'll also be able to reassign their personal workspaces and the data within them to a remaining team member. This way the team doesn't lose access to any unshared work.
+You must remove users from your team in Postman to prevent access to shared resources. When you remove a user from your team, you'll still retain access to any data they have shared with the team. You'll also be able to reassign their personal workspaces and the data within them to a remaining team member in some situations. To learn more, see [Removing team members](/docs/administration/managing-your-team/managing-your-team/#removing-team-members).
 
 ## Troubleshooting
 

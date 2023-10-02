@@ -1,5 +1,5 @@
 ---
-title: "GitLab CI/CD"
+title: "Integrate Postman with GitLab CI/CD"
 updated: 2022-09-15
 contextual_links:
   - type: section
@@ -11,7 +11,7 @@ contextual_links:
     url: "https://youtu.be/SrXDe_drkrc"
 ---
 
-> **[GitLab Self-Managed integrations are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
+> **[GitLab Self-Managed integrations are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
 [GitLab CI/CD](https://docs.gitlab.com/ee/ci/) is a continuous integration and continuous delivery (CI/CD) service that's integrated with GitLab SaaS and GitLab self-managed. Software development teams can use GitLab CI/CD to automatically build, test, and deploy code in GitLab.
 
@@ -69,8 +69,6 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 Using the Postman CLI, you can run Postman collections with your API tests as part of a GitLab pipeline. The Postman cloud reporter can send details about the collection runs back to Postman.
 
 To view details for collections that were run as part of a build, first [configure the Postman CLI for GitLab](#configuring-the-postman-cli-for-gitlab-cicd) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand a collection to view details about a collection run.
-
-<img alt="View collection runs" src="https://assets.postman.com/postman-docs/v10/collection-runs-v10-2.jpg">
 
 > Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 

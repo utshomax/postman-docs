@@ -1,18 +1,9 @@
 ---
-title: "Writing tests"
+title: "Write API test scripts in Postman"
 order: 43
 page_id: "test_scripts"
 updated: 2022-08-31
-search_keyword: "pm.response, pm.test, pm.expect"
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
-  - type: link
-    name: "Receiving responses"
-    url:  "/docs/sending-requests/responses/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -21,11 +12,11 @@ contextual_links:
     name: "Intro to Postman | Write API Tests"
     url: "https://youtu.be/EVg6gxeiUd0"
   - type: link
-    name: "Intro to Postman | Advanced API Tests"
-    url: "https://youtu.be/vVDZxeS865g"
+    name: "Testing APIs | Postman Enterprise"
+    url: "https://youtu.be/-Nkvs69-LNE"
   - type: link
-    name: "Review Test Results in Postman | The Exploratory"
-    url: "https://youtu.be/S3GKLTVRtmE"
+    name: "Advanced API testing: Best Practices and Automation Techniques | Postman Intergalactic"
+    url: "https://youtu.be/Ix6z1kBweuk"
   - type: dynamic_blog
     name: "Blog posts"
     blog_tag: "testing"
@@ -35,30 +26,18 @@ contextual_links:
     name: "SEI Novus keeps data in sync with financial market changes using tests"
     url: "https://www.postman.com/case-studies/sei-novus/"
   - type: link
-    name: "VTEX monitors data by running tests every two minutes"
-    url: "https://www.postman.com/case-studies/vtex/"
+    name: "Visma reduces bug fixing time to under ten minutes with tests"
+    url: "https://www.postman.com/case-studies/visma/"
   - type: subtitle
     name: "Public workspaces"
   - type: link
     name: "Test examples in Postman"
     url: "https://www.postman.com/postman/workspace/test-examples-in-postman/overview"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Test Examples"
-    url: "/docs/writing-scripts/script-references/test-examples/"
-  - type: link
-    name: "Using variables"
-    url: "/docs/sending-requests/variables/"
-  - type: link
-    name: "Postman Sandbox API reference"
-    url:  "/docs/writing-scripts/script-references/postman-sandbox-api-reference/"
-
 warning: false
 
 ---
 
-Tests confirm that your API is working as expected, that integrations between services are functioning reliably, and that any changes haven't broken existing functionality. You can write test scripts for your Postman API requests in JavaScript. You can also use test code to aid the debugging process when something goes wrong with your API project. For example, you might write a test to validate your API's error handling by sending a request with incomplete data or wrong parameters.
+[Tests](https://www.postman.com/api-platform/api-testing/) confirm that your API is working as expected, that integrations between services are functioning reliably, and that any changes haven't broken existing functionality. You can write test scripts for your Postman API requests in JavaScript. You can also use test code to aid the debugging process when something goes wrong with your API project. For example, you might write a test to validate your API's error handling by sending a request with incomplete data or wrong parameters.
 
 ## Contents
 
@@ -70,6 +49,7 @@ Tests confirm that your API is working as expected, that integrations between se
     * [Using snippets](#using-snippets)
 * [Testing collections and folders](#testing-collections-and-folders)
 * [Debugging your steps](#debugging-your-tests)
+* [Using Postbot to write tests](#using-postbot-to-write-tests)
 * [Next steps](#next-steps)
 
 ## Adding tests
@@ -79,6 +59,8 @@ You can add tests to individual [requests](/docs/sending-requests/requests/), [c
 To add tests to a request, open the request and enter your code in the **Tests** tab. Tests will execute after the request runs. The output is in the response's __Test Results__ tab.
 
 ![Request Test Tab](https://assets.postman.com/postman-docs/request-test-tab-v9.jpg)
+
+> <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> See how to work with the Postman basic test syntax to test a single HTTP API request in a sample collection template. To try out this template, select [API testing basics](https://www.postman.com/templates/e9a37a28-055b-49cd-8c7e-97494a21eb54/API-testing-basics).
 
 ### Adding tests to gRPC requests
 
@@ -179,10 +161,27 @@ If you are having trouble with your tests:
 * Check if there are any errors in your scripts. A red badge will highlight scripts with errors. You can also check the response section for specific errors.
 * Debug your tests using the [log statements](/docs/sending-requests/troubleshooting-api-requests/#using-log-statements) to ensure that you are asserting on correct data.
 
+## Using Postbot to write tests
+
+Not sure how to write an test script for your request? Ask Postbot! Tell Postbot what you want to do using plain language, and Postman uses artificial intelligence to generate test scripts for you. Use Postbot to add a new set of tests, visualize responses, save a field from a response, fix your existing tests, and more.
+
+To write a test with Postbot, do the following:
+
+1. Send your request so it has a response.
+1. Select the **Tests** tab.
+1. In the **Script with Postbot** section next to your test, select the Postbot icon <img alt="Postbot icon" src="https://assets.postman.com/postman-docs/v10/icon-postbot-v10-16.jpg#icon" width="18px">.
+1. Enter your query as a simple text sentence, or select one of the suggested queries to tell Postbot what you need.
+
+      <img alt="Postbot writing a test" src="https://assets.postman.com/postman-docs/v10/postbot-add-test-v10-16.gif" width="300px" />
+
+1. Select the play button. Postbot writes a test for you.
+
+For more information on Postbot, visit [About Postbot](/docs/getting-started/basics/about-postbot/).
+
 ## Next steps
 
 After writing tests in Postman, you could write more complex tests and use them with other Postman utilities.
 
 * For more information about what you can do using the `pm` object, check out some test script [examples](/docs/writing-scripts/script-references/test-examples/) and visit the [Postman Sandbox API reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/).
 * To learn how to use tests in conjunction with monitoring, which enables you to confirm that your API meets performance requirements, visit [Monitoring your APIs](/docs/monitoring-your-api/intro-monitors/).
-* To learn how to automate your testing by integrating collection runs within your CI/CD configuration, visit [Integrating with Travis CI](/docs/collections/using-newman-cli/integration-with-travis/).
+* To learn how to [automate your testing](https://www.postman.com/api-platform/api-test-automation/) by integrating collection runs within your CI/CD configuration, visit [Integrating with Travis CI](/docs/collections/using-newman-cli/integration-with-travis/).

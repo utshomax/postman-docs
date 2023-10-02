@@ -1,12 +1,7 @@
 ---
-title: "Using gRPC mock servers"
+title: "Create and use gRPC mock servers"
 updated: 2022-09-15
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Invoke your first gRPC request"
-    url: "/docs/sending-requests/grpc/first-grpc-request/"
   - type: section
     name: "Additional resources"
   - type: subtitle

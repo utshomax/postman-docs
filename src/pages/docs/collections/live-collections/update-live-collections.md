@@ -1,5 +1,5 @@
 ---
-title: "Updating Live Collections"
+title: "Update your Live Collection manually or automatically"
 updated: 2023-03-15
 ---
 
@@ -35,6 +35,10 @@ To manually update a Live Collection, do the following:
 
     <img alt="Live Collections review changes" src="https://assets.postman.com/postman-docs/v10/live-collections-review-changes.jpg" />
 
+1. If you made changes in your Live Collection and the same component is changed by incoming changes from the service, a conflict will occur. These conflicts are shown when you review incoming changes. You can select if you want to keep user updates or service updates for each part of the conflicted requests.
+
+    <img alt="Live Collections conflict" src="https://assets.postman.com/postman-docs/v10/live-collection-conflict.jpg" />
+
 1. Select **Update Collection** to accept the changes and update the collection, or select **Reject all** to ignore them.
 
 ## Viewing changes in a Live Collection
@@ -43,6 +47,6 @@ To see changes made to a Live Collection, use the collection changelog. The chan
 
 To see the changelog, open the collection and select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> in the right sidebar. You can also hover over the Live Collections icon <img alt="Live collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> next to the collection name, then select **View recent changes**.
 
-<img alt="Changelog view" src="https://assets.postman.com/postman-docs/v10/changelog-view.jpg" width="350px"/>
+<img alt="Changelog view" src="https://assets.postman.com/postman-docs/v10/changelog-view-v10-15.jpg" width="350px"/>
 
-For more information, see [Viewing the collection changelog](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#viewing-the-collection-changelog).
+For more information, see [Viewing collection activity](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#viewing-collection-activity).

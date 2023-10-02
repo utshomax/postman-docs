@@ -1,15 +1,10 @@
 ---
-title: "Managing environments"
+title: "Group sets of variables in Postman using environments"
 order: 25
 updated: 2022-11-16
 page_id: "managing-environments"
 search_keyword: "pm.globals.set, globals.set, pm.environment.set, environment.set, pm.variables.get, variables.get, pm.globals.get, globals.get, pm.environment.get, environment.get"
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Using variables"
-    url:  "/docs/sending-requests/variables/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -36,18 +31,6 @@ contextual_links:
   - type: link
     name: "Hathway uses separate environments for each client"
     url: "https://www.postman.com/case-studies/hathway/"
-  - type: link
-    name: "VideoAmp uses environments to test updates"
-    url: "https://www.postman.com/case-studies/videoamp/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Collaborating with your team"
-    url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
-  - type: link
-    name: "Version control overview"
-    url:  "/docs/collaborating-in-postman/using-version-control/version-control-overview/"
-
 warning: false
 
 ---
@@ -94,6 +77,8 @@ To create a new environment, do the following:
 1. Enter a name for your environment, and initialize it with any variables you need. You can also specify variables for the environment later.
 
 1. Select __Save__ to save any environment variables you have added.
+
+> You can turn on autosave to automatically save your changes to collections, requests, and environments. Learn more about [autosave](/docs/getting-started/installation/settings/#application).
 
 ### Adding environment variables
 
@@ -148,7 +133,7 @@ To use an environment variable value in a request, reference it by name, surroun
 
 You can use the same variable notation in request URLs, parameters, headers, and body data.
 
-<img alt="Environment var reference" src="https://assets.postman.com/postman-docs/env-hover-v8.jpg" width="400px"/>
+<img alt="Environment var reference" src="https://assets.postman.com/postman-docs/v10/env-hover-v10.jpg" width="500px"/>
 
 Hover over a variable reference to get its current value.
 
@@ -164,7 +149,7 @@ pm.environment.get("variable_key");
 
 ### Editing environment variables
 
-You can edit variables either by opening an environment from __Environments__ on the left, or by selecting the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> next to the [environment selector in the workbench](/docs/getting-started/navigating-postman/#environment-selector-and-environment-quick-look) and selecting __Edit__. You can sort the list of variables by selecting any column heading to toggle between alphabetical ascending or descending order and custom order. To sort the list by a custom order, clear the active sort then drag rows to reorder using the handle on the left-hand side.
+You can edit variables either by opening an environment from __Environments__ on the left, or by selecting the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> next to the [environment selector in the workbench](/docs/getting-started/basics/navigating-postman/#environment-selector-and-environment-quick-look) and selecting __Edit__. You can sort the list of variables by selecting any column heading to toggle between alphabetical ascending or descending order and custom order. To sort the list by a custom order, clear the active sort then drag rows to reorder using the handle on the left-hand side.
 
 > You will only be able to edit environments where you have [Editor access](#requesting-environment-access).
 
@@ -218,7 +203,7 @@ You can share environments to personal, private, team, and public workspaces tha
 
 > Refer to [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) for information on workspace access control within your team.
 
-Select the workspace, then **Move**  **Environment**.
+Select the workspace, then **Move Environment**.
 
 <img alt="Move environment" src="https://assets.postman.com/postman-docs/move-environment-v9.1.jpg" width="400px"/>
 

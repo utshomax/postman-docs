@@ -1,14 +1,9 @@
 ---
-title: "Integrating with Travis CI"
+title: "Integrate your Postman tests with Travis CI using Newman"
 order: 63
 page_id: "integration_with_travis"
 updated: 2022-1-14
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Running collections on the command line with Newman"
-    url: "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -16,19 +11,9 @@ contextual_links:
   - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Postman API overview"
-    url: "/docs/developer/postman-api/intro-api/"
-  - type: link
-    name: "CI Integrations"
-    url: "/docs/integrations/ci-integrations/"
-
 warning: false
 tags:
   - "newman"
-
 ---
 
 Continuous integration (CI) is a development practice that encourages developers to regularly commit their code changes to a shared repository, usually several times a day. Committing early and often helps the team avoid technical debt and detect problems.
@@ -57,7 +42,7 @@ This example shows you how to integrate Postman with [Travis CI](https://travis-
 
 ## Connecting Postman to Travis CI
 
-1. [Export the "Hello World" collection](/docs/getting-started/importing-and-exporting-data/) as a JSON file and rename the exported file `hello_world.postman_collection.json`.
+1. [Export the "Hello World" collection](/docs/getting-started/importing-and-exporting/exporting-data/) as a JSON file and rename the exported file `hello_world.postman_collection.json`.
 
 1. Create a folder named `tests` at the root of your local project, and move the exported JSON file into the new `tests` folder.
 
@@ -126,7 +111,7 @@ To view a failed test, do the following:
 
 1. Change the final test so that it looks for the text "Hello, Everyone!" instead of "Hello, World!"
 
-    [![Tests tab error](https://assets.postman.com/postman-docs/travis-ci-test-error-example-v9-9.jpg)](https://assets.postman.com/postman-docs/travis-ci-test-error-example-v9-9.jpg)
+    ![Tests tab error](https://assets.postman.com/postman-docs/v10/travis-ci-test-error-example-v10-2.jpg)
 
 1. Save the change and then export the collection again. As before, rename the exported file `hello_world.postman_collection.json` and move it into the `tests` directory in your local project.
 

@@ -1,13 +1,8 @@
 ---
-title: "Postman API rate limits"
+title: "Track Postman API call limits"
 updated: 2022-11-30
 search_keyword: "postman-api, api-rate-limits, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset"
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Postman API authentication"
-    url: "/docs/developer/postman-api/authentication/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -37,11 +32,6 @@ contextual_links:
   - type: link
     name: "Postman API definition"
     url:  "https://www.postman.com/postman/workspace/postman-public-workspace/api/72a32ca3-f06a-4e83-a933-2821a0e6616f/definition/d429098b-1789-4c62-b77b-cf02024aba53?view=documentation"
-  - type: subtitle
-    name: "Next steps"
-  - type: link
-    name: "Continuous Integration"
-    url: "/docs/running-collections/using-newman-cli/continuous-integration/"
 ---
 
 Postman's API access rate limits are applied at a per-key basis in unit time.
@@ -58,4 +48,4 @@ Access to the API using a key is limited to **300 requests per minute**. Every A
 
 Your Postman account gives you a limited number of free Postman API calls per month. You can check your usage limits with the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) or the [resource usage page](https://go.postman.co/billing/add-ons/overview).
 
-To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).
+To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/billing/resource-usage/).

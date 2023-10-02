@@ -1,12 +1,7 @@
 ---
-title: "Version control overview"
+title: "API version control in Postman"
 updated: 2022-11-17
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in Collections"
-    url: "/docs/sending-requests/intro-to-collections/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -14,6 +9,9 @@ contextual_links:
   - type: link
     name: "Version Control for Collections | Postman Level Up"
     url: "https://www.youtube.com/watch?v=QKxukXJWRPI&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=7"
+  - type: link
+    name: "Collaboration & Documentation | Postman Enterprise"
+    url: "https://youtu.be/u1yEOo0dPfk"
   - type: subtitle
     name: "Blog posts"
   - type: link
@@ -27,11 +25,6 @@ contextual_links:
   - type: link
     name: "Youi uses version control to build and test updates locally before merging"
     url: "https://www.postman.com/case-studies/youi/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Versioning APIs"
-    url: "/docs/designing-and-developing-your-api/versioning-an-api/"
 ---
 
 Postman's _version control_ features can help you and your team to collaboratively build an API. You can fork a collection or environment, make updates to the fork, create a pull request, and merge your changes into the parent element.
@@ -40,7 +33,7 @@ Postman's _version control_ features can help you and your team to collaborative
 
 ## Forking Postman entities
 
-You can fork collections, environments, and flows from a parent element. Forking enables you to contribute to an element without having Editor access to that element.
+You can fork collections, environments, and Flows from a parent element. Forking enables you to contribute to an element without having Editor access to that element.
 
 Learn more about [forking Postman entities](/docs/collaborating-in-postman/using-version-control/forking-entities/).
 

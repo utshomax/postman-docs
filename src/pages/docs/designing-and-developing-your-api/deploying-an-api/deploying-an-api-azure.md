@@ -1,15 +1,9 @@
 ---
-title: 'Deploying to Azure API Management'
-page_id: 'deploying_an_api_azure'
+title: "Manage API deployments to Azure API Management in Postman"
 updated: 2022-09-15
 search_keyword: "deploy, azure, api management"
 warning: false
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Developing an API"
-    url: "/docs/designing-and-developing-your-api/developing-an-api/"
   - type: section
     name: "Additional resources"
   - type: subtitle

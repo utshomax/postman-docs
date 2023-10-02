@@ -1,15 +1,9 @@
 ---
-title: "Building request workflows"
+title: "Customize request order in a collection run"
 order: 57
 page_id: "building_workflows"
 updated: 2021-12-16
-search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Intro to scripts"
-    url: "/docs/writing-scripts/intro-to-scripts/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -38,7 +32,7 @@ In the Collection Runner, you have the option to change the order of the request
 
 As the name suggests, `postman.setNextRequest()` enables you to specify which request Postman runs next, following the current request. Using this function, you can build custom workflows that chain requests, running them one after the other in a specific order.
 
-<img alt="Setting the next request" src="https://assets.postman.com/postman-docs/set-next-request-v9-4.jpg" width="841px">
+<img alt="Setting the next request" src="https://assets.postman.com/postman-docs/v10/set-next-request-v10-2.jpg">
 
 ## Setting the next request
 
@@ -54,7 +48,7 @@ Postman runs the specified request after completing the current request.
 
 If you pass the name of the current request to the `setNextRequest` function, Postman will run the current request repeatedly.
 
-<img alt="Looping over a request" src="https://assets.postman.com/postman-docs/set-next-request-loop-v9-4.jpg" width="841px">
+<img alt="Looping over a request" src="https://assets.postman.com/postman-docs/v10/set-next-request-loop-v10-2.jpg">
 
 > **Important!** Make sure to wrap `setNextRequest` in some additional logic so the request doesn't loop indefinitely. For example, you might exit the loop after a certain number of iterations or when another condition is met. Otherwise you will need to force close the Collection Runner to end the loop.
 

@@ -111,6 +111,9 @@ pre {
   font-family: 'IBM Plex Mono',SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace !important;
   line-height: 24px;
   margin-bottom: 0px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 .code-ref-table {
@@ -247,7 +250,15 @@ const DocContent = styled.div`
     display: block;
     border: none !important;
   }
-
+ 
+  // Doc inline link styling
+  & a:hover,
+  a:active {
+      transition: all 0.2s ease-in-out;
+      text-decoration: none;
+      colot: ${(props) => props.theme.colors.blue_60};
+      border-bottom: 1px solid !important;
+  }
   
 `
 

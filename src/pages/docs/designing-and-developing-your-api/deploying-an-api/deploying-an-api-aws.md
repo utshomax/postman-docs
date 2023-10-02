@@ -1,13 +1,7 @@
 ---
-title: 'Deploying to an Amazon API Gateway'
+title: "Manage API deployments to Amazon API Gateway in Postman"
 updated: 2022-09-15
-search_keyword: "deploy, aws, api gateway"
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "API development overview"
-    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
   - type: section
     name: "Additional resources"
   - type: subtitle

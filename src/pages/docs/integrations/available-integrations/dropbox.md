@@ -1,18 +1,9 @@
 ---
-title: "Dropbox"
-order: 167
-updated: 2022-10-12
-page_id: "dropbox"
-warning: false
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
+title: "Integrate Postman with Dropbox"
+updated: 2023-04-13
 ---
 
-Back up and synchronize your Postman Collections on Dropbox for file sharing, storage, and collaboration. The Postman to Dropbox integration complements your existing workflows and allows you to store your Postman Collections and other project files in one place.
+Back up and synchronize your Postman Collections on Dropbox for file sharing, storage, and collaboration. The Postman to Dropbox integration complements your existing workflows and allows you to store your collections and other project files in one place.
 
 ## Contents
 
@@ -23,7 +14,7 @@ Back up and synchronize your Postman Collections on Dropbox for file sharing, st
 
 1. From the **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 
-    <img alt="Home page and integrations" src="https://assets.postman.com/postman-docs/v10/home-integrations-v10.jpg" width="390px">
+    <img alt="Home page and integrations" src="https://assets.postman.com/postman-docs/v10/home-integrations-v10-2.jpg" width="390px">
 
 1. Select **[Browse All Integrations](https://go.postman.co/integrations/browse?category=all)**.
 
@@ -38,7 +29,7 @@ Back up and synchronize your Postman Collections on Dropbox for file sharing, st
 1. Enter the following in the **Add integration** window:
 
     * **Nickname** - A nickname for your integration.
-    * **Workspace** - The workspace that contains your collection.
+    * **Workspace** - The workspace that has your collection.
     * **Collection** - The collection you would like uploaded to Dropbox.
     * **Filename** - The name of the JSON file in Dropbox.
 

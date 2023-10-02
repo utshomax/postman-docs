@@ -1,12 +1,7 @@
 ---
-title: "Watching pull requests"
+title: "Watch pull requests in Postman"
 updated: 2022-11-17
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Version control overview"
-    url: "/docs/collaborating-in-postman/using-version-control/version-control-overview/"
   - type: section
     name: "Additional resources"
   - type: subtitle

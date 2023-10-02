@@ -9,7 +9,14 @@ contextual_links:
   - type: link
     name: "Postman 101 for Admins | Webinar"
     url: "https://youtu.be/d6pw-0Yy5fs"
-
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "PayPal uses SSO to onboard developers"
+    url: "https://www.postman.com/case-studies/paypal/"
+  - type: link
+    name: "Western Governors University (WGU) uses SSO to create teams"
+    url: "https://www.postman.com/case-studies/wgu/"
 ---
 
 > **[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
@@ -59,9 +66,9 @@ Enterprise plans:
 
 ## SSO setup for SAML 2.0 compliant IdPs
 
-Most SAML 2.0 compliant identity providers require the same information about the service provider for setup (Postman is the service provider). These values are specific to a Postman team and are available after [configuring SSO](/docs/administration/sso/admin-sso/).
+Most SAML 2.0 compliant identity providers require the same information about the service provider for setup (Postman is the service provider). These values are specific to a Postman team and are available while [configuring SSO](/docs/administration/sso/admin-sso/).
 
-> While configuring your IdP, make sure the user’s email address is set in attribute statements.
+> While configuring your IdP, make sure to set your users' email address in SAML attributes and claims. Postman expects to receive an email address from your IdP to identify each user.
 
 <!-- -->
 

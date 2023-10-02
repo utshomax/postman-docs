@@ -1,15 +1,10 @@
 ---
-title: "Travis CI"
+title: "Integrate Postman with Travis CI"
 order: 164.4
 page_id: "travisci"
 updated: 2022-09-15
 warning: false
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "CI Integrations"
-    url: "/docs/integrations/ci-integrations/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -54,7 +49,15 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 * To get the latest build status information, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
-<img alt="View all Travis CI builds" src="https://assets.postman.com/postman-docs/v10/collection-runs-v10-2.jpg">
+<img alt="View all Travis CI builds" src="https://assets.postman.com/postman-docs/v10/collection-runs-travisci-v10-16.jpg">
+
+## Viewing collection run details
+
+Using the Postman CLI, you can run Postman collections with your API tests as part of a Travis CI pipeline.
+
+To view details for collections that were run as part of a build, first [configure the Postman CLI for Travis CI](#configuring-the-postman-cli-for-travis-ci) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand a collection to view details about a collection run.
+
+> Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 
 ## Viewing API Governance and API Security rule violations
 
@@ -62,7 +65,7 @@ Using the Postman CLI, you can enforce [Postman API Governance and API Security 
 
 To view the results of API Governance and API Security checks that ran as part of the build, first [configure the Postman CLI for Travis CI](#configuring-the-postman-cli-for-travis-ci) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand an API definition to view any rule violations.
 
-<img alt="View API Governance and API Security results" src="https://assets.postman.com/postman-docs/v10/api-governance-and-security-results-v10.jpg">
+<img alt="View API Governance and API Security results" src="https://assets.postman.com/postman-docs/v10/api-governance-and-security-results-travisci-v10-16.jpg">
 
 ## Configuring the Postman CLI for Travis CI
 

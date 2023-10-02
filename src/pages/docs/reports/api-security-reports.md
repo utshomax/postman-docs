@@ -1,12 +1,7 @@
 ---
-title: "API Security reports"
+title: "View reports about API security metrics"
 updated: 2023-01-18
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "API Governance and API Security in Postman"
-    url: "/docs/api-governance/api-governance-overview/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -22,7 +17,7 @@ The **API Security** report dashboard provides metrics relevant to the [API Secu
 * [Public APIs](#public-apis)
 * [Private Network APIs](#private-network-apis)
 
-You can use these reports to answer questions about the security posture of APIs owned by your team that are part of the [Public API Network](/docs/getting-started/exploring-public-api-network/) and your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
+You can use these reports to answer questions about the security posture of APIs owned by your team that are part of the [Public API Network](/docs/getting-started/first-steps/exploring-public-api-network/) and your team's [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/).
 
 ## API Security
 
@@ -50,7 +45,7 @@ For specific details about the APIs in the **Current API landscape** and **Top 3
 
 ## Private Network APIs
 
-The **Private Network APIs** report provides the following information for APIs in your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/) over the past 30 days:
+The **Private Network APIs** report provides the following information for APIs in your team's [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/) over the past 30 days:
 
 * **Conformance** - The number of APIs in your team's Private API Network that don't have any API Security rule violations.
 * **Non-conformance** - The average number of API Security rule violations per API in your team's Private API Network.

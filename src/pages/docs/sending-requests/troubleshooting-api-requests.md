@@ -1,12 +1,7 @@
 ---
-title: "Troubleshooting requests"
+title: "Debug API requests using Postman Console"
 updated: 2021-12-22
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -22,18 +17,12 @@ contextual_links:
   - type: link
     name: "Powerful Debugging with the Postman Console"
     url: "https://blog.postman.com/powerful-debugging-with-the-postman-console/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Using the Collection Runner"
-    url: "/docs/collections/running-collections/intro-to-collection-runs/"
-
 warning: false
 ---
 
 If your API request isn't behaving as expected, there can be many possible reasons. To find out what the problem is, you can use the Postman Console to troubleshoot your request. This guide also lists common issues and their causes.
 
-> This guide specifically discusses troubleshooting API requests. To troubleshoot issues with the Postman app, see [Troubleshooting app issues](/docs/getting-started/troubleshooting-inapp/). To troubleshoot issues with Postman Monitors, see [Troubleshooting monitors](/docs/monitoring-your-api/troubleshooting-monitors/).
+> This guide specifically discusses troubleshooting API requests. To troubleshoot issues with the Postman app, see [Troubleshoot app issues](/docs/introduction/troubleshooting-inapp/). To troubleshoot issues with Postman Monitors, see [Troubleshooting monitors](/docs/monitoring-your-api/troubleshooting-monitors/).
 
 ## Contents
 
@@ -65,7 +54,7 @@ Open the console by selecting <img alt="Console icon" src="https://assets.postma
 
 You will get an error message if Postman isn't able to send your request, or if it doesn't receive a response from the API you sent the request to. This message will include an overview of the issue and a link to the console, where you can access detailed information about the request.
 
-![Request not sent](https://assets.postman.com/postman-docs/response-error-console-link-v8.jpg)
+![Request not sent](https://assets.postman.com/postman-docs/v10/response-error-console-link-v10.jpg)
 
 Select __View in Console__ to inspect the request details in the console and find out more about what went wrong.
 
@@ -91,7 +80,7 @@ Using log statements at appropriate locations in your test scripts can help you 
 * `console.error()`
 * `console.clear()`
 
-[![Console info](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)
+![Console info](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)
 
 ## Common issues
 
@@ -102,16 +91,16 @@ Issue | Resolving the issue
 **Connectivity** | If Postman fails to send your request, you may be experiencing connectivity issues. Check your connection by attempting to open a page in your web browser.
 **Firewalls** | Some firewalls may be configured to block non-browser connections. If this happens you will need to contact your network administrators for Postman to work.
 **Proxy configuration** | If you are using a proxy server to make requests, check your configuration. By default, Postman uses the proxy settings configured in your operating system's network settings. The [Postman Console](#debugging-in-the-console) will provide debugging information regarding proxy servers.
-**SSL certificates** | You may experience issues using HTTPS connections. You can turn off SSL certificate verification in [Settings](/docs/getting-started/settings/) by selecting the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> **> Settings > General**. If that doesn't help, your server might be using a client-side SSL connection, which you can configure by selecting the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> > **Settings > Certificates**. Use the [Postman Console](#debugging-in-the-console) to ensure that the correct SSL certificate is being sent to the server.
-**Client certificates** | Client certificates may be required for your API server. You can [add a client certificate](/docs/sending-requests/certificates/) in [Settings](/docs/getting-started/settings/) by selecting the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> **> Settings > Certificates**.
+**SSL certificates** | You may experience issues using HTTPS connections. You can turn off **SSL certificate verification** in [Settings](/docs/getting-started/installation/settings/) by selecting the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> **> Settings > General**. If that doesn't help, your server might be using a client-side SSL connection, which you can configure by selecting the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> > **Settings > Certificates**. Use the [Postman Console](#debugging-in-the-console) to ensure that the correct SSL certificate is being sent to the server. Learn more about [working with certificates](/docs/sending-requests/certificates/).
+**Client certificates** | Client certificates may be required for your API server. You can [add a client certificate](/docs/sending-requests/certificates/) in [Settings](/docs/getting-started/installation/settings/) by selecting the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> **> Settings > Certificates**.
 **Incorrect request URLs** | If you are using variables or path parameters with your request, make sure the final address is structure correctly by opening the [console](#debugging-in-the-console), which will display the URL your request was sent to when it executed. Unresolved request variables can result in invalid server addresses.
 **Incorrect protocol** | Check if you're using `https://` instead of `http://` in your URL (or the opposite).
-**Short timeouts** | If you configure a short timeout in Postman, the request could be timing out before completion, resulting in an error. To avoid this issue, increase the timeout in [Settings](/docs/getting-started/settings/) by selecting the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> **> Settings > General**.
+**Short timeouts** | If you configure a short timeout in Postman, the request could be timing out before completion, resulting in an error. To avoid this issue, increase the **Request timeout** in [Settings](/docs/getting-started/installation/settings/) by selecting the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> **> Settings > General**.
 **Invalid responses** | If your server sends incorrect response encoding errors, or invalid headers, Postman may fail to interpret the response.
 **TLS version** | Postman supports TLS version 1.2 and higher, which [may not be supported if you are using an older browser or operating system](https://support.postman.com/hc/en-us/articles/360041392573-Deprecating-TLS-1-0-and-TLS-1-1).
 **Postman errors** | It's possible that Postman might be making invalid requests to your API server. You can confirm this by checking your server logs, if available. If you believe this is happening, contact the Postman team using the [GitHub issue tracker](https://github.com/postmanlabs/postman-app-support/issues).
 **Unresolved variables** | An unresolved variable isn't defined in an active scope that's available for the request it’s used in. For more information on why this happens and how to solve the problem, see [Fixing unresolved variables](/docs/sending-requests/variables/#fixing-unresolved-variables).
-**CORS** |If the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) fails to send your request, you may be experiencing a cross-origin resource sharing (CORS) error. Make sure you're using the best [Postman Agent](/docs/getting-started/about-postman-agent/) for your request.
+**CORS** |If the [Postman web app](/docs/getting-started/installation/installation-and-updates/#using-the-postman-web-app) fails to send your request, you may be experiencing a cross-origin resource sharing (CORS) error. Make sure you're using the best [Postman Agent](/docs/getting-started/basics/about-postman-agent/) for your request.
 
 ## Getting help
 

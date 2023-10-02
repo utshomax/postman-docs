@@ -1,15 +1,10 @@
 ---
-title: "Running tests with monitors"
+title: "Run API test scripts using Postman Monitors"
 order: 91
 page_id: "test_with_monitors"
 updated: 2022-2-14
 search_keyword: "setEnvironmentVariable, postman.setEnvironmentVariable"
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Monitoring your APIs"
-    url: "/docs/monitoring-your-api/intro-monitors/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -27,12 +22,6 @@ contextual_links:
   - type: link
     name: "Postman API Monitoring Examples"
     url:  "https://www.postman.com/postman/workspace/e348c5a0-2965-44cc-87ed-7b316516f38d"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Using the Collection Runner"
-    url: "/docs/collections/running-collections/intro-to-collection-runs/"
-
 warning: false
 ---
 
@@ -40,7 +29,7 @@ Postman Monitors provide a way to automatically run test scripts and perform oth
 
 Below are some ways you can use collection-based monitors to test your APIs and ensure they're functioning correctly.
 
-> For examples of monitors in action, visit the [Postman API Monitoring Examples public workspace](https://www.postman.com/postman/workspace/postman-api-monitoring-examples/overview) to find example collections for some common monitoring use cases. You can collaborate on the collections in the workspace by [creating a fork](/docs/collaborating-in-postman/using-version-control/forking-entities/#creating-a-fork), or modify the collections for your team's use by [exporting and importing them into your team workspace](/docs/getting-started/importing-and-exporting-data/#exporting-collections).
+> For examples of monitors in action, visit the [Postman API Monitoring Examples public workspace](https://www.postman.com/postman/workspace/postman-api-monitoring-examples/overview) to find example collections for some common monitoring use cases. You can collaborate on the collections in the workspace by [creating a fork](/docs/collaborating-in-postman/using-version-control/forking-entities/#creating-a-fork), or modify the collections for your team's use by [exporting and importing them into your team workspace](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/).
 
 ## Monitoring an API endpoint
 

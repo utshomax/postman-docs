@@ -1,13 +1,8 @@
 ---
-title: "Grouping requests in collections"
+title: "Group requests in collections"
 updated: 2023-03-01
 search_keyword: "collections, new collection, create collection, creating collections, delete collection, rename collection, about collections"
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -21,17 +16,6 @@ contextual_links:
   - type: dynamic_blog
     name: "Blog posts"
     blog_tag: "collections"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Ping Identity"
-    url: "https://www.postman.com/case-studies/pingidentity/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Using the Collection Runner"
-    url: "/docs/collections/running-collections/intro-to-collection-runs/"
-
 warning: false
 ---
 
