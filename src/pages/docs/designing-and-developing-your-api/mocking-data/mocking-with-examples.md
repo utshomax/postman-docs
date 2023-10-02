@@ -1,5 +1,5 @@
 ---
-title: "Mocking with examples"
+title: "Mock your API using saved response examples"
 order: 85
 page_id: "mocking_with_examples"
 updated: 2021-11-10
@@ -47,13 +47,13 @@ In Postman, open a new request by selecting **+** or by selecting **New > HTTP**
 
 This request calls the [Postman Echo](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) service which you can use to test REST or SOAP clients and make sample API calls. The resulting response displays in the response pane.
 
-<img alt="Send a request" src="https://assets.postman.com/postman-docs/v10/mock-examples-step1-v10.jpg" width="750px">
+<img alt="Send a request" src="https://assets.postman.com/postman-docs/v10/mock-examples-step1-v10-2.jpg" width="750px">
 
 ### Step 2: Save the request to a collection
 
-Select **Save** to save the request in a collection. [Collections](/docs/sending-requests/intro-to-collections/) are groups of requests that you can use to organize your work and create API workflows.
+To save the request in a collection, select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save**. [Collections](/docs/sending-requests/intro-to-collections/) are groups of requests that you can use to organize your work and create API workflows.
 
-<img alt="Save a request" src="https://assets.postman.com/postman-docs/mock-examples-step2a-v9-1.jpg" width="808px">
+<img alt="Save a request" src="https://assets.postman.com/postman-docs/v10/mock-examples-step2a-v10.jpg" width="808px">
 
 Enter a **Request name**. Instead of selecting an existing collection in **Save to**, select **New Collection**. Enter `C1` for the collection name and select **Create**. Then select **Save** to save the request to the new collection.
 
@@ -61,17 +61,17 @@ Enter a **Request name**. Instead of selecting an existing collection in **Save 
 
 ### Step 3: Save a response as an example
 
-To save the response you received from the Postman Echo service, select **Save Response > Save as example**. The example is saved underneath the request, inside the `C1` collection.
+To save the response you received from the Postman Echo service, select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save as Example**. The example is saved underneath the request, inside the `C1` collection.
 
-<img alt="Save an example" src="https://assets.postman.com/postman-docs/v10/mock-examples-step3a-v10.jpg" width="300px">
+<img alt="Save an example" src="https://assets.postman.com/postman-docs/v10/mock-examples-step3a-v10-2.jpg" width="350px">
 
 Select **Collections** in the sidebar, expand the `C1` collection and the request, and then select the example to open it.
 
 <img alt="Open an example" src="https://assets.postman.com/postman-docs/mock-examples-step3b-v9-1.jpg" width="456px">
 
-To rename the example, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the name. Rename the example `E1`. Note that the request method, URL, and status code are all saved as part of the example. Postman uses these items to determine which responses are returned by a mock server.
+To rename the example, select the example name and rename the example `E1`. Note that the request method, URL, and status code are all saved as part of the example. Postman uses these items to determine which responses are returned by a mock server.
 
-<img alt="Rename an example" src="https://assets.postman.com/postman-docs/mock-examples-step3c-v9-1.jpg" width="808px">
+<img alt="Rename an example" src="https://assets.postman.com/postman-docs/v10/mock-examples-step3c-v10.jpg" width="600px">
 
 ### Step 4: Create a mock server for the collection
 
@@ -87,7 +87,7 @@ For **Mock server name**, enter `M1`. You can also specify other details for you
 
 When you're done configuring the mock server, select **Create Mock Server**. You can access the mock server at any time by selecting **Mock Servers** in the sidebar.
 
-<img alt="Create a mock server" src="https://assets.postman.com/postman-docs/mock-examples-step4b-v9-1.jpg" width="779px">
+<img alt="Create a mock server" src="https://assets.postman.com/postman-docs/v10/mock-examples-step4b-v10.jpg" width="779px">
 
 > You can also create a mock server [using the Postman API](/docs/designing-and-developing-your-api/mocking-data/mock-with-api/).
 
@@ -95,25 +95,25 @@ When you're done configuring the mock server, select **Create Mock Server**. You
 
 Now that you've created the mock server `M1`, you can send a request to the mock endpoint.
 
-First, copy the mock server URL. Select **Mock Servers** in the sidebar, select the `M1` mock server, and then select **Copy Mock URL**.
+First, copy the mock server URL. Select **Mock Servers** in the sidebar, select the `M1` mock server, and then select the copy icon <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px">.
 
-<img alt="Copy mock URL" src="https://assets.postman.com/postman-docs/mock-examples-step5a-v9-1.jpg" width="808px">
+<img alt="Copy mock URL" src="https://assets.postman.com/postman-docs/v10/mock-examples-step5a-v10.jpg" width="808px">
 
 Next, create a new request by selecting **+** or by selecting **New > HTTP**. Paste the mock URL into the new request and select **Send**.
 
-<img alt="Mock server error response" src="https://assets.postman.com/postman-docs/v10/mock-examples-step5b-v10.jpg" width="750px">
+<img alt="Mock server error response" src="https://assets.postman.com/postman-docs/v10/mock-examples-step5b-v10-2.jpg" width="750px">
 
 Sending this request returns an error. The reason is because you didn't add a path to the mock server URL, and there's no matching saved example with an undefined path and the request method `GET`. Responses returned by the mock service are entirely dependent on the URL and method in your saved examples.
 
 You do, however, have a saved example with the path `/get` and the request method `GET`. Add `/get` to the end of the mock server URL and send the request again. This time you receive the expected response from the mock server.
 
-<img alt="Mock server correct response" src="https://assets.postman.com/postman-docs/v10/mock-examples-step5c-v10.jpg" width="750px">
+<img alt="Mock server correct response" src="https://assets.postman.com/postman-docs/v10/mock-examples-step5c-v10-2.jpg" width="750px">
 
 ### Step 6: Add another example
 
 To further demonstrate how responses from the mock service are entirely dependent on your saved examples, add another example to the `C1` collection. Repeat steps 1 to 3 above to save a request to the collection and then save the response as an example `E2`, this time using the request URL `https://postman-echo.com/test`.
 
-<img alt="Add a second example" src="https://assets.postman.com/postman-docs/mock-examples-step6a-v9-1.jpg" width="808px">
+<img alt="Add a second example" src="https://assets.postman.com/postman-docs/v10/mock-examples-step6a-v10.jpg" width="808px">
 
 Sending a `GET` request to `https://postman-echo.com/test` returns a 404 error, which you saved as another example. The collection `C1` has two requests and two saved examples:
 
@@ -122,7 +122,7 @@ Sending a `GET` request to `https://postman-echo.com/test` returns a 404 error, 
 
 Finally, repeat [step 5](#step-5-send-a-request-to-the-mock-server), but this time add the path `/test` to the end of the mock server URL when sending the request. This returns the expected 404 response.
 
-<img alt="Send another request to the mock server" src="https://assets.postman.com/postman-docs/v10/mock-examples-step6b-v10.jpg" width="750px">
+<img alt="Send another request to the mock server" src="https://assets.postman.com/postman-docs/v10/mock-examples-step6b-v10-2.jpg" width="750px">
 
 > **Your examples can vary depending on the URL endpoint, request method, or status code.** If you have multiple examples, you can choose to save each example under a unique endpoint URL, like you saw in this demonstration with `/get` and `/test`. If you have saved examples with different response status codes, you can send an authenticated request to the mock server along with the `x-mock-response-code` header specifying which integer response code your returned response needs to match.
 
@@ -135,15 +135,15 @@ Here's a scenario that illustrates how matching query parameters works:
 * The collection **Query Params Demo** has one request **Request1** with two examples, **Example1** and **Example2**.
 * In **Example1**, the parameter `id` has a value of `1`:
 
-    <img alt="Query parameters example 1" src="https://assets.postman.com/postman-docs/mock-examples-params1-v9-1.jpg" width="808px">
+    <img alt="Query parameters example 1" src="https://assets.postman.com/postman-docs/v10/mock-examples-params1-v10.jpg" width="808px">
 
 * In **Example2**, the parameter `id` has a value of `5`:
 
-    <img alt="Query parameters example 2" src="https://assets.postman.com/postman-docs/mock-examples-params2-v9-1.jpg" width="808px">
+    <img alt="Query parameters example 2" src="https://assets.postman.com/postman-docs/v10/mock-examples-params2-v10.jpg" width="808px">
 
 * In this scenario, **Example1** and **Example2** are passing `1` and `5` respectively. When you send a request to the mock server URL and pass these different query parameters, Postman returns the exact response that matches both the path and the passed parameters.
 
-    <img alt="Query parameters mock response" src="https://assets.postman.com/postman-docs/v10/mock-examples-params3-v10.jpg" width="808px">
+    <img alt="Query parameters mock response" src="https://assets.postman.com/postman-docs/v10/mock-examples-params3-v10-2.jpg" width="808px">
 
 > If no exact match is found, Postman returns the best response based on its [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/).
 
@@ -153,8 +153,8 @@ Postman's mock service enables you to mock GraphQL queries. To mock GraphQL quer
 
 Make sure to set the `Content-type` header to `application/json` in your examples.
 
-<img alt="Query parameters example 1" src="https://assets.postman.com/postman-docs/mock-examples-graphql1-v9-1.jpg" width="809px">
+<img alt="Query parameters example 1" src="https://assets.postman.com/postman-docs/v10/mock-examples-graphql1-v10.jpg" width="809px">
 
 Also make sure to pass the `x-mock-match-request-body` header with a value of `true` when sending a request to the mock server URL.
 
-<img alt="Query parameters example 1" src="https://assets.postman.com/postman-docs/mock-examples-graphql2-v9-1.jpg" width="809px">
+<img alt="Query parameters example 1" src="https://assets.postman.com/postman-docs/v10/mock-examples-graphql2-v10.jpg" width="809px">

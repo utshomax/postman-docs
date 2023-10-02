@@ -1,5 +1,5 @@
 ---
-title: 'Deploying an API overview'
+title: "Manage API deployments in Postman"
 updated: 2022-09-15
 contextual_links:
   - type: section
@@ -7,8 +7,14 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Deploying APIs | Postman Enterprise"
+    url: "https://youtu.be/plykCPwt32M"
+  - type: link
     name: "API Lifecycle, Part 2: Monitor and Deploy an API | Postman Intergalactic"
     url: "https://youtu.be/voAUfBx8fnE"
+  - type: link
+    name: "Testing and Deploying APIs with Docker and Postman"
+    url: "https://www.youtube.com/live/AB78LyHtmHU?feature=share"
   - type: subtitle
     name: "Blog posts"
   - type: link

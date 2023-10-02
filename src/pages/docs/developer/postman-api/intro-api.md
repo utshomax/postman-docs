@@ -1,7 +1,6 @@
 ---
-title: "Postman API documentation"
+title: "Integrate Postman into your development toolchain"
 updated: 2022-11-30
-search_keyword: "Postman API docs"
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -36,7 +35,7 @@ contextual_links:
 
 The [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) endpoints let you integrate Postman in your development toolchain.
 
-You can add new collections, update collections and environments, add and run monitors, and more with the API. This lets you programmatically access data stored in your Postman account. You can also [combine the Postman API with Newman](/docs/running-collections/using-newman-cli/continuous-integration/) to integrate Postman with your CI/CD workflow.
+You can add new collections, update collections and environments, add and run monitors, and more with the API. This lets you programmatically access data stored in your Postman account. You can also [combine the Postman API with Newman](/docs/collections/using-newman-cli/continuous-integration/) to integrate Postman with your CI/CD workflow.
 
 ## Getting started
 
@@ -79,7 +78,7 @@ The following Postman API endpoints are deprecated. You can continue to use thes
 
 ### New v10 API endpoints
 
-To use the new Postman API endpoints, you must [update your APIs to the v10 format](/docs/designing-and-developing-your-api/creating-an-api/#updating-an-api). You must also pass an `Accept` header with the value `application/vnd.api.v10+json`. (Some of the new endpoints appear the same as the deprecated endpoints, but they use the new v10 behavior when you send this `Accept` header.)
+To use the new Postman API endpoints, [upgrade your APIs to the v10 format](/docs/designing-and-developing-your-api/creating-an-api/#upgrading-an-api). Make sure to also pass an `Accept` header with the value `application/vnd.api.v10+json`. (Some of the new endpoints appear the same as the deprecated endpoints, but they use the new v10 behavior when you send this `Accept` header.)
 
 * `/apis`
 * `/apis/{apiId}`

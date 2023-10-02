@@ -1,6 +1,19 @@
 ---
-title: "Getting basic values"
+title: "Get basic values in FQL"
 updated: 2023-03-29
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Flows Query Language (FQL) | Postman Flows"
+    url:  "https://youtu.be/4KDQM8gv7PM"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Advanced FQL expressions in Postman Flows"
+    url: "https://blog.postman.com/advanced-fql-expressions-in-postman-flows/"
 ---
 
 FQL uses location path syntax to extract values from JSON structures. The following examples demonstrate several examples of getting basic values from JSON data.
@@ -44,7 +57,7 @@ The examples below use this JSON data:
 }
 ```
 
-> To use this sample data in your flow, select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> in the **Start** block and paste the data into the **Config** field.
+> To use this sample data in your Flow, select the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> in the **Start** block and paste the data into the **Config** field.
 
 ## Get a top-level field
 

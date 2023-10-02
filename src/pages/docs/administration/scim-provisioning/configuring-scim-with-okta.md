@@ -1,5 +1,5 @@
 ---
-title: "Configuring SCIM with Okta"
+title: "Configure SCIM with Okta"
 updated: 2023-04-12
 ---
 
@@ -17,7 +17,7 @@ You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-perm
 
 Postman is available as an app in the Okta Integration Network, allowing you to enable user provisioning directly through Okta.
 
-Prior to enabling SCIM in Okta, you must [add the Postman app in Okta](https://www.okta.com/integrations/postman/) and [configure Okta's SSO for your Postman team](/docs/administration/sso/saml-okta/).
+Prior to enabling SCIM in Okta, you must [add the Postman app in Okta](https://www.okta.com/integrations/postman/) and [configure Okta's SSO for your Postman team](/docs/administration/sso/okta/).
 
 To set up provisioning with Okta, do the following:
 

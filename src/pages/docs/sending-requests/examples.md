@@ -1,5 +1,5 @@
 ---
-title: "Specifying examples"
+title: "Create examples of request responses to illustrate API use cases"
 updated: 2023-02-13
 contextual_links:
   - type: section
@@ -12,11 +12,6 @@ contextual_links:
   - type: link
     name: "Provide Examples | Postman Level Up"
     url: "https://www.youtube.com/watch?v=C0Z3OMuCGBw&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=5"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Imgur"
-    url: "https://www.postman.com/case-studies/imgur/"
 ---
 
 Examples show your API endpoints in action and give more details on how requests and responses work. You can add an example to a request by saving a response, or you can create an example with a custom response to illustrate a specific use case. Once you've created examples, you can use them to set up a mock server or add more detail to your API documentation.
@@ -158,7 +153,7 @@ Deleting an example removes it from the collection and from the associated API d
 
 ## Using examples in documentation
 
-Postman automatically [generates documentation](/docs/publishing-your-api/documenting-your-api/) for every collection you create. The generated documentation [includes any examples](/docs/publishing-your-api/authoring-your-documentation/#including-examples) that have been added to the collection. If you edit an example, the documentation is automatically updated with your changes.
+Postman automatically [generates documentation](/docs/publishing-your-api/document-a-collection/) for every collection you create. The generated documentation [includes any examples](/docs/publishing-your-api/authoring-your-documentation/#including-examples) that have been added to the collection. If you edit an example, the documentation is automatically updated with your changes.
 
 <img alt="Examples in documentation" src="https://assets.postman.com/postman-docs/documentation-including-examples-v9.jpg" width="663px">
 
@@ -171,4 +166,4 @@ Examples give more details and clarification for your API and help your team to 
 You can use examples to set up a mock server and enhance your documentation.
 
 * To learn how to use examples to set up a mock server, visit [Setting up mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
-* To learn how to include examples in your API documentation, visit [Documenting your API](/docs/publishing-your-api/documenting-your-api/).
+* To learn how to include examples in your API documentation, visit [Documenting your API](/docs/publishing-your-api/document-a-collection/).

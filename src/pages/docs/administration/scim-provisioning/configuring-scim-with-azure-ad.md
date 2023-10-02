@@ -1,5 +1,5 @@
 ---
-title: "Configuring SCIM with Azure AD"
+title: "Configure SCIM with Azure AD"
 order: 142
 updated: 2022-11-30
 page_id: "configuring_scim_with_azure_ad"

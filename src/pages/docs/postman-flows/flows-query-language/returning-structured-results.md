@@ -1,6 +1,19 @@
 ---
-title: "Returning structured data"
+title: "Return structured data in FQL"
 updated: 2023-03-29
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Flows Query Language (FQL) | Postman Flows"
+    url:  "https://youtu.be/4KDQM8gv7PM"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Advanced FQL expressions in Postman Flows"
+    url: "https://blog.postman.com/advanced-fql-expressions-in-postman-flows/"
 ---
 
 The following examples demonstrate how to use FQL to return structured data from JSON data.

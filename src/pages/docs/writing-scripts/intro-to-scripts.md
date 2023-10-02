@@ -13,11 +13,8 @@ contextual_links:
     name: "Intro to Postman | Advanced API Tests"
     url: "https://youtu.be/vVDZxeS865g"
   - type: link
-    name: "Get and Set Variables | Postman Level Up"
-    url: "https://youtu.be/EKv6n-jY9lU"
-  - type: link
-    name: "Testing with Snippets | Postman Level Up"
-    url: "https://youtu.be/QGNJ0wh5Ry0"
+    name: "Testing APIs | Postman Enterprise"
+    url: "https://youtu.be/-Nkvs69-LNE"
   - type: subtitle
     name: "Blog posts"
   - type: link
@@ -90,6 +87,8 @@ If you created log statements in the pre-request and test script sections for th
 ### How it works
 
 The [Postman Sandbox](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) is a JavaScript execution environment that's available to you while writing pre-request and test scripts for requests (both in Postman and Newman). Whatever code you write in these sections is executed in this sandbox.
+
+> <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> You can build conditional workflows using a collection, and branch and loop over a set of requests. To try out this collection template, select [Conditional workflow](https://www.postman.com/templates/78475d97-9a36-4731-ab24-9adf6a94d0fb/Conditional-workflow).
 
 ## Debugging scripts
 

@@ -1,9 +1,14 @@
 ---
-title: "Newman with Docker"
-updated: 2021-06-17
+title: "Run Newman with Docker on macOS, Ubuntu, and Windows"
+updated: 2023-09-26
 contextual_links:
   - type: section
     name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Testing and Deploying APIs with Docker and Postman"
+    url: "https://www.youtube.com/live/AB78LyHtmHU?feature=share"
   - type: subtitle
     name: "Blog posts"
   - type: link
@@ -44,7 +49,7 @@ To use Newman with Docker for macOS or Ubuntu, do the following:
     * To get an API key, go to [Generate a Postman API key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key).
 
     ```bash
-    $ docker run -t postman/newman run "https://api.getpostman.com/collections/<collection-id>?apikey=<your-api-key"
+    $ docker run -t postman/newman run "https://api.getpostman.com/collections/<collection-id>?apikey=<your-api-key>"
     ```
 
 The collection runs in Newman and the output displays in the terminal.

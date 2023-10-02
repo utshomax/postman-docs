@@ -1,6 +1,19 @@
 ---
 title: "FQL function reference"
 updated: 2023-04-21
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Flows Query Language (FQL) | Postman Flows"
+    url:  "https://youtu.be/4KDQM8gv7PM"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Advanced FQL expressions in Postman Flows"
+    url: "https://blog.postman.com/advanced-fql-expressions-in-postman-flows/"
 ---
 
 All [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) functions are documented below.
@@ -876,7 +889,7 @@ $uppercase("hello") -> "HELLO"
 
 ### uuid
 
-Returns a unique id (UUID version 4) as a string.
+Returns a unique ID (UUID version 4) as a string.
 
 <table class="code-ref-table">
 <tbody>

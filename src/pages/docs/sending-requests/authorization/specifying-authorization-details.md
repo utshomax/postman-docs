@@ -1,5 +1,5 @@
 ---
-title: "Specifying authorization details"
+title: "Specify API authentication details"
 updated: 2023-05-26
 contextual_links:
   - type: section
@@ -10,8 +10,8 @@ contextual_links:
     name: "Intro to Postman | Authorize a Request"
     url: "https://youtu.be/7t9AB9Opprs"
   - type: link
-    name: "How to Use JWT Authorization"
-    url: "https://youtu.be/dLxCpd3IGys"
+    name: "What is an API key?"
+    url: "https://blog.postman.com/what-is-an-api-key/"
   - type: link
     name: "Set Up Authorization for Your Public Apis"
     url: "https://youtu.be/u-FyOBgIB0c"

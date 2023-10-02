@@ -1,5 +1,5 @@
 ---
-title: "Authentication for public APIs"
+title: "Set up authorization for public APIs in Postman"
 updated: 2023-05-30
 contextual_links:
   - type: section
@@ -41,4 +41,4 @@ Select **Set up new authorization** to learn what authentication credentials you
 
 <img alt="Postman API authentication info and link" src="https://assets.postman.com/postman-docs/v10/postman-api-easier-auth-enter-key-v10-2.jpg"/>
 
-If you're an API publisher, you can [join the waitlist](https://go.postman.co/settings/team/api-authentication) to provide easier authentication for your public APIs to the Postman community. To do so, open Postman and select **Team** in the upper right, then **Team Settings > Set Up API authorization**. Alternatively, select **API Network** from the Postman header, then select **Public API Network > Set up API authorization**.
+If you're an API publisher, you can set up easier authentication for your public APIs in your team dashboard. For more information, see [Set up authentication for public APIs](/docs/publishing-your-api/setting-up-authentication-for-public-apis/).

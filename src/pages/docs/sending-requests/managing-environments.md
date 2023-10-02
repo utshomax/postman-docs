@@ -1,5 +1,5 @@
 ---
-title: "Managing environments"
+title: "Group sets of variables in Postman using environments"
 order: 25
 updated: 2022-11-16
 page_id: "managing-environments"
@@ -78,6 +78,8 @@ To create a new environment, do the following:
 
 1. Select __Save__ to save any environment variables you have added.
 
+> You can turn on autosave to automatically save your changes to collections, requests, and environments. Learn more about [autosave](/docs/getting-started/installation/settings/#application).
+
 ### Adding environment variables
 
 You can add variables to an active (currently selected) environment by opening the environment from the sidebar and editing it in the tab that opens.
@@ -147,7 +149,7 @@ pm.environment.get("variable_key");
 
 ### Editing environment variables
 
-You can edit variables either by opening an environment from __Environments__ on the left, or by selecting the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> next to the [environment selector in the workbench](/docs/getting-started/navigating-postman/#environment-selector-and-environment-quick-look) and selecting __Edit__. You can sort the list of variables by selecting any column heading to toggle between alphabetical ascending or descending order and custom order. To sort the list by a custom order, clear the active sort then drag rows to reorder using the handle on the left-hand side.
+You can edit variables either by opening an environment from __Environments__ on the left, or by selecting the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> next to the [environment selector in the workbench](/docs/getting-started/basics/navigating-postman/#environment-selector-and-environment-quick-look) and selecting __Edit__. You can sort the list of variables by selecting any column heading to toggle between alphabetical ascending or descending order and custom order. To sort the list by a custom order, clear the active sort then drag rows to reorder using the handle on the left-hand side.
 
 > You will only be able to edit environments where you have [Editor access](#requesting-environment-access).
 

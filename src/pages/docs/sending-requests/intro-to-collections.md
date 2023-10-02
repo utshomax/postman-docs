@@ -1,5 +1,5 @@
 ---
-title: "Grouping requests in collections"
+title: "Group requests in collections"
 updated: 2023-03-01
 contextual_links:
   - type: section
@@ -15,11 +15,6 @@ contextual_links:
   - type: dynamic_blog
     name: "Blog posts"
     blog_tag: "collections"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Ping Identity"
-    url: "https://www.postman.com/case-studies/pingidentity/"
 warning: false
 ---
 

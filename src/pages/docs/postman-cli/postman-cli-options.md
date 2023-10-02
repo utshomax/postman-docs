@@ -4,6 +4,19 @@ updated: 2022-10-18
 warning: false
 tags:
   - "Postman CLI"
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Run collections with Postman CLI | The Exploratory"
+    url: "https://youtu.be/DKxCVo1_ELg"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Streamline your API release process with the Postman CLI"
+    url: "https://blog.postman.com/streamline-your-api-release-process-with-the-postman-cli/"
 ---
 
 Commands and options for using the Postman CLI.
@@ -155,16 +168,29 @@ postman api publish <apiId> --name v1\
 --api-definition <apiDefinitionId>
 ```
 
-#### Example for repos linked with git
+#### Examples for repos linked with git
 
-Navigate to the repo and run the following:
+The options for the `api publish` command differ depending on if you specified a schema folder or schema root file when setting up the Git integration. Git integrations added in Postman v10.18 or later use a schema root file. Git integrations added in other Postman versions use a schema folder. Learn more about [connecting an API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/).
 
-```plaintext
-postman api publish <apiId> --name v1\
---release-notes "# Some release notes information"\
---collections <collectionPath1> <collectionPath2>\
---api-definition <schemaDirectoryPath>
-```
+* If the API uses a schema folder, publish the API using the `--api-definition <schemaDirectoryPath>` option:
+
+    ```plaintext
+    postman api publish <apiId> --name v1\
+    --release-notes "# Some release notes information"\
+    --collections <collectionPath1> <collectionPath2>\
+    --api-definition <schemaDirectoryPath>
+    ```
+
+* If the API uses a schema root file, publish the API using the `--api-definition <schemaRootFilePath>` option:
+
+    ```plaintext
+    postman api publish <apiId> --name v1\
+    --release-notes "# Some release notes information"\
+    --collections <collectionPath1> <collectionPath2>\
+    --api-definition <schemaRootFilePath>
+    ```
+
+> If you specify a file when a folder is required, or a folder when a file is required, the `api publish` command returns the following error: `API Definition <file/folder> is not part of API <apiId>`. Try the command again using the other option.
 
 #### Options
 
@@ -173,6 +199,6 @@ postman api publish <apiId> --name v1\
 | `--name <name>` | Specifies the name of the version to publish. |
 | `--release-notes <releaseNotes>` | Enter release notes as a string in quotes for the version to publish. This option supports markdown. |
 | `--collections <collectionIds/paths...>` | Specifies the collections to publish. If the API is linked with git, provide the `filePath` instead of the ID. |
-| `--api-definition <apiDefinitionId/directory>` | Specifies the API definition to publish. If the API is linked with git, provide the `schemaDirectoryPath` instead of the ID. |
+| `--api-definition <apiDefinitionId/directory/file>` | Specifies the API definition to publish. If the API is linked with git, provide the `schemaDirectoryPath` or `schemaRootFilePath` instead of the ID. |
 |`--do-not-poll` | Specifies not to poll for completion status of the publish action.
 | `--suppress-exit-code, -x` | Specifies whether to override the default exit code for the current run. |

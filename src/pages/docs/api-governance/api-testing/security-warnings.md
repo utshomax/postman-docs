@@ -1,5 +1,5 @@
 ---
-title: "Security warnings"
+title: "Security warnings in API requests"
 updated: 2022-07-20
 contextual_links:
   - type: section

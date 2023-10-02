@@ -1,5 +1,5 @@
 ---
-title: "Setting up mock servers"
+title: "Configure and use a Postman mock server"
 updated: 2022-10-17
 contextual_links:
   - type: section
@@ -52,7 +52,7 @@ When you send a request to a mock server, Postman matches the request to a saved
 To test using a mock server, do the following:
 
 1. In Postman, send a request to any API. Your request must be saved to a collection.
-1. In the response pane, select **Save Response > Save as example**. Postman automatically populates the example with the response you received when you sent the request.
+1. In the response pane, select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save as Example**. Postman automatically populates the example with the response you received when you sent the request.
 1. Select **Collections** in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection where the request was saved and select **Mock collection**.
 1. Give your mock a name and leave the other settings at their defaults. Select **Create Mock Server**.
 1. Copy the mock URL and go back into your request. Replace the base part of the URL with the mock server URL (everything before the path, for example up to `/customers`).
@@ -159,7 +159,7 @@ https://4bb57fc2-219e-421e-86b4-4ffda6bf1b3b.mock.pstmn.io/matches
 
 The mock URL includes the mock server's ID and the path for the request you want to mock. Select **Send** to send the request to the mock server.
 
-<img alt="Sending a mock request" src="https://assets.postman.com/postman-docs/v10/mock-server-send-request-v10.jpg" />
+<img alt="Sending a mock request" src="https://assets.postman.com/postman-docs/v10/mock-server-send-request-v10-2.jpg" />
 
 When you send a request to the mock server, the mock server sends back a response based on an example with the same path and method. [You can provide multiple examples](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/), and Postman will return the one that [best matches your request](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/).
 

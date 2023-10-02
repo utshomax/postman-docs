@@ -1,6 +1,6 @@
 ---
-title: "Scheduling collection runs"
-updated: 2022-11-09
+title: "Automate collection runs on a schedule"
+updated: 2023-06-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -9,12 +9,9 @@ contextual_links:
   - type: link
     name: "Automate Your API Testing by Scheduling Your Collection Runs on Postman"
     url: "https://blog.postman.com/automate-your-api-testing-by-scheduling-your-collection-runs-on-postman/"
-
-warning: false
-
 ---
 
-Many Postman users run collections at specific times each day or week. For example, you may want to run a collection that tests your API every day. You can use the Collection Runner to schedule collection runs to execute automatically at specified days and times.
+Many Postman users run collections at specific times each day or week. For example, you may want to run a collection that tests the functionality of your API every day. You can use the Collection Runner to schedule collection runs to execute automatically at specified days and times.
 
 > You can also schedule collection runs using [monitors](/docs/collections/running-collections/scheduling-collection-runs-monitors/). Monitors are typically used to schedule runs when you want to set up alerts like triggering on-call upon failure. Choose the Collection Runner to schedule runs for all other use cases.
 
@@ -40,15 +37,17 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
 ## Scheduling a collection run
 
-1. Select **Collections** in the sidebar and select the collection you want to schedule.
+You can schedule a run for the requests in a [collection](/docs/collections/using-collections/#creating-collections) or a [folder](/docs/collections/using-collections/#adding-folders-to-a-collection).
 
-1. Select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
+1. Select **Collections** in the sidebar and select the collection or folder you want to schedule.
+
+1. On the **Overview** tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
 
     > You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer and drag a collection from __Collections__ or __History__ in the sidebar.
 
-1. On the Collection Runner, select **Schedule runs**.
+1. On the **Functional** tab, select **Schedule runs**.
 
-    ![Schedule runs](https://assets.postman.com/postman-docs/v10/schedule-runs-3-v10.jpg)
+    ![Schedule runs](https://assets.postman.com/postman-docs/v10/schedule-runs-v10-13.jpg)
 
 1. Choose any configuration options:
     * The schedule's name
@@ -146,9 +145,9 @@ Many Postman users use collections as repositories of requests, which they run i
 
 To change the request order in a scheduled run, do the following:
 
-1. Select **Collections** in the sidebar and select the collection you want to schedule.
+1. Select **Collections** in the sidebar and select the collection or folder you want to schedule.
 
-1. Select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
+1. On the **Overview** tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
 
     > You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer and drag a collection from __Collections__ or __History__ in the sidebar.
 

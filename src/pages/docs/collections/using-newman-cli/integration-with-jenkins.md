@@ -1,5 +1,5 @@
 ---
-title: "Integrating with Jenkins"
+title: "Integrate your Postman tests with Jenkins using Newman"
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -55,7 +55,7 @@ For this example, you'll need a Postman Collection that contains a few requests 
 
 To demonstrate the troubleshooting process, edit a request and intentionally break one of the tests. For example, change the final test so that it looks for the text "Hello, Everyone!" instead of "Hello, World!"
 
-After you've created the collection, [export it as a JSON file](/docs/getting-started/importing-and-exporting-data/).
+After you've created the collection, [export it as a JSON file](/docs/getting-started/importing-and-exporting/exporting-data/).
 
 ## Set up Jenkins
 

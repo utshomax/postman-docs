@@ -1,5 +1,5 @@
 ---
-title: "Using the GraphQL client interface"
+title: "Manage GraphQL queries using the Postman HTTP request interface"
 page_id: "graphql-client-interface"
 updated: 2023-05-15
 contextual_links:
@@ -61,7 +61,7 @@ You can use a GraphQL schema in your request to browse the available data fields
 
 <img src="https://assets.postman.com/postman-docs/v10/loading-schema-v10.gif" alt="Adding schema to the request">
 
-You can also choose to [load a GraphQL API from Postman](/docs/designing-and-developing-your-api/importing-an-api/) or [import a schema](/docs/getting-started/importing-and-exporting-data/) from your local system to use in the request.
+You can also choose to [load a GraphQL API from Postman](/docs/designing-and-developing-your-api/importing-an-api/) or [import a schema](/docs/getting-started/importing-and-exporting/importing-data/) from your local system to use in the request.
 
 ## Understanding parts of the request interface
 

@@ -1,6 +1,6 @@
 ---
-title: "Postman Flows overview"
-updated: 2023-04-03
+title: "Build API applications visually using Postman Flows"
+updated: 2023-07-17
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -33,7 +33,7 @@ contextual_links:
     url: "https://www.postman.com/case-studies/built/"
 ---
 
-_Postman Flows_ is a visual tool to build API-driven applications – a tool to build software for the [API-First](https://www.postman.com/api-first/) world. You can use flows to chain requests, handle data, and create real-world workflows in your Postman workspace.
+**Postman Flows** is a visual tool for building API-driven applications for the [API-first](https://www.postman.com/api-first/) world. You can use Flows to chain requests, handle data, and create real-world workflows in your Postman workspace.
 
 ![Postman Flows](https://assets.postman.com/postman-docs/postman-flows-overview.gif)
 
@@ -41,15 +41,15 @@ _Postman Flows_ is a visual tool to build API-driven applications – a tool to 
 
 Flows is an API-centric visual application development interface. It provides you with an infinite canvas to arrange and connect APIs.
 
-It's powered by the Postman Public API Network and your Collections. Flows provides data manipulation capabilities to bridge the gap between your APIs, and data visualization to show the final output of your flows.
+It's powered by the Postman Public API Network and your Collections. Flows provides data manipulation capabilities to bridge the gap between your APIs, and data visualization to show the final output of your Flow.
 
-You can also deploy your flows and run them in the cloud. WebHooks enable you to integrate with other applications.
+You can also deploy your Flow and run them in the cloud. Webhooks enable you to integrate with other applications.
 
-## What can you do with flows?
+## What can you do with Flows?
 
-Flows are the ultimate way to easily take data from an API-enabled product, manipulate it to meet your needs, and see the results. Or you could take data from one API-enabled product, make decisions or process the data, then send it to another API-enabled product. This means you can build real-time integrations between two API-enabled products.
+Flows are the ultimate way to take data from an API-enabled product, manipulate it to meet your needs, and see the results. Or you could take data from one API-enabled product, make decisions or process the data, then send it to another API-enabled product. This means you can build real-time integrations between two API-enabled products.
 
-Check out our Flows Workspaces filled with examples:
+Check out these Flows Workspaces filled with examples:
 
 * [Business Flows](https://www.postman.com/postman/workspace/business-flows)
 * [Integration Flows](https://www.postman.com/postman/workspace/integration-flows)
@@ -59,20 +59,21 @@ Check out our Flows Workspaces filled with examples:
 * [Utility Flows](https://www.postman.com/postman/workspace/utility-flows)
 * [Miscellaneous Flows](https://www.postman.com/postman/workspace/miscellaneous-flows)
 
-These workspaces contains example flows utilizing a multitude of APIs for different products and tools, plus all the related collections and environments needed. You can fork the flows to your own workspace, try them out, and then make your own changes and customizations.
+These workspaces include example Flows utilizing a multitude of APIs for different products and tools, plus all the related collections and environments needed. You can [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) the Flows to your own workspace, try them out, and then make your own changes and customizations.
 
-> Postman Flows is free to try on the Free plan for up to three users. Postman Flows is available as an add-on to the annual [Professional plan](https://www.postman.com/pricing/). Postman Flows is not currently available in the Basic and Enterprise plans.
+> Postman Flows is free to try on the Free plan for up to three users. Postman Flows is available as an add-on to the [Basic and Professional plans](https://www.postman.com/pricing/). Postman Flows isn't currently available in the Enterprise plan.
 
 ## Enabling Postman Flows
 
-To get started using Postman Flows in a Professional plan, you'll need to assign the Flow Editor role to one or more of your team members. For more information on adding a role to a user, see [Managing team roles](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
+To get started using Postman Flows in a Professional or Basic plan, assign the Flow Editor role to one or more of your team members. For more information on adding a role to a user, see [Managing team roles](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
 
 ## Quick start
 
 To get started, check out the following resources:
 
-* [Step-by-step guide to building your first Flow](/docs/postman-flows/tutorials/building-your-first-flow/)
-* [Flows Snippets: an example for every block](https://www.postman.com/postman/workspace/flows-snippets)
+* [Navigating a Flow and the Flows interface](/docs/postman-flows/gs/the-flows-interface/)
+* [First Flows concept: blocks and connections](/docs/postman-flows/concepts/blocks-and-connections/)
+* [Flows Snippets: examples for how to use every block](https://www.postman.com/postman/workspace/flows-snippets/)
 
 ## Contribute
 
