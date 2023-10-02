@@ -1,5 +1,5 @@
 ---
-title: "GitHub Actions"
+title: "Integrate Postman with GitHub Actions"
 page_id: "github-actions"
 updated: 2022-08-11
 ---

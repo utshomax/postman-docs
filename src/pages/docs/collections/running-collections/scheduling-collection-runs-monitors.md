@@ -1,5 +1,5 @@
 ---
-title: "Scheduling collection runs with monitors"
+title: "Automate collection runs using Postman Monitors"
 updated: 2022-11-09
 contextual_links:
   - type: section

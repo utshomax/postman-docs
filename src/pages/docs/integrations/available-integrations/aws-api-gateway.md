@@ -1,5 +1,5 @@
 ---
-title: "AWS API Gateway"
+title: "Integrate Postman with AWS API Gateway"
 updated: 2023-04-15
 contextual_links:
   - type: section

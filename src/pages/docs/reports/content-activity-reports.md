@@ -1,5 +1,5 @@
 ---
-title: "Content activity reports"
+title: "View reports about workspaces and APIs"
 updated: 2023-06-15
 contextual_links:
   - type: section

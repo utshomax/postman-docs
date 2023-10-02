@@ -1,5 +1,5 @@
 ---
-title: "Invoking your first gRPC request"
+title: "Invoke a gRPC request in Postman"
 updated: 2022-09-15
 contextual_links:
   - type: section

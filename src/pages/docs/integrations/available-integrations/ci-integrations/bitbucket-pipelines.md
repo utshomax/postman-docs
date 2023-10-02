@@ -1,5 +1,5 @@
 ---
-title: "Bitbucket Pipelines"
+title: "Integrate Postman with Bitbucket Pipelines"
 page_id: "bitbucket-pipelines"
 updated: 2022-09-15
 warning: false

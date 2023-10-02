@@ -1,5 +1,5 @@
 ---
-title: "Azure Pipelines"
+title: "Integrate Postman with Azure Pipelines"
 updated: 2022-10-31
 contextual_links:
   - type: section

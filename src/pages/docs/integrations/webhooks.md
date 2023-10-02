@@ -1,5 +1,5 @@
 ---
-title: "Custom webhooks"
+title: "Configure custom webhooks in Postman"
 updated: 2022-03-09
 warning: false
 contextual_links:

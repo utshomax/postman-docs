@@ -1,5 +1,5 @@
 ---
-title: "Using variables"
+title: "Store and reuse values using variables"
 updated: 2023-02-14
 contextual_links:
   - type: section
