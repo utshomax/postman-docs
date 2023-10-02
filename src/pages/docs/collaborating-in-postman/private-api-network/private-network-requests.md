@@ -1,5 +1,5 @@
 ---
-title: "Requesting to add to the Private API Network"
+title: "Request to add elements to the Private API Network"
 updated: 2023-09-15
 contextual_links:
   - type: section

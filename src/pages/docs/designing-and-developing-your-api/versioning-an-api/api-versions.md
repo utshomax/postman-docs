@@ -1,5 +1,5 @@
 ---
-title: "Publishing an API version"
+title: "Publish a version of your API for consumers"
 updated: 2022-09-15
 contextual_links:
   - type: section
@@ -45,7 +45,7 @@ To publish an API version, do the following:
 
 1. On the API's overview, under **Publish your API to consumers**, select **Publish API**. (If you've published a version before, select **Publish** under **Published Versions**.)
 1. Enter a **Version label** and, if you want, add any **Release notes** describing this version.
-1. Select the elements you want to publish with this version (API definition and collections). If your API definition has [syntax errors](/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/#viewing-syntax-errors-in-your-api-definition), a notification under **Definition** will explain that your API definition file has errors. Postman recommends fixing the errors because your [API documentation](/docs/publishing-your-api/documenting-your-api/#generating-api-documentation) might not display as expected.
+1. Select the elements you want to publish with this version (API definition and collections). If your API definition has [syntax errors](/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/#viewing-syntax-errors-in-your-api-definition), a notification under **Definition** will explain that your API definition file has errors. Postman recommends fixing the errors because your [API documentation](/docs/publishing-your-api/documenting-your-api/) might not display as expected.
 1. To make this version available on the Private API Network, select **Add to API Network** (or **Request to Add**, depending on your [role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles)). You can select a folder to place the API version in, or create a new folder.
 
     > You can only add APIs to the Private API Network from team or public workspaces.

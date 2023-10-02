@@ -1,5 +1,5 @@
 ---
-title: "OAuth 1.0"
+title: "Authenticate with OAuth 1.0 authentication in Postman"
 updated: 2022-12-12
 search_keyword: "WWW-Authenticate, x-www-form-urlencoded"
 contextual_links:

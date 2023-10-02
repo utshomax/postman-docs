@@ -1,9 +1,9 @@
 ---
-title: "Organize a flow"
+title: "Organize Postman Flows with color, annotations, and groups"
 updated: 2023-08-15
 ---
 
-When a flow is just a few blocks, it's easy for its creator to understand. Once flows become more then a few blocks and other users start working on them, it can become difficult to understand what all the moving parts are doing. That's where tools like colors, annotations, and grouping comes in.
+When a Flow is just a few blocks, it's easy for its creator to understand. Once Flows become more than a few blocks and other users start working on them, it can become difficult to understand what all the moving parts are doing. That's where tools like colors, annotations, and grouping comes in.
 
 ## Contents
 
@@ -19,7 +19,7 @@ You can configure every block to be highlighted with a color. This can make it e
 
 ### Annotations
 
-When collaborating with other people or putting a flow in a public workspace, it's helpful to add directions directly on the canvas. This helps explain how to use the flow and what certain blocks are doing. Select the **Add Text** button in the toolbar to add an annotation. Selecting text in an annotation opens the text formatting menu which has bold, italics, and heading options. If you copy a link, then highlight some text and paste the link, the highlighted text becomes a hyperlink.
+When collaborating with other people or putting a Flow in a public workspace, it's helpful to add directions directly on the canvas. This helps explain how to use the Flow and what certain blocks are doing. Select the **Add Text** button in the toolbar to add an annotation. Selecting text in an annotation opens the text formatting menu which has bold, italics, and heading options. If you copy a link, then highlight some text and paste the link, the highlighted text becomes a hyperlink.
 
 <img src="https://assets.postman.com/postman-labs-docs/concepts/annotations.gif" alt="Annotations" fetchpriority="low" loading="lazy" />
 

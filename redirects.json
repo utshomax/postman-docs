@@ -173,15 +173,15 @@
   },
   {
     "from": "/docs/postman-enterprise/audit-logs/",
-    "to": "/docs/administration/audit-logs/"
+    "to": "/docs/administration/managing-your-team/audit-logs/"
   },
   {
     "from": "/docs/postman-enterprise/intro-to-enterprise/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman-enterprise/purchasing-enterprise/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman-enterprise/sso/admin-sso/",
@@ -357,19 +357,19 @@
   },
   {
     "from": "/docs/postman-pro/managing-pro/billing-and-pricing/",
-    "to": "/docs/administration/billing/"
+    "to": "/docs/billing/billing/"
   },
   {
     "from": "/docs/postman-pro/managing-pro/billing/",
-    "to": "/docs/administration/billing/"
+    "to": "/docs/billing/billing/"
   },
   {
     "from": "/docs/postman-pro/managing-pro/buying/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman-pro/managing-pro/changing-your-plan/",
-    "to": "/docs/administration/billing/"
+    "to": "/docs/billing/billing/"
   },
   {
     "from": "/docs/postman-pro/managing-pro/inviting-and-managing/",
@@ -377,7 +377,7 @@
   },
   {
     "from": "/docs/postman-pro/managing-pro/managing-your-billing/",
-    "to": "/docs/administration/billing/"
+    "to": "/docs/billing/billing/"
   },
   {
     "from": "/docs/postman-pro/managing-pro/managing-your-team/",
@@ -389,7 +389,7 @@
   },
   {
     "from": "/docs/postman-pro/managing-pro/purchasing-pro/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman-pro/managing-pro/roles-and-permissions/",
@@ -397,15 +397,15 @@
   },
   {
     "from": "/docs/postman-pro/managing-pro/team-settings/",
-    "to": "/docs/administration/team-settings/"
+    "to": "/docs/administration/managing-your-team/team-settings/"
   },
   {
     "from": "/docs/postman-pro/managing-pro/upgrading-to-postman-pro-from-a-trial-team/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman-pro/what-is-pro/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman/api-documentation/adding-and-verifying-custom-domains/",
@@ -509,11 +509,11 @@
   },
   {
     "from": "/docs/postman/collaboration/audit-logs/",
-    "to": "/docs/administration/audit-logs/"
+    "to": "/docs/administration/managing-your-team/audit-logs/"
   },
   {
     "from": "/docs/postman/collaboration/audit_logs/",
-    "to": "/docs/administration/audit-logs/"
+    "to": "/docs/administration/managing-your-team/audit-logs/"
   },
   {
     "from": "/docs/postman/collaboration/collaboration-intro/",
@@ -549,11 +549,11 @@
   },
   {
     "from": "/docs/postman/collaboration/team-settings/",
-    "to": "/docs/administration/team-settings/"
+    "to": "/docs/administration/managing-your-team/team-settings/"
   },
   {
     "from": "/docs/postman/collaboration/team_settings/",
-    "to": "/docs/administration/team-settings/"
+    "to": "/docs/administration/managing-your-team/team-settings/"
   },
   {
     "from": "/docs/postman/collection-runs/building-workflows/",
@@ -561,7 +561,11 @@
   },
   {
     "from": "/docs/postman/collection-runs/command-line-integration-with-newman/",
-    "to": "/docs/collections/running-collections/using-newman-cli/command-line-integration-with-newman/"
+    "to": "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
+  },
+  {
+    "from": "/docs/collections/running-collections/using-newman-cli/command-line-integration-with-newman/",
+    "to": "/docs/collections/using-newman-cli/command-line-integration-with-newman/"
   },
   {
     "from": "/docs/postman/collection-runs/debugging-a-collection-run/",
@@ -1461,15 +1465,15 @@
   },
   {
     "from": "/docs/postman_enterprise/audit_logs/",
-    "to": "/docs/administration/audit-logs/"
+    "to": "/docs/administration/managing-your-team/audit-logs/"
   },
   {
     "from": "/docs/postman_enterprise/intro_to_enterprise/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman_enterprise/purchasing_enterprise/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman_enterprise/sso/admin_sso/",
@@ -1665,19 +1669,19 @@
   },
   {
     "from": "/docs/postman_pro/managing_pro/billing/",
-    "to": "/docs/administration/billing/"
+    "to": "/docs/billing/billing/"
   },
   {
     "from": "/docs/postman_pro/managing_pro/billing_and_pricing/",
-    "to": "/docs/administration/billing/"
+    "to": "/docs/billing/billing/"
   },
   {
     "from": "/docs/postman_pro/managing_pro/buying/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman_pro/managing_pro/changing_your_plan/",
-    "to": "/docs/administration/billing/"
+    "to": "/docs/billing/billing/"
   },
   {
     "from": "/docs/postman_pro/managing_pro/inviting_and_managing/",
@@ -1685,7 +1689,7 @@
   },
   {
     "from": "/docs/postman_pro/managing_pro/managing_your_billing/",
-    "to": "/docs/administration/billing/"
+    "to": "/docs/billing/billing/"
   },
   {
     "from": "/docs/postman_pro/managing_pro/managing_your_team/",
@@ -1697,7 +1701,7 @@
   },
   {
     "from": "/docs/postman_pro/managing_pro/purchasing_pro/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman_pro/managing_pro/roles_and_permissions/",
@@ -1705,15 +1709,15 @@
   },
   {
     "from": "/docs/postman_pro/managing_pro/team_settings/",
-    "to": "/docs/administration/team-settings/"
+    "to": "/docs/administration/managing-your-team/team-settings/"
   },
   {
     "from": "/docs/postman_pro/managing_pro/upgrading_to_postman_pro_from_a_trial_team/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/postman_pro/what_is_pro/",
-    "to": "/docs/administration/buying/"
+    "to": "/docs/billing/buying/"
   },
   {
     "from": "/docs/publishing-your-api/",
@@ -1869,7 +1873,7 @@
   },
   {
     "from": "/docs/api-security/token-scanner/",
-    "to": "/docs/administration/secret-scanner/"
+    "to": "/docs/administration/managing-your-team/secret-scanner/"
   },
   {
     "from": "/docs/api-governance/api-testing/",
@@ -2317,6 +2321,46 @@
   },
   {
     "from": "/docs/administration/token-scanner/",
-    "to": "/docs/administration/secret-scanner/"
+    "to": "/docs/administration/managing-your-team/secret-scanner/"
+  },
+  {
+    "from": "/docs/administration/managing-your-team/configuring-domain-capture/",
+    "to": "/docs/administration/configuring-domain-capture/"
+  },
+  {
+    "from": "/docs/administration/team-settings/",
+    "to": "/docs/administration/managing-your-team/team-settings/"
+  },
+  {
+    "from": "/docs/administration/managing-api-keys/",
+    "to": "/docs/administration/managing-your-team/managing-api-keys/"
+  },
+  {
+    "from": "/docs/administration/secret-scanner/",
+    "to": "/docs/administration/managing-your-team/secret-scanner/"
+  },
+  {
+    "from": "/docs/administration/audit-logs/",
+    "to": "/docs/administration/managing-your-team/audit-logs/"
+  },
+  {
+    "from": "/docs/administration/about-postman-enterprise/",
+    "to": "/docs/administration/enterprise/about-postman-enterprise/"
+  },
+  {
+    "from": "/docs/administration/managing-enterprise-deployment/",
+    "to": "/docs/administration/enterprise/managing-enterprise-deployment/"
+  },
+  { 
+    "from": "/docs/administration/billing/",
+    "to": "/docs/billing/billing/"
+  },
+  { 
+    "from": "/docs/administration/buying/",
+    "to": "/docs/billing/buying/"
+  },
+  { 
+    "from": "/docs/administration/resource-usage/",
+    "to": "/docs/billing/resource-usage/"
   }
 ]

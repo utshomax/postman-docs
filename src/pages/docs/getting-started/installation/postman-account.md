@@ -1,5 +1,5 @@
 ---
-title: "Managing your account"
+title: "Manage your Postman account"
 order: 4.1
 page_id: "postman_account"
 updated: 2021-12-9
@@ -184,7 +184,7 @@ You can manage your [active Postman sessions](https://go.postman.co/settings/me/
 
 If you have a free account, you can upgrade it by navigating to [Postman](https://go.postman.co/) and selecting **Upgrade** in the top-right corner.
 
-If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://go.postman.co/billing/overview/) and selecting **Edit Plan** on the right. To learn more about upgrading and managing your Postman plan, see the [Billing](/docs/administration/billing/#changing-your-plan) guide.
+If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://go.postman.co/billing/overview/) and selecting **Edit Plan** on the right. To learn more about upgrading and managing your Postman plan, see the [Billing](/docs/billing/billing/#changing-your-plan) guide.
 
 > The cost of your upgraded plan or additional seats will be prorated based on the time left in your team's current billing cycle. For more information, [contact Postman's sales team](mailto:sales@postman.com).
 

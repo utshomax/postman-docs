@@ -1,5 +1,5 @@
 ---
-title: "Configuring SCIM with Okta"
+title: "Configure SCIM with Okta"
 updated: 2023-04-12
 ---
 

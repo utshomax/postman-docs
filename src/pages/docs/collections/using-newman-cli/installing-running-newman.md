@@ -1,5 +1,5 @@
 ---
-title: "Installing and running Newman"
+title: "Install and run Newman"
 updated: 2022-05-23
 contextual_links:
   - type: section
