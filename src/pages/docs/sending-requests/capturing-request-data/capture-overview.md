@@ -1,5 +1,5 @@
 ---
-title: "Capturing request data overview"
+title: "Capture HTTP traffic and sync cookies in Postman"
 updated: 2023-09-15
 contextual_links:
   - type: section

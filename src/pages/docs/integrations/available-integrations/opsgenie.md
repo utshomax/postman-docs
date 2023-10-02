@@ -1,5 +1,5 @@
 ---
-title: "Opsgenie"
+title: "Integrate Postman with Opsgenie"
 updated: 2023-09-25
 contextual_links:
   - type: section

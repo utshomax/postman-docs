@@ -1,5 +1,5 @@
 ---
-title: "Dynamic variables"
+title: "Use predefined variables to return values"
 page_id: "variables_list"
 updated: 2020-09-04
 order: 46

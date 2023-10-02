@@ -1,5 +1,5 @@
 ---
-title: "Using GraphQL with the HTTP request interface"
+title: "Send GraphQL queries using the HTTP request interface"
 page_id: "graphql-http"
 updated: 2023-05-15
 contextual_links:

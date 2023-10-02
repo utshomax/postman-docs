@@ -1,5 +1,5 @@
 ---
-title: "About reports"
+title: "View reports on usage, security, and billing in Postman"
 updated: 2023-06-15
 warning: false
 contextual_links:

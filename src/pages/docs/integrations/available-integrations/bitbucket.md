@@ -1,5 +1,5 @@
 ---
-title: "Bitbucket"
+title: "Integrate Postman with Bitbucket"
 updated: 2021-09-15
 page_id: "bitbucket"
 ---

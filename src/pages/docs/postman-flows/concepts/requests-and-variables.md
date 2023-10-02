@@ -1,5 +1,5 @@
 ---
-title: "Requests and variables"
+title: "Create Postman requests and variables using Postman Flow blocks"
 updated: 2023-08-15
 ---
 

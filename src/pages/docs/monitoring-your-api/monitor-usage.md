@@ -1,5 +1,5 @@
 ---
-title: "Managing monitor usage"
+title: "Manage monitor usage in Postman"
 order: 88
 page_id: "monitor_usage"
 updated: 2023-05-31

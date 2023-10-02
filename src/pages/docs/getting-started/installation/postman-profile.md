@@ -1,5 +1,5 @@
 ---
-title: "Customizing your Postman profile"
+title: "Customize your Postman profile"
 updated: 2022-10-25
 contextual_links:
   - type: section

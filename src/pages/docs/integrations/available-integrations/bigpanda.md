@@ -1,5 +1,5 @@
 ---
-title: "BigPanda"
+title: "Integrate Postman with BigPanda"
 order: 164
 updated: 2022-10-13
 page_id: "bigpanda"

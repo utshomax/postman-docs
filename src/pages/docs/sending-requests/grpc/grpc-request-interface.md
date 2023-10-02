@@ -1,5 +1,5 @@
 ---
-title: "Using the gRPC request interface"
+title: "Create a gRPC request in Postman"
 updated: 2022-10-04
 contextual_links:
   - type: section

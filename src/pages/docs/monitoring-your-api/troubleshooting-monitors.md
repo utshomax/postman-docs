@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting monitors"
+title: "Troubleshoot monitors in Postman"
 updated: 2023-09-26
 ---
 
