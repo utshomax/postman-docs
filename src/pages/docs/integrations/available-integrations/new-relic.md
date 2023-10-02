@@ -1,5 +1,5 @@
 ---
-title: "New Relic"
+title: "Integrate Postman with New Relic"
 updated: 2022-11-10
 warning: false
 contextual_links:

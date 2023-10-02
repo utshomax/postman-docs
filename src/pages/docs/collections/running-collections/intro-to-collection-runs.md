@@ -1,5 +1,5 @@
 ---
-title: "Using the Collection Runner"
+title: "Test your API using the Collection Runner"
 updated: 2023-06-15
 search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
@@ -87,7 +87,7 @@ You can manually run the requests in a [collection](/docs/collections/using-coll
 
 > Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of collection runs you can use each month. This limit applies to collections that you run in a workspace or the Scratch Pad using the **Run manually** option. This limit doesn't apply to [scheduled collection runs](/docs/collections/running-collections/scheduling-collection-runs/) in the Postman cloud. A collection run with multiple iterations counts as a single run.
 >
-> A message will display in the Collection Runner when you're approaching your usage limit. Learn more about [resource usage](/docs/administration/resource-usage/) in Postman.
+> A message will display in the Collection Runner when you're approaching your usage limit. Learn more about [resource usage](/docs/billing/resource-usage/) in Postman.
 
 ## Debugging run results
 
@@ -180,3 +180,5 @@ In addition to running collections manually, the Collection Runner enables you t
 Use the Collection Runner fundamentals you've learned to extend its functionality with workflows.
 
 * To learn how to use scripts to build workflows with conditional sequences for running the requests in your collections, visit [Building request workflows](/docs/collections/running-collections/building-workflows/).
+
+> <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> See how an integration test can ensure that all individual components of an API function together seamlessly. To try out this template, select [Integration testing](https://www.postman.com/templates/fe506090-ca91-4340-bea9-82d2c3d2bb9a/Integration-testing).

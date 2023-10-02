@@ -1,5 +1,5 @@
 ---
-title: "PagerDuty"
+title: "Integrate Postman with PagerDuty"
 updated: 2022-10-05
 contextual_links:
   - type: section

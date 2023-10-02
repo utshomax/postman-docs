@@ -1,5 +1,5 @@
 ---
-title: "Dynamic variables"
+title: "Use predefined variables to return values"
 page_id: "variables_list"
 updated: 2020-09-04
 order: 46
@@ -23,6 +23,8 @@ warning: false
 Postman uses the [faker library](https://www.npmjs.com/package/@faker-js/faker) to generate sample data, including random names, addresses, email addresses, and much more. You can use these pre-defined variables multiple times to return different values per request.
 
 You can use these variables like any other variable in Postman. Their values are generated at the time of execution and their names start with a `$` symbol, for example `$guid` or `$timestamp`.
+
+> <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> See how to use dynamic variables to create randomized mock data. To try out this collection template, select [Mock data generation](https://www.postman.com/templates/da8ceebc-d4da-478c-ab8a-37634faefc74/Mock-data-generation).
 
 The following is a list of dynamic variables whose values are randomly generated during the request/collection run.
 
@@ -204,7 +206,7 @@ The following is a list of dynamic variables whose values are randomly generated
 | **`$randomDomainSuffix`**     | A random domain suffix                          | `org`, `net`, `com`                                                           |
 | **`$randomDomainWord`**       | A random unqualified domain name                | `gwen`, `jaden`, `donnell`                                                    |
 | **`$randomEmail`**            | A random email address                          | `Pablo62@gmail.com`, `Ruthe42@hotmail.com`, `Iva.Kovacek61@hotmail.com`       |
-| **`$randomExampleEmail`**     | A random email address from an “example” domain | `Talon28@example.com`, `Quinten_Kerluke45@example.net`, `Casey81@example.net` |
+| **`$randomExampleEmail`**     | A random email address from an "example" domain | `Talon28@example.com`, `Quinten_Kerluke45@example.net`, `Casey81@example.net` |
 | **`$randomUserName`**         | A random username                               | `Jarrell.Gutkowski`, `Lottie.Smitham24`, `Alia99`                             |
 | **`$randomUrl`**              | A random URL                                    | `https://anais.net`, `https://tristin.net`, `http://jakob.name`               |
 

@@ -1,5 +1,5 @@
 ---
-title: "Using the gRPC request interface"
+title: "Create a gRPC request in Postman"
 updated: 2022-10-04
 contextual_links:
   - type: section
@@ -72,7 +72,7 @@ The request section includes the required configurations to connect to the serve
 
 * **Request actions** - Request actions offer options on what you can do with the request:
 
-    * **Save** - Saves the request into a collection so that you can reuse it later or share it with others. Because WebSocket and gRPC requests have different features than HTTP requests, when they're added to a collection, it causes the collection to be in a “beta” state with certain limitations. When in this state, a collection can contain WebSocket or gRPC requests but can't contain HTTP requests. Some features related to collections also aren't supported.
+    * **Save** - Saves the request into a collection so that you can reuse it later or share it with others. Because WebSocket and gRPC requests have different features than HTTP requests, when they're added to a collection, it causes the collection to be in a "beta" state with certain limitations. When in this state, a collection can contain WebSocket or gRPC requests but can't contain HTTP requests. Some features related to collections also aren't supported.
 
     * **Delete** - Deletes an existing request from the collection.
 

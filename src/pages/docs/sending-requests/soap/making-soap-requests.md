@@ -1,5 +1,5 @@
 ---
-title: "Using SOAP requests"
+title: "Make HTTP calls using the SOAP protocol"
 updated: 2023-6-30
 contextual_links:
   - type: section

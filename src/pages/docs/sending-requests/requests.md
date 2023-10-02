@@ -1,5 +1,5 @@
 ---
-title: "Building requests"
+title: "Create and send API requests in Postman"
 order: 21
 page_id: "requests"
 updated: 2023-05-31
@@ -292,3 +292,5 @@ If your request doesn't work as expected, check out some [troubleshooting tips](
 ## Next steps
 
 Once you have your request set up, select __Send__ and examine the [Response](/docs/sending-requests/responses/).
+
+> <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> To try out a collection template that has a typical REST API, select [REST API Basics](https://www.postman.com/templates/ddb19591-3097-41cf-82af-c84273e56719/REST-API-basics).

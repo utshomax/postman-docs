@@ -1,5 +1,5 @@
 ---
-title: "Writing tests"
+title: "Write API test scripts in Postman"
 order: 43
 page_id: "test_scripts"
 updated: 2022-08-31
@@ -59,6 +59,8 @@ You can add tests to individual [requests](/docs/sending-requests/requests/), [c
 To add tests to a request, open the request and enter your code in the **Tests** tab. Tests will execute after the request runs. The output is in the response's __Test Results__ tab.
 
 ![Request Test Tab](https://assets.postman.com/postman-docs/request-test-tab-v9.jpg)
+
+> <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> See how to work with the Postman basic test syntax to test a single HTTP API request in a sample collection template. To try out this template, select [API testing basics](https://www.postman.com/templates/e9a37a28-055b-49cd-8c7e-97494a21eb54/API-testing-basics).
 
 ### Adding tests to gRPC requests
 

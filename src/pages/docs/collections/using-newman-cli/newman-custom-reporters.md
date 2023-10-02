@@ -1,5 +1,5 @@
 ---
-title: "Using Newman custom reporters"
+title: "Create Newman custom reporters"
 updated: 2022-05-23
 contextual_links:
   - type: section

@@ -1,5 +1,5 @@
 ---
-title: "Viewing scheduled collection runs"
+title: "View your scheduled collection runs"
 updated: 2023-06-15
 ---
 
