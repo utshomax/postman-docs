@@ -1,6 +1,6 @@
 ---
 title: "Enable domain capture in Postman"
-updated: 2023-10-01
+updated: 2023-10-03
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -62,13 +62,13 @@ Existing users who were on other Postman teams will lose access to all data from
 
 > To transfer an existing user's collections and environments from their earlier teams to their new team, [contact Postman support](#contact-support-to-manage-accounts).
 
-For more details on the effects of enabling domain capture, see [Domain capture FAQs](/docs/administration/domain-verification-and-capture/domain-capture-support-and-faqs/).
+For more details on the effects of enabling domain capture, see [Domain capture FAQs](/docs/administration/domain-verification-and-capture/domain-capture-faqs/).
 
 > If users experience any issues when moving to your Postman team, reach out to [Postman support](https://www.postman.com/support/).
 
 ### Contact support to manage accounts
 
-Once the request is approved to [enable domain capture](#enable-domain-capture), Team Admins can contact Postman support by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture). Contact Postman support to claim accounts not part of your team, merge teams into your team, and restrict users to only work in your team.
+Once the request is approved to enable domain capture, Team Admins can contact Postman support by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture). Contact Postman support to claim accounts not part of your team, merge teams into your team, and restrict users to only work in your team.
 
 1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar, then select the **Domains** tab.
 
@@ -82,4 +82,4 @@ Once the request is approved to [enable domain capture](#enable-domain-capture),
 
 ## Domain capture support and FAQs
 
-For more information on the effects of enabling domain capture and how to contact Postman support for assistance, see [Domain capture support and FAQs](/docs/administration/domain-verification-and-capture/domain-capture-support-and-faqs/).
+For more information on the effects of enabling domain capture and how to contact Postman support for assistance, see [Domain capture support and FAQs](/docs/administration/domain-verification-and-capture/domain-capture-faqs/).

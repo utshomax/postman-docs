@@ -1,6 +1,6 @@
 ---
 title: "Verify your organization’s domain in Postman"
-updated: 2023-10-01
+updated: 2023-10-03
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -65,7 +65,7 @@ As a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-rol
 
     > It may take up to 24 hours for the TXT changes to take effect to enable successful verification of the domain. Team Admins will receive an email notification when the domain is verified.
 
-1. Once your domain is verified, you can [view unclaimed accounts](#viewing-unclaimed-accounts) and [request to enable domain capture](#enabling-domain-capture).
+1. Once your domain is verified, you can [view unclaimed accounts](#view-unclaimed-accounts) and [request to enable domain capture](#enable-domain-capture).
 
 > If you're unable to verify your domain in Postman, please contact your Customer Success Manager or [Postman support](https://www.postman.com/support/) for assistance.
 
@@ -91,7 +91,7 @@ To verify a domain you've already added, do the following:
 
     > It may take up to 24 hours for the TXT changes to take effect to enable successful verification of the domain. Team Admins will receive an email notification when the domain is verified.
 
-1. Once your domain is verified, you can [view unclaimed accounts](#viewing-unclaimed-accounts) and [request to enable domain capture](#enabling-domain-capture).
+1. Once your domain is verified, you can [view unclaimed accounts](#view-unclaimed-accounts) and [request to enable domain capture](#enable-domain-capture).
 
 ### View verification details
 
