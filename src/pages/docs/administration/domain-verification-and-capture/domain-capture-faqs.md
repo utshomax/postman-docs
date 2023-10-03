@@ -1,6 +1,6 @@
 ---
 title: "Domain capture FAQs"
-updated: 2023-10-01
+updated: 2023-10-03
 contextual_links:
   - type: section
     name: "Additional resources"
