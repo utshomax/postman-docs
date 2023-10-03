@@ -65,7 +65,7 @@ Postman's Enterprise app is a variant of Postman’s Desktop app that offers gre
 
 You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to access the Postman Enterprise app package.
 
-To download the Postman Enterprise app, open Postman and select **Team** in the upper right, then **Team Settings > Enterprise Application**.
+To download the Postman Enterprise app, open Postman and select **Team** in the upper right, then **Team Settings > Enterprise application**.
 
 <img alt="Postman Enterprise app download" src="https://assets.postman.com/postman-docs/v10/enterprise-app-download-v10.jpg" />
 
