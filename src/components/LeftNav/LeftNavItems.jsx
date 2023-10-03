@@ -542,7 +542,26 @@ export const leftNavItems = [
       },
       {
         name: 'Test API performance',
-        url: '/docs/collections/testing-api-performance/',
+        subParentSlug: 'performance-testing',
+        slug: '/docs/collections/performance-testing/testing-api-performance/',
+        subMenuItems2: [
+          {
+            name: 'Run a performance test',
+            url: '/docs/collections/performance-testing/testing-api-performance/',
+          },
+          {
+            name: 'View performance test metrics',
+            url: '/docs/collections/performance-testing/performance-test-metrics/',
+          },
+          {
+            name: 'Debug performance test errors',
+            url: '/docs/collections/performance-testing/performance-test-errors/',
+          },
+          {
+            name: 'Import data for virtual users',
+            url: '/docs/collections/performance-testing/performance-test-data-files/',
+          },
+        ],
       },
       {
         name: 'Live Collections',
