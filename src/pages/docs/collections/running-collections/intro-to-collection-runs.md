@@ -116,15 +116,15 @@ To learn more about what happened during the collection run, do any of the follo
 
 After reviewing the results of the collection run, you can run the collection again. For example, you can edit the code for a failed test and run the collection again to check if the test succeeds.
 
-To run the collection again, do one of the following:
+To run the collection again from the run results, do one of the following:
 
 * Select **Run Again** to run the collection again using the same settings.
 * Select **+ New Run** to configure a new run for the collection. Make changes to any settings, and then select **Run (collection name)** to run the collection again.
 * Select **Automate Run** to automate runs for the collection. You can [schedule a run](/docs/collections/running-collections/scheduling-collection-runs/), [run using the Postman CLI](/docs/postman-cli/postman-cli-run-collection/#running-a-collection-locally-with-the-postman-cli), or [integrate runs with your CI/CD pipeline](/docs/postman-cli/postman-cli-run-collection/#running-a-collection-in-cicd).
 
-> If you changed the selection and order of requests to run, the custom order isn't saved if you close or refresh the **Runner** tab or quit Postman.
+> If you changed the selection and order of requests or other settings, the custom order and configuration are saved with the run results.
 >
-> To run the collection again using your custom order, select **View all runs** to [view past runs](#viewing-past-runs) for the collection. Select the view report icon <img alt="View report icon" src="https://assets.postman.com/postman-docs/v10/icon-view-report.jpg#icon" width="16px"> next to a run to open the collection run results. From here you can select **Run Again** to run the collection again using the same settings.
+> To run the collection again using your custom configuration, select the **Runs** tab in the collection to [view past runs](#viewing-past-runs). Select the view report icon <img alt="View report icon" src="https://assets.postman.com/postman-docs/v10/icon-view-report.jpg#icon" width="16px"> next to a run to open the collection run results. From here you can select **Run Again** to run the collection again using the same settings.
 
 ## Viewing run history
 
