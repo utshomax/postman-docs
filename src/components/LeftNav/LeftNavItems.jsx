@@ -1321,8 +1321,27 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Configure domain verification and capture',
-        url: '/docs/administration/configuring-domain-capture/',
+        name: 'Domain verification and capture',
+        subParentSlug: 'domain-verification-and-capture',
+        slug: '/docs/administration/domain-verification-and-capture/domain-capture-overview/',
+        subMenuItems2: [
+          {
+            name: 'Verify and capture domains',
+            url: '/docs/administration/domain-verification-and-capture/domain-capture-overview/',
+          },
+          {
+            name: 'Add and verify a domain',
+            url: '/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/',
+          },
+          {
+            name: 'Enable domain capture',
+            url: '/docs/administration/domain-verification-and-capture/enable-domain-capture/',
+          },
+          {
+            name: 'Domain capture support and FAQs',
+            url: '/docs/administration/domain-verification-and-capture/domain-capture-faqs/'
+          }
+        ],
       },
       {
         name: 'Admin FAQs',
