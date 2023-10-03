@@ -1,6 +1,6 @@
 ---
 title: "Configure domain verification and account capture in Postman"
-updated: 2023-10-01
+updated: 2023-10-03
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -36,7 +36,7 @@ For developers, domain capture removes friction from the onboarding process. As 
 You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable domain capture for your team. In addition, your team must:
 
 * Be on a [Postman Enterprise Ultimate](https://www.postman.com/pricing) plan.
-* Use [Postman version 9 or later](/docs/administration/updating/).
+* Use [Postman version 9 or later](/docs/administration/enterprise/managing-enterprise-deployment/).
 * Have [SSO](/docs/administration/sso/admin-sso/) configured and enabled.
     * Alternative authentication methods (Postman or Google sign in) must be turned off.
 * [Add and verify a domain or subdomain](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/).
@@ -50,4 +50,4 @@ To set up domain capture:
 1. [Add and verify a domain](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/)
 2. [Enable domain capture](/docs/administration/domain-verification-and-capture/enable-domain-capture/)
 
-For more information on domain verification and account capture, see [Domain capture support and FAQs](/docs/administration/domain-verification-and-capture/domain-capture-support-and-faqs/).
+For more information on domain verification and account capture, see [Domain capture support and FAQs](/docs/administration/domain-verification-and-capture/domain-capture-faqs/).
