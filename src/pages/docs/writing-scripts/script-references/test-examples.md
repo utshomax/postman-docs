@@ -1,6 +1,6 @@
 ---
 title: "Test script examples"
-updated: 2023-09-27
+updated: 2023-10-04
 contextual_links:
   - type: section
     name: "Additional resources"

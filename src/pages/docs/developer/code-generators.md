@@ -1,6 +1,6 @@
 ---
 title: "Code generator library"
-updated: 2023-09-25
+updated: 2023-10-04
 ---
 
 You can generate client code for your API collections in Postman. Postman's Node.js code generator module converts a request into client code for your target language in conjunction with the [Collection SDK](/docs/developer/collection-sdk/).

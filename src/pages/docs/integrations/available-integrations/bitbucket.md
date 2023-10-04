@@ -1,6 +1,6 @@
 ---
 title: "Bitbucket"
-updated: 2023-09-25
+updated: 2023-10-04
 ---
 
 You can back up your Postman Collections to your Bitbucket repository. Once the integration is configured, any changes to your collection in Postman will also appear in your Bitbucket repository.
