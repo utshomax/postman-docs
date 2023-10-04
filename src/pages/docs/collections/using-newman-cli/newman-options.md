@@ -1,6 +1,6 @@
 ---
 title: "Customize a collection run using Newman command options"
-updated: 2022-05-23
+updated: 2023-10-04
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -56,7 +56,7 @@ $ newman run -h
 |:--|:--|
 | `-e`, `--environment [file\|URL]` | Specify the file path or URL of environment variables. |
 | `-g`, `--globals [file\|URL]` | Specify the file path or URL of global variables. |
-| `-d`, `--iteration-data [file]` | Specify a data file, either JSON or CSV, to use for iteration as a path to a file or as a URL. |
+| `-d`, `--iteration-data [file]` | Specify a data file, either JSON or CSV, to use for iteration as a path to a file or as a URL. To learn more, see [Data file example](#data-file-example). |
 | `-n`, `--iteration-count [number]` | Specify the number of times for the collection to run. Use with the iteration data file. |
 | `--folder [folderName]` | Specify a folder to run requests from. You can specify more than one folder by using this option multiple times, specifying one folder for each time the option is used. |
 | `--working-dir [path]` | Set the path of the working directory to use while reading files with relative paths. Default to current directory. |
@@ -93,7 +93,7 @@ $ newman run -h
 | `--color [value]` | Specify the color of the CLI output: `on`, `off`, or `auto` (default).
 | `--disable-unicode` | Turn off Unicode text encoding. When supplied, all symbols in the output will be replaced by their plain text equivalents. |
 | `-k`, `--insecure` | Turn off SSL verification checks, and allow self-signed SSL certificates. |
-| `-x`, `--suppress-exit-code` | Specify whether to override the default exit code for the current run. Continue running tests even after a failure, but exit with `code=0`. |
+| `-x`, `--suppress-exit-code` | Specify whether to override the default exit code for the current run. Continue running tests even after a failure, but exit with `code=0`. To learn more, see [Exit status](#exit-status). |
 | `--ignore-redirects` | Turn off automatic following of `3XX` redirect responses. |
 | `--verbose` | Show detailed information of collection run and each request sent. |
 | `--cookie-jar [path]` | Specify the file path for a JSON Cookie Jar. Uses `tough-cookie` to deserialize the file. |

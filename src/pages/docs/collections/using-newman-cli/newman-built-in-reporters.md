@@ -30,7 +30,7 @@ To generate reports of the current collection run, you can configure reporters u
 $ newman run PostmanCollection.json -r cli,json
 ```
 
-> If the built-in reporters don't align with your use case, you can [build a custom reporter](/docs/collections/using-newman-cli/newman-custom-reporters/).
+> If the built-in reporters don't align with your use case, you can [use an external reporter or build a custom reporter](/docs/collections/using-newman-cli/newman-custom-reporters/).
 
 The CLI reporter (`cli`) is turned on by default when using Newman in the terminal. If you turn on one or more reporters, for example `-r json`, the CLI reporter will be turned off. To turn on the CLI reporter, you must specify the CLI reporter, for example, `-r cli,json`.
 

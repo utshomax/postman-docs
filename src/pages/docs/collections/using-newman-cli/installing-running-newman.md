@@ -1,6 +1,6 @@
 ---
 title: "Install and run Newman"
-updated: 2022-05-23
+updated: 2023-10-05
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -21,15 +21,31 @@ contextual_links:
 
 To get started using Newman, install Node.js, then Newman. Then you can run your collections.
 
+## Contents
+
+* [Installing Newman](#installing-newman)
+* [Updating Newman](#updating-newman)
+* [Running Newman](#running-newman)
+* [Example collection with failing tests](#example-collection-with-failing-tests)
+* [Options](#options)
+* [Using Newman with CI/CD](#using-newman-with-cicd)
+* [Using Newman as a Node.js library](#using-newman-as-a-nodejs-library)
+
 ## Installing Newman
 
-1. Newman is built on Node.js. To run Newman, make sure you have Node.js installed. Follow the [steps to download Node](https://nodejs.org/en/download/package-manager/) for your CI's platform. (Some CI systems have configurations that pre-install Node.) Ensure you're using Node.js v16 or later.
+Newman is built on Node.js. To run Newman, make sure you have Node.js installed. Follow the [steps to download Node](https://nodejs.org/en/download/package-manager/) for your CI's platform. (Some CI systems have configurations that pre-install Node.)
 
-1. Install Newman from npm globally on your system, enabling you to run it from anywhere:
+Ensure you're using Node.js v16 or later. If you're using an earlier version of Newman, learn more about [Node.js version compatibility with Newman](https://github.com/postmanlabs/newman#nodejs).
 
-    ```bash
-    $ npm install -g newman
-    ```
+Install Newman from npm globally on your system, enabling you to run it from anywhere:
+
+```bash
+$ npm install -g newman
+```
+
+## Updating Newman
+
+If you already have Newman installed, you can upgrade to a later version. Learn more about [upgrading to a later version of Newman](https://github.com/postmanlabs/newman/blob/develop/MIGRATION.md).
 
 ## Running Newman
 

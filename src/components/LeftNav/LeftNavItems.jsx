@@ -593,7 +593,7 @@ export const leftNavItems = [
             url: '/docs/collections/using-newman-cli/newman-built-in-reporters/',
           },
           {
-            name: 'Using Newman custom reporters',
+            name: 'Use Newman external and custom reporters',
             url: '/docs/collections/using-newman-cli/newman-custom-reporters/',
           },
           {

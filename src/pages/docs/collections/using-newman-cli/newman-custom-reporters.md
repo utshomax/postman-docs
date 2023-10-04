@@ -1,6 +1,6 @@
 ---
-title: "Create Newman custom reporters"
-updated: 2022-05-23
+title: "Use Newman external and custom reporters"
+updated: 2023-10-05
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -19,7 +19,12 @@ contextual_links:
     url: "https://blog.postman.com/newman-run-and-test-your-collections-from-the-command-line/"
 ---
 
-_Custom reporters_ are useful to generate collection run reports with Newman that cater to specific use cases, for example, logging out the response body when a request (or its tests) fail. You can also learn more about [Newman's built-in reporters](/docs/collections/using-newman-cli/newman-built-in-reporters/).
+External and custom reporters are useful to generate collection run reports with Newman that cater to specific use cases, for example, logging out the response body when a request (or test) fails. You can use existing external reporters or build your own custom reporters.
+
+## Contents
+
+* [Building custom reporters](#building-custom-reporters)
+* [Using external and custom reporters](#using-external-and-custom-reporters)
 
 ## Building custom reporters
 
@@ -29,7 +34,7 @@ To create a custom reporter, do the following:
 
 1. In the directory of your choice, create a blank npm package with `npm init`.
 
-1. Add an `index.js` file, which exports a function of the following form:
+1. Add an `index.js` file that exports a function in the following format:
 
     ```javascript
     function CustomNewmanReporter (emitter, reporterOptions, collectionRunOptions) {
@@ -40,19 +45,21 @@ To create a custom reporter, do the following:
     module.exports = CustomNewmanReporter
     ```
 
-1. To use your reporter locally, use `npm pack` to create a TGZ file. This can be installed using `npm i -g newman-reporter-<name>.<version>.tgz`. Learn more about [using custom reporters](#using-custom-reporters).
+1. To use your reporter locally, use `npm pack` to create a TGZ file. This can be installed using `npm i -g newman-reporter-<name>.<version>.tgz`. Learn more about [using custom reporters](#using-external-and-custom-reporters).
 
     > Scoped reporter package names like `@myorg/newman-reporter-<name>` are also supported.
 
 1. (Optional) You can publish your reporter to npm using `npm publish`.
 
-## Using custom reporters
+## Using external and custom reporters
 
-You must install the custom reporter to use it. For example, to use the Newman TeamCity reporter, install the reporter package:
+You must install the external or custom reporter to use it. For example, to use the [Newman HTML reporter](https://github.com/postmanlabs/newman-reporter-html), install the reporter package:
 
 ```bash
-npm install newman-reporter-teamcity
+$ npm install newman-reporter-html
 ```
+
+> You can use external reporters with Newman if the reporter works with Newman's event sequence. You can view [examples of how Newman reporters work](https://github.com/postmanlabs/newman/tree/develop/lib/reporters).
 
 The name of the package follows the format `newman-reporter-<name>`, where `<name>` is the actual name of the reporter. The installation is global if Newman is installed globally, and local otherwise. Run `npm install ...` with the `-g` flag for a global installation.
 

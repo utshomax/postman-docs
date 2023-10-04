@@ -1,6 +1,6 @@
 ---
 title: "Upload files with Newman"
-updated: 2022-05-23
+updated: 2023-10-04
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -18,8 +18,6 @@ contextual_links:
     name: "Newman: run and test your collections from the command line"
     url: "https://blog.postman.com/newman-run-and-test-your-collections-from-the-command-line/"
 ---
-
-## File uploads
 
 Newman supports file uploads. For this to work, the file must be located in the same working directory as the collection file. Your file must also include the filename in the `src` attribute of the request.
 
