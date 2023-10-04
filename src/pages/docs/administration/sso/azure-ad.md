@@ -1,6 +1,7 @@
 ---
 title: "Microsoft Entra ID"
 updated: 2022-03-14
+search_keyword: "azure ad"
 ---
 
 > **[SSO with Microsoft Entra ID is available on Postman Enterprise plans.](https://www.postman.com/pricing)**

@@ -1,9 +1,7 @@
 ---
 title: "Configure SCIM with Microsoft Entra ID"
-order: 142
 updated: 2022-11-30
-page_id: "configuring_scim_with_azure_ad"
-warning: false
+search_keyword: "azure ad"
 contextual_links:
   - type: section
     name: "Additional resources"
