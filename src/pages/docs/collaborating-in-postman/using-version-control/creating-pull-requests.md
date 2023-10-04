@@ -1,5 +1,5 @@
 ---
-title: "Creating pull requests"
+title: "Contribute to forked collections and environments in Postman"
 updated: 2022-11-17
 contextual_links:
   - type: section
@@ -34,7 +34,7 @@ When you have made the changes that you want to a forked collection or environme
 
 ## Creating pull requests
 
-> The pull request process isn't available for flows.
+> The pull request process isn't available for Flows.
 
 1. Hover over the element in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.

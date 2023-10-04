@@ -1,5 +1,5 @@
 ---
-title: "Postman JavaScript reference"
+title: "Manage API data and workflows using Postman JavaScript objects"
 updated: 2020-09-04
 contextual_links:
   - type: section

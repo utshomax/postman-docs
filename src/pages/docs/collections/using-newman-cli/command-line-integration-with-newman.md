@@ -1,6 +1,6 @@
 ---
-title: "Running collections on the command line with Newman"
-updated: 2022-05-23
+title: "Run and test collections from the command line using Newman CLI"
+updated: 2023-09-26
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -39,9 +39,9 @@ Newman maintains feature parity with Postman and allows you to run collections t
 
 Newman resides in the [npm registry](https://www.npmjs.com/package/newman) and on [GitHub](https://github.com/postmanlabs/newman).
 
-You can also run collections from the command line using the [Postman CLI](/docs/postman-cli/postman-cli-overview/). For more information on the differences between Newman and the Postman CLI, see [deciding which command-line companion to use](/docs/postman-cli/postman-cli-overview/#deciding-which-command-line-companion-to-use).
+You can also run collections from the command line using the [Postman CLI](/docs/postman-cli/postman-cli-overview/). For more information on the differences between Newman and the Postman CLI, see [Deciding which command-line companion to use](/docs/postman-cli/postman-cli-overview/#deciding-which-command-line-companion-to-use).
 
-[![Running Newman](https://assets.postman.com/postman-docs/newman-running-in-terminal.gif)](https://assets.postman.com/postman-docs/newman-running-in-terminal.gif)
+![Running Newman](https://assets.postman.com/postman-docs/newman-running-in-terminal.gif)
 
 ## Contents
 

@@ -1,5 +1,5 @@
 ---
-title: "GitLab"
+title: "Integrate Postman with GitLab"
 updated: 2021-11-15
 contextual_links:
   - type: section

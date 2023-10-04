@@ -1,5 +1,5 @@
 ---
-title: "Run requests in sequence"
+title: "Run requests in sequence using Postman Flows"
 updated: 2023-08-15
 contextual_links:
   - type: section
@@ -24,7 +24,7 @@ contextual_links:
 
 If you have several requests that have no dependency on each other but have to be executed in a particular order, you can use send events to connect your [blocks](/docs/postman-flows/gs/flows-overview/).
 
-> Check out the example flow: [Chaining requests](https://www.postman.com/postman/workspace/flows-snippets/flow/6267f9315d367a64e7ba06e5)
+> Check out the example Flow: [Chaining requests](https://www.postman.com/postman/workspace/flows-snippets/flow/6267f9315d367a64e7ba06e5)
 
 1. **Add a Send Request block**
 
@@ -38,10 +38,10 @@ If you have several requests that have no dependency on each other but have to b
 
    <img src="https://assets.postman.com/postman-docs/v10/flows-select-requests-v10-1.gif" alt="Select requests" fetchpriority="low" loading="lazy" />
 
-1. **Start the flow**
+1. **Start the Flow**
 
-   Start the flow and see the requests run in the order they're configured:
+   Start the Flow and see the requests run in the order they're configured:
 
-   <img src="https://assets.postman.com/postman-docs/v10/flows-run-requests-v10-1.gif" alt="Start the flow" fetchpriority="low" loading="lazy" />
+   <img src="https://assets.postman.com/postman-docs/v10/flows-run-requests-v10-1.gif" alt="Start the Flow" fetchpriority="low" loading="lazy" />
 
 If you want to use data from one request in another request, you can learn how to do so in [Send information from one system to another](/docs/postman-flows/tutorials/send-information-from-one-system-to-another/).

@@ -1,5 +1,5 @@
 ---
-title: "Code generator library"
+title: "Generate client code for your API collections"
 updated: 2023-10-04
 ---
 

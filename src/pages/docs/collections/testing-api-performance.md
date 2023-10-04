@@ -1,5 +1,5 @@
 ---
-title: "Testing API performance"
+title: "Simulate user traffic to test your API performance"
 updated: 2023-09-15
 contextual_links:
   - type: section
@@ -73,7 +73,7 @@ To configure a performance test in the Postman desktop app, do the following:
 
 <img alt="Configuring a performance test" src="https://assets.postman.com/postman-docs/v10/performance-test-configure-v10-15.jpg"/>
 
-> Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of performance runs you can use each month. A message will display in the Collection Runner when you're approaching your usage limit. Learn more about [resource usage](/docs/administration/resource-usage/#performance-test-usage) in Postman.
+> Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of performance runs you can use each month. A message will display in the Collection Runner when you're approaching your usage limit. Learn more about [resource usage](/docs/billing/resource-usage/#performance-test-usage) in Postman.
 
 ### Virtual users and system resources
 

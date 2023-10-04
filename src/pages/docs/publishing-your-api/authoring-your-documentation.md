@@ -1,5 +1,5 @@
 ---
-title: "Writing your docs"
+title: "Write documentation in Postman"
 updated: 2023-07-21
 contextual_links:
   - type: section
@@ -22,7 +22,7 @@ contextual_links:
     url: "https://blog.postman.com/resize-images-add-captions-in-postman-editor/"
 ---
 
-Postman [automatically generates documentation](/docs/publishing-your-api/documenting-your-api/) for every collection you create. The documentation includes all of the requests in your collection, along with examples, authorization details, and example code.
+Postman [automatically generates documentation](/docs/publishing-your-api/document-a-collection/) for every collection you create, including [collections linked to an API](/docs/publishing-your-api/documenting-your-api/). The documentation includes all of the requests in your collection, along with examples, authorization details, and example code.
 
 To help your teammates ([or the world](/docs/publishing-your-api/publishing-your-docs/)) better understand what you're building, add detailed descriptions to your collection and the items in it. Use the Postman editor to view how your content will look as you write it. Or use the classic Markdown editor to structure and format your descriptions using [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). All of your descriptions are included in the documentation for your collection.
 
@@ -192,7 +192,7 @@ If you are on a [Postman Free plan](https://www.postman.com/pricing/) and aren't
 
 To check how much storage you're using, go to your [billing dashboard](http://go.postman.co/billing) and select **Resource Usage**. The amount of space used by uploaded images and files appears under **Storage Usage**. To upgrade your available storage, contact [Postman support](https://www.postman.com/support/).
 
-> When you reach 90% of your storage limit and above, you will get a warning each time you try to add an image. To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/administration/resource-usage/).
+> When you reach 90% of your storage limit and above, you will get a warning each time you try to add an image. To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/billing/resource-usage/).
 
 ## Embedding videos
 

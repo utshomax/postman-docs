@@ -1,5 +1,5 @@
 ---
-title: "Mocking with the Postman API"
+title: "Create and use a mock server using the Postman API"
 updated: 2022-11-10
 search_keyword: "x-mock-response-code, x-mock-response-name, x-mock-response-id, x-mock-match-request-body, x-mock-match-request-headers, x-mock-response-delay"
 contextual_links:

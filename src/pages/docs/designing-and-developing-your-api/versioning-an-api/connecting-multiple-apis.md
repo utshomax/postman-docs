@@ -1,5 +1,5 @@
 ---
-title: "Connecting multiple APIs to a repository"
+title: "Connect multiple APIs to a repository"
 updated: 2023-09-15
 contextual_links:
   - type: section

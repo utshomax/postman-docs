@@ -1,5 +1,5 @@
 ---
-title: "Validating an API"
+title: "Ensure consistency between your collection and the API definition"
 updated: 2023-06-15
 contextual_links:
   - type: section

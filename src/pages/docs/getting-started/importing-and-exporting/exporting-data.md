@@ -1,5 +1,5 @@
 ---
-title: "Exporting data from Postman"
+title: "Export data from Postman"
 updated: 2023-07-19
 contextual_links:
   - type: section

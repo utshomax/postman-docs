@@ -1,5 +1,5 @@
 ---
-title: "Mocking with examples"
+title: "Mock your API using saved response examples"
 updated: 2023-10-04
 contextual_links:
   - type: section

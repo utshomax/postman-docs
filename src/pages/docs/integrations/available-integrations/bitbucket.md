@@ -1,5 +1,5 @@
 ---
-title: "Bitbucket"
+title: "Integrate Postman with Bitbucket"
 updated: 2023-10-04
 ---
 

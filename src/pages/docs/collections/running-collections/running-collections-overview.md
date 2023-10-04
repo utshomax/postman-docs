@@ -1,5 +1,5 @@
 ---
-title: "Running collections overview"
+title: "Test your API functionality"
 updated: 2023-06-15
 contextual_links:
   - type: section

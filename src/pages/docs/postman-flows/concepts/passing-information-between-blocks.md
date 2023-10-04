@@ -1,9 +1,9 @@
 ---
-title: "Pass information between blocks"
+title: "Send data between blocks in a Postman Flow"
 updated: 2023-08-15
 ---
 
-A typical flow often involves making a request, and then doing something with the result of that request. To do this, flows pass information between blocks to perform tasks.
+A typical Flow often involves making a request, and then doing something with the result of that request. To do this, Flows pass information between blocks to perform tasks.
 
 ## Contents
 
@@ -22,6 +22,6 @@ Adding another **Send Request** block and then dragging a connection to its `val
 
 You may have noticed in the previous step that the **Send Request** block has a variable named `value1` that's using a **Select** block with no value set. When this happens, it's selecting everything that's being sent to it (which in this case is `eur`).
 
-This flow can be simplified to remove the extra **Select** block and instead use the existing ones in the second **Send Request** block.
+This Flow can be simplified to remove the extra **Select** block and instead use the existing ones in the second **Send Request** block.
 
-<img src="https://assets.postman.com/postman-labs-docs/concepts/updated-simplifying-the-flow.gif" alt="Simplifying the flow" fetchpriority="low" loading="lazy" />
+<img src="https://assets.postman.com/postman-labs-docs/concepts/updated-simplifying-the-flow.gif" alt="Simplifying the Flow" fetchpriority="low" loading="lazy" />
