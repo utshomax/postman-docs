@@ -17,3 +17,5 @@ contextual_links:
 ---
 
 Using data files for performance tests
+
+Data file is not saved for past runs

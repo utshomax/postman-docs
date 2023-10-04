@@ -16,9 +16,7 @@ contextual_links:
     url: "https://blog.postman.com/postman-api-performance-testing/"
 ---
 
-> **Performance testing is available on [Postman Free, Basic, and Professional plans](https://www.postman.com/pricing/).** To learn more about availability for Enterprise plans, contact the [Postman sales team](https://www.postman.com/company/contact-sales/).
-
-During a performance test, requests that result in a response other than a 2xx status code are tracked as errors. You can view details about the top errors that occurred during the test and error trends over time. Use this information to gain insight into when errors are occurring and the possible causes.
+During a [performance test](/docs/collections/performance-testing/testing-api-performance/), requests that result in a response other than a 2xx status code are tracked as errors. You can view details about the top errors that occurred during the test and error trends over time. Use this information to gain insight into when errors are occurring and the possible causes.
 
 ## Contents
 

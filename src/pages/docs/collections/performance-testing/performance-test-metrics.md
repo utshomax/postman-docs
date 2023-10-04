@@ -16,7 +16,7 @@ contextual_links:
     url: "https://blog.postman.com/postman-api-performance-testing/"
 ---
 
-During a performance test, all requests are sent from your computer where you are running the Postman desktop app. You can view real-time metrics such as the average response time, error rate, and throughput. You can also customize the performance test graph to focus on the requests or test metrics you're most interested in.
+During a [performance test](/docs/collections/performance-testing/testing-api-performance/), all requests are sent from your computer where you are running the Postman desktop app. You can view real-time metrics such as the average response time, error rate, and throughput. You can also customize the performance test graph to focus on the requests or test metrics you're most interested in.
 
 ## Contents
 
@@ -33,7 +33,7 @@ You can view the following information about the performance test:
 
 * Name of the collection being run and the active environment (if any). Select the name to open the collection or environment.
 * The number of virtual users (VU). Each virtual user simulates the behavior of a real-world user by running the collection in a repeating loop, in parallel with other virtual users.
-* Start time, duration, and load profile (fixed or ramp up).
+* Start time, duration, load profile (fixed or ramp up), and [data file](/docs/collections/performance-testing/performance-test-data-files/) (if used).
 * **Total requests sent** - The total number of requests sent across all virtual users.
 * **Requests/second** - The number of requests sent each second during the performance test, a measure of throughput.
 * **Avg. response time** - The response time in milliseconds of all requests averaged together.
