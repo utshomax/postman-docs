@@ -53,7 +53,7 @@ For help with any account or billing issues, go to Postman's [Support Center](ht
 
         * [Billing for Auto-Flex](#billing-for-auto-flex)
 
-* [Manage Enterprise Solutions](#manage-enterprise-solutions)
+* [Manage Enterprise solutions licenses](#manage-enterprise-solutions-licenses)
 
 * [Canceling your plan](#canceling-your-plan)
 
@@ -201,7 +201,7 @@ You can change your team's plan and billing cycle in your [billing dashboard](ht
 To change your plan, billing frequency, team size, and add-ons, open your [billing dashboard](https://go.postman.co/billing/overview) and select **Edit Plan** on the right.
 
 1. You can adjust your billing frequency and plan type.
-1. Select **Next** to adjust your team size and add-on seats such as Flow Editor and Enterprise Solutions. You can opt to apply changes right away or on renewal.
+1. Select **Next** to adjust your team size and add-on seats such as Flow Editor and Enterprise solutions. You can opt to apply changes right away or on renewal.
 1. Select **Next** to adjust your team's add-on resources, including monitoring blocks, mock server blocks, and custom domains.
 1. Select **Next** then **Confirm Changes**.
 
@@ -229,7 +229,7 @@ Update the number of Flow Editor seats, monitoring blocks, mock server blocks, a
 
 ### Using Auto-Flex
 
-[Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. Auto-Flex applies to both plan seats and any add-on seats such as Flow Editor and Enterprise Solutions. With Auto-Flex enabled, your team can [invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) users or provision add-on capabilities to your team members without having to pay in advance for more seats, then opt to retain or remove them before being [billed](#billing-for-auto-flex).
+[Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. Auto-Flex applies to both plan seats and any add-on seats such as Flow Editor and Enterprise solutions. With Auto-Flex enabled, your team can [invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) users or provision add-on capabilities to your team members without having to pay in advance for more seats, then opt to retain or remove them before being [billed](#billing-for-auto-flex).
 
 All [Postman Basic, Professional, and Enterprise Essentials plans](https://www.postman.com/pricing) have Auto-Flex enabled automatically.
 
@@ -263,26 +263,23 @@ In your [billing dashboard](http://go.postman.co/billing), you can view:
 
 > [Contact Postman support](https://www.postman.com/support/) with any questions about Auto-Flex.
 
-## Manage Enterprise Solutions
+## Manage Enterprise solutions licenses
 
-> **[Enterprise Solutions are available for Enterprise Essentials plans.](https://www.postman.com/pricing)**
+> **[Enterprise solutions are available for Enterprise Essentials plans.](https://www.postman.com/pricing)**
 
-<!-- As a Team Admin, you can manage solution access of your team members from your [Product Access](https://go.postman.co/settings/team/products-access) page. To learn more about the added capabilities of each solution, see [Enterprise Solutions](https://www.postman.com/pricing/#enterprise-solutions).
+As a Team Admin, you can purchase Enterprise solutions licenses for your Enterprise Essentials plan, enabling you to add team members to the solution.
 
-* To add Team members to a solution, select **Add Members** and select users.
-* To remove Team members from a solution, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to a user.
+To purchase additional licenses for a solution, [add team members to a solution](/docs/administration/managing-your-team/managing-your-team/#manage-your-teams-enterprise-solutions). You can also open your [billing dashboard](https://go.postman.co/billing/overview) and select **Edit Plan** on the right. Select **Add to plan** next to the solution you want to purchase.
 
-> [Auto-Flex](#using-auto-flex) enables your team to add more Team members without having to pay upfront. Newly added members to the Team and the solutions will be billed in the next Auto-Flex cycle. -->
+To learn more about the added capabilities of each solution, see [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions).
 
-As a Team Admin, you can purchase Enterprise Solutions for your Enterprise Essentials plan. You can add team members to a solution, giving them additional permissions in your team. Open your [billing dashboard](https://go.postman.co/billing/overview) and select **Edit Plan** on the right. Select **Add to plan** next to the solution you want to purchase.
-
-To learn more about the added capabilities of each solution, see [Enterprise Solutions](https://www.postman.com/pricing/#enterprise-solutions).
+> [Auto-Flex](#using-auto-flex) enables your team to add more Team members without having to pay upfront. Newly added members to the Team and the solutions will be billed in the next Auto-Flex cycle.
 
 ## Canceling your plan
 
 To cancel your Postman plan, select **Cancel plan** at the bottom of your [billing dashboard](http://go.postman.co/billing).
 
-If you have canceled your Postman plan and want to reverse this action, select **Undo cancelation** next to the cancelation notice on your [billing dashboard](http://go.postman.co/billing).
+If you have canceled your Postman plan and want to reverse this action, select **Undo cancellation** next to the cancellation notice on your [billing dashboard](http://go.postman.co/billing).
 
 ## Next steps
 

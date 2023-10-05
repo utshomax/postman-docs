@@ -37,6 +37,9 @@ Postman provides a variety of options to customize your team's experience, from 
     * [Managing Partners](#managing-partners)
     * [Managing Guests](#managing-guests)
 * [Manage your team's workspaces](#manage-your-teams-workspaces)
+* [Manage your team's Enterprise solutions](#manage-your-teams-enterprise-solutions)
+    * [Internal API Management solution](#internal-api-management-solution)
+    * [API Test Automation solution](#api-test-automation-solution)
 * [Managing your team’s Postman plan](#managing-your-teams-postman-plan)
     * [Changing team size](#changing-team-size)
     * [Upgrading your plan](#upgrading-your-plan)
@@ -217,6 +220,46 @@ To give all team members permission to create team workspaces, do the following:
 1. Select **Save Changes**.
 
     <img alt="All team members can create team workspaces" src="https://assets.postman.com/postman-docs/v10/workspace-management-all-team-members-v10.jpg" width="600px"/>
+
+## Manage your team's Enterprise solutions
+
+> **[Enterprise solutions are available for Enterprise Essentials plans.](https://www.postman.com/pricing)**
+
+As a Team Admin, you can manage Enterprise solutions for you team: [Internal API Management](#internal-api-management-solution) and [API Test Automation](#api-test-automation-solution). Depending on the solution, adding team members to a solution can give them additional permissions in your team. Adding team members to a solution also gives your team access to more features. To learn more about the added capabilities of each solution, see [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions).
+
+To add team members to a solution, do the following:
+
+1. Select **Team** in the Postman header, then select **Team Settings**.
+1. Select **Product access**.
+1. Select the Enterprise solution you'd like to manage: **Internal API Management** or **API Test Automation**.
+1. To add team members to a solution, select **Add Members**. Adding members to a solution purchases an additional license for that solution. Learn more about [managing Enterprise solutions licenses](/docs/billing/billing/#manage-enterprise-solutions-licenses).
+
+    <img alt="Add team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/enterprise-solutions-add-members-v10.jpg"/>
+
+1. Select team members you'd like to add to the solution, then select **Add Members**. Learn more about the benefits of adding team members to the [Internal API Management](#internal-api-management-solution) and [API Test Automation](#api-test-automation-solution) solutions.
+
+To remove members from a solution, do the following:
+
+1. Select **Team** in the Postman header, then select **Team Settings**.
+1. Select **Product access**.
+1. Select the Enterprise solution you'd like to remove team members from: **Internal API Management** or **API Test Automation**.
+1. Hover over a team member's name, and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
+
+    <img alt="Remove team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/enterprise-solutions-remove-members-v10.jpg"/>
+
+### Internal API Management solution
+
+You can add team members to the Internal API Management solution for access to the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/), [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/), [API Governance](https://learning.postman.com/docs/api-governance/api-governance-overview/), and more.
+
+When you add team members to the Internal API Management solution:
+
+* You can then assign them the [API Network Manager and API Governance Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) roles. Learn more about [managing team roles](#managing-team-roles).
+* All team members get access to the Private API Network.
+* Only team members added to this solution can be assigned the [API Editor](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role in Postman APIs. Team members not added to this solution will only have the [API Viewer](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role.
+
+### API Test Automation solution
+
+You can add team members to the API Test Automation solution for more access to the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/), [CI/CD integrations](/docs/integrations/ci-integrations/), [Postman Monitors](/docs/monitoring-your-api/intro-monitors/), and more.
 
 ## Managing your team’s Postman plan
 
