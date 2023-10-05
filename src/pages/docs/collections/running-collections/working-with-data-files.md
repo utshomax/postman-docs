@@ -23,6 +23,12 @@ contextual_links:
 
 Postman enables you to import a CSV or JSON file, and use the values from the data file in Collection Runner. For more information about collection runs, see [Using the Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 
+## Contents
+
+* [Data file format](#data-file-format)
+* [Run a collection with data files](#run-a-collection-with-data-files)
+* [Errors when reading data files](#errors-when-reading-data-files)
+
 ## Data file format
 
 Format the CSV file so that the first row has the variable names you want to use inside the requests. After that, every row will be used as a data row. The line endings of the CSV file must be in Unix format. Each row must have the same number of columns.
@@ -33,7 +39,7 @@ For CSV files, note the following:
 
 * If the numbers in your data file are longer than 15 digits, you'll need to format them as text in your spreadsheet program, so they're not truncated when exporting to CSV format.
 
-* If your CSV file has numbers longer than 15 digits, numbers with preceding zeroes (for example, `000000345`), or phone numbers (for example, `+12125556709`), you'll need to specify the column type in **Preview**. Learn how in the next section.
+* If your CSV file has numbers longer than 15 digits, numbers with preceding zeroes (for example, `000000345`), or phone numbers (for example, `+12125556709`), you'll need to preview the file and specify the column type. Learn how in the next section.
 
 Format JSON files as an array of key-value pairs. Each key is the name of a variable, and the value is the data to use within the request.
 
