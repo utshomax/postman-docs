@@ -30,6 +30,14 @@ As the name suggests, `postman.setNextRequest()` enables you to specify which re
 
 <img alt="Setting the next request" src="https://assets.postman.com/postman-docs/v10/set-next-request-v10-3.jpg">
 
+## Contents
+
+- [Setting the next request](#setting-the-next-request)
+- [Looping over a request](#looping-over-a-request)
+- [Stopping a workflow](#stopping-a-workflow)
+- [Tips for building request workflows](#tips-for-building-request-workflows)
+- [Next steps](#next-steps)
+
 ## Setting the next request
 
 To specify the request to run next, add the following code on the **Tests** tab of a request. Replace `request_name` with the name of the request you want to run next.
