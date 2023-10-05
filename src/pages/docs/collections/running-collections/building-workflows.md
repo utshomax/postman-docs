@@ -1,8 +1,6 @@
 ---
 title: "Customize request order in a collection run"
-order: 57
-page_id: "building_workflows"
-updated: 2021-12-16
+updated: 2023-10-05
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -22,8 +20,6 @@ contextual_links:
     name: "WhatsApp uses workflows to incorporate automation for messages"
     url:  "https://www.postman.com/case-studies/whatsapp/"
 
-warning: false
-
 ---
 
 Typically when you start a [collection run](/docs/collections/running-collections/intro-to-collection-runs/), Postman runs all requests in the same order they appear in your collection. Requests in folders are executed first, followed by any requests in the root of the collection.
@@ -32,7 +28,7 @@ In the Collection Runner, you have the option to change the order of the request
 
 As the name suggests, `postman.setNextRequest()` enables you to specify which request Postman runs next, following the current request. Using this function, you can build custom workflows that chain requests, running them one after the other in a specific order.
 
-<img alt="Setting the next request" src="https://assets.postman.com/postman-docs/v10/set-next-request-v10-2.jpg">
+<img alt="Setting the next request" src="https://assets.postman.com/postman-docs/v10/set-next-request-v10-3.jpg">
 
 ## Setting the next request
 
@@ -48,9 +44,9 @@ Postman runs the specified request after completing the current request.
 
 If you pass the name of the current request to the `setNextRequest` function, Postman will run the current request repeatedly.
 
-<img alt="Looping over a request" src="https://assets.postman.com/postman-docs/v10/set-next-request-loop-v10-2.jpg">
+<img alt="Looping over a request" src="https://assets.postman.com/postman-docs/v10/set-next-request-loop-v10-3.jpg">
 
-> **Important!** Make sure to wrap `setNextRequest` in some additional logic so the request doesn't loop indefinitely. For example, you might exit the loop after a certain number of iterations or when another condition is met. Otherwise you will need to force close the Collection Runner to end the loop.
+> **Important!** Make sure to wrap `setNextRequest` in some extra logic so the request doesn't loop indefinitely. For example, you might exit the loop after a certain number of iterations or when another condition is met. Otherwise you will need to force close the Collection Runner to end the loop.
 
 ## Stopping a workflow
 
@@ -66,21 +62,19 @@ The collection run will stop after Postman completes the current request.
 
 Keep the following tips in mind when using the `postman.setNextRequest()` function.
 
-### setNextRequest() only works when you run an entire collection
+### Use setNextRequest() when you run an entire collection
 
-The `postman.setNextRequest()` function has no effect when you run a request using **Send** and is only used when you run a collection using the Collection Runner, the Postman CLI, or Newman.
+The `postman.setNextRequest()` is intended for use when running a collection using the Collection Runner, the Postman CLI, or Newman. It has no effect when you run a request using **Send**.
 
 ### Use setNextRequest() in pre-request or test scripts
 
-You can use `postman.setNextRequest()` in the pre-request script or the test script of a request. If more than one value is assigned, the last value that is set takes precedence.
+You can use `postman.setNextRequest()` in the pre-request script or the test script of a request. If more than one value is assigned, the last value that's set takes precedence.
 
 ### Specify the next request using the request ID
 
-Instead of specifying the name of the request to run next, you can provide the request ID. To find the request ID, open a request and select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar.
+Instead of specifying the name of the request to run next, you can provide the request ID. To find the request ID, open a request and select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. You can also get the request ID using the `pm.info.requestId` function (see [Scripting Workflows](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#scripting-workflows)).
 
-Note that the ID shown is the user ID followed by the request ID. Omit the first eight digits and dash to get the request ID. You can also get the request ID using the `pm.info.requestId` function (see [Scripting Workflows](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#scripting-workflows)).
-
-<img alt="Getting a request ID" src="https://assets.postman.com/postman-docs/set-next-request-id-v9-4.jpg" width="428px">
+<img alt="Getting a request ID" src="https://assets.postman.com/postman-docs/v10/set-next-request-id-v10-1.jpg" width="428px">
 
 ### setNextRequest() always executes last
 
