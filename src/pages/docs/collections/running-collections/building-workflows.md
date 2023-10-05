@@ -32,11 +32,11 @@ As the name suggests, `postman.setNextRequest()` enables you to specify which re
 
 ## Contents
 
-- [Setting the next request](#setting-the-next-request)
-- [Looping over a request](#looping-over-a-request)
-- [Stopping a workflow](#stopping-a-workflow)
-- [Tips for building request workflows](#tips-for-building-request-workflows)
-- [Next steps](#next-steps)
+* [Setting the next request](#setting-the-next-request)
+* [Looping over a request](#looping-over-a-request)
+* [Stopping a workflow](#stopping-a-workflow)
+* [Tips for building request workflows](#tips-for-building-request-workflows)
+* [Next steps](#next-steps)
 
 ## Setting the next request
 
