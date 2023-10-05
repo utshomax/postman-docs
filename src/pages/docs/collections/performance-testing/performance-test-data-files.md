@@ -44,10 +44,9 @@ Format JSON files as an array of key-value pairs. Each key is the name of a vari
 
 ## Run a performance test with a data file
 
-Add variables to your requests or scripts.
-Select a Data file with custom values to use for each virtual user.
-Data file isn't saved for past runs
-For errors, you can view what line for data file was used
+Importing a data file enables you to populate variables with imported data when running a performance test. Each virtual user can use data from a different row in the data file, customizing their behavior and better simulating real-world usage of your API.
+
+Before you begin, [add variables](/docs/sending-requests/variables/) to the requests in your collection. Then [create a data file](#data-file-format) with the data to use for each variable.
 
 To run a performance test with a data file, do the following:
 
@@ -70,6 +69,10 @@ To run a performance test with a data file, do the following:
     > If your CSV file has numbers longer than 15 digits, numbers with preceding zeroes (for example, `000000345`), or phone numbers (for example, `+12125556709`), select the **String** data type to prevent values from being truncated.
 
 1. Select **Save** to save the file configuration. If needed, you can select **Configure File** to change any settings. You can also select a new data file or select the remove icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to remove the data file.
-1. Select **Run** to run the performance test using the data file.
+1. Select **Run** to run the performance test using the data file. Each VU uses the assigned data from the data file to populate variables when running the requests in the collection.
 
 ## Debug errors when using data files
+
+You can [view details about errors](/docs/collections/performance-testing/performance-test-errors/#debugging-errors) that occurred during the performance test to help in the debugging process. After the performance test finishes, select the **Errors** tab. Expand an error class below the graph, then select a request to view the response, headers, and body. Select the data file name to view the variable data that was used for the request.
+
+> Data files aren't saved for [past performance test runs](/docs/collections/performance-testing/testing-api-performance/#viewing-past-performance-runs).
