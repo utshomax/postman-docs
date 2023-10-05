@@ -16,7 +16,7 @@ contextual_links:
     url: "https://blog.postman.com/postman-api-performance-testing/"
 ---
 
-When you configure a [performance test](/docs/collections/performance-testing/testing-api-performance/), you specify a number of virtual users. During the test, each virtual user runs the selected requests in the specified order in a repeating loop.
+When you configure a [performance test](/docs/collections/performance-testing/testing-api-performance/), you specify a number of _virtual users_. During the test, each virtual user (VU) runs the selected requests in the specified order in a repeating loop.
 
 By default, each virtual user runs the same requests using the same values. You can customize the behavior of virtual users by importing a CSV or JSON file. Each virtual user can send requests using different values from the imported data file. This enables you to better simulate real-world traffic when testing the performance of your API.
 
@@ -58,18 +58,18 @@ To run a performance test with a data file, do the following:
     > The data file must be in CSV or JSON format. Learn more about [formatting a data file](#data-file-format).
 
 1. Postman automatically detects the **Data file type**. If needed, you can select a different file type (**text/csv** or **application/json**).
-1. Under **VU data mapping**, specify how rows in the data file are mapped to virtual users:
+1. Under **VU data mapping**, select how rows in the data file are mapped to virtual users:
 
-    * **Ordered** -
-    * **Randomized** -
+    * **Ordered** - Each VU uses data from a specific row of the data file. The first VU uses the first data row, the second VU uses the second data row, and the pattern continues until each VU has been assigned a data row.
+    * **Randomized** - Each VU uses data from a random row of the data file every time the VU runs the collection.
 
-1. (Optional) Select a data type for each column. MORE
+    > If you select **Ordered** and your data file has fewer rows than the number of VUs, some VUs won't receive data during the performance test. You can add more rows to your data file and import the file again, or you can select **Randomized**. If you select **Ordered** and your data file has more data rows than the number of VUs, some rows in the data file won't be used during the performance test.
+
+1. (Optional) For CSV files, Postman automatically detects the data type for each column in the file. If needed, you can use the dropdown menu at the top of a column to select a different data type (**String**, **Boolean**, or **Number**).
+
+    > If your CSV file has numbers longer than 15 digits, numbers with preceding zeroes (for example, `000000345`), or phone numbers (for example, `+12125556709`), select the **String** data type to prevent values from being truncated.
+
 1. Select **Save** to save the file configuration. If needed, you can select **Configure File** to change any settings. You can also select a new data file or select the remove icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to remove the data file.
-
-    > Note about what happens if you have more or fewer VUs than rows in data file.
-
 1. Select **Run** to run the performance test using the data file.
-
-SCREENSHOT
 
 ## Debug errors when using data files
