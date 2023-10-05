@@ -63,7 +63,7 @@ To configure a performance test in the Postman desktop app, do the following:
     * **Fixed** - The number of virtual users you specified is used throughout the test.
     * **Ramp up** - Enter a **Ramp up duration** in minutes. During the ramp-up period, the number of virtual users gradually increases to the number of users you specified.
 
-1. (Optional) Select a **Data file** with custom values to use for each virtual user. The file must be in **CSV** or **JSON** format. Learn more about [using imported data to simulate virtual users](/docs/collections/performance-testing/performance-test-data-files/).
+1. (Optional) Select a **Data file** with custom values to use for each virtual user. The file must be in CSV or JSON format. Learn more about [using imported data to simulate virtual users](/docs/collections/performance-testing/performance-test-data-files/).
 1. When you're ready to begin the performance test, select **Run**.
 
     * You can view real-time performance metrics while the test is running. Learn more about [viewing performance test metrics](/docs/collections/performance-testing/performance-test-metrics/).

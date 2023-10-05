@@ -25,17 +25,17 @@ Postman enables you to import a CSV or JSON file, and use the values from the da
 
 ## Data file format
 
-Format the CSV file so that the first row contains the variable names you want to use inside the requests. After that, every row will be used as a data row. The line endings of the CSV file must be in Unix format. Each row should have the same number of columns.
+Format the CSV file so that the first row has the variable names you want to use inside the requests. After that, every row will be used as a data row. The line endings of the CSV file must be in Unix format. Each row must have the same number of columns.
 
 <img alt="CSV format" src="https://assets.postman.com/postman-docs/v10/ramen-csv-screenshot.jpg" width="300px"/>
 
 For CSV files, note the following:
 
-* If your CSV file contains numbers with preceding zeroes (for example, `000000345`) or phone numbers (for example, `+12125556709`), you'll need to specify the column type in **Preview**. Learn how in the next section.
+* If the numbers in your data file are longer than 15 digits, you'll need to format them as text in your spreadsheet program, so they're not truncated when exporting to CSV format.
 
-* If the numbers in your data file are longer than 15 digits, you'll need to format them as text in your spreadsheet program, so they're not truncated during import.
+* If your CSV file has numbers longer than 15 digits, numbers with preceding zeroes (for example, `000000345`), or phone numbers (for example, `+12125556709`), you'll need to specify the column type in **Preview**. Learn how in the next section.
 
-JSON files should be formatted as an array of key-value pairs. Each key is the name of a variable, and the value is the data to use within the request.
+Format JSON files as an array of key-value pairs. Each key is the name of a variable, and the value is the data to use within the request.
 
 <img alt="JSON format" src="https://assets.postman.com/postman-docs/v10/ramen-json-screenshot.jpg" width="300px"/>
 
