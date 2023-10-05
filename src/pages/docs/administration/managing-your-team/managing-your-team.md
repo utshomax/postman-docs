@@ -238,7 +238,7 @@ To add team members to a solution, do the following:
 
 1. Select team members you'd like to add to the solution, then select **Add Members**. Learn more about the benefits of adding team members to the [Internal API Management](#internal-api-management-solution) and [API Test Automation](#api-test-automation-solution) solutions.
 
-To remove members from a solution, do the following:
+To remove team members from a solution, do the following:
 
 1. Select **Team** in the Postman header, then select **Team Settings**.
 1. Select **Product access**.
