@@ -56,6 +56,8 @@ To run a performance test with a data file, do the following:
 
     > The data file must be in CSV or JSON format. Learn more about [formatting a data file](#data-file-format).
 
+    <img alt="Selecting a data type for imported data" src="https://assets.postman.com/postman-docs/v10/performance-test-select-data-type-v10-19.jpg" />
+
 1. Postman automatically detects the **Data file type**. If needed, you can select a different file type (CSV or JSON).
 1. Under **VU data mapping**, select how rows in the data file are mapped to virtual users:
 
@@ -69,10 +71,15 @@ To run a performance test with a data file, do the following:
     > If your CSV file has numbers longer than 15 digits, numbers with preceding zeroes (for example, `000000345`), or phone numbers (for example, `+12125556709`), select the **String** data type to prevent values from being truncated.
 
 1. Select **Save** to save the file configuration. If needed, you can select **Configure File** to change any settings. You can also select a new data file or select the remove icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to remove the data file.
+
+    <img alt="Configure a data file" src="https://assets.postman.com/postman-docs/v10/performance-test-configure-data-file-v10-19.jpg" width="548px" />
+
 1. Select **Run** to run the performance test using the data file. Each VU uses the assigned data from the data file to populate variables when running the requests in the collection.
 
 ## Debug errors when using data files
 
 You can [view details about errors](/docs/collections/performance-testing/performance-test-errors/#debugging-errors) that occurred during the performance test to help in the debugging process. After the performance test finishes, select the **Errors** tab. Expand an error class below the graph, then select a request to view the response, headers, and body. Select the data file name to view the variable data that was used for the request.
+
+<img alt="Viewing imported data for a request error" src="https://assets.postman.com/postman-docs/v10/performance-test-data-file-debug-v10-19.jpg" />
 
 > Data files aren't saved for [past performance test runs](/docs/collections/performance-testing/testing-api-performance/#viewing-past-performance-runs).
