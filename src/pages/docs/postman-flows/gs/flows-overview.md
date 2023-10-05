@@ -49,7 +49,7 @@ You can also deploy your Flow and run them in the cloud. Webhooks enable you to 
 
 Flows are the ultimate way to take data from an API-enabled product, manipulate it to meet your needs, and see the results. Or you could take data from one API-enabled product, make decisions or process the data, then send it to another API-enabled product. This means you can build real-time integrations between two API-enabled products.
 
-Check out these Flows Workspaces filled with examples:
+Try these workspaces featuring Flow examples:
 
 * [Business Flows](https://www.postman.com/postman/workspace/business-flows/flows)
 * [Integration Flows](https://www.postman.com/postman/workspace/integration-flows/flows)
