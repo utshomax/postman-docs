@@ -34,7 +34,7 @@ Postman provides a variety of tools to enable and enhance [collaboration within 
 
 To get the most out of Postman's collaboration features, [create](#creating-a-team) or [join](#joining-a-team) a team. You can be a member of up to ten Postman teams, regardless of if they're Postman Free, Basic, Professional, or Enterprise.
 
-> Note that if an Enterprise team within your organization implements [domain capture](/docs/administration/configuring-domain-capture/), you won't be able to remain on or join extra Postman teams with your captured accounts.
+> Note that if an Enterprise team within your organization implements [domain capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/), you won't be able to remain on or join extra Postman teams with your captured accounts.
 
 ## Contents
 
@@ -88,7 +88,7 @@ There are several ways you can join a Postman team:
 * **Team discovery** - When first joining Postman, you can [find teams to join within your organization](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#finding-teams-within-your-organization).
 * **SSO automatic provisioning** - If a team in your organization has [automatic provisioning](/docs/administration/sso/admin-sso/#automatically-adding-new-users) enabled in their SSO configuration, you can join the team by [signing in to Postman with SSO](/docs/administration/sso/user-sso/).
 * **SCIM provisioning** - If your organization has enabled [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/), you may be added to your organization's Postman team and receive an email invite. Select **Join Team** in the email and [sign in to Postman with SSO](/docs/administration/sso/user-sso/).
-* **Domain capture** - If your organization has configured [domain capture](/docs/administration/configuring-domain-capture/) and you use or create an account associated with a verified domain, Postman will [notify](/docs/administration/configuring-domain-capture/#user-experience) you when you next sign in that your account is managed by your organization.
+* **Domain capture** - If your organization has configured [domain capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/) and you use or create an account associated with a verified domain, Postman will [notify](/docs/administration/domain-verification-and-capture/enable-domain-capture/#user-experience) you when you next sign in that your account is managed by your organization.
 
 You can be a member of up to ten Postman teams, regardless of if they're Postman Free, Basic, Professional, or Enterprise. However, if an Enterprise team within your organization implements domain capture, you won't be able to remain on or join extra Postman teams with your captured accounts.
 
@@ -96,7 +96,7 @@ If you have an account and join a team, you can choose to transfer your personal
 
 * If you [request to join a team](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#finding-teams-within-your-organization) and are approved by a Team Admin.
 * If the team has [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) enabled.
-* If the team has [domain capture](/docs/administration/configuring-domain-capture/) enabled.
+* If the team has [domain capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/) enabled.
 
 > When you join an Enterprise team, [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) have access to all personal workspaces you transfer over and any you create within the team moving forward.
 
