@@ -65,6 +65,15 @@ jobs:
             npm run clean
             npm run build:dev
             aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/${{ steps.sanitized-branch.outputs.SANITIZED_BRANCH}}/ --delete
+      
+      # If the branch is develop, sync an s3 bucket with secrets.BETA_BUCKET_NAME
+      - name: sync s3 bucket
+        if: ${{ steps.sanitized-branch.outputs.SANITIZED_BRANCH}} == 'develop'
+        env:
+          AWS_MAX_ATTEMPTS: 10
+        run: |
+          aws s3 sync ./public/page-data/ s3://${{secrets.BETA_WWW_BUCKET_NAME}}/control/mk-api/learning-center --delete
+          aws cloudfront create-invalidation --distribution-id ${{secrets.BETA_WWW_DIST_ID}} --paths "/*"
         
       - name: invalidate the CDN
         uses: chetan/invalidate-cloudfront-action@v2
