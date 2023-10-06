@@ -51,12 +51,12 @@ Professional plans:
 
 * [Google Workspace](/docs/administration/sso/google-workspace/)
 
-> Professional plans purchased prior to September 14, 2022 can also use SSO with Okta, OneLogin, Duo, Ping Identity, Microsoft AD FS, Azure AD, and custom SAML.
+> Professional plans purchased prior to September 14, 2022 can also use SSO with Okta, OneLogin, Duo, Ping Identity, Microsoft AD FS, Microsoft Entra ID, and custom SAML.
 
 Enterprise plans:
 
 * [Microsoft AD FS](/docs/administration/sso/microsoft-adfs/)
-* [Azure AD](/docs/administration/sso/azure-ad/)
+* [Microsoft Entra ID](/docs/administration/sso/azure-ad/)
 * [Custom SAML](/docs/administration/sso/custom-saml/)
 * [Duo](/docs/administration/sso/duo/)
 * [Google Workspace](/docs/administration/sso/google-workspace/)

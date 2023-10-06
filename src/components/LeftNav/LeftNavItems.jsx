@@ -1264,7 +1264,7 @@ export const leftNavItems = [
             url: '/docs/administration/sso/microsoft-adfs/',
           },
           {
-            name: 'Azure AD',
+            name: 'Microsoft Entra ID',
             url: '/docs/administration/sso/azure-ad/',
           },
           {
@@ -1307,7 +1307,7 @@ export const leftNavItems = [
             url: '/docs/administration/scim-provisioning/configuring-scim-with-okta/',
           },
           {
-            name: 'Configure SCIM with Azure AD',
+            name: 'Configure SCIM with Microsoft Entra ID',
             url: '/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/',
           },
           {
