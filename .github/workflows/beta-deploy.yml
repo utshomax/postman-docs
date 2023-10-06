@@ -72,7 +72,7 @@ jobs:
         env:
           AWS_MAX_ATTEMPTS: 10
         run: |
-          aws s3 sync ./public/page-data/ s3://${{secrets.BETA_WWW_BUCKET_NAME}}/control//mk-api/learning-center --delete
+          aws s3 sync ./public/page-data/ s3://${{secrets.BETA_WWW_BUCKET_NAME}}/control/mk-api/learning-center --delete
           aws cloudfront create-invalidation --distribution-id ${{secrets.BETA_WWW_DIST_ID}} --paths "/*"
         
       - name: invalidate the CDN
