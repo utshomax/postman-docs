@@ -39,7 +39,7 @@ For CSV files, note the following:
 
 * If the numbers in your data file are longer than 15 digits, you'll need to format them as text in your spreadsheet program, so they're not truncated when exporting to CSV format.
 
-* If your CSV file has numbers longer than 15 digits, numbers with preceding zeroes (for example, `000000345`), or phone numbers (for example, `+12125556709`), you'll need to preview the file and specify the column type. Learn how in the next section.
+* If your CSV file has numbers longer than 16 digits, numbers with preceding zeroes (for example, `000000345`), or phone numbers (for example, `+12125556709`), you'll need to preview the file and specify the column type. Learn how in the next section.
 
 Format JSON files as an array of key-value pairs. Each key is the name of a variable, and the value is the data to use within the request.
 

@@ -20,11 +20,11 @@ During a [performance test](/docs/collections/performance-testing/testing-api-pe
 
 ## Contents
 
-* [Viewing top errors](#viewing-top-errors)
-* [Viewing error trends](#viewing-error-trends)
-* [Debugging errors](#debugging-errors)
+* [View top errors](#view-top-errors)
+* [View error trends](#view-error-trends)
+* [Debug errors](#debug-errors)
 
-## Viewing top errors
+## View top errors
 
 You can view top errors on the **Summary** tab while the performance test is running or after the test is complete.
 
@@ -36,7 +36,7 @@ Select the **Error rate** to view the top errors for the entire test.
 
 <img alt="Viewing top errors" src="https://assets.postman.com/postman-docs/v10/performance-test-top-errors-10-15.jpg" width="600px"/>
 
-## Viewing error trends
+## View error trends
 
 You can view error trends after the performance test is complete. The error trend shows the top five errors that occurred during the test and the frequency of those errors over time. This information can help you understand how error rates change in response to increased load on your API.
 
@@ -59,7 +59,7 @@ From the **Errors** tab, you can take the following actions:
 
 <img alt="Viewing top errors" src="https://assets.postman.com/postman-docs/v10/performance-test-filter-errors-v10-15.jpg" width="600px"/>
 
-## Debugging errors
+## Debug errors
 
 You can view details about errors that occurred during the performance test to help in the debugging process. The **Errors** tab shows the error classes that were encountered during the test and the number of times each error occurred.
 
@@ -69,4 +69,4 @@ Select a request to view details about it, including the response, headers, and 
 
 <img alt="Viewing error details" src="https://assets.postman.com/postman-docs/v10/performance-test-errors-detail-v10-17.jpg"/>
 
-> Request and responses details for errors are persisted locally during your current Postman session and aren't saved permanently. If you close the current tab or quit Postman, request and response details will no longer be available. You still be able to view error classes and error counts for requests.
+> Request and responses details for errors are persisted locally during your current Postman session and aren't saved permanently. If you close the current tab or quit Postman, request and response details will no longer be available. You will still be able to view error classes and error counts for requests.

@@ -26,11 +26,11 @@ The performance test runs on your computer and not in the cloud. When you start 
 
 ## Contents
 
-* [Configuring a performance test](#configuring-a-performance-test)
+* [Configure a performance test](#configure-a-performance-test)
 * [Virtual users and system resources](#virtual-users-and-system-resources)
-* [Viewing past performance runs](#viewing-past-performance-runs)
+* [View past performance runs](#view-past-performance-runs)
 
-## Configuring a performance test
+## Configure a performance test
 
 > **Use the Postman desktop app to configure and run performance tests.** You can't use the Postman web app for performance testing. During a performance test, all requests are sent from the host computer where you are running the Postman desktop app.
 
@@ -82,11 +82,11 @@ Use the following guidelines to understand how many virtual users you can simula
 * A host with 8 CPU cores and 16 GB RAM can simulate up to 250 virtual users
 * A host with 16 CPU cores and 32 GB RAM can simulate up to 500 virtual users
 
-Attempting to simulate a higher number of virtual users may cause inaccurate metrics and reduced throughput (requests per second). Postman recommends running a small test with 10 to 20 virtual users and observing system resource usage. You can use this information to estimate that maximum number of virtual users that can be simulated for your collection and host computer.
+Attempting to simulate a higher number of virtual users may cause inaccurate metrics and reduced throughput (requests per second). Try running a small test with 10 to 20 virtual users and observing system resource usage. You can use this information to estimate that maximum number of virtual users that can be simulated for your collection and host computer.
 
 > If you have a problem with the performance testing feature, contact the [Postman support team](https://support.postman.com/hc/en-us). Make sure to attach your [Postman logs](https://support.postman.com/hc/en-us/articles/360025298633-How-to-get-logs-from-the-Postman-Desktop-app) in your support request.
 
-## Viewing past performance runs
+## View past performance runs
 
 You can view a list of past performance runs for a collection. Open the collection, select the **Runs** tab, and then select the **Performance runs** tab.
 

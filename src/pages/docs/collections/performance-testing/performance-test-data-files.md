@@ -36,7 +36,7 @@ For CSV files, note the following:
 
 * If the numbers in your data file are longer than 15 digits, you'll need to format them as text in your spreadsheet program, so they're not truncated when exporting to CSV format.
 
-* If your CSV file has numbers longer than 15 digits, numbers with preceding zeroes (for example, `000000345`), or phone numbers (for example, `+12125556709`), you'll need to preview the file and specify the column type. Learn how in the next section.
+* If your CSV file has numbers longer than 16 digits, numbers with preceding zeroes (for example, `000000345`), or phone numbers (for example, `+12125556709`), you'll need to preview the file and specify the column type. Learn how in the next section.
 
 Format JSON files as an array of key-value pairs. Each key is the name of a variable, and the value is the data to use within the request.
 
@@ -50,7 +50,7 @@ Before you begin, [add variables](/docs/sending-requests/variables/) to the requ
 
 To run a performance test with a data file, do the following:
 
-1. [Configure a performance test](/docs/collections/performance-testing/testing-api-performance/#configuring-a-performance-test), specifying the number of **Virtual users**, the **Test duration**, and a **Load profile**.
+1. [Configure a performance test](/docs/collections/performance-testing/testing-api-performance/#configure-a-performance-test), specifying the number of **Virtual users**, the **Test duration**, and a **Load profile**.
 
 1. Select a **Data file** with custom values to use for each virtual user. After you select your data file, a preview of the data file displays.
 
@@ -68,7 +68,7 @@ To run a performance test with a data file, do the following:
 
 1. (Optional) For CSV files, Postman automatically detects the data type for each column in the file. If needed, you can use the dropdown menu at the top of a column to select a different data type (**String**, **Boolean**, or **Number**).
 
-    > If your CSV file has numbers longer than 15 digits, numbers with preceding zeroes (for example, `000000345`), or phone numbers (for example, `+12125556709`), select the **String** data type to prevent values from being truncated.
+    > If your CSV file has numbers longer than 16 digits, numbers with preceding zeroes (for example, `000000345`), or phone numbers (for example, `+12125556709`), select the **String** data type to prevent values from being truncated.
 
 1. Select **Save** to save the file configuration. If needed, you can select **Configure File** to change any settings. You can also select a new data file or select the remove icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to remove the data file.
 
@@ -78,8 +78,8 @@ To run a performance test with a data file, do the following:
 
 ## Debug errors when using data files
 
-You can [view details about errors](/docs/collections/performance-testing/performance-test-errors/#debugging-errors) that occurred during the performance test to help in the debugging process. After the performance test finishes, select the **Errors** tab. Expand an error class below the graph, then select a request to view the response, headers, and body. Select the data file name to view the variable data that was used for the request.
+You can [view details about errors](/docs/collections/performance-testing/performance-test-errors/#debug-errors) that occurred during the performance test to help in the debugging process. After the performance test finishes, select the **Errors** tab. Expand an error class below the graph, then select a request to view the response, headers, and body. Select the data file name to view the variable data that was used for the request.
 
 <img alt="Viewing imported data for a request error" src="https://assets.postman.com/postman-docs/v10/performance-test-data-file-debug-v10-19.jpg" />
 
-> Data files aren't saved for [past performance test runs](/docs/collections/performance-testing/testing-api-performance/#viewing-past-performance-runs).
+> Data files aren't saved for [past performance test runs](/docs/collections/performance-testing/testing-api-performance/#view-past-performance-runs).

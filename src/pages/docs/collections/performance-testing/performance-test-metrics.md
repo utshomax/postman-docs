@@ -20,10 +20,10 @@ During a [performance test](/docs/collections/performance-testing/testing-api-pe
 
 ## Contents
 
-* [Viewing performance metrics](#viewing-performance-metrics)
-* [Customizing the performance view](#customizing-the-performance-view)
+* [View performance metrics](#view-performance-metrics)
+* [Customize the performance view](#customize-the-performance-view)
 
-## Viewing performance metrics
+## View performance metrics
 
 The **Summary** tab displays performance metrics in real time so you can observe how your API performs under load.
 
@@ -48,7 +48,7 @@ From the **Summary** tab, you can take the following actions:
 * To view a list of all past performance runs for the collection, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and select **View all runs**.
 * To open a request, select the name of a request.
 
-## Customizing the performance view
+## Customize the performance view
 
 The **Summary** tab displays a graph with real-time metrics for virtual users, requests per second, average response time, and error rate percentage.
 
