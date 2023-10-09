@@ -87,18 +87,18 @@ From the proxy session tab, you can take the following actions:
 
     > You can also capture cookies and sync them to Postman without starting a proxy session. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
 
-* Select the sort icon in the column headers to sort the results in ascending or descending order.
+* Select the sort icon <img alt="Column sort icon" src="https://assets.postman.com/postman-docs/v10/icon-column-sort.jpg#icon" width="12px"> in the column headers to sort the results in ascending or descending order.
 
-* Select the filter icon in the column headers to filter the requests and responses captured during the session:
+* Select the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px"> in the column headers to filter the requests and responses captured during the session:
 
     * **Status** - Show requests with the selected status codes.
     * **Method** - Show requests with the selected methods.
-    * **URL** - Show requests with URLs that match the specified criteria. You can specify text that URLs must contain and can't contain, and you can use regular expressions. Press **Enter** to apply the specified filters.
+    * **URL** - Show requests with URLs that match the specified criteria. You can specify text that URLs must contain and can't contain, and you can use regular expressions. Press **Enter** to apply the specified filters. To remove a URL filter, select the remove icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the filter.
     * **Type** - Show requests with the selected content type.
 
     > In responses with a `content-type` that has images, audio, or video, the content is intercepted but not captured. The information captured is response headers, time taken, and the status code.
 
-<img alt="Control a proxy session" src="https://assets.postman.com/postman-docs/v10/proxy-control-session-v10-18.jpg" />
+<img alt="Control a proxy session" src="https://assets.postman.com/postman-docs/v10/proxy-control-session-v10-19.jpg" />
 
 ### Step 3: View the proxy session results
 
@@ -114,7 +114,7 @@ You can view and work with the proxy session results while the session is active
 * To delete a request or cookie, select it and select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete**.
 * To add a cookie to the [Postman cookie jar](/docs/sending-requests/cookies/), select it and select **+ Add to Cookie Jar**.
 
-<img alt="View proxy session results" src="https://assets.postman.com/postman-docs/v10/proxy-view-results-v10-18.jpg" />
+<img alt="View proxy session results" src="https://assets.postman.com/postman-docs/v10/proxy-view-results-v10-19.jpg" />
 
 ### Step 4: Stop the proxy session
 
@@ -131,7 +131,7 @@ To save captured requests to a collection, do the following:
 1. Choose how to organize the requests in the collection. You can select the checkboxes to group the requests in folders organized by **Domain name**, **Endpoints**, or both.
 1. Select **Save**.
 
-<img alt="Save captured requests to a collection" src="https://assets.postman.com/postman-docs/v10/proxy-create-collection-v10-18.jpg" />
+<img alt="Save captured requests to a collection" src="https://assets.postman.com/postman-docs/v10/proxy-create-collection-v10-19.jpg" />
 
 ### Step 5: Configure the proxy on a client device
 
