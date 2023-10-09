@@ -82,7 +82,7 @@ Start an Interceptor session to capture traffic and cookies from your web browse
 
 When you stop a session, Postman automatically opens the results in Postman. You can also select **View in Postman**<img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-external-link.jpg#icon" width="18px"> to open the session results in Postman.
 
-To view the Interceptor session again later, select **History** in the sidebar, then select the Interceptor session.
+To view the Interceptor session again later, select **History** in the sidebar, then select the Interceptor session. You can also select <img alt="Past sessions icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> **View Past Sessions** on the Interceptor session tab.
 
 The **Overview** tab shows summary graphs of traffic captured in the Interceptor session. Use the dropdown menu to group requests by method, domain, or content type. The header also displays the session start time, session size, duration, and source.
 
@@ -91,12 +91,18 @@ You can work with the Interceptor session results in the following ways:
 * To rename the Interceptor session, select the name **Interceptor debug session** and enter a new name.
 * Select the **Requests** tab to view information about incoming requests and responses, or select the **Cookies** tab to view information about captured cookies.
 * Use the search box to find specific requests or cookies.
-* Select **>** next to a request to view more details.
+* Select the sort icon <img alt="Column sort icon" src="https://assets.postman.com/postman-docs/v10/icon-column-sort.jpg#icon" width="12px"> in the column headers to sort the results in ascending or descending order.
+* Select the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px"> in the column headers to filter the requests and responses captured during the session:
+
+    * **Method** - Show requests with the selected methods.
+    * **URL** - Show requests with URLs that match the specified criteria. You can specify text that URLs must contain, and you can use regular expressions. Press **Enter** to apply the specified filters. To remove a URL filter, select the remove icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the filter.
+
+* Select a request to view more details.
 * Select a request URL to open it as a new API request in Postman.
 * To delete a request or cookie, select it and select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete**.
 * To add a cookie to the [Postman cookie jar](/docs/sending-requests/cookies/), select it and select **+ Add to Cookie Jar**.
 
-<img alt="Viewing Interceptor results" src="https://assets.postman.com/postman-docs/v10/interceptor-view-results-v10-18.jpg" />
+<img alt="Viewing Interceptor results" src="https://assets.postman.com/postman-docs/v10/interceptor-view-results-v10-19.jpg" />
 
 ### Saving captured requests to a collection
 
@@ -104,9 +110,9 @@ You can save requests captured during an Interceptor session to a collection.
 
 1. Select **History** in the sidebar, then select the Interceptor session with the requests you want to save.
 1. Select the checkbox next to the requests you want to save, or select the checkbox in the column header to select all requests.
-1. Select **+ Add to collection**.
+1. Select **Save Requests**.
 1. Select the collection where you want to save the requests, or select **New collection** to create a new collection.
-1. Choose how to organize the requests in the collection. By default, requests are ordered chronologically. You can also select the checkboxes to group the requests in folders organized by **Domain name**, **Endpoints**, or both.
+1. Choose how to organize the requests in the collection. You can select the checkboxes to group the requests in folders organized by **Domain name**, **Endpoints**, or both.
 1. Select **Save**.
 
-<img alt="Adding captured requests to a collection" src="https://assets.postman.com/postman-docs/v10/interceptor-add-to-collection-v10-18.jpg" />
+<img alt="Adding captured requests to a collection" src="https://assets.postman.com/postman-docs/v10/interceptor-add-to-collection-v10-19.jpg" />
