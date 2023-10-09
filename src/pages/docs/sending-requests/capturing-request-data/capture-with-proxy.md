@@ -1,6 +1,6 @@
 ---
 title: "Capture traffic using the Postman built-in proxy"
-updated: 2023-09-15
+updated: 2023-10-16
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -81,20 +81,22 @@ From the proxy session tab, you can take the following actions:
 
 * Select **Pause** to temporarily stop capturing traffic, then select **Resume** when you're ready to begin capturing traffic again. When you're finished capturing traffic, select **Stop** to end the proxy session.
 
-* Next to **Configure incoming requests**, use the dropdown menus to limit the requests and responses captured during the session:
-
-    * **Methods** - Limit captured requests to the selected methods.
-    * **Status codes** - Limit captured requests to the selected status codes.
-    * **Resources** - Exclude requests with image, JS, or CSS responses.
-    * **URL** - Limit captured requests to the URLs that match the specified criteria. You can specify text that URLs must contain and can't contain, and you can use regular expressions.
-
-    > In responses with a `content-type` that has images, audio, or video, the content is intercepted but not captured. The information captured is response headers, time taken, and the status code.
-
 * Select **Save responses for requests** to save each request's response along with the captured request.
 
 * Select **Capture cookies** if you want to capture cookies along with requests during the proxy session.
 
     > You can also capture cookies and sync them to Postman without starting a proxy session. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
+
+* Select the sort icon in the column headers to sort the results in ascending or descending order.
+
+* Select the filter icon in the column headers to filter the requests and responses captured during the session:
+
+    * **Status** - Show requests with the selected status codes.
+    * **Method** - Show requests with the selected methods.
+    * **URL** - Show requests with URLs that match the specified criteria. You can specify text that URLs must contain and can't contain, and you can use regular expressions. Press **Enter** to apply the specified filters.
+    * **Type** - Show requests with the selected content type.
+
+    > In responses with a `content-type` that has images, audio, or video, the content is intercepted but not captured. The information captured is response headers, time taken, and the status code.
 
 <img alt="Control a proxy session" src="https://assets.postman.com/postman-docs/v10/proxy-control-session-v10-18.jpg" />
 
