@@ -273,7 +273,7 @@ The `--dangerous` option is required because the Postman Enterprise app isn't di
 
 > This step is mandatory.
 
-To securely store local data, you must connect the Snap password manager service interface to the Postman Enterprise app.
+To securely store local data, you must connect the Snap password manager service interface to the Postman Enterprise app:
 
 ``` shell
 sudo snap connect postman-enterprise:password-manager-service
