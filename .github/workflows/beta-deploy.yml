@@ -67,7 +67,7 @@ jobs:
             aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/${{ steps.sanitized-branch.outputs.SANITIZED_BRANCH}}/ --delete
       
       # If the branch is develop, sync an s3 bucket with secrets.BETA_BUCKET_NAME
-      - name: Sync page-data json to marketing website s3 bucket
+      - name: Sync page-data.json files to marketing website s3 bucket
         if: ${{ steps.sanitized-branch.outputs.SANITIZED_BRANCH}} == 'develop'
         env:
           AWS_MAX_ATTEMPTS: 10
