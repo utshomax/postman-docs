@@ -255,11 +255,11 @@ Runs a request in a collection and outputs the result. If a request that has a s
 
 ## Output blocks
 
-### Log (console)
+### Log (Console)
 
 <img alt="Log (console) block" src="https://assets.postman.com/postman-labs-docs/all-blocks/log-block.png" width="78px"/>
 
-Sends the information input to the block to the Postman console.
+Sends the information input to the block to the Postman Console.
 
 [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63b8b07ea365885b55bc51f9)
 
