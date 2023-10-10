@@ -84,7 +84,7 @@ To create a new environment, do the following:
 
 You can add variables to an active (currently selected) environment by opening the environment from the sidebar and editing it in the tab that opens.
 
-![Add Environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-10.jpg)
+![Add Environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
 
 Edit the variable names and values inline, or use the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to delete a variable. Enter the name and values for a new variable on a new line. __Save__ when your changes are complete.
 
@@ -113,7 +113,7 @@ Here you can add, share, duplicate, download, manage access, delete, and remove 
 
 To view the variables in an environment, select its name. You can edit, add, and remove variables from the environment here. You can also use the **Filter variables** control to search for variables in the environment.
 
-![Edit environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-10.jpg)
+![Edit environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
 
 ### Selecting an active environment
 
@@ -153,7 +153,7 @@ You can edit variables either by opening an environment from __Environments__ on
 
 > You will only be able to edit environments where you have [Editor access](#requesting-environment-access).
 
-![Edit environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-10.jpg)
+![Edit environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
 
 Edit the environment name, or the names, [types](/docs/sending-requests/variables/#variable-types), and values of your variables, bearing in mind that __Initial values__ will be synced with your Postman account and shared with any collaborators who have access to the environment. Select __Save__ when your edits are complete.
 

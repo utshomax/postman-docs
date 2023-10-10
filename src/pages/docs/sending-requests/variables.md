@@ -73,7 +73,7 @@ For example, if you have the same URL in more than one request, but the URL migh
 
 The same principle applies to any part of your request where data is repeated. Whatever value is stored in the variable will be included wherever you've referenced the variable when your requests run. If the base URL value is `https://postman-echo.com`, and is listed as part of the request URL using `{{base_url}}/get`, Postman will send the request to `https://postman-echo.com/get`.
 
-![Environment editor](https://assets.postman.com/postman-docs/v10/environment-editor-v10-10.jpg)
+![Environment editor](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
 
 <img alt="Reference Variable" src="https://assets.postman.com/postman-docs/v10/reference-var-v10.jpg" width="500px"/>
 
@@ -129,7 +129,7 @@ To set the variable type to secret, do the following:
 1. Select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> in the [workbench](/docs/getting-started/basics/navigating-postman/#environment-selector-and-environment-quick-look).
 1. For environment or global variables, select **Edit** to open the editor.
 
-    <img alt="Environment editor" src="https://assets.postman.com/postman-docs/v10/environment-editor-v10-10.jpg">
+    <img alt="Environment editor" src="https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg">
 
     > You can also edit an environment by navigating to the workspace it resides in and selecting **Environments** from the sidebar, then selecting your environment.
 
