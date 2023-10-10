@@ -558,7 +558,7 @@ export const leftNavItems = [
             url: '/docs/collections/performance-testing/performance-test-errors/',
           },
           {
-            name: 'Import data for virtual users',
+            name: 'Inject data into virtual users',
             url: '/docs/collections/performance-testing/performance-test-data-files/',
           },
         ],
