@@ -24,7 +24,7 @@ contextual_links:
 
 Postman is available on the web at **[go.postman.co/home](https://go.postman.co/home)** and as a native desktop app for Mac (Intel or Apple silicon), Windows (Intel 32-bit or 64-bit), and Linux (64-bit) operating systems.
 
-To get the latest version of the Postman desktop app, visit the [download page](https://www.postman.com/downloads/) and select **Download** for your platform.
+To get the latest version of the Postman desktop app, visit the [download page](https://www.postman.com/downloads/) and download the app for your platform.
 
 ## Contents
 
@@ -41,6 +41,8 @@ To get the latest version of the Postman desktop app, visit the [download page](
     * [Migrating to the native app](#migrating-to-the-native-app)
 * [Using Postman behind a firewall](#using-postman-behind-a-firewall)
 * [Troubleshooting your Postman installation](#troubleshooting-your-postman-installation)
+    * [Update failed error](#update-failed-error)
+    * [Update not available](#update-not-available)
 
 ## Installing Postman on Windows
 
@@ -59,7 +61,7 @@ Postman is available for macOS 10.11 (El Capitan) and later.
 
     > Make sure to download the **Mac Apple Chip** version if you have a Mac with an Apple silicon processor.
 
-1. If your browser downloads the file as a zip file, find the file in the **Downloads** folder and unzip it.
+1. If your browser downloads the file as a ZIP file, find the file in the **Downloads** folder and unzip it.
 1. In the **Downloads** folder, double-click the `Postman` file to install it.
 1. When prompted, move the file to your __Applications__ folder. This will ensure that future updates can be installed correctly.
 
@@ -73,9 +75,7 @@ brew install --cask postman
 
 ## Installing Postman on Linux
 
-You can install Postman on Linux by manually downloading it, using the [Snap](https://snapcraft.io/postman) store link, or with the command `snap install postman`.
-
-To install manually, [download](https://www.postman.com/downloads/) and unzip the app, for example into the `Downloads` directory.
+You can install Postman on Linux by manually downloading it, using the [Snap](https://snapcraft.io/postman) store link, or with the command `snap install postman`. You can also [download](https://www.postman.com/downloads/) the latest version of Postman and unzip the file.
 
 To start the app from a launcher icon, create a desktop file. Name the file `Postman.desktop` and save it in the following location:
 
@@ -170,7 +170,7 @@ The Postman desktop app is built on [Electron](https://www.electronjs.org/), and
 
 To switch from the Chrome app to native, [download](https://www.postman.com/downloads/) Postman and [sign in to your account](https://go.postman.co/). Start the native app, and your history and collections will be automatically synced.
 
-Alternatively, if you don't want to sign in to your Postman account, you can bulk export your Postman data from the Chrome app, and then bulk import into the new native app at **Settings > Data**.
+If you don't want to sign in to your Postman account, you can bulk export your Postman data from the Chrome app, and then bulk import into the new native app at **Settings > Data**.
 
 ![Import Export Data](https://assets.postman.com/postman-docs/v10/export-data-v10-16b.jpg)
 
@@ -213,7 +213,7 @@ If you encounter any issues installing and running Postman, check out the follow
 
 If you get an __Update Failed__ notification in Postman, you can use the DevTools to investigate.
 
-![update-error-dialog](https://assets.postman.com/postman-docs/v10/update-error-dialog.jpg)
+![Failed update notification](https://assets.postman.com/postman-docs/v10/update-error-dialog.jpg)
 
 Open the DevTools using **View > Developer > Show DevTools (Current View)**.
 
