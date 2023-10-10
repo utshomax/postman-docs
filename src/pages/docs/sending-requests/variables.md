@@ -43,6 +43,7 @@ _Variables_ enable you to store and reuse values in Postman. By storing a value 
 * [Variables quick start](#variables-quick-start)
 * [Understanding variables](#understanding-variables)
 * [Variable scopes](#variable-scopes)
+* [Initial and current values](#initial-and-current-values)
 * [Variable types](#variable-types)
 * [Defining variables](#defining-variables)
 * [Using variables](#using-variables)
@@ -99,6 +100,18 @@ In order from broadest to narrowest, these scopes are: _global_, _collection_, _
 > If a variable with the same name is declared in two different scopes, the value stored in the variable with narrowest scope will be used. For example, if there is a global variable named `username` and a local variable named `username`, the local value will be used when the request runs.
 <!-- -->
 > Postman stores variables as strings. If you store objects or arrays, remember to `JSON.stringify()` them before storing, and `JSON.parse()` them when you retrieve them.
+
+## Initial and current values
+
+When you edit variables, each one has an _Initial value_ and _Current value_:
+
+* **Initial value** is a value that's set in the entity (collection, environment, or globals) where the variable is defined. This value is synced to Postman's servers, and is shared with your team when you share that entity.
+
+* **Current value** is used when sending a request. These are local values, and are not synced to Postman's servers. If left empty, the current value automatically uses the initial value. If you change a current value, it won't be persisted in the original shared collection, environment, or globals.
+
+Initial value can be useful when sharing entities with others, but it's important to remember that sensitive data in an initial value will also be shared with others, and potentially with the world. Be careful setting initial values, and consider using secret variables to mask sensitive data.
+
+You can persist or reset current values you have changed in variables. For more information, see [sharing and persisting data](#sharing-and-persisting-data).
 
 ## Variable types
 
@@ -263,7 +276,7 @@ For instructions on how to use variables in pre-request or test scripts, see [Us
 
 You can add and edit variables at any time. All you need to include for a new variable is a name. You can choose to supply an initial value, but you can also set it later, including from [scripts](https://learning.postman.com/docs/writing-scripts/intro-to-scripts/). Use a variable's checkbox to turn it on or off.
 
-Initial values are shared when you share a collection or environment. Current values are local and not synced or shared. See [Sharing and persisting data](#sharing-and-persisting-data) for more on local versus synced variables.
+Initial values are shared when you share a collection or environment. Current values are local and not synced or shared. See [Initial and current values](#initial-and-current-values) for more on local versus synced variables.
 
 ## Using variables
 
@@ -364,9 +377,9 @@ For more details, see [working with data files](/docs/collections/running-collec
 
 ## Sharing and persisting data
 
-When you edit global, collection, and environment variables in Postman, there is a __Current Value__ that you can choose to __Persist__ or __Reset__ for individual variables. You can also select **Persist All** or **Reset All** to apply this setting to all variables. These enable you to control what happens within your local instance of Postman, independently of how the data is synced with anyone sharing your workspace, requests, collections, and environments.
+When you edit global, collection, and environment variables in Postman, there is a __Current value__ that you can choose to __Persist__ or __Reset__ for individual variables. You can also select **Persist All** or **Reset All** to apply this setting to all variables. These enable you to control what happens within your local instance of Postman, independently of how the data is synced with anyone sharing your workspace, requests, collections, and environments.
 
-When you create or edit a variable, you can enter both an initial and a current value. When you create a new variable in Postman, if you leave the current value empty, it will autofill with the initial value. If you specify a current value, it will be local to your instance. The __Persist__ option lets you push your current value to the shared data, updating the initial value to match the current value.
+When you create or edit a variable, you can enter both an initial and a current value. When you create a new variable in Postman, if you leave the current value empty, it will autofill with the initial value. If you specify a current value, it will be local to your instance. The __Persist__ option pushes your current value to the shared data, updating the initial value to match the current value.
 
 > If you don't have Editor access to an environment, you can't edit the initial value of an environment variable. You can edit the current value, and your edit won't be visible to anyone sharing your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 
