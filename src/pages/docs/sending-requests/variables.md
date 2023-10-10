@@ -105,11 +105,11 @@ In order from broadest to narrowest, these scopes are: _global_, _collection_, _
 
 When you edit variables, each one has an _Initial value_ and _Current value_:
 
-* **Initial value** is a value that's set in the element (collection, environment, or globals) where the variable is defined. This value is synced to Postman's servers, and is shared with your team when you share that element.
+* **Initial value** is a value that's set in the element (collection, environment, or globals) where the variable is defined. This value is synced to Postman's servers, and is shared with your team when you share that element. The initial value can be useful when collaborating with teammates.
 
-* **Current value** is used when sending a request. These are local values, and aren't synced to Postman's servers. If left empty, the current value automatically uses the initial value. If you change a current value, it won't be persisted in the original shared collection, environment, or globals.
+  Initial value can be useful when sharing elements with others, but it's important to remember that sensitive data in an initial value will also be shared with others, and potentially with the world. Be careful setting initial values, and consider using secret variables to mask sensitive data.
 
-Initial value can be useful when sharing elements with others, but it's important to remember that sensitive data in an initial value will also be shared with others, and potentially with the world. Be careful setting initial values, and consider using secret variables to mask sensitive data.
+* **Current value** is used when sending a request. These are local values, and aren't synced to Postman's servers. If you change a current value, it won't be persisted in the original shared collection, environment, or globals.
 
 You can persist or reset current values you have changed in variables. For more information, see [sharing and persisting data](#sharing-and-persisting-data).
 
