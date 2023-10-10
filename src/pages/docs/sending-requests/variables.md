@@ -105,11 +105,11 @@ In order from broadest to narrowest, these scopes are: _global_, _collection_, _
 
 When you edit variables, each one has an _Initial value_ and _Current value_:
 
-* **Initial value** is a value that's set in the entity (collection, environment, or globals) where the variable is defined. This value is synced to Postman's servers, and is shared with your team when you share that entity.
+* **Initial value** is a value that's set in the element (collection, environment, or globals) where the variable is defined. This value is synced to Postman's servers, and is shared with your team when you share that element.
 
-* **Current value** is used when sending a request. These are local values, and are not synced to Postman's servers. If left empty, the current value automatically uses the initial value. If you change a current value, it won't be persisted in the original shared collection, environment, or globals.
+* **Current value** is used when sending a request. These are local values, and aren't synced to Postman's servers. If left empty, the current value automatically uses the initial value. If you change a current value, it won't be persisted in the original shared collection, environment, or globals.
 
-Initial value can be useful when sharing entities with others, but it's important to remember that sensitive data in an initial value will also be shared with others, and potentially with the world. Be careful setting initial values, and consider using secret variables to mask sensitive data.
+Initial value can be useful when sharing elements with others, but it's important to remember that sensitive data in an initial value will also be shared with others, and potentially with the world. Be careful setting initial values, and consider using secret variables to mask sensitive data.
 
 You can persist or reset current values you have changed in variables. For more information, see [sharing and persisting data](#sharing-and-persisting-data).
 
@@ -365,7 +365,7 @@ Use the following syntax in your script to log the value of a variable:
 console.log(pm.variables.get("variable_key"));
 ```
 
-To view the results, select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** in the footer. You can also access the console by selecting **View > Show Postman Console**.
+To view the results, select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** in the footer. You can also access the Console by selecting **View > Show Postman Console**.
 
 ![Logging Variable](https://assets.postman.com/postman-docs/v10/log-var-v10.jpg)
 
@@ -432,4 +432,4 @@ To set a variable that's unresolved because it doesn't exist, do the following:
 
 <img alt="Set an unresolved variable" src="https://assets.postman.com/postman-docs/set-unresolved-variable-v9.jpg" width="300px"/>
 
-> Variables that are [defined programmatically in a script](#defining-variables-in-scripts) are resolved differently depending on the variable scope. This means that unresolved variables will also be handled differently. Local variables that are set programmatically using `pm.variables.set` may appear to be unresolved since they're not stored and are only used at runtime, but if they're set and used correctly the request will still run successfully. Environment, global, and collection variables that are set programmatically are saved for later use, so they will resolve if they're set and used correctly. Depending on how an unresolved variable is used in a script, you may receive a `400 Bad Request` error response from the API, or Postman may be unable to send the request at all. Open the [console](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) to help identify unresolved variables in your scripts.
+> Variables that are [defined programmatically in a script](#defining-variables-in-scripts) are resolved differently depending on the variable scope. This means that unresolved variables will also be handled differently. Local variables that are set programmatically using `pm.variables.set` may appear to be unresolved since they're not stored and are only used at runtime, but if they're set and used correctly the request will still run successfully. Environment, global, and collection variables that are set programmatically are saved for later use, so they will resolve if they're set and used correctly. Depending on how an unresolved variable is used in a script, you may receive a `400 Bad Request` error response from the API, or Postman may be unable to send the request at all. Open the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) to help identify unresolved variables in your scripts.
