@@ -153,7 +153,7 @@ export const leftNavItems = [
             url: '/docs/getting-started/installation/installation-and-updates/',
           },
           {
-            name: 'Setup',
+            name: 'Settings',
             url: '/docs/getting-started/installation/settings/',
           },
           {
