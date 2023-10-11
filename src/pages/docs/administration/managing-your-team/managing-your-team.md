@@ -249,17 +249,22 @@ To remove team members from a solution, do the following:
 
 ### Internal API Management solution
 
-You can add team members to the Internal API Management solution for access to the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/), [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/), [API Governance](https://learning.postman.com/docs/api-governance/api-governance-overview/), and more.
+You can add team members to the [Internal API Management solution](https://www.postman.com/solutions/internal-api-management/) for access to the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/), the [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/), and [API Governance](https://learning.postman.com/docs/api-governance/api-governance-overview/).
 
 When you add team members to the Internal API Management solution:
 
 * You can then assign them the [API Network Manager and API Governance Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) roles. Learn more about [managing team roles](#managing-team-roles).
 * All team members get access to the Private API Network.
-* Only team members added to this solution can be assigned the [API Editor](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role in Postman APIs. Team members not added to this solution will only have the [API Viewer](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role.
+* Only team members added to this solution can be assigned the [API Editor](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role in Postman APIs, enabling them to create and edit an unlimited amount of APIs. Team members not added to this solution will only have the [API Viewer](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role.
 
 ### API Test Automation solution
 
-You can add team members to the API Test Automation solution for more access to the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/), [CI/CD integrations](/docs/integrations/ci-integrations/), [Postman Monitors](/docs/monitoring-your-api/intro-monitors/), and more.
+You can add team members to the [API Test Automation solution](https://www.postman.com/solutions/api-test-automation/) to increase their usage limits for the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/) and [monitors](/docs/monitoring-your-api/intro-monitors/).
+
+When you add team members to the API Test Automation solution:
+
+* Added team members get unlimited collections runs with the Collection Runner. You can [run collections on a schedule](/docs/collections/running-collections/scheduling-collection-runs/) to automate API tests.
+* Added team members get increased usage limits for monitors. You can [run collections on a schedule with monitors](/docs/collections/running-collections/scheduling-collection-runs-monitors/) to automate reports on API tests, and more. Learn more about [monitor use cases](/docs/monitoring-your-api/intro-monitors/#monitor-use-cases).
 
 ## Managing your team’s Postman plan
 
