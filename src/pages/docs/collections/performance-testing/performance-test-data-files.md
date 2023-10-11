@@ -40,7 +40,7 @@ To run a performance test with a data file, do the following:
 
     > The data file must be in CSV or JSON format. Learn more about [formatting a data file](#data-file-format).
 
-    <img alt="Selecting a data type for imported data" src="https://assets.postman.com/postman-docs/v10/performance-test-select-data-type-v10-19.jpg" />
+    <img alt="Selecting a data type for imported data" src="https://assets.postman.com/postman-docs/v10/performance-test-select-data-type-v10-19a.jpg" />
 
 1. Postman automatically detects the **Data file type**. If needed, you can select a different file type (CSV or JSON).
 1. Under **VU data mapping**, select how rows in the data file are mapped to virtual users:
