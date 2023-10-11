@@ -435,7 +435,7 @@ export const leftNavItems = [
             url: '/docs/sending-requests/mqtt-client/mqtt-request-interface/'
           },
           {
-            name: 'Create a MQTT request',
+            name: 'Create an MQTT request',
             url: '/docs/sending-requests/mqtt-client/first-mqtt-request/'
           },
         ],
