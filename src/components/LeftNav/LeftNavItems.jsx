@@ -523,7 +523,7 @@ export const leftNavItems = [
             url: '/docs/collections/running-collections/viewing-scheduled-collection-runs/',
           },
           {
-            name: 'Schedule collection runs with Monitors',
+            name: 'Schedule collection runs with monitors',
             url: '/docs/collections/running-collections/scheduling-collection-runs-monitors/',
           },
           {
