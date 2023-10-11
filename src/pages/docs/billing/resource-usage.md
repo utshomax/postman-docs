@@ -27,7 +27,7 @@ Refer to the following sections to understand what happens when your resource us
 * [Manual Collection Runner runs](#manual-collection-runner-runs)
 * [Storage usage](#storage-usage)
 * [Flows usage](#flows-usage)
-* [Performance test usage](#performance-test-limit)
+* [Performance test limit](#performance-test-limit)
 * [Postbot calls](#postbot-calls)
 * [Postman API usage](#postman-api-usage)
 * [Integrations](#integrations)
