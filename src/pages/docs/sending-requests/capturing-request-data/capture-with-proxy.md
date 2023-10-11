@@ -98,7 +98,7 @@ From the proxy session tab, you can take the following actions:
 
     > In responses with a `content-type` that has images, audio, or video, the content is intercepted but not captured. The information captured is response headers, time taken, and the status code.
 
-<img alt="Control a proxy session" src="https://assets.postman.com/postman-docs/v10/proxy-control-session-v10-19.jpg" />
+<img alt="Control a proxy session" src="https://assets.postman.com/postman-docs/v10/proxy-control-session-v10-19a.jpg" />
 
 ### Step 3: View the proxy session results
 
@@ -114,7 +114,7 @@ You can view and work with the proxy session results while the session is active
 * To delete a request or cookie, select it and select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete**.
 * To add a cookie to the [Postman cookie jar](/docs/sending-requests/cookies/), select it and select **+ Add to Cookie Jar**.
 
-<img alt="View proxy session results" src="https://assets.postman.com/postman-docs/v10/proxy-view-results-v10-19.jpg" />
+<img alt="View proxy session results" src="https://assets.postman.com/postman-docs/v10/proxy-view-results-v10-19a.jpg" />
 
 ### Step 4: Stop the proxy session
 
@@ -133,7 +133,7 @@ To save captured requests to a collection, do the following:
 1. Choose how to organize the requests in the collection. You can select the checkboxes to group the requests in folders organized by **Domain name**, **Endpoints**, or both.
 1. Select **Save**.
 
-<img alt="Save captured requests to a collection" src="https://assets.postman.com/postman-docs/v10/proxy-create-collection-v10-19.jpg" />
+<img alt="Save captured requests to a collection" src="https://assets.postman.com/postman-docs/v10/proxy-create-collection-v10-19a.jpg" />
 
 ### Step 5: Configure the proxy on a client device
 
