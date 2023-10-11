@@ -1,9 +1,6 @@
 ---
 title: "Test script examples"
-order: 45
-page_id: "test_examples"
-updated: 2021-11-15
-search_keyword: "pm.test, pm.expect, pm.response.json, pm.sendRequest, response.json"
+updated: 2023-10-04
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -28,7 +25,6 @@ contextual_links:
   - type: link
     name: "Test examples in Postman"
     url: "https://www.postman.com/postman/workspace/test-examples-in-postman/overview"
-warning: false
 
 ---
 
@@ -78,7 +74,7 @@ This code uses the `pm` library to run the `test` method. The text string will a
 
 This test checks the response code returned by the API. If the response code is `200`, the test will pass, otherwise it will fail. Select **Send** and go to the **Test Results** tab in the response area.
 
-[![Test output](https://assets.postman.com/postman-docs/example-test-assertion-result-v9.jpg)](https://assets.postman.com/postman-docs/example-test-assertion-result-v9.jpg)
+![Test output](https://assets.postman.com/postman-docs/v10/example-test-assertion-result-v10-3.jpg)
 
 To learn what test results look like when they pass or fail, change the status code in the assertion code and send the request again.
 
@@ -143,7 +139,7 @@ console.log($.html());
 
 ### Handling responses that don't parse
 
-If you can't parse the response body to JavaScript because it's not formatted as JSON, XML, HTML, CSV, or any other parsable data format, you can still make assertions on the data.
+If you can't parse the response body to JavaScript because it's not formatted as JSON, XML, HTML, CSV, or another parsable data format, you can still make assertions on the data.
 
 Test if the response body contains a string:
 
@@ -153,7 +149,7 @@ pm.test("Body contains string",() => {
 });
 ```
 
-This doesn't tell you where the string was encountered because it carries out the test on the whole response body. Test if a response matches a string (which will typically only be effective with short responses):
+This doesn't tell you where the string was encountered because it carries out the test on the whole response body. Test if a response matches a string:
 
 ```js
 pm.test("Body is string", function () {
@@ -403,7 +399,7 @@ pm.test("Check the active environment", () => {
 
 When you encounter errors or unexpected behavior in your test scripts, the Postman [Console](/docs/sending-requests/troubleshooting-api-requests/) can help you to identify the source. By combining `console.log()`, `console.info()`, `console.warn()` and `console.error()` debug statements with your test assertions, you can examine the content of the HTTP requests and responses, as well as Postman data items such as variables. You can also use the `console.clear()` method to clear information from the console. Select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** from the Postman footer to open it.
 
-[![Console info](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)
+![Console info](https://assets.postman.com/postman-docs/v10/console-logs-in-pane-v10.jpg)
 
 Log the value of a variable or response property:
 
@@ -455,7 +451,7 @@ pm.test("Test 2", () => {
 });
 ```
 
-Make sure that any code setting your response data to a variable is accessible to all test code, for example in this case moving `const jsonData = pm.response.json();` before the first `pm.test` would make it available to both test functions.
+Make sure that any code setting your response data to a variable is available to all test code. For example, in this case moving `const jsonData = pm.response.json();` before the first `pm.test` would make it available to both test functions.
 
 ### Assertion undefined error
 
@@ -603,7 +599,7 @@ tests["Successful POST request"] = responseCode.code === 201 || responseCode.cod
 
 ## Next steps
 
-Now that you have seen test script examples for various scenarios, you may be interested in extending your own tests:
+Now that you've seen test script examples for various scenarios, you may be interested in extending your own tests:
 
 * To learn how to use dynamic variables in your test scripts, visit [Dynamic variables](/docs/writing-scripts/script-references/variables-list/).
 * To learn more about how to use the `pm` object, visit the [Postman JavaScript reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/).

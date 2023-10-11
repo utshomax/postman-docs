@@ -1,5 +1,5 @@
 ---
-title: "Using the GraphQL client interface"
+title: "Manage GraphQL queries using the Postman HTTP request interface"
 page_id: "graphql-client-interface"
 updated: 2023-05-15
 contextual_links:
@@ -51,7 +51,7 @@ GraphQL requests in Postman include a variety of tools, views, and controls to h
 
 You can create a new GraphQL request from a workspace, by using **New > GraphQL**, or by selecting **+** to open a new tab.
 
-![Create a new GraphQL request](https://assets.postman.com/postman-docs/v10/graphql-create-new-3-v10.jpg)
+<img src="https://assets.postman.com/postman-docs/v10/graphql-create-new-4-v10.jpg" alt="Create a new GraphQL request" width="500px">
 
 Select **Save** to create your request.
 
@@ -61,7 +61,7 @@ You can use a GraphQL schema in your request to browse the available data fields
 
 <img src="https://assets.postman.com/postman-docs/v10/loading-schema-v10.gif" alt="Adding schema to the request">
 
-You can also choose to [load a GraphQL API from Postman](/docs/designing-and-developing-your-api/importing-an-api/) or [import a schema](/docs/getting-started/importing-and-exporting-data/) from your local system to use in the request.
+You can also choose to [load a GraphQL API from Postman](/docs/designing-and-developing-your-api/importing-an-api/) or [import a schema](/docs/getting-started/importing-and-exporting/importing-data/) from your local system to use in the request.
 
 ## Understanding parts of the request interface
 
@@ -73,7 +73,7 @@ The request interface enables you to add configurations to connect to the server
 
     > You can't change the request protocol after you select **Save**.
 
-    <img src="https://assets.postman.com/postman-docs/v10/select-protocol-v10.gif" alt="Select protocol" />
+    <img src="https://assets.postman.com/postman-docs/v10/select-protocol-v10-2.gif" alt="Select protocol" />
 
 * **URL** - Defines the endpoint where the service is hosted. While creating a new request, you can also browse through URLs you've used by selecting the **URL** field. This helps you create the request faster if you’re going to execute different queries with the same point.
 * **Query button** - Once you have defined the URL and built the query, you can select **Query** to execute it. Once the query is executed, the server sends back a response with the requested data.

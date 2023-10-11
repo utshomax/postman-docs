@@ -1,5 +1,5 @@
 ---
-title: "Bitbucket Pipelines"
+title: "Integrate Postman with Bitbucket Pipelines"
 page_id: "bitbucket-pipelines"
 updated: 2022-09-15
 warning: false
@@ -48,8 +48,6 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 Using the Postman CLI, you can run Postman collections with your API tests as part of a Bitbucket pipeline.
 
 To view details for collections that were run as part of a build, first [configure the Postman CLI for Bitbucket Pipelines](#configuring-the-postman-cli-for-bitbucket-pipelines) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand a collection to view details about a collection run.
-
-<img alt="View collection runs" src="https://assets.postman.com/postman-docs/v10/collection-runs-v10-2.jpg">
 
 > Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 

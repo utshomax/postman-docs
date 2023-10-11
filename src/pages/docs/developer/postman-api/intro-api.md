@@ -1,7 +1,6 @@
 ---
-title: "Postman API documentation"
+title: "Integrate Postman into your development toolchain"
 updated: 2022-11-30
-search_keyword: "Postman API docs"
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -36,7 +35,7 @@ contextual_links:
 
 The [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) endpoints let you integrate Postman in your development toolchain.
 
-You can add new collections, update collections and environments, add and run monitors, and more with the API. This lets you programmatically access data stored in your Postman account. You can also [combine the Postman API with Newman](/docs/running-collections/using-newman-cli/continuous-integration/) to integrate Postman with your CI/CD workflow.
+You can add new collections, update collections and environments, add and run monitors, and more with the API. This lets you programmatically access data stored in your Postman account. You can also [combine the Postman API with Newman](/docs/collections/using-newman-cli/continuous-integration/) to integrate Postman with your CI/CD workflow.
 
 ## Getting started
 

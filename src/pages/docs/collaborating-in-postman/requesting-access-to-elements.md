@@ -1,5 +1,5 @@
 ---
-title: "Requesting access to elements"
+title: "Request or approve access to Postman elements"
 order: 73
 page_id: "requesting-access-to-elements"
 updated: 2023-05-15
@@ -82,7 +82,7 @@ You can request Editor role access for a collection if you're an [external user 
 
 ![Request Editor role](https://assets.postman.com/postman-docs/v10/guest-role-request-to-edit-v10.jpg)
 
-> Your team must have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#using-auto-flex) to give an external user Editor role access to a collection.
+> Your team must have [available seats](/docs/billing/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/billing/billing/#using-auto-flex) to give an external user Editor role access to a collection.
 
 Postman will send in-app and email notifications to team members with Editor role access to the collection.
 

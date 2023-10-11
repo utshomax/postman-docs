@@ -1,5 +1,5 @@
 ---
-title: "Managing your team"
+title: "Manage your team"
 updated: 2023-06-08
 contextual_links:
   - type: section
@@ -36,6 +36,7 @@ Postman provides a variety of options to customize your team's experience, from 
     * [Managing team roles](#managing-team-roles)
     * [Managing Partners](#managing-partners)
     * [Managing Guests](#managing-guests)
+* [Manage your team's workspaces](#manage-your-teams-workspaces)
 * [Managing your team’s Postman plan](#managing-your-teams-postman-plan)
     * [Changing team size](#changing-team-size)
     * [Upgrading your plan](#upgrading-your-plan)
@@ -122,13 +123,13 @@ To remove a member from your team, go to your [team dashboard](https://go.postma
 Reassign their personal workspaces to another team member to ensure the team continues to have access to any unshared work done by the user being removed. You must reassign their personal workspaces if one of the following is true:
 
 * They're from an Enterprise team.
-* They're from a Free, Basic, or Professional team, and they have an individual account.
+* They're from a Free, Basic, or Professional team, and they have an account.
 
-> An individual account isn't associated with a team, and only the user can access it. To access an individual account, see [Switching between teams](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#switching-between-teams).
+> An account isn't associated with a team, and only the user can access it. To access an account, see [Switching between teams](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#switching-between-teams).
 
-When you remove a team member, their personal workspaces and the data within them move to an individual account if the following is true: they're from a Free, Basic, or Professional team and they don't have an individual account.
+When you remove a team member, their personal workspaces and the data within them move to an account if the following is true: they're from a Free, Basic, or Professional team and they don't have an account.
 
-> Note that when you remove a member from your team, this doesn't automatically reduce the number of paid seats for your team unless the member was added by [Auto-Flex](/docs/administration/billing/#using-auto-flex) during the current Auto-Flex cycle. If you want to reduce the number of paid seats on your team, a member of your team with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [edit your plan](/docs/administration/billing/#changing-your-plan).
+> Note that when you remove a member from your team, this doesn't automatically reduce the number of paid seats for your team unless the member was added by [Auto-Flex](/docs/billing/billing/#using-auto-flex) during the current Auto-Flex cycle. If you want to reduce the number of paid seats on your team, a member of your team with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [edit your plan](/docs/billing/billing/#changing-your-plan).
 
 ### Managing team roles
 
@@ -168,7 +169,7 @@ You can manage external users who have permission to view specific collections a
 
 <img alt="Convert Guest role" src="https://assets.postman.com/postman-docs/v10/manage-guests-v10.15.jpg"/>
 
-> Your team must have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#using-auto-flex) to change an external user's role from the Guest role to the Developer role.
+> Your team must have [available seats](/docs/billing/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/billing/billing/#using-auto-flex) to change an external user's role from the Guest role to the Developer role.
 
 A Team Admin can also view the workspaces and collections a user assigned the Guest role can access. Open your [team dashboard](https://go.postman.co/settings/team/members), locate the Guest user, and select **View resources**. Select the workspace name or collection name to open it in a new tab. You can also select the user's name to go to their Postman profile.
 
@@ -177,6 +178,45 @@ A Team Admin can also view the workspaces and collections a user assigned the Gu
 To learn more about sharing collections with external users, see [Allowing external users to view collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
 
 For information on how to remove an external user from a team or collection, see [Changing external user access to collections](/docs/collaborating-in-postman/sharing/#changing-external-user-access-to-collections).
+
+## Manage your team's workspaces
+
+> **[Workspace management is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
+
+You can specify users and [groups](/docs/collaborating-in-postman/user-groups/) who have permission to [create team workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) in your team. [Super Admins and Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create team workspaces whether you specify users and groups or not.
+
+If you specify users and groups, all other team members will require approval to create team workspaces by a Super Admin, Team Admin, or user with permission to create team workspaces. The workspace's visibility will be set to [private](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) until the request is approved.
+
+If you give all team members permission to create team workspaces, team members won't need approval to create team workspaces. This won't give users assigned the Partner or Guest role permission to create team workspaces.
+
+> To request workspace management for your team, contact your Postman Account Manager.
+
+To specify users or groups who can create team workspaces, do the following:
+
+1. Select **Team** in the Postman header, then select **Workspace Management**.
+1. Select **Specific people or groups**.
+1. Specify users or groups who can create team workspaces.
+1. Select **Save Changes**.
+
+    <img alt="Specify users who can create team workspaces" src="https://assets.postman.com/postman-docs/v10/workspace-management-users-groups-v10.jpg" width="600px"/>
+
+To remove permission to create team workspaces from users or groups, do the following:
+
+1. Select **Team** in the Postman header, then select **Workspace Management**.
+1. Select the **Specific people or groups** section to edit it.
+1. Select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to a user or group.
+
+    <img alt="Remove users who can create team workspaces" src="https://assets.postman.com/postman-docs/v10/workspace-management-remove-users-groups-v10.jpg" width="600px"/>
+
+1. Select **Save Changes**.
+
+To give all team members permission to create team workspaces, do the following:
+
+1. Select **Team** in the Postman header, then select **Workspace Management**.
+1. Select **All team members**.
+1. Select **Save Changes**.
+
+    <img alt="All team members can create team workspaces" src="https://assets.postman.com/postman-docs/v10/workspace-management-all-team-members-v10.jpg" width="600px"/>
 
 ## Managing your team’s Postman plan
 
@@ -187,17 +227,17 @@ You can manage your team size or upgrade your plan at any time during your team'
 If you want to change your team's size, you have two different options:
 
 * **Change the number of paid seats** - Team members with the Billing role can change your team's number of paid seats in the [billing dashboard](https://go.postman.co/billing/overview).
-* **Turn on Auto-Flex** - Your team can invite more users without having to pay in advance for more seats with [Auto-Flex](/docs/administration/billing/#using-auto-flex).
+* **Turn on Auto-Flex** - Your team can invite more users without having to pay in advance for more seats with [Auto-Flex](/docs/billing/billing/#using-auto-flex).
 
-For more information, see [Team and plan changes](/docs/administration/billing/#team-and-plan-changes).
+For more information, see [Team and plan changes](/docs/billing/billing/#team-and-plan-changes).
 
 ### Upgrading your plan
 
-Team members with the Billing role can upgrade your team plan in the [billing dashboard](https://go.postman.co/billing/overview). For more information, see [Changing your plan](/docs/administration/billing/#changing-your-plan).
+Team members with the Billing role can upgrade your team plan in the [billing dashboard](https://go.postman.co/billing/overview). For more information, see [Changing your plan](/docs/billing/billing/#changing-your-plan).
 
 ## Updating your team’s Postman version
 
-If your team isn't on the latest version of the desktop app, you can update your team to ensure everyone has access to the complete Postman API development experience. To do so, see [Updating your team to the current version of Postman](/docs/administration/updating/).
+If your team isn't on the latest version of the desktop app, you can update your team to ensure everyone has access to the complete Postman API development experience.
 
 ## Next steps
 

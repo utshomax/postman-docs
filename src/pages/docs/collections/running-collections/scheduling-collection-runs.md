@@ -1,5 +1,5 @@
 ---
-title: "Scheduling collection runs"
+title: "Automate collection runs on a schedule"
 updated: 2023-06-15
 contextual_links:
   - type: section
@@ -37,9 +37,11 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
 ## Scheduling a collection run
 
-1. Select **Collections** in the sidebar and select the collection you want to schedule.
+You can schedule a run for the requests in a [collection](/docs/collections/using-collections/#creating-collections) or a [folder](/docs/collections/using-collections/#adding-folders-to-a-collection).
 
-1. Select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
+1. Select **Collections** in the sidebar and select the collection or folder you want to schedule.
+
+1. On the **Overview** tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
 
     > You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer and drag a collection from __Collections__ or __History__ in the sidebar.
 
@@ -143,9 +145,9 @@ Many Postman users use collections as repositories of requests, which they run i
 
 To change the request order in a scheduled run, do the following:
 
-1. Select **Collections** in the sidebar and select the collection you want to schedule.
+1. Select **Collections** in the sidebar and select the collection or folder you want to schedule.
 
-1. Select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
+1. On the **Overview** tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
 
     > You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer and drag a collection from __Collections__ or __History__ in the sidebar.
 

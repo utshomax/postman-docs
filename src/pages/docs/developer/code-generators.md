@@ -1,9 +1,6 @@
 ---
-title: "Code generator library"
-order: 149.1
-page_id: "code-generators"
-updated: 2021-11-10
-warning: false
+title: "Generate client code for your API collections"
+updated: 2023-10-04
 ---
 
 You can generate client code for your API collections in Postman. Postman's Node.js code generator module converts a request into client code for your target language in conjunction with the [Collection SDK](/docs/developer/collection-sdk/).
@@ -15,6 +12,12 @@ You can install the code generator library from [npm](https://www.npmjs.com/pack
 To get started using the code generator module, [check out the instructions for installation and usage in the project repo on GitHub](https://github.com/postmanlabs/postman-code-generators).
 
 > You can also generate client code for a request or collection [in Postman](/docs/sending-requests/generate-code-snippets/).
+
+## Contents
+
+* [Using code generation programmatically](#using-code-generation-programmatically)
+* [Supported languages](#supported-languages)
+* [Next steps](#next-steps)
 
 ## Using code generation programmatically
 
@@ -66,7 +69,7 @@ var codegen = require('postman-code-generators'),
 
 ## Supported languages
 
-Since the code generator module is an open-source project, if there is a language or framework you would like to be able to generate client code for, but that isn't currently provided, you can add it yourself by [contributing to the project](https://github.com/postmanlabs/postman-code-generators/blob/master/CONTRIBUTING.md). This enables people to access your contribution not only by using the code utility, but also in Postman itself.
+The code generator module is an open-source project. If there is a language or framework you'd like to generate client code for, but it isn't currently provided, you can add it by [contributing to the project](https://github.com/postmanlabs/postman-code-generators/blob/master/CONTRIBUTING.md). This lets other users access your contribution both in the repo and in Postman itself.
 
 ## Next steps
 

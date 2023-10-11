@@ -1,5 +1,5 @@
 ---
-title: "Using and managing workspaces"
+title: "Access, manage, and share Postman workspaces"
 updated: 2023-05-31
 contextual_links:
   - type: section
@@ -66,7 +66,7 @@ To view the workspace ID, select the information icon <img alt="Information icon
 
 > **[Private workspaces are available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing/)**
 
-To collaborate in a private workspace, you must be [invited](#sharing-workspaces) by a Workspace Editor or Admin, or request access to it and be approved. If you're using the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) and navigate to a link a teammate has shared to a private workspace or an element within one, you'll have the option to request access to the workspace.
+To collaborate in a private workspace, you must be [invited](#sharing-workspaces) by a Workspace Editor or Admin, or request access to it and be approved. If you're using the [Postman web app](/docs/getting-started/installation/installation-and-updates/#using-the-postman-web-app) and navigate to a link a teammate has shared to a private workspace or an element within one, you'll have the option to request access to the workspace.
 
 <img alt="Request access to private workspace" src="https://assets.postman.com/postman-docs/user-rfa-private-workspace-v9.16.jpg"/>
 
@@ -84,9 +84,9 @@ Workspace Admins can edit workspace details or change the visibility of a worksp
 
 A summary and description help others understand what your workspace is for. You must be a [Workspace Admin](#managing-workspace-roles) to edit workplace details.
 
-On the workspace's **Overview** tab, hover over the element's name, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">, and enter a new name. You can also select the summary, description, or tags ([Enterprise plans only](https://www.postman.com/pricing)) to edit it. You can add Markdown to the description. Select the area outside of each section to save your changes.
+On the workspace's **Overview** tab, select the workspace name and enter a new name. You can also select the summary, description, or tags ([Enterprise plans only](https://www.postman.com/pricing)) to edit it. You can add Markdown to the description. Select the area outside of each section to save your changes.
 
-<img alt="Edit Workspace Summary & Description" src="https://assets.postman.com/postman-docs/v10/edit-workspace-summary-description-v10-2.gif"/>
+<img alt="Edit Workspace Summary & Description" src="https://assets.postman.com/postman-docs/v10/edit-workspace-summary-description-v10-3.gif" style="border: 1px solid #4a4a4a"/>
 
 ### Changing workspace visibility
 
@@ -116,8 +116,8 @@ You can invite team members, [groups](/docs/collaborating-in-postman/user-groups
 Your ability to share workspaces with teammates depends on your [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles):
 
 * **Workspace Admin** - Can invite Postman teammates or external users to personal, private, team, and public workspaces, and assign them a workspace role. If a Workspace Admin invites an external user to a workspace, Postman will share this request with [Team Admins](https://learning.postman.com/docs/collaborating-in-postman/roles-and-permissions/#team-roles). Once approved, an invite to join the team will be sent to the individual.
-* **Workspace Editor** - Can invite external users to team and public workspaces, but can't assign them workspace roles. For private workspaces, Workspace Editors using the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) can copy and share a link to the workspace with a teammate, who can then [request access to the workspace](#accessing-private-workspaces).
-* **Workspace Viewer** - Can't invite teammates to private, team, or public workspaces. For private workspaces, Workspace Viewers using the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) can copy and share a link to the workspace with a teammate, who can then [request access to the workspace](#accessing-private-workspaces).
+* **Workspace Editor** - Can invite external users to team and public workspaces, but can't assign them workspace roles. For private workspaces, Workspace Editors using the [Postman web app](/docs/getting-started/installation/installation-and-updates/#using-the-postman-web-app) can copy and share a link to the workspace with a teammate, who can then [request access to the workspace](#accessing-private-workspaces).
+* **Workspace Viewer** - Can't invite teammates to private, team, or public workspaces. For private workspaces, Workspace Viewers using the [Postman web app](/docs/getting-started/installation/installation-and-updates/#using-the-postman-web-app) can copy and share a link to the workspace with a teammate, who can then [request access to the workspace](#accessing-private-workspaces).
 
 > When you invite a collaborator to a personal workspace, it's automatically converted into a team workspace.
 
@@ -143,7 +143,7 @@ You can assign a [workspace role](/docs/collaborating-in-postman/roles-and-permi
 
 ### Adding workspaces to the Private API Network
 
-You can also share workspaces with your teammates by adding them to your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/). To learn more, see [Adding workspaces](/docs/collaborating-in-postman/adding-private-network/#adding-workspaces).
+You can also share workspaces with your teammates by adding them to your team's [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/). To learn more, see [Requesting to add a workspace from the workbench](/docs/collaborating-in-postman/private-api-network/private-network-requests/#requesting-to-add-a-workspace-from-the-workbench).
 
 ## Managing workspace roles
 
@@ -164,13 +164,13 @@ To change the role of people in a workspace, or to remove someone from a workspa
 
 ## Tagging a workspace
 
-> **[Tagging workspaces is available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
+> **[Tagging workspaces is available on Postman Enterprise plans.](https://www.postman.com/pricing/)** You can apply shared tags to workspaces, collections, and APIs. Tags must be between two and 64 alphanumeric characters, starting with an alphabetic character, and contain only dashes and no spaces. You can add up to five tags.
 
-You can add tags to workspaces, enabling you to organize and search for workspaces using shared tags. You can add up to five tags to a workspace.
+Adding shared tags to workspaces enables you to organize and search for workspaces.
 
 Once you add tags to the workspace, you can select a tag to open search results associated with the tag in a new tab.
 
-To learn more about searching using tag names in Postman, see [Search Postman](/docs/getting-started/navigating-postman/#search-postman). You can also search using tag names in the Private API Network when searching [elements in the network](/docs/collaborating-in-postman/adding-private-network/#searching-filtering-and-sorting), [elements to add to the network](/docs/collaborating-in-postman/adding-private-network/#adding-elements-in-your-private-api-network), and [elements to request to add to the network](/docs/collaborating-in-postman/adding-private-network/#requesting-to-add-elements-in-your-private-api-network).
+To learn more about searching using tag names in Postman, see [Search Postman](/docs/getting-started/basics/navigating-postman/#search-postman). You can also search using tag names in the Private API Network when searching [elements in the network](/docs/collaborating-in-postman/private-api-network/adding-private-network/#searching-filtering-and-sorting), [elements to add to the network](/docs/collaborating-in-postman/private-api-network/organizing-private-network/#adding-elements-in-your-private-api-network), and [elements to request to add to the network](/docs/collaborating-in-postman/private-api-network/private-network-requests/#requesting-to-add-elements-in-your-private-api-network).
 
 To add tags to a workspace, do the following:
 
@@ -244,7 +244,7 @@ To remove a pinned collection, hover over the collection and select the remove p
 
 The list of avatars in the Postman header shows you who's active in your workspace. If you're in a private or team workspace, this list will include all team members who are currently active in the workspace, and all team members who are currently inactive, but have visited the workspace before.
 
-If you're in a public workspace, this list will include all active users with [public profiles](/docs/getting-started/postman-account/#making-your-profile-public) and users who've chosen to remain anonymous by not enabling their public profile.
+If you're in a public workspace, this list will include all active users with [public profiles](/docs/getting-started/installation/postman-profile/#making-your-profile-public) and users who've chosen to remain anonymous by not enabling their public profile.
 
 <img alt="Active users in public workspace" src="https://assets.postman.com/postman-docs/presence-public-workspace-v9.19.jpg" width="300px"/>
 

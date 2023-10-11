@@ -1,5 +1,5 @@
 ---
-title: "API Governance reports"
+title: "View reports about API rule compliance"
 updated: 2023-06-15
 contextual_links:
   - type: section
@@ -17,7 +17,7 @@ The **API Governance** report dashboard provides metrics relevant to your team's
 * [Public APIs](#public-apis)
 * [Private Network APIs](#private-network-apis)
 
-You can use these reports to answer API governance questions about APIs owned by your team that are part of the [Public API Network](/docs/getting-started/exploring-public-api-network/) and your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
+You can use these reports to answer API governance questions about APIs owned by your team that are part of the [Public API Network](/docs/getting-started/first-steps/exploring-public-api-network/) and your team's [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/).
 
 ## API Governance
 
@@ -45,7 +45,7 @@ For specific details about the APIs in the **Current API landscape** and **Top 3
 
 ## Private Network APIs
 
-The **Private Network APIs** report provides the following information for APIs in your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/) over the past 30 days:
+The **Private Network APIs** report provides the following information for APIs in your team's [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/) over the past 30 days:
 
 * **Conformance** - The number of APIs in your team's Private API Network that don't have any API Governance rule violations.
 * **Non-conformance** - The average number of API Governance rule violations per API in your team's Private API Network.

@@ -1,5 +1,5 @@
 ---
-title: "Using the gRPC request interface"
+title: "Create a gRPC request in Postman"
 updated: 2022-10-04
 contextual_links:
   - type: section
@@ -32,7 +32,7 @@ gRPC requests in Postman include a variety of tools, views, and controls to help
 
 Create a new gRPC request by selecting **New** in the sidebar. Select **gRPC** from the list to open a blank gRPC request in a new tab.
 
-<img src="https://assets.postman.com/postman-docs/v10/create-new-grpc-v10.jpg" alt="New gRPC request" width="500px"/>
+<img src="https://assets.postman.com/postman-docs/v10/create-new-grpc-v10-2.jpg" alt="New gRPC request" width="500px"/>
 
 ## The request section
 
@@ -44,7 +44,7 @@ The request section includes the required configurations to connect to the serve
 
     > You can't change the request protocol after you select **Save**.
 
-    <img src="https://assets.postman.com/postman-docs/v10/select-protocol-v10.gif" alt="Select protocol" />
+    <img src="https://assets.postman.com/postman-docs/v10/select-protocol-v10-2.gif" alt="Select protocol" />
 
 * **Server URL** - Defines the endpoint where the service is hosted. A gRPC URL often starts with `grpc://` instead of `http://` or `https://`. While creating a new request, you can also browse through URLs you've used by selecting the URL field. This helps you create the request faster if you’re testing multiple methods on the same endpoint.
 
@@ -72,7 +72,7 @@ The request section includes the required configurations to connect to the serve
 
 * **Request actions** - Request actions offer options on what you can do with the request:
 
-    * **Save** - Saves the request into a collection so that you can reuse it later or share it with others. Because WebSocket and gRPC requests have different features than HTTP requests, when they're added to a collection, it causes the collection to be in a “beta” state with certain limitations. When in this state, a collection can contain WebSocket or gRPC requests but can't contain HTTP requests. Some features related to collections also aren't supported.
+    * **Save** - Saves the request into a collection so that you can reuse it later or share it with others. Because WebSocket and gRPC requests have different features than HTTP requests, when they're added to a collection, it causes the collection to be in a "beta" state with certain limitations. When in this state, a collection can contain WebSocket or gRPC requests but can't contain HTTP requests. Some features related to collections also aren't supported.
 
     * **Delete** - Deletes an existing request from the collection.
 
@@ -165,7 +165,7 @@ The right sidebar gives you access to more tools and information like documentat
 
 If you're having a problem using Postman's gRPC client, learn more about common issues and how to troubleshoot them.
 
-For more troubleshooting information, see [Troubleshooting app issues](/docs/getting-started/troubleshooting-inapp/) and [Troubleshooting requests](/docs/sending-requests/troubleshooting-api-requests/).
+For more troubleshooting information, see [Troubleshoot app issues](/docs/introduction/troubleshooting-inapp/) and [Troubleshooting requests](/docs/sending-requests/troubleshooting-api-requests/).
 
 ### Service unavailable
 
@@ -181,7 +181,7 @@ The server you are using is unreachable with the current client settings. If you
 
 To use all of Postman's gRPC features, you must run the Postman Desktop Agent.
 
-Learn more about [installing the Postman Desktop Agent](/docs/getting-started/about-postman-agent/#the-postman-desktop-agent).
+Learn more about [installing the Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent).
 
 ## Next steps
 

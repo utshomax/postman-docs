@@ -1,5 +1,5 @@
 ---
-title: "Making your first request with the GraphQL client"
+title: "Send GraphQL queries using the Postman GraphQL client"
 page_id: "graphql-client-first-request"
 updated: 2023-05-15
 contextual_links:
@@ -56,7 +56,7 @@ Using a GraphQL request, you can execute three different types of Queries:
 
 This example creates and executes a GraphQL query using the interactive query builder.
 
-> If you are using the Postman web app, you must use the Postman Desktop Agent. See [About the Postman Agent](/docs/getting-started/about-postman-agent/) for more information.
+> If you are using the Postman web app, you must use the Postman Desktop Agent. See [About the Postman Agent](/docs/getting-started/basics/about-postman-agent/) for more information.
 
 1. In Postman, select **New > GraphQL** to open a request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**, then select **GraphQL**.)
 1. In the URL bar, enter `https://graphql.postman-echo.com/graphql`. This will load the schema using introspection.
@@ -64,4 +64,4 @@ This example creates and executes a GraphQL query using the interactive query bu
 1. Enter your age and name in the input boxes next to `age` and `name`. You should also see a fully-formed query based on your selections on the right.
 1. Select **Query**.
 
-![First GraphQL Query](https://assets.postman.com/postman-docs/v10/graphql-schema-explorer-v10-1.gif)
+![First GraphQL Query](https://assets.postman.com/postman-docs/v10/graphql-schema-explorer-v10-2.gif)

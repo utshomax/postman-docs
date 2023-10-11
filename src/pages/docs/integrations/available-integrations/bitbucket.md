@@ -1,7 +1,6 @@
 ---
-title: "Bitbucket"
-updated: 2021-09-15
-page_id: "bitbucket"
+title: "Integrate Postman with Bitbucket"
+updated: 2023-10-04
 ---
 
 You can back up your Postman Collections to your Bitbucket repository. Once the integration is configured, any changes to your collection in Postman will also appear in your Bitbucket repository.
@@ -13,7 +12,7 @@ You can back up your Postman Collections to your Bitbucket repository. Once the 
 
 ## API sync with Bitbucket
 
-With Postman v10, you can connect a Bitbucket repository to an API in the API Builder. Once connected, you can sync your API's definition and associated collections between Postman and Bitbucket. You can switch branches, pull changes from the repository, and push changes to the repository, all from within Postman. To learn more about syncing your API with Bitbucket, see [Using a remote Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/).
+With Postman v10, you can connect a Bitbucket repository to an API in the API Builder. Once connected, you can sync your API's definition and associated collections between Postman and Bitbucket. You can switch branches, pull changes from the repository, and push changes to the repository, all from within Postman. To learn more about syncing your API with Bitbucket, see [API version control overview](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/).
 
 ## Backing up collections on Bitbucket
 
@@ -21,7 +20,7 @@ To back up your collections to a Bitbucket repository, do the following:
 
 1. From the **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 
-    <img alt="Home page and integrations" src="https://assets.postman.com/postman-docs/v10/home-integrations-v10.jpg" width="390px">
+    <img alt="Home page and integrations" src="https://assets.postman.com/postman-docs/v10/home-integrations-v10.jpg" width="350px">
 
 1. Select **[Browse All Integrations](https://go.postman.co/integrations/browse?category=all)**.
 
@@ -35,11 +34,11 @@ To back up your collections to a Bitbucket repository, do the following:
 
     > App passwords are different from account passwords. Learn [how to create an app password in Bitbucket](https://support.atlassian.com/bitbucket-cloud/docs/app-passwords/).
 
-    ![Bitbucket creation](https://assets.postman.com/postman-docs/bitbucket-create-bb.jpg)
+    <img alt="Add Bitbucket integration" src="https://assets.postman.com/postman-docs/v10/add-integration-bitbucket-v10.18.jpg" width="450px">
 
 1. Select your collection to back up, the repository you'd like to back it up to, and choose the directory, filename, and branch. Select **Add Integration**.
 
-    ![Bitbucket configuration](https://assets.postman.com/postman-docs/bitbucket-configure-bb.jpg)
+    <img alt="Configure Bitbucket integration" src="https://assets.postman.com/postman-docs/v10/add-integration-bitbucket-form-v10.18.jpg" width="450px">
 
 Postman often checks your collection for changes. If Postman identifies changes when it checks your collection, the changes automatically commit to your repository in JSON format.
 

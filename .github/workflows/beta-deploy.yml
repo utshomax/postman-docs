@@ -58,12 +58,21 @@ jobs:
           RELIC_PRODUCTION_APPLICATION_ID: ${{ secrets.RELIC_PRODUCTION_APPLICATION_ID }}
           PM_TECH_RT: ${{secrets.PM_TECH_RT}}
           SITE_URL: ${{secrets.SITE_URL_BETA}}
+          MKAPI_URL: ${{secrets.MKAPI_URL}}
         run: |
             npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
             npm install
             npm run clean
             npm run build:dev
             aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/${{ steps.sanitized-branch.outputs.SANITIZED_BRANCH}}/ --delete
+      
+      - name: Sync page-data.json files to marketing website s3 bucket
+        if: ${{ steps.sanitized-branch.outputs.SANITIZED_BRANCH}} == 'develop'
+        env:
+          AWS_MAX_ATTEMPTS: 10
+        run: |
+          aws s3 sync ./public/page-data/ s3://${{secrets.BETA_WWW_BUCKET_NAME}}/control/mkapi/learning-center --delete
+          aws cloudfront create-invalidation --distribution-id ${{secrets.BETA_WWW_DIST_ID}} --paths "/*"
         
       - name: invalidate the CDN
         uses: chetan/invalidate-cloudfront-action@v2

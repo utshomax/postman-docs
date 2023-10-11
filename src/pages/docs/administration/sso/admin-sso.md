@@ -1,5 +1,5 @@
 ---
-title: "Configuring SSO for a team"
+title: "Configure SSO for a team"
 updated: 2023-02-06
 contextual_links:
   - type: section
@@ -53,7 +53,7 @@ To enter details in the **Identity provider details** section, you must sign in 
 
 * [Microsoft AD FS](/docs/administration/sso/microsoft-adfs/)*
 
-* [Azure AD](/docs/administration/sso/azure-ad/)*
+* [Microsoft Entra ID](/docs/administration/sso/azure-ad/)*
 
 * [Custom SAML](/docs/administration/sso/custom-saml/)*
 

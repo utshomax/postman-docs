@@ -1,9 +1,6 @@
 ---
-title: "GitLab"
-order: 169
-page_id: "gitlab"
+title: "Integrate Postman with GitLab"
 updated: 2021-11-15
-warning: false
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -22,23 +19,21 @@ Setting up a GitLab integration requires you to get a GitLab Personal Access Tok
 
 ## API sync with GitLab
 
-With Postman v10, you can connect a GitLab repository to an API in the API Builder. Once connected, you can sync your API's definition and associated collections between Postman and GitLab. You can switch branches, pull changes from the repository, and push changes to the repository, all from within Postman. To learn more about syncing your API with GitLab, see [Using a remote Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/).
+With Postman v10, you can connect a GitLab repository to an API in the API Builder. Once connected, you can sync your API's definition and associated collections between Postman and GitLab. You can switch branches, pull changes from the repository, and push changes to the repository, all from within Postman. To learn more about syncing your API with GitLab, see [API version control overview](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/).
 
 ## Generating a GitLab Personal Access Token
 
 1. Sign in to [GitLab](https://about.gitlab.com/).
 
-1. If you don’t already have a Personal Access Token from GitLab, [generate a new one](https://gitlab.com/-/profile/personal_access_tokens).
+1. If you don’t already have a Personal Access Token from GitLab, generate a new one in your [GitLab dashboard](https://gitlab.com/-/profile/personal_access_tokens) by selecting **Add new token** under **Personal Access Tokens**.
 
-   ![GitLab create token](https://assets.postman.com/postman-docs/gitlab-create-token.jpg)
+   ![GitLab create token](https://assets.postman.com/postman-docs/v10/gitlab-generate-token-v10.18.jpg)
 
-1. Save the generated token to use later.
-
-   ![GitLab save token](https://assets.postman.com/postman-docs/gitlab-save-token.jpg)
+1. Copy the generated token to use when creating the integration in Postman.
 
 ## Configuring a backup for Postman collections in GitLab
 
-1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
+1. On the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 
 1. Search and select **GitLab**.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Viewing New Relic metrics'
+title: "View New Relic APM metrics in Postman"
 updated: 2022-09-15
 contextual_links:
   - type: section

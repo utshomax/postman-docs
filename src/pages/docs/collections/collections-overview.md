@@ -1,5 +1,5 @@
 ---
-title: "Collections overview"
+title: "Create, use, and run Postman Collections"
 updated: 2023-03-01
 contextual_links:
   - type: section
@@ -32,7 +32,7 @@ _Postman Collections_ are a group of saved requests. Every request you send in P
 
 ## Creating your first collection
 
-If you're getting started with collections for the first time, learn how to [Create your first collection](/docs/getting-started/creating-the-first-collection/).
+If you're getting started with collections for the first time, learn how to [Create your first collection](/docs/getting-started/first-steps/creating-the-first-collection/).
 
 ## Using collections
 

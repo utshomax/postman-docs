@@ -1,11 +1,14 @@
 ---
-title: 'Validating an API'
+title: "Ensure consistency between your collection and the API definition"
 updated: 2023-06-15
 contextual_links:
   - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
+  - type: link
+    name: "Validate Response Data With JSON Schema"
+    url: "https://youtu.be/IbyYUTBDVXQ"
   - type: link
     name: "Postman Intergalactic | Design and Prototype an API in Postman"
     url: "https://youtu.be/r4kb3jOSsmk"

@@ -1,5 +1,5 @@
 ---
-title: "Content activity reports"
+title: "View reports about workspaces and APIs"
 updated: 2023-06-15
 contextual_links:
   - type: section
@@ -133,7 +133,7 @@ The **View report by API** dashboard provides a report for each individual API. 
 
 ## Private Network APIs
 
-The **Private Network APIs** dashboard provides metrics about APIs in your [Private API Network](/docs/collaborating-in-postman/adding-private-network/), including an overview of your total APIs, a visualization of APIs categorized by schema type, and a separate view of your APIs with and without mocks, monitors, tests, and documentation.
+The **Private Network APIs** dashboard provides metrics about APIs in your [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/), including an overview of your total APIs, a visualization of APIs categorized by schema type, and a separate view of your APIs with and without mocks, monitors, tests, and documentation.
 
 The **Private Network APIs** report provides the following information:
 

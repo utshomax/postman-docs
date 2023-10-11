@@ -1,5 +1,5 @@
 ---
-title: "Collection SDK"
+title: "Create and manage collections using the Collection SDK"
 order: 148
 updated: 2022-07-20
 page_id: "collection_sdk"

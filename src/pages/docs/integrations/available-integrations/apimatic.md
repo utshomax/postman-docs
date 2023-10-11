@@ -1,5 +1,5 @@
 ---
-title: "APIMatic"
+title: "Integrate Postman with APIMatic"
 updated: 2022-02-11
 ---
 

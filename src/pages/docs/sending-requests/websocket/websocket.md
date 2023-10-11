@@ -1,5 +1,5 @@
 ---
-title: "Using WebSocket requests"
+title: "Send and receive messages over a WebSocket connection"
 updated: 2022-08-02
 contextual_links:
   - type: section
@@ -17,6 +17,9 @@ contextual_links:
   - type: link
     name: "Save and Document WebSocket Requests in Collections"
     url: "https://blog.postman.com/save-and-document-websocket-requests-in-collections/"
+  - type: link
+    name: "Powering home automation with WebSocket APIs"
+    url: "https://blog.postman.com/powering-home-automation-with-websocket-apis/"
   - type: link
     name: "Postman Supports Socket.IO"
     url: "https://blog.postman.com/postman-now-supports-socket-io/"
@@ -48,7 +51,7 @@ You can create a WebSocket request from the sidebar in Postman.
 
 1. Select **New > WebSocket** to open a raw WebSocket request in a new tab. You can also select **New > Socket.IO** to open a Socket.IO request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**.)
 
-    <img src="https://assets.postman.com/postman-docs/v10/create-new-websocket-v10.jpg" alt="New WebSocket request" width="500px"/>
+    <img src="https://assets.postman.com/postman-docs/v10/create-new-websocket-v10-2.jpg" alt="New WebSocket request" width="500px"/>
 
 1. Enter the WebSocket server URL. A WebSocket URL begins with `ws://` or `wss://`.
 
@@ -57,7 +60,7 @@ You can create a WebSocket request from the sidebar in Postman.
 1. Select **Connect**.
 1. To disconnect your WebSocket request's connection, select **Disconnect**.
 
-> If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/about-postman-agent/) for more information.
+> If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/basics/about-postman-agent/) for more information.
 
 ## Sending messages
 
@@ -167,7 +170,7 @@ You can change the protocol for a new request. Select **New** in the sidebar and
 
 > You can't change the request protocol after you select **Save**.
 
-![Select protocol](https://assets.postman.com/postman-docs/v10/select-protocol-v10.gif)
+![Select protocol](https://assets.postman.com/postman-docs/v10/select-protocol-v10-2.gif)
 
 ### Sending parameters
 

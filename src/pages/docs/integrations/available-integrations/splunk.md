@@ -1,5 +1,5 @@
 ---
-title: "Splunk"
+title: "Integrate Postman with Splunk"
 updated: 2023-04-12
 contextual_links:
   - type: section

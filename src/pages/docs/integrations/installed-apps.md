@@ -1,5 +1,5 @@
 ---
-title: "Using installed apps in integrations"
+title: "Add new integrations using installed apps in Postman"
 updated: 2023-03-15
 contextual_links:
   - type: section
@@ -30,8 +30,8 @@ When you authenticate with a third-party service, you can choose to have Postman
 
 You can add installed apps for the following Postman integrations:
 
-* [GitHub Enterprise Server](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#connecting-to-github-enterprise-server-or-gitlab-self-managed) - Connect an API to a Git repository hosted in GitHub Enterprise Server
-* [GitLab Self-Managed](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#connecting-to-github-enterprise-server-or-gitlab-self-managed) - Connect an API to a Git repository hosted in GitLab Self-Managed
+* [GitHub Enterprise Server](/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/#connecting-to-github-enterprise-server-or-gitlab-self-managed) - Connect an API to a Git repository hosted in GitHub Enterprise Server
+* [GitLab Self-Managed](/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/#connecting-to-github-enterprise-server-or-gitlab-self-managed) - Connect an API to a Git repository hosted in GitLab Self-Managed
 * [Slack](/docs/integrations/available-integrations/slack/) - Post monitoring results in Slack
 
 ## Adding an installed app
@@ -47,7 +47,7 @@ You can add a new installed app from [Team Settings](https://go.postman.co/setti
 1. Select the third-party app or service you want to add. The next steps can differ depending on the app or service you selected:
 
     * **Slack** - A browser tab opens asking you to sign in to Slack. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
-    * **GitHub Enterprise Server or GitLab Self-Managed** - Enter the client ID and client secret for your OAuth app. For complete steps, go to [Connecting to GitHub Enterprise Server or GitLab Self-Managed](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#connecting-to-github-enterprise-server-or-gitlab-self-managed).
+    * **GitHub Enterprise Server or GitLab Self-Managed** - Enter the client ID and client secret for your OAuth app. For complete steps, go to [Connecting to GitHub Enterprise Server or GitLab Self-Managed](/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/#connecting-to-github-enterprise-server-or-gitlab-self-managed).
 
 The new installed app appears on the Installed Apps page in [Team Settings](https://go.postman.co/settings/team/general).
 
@@ -86,7 +86,7 @@ To delete an installed app, select the delete icon <img alt="Delete icon" src="h
 Any team member can use an installed app when adding a [supported integration](#supported-integrations).
 
 * **Slack** - Follow the steps to add a new [Slack integration](/docs/integrations/available-integrations/slack/). A message and green checkmark let you know you're connected Slack. Enter the other required information and select **Add Integration**.
-* **GitHub Enterprise Server or GitLab Self-Managed** - You can use the installed app to connect an API to GitHub Enterprise Server or GitLab Self-Managed. For details, go to [Connecting an API using an installed app](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#connecting-an-api-using-an-installed-app).
+* **GitHub Enterprise Server or GitLab Self-Managed** - You can use the installed app to connect an API to GitHub Enterprise Server or GitLab Self-Managed. For details, go to [Connecting an API using an installed app](/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/#connecting-an-api-using-an-installed-app).
 
 <img alt="Adding an integration using an installed app" src="https://assets.postman.com/postman-docs/installed-apps-using-v9-25.jpg" width="520px">
 
@@ -95,6 +95,6 @@ Any team member can use an installed app when adding a [supported integration](#
 If an installed app is deleted, any integrations you added using the installed app will stop working. You must re-authenticate the affected integrations for them to continue working.
 
 * **Slack** - [Edit the Slack integration](/docs/integrations/intro-integrations/#viewing-or-editing-integrations) and select **Reauthenticate**. A browser tab opens asking you to sign in to Slack. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman. Select **Save Changes**.
-* **GitHub Enterprise Server or GitLab Self-Managed** - Add the installed app again. For details, go to [Connecting an API using an installed app](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/#connecting-an-api-using-an-installed-app).
+* **GitHub Enterprise Server or GitLab Self-Managed** - Add the installed app again. For details, go to [Connecting an API using an installed app](/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/#connecting-an-api-using-an-installed-app).
 
 <img alt="Re-authenticating an integration" src="https://assets.postman.com/postman-docs/installed-apps-reauthorize-v9-24.jpg" width="530px">
