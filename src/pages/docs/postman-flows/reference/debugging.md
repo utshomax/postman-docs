@@ -9,7 +9,7 @@ When building applications with any language (Flows included), sometimes things 
 
 * [Success and failure ports in Send Request blocks](#success-and-failure-ports-in-send-request-blocks)
 * [The output block](#the-output-block)
-* [The console](#the-console)
+* [The Console](#the-console)
 * [General tips](#general-tips)
 
 ### Success and failure ports in Send Request blocks
