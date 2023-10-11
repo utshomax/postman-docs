@@ -585,7 +585,7 @@ export const leftNavItems = [
             url: '/docs/collections/using-newman-cli/newman-options/',
           },
           {
-            name: 'Upload files',
+            name: 'Upload files with Newman',
             url: '/docs/collections/using-newman-cli/newman-file-uploads/',
           },
           {
