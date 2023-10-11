@@ -149,7 +149,7 @@ export const leftNavItems = [
         slug: '/docs/getting-started/installation/installation-and-updates/',
         subMenuItems2: [
           {
-            name: 'Installs and updates',
+            name: 'Installation and updates',
             url: '/docs/getting-started/installation/installation-and-updates/',
           },
           {
