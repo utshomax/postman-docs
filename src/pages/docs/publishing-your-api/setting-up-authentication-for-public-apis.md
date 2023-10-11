@@ -27,7 +27,7 @@ You can onboard your API consumers quickly and efficiently by setting up API aut
 
 ## Setting up API authentication
 
-Go to the [API authorization dashboard](https://go.postman.co/settings/team/api-authentication) set up API authentication for your public APIs. Select **Team > Team Settings**, then select **Set up API authorization** in the left sidebar. You can also select **API Network > Public API Network** in the Postman header to open your public profile, then select **Set up API authorization**.
+Go to the [API authorization dashboard](https://go.postman.co/settings/team/api-authentication) to set up API authentication for your public APIs. Select **Team > Team Settings**, then select **Set up API authorization** in the left sidebar. You can also select **API Network > Public API Network** in the Postman header to open your public profile, then select **Set up API authorization**.
 
 Postman supports [Bearer Token](/docs/sending-requests/authorization/authorization-types/#bearer-token), [Basic Auth](/docs/sending-requests/authorization/authorization-types/#basic-auth), [API Key](/docs/sending-requests/authorization/authorization-types/#api-key), and [OAuth 2.0](/docs/sending-requests/authorization/oauth-20/) authorization.
 
