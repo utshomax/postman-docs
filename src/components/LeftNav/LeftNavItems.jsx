@@ -473,7 +473,7 @@ export const leftNavItems = [
         slug: '/docs/writing-scripts/script-references/test-examples/',
         subMenuItems2: [
           {
-            name: 'Test scripts',
+            name: 'Script examples',
             url: '/docs/writing-scripts/script-references/test-examples/',
           },
           {
