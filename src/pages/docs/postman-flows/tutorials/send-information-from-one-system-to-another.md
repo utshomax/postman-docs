@@ -20,7 +20,7 @@ Developers often integrate multiple APIs to leverage their individual features. 
 
 * [Goal](#goal)
 * [Prerequisites](#prerequisites)
-* [Creating the Flow](#creating-the-flow)
+* [Create the Flow](#create-the-flow)
 
 ## Goal
 
