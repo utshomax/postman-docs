@@ -110,7 +110,7 @@ export const leftNavItems = [
         slug: '/docs/getting-started/basics/navigating-postman/',
         subMenuItems2: [
           {
-            name: 'Postman interface',
+            name: 'The Postman interface',
             url: '/docs/getting-started/basics/navigating-postman/',
           },
           {
