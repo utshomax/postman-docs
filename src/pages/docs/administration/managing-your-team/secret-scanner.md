@@ -45,22 +45,11 @@ The Secret Scanner is available on all Postman plans and is turned on by default
 
 ## How Secret Scanner works
 
-Postman's secret scanner follows all updates made by team members and scans them for [supported secrets](#supported-secrets). For example, a scan starts whenever team members take the following actions:
-
-* Change the workspace visibility to [public](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility).
-* Send a request to a [Community Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to make a workspace public. ([Enterprise Ultimate plans only](https://www.postman.com/pricing))
-* Share a collection or environment to a [public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/).
-* Make changes to a collection or environment that's present in a public workspace.
-* Publish an API in a public workspace.
-* Make changes to an API Definition or API Linked Collection. ([Enterprise Ultimate plans only](https://www.postman.com/pricing))
-* Write new documentation for a Postman Collection and make it public.
-* Make changes to a collection in a [team workspace](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/). ([Enterprise Ultimate plans only](https://www.postman.com/pricing))
+Postman's secret scanner follows all updates made by team members and scans them for [supported secrets](#supported-secrets).
 
 Secret Scanner is turned on by default for all Postman teams and will monitor your team's public workspaces, collections, environments, and documentation for exposed secrets. If you're on an [Enterprise Ultimate plan](https://www.postman.com/pricing), Secret Scanner will also monitor collections and APIs in your team workspaces.
 
 Postman delivers scan results in the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/). If an exposed secret is found, Postman notifies you by email and in-app notification. You can also set up Postman's [Slack integration](/docs/integrations/available-integrations/slack/) to alert you in Slack if this occurs.
-
-> **[Secret Scanner reports are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing/)**
 
 ## Secret Scanner dashboard
 
