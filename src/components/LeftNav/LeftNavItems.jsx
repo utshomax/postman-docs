@@ -365,7 +365,7 @@ export const leftNavItems = [
             url: '/docs/sending-requests/graphql/graphql-client-first-request/',
           },
           {
-            name: 'Make a HTTP call with GraphQL',
+            name: 'Make an HTTP call with GraphQL',
             url: '/docs/sending-requests/graphql/graphql-http/',
           },
         ]
