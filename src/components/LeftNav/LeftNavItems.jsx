@@ -114,7 +114,7 @@ export const leftNavItems = [
             url: '/docs/getting-started/basics/navigating-postman/',
           },
           {
-            name: 'Postman Agent',
+            name: 'The Postman Agent',
             url: '/docs/getting-started/basics/about-postman-agent/',
           },
           {
