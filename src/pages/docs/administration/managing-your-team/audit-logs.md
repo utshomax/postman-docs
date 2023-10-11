@@ -65,8 +65,11 @@ Each audit log event has the following attributes:
 | `userAgent` | A string with the user-agent of the actor. |
 | `action` | A string with an action or event performed by the actor. |
 | `timestamp` | The date and time when the action or event was performed. The time is represented using the ISO 8601 date and time format. |
-| `actor` | An object with information about the actor who performed this action. |
 | `message` | A description of the audit event. |
+| `data` | An object that holds the `actor`, `user`, `team`, and `variables` objects. |
+| `actor` | An object with information about the actor who performed this action. |
+| `user` | An object with information about the user who performed this action. |
+| `team` | An object with information about the user's or actor's team. |
 | `nextCursor` | A string that represents the cursor of the next page. |
 
 To get started, go to the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) and open the **Audit Logs** folder to view the GET request and example responses.
