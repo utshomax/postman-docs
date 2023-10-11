@@ -99,7 +99,7 @@ export const leftNavItems = [
             url: '/docs/getting-started/first-steps/exploring-public-api-network/',
           },
           {
-            name: 'Take next steps',
+            name: 'Next steps',
             url: '/docs/getting-started/first-steps/next-steps/',
           },
         ],
