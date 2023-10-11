@@ -89,12 +89,12 @@ From the proxy session tab, you can take the following actions:
 
 * Select the sort icon <img alt="Column sort icon" src="https://assets.postman.com/postman-docs/v10/icon-column-sort.jpg#icon" width="12px"> in the column headers to sort the results in ascending or descending order.
 
-* Select the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px"> in the column headers to filter the requests and responses captured during the session:
+* Select the filter icons <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px"> in the column headers to limit the requests and responses that are captured while the session is active. Postman will capture requests that match the selected criteria and will ignore requests that don't match. You can change the filters at any time during the session:
 
-    * **Status** - Show requests with the selected status codes.
-    * **Method** - Show requests with the selected methods.
-    * **URL** - Show requests with URLs that match the specified criteria. You can specify text that URLs must contain and can't contain, and you can use regular expressions. Press **Enter** to apply the specified filters. To remove a URL filter, select the remove icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the filter.
-    * **Type** - Show requests with the selected content type.
+    * **Status** - Limit captured requests to the selected status codes.
+    * **Method** - Limit captured requests to the selected methods.
+    * **URL** - Limit captured requests to URLs that match the specified criteria. You can specify text that URLs must contain and can't contain, and you can use regular expressions. Press **Enter** to apply the specified filters. To remove a filter, select the remove icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the filter.
+    * **Type** - Limit captured requests to the selected content types.
 
     > In responses with a `content-type` that has images, audio, or video, the content is intercepted but not captured. The information captured is response headers, time taken, and the status code.
 
@@ -121,6 +121,8 @@ You can view and work with the proxy session results while the session is active
 When you're finished capturing traffic, select **Stop** to end the proxy session. To view the proxy session again later, select **History** in the sidebar, then select the proxy session. You can also select <img alt="Past sessions icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> **View Past Sessions** on the proxy session tab.
 
 The **Overview** tab shows summary graphs of traffic captured in the proxy session. Use the dropdown menu to group requests by method, domain, content type, or status code. The header also displays the session start time, session size, duration, and source.
+
+To filter the list of requests, use the filter icons <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px"> in the column headers. Postman shows requests that match the selected filters and hides requests that don't match.
 
 To save captured requests to a collection, do the following:
 

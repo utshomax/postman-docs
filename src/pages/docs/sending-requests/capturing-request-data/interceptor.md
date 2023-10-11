@@ -63,10 +63,10 @@ Start an Interceptor session to capture traffic and cookies from your web browse
 
     If the message **Interceptor disconnected** appears, make sure you've [installed the Postman desktop app](/docs/getting-started/installation/installation-and-updates/) and that the Postman desktop app is open. If you're using Linux (all Postman versions), macOS (Postman v10.16 or earlier), or Windows (Postman v10.17 or earlier), make sure you've [installed Interceptor Bridge](#installing-interceptor-bridge).
 
-1. (Optional) On the **Capture Requests** tab, use the dropdown menus to limit the requests captured during the session:
+1. (Optional) On the **Capture Requests** tab, use the dropdown menus to limit the requests and responses that are captured while the session is active. Postman will capture requests that match the selected criteria and will ignore requests that don't match. You can change the filters at any time during the session:
 
     * **Methods** - Limit captured requests to the selected methods.
-    * **Domains & URL** - Limit captured requests to the domains and URLs that match the specified text. You can use regular expressions.
+    * **Domains & URL** - Limit captured requests to the domains and URLs that match the specified criteria. You can use regular expressions. Press **Enter** to apply the specified filters. To remove a filter, select the remove icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the filter.
 
 1. On the **Capture Requests** tab, select **Start Capture**.
 
@@ -92,11 +92,7 @@ You can work with the Interceptor session results in the following ways:
 * Select the **Requests** tab to view information about incoming requests and responses, or select the **Cookies** tab to view information about captured cookies.
 * Use the search box to find specific requests or cookies.
 * Select the sort icon <img alt="Column sort icon" src="https://assets.postman.com/postman-docs/v10/icon-column-sort.jpg#icon" width="12px"> in the column headers to sort the results in ascending or descending order.
-* Select the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px"> in the column headers to filter the requests and responses captured during the session:
-
-    * **Method** - Show requests with the selected methods.
-    * **URL** - Show requests with URLs that match the specified criteria. You can specify text that URLs must contain, and you can use regular expressions. Press **Enter** to apply the specified filters. To remove a URL filter, select the remove icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the filter.
-
+* Use the filter icons <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px"> in the column headers to filter the list of requests. Postman shows requests that match the selected filters and hides requests that don't match.
 * Select a request to view more details.
 * Select a request URL to open it as a new API request in Postman.
 * To delete a request or cookie, select it and select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete**.
