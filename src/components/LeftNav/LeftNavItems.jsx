@@ -623,7 +623,7 @@ export const leftNavItems = [
         slug: '/docs/postman-flows/gs/flows-overview/',
         subMenuItems2: [
           {
-            name: 'Visual API development',
+            name: 'Develop APIs with Postman Flows’,
             url: '/docs/postman-flows/gs/flows-overview/',
           },
           {
