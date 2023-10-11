@@ -983,7 +983,7 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/versioning-an-api/connecting-multiple-apis/',
           },
           {
-            name: 'Manage Git branches using Postman',
+            name: 'Manage Git changes in Postman',
             url: '/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/',
           },
           {
