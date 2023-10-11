@@ -1,0 +1,14 @@
+[
+    {
+      "key": "PMLC_TEST1_FEATURE1_V1",
+      "file": "/docs/sending-requests/authorization/oauth-20.md"
+    },
+    {
+        "key": "PMLC_TEST2_FEATURE2_V1",
+        "file": "/docs/getting-started/installation/installation-and-updates.md"
+    },
+    {
+        "key": "PMLC_TEST3_FEATURE3_V1",
+        "file": "/docs/getting-started/installation/settings.md"
+      },
+  ]
