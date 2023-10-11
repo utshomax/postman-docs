@@ -318,7 +318,7 @@ export const leftNavItems = [
         slug: '/docs/sending-requests/capturing-request-data/capture-overview/',
         subMenuItems2: [
           {
-            name: 'Capture traffic and sync cookies',
+            name: 'Capture API traffic',
             url: '/docs/sending-requests/capturing-request-data/capture-overview/',
           },
           {
