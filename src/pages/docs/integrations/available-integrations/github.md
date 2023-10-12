@@ -105,6 +105,8 @@ You can back up a Postman collection to a GitHub Enterprise Server repository on
 
 1. To finish setting up the integration, select **Add Integration**.
 
+Postman often checks your collection for changes. If Postman identifies changes when it checks your collection, the changes automatically commit to your repository in JSON format. Go to your GitHub repository to view your collections.
+
 ### Static IP support
 
 If your network is behind a firewall, you must allowlist a static IP address to enable collection backups to GitHub Enterprise Server on a custom domain.
