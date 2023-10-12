@@ -43,6 +43,7 @@ _Variables_ enable you to store and reuse values in Postman. By storing a value 
 * [Variables quick start](#variables-quick-start)
 * [Understanding variables](#understanding-variables)
 * [Variable scopes](#variable-scopes)
+* [Initial and current values](#initial-and-current-values)
 * [Variable types](#variable-types)
 * [Defining variables](#defining-variables)
 * [Using variables](#using-variables)
@@ -72,7 +73,7 @@ For example, if you have the same URL in more than one request, but the URL migh
 
 The same principle applies to any part of your request where data is repeated. Whatever value is stored in the variable will be included wherever you've referenced the variable when your requests run. If the base URL value is `https://postman-echo.com`, and is listed as part of the request URL using `{{base_url}}/get`, Postman will send the request to `https://postman-echo.com/get`.
 
-![Environment editor](https://assets.postman.com/postman-docs/v10/environment-editor-v10-10.jpg)
+![Environment editor](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
 
 <img alt="Reference Variable" src="https://assets.postman.com/postman-docs/v10/reference-var-v10.jpg" width="500px"/>
 
@@ -100,6 +101,18 @@ In order from broadest to narrowest, these scopes are: _global_, _collection_, _
 <!-- -->
 > Postman stores variables as strings. If you store objects or arrays, remember to `JSON.stringify()` them before storing, and `JSON.parse()` them when you retrieve them.
 
+## Initial and current values
+
+When you edit variables, each one has an _Initial value_ and _Current value_:
+
+* **Initial value** is a value that's set in the element (collection, environment, or globals) where the variable is defined. This value is synced to Postman's servers, and is shared with your team when you share that element. The initial value can be useful when collaborating with teammates.
+
+  Setting an initial value can be useful when sharing elements, but it's important to remember that sensitive data in an initial value will also be shared with others, and potentially with the world. Be careful setting initial values, and consider using secret variables to mask sensitive data.
+
+* **Current value** is used when sending a request. These are local values, and aren't synced to Postman's servers. If you change a current value, it won't be persisted in the original shared collection, environment, or globals.
+
+You can persist or reset current values you have changed in variables. For more information, see [sharing and persisting data](#sharing-and-persisting-data).
+
 ## Variable types
 
 Beyond scope, global and environment variables can also be defined by type. The two variable types that you can configure for global and environment variables are:
@@ -116,7 +129,7 @@ To set the variable type to secret, do the following:
 1. Select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> in the [workbench](/docs/getting-started/basics/navigating-postman/#environment-selector-and-environment-quick-look).
 1. For environment or global variables, select **Edit** to open the editor.
 
-    <img alt="Environment editor" src="https://assets.postman.com/postman-docs/v10/environment-editor-v10-10.jpg">
+    <img alt="Environment editor" src="https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg">
 
     > You can also edit an environment by navigating to the workspace it resides in and selecting **Environments** from the sidebar, then selecting your environment.
 
@@ -263,7 +276,7 @@ For instructions on how to use variables in pre-request or test scripts, see [Us
 
 You can add and edit variables at any time. All you need to include for a new variable is a name. You can choose to supply an initial value, but you can also set it later, including from [scripts](https://learning.postman.com/docs/writing-scripts/intro-to-scripts/). Use a variable's checkbox to turn it on or off.
 
-Initial values are shared when you share a collection or environment. Current values are local and not synced or shared. See [Sharing and persisting data](#sharing-and-persisting-data) for more on local versus synced variables.
+Initial values are shared when you share a collection or environment. Current values are local and not synced or shared. See [Initial and current values](#initial-and-current-values) for more on local versus synced variables.
 
 ## Using variables
 
@@ -352,7 +365,7 @@ Use the following syntax in your script to log the value of a variable:
 console.log(pm.variables.get("variable_key"));
 ```
 
-To view the results, select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** in the footer. You can also access the console by selecting **View > Show Postman Console**.
+To view the results, select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** in the footer. You can also access the Console by selecting **View > Show Postman Console**.
 
 ![Logging Variable](https://assets.postman.com/postman-docs/v10/log-var-v10.jpg)
 
@@ -364,9 +377,9 @@ For more details, see [working with data files](/docs/collections/running-collec
 
 ## Sharing and persisting data
 
-When you edit global, collection, and environment variables in Postman, there is a __Current Value__ that you can choose to __Persist__ or __Reset__ for individual variables. You can also select **Persist All** or **Reset All** to apply this setting to all variables. These enable you to control what happens within your local instance of Postman, independently of how the data is synced with anyone sharing your workspace, requests, collections, and environments.
+When you edit global, collection, and environment variables in Postman, there is a __Current value__ that you can choose to __Persist__ or __Reset__ for individual variables. You can also select **Persist All** or **Reset All** to apply this setting to all variables. These enable you to control what happens within your local instance of Postman, independently of how the data is synced with anyone sharing your workspace, requests, collections, and environments.
 
-When you create or edit a variable, you can enter both an initial and a current value. When you create a new variable in Postman, if you leave the current value empty, it will autofill with the initial value. If you specify a current value, it will be local to your instance. The __Persist__ option lets you push your current value to the shared data, updating the initial value to match the current value.
+When you create or edit a variable, you can enter both an initial and a current value. When you create a new variable in Postman, if you leave the current value empty, it will autofill with the initial value. If you specify a current value, it will be local to your instance. The __Persist__ option pushes your current value to the shared data, updating the initial value to match the current value.
 
 > If you don't have Editor access to an environment, you can't edit the initial value of an environment variable. You can edit the current value, and your edit won't be visible to anyone sharing your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 
@@ -419,4 +432,4 @@ To set a variable that's unresolved because it doesn't exist, do the following:
 
 <img alt="Set an unresolved variable" src="https://assets.postman.com/postman-docs/set-unresolved-variable-v9.jpg" width="300px"/>
 
-> Variables that are [defined programmatically in a script](#defining-variables-in-scripts) are resolved differently depending on the variable scope. This means that unresolved variables will also be handled differently. Local variables that are set programmatically using `pm.variables.set` may appear to be unresolved since they're not stored and are only used at runtime, but if they're set and used correctly the request will still run successfully. Environment, global, and collection variables that are set programmatically are saved for later use, so they will resolve if they're set and used correctly. Depending on how an unresolved variable is used in a script, you may receive a `400 Bad Request` error response from the API, or Postman may be unable to send the request at all. Open the [console](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) to help identify unresolved variables in your scripts.
+> Variables that are [defined programmatically in a script](#defining-variables-in-scripts) are resolved differently depending on the variable scope. This means that unresolved variables will also be handled differently. Local variables that are set programmatically using `pm.variables.set` may appear to be unresolved since they're not stored and are only used at runtime, but if they're set and used correctly the request will still run successfully. Environment, global, and collection variables that are set programmatically are saved for later use, so they will resolve if they're set and used correctly. Depending on how an unresolved variable is used in a script, you may receive a `400 Bad Request` error response from the API, or Postman may be unable to send the request at all. Open the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) to help identify unresolved variables in your scripts.
