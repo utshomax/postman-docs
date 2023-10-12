@@ -1,6 +1,6 @@
 ---
 title: "Test script examples"
-updated: 2023-10-04
+updated: 2023-10-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -490,10 +490,10 @@ In this example, if you get the error `AssertionError: expected undefined to dee
 
 There may be occasions where you expect a test to fail and it doesn't. Make sure your test code is syntactically correct, then resend your request.
 
+In the following example, the test is expected to fail because `true` doesn't equal `false`. The test actually passes because the `pm.test` function isn't properly defined. The `pm.test` function is missing the first parameter, which is a text string that displays in the test result output. You can learn more about [defining tests using the `pm.test` function](/docs/writing-scripts/test-scripts/#validating-responses).
+
 ```js
-/* Test function not properly defined - missing second parameter
-*/
-pm.test("Not failing", function () {
+pm.test( function () {
     pm.expect(true).to.eql(false);
 });
 ```
