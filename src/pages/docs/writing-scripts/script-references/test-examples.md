@@ -1,7 +1,6 @@
 ---
 title: "Test script examples"
-updated: 2023-09-25
-search_keyword: "pm.test, pm.expect, pm.response.json, pm.sendRequest, response.json"
+updated: 2023-10-04
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -150,9 +149,7 @@ pm.test("Body contains string",() => {
 });
 ```
 
-This doesn't tell you where the string was encountered because it carries out the test on the whole response body.
-
-Test if a response matches a string (which is typically only effective with short responses):
+This doesn't tell you where the string was encountered because it carries out the test on the whole response body. Test if a response matches a string:
 
 ```js
 pm.test("Body is string", function () {
@@ -476,7 +473,7 @@ pm.test("Test 2", () => {
 });
 ```
 
-Make sure all test code can access your variables. For example, moving `const jsonData = pm.response.json().args;` before the first `pm.test` would make it available to both test functions.
+Make sure that any code setting your response data to a variable is available to all test code. For example, in this case moving `const jsonData = pm.response.json();` before the first `pm.test` would make it available to both test functions.
 
 ### Assertion undefined error
 
