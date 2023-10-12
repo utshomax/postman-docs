@@ -1,6 +1,6 @@
 ---
 title: "Data import and export in Postman"
-updated: 2023-07-19
+updated: 2023-10-13
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -28,12 +28,14 @@ contextual_links:
     url: "https://blog.postman.com/bring-your-apis-into-postman-faster-than-ever/"
 ---
 
-Postman can import and export Postman data, including collections, environments, globals, and data dumps. Postman can also import non-Postman data in the form of API definitions to help you consolidate your API development workflow.
+Postman can import and export Postman data, including collections, environments, globals, and data dumps. Postman can also import non-Postman data in the form of API definitions to help you unify your API development workflow.
 
-* You can [import data into Postman](/docs/getting-started/importing-and-exporting/importing-data/) by dragging and dropping files, or by pasting a cURL command, raw text, or a URL. Postman automatically recognizes Postman data such as collections, environments, and data dumps. You can also import API definitions into Postman.
+* You can [import data into Postman](/docs/getting-started/importing-and-exporting/importing-data/) by dragging and dropping files, or by pasting raw text or a URL. Postman automatically recognizes Postman data such as collections, environments, and data dumps. You can also [import API definitions into Postman](/docs/designing-and-developing-your-api/importing-an-api/).
 
 * You can [import data from a Git repository](/docs/getting-started/importing-and-exporting/importing-from-git/) so you can work with it in Postman. You can import collections, environments, and API definitions from local or remote GitHub, GitLab, Bitbucket, and Azure DevOps repositories.
 
-* If you use New Relic to monitor your applications, you can [import data from New Relic](/docs/getting-started/importing-and-exporting/importing-from-new-relic/) into a Postman Collection. The endpoints in each New Relic service are imported as requests in a collection.
+* If you use New Relic to monitor your applications, you can [import endpoints from New Relic services](/docs/getting-started/importing-and-exporting/importing-from-new-relic/) into a Postman Collection. If you use Insomnia to design or test APIs, you can [export requests and collections from Insomnia](/docs/getting-started/importing-and-exporting/importing-from-insomnia/) and import the data into Postman.
+
+* You can [import a cURL command](/docs/getting-started/importing-and-exporting/importing-curl-commands/#import-a-curl-command-into-postman) as a new Postman request or [convert a Postman request to a cURL command](/docs/getting-started/importing-and-exporting/importing-curl-commands/#convert-a-postman-request-to-curl). You can also [import Swagger APIs](/docs/getting-started/importing-and-exporting/importing-from-swagger/) or [import OpenAPI definitions](/docs/integrations/available-integrations/working-with-openAPI/).
 
 * You can [export collections and environments](/docs/getting-started/importing-and-exporting/exporting-data/) from Postman as JSON files. You can also [export a data dump](/docs/getting-started/importing-and-exporting/exporting-data/#exporting-data-dumps) with all of your Postman collections, environments, globals, and header presets. After exporting, you can import the files into any Postman instance or use them with [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/).
