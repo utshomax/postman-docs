@@ -257,6 +257,8 @@ When you add team members to the Internal API Management solution:
 * All team members get access to the Private API Network.
 * Only team members added to this solution can be assigned the [API Editor](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role in Postman APIs, enabling them to create and edit an unlimited amount of APIs. Team members not added to this solution will only have the [API Viewer](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role.
 
+    > If team members are assigned the API Editor role in the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/) and you add at least one team member to the Internal API Management solution, team members not added to this solution will no longer be assigned the API Editor role. They'll only be assigned the API Viewer role.
+
 ### API Test Automation solution
 
 You can add team members to the [API Test Automation solution](https://www.postman.com/solutions/api-test-automation/) to increase their usage limits for the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/) and [monitors](/docs/monitoring-your-api/intro-monitors/).
