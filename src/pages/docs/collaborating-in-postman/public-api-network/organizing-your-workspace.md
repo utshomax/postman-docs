@@ -48,7 +48,7 @@ You can [create environments](/docs/sending-requests/managing-environments/#crea
 
 When [creating and sharing environment variables](/docs/sending-requests/managing-environments/#adding-environment-variables), specify example values as the Initial value for the variable. Don't add sensitive data as the Initial value because it's shared with users who can access the environment. The Current value is used in your local instance of Postman, and is never synced to your account or shared with your team unless you choose to persist it.
 
-![Add Environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-10.jpg)
+![Add Environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
 
 ## Writing detailed documentation
 
