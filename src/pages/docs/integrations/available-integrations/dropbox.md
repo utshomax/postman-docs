@@ -20,7 +20,7 @@ Back up and synchronize your Postman Collections on Dropbox for file sharing, st
 
 1. Search and select **Dropbox**.
 
-1. Select **Add Integration** to authorize a backup of your Postman collection. Your collection is saved as a single JSON file and uploaded to Dropbox.
+1. Select **Add Integration** to authorize a backup of your Postman Collection. Your collection is saved as a single JSON file and uploaded to Dropbox.
 
     ![dropbox add integration](https://assets.postman.com/postman-docs/dropbox-add-integration.jpg)
 

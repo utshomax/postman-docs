@@ -140,7 +140,7 @@ To invite team members to a Partner Workspace, do the following:
 
 A [Partner Manager](/docs/collaborating-in-postman/roles-and-permissions/#partner-team-and-partner-workspace-roles) can view the Partner Workspaces and collections a partner can access. A Partner Manager can also view the Workspace role partners are assigned in each workspace, and the Collection role partners are assigned in each collection. Open your [team dashboard](https://go.postman.co/settings/team/members) and select **View resources** next to a partner. Select a Partner Workspace or collection name to open it in a new tab.
 
-<img alt="View partner workspaces and roles" src="https://assets.postman.com/postman-docs/v10/view-partner-workspaces-and-roles-v10-3.jpg"/>
+<img alt="View Partner Workspaces and roles" src="https://assets.postman.com/postman-docs/v10/view-partner-workspaces-and-roles-v10-3.jpg"/>
 
 ## Collaborating in a Partner Workspace
 

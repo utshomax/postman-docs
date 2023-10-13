@@ -48,7 +48,7 @@ You can [create environments](/docs/sending-requests/managing-environments/#crea
 
 When [creating and sharing environment variables](/docs/sending-requests/managing-environments/#adding-environment-variables), specify example values as the Initial value for the variable. Don't add sensitive data as the Initial value because it's shared with users who can access the environment. The Current value is used in your local instance of Postman, and is never synced to your account or shared with your team unless you choose to persist it.
 
-![Add Environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-10.jpg)
+![Add Environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
 
 ## Writing detailed documentation
 
@@ -82,6 +82,10 @@ Save [examples](/docs/sending-requests/examples/) of your API's requests, respon
 
 ### Adding authorization details
 
-Create documentation explaining how to authorize with your API. You can mention this in the [workspace description](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#editing-workspace-details) or [documentation description](/docs/publishing-your-api/authoring-your-documentation/#adding-descriptions-to-your-documentation) if you have several API request workflows or a more complicated authorization schema. To learn more, see [Including authorization details](/docs/publishing-your-api/authoring-your-documentation/#including-authorization-details).
+You can create documentation explaining how to authorize with your API. You can mention this in the [workspace description](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#editing-workspace-details) or [documentation description](/docs/publishing-your-api/authoring-your-documentation/#adding-descriptions-to-your-documentation) if you have several API request workflows or a more complicated authorization schema. To learn more, see [Including authorization details](/docs/publishing-your-api/authoring-your-documentation/#including-authorization-details).
 
 <img alt="Authorization type in documentation" src="https://assets.postman.com/postman-docs/documentation-authorization-v8-10.jpg" width="569px">
+
+You can also [set up API authentication for your API](/docs/publishing-your-api/setting-up-authentication-for-public-apis/). This enables Postman to automatically recognize a request to your API that requires authentication, and prompt your API's consumers with steps to set it up.
+
+<img alt="Postman API set up new authorization" src="https://assets.postman.com/postman-docs/v10/easy-auth-flow-v10-2.gif"/>

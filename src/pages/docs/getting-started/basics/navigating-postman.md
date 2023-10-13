@@ -258,7 +258,7 @@ To check a variable value at a glance, use the environment quick look icon <img 
 
 ## Footer
 
-The footer on the bottom of Postman enables you to find and replace text, open the console, capture requests and cookies, and access several other tools.
+The footer on the bottom of Postman enables you to find and replace text, open the Console, capture requests and cookies, and access several other tools.
 
 <img alt="Postman footer left view" src="https://assets.postman.com/postman-docs/navigating-postman-footer-left-v9.19.jpg" width="300px"/>
 

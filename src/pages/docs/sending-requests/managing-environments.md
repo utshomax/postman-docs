@@ -84,7 +84,7 @@ To create a new environment, do the following:
 
 You can add variables to an active (currently selected) environment by opening the environment from the sidebar and editing it in the tab that opens.
 
-![Add Environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-10.jpg)
+![Add Environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
 
 Edit the variable names and values inline, or use the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to delete a variable. Enter the name and values for a new variable on a new line. __Save__ when your changes are complete.
 
@@ -94,8 +94,8 @@ Alternatively, select the environment quick look icon <img alt="Environment quic
 
 Enter a name for your variable, and specify its __Initial__ and __Current__ values. By default the current value will copy the initial value.
 
-* The __Initial Value__ is synced to your account using the Postman servers. It's shared with any collaborators who have access to the environment.
-* The __Current Value__ is used in your local instance of Postman, and is never synced to your account or shared with your team _unless you choose to persist it_.
+* The __Initial value__ is synced to your account using the Postman servers. It's shared with any collaborators who have access to the environment.
+* The __Current value__ is used in your local instance of Postman, and is never synced to your account or shared with your team _unless you choose to persist it_.
 
 To update the synced variable with your local value, set the initial value to the current value by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and choosing __Persist__. To reset your local (current) value with the synced value shared with your workspace / collaborators, select __Reset__. You can persist or reset all values in the environment using __Persist All__ and __Reset All__.
 
@@ -113,7 +113,7 @@ Here you can add, share, duplicate, download, manage access, delete, and remove 
 
 To view the variables in an environment, select its name. You can edit, add, and remove variables from the environment here. You can also use the **Filter variables** control to search for variables in the environment.
 
-![Edit environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-10.jpg)
+![Edit environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
 
 ### Selecting an active environment
 
@@ -153,9 +153,9 @@ You can edit variables either by opening an environment from __Environments__ on
 
 > You will only be able to edit environments where you have [Editor access](#requesting-environment-access).
 
-![Edit environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-10.jpg)
+![Edit environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
 
-Edit the environment name, or the names, [types](/docs/sending-requests/variables/#variable-types), and values of your variables, bearing in mind that __Initial Values__ will be synced with your Postman account and shared with any collaborators who have access to the environment. Select __Save__ when your edits are complete.
+Edit the environment name, or the names, [types](/docs/sending-requests/variables/#variable-types), and values of your variables, bearing in mind that __Initial values__ will be synced with your Postman account and shared with any collaborators who have access to the environment. Select __Save__ when your edits are complete.
 
 [![Viewer role on environment](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)
 
@@ -185,7 +185,7 @@ You can only create new variables from a script in an environment that you have 
 
 You can use environments to collaborate on shared resources and configure the visibility of sensitive data, including API secrets, passwords, tokens, and keys.
 
-In a shared workspace, any global variables you create and update will be available to others in the workspace. You can define variables as [secret type](/docs/sending-requests/variables/#variable-types) to mask the initial and current values for all workspace members and prevent unintentional disclosure of sensitive data. You can also use the __Current Value__ of global variables to restrict certain values from collaborators, but by default the __Initial Value__ of a global variable is generally accessible throughout the workspace.
+In a shared workspace, any global variables you create and update will be available to others in the workspace. You can define variables as [secret type](/docs/sending-requests/variables/#variable-types) to mask the initial and current values for all workspace members and prevent unintentional disclosure of sensitive data. You can also use the __Current Value__ of global variables to restrict certain values from collaborators, but by default the __Initial value__ of a global variable is generally accessible throughout the workspace.
 
 You can move environments to shared workspaces to collaborate with your team.
 
@@ -229,7 +229,7 @@ For more details, see [Environment roles](/docs/collaborating-in-postman/roles-a
 
 ### Using an environment in Viewer role
 
-If you have the Viewer role for an environment, you will be able to access the value of the variables to use them in your requests, but won't be able to update the __Initial Value__, which is shared with your team. You can update the __Current Value__, but this isn't shared with anyone on your team or synced with your Postman account.
+If you have the Viewer role for an environment, you will be able to access the value of the variables to use them in your requests, but won't be able to update the __Initial value__, which is shared with your team. You can update the __Current value__, but this isn't shared with anyone on your team or synced with your Postman account.
 
 If you are using sensitive data like API credentials, it's safer to use the current value of an environment variable for these. You won't be able to __Persist__ the current values to update the initial values of environment variables without edit access to the environment. You can use the __Reset__ option to update your local current values with the shared initial value at any time.
 

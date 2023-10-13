@@ -10,15 +10,15 @@ contextual_links:
   - type: section
 ---
 
-In this example of an MQTT request, you will connect to a public broker, subscribe to topics, and publish messages.
+In this example of an MQTT request, you will connect to a public broker, subscribe to topics, publish messages, and visualize the response.
 
 ## Contents
 
 - [Create an MQTT request](#create-an-mqtt-request)
-- [Connecting to a broker with Postman](#connecting-to-a-broker-with-postman)
-- [Subscribing to topics](#subscribing-to-topics)
-- [Publishing messages](#publishing-messages)
-- [Using response visualizer](#using-response-visualizer)
+- [Connect to a broker with Postman](#connect-to-a-broker-with-postman)
+- [Subscribe to topics](#subscribe-to-topics)
+- [Publish messages](#publish-messages)
+- [Visualize the response](#visualize-the-response)
 
 ## Create an MQTT request
 
@@ -26,7 +26,7 @@ In Postman, select **New > MQTT** to create a new request. (In the Postman deskt
 
   <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-new-request-v10.jpg" alt="New MQTT request" width="500px"/>
 
-## Connecting to a broker with Postman
+## Connect to a broker with Postman
 
 To connect to an MQTT service, you need a broker URL. This example uses the public broker `test.mosquitto.org`. You can also use any other public broker or a broker hosted on your local machine.
 
@@ -39,7 +39,7 @@ A message in the response area indicates that you're connected to the broker.
 
 > If you're using the Postman web app, use the Postman desktop agent to connect to an MQTT broker. See [About the Postman Agent](https://learning.postman.com/docs/getting-started/about-postman-agent/) for more information.
 
-## Subscribing to topics
+## Subscribe to topics
 
 While connected to the broker, select the **Topics** tab. This enables you to create, document, and subscribe to multiple topics.
 
@@ -50,7 +50,7 @@ You will see a message in the response area indicating that you're subscribed to
 
   <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-subscribed-v10.jpg" alt="Subscribe to a topic" width="500px"/>
 
-## Publishing messages
+## Publish messages
 
 You can use the **Message** tab to compose and send messages to the broker.
 
@@ -62,9 +62,9 @@ You will see an outgoing message in the response area indicating that the messag
 
   <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-published-v10.jpg" alt="Subscribe to a topic" width="500px"/>
 
-## Using response visualizer
+## Visualize the response
 
-Now that you've subscribed to a topic and published a few messages, you can use the response visualizer to view the messages in a more comprehensible format.
+Now that you've subscribed to a topic and published a few messages, you can use the Postman Visualizer to view the messages in a more comprehensible format.
 
 1. Switch to the **Visualization** tab in the response area. You'll see the messages for the `age` field visualized as a line chart.
 1. Select the field name dropdown to select the field you want to visualize.

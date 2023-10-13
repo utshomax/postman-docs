@@ -60,7 +60,7 @@ The Postman Browser Agent sends API requests using your browser, with some [limi
 
         > You must download, install, and then open the [Desktop Agent](#the-postman-desktop-agent) for Postman to automatically select it.
 
-    * You can also manually select the Postman agent to use for your requests:
+    * You can also manually select the Postman Agent to use for your requests:
 
         * **Cloud Agent** - Send HTTP requests using Postman's cloud servers.
         * **Desktop Agent** - Send requests using the Postman Desktop Agent.

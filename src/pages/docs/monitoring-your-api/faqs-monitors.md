@@ -60,9 +60,9 @@ The provided static IP addresses are fixed to their specified region and shared 
 
 ### How do I troubleshoot problems?
 
-For collection-based monitors, you can view the full console output for every monitor run, including any errors. You can also use methods such as `console.log()` and `console.warn()` to output your own debugging information. You can use the `console.clear()` method to clear information from the console. To learn more, see [Troubleshooting monitors](/docs/monitoring-your-api/troubleshooting-monitors/).
+For collection-based monitors, you can view the full Postman Console output for every monitor run, including any errors. You can also use methods such as `console.log()` and `console.warn()` to output your own debugging information. You can use the `console.clear()` method to clear information from the Console. To learn more, see [Troubleshooting monitors](/docs/monitoring-your-api/troubleshooting-monitors/).
 
-> For your security and privacy, Postman doesn't log request or response bodies in the console. Postman also doesn't log headers, as they may include items like cookies and authorization keys.
+> For your security and privacy, Postman doesn't log request or response bodies in the Console. Postman also doesn't log headers, as they may include items like cookies and authorization keys.
 
 ## Security
 
