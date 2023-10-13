@@ -120,7 +120,7 @@ To parse XML, use the following:
 const responseJson = xml2Json(pm.response.text());
 ```
 
-> If you're dealing with complex XML responses you may find [console logging](/docs/sending-requests/troubleshooting-api-requests/#using-the-console) useful.
+> If you're dealing with complex XML responses you may find [Console logging](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) useful.
 
 To parse CSV, use the [CSV parse](https://github.com/adaltas/node-csv/tree/master/packages/csv-parse) utility:
 
@@ -408,13 +408,13 @@ console.log(pm.collectionVariables.get("name"));
 console.log(pm.response.json().name);
 ```
 
-Log the type of a variable or response property:
+Log the type of variable or response property:
 
 ```js
 console.log(typeof pm.response.json().id);
 ```
 
-Use console logs to mark code execution, sometimes known as "trace statements":
+Use Console logs to mark code execution, sometimes known as "trace statements":
 
 ```js
 if (pm.response.json().id) {
@@ -465,7 +465,7 @@ In this example, if you get the error `AssertionError: expected undefined to dee
 
 ### Test not failing
 
-There may be occasions where you expect a test to fail and it doesn't.
+There may be occasions where you expect a test to fail, and it doesn't.
 
 ```js
 //test function not properly defined - missing second parameter
