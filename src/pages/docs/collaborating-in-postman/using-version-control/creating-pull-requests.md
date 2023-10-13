@@ -93,12 +93,13 @@ Pull request settings let you manage permissions for reviewers and assign merge 
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
 1. Select **Manage roles**.
 
-    <img alt="Collection Manage Roles" src="https://assets.postman.com/postman-docs/collection-manage-roles-v9.1.jpg" width="300px"/>
+    <img alt="Collection Manage Roles" src="https://assets.postman.com/postman-docs/v10/collection-manage-roles-v10.jpg" width="300px"/>
 
 1. Select **Editor** for the users you want to give Editor access to.
-1. Select **Update Roles**.
 
-    [![manage roles](https://assets.postman.com/postman-docs/manage-roles-collection-v9.12.jpg)](https://assets.postman.com/postman-docs/manage-roles-collection-v9.12.jpg)
+    <img alt="Manage Roles" src="https://assets.postman.com/postman-docs/v10/manage-roles-collection-v10.jpg" width="600px"/>
+
+1. Select **Update Roles**.
 
 ### Assign merge checks
 
@@ -116,7 +117,7 @@ To set merge checks for pull requests on a specific collection, do the following
 1. Select **Manage roles**.
 1. Select the merge checks that you want to set for the collection.
 
-<img alt="Merge Check" src="https://assets.postman.com/postman-docs/manage-roles-set-merge-checks.jpg" width="800px"/>
+<img alt="Merge Check" src="https://assets.postman.com/postman-docs/v10/manage-roles-set-merge-checks-v10.jpg"  width="600px"/>
 
 If the merge conditions for a pull request aren't met, the option to **Merge** it into the parent collection will be inactive.
 
