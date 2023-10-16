@@ -37,9 +37,9 @@ Postman provides a variety of options to customize your team's experience, from 
     * [Managing Partners](#managing-partners)
     * [Managing Guests](#managing-guests)
 * [Manage your team's workspaces](#manage-your-teams-workspaces)
-* [Manage your team's Enterprise solutions](#manage-your-teams-enterprise-solutions)
-    * [Internal API Management solution](#internal-api-management-solution)
-    * [API Test Automation solution](#api-test-automation-solution)
+* [Manage your team's product access](#manage-your-teams-product-access)
+    * [Manage your team's access to Postbot](#manage-your-teams-access-to-postbot)
+    * [Manage your team's access to Enterprise solutions](#manage-your-teams-access-to-enterprise-solutionss)
 * [Managing your team’s Postman plan](#managing-your-teams-postman-plan)
     * [Changing team size](#changing-team-size)
     * [Upgrading your plan](#upgrading-your-plan)
@@ -221,7 +221,22 @@ To give all team members permission to create team workspaces, do the following:
 
     <img alt="All team members can create team workspaces" src="https://assets.postman.com/postman-docs/v10/workspace-management-all-team-members-v10.jpg" width="600px"/>
 
-## Manage your team's Enterprise solutions
+## Manage your team's product access
+
+> **[Product access is available for Enterprise Essentials plans.](https://www.postman.com/pricing)**
+
+The [product access dashboard](https://go.postman.co/settings/team/products-access) enables you to manage which team members can access your team's Enterprise products: Postbot and Enterprise solutions.
+
+### Manage your team's access to Postbot
+
+As a Team Admin, you can manage [Postbot](/docs/getting-started/basics/about-postbot/) access for your team.
+
+To add team members to Postbot, do the following:
+
+1. Select **Team** in the Postman header, then select **Team Settings**.
+1. Select **Product access**, then select **Postbot**.
+
+### Manage your team's access to Enterprise solutions
 
 > **[Enterprise solutions are available for Enterprise Essentials plans.](https://www.postman.com/pricing)**
 
@@ -247,7 +262,7 @@ To remove team members from a solution, do the following:
 
     <img alt="Remove team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/enterprise-solutions-remove-members-v10.jpg"/>
 
-### Internal API Management solution
+#### Internal API Management solution
 
 You can add team members to the [Internal API Management solution](https://www.postman.com/solutions/internal-api-management/) for access to the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/), the [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/), and [API Governance](https://learning.postman.com/docs/api-governance/api-governance-overview/).
 
@@ -259,7 +274,7 @@ When you add team members to the Internal API Management solution:
 
     > If team members are assigned the API Editor role in the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/) and you add at least one team member to the Internal API Management solution, team members not added to this solution will no longer be assigned the API Editor role. They'll only be assigned the API Viewer role.
 
-### API Test Automation solution
+#### API Test Automation solution
 
 You can add team members to the [API Test Automation solution](https://www.postman.com/solutions/api-test-automation/) to increase their usage limits for the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/) and [monitors](/docs/monitoring-your-api/intro-monitors/).
 
