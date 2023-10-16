@@ -30,7 +30,7 @@ The _Collection Runner_ enables you to run a collection's requests in a specifie
 
 You can configure the Collection Runner to meet your development needs. You can run collections using a specific environment, and can pass data files into a run. Collection runs enable you to automate your functional API testing, and you can schedule runs to run in the Postman cloud with the [Collection Runner](/docs/collections/running-collections/scheduling-collection-runs/) or with [monitors](/docs/collections/running-collections/scheduling-collection-runs-monitors/). You can also integrate collection runs with your CI/CD pipeline using [the Postman CLI](/docs/postman-cli/postman-cli-overview/), a Postman tool that enables you to run and test collections directly from the command line.
 
-> You can use the Collection Runner to test the performance of your API with the same requests, collections, and environments you use for functional API tests. Learn more about [testing API performance](/docs/collections/testing-api-performance/).
+> You can use the Collection Runner to test the performance of your API with the same requests, collections, and environments you use for functional API tests. Learn more about [testing API performance](/docs/collections/performance-testing/testing-api-performance/).
 
 ## Contents
 
@@ -163,9 +163,9 @@ Hover over an item to show the following controls:
 
 ### Viewing performance runs
 
-The **Performance runs** tab shows past [performance runs](/docs/collections/testing-api-performance/) for the collection. You can view metrics for each run, including the number of virtual users (VUs), duration, total number of requests, requests per second, average response time, and error rate.
+The **Performance runs** tab shows past [performance runs](/docs/collections/performance-testing/testing-api-performance/) for the collection. You can view metrics for each run, including the number of virtual users (VUs), duration, total number of requests, requests per second, average response time, and error rate.
 
-Select the run number to view a graph and full details for the performance run. Learn more about [viewing performance metrics](/docs/collections/testing-api-performance/#viewing-performance-metrics).
+Select the run number to view a graph and full details for the performance run. Learn more about [viewing performance metrics](/docs/collections/performance-testing/performance-test-metrics/).
 
 ![Performance runs tab](https://assets.postman.com/postman-docs/v10/performance-test-past-runs-v10-15.jpg)
 
