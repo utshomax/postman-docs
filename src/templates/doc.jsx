@@ -321,7 +321,7 @@ const DocPage = ({ data }) => {
   })()
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} slug={post.fields.slug} lastModifiedTime={lastModifiedTime} />
+      <SEO title={post.frontmatter.title} slug={post.fields.slug} lastModifiedTime={lastModifiedTime} earlyAccess={post.frontmatter.early_access}/>
       <DocWrapper className="container-fluid">
         <div className="row row-eq-height">
           <nav className="col-sm-12 col-md-4 col-lg-3 left-nav-re">
@@ -390,6 +390,7 @@ export const query = graphql`
       excerpt(pruneLength: 20000)
       frontmatter {
         title
+        early_access
         contextual_links {
           type
           name
