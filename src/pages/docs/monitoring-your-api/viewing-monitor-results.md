@@ -142,13 +142,13 @@ If your monitor is configured to run in multiple regions, you can view the test 
 
 ### Console log
 
-Select **Console Log** to view monitor run details along with the [`console.log`](/docs/sending-requests/troubleshooting-api-requests/) statements that run as part of your pre-request and test scripts. Run details specify the various stages of a monitor run such as preparing run, running, rerunning ([if applicable](/docs/monitoring-your-api/setting-up-monitor/#using-retry-on-failure)), and the run result, along with error and test failure information. Selecting a request in the Console Log will open it in a tab, allowing you to review and edit the request as needed.
+Select **Console Log** to view monitor run details along with the [`console.log`](/docs/sending-requests/troubleshooting-api-requests/) statements that run as part of your pre-request and test scripts in the Postman Console. Run details specify the various stages of a monitor run such as preparing run, running, rerunning ([if applicable](/docs/monitoring-your-api/setting-up-monitor/#using-retry-on-failure)), and the run result, along with error and test failure information. Selecting a request in the Console Log will open it in a tab, allowing you to review and edit the request as needed.
 
-If your monitor is configured to run in multiple regions, you can view the console logs for a particular region by selecting it from **Region**.
+If your monitor is configured to run in multiple regions, you can view the Console logs for a particular region by selecting it from **Region**.
 
-[![console log](https://assets.postman.com/postman-docs/monitor-view-console-log0.jpg)](https://assets.postman.com/postman-docs/monitor-view-console-log0.jpg)
+[![Console log](https://assets.postman.com/postman-docs/monitor-view-console-log0.jpg)](https://assets.postman.com/postman-docs/monitor-view-console-log0.jpg)
 
-You can use this console to both troubleshoot issues and learn more about an individual run's behavior.
+You can use the Console to both troubleshoot issues and learn more about an individual run's behavior.
 
 > **Monitor run logs are retained for a period of six months.** If you select a monitor run that's outside the retention period, you can view the number of failed tests and errors. Other monitor run details will no longer be available. To request this information, contact [Postman support](https://www.postman.com/support/).
 

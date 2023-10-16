@@ -49,6 +49,8 @@ For help with any account or billing issues, go to Postman's [Support Center](ht
 
     * [Purchasing add-on resources](#purchasing-add-on-resources)
 
+    * [Purchasing add-on products](#purchasing-add-on-products)
+
     * [Using Auto-Flex](#using-auto-flex)
 
         * [Billing for Auto-Flex](#billing-for-auto-flex)
@@ -71,7 +73,7 @@ The billing overview is your billing dashboard's default view. You can view the 
 
 ### Managing resources
 
-Open the [**Resource usage** dashboard](http://go.postman.co/billing/add-ons/overview) to see your team's usage of mock servers and monitors, APIs created, collection runner runs, image and file storage, Flow steps, performance tests, integrations, and the Postman Cloud Agent. To open the **Resource usage** dashboard, do one of the following:
+Open the [**Resource usage** dashboard](http://go.postman.co/billing/add-ons/overview) to see your team's usage of resources such as mock servers and monitors, APIs created, collection runner runs, image and file storage, and other items. To open the **Resource usage** dashboard, do one of the following:
 
 * **Free users** - In the Postman header, select the menu next to **Upgrade**.
 * **Paid users** - In the Postman header, select **Team**.
@@ -201,7 +203,7 @@ You can change your team's plan and billing cycle in your [billing dashboard](ht
 To change your plan, billing frequency, team size, and add-ons, open your [billing dashboard](https://go.postman.co/billing/overview) and select **Edit Plan** on the right.
 
 1. You can adjust your billing frequency and plan type.
-1. Select **Next** to adjust your team size and add-on seats such as Flow Editor and Enterprise solutions. You can opt to apply changes right away or on renewal.
+1. Select **Next** to adjust your team size and add-on seats such as Flow Editor, Postbot, and Enterprise solutions. You can opt to apply changes right away or on renewal.
 1. Select **Next** to adjust your team's add-on resources, including monitoring blocks, mock server blocks, and custom domains.
 1. Select **Next** then **Confirm Changes**.
 
@@ -223,13 +225,19 @@ Select to pay **Monthly** or **Annual** and confirm your changes. Note that annu
 
 The base number of monitoring requests, mock server calls, Flow steps, and custom domains included in your plan depends on your [plan type](https://www.postman.com/pricing). You can enable or deactivate overages for monitoring, mock server calls, and Flows by [managing your team's resources](#managing-resources). If enabled, you will be charged on a pay-as-you-go basis. If you are on a Professional plan, you can opt to enable or deactivate pay-as-you-go overages for Flows.
 
-You can purchase more Flow Editor seats and blocks of monitoring requests, mock server calls, and custom domains by navigating to your [billing dashboard](http://go.postman.co/billing), selecting **Resource usage** on the left, then **Purchase Add-ons** on the right.
+You can purchase more blocks of monitoring requests, mock server calls, and custom domains by navigating to your [billing dashboard](http://go.postman.co/billing), selecting **Resource usage** on the left, then **Purchase Add-ons** on the right.
 
 Update the number of Flow Editor seats, monitoring blocks, mock server blocks, and custom domains you would like to have included in your team plan, then select **Next** to confirm your changes.
 
+### Purchasing add-on products
+
+You can purchase Flow Editor and Postbot seats by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and selecting **Edit Plan** on the right.
+
+Update the number of Flow Editor and Postbot seats in **Add-on products** section, then select **Next** to confirm your changes.
+
 ### Using Auto-Flex
 
-[Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. Auto-Flex applies to both plan seats and any add-on seats such as Flow Editor and Enterprise solutions. With Auto-Flex enabled, your team can [invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) users or provision add-on capabilities to your team members without having to pay in advance for more seats, then opt to retain or remove them before being [billed](#billing-for-auto-flex).
+[Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. Auto-Flex applies to both plan seats and any add-on seats such as Flow Editor, Postbot, and Enterprise solutions. With Auto-Flex enabled, your team can [invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) users or provision add-on capabilities to your team members without having to pay in advance for more seats, then opt to retain or remove them before being [billed](#billing-for-auto-flex).
 
 All [Postman Basic, Professional, and Enterprise Essentials plans](https://www.postman.com/pricing) have Auto-Flex enabled automatically.
 

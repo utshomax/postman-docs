@@ -196,7 +196,7 @@ If you give all team members permission to create team workspaces, team members 
 
 To specify users or groups who can create team workspaces, do the following:
 
-1. Select **Team** in the Postman header, then select **Workspace Management**.
+1. Select **Team > Team Settings** in the Postman header, then select **Workspace Management** in the left sidebar.
 1. Select **Specific people or groups**.
 1. Specify users or groups who can create team workspaces.
 1. Select **Save Changes**.
@@ -205,7 +205,7 @@ To specify users or groups who can create team workspaces, do the following:
 
 To remove permission to create team workspaces from users or groups, do the following:
 
-1. Select **Team** in the Postman header, then select **Workspace Management**.
+1. Select **Team > Team Settings** in the Postman header, then select **Workspace Management** in the left sidebar.
 1. Select the **Specific people or groups** section to edit it.
 1. Select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to a user or group.
 
@@ -215,7 +215,7 @@ To remove permission to create team workspaces from users or groups, do the foll
 
 To give all team members permission to create team workspaces, do the following:
 
-1. Select **Team** in the Postman header, then select **Workspace Management**.
+1. Select **Team > Team Settings** in the Postman header, then select **Workspace Management** in the left sidebar.
 1. Select **All team members**.
 1. Select **Save Changes**.
 
