@@ -83,6 +83,8 @@ To back up a collection in Microsoft Power Automate, do the following:
 
 1. Select **Add Integration**.
 
+Postman often checks your collection for changes. If Postman identifies changes when it checks your collection, the changes automatically send to Microsoft Power Automate.
+
 ### Add a collection activity feed to Microsoft Power Automate
 
 In the Postman activity feed, you can view changes your teammates make to your Postman Collection. Integrating with Microsoft Power Automate enables you to send these updates to email services like Outlook, Gmail, or a custom SMTP service. You can also set up Twilio to text you when updates are made to your feed.
