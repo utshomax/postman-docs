@@ -508,13 +508,12 @@ const schema = {
  }
 };
 
-const schemaType = schema.items.type
 const data1 = [true, false];
 const data2 = [true, 123];
 
 pm.test('Schema is valid', function() {
-  pm.expect(tv4.validate(data1, schemaType)).to.be.true;
-  pm.expect(tv4.validate(data2, schemaType)).to.be.true;
+  pm.expect(tv4.validate(data1, schema)).to.be.true;
+  pm.expect(tv4.validate(data2, schema)).to.be.true;
 });
 ```
 
