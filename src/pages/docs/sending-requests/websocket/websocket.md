@@ -51,7 +51,7 @@ You can create a WebSocket request from the sidebar in Postman.
 
 1. Select **New > WebSocket** to open a raw WebSocket request in a new tab. You can also select **New > Socket.IO** to open a Socket.IO request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**.)
 
-    <img src="https://assets.postman.com/postman-docs/v10/create-new-websocket-v10.jpg" alt="New WebSocket request" width="500px"/>
+    <img src="https://assets.postman.com/postman-docs/v10/create-new-websocket-v10-2.jpg" alt="New WebSocket request" width="500px"/>
 
 1. Enter the WebSocket server URL. A WebSocket URL begins with `ws://` or `wss://`.
 
@@ -170,7 +170,7 @@ You can change the protocol for a new request. Select **New** in the sidebar and
 
 > You can't change the request protocol after you select **Save**.
 
-![Select protocol](https://assets.postman.com/postman-docs/v10/select-protocol-v10.gif)
+![Select protocol](https://assets.postman.com/postman-docs/v10/select-protocol-v10-2.gif)
 
 ### Sending parameters
 
@@ -231,6 +231,6 @@ Socket.IO typically uses WebSockets as its transport layer, but sometimes uses H
 
 ## Troubleshooting WebSocket requests
 
-You can use the console to debug issues with a WebSocket connection. To open the console and view log messages, select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** in the Postman footer.
+You can use the Postman Console to debug issues with a WebSocket connection. To open the Console and view log messages, select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** in the Postman footer.
 
-For more information on using the console, see [Troubleshooting requests](/docs/sending-requests/troubleshooting-api-requests/).
+For more information on using the Console, see [Troubleshooting requests](/docs/sending-requests/troubleshooting-api-requests/).

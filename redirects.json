@@ -2325,7 +2325,11 @@
   },
   {
     "from": "/docs/administration/managing-your-team/configuring-domain-capture/",
-    "to": "/docs/administration/configuring-domain-capture/"
+    "to": "/docs/administration/domain-verification-and-capture/domain-capture-overview/"
+  },
+  {
+    "from": "/docs/administration/configuring-domain-capture/",
+    "to": "/docs/administration/domain-verification-and-capture/domain-capture-overview/"
   },
   {
     "from": "/docs/administration/team-settings/",
@@ -2351,16 +2355,20 @@
     "from": "/docs/administration/managing-enterprise-deployment/",
     "to": "/docs/administration/enterprise/managing-enterprise-deployment/"
   },
-  { 
+  {
     "from": "/docs/administration/billing/",
     "to": "/docs/billing/billing/"
   },
-  { 
+  {
     "from": "/docs/administration/buying/",
     "to": "/docs/billing/buying/"
   },
-  { 
+  {
     "from": "/docs/administration/resource-usage/",
     "to": "/docs/billing/resource-usage/"
+  },
+  {
+    "from": "/docs/collections/testing-api-performance/",
+    "to": "/docs/collections/performance-testing/testing-api-performance/"
   }
 ]

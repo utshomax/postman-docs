@@ -45,7 +45,7 @@ The Secret Scanner is available on all Postman plans and is turned on by default
 
 ## How Secret Scanner works
 
-Postman's secret scanner follows all updates made by team members and scans them for [supported secrets](#supported-secrets). For example, a scan starts whenever team members take the following actions:
+Postman Secret Scanner follows all updates made by team members and scans them for [supported secrets](#supported-secrets). For example, a scan starts whenever team members take the following actions:
 
 * Change the workspace visibility to [public](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility).
 * Send a request to a [Community Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to make a workspace public. ([Enterprise Ultimate plans only](https://www.postman.com/pricing))
