@@ -67,7 +67,7 @@ Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissi
 
 <img alt="Resolve detected secret" src="https://assets.postman.com/postman-docs/v10/secret-scanner-view-detected-secret-v10.18.jpg"/>
 
-Each detected secret shows where it was found, when it was detected, and who added it. To view the SHA256 hash value of a detected secret, hover over the partially hidden value under its name and select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">.
+Each detected secret shows where it was found and when it was detected. To view the SHA256 hash value of a detected secret, hover over the partially hidden value under its name and select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">.
 
 To resolve a detected secret, select **Unresolved** and then select the reason for resolving it. You can resolve a finding with the following reasons:
 
