@@ -200,7 +200,7 @@ You can change your team's plan and billing cycle in your [billing dashboard](ht
 
 ### Changing your plan
 
-To change your plan, billing frequency, team size, and add-ons, open your [billing dashboard](https://go.postman.co/billing/overview) and select **Edit Plan** on the right.
+To change your plan, billing frequency, team size, and add-ons, open your [billing dashboard](https://go.postman.co/billing/overview) and select **Edit plan** on the right.
 
 1. You can adjust your billing frequency and plan type.
 1. Select **Next** to adjust your team size and add-on seats such as Flow Editor, Postbot, and Enterprise solutions. You can opt to apply changes right away or on renewal.
@@ -231,9 +231,9 @@ Update the number of Flow Editor seats, monitoring blocks, mock server blocks, a
 
 ### Purchasing add-on products
 
-You can purchase Flow Editor and Postbot seats by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and selecting **Edit Plan** on the right.
+You can purchase Flow Editor and Postbot seats by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and selecting **Edit plan** on the right.
 
-Update the number of Flow Editor and Postbot seats in **Add-on products** section, then select **Next** to confirm your changes.
+Select **Modify Plan** under the plan type for your team. Update the number of Flow Editor and Postbot seats in **Add-on products** section, then select **Next** to confirm your changes.
 
 ### Manage Enterprise solutions licenses
 
@@ -241,7 +241,7 @@ Update the number of Flow Editor and Postbot seats in **Add-on products** sectio
 
 As a Team Admin, you can purchase Enterprise solutions licenses for your Enterprise Essentials plan, enabling you to add team members to the solution.
 
-To purchase additional licenses for a solution, [add team members to a solution](/docs/administration/managing-your-team/managing-your-team/#manage-your-teams-enterprise-solutions). You can also open your [billing dashboard](https://go.postman.co/billing/overview) and select **Edit Plan** on the right. Select **Add to plan** next to the solution you want to purchase.
+To purchase additional licenses for a solution, [add team members to a solution](/docs/administration/managing-your-team/managing-your-team/#manage-your-teams-enterprise-solutions). You can also open your [billing dashboard](https://go.postman.co/billing/overview) and select **Edit plan** on the right. Select **Add to Plan** next to the solution you want to purchase.
 
 To learn more about the added capabilities of each solution, see [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions).
 

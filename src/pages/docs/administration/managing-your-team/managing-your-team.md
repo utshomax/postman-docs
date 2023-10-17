@@ -223,18 +223,25 @@ To give all team members permission to create team workspaces, do the following:
 
 ## Manage your team's product access
 
-> **[Product access is available for Enterprise Essentials plans.](https://www.postman.com/pricing)**
-
-The [product access dashboard](https://go.postman.co/settings/team/products-access) enables you to manage which team members can access your team's Enterprise products: Postbot and Enterprise solutions.
+The [product access dashboard](https://go.postman.co/settings/team/products-access) enables you to manage which team members can access your team's products: Postbot and Enterprise solutions.
 
 ### Manage your team's access to Postbot
 
-As a Team Admin, you can manage [Postbot](/docs/getting-started/basics/about-postbot/) access for your team.
+As a Team Admin, you can manage [Postbot](/docs/getting-started/basics/about-postbot/) access for your team. When you add team members to Postbot, only added team members get full access to Postbot.
 
 To add team members to Postbot, do the following:
 
 1. Select **Team** in the Postman header, then select **Team Settings**.
 1. Select **Product access**, then select **Postbot**.
+1. To add team members to Postbot, select **Add Members**. Adding team members to a solution purchases additional seats for Postbot. Learn more about [purchasing add-on products](/docs/billing/billing/#purchasing-add-on-products).
+
+    <img alt="Add team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/product-access-postbot-v10-19.jpg"/>
+
+1. Select team members you'd like to add to the solution, then select **Add Members**.
+
+To remove team members from Postbot, hover over a team member's name, and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
+
+<img alt="Remove team members from Postbot" src="https://assets.postman.com/postman-docs/v10/product-access-postbot-remove-members-v10-19.jpg"/>
 
 ### Manage your team's access to Enterprise solutions
 
@@ -247,20 +254,15 @@ To add team members to a solution, do the following:
 1. Select **Team** in the Postman header, then select **Team Settings**.
 1. Select **Product access**.
 1. Select the Enterprise solution you'd like to manage: **Internal API Management** or **API Test Automation**.
-1. To add team members to a solution, select **Add Members**. Adding members to a solution purchases an additional license for that solution. Learn more about [managing Enterprise solutions licenses](/docs/billing/billing/#manage-enterprise-solutions-licenses).
+1. To add team members to a solution, select **Add Members**. Adding team members to a solution purchases additional licenses for that solution. Learn more about [managing Enterprise solutions licenses](/docs/billing/billing/#manage-enterprise-solutions-licenses).
 
     <img alt="Add team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/enterprise-solutions-add-members-v10.jpg"/>
 
 1. Select team members you'd like to add to the solution, then select **Add Members**. Learn more about the benefits of adding team members to the [Internal API Management](#internal-api-management-solution) and [API Test Automation](#api-test-automation-solution) solutions.
 
-To remove team members from a solution, do the following:
+To remove team members from a solution, hover over a team member's name, and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
 
-1. Select **Team** in the Postman header, then select **Team Settings**.
-1. Select **Product access**.
-1. Select the Enterprise solution you'd like to remove team members from: **Internal API Management** or **API Test Automation**.
-1. Hover over a team member's name, and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
-
-    <img alt="Remove team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/enterprise-solutions-remove-members-v10.jpg"/>
+<img alt="Remove team members from Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/enterprise-solutions-remove-members-v10.jpg"/>
 
 #### Internal API Management solution
 
