@@ -81,7 +81,7 @@ You can schedule a run for the requests in a [collection](/docs/collections/usin
 
     ![Hover and select View v10](https://assets.postman.com/postman-docs/v10/scr-hover-select-view-v10.gif)
 
-1. Each column in the graph represents an individual run. Select a column to see test results and the console log for that run. For more information see [Viewing scheduled collection runs](/docs/collections/running-collections/viewing-scheduled-collection-runs/).
+1. Each column in the graph represents an individual run. Select a column to see test results and the Console log for that run. For more information see [Viewing scheduled collection runs](/docs/collections/running-collections/viewing-scheduled-collection-runs/).
 
     ![Scheduled runs view results v10](https://assets.postman.com/postman-docs/v10/view-scheduled-run-results-2-v10.jpg)
 

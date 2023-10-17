@@ -54,6 +54,13 @@ jobs:
           npm run clean
           npm run build:prod 
           aws s3 sync ./public/ s3://${{secrets.PROD_BUCKET_NAME}}/main/ --delete
+
+      - name: Sync page-data.json files to marketing website s3 bucket
+        env:
+          AWS_MAX_ATTEMPTS: 10
+        run: |
+          aws s3 sync ./public/page-data/ s3://${{secrets.PROD_WWW_BUCKET_NAME}}/control/mkapi/learning-center
+          aws cloudfront create-invalidation --distribution-id ${{secrets.PROD_WWW_DIST_ID}} --paths "/mkapi/learning-center/*"  
       
       - name: invalidate the CDN
         uses: chetan/invalidate-cloudfront-action@v2
