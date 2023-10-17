@@ -137,13 +137,13 @@ Select **Advanced Options** to customize the token:
 
 When the configuration is complete, select __Get New Access Token__. The configuration information is saved along with the access token and will be used every time the token is refreshed.
 
-> When you use __Authorization code__ or __Implicit__ grant type, you will be prompted to supply your credentials to retrieve an access token to use in later requests. By default Postman will display a pop-up window when you select __Request Token__. If you are using the Postman desktop app, you can instead choose to authenticate using your system's default web browser. Select __Authorize using browser__ to set the __Callback URL__ to return to Postman after you complete auth in the browser, so that your requests can use the token returned on successful authentication.
+> When you use __Authorization code__ or __Implicit__ grant type, you will be prompted to supply your credentials to retrieve an access token to use in later requests. By default, Postman will display a pop-up window when you select __Request Token__. If you are using the Postman desktop app, you can instead choose to authenticate using your system's default web browser. Select __Authorize using browser__ to set the __Callback URL__ to return to Postman after you complete auth in the browser, so that your requests can use the token returned on successful authentication.
 
 A token from the API includes its details, together with the expiry, and optionally a refresh token you can use to retrieve a new access token when your current one expires. Select **Proceed** and then select __Use Token__ to use the returned token.
 
 Any successfully retrieved tokens will be listed in the request __Available Tokens__ dropdown list. Select one to send with your request. Select __Manage Tokens__ in the dropdown list to view more details or delete your tokens.
 
-If authentication fails or times out, Postman will display an error message. You can check the error details in the console, __Retry__ to try authentication again, or edit your auth details before continuing.
+If authentication fails or times out, Postman will display an error message. You can check the error details in the Postman Console, __Retry__ to try authentication again, or edit your auth details before continuing.
 
 > Deleting a token in Postman doesn't revoke access. Only the server that issues the token can revoke it.
 

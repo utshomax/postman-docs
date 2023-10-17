@@ -2366,5 +2366,9 @@
   {
     "from": "/docs/administration/resource-usage/",
     "to": "/docs/billing/resource-usage/"
+  },
+  {
+    "from": "/docs/collections/testing-api-performance/",
+    "to": "/docs/collections/performance-testing/testing-api-performance/"
   }
 ]
