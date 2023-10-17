@@ -1,6 +1,6 @@
 ---
 title: "Import data into Postman"
-updated: 2023-07-19
+updated: 2023-10-17
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -28,52 +28,45 @@ contextual_links:
     url: "https://blog.postman.com/bring-your-apis-into-postman-faster-than-ever/"
 ---
 
-You can import collections, API specifications, and data files directly into Postman.
+You can import collections, API definitions, and other data files so you can work with them in Postman.
 
-To import your data into Postman, select **Import** in the upper left. The **Import** modal opens.
+To import your data into Postman, select **Import** in the sidebar. You can import your data from files, folders, cURL commands, raw text, or URLs. You can also import data from other sources such as code repositories, API gateways, and application performance management tools.
 
 ![Import data into Postman](https://assets.postman.com/postman-docs/v10/import-export-import-ui-v10-17.jpg)
-
-You can import your data from files, folders, links, raw text, or code repositories.
 
 > You can also import items by dragging and dropping files or folders onto the sidebar.
 
 ## Contents
 
-* [Importing with cURL commands](#importing-with-curl-commands)
 * [Importing Postman data](#importing-postman-data)
     * [Converting Postman collections from v1 to v2](#converting-postman-collections-from-v1-to-v2)
+* [Importing with cURL commands](#importing-with-curl-commands)
 * [Importing API definitions](#importing-api-definitions)
 
-## Importing with cURL commands
+## Import Postman data
 
-You can use cURL commands to import data.
+You can import Postman data that you [exported](/docs/getting-started/importing-and-exporting/exporting-data/) earlier, including collections, environments, data dumps, and globals. Postman will automatically recognize Postman data on import.
 
-1. Select **Import** in the left navigation menu. The **Import** modal opens.
-1. Paste your cURL command into the input field at the top. Postman creates and opens a request automatically.
-
-    > You can also paste cURL commands into a request's URL field. For more information about working with cURL commands in Postman, read [Importing cURL commands](/docs/getting-started/importing-and-exporting/importing-curl-commands/).
-
-## Importing Postman data
-
-You can import Postman data you exported earlier, including collections, environments, data dumps, and globals.
-
-1. Select **Import** in the left navigation menu.
+1. Select **Import** in the sidebar.
 1. Do one of the following:
-    * Select your file or folder, or drag it into the **Import** modal.
+    * Select your file or folder, or drag it into Postman.
     * Paste your raw text or URL into the input field.
-    * Select a button to import from [GitHub](/docs/getting-started/importing-and-exporting/importing-from-git/#importing-from-github-repositories), [AWS API Gateway](/docs/designing-and-developing-your-api/importing-an-api/#importing-api-definitions-from-amazon-api-gateway), or [New Relic](/docs/getting-started/importing-and-exporting/importing-from-new-relic/).
-    * Select **Other Sources** to import from a [Bitbucket](/docs/getting-started/importing-and-exporting/importing-from-git/#importing-from-bitbucket-repositories), [GitLab](/docs/getting-started/importing-and-exporting/importing-from-git/#importing-from-gitlab-repositories), or [Azure](/docs/getting-started/importing-and-exporting/importing-from-git/#importing-from-azure-devops-repositories) code repository. You can also import an API from [Azure API Management](/docs/designing-and-developing-your-api/importing-an-api/#importing-api-definitions-from-azure-api-management).
-
-    Postman will automatically recognize Postman data, confirming the name, format, and type.
+    * Select a button to import from [GitHub](/docs/getting-started/importing-and-exporting/importing-from-git/#import-from-a-remote-git-repository), [AWS API Gateway](/docs/designing-and-developing-your-api/importing-an-api/#importing-api-definitions-from-amazon-api-gateway), or [New Relic](/docs/getting-started/importing-and-exporting/importing-from-new-relic/).
+    * Select **Other Sources** to import from a [Bitbucket, GitLab, or Azure](/docs/getting-started/importing-and-exporting/importing-from-git/#import-from-a-remote-git-repository) code repository. You can also import an API from [Azure API Management](/docs/designing-and-developing-your-api/importing-an-api/#importing-api-definitions-from-azure-api-management).
 
    ![Import collection and environment](https://assets.postman.com/postman-docs/v10/import-elements-v10.jpg)
 
-1. If you are importing multiple files, select the files you want to import and select **Import** to bring your data into Postman.
+1. Postman will automatically recognize Postman data on import. Confirm the name, format, and type:
 
-    > If you are importing a single file, Postman automatically imports it when you select it.
+    * If you are importing multiple files, select the files you want to import, then select **Import**.
 
-### Converting Postman collections from v1 to v2
+    * If you are importing a single file, Postman automatically imports it when you select it.
+
+1. An **Import Complete** message displays in the footer. In the message, select the link icon <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-external-link.jpg#icon" width="18px"> next to a collection or environment to open the imported element.
+
+    <img alt="Import complete message" src="https://assets.postman.com/postman-docs/v10/import-complete-message-v10-19.jpg" width="697px" />
+
+### Convert Postman collections from v1 to v2
 
 Postman no longer supports the collection v1 format and will return an error if you import a collection in this format. You can convert your collection's format from v1 to v2 to import it into Postman.
 
@@ -100,6 +93,15 @@ You can retrieve a list of convert options by running the command with the `-h` 
    ```
 
 See the [Postman Collection Transformer](https://github.com/postmanlabs/postman-collection-transformer) for more information on the collection conversion.
+
+## Import from cURL commands
+
+You can use cURL commands to import data.
+
+1. Select **Import** in the left navigation menu. The **Import** modal opens.
+1. Paste your cURL command into the input field at the top. Postman creates and opens a request automatically.
+
+    > You can also paste cURL commands into a request's URL field. For more information about working with cURL commands in Postman, read [Importing cURL commands](/docs/getting-started/importing-and-exporting/importing-curl-commands/).
 
 ## Importing API definitions
 

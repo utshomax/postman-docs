@@ -65,9 +65,7 @@ You can import data from a remote GitHub, Bitbucket, GitLab, or Azure DevOps rep
 
 1. In Postman, select the **Organization** or **Workspace** and the **Repository** you want to import from. (For GitLab, select the **Group** and **Project**.) Then select the **Branch** with the data you want to import.
 
-1. Select the **Branch** with the data you want to import and select **Continue**,
-
-1. Select options based on what you're importing:
+1. Select **Continue**, then select options based on what you're importing:
 
    * If you're importing an API definition, you can choose to import the definition as a collection or as an API along with a collection.
 
