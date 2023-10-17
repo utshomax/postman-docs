@@ -37,6 +37,6 @@ To sign in to Postman with SSO, do the following:
 
 1. Postman will redirect you to the configured IdP. Enter your SSO details to sign in.
 
-    > The first time you sign in to Postman, you may need to carry out extra steps to set up access to your IdP account. Sign in using SSO and follow the steps to [link your IdP account to Postman](/docs/getting-started/installation/postman-account/#linking-your-account-to-postman).
+    > When you sign in to Postman with SSO for the first time, and use an email address associated with an existing account, you may need to link your identity provider (IdP) account to Postman. This is required if your email address doesn't use a domain or subdomain that your organization has [verified](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/). Sign in using SSO and follow the steps to [link your IdP account to Postman](/docs/getting-started/installation/postman-account/#linking-your-account-to-postman).
 
 > If you're a member of multiple Postman teams with varying authentication methods, you must sign in to those teams separately. To do so, select your avatar in the upper-right corner, then select the team to proceed.
