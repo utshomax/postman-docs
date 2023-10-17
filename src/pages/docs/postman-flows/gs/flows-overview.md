@@ -49,17 +49,17 @@ You can also deploy your Flow and run them in the cloud. Webhooks enable you to 
 
 Flows are the ultimate way to take data from an API-enabled product, manipulate it to meet your needs, and see the results. Or you could take data from one API-enabled product, make decisions or process the data, then send it to another API-enabled product. This means you can build real-time integrations between two API-enabled products.
 
-Check out these Flows Workspaces filled with examples:
+Try these workspaces featuring Flow examples:
 
-* [Business Flows](https://www.postman.com/postman/workspace/business-flows)
-* [Integration Flows](https://www.postman.com/postman/workspace/integration-flows)
-* [Natural Language Processing (NLP) Flows](https://www.postman.com/postman/workspace/natural-language-processing-nlp-flows)
-* [Slack Integration Flows](https://www.postman.com/postman/workspace/slack-integration-flows)
-* [DevOps Flows](https://www.postman.com/postman/workspace/devops-flows)
-* [Utility Flows](https://www.postman.com/postman/workspace/utility-flows)
-* [Miscellaneous Flows](https://www.postman.com/postman/workspace/miscellaneous-flows)
+* [Business Flows](https://www.postman.com/postman/workspace/business-flows/flows)
+* [Integration Flows](https://www.postman.com/postman/workspace/integration-flows/flows)
+* [Natural Language Processing (NLP) Flows](https://www.postman.com/postman/workspace/natural-language-processing-nlp-flows/flows)
+* [Slack Integration Flows](https://www.postman.com/postman/workspace/slack-integration-flows/flows)
+* [DevOps Flows](https://www.postman.com/postman/workspace/devops-flows/flows)
+* [Utility Flows](https://www.postman.com/postman/workspace/utility-flows/flows)
+* [Miscellaneous Flows](https://www.postman.com/postman/workspace/miscellaneous-flows/flows)
 
-These workspaces include example Flows utilizing a multitude of APIs for different products and tools, plus all the related collections and environments needed. You can [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) the Flows to your own workspace, try them out, and then make your own changes and customizations.
+These Flow examples include multiple APIs for different products and tools as well as the related collections and environments. You can [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) the Flows to your own workspace, try them out, and then make your own changes and customizations.
 
 > Postman Flows is free to try on the Free plan for up to three users. Postman Flows is available as an add-on to the [Basic and Professional plans](https://www.postman.com/pricing/). Postman Flows isn't currently available in the Enterprise plan.
 
@@ -73,7 +73,7 @@ To get started, check out the following resources:
 
 * [Navigating a Flow and the Flows interface](/docs/postman-flows/gs/the-flows-interface/)
 * [First Flows concept: blocks and connections](/docs/postman-flows/concepts/blocks-and-connections/)
-* [Flows Snippets: examples for how to use every block](https://www.postman.com/postman/workspace/flows-snippets/)
+* [Flows Snippets: examples for how to use every block](https://www.postman.com/postman/workspace/flows-snippets/flows)
 
 ## Contribute
 
