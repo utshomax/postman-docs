@@ -73,6 +73,8 @@ Once the integration has been created, you can view the integration you created 
    * Enter the webhook URL your webhook payload will be sent to.
 1. Select **Add Integration**.
 
+Postman often checks your collection for changes. If Postman identifies changes when it checks your collection, the changes automatically send to your custom webhook.
+
 ### Example collection backup schema
 
 The following is a schema for the **Backup a collection** webhook:
