@@ -13,7 +13,7 @@ contextual_links:
 
 You can add and manage certificates in Postman to enable authentication when sending requests.
 
-To connect to an API that uses Mutual TLS (mTLS), you need to add a client certificate to Postman. Mutual TLS is an authentication method that requires both the client and the server to confirm their identity with a certificate. Once the identify of both parties is confirmed, an encrypted connection is established.
+To connect to an API that uses Mutual TLS (mTLS), you need to add a client certificate to Postman. Mutual TLS is an authentication method that requires both the client and the server to confirm their identity with a certificate. Once the identity of both parties is confirmed, an encrypted connection is established.
 
 You can also add a custom CA certificate to Postman. If an endpoint uses a certificate that's registered with an internal certificate registry, requests sent from Postman will fail with a "self signed certificate" error. Adding a custom CA certificate will enable you to send requests to the endpoint without needing to [turn off SSL verification](#troubleshooting-certificate-errors).
 
@@ -90,7 +90,7 @@ You can confirm that a certificate was sent using the [Postman Console](/docs/se
 
 In the example below, Postman sent the certificate because the request used `https://`. You can expand the request to view details about the certificate that was sent with the request.
 
-![Certificate details in console](https://assets.postman.com/postman-docs/certificates-console-details-v9-14.jpg)
+![Certificate details in the Console](https://assets.postman.com/postman-docs/certificates-console-details-v9-14.jpg)
 
 ### Viewing certificate details
 
