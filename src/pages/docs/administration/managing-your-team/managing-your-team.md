@@ -39,7 +39,7 @@ Postman provides a variety of options to customize your team's experience, from 
 * [Manage your team's workspaces](#manage-your-teams-workspaces)
 * [Manage your team's product access](#manage-your-teams-product-access)
     * [Manage your team's access to Postbot](#manage-your-teams-access-to-postbot)
-    * [Manage your team's access to Enterprise solutions](#manage-your-teams-access-to-enterprise-solutionss)
+    * [Manage your team's access to Enterprise solutions](#manage-your-teams-access-to-enterprise-solutions)
 * [Managing your team’s Postman plan](#managing-your-teams-postman-plan)
     * [Changing team size](#changing-team-size)
     * [Upgrading your plan](#upgrading-your-plan)
