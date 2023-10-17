@@ -85,7 +85,7 @@ To integrate with GitHub, you need a GitHub personal access token.
 
 1. To finish setting up the integration, select **Add Integration**.
 
-Every change saved to your Postman Collection automatically commits changes to your GitHub repository in JSON format. Go to your GitHub repository to view your collections.
+Postman often checks your collection for changes. If Postman identifies changes when it checks your collection, the changes automatically commit to your repository in JSON format. Go to your GitHub repository to view your collections.
 
 <img alt="Collection backup in GitHub" src="https://assets.postman.com/postman-docs/v10/integrations-github-repo-v10.jpg" />
 
@@ -104,6 +104,8 @@ You can back up a Postman Collection to a GitHub Enterprise Server repository on
 1. Configure the integration with your collection, repository, directory, file name, and branch.
 
 1. To finish setting up the integration, select **Add Integration**.
+
+Postman often checks your collection for changes. If Postman identifies changes when it checks your collection, the changes automatically commit to your repository in JSON format. Go to your GitHub repository to view your collections.
 
 ### Static IP support
 
