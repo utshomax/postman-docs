@@ -16,7 +16,7 @@ contextual_links:
     url: "https://blog.postman.com/bring-your-apis-into-postman-faster-than-ever/"
 ---
 
-If you have [collections](/docs/collections/using-collections/), [environments](/docs/sending-requests/managing-environments/), or [API definitions](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/) in a Git repository, you can import the data so you can work with it in Postman.
+If you have [API definitions](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/), [collections](/docs/collections/using-collections/), or [environments](/docs/sending-requests/managing-environments/) in a Git repository, you can import the data so you can work with it in Postman.
 
 Postman supports importing from GitHub, BitBucket, GitLab, and Azure DevOps repositories. You can import data from a local repository on your computer or from a remote repository hosted in the cloud.
 
@@ -33,23 +33,23 @@ You can import data from a local GitHub, BitBucket, GitLab, or Azure DevOps repo
 
 1. In Postman, select **Import** in the sidebar.
 
-1. On your computer, open your local repository and locate the files or folders you want to import into Postman. Drag and drop the files or folders into the **Import** box.
+1. On your computer, open your local repository and locate the files or folders you want to import. Drag and drop the files or folders into Postman.
 
 1. Select options based on what you're importing:
 
    * If you're importing an API definition, you can choose to import the definition as a collection or as an API along with a collection.
 
-      SCREENSHOT
+      <img alt="API definition import options" src="https://assets.postman.com/postman-docs/v10/import-definition-options-v10-19.jpg" width="651px" />
 
    * If you're importing an API definition along with other files such as collections or environments, select the files you want to import into Postman. By default, API definitions are imported as collections. Select the **Import (API specification) files** checkbox to import the definition as an API along with a collection.
 
-      ![Confirm import from GitHub](https://assets.postman.com/postman-docs/v10/import-export-github-files-confirm-1-v10.jpg)
+      <img alt="File import options" src="https://assets.postman.com/postman-docs/v10/import-files-options-v10-19.jpg" width="651px" />
 
 1. Select **Import**.
 
 1. An **Import Complete** message displays in the footer. In the message, select the link icon <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-external-link.jpg#icon" width="18px"> next to a collection, environment, or API  to open the imported element.
 
-   <img alt="Get a New Relic Ingest key" src="https://assets.postman.com/postman-docs/v10/new-relic-import-success-v10-17.jpg" width="583px">
+      <img alt="Import complete message" src="https://assets.postman.com/postman-docs/v10/import-complete-message-v10-19.jpg" width="697px" />
 
 ## Import from a remote Git repository
 
