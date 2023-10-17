@@ -78,7 +78,7 @@ To get started, go to the [Postman API](https://www.postman.com/postman/workspac
 
 ## Logged events
 
-Postman logs events related to your [team](#team-event-examples), [users](#user-event-examples), and [billing](#billing-event-examples). You can find descriptions of each event in the Audit Logs dashboard. Some examples are listed here.
+Postman logs events related to your [team](#team-event-examples), [users](#user-event-examples), and [billing](#billing-event-examples). You can find descriptions of each event in the [Audit Logs dashboard](https://go.postman.co/audit). Some examples are listed here.
 
 ### Team event examples
 
