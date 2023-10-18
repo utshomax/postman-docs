@@ -61,7 +61,7 @@ You can configure Microsoft Power Automate with Postman to monitor run results, 
 
 1. There are four available Microsoft Power Automate integrations:
 
-    * [Backup a collection](#back-up-your-postman-collections-in-microsoft-power-automate) - Backup a Postman collection in Microsoft Power Automate.
+    * [Back up a collection](#back-up-your-postman-collections-in-microsoft-power-automate) - Back up a Postman Collection in Microsoft Power Automate.
     * [Post collection activity](#add-a-collection-activity-feed-to-microsoft-power-automate) - Send your collection [activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#accessing-the-activity-feed-from-postman) to Microsoft Power Automate.
     * [Post monitoring results](#send-monitor-run-results-in-microsoft-power-automate) - Configure a monitor run to trigger Microsoft Power Automate.
     * [Post team activity](#add-a-team-activity-feed-to-microsoft-power-automate) - Send your team's [activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#accessing-the-activity-feed-from-postman) to Microsoft Power Automate.
@@ -82,6 +82,8 @@ To back up a collection in Microsoft Power Automate, do the following:
     * **Notification URL** - Your notification URL.
 
 1. Select **Add Integration**.
+
+Postman often checks your collection for changes. If Postman identifies changes when it checks your collection, the changes automatically send to Microsoft Power Automate.
 
 ### Add a collection activity feed to Microsoft Power Automate
 

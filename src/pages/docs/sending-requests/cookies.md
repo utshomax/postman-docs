@@ -41,16 +41,16 @@ To manage cookies in Postman, open a request, then select **Cookies** (under **S
 
 ![cookies link](https://assets.postman.com/postman-docs/v10/cookies-link-v10.jpg)
 
-The **Manage Cookies** window displays a list of domains and the cookies associated with each one. If you want to view cookies for a domain that isn't present in the list, you can [add a domain](#adding-a-domain).
+The **Manage Cookies** window displays a list of domains and the cookies associated with each one. If you want to view cookies for a domain that isn't present in the list, you can [add a domain](#adding-a-domain). To remove all cookies and domains from the cookie jar, select **Clear All Cookies**.
 
-<img alt="Managing cookies" src="https://assets.postman.com/postman-docs/manage-cookies-v9-14.jpg" width="848px"/>
+<img alt="Managing cookies" src="https://assets.postman.com/postman-docs/v10/manage-cookies-v10.jpg" width="848px"/>
 
 ### Creating cookies
 
 To add a new cookie for a domain, select **+ Add Cookie**. A pre-generated cookie string compliant with [HTTP State Management standards](https://datatracker.ietf.org/doc/html/rfc6265#section-4.1) is created.
 
 ```js
-<cookieName>=<cookieValue>; path=/; domain=.domain.com; HttpOnly; Secure; Expires=Tue, 19 Jan 2038 03:14:07 GMT;
+Cookie_1=value; Path=/; Expires=Wed, 09 Oct 2024 21:49:26 GMT;
 ```
 
 Postman supports the following attributes:
