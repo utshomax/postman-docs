@@ -1,6 +1,6 @@
 ---
 title: "Import data from a Git repository"
-updated: 2023-10-17
+updated: 2023-10-18
 contextual_links:
   - type: section
     name: "Additional resources"

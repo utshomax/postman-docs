@@ -1,6 +1,6 @@
 ---
 title: "Import data into Postman"
-updated: 2023-10-17
+updated: 2023-10-18
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -50,7 +50,7 @@ You can import Postman data that you [exported](/docs/getting-started/importing-
 1. Select **Import** in the sidebar.
 1. Do one of the following:
     * Select your file or folder, or drag it into Postman.
-    * Paste your raw text or URL into the input field.
+    * Paste your raw text or URL into the box.
     * Select a button to import from [GitHub](/docs/getting-started/importing-and-exporting/importing-from-git/#import-from-a-remote-git-repository), [AWS API Gateway](/docs/designing-and-developing-your-api/importing-an-api/#importing-api-definitions-from-amazon-api-gateway), or [New Relic](/docs/getting-started/importing-and-exporting/importing-from-new-relic/).
     * Select **Other Sources** to import from a [Bitbucket, GitLab, or Azure](/docs/getting-started/importing-and-exporting/importing-from-git/#import-from-a-remote-git-repository) code repository. You can also import an API from [Azure API Management](/docs/designing-and-developing-your-api/importing-an-api/#importing-api-definitions-from-azure-api-management).
 
