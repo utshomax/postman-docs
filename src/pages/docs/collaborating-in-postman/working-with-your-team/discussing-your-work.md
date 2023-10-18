@@ -31,6 +31,8 @@ You can add comments to a collection in Postman. You can also add comments to re
 
 > You must have access to a collection to add comments to it.
 
+<!-- -->
+
 > Postman supports Markdown in comments. See the [Markdown Cheatsheet on GitHub](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for tips on formatting.
 
 To add a comment to a collection, folder, or request, do the following:
