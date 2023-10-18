@@ -35,7 +35,7 @@ To share a collection to a public workspace using the Postman API, do the follow
 
 1. [Create a collection](/docs/collections/using-collections/#creating-collections) (source collection) in a non-public workspace, and create another collection (destination collection) in a public workspace that's available on the Public API Network.
 
-    Then get the collection IDs for both collections. Select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar, and copy the collection IDs for later use.
+1. Get the collection IDs for both collections. Select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar, and copy the collection IDs.
 
 1. [Get a Postman API key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key) in the team where your source collection is stored. If the destination collection is in a different team, you must also get a Postman API key in that team.
 1. Create a `GET` request to a collection in a non-public workspace that you want to publish. The request returns a collection object in the response body. The object contains details about the source collection you can use to publish it.
