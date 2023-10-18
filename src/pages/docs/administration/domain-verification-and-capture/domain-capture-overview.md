@@ -13,7 +13,9 @@ contextual_links:
 
 > **[Domain verification is available on Postman Enterprise plans. Domain capture is available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
-Domain capture consolidates all of the Postman user accounts that exist within your organization into one team. When you enable it, any accounts associated with the verified internet domain or subdomain will only be able to use Postman within your team. Moving forward, any Postman users who sign up for a new account with the relevant domain will be automatically added to your team as new members.
+[Domain verification](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/) enables Postman to trust your team and its connection to your organization. When you add and verify a domain or subdomain, users with your verified domain are automatically directed to join your team when they authenticate into Postman. Domain verification is one of the [prerequisites for enabling domain capture](#prerequisites-for-domain-capture).
+
+[Domain capture](/docs/administration/domain-verification-and-capture/enable-domain-capture/) consolidates all of the Postman user accounts that exist within your organization into one team. When you enable it, any accounts associated with the verified internet domain or subdomain will only be able to use Postman within your team. Moving forward, any Postman users who sign up for a new account with the relevant domain will be automatically added to your team as new members.
 
 ## Contents
 
@@ -45,9 +47,9 @@ It's recommended that you enable [SCIM provisioning](/docs/administration/scim-p
 
 ## Set up domain capture
 
-To set up domain capture:
+To set up domain capture, do the following:
 
-1. [Add and verify a domain](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/)
-2. [Enable domain capture](/docs/administration/domain-verification-and-capture/enable-domain-capture/)
+1. [Add and verify a domain](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/).
+2. [Enable domain capture](/docs/administration/domain-verification-and-capture/enable-domain-capture/).
 
 For more information on domain verification and account capture, see [Domain capture support and FAQs](/docs/administration/domain-verification-and-capture/domain-capture-faqs/).

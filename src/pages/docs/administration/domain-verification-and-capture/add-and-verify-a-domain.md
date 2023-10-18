@@ -13,7 +13,9 @@ contextual_links:
 
 > **[Domain verification is available on Postman Enterprise plans. Domain capture is available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
-To set up domain capture, you'll first need to add and verify your organization's domain or subdomain. You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to add and verify a domain in Postman.
+As a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can add and verify a domain or subdomain in Postman.
+
+Domain verification is one of the [prerequisites for enabling domain capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/#prerequisites-for-domain-capture).
 
 ## Contents
 
@@ -33,7 +35,9 @@ To set up domain capture, you'll first need to add and verify your organization'
 
 Adding and verifying a domain enables Postman to implicitly trust your team and its connection to your organization. It's required to turn on [domain capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/#why-should-my-organization-enable-domain-capture-in-postman), but it also improves the onboarding process as you continue to grow your Postman team.
 
-Without a verified domain, individual accounts that you invite to your team are given the option to join or dismiss the invite. If they choose to join, they're also required to reauthenticate prior to accessing the team. By verifying your organization's domain, it removes the friction of adding users who have already verified their email addresses with the relevant domain when they created Postman accounts. Postman will no longer require users' permission to join your team, letting you instantly provide new teammates with all of the resources they’ll need to be successful contributors.
+Without a verified domain, individual accounts that you invite to your team are given the option to join or dismiss the invite. If they choose to join, they're also required to reauthenticate prior to accessing the team.
+
+When you verify your organization's domain, it removes the friction of adding users who have already verified their email addresses with the relevant domain when they created Postman accounts. Postman will no longer require users' permission to join your team, letting you instantly provide new teammates with all of the resources they’ll need to be successful contributors.
 
 > For more information on the benefits of enabling domain capture, see [Why should my organization enable domain capture in Postman?](/docs/administration/domain-verification-and-capture/domain-capture-overview/#why-should-my-organization-enable-domain-capture-in-postman)
 
@@ -118,4 +122,4 @@ Unclaimed accounts are accounts associated with a verified domain that haven't s
 
 ## Enable domain capture
 
-Now that you've added and verified a domain, you can [enable domain capture](/docs/administration/domain-verification-and-capture/enable-domain-capture/).
+After you've added and verified a domain, you can [enable domain capture](/docs/administration/domain-verification-and-capture/enable-domain-capture/).

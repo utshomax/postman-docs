@@ -13,9 +13,9 @@ contextual_links:
 
 > **[Domain verification is available on Postman Enterprise plans. Domain capture is available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
-Now that you've [added and verified a domain](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/), you can enable domain capture. Domain capture will move all of the existing users who are associated with your verified domain or subdomain to your Enterprise team. Moving forward, any Postman users who sign up for a new account with the relevant domain will be automatically added to your team.
+As a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can enable domain capture after you've completed the [required prerequisites](/docs/administration/domain-verification-and-capture/domain-capture-overview/#prerequisites-for-domain-capture), including [adding and verifying a domain](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/). Domain capture will move all of the existing users who are associated with your verified domain or subdomain to your Enterprise team. Moving forward, any Postman users who sign up for a new account with the relevant domain will be automatically added to your team.
 
-You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable domain capture in Postman. In addition, your team must have only SAML-based SSO authentication methods enabled to turn on domain capture. Alternative authentication methods such as Postman or Google sign in must be [turned off](/docs/administration/sso/admin-sso/#editing-sso-settings).
+Your team must have only SAML-based SSO authentication methods enabled to turn on domain capture. Alternative authentication methods, such as Postman or Google sign in, must be [turned off](/docs/administration/sso/admin-sso/#editing-sso-settings).
 
 ## Contents
 
@@ -82,4 +82,4 @@ Once the request is approved to enable domain capture, Team Admins can contact P
 
 ## Domain capture support and FAQs
 
-For more information on the effects of enabling domain capture and how to contact Postman support for assistance, see [Domain capture support and FAQs](/docs/administration/domain-verification-and-capture/domain-capture-faqs/).
+For more information on the effects of enabling domain capture and how to contact Postman support for help, see [Domain capture support and FAQs](/docs/administration/domain-verification-and-capture/domain-capture-faqs/).
