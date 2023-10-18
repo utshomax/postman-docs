@@ -1,6 +1,6 @@
 ---
 title: "Enterprise deployment"
-updated: 2022-03-14
+updated: 2023-10-18
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -286,6 +286,8 @@ You can specify which Postman teams can use the app with the `team-ids` option. 
 ``` shell
 sudo snap set postman-enterprise team-ids="1234, 4321"
 ```
+
+> To get your Postman team ID, you can [contact Postman support](https://www.postman.com/support/) or contact your Postman Account Manager.
 
 ## Uninstalling the Postman Enterprise Linux app
 
