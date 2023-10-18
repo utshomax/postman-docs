@@ -65,8 +65,11 @@ Each audit log event has the following attributes:
 | `userAgent` | A string with the user-agent of the actor. |
 | `action` | A string with an action or event performed by the actor. |
 | `timestamp` | The date and time when the action or event was performed. The time is represented using the ISO 8601 date and time format. |
-| `actor` | An object with information about the actor who performed this action. |
 | `message` | A description of the audit event. |
+| `data` | An object that holds the `actor`, `user`, `team`, and `variables` objects. |
+| `actor` | An object with information about the actor who performed this action. |
+| `user` | An object with information about the user who performed this action. |
+| `team` | An object with information about the user's or actor's team. |
 | `nextCursor` | A string that represents the cursor of the next page. |
 
 To get started, go to the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) and open the **Audit Logs** folder to view the GET request and example responses.
@@ -75,84 +78,28 @@ To get started, go to the [Postman API](https://www.postman.com/postman/workspac
 
 ## Logged events
 
-Postman logs events related to your [team](#team), [users](#users), and [billing](#billing).
+Postman logs events related to your [team](#team-event-examples), [users](#user-event-examples), and [billing](#billing-event-examples). You can find descriptions of each event in the [Audit Logs dashboard](https://go.postman.co/audit). Some examples are listed here.
 
-### Team
+### Team event examples
 
-| Action | Description |
+| Event | Description |
 | ------------- | ------------- |
-| Team Name Updated  | Your team's name was changed.  |
-| Team URL Updated | Your team’s URL was changed. |
-| Updated Team Discovery | A user updated your team's discoverability status. |
-| Added Domain for Domain Capture | A Team Admin added a domain for domain capture. |
-| Verified Domain for Domain Capture | The domain added for domain capture has been verified. |
-| Enabled Domain Team Management | A Team Admin enabled [domain capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/). |
-| User Joined via Domain Capture | A user joined through [domain capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/). |
-| Disabled Domain Team Management | A Team Admin disabled domain team management. |
-| Deleted Domain for Domain Capture | A Team Admin deleted a domain for domain capture. |
-| Added Custom Domain | A [custom domain](/docs/publishing-your-api/custom-doc-domains/) was added to your team. |
-| Updated Custom Domain Verification Status | The verification status of your domain was updated. |
-| Deleted Custom Domain  | A custom domain was deleted from your team. |
-| Custom Auth Scheme Enabled | An SSO scheme was enabled.  |
-| Custom Auth Scheme Updated  | An SSO scheme was updated. |
-| Custom Auth Scheme Disabled  | An SSO scheme was disabled. |
-| Custom Auth Scheme Removed  | An SSO scheme was removed.  |
-| Created SCIM Key | A user created a new SCIM key. |
-| Activated SCIM Key | A user activated a SCIM key. |
-| Regenerated SCIM Key | A user regenerated a SCIM key. |
-| Revoked SCIM Key | A user revoked a SCIM key. |
-| Deleted SCIM Key | A user deleted a SCIM key. |
-| SCIM User Provisioned | The SCIM admin provisioned a new user. |
-| SCIM User De-provisioned | The SCIM admin de-provisioned a user. |
-| Exported Data | A user requested an export of their data. |
-| Downloaded Exported Data | A user downloaded an export of their data. |
-| Added Custom Alert | A new [custom secret alert](/docs/administration/managing-your-team/secret-scanner/#custom-alerts) was created for your team. |
-| Edited Custom Alert | A custom token alert's name or regex pattern was changed, or the alert was turned on or off. |
-| Deleted Custom Token Alert  | A custom token alert was deleted. |
+| Updated Team Name  | `User name` changed your team's name to `team name`. |
+| Added Team Member | `User name` joined the team. |
+| SCIM provisioning enabled | Postman Internal System enabled SCIM provisioning. |
 
-### Users
+### User event examples
 
-| Action | Description |
+| Event | Description |
 | ------------- | ------------- |
-| Added Team Member | A user joined your team.   |
-| Removed Team Member  | A team member was removed.  |
-| Sent Team Invite  | An invitation was sent to a user to join your team.  |
-| Approved Team Invite | An admin approved an email invitation. |
-| Rejected Team Invite  | An admin rejected an email invitation. |
-| Cancelled Team Invite   | An invitation for a user was cancelled.   |
-| Approved Team Join Request | An admin approved a request to join your team. |
-| Rejected Team Join Request | A user rejected a request to join your team. |
-| Updated User Role | A user updated a user role. |
-| Updated User Roles | Roles were updated for some users in your team. |
-| Created Group | A user created a new group. |
-| Updated Group | A user updated a group. |
-| Added Group Member | A user joined a group. |
-| Added Group Role | A role was added to a group. |
-| Removed Group Role | A role was removed from a group. |
-| Removed Group Member | A user was removed from a group. |
-| Deleted Group | A user deleted a group. |
-| Successful Login via Password | A user signed in with their password.   |
-| Successful Login via Google | A user signed in through Google. |
-| Successful Login via SSO | A user signed in through SSO. |
-| Reset Password | A user reset their password. |
-| Changed Password | A user changed their password. |
-| User Session Revoked | A user revoked their session. |
-| User Logout | A user signed out. |
+| Added Team Member | `User name` joined the team.  |
+| Team Member Removed  | `User name` removed user `User name` (inactive) (id: `id number`, email: `email address` ) from the team.  |
+| Sent Team Invite  | `User name` invited `email address` to the team. |
 
-### Billing
+### Billing event examples
 
-| Action | Description |
+| Event | Description |
 | ------------- | ------------- |
-| Changed Plan | A user changed your team plan. |
-| Increased Team Size | More licenses were added to your team.  |
-| Decreased Team Size  | Extra licenses were removed from your team. |
-| Updated Monitoring Block Count | A user updated monitoring block count. |
-| Set Instructions for Next Billing Cycle  | Instructions for the next billing cycle were added.|
-| Updated Billing Email | A user changed your team's billing email address. |
-| Updated Invoice Details | A user updated invoice details. |
-| Added Payment Method  | A user added a payment method. |
-| Changed Default Payment Method | A user changed the default payment method. |
-| Deleted Payment Method | A user deleted a payment method. |
-| Successfully Retried Invoice  | An invoice for your team was paid.  |
-| Cancelled Invoice | A user cancelled an invoice for your team. |
-| Cancelled Plan | A user cancelled your team’s subscription. |
+| Upgraded to Paid Plan | `User name` upgraded your team's plan to Enterprise Essentials. |
+| Updated Billing Operation Allow Overages | `User name` enabled the overages for Mock Servers |
+| Increased Team Size  | `User name` increased team size by 1. |
