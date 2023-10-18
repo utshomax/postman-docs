@@ -227,13 +227,13 @@ The [product access dashboard](https://go.postman.co/settings/team/products-acce
 
 ### Manage your team's access to Postbot
 
-As a Team Admin, you can manage [Postbot](/docs/getting-started/basics/about-postbot/) access for your team. When you add team members to Postbot, only added team members get full access to Postbot.
+As a Team Admin, you can manage [Postbot](/docs/getting-started/basics/about-postbot/) access for your team. When you add team members to Postbot, only added team members get an increased number of interactions with Postbot. To view your Postbot limits, go to your [Resource Usage dashboard](https://go.postman.co/billing/add-ons/overview).
 
 To add team members to Postbot, do the following:
 
 1. Select **Team** in the Postman header, then select **Team Settings**.
 1. Select **Product access**, then select **Postbot**.
-1. To add team members to Postbot, select **Add Members**. Adding team members to a solution purchases additional seats for Postbot. Learn more about [purchasing add-on products](/docs/billing/billing/#purchasing-add-on-products).
+1. To add team members to Postbot, select **Add Members**. Adding team members to Postbot purchases additional seats. Learn more about [purchasing add-on products](/docs/billing/billing/#purchasing-add-on-products).
 
     <img alt="Add team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/product-access-postbot-v10-19.jpg"/>
 
