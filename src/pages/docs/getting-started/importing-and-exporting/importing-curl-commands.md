@@ -1,5 +1,5 @@
 ---
-title: "Importing cURL commands"
+title: "Import cURL commands"
 updated: 2023-10-18
 contextual_links:
   - type: section

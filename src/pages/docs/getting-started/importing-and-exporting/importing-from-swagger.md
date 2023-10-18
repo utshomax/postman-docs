@@ -1,5 +1,5 @@
 ---
-title: "Importing Swagger APIs"
+title: "Import Swagger APIs"
 updated: 2023-10-18
 contextual_links:
   - type: section
