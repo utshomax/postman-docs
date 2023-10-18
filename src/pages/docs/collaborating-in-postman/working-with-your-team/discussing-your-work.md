@@ -24,13 +24,14 @@ Use comments to discuss your work with your teammates in Postman. You can add co
 * [Replying to comments](#replying-to-comments)
 * [Resolving comments](#resolving-comments)
 * [Mentioning teammates in comments](#mentioning-teammates-in-comments)
-* [Using Markdown in comments](#using-markdown-in-comments)
 
 ## Commenting on a collection, folder, or request
 
 You can add comments to a collection in Postman. You can also add comments to requests or folders in collections. When you add a comment, Postman notifies other collection contributors about your comment.
 
 > You must have access to a collection to add comments to it.
+
+> Postman supports Markdown in comments. See the [Markdown Cheatsheet on GitHub](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for tips on formatting.
 
 To add a comment to a collection, folder, or request, do the following:
 
@@ -39,7 +40,7 @@ To add a comment to a collection, folder, or request, do the following:
 1. (Optional) Select the **Watch collection** checkbox to be notified when there are changes to the collection.
 1. Select **Comment** to add your comment.
 
-![Commenting on a collection](https://assets.postman.com/postman-docs/v10/commenting-on-a-collection-v10-18.jpg)
+![Commenting on a collection](https://assets.postman.com/postman-docs/v10/commenting-on-a-collection-v10-18a.jpg)
 
 ### Adding inline comments to a request
 
@@ -67,7 +68,7 @@ You can edit or delete a comment, or a get a link to a comment you can share wit
 1. Select a collection, folder, or request in the sidebar, then select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a comment and do one of the following:
 
-    * Select **Copy link** to copy a direct link to the comment to your clipboard. Share the link with your teammates so they can view or reply to the comment.
+    * Select **Copy link** to copy a direct link to the comment to your clipboard.
     * Select **Edit** to make changes to the comment.
     * Select **Delete** to delete the comment.
 
@@ -109,7 +110,3 @@ If you leave feedback or a question for a specific teammate, you can let them kn
 When you mention a teammate in a comment, Postman sends them a notification. Select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header to view in-app notifications.
 
 > If your teammate doesn't have access to the collection they've been mentioned in, they'll need to [request access](/docs/collaborating-in-postman/requesting-access-to-elements/) before they can read the comment.
-
-## Using Markdown in comments
-
-You can use Markdown in your comments. See the [Markdown Cheatsheet on GitHub](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for tips on formatting.
