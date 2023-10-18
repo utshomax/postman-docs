@@ -75,7 +75,7 @@ Sign in to Postman in your browser by entering your account credentials or signi
 
 Select **Stay signed in** if you want to remain signed in until you are inactive for 30 days before being asked to re-authenticate. Clear this checkbox if you don't want to remain signed in on the computer you're working on. Note that Postman will prompt you to sign in again after 30 minutes.
 
-> Your team may have set up a session expiry duration for all team members. In that case, sessions will be revoked based on the team setting.
+> Your team may have set up a maximum session duration for all team members. In that case, sessions will be revoked based on the team setting.
 
 If you've set up [two-factor authentication](#setting-up-two-factor-authentication) (2FA), Postman will prompt you to enter the verification code from your authenticator app and select **Verify**.
 
