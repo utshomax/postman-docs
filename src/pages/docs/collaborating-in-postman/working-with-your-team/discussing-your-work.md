@@ -39,7 +39,7 @@ To add a comment to a collection, folder, or request, do the following:
 1. (Optional) Select the **Watch collection** checkbox to be notified when there are changes to the collection.
 1. Select **Comment** to add your comment.
 
-![Commenting on a collection](https://assets.postman.com/postman-docs/v10/commenting-on-a-collection-v10-16a.jpg)
+![Commenting on a collection](https://assets.postman.com/postman-docs/v10/commenting-on-a-collection-v10-18.jpg)
 
 ### Adding inline comments to a request
 
