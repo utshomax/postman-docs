@@ -45,6 +45,8 @@ You can import data from a local GitHub, Bitbucket, GitLab, or Azure DevOps repo
 
       <img alt="File import options" src="https://assets.postman.com/postman-docs/v10/import-files-options-v10-19.jpg" width="651px" />
 
+    > Select **View Import Settings** for more configuration options. These options will vary depending on your API specification.
+
 1. Select **Import**.
 
 1. An **Import Complete** message displays in the footer. In the message, select the link icon <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-external-link.jpg#icon" width="18px"> next to a collection, environment, or API  to open the imported element.
@@ -74,6 +76,8 @@ You can import data from a remote GitHub, Bitbucket, GitLab, or Azure DevOps rep
    * If you're importing an API definition along with other files such as collections or environments, select the files you want to import into Postman. By default, API definitions are imported as collections. Select the **Import (API specification) files** checkbox to import the definition as an API along with a collection.
 
       <img alt="File import options" src="https://assets.postman.com/postman-docs/v10/import-files-options-v10-19.jpg" width="651px" />
+
+    > Select **View Import Settings** for more configuration options. These options will vary depending on your API specification.
 
 1. Select **Import**.
 
