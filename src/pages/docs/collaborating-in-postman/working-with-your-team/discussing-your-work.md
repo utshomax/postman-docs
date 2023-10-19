@@ -46,7 +46,7 @@ To add a comment to a collection, folder, or request, do the following:
 
 ### Adding inline comments to a request
 
-Use inline comments to comment on a specific part of a request. You can add comments to parameters, headers, and request bodies. You can also add comments to parts of a pre-request script or a test script. When there are new inline comments, an notification appears on the comments icon <img alt="Inline comments icon" src="https://assets.postman.com/postman-docs/v10/icon-inline-comment-v10-16.jpg#icon" width="22px"> in the request pane.
+Use inline comments to comment on a specific part of a request. You can add comments to parameters, headers, and request bodies. You can also add comments to parts of a pre-request script or a test script. When there are new inline comments, a notification appears on the comments icon <img alt="Inline comments icon" src="https://assets.postman.com/postman-docs/v10/icon-inline-comment-v10-16.jpg#icon" width="22px"> in the request pane.
 
 > Before you switch to comment mode, make sure to save your changes first.
 
