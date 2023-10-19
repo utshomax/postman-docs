@@ -1,6 +1,6 @@
 ---
 title: "Navigating Postman"
-updated: 2022-11-16
+updated: 2023-10-20
 contextual_links:
   - type: section
     name: "Additional resources"

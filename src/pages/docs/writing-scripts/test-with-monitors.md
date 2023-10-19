@@ -1,8 +1,6 @@
 ---
 title: "Run API test scripts using Postman Monitors"
-order: 91
-page_id: "test_with_monitors"
-updated: 2022-2-14
+updated: 2023-10-20
 search_keyword: "setEnvironmentVariable, postman.setEnvironmentVariable"
 contextual_links:
   - type: section

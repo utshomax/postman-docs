@@ -1,6 +1,6 @@
 ---
 title: "Automate repetitive tasks using Postman Flows"
-updated: 2023-07-27
+updated: 2023-10-20
 contextual_links:
   - type: section
     name: "Additional resources"

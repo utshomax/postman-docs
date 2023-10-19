@@ -1,7 +1,7 @@
 ---
 title: "SCIM provisioning overview"
 order: 142
-updated: 2022-03-02
+updated: 2023-10-20
 page_id: "scim_provisioning_overview"
 warning: false
 contextual_links:

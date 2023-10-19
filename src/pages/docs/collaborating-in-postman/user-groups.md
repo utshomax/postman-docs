@@ -1,6 +1,6 @@
 ---
 title: "Organize users into Postman groups"
-updated: 2023-06-15
+updated: 2023-10-20
 contextual_links:
   - type: section
     name: "Additional resources"

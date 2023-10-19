@@ -1,6 +1,6 @@
 ---
 title: "Monitor health and performance of your APIs in Postman"
-updated: 2023-03-20
+updated: 2023-10-20
 contextual_links:
   - type: section
     name: "Additional resources"

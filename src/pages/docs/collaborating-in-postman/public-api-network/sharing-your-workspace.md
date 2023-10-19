@@ -1,6 +1,6 @@
 ---
 title: "Share your public workspace with API consumers"
-updated: 2023-03-30
+updated: 2023-10-20
 contextual_links:
   - type: section
     name: "Additional resources"

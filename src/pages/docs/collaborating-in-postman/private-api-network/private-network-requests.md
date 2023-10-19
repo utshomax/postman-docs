@@ -1,6 +1,6 @@
 ---
 title: "Request to add elements to the Private API Network"
-updated: 2023-09-15
+updated: 2023-10-20
 contextual_links:
   - type: section
     name: "Additional resources"

@@ -1,6 +1,6 @@
 ---
 title: "Review pull requests in Postman"
-updated: 2022-11-17
+updated: 2023-10-20
 contextual_links:
   - type: section
     name: "Additional resources"

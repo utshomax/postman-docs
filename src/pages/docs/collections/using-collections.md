@@ -1,6 +1,6 @@
 ---
 title: "Create and manage request collections in Postman"
-updated: 2023-04-10
+updated: 2023-10-20
 contextual_links:
   - type: section
     name: "Additional resources"

@@ -1,6 +1,6 @@
 ---
 title: "Install and run Newman"
-updated: 2022-05-23
+updated: 2023-10-20
 contextual_links:
   - type: section
     name: "Additional resources"

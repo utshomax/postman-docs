@@ -1,6 +1,6 @@
 ---
 title: "Organize your projects in Postman using workspaces"
-updated: 2023-05-22
+updated: 2023-10-20
 contextual_links:
   - type: section
     name: "Additional resources"

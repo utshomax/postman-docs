@@ -1,9 +1,6 @@
 ---
 title: "Define roles and permissions within a Postman team"
-order: 72
-updated: 2022-12-19
-page_id: "roles_and_permissions"
-warning: false
+updated: 2023-10-20
 contextual_links:
   - type: section
     name: "Additional resources"

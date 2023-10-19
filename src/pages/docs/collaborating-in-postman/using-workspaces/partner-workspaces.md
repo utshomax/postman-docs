@@ -1,6 +1,6 @@
 ---
 title: "Collaborate with external partners in Postman using Partner Workspaces"
-updated: 2023-03-02
+updated: 2023-10-20
 contextual_links:
   - type: section
     name: "Additional resources"
