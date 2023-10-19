@@ -109,7 +109,7 @@ To convert an existing workspace to a public workspace in a Postman Professional
 
     <img alt="Request being reviewed" src="https://assets.postman.com/postman-docs/v10/public-workspace-request-review-v10.jpg" width="400px"/>
 
-Once you make a workspace public, all entities within that workspace become publicly accessible through the workspace.
+Once you make a workspace public, all elements within that workspace become publicly accessible through the workspace.
 
 When you make a workspace public, Postman sends in-app and email notifications to all workspace members. To view your in-app notifications, select the notification icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header.
 
