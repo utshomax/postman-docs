@@ -1,9 +1,6 @@
 ---
 title: "SCIM provisioning overview"
-order: 142
-updated: 2022-03-02
-page_id: "scim_provisioning_overview"
-warning: false
+updated: 2023-10-19
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -26,7 +23,7 @@ contextual_links:
 
 Postman supports [SCIM](https://datatracker.ietf.org/doc/html/rfc7642) (System for Cross-domain Identity Management), enabling you to automate user provisioning and de-provisioning for your team. With this feature, you can efficiently deploy Postman at scale across your organization and control access to it with your identity provider (IdP).
 
-You can enable SCIM provisioning with the [SCIM API](#configuring-scim-with-the-scim-api), [Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), or [Microsoft Entra ID](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/). You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable SCIM for your team. With SCIM enabled, users won't have the option to leave your team on their own, and won't be able to change their account email or password. Only Team Admins will have the right to remove team members.
+You can enable SCIM provisioning with the [SCIM API](#configuring-scim-with-the-scim-api), [Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), [Microsoft Entra ID](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/), or [OneLogin](/docs/administration/scim-provisioning/configuring-scim-with-onelogin/). You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable SCIM for your team. With SCIM enabled, users won't have the option to leave your team on their own, and won't be able to change their account email or password. Only Team Admins will have the right to remove team members.
 
 ## Contents
 
@@ -87,46 +84,44 @@ Postman doesn't support the following provisioning features:
 
 ## Enabling SCIM provisioning
 
-You must have SSO configured before you can enable SCIM for your Postman team.
+You must [configure SSO in Postman](/docs/administration/sso/admin-sso/) before you can enable SCIM for your Postman team.
 
-> To use SCIM, you must have only one SSO method configured. If you have more than one SSO method enabled, you won't have the option to generate a SCIM API key.
-
-<!-- -->
-> Learn [how to configure SSO in Postman](/docs/administration/sso/admin-sso/).
+> To use SCIM, you must have only one SSO method configured. If you have more than one SSO method enabled, you won't be able to generate a SCIM API key.
 
 ### Enabling SCIM in Postman
 
-1. Open [Postman](https://go.postman.co/home).
-1. Select **Team** in the upper right, then select **Team Settings**.
-1. Select **Authentication** in the sidebar.
-1. Select the **SCIM provisioning** toggle.
+1. Open Postman and select **Team > Team Settings** in the Postman header.
+1. Select **Authentication** in the left sidebar.
+1. Select the **Authentication Methods** tab.
+1. Select the **SCIM Provisioning** toggle to turn it on.
 
-    <img alt="Enable SCIM in dashboard" src="https://assets.postman.com/postman-docs/auth-enable-scim-v9.jpg"/>
+    <img alt="Enable SCIM in dashboard" src="https://assets.postman.com/postman-docs/v10/auth-enable-scim-v10-19.jpg"/>
 
-1. Click **Turn On** to enable SCIM provisioning.
+1. Select **Turn On** to enable SCIM provisioning.
 
-    <img alt="Enable SCIM in dashboard" src="https://assets.postman.com/postman-docs/turn-on-scim-provisioning-1.jpg" width="400px"/>
+    <img alt="Enable SCIM in dashboard" src="https://assets.postman.com/postman-docs/v10/turn-on-scim-provisioning-v10-19.jpg" width="400px"/>
 
 ### Generating SCIM API key
 
-1. Under **SCIM provisioning**, select **Generate SCIM API Key**.
+1. Under **SCIM Provisioning**, and select **Generate SCIM API Key**.
 
-    <img alt="Generate SCIM API key" src="https://assets.postman.com/postman-docs/generate-scim-api-key-v9.jpg"/>
+    <img alt="Generate SCIM API key" src="https://assets.postman.com/postman-docs/v10/generate-scim-api-key-v10-19.jpg"/>
 
-1. Name your key and click **Generate**.
-1. Copy your new API key for later use and click **Done**.
+1. Enter a key name, then select **Generate**.
+1. Copy your new API key for later use and select **Done**.
 
-> You can revisit this page to manage your SCIM API keys. If you regenerate an existing API key, you will have the option to keep the first key active while you switch over.
+You can revisit this page to manage your SCIM API keys. If you regenerate an existing API key, you'll have the option to keep the previous key active while you switch to the new one.
 
-To continue enabling SCIM provisioning, see [Configuring SCIM with the SCIM API](#configuring-scim-with-the-scim-api), [Configuring SCIM with Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), [Configuring SCIM with Microsoft Entra ID](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/), or [Configuring SCIM with OneLogin](/docs/administration/scim-provisioning/configuring-scim-with-onelogin/). For further information or help configuring SCIM, [contact Postman support](https://www.postman.com/support/).
+> For more information or help with configuring SCIM, [contact Postman support](https://www.postman.com/support/).
 
 ## Configuring SCIM with the SCIM API
 
-Visit Postman's [SCIM API docs](https://www.postman.com/postman/workspace/scim/documentation/6248949-de4a96e2-9ebf-426f-bc55-4c5f2de51ab2) for information on setting up SCIM for your Postman team using the SCIM 2.0 API.
+Visit Postman's [SCIM API documentation](https://www.postman.com/postman/workspace/scim/documentation/6248949-de4a96e2-9ebf-426f-bc55-4c5f2de51ab2) for information on setting up SCIM for your Postman team using the SCIM 2.0 API.
 
 ## Next steps
 
 Now that you have enabled SCIM and generated a SCIM API key, you can continue enabling SCIM provisioning. After the SCIM setup is complete, learn how to manage roles and permissions for your team:
 
-* To learn how to enable SCIM provisioning through your IdP, visit [Configuring SCIM with Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), [Configuring SCIM with Microsoft Entra ID](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/), or [Configuring SCIM with OneLogin](/docs/administration/scim-provisioning/configuring-scim-with-onelogin/).
+* To learn how to enable SCIM provisioning through your IdP, see [Configure SCIM with Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), [Configure SCIM with Microsoft Entra ID](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/), or [Configure SCIM with OneLogin](/docs/administration/scim-provisioning/configuring-scim-with-onelogin/).
+* To learn how to enable SCIM using the SCIM 2.0 API, see Postman's [SCIM API documentation](https://www.postman.com/postman/workspace/scim/documentation/6248949-de4a96e2-9ebf-426f-bc55-4c5f2de51ab2).
 * Learn more about [defining roles](/docs/collaborating-in-postman/roles-and-permissions/) in your team and how to [create user groups](/docs/collaborating-in-postman/user-groups/#creating-a-group).
