@@ -22,9 +22,9 @@ contextual_links:
     url: "https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/"
 ---
 
-Postman is available on the web at **[go.postman.co/home](https://go.postman.co/home)** and as a native desktop app for Mac (Intel or Apple silicon), Windows (Intel 32-bit or 64-bit), and Linux (64-bit) operating systems.
+To get the latest version of the Postman desktop app, visit the [Download Postman page](https://www.postman.com/downloads/) and select the option for your operating system. Postman is available as a native desktop app for macOS (Intel or Apple silicon), Windows (Intel 32-bit or 64-bit), and Linux (64-bit).
 
-To get the latest version of the Postman desktop app, visit the [download page](https://www.postman.com/downloads/) and select **Download** for your platform.
+Postman is also available on the web at [go.postman.co/home](https://go.postman.co/home). You can use the Postman web app to carry out many of your API development and testing tasks in your web browser. Keep in mind that some features aren't supported when using the [Postman web app](/docs/getting-started/installation/installation-and-updates/#web-limitations), so use the Postman desktop app for the full Postman experience.
 
 ## Contents
 
@@ -135,9 +135,12 @@ If you are using the Postman web app, Postman recommends downloading and install
 
 The Postman web app is under active development. There are features you can only access in the Postman desktop app, not in your browser:
 
-* **Find and replace** - The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/basics/navigating-postman/#find-and-replace), but this function isn't available on the Postman web app yet.
+* **Find and replace** - The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/basics/navigating-postman/#find-and-replace), but this feature isn't available in the Postman web app.
 * **Certificates and proxy** - The Postman desktop app enables you to customize [certificates](/docs/sending-requests/certificates/) and [proxy configurations](/docs/getting-started/installation/proxy/#configuring-proxy-settings). On the Postman web app, these take the browser defined value and can't be overridden by Postman.
-* **Postman Interceptor** - [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) syncs cookies from your browser to the Postman desktop app and captures network requests directly from the browser. It's not possible to use Interceptor with the Postman web app.
+* **Postman Interceptor and the Postman proxy** - [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) and [the Postman proxy](/docs/sending-requests/capturing-request-data/capture-with-proxy/) enable you to capture traffic and syncs cookies from your browser or client apps to the Postman desktop app. It's not possible to use Interceptor or the Postman proxy with the Postman web app.
+* **Collection run export** - You can [export the results of a collection run](/docs/collections/running-collections/intro-to-collection-runs/#sharing-collection-runs) to a JSON file using the Postman desktop app. This feature isn't available in the Postman web app.
+* **Performance testing** - You can use the Postman desktop app to [simulate user traffic](/docs/collections/performance-testing/testing-api-performance/), so you can observe how your API behaves under load. Performance testing isn't available for the Postman web app.
+* **On-premises Git integration** - You must use the Postman desktop app to [connect your API](/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/) to GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server repositories.
 * **Lightweight Postman API Client** - You can use the [lightweight API Client](/docs/getting-started/basics/using-api-client/) to send requests from the Postman desktop app when you aren't signed in to Postman.
 
 ## Updating Postman
@@ -164,7 +167,7 @@ The Postman desktop app is built on [Electron](https://www.electronjs.org/), and
 * The native apps aren't restricted by the Chrome standards for the menu bar. You can check for updates, create Postman Windows and tabs, and edit preferences.
 * The native apps let you send headers like `Origin` and `User-Agent`. These are restricted in the Chrome app.
 * The "don't follow redirects" option exists in the native apps to prevent requests that return a 300-series response from being automatically redirected—doing this in the Chrome app requires the Interceptor extension.
-* The native app has a built-in [console](/docs/sending-requests/troubleshooting-api-requests/), which enables you to view the network request details for API calls.
+* The native app has a built-in [Console](/docs/sending-requests/troubleshooting-api-requests/), which enables you to view the network request details for API calls.
 
 ### Migrating to the native app
 
