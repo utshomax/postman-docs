@@ -103,7 +103,7 @@ You must [configure SSO in Postman](/docs/administration/sso/admin-sso/) before 
 
 ### Generating SCIM API key
 
-1. Under **SCIM Provisioning**, and select **Generate SCIM API Key**.
+1. Under **SCIM Provisioning**, select **Generate SCIM API Key**.
 
     <img alt="Generate SCIM API key" src="https://assets.postman.com/postman-docs/v10/generate-scim-api-key-v10-19.jpg"/>
 
