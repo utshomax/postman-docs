@@ -1,6 +1,6 @@
 ---
 title: "Design your API in Postman using the API Builder"
-updated: 2023-06-15
+updated: 2023-10-19
 contextual_links:
   - type: section
     name: "Additional resources"
