@@ -74,7 +74,7 @@ You can import an existing API definition into Postman. API definitions can be i
 
       <img alt="Import complete message" src="https://assets.postman.com/postman-docs/v10/import-complete-message-v10-19.jpg" width="697px" />
 
-> To learn more about working with multi-file API definitions, see [Editing an API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#working-with-multi-file-api-definitions).
+> To learn more about working with multi-file API definitions, see [Working with multi-file API definitions](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#working-with-multi-file-api-definitions).
 
 ## Import API definitions from Amazon API Gateway
 

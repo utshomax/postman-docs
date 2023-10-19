@@ -45,7 +45,7 @@ To import your data into Postman, select **Import** in the sidebar. You can impo
 
 ## Import Postman data
 
-You can import Postman data that you [exported](/docs/getting-started/importing-and-exporting/exporting-data/) earlier, including collections, environments, data dumps, and globals. Postman will automatically recognize Postman data on import.
+You can import data that was [exported from Postman](/docs/getting-started/importing-and-exporting/exporting-data/), including collections, environments, data dumps, and globals. Postman will automatically recognize Postman data on import.
 
 1. Select **Import** in the sidebar.
 1. Do one of the following:
@@ -94,8 +94,8 @@ You can retrieve a list of `convert` options by running the command with the `-h
 
 ## Import from cURL commands
 
-To learn more about using cURL commands to import data, go to [Importing cURL commands](/docs/getting-started/importing-and-exporting/importing-curl-commands/).
+To learn more about using cURL commands to import data, go to [Import cURL commands](/docs/getting-started/importing-and-exporting/importing-curl-commands/).
 
 ## Import API definitions
 
-To learn more about importing your API definitions into Postman, go to [Importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
+To learn more about importing your API definitions into Postman, go to [Import an API into Postman](/docs/designing-and-developing-your-api/importing-an-api/).
