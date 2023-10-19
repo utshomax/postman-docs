@@ -140,7 +140,7 @@ At the element level, you can assign roles to team members that decide their lev
 
 ### Collection roles
 
-You can assign two role types in Postman collections: **Editor** and **Viewer**.
+You can [assign](/docs/collaborating-in-postman/requesting-access-to-elements/#managing-element-based-roles) two role types in Postman collections: **Editor** and **Viewer**.
 
 * **Editor** - Can edit collections directly
 * **Viewer** - Can view, fork, and export collections
@@ -166,7 +166,7 @@ The following roles control access at a collection level:
 
 ### API roles
 
-You can assign two role types in Postman APIs: **Editor** and **Viewer**.
+You can [assign](/docs/collaborating-in-postman/requesting-access-to-elements/#managing-element-based-roles) two role types in Postman APIs: **Editor** and **Viewer**.
 
 * **Editor** - Can edit APIs directly
 * **Viewer** - Can view and export APIs
@@ -210,7 +210,7 @@ Move environment | &#x2714; |
 
 ## Mock server roles
 
-You can assign two role types for Postman mock servers: **Editor** and **Viewer**.
+You can [assign](/docs/collaborating-in-postman/requesting-access-to-elements/#managing-element-based-roles) two role types for Postman mock servers: **Editor** and **Viewer**.
 
 * **Editor** - Can edit and manage mock servers
 * **Viewer** - Can view mock servers and associated metadata
@@ -228,7 +228,7 @@ Move mock server | &#x2714; |
 
 ## Monitor roles
 
-You can [assign](/docs/monitoring-your-api/faqs-monitors/#who-can-edit-my-monitors) four role types for Postman Monitors: **Editor** and **Viewer**.
+You can [assign](/docs/collaborating-in-postman/requesting-access-to-elements/#managing-element-based-roles) four role types for Postman Monitors: **Editor** and **Viewer**.
 
 * **Super Admin** - Can view monitor metadata and run, pause, and resume monitors.
 * **Admin** - Can view monitor metadata and run, pause, and resume monitors.
@@ -269,7 +269,7 @@ You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-worksp
 * **Editor** - Partners can create and edit Partner Workspace resources, [import and export](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/) elements, and [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) elements to Partner Workspaces within the same team.
 * **Viewer** - Partners can view Partner Workspace resources and [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) elements to another Partner Workspace within the same team where they're assigned the Workspace Editor role.
 
-You can also assign Partner Workspace roles to partners at the collection level:
+You can also [assign](/docs/collaborating-in-postman/requesting-access-to-elements/#managing-element-based-roles) Partner Workspace roles to partners at the collection level:
 
 * **Editor** - Partners can [export collections](/docs/getting-started/importing-and-exporting/exporting-data/#exporting-collections). They can also [fork collections](/docs/collaborating-in-postman/using-version-control/forking-entities/) within the same Partner Workspace or to another Partner Workspace within the same team. They can't fork collections outside the team.
 * **Viewer** - Partners can [fork collections](/docs/collaborating-in-postman/using-version-control/forking-entities/) to another Partner Workspace within the same team where they're assigned the Workspace Editor role. They can't fork elements outside the team. Also, they can't export collections.
