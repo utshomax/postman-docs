@@ -46,7 +46,7 @@ To view and work with APIs, select **APIs** in the sidebar. You can open and edi
 
 When you select an API in the sidebar, the workbench displays an overview of the API. The overview displays a description of the API, tags associated with the API ([Enterprise plans only](https://www.postman.com/pricing)), linked collections, and published versions. The overview also provides quick access to tasks such as connecting to a repository, adding tests, observing API performance, and viewing deployments.
 
-<img src="https://assets.postman.com/postman-docs/v10/api-builder-overview-v10-2.jpg" alt="API Builder overview" />
+<img src="https://assets.postman.com/postman-docs/v10/api-builder-overview-v10-3.jpg" alt="API Builder overview" />
 
 The right sidebar offers more options for working with your API. You can view comments, generate server code from your API definition, and view the API's changelog.
 
