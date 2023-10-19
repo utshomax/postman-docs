@@ -20,12 +20,12 @@ Use comments to discuss your work with your teammates in Postman. You can add co
 
 ## Contents
 
-* [Commenting on a collection, folder, or request](#commenting-on-a-collection-folder-or-request)
-* [Replying to comments](#replying-to-comments)
-* [Resolving comments](#resolving-comments)
-* [Mentioning teammates in comments](#mentioning-teammates-in-comments)
+* [Comment on a collection, folder, or request](#comment-on-a-collection-folder-or-request)
+* [Reply to comments](#reply-to-comments)
+* [Resolve comments](#resolve-comments)
+* [Mention teammates in comments](#mention-teammates-in-comments)
 
-## Commenting on a collection, folder, or request
+## Comment on a collection, folder, or request
 
 You can add comments to a collection in Postman. You can also add comments to requests or folders in collections. When you add a comment, Postman notifies other collection contributors about your comment.
 
@@ -44,7 +44,7 @@ To add a comment to a collection, folder, or request, do the following:
 
 ![Commenting on a collection](https://assets.postman.com/postman-docs/v10/commenting-on-a-collection-v10-18a.jpg)
 
-### Adding inline comments to a request
+### Add inline comments to a request
 
 Use inline comments to comment on a specific part of a request. You can add comments to parameters, headers, and request bodies. You can also add comments to parts of a pre-request script or a test script. When there are new inline comments, a notification appears on the comments icon <img alt="Inline comments icon" src="https://assets.postman.com/postman-docs/v10/icon-inline-comment-v10-16.jpg#icon" width="22px"> in the request pane.
 
@@ -63,7 +63,7 @@ To add an inline comment, do the following:
 
     ![Adding an inline comment](https://assets.postman.com/postman-docs/v10/commenting-inline-v10-16a.jpg)
 
-### Editing, deleting, or linking to a comment
+### Edit, delete, or link to a comment
 
 You can edit or delete a comment, or a get a link to a comment you can share with others.
 
@@ -78,7 +78,7 @@ You can edit or delete a comment, or a get a link to a comment you can share wit
 
 > If you have the [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) in the workspace, you can delete contributor comments, but you can't edit contributor comments.
 
-## Replying to comments
+## Reply to comments
 
 You can reply to a comment to keep the conversation going. Replies are grouped with the original comment, so you can have more than one comment thread on a collection, folder, or request. When you reply to a comment, the user who added the comment will receive a notification about your reply.
 
@@ -94,7 +94,7 @@ To reply to a comment, do the following:
 
 <img alt="Replying to a comment" src="https://assets.postman.com/postman-docs/v10/commenting-replying-v10-16.jpg" width="443px" />
 
-## Resolving comments
+## Resolve comments
 
 You can resolve a comment after it's been addressed.
 
@@ -105,7 +105,7 @@ You can resolve a comment after it's been addressed.
 
 > You can't undo resolving a comment, but you can view resolved comments by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px"> in the comments pane.
 
-## Mentioning teammates in comments
+## Mention teammates in comments
 
 If you leave feedback or a question for a specific teammate, you can let them know by mentioning them in your comment. To mention a teammate in a comment, enter @ followed by their name, then select the person from the list.
 
