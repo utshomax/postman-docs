@@ -35,7 +35,7 @@ Postman's _version control_ features can help you and your team to collaborative
 
 You can fork collections, environments, and Flows from a parent element. Forking enables you to contribute to an element without having Editor access to that element.
 
-Learn more about [forking Postman entities](/docs/collaborating-in-postman/using-version-control/forking-entities/).
+Learn more about [forking Postman entities](/docs/collaborating-in-postman/using-version-control/forking-elements/).
 
 ## Creating pull requests
 
