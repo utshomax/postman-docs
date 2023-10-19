@@ -94,7 +94,7 @@ Your tests can include multiple assertions as part of a single test. Use this to
 ```js
 pm.test("The response has all properties", () => {
     //parse the response JSON and test three properties
-    const responseJson = pm.response.json().args;
+    const responseJson = pm.response.json();
     pm.expect(responseJson.type).to.eql('vip');
     pm.expect(responseJson.name).to.be.a('string');
     pm.expect(responseJson.id).to.have.lengthOf(1);
@@ -166,13 +166,13 @@ Check for particular values in the response body:
 
 ```js
 /* Response has the following structure:
-"args": {
+{
   "name": "Jane",
   "age": 23
 },
 */
 pm.test("Person is Jane", () => {
-  const responseJson = pm.response.json().args;
+  const responseJson = pm.response.json();
   pm.expect(responseJson.name).to.eql("Jane");
   pm.expect(responseJson.age).to.eql(23);
 });
@@ -262,7 +262,7 @@ Check if a response property has the same value as a variable (this example uses
 
 ```js
 pm.test("Response property matches environment variable", function () {
-  pm.expect(pm.response.json().args.name).to.eql(pm.environment.get("name"));
+  pm.expect(pm.response.json().name).to.eql(pm.environment.get("name"));
 });
 ```
 
@@ -274,7 +274,7 @@ Test the type of any part of the response:
 
 ```js
 /* Response has the following structure:
-"args": {
+{
   "name": "Jane",
   "age": 29,
   "hobbies": [
@@ -284,7 +284,7 @@ Test the type of any part of the response:
   "email": null
 },
 */
-const jsonData = pm.response.json().args;
+const jsonData = pm.response.json();
 pm.test("Test data type of the response", () => {
   pm.expect(jsonData).to.be.an("object");
   pm.expect(jsonData.name).to.be.a("string");
@@ -301,7 +301,7 @@ Check if an array is empty, and if it contains particular items:
 
 ```js
 /* Response has the following structure:
-"args": {
+{
   "errors": [],
   "areas": [ "goods", "services" ],
   "settings": [
@@ -317,7 +317,7 @@ Check if an array is empty, and if it contains particular items:
 },
 */
 
-const jsonData = pm.response.json().args;
+const jsonData = pm.response.json();
 pm.test("Test array properties", () => {
     //errors array is empty
   pm.expect(jsonData.errors).to.be.empty;
@@ -344,7 +344,7 @@ Assert that an object contains keys or properties:
 
 ```js
 /* Response has the following structure:
-"args": {
+{
   "a": 1,
   "b": 2
 },
@@ -365,13 +365,13 @@ Check a response value against a list of valid options:
 
 ```js
 /* Response has the following structure:
-"args": {
+{
   "type": "Subscriber"
 },
 */
 
 pm.test("Value is in valid list", () => {
-  pm.expect(pm.response.json().args.type)
+  pm.expect(pm.response.json().type)
     .to.be.oneOf(["Subscriber", "Customer", "User"]);
 });
 ```
@@ -382,7 +382,7 @@ Check that an object is part of a parent object:
 
 ```js
 /* Response has the following structure:
-"args": {
+{
   "id": "d8893057-3e91-4cdd-a36f-a0af460b6373",
   "created": true,
   "errors": []
@@ -394,7 +394,7 @@ pm.test("Object is contained", () => {
     "created": true,
     "errors": []
   };
-  pm.expect(pm.response.json().args).to.deep.include(expectedObject);
+  pm.expect(pm.response.json()).to.deep.include(expectedObject);
 });
 ```
 
@@ -420,19 +420,19 @@ Log the value of a variable or response property:
 
 ```js
 console.log(pm.collectionVariables.get("name"));
-console.log(pm.response.json().args.name);
+console.log(pm.response.json().name);
 ```
 
 Log the type of variable or response property:
 
 ```js
-console.log(typeof pm.response.json().args.id);
+console.log(typeof pm.response.json().id);
 ```
 
 Use Console logs to mark code execution, sometimes known as "trace statements":
 
 ```js
-if (pm.response.json().args.id) {
+if (pm.response.json().id) {
   console.log("id was found!");
   // do something
 } else {
@@ -459,13 +459,13 @@ In the following example, a JSON object is the value of a variable in the first 
 
 ```js
 /* Response has the following structure:
-"args": {
+{
   "name": "John",
   "age": 29
 },
 */
 pm.test("Test 1", () => {
-  const jsonData = pm.response.json().args;
+  const jsonData = pm.response.json();
   pm.expect(jsonData.name).to.eql("John");
 });
 
@@ -481,7 +481,7 @@ pm.test("Test 2", () => {
 You might encounter the `AssertionError: expected undefined to deeply equal <value>` error. Typically this happens when you are referring to a property that doesn't exist or is out of scope.
 
 ```js
-const jsonData = pm.response.json().args;
+const jsonData = pm.response.json();
 pm.expect(jsonData.name).to.eql("John");
 ```
 
