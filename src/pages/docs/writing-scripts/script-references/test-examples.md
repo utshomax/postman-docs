@@ -51,7 +51,7 @@ You can use the following test script examples to write your own test scripts fo
     * [Asserting the current environment](#asserting-the-current-environment)
 * [Troubleshooting common test errors](#troubleshooting-common-test-errors)
     * [Assertion deep equality error](#assertion-deep-equality-error)
-    * [JSON not defined error](#json-not-defined-error)
+    * [Variable not defined error](#variable-not-defined-error)
     * [Assertion undefined error](#assertion-undefined-error)
     * [Test not failing](#test-not-failing)
 * [Validating response structure](#validating-response-structure)
@@ -451,9 +451,11 @@ pm.expect(1).to.eql("1");
 
 This happens because the test is comparing a number to a string value. The test will only return true if both the type and value are equal.
 
-### JSON not defined error
+### Variable not defined error
 
-You might encounter the `ReferenceError: <variable> is not defined` error. This typically happens when you're attempting to reference a JSON object that hasn't been declared or is outside the scope of your test code.
+You might encounter the `ReferenceError: <variable> is not defined` error. This typically happens when you're attempting to reference a variable that hasn't been declared or is outside the scope of your test code.
+
+In the following example, a JSON object is the value of a variable in the first test. The second test is attempting to reference the variable, but it can't because the variable is outside the scope of the second test's code.
 
 ```js
 /* Response has the following structure:
@@ -472,7 +474,7 @@ pm.test("Test 2", () => {
 });
 ```
 
-Make sure that any code setting your response data to a variable is available to all test code. For example, in this case moving `const jsonData = pm.response.json();` before the first `pm.test` would make it available to both test functions.
+ Make sure variables are available at the global scope if test functions needs to reference it. In the previous example, moving `const jsonData = pm.response.json();` before the first `pm.test` would make it available to both test functions.
 
 ### Assertion undefined error
 
