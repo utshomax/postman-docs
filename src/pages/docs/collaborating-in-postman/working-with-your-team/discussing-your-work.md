@@ -76,7 +76,7 @@ You can edit or delete a comment, or a get a link to a comment you can share wit
 
 <img alt="Managing a comment" src="https://assets.postman.com/postman-docs/v10/commenting-managing-v10-16.jpg" width="443px" />
 
-> If you have the [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) in the workspace, you can delete contributor comments, but you can't edit contributor comments.
+> If you're a [Workspace Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can delete contributor comments, but you can't edit contributor comments.
 
 ## Reply to comments
 
