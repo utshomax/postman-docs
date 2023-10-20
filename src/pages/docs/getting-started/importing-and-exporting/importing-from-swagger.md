@@ -1,6 +1,6 @@
 ---
-title: "Importing Swagger APIs"
-updated: 2023-09-29
+title: "Import Swagger APIs"
+updated: 2023-10-18
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -24,21 +24,24 @@ contextual_links:
 
 Postman can import APIs created with the Swagger toolset and any API that follows a [supported version of the OpenAPI specification](/docs/designing-and-developing-your-api/importing-an-api/#supported-api-definitions-formats).
 
-The terms "Swagger" and "OpenAPI" can be confusing because the OpenAPI specification was previously named SwaggerAPI, and people sometimes use the terms interchangeably. To clarify, in this document, "Swagger API" refers to an API created with the Swagger toolset.
+The terms _Swagger_ and _OpenAPI_ can be confusing because the OpenAPI specification was previously named Swagger, and people sometimes use the terms interchangeably. To clarify, in this document, _Swagger API_ refers to an API created with the Swagger toolset.
 
 ## Import a Swagger API
 
-To import a Swagger API, do the following:
+1. In Postman, select **Import** in the sidebar.
 
-1. Select **Import**.
-1. Select files, folders, enter a link to the API, or paste your raw text.
+1. Select an API definition file, enter a link to the API, or paste your raw text.
 
-    > You can also import an API definition from a code repository. Learn more about [importing and exporting](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/).
+1. You can choose to import the definition as a collection or as an API along with a collection.
 
-1. Choose to import your API as a **Postman Collection** or as **OpenAPI 3.0 with a Postman Collection**.
+    <img alt="API definition import options" src="https://assets.postman.com/postman-docs/v10/import-definition-options-v10-19.jpg" width="651px" />
 
     > Select **View Import Settings** for more configuration options. These options will vary depending on your API specification.
 
-1. Select **Import** to bring your API into Postman.
+1. Select **Import**.
 
-> To learn more ways to import APIs, read [Importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
+1. An **Import Complete** message displays in the footer. In the message, select the link icon <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-external-link.jpg#icon" width="18px"> next to a collection or API  to open the imported element.
+
+      <img alt="Import complete message" src="https://assets.postman.com/postman-docs/v10/import-complete-message-v10-19.jpg" width="697px" />
+
+> You can also [import an API from a code repository](/docs/getting-started/importing-and-exporting/importing-from-git/). To learn more ways to import APIs, go to [Import an API into Postman](/docs/designing-and-developing-your-api/importing-an-api/).
