@@ -143,7 +143,7 @@ The Postman web app is under active development. There are features you can only
 
 ## Using the Postman VS Code extension
 
-You can use Postman as a Visual Studio Code extension to test and collaborate on your APIs in the same application you're using to develop. With the [Postman VS Code extension](/docs/getting-started/basics/about-vs-code-extension/), you can send API requests, manage collections and environments, troubleshoot requests, and more directly from VS Code. To install the VS Code extension, visit the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode).
+You can use the [Postman VS Code extension](/docs/getting-started/basics/about-vs-code-extension/) to test and collaborate on your APIs in the same application you're using to develop. With the VS Code extension, you can send API requests, manage collections and environments, troubleshoot requests, and more directly from VS Code. To install the VS Code extension, visit the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode).
 
 ## Updating Postman
 
