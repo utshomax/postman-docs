@@ -1,6 +1,6 @@
 ---
 title: "Import data from New Relic"
-updated: 2023-08-15
+updated: 2023-10-18
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -29,10 +29,10 @@ Importing from New Relic requires you to get your API key (User key) from New Re
 
 ## Contents
 
-* [Getting your New Relic API key](#getting-your-new-relic-api-key)
-* [Importing New Relic data](#importing-new-relic-data)
+* [Get your New Relic API key](#get-your-new-relic-api-key)
+* [Import New Relic data](#import-new-relic-data)
 
-## Getting your New Relic API key
+## Get your New Relic API key
 
 1. Sign in to [New Relic](https://login.newrelic.com).
 1. Select your avatar, then select **API Keys**.
@@ -42,7 +42,7 @@ Importing from New Relic requires you to get your API key (User key) from New Re
 
 > There are different types of API keys in New Relic. Make sure to use a **User** key for importing into Postman. To learn more about API Keys in New Relic, see the [New Relic API keys documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
 
-## Importing New Relic data
+## Import New Relic data
 
 1. Select **Import** in the sidebar, then select **New Relic**.
 1. Enter the **API Key** (User key) you copied from New Relic, then select **Next**.
