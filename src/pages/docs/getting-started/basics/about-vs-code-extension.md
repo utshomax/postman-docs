@@ -1,7 +1,7 @@
 ---
 title: "About the Postman VS Code extension"
 updated: 2023-09-20
-search_keyword: "vs code extension, vs code plugin, vs code rest client, vs code api"
+search_keyword: "vs code extension, vs code plugin, vs code rest client, vs code api, VSC extension, visual studio extension"
 contextual_links:
   - type: section
     name: "Additional resources"
