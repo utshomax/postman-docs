@@ -36,6 +36,7 @@ Postman is also available on the web at [go.postman.co/home](https://go.postman.
     * [Browser requirements](#browser-requirements)
     * [Installing the Postman Desktop Agent](#installing-the-postman-desktop-agent)
     * [Web limitations](#web-limitations)
+* [Using the Postman VS Code extension](#using-the-postman-vs-code-extension)
 * [Updating Postman](#updating-postman)
 * [Chrome app (deprecated)](#postman-chrome-app-deprecated)
     * [Migrating to the native app](#migrating-to-the-native-app)
@@ -142,6 +143,10 @@ The Postman web app is under active development. There are features you can only
 * **Performance testing** - You can use the Postman desktop app to [simulate user traffic](/docs/collections/performance-testing/testing-api-performance/), so you can observe how your API behaves under load. Performance testing isn't available for the Postman web app.
 * **On-premises Git integration** - You must use the Postman desktop app to [connect your API](/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/) to GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server repositories.
 * **Lightweight Postman API Client** - You can use the [lightweight API Client](/docs/getting-started/basics/using-api-client/) to send requests from the Postman desktop app when you aren't signed in to Postman.
+
+## Using the Postman VS Code extension
+
+You can use the [Postman VS Code extension](/docs/getting-started/basics/about-vs-code-extension/) to test and collaborate on your APIs in the same application you're using to develop. With the VS Code extension, you can send API requests, manage collections and environments, troubleshoot requests, and more directly from VS Code. To install the VS Code extension, visit the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode).
 
 ## Updating Postman
 
