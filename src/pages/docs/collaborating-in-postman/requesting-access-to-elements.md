@@ -1,7 +1,5 @@
 ---
-title: "Request or approve access to Postman elements"
-order: 73
-page_id: "requesting-access-to-elements"
+title: "Manage, request, and approve access to Postman elements"
 updated: 2023-05-15
 contextual_links:
   - type: section
@@ -16,23 +14,50 @@ contextual_links:
   - type: link
     name: "2 Ways to Access and Edit a Postman Element"
     url: "https://blog.postman.com/access-and-edit-postman-element/"
-warning: false
-
 ---
 
-By default, you can view [workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) and the Postman elements in them that are shared with your team. If you need to edit an element, such as a workspace, collection, API, environment, mock server, or monitor, you can request [Editor role](/docs/collaborating-in-postman/roles-and-permissions/) access.
+By default, you can view [workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) and the Postman elements in them, such as collections, APIs, environments, mock servers, and monitors, that are shared with your team. If you need to edit a workspace or element in it, a team member with [Admin access for the workspace](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) or [Editor access for an element](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) can assign you the [Editor role](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles), or you can request it.
 
-To request role access for an element, you first need to join or get invited to the [shared workspace](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) that has the element, or be an [external user with permission to view a collection](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections). After you submit a request for access, your teammates with Admin access for the workspace or Editor access for the API, collection, environment, mock server, or monitor will receive a notification requesting their approval.
+To be assigned or request role access for a workspace or element, you first need to [join or get invited to the shared workspace](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/), or be an [external user with permission to view a collection](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
+
+After you submit a request to access, team members with Admin access for the workspace or Editor access for an element will receive a notification requesting their approval.
 
 > Roles and permissions are available depending on your [Postman plan](https://www.postman.com/pricing).
 
 ## Contents
 
+* [Managing workspace roles](#managing-workspace-roles)
+* [Managing element-based roles](#managing-element-based-roles)
 * [Requesting role access for workspaces](#requesting-role-access-for-workspaces)
 * [Requesting Editor role access for elements](#requesting-editor-role-access-for-elements)
     * [Requesting Editor role access for an element](#requesting-editor-role-access-for-an-element)
     * [Requesting Editor role access for a collection as an external user](#requesting-editor-role-access-for-a-collection-as-an-external-user)
 * [Approving requests for access](#approving-requests-for-access)
+
+## Managing workspace roles
+
+Team members with Admin access for the workspace can [manage workspace roles assigned to team members](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles).
+
+## Managing element-based roles
+
+Team members with Admin access for the workspace or Editor access for an element in it can manage element-based roles assigned to team members. Learn more about [roles you can assign at the element level](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles).
+
+1. Hover over the element in the sidebar.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
+1. Select **Manage roles**.
+
+    <img alt="Collection Manage Roles" src="https://assets.postman.com/postman-docs/v10/collection-manage-roles-v10.jpg" width="300px"/>
+
+1. (Optional) Search for team members and [user groups](/docs/collaborating-in-postman/user-groups/) in the workspace to add to the element.
+1. Select the role next to their name, then select a different role. You can also select **Remove** to remove a team member or user group from the element.
+
+    If you're managing roles for a collection, you can learn more about [setting merge checks](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/#assign-merge-checks).
+
+    > Team members inherit permissions from the workspace role they're assigned. Team members can be individually assigned a workspace role, and the user group they're a member of can be assigned a workspace role. For example, a team member assigned the Workspace Editor role and Collection Viewer role will have Editor access to all collections in the workspace.
+
+    <img alt="Manage Roles" src="https://assets.postman.com/postman-docs/v10/manage-roles-collection-v10.jpg" width="600px"/>
+
+1. Select **Update Roles** to save your changes.
 
 ## Requesting role access for workspaces
 
