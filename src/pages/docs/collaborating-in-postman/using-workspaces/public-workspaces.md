@@ -1,6 +1,9 @@
 ---
 title: "Collaborate with the Postman community using public workspaces"
-updated: 2023-10-20
+order: 76
+page_id: "public_workspaces"
+updated: 2023-07-15
+warning: false
 contextual_links:
   - type: section
     name: "Additional resources"

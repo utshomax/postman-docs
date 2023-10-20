@@ -1,6 +1,6 @@
 ---
 title: "Visualize request responses using Postman Visualizer"
-updated: 2023-10-20
+updated: 2023-09-26
 contextual_links:
   - type: section
     name: "Additional resources"

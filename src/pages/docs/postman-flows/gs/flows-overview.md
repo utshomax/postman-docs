@@ -1,6 +1,6 @@
 ---
 title: "Build API applications visually using Postman Flows"
-updated: 2023-10-20
+updated: 2023-07-17
 contextual_links:
   - type: section
     name: "Additional resources"

@@ -1,6 +1,6 @@
 ---
 title: "API version control in Postman"
-updated: 2023-10-20
+updated: 2022-11-17
 contextual_links:
   - type: section
     name: "Additional resources"

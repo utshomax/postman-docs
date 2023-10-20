@@ -1,6 +1,7 @@
 ---
 title: "Postman CLI command options"
-updated: 2023-10-20
+updated: 2022-10-18
+warning: false
 tags:
   - "Postman CLI"
 contextual_links:

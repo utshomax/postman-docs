@@ -1,6 +1,6 @@
 ---
 title: "Access Postman data programmatically"
-updated: 2023-10-20
+updated: 2023-06-22
 search_keyword: "postman-api"
 contextual_links:
   - type: section

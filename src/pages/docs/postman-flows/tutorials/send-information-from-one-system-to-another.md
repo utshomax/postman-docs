@@ -1,6 +1,6 @@
 ---
 title: "Send information from one system to another using Postman Flows"
-updated: 2023-10-20
+updated: 2023-07-19
 contextual_links:
   - type: section
     name: "Additional resources"

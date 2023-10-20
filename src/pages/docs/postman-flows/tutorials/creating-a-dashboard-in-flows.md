@@ -1,6 +1,6 @@
 ---
 title: "Create a dashboard using Postman Flows"
-updated: 2023-10-20
+updated: 2023-08-07
 contextual_links:
   - type: section
     name: "Additional resources"

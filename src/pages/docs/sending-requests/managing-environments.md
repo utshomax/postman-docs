@@ -1,6 +1,8 @@
 ---
 title: "Group sets of variables in Postman using environments"
-updated: 2023-10-20
+order: 25
+updated: 2022-11-16
+page_id: "managing-environments"
 search_keyword: "pm.globals.set, globals.set, pm.environment.set, environment.set, pm.variables.get, variables.get, pm.globals.get, globals.get, pm.environment.get, environment.get"
 contextual_links:
   - type: section
