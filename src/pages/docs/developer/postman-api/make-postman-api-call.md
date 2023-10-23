@@ -65,7 +65,7 @@ For your first request, use the `/me` endpoint. This is a basic GET endpoint tha
 
 ### Fork the Postman API collection
 
-Before you call the `/me` endpoint, fork the [Postman API collection](https://www.postman.com/postman/workspace/postman-public-workspace/collection/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a?ctx=documentation). [Forking](/docs/collaborating-in-postman/using-version-control/forking-entities/) creates a copy of the collection that you can change but does not affect the parent element.
+Before you call the `/me` endpoint, fork the [Postman API collection](https://www.postman.com/postman/workspace/postman-public-workspace/collection/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a?ctx=documentation). [Forking](/docs/collaborating-in-postman/using-version-control/forking-elements/) creates a copy of the collection that you can change but does not affect the parent element.
 
 1. In the Postman API collection you can find the **Fork** option in the overview tab. Select <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> **Fork**. You can also select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection's name, then **Create a fork**.
 
