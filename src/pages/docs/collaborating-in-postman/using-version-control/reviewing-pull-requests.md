@@ -68,12 +68,29 @@ Adding comments as a reviewer is an important part of the pull request process, 
 
 To add a comment to a pull request, do the following:
 
-1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> next to the change that you want to comment on.
-1. Once you've written your comment, select **Add Comment**.
+1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar and enter your comment.
 
-<img alt="Add a comment to a pull review" src="https://assets.postman.com/postman-docs/v10/pr-add-comment-v10.jpg"/>
+    > Postman supports Markdown in comments. See the [Markdown Cheatsheet on GitHub](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for tips on formatting.
 
-> To tag another user in your comment, use the **@** symbol before their username.
+1. Select **Comment** to add your comment.
+
+    <img alt="Add a comment to a pull review" src="https://assets.postman.com/postman-docs/v10/pr-add-comment-sidebar-v10-19-b.jpg" width="500px"/>
+
+    > To mention a collaborator in a comment, type `@` followed by their name, then choose the person from the auto-suggested list. When you mention a teammate in a comment, Postman sends them a notification.
+
+To leave an inline comment on a pull request, do the following:
+
+1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> next to a change and enter your comment.
+1. Select **Comment** to add your comment. If comments are associated with a change, you can select the comments notification icon <img alt="Comments notification icon" src="https://assets.postman.com/postman-docs/v10/icon-comments-notification-v10.jpg#icon" width="23px"> next to a change to view its comments.
+
+    <img alt="Add an inline comment to a pull review" src="https://assets.postman.com/postman-docs/v10/pr-add-comment-inline-v10-19.jpg"/>
+
+To reply to comments on a pull request, do the following:
+
+1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar, and select the comment you want to reply to. You can also select the comments notification icon <img alt="Comments notification icon" src="https://assets.postman.com/postman-docs/v10/icon-comments-notification-v10.jpg#icon" width="23px"> next to a change.
+1. Enter your reply and select **Reply**.
+
+    <img alt="Reply to an inline comment on a pull review" src="https://assets.postman.com/postman-docs/v10/pr-reply-to-inline-comment-v10-19.jpg"/>
 
 ## Editing or declining a pull request
 

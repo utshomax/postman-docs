@@ -141,6 +141,8 @@ To edit an example after trying it, do the following:
 1. (Optional) Select the **Watch collection** checkbox to be notified when there are changes to the collection that the example is in.
 1. Select **Comment** to add your comment.
 
+> You can learn more about [using comments to collaborate on examples](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/).
+
 ## Duplicating an example
 
 Duplicate an example to add a new example using an existing example as a base. You can then edit the copied example to change the name, status code, or any other part of the request or response.

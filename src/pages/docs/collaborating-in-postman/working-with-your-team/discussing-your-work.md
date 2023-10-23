@@ -14,26 +14,26 @@ contextual_links:
     url: "https://www.youtube.com/watch?v=fkYiyCj43uk&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=6"
 ---
 
-Use comments to discuss your work with your teammates in Postman. You can add comments to collections, folders, and requests. Reply to a comment to keep the discussion going, or resolve a comment if it's been addressed. If you have questions or feedback, you can let your teammates know by mentioning them in your comments.
+Use comments to discuss your work with your teammates in Postman. You can add comments to collections, folders, requests, and examples. Reply to a comment to keep the discussion going, or resolve a comment if it's been addressed. If you have questions or feedback, you can let your teammates know by mentioning them in your comments.
 
 > You can also add comments to APIs and API definitions in Postman. Learn more about [commenting on APIs](/docs/designing-and-developing-your-api/managing-apis/#commenting-on-apis).
 
 ## Contents
 
-* [Comment on a collection, folder, or request](#comment-on-a-collection-folder-or-request)
+* [Comment on a collection, folder, request, or example](#comment-on-a-collection-folder-request-or-example)
 * [Reply to comments](#reply-to-comments)
 * [Resolve comments](#resolve-comments)
 * [Mention teammates in comments](#mention-teammates-in-comments)
 
-## Comment on a collection, folder, or request
+## Comment on a collection, folder, request, or example
 
-You can add comments to a collection in Postman. You can also add comments to requests or folders in collections. When you add a comment, Postman notifies other collection contributors about your comment.
+You can add comments to a collection in Postman. You can also add comments to folders, requests, or examples in collections. When you add a comment, Postman notifies other collection contributors about your comment.
 
 > You must have access to a collection to add comments to it.
 
-To add a comment to a collection, folder, or request, do the following:
+To add a comment to a collection, folder, request, or example, do the following:
 
-1. Select **Collections** in the sidebar and select the collection, folder, or request you want to comment on.
+1. Select **Collections** in the sidebar and select the collection, folder, request, or example you want to comment on.
 1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar and enter your comment.
 
     > Postman supports Markdown in comments. See the [Markdown Cheatsheet on GitHub](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for tips on formatting.
@@ -66,7 +66,7 @@ To add an inline comment, do the following:
 
 You can edit or delete a comment, or a get a link to a comment you can share with others.
 
-1. Select a collection, folder, or request in the sidebar, then select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
+1. Select a collection, folder, request, or example in the sidebar, then select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a comment and do one of the following:
 
     * Select **Copy link** to copy a direct link to the comment to your clipboard.
@@ -79,17 +79,17 @@ You can edit or delete a comment, or a get a link to a comment you can share wit
 
 ## Reply to comments
 
-You can reply to a comment to keep the conversation going. Replies are grouped with the original comment, so you can have more than one comment thread on a collection, folder, or request. When you reply to a comment, the user who added the comment will receive a notification about your reply.
+You can reply to a comment to keep the conversation going. Replies are grouped with the original comment, so you can have more than one comment thread on a collection, folder, request, or example. When you reply to a comment, the user who added the comment will receive a notification about your reply.
 
 To reply to a comment, do the following:
 
-1. Select a collection, folder, or request in the sidebar, then select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
+1. Select a collection, folder, request, or example in the sidebar, then select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
 1. Select the comment you want to reply to and enter your reply.
 
     > If you select an inline comment or open a link to an inline comment, Postman automatically switches to comment mode and opens the comment in context on the request.
 
 1. (Optional) Select the **Watch collection** checkbox to be notified when there are changes to the collection.
-1. Enter your reply and select **Reply**.
+1. Select **Reply**.
 
 <img alt="Replying to a comment" src="https://assets.postman.com/postman-docs/v10/commenting-replying-v10-16.jpg" width="443px" />
 
@@ -97,7 +97,7 @@ To reply to a comment, do the following:
 
 You can resolve a comment after it's been addressed.
 
-1. Select a collection, folder, or request in the sidebar, then select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
+1. Select a collection, folder, request, or example in the sidebar, then select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
 1. Select the resolve icon <img alt="Resolve comment icon" src="https://assets.postman.com/postman-docs/v10/icon-resolve-comment-v10.jpg#icon" width="18px"> to resolve a comment and any associated replies.
 
 <img alt="Resolving a comment" src="https://assets.postman.com/postman-docs/v10/commenting-resolving-v10-16.jpg" width="443px" />
@@ -106,7 +106,7 @@ You can resolve a comment after it's been addressed.
 
 ## Mention teammates in comments
 
-If you leave feedback or a question for a specific teammate, you can let them know by mentioning them in your comment. To mention a teammate in a comment, enter @ followed by their name, then select the person from the list.
+If you leave feedback or a question for a specific teammate, you can let them know by mentioning them in your comment. To mention a teammate in a comment, enter `@` followed by their name, then select the person from the list.
 
 When you mention a teammate in a comment, Postman sends them a notification. Select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header to view in-app notifications.
 
