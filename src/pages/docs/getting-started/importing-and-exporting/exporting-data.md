@@ -1,6 +1,6 @@
 ---
 title: "Export data from Postman"
-updated: 2023-07-19
+updated: 2023-10-18
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -15,13 +15,14 @@ You can export your Postman data, including collections, environments, global va
 
 ## Contents
 
-* [Exporting collections](#exporting-collections)
-* [Exporting environments](#exporting-environments)
-* [Exporting data dumps](#exporting-data-dumps)
+* [Export collections](#export-collections)
+* [Export environments](#export-environments)
+* [Export data dumps](#export-data-dumps)
 
-## Exporting collections
+## Export collections
 
-1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection, then select **Export**.
+1. Select **Collections** in the sidebar.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection, then select **Export**.
 
    <img alt="Export collection" src="https://assets.postman.com/postman-docs/export-collection-v9.1.jpg" width="350px" />
 
@@ -29,23 +30,21 @@ You can export your Postman data, including collections, environments, global va
 
    > Learn more about Postman's [collection format](https://learning.postman.com/collection-format/getting-started/overview/).
 
-1. Select **Export** to download your newly generated JSON file.
+1. Select **Export** to download the generated JSON file.
 
-## Exporting environments
-
-You can also export your environments from Postman.
+## Export environments
 
 1. Select **Environments** in the sidebar.
-1. Select an environment to export.
-1. In the workbench, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select **Export** to download your newly generated JSON file.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an environment, then select **Export**.
+1. Select **Save** to download the generated JSON file.
 
 > To export your global variables, select **Environments** in the sidebar. Select **Globals** in the sidebar, then select **Export** in the workbench.
 
-## Exporting data dumps
+## Export data dumps
 
 You can export a data dump of all your collections, environments, globals, and header presets in Postman.
 
-> You can export individual collections and environments from the Scratch Pad. You can't make bulk data exports of all collections and environments at once.
+> You can export individual collections and environments from the [Scratch Pad](/docs/getting-started/basics/using-scratch-pad/). You can't make bulk data exports of all collections and environments at once.
 
 1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Settings**.
 
