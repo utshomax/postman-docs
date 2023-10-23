@@ -72,16 +72,7 @@ class AutoFlexPolicyPage extends React.Component {
                 Postman offers a flexible model that simplifies how you can add Users to your Postman team. With the &quot;auto-flex&quot; model, you can authorize additional Users at any time through the administrative dashboard of your Postman Service, instead of having to purchase each additional User license with Postman prior to enablement.
               </p>
               <p>
-                We will bill you for any additional Users on a monthly basis for <a href='https://www.postman.com/pricing/'>monthly plans</a>, and
-                on a quarterly basis for annual plans, measured from the date of your initial
-                purchase. Shortly before the applicable billing date, your Billing and Admin User
-                will receive a notification that reflects the number of added Users during that
-                monthly or quarterly cycle. Your Admin User can make adjustments to the number of
-                Users on your plan through the administrative dashboard at any time prior to the
-                billing date, provided however, once you have been billed you may not reduce the
-                number of Users until the end of your then-current Subscription Term. Then, on the
-                billing date, you will be billed for the number of additional Users on your plan as
-                of the billing date. All fees paid are non-refundable.
+                We will bill you for any additional Users on a monthly basis for <a href='https://www.postman.com/pricing/'>monthly plans</a>, and on a quarterly basis for annual plans, measured from the date of your initial purchase. For customers on Postman Enterprise plans who are <a href='/docs/billing/billing/#paying-by-invoice'>paying by invoice</a>, the last quarter of the billing cycle will only be 6 weeks long and the first quarter of the next billing cycle will be an extra 6 weeks long (18 weeks total). Shortly before the applicable billing date, your Billing and Admin User will receive a notification that reflects the number of added Users during that cycle. Your Admin User can make adjustments to the number of Users on your plan through the administrative dashboard at any time prior to the billing date, provided however, once you have been billed you may not reduce the number of Users until the end of your then-current Subscription Term. Then, on the billing date, you will be billed for the number of additional Users on your plan as of the billing date. All fees paid are non-refundable.
               </p>
               <h2 id="summary">Summary</h2>
               <ul>
@@ -148,7 +139,7 @@ class AutoFlexPolicyPage extends React.Component {
                 To learn more about the
                 different types of roles and permissions you can assign in Postman, visit
                 {' '}
-                <a href="https://learning.postman.com/docs/collaborating-in-postman/roles-and-permissions/">
+                <a href="/docs/collaborating-in-postman/roles-and-permissions/">
                   Defining Roles
                 </a>
                 .
