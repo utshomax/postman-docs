@@ -21,7 +21,7 @@ contextual_links:
 
 > **[Groups are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-With Postman groups, you can arrange users into groups that reflect your organizational structure. You can add users to a group, then assign that group roles and access to the resources they'll be using across Postman. You can also efficiently onboard new team members by adding them to existing groups in your organization, instantly giving them access to the entities they'll be working on. Groups enable you to broadly control access from a single dashboard in Postman and manage it at scale across your Enterprise team.
+With Postman groups, you can arrange users into groups that reflect your organizational structure. You can add users to a group, then assign that group roles and access to the resources they'll be using across Postman. You can also efficiently onboard new team members by adding them to existing groups in your organization, instantly giving them access to the elements they'll be working on. Groups enable you to broadly control access from a single dashboard in Postman and manage it at scale across your Enterprise team.
 
 [Admins and Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create, manage, and delete groups. [Developers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can also create, manage, and delete Developer-only groups.
 
@@ -39,7 +39,7 @@ With Postman groups, you can arrange users into groups that reflect your organiz
 
         * [Editing team roles for a group](#editing-team-roles-for-a-group)
 
-        * [Managing roles on workspaces and Postman entities](#managing-roles-on-workspaces-and-postman-entities)
+        * [Managing roles on workspaces and Postman elements](#managing-roles-on-workspaces-and-postman-elements)
 
     * [Editing details for a group](#editing-details-for-a-group)
 
@@ -63,7 +63,7 @@ Team members will receive an email and in-app notification when added to a group
 
 ## Managing a group
 
-You can manage a group's members, roles, and access to Postman entities.
+You can manage a group's members, roles, and access to Postman elements.
 
 ### Managing members of a group
 
@@ -107,7 +107,7 @@ Select the team roles you'd like to assign to the group, or deselect team roles 
 
 > To learn more about roles and their permissions, see [Team Roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
 
-#### Managing roles on workspaces and Postman entities
+#### Managing roles on workspaces and Postman elements
 
 You can control a group's access to individual workspaces, collections, APIs, environments, mock servers, and monitors. For more information on managing workspaces, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 
