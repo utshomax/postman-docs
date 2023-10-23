@@ -332,6 +332,36 @@ const DocPage = ({ data }) => {
             
               <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 doc-page ml-xl-5">
                 <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
+                {post.frontmatter.plan === 'alpha' ? 
+                  <div className="alphaPlan">
+                    <p style={{'color': 'red'}}>Alpha plan</p>
+                  </div> :
+                  null
+                }
+                {post.frontmatter.plan === 'beta' ? 
+                  <div className="alphaPlan">
+                    <p style={{'color': 'red'}}>Beta plan</p>
+                  </div> :
+                  null
+                }
+                {post.frontmatter.plan === 'preview' ? 
+                  <div className="alphaPlan">
+                    <p style={{'color': 'red'}}>Preview plan</p>
+                  </div> :
+                  null
+                }
+                {post.frontmatter.plan === 'limited' ? 
+                  <div className="alphaPlan">
+                    <p style={{'color': 'red'}}>Preview plan</p>
+                  </div> :
+                  null
+                }
+                {post.frontmatter.plan === 'deprecated' ? 
+                  <div className="alphaPlan">
+                    <p style={{'color': 'red'}}>Preview plan</p>
+                  </div> :
+                  null
+                }
                 <h1>{post.frontmatter.title}</h1>
                 <DocContent id="LoadDoc" />
                 {
@@ -391,6 +421,7 @@ export const query = graphql`
       frontmatter {
         title
         early_access
+        plan
         contextual_links {
           type
           name

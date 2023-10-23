@@ -2,6 +2,7 @@
 title: "Keep Out"
 updated: 2023-05-22
 early_access: true
+plan: preview
 contextual_links:
   - type: section
     name: "Additional resources"
