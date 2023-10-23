@@ -40,6 +40,8 @@ To back up your collections to a Bitbucket repository, do the following:
 
     <img alt="Configure Bitbucket integration" src="https://assets.postman.com/postman-docs/v10/add-integration-bitbucket-form-v10.18.jpg" width="450px">
 
+Postman often checks your collection for changes. If Postman identifies changes when it checks your collection, the changes automatically commit to your repository in JSON format.
+
 To view your collections in Bitbucket, go to your [Bitbucket dashboard](https://bitbucket.org/dashboard/overview) > **Repositories**. Select your repository, then select **Commits**.
 
 ![Bitbucket commits list](https://assets.postman.com/postman-docs/bitbucket-commits.jpg)
