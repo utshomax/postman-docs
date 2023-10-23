@@ -24,7 +24,7 @@ contextual_links:
 
 > [Configurable governance rules are available on Postman Enterprise plans.](https://www.postman.com/pricing) If you don't have an Enterprise account, you'll be able to see the API Governance page, but you won't be able to turn rules on or off or add new rules.
 
-You can customize the API Governance rules that Postman applies to your [API definitions](/docs/api-governance/api-definition/api-definition-warnings/). Adhering to these API Governance rules at the start of the API lifecycle keeps your API consistent without requiring extra work at later stages. This can prevent unnecessary delays for your organization.
+You can configure the API Governance rules that Postman applies to your [API definitions](/docs/api-governance/api-definition/api-definition-warnings/) in [OpenAPI 3.0](/docs/api-governance/api-definition/openapi3/), [OpenAPI 2.0](/docs/api-governance/api-definition/openapi2/), and [AsyncAPI 2](/docs/api-governance/api-definition/asyncapi2/) formats. Adhering to these API Governance rules at the start of the API lifecycle keeps your API consistent without requiring extra work at later stages, which can prevent unnecessary delays for your organization. You can also create custom API Governance rules that apply to your API definitions in OpenAPI format.
 
 [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and [API Governance Managers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can configure rules and turn them on and off for workspaces within your team.
 
@@ -47,11 +47,13 @@ You can customize the API Governance rules that Postman applies to your [API def
 
 ## Adding rules to your API Governance configuration
 
-In addition to the rules turned on by default in Postman, you can add other rules to your team's rule library from the rule library. You can also create your own custom rules.
+In addition to the rules turned on by default in Postman, you can add other rules to your team's rule library from the rule library. You can also create your own custom rules for API definitions in OpenAPI format.
 
 ### Importing rules from the rule library
 
 The rule library has Postman's API governance guidelines, Zalando's RESTful API and event guidelines, Postman's OWASP API guidelines, and Postman's AsyncAPI library.
+
+To import rules from the library, do the following:
 
 1. Select the **Rule Library** tab, and then select the **Rules** tab.
 1. Select **Import** to open the rule library.
@@ -65,7 +67,7 @@ The rule library has Postman's API governance guidelines, Zalando's RESTful API 
 
 ### Adding custom rules
 
-You can create new custom governance rules for Postman to evaluate your API's definition. Postman provides you with a boilerplate rule to help you start writing your custom governance rules. You can also use snippets of commonly-used property-value pairs to help you write your custom governance rules.
+You can create new custom governance rules for Postman to evaluate your API's definition in OpenAPI format. Postman provides you with a boilerplate rule to help you start writing your custom governance rules. You can also use snippets of commonly-used property-value pairs to help you write your custom governance rules.
 
 To add a custom rule, do the following:
 

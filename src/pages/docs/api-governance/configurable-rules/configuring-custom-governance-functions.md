@@ -5,7 +5,7 @@ updated: 2023-06-15
 
 > [API Governance custom functions are available on Postman Enterprise plans.](https://www.postman.com/pricing) If you don't have an Enterprise account, you'll be able to see the API Governance page, but you won't be able to configure custom functions.
 
-You can create custom governance functions and use them in your [custom API Governance rules](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules) that Postman applies to your [API definitions](/docs/api-governance/api-definition/api-definition-warnings/).
+You can create custom governance functions and use them in your [custom API Governance rules](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules) that Postman applies to your [API definitions](/docs/api-governance/api-definition/api-definition-warnings/) in [OpenAPI 3.0](/docs/api-governance/api-definition/openapi3/) and [OpenAPI 2.0](/docs/api-governance/api-definition/openapi2/) formats.
 
 [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and [API Governance Managers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can manage custom governance functions for their team.
 
