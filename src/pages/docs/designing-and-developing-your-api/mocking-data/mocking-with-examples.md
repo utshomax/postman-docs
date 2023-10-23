@@ -1,6 +1,6 @@
 ---
 title: "Mock your API using saved response examples"
-updated: 2023-10-04
+updated: 2023-10-23
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -19,25 +19,25 @@ contextual_links:
     url: "https://blog.postman.com/shifting-left-with-postman/"
 ---
 
-[Mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) simulate an API by returning predefined data, enabling you to develop or test an API before it's ready for production (or without using production data). In Postman, mock servers rely on [examples](/docs/sending-requests/examples/) saved in a collection to return mock data. Follow the steps below to get a hands-on demonstration of how mock servers and examples work together, and to learn how you can integrate them into your API workflow.
+[Mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) simulate an API by returning predefined data, enabling you to develop or test an API before it's ready for production (or without using production data). In Postman, mock servers rely on [examples](/docs/sending-requests/examples/) saved in a collection to return mock data. Follow the steps below for a demonstration of how mock servers and examples work together, and to learn how you can integrate them into your API workflow.
 
 ## Contents
 
 * [Creating a mock server](#creating-a-mock-server)
-    * [Step 1: Send a request](#step-1-send-a-request)
-    * [Step 2: Save the request to a collection](#step-2-save-the-request-to-a-collection)
-    * [Step 3: Save a response as an example](#step-3-save-a-response-as-an-example)
-    * [Step 4: Create a mock server for the collection](#step-4-create-a-mock-server-for-the-collection)
-    * [Step 5: Send a request to the mock server](#step-5-send-a-request-to-the-mock-server)
-    * [Step 6: Add another example](#step-6-add-another-example)
+    * [Send a request](#send-a-request)
+    * [Save the request to a collection](#save-the-request-to-a-collection)
+    * [Save a response as an example](#save-a-response-as-an-example)
+    * [Create a mock server for the collection](#create-a-mock-server-for-the-collection)
+    * [Send a request to the mock server](#send-a-request-to-the-mock-server)
+    * [Add another example](#add-another-example)
 * [Using query parameters](#using-query-parameters)
 * [Mocking GraphQL queries](#mocking-graphql-queries)
 
 ## Creating a mock server
 
-The steps below walk you through the process of creating a mock server in Postman. First, you'll set up some basics that are required for mock servers to work. Once your mock server is up and running, you'll send requests to it and understand how your examples are used to return data.
+The steps below walk you through the process of creating a mock server in Postman. First, you'll set up some basics that are required for mock servers to work. Once your mock server is up and running, you'll send requests to it and learn how your examples are used to return data.
 
-### Step 1: Send a request
+### Send a request
 
 Create an HTTP `GET` request that calls the [Postman Echo](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) service. You can use this service to test REST or SOAP clients and make sample API calls.
 
@@ -49,7 +49,7 @@ To create and send a request, do the following:
 
 <img alt="Send a request" src="https://assets.postman.com/postman-docs/v10/mock-examples-step1-v10-2.jpg" width="750px">
 
-### Step 2: Save the request to a collection
+### Save the request to a collection
 
 Create a new collection and save the request to it. [Collections](/docs/sending-requests/intro-to-collections/) are groups of requests that you can use to organize your work and create API workflows.
 
@@ -66,7 +66,7 @@ To save the request in a new collection, do the following:
 
     <img alt="Save a request to a new collection" src="https://assets.postman.com/postman-docs/v10/mock-examples-step2b-v10.jpg" width="482px">
 
-### Step 3: Save a response as an example
+### Save a response as an example
 
 Save the response you received from the Postman Echo service as an example.
 
@@ -74,13 +74,13 @@ Save the response you received from the Postman Echo service as an example.
 
     <img alt="Save an example" src="https://assets.postman.com/postman-docs/v10/mock-examples-step3a-v10-2.jpg" width="350px">
 
-1. To rename the example, select the example name and rename the example to `E1`. The request method, URL, and status code are all saved as part of the example. Postman uses these items to determine which responses the mock server returns.
+1. To rename the example, select the example name and rename the example to `E1`. The request method, URL, and status code are all saved as part of the example. Postman uses these items to decide which responses the mock server returns.
 
     <img alt="Rename an example" src="https://assets.postman.com/postman-docs/v10/mock-examples-step3c-v10.jpg" width="600px">
 
-### Step 4: Create a mock server for the collection
+### Create a mock server for the collection
 
-After you [add an example to your collection](#step-3-save-a-response-as-an-example), you can set up the mock server.
+After you [add an example to your collection](#save-a-response-as-an-example), you can set up the mock server.
 
 > You can also create a mock server [using the Postman API](/docs/designing-and-developing-your-api/mocking-data/mock-with-api/).
 
@@ -96,9 +96,9 @@ To create a mock server for the collection, do the following:
 
     <img alt="Create a mock server" src="https://assets.postman.com/postman-docs/v10/mock-examples-step4b-v10.jpg" width="779px">
 
-### Step 5: Send a request to the mock server
+### Send a request to the mock server
 
-After you [create the mock server](#step-4-create-a-mock-server-for-the-collection), you can send a request to the mock endpoint.
+After you [create the mock server](#create-a-mock-server-for-the-collection), you can send a request to the mock endpoint.
 
 1. Select **Mock Servers** in the sidebar.
 1. Select the `M1` mock server, then select the copy icon <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> to copy the mock server URL.
@@ -115,18 +115,18 @@ After you [create the mock server](#step-4-create-a-mock-server-for-the-collecti
 
     <img alt="Mock server correct response" src="https://assets.postman.com/postman-docs/v10/mock-examples-step5c-v10-2.jpg" width="750px">
 
-### Step 6: Add another example
+### Add another example
 
 You can add another example to test how responses from the mock service depend on saved examples.
 
-1. [Create and send a request](#step-1-send-a-request). Select `GET` as the method, and enter `https://postman-echo.com/test` as the request URL.
-1. [Save the request](#step-2-save-the-request-to-a-collection) to the `C1` collection.
-1. [Save the response as an example](#step-3-save-a-response-as-an-example). Rename the example to `E2`.
+1. [Create and send a request](#send-a-request). Select `GET` as the method, and enter `https://postman-echo.com/test` as the request URL.
+1. [Save the request](#save-the-request-to-a-collection) to the `C1` collection.
+1. [Save the response as an example](#save-a-response-as-an-example). Rename the example to `E2`.
 
     <img alt="Add a second example" src="https://assets.postman.com/postman-docs/v10/mock-examples-step6a-v10.jpg" width="808px">
 
     The `GET` request to `https://postman-echo.com/test` returns a `404 Not Found` status code.
-1. [Send a request to the mock server](#step-5-send-a-request-to-the-mock-server). Update the path at the end of the mock server URL to `/test` and select **Send**. The mock server returns the expected `404 Not Found` status code.
+1. [Send a request to the mock server](#send-a-request-to-the-mock-server). Update the path at the end of the mock server URL to `/test` and select **Send**. The mock server returns the expected `404 Not Found` status code.
 
     <img alt="Send another request to the mock server" src="https://assets.postman.com/postman-docs/v10/mock-examples-step6b-v10-2.jpg" width="750px">
 
