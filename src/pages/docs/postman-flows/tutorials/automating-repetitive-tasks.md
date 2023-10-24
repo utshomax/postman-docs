@@ -29,7 +29,7 @@ You can find the complete Flow [here](https://www.postman.com/postman/workspace/
 
 ## Fork the collections and environment
 
-[Fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) these collections from the [DevOps Flows] workspace into your workspace:
+[Fork](/docs/collaborating-in-postman/using-version-control/forking-elements/) these collections from the [DevOps Flows] workspace into your workspace:
 
 * [Stripe API](https://www.postman.com/postman/workspace/devops-flows/collection/23919558-28c83ecb-a721-46ae-af8f-a69cddd5007b?action=share&creator=21580188)
 
