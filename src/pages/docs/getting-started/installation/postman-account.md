@@ -71,9 +71,11 @@ When you sign in using the Postman desktop app, the app will open a new screen t
 
 Sign in to Postman in your browser by entering your account credentials or signing in with Google. If you're signing in to a Postman Professional or Enterprise team with single-sign on (SSO) enabled, opt to **Sign in with SSO**. To learn more, see [Signing in to an SSO team](/docs/administration/sso/user-sso/).
 
-> If this is your first time signing in to Postman with Google or SSO, you might need to [link your account to Postman](#linking-your-account-to-postman).
+> If this is your first time signing in to Postman with SSO, you might need to [link your account to Postman](#linking-your-account-to-postman).
 
-Select **Stay signed in for 30 days** if you want to remain signed in after your current session for 30 days before re-authenticating. If you don't want to remain signed in on the computer you're working on, clear this checkbox. Note that Postman will prompt you to sign in again after 30 minutes.
+Select **Stay signed in** if you want to remain signed in until you are inactive for 30 days before being asked to re-authenticate. Clear this checkbox if you don't want to remain signed in on the computer you're working on. Note that Postman will prompt you to sign in again after 30 minutes.
+
+> Your team may have set up a maximum session duration for all team members. In that case, sessions will be revoked based on the team setting.
 
 If you've set up [two-factor authentication](#setting-up-two-factor-authentication) (2FA), Postman will prompt you to enter the verification code from your authenticator app and select **Verify**.
 
@@ -87,16 +89,14 @@ If you're a member of multiple Postman teams with varying authentication methods
 
 ### Linking your account to Postman
 
-If you sign in to Postman with Google or SSO using an email address associated with a Postman account, you might need to link your account to Postman the first time you sign in. Follow the steps to link your Google or identity provider (IdP) account to Postman. You only need to link your account to Postman one time.
+If you sign in to Postman with SSO for the first time, and use an email address associated with an existing account, you may need to link your identity provider (IdP) account to Postman. This is required if your email address doesn't use a domain or subdomain that your organization has [verified](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/).
 
-To link your Google or IdP account to Postman, do the following:
+To link your IdP account to Postman, do the following:
 
-1. [Sign in to Postman](#signing-in-to-postman) with Google or SSO.
-1. Enter your Postman account credentials, and then select either **Sign in to link your Google account**  or **Sign in to link your SSO account**.
+1. [Sign in to Postman](#signing-in-to-postman) with SSO.
+1. Enter your Postman account credentials, and then select **Sign in to link your SSO account**.
 
-    <img alt="Link SSO account to Postman" src="https://assets.postman.com/postman-docs/v10/sign-in-to-link-sso-account-v10.jpg" width="350px"/>
-
-The next time you sign in to Postman with Google or SSO your account will already be linked to your Postman account.
+You only need to link your IdP account to Postman the first time you sign in with SSO.
 
 ### Switching between accounts
 
