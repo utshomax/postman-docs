@@ -71,7 +71,7 @@ To request to add elements from your Private API network, do the following:
 
     If you're requesting to add collections, you can optionally select environments in their workspace to make sure users have access to environment variables. You can also [edit a collection's environments later](/docs/collaborating-in-postman/private-api-network/managing-private-network/#editing-collections).
 
-    You can select **Added elements** in the upper-right corner to show elements already added to the Private API Network. You can select the **Collections** tab and then **Forks** in the upper-right corner to show [forked collections](/docs/collaborating-in-postman/using-version-control/forking-entities/).
+    You can select **Added elements** in the upper-right corner to show elements already added to the Private API Network. You can select the **Collections** tab and then **Forks** in the upper-right corner to show [forked collections](/docs/collaborating-in-postman/using-version-control/forking-elements/).
 
     > An API's editor must [publish a version of the API](/docs/collaborating-in-postman/private-api-network/organizing-private-network/#publishing-specific-api-versions) before you can add it to your Private API Network.
 
