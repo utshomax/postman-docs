@@ -36,7 +36,7 @@ The Postman to Slack integration enables you to send Postman notifications to a 
 1. From the **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 1. Select **Browse All Integrations**.
 1. Search for and select **[Slack](https://go.postman.co/integrations/service/slack)**.
-1. There are three available Slack integrations. Select **Add Integration** next to the integration you want to add:
+1. There are four available Slack integrations. Select **Add Integration** next to the integration you want to add:
 
     * **[Post monitoring results](#send-your-monitor-run-results-to-slack)** - Send the results from a monitor run to a specified Slack channel.
 
@@ -44,17 +44,18 @@ The Postman to Slack integration enables you to send Postman notifications to a 
 
     * **[Post team activity](#add-an-activity-feed-to-slack)** - Send your team's [activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#accessing-the-activity-feed-from-postman) to a specified Slack channel.
 
-        ![select Slack integration](https://assets.postman.com/postman-docs/v10/slack-select-integration-v10-14.jpg)
+    * **[Post uptime monitoring notifications](#post-uptime-monitoring-notifications)**
 
-1. After you select the integration type, a browser tab opens asking you to sign in to Slack. If you aren't signed in to a Slack workplace, enter your workspace URL and sign in with your email and password or SSO.
+        ![select Slack integration](https://assets.postman.com/postman-docs/v10/slack-select-integration-v10-16.jpg)
+
+1. After you select the integration type, a browser tab opens asking you to sign in to Slack. If you aren't signed in to a Slack workspace, enter your workspace URL and sign in with your email and password or SSO. If you're already signed in to a Slack workspace, select **Continue**.
 
     > If someone on your team created an [installed app](/docs/integrations/installed-apps/) for Slack, a message and green checkmark let you know you're already authenticated with your Slack workspace. You don't need to sign in or review permissions. If you want to connect to a different Slack workspace, select the link.
 
 1. On the **Permission request** page:
 
-    * Postman will request permission from Slack to view content and information about you. Select the level of security from the list.
-    * The **Receive Postman Notification** integration will configure a Slack bot. Confirm that the actions it asks permission for are acceptable in your Slack workplace.
-    * For the **Post monitoring results** and **Post team activity** integrations, select the Slack channel where the integration will post its messages. Note that you can't change this channel after you set it up. If you need to change channels later, delete the integration and create a new one.
+    * Postman will request permission from Slack to view content and information about you, and to perform actions in Slack.
+    * For the **Post team activity** integrations, select the Slack channel where the integration will post its messages. Note that you can't change this channel after you set it up. If you need to change channels later, delete the integration and create a new one.
 
 1. Select **Allow**.
 
@@ -100,3 +101,5 @@ In the Slack column, you can opt in to or out of notifications such as security,
 For the **Post team activity** integration, after allowing Slack permissions, your integration will be configured. Your team's [activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#accessing-the-activity-feed-from-postman) will send updates to the specified channel.
 
 [![configured_slack](https://assets.postman.com/postman-docs/slack-activity-feed.jpg)](https://assets.postman.com/postman-docs/slack-activity-feed.jpg)
+
+## Post uptime monitoring notifications
