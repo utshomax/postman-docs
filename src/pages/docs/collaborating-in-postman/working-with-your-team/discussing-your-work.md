@@ -21,6 +21,9 @@ Use comments to discuss your work with your teammates in Postman. You can add co
 ## Contents
 
 * [Add comments](#add-comments)
+    * [Add inline comments to a request or example](#add-inline-comments-to-a-request-or-example)
+    * [Add inline comments to a pull request](#add-inline-comments-to-a-pull-request)
+    * [Edit, delete, or link to a comment](#edit-delete-or-link-to-a-comment)
 * [Reply to comments](#reply-to-comments)
 * [Resolve comments](#resolve-comments)
 * [Mention teammates in comments](#mention-teammates-in-comments)
@@ -44,22 +47,22 @@ To add a comment to a collection, folder, request, example, or pull request, do 
 
 ![Commenting on a collection](https://assets.postman.com/postman-docs/v10/commenting-on-a-collection-v10-18d.jpg)
 
-### Add inline comments to a request
+### Add inline comments to a request or example
 
-Use inline comments to comment on a specific part of a request. You can add comments to parameters, headers, and request bodies. You can also add comments to parts of a pre-request script or a test script. When there are new inline comments, a notification appears on the comments icon <img alt="Inline comments icon" src="https://assets.postman.com/postman-docs/v10/icon-comments-notification-v10.jpg#icon" width="23px"> in the request pane.
+Use inline comments to comment on a specific part of a request or example. You can add comments to parameters, headers, and request bodies. You can also add comments to parts of a pre-request script or a test script. When there are new inline comments, a notification appears on the comments icon <img alt="Inline comments icon" src="https://assets.postman.com/postman-docs/v10/icon-comments-notification-v10.jpg#icon" width="23px"> in the request pane.
 
 > Before you switch to comment mode, make sure to save your changes first.
 
-To add an inline comment to a request, do the following:
+To add an inline comment to a request or example, do the following:
 
-1. Open the request.
+1. Open the request or example.
 1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the request pane to switch to comment mode.
 
     ![Switching to comment mode](https://assets.postman.com/postman-docs/v10/commenting-mode-v10-16a.jpg)
 
-1. Select the part of the request you want to comment on and enter your comment. You can select text within a query parameter, path parameter, header, and request body (**form-data**, **x-www-form-urlencoded**, and **raw**). You can also select text within a pre-request script or test script.
+1. Select the part of the request or example you want to comment on and enter your comment. You can select text within a query parameter, path parameter, header, and request body (**form-data**, **x-www-form-urlencoded**, and **raw**). You can also select text within a pre-request script or test script.
 1. (Optional) Select the **Watch collection** checkbox to be notified when there are changes to the collection.
-1. Select **Comment** to add your comment.
+1. Select **Comment** to add your comment. If comments are associated with a change, you can select the highlighted part of the request or example to view its comments.
 
     ![Adding an inline comment](https://assets.postman.com/postman-docs/v10/commenting-inline-v10-16a.jpg)
 
@@ -105,7 +108,11 @@ To reply to a comment, do the following:
 
 1. Select **Reply**.
 
-<img alt="Replying to a comment" src="https://assets.postman.com/postman-docs/v10/commenting-replying-v10-16.jpg" width="443px" />
+    <img alt="Replying to a comment" src="https://assets.postman.com/postman-docs/v10/commenting-replying-v10-16.jpg" width="443px" />
+
+If you're replying to a comment on a request or example, you can also select the highlighted part of the request or example.
+
+<img alt="Reply to an inline comment on a request or example" src="https://assets.postman.com/postman-docs/v10/request-reply-to-inline-comment-v10-19.jpg"/>
 
 If you're replying to a comment on a change in a pull request, you can also select the notification comments icon <img alt="Comments notification icon" src="https://assets.postman.com/postman-docs/v10/icon-comments-notification-v10.jpg#icon" width="23px"> next to a change.
 
