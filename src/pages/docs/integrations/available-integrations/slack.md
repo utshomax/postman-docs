@@ -1,6 +1,6 @@
 ---
 title: "Integrate Postman with Slack"
-updated: 2022-05-26
+updated: 2023-10-25
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -22,9 +22,16 @@ contextual_links:
     url:  "https://www.postman.com/postman/workspace/4be86d9c-6576-4369-b74f-43991df7a4bd"
 ---
 
-The Postman to Slack integration enables you to send Postman notifications to a Slack channel. You can send the results of a Postman monitor run, notifications received in the Postman notification center, or activity in your Team Activity Feed.
+The Postman to Slack integration enables you to send Postman notifications to a Slack channel. You can send the results of a Postman monitor run, notifications received in the Postman notification center, or activity in your team activity feed.
 
-## Configuring Postman with Slack
+## Contents
+
+* [Configure Postman with Slack](#configure-postman-with-slack)
+* [Send your monitor run results to Slack](#send-your-monitor-run-results-to-slack)
+* [Receive Postman notifications in Slack](#receive-postman-notifications-in-slack)
+* [Add an activity feed to Slack](#add-an-activity-feed-to-slack)
+
+## Configure Postman with Slack
 
 1. From the **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 1. Select **Browse All Integrations**.
