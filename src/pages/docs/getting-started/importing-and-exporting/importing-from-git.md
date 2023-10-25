@@ -1,6 +1,6 @@
 ---
 title: "Import data from a Git repository"
-updated: 2023-07-19
+updated: 2023-10-18
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -16,143 +16,71 @@ contextual_links:
     url: "https://blog.postman.com/bring-your-apis-into-postman-faster-than-ever/"
 ---
 
-If you have collections, environments, or API definitions in a Git repository, you can import the data so you can work with it in Postman.
+If you have [API definitions](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/), [collections](/docs/collections/using-collections/), or [environments](/docs/sending-requests/managing-environments/) in a Git repository, you can import the data so you can work with it in Postman.
 
-Postman supports importing from GitHub, BitBucket, GitLab, and Azure DevOps repositories. You can import data from a local or remote repository.
+Postman supports importing from GitHub, Bitbucket, GitLab, and Azure DevOps repositories. You can import data from a local repository on your computer or from a remote repository hosted in the cloud.
 
-> You can also connect your API to a GitHub, Bitbucket, GitLab, or Azure DevOps repository. Once connected, you can sync your API definition and associated collections in Postman with the remote repository. Learn more about [connecting your API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/).
+> You can also connect your API to a remote GitHub, Bitbucket, GitLab, or Azure DevOps repository. Once connected, you can sync your API definition and associated collections in Postman with the remote repository. Learn more about [connecting your API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/).
 
 ## Contents
 
-* [Importing from GitHub repositories](#importing-from-github-repositories)
-* [Importing from Bitbucket repositories](#importing-from-bitbucket-repositories)
-* [Importing from GitLab repositories](#importing-from-gitlab-repositories)
-* [Importing from Azure DevOps repositories](#importing-from-azure-devops-repositories)
+* [Import from a local Git repository](#import-from-a-local-git-repository)
+* [Import from a remote Git repository](#import-from-a-remote-git-repository)
 
-## Importing from GitHub repositories
+## Import from a local Git repository
 
-You can import files from local or remote repositories.
+You can import data from a local GitHub, Bitbucket, GitLab, or Azure DevOps repository on your computer.
 
-To import from a local GitHub repository:
+1. In Postman, select **Import** in the sidebar.
 
-1. In Postman, select **Import** to open the **Import** modal.
+1. On your computer, open your local repository and locate the files or folders you want to import. Drag and drop the files or folders into Postman.
 
-1. On your computer, drag and drop folders or files into the **Import** modal.
+1. Select options based on what you're importing:
 
-1. Choose to import your API as a **Postman Collection** or as **OpenAPI 3.0 with a Postman Collection**.
+   * If you're importing an API definition, you can choose to import the definition as a collection or as an API along with a collection.
 
-1. If you're importing an API definition with multiple files, select the files you want to import into Postman, then select **Import**.
+      <img alt="API definition import options" src="https://assets.postman.com/postman-docs/v10/import-definition-options-v10-19.jpg" width="651px" />
 
-   ![Confirm import from GitHub](https://assets.postman.com/postman-docs/v10/import-export-github-files-confirm-1-v10.jpg)
+   * If you're importing an API definition along with other files such as collections or environments, select the files you want to import into Postman. By default, API definitions are imported as collections. Select the **Import (API specification) files** checkbox to import the definition as an API along with a collection.
 
-To import data from a remote GitHub repository:
+      <img alt="File import options" src="https://assets.postman.com/postman-docs/v10/import-files-options-v10-19.jpg" width="651px" />
 
-> You must sign in to a [Postman account](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account) to use this feature.
+    > Select **View Import Settings** for more configuration options. These options will vary depending on your API specification.
 
-1. In Postman, select **Import** then select the **GitHub** button.
+1. Select **Import**.
 
-1. Confirm or sign in to your GitHub account and authorize **postmanlabs** to access your repositories if necessary.
+1. An **Import Complete** message displays in the footer. In the message, select the link icon <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-external-link.jpg#icon" width="18px"> next to a collection, environment, or API  to open the imported element.
 
-   > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/#managing-connected-accounts-for-remote-repositories).
+      <img alt="Import complete message" src="https://assets.postman.com/postman-docs/v10/import-complete-message-v10-19.jpg" width="697px" />
 
-1. In Postman, select your GitHub organization, repository, and branch, then select **Continue**.
+## Import from a remote Git repository
 
-1. Choose to import your API as a **Postman Collection** or as **OpenAPI 3.0 with a Postman Collection**.
+You can import data from a remote GitHub, Bitbucket, GitLab, or Azure DevOps repository hosted in the cloud.
 
-1. If you're importing an API definition with multiple files, select the files you want to import into Postman, then select **Import**.
+1. In Postman, select **Import** in the sidebar.
 
-## Importing from Bitbucket repositories
+1. Select the type of repository you want to import from. You can select **GitHub**, or select **Other Sources** and select **Bitbucket**, **GitLab**, or **Azure**.
 
-You can import files from local or remote repositories.
-
-To import from a local Bitbucket repository:
-
-1. In Postman, select **Import** to open the **Import** modal.
-
-1. On your computer, drag and drop folders or files into the **Import** modal.
-
-1. Choose to import your API as a **Postman Collection** or as **OpenAPI 3.0 with a Postman Collection**.
-
-1. If you're importing an API definition with multiple files, select the files you want to import into Postman, then select **Import**.
-
-   ![Confirm import from GitHub](https://assets.postman.com/postman-docs/v10/import-export-github-files-confirm-1-v10.jpg)
-
-To import data from a remote Bitbucket repository:
-
-> You must sign in to a [Postman account](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account) to use this feature.
-
-1. In Postman, select **Import > Other Sources > Bitbucket**.
-
-1. Confirm or sign in to your Bitbucket account and authorize **postmanlabs** to access your repositories if necessary.
+1. A browser tab opens asking you to sign in to your repository. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
 
    > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/#managing-connected-accounts-for-remote-repositories).
 
-1. In Postman, select your Bitbucket workspace, repository, and branch, then select **Continue**.
+1. In Postman, select the **Organization** or **Workspace** and the **Repository** you want to import from. (For GitLab, select the **Group** and **Project**.) Then select the **Branch** with the data you want to import.
 
-1. Choose to import your API as a **Postman Collection** or as **OpenAPI 3.0 with a Postman Collection**.
+1. Select **Continue**, then select options based on what you're importing:
 
-1. If your repository has an API definition with multiple files, select the files you want to import into Postman, then select **Import**.
+   * If you're importing an API definition, you can choose to import the definition as a collection or as an API along with a collection.
 
-## Importing from GitLab repositories
+      <img alt="API definition import options" src="https://assets.postman.com/postman-docs/v10/import-definition-options-v10-19.jpg" width="651px" />
 
-You can import files from local or remote repositories.
+   * If you're importing an API definition along with other files such as collections or environments, select the files you want to import into Postman. By default, API definitions are imported as collections. Select the **Import (API specification) files** checkbox to import the definition as an API along with a collection.
 
-To import from a local GitLab repository:
+      <img alt="File import options" src="https://assets.postman.com/postman-docs/v10/import-files-options-v10-19.jpg" width="651px" />
 
-1. In Postman, select **Import** to open the **Import** modal.
+    > Select **View Import Settings** for more configuration options. These options will vary depending on your API specification.
 
-1. On your computer, drag and drop folders or files into the **Import** modal.
+1. Select **Import**.
 
-1. Choose to import your API as a **Postman Collection** or as **OpenAPI 3.0 with a Postman Collection**.
+1. An **Import Complete** message displays in the footer. In the message, select the link icon <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-external-link.jpg#icon" width="18px"> next to a collection, environment, or API  to open the imported element.
 
-1. If you're importing an API definition with multiple files, select the files you want to import into Postman, then select **Import**.
-
-   ![Confirm import from GitHub](https://assets.postman.com/postman-docs/v10/import-export-github-files-confirm-1-v10.jpg)
-
-To import data from a remote GitLab repository:
-
-> You must sign in to a [Postman account](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account) to use this feature.
-
-1. In Postman, select **Import > Other Sources > GitLab**.
-
-1. Confirm or sign in to your GitLab account and authorize **postmanlabs** to access your repositories if necessary.
-
-   > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/#managing-connected-accounts-for-remote-repositories).
-
-1. In Postman, select your GitLab organization, project, and branch, then select **Continue**.
-
-1. Choose to import your API as a **Postman Collection** or as **OpenAPI 3.0 with a Postman Collection**.
-
-1. If your repository has an API definition with multiple files, select the files you want to import into Postman, then select **Import**.
-
-## Importing from Azure DevOps repositories
-
-You can import files from local or remote repositories.
-
-To import from a local Azure DevOps repository:
-
-1. In Postman, select **Import** to open the **Import** modal.
-
-1. On your computer, drag and drop folders or files into the **Import** modal.
-
-1. Choose to import your API as a **Postman Collection** or as **OpenAPI 3.0 with a Postman Collection**.
-
-1. If you're importing an API definition with multiple files, select the files you want to import into Postman, then select **Import**.
-
-   ![Confirm import from GitHub](https://assets.postman.com/postman-docs/v10/import-export-github-files-confirm-1-v10.jpg)
-
-To import data from a remote Azure DevOps repository:
-
-> You must sign in to a [Postman account](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account) to use this feature.
-
-1. In Postman, select **Import > Other Sources > Azure**.
-
-1. Confirm or sign in to your Azure DevOps account and authorize **postmanlabs** to access your repositories if necessary.
-
-   > Postman stores your authorized accounts so you can use them to connect to other repositories and services. Learn more about [managing connected accounts for remote repositories](/docs/designing-and-developing-your-api/versioning-an-api/using-cloud-git-repo/#managing-connected-accounts-for-remote-repositories).
-
-1. In Postman, select your Azure DevOps workspace, repository, and branch, then select **Continue**.
-
-1. Choose to import your API as a **Postman Collection** or as **OpenAPI 3.0 with a Postman Collection**.
-
-1. If your repository has an API definition with multiple files, select the files you want to import into Postman, then select **Import**.
+      <img alt="Import complete message" src="https://assets.postman.com/postman-docs/v10/import-complete-message-v10-19.jpg" width="697px" />

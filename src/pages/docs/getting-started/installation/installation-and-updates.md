@@ -36,6 +36,7 @@ To get the latest version of the Postman desktop app, visit the [download page](
     * [Browser requirements](#browser-requirements)
     * [Installing the Postman Desktop Agent](#installing-the-postman-desktop-agent)
     * [Web limitations](#web-limitations)
+* [Using the Postman VS Code extension](#using-the-postman-vs-code-extension)
 * [Updating Postman](#updating-postman)
 * [Chrome app (deprecated)](#postman-chrome-app-deprecated)
     * [Migrating to the native app](#migrating-to-the-native-app)
@@ -139,6 +140,10 @@ The Postman web app is under active development. There are features you can only
 * **Certificates and proxy** - The Postman desktop app enables you to customize [certificates](/docs/sending-requests/certificates/) and [proxy configurations](/docs/getting-started/installation/proxy/#configuring-proxy-settings). On the Postman web app, these take the browser defined value and can't be overridden by Postman.
 * **Postman Interceptor** - [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) syncs cookies from your browser to the Postman desktop app and captures network requests directly from the browser. It's not possible to use Interceptor with the Postman web app.
 * **Lightweight Postman API Client** - You can use the [lightweight API Client](/docs/getting-started/basics/using-api-client/) to send requests from the Postman desktop app when you aren't signed in to Postman.
+
+## Using the Postman VS Code extension
+
+You can use the [Postman VS Code extension](/docs/getting-started/basics/about-vs-code-extension/) to test and collaborate on your APIs in the same application you're using to develop. With the VS Code extension, you can send API requests, manage collections and environments, troubleshoot requests, and more directly from VS Code. To install the VS Code extension, visit the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode).
 
 ## Updating Postman
 
