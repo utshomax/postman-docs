@@ -50,7 +50,7 @@ Postman is available for Windows 7 and later.
 1. [Download](https://www.postman.com/downloads/) the latest Postman version.
 1. Select and run the `.exe` file to install Postman.
 
-> Postman v9.4 is the last version of Postman that supports both 32-bit and 64-bit Windows. All versions of Postman following v9.4 will only work on 64-bit x86 Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
+> Postman v9.4 is the last version of Postman that supports both 32-bit and 64-bit Windows. All versions of Postman following v9.4 require 64-bit x86 Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
 
 ## Installing Postman on Mac
 
@@ -62,7 +62,7 @@ Postman is available for macOS 10.11 (El Capitan) and later.
 
 1. If your browser downloads the file as a zip file, find the file in the **Downloads** folder and unzip it.
 1. In the **Downloads** folder, double-click the `Postman` file to install it.
-1. When prompted, move the file to your __Applications__ folder. This will ensure that future updates can be installed correctly.
+1. When prompted, move the file to your __Applications__ folder. This will ensure that future updates can be installed.
 
 > You may encounter a "Library not loaded" error if you unzip and install Postman using a third-party archiving app. Use the default Archive Utility for Mac to unzip the file.
 
@@ -134,7 +134,7 @@ If you are using the Postman web app, Postman recommends downloading and install
 
 ### Web limitations
 
-The Postman web app is under active development. There are features you can only access in the Postman desktop app, not in your browser:
+The following features require the Postman desktop app and aren't available when using the Postman web app:
 
 * **Find and replace** - The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/basics/navigating-postman/#footer), but this feature isn't available in the Postman web app.
 * **Certificates and proxy** - The Postman desktop app enables you to [use your system's configured proxy](/docs/getting-started/installation/proxy/#configuring-proxy-settings) to send API requests or access the internet. In the Postman web app, you can configure a proxy for sending requests but not for connecting to online services.
@@ -178,7 +178,7 @@ The Postman desktop app is built on [Electron](https://www.electronjs.org/), and
 
 To switch from the Chrome app to native, [download](https://www.postman.com/downloads/) Postman and [sign in to your account](https://go.postman.co/). Start the native app, and your history and collections will be automatically synced.
 
-Alternatively, if you don't want to sign in to your Postman account, you can bulk export your Postman data from the Chrome app, and then bulk import into the new native app at **Settings > Data**.
+If you don't want to sign in to your Postman account, you can bulk export your Postman data from the Chrome app, and then bulk import into the new native app at **Settings > Data**.
 
 ![Import Export Data](https://assets.postman.com/postman-docs/v10/export-data-v10-16b.jpg)
 
