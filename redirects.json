@@ -1668,6 +1668,10 @@
     "to": "/docs/collaborating-in-postman/roles-and-permissions/"
   },
   {
+    "from": "/docs/collaborating-in-postman/using-version-control/forking-entities/",
+    "to": "/docs/collaborating-in-postman/using-version-control/forking-elements/"
+  },
+  {
     "from": "/docs/postman_pro/managing_pro/billing/",
     "to": "/docs/billing/billing/"
   },

@@ -59,7 +59,7 @@ Try these workspaces featuring Flow examples:
 * [Utility Flows](https://www.postman.com/postman/workspace/utility-flows/flows)
 * [Miscellaneous Flows](https://www.postman.com/postman/workspace/miscellaneous-flows/flows)
 
-These Flow examples include multiple APIs for different products and tools as well as the related collections and environments. You can [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) the Flows to your own workspace, try them out, and then make your own changes and customizations.
+These Flow examples include multiple APIs for different products and tools as well as the related collections and environments. You can [fork](/docs/collaborating-in-postman/using-version-control/forking-elements/) the Flows to your own workspace, try them out, and then make your own changes and customizations.
 
 > Postman Flows is free to try on the Free plan for up to three users. Postman Flows is available as an add-on to the [Basic and Professional plans](https://www.postman.com/pricing/). Postman Flows isn't currently available in the Enterprise plan.
 

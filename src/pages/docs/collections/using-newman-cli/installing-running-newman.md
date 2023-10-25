@@ -57,7 +57,7 @@ You can [export a collection](/docs/getting-started/importing-and-exporting/expo
 $ newman run mycollection.json
 ```
 
-You can also pass a collection as a URL by [sharing](/docs/collaborating-in-postman/sharing/#sharing-postman-entities) it and copying the URL.
+You can also pass a collection as a URL by [sharing](/docs/collaborating-in-postman/sharing/#sharing-postman-elements) it.
 
 If your collection uses environment variables, you must provide a set of [environment variables](/docs/sending-requests/managing-environments/) used in your collection. Export the template from Postman and run them with the `-e` flag.
 

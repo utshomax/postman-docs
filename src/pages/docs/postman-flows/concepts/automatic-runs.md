@@ -44,6 +44,10 @@ Select the more actions icon <img alt="More actions icon" src="https://assets.po
 >
 > Every time you publish a Flow, Postman saves your collections and environments. If you make any changes to these, you will need to republish.
 
+To see a published Flow's live logs, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **View published version > View Live Logs**.
+
+![View live logs](https://assets.postman.com/postman-docs/v10/flows-view-live-logs-v10.gif)
+
 ### Trigger the webhook
 
 Often when working with webhooks, a third-party service sends data to your published Flow's webhook. You can give the webhook URL under **Webhook** in the sidebar to the other service so they can send data to it. Once that's set up, you can view the live logs and see what the requests from the other service looks like to use as your test data. Flows can also be manually run by making a request to the Webhook URL.
