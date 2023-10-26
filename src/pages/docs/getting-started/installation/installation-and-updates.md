@@ -38,8 +38,6 @@ To get the latest version of the Postman desktop app, visit the [download page](
     * [Web limitations](#web-limitations)
 * [Using the Postman VS Code extension](#using-the-postman-vs-code-extension)
 * [Updating Postman](#updating-postman)
-* [Chrome app (deprecated)](#postman-chrome-app-deprecated)
-    * [Migrating to the native app](#migrating-to-the-native-app)
 * [Using Postman behind a firewall](#using-postman-behind-a-firewall)
 * [Troubleshooting your Postman installation](#troubleshooting-your-postman-installation)
 
@@ -156,30 +154,6 @@ Select the update option to download or install the latest update. If you are us
 You can configure your preference for automatically downloading major updates. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**. Select the **App updates** tab, then turn on or turn off **Automatically download major updates**. If automatic downloads are turned off, you can manually check for app updates by selecting **Check for Updates**.
 
 <img alt="Check for updates" src="https://assets.postman.com/postman-docs/v10/settings-update-v10-16b.jpg"/>
-
-## Postman Chrome app (deprecated)
-
-The Postman Chrome app is deprecated. If you use the Chrome app, you can keep your data when you [switch to using Postman](#migrating-to-the-native-app) either by syncing with your Postman account or by exporting from Chrome and importing into Postman.
-
-The Postman desktop app is built on [Electron](https://www.electronjs.org/), and [overcomes a number of restrictions](https://blog.postman.com/going-native/) of the Chrome platform.
-
-* The native apps let you work with [cookies](/docs/sending-requests/cookies/) directly.
-* Unlike the Chrome app, the [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) doesn't need a separate extension.
-* The native apps come with a built-in proxy that you can use to [capture network traffic](/docs/sending-requests/capturing-request-data/capturing-http-requests/).
-* The native apps aren't restricted by the Chrome standards for the menu bar. You can check for updates, create Postman Windows and tabs, and edit preferences.
-* The native apps let you send headers like `Origin` and `User-Agent`. These are restricted in the Chrome app.
-* The "don't follow redirects" option exists in the native apps to prevent requests that return a 300-series response from being automatically redirected—doing this in the Chrome app requires the Interceptor extension.
-* The native app has a built-in [console](/docs/sending-requests/troubleshooting-api-requests/), which enables you to view the network request details for API calls.
-
-### Migrating to the native app
-
-To switch from the Chrome app to native, [download](https://www.postman.com/downloads/) Postman and [sign in to your account](https://go.postman.co/). Start the native app, and your history and collections will be automatically synced.
-
-Alternatively, if you don't want to sign in to your Postman account, you can bulk export your Postman data from the Chrome app, and then bulk import into the new native app at **Settings > Data**.
-
-![Import Export Data](https://assets.postman.com/postman-docs/v10/export-data-v10-16b.jpg)
-
-> Note that importing will overwrite your existing data. For more on bulk import, see [Importing Postman data](/docs/getting-started/importing-and-exporting/importing-data/).
 
 ## Using Postman behind a firewall
 

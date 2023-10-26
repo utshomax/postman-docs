@@ -43,7 +43,7 @@ There are a variety of ways to find APIs, workspaces, teams, collections, and Fl
 
 * **Categories** showcases popular API categories in the Public API Network: [Artificial Intelligence](https://www.postman.com/category/artificial-intelligence), [Communication](https://www.postman.com/category/communication), [Data Analytics](https://www.postman.com/category/data-analytics), [Developer Productivity](https://www.postman.com/category/developer-productivity), [DevOps](https://www.postman.com/category/devops), [Financial Services](https://www.postman.com/category/financial-services), and [Payments](https://www.postman.com/category/payments).
 * **In the spotlight** highlights the latest exciting, useful, and noteworthy contributions to the Public API Network, handpicked by the experts at Postman.
-* **Trending workspaces, collections, and APIs** shows entities that are the most popular in the Public API Network, based on the number of people viewing or creating forks of them.
+* **Trending workspaces, collections, and APIs** shows elements that are the most popular in the Public API Network, based on the number of people viewing or creating forks of them.
 * The **Search Postman** box at the top of the page searches all Postman teams, workspaces, collections, APIs, and Flows by default, but you can also use the search controls to limit a search to the Public API Network.
 * Under **Browse**, you can select to view **Teams**, **Workspaces**, **APIs**, and **Collections**. You can sort results by **Featured**, **Most Viewed**, and **Latest** using the **Sort by** dropdown list.
 * You can also filter Collections, APIs, and Workspaces using the categories listed on their results pages.
@@ -67,6 +67,6 @@ The verified badge also displays next to a verified team's name in their [profil
 
 ## Next steps
 
-* To import a collection from a public workspace to your workspace, create a fork of it. See [creating a fork](/docs/collaborating-in-postman/using-version-control/forking-entities/#creating-a-fork).
+* To import a collection from a public workspace to your workspace, create a fork of it. See [creating a fork](/docs/collaborating-in-postman/using-version-control/forking-elements/#creating-a-fork).
 
 * To learn more about sharing APIs, workspaces, and collections to the Public API Network, see [Public API Network overview](/docs/collaborating-in-postman/public-api-network/public-api-network-overview/).
