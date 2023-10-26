@@ -889,8 +889,8 @@ export const leftNavItems = [
             url: '/docs/collaborating-in-postman/using-version-control/version-control-overview/',
           },
           {
-            name: 'Fork Postman entities',
-            url: '/docs/collaborating-in-postman/using-version-control/forking-entities/',
+            name: 'Fork Postman elements',
+            url: '/docs/collaborating-in-postman/using-version-control/forking-elements/',
           },
           {
             name: 'Create pull requests',

@@ -1,6 +1,6 @@
 ---
-title: "Importing cURL commands"
-updated: 2023-09-29
+title: "Import cURL commands"
+updated: 2023-10-18
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -27,26 +27,26 @@ cURL is a popular command-line tool for making HTTP requests. When testing a web
 ## Contents
 
 * [Import a cURL command into Postman](#import-a-curl-command-into-postman)
-* [Convert a Postman request to a cURL command](#convert-a-postman-request-to-curl)
+* [Convert a Postman request to a cURL command](#convert-a-postman-request-to-a-curl-command)
 
 ## Import a cURL command into Postman
 
-1. Select **Import** in the sidebar. The **Import** modal opens.
+1. Select **Import** in the sidebar.
 1. Paste your cURL command into the box at the top. Postman creates and opens a request automatically.
 
-    > You can also paste cURL commands into a request's URL field.
+![Import data into Postman](https://assets.postman.com/postman-docs/v10/import-export-import-ui-v10-17.jpg)
 
-## Convert a Postman request to cURL
+> You can also paste cURL commands into a request's URL box.
 
-To convert a Postman request to a cURL command, do the following:
+## Convert a Postman request to a cURL command
 
 1. Open the request you want to use for a code snippet, then select the code icon <img alt="Code icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px"> in the right sidebar.
 
-    <img src="https://assets.postman.com/postman-docs/v10/generate-code-right-sidebar-v10.jpg" width="300px" alt="Open code snippets"/>
+    <img alt="Open code snippets" src="https://assets.postman.com/postman-docs/v10/generate-code-right-sidebar-v10.jpg" width="300px" />
 
 1. Select **cURL** from the dropdown list.
 1. Select the copy icon <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> to copy the code snippet to your clipboard.
 
-    ![Copy code snippet to clipboard](https://assets.postman.com/postman-docs/v10/code-snippet-copy-icon-v10.jpg)
+    <img alt="Copy code snippet to clipboard" src="https://assets.postman.com/postman-docs/v10/code-snippet-copy-icon-v10.jpg" width="500px" />
 
-    > If you prefer working inside the command line with cURL making basic requests, the [VS code extension](/docs/getting-started/basics/about-vs-code-extension/) is for you.
+> If you prefer working inside the command line with cURL making basic requests, the [VS code extension](/docs/getting-started/basics/about-vs-code-extension/) is for you.
