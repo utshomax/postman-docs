@@ -28,6 +28,7 @@ The Postman to Slack integration enables you to send Postman notifications to a 
 
 * [Configure Postman with Slack](#configure-postman-with-slack)
 * [Post monitoring results](#post-monitoring-results)
+* [Receive Postman notifications](#receive-postman-notifications)
 * [Post team activity](#post-team-activity)
 
 ## Configure Postman with Slack
