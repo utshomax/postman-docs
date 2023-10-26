@@ -143,15 +143,17 @@ You can use the [Postman VS Code extension](/docs/getting-started/basics/about-v
 
 ## Updating Postman
 
-The Postman desktop app notifies you when a major update is available. For other updates, there's a dot on the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">. If the indicator is red instead of orange, it indicates a failed update.
+Postman automatically downloads updates to the Postman desktop app if you're using Postman v9.13 or later. When the download is complete, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Update downloaded, restart now**. This restarts the desktop app and installs the update.
 
-<img alt="Update Ready" src="https://assets.postman.com/postman-docs/v10/update-ready-v10.jpg" width="300px"/>
+<img alt="Restart and install update from Settings icon" src="https://assets.postman.com/postman-docs/v10/settings-icon-install-update-desktop-v10-19.jpg" width="300px"/>
 
-Select the update option to download or install the latest update. If you're using Postman v9.13 or later, Postman automatically downloads updates. Postman notifies you when the download is complete and prompts you to restart Postman to apply the updates.
+To learn more about the downloaded update before installing it, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header. Select **Settings**, then select the **Update** tab. You can select **Restart to Install Update** to restart the desktop app and install the update.
 
-You can configure your preference for automatically downloading major updates. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**. Select the **Update** tab, then turn on or turn off **Automatically download major updates**. If automatic downloads are turned off, you can manually check for app updates by selecting **Check for Updates**.
+<img alt="Restart and install update" src="https://assets.postman.com/postman-docs/v10/settings-install-update-desktop-v10-19.jpg"/>
 
-<img alt="Check for updates" src="https://assets.postman.com/postman-docs/v10/settings-update-v10-16b.jpg"/>
+You can check for updates to the desktop app if it isn't available to install. In the **Update** tab, select **Check for Updates**.
+
+<img alt="Check for updates" src="https://assets.postman.com/postman-docs/v10/settings-check-for-updates-desktop-v10-18.jpg"/>
 
 ## Postman Chrome app (deprecated)
 
