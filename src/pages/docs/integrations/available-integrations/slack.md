@@ -43,7 +43,7 @@ The Postman to Slack integration enables you to send Postman notifications to a 
 
     * **[Post team activity](#post-team-activity)** - Send your team's [activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#accessing-the-activity-feed-from-postman) to a specified Slack channel.
 
-        ![Select Slack integration](https://assets.postman.com/postman-docs/v10/slack-select-integration-v10-16.jpg)
+        ![Select Slack integration](https://assets.postman.com/postman-docs/v10/slack-select-integration-v10-14.jpg)
 
 1. After you select the integration type, a browser tab opens asking you to sign in to Slack. If you aren't signed in to a Slack workspace, enter your workspace URL and sign in with your email and password or SSO. If you're already signed in to a Slack workspace, select **Continue**.
 
