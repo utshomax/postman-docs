@@ -2,7 +2,7 @@
 title: "Write API test scripts in Postman"
 order: 43
 page_id: "test_scripts"
-updated: 2022-08-31
+updated: 2022-10-26
 contextual_links:
   - type: section
     name: "Additional resources"
