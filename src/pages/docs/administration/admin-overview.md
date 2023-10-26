@@ -16,11 +16,7 @@ contextual_links:
     url: "https://blog.postman.com/managing-team-members-and-roles-in-postman-just-got-easier/"
 ---
 
-intro
-
-<!-- _Postman Collections_ are a group of saved requests. Every request you send in Postman appears under the **History** tab of the sidebar. On a small scale, reusing requests through the history section is convenient. As your Postman usage grows, it can be time-consuming to find a particular request in your history. Instead of scrolling through your history section, you can save all your requests as a group for easier access. -->
-
-<!-- if you don't have a team /docs/collaborating-in-postman/working-with-your-team/collaboration-overview/ -->
+Postman provides a variety of tools to enable and enhance collaboration within your team. Whether you're just getting started or managing an existing team, you can customize your team's Postman experience to align with your organizational needs. As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can utilize the following features to set up, manage, and secure your Postman team.
 
 ## Contents
 
@@ -31,54 +27,16 @@ intro
 
 ## Set up your Postman team
 
-/docs/administration/onboarding-checklist/
-/docs/administration/team-merge/ migrate
-/docs/administration/managing-your-team/managing-your-team/#managing-team-members add users
+If you're just getting started setting up your Postman team, check out Postman's [Onboarding checklist](/docs/administration/onboarding-checklist/). 
 
 ### Set up your Enterprise features
 
-learn more /docs/administration/enterprise/about-postman-enterprise/
-deploy /docs/administration/enterprise/managing-enterprise-deployment/
-sso /docs/administration/sso/intro-sso/
-scim /docs/administration/scim-provisioning/scim-provisioning-overview/
-domain verify and capture /docs/administration/domain-verification-and-capture/domain-capture-overview/
-
-user groups? /docs/collaborating-in-postman/user-groups/
-define roles? /docs/collaborating-in-postman/roles-and-permissions/
+If you're setting up a [Postman Enterprise team](https://www.postman.com/pricing), you can learn more about all of the additional features available to you in [Postman Enterprise plans](/docs/administration/enterprise/about-postman-enterprise/). Enterprise features include advanced identity management, reports, a private API Network, API governance and security controls, and features that enhance collaboration and administrative customization. 
 
 ## Manage your Postman team
 
-/docs/administration/managing-your-team/managing-your-team/ add, remove, roles, plan, team settings
+You can add and remove team members, Partners, and Guests in your [team dashboard](https://go.postman.co/settings/team/members). You can also update roles, adjust your team plan, or update your team settings as needed. To learn more, see [Manage your team](/docs/administration/managing-your-team/managing-your-team/).
 
 ## Secure your Postman team
 
-/docs/administration/managing-your-team/managing-api-keys/ 
-/docs/administration/managing-your-team/secret-scanner/
-/docs/administration/managing-your-team/audit-logs/
-
-
-<!-- Include who, what, and why -->
-
-<!-- 
-## Create your first collection
-
-If you're getting started with collections for the first time, learn how to [Create your first collection](/docs/getting-started/first-steps/creating-the-first-collection/).
-
-## Use collections
-
-After you've created collections, you can learn more about how to manage and use them in [Using collections](/docs/collections/using-collections/).
-
-## Run collections
-
-The _Collection Runner_ enables you to run a collection's requests in a specified sequence. You can run collections manually, on a schedule, from a monitor, from a webhook, or in your CI/CD pipeline by running it from the command line.
-
-To learn more about running collections, see [Using the Collection Runner](/docs/collections/running-collections/running-collections-overview/).
-
-## About the Postman Collection Format
-
-The _Collection Format_ is the specification that drives collections in Postman. It's:
-
-* Portable and provides a unique interface for organizing API requests and modeling API workflows.
-* Machine and human readable and can be used to generate client and server-side SDKs, documentation, and mock servers.
-
-Learn more at the [Postman Collection Format documentation](https://learning.postman.com/collection-format/). -->
+You can secure your Postman team's users by setting up [SSO](/docs/administration/sso/intro-sso/), [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/), and [domain verification and capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/). You can also [manage your team's API keys](/docs/administration/managing-your-team/managing-api-keys/), utilize the [Secret Scanner](/docs/administration/managing-your-team/secret-scanner/) to detect exposed secrets, and access your team's [audit logs](/docs/administration/managing-your-team/audit-logs/) as needed.
