@@ -1212,7 +1212,7 @@ export const leftNavItems = [
     url: '/docs/administration/admin-overview/',
     subMenuItems1: [
       {
-        name: 'Administration overview',
+        name: 'Admin overview',
         url: '/docs/administration/admin-overview/',
       },
       {

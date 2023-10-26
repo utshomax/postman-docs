@@ -1,5 +1,5 @@
 ---
-title: "Administration overview"
+title: "Admin overview"
 updated: 2023-03-01
 contextual_links:
   - type: section
