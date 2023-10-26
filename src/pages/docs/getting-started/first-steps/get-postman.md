@@ -23,4 +23,4 @@ Postman is the API platform for using, building, and testing APIs. You can use t
 
 To get started, download and install the latest version of the Postman desktop app. Visit the [Download Postman page](https://www.postman.com/downloads/) and select the option for your operating system. Postman is available as a native desktop app for macOS (Intel or Apple silicon), Windows (Intel 32-bit or 64-bit), and Linux (64-bit).
 
-> **Need more help getting the Postman app?** Check out [Installing and updating Postman](/docs/getting-started/installation/installation-and-updates/).
+> **Need more help getting the Postman app?** Check out [Install and update Postman](/docs/getting-started/installation/installation-and-updates/).

@@ -24,7 +24,7 @@ contextual_links:
 
 To get the latest version of the Postman desktop app, visit the [Download Postman page](https://www.postman.com/downloads/) and select the option for your operating system. Postman is available as a native desktop app for macOS (Intel or Apple silicon), Windows (Intel 32-bit or 64-bit), and Linux (64-bit).
 
-Postman is also available on the web at [go.postman.co/home](https://go.postman.co/home). You can use the Postman web app to carry out many of your API development and testing tasks in your web browser. Keep in mind that some features aren't supported when using the [Postman web app](/docs/getting-started/installation/installation-and-updates/#web-limitations), so use the Postman desktop app for the full Postman experience.
+Postman is also available as a web app at [go.postman.co/home](https://go.postman.co/home). You can use the Postman web app to carry out many of your API development and testing tasks in your web browser. Keep in mind that some features aren't supported when using the [Postman web app](/docs/getting-started/installation/installation-and-updates/#web-limitations), so use the Postman desktop app for the full Postman experience.
 
 ## Contents
 
@@ -137,7 +137,7 @@ If you are using the Postman web app, Postman recommends downloading and install
 The following features require the Postman desktop app and aren't available when using the Postman web app:
 
 * **Find and replace** - The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/basics/navigating-postman/#footer), but this feature isn't available in the Postman web app.
-* **Certificates and proxy** - The Postman desktop app enables you to [use your system's configured proxy](/docs/getting-started/installation/proxy/#configuring-proxy-settings) to send API requests or access the internet. In the Postman web app, you can configure a proxy for sending requests but not for connecting to online services.
+* **Proxy configuration** - The Postman desktop app enables you to [use your system's configured proxy](/docs/getting-started/installation/proxy/#configuring-proxy-settings) to send API requests or access the internet. In the Postman web app, you can configure a proxy for sending requests but not for connecting to online services.
 * **Request and cookie capture** - [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) and [the Postman proxy](/docs/sending-requests/capturing-request-data/capture-with-proxy/) enable you to capture traffic and syncs cookies from your browser or client apps to the Postman desktop app. It's not possible to use Interceptor or the Postman proxy with the Postman web app.
 * **Collection run export** - You can [export the results of a collection run](/docs/collections/running-collections/intro-to-collection-runs/#sharing-collection-runs) to a JSON file using the Postman desktop app. This feature isn't available in the Postman web app.
 * **Performance testing** - You can use the Postman desktop app to [simulate user traffic](/docs/collections/performance-testing/testing-api-performance/), so you can observe how your API behaves under load. Performance testing isn't available for the Postman web app.

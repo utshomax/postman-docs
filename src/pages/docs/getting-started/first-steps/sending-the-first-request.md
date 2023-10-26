@@ -53,7 +53,7 @@ A request includes the URL of the API endpoint and an HTTP request method. The m
 
 ## Sending an API request
 
-Make sure you've [downloaded and installed the Postman desktop app](/docs/getting-started/first-steps/get-postman/). When you're ready, open the Postman app and send your first API request.
+Make sure you've [downloaded and installed the Postman desktop app](/docs/getting-started/first-steps/get-postman/). When you're ready, open the Postman desktop app and send your first API request.
 
 1. Select **+** in the workbench to open a new [tab](/docs/getting-started/basics/navigating-postman/#tabs).
 1. Enter `postman-echo.com/get` for the request URL.
