@@ -29,7 +29,6 @@ The Postman to Slack integration enables you to send Postman notifications to a 
 * [Configure Postman with Slack](#configure-postman-with-slack)
 * [Post monitoring results](#post-monitoring-results)
 * [Post team activity](#post-team-activity)
-* [Post uptime monitoring notifications](#post-uptime-monitoring-notifications)
 
 ## Configure Postman with Slack
 
@@ -44,9 +43,7 @@ The Postman to Slack integration enables you to send Postman notifications to a 
 
     * **[Post team activity](#post-team-activity)** - Send your team's [activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#accessing-the-activity-feed-from-postman) to a specified Slack channel.
 
-    * **[Post uptime monitoring notifications](#post-uptime-monitoring-notifications)**
-
-        ![select Slack integration](https://assets.postman.com/postman-docs/v10/slack-select-integration-v10-16.jpg)
+        ![Select Slack integration](https://assets.postman.com/postman-docs/v10/slack-select-integration-v10-16.jpg)
 
 1. After you select the integration type, a browser tab opens asking you to sign in to Slack. If you aren't signed in to a Slack workspace, enter your workspace URL and sign in with your email and password or SSO. If you're already signed in to a Slack workspace, select **Continue**.
 
@@ -86,7 +83,7 @@ The following is an example of a set of monitor results when sent to Slack:
 
 ## Receive Postman notifications
 
-For the **Receive Postman notification** integration, after allowing Slack permissions, your integration will be configured.
+For the **Receive Postman notifications** integration, after allowing Slack permissions, your integration will be configured.
 
 After adding the integration, you can specify which notifications are sent to Slack. Update your [notification preferences](https://go.postman.co/settings/me/notifications) by selecting your avatar in the upper-right corner > **Settings > Notifications**.
 
@@ -101,5 +98,3 @@ In the Slack column, you can opt in to or out of notifications such as security,
 For the **Post team activity** integration, after allowing Slack permissions, your integration will be configured. Your team's [activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#accessing-the-activity-feed-from-postman) will send updates to the specified channel.
 
 [![configured_slack](https://assets.postman.com/postman-docs/slack-activity-feed.jpg)](https://assets.postman.com/postman-docs/slack-activity-feed.jpg)
-
-## Post uptime monitoring notifications
