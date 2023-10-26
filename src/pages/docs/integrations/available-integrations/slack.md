@@ -35,7 +35,7 @@ The Postman to Slack integration enables you to send Postman notifications to a 
 1. From the **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 1. Select **Browse All Integrations**.
 1. Search for and select **[Slack](https://go.postman.co/integrations/service/slack)**.
-1. There are four available Slack integrations. Select **Add Integration** next to the integration you want to add:
+1. There are three available Slack integrations. Select **Add Integration** next to the integration you want to add:
 
     * **[Post monitoring results](#post-monitoring-results)** - Send the results from a monitor run to a specified Slack channel.
 
