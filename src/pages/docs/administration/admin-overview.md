@@ -16,7 +16,7 @@ contextual_links:
     url: "https://blog.postman.com/managing-team-members-and-roles-in-postman-just-got-easier/"
 ---
 
-Postman provides a variety of tools to enable and enhance collaboration within your team. Whether you're getting started with a new team or managing an one, you can customize your team's Postman experience to align with your organizational needs. As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can use the following features to set up, manage, and secure your Postman team.
+Postman provides a variety of tools to enable and enhance collaboration within your team. Whether you're getting started with a new team or managing an existing one, you can customize your team's Postman experience to align with your organizational needs. As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can use the following features to set up, manage, and secure your Postman team.
 
 ## Contents
 
