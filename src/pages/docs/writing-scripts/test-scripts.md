@@ -66,7 +66,7 @@ The **Tests** tab allows for any post-processing after a request is sent and inc
 
 If you open the right-side panel on either sandbox, you'll see a list of test snippets. You can select to inject these pre-written blocks of code. Some will help you retrieve the data from variables, some are boilerplate tests, and some perform common utility functions.
 
-Postman's AI assistant Postbot reduces the need to write boilerplate code for tests. Access Postbot from right-side panel or the bottom status bar. Postbot is also built into the test editor. As you start typing your tests, you get suggestions of common behaviors that you can test for. Postbot also examines the response to your request and any saved examples to generate relevant test code. Postbot has other features, like visualization generator.
+Postman's AI assistant Postbot reduces the need to write boilerplate code for tests. Access Postbot from the right-side panel or the bottom status bar. Postbot is also built into the test editor. As you start typing your tests, you get suggestions of common behaviors that you can test for. Postbot also examines the response to your request and any saved examples to generate relevant test code. Postbot has other features as well, like the visualization generator.
 
 Postman also provides [templates](https://www.postman.com/templates/tags/1/Testing) that help you keep your API’s performance, quality, and stability in check.
 
