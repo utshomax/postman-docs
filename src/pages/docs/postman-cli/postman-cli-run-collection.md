@@ -103,7 +103,9 @@ To run a collection in CI/CD, do the following:
 
 1. Select the copy icon <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> to copy the Postman CLI configuration. You can also select **Copy Postman CLI Command**.
 
-<img alt="Generate Postman CLI" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-v10-19.jpg" />
+    <img alt="Generate Postman CLI" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-v10-19.jpg" />
+
+1. Add the Postman CLI configuration to your CI/CD pipeline. The process for doing this depends on your CI tool.
 
 ## Running a collection in a specific order
 
