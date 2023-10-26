@@ -64,7 +64,7 @@ The **Pre-request** tab enables you to do any processing needed before sending a
 
 The **Tests** tab allows for any post-processing after a request is sent and includes the ability to write tests for assessing response data. The **Test tab** sandbox has the [Chai.js](https://www.chaijs.com/api/bdd/) library built in, so you can use Chai's behavior-driven development (BDD) syntax to create readable test assertions.
 
-If you open the right-side panel on either sandbox, you'll see a list of test snippets. You can select to inject these pre-written blocks of code. Some will help you retrieve the data from variables, some are boilerplate tests, and some perform common utility functions.
+Open the side pane in either sandbox to view a list of test snippets. You can select one or more snippets to inject these pre-written blocks of code. Some will help you retrieve the data from variables, some are boilerplate tests, and some perform common utility functions.
 
 Postman's AI assistant Postbot reduces the need to write boilerplate code for tests. Access Postbot from the right-side panel or the bottom status bar. Postbot is also built into the test editor. As you start typing your tests, you get suggestions of common behaviors that you can test for. Postbot also examines the response to your request and any saved examples to generate relevant test code. Postbot has other features as well, like the visualization generator.
 
