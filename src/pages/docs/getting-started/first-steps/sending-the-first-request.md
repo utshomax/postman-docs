@@ -1,6 +1,6 @@
 ---
 title: "Send your first API request"
-updated: 2023-05-24
+updated: 2023-10-19
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -38,11 +38,11 @@ contextual_links:
     url:  "https://academy.postman.com/path/api-beginner"
 ---
 
-Postman enables you to create and send API requests. Send a request to an endpoint, retrieve data from a data source, or test an API's functionality. You don't need to enter commands in a terminal or write any code. Create a new request and select **Send**, and the API response appears right inside Postman.
+Postman enables you to create and send API requests. Using Postman, you can send a request to an endpoint, retrieve data from a data source, or test an API's functionality. You don't need to enter commands in a terminal or write any code. When you create a new request and select **Send**, the API response appears right inside Postman.
 
 ## API requests defined
 
-APIs provide a structured way for one application to access the capabilities of another application. Typically, this communication happens over the internet by way of an API server. A client application (like a mobile app) sends a request to the server, and after the request processes the server returns a response to the client.
+APIs provide a structured way for one application to access the capabilities of another application. Typically, this communication happens over the internet by way of an API server. A client application (like a mobile app) sends a request to the server, and after the request is processed the server returns a response to the client.
 
 A request includes the URL of the API endpoint and an HTTP request method. The method indicates the action you want the API to perform. Here are some of the most common methods:
 
@@ -51,7 +51,7 @@ A request includes the URL of the API endpoint and an HTTP request method. The m
 * `PATCH` and `PUT` update existing data.
 * `DELETE` removes existing data.
 
-## Sending an API request
+## Send an API request
 
 When you're ready, open Postman and send your first API request.
 
@@ -80,4 +80,4 @@ You used Postman to send an API request and got a response from the API server. 
 Now that you've sent your first API request, you're ready to do more with Postman!
 
 * You can send some more requests to the Postman Echo API, a handy tool you can use to test API requests in Postman. To learn more about using the Echo API, visit the [Postman Echo API documentation](/docs/developer/echo-api/).
-* When you're ready to learn more about building and sending requests in Postman, visit [Building requests](/docs/sending-requests/requests/).
+* When you're ready to learn more about building and sending requests in Postman, visit [Create and send API requests in Postman](/docs/sending-requests/requests/).
