@@ -16,7 +16,7 @@ contextual_links:
     url: "https://blog.postman.com/managing-team-members-and-roles-in-postman-just-got-easier/"
 ---
 
-Postman provides a variety of tools to enable and enhance collaboration within your team. Whether you're just getting started or managing an existing team, you can customize your team's Postman experience to align with your organizational needs. As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can utilize the following features to set up, manage, and secure your Postman team.
+Postman provides a variety of tools to enable and enhance collaboration within your team. Whether you're getting started with a new team or managing an one, you can customize your team's Postman experience to align with your organizational needs. As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can use the following features to set up, manage, and secure your Postman team.
 
 ## Contents
 
@@ -27,11 +27,11 @@ Postman provides a variety of tools to enable and enhance collaboration within y
 
 ## Set up your Postman team
 
-If you're just getting started setting up your Postman team, check out Postman's [Onboarding checklist](/docs/administration/onboarding-checklist/). 
+If you're setting up a new Postman team, check out Postman's [Onboarding checklist](/docs/administration/onboarding-checklist/).
 
 ### Set up your Enterprise features
 
-If you're setting up a [Postman Enterprise team](https://www.postman.com/pricing), you can learn more about all of the additional features available to you in [Postman Enterprise plans](/docs/administration/enterprise/about-postman-enterprise/). Enterprise features include advanced identity management, reports, a private API Network, API governance and security controls, and features that enhance collaboration and administrative customization. 
+If you're setting up an [Enterprise team](https://www.postman.com/pricing), you can learn more about all of the extra features available to you with [Postman Enterprise plans](/docs/administration/enterprise/about-postman-enterprise/). Enterprise features include advanced identity management, reports, a private API Network, API governance and security controls, and features that enhance collaboration and administrative customization.
 
 ## Manage your Postman team
 
@@ -39,4 +39,4 @@ You can add and remove team members, Partners, and Guests in your [team dashboar
 
 ## Secure your Postman team
 
-You can secure your Postman team's users by setting up [SSO](/docs/administration/sso/intro-sso/), [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/), and [domain verification and capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/). You can also [manage your team's API keys](/docs/administration/managing-your-team/managing-api-keys/), utilize the [Secret Scanner](/docs/administration/managing-your-team/secret-scanner/) to detect exposed secrets, and access your team's [audit logs](/docs/administration/managing-your-team/audit-logs/) as needed.
+You can secure your Postman team's users by setting up [SSO](/docs/administration/sso/intro-sso/), [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/), and [domain verification and capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/). You can also [manage your team's API keys](/docs/administration/managing-your-team/managing-api-keys/), use the [Secret Scanner](/docs/administration/managing-your-team/secret-scanner/) to detect exposed secrets, and access your team's [audit logs](/docs/administration/managing-your-team/audit-logs/) as needed.
