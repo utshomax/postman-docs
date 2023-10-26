@@ -60,7 +60,7 @@ Tests confirm that your API is working as expected, that integrations between se
 
 The **Pre-request Script** and **Tests** tabs use the Postman Sandbox, a runtime based on Node.js that enables you to add dynamic behavior to requests and collections.
 
-The **Pre-request** tab enables you to do any processing needed before sending a request, like setting variable values and any code here runs before the request is sent. To learn more, see [Write pre-request scripts](/docs/writing-scripts/pre-request-scripts/).
+The **Pre-request** tab enables you to do any processing needed before sending a request, like setting variable values. Any code here runs before the request is sent. To learn more, see [Write pre-request scripts](/docs/writing-scripts/pre-request-scripts/).
 
 The **Tests** tab allows for any post-processing after a request is sent and includes the ability to write tests for assessing response data. The **Test tab** sandbox has the [Chai.js](https://www.chaijs.com/api/bdd/) library built in, so you can use Chai's behavior-driven development (BDD) syntax to create readable test assertions.
 
