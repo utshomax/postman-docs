@@ -31,7 +31,9 @@ contextual_links:
     url: "https://www.postman.com/case-studies/hathway/"
 ---
 
-An environment is a set of [variables](/docs/sending-requests/variables/) you can use in your Postman requests. You can use environments to group related sets of values together and manage access to shared Postman data if you are working as part of a team.
+In Postman, an _environment_ is a set of one or more [variables](/docs/sending-requests/variables/) that you can reference when [sending requests](/docs/sending-requests/requests/) or [writing test scripts](/docs/writing-scripts/test-scripts/). You can create environments for the different types of work you do in Postman. When you switch between environments, all of the variables in your requests and scripts will use the values from the current environment. This is helpful if you need to use different values in your requests depending on the context, for example, if you're sending a request to a test server or a production server.
+
+> Environments can also help you to collaborate on Postman data if you're working as part of a team. You can use environments to share and manage the visibility of sensitive data such as API secrets, passwords, tokens, and keys. Learn more about [working with environments as a team in Postman](/docs/sending-requests/environments/team-environments/).
 
 ## Contents
 
