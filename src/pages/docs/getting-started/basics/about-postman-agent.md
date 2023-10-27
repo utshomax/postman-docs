@@ -16,7 +16,7 @@ contextual_links:
     url: "https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/"
 ---
 
-Postman has multiple agents you can use to send your API requests from the [Postman web app](/docs/getting-started/installation/installation-and-updates/#using-the-postman-web-app): the Postman Desktop Agent, the Postman Cloud Agent, or the Postman Browser Agent.
+Postman has multiple agents you can use to send your API requests from the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app): the Postman Desktop Agent, the Postman Cloud Agent, or the Postman Browser Agent.
 
 From the Postman web app, you can select the **Auto-select** toggle for Postman to automatically select the best agent for your requests. You can also manually select the agent for your requests.
 

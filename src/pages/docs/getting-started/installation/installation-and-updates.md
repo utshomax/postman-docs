@@ -1,6 +1,6 @@
 ---
 title: "Install and update Postman"
-updated: 2023-07-15
+updated: 2023-10-27
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -28,22 +28,22 @@ To get the latest version of the Postman desktop app, visit the [download page](
 
 ## Contents
 
-* Installing Postman on the desktop
-    * [Windows](#installing-postman-on-windows)
-    * [Mac](#installing-postman-on-mac)
-    * [Linux](#installing-postman-on-linux)
-* [Using the Postman web app](#using-the-postman-web-app)
+* Install Postman on the desktop
+    * [Windows](#install-postman-on-windows)
+    * [Mac](#install-postman-on-mac)
+    * [Linux](#install-postman-on-linux)
+* [Use the Postman web app](#use-the-postman-web-app)
     * [Browser requirements](#browser-requirements)
-    * [Installing the Postman Desktop Agent](#installing-the-postman-desktop-agent)
+    * [Install the Postman Desktop Agent](#install-the-postman-desktop-agent)
     * [Web limitations](#web-limitations)
-* [Using the Postman VS Code extension](#using-the-postman-vs-code-extension)
-* [Updating Postman](#updating-postman)
-* [Using Postman behind a firewall](#using-postman-behind-a-firewall)
-* [Troubleshooting your Postman installation](#troubleshooting-your-postman-installation)
+* [Use the Postman VS Code extension](#use-the-postman-vs-code-extension)
+* [Update Postman](#update-postman)
+* [Use Postman behind a firewall](#use-postman-behind-a-firewall)
+* [Troubleshoot your Postman installation](#troubleshoot-your-postman-installation)
     * [Update failed error](#update-failed-error)
     * [Update not available](#update-not-available)
 
-## Installing Postman on Windows
+## Install Postman on Windows
 
 Postman is available for Windows 7 and later.
 
@@ -52,7 +52,7 @@ Postman is available for Windows 7 and later.
 
 > Postman v9.4 is the last version of Postman that supports both 32-bit and 64-bit Windows. All versions of Postman following v9.4 will only work on 64-bit x86 Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
 
-## Installing Postman on Mac
+## Install Postman on Mac
 
 Postman is available for macOS 10.11 (El Capitan) and later.
 
@@ -72,7 +72,7 @@ You can also install Postman using the [Homebrew](https://brew.sh/) package mana
 brew install --cask postman
 ```
 
-## Installing Postman on Linux
+## Install Postman on Linux
 
 Postman supports the following Linux distributions: Ubuntu 14.04 and later, Fedora 24, and Debian 8 and later.
 
@@ -107,7 +107,7 @@ When installing Postman on Linux, also be aware of the following:
 * Make sure you have read/write permission for the `~/.config` folder where Postman stores information.
 * If you're an Ubuntu 18 user, you will also need to install the `libgconf-2-4` package with the command `apt-get install libgconf-2-4`.
 
-## Using the Postman web app
+## Use the Postman web app
 
 You can use Postman in your web browser to execute your API development and testing tasks with the Postman Agents. To access the Postman web app, visit [go.postman.co/home](https://go.postman.co/home).
 
@@ -122,7 +122,7 @@ The Postman web app supports the following browsers:
 * Edge (79 and higher)
 * Safari (13.1.1 and higher)
 
-### Installing the Postman Desktop Agent
+### Install the Postman Desktop Agent
 
 If you're using the Postman web app, Postman recommends downloading and installing the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent), a micro-application that runs locally on your desktop. The Desktop Agent overcomes the cross-origin resource sharing (CORS) limitations of browsers and acts as your agent for making API requests from the Postman web app.
 
@@ -135,11 +135,11 @@ The Postman web app is under active development. There are features you can only
 * **Postman Interceptor** - [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) syncs cookies from your browser to the Postman desktop app and captures network requests directly from the browser. It's not possible to use Interceptor with the Postman web app.
 * **Lightweight Postman API Client** - You can use the [lightweight API Client](/docs/getting-started/basics/using-api-client/) to send requests from the Postman desktop app when you aren't signed in to Postman.
 
-## Using the Postman VS Code extension
+## Use the Postman VS Code extension
 
 You can use the [Postman VS Code extension](/docs/getting-started/basics/about-vs-code-extension/) to test and collaborate on your APIs in the same application you're using to develop. With the VS Code extension, you can send API requests, manage collections and environments, troubleshoot requests, and more directly from VS Code. To install the VS Code extension, visit the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode).
 
-## Updating Postman
+## Update Postman
 
 Postman automatically downloads updates to the Postman desktop app if you're using Postman v9.13 or later. When the download is complete, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Update downloaded, restart now**. This restarts the desktop app and installs the update.
 
@@ -153,7 +153,7 @@ You can check for updates to the desktop app if it isn't available to install. I
 
 <img alt="Check for updates" src="https://assets.postman.com/postman-docs/v10/settings-check-for-updates-desktop-v10-18.jpg"/>
 
-## Using Postman behind a firewall
+## Use Postman behind a firewall
 
 Postman's infrastructure runs on Amazon's AWS platform. If you're operating behind a network firewall, you'll need to allow the following domains to make WebSocket connections for Postman:
 
@@ -182,7 +182,7 @@ Postman desktop app - HTTP connections:
 
 Postman doesn't have a fixed IP range that can be provided. If necessary, refer to the [current AWS IP ranges](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html) and allow the broad range provided.
 
-## Troubleshooting your Postman installation
+## Troubleshoot your Postman installation
 
 If you encounter any issues installing and running Postman, see the following tips. If these tips don't help, refer to the installation posts on the [community forum](https://community.postman.com/tags/installation) and create a new post if your issue isn't already covered. You can also contact [Postman support](https://www.postman.com/support) for help.
 
