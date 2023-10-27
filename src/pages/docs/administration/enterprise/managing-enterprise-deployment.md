@@ -253,7 +253,7 @@ sudo installer -dumplog -verbose -pkg path/to/app.pkg -target LocalSystem
 
 ## Installing the Postman Enterprise Linux app
 
-The Postman Enterprise app supports the same [64-bit Linux systems](/docs/getting-started/installation/installation-and-updates/#installing-postman-on-linux) as the Postman desktop app.
+The Postman Enterprise app supports the same [64-bit Linux systems](/docs/getting-started/installation/installation-and-updates/#install-postman-on-linux) as the Postman desktop app.
 
 Before installing, ensure a clean installation:
 

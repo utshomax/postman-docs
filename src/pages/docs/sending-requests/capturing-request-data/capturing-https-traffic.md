@@ -205,7 +205,7 @@ If you are unable to correctly install the `postman-proxy-ca.crt` certificate, o
 
 To regenerate and reinstall the certificate, do the following:
 
-1. Make sure you are running Postman version 9.1 or later. See [Updating Postman](/docs/getting-started/installation/installation-and-updates/#updating-postman).
+1. Make sure you are running Postman version 9.1 or later. See [Update Postman](/docs/getting-started/installation/installation-and-updates/#update-postman).
 1. On the computer where Postman is installed, delete the `/Postman/Proxy` folder. You can find the folder in the following location:
 
     * **macOS** - `~/Library/Application Support/Postman/proxy`
