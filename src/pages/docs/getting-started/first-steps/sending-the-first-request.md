@@ -38,7 +38,7 @@ contextual_links:
     url:  "https://academy.postman.com/path/api-beginner"
 ---
 
-Postman enables you to create and send API requests. Using Postman, you can send a request to an endpoint, retrieve data from a data source, or test an API's functionality. You don't need to enter commands in a terminal or write any code. When you create a new request and select **Send**, the API response appears right inside Postman.
+Postman's built-in API client enables you to create and send API requests, including HTTP, GraphQL, and gRPC requests. Using Postman, you can send a request to an endpoint, retrieve data from a data source, or test an API's functionality. You don't need to enter commands in a terminal or write any code. When you create a new request and select **Send**, the API response appears right inside Postman.
 
 ## API requests defined
 
@@ -53,7 +53,7 @@ A request includes the URL of the API endpoint and an HTTP request method. The m
 
 ## Send an API request
 
-When you're ready, open Postman and send your first API request.
+Make sure you've [downloaded and installed the Postman desktop app](/docs/getting-started/first-steps/get-postman/). When you're ready, open the Postman desktop app and send your first API request.
 
 1. Select **+** in the workbench to open a new [tab](/docs/getting-started/basics/navigating-postman/#tabs).
 1. Enter `postman-echo.com/get` for the request URL.

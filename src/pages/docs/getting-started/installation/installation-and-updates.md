@@ -22,9 +22,9 @@ contextual_links:
     url: "https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/"
 ---
 
-Postman is available on the web at **[go.postman.co/home](https://go.postman.co/home)** and as a native desktop app for Mac (Intel or Apple silicon), Windows (Intel 32-bit or 64-bit), and Linux (64-bit) operating systems.
+To get the latest version of the Postman desktop app, visit the [Download Postman page](https://www.postman.com/downloads/) and select the option for your operating system. Postman is available as a native desktop app for macOS (Intel or Apple silicon), Windows (Intel 32-bit or 64-bit), and Linux (64-bit).
 
-To get the latest version of the Postman desktop app, visit the [download page](https://www.postman.com/downloads/) and download the app for your platform.
+Postman is also available as a web app at [go.postman.co/home](https://go.postman.co/home). You can use the Postman web app to carry out many of your API development and testing tasks in your web browser. Keep in mind that some features aren't supported when using the [Postman web app](/docs/getting-started/installation/installation-and-updates/#web-limitations), so use the Postman desktop app for the full Postman experience.
 
 ## Contents
 
@@ -50,7 +50,7 @@ Postman is available for Windows 7 and later.
 1. [Download](https://www.postman.com/downloads/) the latest Postman version.
 1. Select and run the `.exe` file to install Postman.
 
-> Postman v9.4 is the last version of Postman that supports both 32-bit and 64-bit Windows. All versions of Postman following v9.4 will only work on 64-bit x86 Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
+> Postman v9.4 is the last version of Postman that supports both 32-bit and 64-bit Windows. All versions of Postman following v9.4 require 64-bit x86 Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
 
 ## Install Postman on Mac
 
@@ -62,7 +62,7 @@ Postman is available for macOS 10.11 (El Capitan) and later.
 
 1. If your browser downloads the file as a ZIP file, find the file in the **Downloads** folder and unzip it.
 1. In the **Downloads** folder, double-click the `Postman` file to install it.
-1. When prompted, move the file to your __Applications__ folder. This will ensure that future updates can be installed correctly.
+1. When prompted, move the file to your __Applications__ folder. This will ensure that future updates can be installed.
 
 > You may encounter a "Library not loaded" error if you unzip and install Postman using a third-party archiving app. Use the default Archive Utility for Mac to unzip the file.
 
@@ -128,11 +128,14 @@ If you're using the Postman web app, Postman recommends downloading and installi
 
 ### Web limitations
 
-The Postman web app is under active development. There are features you can only access in the Postman desktop app, and not in your browser:
+The following features require the Postman desktop app and aren't available when using the Postman web app:
 
-* **Find and replace** - The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/basics/navigating-postman/#footer), but this function isn't available on the Postman web app yet.
-* **Certificates and proxy** - The Postman desktop app enables you to customize [certificates](/docs/sending-requests/certificates/) and [proxy configurations](/docs/getting-started/installation/proxy/#configuring-proxy-settings). On the Postman web app, these take the browser defined value and can't be overridden by Postman.
-* **Postman Interceptor** - [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) syncs cookies from your browser to the Postman desktop app and captures network requests directly from the browser. It's not possible to use Interceptor with the Postman web app.
+* **Find and replace** - The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/basics/navigating-postman/#footer), but this feature isn't available in the Postman web app.
+* **Proxy configuration** - The Postman desktop app enables you to [use your system's configured proxy](/docs/getting-started/installation/proxy/#configuring-proxy-settings) to send API requests or access the internet. In the Postman web app, you can configure a proxy for sending requests but not for connecting to online services.
+* **Request and cookie capture** - [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) and [the Postman proxy](/docs/sending-requests/capturing-request-data/capture-with-proxy/) enable you to capture traffic and syncs cookies from your browser or client apps to the Postman desktop app. It's not possible to use Interceptor or the Postman proxy with the Postman web app.
+* **Collection run export** - You can [export the results of a collection run](/docs/collections/running-collections/intro-to-collection-runs/#sharing-collection-runs) to a JSON file using the Postman desktop app. This feature isn't available in the Postman web app.
+* **Performance testing** - You can use the Postman desktop app to [simulate user traffic](/docs/collections/performance-testing/testing-api-performance/), so you can observe how your API behaves under load. Performance testing isn't available for the Postman web app.
+* **On-premises Git integration** - You must use the Postman desktop app to [connect your API](/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/) to GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server repositories.
 * **Lightweight Postman API Client** - You can use the [lightweight API Client](/docs/getting-started/basics/using-api-client/) to send requests from the Postman desktop app when you aren't signed in to Postman.
 
 ## Use the Postman VS Code extension

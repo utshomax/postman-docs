@@ -39,6 +39,8 @@ Postman can make HTTP calls using Simple Object Access Protocol (SOAP), a platfo
 
 ## Entering your SOAP endpoint
 
+1. If you haven't already, [download and install the Postman desktop app](/docs/getting-started/installation/installation-and-updates/).
+
 1. To open an HTTP request, select __New > HTTP__.
 
     <img alt="Create new request" src="https://assets.postman.com/postman-docs/v10/create-new-http-v10-4.jpg" width="500px"/>
