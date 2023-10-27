@@ -32,7 +32,7 @@ The performance test runs on your computer and not in the cloud. When you start 
 
 ## Configure a performance test
 
-> **Use the Postman desktop app to configure and run performance tests.** You can't use the Postman web app for performance testing. During a performance test, all requests are sent from the host computer where you are running the Postman desktop app.
+> **Use the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/) to configure and run performance tests.** You can't use the Postman web app for performance testing. During a performance test, all requests are sent from the host computer where you are running the Postman desktop app.
 
 Before you configure a performance test, [create a collection](/docs/collections/using-collections/#creating-collections) or [add a folder](/docs/collections/using-collections/#adding-folders-to-a-collection) with the requests you want to use to simulate user activity. Each virtual user runs the selected requests in the specified order and repeats the sequence throughout the test. Multiple virtual users all operate in parallel to simulate real-world usage of your API.
 
