@@ -36,7 +36,7 @@ You can use environments to collaborate on shared resources and configure the vi
 ## Contents
 
 * [Move an environment to a shared workspace](#move-an-environment-to-a-shared-workspace)
-* [Managing environment roles](#managing-environment-roles)
+* [Manage environment roles](#manage-environment-roles)
 * [Using an environment in Viewer role](#using-an-environment-in-viewer-role)
     * [Requesting environment access](#requesting-environment-access)
 * [Using an environment in Editor role](#using-an-environment-in-editor-role)
@@ -79,7 +79,7 @@ To export an environment, select it and select the more actions icon <img alt="M
 
 <img alt="Export environment" src="https://assets.postman.com/postman-docs/environment-export-v9.1.jpg" width="250px" />
 
-## Managing environment roles
+## Manage environment roles
 
 You can manage roles on an environment by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the upper right > **Manage Roles**.
 
