@@ -31,7 +31,7 @@ If you're setting up a new Postman team, check out Postman's [Onboarding checkli
 
 ### Set up your Enterprise features
 
-If you're setting up an [Enterprise team](https://www.postman.com/pricing), you can learn more about all of the extra features available to you with [Postman Enterprise plans](/docs/administration/enterprise/about-postman-enterprise/). Enterprise features include advanced identity management, reports, a private API Network, API governance and security controls, and features that enhance collaboration and administrative customization.
+If you're setting up an [Enterprise team](https://www.postman.com/pricing), you can learn more about all of the extra features available to you with [Postman Enterprise plans](/docs/administration/enterprise/about-postman-enterprise/). Enterprise features include advanced identity management, reports, a Private API Network, API governance and security controls, and features that enhance collaboration and administrative customization.
 
 ## Manage your Postman team
 
