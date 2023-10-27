@@ -16,7 +16,7 @@ contextual_links:
     url: "https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/"
 ---
 
-The Postman Agent enables you to send API requests from your browser when using the [Postman web app](/docs/getting-started/installation/installation-and-updates/#using-the-postman-web-app). Using the Postman Agent is required due to the cross-origin resource sharing (CORS) limitations of browsers.
+The Postman Agent enables you to send API requests from your browser when using the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app). Using the Postman Agent is required due to the cross-origin resource sharing (CORS) limitations of browsers.
 
 For the best experience, [install the Postman desktop app](/docs/getting-started/installation/installation-and-updates/). You can then use the [Postman Desktop Agent](#the-postman-desktop-agent) to send requests from your browser without any limitations.
 
