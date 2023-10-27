@@ -48,7 +48,7 @@ You can also run collections from the command line using the [Postman CLI](/docs
 * [Getting started](#getting-started)
 * [Options](#options)
 * [File uploads](#file-uploads)
-* [Custom reporters](#custom-reporters)
+* [Reporters](#reporters)
 
 ## Getting started
 
@@ -62,6 +62,6 @@ Newman provides a rich set of options to customize a run. Learn more about [Newm
 
 Newman supports file uploads, so you can use a data file (such as a text file) to fill in form data fields. Learn more about [uploading files in Newman](/docs/collections/using-newman-cli/newman-file-uploads/).
 
-## Custom reporters
+## Reporters
 
-Custom reporters are useful to generate collection run reports that cater to specific use cases, for example, logging out the response body when a request (or its tests) fail. Learn more about [using Newman custom reporters](/docs/collections/using-newman-cli/newman-custom-reporters/).
+Reporters are useful to generate collection run reports that cater to specific use cases, for example, logging out the response body when a request (or its tests) fail. Learn more about using Newman [built-in reporters](/docs/collections/using-newman-cli/newman-built-in-reporters/), [external reporters, and custom reporters](/docs/collections/using-newman-cli/newman-custom-reporters/).
