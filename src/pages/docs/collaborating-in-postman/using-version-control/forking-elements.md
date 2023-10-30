@@ -32,11 +32,11 @@ A _fork_ is a new instance of an element that you can change without making any 
 ## Contents
 
 * [Create a fork](#create-a-fork)
+* [Edit a fork's name or label](#edit-a-forks-name-or-label)
 * [View fork information](#view-fork-information)
 * [Pull updates from a parent element](#pull-updates-from-a-parent-element)
 * [Merge changes from a fork](#merge-changes-from-a-fork)
 * [Resolve conflicts from a fork](#resolve-conflicts-from-a-fork)
-* [Edit a fork](#edit-a-fork)
 
 ## Create a fork
 
@@ -61,6 +61,14 @@ Postman creates your fork in the selected workspace.
 If there are any [mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) or [monitors](/docs/monitoring-your-api/intro-monitors/) associated with the parent element, they aren't linked to the forked element. You must create mocks and monitors specifically for the fork if you need them.
 
 > If a collection is in a public workspace that you haven't been added to, you won't be able to send a request within that workspace. To send requests or make changes to a collection, you must fork the collection into a personal workspace or a team workspace that you belong to.
+
+## Edit a fork's name or label
+
+To change a forked element's name or label, do the following:
+
+1. Select the fork in the sidebar.
+1. In the overview tab that appears, select the fork's name or label to edit it.
+1. Select anywhere outside the name or label to save your changes.
 
 ## View fork information
 
@@ -142,11 +150,3 @@ To resolve a merge conflict from a fork, do the following:
 > To keep all changes on your fork, select **Keep all changes to source**. To keep all changes on the parent element, select **Keep all changes to destination**.
 
 After you resolve the conflicts, select **Pull changes** to [pull the updates](#pull-updates-from-a-parent-element).
-
-## Edit a fork
-
-To change a forked element's name or label, do the following:
-
-1. Select the fork in the sidebar.
-1. In the overview tab that appears, select the fork's name or label to edit it.
-1. Select anywhere outside the name or label to save your changes.
