@@ -33,7 +33,7 @@ contextual_links:
 
 In Postman, an _environment_ is a set of one or more [variables](/docs/sending-requests/variables/) that you can reference when [sending requests](/docs/sending-requests/requests/) or [writing test scripts](/docs/writing-scripts/test-scripts/). You can create environments for the different types of work you do in Postman. When you switch between environments, all of the variables in your requests and scripts will use the values from the current environment. This is helpful if you need to use different values in your requests depending on the context, for example, if you're sending a request to a test server or a production server.
 
-> Environments can also help you to collaborate on Postman data if you're working as part of a team. You can use environments to share and manage the visibility of sensitive data such as API secrets, passwords, tokens, and keys. Learn more about [working with environments as a team in Postman](/docs/sending-requests/environments/team-environments/).
+> Environments can also help you to collaborate on Postman data if you're working as part of a team. You can use environments to share variables and manage the visibility of sensitive data such as API secrets, passwords, tokens, and keys. Learn more about [working with environments as a team in Postman](/docs/sending-requests/environments/team-environments/).
 
 ## Contents
 
@@ -44,6 +44,55 @@ In Postman, an _environment_ is a set of one or more [variables](/docs/sending-r
 * [Next steps](#next-steps)
 
 ## Create an environment
+
+Create a new environment when you want to be able to change the values of variables depending on your work context in Postman, or to share values with other team members.
+
+To create a new environment, do the following:
+
+1. Select **Environments** in the sidebar and select **+**.
+
+    <img src="https://assets.postman.com/postman-docs/environment-create-new-v9.13.jpg" alt="Create new environment" width="300px"/>
+
+1. Enter a name for your new environment.
+
+1. Add any variables you want to the environment. You can also add variables later. Learn more about [adding environment variables](#add-environment-variables).
+
+1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save any environment variables you added.
+
+1. To use the new environment, select it from the environment selector at the top right of the workbench. This makes it the active environment and sets all variables to the values specified in the environment. Learn more about [switching between environments](#switch-between-environments).
+
+    <img src="https://assets.postman.com/postman-docs/v10/environment-selector-v10.jpg" alt="Environment selector" width="200px">
+
+> You can turn on autosave to automatically save your changes to collections, requests, and environments. Learn more about [autosave](/docs/getting-started/installation/settings/#application).
+
+## Add environment variables
+
+When you add a variable to an environment, you can specify the _Initial value_ (shared) and the _Current value_ (local) for the variable:
+
+* **Initial (shared) value** - This value is synced to your account using Postman's servers. It's shared with any collaborators who have access to the environment. If the value includes sensitive data such as a password or key, you can mask the value by selecting the **secret** variable type.
+* **Current (local) value** - This value is used to send requests in your local instance of Postman. It's never synced to your account or shared with your team _unless you [choose to persist it](/docs/sending-requests/variables/#sharing-and-persisting-data)_.
+
+To add variables to an environment, do the following:
+
+1. Select **Environments** in the sidebar and select an environment. To add a new variable, select the bottom row of the table.
+
+    ![Add Environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
+
+1. Enter a name for the **Variable**.
+
+1. Select a variable **Type**. If you select **default** the variable value is stored in plain text. If you select **secret** the variable value is masked.
+
+    > If you are sharing an environment, make sure to choose the **secret** variable type to not expose data to your team.
+
+
+
+
+Enter a name for your variable, and specify its __Initial__ and __Current__ values. By default the current value will copy the initial value when you save the environment.
+
+* The __Initial value__ is synced to your account using the Postman servers. It's shared with any collaborators who have access to the environment.
+* The __Current value__ is used in your local instance of Postman, and is never synced to your account or shared with your team _unless you choose to persist it_.
+
+## Switch between environments
 
 Postman displays the active environment in the environment selector, located in the top right of the workbench.
 
@@ -56,37 +105,6 @@ Select an environment's name to open the environment editor.
 The environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> is next to the environment selector. The environment quick look lists variables for the active environment, and any global variables you have declared or that are shared in your workspace.
 
 <img alt="Selecting the environment quick look" src="https://assets.postman.com/postman-docs/v10/environment-quick-look-selector-v10.jpg" width="250px"/>
-
-To create a new environment, do the following:
-
-1. Select __Environments__ on the left and select __+__.
-
-   <img src="https://assets.postman.com/postman-docs/environment-create-new-v9.13.jpg" alt="Create new environment" width="300px"/>
-
-1. Enter a name for your environment, and initialize it with any variables you need. You can also specify variables for the environment later.
-
-1. Select __Save__ to save any environment variables you have added.
-
-> You can turn on autosave to automatically save your changes to collections, requests, and environments. Learn more about [autosave](/docs/getting-started/installation/settings/#application).
-
-## Add environment variables
-
-You can add variables to an active (currently selected) environment by opening the environment from the sidebar and editing it in the tab that opens.
-
-![Add Environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
-
-Edit the variable names and values inline, or use the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to delete a variable. Enter the name and values for a new variable on a new line. __Save__ when your changes are complete.
-
-Alternatively, select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> and edit inline.
-
-> If you are working with environment variables as part of a team, you will only be able to change initial values if you have [edit access to the environment](#managing-environment-roles). You can access all variables in environments shared with you, but may have read-only access to initial values if you have a Viewer role.
-
-Enter a name for your variable, and specify its __Initial__ and __Current__ values. By default the current value will copy the initial value.
-
-* The __Initial value__ is synced to your account using the Postman servers. It's shared with any collaborators who have access to the environment.
-* The __Current value__ is used in your local instance of Postman, and is never synced to your account or shared with your team _unless you choose to persist it_.
-
-## Switch between environments
 
 To use the variables in an environment, select it from the environment selector at the top right of the workbench.
 
@@ -131,6 +149,12 @@ Here you can add, share, duplicate, download, manage access, delete, and remove 
 To view the variables in an environment, select its name. You can edit, add, and remove variables from the environment here. You can also use the **Filter variables** control to search for variables in the environment.
 
 ![Edit environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
+
+Edit the variable names and values inline, or use the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to delete a variable. Enter the name and values for a new variable on a new line. __Save__ when your changes are complete.
+
+Alternatively, select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> and edit inline.
+
+> If you are working with environment variables as part of a team, you will only be able to change initial values if you have [edit access to the environment](#managing-environment-roles). You can access all variables in environments shared with you, but may have read-only access to initial values if you have a Viewer role.
 
 ## Next steps
 
