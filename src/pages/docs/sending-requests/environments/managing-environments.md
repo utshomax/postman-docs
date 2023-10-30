@@ -40,6 +40,7 @@ In Postman, an _environment_ is a set of one or more [variables](/docs/sending-r
 * [Create an environment](#create-an-environment)
 * [Add environment variables](#add-environment-variables)
 * [Switch between environments](#switch-between-environments)
+* [Use variables in requests and scripts](#use-variables-in-requests-and-scripts)
 * [Edit an environment](#edit-an-environment)
 * [Next steps](#next-steps)
 
@@ -69,48 +70,42 @@ To create a new environment, do the following:
 
 When you add a variable to an environment, you can specify the _Initial value_ (shared) and the _Current value_ (local) for the variable:
 
-* **Initial (shared) value** - This value is synced to your account using Postman's servers. It's shared with any collaborators who have access to the environment. If the value includes sensitive data such as a password or key, you can mask the value by selecting the **secret** variable type.
-* **Current (local) value** - This value is used to send requests in your local instance of Postman. It's never synced to your account or shared with your team _unless you [choose to persist it](/docs/sending-requests/variables/#sharing-and-persisting-data)_.
+* **Initial value (shared)** - This value is synced to your account using Postman's cloud servers. It's shared with any collaborators who have access to the environment. It's also made public when [publishing an environment along with a collection](/docs/publishing-your-api/publishing-your-docs/). If the value includes sensitive data, such as a password or key, you can mask the value by selecting the **secret** variable type.
+* **Current value (local)** - This value is used when sending requests in your local instance of Postman. It's never synced to your account or shared with your team _unless you [choose to persist it](/docs/sending-requests/environments/environment-variables/#persist-environment-variables)_.
 
 To add variables to an environment, do the following:
 
-1. Select **Environments** in the sidebar and select an environment. To add a new variable, select the bottom row of the table.
+1. Select **Environments** in the sidebar and select an environment.
+
+1. To add a new variable, select the bottom row of the table and enter a **Variable** name.
 
     ![Add Environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
 
-1. Enter a name for the **Variable**.
-
 1. Select a variable **Type**. If you select **default** the variable value is stored in plain text. If you select **secret** the variable value is masked.
 
-    > If you are sharing an environment, make sure to choose the **secret** variable type to not expose data to your team.
+    > If a variable's initial value contains sensitive data, make sure to choose the **secret** variable type if you don't want to expose the value when sharing or publishing the environment.
 
+1. Enter the **Initial value** and **Current value** for the variable. _Keep in mind that the initial value is shared with anyone who has access to the environment, and the initial value is made public if you publish the environment along with a collection._
 
+    > If you leave the current value blank, the initial value is copied to the current value when you save the environment.
 
-
-Enter a name for your variable, and specify its __Initial__ and __Current__ values. By default the current value will copy the initial value when you save the environment.
-
-* The __Initial value__ is synced to your account using the Postman servers. It's shared with any collaborators who have access to the environment.
-* The __Current value__ is used in your local instance of Postman, and is never synced to your account or shared with your team _unless you choose to persist it_.
+1. When you are done adding environment variables, select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save**.
 
 ## Switch between environments
 
-Postman displays the active environment in the environment selector, located in the top right of the workbench.
-
-You can access all environments from __Environments__ in the sidebar. Select the set active icon <img alt="Set active icon" src="https://assets.postman.com/postman-docs/icon-checkmark-v9.jpg#icon" width="16px"> next to an environment to make it the active environment.
-
-Select an environment's name to open the environment editor.
-
-<img alt="Environment editor" src="https://assets.postman.com/postman-docs/v10/environment-editor-select-env-v10-10.jpg" width="250px">
-
-The environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> is next to the environment selector. The environment quick look lists variables for the active environment, and any global variables you have declared or that are shared in your workspace.
-
-<img alt="Selecting the environment quick look" src="https://assets.postman.com/postman-docs/v10/environment-quick-look-selector-v10.jpg" width="250px"/>
-
-To use the variables in an environment, select it from the environment selector at the top right of the workbench.
+Postman displays the active environment in the environment selector, located in the top right of the workbench. When you send a request or run a script, Postman uses the current values for all variables in the active environment. To make another environment active, select it from the environment selector.
 
 <img src="https://assets.postman.com/postman-docs/v10/environment-selector-v10.jpg" alt="Environment selector" width="200px">
 
-To check a variable value at a glance, use the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px">.
+You can also make an environment active by selecting **Environments** in the sidebar. Select the set active icon <img alt="Set active icon" src="https://assets.postman.com/postman-docs/icon-checkmark-v9.jpg#icon" width="16px"> next to an environment to make it the active environment.
+
+<img alt="Environment editor" src="https://assets.postman.com/postman-docs/v10/environment-editor-select-env-v10-10.jpg" width="250px">
+
+To check a variable's value at a glance, select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> next to the environment selector. The environment quick look lists the initial and current values for all variables in the active environment. The quick look also lists any [global variables](/docs/sending-requests/variables/#defining-global-variables) you have declared or that are shared in your workspace.
+
+<img alt="Selecting the environment quick look" src="https://assets.postman.com/postman-docs/v10/environment-quick-look-selector-v10.jpg" width="250px"/>
+
+## Use variables in requests and scripts
 
 When you choose an environment using the environment selector, Postman treats it as the active environment and runs all requests with values from that environment (if your requests reference environment variables).
 
@@ -134,11 +129,14 @@ You can access current environment variable values in your __Pre-request__ and _
 pm.environment.get("variable_key");
 ```
 
+Learn more about [editing and using environment variables in Postman](/docs/sending-requests/environments/environment-variables/).
+
 > You can publish environments with your [API documentation](/docs/publishing-your-api/publishing-your-docs/) and the [Run in Postman button](/docs/publishing-your-api/run-in-postman/creating-run-button/).
 
 ## Edit an environment
 
-You can access your environment variables from Postman and from your request elements, including the URL, parameters, body data, and test scripts.
+You can access your environment variables from Postman and from your request elements, including the URL, parameters, body data, and test scripts. Select an environment's name to open the environment editor.
+
 
 For the list of all your environments, select __Environments__ in the sidebar.
 
