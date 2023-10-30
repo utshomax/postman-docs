@@ -1228,8 +1228,12 @@ export const leftNavItems = [
   {
     name: 'Administration',
     parentSlug: 'administration',
-    url: '/docs/administration/managing-your-team/managing-your-team/',
+    url: '/docs/administration/admin-overview/',
     subMenuItems1: [
+      {
+        name: 'Admin overview',
+        url: '/docs/administration/admin-overview/',
+      },
       {
         name: 'Onboarding checklist',
         url: '/docs/administration/onboarding-checklist/',
