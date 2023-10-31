@@ -266,13 +266,13 @@ You can [assign](/docs/administration/managing-your-team/managing-your-team/) th
 You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) Partner Workspace roles to partners at the workspace level:
 
 * **Partner Lead**  - Can invite other partners from their organization to join a Partner Workspace.
-* **Editor** - Partners can create and edit Partner Workspace resources, [import and export](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/) elements, and [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) elements to Partner Workspaces within the same team.
-* **Viewer** - Partners can view Partner Workspace resources and [fork](/docs/collaborating-in-postman/using-version-control/forking-entities/) elements to another Partner Workspace within the same team where they're assigned the Workspace Editor role.
+* **Editor** - Partners can create and edit Partner Workspace resources, [import and export](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/) elements, and [fork](/docs/collaborating-in-postman/using-version-control/forking-elements/) elements to Partner Workspaces within the same team.
+* **Viewer** - Partners can view Partner Workspace resources and [fork](/docs/collaborating-in-postman/using-version-control/forking-elements/) elements to another Partner Workspace within the same team where they're assigned the Workspace Editor role.
 
 You can also [assign](/docs/collaborating-in-postman/requesting-access-to-elements/#managing-element-based-roles) Partner Workspace roles to partners at the collection level:
 
-* **Editor** - Partners can [export collections](/docs/getting-started/importing-and-exporting/exporting-data/#exporting-collections). They can also [fork collections](/docs/collaborating-in-postman/using-version-control/forking-entities/) within the same Partner Workspace or to another Partner Workspace within the same team. They can't fork collections outside the team.
-* **Viewer** - Partners can [fork collections](/docs/collaborating-in-postman/using-version-control/forking-entities/) to another Partner Workspace within the same team where they're assigned the Workspace Editor role. They can't fork elements outside the team. Also, they can't export collections.
+* **Editor** - Partners can [export collections](/docs/getting-started/importing-and-exporting/exporting-data/#exporting-collections). They can also [fork collections](/docs/collaborating-in-postman/using-version-control/forking-elements/) within the same Partner Workspace or to another Partner Workspace within the same team. They can't fork collections outside the team.
+* **Viewer** - Partners can [fork collections](/docs/collaborating-in-postman/using-version-control/forking-elements/) to another Partner Workspace within the same team where they're assigned the Workspace Editor role. They can't fork elements outside the team. Also, they can't export collections.
 
 To learn more about collaborating as a team member or partner, see [Collaborating in a Partner Workspace](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/#collaborating-in-a-partner-workspace).
 
