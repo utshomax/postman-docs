@@ -1,5 +1,5 @@
 ---
-title: "Live Insights"
+title: "Get started with Live Insights"
 updated: 2023-10-30
 early_access: true
 plan: alpha
@@ -16,68 +16,19 @@ contextual_links:
     url: "https://www.postman.com/product/live-insights/"
 ---
 
-## About Live Insights Early Access
-
-Our team at Postman is working toward the open launch of Live Insights. Today, the alpha launch focuses on the Live Collections Agent (LCA), which passively watches your API traffic to automatically populate a Postman Collection with API endpoints. Within 15 minutes of installing the Live Collections Agent in staging or production, you’ll start to see endpoints in your collection. The Live Collections Agent will keep these endpoints up to date based on new observed traffic.
-
-API discovery is just the beginning of what we plan to offer. Akita users are familiar with the ability to explore API models based on error, latency, and volume.
-
-We’re hoping you will try out the new features and give us your feedback to help us continue tailoring the product to your needs.
-
-### Feedback
-
-If you’ve agreed to participate in the alpha, we kindly ask you to:
-
-* Install the Live Collections Agent within two weeks of receiving these instructions. We would love installation feedback as you go, in Slack or via email.
-* Fill out a survey or do a live user interview within one month of receiving access.
-* Optionally, provide feedback on product designs and upcoming features.
-
-We would love to talk to you in Slack to get questions, bug reports, and feature requests as you explore the alpha. If you’d like to provide detailed product feedback, please send it to [Jean Yang](jean.yang@postman.com), Head of Product, Observability.
-
-### Support
-
-If you experience any issues, please reach out on Slack or contact observability-support@postman.com.
-
-## Overview
-
-The goal of the Postman Live Insights is to be the source of truth for your production APIs. With Live Insights, our vision is to be able to guide a developer with little previous experience, in both the system being monitored and our tool, to productively find and fix issues.
-
-> These docs feature onboarding for [Kubernetes](), [Amazon Elastic Container Service (ECS)](), and [Amazon EC2/Linux Server]() users.
+First, create a collection and install the LCA locally. Then, configure LCA for your deployment. Finally, return to Postman to [check your LCA connection](#check-your-lca-connection), [navigate your collection](#navigate-live-collections), and [observe live insights](#observe-live-insights) about your endpoints. You can also [review any traffic errors](/docs/live-insights/live-insights/troubleshoot/).
 
 ## Contents
 
-* [Before you start]()
-* [Get started]()
-* [Check your LCA connection]()
-* [Navigate Live Collections]()
-* [Observe Live Insights]()
-* [Diagnose and troubleshoot errors]()
-* [Sensitive data protection]()
-* [Notes for existing Akita users]()
-* [Supported LCA actions]()
-* [Unsupported actions]()
-* [Known limitations]()
+* [Create a collection](#create-a-collection)
+* [Install the Live Collections Agent locally](#install-the-live-collections-agent-locally)
+* [Kubernetes](#kubernetes)
+* [ECS (EC2 and Fargate)](#ecs-ec2-and-fargate)
+* [Amazon EC2/Linux Server](#amazon-ec2linux-server)
+* [Check your LCA connection](#check-your-lca-connection)
+* [Navigate Live Collections](#navigate-live-collections)
 
-## Before you start
-
-* To use the Live Insights alpha, you need to be part of a team. If you don’t already have a team in Postman, see [Collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team) for instructions on how to set it up. Postman Free provides team setup with up to three users. If you weren’t already part of a team, create a team and contact [Jean Yang](jean.yang@postman.com) to get access to the alpha.
-* To better help our team quickly improve our solution, it would be helpful if you add the [Live Insights Alpha Team](live.insights.alpha@postman.com) as a guest to your team. (There is no need to add our team as a full member.)
-* If you feel comfortable, add the [Live Insights Alpha team](live.insights.alpha@postman.com) as a viewer on your live collections. See [Allowing external users to view collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections) for more information. This will allow us to directly see your endpoints to improve your experience.
-* If you’re working with multiple teams, make sure the Live Insights team is aware and gives you access to the team you want to use.
-* Log in with the email address confirmed with you in the alpha invite email. If you are not sure which email to use, contact [Jean Yang](jean.yang@postman.com).
-* You can install the Live Collections Agent (LCA) after you create a new live collection. For more information, see [Get started](#get-started).
-
-> Live Insights currently works only for REST APIs and not yet for gRPC or GraphQL. Please get in touch if you are interested in gRPC or GraphQL.
-
-Live Insights is currently focused on first-party APIs.
-
-> Do not install the LCA on an existing curated collection because your existing curated endpoints will be overwritten.
-
-## Get started
-
-Currently, you can install and run the Live Collections Agent (LCA) on [Kubernetes](), [Amazon Elastic Container Service (ECS)](), and [Amazon EC2/Linux Server](). First, create a collection and install the LCA locally. Then, configure LCA for your deployment. Finally, return to Postman to [check your LCA connection](), [navigate your collection](), [review any traffic errors](), and [observe live insights]() about your endpoints.
-
-### Create a collection
+## Create a collection
 
 1. In Postman, create and name a collection. For more information about how to create and manage collections, see [Collections overview](https://learning.postman.com/docs/collections/collections-overview/).
 
@@ -87,7 +38,7 @@ Currently, you can install and run the Live Collections Agent (LCA) on [Kubernet
 
 1. In the **Enabling Live** tab, select **Using the Live Collection Agent.**
 
-### Install LCA locally
+## Install the Live Collections Agent locally
 
 In your shell, run:
 
@@ -95,13 +46,17 @@ In your shell, run:
 bash -c "$(curl -L https://releases.observability.postman.com/scripts/install-postman-lc-agent.sh)"
 ```
 
-## Kubernetes
+## Configure the LCA in your deployment
+
+Currently, you can install and run the Live Collections Agent (LCA) on [Kubernetes](), [Amazon Elastic Container Service (ECS)](), and [Amazon EC2/Linux Server]().
+
+### Kubernetes
 
 Get onboarded quickly with the Kubernetes injector. The injector is a tool that operates on the YAML definition of a Kubernetes deployment in an offline fashion, similar to [Istio’s manual sidecar injection](https://istio.io/latest/docs/setup/additional-setup/sidecar-injection/#manual-sidecar-injection).
 
 Set up the LCA in your Kubernetes environment using the injector, and edit the deployment using additional command flags.
 
-### Configure
+#### Configure
 
 1. Navigate to the correct Kubernetes cluster and get the existing deployment configuration.
 
@@ -164,11 +119,9 @@ Set up the LCA in your Kubernetes environment using the injector, and edit the d
 
 You are now ready to [check your LCA connection](), [navigate your collection](), [review any traffic errors](), and [observe live insights]() about your endpoints.
 
-### Uninstall
+#### Uninstall
 
 To uninstall the LCA client on Debian and macOS follow the steps listed below. For all other distributions of Linux and other operating systems, simply remove the `postman-lc-agent` file from your executable file location. To fully uninstall, also remove the sidecar from your Kubernetes deployment.
-
-#### Uninstall LCA client
 
 Follow these steps to uninstall the LCA client from Debian and macOS.
 
@@ -184,7 +137,7 @@ Follow these steps to uninstall the LCA client from Debian and macOS.
     brew uninstall postman-lc-agent
     ```
 
-#### Remove the sidecar from your Kubernetes deployment
+To remove the sidecar from your Kubernetes deployment:
 
 1. Access the sidecar in your Kubernetes deployment directory.
 
@@ -423,7 +376,7 @@ sudo systemctl disable --now postman-lc-agent
 
 You can install LCA one EC2 instance at a time. If you want to install on more than one machine, please contact support.
 
-# Check your LCA connection
+## Check your LCA connection
 
 A live collection shows you the properties of your system based on real-time API traffic. For [Live Insights]() to work, the Live Collections Agent (LCA) needs to see your API traffic.
 
@@ -447,7 +400,7 @@ Postman displays these error states:
 * No telemetry
 * Insufficient permissions, try using “sudo” to run as a root
 
-# Navigate Live Collections
+## Navigate Live Collections
 
 The Live Collections Agent (LCA) watches your API traffic to automatically populate your Postman Collection as a _live collection_.
 
@@ -487,207 +440,3 @@ The **Errors** tab displays per-endpoint error states in a chronological order a
 
 ![Image]()
 
-## Diagnose and troubleshoot errors
-
-As you work with the Live Collections Agent (LCA), you may encounter errors and receive error messages. Our diagnostics are still in alpha, so if anything is confusing please don’t hesitate to get in touch and ask us questions.
-
-The LCA displays errors and provides diagnostics so that you can act on them:
-
-* Observe information received from the LCA on usage and error states, including interfaces, ports, and traffic (HTTP vs. encrypted traffic, busiest endpoints).
-* Review status messages and act on them.
-
-To access the error message, select the Live Collections icon <img alt="Live Collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> next to the collection.
-
-![Image]()
-
-The following is the complete list of error messages.
-
-| State                           | Description                                                                           | Message                                                                                                                                                                                                                              |
-| ------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| _API key lacks permission_      | The API key used to instrument this collection doesn't have permissions to modify it. | The API key used to instrument this collection doesn't have permissions to modify it. Verify that the user is an editor on this collection or use a different API key.                                                               |
-| _SDK is offline_                | Your team's usage limit has exceeded.                                                 | Your team has reached its monthly traces usage limit. To request a limit increase, please reach out to support\@postman.com.                                                                                                         |
-| _API key is invalid or revoked_ | The API key used to instrument this collection is invalid or has been revoked.        | Verify the API key's validity or use a different API key.                                                                                                                                                                            |
-| _PCAP permission failure_       | Client lacks permissions                                                              | The Agent could not capture traffic because it lacks permissions to do so. In a container environment, ensure that the container that has the Agent can run in privileged mode and has the `CAP_NET_RAW` capability.                 |
-| _Invalid filters_               | Filter parsing error                                                                  | The Agent failed to parse the filters you specified on the command line. The `--filter` argument takes `tcpdump`-style arguments, while the host and path filters take Go regular expressions. Check the Agent logs for more details |
-| _Traffic capture failure_       | Error in capturing traffic                                                            | Something went wrong while capturing traffic. Please try again.                                                                                                                                                                      |
-| _Something went wrong_          | Something went wrong                                                                  | Something went wrong while starting the Agent. Please try again.                                                                                                                                                                     |
-
-## Sensitive data protection
-
-The LCA client drops all data values from the observed traffic before sending it to Postman. All data format inference happens on the client side, before the data is removed. The Postman cloud does not see the initial values, and uploads of the obfuscated data to Postman are performed over HTTPS using TLS.
-
-### Limitations
-
-* Any literal values that appear in the payload are obfuscated before being sent to Postman, but path parameters are sent in their original form. If the path to your API includes sensitive data (for example, email, first/last names, or phone numbers), it is transmitted to Postman first. Postman applies heuristics on the backend to remove it. If you have APIs that include sensitive data, contact Postman support to adjust the LCA to pre-filter it.
-* Postman’s data sanitizing doesn't apply to the keys. For example, the sanitizing works if your JSON document is structured as follows:
-
-    ```json
-    {
-        "key": "sensitive-data",
-        "other-key": "super-secret-value",
-    }
-    ```
-
-    However, if your data is structured as shown in the next example, Postman preserves the left set of values.
-
-    ```json
-    {
-        "<social-security-number>": true,
-        "more-sensitive-data": "string",
-        "super-secret-identifier": 1.0,
-    }
-    ```
-
-* Sanitization also applies to HTTP header values, not keys. For example, if your header looks like:
-
-    ```json
-    Authentication: <secret token>
-    ```
-
-    Then, the secret token is never sent to Postman.
-
-    But, if your system encodes sensitive data in the name of the header, like so:
-
-    ```json
-    User-<user id>: ...
-    ```
-
-    Then the header is sent to Postman and appears in your collection.
-
-## Notes for existing Akita users
-
-* Instead of `akita`, use `postman-lc-agent`.
-* Instead of a project ID, use a collection ID.
-* Instead of an Akita API key, use a Postman API key.
-
-## Supported LCA actions
-
-### apidump
-
-Capture and store a sequence of requests and responses to a service by observing network traffic.
-
-#### Examples
-
-* Capture all traffic from your collection and send it to the Live Collections Agent.
-
-    ```bash
-    postman-lc-agent apidump --collection collectionID
-    ```
-
-* Run `my_tests.sh` as `${USER}` and capture traffic on port 80. Send the captured traffic to the Live Collections Agent. The agent will automatically terminate once the script finishes.
-
-    ```bash
-    postman-lc-agent apidump --collection collectionID --filter "port 80" -c ./my_tests.sh -u ${USER}
-    ```
-
-#### Required flags
-
-##### --collection collectionID
-
-The `--collection collectionID` flag identifies the collection with which to associate the captured traffic. The traffic is sent to the Live Collections Agent. You can find the collection ID by selecting your collection and then **Info** in the right sidebar.
-
-![Image]()
-
-#### Optional flags
-
-Filter your traffic using optional flags to return the information you’re interested in.
-
-##### --rate limit number
-
-Set the maximum number of HTTP request/response pairs to collect per minute. If the number of samples exceeds this amount, the CLI randomly samples events, and sends only the specified number to the Postman cloud.
-
-##### --path-exclusions regex1,regex2...
-
-Removes HTTP paths matching regular expressions.
-
-* Filter out requests fetching files with `.png` or `.jpg` extensions by specifying `--path-exclusions .*\.png` and `--path-exclusions .*\.jpg`.
-
-    **Example:**
-
-    If the URL is `http://10.0.0.1/junk.jpg`, then `path-exclusions` is matched against `"junk.jpg"`.
-
-##### --host-exclusions regex1,regex2...
-
-Removes HTTP requests whose host URL matches any one of the given regular expressions.
-
-* Exclude the host in the form of a regex that matches the IP address if you’re collecting all the junk traffic to the IP addresses instead of your named services.
-
-    **Example:**
-
-    If the URL is `http://10.0.0.1/junk.jpg`, then `host-exclusions` is matched against `"10.0.0.1"`.
-
-##### --path-allow regex1,regex2...
-
-Only capture HTTP requests whose URL path matches any one of the given regular expressions.
-
-##### --host-allow regex1,regex2…
-
-Only capture HTTP requests whose host URL matches any one of the given regular expressions.
-
-### kube inject
-
-Inject the Live Collections Agent into a Kubernetes deployment or set of deployment and output the result to standard out or a file.
-
-### Examples
-
-* Inject the set of deployment manifests found in `resources.yml` and print the result to standard out. Each injected deployment should send traffic from the collection to the Live Collections Agent.
-
-    ```bash
-    postman-lc-agent kube inject --collection collectionID -f resources.yml
-    ```
-
-* Inject any deployment manifests found in `resources.yml` similar to the previous execution. Also generate and add any secrets required for the Live Collections Agent to run.
-
-    ```bash
-    postman-lc-agent kube inject -s --collection collectionID -f resources.yml
-    ```
-
-* Output injected resources and any secret manifests to separate files:
-
-    ```bash
-    postman-lc-agent kube inject -s="secret.yml" --collection collectionID -f in.yml -o out.yml
-    ```
-
-* Apply generated resources via pipe using `kubectl`:
-
-    ```bash
-    postman-lc-agent kube inject -s --collection collectionID -f in.yml | kubectl apply -f -
-    ```
-
-### Required flags
-
-#### -f, --file string
-
-Path to the Kubernetes YAML file to be injected. This should contain a valid Deployment manifest.
-
-#### --collection collectionID
-
-Name of the collection to which the traffic will be uploaded.
-
-### Optional flags
-
-* `-o, --output string` — Path to the output file. If not specified, the output will be printed to stdout.
-* `-s, --secret string[="true"] `— Whether to generate a Kubernetes secret manifest. If set to "true", the secret will be added to the modified Kubernetes YAML file. Specify a path to write the secret to a separate file; if this is done, an output file must also be specified with `--output`. (Default: `"false"`)
-
-> The input file must be in YAML format and must contain at least one valid deployment manifest.
-
-> If the `--secret` flag is set to a file path, the `--output` flag must also be set.
-
-## Unsupported actions
-
-The following actions are currently unavailable but will be supported in the future.
-
-* Changing ownership
-* Editing Collection folder names
-* Editing any content of the Collection
-* Installing the Agent in any environment other than Kubernetes.
-
-## Known limitations
-
-We appreciate your patience with us as we build out the alpha.
-
-* Live Insights currently works only for REST APIs and not for gRPC or GraphQL.
-* Live Insights is currently focused on first-party APIs.
-* Postman generates a maximum of 10 folders per live collection, and 300 requests per folder. We’re working on expanding this.
-* The Agent updates every 10 minutes, which means new endpoints will not be seen for up to 10 minutes. We’d love your feedback on whether you would like more frequent updates.
-* Bug: Changes made to request bodies and examples do not yet show up. We are working on fixing this issue.
