@@ -1,6 +1,6 @@
 ---
 title: "Enterprise deployment"
-updated: 2022-03-14
+updated: 2023-10-18
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -65,7 +65,7 @@ Postman's Enterprise app is a variant of Postman’s Desktop app that offers gre
 
 You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to access the Postman Enterprise app package.
 
-To download the Postman Enterprise app, open Postman and select **Team** in the upper right, then **Team Settings > Enterprise Application**.
+To download the Postman Enterprise app, open Postman and select **Team** in the upper right, then **Team Settings > Enterprise application**.
 
 <img alt="Postman Enterprise app download" src="https://assets.postman.com/postman-docs/v10/enterprise-app-download-v10.jpg" />
 
@@ -253,7 +253,7 @@ sudo installer -dumplog -verbose -pkg path/to/app.pkg -target LocalSystem
 
 ## Installing the Postman Enterprise Linux app
 
-The Postman Enterprise app supports the same [64-bit Linux systems](/docs/getting-started/installation/installation-and-updates/#installing-postman-on-linux) as the Postman desktop app.
+The Postman Enterprise app supports the same [64-bit Linux systems](/docs/getting-started/installation/installation-and-updates/#install-postman-on-linux) as the Postman desktop app.
 
 Before installing, ensure a clean installation:
 
@@ -273,7 +273,7 @@ The `--dangerous` option is required because the Postman Enterprise app isn't di
 
 > This step is mandatory.
 
-To securely store local data, you must connect the Snap password manager service interface to the Postman Enterprise app.
+To securely store local data, you must connect the Snap password manager service interface to the Postman Enterprise app:
 
 ``` shell
 sudo snap connect postman-enterprise:password-manager-service
@@ -286,6 +286,8 @@ You can specify which Postman teams can use the app with the `team-ids` option. 
 ``` shell
 sudo snap set postman-enterprise team-ids="1234, 4321"
 ```
+
+> To get your Postman team ID, you can [contact Postman support](https://www.postman.com/support/) or contact your Postman Account Manager.
 
 ## Uninstalling the Postman Enterprise Linux app
 

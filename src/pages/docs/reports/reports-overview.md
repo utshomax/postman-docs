@@ -49,7 +49,7 @@ Postman generates reports periodically but not in real time. You might experienc
 
 In a given report, you can only access report data that's available to you based on the level of access you have for the relevant collection, API, element, mock server, or monitor. For more information about element-based roles, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles).
 
-If you don't have permission to access an element, aggregate visualizations will still display the correct number of entities but won't provide you with the element name or other relevant information for the specific element.
+If you don't have permission to access an element, aggregate visualizations will still display the correct number of elements but won't provide you with the element name or other relevant information for the specific element.
 
 ![Report message that restricted data is hidden](https://assets.postman.com/postman-docs/reports-restricted-data-v9.jpg)
 
@@ -77,7 +77,7 @@ Reports have the following limitations:
 
 * You can't download or export your reports.
 * Postman reports only track data sent through the request builder, and not data sent through [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/), [collection runs](/docs/collections/running-collections/intro-to-collection-runs/), or [monitors](/docs/monitoring-your-api/intro-monitors/). However, failed test runs do generate reports using collection runs.
-* You can't view the details of entities you don't have access to.
+* You can't view the details of elements you don't have access to.
 
 If there isn't any data in your reports, or your data is incomplete (for example, you have empty response times or sizes) this may be due to one of the following reasons:
 

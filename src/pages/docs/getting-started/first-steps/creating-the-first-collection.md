@@ -46,6 +46,7 @@ To create a new collection, you can start by creating a new request first. You c
 
 To create a collection, do the following:
 
+1. If you haven't already, [install the Postman desktop app](/docs/getting-started/first-steps/get-postman/) and [sign in to Postman](/docs/getting-started/first-steps/sign-in-to-postman/).
 1. Select **New > HTTP**.
 
     <img alt="Create new request" src="https://assets.postman.com/postman-docs/v10/create-new-http-v10-4.jpg" width="500px"/>
