@@ -1,6 +1,6 @@
 ---
 title: "Test script examples"
-updated: 2023-10-17
+updated: 2023-10-31
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -31,35 +31,35 @@ You can use the following test script examples to write your own test scripts fo
 
 ## Contents
 
-* [Getting started with tests](#getting-started-with-tests)
-* [Using multiple assertions](#using-multiple-assertions)
-* [Parsing response body data](#parsing-response-body-data)
-    * [Handling responses that don't parse](#handling-responses-that-dont-parse)
-* [Making assertions on the HTTP response](#making-assertions-on-the-http-response)
-    * [Testing response body](#testing-response-body)
-    * [Testing status codes](#testing-status-codes)
-    * [Testing headers](#testing-headers)
-    * [Testing cookies](#testing-cookies)
-    * [Testing response times](#testing-response-times)
+* [Get started with tests](#get-started-with-tests)
+* [Use multiple assertions](#use-multiple-assertions)
+* [Parse response body data](#parse-response-body-data)
+    * [Handle responses that don't parse](#handle-responses-that-dont-parse)
+* [Make assertions on the HTTP response](#make-assertions-on-the-http-response)
+    * [Test response body](#test-response-body)
+    * [Test status codes](#test-status-codes)
+    * [Test headers](#test-headers)
+    * [Test cookies](#test-cookies)
+    * [Test response times](#test-response-times)
 * [Common assertion examples](#common-assertion-examples)
-    * [Asserting a response value against a variable](#asserting-a-response-value-against-a-variable)
-    * [Asserting a value type](#asserting-a-value-type)
-    * [Asserting array properties](#asserting-array-properties)
-    * [Asserting object properties](#asserting-object-properties)
-    * [Asserting that a value is in a set](#asserting-that-a-value-is-in-a-set)
-    * [Asserting that an object is contained](#asserting-that-an-object-is-contained)
-    * [Asserting the current environment](#asserting-the-current-environment)
-* [Troubleshooting common test errors](#troubleshooting-common-test-errors)
+    * [Assert a response value against a variable](#assert-a-response-value-against-a-variable)
+    * [Assert a value type](#assert-a-value-type)
+    * [Assert array properties](#assert-array-properties)
+    * [Assert object properties](#assert-object-properties)
+    * [Assert that a value is in a set](#assert-that-a-value-is-in-a-set)
+    * [Assert that an object is contained](#assert-that-an-object-is-contained)
+    * [Assert the current environment](#assert-the-current-environment)
+* [Troubleshoot common test errors](#troubleshoot-common-test-errors)
     * [Assertion deep equality error](#assertion-deep-equality-error)
     * [Variable not defined error](#variable-not-defined-error)
     * [Assertion undefined error](#assertion-undefined-error)
     * [Test not failing](#test-not-failing)
-* [Validating response structure](#validating-response-structure)
-* [Sending an asynchronous request](#sending-an-asynchronous-request)
+* [Validate response structure](#validate-response-structure)
+* [Send an asynchronous request](#send-an-asynchronous-request)
 * [Previous style of writing Postman tests (deprecated)](#previous-style-of-writing-postman-tests-deprecated)
 * [Next steps](#next-steps)
 
-## Getting started with tests
+## Get started with tests
 
 To write your first test script, open a request in Postman, then select the **Tests** tab. Enter the following JavaScript code:
 
@@ -87,7 +87,7 @@ pm.test("Status code is 200", () => {
 
 > Refer to the [Chai Assertion Library Docs](https://www.chaijs.com/api/bdd/) for a complete overview of assertion syntax options.
 
-## Using multiple assertions
+## Use multiple assertions
 
 Your tests can include multiple assertions as part of a single test. Use this to group together related assertions:
 
@@ -103,7 +103,7 @@ pm.test("The response has all properties", () => {
 
 If any of the contained assertions fails, the test as a whole will fail. All assertions must be successful for the test to pass.
 
-## Parsing response body data
+## Parse response body data
 
 To carry out assertions on your responses, you will first need to parse the data into a JavaScript object that your assertions can use.
 
@@ -136,7 +136,7 @@ const $ = cheerio.load(pm.response.text());
 console.log($.html());
 ```
 
-### Handling responses that don't parse
+### Handle responses that don't parse
 
 If you can't parse the response body into JavaScript because it's not formatted as JSON, XML, HTML, CSV, or any other parsable data format, you can still make assertions on the data.
 
@@ -156,11 +156,11 @@ pm.test("Body is string", function () {
 });
 ```
 
-## Making assertions on the HTTP response
+## Make assertions on the HTTP response
 
-Your tests can check various aspects of a request response, including the [body](#testing-response-body), [status codes](#testing-status-codes), [headers](#testing-headers), [cookies](#testing-cookies), [response times](#testing-response-times), and more.
+Your tests can check various aspects of a request response, including the [body](#test-response-body), [status codes](#test-status-codes), [headers](#test-headers), [cookies](#test-cookies), [response times](#test-response-times), and more.
 
-### Testing response body
+### Test response body
 
 Check for particular values in the response body:
 
@@ -178,7 +178,7 @@ pm.test("Person is Jane", () => {
 });
 ```
 
-### Testing status codes
+### Test status codes
 
 Test for the response status code:
 
@@ -204,7 +204,7 @@ pm.test("Status code name has string", () => {
 });
 ```
 
-### Testing headers
+### Test headers
 
 Check that a response header is present:
 
@@ -222,7 +222,7 @@ pm.test("Content-Type header is application/json", () => {
 });
 ```
 
-### Testing cookies
+### Test cookies
 
 Test if a cookie is present in the response:
 
@@ -240,7 +240,7 @@ pm.test("Cookie isLoggedIn has value 1", () => {
 });
 ```
 
-### Testing response times
+### Test response times
 
 Test for the response time to be within a specified range:
 
@@ -256,7 +256,7 @@ The following examples of common assertions might help you write your test scrip
 
 > For a more comprehensive overview of what you can include in your assertions, refer to the [Chai Assertion Library Docs](https://www.chaijs.com/api/bdd/).
 
-### Asserting a response value against a variable
+### Assert a response value against a variable
 
 Check if a response property has the same value as a variable (this example uses an environment variable):
 
@@ -268,7 +268,7 @@ pm.test("Response property matches environment variable", function () {
 
 > See [Using variables](/docs/sending-requests/variables/) to learn more about using variables in your test scripts.
 
-### Asserting a value type
+### Assert a value type
 
 Test the type of any part of the response:
 
@@ -295,7 +295,7 @@ pm.test("Test data type of the response", () => {
 });
 ```
 
-### Asserting array properties
+### Assert array properties
 
 Check if an array is empty, and if it contains particular items:
 
@@ -338,7 +338,7 @@ pm.test("Test array properties", () => {
 
 > The order in `.members` doesn't affect the test.
 
-### Asserting object properties
+### Assert object properties
 
 Assert that an object contains keys or properties:
 
@@ -359,7 +359,7 @@ pm.expect({a: 1, b: 2}).to.be.a('object')
 
 > Target can be an `object`, `set`, `array` or `map`. If `.keys` is run without `.all` or `.any`, the expression defaults to `.all`. As `.keys` behavior varies based on the target `type`, it's recommended to check the `type` before using `.keys` with `.a`.
 
-### Asserting that a value is in a set
+### Assert that a value is in a set
 
 Check a response value against a list of valid options:
 
@@ -376,7 +376,7 @@ pm.test("Value is in valid list", () => {
 });
 ```
 
-### Asserting that an object is contained
+### Assert that an object is contained
 
 Check that an object is part of a parent object:
 
@@ -400,7 +400,7 @@ pm.test("Object is contained", () => {
 
 Using `.deep` causes all `.equal`, `.include`, `.members`, `.keys`, and `.property` assertions that follow in the chain to use deep equality (loose equality) instead of strict (`===`) equality. While `.eql` also compares loosely, `.deep.equal` causes deep equality comparisons to also be used for any other assertions that follow in the chain, while `.eql` doesn't.
 
-### Asserting the current environment
+### Assert the current environment
 
 Check the [active environment](/docs/sending-requests/managing-environments/#selecting-an-active-environment) in Postman:
 
@@ -410,7 +410,7 @@ pm.test("Check the active environment", () => {
 });
 ```
 
-## Troubleshooting common test errors
+## Troubleshoot common test errors
 
 When you encounter errors or unexpected behavior in your test scripts, [the Postman Console](/docs/sending-requests/troubleshooting-api-requests/) can help you to identify the source. By combining `console.log()`, `console.info()`, `console.warn()`, and `console.error()` debug statements with your test assertions, you can examine the content of the HTTP requests and responses, and Postman data items such as variables. You can also use the `console.clear()` method to clear information from the console. Select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** from the Postman footer to open it.
 
@@ -499,7 +499,7 @@ pm.test( function () {
 });
 ```
 
-## Validating response structure
+## Validate response structure
 
 You can validate your JSON schema with [Tiny Validator V4 (tv4)](https://github.com/geraintluff/tv4):
 
@@ -535,7 +535,7 @@ pm.test('Schema is valid', function() {
 });
 ```
 
-## Sending an asynchronous request
+## Send an asynchronous request
 
 You can send a request from your test code and log the response:
 
