@@ -173,7 +173,7 @@ Select the run number to view a graph and full details for the performance run. 
 
 You can share collection run results with others by exporting the results from the Collection Runner.
 
-> The **Export Results** button is available in the Postman desktop app but not in the web version. <!-- TODO: Add procedure for sharing results in web version-->
+> The **Export Results** button is available in the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/) but not in the web version. <!-- TODO: Add procedure for sharing results in web version-->
 
 To export a collection run, do the following:
 
