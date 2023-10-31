@@ -17,9 +17,9 @@ contextual_links:
 ---
 
 
-The _lightweight Postman API Client_ is a space where you can work if you're using the Postman desktop app and not connected to Postman servers. When you aren't signed in to Postman, you can still use the lightweight [API Client](https://www.postman.com/api-platform/api-client/) to build and send requests. You can use the lightweight API Client to send HTTP, WebSocket, gRPC, and GraphQL requests.
+The _lightweight Postman API Client_ is a space where you can work if you're using the Postman desktop app and not connected to Postman servers. When you aren't signed in to Postman, you can still use the lightweight [API Client](https://www.postman.com/api-platform/api-client/) to build and send HTTP, WebSocket, gRPC, and GraphQL requests. To use the lightweight Postman API Client, make sure to [install the Postman desktop app](/docs/getting-started/installation/installation-and-updates/).
 
-All of your work in the lightweight API Client is stored locally and isn't synced online with Postman. After you sign in to Postman, you can move your open requests and request history into a workspace where you can collaborate with others.
+All of your work in the lightweight API Client is stored locally and isn't synced online with Postman. After you [sign in to Postman](/docs/getting-started/installation/postman-account/), you can move your open requests and request history into a workspace where you can collaborate with others.
 
 > **What happened to the Scratch Pad?** New Postman users who download the Postman desktop app use the lightweight Postman API Client when not signed in to Postman. The Scratch Pad is deprecated and no longer supported. Learn more about [using the Scratch Pad](/docs/getting-started/basics/using-scratch-pad/).
 

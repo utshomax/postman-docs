@@ -608,7 +608,11 @@ export const leftNavItems = [
             url: '/docs/collections/using-newman-cli/newman-file-uploads/',
           },
           {
-            name: 'Create custom reporters',
+            name: 'Use Newman built-in reporters',
+            url: '/docs/collections/using-newman-cli/newman-built-in-reporters/',
+          },
+          {
+            name: 'Use Newman external and custom reporters',
             url: '/docs/collections/using-newman-cli/newman-custom-reporters/',
           },
           {
@@ -889,8 +893,8 @@ export const leftNavItems = [
             url: '/docs/collaborating-in-postman/using-version-control/version-control-overview/',
           },
           {
-            name: 'Fork Postman entities',
-            url: '/docs/collaborating-in-postman/using-version-control/forking-entities/',
+            name: 'Fork Postman elements',
+            url: '/docs/collaborating-in-postman/using-version-control/forking-elements/',
           },
           {
             name: 'Create pull requests',
@@ -1209,8 +1213,12 @@ export const leftNavItems = [
   {
     name: 'Administration',
     parentSlug: 'administration',
-    url: '/docs/administration/managing-your-team/managing-your-team/',
+    url: '/docs/administration/admin-overview/',
     subMenuItems1: [
+      {
+        name: 'Admin overview',
+        url: '/docs/administration/admin-overview/',
+      },
       {
         name: 'Onboarding checklist',
         url: '/docs/administration/onboarding-checklist/',
