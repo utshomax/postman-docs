@@ -129,31 +129,36 @@ If more than one variable with the same name is available to a request, Postman 
 
 ## Edit an environment
 
-You can access your environment variables from Postman and from your request elements, including the URL, parameters, body data, and test scripts. Select an environment's name to open the environment editor.
+You can edit an environment by adding or deleting variables and by changing variable values. You can also perform other actions such as renaming or deleting the environment.
 
-For the list of all your environments, select __Environments__ in the sidebar.
+To edit an environment, select **Environments** in the sidebar and select an environment. From here you can take the following actions:
 
-<img src="https://assets.postman.com/postman-docs/environments-view-menu-v9.13.jpg" alt="View all environments" width="300px"/>
+* To filter the list of environment variables by name, enter text in the **Filter variables** box.
 
-Here you can add, share, duplicate, download, manage access, delete, and remove a shared environment from a workspace. You can also access your global variables by selecting __Globals__.
+* To add a new environment variable, select the bottom row of the table. Enter a name, type, and initial and current values, then select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save**. Learn more about [adding environment variables](#add-environment-variables).
 
-To view the variables in an environment, select its name. You can edit, add, and remove variables from the environment here. You can also use the **Filter variables** control to search for variables in the environment.
+* To delete an environment variable, hover over a variable and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
+
+* To make an environment variable unavailable without deleting it, clear the checkbox next to the variable. Any references to the variable will be unresolved. To make the variable available again, select the checkbox.
+
+* To rename an environment, select the environment's name and enter a new name.
+
+* To duplicate an environment, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and select **Duplicate**.
+
+* To delete an environment, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and select **Delete**. Deleting an environment also deletes all variables in the environment.
 
 ![Edit environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
 
-Edit the variable names and values inline, or use the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to delete a variable. Enter the name and values for a new variable on a new line. __Save__ when your changes are complete.
+You can also edit a variable's current value from the environment quick look. Select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> next to the environment selector. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to a variable, then enter a new current value.
 
-Alternatively, select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> and edit inline.
+<img alt="Selecting the environment quick look" src="https://assets.postman.com/postman-docs/v10/environment-quick-look-selector-v10.jpg" width="250px"/>
 
 > If you are working with environments as part of a team, you must have the Editor role for the environment to be able to change initial values for variables. If you have the Viewer role, you can access all variables in environments shared with you and edit current values, but you won't be able to edit initial values. Learn more about [managing environment roles](/docs/sending-requests/environments/team-environments/#manage-environment-roles).
 
 ## Next steps
 
-Shared environments allow you to leverage collaboration within Postman. Check out some more resources on how you can work with team members on your API development projects:
+Environments enable you to share data in Postman and collaborate with your team. Here are some more resources to help you use environments with your team:
 
-* To learn more about how to use Postman with your team, visit [Collaborating in Postman](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/).
-* To learn more about how create a workspace in Postman, visit [Intro to workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
-* To learn more about how to share access to your APIs, visit [Managing and sharing APIs](/docs/designing-and-developing-your-api/managing-apis/).
-* To learn how to use version control to collaboratively build an API, visit [Version control in Postman](/docs/collaborating-in-postman/using-version-control/version-control-overview/).
-
-> You can publish environments with your [API documentation](/docs/publishing-your-api/publishing-your-docs/) and the [Run in Postman button](/docs/publishing-your-api/run-in-postman/creating-run-button/).
+* To learn more about working with environment variables, visit [Edit and set environment variables in Postman](/docs/sending-requests/environments/environment-variables/).
+* To learn how to use environments to collaborate with your team, visit [Work with environments as a team in Postman](/docs/sending-requests/environments/team-environments/).
+* To learn how to publish your environments, visit [Publish documentation in Postman](/docs/publishing-your-api/publishing-your-docs/) or [Create Run in Postman buttons](/docs/publishing-your-api/run-in-postman/creating-run-button/).
