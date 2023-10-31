@@ -1,5 +1,5 @@
 ---
-title: "Edit and use environment variables in Postman"
+title: "Edit and set environment variables in Postman"
 updated: 2023-10-26
 search_keyword: "pm.globals.set, globals.set, pm.environment.set, environment.set, pm.variables.get, variables.get, pm.globals.get, globals.get, pm.environment.get, environment.get"
 contextual_links:
