@@ -256,6 +256,12 @@ The environment selector enables you to choose which [environment](/docs/sending
 
 To check a variable value at a glance, use the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px">.
 
+### Quick Help
+
+If you have a quick question about something in the Postman app, look for "learn more" help link or the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the Workbench. These will open context-sensitive help from the Postman Learning Center in a side pane in the Postman app.
+
+You can open Quick Help in your web browser with the Open in icon <img alt="Open in icon" src="https://assets.postman.com/postman-docs/icons/icon-open-in.jpg#icon" width="16px">.
+
 ## Footer
 
 The footer on the bottom of Postman enables you to find and replace text, open the Console, capture requests and cookies, and access several other tools.
