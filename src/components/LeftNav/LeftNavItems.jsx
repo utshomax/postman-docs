@@ -422,6 +422,10 @@ export const leftNavItems = [
         url: '/docs/sending-requests/websocket/websocket/',
       },
       {
+        name: 'Send Socket.IO messages',
+        url: '/docs/sending-requests/websocket/socketio/',
+      },
+      {
         name: 'Send MQTT client requests',
         subParentSlug: 'mqtt-client',
         slug: '/docs/sending-requests/mqtt-client/mqtt-client-overview/',

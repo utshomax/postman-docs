@@ -1,5 +1,5 @@
 ---
-title: "Send and receive messages over a WebSocket connection"
+title: "Send and receive messages with Socket.IO"
 updated: 2023-11-01
 contextual_links:
   - type: section
@@ -25,13 +25,7 @@ contextual_links:
     url: "https://blog.postman.com/postman-now-supports-socket-io/"
 ---
 
-The WebSocket protocol provides a way to exchange data between a client and server over a persistent connection. The data can be passed in both directions with low latency and overhead, and without breaking the connection. WebSockets offers a bidirectional, full-duplex communications channel that operates over HTTP through a single TCP socket connection. This means the server can independently send data to the client without the client having to request it, and vice versa.
-
-In Postman you can create a WebSocket request with a server, and use it to send and receive messages across the WebSocket connection. If you haven't already, [download and install the Postman desktop app](/docs/getting-started/installation/installation-and-updates/) to get started.
-
-### About Socket.IO
-
-In addition to raw WebSocket connections, Postman also supports Socket.IO connections. Socket.IO is one of the most popular libraries to enable event-driven, bidirectional, real-time communication between clients and servers. It uses WebSocket as its transport layer. Many developers use Socket.IO in combination with HTTP APIs, and Postman enables you to switch between the two paradigms at will.
+Postman supports Socket.IO connections. Socket.IO is one of the most popular libraries to enable event-driven, bidirectional, real-time communication between clients and servers. It uses [WebSocket](/docs/sending-requests/websocket/websocket) as its transport layer. Many developers use Socket.IO in combination with HTTP APIs, and Postman enables you to switch between the two paradigms at will.
 
 ## Contents
 
@@ -49,9 +43,9 @@ In addition to raw WebSocket connections, Postman also supports Socket.IO connec
 
 You can create a WebSocket request from the sidebar in Postman.
 
-1. Select **New > WebSocket** to open a raw WebSocket request in a new tab. You can also select **New > Socket.IO** to open a Socket.IO request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**.)
+1. Select **New > Socket.IO** to open a Socket.IO request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**.)
 
-    <img src="https://assets.postman.com/postman-docs/v10/create-new-websocket-v10-2.jpg" alt="New WebSocket request" width="500px"/>
+    <img src="https://assets.postman.com/postman-docs/v10/create-new-socketio-v10-19.jpg" alt="New WebSocket request" width="500px"/>
 
 1. Enter the WebSocket server URL. A WebSocket URL begins with `ws://` or `wss://`.
 
