@@ -3,7 +3,7 @@ title: "Authenticate with Atlassian S2S authentication in Postman"
 updated: 2023-11-15
 ---
 
-ASAP (Atlassian S2S Authentication Protocol) is a mechanism that an API server uses to authenticate requests from the client. <!-- TBD -->The access token format must be signed [JSON Web Token (JWT)](https://datatracker.ietf.org/doc/html/rfc7519), and access tokens must be signed with the private key of the client using [JSON Web Signature (JWS)](https://datatracker.ietf.org/doc/html/rfc7515).
+Atlassian S2S Authentication Protocol (ASAP) is a mechanism that an API server uses to authenticate requests from the client. The access token format must be signed [JSON Web Token (JWT)](https://datatracker.ietf.org/doc/html/rfc7519), and access tokens must be signed with the private key of the client using [JSON Web Signature (JWS)](https://datatracker.ietf.org/doc/html/rfc7515).
 
 <!-- With ASAP (Atlassian S2S Authentication Protocol), the client sends a request to the API, and the API server uses ASAP to authenticate the request. -->
 
@@ -24,7 +24,7 @@ Enter the following ASAP parameters:
 
 * **Audience** -
 
-* **Key ID** - The identifier for the key.  <!-- header parameter -->
+* **Key ID** - The identifier for the public key of the issuer.  <!-- header parameter -->
 
 * **Private key** - The private key for signing the token. Select **Select File** to upload a private key in PKCS #8 format, or paste your key in the text area.
 
