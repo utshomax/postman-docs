@@ -419,11 +419,58 @@ export const leftNavItems = [
       },
       {
         name: 'Send WebSocket requests',
-        url: '/docs/sending-requests/websocket/websocket/',
-      },
-      {
-        name: 'Send Socket.IO messages',
-        url: '/docs/sending-requests/websocket/socketio/',
+        subParentSlug: 'websocket',
+        slug: '/docs/sending-requests/websocket/websocket-overview/',
+        subMenuItems2: [
+          {
+            name: 'Make WebSocket requests with Postman',
+            url: '/docs/sending-requests/websocket/websocket-overview/'
+          },
+          {
+            name: 'Create a WebSocket request',
+            url: '/docs/sending-requests/websocket/create-a-websocket-request/'
+          },
+          {
+            name: 'Send WebSocket messages',
+            url: '/docs/sending-requests/websocket/send-websocket-messages/'
+          },
+          {
+            name: 'Save WebSocket messages',
+            url: '/docs/sending-requests/websocket/save-websocket-messages/'
+          },
+          {
+            name: 'Add Socket.IO event names',
+            url: '/docs/sending-requests/websocket/add-socketio-event-names/'
+          },
+          {
+            name: 'View WebSocket messages',
+            url: '/docs/sending-requests/websocket/view-websocket-messages/'
+          },
+          {
+            name: 'Listen to Socket.IO events',
+            url: '/docs/sending-requests/websocket/listen-to-socketio-events/'
+          },
+          {
+            name: 'Use variables in WebSocket requests',
+            url: '/docs/sending-requests/websocket/use-variables-with-websocket/'
+          },
+          {
+            name: 'Add details to a WebSocket request',
+            url: '/docs/sending-requests/websocket/add-details-websocket/'
+          },
+          {
+            name: 'Save WebSocket requests',
+            url: '/docs/sending-requests/websocket/save-websocket-requests/'
+          },
+          {
+            name: 'Document WebSocket requests',
+            url: '/docs/sending-requests/websocket/document-websocket-requests/'
+          },
+          {
+            name: 'Troubleshoot WebSocket requests',
+            url: '/docs/sending-requests/websocket/troubleshoot-websocket-requests/'
+          },
+        ],
       },
       {
         name: 'Send MQTT client requests',
