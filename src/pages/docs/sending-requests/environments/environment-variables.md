@@ -47,7 +47,7 @@ You can edit environment variables by adding new variables, changing a variable'
 To edit environment variables, select **Environments** in the sidebar and select an environment. From here you can take the following actions:
 
 * To filter the list of environment variables by name, enter text in the **Filter variables** box.
-* To sort the list of environment variables, select a column heading. You can toggle between ascending and descending order. To manually sort the list, clear the active sort, then drag rows using the handle.
+* To sort the list of environment variables, select a column header. You can toggle between ascending and descending order. To manually sort the list, clear the sort order if needed by selecting a column header, then drag rows using the handles.
 * To add a new environment variable, select **Add new variable** in the bottom row of the table.
 * To delete an environment variable, hover over a variable and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
 * To make an environment variable unavailable without deleting it, clear the checkbox next to the variable. Any references to the variable will be unresolved. To make the variable available again, select the checkbox.
@@ -67,31 +67,36 @@ When you are done editing environment variables, select <img alt="Save icon" src
 
 ## Edit variables from the environment quick look
 
-You can also edit the current value for variables in the active environment from the environment quick look. Select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> next to the environment selector. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to a variable, then enter a new current value.
+You can edit the current value for variables in the [active environment](/docs/sending-requests/environments/managing-environments/#switch-between-environments) from the environment quick look. Select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> next to the environment selector. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to a variable, then enter a new current value.
 
 <img alt="Using the environment quick look" src="https://assets.postman.com/postman-docs/v10/environment-quick-look-edit-v10.jpg" width="700px"/>
 
 ## Set environment variables from scripts
 
-You can also update environment variable values from your test scripts.
-
-Your __Pre-request__ and __Tests__ scripts can update environment variable values.
-
-Use [pm.environment](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) to set an environment variable in the active (currently selected) environment:
+You can change the values of environment variables from your **Pre-request Script** and **Tests** scripts. Use the [`pm.environment` method](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#using-environment-variables-in-scripts) to set an environment variable in the [active environment](/docs/sending-requests/environments/managing-environments/#switch-between-environments):
 
 ```js
 pm.environment.set("variable_key", "variable_value");
 ```
 
-You can only create new variables from a script in an environment that you have edit access to. If you update or unset a value in a script with Viewer access to the environment, that change will only be visible to you and not shared with your team.
+If you use scripts to set values for environment variable, these values will be reflected in all requests that reference the variables. For example, you can use environments in conjunction with [the collection runner](/docs/collections/running-collections/intro-to-collection-runs/) and [monitors](/docs/monitoring-your-api/intro-monitors/) to use updated values for a series of requests throughout a run and after the run completes.
 
-> If you use scripts to set environment variable values, these will be reflected for all requests referencing the variables. For example, you can use environments [in conjunction with the collection runner](/docs/collections/running-collections/intro-to-collection-runs/) and [monitors](/docs/monitoring-your-api/intro-monitors/) to share updated values throughout a run for a series of requests as well as after it completes.
+> To create new environment variables from a script, you must have Editor access to the environment. If you update or unset a value in a script when you have Viewer access, that change will be visible to you but won't be shared with other team members. Learn more about [managing environment roles](/docs/sending-requests/environments/team-environments/#manage-environment-roles).
 
 ## Persist environment variables
 
-* The __Initial value__ is synced to your account using the Postman servers. It's shared with any collaborators who have access to the environment.
-* The __Current value__ is used in your local instance of Postman, and is never synced to your account or shared with your team _unless you choose to persist it_.
+An environment variable's current value is used in your local instance of Postman and isn't synced to your Postman account or shared with your team. If you want to sync an environment variable's current value with your account or share it with team members, you can _persist_ the variable.
 
-To update the synced variable with your local value, set the initial value to the current value by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and choosing __Persist__. To reset your local (current) value with the synced value shared with your workspace / collaborators, select __Reset__. You can persist or reset all values in the environment using __Persist All__ and __Reset All__.
+When you persist a variable, the variable's initial (shared) value is set to the current (local) value. The initial value is then synced to your Postman account, and anyone who has access to the environment can view the new initial value.
 
-You can also define environment variables by **Type**. Variables are automatically assigned the default type when created, which is shown as plain text and has no extra properties. You can change sensitive variables to [secret type](/docs/sending-requests/variables/#variable-types), which masks the initial and current values for all workspace members. Secret type can be used to prevent unintentional disclosure of sensitive data, including API secrets, passwords, tokens, and keys.
+> If a variable's initial value has sensitive data, make sure to choose the **secret** variable type if you don't want to expose the value when sharing or publishing the environment.
+
+To persist an environment variable, do the following:
+
+1. Select **Environments** in the sidebar and select an environment.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a variable and select **Persist**. The current value is copied to the initial value.
+1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save**. The new initial value is synced to your workspace and is available to anyone with access to the environment.
+
+At any time you can reset a variable's current (local) value with the initial (shared) value synced to your workspace. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a variable and select **Reset**. The current value is replaced by the initial value. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save the change.
+
+> You can persist or reset all variable values in the environment at once. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the column header, then select **Persist All** or **Reset All**.
