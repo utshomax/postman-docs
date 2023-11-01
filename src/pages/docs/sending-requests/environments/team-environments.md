@@ -85,6 +85,12 @@ You can manage roles on an environment by selecting the more actions icon <img a
 
 You can assign collaborators the Editor or Viewer role. Team members with the Viewer role can only edit the current values of variables, but they can use the environment when sending requests. If a user requires edit access, they can request it when viewing the environment in the editor.
 
+If you have Viewer access to an environment, a lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> next to the name indicates that it's read-only. You will only be able to edit the current value, which is visible only to you and not synced with your Postman account or workspace. To edit initial values you will need to **Request Access**.
+
+> If you are working with environments as part of a team, you must have the Editor role to be able to edit the environment or change initial values for variables. If you have the Viewer role, you can access all variables in environments shared with you and edit current values, but you won't be able to edit the environment or initial values. Learn more about [managing environment roles](/docs/sending-requests/environments/team-environments/#manage-environment-roles).
+
+![Viewer role on environment](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)
+
 For more details, see [Environment roles](/docs/collaborating-in-postman/roles-and-permissions/#environment-roles).
 
 ## Using an environment in Viewer role

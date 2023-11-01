@@ -31,35 +31,49 @@ contextual_links:
     url: "https://www.postman.com/case-studies/hathway/"
 ---
 
-An environment is a set of [variables](/docs/sending-requests/variables/) you can use in your Postman requests. You can use environments to group related sets of values together and manage access to shared Postman data if you are working as part of a team.
+An [environment](/docs/sending-requests/environments/managing-environments/) is a group of variables whose values you can change depending on your work context in Postman. After you [create an environment](/docs/sending-requests/environments/managing-environments/#create-an-environment), you can add new environment variables, change initial or current values, or delete variables. You can also set environment values using scripts, and you can persist variable values to make them available to your team.
 
 ## Contents
 
-* [Editing environment variables](#editing-environment-variables)
-* [Setting environment variables from scripts](#setting-environment-variables-from-scripts)
+* [Edit environment variables](#edit-environment-variables)
+* [Edit variables from the environment quick look](#edit-variables-from-the-environment-quick-look)
+* [Set environment variables from scripts](#set-environment-variables-from-scripts)
 * [Persist environment variables](#persist-environment-variables)
 
-## Editing environment variables
+## Edit environment variables
 
-You can edit variables either by opening an environment from __Environments__ on the left, or by selecting the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> next to the [environment selector in the workbench](/docs/getting-started/basics/navigating-postman/#environment-selector-and-environment-quick-look) and selecting __Edit__. You can sort the list of variables by selecting any column heading to toggle between alphabetical ascending or descending order and custom order. To sort the list by a custom order, clear the active sort then drag rows to reorder using the handle on the left-hand side.
+You can edit environment variables by adding new variables, changing a variable's type and values, or deleting variables.
 
-> You will only be able to edit environments where you have [Editor access](#requesting-environment-access).
+To edit environment variables, select **Environments** in the sidebar and select an environment. From here you can take the following actions:
 
-![Edit environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
+* To filter the list of environment variables by name, enter text in the **Filter variables** box.
+* To sort the list of environment variables, select a column heading. You can toggle between ascending and descending order. To manually sort the list, clear the active sort, then drag rows using the handle.
+* To add a new environment variable, select **Add new variable** in the bottom row of the table.
+* To delete an environment variable, hover over a variable and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
+* To make an environment variable unavailable without deleting it, clear the checkbox next to the variable. Any references to the variable will be unresolved. To make the variable available again, select the checkbox.
+* Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save any changes you've made.
 
-Edit the environment name, or the names, [types](/docs/sending-requests/variables/#variable-types), and values of your variables, bearing in mind that __Initial values__ will be synced with your Postman account and shared with any collaborators who have access to the environment. Select __Save__ when your edits are complete.
+![Add Environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
 
-[![Viewer role on environment](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)
+To edit an environment variable, select the variable and change any of the following:
 
-If you have Viewer access to an environment, a lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> next to the name indicates that it's read-only. You will only be able to edit the current value, which is visible only to you and not synced with your Postman account or workspace. To edit initial values you will need to **Request Access**.
+* **Type** - If you select **default** the variable value is stored in plain text. If you select **secret** the variable value is masked. Learn more about [variable types](/docs/sending-requests/variables/#variable-types).
+* **Initial value (shared)** - This value is synced to your account using Postman's cloud servers. It's shared with any collaborators who have access to the environment. It's also made public when [publishing an environment along with a collection](/docs/publishing-your-api/publishing-your-docs/). If the value includes sensitive data, such as a password or key, you can mask the value by selecting the **secret** variable type.
+* **Current value (local)** - This value is used when sending requests in your local instance of Postman. It's never synced to your account or shared with your team _unless you [choose to persist it](#persist-environment-variables)_. If you leave the current value blank, the initial value is copied to the current value when you save the environment.
 
-> You can edit current values for variables in an active (currently selected) environment directly using the environment quick look. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to edit your chosen value.
+When you are done editing environment variables, select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save your changes.
+
+> If you are working with environments as part of a team, you must have the Editor role to be able to edit the environment or change initial values for variables. Learn more about [managing environment roles](/docs/sending-requests/environments/team-environments/#manage-environment-roles).
+
+## Edit variables from the environment quick look
+
+You can also edit the current value for variables in the active environment from the environment quick look. Select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> next to the environment selector. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to a variable, then enter a new current value.
 
 <img alt="Using the environment quick look" src="https://assets.postman.com/postman-docs/v10/environment-quick-look-edit-v10.jpg" width="700px"/>
 
-You can also update environment variable values from your test scripts.
+## Set environment variables from scripts
 
-## Setting environment variables from scripts
+You can also update environment variable values from your test scripts.
 
 Your __Pre-request__ and __Tests__ scripts can update environment variable values.
 

@@ -83,7 +83,7 @@ To add variables to an environment, do the following:
 
 1. Select a variable **Type**. If you select **default** the variable value is stored in plain text. If you select **secret** the variable value is masked.
 
-    > If a variable's initial value contains sensitive data, make sure to choose the **secret** variable type if you don't want to expose the value when sharing or publishing the environment.
+    > If a variable's initial value has sensitive data, make sure to choose the **secret** variable type if you don't want to expose the value when sharing or publishing the environment.
 
 1. Enter the **Initial value** and **Current value** for the variable. _Keep in mind that the initial value is shared with anyone who has access to the environment, and the initial value is made public if you publish the environment along with a collection._
 
@@ -129,17 +129,7 @@ If more than one variable with the same name is available to a request, Postman 
 
 ## Edit an environment
 
-You can edit an environment by adding or deleting variables and by changing variable values. You can also perform other actions such as renaming or deleting the environment.
-
 To edit an environment, select **Environments** in the sidebar and select an environment. From here you can take the following actions:
-
-* To filter the list of environment variables by name, enter text in the **Filter variables** box.
-
-* To add a new environment variable, select the bottom row of the table. Enter a name, type, and initial and current values, then select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save**. Learn more about [adding environment variables](#add-environment-variables).
-
-* To delete an environment variable, hover over a variable and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
-
-* To make an environment variable unavailable without deleting it, clear the checkbox next to the variable. Any references to the variable will be unresolved. To make the variable available again, select the checkbox.
 
 * To rename an environment, select the environment's name and enter a new name.
 
@@ -148,12 +138,6 @@ To edit an environment, select **Environments** in the sidebar and select an env
 * To delete an environment, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and select **Delete**. Deleting an environment also deletes all variables in the environment.
 
 ![Edit environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
-
-You can also edit a variable's current value from the environment quick look. Select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> next to the environment selector. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to a variable, then enter a new current value.
-
-<img alt="Selecting the environment quick look" src="https://assets.postman.com/postman-docs/v10/environment-quick-look-selector-v10.jpg" width="250px"/>
-
-> If you are working with environments as part of a team, you must have the Editor role for the environment to be able to change initial values for variables. If you have the Viewer role, you can access all variables in environments shared with you and edit current values, but you won't be able to edit initial values. Learn more about [managing environment roles](/docs/sending-requests/environments/team-environments/#manage-environment-roles).
 
 ## Next steps
 
