@@ -16,16 +16,16 @@ contextual_links:
     url: "https://www.postman.com/product/live-insights/"
 ---
 
-As you work with the Live Collections Agent (LCA), you may encounter errors and receive error messages. Our diagnostics are still in alpha, so if anything is confusing please don’t hesitate to get in touch and ask us questions.
+As you work with the Live Collections Agent (LCA), you may encounter errors and receive error messages. The LCA diagnostics are still in alpha, so if anything is confusing please don’t hesitate to get in touch and ask us questions.
 
 The LCA displays errors and provides diagnostics so that you can act on them:
 
-* Observe information received from the LCA on usage and error states, including interfaces, ports, and traffic (HTTP vs. encrypted traffic, busiest endpoints).
+* Observe information received from the LCA on usage and error states, including interfaces, ports, and traffic (for example, HTTP vs. encrypted traffic, the busiest endpoints, and so on).
 * Review status messages and act on them.
 
 To access the error message, select the Live Collections icon <img alt="Live Collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> next to the collection.
 
-![TODO](https://via.placeholder.com/500x300.png?text=under+construction)
+![Access live collection errors](https://assets.postman.com/postman-docs/v10/live-insights-error-access-v10-19.jpg)
 
 The following is the complete list of error messages.
 
@@ -41,6 +41,7 @@ The following is the complete list of error messages.
 
 ## Next steps
 
+* [About Live Insights Early Access](/docs/live-insights/live-insights-early-access/)
 * [Get started with Live Insights](/docs/live-insights/live-insights-gs/)
 * [Live Insights overview](/docs/live-insights/live-insights-overview/)
 * [Live Collections Agent reference](/docs/live-insights/live-insights-reference/)

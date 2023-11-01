@@ -35,7 +35,7 @@ First, create a collection and install the LCA locally. Then, configure LCA for 
 
 1. In the collection **Overview**, select **Get Started** to enable a live collection.
 
-    ![TODO](https://via.placeholder.com/500x300.png?text=under+construction)
+    ![Enable live collection](https://assets.postman.com/postman-docs/v10/live-insights-test-collection-v10-19.jpg)
 
 1. In the **Enabling Live** tab, select **Using the Live Collection Agent.**
 
@@ -69,7 +69,7 @@ Set up the LCA in your Kubernetes environment using the injector, and edit the d
 
     Select your Postman collection and then **Info** in the right sidebar. Then, copy the collection ID.
 
-    ![TODO](https://via.placeholder.com/500x300.png?text=under+construction)
+    ![Get the collection ID](https://assets.postman.com/postman-docs/v10/live-insights-collectionID-v10-19.jpg)
 
     You can find the Postman API key in your [API keys](https://postman.postman.co/settings/me/api-keys) page.
 
@@ -116,7 +116,7 @@ Set up the LCA in your Kubernetes environment using the injector, and edit the d
 
     Observe the Live Collections icon <img alt="Live Collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> denoting a live collection and the counter badge indicating the number of requests.
 
-    ![TODO](https://via.placeholder.com/500x300.png?text=under+construction)
+    ![Live collection enabled](https://assets.postman.com/postman-docs/v10/live-insights-live-enabled-v10-19.jpg)
 
 You are now ready to [check your LCA connection](#check-your-lca-connection), [navigate your collection](#navigate-live-collections), and [observe live insights](#observe-live-insights) about your endpoints. You can also [review any traffic errors](/docs/live-insights/live-insights-troubleshoot/).
 
@@ -171,7 +171,7 @@ Configuring ECS requires:
 * Service ARN. The ARN of the service on which you want to install the Live Collections Agent.
 * Collection ID. You can find the collection ID by selecting your Postman collection and then **Info** in the right sidebar.
 
-    ![TODO](https://via.placeholder.com/500x300.png?text=under+construction)
+    ![Get the collection ID](https://assets.postman.com/postman-docs/v10/live-insights-collectionID-v10-19.jpg)
 
 * Postman API key. You can copy it from your [API keys](https://postman.postman.co/settings/me/api-keys) page.
 
@@ -191,7 +191,7 @@ Following are instructions for installing the LCA as a sidecar. If you are using
     --task <task-name>
     ```
 
-    ![TODO](https://via.placeholder.com/500x300.png?text=under+construction)
+    ![ECS sidecar configuration](https://assets.postman.com/postman-docs/v10/live-insights-ecs-shell-v10-19.jpg)
 
     See the help menu for further configuration.
 
@@ -207,7 +207,7 @@ Following are instructions for installing the LCA as a sidecar. If you are using
 
     Observe the Live Collections icon <img alt="Live Collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> denoting a live collection and the counter badge indicating the number of requests.
 
-    ![TODO](https://via.placeholder.com/500x300.png?text=under+construction)
+    ![Live collection enabled](https://assets.postman.com/postman-docs/v10/live-insights-live-enabled-v10-19.jpg)
 
 You are now ready to [check your LCA connection](#check-your-lca-connection), [navigate your collection](#navigate-live-collections), and [observe live insights](#observe-live-insights) about your endpoints. You can also [review any traffic errors](/docs/live-insights/live-insights-troubleshoot/).
 
@@ -219,17 +219,17 @@ Following are instructions for attaching the LCA to the host network in ECS. Thi
 
     **Example:** .5 vCPU and .5 MB memory for the agent, and the default task execution role.
 
-    ![TODO](https://via.placeholder.com/500x300.png?text=under+construction)
+    ![ECS daemon configuration](https://assets.postman.com/postman-docs/v10/live-insights-ecs-daemon-v10-19.jpg)
 
 1. Add a single container in this task definition, running `docker.postman.com/postman-lc-agent`. Delete the port mapping; the agent doesn’t need to expose any services to your network. Add the `POSTMAN_API_KEY` environment variable with your Postman API key set as the value.
 
-    ![TODO](https://via.placeholder.com/500x300.png?text=under+construction)
+    ![ECS container configuration](https://assets.postman.com/postman-docs/v10/live-insights-ecs-container-v10-19-1.jpg)
 
 1. Configure logging (optional), then expand the **Docker configuration** section.
 
     Replace the entry point with this string, followed by your collection ID: `/postman-lc-agent,apidump,--collection`.
 
-    ![TODO](https://via.placeholder.com/500x300.png?text=under+construction)
+    ![ECS logging configuration](https://assets.postman.com/postman-docs/v10/live-insights-ecs-logging-v10-19-1.jpg)
 
     If you use a particular port number per service, you can specify additional arguments to only capture traffic destined for port `NNNN`: `...,--filter,port NNNN`.
 
@@ -237,15 +237,15 @@ Following are instructions for attaching the LCA to the host network in ECS. Thi
 
     This parameter can take multiple comma-separated regular expressions if the task is more complicated than a single host.
 
-1. Create a service that runs this task. You can run it as a normal service you then scale up or down. Alternatively, you can run it as a _daemon_ on every EC2 instance in the cluster.
+1. Create a service that runs this task. You can run it as a normal service you can then scale up or down. Alternatively, you can run it as a _daemon_ on every EC2 instance in the cluster.
 
     Create the task. Switch the **Compute options** to _Launch Type_ and select _EC2_.
 
-    ![TODO](https://via.placeholder.com/500x300.png?text=under+construction)
+    ![ECS service creation](https://assets.postman.com/postman-docs/v10/live-insights-ecs-service-v10-19-1.jpg)
 
 1. For **Application type** select _Service_, then select the task definition you created in steps 1-3. For **Service type** select _Daemon_.
 
-    ![TODO](https://via.placeholder.com/500x300.png?text=under+construction)
+    ![ECS deployment configuration](https://assets.postman.com/postman-docs/v10/live-insights-deployment-configuration-1-v10-19.jpg)
 
 1. Return to Postman and observe subdirectories created for services. You may see additional subdirectories created from health checks of your application's endpoints/traffic.
 
@@ -253,7 +253,7 @@ Following are instructions for attaching the LCA to the host network in ECS. Thi
 
     Observe the Live Collections icon <img alt="Live Collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> denoting a live collection and the counter badge indicating the number of requests.
 
-    ![TODO](https://via.placeholder.com/500x300.png?text=under+construction)
+    ![Live collection enabled](https://assets.postman.com/postman-docs/v10/live-insights-live-enabled-v10-19.jpg)
 
 You are now ready to [check your LCA connection](#check-your-lca-connection), [navigate your collection](#navigate-live-collections), and [observe live insights](#observe-live-insights) about your endpoints. You can also [review any traffic errors](/docs/live-insights/live-insights-troubleshoot/).
 
@@ -331,9 +331,13 @@ Configuring EC2/Linux Server requires:
 * root user privileges, so you can enable and configure the agent as a `systemd` service.
 * Collection ID. You can find the collection ID by selecting your Postman collection and then **Info** in the right sidebar.
 
-![TODO](https://via.placeholder.com/500x300.png?text=under+construction)
+    ![Get the collection ID](https://assets.postman.com/postman-docs/v10/live-insights-collectionID-v10-19.jpg)
 
 * Postman API key. You can copy it from your [API keys](https://postman.postman.co/settings/me/api-keys) page.
+
+### Limitations
+
+You can install LCA one EC2 instance at a time. If you want to install on more than one machine, please contact observability-support@postman.com.
 
 ### Set up LCA on EC2
 
@@ -359,7 +363,7 @@ Configuring EC2/Linux Server requires:
 
 Observe the Live Collections icon <img alt="Live Collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> denoting a live collection and the counter badge indicating the number of requests.
 
-![TODO](https://via.placeholder.com/500x300.png?text=under+construction)
+![Live collection enabled](https://assets.postman.com/postman-docs/v10/live-insights-live-enabled-v10-19.jpg)
 
 You are now ready to [check your LCA connection](#check-your-lca-connection), [navigate your collection](#navigate-live-collections), and [observe live insights](#observe-live-insights) about your endpoints. You can also [review any traffic errors](/docs/live-insights/live-insights-troubleshoot/).
 
@@ -370,10 +374,6 @@ To disable the `systemd` service, run:
 ```bash
 sudo systemctl disable --now postman-lc-agent
 ```
-
-### Limitations
-
-You can install LCA one EC2 instance at a time. If you want to install on more than one machine, please contact support.
 
 ## Check your LCA connection
 
@@ -387,11 +387,11 @@ To access the diagnostics dashboard:
 2. In the right-hand sidebar, select the Live Collections icon <img alt="Live Collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px">.
 3. Select **View Diagnostics**.
 
-![TODO](https://via.placeholder.com/500x300.png?text=under+construction)
+![View LCA diagnostics](https://assets.postman.com/postman-docs/v10/live-insights-view-diagnostics-v10-19.jpg)
 
 The LCA diagnostics dashboard opens, listing your LCA runs from the most recently started run.
 
-![TODO](https://via.placeholder.com/500x300.png?text=under+construction)
+![LCA diagnostics dashboard](https://assets.postman.com/postman-docs/v10/live-insights-lca-diagnostics-1-v10-19.jpg)
 
 Postman displays these error states:
 
@@ -425,7 +425,7 @@ Creating a live collection activates an **Insights** tab where you can observe e
 
 > This feature is experimental and will continue to evolve. Send your feedback and ideas about the types of metrics you would like to see to [Live Insights Alpha team](live.insights.alpha@postman.com).
 
-![TODO](https://via.placeholder.com/500x300.png?text=under+construction)
+![Insights tab](https://assets.postman.com/postman-docs/v10/live-insights-insights-tab-v10-19.jpg)
 
 Live Insights returns a list of categories for endpoints with most errors, endpoints with the highest error rate, and endpoints with new errors over the last 7 days:
 
@@ -437,4 +437,11 @@ The **Errors** tab displays per-endpoint error states in a chronological order a
 
 > This feature is experimental and will continue to evolve. Send your feedback and ideas about the types of metrics you would like to see to [Live Insights Alpha team](live.insights.alpha@postman.com).
 
-![TODO](https://via.placeholder.com/500x300.png?text=under+construction)
+![Errors tab](https://assets.postman.com/postman-docs/v10/live-insights-errors-tab-v10-19.jpg)
+
+## Next steps
+
+* [About Live Insights Early Access](/docs/live-insights/live-insights-early-access/)
+* [Live Insights overview](/docs/live-insights/live-insights-overview/)
+* [Diagnose and troubleshoot errors](/docs/live-insights/live-insights-troubleshoot/)
+* [Live Collections Agent reference](/docs/live-insights/live-insights-reference/)

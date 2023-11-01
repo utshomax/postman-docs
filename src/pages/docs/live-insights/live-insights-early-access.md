@@ -35,3 +35,10 @@ We would love to talk to you in Slack to get questions, bug reports, and feature
 ## Support
 
 If you experience any issues, please reach out on Slack or contact observability-support@postman.com.
+
+# Next steps
+
+* [Live Insights overview](/docs/live-insights/live-insights-overview/)
+* [Get started with Live Insights](/docs/live-insights/live-insights-gs/)
+* [Diagnose and troubleshoot errors](/docs/live-insights/live-insights-troubleshoot/)
+* [Live Collections Agent reference](/docs/live-insights/live-insights-reference/)

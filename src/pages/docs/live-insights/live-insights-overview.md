@@ -20,6 +20,13 @@ The goal of the Postman Live Insights is to be the source of truth for your prod
 
 > These docs feature onboarding for Kubernetes, Amazon Elastic Container Service (ECS), and Amazon EC2/Linux Server users. See [Get started with Live Insights](/docs/live-insights/live-insights-gs/) for more information.
 
+## Contents
+
+* [Before you start](#before-you-start)
+* [Known limitations](#known-limitations)
+* [Bugs](#bugs)
+* [Sensitive data protection](#sensitive-data-protection)
+
 ## Before you start
 
 * To use the Live Insights alpha, you need to be part of a team. If you don’t already have a team in Postman, see [Collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team) for instructions on how to set it up. Postman Free provides team setup with up to three users. If you weren’t already part of a team, create a team and contact [Live Insights Alpha team](live.insights.alpha@postman.com) to get access to the alpha.
@@ -29,13 +36,74 @@ The goal of the Postman Live Insights is to be the source of truth for your prod
 * Log in with the email address confirmed with you in the alpha invite email. If you are not sure which email to use, contact [Live Insights Alpha team](live.insights.alpha@postman.com).
 * You can install the Live Collections Agent (LCA) after you create a new live collection. For more information, see [Get started](#get-started).
 
-> **NOTES:**
->   * Live Insights currently works only for REST APIs and not yet for gRPC or GraphQL. Please get in touch if you are interested in gRPC or GraphQL.
->   * Live Insights is currently focused on first-party APIs.
->   * Do not install the LCA on an existing curated collection because your existing curated endpoints will be overwritten.
+>   **WARNING:** Do not install the LCA on an existing curated collection because your existing curated endpoints will be overwritten.
+
+## Known limitations
+
+We appreciate your patience with us as we build out the alpha.
+
+* Live Insights currently works only for REST APIs and not for gRPC or GraphQL.
+* Live Insights is currently focused on first-party APIs.
+* Postman generates a maximum of 10 folders per live collection, and 300 requests per folder. We’re working on expanding this.
+* The Agent updates every 10 minutes, which means new endpoints will not be seen for up to 10 minutes. We’d love your feedback on whether you would like more frequent updates.
+
+The following actions are currently unavailable but will be supported in the future.
+
+* Changing ownership
+* Editing Collection folder names
+* Editing any content of the Collection
+* Installing the Agent in any environment other than Kubernetes.
+
+## Bugs
+
+Changes made to request bodies and examples do not yet show up. We are working on fixing this issue.
+
+## Sensitive data protection
+
+The LCA client drops all data values from the observed traffic before sending it to Postman. All data format inference happens on the client side, before the data is removed. The Postman cloud does not see the initial values, and uploads of the obfuscated data to Postman are performed over HTTPS using TLS.
+
+### Limitations
+
+* Any literal values that appear in the payload are obfuscated before being sent to Postman, but path parameters are sent in their original form. If the path to your API includes sensitive data (for example, email, first/last names, or phone numbers), it is transmitted to Postman first. Postman applies heuristics on the backend to remove it. If you have APIs that include sensitive data, contact Postman support to adjust the LCA to pre-filter it.
+* Postman’s data sanitizing doesn't apply to the keys. For example, the sanitizing works if your JSON document is structured as follows:
+
+    ```json
+    {
+        "key": "sensitive-data",
+        "other-key": "super-secret-value",
+    }
+    ```
+
+    However, if your data is structured as shown in the next example, Postman preserves the left set of values.
+
+    ```json
+    {
+        "<social-security-number>": true,
+        "more-sensitive-data": "string",
+        "super-secret-identifier": 1.0,
+    }
+    ```
+
+* Sanitization also applies to HTTP header values, not keys. For example, if your header looks like:
+
+    ```json
+    Authentication: <secret token>
+    ```
+
+    Then, the secret token is never sent to Postman.
+
+    But, if your system encodes sensitive data in the name of the header, like so:
+
+    ```json
+    User-<user id>: ...
+    ```
+
+    Then the header is sent to Postman and appears in your collection.
+
 
 ## Next steps
 
+* [About Live Insights Early Access](/docs/live-insights/live-insights-early-access/)
 * [Get started with Live Insights](/docs/live-insights/live-insights-gs/)
 * [Diagnose and troubleshoot errors](/docs/live-insights/live-insights-troubleshoot/)
 * [Live Collections Agent reference](/docs/live-insights/live-insights-reference/)
