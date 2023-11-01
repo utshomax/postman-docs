@@ -16,7 +16,7 @@ contextual_links:
     url: "https://www.postman.com/product/live-insights/"
 ---
 
-Use functions and parameters to customize your Live Collections Agent (LCA) deployment and filter the HTTP requests in your Postman collection.
+Use functions and parameters to customize your Live Collections Agent (LCA) deployment and filter the HTTP requests in your Postman Collection.
 
 ## Contents
 
@@ -38,7 +38,9 @@ Inject the Live Collections Agent into a Kubernetes deployment or set of deploym
 * `-s, --secret string[="true"]` — Whether to generate a Kubernetes secret manifest. If set to "true", the secret will be added to the modified Kubernetes YAML file. Specify a path to write the secret to a separate file; if this is done, an output file must also be specified with `--output`. (Default: `"false"`)
 
 > **NOTES**:
+>
 > * The input file must be in YAML format and must contain at least one valid deployment manifest.
+>
 > * If the `--secret` flag is set to a file path, the `--output` flag must also be set.
 
 ### kube inject examples

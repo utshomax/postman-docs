@@ -16,7 +16,7 @@ contextual_links:
     url: "https://www.postman.com/product/live-insights/"
 ---
 
-As you work with the Live Collections Agent (LCA), you may encounter errors and receive error messages. The LCA diagnostics are still in alpha, so if anything is confusing please don’t hesitate to get in touch and ask us questions.
+As you work with the Live Collections Agent (LCA), you may encounter errors and receive error messages. The LCA diagnostics are still in alpha, so if anything is confusing please don’t hesitate to get in touch and ask the Live Insights team any questions.
 
 The LCA displays errors and provides diagnostics so that you can act on them:
 
@@ -42,6 +42,6 @@ The following is the complete list of error messages.
 ## Next steps
 
 * [About Live Insights Early Access](/docs/live-insights/live-insights-early-access/)
-* [Get started with Live Insights](/docs/live-insights/live-insights-gs/)
 * [Live Insights overview](/docs/live-insights/live-insights-overview/)
+* [Get started with Live Insights](/docs/live-insights/live-insights-gs/)
 * [Live Collections Agent reference](/docs/live-insights/live-insights-reference/)

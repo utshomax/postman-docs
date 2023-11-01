@@ -67,7 +67,7 @@ Set up the LCA in your Kubernetes environment using the injector, and edit the d
 
 1. Get the collection ID and your API key. Then, run the configuration script.
 
-    Select your Postman collection and then **Info** in the right sidebar. Then, copy the collection ID.
+    Select your Postman Collection and then **Info** in the right sidebar. Then, copy the collection ID.
 
     ![Get the collection ID](https://assets.postman.com/postman-docs/v10/live-insights-collectionID-v10-19.jpg)
 
@@ -118,7 +118,7 @@ Set up the LCA in your Kubernetes environment using the injector, and edit the d
 
     ![Live collection enabled](https://assets.postman.com/postman-docs/v10/live-insights-live-enabled-v10-19.jpg)
 
-You are now ready to [check your LCA connection](#check-your-lca-connection), [navigate your collection](#navigate-live-collections), and [observe live insights](#observe-live-insights) about your endpoints. You can also [review any traffic errors](/docs/live-insights/live-insights-troubleshoot/).
+You are ready to [check your LCA connection](#check-your-lca-connection), [navigate your collection](#navigate-live-collections), and [observe live insights](#observe-live-insights) about your endpoints. You can also [review any traffic errors](/docs/live-insights/live-insights-troubleshoot/).
 
 #### Uninstall
 
@@ -153,7 +153,7 @@ To remove the sidecar from your Kubernetes deployment:
 
 The Live Collections Agent (LCA) supports Amazon Elastic Container Service (ECS) on EC2 and ECS Fargate deployments.
 
-The LCA listens to the traffic arriving at the cluster service you want to monitor and creates a Postman collection for it.
+The LCA listens to the traffic arriving at the cluster service you want to monitor and creates a Postman Collection for it.
 
 ### Installation options
 
@@ -169,7 +169,7 @@ Configuring ECS requires:
 * AWS credentials at `~/.aws/credentials` with edit access to ECS cluster, service and task definition. For more information, see [Set up AWS ECS permissions](#set-up-aws-ecs-permissions).
 * Cluster ARN. Navigate to the cluster in the AWS console and find the ARN in the cluster overview.
 * Service ARN. The ARN of the service on which you want to install the Live Collections Agent.
-* Collection ID. You can find the collection ID by selecting your Postman collection and then **Info** in the right sidebar.
+* Collection ID. You can find the collection ID by selecting your Postman Collection and then **Info** in the right sidebar.
 
     ![Get the collection ID](https://assets.postman.com/postman-docs/v10/live-insights-collectionID-v10-19.jpg)
 
@@ -199,7 +199,7 @@ Following are instructions for installing the LCA as a sidecar. If you are using
     postman-lc-agent ecs --help
     ```
 
-    > The time it takes for the deployment to complete depends on the number of tasks running in a service. So, while the process might take a while, the CLI will run until it’s finished because the processing is handled by AWS.
+    > The time it takes for the deployment to complete depends on the number of tasks running in a service. Therefore, while the process might take a while, the CLI will run until it’s finished because the processing is handled by AWS.
 
 1. Return to Postman and observe subdirectories created for services. You may see additional subdirectories created from health checks of your application's endpoints/traffic.
 
@@ -209,7 +209,7 @@ Following are instructions for installing the LCA as a sidecar. If you are using
 
     ![Live collection enabled](https://assets.postman.com/postman-docs/v10/live-insights-live-enabled-v10-19.jpg)
 
-You are now ready to [check your LCA connection](#check-your-lca-connection), [navigate your collection](#navigate-live-collections), and [observe live insights](#observe-live-insights) about your endpoints. You can also [review any traffic errors](/docs/live-insights/live-insights-troubleshoot/).
+You are ready to [check your LCA connection](#check-your-lca-connection), [navigate your collection](#navigate-live-collections), and [observe live insights](#observe-live-insights) about your endpoints. You can also [review any traffic errors](/docs/live-insights/live-insights-troubleshoot/).
 
 ### Install LCA as a daemon service
 
@@ -237,13 +237,13 @@ Following are instructions for attaching the LCA to the host network in ECS. Thi
 
     This parameter can take multiple comma-separated regular expressions if the task is more complicated than a single host.
 
-1. Create a service that runs this task. You can run it as a normal service you can then scale up or down. Alternatively, you can run it as a _daemon_ on every EC2 instance in the cluster.
+1. Create a service that runs this task. You can run it as a typical service you can then scale up or down. Alternatively, you can run it as a _daemon_ on every EC2 instance in the cluster.
 
     Create the task. Switch the **Compute options** to _Launch Type_ and select _EC2_.
 
     ![ECS service creation](https://assets.postman.com/postman-docs/v10/live-insights-ecs-service-v10-19-1.jpg)
 
-1. For **Application type** select _Service_, then select the task definition you created in steps 1-3. For **Service type** select _Daemon_.
+1. For **Application type** select _Service_, then select the task definition you created in steps 1–3. For **Service type** select _Daemon_.
 
     ![ECS deployment configuration](https://assets.postman.com/postman-docs/v10/live-insights-deployment-configuration-1-v10-19.jpg)
 
@@ -255,11 +255,11 @@ Following are instructions for attaching the LCA to the host network in ECS. Thi
 
     ![Live collection enabled](https://assets.postman.com/postman-docs/v10/live-insights-live-enabled-v10-19.jpg)
 
-You are now ready to [check your LCA connection](#check-your-lca-connection), [navigate your collection](#navigate-live-collections), and [observe live insights](#observe-live-insights) about your endpoints. You can also [review any traffic errors](/docs/live-insights/live-insights-troubleshoot/).
+You are ready to [check your LCA connection](#check-your-lca-connection), [navigate your collection](#navigate-live-collections), and [observe live insights](#observe-live-insights) about your endpoints. You can also [review any traffic errors](/docs/live-insights/live-insights-troubleshoot/).
 
 ### Uninstall
 
-The LCA installation modifies the task definition of your service to include the LCA sidecar. To uninstall LCA, simply revert to the old version of your task definition. To completely uninstall the agent, you can delete the task definition that contains the LCA sidecar.
+The LCA installation modifies the task definition of your service to include the LCA sidecar. To uninstall LCA, simply revert to the previous version of your task definition. To completely uninstall the agent, you can delete the task definition that contains the LCA sidecar.
 
 ### Ensure internet access
 
@@ -302,7 +302,7 @@ Attach the following policy to your AWS profile.
 
 The Live Collections Agent (LCA) CLI needs access to the following permissions in order to install the LCA in ECS. If the profile you selected lacks any of these permissions, the CLI output will show an error message with which action it was attempting to perform.
 
-The `AmazonECS_FullAccess` policy provided by Amazon is a superset of these actions; you could add that entire policy as an easy way to ensure your permissions are sufficient, if they are not already.
+The `AmazonECS_FullAccess` policy provided by Amazon is a superset of these actions; you could add that entire policy as an easy way to ensure your permissions are sufficient, if they're not already.
 
 | Action                           | Resource                                                                     | Purpose                                                                                             |
 | -------------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -321,7 +321,7 @@ The `AmazonECS_FullAccess` policy provided by Amazon is a superset of these acti
 
 If you’re running a Linux instance on EC2, the Postman Live Collection Agent (LCA) can run as a `systemd` service on your server.
 
-The Postman collection is populated with endpoints observed from the traffic arriving at your service.
+The Postman Collection is populated with endpoints observed from the traffic arriving at your service.
 
 ### Requirements
 
@@ -329,7 +329,7 @@ Configuring EC2/Linux Server requires:
 
 * That your server's OS supports `systemd`.
 * root user privileges, so you can enable and configure the agent as a `systemd` service.
-* Collection ID. You can find the collection ID by selecting your Postman collection and then **Info** in the right sidebar.
+* Collection ID. You can find the collection ID by selecting your Postman Collection and then **Info** in the right sidebar.
 
     ![Get the collection ID](https://assets.postman.com/postman-docs/v10/live-insights-collectionID-v10-19.jpg)
 
@@ -365,11 +365,11 @@ Observe the Live Collections icon <img alt="Live Collections icon" src="https://
 
 ![Live collection enabled](https://assets.postman.com/postman-docs/v10/live-insights-live-enabled-v10-19.jpg)
 
-You are now ready to [check your LCA connection](#check-your-lca-connection), [navigate your collection](#navigate-live-collections), and [observe live insights](#observe-live-insights) about your endpoints. You can also [review any traffic errors](/docs/live-insights/live-insights-troubleshoot/).
+You are ready to [check your LCA connection](#check-your-lca-connection), [navigate your collection](#navigate-live-collections), and [observe live insights](#observe-live-insights) about your endpoints. You can also [review any traffic errors](/docs/live-insights/live-insights-troubleshoot/).
 
 ### Uninstall
 
-To disable the `systemd` service, run:
+To turn off the `systemd` service, run:
 
 ```bash
 sudo systemctl disable --now postman-lc-agent
@@ -407,7 +407,7 @@ The LCA organizes your API into subdirectories based on hostname or service name
 
 Select each request to see the query parameters, path variables, headers and their data formats, and the body of the request/response.
 
-> Live Collections cannot currently be edited and will get fully automatically updated every 10 minutes.
+> Live Collections can't currently be edited and will get fully automatically updated every 10 minutes.
 
 Just like with the ordinary collections in Postman, a live collection enabled through the LCA has these elements:
 
