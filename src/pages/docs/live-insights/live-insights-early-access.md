@@ -30,10 +30,8 @@ If you’ve agreed to participate in the alpha, we kindly ask you to:
 * Fill out a survey or do a live user interview within one month of receiving access.
 * Optionally, provide feedback on product designs and upcoming features.
 
-We would love to talk to you in Slack to get questions, bug reports, and feature requests as you explore the alpha. If you’d like to provide detailed product feedback, please send it to [Jean Yang](jean.yang@postman.com), Head of Product, Observability.
+We would love to talk to you in Slack to get questions, bug reports, and feature requests as you explore the alpha. If you’d like to provide detailed product feedback, please send it to [Live Insights Alpha team](live.insights.alpha@postman.com).
 
 ## Support
 
 If you experience any issues, please reach out on Slack or contact observability-support@postman.com.
-
-

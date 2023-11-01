@@ -42,7 +42,7 @@ Capture and store a sequence of requests and responses to a service by observing
 
 The `--collection collectionID` flag identifies the collection with which to associate the captured traffic. The traffic is sent to the Live Collections Agent. You can find the collection ID by selecting your collection and then **Info** in the right sidebar.
 
-![Image]()
+![TODO](https://via.placeholder.com/500x300.png?text=under+construction)
 
 #### Optional flags
 
@@ -123,11 +123,10 @@ Name of the collection to which the traffic will be uploaded.
 ### Optional flags
 
 * `-o, --output string` — Path to the output file. If not specified, the output will be printed to stdout.
-* `-s, --secret string[="true"] `— Whether to generate a Kubernetes secret manifest. If set to "true", the secret will be added to the modified Kubernetes YAML file. Specify a path to write the secret to a separate file; if this is done, an output file must also be specified with `--output`. (Default: `"false"`)
+* `-s, --secret string[="true"]` — Whether to generate a Kubernetes secret manifest. If set to "true", the secret will be added to the modified Kubernetes YAML file. Specify a path to write the secret to a separate file; if this is done, an output file must also be specified with `--output`. (Default: `"false"`)
 
-> The input file must be in YAML format and must contain at least one valid deployment manifest.
-
-> If the `--secret` flag is set to a file path, the `--output` flag must also be set.
+> * The input file must be in YAML format and must contain at least one valid deployment manifest.
+> * If the `--secret` flag is set to a file path, the `--output` flag must also be set.
 
 ## Unsupported actions
 
@@ -147,8 +146,6 @@ We appreciate your patience with us as we build out the alpha.
 * Postman generates a maximum of 10 folders per live collection, and 300 requests per folder. We’re working on expanding this.
 * The Agent updates every 10 minutes, which means new endpoints will not be seen for up to 10 minutes. We’d love your feedback on whether you would like more frequent updates.
 * Bug: Changes made to request bodies and examples do not yet show up. We are working on fixing this issue.
-
-                  |
 
 ## Sensitive data protection
 
@@ -192,5 +189,8 @@ The LCA client drops all data values from the observed traffic before sending it
 
     Then the header is sent to Postman and appears in your collection.
 
+## Next steps
 
-
+* [Get started with Live Insights](/docs/live-insights/live-insights-gs/)
+* [Diagnose and troubleshoot errors](/docs/live-insights/live-insights-troubleshoot/)
+* [Live Collections Agent overview](/docs/live-insights/live-insights-overview/)

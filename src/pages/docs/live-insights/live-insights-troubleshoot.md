@@ -25,7 +25,7 @@ The LCA displays errors and provides diagnostics so that you can act on them:
 
 To access the error message, select the Live Collections icon <img alt="Live Collections icon" src="https://assets.postman.com/postman-docs/v10/icon-live-collections.jpg#icon" width="16px"> next to the collection.
 
-![Image]()
+![TODO](https://via.placeholder.com/500x300.png?text=under+construction)
 
 The following is the complete list of error messages.
 
@@ -37,4 +37,10 @@ The following is the complete list of error messages.
 | _PCAP permission failure_       | Client lacks permissions                                                              | The Agent could not capture traffic because it lacks permissions to do so. In a container environment, ensure that the container that has the Agent can run in privileged mode and has the `CAP_NET_RAW` capability.                 |
 | _Invalid filters_               | Filter parsing error                                                                  | The Agent failed to parse the filters you specified on the command line. The `--filter` argument takes `tcpdump`-style arguments, while the host and path filters take Go regular expressions. Check the Agent logs for more details |
 | _Traffic capture failure_       | Error in capturing traffic                                                            | Something went wrong while capturing traffic. Please try again.                                                                                                                                                                      |
-| _Something went wrong_          | Something went wrong                                                                  | Something went wrong while starting the Agent. Please try again.
+| _Something went wrong_          | Something went wrong                                                                  | Something went wrong while starting the Agent. Please try again.                                                                                                                                                                     |
+
+## Next steps
+
+* [Get started with Live Insights](/docs/live-insights/live-insights-gs/)
+* [Live Insights overview](/docs/live-insights/live-insights-overview/)
+* [Live Collections Agent reference](/docs/live-insights/live-insights-reference/)

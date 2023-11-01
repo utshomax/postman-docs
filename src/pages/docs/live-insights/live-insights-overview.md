@@ -18,7 +18,7 @@ contextual_links:
 
 The goal of the Postman Live Insights is to be the source of truth for your production APIs. With Live Insights, our vision is to be able to guide a developer with little previous experience, in both the system being monitored and our tool, to productively find and fix issues.
 
-> These docs feature onboarding for [Kubernetes](), [Amazon Elastic Container Service (ECS)](), and [Amazon EC2/Linux Server]() users. See [Get started with Live Insights](/docs/live-insights/live-insights-gs/) for more information.
+> These docs feature onboarding for Kubernetes, Amazon Elastic Container Service (ECS), and Amazon EC2/Linux Server users. See [Get started with Live Insights](/docs/live-insights/live-insights-gs/) for more information.
 
 ## Before you start
 
@@ -29,14 +29,13 @@ The goal of the Postman Live Insights is to be the source of truth for your prod
 * Log in with the email address confirmed with you in the alpha invite email. If you are not sure which email to use, contact [Live Insights Alpha team](live.insights.alpha@postman.com).
 * You can install the Live Collections Agent (LCA) after you create a new live collection. For more information, see [Get started](#get-started).
 
-> Live Insights currently works only for REST APIs and not yet for gRPC or GraphQL. Please get in touch if you are interested in gRPC or GraphQL.
+> **NOTES:**
+>   * Live Insights currently works only for REST APIs and not yet for gRPC or GraphQL. Please get in touch if you are interested in gRPC or GraphQL.
+>   * Live Insights is currently focused on first-party APIs.
+>   * Do not install the LCA on an existing curated collection because your existing curated endpoints will be overwritten.
 
-Live Insights is currently focused on first-party APIs.
-
-> Do not install the LCA on an existing curated collection because your existing curated endpoints will be overwritten.
-
-## Learn more
+## Next steps
 
 * [Get started with Live Insights](/docs/live-insights/live-insights-gs/)
 * [Diagnose and troubleshoot errors](/docs/live-insights/live-insights-troubleshoot/)
-* [Live Collections Agent reference](/docs/live-insights/live-insights-overview.md)
+* [Live Collections Agent reference](/docs/live-insights/live-insights-reference/)
