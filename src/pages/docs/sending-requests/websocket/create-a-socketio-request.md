@@ -25,8 +25,6 @@ contextual_links:
     url: "https://blog.postman.com/postman-now-supports-socket-io/"
 ---
 
-## Create a Socket.IO request
-
 You can create a Socket.IO request from the sidebar in Postman.
 
 1. Select **New > Socket.IO** to open a Socket.IO request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**.)

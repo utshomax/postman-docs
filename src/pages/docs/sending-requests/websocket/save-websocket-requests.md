@@ -25,8 +25,6 @@ contextual_links:
     url: "https://blog.postman.com/postman-now-supports-socket-io/"
 ---
 
-## Save WebSocket requests
-
 You can save your WebSocket requests into a collection. This enables you to reuse requests, share them with other team members, and add documentation to the collection of requests.
 
 To save a request, do the following:
