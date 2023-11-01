@@ -1,5 +1,5 @@
 ---
-title: "Use variables with WebSocket"
+title: "Use variables in WebSocket requests"
 updated: 2023-11-01
 contextual_links:
   - type: section

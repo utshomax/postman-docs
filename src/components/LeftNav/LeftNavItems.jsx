@@ -431,20 +431,8 @@ export const leftNavItems = [
             url: '/docs/sending-requests/websocket/create-a-websocket-request/'
           },
           {
-            name: 'Send WebSocket messages',
-            url: '/docs/sending-requests/websocket/send-websocket-messages/'
-          },
-          {
-            name: 'Save WebSocket messages',
-            url: '/docs/sending-requests/websocket/save-websocket-messages/'
-          },
-          {
-            name: 'Add Socket.IO event names',
-            url: '/docs/sending-requests/websocket/add-socketio-event-names/'
-          },
-          {
-            name: 'View WebSocket messages',
-            url: '/docs/sending-requests/websocket/view-websocket-messages/'
+            name: 'Work with WebSocket messages',
+            url: '/docs/sending-requests/websocket/work-with-websocket-messages/'
           },
           {
             name: 'Listen to Socket.IO events',
