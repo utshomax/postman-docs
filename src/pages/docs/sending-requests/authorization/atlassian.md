@@ -34,6 +34,6 @@ Enter the following ASAP parameters:
 
     * **Additional claims** -
 
-    * **Expiry** - The access token expiration timestamp. The default expiration timestamp is one hour.
+    * **Expiry** - The access token expiration timestamp in seconds. The default expiration timestamp is `3600` seconds, which is equal to one hour.
 
 For more information about ASAP, see [Atlassian S2S Authentication Protocol Specification](https://s2sauth.bitbucket.io/spec/).
