@@ -35,6 +35,7 @@ Postman provides JavaScript APIs that you can use in your request scripts. The `
         * [Request info](#scripting-with-request-info)
         * [Cookies](#scripting-with-request-cookies)
     * [Sending requests from scripts](#sending-requests-from-scripts)
+    * [Skip request execution from pre-request scripts](#skip-request-execution-from-pre-request-scripts)
 * [Scripting workflows](#scripting-workflows)
 * [Scripting Postman Visualizations](#scripting-postman-visualizations)
 * [Building response data into Postman Visualizations](#building-response-data-into-postman-visualizations)
@@ -620,6 +621,29 @@ pm.sendRequest('https://postman-echo.com/get', (error, response) => {
 ```
 
 See the [Request definition](http://www.postmanlabs.com/postman-collection/Request.html#~definition) and [Response structure](http://www.postmanlabs.com/postman-collection/Response.html) reference docs for more detail.
+
+### Skip request execution from pre-request scripts
+
+You can use the `pm.execution.skipRequest` method to stop the execution of a request from a [pre-request script](/docs/writing-scripts/pre-request-scripts/).
+
+```js
+pm.execution.skipRequest()
+```
+
+When `pm.execution.skipRequest()` is encountered, the request isn't sent. Any remaining scripts on the **Pre-request Script** tab are skipped, and all scripts on the **Tests** tab are skipped. Also, a message that the request was skipped is logged in the Postman Console.
+
+For example:
+
+```js
+//skip this request if a token isn't present
+if (!pm.environment.get('token')) {
+    pm.execution.skipRequest()
+}
+```
+
+You can use the `pm.execution.skipRequest` method on the **Pre-request Script** tab of a request, collection, or folder. Using the `pm.execution.skipRequest` method isn't supported on the **Tests** tab and will have no effect there.
+
+In the Collection Runner, when `pm.execution.skipRequest()` is encountered, Postman skips executing the current request (including any test scripts) and moves to the next request in order. Skipped requests and tests aren't included in the number of iterations and passed or failed tests in run reports. This same behavior also applies to Postman Flows, Newman, and the Postman CLI.
 
 ## Scripting workflows
 
