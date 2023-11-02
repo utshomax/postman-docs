@@ -17,7 +17,7 @@ import BreadCrumbsLinks from '../components/modules/BreadCrumbsLinks';
 import { BaseLinkStyles, BaseLink, UnorderedListStyles, OrderedListStyles, } from 'aether-marketing';
 
 const DocWrapper = styled.div`
-  /* Used for Deeplinking */
+  /* Used for Deeplinking */   
 h2, h3, h4 {
   scroll-margin-top: 2em;
 }
@@ -52,7 +52,7 @@ h2, h3, h4 {
     padding-left: 30px !important;
     padding-right: 30px !important;
   }
-}
+} 
 
 
 /* Blockquotes */
@@ -104,7 +104,7 @@ thead:first-child:hover tr{
 code[class*="language-"] {
   word-break: break-word !important;
   overflow-wrap: break-word !important;
-
+  
 }
 
 pre {
@@ -141,7 +141,7 @@ pre {
   word-break: break-word;
 
   code[class*="language-"],
-  .token.comment,
+  .token.comment, 
   .token.string,
   .token.number,
   .token.boolean,
@@ -233,7 +233,7 @@ const DocContent = styled.div`
     li > ol {
       list-style: lower-alpha;
     }
-  }
+  } 
   //  anchor link tag styling
   a.anchor.before {
     top: 0.2em;
@@ -250,7 +250,7 @@ const DocContent = styled.div`
     display: block;
     border: none !important;
   }
-
+ 
   // Doc inline link styling
   & a:hover,
   a:active {
@@ -259,7 +259,7 @@ const DocContent = styled.div`
       colot: ${(props) => props.theme.colors.blue_60};
       border-bottom: 1px solid !important;
   }
-
+  
 `
 
 const RightColumnWrapper = styled.aside`
@@ -288,16 +288,16 @@ const DocPage = ({ data }) => {
   const [modalData] = useState(data.markdownRemark);
   const post = data.markdownRemark;
   // Last modified date - bottom
-  // Last modified time - top
+  // Last modified time - top 
   const { lastModifiedDate, lastModifiedTime } = data.markdownRemark.fields;
-  // Breadcrumbs (top of page) & Previous and Next Links (bottom of page)
+  // Breadcrumbs (top of page) & Previous and Next Links (bottom of page) 
   const { parentLink, subParentLink, previous, next } = data;
 
   let excerptLength = data.markdownRemark.excerpt.length;
   let excerptCount = process.env.GATSBY_EXCERPT_COUNT;
   let overIndexLimit = excerptLength > 6700 ? (excerptLength - 6700) : 0;
 
-  // Right side links
+  // Right side links 
   const DisplayContextualLinks = (props) => {
     const { data } = props;
     const doc = data.markdownRemark;
@@ -312,7 +312,7 @@ const DocPage = ({ data }) => {
       const parsedHTML = parser.parseFromString(modalData.html, 'text/html');
       // allows images to display as modal when clicked
       useModal(parsedHTML);
-      document.getElementById("LoadDoc").innerHTML = parsedHTML.body.innerHTML;
+      document.getElementById("LoadDoc").innerHTML = parsedHTML.body.innerHTML;   
     }, []);
 
     return (
@@ -329,34 +329,34 @@ const DocPage = ({ data }) => {
           </nav>
           <div className="col">
             <div className="row row-eq-height">
-
+            
               <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 doc-page ml-xl-5">
                 <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
-                {post.frontmatter.plan === 'alpha' ?
+                {post.frontmatter.plan === 'alpha' ? 
                   <div className="alphaPlan">
-                    <p style={{'color': 'red'}}>This is an alpha feature</p>
+                    <p style={{'color': 'red'}}>Alpha plan</p>
                   </div> :
                   null
                 }
-                {post.frontmatter.plan === 'beta' ?
+                {post.frontmatter.plan === 'beta' ? 
                   <div className="alphaPlan">
                     <p style={{'color': 'red'}}>Beta plan</p>
                   </div> :
                   null
                 }
-                {post.frontmatter.plan === 'preview' ?
+                {post.frontmatter.plan === 'preview' ? 
                   <div className="alphaPlan">
                     <p style={{'color': 'red'}}>Preview plan</p>
                   </div> :
                   null
                 }
-                {post.frontmatter.plan === 'limited' ?
+                {post.frontmatter.plan === 'limited' ? 
                   <div className="alphaPlan">
                     <p style={{'color': 'red'}}>Preview plan</p>
                   </div> :
                   null
                 }
-                {post.frontmatter.plan === 'deprecated' ?
+                {post.frontmatter.plan === 'deprecated' ? 
                   <div className="alphaPlan">
                     <p style={{'color': 'red'}}>Preview plan</p>
                   </div> :
