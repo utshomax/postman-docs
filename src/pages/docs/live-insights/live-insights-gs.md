@@ -23,9 +23,9 @@ First, create a collection and install the LCA locally. Then, configure LCA for 
 * [Create a collection](#create-a-collection)
 * [Install the Live Collections Agent locally](#install-the-live-collections-agent-locally)
 * [Configure the LCA in your deployment](#configure-the-lca-in-your-deployment)
-    * [Kubernetes](#kubernetes)
-    * [ECS (EC2 and Fargate)](#ecs-ec2-and-fargate)
-    * [Amazon EC2/Linux Server](#amazon-ec2linux-server)
+    * [Kubernetes deployment](#kubernetes-deployment)
+    * [ECS (EC2 and Fargate) deployment](#ecs-ec2-and-fargate-deployment)
+    * [Amazon EC2/Linux Server deployment](#amazon-ec2linux-server-deployment)
 * [Check your LCA connection](#check-your-lca-connection)
 * [Navigate Live Collections](#navigate-live-collections)
 * [Observe Live Insights](#observe-live-insights)
@@ -52,7 +52,7 @@ bash -c "$(curl -L https://releases.observability.postman.com/scripts/install-po
 
 Currently, you can install and run the Live Collections Agent (LCA) on [Kubernetes](#kubernetes), [Amazon Elastic Container Service (ECS)](#ecs-ec2-and-fargate), and [Amazon EC2/Linux Server](#amazon-ec2linux-server).
 
-### Kubernetes
+### Kubernetes deployment
 
 Get onboarded quickly with the Kubernetes injector. The injector is a tool that operates on the YAML definition of a Kubernetes deployment in an offline fashion, similar to [Istio’s manual sidecar injection](https://istio.io/latest/docs/setup/additional-setup/sidecar-injection/#manual-sidecar-injection).
 
@@ -150,7 +150,7 @@ To remove the sidecar from your Kubernetes deployment:
 1. Find the `"spec:" / "containers:"` section.
 1. Delete the Live Collections Agent container with `"image: docker.postman.com/postman-lc-agent:latest"`.
 
-### ECS (EC2 and Fargate)
+### ECS (EC2 and Fargate) deployment
 
 The Live Collections Agent (LCA) supports Amazon Elastic Container Service (ECS) on EC2 and ECS Fargate deployments.
 
@@ -318,7 +318,7 @@ The `AmazonECS_FullAccess` policy provided by Amazon is a superset of these acti
 | `ecs:UpdateService`              | \*, or restricted to your account, or restricted to the cluster you selected | Update and restart the service using the new task definition.                                       |
 | `ecs:TagResource`                | \*, or restricted to your account, or restricted to the cluster you selected | Mark the service as having been updated by the LCA.                                                 |
 
-### Amazon EC2/Linux Server
+### Amazon EC2/Linux Server deployment
 
 If you’re running a Linux instance on EC2, the Postman Live Collection Agent (LCA) can run as a `systemd` service on your server.
 
