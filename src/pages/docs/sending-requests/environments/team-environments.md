@@ -37,15 +37,13 @@ You can use environments to collaborate on shared resources and configure the vi
 
 * [Move an environment to a shared workspace](#move-an-environment-to-a-shared-workspace)
 * [Manage environment roles](#manage-environment-roles)
-* [Using an environment in Viewer role](#using-an-environment-in-viewer-role)
-    * [Requesting environment access](#requesting-environment-access)
-* [Using an environment in Editor role](#using-an-environment-in-editor-role)
-* [Forking environments](#forking-environments)
-* [Viewing pull requests, forks, and environment details](#viewing-pull-requests-forks-and-environment-details)
+    * [Use an environment in Viewer role](#use-an-environment-in-viewer-role)
+    * [Request environment access](#request-environment-access)
+    * [Use an environment in Editor role](#use-an-environment-in-editor-role)
+* [Fork environments](#fork-environments)
+* [View pull requests, forks, and environment details](#view-pull-requests-forks-and-environment-details)
 
 ## Move an environment to a shared workspace
-
-In a shared workspace, any global variables you create and update will be available to others in the workspace. You can define variables as [secret type](/docs/sending-requests/variables/#variable-types) to mask the initial and current values for all workspace members and prevent unintentional disclosure of sensitive data. You can also use the __Current Value__ of global variables to restrict certain values from collaborators, but by default the __Initial value__ of a global variable is generally accessible throughout the workspace.
 
 You can move environments to shared workspaces to collaborate with your team.
 
@@ -79,6 +77,8 @@ To export an environment, select it and select the more actions icon <img alt="M
 
 <img alt="Export environment" src="https://assets.postman.com/postman-docs/environment-export-v9.1.jpg" width="250px" />
 
+> If you want to make variables available in the workspace no matter which environment is active, use global variables. In a shared workspace, any global variables you create and update will be available to others in the workspace. You can define variables as [secret type](/docs/sending-requests/variables/#variable-types) to mask the initial and current values for all workspace members and prevent unintentional disclosure of sensitive data. You can also use the __Current Value__ of global variables to restrict certain values from collaborators, but by default the __Initial value__ of a global variable is generally accessible throughout the workspace.
+
 ## Manage environment roles
 
 You can manage roles on an environment by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the upper right > **Manage Roles**.
@@ -93,13 +93,13 @@ If you have Viewer access to an environment, a lock icon <img alt="Lock icon" sr
 
 For more details, see [Environment roles](/docs/collaborating-in-postman/roles-and-permissions/#environment-roles).
 
-## Using an environment in Viewer role
+### Use an environment in Viewer role
 
 If you have the Viewer role for an environment, you will be able to access the value of the variables to use them in your requests, but won't be able to update the __Initial value__, which is shared with your team. You can update the __Current value__, but this isn't shared with anyone on your team or synced with your Postman account.
 
 If you are using sensitive data like API credentials, it's safer to use the current value of an environment variable for these. You won't be able to __Persist__ the current values to update the initial values of environment variables without edit access to the environment. You can use the __Reset__ option to update your local current values with the shared initial value at any time.
 
-### Requesting environment access
+### Request environment access
 
 If you need to update the initial value of a variable in an environment you have read-only access to, you can request edit access. Open the environment from __Environments__ in the sidebar and select __Request Access__.
 
@@ -107,7 +107,7 @@ If you need to update the initial value of a variable in an environment you have
 
 Select the team member you want to submit the request to, and select the __Editor__ role. Select __Request Access__. You will receive an email when your request is approved.
 
-## Using an environment in Editor role
+### Use an environment in Editor role
 
 If you have edit access to an environment, you can update the variable values from Postman and from your scripts. If you are using sensitive data such as API secrets, passwords, tokens, or keys, you can define variables as [secret type](/docs/sending-requests/variables/#variable-types) to mask their initial and current values. You can also opt to only use current values, which aren't synced or shared with your team.
 
@@ -115,9 +115,9 @@ When you edit the initial value of a shared environment variable, your updated v
 
 > If you clear the checkbox for a variable in your environment, it will only be available to collaborators who also have Editor access to the environment. The variable's listing will also indicate whether it's active. Anyone with the Viewer role for the environment won't be able to access the cleared variable.
 
-With the Editor role, you can [configure access for other team members](#managing-environment-roles). If you need to specify access but don't have the Editor role, you can [request access](#requesting-environment-access).
+With the Editor role, you can [configure access for other team members](#managing-environment-roles). If you need to specify access but don't have the Editor role, you can [request access](#request-environment-access).
 
-## Forking environments
+## Fork environments
 
 You can fork environments to change them without impacting their base versions, or to contribute to their development without having Editor access.
 
@@ -128,7 +128,7 @@ You can fork environments to change them without impacting their base versions, 
 
 You can edit your environment fork and use it as needed, or you can [create a pull request](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/) to update the original environment.
 
-## Viewing pull requests, forks, and environment details
+## View pull requests, forks, and environment details
 
 You can view all pull requests, forks, and details about an environment from the right sidebar.
 

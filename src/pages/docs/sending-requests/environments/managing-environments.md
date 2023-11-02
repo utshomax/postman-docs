@@ -120,7 +120,7 @@ You can reference environment variables in request URLs, parameters, headers, an
 You can access current environment variable values in your **Pre-request Script** and **Tests** code using the [`pm.environment.get` method](/docs/sending-requests/variables/#using-variables-in-scripts):
 
 ```js
-pm.environment.get("variable_key");
+pm.environment.get("variable_name");
 ```
 
 If more than one variable with the same name is available to a request, Postman will use the value from the variable with narrowest [scope](/docs/sending-requests/variables/#variable-scopes). This means that if you have an environment variable with the same name as a collection or global variable, Postman will use the environment variable (but local and data variable values will supersede environment values). The value of any overridden variables will display in strikethrough format.
