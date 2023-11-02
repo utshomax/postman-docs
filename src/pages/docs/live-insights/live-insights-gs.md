@@ -23,9 +23,9 @@ First, create a collection and install the LCA locally. Then, configure LCA for 
 * [Create a collection](#create-a-collection)
 * [Install the Live Collections Agent locally](#install-the-live-collections-agent-locally)
 * [Configure the LCA in your deployment](#configure-the-lca-in-your-deployment)
-* [Kubernetes](#kubernetes)
-* [ECS (EC2 and Fargate)](#ecs-ec2-and-fargate)
-* [Amazon EC2/Linux Server](#amazon-ec2linux-server)
+    * [Kubernetes](#kubernetes)
+    * [ECS (EC2 and Fargate)](#ecs-ec2-and-fargate)
+    * [Amazon EC2/Linux Server](#amazon-ec2linux-server)
 * [Check your LCA connection](#check-your-lca-connection)
 * [Navigate Live Collections](#navigate-live-collections)
 * [Observe Live Insights](#observe-live-insights)
@@ -150,19 +150,19 @@ To remove the sidecar from your Kubernetes deployment:
 1. Find the `"spec:" / "containers:"` section.
 1. Delete the Live Collections Agent container with `"image: docker.postman.com/postman-lc-agent:latest"`.
 
-## ECS (EC2 and Fargate)
+### ECS (EC2 and Fargate)
 
 The Live Collections Agent (LCA) supports Amazon Elastic Container Service (ECS) on EC2 and ECS Fargate deployments.
 
 The LCA listens to the traffic arriving at the cluster service you want to monitor and creates a Postman Collection for it.
 
-### Installation options
+#### Installation options
 
 * If you’re using Fargate, you can [install LCA as a sidecar](#install-lca-as-a-sidecar) only.
 * If you’re using ECS on EC2 with awsvpc, you can install it as a [sidecar](#install-lca-as-a-sidecar) or as a [daemon service](#install-lca-as-a-daemon-service).
 * If you’re using ECS on EC2 with bridge networking, you can [install LCA as a daemon service](#install-lca-as-a-daemon-service) only.
 
-### Requirements
+#### Requirements
 
 Configuring ECS requires:
 
@@ -176,7 +176,7 @@ Configuring ECS requires:
 
 * Postman API key. You can copy it from your [API keys](https://postman.postman.co/settings/me/api-keys) page.
 
-### Install LCA as a sidecar
+#### Install LCA as a sidecar
 
 Following are instructions for installing the LCA as a sidecar container. If you are using ECS on EC2 with bridge networking, you will need to attach the LCA to the host network. See [Install LCA as a daemon service](#install-lca-as-a-daemon-service).
 
@@ -212,7 +212,7 @@ Following are instructions for installing the LCA as a sidecar container. If you
 
 You are ready to [check your LCA connection](#check-your-lca-connection), [navigate your collection](#navigate-live-collections), and [observe live insights](#observe-live-insights) about your endpoints. You can also [review any traffic errors](/docs/live-insights/live-insights-troubleshoot/).
 
-### Install LCA as a daemon service
+#### Install LCA as a daemon service
 
 Following are instructions for attaching the LCA to the host network in ECS. This option is necessary if you use ECS with bridge networking. If you’d like to install the LCA as a sidecar instead, see [Install LCA as a sidecar](#install-lca-as-a-sidecar).
 
@@ -258,13 +258,13 @@ Following are instructions for attaching the LCA to the host network in ECS. Thi
 
 You are ready to [check your LCA connection](#check-your-lca-connection), [navigate your collection](#navigate-live-collections), and [observe live insights](#observe-live-insights) about your endpoints. You can also [review any traffic errors](/docs/live-insights/live-insights-troubleshoot/).
 
-### Uninstall
+#### Uninstall
 
 The LCA installation modifies the task definition of your service to include the LCA sidecar. To uninstall LCA, simply revert to the previous version of your task definition. To completely uninstall the agent, you can delete the task definition that contains the LCA sidecar.
 
-### Ensure internet access
+#### Ensure internet access
 
-#### Fargate tasks
+##### Fargate tasks
 
 To verify that your task has a route to the internet:
 
@@ -273,11 +273,11 @@ To verify that your task has a route to the internet:
 
 For more information, see [Task networking for tasks hosted on Fargate](https://docs.aws.amazon.com/AmazonECS/latest/userguide/fargate-task-networking.html).
 
-#### EC2 tasks
+##### EC2 tasks
 
 Tasks must be launched in private subnets with NAT gateway. For more information, see [Task networking for tasks that are hosted on Amazon EC2 instances](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-networking.html).
 
-### Set up AWS ECS permissions
+#### Set up AWS ECS permissions
 
 Attach the following policy to your AWS profile.
 
@@ -318,13 +318,13 @@ The `AmazonECS_FullAccess` policy provided by Amazon is a superset of these acti
 | `ecs:UpdateService`              | \*, or restricted to your account, or restricted to the cluster you selected | Update and restart the service using the new task definition.                                       |
 | `ecs:TagResource`                | \*, or restricted to your account, or restricted to the cluster you selected | Mark the service as having been updated by the LCA.                                                 |
 
-## Amazon EC2/Linux Server
+### Amazon EC2/Linux Server
 
 If you’re running a Linux instance on EC2, the Postman Live Collection Agent (LCA) can run as a `systemd` service on your server.
 
 The Postman Collection is populated with endpoints observed from the traffic arriving at your service.
 
-### Requirements
+#### Requirements
 
 Configuring EC2/Linux Server requires:
 
@@ -336,11 +336,11 @@ Configuring EC2/Linux Server requires:
 
 * Postman API key. You can copy it from your [API keys](https://postman.postman.co/settings/me/api-keys) page.
 
-### Limitations
+#### Limitations
 
 You can install LCA one EC2 instance at a time. If you want to install on more than one machine, please contact observability-support@postman.com.
 
-### Set up LCA on EC2
+#### Set up LCA on EC2
 
 1. Check [Requirements](#requirements-1) to see the information you need to have. Then, in your shell, go to your server, log in as a root user, and run the following script, substituting your API key and collection ID values.
 
@@ -368,7 +368,7 @@ Observe the Live Collections icon <img alt="Live Collections icon" src="https://
 
 You are ready to [check your LCA connection](#check-your-lca-connection), [navigate your collection](#navigate-live-collections), and [observe live insights](#observe-live-insights) about your endpoints. You can also [review any traffic errors](/docs/live-insights/live-insights-troubleshoot/).
 
-### Uninstall
+#### Uninstall
 
 To turn off the `systemd` service, run:
 
