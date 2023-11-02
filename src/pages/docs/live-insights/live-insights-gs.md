@@ -177,7 +177,7 @@ Configuring ECS requires:
 
 ### Install LCA as a sidecar
 
-Following are instructions for installing the LCA as a sidecar. If you are using ECS on EC2 with bridge networking, you will need to attach the LCA to the host network. See [Install LCA as a daemon service](#install-lca-as-a-daemon-service).
+Following are instructions for installing the LCA as a sidecar container. If you are using ECS on EC2 with bridge networking, you will need to attach the LCA to the host network. See [Install LCA as a daemon service](#install-lca-as-a-daemon-service).
 
 1. Check [Requirements](#requirements) to see the information you need to have. Then, run the following script, substituting your values.
 
