@@ -22,6 +22,7 @@ First, create a collection and install the LCA locally. Then, configure LCA for 
 
 * [Create a collection](#create-a-collection)
 * [Install the Live Collections Agent locally](#install-the-live-collections-agent-locally)
+* [Configure the LCA in your deployment](#configure-the-lca-in-your-deployment)
 * [Kubernetes](#kubernetes)
 * [ECS (EC2 and Fargate)](#ecs-ec2-and-fargate)
 * [Amazon EC2/Linux Server](#amazon-ec2linux-server)
