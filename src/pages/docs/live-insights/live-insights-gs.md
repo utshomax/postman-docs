@@ -16,7 +16,9 @@ contextual_links:
     url: "https://www.postman.com/product/live-insights/"
 ---
 
-First, create a collection and install the LCA locally. Then, configure LCA for your deployment. Finally, return to Postman to [check your LCA connection](#check-your-lca-connection), [navigate your collection](#navigate-live-collections), and [observe live insights](#observe-live-insights) about your endpoints. You can also [review any traffic errors](/docs/live-insights/live-insights-troubleshoot/).
+To get started using Live Insights, ensure you have a team set up in Postman. If you don’t already have a team in Postman, see [Collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team) for instructions on how to set it up. Postman Free provides team setup with up to three users. Once your team is set up, contact [Live Insights Alpha team](live.insights.alpha@postman.com) to get access to the Live Insights alpha in Postman.
+
+Next, create a collection and install the LCA locally. Then, configure LCA for your deployment. Finally, return to Postman to [check your LCA connection](#check-your-lca-connection), [navigate your collection](#navigate-live-collections), and [observe live insights](#observe-live-insights) about your endpoints. You can also [review any traffic errors](/docs/live-insights/live-insights-troubleshoot/).
 
 ## Contents
 
@@ -54,11 +56,15 @@ Currently, you can install and run the Live Collections Agent (LCA) on [Kubernet
 
 ### Kubernetes deployment
 
-Get onboarded quickly with the Kubernetes injector. The injector is a tool that operates on the YAML definition of a Kubernetes deployment in an offline fashion, similar to [Istio’s manual sidecar injection](https://istio.io/latest/docs/setup/additional-setup/sidecar-injection/#manual-sidecar-injection).
+To get started using Live Insights, ensure you have a team set up in Postman. If you don’t already have a team in Postman, see [Collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team) for instructions on how to set it up. Postman Free provides team setup with up to three users. Once your team is set up, contact [Live Insights Alpha team](live.insights.alpha@postman.com) to get access to the Live Insights alpha in Postman.
 
-Set up the LCA in your Kubernetes environment using the injector, and edit the deployment using additional command flags.
+Next, [create a collection](#create-a-collection) and [install the LCA locally](#install-the-live-collections-agent-locally). Then, configure the LCA using the Kubernetes injector (`kube inject`).
+
+The injector is a tool that operates on the YAML definition of a Kubernetes deployment in an offline fashion, similar to [Istio’s manual sidecar injection](https://istio.io/latest/docs/setup/additional-setup/sidecar-injection/#manual-sidecar-injection).
 
 #### Configure
+
+Set up the LCA in your Kubernetes environment using `kube inject`, and edit the deployment using additional command flags. For more information about this command and its flags, see [Live Collection Agent reference](/docs/live-insights/reference).
 
 1. Navigate to the correct Kubernetes cluster and get the existing deployment configuration.
 
@@ -155,6 +161,10 @@ To remove the sidecar from your Kubernetes deployment:
 The Live Collections Agent (LCA) supports Amazon Elastic Container Service (ECS) on EC2 and ECS Fargate deployments.
 
 The LCA listens to the traffic arriving at the cluster service you want to monitor and creates a Postman Collection for it.
+
+To get started using Live Insights, ensure you have a team set up in Postman. If you don’t already have a team in Postman, see [Collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team) for instructions on how to set it up. Postman Free provides team setup with up to three users. Once your team is set up, contact [Live Insights Alpha team](live.insights.alpha@postman.com) to get access to the Live Insights alpha in Postman.
+
+Next, [create a collection](#create-a-collection) and [install the LCA locally](#install-the-live-collections-agent-locally). Then, follow the instructions for your deployment below.
 
 #### Installation options
 
@@ -323,6 +333,10 @@ The `AmazonECS_FullAccess` policy provided by Amazon is a superset of these acti
 If you’re running a Linux instance on EC2, the Postman Live Collection Agent (LCA) can run as a `systemd` service on your server.
 
 The Postman Collection is populated with endpoints observed from the traffic arriving at your service.
+
+To get started using Live Insights, ensure you have a team set up in Postman. If you don’t already have a team in Postman, see [Collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team) for instructions on how to set it up. Postman Free provides team setup with up to three users. Once your team is set up, contact [Live Insights Alpha team](live.insights.alpha@postman.com) to get access to the Live Insights alpha in Postman.
+
+Next, [create a collection](#create-a-collection) and [install the LCA locally](#install-the-live-collections-agent-locally). Then, follow the instructions below.
 
 #### Requirements
 
