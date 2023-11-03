@@ -58,13 +58,11 @@ Contact your IT team to establish the procedure for adding a new piece of softwa
 
 ### Merge teams into a single account
 
-<!-- TBD: Add details about this optional feature -->
+You can merge one or more Postman teams into a single, company-authorized Postman account. This enables users in your organization to collaborate in the same Postman team. If you merge Postman teams, you must [migrate team data into the company-authorized account](/docs/administration/team-merge/).
 
 ### Configure SSO for your team
 
-Depending on your [plan](https://www.postman.com/pricing), you may be able to [configure SSO for your team](/docs/administration/sso/admin-sso/). This enables your team to authenticate with Postman using your organization's existing identity provider (IdP). Postman supports several IdPs you can use to configure SSO for your team.
-
-<!-- This enables you to customize Postman authentication methods for your team, including Postman Password, Google Oauth 2.0 -->
+Depending on your [plan](https://www.postman.com/pricing), you may be able to [configure single sign-on (SSO) for your team](/docs/administration/sso/admin-sso/). This enables you to customize authentication methods for your team, including Postman Password, Google Oauth 2.0, and an identity provider (IdP). Postman supports several IdPs you can use to configure SSO for your team.
 
 > You might need to contact your IT team for help with configuring SSO.
 
@@ -76,12 +74,14 @@ Depending on your [plan](https://www.postman.com/pricing), you may be able to [c
 
 <!-- TBD: Should this section be closer to the Team Merge section? -->
 
+Depending on your [plan](https://www.postman.com/pricing), you may be able to [configure domain verification and account capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/).
+
 ## Configure team settings
 
 [Configure your team settings](/docs/administration/managing-your-team/team-settings/).<!-- TBD: Add more information -->
 
 * [Make your team discoverable](/docs/administration/managing-your-team/team-settings/#making-your-team-discoverable) to enable people in your organization to find and join your team. When team discovery is enabled, Postman displays a list of teams to join when users in your organization access their Postman accounts. Anyone signing in with a company email address is presented with available teams and can make a request to join each one.
-* Depending on your [plan](https://www.postman.com/pricing), you may be able to [configure your team's authentication methods](/docs/administration/managing-your-team/team-settings/#editing-authentication-methods) to ensure people in your team can sign in to your team.<!-- TBD: Point to the SSO content above -->
+* Depending on your [plan](https://www.postman.com/pricing), you may be able to configure your team's authentication methods. Learn how to [configure SSO for your team](#configure-sso-for-your-team).
 * [Manage your team profile](/docs/administration/managing-your-team/team-settings/#managing-your-team-profile) to share information about your team with other Postman users. This ensures your API's consumers have important details about your team's public resources.
 
 ## Add team members
