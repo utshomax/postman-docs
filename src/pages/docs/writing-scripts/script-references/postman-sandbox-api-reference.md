@@ -635,7 +635,7 @@ When `pm.execution.skipRequest()` is encountered, the request isn't sent. Any re
 For example:
 
 ```js
-//skip this request if a token isn't present
+//Skip this request if an authentication token isn't present
 if (!pm.environment.get('token')) {
     pm.execution.skipRequest()
 }
@@ -643,7 +643,7 @@ if (!pm.environment.get('token')) {
 
 You can use the `pm.execution.skipRequest` method on the **Pre-request Script** tab of a request, collection, or folder. Using the `pm.execution.skipRequest` method isn't supported on the **Tests** tab and will have no effect there.
 
-In the Collection Runner, when `pm.execution.skipRequest()` is encountered, Postman skips executing the current request (including any test scripts) and moves to the next request in order. Skipped requests and tests aren't included in the number of iterations and passed or failed tests in run reports. This same behavior also applies to Postman Flows, Newman, and the Postman CLI.
+In the [Collection Runner](/docs/collections/running-collections/running-collections-overview/), when `pm.execution.skipRequest()` is encountered, Postman skips execution of the current request (including its test scripts) and moves to the next request in order. The run results will show no response and no tests found for the request. This same behavior also applies to [Postman Flows](/docs/postman-flows/gs/flows-overview/), [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/), and [the Postman CLI](/docs/postman-cli/postman-cli-overview/).
 
 ## Scripting workflows
 
