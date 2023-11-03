@@ -81,9 +81,9 @@ To add variables to an environment, do the following:
 
     ![Add Environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
 
-1. Select a variable **Type**. If you select **default** the variable value is stored in plain text. If you select **secret** the variable value is masked.
+1. Select a variable **Type**. If you select **default** the variable value is visible in plain text. If you select **secret** the variable value is masked.
 
-    > If a variable's initial value has sensitive data, make sure to choose the **secret** variable type if you don't want to expose the value when sharing or publishing the environment.
+    > If a variable's initial value has sensitive data, make sure to choose the **secret** variable type if you don't want to expose the value when sharing or publishing the environment. Learn more about [variable types](/docs/sending-requests/variables/#variable-types).
 
 1. Enter the **Initial value** and **Current value** for the variable. _Keep in mind that the initial value is shared with anyone who has access to the environment, and the initial value is made public if you publish the environment along with a collection._
 

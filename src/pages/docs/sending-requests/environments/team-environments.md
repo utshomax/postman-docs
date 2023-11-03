@@ -31,7 +31,9 @@ contextual_links:
     url: "https://www.postman.com/case-studies/hathway/"
 ---
 
-You can use environments to collaborate on shared resources and configure the visibility of sensitive data, including API secrets, passwords, tokens, and keys.
+An [environment](/docs/sending-requests/environments/managing-environments/) enables you to collaborate on Postman data when you're working as part of a team. You can use environments to share a group of variable values and use those values when sending requests. You can also use environments to share and manage the visibility of sensitive data such as API secrets, passwords, tokens, and keys.
+
+To get started, [create a new environment](/docs/sending-requests/environments/managing-environments/#create-an-environment), move an environment, or fork an environment in your team workspace. Then assign roles to team members to specify who can view or edit the environment.
 
 ## Contents
 

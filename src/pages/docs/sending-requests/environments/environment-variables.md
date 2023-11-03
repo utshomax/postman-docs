@@ -44,6 +44,8 @@ An [environment](/docs/sending-requests/environments/managing-environments/) is 
 
 You can edit environment variables by adding new variables, changing a variable's type and values, or deleting variables.
 
+> If you are working with environments as part of a team, you must have the Editor role to be able to edit the environment or change initial values for variables. Learn more about [managing environment roles](/docs/sending-requests/environments/team-environments/#manage-environment-roles).
+
 To edit environment variables, select **Environments** in the sidebar and select an environment. From here you can take the following actions:
 
 * To filter the list of environment variables by name, enter text in the **Filter variables** box.
@@ -58,13 +60,14 @@ To edit environment variables, select **Environments** in the sidebar and select
 To edit an environment variable, select the variable and change any of the following:
 
 * **Variable** - The name of the variable. Use the name to reference the variable in requests and scripts.
-* **Type** - If you select **default** the variable value is stored in plain text. If you select **secret** the variable value is masked. Learn more about [variable types](/docs/sending-requests/variables/#variable-types).
+* **Type** - If you select **default** the variable value is visible in plain text. If you select **secret** the variable value is masked. Learn more about [variable types](/docs/sending-requests/variables/#variable-types).
+
+    > To show or hide a secret variable, hover over the variable and select the eye icon <img alt="Unmask variable icon" src="https://assets.postman.com/postman-docs/icon-eye-crossed-out.jpg#icon" width="18px">.
+
 * **Initial value (shared)** - This value is synced to your account using Postman's cloud servers. It's shared with any collaborators who have access to the environment. It's also made public when [publishing an environment along with a collection](/docs/publishing-your-api/publishing-your-docs/). If the value includes sensitive data, such as a password or key, you can mask the value by selecting the **secret** variable type.
 * **Current value (local)** - This value is used when sending requests in your local instance of Postman. It's never synced to your account or shared with your team _unless you [choose to persist it](#persist-environment-variables)_. If you leave the current value blank, the initial value is copied to the current value when you save the environment.
 
 When you are done editing environment variables, select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save your changes.
-
-> If you are working with environments as part of a team, you must have the Editor role to be able to edit the environment or change initial values for variables. Learn more about [managing environment roles](/docs/sending-requests/environments/team-environments/#manage-environment-roles).
 
 ## Edit variables from the environment quick look
 
