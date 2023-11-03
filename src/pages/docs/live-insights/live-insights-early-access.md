@@ -30,7 +30,7 @@ If you’ve agreed to participate in the alpha, Postman kindly asks you to:
 * Fill out a survey or do a live user interview within one month of receiving access.
 * Optionally, provide feedback on product designs and upcoming features.
 
-The Live Insights team would love to talk to you in Slack to get questions, bug reports, and feature requests as you explore the alpha. If you’d like to provide detailed product feedback, please send it to [Live Insights Alpha team](live.insights.alpha@postman.com).
+The Live Insights team would love to talk to you in Slack to get questions, bug reports, and feature requests as you explore the alpha. If you’d like to provide detailed product feedback, please send it to the [Live Insights Alpha team](live.insights.alpha@postman.com).
 
 ## Support
 
