@@ -334,7 +334,7 @@ const DocPage = ({ data }) => {
                 <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
                 {post.frontmatter.plan === 'alpha' ? 
                   <div className="alphaPlan">
-                    <p style={{'color': 'red'}}>Alpha plan</p>
+                    <p style={{'color': 'red'}}>This is an alpha feature</p>
                   </div> :
                   null
                 }
