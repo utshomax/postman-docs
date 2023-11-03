@@ -1,9 +1,9 @@
 ---
 title: "Maintain APIs in your public workspace"
-updated: 2023-10-15
+updated: 2023-11-03
 ---
 
-Postman recommends following one of these workflows to publish APIs to your public workspaces on [the Public API Network](/docs/getting-started/first-steps/exploring-public-api-network/).
+Postman recommends maintaining your APIs in your public workspaces. This ensures your APIs are current on [the Public API Network](/docs/getting-started/first-steps/exploring-public-api-network/), enabling you to share your latest changes with API consumers. There are multiple options for maintaining APIs in Postman that align with your organization's API development workflow.
 
 ## Contents
 
@@ -13,9 +13,9 @@ Postman recommends following one of these workflows to publish APIs to your publ
 
 ## Code repository
 
-If your API definitions and collections are stored in a remote code repository, such as GitHub, you can use [version control](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/) to connect your API in Postman to the remote code repository.
+If your API definitions and collections are stored in a remote code repository, such as [GitHub](/docs/integrations/available-integrations/github/), you can use [version control](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/) to connect your API in Postman to the remote code repository.
 
-When you're ready to share your API definitions and collections with your API's consumers, you can pull changes from the remote repository to bring changes into Postman. Learn more about the [API version control workflow](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/#api-version-control-workflow).
+When you're ready to share your API definitions and collections with your API's consumers, you can pull changes from the remote repository to bring changes into your public workspace in Postman. Learn more about [syncing APIs between your public workspace and code repository](/docs/collaborating-in-postman/public-api-network/sync-api-with-workspace/).
 
 ## Postman's version control
 
