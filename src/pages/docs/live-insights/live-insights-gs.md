@@ -52,7 +52,7 @@ bash -c "$(curl -L https://releases.observability.postman.com/scripts/install-po
 
 ## Configure the LCA in your deployment
 
-Currently, you can install and run the Live Collections Agent (LCA) on [Kubernetes](#kubernetes), [Amazon Elastic Container Service (ECS)](#ecs-ec2-and-fargate), and [Amazon EC2/Linux Server](#amazon-ec2linux-server).
+Currently, you can install and run the Live Collections Agent (LCA) on [Kubernetes](#kubernetes-deployment), [Amazon Elastic Container Service (ECS)](#ecs-ec2-and-fargate-deployment), and [Amazon EC2/Linux Server](#amazon-ec2linux-server-deployment).
 
 ### Kubernetes deployment
 
