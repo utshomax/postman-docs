@@ -233,7 +233,7 @@ Update the number of Flow Editor seats, monitoring blocks, mock server blocks, a
 
 You can purchase Flow Editor and Postbot seats by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and selecting **Edit plan** on the right.
 
-Select **Modify Plan** under the plan type for your team. Update the number of Flow Editor and Postbot seats in **Add-on products** section, then select **Next** to confirm your changes.
+Select **Modify Plan** under the plan type for your team. Update the number of Flow Editor and Postbot seats in the **Add-on products** section, then select **Next** to confirm your changes.
 
 You can also manage Postbot seats from the [product access dashboard](https://go.postman.co/settings/team/products-access). Learn more about [managing your team's access to Postbot](/docs/administration/managing-your-team/managing-your-team/#manage-your-teams-access-to-postbot).
 
