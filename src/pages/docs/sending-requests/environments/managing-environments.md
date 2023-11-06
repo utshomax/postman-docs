@@ -101,9 +101,11 @@ You can also make an environment active by selecting **Environments** in the sid
 
 <img alt="Environment editor" src="https://assets.postman.com/postman-docs/v10/environment-editor-select-env-v10-10.jpg" width="250px">
 
-To check a variable's value at a glance, select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> next to the environment selector. The environment quick look lists the initial and current values for all variables in the active environment. The quick look also lists any [global variables](/docs/sending-requests/variables/#defining-global-variables) you have declared or that are shared in your workspace.
+To check a variable's value at a glance, select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> next to the environment selector. The environment quick look lists the initial and current values for all variables in the active environment.
 
 <img alt="Selecting the environment quick look" src="https://assets.postman.com/postman-docs/v10/environment-quick-look-selector-v10.jpg" width="250px"/>
+
+> If you want to make variables available no matter which environment is active, use [global variables](/docs/sending-requests/variables/#defining-global-variables). The quick look lists any global variables you have declared or that are shared in your workspace.
 
 ## Use variables in requests and scripts
 
