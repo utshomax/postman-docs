@@ -51,40 +51,38 @@ You can save composed messages, then resend them later.
 To save a message, do the following:
 
 1. Compose a message (see [Send WebSocket messages](#send-websocket-messages)).
-1. Select **Save Message**.
-1. The message title ("New Message" by default) is editable. Enter a new title and press Return.
+1. Select **Save** to save the message and the request.
+1. (Optional) Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to rename, duplicate, or delete the message.
+1. (Optional) Select the **Add message** icon <img alt="Add message icon" src="https://assets.postman.com/postman-docs/v10/icon-pin-collection-v10.14.0.jpg#icon" width="16px"> to create a new blank message and add it to the list of saved messages.
 
 To load a saved message, do the following:
 
-1. Open the **Saved Messages** pane next to the editor pane.
-1. Select a saved message. It will be loaded into the editor pane.
-1. You can then send the message, or edit it and select **Save Message** to save the changes. Select **Discard Changes** to remove them.
-
-You can also create a new message from the **Saved Messages** pane by selecting <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> **Compose Message**.
-
-To rename, duplicate, or delete a saved message, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and then select **Rename**, **Duplicate**, or **Delete**.
+1. Select **Saved messages** to open the **Saved messages** pane.
+1. Select a saved message. It appears in the editor pane.
+1. You can then send the message or edit it and select **Save** to save the changes.
 
 ## View WebSocket messages
 
-The **Messages** pane displays a list of messages for the WebSocket connection, including incoming, outgoing, and network messages.
+The **Response** pane displays a list of messages for the WebSocket connection, including incoming, outgoing, and network messages.
 
-At the top of the message pane is a connection details badge. It shows if the connection is connecting, connected, disconnecting, or disconnected. Hover over the badge to show details on the connection. Select the arrow next to the badge to show or hide messages.
+At the top of the **Response** pane is a connection details badge. It shows if the connection is connecting, connected, disconnecting, or disconnected. Hover over the badge to show details on the connection. Select the arrow next to the badge to show or hide the **Response** pane.
 
 ![WebSocket messages](https://assets.postman.com/postman-docs/websocket-messages.jpg)
 
-The **Messages** pane has the following controls:
+The **Response** pane has the following controls:
 
 * Search control - Enter a search term to display messages containing the term. Select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to end the search.
-* Message type list - Select if you want to view all messages, or incoming or outgoing messages.
-* Trash - Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to clear all messages.
+* Message type list - Choose to view all messages, sent messages, or received messages.
+* **Clear messages** - Select to clear all messages.
 
 The following are displayed for each message:
 
-* If you hover over a message, a checkbox is displayed. Select the checkboxes for two messages, and the time difference between the messages will be displayed. Select **Deselect** to remove the time display.
+* If you hover over a message, a checkbox appears. Select the checkboxes for two messages to see their time difference. Clear the checkboxes to remove the time display.
   ![WebSocket time difference](https://assets.postman.com/postman-docs/websocket-time-difference.gif)
-* Select the arrow next to a message to expand or collapse it.
+* Select a message to expand or collapse it.
 * The time is displayed as your local time.
-* If you hover over the time of a raw Socket.IO message, an information icon is displayed. Hover over it for the time, MIME type, and size of the message.
+* If you hover over the a message, three icons appear:
+    * An information icon appears. Hover over it for the time, MIME type, and size of the message.
 * If you hover over the time, a copy icon is also shown. Select this to copy the message to your clipboard.
 
 In an expanded message:

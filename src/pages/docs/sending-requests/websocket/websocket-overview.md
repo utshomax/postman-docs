@@ -1,5 +1,5 @@
 ---
-title: "Make WebSocket requests with Postman"
+title: "Send WebSocket requests with Postman"
 updated: 2023-11-01
 contextual_links:
   - type: section
