@@ -30,7 +30,7 @@ WebSocket messages are data packets sent over a WebSocket connection. WebSocket 
 ## Contents
 
 * [Send WebSocket messages](#send-websocket-messages)
-* [Save WebSocket messages](#save-websocket-messages)
+* [Save and load WebSocket messages](#save-and-load-websocket-messages)
 * [View WebSocket messages](#view-websocket-messages)
 * [Add Socket.IO event names and arguments](#add-socketio-event-names-and-arguments)
 
@@ -44,22 +44,21 @@ In the bottom left corner of the editor, you can select the format of your messa
 
 When you have finished composing your message, select **Send**. The sent message will remain in the window, in case you want to change it and resend, or save it.
 
-## Save WebSocket messages
+## Save and load WebSocket messages
 
-You can save composed messages, then resend them later.
+You can save composed messages, then load and resend them later.
 
 To save a message, do the following:
 
 1. Compose a message (see [Send WebSocket messages](#send-websocket-messages)).
-1. Select **Save** to save the message and the request.
-1. (Optional) Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to rename, duplicate, or delete the message.
-1. (Optional) Select the **Add message** icon <img alt="Add message icon" src="https://assets.postman.com/postman-docs/v10/icon-pin-collection-v10.14.0.jpg#icon" width="16px"> to create a new blank message and add it to the list of saved messages.
+1. Select **Save** to save the message with the request.
+1. (Optional) Select  **Saved messages** then select the **Add message** icon <img alt="Add message icon" src="https://assets.postman.com/postman-docs/v10/icon-pin-collection-v10.14.0.jpg#icon" width="16px"> to create a new blank message and add it to the list of saved messages.
 
 To load a saved message, do the following:
 
 1. Select **Saved messages** to open the **Saved messages** pane.
 1. Select a saved message. It appears in the editor pane.
-1. You can then send the message or edit it and select **Save** to save the changes.
+1. You can then [send](#send-websocket-messages) the message or edit it and select **Save** to save the changes.
 
 ## View WebSocket messages
 
