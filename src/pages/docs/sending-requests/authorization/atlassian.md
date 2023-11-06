@@ -3,9 +3,7 @@ title: "Authenticate with Atlassian S2S authentication in Postman"
 updated: 2023-11-15
 ---
 
-Atlassian S2S Authentication Protocol (ASAP) is a mechanism that an API server uses to authenticate requests from the client. The access token format must be signed [JSON Web Token (JWT)](https://datatracker.ietf.org/doc/html/rfc7519), and access tokens must be signed with the private key of the client using [JSON Web Signature (JWS)](https://datatracker.ietf.org/doc/html/rfc7515).
-
-<!-- With ASAP (Atlassian S2S Authentication Protocol), the client sends a request to the API, and the API server uses ASAP to authenticate the request. -->
+Atlassian S2S Authentication Protocol (ASAP) is a [JSON Web Token](https://datatracker.ietf.org/doc/html/rfc7519) (JWT) bearer token that an API server can use to authenticate requests from the client.
 
 To use ASAP, do the following:
 
@@ -14,26 +12,26 @@ To use ASAP, do the following:
 
 Enter the following ASAP parameters:
 
-* **Algorithm** - Select an asymmetric key algorithm to use for the access token. Supported algorithms include: <!-- header parameter -->
+* **Algorithm** - Select an asymmetric key algorithm to use to sign the JWT token. Supported algorithms include:<!-- A header parameter used to sign the JWT token. Select an asymmetric key algorithm. Supported algorithms include: -->
 
     * **RS** - RSA (RSASSA-PKCS1-v1_5) with SHA
     * **PS** - RSA (RSASSA-PSS) with SHA
     * **ES** - ECDSA with SHA
 
-* **Issuer** - The service that issued the access token and signed it with its private key.
+* **Issuer** - A claim that identifies the service that issued the JWT token, and signed the header and payload with its private key.
 
-* **Audience** -
+* **Audience** - A claim that identifies the intended recipient of the JWT token.
 
-* **Key ID** - The identifier for the public key of the issuer.  <!-- header parameter -->
+* **Key ID** - The identifier for the issuer's public key. This is used to verify the JWT token's signature.<!-- A header parameter that identifies the public key used to verify the JWT token. -->
 
-* **Private key** - The private key for signing the token. Select **Select File** to upload a private key in PKCS #8 format, or paste your key in the text area.
+* **Private key** - The issuer's private key that signed the JWT token. Select **Select File** to upload a private key in PKCS #8 format, or paste your key in the text area.
 
 * Optional parameters:
 
-    * **Subject** - If the subject is empty, it's assumed that the **Subject** is the same as the **Issuer**.
+    * **Subject** - A claim that identifies the user the JWT token is issued to. If the subject isn't specified, the default value is the value entered in **Issuer**.
 
-    * **Additional claims** -
+    * **Additional claims** - Additional claims you'd like to include in your payload, in JSON format. You can [learn more about JWT claims](https://datatracker.ietf.org/doc/html/rfc7519#section-4).
 
-    * **Expiry** - The access token expiration timestamp in seconds. The default expiration timestamp is `3600` seconds, which is equal to one hour.
+    * **Expiry** - A claim that identifies when the JWT token expires, in seconds. The default expiration timestamp is `3600` seconds, which is equal to one hour.
 
-For more information about ASAP, see [Atlassian S2S Authentication Protocol Specification](https://s2sauth.bitbucket.io/spec/).
+For more information about ASAP, see [Atlassian S2S Authentication Protocol](https://s2sauth.bitbucket.io/).
