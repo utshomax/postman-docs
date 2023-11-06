@@ -42,8 +42,9 @@ To get started, [create a new environment](/docs/sending-requests/environments/m
     * [Share an environment](#share-an-environment)
 * [Manage environment roles](#manage-environment-roles)
     * [Use an environment in Viewer role](#use-an-environment-in-viewer-role)
-    * [Request environment access](#request-environment-access)
     * [Use an environment in Editor role](#use-an-environment-in-editor-role)
+    * [Request access to an environment](#request-access-to-an-environment)
+    * [Manage sensitive variable values](#manage-sensitive-variable-values)
 * [Fork environments](#fork-environments)
 * [View pull requests, forks, and environment details](#view-pull-requests-forks-and-environment-details)
 
@@ -112,41 +113,37 @@ To manage roles for an environment, do the following:
 
 ### Use an environment in Viewer role
 
-If you have the Viewer role for an environment, you can access the values of all variables in the environment and use them in your requests. You can't edit the environment or change a variable's initial value, which is shared with your team. You can update the current value, which is used to send requests in your local Postman instance and isn't shared with your team or synced to your Postman account.
+If you have the Viewer role for an environment, you can access the values of all variables in the environment. You can update a variable's current value, which is used to send requests in your local Postman instance and isn't shared with your team or synced to your Postman account. You can't edit the environment or update a variable's initial value, which is synced to the workspace and shared with your team.
 
-If you have Viewer access to an environment, a lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> displays next to the environment's name to indicate that it's read-only. If you need to edit the environment or initial values for variables, [request Editor access to the environment](#request-editor-access-to-an-environment).
-
-![Viewer role on environment](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)
+If you have Viewer access to an environment, a lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> displays next to the environment's name to indicate that it's read-only. If you need to edit the environment or initial values for variables, [request Editor access to the environment](#request-access-to-an-environment).
 
 ### Use an environment in Editor role
 
-If you have edit access to an environment, you can update the variable values from Postman and from your scripts. If you are using sensitive data such as API secrets, passwords, tokens, or keys, you can define variables as [secret type](/docs/sending-requests/variables/#variable-types) to mask their initial and current values. You can also opt to only use current values, which aren't synced or shared with your team.
+If you have the Editor role for an environment, you can edit the environment and update a variable's initial value. You can also [create and update variables from your scripts](/docs/sending-requests/environments/environment-variables/#set-environment-variables-from-scripts).
 
-If you are working with environments as part of a team, you must have the Editor role to be able to edit the environment or change initial values for variables.
+When you edit the initial value of a shared environment variable, your updated value will be reflected for everyone who has access to the environment. Make sure it's safe to share the value with your team and sync it with Postman's servers. Learn more about [managing sensitive variable values](#manage-sensitive-variable-values).
 
+> If you clear the checkbox next to an environment variable, the variable is not available for use, and references to the variable will be unresolved. Users with the Viewer role won't be able to change this setting to make the variable available again.
 
+### Request access to an environment
 
-When you edit the initial value of a shared environment variable, your updated value will be reflected for everyone who has access to the environment, so ensure that you only do this when you are happy for your value to be synced with the Postman servers.
+If you need to update the initial value of a variable in an environment you have Viewer access to, you can request Editor access.
 
-> If you clear the checkbox for a variable in your environment, it will only be available to collaborators who also have Editor access to the environment. The variable's listing will also indicate whether it's active. Anyone with the Viewer role for the environment won't be able to access the cleared variable.
+1. Select **Environments** in the sidebar and select an environment.
+1. Select **Request Access**.
+1. Select the team member you want to send the request to, and select the **Editor** role.
+1. Select **Send Request**. You'll get an email when your request is approved.
 
-With the Editor role, you can [configure access for other team members](#managing-environment-roles). If you need to specify access but don't have the Editor role, you can [request access](#request-environment-access).
+![Viewer role on environment](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)
 
-### Request Editor access to an environment
-
-If you need to update the initial value of a variable in an environment you have read-only access to, you can request edit access. Open the environment from __Environments__ in the sidebar and select __Request Access__.
-
-[![Viewer role on environment](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)
-
-Select the team member you want to submit the request to, and select the __Editor__ role. Select __Request Access__. You will receive an email when your request is approved.
-
-### Manage sensitive data
+### Manage sensitive variable values
 
 If you are using sensitive data like API credentials, it's safer to use the current value of an environment variable for these. You won't be able to __Persist__ the current values to update the initial values of environment variables without edit access to the environment. You can use the __Reset__ option to update your local current values with the shared initial value at any time.
 
+If you are using sensitive data such as API secrets, passwords, tokens, or keys, you can define variables as [secret type](/docs/sending-requests/variables/#variable-types) to mask their initial and current values. You can also opt to only use current values, which aren't synced or shared with your team.
+
 
 In a shared workspace, any global variables you create and update will be available to others in the workspace. You can define variables as [secret type](/docs/sending-requests/variables/#variable-types) to mask the initial and current values for all workspace members and prevent unintentional disclosure of sensitive data. You can also use the __Current Value__ of global variables to restrict certain values from collaborators, but by default the __Initial value__ of a global variable is generally accessible throughout the workspace.
-
 
 ## Fork environments
 
