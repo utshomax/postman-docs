@@ -1,5 +1,5 @@
 ---
-title: "Authenticate with Atlassian S2S authentication in Postman"
+title: "Authenticate with Atlassian S2S in Postman"
 updated: 2023-11-15
 ---
 
