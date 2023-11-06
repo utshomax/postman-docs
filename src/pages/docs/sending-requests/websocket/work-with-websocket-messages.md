@@ -80,9 +80,10 @@ The following are displayed for each message:
   ![WebSocket time difference](https://assets.postman.com/postman-docs/websocket-time-difference.gif)
 * Select a message to expand or collapse it.
 * The time is displayed as your local time.
-* If you hover over the a message, three icons appear:
-    * An information icon appears. Hover over it for the time, MIME type, and size of the message.
-* If you hover over the time, a copy icon is also shown. Select this to copy the message to your clipboard.
+* If you hover over a message, three icons appear:
+    * Select the Copy message icon <img alt="Copy message icon" src="https://assets.postman.com/postman-docs/icons/websocket-copy-icon-v10-19.jpg#icon" width="18px"> to copy the message to your clipboard.
+    * Select the Save message icon <img alt="Save message icon" src="https://assets.postman.com/postman-docs/icons/websocket-save-icon-v10-19.jpg#icon" width="16px"> to [save](#save-and-load-websocket-messages) the message
+    * Hover over the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icons/websocket-info-icon-v10-19.jpg#icon" width="18px"> for the size, time, and MIME type of the message.
 
 In an expanded message:
 
