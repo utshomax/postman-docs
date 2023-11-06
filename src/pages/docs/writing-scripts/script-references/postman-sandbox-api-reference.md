@@ -624,13 +624,13 @@ See the [Request definition](http://www.postmanlabs.com/postman-collection/Reque
 
 ### Skip request execution from pre-request scripts
 
-You can use the `pm.execution.skipRequest` method to stop the execution of a request from a [pre-request script](/docs/writing-scripts/pre-request-scripts/).
+The `pm.execution.skipRequest` method enables you to stop the execution of a request from a [pre-request script](/docs/writing-scripts/pre-request-scripts/).
 
 ```js
 pm.execution.skipRequest()
 ```
 
-When `pm.execution.skipRequest()` is encountered, the request isn't sent. Any remaining scripts on the **Pre-request Script** tab are skipped, and all scripts on the **Tests** tab are skipped. Also, a message that the request was skipped is logged in the Postman Console.
+You can use the `pm.execution.skipRequest` method on the **Pre-request Script** tab of a request, collection, or folder. When `pm.execution.skipRequest()` is encountered, the request isn't sent. Any remaining scripts on the **Pre-request Script** tab are skipped, and no tests are executed. Also, a message that the request was skipped is logged in the Postman Console.
 
 For example:
 
@@ -641,9 +641,9 @@ if (!pm.environment.get('token')) {
 }
 ```
 
-You can use the `pm.execution.skipRequest` method on the **Pre-request Script** tab of a request, collection, or folder. Using the `pm.execution.skipRequest` method isn't supported on the **Tests** tab and will have no effect there.
-
 In the [Collection Runner](/docs/collections/running-collections/running-collections-overview/), when `pm.execution.skipRequest()` is encountered, Postman skips execution of the current request (including its test scripts) and moves to the next request in order. The run results will show no response and no tests found for the request. This same behavior also applies to [Postman Flows](/docs/postman-flows/gs/flows-overview/), [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/), and [the Postman CLI](/docs/postman-cli/postman-cli-overview/).
+
+> Using the `pm.execution.skipRequest` method isn't supported on the **Tests** tab of a request, collection, or folder and will have no effect there. You will also get the following Console error: `TypeError: pm.execution.skipRequest is not a function`.
 
 ## Scripting workflows
 
