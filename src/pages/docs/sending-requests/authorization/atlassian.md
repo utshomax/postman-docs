@@ -12,7 +12,7 @@ To use ASAP, do the following:
 
 Enter the following ASAP parameters:
 
-* **Algorithm** - Select an asymmetric key algorithm to use to sign the JWT token. Supported algorithms include:<!-- A header parameter used to sign the JWT token. Select an asymmetric key algorithm. Supported algorithms include: -->
+* **Algorithm** - Select an asymmetric key algorithm to use to sign the JWT token. The algorithm is a header parameter. Supported algorithms include:
 
     * **RS** - RSA (RSASSA-PKCS1-v1_5) with SHA
     * **PS** - RSA (RSASSA-PSS) with SHA
@@ -20,17 +20,19 @@ Enter the following ASAP parameters:
 
 * **Issuer** - A claim that identifies the service that issued the JWT token, and signed the header and payload with its private key.
 
-* **Audience** - A claim that identifies the intended recipient of the JWT token.
+* **Audience** - A claim that identifies the intended recipient of the JWT token. To use an array of values as the audience, enter a comma-separated list of values.
 
-* **Key ID** - The identifier for the issuer's public key. This is used to verify the JWT token's signature.<!-- A header parameter that identifies the public key used to verify the JWT token. -->
+* **Key ID** - The identifier for the issuer's public key. This is used to verify the JWT token's signature. The key ID is a header parameter.
 
-* **Private key** - The issuer's private key that signed the JWT token. Select **Select File** to upload a private key in PKCS #8 format, or paste your key in the text area.
+* **Private key** - The issuer's private key that signed the JWT token. Select **Select File** to upload a private key in PKCS #8 or Base64 format, or paste your key in the text area.
 
 * Optional parameters:
 
-    * **Subject** - A claim that identifies the user the JWT token is issued to. If the subject isn't specified, the default value is the value entered in **Issuer**.
+    * **Subject** - A claim that identifies the user the JWT token is issued to. If the subject isn't specified, the default value is the issuer.
 
     * **Additional claims** - Additional claims you'd like to include in your payload, in JSON format. You can [learn more about JWT claims](https://datatracker.ietf.org/doc/html/rfc7519#section-4).
+
+        > If you add claims already defined in this configuration, the values defined in each key-value pair will have higher priority. For example, if you specify an issuer in the **Issuer** field and also specify an issuer (`iss`) in a key-value pair, the value in the key-value pair will have higher priority.
 
     * **Expiry** - A claim that identifies when the JWT token expires, in seconds. The default expiration timestamp is `3600` seconds, which is equal to one hour.
 
