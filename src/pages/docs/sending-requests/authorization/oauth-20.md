@@ -62,7 +62,7 @@ Accessing data with OAuth 2.0 varies greatly between API service providers, but 
 
 To use OAuth 2.0, do the following:
 
-1. In the __Authorization__ tab for a collection or request, select __OAuth 2.0__ from the __Type__ dropdown list. Specify if you want pass the auth details in the request URL or headers.
+1. In the __Authorization__ tab for a collection or request, select __OAuth 2.0__ from the __Type__ dropdown list. Specify if you want to pass the auth details in the request URL or headers.
 
    > By default Postman will append the access token to `Bearer` in the Authorization header for your request, but if your server implementation requires a different prefix, you can specify it in the __Header Prefix__ field.
 
@@ -74,7 +74,7 @@ To use OAuth 2.0, do the following:
 
    > You can share token credentials with your team. Turn on the **Share token** toggle and then select **Sync Token**. By default Postman won't sync your token in case you don't want to share it.
 
-1. Postman will prompt you to supply specific details depending on the OAuth 2.0 __Grant Type__, which can be [Authorization code](#authorization-code), [Implicit](#implicit), [Password credentials](#password-credentials), or [Client credentials](#client-credentials).
+1. Postman will prompt you to supply specific details depending on the OAuth 2.0 __Grant Type__, which can be [Authorization code](#specifying-an-authorization-code), [Implicit](#using-implicit-grant-type), [Password credentials](#using-password-credentials), or [Client credentials](#using-client-credentials).
 
 ## Specifying an authorization code
 

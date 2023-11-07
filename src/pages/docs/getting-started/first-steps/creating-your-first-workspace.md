@@ -22,6 +22,7 @@ When you first open Postman, you will be in your default personal workspace. You
 
 To create a new workspace, do the following:
 
+1. If you haven't already, [install the Postman desktop app](/docs/getting-started/first-steps/get-postman/) and [sign in to Postman](/docs/getting-started/first-steps/sign-in-to-postman/).
 1. Select **Workspaces** in the upper left. Select **Create Workspace** to add a new workspace. You can also search for existing workspaces using the search bar or select one from the dropdown list.
 
     <img alt="Change workspace or create new" src="https://assets.postman.com/postman-docs/v10/workspace-switcher-v10.1.jpg" width="450px"/>
