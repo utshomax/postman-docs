@@ -27,16 +27,14 @@ contextual_links:
 
 You can save your WebSocket requests into a collection. This enables you to reuse requests, share them with other team members, and add documentation to the collection of requests.
 
-To save a request, do the following:
+To save a new request, do the following:
 
 1. Select **Save** in the request tab.
-1. In **Save request**, under **Save to**, select a collection, or select **Create collection**. (Note that there are limitations to WebSocket requests in collections. Keep reading for more information.)
+1. Under **Save to**, select a collection, or select **New collection**. (Note that there are limitations to WebSocket requests in collections. Keep reading for more information.)
 1. If you are creating a new collection, enter a name and select **Create**.
 1. Select **Save**.
 
-Postman will display your collection and saved request in **Collections** in the sidebar:
-
-<img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/websocket-collection-v2.jpg" width="400px"/>
+Postman will display your collection and saved request in **Collections** in the sidebar.
 
 Because WebSocket requests have different features than HTTP requests, when they're added to a collection, it causes the collection to be in a beta state with certain limitations.
 

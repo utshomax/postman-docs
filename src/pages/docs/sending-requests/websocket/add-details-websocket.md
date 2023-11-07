@@ -31,11 +31,14 @@ You can add details to your request, for example to send more parameters and hea
 
 ### Select protocols
 
-You can change the protocol for a new request. Select **New** in the sidebar and then select a request protocol, or select **+** to open a new tab. Select the protocol dropdown menu to the left of the request's name, and then select a different request protocol.
+To change the protocol for a new request, do the following:
+
+1. Select **New** in the sidebar.
+1. Select a request protocol, or select **+** to open a new tab.
+1. Select the protocol dropdown list next to the request's name.
+1. Select a different request protocol.
 
 > You can't change the request protocol after you select **Save**.
-
-![Select protocol](https://assets.postman.com/postman-docs/v10/select-protocol-v10-2.gif)
 
 ### Send parameters
 
@@ -56,4 +59,3 @@ The following settings can be configured for your WebSocket request:
 | Handshake request timeout | How long the handshake request will wait before timing out, in milliseconds. This is reset after every redirection. |
 | Reconnection attempts | The maximum number of reconnection attempts before disconnecting. |
 | Reconnection intervals | The period in milliseconds between reconnection attempts. |
-| Maximum message size | The maximum allowed message size, in megabytes. To receive messages of any size, set this to 0. (Raw WebSocket only)|

@@ -25,14 +25,12 @@ contextual_links:
     url: "https://blog.postman.com/postman-now-supports-socket-io/"
 ---
 
-In Socket.IO, you have the ability to listen to specific events. The **Messages** pane will display the received events for which you've added listeners. Events will be color-coded by event to make them easier to find.
+In Socket.IO, you have the ability to listen to specific events. The **Response** pane will display the received events for which you've added listeners. Events will be color-coded by event to make them easier to find.
 
-The **Listeners** pane shows listener events. To listen to a new event, enter the name of an event and select **+** to add it. Select the toggle next to an event to turn listening on or off for that event. If you hover over the toggle, you can delete the event listener.
+To listen to a new event, do the following:
 
-![Socket.IO message body](https://assets.postman.com/postman-docs/socketio-message-body.jpg)
-
-Messages will indicate if they have multiple arguments. When you expand the message, it will have tabs for each argument.
-
-![WebSocket message body](https://assets.postman.com/postman-docs/socketio-message-with-args.jpg)
-
-Prior to making a connection, you can also add events in the **Events** tab. This enables you to add a description for each event and select if the event will listen when the connection is made.
+1. Select the **Events** tab.
+1. Select **+** or **Add event**.
+1. Enter a name and description for the event.
+1. Select the **Listen** switch next to an event to turn listening on or off for that event.
+    > Hover over the **Listen** switch and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icons/icon-delete-red-v10-19.jpg#icon" width="14px"> to delete the event listener.
