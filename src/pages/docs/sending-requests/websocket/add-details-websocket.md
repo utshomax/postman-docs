@@ -29,7 +29,14 @@ You can add details to your request, for example to send more parameters and hea
 
 > You can't change request details while you are connected. You must make any changes before you connect, or select **Disconnect** to stop the current connection.
 
-### Select protocols
+## Contents
+
+* [Change protocols](#change-protocols)
+* [Send parameters](#send-parameters)
+* [Configure headers](#configure-headers)
+* [Configure request settings](#configure-request-settings)
+
+### Change protocols
 
 To change the protocol for a new request, do the following:
 

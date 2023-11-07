@@ -25,8 +25,6 @@ contextual_links:
     url: "https://blog.postman.com/postman-now-supports-socket-io/"
 ---
 
-## Document WebSocket requests
-
 Postman automatically generates documentation for each of your requests. The documentation includes the request's URL, parameters, settings, and any saved messages. You can also add a description to help users understand and use the request.
 
 To view and edit documentation for a WebSocket request, do the following:
