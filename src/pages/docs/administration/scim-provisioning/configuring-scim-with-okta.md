@@ -39,7 +39,7 @@ To set up provisioning with Okta, do the following:
 
 ## Configuring the Okta SCIM integration
 
-The Postman Okta app supports the provisioning features listed in the [SCIM provisioning overview](/docs/administration/scim-provisioning/scim-provisioning-overview/#scim-features).
+The Postman Okta app supports the provisioning features listed in the [SCIM provisioning overview](/docs/administration/scim-provisioning/scim-provisioning-overview/#scim-features), except updating group information from your identity provider (IdP) to Postman. If you want to update group information from your identity provider (IdP), use the [SCIM 2.0 Okta app](https://www.okta.com/integrations/scim-2-0-test-app-header-auth/).
 
 To turn these features on or off, do the following:
 
