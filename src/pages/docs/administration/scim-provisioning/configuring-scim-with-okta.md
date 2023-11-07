@@ -5,6 +5,8 @@ updated: 2023-04-12
 
 Postman supports SCIM provisioning through Okta with the [Postman Okta app](https://www.okta.com/integrations/postman/), enabling you to automate user provisioning and de-provisioning for your team.
 
+> Updating group information from your IdP to Postman isn't supported in SCIM provisioning through Okta. If you're using Okta and you want to use this provisioning feature, use the [SCIM 2.0 Okta app](https://www.okta.com/integrations/scim-2-0-test-app-header-auth/).
+
 You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable SCIM for your team. With SCIM enabled, users won't have the option to leave your team on their own, and won't be able to change their account email or password. Only Team Admins will have the right to remove team members.
 
 ## Contents
@@ -39,7 +41,7 @@ To set up provisioning with Okta, do the following:
 
 ## Configuring the Okta SCIM integration
 
-The Postman Okta app supports the provisioning features listed in the [SCIM provisioning overview](/docs/administration/scim-provisioning/scim-provisioning-overview/#scim-features), except updating group information from your identity provider (IdP) to Postman. If you want to update group information from your identity provider (IdP), use the [SCIM 2.0 Okta app](https://www.okta.com/integrations/scim-2-0-test-app-header-auth/).
+The Postman Okta app supports the provisioning features listed in the [SCIM provisioning overview](/docs/administration/scim-provisioning/scim-provisioning-overview/#scim-features).
 
 To turn these features on or off, do the following:
 
