@@ -33,7 +33,7 @@ contextual_links:
 
 In Postman, an _environment_ is a set of one or more [variables](/docs/sending-requests/variables/) that you can reference when [sending requests](/docs/sending-requests/requests/) or [writing test scripts](/docs/writing-scripts/test-scripts/). You can create environments for the different types of work you do in Postman. When you switch between environments, all of the variables in your requests and scripts will use the values from the current environment. This is helpful if you need to use different values in your requests depending on the context, for example, if you're sending a request to a test server or a production server.
 
-> Environments can also help you to collaborate on Postman data if you're working as part of a team. You can use environments to share variables and manage the visibility of sensitive data such as API secrets, passwords, tokens, and keys. Learn more about [working with environments as a team in Postman](/docs/sending-requests/environments/team-environments/).
+> Environments can also help you to collaborate on Postman data if you're working as part of a team. You can use environments to share variables and manage the visibility of sensitive data such as API keys, passwords, or tokens. Learn more about [working with environments as a team in Postman](/docs/sending-requests/environments/team-environments/).
 
 ## Contents
 
@@ -89,7 +89,7 @@ To add variables to an environment, do the following:
 
     > If you leave the current value blank, the initial value is copied to the current value when you save the environment.
 
-1. When you are done adding environment variables, select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save**.
+1. When you're done adding environment variables, select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save**.
 
 ## Switch between environments
 
@@ -131,7 +131,7 @@ If more than one variable with the same name is available to a request, Postman 
 
 ## Edit an environment
 
-> If you are working with environments as part of a team, you must have the Editor role to edit the environment or change initial values for variables. Learn more about [managing environment roles](/docs/sending-requests/environments/team-environments/#manage-environment-roles).
+> If you're working with environments as part of a team, you must have the Editor role to edit the environment or change initial values for variables. Learn more about [managing environment roles](/docs/sending-requests/environments/team-environments/#manage-environment-roles).
 
 To edit an environment, select **Environments** in the sidebar and select an environment. From here you can take the following actions:
 
