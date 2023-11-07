@@ -76,14 +76,13 @@ The **Response** pane has the following controls:
 
 The following are displayed for each message:
 
-* If you hover over a message, a checkbox appears. Select the checkboxes for two messages to see their time difference. Clear the checkboxes to remove the time display.
-  ![WebSocket time difference](https://assets.postman.com/postman-docs/websocket-time-difference.gif)
-* Select a message to expand or collapse it.
-* The time is displayed as your local time.
-* If you hover over a message, three icons appear:
+* If you hover over a message, a checkbox and three icons appear.
+    * Select the checkboxes for two messages to see their time difference. Clear the checkboxes to remove the time display.
     * Select the Copy message icon <img alt="Copy message icon" src="https://assets.postman.com/postman-docs/icons/websocket-copy-icon-v10-19.jpg#icon" width="18px"> to copy the message to your clipboard.
     * Select the Save message icon <img alt="Save message icon" src="https://assets.postman.com/postman-docs/icons/websocket-save-icon-v10-19.jpg#icon" width="16px"> to [save](#save-and-load-websocket-messages) the message
     * Hover over the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icons/websocket-info-icon-v10-19.jpg#icon" width="18px"> for the size, time, and MIME type of the message.
+* The time is displayed as your local time.
+* Select a message to expand or collapse it.
 
 In an expanded message:
 
@@ -92,7 +91,6 @@ In an expanded message:
 * Select **Show Hexdump** or **Show Message** to show the message in hex or text.
 * Use the search control to search the body of the message.
 * Hover over a line number and select the arrow to expand or collapse message blocks.
-![WebSocket message body](https://assets.postman.com/postman-docs/websocket-message-body.jpg)
 
 ## Add Socket.IO event names and arguments
 
@@ -100,9 +98,7 @@ Sending events with a Socket.IO connection includes the ability to add event nam
 
 For a Socket.IO connection, you can enter an event name to publish next to **Send**. If you select **Send** without entering a name, the default name `message` will be used.
 
-If the **Acknowledgement** option is selected, the server will acknowledge that it has received the message.
-
-<img src="https://assets.postman.com/postman-docs/socketio-event-name.jpg" alt="Socket.IO event name" width="500px">
+If the **Ack** option is selected, the server will acknowledge that it has received the message.
 
 You can also add arguments to a Socket.IO connection. Select **+ Arg** in the editor pane. This opens a sidebar with a new argument that you can use to add the argument's message. Hover over an existing argument and select **x** to delete it. The workflow to inspect each argument's message is similar.
 
