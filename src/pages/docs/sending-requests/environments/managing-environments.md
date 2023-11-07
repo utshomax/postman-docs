@@ -131,6 +131,8 @@ If more than one variable with the same name is available to a request, Postman 
 
 ## Edit an environment
 
+> If you are working with environments as part of a team, you must have the Editor role to edit the environment or change initial values for variables. Learn more about [managing environment roles](/docs/sending-requests/environments/team-environments/#manage-environment-roles).
+
 To edit an environment, select **Environments** in the sidebar and select an environment. From here you can take the following actions:
 
 * To rename an environment, select the environment's name and enter a new name.

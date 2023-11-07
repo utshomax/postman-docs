@@ -44,7 +44,7 @@ An [environment](/docs/sending-requests/environments/managing-environments/) is 
 
 You can edit environment variables by adding new variables, changing a variable's type and values, or deleting variables.
 
-> If you are working with environments as part of a team, you must have the Editor role to be able to edit the environment or change initial values for variables. Learn more about [managing environment roles](/docs/sending-requests/environments/team-environments/#manage-environment-roles).
+> If you are working with environments as part of a team, you must have the Editor role to edit the environment or change initial values for variables. Learn more about [managing environment roles](/docs/sending-requests/environments/team-environments/#manage-environment-roles).
 
 To edit environment variables, select **Environments** in the sidebar and select an environment. From here you can take the following actions:
 
@@ -91,9 +91,9 @@ If you use scripts to set values for environment variable, these values will be 
 
 An environment variable's current value is used in your local instance of Postman and isn't synced to your Postman account or shared with your team. If you want to sync an environment variable's current value with your account or share it with team members, you can _persist_ the variable.
 
-When you persist a variable, the variable's initial (shared) value is set to the current (local) value. The initial value is then synced to your Postman account, and anyone who has access to the environment can view the new initial value.
+When you persist a variable, the variable's initial (shared) value is set to the current (local) value. The initial value is then synced to your Postman account, and anyone who has access to the environment can view the new initial value. If a variable's initial value has sensitive data, make sure to choose the **secret** variable type if you don't want to expose the value when sharing or publishing the environment.
 
-> If a variable's initial value has sensitive data, make sure to choose the **secret** variable type if you don't want to expose the value when sharing or publishing the environment.
+> To persist a variable, you must have Editor access to the environment. Learn more about [managing environment roles](/docs/sending-requests/environments/team-environments/#manage-environment-roles).
 
 To persist an environment variable, do the following:
 
