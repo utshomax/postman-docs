@@ -30,7 +30,7 @@ When you're getting started using Postman within your organization, you can carr
 
 ## Setting up Postman
 
-You can access Postman [on the web](/docs/getting-started/installation/installation-and-updates/#using-the-postman-web-app) with the [Postman Agent](/docs/getting-started/basics/about-postman-agent/). Postman is available as a standalone app for Windows, Mac, and Linux. Make sure everyone who would like to use Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/).
+You can access Postman [on the web](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app) with the [Postman Agent](/docs/getting-started/basics/about-postman-agent/). Postman is available as a standalone app for Windows, Mac, and Linux. Make sure everyone who would like to use Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/).
 
 > If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/basics/about-postman-agent/) for more information.
 
@@ -41,7 +41,7 @@ Contact your IT team to establish what the procedure is for adding a new piece o
 * Your IT team may need to add an exception to device policy allowing for Postman to be installed on employee workstations. Provide a [Postman download link​](https://www.postman.com/downloads/) to the IT team to help establish this exception.
     * If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), your IT team can opt to deploy the Postman Enterprise app across your organization. For more information, see [Managing Enterprise deployment](/docs/administration/enterprise/managing-enterprise-deployment/).
 * If your organization's network connection is facilitated behind a proxy, you may need to configure Postman appropriately. Retrieve proxy connection details from your IT team and [​set them up within Postman](/docs/getting-started/installation/proxy/)​.
-* Your IT team may need to configure allowlists for Postman’s domains to ensure Postman data is synced with the cloud and all functionality works as expected. See [Using Postman behind a firewall](/docs/getting-started/installation/installation-and-updates/#using-postman-behind-a-firewall) for more information.
+* Your IT team may need to configure allowlists for Postman’s domains to ensure Postman data is synced with the cloud and all functionality works as expected. See [Using Postman behind a firewall](/docs/getting-started/installation/installation-and-updates/#use-postman-behind-a-firewall) for more information.
 
 * Depending on your [plan](https://www.postman.com/pricing) you may be able to obtain static IP addresses for Postman Monitors. Your IT team must allowlist these static IPs for monitoring. See [Running Postman Monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/) for details on how to obtain and configure static IP addresses for monitoring.
 

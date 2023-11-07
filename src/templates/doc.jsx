@@ -321,7 +321,7 @@ const DocPage = ({ data }) => {
   })()
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} slug={post.fields.slug} lastModifiedTime={lastModifiedTime} />
+      <SEO title={post.frontmatter.title} slug={post.fields.slug} lastModifiedTime={lastModifiedTime} earlyAccess={post.frontmatter.early_access} />
       <DocWrapper className="container-fluid">
         <div className="row row-eq-height">
           <nav className="col-sm-12 col-md-4 col-lg-3 left-nav-re">
@@ -332,6 +332,36 @@ const DocPage = ({ data }) => {
             
               <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 doc-page ml-xl-5">
                 <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
+                {post.frontmatter.plan === 'alpha' ? 
+                  <div className="alphaPlan">
+                    <p style={{'color': 'red'}}>This is an alpha feature</p>
+                  </div> :
+                  null
+                }
+                {post.frontmatter.plan === 'beta' ? 
+                  <div className="alphaPlan">
+                    <p style={{'color': 'red'}}>Beta plan</p>
+                  </div> :
+                  null
+                }
+                {post.frontmatter.plan === 'preview' ? 
+                  <div className="alphaPlan">
+                    <p style={{'color': 'red'}}>Preview plan</p>
+                  </div> :
+                  null
+                }
+                {post.frontmatter.plan === 'limited' ? 
+                  <div className="alphaPlan">
+                    <p style={{'color': 'red'}}>Preview plan</p>
+                  </div> :
+                  null
+                }
+                {post.frontmatter.plan === 'deprecated' ? 
+                  <div className="alphaPlan">
+                    <p style={{'color': 'red'}}>Preview plan</p>
+                  </div> :
+                  null
+                }
                 <h1>{post.frontmatter.title}</h1>
                 <DocContent id="LoadDoc" />
                 {
@@ -355,21 +385,6 @@ const DocPage = ({ data }) => {
                 <EditDoc />
                 <DisplayContextualLinks data={data} />
                 <div className="sticky">
-                  <div> 
-                    <p>
-                      <span className="font-weight-bold">Postman newsletter</span> 
-                      <br></br>
-                      Subscribe for product updates, API best practices.
-                    </p>
-                    <BaseLink 
-                      className="sticky"
-                      src="https://www.postman.com/newsletter-signup/"
-                      target="same-tab"
-                      linkType="arrowLink"
-                      >
-                        Sign up
-                    </BaseLink>
-                  </div>
                   <figure className="postmanaut-dab mt-1">
                     <img src="https://voyager.postman.com/illustration/postmanaut-posing-dancing-postman-illustration.svg" alt="Posmanaut dancing. Illustration." className="img-fluid" />
                   </figure>
@@ -390,6 +405,8 @@ export const query = graphql`
       excerpt(pruneLength: 20000)
       frontmatter {
         title
+        early_access
+        plan
         contextual_links {
           type
           name
