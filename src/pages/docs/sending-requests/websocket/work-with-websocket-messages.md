@@ -52,7 +52,7 @@ To save a message, do the following:
 
 1. Compose a message (see [Send WebSocket messages](#send-websocket-messages)).
 1. Select **Save** to save the message with the request.
-1. (Optional) Select  **Saved messages** then select the **Add message** icon <img alt="Add message icon" src="https://assets.postman.com/postman-docs/v10/icon-pin-collection-v10.14.0.jpg#icon" width="16px"> to create a new blank message and add it to the list of saved messages.
+1. (Optional) Select  **Saved messages**, then select the **Add message** icon <img alt="Add message icon" src="https://assets.postman.com/postman-docs/v10/icon-pin-collection-v10.14.0.jpg#icon" width="16px"> to create a new blank message and add it to the list of saved messages.
 
 To load a saved message, do the following:
 
