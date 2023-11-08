@@ -35,4 +35,4 @@ To view and edit documentation for a WebSocket request, do the following:
     > You can also select **Generate with Postbot** to use [Postman's AI assistant](/docs/getting-started/basics/about-postbot/) to document your WebSocket request.
 1. Write your content using Postman’s [built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/). Your documentation automatically saves. If you need to make changes, you can edit the description.
 
-> You can also add a description to your collection's overview or a folder in your collection. Select the collection or folder in the sidebar, then select **Add collection description** or **Add folder description**.
+> You can also add a description to your collection’s overview or a folder in your collection. Select the collection or folder in the sidebar, then select **Add collection description** or **Add folder description**.
