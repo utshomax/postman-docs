@@ -99,7 +99,7 @@ To listen to specific events, you can add names and arguments to events you send
 
 For a Socket.IO connection, you can enter an event name to publish next to **Send**. If you select **Send** without entering a name, the default name `message` is used.
 
-If the **Ack** option is selected, the server will acknowledge that it has received the message.
+If you select the **Ack** option, the server will acknowledge that it has received the message.
 
 You can also add arguments to a Socket.IO connection. Select **+ Arg** in the editor pane. This opens a sidebar with a new argument that you can use to add the argument's message. Hover over an existing argument and select **x** to delete it. The workflow to inspect each argument's message is similar.
 
