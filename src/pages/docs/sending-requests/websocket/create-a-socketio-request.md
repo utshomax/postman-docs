@@ -35,4 +35,4 @@ To disconnect your WebSocket request's connection, select **Disconnect**.
 
 > If you’re using the Postman web app, for the best experience consider using the Postman Desktop Agent. See [About the Postman Agent](/docs/getting-started/basics/about-postman-agent/) for more information.
 <!-- -->
-> Socket.IO typically uses WebSockets as its transport layer, but sometimes uses HTTP "long-polling" as a fallback when WebSockets can't be used. Postman doesn't support long-polling mode in Socket.IO.
+> Socket.IO typically uses WebSockets as its transport layer, but sometimes uses HTTP _long polling_ as a fallback when WebSockets can't be used. Postman doesn't support long-polling mode in Socket.IO.
