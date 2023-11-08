@@ -27,7 +27,7 @@ contextual_links:
 
 You can add details to your request, for example, to send more parameters and headers. You can also configure the connection. Select the **Params**, **Headers**, or **Settings** tab to make changes.
 
-> You can't change request details while you are connected. You must make any changes before you connect, or select **Disconnect** to stop the current connection.
+> You can't change request details while you’re connected. You must make any changes before you connect, or select **Disconnect** to stop the current connection.
 
 ## Contents
 
