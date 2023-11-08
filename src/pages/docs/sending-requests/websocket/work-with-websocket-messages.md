@@ -95,7 +95,7 @@ In an expanded message:
 
 ## Add Socket.IO event names and arguments
 
-Sending events with a Socket.IO connection includes the ability to add event names and arguments. This enables you to listen to specific events.
+To listen to specific events, you can add names and arguments to events you send with a Socket.IO connection.
 
 For a Socket.IO connection, you can enter an event name to publish next to **Send**. If you select **Send** without entering a name, the default name `message` will be used.
 
