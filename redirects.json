@@ -2004,6 +2004,10 @@
     "to": "/docs/sending-requests/websocket/websocket-overview/"
   },
   {
+    "from": "/docs/sending-requests/websocket/websocket/",
+    "to": "/docs/sending-requests/websocket/websocket-overview/"
+  },
+  {
     "from": "/docs/sending-requests/supported-api-frameworks/making-soap-requests/",
     "to": "/docs/sending-requests/soap/making-soap-requests/"
   },
