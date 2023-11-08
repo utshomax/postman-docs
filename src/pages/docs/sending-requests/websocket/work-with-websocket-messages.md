@@ -77,20 +77,20 @@ The **Response** pane has the following controls:
 The following are displayed for each message:
 
 * If you hover over a message, a checkbox and three icons appear.
-    * Select the checkboxes for two messages to see their time difference. Clear the checkboxes to remove the time display.
+    * To see the time difference between two messages, select their checkboxes. Clear the checkboxes to remove the time display.
     * Select the Copy message icon <img alt="Copy message icon" src="https://assets.postman.com/postman-docs/icons/websocket-copy-icon-v10-19.jpg#icon" width="18px"> to copy the message to your clipboard.
     * Select the Save message icon <img alt="Save message icon" src="https://assets.postman.com/postman-docs/icons/websocket-save-icon-v10-19.jpg#icon" width="16px"> to [save](#save-and-load-websocket-messages) the message
-    * Hover over the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icons/websocket-info-icon-v10-19.jpg#icon" width="18px"> for the size, time, and MIME type of the message.
+    * To see a message's size, time, and MIME type, hover over the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icons/websocket-info-icon-v10-19.jpg#icon" width="18px">.
 * The time is displayed as your local time.
 * Select a message to expand or collapse it.
 
 In an expanded message:
 
-* Select **Text**, **HTML**, **JSON**, or **XML** to change the formatting of the message.
-* Select **Wrap Line** to add or remove line wraps.
-* Select **Show Hexdump** or **Show Message** to show the message in hex or text.
-* Use the search control to search the body of the message.
-* Hover over a line number and select the arrow to expand or collapse message blocks.
+* To change the formatting of the message, select **Text**, **HTML**, **JSON**, or **XML**.
+* To add or remove line wraps, select **Wrap Line**.
+* To show the message in hex or text, select **Show Hexdump** or **Show Message**.
+* To search the body of the message, use the search control.
+* To expand or collapse message blocks, hover over a line number and select the arrow.
 
 ## Add Socket.IO event names and arguments
 
