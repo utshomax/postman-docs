@@ -25,7 +25,7 @@ contextual_links:
     url: "https://blog.postman.com/postman-now-supports-socket-io/"
 ---
 
-WebSocket messages are data packets sent over a WebSocket connection. WebSocket messages include information about the type and length of the message, and whether it's the final message or part of a larger set of messages. You can send, save, and view WebSocket messages in Postman. You can also add names and arguments to Socket.IO events.
+_WebSocket messages_ are data packets sent over a WebSocket connection. WebSocket messages include information about the type and length of the message, and whether it's the final message or part of a larger set of messages. You can send, save, and view WebSocket messages in Postman. You can also add names and arguments to Socket.IO events.
 
 ## Contents
 
