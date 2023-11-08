@@ -25,7 +25,7 @@ contextual_links:
     url: "https://blog.postman.com/postman-now-supports-socket-io/"
 ---
 
-In Socket.IO, you have the ability to listen to specific events. The **Response** pane will display the received events for which you've added listeners. Events will be color-coded by event to make them easier to find.
+In Socket.IO, you have the ability to listen to specific events. The **Response** pane displays the received events for which you’ve added listeners. Events are color coded by event to make them easier to find.
 
 To listen to a new event, do the following:
 
