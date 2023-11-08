@@ -65,7 +65,7 @@ You can then [send](#send-websocket-messages) the message or edit it and select 
 
 The **Response** pane displays a list of messages for the WebSocket connection, including incoming, outgoing, and network messages.
 
-At the top of the **Response** pane is a connection details badge. It shows if the connection is connecting, connected, disconnecting, or disconnected. Hover over the badge to show details on the connection. Select the arrow next to the badge to show or hide the **Response** pane.
+At the top of the **Response** pane is a connection details badge. It shows if the connection is connecting, connected, disconnecting, or disconnected. Hover over the badge to show connection details. Select the arrow next to the badge to show or hide the **Response** pane.
 
 ![WebSocket messages](https://assets.postman.com/postman-docs/websocket-messages.jpg)
 
