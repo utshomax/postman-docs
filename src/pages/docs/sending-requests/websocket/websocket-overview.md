@@ -25,7 +25,7 @@ contextual_links:
     url: "https://blog.postman.com/postman-now-supports-socket-io/"
 ---
 
-Postman supports the WebSocket protocol. The WebSocket protocol provides a way to exchange data between a client and a server over a persistent connection. The data can be passed in both directions with low latency and overhead, and without breaking the connection. 
+Postman supports the WebSocket protocol. The WebSocket protocol provides a way to exchange data between a client and a server over a persistent connection. The data can be passed in both directions with low latency and overhead, and without breaking the connection.
 
 WebSockets offers a bidirectional, full-duplex communications channel that operates over HTTP through a single TCP socket connection. This means the server can independently send data to the client without the client having to request it, and vice versa.
 
