@@ -53,7 +53,7 @@ On the **Params** tab, add any parameters you’d like to append to the WebSocke
 
 ### Configure headers
 
-On the **Headers** tab, enter any headers you would like to send with your message. This works similarly to [configuring request headers](/docs/sending-requests/requests/#configuring-request-headers) in a REST request.
+On the **Headers** tab, enter any headers you’d like to send with your message. This works similarly to [configuring request headers](/docs/sending-requests/requests/#configuring-request-headers) in a REST request.
 
 ### Configure request settings
 
