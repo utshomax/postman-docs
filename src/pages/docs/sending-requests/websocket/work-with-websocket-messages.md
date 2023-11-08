@@ -97,7 +97,7 @@ In an expanded message:
 
 To listen to specific events, you can add names and arguments to events you send with a Socket.IO connection.
 
-For a Socket.IO connection, you can enter an event name to publish next to **Send**. If you select **Send** without entering a name, the default name `message` will be used.
+For a Socket.IO connection, you can enter an event name to publish next to **Send**. If you select **Send** without entering a name, the default name `message` is used.
 
 If the **Ack** option is selected, the server will acknowledge that it has received the message.
 
