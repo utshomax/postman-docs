@@ -58,7 +58,8 @@ To load a saved message, do the following:
 
 1. Select **Saved messages** to open the **Saved messages** pane.
 1. Select a saved message. It appears in the editor pane.
-1. You can then [send](#send-websocket-messages) the message or edit it and select **Save** to save the changes.
+
+You can then [send](#send-websocket-messages) the message or edit it and select **Save** to save the changes.
 
 ## View WebSocket messages
 
