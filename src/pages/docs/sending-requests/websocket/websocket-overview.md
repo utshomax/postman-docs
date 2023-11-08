@@ -29,7 +29,7 @@ Postman supports the WebSocket protocol. The WebSocket protocol provides a way t
 
 WebSockets offers a bidirectional, full-duplex communications channel that operates over HTTP through a single TCP socket connection. This means the server can independently send data to the client without the client having to request it, and vice versa.
 
-In Postman you can create a WebSocket request with a server, and use it to send and receive messages across the WebSocket connection. If you haven't already, [download and install the Postman desktop app](/docs/getting-started/installation/installation-and-updates/) to get started.
+In Postman, you can create a WebSocket request with a server, and use it to send and receive messages across the WebSocket connection. If you haven't already, [download and install the Postman desktop app](/docs/getting-started/installation/installation-and-updates/) to get started.
 
 ## Next steps
 
