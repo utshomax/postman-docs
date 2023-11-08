@@ -26,15 +26,15 @@ The Live Insights team is hoping you will try out the new features and send your
 
 If you’ve agreed to participate in the alpha, Postman kindly asks you to:
 
-* Install the Live Collections Agent within two weeks of receiving these instructions. We would love installation feedback as you go, in Slack or by email.
+* Install the Live Collections Agent within two weeks of receiving these instructions. We would love installation feedback as you go, on Slack or by email.
 * Fill out a survey or do a live user interview within one month of receiving access.
 * Optionally, provide feedback on product designs and upcoming features.
 
-The Live Insights team would love to talk to you in Slack to get questions, bug reports, and feature requests as you explore the alpha. If you’d like to provide detailed product feedback, please send it to the [Live Insights Alpha team](live.insights.alpha@postman.com).
+The Live Insights team would love to talk to you in Slack to get questions, bug reports, and feature requests as you explore the alpha. If you’d like to provide detailed product feedback, please send it to the [Live Insights Alpha team](mailto:live.insights.alpha@postman.com).
 
 ## Support
 
-If you experience any issues, please reach out on Slack or contact observability-support@postman.com.
+If you experience any issues, please reach out on Slack or contact [Support](mailto:observability-support@postman.com).
 
 ## Next steps
 
