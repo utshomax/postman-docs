@@ -31,7 +31,7 @@ To save a new request, do the following:
 
 1. Select **Save** in the request tab.
 1. Under **Save to**, select a collection, or select **New collection**. (Note that there are limitations to WebSocket requests in collections. Keep reading for more information.)
-1. If you are creating a new collection, enter a name and select **Create**.
+1. If you’re creating a new collection, enter a name and select **Create**.
 1. Select **Save**.
 
 Postman will display your collection and saved request in **Collections** in the sidebar.
