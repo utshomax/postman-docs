@@ -101,6 +101,6 @@ For a Socket.IO connection, you can enter an event name to publish next to **Sen
 
 If you select the **Ack** option, the server will acknowledge that it has received the message.
 
-You can also add arguments to a Socket.IO connection. Select **+ Arg** in the editor pane. This opens a sidebar with a new argument that you can use to add the argument's message. Hover over an existing argument and select **x** to delete it. The workflow to inspect each argument's message is similar.
+You can also add arguments to a Socket.IO connection. Select **+ Arg** in the editor pane. A sidebar opens with a new argument that you can use to add the argument’s message. Hover over an existing argument and select **x** to delete it. The workflow to inspect each argument’s message is similar.
 
 <img src="https://assets.postman.com/postman-docs/socketio-second-arg.jpg" alt="Socket.IO arguments" width="400px">
