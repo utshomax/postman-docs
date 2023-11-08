@@ -22,18 +22,18 @@ When you're getting started using Postman within your organization, you can carr
 
 ## Contents
 
-* [Setting up Postman](#setting-up-postman)
+* [Set up Postman](#set-up-postman)
     * [Contact your IT team](#contact-your-it-team)
     * [Merge teams into a single account](#merge-teams-into-a-single-account)
     * [Configure SSO for your team](#configure-sso-for-your-team)
     * [Automate user provisioning with SCIM](#automate-user-provisioning-with-scim)
     * [Configure domain verification and account capture](#configure-domain-verification-and-account-capture)
 * [Configure team settings](#configure-team-settings)
-* [Add team members](#add-team-members)
+* [Manage team members](#manage-team-members)
 * [Create workspaces](#create-workspaces)
 * [Additional setup](#additional-setup)
 
-## Setting up Postman
+## Set up Postman
 
 <!-- TBD: Relocate this information, and add overview of the H3s -->
 <!-- You can access Postman [on the web](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app) with the [Postman Agent](/docs/getting-started/basics/about-postman-agent/). Postman is available as a standalone app for Windows, Mac, and Linux. Make sure everyone who would like to use Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/).
@@ -41,6 +41,8 @@ When you're getting started using Postman within your organization, you can carr
 > If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/basics/about-postman-agent/) for more information.
 
 For the Postman web app, you can use **Auto-select** to turn the Auto-Select agent on or off. Once you enable the option for Auto-select, Postman will automatically select the best agent for your requests. You can also manually select the Postman Agent to use for your requests: **Cloud Agent**, **Desktop Agent**, or **Browser Agent**. See [Selecting a Postman Agent for requests](/docs/getting-started/basics/about-postman-agent/#selecting-a-postman-agent-for-requests) for more information. -->
+
+To begin setting up Postman, contact your IT team for help with adding Postman to your organization, and accessing Postman according to your organization's policies. If people in your organization already use Postman in different teams, you can merge teams into a single, company-authorized account. You can also secure your Postman team's users by setting up single SSO, SCIM, and domain verification and account capture.
 
 ### Contact your IT team
 
@@ -58,43 +60,51 @@ Contact your IT team to establish the procedure for adding a new piece of softwa
 
 ### Merge teams into a single account
 
-You can merge one or more Postman teams into a single, company-authorized Postman account. This enables users in your organization to collaborate in the same Postman team. If you merge Postman teams, you must [migrate team data into the company-authorized account](/docs/administration/team-merge/).
+You can merge one or more Postman teams into a single, company-authorized Postman account. This enables users in your organization to collaborate in the same Postman team. To merge Postman teams, you must [migrate team data into the company-authorized account](/docs/administration/team-merge/).
 
 ### Configure SSO for your team
 
-Depending on your [plan](https://www.postman.com/pricing), you may be able to [configure single sign-on (SSO) for your team](/docs/administration/sso/admin-sso/). This enables you to customize authentication methods for your team, including Postman Password, Google Oauth 2.0, and an identity provider (IdP). Postman supports several IdPs you can use to configure SSO for your team.
+Depending on your [plan](https://www.postman.com/pricing), you may be able to [configure sign-on (SSO) for your team](/docs/administration/sso/admin-sso/). This enables you to customize authentication methods for your team, including Postman Password, Google Oauth 2.0, and an IdP. Postman supports several IdPs you can use to configure SSO for your team.
 
 > You might need to contact your IT team for help with configuring SSO.
 
 ### Automate user provisioning with SCIM
 
-<!-- TBD: Add details about this feature, mentioning that it's related to SSO -->
+Depending on your [plan](https://www.postman.com/pricing), you may be able to [configure SCIM (System for Cross-domain Identity Management) for your team](/docs/administration/sso/admin-sso/). This enables you to automate user provisioning and de-provisioning for your Postman team using your IdP, such as Okta or OneLogin. You must first [configure and enable SSO](#configure-sso-for-your-team).
 
 ### Configure domain verification and account capture
 
-<!-- TBD: Should this section be closer to the Team Merge section? -->
-
-Depending on your [plan](https://www.postman.com/pricing), you may be able to [configure domain verification and account capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/).
+Depending on your [plan](https://www.postman.com/pricing), you may be able to [configure domain verification and account capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/). This enables you to capture and merge all of the Postman user accounts that exist within your organization into one team. You must first [configure and enable SSO](#configure-sso-for-your-team), and turn off alternative authentication methods (Postman and Google sign in).
 
 ## Configure team settings
 
-[Configure your team settings](/docs/administration/managing-your-team/team-settings/).<!-- TBD: Add more information -->
+[Configure your team settings](/docs/administration/managing-your-team/team-settings/) to ensure people in your organization can find, join, and securely access your team. You can also keep your team profile updated for your API's consumers.
 
-* [Make your team discoverable](/docs/administration/managing-your-team/team-settings/#making-your-team-discoverable) to enable people in your organization to find and join your team. When team discovery is enabled, Postman displays a list of teams to join when users in your organization access their Postman accounts. Anyone signing in with a company email address is presented with available teams and can make a request to join each one.
-* Depending on your [plan](https://www.postman.com/pricing), you may be able to configure your team's authentication methods. Learn how to [configure SSO for your team](#configure-sso-for-your-team).
-* [Manage your team profile](/docs/administration/managing-your-team/team-settings/#managing-your-team-profile) to share information about your team with other Postman users. This ensures your API's consumers have important details about your team's public resources.
+[Make your team discoverable](/docs/administration/managing-your-team/team-settings/#making-your-team-discoverable) to enable people in your organization to find and join your team. When team discovery is enabled, Postman displays a list of teams to join when users in your organization access their Postman accounts. Anyone signing in with a company email address is presented with available teams and can make a request to join each one.
 
-## Add team members
+Depending on your [plan](https://www.postman.com/pricing), you may be able to configure your team's authentication methods. Learn how to [configure SSO for your team](#configure-sso-for-your-team).
 
-Depending on the size of your team, you can either send invites to your team immediately or [check your setup](#check-your-setup) with a few volunteers before you roll out Postman to your entire organization.
+[Manage your team profile](/docs/administration/managing-your-team/team-settings/#managing-your-team-profile) to share information about your team with other Postman users. This ensures your API's consumers have important details about your team's public resources.
 
-You can add your teammates from your [team dashboard](https://go.postman.co/team) by generating a shareable link or by inviting them through a direct email. See [Managing Your Team](/docs/administration/managing-your-team/managing-your-team/) for more detail.<!-- TBD: Rework this content to include invites and manage team roles -->
+## Manage team members
+
+[Manage team members](/docs/administration/managing-your-team/managing-your-team/#managing-team-members) by adding, removing, and assigning roles to users. You can also organize team members into groups, and assign roles to groups instead of individual users, enabling you to efficiently onboard new team members.
+
+[Invite users to your team](/docs/administration/managing-your-team/managing-your-team/#inviting-users) by generating a shareable link or by inviting them through a direct email.
+
+[Manage team-level roles](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles) assigned to individual team members, enabling them to perform different actions within your team. You can also [organize team members into groups](/docs/collaborating-in-postman/user-groups/), and assign team-level roles to groups. Learn more about [team-level roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
+
+Team Admins can [assign the Super Admin role](/docs/administration/managing-your-team/managing-your-team/#managing-super-admins) to team members and groups, giving them permission to manage everything with a team. It's recommended that you create a user account that isn't tied to an individual team member, and assign the Super Admin role to that user account.
 
 ## Create workspaces
 
+[Organize your projects in workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/), including collections, APIs, and more. You can also use workspaces to collaborate with teammates, and [share APIs with your API's consumers](/docs/collaborating-in-postman/public-api-network/public-api-network-overview/).
+
+Depending on your [plan](https://www.postman.com/pricing), you may be able to [manage who can create team workspaces](/docs/administration/managing-your-team/managing-your-team/#manage-your-teams-workspaces) in your team.
+
 ## Additional setup
 
-<!-- <img src="https://assets.postman.com/postman-docs/invite-users-modal.jpg" alt="Invite users" width="400px"/> -->
+Postman has multiple integrations for popular third-party solutions. You can [add integrations to your team](/docs/integrations/intro-integrations/) to automatically share data between Postman and other tools, sync your collections and API definitions, and more.
 
 <!-- ## Check your setup
 
