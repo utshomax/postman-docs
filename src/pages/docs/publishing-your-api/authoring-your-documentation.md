@@ -237,6 +237,7 @@ To write request docs with Postbot, do the following:
   > You must start with an empty response description for Postbot to generate documentation. If there's already text in the description, clear it first.
 
 For more information on Postbot, see [About Postbot](/docs/getting-started/basics/about-postbot/).
+
 ## Finding help and inspiration
 
 **Need some help using Markdown?** Check out the Postman [Markdown demo collection](https://documenter.postman.com/view/4630964/S1LsXVJy) to learn how Markdown is formatted in published documentation. Select the **Run in Postman** button to add the demo collection to your workspace and view the Markdown code.
