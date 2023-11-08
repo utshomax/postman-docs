@@ -36,6 +36,6 @@ To save a new request, do the following:
 
 Postman displays your collection and saved request in **Collections** in the sidebar.
 
-Because WebSocket requests have different features than HTTP requests, when they're added to a collection, it causes the collection to be in a beta state with certain limitations.
+Because WebSocket requests have different features than HTTP requests, adding them to a collection puts the collection in a beta state with certain limitations.
 
 When in this state, a collection can contain WebSocket or gRPC requests. It can't contain HTTP requests. Some features related to collections aren't supported, such as collaboration, version control, or scripting.
