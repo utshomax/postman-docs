@@ -25,7 +25,7 @@ contextual_links:
     url: "https://blog.postman.com/postman-now-supports-socket-io/"
 ---
 
-WebSocket messages are data packets sent over a WebSocket connection. WebSocket messages include information about the type and length of the message, and whether it's the final message or part of a larger set of messages. You can send, save, and view WebSocket messages in Postman. You can also add names and arguments to Socket.IO events.
+_WebSocket messages_ are data packets sent over a WebSocket connection. WebSocket messages include information about the type and length of the message, and whether it's the final message or part of a larger set of messages. You can send, save, and view WebSocket messages in Postman. You can also add names and arguments to Socket.IO events.
 
 ## Contents
 
@@ -42,7 +42,7 @@ After making a WebSocket connection, you can use the editor pane to compose and 
 
 In the bottom left corner of the editor, you can select the format of your message: **Text**, **JSON**, **XML**, **HTML**, or **Binary**. If you select **Binary**, you can then select **Base64** or **Hexadecimal**. The editor has syntax highlighting according to the selected format. You can also select **{}** to beautify JSON, XML, or HTML messages.
 
-When you have finished composing your message, select **Send**. The sent message will remain in the window, in case you want to change it and resend, or save it.
+After you finish composing your message, select **Send**. The sent message remains in the window, in case you want to change it and resend, or save it.
 
 ## Save and load WebSocket messages
 
@@ -52,19 +52,20 @@ To save a message, do the following:
 
 1. Compose a message (see [Send WebSocket messages](#send-websocket-messages)).
 1. Select **Save** to save the message with the request.
-1. (Optional) Select  **Saved messages** then select the **Add message** icon <img alt="Add message icon" src="https://assets.postman.com/postman-docs/v10/icon-pin-collection-v10.14.0.jpg#icon" width="16px"> to create a new blank message and add it to the list of saved messages.
+1. (Optional) Select  **Saved messages**, then select the **Add message** icon <img alt="Add message icon" src="https://assets.postman.com/postman-docs/v10/icon-pin-collection-v10.14.0.jpg#icon" width="16px"> to create a new blank message and add it to the list of saved messages.
 
 To load a saved message, do the following:
 
 1. Select **Saved messages** to open the **Saved messages** pane.
 1. Select a saved message. It appears in the editor pane.
-1. You can then [send](#send-websocket-messages) the message or edit it and select **Save** to save the changes.
+
+You can then [send](#send-websocket-messages) the message or edit it and select **Save** to save the changes.
 
 ## View WebSocket messages
 
 The **Response** pane displays a list of messages for the WebSocket connection, including incoming, outgoing, and network messages.
 
-At the top of the **Response** pane is a connection details badge. It shows if the connection is connecting, connected, disconnecting, or disconnected. Hover over the badge to show details on the connection. Select the arrow next to the badge to show or hide the **Response** pane.
+At the top of the **Response** pane is a connection details badge. It shows if the connection is connecting, connected, disconnecting, or disconnected. Hover over the badge to show connection details. Select the arrow next to the badge to show or hide the **Response** pane.
 
 ![WebSocket messages](https://assets.postman.com/postman-docs/websocket-messages.jpg)
 
@@ -94,12 +95,12 @@ In an expanded message:
 
 ## Add Socket.IO event names and arguments
 
-Sending events with a Socket.IO connection includes the ability to add event names and arguments. This enables you to listen to specific events.
+To listen to specific events, you can add names and arguments to events you send with a Socket.IO connection.
 
-For a Socket.IO connection, you can enter an event name to publish next to **Send**. If you select **Send** without entering a name, the default name `message` will be used.
+For a Socket.IO connection, you can enter an event name to publish next to **Send**. If you select **Send** without entering a name, the default name `message` is used.
 
-If the **Ack** option is selected, the server will acknowledge that it has received the message.
+If you select the **Ack** option, the server will acknowledge that it has received the message.
 
-You can also add arguments to a Socket.IO connection. Select **+ Arg** in the editor pane. This opens a sidebar with a new argument that you can use to add the argument's message. Hover over an existing argument and select **x** to delete it. The workflow to inspect each argument's message is similar.
+You can also add arguments to a Socket.IO connection. Select **+ Arg** in the editor pane. A sidebar opens with a new argument that you can use to add the argument’s message. Hover over an existing argument and select **x** to delete it. The workflow to inspect each argument’s message is similar.
 
 <img src="https://assets.postman.com/postman-docs/socketio-second-arg.jpg" alt="Socket.IO arguments" width="400px">
