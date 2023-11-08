@@ -33,4 +33,4 @@ To listen to a new event, do the following:
 1. Select **+** or **Add event**.
 1. Enter a name and description for the event.
 1. Select the **Listen** switch next to an event to turn listening on or off for that event.
-    > Hover over the **Listen** switch and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icons/icon-delete-red-v10-19.jpg#icon" width="14px"> to delete the event listener.
+    > To delete the event listener, hover over the **Listen** switch and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icons/icon-delete-red-v10-19.jpg#icon" width="14px">.
