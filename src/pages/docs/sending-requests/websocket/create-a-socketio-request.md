@@ -28,7 +28,7 @@ contextual_links:
 You can create a Socket.IO request from the sidebar in Postman.
 
 1. Select **New > Socket.IO** to open a Socket.IO request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**.)
-1. Enter a [WebSocket](/docs/sending-requests/websocket/websocket/) server URL. A WebSocket URL begins with `ws://` or `wss://`.
+1. Enter a [WebSocket](/docs/sending-requests/websocket/websocket-overview/) server URL. A WebSocket URL begins with `ws://` or `wss://`.
 1. Select **Connect**.
 1. To disconnect your WebSocket request's connection, select **Disconnect**.
 
