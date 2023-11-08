@@ -42,7 +42,7 @@ After making a WebSocket connection, you can use the editor pane to compose and 
 
 In the bottom left corner of the editor, you can select the format of your message: **Text**, **JSON**, **XML**, **HTML**, or **Binary**. If you select **Binary**, you can then select **Base64** or **Hexadecimal**. The editor has syntax highlighting according to the selected format. You can also select **{}** to beautify JSON, XML, or HTML messages.
 
-When you have finished composing your message, select **Send**. The sent message will remain in the window, in case you want to change it and resend, or save it.
+After you finish composing your message, select **Send**. The sent message remains in the window, in case you want to change it and resend, or save it.
 
 ## Save and load WebSocket messages
 
