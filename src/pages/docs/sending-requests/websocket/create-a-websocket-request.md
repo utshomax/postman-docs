@@ -39,4 +39,4 @@ You can create a WebSocket request from the sidebar in Postman.
 
 To disconnect your WebSocket request's connection, select **Disconnect**.
 
-> If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/basics/about-postman-agent/) for more information.
+> If you’re using the Postman web app, for the best experience consider using the Postman Desktop Agent. See [About the Postman Agent](/docs/getting-started/basics/about-postman-agent/) for more information.
