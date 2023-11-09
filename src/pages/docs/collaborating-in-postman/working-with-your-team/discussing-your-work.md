@@ -30,7 +30,7 @@ Use comments to discuss your work with your teammates in Postman. You can add co
 
 ## Add comments
 
-You can add comments to a collection in Postman. You can also add comments to folders, requests, examples, or pull request in collections. When you add a comment, Postman notifies other collection contributors about your comment.
+You can add comments to a collection in Postman. You can also add comments to folders, requests, examples, or pull requests in collections. When you add a comment, Postman notifies other collection contributors about your comment.
 
 > You must have access to a collection to add comments to it.
 
