@@ -16,11 +16,32 @@ contextual_links:
     url: "https://www.postman.com/product/live-insights/"
 ---
 
-The Live Insights team at Postman is working toward the open launch of Live Insights. Today, the alpha launch focuses on the Live Collections Agent (LCA), which passively watches your API traffic to automatically populate a Postman Collection with API endpoints. Within 15 minutes of installing the Live Collections Agent in staging or production, you’ll start to see endpoints in your collection. The Live Collections Agent will keep these endpoints up to date based on new observed traffic.
+The rise of SaaS and APIs means that production systems are more complex than ever before. The Postman vision for Live Insights is to make it faster and easier for any developer to understand their production behavior. By passively watching your API traffic, Live Insights provides API-centric data about what's going wrong with a system and where to start addressing the issue.
 
-API discovery is just the beginning of what Postman plans to offer. Akita users are familiar with the ability to explore API models based on error, latency, and volume.
+Advantages of using Live Insights:
+
+*	The drop-in Live Collections Agent doesn't require instrumentation, recompilation, or invasive proxies.
+*	Designed to be accessible to team members who may not be familiar with a service at the level of its logs.
+*	Useful for small, fast-moving teams who may not have the expertise or resources to configure and support more expensive or complex solutions.
+*	Enables a single engineer or tech lead in a smaller organization to set up in less than an hour.
+
+In the near future, Postman users will be able to observe:
+
+*	Consolidated, per-endpoint metrics and insights
+*	Error pattern analysis
+*	More context about errors, enabling easier troubleshooting
+*	More automated insights
 
 The Live Insights team is hoping you will try out the new features and send your feedback to help Postman continue tailoring the product to your needs.
+
+## Documentation
+
+Just like Live Insights, this documentation set is in alpha stage, and therefore not listed in the left-side navigation. Use the links bellow to jump to the next topic of interest. For easier navigation, you'll find the list of other topics in this set at the bottom of each page.
+
+* [Live Insights overview](/docs/live-insights/live-insights-overview/)
+* [Get started with Live Insights](/docs/live-insights/live-insights-gs/)
+* [Diagnose and troubleshoot errors](/docs/live-insights/live-insights-troubleshoot/)
+* [Live Collections Agent reference](/docs/live-insights/live-insights-reference/)
 
 ## Feedback
 
@@ -35,10 +56,3 @@ The Live Insights team would love to talk to you in Slack to get questions, bug 
 ## Support
 
 If you experience any issues, please reach out on Slack or contact [Support](mailto:observability-support@postman.com).
-
-## Next steps
-
-* [Live Insights overview](/docs/live-insights/live-insights-overview/)
-* [Get started with Live Insights](/docs/live-insights/live-insights-gs/)
-* [Diagnose and troubleshoot errors](/docs/live-insights/live-insights-troubleshoot/)
-* [Live Collections Agent reference](/docs/live-insights/live-insights-reference/)
