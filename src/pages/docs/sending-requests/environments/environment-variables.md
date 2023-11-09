@@ -1,6 +1,6 @@
 ---
 title: "Edit and set environment variables in Postman"
-updated: 2023-10-26
+updated: 2023-11-09
 search_keyword: "pm.globals.set, globals.set, pm.environment.set, environment.set, pm.variables.get, variables.get, pm.globals.get, globals.get, pm.environment.get, environment.get"
 contextual_links:
   - type: section
@@ -55,7 +55,7 @@ To edit environment variables, select **Environments** in the sidebar and select
 * To make an environment variable unavailable without deleting it, clear the checkbox next to the variable. Any references to the variable will be unresolved. To make the variable available again, select the checkbox.
 * Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save any changes you've made.
 
-![Add Environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
+![Add Environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-20.jpg)
 
 To edit an environment variable, select the variable and change any of the following:
 
@@ -73,7 +73,7 @@ When you're done editing environment variables, select <img alt="Save icon" src=
 
 You can edit the current value for variables in the [active environment](/docs/sending-requests/environments/managing-environments/#switch-between-environments) from the environment quick look. Select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> next to the environment selector. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to a variable, then enter a new current value.
 
-<img alt="Using the environment quick look" src="https://assets.postman.com/postman-docs/v10/environment-quick-look-edit-v10.jpg" width="700px"/>
+<img alt="Using the environment quick look" src="https://assets.postman.com/postman-docs/v10/environment-quick-look-edit-v10-20.jpg"/>
 
 ## Set environment variables from scripts
 

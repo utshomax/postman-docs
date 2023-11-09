@@ -1,6 +1,6 @@
 ---
 title: "Work with environments as a team in Postman"
-updated: 2023-10-26
+updated: 2023-11-09
 search_keyword: "pm.globals.set, globals.set, pm.environment.set, environment.set, pm.variables.get, variables.get, pm.globals.get, globals.get, pm.environment.get, environment.get"
 contextual_links:
   - type: section
@@ -64,7 +64,7 @@ To move an environment to another workspace, do the following:
 
 1. Select the workspace, then select **Move Environment**.
 
-    <img alt="Move environment" src="https://assets.postman.com/postman-docs/move-environment-v9.1.jpg" width="400px"/>
+    <img alt="Move environment" src="https://assets.postman.com/postman-docs/v10/environment-move-v10-20.jpg" width="443px"/>
 
 > Monitors, mock servers, and integrations in the original workspace that use the environment may no longer work and will need to be reconfigured in the new workspace. Collections and APIs that use the environment must be [moved manually](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces).
 
@@ -134,7 +134,7 @@ If you need to update the initial value of a variable in an environment you have
 1. Select the team member you want to send the request to, and select the **Editor** role.
 1. Select **Send Request**. You'll get an email when your request is approved.
 
-![Viewer role on environment](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)
+![Viewer role on environment](https://assets.postman.com/postman-docs/v10/environment-request-access-v10-20.jpg)
 
 ### Manage sensitive variable values
 
