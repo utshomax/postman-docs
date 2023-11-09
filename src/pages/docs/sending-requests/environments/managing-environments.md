@@ -99,7 +99,7 @@ Postman displays the active environment in the environment selector, located in 
 
 You can also make an environment active by selecting **Environments** in the sidebar. Select the set active icon <img alt="Set active icon" src="https://assets.postman.com/postman-docs/icon-checkmark-v9.jpg#icon" width="16px"> next to an environment to make it the active environment.
 
-<img alt="Active environment" src="https://assets.postman.com/postman-docs/v10/environment-editor-select-env-v10-10.jpg" width="382px">
+<img alt="Active environment" src="https://assets.postman.com/postman-docs/v10/environment-editor-select-env-v10-20.jpg" width="382px">
 
 To check a variable's value at a glance, select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> next to the environment selector. The environment quick look lists the initial and current values for all variables in the active environment.
 
