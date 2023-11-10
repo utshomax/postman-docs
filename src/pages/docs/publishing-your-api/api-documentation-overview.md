@@ -62,7 +62,7 @@ Learn more about [writing your documentation](/docs/publishing-your-api/authorin
 
 ## Write documentation with Postbot
 
-Postbot can write documentation for your requests. Use Postbot to automatically add descriptions, including request parameters and responses examples to your requests. For more information, see [Writing documentation with Postbot](/docs/publishing-your-api/authoring-your-documentation/#writing-documentation-with-postbot).
+Postbot can write documentation for your requests. Use Postbot to automatically add descriptions, including request parameters and response examples to your requests. For more information, see [Writing documentation with Postbot](/docs/publishing-your-api/authoring-your-documentation/#writing-documentation-with-postbot).
 
 ## Publish your documentation
 
