@@ -232,7 +232,7 @@ To write request docs with Postbot, do the following:
 1. Select **Collections** in the sidebar, and then select a request.
 1. Send the request so there is a response for Postbot to analyze.
 1. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the right sidebar and select the Postbot icon <img alt="Postbot icon" src="https://assets.postman.com/postman-docs/v10/icon-postbot-v10-16.jpg#icon" width="18px">. You can also select the Postbot icon in the footer.
-1. Ask Postbot to add documentation to the request. You can simply enter "add documentation," or ask for specific details, like "add docs and describe the 401 status code."
+1. Ask Postbot to add documentation to the request. You can simply enter “add documentation”, or ask for specific details, like “add docs and describe the 401 status code”.
 
   > You must start with an empty response description for Postbot to generate documentation. If there's already text in the description, clear it first.
 
