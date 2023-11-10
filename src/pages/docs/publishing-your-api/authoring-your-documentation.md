@@ -225,7 +225,7 @@ You can change a video after uploading or embedding it:
 
 ## Writing documentation with Postbot
 
-Postbot can write documentation for your requests. Use Postbot to automatically add descriptions, including request parameters and responses examples to your requests.
+Postbot can write documentation for your requests. Use Postbot to automatically add descriptions, including request parameters and response examples to your requests.
 
 To write request docs with Postbot, do the following:
 
