@@ -20,11 +20,11 @@ Enter the following ASAP parameters:
 
 * **Issuer** - A claim that identifies the service that issued the JWT token, and signed the header and payload with its private key.
 
-* **Audience** - A claim that identifies the intended recipient of the JWT token. To use an array of values as the audience, enter a comma-separated list of values.
+* **Audience** - A claim that identifies the intended recipient of the JWT token.
 
 * **Key ID** - The identifier for the issuer's public key. This is used to verify the JWT token's signature. The key ID is a header parameter.
 
-* **Private key** - The issuer's private key that signed the JWT token. Select **Select File** to upload a private key in PKCS #8 or Base64 format, or paste your key in the text area.
+* **Private key** - The issuer's private key that signed the JWT token. Select **Select File** to upload a private key in PKCS #8 or Base64 DER format, or paste your key in the text area.
 
 * Optional parameters:
 
