@@ -1,6 +1,6 @@
 ---
 title: "Authenticate an API in Postman Flows"
-updated: 2023-08-15
+updated: 2023-11-10
 ---
 
 Most APIs require some form of authentication. Authentication adds security to an API so that only the intended users can access and update information. Postman Flows recognizes APIs that require authentication, and prompts you to set up authorization in the **Send Request** block. You can also add your API key to the **Send Request** block as a value.
