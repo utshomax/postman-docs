@@ -190,7 +190,7 @@ To write a test with Postbot, do the following:
 
 1. Select the play button. Postbot writes a test for you.
 
-You can also use Postbot to autocomplete test code. If you have a response available and type `pm.test`, Postbot will suggest tests for your request. Select a test name, and Postbot will provide the code to validate what you need.
+You can also use Postbot to autocomplete test code. If you have a response available and type `pm.test`, Postbot suggests tests for your request. Select a test name, and Postbot inserts the code to validate your response.
 
 For more information on Postbot, visit [About Postbot](/docs/getting-started/basics/about-postbot/).
 
