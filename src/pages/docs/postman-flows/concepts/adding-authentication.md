@@ -3,7 +3,7 @@ title: "Authenticate an API in Postman Flows"
 updated: 2023-11-10
 ---
 
-Most APIs require some form of authentication. Authentication adds security to an API so that only the intended users can access and update information. Postman Flows recognizes APIs that require authentication, and prompts you to set up authorization in the **Send Request** block. You can also add your API key to the **Send Request** block as a value.
+Most APIs require some form of authentication. Authentication adds security to an API so that only the intended users can access and update information. Postman Flows recognizes supported APIs that require authentication, and prompts you to set up authorization in the **Send Request** block. You can also add your API key to the **Send Request** block as a value.
 
 Read about the [different types of authentication](/docs/sending-requests/authorization/authorization/) and how to use them.
 
@@ -29,7 +29,7 @@ For this example, you don't need to secure the API key, so it can be pasted dire
 
 ### Setting up authorization from the Send Request block
 
-When you create a **Send Request** block and select a request that requires authorization and has the **No Auth** authorization type, you'll be prompted to set up authorization for the request.
+When you create a **Send Request** block and select a request to a supported API that requires authorization and has the **No Auth** authorization type, you'll be prompted to set up authorization for the request.
 
 <img src="https://assets.postman.com/postman-docs/v10/flows-set-up-auth-v10.jpg" alt="Set up authorization" width="350px">
 
