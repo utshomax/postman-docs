@@ -83,7 +83,7 @@ You can change the values of environment variables from your **Pre-request Scrip
 pm.environment.set("variable_key", "variable_value");
 ```
 
-If you use scripts to set values for environment variable, these values will be reflected in all requests that reference the variables. For example, you can use environments in conjunction with [the collection runner](/docs/collections/running-collections/intro-to-collection-runs/) and [monitors](/docs/monitoring-your-api/intro-monitors/) to use updated values for a series of requests throughout a run and after the run completes.
+If you use scripts to set values for environment variables, these values will be reflected in all requests that reference the variables. For example, you can use environments in conjunction with [the collection runner](/docs/collections/running-collections/intro-to-collection-runs/) and [monitors](/docs/monitoring-your-api/intro-monitors/) to use updated values for a series of requests throughout a run and after the run completes.
 
 > To create new environment variables from a script, you must have Editor access to the environment. If you update or unset a value in a script when you have Viewer access, that change will be visible to you but won't be shared with other team members. Learn more about [managing environment roles](/docs/sending-requests/environments/team-environments/#manage-environment-roles).
 

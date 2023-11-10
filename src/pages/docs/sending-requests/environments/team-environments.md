@@ -41,8 +41,8 @@ To get started, [create a new environment](/docs/sending-requests/environments/m
     * [Export an environment](#export-an-environment)
     * [Share an environment](#share-an-environment)
 * [Manage environment roles](#manage-environment-roles)
-    * [Use an environment with Viewer role](#use-an-environment-with-viewer-role)
-    * [Use an environment with Editor role](#use-an-environment-with-editor-role)
+    * [Use an environment with the Viewer role](#use-an-environment-with-the-viewer-role)
+    * [Use an environment with the Editor role](#use-an-environment-with-the-editor-role)
     * [Request access to an environment](#request-access-to-an-environment)
     * [Manage sensitive variable values](#manage-sensitive-variable-values)
 * [Fork an environment](#fork-an-environment)
@@ -111,13 +111,13 @@ To manage roles for an environment, do the following:
 
 1. Select **Update Roles**.
 
-### Use an environment with Viewer role
+### Use an environment with the Viewer role
 
 If you have the Viewer role for an environment, you can access the values of all variables in the environment. You can update a variable's current value, which is used to send requests in your local Postman instance and isn't shared with your team or synced to your Postman account. You can't edit the environment or update a variable's initial value, which is synced to the workspace and shared with your team.
 
 If you have Viewer access to an environment, a lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> displays next to the environment's name to indicate that you can't make changes to the environment. If you need to edit the environment or initial values for variables, [request Editor access to the environment](#request-access-to-an-environment).
 
-### Use an environment with Editor role
+### Use an environment with the Editor role
 
 If you have the Editor role for an environment, you can edit the environment and update a variable's initial value. You can also [create and update variables from your scripts](/docs/sending-requests/environments/environment-variables/#set-environment-variables-from-scripts).
 
