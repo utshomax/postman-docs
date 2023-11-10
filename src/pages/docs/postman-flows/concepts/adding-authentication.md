@@ -29,7 +29,7 @@ For this example, you don't need to secure the API key, so it can be pasted dire
 
 ### Setting up authorization from the Send Request block
 
-When you create a **Send Request** block and select a request that requires authorization, you'll be prompted to set up authorization for the request.
+When you create a **Send Request** block and select a request that requires authorization and has the **No Auth** authorization type, you'll be prompted to set up authorization for the request.
 
 <img src="https://assets.postman.com/postman-docs/v10/flows-set-up-auth-v10.jpg" alt="Set up authorization" width="350px">
 
