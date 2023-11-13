@@ -18,7 +18,7 @@ contextual_links:
 
 The rise of SaaS and APIs means that production systems are more complex than ever before. The Postman vision for Live Insights is to make it faster and easier for any developer to understand their production behavior. By passively watching your API traffic, Live Insights provides API-centric data about what's going wrong with a system and where to start addressing the issue.
 
-Advantages of using Live Insights:
+Advantages of using _Postman Live Insights_:
 
 *	The drop-in Live Collections Agent doesn't require instrumentation, recompilation, or invasive proxies.
 *	Designed to be accessible to team members who may not be familiar with a service at the level of its logs.
