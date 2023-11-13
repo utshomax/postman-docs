@@ -18,28 +18,29 @@ contextual_links:
 
 ---
 
-When you're getting started using Postman within your organization, you can carry out the following preparation steps to set your team up for success.
+To begin using Postman within your organization, you can perform the following tasks to set your Postman team up for success. You can collaborate with your identified Team Admins and your organization's IT team to set up, secure, and manage Postman in your organization. Then you can set up your Postman team by configuring relevant settings, inviting people to your team and assigning them roles, and creating workspace resources related to your projects.
 
+<!-- TBD: prioritize the desktop app -->
 You can access Postman [on the web](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app) with the [Postman Agent](/docs/getting-started/basics/about-postman-agent/). Postman is available as a standalone app for Windows, Mac, and Linux. Make sure everyone who would like to use Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/).
 
 > If you're using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/basics/about-postman-agent/) for more information.
 
 ## Contents
 
-* [Set up Postman](#set-up-postman)
+* [Set up Postman in your organization](#set-up-postman-in-your-organization)
     * [Manage Team Admins and support users](#manage-team-admins-and-support-users)
     * [Contact your IT team](#contact-your-it-team)
     * [Secure your Postman team](#secure-your-postman-team)
     * [Merge teams into a single account](#merge-teams-into-a-single-account)
     * [Manage the Enterprise app](#manage-the-enterprise-app)
-* [Set up your team](#set-up-your-team)
+* [Set up your Postman team](#set-up-your-postman-team)
     * [Configure team settings](#configure-team-settings)
     * [Manage team members](#manage-team-members)
     * [Create workspaces and collections](#create-workspaces-and-collections)
     * [Configure integrations](#configure-integrations)
 * [Questions](#questions)
 
-## Set up Postman
+## Set up Postman in your organization
 
 To begin setting up Postman, assign the Team Admin role to one or more users, giving them permission to set up Postman and your team. Then Team Admins can contact your IT team for help with setting up, managing, and securing Postman in your organization. After you set up Postman, you can [set up your Postman team](#set-up-your-team).
 
@@ -67,7 +68,7 @@ Contact your IT team to establish the procedure for adding a new piece of softwa
 
 ### Secure your Postman team
 
-Depending on your [plan](https://www.postman.com/pricing), you may be able to secure your Postman team's users with single SSO, SCIM, and domain verification and account capture. You must first configure SSO before you can configure SCIM provisioning and account capture. For more security considerations, see [Security and compliance: a shared responsibility model](https://www.postman.com/shared-responsibility/).
+Depending on your [plan](https://www.postman.com/pricing), you may be able to secure your Postman team's users with single SSO, SCIM, and domain verification and account capture. You must first configure SSO before you can configure SCIM provisioning and account capture.
 
 > You might need to contact your IT team for help with configuring SSO, SCIM, and domain verification and account capture.
 
@@ -86,10 +87,9 @@ You can merge one or more Postman teams into a single, company-authorized Postma
 Depending on your [plan](https://www.postman.com/pricing), you may be able to manage Postman app versioning for your team, or download and install Postman's Enterprise app. Team Admins can [set a team-wide version of Postman](/docs/administration/enterprise/managing-enterprise-deployment/#managing-postman-app-versioning) with help from Postman support, or [download and install the Postman Enterprise app](/docs/administration/enterprise/managing-enterprise-deployment/#deploying-the-postman-enterprise-app) to their organization. Postman's Enterprise app is a variant of Postman’s Desktop app that offers greater control to administrators looking to deploy Postman at an enterprise level.
 
 > You might need to contact your IT team for help with configuring the Enterprise app in your organization. This might include adding the Postman Enterprise app installer to your organization's internal app store for employees to install.
-
 After you configure the Postman Enterprise app in your organization, it's recommended that you internally document how employees can install the app on their workstations.
 
-## Set up your team
+## Set up your Postman team
 
 After you [set up Postman](#set-up-postman), enable your teammates to find and join your team. You can also share invites with them directly. Once people are added to your team, you can begin assigning them roles based on the permissions each user needs in your team. Then you can begin collaborating with your teammates in workspaces, collections, and other workspaces resources.
 
@@ -113,11 +113,9 @@ You can [manage team-level roles](/docs/administration/managing-your-team/managi
 
 [Organize your projects in workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/), including collections, APIs, and more. You can also use workspaces to collaborate with teammates, and [share APIs with your API's consumers](/docs/collaborating-in-postman/public-api-network/public-api-network-overview/). If you're not sure how to set up your workspace based on your project's use case, you can [apply a template to a workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#apply-a-template-to-a-workspace) to help you get started. Once your workspace is set up, you can [add team members and groups to your workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 
-In your workspaces, you can [group your requests and examples into collections](/docs/collections/using-collections/). This enables you to keep your workspaces organized by project, collaborate with teammates, run tests on related requests, and more. If you're not sure how to set up your collection, you can [create a collection from a template](/docs/collections/using-collections/#using-collection-templates). Postman has a variety of collection templates you can use for your project's use case.
+In your workspaces, you can [group your requests and examples into collections](/docs/collections/using-collections/). This enables you to keep your workspaces organized by project, collaborate with teammates, run tests on related requests, and more. If you're not sure how to set up your collection, you can [create a collection from a template](/docs/collections/using-collections/#using-collection-templates). Postman has a variety of collection templates you can use for your projects.
 
 You can assign [workspace roles]((/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles)) to team members and groups at the [workspace level](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles). You can also assign [element-based roles](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) at the [element level](/docs/collaborating-in-postman/requesting-access-to-elements/#managing-element-based-roles), such as collections and APIs.
-
-<!-- TBD: add info about creating collections, and use collection templates -->
 
 Depending on your [plan](https://www.postman.com/pricing), you may be able to [manage who can create team workspaces](/docs/administration/managing-your-team/managing-your-team/#manage-your-teams-workspaces) in your team.
 
