@@ -36,7 +36,7 @@ The Live Insights team is hoping you will try out the new features and send your
 
 ## Documentation
 
-Just like Live Insights, this documentation set is in alpha stage, and therefore not listed in the left-side navigation. Use the links bellow to jump to the next topic of interest. For easier navigation, you'll find the list of other topics in this set at the bottom of each page.
+Just like Live Insights, this documentation set is in alpha stage. Use the links bellow to jump to the next topic of interest. For easier navigation, you'll find the list of other topics in this set at the bottom of each page.
 
 * [Live Insights overview](/docs/live-insights/live-insights-overview/)
 * [Get started with Live Insights](/docs/live-insights/live-insights-gs/)
