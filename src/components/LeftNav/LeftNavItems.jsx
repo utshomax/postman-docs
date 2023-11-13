@@ -286,7 +286,22 @@ export const leftNavItems = [
       },
       {
         name: 'Group values in environments',
-        url: '/docs/sending-requests/managing-environments/',
+        subParentSlug: 'environments',
+        slug: '/docs/sending-requests/environments/managing-environments/',
+        subMenuItems2: [
+          {
+            name: 'Create and use environments',
+            url: '/docs/sending-requests/environments/managing-environments/',
+          },
+          {
+            name: 'Set environment variables',
+            url: '/docs/sending-requests/environments/environment-variables/',
+          },
+          {
+            name: 'Manage team environments',
+            url: '/docs/sending-requests/environments/team-environments/',
+          },
+        ]
       },
       {
         name: 'Visualize request responses',
