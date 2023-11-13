@@ -45,7 +45,7 @@ Requests in Postman enable you to make API calls and view the responses from the
 
 ## Next steps
 
-To learn more about using the GraphQL client:
+To learn more about using the GraphQL client, see the following topics:
 
 * [Using the GraphQL Request interface](/docs/sending-requests/graphql/graphql-client-interface/)
 * [Making your first GraphQL query](/docs/sending-requests/graphql/graphql-client-first-request/)

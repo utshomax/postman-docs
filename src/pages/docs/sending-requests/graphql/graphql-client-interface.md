@@ -53,7 +53,7 @@ You can create a new GraphQL request from a workspace, by using **New > GraphQL*
 
 <img src="https://assets.postman.com/postman-docs/v10/graphql-create-new-4-v10.jpg" alt="Create a new GraphQL request" width="500px">
 
-Select **Save** to create your request.
+Select **Save** to [save the request](/docs/collections/using-collections/#adding-a-new-request-to-a-collection) to a collection.
 
 ## Loading a GraphQL schema
 
