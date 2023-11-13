@@ -334,13 +334,13 @@ const DocPage = ({ data }) => {
                 <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
                 {post.frontmatter.plan === 'alpha' ? 
                   <div className="alphaPlan">
-                    <p style={{'color': 'red'}}>Alpha plan</p>
+                    <p style={{'color': 'red'}}>This is an alpha feature</p>
                   </div> :
                   null
                 }
                 {post.frontmatter.plan === 'beta' ? 
                   <div className="alphaPlan">
-                    <p style={{'color': 'red'}}>Beta plan</p>
+                    <p style={{'color': 'red'}}>This is a beta feature</p>
                   </div> :
                   null
                 }
