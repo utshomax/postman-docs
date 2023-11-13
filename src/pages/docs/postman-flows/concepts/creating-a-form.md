@@ -37,7 +37,7 @@ Name your form, add a description, and add questions in the **Form Editor**, the
 
 <img src="https://assets.postman.com/postman-docs/v10/flows-edit-form-v10.gif" alt="Edit a form" fetchpriority="low" loading="lazy" >
 
-You can rename, duplicate, or delete questions as needed. You also have the flexibility to reorder questions to enhance the user experience.
+You can rename, duplicate, or delete questions as needed. You can also reorder questions to enhance the user experience.
 
 Once your form is ready, select **Preview** to view the form for testing. Select **Publish** to make the firm live.
 
