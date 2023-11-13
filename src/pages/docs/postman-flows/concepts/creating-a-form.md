@@ -33,7 +33,7 @@ To create a form, select a flow, then select **Form** from the bottom of the **F
 
 <img alt="Create a form" src="https://assets.postman.com/postman-docs/v10/flows-create-form-v10.jpg" width="500px">
 
-You can name your form, add a description, and add questions by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Edit** and using the available question types. Customize each question to gather specific data from users.
+Name your form, add a description, and add questions in the **Form Editor**, then select **Update & Publish**. To edit a published form, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Edit**.
 
 <img src="https://assets.postman.com/postman-docs/v10/flows-edit-form-v10.gif" alt="Edit a form" fetchpriority="low" loading="lazy" >
 
