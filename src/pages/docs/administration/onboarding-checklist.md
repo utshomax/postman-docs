@@ -1,6 +1,6 @@
 ---
 title: "Onboarding checklist"
-updated: 2022-02-16
+updated: 2023-11-13
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -18,10 +18,9 @@ contextual_links:
 
 ---
 
-To begin using Postman within your organization, you can perform the following tasks to set your Postman team up for success. You can collaborate with your identified Team Admins and your organization's IT team to set up, secure, and manage Postman in your organization. Then you can set up your Postman team by configuring relevant settings, inviting people to your team and assigning them roles, and creating workspace resources related to your projects.
+To begin using Postman within your organization, you can perform the following tasks to set your Postman team up for success. It's recommended that you first collaborate with your identified Team Admins and your organization's IT team to set up, secure, and manage Postman in your organization. Then you can set up your Postman team by configuring relevant settings, inviting people to your team and assigning them roles, and creating workspace resources related to your projects.
 
-<!-- TBD: prioritize the desktop app -->
-You can access Postman [on the web](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app) with the [Postman Agent](/docs/getting-started/basics/about-postman-agent/). Postman is available as a standalone app for Windows, Mac, and Linux. Make sure everyone who would like to use Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/).
+You can [download and install the Postman desktop app](/docs/getting-started/installation/installation-and-updates/) for Windows, Mac, and Linux. You can also [access Postman on the web](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app) with the [Postman Agent](/docs/getting-started/basics/about-postman-agent/).
 
 > If you're using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/basics/about-postman-agent/) for more information.
 
