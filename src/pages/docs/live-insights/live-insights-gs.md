@@ -16,7 +16,7 @@ contextual_links:
     url: "https://www.postman.com/product/live-insights/"
 ---
 
-To get started using Live Insights, ensure you have a team workspace set up in Postman. If you don’t already have a team in Postman, see [Collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team) for instructions on how to set it up. Postman Free provides team setup with up to three users. Once your team workspace is set up, contact [Live Insights Alpha team](mailto:live.insights.alpha@postman.com) to get access to the Live Insights alpha in Postman.
+To get started using Live Insights, ensure you have a team workspace set up in Postman. If you don’t already have a team in Postman, see [Collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team) for instructions on how to set it up. The Postman Free plan provides team setup with up to three users. Once your team workspace is set up, contact [Live Insights Alpha team](mailto:live.insights.alpha@postman.com) to get access to the Live Insights alpha in Postman.
 
 Next, create a collection and install the LCA locally. Then, configure the LCA for your deployment. Finally, return to Postman to [check your LCA connection](#check-your-lca-connection), [navigate your collection](#navigate-live-collections), and [observe live insights](#observe-live-insights) about your endpoints. You can also [review any traffic errors](/docs/live-insights/live-insights-troubleshoot/).
 
