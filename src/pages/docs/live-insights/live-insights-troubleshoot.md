@@ -107,7 +107,7 @@ If your model is missing endpoints that you expect to be there, or is completely
 
 You'll see whether the LCA saw any traffic encrypted with TLS.
 
-If you’re running Kubernetes, follow the [installation instructions](/docs/live-insights/live-insights-gs) to install LCA as a sidecar. This enables the LCA to see encrypted traffic in most common Kubernetes deployments.
+If you’re running Kubernetes, follow the [installation instructions](/docs/live-insights/live-insights-gs) to install LCA as a sidecar. This enables the LCA to see encrypted traffic if a service mesh such as Istio is being used.
 
 #### Add a reverse proxy
 
