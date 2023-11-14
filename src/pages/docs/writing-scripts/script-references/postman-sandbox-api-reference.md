@@ -181,7 +181,7 @@ pm.environment.unset(variableName:String):function
 pm.environment.clear():function
 ```
 
-> Note that your ability to edit variables depends on your [access level](/docs/sending-requests/managing-environments/#working-with-environments-as-a-team) in the workspace.
+> Note that your ability to edit variables depends on your [access level](/docs/sending-requests/environments/team-environments/#manage-environment-roles) in the workspace.
 
 #### Using collection variables in scripts
 
@@ -291,7 +291,7 @@ pm.globals.unset(variableName:String):function
 pm.globals.clear():function
 ```
 
-> Note that your ability to edit variables depends on your [access level](/docs/sending-requests/managing-environments/#working-with-environments-as-a-team) in the workspace.
+> Note that your ability to edit variables depends on your [access level](/docs/sending-requests/environments/team-environments/#manage-environment-roles) in the workspace.
 
 #### Using data variables in scripts
 
