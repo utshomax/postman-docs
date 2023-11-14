@@ -59,33 +59,32 @@ Select **Save** to [save the request](/docs/collections/using-collections/#addin
 
 You can use a GraphQL schema in your request to browse the available data fields. This makes creating queries easier. Postman enables you to load a GraphQL schema using GraphQL introspection. This is the easiest way to fetch the schema directly from the server. When you enter the URL, Postman loads the schema automatically.
 
-<img src="https://assets.postman.com/postman-docs/v10/loading-schema-v10.gif" alt="Adding schema to the request">
-
 You can also choose to [load a GraphQL API from Postman](/docs/designing-and-developing-your-api/importing-an-api/) or [import a schema](/docs/getting-started/importing-and-exporting/importing-data/) from your local system to use in the request.
 
 ## Understanding parts of the request interface
 
 The request interface enables you to add configurations to connect to the server and execute the query. You can define the URL, load the schema, build your query, and select **Query** to execute it. Based on the API requirements, you may also need to pass authorization details, additional metadata, and settings along with the query.
 
-<img src="https://assets.postman.com/postman-docs/v10/graphql-request-section-v10.jpg" alt="Different sections of the request interface">
+<img src="https://assets.postman.com/postman-docs/v10/graphql-request-section-v10-20-2.jpg" alt="Different sections of the request interface">
 
-* **Protocol menu** - You can change the protocol for a new request. Select **New** in the sidebar and then select a request protocol, or select **+** to open a new tab. Select the protocol dropdown menu to the left of the request's name, and then select a different request protocol.
+* **Protocol menu** - You can change the protocol for a new request. In the request, select the protocol dropdown menu to the left of the request's name, and then select a different request protocol.
 
     > You can't change the request protocol after you select **Save**.
 
     <img src="https://assets.postman.com/postman-docs/v10/select-protocol-v10-2.gif" alt="Select protocol" />
 
-* **URL** - Defines the endpoint where the service is hosted. While creating a new request, you can also browse through URLs you've used by selecting the **URL** field. This helps you create the request faster if you’re going to execute different queries with the same point.
-* **Query button** - Once you have defined the URL and built the query, you can select **Query** to execute it. Once the query is executed, the server sends back a response with the requested data.
+* **URL field** - Enter the endpoint where the service is hosted here. While creating a new request, you can also browse through URLs you've used by selecting the URL field. This helps you create the request faster when you're executing different queries with the same point.
 * **Save button** - Saves the request into a collection so that you can reuse it later or document and share it with others.
-* **Query** - the **Query** tab has three subsections: the **Query explorer**, the **Query editor**, and the **Variables** section.
+* **Query button** - Once you have defined the URL and built the query, you can select **Query** to execute it. Once the query is executed, the server sends back a response with the requested data.
+* **Query tab** - The **Query** tab has three subsections: the **Query explorer**, the **Query editor**, and the **Variables** section.
     * **Query explorer** - Once the schema is loaded, the available data fields, arguments to be passed, and their respective descriptions appear in this section. The schema query also doubles as an interactive visual query editor enabling you to select individual fields and arguments to build your query.
     * **Query editor** - Build and edit your queries, mutations, fragments, and subscriptions here.
     * **Variables** - GraphQL enables you to pass variables as arguments for values defined dynamically in the client. You can use those variables in the query and define their values separately using the **Variables** section.
-* **Authorization** - You can enter authorization credentials under the **Authorization** tab. You can choose from a list of auth types including API Key, Basic auth, and Bearer token. Learn more about [authorizing requests](/docs/sending-requests/authorization/authorization).
-* **Headers** - The **Headers** tab pass additional headers with the request in the form of key-value pairs. The client uses these headers to provide more information about the call to the server.
-* **Schema** - The **Schema** tab lets you configure a GraphQL schema to make the client aware of the data fields available from the server. A GraphQL schema can be loaded directly using the URL through introspection. You can also use a GraphQL API from the same workspace or import a GraphQL schema from your local system.
-* **Scripts** - The **Scripts** tab accesses Postman's powerful scripting environment that enables you to add JavaScript code (scripts) in your GraphQL requests. You can use scripts to write API tests, debug your requests by logging to [Postman Console](https://learning.postman.com/docs/sending-requests/troubleshooting-api-requests/), or dynamically read or update the values of [variables](https://learning.postman.com/docs/sending-requests/variables/).
+* **Other tabs** - The GraphQL interface also includes the following tabs:
+    * **Authorization** - You can enter authorization credentials here. You can choose from a list of auth types including API Key, Basic auth, and Bearer token. Learn more about [authorizing requests](/docs/sending-requests/authorization/authorization).
+    * **Headers** - The **Headers** tab enables you to pass additional headers with the request in the form of key-value pairs. The client uses these headers to provide more information about the call to the server.
+    * **Schema** - The **Schema** tab lets you configure a GraphQL schema to make the client aware of the data fields available from the server. You can select an API from a Postman workspace, import a schema from your computer, or use GraphQL introspection.
+    * **Scripts** - The **Scripts** tab accesses Postman's powerful scripting environment that enables you to add JavaScript code (scripts) to your GraphQL requests. You can use scripts to write API tests, debug your requests by logging them to the [Postman Console](https://learning.postman.com/docs/sending-requests/troubleshooting-api-requests/), or dynamically read or update the values of [variables](https://learning.postman.com/docs/sending-requests/variables/).
 
 ## Understanding the response
 

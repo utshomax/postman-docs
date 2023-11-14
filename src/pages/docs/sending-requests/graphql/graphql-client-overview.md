@@ -41,11 +41,11 @@ GraphQL is schema-driven, which means more transparency in terms of API function
 
 Postman has a GraphQL client interface to debug and document your API using GraphQL requests. If you haven't already, [download and install the Postman desktop app](/docs/getting-started/installation/installation-and-updates/) to get started.
 
-Requests in Postman enable you to make API calls and view the responses from the server. Using a GraphQL request, you can load a GraphQL schema to browse the documentation of what’s available from the server, create your queries, execute them, and view the responses from the server. Additionally, the request interface has a visual query builder to help you create the queries faster. Once the schema is loaded, you can select the fields you want to query, and Postman builds your query automatically based on your selection. You can save your GraphQL requests into a collection to reuse later, document them and share them with your teammates, or publish them to the community on [Postman's public API network](/docs/getting-started/first-steps/exploring-public-api-network/).
+Requests in Postman enable you to make API calls and view the responses from the server. Using a GraphQL request, you can load a GraphQL schema to browse the documentation of what’s available from the server, create your queries, execute them, and view the responses from the server. The request interface has a visual query builder to help you create the queries faster. Once the schema is loaded, you can select the fields you want to query, and Postman builds your query automatically based on your selection. You can save your GraphQL requests into a collection to reuse later, document them and share them with your teammates, or publish them to the community on [Postman's public API network](/docs/getting-started/first-steps/exploring-public-api-network/).
 
 ## Next steps
 
 To learn more about using the GraphQL client, see the following topics:
 
-* [Using the GraphQL Request interface](/docs/sending-requests/graphql/graphql-client-interface/)
-* [Making your first GraphQL query](/docs/sending-requests/graphql/graphql-client-first-request/)
+* [Manage GraphQL queries using the Postman HTTP request interface](/docs/sending-requests/graphql/graphql-client-interface/)
+* [Send GraphQL queries using the Postman GraphQL client](/docs/sending-requests/graphql/graphql-client-first-request/)
