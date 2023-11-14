@@ -124,7 +124,7 @@ Using the `pm.expect` syntax gives your test result messages a different format.
 
 > Use the __Run in Postman__ button in the [Intro to writing tests collection](https://documenter.postman.com/view/1559645/RzZFCGFR?version=latest) to import templates containing some example test scripts into Postman and experiment with the code.
 
-Your code can test the request [environment](/docs/sending-requests/managing-environments/), as in the following example:
+Your code can test the request [environment](/docs/sending-requests/environments/managing-environments/), as in the following example:
 
 ```js
 pm.test("environment to be production", function () {
