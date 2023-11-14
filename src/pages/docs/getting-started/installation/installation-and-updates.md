@@ -163,7 +163,7 @@ Postman's infrastructure runs on Amazon's AWS platform. If you're operating behi
 * `*.getpostman.com`
 * `*.postman.co`
 * `*.pstmn.io`
-* `*postman.com`
+* `*.postman.com`
 
 By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443). For Postman v10, allow the following domains:
 
