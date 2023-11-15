@@ -104,13 +104,35 @@ To add a custom rule and test whether your API definition violates the custom ru
 
 ## Turning configured rules on and off
 
-You can turn individual governance rules on or off for various workspaces to meet your team's development needs. To do so, select the **Workspace Groups** tab. You can create a new group of workspaces to apply individual governance rules to by selecting **Create Group**, or you can select an existing group to update its governance configuration. To apply individual governance rules to all workspaces, select the default **All workspaces** group.
+You can turn individual governance rules on or off for various workspaces to meet your team's development needs. You can add governance rules to the default **All workspaces** group, applying governance rules to all workspaces in your team. You can also create a workspace group, and apply governance rules to specific workspaces.
+
+To add governance rules to all workspaces in your team, do the following:
+
+1. Select the **Workspace Groups** tab.
+1. Open the default **All workspaces** workspace group, then select **Edit**.
+1. Select the checkbox next to the governance rules to add them to the workspace group. You can search for governance rules by rule name, and filter them by severity and source.
+1. Select **Review Changes**.
+1. Review your changes, then select **Apply Changes** to confirm.
+
+To create a workspace group and add governance rules to it, do the following:
+
+1. Select the **Workspace Groups** tab, then select **Create Group**.
+1. Enter a name for the workspace group.
+1. Select **Add Workspaces** to add workspaces to the workspace group.
+
+    To search for workspaces by name, select **Search workspaces**, then enter your search terms. To filter workspaces by [workspace tags](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#tagging-a-workspace), select the **Filter by tags:** dropdown, then select the checkbox next to each tag you'd like to filter by. If you select more than one tag, the results show workspaces with at least one of the selected tags.
+
+1. Select **Add Rules** to add governance rules to the workspace group.
+1. Select the checkbox next to the governance rules to add them to the workspace group. You can search for governance rules by rule name, and filter them by severity and source.
+
+    <img alt="Turn individual rules on and off" src="https://assets.postman.com/postman-docs/api-governance-turn-rules-on-off-10.12.0.jpg"/>
+
+1. Select **Review Changes**.
+1. Review your changes, then select **Apply Changes** to confirm.
 
 To turn a governance rule on or off for a workspace group, select an existing group, and then select **Edit**. To turn a governance rule on, select the checkbox next to the rule name. To turn a governance rule off, clear the checkbox next to the rule name.
 
-<img alt="Turn individual rules on and off" src="https://assets.postman.com/postman-docs/api-governance-turn-rules-on-off-10.12.0.jpg"/>
-
-Once you've made the desired changes, select **Review Changes**, then **Apply Changes** to save them. Your team will only see violations in your API's definition for the governance rules that have been explicitly applied to the workspace it resides in.
+Your team will only see violations in your API's definition for the governance rules that have been explicitly applied to the workspace it resides in.
 
 ## Editing rules from your API Governance configuration
 
