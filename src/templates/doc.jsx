@@ -340,7 +340,7 @@ const DocPage = ({ data }) => {
                 }
                 {post.frontmatter.plan === 'beta' ? 
                   <div className="alphaPlan">
-                    <p style={{'color': 'red'}}>Beta plan</p>
+                    <p style={{'color': 'red'}}>This is a beta feature</p>
                   </div> :
                   null
                 }

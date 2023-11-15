@@ -99,7 +99,7 @@ The Postman sidebar provides access to the fundamental elements of Postman:
 
 * [Collections](/docs/getting-started/first-steps/creating-the-first-collection/)
 * [APIs](/docs/designing-and-developing-your-api/creating-an-api/)
-* [Environments](/docs/sending-requests/managing-environments/#creating-environments)
+* [Environments](/docs/sending-requests/environments/managing-environments/)
 * [Mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
 * [Monitors](/docs/monitoring-your-api/intro-monitors/)
 * [Flows](/docs/postman-flows/gs/flows-overview/)
@@ -251,7 +251,7 @@ Tool | Available for | Description
 
 ### Environment selector and environment quick look
 
-The environment selector enables you to choose which [environment](/docs/sending-requests/managing-environments/) to use in your work. Select an environment from the menu to set it as the active environment, which gives you access to the variables in that environment.
+The environment selector enables you to choose which [environment](/docs/sending-requests/environments/managing-environments/) to use in your work. Select an environment from the menu to set it as the active environment, which gives you access to the variables in that environment.
 
 <img src="https://assets.postman.com/postman-docs/v10/environment-selector-v10.jpg" alt="Environment selector" width="200px">
 
