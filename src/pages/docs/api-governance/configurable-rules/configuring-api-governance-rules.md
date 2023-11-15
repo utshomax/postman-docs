@@ -65,12 +65,17 @@ The rule library has Postman's API governance guidelines, Zalando's RESTful API 
 
 ### Adding custom rules
 
-You can create new custom governance rules for Postman to evaluate your API's definition. Postman provides you with a boilerplate rule to help you start writing your custom governance rules. You can also use snippets of commonly-used property-value pairs to help you write your custom governance rules.
+You can create new custom governance rules for Postman to evaluate your API's definition. Postman provides you with a boilerplate rule to help you start writing your custom governance rules. You can use snippets of commonly-used property-value pairs to help you write your custom governance rules.
 
-To add a custom rule, do the following:
+Once you've written a custom governance rule, you can also add an API definition in OpenAPI format to the editor. This enables you to test whether the API definition violates your custom governance rule.
+
+To add a custom rule and test whether your API definition violates the custom rule, do the following:
 
 1. Select the **Rule Library** tab, and then select the **Rules** tab.
-1. Select **Create Rule**.
+1. Select **Create Rule** dropdown menu. You can select **Create New** to create a new rule from scratch. You can also select **Upload rule file(s)** to upload one or more rule files in valid YAML or JSON format.
+
+    > If you upload two or more rule files using the **Upload rule file(s)** option, the rules will be combined into a single custom governance rule.
+
 1. Define the rule in the editor. It must adhere to [custom rule guidelines](/docs/api-governance/configurable-rules/spectral/).
 
     You can use a curated list of commonly-used property-value pair snippets to write your rules. Snippets are available in the right pane of the editor. Selecting a snippet adds the property-value pair automatically to your rule, helping you get started quickly with writing rules. Once added to your rule, you can edit the snippets to meet your specific requirements.
@@ -81,14 +86,19 @@ To add a custom rule, do the following:
 
     > You can write and add custom functions to your custom governance rules. For more information, see [Adding custom governance functions](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/).
 
-1. The rule must be valid YAML or JSON. Use the dropdown list to choose the correct syntax.
-1. Select **Create**. You can find your new rule under **Created by your team**.
+1. Optionally, you can test whether an API definition violates your custom rule. Select the test rule icon <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> in the right sidebar, then add an API definition in OpenAPI format. Syntax errors and rule violations will display at the bottom of the editor if they're present in the API definition. You can add an API definition as follows:
+
+    * Select **Choose API from workspace** to open an API definition from a workspace in your team. Choose an API, then select **Evaluate API**. Any changes to the API definition in the editor won't affect your original API definition.
+    * Paste raw text or a URL to the API definition file in YAML or JSON format.
+    * Drag and drop an API definition file, or upload a file in YAML or JSON format.
+
+    To change the API definition, select **Use another API** in the top right of the editor.
+
+1. Select **Create Rule**. You can find your new rule under **Created by your team**.
 
     <img alt="Create a custom API Governance rule" src="https://assets.postman.com/postman-docs/v10/api-governance-create-custom-rule-v10-2.jpg"/>
 
 1. Once you add a custom rule, add the rule to a workspace group to [turn it on](#turning-configured-rules-on-and-off) for the workspaces in the group.
-
-You can also select **Upload file(s)** to upload a new rule in valid YAML or JSON format.
 
 > You can't create a custom rule that duplicates an existing rule.
 
