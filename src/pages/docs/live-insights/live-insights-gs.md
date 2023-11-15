@@ -78,7 +78,7 @@ Set up the LCA in your Kubernetes environment using `kube inject`, and edit the 
 
     ![Get the collection ID](https://assets.postman.com/postman-docs/v10/live-insights-collectionID-v10-19.jpg)
 
-    You can find the Postman API key in your [API keys](https://postman.postman.co/settings/me/api-keys) page.
+    You can find the Postman API key in your [API keys](https://go.postman.co/settings/me/api-keys) page.
 
     The script consists of your Postman API key, the `postman-lc-agent kube inject` command, and the collection ID.
 
@@ -184,7 +184,7 @@ Configuring ECS requires:
 
     ![Get the collection ID](https://assets.postman.com/postman-docs/v10/live-insights-collectionID-v10-19.jpg)
 
-* Postman API key. You can copy it from your [API keys](https://postman.postman.co/settings/me/api-keys) page.
+* Postman API key. You can copy it from your [API keys](https://go.postman.co/settings/me/api-keys) page.
 
 #### Install LCA as a sidecar
 
@@ -348,7 +348,7 @@ Configuring EC2/Linux Server requires:
 
     ![Get the collection ID](https://assets.postman.com/postman-docs/v10/live-insights-collectionID-v10-19.jpg)
 
-* Postman API key. You can copy it from your [API keys](https://postman.postman.co/settings/me/api-keys) page.
+* Postman API key. You can copy it from your [API keys](https://go.postman.co/settings/me/api-keys) page.
 
 #### Limitations
 
