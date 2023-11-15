@@ -270,6 +270,10 @@ export const leftNavItems = [
             name: 'Akamai Edgegrid',
             url: '/docs/sending-requests/authorization/akamai-edgegrid/',
           },
+          {
+            name: 'ASAP (Atlassian)',
+            url: '/docs/sending-requests/authorization/atlassian/',
+          },
         ],
       },
       {
