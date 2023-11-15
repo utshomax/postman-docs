@@ -16,9 +16,9 @@ contextual_links:
     url: "https://www.postman.com/product/live-insights/"
 ---
 
-To get started using Live Insights, ensure you have a team set up in Postman. If you don’t already have a team in Postman, see [Collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team) for instructions on how to set it up. Postman Free provides team setup with up to three users. Once your team is set up, contact [Live Insights Alpha team](live.insights.alpha@postman.com) to get access to the Live Insights alpha in Postman.
+To get started using Live Insights, ensure you have a team workspace set up in Postman. If you don’t already have a team in Postman, see [Collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team) for instructions on how to set it up. The Postman Free plan provides team setup with up to three users. Once your team workspace is set up, contact [Live Insights Alpha team](mailto:live.insights.alpha@postman.com) to get access to the Live Insights alpha in Postman.
 
-Next, create a collection and install the LCA locally. Then, configure LCA for your deployment. Finally, return to Postman to [check your LCA connection](#check-your-lca-connection), [navigate your collection](#navigate-live-collections), and [observe live insights](#observe-live-insights) about your endpoints. You can also [review any traffic errors](/docs/live-insights/live-insights-troubleshoot/).
+Next, create a collection and install the LCA locally. Then, configure the LCA for your deployment. Finally, return to Postman to [check your LCA connection](#check-your-lca-connection), [navigate your collection](#navigate-live-collections), and [observe live insights](#observe-live-insights) about your endpoints. You can also [review any traffic errors](/docs/live-insights/live-insights-troubleshoot/).
 
 ## Contents
 
@@ -56,7 +56,7 @@ Currently, you can install and run the Live Collections Agent (LCA) on [Kubernet
 
 ### Kubernetes deployment
 
-To get started using Live Insights, ensure you have a team set up in Postman. If you don’t already have a team in Postman, see [Collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team) for instructions on how to set it up. Postman Free provides team setup with up to three users. Once your team is set up, contact [Live Insights Alpha team](live.insights.alpha@postman.com) to get access to the Live Insights alpha in Postman.
+To get started using Live Insights, ensure you have a team workspace set up in Postman. If you don’t already have a team in Postman, see [Collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team) for instructions on how to set it up. Postman Free provides team setup with up to three users. Once your team workspace is set up, contact [Live Insights Alpha team](mailto:live.insights.alpha@postman.com) to get access to the Live Insights alpha in Postman.
 
 Next, [create a collection](#create-a-collection) and [install the LCA locally](#install-the-live-collections-agent-locally). Then, configure the LCA using the Kubernetes injector (`kube inject`).
 
@@ -78,7 +78,7 @@ Set up the LCA in your Kubernetes environment using `kube inject`, and edit the 
 
     ![Get the collection ID](https://assets.postman.com/postman-docs/v10/live-insights-collectionID-v10-19.jpg)
 
-    You can find the Postman API key in your [API keys](https://postman.postman.co/settings/me/api-keys) page.
+    You can find the Postman API key in your [API keys](https://go.postman.co/settings/me/api-keys) page.
 
     The script consists of your Postman API key, the `postman-lc-agent kube inject` command, and the collection ID.
 
@@ -162,7 +162,7 @@ The Live Collections Agent (LCA) supports Amazon Elastic Container Service (ECS)
 
 The LCA listens to the traffic arriving at the cluster service you want to monitor and creates a Postman Collection for it.
 
-To get started using Live Insights, ensure you have a team set up in Postman. If you don’t already have a team in Postman, see [Collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team) for instructions on how to set it up. Postman Free provides team setup with up to three users. Once your team is set up, contact [Live Insights Alpha team](live.insights.alpha@postman.com) to get access to the Live Insights alpha in Postman.
+To get started using Live Insights, ensure you have a team worskpace set up in Postman. If you don’t already have a team in Postman, see [Collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team) for instructions on how to set it up. Postman Free provides team setup with up to three users. Once your team workspace is set up, contact [Live Insights Alpha team](mailto:live.insights.alpha@postman.com) to get access to the Live Insights alpha in Postman.
 
 Next, [create a collection](#create-a-collection) and [install the LCA locally](#install-the-live-collections-agent-locally). Then, follow the instructions for your deployment below.
 
@@ -184,7 +184,7 @@ Configuring ECS requires:
 
     ![Get the collection ID](https://assets.postman.com/postman-docs/v10/live-insights-collectionID-v10-19.jpg)
 
-* Postman API key. You can copy it from your [API keys](https://postman.postman.co/settings/me/api-keys) page.
+* Postman API key. You can copy it from your [API keys](https://go.postman.co/settings/me/api-keys) page.
 
 #### Install LCA as a sidecar
 
@@ -334,7 +334,7 @@ If you’re running a Linux instance on EC2, the Postman Live Collection Agent (
 
 The Postman Collection is populated with endpoints observed from the traffic arriving at your service.
 
-To get started using Live Insights, ensure you have a team set up in Postman. If you don’t already have a team in Postman, see [Collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team) for instructions on how to set it up. Postman Free provides team setup with up to three users. Once your team is set up, contact [Live Insights Alpha team](live.insights.alpha@postman.com) to get access to the Live Insights alpha in Postman.
+To get started using Live Insights, ensure you have a team workspace set up in Postman. If you don’t already have a team in Postman, see [Collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team) for instructions on how to set it up. Postman Free provides team setup with up to three users. Once your team workspace is set up, contact [Live Insights Alpha team](mailto:live.insights.alpha@postman.com) to get access to the Live Insights alpha in Postman.
 
 Next, [create a collection](#create-a-collection) and [install the LCA locally](#install-the-live-collections-agent-locally). Then, follow the instructions below.
 
@@ -348,11 +348,11 @@ Configuring EC2/Linux Server requires:
 
     ![Get the collection ID](https://assets.postman.com/postman-docs/v10/live-insights-collectionID-v10-19.jpg)
 
-* Postman API key. You can copy it from your [API keys](https://postman.postman.co/settings/me/api-keys) page.
+* Postman API key. You can copy it from your [API keys](https://go.postman.co/settings/me/api-keys) page.
 
 #### Limitations
 
-You can install LCA one EC2 instance at a time. If you want to install on more than one machine, please contact observability-support@postman.com.
+You can install LCA one EC2 instance at a time. If you want to install on more than one machine, please contact [Support](mailto:observability-support@postman.com).
 
 #### Set up LCA on EC2
 
@@ -438,11 +438,11 @@ For more information, see [Building requests](/docs/sending-requests/requests/) 
 
 Creating a live collection activates an **Insights** tab where you can observe endpoint error trends, enabling you to catch errors before your users do.
 
-> This feature is experimental and will continue to evolve. Send your feedback and ideas about the types of metrics you would like to see to [Live Insights Alpha team](live.insights.alpha@postman.com).
+> This feature is experimental and will continue to evolve. Send your feedback and ideas about the types of metrics you would like to see to [Live Insights Alpha team](mailto:live.insights.alpha@postman.com).
 
-![Insights tab](https://assets.postman.com/postman-docs/v10/live-insights-insights-tab-v10-19.jpg)
+![Insights tab](https://assets.postman.com/postman-docs/v10/live-insights-insights-tab-v10-19-2.jpg)
 
-Live Insights returns a list of categories for endpoints with most errors, endpoints with the highest error rate, and endpoints with new errors over the last 7 days:
+Live Insights returns a list of categories for endpoints with most errors, endpoints with the highest error rate, and endpoints with new errors over the last 7 days, selectable from a dropdown list:
 
 * Endpoints with most errors in the past week, based on the HTTP status code of the response.
 * Endpoints with the highest proportion of requests that resulted in an error in the past week, based on the HTTP status code of the response.
@@ -450,7 +450,7 @@ Live Insights returns a list of categories for endpoints with most errors, endpo
 
 The **Errors** tab displays per-endpoint error states in a chronological order as well as a graphical representation of the seven-day trend.
 
-> This feature is experimental and will continue to evolve. Send your feedback and ideas about the types of metrics you would like to see to [Live Insights Alpha team](live.insights.alpha@postman.com).
+> This feature is experimental and will continue to evolve. Send your feedback and ideas about the types of metrics you would like to see to [Live Insights Alpha team](mailto:live.insights.alpha@postman.com).
 
 ![Errors tab](https://assets.postman.com/postman-docs/v10/live-insights-errors-tab-v10-19.jpg)
 

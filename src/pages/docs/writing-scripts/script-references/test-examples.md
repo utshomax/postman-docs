@@ -402,7 +402,7 @@ Using `.deep` causes all `.equal`, `.include`, `.members`, `.keys`, and `.proper
 
 ### Assert the current environment
 
-Check the [active environment](/docs/sending-requests/managing-environments/#selecting-an-active-environment) in Postman:
+Check the [active environment](/docs/sending-requests/environments/managing-environments/#switch-between-environments) in Postman:
 
 ```js
 pm.test("Check the active environment", () => {
