@@ -1,7 +1,7 @@
 ---
-title: "Send GraphQL queries using the HTTP request interface"
+title: "Other GraphQL requests"
 page_id: "graphql-http"
-updated: 2023-05-15
+updated: 2023-11-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -36,11 +36,11 @@ warning: false
 
 ---
 
-Postman can make HTTP calls using GraphQL, an open-source data query and manipulation language for APIs, in addition to REST.
+You can make [GraphQL](graphql.org) requests with the same interface you use to create HTTP requests in Postman.
 
-> You can also use GraphQL with [the GraphQL client](/docs/sending-requests/graphql/graphql-client-overview/).
+> You can also create GraphQL requests with [the GraphQL client](/docs/sending-requests/graphql/graphql-client-overview/). The GraphQL client is designed specifically for creating GraphQL requests and has additional features to streamline the process.
 
-There are a few ways for you to write and send a GraphQL query using Postman's HTTP request interface:
+You can use Postman's HTTP request interface to create and send GraphQL requests in the following ways:
 
 * [Using Postman's built-in support for GraphQL](#using-postmans-built-in-support-for-graphql)
 * [Using JSON in the request body](#using-json-in-the-request-body)

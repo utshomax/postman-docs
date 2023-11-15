@@ -1,7 +1,7 @@
 ---
-title: "Manage GraphQL APIs using the Postman GraphQL client"
+title: "GraphQL in Postman"
 page_id: "about-the-graphql-client"
-updated: 2023-05-15
+updated: 2023-11-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -33,13 +33,17 @@ warning: false
 
 ---
 
-APIs made with GraphQL enable clients to ask the server for exactly the data they need. This is enabled by a powerful query interface and a runtime to execute those queries making it easier for developers to quickly explore and experiment with the client’s functionalities. Contrary to REST, which makes your chunks of data available on multiple endpoints, GraphQL makes working with data simpler and faster with a single endpoint.
+Postman can make requests using [GraphQL](https://www.graphql.org), an open-source runtime and data query and manipulation language for APIs.
 
-GraphQL is schema-driven, which means more transparency in terms of API functionality and lower dependency between teams building the client and the server. A client can introspect the schema from the server to get an idea about the available data fields, and then send queries specifying fields to retrieve or manipulate the stored data. The server does exactly what was asked from it and returns only the data requested in the query. Combining these features, GraphQL provides users with a flexible, fast, and predictable API experience, making it one of the most popular API technologies.
+APIs that support GraphQL enable clients to ask the server for exactly the data they need. This is enabled by a powerful query interface and a runtime to execute those queries making it easier for developers to quickly explore and experiment with the client’s functionalities. Contrary to REST, which makes your chunks of data available on multiple endpoints, GraphQL makes working with data simpler and faster with a single endpoint.
+
+GraphQL is schema-driven, which provides insight into an API's functionality and lowers dependency between teams building the client and the server. A client can introspect the schema from the server to see the available data fields, and then send queries specifying fields to retrieve or manipulate. The server returns only the data requested in the query. GraphQL provides users with a flexible, fast, and predictable API experience, making it one of the most popular API technologies.
 
 ## Working with GraphQL APIs using the Postman GraphQL client
 
-Postman has a GraphQL client interface to debug and document your API using GraphQL requests. If you haven't already, [download and install the Postman desktop app](/docs/getting-started/installation/installation-and-updates/) to get started.
+Postman has a [GraphQL client interface](/docs/sending-requests/graphql/graphql-client-interface/) where you can debug and document your API with GraphQL requests. If you haven't already, [download and install the Postman desktop app](/docs/getting-started/installation/installation-and-updates/) to get started.
+
+> You can also make GraphQL requests using Postman's standard HTTP interface. To learn more, see [Other GraphQL requests](/docs/sending-requests/graphql/graphql-http/).
 
 Requests in Postman enable you to make API calls and view the responses from the server. Using a GraphQL request, you can load a GraphQL schema to browse the documentation of what’s available from the server, create your queries, execute them, and view the responses from the server. The request interface has a visual query builder to help you create the queries faster. Once the schema is loaded, you can select the fields you want to query, and Postman builds your query automatically based on your selection. You can save your GraphQL requests into a collection to reuse later, document them and share them with your teammates, or publish them to the community on [Postman's public API network](/docs/getting-started/first-steps/exploring-public-api-network/).
 

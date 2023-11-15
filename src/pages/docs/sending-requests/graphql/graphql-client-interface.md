@@ -1,7 +1,7 @@
 ---
 title: "Manage GraphQL queries using the Postman HTTP request interface"
 page_id: "graphql-client-interface"
-updated: 2023-05-15
+updated: 2023-11-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -33,7 +33,7 @@ warning: false
 
 ---
 
-GraphQL requests in Postman include a variety of tools, views, and controls to help you debug and document your GraphQL API effectively and efficiently. This document highlights the parts of the request interface and the response and explains how to use them.
+GraphQL requests in Postman include a variety of tools, views, and controls to help you debug and document your GraphQL API effectively and efficiently. This topic highlights the parts of the request interface and the response and explains how to use them.
 
 <img src="https://assets.postman.com/postman-docs/v10/graphql-request-full-view-v10-2.jpg" alt="Different sections of a GraphQL request">
 

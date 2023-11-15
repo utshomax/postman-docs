@@ -1,7 +1,7 @@
 ---
-title: "Send GraphQL queries using the Postman GraphQL client"
+title: "Create a GraphQL request in Postman"
 page_id: "graphql-client-first-request"
-updated: 2023-05-15
+updated: 2023-11-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -32,14 +32,16 @@ contextual_links:
 warning: false
 ---
 
-Get started with GraphQL by creating a query and executing it using Postman’s echo endpoint.
+Create a GraphQL request and execute it using the Postman Echo service. This topic describes how to create a GraphQL request with Postman's GraphQL client. You can also create GraphQL requests [with Postman's HTTP interface](/docs/sending-requests/graphql/graphql-http/).
+
+The GraphQL client is designed specifically for creating GraphQL requests and has extra features to streamline the process. The HTTP interface supports GraphQL but may require extra steps.
 
 ## Contents
 
 * [About GraphQL requests](#about-graphql-requests)
-* [Making a GraphQL query with Postman](#making-a-graphql-query-with-postman)
+* [Create a GraphQL query with Postman](#create-a-graphql-query-with-postman)
 
-## About GraphQL Requests
+## About GraphQL requests
 
 Every GraphQL request requires a URL and a query. The URL is the endpoint where the data is hosted, and the query defines what exactly needs to be retrieved from this data source. A GraphQL request can also have a schema configured to inform you of the data fields available from the server that can be included in the query. The request can also contain additional information such as authentication, headers, and settings based on the requirements specified by the API.
 
@@ -51,7 +53,7 @@ Using a GraphQL request, you can execute three different types of Queries:
 
 * **Subscription** - For a live data source with frequently-changing data, you can subscribe to the data available on different fields. This enables the server to send the data requested over a persistent connection.
 
-## Making a GraphQL query with Postman
+## Create a GraphQL query with Postman
 
 This example creates and executes a GraphQL query using the interactive query builder.
 
@@ -63,4 +65,4 @@ This example creates and executes a GraphQL query using the interactive query bu
 1. Enter your age and name in the input boxes next to `age` and `name`. You should also see a fully-formed query based on your selections on the right.
 1. Select **Query**.
 
-![First GraphQL Query](https://assets.postman.com/postman-docs/v10/graphql-schema-explorer-v10-2.gif)
+![GraphQL Request](https://assets.postman.com/postman-docs/v10/graphql-schema-explorer-v10-2.gif)
