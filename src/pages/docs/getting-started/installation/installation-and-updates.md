@@ -1,6 +1,6 @@
 ---
 title: "Install and update Postman"
-updated: 2023-07-15
+updated: 2023-10-27
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -22,37 +22,37 @@ contextual_links:
     url: "https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/"
 ---
 
-Postman is available on the web at **[go.postman.co/home](https://go.postman.co/home)** and as a native desktop app for Mac (Intel or Apple silicon), Windows (Intel 32-bit or 64-bit), and Linux (64-bit) operating systems.
+To get the latest version of the Postman desktop app, visit the [Download Postman page](https://www.postman.com/downloads/) and select the option for your operating system. Postman is available as a native desktop app for macOS (Intel or Apple silicon), Windows (Intel 32-bit or 64-bit), and Linux (64-bit).
 
-To get the latest version of the Postman desktop app, visit the [download page](https://www.postman.com/downloads/) and select **Download** for your platform.
+Postman is also available as a web app at [go.postman.co/home](https://go.postman.co/home). You can use the Postman web app to carry out many of your API development and testing tasks in your web browser. Keep in mind that some features aren't supported when using the [Postman web app](/docs/getting-started/installation/installation-and-updates/#web-limitations), so use the Postman desktop app for the full Postman experience.
 
 ## Contents
 
-* Installing Postman on the desktop
-    * [Windows](#installing-postman-on-windows)
-    * [Mac](#installing-postman-on-mac)
-    * [Linux](#installing-postman-on-linux)
-* [Using the Postman web app](#using-the-postman-web-app)
+* Install Postman on the desktop
+    * [Windows](#install-postman-on-windows)
+    * [Mac](#install-postman-on-mac)
+    * [Linux](#install-postman-on-linux)
+* [Use the Postman web app](#use-the-postman-web-app)
     * [Browser requirements](#browser-requirements)
-    * [Installing the Postman Desktop Agent](#installing-the-postman-desktop-agent)
+    * [Install the Postman Desktop Agent](#install-the-postman-desktop-agent)
     * [Web limitations](#web-limitations)
-* [Using the Postman VS Code extension](#using-the-postman-vs-code-extension)
-* [Updating Postman](#updating-postman)
-* [Chrome app (deprecated)](#postman-chrome-app-deprecated)
-    * [Migrating to the native app](#migrating-to-the-native-app)
-* [Using Postman behind a firewall](#using-postman-behind-a-firewall)
-* [Troubleshooting your Postman installation](#troubleshooting-your-postman-installation)
+* [Use the Postman VS Code extension](#use-the-postman-vs-code-extension)
+* [Update Postman](#update-postman)
+* [Use Postman behind a firewall](#use-postman-behind-a-firewall)
+* [Troubleshoot your Postman installation](#troubleshoot-your-postman-installation)
+    * [Update failed error](#update-failed-error)
+    * [Update not available](#update-not-available)
 
-## Installing Postman on Windows
+## Install Postman on Windows
 
 Postman is available for Windows 7 and later.
 
 1. [Download](https://www.postman.com/downloads/) the latest Postman version.
 1. Select and run the `.exe` file to install Postman.
 
-> Postman v9.4 is the last version of Postman that supports both 32-bit and 64-bit Windows. All versions of Postman following v9.4 will only work on 64-bit x86 Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
+> Postman v9.4 is the last version of Postman that supports both 32-bit and 64-bit Windows. All versions of Postman following v9.4 require 64-bit x86 Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
 
-## Installing Postman on Mac
+## Install Postman on Mac
 
 Postman is available for macOS 10.11 (El Capitan) and later.
 
@@ -60,9 +60,9 @@ Postman is available for macOS 10.11 (El Capitan) and later.
 
     > Make sure to download the **Mac Apple Chip** version if you have a Mac with an Apple silicon processor.
 
-1. If your browser downloads the file as a zip file, find the file in the **Downloads** folder and unzip it.
+1. If your browser downloads the file as a ZIP file, find the file in the **Downloads** folder and unzip it.
 1. In the **Downloads** folder, double-click the `Postman` file to install it.
-1. When prompted, move the file to your __Applications__ folder. This will ensure that future updates can be installed correctly.
+1. When prompted, move the file to your __Applications__ folder. This will ensure that future updates can be installed.
 
 > You may encounter a "Library not loaded" error if you unzip and install Postman using a third-party archiving app. Use the default Archive Utility for Mac to unzip the file.
 
@@ -72,11 +72,15 @@ You can also install Postman using the [Homebrew](https://brew.sh/) package mana
 brew install --cask postman
 ```
 
-## Installing Postman on Linux
+## Install Postman on Linux
 
-You can install Postman on Linux by manually downloading it, using the [Snap](https://snapcraft.io/postman) store link, or with the command `snap install postman`.
+Postman supports the following Linux distributions: Ubuntu 14.04 and later, Fedora 24, and Debian 8 and later.
 
-To install manually, [download](https://www.postman.com/downloads/) and unzip the app, for example into the `Downloads` directory.
+> The support of certain Linux distributions depends on if they're supported by Electron. Refer to [Electron's documentation](https://www.electronjs.org/docs/latest/development/build-instructions-linux).
+
+You can install Postman on Linux by manually downloading it, using the [Snap](https://snapcraft.io/postman) store link, or with the command `snap install postman`. You can also [download](https://www.postman.com/downloads/) the latest version of Postman and unzip the file.
+
+> Postman recommends installing using [Snap](https://snapcraft.io/postman) because it includes all the libraries the app needs and they're bundled with the app itself.
 
 To start the app from a launcher icon, create a desktop file. Name the file `Postman.desktop` and save it in the following location:
 
@@ -97,108 +101,79 @@ Type=Application
 Categories=Development;
 ```
 
-> Postman supports the following Linux distributions:
->
-> * Ubuntu 14.04 and newer
-> * Fedora 24
-> * Debian 8 and newer
->
-> The support of certain Linux distributions depends on if they're supported by Electron. Refer to [Electron's documentation](https://www.electronjs.org/docs/latest/development/build-instructions-linux).
->
-> It's recommended you install [Snap](https://snapcraft.io/postman) as it includes all the libraries that the app needs and they're bundled with the app itself.
->
-> Avoid starting Postman using the `sudo` command, as it will create permission issues on the files created by Postman.
->
-> Make sure you have read/write permission for the `~/.config` folder where Postman stores information.
->
-> If you are an Ubuntu 18 user, you will also need to install the `libgconf-2-4` package with the command `apt-get install libgconf-2-4`
+When installing Postman on Linux, also be aware of the following:
 
-## Using the Postman web app
+* Avoid starting Postman using the `sudo` command, as it will create permission issues on the files created by Postman.
+* Make sure you have read/write permission for the `~/.config` folder where Postman stores information.
+* If you're an Ubuntu 18 user, you will also need to install the `libgconf-2-4` package with the command `apt-get install libgconf-2-4`.
 
-You can use Postman in your web browser to carry out your API development and testing tasks in conjunction with the Postman Agents. To access the Postman web app, visit [go.postman.co/home](https://go.postman.co/home).
+## Use the Postman web app
 
-> If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/basics/about-postman-agent/) for more information.
+You can use Postman in your web browser to execute your API development and testing tasks with the Postman Agents. To access the Postman web app, visit [go.postman.co/home](https://go.postman.co/home).
+
+> If you're using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](/docs/getting-started/basics/about-postman-agent/) for more information.
 
 ### Browser requirements
 
-The Postman web app is optimized for the following browsers:
+The Postman web app supports the following browsers:
 
 * Chrome (78 and higher)
 * Firefox (76 and higher)
 * Edge (79 and higher)
 * Safari (13.1.1 and higher)
 
-### Installing the Postman Desktop Agent
+### Install the Postman Desktop Agent
 
-If you are using the Postman web app, Postman recommends downloading and installing the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent), a micro-application that runs locally on your desktop. The Desktop Agent overcomes the cross-origin resource sharing (CORS) limitations of browsers and acts as your agent for making API requests from the Postman web app.
+If you're using the Postman web app, Postman recommends downloading and installing the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent), a micro-application that runs locally on your desktop. The Desktop Agent overcomes the cross-origin resource sharing (CORS) limitations of browsers and acts as your agent for making API requests from the Postman web app.
 
 ### Web limitations
 
-The Postman web app is under active development. There are features you can only access in the Postman desktop app, not in your browser:
+The following features require the Postman desktop app and aren't available when using the Postman web app:
 
-* **Find and replace** - The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/basics/navigating-postman/#find-and-replace), but this function isn't available on the Postman web app yet.
-* **Certificates and proxy** - The Postman desktop app enables you to customize [certificates](/docs/sending-requests/certificates/) and [proxy configurations](/docs/getting-started/installation/proxy/#configuring-proxy-settings). On the Postman web app, these take the browser defined value and can't be overridden by Postman.
-* **Postman Interceptor** - [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) syncs cookies from your browser to the Postman desktop app and captures network requests directly from the browser. It's not possible to use Interceptor with the Postman web app.
+* **Find and replace** - The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/basics/navigating-postman/#footer), but this feature isn't available in the Postman web app.
+* **Proxy configuration** - The Postman desktop app enables you to [use your system's configured proxy](/docs/getting-started/installation/proxy/#configuring-proxy-settings) to send API requests or access the internet. In the Postman web app, you can configure a proxy for sending requests but not for connecting to online services.
+* **Request and cookie capture** - [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) and [the Postman proxy](/docs/sending-requests/capturing-request-data/capture-with-proxy/) enable you to capture traffic and syncs cookies from your browser or client apps to the Postman desktop app. It's not possible to use Interceptor or the Postman proxy with the Postman web app.
+* **Collection run export** - You can [export the results of a collection run](/docs/collections/running-collections/intro-to-collection-runs/#sharing-collection-runs) to a JSON file using the Postman desktop app. This feature isn't available in the Postman web app.
+* **Performance testing** - You can use the Postman desktop app to [simulate user traffic](/docs/collections/performance-testing/testing-api-performance/), so you can observe how your API behaves under load. Performance testing isn't available for the Postman web app.
+* **On-premises Git integration** - You must use the Postman desktop app to [connect your API](/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/) to GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server repositories.
 * **Lightweight Postman API Client** - You can use the [lightweight API Client](/docs/getting-started/basics/using-api-client/) to send requests from the Postman desktop app when you aren't signed in to Postman.
 
-## Using the Postman VS Code extension
+## Use the Postman VS Code extension
 
 You can use the [Postman VS Code extension](/docs/getting-started/basics/about-vs-code-extension/) to test and collaborate on your APIs in the same application you're using to develop. With the VS Code extension, you can send API requests, manage collections and environments, troubleshoot requests, and more directly from VS Code. To install the VS Code extension, visit the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode).
 
-## Updating Postman
+## Update Postman
 
-The Postman desktop app notifies you when a major update is available. For other updates, there is a dot on the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">. If the indicator is red instead of orange, it indicates a failed update.
+Postman automatically downloads updates to the Postman desktop app if you're using Postman v9.13 or later. When the download is complete, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Update downloaded, restart now**. This restarts the desktop app and installs the update.
 
-<img alt="Update Ready" src="https://assets.postman.com/postman-docs/v10/update-ready-v10.jpg" width="300px"/>
+<img alt="Restart and install update from Settings icon" src="https://assets.postman.com/postman-docs/v10/settings-icon-install-update-desktop-v10-19.jpg" width="300px"/>
 
-Select the update option to download or install the latest update. If you are using Postman v9.13 or later, Postman automatically downloads updates. Postman notifies you when the download is complete and prompts you to restart Postman to apply the updates.
+To learn more about the downloaded update before installing it, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header. Select **Settings**, then select the **Update** tab. You can select **Restart to Install Update** to restart the desktop app and install the update.
 
-You can configure your preference for automatically downloading major updates. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**. Select the **App updates** tab, then turn on or turn off **Automatically download major updates**. If automatic downloads are turned off, you can manually check for app updates by selecting **Check for Updates**.
+<img alt="Restart and install update" src="https://assets.postman.com/postman-docs/v10/settings-install-update-desktop-v10-19.jpg"/>
 
-<img alt="Check for updates" src="https://assets.postman.com/postman-docs/v10/settings-update-v10-16b.jpg"/>
+You can check for updates to the desktop app if it isn't available to install. In the **Update** tab, select **Check for Updates**.
 
-## Postman Chrome app (deprecated)
+<img alt="Check for updates" src="https://assets.postman.com/postman-docs/v10/settings-check-for-updates-desktop-v10-18.jpg"/>
 
-The Postman Chrome app is deprecated. If you use the Chrome app, you can keep your data when you [switch to using Postman](#migrating-to-the-native-app) either by syncing with your Postman account or by exporting from Chrome and importing into Postman.
+## Use Postman behind a firewall
 
-The Postman desktop app is built on [Electron](https://www.electronjs.org/), and [overcomes a number of restrictions](https://blog.postman.com/going-native/) of the Chrome platform.
+Postman's infrastructure runs on Amazon's AWS platform. If you're operating behind a network firewall, you'll need to allow the following domains to make WebSocket connections for Postman:
 
-* The native apps let you work with [cookies](/docs/sending-requests/cookies/) directly.
-* Unlike the Chrome app, the [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) doesn't need a separate extension.
-* The native apps come with a built-in proxy that you can use to [capture network traffic](/docs/sending-requests/capturing-request-data/capturing-http-requests/).
-* The native apps aren't restricted by the Chrome standards for the menu bar. You can check for updates, create Postman Windows and tabs, and edit preferences.
-* The native apps let you send headers like `Origin` and `User-Agent`. These are restricted in the Chrome app.
-* The "don't follow redirects" option exists in the native apps to prevent requests that return a 300-series response from being automatically redirected—doing this in the Chrome app requires the Interceptor extension.
-* The native app has a built-in [console](/docs/sending-requests/troubleshooting-api-requests/), which enables you to view the network request details for API calls.
-
-### Migrating to the native app
-
-To switch from the Chrome app to native, [download](https://www.postman.com/downloads/) Postman and [sign in to your account](https://go.postman.co/). Start the native app, and your history and collections will be automatically synced.
-
-Alternatively, if you don't want to sign in to your Postman account, you can bulk export your Postman data from the Chrome app, and then bulk import into the new native app at **Settings > Data**.
-
-![Import Export Data](https://assets.postman.com/postman-docs/v10/export-data-v10-16b.jpg)
-
-> Note that importing will overwrite your existing data. For more on bulk import, see [Importing Postman data](/docs/getting-started/importing-and-exporting/importing-data/).
-
-## Using Postman behind a firewall
-
-Postman's infrastructure runs on Amazon's AWS platform. If you are operating behind a network firewall, you'll need to allow the following domains to make WebSocket connections for Postman:
-
-* `\*.getpostman.com`
-* `\*.postman.co`
-* `\*.pstmn.io`
-* `\*postman.com`
+* `*.getpostman.com`
+* `*.postman.co`
+* `*.pstmn.io`
+* `*.postman.com`
 
 By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443). For Postman v10, allow the following domains:
 
-Postman web app - websocket connections:
+Postman web app - WebSocket connections:
 
 * `https://bifrost-web-v10.gw.postman.com`
 * `https://bifrost-web-public-v10.gw.postman.com`
 * `https://bifrost-web-v10.gw.postman.co`
 
-Postman desktop app - websocket connections:
+Postman desktop app - WebSocket connections:
 
 * `https://bifrost-v10-global.gw.postman.com`
 * `https://bifrost-premium-v10-global.gw.postman.com`
@@ -210,17 +185,15 @@ Postman desktop app - HTTP connections:
 
 Postman doesn't have a fixed IP range that can be provided. If necessary, refer to the [current AWS IP ranges](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html) and allow the broad range provided.
 
-## Troubleshooting your Postman installation
+## Troubleshoot your Postman installation
 
-If you encounter any issues installing and running Postman, check out the following tips. If these don't help, refer to the installation posts on the [community forum](https://community.postman.com/tags/installation) and create a new post if your issue isn't already covered. You can also contact [Postman support](https://www.postman.com/support).
+If you encounter any issues installing and running Postman, see the following tips. If these tips don't help, refer to the installation posts on the [community forum](https://community.postman.com/tags/installation) and create a new post if your issue isn't already covered. You can also contact [Postman support](https://www.postman.com/support) for help.
 
 ### Update failed error
 
-If you get an __Update Failed__ notification in Postman, you can use the DevTools to investigate.
+If you get an __Update Failed__ notification in Postman, you can [use the DevTools console](/docs/introduction/troubleshooting-inapp/#accessing-the-devtools-console) to investigate. To open the DevTools console, select **View > Developer > Show DevTools (Current View)**.
 
-![update-error-dialog](https://assets.postman.com/postman-docs/v10/update-error-dialog.jpg)
-
-Open the DevTools using **View > Developer > Show DevTools (Current View)**.
+![Failed update notification](https://assets.postman.com/postman-docs/v10/update-error-dialog.jpg)
 
 Some known errors are as follows:
 
@@ -235,4 +208,4 @@ Some known errors are as follows:
 
 ### Update not available
 
-If you are using Postman for Linux, and installed the app with the Ubuntu Software Center or Snap Store, you may not have the __Check for updates__ option. This is because the updates are handled by the store, which automatically updates Postman on a regular cadence.
+If you're using Postman for Linux, and installed the app with the Ubuntu Software Center or Snap store, you might not have the __Check for Updates__ option in __Settings > Update__. This is because the updates are handled by the store, which automatically updates Postman on a regular cadence.

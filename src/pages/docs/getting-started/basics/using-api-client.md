@@ -17,9 +17,9 @@ contextual_links:
 ---
 
 
-The _lightweight Postman API Client_ is a space where you can work if you're using the Postman desktop app and not connected to Postman servers. When you aren't signed in to Postman, you can still use the lightweight [API Client](https://www.postman.com/api-platform/api-client/) to build and send requests. You can use the lightweight API Client to send HTTP, WebSocket, gRPC, and GraphQL requests.
+The _lightweight Postman API Client_ is a space where you can work if you're using the Postman desktop app and not connected to Postman servers. When you aren't signed in to Postman, you can still use the lightweight [API Client](https://www.postman.com/api-platform/api-client/) to build and send HTTP, WebSocket, gRPC, and GraphQL requests. To use the lightweight Postman API Client, make sure to [install the Postman desktop app](/docs/getting-started/installation/installation-and-updates/).
 
-All of your work in the lightweight API Client is stored locally and isn't synced online with Postman. After you sign in to Postman, you can move your open requests and request history into a workspace where you can collaborate with others.
+All of your work in the lightweight API Client is stored locally and isn't synced online with Postman. After you [sign in to Postman](/docs/getting-started/installation/postman-account/), you can move your open requests and request history into a workspace where you can collaborate with others.
 
 > **What happened to the Scratch Pad?** New Postman users who download the Postman desktop app use the lightweight Postman API Client when not signed in to Postman. The Scratch Pad is deprecated and no longer supported. Learn more about [using the Scratch Pad](/docs/getting-started/basics/using-scratch-pad/).
 
@@ -53,7 +53,7 @@ While you're in the lightweight API Client, you can create new requests, send re
 
 ## Moving from the lightweight API Client to a workspace
 
-[Workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/) enable you to organize your Postman work and collaborate with teammates. When you're in a workspace, you can save requests to [collections](/docs/collections/using-collections/), use [environments](/docs/sending-requests/managing-environments/) and [variables](/docs/sending-requests/variables/), build [APIs](/docs/designing-and-developing-your-api/the-api-workflow/), and more.
+[Workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/) enable you to organize your Postman work and collaborate with teammates. When you're in a workspace, you can save requests to [collections](/docs/collections/using-collections/), use [environments](/docs/sending-requests/environments/managing-environments/) and [variables](/docs/sending-requests/variables/), build [APIs](/docs/designing-and-developing-your-api/the-api-workflow/), and more.
 
 To switch to a workspace, you need to sign up for a Postman account or sign in to your existing Postman account. You can move all of your open requests and history from the lightweight API Client to your workspace, so you can pick up right where you left off.
 

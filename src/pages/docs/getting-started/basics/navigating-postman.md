@@ -41,6 +41,7 @@ Postman has a variety of tools, views, and controls to help you manage your API 
     * [Tabs](#tabs)
     * [Right sidebar](#right-sidebar)
     * [Environment selector and environment quick look](#environment-selector-and-environment-quick-look)
+    * [Quick Help](#quick-help)
 * [Footer](#footer)
 
 <img alt="Postman app" src="https://assets.postman.com/postman-docs/v10/navigating-postman-v10.jpg"/>
@@ -51,7 +52,7 @@ The header enables you to create workspaces, access reports, explore the public 
 
 <img alt="Postman header left side" src="https://assets.postman.com/postman-docs/postman-desktop-app-header-v10.10.jpg" width="350px"/>
 
-* **&#8592; &#8594;** - Navigate backward and forward through pages you've visited within Postman. _(Postman desktop app only)_
+* **&#8592; &#8594;** - _(Available on the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/))_ Navigate backward and forward through pages you've visited within Postman.
 * **Home** - Go to your personal home page, which includes your recently visited workspaces, and links to resources for [your team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) if applicable.
 * **Workspaces** - Search for workspaces, view your recently visited workspaces, or [create a new workspace](/docs/getting-started/first-steps/creating-your-first-workspace/).
 * **API Network** - Explore the [Public API Network](/docs/getting-started/first-steps/exploring-public-api-network/) and access your team's [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/).
@@ -98,7 +99,7 @@ The Postman sidebar provides access to the fundamental elements of Postman:
 
 * [Collections](/docs/getting-started/first-steps/creating-the-first-collection/)
 * [APIs](/docs/designing-and-developing-your-api/creating-an-api/)
-* [Environments](/docs/sending-requests/managing-environments/#creating-environments)
+* [Environments](/docs/sending-requests/environments/managing-environments/)
 * [Mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
 * [Monitors](/docs/monitoring-your-api/intro-monitors/)
 * [Flows](/docs/postman-flows/gs/flows-overview/)
@@ -197,7 +198,7 @@ You can have many tabs open at the same time. To rearrange your open tabs, selec
 To manage your open tabs or to access recently closed tabs, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> to open a menu with action options:
 
 * **Recently Closed Tabs** - Shows tabs that you closed recently. Select one to reopen it.
-* **Duplicate Selected Tab** - _(Desktop app only)_ Duplicates the current tab. This doesn't create a copy of the request, so when you duplicate a tab any edits you make are reflected in the original request.
+* **Duplicate Selected Tab** - _(Available on the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/))_ Duplicates the current tab. This doesn't create a copy of the request, so when you duplicate a tab any edits you make are reflected in the original request.
 * **Close Selected Tab** - Closes the current tab. If the tab has unsaved changes, Postman asks if you want to save before closing.
 * **Force Close Selected Tab** - Closes the current tab without saving any changes.
 * **Close All but Selected Tab** - Closes all tabs except the one you're working in.
@@ -250,11 +251,17 @@ Tool | Available for | Description
 
 ### Environment selector and environment quick look
 
-The environment selector enables you to choose which [environment](/docs/sending-requests/managing-environments/) to use in your work. Select an environment from the menu to set it as the active environment, which gives you access to the variables in that environment.
+The environment selector enables you to choose which [environment](/docs/sending-requests/environments/managing-environments/) to use in your work. Select an environment from the menu to set it as the active environment, which gives you access to the variables in that environment.
 
 <img src="https://assets.postman.com/postman-docs/v10/environment-selector-v10.jpg" alt="Environment selector" width="200px">
 
 To check a variable value at a glance, use the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px">.
+
+### Quick Help
+
+If you have a quick question about something in the Postman app, look for "learn more" help links or the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the Workbench. These will open context-sensitive help from the Postman Learning Center in a side pane in the Postman app.
+
+You can open the displayed Quick Help in a new web browser window with the open in icon <img alt="Open in icon" src="https://assets.postman.com/postman-docs/icons/icon-open-in.jpg#icon" width="16px">.
 
 ## Footer
 
@@ -264,7 +271,7 @@ The footer on the bottom of Postman enables you to find and replace text, open t
 
 * <img alt="Hide sidebar icon" src="https://assets.postman.com/postman-docs/icon-hide-sidebar-v9.jpg#icon" width="18px"> **Hide sidebar** - Close or reopen the [sidebar](#sidebar).
 * <img alt="Checkmark icon" src="https://assets.postman.com/postman-docs/icon-checkmark-v9.jpg#icon" width="16px"> **Sync status** - See if you are connected to Postman's servers and your data is [syncing](/docs/getting-started/basics/syncing/).
-* <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Find and replace** - _(Postman desktop app only)_ Search the current workspace. You can also use the shortcuts **⌘+Shift+F** or **Ctrl+Shift+F**. Enter your search string then select **Find**. Limit your search to a specific element type by selecting **Collections**, **Environments**, **Globals**, or **Open tabs**. To replace your search term in a selected element, select **Replace in selected**.
+* <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Find and replace** - _(Available on the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/))_ Search the current workspace. You can also use the shortcuts **⌘+Shift+F** or **Ctrl+Shift+F**. Enter your search string then select **Find**. Limit your search to a specific element type by selecting **Collections**, **Environments**, **Globals**, or **Open tabs**. To replace your search term in a selected element, select **Replace in selected**.
 * <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** - [Inspect and debug](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) your Postman requests.
 
 <img alt="Postman footer right view" src="https://assets.postman.com/postman-docs/v10/navigating-postman-footer-right-v10-18.jpg" width="900px"/>
@@ -272,8 +279,8 @@ The footer on the bottom of Postman enables you to find and replace text, open t
 * <img alt="Postbot icon" src="https://assets.postman.com/postman-docs/v10/icon-postbot-v10-16.jpg#icon" width="18px"> **Postbot** - Open the [Postbot](/docs/getting-started/basics/about-postbot/) AI assistant to ask questions and search for answers.
 * <img alt="Git branch icon" src="https://assets.postman.com/postman-docs/icon-source-control.jpg#icon" width="16px"/> **Git branch icon** - For [APIs using a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/), switch branches and open the **Source Control** pane.
 * <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Runner** - Open the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
-* **Select Postman Agent** - _(Postman web app only)_ Select which [Postman Agent](/docs/getting-started/basics/about-postman-agent/) is used: the Cloud Agent, Desktop Agent, Browser Agent, or auto-select an agent.
-* <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Start Proxy** - _(Postman desktop app only)_ Start the [Postman proxy](/docs/sending-requests/capturing-request-data/capture-overview/).
+* **Select Postman Agent** - _(Available on the Postman web app)_ Select which [Postman Agent](/docs/getting-started/basics/about-postman-agent/) is used: the Cloud Agent, Desktop Agent, Browser Agent, or auto-select an agent.
+* <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Start Proxy** - _(Available on the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/))_ Start the [Postman proxy](/docs/sending-requests/capturing-request-data/capture-overview/).
 * <img alt="Cookies icon" src="https://assets.postman.com/postman-docs/icon-cookies.jpg#icon" width="16px"> **Cookies** - View, manage, and sync [cookies](/docs/sending-requests/cookies/).
 * <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Trash** - Recover or permanently delete any deleted collections.
 * <img alt="Two pane view icon" src="https://assets.postman.com/postman-docs/icon-two-pane-v9.jpg#icon" width="16px"> **Two-pane view** - Toggle between a single pane view and a two pane view.

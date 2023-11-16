@@ -35,10 +35,10 @@ contextual_links:
     url:  "https://academy.postman.com/path/api-beginner"
 ---
 
-If you're using the Postman desktop app and not signed in, you're in the [lightweight Postman API Client](/docs/getting-started/basics/using-api-client/), which is a space where you can build and send requests. If you want to sync your work, organize requests into collections, collaborate with others, or use other features, sign up for an account and sign in to Postman.
+If you're using the [Postman desktop app](/docs/getting-started/first-steps/get-postman/) and not signed in, you're in the [lightweight Postman API Client](/docs/getting-started/basics/using-api-client/), which is a space where you can build and send requests. If you want to sync your work, organize requests into collections, collaborate with others, or use other features, sign up for a free account and sign in to Postman.
 
 To create an account, select **Create Account** in the upper-right corner. You can sign up using an email address or using your Google account. You'll be prompted to provide some information about yourself, including your name and role, to help customize your Postman experience. Enter your details and select **Continue**.
 
-You can sign in to the Postman desktop app by selecting **Sign In** in the upper-right corner. You can also go to [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner of the page. This enables you to use Postman web app, and carry out your API development and testing tasks in your web browser.
+You can sign in to the Postman desktop app by selecting **Sign In** in the upper-right corner. You can also go to [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner of the page. This enables you to carry out many of your API development and testing tasks in your web browser. Keep in mind that some features aren't supported when using the [Postman web app](/docs/getting-started/installation/installation-and-updates/#web-limitations), so use the [Postman desktop app](/docs/getting-started/first-steps/get-postman/) for the full Postman experience.
 
-To learn more about creating and updating your Postman account, visit [managing your account](/docs/getting-started/installation/postman-account/).
+> To learn more about creating and updating your Postman account, visit [Manage your Postman account](/docs/getting-started/installation/postman-account/).
