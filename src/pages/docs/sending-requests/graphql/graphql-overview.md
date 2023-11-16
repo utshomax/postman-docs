@@ -43,9 +43,9 @@ GraphQL is schema-driven, which provides insight into an API's functionality and
 
 Postman has a [GraphQL client](/docs/sending-requests/graphql/graphql-client-interface/) where you can debug and document your API with GraphQL requests. If you haven't already, [download and install the Postman desktop app](/docs/getting-started/installation/installation-and-updates/) to get started.
 
-> You can also make GraphQL requests using Postman's standard HTTP interface. To learn more, see [Other GraphQL requests](/docs/sending-requests/graphql/graphql-http/).
+> You can also make GraphQL requests using Postman's regular request interface. To learn more, see [Other GraphQL requests](/docs/sending-requests/graphql/graphql-http/).
 
-Requests in Postman enable you to make API calls and view the responses from the server. Using a GraphQL request, you can load a GraphQL schema to browse the documentation of what’s available from the server, create your queries, execute them, and view the responses from the server. The request interface has a visual query builder to help you create the queries faster. Once the schema is loaded, you can select the fields you want to query, and Postman builds your query automatically based on your selection. You can save your GraphQL requests into a collection to reuse later, document them and share them with your teammates, or publish them to the community on [Postman's public API network](/docs/getting-started/first-steps/exploring-public-api-network/).
+The GraphQL client loads a GraphQL schema with introspection, enabling you to browse the data fields available from the server in the query explorer. You can create queries with the query explorer by selecting the fields. Postman builds your query automatically in the query editor based on your selections. You can save your GraphQL requests into a collection to reuse later, document them and share them with your teammates, or publish them to the community on [Postman's public API network](/docs/getting-started/first-steps/exploring-public-api-network/).
 
 ## Next steps
 
