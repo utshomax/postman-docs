@@ -160,10 +160,10 @@ You can check for updates to the desktop app if it isn't available to install. I
 
 Postman's infrastructure runs on Amazon's AWS platform. If you're operating behind a network firewall, you'll need to allow the following domains to make WebSocket connections for Postman:
 
-* `\*.getpostman.com`
-* `\*.postman.co`
-* `\*.pstmn.io`
-* `\*postman.com`
+* `*.getpostman.com`
+* `*.postman.co`
+* `*.pstmn.io`
+* `*.postman.com`
 
 By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443). For Postman v10, allow the following domains:
 
