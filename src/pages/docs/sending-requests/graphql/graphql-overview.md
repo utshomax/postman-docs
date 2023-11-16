@@ -62,7 +62,7 @@ GraphQL requests can perform three types of operations:
 
 ## The Postman GraphQL client
 
-Postman's [GraphQL client](/docs/sending-requests/graphql/graphql-client-interface/) loads automatically when you create a new GraphQL request. The GraphQL client interface is designed specifically for creating GraphQL requests. The GraphQL client enables you to browse an API's data fields and build a query by selecting fields.
+Postman's [GraphQL client](/docs/sending-requests/graphql/graphql-client-interface/) loads automatically when you create a new GraphQL request. The GraphQL client interface is specifically designed for crafting GraphQL requests, enabling you to explore an API's data fields and construct queries by selecting fields.
 
 > You can also make GraphQL requests using Postman's regular request interface. To learn more, see [Other GraphQL requests](/docs/sending-requests/graphql/graphql-http/).
 
