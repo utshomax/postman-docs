@@ -67,17 +67,17 @@ Contact your IT team to establish the procedure for adding a new piece of softwa
 
 ### Secure your Postman team
 
-Depending on your [plan](https://www.postman.com/pricing), you may be able to secure your Postman team's users with domain verification, SSO, SCIM, and account capture. You must first configure SSO before you can configure SCIM provisioning and account capture.
+Depending on your [plan](https://www.postman.com/pricing), you can secure your Postman team's users by setting up [SSO](/docs/administration/sso/intro-sso/), [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/), and domain [verification](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/#why-should-my-organization-verify-a-domain-with-postman) and [capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/#why-should-my-organization-enable-domain-capture-in-postman). You must first configure SSO before you can configure SCIM provisioning and domain capture.
 
-> You might need to contact your IT team for help with configuring SSO, SCIM, and domain verification and account capture.
+> You might need to contact your IT team for help with configuring SSO, SCIM, and domain verification and capture.
 
-Team Admins can [configure domain verification](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/) to verify your organization's domain or subdomain. This enables you to instantly onboard users who created Postman accounts with your verified domain or subdomain. You must verify your domain or subdomain before you can configure account capture. It's recommended that you begin the domain verification process early because the time to complete this task varies by organization.
+Team Admins can [configure domain verification](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/#add-and-verify-a-domain) to verify your organization's domain or subdomain. This enables you to instantly onboard users who created Postman accounts with your verified domain or subdomain. You must verify your domain or subdomain before you can configure domain capture. It's recommended that you begin the domain verification process early because the time to complete this task varies by organization.
 
 Team Admins can [configure single sign-on (SSO) for your team](/docs/administration/sso/admin-sso/) to configure an authentication method for your team with an identity provider (IdP). Postman supports several IdPs you can use to configure SSO for your team. After you configure SSO for your team, it's recommended that you internally document how to [sign in to Postman with SSO](/docs/administration/sso/user-sso/), such as your Postman team's domain and steps for signing in with SSO details.
 
-Team Admins can [configure SCIM (System for Cross-domain Identity Management) for your team](/docs/administration/sso/admin-sso/) to automate user provisioning and de-provisioning for your Postman team using your IdP, such as Okta or OneLogin.
+Team Admins can [configure SCIM (System for Cross-domain Identity Management) for your team](/docs/administration/scim-provisioning/scim-provisioning-overview/#enabling-scim-provisioning) to automate user provisioning and de-provisioning for your Postman team using your IdP, such as Okta or OneLogin.
 
-Team Admins can [configure account capture](/docs/administration/domain-verification-and-capture/enable-domain-capture/) to consolidate Postman user accounts in your organization into a single team. Before you configure account capture, it's recommended that you notify users that their accounts will be merged, and [enable Auto-flex](/docs/billing/billing/#using-auto-flex) to ensure your team can automatically accommodate all users added to your team.
+Team Admins can [configure domain capture](/docs/administration/domain-verification-and-capture/enable-domain-capture/) to consolidate Postman user accounts in your organization into a single team. Before you configure domain capture, it's recommended that you notify users that their accounts will be merged, and [enable Auto-flex](/docs/billing/billing/#using-auto-flex) to ensure your team can automatically accommodate all users added to your team.
 
 ### Merge teams into a single account
 
