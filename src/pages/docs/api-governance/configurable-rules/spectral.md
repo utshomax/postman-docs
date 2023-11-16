@@ -329,7 +329,7 @@ JSON Schema specification enables you to describe a JSON document using a standa
 
 You can add a JSON Schema that defines and validates your custom function's options. To learn about adding a JSON Schema to your custom function, see the [`createRulesetFunction` Spectral function](#createrulesetfunction).
 
-You can use the official JSON Schema [documentation](https://json-schema.org/learn/getting-started-step-by-step.html) to learn more about describing a JSON document using this format.
+You can use the [official JSON Schema documentation](https://json-schema.org/learn/getting-started-step-by-step.html) to learn more about describing a JSON document using this format.
 
 #### JSON Schema examples
 
@@ -394,7 +394,7 @@ Before the custom function, the [`createRulesetFunction` Spectral function](#cre
 
 The custom function checks the value of the option `values`, which is defined in the [Spectral document](#example-rule-that-uses-a-custom-function) (or ruleset) using the [`then.functionOptions` property](#spectral-rule-properties). The value of `values` is a list of numeric strings. If `targetVal` is a value already in the list, the rule violation is triggered.
 
-After the custom function, `export default` or `module.exports` calls the `createRulesetFunction` Spectral function and includes the following arguments: a JSON object containing JSON Schemas of the `targetVal` parameter and `options` parameter, and the custom function's name. This exports the custom function so the rule can add it using the [`then.function` property](#spectral-rule-properties)`.
+After the custom function, `export default` or `module.exports` calls the `createRulesetFunction` Spectral function and includes the following arguments: a JSON object containing JSON Schemas of the `targetVal` parameter and `options` parameter, and the custom function's name. This exports the custom function so the rule can add it using the [`then.function` property](#spectral-rule-properties).
 
 ```js
 // filename: not_in_enumeration
