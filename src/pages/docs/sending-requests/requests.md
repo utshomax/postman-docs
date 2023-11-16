@@ -164,11 +164,15 @@ Choose the data type you need for your request body—[form data](#form-data), [
 
 #### Form data
 
-Website forms often send data to APIs as `multipart/form-data`. You can replicate this in Postman using the `form-data` __Body__ tab. Form data enables you to send key-value pairs, and specify the content type.
+Website forms often send data to APIs as `multipart/form-data`. You can replicate this in Postman using the `form-data` __Body__ tab. Form data enables you to send key-value pairs and specify the content type.
+
+You can also attach a file using form data and send it with your request. Hover over a key and select the **File** option. Then select **Select file** and choose the file you want to send. You can select a file from your local system, and Postman saves the file path in the request.
+
+>You can also upload a file to the Postman cloud. This is useful if you want to share the request with others on your team or use the request in a monitor or scheduled collection run. Learn more about [uploading files for shared requests](#upload-files-for-shared-requests).
+
+UPDATE SCREENSHOT
 
 ![Form Data](https://assets.postman.com/postman-docs/v10/form-data-v10.jpg)
-
-> You can attach files using form data. When you repeatedly make API calls that send the same files, Postman will persist your file paths for later use. This also helps you run collections that contain requests requiring file upload. Uploading multiple files each with their own content type isn't supported.
 
 #### URL-encoded
 
@@ -192,7 +196,13 @@ For JSON raw body data, you can add comments, and they will be stripped out when
 
 #### Binary data
 
-You can use __binary__ data to send information you can't enter manually in the Postman editor with your request body, such as image, audio, and video files (you can also send text files).
+You can use __binary__ data to send information you can't enter manually in the Postman editor with your request body, such as image, audio, and video files. (You can also send text files.)
+
+Select **Select file** and choose the file you want to send. You can select a file from your local system, and Postman saves the file path in the request.
+
+>You can also upload a file to the Postman cloud. This is useful if you want to share the request with others on your team or use the request in a monitor or scheduled collection run. Learn more about [uploading files for shared requests](#upload-files-for-shared-requests).
+
+SCREENSHOT
 
 #### GraphQL
 
@@ -258,34 +268,35 @@ You can manage Cookies for your domains from Postman. Select __Cookies__ (under 
 
 ## Upload files for shared requests
 
-You can attach a file from your local working directory to a request as form data or binary data, and Postman will use the file when sending the request. However, if you share the request in a workspace, other team members won't be able to send the request unless they put a copy of the same file in their own local working directory. Also, a local file won't be available when sending a request from a monitor or a scheduled collection run, as these are run in the Postman cloud rather than locally.
+You can attach a file from your local [working directory](/docs/getting-started/installation/settings/#working-directory) to a request as form data or binary data. Postman will save the file path and use the file when sending the request. However, if you share the request in a [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/), the local file isn't shared. This means other team members won't be able to send the request unless they put a copy of the same file in their own local working directory. Also, a local file won't be available when sending a request from a [monitor](/docs/monitoring-your-api/intro-monitors/) or a [scheduled collection run](/docs/collections/running-collections/scheduling-collection-runs/), which are run in the Postman cloud and not locally.
 
 To enable sharing requests that use files, you can upload the files to the Postman cloud. Uploaded files are available to all members of your team and can be used to send requests that are shared in a workspace. Uploaded files are also available to requests sent from monitors and scheduled collection runs.
 
-> You must have Editor access for a collection to upload a file for a request in the collection. Files can't be uploaded from scripts.
+> You must have [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) to upload a file for a request in the collection. Files can't be uploaded from scripts.
 
-To a upload a file to the Postman cloud, do the following:
+To upload a file to the Postman cloud, do the following:
 
 1. Open a request and select the **Body** tab.
 1. Select **form-data** or **binary** depending on the type of data you want to send with the request.
-1. Add a new key, or select an existing key, and select the **File** option.
+1. _(Form data only)_ Hover a key and select the **File** option.
 
     SCREENSHOT
 
 1. Select **Select files** and choose an option:
 
     * To use a local file, select **+ New file from local machine**. Select a file and select **Open**. Supported file types are CSV, JSON, and binary.
-    * To use a file that was uploaded before, select the file in the list.
+    * To use a file that was uploaded before, select the file in the list. You can use any file uploaded by a member of your team.
 
     SCREENSHOT
 
-1. To upload a file, select the upload icon ICON and select **Upload**. Uploaded files can't exceed 5 MB in size.
+1. To upload a file, select the upload icon ICON next to the file and select **Upload**. Uploaded files can't exceed 5 MB in size.
 
-After uploading the file, if you share the request in a workspace, other team members can send the request without needing to place the file in their local working directory. Also, the file is used if the request is sent from a monitor or scheduled collection run.
+After uploading the file, if you share the request in a workspace, other team members can send the request without needing to place a copy of the file in their local working directory. Instead, the request will use the uploaded file. Also, the uploaded file is used if the request is sent from a monitor or a scheduled collection run.
 
-Uploaded files can be used in any requests that you or other team members create. Team members with Viewer access for a collection can view or download files that have been uploaded to the collection (except in public workspaces).
+Uploaded files can be used in any requests that you or other members of your team create. Team members with [Viewer access](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) for a collection can view and download files that have been uploaded to the collection (except in public workspaces).
+Uploaded files can also be accessed by the [Postman CLI](/docs/postman-cli/postman-cli-overview/) and [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/) when automating runs.
 
-> Your Postman plan gives you a limited amount of storage space you can use for uploaded files. To delete a file, you must be a Team Admin. Learn more about managing storage space.
+> Your [Postman plan](https://www.postman.com/pricing/) gives you a limited amount of storage space you can use for uploaded files. To delete a file, you must be a Team Admin. Learn more about [managing storage usage](/docs/billing/resource-usage/#storage-usage).
 
 ## Choosing custom settings
 
