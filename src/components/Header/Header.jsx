@@ -220,26 +220,19 @@ const Header = (props) => {
     }
   }
 
-  const showTargetElementLC = () => {
+  const toggleSecondaryNavMenu = () => {
     // LC Mobile Icon Transition
     const togglerSecondary = document
       .getElementById('secondaryNav')
       .getAttribute('aria-expanded');
     const toggleChevron = document.getElementById('navbar-chevron-icons');
-    if (togglerSecondary === 'true') {
-      toggleChevron.classList.add('open');
-    }
-  }
-
-  const hideTargetElementLC = () => {
-    const toggleChevron = document.getElementById('navbar-chevron-icons');
-    const togglerSecondary = document
-      .getElementById('secondaryNav')
-      .getAttribute('aria-expanded');
     if (togglerSecondary === 'false') {
+      toggleChevron.classList.add('open');
+    } else {
       toggleChevron.classList.remove('open');
     }
   }
+
   /* eslint-enable class-methods-use-this */
 
   return (
@@ -311,7 +304,7 @@ const Header = (props) => {
                       </svg>
                     </a>
                       <DropdownStyles
-                          className="dropdown-menu"
+                          className="dropdown-menu dropdown-primary"
                           aria-labelledby="navbarDropdownMenuLink"
                         >
                           { item.columns && item.columns &&
@@ -420,8 +413,7 @@ const Header = (props) => {
             </DropdownStylesSecond>
           <button
             onClick={() => {
-              showTargetElementLC();
-              hideTargetElementLC();
+              toggleSecondaryNavMenu();
             }}
             id="secondaryNav"
             className="mobile-sign-in navbar-toggler"
