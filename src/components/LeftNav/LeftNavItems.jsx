@@ -270,6 +270,10 @@ export const leftNavItems = [
             name: 'Akamai Edgegrid',
             url: '/docs/sending-requests/authorization/akamai-edgegrid/',
           },
+          {
+            name: 'ASAP (Atlassian)',
+            url: '/docs/sending-requests/authorization/atlassian/',
+          },
         ],
       },
       {
@@ -286,7 +290,22 @@ export const leftNavItems = [
       },
       {
         name: 'Group values in environments',
-        url: '/docs/sending-requests/managing-environments/',
+        subParentSlug: 'environments',
+        slug: '/docs/sending-requests/environments/managing-environments/',
+        subMenuItems2: [
+          {
+            name: 'Create and use environments',
+            url: '/docs/sending-requests/environments/managing-environments/',
+          },
+          {
+            name: 'Set environment variables',
+            url: '/docs/sending-requests/environments/environment-variables/',
+          },
+          {
+            name: 'Manage team environments',
+            url: '/docs/sending-requests/environments/team-environments/',
+          },
+        ]
       },
       {
         name: 'Visualize request responses',
@@ -419,7 +438,50 @@ export const leftNavItems = [
       },
       {
         name: 'Send WebSocket requests',
-        url: '/docs/sending-requests/websocket/websocket/',
+        subParentSlug: 'websocket',
+        slug: '/docs/sending-requests/websocket/websocket-overview/',
+        subMenuItems2: [
+          {
+            name: 'Make WebSocket requests with Postman',
+            url: '/docs/sending-requests/websocket/websocket-overview/'
+          },
+          {
+            name: 'Create a WebSocket request',
+            url: '/docs/sending-requests/websocket/create-a-websocket-request/'
+          },
+          {
+            name: 'Create a Socket.IO request',
+            url: '/docs/sending-requests/websocket/create-a-socketio-request/'
+          },
+          {
+            name: 'Work with WebSocket messages',
+            url: '/docs/sending-requests/websocket/work-with-websocket-messages/'
+          },
+          {
+            name: 'Listen to Socket.IO events',
+            url: '/docs/sending-requests/websocket/listen-to-socketio-events/'
+          },
+          {
+            name: 'Use variables in WebSocket requests',
+            url: '/docs/sending-requests/websocket/use-variables-with-websocket/'
+          },
+          {
+            name: 'Add details to a WebSocket request',
+            url: '/docs/sending-requests/websocket/add-details-websocket/'
+          },
+          {
+            name: 'Save WebSocket requests',
+            url: '/docs/sending-requests/websocket/save-websocket-requests/'
+          },
+          {
+            name: 'Document WebSocket requests',
+            url: '/docs/sending-requests/websocket/document-websocket-requests/'
+          },
+          {
+            name: 'Troubleshoot WebSocket requests',
+            url: '/docs/sending-requests/websocket/troubleshoot-websocket-requests/'
+          },
+        ],
       },
       {
         name: 'Send MQTT client requests',
@@ -608,7 +670,11 @@ export const leftNavItems = [
             url: '/docs/collections/using-newman-cli/newman-file-uploads/',
           },
           {
-            name: 'Create custom reporters',
+            name: 'Use Newman built-in reporters',
+            url: '/docs/collections/using-newman-cli/newman-built-in-reporters/',
+          },
+          {
+            name: 'Use Newman external and custom reporters',
             url: '/docs/collections/using-newman-cli/newman-custom-reporters/',
           },
           {
@@ -889,8 +955,8 @@ export const leftNavItems = [
             url: '/docs/collaborating-in-postman/using-version-control/version-control-overview/',
           },
           {
-            name: 'Fork Postman entities',
-            url: '/docs/collaborating-in-postman/using-version-control/forking-entities/',
+            name: 'Fork Postman elements',
+            url: '/docs/collaborating-in-postman/using-version-control/forking-elements/',
           },
           {
             name: 'Create pull requests',
@@ -1209,8 +1275,12 @@ export const leftNavItems = [
   {
     name: 'Administration',
     parentSlug: 'administration',
-    url: '/docs/administration/managing-your-team/managing-your-team/',
+    url: '/docs/administration/admin-overview/',
     subMenuItems1: [
+      {
+        name: 'Admin overview',
+        url: '/docs/administration/admin-overview/',
+      },
       {
         name: 'Onboarding checklist',
         url: '/docs/administration/onboarding-checklist/',

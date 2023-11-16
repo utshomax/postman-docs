@@ -51,7 +51,7 @@ Once the monitor is running you’ll be alerted to any test failures, so you can
 
 ## Collection-based monitors
 
-A collection-based monitor runs a series of requests from the Postman cloud on a schedule you set. When creating a monitor, you choose a [collection](/docs/sending-requests/intro-to-collections/) with the requests you want to run. These can be basic requests that indicate whether an endpoint is up and reachable. More complex collections can make use of [chained requests](https://www.youtube.com/watch?v=shYn3Ys3ygE), [test scripts](/docs/writing-scripts/test-scripts/), and [environment variables](/docs/sending-requests/managing-environments/) to validate API responses and functionality.
+A collection-based monitor runs a series of requests from the Postman cloud on a schedule you set. When creating a monitor, you choose a [collection](/docs/sending-requests/intro-to-collections/) with the requests you want to run. These can be basic requests that indicate whether an endpoint is up and reachable. More complex collections can make use of [chained requests](https://www.youtube.com/watch?v=shYn3Ys3ygE), [test scripts](/docs/writing-scripts/test-scripts/), and [environment variables](/docs/sending-requests/environments/managing-environments/) to validate API responses and functionality.
 
 You can configure your monitors to run as often as you would like, depending on your [Postman plan](https://www.postman.com/pricing/). For paid plans, monitors can be scheduled to run as often as every five minutes. For free plans, monitors can be scheduled to run as often as every hour. If you are on a Postman paid plan, you can even specify which region of the world you’d like to run the collection from.
 
@@ -70,7 +70,7 @@ Because they run Postman requests and scripts, collection-based monitors can be 
 * **Monitor the security of your endpoints** - Continuously test APIs for known security vulnerabilities.
 * **Visualize results on the monitor dashboard** - Get better visibility into API performance over time and identify trends.
 
-> For more examples of monitors in action, visit the [Postman API Monitoring Examples public workspace](https://www.postman.com/postman/workspace/postman-api-monitoring-examples/overview) to find example collections for some common monitoring use cases. You can collaborate on the collections in the workspace by [creating a fork](/docs/collaborating-in-postman/using-version-control/forking-entities/#creating-a-fork), or customize the collections for your team's use by [exporting and importing them into your team workspace](/docs/getting-started/importing-and-exporting/exporting-data/#exporting-collections).
+> For more examples of monitors in action, visit the [Postman API Monitoring Examples public workspace](https://www.postman.com/postman/workspace/postman-api-monitoring-examples/overview) to find example collections for some common monitoring use cases. You can collaborate on the collections in the workspace by [creating a fork](/docs/collaborating-in-postman/using-version-control/forking-elements/#creating-a-fork), or customize the collections for your team's use by [exporting and importing them into your team workspace](/docs/getting-started/importing-and-exporting/exporting-data/#exporting-collections).
 
 ## Comparing monitors and collection runs
 

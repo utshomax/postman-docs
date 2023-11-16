@@ -151,7 +151,7 @@ For more information on Postbot, visit [About Postbot](/docs/getting-started/bas
 
 ## Try it out
 
-For more examples of Visualizer code in action, add any of the following collections to your workspace by [forking the collection](/docs/collaborating-in-postman/using-version-control/forking-entities/). You can also [export and then import](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/) the collection. After you fork or import the collection, open a request from **Collections** in the sidebar, then select **Send**. Postman will display the rendered data in the **Visualize** tab.
+For more examples of Visualizer code in action, add any of the following collections to your workspace by [forking the collection](/docs/collaborating-in-postman/using-version-control/forking-elements/). You can also [export and then import](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/) the collection. After you fork or import the collection, open a request from **Collections** in the sidebar, then select **Send**. Postman will display the rendered data in the **Visualize** tab.
 
 * [DIY collection that renders a bar chart using ChartJS](https://www.postman.com/postman/workspace/postman-team-collections/collection/4946945-e5ae7007-0d34-46d4-9491-6f1526eb67ac?action=share&creator=16724969)
 

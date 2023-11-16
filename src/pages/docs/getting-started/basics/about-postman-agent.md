@@ -16,11 +16,11 @@ contextual_links:
     url: "https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/"
 ---
 
-Postman has multiple agents you can use to send your API requests from the [Postman web app](/docs/getting-started/installation/installation-and-updates/#using-the-postman-web-app): the Postman Desktop Agent, the Postman Cloud Agent, or the Postman Browser Agent.
+The Postman Agent enables you to send API requests from your browser when using the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app). Using the Postman Agent is required due to the cross-origin resource sharing (CORS) limitations of browsers.
 
-From the Postman web app, you can select the **Auto-select** toggle for Postman to automatically select the best agent for your requests. You can also manually select the agent for your requests.
+For the best experience, [install the Postman desktop app](/docs/getting-started/installation/installation-and-updates/). You can then use the [Postman Desktop Agent](#the-postman-desktop-agent) to send requests from your browser without any limitations.
 
-> If you are using the Postman web app, Postman recommends using the [Postman Desktop Agent](#the-postman-desktop-agent) for the best experience.
+Alternately, you can use the [Postman Cloud Agent](#the-postman-cloud-agent) or the [Postman Browser Agent](#the-postman-browser-agent) to send requests from your browser. The Postman web app can [automatically select](#selecting-a-postman-agent-for-requests) the best agent for your requests. You can also [manually select](#selecting-a-postman-agent-for-requests) an agent for your requests.
 
 ## Contents
 
@@ -41,7 +41,7 @@ In the [agent selector](#selecting-a-postman-agent-for-requests), you will be pr
 
 ### The Postman Cloud Agent
 
-The Postman Cloud Agent enables you to bypass the limitations that exist in the browser by allowing API requests to originate in the browser, but be routed through Postman's cloud servers. The Cloud Agent overcomes the CORS limitations of browsers and acts as your agent for making API requests from the Postman web app.
+The Postman Cloud Agent enables you to bypass the limitations that exist in the browser by routing requests through Postman's cloud servers. The Cloud Agent overcomes the CORS limitations of browsers and acts as your agent for making API requests from the Postman web app.
 
 Your team can make a set number of requests using the Cloud Agent each month. Your [team's usage limits](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#team-usage-limits) are based on your [plan type](https://www.postman.com/pricing/). To view your team's usage of the Postman Cloud Agent, see [Managing resources](/docs/billing/billing/#managing-resources).
 

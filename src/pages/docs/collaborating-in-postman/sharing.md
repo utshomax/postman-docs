@@ -52,7 +52,7 @@ You can share your collections, collection folders, APIs, and environments with 
 * For collections, APIs, Flows, and environments, open the element you want to share, then select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share** from the element's overview page.
 * Hover over the element's name in the overview page and select the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> to copy the element's URL to the clipboard.
 * You can also select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you want to share and select **Copy Link** to copy the element's URL to the clipboard.
-* To share a URL to a collection, folder, or request with an active environment selected, [choose an environment using the environment selector](/docs/sending-requests/managing-environments/#selecting-an-active-environment), copy the element's link to your clipboard, then send the link to team members you want to share with.
+* To share a URL to a collection, folder, or request with an active environment selected, [choose an environment using the environment selector](/docs/sending-requests/environments/managing-environments/#switch-between-environments), copy the element's link to your clipboard, then send the link to team members you want to share with.
 
 ### Sharing using names, emails, or groups
 
@@ -89,7 +89,7 @@ You can share collections in a website or README with a Run in Postman button.
 
 For more information on making and using a Run in Postman button, read [Create Run in Postman buttons](/docs/publishing-your-api/run-in-postman/creating-run-button/).
 
-<img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/v10/share-collection-run-in-postman-v10-2.jpg"/>
+<img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/v10/share-collection-run-in-postman-v10-3.jpg"/>
 
 ### Sharing using the Postman API
 

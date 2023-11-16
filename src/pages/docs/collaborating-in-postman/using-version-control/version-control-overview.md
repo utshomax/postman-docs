@@ -31,11 +31,11 @@ Postman's _version control_ features can help you and your team to collaborative
 
 > Version control for collections and environments is different from API versioning. For information on managing multiple versions of APIs, see [API version control overview](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/).
 
-## Forking Postman entities
+## Forking Postman elements
 
 You can fork collections, environments, and Flows from a parent element. Forking enables you to contribute to an element without having Editor access to that element.
 
-Learn more about [forking Postman entities](/docs/collaborating-in-postman/using-version-control/forking-entities/).
+Learn more about [forking Postman elements](/docs/collaborating-in-postman/using-version-control/forking-elements/).
 
 ## Creating pull requests
 

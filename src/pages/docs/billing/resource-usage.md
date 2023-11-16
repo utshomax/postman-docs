@@ -101,7 +101,7 @@ Once you've reached your usage limit, you will no longer be able to run performa
 
 ## Postbot calls
 
-Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of [Postbot](/docs/getting-started/basics/about-postbot/) interactions. To perform more calls, you can [upgrade your plan](/docs/billing/billing/#team-and-plan-changes).
+Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of [Postbot](/docs/getting-started/basics/about-postbot/) interactions. To perform more calls, you can [purchase more Postbot seats](/docs/billing/billing/#purchasing-add-on-products).
 
 ## Postman API usage
 
@@ -121,7 +121,7 @@ To add a new integration, delete one of your existing integrations or [upgrade y
 
 ## Cloud Agent usage
 
-The [Postman Cloud Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-cloud-agent) enables you to send requests from the [Postman web app](/docs/getting-started/installation/installation-and-updates/#using-the-postman-web-app) without encountering cross-origin resource sharing (CORS) limitations. Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of requests that can be sent using the Cloud Agent each month. After the limit is reached, you will get a `Cloud Agent Error` message when sending a request from the Postman web app using the Cloud Agent.
+The [Postman Cloud Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-cloud-agent) enables you to send requests from the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app) without encountering cross-origin resource sharing (CORS) limitations. Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of requests that can be sent using the Cloud Agent each month. After the limit is reached, you will get a `Cloud Agent Error` message when sending a request from the Postman web app using the Cloud Agent.
 
 ![Cloud Agent usage error](https://assets.postman.com/postman-docs/v10/usage-error-cloud-agent-v10.jpg)
 

@@ -100,6 +100,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 ### Application
 
+* **Language** - Select your preferred language for the Postman app and email notifications.
 * **Autosave** - Turn this on to automatically save your changes to collections, requests, and environments. Turn this off to manually save your changes.
 
     > **Autosave is in beta for [Postman Free, Basic, and Professional plans.](https://www.postman.com/pricing/)**
@@ -170,7 +171,7 @@ Use the **Proxy** tab to configure proxy settings for connecting to online servi
 
 ## App updates
 
-Use the **Update** tab to check for updates to the Postman desktop app or to enable automatic updating. Learn more about [updating Postman](/docs/getting-started/installation/installation-and-updates/#updating-postman).
+Use the **Update** tab to check for updates to the Postman desktop app or to enable automatic updating. Learn more about [updating Postman](/docs/getting-started/installation/installation-and-updates/#update-postman).
 
 ## About
 
