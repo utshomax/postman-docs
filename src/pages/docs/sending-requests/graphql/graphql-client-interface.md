@@ -39,29 +39,13 @@ GraphQL requests in Postman include a variety of tools, views, and controls to h
 
 ## Contents
 
-* [Creating a new request](#creating-a-new-request)
-* [Loading a GraphQL schema](#loading-a-graphql-schema)
-* [Understanding parts of the request interface](#understanding-parts-of-the-request-interface)
+* [The request interface](#the-request-interface)
 * [Understanding the response](#understanding-the-response)
 * [Creating and executing multiple queries](#creating-and-executing-multiple-queries)
 * [Using the right sidebar](#using-the-right-sidebar)
 * [Next steps](#next-steps)
 
-## Creating a new request
-
-You can create a new GraphQL request from a workspace, by using **New > GraphQL**, or by selecting **+** to open a new tab.
-
-<img src="https://assets.postman.com/postman-docs/v10/graphql-create-new-4-v10.jpg" alt="Create a new GraphQL request" width="500px">
-
-Select **Save** to [save the request](/docs/collections/using-collections/#adding-a-new-request-to-a-collection) to a collection.
-
-## Loading a GraphQL schema
-
-You can use a GraphQL schema in your request to browse the available data fields. This makes creating queries easier. Postman enables you to load a GraphQL schema using GraphQL introspection. This is the easiest way to fetch the schema directly from the server. When you enter the URL, Postman loads the schema automatically.
-
-You can also choose to [load a GraphQL API from Postman](/docs/designing-and-developing-your-api/importing-an-api/) or [import a schema](/docs/getting-started/importing-and-exporting/importing-data/) from your local system to use in the request.
-
-## Understanding parts of the request interface
+## The request interface
 
 The request interface enables you to add configurations to connect to the server and execute the query. You can define the URL, load the schema, build your query, and select **Query** to execute it. Based on the API requirements, you may also need to pass authorization details, additional metadata, and settings along with the query.
 
