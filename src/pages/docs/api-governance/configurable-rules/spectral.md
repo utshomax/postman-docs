@@ -67,10 +67,10 @@ A Spectral document (often called a ruleset) has a `rules` property that can hav
 
 ```json
 rules:
-api-name-doesnt-contain-api:
-# ...
-api-name-length:
-# ...
+    api-name-doesnt-contain-api:
+    # ...
+    api-name-length:
+    # ...
 ```
 
 Spectral identifies each rule with a key, which can be any JSON-compatible string.
