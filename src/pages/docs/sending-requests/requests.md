@@ -296,6 +296,8 @@ After uploading the file, if you share the request in a workspace, other team me
 Uploaded files can be used in any requests that you or other members of your team create. Team members with [Viewer access](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) for a collection can view and download files that have been uploaded to the collection (except in public workspaces).
 Uploaded files can also be accessed by the [Postman CLI](/docs/postman-cli/postman-cli-overview/) and [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/) when automating runs.
 
+When you upload a file, it's also copied to the cloudFiles directory in your working directory.
+
 > Your [Postman plan](https://www.postman.com/pricing/) gives you a limited amount of storage space you can use for uploaded files. To delete a file, you must be a Team Admin. Learn more about [managing storage usage](/docs/billing/resource-usage/#storage-usage).
 
 ## Choosing custom settings
