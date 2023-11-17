@@ -114,7 +114,7 @@ In your workspaces, you can [group your requests and examples into collections](
 
 You can assign [workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to team members and groups at the [workspace level](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles). You can also assign [element-based roles](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) at the [element level](/docs/collaborating-in-postman/requesting-access-to-elements/#managing-element-based-roles), such as collections and APIs.
 
-Depending on your [plan](https://www.postman.com/pricing), you may be able to [manage who can create team workspaces](/docs/administration/managing-your-team/managing-your-team/#manage-your-teams-workspaces) in your team.
+Depending on your [plan](https://www.postman.com/pricing), you may also be able to [manage who can create team workspaces](/docs/administration/managing-your-team/managing-your-team/#manage-your-teams-workspaces) in your team.
 
 ### Configure integrations
 
