@@ -102,7 +102,9 @@ Team Admins can [manage team members](/docs/administration/managing-your-team/ma
 
 You can [invite users to your team](/docs/administration/managing-your-team/managing-your-team/#inviting-users) by generating a shareable link or by inviting them through a direct email.
 
-You can [manage team-level roles](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles) assigned to individual team members, enabling them to perform different actions within your team. You can also [organize team members into groups](/docs/collaborating-in-postman/user-groups/), and assign team-level roles to groups. Learn more about [team-level roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
+You can [assign team-level roles](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles) to individual team members, enabling them to perform different actions within your team. You can also [organize team members into groups](/docs/collaborating-in-postman/user-groups/), and assign team-level roles to groups.
+
+> Learn more about [team-level roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
 
 ### Create workspaces and collections
 
