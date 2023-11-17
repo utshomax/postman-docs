@@ -10,15 +10,9 @@ contextual_links:
   - type: link
     name: "Managing your team"
     url: "/docs/administration/managing-your-team/managing-your-team/"
-  - type: subtitle
-    name: "Blog posts"
-  - type: link
-    name: "Manage Large Teams in Postman with Workspaces, Permissions, and Version Control"
-    url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"
-
 ---
 
-To begin using Postman within your organization, you can perform the following tasks to set your Postman team up for success. It's recommended that you first collaborate with your identified Team Admins and your organization's IT team to set up, secure, and manage Postman in your organization. Then you can set up your Postman team by configuring relevant settings, inviting people to your team and assigning them roles, and creating workspace resources related to your projects.
+To get started using Postman within your organization, you can walk through the following tasks to set your Postman team up for success. It's recommended that you first collaborate with your identified Team Admins and your organization's IT team to set up, secure, and manage Postman in your organization. Then you can set up your Postman team by configuring relevant settings, inviting people to your team and assigning them roles, and creating workspace resources related to your projects.
 
 You can [download and install the Postman desktop app](/docs/getting-started/installation/installation-and-updates/) for Windows, Mac, and Linux. You can also [access Postman on the web](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app) with the [Postman Agent](/docs/getting-started/basics/about-postman-agent/).
 
@@ -41,11 +35,11 @@ You can [download and install the Postman desktop app](/docs/getting-started/ins
 
 ## Set up Postman in your organization
 
-To begin setting up Postman, assign the Team Admin role to one or more users, giving them permission to set up Postman and your team. Then Team Admins can contact your IT team for help with setting up, managing, and securing Postman in your organization. After you set up Postman, you can [set up your Postman team](#set-up-your-team).
+To begin setting up Postman, assign the Team Admin role to one or more users. This role gives them permission to set up Postman and your team. Team Admins can then contact your IT team for help with setting up, managing, and securing Postman in your organization. After you set up Postman, you can [set up your Postman team](#set-up-your-postman-team).
 
 ### Manage Team Admins and support users
 
-Identify users in your organization to be [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), giving them permission to manage team members and team settings. [Create a Postman account](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account) for these users, and [assign them the Team Admin role](/docs/administration/managing-your-team/managing-your-team/#managing-team-members).
+Identify users in your organization to be [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), giving them permission to manage team members and team settings. [Create a Postman account](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account) for these users, and [assign them the Team Admin role](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
 
 Team Admins can [assign the Super Admin role](/docs/administration/managing-your-team/managing-your-team/#managing-super-admins) to team members and [groups](/docs/collaborating-in-postman/user-groups/), giving them permission to manage everything with a team. It's recommended that you create a user account that isn't tied to an individual team member, and assign the Super Admin role to that user account.
 
