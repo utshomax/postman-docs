@@ -122,4 +122,4 @@ Postman has multiple integrations for popular third-party solutions. You can [ad
 
 ## Questions
 
-If you have any questions or run into any issues setting up Postman for your team, check out the [Postman support center](https://www.postman.com/support) or explore the [Postman Community](https://community.postman.com/). You can also contact [Postman support](https://www.postman.com/support/) with any questions.
+If you have any questions or run into any issues setting up Postman for your team, check out the [Postman support center](https://www.postman.com/support) or explore the [Postman Community](https://community.postman.com/).
