@@ -77,6 +77,8 @@ Team Admins can [configure domain capture](/docs/administration/domain-verificat
 
 You can merge one or more Postman teams into a single, company-authorized Postman account. This enables users in your organization to collaborate in the same Postman team. To merge Postman teams, you must [migrate team data into the company-authorized account](/docs/administration/team-merge/).
 
+> Contact [Postman support](https://www.postman.com/support) to discuss the best team migration plan for your organization.
+
 ### Manage the Enterprise app
 
 Depending on your [plan](https://www.postman.com/pricing), you may be able to manage Postman app versioning for your team, or download and install Postman's Enterprise app. Team Admins can [set a team-wide version of Postman](/docs/administration/enterprise/managing-enterprise-deployment/#managing-postman-app-versioning) with help from Postman support, or [download and install the Postman Enterprise app](/docs/administration/enterprise/managing-enterprise-deployment/#deploying-the-postman-enterprise-app) to their organization. Postman's Enterprise app is a variant of Postman’s Desktop app that offers greater control to administrators looking to deploy Postman at an enterprise level.
