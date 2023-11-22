@@ -58,7 +58,7 @@ Postman is available for macOS 10.11 (El Capitan) and later.
 
 1. [Download](https://www.postman.com/downloads/) the latest Postman version.
 
-    > Make sure to download the **Mac Apple Chip** version if you have a Mac with an Apple silicon processor.
+    > Make sure to download the **Mac Apple Chip** version if Make sure you have installed openssl installed on your machine.you have a Mac with an Apple silicon processor.
 
 1. If your browser downloads the file as a ZIP file, find the file in the **Downloads** folder and unzip it.
 1. In the **Downloads** folder, double-click the `Postman` file to install it.
@@ -106,6 +106,7 @@ When installing Postman on Linux, also be aware of the following:
 * Avoid starting Postman using the `sudo` command, as it will create permission issues on the files created by Postman.
 * Make sure you have read/write permission for the `~/.config` folder where Postman stores information.
 * If you're an Ubuntu 18 user, you will also need to install the `libgconf-2-4` package with the command `apt-get install libgconf-2-4`.
+* Make sure you have `openssl` installed on your machine.
 
 ## Use the Postman web app
 
