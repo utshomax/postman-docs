@@ -5,7 +5,7 @@ early_access: true
 plan: beta
 ---
 
-> TypeScript support for Postman Flows is in beta.
+> Postman Flows TypeScript support is in beta.
 
 The **Evaluate** block in Postman Flows now supports TypeScript in addition to [Flows Query Langauge (FQL)](/docs/postman-flows/flows-query-language/introduction-to-fql/).
 
