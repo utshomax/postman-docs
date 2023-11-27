@@ -58,7 +58,7 @@ Postman is available for macOS 10.11 (El Capitan) and later.
 
 1. [Download](https://www.postman.com/downloads/) the latest Postman version.
 
-    > Make sure to download the **Mac Apple Chip** version if Make sure you have installed openssl installed on your machine.you have a Mac with an Apple silicon processor.
+    > Make sure to download the **Mac Apple Chip** version if you have a Mac with an Apple silicon processor.
 
 1. If your browser downloads the file as a ZIP file, find the file in the **Downloads** folder and unzip it.
 1. In the **Downloads** folder, double-click the `Postman` file to install it.
